@@ -6,7 +6,8 @@ lang: en
 category: coordination
 ---
 
-#OSM Tasking Manager Admin
+OSM Tasking Manager Admin
+=========================
 
 > This guide may be downloaded as [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf)  
 > Reviewed 2015-11-23  
@@ -16,17 +17,42 @@ If you are new to mapping with HOT, this guide will probably be more technical t
 
 The HOT or OSM Tasking Manager is frequently referred to as **TM2.**
 
-###Logging in & Access Levels
+Logging in & Access Levels
+--------------------------  
 All access to TM2 is authorised through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you to the OSM page where you can authorise The Tasking Manager to have limited access to your OSM account.
 
-###Access Levels within the OSM Tasking Manager
+Access Levels within the OSM Tasking Manager  
+--------------------------------------------
 -  **User** - Able to login to TM2 and use its functionality to locate an area requiring mapping - fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Some projects, such as those in the draft of archived state are not visible to users.  
 -  **Project Manager** - Create & Update Projects within TM2.  
 -  **Administrator** - Change access levels of users within TM2.
 
-##Creating a new Project within TM2 
+Creating a new Project within TM2 
+---------------------------------
+Once you are logged in, click on your username in the upper right hand corner.  
+In the drop down menu, click **Create a New Project.** There are two options for creating a project:  
 
-<!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
+###Draw an area of interest to be mapped  
+
+-    Click the ‘Draw’ button  
+-    Draw a polygon representing the area of interest in the map frame (right click; keep the right click pressed to move the map without adding a node)
+>the polygon should tightly fit the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
+-    Double click to complete the polygon  
+
+###Upload a GeoJSON or KML file of the area of interest to be mapped  
+
+1.  Click the ‘Import’ button  
+2.  Browse to your file in the File Upload window  
+3.  Click the file name to highlight the file and then click ‘Open’  
+4.  The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  **There are two options**:  
+
+-      Square Grid - AOI is automatically split into grid cells and each cell becomes a task.  
+-      Arbitrary Geometries - Each individual polygon in the AOI represents an individual task. If the AOI consists of one polygon, the project will have just one task.
+Note: this guide only covers the square grid option.
+
+
+
+Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
 Before Creating a Task
 Should this task be a Missing Maps Task? 
@@ -40,19 +66,8 @@ Task Creation Process
 To create a new project, you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Note that you must have certain permissions assigned to your OpenStreetMap account in order to create a new project in the Tasking Manager.  Open your Internet browser and go to tasks.hotosm.org. You will see a page like this:
 
 
-Once you are logged in, click on your username in the upper right hand corner.
-In the drop down menu, click “Create a New Project”.
-
-There are two options for creating a project: 
-Draw an area of interest to be mapped
-Upload a GeoJSON or KML file of the area of interest to be mapped
-
 Option 1 - Draw
-Click the ‘Draw’ button
-Draw a polygon representing the area of interest in the map frame (right click; keep the right click pressed to move the map without adding a node)
-Note: the polygon should tightly fit the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)
 
-Double click to complete the polygon
 
 Option 2 - Import GeoJSON or KML
 Click the ‘Import’ button
@@ -106,7 +121,7 @@ Proofread the various tabs to ensure wording and formatting are correct.
 If further editing is needed, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link.
 Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
-- end of hidden text-->
+<!--Hidden Text -   - end of hidden text-->
 
 ![Tasking Manager Username_list][]
 [Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
