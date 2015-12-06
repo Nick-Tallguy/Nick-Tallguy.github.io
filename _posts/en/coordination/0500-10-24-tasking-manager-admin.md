@@ -6,14 +6,14 @@ lang: en
 category: coordination
 ---
 
-OSM Tasking Manager Admin
+OSM Tasking Manager Admin - Draft
 =========================
 
 > This guide may be downloaded as [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf)  
-> Reviewed 2015-11-23  
+> Reviewed 2015-12-07  
 
-**This Chapter follows on from [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/) and is desgned to help those volunteers who need to update project instructions or create projects within The HOT Tasking Manager.**  
-If you are new to mapping with HOT, this guide will probably be more technical than you require. This guide is specifically written for those persons who need a greater level of access to The HOT Tasking Manager, <http://tasks.hotosm.org/>, but it will also assist anyone who needs to update any other instance of the OSM Tasking Manager - a list of the instances can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
+**This Chapter follows on from [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/) and is desgned to help those who need to update project instructions or create projects within The HOT Tasking Manager.**  
+If you are new to mapping with HOT, this guide will be more technical than you require. This guide is specifically written for those persons who need a greater level of access to The HOT Tasking Manager, <http://tasks.hotosm.org/>, but it will also assist anyone who needs to update any other instance of the OSM Tasking Manager - a list of the instances can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
 
 The HOT or OSM Tasking Manager is frequently referred to as **TM2.**
 
@@ -46,11 +46,14 @@ In the drop down menu, click **Create a New Project.** There are two options for
 3.  Click the file name to highlight the file and then click ‘Open’  
 4.  The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  **There are two options**:  
 
--      Square Grid - AOI is automatically split into grid cells and each cell becomes a task.  
--      Arbitrary Geometries - Each individual polygon in the AOI represents an individual task. If the AOI consists of one polygon, the project will have just one task.
-Note: this guide only covers the square grid option.
+    **Square Grid** - AOI is automatically split into grid cells and each cell becomes a task.  
+    **Arbitrary Geometries** - Each individual polygon in the AOI represents an individual task. If the AOI consists of one polygon, the project will have just one task.  
+
+>this guide only covers the square grid option.
 
 
+Notes only below this line
+---
 
 Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
