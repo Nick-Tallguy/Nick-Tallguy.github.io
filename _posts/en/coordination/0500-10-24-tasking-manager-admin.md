@@ -45,17 +45,24 @@ In the drop down menu, click **Create a New Project.** There are two options for
 2.  Browse to your file in the File Upload window  
 3.  Click the file name to highlight the file and then click ‘Open’  
 4.  The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  **There are two options**:  
-
     **Square Grid** - AOI is automatically split into grid cells and each cell becomes a task.  
     **Arbitrary Geometries** - Each individual polygon in the AOI represents an individual task. If the AOI consists of one polygon, the project will have just one task.  
-
 >this guide only covers the square grid option.
 
+####Square Grids - determining the size  
+Select the Square Grid option and click next.
+Determine the optimal tile size based on the five Tile Size options. Important: the size of tiles is relative, i.e. the same size level will be bigger on a large project than on a small one (“S” or “M” tiles are thus not always of the same size). Note that each polygon will become a single task.  As such, a smaller tile size will result in more tasks as shown in the screenshots below.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. The ideal size of a square is roughly 45 min - 1 hour of work. At larger mapathons or in denser cities smaller tasks (~20 min) are better.
+
+![TM_admin_1][]
 
 Notes only below this line
 ---
 
-Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
+Main source of info <https://docs.google.com/document/d/1zykWGHN1w6ODY13k2uT-bnQZmj7XBGkD7j6cgtzeZA8/edit#heading=h.uwwdk9ptec41>
+
+Google discussion group on TM - <https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ> 
+
+Discussions in HOT mailing list <https://lists.openstreetmap.org/pipermail/hot/2015-December/date.html>
 
 Before Creating a Task
 Should this task be a Missing Maps Task? 
@@ -65,27 +72,6 @@ If yes it should be a HOT project not Missing Maps. Contact the activation lead.
 Is the project backed by one of the existing Missing Maps members?
 Is the imagery high quality without clouds?
 If no contact ARC to see if they can help get new imagery from US Department of State
-Task Creation Process
-To create a new project, you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Note that you must have certain permissions assigned to your OpenStreetMap account in order to create a new project in the Tasking Manager.  Open your Internet browser and go to tasks.hotosm.org. You will see a page like this:
-
-
-Option 1 - Draw
-
-
-Option 2 - Import GeoJSON or KML
-Click the ‘Import’ button
-
-Browse to your file in the File Upload window
-Click the file name to highlight the file and then click ‘Open’.
-
-The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:
-Square Grid - AOI is automatically split into grid cells and each cell becomes a task.
-Arbitrary Geometries - Each individual polygon in the AOI represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
-Note: this guide only covers the square grid option.
-
-Select the Square Grid option and click next.
-Determine the optimal tile size based on the five Tile Size options. Important: the size of tiles is relative, i.e. the same size level will be bigger on a large project than on a small one (“S” or “M” tiles are thus not always of the same size). Note that each polygon will become a single task.  As such, a smaller tile size will result in more tasks as shown in the screenshots below.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. The ideal size of a square is roughly 45 min - 1 hour of work. At larger mapathons or in denser cities smaller tasks (~20 min) are better.
-
 
 
 After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project if needed.  
@@ -126,5 +112,5 @@ Once the project is published, it is available for mapping to anyone with an OSM
 
 <!--Hidden Text -   - end of hidden text-->
 
-![Tasking Manager Username_list][]
-[Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png
+
+[TM_admin_1]: /images/coordination/TM_admin_1.png
