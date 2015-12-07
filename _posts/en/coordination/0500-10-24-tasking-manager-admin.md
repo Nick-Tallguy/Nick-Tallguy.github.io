@@ -34,10 +34,18 @@ In the drop down menu, click **Create a New Project.** There are two options for
 
 ###Draw an area of interest to be mapped  
 
--    Click the ‘Draw’ button  
--    Draw a polygon representing the area of interest in the map frame (right click; keep the right click pressed to move the map without adding a node)
+![TM_admin_2][]
+Click the ‘Draw’ button & navigate to where you would like to create your project - the same technique as when navigating the slippy map at <http://www.openstreetmap.org/>  
+
+![TM_admin_3][]
+Draw a polygon using clicks of the left mouse button, representing the area of interest in the map frame (hold the right mouse button down to move the map without adding a node)
+
+![TM_admin_4][]  
+Double click to complete the polygon.  
+
 >the polygon should tightly fit the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
--    Double click to complete the polygon  
+
+
 
 ###Upload a GeoJSON or KML file of the area of interest to be mapped  
 
@@ -114,3 +122,6 @@ Once the project is published, it is available for mapping to anyone with an OSM
 
 
 [TM_admin_1]: /images/coordination/TM_admin_1.png
+[TM_admin_2]: /images/coordination/TM_admin_2.png
+[TM_admin_3]: /images/coordination/TM_admin_3.png
+[TM_admin_4]: /images/coordination/TM_admin_4.png
