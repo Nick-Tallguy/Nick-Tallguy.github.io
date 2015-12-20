@@ -6,6 +6,7 @@ lang: fa
 category: beginner
 ---
 
+<p dir=rtl>
 مطالعه بیشتر
 ===============
 
