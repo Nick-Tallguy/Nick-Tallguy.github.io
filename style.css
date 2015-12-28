@@ -501,6 +501,10 @@ a.license {
   margin-left:41.6666%;
   min-height:540px;
 }
+.doc-main-rtl {
+  margin-right:33.3333%;
+  min-height:540px;
+}
 .doc .title{
   display:block;
   padding:10px;

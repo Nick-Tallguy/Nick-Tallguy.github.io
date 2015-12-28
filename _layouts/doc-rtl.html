@@ -42,7 +42,7 @@ layout: default
   </ul>
 
 </div>
-<div class='doc-main doc cell5 padAll'>
+<div class='doc-main-rtl doc cell7 padAll'>
   {{content}}
   {% if {{page.cover}} %}
     <div class='getstarted'>
@@ -112,7 +112,7 @@ layout: default
   var proceedTo = $('.doc-nav li:nth-child(2) a').attr('href');
   $('a.start').attr('href',proceedTo);
   // Set the min-height of the page dynamically based on height of navigation div
-  $('.doc-main').css("min-height", function() {
+  $('.doc-main-rtl').css("min-height", function() {
     return $('#doc-nav-left').height() + 25;
   });
   
