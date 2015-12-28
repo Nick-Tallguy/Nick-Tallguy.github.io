@@ -601,7 +601,10 @@ a.license {
     background-position: -109px -183px;
     }
 
-/* contribute page */
+/* contribute page 
+contribute-intro is paper & pen
+contribute-links is magnifying glass */
+
 .contribute-intro h4, .contribute-links h4 {
   padding:20px 0px;
   margin-left:70px;
@@ -634,6 +637,43 @@ a.license {
     overflow:hidden;
   }
   .contribute-links ul li a:hover:before {background-position:2px -185px}
+
+/* contribute Right To Left rtl page 
+contribute-intro-rtl is paper & pen
+contribute-links-rtl is magnifying glass */
+
+.contribute-intro-rtl h4, .contribute-links-rtl h4 {
+  padding:20px 0px;
+  margin-left:70px;
+}
+  .contribute-intro-rtl a {color:#79bc5f;}
+  .contribute-intro-rtl h4:after,.contribute-links-rtl h4:after {
+    content: '';
+    display: inline;
+    width: 60px;
+    height: 60px;
+    position:absolute;
+    margin-left:-70px;
+    margin-top:-12px;
+    background: transparent url(./img/sprite.png)
+  }
+  .contribute-intro-rtl h4:after {background-position:  -196px -88px;}
+  .contribute-links-rtl h4:after {background-position: -265px -88px;}
+
+.contribute-links-rtl ul li {
+  margin:8px 0;
+  padding:1px 0 0 0;
+  }
+  .contribute-links-rtl ul li a:after {
+    content:'';
+    float:left;
+    margin-top: 8px;
+    width:16px;
+    height:20px;
+    background:url(./img/sprite.png) 2px -165px no-repeat;
+    overflow:hidden;
+  }
+  .contribute-links-rtl ul li a:hover:after {background-position:2px -185px}
 
 /*404 page*/
 .notfound {
