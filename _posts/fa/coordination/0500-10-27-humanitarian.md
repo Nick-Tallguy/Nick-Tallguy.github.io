@@ -1,7 +1,7 @@
 ---
 layout: doc-rtl
 title: نقشه‌کشی انساندوستانه
-permalink: /fa/coordination/humanitarian
+permalink: /fa/coordination/humanitarian/
 lang: fa
 category: coordination
 ---
