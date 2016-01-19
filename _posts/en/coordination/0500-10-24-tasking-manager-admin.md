@@ -1,12 +1,12 @@
 ---
 layout: doc
 title: OSM Tasking Manager Admin
-permalink: /en/coordination/tasking-manager-admin/
+permalink: /en/coordination/tasking-manager-project-admin/
 lang: en
 category: coordination
 ---
 
-#OSM Tasking Manager Admin
+#OSM Tasking Manager Project Admin
 
 > This guide may be downloaded as [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf)  
 > Reviewed 2015-11-23  
