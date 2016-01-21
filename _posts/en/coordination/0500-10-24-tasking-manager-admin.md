@@ -14,7 +14,7 @@ category: coordination
 **This Chapter follows on from [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/) and is desgned to help those who need to update project instructions or create projects within The HOT Tasking Manager.**  
 If you are new to mapping with HOT, this guide will probably be more technical than you require. This guide is specifically written for those persons who need a greater level of access to The HOT Tasking Manager, <http://tasks.hotosm.org/>, but it will also assist anyone who needs to update any other instance of the OSM Tasking Manager - a list of the instances can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
 
-> There is also a development version of the Tasking Manager, & it may be possible for you to practice creating projects there, but be aware that this version is frequently wiped as it is used for testing. It can be found at <http://tasks.dev.hotosm.org/> 
+> There is also a development version of the Tasking Manager, & it may be possible for you to practice creating projects there, but be aware that this version is frequently wiped as it is used for testing. It can be found at <http://tasks.dev.hotosm.org/> & to obtain project manager access, send an email to tm-project-managers AT hotosm DOT org.
 
 The HOT or OSM Tasking Manager is frequently referred to as **TM2.**
 
