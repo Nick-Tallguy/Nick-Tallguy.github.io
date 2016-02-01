@@ -1,21 +1,19 @@
 ---
 layout: doc
-permalink: /cs/josm/start-josm
+permalink: /cs/mobile-mapping/gpslogger/
 lang: cs
-title: start-josm
-category: josm
-
+title: GPSLogger for Android
+category: mobile-mapping
 ---
 
-start-josm  
+GPSLogger for Android  
 =================  
 
 Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj v   
 
-[English](/en/josm/start-josm/),   
-[Deutsch](/de/josm/start-josm/),  
-[Español](/es/josm/start-josm/),  
-[Nederlands](/nl/josm/start-josm/),  
+[English](/en/mobile-mapping/gpslogger),  
+[Español](/es/mobile-mapping/gpslogger),  
+[Nederlands](/nl/mobile-mapping/gpslogger),  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 

@@ -16,6 +16,7 @@ Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj 
 [Bahasa Indonesia](/bi/coordination/humanitarian/),  
 [Deutsch](/de/coordination/humanitarian/),  
 [Español](/es/coordination/humanitarian/),  
+[فارسی](/fa/osm-data/osm-in-qgis),  
 [Hrvatski](/hr/coordination/humanitarian/),  
 [Italiano](/it/coordination/humanitarian/),  
 [日本語](/ja/coordination/humanitarian/),  

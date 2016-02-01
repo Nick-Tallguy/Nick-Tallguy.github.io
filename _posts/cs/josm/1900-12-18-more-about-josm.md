@@ -1,21 +1,22 @@
 ---
 layout: doc
-permalink: /cs/josm/start-josm
+permalink: /cs/josm/more-about-josm
 lang: cs
-title: start-josm
+title: more-about-josm
 category: josm
 
 ---
 
-start-josm  
+more-about-josm  
 =================  
 
 Tento návod není dostupný. Je právě překládán. Prosím odkažte na něj v   
 
-[English](/en/josm/start-josm/),   
-[Deutsch](/de/josm/start-josm/),  
-[Español](/es/josm/start-josm/),  
-[Nederlands](/nl/josm/start-josm/),  
+[English](/en/josm/more-about-josm),  
+[Deutsch](/de/josm/more-about-josm),  
+[Italiano](/it/josm/more-about-josm),  
+[Nederlands](/nl/josm/more-about-josm),  
+[简体中文](/zh/josm/more-about-josm).  
 
 To help produce translations for this site, go to <https://www.transifex.com> and search for **HOT-OSM**.  
 
