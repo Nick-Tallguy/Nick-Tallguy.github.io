@@ -4,8 +4,8 @@
 auto: true
 server: true
 highlighter: pygments
-markdown: rdiscount
-rdiscount:
+markdown: kramdown
+kramdown:
   extensions: [smart]
 
 #Permalink structure, see http://jekyllrb.com/docs/permalinks/
