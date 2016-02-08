@@ -31,12 +31,14 @@ Section Index
 
 The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. This allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas, and also allows people both on the ground and working remotely (also sometimes referred to as "armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.  
 
+
 ## Overview of the process
 
 1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager, although they may also make changes later if required.  
 2. A remote mapper selects a task square, completes the mapping, and marks the square as complete.  
 3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'  
 4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.  
+
 
 ## Options & links
 
@@ -52,6 +54,7 @@ Once you have logged in, you may click on your username at the top. Here you can
 - See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.  
 
 ![Tasking Manager Username_list][]  
+
 
 ## Getting started with the Tasking Manager
 
@@ -81,6 +84,7 @@ Click on a blue project title to see more information about that project.
 
 ![Job description][]
 
+
 ## Description
 
 Everything you need to know about the project is here! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
@@ -91,6 +95,7 @@ Everything you need to know about the project is here! On the left is a descript
 - A yellow border indicates the square is being worked on now,  
 - Green squares have been completed and “validated”, and  
 - The remaining squares still need to be completed, or have previously been invalidated (invalidated squares are a darker colour).  
+
 
 ### Instructions tab
 This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
@@ -108,9 +113,11 @@ Sometimes, task specific imagery may be available - you may need to agree to a l
 
 When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire tile is quite difficult - guidance below is available around unlocking tiles; as well as providing useful feedback for the next mapper.  
 
+
 ### Activity tab  
 
 This shows activity that has taken place within the task in chronological order.  
+
 
 ### Stats tab  
 
@@ -120,11 +127,13 @@ The Stats tab also contains a list of mappers who have completed at least one sq
 
 Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
 
+
 ### Contribute tab  
 
 Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
 
 ![Picking a task][]  
+
 
 ## Selecting a square to map  
 
@@ -143,22 +152,24 @@ Different options for editing are presented to you as soon as you lock a square.
 
 ![Editing options][]  
 
+
 #### Edit with JOSM  
 
 Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
 >  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM.  
->  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)
+>  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
+>  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+
 
 #### iD editor  
 
 Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
 
+
 #### Potlatch 2  
 
-Editor will load in a new window or tab.  
-- Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+Editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
 
 1. In the Tasking Manager, select a square and click Start Mapping to lock it  
 2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
@@ -169,15 +180,18 @@ Editor will load in a new window or tab.
 7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
 8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
 
+
 #### Walking Papers / Field Papers  
 
 For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+
 
 ### Splitting a square  
 
 Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
 
 > Be aware that other useful comments about the work previously completed will no longer be available.
+
 
 ### Unlocking a square before it is complete
 
@@ -187,6 +201,7 @@ For example:
 
     Almost complete, small village top left 
     in the square to be traced though
+
 
 ### Finishing a square
 
@@ -198,6 +213,7 @@ When you have finished editing and think that the square is complete, save any r
 
 + Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".  
 + Click on the "Mark Task as Done" button, and your work is ready for review.  
+
 
 ### Sending a message from the comment box
 
@@ -226,6 +242,7 @@ If you need to send a message, such as an email or an IRC message, and you are q
 4. In your email, IRC message, or other message,  
     - either, mouse right click & paste,  
     - or shortcut keys **Ctrl+V**, to paste the link into the message. 
+
 
 ### Getting live help 
 
