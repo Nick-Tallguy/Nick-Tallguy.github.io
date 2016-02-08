@@ -48,9 +48,13 @@ Start OSMTracker, and press the menu icon on your Android device, then select **
 -  **Check GPS at startup** When you start OSMTracker, if the GPS has been switched off, the programme will prompt you to turn it back on.
 -  **Ignore GPS clock** If ticked will use the devices internal clock instead of the time provided within the GPS signal.  
 -  **GPS logging interval** Choose the period between the recording of the position - for best accuracy select 0 or 1, each of which results in a recording each second.  
+
 > The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
+
 -  **External storage (SD) directory** Default is /osmtracker  
+
 > Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
+
 -  **One directory per track** Recommended as this will result in all of the related voice recordings, photographs, text notes and the gpx trace all being stored in the same folder, named with the date and time of the gpx file creation.  
 -  **Filename for named tracks** Options for you to choose from if you have a preference for the naming of the files.  
 -  **Accuracy in GPX file** Recommended - will result in the waypoint name including a figure approximating the possible error range in metres. For instance *Footpath (4.0m)*. This information can be extremely useful later when updating OSM, and deciding whether to move an existing feature to align with the new trace & waypoints.  
@@ -61,7 +65,9 @@ Start OSMTracker, and press the menu icon on your Android device, then select **
 -  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
 -  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [see below](/en/mobile-mapping/osmtracker/#button-presets).   
 -  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
+
 > This does require a data connection to download the map. You do not need to use this function unless you wish to.  
+
 -  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
 -  **Orientation**  Do you want the screen to rotate, or use it in landscape or portrait?  
 
@@ -75,7 +81,9 @@ Having carried out your initial survey, clicking buttons, creating voice recordi
 -  **Display** will show the track, possibly with a background map depending on your data connection and the option you selected in **Background Map**.  
 -  **Export as GPX** - necessary for the track and waypoints to be used in an editing programme.  
 -  **Upload to OpenStreetMap** Use this option to upload your trace to OpenStreetMap - you will need to have an OpenStreetMap account ([How to obtain explained here](/en/beginner/start-osm/)), and will need to authorise this app to upload traces to your account. See [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) for more information on why these traces are so important to OpenStreetMap.  
+
 > **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
+
 -  **Delete**. Self explanatory.  
 
 
