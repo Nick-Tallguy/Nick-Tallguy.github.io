@@ -1,6 +1,6 @@
 ---
 layout: doc
-title:Weiterführende Literatur
+title: Weiterführende Literatur
 permalink: /de/beginner/moving-forward/
 lang: de
 category: beginner
