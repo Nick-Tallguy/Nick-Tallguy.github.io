@@ -58,7 +58,7 @@ Diese Anleitung stellt eine Zusammenfassung aus anderen Dokumenten dar. Sie find
 
 #### Tutorials
 
-[LearnOSM Remote Mapping Guide](http://learnosm.org/de/coordination/remote/)- Sie sind gerade dabei, eine der umfangreichsten Anleitungen zu dem Thema zu lesen. Wahrscheinlich enthält die englische Version noch mehr Anleitungen dazu.  
+[LearnOSM Remote Mapping Guide](/en/coordination/remote/)- Sie sind gerade dabei, eine der umfangreichsten Anleitungen zu dem Thema zu lesen. Die englische Version enthält noch mehr Anleitungen dazu.  
 
 [MapGive Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- enthält auch einige Videos, die Sie für eigene Versuche anhalten können.  
 
