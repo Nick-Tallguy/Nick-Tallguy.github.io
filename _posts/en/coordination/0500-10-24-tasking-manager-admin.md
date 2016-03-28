@@ -6,7 +6,7 @@ lang: en
 category: coordination
 ---
 
-#OSM Tasking Manager Project Admin
+# OSM Tasking Manager Project Admin
 
 > This guide may be downloaded as [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf)  
 > Reviewed 2015-11-23  
@@ -18,15 +18,15 @@ If you are new to mapping with HOT, this guide will probably be more technical t
 
 The HOT or OSM Tasking Manager is frequently referred to as **TM2.**
 
-##Logging in & Access Levels
+## Logging in & Access Levels
 All access to TM2 is authorised through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you to the OSM page where you can authorise The Tasking Manager to have limited access to your OSM account.
 
-###Access Levels within the OSM Tasking Manager
+### Access Levels within the OSM Tasking Manager
 -  **User** - Able to login to TM2 and use its functionality to locate an area requiring mapping - fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Some projects, such as those in the draft of archived state are not visible to users.  
 -  **Project Manager** - Create & Update Projects within TM2.  
 -  **Administrator** - Change access levels of users within TM2.
 
-##Creating a new Project within TM2 
+## Creating a new Project within TM2 
 
 ![TM New][]
 
@@ -36,7 +36,8 @@ Click your username in the upper right corner, then **Create a New Project** & c
 - [Upload a GeoJSON or KML file of the area of interest to be mapped](/en/coordination/tasking-manager-admin/#upload-a-geojson-or-kml-file-of-the-area-of-interest-to-be-mapped)  
 
 ![TM Draw or Import][]
-###Draw an area of interest to be mapped
+
+### Draw an area of interest to be mapped
 
 ![TM Draw][]
 
@@ -47,7 +48,7 @@ Click your username in the upper right corner, then **Create a New Project** & c
 
 or
 
-###Upload a GeoJSON or KML file of the area of interest to be mapped  
+### Upload a GeoJSON or KML file of the area of interest to be mapped  
 
 1. Click the ‘Import’ button,  
 2. Browse to your file in the File Upload window,  
@@ -55,7 +56,7 @@ or
 
 The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:  
 
-###Task Squares
+### Task Squares
 
 Select the Square Grid option and click next.  
 The area of interest is automatically split into grid cells and each cell becomes a task. The larger the project area, the larger the resulting squares will be. Determine the optimal tile size based on the five Tile Size options. As such, a smaller tile size will result in more tasks as shown in the screenshots.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. 
@@ -72,11 +73,11 @@ The area of interest is automatically split into grid cells and each cell become
 -  A square may be split, but there is no option to join squares together to make them bigger again.  
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
 
-###Arbitrary Geometries
+### Arbitrary Geometries
 Each individual polygon in the (AOI) area of interest represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
 
 
-###Create the project & add Description
+### Create the project & add Description
 After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project.  
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
