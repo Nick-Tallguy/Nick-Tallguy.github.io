@@ -7,24 +7,23 @@ category: osm-data
 ---
 
 Getting OSM Data
-=================
-When you want to get the most recent OpenStreetMap data, the easiest way is
-to download an extract from a website. There are various web services
-that provide data extracts for an area of your choosing.
+=================  
+
+> This guide may be downloaded as [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) or [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
+> Reviewed 2016-04-02
+
+When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
 
 Downloading Data Extracts
 --------------------------
 
 ### GeoFabrik
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working
-with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format
-on their [download website](http://download.geofabrik.de). The advantage of downloading
-GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is
-that the data is extracted by country, and not all countries are available.
+
+[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
 
 ### Metro Extracts
-[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) provides shapefiles for
-cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
+
+[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) provides shapefiles for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.  
 
 >Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >but shapefiles have attributes stored in a limited number of columns. This means
@@ -37,23 +36,21 @@ cities around the world, extracted weekly. This is useful if you are looking for
 Customized Extracts
 -------------------
 
-### HOT Exports
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users
-to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where
-HOT works, at [export.hotosm.org](http://export.hotosm.org).
+### HOT Exports  
+
+The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
+to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
-### BBBike
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). The only disadvantage is that you aren't able to select customizable tags.
+### BBBike  
+
+You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). The only disadvantage is that you aren't able to select customizable tags.  
 
 Summary
--------
-The services mentioned in this chapter are all that the average user needs to get the OSM
-data they want and be able to work with it in GIS software. However, you may want to learn
-more powerful ways of working with the data yourself. The remaining chapters in this section are
-quite technical, but show more advanced methods of manipulating and accessing OSM data.
+-------  
+
+The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
 
 
 [hot exports]: /images/en/osm-data/getting-data/hot-exports.png
