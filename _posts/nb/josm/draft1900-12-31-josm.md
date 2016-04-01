@@ -6,7 +6,6 @@ title: JOSM - detaljert redigering
 category: josm
 cover: yes
 nosearch: true
-
 ---
 
 JOSM - detaljert redigering
