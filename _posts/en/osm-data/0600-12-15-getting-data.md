@@ -57,7 +57,9 @@ This is a read-only copy of the main OpenStreetMap database which can deliver an
 
 #### Overpass Turbo
 
-[This](http://overpass-turbo.eu/) is an interactive query generator where you should first select the appropriate region on the map. If you are new to the query language then using the wizard should get you started. The map will highlight all data selected by your query. If you are satisfied with what you see then the export tab offers a number of choices, among them raw OSM data. 
+[This](http://overpass-turbo.eu/) is an interactive query generator where you should first select the appropriate region on the map. All further actions are triggered using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The map will highlight all data selected by your query. Once you are satisfied with what you see then export offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well select them directly after switching between map view and data view using the rightmost buttons at the top.
+
+![overpass turbo][]
 
 It is a good idea to use this service first if you need to engineer a query for a subset of the data.
 
@@ -87,4 +89,5 @@ Summary
 The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
 
 
-[hot exports]: /images/en/osm-data/getting-data/hot-exports.png
+[hot exports]: /images/osm-data/hot-exports.png
+[overpass turbo]: /images/osm-data/overpass_turbo.png
