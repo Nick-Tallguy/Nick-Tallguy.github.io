@@ -84,7 +84,6 @@ url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$
 wget -O $file "$url"
 ```
 >What happens here? (for the curious who do not want to read the full query language documentation)
->
 >node(...) selects all nodes within a bounding box;
 >< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;
 >rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
