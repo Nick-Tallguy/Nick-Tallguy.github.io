@@ -57,7 +57,7 @@ This is a read-only copy of the main OpenStreetMap database which can deliver an
 
 #### Overpass Turbo
 
-[This](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language.
+[This](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
 The map will highlight all data selected by your query which you can then modify. Press "Run" to refresh the result display. Once you are satisfied with what you see then "Export" offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well access them directly after switching between map view and data view using the rightmost buttons at the top. The export option query -> compact OverpassQL generates a hyperlink to be used for the Overpass API.
 
@@ -83,9 +83,9 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->What happens here? (for the curious who do not want to read the full query language documentation)
->node(...) selects all nodes within a bounding box;
->< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;
+>What happens here (for the curious who do not want to read the full query language documentation)?  
+>node(...) selects all nodes within a bounding box;  
+>< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;  
 >rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
 >
 
