@@ -65,20 +65,20 @@ It is a good idea to use this service first if you need to engineer a query for 
 
 If you have a working query-URL then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a tiny script for the bash shell common on Unix systems which extracts all data within a specified bounding box:
 
-<div style="font-size: 70%;">
-echo lower left latitude <br/>
-read ll_lat <br/>
-echo lower left longitude <br/>
-read ll_lon <br/>
-echo upper right lattitude <br/>
-read ur_lat <br/>
-echo upper_right longitude <br/>
-read ur_lon <br/>
-echo output file <br/>
-read file <br/>
-url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;" <br/>
-wget -O $file "$url" <br/>
-</div>
+```
+echo lower left latitude
+read ll_lat
+echo lower left longitude
+read ll_lon
+echo upper right lattitude
+read ur_lat
+echo upper_right longitude
+read ur_lon
+echo output file
+read file
+url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
+wget -O $file "$url"
+```
 
 
 Summary
