@@ -6,11 +6,12 @@ lang: en
 category: coordination
 ---
 #[This section needs an intro right here]
+The OpenStreetMap Tasking Manager is essential to conducting a mapathon or sponsoring an open mapping event. The Tasking Manager helps divide the work into manageable chunks and reduces editing conflicts. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. It is intended for designated Project Managers.
 
 #OSM Tasking Manager Project Admin
 
 > This guide may be downloaded as [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf)  
-> Reviewed 2015-11-23  
+> Reviewed 2015-11-23 
 
 **This Chapter follows on from [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/) and is designed to help those who need to update project instructions or create projects within The HOT Tasking Manager.**  
 **Need a TeachOSM perspective in here. 
