@@ -5,21 +5,18 @@ permalink: /en/coordination/tasking-manager-project-admin/
 lang: en
 category: coordination
 ---
-#[This section needs an intro right here]
-The OpenStreetMap Tasking Manager is essential to conducting a mapathon or sponsoring an open mapping event. The Tasking Manager helps divide the work into manageable chunks and reduces editing conflicts. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. It is intended for designated Project Managers.
+Note: This guide may be downloaded as a stand-alone module: [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf) 
 
-#OSM Tasking Manager Project Admin
+#About the OSM Tasking Manager
+The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
-> This guide may be downloaded as [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf)  
-> Reviewed 2015-11-23 
+ This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is applicable to all instances of the OSM Tasking Manager including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. A list of other instances of the OSM Tasking Manager can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
 
-**This Chapter follows on from [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/) and is designed to help those who need to update project instructions or create projects within The HOT Tasking Manager.**  
-**Need a TeachOSM perspective in here. 
-If you are new to mapping with HOT, this guide will probably be more technical than you require. This guide is specifically written for those persons who need a greater level of access to The HOT Tasking Manager, <http://tasks.hotosm.org/>, but it will also assist anyone who needs to update any other instance of the OSM Tasking Manager - a list of the instances can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
+> There is also a development version of the Tasking Manager, and it may be possible for you to practice creating projects there, but be aware that this version is frequently wiped as it is used for testing. It can be found at <http://tasks.dev.hotosm.org/> & to obtain project manager access, send an email to tm-project-managers AT hotosm DOT org. 
 
-> There is also a development version of the Tasking Manager, & it may be possible for you to practice creating projects there, but be aware that this version is frequently wiped as it is used for testing. It can be found at <http://tasks.dev.hotosm.org/> & to obtain project manager access, send an email to tm-project-managers AT hotosm DOT org.
+The HOT or OSM Tasking Manager is frequently referred to as **TM2,** as a shorthand for Tasking Manager, version 2. 
 
-The HOT or OSM Tasking Manager is frequently referred to as **TM2.**
+#Getting started with OSM Tasking Manager Project Administration
 
 ##Logging in & Access Levels
 All access to TM2 is authorised through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you to the OSM page where you can authorise The Tasking Manager to have limited access to your OSM account.
