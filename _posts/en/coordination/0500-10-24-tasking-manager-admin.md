@@ -12,21 +12,21 @@ The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managin
 
  This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is applicable to all instances of the OSM Tasking Manager including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. A list of other instances of the OSM Tasking Manager can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
 
-> There is also a development version of the Tasking Manager, and it may be possible for you to practice creating projects there, but be aware that this version is frequently wiped as it is used for testing. It can be found at <http://tasks.dev.hotosm.org/> & to obtain project manager access, send an email to tm-project-managers AT hotosm DOT org. 
-
 The HOT or OSM Tasking Manager is frequently referred to as **TM2,** as a shorthand for Tasking Manager, version 2. 
 
-#Getting started with OSM Tasking Manager Project Administration
+#How to Create Projects with the OSM Tasking Manager
 
 ##Logging in & Access Levels
-All access to TM2 is authorised through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you to the OSM page where you can authorise The Tasking Manager to have limited access to your OSM account.
+The first thing to understand is access level. All access to TM2 is authorised through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorise The Tasking Manager to have limited access to your OSM account. 
 
 ###Access Levels within the OSM Tasking Manager
--  **User** - Able to login to TM2 and use its functionality to locate an area requiring mapping - fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Some projects, such as those in the draft of archived state are not visible to users.  
--  **Project Manager** - Create & Update Projects within TM2.  
--  **Administrator** - Change access levels of users within TM2.
+The OSM Tasking Manager has three user access levels:
+-  **User** - The most basic level. The user is able to login to TM2 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in the draft (i.e. unpublished) state are not visible to users.  
+-  **Project Manager** - Project managers are endowed with priveleges to create & Update Projects within TM2.  
+-  **Administrator** - Administrators have access that allows them to manage access levels of users within TM2.
+You will need Project Manager access to create new projects using TM2.
 
-##Creating a new Project within TM2 
+##Initiate a new Project within TM2 
 
 ![TM New][]
 
@@ -42,7 +42,7 @@ Click your username in the upper right corner, then **Create a New Project** & c
 
 1. Click the ‘Draw’ button,
 2. Draw a polygon representing the area of interest in the map frame (hold the right mouse button down to move the map without adding a node)
->The polygon should tightly fit the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
+>The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
 3. Click on your starting point to complete the polygon  
 
 or
@@ -53,16 +53,16 @@ or
 2. Browse to your file in the File Upload window,  
 3. Click the file name to highlight the file and then click ‘Open’.  
 
-The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:  
+The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.   
 
 ###Task Squares
-
+There are two options for delineating the individual squares that represent an area to be mapped:
 Select the Square Grid option and click next.  
 The area of interest is automatically split into grid cells and each cell becomes a task. The larger the project area, the larger the resulting squares will be. Determine the optimal tile size based on the five Tile Size options. As such, a smaller tile size will result in more tasks as shown in the screenshots.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. 
 
 ![TM Tile Sizes][]
 
-**Considerations before deciding on tile sizes**;  
+**Considerations before deciding on tile sizes**  
 
 -  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),  
 -  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie',  
@@ -73,11 +73,11 @@ The area of interest is automatically split into grid cells and each cell become
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
 
 ###Arbitrary Geometries
-Each individual polygon in the (AOI) area of interest represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
+Each individual polygon in the (AOI) area of interest represents an individual task. If the AOI consists of one polygon, the project will have just one task.
 
 
-###Create the project & add Description
-After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project.  
+###Create the Project and Add Description
+After choosing a tile size, click “Create Project”. This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project.  
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
@@ -163,14 +163,12 @@ If necessary, access to the new project can be limited to a certain group of use
 The “Misc” tab provides options to add a due date and a JOSM preset.  The due date can be entered in the “Project due date” box and represents the date after which the project will automatically be archived.  Users can also load a JOSM preset XML file to assist with tagging if appropriate.  
 
 After entering the description, instructions, and any necessary information on the other tabs, click on “Save the Modifications”, which will take you back to the main project page.  
-  
-Proofread the various tabs to ensure wording and formatting are correct.
-If further editing is needed, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link.
-Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
 Out of date wiki entry - for update when this guide complete  http://wiki.openstreetmap.org/wiki/Tasking_manager_admin
 - end of hidden text-->
-
+  
+###Proofread and Publish***
+Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
 [TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
 [TM New]: /images/coordination/TM_create_new.png
