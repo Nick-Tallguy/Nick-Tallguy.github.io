@@ -30,10 +30,10 @@ You will need Project Manager access to create new projects using TM2.
 
 ![TM New][]
 
-Click your username in the upper right corner, then **Create a New Project** & choose between;  
+Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest on the map, or importing a bounding box from a file;  
 
 - [Draw an area of interest to be mapped](/en/coordination/tasking-manager-admin/#draw-an-area-of-interest-to-be-mapped) or  
-- [Upload a GeoJSON or KML file of the area of interest to be mapped](/en/coordination/tasking-manager-admin/#upload-a-geojson-or-kml-file-of-the-area-of-interest-to-be-mapped)  
+- [Upload a GeoJSON or KML file outlining the area of interest to be mapped](/en/coordination/tasking-manager-admin/#upload-a-geojson-or-kml-file-of-the-area-of-interest-to-be-mapped)  
 
 ![TM Draw or Import][]
 ###Draw an area of interest to be mapped
@@ -55,14 +55,14 @@ or
 
 The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.   
 
-###Task Squares
-There are two options for delineating the individual squares that represent an area to be mapped:
-Select the Square Grid option and click next.  
+###Splitting the Area of Interest into Task Squares
+There are two options for delineating the individual tiles that represent an area to be mapped. You may select square tiles of equal size or create arbitrary shapes:
+To create uniform square tiles, select the Square Grid option and click next.  
 The area of interest is automatically split into grid cells and each cell becomes a task. The larger the project area, the larger the resulting squares will be. Determine the optimal tile size based on the five Tile Size options. As such, a smaller tile size will result in more tasks as shown in the screenshots.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. 
 
 ![TM Tile Sizes][]
 
-**Considerations before deciding on tile sizes**  
+***Considerations before deciding on tile sizes***
 
 -  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),  
 -  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie',  
@@ -72,7 +72,7 @@ The area of interest is automatically split into grid cells and each cell become
 -  A square may be split, but there is no option to join squares together to make them bigger again.  
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
 
-###Arbitrary Geometries
+###To Create tiles with Arbitrary Geometries
 Each individual polygon in the (AOI) area of interest represents an individual task. If the AOI consists of one polygon, the project will have just one task.
 
 
@@ -167,7 +167,7 @@ After entering the description, instructions, and any necessary information on t
 Out of date wiki entry - for update when this guide complete  http://wiki.openstreetmap.org/wiki/Tasking_manager_admin
 - end of hidden text-->
   
-###Proofread and Publish***
+###Proofread and Publish
 Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
 [TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
