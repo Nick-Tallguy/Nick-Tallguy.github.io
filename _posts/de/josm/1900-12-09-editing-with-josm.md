@@ -183,7 +183,7 @@ wieder hochladen.
 
 Zusammenfassung
 -------
-In diesem Kapitel haben wir uns ein wenig nächer mit der Benutzeroberfläche von JOSM befaßt und einiges 
+In diesem Kapitel haben wir uns ein wenig näher mit der Benutzeroberfläche von JOSM befaßt und einiges 
 über Ebenen und Attribute gelernt. Sie haben jetzt eine solide Grundlage um Karten in
 OpenStreetMap zu bearbeiten.
 
