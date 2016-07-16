@@ -5,24 +5,24 @@ permalink: /en/coordination/tasking-manager-project-admin/
 lang: en
 category: coordination
 ---
-Note: This guide may be downloaded as a stand-alone module: [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf) 
+> This guide may be downloaded as a stand-alone module: [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf) 
 
 
 # OSM Tasking Manager Project Admin
 
 The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
- This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is applicable to all instances of the OSM Tasking Manager including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. A list of other instances of the OSM Tasking Manager can be found at <http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager>
+ This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is applicable to all instances of the OSM Tasking Manager including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. A list of other instances of the OSM Tasking Manager can be found at [the OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager)
 
 The HOT or OSM Tasking Manager is frequently referred to as **TM2,** as a shorthand for Tasking Manager, version 2. 
 
 ## Logging in & Access Levels
-The first thing to understand is access level. All access to TM2 is authorised through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorise The Tasking Manager to have limited access to your OSM account. 
+The first thing to understand is access level. All access to TM2 is authorized through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
 ### Access Levels within the OSM Tasking Manager
 The OSM Tasking Manager has three user access levels:
 -  **User** - The most basic level. The user is able to login to TM2 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in the draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers are endowed with priveleges to create & Update Projects within TM2.  
+-  **Project Manager** - Project managers are endowed with privileges to create & update projects within TM2.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM2.
 You will need Project Manager access to create new projects using TM2.
 
@@ -42,8 +42,7 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 ![TM Draw][]
 
 1. Click the ‘Draw’ button,
-2. Draw a polygon representing the area of interest in the map frame (hold the right mouse button down to move the map without adding a node)
->The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
+2. Draw a polygon representing the area of interest in the map frame (hold the right mouse button down to move the map without adding a node). The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
 3. Click on your starting point to complete the polygon  
 
 or
@@ -57,7 +56,6 @@ or
 The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:  
 
 ### Task Squares
-=======
 The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.   
 
 ### Splitting the Area of Interest into Task Squares
@@ -81,14 +79,14 @@ The area of interest is automatically split into grid cells and each cell become
 Each individual polygon in the (AOI) area of interest represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
 
 ### Create the project & add Description
-After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project.  
+After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources for the mappers are laid out here.
 
-###T o Create tiles with Arbitrary Geometries
-Each individual polygon in the (AOI) area of interest represents an individual task. If the AOI consists of one polygon, the project will have just one task.
-
-
-### Create the Project and Add Description
-After choosing a tile size, click “Create Project”. This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project.  
+1. The title of the project should already reveal what entities should be mapped. Prefer a title such as 
+*#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
+2. Put the most important messages on the instruction tab first to make sure they are read. This would include any special imagery to use instead of Bing. A good candidate for the first sentences is to mention that it is not required to map every single house if the project is about roads and residential areas. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages which best go on the description tab as well.
+3. Another point to be presented clearly: if the project is suitable for mappers with a certain level of experience only, e.g. because it is an import project or existing data should be realigned to GPS traces or some other imagery. Phrase it such that less experienced mappers do not feel embarassed and plainly shoved away but understand which advanced techniques are required here. Otherwise they won't have the chance to become experienced mappers.
+4. There are many more guidelines which cover commons errors we see again and again while validating. Instead of repeating some of them in the instructions give the users a link to the resources and point out clearly that sticking to these guidelines is required.
+5. The definitive resource on tagging is the OpenStreetMap wiki. For many HOT-related tasks the page on tagging highways in Africa is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and put a link to it in your instructions.
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
@@ -178,7 +176,7 @@ After entering the description, instructions, and any necessary information on t
 Out of date wiki entry - for update when this guide complete  http://wiki.openstreetmap.org/wiki/Tasking_manager_admin
 - end of hidden text-->
   
-###Proofread and Publish
+### Proofread and Publish
 Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
 [TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
