@@ -22,6 +22,7 @@ Accediendo datos de OpenStreetMap
 ---------------------------
 
 Lo primero que haremos será obtener datos actualizados de OSM. Podemos hacer esto de varias maneras. Por supuesto, pedir datos al servidor de OSM, como hacemos en el editor JOSM, está limitado de modo que no podemos traer una cantidad muy grande de datos de una sola vez - sin embargo, hay formas de acceder a grandes conjuntos de datos, como está descrito en los capítulos previos [Obteniendo datos de OSM](/es/osm-data/getting-data) y [Usando Geofabrik y HOT Export](/es/osm-data/geofabrik-and-hot-export).  
+
 está descrito en los capítulos previos [Obteniendo datos de OSM](/es/osm-data/getting-data) y [Usando Geofabrik y HOT Export](/es/osm-data/geofabrik-and-hot-export).  
 
 Para este tutorial usaremos la función de descarga integrada en QGIS.  
@@ -38,7 +39,11 @@ Para este tutorial usaremos la función de descarga integrada en QGIS.
 
 - Los datos de OSM se habrán guardado en la ubicación especificada.  
 
+<<<<<<< HEAD
 > Este método para acceder a los datos de OSM es el mismo que si los descargara desde JOSM o en [openstreetmap.org](http://www.openstreetmap.org). Para extractos actualizados y más grandes, puede probar descargarlos desde el [sitio de exportaciones HOT](http://export.hotosm.org/es) o [bbbike.org](http://extract.bbbike.org/). Recuerde que si está descargando un archivo comprimido de OSM, primero necesitará descomprimirlo al formato **.osm** para los pasos siguientes.  
+=======
+> Este método para acceder a los datos de OSM es el mismo que si los descargara desde JOSM o en 	[openstreetmap.org](http://www.openstreetmap.org). Para extractos actualizados y más grandes, puede probar descargarlos desde el [sitio de exportaciones HOT](http://export.hotosm.org/es) o [bbbike.org](http://extract.bbbike.org/). Recuerde que si está descargando un archivo comprimido de OSM, primero necesitará descomprimirlo al formato **.osm** para los pasos siguientes.  
+>>>>>>> upstream/gh-pages
 
 
 Importar datos a SQLite
@@ -92,7 +97,11 @@ Puede ver aquí que tenemos una tabla que incluye sólo los atributos que hemos 
 
 ![attribute table][]  
 
+<<<<<<< HEAD
 Tenga en cuenta que no hemos creado una capa de edificios **únicamente**. En lugar de ello, hemos creado una capa que incluye todos los polígonos de nuestro datos originales, pero sólo incluye las etiquetas que hemos seleccionado. Para filtrar esta capa para mostrar sólo los edificios, tendríamos que ejecutar una consulta que filtre sólo polígonos donde building=yes.  
+=======
+Tenga en cuenta que no hemos creado una capa de edificios **únicamente**. En lugar de ello, hemos creado una capa que incluye todos los polígonos de nuestro datos originales, pero sólo incluye las etiquetas que hemos seleccionado. Para filtrar esta capa para mostrar sólo los edificios, tendríamos que ejecutar una consulta que filtre sólo polígonos donde building=yes.
+>>>>>>> upstream/gh-pages
 
 
 Resumen

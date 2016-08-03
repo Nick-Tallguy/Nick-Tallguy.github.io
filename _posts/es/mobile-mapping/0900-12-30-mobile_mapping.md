@@ -65,3 +65,4 @@ Las siguientes secciones te guiarán a través de las instalación y uso de algu
 
 > **Nota:** Antes de continuar, verifica que el GPS se encuentra activo y disponible en su dispositivo. En Android, ir a **Ajustes \> Ubicación** y actívelo.  
 > ¡Recuerda, el GPS no funciona dentro de los edificios!  
+
