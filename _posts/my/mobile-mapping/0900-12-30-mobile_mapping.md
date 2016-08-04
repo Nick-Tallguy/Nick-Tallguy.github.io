@@ -2,67 +2,66 @@
 layout: doc
 permalink: /my/mobile-mapping/
 lang: my
-title: Mapping with a SmartPhone, GPS or Paper
+title: လက်ကိုင်ဖုန်း (သို့) GPS (သို့) စာရွက်ဖြင့် မြေပုံဆွဲခြင်း
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapping with a Smartphone, GPS or Paper
+လက်ကိုင်ဖုန်း (သို့) GPS (သို့) စာရွက်ဖြင့် မြေပုံဆွဲခြင်း
 =============================
 
-> This guide may be downloaded as [mobile-mapping_en.odt](/files/mobile-mapping_en.odt) or [mobile-mapping_en.pdf](/files/mobile-mapping_en.pdf)  
+ဤလမ်းညွှန်းချက်ကို mobile-mapping_en.odt (သို့) mobile-mapping_en.pdf တွင် ဒေါင်းလုပ်လုပ်နိုင်ပါသည်။  
 > Reviewed 2015-07-14  
 
-To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+အသေးစိပ်၍ မှန်ကန်တိကျသော မြေပုံ တစ်ခု ဖန်တီးရန် မိမိ ပြုပြင်မွန်းမံနေသော နေရာကို ခြုံငုံလေ့လာမှုများ ပြုလုပ်ရန် လိုပါသည်။ ဤအခန်းကဏ္ဍတွင်ပါဝင်သော လမ်းညွှန်မှုများ သည် ခြုံငုံလေ့လာမှုများပြုလုပ်ရာတွင် အသုံးဝင်သောအချက်များဖြစ်ပါသည်။   
 
-- GPS  which will probably be more accurate than your mobile phone,  
-- Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
-- Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+- GPS သည် သင်၏ လက်ကိုင်ဖုန်းထက်ပိုမိုအသုံးဝင်ကောင်းအသုံးဝင်ပါလိမ့်မည်။  
+- လမ်းညွှန်စာရွက်စာတမ်းများ (သို့) ပုံနှိပ်ထုပ်ထားသော သင်ရေးမှတ်၍ ရနိုင်သော မြေပုံ ကို အင်တာနက်ပေါ်တင်ပြီး လမ်းကြောင်းရှာပါ။ (သို့မဟုတ်)  
+- ခြုံငုံလေ့လာမှုအတွက် သင်၏ လက်ကိုင်ဖုန်းထဲတွင် လမ်းညွှန်ချက်အတိုင်းသွားနိုင်ရန် Apps များရရှိနိုင်ပါသည်။ ဥပမာ OSM data နှင့် တခြားသောApps များ။ အနည်းငယ်သာ စာရင်းပြုစုထားသော်လည်း ထိုစာရင်းပြုစုချက်သည် နေ့ စဉ်နှင့် အမျှ ကြီးထွားနေပါသည်။ တချို့ Aid Organisations များသည် တိကျသော အချက်အလက် စုဆောင်းနိုင်ရန် သူတို့ ၏ ကိုယ်ပိုင် Apps များ ဒီဇိုင်းဆွဲ နေကြပါသည်။  
 
-More and more smartphones today include a radio chip that allows them to receive signals from satellite navigation systems and determine their location. The most common chips receive signals from the U.S. GPS frequencies, while higher end models may include chips that can read frequencies from the Russian GLONASS satellites at the same time.  
+ယနေ့ခေတ် လက်ကိုင်ဖုန်း များတွင် ဂြိုလ်တုလမ်းညွှန်စနစ် (satellite navigation systems)  မှ အချက်ပြမှုတို့ကို လက်ခံနိုင်ရန် နှင့် မိမိ တည်နေရာကို ဆုံးဖြတ်ရန် ရေဒီယိုကဒ်ပြား (radio chip) ပါဝင်သည်။ ထိုကဒ်ပြားအများစုသည် U.S. GPS ကြိမ်နှုန်းများမှ အချက်အလက်များကို လက်ခံရရှိပါသည်။ အဆင့်မြင့် လက်ကိုင်ဖုန်း များတွင် Russian GLONASS satellite မှ ကြိမ်နှုန်းများကို တစ်ချိန်ထဲတွင် ဖတ်ရှုနိုင်သော ရေဒီယိုကဒ်ပါဝင်သည်။  
 
-The quality of the chips used in smartphones may vary, and data accuracy and performance could vary as well.  
+လက်ကိုင်စမတ်ဖုန်းများထဲတွင်ပါဝင်သော ရေဒီယိုကဒ်ပြားများ၏ အရည်အသွေးမှာကွဲပြား လှပါသည်။ ထို့အတူ အချက်အလက်မှန်ကန်မှုနှင့် လုပ်ဆောင်နိုင်မှုတို့သည်လည်း ခြားနားပါသည်။  
 
-Devices with GPS chips can work autonomously, off the grid, and without an Internet connection, while devices marked with “A-GPS only” (Assisted GPS) require a network data connection (and a mobile signal from a telecommunications company) to work correctly. A-GPS data can help autonomous GPS chips perform better by pre-caching data for better performance.  
+GPS ကဒ်ပြားများပါဝင်သော ကိရိယာတို့သည် အင်တာနက် နှင့် ချိတ်ဆက်စရာမလိုပဲ လုပ်ဆောင်နိုင်ပါသည်။ “A-GPS only” (assisted GPS) ဟု အမှတ်အသားရှိသော ကိရိယာများတွင်သာ မှန်ကန် စွာ ဖော်ပြနိုင်ရန် အင်တာနက် ချိတ်ဆက်မှုလိုအပ်သည်။ ပိုကောင်းမွန်သောလုပ်ဆောင်မှု အတွက် အချက်အလက် တို့ ကြိုတင် သိုဝှက် နိုင်သော GPS ကဒ်ပြားများကို A- GPS တွင်ပါဝင်သော အချက်အလက်တို့က ကူညီနိုင်ပါသည်။  
 
-For most mapping applications to work as expected, the user is assumed to have a smartphone with an autonomous GPS chip. Check your device specifications to confirm whether your device uses an autonomous chip, or is A-GPS only device.  
+မျှော်လင့်ထားသည်အတိုင်းလုပ်နိုင်ရန် မြေပုံ နှင့်ပတ်သက်သည့် Applications အများစုအတွက် အသုံးပြုသူ သည် GPS ကဒ်ပြားပါဝင်သော လက်ကိုင်စမတ်ဖုန်းတို့ ကိုရှိထားရပါမည်။ သင်၏ ကိရိယာသည် အင်တာနက် ချိတ်ဆက်မှုမပါပဲ အလုပ်လုပ်နိုင်သော ကဒ်ပြား ကို သုံးထားသည် ဟုတ်မဟုတ်ကို အတည်ပြုနိုင် ရန် စစ်ဆေးပါ။  
 
-There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
+လက်ကိုင်စမတ်ဖုန်းများအတွက် မြေပုံနှင့် ပတ်သက်သော Applications များ ဈေးကွက်တွင်ရရှိနိုင်ပါသည်။ Apps တစ်ခုချင်းစီတွင် ကောင်းကျိုးနှင့် ဆိုးကျိုးဒွန်တွဲနေပါသည်။  
 
-In choosing a mapping application for mapping in OpenStreetMap, you need to consider the following features.  
+OpenStreetMap တွင် မြေပုံဆွဲခြင်းအတွက် မြေပုံ Application ကို ရွေးချယ်ရာတွင် အောက်ပါ အကြောင်းအရာများကို ထည့်သွင်းစဉ်းစားရန်လိုအပ်ပါသည်။  
 
-- Easy to learn; immediately usable  
-- With GPX support (create waypoints, customizable log intervals)  
-- Allows OSM contribution (add, edit, upload data)  
-- Able to load OSM data offline  
-- Able to geo-tag multimedia files (notes, photos, videos)  
-- In active development  
+-လေ့လာရလွယ်ကူပြီး ချက်ချင်းအသုံးပြု ၍ ရနိုင်မှု။  
+- GPX ၏အထောက်အပံ့ ရရှိမှု   
+- OSM ဖြန့်ဝေမှု တို့ကို ခွင့်ပြုမှု (ပေါင်းထည့်ခြင်း၊ တည်းဖြတ်ခြင်းနှင့် အချက်အလက်တို့ ကို အင်တာနက်ပေါ်သို့ တင်ခြင်း)  
+- OSM အချက်အလက် ကို အင်တာနက်နှင့် မချိတ်ဆက်ပဲ လုပ်ဆောင် နိုင်မှု  
+- မှတ်စုများ၊ ဓါတ်ပုံများ၊ ဗီဒီယိုများအစရှိသော Multimedia files များကို geo tag လုပ်နိုင်ခြင်း။  
+-သွက်လက်မြန်ဆန်သော တိုးတက်မှု။  
 
-Try several applications that are compatible with your phone to get familiar with the interface and choose the best app based on your personal preference and mapping approach.
+တွဲဖက်အသုံးပြုနိုင်သော Application မြောက်များစွာကို စမ်းသုံးကြည့်ပါ။ ထိုမှတစ်ဆင့် မိမိ စိတ်ကြိုက် အကောင်းဆုံးတစ်ခုကိုနှင့် မြေပုံချဉ်းကပ်နည်းကို ရွေးချယ်ပါ။
 
 <!-- Commenting for now since tables doesn't look very nice!
 
-Recommended Applications for Smartphones / PDAs
+စမတ်ဖုန်းနှင့် PDS များအတွက် အသုံးပြုရန်သင့်တော်သော Applications များ
 -----------------------------------------------------
 
-| Application      | Usage  | Android  | Blackberry | iOS     | Windows |
+| Application | Usage | Android | Blackberry | iOS | Windows |
 | ---------------- | :----: | :------: | :--------: | :-----: | :-----: |
-| Geopaparazzi     | m      | O        |            |         |         |
-| GPS Essentials   | m      | O        |            |         |         |
-| MapZen           | m:p    | O        |            | O       |         |
-| Open GPS Tracker | m      | O        |            |         |         |
-| OruxMaps         | m      | O        |            |         |         |
-| OSMAnd           | m:n:p  | O        | O          | D       |         |
-| OSMTracker       | m      | O        |            |         | O       |
-| Vespucci         | m:f    | O        |            |         |         |
+| Geopaparazzi | m | O | | | |
+| GPS Essentials | m | O | | | |
+| MapZen | m:p | O | | O | |
+| Open GPS Tracker | m | O | | | |
+| OruxMaps | m | O | | | |
+| OSMAnd | m:n:p | O | O | D | |
+| OSMTracker | m | O | | | O |
+| Vespucci | m:f | O | | | |
 
 O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
 
  -->
 
-The next sections will guide you through the installation and use of specific applications for you to contribute to OpenStreetMap using your smartphone.
+နောက်လာမည့် ကဏ္ဍသည် မိမိ လက်ကိုင်စမတ်ဖုန်းကို အသုံးပြု ၍ OpenStreetMap ကို ဖြန့်ဝေရန်အတွက် တိကျသည့် Application ကို တပ်ဆင်နိုင်ရန် လမ်းညွှန်ပါလိမ့်မည်။
 
-> **Note:** Before proceeding any further, verify that GPS is available and active for the device. In Android, go to **Settings \> Location** and enable it.  
-> Remember, GPS doesn’t work inside buildings!
-
+မှတ်ရန်။  ။ ထပ်မံဆွေးနွေးမှုမပြုမှီ GPS သည် available နှင့် active ဖြစ်ရန် verify လုပ်ပါ။ Android အတွက် Setting သို့သွားပါ။ Location နှင့် Enable ကိုရွေးပါ။  
+GPS သည်အဆောက်အအုံများအတွင်းတွင်အလုပ်မလုပ်သည်ကိုသတိပြုပါ။
