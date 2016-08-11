@@ -9,7 +9,7 @@ category: beginner
 နိဒါန်း
 ============
 
-> ယခု လမ်းညွှန်ချက်များကို အောက်ပါလင့်(ခ်)များတွင် download လုပ်၍ရယူနိုင်ပါသည်။ [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) သို့မဟုတ် [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
+> ယခု လမ်းညွှန်ချက်များကို အောက်ပါလင့်(ခ်)များတွင် download လုပ်၍ရယူနိုင်ပါသည်။ [beginner_introduction_my.odt](/files/beginner_introduction_my.odt) သို့မဟုတ် [beginner_introduction_my.pdf](/files/beginner_introduction_my.pdf)  
 > Reviewed 2015-07-12  
 
 သတင်းအချက်အလက်သည်စွမ်းအားကြီး၏။ကောင်းမွန်သောသတင်းအချက်အလက်ကို မှန်ကန်စွာ
