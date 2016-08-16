@@ -3,12 +3,13 @@ layout: contribute
 permalink: /my/contribute/
 lang: my
 title: Contribute
-contributetitle: "Help improve our guides"
-startwith: "Ready to get started?"
-startA: "Send us feedback"
-startB: "Create a translation"
-startC: "Improve Language"
-startD: "Report issues and contribute"
+contributetitle: "လမ္းညႊန္ခ်က္မ်ားအား ပိုမိုျပည့္စံုေစရန္ ကူညီပါ"
+startwith: "သင္ခန္းစာ စတင္ရန္ အသင့္ျဖစ္ပါျပီလား?"
+startA: "အေၾကာင္းျပန္ပါ"
+startB: "ဘာသာျပန္ပါ"
+startC: "ဘာသာစကား တိုးတတ္မႈ"
+startD: "အစီရင္ခံခ်က္မ်ားႏွင့္ ပူေပါင္းမႈမ်ား"
 nosearch: true
 ---
-This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+ဤလမ္းညႊန္အား [OpenStreetMap](http://www.openstreetmap.org/) ႏွင့္ [Humanitarian OpenStreetMap](http://hotosm.org/) တို႔မွ ဖန္းတီးထိန္းသိမ္းထားသည္။ 
+သင့္အေနျဖင့္ အေၾကာင္းျပန္ခ်က္မ်ား ပို႔ျခင္းျဖင့္ လမ္းညႊန္ကို ပိုပ္ို တိုးတတ္လာေစမည္ သို႔မဟုတ္ ](http://github.com/hotosm/learnosm လင့္မွေန၍ တိုက္ရိုက္ပါ၀င္ေဆာင္ရြက္နိုင္သည္။
