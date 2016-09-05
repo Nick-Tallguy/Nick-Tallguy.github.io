@@ -9,6 +9,10 @@ category: osm-data
 OSM Data Overview
 ===================
 
+
+> This guide may be downloaded as [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt.odt) or [OSM_Data_Overview_en.odt.pdf](/files/OSM_Data_Overview_en.odt.pdf)  
+> Reviewed 2016-09-05
+
 <!--In this section we'll consider how OpenStreetMap functions, which
 will help us to understand better how the data is structured, and how
 we can best utilize it.-->
