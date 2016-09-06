@@ -52,7 +52,7 @@ Once you have successfully logged in, to obtain the data you want click **New J
 
 ![new-export-job][]
 
-After saved, the next step you fill the column Select Preset File or you can ignore with fill No file if the preset file that need not exist. Then the file translation filled with No file if the translation you need is not there and save it.  
+If you wish ou can select a Preset File, a translation file, or ignore both options.  
 
 ![job-configuration][]
 
