@@ -35,11 +35,11 @@ Click on the ![WMS_TMS_button][]{: height="24px"}, and in this case the ![+TMS_b
 
 ![Preferences WMS TMS 4][]
 
-Click on the **Okay** button, and the imagery you have added will appear at the bottom of the list - you may have to scroll down to locate it.  
+Click ![OK_button][]{: height="24px"}, and the imagery you have added will appear at the bottom of the list - you may have to scroll down to locate it.  
 
 ![Preferences WMS TMS 5][]
 
-Click on the **Okay** button to close the preferences window and return to JOSM. When you need to use the imagery, click on the word **Imagery** in the menu at the top of the screen and select it from the alphabetical list. Alternatively **Alt + I** should show the imagery menu (These shortcuts may vary according to the language setting).  
+Click ![OK_button][]{: height="24px"} to close the preferences window and return to JOSM. When you need to use the imagery, click on the word **Imagery** in the menu at the top of the screen and select it from the alphabetical list. Alternatively **Alt + I** should show the imagery menu (These shortcuts may vary according to the language setting).  
 
 ![Preferences WMS TMS 6][]
 
@@ -48,6 +48,7 @@ Click on the **Okay** button to close the preferences window and return to JOSM.
 [TM Imagery]: /images/josm/JOSM_TMS_2.png
 [WMS_TMS_button]: /images/josm/josm_preferences-wms-tms.png
 [+TMS_button]: /images/josm/+TMS.png
+[OK_button]: /images/josm/josm_OK_button.png
 [Preferences WMS TMS 3]: /images/josm/JOSM_TMS_3.png
 [Preferences WMS TMS 4]: /images/josm/JOSM_TMS_4.png
 [Preferences WMS TMS 5]: /images/josm/JOSM_TMS_5.png
