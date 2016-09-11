@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Adding tms or wms imagery
+title: JOSM adding tms or wms imagery
 permalink: /en/josm/josm-adding-imagery/
 lang: en
 category: josm
