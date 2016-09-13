@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Weitere Werkzeuge
-permalink: /de/josm/more-tools/
+permalink: /de/josm/josm-more-tools/
 lang: de
 category: josm
 ---

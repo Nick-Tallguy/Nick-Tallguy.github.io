@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tool JOSM Lainnya
-permalink: /bi/josm/more-tools/
+permalink: /bi/josm/josm-more-tools/
 lang: bi
 category: josm
 ---
