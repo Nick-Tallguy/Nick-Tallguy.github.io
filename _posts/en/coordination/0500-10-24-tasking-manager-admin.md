@@ -75,7 +75,7 @@ The area of interest is automatically split into grid cells and each cell become
 ### Arbitrary Geometries
 Each individual polygon in the area of interest (AOI) represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
 
-### Create the project & add description
+## Create the project & add description
 After choosing a tile size, click “Create Project”. 
 
 ![TM Create Project][]
