@@ -17,14 +17,14 @@ The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managin
 The HOT or OSM Tasking Manager is frequently referred to as **TM2,** as a shorthand for Tasking Manager, version 2. 
 
 ## Logging in & Access Levels
-The first thing to understand is access level. All access to TM2 is authorized through <https://www.openstreetmap.org>. You will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+The first thing to understand is access level. All access to TM2 is authorized through <https://www.openstreetmap.org>. To access TM2 you will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
 ### Access Levels within the OSM Tasking Manager
 The OSM Tasking Manager has three user access levels:
--  **User** - The most basic level. The user is able to login to TM2 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in the draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers are endowed with privileges to create & update projects within TM2.  
+-  **User** - The most basic level. The user is able to login to TM2 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
+-  **Project Manager** - Project managers are endowed with privileges to create and update projects within TM2.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM2.
-You will need Project Manager access to create new projects using TM2.
+You will need Project Manager Access level to create new projects using TM2.
 
 ## Initiate a new Project within TM2 
 
@@ -32,17 +32,14 @@ You will need Project Manager access to create new projects using TM2.
 
 Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest on the map, or importing a bounding box from a file;  
 
-- [Draw an area of interest to be mapped](/en/coordination/tasking-manager-admin/#draw-an-area-of-interest-to-be-mapped) or  
-- [Upload a GeoJSON or KML file outlining the area of interest to be mapped](/en/coordination/tasking-manager-admin/#upload-a-geojson-or-kml-file-of-the-area-of-interest-to-be-mapped)  
-
 ![TM Draw or Import][]
 
 ### Draw an area of interest to be mapped
 
 ![TM Draw][]
 
-1. Click the ‘Draw’ button,
-2. Draw a polygon representing the area of interest in the map frame (hold the right mouse button down to move the map without adding a node). The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
+1. Click the ‘Draw’ button in the upper right corner.
+2. To draw a polygon representing the area of interest in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
 3. Click on your starting point to complete the polygon  
 
 or
@@ -67,28 +64,32 @@ The area of interest is automatically split into grid cells and each cell become
 
 ***Considerations before deciding on tile sizes***
 
--  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),  
--  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie',  
--  A new mapper also finds it difficult to trace lots of features such as buildings,  
+-  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),. 
+-  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie'.
+-  A new mapper also finds it difficult to trace lots of features such as buildings.
 -  Later in the process you have the opportunity for a mapper to 'split' a square - splitting a square into quarters helps new mappers get a square size they can cope with.  
--  The most likely part of a square for problems to occur is at the edges & corners. Smaller squares means more corners and edges, and will result in duplication of mapping as well as objects being missed.  
--  A square may be split, but there is no option to join squares together to make them bigger again.  
+-  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
+-  A square may be split, but there is no option to join squares together to make them bigger again. So be careful when splitting
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
 
 ### Arbitrary Geometries
-Each individual polygon in the (AOI) area of interest represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
+Each individual polygon in the area of interest (AOI) represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
 
-### Create the project & add Description
-After choosing a tile size, click “Create Project”.  This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small group of entities while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+### Create the project & add description
+After choosing a tile size, click “Create Project”. 
 
-Prefer plain language as your target audience mainly will not consist of native English speakers.
+![TM Create Project][]
+
+This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+
+Please use plain language as your target audience may not consist of native English speakers.
 
 1. The title of the project should already reveal what entities should be mapped. Prefer a title such as 
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. Put the most important messages on the instruction tab first to make sure they are read. This would include any special imagery to use instead of Bing. A good candidate for the first sentences is to mention that it is not required to map every single house if the project is about roads and residential areas. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages which best go on the description tab as well.
-3. Another point to be presented clearly: if the project is suitable for mappers with a certain level of experience only, e.g. because it is an import project or existing data should be realigned to GPS traces or some other imagery. Phrase it such that less experienced mappers do not feel plainly rejected but understand which advanced techniques are required here. Otherwise they won't be motivated to become experienced mappers.
-4. There are guidelines which cover common errors we see again and again while validating, one of them is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Instead of repeating some of them in the instructions give the users a link to the resources and point out clearly that sticking to these guidelines is required. One day we might have such resources in learnOSM as well.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and put a link to it in your instructions.
+2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
+3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery. Phrase it so that ne wmappers will be comfortable contribute to the project but understand that advanced techniques are required in this instance.
+4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and that adhering to these guidelines is required.
+5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
@@ -179,9 +180,15 @@ Out of date wiki entry - for update when this guide complete  http://wiki.openst
 - end of hidden text-->
   
 ### Proofread and Publish
-Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page.  If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
+
+![TM Edit Project][]
+
+If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
 [TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
 [TM New]: /images/coordination/TM_create_new.png
 [TM Draw or Import]: /images/coordination/TM_draw_or_import.png
 [TM Draw]: /images/coordination/TM_draw.png
+[TM Create Project]: /images/coordination/TM_create_project.png
+[TM Edit Project]: /images/coordination/TM_edit_link.png
