@@ -1,0 +1,69 @@
+Learn OpenStreetMap Step by Step
+
+幫忙改進我們的指南
+
+Are you a workshop organizer?
+
+Check out training material for this guide (in English)
+
+Was this chapter helpful?
+
+Let us know and help us improve the guides!
+
+入門
+
+英文
+
+開放街圖是自由的全球道路等級地圖，由持續增長的社群成員創建繪製。
+
+任何人都可以繪製開放街圖。在這邊你可以在簡單易懂，一步一步指引的 LearnOSM 教材指引下，讓你能夠開始貢獻開放街圖，以及使用開放街圖和開放街圖的資料。如果你有興趣舉辦開放街圖的工作坊，請看 LearnOSM 訓練資源中心
+
+我們的指南
+
+你要找什麼呢？
+
+開放街圖新手？
+
+初學者指南
+
+Humanitarian Mapping
+
+Remote mapping information
+
+更多指南
+
+Guides in Document format
+
+Common Questions
+
+什麼是開放街圖？
+
+Who created LearnOSM?
+
+How can I get started mapping?
+
+Where can I find additional help?
+
+This guide may be downloaded as
+
+This guide is available in 
+
+or  
+
+Please refer to it in 
+
+This guide is currently unavailable. It is being translated. Please refer to it in 
+
+回饋意見
+
+Create a translation
+
+改進翻譯
+
+Report issues and contribute
+
+This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).
+
+準備開始了嗎？
+
+A more recent version of this guide is available in
