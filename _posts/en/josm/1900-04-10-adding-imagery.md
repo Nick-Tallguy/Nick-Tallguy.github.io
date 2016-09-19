@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM adding tms or wms imagery
+title: JOSM adding tms, wms or wmts imagery
 permalink: /en/josm/josm-adding-imagery/
 lang: en
 category: josm
@@ -14,13 +14,11 @@ JOSM - Adding Aerial Imagery
 
 Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  
 
-In this example we are working from the [HOT Tasking Manager](http://tasks.hotosm.org/) and the imagery required to complete one of the projects needs to be manually added to JOSM. The principle of adding the image link is the same whatever the project you are working on, as long as you are provided with the link. There are also occasions when the intended links do not work as expected and it may be necessary to add the imagery manually, if you can obtain the link information.  
+In this example we are working from the [HOT Tasking Manager](http://tasks.hotosm.org/) and the imagery required to complete one of the projects needs to be manually added to JOSM. The principle of adding the image link is the same whatever the editing you are working on, as long as you are provided with the link. There are also occasions when the intended links do not work as expected and it may be necessary to add the imagery manually, if you can obtain the link information.  
 
-From the Tasking Manager information tab, copy all of the information contained within the Imagery section.  
+From the Tasking Manager information tab, or your other source of the information, copy all of the Imagery section.  
 
 ![TM Imagery][]
-
-> http://a.tiles.mapbox.com/v4/digitalglobe.n6ngnadl/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZGlnaXRhbGdsb2JlIiwiYSI6ImNpbncxNzE4OTE1dm51a2x5dzlkMXI0eHUifQ.TPHGd-IakYZGSP1ja3WTbQ  
 
 Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**)  
 
@@ -46,6 +44,10 @@ Click on the ![OK_button][]{: height="24px"} button, and the imagery you have ad
 Click the ![OK_button][]{: height="24px"} button to close the preferences window and return to JOSM. When you need to use the imagery, click on the word **Imagery** in the menu at the top of the screen and select it from the alphabetical list. Alternatively **Alt + I** should show the imagery menu (These shortcuts may vary according to the language setting).  
 
 ![Preferences WMS TMS 6][]
+
+**Tip** If the imagery fails to load, check how the imagery appears in the list. In this example, **tms** appears twice. You can edit the link within josm so that it only appears once, which will probably correct the problem.
+
+![TMS TMS][]
 
 Adding a WMS Server
 ===========
@@ -90,6 +92,7 @@ Click the ![OK_button][]{: height="24px"} button to close the preferences window
 [Preferences WMS TMS 4]: /images/josm/JOSM_TMS_4.png
 [Preferences WMS TMS 5]: /images/josm/JOSM_TMS_5.png
 [Preferences WMS TMS 6]: /images/josm/JOSM_TMS_6.png
+[TMS TMS]: /images/josm/JOSM_TMS_TMS.png
 [wms_add_button]: /images/josm/wms_add_button.jpg
 [wms_select_layer_highlight]: /images/josm/wms_select_layer_highlight.jpg
 [wms_entry_dialog_numbered]: /images/josm/wms_entry_dialog_numbered.jpg
