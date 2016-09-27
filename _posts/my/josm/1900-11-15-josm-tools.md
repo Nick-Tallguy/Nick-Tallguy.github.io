@@ -27,6 +27,6 @@ JOSM Tools
 [Русский](/ru/josm/josm-tools/),  -->  
 [Kiswahili](/sw/josm/josm-tools/).  <!--
 [Українська](/uk/josm/josm-tools/), သို့မဟုတ်  
-[简体中文](/zh/josm/josm-tools/).  -->
+[简体中文](/zh/josm/josm-tools/).  -->  
 To help produce translations for this site, go to [https://www.transifex.com](https://www.transifex.com) and search for **HOT-OSM**.
 
