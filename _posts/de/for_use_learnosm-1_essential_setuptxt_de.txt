@@ -1,0 +1,69 @@
+OpenStreetMap Schritt für Schritt lernen
+
+Hilfe bei der Verbesserung unserer Anleitungen
+
+Organisieren Sie Workshops?
+
+Testen Sie das Trainingsmaterial für diese Anleitung
+
+War dieses Kapitel hilfreich?
+
+Teilen Sie uns mit und helfen Sie, die Anleitungen zu verbessern!
+
+Legen Sie los
+
+Englisch
+
+OpenStreetMap ist eine freie Straßenhöhenkarte der Welt, die durch eine stetig wachsende Anzahl von Kartierern erstellt wird.
+
+Jeder kann OpenStreetMap bearbeiten. Hier können Sie lernen, wie LearnOSM leicht verständliche Schritt-für-Schritt-Anleitungen zur Verfügung stellt, damit Sie anfangen können, zu OpenStreetMap beizutragen, OpenStreetMap zu nutzen, und OpenStreetMap-Daten zu benutzen. Falls Sie einen OpenStreetMap-Workshop anbieten wollen, probieren Sie die LearnOSM-Trainer-Materialien aus.
+
+Unsere Anleitungen
+
+Wonach suchen Sie?
+
+Neu bei OpenStreetMap?
+
+Anfänger-Anleitung
+
+Humanitäres Kartieren
+
+Informationen über Fernerkundungs-Kartographie
+
+Andere Anleitungen
+
+Anleitungen nach Dokumentformat
+
+Häufige Fragen
+
+Was ist OpenStreetMap?
+
+Wer erstellte LearnOSM?
+
+Wie fange ich mit dem Kartieren an?
+
+Wo kann ich zusätzliche Hilfe finden?
+
+Diese Anleitung herunterladbar als
+
+Diese Anleitung ist verfügbar in 
+
+oder  
+
+Bitte beziehen Sie sie von 
+
+Diese Anleitung ist derzeit nicht verfügbar. Bitte beziehen Sie sie von 
+
+Schicken Sie uns eine Rückmeldung
+
+Erstellen Sie eine Übersetzung
+
+Verbessern Sie die Sprache
+
+Melden Sie Probleme und tragen Sie bei
+
+Diese Anleitung wird von der [OpenStreetMap] (http://www.openstreetmap.org/) und von der [Humanitarian OpenStreetMap] (http://hotosm.org/) Gemeinschaft erstellt und gepflegt. Sie können uns helfen, diese Anleitung zu verbessern, indem Sie uns einfach Ihre Rückmeldung schicken oder direkt selbst via [Github](http://github.com/hotosm/learnosm) beitragen.
+
+Wollen Sie loslegen?
+
+Eine neuere Version dieser Anleitung ist in diesen Sprachen verfügbar:

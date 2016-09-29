@@ -1,0 +1,69 @@
+Lære OpenStreetMap steg for steg
+
+Hjelp oss med å forbedre våre veiledninger
+
+Organiserer du workshops?
+
+Ta en titt på læringsmateriellet for denne guiden (på engelsk)
+
+Var dette kapitellet til nytte?
+
+Gi oss tilbakemelding og hjelp oss med å forbedre veilederne
+
+Kom i gang
+
+Engelsk
+
+OpenStreetMap er et gratis gatekart over verden, skapt av en stadig økende medlemsmasse bestående av kartleggere.
+
+Hvem som helst kan redigere OpenStreetMap. Her kan du lære hvordan LearnOSM tilbyr lettfattelige steg-for-steg veiledere for at du skal kunne komme i gang med å bidra til OpenStreetMap og bruke OpenStreetMap data. Hvis du er interessert i å organisere en OpenStreetMap workshop, ta en titt på LearnOSMs opplæring for kursholdere.
+
+Våre veiledninger
+
+Hva ser du etter?
+
+Ny med OpenStreetMap?
+
+begynnerveiledning
+
+Humanitær kartlegging
+
+Informasjon om fjernkartlegging
+
+Flere veiledninger
+
+Veiledninger i dokumentformat
+
+Ofte stilte spørsmål
+
+Hva er OpenStreetMap?
+
+Hvem skapte LearnOSM?
+
+Hvordan kan jeg komme i gang med kartlegging?
+
+Hvor kan jeg finne ytterligere hjelp?
+
+Denne veiledningen kan lastes ned som
+
+Denne veiledningen er tilgjengelig i 
+
+eller  
+
+Vennligst referer til den i 
+
+Denne veiledningen er for øyeblikket ikke tilgjengelig. Den er i ferd med å bli oversatt. Vennligst referer til den i 
+
+Send oss tilbakemelding
+
+Lag en oversettelse
+
+Forbedre språket
+
+Rapporter en feil og bidra
+
+Denne veiledningen er laget og vedlikeholdt av [OpenStreetMap](http://www.openstreetmap.org/) og [Humanitarian OpenStreetMap](http://hotosm.org/)  i fellesskap. Du kan hjelpe oss med å forbedre denne veiledningen ved å sende oss tilbakemeldinger, eller bidra direkte via [Github](http://github.com/hotosm/learnosm).
+
+Klar til å begynne?
+
+En mere oppdatert versjon av denne guiden er tilgjengelig i
