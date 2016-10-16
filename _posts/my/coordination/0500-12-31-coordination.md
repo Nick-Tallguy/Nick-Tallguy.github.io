@@ -12,7 +12,7 @@ nosearch: true
 အတူတကွပူးပေါင်းပါဝင်ဆောင်ရွက်ခြင်း
 ============
 
-> ဤလမ်းညွှန်ချက်ကို [coordination_my.odt](/files/coordination_my.odt) (သို့မဟုတ်)[coordination_my.pdf](/files/coordination_my.pdf) တွင် download ပြုလုပ်၍ရယူ နိုင်ပါသည်။  
+> ဤလမ်းညွှန်ချက်ကို [coordination_my.odt](/files/coordination_my.odt) (သို့မဟုတ်)[coordination_my.pdf](/files/coordination_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-09-18
 
 OpenStreetMap တွင် လူပေါင်းမြောက်များစွာအတူတကွမြေပုံပါဝင်ရေးဆွဲနေသောကြောင့် 
