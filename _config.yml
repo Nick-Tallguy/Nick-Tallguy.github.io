@@ -42,6 +42,14 @@ translations:
     feedbackspan: "Was this chapter helpful?"
     feedback: "Let us know and help us improve the guides!"
     getstarted: "Get started"
+  ca:
+    tagline: "Apreneu sobre l'OpenStreetMap pas a pas"
+    contribute: "Ajudeu-nos a millorar les guies"
+    trainingspan: "Organitzeu tallers?"
+    training: "Feu una ullada al nostre material de formació per a aquesta guia (en anglès)"
+    feedbackspan: "Was this chapter helpful?"
+    feedback: "Feu-nos ho saber i ajudeu-nos a millorar les guies!"
+    getstarted: "Iniciació"
   cs:
     tagline: "Naučte se OpenStreetMap krok za krokem"
     contribute: "Pomožte vylepšit naše průvodce"
