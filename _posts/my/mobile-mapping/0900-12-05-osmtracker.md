@@ -9,7 +9,7 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> ဤ လမ်းညွှန်ချက်ကို  [OSMTracker_en.odt](/files/OSMTracker_en.odt) (သို့မဟုတ်) [OSMTracker_en.pdf](/files/OSMTracker_en.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
+> ဤ လမ်းညွှန်ချက်ကို  [OSMTracker_my.odt](/files/OSMTracker_my.odt) (သို့မဟုတ်) [OSMTracker_my.pdf](/files/OSMTracker_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2016-02-08
   
 **ဤဆောင်းပါးသည် OSMTracker for Android နှင့်ဆက်စပ်မှုရှိပါသည်။ Wiindows mobile အတွက် အလားတူ product တစ်ခုလည်းရရှိနိုင်ပါသည်။**   
@@ -51,7 +51,7 @@ OSM Tracker ကိုစတင်ပါ။ သင် ၏ Android device မှ M
 
 > ကြိမ်နှုန်းသည် ဘက်တ္ထရီသုံးပြုမှုကိုအကျိုးသက်ရောက်မှုရှိစေသော်လည်း ဤ application ကို အသုံးပြုသောအခါ အချိန်အများစုတွင်သင်၏စက်မျက်နှာပြင် (screen) သည်ပွင့်နေပါလိမ့်မည်။ ဥပမာ။  ။ GPS အလုပ်လုပ်ခြင်း၊ ဓါတ်ပုံရိုက်ခြင်း၊ recording လုပ်ခြင်းစသည်တို့သည် သင့်ဘက်တ္ထရီကိုပြုန်းတီးစေနိုင်ပါသည်။ ထို့ကြောင့်သင်၏စက်ကိုအားအပြည့်ဖြည့်ထားရန်အကြံပြုပါသည်။  
 
-- **ပြင်ပတွင်သိမ်းဆည်းမှုလမ်းကြောင်း (External storage (SD) directory)**အတွက်ပုံမှန်လမ်းကြောင်းမှာ /osmtracker ဖြစ်ပါသည်။   
+- **ပြင်ပတွင်သိမ်းဆည်းမှုလမ်းကြောင်း** (External storage (SD) directory)အတွက်ပုံမှန်လမ်းကြောင်းမှာ /osmtracker ဖြစ်ပါသည်။   
 
 > မကြာသေးမီကမှထွက်ရှိထားသော Android devices များသည် external microSD (သို့) SD ကဒ်ထဲတွင် data သိမ်းမှတ်မှုကို ခွင့်မပြုပါ။  “external storage” ဟု ရည်ညွှန်းထားသော်လည်း tracks များသည် **/storage/emulated/0/osmtracker** ထဲတွင်သာ သိမ်းမှတ်ဆဲဖြစ်ပါလိမ့်မည်။   
 
@@ -82,7 +82,7 @@ OSM Tracker ကိုစတင်ပါ။ သင် ၏ Android device မှ M
 - **Export as GPX** - လမ်းကြောင်း(track) နှင့် waypoints များ အတွက် editing Programme ကိုအသုံးပြုရာတွင် gpx file အနေနှင့် export လုပ်ရန်လိုအပ်ပါသည်။  
 - **Upload to OpenStreetMap** သင်၏ trace ကို OpenStreetMap ပေါ်သို့ Upload လုပ်ရာတွင်ဤ option ကိုသုံးပါ။ သင့်ထံတွင် OpenStreetMap အကောင့်တစ်ခုရှိရန်နှင့် သင်၏အကောင့်ပေါ်သို့ tracesများ upload လုပ်ရန်ဤ app ၏တရားဝင်ခွင့်ပြုချက်ရရှိထားရန်လိုအပ်ပါသည်။([OpenStreetMap account မည်ကဲ့သို့ရယူနိုင်ကြောင်းကို ဤနေရာတွင်ရှင်းပြထားပါသည်](/en/beginner/start-osm/)) OpenStreetMap အတွက် ဤ traces များ အဘယ်ကြောင့်အရေးကြီးရကြောင်း သိလိုပါက[ဤနေရာတွင်ကြည့်ပါ။](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files)  
 
-> **သတိပြုရန်မှာ သင်၏ track ကို လောလောဆယ် Delete မလုပ်ပါနှင့်။ **  သင်သည် အခြေခံလမ်းကြောင်းသာ upload လုပ်ပြီးခြင်းဖြစ်သည်။ waypoints နှင့်  ဓါတ်ပုံများမပါဝင်သေးပါ။ Editing လုပ်ရန်အတွက် ကွန်ပျူတာထဲသို့ transfer လုပ်ပြီးသည်အထိအားလုံးကိုထိန်းသိမ်းထားပါ။  
+> **သတိပြုရန်မှာ သင်၏ track ကို လောလောဆယ် Delete မလုပ်ပါနှင့်။**  သင်သည် အခြေခံလမ်းကြောင်းသာ upload လုပ်ပြီးခြင်းဖြစ်သည်။ waypoints နှင့်ဓါတ်ပုံများမပါဝင်သေးပါ။ Editing လုပ်ရန်အတွက် ကွန်ပျူတာထဲသို့ transfer လုပ်ပြီးသည်အထိအားလုံးကိုထိန်းသိမ်းထားပါ။  
 
 - **Delete**  မိမိကိုယ်တိုင်စိတ်ကြိုက် ဖြေရှင်းဆောင်ရွက်ပါ။  
 
