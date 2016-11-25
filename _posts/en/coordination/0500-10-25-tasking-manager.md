@@ -3,7 +3,7 @@ layout: doc
 title: Tasking Manager
 permalink: /en/coordination/tasking-manager/
 lang: en
-category: coordination/:tm_mapping
+category: coordination
 ---
 
 # Tasking Manager
