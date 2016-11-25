@@ -4,19 +4,19 @@ Hilfe bei der Verbesserung unserer Anleitungen
 
 Organisieren Sie Workshops?
 
-Testen Sie das Trainingsmaterial für diese Anleitung
+Befassen Sie sich mit dem (englischsprachigen) Trainingsmaterial für diese Anleitung
 
 War dieses Kapitel hilfreich?
 
-Teilen Sie uns mit und helfen Sie, die Anleitungen zu verbessern!
+Melden Sie sich und helfen Sie, die Anleitungen zu verbessern!
 
 Legen Sie los
 
 Englisch
 
-OpenStreetMap ist eine freie Straßenhöhenkarte der Welt, die durch eine stetig wachsende Anzahl von Kartierern erstellt wird.
+OpenStreetMap ist eine freie Straßenkarte der Welt, die durch eine stetig wachsende Anzahl von Mitarbeitern erstellt wird.
 
-Jeder kann OpenStreetMap bearbeiten. Hier können Sie lernen, wie LearnOSM leicht verständliche Schritt-für-Schritt-Anleitungen zur Verfügung stellt, damit Sie anfangen können, zu OpenStreetMap beizutragen, OpenStreetMap zu nutzen, und OpenStreetMap-Daten zu benutzen. Falls Sie einen OpenStreetMap-Workshop anbieten wollen, probieren Sie die LearnOSM-Trainer-Materialien aus.
+Jeder kann OpenStreetMap bearbeiten. Hier sehen Sie, wie LearnOSM leicht verständliche Schritt-für-Schritt-Anleitungen zur Verfügung stellt, damit Sie in der Lage sind, zu OpenStreetMap beizutragen sowie OpenStreetMap und seine Daten zu nutzen. Falls Sie einen OpenStreetMap-Workshop anbieten wollen, befassen Sie sich mit den LearnOSM-Trainer-Materialien.
 
 Unsere Anleitungen
 
@@ -24,15 +24,15 @@ Wonach suchen Sie?
 
 Neu bei OpenStreetMap?
 
-Anfänger-Anleitung
+Anleitung für Anfänger
 
-Humanitäres Kartieren
+Kartieren für humanitäre Zwecke
 
 Informationen über Fernerkundungs-Kartographie
 
 Andere Anleitungen
 
-Anleitungen nach Dokumentformat
+Anleitungen zum Ausdrucken
 
 Häufige Fragen
 
@@ -44,15 +44,15 @@ Wie fange ich mit dem Kartieren an?
 
 Wo kann ich zusätzliche Hilfe finden?
 
-Diese Anleitung herunterladbar als
+Diese Anleitung steht hier zum Download zur Verfügung:
 
 Diese Anleitung ist verfügbar in 
 
 oder  
 
-Bitte beziehen Sie sie von 
+Bitte verwenden Sie eine Anleitung auf 
 
-Diese Anleitung ist derzeit nicht verfügbar. Bitte beziehen Sie sie von 
+Diese Anleitung ist derzeit nicht verfügbar. Bitte verwenden Sie eine Version auf 
 
 Schicken Sie uns eine Rückmeldung
 
