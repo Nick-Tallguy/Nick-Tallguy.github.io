@@ -75,6 +75,34 @@ The area of interest is automatically split into grid cells and each cell become
 ### Arbitrary Geometries
 Each individual polygon in the area of interest (AOI) represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
 
+### Considerations concerning Imagery
+
+In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+1. Bing does not provide high-resolution coverage for your area of interest (AOI).
+2. Bing has considerable cloud cover in this area.
+3. You need newer imagery for post-disaster evaluation.
+
+If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+
+In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AOI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AOI and determine the offset between your imagery and previously mapped data. If those data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+
+If there is a constant offset between your imagery and Bing across the AOI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AOI or if existing data are aligned with various sources it's time for plan B:
+
+The important point is that you must develop a strategy how to cope with these issues and provide a detailed guideline to contributors. We strongly suggest that you declare this project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+
+One possible strategy could include these steps:
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that this is Bing.
+2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
+3. Align the alternative imagery to Bing using the imagery offset function of the editor.
+4. Add new features from the now correctly aligned alternative imagery.
+
+It is important that step 2 is repeated for every task of the project and the individual task size should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+
+Here are some suggested bits of information to be included in the project instructions:
+- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+
 ## Create the project & add description
 After choosing a tile size, click “Create Project”. 
 
@@ -87,8 +115,8 @@ Please use plain language as your target audience may not consist of native Engl
 1. The title of the project should already reveal what entities should be mapped. Prefer a title such as 
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
 2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery. Phrase it so that ne wmappers will be comfortable contribute to the project but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and that adhering to these guidelines is required.
+3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
+4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explaein that adhering to these guidelines is required.
 5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
