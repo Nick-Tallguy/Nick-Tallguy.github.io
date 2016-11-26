@@ -87,20 +87,20 @@ If Bing does not prove adequate then Mapbox is the next choice. You should only 
 
 In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AOI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AOI and determine the offset between your imagery and previously mapped data. If those data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 
-If there is a constant offset between your imagery and Bing across the AOI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AOI or if existing data are aligned with various sources it's time for plan B:
+If there is a constant offset between your imagery and Bing across the AOI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AOI or if existing data are aligned with various sources then it is time for plan B:
 
-The important point is that you must develop a strategy how to cope with these issues and provide a detailed guideline to contributors. We strongly suggest that you declare this project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+The important point is that you must develop a strategy how to cope with these issues and provide a detailed guideline to contributors. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
 
 One possible strategy could include these steps:
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that this is Bing.
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
 2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to Bing using the imagery offset function of the editor.
+3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
 4. Add new features from the now correctly aligned alternative imagery.
 
 It is important that step 2 is repeated for every task of the project and the individual task size should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
 
-Here are some suggested bits of information to be included in the project instructions:
+Here are some suggested bits of information which you might include in the project instructions:
 
 - [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
 - [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
