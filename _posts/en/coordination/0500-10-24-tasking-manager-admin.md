@@ -78,6 +78,7 @@ Each individual polygon in the area of interest (AOI) represents an individual t
 ### Considerations concerning Imagery
 
 In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+
 1. Bing does not provide high-resolution coverage for your area of interest (AOI).
 2. Bing has considerable cloud cover in this area.
 3. You need newer imagery for post-disaster evaluation.
@@ -91,6 +92,7 @@ If there is a constant offset between your imagery and Bing across the AOI then 
 The important point is that you must develop a strategy how to cope with these issues and provide a detailed guideline to contributors. We strongly suggest that you declare this project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
 
 One possible strategy could include these steps:
+
 1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that this is Bing.
 2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
 3. Align the alternative imagery to Bing using the imagery offset function of the editor.
@@ -99,6 +101,7 @@ One possible strategy could include these steps:
 It is important that step 2 is repeated for every task of the project and the individual task size should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
 
 Here are some suggested bits of information to be included in the project instructions:
+
 - [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
 - [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
 - [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
