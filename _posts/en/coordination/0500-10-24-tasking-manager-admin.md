@@ -102,7 +102,7 @@ One possible strategy could include these steps:
 3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
 4. Add new features from the now correctly aligned alternative imagery.
 
-It is important that step 2 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
 
 Here are some suggested bits of information which you might include in the project instructions:
 
