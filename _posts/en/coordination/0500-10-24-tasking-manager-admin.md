@@ -22,7 +22,7 @@ The first thing to understand is access level. All access to TM2 is authorized t
 ### Access Levels within the OSM Tasking Manager
 The OSM Tasking Manager has three user access levels:
 -  **User** - The most basic level. The user is able to login to TM2 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers are endowed with privileges to create and update projects within TM2.  
+-  **Project Manager** - Project managers have access to create and update projects within TM2.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM2.
 You will need Project Manager Access level to create new projects using TM2.
 
@@ -34,7 +34,9 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 
 ![TM Draw or Import][]
 
-### Draw an area of interest to be mapped
+> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager.
+
+#### Draw an area of interest to be mapped
 
 ![TM Draw][]
 
@@ -44,21 +46,23 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 
 or
 
-### Upload a GeoJSON or KML file of the area of interest to be mapped  
+#### Upload a GeoJSON or KML file of the area of interest to be mapped  
 
 1. Click the ‘Import’ button,  
 2. Browse to your file in the File Upload window,  
 3. Click the file name to highlight the file and then click ‘Open’.  
 
-The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:  
 
 ### Task Squares
-The area of interest defined in the GeoJSON or KML file will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.   
 
-### Splitting the Area of Interest into Task Squares
-There are two options for delineating the individual tiles that represent an area to be mapped. You may select square tiles of equal size or create arbitrary shapes:
+The area of interest defined by the file upload or hand drawn will appear in the map frame, and you will then be asked to choose how the area of interest is split into individual tasks.  There are two options:  
+
+1. Square Grid - The Tasking manager will uniformly divide up the overall project area in exactly the same sized task squares. This is usually a very good idea for general crowdmapping projects.
+2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes for example.
+
+### Using the Square Grid for task squares
 To create uniform square tiles, select the Square Grid option and click next.  
-The area of interest is automatically split into grid cells and each cell becomes a task. The larger the project area, the larger the resulting squares will be. Determine the optimal tile size based on the five Tile Size options. As such, a smaller tile size will result in more tasks as shown in the screenshots.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile.  Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+The area of interest is automatically split into grid cells and each cell becomes a task. The larger the project area, the larger the resulting squares will be. Determine the optimal tile size based on the five relative tile size options. As such, a smaller tile size will result in more tasks as shown in the screenshots.  The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the area of interest and/or the number of likely features increases, the tile size chosen for the project should decrease. 
 
 ![TM Tile Sizes][]{: width="1500"}
 
@@ -73,7 +77,7 @@ The area of interest is automatically split into grid cells and each cell become
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
 
 ### Arbitrary Geometries
-Each individual polygon in the area of interest (AOI) represents an individual task.  If the AOI consists of one polygon, the project will have just one task.
+It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AOI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
 
 ### Considerations concerning Imagery
 
@@ -85,11 +89,11 @@ In most cases we use the "standard" Bing imagery. But there are situations where
 
 If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AOI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AOI and determine the offset between your imagery and previously mapped data. If those data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AOI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AOI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 
 If there is a constant offset between your imagery and Bing across the AOI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AOI or if existing data are aligned with various sources then it is time for plan B:
 
-The important point is that you must develop a strategy how to cope with these issues and provide a detailed guideline to contributors. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
 
 One possible strategy could include these steps:
 
@@ -98,7 +102,7 @@ One possible strategy could include these steps:
 3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
 4. Add new features from the now correctly aligned alternative imagery.
 
-It is important that step 2 is repeated for every task of the project and the individual task size should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
 
 Here are some suggested bits of information which you might include in the project instructions:
 
