@@ -13,7 +13,7 @@ Tracing round buildings
 > Created 2016-10-30  
 
 
-![A village in Indonesia][]
+![Round Buildings][]
 
 
-[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Round Buildings]: /images/hot-tips/round_building.gif

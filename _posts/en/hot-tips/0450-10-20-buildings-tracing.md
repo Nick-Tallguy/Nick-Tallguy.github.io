@@ -18,7 +18,7 @@ Hi, if you've found your way to this page by following a link sent to you, welco
 **Wanted - gif showing the tracing of a rectangular building. Find it, zoom in to scale of 20metres of so, trace it using the area button. Square it. gif ends here. (Another module will deal with tagging)**
 
 
-![A village in Indonesia][]
+![Rectangular building][]
 
 
-[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Rectangular building]: /images/hot-tips/rectangular_building.gif
