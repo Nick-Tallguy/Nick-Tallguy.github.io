@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Starting with the Tasking Manager
+title: Starting with a Tasking Manager
 permalink: /en/hot-tips/getting-started/
 lang: en
 category: hot-tips
@@ -24,9 +24,8 @@ This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), b
 4.  The mapping is checked by 'validators' who often send messages giving valuable feedback on your contributions.  
 ![TM-start-at-top]{: height="100px"}  
 **Tip -** Many validators start working at the top of the map and work down - you are more likely to get valuable feedback at an early stage if you use the map & select a square as close to the top as you can. (The yellow squares have been marked as complete, and the green ones have been marked as complete and then validated). Click on a white or pale grey square - more info at [Guide to the Tasking Manager](/en/coordination/tasking-manager/).  
-5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going.  
-6.  When you think the square if finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete.  
-![mark task as done]{: height="250px"}  
+5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
+6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
 4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
 5.  If you need to know how to identify the exact square you are working on, send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/)  
 
