@@ -32,6 +32,30 @@ prose:
     - /_layouts
     - /_includes
 
+# language menu
+menus:
+  language:
+    - English: <a lang='en'/>
+    - Català: <a lang='ca'/>
+    - Česky: <a lang='cs'/>
+    - Deutsch: <a lang='de'/>
+    - Español: <a lang='es'/>
+    - فارسی: <a lang='fa'/>
+    - Français: <a lang='fr'/>
+    - Hrvatski: <a lang='hr'/>
+    - Bahasa Indonesia: <a lang='bi'/>
+    - Italiano: <a lang='it'/>
+    - 日本語: <a lang='ja'/>
+    - ဗမာ: <a lang='my'/>
+    - Norsk: <a lang='nb'/>
+    - Nederlands: <a lang='nl'/>
+    - Português: <a lang='pt'/>
+    - Русский: <a lang='ru'/>
+    - Kiswahili: <a lang='sw'/>
+    - Українська: <a lang='uk'/>
+    - 简体中文: <a lang='zh'/>
+    - 繁體中文: <a lang='zh-tw'/>
+ 
 #translations
 translations:
   en:

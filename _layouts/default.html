@@ -38,26 +38,7 @@
    <div id='wrapper'>
     <div class="fillG cell11" id="banner-top">
       <small class='language-switcher marginL marginR cell11 cf'>
-        <a lang='en'>English</a> |
-        <a lang='ca'>Catalan</a> |
-        <a lang='cs'>Czech</a> |
-        <a lang='de'>Deutsch</a> |
-        <a lang='es'>Español</a> |
-        <a lang='fa'>فارسی</a> |
-        <a lang='fr'>Français</a> |
-        <a lang='hr'>Hrvatski</a> |
-        <a lang='bi'>Bahasa Indonesia</a> |
-        <a lang='it'>Italiano</a> |
-        <a lang='ja'>日本語</a> |
-        <a lang='my'>ဗမာ</a> |     
-        <a lang='nb'>Norsk</a> |
-        <a lang='nl'>Nederlands</a> |
-        <a lang='pt'>Português</a> |
-        <a lang='ru'>Русский</a> |
-        <a lang='sw'>Kiswahili</a> |
-        <a lang='uk'>Українська</a> |
-        <a lang='zh'>简体中文</a> |
-        <a lang='zh-tw'>繁體中文</a>
+        {% menu language %}
       </small>
       <!-- small search bar does not appear on the front page -->
       {% unless page.fronttitle or page.contributetitle%}
