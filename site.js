@@ -4,10 +4,10 @@ $(function() {
     var app = window.app;
     $('.dropdown').hover(
         function() {
-            $(this).addClass('active');
+            $('.dropdown-content').addClass('active');
         },
         function() {
-            $(this).removeClass('active');
+            $('.dropdown-content').removeClass('active');
         }
     );
     $('.language-switcher a').each(function(i, e) {
