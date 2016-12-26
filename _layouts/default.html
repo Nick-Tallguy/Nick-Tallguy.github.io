@@ -39,8 +39,8 @@
     <div class="fillG cell11" id="banner-top">
 <!--      <div class="dropdown"> <a onclick="selectLanguage()"> {{site.translations.[page.lang].language}} </a> -->
         <small class='language-switcher marginL marginR cell11 cf'>
-          {% for lang in site.translations %}
-            <a lang='{{lang.language}}'>{{site.translations.lang.language}} |</a>
+          {% for lingua in site.translations %}
+            <a lang="{{ lingua }}">{{ lingua.language }} |</a>
           {% endfor %}
         </small>
       <!-- small search bar does not appear on the front page -->
