@@ -40,7 +40,7 @@
       <div class="dropdown"> <a class="dropbtn" onclick="selectLanguage()"> {{site.translations.[page.lang].language}} </a>
         <small class='language-switcher marginL marginR cell11 cf'>
           {% for language in site.translations %}
-            <a lang={{language}}>{{site.translations.[language]}} |</a>
+            <a lang={{language}}>{{site.translations.[language].language}} |</a>
           {% endfor %}
         </small>
       <!-- small search bar does not appear on the front page -->
