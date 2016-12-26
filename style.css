@@ -258,7 +258,7 @@ body {
 .dropdown-content {
   display:none;
 }
-.dropdown-content a.active {
+.dropdown-content.active {
   display:block;
 }
 .language-switcher {
