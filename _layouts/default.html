@@ -40,7 +40,7 @@
       <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
         <div class='language-switcher dropdown-content'>
           {% for lingua in site.translations %}
-            <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a>
+            <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
           {% endfor %}
         </div>
       </div>
