@@ -255,11 +255,16 @@ body {
   bottom:0;
   left:0;
 }
+.dropdown {
+  position:relative;
+  display:inline-block;
+}
 .dropdown-content {
   display:none;
 }
 .dropdown-content.active {
   display:block;
+  position:absolute;
 }
 .language-switcher {
   padding:6px 20px;
