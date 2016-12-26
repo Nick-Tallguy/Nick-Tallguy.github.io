@@ -35,6 +35,7 @@ prose:
 #translations
 translations:
   en:
+    code: "en"
     language: "English"
     tagline: "Learn OpenStreetMap Step by Step"
     contribute: "Help improve our guides"
@@ -44,6 +45,7 @@ translations:
     feedback: "Let us know and help us improve the guides!"
     getstarted: "Get started"
   ca:
+    code: "ca"
     language: "Català"
     tagline: "Apreneu sobre l'OpenStreetMap pas a pas"
     contribute: "Ajudeu-nos a millorar les guies"
@@ -53,6 +55,7 @@ translations:
     feedback: "Feu-nos ho saber i ajudeu-nos a millorar les guies!"
     getstarted: "Iniciació"
   cs:
+    code: "cs"
     language: "Česky"
     tagline: "Naučte se OpenStreetMap krok za krokem"
     contribute: "Pomožte vylepšit naše průvodce"
@@ -62,6 +65,7 @@ translations:
     feedback: "Napište nám a pomožte nám zlepšit naše návody!"
     getstarted: "Začínáme"
   de:
+    code: "de"
     language: "Deutsch"
     tagline: "Lernen Sie OpenStreetMap Schritt für Schritt kennen"
     contribute: "Helfen Sie uns, die Anleitungen zu verbessern"
@@ -71,6 +75,7 @@ translations:
     feedback: "Senden Sie uns Feedback und verbessern Sie die Anleitungen!"
     getstarted: "weiter zum nächsten Kapitel"
   es:
+    code: "es"
     language: "Español"
     tagline: "Aprende OpenStreetMap Paso a Paso"
     contribute: "Ayuda a mejorar las guías"
@@ -80,6 +85,7 @@ translations:
     feedback: "¡Contacta con nosotros y ayúdanos a mejorar estas guías!"
     getstarted: "Comencemos"
   fa:
+    code: "fa"
     language: "فارسی"
     tagline: "آموزش گام به گام OpenStreetMap"
     contribute: "به بهبود راهنماهای ما کمک کنید"
@@ -89,6 +95,7 @@ translations:
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
   fr:
+    code: "fr"
     language: "Français"
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
@@ -98,6 +105,7 @@ translations:
     feedback: "Faîtes-nous savoir comment améliorer ces guides !"
     getstarted: "Commencer"
   hr:
+    code: "hr"
     language: "Hrvatski"
     tagline: "Naučite OpenStreetMap korak po korak"
     contribute: "Pomozite poboljšati naša uputstva"
@@ -107,6 +115,7 @@ translations:
     feedback: "Javite nam i pomozite nam poboljšati uputstva!"
     getstarted: "Započnite"
   bi:
+    code: "bi"
     language: "Bahasa Indonesia"
     overview: "Ringkasan"
     tagline: "Pelajari OpenStreetMap Langkah Demi Langkah"
@@ -117,6 +126,7 @@ translations:
     feedback: "Beritahu kami dan bantu kami memperbaiki panduan!"
     getstarted: "Lanjutkan ke bab berikutnya"
   it:
+    code: "it"
     language: "Italiano"
     overview: "Riassunto"
     tagline: "Impara a conoscere OpenStreetMap passo dopo passo"
@@ -127,6 +137,7 @@ translations:
     feedback: "Contattaci ed aiutaci a migliorare le guide!"
     getstarted: "procedere al capitolo successivo"
   ja:
+    code: "ja"
     language: "日本語"
     overview: "概要"
     tagline: "はじめてからのOpenStreetMapガイド"
@@ -137,6 +148,7 @@ translations:
     feedback: "ガイドの改善にご意見ください"
     getstarted: "次の章に進む"
   my:
+    code: "my"
     language: "ဗမာ"
     tagline: "OpenStreetMap အားတစ်ဆင့်ပြီးတစ်ဆင့်လေ့လာခြင်း"
     contribute: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများတိုးတက်အောင်ကူညီပါ။"
@@ -146,6 +158,7 @@ translations:
     feedback: "ကျွန်ုပ်တို့၏လမ်းညွှန်မှုများကိုတိုးတက်ကောင်းမွန်စေရန် ကျွန်ုပ်တို့အားအသိပေးခြင်းဖြင့်ကူညီပါ။"
     getstarted: "စတင်ရန်"
   nl:
+    code: "nl"
     language: "Nederlands"
     tagline: "Ontdek de mogelijkheden van OpenStreetMap"
     contribute: "Meehelpen met het verbeteren van handleidingen"
@@ -155,6 +168,7 @@ translations:
     feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
     getstarted: "Beginnen"
   nb:
+    code: "nb"
     language: "Norsk"
     tagline: "Lær deg OpenStreetMap steg for steg"
     contribute: "Hjelpe oss å forbedre våre guider"
@@ -164,6 +178,7 @@ translations:
     feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
     getstarted: "Kom i gang"
   pt:
+    code: "pt"
     language: "Português"
     overview: "Sumário"
     tagline: "Conheça sobre o OpenStreetMap, passo-a-passo."
@@ -174,6 +189,7 @@ translations:
     feedback: "Conte-nos e ajude a melhorar os guias!"
     getstarted: "prosseguir para o próximo capítulo"
   ru:
+    code: "ru"
     language: "Русский"
     tagline: "Изучаем OpenStreetMap шаг за шагом"
     contribute: "Помогите улучшить наши руководства"
@@ -183,6 +199,7 @@ translations:
     feedback: "Посоветуйте и помогите нам улучшить руководства!"
     getstarted: "Начало"
   sw:
+    code: "sw"
     language: "Kiswahili"
     tagline: "Jifunze OpenStreetMap hatua kwa hatua"
     contribute: "Saidia kuboresha miongozo yetu"
@@ -192,6 +209,7 @@ translations:
     feedback: "Tujulishe na utusaidie kuboresha miongozo!"
     getstarted: "Anza"
   uk:
+    code: "uk"
     language: "Українська"
     tagline: "Знайомимось з OpenStreetMap крок за кроком"
     contribute: "Допоможіть покращити наші посібники"
@@ -201,6 +219,7 @@ translations:
     feedback: "Повідомте нам і допоможіть нам покращити посібник!"
     getstarted: "Розпочати"
   zh:
+    code: "zh"
     language: "简体中文"
     tagline: "逐步学习OpenStreetMap"
     contribute: "帮助改进我们的指南"
@@ -210,6 +229,7 @@ translations:
     feedback: "告诉我们并帮助我们改进本指南。"
     getstarted: "入门"
   zh-tw:
+    code: "zh-tw"
     language: "繁體中文"
     tagline: "一步一腳印學習開放街圖"
     contribute: "幫忙改進我們的指南"
