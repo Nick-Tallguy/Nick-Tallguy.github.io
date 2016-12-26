@@ -2,8 +2,13 @@
 ---
 $(function() {
     var app = window.app;
-    $('.dropdown').click(
-        $(this).addClass('active');
+    $('.dropdown').hover(
+        function() {
+            $(this).addClass('active');
+        },
+        function() {
+            $(this).removeClass('active');
+        }
     );
     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
