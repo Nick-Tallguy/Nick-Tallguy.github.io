@@ -267,6 +267,7 @@ body {
   display:block;
   position:absolute;
   font-size:0,6em;
+  background-color:#f0f0f0;
   z-index:1;
 }
 .language-switcher {
