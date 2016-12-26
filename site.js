@@ -13,11 +13,10 @@ $(function() {
     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
-        $(e).attr('href',
-            app.baseurl + '/' +
-            $(e).attr('lang') +
-            remainder
-        );
+        var new_url = app.baseurl + '/' + $(e).attr('lang') + remainder;
+        $.ajax({type: 'HEAD', url: new_url, success: function() {$(e).attr('href', new_url);},
+                                            error:   function() {$(e).attr('href', app.permalink);}
+        }}});
     });
     $('.language-switcher a[lang=' + app.lang + ']').addClass('active');
       // contribute banner pops out when hovered over
