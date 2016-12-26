@@ -37,12 +37,12 @@
   <body>
    <div id='wrapper'>
     <div class="fillG cell11" id="banner-top">
-      <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
-        <small class='language-switcher dropdown-content marginL marginR cell11 cf'>
+      <div class="dropdown marginL marginR cell11 cf"> <a> {{site.translations.[page.lang].language}} </a>
+        <div class='language-switcher dropdown-content marginL marginR cell11 cf'>
           {% for lingua in site.translations %}
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a>
           {% endfor %}
-        </small>
+        </div>
       </div>
       <!-- small search bar does not appear on the front page -->
       {% unless page.fronttitle or page.contributetitle%}
