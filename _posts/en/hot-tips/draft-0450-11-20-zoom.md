@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: See the details
+title: What scale to work at? - iD editor
 permalink: /en/hot-tips/zoom/
 lang: en
 category: hot-tips
 ---
 
-See the details
+What scale to work at? - iD editor
 ============
 
 > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  

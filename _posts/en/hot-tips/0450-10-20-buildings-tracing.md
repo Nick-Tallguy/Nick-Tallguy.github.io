@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tracing rectangular buildings
+title: Tracing rectangular buildings - iD editor
 permalink: /en/hot-tips/tracing-rectangular-buildings/
 lang: en
 category: hot-tips
 ---
 
-Tracing rectangular buildings
+Tracing rectangular buildings - iD editor
 ============
 
 <!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  

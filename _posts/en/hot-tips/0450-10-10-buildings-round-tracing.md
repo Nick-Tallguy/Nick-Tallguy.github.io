@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tracing round buildings
+title: Tracing round buildings - iD editor
 permalink: /en/hot-tips/tracing-round-buildings/
 lang: en
 category: hot-tips
 ---
 
-Tracing round buildings
+Tracing round buildings - iD editor
 ============
 
 <!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  

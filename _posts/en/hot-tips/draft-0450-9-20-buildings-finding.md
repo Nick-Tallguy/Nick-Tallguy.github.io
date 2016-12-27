@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Finding buildings
+title: Finding buildings - iD editor
 permalink: /en/hot-tips/finding-buildings/
 lang: en
 category: hot-tips
 ---
 
-Finding buildings
+Finding buildings - iD editor
 ============
 
 > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  

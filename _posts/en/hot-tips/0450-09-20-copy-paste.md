@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Copying, Pasting & Rotating
+title: Copying, Pasting & Rotating - iD editor
 permalink: /en/hot-tips/copy-paste/
 lang: en
 category: hot-tips
 ---
 
-Copying, Pasting & Rotating
+Copying, Pasting & Rotating - iD editor
 ============
 
 <!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  

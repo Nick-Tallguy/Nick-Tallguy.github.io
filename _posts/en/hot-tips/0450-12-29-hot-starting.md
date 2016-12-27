@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Starting with a Tasking Manager
+title: Starting with a Tasking Manager - iD editor
 permalink: /en/hot-tips/getting-started/
 lang: en
 category: hot-tips
 ---
 
-Starting with a Tasking Manager
+Starting with a Tasking Manager - iD editor
 ============
 
 <!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  
