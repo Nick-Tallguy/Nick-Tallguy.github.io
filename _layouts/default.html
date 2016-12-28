@@ -39,19 +39,26 @@
     <div class="fillG cell11" id="banner-top">
       <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
         <div class='language-switcher dropdown-content'>
+          {% if page.lang == "de" %}
+            {% assign supported = "" %}
+            {% for post in site.categories.[page.category] %}
+              {% if {{post.permalink | remove: "/[page.lang]/[page.category]/"}} == {{page.permalink | remove: "/[page.lang]/[page.category]/"}} %}
+                {% assign supported = supported | append: post.lang | append: ' ' %}
+              {% endif %}
+            {% endfor %}
+          {% for lingua in site.translations %}
+            {% if supported contains lingua %}
+            <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
+            {% else %}
+            {{lingua[1].language}}<br>
+            {% endif %}
+          {% endfor %}
+          {% else %}
           {% for lingua in site.translations %}
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
           {% endfor %}
+          {% endif %}
         </div>
-       {% if page.lang == "de" %}
-         {% assign supported = "" %}
-         {% for post in site.categories.[page.category] %}
-           {% if {{post.permalink | remove: "/[page.lang]/[page.category]/"}} == {{page.permalink | remove: "/[page.lang]/[page.category]/"}} %}
-             {% assign supported = supported | append: post.lang | append: ' ' %}
-           {% endif %}
-         {% endfor %}
-         <small>{{supported}}</small>
-       {% endif %}
       </div>
       <!-- small search bar does not appear on the front page -->
       {% unless page.fronttitle or page.contributetitle%}
