@@ -42,7 +42,7 @@
           {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
           {% assign this_page = page.permalink | strip %}
 
-          {% if this_page == startpage %} <!-- always show title page -->
+          {% if this_page == start_page %} <!-- always show title page -->
             {% for lingua in site.translations %}
               <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
             {% endfor %}
