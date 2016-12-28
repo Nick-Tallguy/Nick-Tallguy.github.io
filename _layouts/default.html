@@ -40,8 +40,12 @@
       <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
         <div class='language-switcher dropdown-content'>
           {% assign start_page = "/" | append: page.lang | append: "/" %}
+
           {% if page.permalink == startpage %} <!-- always show title page -->
-            <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
+            {% for lingua in site.translations %}
+              <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
+            {% endfor %}
+
           {% else %}
             {% assign supported = "" %}
             {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
