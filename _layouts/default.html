@@ -39,6 +39,7 @@
     <div class="fillG cell11" id="banner-top">
       <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
         <div class='language-switcher dropdown-content'>
+            {{page.permalink}}<br>
           {% if page.permalink == "/" | append: page.lang | append: "/" %} <!-- always show title page -->
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
           {% else %}
