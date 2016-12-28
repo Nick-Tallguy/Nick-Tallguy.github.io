@@ -47,6 +47,8 @@
             {% endfor %}
 
           {% else %}
+            <small>{{page.permalink}}</small>
+            <small>{{start_page}}</small>
             {% assign supported = "" %}
             {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
             {% assign page_name = page.permalink | remove: remover %}
