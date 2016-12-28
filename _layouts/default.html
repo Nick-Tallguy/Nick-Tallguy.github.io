@@ -55,9 +55,9 @@
           <!-- make a link for those languages where the page exists, plain text otherwise -->
           {% for lingua in site.translations %}
             {% if supported contains lingua[0] %}
-            <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
+            <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
             {% else %}
-            <div class="unavailable">{{lingua[1].language}}</div><br>
+            <span class="unavailable">{{lingua[1].language}}</span><br>
             {% endif %}
           {% endfor %}
         </div>
