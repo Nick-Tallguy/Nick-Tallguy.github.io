@@ -53,6 +53,7 @@
             {{lingua[1].language}}<br>
             {% endif %}
           {% endfor %}
+            <small>{{supported}}</small>
           {% else %}
           {% for lingua in site.translations %}
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
