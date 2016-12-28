@@ -43,6 +43,7 @@
             {% assign supported = "" %}
             {% for post in site.categories.[page.category] %}
               {% if post.permalink | remove_first: "/[post.lang]/[post.category]/" == page.permalink | remove_first: "/[page.lang]/[page.category]/" %}
+                <small>{{post.permalink}}</small>
                 {% assign supported = supported | append: post.lang | append: ' ' %}
               {% endif %}
             {% endfor %}
