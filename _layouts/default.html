@@ -43,6 +43,15 @@
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
           {% endfor %}
         </div>
+       {% if page.lang == "de" %}
+         {% assign supported = "" %}
+         {% for post in site.categories.[page.category] %}
+           {% if post.title == page.title %}
+             {% supported | append: post.lang | append: ' ' %}
+           {% endif %}
+         {% endfor %}
+         <small>{{supported}} </small>
+       {% endif %}
       </div>
       <!-- small search bar does not appear on the front page -->
       {% unless page.fronttitle or page.contributetitle%}
