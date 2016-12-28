@@ -47,10 +47,10 @@
          {% assign supported = "" %}
          {% for post in site.categories.[page.category] %}
            {% if post.title == page.title %}
-             {% supported | append: post.lang | append: ' ' %}
+             {% assign supported = supported | append: post.lang | append: ' ' %}
            {% endif %}
          {% endfor %}
-         <small>{{supported}} </small>
+         <small>{{supported}}</small>
        {% endif %}
       </div>
       <!-- small search bar does not appear on the front page -->
