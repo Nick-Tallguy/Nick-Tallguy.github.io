@@ -39,16 +39,15 @@
     <div class="fillG cell11" id="banner-top">
       <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
         <div class='language-switcher dropdown-content'>
-          {% assign start_page = "/" | append: page.lang | append: "/" %}
+          {%- assign start_page = "/" | append: page.lang | append: "/" -%}
+          {%- assign this_page = page.permalink -%}
 
-          {% if page.permalink == startpage %} <!-- always show title page -->
+          {% if this_page == startpage %} <!-- always show title page -->
             {% for lingua in site.translations %}
               <a lang='{{lingua[0]}}'>{{lingua[1].language}}</a><br>
             {% endfor %}
 
           {% else %}
-            <small>{{page.permalink}}</small>
-            <small>{{start_page}}</small>
             {% assign supported = "" %}
             {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
             {% assign page_name = page.permalink | remove: remover %}
