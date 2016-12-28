@@ -39,31 +39,27 @@
     <div class="fillG cell11" id="banner-top">
       <div class="dropdown"> <a> {{site.translations.[page.lang].language}} </a>
         <div class='language-switcher dropdown-content'>
-          {% if page.lang == "de" %}
-            {% assign supported = "" %}
-            {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
-            {% assign page_name = page.permalink | remove: remover %}
-            {% for post in site.categories.[page.category] %}
-              {% assign remover = "/" | append: post.lang | append: "/" | append: post.category %}
-              {% assign testee = post.permalink | remove: remover %}
-              {% if page_name == testee %}
-                <small>{{testee}}</small>
-                {% assign supported = supported | append: post.lang | append: ' ' %}
-              {% endif %}
-            {% endfor %}
+          {% assign supported = "" %}
+          {% assign remover = "/" | append: page.lang | append: "/" | append: page.category %}
+          {% assign page_name = page.permalink | remove: remover %}
+
+          <!-- find out which pages with the same name exist in which languages -->
+          {% for post in site.categories.[page.category] %}
+            {% assign remover = "/" | append: post.lang | append: "/" | append: post.category %}
+            {% assign testee = post.permalink | remove: remover %}
+            {% if page_name == testee %}
+              {% assign supported = supported | append: post.lang | append: ' ' %}
+            {% endif %}
+          {% endfor %}
+
+          <!-- make a link for those languages where the page exists, plain text otherwise -->
           {% for lingua in site.translations %}
             {% if supported contains lingua[0] %}
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
             {% else %}
-            {{lingua[1].language}}<br>
+            <div class="unavailable">{{lingua[1].language}}</div><br>
             {% endif %}
           {% endfor %}
-            <small>{{supported}}</small>
-          {% else %}
-          {% for lingua in site.translations %}
-            <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
-          {% endfor %}
-          {% endif %}
         </div>
       </div>
       <!-- small search bar does not appear on the front page -->

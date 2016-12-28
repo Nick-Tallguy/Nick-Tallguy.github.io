@@ -272,12 +272,15 @@ body {
 }
 .language-switcher {
   padding:6px 20px;
-  }
-  .language-switcher a.active {
-    color: #79bc5f;
-    text-decoration: none;
-    cursor: default;
-    }
+}
+.language-switcher a.active {
+  color: #79bc5f;
+  text-decoration: none;
+  cursor: default;
+}
+.unavailable {
+  color: #909090;
+}
 #header {
   padding:20px 0px;
   background: #fff url(./img/dot.png) repeat-x bottom;

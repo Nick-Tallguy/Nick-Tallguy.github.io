@@ -15,9 +15,6 @@ $(function() {
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
         var new_url = app.baseurl + '/' + $(e).attr('lang') + remainder;
         $(e).attr('href', new_url);
-//        $.ajax({type: 'HEAD', url: new_url, success: function() {$(e).attr('href', new_url);},
-//                                            error:   function() {$(e).attr('href', app.permalink);}
-//        }}});
     });
     $('.language-switcher a[lang=' + app.lang + ']').addClass('active');
       // contribute banner pops out when hovered over
