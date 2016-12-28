@@ -47,7 +47,7 @@
               {% endif %}
             {% endfor %}
           {% for lingua in site.translations %}
-            {% if supported contains lingua %}
+            {% if supported contains lingua[0] %}
             <a lang='{{lingua[0]}}'>{{lingua[1].language}}<br></a>
             {% else %}
             {{lingua[1].language}}<br>
