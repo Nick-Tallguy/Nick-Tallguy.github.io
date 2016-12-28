@@ -41,9 +41,11 @@
         <div class='language-switcher dropdown-content'>
           {% if page.lang == "de" %}
             {% assign supported = "" %}
+            {% assign page_name = page.permalink | remove_first: "/[page.lang]/[page.category]/" %}
             {% for post in site.categories.[page.category] %}
-              {% if post.permalink | remove_first: "/[post.lang]/[post.category]/" == page.permalink | remove_first: "/[page.lang]/[page.category]/" %}
-                <small>{{post.permalink}}</small>
+              {% assign testee = post.permalink | remove_first: "/[post.lang]/[post.category]/" %}
+              {% if page_name == testee %}
+                <small>{{testee}}</small>
                 {% assign supported = supported | append: post.lang | append: ' ' %}
               {% endif %}
             {% endfor %}
