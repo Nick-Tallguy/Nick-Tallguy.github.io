@@ -46,7 +46,7 @@
        {% if page.lang == "de" %}
          {% assign supported = "" %}
          {% for post in site.categories.[page.category] %}
-           {% if post.title == page.title %}
+           {% if {{post.permalink | remove: "/[page.lang]/[page.category]/"}} == {{page.permalink | remove: "/[page.lang]/[page.category]/"}} %}
              {% assign supported = supported | append: post.lang | append: ' ' %}
            {% endif %}
          {% endfor %}
