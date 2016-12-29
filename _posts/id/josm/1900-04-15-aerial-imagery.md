@@ -26,7 +26,7 @@ Citra udara adalah istilah yang kita gunakan untuk mendeskripsikan foto-foto yan
 diambil dari langit. Ini dapat diambil dari pesawat, helikopter, atau bahkan layangan
 dan balon, tetapi sumber citra yang paling umum berasal dari satelit yang mengorbit di Bumi.
 
-[Pada bab GPS](/id/beginner/using-gps) kita telah mempelajari mengenai puluhan satelit 
+[Pada bab GPS](/id/mobile-mapping/using-gps) kita telah mempelajari mengenai puluhan satelit 
 yang mengorbit di Bumi yang memungkinkan penerima GPS mengidentifikasi lintang dan bujur kita.
 Selain ini satelit GPS, terdapat juga satelit yang mengambil foto bumi. Foto ini kemudian
 dimanipulasi sehingga mereka dapat digunakan di perangkat lunak SIG (pemetaan). Citra

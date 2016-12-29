@@ -10,7 +10,7 @@ category: josm
 
 Membuat Kustom Presets
 =======================
-Pada [bab sebelumnya](/id/editing/josm-presets) kita telah melihat bagaimana mengkostumisasi menu preset 
+Pada [bab sebelumnya](/id/josm/josm-presets) kita telah melihat bagaimana mengkostumisasi menu preset 
 yang dapat ditambahkan ke dalam JOSM. Pada bab ini kita akan membahas bagaimana membuat file preset kustom 
 Anda sendiri.
 

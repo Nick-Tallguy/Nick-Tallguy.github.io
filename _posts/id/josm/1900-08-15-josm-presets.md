@@ -22,7 +22,7 @@ Jika Anda ingin menggunakan preset, apa yang terjadi ketika Anda ingin menambahk
 tag yang tidak ada di dalam menu, atau ketika Anda ingin mengkostumisasi tag Anda sendiri?
 
 Pada kasus ini, Anda dapat menambahkan kustom item menu ke Preset. Pada sesi ini kita 
-akan melihat bagaimana melakukan ini. Pada [bab berikut](/id/editing/creating-custom-presets),
+akan melihat bagaimana melakukan ini. Pada [bab berikut](/id/josm/creating-presets),
 kita akan membahas bagaimana membuat file preset yang dikustom Anda sendiri.
 
 Menambahkan Preset

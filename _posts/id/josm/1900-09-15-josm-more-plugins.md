@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Tool JOSM Lainnya
-permalink: /id/josm/more-tools/
+permalink: /id/josm/josm-more-plugins/
 redirect_from:
-  - /bi/josm/more-tools
+  - /bi/josm/josm-more-plugins
 lang: id
 category: josm
 ---
