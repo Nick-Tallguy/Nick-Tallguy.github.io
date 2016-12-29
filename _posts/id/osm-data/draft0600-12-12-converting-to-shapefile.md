@@ -2,6 +2,8 @@
 layout: doc
 title: Konversi ke Shapefile
 permalink: /id/osm-data/converting-to-shapefile/
+redirect_from:
+  - /bi/osm-data/converting-to-shapefile
 lang: id
 category: osm-data
 ---

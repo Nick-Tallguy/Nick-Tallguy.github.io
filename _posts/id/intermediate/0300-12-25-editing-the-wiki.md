@@ -2,6 +2,8 @@
 layout: doc
 title: Editing the Wiki OSM
 permalink: /id/intermediate/editing-the-wiki/
+redirect_from:
+  - /bi/intermediate/editing-the-wiki
 lang: id
 category: intermediate
 ---

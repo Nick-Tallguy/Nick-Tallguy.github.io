@@ -2,6 +2,8 @@
 layout: doc
 title: GPSLogger for Android
 permalink: /id/mobile-mapping/gpslogger/
+redirect_from:
+  - /bi/mobile-mapping/gpslogger
 lang: id
 category: mobile-mapping
 ---

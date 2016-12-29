@@ -1,6 +1,8 @@
 ---
 layout: doc
 permalink: /id/surveying/
+redirect_from:
+  - /bi/surveying
 lang: id
 title: Surveying
 category: surveying

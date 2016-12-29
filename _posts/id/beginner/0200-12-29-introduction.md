@@ -2,6 +2,8 @@
 layout: doc
 title: Pengenalan
 permalink: /id/beginner/introduction/
+redirect_from:
+  - /bi/beginner/introduction
 lang: id
 category: beginner
 ---

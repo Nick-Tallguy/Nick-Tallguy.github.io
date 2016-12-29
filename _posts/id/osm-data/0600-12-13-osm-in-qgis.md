@@ -2,6 +2,8 @@
 layout: doc
 title: Data OSM di QGIS
 permalink: /id/osm-data/osm-in-qgis/
+redirect_from:
+  - /bi/osm-data/osm-in-qgis
 lang: id
 category: osm-data
 ---

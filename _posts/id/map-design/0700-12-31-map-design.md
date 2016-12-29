@@ -1,6 +1,8 @@
 ---
 layout: doc
 permalink: /id/map-design/
+redirect_from:
+  - /bi/map-design
 lang: id
 title: Desain Peta
 category: map-design

@@ -2,6 +2,8 @@
 layout: doc
 title: Citra Udara
 permalink: /id/josm/aerial-imagery/
+redirect_from:
+  - /bi/josm/aerial-imagery
 lang: id
 category: josm
 ---

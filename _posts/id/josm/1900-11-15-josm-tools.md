@@ -2,6 +2,8 @@
 layout: doc
 title: JOSM Tools
 permalink: /id/josm/josm-tools/
+redirect_from:
+  - /bi/josm/josm-tools
 lang: id
 category: josm
 ---

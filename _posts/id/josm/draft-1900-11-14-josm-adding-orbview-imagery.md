@@ -2,6 +2,8 @@
 layout: doc
 title: Menambahkan Citra Satelit ke JOSM
 permalink: /id/josm/adding-orbview-imagery-in-josm/
+redirect_from:
+  - /bi/josm/adding-orbview-imagery-in-josm
 lang: id
 category: josm
 ---

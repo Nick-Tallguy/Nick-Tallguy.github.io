@@ -2,6 +2,8 @@
 layout: doc
 title: Editing OpenStreetMap dengan JOSM
 permalink: /id/josm/editing-with-josm/
+redirect_from:
+  - /bi/josm/editing-with-josm
 lang: id
 category: josm
 ---

@@ -2,6 +2,8 @@
 layout: doc
 title: Tips Editing
 permalink: /id/josm/josm-editing-techniques/
+redirect_from:
+  - /bi/josm/josm-editing-techniques
 lang: id
 category: josm
 ---

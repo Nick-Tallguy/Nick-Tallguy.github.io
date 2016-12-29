@@ -2,6 +2,8 @@
 layout: doc
 title: Pengaturan PostgreSQL
 permalink: /id/osm-data/setting-up-postgresql/
+redirect_from:
+  - /bi/osm-data/setting-up-postgresql
 lang: id
 category: osm-data
 ---

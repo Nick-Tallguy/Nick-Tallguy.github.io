@@ -2,6 +2,8 @@
 layout: doc
 title: Membuat Kustom Presets
 permalink: /id/josm/creating-presets/
+redirect_from:
+  - /bi/josm/creating-presets
 lang: id
 category: josm
 ---

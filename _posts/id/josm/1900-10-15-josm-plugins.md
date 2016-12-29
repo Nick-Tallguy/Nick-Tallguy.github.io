@@ -2,6 +2,8 @@
 layout: doc
 title: Plugin JOSM
 permalink: /id/josm/josm-plugins/
+redirect_from:
+  - /bi/josm/josm-plugins
 lang: id
 category: josm
 ---

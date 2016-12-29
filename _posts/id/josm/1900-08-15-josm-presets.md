@@ -2,6 +2,8 @@
 layout: doc
 title: Preset JOSM 
 permalink: /id/josm/josm-presets/
+redirect_from:
+  - /bi/josm/josm-presets
 lang: id
 category: josm
 ---

@@ -1,6 +1,8 @@
 ---
 layout: doc
-permalink: /id/surveying/gps-etrex20
+permalink: /id/surveying/
+redirect_from:
+  - /bi/surveyinggps-etrex20
 lang: id
 title: Surveying
 category: surveying

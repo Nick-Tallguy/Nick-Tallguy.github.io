@@ -1,6 +1,8 @@
 ---
 layout: doc
 permalink: /id/coordination/
+redirect_from:
+  - /bi/coordination
 lang: id
 title: Coordination
 category: coordination

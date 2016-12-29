@@ -2,6 +2,8 @@
 layout: doc
 title: Pergeseran Citra Satelit 
 permalink: /id/josm/correcting-imagery-offset/
+redirect_from:
+  - /bi/josm/correcting-imagery-offset
 lang: id
 category: josm
 ---

@@ -1,7 +1,9 @@
 ---
 layout: doc
 title: Humanitarian Mapping
-permalink: /id/coordination/humanitarian
+permalink: /id/coordination/
+redirect_from:
+  - /bi/coordinationhumanitarian
 lang: id
 category: coordination
 ---

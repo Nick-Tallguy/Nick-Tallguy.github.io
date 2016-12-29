@@ -2,6 +2,8 @@
 layout: doc
 title: Tool JOSM Lainnya
 permalink: /id/josm/more-tools/
+redirect_from:
+  - /bi/josm/more-tools
 lang: id
 category: josm
 ---

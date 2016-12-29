@@ -2,6 +2,8 @@
 layout: doc
 title: Mendapatkan Data OSM
 permalink: /id/osm-data/getting-data/
+redirect_from:
+  - /bi/osm-data/getting-data
 lang: id
 category: osm-data
 ---

@@ -2,6 +2,8 @@
 layout: doc
 title: OverPass API
 permalink: /id/osm-data/overpass-api/
+redirect_from:
+  - /bi/osm-data/overpass-api
 lang: id
 category: osm-data
 ---
