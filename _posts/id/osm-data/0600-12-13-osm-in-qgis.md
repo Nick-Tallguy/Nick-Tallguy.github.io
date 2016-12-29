@@ -35,7 +35,7 @@ Hal pertama yang kita akan lakukan adalah mendapatkan beberapa data OSM terbaru.
 melakukan ini dengan berbagai cara. Tentu saja, meminta data dari server OSM, seperti 
 yang kita lakukan di JOSM, dimaksudkan bahwa kita tidak dapat menarik data dengan jumlah
 besar - namun, terdapat cara lain untuk mengakses data, seperti yang dideskripsikan pada
-[bab sebelumnya](/bi/osm-data/getting-data).
+[bab sebelumnya](/id/osm-data/getting-data).
 
 Mari kita mendownload fungsi yang dibangun di QGIS, karena kita akan bekerja dengan QGIS 
 di sisa bab ini. Fungsi download tidak terlalu nyaman untuk menulis ini, tetapi tujuan

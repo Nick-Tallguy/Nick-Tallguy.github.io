@@ -68,7 +68,7 @@ dengan shapefile yang didefinisikan melalui struktur tabel, yang mungkin terliha
 ![shapefile attributes][]
 
 Data OpenStreetMap dapat dikonversi ke dalam shapefile. Berbagai macam situs menyediakan shapefile
-yang dikonversi daari data OSM. Hal ini akan dibahas di [bab selanjutnya](/bi/osm-data/getting-data).
+yang dikonversi daari data OSM. Hal ini akan dibahas di [bab selanjutnya](/id/osm-data/getting-data).
 
 Database
 ---------

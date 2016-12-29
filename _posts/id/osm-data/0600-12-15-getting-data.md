@@ -43,7 +43,7 @@ Ekstrak yang Disesuaikan
 ### HOT Export
 [Humanitarian OpenStreetMap Team](http://hotosm.org) telah membuat layanan yang 
 memungkinakan pengguna memilih daerah yang mereka ingin ekstrak, dan juga menggunakan
-[JOSM Presets](/bi/josm/josm-presets/) untuk memilih tag yang sudah disesuaikan untuk
+[JOSM Presets](/id/josm/josm-presets/) untuk memilih tag yang sudah disesuaikan untuk
 dimasukkan dalam ekstrak. Layanan yan tersedia untuk semua negara dimana HOT bekerja, di
 [export.hotosm.org](http://export.hotosm.org).
 

@@ -8,7 +8,7 @@ category: josm
 
 Membuat Kustom Presets
 =======================
-Pada [bab sebelumnya](/bi/editing/josm-presets) kita telah melihat bagaimana mengkostumisasi menu preset 
+Pada [bab sebelumnya](/id/editing/josm-presets) kita telah melihat bagaimana mengkostumisasi menu preset 
 yang dapat ditambahkan ke dalam JOSM. Pada bab ini kita akan membahas bagaimana membuat file preset kustom 
 Anda sendiri.
 
@@ -55,7 +55,7 @@ File Preset JOSM
 Mari menambahkan contoh file preset ke dalam JOSM dan menganalis cara kerjanya.
 
 *	Download file [sample_presets.xml](/files/sample_presets.xml).
-*	Kemudian memuatnya ke dalam JOSM seperti yang dijelaskan pada [bab sebelumnya](/bi/editing/josm-presets).
+*	Kemudian memuatnya ke dalam JOSM seperti yang dijelaskan pada [bab sebelumnya](/id/editing/josm-presets).
 *	Membuat sebuah layer baru dan objek baru.
 *	Pergilah ke menu Presets. Akan ada item baru yang bernama "Sample Building". Klik di atasnya.
 

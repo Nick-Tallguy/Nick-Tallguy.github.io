@@ -63,7 +63,7 @@ Beberapa plugin yang sering kita gunakan adalah:
 	
 8.	**utilsplugin2:**
 	Menambahkan banyak tool tambahan dan menu pada JOSM untuk pengguna tingkat lanjut. Ini
-	akan dibahas lebih rinci pada [bab selanjutnya](/bi/editing/josm-more-tools)
+	akan dibahas lebih rinci pada [bab selanjutnya](/id/editing/josm-more-tools)
 
 
 

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Konversi ke Shapefile
-permalink: /en/osm-data/converting-to-shapefile/
-lang: en
+permalink: /id/osm-data/converting-to-shapefile/
+lang: id
 category: osm-data
 ---
 
