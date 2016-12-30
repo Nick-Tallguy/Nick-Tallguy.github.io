@@ -324,5 +324,5 @@ yang menunggu untuk dimasukkan ke dalam database.
 -->
 
 
-[Plug]: /images/en/editing/josm-plugins/plugins-tab.png
+[Plug]: /images/josm/josm-plugins-tab.png
 
