@@ -274,12 +274,12 @@ to correct for this problem.
 -->
 
 
-[puzzle]: images/offset_puzzle_en.png
-[existing data]: images/offset_existing_data_en.png
-[download]: images/offset_tool_download_en.png
-[downloaded GPX]: images/offset_downloaded_gpx_en.png
-[adjust button]: images/offset_tool_adjust_en.png
-[adjust window]: images/offset_adjust_window_en.png
-[adding to existing data]: images/offset_add_to_data_en.png
-[no data]: images/offset_no_data_en.png
-[change opacity]: images/offset_change_opacity_en.png
+[puzzle]: /images/offset_puzzle_en.png
+[existing data]: /images/offset_existing_data_en.png
+[download]: /images/offset_tool_download_en.png
+[downloaded GPX]: /images/offset_downloaded_gpx_en.png
+[adjust button]: /images/offset_tool_adjust_en.png
+[adjust window]: /images/offset_adjust_window_en.png
+[adding to existing data]: /images/offset_add_to_data_en.png
+[no data]: /images/offset_no_data_en.png
+[change opacity]: /images/offset_change_opacity_en.png

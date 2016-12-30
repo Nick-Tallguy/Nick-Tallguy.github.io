@@ -213,7 +213,7 @@ yang akan digunakan untuk mengumpulkan data geografi. Informasi dari keduanya da
 diimport ke dalam JOSM, dan digunakan untuk mengedit peta. 
 
 
-[JOSM Download Button]: /josm/josm_download-button.png
+[JOSM Download Button]: /images/josm/josm_download-button.png
 [JOSM Download Dialog]: /images/josm/josm_download-dialog.png
 [JOSM Preferences up down]: /images/josm/josm_preferences-up-down.png
 [JOSM Preferences WMS TMS]: /images/josm/josm_preferences-wms-tms.png
