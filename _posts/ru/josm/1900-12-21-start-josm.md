@@ -242,7 +242,7 @@ published: true
 
 
 
-[JOSM website]: /images/josm/josm_josm-website.png
+[JOSM website]: /images/josm/josm-website.png
 [Windows installer]: /images/josm/windows-installer.png
 [JOSM splash page]: /images/josm/josm-splash-page.png
 [Preferences window]: /images/josm/josm_preferences.png

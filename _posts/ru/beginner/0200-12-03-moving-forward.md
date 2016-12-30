@@ -82,5 +82,5 @@ index of locations that are included in the area.
 в проект. Удачи вам!
 
 [MapOSMatic]: /images/beginner/maposmatic-homepage.png
-[Wiki]: /images/beginner/0osm-wiki.png
+[Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

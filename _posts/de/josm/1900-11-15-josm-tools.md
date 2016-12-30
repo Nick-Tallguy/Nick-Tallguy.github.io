@@ -154,14 +154,14 @@ Diese Anleitung sehen Sie auch in der Informationsleiste unten in JOSM:
 
 
 
-[tools_menu_sample.osm]: /images/de/editing/josm-tools/tools-menu-sample-file.png
-[Tools menu]: /images/de/editing/josm-tools/tools-menu.png
-[Align nodes in circle]: /images/de/editing/josm-tools/align-nodes-in-circle.png
+[tools_menu_sample.osm]: /images/josm/tools-menu-sample-file.de.png
+[Tools menu]: /images/josm/tools-menu.de.png
+[Align nodes in circle]: /images/josm/align-nodes-in-circle.de.png
 [Combine way]: /images/en/editing/josm-tools/combine-way.png
-[Reverse and combine]: /images/de/editing/josm-tools/reverse-and-combine.png
+[Reverse and combine]: /images/josm/reverse-and-combine.de.png
 [Way direction]: /images/en/editing/josm-tools/way-direction.png
-[Simplify way]: /images/de/editing/josm-tools/simplify-way.png
-[Create circle]: /images/de/editing/josm-tools/create-circle.png
+[Simplify way]: /images/josm/simplify-way.de.png
+[Create circle]: /images/josm/create-circle.de.png
 [Align nodes in line]: /images/en/editing/josm-tools/align-nodes-in-line.png
 [Orthagonalize]: /images/en/editing/josm-tools/orthagonalize.png
 [Unglue way]: /images/en/editing/josm-tools/unglue-way.png
@@ -171,5 +171,5 @@ Diese Anleitung sehen Sie auch in der Informationsleiste unten in JOSM:
 [Keyboard Del]: /images/en/editing/josm-tools/keyboard-del.png
 [Keyboard plus]: /images/en/editing/josm-tools/keyboard-plus.png
 [Keyboard minus]: /images/en/editing/josm-tools/keyboard-minus.png
-[Rotate demo]: /images/de/editing/josm-tools/rotate-demo.png
-[Rotate instructions]: /images/de/editing/josm-tools/rotate-instructions.png
+[Rotate demo]: /images/josm/rotate-demo.de.png
+[Rotate instructions]: /images/josm/rotate-instructions.de.png
