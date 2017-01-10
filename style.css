@@ -265,6 +265,7 @@ body {
 .dropdown-content.active {
   padding:6px 20px;
   display:block;
+  width: 200px;
   position:absolute;
   background-color:#f0f0f0;
   z-index:1;

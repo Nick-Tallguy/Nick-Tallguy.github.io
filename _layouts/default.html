@@ -38,7 +38,7 @@
    <div id='wrapper'>
     <div class="fillG cell11" id="banner-top">
       <div class="dropdown language-switcher marginL"> <a> {{site.translations.[page.lang].language}} ... </a>
-        <div class='language-switcher dropdown-content cell4'>
+        <div class='language-switcher dropdown-content'>
           {% assign start_page = "/" | append: page.lang | append: "/" | strip %}
           {% assign this_page = page.permalink | strip %}
 
@@ -73,10 +73,10 @@
         </div>
       </div>
       <div class="dropdown quick-access"> <a> {{site.translations.[page.lang].quickaccess}} </a>
-        <div class='quick-access dropdown-content cell4'>
+        <div class='quick-access dropdown-content'>
           <!-- find out whether the remote-tracing guide exists in the current language; otherwise we will use English -->
           {% assign coord = "coordination" %}
-          {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing" %}
+          {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing/" %}
           {% assign found = "0" %}
           {% for post in site.categories.coord %}
             {% if post.permalink == remote_tracing %}
