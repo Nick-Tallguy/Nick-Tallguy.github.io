@@ -78,7 +78,9 @@
           {% assign coord = "coordination" %}
           {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing/" %}
           {% assign found = "0" %}
+<span>{{remote_tracing}}</span>
           {% for post in site.categories.coord %}
+<span>{{post.permalink}}</span>
             {% if post.permalink == remote_tracing %}
               {% assign found = "1" %}
               {% break %}
