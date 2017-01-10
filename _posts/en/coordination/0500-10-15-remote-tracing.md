@@ -33,7 +33,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
 
-### <a name="highway-howto"></a> Highways - How to map
+### <a name="highways-howto"></a> Highways - How to map
 
 ![iD 3][]
 

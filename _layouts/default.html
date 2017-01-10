@@ -72,7 +72,7 @@
           {% endif %}
         </div>
       </div>
-      <div class="dropdown quick-access cell4"> <a> {{site.translations.[page.lang].quickaccess}} </a>
+      <div class="dropdown quick-access cell3"> <a> {{site.translations.[page.lang].quickaccess}} </a>
         <div class='quick-access dropdown-content'>
           <!-- find out whether the remote-tracing guide exists in the current language; otherwise we will use English -->
           {% assign coord = "coordination" %}
@@ -81,6 +81,7 @@
           {% for post in site.categories.coord %}
             {% if post.permalink == remote_tracing %}
               {% assign found = "1" %}
+              {% break %}
             {% endif %}
           {% endfor %}
           {% if found == "1" %}

@@ -33,7 +33,7 @@ Elk type weg, van autosnelwegen tot sporen en paden, worden gelabeld als 'highwa
 -  Weten of een wegoppervlak asfalt is of zachte modder zal verschil,maken voor het plannen van uw route.
 -  Bij het pr0beren in kaart te brengen van de verspreiding van een ziekte, is de beschrijving van een slachtoffer als "nabij de kruising" significant als u de kruising kunt zien op de kaart.
 
-### <a name="highway-howto"></a> Wegen - Hoe in kaart te brengen
+### <a name="highways-howto"></a> Wegen - Hoe in kaart te brengen
 
 ![iD 3][]
 
