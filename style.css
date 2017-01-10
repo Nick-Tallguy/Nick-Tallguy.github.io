@@ -256,6 +256,7 @@ body {
   left:0;
 }
 .dropdown {
+  padding:6px 20px;
   position:relative;
   display:inline-block;
 }
@@ -265,11 +266,12 @@ body {
 .dropdown-content.active {
   padding:6px 20px;
   display:block;
-  width: 200px;
   position:absolute;
   background-color:#f0f0f0;
   z-index:1;
 }
+.dropdown-content.language-switcher { width: 20ch; }
+.dropdown-content.quick-access { width: 35ch; }
 .language-switcher a.active {
   color: #79bc5f;
   text-decoration: none;
