@@ -2,15 +2,23 @@
 ---
 $(function() {
     var app = window.app;
-    $('.dropdown').hover(
+    $('.dropdown.language-switcher').hover(
         function() {
-            $('.dropdown-content').addClass('active');
+            $('.dropdown-content.language-switcher').addClass('active');
         },
         function() {
-            $('.dropdown-content').removeClass('active');
+            $('.dropdown-content.language-switcher').removeClass('active');
         }
     );
-    $('.language-switcher a').each(function(i, e) {
+    $('.dropdown.quick-access').hover(
+        function() {
+            $('.dropdown-content.quick-access').addClass('active');
+        },
+        function() {
+            $('.dropdown-content.quick-access').removeClass('active');
+        }
+    );
+     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
         var new_url = app.baseurl + '/' + $(e).attr('lang') + remainder;
