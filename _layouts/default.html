@@ -75,11 +75,10 @@
       <div class="dropdown quick-access"> <a> {{site.translations.[page.lang].quickaccess}} </a>
         <div class='quick-access dropdown-content'>
           <!-- find out whether the remote-tracing guide exists in the current language; otherwise we will use English -->
-          {% assign coord = "coordination" %}
           {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing/" %}
           {% assign found = "0" %}
 <span>{{remote_tracing}}</span>
-          {% for post in site.categories.coord %}
+          {% for post in site.categories['coordination'] %}
 <span>{{post.permalink}}</span>
             {% if post.permalink == remote_tracing %}
               {% assign found = "1" %}
