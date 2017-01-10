@@ -77,9 +77,7 @@
           <!-- find out whether the remote-tracing guide exists in the current language; otherwise we will use English -->
           {% assign remote_tracing = "/" | append: page.lang | append: "/coordination/remote-tracing/" %}
           {% assign found = "0" %}
-<span>{{remote_tracing}}</span>
           {% for post in site.categories['coordination'] %}
-<span>{{post.permalink}}</span>
             {% if post.permalink == remote_tracing %}
               {% assign found = "1" %}
               {% break %}
