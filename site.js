@@ -18,17 +18,13 @@ $(function() {
             $('.dropdown-content.quick-access').removeClass('active');
         }
     );
-    $('.dropdown.language-switcher').click(function(e) {
-        e.stopPropagation();
+    $('.dropdown.language-switcher > a').on('touchstart', function(e) {
+        e.preventDefault();
         $('.dropdown-content.language-switcher').toggleClass('active');
     });
-    $('.dropdown.quick-access').click( function(e) {
-        e.stopPropagation();
+    $('.dropdown.quick-access > a').on('touchstart', function(e) {
+        e.preventDefault();
         $('.dropdown-content.quick-access').toggleClass('active');
-    });
-    $(document).click(function(e) {
-        $('.dropdown-content.language-switcher').removeClass('active');
-        $('.dropdown-content.quick-access').removeClass('active');
     });
     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
