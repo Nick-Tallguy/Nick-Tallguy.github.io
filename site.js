@@ -19,17 +19,18 @@ $(function() {
         }
     );
     $('.dropdown.language-switcher').on('touchstart', function(e) {
-        e.preventDefault();
+        if (! $('.dropdown-content.language-switcher').hasClass('active') {
+            e.preventDefault();
+        }
         $('.dropdown-content.language-switcher').toggleClass('active');
     });
     $('.dropdown.quick-access').on('touchstart', function(e) {
-        e.preventDefault();
+        if (! $('.dropdown-content.quick-access').hasClass('active') {
+            e.preventDefault();
+        }
         $('.dropdown-content.quick-access').toggleClass('active');
     });
-    $('.dropdown-content a').on('touchstart', function(e) {
-        return true;
-    });
-    $('.language-switcher a').each(function(i, e) {
+     $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
         var new_url = app.baseurl + '/' + $(e).attr('lang') + remainder;
