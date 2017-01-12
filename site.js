@@ -18,6 +18,14 @@ $(function() {
             $('.dropdown-content.quick-access').removeClass('active');
         }
     );
+    $('.dropdown.language-switcher').on('touchstart touchend', function(e) {
+        e.preventDefault();
+        $('.dropdown-content.language-switcher').toggleClass('active');
+    });
+    $('.dropdown.quick-access').on('touchstart touchend', function(e) {
+        e.preventDefault();
+        $('.dropdown-content.quick-acess').toggleClass('active');
+    });
      $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
