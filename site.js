@@ -26,7 +26,10 @@ $(function() {
         e.preventDefault();
         $('.dropdown-content.quick-access').toggleClass('active');
     });
-     $('.language-switcher a').each(function(i, e) {
+    $('.dropdown-content a').on('touchstart', function(e) {
+        return true;
+    });
+    $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
         var new_url = app.baseurl + '/' + $(e).attr('lang') + remainder;
