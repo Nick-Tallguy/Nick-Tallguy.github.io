@@ -18,7 +18,15 @@ $(function() {
             $('.dropdown-content.quick-access').removeClass('active');
         }
     );
-     $('.language-switcher a').each(function(i, e) {
+    $('.dropdown.language-switcher > a').on('touchstart', function(e) {
+        e.preventDefault();
+        $('.dropdown-content.language-switcher').toggleClass('active');
+    });
+    $('.dropdown.quick-access > a').on('touchstart', function(e) {
+        e.preventDefault();
+        $('.dropdown-content.quick-access').toggleClass('active');
+    });
+    $('.language-switcher a').each(function(i, e) {
         if (app.permalink.length < 3) return;
         var remainder = app.permalink.match(/(\/[^\/]+)(\/.*)/)[2];
         var new_url = app.baseurl + '/' + $(e).attr('lang') + remainder;
