@@ -27,7 +27,7 @@ This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), b
 5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
 6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
 4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
-5.  If you need to know how to identify the exact square you are working on, send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/)  
+5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
 
 This is only the very basics to get you going - you will need to read more or get guidance from somewhere if you wish to make progress.  
 
