@@ -154,11 +154,11 @@ a {
   color: #404040;
   }
 
+a:visited {
+  color: #58ac47;
+}
 a:hover {
   color: #79bc5f;
-}
-a:visited {
-  color: #294020;
 }
 em {font-style:italic;}
 strong {font-weight:700;}
