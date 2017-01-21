@@ -157,6 +157,9 @@ a {
 a:hover {
   color: #79bc5f;
 }
+a:visited {
+  color: #294020;
+}
 em {font-style:italic;}
 strong {font-weight:700;}
 
