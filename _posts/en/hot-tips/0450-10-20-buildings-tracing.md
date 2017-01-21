@@ -16,6 +16,16 @@ Tracing rectangular buildings - iD editor
 
 > This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
+Buildings obscured or seen at an angle  
+--------------------------------------
+
+![building-obscured][]  
+
+It is common for the satellite image to be taken at an angle making the building seem distorted. In the above image the image to the right shows how the building should be traced. It is often easiest to trace the outline of the roof, then drag this to the point where the walls meet the ground - this was the technique used to trace the building above. Notice also that a building partially obscured by trees has been correctly traced as rectangular. 
+
+Buildings with a ridged roof
+----------------------------
+ 
 Most buildings either have corners at 90 degrees, or they are round buildings.  
 
 ![building-ridge][]  
@@ -35,3 +45,4 @@ Do your best - even the experts will disagree sometimes, and sometimes you just 
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
+[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png
