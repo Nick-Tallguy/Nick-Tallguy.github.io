@@ -154,7 +154,7 @@ a {
   color: #404040;
   }
 
-a:visited {
+.doc-nav a:visited {
   color: #4a733a;
 }
 a:hover {
