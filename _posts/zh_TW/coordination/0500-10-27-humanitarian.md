@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Humanitarian Mapping
-permalink: /zh-tw/coordination/humanitarian
+permalink: /zh-tw/coordination/humanitarian/
 lang: zh-tw
 category: coordination
 published: true

@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: လူသားချင်းစာနာထောက်ထားမှုဆိုင်ရာ မြေပုံရေးဆွဲခြင်း
-permalink: /my/coordination/humanitarian
+permalink: /my/coordination/humanitarian/
 lang: my
 category: coordination
 ---
 
 # လူသားချင်းစာနာထောက်ထားမှုဆိုင်ရာ မြေပုံရေးဆွဲခြင်း
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)
+![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
 > ဤလမ်းညွှန်ချက်ကို [humanitarian_my.odt](/files/humanitarian_my.odt) (သို့မဟုတ်) [humanitarian_my.pdf](/files/humanitarian_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-09-18
