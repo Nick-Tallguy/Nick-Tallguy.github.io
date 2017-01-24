@@ -221,9 +221,9 @@ Lees de verschillende tabs nog eens door om er voor te zorgen dat de bewoordinge
 
 Klik, als het project gereed is om in kaart te laten brengen, op de link ‘Publish’. Als het project eenmaal is gepubliceerd, is het beschikbaar om in kaart te brengen voor iedereen met een account voor OSM, tenzij ene groep gebruikers werd gespecificeerd op de tab ‘Allowed Users’, in welk geval alleen de toegestane gebruikers er aan zouden kunnen werken.  Indien nodig kan het project nog steeds worden bewerkt nadat het is gepubliceerd, door te klikken op de link ‘Edit’.
 
-[TM Tile Sizes]: /images/coordination/tasking_manager_project_admin/tile_sizes.png
-[TM New]: /images/coordination/tasking_manager_project_admin/create_new.png
-[TM Draw or Import]: /images/coordination/tasking_manager_project_admin/draw_or_import.png
-[TM Draw]: /images/coordination/tasking_manager_project_admin/draw.png
-[TM Create Project]: /images/coordination/tasking_manager_project_admin/create_project.png
-[TM Edit Project]: /images/coordination/tasking_manager_project_admin/edit_link.png
+[TM Tile Sizes]: /images/coordination/TM_tile_sizes.png
+[TM New]: /images/coordination/TM_create_new.png
+[TM Draw or Import]: /images/coordination/TM_draw_or_import.png
+[TM Draw]: /images/coordination/TM_draw.png
+[TM Create Project]: /images/coordination/TM_create_project.png
+[TM Edit Project]: /images/coordination/TM_edit_link.png
