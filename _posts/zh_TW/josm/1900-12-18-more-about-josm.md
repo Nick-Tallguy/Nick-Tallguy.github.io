@@ -9,7 +9,7 @@ category: josm
 JOSM 修改流程
 ========================
 
-> 這份指南可以到 [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) 或是 [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf) 下載  
+> 這份指南可以到 [josm_more-about-josm_zh-tw.odt](/files/josm_more-about-josm_zh-tw.odt) 或是 [josm_more-about-josm_zh-tw.pdf](/files/josm_more-about-josm_zh-tw.pdf) 下載  
 > Reviewed 2015-07-12  
 
 在前面的章節，
@@ -44,13 +44,13 @@ JOSM 修改流程
     點選下載按鈕可以簡單的操作這個對話窗，
     顯示在這裡：
 
-![JOSM 下載按鈕][]
+![JOSM Download Button][]
 
 - 當下載視窗打開的時候，你應該看到一個地圖，並且有粉紅色的框覆蓋在上面。
     如果你看不到地圖，點選標示為
     「Slippy map」的分頁。
 
-![JOSM 下載視窗][]
+![JOSM Download Dialog][]
 
 - 粉紅色的框呈現我們即將下載來編輯的地圖區域。
     使用你的滑鼠上下移動並縮放到你非常熟悉的區域，
@@ -85,7 +85,7 @@ JOSM 修改流程
 > 你可能需要在 JOSM 的設定裡面開啟。前往 Edit 選單中的 Preferences ，
 > 並且點選寫著「WMS TMS」的圖示。你可能需要往下拉才能找到。
 > ![JOSM Preferences up down][]
->⇥![JOSM Preferences WMS TMS][]
+> ![JOSM Preferences WMS TMS][]
 > 點擊「Bing Sat」，然後點「Activate」。
 
 
@@ -125,11 +125,11 @@ JOSM 修改流程
 或只有一些已經存在的地圖資料。不過注意，
 這些資料跟我們之前看過的點、線、面是同一類資料，這些資料呈現了這個區域在真實世界的面貌。
 
--⇥使用你學過的這些技巧，去新增一些你認識的地點到地圖上。
+- 使用你學過的這些技巧，去新增一些你認識的地點到地圖上。
 	如果你看到錯誤，可以嘗試修正它們。
--⇥當你還在學習的時候，不用過於積極去編輯地圖。
+- 當你還在學習的時候，不用過於積極去編輯地圖。
 	如果你不確定你編輯的物件，最好的方法是保持原狀。
--⇥如果你想要移動一個點、線或面，
+- 如果你想要移動一個點、線或面，
     使用 **選擇工具（select tool）** 。
     點擊並拖拉物件到它應該在的位置。
     這可以用來修正一些被放到錯誤位置的物件。
@@ -167,15 +167,15 @@ JOSM 修改流程
 
 - 點選「Upload Changes」。
 
--⇥如果這是你第一次存檔到 OpenStreetMap ，
+- 如果這是你第一次存檔到 OpenStreetMap ，
     你將需要輸入你的 OpenStreetMap 帳戶與密碼。
--⇥在顯示的視窗裡輸入帳號密碼。
+- 在顯示的視窗裡輸入帳號密碼。
     如果你勾選視窗裡面的單選框，你的帳戶與密碼將會被記憶起來，
     未來就不用重複輸入。點選「Authenticate」，以進行帳戶的驗證。
 
 ![JOSM Authenticate][]
 
--⇥你將會需要稍等數秒以上傳你的修改，
+- 你將會需要稍等數秒以上傳你的修改，
     接著就完成了！你已經修改了 OpenStreetMap 的地圖。
 
 > 每次你編輯的時候，請確保在關閉 JOSM 之前上傳你的修改，  
