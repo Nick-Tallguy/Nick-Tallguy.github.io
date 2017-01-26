@@ -31,7 +31,7 @@ This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), b
 
 This is only the very basics to get you going - you will need to read more or get guidance from somewhere if you wish to make progress.  
 
-[Return to the HOT Tips Index page](/en/hot-tips/)
+[Top of page](/en/hot-tips/getting-started/)
 
 [TM-start-at-top]:/images/hot-tips/TM-start-at-top-1.png
 [TM Start]:/images/hot-tips/tm_start.gif
