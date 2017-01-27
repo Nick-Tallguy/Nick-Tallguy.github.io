@@ -54,7 +54,7 @@ See also
 
 [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
 
-[![arrow-up]{: height="20px"}](/en/hot-tips/getting-started/ "Return to top of page") [Return to top of page](/en/hot-tips/getting-started/ "Return to top of page")
+[![arrow-up]{: height="20px"}](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page") [Return to top of page](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page")
 
 
 [Rectangular building]: /images/hot-tips/rectangular_building.gif
