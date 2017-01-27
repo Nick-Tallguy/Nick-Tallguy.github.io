@@ -16,6 +16,9 @@ Tracing rectangular buildings - iD editor
 
 > This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
+- TOC
+{:toc}
+
 Buildings obscured or seen at an angle  
 --------------------------------------
 
@@ -34,15 +37,30 @@ This building has 90 degree corners, but has a ridge on its roof. The camera ang
 ![building-tree-ridge][]  
 This building has a tree partially obscuring it. It is a rectangular building.  
 
+In isolated parts of the world it is common to use sheets of corrugated iron as roofing - when new these will reflect the sunlight which creates a **very bright flare effect** on the satellite imagery. It is common for buildings to have a verandah or be **L shaped** and you should ensure that your tracing follows the shape of the building.  
 When tracing the building outline, you must try to trace the building at the right size, and at the point where its walls meet the ground - do your best! In many parts of the world, buildings are partially constructed and then left without roofs until they are sold, or otherwise wanted for use. Map a building without a roof as a normal building as it does not take long to add a roof, and the roof may have been added already, in the time since the satellite imagery was taken.  
 
 Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
 
-[Return to the HOT Tips Index page](/en/hot-tips/)
-<!-- Hi, if you've found your way to this page by following a link sent to you, welcome, please read, and please continue to map. We need your help, and you've been sent the link as your contibution is valued. Hopefully something on this short page, or others like it in this section, will help you to help us more. -->
+Building Tags
+-------------
+
+As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.
+
+See also  
+---------
+
+[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+
+[![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
+
+[![arrow-up]{: height="20px"}](/en/hot-tips/getting-started/ "Return to top of page") [Return to top of page](/en/hot-tips/getting-started/ "Return to top of page")
+
 
 [Rectangular building]: /images/hot-tips/rectangular_building.gif
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
 [building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png
+[building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
+[arrow-up]: /images/arrow-up.png
