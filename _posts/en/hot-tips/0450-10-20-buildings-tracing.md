@@ -9,15 +9,26 @@ category: hot-tips
 Tracing rectangular buildings - iD editor
 ============
 
+- TOC
+{:toc}
+
 <!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  
 > Created 2016-10-30  -->  
+
+The Essentials
+----------
 
 ![Rectangular building][]  
 
 > This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
-- TOC
-{:toc}
+Points to note;  
+
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners.  
+- Make sure you tag!  
+- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
+- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
+- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
 
 Buildings obscured or seen at an angle  
 --------------------------------------
@@ -50,9 +61,11 @@ As we are tagging buildings we have never visited and are not familiar with, the
 See also  
 ---------
 
-[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
+*Subtitles available in some languages*  
 
-[![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
+- [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+
 
 [![arrow-up]{: height="20px"}](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page") [Return to top of page](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page")
 
@@ -60,6 +73,7 @@ See also
 [Rectangular building]: /images/hot-tips/rectangular_building.gif
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
+[back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
 [building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

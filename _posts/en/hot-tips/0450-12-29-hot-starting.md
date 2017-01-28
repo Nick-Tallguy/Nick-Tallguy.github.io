@@ -9,10 +9,13 @@ category: hot-tips
 Starting with a Tasking Manager - iD editor
 ============
 
-<!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  
-> Created 2016-10-30  -->
+- TOC
+{:toc}
 
 This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), but the principles are the same for all versions.  
+
+The Essentials
+--------------
 
 ![TM Start][]
 
@@ -33,11 +36,12 @@ See also
 ---------
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
+*Subtitles available in some languages*  
 
 [![arrow-up]{: height="20px"}](/en/hot-tips/getting-started/ "Return to top of page") [Return to top of page](/en/hot-tips/getting-started/ "Return to top of page")
 
 [TM-start-at-top]:/images/hot-tips/TM-start-at-top-1.png
-[TM Start]:/images/hot-tips/tm_start.gif
+[TM Start]:/images/hot-tips/tm_start.gif "Tasking Manager selecting a square and loading into the iD editor"
 [keymon]:/images/hot-tips/keymon.png
 [mark task as done]:/images/hot-tips/mark-task-as-done.png
 [OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
