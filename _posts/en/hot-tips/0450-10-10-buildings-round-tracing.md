@@ -56,8 +56,8 @@ See also
 [![arrow-up]{: height="20px"}](/en/hot-tips/tracing-round-buildings/ "Return to top of page") [Return to top of page](/en/hot-tips/tracing-round-buildings/ "Return to top of page")
 
 [keymon]:/images/hot-tips/keymon.png
-[Round Buildings]: /images/hot-tips/round_building.gif
-[bush-and-round-building]: /images/hot-tips/bush-and-round-building.png
-[back arrow]: /images/beginner/back-arrow.png
+[Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
+[back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
 [arrow-up]: /images/arrow-up.png

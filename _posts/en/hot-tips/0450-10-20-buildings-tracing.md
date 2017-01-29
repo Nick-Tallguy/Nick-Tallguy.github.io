@@ -72,11 +72,11 @@ See also
 [![arrow-up]{: height="20px"}](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page") [Return to top of page](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page")
 
 
-[Rectangular building]: /images/hot-tips/rectangular_building.gif
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracing a rectangular building, squaring the corners, and adding tags."
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
-[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png
+[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Before & after - tracing a building seen at an angle"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
 [arrow-up]: /images/arrow-up.png
