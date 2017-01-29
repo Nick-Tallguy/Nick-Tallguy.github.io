@@ -23,6 +23,7 @@ Points to note;
 
 - Place your points where the walls will reach the ground - 3 points is the minimum. Use the tool to make it round.  
 - Make sure you tag!  
+- Size matters - *population estimates are based on the cumulative building area in a given area*,  
 - Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
 - **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
 - Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
