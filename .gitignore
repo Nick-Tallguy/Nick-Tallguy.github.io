@@ -9,4 +9,3 @@ serve/
 jekyll_*log.txt
 _config.yml
 .jekyll-metadata
-.gitignore
