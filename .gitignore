@@ -8,4 +8,4 @@ _site/
 serve/
 jekyll_*log.txt
 _config.yml
-.jekyll-metadata
+*jekyll*
