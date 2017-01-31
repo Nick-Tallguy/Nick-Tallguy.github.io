@@ -47,9 +47,7 @@ layout: default
       <span><a class='start rounded'>{{site.translations.[page.lang].getstarted}}</a></span>
     </div>
   {% endif %}
-  <div>
-    <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px"> {{site.translations.[page.lang].returntotop}}</a>
-  </div>
+  <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px">&nbsp;{{site.translations.[page.lang].returntotop}}</a>
   {% unless {{page.cover}} %}
   <div class='feedback padAll'>
     <span>{{site.translations.[page.lang].feedbackspan}}</span>
