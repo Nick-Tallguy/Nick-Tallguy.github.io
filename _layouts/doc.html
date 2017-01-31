@@ -48,7 +48,7 @@ layout: default
     </div>
   {% endif %}
   <div>
-    [/images/arrow-up.png{: height="20px"}]({{page.permalink}} {{site.translations.[page.lang].returntotop}}) [{{site.translations.[page.lang].returntotop}}]({{page.permalink}} {{site.translations.[page.lang].returntotop}})
+    <a href='{{page.permalink}}'><img src="{{site.baseurl}}/images/arrow-up.png" style="height:20px"> {{site.translations.[page.lang].returntotop}}</a>
   </div>
   {% unless {{page.cover}} %}
   <div class='feedback padAll'>
