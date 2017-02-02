@@ -71,8 +71,6 @@ See also
 - [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 
-[![arrow-up]{: height="20px"}](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page") [Return to top of page](/en/hot-tips/tracing-rectangular-buildings/ "Return to top of page")
-
 
 [Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracing a rectangular building, squaring the corners, and adding tags."
 [keymon]:/images/hot-tips/keymon.png
@@ -81,4 +79,3 @@ See also
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
 [building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Before & after - tracing a building seen at an angle"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
-[arrow-up]: /images/arrow-up.png

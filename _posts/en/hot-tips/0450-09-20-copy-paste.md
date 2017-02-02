@@ -16,8 +16,5 @@ Copying, Pasting & Rotating - iD editor
 You can easily copy, paste & rotate objects, but make sure they are the right size.  
 Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste.  
 
-[![arrow-up]{: height="20px"}](/en/hot-tips/copy-paste/ "Return to top of page") [Return to top of page](/en/hot-tips/copy-paste/ "Return to top of page")
-
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
-[arrow-up]: /images/arrow-up.png
