@@ -182,7 +182,7 @@ translations:
     feedback: "Laat ons weten hoe we de handleidingen kunnen verbeteren!"
     getstarted: "Beginnen"
     returntotop: "Terug naar begin van de pagina"
-    quickaccess: "Quick access"
+    quickaccess: "Snelle toegang"
   nb:
     language: "Norsk"
     tagline: "Lær deg OpenStreetMap steg for steg"
@@ -259,5 +259,5 @@ translations:
     feedbackspan: "這個章節有用嗎？"
     feedback: "讓我們了解以便我們改進這個指南！"
     getstarted: "入門"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    returntotop: "回到頁面頂端"
+    quickaccess: "快速連結"
