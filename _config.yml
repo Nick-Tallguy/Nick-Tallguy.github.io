@@ -79,7 +79,7 @@ translations:
     feedbackspan: "War dieses Kapitel hilfreich?"
     feedback: "Senden Sie uns Feedback und verbessern Sie die Anleitungen!"
     getstarted: "weiter zum nächsten Kapitel"
-    returntotop: "Return to top of page"
+    returntotop: "Zum Anfang der Seite springen"
     quickaccess: "Schnellzugriff"
   es:
     language: "Español"
@@ -192,8 +192,8 @@ translations:
     feedbackspan: "Var dette kapittelet nyttig?"
     feedback: "Gi oss tilbakemelding og hjelp oss med å forbedre guidene!"
     getstarted: "Kom i gang"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    returntotop: "Gå til toppen av siden"
+    quickaccess: "Hurtigtilgang"
   pt:
     language: "Português"
     overview: "Sumário"
