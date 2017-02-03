@@ -75,14 +75,6 @@
       <div class="dropdown quick-access"> <a> {{site.translations.[page.lang].quickaccess}} </a>
         <div class='quick-access dropdown-content'>
           <!-- find out which hot-tips exists in the current language; otherwise we will use English -->
-          {% assign local_tips = "" %}
-          {% assign remover = "/" | append: post.lang | append: "/hot-tips/" %}
-          {% for post in site.categories['hot-tips'] %}
-            {% if post.lang == page.lang %}
-              {% assign local_tip = post.permalink | remove: remover %}
-              {% assign local_tips = local_tips | append: local_tip | append ' ' %}
-            {% endif %}
-          {% endfor %}
         </div>
       </div>
       <!-- small search bar does not appear on the front page -->
