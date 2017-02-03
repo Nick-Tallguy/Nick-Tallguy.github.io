@@ -83,17 +83,6 @@
               {% assign local_tips = local_tips | append: local_tip | append ' ' %}
             {% endif %}
           {% endfor %}
-          <!-- now build the menu proper -->
-          {% for post in site.categories['hot-tips'] %}
-            {% if post.lang == page.lang %}
-              <a href="{{post.permalink}}">{{post.title}}</a><br>
-            {% elsif post.lang == "en" %}
-              {% assign testee = post.permalink | remove: "/en/hot-tips/" %}
-              {% unless local_tips contains testee %}
-                <a href="{{post.permalink}}">{{post.title}}</a><br>
-              {% endunless %}
-            {% endif %}
-          {% endfor %}
         </div>
       </div>
       <!-- small search bar does not appear on the front page -->
