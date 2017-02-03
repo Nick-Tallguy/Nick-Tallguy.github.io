@@ -274,7 +274,7 @@ body {
   z-index:1;
 }
 .dropdown-content.language-switcher { width: 20ch; }
-.dropdown-content.quick-access { width: 35ch; }
+.dropdown-content.quick-access { width: 50ch; }
 .language-switcher a.active {
   color: #79bc5f;
   text-decoration: none;
