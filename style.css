@@ -175,7 +175,7 @@ small {
 
 img {
   display: span;
-  max-width:580px;
+  max-width:480px;
   border:1px solid #ddd;
   background: #fff;
   padding:3px;
@@ -274,7 +274,7 @@ body {
   z-index:1;
 }
 .dropdown-content.language-switcher { width: 20ch; }
-.dropdown-content.quick-access { width: 50ch; }
+.dropdown-content.quick-access { width: 35ch; }
 .language-switcher a.active {
   color: #79bc5f;
   text-decoration: none;
