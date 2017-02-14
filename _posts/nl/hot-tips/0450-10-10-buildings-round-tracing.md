@@ -15,7 +15,7 @@ Ronde gebouwen traceren - iD editor
 De beginselen
 ----------
 
-![Round Buildings][]  
+![Round Buildings]{: width="600px"}  
 
 > Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
