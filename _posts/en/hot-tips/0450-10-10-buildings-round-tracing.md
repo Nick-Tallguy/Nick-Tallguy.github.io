@@ -15,7 +15,7 @@ Tracing round buildings - iD editor
 The Essentials
 ----------
 
-![Round Buildings]{: width="520px"}  
+![Round Buildings]{: width="600px"}  
 
 > This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 

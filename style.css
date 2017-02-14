@@ -175,7 +175,7 @@ small {
 
 img {
   display: span;
-  max-width:520px;
+  max-width:600px;
   border:1px solid #ddd;
   background: #fff;
   padding:3px;
@@ -518,7 +518,7 @@ a.license {
   border-bottom-left-radius:          5px;
 }
 .doc-main {
-  margin-left:41.6666%;
+  margin-left:33.3333%;
   min-height:540px;
 }
 .doc .title{
