@@ -213,10 +213,10 @@ translations:
     trainingspan: "Вы организатор?"
     training: "Смотрите наши обучающие материалы по данному руководству (на английском)"
     feedbackspan: "Был ли данный раздел полезным?"
-    feedback: "Посоветуйте и помогите нам улучшить руководства!"
+    feedback: "Дайте нам знать и помогите улучшить руководства!"
     getstarted: "Начало"
-    returntotop: "Return to top of page"
-    quickaccess: "Quick access"
+    returntotop: "В начало страницы"
+    quickaccess: "Быстрый доступ"
   sw:
     language: "Kiswahili"
     tagline: "Jifunze OpenStreetMap hatua kwa hatua"
