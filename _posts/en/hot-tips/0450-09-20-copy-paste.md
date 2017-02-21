@@ -9,7 +9,7 @@ category: hot-tips
 Copying, Pasting & Rotating - iD editor
 ============
 
-![copy-paste]{: width="600px"}
+![copy-paste][]
 
 > This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
