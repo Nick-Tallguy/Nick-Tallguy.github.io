@@ -17,8 +17,8 @@
 .right {float:right;}
 .left {float:left;}
 
-.marginL { margin-left: 04.1666%; }
-.marginR { margin-right:04.1666%; }
+.marginL { margin-left: 08.3333%; }
+.marginR { margin-right:08.3333%; }
 .padAll {padding:10px;}
 .padTB {padding:20px 0;}
 .padLR {padding:0 20px;}
@@ -175,7 +175,7 @@ small {
 
 img {
   display: span;
-  max-width:720px;
+  max-width:480px;
   border:1px solid #ddd;
   background: #fff;
   padding:3px;
@@ -713,7 +713,7 @@ a.license {
   .doc-main {margin-left:0%}
   .feedback {padding-top:20px;padding-left:15px;}
   .notfound {width:300px;}
-  img {max-width:600px;}
+  img {max-width:300px;}
   .doc h1, .doc p, .doc ul, .doc ol {margin-left:15px;width:95%;}
   .doc h2, .doc h3 {margin-left:30px;width:95%;}
   #content {padding-bottom:50px;}
