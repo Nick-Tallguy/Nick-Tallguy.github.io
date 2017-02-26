@@ -15,14 +15,13 @@ Straßen, Gebäude, Wasser und Bodenutzung einzeichnen
 Diese Anleitung baut auf der [Anleitung über Fernkartographie und Mapathons](/en/coordination/remote/) auf, die Sie durcharbeiten sollten, wenn Sie keine Erfahrung mit der Arbeit für HOT haben.  
 
 
-Inhaltsverzeichnis
-=====
+Inhalt
+======
 
-[Straßen einschließlich Pfade und Fahrwege](/de/coordination/remote-tracing/#Straßen)  
-[Das Straßennetz](/de/coordination/remote-tracing/#das-Straßennetz)  
-[Grenzen von Siedlungsgebieten}(/de/coordination/remote-tracing/#Siedlungsbereiche)  
-[Gebäude, Mauern, Zäune und Begrenzungen](/de/coordination/remote-tracing/#Gebäude-und-Mauern)  
-
+[Straßen und Wege](/de/coordination/remote-tracing/#straen)
+[Das Straßennetz](/de/coordination/remote-tracing/#das-straennetz)
+[Siedlungsbereiche](/de/coordination/remote-tracing/#siedlungsbereiche)
+[Gebäude und Mauern](/de/coordination/remote-tracing/#gebude-und-mauern)
 
 ## Straßen
 
@@ -67,7 +66,7 @@ highway=path
 seasonal=yes  
 surface=unpaved  
 2. Bei diesem Pfad ist es klar, dass er durch die Büsche und Bäume verläuft auch wenn man den genauen Verlauf nicht erkennen kann. Es ist aber klar, dass es den Weg gibt, er ist nur durch die Bäume verdeckt. Ich habe hier die klar erkennbaren Abschnitte mit einer geraden Linie durch die Bäume verbunden. Seien Sie mit Ihrer Kreativität bitte zurückhaltend auch wenn es hier klar ist, dass der Pfad durch die Büsche verlaufen muss und wahrscheinlich mehr oder weniger der geraden Linie folgen wird. Dies ist schon ein extremes Beispiel - normalerweise wird man so Abschnitte von Wegen überbrücken, die nur wenige Meter lang sind und vielleicht von ein oder zwei Bäumen verdeckt werden.  
-3. Hier habe ich den Pfad gelöscht damit ich den Untergrund klar erkennen kann. Mit der Funktion "Änderung rückgängig machen' in iD kann man ihn schnell wiederherstellen.  
+3. Hier habe ich den Pfad gelöscht damit ich den Untergrund klar erkennen kann. Mit der Funktion "Änderung rückgängig machen" in iD kann man ihn schnell wiederherstellen.  
 
 ***
 
