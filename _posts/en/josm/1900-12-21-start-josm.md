@@ -112,6 +112,9 @@ Learn Basic Drawing with JOSM
 
   ![Sample file][]
 
+- You will use these data in order to try various editing techniques.
+  *You must however never upload these fictitious data to the database.*
+
 ### Basic Operations
 
 - To move the map left or right, up or down, hold your right mouse
@@ -253,7 +256,7 @@ database (newer JOSM releases automatically prevent this).*
 In the Layers window on the upper right of the screen select the sample.osm layer. 
 Then click on the trash can icon in the lower right corner of that window. 
 Alternatively you can choose delete from the context menu of the layer. 
-In order to be able to continue editing you first need to download real data. 
+In order to continue editing you first need to download real data. 
 This will be explained in the next chapter.
 
 Summary
