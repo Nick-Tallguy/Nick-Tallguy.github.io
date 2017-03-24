@@ -112,6 +112,9 @@ Basis tekenen met JOSM leren
 
   ![Sample file][]
 
+- U zult deze gegevens gebruiken om de verschillende technieken voor bewerken uit te proberen.
+  *U moet echter deze fictieve gegevens nooit uploaden naar de database.*
+
 ### Basisbewerkingen
 
 - De kaart naar links, rechts, naar boven of beneden verplaatsen: houdt uw rechter muisknop
@@ -238,8 +241,23 @@ Uw eigen kaart tekenen
   en sleep met uw muis, totdat u een ruim leeg gebied heeft om op te tekenen.
 - Gebruik het gereedschap Tekenen om punten,lijnen en vormen te maken. Beschrijf wat
   uw objecten zijn door dat te selecteren uit het menu Voorkeuzen.
-- Wanneer u gered bent zou u uw eigen kaart moeten hebben, soortgelijk aan de
+- Wanneer u gereed bent zou u uw eigen kaart moeten hebben, soortgelijk aan de
   voorbeeldkaart die we hebben geopend in sample.osm.
+
+## De voorbeeldlaag verwijderen
+
+Als u deze basistechnieken van bewerken beheerst, wilt u misschien
+uw aandacht verleggen naar het in kaart brengen van echte objecten. 
+
+*Het is erg belangrijk dat u eerst de laag met de voorbeeldgegevens verwijdert. 
+Die gegevens zijn fictief en moeten niet worden geüpload naar de OpenStreetMap 
+database (nieuwere uitgaven van JOSM voorkomen dat automatisch).*
+
+Selecteer, in het venster Lagen aan de rechter bovenzijde van het scherm,  de voorbeeldlaag van OSM. 
+Klik dan op het pictogram van de prullenbak in de rechter benedenhoek van dat venster. 
+Als alternatief kunt u er voor kiezen om hem te verwijderen via het contextmenu van de laag. 
+U dient eerst echte gegevens te downloaden om door te kunnen gaan met bewerken. 
+Dat zal worden uitgelegd in het volgende hoofdstuk.
 
 Samenvatting
 -------
