@@ -33,7 +33,7 @@ The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinate
 
 OpenStreetMap is a collabarative, crowd sourced, free map of the world. Anyone can contribute to OpenStreetMap to map any part of the world that interests them. The Tasking Manager is just a way to coordinate large groups of people contributing to OpenStreetMap but most contributions to OpenStreetMap are done by people not using the Tasking Manager.
 
-The Tasking Manager is a totally seperate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager, you are actually using multiple software tools:
+The Tasking Manager is a totally separate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager, you are actually using multiple software tools:
 
 * OpenStreetMap - A database of geographic information
 * The Tasking Manager - Helps coordinate large numbers of people editing OpenStreetMap data in the same area
@@ -48,37 +48,37 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ## Quick Start Guide
 
- 1. Create an account and login on http://openstreetmap.org/
+1. Create an account and login on http://openstreetmap.org/
 
-![TM Quick Start 1][]
+  ![TM Quick Start 1][]
 
- 2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner
+2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner
 
-![TM Quick Start 2][]
+  ![TM Quick Start 2][]
 
- 3. Click on "Contribute" and find a mapping project to work on
+3. Click on "Contribute" and find a mapping project to work on
 
-![TM Quick Start 3][]
+  ![TM Quick Start 3][]
 
- 4. Read the instructions for the project
+4. Read the instructions for the project
 
-![TM Quick Start 4][]
+  ![TM Quick Start 4][]
 
- 5. Click "Map"
+5. Click "Map"
 
-![TM Quick Start 5][]
+  ![TM Quick Start 5][]
 
- 6. Find an open task to work on, click on it and select "Start Mapping"
+6. Find an open task to work on, click on it and select "Start Mapping"
 
-![TM Quick Start 6][]
+  ![TM Quick Start 6][]
 
- 7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
+7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
 
-![TM Quick Start 7][]
+  ![TM Quick Start 7][]
 
- 8. When finished mapping, switch back to the Tasking Manager and click either "Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
+8. When finished mapping, switch back to the Tasking Manager and click either "Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
 
-![TM Quick Start 8][]
+  ![TM Quick Start 8][]
 
 
 ## Mapping Process 
