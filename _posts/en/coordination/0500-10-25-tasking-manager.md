@@ -11,6 +11,23 @@ category: coordination
 > This guide may be downloaded as [tasking-manager_en.odt](/files/tasking-manager_en.odt) or [tasking-manager_en.pdf](/files/tasking-manager_en.pdf)  
 > Reviewed 2015-08-26  
 
+Section Index
+-------------
+-  [Quick Start Guide](/en/coordination/tasking-manager/#quick-start-guide)  
+-  [The Mapping Process](/en/coordination/tasking-manager/#mapping-process)  
+--  [Logging in](/en/coordination/tasking-manager/#tasking-manager-login)  
+--  [Options](/en/coordination/tasking-manager/#options-amp-links)  
+--  [Finding a Project](/en/coordination/tasking-manager/#finding-a-project---tasking-manager-contribute-screen)  
+--  [Project Details](/en/coordination/tasking-manager/#mapping-via-the-tasking-manager)  
+--  [Selecting a Task](/en/coordination/tasking-manager/#selecting-a-task-to-map)  
+--  [Editing Choices](/en/coordination/tasking-manager/#editing-choices)  
+--  [Splitting a Task](/en/coordination/tasking-manager/#splitting-a-task-square)  
+--  [Finishing a Task](/en/coordination/tasking-manager/#finishing-a-task)  
+--  [Sending messages](/en/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
+--  [identifying a Task in an email or other message](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+--  [Live Help - IRC, Internet Relay Chat](/en/coordination/tasking-manager/#getting-live-help)  
+--  [Hints and Tips](/en/coordination/tasking-manager/#editing-hints-and-tips)
+-  [Validation](/en/coordination/tasking-manager/#validation)
 
 The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
 
@@ -22,44 +39,44 @@ The Tasking Manager is a totally seperate tool from the main OpenStreetMap proje
 * The Tasking Manager - Helps coordinate large numbers of people editing OpenStreetMap data in the same area
 * An OpenStreetMap Editor - A software program that can read and write data into the OpenStreetMap database
 
-![TM overview]()
+![TM overview][]
 
-The role of **the Tasking Manager** is to present a specific geographic region divided up into small, quick to map areas called "Tasks" and provide a way to "checkout" or "lock" one of those small areas while you map that area using one of the standard OpenStreetMap editors. By "checking out" or "locking" one of those small areas, you help ensure that no one else will be mapping in that same area while you are. This helps prevent "double mapping" or other errors when two people are working on exactly the same area in OpenStreetMap.
+The role of the Tasking Manager is to present a specific geographic region divided up into small, quick to map areas called "Tasks" and provide a way to "checkout" or "lock" one of those small areas while you map that area using one of the standard OpenStreetMap editors. By "checking out" or "locking" one of those small areas, you help ensure that no one else will be mapping in that same area while you are. This helps prevent "double mapping" or other errors when two people are working on exactly the same area in OpenStreetMap.
 
 Once you are done mapping that small area, you record in the Tasking Manager that you have finished mapping that small area and hopefully you select another "Task" to map.
 
 
 ## Quick Start Guide
 
-1. Create an account and login on http://openstreetmap.org/
+ 1. Create an account and login on http://openstreetmap.org/
 
 ![TM Quick Start 1][]
 
-2. Visit http://tasks.hotosm.org/ and login via the upper right corner
+ 2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner
 
 ![TM Quick Start 2][]
 
-3. Click on "Contribute" and find a mapping project to work on
+ 3. Click on "Contribute" and find a mapping project to work on
 
 ![TM Quick Start 3][]
 
-4. Read the instructions for the project
+ 4. Read the instructions for the project
 
 ![TM Quick Start 4][]
 
-5. Click "Map"
+ 5. Click "Map"
 
 ![TM Quick Start 5][]
 
-6. Find an open task to work on, click on it and select "Start Mapping"
+ 6. Find an open task to work on, click on it and select "Start Mapping"
 
 ![TM Quick Start 6][]
 
-7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
+ 7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
 
 ![TM Quick Start 7][]
 
-8. When finished mapping, switch back to the Tasking Manager and click either "Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
+ 8. When finished mapping, switch back to the Tasking Manager and click either "Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
 
 ![TM Quick Start 8][]
 
@@ -74,7 +91,7 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ### Tasking Manager Login
 
-The Tasking Manager is a seperate tool that coordinates mapping in to OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a seperate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
+The Tasking Manager is a separate tool that coordinates mapping in OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a separate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
 
 When you first visit the Tasking Manager you will see a "Login" button in the upper right corner of the screen.
 
@@ -209,7 +226,7 @@ Start JOSM before using this link and it will automatically load the existing OS
 
 >  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
 >  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+>  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
 
 
 #### iD editor  
