@@ -221,6 +221,19 @@
 	   "url":""}
         ]
 },{
+	"lang":"sl",
+		"chapters":[
+	  {% for post in site.posts %}
+	  {% if post.lang == 'sl' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+        ]
+},{
 	"lang":"sw",
 		"chapters":[
 	  {% for post in site.posts %}

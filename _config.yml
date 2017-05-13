@@ -217,6 +217,17 @@ translations:
     getstarted: "Начало"
     returntotop: "В начало страницы"
     quickaccess: "Быстрый доступ"
+  sl:
+   tagline: "Naučite se OpenStreetMap: Korak za korakom"
+   contribute: "Pomagajte nam izboljšati naše vodiče"
+   trainingspan: "Ali ste organizator delavnic?"
+   training: "Preglejte učno gradivo tega vodiča (v angleškem jeziku)"
+   feedbackspan: "Ali je bilo to poglavje v pomoč?"
+   feedback: "Sporočite nam kako lahko izboljšamo vodiče!"
+   getstarted: "Začnite"
+   language: "Slovenian"
+   quickaccess: "Hitri dostop"
+   returntotop: "Vrnite se na vrh strani"
   sq:
     tagline: "Mësoni OpenStreetMap hap pas hapi"
     contribute: "Na ndihmoni të përmirësojmë guidën tonë"
