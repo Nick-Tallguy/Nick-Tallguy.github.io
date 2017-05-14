@@ -10,21 +10,21 @@ published: true
 Glossary
 =============================  
 
-Ta vodič trenutni ni na voljo. Je v fazi prevoda. Prosim, sklicujte se na 
-[Bahasa Indonesia](/bi/beginner/glossary/),  
-[Catalan](/ca/beginner/glossary/)
+Ta vodič trenutni ni na voljo. Je v fazi prevoda. Prosim, sklicujte se na  
+<!-- [Bahasa Indonesia](/bi/beginner/glossary/),  
+[Catalan](/ca/beginner/glossary/) -->  
 [Czech](/cs/beginner/glossary/),   
 [Deutsch](/de/beginner/glossary/),  
-[Español](/es/beginner/glossary/),  
+[Español](/es/beginner/glossary/),  <!--
 [فارسی](/fa/beginner/glossary/),  
 [Français](/fr/beginner/glossary/),  
 [Hrvatski](/hr/beginner/glossary/),  
 [Italiano](/it/beginner/glossary/),  
-[日本語](/ja/beginner/glossary/),  
-[Myanmar](/my/beginner/glossary/),-->  
-[Norsk](/nb/beginner/glossary/), 
-[Nederlands](/nl/beginner/glossary/).  <!--
-[Português](/pt/beginner/glossary/),  
+[日本語](/ja/beginner/glossary/),  -->  
+[Myanmar](/my/beginner/glossary/),  <!--
+[Norsk](/nb/beginner/glossary/), -->  
+[Nederlands](/nl/beginner/glossary/).  
+[Português](/pt/beginner/glossary/),  <!--
 [Русский](/ru/beginner/glossary/),  
 [Kiswahili](/sw/beginner/glossary/), 
 [Shqip](/sq/beginner/glossary/),  
