@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: শিরোনামঃ আরও পড়ুন
-permalink: /bn-bd/beginner/moving-forward/
-lang: bn-bd
+permalink: /bn_BD/beginner/moving-forward/
+lang: bn_BD
 category: beginner
 ---
 
 আরও পড়ুন
 ===============
 
->এই গাইডটি ডাউনলোড করা যাবে [beginner_moving-forward_bn-bd.odt](/files/beginner_moving-forward_bn-bd.odt) or [beginner_moving-forward_bn-bd.pdf](/files/beginner_moving-forward_bn-bd.pdf) হিসেবে  
+>এই গাইডটি ডাউনলোড করা যাবে [beginner_moving-forward_bn_BD.odt](/files/beginner_moving-forward_bn_BD.odt) or [beginner_moving-forward_bn_BD.pdf](/files/beginner_moving-forward_bn_BD.pdf) হিসেবে  
 >নিরীক্ষিত ২০১৫-০৭-১২  
 
 আপনি যদি এ অবধি অগ্রসর হয়ে থাকেন, আপনাকে অভিনন্দন! আপনার এরই মাঝে জানা হয়ে গিয়েছে কি করে ওপেনস্ট্রীটম্যাপ -এর মাধ্যমে মানচিত্র তৈরী করতে হয়। ওএসএম এর মাধ্যমে আপনি আর কি করতে পারেন? কিভাবে আপনি আরো জানতে পারবেন? কি করে আপনি ম্যাপারদের দলের সাথে সংযুক্ত থাকতে পারেন?  

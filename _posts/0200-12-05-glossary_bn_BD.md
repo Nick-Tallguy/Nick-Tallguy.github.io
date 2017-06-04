@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Glossary 
-permalink: /bn-bd/beginner/glossary/
-lang: bn-bd
+permalink: /bn_BD/beginner/glossary/
+lang: bn_BD
 category: beginner
 ---
 
