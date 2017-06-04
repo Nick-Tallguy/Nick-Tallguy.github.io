@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Meer informatie
-permalink: /nl/beginner/moving-forward/
-lang: nl
+permalink: /nl_NL/beginner/moving-forward/
+lang: nl_NL
 category: beginner
 ---
 
 Meer informatie
 ===============
 
-> Deze handleiding kan worden gedownload als [beginner_moving-forward_nl.odt](/files/beginner_moving-forward_nl.odt) of [beginner_moving-forward_nl.pdf](/files/beginner_moving-forward_nl.pdf)  
+> Deze handleiding kan worden gedownload als [beginner_moving-forward_nl_NL.odt](/files/beginner_moving-forward_nl_NL.odt) of [beginner_moving-forward_nl_NL.pdf](/files/beginner_moving-forward_nl_NL.pdf)  
 > Bijgewerkt op 12-07-2015  
 
 Als u het tot zover hebt kunnen volgen, gefeliciteerd! U zou nu een goed begrip moeten hebben van hoe kaarten te maken met OpenStreetMap. Wat kunt u nog meer doen met OSM? Hoe kunt u nog meer leren? Hoe kan ik in verbinding blijven met de gemeenschap van mappers?  
@@ -17,7 +17,7 @@ Als u het tot zover hebt kunnen volgen, gefeliciteerd! U zou nu een goed begrip 
 Meer gedeelten van learnOSM
 ---------------------------
 
-Aan het einde van het hoofdstuk over de bewerker iD hoorde u over de verschillen tussen iD en JOSM. Er is een [geheel gedeelte gewijd aan JOSM](/en/josm/) waar u alle nodige details zult leren om volledig te profiteren van de mogelijkheden die die bewerker heeft te bieden.  
+Aan het einde van het hoofdstuk over de bewerker iD hoorde u over de verschillen tussen iD en JOSM. Er is een [geheel gedeelte gewijd aan JOSM](/nl_NL/josm/) waar u alle nodige details zult leren om volledig te profiteren van de mogelijkheden die die bewerker heeft te bieden.  
 
 Tot dusverre waren alle bewerkingen die we aan de kaart hebben toegevoegd gebaseerd op achtergrondafbeeldingen. Maar u kunt een scala aan informatie verzamelen door rond te lopen of te rijden. Het [gedeelte over mobiel in kaart brengen](/en/mobile-mapping/) legt uit hoe informatie te verzamelen met verschillende op GPS gebaseerde apparaten of met behulp van speciaal ontworpen afdrukken. Het behandelt ook een aantal aan OpenStreetMap gerelateerde toepassingen voor mobiele apparaten.  
 

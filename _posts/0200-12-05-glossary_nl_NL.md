@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Definities 
-permalink: /nl/beginner/glossary/
-lang: nl
+permalink: /nl_NL/beginner/glossary/
+lang: nl_NL
 category: beginner
 ---
 
@@ -33,13 +33,13 @@ Gebruik, om makkelijk in deze lijst met definities te zoeken, de zoekfunctie in 
 
 **Extractie** : [OSM Data Overview](/nl/osm-data/data-overview/) Een grote hoeveelheid gegevens van OSM voor een specifiek gebied (zoals een provincie, land, of geografisch gebied).
 
-**[Field Papers](/nl/mobile-mapping/field-papers/)**: is een op het web gebaseerd gereedschap voor het eenvoudig maken van een afdrukbare kaartatlas voor aandachtsgebieden, die kunnen worden afgedrukt en waarop notities kunnen worden gemaakt. Bekijk [http://fieldpapers.org/](http://fieldpapers.org/) voor meer details. 
+**[Field Papers](/nl_NL/mobile-mapping/field-papers/)**: is een op het web gebaseerd gereedschap voor het eenvoudig maken van een afdrukbare kaartatlas voor aandachtsgebieden, die kunnen worden afgedrukt en waarop notities kunnen worden gemaakt. Bekijk [http://fieldpapers.org/](http://fieldpapers.org/) voor meer details. 
 
 **FOD : Fundamental Operational Database** ; gegevens die specifiek zijn voor de activiteit bijv. faciliteiten mbt gezondheidszorg, scholen, faciliteiten voor waterbeheer, bereik van de overstromingen, schade aan gebouwen, etc.
 
 **GDACS : Global Disaster Alert and Coordination System** ; GDACS is een samenwerkingsraamwerk onder de vlag van de Verenigde Naties. Het omvat ramp managers en ramp informatiesystemen wereldwijd, met het doel om het gebrek aan informatie en coördinatie in de eerste fase na een grote ramp op te vullen. GDACS biedt live toegang tot een web gebaseerd rampen informatiesysteem en gerelateerde coördinatietools.
 
-**[iD editor](/nl/beginner/id-editor/)** - Web gebaseerde OpenStreetMap editor, geschikt voor beginners en ontworpen door Mapbox. 
+**[iD editor](/nl_NL/beginner/id-editor/)** - Web gebaseerde OpenStreetMap editor, geschikt voor beginners en ontworpen door Mapbox. 
 
 **IDP : Internally Displaced Person** ; is een persoon  die gedwongen is om te vluchten, maar in zijn eigen land blijft.
 
@@ -65,7 +65,7 @@ Gebruik, om makkelijk in deze lijst met definities te zoeken, de zoekfunctie in 
 
 **Stylesheet** : Meestal een tekst bestand met daarin de objecten die getoond worden(bijv. wegen, huizen) en op welke manier (kleur, dikte etc) op een kaart.
 
-**Tag** Misschien wel de belangrijkste term. Tags(elementen) beschrijven een punt, lijn of vlak. Elke tag bestaat uit een key en een waarde (in OSM als key=value) altijd in het Engels. Bijvoorbeeld, highway=residential en name=Woodland Avenue. Zoals vermeld in de Learnosm in de [iD sectie](/nl/beginner/id-editor/#basic-editing-with-id) hebben punten, lijnen of vlakken meestal meerdere tags. Soms is het lastig om de juiste tag te kiezen. [Taginfo](https://taginfo.openstreetmap.org/) helpt bij het kiezen van de juiste tag, door statistieken te laten zien over welke tags gebruikt worden, hoeveel mensen deze gebruiken en waar ze voorkomen. Hier kun je ook informatie uit de wiki en van andere plekken vinden over de tag.
+**Tag** Misschien wel de belangrijkste term. Tags(elementen) beschrijven een punt, lijn of vlak. Elke tag bestaat uit een key en een waarde (in OSM als key=value) altijd in het Engels. Bijvoorbeeld, highway=residential en name=Woodland Avenue. Zoals vermeld in de Learnosm in de [iD sectie](/nl_NL/beginner/id-editor/#basic-editing-with-id) hebben punten, lijnen of vlakken meestal meerdere tags. Soms is het lastig om de juiste tag te kiezen. [Taginfo](https://taginfo.openstreetmap.org/) helpt bij het kiezen van de juiste tag, door statistieken te laten zien over welke tags gebruikt worden, hoeveel mensen deze gebruiken en waar ze voorkomen. Hier kun je ook informatie uit de wiki en van andere plekken vinden over de tag.
 
 **TIGER**: Een databron van de US Census Bureau die in OSM is geïmporteerd in 2007. De bron voor de meeste data in de USA binnen OSM.
 
