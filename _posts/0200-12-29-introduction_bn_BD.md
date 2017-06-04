@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Introduction
-permalink: /bn-bw/beginner/introduction/
-lang: bn-bw
+permalink: /bn_BD/beginner/introduction/
+lang: bn_BD
 category: beginner
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /bn_BD/beginner/
-lang: bn_BD
+permalink: /en/beginner/
+lang: en
 title: Beginner's guide
 category: beginner
 cover: yes
@@ -17,4 +17,4 @@ how to set up an account, how to use basic map editing software, and in later ch
 and collect information to put on the map. The coordination chapters contain information about [HOT Remote Mapping](/en/coordination/) 
 
 > This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
->নিরীক্ষিত ২০১৫-০৭-১২  
+> Reviewed 2015-07-12  
