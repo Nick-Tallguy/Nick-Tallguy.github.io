@@ -10,7 +10,7 @@ Impostazioni predefinite di JOSM
 ============
 
 > Questa guida può essere scaricata come [josm-presets_it.odt](/files/josm-presets_it.odt) o [josm-presets_it.pdf](/files/josm-presets_it.pdf)  
-> Reviewed 2016-09-17  
+> Verificato il 2017-05-xx  
 
 Se hai già usato un poco JOSM, sino ad ora ne conosci un poco di tag e di preset. Ogni oggetto è definito da due cose - primo, le sue coordinate geografiche (che sia un punto, una linea o un poligono), e secondo, i suoi attributi sotto forma di tags.  
 
@@ -21,47 +21,47 @@ Se ti piace utilizzare i preset, cosa succede quando vuoi aggiungere tag che non
 In questo caso, puoi aggiungere una voce di menù personalizzato alle Preimpostazioni. In questa sezione vedremo come fare ciò. Nel  [capitolo successivo](/it/editing/creating-presets), si parlerà di come crearsi un proprio file con le preimpostazioni personalizzate.  
 
 
-Aggiungi Preimpostazioni
+Aggiungi Preimpostazioni (Preset)
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+I menù e sottomenù che formano il menù delle Preimpostazioni sono immagazzinati in file che descrivono come creare i menù e i moduli che appaiono quando tu selezioni una voce di preimpostazione, e come definire quali tag sono aggiunti ad un oggetto in base a come viene compilato il modulo.  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+I file delle preimpostazioni possono essere aggiunti da un archivio online oppure salvati localmente sul proprio computer e aggiunti a JOSM.  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* Per aggiungere una nuova riga nel menù Preimpostazioni, apri JOSM e vai su Modifica -> Preferenze .. .  
+* Clicca sulla terza scheda dall'alto, che somiglia ad una griglia che copre il pianeta.  
 
-![tagging presets tab][]
+![scheda delle preimpostazioni dei tag][]
 
-* At the top, click on "Tagging Presets."  
+* In  alto, clicca su "Etichette preimpostate."  
 
-![tagging presets menu][]
+![menu delle preimpostazioni dei tag][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will 	add the presets named "Buildings Indonesia by Kate Chapman."  
+*Aggiungi un file di menù personalizzato da internet selezionandone uno dalla lista sulla ⇥sinistra, e cliccando sulla freccia blu. In questo esempio, aggiungeremo⇥il file delle preimpostazioni chiamato "Buildings Indonesia by Kate Chapman." Dopo aver provato questo file di preimpostazione ti potrebbe ad esempio interessare il file di preset del "C.A.I. (Club Alpino Italiano)": in tal caso segui le istruzione che trovi a questo [link](http://wiki.openstreetmap.org/wiki/CAI#JOSM_preset).  
 
-![example presets][]
+![preset di esempio][]
 
-* You will see a new item appear in the list on the right.  
+* Nella lista sulla destra vedrai apparire una nuova voce.  
 * Fai click su OK.  
 * Devi riavviare JOSM.  
-* Create a new layer and add a point or shape.  
-* Go to the Presets menu. Click on the item named "Building," which has now been added at the bottom of the menu.  
+* Crea un nuovo livello (layer) e aggiungi un punto o un'area.  
+* Vai al menù Preimpostazioni (preset). Clicca sulla voce chiamata "Building", che è stata ora aggiunta in fondo al menù.  
 
 ![indonesia building form][]
 
-* If you don't speak Indonesian, this might be hard to read, but nonetheless you have been successful and added a custom preset menu.  
+* Se non parli indonesiano questo menù ti sarà inutile e potrai eliminarlo, ma almeno hai aggiunto un menù personalizzato (preset) e ora sai come fare per eventuali personalizzazioni che in futuro potrebbero esserti utili per le tue mappature.  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* Se ti hanno dato o indicato un file di preimpostazioni personalizzate (preset), tu puoi aggiungerle al menù con lo stesso metodo. Semplicemente torna al menù Preferenze, e invece di selezionarlo dalla lista, clicca sul bottone (+) sulla parte superiore destra.  
 
-![plus button][]
+![bottone più (+)][]
 
 *Cerca la posizione del file nel tuo computer e assegnagli il nome che desideri.  
 * Fai click su OK.  
 
 
-[tagging presets tab]: /images/josm/tagging-presets-tab.png
-[tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
+[scheda delle preimpostazioni dei tag]: /images/josm/tagging-presets-tab.png
+[menu delle preimpostazioni dei tag]: /images/josm/tagging-presets-menu.png
+[preset di esempio]: /images/josm/example-presets.png
 [indonesia building form]: /images/josm/indonesia-building-form.png
-[plus button]: /images/josm/plus-button.png
+[bottone più]: /images/josm/plus-button.png
 

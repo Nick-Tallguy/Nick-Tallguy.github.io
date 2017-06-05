@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/beginner/
-lang: en
+permalink: /ru/beginner/
+lang: ru
 title: Beginner's guide
 category: beginner
 cover: yes

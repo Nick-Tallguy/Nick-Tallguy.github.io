@@ -12,58 +12,58 @@ Ottenere i dati OSM
 > This guide may be downloaded as [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) or [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
 > Revisionato il 04-05-2016
 
-When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
+Quando vuoi ottenere i dati OpenStreetMap più recenti, il modo più semplice è scaricarne un estratto da un sito web. Ci sono diversi servizi web che forniscono estratti per un'area a tuo scelta.  
 
-Downloading Data Extracts
+Scaricare estratti di dati
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
+[GeoFabrik](http://geofabrik.de) è una società specializzata nel lavorare con dati OpenStreetMap. Essi forniscono una varietà di estratti gratuiti in formato shapefile e in formato nativo OSM sul loro [sito download](http://download.geofabrik.de). Il vantaggio di scaricare dati da Geofabrik è che sono aggiornati ogni giorno, ed è facile e affidabile. Lo svantaggio è che i dati sono estratti per nazioni, e non tutte le nazioni sono disponibili. Per "l'Italia" è disponibile il servizio di [Wikimedia Italia](http://osm-estratti.wmflabs.org/estratti/) che fornisce nei formati shapefile, nativo OSM e Spatialite l'aggiornamento quotidiano degli estratti per singole regioni o singoli comuni.  
 
 ### Metro Extracts
 
-[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.  
+[Un sito web gestito da Mapzen](https://mapzen.com/data/metro-extracts/) fornisce nei formati shapefiles e nativo OSM gli estratti di città del mondo, estratti settimanalmente. Questo è utile se cerchi estratti di dati di singole città.  
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) offers something similar as Metro Extracts but for a different selection of cities. The data is updated weekly as well.
+[BBBike](http://download.bbbike.org/osm/bbbike/) offre qualcosa di simile ai Metro Extracts ma per una selezione di città differenti. Anche in questo caso i dati vengono aggiornati settimanalmente.
 
->Remember that features in OpenStreetMap have an unlimited number of "free" tags,
->but shapefiles have attributes stored in a limited number of columns. This means
->that when OSM data is converted into shapefiles, only the specified tags will be
->included in the shapefile table. The websites listed above provide shapefiles
->with a default set of common tags, but if you want to extract specific tags
->you will need to use one of the more specialized services in the next section
->or learn how to export the data yourself.
+>Ricorda che le caratteristiche in OpenStreetMap hanno un numero illimitato di tag "liberi",
+>ma gli shapefiles hanno un numero limitato di colonne dove registrano gli attributi. Ciò significa
+>che quando i dati OSM vengono convertiti in shapefiles, solo alcuni tag sono
+>inculsi nella tabella attributi del shapefile. I siti indicati sopra forniscono shapefiles
+>con un certo set di tag comuni, ma se tu vuoi estrarre tag specifici
+>allora devi usare uno o più servizi specializzati indicati nella prossima sezione
+>o imparare come esportare i dati da te.
 
-Customized Extracts
+Estratti personalizzati
 -------------------
 
-### HOT Exports  
+### Exports HOT   
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+Lo [Humanitarian OpenStreetMap Team](http://hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estrarre, e usa anche i [Presets JOSM](/en/josm/josm-presets/)
+per personalizzare la selezione dei tag da includere nell'estratto. Il servizio è disponibile in tutti i paesi in cui opera HOT, a [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike  
 
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
+Tu puoi selezionare un'area di qualsiasi parte del mondo usando il servizio a [http://extract.bbbike.org/](http://extract.bbbike.org/). Lo svantaggio è che non puoi scegliere quali tag includere, inoltre la quantità di dati che puoi scaricare è limitata.    
 
 ### Overpass
 
-Overpass is an API (Application Programming Interface) for extracting data from a read-only copy of the main OpenStreetMap database which can deliver an almost arbitrary amount of data. Using a query language you can customize which subset of the data you obtain. You can either use the API directly by generating a http-request or through the overpass turbo interface.
+Overpass è una API  (Application Programming Interface) per estrarre dati da una copia di sola lettura del database principale di OpenStreetMap che può erogare una quantità arbitraria di dati. Usando un linguaggio query puoi personalizzare quale subset di dati vuoi ottenere. Tu puoi anche usare la API generando direttamente una richiesta http o passando dall'interfaccia di overpass turbo.
 
 #### Overpass Turbo
 
-[Overpass Turbo](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
+[Overpass Turbo](http://overpass-turbo.eu/) è un generatore interattivo di query dove tu dovresti prima zoomare sulla regione appropriata della mappa (altrimenti nella query devi indicare l'aera interessata). Inserisci la tua query nel campo alla sinistra della pagina e attiva qualsiasi azione tramite i bottoni situati nella parte superiore. Se tu sei nuovo del linguaggio query puoi iniziare ad utilizzarlo usando il wizard. La wiki OSM contiene una [descrizione completa](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) della sintassi del linguaggio query e anche una [collezione di esempi](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
-The map will highlight all data selected by your query which you can then modify. Press "Run" to refresh the result display. Once you are satisfied with what you see then "Export" offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well access them directly after switching between map view and data view using the rightmost buttons at the top. The export option *Query -> compact OverpassQL* generates a hyperlink to be used for the Overpass API.
+La mappa evidenzierà tutti i dati selezionati dalla tua query; tu puoi eventualmente modificare la query. Premi 'Esegui' per aggiornare il risultato mostrato. Quando hai ottenuto i dati che cercavi, il tasto 'Esporta' ti offre diverse scelte, tra le quali il formato nativo OSM. Se la quantità di dati è limitata tu puoi  anche accedervi direttamente dopo essere passato dalla vista mappa alla vista dati cliccando il bottone in alto sull'estrema destra della finestra. L'opzione di esportazione  *Query -> converti in (compatta) OverpassQL* genera un hyperlink da usare nella Overpass API.
 
 ![overpass turbo][]
 
-If you want to engineer a fancy query in order to obtain a subset of the data from a large area then it is a good idea to test and improve this query in Overpass Turbo on a small area. You can then zoom out to your complete region of interest and use the resulting query url directly for the API. The next section explains how you can do this.
+Se vuoi costruirti una bella query per ottenere un subset di dati da un'area vasta allora è una buona idea eseguire dei test e migliorare via via la query partendo da un'area limitata. Successivamente puoi selezionare tutta l'area interessata e usare la url generata dalla query direttamente con la API. La prossima sezione ti spiega come farlo.
 
 #### L'API Overpass
 

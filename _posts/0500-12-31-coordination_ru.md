@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/coordination/
-lang: en
+permalink: /ru/coordination/
+lang: ru
 title: Coordination
 category: coordination
 cover: yes

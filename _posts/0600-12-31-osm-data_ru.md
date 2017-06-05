@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/osm-data/
-lang: en
+permalink: /ru/osm-data/
+lang: ru
 title: OSM Data
 category: osm-data
 cover: yes

@@ -25,7 +25,7 @@ Senza un tag un oggetto non ha significato e le mappe non lo visualizzeranno. Il
 
 L'autore del progetto nel Tasking Manager non conosce quale editor userà il mappatore, così le istruzioni posso spesso avere un commento simile a questo:  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+- *Gli edifici sono generalmente capanne rotonde e dovrebbero essere taggate come **Caratteristiche degli edifici / Edificio** in iD and **building=yes** in JOSM.*  
 
 Se tu vuoi verificare quale (o quali) tag è applicato ad un oggetto, cliccaci sopra, poi scorri sino al fondo del pannello laterale deile caratteristiche (tag) e guarda sotto a **Tutti i tag**
 
@@ -42,7 +42,7 @@ Se tu conosci esattamente la funzione dell'edificio, allora puoi usare un tag pi
   **building school**  
 o uno dei molti altri tag. Per informazioni più dettagliate sui tag per gli edifici guarda <https://wiki.openstreetmap.org/wiki/IT:Buildings>  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+Per ulteriori informazioni su come taggare le strade vedi la [sezione strade di questa parte di consigli utili su HOT](/en/hot-tips/highways/).  
 
 ### Relazioni - come un edificio con all'interno una corte o un'isola in un fiume ###
 
@@ -50,8 +50,8 @@ Alcuni oggetti hanno i loro tag in una **Relazione** non sull'oggetto stesso. Se
 
 Per maggiori informazioni sulle relazioni (**non è un argomento per i novizi di OSM**) guarda;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
-<https://wiki.openstreetmap.org/wiki/Relation>
+[LearnOSM - JOSM - Relazioni](/en/josm/josm-relations/) che spiega le relazioni ma usa un editor OSM differente, o  
+<https://wiki.openstreetmap.org/wiki/IT:Relation>
 
 Vedi anche  
 ---------
