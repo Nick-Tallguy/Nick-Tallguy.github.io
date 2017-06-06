@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Introduksjon
-permalink: /en/beginner/introduction/
+permalink: /nb/beginner/introduction/
 lang: nb
 category: beginner
 ---
@@ -9,7 +9,7 @@ category: beginner
 Introduksjon
 ============
 
-Denne veiledningen kan lastes ned som [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) eller [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
+Denne veiledningen kan lastes ned som [beginner_introduction_nb.odt](/files/beginner_introduction_nb.odt) eller [beginner_introduction_nb.pdf](/files/beginner_introduction_nb.pdf)  
 > Reviewed 2015-07-12  
 
 Informasjon er makt. Med god informasjon og den riktige
