@@ -48,19 +48,14 @@ Let's see how to create a multipolygon relation like the one shown above.
 
 - Observe that at the top of the panel are the tags for the relation. These tags work the same way as tags always work.  
 - At the bottom is a list of the members of the relation. This relation has three members - that is, the three ways that are part of our relation.  
-- We need to do a couple of things to finish defining our multipolygon. First, notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
+- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
 - Click in the tag box and add this tag.  
 
 ![Building yes][]
 
-- Next we need to define what are called **roles**. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
-- In the lower left panel select each member in the list. You can see the member that is selected will be highlighted in the map window. Enter **outer** and **inner** for the correct polygons.  
-
-![Outer or inner role][]
+- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
 
 - Click OK and your multipolygon relation is complete!  
-
-![New multipolygon][]
 
 When you create a multipolygon like this it will be rendered on the map like so:  
 
@@ -100,7 +95,6 @@ Relations can be difficult to understand and do not need to be used often, but t
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png
-[New multipolygon]: /images/josm/new-mp.png
 [Building relation]: /images/josm/building-relation.png
 [New relation]: /images/josm/new-relation.png
 [Building yes]: /images/josm/building-yes.png
