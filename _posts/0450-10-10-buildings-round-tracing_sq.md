@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tracing round buildings - iD editor
-permalink: /en/hot-tips/tracing-round-buildings/
-lang: en
+permalink: /sq/hot-tips/tracing-round-buildings/
+lang: sq
 category: hot-tips
 ---
 
