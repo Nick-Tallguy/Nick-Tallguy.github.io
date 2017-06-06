@@ -99,7 +99,7 @@ Relations can be difficult to understand and do not need to be used often, but t
 [New relation]: /images/josm/new-relation.png
 [Building yes]: /images/josm/building-yes.png
 [Outer or inner role]: /images/josm/outer-inner.png
-[New multipolygon]: /images/josm/new-multipolygon.png
+[New multipolygon]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
 [Route relation]: /images/josm/route-relation.png
