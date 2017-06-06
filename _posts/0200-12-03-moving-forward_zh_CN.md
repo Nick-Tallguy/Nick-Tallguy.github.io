@@ -9,7 +9,7 @@ category: beginner
 深入阅读
 ===============
 
-> 本指南有[beginner_moving-forward_zh.odt](/files/beginner_moving-forward_zh.odt)和[beginner_moving-forward_zh.pdf](/files/beginner_moving-forward_zh.pdf)两种格式可供下载。  
+> 本指南有[beginner_moving-forward_zh_CN.odt](/files/beginner_moving-forward_zh_CN.odt)和[beginner_moving-forward_zh_CN.pdf](/files/beginner_moving-forward_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 如果你读到了这里，祝贺你！你应该已经对如何利用OpenStreetMap制作地图有了不错的理解。还有什么可以在OSM做的吗？如何了解更多？如何与绘图者群体保持联络呢？  
@@ -17,11 +17,11 @@ category: beginner
 LearnOSM的其他部分
 ---------------------------
 
-在上一章iD编辑器的结尾，你了解了一些iD和JOSM编辑器之间的差异。在[专门讲述JOSM的一整个部分](/zh/josm/)里，你将学到如何用好此编辑器所提供功能的细节。  
+在上一章iD编辑器的结尾，你了解了一些iD和JOSM编辑器之间的差异。在[专门讲述JOSM的一整个部分](/zh_CN/josm/)里，你将学到如何用好此编辑器所提供功能的细节。  
 
-到目前为止，我们向地图添加的所有编辑都是基于影像底图的。但你可以在你散步或开车的时候采集大量的信息。[移动制图部分](/zh/mobile-mapping/) 讲述了如何用不同的GPS设备或特别设计的纸质图采集信息，还总结了许多移动设备上可用的OpenStreetMap相关的应用程序。  
+到目前为止，我们向地图添加的所有编辑都是基于影像底图的。但你可以在你散步或开车的时候采集大量的信息。[移动制图部分](/zh_CN/mobile-mapping/) 讲述了如何用不同的GPS设备或特别设计的纸质图采集信息，还总结了许多移动设备上可用的OpenStreetMap相关的应用程序。  
 
-OpenStreetMap是一项协作工程，我们希望你成为其中的一员。有些工作专门用于人道主义援助，由[人道主义OSM团队](http://hotosm.org)主办。如果你想在如尼泊尔地震等灾难发生时帮助人道主义OSM团队(HOT)，请参阅[协作部分](/zh/coordination/)，其中讲述了能使多人在相对较小的区域内以一致的方式共同协作的工具。此外还有一些典型任务的指南，在参与这些活动时你会经常遇到这些任务。  
+OpenStreetMap是一项协作工程，我们希望你成为其中的一员。有些工作专门用于人道主义援助，由[人道主义OSM团队](http://hotosm.org)主办。如果你想在如尼泊尔地震等灾难发生时帮助人道主义OSM团队(HOT)，请参阅[协作部分](/zh_CN/coordination/)，其中讲述了能使多人在相对较小的区域内以一致的方式共同协作的工具。此外还有一些典型任务的指南，在参与这些活动时你会经常遇到这些任务。  
 
 
 了解更多

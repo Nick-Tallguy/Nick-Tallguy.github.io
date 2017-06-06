@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Conflicten oplossen in JOSM 
+title: Conflicten oplossen in JOSM
 permalink: /nl/josm/josm-conflict-resolution/
 lang: nl
 category: josm

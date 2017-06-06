@@ -14,7 +14,7 @@ OruxMaps
 
 In dit gedeelte zullen we leren hoe OruxMaps in te stellen, hoe waypoints te maken, hoe een tracklog te bekijken en hoe een tracklog te exporteren om te gebruiken in JOSM.  
 
-OruxMaps installeren 
+OruxMaps installeren
 ------------------
 
 Installeer de app vanuit de Google Play Store door te zoeken naar **OruxMaps**, OruxMaps zou tussen de bovenste zoekresultaten moeten zijn vermeld.  

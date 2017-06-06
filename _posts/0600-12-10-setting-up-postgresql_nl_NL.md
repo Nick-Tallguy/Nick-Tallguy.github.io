@@ -68,7 +68,7 @@ Als u wordt gevraagd om de omgevingsvariabele voor **GDAL_DATA** te registreren,
 
 ![install 6][]
 
-Klik op “**Close**” en dan op “**Finish**” als het installeren is voltooid.   
+Klik op “**Close**” en dan op “**Finish**” als het installeren is voltooid.  
 
 Een database maken
 --------------------

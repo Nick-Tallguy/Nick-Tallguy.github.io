@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /en/hot-tips/
+permalink: /it/hot-tips/
 lang: it
 title: Consigli per HOT - Guida introduttiva per nuovi mappatori - editor iD
 category: hot-tips

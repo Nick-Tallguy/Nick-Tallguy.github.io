@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Copying, Pasting & Rotating - iD editor
-permalink: /en/hot-tips/copy-paste/
-lang: en
+permalink: /es/hot-tips/copy-paste/
+lang: es
 category: hot-tips
 ---
 

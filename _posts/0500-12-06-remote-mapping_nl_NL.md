@@ -2,7 +2,7 @@
 layout: doc
 title: HOT Remote Mapping  
 permalink: /nl/coordination/HOT-Remote-Response-Guide 
-lang: nl
+lang: nl_NL
 category: coordination
 ---
 

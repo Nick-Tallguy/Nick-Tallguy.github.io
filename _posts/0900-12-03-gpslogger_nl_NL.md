@@ -29,7 +29,7 @@ Mogelijkheden
 * Loggen specificeren op basis van intervallen van tijd of afstand  
 * Configuraties voor sparen van batterijen specificeren  
 * GPS nauwkeurigheidsfilter om onbetrouwbare punten niet te loggen  
-* Wifi, zendmast voor mobiele telefoon en/of GPS-satellieten als bron voor locatie-informatie selecteren   
+* Wifi, zendmast voor mobiele telefoon en/of GPS-satellieten als bron voor locatie-informatie selecteren  
 * Loggen naar bestanden van GPX, KML, CSV, TXT of NMEA met ondersteuning voor ZIP  
 * Imperiale of metrische eenheden voor weergave  
 * Automatisch starten bij booten  
@@ -266,7 +266,7 @@ Neem wat tijd om te oefenen en uzelf bekend te laten worden met de app, vóórda
 Dit gedeelte behandelt het concept van het gebruiken van GPSLogger for Android voor het verzamelen van GPS-sporen, het uploaden van sporen naar OpenStreetMap, en het verplaatsen van deze logs naar een PC.  
 
 
-Officiële documentatie voor GPSLogger voor Android 
+Officiële documentatie voor GPSLogger voor Android
 --------------------------------------------
 
 Het project onderhoudt een [FAQ](http://code.mendhak.com/gpslogger/#faq) voor veelgestelde vragen.

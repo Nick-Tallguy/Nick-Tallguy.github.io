@@ -9,7 +9,7 @@ category: beginner
 Editor iD
 =============
 
-> Tato příručka může být stažena jako [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) nebo [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
+> Tato příručka může být stažena jako [beginner_id-editor_cs.odt](/files/beginner_id-editor_cs.odt) nebo [beginner_id-editor_cs.pdf](/files/beginner_id-editor_cs.pdf)  
 > Reviewed 2016-03-30  
 
 - TOC

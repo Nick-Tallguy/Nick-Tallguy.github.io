@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /nl/beginner/start-osm/
-lang: nl
+permalink: /nl_NL/beginner/start-osm/
+lang: nl_NL
 category: beginner
 ---
 
 Beginnen op OpenStreetMap.org
 ====================================
 
-Deze handleiding kan worden gedownload als [beginner_start-osm_nl.odt](/files/beginner_start-osm_nl.odt) of [beginner_start-osm_nl.pdf](/files/beginner_start-osm_nl.pdf)  
+Deze handleiding kan worden gedownload als [beginner_start-osm_nl_NL.odt](/files/beginner_start-osm_nl_NL.odt) of [beginner_start-osm_nl_NL.pdf](/files/beginner_start-osm_nl_NL.pdf)  
 > Bijgewerkt op 2015-07-12  
 
 In dit onderdeel zullen we stap voor stap leren hoe we navigeren door de

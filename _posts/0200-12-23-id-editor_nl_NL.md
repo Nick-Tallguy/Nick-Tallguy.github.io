@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: iD Editor
-permalink: /nl/beginner/id-editor/
-lang: nl
+permalink: /nl_NL/beginner/id-editor/
+lang: nl_NL
 category: beginner
 ---
 
 De iD Editor
 =============
 
->  Deze handleiding kan worden gedownload als [beginner_id-editor_nl.odt](/files/beginner_id-editor_nl.odt) of [beginner_id-editor_nl.pdf](/files/beginner_id-editor_nl.pdf)  
+>  Deze handleiding kan worden gedownload als [beginner_id-editor_nl_NL.odt](/files/beginner_id-editor_nl_NL.odt) of [beginner_id-editor_nl_NL.pdf](/files/beginner_id-editor_nl_NL.pdf)  
 > Bijgewerkt op 30-03-2016  
 
 - TOC
@@ -65,7 +65,7 @@ Je kunt je eigen kaarttegels toevoegen door te klikken op **Aangepast**. Bijvoor
 ![image17][]   
 en voer jouw **FieldPaper snapshot URL** in, die er waarschijnlijk ongeveer zo uit zal zien: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 **GPS-sporen inladen vanaf uw computer** (GPX-indeling), het GPX-bestand in het scherm van iD editor slepen en neerzetten.  
-**OpenStreetMap GPS-sporen** aanzetten, klik op het vak. In onderstaande afbeelding zie je publieke GPS-sporen weergegeven in verschillende kleuren, die de reisrichting aangeven.   
+**OpenStreetMap GPS-sporen** aanzetten, klik op het vak. In onderstaande afbeelding zie je publieke GPS-sporen weergegeven in verschillende kleuren, die de reisrichting aangeven.  
 ![osm gps traces][]  
 Als er een [afbeelding verschuiving](/en/josm/aerial-imagery) is, kun je **de verschuiving van de afbeelding corrigeren** door te klikken op **Uitlijning repareren**. ![image18][]  
 
@@ -162,12 +162,12 @@ iD versus JOSM
 
 **JOSM is beter...**
 
-- Wanneer je veel gebouwen toevoegt (Zie plug-in Buildings_tool ) 
+- Wanneer je veel gebouwen toevoegt (Zie plug-in Buildings_tool )
 - Wanneer je veel lijnen of vlakken bewerkt die reeds bestaan
 - Wanneer je een onbetrouwbare internetverbinding hebt of offline bent
 - Wanneer je een specifiek schema voor tags gebruikt (of aangepaste voorkeuzen)
 
-[^fieldpaper]: Er is een [gedeelte van LearnOSM](/en/mobile-mapping/field-papers/) dat meer informatie geeft over Field Papers.
+[^fieldpaper]: Er is een [gedeelte van LearnOSM](/nl_NL/mobile-mapping/field-papers/) dat meer informatie geeft over Field Papers.
 
 
 

@@ -47,7 +47,7 @@ Hier beheert u alle online rasterbestanden, offline vectordatabases, en stembest
 
 ![Download][]  
 
-Selecteer de tab *Alle downloads* en typ een naam of geografische regio van uw interesse in om een database van een geografische regio te downloaden.   
+Selecteer de tab *Alle downloads* en typ een naam of geografische regio van uw interesse in om een database van een geografische regio te downloaden.  
 
 ![Download db][]  
 
@@ -292,7 +292,7 @@ Neem wat tijd om te oefenen en uzelf bekend te laten worden met de app, vóórda
 
 Dit gedeelte behandelt het concept van het gebruiken van OsmAnd voor het verzamelen van GPX-sporen, aanpassen of verwijderen van POI's, inclusief het toevoegen van, commentaar of sluiten van Opmerkingen/problemen, en het verplaatsen van deze logs naar een PC.  
 
-Officiële documentatie voor OsmAnd 
+Officiële documentatie voor OsmAnd
 -------------------
 
 Aadnvullende materialen zijn beschikbaar in het gedeelte [help](http://osmand.net/help/) van de website van OsmAnd.  

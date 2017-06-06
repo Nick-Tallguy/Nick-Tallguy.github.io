@@ -3,7 +3,7 @@ layout: doc
 title: Tasking Manager တစ်ခုနှင့်စတင်ခြင်း - iD editor
 permalink: /my/hot-tips/getting-started/
 lang: my
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 ---
 
 Tasking Manager တစ်ခုနှင့်စတင်ခြင်း - iD editor

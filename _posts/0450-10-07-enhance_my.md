@@ -3,7 +3,7 @@ layout: doc
 title: အရောင်များ သို့မဟုတ် နောက်ခံကိုမြှင့်တင်ခြင်း - iD editor
 permalink: /my/hot-tips/enhance/
 lang: my
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 ---
 
 အရောင်များ သို့မဟုတ် နောက်ခံကိုမြှင့်တင်ခြင်း - iD editor

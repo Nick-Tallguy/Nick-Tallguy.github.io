@@ -16,5 +16,5 @@ Diese Anleitung zeigt Schritt für Schritt, wie man mit OpenStreetMap anfängt. 
 wie man ein Benutzerkonto erstellt, wie man grundlegende Kartenbearbeitungssoftware benutzt, und in späteren Kapiteln können Sie lernen, wie man nach außen geht
 und Informationen für die Karte sammelt. Die Koordinierungskapitel enthalten Informationen über [HOT Remote Mapping](/en/coordination/) 
 
-> Diese Anleitung kann als [beginner_de.odt](/files/beginner_en.odt) oder als [beginner_de.pdf](/files/beginner_de.pdf) heruntergeladen werden  
+> Diese Anleitung kann als [beginner_de.odt](/files/beginner_de.odt) oder als [beginner_de.pdf](/files/beginner_de.pdf) heruntergeladen werden  
 Geprüft am 2015-07-12  

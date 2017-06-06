@@ -36,7 +36,7 @@ u heeft geopend in uw kaartvenster. In dit voorbeeld is “Data Layer
 1” de gegevens van OpenStreetMap die we bewerken. "Field Papers” is
 de laag die werd gemaakt toen we onze Veldformulieren toevoegden aan JOSM.
 
-Indien u satellietafbeeldingen van Bing toevoegt, zal een nieuwe laag, genaamd "Bing Sat", in het Lagenpaneel verschijnen. 
+Indien u satellietafbeeldingen van Bing toevoegt, zal een nieuwe laag, genaamd "Bing Sat", in het Lagenpaneel verschijnen.
 
 Het concept van lagen is soms moeilijk te begrijpen. Een goede manier om het te visualiseren is dat elke
 laag is als een semi-doorzichtig stuk papier, en zijn zijn allemaal bovenop elkaar
@@ -147,7 +147,7 @@ Dit komt regelmatig voor omdat bewerkers het gereedschap selectie in JOSM gebrui
 vak rondom een object te tekenen, wat er voor zorgt dat alles, zowel de lijn **en** de knopen
 worden geselecteerd, en wanneer u tags toevoegt worden zij ook toegepast op de
 knopen. Zorg er voor **alleen** lijnen te selecteren wanneer u daaraan tags
- wilt toevoegen.
+wilt toevoegen.
 
 ![Nodes mistake][]
 

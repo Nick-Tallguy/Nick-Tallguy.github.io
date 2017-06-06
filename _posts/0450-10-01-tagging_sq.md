@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tagging - iD editor
-permalink: /en/hot-tips/tagging/
+permalink: /sq/hot-tips/tagging/
 lang: sq
 category: hot-tips
 ---

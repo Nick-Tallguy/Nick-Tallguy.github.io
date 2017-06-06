@@ -3,7 +3,7 @@ layout: doc
 title: Tag ပြုလုပ်ခြင်း −  iD editor
 permalink: /my/hot-tips/tagging/
 lang: my
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 ---
 
 Tag ပြုလုပ်ခြင်း −  iD editor

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: bewerken op afstand, vanuit luie stoel of Mapathon
-permalink: /nl/coordination/remote/
-lang: nl
+permalink: /nl_NL/coordination/remote/
+lang: nl_NL
 category: coordination
 ---
 
@@ -55,7 +55,7 @@ Editing Software
 
 Hoewel er meerdere programma's beschikbaar zijn, blijven we hier bij de twee belangrijkste. Lees de LearnOSM hoofdstukken door die hieronder staan beschreven en kies de editor die je wilt gaan gebruiken. Je kunt altijd later nog heel eenvoudig wisselen als je wilt:
 
-- De iD Editor [LearnOSM section on iD Editor](/nl/beginner/id-editor/). Deze editor is ideaal voor degenen die nog niet bekend zijn met bijdragen aan OpenStreetMap en is gemakkelijk te leren. Het laatste hoofdstuk behandelt de verschillen tussen [iD & JOSM](/nl/beginner/id-editor/#id-versus-josm)   
+- De iD Editor [LearnOSM section on iD Editor](/nl/beginner/id-editor/). Deze editor is ideaal voor degenen die nog niet bekend zijn met bijdragen aan OpenStreetMap en is gemakkelijk te leren. Het laatste hoofdstuk behandelt de verschillen tussen [iD & JOSM](/nl/beginner/id-editor/#id-versus-josm)  
 - JOSM, de Java OpenStreetMap editor [LearnOSM - installing & starting out with JOSM](/nl/josm/start-josm/)
 
 # Remote Mapping - Beginnen met bijdragen

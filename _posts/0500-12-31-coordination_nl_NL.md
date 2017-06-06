@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /nl/coordination/
-lang: nl
+permalink: /nl_NL/coordination/
+lang: nl_NL
 title: Coordinatie
 category: coordination
 cover: yes
@@ -9,7 +9,7 @@ nosearch: true
 
 ---
 
-Coordinatie 
+Coordinatie
 ============
 
 > Deze handleiding kan gedownload worden als [coordination_nl.odt](/files/coordination_nl.odt) or [coordination_nl.pdf](/files/coordination_nl.pdf)  

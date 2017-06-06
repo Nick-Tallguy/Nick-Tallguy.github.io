@@ -15,7 +15,7 @@ Bewerken van gegevens met Osmosis
 
 Er zijn veel fantastische functies beschikbaar met Osmosis, en u kunt over elk daarvan in detail lezen op de [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). Echter, veel van de functies zijn nogal complex en moeilijk te begrijpen, in het bijzonder als u net begint met programma's voor de opdrachtregel en OpenStreetMap. Dit hoofdstuk dient als introductie voor Osmosis, het installeren op Windows, en beginnen met een basisopdracht voor Osmosis.  
 
-Osmosis installeren 
+Osmosis installeren
 ----------------
 
 Net zoals met osm2pgsql in het vorige hoofdstuk, dienen we **osmosis** te downloaden en in te stellen zodat we het vanaf de opdrachtregel kunnen uitvoeren. Het proces hiervoor is zeer soortgelijk aan dat van osm2pgsql.  

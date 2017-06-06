@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: TMS-, WMS- of WMTS-afbeeldingen toevoegen aan JOSM 
+title: TMS-, WMS- of WMTS-afbeeldingen toevoegen aan JOSM
 permalink: /nl/josm/josm-adding-imagery/
 lang: nl
 category: josm
@@ -71,7 +71,7 @@ Het resulterende dialoogvenster zal er uitzien zoals dat hieronder:
 ![wms_select_layer_highlighted][]  
 Zorg er voor dat u echt klikt op een laag als u wilt dat het menu Afbeeldingen iedere keer dezelfde laag selecteert. In het bovenstaande voorbeeld, als de laag wordt geselecteerd in net menu Afbeeldingen, zal het altijd de laag "World Database of Protected Areas" laden.
 
-Als u zelf elke keer zou willen kiezen welke laag te laden als u de server selecteert in het menu Afbeeldingen en in staat zult zijn om eenvoudig meerdere lagen uit de opgeslagen server te laden, selecteer dan het vak "Sla alleen het WMS-eindpunt op, selecteer lagen bij gebruik". Dat zal ook het selecteren van een laag en het verifiëren van het veld URL uitschakelen. 
+Als u zelf elke keer zou willen kiezen welke laag te laden als u de server selecteert in het menu Afbeeldingen en in staat zult zijn om eenvoudig meerdere lagen uit de opgeslagen server te laden, selecteer dan het vak "Sla alleen het WMS-eindpunt op, selecteer lagen bij gebruik". Dat zal ook het selecteren van een laag en het verifiëren van het veld URL uitschakelen.
 
 ![wms_end_point_only_highlighted][]  
 

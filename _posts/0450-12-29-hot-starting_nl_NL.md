@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Beginnen met Tasking Manager - iD editor
-permalink: /nl/hot-tips/getting-started/
-lang: nl
+permalink: /nl_NL/hot-tips/getting-started/
+lang: nl_NL
 category: hot-tips
 ---
 

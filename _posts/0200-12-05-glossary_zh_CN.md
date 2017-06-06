@@ -31,15 +31,15 @@ category: beginner
 
 **DHN : Digital Humanitarian Network** ; organization which leverages digital network for humanitarian response.
 
-**摘录** : [OSM Data Overview](/en/osm-data/data-overview/) 特定区域(如省/州、国家或地区)的大块OSM数据。
+**摘录** : [OSM Data Overview](/zh_CN/osm-data/data-overview/) 特定区域(如省/州、国家或地区)的大块OSM数据。
 
-**[Field Papers](/zh/mobile-mapping/field-papers/)**: 是一款基于网络的工具，可以轻松创建世界上任何地点的可印刷地图集，你可以打印这些地图并添加笔记。详情请参见[http://fieldpapers.org/](http://fieldpapers.org/) 。 
+**[Field Papers](/zh_CN/mobile-mapping/field-papers/)**: 是一款基于网络的工具，可以轻松创建世界上任何地点的可印刷地图集，你可以打印这些地图并添加笔记。详情请参见[http://fieldpapers.org/](http://fieldpapers.org/) 。 
 
 **FOD : Fundamental Operational Database** ; data that is specific for to activation i.e. health facilities, schools, water facilities, flood extents, building damages, etc.
 
 **GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
 
-**[iD编辑器](/zh/beginner/id-editor/)** 一款容易上手的基于网络的OpenStreetMap编辑器，由Mapbox设计。 
+**[iD编辑器](/zh_CN/beginner/id-editor/)** 一款容易上手的基于网络的OpenStreetMap编辑器，由Mapbox设计。 
 
 **IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
 

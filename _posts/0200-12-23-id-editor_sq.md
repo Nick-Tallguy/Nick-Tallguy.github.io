@@ -9,7 +9,7 @@ category: beginner
 iD Editor
 =============
 
-> Kjo guidë mund të shkarkohet si [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) ose [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
+> Kjo guidë mund të shkarkohet si [beginner_id-editor_sq.odt](/files/beginner_id-editor_sq.odt) ose [beginner_id-editor_sq.pdf](/files/beginner_id-editor_sq.pdf)  
 > Rishikuar 2016-03-30  
 
 - TOC
@@ -35,82 +35,82 @@ Ndërfaqja me përdoruesin e iD Editor
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** This panel shows tags from the object selected on the map.  
-	You can add or edit tags from this panel.  
-2. **Tools:** This panel shows basic editing tools:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="24px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+1. **Paneli i Editimit të Cilësive:** Ky panel tregon etiketat për objektin e përzgjedhur në hartë.   
+	Ju mund të shtoni apo redaktoni etiketat të quajturat 'tags' nga ky panel.  
+2. **Mjetet:** Ky panel tregon mjetet kryesore të editimit:  
+    Vizato pikë (node), *shkurtimisht butoni* **1** ![image3][]{:height="24px"}  
+    Vizato vijë (way), *shkurtimisht butoni* **2** ![image4][]{: height="24px"}  
+    Vizato formë (polygon), *shkurtimisht butoni* **3** ![image5][]{: height="24px"}  
+    Kthehu pas, *shkurtimisht butonat* **Ctrl+z** ![image6][]{: height="24px"}  
+    Ribëje, *shkrutimisht butonat* **Ctrl+y** ![image7][]{: height="24px"}  
+    Ruaj ndryshimet, *shkurtimisht butonat* **Ctrl+s** ![image8][]{: height="24px"}  
+3. **Paneli i hartës:** Ky panel tregon funksione të ndryshme të konfigurimit:  
+    Zmadhoni, *shkurtimisht butoni* **+** ![image9][]{: height="24px"}  
+    Zvogëloni, *shkurtimisht butoni* **-** ![image10][]{: height="24px"}  
+    Shkoni tek vendodhja juaj ![image11][]{: height="24px"}  
+    Konfiguroni shtresën e sfondit, *shkurtimisht butoni* **b** ![image12][]{: height="24px"}  
+    Të dhënat e hartës, *shkurtimisht butoni* **f** ![Map Data][]{: height="24px"}  
+    Hap menunë e ndihmës, *shkurtimisht butoni* **h** ![image13][]{: height="24px"}  
+4. **Paneli i informacionit:** Ky panel shfaq të dhëna të ndryshme, si shiritin e shkallëzimit dhe cilët përdorues kanë kontribuar në atë zonë.  
 
-Configuring the Background Layer
+Konfigurimi i shtresës së sfondit
 --------------------------------
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+Klikoni ikonën për **Cilësimet e sfondit** ose përdorni *shkurtimisht butonin* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% ![image16][]{: height="24px"}  
-You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Për të ndryshuar **nivelin e ndriçimit** klikoni në një nga kutitë, nivelet janë 100%, 75%, 50% dhe 25% ![image16][]{: height="24px"}  
+Gjithashtu mund të **ndryshoni shtresën e sfondit** bazuar në dëshirën tuaj për secilën pllakë të mundësuar, ku bëhet fjalë për të quajtuar 'tiles' (paraprakisht është Bing Aerial Imagery).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+Ju mund të shtoni pllakt tuaja në hartë duke klikuar në **Custom**. Për shembull, nvse ju doni të **shtoni një Field Paper** [^fieldpaper], klikoni **Custom** pastaj klikoni në ikonën e lupës zmadhuese (search) për të hapur dritaren pasardhëse:  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+dhe vendosni **FieldPaper snapshot URL** që keni, e cila do të jetë diçka si kjo: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Për të **shfaqur GPS tracks nga kompjuteri juaj** (formati GPX), mereni dhe vendoseni skedarin GPX në iD editor.  
+Për të aktivizuar **OpenStreetMap GPS traces** klikoni në kutinë. Në imazhin më poshtë, gjurmimet GPS publike janë të shfaqura në ngjyra të ndryshme, duke treguar drejtimin e udhëtimit.   
 ![osm gps traces][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
+Nëse aty ka [imazheri offset](/sq/josm/aerial-imagery), ju mund ta **korigjoni mënjanimin e imazherisë** duke klikuar **Fix Alignment**. ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- Klikoni butonin e navigimit për të lëvizur imazherinë. Klinoni butonin e reset-imit për tu kthyer në pozicionin fillestar. ![image20][]  
 
-Basic Editing with iD  
+Editime Themelore me iD  
 ----------------------  
 
-### Adding Points  
+### Shtim i Pikave  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Për të shtuar një pikë të re, klikoni në buttonin **Point**. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Kursori i mausit tuaj do të ndryshojë në shenjën e plusit (+). Tashmë, klikoni në pozicionin që ju dini për të shënjuar një lokacion. Për shembull, nëse ju dini që është një spital pranë zonës suaj, klikoni në vendin ku ndodhet ndërtesa e spitalit.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Vini re se një pikë e re është shtuar. Në të njëjtën kohë, paneli në të majtë do të ndryshojë duke shfaqur një formë ku ju mund të zgjidhni atributet për objektin e krijuar. Klikoni **Hospital Grounds** për ta etiketuar pikën si spital.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Ju mund ta përdorni formën për të vendosur informacion të detajuar për pikën tuaj. Ju mund të plotësoni emrin, adresën apo dhe informacione të tjera shtesë për spitalin. Vëreni se secila veçori do të ketë opsione të ndryshme, në varësi të etiketës që ju zgjidhni nga paneli i veçorive (features).  
+- Nëse ju bëni një gabim, si një vendodhje të gabuar, ju mund ta zhvendosni pikën tuaj tek një vendodhje e re duke mbajtur butonin e majtë të mausit shtypur tek pika dhe duke e zvarritur atë. Ose nëse ju doni të fshini pikën tuaj, klikoni me butonin e majtë të mausit tek pika dhe më pas klikoni ikonën e cila ka simbolin e koshit të plehrave. ![image23][]{: height="24px"}  
+Një "pikë" e krijuar në iD editor është aktualisht një "nyje" e vetme me një set "etiketash" në të.  
 
-### Drawing Lines  
+### Vizatimi i vijave  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Për të shtuar një vijë të re, klikoni në butonin **Line**. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- Kursori i mausit tuaj do të ndryshojë në shenjën e plusit (+). Gjeni një rrugë e cila nuk është vendosur në hartë dhe gjurmojeni atë. Klikoni një herë në pikën ku segmenti i rrugës fillon, lëvizni mausin tuaj dhe klikoni për të shtuar pika përgjatë segmentit. Klikoni dy herë për të përfunduar procesin e vizatimit. Vini re panelin në të majtë.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line, you will see these tools:  
-- Delete point from line. ![image23][]{: height="24px"}  
-- Disconnect point from line. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
--   Delete line. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
--   Move line ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+- Ashtu se me pikën, përzgjidhni etiketat e përshtatshme për vijën tuaj.  
+- Ju mund të tërhiqni pikat nga vija duke klikuar me të majtën e mausit në një pikë dhe duke e zvarritur atë.  
+- Ju gjithashtu mund të lëvizni të tërë vijën duke e selektuar atë dhe përzgjidhni **Move tool**. Pastaj tërhiqeni vijën në një pozicion të ri. ![image30][]{: height="24px"}  
+- Kur ju klikoni me të majtën e mausit në një pikë individuale (nyje) të vijës, ju do të shihni këto mjete:  
+- Fshijeni pikën nga vija. ![image23][]{: height="24px"}  
+- Shkëputeni pikën nga vija. ![image26][]{: height="24px"}  
+- Ndajeni vijën në dy të tilla nga pika që keni përzgjedhur. ![image27][]{: height="24px"}  
+- Kur klikoni me të djathtën e mausit në një vijë (por jo pikë), do të shihni këto mjete:  
+- Fshijeni vijën. ![image23][]{: height="24px"}  
+- Krijoni një rreth nga një vijë (aktive vetëm nëse vija është e mbyllur) ![image29][]{: height="24px"}  
+- Zhvendoseni vijën ![image30][]{: height="24px"}  
+- Formoni një model katrori nga një vijë (aktive vetëm nëse vija është e mbyllur) ![image31][]{: height="24px"}  
+- Ndryshoni drejtimin e vijës (e mirë për lumenjtë & rrugët me një drejtim) ![image32][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+Një "vijë" e krijuar në iD editor është aktualisht një "rrugë"" me "etiketa" në të.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+> Një shënim që duhet konsideruar rreth **Fshirjes**: Në përgjithësi duhet ti shmangni fshirjen e objekteve të krijuara nga njerëz të tjerë nëse ka nevojë vetëm për përmirësim. Ju mund të fshini gabimet tuaja, por duhet të përpiqeni të *rregulloni* objektet e hartëzuara nga njerëz të tjerë nëse kanë nevojë për ndryshime. Kjo mënyrë ruan historinë e artikujve në databazën e OSM dhe respekton shokët e tjerë hartëzues. Nëse  ju mendoni vërtet se një objekt duhet fshirë, konsideroni të pyesni personin i cili e krijoi atë ose një nga listat e email-eve të OSM më parë.
 
-### Drawing Shapes (Polygons)
+### Vizatim i formave (Poligonet)
 
 To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
 

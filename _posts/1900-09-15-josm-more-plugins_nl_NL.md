@@ -6,7 +6,7 @@ lang: nl
 category: josm
 ---
 
-JOSM plug-ins Buildings Tools & Utilsplugin2 
+JOSM plug-ins Buildings Tools & Utilsplugin2
 ============
 
 > Deze handleiding kan gedownload worden als [josm-more-plugins_nl.odt](/files/josm-more-plugins_nl.odt) of [josm-more-plugins_nl.pdf](/files/josm-more-plugins_nl.pdf)  

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Wegen, gebouwen, water en landgebruik traceren 
-permalink: /nl/coordination/remote-tracing/
-lang: nl
+permalink: /nl_NL/coordination/remote-tracing/
+lang: nl_NL
 category: coordination
 ---
 

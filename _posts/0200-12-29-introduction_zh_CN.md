@@ -9,7 +9,7 @@ category: beginner
 引言
 ============
 
-> 本指南有[beginner_introduction_zh.odt](/files/beginner_introduction_zh.odt)和[beginner_introduction_zh.pdf](/files/beginner_introduction_zh.pdf)两种格式可供下载。  
+> 本指南有[beginner_introduction_zh_CN.odt](/files/beginner_introduction_zh_CN.odt)和[beginner_introduction_zh_CN.pdf](/files/beginner_introduction_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 信息是强大的。有了好的信息和正确的

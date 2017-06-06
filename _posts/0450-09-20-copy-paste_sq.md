@@ -1,6 +1,6 @@
 ---
 layout: doc
-titull: Kopjim, Ngjitje & Rrotullim - iD editor
+title: Kopjim, Ngjitje & Rrotullim - iD editor
 permalink: /sq/hot-tips/copy-paste/
 lang: sq
 category: hot-tips

@@ -16,7 +16,7 @@ Wanneer u meer gevorderd raakt in uw bewerkingstechnieken, wilt u misschien aanv
 
 In dit gedeelte zullen we nader kijken hoe plug-ins te installeren en naar enkele van de meest nuttige plug-ins die beschikbaar zijn.
 
-Plug-ins installeren 
+Plug-ins installeren
 -------------------
 Ga, elke keer als u een nieuwe plug-in wilt installeren, naar **Bewerken \> Voorkeuren** en klik op de tab **Plugins**.  
 
@@ -195,7 +195,7 @@ Veel succes!
 Appendix
 --------
 
-Details voor DirectUpload 
+Details voor DirectUpload
 --------------------
 
 ![Direct Upload Plugin][]

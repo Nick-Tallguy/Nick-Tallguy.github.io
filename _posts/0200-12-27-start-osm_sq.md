@@ -9,7 +9,7 @@ category: beginner
 Të fillosh në OpenStreetMap.org
 ====================================
 
-Kjo guidë mund të shkarkohet si [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) ose [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
+Kjo guidë mund të shkarkohet si [beginner_start-osm_sq.odt](/files/beginner_start-osm_sq.odt) ose [beginner_start-osm_sq.pdf](/files/beginner_start-osm_sq.pdf)  
 > Rishikuar 2015-07-12  
 
 Në këtë seksion ne do të mësojmë hap pas hapi se si të navigojmë
@@ -170,7 +170,7 @@ Shtimi i Pikave të Para
     bazën e të dhënave të OSM.
 
 
-iD editor është një mënyrë fantastike se si të editoni lehtësisht në OpenStreetMap, dhe mund të gjeni më shumë rreth përdorimit të tij në [iD editor guide](/en/beginner/id-editor/). However, in the [JOSM section](/en/josm/)
+iD editor është një mënyrë fantastike se si të editoni lehtësisht në OpenStreetMap, dhe mund të gjeni më shumë rreth përdorimit të tij në [iD editor guide](/sq/beginner/id-editor/). However, in the [JOSM section](/sq/josm/)
 ne do të jshohim JOSM, një aplikacion i pavarur i cili ofron shumë më tepër karakteristika. Ndihuni të lirë
 të vazhdoni të luani dhe eksploroni me iD. Pasi të keni më shumë eksperiencë duke kontribuar në OSM, ju mund të zgjidhni
 cilin editor preferoni duke përdorur më të mirën.

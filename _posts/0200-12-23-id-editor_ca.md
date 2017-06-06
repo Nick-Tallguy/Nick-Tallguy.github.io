@@ -3,13 +3,13 @@ layout: doc
 title: iD Editor
 permalink: /ca/beginner/id-editor/
 lang: ca
-category: iniciació
+category: beginner
 ---
 
 L'editor iD
 =============
 
-> Podeu baixar aquesta guia com a [beginner_id-editor_ca.odt](/files/beginner_id-editor_en.odt) o [beginner_id-editor_ca.pdf](/files/beginner_id-editor_en.pdf)  
+> Podeu baixar aquesta guia com a [beginner_id-editor_ca.odt](/files/beginner_id-editor_ca.odt) o [beginner_id-editor_ca.pdf](/files/beginner_id-editor_ca.pdf)  
 > Reviewed 2016-03-30  
 
 - TOC

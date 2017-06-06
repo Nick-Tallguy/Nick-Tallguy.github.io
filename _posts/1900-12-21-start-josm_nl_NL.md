@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Beginnen met JOSM
-permalink: /nl/josm/start-josm/
-lang: nl
+permalink: /nl_NL/josm/start-josm/
+lang: nl_NL
 category: josm
 published: true
 ---
@@ -10,7 +10,7 @@ published: true
 Beginnen met JOSM
 =============================  
 
-> Deze handleiding kan worden gedownload als [josm_start-josm_nl.odt](/files/josm_start-josm_nl.odt) of [josm_start-josm_nl.pdf](/files/josm_start-josm_nl.pdf)  
+> Deze handleiding kan worden gedownload als [josm_start-josm_n_NLl.odt](/files/josm_start-josm_nl_NL.odt) of [josm_start-josm_nl_NL.pdf](/files/josm_start-josm_nl_NL.pdf)  
 > Bijgewerkt op 12-07-2015  
 
 Deze handleiding leert je JOSM te downloaden en te installeren, instellingen aan te passen, een kaart te openen en
@@ -28,7 +28,7 @@ JOSM downloaden
 - Als je het programma JOSM nog niet hebt, of de nieuwste versie ervan wilt, open
   je webbrowser - dat kan zijn Firefox, Chrome, Opera, of Internet
   Verkenner.
-- Voer in de adresbalk, bovenin het scherm, de volgende 
+- Voer in de adresbalk, bovenin het scherm, de volgende
   tekst in en druk op Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 - U kunt ook zoeken naar de website van JOSM door op het internet te zoeken naar “JOSM”.
 - De website zou er ongeveer zo uit moeten zien:
@@ -44,7 +44,7 @@ JOSM downloaden
   starten. In dit hoofdstuk gaan we er van uit dat u Windows gebruikt,
   maar de instructies zijn soortgelijk voor andere besturingssystemen.
 
-JOSM installeren 
+JOSM installeren
 ------------
 
 >  U kunt problemen ondervinden bij het installeren van JOSM als Java nog niet
@@ -77,7 +77,7 @@ Eén instelling die u misschien wilt aanpassen is de taal. JOSM is
 vertaald in vele talen en misschien heeft het uw voorkeur
 met een andere te werken.
 
-- Klik op Bewerken -\> Voorkeuren om toegang te verkrijgen tot het venster Voorkeuren, 
+- Klik op Bewerken -\> Voorkeuren om toegang te verkrijgen tot het venster Voorkeuren,
 
   ![Preferences window][]
 

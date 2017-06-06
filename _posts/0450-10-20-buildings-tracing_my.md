@@ -3,7 +3,7 @@ layout: doc
 title: စတုဂံပုံစံအဆောက်အဦးများလိုက်ထပ်ရေးဆွဲခြင်း - iD editor
 permalink: /my/hot-tips/tracing-rectangular-buildings/
 lang: my
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 ---
 
 စတုဂံပုံစံအဆောက်အဦးများလိုက်ထပ်ရေးဆွဲခြင်း - iD editor

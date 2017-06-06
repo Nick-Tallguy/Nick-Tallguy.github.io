@@ -19,7 +19,7 @@ Tagging - iD editor
 Perchè sono necessari i tag?
 -------------------
 
-Senza un tag un oggetto non ha significato e le mappe non lo visualizzeranno. Il tag spiega al computer che tipo di oggetto rappresenta. Se trovi un oggetto senza tag, aggiungilo. Se un oggetto è taggato, esso avrà un colore, come il colore rosso per l'edificio taggato nell'immagine qui sopra.  **Se è bianco investiga e aggiungigli il tag appropriato, se questo è mancante**.  
+Senza un tag un oggetto non ha significato e le mappe non lo visualizzeranno. Il tag spiega al computer che tipo di oggetto rappresenta. Se trovi un oggetto senza tag, aggiungilo. Se un oggetto è taggato, esso avrà un colore, come il colore rosso per l'edificio taggato nell'immagine qui sopra.  **Se è bianco investiga e aggiungigli il tag appropriato, se è mancante**.  
 
 ![tagged-building][]  
 
@@ -35,9 +35,9 @@ Se tu selezioni un oggetto e clicchi su **Tutti i tag** vedrai un'etichetta come
 
 **building yes**  
 
-Questo è il tag più comune per gli edifici, ed è quello raccomandato quando di tracciano edifici da un task nel Tasking Manager.  
+Questo è il tag più comune per gli edifici, ed è quello raccomandato quando si tracciano edifici in un task nel Tasking Manager.  
 
-Se tu conosci esattamente la funzione dell'edificio, allora puoi usare un tag più specifico, come:  
+Se conosci esattamente la funzione dell'edificio, allora puoi usare un tag più specifico, come:  
   **building house**  
   **building school**  
 o uno dei molti altri tag. Per informazioni più dettagliate sui tag per gli edifici guarda <https://wiki.openstreetmap.org/wiki/IT:Buildings>  
@@ -46,7 +46,7 @@ Per ulteriori informazioni su come taggare le strade vedi la [sezione strade di 
 
 ### Relazioni - come un edificio con all'interno una corte o un'isola in un fiume ###
 
-Alcuni oggetti hanno i loro tag in una **Relazione** non sull'oggetto stesso. Se tu vedi sullo schermo una menzione ad una relazione, se sei un novizio il miglior consiglio è  'lasciala così com'è'.  
+Alcuni oggetti hanno i loro tag in una **Relazione**, non sull'oggetto stesso. Se vedi sullo schermo un riferimento ad una relazione e sei un novizio, il miglior consiglio è  'lasciala così com'è'.  
 
 Per maggiori informazioni sulle relazioni (**non è un argomento per i novizi di OSM**) guarda;  
 

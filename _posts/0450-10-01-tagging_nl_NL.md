@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Taggen - iD editor
-permalink: /nl/hot-tips/tagging/
-lang: nl
+permalink: /nl_NL/hot-tips/tagging/
+lang: nl_NL
 category: hot-tips
 ---
 

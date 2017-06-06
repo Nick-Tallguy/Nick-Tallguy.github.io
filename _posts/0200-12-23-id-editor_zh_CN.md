@@ -9,7 +9,7 @@ category: beginner
 iD编辑器
 =============
 
-> 本指南有 [beginner_id-editor_zh.odt](/files/beginner_id-editor_zh.odt) 和 [beginner_id-editor_zh.pdf](/files/beginner_id-editor_zh.pdf) 两种格式可供下载。  
+> 本指南有 [beginner_id-editor_zh_CN.odt](/files/beginner_id-editor_zh_CN.odt) 和 [beginner_id-editor_zh_CN.pdf](/files/beginner_id-editor_zh_CN.pdf) 两种格式可供下载。  
 > Reviewed 2016-03-30  
 
 - TOC
@@ -67,7 +67,7 @@ You can add your own map tiles by clicking on **Custom**. For example, if you wa
 你可以**显示本地计算机的GPS轨迹**(GPX格式)。也可以将GPX文件拖曳并放入iD编辑器。  
 你可以打开**OpenStreetMap GPS轨迹**图层，这样可以显示此地区的公共GPS轨迹。在下面的图片中，公共GPS轨迹用不同颜色表示，颜色代表着运行的方向。  
 ![osm gps traces][]  
-如果有[影像偏移](/zh/josm/aerial-imagery)，你可以通过点击修复对齐来**纠正影像偏移**。 ![image18][]  
+如果有[影像偏移](/zh_CN/josm/aerial-imagery)，你可以通过点击修复对齐来**纠正影像偏移**。 ![image18][]  
 
 点击方向按钮可以移动影像，点击重置按钮可以恢复到默认位置。 ![image20][]  
 

@@ -64,7 +64,7 @@ enkele van de gereedschappen worden hieronder gegeven.
     punt in het midden van de lijn die u wilt splitsen, selecteer Weg
     splitsen uit het menu Gereedschappen, en uw lijn zou moeten zijn gesplitst in twee delen.
 
-2.  **Wegen combineren:** Dit doet het tegenovergestelde van Weg splitsen. Voor het combineren van twee 
+2.  **Wegen combineren:** Dit doet het tegenovergestelde van Weg splitsen. Voor het combineren van twee
     lijnen naar één enkele lijn, moeten zijn één enkel punt delen. Selecteer, om
     deze functie te gebruiken, beide lijnen die u wilt combineren. U kunt
     meer dan één object selecteren door de SHIFT-toets ingedrukt te houden op uw

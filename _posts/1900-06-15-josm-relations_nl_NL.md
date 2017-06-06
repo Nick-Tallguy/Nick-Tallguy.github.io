@@ -25,7 +25,7 @@ Relaties worden gebruikt om alles weer te geven dat vereist wordt om een verzame
 
 Er zijn voornamelijk vier typen relaties die u in OSM zult tegenkomen: Multipolygonen, Routes, Boundaries, en Restrictions (zoals, Niet linksaf slaan). In dit gedeelte zullen we Multipolygonen en Routes behandelen.  
 
-Relaties voor multipolygonen maken 
+Relaties voor multipolygonen maken
 -------------------------------
 
 Laten we eens kijken hoe we een relatie voor een multipolygoon maken, zoals die welke hierboven wordt weergegeven.  
@@ -69,7 +69,7 @@ Wanneer u op deze manier een multipolygoon maakt, zal die op de kaart als volgt 
 
 Multipolygonen kunnen worden gebruikt voor elk complex object dat inner en outer polygonen vereist, zoals een gebouw of een rivier met stukken land erin. Gedetailleerde informatie over multipolygonen is te vinden op de [wiki van OSM](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
 
-Relaties voor routes 
+Relaties voor routes
 ----------------
 
 Relaties zijn ook erg nuttig voor het weergeven van lange routes. Een bus- of fietsroute bijvoorbeeld volgt verscheidene wegsegmenten. We kunnen, om een dergelijke route te definiëren, een relatie maken die alle wegsegmenten bevat die deel uitmaken van de route. Aanvullende objecten, zoals bushaltes kunnen ook lid zijn van een routerelatie.  
@@ -83,7 +83,7 @@ Laten we eens kijken hoe we een relatie voor een busroute maken in JOSM:
 
 ![Public transport preset][]
 
-- Selecteer "bus", naast het type Route.   
+- Selecteer "bus", naast het type Route.  
 - Klik op "Nieuwe relatie." U zult het venster Relatie tevoorschijn zien komen, net zoals wanneer u een multipolygoon maakt.  
 
 ![Bus route relation][]

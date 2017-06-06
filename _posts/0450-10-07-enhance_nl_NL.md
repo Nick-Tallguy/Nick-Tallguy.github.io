@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: De kleuren of achtergrond verbeteren - iD editor
-permalink: /nl/hot-tips/enhance/
-lang: nl
+permalink: /nl_NL/hot-tips/enhance/
+lang: nl_NL
 category: hot-tips
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /nl/hot-tips/
-lang: nl
+permalink: /nl_NL/hot-tips/
+lang: nl_NL
 title: HOT Tips - Beginnen voor nieuwe mappers - iD editor
 category: hot-tips
 cover: yes

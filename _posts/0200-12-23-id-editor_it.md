@@ -25,8 +25,8 @@ Avviare l'editor iD
 -	L'editor iD richiede una connessione attiva ad Internet.  
 -	Apri il tuo browser Internet e vai sul sito web di OpenStreetMap all'indirizzo [http://www.openstreetmap.org](http://www.openstreetmap.org).  
 -	Effettua il **login** con il tuo account OpenStreetMap  
--⇥Spostati ed ingrandisci la mappa sull'area che vuoi modificare. Puoi spostarti tenendo premuto il tasto sinistro del mouse e trascinando la mappa verso la zona che desideri.  
--⇥Clicca sulla piccola freccia vicino a **Modifica**. Poi clicca **Modifica con iD (editor nel browser)**.  
+-	Spostati ed ingrandisci la mappa sull'area che vuoi modificare. Puoi spostarti tenendo premuto il tasto sinistro del mouse e trascinando la mappa verso la zona che desideri.  
+-	Clicca sulla piccola freccia vicino a **Modifica**. Poi clicca **Modifica con iD (editor nel browser)**.  
 
 ![image1][]
 
@@ -58,7 +58,7 @@ Configura lo strato di sfondo
 
 Clicca sul tasto **Sfondo** o usa il *tasto scorciatoia* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-Per cambiare il ** livello di luminosità**  clicca una di queste caselle, i livelli sono 100%, 75%, 50%, e 25% ![image16][]{: height="24px"}  
+Per cambiare il **livello di luminosità**  clicca una di queste caselle, i livelli sono 100%, 75%, 50%, e 25% ![image16][]{: height="24px"}  
 Puoi anche **cambiare lo strato di sfondo** in base al fornitore di immagini che preferisci (di base vengono mostrate le immagini aeree di Bing).  
 
 Puoi anche aggiungere un tuo strato di immagini di sfondo cliccando su **Personalizzato**. Per esempio, se vuoi **aggiungere un -fieldPapers** allora clicca sull'icona con lente d'ingrandimento (ricerca) per aprire la seguente finestra:-  

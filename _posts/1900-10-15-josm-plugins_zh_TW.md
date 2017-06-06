@@ -9,7 +9,7 @@ category: josm
 JOSM 附加元件
 ============
 
-> 這篇指南可以 [josm-plugins_en.odt](/files/josm-plugins_en.odt) 或 [josm-plugins_en.pdf](/files/josm-plugins_en.pdf) 下載  
+> 這篇指南可以 [josm-plugins_zh_TW.odt](/files/josm-plugins_zh_TW.odt) 或 [josm-plugins_zh_TW.pdf](/files/josm-plugins_zh_TW.pdf) 下載  
 > 於 2015-07-14 審閲  
 
 As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  

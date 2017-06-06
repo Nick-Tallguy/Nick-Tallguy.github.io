@@ -9,7 +9,7 @@ category: josm
 编辑外业数据
 ==================
 
-> 本指南有[josm_editing-with-josm_zh.odt](/files/josm_editing-with-josm_zh.odt) 和[josm_editing-with-josm_zh.pdf](/files/josm_editing-with-josm_zh.pdf) 两种格式可供下载。  
+> 本指南有[josm_editing-with-josm_zh_CN.odt](/files/josm_editing-with-josm_zh_CN.odt) 和[josm_editing-with-josm_zh_CN.pdf](/files/josm_editing-with-josm_zh_CN.pdf) 两种格式可供下载。  
 > 2015年7月13日修订  
 
 现在我们已经讲完了用OpenStreetMap绘制建筑。
@@ -78,7 +78,7 @@ JOSM右侧栏的图层面板会增加一个条目。 视你打开的内容不同
 
 利用GPS数据和Field Papers
 -------------------------------
-在[用手机、GPS或纸图绘图](/zh/mobile-mapping/) 章节，我们学习了如何用GPS和Field Papers采集数据，
+在[用手机、GPS或纸图绘图](/zh_CN/mobile-mapping/) 章节，我们学习了如何用GPS和Field Papers采集数据，
 以及如何将采集的数据加入JOSM成为图层。
 
 一旦你用上述工具进行了测量，你就还需要

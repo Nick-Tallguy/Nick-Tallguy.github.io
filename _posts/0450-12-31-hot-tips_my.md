@@ -1,9 +1,9 @@
 ---
 layout: doc
-permalink: /my/hot-အကြောင်းသိကောင်းစရာများ/
+permalink: /my/hot-tips/
 lang: my
 title: HOT အကြောင်းသိကောင်းစရာများ − မြေပုံရေးဆွဲသူအသစ်များအတွက် iD editor အသုံးပြုမှုစတင်ခြင်း
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 cover: yes
 nosearch: true
 ---

@@ -3,7 +3,7 @@ layout: doc
 title: လုံးဝန်းသောပုံစံရှိသည့်အဆောက်အဦးများလိုက်ထပ်ရေးဆွဲခြင်း - iD editor
 permalink: /my/hot-tips/tracing-round-buildings/
 lang: my
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 ---
 
 လုံးဝန်းသောပုံစံရှိသည့်အဆောက်အဦးများလိုက်ထပ်ရေးဆွဲခြင်း - iD editor

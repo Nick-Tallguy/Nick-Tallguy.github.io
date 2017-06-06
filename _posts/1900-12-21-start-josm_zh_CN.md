@@ -10,7 +10,7 @@ published: true
 JOSM入门
 =============================  
 
-> 本指南有[josm_start-josm_zh.odt](/files/josm_start-josm_zh.odt)和[josm_start-josm_zh.pdf](/files/josm_start-josm_zh.pdf)两种格式可供下载。  
+> 本指南有[josm_start-josm_zh_CN.odt](/files/josm_start-josm_zh_CN.odt)和[josm_start-josm_zh_CN.pdf](/files/josm_start-josm_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 本节介绍如何下载并安装Java OpenStreetMap编辑器JOSM、修改部分设置、打开示例地图、
@@ -50,7 +50,7 @@ JOSM入门
 > 如果你的计算机尚未安装Java，你的安装过程可能出现问题。
 > 如果你在这个环节出现问题，
 > 请尝试下载并安装Java。你可以从这里下载Java：
->  [http://www.java.com/zh_CN/download/](http://www.java.com/zh_CN/download/)
+>  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
 > 苹果电脑(Mac)用户可能使用旧版的Java。有关OSX 10.6和10.7.3以上版本操作系统的选项，请参阅[http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) 。
 

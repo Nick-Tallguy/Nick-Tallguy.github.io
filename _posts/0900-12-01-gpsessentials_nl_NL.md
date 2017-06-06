@@ -48,7 +48,7 @@ Zorg er voor dat de GPS in uw Android-telefoon is ingeschakeld, vóórdat u de a
 
 ![Enable GPS in Android][]
 
-Satellieten ophalen 
+Satellieten ophalen
 -------------
 
 Voordat een GPS-ontvanger een locatie kan vaststellen (ook wel een GPS-fix genoemd), moet het signalen ontvangen van tenminste vier satellieten.

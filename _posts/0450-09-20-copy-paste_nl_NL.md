@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Kopiëren, plakken & roteren - iD editor
-permalink: /nl/hot-tips/copy-paste/
-lang: nl
+permalink: /nl_NL/hot-tips/copy-paste/
+lang: nl_NL
 category: hot-tips
 ---
 

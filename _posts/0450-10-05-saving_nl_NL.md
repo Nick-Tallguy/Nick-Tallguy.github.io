@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Opslaan - opmerking wijzigingenset & Task Manager voltooien van een vierkant - iD editor
-permalink: /nl/hot-tips/saving/
-lang: nl
+permalink: /nl_NL/hot-tips/saving/
+lang: nl_NL
 category: hot-tips
 ---
 

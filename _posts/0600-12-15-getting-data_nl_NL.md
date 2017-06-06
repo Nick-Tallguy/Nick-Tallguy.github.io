@@ -14,7 +14,7 @@ Gegevens van OSM ophalen
 
 Wanneer u de meest recente gegevens van OSM wilt ophalen, is de eenvoudigste manier om een extract van een website te downloaden. Er zijn verscheidene webservices die gegevensextracten voor een gebied van uw keuze verschaffen.  
 
-Gegevensextracten downloaden 
+Gegevensextracten downloaden
 --------------------------
 
 ### GeoFabrik

@@ -3,7 +3,7 @@ layout: doc
 title: ပုံတူကူးယူခြင်း၊ ပုံတူကူးယူထားသည်ကိုပြန်လည်ရယူခြင်း နှင့် လှည့်ခြင်း - iD editor
 permalink: /my/hot-tips/copy-paste/
 lang: my
-category: hot-အကြောင်းသိကောင်းစရာများ
+category: hot-tips
 ---
 
 ပုံတူကူးယူခြင်း၊ ပုံတူကူးယူထားသည်ကိုပြန်လည်ရယူခြင်း နှင့် လှည့်ခြင်း - iD editor

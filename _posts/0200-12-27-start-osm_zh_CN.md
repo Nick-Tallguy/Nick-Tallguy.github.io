@@ -9,7 +9,7 @@ category: beginner
 从OpenStreetMap.org入门
 ====================================
 
-> 本指南有[beginner_start-osm_zh.odt](/files/beginner_start-osm_zh.odt)和[beginner_start-osm_zh.pdf](/files/beginner_start-osm_zh.pdf)两种格式可供下载。  
+> 本指南有[beginner_start-osm_zh_CN.odt](/files/beginner_start-osm_zh_CN.odt)和[beginner_start-osm_zh_CN.pdf](/files/beginner_start-osm_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 本节我们将一步步地学习如何转到
@@ -170,7 +170,7 @@ OSM网站提供的众多地图“样式”。
     OSM数据库！
 
 
-iD编辑器是一个轻松编辑OpenStreetMap的好方法，你可以在[iD editor guide](/zh/beginner/id-editor/)深入了解其使用。然而，在 [JOSM section](/zh/josm/) 部分
+iD编辑器是一个轻松编辑OpenStreetMap的好方法，你可以在[iD editor guide](/zh_CN/beginner/id-editor/)深入了解其使用。然而，在 [JOSM section](/zh_CN/josm/) 部分
 我们将继续学习JOSM，它是一个提供更多功能的独立应用程序。欢迎
 继续摸索iD。一旦你有更多想OSM贡献数据的经验，你可以选择
 自己最喜欢用的编辑器。

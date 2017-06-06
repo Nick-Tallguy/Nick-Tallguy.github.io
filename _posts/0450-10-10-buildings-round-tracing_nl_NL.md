@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Ronde gebouwen traceren - iD editor
-permalink: /nl/hot-tips/tracing-round-buildings/
-lang: nl
+permalink: /nl_NL/hot-tips/tracing-round-buildings/
+lang: nl_NL
 category: hot-tips
 ---
 

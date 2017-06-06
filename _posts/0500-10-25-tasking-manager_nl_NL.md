@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager
-permalink: /nl/coordination/tasking-manager/
-lang: nl
+permalink: /nl_NL/coordination/tasking-manager/
+lang: nl_NL
 category: coordination
 ---
 
@@ -14,7 +14,7 @@ category: coordination
 Index
 -------------
 -  [Inleiding over het gebruik van de Tasking Manager door HOT](/nl/coordination/tasking-manager/#overzicht-van-het-proces)  
--  [Talen, Opties, help links, en andere links. Je profiel - lijst van projecten waar je aan hebt bijgedragen en berichten](/nl/coordination/tasking-manager/#opties-amp-links)   
+-  [Talen, Opties, help links, en andere links. Je profiel - lijst van projecten waar je aan hebt bijgedragen en berichten](/nl/coordination/tasking-manager/#opties-amp-links)  
 -  [Inloggen](/nl/coordination/tasking-manager/#starten-met-de-tasking-manager)  
 -  [Het vinden van een project](/nl/coordination/tasking-manager/#een-project-zoeken)  
 -  [Omschrijving, Map grid, Instructies, Bijdragen, Activiteit, Statistieken van een project](/nl/coordination/tasking-manager/#beshrijving)  
@@ -24,7 +24,7 @@ Index
 -  [Een gebied vrijgeven voordat deze gereed is](/nl/coordination/tasking-manager/#een-taak-ontgrendelen-voordat-deze-gereed-is)  
 -  [Markeer je gebied als gereed](/nl/coordination/tasking-manager/#een-tile-afronden)  
 -  [Berichten Versturen](/nl/coordination/tasking-manager/#een-bericht-sturen-vanuit-de-comment-box)  
--  [Je gebied herkennin een een email of ander bericht](/nl/coordination/tasking-manager/#verwijzen-naar-een-specifieke-tile-in-een-email)  
+-  [Je gebied herkennin een een email of ander bericht](/nl_NL/coordination/tasking-manager/#verwijzen-naar-een-specifieke-tile-in-een-email)  
 -  [Live Help - IRC, Internet Relay Chat](/nl/coordination/tasking-manager/#vraag-om-live-hulp)  
 -  [Hints en Tips](/nl/coordination/tasking-manager/#editing-hints-en-tips)
 
@@ -93,7 +93,7 @@ Alles wat je van dit project moet weten staat hier!. Aan de linkerkant is een be
 - Roze gebieden op de kaart geven gebieden met hogere prioriteit aan,  
 - Gele vierkanten zijn gereed,  
 - Een gele omlijning geeft aan dat er op dit moment aan dat vierkant gewerkt wordt,  
-- Groene vierkanten zijn gereed én gecontroleerd,   
+- Groene vierkanten zijn gereed én gecontroleerd,  
 - De resterende vierkanten moeten nog afgemaakt worden of zijn niet geaccepteerd door de controleurs(deze hebben een donkere kleur).  
 
 
@@ -159,7 +159,7 @@ Start JOSM voordat je deze link gebruikt en de bestaande gegevens van OSM  zulle
 
 >1. 'Enable remote control' moet aan staan, dit kun je vinden onder **Edit/Preferences/RemoteControl**
 > 2. Als je de plug-in 'continuousDownload' hebt geïnstalleerd, kun je die het beste uitschakelen (zet het vinkje uit bij 'Download OSM data continuously' onder het menu **Bestand** in JOSM.  
-> 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kun je die vinden onder het menu **Imagery**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)   
+> 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kun je die vinden onder het menu **Imagery**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)  
 
 
 ####iD editor  
@@ -234,7 +234,7 @@ Dit is met name nuttig bij het valideren of verder gaan met andermans werk, je k
 
 ### Verwijzen naar een specifieke tile in een email  
 
-Als je een bericht moet sturen, zoals een email of een IRC bericht, en je wilt iets specifieks weten over een tile in een project (misschien heb je hulp nodig bij het identificeren van iets):   
+Als je een bericht moet sturen, zoals een email of een IRC bericht, en je wilt iets specifieks weten over een tile in een project (misschien heb je hulp nodig bij het identificeren van iets):  
 
 1. Klik op de betreffende tile  
 2. Klik op de adresbalk van je webbrowser, die zal iets als volgt tonen: 'http://tasks.hotosm.org/project/713#task/259'  
@@ -269,13 +269,13 @@ Je hebt nu een goed beeld gekregen van de Tasking Manager en van enkele functies
 
 Een aantal algemene adviezen om in acht te nemen wanneer je met deze tool werkt:  
 
-- Probeer het ver buiten je gebied mappen te vermijden, andere mappers kunnen in dat gebied bezig zijn waardoor je dubbele data krijgt. Het is oké om objecten zoals gebouwen die de grens overschrijden te mappen, maar ga niet verder dan dat. Upload meteen je wijzigingen na het editen in het grensgebied.    
-- Trek wegen, waterwegen en andere objecten door tot net over de grens. Op deze manier kan de volgende mapper verdergaan met waar jij gebleven bent, daarom is het van belang om meteen op te slaan en te uploaden als je dit gedaan hebt.    
-- Als je twijfelt over een feature, gebruik het opmerkingen veld of check de wiki.    
-- Als je een serieuze fout maakt, bijvoorbeeld het verwijderen van een belangrijk object of relatie, gebruik IRC of het opmerkingen veld om andere mappers in te lichten en je te helpen om dit ongedaan te maken. Probeer de changeset toe te voegen of beschrijf wat er is gebeurd. Het is een gezamenlijk project en dus zijn er anderen om je te helpen. Onthoud goed dat iedereen soms fouten maakt.    
-- Twijfel niet om vragen te stellen, validators kunnen kort van stof zijn of to the point, maar als je ze laat zien dat je graag met ze in gesprek gaat, is het resultaat vaak veel beter voor iedereen die betrokken is. Het kan soms lastig zijn om in een andere taal te communiceren en het is makkelijk om in een andere taal kortaf te lijken wanneer je een bericht doorgeeft in een taal die niet je eigen is.    
-- Valideer niet je eigen werk, een tweede blik van iemand anders zal altijd tot betere resultaten leiden.    
-- Maak je geen zorgen als andere mappers kortaf zijn wanneer ze je werk controleren, net zoals jij willen ze graag dat alle data accuraat in kaart gebracht wordt. Feedback is altijd gericht op het resterende werk en zeker geen kritiek op jouw inzet.    
+- Probeer het ver buiten je gebied mappen te vermijden, andere mappers kunnen in dat gebied bezig zijn waardoor je dubbele data krijgt. Het is oké om objecten zoals gebouwen die de grens overschrijden te mappen, maar ga niet verder dan dat. Upload meteen je wijzigingen na het editen in het grensgebied.  
+- Trek wegen, waterwegen en andere objecten door tot net over de grens. Op deze manier kan de volgende mapper verdergaan met waar jij gebleven bent, daarom is het van belang om meteen op te slaan en te uploaden als je dit gedaan hebt.  
+- Als je twijfelt over een feature, gebruik het opmerkingen veld of check de wiki.  
+- Als je een serieuze fout maakt, bijvoorbeeld het verwijderen van een belangrijk object of relatie, gebruik IRC of het opmerkingen veld om andere mappers in te lichten en je te helpen om dit ongedaan te maken. Probeer de changeset toe te voegen of beschrijf wat er is gebeurd. Het is een gezamenlijk project en dus zijn er anderen om je te helpen. Onthoud goed dat iedereen soms fouten maakt.  
+- Twijfel niet om vragen te stellen, validators kunnen kort van stof zijn of to the point, maar als je ze laat zien dat je graag met ze in gesprek gaat, is het resultaat vaak veel beter voor iedereen die betrokken is. Het kan soms lastig zijn om in een andere taal te communiceren en het is makkelijk om in een andere taal kortaf te lijken wanneer je een bericht doorgeeft in een taal die niet je eigen is.  
+- Valideer niet je eigen werk, een tweede blik van iemand anders zal altijd tot betere resultaten leiden.  
+- Maak je geen zorgen als andere mappers kortaf zijn wanneer ze je werk controleren, net zoals jij willen ze graag dat alle data accuraat in kaart gebracht wordt. Feedback is altijd gericht op het resterende werk en zeker geen kritiek op jouw inzet.  
 
 [Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png

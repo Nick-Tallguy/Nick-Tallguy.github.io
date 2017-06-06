@@ -54,7 +54,7 @@ Vervolgens moeten we ons ruwe **.osm**-bestand importeren in een databasebestand
 ![import dialog][]  
 
 - Klik op OK.  
-- Klik op "Close", indien voltooid.   
+- Klik op "Close", indien voltooid.  
 
 
 Lagen maken

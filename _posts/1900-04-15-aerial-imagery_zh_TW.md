@@ -9,7 +9,7 @@ category: josm
 空照圖
 ================
 
-> 這篇指南可以 [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) 或 [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf) 下載  
+> 這篇指南可以 [aerial-imagery_zh_TW.odt](/files/aerial-imagery_zh_TW.odt) 或 [aerial-imagery_zh_TW.pdf](/files/aerial-imagery_zh_TW.pdf) 下載  
 > 2015-09-21 審閲  
 
 Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  

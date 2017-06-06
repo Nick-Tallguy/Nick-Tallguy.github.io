@@ -17,7 +17,7 @@ Nëse keni arritur deri këtu, urime! Ju duhet të keni tashmë njohuri se si t�
 Seksione të tjera të learnOSM
 ---------------------------
 
-Në fund të kapitullit në iD editor ju mësuat për diferencën midis iD dhe JOSM. Është një [seksion i tërë kushtuar JOSM](/en/josm/) ku ju do të mësoni të gjitha detajet e nevojshme në mënyrë që të përfitoni nga mundësitë që ky editor ofron.  
+Në fund të kapitullit në iD editor ju mësuat për diferencën midis iD dhe JOSM. Është një [seksion i tërë kushtuar JOSM](/sq/josm/) ku ju do të mësoni të gjitha detajet e nevojshme në mënyrë që të përfitoni nga mundësitë që ky editor ofron.  
 
 So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
 

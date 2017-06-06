@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Etiquetado - editor iD
-permalink: /en/hot-tips/tagging/
-lang: en
+permalink: /es/hot-tips/tagging/
+lang: es
 category: hot-tips
 ---
 

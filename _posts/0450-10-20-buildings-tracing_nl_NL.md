@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Rechthoekige gebouwen traceren - iD editor
-permalink: /nl/hot-tips/tracing-rectangular-buildings/
-lang: nl
+permalink: /nl_NL/hot-tips/tracing-rectangular-buildings/
+lang: nl_NL
 category: hot-tips
 ---
 
