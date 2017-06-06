@@ -38,7 +38,7 @@ Let's see how to create a multipolygon relation like the one shown above.
 - Choose *Tools->Create multipolygon* from the menu.  
 - The tags window now contains the new multipolygon.
 
-![New multipolygon][]
+![New mp object][]
 
 - Click on the edit button.  
 
@@ -56,6 +56,8 @@ Let's see how to create a multipolygon relation like the one shown above.
 - The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
 
 - Click OK and your multipolygon relation is complete!  
+
+![New multipolygon][]
 
 When you create a multipolygon like this it will be rendered on the map like so:  
 
@@ -100,6 +102,7 @@ Relations can be difficult to understand and do not need to be used often, but t
 [Building yes]: /images/josm/building-yes.png
 [Outer or inner role]: /images/josm/outer-inner.png
 [New multipolygon]: /images/josm/new-multipolygon.png
+[New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
 [Route relation]: /images/josm/route-relation.png
