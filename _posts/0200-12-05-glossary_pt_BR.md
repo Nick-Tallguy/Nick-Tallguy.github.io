@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Glossary 
-permalink: /pt-br/beginner/glossary/
-lang: pt-br
+permalink: /pt_BR/beginner/glossary/
+lang: pt_BR
 category: beginner
 ---
 

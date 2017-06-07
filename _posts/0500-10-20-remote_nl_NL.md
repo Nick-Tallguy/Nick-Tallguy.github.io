@@ -9,7 +9,7 @@ category: coordination
 Op afstand bewerken & de plaats daarvan binnen het team van HOT
 ==================
 
-> Deze handleiding kan worden gedownload als  [remote_nl.odt](/files/remote_nl.odt) of [remote_nl.pdf](/files/remote_nl.pdf)  
+> Deze handleiding kan worden gedownload als  [remote_nl_NL.odt](/files/remote_nl_NL.odt) of [remote_nl_NL.pdf](/files/remote_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015
 
 Op afstand in kaart brengen wordt ook wel 'mappen vanuit je luie stoel' genoemd', en dit zal waarschijnlijk het type mapping zijn dat u zult uitvoeren wanneer u deelneemt an een mapathon. Het zal u helpen te begrijpen wat er nodig is als u meer weet over het gehele proces. Vele mensen over de gehele wereld zijn betrokken bij het er voor zorgen dat HOT werkt, en wanneer u begint met het op afstand in kaart brengen maakt ook u deel uit van dat team, dat vele beschikbare rollen kent, waaronder (dit is niet de volledige lijst!):
@@ -44,8 +44,8 @@ Voor je begint
 
 Neem een paar minuten de tijd om naar de volgende punten te kijken. Het is een korte tekst waarmee je grofweg te weten komt waar we het over hebben en waar je op terug kan slaan als het nodig is:
  
-- [OpenStreetMap.org section of LearnOSM](/nl/beginner/start-osm/). Dit onderdeel behandelt de basis van OpenStreetMap, het lezen hierval zal je op weg helpen. Het is geen lang hoofstuk, dus je bent er snel doorheen. Terwijl je dit leest, gebruik de informatie om een OSM account aan te maken en te bevestigen via je email. Let erop dat je je gebruikersnaam en wachtwoord ergens bewaart.
-- [Tasking Manager Section of LearnOSM](/nl/coordination/tasking-manager/). Om bij te kunnen dragen zul je moeten inloggen in de Tasking Manager, een project kunnen vinden, een vak selecteren en weten wat te doen. Je leest het in dit hoofdstuk!  
+- [OpenStreetMap.org section of LearnOSM](/nl_NL/beginner/start-osm/). Dit onderdeel behandelt de basis van OpenStreetMap, het lezen hierval zal je op weg helpen. Het is geen lang hoofstuk, dus je bent er snel doorheen. Terwijl je dit leest, gebruik de informatie om een OSM account aan te maken en te bevestigen via je email. Let erop dat je je gebruikersnaam en wachtwoord ergens bewaart.
+- [Tasking Manager Section of LearnOSM](/nl_NL/coordination/tasking-manager/). Om bij te kunnen dragen zul je moeten inloggen in de Tasking Manager, een project kunnen vinden, een vak selecteren en weten wat te doen. Je leest het in dit hoofdstuk!  
 
 Je zou misschien ook de korte video's van [MapGive](http://mapgive.state.gov/learn-to-map/) willen bekijken - let er wel op dat de Tasking Manager inmiddels een update heeft gehad en er iets anders uit kan zien. De principes zijn natuurlijk nog hetzelfde.
 
@@ -55,7 +55,7 @@ Editing Software
 
 Hoewel er meerdere programma's beschikbaar zijn, blijven we hier bij de twee belangrijkste. Lees de LearnOSM hoofdstukken door die hieronder staan beschreven en kies de editor die je wilt gaan gebruiken. Je kunt altijd later nog heel eenvoudig wisselen als je wilt:
 
-- De iD Editor [LearnOSM section on iD Editor](/nl/beginner/id-editor/). Deze editor is ideaal voor degenen die nog niet bekend zijn met bijdragen aan OpenStreetMap en is gemakkelijk te leren. Het laatste hoofdstuk behandelt de verschillen tussen [iD & JOSM](/nl/beginner/id-editor/#id-versus-josm)  
+- De iD Editor [LearnOSM section on iD Editor](/nl_NL/beginner/id-editor/). Deze editor is ideaal voor degenen die nog niet bekend zijn met bijdragen aan OpenStreetMap en is gemakkelijk te leren. Het laatste hoofdstuk behandelt de verschillen tussen [iD & JOSM](/nl/beginner/id-editor/#id-versus-josm)  
 - JOSM, de Java OpenStreetMap editor [LearnOSM - installing & starting out with JOSM](/nl/josm/start-josm/)
 
 # Remote Mapping - Beginnen met bijdragen

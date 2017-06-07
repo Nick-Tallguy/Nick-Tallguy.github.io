@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Gegevens uit het veld bewerken
-permalink: /nl/josm/editing-with-josm/
-lang: nl
+permalink: /nl_NL/josm/editing-with-josm/
+lang: nl_NL
 category: josm
 ---
 
 Gegevens uit het veld bewerken
 ==================
 
-> Deze handleiding kan worden gedownload als [josm_editing-with-josm_nl.odt](/files/josm_editing-with-josm_nl.odt) of [josm_editing-with-josm_nl.pdf](/files/josm_editing-with-josm_nl.pdf)  
+> Deze handleiding kan worden gedownload als [josm_editing-with-josm_nl_NL.odt](/files/josm_editing-with-josm_nl_NL.odt) of [josm_editing-with-josm_nl_NL.pdf](/files/josm_editing-with-josm_nl_NL.pdf)  
 > Bijgewerkt op 13-07-2015  
 
 We hebben nu alle bouwblokken voor het maken van kaarten met OpenStreetMap behandeld.

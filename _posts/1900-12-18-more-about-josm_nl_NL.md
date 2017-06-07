@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Het bewerkingsproces van JOSM
-permalink: /nl/josm/more-about-josm/
-lang: nl
+permalink: /nl_NL/josm/more-about-josm/
+lang: nl_NL
 category: josm
 ---
 
 Het bewerkingsproces van JOSM
 ========================
 
-> Deze handleiding kan worden gedownload als [josm_more-about-josm_nl.odt](/files/josm_more-about-josm_nl.odt) of [josm_more-about-josm_nl.pdf](/files/josm_more-about-josm_nl.pdf)  
+> Deze handleiding kan worden gedownload als [josm_more-about-josm_nl_NL.odt](/files/josm_more-about-josm_nl_NL.odt) of [josm_more-about-josm_nl_NL.pdf](/files/josm_more-about-josm_nl_NL.pdf)  
 > Bijgewerkt op 12-07-2015  
 
 In het eerdere gedeelte heeft u

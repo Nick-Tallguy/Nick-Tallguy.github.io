@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: iD Editor
-permalink: /en/beginner/id-editor/
-lang: pt
-category: iniciante
+permalink: /pt_BR/beginner/id-editor/
+lang: pt_BR
+category: beginner
 ---
 
 O iD Editor
 =============
 
-> Este guia pode ser baixado como [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) ou [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
+> Este guia pode ser baixado como [beginner_id-editor_pt_BR.odt](/files/beginner_id-editor_pt_BR.odt) ou [beginner_id-editor_pt_BR.pdf](/files/beginner_id-editor_pt_BR.pdf)  
 > Revisado 2016-03-30  
 
 - TOC

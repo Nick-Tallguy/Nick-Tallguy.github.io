@@ -59,7 +59,7 @@ Configurando la capa de fondo
 Haz click en el botón **Configuración del fondo** o utiliza el *atajo de teclado* **b**.![image14][]{: height="24px"}  
 ![image15][]  
 Para cambiar el **nivel de brillo** haz click en alguna de estas cajas, los niveles de brillo son 100%, 75%, 50% y 25% ![image16][]{: height="24px"}  
-You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+también puede **cambiar la capa de fondo** en función del proveedor de tesela deseado (el predeterminado es Bing Aerial Imagery).  
 
 You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
 ![image17][]   

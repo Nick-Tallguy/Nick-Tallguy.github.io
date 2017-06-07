@@ -12,7 +12,7 @@ Straßen, Gebäude, Wasser und Bodenutzung einzeichnen
 > Diese Anleitung kann als [remote-tracing_de.odt](/files/remote-tracing_de.odt oder als [remote-tracing_de.pdf](/files/remote-tracing_de.pdf) heruntergeladen werden  
 Überprüft 2016-02-08  
 
-Diese Anleitung baut auf der [Anleitung über Fernkartographie und Mapathons](/en/coordination/remote/) auf, die Sie durcharbeiten sollten, wenn Sie keine Erfahrung mit der Arbeit für HOT haben.  
+Diese Anleitung baut auf der [Anleitung über Fernkartographie und Mapathons](/de/coordination/remote/) auf, die Sie durcharbeiten sollten, wenn Sie keine Erfahrung mit der Arbeit für HOT haben.  
 
 
 Inhaltsverzeichnis

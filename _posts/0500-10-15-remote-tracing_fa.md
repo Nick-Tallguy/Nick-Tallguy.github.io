@@ -3,7 +3,7 @@ layout: doc
 title: ثبت راه‌ها، ساختمانها، آبها و کاربری اراضی 
 permalink: /fa/coordination/remote-tracing/
 lang: fa
-category: هماهنگی
+category: coordination
 ---
 
 Tracing roads, buildings, water and landuse

@@ -62,8 +62,8 @@ Instalar JOSM
   Menú Inicio en la esquina inferior izquierda de su equipo, y haciendo clic en
   el programa JOSM.
 - Es posible que aparezca una ventana emergente que le pregunte si desea actualizar el
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
+  software. No es necesario actualizarlo ya que es nuevo. Presione el
+  botón que dice "Cancelar". Si no quiere ver esto
   mensaje otra vez, marque la casilla en la parte inferior antes de pulsar "Cancelar".
 - Cuando se inicie JOSM, se verá como esto:
 
@@ -112,8 +112,8 @@ Aprender dibujo básico con JOSM
 
   ![Sample file][]
 
-- You will use these data in order to try various editing techniques.
-  *You must however never upload these fictitious data to the database.*
+- Utilizará estos datos para probar varias técnicas de edición.
+  *Sin embargo, nunca debe cargar estos datos ficticios a la base de datos.*
 
 ### Operaciones básicas
 
@@ -244,20 +244,20 @@ Dibuje su propio mapa
 - Cuando haya terminado, debería tener su propio mapa, similar al
   mapa de ejemplo que abrimos en sample.osm.
 
-## Remove the sample layer
+## Eliminar la capa de muestra
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features. 
+Una vez que se sienta cómodo con estas técnicas básicas de edición,
+querrá dirigir su atención al mapeo de elementos reales. 
 
-*It is very important that you first remove the layer with the sample data. 
-These data are fictitious and must not be uploaded to the OpenStreetMap 
-database (newer JOSM releases automatically prevent this).*
+*Es muy importante que primero quite la capa con los datos de la muestra. 
+Estos datos son ficticios y no deben cargarse en OpenStreetMap. 
+(las versiones nuevas de JOSM impiden esto automáticamente).*
 
-In the Layers window on the upper right of the screen select the sample.osm layer. 
-Then click on the trash can icon in the lower right corner of that window. 
-Alternatively you can choose delete from the context menu of the layer. 
-In order to continue editing you first need to download real data. 
-This will be explained in the next chapter.
+En la ventana Capas, en la parte superior derecha de la pantalla, seleccione la capa sample.osm. 
+A continuación, haga clic en el icono de la papelera en la esquina inferior derecha de esa ventana. 
+Alternativamente, puede elegir eliminar del menú contextual de la capa. 
+Para continuar editando, primero necesita descargar datos reales. 
+Esto se explicará en el próximo capítulo.
 
 Resumen
 -------

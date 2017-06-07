@@ -35,7 +35,7 @@ category: coordination
 
 ### Editing Tools 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - یک ویرایشگر بر پایه وب است که توسط [Mapbox](www.mapbox.com) و با یک رابط کاربری بسیار کاربرپسند طراحی شده است. معمولاً به عنوان بهترین ابزار ویرایش در شروع کار از آن یاد می‌شود. می‌توانید به صفحه [آموزش تعاملی ویرایشگر iD](http://ideditor.com/) بروید تا با شیوه استفاده از آن آشنا شوید.  
+[iD](http://learnosm.org/fa/beginner/id-editor/) - یک ویرایشگر بر پایه وب است که توسط [Mapbox](www.mapbox.com) و با یک رابط کاربری بسیار کاربرپسند طراحی شده است. معمولاً به عنوان بهترین ابزار ویرایش در شروع کار از آن یاد می‌شود. می‌توانید به صفحه [آموزش تعاملی ویرایشگر iD](http://ideditor.com/) بروید تا با شیوه استفاده از آن آشنا شوید.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 

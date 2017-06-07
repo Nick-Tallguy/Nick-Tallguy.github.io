@@ -35,29 +35,25 @@ OpenStreetMap တွင်တွေ့ရှိနိုင်သော Relation
 ![Multipolygon ways][]
 
 - ကွန်ပျူတာကီးဘုတ်မှ SHIFT ခလုတ်ကိုဖိလျက် ပုံများကိုတစ်ခုချင်းစီ နှိပ်၍ရွေးချယ်ပါ။  
-- *Presets menu မှ Man Made သို့သွားပါ။ ထိုမှတဆင့် Man Made ကိုဆက်ရွေးပြီး Building ကိုနှိပ်ပါ။* (ပုံတွင်ရှု)  
+- Choose *Tools->Create multipolygon* from the menu.  
+- The tags window now contains the new multipolygon.
 
-![Building preset][]
+![New mp object][]
 
-- ထို့နောက် "New Relation" ကိုနှိပ်ပါ။  
+- Click on the edit button.  
 
-![New relation][]
-
-- Relations နှင့်သက်ဆိုင်သောမျက်နှာပြင်တခုပေါ်လာမည်ဖြစ်ပြီးမျဉ်းကြောင်းများစုဖွဲ့ရေးဆွဲထားခြင်းကြောင့် အညွှန်းဖော်ပြချက်များဖြင့် အနည်းငယ်ရှုပ်ထွေးဟန်ရှိနိုင်ပါသည်။  
+- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
 
 ![Building relation][]
 
 - Relation အတွက် အညွှန်းဖော်ပြချက်ကို Tags and Members အကန့်တွင်တွေ့နိုင်သည်။ (အထက်ပါပုံတွင်ရှု)။ အညွှန်းများအကြောင်းကို ယခင်သင်ခန်းစာများတွင်ဖော်ပြပြီးဖြစ်သည်။  
 - Relation တွင်ပါဝင်သောအစုဝင်များကို အောက်ဖက်ရှိဇယားကွက်တွင်တွေ့မြင်နိုင်သည်။ ယခုဥပမာတွင် အစုဝင် ၃ စုပါဝင်သည်ကိုတွေ့ရမည်။  
-- Presets menu တွင် building preset ကိုသုံးကာ *building=yes* အညွှန်းတခုထည့်သွင်းဖော်ပြခဲ့ပြီးဖြစ်သော်လည်း Relation **အမျိုးအစား (type)** ခွဲခြားဖော်ပြရန် နောက်ထပ်အညွှန်းတခုထည့်သွင်းပေးရမည်။ *type=multipolygon* ဟုရိုက်ထည့်ပေးပါ။  
+- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
 - အညွှန်းဖော်ပြချက်နေရာတွင် ကလစ်နှိပ်၍ရိုက်ထည့်ပေးရန်ဖြစ်သည်။ (ပုံတွင်ရှု)  
 
-![Type multipolygon][]
+![Building yes][]
 
-- ထို့နောက် **အပိုင်း၊ကဏ္ဍ**  (roles) ဖော်ပြပေးရန်လိုအပ်သည်။ Relation တွင်ပါဝင်သော အဖွဲ့ဝင်တိုင်းတွင် မည်သည့်အပိုင်း၌ ပါဝင်ကြောင်းဖော်ပြသည့် role ပါရှိသည်။ ယခုပုံတွင် အပြင်ပိုင်းတွင်ရှိသော ထောင့်မှန်စတုဂံပုံအတွက်  **outer** ဟု သတ်မှတ်၍ အတွင်းပိုင်းရှိ ထောင့်မှန်စတုဂံ အသေးနှစ်ခုကို **inner** ဟုသတ်မှတ်ပါ။ ယင်းတို့မှာ ဗဟုဂံပုံအမျိုးမျိုးတွင် ပါဝင်သောပုံများအတွက် သတ်မှတ်ပေးနိုင်သော roles အမျိုးအစားများပင်ဖြစ်သည်။  
-- ဘယ်ဘက်အောက်နားရှိ အကွက်တွင်ပါ၀င်သည့်အရာများကို တစ်ခုစီရွေးချယ်ကြည့်ပါ။ ရွေးချယ်လိုက်သောအရာကို ကိုယ်စားပြုသည့် မြေပုံပေါ်ရှိရုပ်ပုံတွင် အထူးပြုဖော်ပြချက်ဖြစ်ပေါ်လာမည်ဖြစ်ပြီး  **inner** နှင့်  **outer** ရွေးချယ်မှုကို မှန်ကန်စွာပြုလုပ်နိုင်မည်ဖြစ်သည်။  
-
-![Outer or inner role][]
+- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
 
 - မှန်ကန်မှုရှိပါက OK ကိုနှိပ်ပါ။ ဗဟုဂံပုံအမျိုးမျိုးပါဝင်သော relation ဖန်တီးမှု ပြီးမြောက်ပြီဖြစ်သည်။  
 
@@ -101,13 +97,12 @@ Relations များသည် နားလည်ရခက်ပြီး မ�
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png
-[Building preset]: /images/josm/building-preset.png
-[New relation]: /images/josm/new-relation.png
 [Building relation]: /images/josm/building-relation.png
 [New relation]: /images/josm/new-relation.png
-[Type multipolygon]: /images/josm/type-multipolygon.png
+[Building yes]: /images/josm/building-yes.png
 [Outer or inner role]: /images/josm/outer-inner.png
 [New multipolygon]: /images/josm/new-multipolygon.png
+[New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
 [Route relation]: /images/josm/route-relation.png

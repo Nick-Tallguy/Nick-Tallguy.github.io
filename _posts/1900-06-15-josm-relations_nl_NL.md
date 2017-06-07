@@ -35,29 +35,25 @@ Laten we eens kijken hoe we een relatie voor een multipolygoon maken, zoals die 
 ![Multipolygon ways][]
 
 - Selecteer alle polygonen. Onthoud dat u meerdere objecten kunt selecteren door SHIFT ingedrukt te houden en op elke te klikken.  
-- Ga naar *Voorkeuzen->Bouwwerken->Bouwwerken->Gebouw*.  
+- Choose *Tools->Create multipolygon* from the menu.  
+- The tags window now contains the new multipolygon.
 
-![Building preset][]
+![New mp object][]
 
-- Klik op "Nieuwe relatie."  
+- Click on the edit button.  
 
-![New relation][]
-
-- U zou nu het venster relaties moeten zien. Dit is een klein beetje complex omdat u nu tags gaat toevoegen aan een verzameling wegen.  
+- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
 
 ![Building relation][]
 
 - Zie dat aan de bovenzijde van het paneel de tags voor de relatie staan. Deze tags werken op dezelfde manier als waarop tags altijd werken.  
 - Aan de onderzijde staat een lijst met de leden van de relatie. Deze relatie heeft drie leden - dat zijn de drie wegen die deel uitmaken van onze relatie.  
-- We dienen ene aantal dingen te doen om het definiëren van onze multipolygoon te voltooien. Onthoud dat, omdat we de voorkeuze gebouw hebben gebruikt, we al één tag voor ons hebben gedefinieerd, *building=yes*. We dienen nog één tag toe te voegen die het **type** van de relatie definieert. We moeten een tag toevoegen die aangeeft *type=multipolygon*.  
+- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
 - Klik in het vak voor de tag en voeg deze tag toe.  
 
-![Type multipolygon][]
+![Building yes][]
 
-- Vervolgens dienen we te definiëren wat **rollen** wordt genoemd. Elk lid van een relatie heeft een rol, die aangeeft wat het doel van dat lid is. In dit geval moet de rol van de buitenste polygoon worden gedefinieerd als **outer** en de rol van de twee binnenste polygonen moet worden gedefinieerd als **inner**. Dit zijn de rollen die beschikbaar zijn voor leden van een multipolygoon.  
-- Selecteer, in het onderste gedeelte van het linker paneel, elk lid in de lijst. U zult zien dat het lid dat wordt geselecteerd zal worden geaccentueerd in het kaartvenster. Voer **outer** en **inner** in voor de juiste polygonen.  
-
-![Outer or inner role][]
+- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
 
 - Klik op OK en uw relatie voor de multipolygoon is voltooid!  
 
@@ -101,13 +97,12 @@ Relaties kunnen moeilijk te begrijpen zijn en hoeven niet vaak gebruikt te worde
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png
-[Building preset]: /images/josm/building-preset.png
-[New relation]: /images/josm/new-relation.png
 [Building relation]: /images/josm/building-relation.png
 [New relation]: /images/josm/new-relation.png
-[Type multipolygon]: /images/josm/type-multipolygon.png
+[Building yes]: /images/josm/building-yes.png
 [Outer or inner role]: /images/josm/outer-inner.png
 [New multipolygon]: /images/josm/new-multipolygon.png
+[New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
 [Route relation]: /images/josm/route-relation.png

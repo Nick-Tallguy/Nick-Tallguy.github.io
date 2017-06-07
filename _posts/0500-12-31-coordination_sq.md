@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /ca/coordination/
-lang: ca
+permalink: /sq/coordination/
+lang: sq
 title: Coordination
 category: coordination
 cover: yes

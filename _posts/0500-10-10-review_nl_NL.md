@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Gegevens van OSM nakijken
-permalink: /nl/coordination/review/
-lang: nl
+permalink: /nl_NL/coordination/review/
+lang: nl_NL
 category: coordination
 ---
 
 Gegevens van OSM nakijken
 ==================
 
-> Deze handleiding kan worden gedownload als [review_nl.odt](/files/review_nl.odt) of [review_nl.pdf](/files/review_nl.pdf)  
+> Deze handleiding kan worden gedownload als [review_nl_NL.odt](/files/review_nl_NL.odt) of [review_nl_NL.pdf](/files/review_nl_NL.pdf)  
 > Bijgewerkt op 24-04-2017  
 
 - Inhoud

@@ -1,11 +1,11 @@
 ---
 layout: doc
 title: OSM Tasking Manager projectbeheer
-permalink: /nl/coordination/tasking-manager-project-admin/
-lang: nl
+permalink: /nl_NL/coordination/tasking-manager-project-admin/
+lang: nl_NL
 category: coordination
 ---
-> Deze handleiding kan gedownload worden als zelfstandige module: [tasking-manager-admin_nl.odt](/files/tasking-manager-admin_nl.odt) of [tasking-manager-admin_nl.pdf](/files/tasking-manager-admin_nl.pdf) 
+> Deze handleiding kan gedownload worden als zelfstandige module: [tasking-manager-admin_nl_NL.odt](/files/tasking-manager-admin_nl_NL.odt) of [tasking-manager-admin_nl_NL.pdf](/files/tasking-manager-admin_nl_NL.pdf) 
 
 
 # OSM Tasking Manager projectbeheer
@@ -21,7 +21,7 @@ Het eerst wat u moet begrijpen is het toegangsniveau. Alle toegang tot TM2 wordt
 
 ### Toegangsniveaus binnen de OSM Tasking Manager
 De OSM Tasking Manager heeft drie niveaus voor toegang van gebruikers:
--  **User** - Het meest basale niveau. De gebruiker kan inloggen in TM2 en de functionaliteit ervan gebruiken om een project voor het in kaart brengen te zoeken en te selecteren en daarin te werken. Dit gebruiksniveau wordt volledig beschreven in [de handleiding OSM Tasking Manager binnen LearnOSM](/nl/coordination/tasking-manager/). Onthoud dat sommige projecten, zoals die in de status concept (d.i. nog niet gepubliceerd) niet zichtbaar zijn voor gebruikers.  
+-  **User** - Het meest basale niveau. De gebruiker kan inloggen in TM2 en de functionaliteit ervan gebruiken om een project voor het in kaart brengen te zoeken en te selecteren en daarin te werken. Dit gebruiksniveau wordt volledig beschreven in [de handleiding OSM Tasking Manager binnen LearnOSM](/nl_NL/coordination/tasking-manager/). Onthoud dat sommige projecten, zoals die in de status concept (d.i. nog niet gepubliceerd) niet zichtbaar zijn voor gebruikers.  
 -  **Project Manager** - Projectbeheerders hebben toegang om projecten binnen TM2 aan te maken en bij te werken.  
 -  **Administrator** - Beheerders hebben toegang die hen in staat stelt gebruikersniveaus van gebruikers binnen TM2 te beheren.
 U heeft het toegangsniveau Project Manager nodig om nieuwe projecten binnen TM2 aan te maken.
@@ -108,7 +108,7 @@ Hier staan enkele stukjes informatie die u zou kunnen opnemen in de instructies 
 
 - [algemene richtlijnen voor verscheidene bewerkers](https://wiki.openstreetmap.org/wiki/Using_Imagery)
 - [een geanimeerde gif over het uitlijnen van afbeeldingen in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [het hoofdstuk JOSM uitlijnen van afbeeldingen in learnOSM](http://learnosm.org/nl/josm/correcting-imagery-offset)
+- [het hoofdstuk JOSM uitlijnen van afbeeldingen in learnOSM](http://learnosm.org/nl_NL/josm/correcting-imagery-offset)
 
 ## Het project maken & beschrijving toevoegen
 Klik op “Create Project” na het kiezen van een tegelgrootte. 

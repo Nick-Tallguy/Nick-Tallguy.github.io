@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
-> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
+> Dieses Handbuch kann als  [humanitarian_de.odt](/files/humanitarian_de.odt) oder als [humanitarian_de.pdf](/files/humanitarian_de.pdf) heruntergeladen werden.  
 > Reviewed 2015-09-18
 
 Vielen Dank, dass Sie sich für die Leute vor Ort und für Hilfsorganisationen einsetzen und ihnen aktualisierte Kartendaten für die Bewältigung einer Krisensituation liefern.  
@@ -23,9 +23,9 @@ Sie müssen natürlich nicht den ganzen Inhalt dieses Webangebots durchlesen bev
 
 1. Lesen Sie sich die Anweisungen für das Projekt, zu dem Sie beitragen möchten, unter dem entsprechenden Reiter des Task Managers sorgfältig durch. Sie unterscheiden sich von Projekt zu Projekt, seien Sie sich also sicher, dass SIe sie verstanden haben. Wir bieten Ihnen eine [vollständige Bedienungsanleitung](/de/coordination/tasking-manager), darin finden Sie auch Hinweise, wie Sie online Hilfe von erfahrenen Kartierern bekommen können.  
 
-2. Stellen Sie sicher, dass SIe nah genug herangezoomt haben, um das, was Sie eintragen sollen, auch wirklich sehen zu können - [das und vieles Andere von Bedeutung wird hier (auf Englisch) erklärt](/en/coordination/remote/)  
+2. Stellen Sie sicher, dass SIe nah genug herangezoomt haben, um das, was Sie eintragen sollen, auch wirklich sehen zu können - [das und vieles Andere von Bedeutung wird hier (auf Englisch) erklärt](/de/coordination/remote/)  
 
-3. Wenn Gebäude eingetragen werden sollen, sollte die Form in der Karte der des Gebäudes entsprechen. [Dieser Abschnitt in LearnOSM](/en/coordination/remote-tracing/) erklärt, wie man das erreicht und wie man Straßen richtig einträgt.  
+3. Wenn Gebäude eingetragen werden sollen, sollte die Form in der Karte der des Gebäudes entsprechen. [Dieser Abschnitt in LearnOSM](/de/coordination/remote-tracing/) erklärt, wie man das erreicht und wie man Straßen richtig einträgt.  
 
 Vielen Dank, dass Sie uns bis hierher gefolgt sind. Wir hoffen, Sie nehmen sich die Zeit, um sicherzustellen, dass Sie die wichtigen Daten richtig eintragen. Wir brauchen alle erdenkliche Hilfe und hoffen, dass Sie uns bei unserer Aufgabe unterstützen können.  
 

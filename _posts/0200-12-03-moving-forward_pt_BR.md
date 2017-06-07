@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Further Reading
-permalink: /pt-br/beginner/moving-forward/
-lang: pt-br
+permalink: /pt_BR/beginner/moving-forward/
+lang: pt_BR
 category: beginner
 ---
 
 Leitura adicional
 ===============
 
-> Este guia pode ser baixado como [beginner_moving-forward_pt-br.odt](/files/beginner_moving-forward_pt-br.odt) ou [beginner_moving-forward_pt-br.pdf](/files/beginner_moving-forward_pt-br.pdf)  
+> Este guia pode ser baixado como [beginner_moving-forward_pt_BR.odt](/files/beginner_moving-forward_pt_BR.odt) ou [beginner_moving-forward_pt_BR.pdf](/files/beginner_moving-forward_pt_BR.pdf)  
 > Revisado 2015-07-12  
 
 Se você chegou até aqui, parabéns! Você deve ter entendido bem agora como criar mapas com o OpenStreetMap. O que mais você pode fazer com o OSM? Como posso aprender mais? Como você pode ficar ligado à comunidade de mapeadores?  
@@ -17,9 +17,9 @@ Se você chegou até aqui, parabéns! Você deve ter entendido bem agora como cr
 Outras seções do learnOSM
 ---------------------------
 
-No final do capítulo sobre o iD editor, você ouviu falar sobre as diferenças entre iD e JOSM. Existe uma [seção inteira dedicada ao JOSM](/pt/josm/) onde você vai aprender todos os detalhes necessários para usufruir plenamente das capacidades que este editor tem para oferecer.  
+No final do capítulo sobre o iD editor, você ouviu falar sobre as diferenças entre iD e JOSM. Existe uma [seção inteira dedicada ao JOSM](/pt_BR/josm/) onde você vai aprender todos os detalhes necessários para usufruir plenamente das capacidades que este editor tem para oferecer.  
 
-Até agora, todas as edições que foram adicionadas ao mapa foram baseados em imagens de fundo. Mas você pode acumular uma riqueza de informações ao caminhar ou dirigir por aí. A [seção sobre mapeamento móvel](/pt/mobile-mapping/) explica como coletar informações com diferentes dispositivos com GPS ou usando impressões especialmente concebidos. Ele também analisa uma série de aplicações relacionadas com o OpenStreetMap para dispositivos móveis.  
+Até agora, todas as edições que foram adicionadas ao mapa foram baseados em imagens de fundo. Mas você pode acumular uma riqueza de informações ao caminhar ou dirigir por aí. A [seção sobre mapeamento móvel](/pt_BR/mobile-mapping/) explica como coletar informações com diferentes dispositivos com GPS ou usando impressões especialmente concebidos. Ele também analisa uma série de aplicações relacionadas com o OpenStreetMap para dispositivos móveis.  
 
 OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
 

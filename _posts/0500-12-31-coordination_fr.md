@@ -1,7 +1,7 @@
 ---
 layout: doc
 permalink: /fr/coordination/
-lang : fr
+lang: fr
 title: Coordination
 category: coordination
 cover: yes

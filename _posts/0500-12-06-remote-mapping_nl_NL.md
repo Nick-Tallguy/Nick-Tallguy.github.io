@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: HOT Remote Mapping  
-permalink: /nl/coordination/HOT-Remote-Response-Guide 
+permalink: /nl_NL/coordination/HOT-Remote-Response-Guide 
 lang: nl_NL
 category: coordination
 ---
@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
 
-> Deze handleiding kan worden gedownload als  remote-mapping_nl.odt](/files/remote-mapping_nl.odt) of [remote-mapping_nl.pdf](/files/remote-mapping_nl.pdf)  
+> Deze handleiding kan worden gedownload als  remote-mapping_nl_NL.odt](/files/remote-mapping_nl_NL.odt) of [remote-mapping_nl_NL.pdf](/files/remote-mapping_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015  
 
 Het Humanitaire OpenSteetMap Team (HOT) is een wereldwijde gemeenschap die werkt aan het toepassen van de principes van open source en open data op de humanitaire hulpsector voor hulp bij rampen en tijdens projecten die zich richten op economische ontwikkeling.   
@@ -29,13 +29,13 @@ Op basis van de zwaarte van de crisis, verzamelt HOT de benodigde middelen en de
 
 De [HOT Tasking Manager](http://tasks.hotosm.org/) is een open source tool ontworpen om grote projecten op te splitsen in kleinere taken die snel gedaan kunnen worden. Het laat zien welke gebieden in kaart moeten worden gebracht en welke gebieden door anderen gevalideerd moeten worden. Het bevat mapping taken voor [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), en langlopende [Humanitaire Projecten](http://hot.openstreetmap.org/projects).  
 
-Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer informatie kun je vinden in de [Tasking Manager Handleiding](http://learnosm.org/nl/coordination/tasking-manager/).  
+Om de Tasking Manager te gebruiken moet je inloggen met je OSM account. Meer informatie kun je vinden in de [Tasking Manager Handleiding](http://learnosm.org/nl_NL/coordination/tasking-manager/).  
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Bewerkingsprogramma's 
 
-[iD](http://learnosm.org/nl/beginner/id-editor/) - is de  web-gebaseerde editor gemaakt door  [Mapbox](www.mapbox.com) met een gebruiksvriendelijke interface. Over het algemeen gezien als de beste tool om mee te beginnen. Start de [interactieve iD editor handleiding](http://ideditor.com/) om te leren werken met deze editor.  
+[iD](http://learnosm.org/nl_NL/beginner/id-editor/) - is de  web-gebaseerde editor gemaakt door  [Mapbox](www.mapbox.com) met een gebruiksvriendelijke interface. Over het algemeen gezien als de beste tool om mee te beginnen. Start de [interactieve iD editor handleiding](http://ideditor.com/) om te leren werken met deze editor.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 

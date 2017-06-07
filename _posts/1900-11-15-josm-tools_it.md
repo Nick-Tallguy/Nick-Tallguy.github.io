@@ -15,14 +15,14 @@ Gli strumenti di JOSM
 All'inizio della  [guida all'uso di JOSM](/it/josm/start-josm/) abbiamo spiegato i passi fondamentali per disegnare,
 ma ci sono molti strumenti e tecniche non ancora spiegati.
 
-Here we will look at some of the basic tools and techniques available
-for drawing map features in JOSM, and in the following chapters we will
-look in more depth at advanced drawing tools.
+Qui vedremo alcuni strumenti e tecniche fondamentali 
+per disegnare oggetti in JOSM e nei capitoli seguenti
+illustreremo gli strumenti di disegno più avanzati.
 
 Scarica il file di esempio
 -------------------
 
--   If you'd like to follow along and practice using JOSM tools, download
+Se vuoi seguirci in questo esercizio usando gli strumenti di JOSM, scarica
     [tools_menu_sample.osm](/files/tools_menu_sample.osm).
 -   Avvia JOSM e carica il file. Dovrebbe presentarsi così:
 
@@ -115,7 +115,7 @@ some of the tools is provided below.
     regular shapes such as buildings. After you draw an area, this
     function will reshape it to have square corners.
 
-    ![Rendi ortogonale][]
+    ![Orthagonalize][]
 
 9.  Unglue way: This tool allows you to detach nodes that are
     connected. It is useful when two object share a node when they should
@@ -146,15 +146,15 @@ a lot of time in the long run.
 
 Here are other shortcut keys (in **bold**) which are some of the most important.
 
-1.  Activate the Select Tool - **S**
-2.  Activate the Draw Tool - **A**
+1.  Attivare il dispositivo di selezione - **S**
+2.  Attivare il dispositivo di disegno - **A**
 3.  Attivare il dispositivo di zoom - **Z**
 4.  Cancellare gli oggetti selezionati - **CANC** (oppure **DEL*)
 5.  Ingrandire - **+**
 6.  Rimpicciolire - **-**
 
 
-Scale and Rotate
+Scalare e ruotare
 ----------------
 
 A common question is how to rotate a line or shape after it has

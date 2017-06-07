@@ -3,7 +3,7 @@ layout: doc
 title: Trazado de caminos, edificios, cuerpos de agua y uso de suelo 
 permalink: /es/coordination/remote-tracing/
 lang: es
-categoría: coordinación
+category: coordination
 ---
 
 Trazando caminos, edificios, cuerpos de agua y uso del suelo

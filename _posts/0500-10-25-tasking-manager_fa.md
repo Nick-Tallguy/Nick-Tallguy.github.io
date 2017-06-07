@@ -16,7 +16,7 @@ category: coordination
 - [مروری بر چگونگی استفاده HOT از مدیریت وظایف](/fa/coordination/tasking-manager/#overview-of-the-process)  
 -  [Languages, Options, help links, and other links. Your user page - list of projects you have assisted in, and messages](/en/coordination/tasking-manager/#options-amp-links)  
 -  [Logging in](/en/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
--  [Finding a project](/en/coordination/tasking-manager/#locating-a-project)  
+-  [Finding a project](/fa/coordination/tasking-manager/#locating-a-project)  
 -  [Description, Map grid, Instructions, Contributing, Activity, Statistics for a project](/en/coordination/tasking-manager/#description)  
 -  [Selecting a square to map, timer, releasing](/en/coordination/tasking-manager/#selecting-a-square-to-map)  
 -  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/en/coordination/tasking-manager/#editing-choices)  

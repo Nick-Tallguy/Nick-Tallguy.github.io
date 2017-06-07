@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Humanitarian Mapping
-permalink: /en/coordination/humanitarian/
+permalink: /ca/coordination/humanitarian/
 lang: ca
 category: coordination
 ---

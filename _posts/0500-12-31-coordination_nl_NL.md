@@ -12,7 +12,7 @@ nosearch: true
 Coordinatie
 ============
 
-> Deze handleiding kan gedownload worden als [coordination_nl.odt](/files/coordination_nl.odt) or [coordination_nl.pdf](/files/coordination_nl.pdf)  
+> Deze handleiding kan gedownload worden als [coordination_n_NLl.odt](/files/coordination_nl_NL.odt) or [coordination_nl_NL.pdf](/files/coordination_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015
 
 Omdat er zoveel mensen aan OpenStreetMap bijdragen, is het

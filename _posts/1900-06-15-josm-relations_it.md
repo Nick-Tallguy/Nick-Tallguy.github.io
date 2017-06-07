@@ -1,40 +1,40 @@
 ---
 layout: doc
-title: Relaciones JOSM
+title: Relazioni in JOSM
 permalink: /en/josm/josm-relations/
-lang: en
+lang: it
 category: josm
 ---
 
-Relaciones
+Relazioni
 ==========
 
-> This guide may be downloaded as [josm_relations_en.odt](/files/josm_relations_en.odt) or [josm_relations_en.pdf](/files/josm_relations_en.pdf)  
-> Revisado 2015-09-20  
+> Questa guida può essere scaricata come [josm_relations_it.odt](/files/josm_relations_it.odt) oppure [josm_relations_it.pdf](/files/josm_relations_it.pdf)  
+> Revisionato il 2015-09-20  
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
+Nella [Guida per Principianti](/it/beginner) abbiamo spiegato che ci sono tre tipi di oggetti che possono essere disegnati in OpenStreetMap - punti (nodi), linee (way) e poligoni (aree). Le linee contengono numerosi punti e la linea stessa contiene gli attributi che definiscono cosa rappresenta.  I poligoni sono come le linee, con la differenza che la linea deve terminare dove è cominciata in modo da formare un'area.  
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap, called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points, lines, or polygons.  If you are looking to advance your editing skills, then understanding and knowing how to properly edit relations is important.  
+In realtà ti abbiamo mentito, perchè c'è un altro tipo di oggetto in OpenStreetMap, chiamato relazione. Nello stesso modo in cui una linea consiste di vari
+punti, una relazione contiene un gruppo di altri oggetti, siano essi punti, linee o poligoni.  Se stai cercando di migliorare le tue capacità di editing, allora è importante comprendere e conoscere come modificare le relazioni.  
 
-For example, imagine that you want to map a building that has courtyards in the center.  You would need to draw a polygon around the outside of the building, and you would want other polygons around the courtyards to indicate that they are not part of the building.  This is an example of a relation.  The relation would contain several polygons - and the attributes of the building would be attached to the relation, not the polygons.  
+Per esempio immagina di voler mappare un edificio che ha dei cortili al centro.  Dovresti disegnare un poligono intorno all'edificio e degli altri intorno ai cortili per far capire che questi non fanno parte dell'edificio.  Questo è un esempio di relazione.  La relazione conterrà diversi poligoni e gli attributi dell'edificio saranno inseriti nella relazione, non nei poligoni.  
 
 ![An example of a multipolygon][]
 
-Relations are used to represent anything that requires a collection of objects to define.  Other examples are bus routes (a collections of lines), long and complex objects (rivers or roads), or multiple polygons that are all part of one location (like buildings in a university).  
+Le relazioni sono utilizzate per rappresentare qualsiasi cosa che necessiti di un insieme di oggetti per essere definito.  Altri esempi sono i percorsi degli autobus (un insieme di way), oggetti lunghi e complessi (fiumi o strade) o vari poligoni che sono parte di un unico luogo (come un complesso universitario).  
 
-There are mainly four types of relations you will encounter in OSM: Multipolygons, Routes, Boundaries, and Restrictions (such as, no left turns).  In this section we will cover Multipolygons and Routes.  
+Ci sono principalmente quattro tipi di relazioni in OSM: Multipolygons, Routes, Boundaries, and Restrictions (ad esempio, vietata la svolta a sinistra). In questo paragrafo parleremo di Multipolygons e Routes.  
 
-Creating Multipolygon Relations
+Creare relazioni Multipolygon
 -------------------------------
 
-Let's see how to create a multipolygon relation like the one shown above.  
+Vediamo come creare una relazione multipolygon come quella mostrata sopra.  
 
-- First, draw your shapes. In this case we will draw three polygons, an outer rectangle, and two smaller rectangles.
+- Per prima cosa, disegna le aree. In questo esempio disegneremo tre poligoni: uno rettangolo esterno e due più piccoli.
 
 ![Multipolygon ways][]
 
-- Select all of the polygons. Remember you can select multiple objects by holding SHIFT and clicking on each.  
+- Seleziona tutti i poligoni. Ricordati che puoi selezionare più di un oggetto tenendo premuto il tasto SHIFT e cliccando su ognuno.  
 - Choose *Tools->Create multipolygon* from the menu.  
 - The tags window now contains the new multipolygon.
 
@@ -65,7 +65,7 @@ When you create a multipolygon like this it will be rendered on the map like so:
 
 Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
 
-Relaciones de Ruta
+Relazioni di tipo Route
 ----------------
 
 Relations are also very useful for representing long routes. For example, a bus or bicycle route follows various road segments. To define such a route, we can create a relation which contains all of the road segments that are part of the route. Additional features, such as bus stops can also be members of a route relation.  
@@ -90,7 +90,7 @@ Let's see how to create a relation for a bus route in JOSM:
 
 > If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
 
-Resumen
+Riassunto
 -------
 
 Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.

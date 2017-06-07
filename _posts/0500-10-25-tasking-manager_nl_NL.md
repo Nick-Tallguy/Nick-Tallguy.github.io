@@ -8,25 +8,25 @@ category: coordination
 
 # Tasking Manager
 
-> Deze handleiding kan gedownload worden als [tasking-manager_nl.odt](/files/tasking-manager_nl.odt) of [tasking-manager_nl.pdf](/files/tasking-manager_nl.pdf)  
+> Deze handleiding kan gedownload worden als [tasking-manager_nl_NL.odt](/files/tasking-manager_nl_NL.odt) of [tasking-manager_nl_NL.pdf](/files/tasking-manager_nl_NL.pdf)  
 > Bijgewerkt op 26-08-2015  
 
 Index
 -------------
--  [Inleiding over het gebruik van de Tasking Manager door HOT](/nl/coordination/tasking-manager/#overzicht-van-het-proces)  
--  [Talen, Opties, help links, en andere links. Je profiel - lijst van projecten waar je aan hebt bijgedragen en berichten](/nl/coordination/tasking-manager/#opties-amp-links)  
--  [Inloggen](/nl/coordination/tasking-manager/#starten-met-de-tasking-manager)  
--  [Het vinden van een project](/nl/coordination/tasking-manager/#een-project-zoeken)  
--  [Omschrijving, Map grid, Instructies, Bijdragen, Activiteit, Statistieken van een project](/nl/coordination/tasking-manager/#beshrijving)  
--  [Selecteer een gebied om in kaart te brengen, timer, vrijgeven](/nl/coordination/tasking-manager/#selecteer-een-tile-om-aan-te-werken)  
--  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/nl/coordination/tasking-manager/#editing-tools)  
--  [Een taak opsplitsen](/nl/coordination/tasking-manager/#een-taak-opsplitsen)  
--  [Een gebied vrijgeven voordat deze gereed is](/nl/coordination/tasking-manager/#een-taak-ontgrendelen-voordat-deze-gereed-is)  
--  [Markeer je gebied als gereed](/nl/coordination/tasking-manager/#een-tile-afronden)  
--  [Berichten Versturen](/nl/coordination/tasking-manager/#een-bericht-sturen-vanuit-de-comment-box)  
+-  [Inleiding over het gebruik van de Tasking Manager door HOT](/nl_NL/coordination/tasking-manager/#overzicht-van-het-proces)  
+-  [Talen, Opties, help links, en andere links. Je profiel - lijst van projecten waar je aan hebt bijgedragen en berichten](/nl_NL/coordination/tasking-manager/#opties-amp-links)  
+-  [Inloggen](/nl_NL/coordination/tasking-manager/#starten-met-de-tasking-manager)  
+-  [Het vinden van een project](/nl_NL/coordination/tasking-manager/#een-project-zoeken)  
+-  [Omschrijving, Map grid, Instructies, Bijdragen, Activiteit, Statistieken van een project](/nl_NL/coordination/tasking-manager/#beshrijving)  
+-  [Selecteer een gebied om in kaart te brengen, timer, vrijgeven](/nl_NL/coordination/tasking-manager/#selecteer-een-tile-om-aan-te-werken)  
+-  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/nl_NL/coordination/tasking-manager/#editing-tools)  
+-  [Een taak opsplitsen](/nl_NL/coordination/tasking-manager/#een-taak-opsplitsen)  
+-  [Een gebied vrijgeven voordat deze gereed is](/nl_NL/coordination/tasking-manager/#een-taak-ontgrendelen-voordat-deze-gereed-is)  
+-  [Markeer je gebied als gereed](/nl_NL/coordination/tasking-manager/#een-tile-afronden)  
+-  [Berichten Versturen](/nl_NL/coordination/tasking-manager/#een-bericht-sturen-vanuit-de-comment-box)  
 -  [Je gebied herkennin een een email of ander bericht](/nl_NL/coordination/tasking-manager/#verwijzen-naar-een-specifieke-tile-in-een-email)  
--  [Live Help - IRC, Internet Relay Chat](/nl/coordination/tasking-manager/#vraag-om-live-hulp)  
--  [Hints en Tips](/nl/coordination/tasking-manager/#editing-hints-en-tips)
+-  [Live Help - IRC, Internet Relay Chat](/nl_NL/coordination/tasking-manager/#vraag-om-live-hulp)  
+-  [Hints en Tips](/nl_NL/coordination/tasking-manager/#editing-hints-en-tips)
 
 
 De HOT Tasking Manager <http://tasks.hotosm.org/>, is een intuïtieve tool die mappers kunnen gebruiken om een gebied op te delen in een grid en zo op een georganiseerde manier kunnen samenwerken. Mappers van over de hele wereld kunnen zo helpen bij het in kaart brengen van een specifiek gebied met een minimaal risico op dubbel werk. Mensen in het veld en op afstand kunnen zo effectief en snel werken en voorkomen dat zaken opnieuw gedaan moeten worden ivm conflicten.  
@@ -183,7 +183,7 @@ De bewerker zal laden in een nieuw venster of tab. Potlach zal niet automatisch 
 
 ####Walking Papers / Field Papers  
 
-Gebruik deze optie alleen als je betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand & gebruikt als achtergrondafbeelding voor een mapper op afstand of ene lokale mapper om de informatie te lezen & de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/en/mobile-mapping/field-papers/).  
+Gebruik deze optie alleen als je betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand & gebruikt als achtergrondafbeelding voor een mapper op afstand of ene lokale mapper om de informatie te lezen & de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/nl_NL/mobile-mapping/field-papers/).  
 
 
 ###Een taak opsplitsen  

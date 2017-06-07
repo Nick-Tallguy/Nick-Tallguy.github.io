@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: ویرایش داده‌های میدانی
 permalink: /fa/josm/editing-with-josm/
 lang: fa

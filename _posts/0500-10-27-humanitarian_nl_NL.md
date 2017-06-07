@@ -2,7 +2,7 @@
 layout: doc
 title: Mapping voor Humanitaire Organisaties
 permalink: /nl_NL/coordination/humanitarian/
-lang: nl
+lang: nl_NL
 category: coordination
 ---
 
@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
-> Deze handleiding kan gedownload worden als [humanitarian_nl.odt](/files/humanitarian_nl.odt) or [humanitarian_nl.pdf](/files/humanitarian_nl.pdf)  
+> Deze handleiding kan gedownload worden als [humanitarian_nl_NL.odt](/files/humanitarian_nl_NL.odt) or [humanitarian_nl_NL.pdf](/files/humanitarian_nl_NL.pdf)  
 > Bijgewerkt 18-09-2015
 
 Dank voor het vrijwillig helpen van de lokale gemeenschappen en Hulporganisaties die reageren op deze crisis, door hun bijgewerkte kaarten te geven  
@@ -21,11 +21,11 @@ We werken constant onze software en handleidingen bij, maar dat kost tijd. De so
 
 Je hoeft niet deze hele site door te lezen voor je begint, maar begrijp wel de volgende basics:  
 
-1. Lees zorgvuldig de Task Manager Instructies voor elk project waar je aan wilt meehelpen. Deze kunnen verschillen, dus verzeker jezelf ervan dat je ze leest en begrijpt. Er is een volledige handleiding voor het gebruik van de [Tasking Manager hier binnen LearnOSM](/en/coordination/tasking-manager/) en bevat ook informatie hoe je live hulp kunt krijgen van een ervaren mapper.  
+1. Lees zorgvuldig de Task Manager Instructies voor elk project waar je aan wilt meehelpen. Deze kunnen verschillen, dus verzeker jezelf ervan dat je ze leest en begrijpt. Er is een volledige handleiding voor het gebruik van de [Tasking Manager hier binnen LearnOSM](/nl_NL/coordination/tasking-manager/) en bevat ook informatie hoe je live hulp kunt krijgen van een ervaren mapper.  
 
-2. Zorg ervoor dat je genoeg bent ingezoomd zodat je werkelijk kunt zien wat je gaat intekenen. - [dit en vele andere dingen worden hier uitgelegd.](/en/coordination/remote/)  
+2. Zorg ervoor dat je genoeg bent ingezoomd zodat je werkelijk kunt zien wat je gaat intekenen. - [dit en vele andere dingen worden hier uitgelegd.](/nl_NL/coordination/remote/)  
 
-3. Gebouwen moeten worden ingetekend en de vorm van de tekening moet de vorm van het gebouw volgen.  [Dit onderdeel van LearnOSM](/en/coordination/remote-tracing/) legt dit uit en laat zien hoe je wegen en wegennetwerken kunt maken.  
+3. Gebouwen moeten worden ingetekend en de vorm van de tekening moet de vorm van het gebouw volgen.  [Dit onderdeel van LearnOSM](/nl_NL/coordination/remote-tracing/) legt dit uit en laat zien hoe je wegen en wegennetwerken kunt maken.  
 
 Bedankt voor het lezen en we hopen dat je kort te tijd neemt om ervoor te zorgen dat je de belangrijke dingen goed doet. We kunnen alle hulp gebruiken en hopen dat je ons hiermee kunt helpen.  
 

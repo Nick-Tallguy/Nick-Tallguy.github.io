@@ -9,7 +9,7 @@ category: coordination
 Wegen, gebouwen, water en landgebruik traceren
 ===========================================
 
-> Deze handleiding kan worden gedownload als  [remote-tracing_nl.odt](/files/remote-tracing_nl.odt) of [remote-tracing_nl.pdf](/files/remote-tracing_nl.pdf)  
+> Deze handleiding kan worden gedownload als  [remote-tracing_nl_NL.odt](/files/remote-tracing_nl_NL.odt) of [remote-tracing_nl_NL.pdf](/files/remote-tracing_nl_NL.pdf)  
 > Bijgewerkt op 08-02-2016  
 
 Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/nl/coordination/remote/), wat u nodig zult hebben indien u geen ervaring heeft met het in kaart brengen voor HOT.  
@@ -18,10 +18,10 @@ Doorgaan vanaf het gedeelte [Remote, Armchair & Mapathon Section of LearnOSM](/n
 Index gedeelte
 =====
 
-[Wegen en hoofdwegen, inclusief paden & sporen](/nl/coordination/remote-tracing/#wegen)  
-[Het netwerk van wegen](/nl/coordination/remote-tracing/#het-netwerk-van-wegen)  
-[Grenzen residentieel landgebruik](/nl/coordination/remote-tracing/#grenzen-residentieel-landgebruik)  
-[Gebouwen, muren, hekwerken, nederzettingen en barrières](/nl/coordination/remote-tracing/#gebouwen-muren-nederzettingen-barrières)  
+[Wegen en hoofdwegen, inclusief paden & sporen](/nl_NL/coordination/remote-tracing/#wegen)  
+[Het netwerk van wegen](/nl_NL/coordination/remote-tracing/#het-netwerk-van-wegen)  
+[Grenzen residentieel landgebruik](/nl_NL/coordination/remote-tracing/#grenzen-residentieel-landgebruik)  
+[Gebouwen, muren, hekwerken, nederzettingen en barrières](/nl_NL/coordination/remote-tracing/#gebouwen-muren-nederzettingen-barrières)  
 
 
 ## Wegen

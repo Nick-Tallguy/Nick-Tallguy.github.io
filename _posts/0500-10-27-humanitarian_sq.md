@@ -1,16 +1,16 @@
 ---
 layout: doc
-title: Cartographie humanitaire
-permalink: /fr/coordination/humanitarian/
-lang: fr
+title: Humanitarian Mapping
+permalink: /sq/coordination/humanitarian/
+lang: sq
 category: coordination
 ---
 
-# Cartographie humanitaire
+# Humanitarian Mapping
 
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
-> Ce guide peut être téléchargé : [humanitarian_fr.odt](/files/humanitarian_fr.odt) ou [humanitarian_fr.pdf](/files/humanitarian_fr.pdf)  
+> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Reviewed 2015-09-18
 
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
