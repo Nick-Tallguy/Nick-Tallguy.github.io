@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Relazioni in JOSM
-permalink: /en/josm/josm-relations/
+permalink: /it/josm/josm-relations/
 lang: it
 category: josm
 ---
@@ -48,52 +48,52 @@ Vediamo come creare una relazione multipolygon come quella mostrata sopra.
 
 - Osserva che in cima al pannello ci sono i tag della relazione.  Questi tag funzionano allo stesso modo di tutti gli altri tag.  
 - In basso c'è una lista dei membri della relazione. Questa relazione ha tre membri - cioè tre aree sono parte della nostra relazione.  
-- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
-- Click in the tag box and add this tag.  
+- Nota chè c'è già un tag definito, *type=multipolygon*. Abbiamo bisogno di aggiungere uno o più tag che definiscano il tipo di oggetto che la relazione rappresenta. Dobbiamo aggiungere un tag che dica *building=yes*.  
+- Fai click nel riquadro dei tag e aggiungilo.  
 
 ![Building yes][]
 
-- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
+- I **ruoli** sono già stati assegnati alle aree. Ogni membro della relazione ha un ruolo, che ne indica lo scopo.  In questo caso, il ruolo del poligono esterno deve essere definito come **outer** e il ruolo dei due poligoni interni come **inner**. Questi sono i ruoli disponibili per i membri di una relazione multipolygon.  
 
-- Click OK and your multipolygon relation is complete!  
+- Fai click su OK e la tua realzione multipolygon è completa!  
 
 ![New multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:  
+Quando crei una relazione multipolygon come questa verrà disegnata sulla mappa così:  
 
 ![Multipolygon in Mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
+Le relazioni multipolygons possono essere usate per qualsiasi oggetto complesso che richiede poligoni interni ed esterni, come un edificio o un fiume con isole al suo interno. Informazioni dettagliate sulle relazioni multipoligono possono essere reperite sulla [Wiki di OSM](http://wiki.openstreetmap.org/wiki/IT:Relation:multipolygon).  
 
 Relazioni di tipo Route
 ----------------
 
-Relations are also very useful for representing long routes. For example, a bus or bicycle route follows various road segments. To define such a route, we can create a relation which contains all of the road segments that are part of the route. Additional features, such as bus stops can also be members of a route relation.  
+Le relazioni sono molto utili per rappresentare percorsi molto lunghi. Ad esempio, un percorso ciclistico o una linea di autobus coinvolgono diversi segmenti stradali.  Per definire questo percorso, possiamo creare una relazione che contiene tutti i segmenti di strada che sono parte del percorso. Caratteristiche addizionali, come ad esempio le fermate degli autobus, possono far parte della relazione.  
 
 ![Route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:  
+Vediamo come creare una relazione per una linea di autobus in JOSM:  
 
-- First, select all of the ways which the route runs along. You may need to split some streets into separate segments if only part of them belong to the relation. You can do this using the "Split Way" tool.  
-- When all the segments are selected, go to *Presets->Transport->Public Transport->Public transport route*.  
+- Per orima cosa , seleziona tutte le way utilizzate dal perscorso. Potresti dover suddividere alcune strade in segmenti separati se solo una parte di esse appartiene alla relazione.  Puoi farlo utilizzando lo strumento "Dividi percorso".  
+- Quando tutti i segmenti sono selezionati, vai a *Preimpostazioni->Trasporto->Trasporto pubblico (legacy)->Route per trasporto pubblico (legacy)*.  
 
 ![Public transport preset][]
 
-- Next to Route type, select "bus."  
-- Click "New Relation." You will see the relation window pop up, just as when you create a multipolygon.  
+- Vicino a "Tipo di itinerario, seleziona "autobus".  
+- Clicca su "Nuova relazione". Vedrai apparire la finestra della relazione, proprio come quando hai creato la relazione multipoligono.  
 
 ![Bus route relation][]
 
-- Notice that there are already tags which define the relation as a route. Instead of *type=multipolygon*, we have *type=route*. We also have a tag defining it as a bus route, as opposed to another type of route.  
-- You may now think, what should the **role** of the members be? Well, in the case of a route, we don't need to define the role of the members. By leaving the role blank the software knows that they are simply part of the route. We could also define the role of each segment as **route**, but it is not necessary.  
-- Click OK and your route relation will be complete!  
+- Nota che ci sono già dei tag che definiscono la relazione come un percorso. Al posto di *type=multipolygon*, vedrai *type=route*. Abbiamo anche dei tag che la definiscono come una linea di autobus oppure come un'altro tipo di percorso.  
+- Potresti chiederti quale dovrebbe essere il **ruolo** dei membri? Nel caso di un percorso non c'è bisogno di di definire i ruoli dei membri.  Lasciandoli bianchi, il software semplicemente sa che sono parte del percorso.  Potremmo definire il ruolo di ogni segmento come **route**, ma non è necessario.  
+- Clicca OK e la tua relazione route sarà completa!  
 
-> If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
+> Se vuoi un elenco di tutte le relazioni sulla mappa, puoi aprire il pannello relazioni cliccando questo bottone sulla sinistra: ![relation panel button][]{: height="30px"}.  Questo aprirà un pannello dove potrai selezionare, modificare e creare nuove relazioni.  
 
 Riassunto
 -------
 
-Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.
+Le relazioni possono essere difficili da comprendere e non sono usate spesso, ma devi conoscerne i concetti fondamentali.  Ogni tanto vedrai che avrai bisogno di una relazione per mappare correttamente un oggetto e potrai usare ciò che sai, trovando altre informazioni sulla Wiki di OSM, per creare correttamente delle relazioni.  
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png

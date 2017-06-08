@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: OSMTracker
-permalink: /nl/mobile-mapping/osmtracker/
-lang: nl
+permalink: /nl_NL/mobile-mapping/osmtracker/
+lang: nl_NL
 category: mobile-mapping
 ---
 
 OSMTracker
 ==============
 
-> Deze handleiding kan worden gedownload als [OSMTracker_nl.odt](/files/OSMTracker_nl.odt) of [OSMTracker_nl.pdf](/files/OSMTracker_nl.pdf)  
+> Deze handleiding kan worden gedownload als [OSMTracker_nl.odt](/files/OSMTracker_nl_NL.odt) of [OSMTracker_nl_NL.pdf](/files/OSMTracker_nl_NL.pdf)_NL  
 > Bijgewerkt op 08-02-2016
   
 **Dit artikel beschrijft OSMTracker voor Android - er is een soortgelijk product beschikbaar voor Windows mobile.**  

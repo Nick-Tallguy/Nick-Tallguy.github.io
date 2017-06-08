@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: JOSM plug-ins Building Tools & Utilsplugin2 
-permalink: /nl/josm/josm-more-plugins/
-lang: nl
+permalink: /nl_NL/josm/josm-more-plugins/
+lang: nl_NL
 category: josm
 ---
 
 JOSM plug-ins Buildings Tools & Utilsplugin2
 ============
 
-> Deze handleiding kan gedownload worden als [josm-more-plugins_nl.odt](/files/josm-more-plugins_nl.odt) of [josm-more-plugins_nl.pdf](/files/josm-more-plugins_nl.pdf)  
+> Deze handleiding kan gedownload worden als [josm-more-plugins_nl_NL.odt](/files/josm-more-plugins_nl_NL.odt) of [josm-more-plugins_nl_NL.pdf](/files/josm-more-plugins_nl_NL.pdf)  
 > Bijgewerkt 12-09-2016  
 
 De plug-ins **buildings_tools** en **utilsplugin2** voegen veel aanvullende functionaliteit toe aan JOSM. In dit gedeelte zullen we eens nader kijken naar de functies die zij verschaffen.  
@@ -17,7 +17,7 @@ De plug-ins **buildings_tools** en **utilsplugin2** voegen veel aanvullende func
 De plug-in Buildings Tools
 --------------------------
 
-Als u dat nog niet gedaan heeft, installeer dan deze plug-in volgens de instructies in [JOSM Plugins](/nl/josm/josm-plugins).  
+Als u dat nog niet gedaan heeft, installeer dan deze plug-in volgens de instructies in [JOSM Plugins](/nl_NL/josm/josm-plugins).  
 
 ![Buildings tools plugin][]
 

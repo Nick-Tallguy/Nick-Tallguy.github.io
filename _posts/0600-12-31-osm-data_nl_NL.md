@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /nl/osm-data/
-lang: nl
+permalink: /nl_NL/osm-data/
+lang: nl_NL
 title: Gegevens van OSM
 category: osm-data
 cover: yes

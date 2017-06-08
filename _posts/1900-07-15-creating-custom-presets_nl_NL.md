@@ -1,18 +1,18 @@
 ---
 layout: doc
 title: JOSM - Aangepaste voorkeuzen maken
-permalink: /nl/josm/creating-presets/
-lang: nl
+permalink: /nl_NL/josm/creating-presets/
+lang: nl_NL
 category: josm
 ---
 
 JOSM - Aangepaste voorkeuzen maken
 =======================
 
-> Deze handleiding kan gedownload worden als [creating-presets_nl.odt](/files/creating-presets_nl.odt) of [creating-presets_nl.pdf](/files/creating-presets_nl.pdf)  
+> Deze handleiding kan gedownload worden als [creating-presets_nl_NL.odt](/files/creating-presets_nl_NL.odt) of [creating-presets_nl_NL.pdf](/files/creating-presets_nl_NL.pdf)  
 > Bijgewerkt 20-09-2015  
 
-In het [vorige hoofdstuk](/nl/josm/josm-presets) hebben we gekeken hoe menu's voor aangepaste voorkeuzen kunnen worden toegevoegd aan JOSM. In dit hoofdstuk zullen we behandelen hoe u uw eigen bestanden voor aangepaste voorkeuzen maakt.  
+In het [vorige hoofdstuk](/nl_NL/josm/josm-presets) hebben we gekeken hoe menu's voor aangepaste voorkeuzen kunnen worden toegevoegd aan JOSM. In dit hoofdstuk zullen we behandelen hoe u uw eigen bestanden voor aangepaste voorkeuzen maakt.  
 
 WAARSCHUWING! Dit is een onderwerp voor gevorderden... u bent gewaarschuwd!  
 
@@ -59,7 +59,7 @@ JOSM bestanden voor voorkeuzen
 Laten we een voorbeeldbestand voor voorkeuzen aan JOSM toevoegen en analyseren hoe het werkt.  
 
 - Download het bestand [sample_presets.xml](/files/sample_presets.xml).  
-- Laad het dan in JOSM zoals beschreven in het [vorige hoofdstuk](/nl/josm/josm-presets).  
+- Laad het dan in JOSM zoals beschreven in het [vorige hoofdstuk](/nl_NL/josm/josm-presets).  
 - Maak een nieuwe laag en een nieuw object.  
 - Ga naar het menu Voorkeuzen. Daar zal ene nieuw item staan, genaamd "Sample Building." Klik er op.  
 

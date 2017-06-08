@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: TMS-, WMS- of WMTS-afbeeldingen toevoegen aan JOSM
-permalink: /nl/josm/josm-adding-imagery/
-lang: nl
+permalink: /nl_NL/josm/josm-adding-imagery/
+lang: nl_NL
 category: josm
 ---
 
 JOSM - Luchtfoto's toevoegen
 ================
 
-> Deze handleiding kan gedownload worden als [josm_adding_imagery_nl.odt](/files/josm_adding_imagery_nl.odt) of [josm_adding_imagery_nl.pdf](/files/josm_adding_imagery_nl.pdf)  
+> Deze handleiding kan gedownload worden als [josm_adding_imagery_nl_NL.odt](/files/josm_adding_imagery_nl_NL.odt) of [josm_adding_imagery_nl_NL.pdf](/files/josm_adding_imagery_nl_NL.pdf)  
 > Bijgewerkt 09-09-2016  
 
 Niet alle luchtfoto's/satellietbeelden staan in het menu Afbeeldingen van JOSM, maar het is eenvoudig toe te voegen als u de informatie voor de link weet.  

@@ -1,27 +1,27 @@
 ---
 layout: doc
-title: Imágenes Aéreas
-permalink: /es/josm/aerial-imagery/
-lang: es
+title: Aerial Imagery
+permalink: /ru/josm/aerial-imagery/
+lang: ru
 category: josm
 ---
 
-Imágenes Aéreas
+Aerial Imagery
 ================
 
 > This guide may be downloaded as [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) or [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
-> Revisado 2015-09-21  
+> Reviewed 2015-09-21  
 
 Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
 
-Acerca de Imágenes
+About Imagery
 -------------
 
 Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
 
 [In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
 
-Resolución
+Resolution
 ----------
 
 All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  

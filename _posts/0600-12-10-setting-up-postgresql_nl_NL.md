@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: PostgreSQL instellen
-permalink: /nl/osm-data/postgresql/
-lang: nl
+permalink: /nl_NL/osm-data/postgresql/
+lang: nl_NL
 category: osm-data
 ---
 
 PostgreSQL & PostGIS
 ====================
 
-> Deze handleiding kan worden gedownload als [PostgreSQL_nl.odt](/files/PostgreSQL_nl.odt) of [PostgreSQL_nl.pdf](/files/PostgreSQL_nl.pdf)  
+> Deze handleiding kan worden gedownload als [PostgreSQL_nl_NL.odt](/files/PostgreSQL_nl_NL.odt) of [PostgreSQL_nl_NL.pdf](/files/PostgreSQL_nl_NL.pdf)  
 > Bijgewerkt 10-09-2016
 
 In dit hoofdstuk zullen we laten zien hoe PostgreSQL in te stellen op Windows en hoe een database te maken waarin u geografische gegevens kunt opslaan. We zullen in dit hoofdstuk de open source GIS software QGIS gebruiken, dus het zou nuttig zijn als u daar al bekend mee bent. In het volgende hoofdstuk zullen we zien hoe gegevens van OpenStreetMap in een database van PostgreSQL te importeren.  

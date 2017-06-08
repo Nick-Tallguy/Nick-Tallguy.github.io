@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /nl/mobile-mapping/
-lang: nl
+permalink: /nl_NL/mobile-mapping/
+lang: nl_NL
 title: In kaart brengen met een smartphone, GPS of op papier
 category: mobile-mapping
 cover: yes
@@ -11,7 +11,7 @@ nosearch: true
 In kaart brengen met een smartphone, GPS of op papier
 =============================
 
-> Deze handleiding kan worden gedownload als [mobile-mapping_nl.odt](/files/mobile-mapping_nl.odt) of [mobile-mapping_nl.pdf](/files/mobile-mapping_nl.pdf)  
+> Deze handleiding kan worden gedownload als [mobile-mapping_nl_NL.odt](/files/mobile-mapping_nl_NL.odt) of [mobile-mapping_nl_NL.pdf](/files/mobile-mapping_nl_NL.pdf)  
 > Bijgewerkt op 14-07-2015  
 
 U zou een onderzoek in het veld moeten doen in het gebied dat u bijwerkt om echt een gedetailleerde & nauwkeurige kaart te maken. De handleidingen in dit gedeelte behandelen het uitvoeren van een veldonderzoek met behulp van ofwel een;  

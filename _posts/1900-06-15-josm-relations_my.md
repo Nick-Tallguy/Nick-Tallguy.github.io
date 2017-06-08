@@ -12,7 +12,7 @@ category: josm
 > ဤလမ်းညွှန်ချက်ကို [josm_relations_my.odt](/files/josm_relations_my.odt) (သို့မဟုတ်) [josm_relations_my.pdf](/files/josm_relations_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-09-20  
 
-OpenStreetMap တွင်မြေပုံရေးဆွဲရာ၌ အမှတ်(nodes)၊ မျဉ်းကြောင်းများ(lines) နှင့် ဗဟုဂံပုံ(closed ways) ဟူသောအမျိုးအစား ၃ မျိုးအကြောင်းကို [စတင်အသုံးပြုသူအတွက် လမ်းညွှန်](/my/beginner) အပိုင်းတွင်ရှင်းလင်းခဲ့ပြီးဖြစ်သည်။ မျဉ်းကြောင်းများတွင် အမှတ်များလည်းပါဝင်ပြီး ကိုယ်စားပြုဖော်ပြချက်များလည်းသတ်မှတ်ထားနိုင်သည်။ ဗဟုဂံပုံများသည် မျဉ်းကြောင်းများပင်ဖြစ်ပြီး အစမှတ်နှင့်အဆုံးမှတ် တစ်ထပ်တည်းကျနေသောမျဉ်းကြောင်းက ပုံသဏ္ဍာန်တစ်ခုအဖြစ် ပုံဖော်ပေးထားသည်။  
+In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
 
 ထို့အပြင် Relations ဟုခေါ်သော အမျိုးအစားတစ်ခုကိုလည်း OpenStreetMap မြေပုံများတွင် တွေ့မြင်နိုင်သည်။ မျဉ်းကြောင်းများအပေါ်တွင် အမှတ်များပါလေ့ရှိသကဲ့သို့ 
 Relation တစ်ခုတွင်လည်း အမှတ်၊မျဉ်းကြောင်းနှင့် ဗဟုဂံပုံစသည့် အစုအဝေးများပါဝင်နိုင်ပါသည်။ မြေပုံရေးဆွဲမှုစွမ်းရည် တိုးတက်လိုပါက relations များကို ပြုပြင်တည်းဖြတ်ခြင်းကိုလည်း နားလည်သိရှိရန်လိုအပ်သည်။  

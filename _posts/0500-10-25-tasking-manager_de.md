@@ -281,10 +281,10 @@ Beachten Sie deshalb bitte diese allgemeinen Hinweise:
 [Tasking Manager Username_list]: /images/de/coordination/tasking_manager/tasking_manager_image02.png
 [Authorizing access to OSM account by the Tasking Manager]: /images/de/coordination/tasking_manager/tasking_manager_image03.png
 [Job description]: /images/de/coordination/tasking_manager/tasking_manager_image04.png
-[Picking a task]: /images/de/coordination/tasking_manager/tasking_manager_image05.png
-[Assigned task square]: /images/de/coordination/tasking_manager/tasking_manager_image06.png
-[Editing options]: /images/de/coordination/tasking_manager/tasking_manager_image07.png
-[IRC_help]: /images/en/coordination/tasking_manager/tasking_manager_image08.png
-[IRC using]: /images/coordination/tasking_manager/tasking_manager_image09.png
-[Tasking Manager About]: /images/de/coordination/tasking_manager/tasking_manager_image011.png
-[Tasking Manager Languages]: /images/en/coordination/tasking_manager/tasking_manager_image012.png
+[Picking a task]: /images/coordination/tasking_manager_image05.png
+[Assigned task square]: /images/coordination/tasking_manager_image06.png
+[Editing options]: /images/coordination/tasking_manager_image07.png
+[IRC_help]: /images/coordination/tasking_manager_image08.png
+[IRC using]: /images/coordination/tasking_manager_image09.png
+[Tasking Manager About]: /images/coordination/tasking_manager_image011.png
+[Tasking Manager Languages]: /images/coordination/tasking_manager_image012.png

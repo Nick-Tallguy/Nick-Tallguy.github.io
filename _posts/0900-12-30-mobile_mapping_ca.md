@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /cs/mobile-mapping/
-lang: cs
+permalink: /ca/mobile-mapping/
+lang: ca
 title: Mapping with a SmartPhone, GPS or Paper
 category: mobile-mapping
 cover: yes

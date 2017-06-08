@@ -20,7 +20,7 @@ Inhaltsverzeichnis
 
 [Straßen einschließlich Pfade und Fahrwege](/de/coordination/remote-tracing/#roads)  
 [Das Straßennetz](/de/coordination/remote-tracing/#the-highway-network)  
-[Grenzen von Siedlungsgebieten}((de(coordination/remote-tracing/#residential-boundaries)  
+[Grenzen von Siedlungsgebieten](/de/coordination/remote-tracing/#residential-boundaries)  
 [Gebäude, Mauern, Zäune und Begrenzungen](/de/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 

@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: GPSLogger voor Android
-permalink: /nl/mobile-mapping/gpslogger/
-lang: nl
+permalink: /nl_NL/mobile-mapping/gpslogger/
+lang: nl_NL
 category: mobile-mapping
 ---
 
 GPSLogger voor Android
 =====================
 
-> Deze handleiding kan worden gedownload als [gpslogger_nl.odt](/files/gpslogger_nl.odt) of [gpslogger_nl.pdf](/files/gpslogger_nl.pdf)  
+> Deze handleiding kan worden gedownload als [gpslogger_nl_NL.odt](/files/gpslogger_nl_NL.odt) of [gpslogger_nl_NL.pdf](/files/gpslogger_nl_NL.pdf)  
 > Bijgewerkt 06-12-2015  
 
 ![GPSLogger][]

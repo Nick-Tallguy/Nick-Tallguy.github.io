@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Luchtfoto's
-permalink: /nl/josm/aerial-imagery/
-lang: nl
+permalink: /nl_NL/josm/aerial-imagery/
+lang: nl_NL
 category: josm
 ---
 
 Luchtfoto's
 ================
 
-> Deze handleiding kan gedownload worden als [aerial-imagery_nl.odt](/files/aerial-imagery_nl.odt) of [aerial-imagery_nl.pdf](/files/aerial-imagery_nl.pdf)  
+> Deze handleiding kan gedownload worden als [aerial-imagery_nl_NL.odt](/files/aerial-imagery_nl_NL.odt) of [aerial-imagery_nl_NL.pdf](/files/aerial-imagery_nl_NL.pdf)  
 > Bijgewerkt 21-09-2015  
 
 Traceren vanaf afbeeldingen is een gemakkelijke en krachtige manier om bij te dragen aan OSM. Gebruiken van afbeeldingen om punten, lijnen en vormen op de grond te tekenen wordt **digitaliseren** genoemd. Het kan vaak worden onderscheiden van het verzamelen van gegevens van attributen op de grond, wat vaak **op de grond waarnemen** wordt genoemd. Digitaliseren van afbeeldingen kan de ruggengraat van kaarten voor OSM vormen, wat het waarnemen op de grond gemakkelijker kan maken voor mensen in het veld. In dit hoofdstuk zullen we iets meer leren over hoe luchtfoto's werken.  
@@ -19,7 +19,7 @@ Over luchtfoto's
 
 Luchtfoto's is de term die we gebruiken om foto's te beschrijven die vanuit de lucht zijn gemaakt. Zij kunnen zijn genomen vanuit vliegtuigen, drones, helikopters, of zelfs vliegers en ballonnen, maar de meest voorkomende bron van afbeeldingen komt van satellieten in een baan om de aarde.  
 
-[In het hoofdstuk over GPS](/nl/mobile-mapping/using-gps) leerden we over de dozijnen satellieten in een baan om de aarde die onze GPS-ontvangers in staat stellen onze lente- en breedtegraad te identificeren. In aanvulling op deze GPS-satellieten, zijn er ook satellieten die foto's nemen van de aarde. Deze foto's worden dan bewerkt zodat zij kunnen worden gebruikt in software voor GIS (in kaart brengen). Bing Aerial Imagery bestaat uit satellietfoto's.  
+[In het hoofdstuk over GPS](/nl_NL/mobile-mapping/using-gps) leerden we over de dozijnen satellieten in een baan om de aarde die onze GPS-ontvangers in staat stellen onze lente- en breedtegraad te identificeren. In aanvulling op deze GPS-satellieten, zijn er ook satellieten die foto's nemen van de aarde. Deze foto's worden dan bewerkt zodat zij kunnen worden gebruikt in software voor GIS (in kaart brengen). Bing Aerial Imagery bestaat uit satellietfoto's.  
 
 Resolutie
 ----------

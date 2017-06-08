@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Plug-ins voor JOSM
-permalink: /nl/josm/josm-plugins/
-lang: nl
+permalink: /nl_NL/josm/josm-plugins/
+lang: nl_NL
 category: josm
 ---
 
 Plug-ins voor JOSM
 ============
 
-> Deze handleiding kan gedownload worden als [josm-plugins_nl.odt](/files/josm-plugins_nl.odt) of [josm-plugins_nl.pdf](/files/josm-plugins_nl.pdf)  
+> Deze handleiding kan gedownload worden als [josm-plugins_nl_NL.odt](/files/josm-plugins_nl_NL.odt) of [josm-plugins_nl_NL.pdf](/files/josm-plugins_nl_NL.pdf)  
 > Bijgewerkt op 14-07-2015  
 
 Wanneer u meer gevorderd raakt in uw bewerkingstechnieken, wilt u misschien aanvullende mogelijkheden voor JOSM gebruiken om uw vaardigheden voor het in kaart brengen te verbeteren. JOSM stelt u in staat vele plug-ins te installeren, die extra functionaliteiten aan de software toevoegen.  

@@ -1,5 +1,5 @@
 ---
-Layout: doc
+layout: doc
 title: Daten manipulieren mit Osmosis
 permalink: /de/osm-data/osmosis/
 lang: de

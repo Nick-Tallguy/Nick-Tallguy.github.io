@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Gegevens van OSM - Een overzicht
-permalink: /nl/osm-data/data-overview/
-lang: nl
+permalink: /nl_NL/osm-data/data-overview/
+lang: nl_NL
 category: osm-data
 ---
 
@@ -10,7 +10,7 @@ Gegevens van OSM: Een overzicht
 ==================
 
 
-> Deze handleiding kan worden gedownload als [OSM_Data_Overview_nl.odt](/files/OSM_Data_Overview_nl.odt) of [OSM_Data_Overview_nl.pdf](/files/OSM_Data_Overview_nl.pdf)  
+> Deze handleiding kan worden gedownload als [OSM_Data_Overview_nl_NL.odt](/files/OSM_Data_Overview_nl_NL.odt) of [OSM_Data_Overview_nl_NL.pdf](/files/OSM_Data_Overview_nl_NL.pdf)  
 > Bijgewerkt 05-09-2016
 
 <!--In dit gedeelte zullen we functies van OpenStreetMap bekijken, die ons beter laten begrijpen hoe de gegevens zijn gestructureerd, en hoe we ze het best kunnen gebruiken.-->

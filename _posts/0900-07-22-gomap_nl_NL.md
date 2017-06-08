@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Go Map!!
-permalink: /nl/mobile-mapping/gomap/
-lang: nl
+permalink: /nl_NL/mobile-mapping/gomap/
+lang: nl_NL
 category: mobile-mapping
 --- 
 
@@ -11,7 +11,7 @@ category: mobile-mapping
 Go Map!!
 ===================
 
-> Deze handleiding kan gedownload worden als [gomap_nl.odt](/files/gomap_nl.odt) of [gomap_nl.pdf](/files/gomap_nl.pdf)  
+> Deze handleiding kan gedownload worden als [gomap_nl_NL.odt](/files/gomap_nl_NL.odt) of [gomap_nl_NL.pdf](/files/gomap_nl_NL.pdf)  
 > Bijgewerkt op 10-08-2016  
 
 Go Map!! is een toepassing voor iOS die u informatie in OpenStreetMap laat maken en bewerken.

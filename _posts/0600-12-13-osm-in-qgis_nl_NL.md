@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: Gegevens van OSM gebruiken in QGIS
-permalink: /nl/osm-data/osm-in-qgis/
-lang: nl
+permalink: /nl_NL/osm-data/osm-in-qgis/
+lang: nl_NL
 category: osm-data
 ---
 
 Gegevens van OSM gebruiken in QGIS
 =================
 
-> Deze handleiding kan gedownload worden als [Using_OSM_data_in_QGIS_nl.odt](/files/Using_OSM_data_in_QGIS_nl.odt) of [Using_OSM_data_in_QGIS_nl.pdf](/files/Using_OSM_data_in_QGIS_nl.pdf)  
+> Deze handleiding kan gedownload worden als [Using_OSM_data_in_QGIS_nl_NL.odt](/files/Using_OSM_data_in_QGIS_nl_NL.odt) of [Using_OSM_data_in_QGIS_nl_NL.pdf](/files/Using_OSM_data_in_QGIS_nl_NL.pdf)  
 > Bijgewerkt op 19-07-2015
 
 QGIS (eerder Quantum GIS) is een open-source, platformonafhankelijk Geografisch Informatie Systeem met vele mogelijkheden. Met QGIS kunt u toegang verkrijgen tot up-to-date gegevens van OSM wanneer u maar wilt, de tags selecteren die u wilt opnemen, en ze eenvoudig exporteren naar een gemakkelijk te gebruiken database voor SQLite of shapefile.  
@@ -22,7 +22,7 @@ Toegang tot gegevens van OpenStreetMap
 ---------------------------
 
 Het eerste wat we zullen doen is het ophalen van enkele bijgewerkte gegeven van OSM. We kunnen dat op meerdere manieren doen. Natuurlijk is het bevragen van gegevens van de server van OSM, zoals we dat doen in de bewerker JOSM, beperkt zodat we niet in één keer een zeer grote hoeveelheid ruwe gegevens kunnen ophalen - er zijn echter manieren om grotere gegevenssets op te halen, zoals
-beschreven in de eerdere hoofdstukken over [Getting OSM Data](/nl/osm-data/getting-data) en [Using Geofabrik and HOT Export](/nl/osm-data/geofabrik-and-hot-export).  
+beschreven in de eerdere hoofdstukken over [Getting OSM Data](/nl_NL/osm-data/getting-data) en [Using Geofabrik and HOT Export](/nl_NL/osm-data/geofabrik-and-hot-export).  
 
 Voor deze handleiding zullen we de ingebouwde functie voor downloaden in in QGIS gebruiken.  
 

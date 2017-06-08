@@ -246,8 +246,8 @@ JOSM 已經被翻譯成多種語言，
 
 ## 移除範例圖層
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features. 
+一旦你熟悉這些基本的編輯技巧，
+你也許想要繪製地圖上真正的圖徵。 
 
 *It is very important that you first remove the layer with the sample data. 
 These data are fictitious and must not be uploaded to the OpenStreetMap 

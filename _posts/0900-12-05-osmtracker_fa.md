@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: OSMTracker
 permalink: /fa/mobile-mapping/osmtracker/
 lang: fa

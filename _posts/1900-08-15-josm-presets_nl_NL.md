@@ -1,15 +1,15 @@
 ---
 layout: doc
 title: JOSM voorkeuzen
-permalink: /nl/josm/josm-presets/
-lang: nl
+permalink: /nl_NL/josm/josm-presets/
+lang: nl_NL
 category: josm
 ---
 
 JOSM voorkeuzen
 ============
 
-> Deze handleiding kan gedownload worden als [josm-presets_nl.odt](/files/josm-presets_nl.odt) of [josm-presets_nl.pdf](/files/josm-presets_nl.pdf)  
+> Deze handleiding kan gedownload worden als [josm-presets_nl_NL.odt](/files/josm-presets_nl_NL.odt) of [josm-presets_nl_NL.pdf](/files/josm-presets_nl_NL.pdf)  
 > Bijgewerkt 17-09-2016  
 
 Als u JOSM al langere tijd gebruikt, zult u nu wel weten waar tags en voorkeuzen over gaan. Elk object wordt gedefinieerd door twee dingen - ten eerste: zijn geometrie (of het een punt, lijn of vorm is en de locatie ervan), en ten tweede: zijn attributen in de vorm van tags.  
@@ -18,7 +18,7 @@ Wanneer u een object tekent en selecteert uit het menu Voorkeuzen, worden de jui
 
 Als u graag voorkeuzen gebruikt, wat gebeurt er dan als u tags wilt toevoegen die niet in het menu zijn opgenomen, of wanneer u uw eigen tags wilt aanpassen?  
 
-In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl/editing/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
+In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl_NL/editing/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
 
 
 Voorkeuzen toevoegen

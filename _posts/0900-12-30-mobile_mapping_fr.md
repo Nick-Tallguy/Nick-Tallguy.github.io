@@ -1,7 +1,7 @@
 ---
 layout: doc
 permalink: /fr/mobile-mapping/
-lang : fr
+lang: fr
 title: Cartographier à l'aide d'un smartphone, un GPS ou du papier
 category: mobile-mapping
 cover: yes
