@@ -75,11 +75,16 @@ Relaties zijn ook erg nuttig voor het weergeven van lange routes. Een bus- of fi
 Laten we eens kijken hoe we een relatie voor een busroute maken in JOSM:  
 
 - Selecteer eerst alle wegen waar de route overheen voert. U moet misschien enkele straten splitsen in afzonderlijke segmenten als slechts een gedeelte ervan tot de relatie behoort. U kunt dit doen met behulp van het gereedschap "Weg splitseb".  
-- Wanneer alle segmenten zijn geselecteerd, ga naar *Voorkeuzen->Vervoer->Openbaar vervoer->Route openbaar vervoer (Bus)*.  
+- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
 
 ![Public transport preset][]
 
-- Selecteer "bus", naast het type Route.  
+- A new window pops up where you can enter information which applies to the route as a whole.
+
+![New route relation][]
+
+It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+
 - Klik op "Nieuwe relatie." U zult het venster Relatie tevoorschijn zien komen, net zoals wanneer u een multipolygoon maakt.  
 
 ![Bus route relation][]
@@ -105,6 +110,7 @@ Relaties kunnen moeilijk te begrijpen zijn en hoeven niet vaak gebruikt te worde
 [New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
+[New route relation]: /images/josm/new-route-relation.png
 [Route relation]: /images/josm/route-relation.png
 [Public transport preset]: /images/josm/public-transport-preset.png
 [Bus route relation]: /images/josm/bus-route-relation.png

@@ -1,6 +1,6 @@
 ---
 layout: doc-rtl
-title: ابزارهای JOSM 
+title: JOSM Editing Tools
 permalink: /fa/josm/josm-tools/
 lang: fa
 category: josm
@@ -10,138 +10,114 @@ category: josm
 ==================
 
 > این راهنما را میتوان به صورت [josm_josm-tools_fa.odt](/files/josm_josm-tools_fa.odt) و یا [josm_josm-tools_fa.pdf](/files/josm_josm-tools_fa.pdf) دانلود کرد.  
-> تاریخ بازبینی ۱۳۹۴/۰۴/۲۳  
+> Reviewed 2017-06-09  
 
-در [راهنمای شروع به کار با JOSM](/fa/josm/start-josm/) ما اصول پایه رسم با 
-JOSM را یاد دادیم اما ابزارها و تکنیکهای بسیار زیادی وجود دارد که که هنوز نگفته‌ایم. 
+- TOC
+{:toc}
 
-در اینجا نگاهی به برخی از ابزارها و تکنیکهای اولیه موجود جهت 
-افزودن خصیصه‌های نقشه در JOSM می‌اندازیم و در بخشهای بعدی 
-نگاه جزئی‌تری به ابزارهای ترسیم پیشرفته می‌کنیم. 
+In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+
+Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
 
 گرفتن فایل ساده
 -------------------
 
-اگر مایلید با ما همرا باشید و با JOSM تمرین کنید فایل ذیل را دانلود کنید
-    [tools_menu_sample.osm](/files/tools_menu_sample.osm).
-JOSM را راه‌اندازی کنید و فایل را باز کنید. چیزی شبیه به این را می‌بینید:
+- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
 
 ![tools_menu_sample.osm][]
 
 ابزارهای ترسیم
 -------------
 
-اگر بر روی منوی "Tools" بالای JOSM کلیک کنید، می‌بینید که 
-عملکردهای متعددی وجود دارند که به شما در ترسیم خطوط و شکل‌ها و نیز 
-ویرایش اشیاء نقشه کمک می‌کنند. 
+If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
 
-JOSM ابزارهای بیشتری هم برای رسم آسانتر 
-خطوط و شکل‌ها دارد. این ابزارها در منوی "Tools" 
-بالای JOSM پیدا می‌شوند.
+JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
 
 ![منوی ابزارها][Tools menu]
 
-برای بکارگیری کارکردهای این منو، بایست ابتدا
-یک نقطه، خط یا شکل را در درون پنجره نقشه انتخاب کنید. فایل نمونه 
-حاوی المان‌های مختلف است که نام آنها بر اساس ابزارهای مختلف منو نامگذاری شده است.
+In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
 
-یکی از المان‌های فایل را انتخاب کنید. سپس به منوی Tools رفته 
-    و بر روی عملکردی که همنام با المان 
-    انتخاب شده است کلیک کنید.
-برای مثال، بر روی دایره‌ای که به شکل بدی ترسیم شده کلیک کنید تا انتخاب شود.
+### Aligning nodes in a circle  
+
+- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
 
 ![Align nodes in circle][]
 
-سپس به منوی Align Nodes in Circle<-Tools بروید.
-آن شکل تبدیل به یک دایره کاملاً منظم می‌شود.
+- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
 
-با همه ابزارهایی که در این فایل قرار دارد کار کنید.  در ذیل برای برخی از 
-ابزارها توضیح مختصری داده شده است.
+Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
 
-۱- **Split Way:** به شما اجازه می‌دهد تا یک خط را به دو خط جداگانه تقسیم کنید.
-    اینکار برای زمانی که قصد دارید خصوصیات متفاوتی 
-    به هر قطعه از جاده مثلاْ یک پل بدهید، مفید خواهد بود. برای اینکار، نقطه‌ای را 
-    وسط یک خط انتخاب کنید، Split Way را 
-    از منوی Tools انتخاب کنید، خط شما از محل آن نقطه به دو قسمت می‌شود.
+### Split Way  
 
-۲- **Combine Way:** این ابزار برعکس Split Way است. برای چسباندن
-    چند خط به هم و ایجاد یک خط، آن خطوط بایستی نقطه مشترک با هم داشته باشند. برای اینکار، 
-    دو خطی زا که می‌خواهید با هم یکی شوند را انتخاب کنید. می‌توانید
-    با نگه داشتن کلید شیفت و 
-    کلیک بر روی هر خط، بیش از یک خط را انتخاب کنید. وقتی هردو خط را انتخاب کردید، 
-    Combine Way را از منوی Tools انتخاب کنید.
+This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
 
-    ![Combine way][]
 
-    اگر دو خط را که دارای جهت‌های متفاوتی هستند را انتخاب کنید، این
-    هشدار را خواهید دید:
+### Combine Way
 
-    ![Reverse and combine][]
+This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
 
-    اگر هر دو راه به هم چسبیده‌اند و جهتهای متفاوتی دارند، مورد 
-    "Reverse and Continue" را انتخاب کنید.
+![Combine way][]
 
-۳- **Reverse Way:** این مورد جهت خط را برعکس می‌کند. در OSM 
-    همه خطوط دارای جهت هستند که در JOSM به صورت پیکانهایی روی خط نشان داده می‌شود. 
-    معمولاً جهت خط اهمیتی ندارد، بجز در راههای یکطرفه و 
-    رودخانه‌ها که در آنها جهت جریان آب را نشان داده می‌شود. در این موارد 
-    بایستی جهت را اصلاح کنید.
 
-    ![Way direction][]
+### Reverse and Combine  
 
-۴- **Simplify Way:** اگر یک خط دارای نقطه‌های خیلی زیاد باشد و بخواهید آنرا 
-    ساده‌تر کنید، این ابزار برخی از نقطه‌ها را از خط حذف می‌کند.
+If you are combining roads that have different directions, you might get this warning:
 
-    ![Simplify way][]
+![Reverse and combine][]
 
-۵- **Align Nodes in Circle:** اگر می‌خواهید یک 
-    شکل دابره‌ای درست کنید، آنرا تا هرجا که می‌توانید ترسیم کنید و سپس این را انتخاب کنید. 
-    این ابزار همه آن نقاط را به شکل یک دایره کاملاً منظم مرتب می‌کند.
+If the roads are connected and go in the same direction, then choose "Reverse and Continue."
 
-۶- **Create Circle:** همچنین می‌توانید از این ابزار استفاده کنید که یک 
-    دایره کامل درست می‌کند. یک خط را به قطر آن دایره بکشید 
-    و سپس این ابزار را انتخاب کنید.
 
-    ![Create circle][]
+### Reverse Way
 
-۷- **Align Nodes in Line:** این عملکرد یک سری از نقاط را در یک 
-    راستای مستقیم منظم می‌کند. در مورد خطوط خیلی طولانی 
-    بهتر است قسمتهایی از خط انتخاب شود تا خط راست شود. مراقب باشید 
-    با انجام این کار خط کمی متمایل به یکطرف خواهد شد.
+This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
 
-    ![Align nodes in line][]
+![Way direction][]
 
-۸- Orthogonalize Shape: این عملکرد برای ترسیم 
-    شکلهای بسیار منظم نظیر ساختمانها بسیار کاربردی است. بعد از اینکه یک محوطه را کشیدید، این 
-    ابزار آنرا منظم کرده و همه گوشه‌ها قائمه می‌شود.
+### Simplify Way
 
-    ![Orthagonalize][]
+If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
 
-۹- Unglue way: این ابزار نقطه‌هایی را که 
-    به هم چسبیده‌اند از هم جدا می‌کند. اینکار وقتی که دو شیء دارای نقطه مشترک هستند 
-    و بایستی از هم جدا شوند کاربرد دارد. مثلاً، یک اشتباه رایج که اغلب اتفاق می‌افتد چسبیدن یک نقطه 
-    از راهها به ساختمانهای نزدیک جاده است. پر واضح است که کمتر جاده‌ای به یک ساختمان 
-    منتهی میشود. برای رفع این اشکال می‌توان ازین ابزار استفاده کرد تا اشیاء را 
-    از هم جدا کرد.
+![Simplify way][]
 
-    ![Unglue way][]
 
-    > خط و نقطه تا وقتی که آنها را جابجا نکنید، جدا از هم به نظر نمیرسند.
+### Create a Circle
+
+Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+
+![Create circle][]
+
+
+### Align Nodes in Line
+
+This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+
+![Align nodes in line][]
+
+### Orthogonalize Shape
+
+This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+
+![Orthagonalize][]
+
+
+### Unglue way
+
+This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+
+![Unglue way][]
+
+*The line and node will not actually appear separate until you move them.*
 
 میانبرهای صفحه کلید
 ------------------
 
-به محض شروع به ویرایش می‌فهمید که مدت زمان زیادی صرف کلیک 
-بر روی منوها و زیرمنوها می‌کنید. JOSM برای فائق آمدن به این موضوع، 
-برای هر چیزی کلید میانبر دارد.
+Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
 
-این بدین معنی است که به عوض فرآیند کلیک بر روی یک شی و رفتن به 
-داخل منوهای عریض و طویل، به راحتی می‌توانید شی را انتخاب و کلید میانبر آنرا بزنید.
+This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
 
-همه ابزارهایی که در فصل پیشین نام برده شده‌اند دارای کلید میانبری هستند که در 
-منوی Tools در سمت راست نام هر منو آورده شده‌اند. مثلاً، "O" 
-کلید میانبر چیدن نقاط به صورت دایره است. "L" کلید میانبر چیدن نقاط به صورت خط است.
-یادگیری و به خاطر سپردن کلیدهای میانبر کمی زمانبر است، اما به مرور زمان می‌فهمید که 
+All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
+shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
 استفاده از آنها در زمان صرفه‌جویی بسیار زیادی می‌‌کند.
 
 در اینجا مهمترین کلیدهای میانبر دیگر را (با فونت ضخیم) می‌بینیم.
@@ -157,17 +133,13 @@ JOSM ابزارهای بیشتری هم برای رسم آسانتر
 تغییر اندازه و چرخش
 ----------------
 
-یکی از سوالات رایج این است که چگونه شکل و یا خطی را که کشیده‌ایم 
-بچرخانیم.
+A common question is how to rotate a line or shape after it has been drawn.
 
-برای چرخاندن یک شی ابتدا آنرا انتخاب کنید.
-دو کلید **SHIFT+CTRL** را با هم روی نگه دارید.
-ماوس را کلیک کرده و آنرا بچرخانید.
+To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
 
 ![Rotate demo][]
 
-برای تغییر اندازه یک شی (کوچک کردن یا بزرگ کردن) همین کار را بکنید 
-ولی اینبار کلیدهای ALT+CTRL را با هم نگه دارید.
+To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
 
 این دستورالعمل‌ها در خط اطلاعات پائین صفحه JOSM هم نمایش داده می‌شود.
 

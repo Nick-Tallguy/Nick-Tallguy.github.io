@@ -75,11 +75,16 @@ OpenStreetMap တွင်တွေ့ရှိနိုင်သော Relation
 JOSM ဆော့ဖ်ဝဲလ်တွင် ဘတ်စ်ကားလမ်းကြောင်းပြ မြေပုံတစ်ခုရေးဆွဲခြင်းကိုလေ့လာကြည့်ပါမည်။  
 
 - ပြေးဆွဲသောလမ်းကြောင်းများကို ဦးစွာရွေးပါ။ လမ်းကြောင်းပေါ်သို့ တစ်စိတ်တစ်ပိုင်းသာပါဝင်သောလမ်းများတွင် "Split Way" ကိရိယာကိုအသုံးပြု၍စိစစ်ခွဲခြားပါ။  
-- လမ်းပိုင်းများကိုရွေးချယ်ပြီးပါက *Presets menu မှ Transport ကိုသွားပါ။ထိုမှ Public Transport ကိုနှိပ်ပြီး Public transport route ကိုရွေးပါ။*  
+- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
 
 ![Public transport preset][]
 
-- လမ်းကြောင်းအမျိုးအစားအတွက် "bus" ကို ရွေးပါ။  
+- A new window pops up where you can enter information which applies to the route as a whole.
+
+![New route relation][]
+
+It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+
 - "New Relation" တွင်ကလစ်နှိပ်ပါ။ ဗဟုဂံပုံအမျိုးမျိုးစုဖွဲ့ခြင်းမှာကဲ့သို့ မျက်နှာပြင်တစ်ခုထပ်မံထွက်ပေါ်လာသည်ကိုမြင်ရမည်။  
 
 ![Bus route relation][]
@@ -105,6 +110,7 @@ Relations များသည် နားလည်ရခက်ပြီး မ�
 [New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
+[New route relation]: /images/josm/new-route-relation.png
 [Route relation]: /images/josm/route-relation.png
 [Public transport preset]: /images/josm/public-transport-preset.png
 [Bus route relation]: /images/josm/bus-route-relation.png

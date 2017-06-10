@@ -75,11 +75,16 @@ Le relazioni sono molto utili per rappresentare percorsi molto lunghi. Ad esempi
 Vediamo come creare una relazione per una linea di autobus in JOSM:  
 
 - Per orima cosa , seleziona tutte le way utilizzate dal perscorso. Potresti dover suddividere alcune strade in segmenti separati se solo una parte di esse appartiene alla relazione.  Puoi farlo utilizzando lo strumento "Dividi percorso".  
-- Quando tutti i segmenti sono selezionati, vai a *Preimpostazioni->Trasporto->Trasporto pubblico (legacy)->Route per trasporto pubblico (legacy)*.  
+- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
 
 ![Public transport preset][]
 
-- Vicino a "Tipo di itinerario, seleziona "autobus".  
+- A new window pops up where you can enter information which applies to the route as a whole.
+
+![New route relation][]
+
+It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+
 - Clicca su "Nuova relazione". Vedrai apparire la finestra della relazione, proprio come quando hai creato la relazione multipoligono.  
 
 ![Bus route relation][]
@@ -105,6 +110,7 @@ Le relazioni possono essere difficili da comprendere e non sono usate spesso, ma
 [New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
+[New route relation]: /images/josm/new-route-relation.png
 [Route relation]: /images/josm/route-relation.png
 [Public transport preset]: /images/josm/public-transport-preset.png
 [Bus route relation]: /images/josm/bus-route-relation.png
