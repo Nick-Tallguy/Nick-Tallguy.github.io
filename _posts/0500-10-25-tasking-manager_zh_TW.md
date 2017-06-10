@@ -51,18 +51,18 @@ category: coordination
 - 存取你曾經繪製完成區域的任務列表  
 - 進入任務分配管理系統的**訊息**（這和開放街圖裏頭的訊息發送是不同的兩個系統）  
 - 登出  
-- See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.  
+- 看到所有有用任務分配管理系統參與並完成繪製區域的使用者清單。您可以點擊連結，來查看更詳細的資訊，像是他們在開放街圖的編輯歷史中完成了哪些區域。  
 
 ![Tasking Manager Username_list][]  
 
 
-## Getting started with the Tasking Manager
+## 開始使用任務分配管理系統
 
-You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to <http://tasks.hotosm.org>. You will see a page like this:  
+您可以用訪客的身份來查閱任務，但是如果想要主動參與，您必須要登入任務分配管理系統。請使用自己的開放街圖使用者帳號與密碼。打開網路瀏覽器並且前往<http://tasks.hotosm.org>。您會看到這樣的頁面：  
 
 ![Tasking Manager Login][]
 
-- Click “login to OpenStreetMap”  
+- 點擊「登入到開放街圖」  
 - You are agreeing to allow this application some access to your OpenStreetMap account.  Click “Save Changes.”  
 
 ![Authorizing access to OSM account by the Tasking Manager][]
