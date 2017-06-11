@@ -10,7 +10,7 @@ Relaties
 ==========
 
 > Deze handleiding kan gedownload worden als [josm_relations_nl_NL.odt](/files/josm_relations_nl_NL.odt) of [josm_relations_nl_NL.pdf](/files/josm_relations_nl_NL.pdf)  
-> Reviewed 2017-06-06  
+> Bijgewerkt op 06-06-2017  
 
 In de [Handleiding voor beginners](/nl_NL/beginner) legden we uit dat er drie typen objecten zijn die in OpenStreetMap kunnen worden getekend - punten (knopen), lijnen (wegen), en polygonen (gesloten wegen). Lijnen bevatten ontelbare punten en de lijn zelf draagt de attributen die definiëren wat het weergeeft. Polygonen zijn hetzelfde als lijnen, met uitzondering van het feit dat de lijn moet eindigen waar hij begint om een vorm te kunnen vormen.  
 
@@ -35,25 +35,25 @@ Laten we eens kijken hoe we een relatie voor een multipolygoon maken, zoals die 
 ![Multipolygon ways][]
 
 - Selecteer alle polygonen. Onthoud dat u meerdere objecten kunt selecteren door SHIFT ingedrukt te houden en op elke te klikken.  
-- Choose *Tools->Create multipolygon* from the menu.  
-- The tags window now contains the new multipolygon.
+- Kies *Gereedschappen->Multipolygoon aanmaken* uit het menu.  
+- Het venster Tags bevat nu de nieuwe multipolygoon.
 
 ![New mp object][]
 
-- Click on the edit button.  
+- Klik op de knop Bewerken.  
 
-- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
+- U zou nu het venster Relaties moeten zien. Dit is enigszins complex omdat u nu tags gaat toevoegen aan een verzameling wegen.  
 
 ![Building relation][]
 
 - Zie dat aan de bovenzijde van het paneel de tags voor de relatie staan. Deze tags werken op dezelfde manier als waarop tags altijd werken.  
 - Aan de onderzijde staat een lijst met de leden van de relatie. Deze relatie heeft drie leden - dat zijn de drie wegen die deel uitmaken van onze relatie.  
-- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
+- Onthoud dat we al één tag voor ons hebben gedefinieerd, *type=multipolygon*. We dienen nog één tag toe te voegen die het soort object definieert dat in de relatie wordt weergegeven. We moeten een tag toevoegen die aangeeft *type=multipolygon*.  
 - Klik in het vak voor de tag en voeg deze tag toe.  
 
 ![Building yes][]
 
-- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
+- De **rollen** zijn al op de juiste wijze toegewezen aan de wegen. Elk lid van een relatie heeft een rol, die aangeeft wat het doel van dat lid is. In dit geval moet de rol van de buitenste polygoon worden gedefinieerd als **outer** en de rol van de twee binnenste polygonen moet worden gedefinieerd als **inner**. Dit zijn de rollen die beschikbaar zijn voor leden van een multipolygoon.  
 
 - Klik op OK en uw relatie voor de multipolygoon is voltooid!  
 
@@ -74,16 +74,16 @@ Relaties zijn ook erg nuttig voor het weergeven van lange routes. Een bus- of fi
 
 Laten we eens kijken hoe we een relatie voor een busroute maken in JOSM:  
 
-- Selecteer eerst alle wegen waar de route overheen voert. U moet misschien enkele straten splitsen in afzonderlijke segmenten als slechts een gedeelte ervan tot de relatie behoort. U kunt dit doen met behulp van het gereedschap "Weg splitseb".  
-- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
+- Selecteer eerst alle wegen waar de route overheen voert. U moet misschien enkele straten splitsen in afzonderlijke segmenten als slechts een gedeelte ervan tot de relatie behoort. U kunt dit doen met behulp van het gereedschap "Weg splitsen".  
+- Wanneer alle segmenten zijn geselecteerd, ga naar *Voorkeuzen->Vervoer->Openbaar vervoer->Route openbaar vervoer (Bus)*.  
 
 ![Public transport preset][]
 
-- A new window pops up where you can enter information which applies to the route as a whole.
+- Een nieuw venster opent zich waar u informatie kunt invoeren die van toepassing is op de route als geheel.
 
 ![New route relation][]
 
-It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+Het is belangrijk het specifieke type route te selecteren uit het keuzemenu bovenaan. Voor busroutes zijn twee opties beschikbaar, bus en trolleybus. Normaal gesproken zou u ook invoeren naam, verwijzingsnummer, van en naar.
 
 - Klik op "Nieuwe relatie." U zult het venster Relatie tevoorschijn zien komen, net zoals wanneer u een multipolygoon maakt.  
 
