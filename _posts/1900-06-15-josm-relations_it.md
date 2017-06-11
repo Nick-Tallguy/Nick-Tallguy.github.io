@@ -10,7 +10,7 @@ Relazioni
 ==========
 
 > Questa guida può essere scaricata come [josm_relations_it.odt](/files/josm_relations_it.odt) oppure [josm_relations_it.pdf](/files/josm_relations_it.pdf)  
-> Reviewed 2017-06-06  
+> Revisionato il 2017-06-06  
 
 Nella [Guida per Principianti](/it/beginner) abbiamo spiegato che ci sono tre tipi di oggetti che possono essere disegnati in OpenStreetMap - punti (nodi), linee (way) e poligoni (aree). Le linee contengono numerosi punti e la linea stessa contiene gli attributi che definiscono cosa rappresenta.  I poligoni sono come le linee, con la differenza che la linea deve terminare dove è cominciata in modo da formare un'area.  
 
@@ -35,7 +35,7 @@ Vediamo come creare una relazione multipolygon come quella mostrata sopra.
 ![Multipolygon ways][]
 
 - Seleziona tutti i poligoni. Ricordati che puoi selezionare più di un oggetto tenendo premuto il tasto SHIFT e cliccando su ognuno.  
-- Seleziona *Strumenti->Cre multipoligono* dal menù.  
+- Seleziona *Strumenti->Crea multipoligono* dal menù.  
 - La finestra dei tag ora contiene il nuovo multipoligono.
 
 ![New mp object][]
@@ -74,16 +74,16 @@ Le relazioni sono molto utili per rappresentare percorsi molto lunghi. Ad esempi
 
 Vediamo come creare una relazione per una linea di autobus in JOSM:  
 
-- Per orima cosa , seleziona tutte le way utilizzate dal perscorso. Potresti dover suddividere alcune strade in segmenti separati se solo una parte di esse appartiene alla relazione.  Puoi farlo utilizzando lo strumento "Dividi percorso".  
-- Quando tutti i segmenti sono selezionati, vai a *Preimpostazioni->Trasporto->Trasporto pubblico (legacy)->Route per trasporto pubblico (legacy)*.  
+- Per prima cosa , seleziona tutte le way utilizzate dal perscorso. Potresti dover suddividere alcune strade in segmenti separati se solo una parte di esse appartiene alla relazione.  Puoi farlo utilizzando lo strumento "Dividi percorso".  
+- Quando tutti i segmenti sono selezionati, vai a *Preimpostazioni->Trasporto->Trasporto pubblico->Linea di autobus*.  
 
 ![Public transport preset][]
 
 - Appare una nuova finestra dove puoi inserire le informazioni relative all'intero percorso.
 
-![Nuova relazione itinerari][]
+![New route relation][]
 
-E' importante selezionare dal menù a discesa il corretto tipo di percorso. Per i percorsi degli autobus ci sono due possibili opzioni, bus e trolleybus (filobus). Dovresti inserire anche il nome, il numero della linea, l'origine e la destinazione.
+E' importante selezionare dal menù a discesa il corretto tipo di percorso. Per i percorsi degli autobus ci sono due possibili opzioni: autobus e filobus. Dovresti inserire anche il nome, il numero della linea, l'origine e la destinazione.
 
 - Clicca su "Nuova relazione". Vedrai apparire la finestra della relazione, proprio come quando hai creato la relazione multipoligono.  
 
@@ -110,7 +110,7 @@ Le relazioni possono essere difficili da comprendere e non sono usate spesso, ma
 [New mp object]: /images/josm/new-mp.png
 [Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
 [An example of a multipolygon]: /images/josm/multipolygon-demo.png
-![Nuova relazione itinerari][]: /images/josm/new-route-relation.png
+[New route relation]: /images/josm/new-route-relation.png
 [Route relation]: /images/josm/route-relation.png
 [Public transport preset]: /images/josm/public-transport-preset.png
 [Bus route relation]: /images/josm/bus-route-relation.png
