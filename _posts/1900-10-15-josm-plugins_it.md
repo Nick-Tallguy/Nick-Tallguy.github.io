@@ -28,34 +28,34 @@ Quando vuoi installare (o rimuovere) un plugin, vai su **Modifica \> Preferenze*
 
 Alcuni dei nostri plugin preferiti sono:
 
-1. **[buildings_tools](en/josm/josm-more-plugins/):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](it/josm/josm-more-plugins/):** Se disegni molti edifici, questo renderà il processo più semplice e veloce  
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **DirectUpload:** Se hai molte tracce GPS e le vuoi salvare nel database OSM, questo plugin facilita l'operazione.  
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx:** Se vuoi caricare tracce GPS da un dispositivo Garmin, potresti aver bisogno di questo plugin. OSM non accetta tracce GPS che sono state salvate su una scheda di memoria esterna di un Garmin, ma questo plugin può correggere i file in modo da poter essere caricati.  
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers:** Questo plugin ti consente di caricare in JOSM dei Field Paper scannerizzati.  
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db:** Questo plugin consente di collaborare con altri mappatori che trovano le immagini satellitari di Bing leggermente disallineate. Questo argomento è trattato più dettagliatamente in un capitolo successivo.  
 
-6. **mirrored_download:** With this plugin you can download a larger area of OSM data for editing.  
+6. **mirrored_download:** Con questo plugin puoi scaricare un'area più grande di dati OSM per fare modifiche.  
 
-7. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+7. **print:** Aggiunge una funzione di Stampa, nel caso vogliate fare delle veloci stampe di un'area, non avendo bisogno che siano di alta qualità.  
 
-8. **[utilsplugin2](en/josm/josm-more-plugins/):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
-
-
-
-<!-- The remainder of this section needs to be edited, and/or moved to other sections,
-    commenting it out for now
+8. **[utilsplugin2](it/josm/josm-more-plugins/):** Aggiunge molti strumenti e menù a JOSM, per utenti esperti. E' trattato più in dettaglio in [next chapter](/it/josm/josm-more-plugins)  
 
 
-- [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)
-- [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)
-- [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)
-- [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
 
-We also recommend downloading these plug-ins, which are covered in other
+<!-- il resto di questa sezione deve essere modificato, e/o spostato in altre sezioni,
+    per ora è commentato
+
+
+- [Mirrored Download]({{site.baseurl}}/it/beginner/josm-plugins/#mirrored-download) (consente di scaricare più dati OSM)
+- [Direct Upload]({{site.baseurl}}/it/beginner/josm-plugins/#direct-upload) (consente di caricare tracce GPS)
+- [Editgpx]({{site.baseurl}}/it/beginner/josm-plugins/#edit-gpx) (consente di modificare file GPX)
+- [Print]({{site.baseurl}}/it/beginner/josm-plugins/#print)
+
+Raccomandiamo anche di scaricare questi plugins, che sono discussi in altri
 capitoli:
 
 - FieldPapers
@@ -64,77 +64,77 @@ capitoli:
 
 ![Restart JOSM][]
 
-Try clicking “Restart JOSM” and watch the software reload on its own.
+Prova a selezionare "Riavvia JOSM" e nota il riavvio automatico del programma.
 
 Mirrored Download
 -----------------
 
 ![Mirrored Download][]
 
-__Mirrored Download__ will make downloading OSM
-data for editing faster. Instead of getting the data from the central
-OSM server, it allows us to get it from a “mirror,” which is an exact
-replica of the data but in a location that is faster to access it.
+__Mirrored Download__ velocizza lo scarico dei
+dati OSM per modificarli. Invece di prendere i dati dal
+server centrale OSM, consente di prenderli da un "mirror", che è una replica
+esatta dei dati, in una locazione più veloce da accedere.
 
-Once the plugin is installed (and you have restarted JOSM), you will see
-another new entry on the File Menu, “Download from OSM mirror...”
+Una volta installato il plugin (e avete riavviato JOSM), vedrete
+una voce nuova nel menù File, "Scarica da mirror OSM..."
 
-![Download from OSM Mirror][]
+![Scarica da mirror OSM][]
 
-Downloading data is exactly the same process you learned before, but it
-can be much faster!
+Lo scarico dei dati è esattamente lo stesso processo che avete imparato prima, ma
+può essere molto più veloce!
 
-Direct Upload
+Caricamento Diretto
 -------------
 
 ![Direct Upload][]
 
-__DirectUpload__ uploads GPX tracks directly to OSM
-through JOSM (more information is available in the **Appendix**). Once
-the plug-in is installed (and you have restarted JOSM), you will see
-anew “Upload traces” item under the “Tools” Menu.
+__DirectUpload__ carica tracce GPX direttamente su OSM
+tramite JOSM (altre informazioni sono disponibili nella **Appendice**). Una volta
+che il plugin è installato (e avete riavviato JOSM), vedrete
+una nuova voce "Carica tracce" nel menù "Strumenti".
 
 ![Upload Traces Item][]
 
-When you click on the “Upload Traces” button this window will pop up:
+Quando cliccate sul pulsante "Carica tracce" comparirà questa finestra:
 
 ![Upload Traces Window][]
 
-Put keywords (seperated by commas without spaces) that relate to your
-GPS trace in the "Tags (comma delimited)" box. For example,
-"Country,region,city,neighborhood,road name". Next, provide a
-description of your tags. A drop-down list will allow you to reuse
-former tags and descriptions. Lastly, choose what type of visibility you
-would like your track to have. There are four levels from private to
-identifiable (all explained below in the [Appendix]{{site.baseurl}}/learnosm/en/).
+Scrivi le parole chiave (separate da virgola, senza spazi) relative alla tua
+traccia GPS nel riquadro "Etichette (separate da virgola)". Per esesmpio,
+"Nazione,regione,città,quartiere,nome strada". Indicate poi una
+descrizione delle vostre etichette. Una lista a scorrimento vi consentirà di riutilizzare
+precedenti etichette e descriioni. Infine, scegliete il tipo di visibilità che 
+volete dare alla vostra traccia. Ci sono quattro livelli da privato a 
+identificabile (tutte spiegate pià avanti in [Appendix]{{site.baseurl}}/learnosm/it/).
 
-Click on Upload Trace. If you are not connected to your OSM account, you
-will have to do it now.
+Clicca su Caricat Traccia. Se non siete connessi al vostro account OSM, 
+fatelo ora.
 
-Once successfully uploaded, the Text area will display an "OK" status
-and the “Upload Trace” button will not be clickable. More information
-about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl}}/learnosm/en/).
+Una volta caricato con successo, l'area Testo visualizzerà l'esito "OK"
+ed il pulsante "Carica Traccia" non sarà selezionabile. Ulteriori informazioni
+relative a questo plugin ed ai caricamenti GPS sono disponibili in  [Appendix]({{site.baseurl}}/learnosm/en/).
 
 Modifica gpx
 --------
 
 ![Edit Gpx][]
 
-**EditGpx** allows you to prepare recorded GPX tracks
-before uploading them to OSM. Often tracks have parts that you would
-like to remove. Therefore, this plug-in delete points of tracks in a
-speedy manner and creates anonymity for timestamps of a track.
+**EditGpx** consente di aggiustare tracce registrate GPX
+prima di caricarle in OSM. Sovente le tracce hanno delle parti che
+volete rimuovere. Quindi questo plugin cancella dei punti delle tracce in 
+modo veloce ed elimina i marcatori di data-ora di una traccia.
 
-Once the plug-in is installed (and you have restarted JOSM), you will
-see this new tool in the tool bar on the left.
+Una volta installato il plugin (e riavviato JOSM), vedrete
+questo nuovo strumento nella barra degli strumenti sulla sinistra.
 
 ![Edit Gpx Tool Icon][]
 
-1. Apri un file GPX in JOSM.
+1. Apri un file GPX in JOSM!
 
 ![Open GPX File][]
 
-2. Press the new button in the left menu bar 
+2. Selezionate il nuovo pulsante nella barra dei pulsanti a sinistra 
 
 ![Edit Gpx Tool Icon][]
 
