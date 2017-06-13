@@ -249,15 +249,15 @@ JOSM 已經被翻譯成多種語言，
 一旦你熟悉這些基本的編輯技巧，
 你也許想要繪製地圖上真正的圖徵。 
 
-*It is very important that you first remove the layer with the sample data. 
-These data are fictitious and must not be uploaded to the OpenStreetMap 
-database (newer JOSM releases automatically prevent this).*
+* 相重重要的一點是移除範例的資料。 
+這些資料都是虛構的資料， 
+不能上傳到開放街圖資料庫 (新版本的 JOSM 會自動阻止這件事情)。*
 
-In the Layers window on the upper right of the screen select the sample.osm layer. 
-Then click on the trash can icon in the lower right corner of that window. 
-Alternatively you can choose delete from the context menu of the layer. 
-In order to continue editing you first need to download real data. 
-This will be explained in the next chapter.
+選擇右上角的圖層視窗中選擇範例圖層。 
+接著點視窗右下角的垃圾筒圖示。 
+或者另一個選擇是在圖層選項選擇刪除。 
+要繼續編輯的話，你必須先下載真正的資料。 
+下一章節將會解釋做什麼。
 
 總結
 -------
