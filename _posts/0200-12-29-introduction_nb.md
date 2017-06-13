@@ -29,11 +29,11 @@ har dårligst tilgang til disse fasilitetene? Hvor er fattigdom mest
 utfordrende?* Spørsmål som dette kan ofte beskrives best ved hjelp av kart,
 og kart kan finne løsningen på disse spørsmålene. 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the
-most important things to include on the map? What is the most important
-information? Spend a few minutes making your map, and when you’re
-finished, think about why the information you included is important, and
-who it might be important to.
+Som en øvelse, hent en pen og et papir og tegn et kart over området du bor i. Hva er de
+mest viktige tingene å inkludere på kartet? Hva er den viktigste
+informasjonen? Bruk noen minutter på å lage kartet ditt, og når du er
+ferdig, tenk over hvorfor informasjonen du har inkludert på kartet er viktig, og
+hvem som kan ha nytte av informasjonen.
 
 ![Example of a hand-drawn map][]
 

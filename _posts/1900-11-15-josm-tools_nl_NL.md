@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM Editing Tools
+title: Gereedschappen om mee te bewerken in JOSM
 permalink: /nl_NL/josm/josm-tools/
 lang: nl_NL
 category: josm
@@ -10,114 +10,114 @@ Gereedschappen om mee te bewerken in JOSM
 ==================
 
 > Deze handleiding kan worden gedownload als [josm_josm-tools_nl_NL.odt](/files/josm_josm-tools_nl_NL.odt) of [josm_josm-tools_nl_NL.pdf](/files/josm_josm-tools_nl_NL.pdf)  
-> Reviewed 2017-06-09  
+> Bijgewerkt op 09-06-2017  
 
 - TOC
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+In de [gids Starten met JOSM](/nl_NL/josm/start-josm/) behandelden we de basisprincipes voor het tekenen in JOSM, maar er zijn vele gereedschappen en technieken die niet worden gedemonstreerd.
 
-Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
+Hier zullen we kijken naar enkele basisgereedschappen en beschikbare technieken voor het tekenen van kaartobjecten  in JOSM, en in de volgende hoofdstukken zullen we meer in de diepte kijken naar geavanceerde gereedschappen om te tekenen.
 
 Het voorbeeldbestand ophalen
 -------------------
 
-- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
+- Indien u de handleiding wilt volgen en oefenen met de gereedschappen van JOSM, download dan [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM en open het bestand. Het zou er ongeveer zo uit moeten zien:
 
 ![tools_menu_sample.osm][]
 
 Gereedschappen voor tekenen
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
+Als u klikt op het menu "Gereedschappen" boven in JOSM, zult u zien dat er heel veel functies zijn die u kunnen helpen bij het tekenen van lijnen en vormen, en het bewerken van de objecten op de kaart.
 
-JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
+JOSM heeft enkele aanvullende gereedschappen om het gemakkelijker te maken lijnen en vormen te tekenen. Deze gereedschappen zijn te vinden in het menu “Gereedschappen” boven in JOSM.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+U moet eerst, om de functies in dat menu te kunnen toepassen, een punt of vorm selecteren in het kaartvenster. Het voorbeeldbestand bevat verscheidene elementen die zijn gelabeld met de namen van verschillende gereedschappen in het menu.
 
-### Aligning nodes in a circle  
+### Knopen uitlijnen in een cirkel  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- Probeer één van de elementen in het bestand te selecteren. Ga dan naar het menu Gereedschappen en klik op de functie die wordt geïdentificeerd naast het object dat u heeft geselecteerd. Klik bijvoorbeeld op de slecht getekende cirkel om die te selecteren.
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+-   Ga vervolgens naar Gereedschappen-> Knopen uitlijnen in een cirkel. De slecht getekende cirkel zal meer rond worden.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+Experimenteer met elk van de gereedschappen met behulp van dit voorbeeldbestand. Een beschrijving van enkele van de gereedschappen volgt hieronder.
 
-### Split Way  
+### Weg splitsen  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+Dit stelt u in staat een lijn op te delen in twee afzonderlijke lijnen. Dit is handig indien u verschillende attributen wilt toevoegen aan verschillende delen van een weg, zoals een brug. Selecteer, om deze functie te kunnen gebruiken, een punt in het midden van de lijn die u wilt splitsen, selecteer Weg splitsen uit het menu Gereedschappen, en uw lijn zou in tweeën moeten zijn gesplitst.
 
 
-### Combine Way
+### Wegen combineren 
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+Dit doet het tegenovergestelde van Weg splitsen. Combineren van twee lijnen naar één lijn vereist dat zij één enkel punt delen. Selecteer, om deze functie te kunnen gebruiken, beide lijnen die u wilt combineren. U kunt meer dan één object selecteren door de toets SHIFT op uw toetsenbord ingedrukt te houden en op elke lijn te klikken. Wanneer u beide lijnen hebt geselecteerd, selecteer dan Weg combineren uit het menu Gereedschappen.
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### Omkeren en combineren  
 
-If you are combining roads that have different directions, you might get this warning:
+Indien u wegen combineert die verschillende richtingen hebben, zou u deze waarschuwing kunnen krijgen:
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+Als de wegen zijn verbonden en in dezelfde richting lopen, kies dan "Omkeren en combineren."
 
 
-### Reverse Way
+### Weg omkeren
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+Dit zal de richting van de lijn wijzigen. Alle lijnen in OSM hebben een richting die in JOSM wordt weergegeven door de pijlen op de lijn. De richting doet er over het algemeen niet toe, behalve in de gevallen van éénrichtingswegen en rivieren die in een bepaalde richting stromen. In die gevallen zou u de weg moeten omkeren zodat die in de juiste richting loopt.
 
 ![Way direction][]
 
-### Simplify Way
+### Weg vereenvoudigen
 
-If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
+Als uw lijn teveel punten heeft en u zou hem eenvoudiger willen maken, zal dit enkele punten uit een lijn verwijderen.
 
 ![Simplify way][]
 
 
-### Create a Circle
+### Cirkel aanmaken
 
-Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+Gebruiken van dit gereedschap zal een meer perfecte cirkel maken. Teken een lijn die de diameter van uw cirkel weergeeft en pas dan dit gereedschap toe.
 
 ![Create circle][]
 
 
-### Align Nodes in Line
+### Knopen uitlijnen
 
-This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+Deze functie zal een reeks punten uitlijnen naar een rechte lijn.  Met lange lijnen is het het beste om gedeelten van de uit te lijnen lijn te selecteren. Wees voorzichtig omdat dit de neiging heeft om de lijn enigszins te verschuiven.
 
 ![Align nodes in line][]
 
-### Orthogonalize Shape
+### Vorm loodrecht maken
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+Deze functie is bijzonder handig voor het tekenen van regelmatige vormen, zoals gebouwen (**Maar zie ook [JOSM building tools](/nl_NL/josm/josm-more-plugins/)**). Nadat u een gebied hebt getekend zal deze functie het opnieuw vorm geven met rechte hoeken.
 
 ![Orthagonalize][]
 
 
-### Unglue way
+### Weg losmaken
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+Dit gereedschap stelt u in staat knopen los te maken die zijn verbonden. Dat is handig indien twee objecten een knoop delen die zij niet zouden moeten delen. Een veel voorkomende fout is bijvoorbeeld een weg die een knoop deelt met de hoek van een gebouw. Natuurlijk lopen wegen gewoonlijk niet door gebouwen, dus is dit een fout en kunt u de objecten van elkaar losmaken.
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+*De lijn en knoop zullen in feite niet afzonderlijk te zien zijn, totdat u ze verplaatst.*
 
 Sneltoetsen voor toetsenbord
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
+Wanneer u veel zult gaan bewerken zult u zich realiseren dat u veel tijd kwijt bent met het klikken op menu's en submenu's. JOSM heeft, om dit te vermijden, sneltoetsen voor het toetsenbord voor bijna alles.
 
-This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
+Dat betekent dat u in plaats van te klikken op een object en dan door een lang menuproces te gaan, u eenvoudigweg een object kunt selecteren en op een toets op uw toetsenbord kunt drukken.
 
-All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
+Alle in het eerdere gedeelte genoemde gereedschappen hebben sneltoetsen, die zijn vermeld aan de rechterzijde van de naam van elk gereedschap in het menu Gereedschappen. Bijvoorbeeld: "O" is de 
+sneltoets voor het uitlijnen van knopen in een cirkel. "L" is de sneltoets voor het uitlijnen in een lijn. Het kan soms even duren om de sneltoetsen te leren, maar u zult merken dat het
 uiteindelijk een heleboel tijd bespaart.
 
 Hier zijn andere sneltoetsen (in **vet**) wat enkele van de meest belangrijke zijn.
@@ -133,13 +133,13 @@ Hier zijn andere sneltoetsen (in **vet**) wat enkele van de meest belangrijke zi
 Op schaal brengen en roteren
 ----------------
 
-A common question is how to rotate a line or shape after it has been drawn.
+Een veel gestelde vraag is hoe een lijn of vorm te draaien nadat die is getekend.
 
-To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
+Selecteer het object eerst om het te draaien. Houd **SHIFT+CTRL** ingedrukt op uw toetsenbord. Klik en sleep met de muis om te draaien.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
+Volg, om een object op schaal te brengen (het groter of kleiner te maken), hetzelfde proces maar houdt dan in plaats daarvan ALT + CTRL ingedrukt.
 
 Deze instructies worden weergegeven op de informatiebalk aan de onderzijde van JOSM:
 
