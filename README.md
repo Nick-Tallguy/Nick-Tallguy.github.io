@@ -10,7 +10,7 @@ Any updates in the gh-pages branch automatically update the site within minutes.
 
 ### Translators - How to add localised images
 
-Please see [this guide in draft form](/en/contribute/translator-images/)
+Please see [this guide in draft form](http://nick-tallguy.github.io/en/contribute/translator-images/)
 
 
 For minor edits, simply locate the post you are interested in via the [posts](_posts) directory, and use the [edit](https://help.github.com/articles/editing-files-in-another-user-s-repository/) feature to fix typos, grammar and other minor items.
