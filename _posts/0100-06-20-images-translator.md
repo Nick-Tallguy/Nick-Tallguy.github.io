@@ -12,7 +12,7 @@ Translators - How to add local images for your language
 
 **This guide is still at the draft stage.**
 
-Although the eventual aim is to have your nice new images on the main LearnOSM site, initially it is best to add them to our testing site, which you can find on Github at <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io>
+Although the eventual aim is to have your nice new images on the main LearnOSM site, initially it is best to add them to our testing site, which you can find on Github at <https://github.com/Nick-Tallguy/Nick-Tallguy.github.io>. Once the images are uploaded and working here, one of the site admin's will quickly add them to the main site for LearnOSM.
 
 - TOC
 {:toc}
