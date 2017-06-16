@@ -101,8 +101,8 @@ translations:
     feedback: "با ما درمیان بگذارید و راهنماها را بهبود ببخشید!"
     getstarted: "شروع به کار"
     language: "فارسی"
-    quickaccess: "Quick access"
-    returntotop: "Return to top of page"
+    quickaccess: "دسترسی سریع"
+    returntotop: "بازگشت به ابتدای صفحه"
   fr:
     tagline: "Apprendre OpenStreetMap étape par étape"
     contribute: "Aidez-nous pour améliorer cette documentation"
