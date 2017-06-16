@@ -1,16 +1,16 @@
 ---
 layout: doc
-title: JOSM Building Tools & Utilsplugin2 plugins
+title: plugin JOSM Building Tools & Utilsplugin2 
 permalink: /it/josm/josm-more-plugins/
 lang: it
 category: josm
 ---
 
-JOSM Building Tools & Utilsplugin2 plugins
+plugin JOSM Building Tools & Utilsplugin2
 ============
 
-> This guide may be downloaded as [josm-more-plugins_en.odt](/files/josm-more-plugins_en.odt) or [josm-more-plugins_en.pdf](/files/josm-more-plugins_en.pdf)  
-> Reviewed 2016-09-12  
+> Questa guida può essere scaricata come [josm-more-plugins_it.odt](/files/josm-more-plugins_en.odt) oppure [josm-more-plugins_it.pdf](/files/josm-more-plugins_en.pdf)  
+> Rivisto il 2016-09-12  
 
 I plugin **buildings_tools** e **utilsplugin2** aggiungono delle belle funzionalità aggiuntive a JOSM. In questa sezione vedremo da vicino quali funzionalità forniscono.  
 
@@ -37,7 +37,7 @@ Fai partire JOSM e scarica un'area dove vuoi disegnare degli edifici.
 
 * Questo non solo creerà un rettangolo con soli due click, ma applica automaticamente alla forma disegnata il tag building=yes.  
 
-### Complex Buildings
+### Edifici complessi
 
 Puoi anche creare edifici dalla forma complessa, disegnando prima diversi edifici che si sovrappongono, per poi unirli insieme.  
 
@@ -59,7 +59,7 @@ Inoltre, puoi anche alterare le impostazioni predefinite del plugin.
 
 * Impostando le dimensioni dovrai cliccare solo due volte per creare edifici della dimensione esatta.  
 
-Infine, puoi cliccare sul bottone Avanzate (sempre in Dati -> Impostazioni avanzate degli edifici) se vuoi aggiungere ulteriori tag che saranno aggiunti automaticamente ad ogni edificio.  
+Infine, puoi cliccare sul bottone Avanzate (sempre in Dati -> Impostazioni avanzate degli edifici) se vuoi aggiungere ulteriori tag che saranno aggiunti automaticamente ad ogni edificio. Per esempio, se tutti gli edifici che disegni sono sulla stessa strada, puoi aggiungere un tag che identifica la strada, che sarà automaticamente aggiunto agli edifici che disegnerai.  
 
 ![Buildings advanced][]
 
@@ -67,38 +67,38 @@ Infine, puoi cliccare sul bottone Avanzate (sempre in Dati -> Impostazioni avanz
 Utilsplugin2
 -------------
 
-* If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+* Se non l'hai già fatto, installa questo plugin seguendo le istruzioni in [JOSM Plugins](/it/josm/josm-plugins).  
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have a new menu at the top named "More Tools."  
+Dopo aver installato il plugin e riavviato JOSM, troverai un nuovo menu in alto, "Altri Strumenti".  
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+Crea un nuovo livello e prova alcuni dei nuovi strumenti. Qui ne descriviamo qualcuno dei più utili:  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **Aggiungi nodi in corrispondenza delle intersezioni**. Questo strumento è molto utile per aggiungere i nodi mancanti alle intersezioni delle linee selezionate. E' buona pratica che le strade abbiano sempre dei nodi in comune quando si intersecano.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Copia le etichette dalla selezione precedente**. Questa funzione facilita la copia di etichette. Se volete creare molti oggetti con le stesse etichette, prima disegnate gli oggetti. Poi aggiungete le etichette ad un oggetto. Selezionate un altro oggetto e premete Shift + R per copiare le etichette dall'oggetto precedentemente selezionato. Potete fare così per tutti gli oggetti che volete etichettare. Ricordate che le etichette saranno copiate dall'oggetto precedentemente selezionato, perciò se cliccate su un oggetto senza etichette e poi su un altro oggetto non etichettato, non sarà copiata nessuna etichetta.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. **Aggiungi etichetta della sorgente.** Questo strumento semplifica l'aggiunta dell'etichetta source (sorgente). Ricorda la sorgente che è stata specificata l'ultima volta e la aggiunge come etichetta source ai vostri oggetti. Puoi inserire la sorgente con un solo clic.  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **Sostituisci dimensioni e posizione.** Questo tool è ottimo se volete ridisegnare un oggetto poco dettagliato, ma volete mantenere la storia, gli attributi ed il numero ID di quell'oggetto. Per esempio, se vi imbattete in un edificio complicato e disegnato malamente, allora invece di cambiare faticosamente ogni nodo, potete disegnare l'oggetto da zero, selezionare l'oggetto vecchio e quello nuovo, e selezionare "Sostituisci dimensioni e posizione" per trasferire tutte le informazioni tra i due oggetti.  
 
     ![Replace geometry][]
 
 
-### More Selection Tools
+### Altri strumenti di selezione
 
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+Anche **Utilsplugin2** fornisce altri strumenti nel menu "Selezione". Fai delle prove.  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+Uno dei nostri strumenti di selezione preferiti è **Deseleziona Nodi.** Questo strumento toglie dalla selezione tutti i nodi. Questo è utile se disegnate un rettangolo per selezionre molti oggetti, ma non volete selezionare anche i nodi contenuti in tutte le linee e forme.  
 
 ![Unselect nodes][]
 
@@ -106,18 +106,18 @@ Buona fortuna!
 
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
-[Buildings tools button]: /images/josm/buildings_tools-button.png
-[Draw edge]: /images/josm/draw-edge.png
-[Extend building]: /images/josm/extend-building.png
-[Merge buildings]: /images/josm/merge-buildings.png
-[Set buildings size]: /images/josm/set-buildings-size.png
-[Set buildings size dialog]: /images/josm/set-buildings-size-dialog.png
-[Buildings advanced]: /images/josm/buildings-advanced.png
+[pulsante Disegna edifici]: /images/josm/buildings_tools-button.png
+[Disegna bordo]: /images/josm/draw-edge.png
+[Estendi edificio]: /images/josm/extend-building.png
+[Unisci edifici]: /images/josm/merge-buildings.png
+[Imposta dimensione edifici]: /images/josm/set-buildings-size.png
+[finestra Imposta dimensione edifici]: /images/josm/set-buildings-size-dialog.png
+[Impostazioni avanzate Edifici]: /images/josm/buildings-advanced.png
 [Utilsplugin2 plugin]: /images/josm/utilsplugin2-plugin.png
-[More tools menu]: /images/josm/more-tools-menu.png
-[Nodes interesection]: /images/josm/utilsplugin2-nodes-intersection.png
-[Copy tags]: /images/josm/utilsplugin2-copy-tags.png
-[Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
-[Selection menu]: /images/josm/selection-menu.png
-[Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[menu Altri strumenti]: /images/josm/more-tools-menu.png
+[Intersezione nodi]: /images/josm/utilsplugin2-nodes-intersection.png
+[Copia etichette]: /images/josm/utilsplugin2-copy-tags.png
+[Sostituisci dimensioni e posizione]: /images/josm/utilsplugin2-replace-geometry.png
+[menu Selezione]: /images/josm/selection-menu.png
+[Deseleziona nodi]: /images/josm/utilsplugin2-unselect-nodes.png
 
