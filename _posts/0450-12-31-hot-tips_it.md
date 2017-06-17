@@ -11,9 +11,9 @@ nosearch: true
 Consigli per HOT - Guida introduttiva per nuovi mappatori usando iD e un Tasking Manager
 ================
 
-This series of short guides is aimed at volunteers helping to map for Aid Agencies using a Tasking Manager, but the principles are the same for all OpenStreetMap mapping. Mapping is easy,  but let's get it right and keep improving the map!
+Questa serie di brevi guide è rivolta ai volontari che ci aiutano a mappare per le Agenzie Umanitarie usando un Tasking Manager, ma i principi sono gli stessi di tutta la mappatura OpenStreetMap. Mappare è facile, ma facciamolo nel modo giusto e continuiamo a migliorare la mappa!
 
-Use the menu to choose the order that suits you.  
+Usa il menu per scegliere l'ordine che preferisci.  
 
 Vedi anche  
 ---------
@@ -28,7 +28,7 @@ Menù d'aiuto per iD - sempre disponibile mentre stai editando, include un tutor
 
 [La wiki OpenStreetMap](https://wiki.openstreetmap.org/wiki/IT:Pagina_Principale)  
 
-[Blake Girardot's guide to West Africa Mapping](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[La guida di Blake Girardot per mappare l'Africa Occidentale](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
 Se sei nuovo di OpenStreetMap i seguenti moduli della nostra sezione introduttiva ti saranno utili;  
 
@@ -38,5 +38,5 @@ Se sei nuovo di OpenStreetMap i seguenti moduli della nostra sezione introduttiv
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[iD help]:/images/hot-tips/iD-help.png "iD help menu - sempre disponibile mentre stai facendo modifiche, include una panoramica opzionale."
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Video didattici di un minuto su HOT (Humanitarian OpenStreetMap Team) 

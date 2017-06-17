@@ -19,17 +19,17 @@ L'Humanitarian OpenStreetMap Team (HOT) è una comunità globale che lavora all'
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
-La maggioranza delle attività di intervento di HOT avvengono in remoto. Dopo che accade un evento calamitoso, i membri di HOT cercano dati esistenti ed immagini satellitari disponibili. I partner rilevanti vengono contattati per fornire immagini compatibili con la ODbL. Una volta che le immagini sono state ottenute, la comunità virtuale le digitizza, o traccia dalle immagini (normalmente, ci si concentra su oggetti riconoscibili che sono utili per l'azione umanitaria, come strade, edifici, strade bloccate, estensione delle inondazioni, eccetera), e genera dati e mappe. Durante questo tempo, le organizzazioni coinvolte nell'azione umanitaria vengono contattate per conoscere le loro necessità.  
+La maggioranza delle attività di intervento di HOT avvengono in remoto. Dopo che accade un evento calamitoso, i membri di HOT cercano dati esistenti ed immagini satellitari disponibili. I partner rilevanti vengono contattati per fornire immagini compatibili con la ODbL. Una volta che le immagini sono state ottenute, la comunità virtuale le digitalizza, o traccia dalle immagini (normalmente, ci si concentra su oggetti riconoscibili che sono utili per l'azione umanitaria, come strade, edifici, strade bloccate, estensione delle inondazioni, eccetera), e genera dati e mappe. Durante questo tempo, le organizzazioni coinvolte nell'azione umanitaria vengono contattate per conoscere le loro necessità.  
 
-Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
+A seconda della scala della crisi, HOT alloca le risorse necessarie e la risposta è coordinata da una squadra apposita o da un membro che si assicura che tutti sappiano quando ci sono nuove risorse disponibili come pure dove concentrare gli sforzi. HOT incoraggia il coinvolgimento della comunità OSM e, se ci sono, attori locali per usare strumenti come il Tasking Manager per coordinare le azioni. Tra gli esempi ci sono attività da remoto fatte in Costa d'Avorio, Senegal, Filippine, e la Repubblica Democratica del Congo.  
 
 [Esempio di attivazione in Siria](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### The HOT Tasking Manager 
+### Il Tasking Manager di HOT 
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
+[HOT Tasking Manager](http://tasks.hotosm.org/) è uno strumento open source progettato per suddividere un lavoro di mappatura in lavori più piccoli che possono essere completati rapidamente. Mostra quali aree hanno bisogno di essere mappate e quali aree necessitano che la mappatura sia validata da altri. [Attivazioni](http://wiki.openstreetmap.org/wiki/HOT_activation), e progetti di lunga durata [Progetti Umanitari](http://hot.openstreetmap.org/projects).  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
+Per usare il Tasking Manager di HOT devi registrarti su OpenStreetMap (OSM) con un nome utente ed una password. Per ulteriori istruzioni leggi il [Tutorial Tasking Manager](http://learnosm.org/en/coordination/tasking-manager/).  
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
@@ -44,11 +44,11 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Advice & Words of Encouragement
+### Consigli e parole di incoraggiamento
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
+>  "Per impratichirsi si consiglia di iniziare da una zona locale conosciuta e provare a fare qualche modifica, come aggiornare un edificio dalle tue parti."  
+>  "Alcuni lavori sono più semplici di altri; se non ti ritrovi con uno, semplicemente lascialo perdere e provane un altro!" -Peter (@meetar)  
+> "Non è un problema se non finisci un lavoro; solo carica quello che hai fatto e sblocca il lavoro così che altri possano lavorarci su." - Peter (@meetar)  
 > "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
 > "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
  

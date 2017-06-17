@@ -9,10 +9,10 @@ category: osm-data
 Ottenere i dati OSM
 =================  
 
-> This guide may be downloaded as [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) or [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
+> Questa guida può essere scaricata come [Getting_OSM_Data_it.odt](/files/Getting_OSM_Data_it.odt) o [Getting_OSM_Data_it.pdf](/files/Getting_OSM_Data_it.pdf)  
 > Revisionato il 04-05-2016
 
-Quando vuoi ottenere i dati OpenStreetMap più recenti, il modo più semplice è scaricarne un estratto da un sito web. Ci sono diversi servizi web che forniscono estratti per un'area a tuo scelta.  
+Quando vuoi ottenere i dati OpenStreetMap più recenti, il modo più semplice è scaricarne un estratto da un sito web. Ci sono diversi servizi web che forniscono estratti per un'area a tua scelta.  
 
 Scaricare estratti di dati
 --------------------------
@@ -32,7 +32,7 @@ Scaricare estratti di dati
 >Ricorda che le caratteristiche in OpenStreetMap hanno un numero illimitato di tag "liberi",
 >ma gli shapefiles hanno un numero limitato di colonne dove registrano gli attributi. Ciò significa
 >che quando i dati OSM vengono convertiti in shapefiles, solo alcuni tag sono
->inculsi nella tabella attributi del shapefile. I siti indicati sopra forniscono shapefiles
+>inclusi nella tabella attributi del shapefile. I siti indicati sopra forniscono shapefiles
 >con un certo set di tag comuni, ma se tu vuoi estrarre tag specifici
 >allora devi usare uno o più servizi specializzati indicati nella prossima sezione
 >o imparare come esportare i dati da te.
@@ -67,28 +67,28 @@ Se vuoi costruirti una bella query per ottenere un subset di dati da un'area vas
 
 #### L'API Overpass
 
-[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) is a dedicated service optimized for querying but not writing OpenStreetMap data. Due to this optimization it operates very fast compared to the main database api and has virtually no limits on the amount of data transferred. Several instances of this service are available on the net, the one used in the following example also provides some information on [its homepage](http://overpass-api.de/)
+[API Overpass](http://wiki.openstreetmap.org/wiki/Overpass_API) è un servizio dedicato, ottimizzato per interrogare ma non per scrivere dati OpenStreetMap. Grazie a questa ottimizzazione è molto veloce in confronto alle api del database principale e virtualmente non ha limiti sulla quantità di dati trasferiti. Diverse istanze di questo servizio sono disponibili in rete, quello usato nell'esempio seguente fornisce anche delle informazioni sulla [sua homepage](http://overpass-api.de/)
 
-If you have a working query-URL for submitting an http-request to the Overpass API then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a script for the bash shell common on Unix systems which obtains all data within a specified bounding box:
+Se avete l'url di una query per sottoporre una richiesta http alle API Overpass, allora uno strumento come [wget](https://www.gnu.org/software/wget/) - disponibile per diversi sistemi operativi,  vedi  [qui](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - ti consente di scaricare i dati nativi OSM direttamente dal server e di memorizzarli localmente. Il seguente snippet è uno script per la shell bash sui sistemi Unix che recupera tutti i dati all'interno di un dato riquadro:
 
 ```
-echo lower left latitude
+echo latitudine angolo inferiore sinistro
 read ll_lat
-echo lower left longitude
+echo longitudine angolo inferiore sinistro
 read ll_lon
-echo upper right latitude
+echo latitudine angolo superiore destro
 read ur_lat
-echo upper_right longitude
+echo longitudine angolo superiore destro
 read ur_lon
-echo output file
+echo file di output
 leggi file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->What happens here (for the curious who do not want to read the full query language documentation)?  
->node(...) selects all nodes within a bounding box;  
->< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;  
->rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
+>Cosa succede qui (per il curioso che non vuole leggere la documentazione completa del linguaggio di interrogazione)?  
+nodi(...) seleziona tutti i nodi dentro un riquadro  
+><ricorsione all'insù completa, cioè seleziona tutte le way (linee) contenente questi nodi e tutte le relazioni contenenti questi nodi e way (linee);  
+>rel(br)seleziona tutte le relazioni-padre delle relazioni ottenute finora (altrimenti le relazioni superiori non sarebbero ottenute)
 >
 
 
@@ -96,7 +96,7 @@ wget -O $file "$url"
 Sommario
 -------  
 
-The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
+I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti di lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.  
 
 
 [hot exports]: /images/osm-data/hot-exports.png
