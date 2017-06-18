@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tagging - iD editor
+title: 標籤 - iD 編輯器
 permalink: /zh_TW/hot-tips/tagging/
 lang: zh_TW
 category: hot-tips
 ---
 
-Tagging - iD 編輯器
+標籤 - iD 編輯器
 ============
 
 - TOC
@@ -16,7 +16,7 @@ Tagging - iD 編輯器
 
 > 此圖像 ![keymon]{: height="24px"} 會顯示您使用了滑鼠上的哪些按鈕或滾輪，以及按下了哪些鍵盤按鈕。  
 
-為什麼需要 Tag
+為什麼需要標籤
 -------------------
 
 Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
