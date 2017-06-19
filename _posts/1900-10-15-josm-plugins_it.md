@@ -257,7 +257,7 @@ Caricamento online delle tracce GPS
 1. Andate 
 su [http://www.openstreetmap.org/](http://www.openstreetmap.org/) e collegatevi con il vostro nome utente.
 
-Selezionate "Tracciati GPS" nel banner a sinistra.
+2. Selezionate "Tracciati GPS" nel banner a sinistra.
 
 ![Left Banner][]
 
