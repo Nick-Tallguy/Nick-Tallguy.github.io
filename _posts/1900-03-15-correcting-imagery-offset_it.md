@@ -1,16 +1,16 @@
 ---
 layout: doc
-title: Correcting Imagery Offset
+title: Correggere lo scostamento delle immagini
 permalink: /it/josm/correcting-imagery-offset/
 lang: it
 category: josm
 ---
 
-Imagery Offset
+Scostamento delle immagini
 ===============
 
 > This guide may be downloaded as [correcting-imagery-offset_en.odt](/files/correcting-imagery-offset_en.odt) or [correcting-imagery-offset_en.pdf](/files/correcting-imagery-offset_en.pdf)  
-> Reviewed 2015-09-21  
+> Revisionato 2015-09-21  
 
 Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
 
