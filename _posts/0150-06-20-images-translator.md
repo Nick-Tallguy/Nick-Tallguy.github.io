@@ -102,7 +102,16 @@ Any problems, please make contact -
 - raise an issue on Transifex  
 - all of these means (and some others!) make their way to the same team. 
 
+![pull-request][]
+
+![comment-pull][]
+
+![compare-fork][]
+
 [Github 1]: /images/contribute/translate-image-header.png
 [Github 2]: /images/contribute/translate-image-upload.png
 [fork]: /images/contribute/translate-image-fork.png
 [Github 2]: /images/contribute/translate-image-upload.png
+[pull-request]: /images/contribute/creating_new_pull_request.png
+[comment-pull]: /images/contribute/comment_your_pull_request.png
+[compare-fork]: /images/contribute/choose_your_fork_to_compare.png
