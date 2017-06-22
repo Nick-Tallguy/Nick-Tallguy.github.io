@@ -29,7 +29,7 @@ The author of the project in the Tasking Manager does not know which editor the 
 
 If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
 
-### Tag 的簡單説明 ###
+### 標籤的簡單説明 ###
 
 If you select an item and click on **All tags** you will see a label such as  
 
@@ -44,22 +44,22 @@ or one of many other tags. For more detailed information on tagging buildings se
 
 See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### 關聯 - 像是有內院的建築，或是河中的島嶼 ###
 
 Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
 
 For more information on relations (**not a beginner subject**) see;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
+[LearnOSM - JOSM - 關聯](/en/josm/josm-relations/) 解釋關聯，但用不同的 OSM 編輯器，或是  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
 另見  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+要看更詳盡的標籤清單，請見 <https://wiki.openstreetmap.org/wiki/Map_Features>  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - 一分鐘教學影片")  
+*目前有些語言是有字幕*  
 
 
 
