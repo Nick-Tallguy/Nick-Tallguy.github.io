@@ -94,7 +94,7 @@ The three dashes are a computer instruction - just copy them. You can use this b
 
 is a computer instruction and should be copied across unchanged. The computer is not friendly and it will not accept any variations! The spacing must be exactly the same and it must be a colon. The safest thing to do is ![tx-copy-button][]{: height="34px"} and then click on ![tx-save][]{: height="34px"}  
 
-> If your is a right to left language, please add **-rtl** after **doc** so that it reads **layout: doc-rtl**  
+> If your is a right to left language, such as Arabic or Persian, please add **-rtl** after **doc** so that it reads **layout: doc-rtl**  
 
 ### permalink en beginner
 
@@ -112,13 +112,166 @@ In this example, with the language code **hu**, you need to change the string to
 
 and then save it.  
 
-> Some language codes have more than two letters, such as **zh_TW**.  Please ensure that you use your language code in exactly the same way as Transifex does.  
+Some language codes have more than two letters, such as **zh_TW**.  Please ensure that you use your language code in exactly the same way as Transifex does. The permalink for Taiwanese is;  
 
-ToDo  
-add another language for examples above - one using something like nl_NL or zh_TW  
-hidden text  
-images  
-Getting help - email, issues, transifex issues  
+      permalink: /zh_TW/beginner/
+
+### lang en
+
+      lang: en
+
+Copy this using the ![tx-copy-button][]{: height="34px"} button, then change the /en/ part so that it reads (for Taiwanese);  
+
+      lang: zh_TW
+
+### title Beginner's guide
+
+      title: Beginner's guide  
+
+Copy using the ![tx-copy-button][]{: height="34px"} button, then translate the text after **title:** - for Taiwanese this becomes (make sure there is a space after title:);  
+
+      title: 初學者指南  
+
+### category beginner  
+
+      category: beginner  
+
+Copy this and do not change anything - it remains as;  
+
+      category: beginner  
+
+### cover yes
+
+      cover: yes  
+
+Copy this and do not change anything - it remains as;  
+
+      cover: yes  
+
+### nosearch true
+
+      nosearch: true
+
+Copy this and do not change anything - it remains as;  
+
+      nosearch: true
+
+### Beginner's Guide
+
+Translate this - for Taiwanese it becomes;  
+
+      初學者指南  
+
+### line of equals signs
+
+Copy this and do not change anything - it remains as;  
+
+      ======
+
+### This guide shows step by step how to get started etc
+
+Translate this in full - the full phrase in Taiwanese becomes;  
+
+      初學者指南將會導引你一步一步進入開放街圖的世界。你會學會  
+
+### how to set up an account etc
+
+Translate the full string(s) - for Taiwanese this becomes;  
+
+      會如何申請帳號，如何使用地圖繪圖軟體，以及如何到外實地探查  
+
+### and collect information to put on the map etc
+
+Translate the full strings until you reach the;  
+
+      [HOT Remote Mapping](/en/coordination/)  
+
+For Taiwanese this becomes;  
+
+      [人道主義開放街圖團隊遠端製圖](/zh_TW/coordination/) 的資訊  
+
+so that the full string for Taiwanese is;  
+
+      ，收集資訊畫到地圖上。協作章節包含了關於[人道主義開放街圖團隊遠端製圖](/zh_TW/coordination/) 的資訊  
+
+Notice that the language code has been changed from **en** to **zh_TW**  
+
+### This guide may be downloaded as etc
+
+      > This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+
+in Taiwanese this becomes;  
+
+      > 此指南能以 [beginner_zh_TW.odt](/files/beginner_zh_TW.odt) 或 [beginner_zh_TW.pdf](/files/beginner_zh_TW.pdf) 下載  
+
+The language code has been changed each time it appeared, and the parts of the text not in \[ \] \( or \) have been translated.
+
+### Reviewed 2017 etc
+
+      > Reviewed 2015-07-12  
+
+in Taiwanese becomes;  
+
+      > 2015-07-12 審閱  
+
+The \> remains, **Reviewed** is translated, and the date is put into a format that would be understood (The date in this section uses the format)  
+
+      Year-month-day of month  
+
+ > Don't forget you can review your translations on <http://nick-tallguy.github.io/en/> - this site updates roughly once a day.  
+
+
+## 0200-12-29-introduction  
+
+The first parts of this module follows the pattern you have learnt whilst translating the beginner module, but there are some additional things to be aware of.
+
+### A village in Indonesia
+
+      ![A village in Indonesia][]
+
+This is all computer instruction, use ![tx-copy-button][]{: height="34px"} and then click on ![tx-save][]{: height="34px"}  
+
+it remains as;  
+
+      ![A village in Indonesia][]
+
+Sometimes you will see the image link with extra information, such as this link for the ![tx-save][]{: height="34px"} button;  
+
+      ![tx-save][]{: height="34px"}
+
+copy it unchanged.  
+
+Please do this for all of the image links that you find whilst translating.  
+
+### A village in Indonesia - the anchor
+
+Near the end of translating a module you will find the anchor's for the image links. The anchor for \!\[A village in Indonesia\]\[\] appears as;  
+
+      [A village in Indonesia]: /images/beginner/village-in-indonesia.png  
+
+and should be copied across unchanged.  
+
+      [A village in Indonesia]: /images/beginner/village-in-indonesia.png  
+
+## Hidden Text
+
+Some text is hidden from the normal viewers, perhaps as instructions, or more likely as something which will be expanded upon later. It takes the form of;  
+
+      <!-- all of the text between these markers is hidden -->  
+
+You do not need to translate this text, but please copy it across unchanged (so that your translation is at 100% when you finished, and it will then be copied across to the main site. Sometimes the hidden text can be extremely large, extending over several paragraphs.  
+
+Any problems, please make contact   
+-----------------------------------
+
+- send an email to <learnosm@hotosm.org>  
+- send an email from the contribute section of <http://nick-tallguy.github.io/en/>, or  
+- raise an issue on Github at <https://github.com/hotosm/learnosm/issues>, or  
+- raise an issue on Transifex  
+
+All of these means (and some others!) make their way to the same team.  
+
+<!--
 Links to Transifex guides  
 
 -----------------------------------------------------------
@@ -185,7 +338,7 @@ as should the file link which relates to it, which will probably be at the foot 
 `[image1]: /images/beginner/id-editor_image1.png`    
 
 The spaces at the beginning of lines of text are formatting instructions that the text and images should be indented. There are often two spaces at the end of a line of text, which is also a formatting instruction, as is  `>`  if it is at the beginning of a line. 
-
+-->
 
 [up-arrow]: /images/arrow-up.png
 [tx-copy-button]: /images/contribute/tx-copy-button.png
