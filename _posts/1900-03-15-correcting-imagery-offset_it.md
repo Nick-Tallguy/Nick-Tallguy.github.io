@@ -9,27 +9,27 @@ category: josm
 Scostamento delle immagini
 ===============
 
-> This guide may be downloaded as [correcting-imagery-offset_en.odt](/files/correcting-imagery-offset_en.odt) or [correcting-imagery-offset_en.pdf](/files/correcting-imagery-offset_en.pdf)  
+> Questa guida può essere scaricata come  [correcting-imagery-offset_it.odt](/files/correcting-imagery-offset_it.odt) o [correcting-imagery-offset_it.pdf](/files/correcting-imagery-offset_it.pdf)  
 > Revisionato 2015-09-21  
 
-Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
+I fornitori di foto aeree o satellitari normalmente fanno un buon lavoro nel georeferenziare le immagini, ma a volte queste immagini possono risultare leggermente traslate. Questo accada più spesso in aree collinari o montuose, dove può essere difficoltoso stirare un'immagine piatta su un'area con molti sbalzi di altitudine. Quando tu carichi una di queste immagini in JOSM, a volte in alcuni punti possono esserci scostamenti di 10 o più metri. Questo è chiamato **imagery offset** (scostamento dell'immagine).  
 
-Notice in the following image that two separate aerial photographs have been georeferenced and merged together.  Because georeferencing is not a perfect process, the images do not line up perfectly with each other.  Hence one, or both, must be inaccurate.  
+Nota che nella seguente immagine due foto aeree separate sono state georeferenziate e unire assieme. Proprio perchè la georeferenziazione non è un processo perfetto, le immagini non si allineano perfettamente le une con le altre. Quindi una, o entrambe, possono risultare non accurate.  
 
 ![Misaligned imagery][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial imagery to identify features on the ground, and another is by using GPS to record tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial imagery is obvious.  It enables you, the mapper, to see the whole picture, to observe various details from the image, consider your knowledge of the area, and easily trace roads, buildings, and areas.  One key advantage of GPS however, is that it doesn't suffer from offset like imagery.  A GPS will always provide you with a correct latitude and longitude.  The only exception is when the satellite signals are interrupted by tall buildings or mountains, but in this case it is easy to recognize the error.  Observe the GPS trace in this image, compared with the Bing aerial imagery layer beneath it:  
+Abbiamo imparato i due principali modi di fare mappe - uno è utilizzando immagini aeree per identificare oggetti sul suolo, un altro è usando un GPS per registrare tracce e waypoint e aggiungerli a OpenStreetMap. Il vantaggio delle foto aeree è ovvio. Il mappatore può vedere l'intera immagine, osservare i vari dettagli in essa, integrare a questo la tua conoscenza dell'area, e tracciare con facilità strade, edifici e aree. Un vantaggio chiave del GPS è che non soffre del problema dello scostamento come accade con le immagini. Un GPS ti fornisce (quasi) sempre la corretta latitudine e longitudine. Le eccezioni sono quando i segnali dei satelliti sono oscurati o degradati da alti palazzi, montagne e da una superficie boscosa, ma in questo caso dovrebbe essere facile riconoscere l'errore. Osserva la traccia Gps in questa immagine, confrontata con l'immagine aerea di Bing visibile sotto.  
 
 ![Aerial vs GPS][]
 
 Because of what we now know, it is clear that the GPS trace is likely to be accurate, and the image beneath it is out of place. So now we must ask, “if the imagery may be out of place, how can we still use it and make accurate maps?”  
 
-Correcting Imagery Offset
+Correggere lo scostamento dell'immagine
 -------------------------
 
-The answer to the preceding question is that we can move the imagery so that it aligns with things that we know are in the correct location, such as GPS tracks. It is easy to correct imagery offset in JOSM.  
+La risposta alle precedenti domande è che noi possiamo muovere l'immagine allineandola agli oggetti che noi sappiamo essere nella giusta posizione, come una traccia GPS precisa. In JOSM è facile correggere lo scostamento di immagini.   
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the more GPS tracks that you have to reference, the more accurate you will be able to align your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database, we can download them and use them to align our imagery.  
+Il miglior riferimento per correggere lo scostamento di un'immagine sono le tracce GPS, possibilmente precise, che seguono le strade. E più alto è il numero di tracce che hai, più accuratamente sarai in grado di allineare le immagini. Visto che gli utenti OpenstreetMap spesso caricano le loro tracce grezze GPS nel database OSM, noi possiamo scaricarle e usarle come riferimento per allineare le immagini.  
 
 - Click on the download button. ![JOSM download button][]{: height="24px"}  
 

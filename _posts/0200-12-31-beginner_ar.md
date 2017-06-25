@@ -1,7 +1,7 @@
 ---
-التخطيط: وثيقة
-permalink: /en/beginner/
-lang: en
+layout: doc-rtl
+permalink: /ar/beginner/
+lang: ar
 title: Beginner's guide
 category: beginner
 cover: yes
