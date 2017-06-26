@@ -35,11 +35,11 @@ Il miglior riferimento per correggere lo scostamento di un'immagine sono le trac
 
 - Check the box next to “Raw GPS Data” ![Download raw GPS data][]{: height="24px"} near the top of the Download window. Select your area and click “Download.”  
 
-- This will download an additional layer to JOSM containing GPS tracks. Depending on how many tracks have been uploaded by OSM users, you may see few tracks (or even no tracks):  
+- Questo scaricherà un layer addizionale in JOSM contenente le tracce GPS. A seconda di quante tracce siano state caricate dagli utenti OSM, tu potrai vedere alcune tracce (o anche nessuna).  
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- O, puoi vedere molte tracce.  
 
 ![Many GPS tracks from OSM][]
 
@@ -52,7 +52,7 @@ Il miglior riferimento per correggere lo scostamento di un'immagine sono le trac
 - If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
 - If you do not want to save the offset, simply click OK without entering a bookmark name.  
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+Che fare se non ci sono tracce GPS su OpenStreetMap, e non hai un GPS? Senza tracce GPS è difficoltoso allineare immagini. Se è un'area relativamente vuota (con poco o nulla di mappato), tu puoi scegliere semplicemente di usare le immagini così come sono e correggere i dati successivamente. E' sempre maglio mappare un'area anche con 20 o 30 metri di scostamento che non mapparla affatto.  
 
 If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
 
