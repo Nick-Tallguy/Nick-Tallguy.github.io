@@ -49,6 +49,17 @@ translations:
     getstarted: "Get started"
     returntotop: "Return to top of page"
     quickaccess: "Quick access"
+  ar:
+    tagline: "تعلم OpenStreetMap خطوة بخطوة"
+    contribute: "ساعد في تحسين دلائلنا"
+    trainingspan: "هل أنت منظم ورشة عمل؟"
+    training: "تحقق من المواد التدريبية لهذا الدليل (بالإنجليزية)"
+    feedbackspan: "هل كان هذا الفصل مفيدا؟"
+    feedback: "دعونا نعرف وساعدونا في تحسين دلائلنا!"
+    getstarted: "البدء"
+    language: "Arabic"
+    quickaccess: "ولوج سريع"
+    returntotop: "رجوع الى أعلى الصفحة"
   ca:
     tagline: "Apreneu sobre l'OpenStreetMap pas a pas"
     contribute: "Ajudeu-nos a millorar les guies"
@@ -134,7 +145,7 @@ translations:
     feedbackspan: "ಈ ಅಧ್ಯಾಯವು ಉಪಯುಕ್ತವಾಗಿದೆಯೆ?"
     feedback: "ಕೈಪಿಡಿಗಳನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ನಮಗೆ ಸಹಾಯ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ತಿಳಿಸಿರಿ"
     getstarted: "ಪ್ರಾರಂಭಿಸಿ"
-    language: "Replace all of this text with the one word to be used in the 'language switcher', such as English, Español, or Русский"
+    language: "kn"
     quickaccess: "Quick access"
     returntotop: "Return to top of page"
   my:
