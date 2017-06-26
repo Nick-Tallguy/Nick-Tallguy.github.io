@@ -1,10 +1,10 @@
---- 
-layout: وثيقة
+---
+layout: doc-rtl
 title: قراءة متعمقة
-permalink: /en/beginner/moving-forward/
-lang: إنجليزية
-category: مبتدئ
---- 
+permalink: /ar/beginner/moving-forward/
+lang: ar
+category: beginner
+---
 
 قراءة متعمقة
 =============== 
@@ -40,7 +40,7 @@ The best way to get connected to the OpenStreetMap user community is to join you
 
 للاشتراك في القائمة البريدية لبلدك، افتح متصفح الإنترنت وانتقل إلى [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
-![القائمة البريدية][]
+![Mailing list][]
 
 مرر لأسفل الصفحة للعثور على القائمة المقترنة ببلدك. قوائم البلد مسماة "Talk-lg"، حيث lg تمثل بلد تلك القائمة. فمثلا، "Talk-id" هي قائمة لأندونيسيا.  
 

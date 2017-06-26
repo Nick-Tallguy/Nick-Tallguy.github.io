@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: OSM Data Overview
+title: Panoramica sui dati di OSM
 permalink: /it/osm-data/data-overview/
 lang: it
 category: osm-data

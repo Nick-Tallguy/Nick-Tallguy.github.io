@@ -12,7 +12,7 @@ Formati di file
 > Questa guida può essere scaricata come [File_Formats_it.odt](/files/File_Formats_it.odt) oppure [File_Formats_it.pdf]/files/File_Formats_it.pdf)  
 > Revisionato il 05/09/2016
 
-Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
+Come per molti tipi di dati, ci sono molti metodi per salvare nel computer dati di tipo geografico. Si possono salvare all'interno di "database", ovvero sistemi in grado di salvare ed esportare dati, e all'interno dei "database" ce ne sono alcuni, specificatamente progettati per i dati geografici. Si può anche salvare dati geografici all'interno del computer come un file tradizionale, tuttavia esistono molti formati di file specifici per i dati geografici.   
 
 In this section we'll go through a few ways of storing geographic data, explain how they work and how they're typically used.  
 

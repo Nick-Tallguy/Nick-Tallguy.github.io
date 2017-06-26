@@ -35,11 +35,11 @@ Il miglior riferimento per correggere lo scostamento di un'immagine sono le trac
 
 - Check the box next to “Raw GPS Data” ![Download raw GPS data][]{: height="24px"} near the top of the Download window. Select your area and click “Download.”  
 
-- This will download an additional layer to JOSM containing GPS tracks. Depending on how many tracks have been uploaded by OSM users, you may see few tracks (or even no tracks):  
+- Questo scaricherà un layer addizionale in JOSM contenente le tracce GPS. A seconda di quante tracce siano state caricate dagli utenti OSM, tu potrai vedere alcune tracce (o anche nessuna).  
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- O, puoi vedere molte tracce.  
 
 ![Many GPS tracks from OSM][]
 
@@ -50,14 +50,14 @@ Il miglior riferimento per correggere lo scostamento di un'immagine sono le trac
 ![Adjust imagery offset][]
 
 - If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
-- If you do not want to save the offset, simply click OK without entering a bookmark name.  
+- Se non vuoi salvare l'offset, fai semplicemente click su OK senza inserire un nome per il segnaposto.  
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+Che fare se non ci sono tracce GPS su OpenStreetMap, e non hai un GPS? Senza tracce GPS è difficoltoso allineare immagini. Se è un'area relativamente vuota (con poco o nulla di mappato), tu puoi scegliere semplicemente di usare le immagini così come sono e correggere i dati successivamente. E' sempre maglio mappare un'area anche con 20 o 30 metri di scostamento che non mapparla affatto.  
 
-If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
+Se puoi identificare con sicurezza la latitudine e la longitudine di un oggetto sul terreno, puoi assicurarti che l'immagine sia correttamente posizionata seguendo questi passaggi:  
 
-1. Identify the object whose position you know on the imagery.  
-2. Click on the latitude and longitude in the bottom left corner of JOSM.![JOSM lat lon][]{: height="24px"}  
+1. Identifica nell'immagine l'oggetto la cui posizione è nota.  
+2. Fai click sulla latitudine e longitudine nell'angolo in basso a sinistra di JOSM.![JOSM lat lon][]{: height="24px"}  
 3. In the dialog that opens, enter the latitude and longitude of the place that you know, and enter a small number for Zoom, about five or ten.  
 ![JOSM lat lon dialogue][]
 4. This will zoom and center the map to your longitude and latitude.  Now you can move the imagery as you did previously so that the feature you know is centered at the correct position.  
