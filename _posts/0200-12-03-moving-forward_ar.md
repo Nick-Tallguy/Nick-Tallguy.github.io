@@ -1,9 +1,9 @@
 --- 
-layout: وثيقة
+layout: doc-rtl
 title: قراءة متعمقة
-permalink: /en/beginner/moving-forward/
-lang: إنجليزية
-category: مبتدئ
+permalink: /ar/beginner/moving-forward/
+lang: ar
+category: beginner
 --- 
 
 قراءة متعمقة
