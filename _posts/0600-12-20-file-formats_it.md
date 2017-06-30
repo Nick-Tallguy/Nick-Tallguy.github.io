@@ -14,53 +14,53 @@ Formati di file
 
 Come per molti tipi di dati, ci sono molti metodi per salvare nel computer dati di tipo geografico. Si possono salvare all'interno di "database", ovvero sistemi in grado di salvare ed esportare dati, e all'interno dei "database" ce ne sono alcuni, specificatamente progettati per i dati geografici. Si può anche salvare dati geografici all'interno del computer come un file tradizionale, tuttavia esistono molti formati di file specifici per i dati geografici.   
 
-In this section we'll go through a few ways of storing geographic data, explain how they work and how they're typically used.  
+In questa sezione passeremo in rassegna alcuni modi di immagazzinare dati geografici, spiegando come lavorano e come vengono usati normalmente.  
 
 file .OSM
 -----------
 
-The **.osm** file format is specific to OpenStreetMap. You won't come across it elsewhere. If you have ever downloaded data using JOSM and saved it as a file, you may have noticed that the file is saved with the extension **.osm**. If you are a GIS user, you may also have noticed that it is not easy to open these files using software such as QGIS.  
+il formato di file **.osm** è specifico di OpenStreetMap. Non ci ti imbatti in altro modo. Se hai mai scaricato file usando JOSM e salvandoli come file, ti sarai potuto accorgere che non è facile aprire questi file usando software come QGIS.  
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that many geographic data formats predate the modern internet era, and are designed for quick access and querying like one would query a database. OSM data, on the other hand is designed to be easily sent and received across the internet in a standard format. Hence, **.osm** files are coded in XML, and contain geographic data in a structured, ordered format. A simple **.osm** file would look like this if viewed in a text editor:  
+Ma perchè OSM salva i dati in un formato che nessun altro usa? La risposta è che molti formati di dati geografici risalgono a prima dell'invenzione di internet, e sono progettati per accedervi velocemente e interrogarli come si interrogherebbe un database. I dati OSM invece sono progettati per poter essere trasmessi e ricevuti via internet in un formato standard. Perciò i file **.osm** sono codificati in XML, e contengono dati geografici in un formato ordinato e strutturato. Un file **.osm** se aperto con un editor di testo assomiglierebbe a questo:  
 
 ![Sample OSM XML file][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you download data in JOSM, but using these files for analysis and map design is not easy. Hence you are better off converting the data into another format, or getting it from a service that converts the data for you.  
+Ottenere dati in formato  **.osm** è facile - accade ogni volta che tu scarichi dati in JOSM, ma usare questi file per analisi e costruire mappe non è semplice. Per fare ciò è meglio che converti i dati in un altro formato, o li scarichi da un servizio che li converte per te.  
 
-> Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
+>I dati grezzi OSM sono normalmente immagazzinati in file **.osm**, ma puoi trovare anche file con estensioni **.bz2** e **.pbf**. Questi sono sempre file **.osm** che sono stati compressi per salvare spazio, che può essere molto utile quando lavori con grossi file di dati.  
 
 Shapefiles
 ----------
 
-The **shapefile** is a widely used format for storing vector geographic data. It was developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.  
+Il **shapefile** è un formato ampiamente usato per immagazzinare dati geografici vettoriali. E' stato sviluppato dalla ESRI, la società che sviluppa ArcGIS, un popolare pacchetto di applicazioni GIS.  
 
-Shapefiles are actually a collection of several different files. For example, a shapefile that contains building data might have files with the following extensions:  
+In realtà gli Shapefile sono una collezione di differenti file. Per esempio, uno shapefile che contiene edifici potrebbe avere file con le seguenti estensioni:  
 
--	buildings.**shp**
--	buildings.**shx**
--	buildings.**dbf**
+-buildings.**shp**
+buildings.**shx**
+-buildings.**dbf**
 
-Shapefiles will often have additional files too which contain other information.  
+Gli Shapefile avranno spesso ulteriori file che contengono altre informazioni.  
 
-A shapefile must be designated to hold only one type of feature (points, lines, or polygons), and each feature has it's attributes contained in a table. Unlike the OpenStreetMap system in which every object can have an unlimited number of tags, the attributes of features in a shapefile must fit into the shapefile's defined table structure, which might look something like this:  
+Uno shapefile deve essere progettato per contenere solo un tipo di caratteristiche (punti, linee o poligoni), e ogni caratteristica ha i suoi attributi contenuti in una tabella. Contrariamente al sistema OpenStreetMap in cui ogni oggetto può avere un numero illimitato di tag, gli attributi di una caratteristica in un shapefile devono stare all'interno della struttura definita della tabella dello shapefile, che potrebbe somigliare a questa:  
 
 ![Shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
+I dati OpenStreetMap possono essere convertiti in shapefile. Alcuni siti forniscono shapefile convertiti da dati OSM. Questi saranno discussi nel [prossimo capitolo](/en/osm-data/getting-data).  
 
 I database
 ---------
 
-Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  
+Molti tipi di informazioni vengono immagazzinate in sistemi di database, che forniscono un metodo logico per organizzare e accedere ai dati. I dati geografici non sono differenti, sebbene i database progettati per i geodati sono specializzati nel gestire funzioni complesse richieste dalle interrogazioni geografiche.    
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
+I dati OpenStreetMap sono spesso immagazzinati in database PostgreSQL con estensioni PostGIS. Questo tipo di database fornisce un accesso veloce ai dati e può essere facilmente usato con Mapnik, un software che crea le tiles (piastrelle, mattonelle) delle mappe a trascinamento usate nel web. Esistono parecchi strumenti disponibili per importare dati grezzi OSM in un database PostgreSQL.  
 
-Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
+Un altro tipo di database è conosciuto come SQLite, che fornisce funzionalità similari e quelle di un database PostgreSQL, ma dove tutto viene immagazzinato in un singolo file e non richiede alcun software di gestione database per poter girare. Questo tipo è leggermente più complicato da creare da sè, ma può essere più facile per lavorare con piccoli set di dati.  
 
 Sommario
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+Nel seguente capitolo vedremo come scaricare dati in diversi formati da internet, e come puoi usare diversi strumenti per manipolare da te questi dati grezzi.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png
