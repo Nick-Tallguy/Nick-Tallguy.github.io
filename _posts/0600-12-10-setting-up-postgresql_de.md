@@ -25,62 +25,62 @@ Her findet man Installationsanleitungen für verschiedene Betriebssysteme. Man k
 Die Seite erklärt, was das One-Click Installationsprogramm macht. Es installiert drei unterschiedliche Komponenten:  
 
 * **PostgreSQL Server**: Die Datenbank Software, die Kernkomponente  
-* **pgAdmin III**: The graphical interface for managing your databases  
-* **StackBuilder**: A tool for adding additional applications; we will use this for adding the PostGIS extensions  
+* **pgAdmin III**:  Das grafische Interface zur Datenbankverwaltung  
+* **StackBuilder**: Ein Werkzeug zum Hinzufügen weiterer Anwendungen; wir verwenden es um die PostGIS Erweiterungen hinzuzufügen  
 
-Click on **Download**.  
+Man klickt auf **Download**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version. As of this writing it is version 9.3.1. Click on the button that says **Win x86-32**.  This is the installer for the 32-bit version of Windows.  
+Man sieht unterschiedliche Installationsoptionen für unterschiedliche Versionen der PostgreSQL Software. Man lädt die aktuellste Version herunter. Aktuell ist es die Version 9.3.1. Man klickt auf den Button **Win x86-32**. Das ist das Installationsprogramm der 32-Bit Version für Windows.  
 
 ![postgresql version][]
 
-When it has finished downloading, run the One-Click Installer.  
+Wen das herunterladen beendet ist, startet man das One-Click Installationsprogramm.  
 
 ![install 1][]
 
-Click “**Next**” to navigate through the installation wizard.  The default options should be fine. You will need to provide a password for the first database user (the user is postgres).  This user has superuser privileges, meaning that they can do whatever they want, so don’t forget the password that you use!  
+Man klickt "**Weiter**" um durch den Installationsassistenten zu kommen. Die Standardoptionen sollten in Ordnung sein. Man muss für den ersten Datenbankbenutzer (der Benutzer heißt postgres) ein Passwort bereit halten. Der Benutzer hat superuser Rechte was bedeutet, dass er alles was er tun möchte tun kann, also nicht das verwendete Passwort vergessen!  
 
-> You can create as many databases as you want using Postgresql.  You might want a database for your geographic data, and separate databases for other projects that you are working on. And you may want different people to have different types of access to these databases.  For this purpose, every database that you create uses the concept of **users** and **roles**.  A database must always be owned by a user, and usually that user will need a password in order to make changes to the database.  Additional users can be given permission to access a database, and they can be given certain roles.  For example, you may want a database user that can only read information from the database, but cannot change it.  Or you may want a user that can add data, but does not have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too much about this, just remember that your database is owned by a **user**, and to access the database you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**, meaning they have permission to do everything with the databases.  
+> Man kann mit PostgreSQL beliebig viele Datenbanken anlegen. Man möchte gegebenenfalls eine Datenbank für die geografischen Daten und separate Datenbanken für andere Projekte an denen man arbeitet. Und man möchte gegebenenfalls unterschiedliche Benutzer mit unterschiedlichem Zugang zu diesen Datenbanken. Zu diesem Zwecke nutzt jede erstellte Datenbank das **Benutzer** und **Rollen** Konzept. Eine Datenbank gehört immer einem Benutzer und dieser Benutzer benötigt ein Passwort um Änderungen an der Datenbank vornehmen zu können. Zusätzlichen Benutzern können Rechte und bestimmte Rollen für den Zugriff auf eine Datenbank gegeben werden. Man möchte zum Beispiel einen Datenbankbenutzer, der nur Informationen aus der Datenbank lesen kann, aber nicht ändern. Oder einen Benutzer der Daten hinzufügen, aber nicht löschen kann. Das ist mit Benutzern und Rollen möglich. Wir werden uns nun nicht weiter damit beschäftigen, aber behalten im Kopf, dass die Datenbank einem **Benutzer** gehört und dass man für den Zugriff auf die Datenbank den Benutzernamen und Passwort braucht. Der erste angelegte Benutzer (genannt postgres) ist ein **superuser**, was bedeutet dass diese die Rechte dazu haben, alles mit den Datenbanken anzustellen.  
 
-After you have clicked through the wizard and accepted the default configuration options, the wizard will install everything for you.  It may take a few minutes.  
+Nachdem man sich durch den Assistenten geklickt und die Standardkonfigurationsoptionen akzeptiert hat, installiert der Assistent alles für einen. Dies kann einige Minuten dauern.  
 
-When the installation is complete, the wizard will ask you if you want to launch StackBuilder, which is the utility that will allow us to install PostGIS.  Make sure the box is checked before you click “**Finish**.”  
+Wenn die Installation komplett ist, fragt der Assistent ob man StackBuilder starten möchte, das Werkzeug welches uns erlaubt PostGIS zu installieren. Man versichert sich, dass das Kontrollkästchen angehackt ist ehe man auf "**Beenden**" klickt.  
 
 ![install 2][]
 
-Now we’ve successfully installed PostgreSQL and we need to add the PostGIS extensions. When the StackBuilder wizard opens, select your PostgresSQL installation from the dropdown menu and click **Next**.  It will look something like this:  
+Wir haben nun erfolgreich PostgreSQL installiert und müssen noch die PostGIS Erweiterungen hinzufügen. Wenn der StackBuilder Assistent sich öffnet, wählt man die PostgreSQL Installation aus dem Auswahlmenü und klickt **Weiter**. Es wird so ähnlich aussehen:  
 
 ![install 3][]
 
-Open the “Spatial Extensions” tab and check the box next to PostGIS. As of this writing the most recent version of PostGIS is 2.1.  
+Man öffnet das "Spatial Erweiterungen" Tab und klickt die Box neben PostGis an. Die beim Schreiben dieses Textes aktuelle Version von PostGIS ist 2.1.  
 
 ![install 4][]
 
-Click **Next** to download the extensions and install.  When prompted, click “**I Agree**” to accept the terms and conditions.  
+Zum Herunterladen und Installieren klickt man **Weiter**. Man klickt "**Ich stimme zu**", wenn nach dem Akzeptieren der Geschäftsbedingungen gefragt wird.  
 
-The PostGIS installer will ask more questions, but generally the default options are fine. You can tell it to create the first database automatically, but we will learn how to do that ourselves next. To begin the PostGIS installation you will need to supply the postgres password that you created when you installed PostgreSQL.  
+Das PostGIS Installationsprogramm wird mehrere Fragen stellen, die Standardoptionen sind aber meistens in Ordnung. Man kann die erste Datenbank automatisch erstellen lassen, aber wir werden als nächstes lernen wie man dies selbst macht. Um die PostGIS Installation zu starten, muss man das postgres Passwort angeben, das man erstellt hat als man PostgreSQL installiert hat.  
 
 ![install 5][]
 
-If you are asked to register the **GDAL_DATA** environment variable, click "**Yes**."  
+Wenn man gefragt wird, ob die **GDAL_DATA** Umgebungsvariable registriert werden soll, klickt man "**Ja**".  
 
 ![install 6][]
 
-When the installation is completed, click “**Close**” and then “**Finish**.”  
+Wenn die Installation komplett ist, klickt man "**Schließen" und dann "**Beenden**".  
 
-Creating a Database
+Eine Datenbank erstellen
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.  
+Da wir nun alle notwendige Software installiert haben, können wir eine Datenbank erstellen. Wir verwenden pgAdmin III, ein grafischer Datenbank Klient zur Abfrage und Änderung von
+Datenbanken.  
 
 ![pgadmin3][]
 
-PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin III is an easy way to get started.  
+PgAdmin III ist der offizielle Klient für PostgreSQL und erlaubt die Verwendung der SQL Sprache um Datentabellen zu bearbeiten. Man kann auch Datenbanken von der Kommandozeile aus erstellen und bearbeiten, aber im Moment ist pgAdmin III ein leichter Einstieg.  
 
-Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.  
+Man öffnet pgAdmin III. Man findet es im Startmenü unter Alle Programme -> PostgreSQL 9.3 -> pgAdmin III.  
 
 ![pgadmin3 start][]
 

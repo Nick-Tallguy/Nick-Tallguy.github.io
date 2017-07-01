@@ -2,19 +2,19 @@
 layout: doc-rtl
 permalink: /ar/beginner/
 lang: ar
-title: Beginner's guide
+title: دليل المبتدئ
 category: beginner
 cover: yes
 nosearch: true
 ---
 
-Beginner's Guide
+دليل المبتدئ
 ================
 
 
-This guide shows step by step how to get started with OpenStreetMap. You will learn
-how to set up an account, how to use basic map editing software, and in later chapters you can learn how to go outside
-and collect information to put on the map. The coordination chapters contain information about [HOT Remote Mapping](/en/coordination/) 
+يوضح هذا الدليل خطوة بخطوة كيفية البدء باستخدام OpenStreetMap, سوف تتعلم
+كيفية إعداد حساب، كيفية استخدام برنامج تحرير الخرائط الأساسية، وفي الفصول اللاحقة يمكنك معرفة كيفية الذهاب خارجا
+وجمع المعلومات لوضعها على الخريطة. تحتوي فصول التنسيق معلومات حول [HOT Remote Mapping](/en/coordination/) 
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
-> Reviewed 2015-07-12  
+> قد يكون تحميل هذا الدليل كـ [beginner_en.odt](/files/beginner_en.odt) أو [beginner_en.pdf](/files/beginner_en.pdf)  
+تمت مراجعته 2015-07-12  
