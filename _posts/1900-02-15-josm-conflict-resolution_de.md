@@ -92,122 +92,122 @@ Konflikts.
 Es werden drei Tabellen angezeigt in diesem Dialog, von links nach rechts:
 
 1. Meine Version: zeigt die Tags der ersten beteiligten Objektversion
-    in this conflict. These are usually the tags of the object version
-    in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
-    empty. The more tag conflicts you resolve, the more tag values will
-    we be displayed in this table.
-3.  Their version: shows the tags of the second object version
-    participating in this conflict. These are usually the tags of the
-    object version currently stored on the server.
+    in diesem Konflikt. Das sind in der Regel die Tags der Objektversion
+    im lokalen Datensatz.
+2. Vereinigte Version: zeigt die vereinigten Tags. Diese Tabelle ist anfangs
+    leer. Je mehr Tag Konflikte man löst, umso mehr Tagwerte werden
+    in der Tabelle angezeigt.
+3. Andere Version: zeigt die Tags der zweiten Objektversion
+    die an diesem Konflikt beteiligt ist. Das sind in der Regel die Tags der
+    auf dem Server gespeicherten Objektversion.
 
-In the example below both versions have a tag "name". The values in the
-two object versions are different, though, and JOSM therefore displays
-the row with a red background. The value of the first version is
-"Secondary School", the opposite version has a value "Elementary
-School". You now have to decide which of these values you want to keep
-and which you want to discard.
+Im folgenden Beispiel haben beide Versionen ein Tag "name". Die Werte in den
+beiden Objektversionen sind unterschiedlich, deshalb zeigt JOSM
+die Zeile mit rotem Hintergrund. Der Wert der ersten Version ist
+"Secondary School", die andere Version hat den Wert "Elementary
+School". Man muss nun entscheiden welchen der Werte man behalten möchte
+und welchen man verwerfen möchte.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Click on the value you want to keep, in the example for instance on the
-value on the left. If you either double-click on the value or click on
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
-opposite value. The table in the middle now displays the value to keep
-and the background color turns to green.
+Man klickt auf den Wert, den man behalten möchte, im Beispiel auf den
+linken Wert. Wenn man entweder auf den Wert doppelt klickt oder auf
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), entscheidet man sich den Wert zu behalten und zuverwerfen
+den andern Wert. Die Tabelle in der Mitte zeigt nun den zu behaltenen Wert
+und die Hintergrundfarbe wird grün.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
-The values you've chosen will be applied and the dialog will be closed.
+Falls der Button Lösung anwenden aktiviert ist, kann man seine Entscheidung umsetzen.
+Die ausgewählten Werte werden angewandt und der Dialog geschlossen.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-## Resolving differences in the node list of two versions of a way
+## Unterschiede in den Nodelisten von 2 Versionen eines Weges
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
-have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
-are three columns in the respective panel (see screen shot below):
+Sieht man das Symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) im Tab Nodes dann 
+muss man Unterschiede lösen in den Listen der
+[Nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) von zwei
+[Wegen](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). Dort
+gibt es drei Spalte in der entsprechenden Leiste (siehe Bildschirmfoto unten):
 
-1.  the leftmost table displays the list of nodes of the the local
+1. die linke Tabelle zeigt die Nodeliste der lokalen
     Objektversion
-2.  the rightmost table displays the list of nodes of the the server
+2. die rechte Tabelle zeigt die Nodeliste des Servers
     Objektversion
-3.  the table in the middle shows the list of nodes of the merged ways
+3. die mittlere Tabelle zeigt die Nodeliste des vereinigten Weges.
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+Am Anfang ist die mittlere Tabelle leer. Man entscheidet nun welche Nodes
+des lokalen Datensatzes (die linke Tabelle) man behalten möchte und welche des
+Server Datensatzes (der rechten Tabelle).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### Das Standard Vorgehen
 
-The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
-of three steps:
+Das Standard Vorgehen, um Konflikte zu lösen in der Nodeliste zweier
+[Objekt
+Versionen](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) besteht
+aus drei Schritten:
 
-1.  Pick nodes from either object version and reorder the resulting node
-    list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
-3.  Apply the resolution
+1. Man nimmt Nodes von jeder Objektversion und sortiert die gesammelten Node
+    Liste falls notwendig
+2. Fixiere die gesammelte, vereinte Nodeliste durch klicken auf den Button
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). Wenn man die vereinigte Nodeliste fixiert, 
+    sagt man JOSM, dass alle Konflikte in der Nodeliste gelöst sind.
+3. Lösung anwenden
 
-### A simple workflow: Keep the node list from your local object version
+### Einfaches Vorgehen: Behalte die Nodeliste der lokalen Objektversion
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+Das folgende Beispiel zeigt das Vorgehen, wenn man sich dazu entschließt alle Nodes in der gleichen Reihenfolge der lokalen Objektversion zu behalten.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+-  Als erstes, alle Elemente in der linken Tabelle selektieren (durch Verwendung der Maus oder durch 
+    drücken von Strg-A in der Tabelle) (siehe nächstes Bildschirmfoto):
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
--   Then, click 
+- Dann klickt man 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+    um die ausgewählten Nodes in die mittlere Tabelle mit den vereinigten Nodes zu kopieren:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
--   Finally, click
+- Letztendlich klickt man
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+    um die vereinigte Nodeliste zu fixieren:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    The symbol in the nodes tab now switched to 
+    Das Symbol im Nodes Tab hat sich geändert zu 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
+    und man kann die Entscheidungen zum Vereinigen anwenden.
 
-### Support for comparing node lists
+### Unterstützung beim Vergleich von Nodelisten
 
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+Es kann schwierig sein die Unterschiede in den Nodelisten von zwei Objektversionen zu finden, besonders bei Wegen mit vielen Nodes.
 
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+Der Konfliktdialog unterstützt einen beim Finden der Unterschiede. Es kann die beiden angezeigten Nodelisten vergleichen ("meine" Nodeliste, die vereinigte Nodeliste und die "andere" Nodeliste) und es kann die Unterschiede zwischen ihnen mit unterschiedlichen Hintergrundfarben anzeigen.
 
-From the following combo box you can select which pair of node lists to compare:
+Im folgenden Kombinationsfeld kann man auswählen, welches Paar Nodelisten man vergleichen möchte:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
-    in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
-    the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
-    in the Conflict Dialog
+1. Meine mit der Anderen: Vergleicht die linke Tabelle mit der rechten Tabelle
+    im Konfliktdialog
+2. Meine mit der Vereinigten: Vergleicht die linke Tabelle mit der mittleren Tabelle im
+    Konfliktdialog
+3. Die Andere mit der Vereinigten: Vergleicht die mittlere Tabelle mit der rechten Tabelle
+    im Konfliktdialog
 
-Depending on the position of a node in the list different background
-colors are used:
+Abhängig von der Position eines Nodes in der Liste werden unterschiedliche Hintergrund
+Farben verwendet:
 
-1.  The node is in this list only. It isn't present in the opposite list:
+1. Die Node ist nur in dieser Liste vorhanden. Sie ist nicht in der anderen Liste vorhanden:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
+2. Die Node ist in beiden Listen vorhanden, aber an unterschiedlichen Positionen:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
-    position.
+3. Ein weißer Hintergrund bedeutet, dass eine Node in beiden Listen vorhanden ist, an der selben
+    Position.
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 
