@@ -84,72 +84,72 @@ Man öffnet pgAdmin III. Man findet es im Startmenü unter Alle Programme -> Pos
 
 ![pgadmin3 start][]
 
-In the panel on the left under Servers, right-click where it says PostgreSQL and click “**Connect**.”  
+Man macht einen Rechtsklick, auf der linken Seite in der Leiste unter Servers, bei PostgreSQL und klickt "**Verbinden**".  
 
 ![postgresql connect][]
 
-Enter the postgres user password that you created when you installed the software. Remember that the username and password are required so that you can create and access a database.  
+Man gibt das postgres Benutzerpasswort ein, dass man erstellt hat bei der Installation der Software. Man erinnert sich, dass der Benutzername und Passwort notwendig sind, um eine Datenbank zu erstellen oder um darauf zuzugreifen.  
 
 ![enter password][]
 
-Right-click on **Databases** and select **New Database**...  
+Man macht einen Rechtsklick auf **Datenbanken** und selektiert **Neue Datenbank**...  
 
 ![new database][]
 
-You need to enter a few pieces of information to create the new database: name and owner.  In the Properties tab, give the new database a name.  In this example, we name our database gisdb.  We should also give our database an owner.  Since we only have one user right now, let’s give our database the owner postgres.  (Note: for security reasons it is usually a good idea to create users without superuser permission, but for now we won’t worry about this.)  
+Man muss ein paar Informationen eingeben, um eine neue Datenbank zu erstellen: Name und Eigentümer. Im Eigenschaften Tab gibt man der Datenbank einen Namen. In diesem Beispiel benennen wir unsere Datenbank gisdb. Wir sollten ihr auch einen Eigentümer zuweisen. Das wir aktuelle nur einen Benutzer haben, geben wir ihr den Eigentümer postgres. (Beachte: Aus Sicherheitsgründen sollte man Benutzer ohne superuser Rechte erstellen, aber im Moment kümmern wir uns nicht weiter darum.)  
 
 ![new database form][]
 
-<!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
+<!-- Man behält die Standardeinstellungen im Definition Tab bei, aber neben Template wählt man template_postgis. Das erstellt unsere Datenbank mit den korrekten spatial Spalten. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin III.  
+Man klickt **OK* zum Erstellen der Datenbank. Man findet nun die Datenbank unter "**Datenbanken**" gelistet. Man muss nun ein Kommando ausführen, um die Datenbank mit den PostGIS Erweiterungen zu aktivieren. Man klickt auf ![sql button][]{: height="24px"} oben im Fenster von PgAdmin III.  
 
 
 
-In the query window, type:  
+Im Abfragefenster gibt man ein:  
 
 **CREATE EXTENSION postgis;**  
 
-Then click the "**Execute query**" button.  
+Dann klickt man den "**Abfrage ausführen**" Button.  
 
 ![postgis command][]
 
-Load Sample Data (optional)
+Man lädt die Beispieldaten (optional)
 ---------------------------
 
-If you are comfortable so far and are familiar with QGIS, follow along as we load some data into our new database. To do this, we will use a utility that converts shapefiles and loads them into the database.  
+Bleiben Sie dran, selbst wenn man soweit folgen konnte und mit QGIS umgehen kann, solange wir einige Daten in unsere neue Datenbank laden. Wir werden ein Werkzeug verwenden, welches Shapefiles konvertiert und in die Datenbank lädt.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Man stellt sicher, dass die neue Datenbank ausgewählt ist in der linken Leiste und geht zu  **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
 
 ![shapefile loader][]
 
--	Click “**Add File**” and find a shapefile on your filesystem.
--	If you don't have any shapefiles, you can download a sample [here](/files/buildings_sample.zip).
--	Once you have selected a file, click “**Import**.”  If everything goes smoothly, the output will read “**Shapefile import completed**.”
+-	Man klickt “**Datei hinzufügen**” und geht zum Shapefile auf dem Dateisystem.
+-	Falls man keine Shapefiles hat, kann man ein Beispiel [hier](/files/buildings_sample.zip) herunterladen.
+-	Wenn man eine Datei ausgewählt hat, klickt man “**Import**.”  Wenn alles korrekt läuft, liest man in der Ausgabe “**Shapefile import completed**.”
 
 ![add shapefile][]
 
-Now let's load the data from our database into the QGIS application. If you don't have QGIS you can download it on the [QGIS website](http://www.qgis.org/site/forusers/download.html).  
+Man lädt nun die Daten aus der Datenbank in die QGIS Anwendung. Falls man kein QGIS installiert hat, kann man es von der [QGIS Webseite](http://www.qgis.org/site/forusers/download.html) herunterladen.  
 
--	Open QGIS and click the ![qgis add postgis button][]{: height="24px"} button.  
--	Under “Connections” at the top, click “**New**.”  
--	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database). Enter the username postgres and your password below.  
+-	Man öffnet QGIS und klickt den ![qgis add postgis button][]{: height="24px"} Button.  
+-	Oben unter “Verbindungen”, klickt man “**Neu**.”  
+-	Man gibt der neuen Verbindung einen Namen.  Unter Datenbanktyp **gisdb** (oder wie auch immer man die Datenbank benannt hat). Darunter gibt man den Benutzernamen postgres und das Passwort ein.  
 
 ![connection settings][]
 
--	Click **OK** to save the connection settings.  Then click “Connect” to connect to your PostgreSQL server.  You may need to enter your username and password again.  
--	If everything is successful, you will see the shapefile layer  (or multiple layers with different features types) that you loaded into the database available here.  Select a layer and click “**Add**” to add it to your map.  
+-	Man klickt **OK** um die Verbindungseinstellungen zu speichern.  Dann “Verbinden” um sich zum PostgreSQL Server zu verbinden. Man muss gegebenenfalls Benutzername und Passwort erneut angeben.  
+-	Wenn alles korrekt gelaufen ist, sieht man den Shapefile Layer (oder mehrere Layer mit unterschiedlichen Feature Typen), welche man in die Datenbank geladen hat. Man wählt einen Layer und klickt "**Hinzufügen**" um ihn zur Karte hinzuzufügen.  
 
 ![your data layer][]
 
-When you add the layer you will need to select a coordinate system to display the data in.  You will most likely want to select WGS 84, which is the coordinate system OpenStreetMap uses.  
+Wenn man einen Layer hinzufügt, muss man ein Koordinatensystem auswählen, in dem die Daten angezeigt werden. Man wählt in der Regel WGS 84, das Koordinatensystem, das OpenStreetMap verwendet.  
 
-> The layer behaves the same as if you had loaded a shapefile directly into QGIS.  The only difference is that if you edit the layer, the changes will be saved in your database.  
+> Der Layer verhält sich genauso, als wenn an ein Shapefile direkt in QGIS geladen hätte. Der einzige unterschied ist, dass wenn man den Layer bearbeitet, die Änderungen in der Datenbank gespeichert werden.  
 
-Summary
+Zusammenfassung
 -------
 
-Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new database, you're ready to try the utilities which allow us to import raw OSM data into a database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).  
+Da man nun gesehen hat, wie man PostgreSQL und PostGIS aufsetzt und weiß, wie man eine neue Datenbank erstellt, kann man nun die Dienstprogramme zum Import von OSM Rohdaten in die Datenbank ausprobieren. Wir sehen uns das im [nächsten Kapitel](/en/osm-data/osm2pgsql) an.  
 
 
 
