@@ -27,7 +27,7 @@ OpenStreetMap is a collaborative effort and we hope that you will be part of it.
 تعلم أكثر
 ---------- 
 
-There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  
+هناك الكثير من المعلومات حول OpenStreetMap متواجدة في [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). هنا يمكنك العثور على معلومات حول مشاريع اخرى تتعلق بـ OpenStreetMap، والوثائق والدروس التي يمكن أن تساعدك على معرفة المزيد عن OSM.  
 
 ![Wiki][]
 
@@ -36,7 +36,7 @@ There is a lot of information about OpenStreetMap available at [wiki.openstreetm
 القائمة البريدية
 ------------ 
 
-The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
+أفضل طريقة للاتصال بمستخدمي OpenStreetMap هي الانضمام إلى القائمة البريدية المحلية. العديد من الناس يشتركون، وذلك باستخدام حسابات البريد الإلكتروني الخاصة بهم إلى القائمة OSM البريدية. بمجرد كونك في القائمة، يمكنك إرسال بريد إلكتروني إلى المجموعة إذا كان لديك سؤال أو تريد التحدث عن OpenStreetMap.  
 
 للاشتراك في القائمة البريدية لبلدك، افتح متصفح الإنترنت وانتقل إلى [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 

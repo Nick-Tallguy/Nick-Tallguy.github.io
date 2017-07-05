@@ -90,15 +90,15 @@ Es ist wichtig, den spezifische Routentyp im Auswahlmenü oben auszuwählen. Fü
 ![Bus route relation][]
 
 - Man beachte, dass bereits Tags vorhanden sind, welche die Relation als Route definieren. Anstatt *type=multipolygon* haben wir *type=route*. Man hat auch ein Tag das es als Busroute definiert, zur Abgrenzung von anderen Routentypen.  
-- You may now think, what should the **role** of the members be? Well, in the case of a route, we don't need to define the role of the members. By leaving the role blank the software knows that they are simply part of the route. We could also define the role of each segment as **route**, but it is not necessary.  
-- Click OK and your route relation will be complete!  
+- Man fragt sich vielleicht, was die **Rolle** eines Mitglieds ist? Im Fall einer Route muss man keine Rollen definieren. Dadurch dass die Rolle leer gelassen wird, weis die Software, dass es einfach Teile der Route sind. Man könnte auch für jedes Segment die Rolle **route** definieren, aber das ist nicht notwendig.  
+- Man klickt OK und die Routenrelation ist vollständig!  
 
-> If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
+> Wenn man eine Liste aller Relationen auf der Karte sehen möchte, kann man die Relationsleiste durch einen Klick auf diesen Button auf der linken Seite öffnen: ![relation panel button][]{: height="30px"}. Dies öffnet eine Seitenleiste wo man Relationen auswählen, bearbeiten und erstellen kann.  
 
-Summary
+Zusammenfassung
 -------
 
-Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.
+Relationen können schwer verständlich sein und müssen nicht oft verwendet werden, aber man sollte darüber Bescheid wissen. Immer öfters stellt man fest, dass man eine Relation benötigt um etwas korrekt erfassen zu können. Das gerade gesammelte Wissen kann man nutzen, neben weiteren Informationen im OSM Wiki, um Relationen korrekt zu mappen.
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png

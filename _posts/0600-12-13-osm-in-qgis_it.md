@@ -54,7 +54,7 @@ Next we will need to import our raw **.osm** file into a SQLite Database file.
 ![import dialog][]  
 
 - Fai click su OK.  
-- When it is finished, click "Close."  
+- Quando è terminato, clicca "Chiudi."  
 
 
 Creare i livelli
