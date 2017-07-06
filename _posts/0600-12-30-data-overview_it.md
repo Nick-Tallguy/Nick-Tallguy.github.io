@@ -6,22 +6,22 @@ lang: it
 category: osm-data
 ---
 
-OSM Data Overview
+ Panoramica sui dati di OSM
 ==================
 
 
-> This guide may be downloaded as [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt) or [OSM_Data_Overview_en.pdf](/files/OSM_Data_Overview_en.pdf)  
-> Reviewed 2016-09-05
+> Questa guida può essere scaricata come [OSM_Data_Overview_it.odt](/files/OSM_Data_Overview_it.odt) oppure [OSM_Data_Overview_it.pdf](/files/OSM_Data_Overview_it.pdf)  
+> Rivisto il 2016-09-05
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 
-How OSM Works
+Come funziona OSM
 --------------
-Let's consider how OpenStreetMap works. Thousands of users around the world continually add to and edit the map, but what goes on behind the scenes?  
+Vediamo come funziona OpenStreetMap. Migliaia di utenti nel mondo editano in continuazione la mappa, ma cosa c'è dietro tutto questo?  
 
-When you or any other user makes changes using editing software such as JOSM or iD, the software communicates with a central OpenStreetMap server and notifies it of your changes. On that server is a massive database, which contains all the location information and attributes about every single geographic feature in all of OpenStreetMap.  
+Quando tu o un altro utente fate modifiche utilizzando un software come JOSM o iD, il software comunica col server centrale OpenStreetMap e gli notifica i cambiamenti. Su questo server risiede un enorme database che contiene le coordinate e le informazioni di ogni singolo oggetto di OpenStreetMap.  
 
-Because OSM is free and open, it is possible for anybody to download all the data in this database. However, because it is so massive (*the data is more than 30 GB even when it's compressed*), it's nearly impossible to work with all the data at once.  
+Poichè OSM è libero e gratiuto, è possibile per chiunque scaricare i dati dal database. Però, a causa della sua grandezza (*i dati superano i 30 GB anche se compressi*) è quasi impossibile lavorare i dati in una volta sola.  
 
 Because of this limitation, there are various methods of **exporting** and **extracting** data which are covered in this section. Exporting means to convert OpenStreetMap data from its native format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. These terms are often used interchangeably. We'll learn more about this throughout the OSM Data section.  
 
