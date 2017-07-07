@@ -75,34 +75,34 @@ Nachdem man das Plugin installiert und JOSM neu gestartet hat, besitzt man oben 
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+Man erstellt einen neuen Layer und experimentiert mit einigen der neuen Werkzeuge. Wir beschreiben hier einige der nützlichsten neuen Werkzeuge:  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **Nodes bei Überschneidungen hinzufügen:** Dieses Werkzeug ist sehr nützlich, um fehlende Nodes bei Überschneidungen von Wegen hinzuzufügen. Es ist guter Stil, dass Straßen an Überschneidungen einen gemeinsamen Node haben.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Kopiere Tags aus vorheriger Selektion:** Diese Funktion erleichtert das Kopieren von Tags. Wenn man mehrere Objekte mit den gleichen Tags erstellen möchte, zeichnet man zuerst ein Objekt und fügt die Tags hinzu. Man klickt auf ein anderes Objekt und drückt Shift+R, um die Tags vom vorher selektierten Objekt zu kopieren. Dies funktioniert für alle Objekte mit Tags. Klickt man auf ein Objekt ohne Tags und möchte Tags auf ein weiteres Objekt ohne Tags kopieren, werden selbstverständlich keine Tags kopiert.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. **Eine Quellen Tag hinzufügen:** Dieses Werkzeug vereinfacht es eine Quellenangabe als Tag hinzuzufügen. Es merkt sich die zuletzt verwendete Quelle und fügt es zu neuen Objekten hinzu. man kann Quellen mit nur einem Klick angeben.  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **Geometrie ersetzen:** Dieses Werkzeug ist ideal, wenn man ein schlecht gezeichnetes Objekt neu einzeichnen, aber die Historie, Attribut und ID des Objekts behalten möchte. Falls man ein kompliziert und im schlechten Stil gezeichnetes Gebäude findet, kann man anstatt jeden Node zu ändern, das Objekt neu einzeichnen, beide Objekte selektieren und "Geometrie ersetzen" wählen, um alle Informationen zu übernehmen.  
 
     ![Replace geometry][]
 
 
-### More Selection Tools
+### Mehr Auswahl Werkzeuge
 
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+**Utilspluging2** bietet weitere Werkzeuge im "Auswahl" Menü. Man kann damit experimentieren.  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+Einer unserer liebsten Auswahl Werkzeuge ist **Nodes deselektieren:** Dieses Werkzeug deselektiert alle Nodes. Das kann nützlich sein, wenn mann mit der Maus ein Rechteck aufzieht, um viele Objekte zu markieren, aber die Nodes nicht selektiert haben möchte unter all den Linien und Umrisse.  
 
 ![Unselect nodes][]
 
-Good luck!  
+Viel Glück!  
 
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
