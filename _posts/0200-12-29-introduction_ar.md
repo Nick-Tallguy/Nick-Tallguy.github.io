@@ -9,7 +9,7 @@ category: beginner
 مقدمة
 ============
 
-> This guide may be downloaded as [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) or [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
+> يمكن تنزيل هذا الدليل كـ [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) أو [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
 > تمت مراجعته 2015-07-12  
 
 Information is powerful. With good information and the right
@@ -22,27 +22,27 @@ to convey information.
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often 
-demonstrate an idea better than words. This in turn can help us
-answer important questions. *Where is the closest school or hospital? Who
-has the least access to these facilities? Where is poverty the most
-problematic?* Questions like these can often best be expressed with maps,
-and maps can help find solutions to these questions. 
+الخرائط هي رموز بصرية لعالمنا. يمكنها عادة 
+توضيح فكرة أفضل من الكلمات. وهذا بدوره يمكن أن يساعدنا
+في الاجابة عن أسئلة مهمة. *أين هي أقرب مدرسة أو مستشفى؟ من
+لديه أقل قدر من امكانية الوصول إلى هذه المرافق؟ أين يكون الفقر أكبر
+إشكالية؟* أسئلة مثل هذه عاذة ما يعبرعنها بالخرائط أحسن،
+والخرائط يمكن أن تساعد في إيجاد حلول لهذه الأسئلة. 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the
-most important things to include on the map? What is the most important
-information? Spend a few minutes making your map, and when you’re
-finished, think about why the information you included is important, and
-who it might be important to.
+كممارسة، احصل على قلم وورقة وارسم خريطة لبلدتك أو قريتك. ما هي
+الأشياء الأكثر أهمية لتدرج على الخريطة؟ ما هي أهم
+معلومة؟ اقضي بضع دقائق في صنع خريطتك، وعند
+الانتهاء، فكر في سبب أهمية المعلومات التي أدرجتها، و
+لمن قد تكون ذات أهمية.
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+إذا كانت مدينتك كغيرها، فقد تكون قد رسمت بعض الأسطر لتمثيل
+الطرق، ربما نهر أو تيار. ربما قمت بإضافة مباني هامة
+كالمدارس والمكاتب، الحقول أو الحدود. مهما كنت قد رسمت،
+ربما قد استخدمت رموز – خط يرمز إلى الطريق، مربع
+يرمز الى مبنى، وهكذا. خريطتك هي تمثيل لما هو
+فوق سطح الأرض.
 
 ![Examples of symbols][]
 

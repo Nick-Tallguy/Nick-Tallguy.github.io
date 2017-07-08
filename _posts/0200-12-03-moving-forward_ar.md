@@ -10,7 +10,7 @@ category: beginner
 =============== 
 
 > قد يكون تحميل هذا الدليل كـ [beginner_moving-forward_en.odt](/files/beginner_moving-forward_en.odt) or [beginner_moving-forward_en.pdf](/files/beginner_moving-forward_en.pdf)  
-> Reviewed 2015-07-12  
+> تمت مراجعته 2015-07-12  
 
 إذا كنت قد وصلت حتى هذا الحد، تهانينا! من المفروض أنه لديك الآن فهم جيد لكيفية صنع الخرائط بـ OpenStreetMap. ماذا يمكنك أن تفعل أكثر بـ OSM؟ كيف يمكنك تعلم المزيد؟ كيف يمكنك البقاء على اتصال بصانعي الخرائط؟  
 
@@ -61,7 +61,7 @@ MapOSMatic
 ---------- 
 
 هكذا مشروع يسمى MapOSMatic، والذي يمكنك الوصول إليه من خلال
-متصفح الانترنت (/maposmatic.org](http://www.maposmatic.org]. هذه
+متصفح الانترنت [maposmatic.org](http://www.maposmatic.org/). هذه تعتبر
 أداة بسيطة لطباعة خريطة لأي منطقة تختارها. ستكون
 إنشاء الخريطة تلقائيا، جنبا إلى جنب مع خانة على الخريطة، و
 مؤشر المواقع المدرجة في المنطقة.
