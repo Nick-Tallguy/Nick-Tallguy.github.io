@@ -170,10 +170,15 @@ Voeg je eerste punten toe
     OSM database!
 
 
-De iD editor is een uitstekende manier om eenvoudig wijzigingen in OpenStreetMap aan te brengen. Je kunt meer leren over het gebruik ervan in de [iD editor guide](/nl_NL/beginner/id-editor/). In de [JOSM section](/nl_NL/josm/)
-gaan we kijken naar JOSM, een desktop applicatie met veel meer mogelijkheden. Voel je vrij om 
-verder te spelen met iD. Als je meer ervaring hebt met bijdragen aan OSM, kun je kiezen
-welke editor je het liefste gebruikt.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
+more about using it in the [iD editor guide](/en/beginner/id-editor/).
+You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+which is a great and interactive manner to discover the editor.
+
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
+that offers many more features.
+Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
+you can choose which editor - iD or JOSM - you like using the best.
 
 Samenvatting
 -------

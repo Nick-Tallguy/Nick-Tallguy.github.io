@@ -82,73 +82,73 @@ Aus diesem Grund ist es wichtig, dass sich Benutzer dem Bilder Offset bewusst si
 
 - man klickt OK. Man muss JOSM neu starten um die Plugin Installation zu vervollständigen.  
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows you to save offsets to a central database, and to access the offsets that other users have created.  Hence, if one mapper creates an imagery offset in an area, other users can use the exact same offset to map with.  
+Genauso wie man Offsets als Lesezeichen speichern kann, erlaubt dieses Plugin Offsets in einer zentralen Datenbank zu speichern und auf Offsets welche andere Benutzer erstellt haben zuzugreifen. Somit können andere Benutzer mit demselben Offset arbeiten, wenn ein Mapper bereits ein Bilder Offset für ein Gebiet erstellt hat.  
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets, and when you create your own offset, you should ALWAYS save it to this database.  
+Wenn man mit Luftbilder Layern arbeitet, sollte man IMMER auf existierende Offsets prüfen und wenn man eigene Offset erstellt, sollte man diese IMMER in diese Datenbank speichern.  
 
 
-Add Imagery Offset from the Database
+Bilder Offset aus der Datenbank hinzufügen
 ------------------------------------
 
-When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
+Falls man ein Bilder Layer hinzufügt, wird man durch das Plugin daran erinnert, dass man die Bilder Datenbank auf ein existierendes Offset prüfen sollte. Man sieht ein Icon mit einem roten Ausrufezeichen oben in JOSM, wie das hier:  
 
 ![Imagery offset notification][]
 
-- Click on the button and the plugin will communicate with the database to see if there are existing offsets in this area.  
-- Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia. In this case, we have found one existing offset. Click on it to apply to the map.  
+- Man klickt auf den Button und das Plugin wird mit der Datenbank Verbindung aufnehmen um zu sehen, ob Offsets für dieses Gebiet existieren.  
+- Hier haben wir OSM Daten und GPS Spuren von Kuta, Bali, Indonesien heruntergeladen. In diesem Fall haben wir einen existierenden Offset gefunden. Man klickt darauf um es für die Karte anzuwenden.  
 
 ![Offset in Kuta bali][]
 
-- This causes the imagery layer to shift.  However, when we add someone else’s offset like this, we should check that it is valid by comparing to GPS tracks.  
+- Der Bilder Layer bewegt sich darauf hin. Man sollte auf jeden Fall wenn man ein Offset wie dieses hinzufügt prüfen, dass es korrekt ist, indem man mit GPS Spuren vergleicht.  
 
 ![Comparing imagery offset from GPS tracks][]
 
-- We can see that the imagery layer is in fact misaligned.  We don’t want other users to use this offset, so we should mark it as incorrect in the database. Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).  
+Man sieht, dass der Bilder Layer tatsächlich falsch ausgerichtet ist. man möchte nicht, dass andere Benutzer dieses Offset verwenden, deshalb sollten wir es als nicht korrekt in der Datenbank markieren. Man klickt nochmals auf den "Offsets" Button (das rote Ausrufezeichen verschwindet).  
 
 ![Offsets button][]
 
-- This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”  
+- Dieses mal macht man einen Rechtsklick auf das Offset und klickt "Deprecate Offset", sobald sich der Dialog öffnet.  
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
-- You will need to enter a reason for deprecating this offset.  
+- Man klickt "Ja" um es zu bestätigen.  
+- Man muss einen Grund angeben, warum man das Offset missbilligt.  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+Ein Bilder Offset zur Datenbank hinzufügen
 ------------------------------------
 
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
+Man hat nun dieses Benutzer Offset auf "deprecated" gesetzt, man sollte nun ein verbessertes Offset zur Datenbank hinzufügen.  
 
-1. Click on the “Adjust imagery offset” button. ![Adjust imagery offset button][]{: height="24px"}  
-2.  Adjust the imagery to match the GPS tracks.  Click OK in the box.  
-3.  Now go to Offset ‣ Store Imagery Offset...  
+1. Man klickt auf de "Adjust imagery offset" Button. ![Adjust imagery offset button][]{: height="24px"}  
+2. Man verschiebt das Bild bis es zu den GPS Spuren passt. Man klickt OK in der Box.  
+3. Man geht zu Offset ‣ Store Imagery Offset...  
 ![Store imagery offset][]
-4.  Enter a description of the offset in the box that opens.  
+4. Man gibt eine Beschreibung des Offset in der sich öffnenden Box an.  
 ![Offset description][]
-5.  Click OK.  Your offset will be saved to the database.  
-6.  Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.  
+5. Man klickt OK. Das Offset wird in der Datenbank gespeichert.  
+6. Man versteckt den GPS Layer und prüft die OSM Daten gegen die nun korrekt platzierten Bilder.  
 
 ![Corrected imagery][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
+Oh nein! Jemand hat dieses Gebiet mit den schlecht positionierten Bildern gemappt, so dass die Gegend falsch erfasst wurde. Das zu lösen wird einige Zeit in Anspruch nehmen.
 
 
-Imagery Offset Database Website
+Bilder Offset Datenbank Webseite
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+Zuletzt kann man für weitere Informationen zur Offset Datenbank die Webseite besuchen unter [http://offsets.textual.ru/](http://offsets.textual.ru/). Es zeigt alle Offsets welche in die Datenbank hochgeladen wurden und hat eine nette Kartenfunktion, welche anzeigt, wo die Offsets bestehen, wie man hier sieht:  
 
 ![http://offsets.textual.ru/][]
 
-> One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
+> Man sollte wissen, dass die Bilder nicht überall dieselbe Offset Distanz haben! Dies gilt besonders in Regionen mit vielen Hügeln und Bergen. Falls in unterschiedlichen Gebieten unterschiedliche Offsets bestehen, muss man es erneut verschieben.  
 
 Zusammenfassung
 --------
 
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+Falls man gerade mit OpenStreetMap beginnt, muss man sich nicht zu viele Gedanken über Bilder Offset machen. Sieht man aber verschobene Änderungen von anderen Mappern, sollte man in betracht ziehen, dass ein Offset vorliegt, bevor man deren Objekte ändert. Und wenn man sich noch nicht Sicher im Umgang mit Offsets fühlt, sollte man bedenken, dass es besser ist ein Gebiet mit einem 20 oder 30 Meter Offset zu mappen, als überhaupt nichts zu mappen. Aber man erinnert sich wenn immer möglich daran, dass Bilder Offset vorkommen können und verwendet die in diesem Kapitel beschriebenen Schritte, um dies wenn notwendig zu korrigieren.
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png

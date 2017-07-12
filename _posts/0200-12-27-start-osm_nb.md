@@ -170,10 +170,15 @@ Legg til dine første punkter
     OSM databasen!
 
 
-Redigeringsprogrammet iD er en fantastisk måte å enkelt redigere OpenStreetMap og du kan finne ut mere om å bruke programmet i [iD redigeringsveiledning](/nb/beginner/id-editor/). Men, i [JOSM seksjonen](/nb/josm/)
-vil vi se på JOSM, et lokalt installert program, som gir mange flere muligheter. Gjerne
-fortsett å eksperimentere med iD. Når du har fått litt mere erfaring med å bidra til OSM, kan du velge
-hvilken editor du liker best.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
+more about using it in the [iD editor guide](/en/beginner/id-editor/).
+You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+which is a great and interactive manner to discover the editor.
+
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
+that offers many more features.
+Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
+you can choose which editor - iD or JOSM - you like using the best.
 
 Sammendrag
 -------
