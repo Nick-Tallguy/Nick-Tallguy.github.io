@@ -132,11 +132,11 @@ Man gibt den Benutzernamen postgres und sein Passwort ein.
 Zusammenfassung
 -------
 
-When you want to import OpenStreetMap data into your own database, **osm2pgsql** is a great tool. It can be extremely useful when you need to be able to get the most up-to-date OSM data and customize the attributes you want, or when working on more complex projects.  
+Wenn man OpenStreetMap Daten in die eigene Datenbank importieren möchte, ist **osm2pgsql** ein großartiges Werkzeug, Es ist sehr nützlich, wenn man aktuellste OSM Daten benötigt und Attribute anpassen muss oder wenn man an komplexeren Projekten arbeitet.  
 
-Another import tool has been developed recently, called [imposm](http://imposm.org/), and offers some speed and other improvements over osm2pgsql, although as of this writing it lacks other key functions which are promised in imposom version 3.  
+In jüngster Zeit wurden ein anderes Importwerkzeug entwickelt, es heißt  [imposm](http://imposm.org/), und bietet Verbesserung besonders in der Geschwindigkeit gegenüber osm2pgsql, obwohl aktuell andere Schlüsselfunktionen fehlen, welche für Version 3 von imposm vorgesehen sind.  
 
-For more information on osm2pgsql, refer to the OSM Wiki - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
+Für weitere Informationen zu osm2pgsql findet man im OSM Wiki - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
 
 
 [windows binary]: /images/osm-data/windows-binary.png
