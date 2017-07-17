@@ -19,48 +19,48 @@ In diesem Kapitel werden wir uns einige Wege zum Speichern von geografischen Dat
 .OSM Files
 -----------
 
-The **.osm** file format is specific to OpenStreetMap. You won't come across it elsewhere. If you have ever downloaded data using JOSM and saved it as a file, you may have noticed that the file is saved with the extension **.osm**. If you are a GIS user, you may also have noticed that it is not easy to open these files using software such as QGIS.  
+Das **.osm** Dateiformat ist von OpenStreetMap. Man findet es sonst nirgends. Wenn man jemals Daten herunter geladen und mit JOSM in einer Datei gespeichert hat, hat man vielleicht bemerkt, dass die Datei mit der Erweiterung **.osm** gespeichert wurde. Falls man GIS Anwender ist, hat man vielleicht bemerkt, dass diese Dateien nicht einfach mit Software wie QGIS geöffnet werden können.  
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that many geographic data formats predate the modern internet era, and are designed for quick access and querying like one would query a database. OSM data, on the other hand is designed to be easily sent and received across the internet in a standard format. Hence, **.osm** files are coded in XML, and contain geographic data in a structured, ordered format. A simple **.osm** file would look like this if viewed in a text editor:  
+Warum also speichert man OSM Daten in einem Dateiformat, das niemand anderes verwendet? Die Antwort ist, dass viele geografische Dateiformate noch vor dem Internet entstanden sind und für schnellen Zugriff und Abfragen, wie Datenbankabfragen, entwickelt wurden. OSM Daten wurden dagegen für den leichten Austausch über das Internet in einer standardisierten Form entwickelt. Daher sind **.osm** Dateien in XML geschrieben und enthalten geografische Daten in einem strukturierten,  geordneten Format. Eine einfaches **.osm** Datei sieht im Texteditor wie folgt aus:  
 
 ![Sample OSM XML file][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you download data in JOSM, but using these files for analysis and map design is not easy. Hence you are better off converting the data into another format, or getting it from a service that converts the data for you.  
+Daten im **.osm** Format zu bekommen ist leicht - man macht es jedes Mal, wenn man Daten in JOSM herunterlädt, aber diese Dateien zur Analyse oder Kartenerstellung zu verwenden ist nicht einfach. Man konvertiert die Daten daher besser in ein anderes Format, oder lässt die Daten von einem Dienst  konvertieren.  
 
-> Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
+> Rohe OSM Daten sind normalerweise in **.osm** Dateien gespeichert, man sieht aber auch Dateien mit **.bz2** und **.pbf** Endungen. Das sind im wesentlichen komprimierte **.osm** Dateien um Platz zu sparen, was sehr nützlich ist, wenn man mit großen Dateien arbeitet.  
 
 Shapefiles
 ----------
 
-The **shapefile** is a widely used format for storing vector geographic data. It was developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.  
+Das **Shapefile** ist ein  vielfach eingesetztes Format zum Speichern von geografischen Vektor Daten. Es wurde durch ESRI entwickelt, eine Firma die ArcGIS entwickelt, eine bekannte Sammlung von GIS Anwendungen.  
 
-Shapefiles are actually a collection of several different files. For example, a shapefile that contains building data might have files with the following extensions:  
+Shapefiles sind tatsächlich eine Sammlung unterschiedlicher Dateien. Ein Shapefile mit Gebäude Dateien könnte z.B. Dateien mit folgenden Endungen haben:  
 
 -	buildings.**shp**
 -	buildings.**shx**
 -	buildings.**dbf**
 
-Shapefiles will often have additional files too which contain other information.  
+Shapefiles haben oft auch zusätzliche Dateien, welche andere Informationen beinhalten.  
 
-A shapefile must be designated to hold only one type of feature (points, lines, or polygons), and each feature has it's attributes contained in a table. Unlike the OpenStreetMap system in which every object can have an unlimited number of tags, the attributes of features in a shapefile must fit into the shapefile's defined table structure, which might look something like this:  
+Ein Shapefile kann nur einen Featuretyp (Punkte, Linien oder Polygone) beinhalten und jedes Feature hat seine Attribute in einer Tabelle beinhaltet. Anders als bei OpenStreetMap, wo jedes Objekt eine unbegrenzte Anzahl von Tags haben kann, müssen Featureattribute in einem Shapefile der im Shapefile definierte Tabellenstruktur entsprechen, welche wie folgt aussehen kann:  
 
 ![Shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
+OpenStreetmap Daten können in Shapefiles konvertiert werden. Zahlreiche Webseiten bieten konvertierte OSM Daten als Shapefiles an. Diese werden im [nächsten Kapitel](/de/osm-data/getting-data) diskutiert.  
 
 Databases
 ---------
 
-Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  
+Viele Arten von Informationen sind in Datenbanksystemen gespeichert, welche einen logische Weg zur Organisaton und zum Zugriff auf Daten anbieten. Geografische Daten sind nicht anders, obwohl spezielle Geodaten Datenbanken zum Umgang mit komplexen Funktionen zur Abfrage geografischer Daten notwendig sind.  
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
+OpenStreetMap Daten werden oft in PostgreSQl datenbanken mit PostGIS Erweiterung gespeichert. Diese Art von Datenbank bietet schnellen Datenzugriff und kann leicht zusammen mit Mapnik verwendet werden, eine Software, die die Map Tiles in Web Slippy Maps erstellt. Es gibt zahlreiche Werkzeuge für den Import von rohen OSM Daten in eine PostgreSQL Datenbank.  
 
-Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
+Eine andere Datenbank ist SQLite, welche ähnliche Funktionen wie eine PostgreSQL Datenbank anbietet, es wird aber alles in einer einzigen Datei gespeichert und benötigt keine laufende Datenbanksoftware. Sie sind etwas schwerer selbst zu erstellen, aber man kann damit leichter arbeiten wenn man nur wenige Daten hat.  
 
-Summary
+Zusammenfassung
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+In den folgenden Kapiteln werden wir sehen, wie man Daten in unterschiedlichen Formaten aus dem Internet herunterlädt und wie man zahlreiche Werkzeuge anwendet, um rohe OSM Daten selbst zu verändern.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png
