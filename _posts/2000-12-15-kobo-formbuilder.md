@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Kobo Form Builder - KoBoToolbox - surveys with a mobile phone
-permalink: /en/case-studies/kobo-formbuilder/
+permalink: /en/case-studies/kobo-formbuilder-1/
 lang: en
 category: case-studies
 ---
