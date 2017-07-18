@@ -189,7 +189,7 @@ ein erstes Verständnis davon, wie Sie Punkte zur Karte hinzufügen.
 
 
 
-[Webseite]: /images/beginner/start-osm_website.png
+[Website]: /images/beginner/start-osm_website.png
 [OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
 [Mouse navigation]: /images/beginner/mouse-navigation.png
 [Search]: /images/beginner/search.png

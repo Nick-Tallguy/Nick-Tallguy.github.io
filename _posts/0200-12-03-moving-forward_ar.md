@@ -17,7 +17,7 @@ category: beginner
 أقسام أخرى من LearnOSM
 --------------------------- 
 
-At the end of the chapter on the iD editor you heard about the differences between iD and JOSM. There is an [entire section devoted to JOSM](/en/josm/) where you will learn all the details necessary to fully benefit from the capabilities this editor has to offer.  
+في نهاية الفصل على محرر ID سمعت عن الاختلافات بين ID و JOSM. [قسم كامل مخصص لـ JOSM](/en/josm/) حيث سوف تتعلم كل التفاصيل الضرورية لتستفيد كليا من امكانيات التي يوفرها هذا المحرر  
 
 حتى الآن، جميع التعديلات التي أضفناها إلى الخريطة كانت مستندة على صور خلفية. ولكن يمكنك جمع الكثير من المعلومات أثناء المشي أو القيادة في الجوار.[هذا القسم على خرائط الجوال](/en/mobile-mapping/) يشرح كيفية جمع المعلومات بأجهزة مختلفة تدعم تحديد المواقع أو باستخدام المطبوعات المصممة خصيصا. كما يستعرض عدد من التطبيقات ذات الصلة بـ OpenStreetMap للهواتف النقالة.  
 
