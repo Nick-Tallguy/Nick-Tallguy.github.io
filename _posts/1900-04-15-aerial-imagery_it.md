@@ -1,53 +1,53 @@
 ---
 layout: doc
 title: Immagini aeree
-permalink: /en/josm/aerial-imagery/
-lang: en
+permalink: /it/josm/aerial-imagery/
+lang: it
 category: josm
 ---
 
-Aerial Imagery
+Immagini Aeree
 ================
 
-> This guide may be downloaded as [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) or [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
-> Reviewed 2015-09-21  
+> Questa guida può essere scaricata come [aerial-imagery_it.odt](/files/aerial-imagery_it.odt) oppure [aerial-imagery_it.pdf](/files/aerial-imagery_it.pdf)  
+> Revisionato il 2015-09-21  
 
-Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
+Tracciare immagini aeree è un modo semplice e potente di contribuire a OSM. Usare le immagini per disegnare punti, linee e forme è detto **digitizing** (digitalizzazione). Questa può anche essere separato dall'attività di raccolta di dati sul posto che è spesso chiamato **ground-truthing** (lavoro sul campo). Digitalizzare un'immagine può fornire lo scheletro delle mappe OSM, il che renderà più semplice l'attività delle persone sul campo. In questo capitolo impareremoqualcosa in più su come funzionano le immagini aeree.  
 
-About Imagery
+Cosa sono
 -------------
 
-Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
+Immagini aeree è il termine che usiamo per descrivere fotografie scattate dal cielo. Queste possono essere state riprese da aerei, droni, elicotteri o anche da aquiloni e palloni aerostatici, ma la fonte più comune di immagini sono i satelliti che orbitano attorno alla Terra.  
 
-[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
+[Nel capitolo sul GPS](/it/mobile-mapping/using-gps) abbiamo appreso delle dozzine di satelliti che orbitano attorno alla Terra e permettono ai nostri ricevitori GPS di conoscere la nostra latitudine e longitudine. Oltre a questi satelliti GPS, esistono anche dei satelliti che scattano foto alla Terra. Queste foto sono poi manipolate in modo da poter essere utilizzate nei software (di mappatura) GIS. Le Bing Aerial Imagery sono immagini satellitari.  
 
-Resolution
+Risoluzione
 ----------
 
-All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  
+Tutte le fotografie digitali sono costituite da pixel. Se ingrandisci abbastanza una fotografia, noterai che comincerà a diventare sfocata e, infine, vedrai che l'immagine è composta da migliaia di piccoli quadrati, ognuno di un diverso colore. Questo vale sia che l'immagine sia stata scattata con una macchina fotografica o con un telefono, sia che sia stata scattata da un satellite.  
 
 ![Image resolution][]
 
-Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.  
+La risoluzione fa riferimento al numero di pixel di larghezza per il numero di pixel di altezza dell'immagine. Più pixel corrispondono ad una maggiore risoluzione, il che significa che sarai in grado di cogliere un maggior numero di dettagli nella fotografia. La risoluzione delle fotocamere portatili è spesso misurata in megapixel. Più megapixel ha la tua fotocamera, maggiore sarà la risoluzione delle tue foto.  
 
-Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.  
+Per le immagini aeree è lo stesso, salvo che indichiamo la risoluzione in maniera diversa. Le misure sono importanti nelle fotografie aeree, perciò un pixel rappresenterà una certa distanza sul terreno. Solitamente descriviamo le immagini come "immagini con risoluzione due metri", il che significa che un pixel equivale a due metri sul terreno. Un'immagine di risoluzione un metro avrà una risoluzione più alta di questa e una risoluzione di 50cm sarà più alta ancora. Questo è in genere l'intervallo delle immagini fornite da Bing, anche se varia da zona a zona ed in alcuni posti è anche peggiore di due metri, tale da rendere difficile identificare gli oggetti all'interno dell'immagine.  
 
 ![Comparison of low and high resolution imagery][]
 
-The higher the resolution of an aerial image, the easier it is to use in making maps.  
+Più la risoluzione di un'immagine è alta tanto più facile sarà utilizzarla per mappare.  
 
-Georeferencing
+Georeferenziazione
 ---------------
 
-Each pixel of an aerial photograph has a size, and each pixel also has a location. As we mentioned above, this is because aerial photographs are georeferenced.  
+Ogni pixel di un'immagine aerea ha una dimensione e ogni pixel ha anche una posizione. Questo è dato dal fatto che le fotografie aeree sono georeferenziate.  
 
-Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
+Proprio come un punto GPS ha una propria latitudine e longitudine, così ce l'hanno anche i pixel in un'immagine aerea. Tuttavia, come la bassa risoluzione può rendere difficoltosa la mappatura, così può fare anche anche un'immagine mal georeferenziata.  
 
-Let's think for a moment about how georeferencing works, and why it is challenging to do. When somebody georeferences an image, they first identify a handful of pixels in the image that are known locations. If we have a square photograph, we might identify the coordinates of all four corners, and that way the whole image can be correctly placed.  
+Pensiamo un attimo a come funziona la georeferenziazione, e a perchè è così impegnativa da fare. Quando qualcuno georeferenzia un'immagine, per prima cosa identifica una manciata di pixel nell'immagine che rappresentano posizioni note. Se avessimo una fotografia quadrata, potremmo identificare le coordinate dei quattro angoli e in tal modo tutta l'immagine sarebbe correttamente posizionata.  
 
-This all seems quite simple, but consider this: Earth is round; camera lenses are round; yet photographs are flat and 2-dimensional. This means that when a flat image is being mapped onto the round Earth, there is always going to be some stretching of the image and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular. Because of this problem, all of the pixels in an aerial image might not be perfectly placed.  
+Tutto ciò appare abbastanza semplice ma pensiamo un attimo, la terra è sferica, tuttavia le fotografie sono piatte, bidimensionali. Questo significa che, quando mappiamo un'immagine piatta sulla Terra sferica, ci sarà sempre uno stiramento dell'immagine e un po' di distorsione. Immagina di provare ad appiattire la buccia di un'arancia. Non diventerà mai rettangolare. A causa di questo problema tutti i pixel di un'immagine aerea non saranno proprio perfettamente posizionati.  
 
-Luckily, some really smart people have devised clever algorithms for solving this problem, and so the imagery that you see on Bing is pretty close to being accurate. In most places it won't be noticeably wrong at all - and it's certainly fine for making maps. The most common areas for imagery to be inaccurately located are in hilly, mountainous areas. In the [Correcting Imagery Offset chapter](/en/josm/correcting-imagery-offset) we will see how to correct for this problem.  
+Fortunatamente, delle persone veramente intelligenti hanno ideato degli ingegnosi algoritmi per risolvere questo problema. Quindi l'immagine che vedi su Bing è abbastanza prossima all'essere precisa. In molti posti non sarà affatto male e sarà di sicuro adatta a realizzare delle mappe. Le zone più comuni in cui le immagini presentano errori di posizionamento sono le zone montuose, collinari. Nel capitolo [correggere lo scostamento delle immagini](/it/josm/correcting-imagery-offset) vedremo come correggere questo problema.  
 
 [Image resolution]: /images/josm/orange-resolution.png
 [Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png

@@ -10,7 +10,7 @@ category: beginner
 =============== 
 
 > قد يكون تحميل هذا الدليل كـ [beginner_moving-forward_en.odt](/files/beginner_moving-forward_en.odt) or [beginner_moving-forward_en.pdf](/files/beginner_moving-forward_en.pdf)  
-> Reviewed 2015-07-12  
+> تمت مراجعته 2015-07-12  
 
 إذا كنت قد وصلت حتى هذا الحد، تهانينا! من المفروض أنه لديك الآن فهم جيد لكيفية صنع الخرائط بـ OpenStreetMap. ماذا يمكنك أن تفعل أكثر بـ OSM؟ كيف يمكنك تعلم المزيد؟ كيف يمكنك البقاء على اتصال بصانعي الخرائط؟  
 
@@ -19,7 +19,7 @@ category: beginner
 
 At the end of the chapter on the iD editor you heard about the differences between iD and JOSM. There is an [entire section devoted to JOSM](/en/josm/) where you will learn all the details necessary to fully benefit from the capabilities this editor has to offer.  
 
-So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
+حتى الآن، جميع التعديلات التي أضفناها إلى الخريطة كانت مستندة على صور خلفية. ولكن يمكنك جمع الكثير من المعلومات أثناء المشي أو القيادة في الجوار.[هذا القسم على خرائط الجوال](/en/mobile-mapping/) يشرح كيفية جمع المعلومات بأجهزة مختلفة تدعم تحديد المواقع أو باستخدام المطبوعات المصممة خصيصا. كما يستعرض عدد من التطبيقات ذات الصلة بـ OpenStreetMap للهواتف النقالة.  
 
 OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
 
@@ -27,7 +27,7 @@ OpenStreetMap is a collaborative effort and we hope that you will be part of it.
 تعلم أكثر
 ---------- 
 
-There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  
+هناك الكثير من المعلومات حول OpenStreetMap متواجدة في [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). هنا يمكنك العثور على معلومات حول مشاريع اخرى تتعلق بـ OpenStreetMap، والوثائق والدروس التي يمكن أن تساعدك على معرفة المزيد عن OSM.  
 
 ![Wiki][]
 
@@ -36,7 +36,7 @@ There is a lot of information about OpenStreetMap available at [wiki.openstreetm
 القائمة البريدية
 ------------ 
 
-The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
+أفضل طريقة للاتصال بمستخدمي OpenStreetMap هي الانضمام إلى القائمة البريدية المحلية. العديد من الناس يشتركون، وذلك باستخدام حسابات البريد الإلكتروني الخاصة بهم إلى القائمة OSM البريدية. بمجرد كونك في القائمة، يمكنك إرسال بريد إلكتروني إلى المجموعة إذا كان لديك سؤال أو تريد التحدث عن OpenStreetMap.  
 
 للاشتراك في القائمة البريدية لبلدك، افتح متصفح الإنترنت وانتقل إلى [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
@@ -61,7 +61,7 @@ MapOSMatic
 ---------- 
 
 هكذا مشروع يسمى MapOSMatic، والذي يمكنك الوصول إليه من خلال
-متصفح الانترنت (/maposmatic.org](http://www.maposmatic.org]. هذه
+متصفح الانترنت [maposmatic.org](http://www.maposmatic.org/). هذه تعتبر
 أداة بسيطة لطباعة خريطة لأي منطقة تختارها. ستكون
 إنشاء الخريطة تلقائيا، جنبا إلى جنب مع خانة على الخريطة، و
 مؤشر المواقع المدرجة في المنطقة.

@@ -170,10 +170,15 @@ OpenStreetMap အကောင့်ဖွင့်ခြင်း(Create OSM acc
     သိမ်းဆည်းပေးသွားမည်ဖြစ်သည်။ 
 
 
-iD Editor သည် Open Street Map တွင်မြေပုံပြင်ဆင်တည်းဖြတ်ရာ၌ လွယ်ကူအသုံးဝင်သော နည်းလမ်းတစ်ရပ်ဖြစ်သည်။ သို့သော်လည်း အင်တာနက်ချိတ်ဆက်ရန်မလိုဘဲ 
-သွင်ပြင်လက္ခဏာရပ်များစွာလည်း ထည့်သွင်းအသုံးပြုနိုင်သော JOSM အမျိုးအစားကို မိတ်ဆက်ဖော်ပြဦးမည်ဖြစ်သည်။
-OSM သို့ ပါဝင်ရေးဆွဲမှု အတွေ့အကြုံများပြားလာသည်နှင့်အမျှ မည်သည့် အမျိုးအစားသည် 
-သင်နှင့်ကိုက်ညီမှုအရှိဆုံးဖြစ်သည်ကို သင်ကိုယ်တိုင်ရွေးချယ်သုံးစွဲတတ်လာမည်ဖြစ်၏။
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
+more about using it in the [iD editor guide](/en/beginner/id-editor/).
+You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+which is a great and interactive manner to discover the editor.
+
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
+that offers many more features.
+Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
+you can choose which editor - iD or JOSM - you like using the best.
 
 အကျဉ်းချုပ်ဖော်ပြချက်
 -------

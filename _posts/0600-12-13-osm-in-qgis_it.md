@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Usare i dati OSM Data in QGIS
+title: Usare i dati OSM in QGIS
 permalink: /it/osm-data/osm-in-qgis/
 lang: it
 category: osm-data
@@ -54,7 +54,7 @@ Next we will need to import our raw **.osm** file into a SQLite Database file.
 ![import dialog][]  
 
 - Fai click su OK.  
-- When it is finished, click "Close."  
+- Quando è terminato, clicca "Chiudi."  
 
 
 Creare i livelli

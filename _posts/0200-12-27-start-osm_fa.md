@@ -170,10 +170,15 @@ OpenStreetMap محتوی داده‌های جغرافیایی کل دنیاست.
     پایگاه داده OSM ذخیره شود!
 
 
-استفاده از ویرایشگر iD روش بسیار آسانی برای ایجاد تغییرات در OpenStreetMap است، می‌توانید چیزهای بیشتری در [راهنمای ویرایشگر iD](/fa/beginner/id-editor/) یاد بگیرید. بااین وجود، در بخش [JOSM](/fa/josm/) نگاهی نیز
-به JOSM خواهیم انداخت که یک برنامه مستقل با امکانات بسیار زیاد جهت ویرایش است. راحت باشید و به
-ور رفتن به iD ادامه دهید. با کسب تجربه بیشتر در مشارکت در OSM خودتان می‌توانید انتخاب کنید که 
-کدام ویرایشگر برای شما مناسبتر و بهتر است.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
+more about using it in the [iD editor guide](/en/beginner/id-editor/).
+You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+which is a great and interactive manner to discover the editor.
+
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
+that offers many more features.
+Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
+you can choose which editor - iD or JOSM - you like using the best.
 
 خلاصه
 -------

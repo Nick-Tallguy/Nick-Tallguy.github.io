@@ -9,21 +9,21 @@ category: josm
 Risoluzione dei conflitti in JOSM
 ====================
 
-> This guide may be downloaded as [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) or [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
+> Questa guida può essere scaricata come [josm-conflict-resolution_it.odt](/files/josm-conflict-resolution_it.odt) oppure [josm-conflict-resolution_it.pdf](/files/josm-conflict-resolution_it.pdf)  
 > Revisionato il 2016-09-27  
 
-Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
+Talvolta lavorando con JOSM, quando carichi i tuoi bellissimi edit ottieni un brutto messaggio che si lamenta di un conflitto.  
 ![conflict detected][]  
-What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
+E' successo che hai scaricato dei dati, in cui c'è un punto che chiamiamo Nodo A. Mentre stavi editando, qualcun altro ha scaricato il Nodo A, lo ha cambiato e ha salvato i cambiamenti in OpenStreetMap.  Adesso, quando provi a caricare la tua versione del Nodo A, questa è differente da quella presente in OSM.  Quindi JOSM non sa quale quale versione del Nodo A deve essere salvata.  
 
 Conflitti
 ----------
 
-Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:  
+Talvolta JOSM è capace di risolvere autonomamente i conflitti e ti darà un messaggio come questo:  
 ![resolved automatically][]  
-This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
+Ciò significa che JOSM ha deciso autonomamente che gli oggetti nel tuo dataset locale non saranno caricati perchè sono stati già cancellati da un altro utente. In alcuni conflitti, comunque, JOSM non può prendere l'iniziativa e così lascia decidere all'utente come procedere. Tocca a te risolvere il conflitto.  
 
-This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:  
+Questo ti suggerisce di considerate tutti i conflitti nel Layer 1 del riquadro  **Dialog List**:  
 ![warning unresolved][]  
 
 This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
@@ -41,17 +41,17 @@ When you get a conflict window pop-up, it is best to choose the button “Synchr
 ![synchronize node][]  
 Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
 
-**Types of Conflict:**
+**Tipi di Conflitto:**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
-- **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
+- **Proprietà:**  L'oggetto è stato spostato (coordinate) o cancellato  
+- **Tag:**  I tag non combaciano  
+- **Nodi:**  C'è una differenza nella lista dei nodi delle due way  
+- **Membri:**  C'è differenza nella lista dei membri di una relazione  
 ![properties with conflicts][]  
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+I conflitti appaiono solo nel caso di due modifiche contemporanee. Se ci sono tre o più conflitti, apparirà una catena di conflitti.  Dovrai quindi scegliere o unire due conflitti alla volta. Potrai scegliere la tua versione, l'altra versione o, a volte, unire le due.  
 
-In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
+Nel seguente esempio non hai l'opzione di unire le versioni. Clicca sulla prima colonna, o Mia versione se ritieni che le tue modifiche siano corrette. Clicca su Loro versione se ritieni che le loro modifiche siano migliori.  
 ![conflicts resolved][]  
 
 Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
