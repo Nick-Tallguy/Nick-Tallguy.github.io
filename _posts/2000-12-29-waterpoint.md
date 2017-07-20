@@ -14,7 +14,7 @@ Waterpoint - Updating OSM from data held in a spreadsheet
 
 There are occassions when a large number of surveys are carried out, the data collected electronically, and this data consolidated into a spreadsheet. This guide illustrates how data, in this case data from a waterpoint survey, may be added to OpenStreetMap.
 
-See also the new draft module [Opendata plugin](en/josm/opendata-plugin/)
+See also the new draft module [Opendata plugin](/en/josm/opendata-plugin/)
 
 Requirements
 ------------
