@@ -18,7 +18,7 @@ their lives and make good decisions about the future. There are many
 people and organizations who make decisions that affect our lives. Good
 information allows these NGO's (non-government organisations), governments and citizens to make better
 decisions, and hopefully make our lives better. Maps are a good way
-to convey information. 
+لنقل المعلومات. 
 
 ![A village in Indonesia][]
 
