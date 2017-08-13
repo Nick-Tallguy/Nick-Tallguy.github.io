@@ -19,7 +19,7 @@ category: hot-tips
 為什麼需要標籤
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+如果物件沒有標籤的話，意味著物件沒有意義，地圖上也不會顯示。標籤是對電腦解釋這個圖徵實際是什麼。如果你發現好像'缺少'那個標籤的話，請加上該標籤。如果物件已經加上標籤，則會顯示顏色，像是建築套在圖像上會呈紅色調。**如果發現是白色調查的話，請加上缺少的標籤。**  
 
 ![tagged-building][]  
 
