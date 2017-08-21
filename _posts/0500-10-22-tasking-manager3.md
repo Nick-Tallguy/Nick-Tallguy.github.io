@@ -56,13 +56,13 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
   ![TM Quick Start 3][]
 4. Read the instructions for the project
   ![TM Quick Start 4][]
-5. Click "Map"
+5. Click the "Map" tab
   ![TM Quick Start 5][]
-6. Find an open task to work on, click on it and select "Start Mapping"
+6. Find a "Ready" task to work on, click on it and select "Start Mapping"
   ![TM Quick Start 6][]
 7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
   ![TM Quick Start 7][]
-8. When finished mapping, switch back to the Tasking Manager and click either "Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
+8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
   ![TM Quick Start 8][]
 
 
@@ -92,46 +92,41 @@ Once you are logged into OpenStreetMap you will be returned to the Tasking Manag
 
 ### Options & links
 
-The Task Manager initially displays in English - to change to another language click on **English** in upper right area of the window.
+The Task Manager initially displays in English - to change to another language click on **English** in the upper right area of the window.
 
 Once you have logged in, you may click on your username at the top. Here you can:
 
-- Access a list of projects for which you have completed tasks,
+- View your Tasking Manager profile where you can:
+    - Update your email address and social media handles
+    - View your mapper experience level
+    - See a list and map of the projects you have contributed to
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
 - Logout
-- See a list of all users who have contributed completed tasks within the Tasking Manager. You may access links to see more information about the user you select, such as which projects they have completed tasks for and their OSM edit history.  
-
-![Tasking Manager Username_list][]
 
 ### Finding a Project - Tasking Manager Contribute Screen
 
+Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
 ![TM contribute][]
 
 The Tasking Manager Contribute screen is divided into three main areas:
 
-- Project Filters
+- Search and Filter options along the left
 - Project List
 - Map View of Project List
 
-### List Filters
+#### Search and Filter Options
 
-By default all the projects available for mapping at your experience level are displayed. You can use the Project List filters section of the screen to further narrow down the projects that you would like to work on.
+By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
 
 - Project Number - If you know the number of the project you want to work on, you can enter it here and be taken directly to it.
 - Organization - This allows you to just display projects that have been requested by individual organizations.
 - Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
 - Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
 - Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
-- Tags - Projects can have other tags that indicate some information not covered by any of the above, you can find projects by those tags by entering them into this field.
+- Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
 
-### Project List
-
-The project list has two views, a grid view (shown above) that shows some detailed information about the projects and a list view that shows more projects and is sortable by column headings.
-
-![TM project list][]
-
-### Map View
-At the bottom of the screen is a map view. The points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Hovering over any of the points on the map will show information about that project. Clicking on any of the points on the map will take you to that project.
+#### Map View
+Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
 
 ![TM project map][]
 
@@ -141,25 +136,28 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 - A description of the project's importance and how the data will be used
 - Detailed instructions for what to map
-- Selection screens for mapping (and validating mapping)
+- Selection screens for mapping validating
 - Detailed map of the individual mapping task areas, with information about their status.
+- A Questions and Comments tab for questions or comments about the project
 
 ![TM project description][]
 
 
 
-### Description Tab
+### Project Page
 
-Everything you need to know about the project is here! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
+Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
+
+- The uncolored tasks are ready and available for mapping
 - Pink areas of the map indicate higher priority areas
-- Yellow/Gold grid squares have had the first pass of mapping completed  
-- A yellow border indicates the Task is slected by you
+- Yellow/Gold grid squares have had the first pass of mapping completed and are ready for validation
+- A yellow border indicates the task selected by you
 - Blue Tasks are currently being worked on by another mapper 
 - Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
-- Dark gray Tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The remaining uncolored Task are available for mapping
+- Dark grey tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
+- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 
 
 ### Instructions Tab
@@ -176,25 +174,25 @@ There will be a section indicating the **Changeset comment** you should make sur
 
 Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.  
 
-When checking a Task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
+When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
 
-### Stats tab  
+### Activity and Stats button  
 
 This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
-The summary contains a list of mappers who have completed at least one task within the project - to see which tasks they have completed, you can *hover your mouse cursor* over a username, and the tasks they have completed will become the only ones visible (**use this to locate the tasks you have previously completed**).  
+The summary contains a list of mappers who have completed at least one task within the project.  
 
-Once you have located the task by hovering your mouse over the user name, you may click on the task square to see the comments that have been left by mappers and validators for the task, which is a useful way of obtaining feedback from validators.  
+A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
 
+You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
 
 ### Map Tab  
 
-Click when you are ready to start mapping. You may choose your task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
+Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
 
+![TM map tab][]
 
 ### Selecting a task to map  
-
-![TM task selection][]
 
 Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
 
@@ -235,7 +233,7 @@ The editor will load in a new window or tab. Potlatch will not automatically dis
 
 #### Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
 
 ### Splitting a task square
@@ -245,7 +243,11 @@ Having selected your task and inspected it with the imagery in place, you may re
 > Be aware that other useful comments about the work previously completed will no longer be available.
 
 
-### Unlocking a Task before it is complete
+### Unlocking a Task
+
+![TM unlock][]
+
+#### Unlocking a Task before it is complete
 
 If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
@@ -255,7 +257,7 @@ For example:
     in the task square to be traced though
 
 
-### Finishing a Task
+#### Unlocking a Task that is complete mapped
 
 It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
@@ -263,10 +265,10 @@ For the process to work most effectively, mappers need to mark tasks as "Mapped"
 
 When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task square & I cannot see to trace this area".  
++ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
 + Click on the "Mark as Mapped" button, and your work is ready for review.  
 
-### Marking a Task as Bad Imagery
+#### Marking a Task as Bad Imagery
 
 You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
 
@@ -277,7 +279,7 @@ When leaving a comment against a task, you can have the comment sent as a messag
 
 For example:  
 
-    @Tallguy nice work tracing the building  
+    @HOTMppr nice work tracing the building  
     details here. You missed a small group  
     of houses on the upper left of the task square,  
     I added a few in, but some still remain.  
@@ -293,16 +295,18 @@ This is particularly useful when validating or adding on another's previous work
 If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
 
 1. Click on the task square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259'  
+2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
 3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
 4. In your email, IRC message, or other message,  
     - either, mouse right click & paste,  
     - or shortcut keys **Ctrl+V**, to paste the link into the message. 
 
 
-### Getting live help 
+### Getting help 
 
-From the main page of the Tasking Manager:  
+#### Live text based help
+
+From the Learn page of the Tasking Manager:  
 1. Click on **OSM HOT IRC Channel #hot**  
 2. Enter a username (your OSM username?), or use the preset characters  
 3. At the bottom of the dropdown list select **hot**  
@@ -313,6 +317,14 @@ From the main page of the Tasking Manager:
 - An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
 - Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
 - Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+
+#### Leaving a Project question / comment / contacting the Project creator
+
+Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
+
+All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
+
+![TM comments][]
 
 
 ### Editing hints and tips  
@@ -377,11 +389,12 @@ For the last two choices the validator can and should leave a friendly, encourag
 [TM login 1]: /images/coordination/tasking_manager_login1.png
 [TM login 2]: /images/coordination/tasking_manager_login2.png
 [TM login 3]: /images/coordination/tasking_manager_login3.png
-[Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png
 [TM contribute]: /images/coordination/tasking_manager_contribute.png
-[TM project list]: /images/coordination/tasking_manager_project_list.png
+[TM map tab]: /images/coordination/tasking_manager_map_tab.png
+[TM unlock]: /images/coordination/tasking_manager_unlock_task.png
 [TM project map]: /images/coordination/tasking_manager_project_map.png
 [TM project description]: /images/coordination/tasking_manager_project_description.png
+[TM comments]: /images/coordination/tasking_manager_comments.png
 [TM task selection]: /images/coordination/tasking_manager_task_selection.png
 [TM select for validation]: /images/coordination/tasking_manager_validation_selection.png
 [TM multi selection]: /images/coordination/tasking_manager_multi_selection.png
