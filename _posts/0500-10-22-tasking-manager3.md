@@ -48,29 +48,21 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ## Quick Start Guide
 
-1. Create an account and login on http://openstreetmap.org/
-
+1. Create an account and login on http://openstreetmap.org/  
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner
-
+2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
   ![TM Quick Start 2][]
-3. Click on "Contribute" and find a mapping project to work on
-
+3. Click on "Contribute" and find a mapping project to work on  
   ![TM Quick Start 3][]
-4. Read the instructions for the project
-
+4. Read the instructions for the project  
   ![TM Quick Start 4][]
-5. Click the "Map" tab
-
+5. Click the "Map" tab  
   ![TM Quick Start 5][]
-6. Find a "Ready" task to work on, click on it and select "Start Mapping"
-
+6. Find a "Ready" task to work on, click on it and select "Start Mapping"  
   ![TM Quick Start 6][]
-7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
-
+7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.  
   ![TM Quick Start 7][]
-8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
-
+8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.  
   ![TM Quick Start 8][]
 
 
@@ -355,6 +347,8 @@ Some general advice to heed when working in this tool:
 
 Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
 
+### Getting Started
+
 Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
 
 ![TM select for validation][]
@@ -363,7 +357,22 @@ The validator can select a task by clicking on an individual task square, clicki
 
 Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
 
-### Select By User
+### Selecting Multiple Tasks for Validation
+
+New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
+
+Depending on which editor you are using, this feature will behave differently.
+
+In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
+
+#### Select by drawing a polygon
+
+This option allows a validtor to draw a square around a group of tasks and check them all out at once.
+
+Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
+
+
+#### Select By User
 
 A list of mappers who have marked a task as done is presented. Hovering over anyone in the list will highlight the tasks they have marked as completed. The list also prensents three important pices of information about the mapper, their experience level, the number of days since they first started mapping using the Tasking Manager and the number of days since they last received feedback via validation. This allows the validator to specifically target new mappers, experienced mappers or mappers who have not had any feedback for an extended period of time.
 
@@ -371,7 +380,7 @@ Clicking on the "Start Validating" button will lock all the tasks completed by t
 
 ![TM multi selection][]
 
-Once in the editor of their choice, the validator will have to manually download the OSM data for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
+Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
 
 ### Finalizing Validation
 
