@@ -49,20 +49,28 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 ## Quick Start Guide
 
 1. Create an account and login on http://openstreetmap.org/
+
   ![TM Quick Start 1][]
 2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner
+
   ![TM Quick Start 2][]
 3. Click on "Contribute" and find a mapping project to work on
+
   ![TM Quick Start 3][]
 4. Read the instructions for the project
+
   ![TM Quick Start 4][]
 5. Click the "Map" tab
+
   ![TM Quick Start 5][]
 6. Find a "Ready" task to work on, click on it and select "Start Mapping"
+
   ![TM Quick Start 6][]
 7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.
+
   ![TM Quick Start 7][]
 8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.
+
   ![TM Quick Start 8][]
 
 
@@ -106,6 +114,7 @@ Once you have logged in, you may click on your username at the top. Here you can
 ### Finding a Project - Tasking Manager Contribute Screen
 
 Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
+
 ![TM contribute][]
 
 The Tasking Manager Contribute screen is divided into three main areas:
@@ -344,7 +353,7 @@ Some general advice to heed when working in this tool:
 
 ## Validation
 
-Validation is the process of a second mapper reviewing the mapping of the initial mapper of a Project Task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
+Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
 
 Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
 
