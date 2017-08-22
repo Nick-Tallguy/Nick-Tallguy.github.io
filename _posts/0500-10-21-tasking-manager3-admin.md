@@ -1,12 +1,26 @@
 ---
 layout: doc
-title: OSM Tasking Manager 3 Project Creation and Administration
+title: Tasking Manager 3 Project Creation
 permalink: /en/coordination/tasking-manager3-project-admin/
 lang: en
 category: coordination
 ---
 > This guide may be downloaded as a stand-alone module: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) or [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
+Section Index
+-------------
+-  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;-access-levels)  
+-  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
+--  [Description - the first thing users learn about your project](/en/coordination/tasking-manager3-project-admin/#description)
+--  [Instructions - what the users should do](/en/coordination/tasking-manager3-project-admin/#instructions)
+--  [Metadata - where the project belongs to](/en/coordination/tasking-manager3-project-admin/#metadata)
+--  [Priority Areas - where users should start mapping](/en/coordination/tasking-manager3-project-admin/#priority-areas)
+--  [Imagery - the basis for mapping](/en/coordination/tasking-manager3-project-admin/#imagery)
+--  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
+--  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
+--  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
 # OSM Tasking Manager Project Creation and Administration
 

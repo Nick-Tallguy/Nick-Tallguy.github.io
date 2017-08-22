@@ -1,14 +1,14 @@
 ---
 layout: doc
 title: Tasking Manager 3
-permalink: /en/coordination/tasking-manager-3/
+permalink: /en/coordination/tasking-manager3/
 lang: en
 category: coordination
 ---
 
 # Tasking Manager 3
 
-> This guide may be downloaded as [tasking-manager-3_en.odt](/files/tasking-manager-3_en.odt) or [tasking-manager-3_en.pdf](/files/tasking-manager-3_en.pdf)  
+> This guide may be downloaded as [tasking-manager3_en.odt](/files/tasking-manager3_en.odt) or [tasking-manager3_en.pdf](/files/tasking-manager3_en.pdf)  
 
 
 Section Index
@@ -16,17 +16,17 @@ Section Index
 -  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
 -  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
 --  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
---  [Options](/en/coordination/tasking-manager3/#options-amp-links)  
---  [Finding a Project](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
---  [Project Details](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager)  
---  [Selecting a Task](/en/coordination/tasking-manager3/#selecting-a-task-to-map)  
---  [Editing Choices](/en/coordination/tasking-manager3/#editing-choices)  
---  [Splitting a Task](/en/coordination/tasking-manager3/#splitting-a-task-square)  
---  [Finishing a Task](/en/coordination/tasking-manager3/#finishing-a-task)  
---  [Sending messages](/en/coordination/tasking-manager3/#sending-a-message-from-the-comment-box)  
---  [identifying a Task in an email or other message](/en/coordination/tasking-manager3/#referring-to-a-particular-square-when-sending-an-email)  
---  [Live Help - IRC, Internet Relay Chat](/en/coordination/tasking-manager3/#getting-live-help)  
---  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
+--  [Options - languages settings and user profile](/en/coordination/tasking-manager3/#options-amp-links)  
+--  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+--  [Mapping a Task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
+---  [Project page - getting an overview what is available for mapping](en/coordination/tasking-manager3/#project-page) 
+---  [Instructions - everything you need to know about the project](/en/coordination/tasking-manager-3/#instructions-tab)
+---  [Map - start working](/en/coordination/tasking-manager-3/#map-tab)
+---  [Editing choices - how to use your favourite editor](/en/coordination/tasking-manager-3/#editing-choices)
+---  [Splitting a task - too much work for one session?](/en/coordination/tasking-manager-3/#splitting-a-task-square)
+---  [Unlocking a task - no matter whether it is finished or not](/en/coordination/tasking-manager-3/#unlocking-a-task)
+-  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
+-  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
 -  [Validation](/en/coordination/tasking-manager3/#validation)
 
 The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
@@ -145,7 +145,7 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 
 
-### Project Page
+#### Project Page
 
 Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
 
@@ -161,7 +161,7 @@ Below the description the screen is divided into a left and right section. The l
 - The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 
 
-### Instructions Tab
+#### Instructions Tab
 This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
@@ -177,7 +177,7 @@ Sometimes, task specific imagery may be available - you may need to agree to a l
 
 When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
 
-### Activity and Stats button  
+#### Activity and Stats button  
 
 This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
@@ -187,24 +187,24 @@ A log of all the comments left on individual tasks is at the bottom of the page.
 
 You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
 
-### Map Tab  
+#### Map Tab  
 
 Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
 
 ![TM map tab][]
 
-### Selecting a task to map  
+#### Selecting a task to map  
 
 Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
 
 Clicking on the **Start Mapping** button locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
 
 
-### Editing choices
+#### Editing choices
 
 Different options for editing are presented to you as soon as you lock a task.
 
-#### Edit with JOSM  
+##### Edit with JOSM  
 
 Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
@@ -213,12 +213,12 @@ Start JOSM before using this link and it will automatically load the existing OS
 >  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
   
 
-#### iD editor  
+##### iD editor  
 
 Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
 
 
-#### Potlatch 2  
+##### Potlatch 2  
 
 The editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
 
@@ -232,23 +232,23 @@ The editor will load in a new window or tab. Potlatch will not automatically dis
 8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
   
 
-#### Field Papers  
+##### Field Papers  
 
 For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
 
-### Splitting a task square
+#### Splitting a task square
 
 Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
 
 > Be aware that other useful comments about the work previously completed will no longer be available.
 
 
-### Unlocking a Task
+#### Unlocking a Task
 
 ![TM unlock][]
 
-#### Unlocking a Task before it is complete
+##### Unlocking a Task before it is complete
 
 If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
@@ -258,7 +258,7 @@ For example:
     in the task square to be traced though
   
 
-#### Unlocking a Task that is completely mapped
+##### Unlocking a Task that is completely mapped
 
 It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
@@ -269,12 +269,12 @@ When you have finished editing and think that the task is complete, save any rem
 + Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
 + Click on the "Mark as Mapped" button, and your work is ready for review.  
 
-#### Marking a Task as Bad Imagery
+##### Marking a Task as Bad Imagery
 
 You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
 
 
-### Sending a message from the comment box
+#### Sending a message from the comment box
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
@@ -291,7 +291,7 @@ This is particularly useful when validating or adding on another's previous work
 + Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
 
 
-### Referring to a particular task when sending an email  
+#### Referring to a particular task when sending an email  
 
 If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
 
@@ -303,9 +303,9 @@ If you need to send a message, such as an email or an IRC message, and you are q
     - or shortcut keys **Ctrl+V**, to paste the link into the message. 
 
 
-### Getting help 
+## Getting help 
 
-#### Live text based help
+### Live text based help
 
 From the Learn page of the Tasking Manager:  
 1. Click on **OSM HOT IRC Channel #hot**  
@@ -319,7 +319,7 @@ From the Learn page of the Tasking Manager:
 - Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
 - Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
 
-#### Leaving a Project question / comment / contacting the Project creator
+### Leaving a Project question / comment / contacting the Project creator
 
 Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
 
@@ -328,7 +328,7 @@ All comments are public and it is not real time, live chat, use the IRC option a
 ![TM comments][]
 
 
-### Editing hints and tips  
+## Editing hints and tips  
 
 By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
 

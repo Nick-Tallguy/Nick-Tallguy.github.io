@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: OSM Tasking Manager Project Admin
+title: Tasking Manager 2 Project Creation
 permalink: /en/coordination/tasking-manager-project-admin/
 lang: en
 category: coordination

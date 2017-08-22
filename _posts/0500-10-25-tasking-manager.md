@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tasking Manager
+title: Tasking Manager 2
 permalink: /en/coordination/tasking-manager/
 lang: en
 category: coordination
