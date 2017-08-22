@@ -23,7 +23,7 @@ The first thing to understand is access level. All access to TMd is authorized t
 ### Access Levels within the OSM Tasking Manager
 
 The OSM Tasking Manager has three user access levels:
--  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
+-  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
 -  **Project Manager** - Project managers have access to create and update projects within TM3.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
 
@@ -122,7 +122,7 @@ Once the Project is created, you will need to edit all its associated settings:
 
 ### Description
 
-![TM Description]()
+![TM Description][]
 
 This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
 
@@ -130,7 +130,7 @@ Both the short and long description should provide information about why the pro
 
 ### Instructions
 
-![TM Instructions]()
+![TM Instructions][]
 
 **Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
 
@@ -148,7 +148,7 @@ See the below notes on creating good instructions.
 
 ### Metadata
 
-![TM Metadata]()
+![TM Metadata][]
 
 > All of these fields should be filled out and will become non-optional in future versions of TM3.
 
@@ -162,7 +162,7 @@ See the below notes on creating good instructions.
 
 ### Priority Areas
 
-![TM Priority Area]()
+![TM Priority Area][]
 
 Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
 
@@ -176,7 +176,7 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 ### Permissions
 
-![TM Permissions]()
+![TM Permissions][]
 
 Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
 
@@ -190,7 +190,7 @@ Default Locale - Allows the setting of default instructions language for a proje
 
 ### Actions
 
-![TM Actions]()
+![TM Actions][]
 
 Message All Contributors - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
 
