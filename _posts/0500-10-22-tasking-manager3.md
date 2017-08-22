@@ -25,9 +25,9 @@ Section Index
         -  [Editing choices - how to use your favourite editor](/en/coordination/tasking-manager-3/#editing-choices)
         -  [Splitting a task - too much work for one session?](/en/coordination/tasking-manager-3/#splitting-a-task-square)
         -  [Unlocking a task - no matter whether it is finished or not](/en/coordination/tasking-manager-3/#unlocking-a-task)
-    -  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
-    -  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
-    -  [Validation](/en/coordination/tasking-manager3/#validation)
+-  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
+-  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
+-  [Validation](/en/coordination/tasking-manager3/#validation)
 
 The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
 
