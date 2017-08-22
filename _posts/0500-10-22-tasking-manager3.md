@@ -13,21 +13,21 @@ category: coordination
 
 Section Index
 -------------
--  [Quick Start Guide](/en/coordination/tasking-manager/#quick-start-guide)  
--  [The Mapping Process](/en/coordination/tasking-manager/#mapping-process)  
---  [Logging in](/en/coordination/tasking-manager/#tasking-manager-login)  
---  [Options](/en/coordination/tasking-manager/#options-amp-links)  
---  [Finding a Project](/en/coordination/tasking-manager/#finding-a-project---tasking-manager-contribute-screen)  
---  [Project Details](/en/coordination/tasking-manager/#mapping-via-the-tasking-manager)  
---  [Selecting a Task](/en/coordination/tasking-manager/#selecting-a-task-to-map)  
---  [Editing Choices](/en/coordination/tasking-manager/#editing-choices)  
---  [Splitting a Task](/en/coordination/tasking-manager/#splitting-a-task-square)  
---  [Finishing a Task](/en/coordination/tasking-manager/#finishing-a-task)  
---  [Sending messages](/en/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
---  [identifying a Task in an email or other message](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
---  [Live Help - IRC, Internet Relay Chat](/en/coordination/tasking-manager/#getting-live-help)  
---  [Hints and Tips](/en/coordination/tasking-manager/#editing-hints-and-tips)
--  [Validation](/en/coordination/tasking-manager/#validation)
+-  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
+-  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
+--  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
+--  [Options](/en/coordination/tasking-manager3/#options-amp-links)  
+--  [Finding a Project](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+--  [Project Details](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager)  
+--  [Selecting a Task](/en/coordination/tasking-manager3/#selecting-a-task-to-map)  
+--  [Editing Choices](/en/coordination/tasking-manager3/#editing-choices)  
+--  [Splitting a Task](/en/coordination/tasking-manager3/#splitting-a-task-square)  
+--  [Finishing a Task](/en/coordination/tasking-manager3/#finishing-a-task)  
+--  [Sending messages](/en/coordination/tasking-manager3/#sending-a-message-from-the-comment-box)  
+--  [identifying a Task in an email or other message](/en/coordination/tasking-manager3/#referring-to-a-particular-square-when-sending-an-email)  
+--  [Live Help - IRC, Internet Relay Chat](/en/coordination/tasking-manager3/#getting-live-help)  
+--  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
+-  [Validation](/en/coordination/tasking-manager3/#validation)
 
 The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
 
