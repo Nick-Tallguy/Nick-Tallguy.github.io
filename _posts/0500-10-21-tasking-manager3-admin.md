@@ -5,6 +5,9 @@ permalink: /en/coordination/tasking-manager3-project-admin/
 lang: en
 category: coordination
 ---
+
+# OSM Tasking Manager Project Creation and Administration
+
 > This guide may be downloaded as a stand-alone module: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) or [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
 Section Index
@@ -21,8 +24,6 @@ Section Index
     -  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
     -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
     -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
-
-# OSM Tasking Manager Project Creation and Administration
 
 The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
