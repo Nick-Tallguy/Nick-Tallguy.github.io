@@ -211,7 +211,7 @@ Start JOSM before using this link and it will automatically load the existing OS
 >  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
 >  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
 >  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
-
+  
 
 #### iD editor  
 
@@ -230,7 +230,7 @@ The editor will load in a new window or tab. Potlatch will not automatically dis
 6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
 7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
 8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
-
+  
 
 #### Field Papers  
 
@@ -256,9 +256,9 @@ For example:
 
     Almost complete, small village top left 
     in the task square to be traced though
+  
 
-
-#### Unlocking a Task that is complete mapped
+#### Unlocking a Task that is completely mapped
 
 It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
