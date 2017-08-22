@@ -9,7 +9,7 @@ category: coordination
 
 Section Index
 -------------
--  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;-access-levels)  
+-  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
 -  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
 -  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
 -  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
