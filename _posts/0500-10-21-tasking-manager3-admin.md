@@ -10,6 +10,8 @@ category: coordination
 
 > This guide may be downloaded as a stand-alone module: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) or [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
+** This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager-project-admin) **
+
 Section Index
 -------------
 -  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
