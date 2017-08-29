@@ -4,7 +4,7 @@ permalink: /en/coordination/tm-whats-new-for-validators
 lang: en
 title: What is new for Validators in the Tasking Manager 3
 category: coordination
-date: 0500-10-21 13:00:00
+date: 0500-10-21 12:00:00
 ---
 
 # What is new for Validators in the Tasking Manager 3
@@ -63,6 +63,6 @@ If you need to mark tasks with different statuses after reviewing them, please c
 
 2. **Task level comments feed** - The Activity and Stats button in the upper right hand corner of the tasks map now has a feed of all the comments left on the individual tasks. Validators should review that list of comments to help identify issues and answer questions.
 
-[profile]:   /images/coordination/tm3-wnv-profile.png
-[selection]: /images/coordination/tm3-wnv-selection.png
-[multiple]:  /images/coordination/tm3-wnv-multiple.png
+[profile]:   /images/coordination/tm3_wnv_profile.png
+[selection]: /images/coordination/tm3_wnv_selection.png
+[multiple]:  /images/coordination/tm3_wnv_multiple.png

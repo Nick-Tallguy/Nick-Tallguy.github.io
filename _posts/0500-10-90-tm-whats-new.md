@@ -4,7 +4,7 @@ permalink: /en/coordination/tm-whats-new-for-mappers
 lang: en
 title: What is new for Mappers in the Tasking Manager 3
 category: coordination
-date: 0500-10-21 12:00:00
+date: 0500-10-21 13:00:00
 ---
 
 # What is new for Mappers in the Tasking Manager 3
@@ -47,12 +47,12 @@ The Project mapping page has a number of changes that affect mappers. The most s
 
 2. **Mapping and Validating tabs** - There are now two separate tabs for mapping and validating. You will need to make sure you are on the correct tab depending on whether you are mapping or validating. If you see a message about a task not being in the correct state, it is likely because you are on the wrong tab.
 
-On the Mapping tab you will also see a new option to mark a Task as "Bad Imagery," please use this if there is no high resolution imagery or the square is covered significantly by clouds.
+    On the Mapping tab you will also see a new option to mark a Task as "Bad Imagery," please use this if there is no high resolution imagery or the square is covered significantly by clouds.
 
-On the Project Task map, in the lower right corner you will find a button that allows you to see what the area looks like in satellite imagery.
+    On the Project Task map, in the lower right corner you will find a button that allows you to see what the area looks like in satellite imagery.
 
 3. **Questions and Comments tab** - this is a project level (not task level) place to ask questions and leave comments for the project manager and other mappers. If you have any questions about mapping in general or the project overall this is the place to put them. There is a link "Contact project manager" that will automatically put the project manager's OSM username into the comment to make sure they see it.
 
-[profile]:  /images/coordination/tm3-wnm-profile.png
-[projects]: /images/coordination/tm3-wnm-projects.png
-[mapping]:  /images/coordination/tm3-wnm-mapping.png
+[profile]:  /images/coordination/tm3_wnm_profile.png
+[projects]: /images/coordination/tm3_wnm_projects.png
+[mapping]:  /images/coordination/tm3_wnm_mapping.png
