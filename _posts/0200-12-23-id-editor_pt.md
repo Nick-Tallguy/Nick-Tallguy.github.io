@@ -10,7 +10,7 @@ O Editor iD
 =============
 
 > Este guia pode ser descarregado como [beginner_id-editor_pt.odt](/files/beginner_id-editor_pt.odt) ou [beginner_id-editor_pt.pdf](/files/beginner_id-editor_pt.pdf)  
-> Reviewed 2016-03-30  
+> Revisto em 2016-03-30  
 
 - TOC
 {:toc}
