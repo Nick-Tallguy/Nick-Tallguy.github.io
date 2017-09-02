@@ -190,8 +190,8 @@ translations:
     feedback: "Diga-nos e ajude-nos a melhorar os guias!"
     getstarted: "Começar"
     language: "Português"
-    quickaccess: "Quick access"
-    returntotop: "Return to top of page"
+    quickaccess: "Acesso rápido"
+    returntotop: "Voltar ao início da página"
   ru:
     tagline: "Изучаем OpenStreetMap шаг за шагом"
     contribute: "Помогите улучшить наши руководства"
