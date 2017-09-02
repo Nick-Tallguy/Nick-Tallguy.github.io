@@ -9,8 +9,8 @@ category: josm
 JOSM Konflikt Behebung
 ====================
 
-> Diese Anleitungen kann heruntergeladen werden als [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) or [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
-> Reviewed 2016-09-27  
+> Diese Anleitungen kann heruntergeladen werden als [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) oder [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
+> Gereviewt am 2016-09-27  
 
 Wenn man mit JOSM arbeitet bekommt man manchmal, wenn man seine Änderungen hochlädt, eine Nachricht über Konflikte.  
 ![conflict detected][]  
@@ -66,7 +66,7 @@ Wege Konflikte zu vermeiden
 
 ### Regelmäßig hochladen
 
-Um das Risiko und die Anzahl von Konflikten zu verkleinern, ist es wichtig regelmäßig seine Bearbeitungen hochzuladen. Konflikte treten häufiger auf bei denen, die ein Gebiet bearbeiten, auf dem lokalen Server speichern und mit dem Hochladen eine Weile warten. Man sollte am Besten ein Gebiet an dem man arbeitet herunterladen, es bearbeiten und direkt wieder hochladen. Je mehr Zeit zwischen Herunterladen und Hochladen der Änderungen vergeht, umso wahrscheinlicher ist es, dass jemand anders etwas in der Zwischenzeit bearbeitet hat. Wenn man an einem Mapathon teilnimmt und Features wie eine Straße bearbeitet, die auch von anderen bearbeitet werden kann, sollte man regelmäßig hochladen, vielleicht so nach 6 Änderungen!  
+Um das Risiko und die Anzahl von Konflikten zu verkleinern, ist es wichtig regelmäßig seine Bearbeitungen hochzuladen. Konflikte treten häufiger auf bei denen, die ein Gebiet bearbeiten, auf dem lokalen Server speichern und mit dem Hochladen eine Weile warten. Man sollte am Besten ein Gebiet an dem man arbeitet herunterladen, es bearbeiten und direkt wieder hochladen. Je mehr Zeit zwischen Herunterladen und Hochladen der Änderungen vergeht, umso wahrscheinlicher ist es, dass jemand anders etwas in der Zwischenzeit bearbeitet hat. Wenn man an einem Mapathon teilnimmt und Kartenelemente wie eine Straße bearbeitet, die auch von anderen bearbeitet werden kann, sollte man regelmäßig hochladen, vielleicht so nach 6 Änderungen!  
 
 ### Änderungen im heruntergeladenen Gebiet
 

@@ -19,38 +19,38 @@ category: hot-tips
 為什麼需要標籤
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+如果物件沒有標籤的話，意味著物件沒有意義，地圖上也不會顯示。標籤是對電腦解釋這個圖徵實際是什麼。如果你發現好像'缺少'那個標籤的話，請加上該標籤。如果物件已經加上標籤，則會顯示顏色，像是建築套在圖像上會呈紅色調。**如果發現是白色調查的話，請加上缺少的標籤。**  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+ 任務分配管理器專案作者並不知道圖客用那個編輯器，所以通常有類似下面的備註；  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+- *建築通常是圓木屋，應當在 iD 被標為**建築圖徵 / 建築**，在JSOM 標為 **building=yes**。*  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+如果你需要檢察物件的標籤的話，請點一下物件，捲動到標籤面版，然後看**所有標籤**
 
 ### 標籤的簡單説明 ###
 
-If you select an item and click on **All tags** you will see a label such as  
+如果你選擇物件然後點**所有標籤**，你會看到的標籤像是  
 
 **building    yes**  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+這是最基本的建築標籤，而且當用任務分配管理器描繪建築時的推薦標籤。  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
+如果你知道這是什麼建築的話，你應該加更詳細的標籤，像是：  
   **building   house**  
   **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+或是其他的標籤。如果要看更多資訊，請看 <https://wiki.openstreetmap.org/wiki/Buildings> 的建築標籤  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+請看 [HOT 小技巧的道路部分](/zh-TW/hot-tips/highways/)  
 
 ### 關聯 - 像是有內院的建築，或是河中的島嶼 ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+有些圖徵的標籤在**關聯**上面，而不是圖徵本身。如果你看到螢幕上有提及關聯的話，作為初學者的建議是'請先放著不管'。  
 
-For more information on relations (**not a beginner subject**) see;  
+關於關聯更多資訊 (**並不是適合初學者的內容**) ，請見；  
 
-[LearnOSM - JOSM - 關聯](/en/josm/josm-relations/) 解釋關聯，但用不同的 OSM 編輯器，或是  
+[LearnOSM - JOSM - 關聯](/zh-TW/josm/josm-relations/) 解釋關聯，但用不同的 OSM 編輯器，或是  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
 另見  
