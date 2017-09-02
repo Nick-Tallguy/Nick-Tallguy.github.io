@@ -10,19 +10,19 @@ category: coordination
 
 > Diese Anleitung kann unter [tasking-manager3_de.odt](/files/tasking-manager3_de.odt) oder [tasking-manager3_de.pdf](/files/tasking-manager3_de.pdf) heruntergeladen werden  
 
-**Diese Anleitung beschreibt die aktuelle Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zur vorherigen Version](/de/coordination/tasking-manager)**
+**Diese Anleitung beschreibt die aktuelle Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zur vorherigen Version}/de/coordination/tasking-manager)**
 
 Inhaltsverzeichnis
 -------------
--  [Ein schneller Überblick](/de/coordination/tasking-manager3/#ein-schneller-überblick)  
--  [Kartographierung im Detail](/de/coordination/tasking-manager3/#kartographierung-im-detail)  
-    -  [Anmelden](/de/coordination/tasking-manager3/#am-tasking-manager-anmelden)  
-    -  [Einstellungen - Sprachauswahl und Benutzerprofil](/de/coordination/tasking-manager3/#einstellungen)  
-    -  [Ein Projekt suchen - aus einer Liste oder Karte, Such- und Filteroptionen](/de/coordination/tasking-manager3/#ein-projekt-suchen---die-ansicht-“beitragen”-im-tasking-manager)  
-    -  [Eine Aufgabe bearbeiten - auswählen, kartieren, freigeben](/de/coordination/tasking-manager3/#kartographie-mit-dem-tasking-manager) 
--  [Hilfe](/de/coordination/tasking-manager3/#hilfe)  
--  [Tipps und Tricks](/de/coordination/tasking-manager3/#tipps-und-tricks-zur-bearbeitung)
--  [Validierung](/de/coordination/tasking-manager3/#validierung)
+-  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
+-  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
+    -  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
+    -  [Options - language settings and user profile](/en/coordination/tasking-manager3/#options-amp-links)  
+    -  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+    -  [Mapping a Task - select, work on and unlock a task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
+-  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
+-  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
+-  [Validation](/en/coordination/tasking-manager3/#validation)
 
 Der [HOT OSM Tasking Manager](http://tasks.hotosm.org) ist ein Werkzeug das die Kartierung eines bestimmten Gebiets in OpenStreetMap durch viele Leute koordiniert.
 
@@ -43,7 +43,7 @@ Wenn Sie mit der Kartierung so eines Bereiches fertig sind, halten Sie das im Ta
 
 ## Ein schneller Überblick
 
-1. Erstellen Sie ein Benutzerkonto und melden Sie sich damit auf http://openstreetmap.org an
+1. Erstellen Sie ein Benutzerkonto und melden Sie sich damit auf http://openstreetmap.org an  
   ![TM Quick Start 1][]
 2. Melden Sie sich auf [http://tasks.hotosm.org/](http://tasks.hotosm.org/) in der oberen rechten Ecke an.  
   ![TM Quick Start 2][]
@@ -73,7 +73,7 @@ Wenn Sie mit der Kartierung so eines Bereiches fertig sind, halten Sie das im Ta
 
 Der Tasking Manager ist eine eigenständige Anwendung zur Koordination der Kartographierung in OpenStreetMap. Es greift aber auf die Benutzerverwaltung von OpenStreetMap zurück. Das bedeutet, dass Sie kein eigenes Benutzerkonto für den Tasking Manager anlegen müssen. Sie benötigen aber ein Benutzerkonto bei OpenStreetMap und Sie müssen sich dort anmelden, bevor Sie mit dem Tasking Manager arbeiten können.
 
-Nach dem Start des Tasking Managers sehen Sie einen Knopf zum Anmelden in der oberen rechten Ecke des Bildschirms
+Nach dem Start des Tasking Managers sehen Sie ein Knopf zum Anmelden in der oberen rechten Ecke des Bildschirms
 
 ![TM login 1][]
 
@@ -93,10 +93,10 @@ Sobald Sie angemeldet sind, können Sie auf Ihren Benutzernamen in der oberen Le
 
 - Ihre Tasking Manager-Profil ansehen und dort:
     - Ihre e-Mail-Adresse und Namen in sozialen Netzwerken aktualisieren
-    - Ihre Eingruppierung in eine Benutzergruppe sehen
-    - Eine Liste und eine Karte der Projekte sehen, an denen Sie gearbeitet haben
-- Ihre **Nachrichten** im Tasking Manager sehen (dabei handelt es sich um ein anderes System als die Nachrichten bei OpenStreetMap)
-- sich abmelden
+     - Ihre Eingruppierung in eine Benutzergruppe sehen
+     - Eine Liste und eine Karte der Projekte sehen, an denen Sie gearbeitet haben
+ - Ihre **Nachrichten** im Tasking Manager sehen (dabei handelt es sich um ein anderes System als die Nachrichten bei OpenStreetMap)
+ - sich abmelden
 
 ### Ein Projekt suchen - Die Ansicht "Beitragen" im Tasking Manager
 
@@ -110,15 +110,15 @@ Der Bildschirm besteht aus drei Bereichen:
 - einer Projektliste
 - einer Kartenansicht der Projekte
 
-#### Suche und Filteroptionen
+### Suche und Filteroptionen
 
-Standardmäßig werden alle Projekte angezeigt, die zur Bearbeitung freigegeben sind. Sie können mit den Filteroptionen diese Anzeige einschränken.
+Standardmäßig werden alle Projekte angezeigt, die zur Bearbeitung freigegeben sind. Sie können die Filteroptionen um diese Anzeige einzuschränken.
 
 - Projektnummer - Wenn Sie die Nummer des Projekts kennen, an dem Sie arbeiten möchten, können Sie sie hier eingeben und Sie gelangen direkt zu dem Projekt.
 - Organisation - Damit können Sie alle Projekte anzeigen, die von einer bestimmten Organisation initiiert wurden.
 - Kartierungsschwierigkeit - Einige Projekte sind schwieriger zu bearbeiten als andere. Mit dieser Option können Sie die Projekte finden, die zu Ihrer Erfahrung passen. Als Anfänger sollten Sie besser nicht an Projekten arbeiten, die eine gewisse Erfahrung voraussetzen. Genauso fühlen sich erfahrene Benutzer in anspruchsvolleren Projekten wohler.
 - Kartografierungstyp - Hier können Sie die Auswahl auf Projekte einschränken, in denen bestimmte Kartenelemente eingetragen werden sollen. Obwohl viele Projekte sich auf einen Typ von Elementen beschränken, gibt es auch Projekte, in denen mehrere Arten von Elementen einzutragen sind.
-- Volltextsuche - Hier können Sie nach Projekten suchen die den Suchtext in der Beschreibung enthalten.
+- Volltextsuche - Hier können Sie nach Projekte suchen, die den Suchtext in der Beschreibung enthalten.
 - Kampagne - Projekte können mit Begriffen markiert sein, die auf eine größere Kampagne hinweisen, zu der das Projekt gehört. Die Auswahlbox präsentiert die verfügbaren Begriffe.
 
 #### Kartenansicht
