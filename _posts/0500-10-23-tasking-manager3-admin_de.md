@@ -26,13 +26,13 @@ Inhaltsverzeichnis
 
 Der [HOT OSM Tasking Manager](http://tasks.hotosm.org) ist ein Werkzeug das die Kartierung eines bestimmten Gebiets in OpenStreetMap durch viele Leute koordiniert.
 
-OpenStreetMap ist ein gemeinschaftlich von vielen Leuten erstellte freie Weltkarte. Jeder kann bei OpenStreetMap mitmachen um einen Teil der Welt, der ihn interessiert, zu kartographieren. Der Tasking Manager stellt nur eine Möglichkeit dar, wie man die Arbeit einer größeren Zahl von Menschen an OpenStreetMap koordinieren kann. Die meisten Beiträge zu OpenStreetMap stammen von Leuten, die den Tasking Manager nicht benutzen.
+OpenStreetMap ist eine gemeinschaftlich von vielen Leuten erstellte freie Weltkarte. Jeder kann bei OpenStreetMap mitmachen um einen Teil der Welt, der ihn interessiert, zu kartographieren. Der Tasking Manager stellt nur eine Möglichkeit dar, wie man die Arbeit einer größeren Zahl von Menschen an OpenStreetMap koordinieren kann. Die meisten Beiträge zu OpenStreetMap stammen von Leuten, die den Tasking Manager nicht benutzen.
 
 Der Tasking Manager ist ein eigenständiges Projekt und unabhängig von OpenStreetMap. Wenn sie mit dem Tasking Manager zu OpenStreetMap beitragen benutzen Sie eigentlich mehrere Softwarewerkzeuge:
 
 * OpenStreetMap - Eine Datenbank mit geographischen Informationen
 * Den Tasking Manager - Er hilft dabei, größere Mengen von Leuten die OpenStreetMap-Daten innerhalb des gleichen Gebiets bearbeiten, zu koordinieren
-* Einen OpenStreetMap-Editor - Eine Programm, das Daten in die OpenStreetMap-Datenbank schreiben und aus ihr lesen kann.
+* Einen OpenStreetMap-Editor - Ein Programm, das Daten in die OpenStreetMap-Datenbank schreiben und aus ihr lesen kann.
 
 ![TM overview][]
 
@@ -43,9 +43,9 @@ Wenn Sie mit der Kartierung so eines Bereiches fertig sind, halten Sie das im Ta
 
 ## Ein schneller Überblick
 
-1. Erstellen Sie ein Benutzerkonto und loggen Sie sich damit auf http://openstreetmap.org ein  
+1. Erstellen Sie ein Benutzerkonto und melden Sie sich damit auf http://openstreetmap.org an
   ![TM Quick Start 1][]
-2. Loggen Sie sich auf [http://tasks.hotosm.org/](http://tasks.hotosm.org/) in der oberen rechten Ecke ein.  
+2. Melden Sie sich auf [http://tasks.hotosm.org/](http://tasks.hotosm.org/) in der oberen rechten Ecke an.  
   ![TM Quick Start 2][]
 3. Klicken Sie auf "Beitragen" und suchen Sie sich ein Kartierungsprojekt, an dem Sie arbeiten möchten.  
   ![TM Quick Start 3][]
@@ -63,7 +63,7 @@ Wenn Sie mit der Kartierung so eines Bereiches fertig sind, halten Sie das im Ta
 
 ## Kartographierung im Detail 
 
-1. Ein Bearbeiter erstellt ein Benutzerkonto auf OpenStreetMapper und loggt sich in den Tasking Manager ein.
+1. Ein Bearbeiter erstellt ein Benutzerkonto auf OpenStreetMap und meldet sich am Tasking Manager an.
 1. Der Bearbeiter sucht ein Projekt, an dem er arbeiten möchte. Die Auswahl trifft er normalerweise nach der vom Projektmanager vorgegebenen Priorität und den erforderlichen Kenntnissen. 
 2. Ein Bearbeiter sucht sich eine Aufgabe, vervollständigt die Kartierung und kennzeichnet die Aufgabe als erledigt.
 3. Ein zweiter Bearbeiter überprüft, dass die Bearbeitung weitgehend den Anforderungen entspricht und kennzeichnet die Aufgabe als 'überprüft'
@@ -73,11 +73,11 @@ Wenn Sie mit der Kartierung so eines Bereiches fertig sind, halten Sie das im Ta
 
 Der Tasking Manager ist eine eigenständige Anwendung zur Koordination der Kartographierung in OpenStreetMap. Es greift aber auf die Benutzerverwaltung von OpenStreetMap zurück. Das bedeutet, dass Sie kein eigenes Benutzerkonto für den Tasking Manager anlegen müssen. Sie benötigen aber ein Benutzerkonto bei OpenStreetMap und Sie müssen sich dort anmelden, bevor Sie mit dem Tasking Manager arbeiten können.
 
-Nach dem Start des Tasking Managers sehen Sie ein Knopf zum Anmelden in der oberen rechten Ecke des Bildschirms
+Nach dem Start des Tasking Managers sehen Sie einen Knopf zum Anmelden in der oberen rechten Ecke des Bildschirms
 
 ![TM login 1][]
 
-Wenn SIe auf diesen Knopf klicken, gelangen Sie auf die Webseite von OpenStreetMap. Dort müssen Sie sich anmelden und dem Tasking Manager Zugriff auf Ihre Einstellungen erlauben. Erstellen Sie dort ein Benutzerkonto, wenn Sie noch keines haben.
+Wenn Sie auf diesen Knopf klicken, gelangen Sie auf die Webseite von OpenStreetMap. Dort müssen Sie sich anmelden und dem Tasking Manager Zugriff auf Ihre Einstellungen erlauben. Erstellen Sie dort ein Benutzerkonto, wenn Sie noch keines haben.
 
 ![TM login 2][]
 
@@ -112,13 +112,13 @@ Der Bildschirm besteht aus drei Bereichen:
 
 #### Suche und Filteroptionen
 
-Standardmäßig werden alle Projekte angezeigt, die zur Bearbeitung freigegeben sind. Sie können die Filteroptionen um diese Anzeige einzuschränken.
+Standardmäßig werden alle Projekte angezeigt, die zur Bearbeitung freigegeben sind. Sie können mit den Filteroptionen diese Anzeige einschränken.
 
 - Projektnummer - Wenn Sie die Nummer des Projekts kennen, an dem Sie arbeiten möchten, können Sie sie hier eingeben und Sie gelangen direkt zu dem Projekt.
 - Organisation - Damit können Sie alle Projekte anzeigen, die von einer bestimmten Organisation initiiert wurden.
 - Kartierungsschwierigkeit - Einige Projekte sind schwieriger zu bearbeiten als andere. Mit dieser Option können Sie die Projekte finden, die zu Ihrer Erfahrung passen. Als Anfänger sollten Sie besser nicht an Projekten arbeiten, die eine gewisse Erfahrung voraussetzen. Genauso fühlen sich erfahrene Benutzer in anspruchsvolleren Projekten wohler.
 - Kartografierungstyp - Hier können Sie die Auswahl auf Projekte einschränken, in denen bestimmte Kartenelemente eingetragen werden sollen. Obwohl viele Projekte sich auf einen Typ von Elementen beschränken, gibt es auch Projekte, in denen mehrere Arten von Elementen einzutragen sind.
-- Volltextsuche - Hier können Sie nach Projekte suchen, die den Suchtext in der Beschreibung enthalten.
+- Volltextsuche - Hier können Sie nach Projekten suchen die den Suchtext in der Beschreibung enthalten.
 - Kampagne - Projekte können mit Begriffen markiert sein, die auf eine größere Kampagne hinweisen, zu der das Projekt gehört. Die Auswahlbox präsentiert die verfügbaren Begriffe.
 
 #### Kartenansicht
@@ -190,7 +190,7 @@ Klicken Sie auf die Karte, wenn Sie mit der Bearbeitung beginnen möchten. Sie k
 
 #### Eine Aufgabe zur Bearbeitung auswählen  
 
-Sobald Sie eine Aufgabe ausgewählt haben, sehen Sie, was für Aktivitäten bisher stattgefunden haben. Beispielsweise hat eine Benutzer mit der Bearbeitung begonnen aber dann festgestellt, dass er nicht genug Zeit hat, um die Aufgabe vollständig zu bearbeiten.  
+Sobald Sie eine Aufgabe ausgewählt haben, sehen Sie, was für Aktivitäten bisher stattgefunden haben. Beispielsweise hat ein Benutzer mit der Bearbeitung begonnen aber dann festgestellt, dass er nicht genug Zeit hat, um die Aufgabe vollständig zu bearbeiten.  
 
 Klicken Sie auf "Kartografieren beginnen" um die Aufgabe zu sperren, damit kein anderer Benutzer daran arbeiten kann. Die Sperre läuft bis zu 120 Minuten und wird dann automatisch aufgehoben. Es empfiehlt sich, regelmäßig nach der verbleibenden Zeit zu sehen - man ist schnell so in die Arbeit vertieft, dass man gar nicht mitbekommt, dass die Aufgabe bereits wieder freigegeben und danach von einem anderen Bearbeiter ausgewählt wurde, der jetzt ebenfalls Objekte einträgt. Das führt leicht zu Konflikten.  
 
@@ -385,7 +385,7 @@ Sobald der Prüfer mit der Validierung fertig ist, sollte er im Tasking Manager 
 - Als gültig kennzeichnen - Wenn die Kartierung vollständig und genau erfolgte
 - Als ungültig kennzeichnen - Wenn die Kartierung unvollständig oder ungenau erfolgte
 
-Bei den letzten beiden Möglichkeiten kann und soll der Prüfer einen freundlichen und aufmunternden Kommentar an den betreffenden Benutzer schreiben in dem er ihm für seinen Beitrag dankt und ihn über seine Fehler aufklärt. Bitte denken Sie zweimal nach, bevor Sie eine Aufgabe als ungültig markieren. Wenn nur wenig fehlt dann tragen Sie das bitte selbst ein, erklären das in einem Kommentar aber markieren die Aufgabe als gültig. Neue Benutzer dürften es als Ohrfeige empfinden, wenn eine von ihnen beendeten Aufgabe als ungültig markiert wird.
+Bei den letzten beiden Möglichkeiten kann und soll der Prüfer einen freundlichen und aufmunternden Kommentar an den betreffenden Benutzer schreiben in dem er ihm für seinen Beitrag dankt und ihn über seine Fehler aufklärt. Bitte denken Sie zweimal nach, bevor Sie eine Aufgabe als ungültig markieren. Wenn nur wenig fehlt dann tragen Sie das bitte selbst ein, erklären das in einem Kommentar aber markieren die Aufgabe als gültig. Neue Benutzer dürften es als Ohrfeige empfinden, wenn eine von ihnen beendete Aufgabe als ungültig markiert wird.
 
 
 
