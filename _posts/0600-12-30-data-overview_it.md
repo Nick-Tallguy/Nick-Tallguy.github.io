@@ -11,9 +11,9 @@ category: osm-data
 
 
 > Questa guida può essere scaricata come [OSM_Data_Overview_it.odt](/files/OSM_Data_Overview_it.odt) oppure [OSM_Data_Overview_it.pdf](/files/OSM_Data_Overview_it.pdf)  
-> Rivisto il 2016-09-05
+> Rivisto il 2017-07-25
 
-<!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
+<!--In questa sezione vedremo come funziona OpenStreetMap , questo ci aiuterà a capire bene come sono strutturati i dati e come possiamo utilizzarli al meglio. -->
 
 Come funziona OSM
 --------------
@@ -27,7 +27,7 @@ Because of this limitation, there are various methods of **exporting** and **ext
 
 Using Geodata
 --------------
-If you are not an experienced GIS user, it's important to understand the difference between OSM editing software like JOSM and GIS software such as Quantum GIS and ArcGIS.  
+Se non sei un utente esperto di GIS, è importante capire la differenza tra un programma di editing come JOSM e i software GIS come QGiS (Quantum GIS) e ArcGIS.  
 
 Editors such as iD or JOSM have one core function that they are very good at - making it easy for users to edit OpenStreetMap. But they are not software meant for analyzing or querying data -
 this function is best left to other applications. GIS software, such as the free and open source [Quantum GIS (QGIS)](http://www.qgis.org), allows users to design good-looking maps, to query and analyze data, and much more. GIS software can also be used for editing geodata, but it is much easier to edit OpenStreetMap with the dedicated OSM editors.  
