@@ -14,15 +14,15 @@ category: coordination
 
 Inhaltsverzeichnis
 -------------
--  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
--  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
-    -  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
-    -  [Options - language settings and user profile](/en/coordination/tasking-manager3/#options-amp-links)  
-    -  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
-    -  [Mapping a Task - select, work on and unlock a task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
--  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
--  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
--  [Validation](/en/coordination/tasking-manager3/#validation)
+-  [Ein schneller Überblick](/en/coordination/tasking-manager3/#ein-schneller-überblick)  
+-  [Kartographierung im Detail](/en/coordination/tasking-manager3/#kartographierung-im-detail)  
+    -  [Anmelden](/en/coordination/tasking-manager3/#am-tasking-manager-anmelden)  
+    -  [Einstellungen - Sprachauswahl und Benutzerprofil](/en/coordination/tasking-manager3/#einstellungen)  
+    -  [Ein Projekt suchen - aus einer Liste oder Karte, Such- und Filteroptionen](/en/coordination/tasking-manager3/#ein-projekt-suchen---die-ansicht-“beitragen”-im-tasking-manager)  
+    -  [Eine Aufgabe bearbeiten - auswählen, kartieren, freigeben](/en/coordination/tasking-manager3/#kartographie-mit-dem-tasking-manager) 
+-  [Hilfe](/en/coordination/tasking-manager3/#hilfe)  
+-  [Tipps und Tricks](/en/coordination/tasking-manager3/#tipps-und-tricks-zur-bearbeitung)
+-  [Validierung](/en/coordination/tasking-manager3/#validierung)
 
 Der [HOT OSM Tasking Manager](http://tasks.hotosm.org) ist ein Werkzeug das die Kartierung eines bestimmten Gebiets in OpenStreetMap durch viele Leute koordiniert.
 
