@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: مدیریت وظایف
+title: Tasking Manager 2
 permalink: /fa/coordination/tasking-manager/
 lang: fa
 category: coordination
@@ -10,6 +10,8 @@ category: coordination
 
 > این راهنما را می‌توان به صورت [tasking-manager_fa.odt](/files/tasking-manager_fa.odt) و یا [tasking-manager_fa.pdf](/files/tasking-manager_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۰۴  
+
+**This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
 
 فهرست بخش
 -------------
@@ -267,15 +269,16 @@ From the tasking manager;
 
 By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
 
-Some general advice to heed when working in this tool:  
+**Some general advice to heed when working in this tool:**  
 
-- Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.  
-- Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
-- If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
-- If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
-- Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-- You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-- Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+* Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.  
+* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
+* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
+* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
+* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
+* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
+* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+
 
 [Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png

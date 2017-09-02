@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tasking Manager
+title: Tasking Manager 2
 permalink: /my/coordination/tasking-manager/
 lang: my
 category: coordination
@@ -10,6 +10,8 @@ category: coordination
 
 > ဤလမ်းညွှန်ချက်ကို [tasking-manager_my.odt](/files/tasking-manager_my.odt) (သို့မဟုတ်) [tasking-manager_my.pdf](/files/tasking-manager_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-08-26  
+
+**This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
 
 အခန်းအလိုက် မာတိကာအညွှန်း
 -------------
@@ -267,15 +269,16 @@ Tasking Manager မှ
 
 ယခုအချိန်တွင် သင်သည် Tasking Manage ဆိုသည်မှာဘာဖြစ်ကြောင်းနှင့် ယင်း၏လုပ်ဆောင်ချက်အမျိုးမျိုးမှအချို့ကို ကောင်းစွာနားလည်ပြီဖြစ်ပါသည်။ သာမန်ပြင်ဆင်တည်းဖြတ်ခြင်းနှင့်မတူပဲ ဤကိရိယာသည် ပါဝင်ဆောင်ရွက်သူများစွာနှင့်အတူ အချိန်အရေးပါသောစီမံကိန်းများအတွက် အသုံးပြုလေ့ရှိပါသည်။ ဤသည်မှာ သင်လုပ်ဆောင်လေ့ရှိသည်နှင့်အနည်းငယ်ကွဲပြားနိုင်ပါသည်။  
 
-ဤကိရိယာ၌လုပ်ဆောင်ရာတွင် အလေးထားရမည့်ယေဘုယျ အကြံဉာဏ်အချို့မှာ ။ ။  
+**Some general advice to heed when working in this tool:**  
 
-- သင်၏စတုရန်းကွက်အပြင်ဘက်အထိ မြေပုံရေးဆွဲခြင်းကို ရှောင်ပါ။ အခြားမြေပုံရေးဆွဲသူများသည်လည်း ထိုဧရိယာတွင် လုပ်ဆောင်ကောင်းလုပ်ဆောင်လျက်ရှိနိုင်သဖြင့် ကြိုးပမ်းမှုများထပ်သွားနိုင်ပါသည်။ နယ်နိမိတ်တစ်ခုကို ကျော်လွန်သည့် အဆောက်အဦးများကဲ့သို့သော အရာဝတ္ထုများကို မြေပုံရေးဆွဲနိုင်ပါသည်။ သို့ရာတွင် ယင်းထက်ပိုမိုလွန်ကဲစွာမသွားမိပါစေနှင့်။ နယ်စပ်၌တစ်စုံတစ်ခုကို မြေပုံရေးဆွဲပြီးလျှင်ပြီးချင်း upload ချက်ချင်းလုပ်ပါ။   
-- လမ်းများ၊ စမ်းချောင်းများ သို့မဟုတ် အခြားသောအသွင်အပြင်များကို နယ်နိမိတ်အလွန်သို့မဆိုစလောက် တိုးချဲ့ပါ။ ဤသို့လုပ်ခြင်းအားဖြင့် အခြားသောမြေပုံရေးဆွဲသူများအား သင်ချန်ထားရစ်သည့်နေရာမှစတင်၍ လုပ်ဆောင်စေပါသည်။ သို့ရာတွင် သင်သည်ယင်းကိုတည်းဖြတ်ပြီးလျှင်ပြီးချင်း upload ချက်ချင်းလုပ်ပါ။   
-- သင်သည် သက်ဆိုင်ရာအသွင်အပြင်တစ်ခုကို ဘာဖြစ်သည်ဆိုခြင်းနှင့်ပတ်သက်၍ သံသယဖြစ်ပါက မေးခွန်းများမေးရန် comment section ကိုအသုံးပြုပါ သို့မဟုတ် wiki တွင်ကြည့်ရှုစစ်ဆေးပါ။   
-- အကယ်၍ သင်သည်ဆိုးဝါးသောအမှားတစ်ခုကို ပြုလုပ်မိ ပါက၊ ဥပမာအားဖြင့် အရေးပါသည့်အသွင်အပြင်တစ်ခု သို့မဟုတ် ဆက်စပ်မှုတစ်ခုကို ဖျက်မိပါက သင့်အတွက် မူလအတိုင်းပြန်လည်ရယူရေးအတွက် အခြားသော မြေပုံရေးဆွဲသူများအား အကူအညီတောင်းရန် IRC သို့မဟုတ် comment box ကို အသုံးပြုပါ။ Changeset သို့မဟုတ် ဘာဖြစ်ခဲ့သည်ကိုဖော်ပြချက်တစ်ခု ပါဝင်စေရန်ကြိုးစားပါ။ အားလုံးပူးပေါင်းဆောင်ရွက်ရသည့် လုပ်ဆောင်ချက် တစ်ခုဖြစ်သဖြင့် အခြားသောမြေပုံရေးဆွဲသူများစွာတို့သည် ကူညီရန်အသင့်ရှိကြပါသည်။ လူတိုင်းသည် တစ်ခါတရံ၌ အမှားများကိုလုပ်မိတတ်ကြောင်းကို သတိရရန် အရေးကြီးပါသည်။   
-- အကြံပြုဝေဖန်ချက်များကို တောင်းရန်မစိုးရိမ်ပါနှင့်။ သင်၏အလုပ်ကိုပြည်စုံမှန်ကန်ကြောင်း အတည်ပြုပေးသည့် မြေပုံရေးဆွဲသူများသည် စကားကိုတိုတောင်းပြတ်သားစွာပြောတတ်သူများဖြစ်နိုင်ပါသည်။ သို့ရာတွင် သင်နှင့်စကားအပြန်အလှန်ပြောရန်အဆင်ပြေကြောင်း သူတို့သိကြလျှင် ထွက်ပေါ်လာမည့်ရလဒ်သည် ပါဝင်ပတ်သက်သူများအားလုံးအတွက် များစွာပိုမိုကောင်းမွန်လေ့ရှိပါသည်။ အခြားသောဘာသာစကားတစ်ခုဖြင့် ဆက်သွယ်ရန်ခက်ခဲနိုင်ပြီး၊ သင်မကျွမ်းကျင်သော ဘာသာစကားတစ်ခုဖြင့် ပြောဆိုရသည့်အခါ မချောမွေ့မှုများဖြစ်တတ်ပါသည်။   
-- သင်ကိုယ်တိုင်လုပ်ဆောင်ထားသည့်အလုပ်ကို သင်ကိုယ်တိုင် မှန်ကန်ပြီးပြည့်စုံကြောင်း အတည်ပြုပေး၍မရပါ။ ဒုတိယမျက်လုံးတစ်စုံသည်သာ မြေပုံရေးဆွဲမှုကို ပိုမိုကောင်းမွန်သည့်အရည်အသွေးဖြစ်စေရန် အမြဲဦးဆောင်ပါသည်။   
-- အခြားသောမြေပုံရေးဆွဲသူများသည် သင့်အလုပ်ကိုမှန်ကန်ပြီးပြည့်စုံကြောင်း အတည်ပြုချိန်၌ စကားပြောတိုတောင်းပြတ်သားလျှင် စိတ်မပူပါနှင့်။ သင့်လိုပင် ၎င်းတို့သည်လည်း ဒေတာအချက်အလက်အားလုံး တိကျမှန်ကန်စွာ မြေပုံရေးဆွဲမှုသေချာစေလိုကြမည်ဖြစ်သည်။ အကြံပြုဝေဖန်မှုသည် လက်ရှိအချိန်အထိ သင်ဆောင်ရွက်ထားသောကြိုးပမ်းမှုကို ဝေဖန်ခြင်းမဟုတ်ပဲ ဆက်လက်လုပ်ဆောင်ရမည့်အလုပ်နှင့်ပတ်သက်၍ ပေးခြင်းဖြစ်ပါသည်။  
+* Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.  
+* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
+* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
+* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
+* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
+* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
+* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+
 
 [Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
 [Tasking Manager Username_list]: /images/coordination/tasking_manager_image02.png

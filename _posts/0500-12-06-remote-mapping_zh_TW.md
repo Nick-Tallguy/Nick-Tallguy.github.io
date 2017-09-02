@@ -54,18 +54,18 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
  
 ### 其他資源 
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
+這份指南統整和收集既有的教學資源，以及正在撰寫 HOT 指南。你可以在下面列的連結找到更多學習資源。  
 
 #### 教學範例
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+[LearnOSM 遠端畫圖指南](http://learnosm.org/zh_TW/coordination/remote/)- 其中一份相當詳盡的指南  
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[MapGive 學習畫地圖教學](http://mapgive.state.gov/learn-to-map/)- 包括可以暫停播放的影片，以跟上學習腳步  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - 由資深 HOT 遠端反應志工 Peter Richardson (@meetar) 撰寫  
 
 #### 關於 HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news  
+[HOT Wiki 頁面](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)- 學到更多關於 HOT 的運作方式，以及最新消息  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describes HOT activities in more detail from their website  
+[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- 從 HOT 網站更詳細描述 HOT 的活動  
