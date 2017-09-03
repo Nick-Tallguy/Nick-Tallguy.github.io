@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "Helfen Sie uns, die Anleitungen zu verbessern"
 startwith: "Wollen Sie loslegen?"
 startA: "Schicken Sie uns eine Rückmeldung"
-startB: "Erstellen Sie eine Übersetzung"
-startC: "Verbessern Sie die Sprache"
+startB: "Helfen Sie uns beim Übersetzen"
+startC: "Verbessern Sie Abbildungen - in Ihrer Sprache!"
 startD: "Melden Sie Probleme und machen Sie mit"
 nosearch: true
 ---

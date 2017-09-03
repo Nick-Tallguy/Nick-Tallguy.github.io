@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "Aiutaci a migliorare le nostre guide"
 startwith: "Siete pronti ad iniziare?"
 startA: "Inviaci un feedback"
-startB: "Crea una traduzione"
-startC: "Migliora il linguaggio"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
 startD: "Segnala problemi e contribuisci"
 nosearch: true
 ---

@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "Aidez-nous pour améliorer cette documentation"
 startwith: "Prêt à commencer ?"
 startA: "Envoyez-nous vos retours et commentaires"
-startB: "Démarrer une traduction"
-startC: "Proposer des améliorations"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
 startD: "Signaler des problèmes et contribuer"
 nosearch: true
 ---

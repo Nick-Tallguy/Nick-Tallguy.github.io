@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "Pomožte vylepšit naše průvodce"
 startwith: "Připraveni začít?"
 startA: "Poslat zpětnou vazbu"
-startB: "Vytvořit překlad"
-startC: "Vylepšit jazyk"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
 startD: "Nahlásit problémy a přispět"
 nosearch: true
 ---

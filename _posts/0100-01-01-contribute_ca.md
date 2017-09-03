@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "Ajudeu-nos a millorar les guies"
 startwith: "Esteu preparat per a començar?"
 startA: "Feu-nos arribar comentaris"
-startB: "Crea una traducció"
-startC: "Millora la traducció"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
 startD: "Informeu d'incidències i col·laboreu"
 nosearch: true
 ---
