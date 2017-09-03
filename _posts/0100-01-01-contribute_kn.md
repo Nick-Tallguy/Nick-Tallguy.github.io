@@ -1,9 +1,14 @@
-ಹಂತ ಹಂತವಾಗಿ ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್ ಕಲಿಯಿರಿ
-ನಮ್ಮ ಕೈಪಿಡಿಯನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡಿ
-ನೀವು ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್ ಕಾರ್ಯಾಗಾರದ ಆಯೋಜಕರೇ?
-contributetitle: "ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್ ಒಂದು ಸ್ವತಂತ್ರ ಹಾಗೂ ಮುಕ್ತವಾದ ತಳಮಟ್ಟದ, ನಿರಂತರವಾಗಿ ಬೆಳೆಯುತ್ತಿರುವ ಬಳಕೆದಾರರು  ಸಹವರ್ತನೆಯಿಂದ ಸಂಪಾದಿಸಿರುವ ವಿಶ್ವನಕಾಶೆಯಾಗಿದೆ."
-startwith: "Anyone can edit OpenStreetMap. Here you can learn how LearnOSM provides easy to understand, step-by-step guides for you to get started with contributing to OpenStreetMap and using OpenStreetMap and using OpenStreetMap data. If you are interested in running an OpenStreetMap workshop, check out the LearnOSM trainer resources."
-startA: "ನಮ್ಮ ಕೈಪಿಡಿಗಳು"
-startB: "ನೀವು ಏನನ್ನು ನೋಡುತ್ತಿದ್ದೀರಿ?"
-startC: "ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್‌ಗೆ ಹೊಸಬರೇ?"
-startD: "ಆರಂಭಿಕರ ಕೈಪಿಡಿ"
+---
+layout: contribute
+permalink: /kn/contribute/
+lang: kn
+title: Contribute
+contributetitle: "ನಮ್ಮ ಕೈಪಿಡಿಯನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡಿ"
+startwith: "Ready to get started?"
+startA: "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿರಿ"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "ವಿವಾದಾಂಶಗಳನ್ನು ವರದಿಮಾಡಿ ಮತ್ತು ನೆರವಾಗಿ"
+nosearch: true
+---
+This guide is created and maintained by the [OpenStreetMap](http://www.openstreetmap.org/) and [Humanitarian OpenStreetMap](http://hotosm.org/) community. You can help us improve this guide by simply sending your feedback or by contributing directly to it via [Github](http://github.com/hotosm/learnosm).

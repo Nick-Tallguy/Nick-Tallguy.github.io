@@ -1,9 +1,14 @@
-تعلم OpenStreetMap خطوة بخطوة
-ساعد في تحسين دلائلنا
-هل أنت منظم ورشة عمل؟
-contributetitle: "OpenStreetMap خريطة عالم مجانية بمستوى الشارع، أنشأها مجتمع نامي من صانعي الخرائط."
-startwith: "يمكن لأي شخص تعديل OpenStreetMap. هنا يمكنك أن تتعلم كيف يوفر لك LearnOSM أدلة سهلة الفهم وخطوة بخطوة للبدء في المساهمة في OpenStreetMap واستخدامه واستخدام بياناته. إذا كنت ترغب في تشغيل ورشة عمل OpenStreetMap، تحقق من موارد تدريب LearnOSM ."
-startA: "دلائلنا"
-startB: "عما تبحث؟"
-startC: "جديد في OpenStreetMap؟"
-startD: "دليل المبتدئين"
+---
+layout: contribute-rtl
+permalink: /ar/contribute/
+lang: ar
+title: Contribute
+contributetitle: "ساعد في تحسين دلائلنا"
+startwith: "هل أنت مستعد للبدء؟"
+startA: "أرسل لنا ردود الفعل"
+startB: "Help with translations"
+startC: "Improve Images - in your language!"
+startD: "الإبلاغ عن مشاكل والمساهمة"
+nosearch: true
+---
+يتم إنشاء هذا الدليل والحفاظ عليها من قبل [أوبن ستريت ماب [OpenStreetMap](http://www.openstreetmap.org/) ومجتمع [Humanitarian OpenStreetMap](http://hotosm.org/). يمكنك مساعدتنا في تحسين هذا الدليل ببساطة عن طريق إرسال ملاحظاتك أو عن طريق المساهمة مباشرة في ذلك عبر [Github] (http://github.com/hotosm/learnosm).
