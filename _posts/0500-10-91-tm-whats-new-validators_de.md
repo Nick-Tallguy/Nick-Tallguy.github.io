@@ -1,69 +1,69 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-whats-new-for-validators
-lang: en
-title: What is new for Validators in the Tasking Manager 3
+permalink: /de/coordination/tm-whats-new-for-validators/
+lang: de
+title: Was hat sich beim Validieren im Tasking Manager 3 geändert
 category: coordination
 date: 0500-10-21 12:00:00
 ---
 
-# What is new for Validators in the Tasking Manager 3
+# Was hat sich beim Validieren im Tasking Manager 3 geändert
 
-> This guide may be downloaded as [tm3-news-for-validators_en.odt](/files/tm3-news-for-validators_en.odt) or [tm3-news-for-validators_en.pdf](/files/tm3-news-for-validators_en.pdf)  
+> Diese Anleitung kann unter [tm3-news-for-validators_de.odt](/files/tm3-news-for-validators_de.odt) oder [tm3-news-for-validators_de.pdf](/files/tm3-news-for-validators_de.pdf) heruntergeladen werden  
 
-## Your User Profile
+## Ihr Benutzerprofil
 
-The Tasking Manager 3 has a number of new features directed toward folks doing validation. Please make your **first activity in the new Tasking Manager visiting your User Profile**, which can be selected from the popdown menu under your OpenStreetMap (OSM) user name in the upper right corner.
+Im Tasking Manager 3 gibt es einige Neuerungen für alle, die validieren möchten. **Als ersten Schritt im neuen Tasking Manager gehen Sie bitte zu Ihrem Benutzerprofil**. Sie finden es im Menü unter Ihrem Benutzernamen in der oberen rechten Ecke.
 
 ![profile][]
 
-1. **Email Address** - The Tasking Manager can now send an email whenever a user receives a message in the Tasking Manager. This is very important to people doing validation. Comments left when validating mapping are now much more likely to be seen by the person whose work you are validating. Please be sure to **add your email address** to your profile as well.
+1. **E-Mail-Adresse** - Der Tasking Manager kann jetzt E-Mails versenden, wenn eine Nachricht für einen Benutzer eingegangen ist. Das ist sehr wichtig wenn man validiert. Es ist jetzt deutlich wahrscheinlicher, dass die Benutzer, deren Arbeit man überprüft, die an sie gerichteten Kommentare auch lesen. **Bitte tragen Sie auch Ihre E-Mail-Adresse in Ihrem Benutzerprofil ein**.
 
-2. **Validator Role** - Projects can optionally require experienced validators to validate project mapping. While "Mapper Experience Level" is automatically set based on OSM changesets, the validator role is currently only set by project managers manually. The initial list of folks with the validator role is incomplete, please contact a project manager to have your name added to the list of those with the validator role if you are an experienced validator who does not have the validator role in the Tasking Manager. **Please note**: The validator role is Tasking Manager wide and therefore we ask project managers to only assign this role to validators whose validation work they know directly, and have first hand knowledge the validator is qualified to validate any project in the Tasking Manager.
+2. **Prüfer** - Projekte können wahlweise erfahrene Prüfer für die Validierung erfordern. Die Erfahrung beim Kartieren wird automatisch nach der Anzahl der Änderungssätze in OSM vergeben. Dagegen wird die Einstufung als "erfahrener Prüfer" derzeit von Projektmanagern vergeben. Wir haben mit einer sicher unvollständigen Liste begonnen. Wenn Sie diese Einstufung noch nicht haben, sich aber dazu berufen fühlen, dann wenden Sie sich bitte an einen Projektmanager, damit er Sie in die Liste aufnimmt. **Wichtig:** Diese Einstufung gilt für den gesamten Tasking Manager. Wir bitten deshalb alle Projektmanager, die Einstufung nur solchen Benutzern zu verleihen, deren Validierung sie selbst gesehen haben. Als Projektmanager sollten Sie davon überzeugt sein, dass der Prüfer jedes Projekt im Tasking Manager validieren kann.
 
 
-## Validation Process
+## Die Validierung
 
-### Step 1 - Task Selection
+### Schritt 1 - Auswahl einer Aufgabe
 
-Validating can only be done by clicking the "Validation" tab on a Project page. Once you have selected the "Validation" tab you have three main options for how to select tasks to validate.
+Validierung ist nur möglich, wenn Sie sich auf dem Reiter "Validierung" der Projektseite befinden. Hier stehen Ihnen drei Möglichkeiten zur Verfügung, wie Sie eine Aufgabe zur Validierung auswählen können.
 
 ![selection][]
 
-1. **Select an individual task** to validate - This is exactly the same process that exists in the current Tasking Manager, you click on a task or use the "Validate a Random Task" button and then click "Start Validating" and launch your editor.
+1. **Wählen Sie eine einzelne Aufgabe** zur Validierung aus - Das funktioniert genau so wie in der vorherigen Version des Tasking Managers. Sie klicken auf eine Aufgabe oder wählen die Option "eine zufällige Aufgabe überprüfen" und klicken danach "Validierung beginnen" und starten Ihren Editor.
 
-2. **Select by area** - This allows you to draw one polygon on the task map and it will select all of the tasks that are available for validation. You can then click "Start Validating" and it will lock them all for validation.
+2. **Ein Gebiet auswählen** - Damit können Sie ein Polygon auf der Projektkarte zeichnen und damit alle Aufgaben innerhalb des Polygons auswählen, die überprüft werden können. Klicken Sie dann auf "Validierung beginnen" und alle diese Aufgaben werden für die Validierung gesperrt.
 
-3. **Select by user** - A list of all the users who have contributed to the project is on the left side of the page along with some information about them. You can sort by any of column headings:
+3. **Nach Benutzername auswählen** - Im linken Teil der Seite finden Sie eine Liste aller Benutzer, die zu diesem Projekt beigetragen haben sowie einige Informationen über sie. Sie können die Liste nach Spalten sortieren:
 
-- Level - Based on the number of OSM changesets
-- Registered - How long they have been using the Tasking Manager.
-- Last Validation - The last time they had a task validated
+ - Stufe - basiert auf der Anzahl der OSM-Änderungssätze
+ - Angemeldet - Seit wann arbeitet der Benutzer mit dem Tasking Manager
+ - Letzte Validierung - Wann wurde zuletzt eine Aufgabe überprüft, die der Benutzer als vollständig bearbeitet markiert hatte.
 
-Using your mouse to hover over the "Start" link will highlight the tasks that user has completed. Clicking on the "Start" link will lock them all for validation.
+Sperren - Wenn Sie die Maus über den "Start"-Link bewegen werden die Aufgaben hervorgehoben, die der Benutzer als vollständig bearbeitet gekennzeichnet hat. Ein Klick auf diesen Link sperrt alle für die Validierung.
 
-### Step 2 - Validating Multiple Tasks
+### Schritt 2 - Validierung mehrerer Aufgaben
 
-Selecting one single task and launching your editor of choice will behave the same as in the previous version of the Tasking Manager, the real difference will be when you select multiple tasks and launch your editor.
+Wenn Sie eine einzelne Aufgabe auswählen und den Editor Ihrer Wahl starten, ändert sich nichts im Vergleich zur früheren Version des Tasking Managers. Unterschiede zeigen sich, wenn Sie mehrere Aufgaben ausgewählt haben und Ihren Editor starten.
 
-There is less of a change in the iD editor, the big difference being that instead of seeing just one task outline, you will see multiple task outlines. Because iD only downloads data for areas you zoom in close for and accepts GPX outlines there is not much difference in your workflow, just more areas locked in the Tasking Manager and more area to review mapping in. 
+Bei der Benutzung von iD ändert sich wenig. Der größte Unterschied liegt darin, dass Sie nicht nur die Begrenzung einer Aufgabe sehen, sondern mehrere Begrenzungen. Da iD nur die Daten der Bereiche herunterlädt, in die Sie hineingezoomt haben und auch mehrere GPX-Begrenzungslinien darstellen kann, ändert sich wenig an der Arbeitsweise. Sie haben nur mehrere Aufgaben im Tasking Manager gesperrt und haben eine größere Menge Daten zu bearbeiten. 
 
-Using JOSM however is now slightly different. When launching JOSM two OSM data layers will be created, one will be non-uploadable and it will have the outlines of the tasks that need validation and one will be a blank, editable OSM data layer. **No data will be downloaded from OSM**.
+Bei der Benutzung von JOSM gibt es mehr Änderungen. Beim Start von JOSM werden zwei Datenebenen angelegt. Eine ist gegen Hochladen gesperrt und enthält die Begrenzungen der Aufgaben, die sie gesperrt haben. Die anderen ist eine leere editierbare OSM-Daten-Ebene. **Es werden keine Daten von OSM heruntergeladen**.
 
 ![multiple][]
 
-You will use the with the task outlines as a guide for downloading OSM data to the editable layer and proceed to validate as you normally would.
+Sie orientieren sich an den Begrenzungen der Aufgaben wenn Sie Daten in die editierbare Ebene herunterladen und validieren wie gewohnt.
 
-When you are done validating, you have the three standard options, Mark all Valid, Mark all Invalid, or Stop Validating. When multiple tasks are checked out for validation, the same option must be chosen for all the tasks checked out. You can not, in the same workflow, mark some as valid and mark others as invalid.
+Wenn Sie mit dem Validieren fertig sind, haben Sie die drei üblichen Möglichkeiten: als gültig markieren, als fehlerhaft markieren, Validieren beenden. Wenn Sie mehrere Aufgaben für die Validierung gesperrt haben, müssen Sie die gleiche Auswahl für alle treffen. Sie können nicht einige der Aufgaben als gültig markieren, andere als fehlerhaft.
 
-If you need to mark tasks with different statuses after reviewing them, please check them out individually to mark them accordingly.
+Wenn Sie einzelne Aufgaben nach der Überprüfung unterschiedlich kennzeichnen wollen, checken Sie sie bitte einzeln aus um sie entsprechend zu markieren.
 
 
-## Other Validation related Items
+## Weitere Details rund um die Validierung
 
-1. **Questions and Comments tab** - This is now a tab for project level questions and comments. Validators should review the the comments in that tab and answer questions as needed. Validators can also use that tab and the "Contact the Project Manager" link to direct questions or comments to the creator of the project.
+1. **Der Reiter Fragen und Kommentare** - Das ist ein neuer Reiter für Fragen und Anmerkungen zu dem ganzen Projekt. Prüfer sollten sich die Kommentare hier ansehen und falls erforderlich Fragen beantworten. Prüfer können diesen Reiter auch dazu verwenden, mit dem Link "Contact the Project Manager" Fragen oder Anmerkungen direkt an den Ersteller des Projekts zu richten.
 
-2. **Task level comments feed** - The Activity and Stats button in the upper right hand corner of the tasks map now has a feed of all the comments left on the individual tasks. Validators should review that list of comments to help identify issues and answer questions.
+2. **Zusammenfassung der aufgabenspezifischen Kommentare** - Wenn Sie auf "Aktivitäten und Statistik" in der oberen rechten Ecke der Projektseite klicken, sehen Sie im unteren Teil der dann erscheinenden Seite alle Kommentare, die Benutzer bei den einzelnen Aufgaben hinterlassen haben. Prüfer sollten auch auf diese Liste einen Blick werfen, um möglichen Problemen nachzugehen oder Fragen zu beantworten.
 
 [profile]:   /images/coordination/tm3_wnv_profile.png
 [selection]: /images/coordination/tm3_wnv_selection.png
