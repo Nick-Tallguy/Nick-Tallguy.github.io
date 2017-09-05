@@ -1,7 +1,7 @@
 ---
 layout: contribute
-permalink: /en/contribute/
-lang: en
+permalink: /sq/contribute/
+lang: sq
 title: Contribute
 contributetitle: "Na ndihmoni të përmirësojmë guidën tonë"
 startwith: "Gati për të filluar?"
