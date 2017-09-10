@@ -1,7 +1,7 @@
 ---
 layout: contribute
-permalink: /en/contribute/
-lang: en
+permalink: /sl/contribute/
+lang: sl
 title: Contribute
 contributetitle: "Pomagajte nam izboljšati naše vodiče"
 startwith: "Ste pripravljeni, da pričnemo?"
