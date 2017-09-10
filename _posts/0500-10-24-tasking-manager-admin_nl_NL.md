@@ -1,13 +1,13 @@
 ---
 layout: doc
-title: Tasking Manager 2 Project Creation
+title: Tasking Manager 2 Projecten maken
 permalink: /nl_NL/coordination/tasking-manager-project-admin/
 lang: nl_NL
 category: coordination
 ---
 > Deze handleiding kan gedownload worden als zelfstandige module: [tasking-manager-admin_nl_NL.odt](/files/tasking-manager-admin_nl_NL.odt) of [tasking-manager-admin_nl_NL.pdf](/files/tasking-manager-admin_nl_NL.pdf) 
 
-**This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3-project-admin)**
+**Deze gids beschrijft een oudere versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor versie 3](/nl/coordination/tasking-manager3-project-admin) moeten consulteren**
 
 # OSM Tasking Manager projectbeheer
 

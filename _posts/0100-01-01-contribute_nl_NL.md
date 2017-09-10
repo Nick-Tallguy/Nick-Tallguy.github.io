@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "Meehelpen met het verbeteren van handleidingen"
 startwith: "Klaar om te beginnen?"
 startA: "Stuur ons feedback"
-startB: "Help with translations"
-startC: "Improve Images - in your language!"
+startB: "Hulp met vertalingen"
+startC: "Afbeeldingen verbeteren - in uw taal!"
 startD: "Rapporteer problemen en deelnemen"
 nosearch: true
 ---
