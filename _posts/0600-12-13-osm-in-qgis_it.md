@@ -12,9 +12,9 @@ Usare i dati OSM Data in QGIS
 > Questa guida può essere scaricata come [Using_OSM_data_in_QGIS_it.odt](/files/Using_OSM_data_in_QGIS_it.odt) oppure [Using_OSM_data_in_QGIS_it.pdf](/files/Using_OSM_data_in_QGIS_it.pdf)  
 > Revisionato il 2015-07-19
 
-QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
+QGIS (in precedenza chiamato Quantum GIS) è un completo GIS (Geographic Information System) open source e multipiattaforma. Con QIGS puoi accedere in ogni momento ai dati aggiornati di OSM, selezionare i tag che vuoi includere, ed esportarli facilmente in un database SQLite facile da usare o in formato Shapefile.  
 
-In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 2.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
+In questo capitolo vedremo tutti i passi necessari per fare questo. Diamo per scontato che tu abbia già scaricato ed installato QGIS 2.x. Se non l'hai ancora fatto, puoi scaricarlo da <http://www.qgis.org/it/site/forusers/download.html>.  
 
 To get our customized, up-to-date OSM layers loaded into QGIS, we will first get the most recent OSM data in raw **.osm** format. Then, we will convert this data into a SQLite database, which is a lightweight database system stored in one file on your system. Lastly, we will create a layer (or multiple layers) that includes only the feature types and tags we want to access. These layers can be used in QGIS as they are or saved in another format, such as a shapefile.  
 

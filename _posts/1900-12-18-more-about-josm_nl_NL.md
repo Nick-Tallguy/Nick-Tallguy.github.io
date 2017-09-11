@@ -63,7 +63,7 @@ maken aan de kaart, omdat de kaart vaak wordt bijgewerkt door andere gebruikers.
 >    om in en uit te scrollen. Werken in JOSM is veel eenvoudiger als u een  muis heeft,
 >    maar de meeste moderne notebooks stellen u in staat te scrollen met het touchpad.
 
--    teken ene vak rondom het gebied dat u wilt downloaden. Klik, om een nieuw vak te tekenen, op de
+-    teken een vak rondom het gebied dat u wilt downloaden. Klik, om een nieuw vak te tekenen, op de
     kaart, houd uw linker muisknop ingedrukt, en sleep met uw muis om een
     vak te maken. Laat de muis los om het tekenen van het vak te beëindigen.
 -  Klik, wanneer u tevreden bent met de grootte en locatie van het vak,
