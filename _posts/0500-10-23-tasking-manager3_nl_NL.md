@@ -184,7 +184,7 @@ U kunt terugkeren naar de hoofdpagina voor Deelnemen aan het project door te kli
 
 #### tab Kaart  
 
-Klik hierop wanneer u klaar bent om in kaart te gaan brengen. U kunt een individuele taak kiezen om aan te werken door die uit de kaart te selecteren, of door te klikken op de optie "Ontvang een willekeurige taak". Alleen gekleurde taken kunnen op deze tab geselecteerd worden of u zult ene bericht ontvangen dat zegt dat de taak niet in kaart kan worden gebracht. Als u van plan was om te gaan valideren, zorg er dan voor dat u de tab "Valideren" selecteert
+Klik hierop wanneer u klaar bent om in kaart te gaan brengen. U kunt een individuele taak kiezen om aan te werken door die uit de kaart te selecteren, of door te klikken op de optie "Ontvang een willekeurige taak". Alleen gekleurde taken kunnen op deze tab geselecteerd worden of u zult een bericht ontvangen dat zegt dat de taak niet in kaart kan worden gebracht. Als u van plan was om te gaan valideren, zorg er dan voor dat u de tab "Valideren" selecteert
 
 ![TM map tab][]
 
@@ -229,7 +229,7 @@ De bewerker zal laden in een nieuw venster of tab. Potlach zal niet automatisch 
 
 ##### Field Papers  
 
-Gebruik deze optie alleen als u betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand en gebruikt als achtergrondafbeelding voor een mapper op afstand of ene lokale mapper om de informatie te lezen en de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/nl_NL/mobile-mapping/field-papers/).  
+Gebruik deze optie alleen als u betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand en gebruikt als achtergrondafbeelding voor een mapper op afstand of een lokale mapper om de informatie te lezen en de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/nl_NL/mobile-mapping/field-papers/).  
 
 
 #### Een taak splitsen
