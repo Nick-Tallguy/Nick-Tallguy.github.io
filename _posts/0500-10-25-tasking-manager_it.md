@@ -11,7 +11,7 @@ category: coordination
 > Questa guida può essere scaricata come [tasking-manager_it.odt](/files/tasking-manager_it.odt) oppure [tasking-manager_it.pdf](/files/tasking-manager_it.pdf)  
 > Revisionato il 2015-08-26  
 
-**This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
+**Questa guida descrive uan precedente versione di Tasking Manager. Se l'interfaccia utente nella versione che usi è differente da quella descritta qui allora dovresti consultare il [manuale della versione 3](/it/coordination/tasking-manager3)**
 
 Indice della sezione
 -------------
@@ -23,12 +23,12 @@ Indice della sezione
 -  [Selezionare un quadrato da mappare, tempistiche, rilasciare](/it/coordination/tasking-manager/#selecting-a-square-to-map)  
 -  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/it/coordination/tasking-manager/#editing-choices)  
 -  [Dividere un quadrato(/it/coordination/tasking-manager/#splitting-a-square)  
--  [Releasing your square before it is complete](/en/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
--  [Marking your square as complete](/en/coordination/tasking-manager/#finishing-a-square)  
--  [Sending messages](/en/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
--  [identifying your square in an email or other message](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
--  [Live Help - IRC, Internet Relay Chat](/en/coordination/tasking-manager/#getting-live-help)  
--  [Hints and Tips](/en/coordination/tasking-manager/#editing-hints-and-tips)
+- [Sbloccare il tuo riquadro prima che sia completato](/it/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
+- [Marcare il tuo riquadro come completato](/it/coordination/tasking-manager/#finishing-a-square)  
+- [Inviare messaggi](/it/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
+- [fare riferimento al tuo riquadro in una email o in altro messaggio](/it/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+- [Aiuto in tempo reale - IRC, Internet Relay Chat](/it/coordination/tasking-manager/#getting-live-help)  
+- [Consigli utili](/it/coordination/tasking-manager/#editing-hints-and-tips)
 
 
 The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. This allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas, and also allows people both on the ground and working remotely (also sometimes referred to as "armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.  
@@ -37,9 +37,9 @@ The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that m
 ## Introduzione al procedimento
 
 1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager, although they may also make changes later if required.  
-2. A remote mapper selects a task square, completes the mapping, and marks the square as complete.  
-3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'  
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.  
+2. Un mappatore da remoto seleziona un riquadro di un task, completa la mappatura, e marca il riquadro come completato.  
+3. Un secondo mappatore controlla che il riquadro sia stato completato ad un livello soddisfacente e marca il riquadro come 'validato'  
+4. Il progresso della mappatura del progetto può essere monitorato da dentro la scheda "statistiche" del progetto, e il progetto può essere declassato di priorità o archiviato come richiesto da un amministratore.  
 
 
 ## Opzioni e link
@@ -48,7 +48,7 @@ The Task Manager initially displays in English - to change to another language c
 
 For information about the Tasking Manager, HOT sponsors, partners & help click on **About** at the top of the page.
 
-Once you have logged in, you may click on your username at the top. Here you can:  
+Una volta che ti sei loggato, puoi cliccare sul tuo nome utente in alto. Da qui potrai:  
 
 - Access a list of projects for which you have completed squares,  
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)  

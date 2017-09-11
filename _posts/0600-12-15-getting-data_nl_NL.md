@@ -27,14 +27,14 @@ Gegevensextracten downloaden
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) biedt iets soortgelijks als Metro Extracts maar voor een andere selectie steden. De gegevens wordne ook wekelijks bijgewerkt.
+[BBBike](http://download.bbbike.org/osm/bbbike/) biedt iets soortgelijks als Metro Extracts maar voor een andere selectie steden. De gegevens worden ook wekelijks bijgewerkt.
 
 >Onthoud dat objecten in OpenStreetMap een onbeperkt aantal "vrije" tags hebben,
 >maar shapefiles hebben attributen die zijn opgeslagen in een begrensd aantal kolommen. Dit betekent
 >dat wanneer gegevens van OSM worden geconverteerd naar shapefiles, zullen alleen de gespecificeerde tags worden
 >opgenomen in de tabel van het shapefile. De hierboven vermelde websites verschaffen shapefiles
 >met een standaard set van algemene tags, maar als u specifieke tags wilt extraheren
->dient u ene van de meer gespecialiseerde services in het volgende gedeelte te gebruiken
+>dient u een van de meer gespecialiseerde services in het volgende gedeelte te gebruiken
 >of te leren hoe  u de gegevens zelf exporteert.
 
 Aangepaste extracten
@@ -86,7 +86,7 @@ url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$
 wget -O $file "$url"
 ```
 >Wat gebeurt hier (voor de nieuwsgierigen die niet de volledige documentatie van de querytaal willen lezen)?  
->node(...) selecteert alle knopen binnen ene begrenzingsvak;  
+>node(...) selecteert alle knopen binnen een begrenzingsvak;  
 >< herhaalt zich volledig, d.i. selecteert alle wegen die deze knopen bevatten en alle relaties die deze knopen en wegen bevatten;  
 >rel(br) selecteert alle ouder-relaties van de tot dusverre verkregen relaties (anders zouden master-relaties niet worden verkregen)
 >

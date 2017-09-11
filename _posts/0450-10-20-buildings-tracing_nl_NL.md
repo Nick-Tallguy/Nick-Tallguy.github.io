@@ -32,7 +32,7 @@ Punten om te onthouden;
 - **Zoeken naar gebouwen** - scan met uw schaal ongeveer tussen 50 en 80 meter. Kijk uit naar schaduwen en rechte lijnen (ronde gebouwen zijn moeilijker te vinden!)  
 - Gebouwen en wegen, rivieren, grenzen voor **landuse=residential** of andere objecten zouden elkaar niet moeten overlappen.  
 - Indien u een fout maakt, gebruik dan de knop **Ongedaan maken** ![back arrow]{: height="26px"} om uw laatste wijziging(en) ongedaan te maken  
-- We verbeteren allemaal de kaart. Als een eerder mapper de gebouwen met een ietwat aparte vorm hefet laten staan of op enige manier foutief, corrigeer het en overweeg om hem een beleefd berichtje te sturen.  
+- We verbeteren allemaal de kaart. Als een eerder mapper de gebouwen met een ietwat aparte vorm heeft laten staan of op enige manier foutief, corrigeer het en overweeg om hem een beleefd berichtje te sturen.  
 
 Bedekte gebouwen of te zien onder een hoek  
 --------------------------------------

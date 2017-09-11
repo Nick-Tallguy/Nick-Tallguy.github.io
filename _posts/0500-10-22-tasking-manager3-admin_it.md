@@ -41,7 +41,7 @@ La prima cosa da comprendere è il livello di accesso. Tutto l'accesso al TM3 è
 
 Il Tasking Manager OSM ha tre livelli di accesso per gli utenti:
 - **Utente** - Il livello di base. L'utente può effettuare la login sul TM3 e usare le sue funzionalità per trovare e selezionare un progetto di mappatura e poter lavorare ad esso. Questo livello di utilizzo è pienamente descritto nella [guida Tasking Manager OSM in LearnOSM](/it/coordination/tasking-manager-3/). Nota che alcuni progetti, come quelli in stato di bozza (non pubblicati) non sono visibili agli utenti.  
-- **Project Manager** - I Project managers hanno accesso per creare e aggiornare progetti all'interno di TM3.  
+- **Project Manager** - I Project managers hanno l'accesso per creare e aggiornare progetti all'interno di TM3.  
 - **Amministratori** - Gli Amministratori hanno un accesso che permette loro di gestire i livelli di accessi all'interno di TM3.
 
 Per creare nuovi progetti usando TM3 hai bisogno del livello di accesso Project Manager (Gestore Progetto).
@@ -52,12 +52,12 @@ Per creare nuovi progetti usando TM3 hai bisogno del livello di accesso Project 
 
 Clicca sul tuo nome utente nell'angolo superiore destro, poi **Crea un nuovo progetto.** Tu potrai poi scegliere tra il disegnare sulla mappa l'area interessata (Aol), o importare un'area di interesse da un file geojson;   
 
-> È sempre preferibile importare un file con un area definita per (hand drawing) un progetto del Tasking Manager. Per creare questi file da importare nel Tasking Manager, possono essere usati strumenti come JOSM, QGIS, ecc. La sequenza suggerita è creare un file .osm dell'AOI con JOSM e poi usare http://geojson.io/ per generare un GeoJSON.
+> È sempre preferibile importare un file con un area definita piuttosto che disegnare a mano un progetto del Tasking Manager. Per creare questi file da importare nel Tasking Manager, possono essere usati strumenti come JOSM, QGIS, ecc. La sequenza suggerita è creare un file .osm dell'AOI con JOSM e poi usare http://geojson.io/ per generare un GeoJSON.
 
 ### Disegna un'area di interesse da mappare
 
 1. Clicca il bottone 'Disegna' nell'angolo in alto a destra.
-2. Per disegnare un poligono rappresentante la AOI nella cornice della mappa, tieni premuto il tasto destro del mouse per muovere la mappa senza cliccare, il che aggiungerà un nodo. Il poligono dovrebbe inquadrare strettamente l'area di interesse. Ciò fa risparmiare il tempo necessario a completare tile non di interesse (p, es. oceano, foresta)  
+2. Per disegnare un poligono rappresentante la AoI (area di interesse) nella cornice della mappa, tieni premuto il tasto destro del mouse per muovere la mappa senza cliccare, il che aggiungerà un nodo. Il poligono dovrebbe inquadrare strettamente l'area di interesse. Ciò fa risparmiare il tempo necessario a completare tile non di interesse (p, es. oceano, foresta)  
 3. Per completare il poligono, clicca sul tuo punto iniziale  
 4. Dopo aver completato un poligono, puoi moverne i nodi od aggiungerne di nuovi per ottenere l'area proprio come la vuoi.
 
@@ -73,12 +73,12 @@ o
 
 ## Creazione Task
 
-La AOI di un progetto è l'ampia, complessiva area da mappare. Questa viene suddivisa in aree più piccole chiamate Tasks. 
+La AOI (area di interesse) di un progetto è l'area complessiva da mappare. Questa viene suddivisa in aree più piccole chiamate Tasks. 
 
 La AOI, definita dallì'importazione del suo file o disegnata a mano, apparirà nella cornice della mappa e poi ti sarà chiesto come dividere la AOI in singoli task. Ci sono due opzioni:  
 
 1. Griglia quadrata - Il Tasking Manager dividerà uniformemente l'area del progetto in riquadri delle stesse dimensioni. Questo di solito va bene per progetti generalisti di crowdmapping (mappatura partecipata).
-2. Geometrie arbitrarie - Se carichi un file per definire l'area del tuo progetto, questo file può contenere anche le forme per i task individuali. Per creare forme di task personalizzate, ci devessere una necessità particolare. Per esempio, l'importazione di un progetto di strade può richiedere forme di task personalizzate oppure il prodotto di un processo di riduzzione della AOI.
+2. Geometrie arbitrarie - Se carichi un file per definire l'area del tuo progetto, questo file può contenere anche le forme per i task individuali. Per creare forme di task personalizzate, ci deve ssere una necessità particolare. Per esempio, l'importazione di un progetto di strade può richiedere forme di task personalizzate oppure il prodotto di un processo di riduzione della AOI.
 
 ### Usare la Griglia Quadrata per i riquadri dei task
 
@@ -264,8 +264,8 @@ Qui puoi trovare qualche spunto sulle informazioni che potresti includere nelle 
 
 
 ### Revisione e Pubblicazione
-Rivedi i vari tabs per verificare che la grammatica e la formattazione siano corretti e che le istruzioni siano chiare. Se è necessario cambiare o rifinire il progetto, cliccare il link 'Edit' nell'angolo in alto a destra della pagina. 
-Se il progetto è pronto, cliccare il link 'Pubblica'. Nel momento in cui il progetto è pubblicato diventa disponibile per chiunque abbia un account OSM, a meno di avere specificato un gruppo di utenti nel tab 'Utenti ammessi', nel  qual caso solo gli utenti abilitati saranno in grado di lavorare sul progetto. Se necessario è possibile apportare ancora modifiche al progetto dopo la pubblicazione, cliccando sul link 'Edit'
+Rivedi le varie schede per verificare che la grammatica e la formattazione siano corretti e che le istruzioni siano chiare. Se è necessario cambiare o rifinire il progetto, cliccare il link 'Edit' nell'angolo in alto a destra della pagina. 
+Se il progetto è pronto, cliccare il link 'Pubblica'. Nel momento in cui il progetto è pubblicato diventa disponibile per chiunque abbia un account OSM, a meno di avere specificato un gruppo di utenti nella scheda 'Utenti ammessi', nel  qual caso solo gli utenti abilitati saranno in grado di lavorare sul progetto. Se necessario è possibile apportare ancora modifiche al progetto dopo la pubblicazione, cliccando sul link 'Edit'
 
 [TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
 [TM New]: /images/coordination/tm3_create_new.png

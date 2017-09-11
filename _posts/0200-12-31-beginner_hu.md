@@ -17,3 +17,4 @@ hogyan hozz létre egy fiókot, hogyan használd az alapvető térképszerkeszt�
 és hogyan gyűjthetsz a térképre helyezhető információkat. A koordinációval foglalkozó fejezetek a humanitárius célú távtérképezésről tájékoztatnak [HOT Remote Mapping](/en/coordination/). 
 
 > Ez az útmutató le is tölthető: [beginner_hu.odt](/files/beginner_hu.odt) vagy [beginner_hu.pdf](/files/beginner_hu.pdf)  
+> Átnézve: 2015-07-12  

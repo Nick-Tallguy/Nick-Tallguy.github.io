@@ -11,7 +11,7 @@ category: coordination
 > Deze handleiding kan gedownload worden als [tasking-manager_nl_NL.odt](/files/tasking-manager_nl_NL.odt) of [tasking-manager_nl_NL.pdf](/files/tasking-manager_nl_NL.pdf)  
 > Bijgewerkt op 26-08-2015  
 
-**This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
+**Deze gids beschrijft een oudere versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor versie 3](/nl/coordination/tasking-manager3) moeten consulteren**
 
 Index
 -------------
@@ -185,12 +185,12 @@ De bewerker zal laden in een nieuw venster of tab. Potlach zal niet automatisch 
 
 ####Walking Papers / Field Papers  
 
-Gebruik deze optie alleen als je betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand & gebruikt als achtergrondafbeelding voor een mapper op afstand of ene lokale mapper om de informatie te lezen & de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/nl_NL/mobile-mapping/field-papers/).  
+Gebruik deze optie alleen als je betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand & gebruikt als achtergrondafbeelding voor een mapper op afstand of een lokale mapper om de informatie te lezen & de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/nl_NL/mobile-mapping/field-papers/).  
 
 
 ###Een taak opsplitsen  
 
-Sommige taken zijn te groot om in 1 keer af te kunnen ronden, als er te veel objecten zijn om in kaart te brengen. Bijvoorbeeld als het grootste gedeelte bestaat uit gebouwen in dichtbebouwde stedelijke gebieden, of het lokaliseren van kleine dorpen in grote gebieden. Al richtlijn: waar het voor ene persoon niet mogelijk is om de taak te voltooien binnen de tijdslimiet van 2 uur, kunt u vaak de taak opsplitsen in 4 kleinere gebieden. *Gebruik dit voorzichtig* - als/wanneer vierkanten te klein gesplitst worden is het moeilijk te beoordelen om welk type weg het gaat, en om andere objecten te identificeren.  
+Sommige taken zijn te groot om in 1 keer af te kunnen ronden, als er te veel objecten zijn om in kaart te brengen. Bijvoorbeeld als het grootste gedeelte bestaat uit gebouwen in dichtbebouwde stedelijke gebieden, of het lokaliseren van kleine dorpen in grote gebieden. Al richtlijn: waar het voor een persoon niet mogelijk is om de taak te voltooien binnen de tijdslimiet van 2 uur, kunt u vaak de taak opsplitsen in 4 kleinere gebieden. *Gebruik dit voorzichtig* - als/wanneer vierkanten te klein gesplitst worden is het moeilijk te beoordelen om welk type weg het gaat, en om andere objecten te identificeren.  
 
 > Wees je ervan bewust dat bestaande opmerkingen over het eerder voltooide werk niet meer beschikbaar zullen zijn na het opsplitsen.
 
@@ -269,15 +269,15 @@ In de tasking manger;
 
 Je hebt nu een goed beeld gekregen van de Tasking Manager en van enkele functies. In tegenstelling tot normale edits, wordt deze tool veel gebruikt voor kritische projecten met veel deelnemers, dit kan afwijken van wat je normaal gesproken gewend bent.  
 
-**Some general advice to heed when working in this tool:**  
+**Enkele algemene adviezen om in acht te nemen wanneer  met dit programma werkt:**  
 
-* Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
-* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
-* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
-* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+*Probeer het ver buiten uw gebied in kaart brengen te vermijden, andere mappers kunnen in dat gebied bezig zijn waardoor dubbele data wordt verkregen. Het is wel goed om objecten zoals gebouwen die de grens overschrijden in kaart te brengen, maar ga niet verder dan dat. Upload meteen uw wijzigingen na het bewerken in het grensgebied.  
+* Trek wegen, waterwegen en andere objecten door tot net over de grens - dan kan de volgende mapper verdergaan met waar u gebleven bent, daarom is het van belang om meteen op te slaan en te uploaden als u dit gedaan hebt.  
+*Als u twijfelt over wat een bepaald object is, gebruik dan gedeelte voor opmerkingen om vragen te stellen of kijk op de wiki.  
+*Als u een serieuze fout maakt, bijvoorbeeld het verwijderen van een belangrijk object of relatie - gebruik IRC of het vak voor opmerkingen om andere mappers in te lichten en u te helpen om dit ongedaan te maken. Probeer de wijzigingenset toe te voegen of beschrijf wat er is gebeurd. Het is een gezamenlijk project en dus zijn er anderen om u te helpen - het is belangrijk om te. onthouden dat iedereen soms fouten maakt.  
+*Twijfel niet om vragen te stellen, validators kunnen kort van stof zijn of to the point, maar als u ze laat zien dat u graag met ze in gesprek gaat, is het resultaat vaak veel beter voor iedereen die betrokken is. Het kan soms lastig zijn om in een andere taal te communiceren en het is makkelijk om in een andere taal kortaf te lijken wanneer u een bericht doorgeeft in een taal die niet uw eigen is.  
+*Valideer niet uw eigen werk - een tweede paar ogen zal altijd tot betere resultaten voor het in kaart brengen leiden.  
+* Maak u geen zorgen als andere mappers kortaf zijn wanneer ze uw werk controleren - net zoals u willen ze graag dat alle gegevens nauwkeurig in kaart gebracht worden. Feedback is altijd gericht op het resterende werk en zeker geen kritiek op uw inzet.  
 
 
 [Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
