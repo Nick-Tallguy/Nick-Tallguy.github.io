@@ -35,7 +35,7 @@ Installazione dellestensione Stylish di Firefox
 2. Seleziona "Add-ons"  
 ![Stylish-2]{: height="348px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. Cerca l'estensione Stylish - la prima della lista nell'immagine della schermata,  
 ![Stylish-3][]
 
 4. Installa & riavvia.  
@@ -44,20 +44,20 @@ Installazione dellestensione Stylish di Firefox
 5. Visita <http://www.openstreetmap.org/> e clicca sull'icona Stylish che si presenterà nella tua barra del menu. Scegli qualsiasi estensione utile da installare & attivala/e come richiesto usando il menu dall'icona Stylish.
 ![Stylish-5][]
 
-6.  Purple traced buildings  
+6. Edifici tracciati in viola  
 ![Stylish-6][]
 
 
-Installing the Stylish extension in Chrome  
+Installare l'estensione Stylish in Chrome  
 -------------------------------------------
 
-1.  Click on menu and **Settings**.  
+1. Clicca sul menù e **Impostazioni**.  
 ![Stylish-chrome-1]{: height="300px"}
 
-2.  Select **Extensions** and **Get more extensions**  
+2. Seleziona **Estensioni** e **Prova altre estensioni**  
 ![Stylish-chrome-2]{: height="248px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. Cerca l'estensione Stylish - la prima della lista nell'immagine della schermata,  
 ![Stylish-chrome-3][]
 
 4. Installa.  

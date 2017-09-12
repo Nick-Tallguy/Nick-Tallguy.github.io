@@ -9,7 +9,7 @@ category: coordination
 Disegnare strade, edifici, corpi d'acqua e uso del terreno
 ===========================================
 
-> Questa guida può essere scaricata come [remote-tracing_en.odt](/files/remote-tracing_en.odt) oppure [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
+> Questa guida può essere scaricata come [remote-tracing_it.odt](/files/remote-tracing_it.odt) oppure [remote-tracing_it.pdf](/files/remote-tracing_it.pdf)  
 > Revisionato il 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
