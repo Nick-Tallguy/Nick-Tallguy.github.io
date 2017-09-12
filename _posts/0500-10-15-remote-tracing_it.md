@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Disegnare strade, edifici, cirpi d'acqua e uso del terreno 
+title: Disegnare strade, edifici, corpi d'acqua e uso del terreno 
 permalink: /it/coordination/remote-tracing/
 lang: it
 category: coordination
 ---
 
-Disegnare strade, edifici, cirpi d'acqua e uso del terreno
+Disegnare strade, edifici, corpi d'acqua e uso del terreno
 ===========================================
 
-> This guide may be downloaded as [remote-tracing_en.odt](/files/remote-tracing_en.odt) or [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
+> Questa guida può essere scaricata come [remote-tracing_en.odt](/files/remote-tracing_en.odt) oppure [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
 > Revisionato il 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
