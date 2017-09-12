@@ -13,7 +13,7 @@ date: 0500-10-21 13:00:00
 
 ## Il tuo profilo utente
 
-Come prima cosa **visita il tuo profilo utente del nuovo Tasking Manager**, che puà essere selezionato dal menù a tendina sotto il tuo nome utente OSM nell'angolo superiore destro.
+Come prima cosa **visita il tuo profilo utente nel nuovo Tasking Manager**, che può essere selezionato dal menù a tendina sotto il tuo nome utente OSM nell'angolo superiore destro.
 
 Qui troverai un certo numero di nuove caratteristiche, alcune delle quali influiranno sulla tua attività di mappatura.
 
@@ -36,7 +36,7 @@ Cliccando sul link Contribuisci nella barra menu verrà visualizzata l'usuale li
 
 2. **Organizzazione e Campagna** - Questi filtri consentono di ricercare i progetti di gestiti da specifiche organizzazioni o gruppi oppure in base alla loro appartenenza a campagne di mappatura.
 
-3. ** Tipo di mappatura** - Ora puoi trovare i progetti che richiedono quello che ti piace o ti va al momento di mappare.
+3. ** Tipo di mappatura** - Ora puoi trovare i progetti che richiedono il tipo di mappatura che preferisci o che ti va al momento di mappare.
 
 
 ## Pagina progetto di mappatura
@@ -49,9 +49,9 @@ La pagina Progetto di mappatura presenta un certo numero di cambiamenti che impa
 
 2. Schede **Mappatura e Validazione** - Ora ci sono due schede separate per la mappatura e la validazione. Devi assicurarti di essere sulla scheda corretta quando mappi o fai validazione. Se appare un messaggio che fa riferimento ad uno stato non corretto di un task, molto probabilmente è perchè sei sulla scheda sbagliata.
 
-    Sulla scheda Mappatura vedrai anche una nuova opzione per segnare un Task come "Foto aeree inutilizzabili". Usalo quando la risoluzione delle immagini è scarsa o se il quadrato di lavoro è coperto in modo significativo dalle nuvole.
+    Nella scheda Mappatura vedrai anche una nuova opzione per segnare un Task come "Foto aeree inutilizzabili". Usalo quando la risoluzione delle immagini è scarsa o se il quadrato di lavoro è coperto in modo significativo dalle nuvole.
 
-    Nella mappa dei Task di Progetto nell'angolo in basso a destra c'è un bottone che consente di vedere come appare l'area tramite foto satellitari.
+    Nella mappa dei Task di Progetto nell'angolo in basso a destra c'è un bottone che consente di vedere come appare l'area vista da foto satellitari.
 
 3. Scheda **Domande e Commenti** - in questa scheda relativa al progetto (e non ad un singolo task) è possibile fare domande o lasciare commenti per il gestore del progetto e gli altri mappatori.  Questo è il posto giusto per fare domande sulla mappatura in generale o sul progetto in sè. Trovi anche il link "Contatta il gestore del progetto" che mette automaticamente il nome utente OSM del gestore del progetto nel commento per essere certi che lo veda.
 
