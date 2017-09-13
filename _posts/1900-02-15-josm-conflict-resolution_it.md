@@ -23,28 +23,28 @@ Talvolta JOSM è capace di risolvere autonomamente i conflitti e ti darà un mes
 ![resolved automatically][]  
 Ciò significa che JOSM ha deciso autonomamente che gli oggetti nel tuo dataset locale non saranno caricati perchè sono stati già cancellati da un altro utente. In alcuni conflitti, comunque, JOSM non può prendere l'iniziativa e così lascia decidere all'utente come procedere. Tocca a te risolvere il conflitto.  
 
-Questo ti suggerisce di considerate tutti i conflitti nel Layer 1 del riquadro  **Dialog List**:  
+Questa segnalazione ti avvisa che devi risolvere i conflitti del Livello 1 prima di poter caricare i dati:  
 ![warning unresolved][]  
 
-This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
+Questa finestra ti avvisa che probabilmente incontrerai un conflitto con le tue modifiche. Se controlli sul server sarai in grado di sistemare i problemi che potrebbero esserci:  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+Questo avviso ti dice che JOSM non è riuscito a cancellare un nodo dato che è ancora utilizzato in una way. Per risolvere questo problema, l'utente deve tornare in JOSM e risolvere il conflitto prima di caricare i dati:  
 ![still in use][]  
 
 Risoluzione dei conflitti
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
+Il processo di risolvere un conflitto è molto semplice, sebbene a prima vista possa sembrare complicato in JOSM. Di base, per ogni conflitto JOSM ti presenterà due alternative - la tua versione di un oggetto e quella che c'è sul server. Tu devi scegliere se mantenere la tua versione, o se deve rimanere la nuova versione sul server.  
+Tu potresti pensare "di certo è migliore la mia versione!", e forse potresti aver ragione. Ma ripensa al nostro esempio all'inizio di questo capitolo. Magari mentre eri impegnato a fare modifiche, un altro utente ha aggiunto molte informazioni ad uno dei nodi che avevi scaricato. Se scegli la tua versione rispetto alla loro, perderai tutte le preziose informazioni che loro hanno aggiunto. Quindi dovresti considerare di mantenere la loro versione, o di integrarla con la tua.  
+Quando ti compare una finestra di conflitto, è meglio scegliere il pulsante "Sincronizza ... solamente". Puoi farlo per più di un oggetto, ma è meglio risolvere i conflitti uno alla volta.  
 ![synchronize node][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+Quando clicchi questo pulsante, ti comparirà una finestra che dettaglia il conflitto. Il messaggio d'errore può sembrare complicato, ma è piuttosto semplice. Saprai che tipo di conflitto è dal quadratino rosso nella linguetta in alto. Il conflitto nell'esempio sottostante si riferisce alle proprietà, quali la posizione e l'esistenza dell'oggetto. Questo è il motivo per cui sono elencate le coordinate e lo stato di cancellazione.  
 
 **Tipi di Conflitto:**
 
 - **Proprietà:**  L'oggetto è stato spostato (coordinate) o cancellato  
-- **Tag:**  I tag non combaciano  
+- **Etichette:**  Le etichette non corrispondono  
 - **Nodi:**  C'è una differenza nella lista dei nodi delle due way  
 - **Membri:**  C'è differenza nella lista dei membri di una relazione  
 ![properties with conflicts][]  
@@ -54,29 +54,29 @@ I conflitti appaiono solo nel caso di due modifiche contemporanee. Se ci sono tr
 Nel seguente esempio non hai l'opzione di unire le versioni. Clicca sulla prima colonna, o Mia versione se ritieni che le tue modifiche siano corrette. Clicca su Loro versione se ritieni che le loro modifiche siano migliori.  
 ![conflicts resolved][]  
 
-Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
+Una volta che hai selezionato quale versione pensi che sia migliore, clicca su "Applica Risoluzione". Comparirà ancora qualche finestra e sarai quasi pronto per caricare le tue modifiche. Fai ancora qualche modifica. poi clicca 'Carica'. Ti comparirà una finestra che dice:  
 ![command stack][]  
 
-On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
+Nel tuo menù Finestre avrai una Lista Conflitti. Questa finestra visualizza un elenco di conflitti. Nella testata è visualizzato il numero totale di conflitti non risolti. Puoi selezionare o risolvere un conflitto cliccandolo. Questo è utile quando hai molti conflitti da sistemare.  
 ![one unresolved][]  
-You cannot upload your changes until this list is empty.  
+Non puoi caricare le tue modifiche finchè questa lista non è vuota.  
 
 Modi per evitare i conflitti
 ------------------------
 
-### Upload Frequently
+### Aggiornare frequentemente
 
-To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
+Per minimizzare la possibilità ed il numero di conflitti, è importante caricare con regolarità le proprie modifiche. I conflitti avvengono con più frequenza per chi è abituato a salvare l'area su cui sta lavorando in locale ed aspetta parecchio prima di caricarla sul server. E' meglio scaricare l'area su cui si sta lavorando, modificarla e poi caricarla subito sul server. Più è lungo i'intervallo di tempo tra lo scarico dei dati ed il caricamento delle modifiche, più è probabile che qualcun altro abbia fatto altre modifiche nel frattempo. Se ti trovi ad un Mapathon e stai modificando una strada che può essere modificata anche da altri, carica molto spesso, magari ogni 6 modifiche!  
 
-### Edit in the Area You Download
+### Modifica nell'area che hai scaricato
 
-Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
+Modificando nella specifica area che hai scaricato minimizza il rischio di conflitti. Assicurati di non fare modifiche fuori dall'area che hai scaricato. Puoi facilmente verificare in JOSM quali aree sono esterne all'area che hai scaricato, perché lo sfondo è costituito da linee diagonali invece che essere di un nero uniforme.  
 
 ![edit outside area][]  
 
 Riassunto
 --------
-When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
+Quando modifichi in JOSM, rischi di incappare in conflitti. I conflitti avvengono quando un oggetto viene modificato da più persone contemporaneamente. Capendo cos'è un conflitto e come trattarlo, sarai in grado di assicurare che le modifiche migliori siano salvate in OpenStreetMap.  
 
 
 <!-- More stuff, could go into an additional chapter - NON TRADURRE

@@ -16,40 +16,40 @@ QGIS (in precedenza chiamato Quantum GIS) è un completo GIS (Geographic Informa
 
 In questo capitolo vedremo tutti i passi necessari per fare questo. Diamo per scontato che tu abbia già scaricato ed installato QGIS 2.x. Se non l'hai ancora fatto, puoi scaricarlo da <http://www.qgis.org/it/site/forusers/download.html>.  
 
-To get our customized, up-to-date OSM layers loaded into QGIS, we will first get the most recent OSM data in raw **.osm** format. Then, we will convert this data into a SQLite database, which is a lightweight database system stored in one file on your system. Lastly, we will create a layer (or multiple layers) that includes only the feature types and tags we want to access. These layers can be used in QGIS as they are or saved in another format, such as a shapefile.  
+Per caricare in QGIS i nostri livelli OSM aggiornarti e personalizzati dobbiamo per prima cosa ottenere i più recenti dati OSM nel formato raw **.osm**.  Successivamente convertiremo questi dati un in database SQLite, che è un ambiente per creare database molto leggeri memorizzati in un unico file dentro al tuo sistema. Infine creeremo un livello (o più livelli) che includono solo gli oggetti e i tag che ci interessano. Questi layer possono essere usati in QGIS così come sono oppure salvati in un altro formato come ad esempio shapefile.  
 
 Accedere ai dati di OpenStreetMap
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-described in the previous chapters on [Getting OSM Data](/en/osm-data/getting-data) and [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export).  
+La prima cosa che faremo sarà reperire dei dati OSM aggiornati. Possiamo farlo in diversi modi. Ovviamente richiedere dati al server OSM, così come accade all'interno di JOSM, presenta delle limitazioni in quanto non è possibile estrarre una grande quantità di dati in una volta. In ogni caso ci sono modi per accedere a dei grandi set di dati, così come
+descritto nel precedente capitolo su [Ottenere dati OSM](/it/osm-data/getting-data)  e [Usare Geofabrik e HOT Export](/it/osm-data/geofabrik-and-hot-export).  
 
-For this tutorial we will use the built-in download function in QGIS.  
+Per questo tutorial useremo le funzioni di download integrate in QGIS.  
 
-- Open QGIS and go to Vector -> OpenStreetMap -> Download Data...  
-- You can choose from several options here - if your window is already displaying the extent you want, check the box next to "From map canvas." If you have a layer loaded in QGIS with the correct extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual" and enter the latitudes and longitudes which form a **bounding box** around the area we	want to access. You can fill in the lats and lons that are of interest to you, but remember that the area cannot be too large, or you won't be able to download all the data.  
+- Apri QGIS e quindi Vettore-> OpenStreetMap->  Download dati...  
+- Ci sono differenti opzioni fra cui scegliere - se la finestra sta già mostrando l'area che ti interessa, clicca il box di fianco a "Dalla mappa". Se hai un layer già caricato in QGIS che mostra l'area di interesse seleziona "Dal layer" e scegli il layer che vuoi usare. In questo caso selezioneremo "Manuale" e inserireremo la latitudine e la longitudine che formano un **rettangolo di selezione** (bounding box) attorno all'area che vogliamo accedere. Puoi inserire valori di latitudine e longitudine che vuoi, ma ricorda che l'area non può essere troppo grande o altrimenti non sarai in grado di scaricare tutti i dati.  
 
 ![bounding box][]
 
-- Select a name and location for the output file, using the **.osm** file extension, and click OK.  
-- You will be notified when the download is complete. Click "Close" to exit the download dialog.  
+- Scegli un nome e una locazione in cui salvare il file in output, usando **.osm** come estensione del file, e premi OK.  
+- Quando il download è stato completato apparirà una notifica. Premi "Chiudi" per uscire dalla finestra di download.  
 
 ![download complete][]
 
-- The OSM data will now be saved in the location you specified.  
+- I dati OSM sono stati salvati nella locazione specificata.  
 
-> This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
+> Questa modalità di accesso ai dati OSM è la stessa usata per il donwload di dati in JOSM o su [openstreetmap.org](http://www.openstreetmap.org). Per estratti di grandi dimensioni puoi provare a scaricarli dal [sito HOT export](http://export.hotosm.org) o da [bbbike.org](http://extract.bbbike.org/). Ricorda che se scarichi un file OSM compresso devi prima decomprimerlo in formato **.osm** per poterlo usare seguendo i prossimi passi.  
 
 
 Importare i dati in SQLite
 ---------------------------
 
-Next we will need to import our raw **.osm** file into a SQLite Database file.  
+Ora dobbiamo importare i nostri dati **.osm** raw in un file di Database SQLite.  
 
-- Go to Vector -> OpenStreetMap -> Import Topology from XML...  
-- In the first field, select your **.osm** file.  
-- You can change the name of the output database file if you like.  
-- Keep the box checked next to "Create Connection..."  
+- Vai su Vettore -> OpenStreetMap -> Importa Topologia da XML...  
+- Nel primo campo seleziona il file **.osm**  
+- Puoi cambiare se vuoi il nome del file database proposto  
+- Il box di fianco a "Crea connessione..." deve rimanere marcato  
 
 ![import dialog][]  
 
@@ -60,45 +60,45 @@ Next we will need to import our raw **.osm** file into a SQLite Database file.
 Creare i livelli
 --------------
 
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.  
+Infine definiremo i layer che possono essere usati in QGIS adattandoli alle nostre esigenze.  
 
-- Go to Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- In the first field, select the database you created in the previous step.  
+- Vai su Vettore -> OpenStreetMap -> Esporta Topologia in Spatialite...  
+- Nel primo campo seleziona il database creato nel passo precedente  
 
 ![input db file][]  
 
-- Under "Export type," select the type of features you want to create a layer for. Here we will create a layer using polygons.  
+- Sotto "Esporta tipo" seleziona il tipo di oggetti di cui vuoi creare un layer. Qui creeremo un layer usando i poligoni.  
 
 ![export type][]  
 
-Edit the layer name if you like.  
+Se lo ritieni modifica il nome layer.  
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be included in our output layer. This gives us flexibility over exactly which data we want to access.  
+Sotto "Etichette esportate" è dove avviene la magia. Qui possiamo decidere quali etichette includere nel nostro layer di output.  Questo ci dà la flessibilità di selezionare esattamente quali dati vogliamo accedere.  
 
-- Click "Load from DB" to see a list of all the available tags in the database. Expand the window size by dragging the corner if that helps. You can see all the tags contained in this data, and also the number of features that have each tag.  
-- Check the boxes next to the tags that you want to include. Here we will select a few features that will be useful for polygons that represent buildings.  
+- Clicca "Carica da DB" per vedere una lista di tutti i tag presenti nel database. Se server ridimensiona la finestra "tirando" uno degli angoli. Vengono mostrati tutti i tag contenuti nei dati e il numero di oggetti per ogni tag.  
+- Marca i box di fianco ai tag che vuoi includere. Selezioneremo alcuni oggetti che saranno utili per poligoni che rappresentano edifici.  
 
 ![export full][]  
 
-When you are finished, click OK.  Close the box. Your layer should be automatically added.  
+- Quando hai finito premi OK e chiudi la finestra. il layer verrà automaticamente aggiunto.  
 
 ![cairo polygons][]  
 
-Right-click on the layer and click "Open Attribute Table."  
+Tasto destro sul layer e clicca "Apri tabella attributi".  
 
 ![open attribute table][]  
 
-You can see here that we have a table which includes only the attributes we selected.  
+Come vedi la tabella include solo gli attributi selezionati.  
 
 ![attribute table][]  
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
+Considera che non abbiamo creato un layer di **soli** edifici, ma uno che include tutti i poligoni presenti nei nostri dati originali che hanno i tag precedentemente selezionati. Per filtrare questo layer in modo da mostrare solo gli edifici, dobbiamo eseguire una query che estragga i soli poligoni dove building=yes.
 
 
 Conclusioni
 -------
 
-This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
+Questo processo rende semplice ottenere dei dati OSM aggiornati e caricarli in QGIS. Con un layer di questo tipo in QGIS puoi salvare i dati come shapefile, filtrarli, eseguire query e così via. Per maggiori dettagli su queste funzioni vedi il menu Guida di QGIS.  
 
 
 [bounding box]: /images/osm-data/bounding_box.png
