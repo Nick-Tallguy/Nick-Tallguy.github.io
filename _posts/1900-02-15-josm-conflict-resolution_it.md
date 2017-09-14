@@ -80,134 +80,134 @@ Quando modifichi in JOSM, rischi di incappare in conflitti. I conflitti avvengon
 
 
 <!-- More stuff, could go into an additional chapter - NON TRADURRE
-## Appendix. More Specific Conflicts
+## Appendice. Conflitti più specifici
 
-### Tag Conflicts
+### Conflitti fra tag
 
-If the tags of one version of an objects are different from the tags of
-another version, the Conflict dialog shows a ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in
-the tab Tags. Click on the tab to display a dialog for resolving tag
-conflicts.
+Se i tag di una versione di un oggetto sono differenti da quelli di
+un'altra versione, la finestra dei Conflitti mostra un ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) nella
+scheda Tags. Clicca sulla scheda per mostrare una finestra per la risoluzione del conflitto fra
+tags.
 
-There are three tables displayed in this dialog, from left to right:
+Sono visibili tre tabelle, da sinistra a destra:
 
-1.  My version: shows the tags of the first object version participating
-    in this conflict. These are usually the tags of the object version
-    in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
-    empty. The more tag conflicts you resolve, the more tag values will
-    we be displayed in this table.
-3.  Their version: shows the tags of the second object version
-    participating in this conflict. These are usually the tags of the
-    object version currently stored on the server.
+1. Mia versione: mostra i tags della prima versione dell'oggetto parte
+    di questo conflitto. Questi sono i tag della versione dell'oggetto memorizzata
+    nel data set locale.
+2. Versione unita: mostra i tags uniti. Questa tabella è inizialmente
+    vuota.  Più conflitti fra tags risolvi più tag verrano
+     mostrati in questa tabella.
+3. La loro versione: mostra i tag della seconda versione dell'oggetto
+    parte di questo conflitto. Questi sono normalmente i tags
+    dell'oggetto memorizzato sul server.
 
-In the example below both versions have a tag "name". The values in the
-two object versions are different, though, and JOSM therefore displays
-the row with a red background. The value of the first version is
-"Secondary School", the opposite version has a value "Elementary
-School". You now have to decide which of these values you want to keep
-and which you want to discard.
+Nell'esempio sotto entrambe le versioni hanno un tag "name". I valori nelle
+due versioni dell'oggetto sono però differenti e quindi JOSM mostra
+la riga con uno sfondo rosso. Il valore della prima versione è
+"Secondary School". l'altra versione ha il valore"Elementary
+School". Ora devi decidere quali di questi valori vuoi tenere
+e quali vuoi scartare.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Click on the value you want to keep, in the example for instance on the
-value on the left. If you either double-click on the value or click on
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
-opposite value. The table in the middle now displays the value to keep
-and the background color turns to green.
+Cliccca sul valore che vuoi tenere, nell'esempio
+quello a sinistra. Se fai doppio clic sul valore o su
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), decidi di tenere il valore e scartare il
+valore opposto. La tabella al centro ora mostra il valore da tenere
+e il colore di sfondo diventa verde.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
-The values you've chosen will be applied and the dialog will be closed.
+Quando il bottone Applica Risoluzione è abilitato puoi rendere attiva la tua scelta.
+I valori scelti verranno applicati e la finestra si chiuderà.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-## Resolving differences in the node list of two versions of a way
+## Risolvere le differenze nella lista di nodi di due versioni dello stesso percorso
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
-have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
-are three columns in the respective panel (see screen shot below):
+Se vedi il simbolo ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)nella scheda Nodi devi
+risolvere le differenze nella lista dei
+[nodi](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)delle due
+[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). Ci
+sono tre colonne nei rispettivi pannelli (vedi la schermata sotto):
 
-1.  the leftmost table displays the list of nodes of the the local
-    object version
-2.  the rightmost table displays the list of nodes of the the server
-    object version
-3.  the table in the middle shows the list of nodes of the merged ways
+1. la tabella più a sinistra mostra la lista dei nodi della versione locale
+    dell'oggetto
+2. la tabella a destra mostra la lista dei nodi sul server
+    dell'oggetto
+3. la tabella al centro mostra la lista dei nodi dei percorsi uniti
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+Inizialmente la tabella al centro è vuota. Ora devi decidere quali nodi
+tenere fra quelli del dataset locale (tabella a sinistra) e quali fra quelli del
+dataset del server.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### Procedura standard
 
-The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
-of three steps:
+La procedura standard per risolvere i conflitti nella lista di nodi di due
+[versioni
+dello stesso oggetto](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)si articola
+in tre passi:
 
-1.  Pick nodes from either object version and reorder the resulting node
-    list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
-3.  Apply the resolution
+1. Seleziona i nodi da entrambe le versioni dell'oggetto e riordina la lista così ottenuta
+    se necessario.
+2. Congela la lista risultante dei nodi uniti cliccando sul bottone
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). Quando congeli la lista dei nodi uniti
+    dici a JOSM che tutti i conflitti nella lista dei nodi sono risolti.
+3. Applica la risoluzione
 
-### A simple workflow: Keep the node list from your local object version
+### Un metodo semplice: tieni la lista dei nodi della versione locale dell'oggetto.
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+Il seguente esempio mostra il metodo di lavoro da seguire quando decidi di tenere tutti i nodi nel medesimo ordine in cui sono nella versione locale dell'oggetto.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+- Prima seleziona tutti gli elementi della tabella a sinistra (usando il mouse o 
+    premendo Ctrl+A nella tabella)(vedi il prossimo screenshot):
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
--   Then, click 
+- Poi clicca 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+    per copiare i nodi selezionati nella tabella al centro con i nodi uniti:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
--   Finally, click
+- Infine premi
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+    per congelare la lista dei nodi uniti risultante:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    The symbol in the nodes tab now switched to 
+    Il simbolo nella scheda dei nodi ora è cambiato in 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
+    e ora puoi applicare la scelta.
 
-### Support for comparing node lists
+### Supporto per il confronto di liste di nodi
 
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+Può essere difficile trovare le differenze nella lista dei nodi di due versioni dello stesso oggetto, in particolare per percorsi con molti nodi.
 
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+La finestra dei Conflitti ti supporta nel trovare le differenze. Può confrontare due liste di nodi alla volta ("la mia" lista di nodi, la lista dei nodi unita e la "loro" lista dei nodi) e e può visualizzare le differenze fra loro con specifici colori di sfondo.
 
-From the following combo box you can select which pair of node lists to compare:
+Dal seguente combo box puoi selezionare quale coppia di lista di nodi confrontare:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
-    in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
-    the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
-    in the Conflict Dialog
+1. La mia con la loro: confronta la tabella di sinistra con quella di destra
+    nella finestra Conflitti
+2. La mia con quella unita: confronta la tabella a sinistra con quella al centro
+    nella finestra Conflitti
+3. la loro con quella unita: confronta la tabella al centro con quella a destra.
+    nella finestra Conflitti
 
-Depending on the position of a node in the list different background
-colors are used:
+In funzione della posizione di un nodo nella lista, sono usati differenti colori
+per lo sfondo:
 
-1.  The node is in this list only. It isn't present in the opposite list:
+1. il nodo è solo in questa lista e non è presente nell'altra
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
+2. il nodo è in entrambe le liste, ma in posizioni differenti:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
-    position.
+3. uno sfondo bianco indica che un nodo è in entrambe le liste nella stessa
+    posizione.
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 
