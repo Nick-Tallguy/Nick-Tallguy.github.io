@@ -10,18 +10,18 @@ Usare Geofabrik e HOT Export
 ================
 
 > Questa guida può essere scaricata come [Geofabrik_and_HOT_Export_it.odt](/files/Geofabrik_and_HOT_Export_it.odt) o [Geofabrik_and_HOT_Export_it.pdf](/files/Geofabrik_and_HOT_Export_it.pdf)  
-> Ultima revisione 2016-09-05  
+> Ultima revisione 2017-09-15  
 
-Dopo avere imparato ad aggiungere e modificare dati in OpenStreetMap (OSM), ora forse vorrai ottenere i dati come backup o per elaborarli usando un software GIS (Geographic Information System) di tipo Open Source come Quantum GIS ([www.qgis.org](http://www.google.com/url?q=http%3A%2F%2Fwww.qgis.org%2F&sa=D&sntz=1&usg=AFQjCNFCIP2pVPi5ohw-5H7tJ4CzApRQlg)).  
+Dopo avere imparato ad aggiungere e modificare dati in OpenStreetMap (OSM), ora forse vorrai ottenere i dati come backup o per elaborarli usando un software GIS (Geographic Information System) di tipo Open Source come Quantum GIS ([www.qgis.org](http://www.qgis.org/it/)).  
 
 Scaricare i dati OSM dal sito Geofabrik
 -------------------------------------
 
-I dati OSM data possono essere facilmente ottenuti scaricandoli da [http://download.geofabrik.de/openstreetmap/](http://www.google.com/url?q=http%3A%2F%2Fdownload.geofabrik.de%2Fopenstreetmap%2F&sa=D&sntz=1&usg=AFQjCNGtPxBJsD_G-JOi6U5hWJSqey8KCw)
+I dati OSM data possono essere facilmente ottenuti scaricandoli da [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/)
 
 ![download-geofabrik][]
 
-I dati sono divisi in diverse regioni. L'Indonesia può essere trovata l'Asia cliccando sulla rispettiva regione nella tabella blu. La pagina apparirà così.  
+I dati sono divisi in diverse regioni. L'Indonesia può essere trovata come parte l'Asia cliccando sulla rispettiva regione nella tabella blu. La pagina apparirà così.        
 
 ![geofabrik-asia][]
 
@@ -40,7 +40,7 @@ Se vuoi scaricare un'area precisa con un particolare attributo puoi usare il ser
 
 ![hot-export][]
 
-Per ottenere i dati dal sito devi avere un account. Per crearne uno clicca su **Create Account** nell'angolo in basso a sinistra, inserisci la tua email, la password, la conferma della password e premi **Create Account**. Vedrai un messaggio tipo “A message with a confirmation link has been sent to your email address. Please open the link to activate your account.” che indica che l'account è stato correttamente creato e che hai ricevuto la mail di attivazione.  
+Per ottenere i dati dal sito devi avere un account OpenStreetMap. Per crearne uno clicca su **Registrati** nell'angolo in basso a sinistra, inserisci la tua email, la password, la conferma della password e premi **Registrati**. Vedrai un messaggio tipo “A message with a confirmation link has been sent to your email address. Please open the link to activate your account.” che indica che l'account è stato correttamente creato e che hai ricevuto la mail di attivazione.  
 
 ![hot-export-account][]
 

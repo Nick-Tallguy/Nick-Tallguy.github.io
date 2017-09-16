@@ -10,7 +10,7 @@ Risoluzione dei conflitti in JOSM
 ====================
 
 > Questa guida può essere scaricata come [josm-conflict-resolution_it.odt](/files/josm-conflict-resolution_it.odt) oppure [josm-conflict-resolution_it.pdf](/files/josm-conflict-resolution_it.pdf)  
-> Revisionato il 2016-09-27  
+> Revisionato il 2017-09-15  
 
 Talvolta lavorando con JOSM, quando carichi i tuoi bellissimi edit ottieni un brutto messaggio che si lamenta di un conflitto.  
 ![conflict detected][]  

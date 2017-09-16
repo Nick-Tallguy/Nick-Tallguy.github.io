@@ -9,7 +9,7 @@ category: beginner
 L’Éditeur iD
 =============
 
-> This guide may be downloaded as [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) or [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
+> Ce guide peut être téléchargé : [beginner_id-editor_fr.odt](/files/beginner_id-editor_fr.odt) ou [beginner_id-editor_fr.pdf](/files/beginner_id-editor_fr.pdf)  
 Révision 2016-03-30  
 
 - TOC
@@ -76,19 +76,19 @@ S’il y a un [décalage d’imagerie](/fr/josm/aerial-imagery), vous pouvez **c
 
 ### Ajouter des Points  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Pour ajouter un nouveau nœud (point), cliquez sur le bouton **Point**. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Le curseur de la souris devient un signe plus (+). Maintenant, cliquez à un endroit qui marque un emplacement. Par exemple, s'il y a un hôpital dans votre région, cliquez à l'emplacement du bâtiment de l'hôpital.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Remarquez qu'un nouveau nœud (point) a été ajouté. En même temps, le panneau de gauche change pour afficher un formulaire où vous pouvez sélectionner des attributs pour l'objet. Cliquez sur **Hospital Grounds** pour marquer le point comme étant un hôpital.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Vous pouvez utiliser le formulaire pour renseigner d'autres informations détaillées concernant votre nœud. Vous pouvez renseigner le nom de l'hôpital, l'adresse, et/ou d'autres informations additionnelles. Notez que chaque type d'élément cartographique a des options différentes, selon l'attribut que vous choisissez dans le panneau des éléments.  
+- Si vous faites une erreur, comme un mauvais emplacement, vous pouvez déplacer votre nœud à un nouvel emplacement en maintenant le bouton gauche de votre souris sur votre nœud et en le glissant. Vous pouvez aussi supprimer votre nœud en cliquant avec le bouton droit de la souris sur votre nœud, puis en cliquant sur le bouton qui ressemble à une poubelle. ![image23][]{: height="24px"}  
+Un « point » créé dans l'éditeur iD est en fait un « nœud » indépendant avec un ensemble d'« attributs ».  
 
 ### Dessiner des Lignes  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Pour ajouter une nouvelle ligne, cliquer sur le bouton **Line**. ![image4][]{: height="24px"}  
 
 - Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
 ![image24][]  

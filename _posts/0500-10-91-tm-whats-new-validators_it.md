@@ -61,7 +61,7 @@ Se hai la necessità di segnare i task con differenti stati dopo averli revision
 
 ## Altri elementi relativi alla Validazione
 
-1. Pannello **Domande e commenti** - In questa versione serve per domande e commenti inerenti al progetto. I validatori dovrebbero controllarlo e se necessario rispondere alle domande. I validatori possono usare anche il link "Contatta il Gestore del Progetto" per indirizzare domande e commenti a chi ha creato il progetto
+1. **Scheda Domande e commenti** - In questa versione serve per domande e commenti inerenti al progetto. I validatori dovrebbero controllarlo e se necessario rispondere alle domande. I validatori possono usare anche il link "Contatta il Gestore del Progetto" per indirizzare domande e commenti a chi ha creato il progetto.
 
 2. **Lista dei commenti del singolo task** - il bottone Attività e Statistiche nell'angolo in alto a destra della mappa dei task presenta ora una lista di tutti i commenti lasciati sui singoli task. I validatori dovrebbero controllarla per aiutare nel risolvere problemi e rispondere alle domande.
 
