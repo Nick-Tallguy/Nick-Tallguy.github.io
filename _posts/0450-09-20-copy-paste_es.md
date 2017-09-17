@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Copying, Pasting & Rotating - iD editor
+título: Copiar, Pegar y Rotar - Editor ID
 permalink: /es/hot-tips/copy-paste/
 lang: es
 category: hot-tips
@@ -11,10 +11,10 @@ Copiado, Pegado & Rotación - editor iD
 
 ![copy-paste][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+Esta imagen ![keymon]{: height="24px"} le muestra que botones o rueda del mouse se usaron, y que botones del teclado se presionaron.  
 
-You can easily copy, paste & rotate objects, but make sure they are the right size.  
-Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste.  
+Fácilmente puede copiar, pegar y rotar, pero asegúrese de que el tamaño es el correcto.   
+Seleccione con su mouse, luego presione **Ctrl+c** para copiar y **Ctrl+v** para pegar.  
 
-[copy-paste]:/images/hot-tips/copy-paste.gif
+[copiar-pegar]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

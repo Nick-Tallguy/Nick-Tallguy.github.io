@@ -1,29 +1,29 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /en/beginner/start-osm/
+permalink: /hu/beginner/start-osm/
 lang: hu
 category: beginner
 ---
 
-Getting started on OpenStreetMap.org
+Első lépések az OpenStreetMap.org oldalon
 ====================================
 
-> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
-> Reviewed 2015-07-12  
+> Ez az útmutató letölthető: [beginner_start-osm_hu.odt](/files/beginner_start-osm_hu.odt) vagy [beginner_start-osm_hu.pdf](/files/beginner_start-osm_hu.pdf)  
+> Átnézve: 2015-07-12  
 
-In this section we will learn step by step how to navigate the
-OpenStreetMap website, view maps, and sign up for a user
-account. After you have your own username and password, you will be able
-to contribute your first points to the map.
+Ebben a fejezetben lépésről lépésre megtanuljuk, hogyan igazodjunk el az
+OpenStreetMap weboldalán, hogyan nézzünk térképeket és hogyan hozzunk létre felhasználói
+fiókot. Miután létrehoztad saját felhasználónevedet és jelszavadat, te is képes leszel
+első pontjaidat elhelyezni a térképen.
 
 ![website][]
 
-Visit the OpenStreetMap Website
+Az OpenStreetMap weboldal felkeresése
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.
-    (If you are reading this online, then you must be connected!)
+-   Mielőtt nekikezdenél, győződj meg róla, hogy számítógéped csatlakozik az internethez.
+    (Ha ez online olvasod, akkor biztosan csatlakoztál.)
 -   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet
     Explorer. If it is already open then you can create a new tab.
 -   In the address bar at the top of the window, enter the following and press Enter:

@@ -170,15 +170,15 @@ Añadiendo sus primeros puntos
     base de datos de OSM!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
-more about using it in the [iD editor guide](/en/beginner/id-editor/).
-You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
-which is a great and interactive manner to discover the editor.
+El editor ID es una herramienta fantástica para editar fácilmente OSM, y podrá encontrar  
+más sobre como usarlo en [iD editor guide](/es/beginner/id-editor/)
+También puede usar el  [tutorial]((http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+que es una buena forma interactiva de descubrir el editor.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
-that offers many more features.
-Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
-you can choose which editor - iD or JOSM - you like using the best.
+No obstante, en [JOSM section](/es/josm/) encontramos la aplicación tutorial 
+que ofrece muchas más características.
+Siéntase libre de continuar jugando con ID. Una vez que obtenga más experiencia contribuya con OSM, 
+puede elegir que editor - ID o JOSM- prefiere utilizar.
 
 Resumen
 -------

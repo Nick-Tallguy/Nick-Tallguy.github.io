@@ -26,9 +26,9 @@ Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coor
 
 ## Caminos
 
-Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
+Cualquier tipo de caminos, desde rutas a trazas y senderos, están etiquetadas "carretera" en OpenStreetMap. Es importante que las carreteras estén correctamente agregadas a la base de datos (OpenStreetMap data) por cuanto son utilizadas de tantos modos:  
 
--  Navigation software such as Garmin devices and apps. on smartphones such as Osmand can provide routing information over great distances if the correct information is loaded into them. As these rely on the gps within the device to locate the position in relation to the basemap loaded into them, it is important that the highways are actually within about 15 metres of the right place, or they will not work!  
+Software de navegacion tales como los artefactos Garmin y aplicaciones en smartphones tales como Osmand, pueden proporcionar información de ruteo para grandes distancias, si se les carga la información correcta. Como dependen del gps dentro del artefacto para localizar la posición en relación  al mapa base cargado dentro de ellos, es importante que las carreteras estén realmente dentro de aproximadamente 15 metros del lugar correcto, o no funcionarán!  
 -  Planning the route for a large 'aid' lorry is much easier if you can differentiate between a path & a trunk road, with all the stages in between.  
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
@@ -37,12 +37,12 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 
 ![iD 3][]
 
-1.  When tracing highways, ensure you are zoomed in sufficiently. As a starting guide set the scale to about 20 metres, and trace the highway so that your tracing has sufficient points in it to keep it on, or very close to, the road you can see in your satellite imagery. In the screenshot above you can see I have traced the road that had been passed over to me, down, through the trees, and down to another building where it appears to stop. Where the trees are close to the road, and the imagery is obtained by an overhead camera, it appears as if the road narrows as it goes through the trees - however, it is just the effect of the trees obscuring the view, and the road is the same width throughout.  
+1. Cuando esté trazando carreteras, asegúrese de amplificar lo suficiente. Como guía de inicio, fije la escala a aproximadamente 20 metros, y trace la carretera de modo que su trazado tenga suficientes puntos en él para mantenerlo sobre, o muy próximo a, el camino que puede ver en su imagen satelital. En la captura de pantalla arriba, puede ver que he trazado el camino que me han pasado, abajo, a través de los árboles y abajo, hasta otro edificio donde aparentemente se detiene. Donde los árboles están próximos al camino, y la imagen es obtenida por una cámara aérea, el camino parece angostarse mientras atraviesa los árboles. Sin embargo, es solo el efecto de los árboles oscureciendo la vista, siendo el camino del mismo ancho todo a lo largo.  
 2.  I've also traced another section of road, making sure that it is connected at each end - iD shows this with a slightly larger and darker coloured dot at the junction. It is important that the roads join and 'share a common node' so that routing software will provide the correct guidance.  
 3.  The road is tagged as 'highway=residential', and I've also added 'surface=unpaved'.  
 4.  For a full description of tagging within Africa, refer to the wiki page [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
 
-> There is a high risk of suffering from conflicts which will prevent you saving your work when working on any highway which extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the highway, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+>Hay un alto riesgo de sufrir conflictos que le impedirán grabar su trabajo cuando esté trabajando sobre una carretera, lo que se extiende a otras cuadrículas donde mapeadores también estarán editando. Es aconsejable grabar todos sus cambios antes de editar la carretera, y luego grabar sus cambios a intervalos muy frecuentes, tales como cada 6 nodos agregados.
 
 
 ### La red de carreteras
@@ -51,9 +51,9 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 
 This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](https://josm.openstreetmap.de/wiki/Styles). Although designed to assist validators, it can be very useful when carrying out initial mapping. Anything that is coloured red has some kind of problem - the remaining colours are explained in the key in this screenshot.  
 
-1.  This section of highway is coloured red because the tag has been incorrectly typed and a capital letter has been used. The tag should be highway=unclassified, which would have resulted in a pale brown colour in the screenshot.  
-2.  This is part of the highway network for the town to the South West.This network connects to the rest of the highway network of Africa.  
-3.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
+1. Esta sección de carretera está coloreada en rojo porque la etiqueta ha sido tipeada incorrectamente y una letra mayúscula ha sido utilizada. La etiqueta debiera ser highway=unclassified, lo cual habría dado por resultado un color marrón claro en la captura de pantalla.  
+2. Esto es parte de la red de carreteras para el pueblo al sudoeste. Esta red conecta con el resto de la red de carreteras de Africa.  
+3. Estas secciones de carretera están "aisladas". No se conectan con el pueblo o con otras carreteras de ningún modo. En su formato actual no son muy útiles y se requerirá de futuras investigaciones para determinar si pueden ser conectadas al resto de la red, o si se debiera considerar borrarlas.  
 
 
 **¿Carretera o flujo?**
@@ -62,11 +62,11 @@ This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](
 
 There are no style views available to assist in using iD, but in this screenshot you can see an area of vegetation and ground. The ground appears to be silt or perhaps even an area of marshland without the water present. The dotted black and white lines represent paths in iD & I have temporarily highlighted & then deleted one of them to show the terrain.  
 
-1.  highway=path or stream bed. Probably both!  highways of all sizes frequently follow a river valley and in many cases they may follow the course of a seasonal river or stream. In this case this appears to be a flood plain area which at the time the satellite imagery was produced was dry, and being used as a path. This would be best tagged as:  
+1. highway=path (Carretera=sendero) o stream bed (lecho fluvial). Probablemente ambos! Las carreteras de todos los tamaños frecuentemente siguen un valle fluvial y en mucho casos puede que sigan el curso de un río o arroyo de temporada. En este caso aparenta ser un área plana inundada que al momento en que la imagen satelital fue tomada estaba seca, y siendo utilizada como un sendero. Esto debiera ser etiquetado como:  
 highway=path  
 seasonal=yes  
 surface=unpaved  
-2.  The path can be clearly seen going towards and into the band of trees and shrubland, but it is not possible to see its exact course through the trees. In these circumstances you can be certain the path, track or highway is present, it is just obscured from your view by the trees. I have mapped this by continuing the path I was tracing where it could be clearly seen on the ground as a straight line through the trees to the clearly visible continuation on the other side. Use this with caution, but in this instance it is obvious that the path is present and its path is likely to be very close to the line I have drawn. This is a more extreme usage - it is more usual to estimate the path of a highway for only a few metres where your view of it is obscured by one or two trees.  
+2. El sendero puede ser visto avanzando dentro de la banda de árboles y matorrales, pero no es posible ver su curso exacto a través de los árboles. En estas circunstancias puede tener la certeza de que el sendero, traza o carretera está presente. Solo está oscurecido por los árboles. He mapeado esto continuando el sendero que estaba trazando donde puede ser visto claramente en el suelo, como una línea recta a través de los árboles hasta la visible y clara continuación del otro lado. Use esto con cautela, pero en esta instancia es obvio que el sendero está presente y su senda es probablemente muy próxima  a la línea que he dibujado. Este es un uso más extremo - es más usual estimar la senda de una carretera por solo unos pocos metros donde tu visión de ella está oscurecida por uno o dos árboles.  
 3.  Having deleted the path so that I could see the ground clearly, I can easily replace it by using the 'undo' feature of iD.  
 
 ***
@@ -107,7 +107,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 The iD & JOSM screenshots above show a correctly mapped landuse=residential boundary.  
 
 1.  The boundary needs to be closed, so that the start point of the line (way), joins to the end point.  
-2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *i.e.* it should not share any nodes. But they can cross.  
+2. Los segmentos y nodos de los límites no deben unirse a carreteras, cursos de agua, edificios o cualquier otro elemento. En esencia no debe compartir ningún nodo. Pero pueden cruzarse.  
 3.  The boundary should be fairly close to the buildings & any gardens or yards that form part of the grouping.  
 
 
@@ -137,48 +137,48 @@ Buildings are added to the map data for a number of reasons;
 
 ### Edificios - Cómo Mapear
 
-The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
+La vasta mayoría de los edificios que requieren de mapeo para HOT son basados en formas rectangulares con esquinas cuadradas o son redondos. Si un edificio aparente tener una mezcla de ambos, es más probable que estés viendo un edificio cuyo contorno esté oscurecido por una sombra, reflejo, follaje o similar.  
 
-For some tasks where only an outline of an area is required, the task may specify that buildings can be mapped as nodes, but these situations are now rare.  
+Para algunas tareas donde solo el bordeado de un area es requerida, la tarea puede especificar que los edificios sean mapeados como nodos, pero estas situaciones son ahora raras.  
 
 
 #### building=yes
 
-Unless the project instructions specify otherwise, buildings should be tagged **building=yes**  
+A menos que las instrucciones del proyecto indiquen lo contrario, los edificios deben ser etiquetados como **building=yes***  
 
-*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
+* A menudo puede haber demora entre que la imagen satelital es tomada, y el mapeo llevado a cabo. Es posible que el edificio que está mirando que aparenta no tener techo, haya sido ahora completado y habitado. También es posible que esté mirando un edificio con varios pisos, estando los inferiores habitados, y los superiores deshabitados.  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 's').  
+>** Mapear edificios usando iD** - cuando esté usando la herramienta de area dentro de iD para crear la forma básica, debe recordar cambiar la etiqueta a building=yes. La configuración por defecto simplemente etiquetará la forma como area=yes. Si su trazado es de un edificio con esquinas cuadradas, por favor tómese el tiempo de cuadricular su item trazado (resáltelo y shortcut´s).  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/more-tools/#the-buildings-tools-plugin)  
+* JOSM es mucho más rápido para mapear edificios - [herramientas de construcción JOSM se explica aquí.](/es/josm/more-tools/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 
-This screenshot shows part of a square being edited. Note the scale at the bottom of 15 metres - about the figure you should aim at when editing features. When tracing, you are aiming to place the building where it meets the ground:  
+Esta captura de pantalla muestra parte de una cuadrícula siendo editada. Note la escala en la parte inferior de 15 metros - respecto de la figura a la que debe apuntar cuando edite características. Cuando haga la traza, debe apuntar a ubicar el edificio donde se une con el suelo.  
 
-1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM or iD I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, JOSM - use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size.  
-2.  **Rectangular buildings.** These particular buildings are casting a noticeable shadow. The shadow can help to identify the shape of a building which is partially obscured by another feature. You will find that many buildings are not so simple, and have a verandah or are 'L' shaped - you must trace the actual shape of the building as this will help to identify it when names & other data is being added as part of the ground survey process.  
-3.  **Barriers - walls (or hedges) of a compound.** Having examined the imagery, zooming in & out until I am satisfied that from the shape of the object (use its shadow as well to identify), I believe this to be a wall, and I have tagged it **barrier=wall**. Alternatives include barrier=fence and barrier=hedge.  
-4.  I have joined the barrier=wall to the building=yes at the corner of the building.  
+1. **Edificios redondos.** En este caso son bastante bajos y su sombra es difícil de ver. Si estuviese parado entre ellos, parecerían domos. He mapeado y etiquetado solo uno de ellos hasta ahora **building=yes**. Para agregar rápidamente los restantes edificios en JOSM o iD, seleccionaría este (resáltalo), atajo de teclado *Ctrl+c", muevo mi teclado al centro de otro edificio redondo del mismo tamaño, atajo de teclado *Ctrl+v*. Cuando todos los edificios redondos de este tamaño hayan sido añadidos en mi cuadrícula, pego un edificio sobre un edificio redondo de distinto tamaño, JOSM - uso *Alt+Ctrl* & mouse para redimensionarlo a su tamaño correcto. Cópielo y luego péguelo sobre todos los edificios redondos del mismo tamaño.  
+2.** Edificios rectangulares** Estos edificios en particular están proyectando una sombra notoria. La sombra puede ayudar a identificar la forma de un edificio que está parcialmente oscurecido por otro elemento. Encontrará que muchos edificios no son tan simples, y tienen una galería o forma de "L". Debes trazar la verdadera forma del edificio ya que esto permitirá identificarlo cuando nombres y otra información es agregada como parte del proceso de encuestas.  
+3. **Barriers-walls (o hedges) de un compuesto.** Habiendo examinado la imagen ampliando y reduciéndola hasta que estoy satisfecho de que por la forma del objeto (usa también su sombre para identificarlo), creo que esto es una pared, y lo he etiquetado **barrier=wall**. Alternativas incluyen barrier=fence y barrier=hedges  
+4. He unido la barrier=wall (barrera=pared) al building=yes (edificio=si) en la esquina del edificio.  
 
 
-### Satellite imagery distorting the building shape.
+### Imagen satelital distorsionando la forma del edificio.
 
 
 ![Buildings_2][]
 
-1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
+1. La imagen satelital arriba, es de un edificio, pero el satélite no está directamente arriba, por lo que el edificio se ve distorsionado y el final de una pared es visible en la imagen. Debido a este ángulo, el techo no parece rectangular. El sol está prácticamente encima del edificio, por lo que la sombra del edificio indicada por las flechas de la figura 1 confirma que el edificio es rectangular.  
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
+2. Para mapear el edificio, crear un rectángulo que se extienda desde las flechas del punto 2, hasta donde estima que el edificio termina, indicado por el punto 3 en esta imagen.  
 
 
 ***
 
 
-More to follow - see the below links for more guidance.
+Más para continuar - vea los enlaces debajo para más guía.
 
 
-# Further Reading
+# Continuar leyendo
 
 -  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
 -  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  

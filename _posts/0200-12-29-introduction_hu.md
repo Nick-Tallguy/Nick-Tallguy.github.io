@@ -37,41 +37,41 @@ Kinek lehet mindez fontos?
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+Ha a városod olyan, mint a többi, akkor alighanem rajzoltál néhány vonalat, hogy megjeleníts
+utakat, esetleg egy folyót vagy egy patakot. Talán hozzáadtál fontos épületeket is,
+például iskolákat és hivatalokat, területeket vagy határokat. Bármit is rajzoltál,
+valószínűleg szimbólumokat használtál – egy vonalat egy út megjelenítéséhez, egy négyzetet
+egy épület jelképeként és így tovább. A térképed annak a megjelenítése, ami
+a terepen van.
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to
-someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The use of
-your map is limited though - there is only one copy of the map.The
-way you drew it may make sense to you, but perhaps not to someone else
-who would have drawn their own map in a different way. Because your map
-is merely on paper, it is difficult to get that information to others.
-This is why making your map on a computer, in such a way that anyone can
-access it, can be much more valuable. 
+A térképed informatív. Talán arra is felhasználhatod, hogy elmagyarázd
+valakinek, hol találhatók különböző helyek, hol vannak problémák
+a közösségedben vagy egyszerűen csak hogy eltaláljon valahová.
+Térképed használhatósága mindazonáltal korlátozott: csupán egy példány van belőle.
+Az általad felrajzolt vonal számodra talán érthető, de lehet, hogy másvalakinek már nem,
+hiszen ő másként rajzolta volna meg a saját térképét. Mivel térképed
+csak papíron van meg, nehéz másoknak továbbadni az információt.
+Ezért ha számítógépen készíted el, oly módon, hogy bárki
+hozzáférhessen, akkor sokkal értékesebb lehet. 
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information. 
-Anyone can contribute to OSM, and thousands of people add to the project 
-every day. Users draw maps on computers, rather than paper, but as we 
-will see in this guide, drawing a map on a computer is not all that 
-different from drawing on paper. We still draw lines to represent roads,
-fields, and anything else, and we still represent schools and hospitals 
-with symbols. The important thing is that OSM maps are saved on the 
-internet, and anyone can access them at any time, totally free.
+Az OpenStreetMap egy térképi információ létrehozására és megosztására szolgáló eszköz. 
+Bárki szerkesztheti az OSM-et, és emberek ezrei járulnak hozzá a projekthez 
+nap mint nap. A felhasználók papír helyett számítógépen rajzolnak térképeket, de amint 
+azt később ebben az útmutatóban is látni fogjuk, számítógépen térképet rajzolni egyáltalán 
+nem különbözik olyan sokban a papírra rajzolástól. Az utak megjelenítéseként itt is vonalakat rajzolunk,
+aztán területeket és minden mást, ami itt is iskolákat és kórházakat 
+jelöl szimbólumokkal. Ami fontos az az, hogy az OSM-térképek elmentésének helye az 
+internet, és bárki bármikor ingyen elérheti őket.
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your
-work. By following this guide, you should be able to quickly start
-making digital maps with OpenStreetMap.
+Reméljük, az OpenStreetMapet hasznosnak és érdekesnek találod
+munkád során. Az útmutatót követve gyorsan képes leszel elkezdeni
+a digitális OpenStreetMap-térképek elkészítését.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
