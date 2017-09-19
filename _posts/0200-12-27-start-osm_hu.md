@@ -137,7 +137,7 @@ Az első pontjaid hozzáadása
     weboldalra, az iD szerkesztőt használhatod arra, hogy az első pontodat elhelyezd
     a térképen.
 -   Mozgasd a térképet egy olyan helyre, amelyet jól ismersz, például a városodhoz
-    vagy városrészedhez. Jó ötlet például ha gondoskodsz arról, hogy a házad (vagy a szomszédodé) és a munkahelyed fel legyen rajzolva a térképre, és a helyes címük is meg legyen adva. 
+    vagy városrészedhez. Jó ötlet például, ha gondoskodsz arról, hogy a házad (vagy a szomszédodé) és a munkahelyed fel legyen rajzolva a térképre, és a helyes címük is meg legyen adva. 
 -   Közelíts arra a helyre, ahová szeretnél egy pontot tenni a térképre (talán van a közeledben egy étterem vagy egy zöldséges, amely még nincs rajta a térképen).
 -   Közvetlenül a térkép fölött balra van egy „Szerkesztés” fül egy kis
     lefelé mutató háromszöggel. Kattints a háromszögre. Egy kis menüt kell látnod
@@ -151,7 +151,7 @@ Az első pontjaid hozzáadása
     ![iD editor][]
 
 -   Egy pontot úgy tehetsz a térképre, ha a „Pont” gombra kattintasz
-    az ablak tetején. Aztán kattints a térkpen oda, ahová tenni szeretnéd az új
+    az ablak tetején. Aztán kattints a térképen oda, ahová tenni szeretnéd az új
     pontot.
 
     ![Point button][]    
