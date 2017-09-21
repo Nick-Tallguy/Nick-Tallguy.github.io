@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Further Reading
-permalink: /en/beginner/moving-forward/
+permalink: /hu/beginner/moving-forward/
 lang: hu
 category: beginner
 ---

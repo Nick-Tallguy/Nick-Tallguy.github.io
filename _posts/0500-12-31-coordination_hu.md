@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /en/coordination/
+permalink: /hu/coordination/
 lang: hu
 title: Coordination
 category: coordination

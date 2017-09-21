@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: iD Editor
-permalink: /en/beginner/id-editor/
+permalink: /hu/beginner/id-editor/
 lang: hu
 category: beginner
 ---

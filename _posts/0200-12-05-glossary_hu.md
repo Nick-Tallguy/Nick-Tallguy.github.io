@@ -1,6 +1,6 @@
 ---
 layout: doc
-cím: Glosszárium 
+title: Glosszárium 
 permalink: /hu/beginner/glossary/
 lang: hu
 category: beginner
