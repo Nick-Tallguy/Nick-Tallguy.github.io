@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tagging - iD editor
-permalink: /en/hot-tips/tagging/
+permalink: /hu/hot-tips/tagging/
 lang: hu
 category: hot-tips
 ---
