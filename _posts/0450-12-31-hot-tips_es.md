@@ -38,5 +38,5 @@ Si usted es nuevo en OpenStreetMap los siguientes módulos de nuestra sección p
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[Ayuda de ID]:/images/hot-tips/iD-help.png "Menú de ayuda de iD - siempre disponible mientras esté editando e incluye un tutorial opcional."
-[Videos tutoriales de un minuto]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[iD help]:/images/hot-tips/iD-help.png "Menú de ayuda de iD - siempre disponible mientras esté editando e incluye un tutorial opcional."
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"

@@ -16,5 +16,5 @@ Esta imagen ![keymon]{: height="24px"} le muestra que botones o rueda del mouse 
 Fácilmente puede copiar, pegar y rotar, pero asegúrese de que el tamaño es el correcto.   
 Seleccione con su mouse, luego presione **Ctrl+c** para copiar y **Ctrl+v** para pegar.  
 
-[copiar-pegar]:/images/hot-tips/copy-paste.gif
+[copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
