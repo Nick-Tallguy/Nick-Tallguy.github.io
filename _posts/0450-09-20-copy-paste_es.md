@@ -1,6 +1,6 @@
 ---
 layout: doc
-título: Copiar, Pegar y Rotar - Editor iD
+title: Copiar, Pegar y Rotar - Editor iD
 permalink: /es/hot-tips/copy-paste/
 lang: es
 category: hot-tips

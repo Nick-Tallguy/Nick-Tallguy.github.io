@@ -2,7 +2,7 @@
 layout: doc
 permalink: /es/hot-tips/
 lang: es
-título: HOT Tips - Introducción para nuevos mapeadores - Editor iD
+title: HOT Tips - Introducción para nuevos mapeadores - Editor iD
 category: hot-tips
 cover: yes
 nosearch: true
