@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /en/hot-tips/
+permalink: /hu/hot-tips/
 lang: hu
 title: HOT Tips - Getting started for new mappers - iD editor
 category: hot-tips
