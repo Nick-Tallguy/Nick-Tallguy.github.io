@@ -2,18 +2,14 @@
 layout: doc
 permalink: /es/hot-tips/
 lang: es
-<<<<<<< HEAD
 title: HOT Tips - Introducción para nuevos mapeadores - Editor ID
-=======
-title: HOT Tips - Introducción para nuevos mapeadores - Editor iD
->>>>>>> cdaadb69ab5bf442a974f25cf0bf329905d04f46
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-HOT Tips - Introducción para nuevos mapeadores: uso del editor iD y el Tasking Manager
-================
+HOT Tips - Introducción para nuevos mapeadores: uso del editor ID y el Tasking Manager
+===============
 
 Esta serie de guías cortas está dirigido a voluntarios como ayuda para mapear para Agencias de Ayuda usando Tasking Manager, siendo los mismos principios para todos los mapeos de OpenStreetMap. Mapear es fácil, pero hagámoslo bien y mejoremos el mapa. 
 
@@ -26,7 +22,7 @@ Vea también
 *Subtítulos disponibles en algunos idiomas*  
 
 ![iD help]{: height="400px"}  
-Menú de ayuda de iD - siempre disponible cuando esté editando e incluye un tutorial opcional.    
+Menú de ayuda de ID - siempre disponible cuando esté editando e incluye un tutorial opcional.    
   
 [Lista de accesos rápidos de iD en Wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
@@ -43,8 +39,4 @@ Si usted es nuevo en OpenStreetMap los siguientes módulos de nuestra sección p
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
 [iD help]:/images/hot-tips/iD-help.png "Menú de ayuda de iD - siempre disponible mientras esté editando e incluye un tutorial opcional."
-<<<<<<< HEAD
 [one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
-=======
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
->>>>>>> cdaadb69ab5bf442a974f25cf0bf329905d04f46

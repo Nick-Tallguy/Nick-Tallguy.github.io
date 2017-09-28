@@ -7,7 +7,7 @@ category: hot-tips
 ---
 
 Copiado, Pegado & Rotación - editor iD
-============
+=============
 
 ![copy-paste][]
 
@@ -17,8 +17,4 @@ Fácilmente puede copiar, pegar y rotar, pero asegúrese de que el tamaño es el
 Seleccione con su mouse, luego presione **Ctrl+c** para copiar y **Ctrl+v** para pegar.  
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
-<<<<<<< HEAD
 [keymon]:/images/hot-tips/keymon.png
-=======
-[keymon]:/images/hot-tips/keymon.png
->>>>>>> cdaadb69ab5bf442a974f25cf0bf329905d04f46
