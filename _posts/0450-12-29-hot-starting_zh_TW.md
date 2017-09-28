@@ -35,12 +35,12 @@ category: hot-tips
 另見  
 ---------
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "人道救援開放街圖小組 - 任務分配管理器教學影片")  
 *目前有些語言是有字幕*  
 
 
 [TM-start-at-top]:/images/hot-tips/TM-start-at-top-1.png
-[TM Start]:/images/hot-tips/tm_start.gif "Tasking Manager selecting a square and loading into the iD editor"
+[TM Start]:/images/hot-tips/tm_start.gif "任務分配管理器選擇方塊，接著載入 iD 編輯器"
 [keymon]:/images/hot-tips/keymon.png
 [mark task as done]:/images/hot-tips/mark-task-as-done.png
-[OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
+[OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "人道救援開放街圖小組 - 任務分配管理器教學影片"

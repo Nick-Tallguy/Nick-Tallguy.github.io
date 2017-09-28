@@ -17,34 +17,34 @@ Le Gestionnaire de Tâches 3 a un certain nombre de nouvelles fonctionnalités �
 
 ![profile][]
 
-1. **Email Address** - The Tasking Manager can now send an email whenever a user receives a message in the Tasking Manager. This is very important to people doing validation. Comments left when validating mapping are now much more likely to be seen by the person whose work you are validating. Please be sure to **add your email address** to your profile as well.
+1. **Adresse e-mail** - Le gestionnaire de tâches peut maintenant envoyer un e-mail à chaque fois qu'un utilisateur reçoit un message dans le gestionnaire de tâches. C'est très important pour les personnes qui font de la validation. Les commentaires laissés lors de la validation des modifications ont maintenant bien plus de chances d'être vus par la personne à l'origine du travail que vous validez. Merci de bien vérifier que vous avez **ajouté votre adresse e-mail** à votre profil.
 
 2. **Validator Role** - Projects can optionally require experienced validators to validate project mapping. While "Mapper Experience Level" is automatically set based on OSM changesets, the validator role is currently only set by project managers manually. The initial list of folks with the validator role is incomplete, please contact a project manager to have your name added to the list of those with the validator role if you are an experienced validator who does not have the validator role in the Tasking Manager. **Please note**: The validator role is Tasking Manager wide and therefore we ask project managers to only assign this role to validators whose validation work they know directly, and have first hand knowledge the validator is qualified to validate any project in the Tasking Manager.
 
 
-## Validation Process
+## Processus de validation
 
-### Step 1 - Task Selection
+### Étape 1 - Sélection de tâche
 
-Validating can only be done by clicking the "Validation" tab on a Project page. Once you have selected the "Validation" tab you have three main options for how to select tasks to validate.
+La validation peut être effectuée seulement en cliquant sur l'onglet « Validation » de la page d'un projet. Sur cet onglet, vous avez trois options principales pour sélectionner des tâches à valider.
 
 ![selection][]
 
-1. **Select an individual task** to validate - This is exactly the same process that exists in the current Tasking Manager, you click on a task or use the "Validate a Random Task" button and then click "Start Validating" and launch your editor.
+1. **Sélectionnez une tâche individuelle** pour la valider - C'est exactement le même processus que celui du gestionnaire de tâches actuel : vous cliquez sur une tâche ou utilisez le bouton « Valider une tâche au hasard », puis vous cliquez sur « Commencer la validation » et lancez votre éditeur.
 
-2. **Select by area** - This allows you to draw one polygon on the task map and it will select all of the tasks that are available for validation. You can then click "Start Validating" and it will lock them all for validation.
+2. **Sélectionner par région** - Cela vous permet de tracer un polygone sur la carte des tâches pour sélectionner toutes les tâches disponibles pour validation. Vous pouvez ensuite cliquer sur « Commencer la validation », et cela les verrouillera toutes pour validation.
 
-3. **Select by user** - A list of all the users who have contributed to the project is on the left side of the page along with some information about them. You can sort by any of column headings:
+3. **Sélectionner par utilisateur** - Une liste de tous les utilisateurs qui ont contribué au projet est affichée sur la gauche, avec quelques informations sur chacun d'entre eux. Vous pouvez trier sur n'importe quelle colonne :
 
-- Level - Based on the number of OSM changesets
-- Registered - How long they have been using the Tasking Manager.
-- Last Validation - The last time they had a task validated
+- Niveau - Basé sur le nombre de modifications OSM
+- Enregistré - Depuis combien de temps ils utilisent le gestionnaire de tâches.
+- Dernière validation - La dernière fois qu'une de leur tâche a été validée.
 
-Using your mouse to hover over the "Start" link will highlight the tasks that user has completed. Clicking on the "Start" link will lock them all for validation.
+Avec  votre souris, survolez le lien « Commencer » pour mettre en surbrillance les tâches que l'utilisateur a complétées. Un clic sur « Commencer » verrouille les tâches pour validation.
 
-### Step 2 - Validating Multiple Tasks
+### Étape 2 - Valider plusieurs tâches
 
-Selecting one single task and launching your editor of choice will behave the same as in the previous version of the Tasking Manager, the real difference will be when you select multiple tasks and launch your editor.
+Sélectionner une tâche seule et lancer votre éditeur aura le même comportement que dans la version précédente du gestionnaire de tâches. La vraie différence apparaît quand vous sélectionnez plusieurs tâches et que vous lancez votre éditeur.
 
 There is less of a change in the iD editor, the big difference being that instead of seeing just one task outline, you will see multiple task outlines. Because iD only downloads data for areas you zoom in close for and accepts GPX outlines there is not much difference in your workflow, just more areas locked in the Tasking Manager and more area to review mapping in. 
 

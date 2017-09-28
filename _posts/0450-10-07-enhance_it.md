@@ -1,6 +1,6 @@
 ---
 layout: doc
-titolo: Migliorare i colori o lo sfondo - editor iD
+title: Migliorare i colori o lo sfondo - editor iD
 permalink: /it/hot-tips/enhance/
 lang: it
 category: hot-tips

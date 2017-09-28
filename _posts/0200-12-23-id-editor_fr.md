@@ -90,84 +90,84 @@ Un « point » créé dans l'éditeur iD est en fait un « nœud » indépendant
 
 Pour ajouter une nouvelle ligne, cliquer sur le bouton **Line**. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- Le curseur de votre souris se change en un signe plus (+). Trouvez une route qui n'a pas été dessinée sur la carte et tracez-là. Cliquez sur un point où le segment de route commence, déplacez votre souris, puis cliquez pour ajouter des points supplémentaires. Double-cliquez pour terminer l'action de dessin. Notez le panneau sur la gauche.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line, you will see these tools:  
-- Delete point from line. ![image23][]{: height="24px"}  
-- Disconnect point from line. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
--   Delete line. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
--   Move line ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+- Comme pour un point, sélectionnez les attributs appropriés pour votre ligne.  
+- Vous pouvez déplacer des points de la ligne en faisant un clic gauche sur un point et en le glissant.  
+- Vous pouvez aussi déplacer toute la ligne en la sélectionnant, puis en choisissant l'outil **Move**. Puis glissez la ligne vers une nouvelle position. ![image30][]{: height="24px"}  
+- Quand vous faites un clic gauche sur un point individuel (nœud) sur la ligne, vous pouvez voir ces outils :  
+- Supprimer le point de la ligne. ![image23][]{: height="24px"}  
+- Déconnecter le point de la ligne. ![image26][]{: height="24px"}  
+- Diviser la ligne en deux lignes au niveau du point sélectionné. ![image27][]{: height="24px"}  
+- Quand vous faites un clic gauche sur une ligne (mais pas sur un point), vous pouvez voir ces outils :  
+- Supprimer la ligne. ![image23][]{: height="24px"}  
+- Créer un cercle à partir d'une ligne (disponible seulement si la ligne fait une boucle fermée). ![image29][]{: height="24px"}  
+- Déplacer une ligne. ![image30][]{: height="24px"}  
+- Faire une forme rectangulaire à partir d'une ligne (disponible seulement si la ligne fait une boucle fermée). ![image31][]{: height="24px"}  
+- Inverser la direction de la ligne (utile pour les rivières et les rues à sens unique). ![image32][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+Une « ligne » créée dans l'éditeur iD est en fait un « chemin » (« way ») avec des « attributs » (« tags ») associés.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+>Note concernant la **Suppression** : en général, vous devriez améliorer les éléments de carte faits par d'autres personnes, plutôt que de les supprimer, si c'est possible. Vous pouvez supprimer vos propres erreurs, mais vous devriez essayer *d'ajuster* les objets de la carte créés par d'autres personnes, si nécessaire. Cela permet de préserver l'historique des modifications des éléments dans la base de données OSM, et c'est plus respectueux pour vos camarades cartographes. Si vous pensez vraiment que quelque chose devrait être supprimé, vous pouvez envisager de commencer par en parler au cartographe d'origine, ou à une des listes de diffusions OSM.
 
 ### Dessiner des Formes (Polygones)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Pour ajouter une nouvelle forme à plusieurs côtés (polygone), cliquez sur le bouton **Area**. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- Le curseur de votre souris se changera en un signe plus (+). Essayez de tracer un bâtiment en vous basant sur l'imagerie satellite.  
+- Vous pouvez remarquer que la couleur de votre polygone change en fonction des attributs que vous lui assignez.  
 ![image35][]  
-- The tools that are available when you select a shape are similar to those when you click on a line.  
+- Les outils disponibles quand vous sélectionnez un polygone sont similaires à ceux disponibles pour une ligne.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+Un « polygone » dans l'éditeur iD est en fait un « chemin fermé » (qui fait une boucle) avec des attributs.
 
-Saving Your Changes
---------------------
+Sauvegarder vos modifications
+-----------------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Quand (et si) vous voulez sauvegarder vos modifications dans OpenStreetMap, cliquez sur le bouton **Save**. Le panneau de gauche affichera le panneau de sauvegarde.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Écrivez un commentaire qui décrit vos modifications, puis cliquez sur **Save**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Si vous avez modifié le même élément cartographique (point, chemin ou polygone) en même temps qu'une autre personne, un avertissement s'affichera, indiquant que vos modifications ne peuvent pas être sauvegardée tant que vous n'avez pas résolu les **conflits** - choisissez quelles modifications il faut garder, puis sauvegardez vos modifications. *Pour résoudre un conflit, il faut souvent accepter les modifications de l'autre personne. Dans ce cas, vous aurez sûrement intérêt à retourner sur l'élément en question pour refaire vos modifications (**cette fois, sauvegarder rapidement après vos modifications, pour éviter un nouveau conflit !**).*
 
-Additional Information and Custom Tags
----------------------------------------
+Informations additionnelle et attributs spécifiques
+---------------------------------------------------
 
-When you are editing an object, you will see a strip of icons at the bottom of the attribute panel. You can add additional information by clicking these icons:
+Quand vous êtes en train de modifier un objet, vous pouvez voir une bande d'icônes en bas du panneau des attributs. Vous pouvez ajouter des informations complémentaires en cliquant sur ces icônes :
 
-- Add elevation ![image37][]{: height="24px"}  
-- Add notes ![image38][]{: height="24px"}  
-- Add contacts / phone number ![image39][]{: height="24px"}  
-- Add source tag ![image40][]{: height="24px"}  
-- Add website ![image41][]{: height="24px"}  
-- Add accessibility information ![image42][]{: height="24px"}  
-- Add Wikipedia link ![image43][]{: height="24px"}  
+- Ajouter une altitude ![image37][]{: height="24px"}  
+- Ajouter des notes  ![image38][]{: height="24px"}  
+- Ajouter des informations de contact / un numéro de téléphone ![image39][]{: height="24px"}  
+- Ajouter un attribut de source ![image40][]{: height="24px"}  
+- Ajouter un site Web ![image41][]{: height="24px"}  
+- Ajouter des informations sur l'accessibilité ![image42][]{: height="24px"}  
+- Ajouter un lien Wikipédia ![image43][]{: height="24px"}  
 
-Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Vous pouvez aussi ajouter des attributs spécifiques en cliquant sur **All tags**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Cela montrera tous les attributs attachés à l'élément.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Cliquez sur le signe plus (+) pour ajouter des attributs et des valeurs, ou cliquez sur l'icône en forme de corbeille pour les supprimer.
 
-iD versus JOSM
----------------  
+iD vs JOSM
+----------  
 
-**iD is good for...**
+**iD est bien pour...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- quand vous faites des modifications simples  
+- quand vous avez une connexion rapide à Internet, pour charger l'imagerie satellite et sauvegarder vos modifications  
+- quand vous voulez être sûr de suivre un ensemble de règles simples et cohérentes pour les attributs  
+- quand vous ne pouvez pas installer un logiciel sur l'ordinateur que vous utilisez
 
-**JOSM is better...**
+**JOSM est mieux...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- quand vous ajoutez de nombreux bâtiments (voir le greffon buildings_tool)
+- quand vous modifiez de nombreux polygones ou lignes qui existent déjà
+- quand vous êtes hors connexion, ou quand vous utilisez une connexion à Internet instable
+- quand vous utilisez un ensemble d'attributs spécifiques (ou des présélections personnalisées)
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Il y a une [section de LearnOSM](/fr/mobile-mapping/field-papers/) avec plus d'informations sur les Field Papers.
 
 
 

@@ -83,7 +83,7 @@ To add a new point, click on the **Point** button. ![image3][]{: height="24px"}
 - Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
 ![image22][]  
 - You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
+Si comete un error, como por ejemplo una ubicación incorrecta, puede mover su punto a una nueva ubicación haciendo clic con el botón izquierdo del ratón sobre el punto y arrastrándolo. O, si desea eliminar su punto, haga clic con el botón izquierdo sobre el punto y luego haga clic en el botón que se ve como una papelera.  
 Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asociado a un conjunto de "etiquetas".  
 
 ### Dibujando líneas  
