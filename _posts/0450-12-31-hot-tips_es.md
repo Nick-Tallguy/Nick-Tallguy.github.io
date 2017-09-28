@@ -9,7 +9,7 @@ nosearch: true
 ---
 
 HOT Tips - Introducción para nuevos mapeadores: uso del editor ID y el Tasking Manager
-===============
+================
 
 Esta serie de guías cortas está dirigido a voluntarios como ayuda para mapear para Agencias de Ayuda usando Tasking Manager, siendo los mismos principios para todos los mapeos de OpenStreetMap. Mapear es fácil, pero hagámoslo bien y mejoremos el mapa. 
 

@@ -69,14 +69,14 @@ To enable **OpenStreetMap GPS traces** click on the box. In the image below, pub
 ![osm gps traces][]  
 If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- Haga clic en los botones de navegación para mover las imágenes. Haga clic en el botón de reinicio para volver a la posición predeterminada. ![image20][]  
 
 Edición básica con iD  
 ----------------------  
 
 ### Añadiendo puntos  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Para añadir un nuevo punto, haga clic en el botón **Punto**. ! [image3] [] {: height = "24px"}  
 
 - Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
 ![image21][]  
