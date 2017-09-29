@@ -332,60 +332,60 @@ Quelques conseils généraux à prendre en compte lorsqu'on travaille avec cet o
 * Évitez de faire des modifications loin à l'extérieur de la zone de votre tâche : d'autres cartographes peuvent être en train de travailler dans cette zone, ce qui signifie que le travail est dupliqué. Il est normal de cartographie des bâtiments qui sont traversés par une limite de zone, mais évitez d'aller au-delà. Sauvegardez immédiatement après avoir cartographié quelque chose sur la limite de la zone.  
 * Prolongez les routes, les cours d'eaux et les autres éléments légèrement au-delà de la limite de la zone, pour permettre au prochain cartographe de continuer là où vous avez terminé. Mais sauvegardez dès que vous avez fini de les modifier.  
 * Si vous avez un doute sur ce qu'est un élément précis, utilisez la section « commentaires » pour poser vos questions, ou vérifiez sur le wiki.  
-* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
-* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+* Si vous faites une grosse erreur (par exemple en supprimant un élément important), utilisez IRC ou le champ de commentaire pour demander aux autres cartographes de vous aider à annuler la modification. Donnez le numéro de changeset, ou une description de ce qui s'est passé. C'est un travail collaboratif, les autres cartographes sont la pour vous aider : il est important de se rappeler que tout le monde peut parfois faire des erreurs.  
+* N'hésitez pas à demander des retours : les cartographes qui valident votre travail peuvent être laconique ou concis, mais s'ils savent que vous voulez bien engager un dialogue, c'est souvent plus intéressant pour tout le monde. Il peut être difficile de communiquer dans une autre langue, et il arrive d'avoir un ton qui semble sec quand on doit traduire un message dans une langue dans laquelle on n'est pas à l'aise.  
+* Vous ne devez pas valider votre propre travail : un regard extérieur est nécessaire pour une cartographie de meilleure qualité.  
+* Ne vous inquiétez pas si d'autres cartographes sont laconiques lorsqu'ils valident votre travail : tout comme vous, ils souhaitent juste s'assurer que toutes les données soient correctement cartographiées. Les retours concernent invariablement le travail qui reste à faire, ce n'est pas une critique de vos efforts déjà faits.  
 
 
 ## Validation
 
-Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
+La validation est le processus dans lequel un deuxième cartographe passe en revue le travail de cartographie fait par une premier cartographe sur une tâche. L'objectif est de s'assurer que les données sont complètes et de qualité, et de transmettre des remerciements, des retours et des encouragements aux cartographes.
 
-### Getting Started
+### Commencer à valider
 
-Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
+La validation commence comme les tâches de cartographie : un bénévole trouve un projet sur lequel travailler, lit les instructions pour bien comprendre ce qui est attendu en termes de cartographie, mais au lieu de sélectionner l'onglet « Carte » du projet, il sélectionne l'onglet « Valider ».
 
 ![TM select for validation][]
 
-The validator can select a task by clicking on an individual task square, clicking "Select a random Task", select by user or draw a polygon to select multiple, connected tasks.
+Le validateur peut sélectionner une tâche en cliquant sur la zone d'une tâche, en cliquant sur « Valider une tâche au hasard », en sélectionnant par utilisateur ou en traçant un polygone pour sélectionner plusieurs tâches adjacentes.
 
-Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
+Contrairement aux cartographes, les validateurs peuvent sélectionner plusieurs tâches pour effectuer la validation sur une plus grande échelle que juste une tâche.
 
-### Selecting Multiple Tasks for Validation
+### Sélectionner plusieurs tâches pour les valider
 
-New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
+La dernière version du Gestionnaire de Tâches propose la nouvelle fonctionnalité suivante : pouvoir sélectionner plusieurs tâches pour la validation, soit par zone, soit par utilisateur.
 
-Depending on which editor you are using, this feature will behave differently.
+Selon l'éditeur que vous utilisez, cette fonctionnalité aura un comportement différent.
 
-In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
+Dans JOSM, une deuxième couche de données OSM sera créée, avec pour titre « Task Boundaries - Do Not Edit or Upload » (Limites des tâches - ne pas modifier ni sauvegarder), et la sauvegarde sera désactivée sur cette couche dans les versions récentes de JOSM. JOSM **ne téléchargera pas les données** parce que cela peut représenter un trop gros volume d'information. C'est au validateur d'utiliser les limites des tâches comme guide et de télécharger manuellement les données dans la couche active pour la modification.
 
-#### Select by drawing a polygon
+#### Sélectionner les tâches en traçant un polygone
 
-This option allows a validtor to draw a square around a group of tasks and check them all out at once.
+Cette option permet à un validateur de tracer un rectangle autour d'un groupe de tâches et de toutes les verrouiller d'un coup.
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
+Une fois dans l'éditeur de son choix, **le validateur devra télécharger manuellement les données OSM** pour les zones des tâches sélectionnées. L'objectif est d'éviter le téléchargement de toutes les données OSM de toutes les tâches sélectionnées.
 
 
-#### Select By User
+#### Sélectionner par utilisateur
 
-A list of mappers who have marked a task as done is presented. Hovering over anyone in the list will highlight the tasks they have marked as completed. The list also prensents three important pices of information about the mapper, their experience level, the number of days since they first started mapping using the Tasking Manager and the number of days since they last received feedback via validation. This allows the validator to specifically target new mappers, experienced mappers or mappers who have not had any feedback for an extended period of time.
+Une liste des cartographes qui ont marqué une tâche comme terminée est affichée. Survolez l'un d'entre eux avec votre curseur pour mettre en surbrillance les tâches qu'il a complété. La liste présente aussi trois informations importantes sur le cartographe : son niveau d'expérience, le nombre de jours depuis qu'il a commencé à cartographier avec le Gestionnaire de Tâches, et le nombre de jour depuis la dernière fois qu'il a reçu un retour de validation. Cela permet au validateur de cibler spécifiquement les nouveaux cartographes, les cartographes expérimentés ou les cartographes qui n'ont eu aucun retour pendant une longue période.
 
-Clicking on the "Start Validating" button will lock all the tasks completed by that mapper and allow the validator to open them in their editor of choice.
+Cliquez sur « Commencer la validation » pour verrouiller toutes les tâches complétées par ce cartographe et pouvoir les ouvrir dans l'éditeur de votre choix.
 
 ![TM multi selection][]
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
+Une fois dans l'éditeur de son choix, **le validateur devra télécharger manuellement les données OSM** pour les zones des tâches sélectionnées. L'objectif est d'éviter le téléchargement de toutes les données OSM de toutes les tâches sélectionnées.
 
-### Finalizing Validation
+### Finaliser la validation
 
-Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
+Une fois la validation terminée (pour une tâche ou plusieurs), retournez sur le Gestionnaire de Tâches et sélectionnez l'un des trois choix pour décrire la cartographie de la tâche :
 
-- Stop Validating - If you could not complete the validation process but must stop validating.
-- Mark (all) as Valid - If the mapping is complete and accurate
-- Mark (all) as Invalid - If the mapping is not complete or inaccurate.
+- « Terminer la validation », si vous ne pouvez pas compléter le processus de validation mais que vous devez vous arrêter.
+- « Marquer tout comme valide », si la cartographie est complète et précise.
+- « Marquer tout comme invalide », si la cartographie n'est pas complète ou imprécise.
 
-For the last two choices the validator can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping. Please be considerate before marking a task as invalid. If just a few bits are missing add them yourself, explain what was missing in your comment but nevertheless mark the task as valid. New mappers will consider their completed task marked as invalid as a fairly harsh comment.
+Pour les deux derniers choix, le validateur peut (et devrait) laisser un commentaire amical et encourageant adressé au(x) cartographe(s) concernés, les remercier de leur contributions et leur fournir un retour sur leur travail. Merci d'être bienveillant avant de marquer une tâche comme invalide. S'il manque juste quelques petites informations, ajoutez-les vous-même, expliquez ce qui manquait dans votre commentaire, mais marquez tout de même la tâche comme valide. Les nouveaux cartographes considèreront que marquer leurs tâches comme invalides est un commentaire assez sévère.
 
 
 
