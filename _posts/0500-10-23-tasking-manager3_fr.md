@@ -280,58 +280,58 @@ Par exemple :
     de maisons dans le coin en haut à gauche de la zone de la tâche.  
     J'en ai ajouté quelques-unes, mais il en reste encore.  
 
-This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
+Ceci est particulièrement utile lors de la validation, ou pour faire des ajouts au travail de quelqu'un d'autre : vous pouvez faire des retours, émettre des remerciements, ou autre.  
 
-+ You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
-
-
-#### Referring to a particular task when sending an email  
-
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
-
-1. Click on the task square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-    - either, mouse right click & paste,  
-    - or shortcut keys **Ctrl+V**, to paste the link into the message. 
++ Vous pouvez fournir un lien vers un site qui peut aider le cartographe, comme  par exemple <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ Gardez à l'esprit que les gens qui participent proviennent du monde entier, donc privilégiez un langage simple et clair. Si vous rencontrez des commentaires dans d'autres langues, des outils comme Google Translate peuvent être utiles.
 
 
-## Getting help 
+#### Faire référence à une tâche particulière dans un e-mail  
 
-### Live text based help
+Si vous avez besoin d'envoyer un message (e-mail, IRC...) concernant une tâche précise dans un projet (par exemple pour avoir de l'aide pour identifier quelque chose sur l'imagerie satellite) :  
 
-From the Learn page of the Tasking Manager:  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
+1. Cliquez sur la zone de la tâche concernée  
+2. Cliquez dans la barre d'adresse de votre navigateur Web, qui devrait afficher quelque chose de similaire à « http://tasks.hotosm.org/project/713?task=259 »  
+3. Sélectionner avec votre souris tout le texte de la barre d'adresse, ou utilisez le raccourci clavier **Ctrl+A**, puis utilisez le raccourci **Ctrl+C** pour copier le texte  
+4. Dans votre e-mail, message IRC, ou tout autre message,  
+    - soit faites un clic droit et « coller » ;  
+    - soit utilisez le raccourci clavier **Ctrl+V**, pour coller le lien dans le message. 
 
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
 
-### Leaving a Project question / comment / contacting the Project creator
+## Obtenir de l'aide 
 
-Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
+### Aide textuelle en-direct
 
-All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
+À partir de la page « Apprendre » du Gestionnaire de Tâches :  
+1. Cliquez sur **Canal IRC OSM HOT #hot**  
+2. Saisissez un nom d'utilisateur (par exemple votre nom d'utilisateur OSM), ou utilise les caractères prédéfinis  
+3. En bas de la liste déroulante, sélectionnez **hot**  
+
+- À droite de l'écran figure une liste des utilisateurs actuellement en ligne.  
+- Tapez votre message dans le champ en bas à gauche de l'écran (il est parfois temporairement caché par d'autres textes, mais ils disparaîtront lorsque vous cliquerez dans le champ).  
+- Pour adresser un message à une personne en particulier, insérez dans votre message son nom d'utilisateur à partir de la liste à droite. La discussion est « en direct », donc attendez la réponse. Votre nom d'utilisateur sera probablement contenu dans la réponse pour vous indiquer que le message vous est destiné. Vous devriez recevoir une réponse en quelques secondes, patientez un peu...  
+- Un système alternatif et simple est disponible sur [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
+- Plus d'informations sur l'utilisation d'IRC dans OpenStreetMap, ainsi que le nom des salons de discussion francophones, sont disponibles sur la page [IRC du Wiki OSM](https://wiki.openstreetmap.org/wiki/FR:IRC)  
+- Vous pouvez aussi utiliser le client IRC de votre choix (serveur=irc.oftc.net, et canal=#hot)  
+
+### Adresser une question / commentaire au projet, ou contacter le créateur du projet
+
+Sur l'onglet « Commentaires » du projet, vous pouvez voir les commentaires et les questions des autres utilisateurs, et envoyer les vôtres. Vous pouvez aussi cliquer sur le lien « Contacter le gestionnaire du projet » pour automatiquement adresser votre commentaire/question au gestionnaire du projet. 
+
+Tous les commentaires sont publics, et ce n'est pas une discussion instantanée. Utilisez plutôt l'option IRC (ci-dessus) pour une discussion en direct.
 
 ![TM comments][]
 
 
-## Editing hints and tips  
+## Trucs et astuces pour l'édition  
 
-By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
+Vous avez maintenant une bonne vue d'ensemble du Gestionnaire de Tâches, et des différentes fonctionnalités qu'il offre. Contrairement à l'édition habituelle, cet outil est souvent utilisé pour les projets urgents avec beaucoup de participants ; cela peut être un peu différent de vos habitudes.  
 
-Some general advice to heed when working in this tool:  
+Quelques conseils généraux à prendre en compte lorsqu'on travaille avec cet outil :  
 
-* Avoid mapping far outside of your task square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediately after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
-* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
+* Évitez de faire des modifications loin à l'extérieur de la zone de votre tâche : d'autres cartographes peuvent être en train de travailler dans cette zone, ce qui signifie que le travail est dupliqué. Il est normal de cartographie des bâtiments qui sont traversés par une limite de zone, mais évitez d'aller au-delà. Sauvegardez immédiatement après avoir cartographié quelque chose sur la limite de la zone.  
+* Prolongez les routes, les cours d'eaux et les autres éléments légèrement au-delà de la limite de la zone, pour permettre au prochain cartographe de continuer là où vous avez terminé. Mais sauvegardez dès que vous avez fini de les modifier.  
+* Si vous avez un doute sur ce qu'est un élément précis, utilisez la section « commentaires » pour poser vos questions, ou vérifiez sur le wiki.  
 * If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
 * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
 * You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  

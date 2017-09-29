@@ -73,7 +73,7 @@ Nel momento in cui hai finito di mappare quella piccola area, lo registri nel Ge
 
 Il Gestore attività (tasking manager) è uno strumento seperato per coordinare le attività di mapping in OpenStreetMap e di cui sfrutta il sistema di login. Questo significa che non è necessario creare una account separato per usare il Gestore attività, ma è invece necessario creare un account su OpenStreetMap ed effettuare lì un login prima di poter usare il Gestore attività per mappare.
 
-Quando visiti per la prima volta il Gestore attività vedrai un bottone "Login" nell'angolo in alto a destra dello schermo.
+Quando visiti per la prima volta il Gestore attività vedrai un pulsante "Login" nell'angolo in alto a destra dello schermo.
 
 ![TM login 1][]
 
