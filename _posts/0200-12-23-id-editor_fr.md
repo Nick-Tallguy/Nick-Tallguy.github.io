@@ -88,13 +88,13 @@ Un « point » créé dans l'éditeur iD est en fait un « nœud » indépendant
 
 ### Dessiner des Lignes  
 
-Pour ajouter une nouvelle ligne, cliquer sur le bouton **Line**. ![image4][]{: height="24px"}  
+Pour ajouter une nouvelle ligne, cliquer sur le bouton **Ligne**. ![image4][]{: height="24px"}  
 
 - Le curseur de votre souris se change en un signe plus (+). Trouvez une route qui n'a pas été dessinée sur la carte et tracez-là. Cliquez sur un point où le segment de route commence, déplacez votre souris, puis cliquez pour ajouter des points supplémentaires. Double-cliquez pour terminer l'action de dessin. Notez le panneau sur la gauche.  
 ![image24][]  
 - Comme pour un point, sélectionnez les attributs appropriés pour votre ligne.  
 - Vous pouvez déplacer des points de la ligne en faisant un clic gauche sur un point et en le glissant.  
-- Vous pouvez aussi déplacer toute la ligne en la sélectionnant, puis en choisissant l'outil **Move**. Puis glissez la ligne vers une nouvelle position. ![image30][]{: height="24px"}  
+- Vous pouvez aussi déplacer toute la ligne en la sélectionnant, puis en choisissant l'outil **Déplacer**. Puis glissez la ligne vers une nouvelle position. ![image30][]{: height="24px"}  
 - Quand vous faites un clic gauche sur un point individuel (nœud) sur la ligne, vous pouvez voir ces outils :  
 - Supprimer le point de la ligne. ![image23][]{: height="24px"}  
 - Déconnecter le point de la ligne. ![image26][]{: height="24px"}  
@@ -112,7 +112,7 @@ Une « ligne » créée dans l'éditeur iD est en fait un « chemin » (« way �
 
 ### Dessiner des Formes (Polygones)
 
-Pour ajouter une nouvelle forme à plusieurs côtés (polygone), cliquez sur le bouton **Area**. ![image34][]{: height="24px"}  
+Pour ajouter une nouvelle forme à plusieurs côtés (polygone), cliquez sur le bouton **Polygone**. ![image34][]{: height="24px"}  
 
 - Le curseur de votre souris se changera en un signe plus (+). Essayez de tracer un bâtiment en vous basant sur l'imagerie satellite.  
 - Vous pouvez remarquer que la couleur de votre polygone change en fonction des attributs que vous lui assignez.  
@@ -124,10 +124,10 @@ Un « polygone » dans l'éditeur iD est en fait un « chemin fermé » (qui fai
 Sauvegarder vos modifications
 -----------------------------
 
-Quand (et si) vous voulez sauvegarder vos modifications dans OpenStreetMap, cliquez sur le bouton **Save**. Le panneau de gauche affichera le panneau de sauvegarde.  
+Quand (et si) vous voulez sauvegarder vos modifications dans OpenStreetMap, cliquez sur le bouton **Sauvegarder**. Le panneau de gauche affichera le panneau de sauvegarde.  
 ![image36][]  
 
-- Écrivez un commentaire qui décrit vos modifications, puis cliquez sur **Save**.  
+- Écrivez un commentaire qui décrit vos modifications, puis cliquez sur **Envoyer**.  
 
 > Si vous avez modifié le même élément cartographique (point, chemin ou polygone) en même temps qu'une autre personne, un avertissement s'affichera, indiquant que vos modifications ne peuvent pas être sauvegardée tant que vous n'avez pas résolu les **conflits** - choisissez quelles modifications il faut garder, puis sauvegardez vos modifications. *Pour résoudre un conflit, il faut souvent accepter les modifications de l'autre personne. Dans ce cas, vous aurez sûrement intérêt à retourner sur l'élément en question pour refaire vos modifications (**cette fois, sauvegarder rapidement après vos modifications, pour éviter un nouveau conflit !**).*
 
