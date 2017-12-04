@@ -46,17 +46,17 @@ Navegar no Mapa
     Se não tiver roda do rato, use os botões +
     e - no canto superior direito do mapa. (ver imagem
     abaixo)
--   To search for a place, left-click in the box labelled “Search” on
-    the left side of the page (see figure above). Type in the name of
-    your town or village and press Enter. A window should appear to the
-    left of the map with the results of your search. Click on the
-    location that looks like the one you want. The map will
-    automatically move to the location you chose.
+-   Para pesquisar por um local, clique com o botão esquerdo do rato no campo “Pesquisar” no
+    lado esquerdo da página (ver imagem acima). Digite o nome do
+    do local a pesquisar e carregue na tecla Enter. Irá aparecer um painel
+    do lado esquerdo do mapa com os resultados da pesquisa. Clique na
+    localização que pareça a que está à procura. O mapa
+    será deslocado automaticamente para a localização que escolheu.
 
     ![Search][]
    
 
-View Different Map Styles
+Ver Estilos de Mapas Diferentes
 ------------------------
 
 OpenStreetMap contains geographic data from all over the world. Although

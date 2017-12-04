@@ -2,19 +2,19 @@
 layout: doc
 permalink: /ru/beginner/
 lang: ru
-title: Beginner's guide
+title: Руководство для начинающих
 category: beginner
 cover: yes
 nosearch: true
 ---
 
-Beginner's Guide
+Руководство для начинающих
 ================
 
 
-This guide shows step by step how to get started with OpenStreetMap. You will learn
-how to set up an account, how to use basic map editing software, and in later chapters you can learn how to go outside
-and collect information to put on the map. The coordination chapters contain information about [HOT Remote Mapping](/en/coordination/) 
+Это руководство показывает шаг за шагом, как начать работу с OpenStreetMap. Вы узнаете
+как создать аккаунт и как использовать базовый редактор карт.  А из более поздних глав
+вы научитесь собирать информацию на местности и наносить ее на карту. Главы о координации содержат сведения о проекте [удаленного картирования HOT](/ru/coordination/) 
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
-> Reviewed 2015-07-12  
+> Это руководство можно скачать в формате [beginner_ru.odt](/files/beginner_ru.odt) или [beginner_ru.pdf](/files/beginner_ru.pdf)  
+> Изменено 12-07-2015  

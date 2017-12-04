@@ -2,13 +2,13 @@
 layout: doc
 permalink: /vi/mobile-mapping/
 lang: vi
-title: Mapping with a SmartPhone, GPS or Paper
+title: Lập bản đồ với điện thoại thông minh, GPS và bản đồ hiện trường
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Lập bản đồ với điện thoại thông minh, GPS và bản đồ giấy.
+Lập bản đồ với điện thoại thông minh, GPS và bản đồ hiện trường
 =============================
 
 > Hướng dẫn này có thể tại tại đây [mobile-mapping_vi.odt](/files/mobile-mapping_vi.odt) or [mobile-mapping_vi.pdf](/files/mobile-mapping_vi.pdf)  

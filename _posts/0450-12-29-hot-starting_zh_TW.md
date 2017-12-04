@@ -21,16 +21,16 @@ category: hot-tips
 
 > 此圖像 ![keymon]{: height="24px"} 會顯示您使用了滑鼠上的哪些按鈕或滾輪，以及按下了哪些鍵盤按鈕。  
 
-1. Go to a Tasking Manager (TM) site, for example <http://tasks.hotosm.org/>. Using your <http://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
-2.  Start on a project designed for new mappers - these are often 'buildings only' projects.  
-3.  Read the **Description** and **Instructions** and make sure you understand what is needed before you start. 
-4.  The mapping is checked by 'validators' who often send messages giving valuable feedback on your contributions.  
+1. 到任務分配管理器網站，像是 <http://tasks.hotosm.org/>。使用你的 <http://www.openstreetmap.org> 帳號登入，授權任務分配管理器連結開放街圖帳號。  
+2. 從設計給新圖客的專案開始動手－通常是'只有建築'的專案。  
+3. 閱讀**描述**和**說明**，先搞清礎你確實理解再開始動手。 
+4. 畫圖行動由'覆核者'覆核，並且經常會寄訊息給予你關於你貢獻部分的寶貴意見。  
 ![TM-start-at-top]{: height="100px"}  
-**Tip -** Many validators start working at the top of the map and work down - you are more likely to get valuable feedback at an early stage if you use the map & select a square as close to the top as you can. (The yellow squares have been marked as complete, and the green ones have been marked as complete and then validated). Click on a white or pale grey square - more info at [Guide to the Tasking Manager](/en/coordination/tasking-manager/).  
-5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
-6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
-4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
-5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+**小技巧-**很多覆核者的工作順序會從地圖上半部到下半部-你最有可能選擇靠近上半部的方框，在早期階段得到寶貴的意見。(黃色方框指標示為完成，而綠色方框則是完而且覆核完成。)點選白色或是灰色的方框-更多資訊可看[任務分配管理器指南](/zh_TW/coordination/tasking-manager/)  
+5. 開始畫地圖 - 你也許需要閱讀更多 HOT 小技巧的章節。HOT 小技巧 [圓形房屋](/zh_TW/hot-tips/tracing-round-buildings/) 或是[有方角的建築](/zh_TW/hot-tips/tracing-rectangular-buildings/) 也許會幫助你。  
+6. 經常儲存 - 請見 [HOT 小技巧 - 儲存](/zh_TW/hot-tips/saving/)  
+4. 有耐心 - 有時候缺失覆核人員，而很多新手圖客等待回饋意見！繼續畫地圖，但當你發現你犯了錯 (我們都會犯錯！)，看看你能否解決，或是尋求協助。  
+5. 如果你需要辨別你剛工作的方框，寄訊息或是取得即時協助，請到 [任務分配管理系統章節](/zh_TW/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
 
 另見  
 ---------

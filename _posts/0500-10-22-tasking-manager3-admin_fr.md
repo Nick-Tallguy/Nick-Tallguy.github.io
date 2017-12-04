@@ -1,0 +1,277 @@
+---
+layout: doc
+title: Gestionnaire de Tâches 3 Création de Projet
+permalink: /en/coordination/tasking-manager3-project-admin/
+lang : fr
+category: coordination 
+---
+
+title: Gestionnaire de Tâches Version 3 Création et Administration de Projet
+
+> Ce guide peut être téléchargé en tant que module autonome: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) ou  [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
+
+**Ce guide décrit la version actuelle du gestionnaire de tâches. Si l'interface utilisateur de la version que vous utilisez semble différente de celle décrite ici, alors vous devriez consulter [le manuel de la version précédente](/en/coordination/tasking-manager-project-admin)**
+
+Table des matières
+-------------
+-  [Connexion](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [Initier un nouveau projet - définir la zone d'intérêt](/fr/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [Création de tâche - subdiviser la zone d'intérêt](/fr/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [Créer le projet - Précisez ce que vos utilisateurs doivent savoir](/fr/coordination/tasking-manager3-project-admin/#create-the-project)
+    -  [Description - la première chose que les utilisateurs apprennent sur votre projet](/fr/coordination/tasking-manager3-project-admin/#description)
+    -  [Instructions - ce que les utilisateurs devraient faire](/fr/coordination/tasking-manager3-project-admin/#instructions)
+    -  [Métadonnées - le projet appartient à quoi ](/fr/coordination/tasking-manager3-project-admin/#metadata)
+    -  [Zones prioritaires - où les utilisateurs devraient commencer à cartographier](/fr/coordination/tasking-manager3-project-admin/#priority-areas)
+    -  [Imagerie - les basiques de la cartographie](/fr/coordination/tasking-manager3-project-admin/#imagery)
+    -  [Autorisations - qui est autorisé à cartographier ou à valider ](/fr/coordination/tasking-manager3-project-admin/#permissions)
+    -  [Conseils utiles - comment remplir tous ces champs](/fr/coordination/tasking-manager3-project-admin/#instruction-notes)
+    -  [Publier - à ne pas oublier sinon aucun travail ne sera fait](/fr/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+
+Le gestionnaire de tâches OpenStreetMap est essentiel pour effectuer un mapathon, gérer une activation HOT ou créer des tâches de zones à cartographier pour les mappeurs débutants. Le Gestionnaire de tâches divise le travail en blocs géographiques gérables, ce qui réduit les conflits d'édition, en particulier avec un grand nombre de mappeurs distribués. Le gestionnaire de tâches permet également de cartographier avec une précision et une qualité des données en fournissant un ensemble cohérent d'instructions à vos cartographes (par exemple, «cartographier toutes les routes et tous les bâtiments»). Bref, le gestionnaire de tâches vous permet de configurer et de diriger le flux de travail pour les activités de cartographie ouverte. Ce module décrit l'administration de base du Gestionnaire de tâches OSM pour les événements de cartographie réussies.  
+
+ Ce guide est spécialement conçu pour les personnes qui ont besoin d'instructions sur l'administration du gestionnaire de tâches OSM, y compris la création et la modification de projets de tâches pour les événements de cartographie ouverte, c'est-à-dire 'mapathons'. Ce guide s'applique spécifiquement aux instances de OSM Tasking Manager version 3, y compris les  [HOT Tasking Manager](http://tasks.hotosm.org) et le [TeachOSM Tasking Manager](http://tasks.teachosm.org).
+
+La version 3 du gestionnaire de tâches HOT ou OSM est souvent appelée ** TM3, ** en tant que raccourci pour le gestionnaire de tâches, version 3.
+
+## Connexion et niveaux d'accès
+
+La première chose à comprendre est le niveau d'accès. Tout accès à TM3 est autorisé via le [site Web OpenStreetMap] (https://www.openstreetmap.org). Pour accéder à TM3, vous aurez besoin d'un compte OpenStreetMap (OSM). Une fois que vous avez ce compte, visitez [le gestionnaire de tâches] (http://tasks.hotosm.org) et cliquez sur ** Connexion à OpenStreetMap **, qui vous renverra à la page OSM où vous pouvez autoriser le gestionnaire de tâches à avoir accès limité à votre compte OSM. 
+
+### Niveaux d'accès dans le gestionnaire de tâches OSM
+
+Le gestionnaire de tâches OSM a trois niveaux d'accès utilisateur:
+- ** Utilisateur ** - Le niveau le plus basique. L'utilisateur peut se connecter à TM3 et utiliser ses fonctionnalités pour trouver et sélectionner un projet de cartographie et y travailler. Ce niveau d'utilisation est décrit en détail dans [Le guide OSM Tasking Manager dans LearnOSM] (/fr/coordination/tasking-manager-3/). Notez que certains projets, tels que ceux dans l'état brouillon (c'est-à-dire non publié) ne sont pas visibles pour les utilisateurs.  
+- ** Chef de projet ** - Les chefs de projet ont accès à la création et à la mise à jour de projets au sein de TM3.  
+- ** Administrateur ** - Les administrateurs ont un accès leur permettant de gérer les niveaux d'accès des utilisateurs au sein de TM3.
+
+Vous aurez besoin du niveau d'accès Chef de projet pour créer de nouveaux projets en utilisant TM3.
+
+## Initier un nouveau projet dans TM3 
+
+![TM New][]
+
+Cliquez sur votre nom d'utilisateur dans le coin supérieur droit, puis sur ** Créer un nouveau projet. ** Vous pouvez ensuite choisir entre dessiner votre zone d'intérêt (AoI) sur la carte ou importer une zone d'intérêt à partir d'un fichier geojson;  
+
+> L'importation d'un fichier avec une zone définie est toujours préférable au dessin à la main d'un projet Tasking Manager. Des outils tels que JOSM, QGIS, etc. peuvent être utilisés pour créer des fichiers à importer dans le gestionnaire de tâches. Le workflow suggéré consiste à créer un fichier .osm de la zone d'intérêt en utilisant JOSM, puis à utiliser http://geojson.io/ pour générer un GeoJSON.
+
+### Dessine une zone d'intérêt à cartographier
+
+1. Cliquez sur le bouton "Dessiner" dans le coin supérieur droit.
+2. Pour dessiner un polygone représentant la zone d'intérêt à cartographier dans le cadre de la carte, maintenez le bouton droit de la souris enfoncé pour déplacer la carte sans cliquer, ce qui ajoutera un nœud. Le polygone doit encadrer étroitement la zone d'intérêt. Cela économise du temps pour remplir des tuiles qui ne présentent pas d'intérêt (c'est-à-dire océan, forêt)  
+3. Cliquez sur votre point de départ pour compléter le polygone  
+4. Après avoir complété un polygone, vous pouvez déplacer les nœuds ou en ajouter de nouveaux pour obtenir la zone exactement comme vous le souhaitez.
+
+ou
+
+### Télécharger un fichier GeoJSON ou KML de la zone d'intérêt à cartographier  
+
+1. Cliquez sur le bouton "Importer",  
+2. Naviguez jusqu'à votre fichier à télécharger dans la fenêtre de fichier,  
+3. Cliquez sur le nom du fichier pour mettre le fichier en surbrillance, puis cliquez sur "Ouvrir".  
+4. Les zones d'intérêt importées ne peuvent pas être modifiées.
+
+
+## Création de tâche
+
+Une zone d’intérêt à cartographier pour un projet est la grande zone globale à cartographier. Cette zone est ensuite divisée en zones plus petites appelées tâches. 
+
+La zone d’intérêt à cartographier définie par le téléchargement de fichier ou dessiné à la main apparaîtra dans le cadre de la carte, et il vous sera alors demandé de choisir comment cette zone sera diviser en tâches individuelles. Il y a deux options:  
+
+1. Grille carrée - Le gestionnaire de tâches divisera uniformément la zone globale du projet en de carrés de tâches uniformes. C'est généralement une très bonne idée pour les projets généraux de crowdmapping.
+2. Géométries arbitraires - Si vous avez téléchargé un fichier pour définir votre zone de projet, ce fichier peut également contenir les formes pour la tâche individuelle. Il doit y avoir un besoin particulier dans la cartographie pour créer des formes de tâches personnalisées. Un projet d'importation de routes peut nécessiter des formes de tâches personnalisées ou la sortie d'un processus de réduction de la Zone d’intérêt à cartographie par exemple.
+
+### Utilisation de la grille carrée pour les carrés de tâches
+
+Pour créer une grille de carrés uniformes, sélectionnez l'option Quadrillage carré.  
+
+![TM Tile Sizes][]
+
+La zone d’intérêt à cartographier est automatiquement divisé en cellules de la grille et chaque cellule devient une tâche. Déterminez la taille optimale des carreaux en utilisant les boutons "Plus grand" et "Plus petit" pour ajuster la taille des carrés des tâches. En tant que tel, une taille de tuile plus petite se traduira par plus de tâches. La taille optimale des tuiles dépendra donc à la fois de la taille de la zone (créer des tuiles plus petites pour un grand projet) et du nombre de caractéristiques qui devront probablement être cartographié dans chaque tuile. En règle générale, à mesure que la taille de la zone d'intérêt et / ou le nombre de caractéristiques probables augmentent, la taille de la mosaïque choisie pour le projet devrait diminuer. 
+
+Veuillez noter qu' **il existe plusieurs couches de carte disponibles pour déterminer la taille de la case **. Le bouton dans le coin inférieur droit de la carte fournira votre liste d'options pour la couche de carte. Choisir l'une des couches d'imagerie est probablement la meilleure option car elle vous permet de voir l'image réelle à cartographier.
+
+Si vous avez des images personnalisées pour le projet, vous pouvez également le charger en utilisant le bouton en haut à droite de la carte et en mettant une URL TMS ou WMS.
+
+Vous pouvez également créer plusieurs tailles de tâches différentes en utilisant les outils "Diviser". Les carrés de tâches peuvent être divisés plusieurs fois. Encore une fois, l'utilisation d'une couche d'imagerie vous aidera à décider où les tâches doivent être divisées. Le bouton "Réinitialiser" réinitialisera toutes vos tâches divisées. L'option Diviser (Polygone) vous permet de dessiner un polygone sur une zone pour créer des tâches plus petites et le point de division (Diviser) vous permet de cliquer sur des carrés de tâches individuels à diviser. Le bouton Réinitialiser supprimera toute votre division personnalisée.
+
+> Généralement, vous aurez besoin de petites tuiles sur les zones de peuplement dense pour les bâtiments. L'objectif devrait être de créer des tâches de projet qui peuvent être achevées en 10-15 minutes.
+
+*** Considérations à prendre en compte avant de décider de la taille des carreaux ***
+
+- Un nouveau mappeur lors d'un mapathon cartographie une zone à environ un quart de la vitesse d'un mappeur expérimenté (beaucoup démarrent beaucoup plus lentement, mais deviennent rapidement plus rapides). 
+- Un nouveau mappeur trouve qu'il est difficile de rechercher des entités dans l'imagerie satellite comme elles le font pour les cartographier. Trouver des huttes rondes couvertes de chaume avec des matériaux naturels dans une zone de buissons ronds est une courbe d'apprentissage abrupte pour un «débutant».
+- Un nouveau contributeur trouve également difficile de retracer de nombreuses fonctionnalités telles que les bâtiments.
+- Plus tard dans le processus, vous avez la possibilité pour un mappeur de «diviser» un carré - diviser un carré en quarts aide les nouveaux mappeurs à obtenir une taille carrée avec laquelle ils peuvent composer.  
+-  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
+- Un carré peut être divisé, mais il n'y a pas d'option pour joindre les carrés ensemble pour les rendre plus grands encore. Alors soyez prudent lorsque vous divisez
+- ** Conclusion ** Essayez de cartographier une zone du projet vous-même pour voir à quel point c'est facile et quelles difficultés seront rencontrées. Cela devrait vous aider à décider d'une taille de carré optimale. Permettre la division, mais pas à l'infini - certains nouveaux cartographes divisent continuellement les carrés jusqu'à ce qu'ils soient si petits qu'il devient extrêmement difficile à cartographier.  
+
+Après avoir finalisé les tailles de tâches, cliquez sur "Suivant".
+
+### Géométries arbitraires
+
+Si vous avez téléchargé un fichier pour définir votre zone de projet, ce fichier peut également contenir des informations sur les formes exactes que vous souhaitez que les tâches individuelles de votre projet soient. Si la zone d’intérêt à cartographier est constituée d'un polygone, le projet n'aura qu'une seule tâche. Ce n'est généralement pas nécessaire et devrait seulement être nécessaire pour des besoins spécifiques.
+
+Les géométries arbitraires ne peuvent pas être divisées.
+
+### Zone du projet
+
+Après avoir déterminé la taille des tâches, vous aurez l'option de "découper" votre zone d’intérêt à cartographier. Vous pouvez soit découper la zone d’intérêt à cartographier selon la forme de polygone exacte que vous avez dessinée ou importée (suggérée), soit vous pouvez découper le carré de tâche le plus proche qui comprend votre zone d’intérêt à cartographier.
+
+Après la finalisation de la zone d'intérêt à cartographier, cliquez sur "Suivant".
+
+## Créer le projet
+
+Donnez un titre au projet (peut être édité sur l'écran suivant) et cliquez sur "Créer"
+
+This establishes the project in the Tasking Manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+
+Une fois le projet créé, vous devrez modifier tous les paramètres associés:
+
+- Description - Utilisé pour l'affichage dans les listes et les informations de motivation pour les mappeurs
+- Instructions - Instructions détaillées pour quoi et comment cartographier les objets / entités / caractéristiques nécessaires
+- Métadonnées - Informations supplémentaires utilisées pour catégoriser le projet. Souvent utilisé pour filtrer la liste complète des projets.
+- Imagerie - Place pour fournir une URL TMS et une licence requises.
+- Zones prioritaires - Vous permet de spécifier les parties du projet qui doivent être cartographiées  en premier.
+- Autorisations - Vous permet de restreindre l'accès au projet pour la cartographie et la validation.
+- Paramètres - Date d'échéance du projet et préréglages JOSM.
+- Actions - Envoyer des messages aux contributeurs, valider ou invalider l'ensemble du projet en un clic.
+
+### Description
+
+![TM Description][]
+
+Cette option vous permet de définir la priorité du projet, son statut comme brouillon, publié ou archivé, une courte description utilisée dans les listes de projets et la description longue disponible une fois qu'un contributeur a sélectionné le projet.
+
+Les descriptions courtes et longues doivent fournir des informations sur les raisons de l'existence du projet, sur l'utilisation des données et sur l'impact attendu de la cartographie. Ces champs prennent en charge la syntaxe de mise en forme Markdown et peuvent inclure des images et des vidéos.
+
+### Instructions
+
+![TM Instructions][]
+
+** Entités à mapper ** - Liste des entités/Objets que vous souhaitez que les utilisateurs cartographient. Généralement, moins il y a d'entités, mieux c'est, parce qu'elles sont plus susceptibles d'être complétées.
+
+> Les projets qui demandent de nombreuses entités à cartographier sont difficiles pour les cartographes et difficiles à valider. Ils prennent beaucoup plus de temps pour obtenir un bon jeu de données utilisable. Les tailles de tâches sont également difficiles à rendre efficaces pour différents types de cartographie, par exemple, les bâtiments ont besoin de petits carrés de tâches, les routes et les cours d'eau nécessitent des carrés de tâches plus grands. Faire plusieurs projets sur la même zone pour faire correspondre des bâtiments et des entités linéaires est une bonne pratique.
+
+** Commentaire du jeu de modifications ** - Il s'agit du commentaire de modification par défaut qui sera attaché à chaque téléchargement de données vers OSM. Il inclut généralement quelque chose qui identifie le gestionnaire de tâches sur lequel réside le projet et les fonctionnalités qui ont été mappées. Il est souvent utilisé pour les "hashtags" afin d'aider à identifier l'organisation demandant et / ou effectuant la cartographie. Il peut également décrire la cartographie en cours, par exemple, "Cartographie des bâtiments".
+
+> Les utilisateurs devraient être invités à remplir des commentaires significatifs sur ce qu'ils ont cartographié, mais les aider avec de bons commentaires par défaut est toujours une bonne idée.
+
+** Instructions détaillées ** - C'est là que la majorité de vos instructions détaillées seront placées et ce que nous attendons de chaque cartographe et validateur à lire attentivement et à suivre.
+
+Voir les notes ci-dessous sur la création de bonnes instructions.
+
+** Instructions par tâche ** - Elles seront affichées lorsqu'un mappeur sélectionne une tâche et dispose également d'une fonctionnalité spéciale qui permet de créer des URL spécifiques à une tâche en fonction des coordonnées x, y, z typiques de la «carte glissante».
+
+### Métadonnées
+
+![TM Metadata][]
+
+> Tous ces champs doivent être remplis et deviendront non-optionnels dans les futures versions de TM3.
+
+** Niveau du mappeur ** - Ceci est une indication de la difficulté du projet de cartographie. Il y a 3 options Débutant, Intermédiaire et Avancé. Ce paramètre est une indication pour le mappeur du niveau d'expérience qu'il devrait avoir pour réussir la cartographie du projet. Il peut être utilisé dans le filtrage des listes de projets et le niveau suggéré peut être requis dans la fenêtre autorisations.
+
+** Type de cartographie ** - Utilisé dans le filtrage des listes de projets et aide les mappeurs à trouver les projets qu'ils souhaitent cartographier.
+
+** Organisation ** - Vous permet de spécifier l'organisation qui utilisera les données cartographiées. Utilisé dans le filtrage de projet.
+
+**Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
+
+### Priority Areas
+
+![TM Priority Area][]
+
+Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+
+> During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
+
+### Imagery
+
+URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
+
+License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+
+### Permissions
+
+![TM Permissions][]
+
+Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
+
+Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
+
+Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
+
+### Settings
+
+Default Locale - Allows the setting of default instructions language for a project.
+
+### Actions
+
+![TM Actions][]
+
+Message All Contributors - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+
+Validate all Tasks - This will mark all tasks to "Green" validated status, with the exception of tasks that have been marked as "Bad Imagery"
+
+Invalidate all Tasks - This will mark all tasks to "Red" invalidated status, with the exception of tasks that have been marked as "Bad Imagery"
+
+Delete Project - This will permanently delete the project from the Tasking Manager.
+
+Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
+
+### Instruction Notes
+
+Please use plain language as your target audience may not consist of native English speakers.
+
+1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
+*#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
+2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
+3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
+4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
+5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
+
+
+### Considerations concerning Imagery
+
+In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+
+1. Bing does not provide high-resolution coverage for your AoI.
+2. Bing has considerable cloud cover in this area.
+3. You need newer imagery for post-disaster evaluation.
+
+If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+
+In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AoI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AoI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+
+If there is a constant offset between your imagery and Bing across the AoI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AoI or if existing data are aligned with various sources then it is time for plan B:
+
+The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+
+One possible strategy could include these steps:
+
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
+2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
+3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
+4. Add new features from the now correctly aligned alternative imagery.
+
+It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AoI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+
+Here are some suggested bits of information which you might include in the project instructions:
+
+- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+
+
+### Proofread and Publish
+Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
+If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+
+[TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
+[TM New]: /images/coordination/tm3_create_new.png
+[TM Description]: /images/coordination/tm3_description.png
+[TM Instructions]: /images/coordination/tm3_instructions.png
+[TM Metadata]: /images/coordination/tm3_metadata.png
+[TM Priority Area]: /images/coordination/tm3_priority_area.png
+[TM Permissions]: /images/coordination/tm3_permissions.png
+[TM Actions]: /images/coordination/tm3_actions.png

@@ -82,15 +82,15 @@ Para adicionar um novo ponto, clique no botão **Ponto**. ![image3][]{: height="
 ![image21][]  
 - Note que é adicionado um novo ponto. Ao mesmo tempo, o painel lateral direito mostrará botões e campos onde pode selecionar e configurar atributos do objeto. Clique em **Hospital** para marcar o ponto como hospital.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Pode usar os campos para preencher informações sobre o ponto. Pode introduzir o nome de um hospital, morada e outras informações adicionais. Note que cada um dos elementos terão opções diferentes dependendo da etiqueta que escolher no painel lateral.  
+- Se cometer um erro, como uma localização errada, pode mover o ponto para uma nova localização mantendo premido o botão esquerdo do rato no ponto e arrastando-o. Se quiser eliminar o ponto, clique com o botão esquerdo do rato e depois clique no botão do caixote do lixo. ![image23][]{: height="24px"}  
+Um "ponto" criado no editor iD é na verdade um "nó" isolado com uma série de "etiquetas" nele.  
 
 ### Desenhar Linhas  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- O cursor do seu mouse irá mudar para o botão de mais (+). Encontre uma via que não esteja desenhada no mapa e trace-a. Clique no ponto onde a via se inicia, mova o mouse e clique para adicionar pontos. Dê um duplo clique para finalizar o desenho da via. Observe o painel no lado esquerdo.  
 ![image24][]  
 - Just as with a point, select the appropriate tags for your line.  
 - You can drag points from the line by clicking your left mouse button on a point and dragging it.  

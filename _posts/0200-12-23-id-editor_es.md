@@ -64,7 +64,7 @@ también puede **cambiar la capa de fondo** en función del proveedor de tesela 
 You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
 ![image17][]   
 and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
+Para **mostrar las pistas de GPS desde su computadora** (formato GPX), arrastre y suelte el archivo GPX en el editor iD.  
 To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
 ![osm gps traces][]  
 If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
@@ -78,11 +78,11 @@ Edición básica con iD
 
 Para añadir un nuevo punto, haga clic en el botón **Punto**. ! [image3] [] {: height = "24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+El cursor del mouse cambiará a signo más (+). Ahora, haga clic en una posición que conozca para marcar una ubicación. Por ejemplo, si sabe que hay un hospital en su área, haga clic en la posición del edificio del hospital.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Tenga en cuenta que se agrega un nuevo punto. Al mismo tiempo, el panel izquierdo cambiará para mostrar un formulario donde puede seleccionar atributos para el objeto. Haga clic en **Terreno de Hospital** para etiquetar el punto como un hospital.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
+- Puede usar los formularios para completar información detallada sobre su punto. Puede completar el nombre, la dirección y/o otra información adicional del hospital. Tenga en cuenta que cada característica tendrá diferentes opciones, dependiendo de qué etiqueta elija en el panel de funciones.  
 Si comete un error, como por ejemplo una ubicación incorrecta, puede mover su punto a una nueva ubicación haciendo clic con el botón izquierdo del ratón sobre el punto y arrastrándolo. O, si desea eliminar su punto, haga clic con el botón izquierdo sobre el punto y luego haga clic en el botón que se ve como una papelera.  
 Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asociado a un conjunto de "etiquetas".  
 
@@ -90,10 +90,10 @@ Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asocia
 
 To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- El cursor del mouse cambiará a signo más (+). Busca un camino que no se dibujó en el mapa y hazlo. Haga clic una vez en un punto donde comienza el segmento de carretera, mueva el mouse y haga clic para agregar puntos adicionales. Haga doble clic para finalizar el proceso de dibujo. Observe el panel de la izquierda.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
+- Al igual que con un punto, seleccione las etiquetas apropiadas para su línea.  
+- Puede arrastrar puntos desde la línea haciendo clic con el botón izquierdo del mouse en un punto y arrastrándolo.  
 - You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
 - When you click your left mouse button on an individual point (node) on the line, you will see these tools:  
 - Delete point from line. ![image23][]{: height="24px"}  

@@ -19,9 +19,9 @@ Seksione të tjera të learnOSM
 
 Në fund të kapitullit në iD editor ju mësuat për diferencën midis iD dhe JOSM. Është një [seksion i tërë kushtuar JOSM](/sq/josm/) ku ju do të mësoni të gjitha detajet e nevojshme në mënyrë që të përfitoni nga mundësitë që ky editor ofron.  
 
-So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
+Deri tani, të gjithë edimiet që shtuam në hartë u bazuan në imazherinë në sfond. Por ju mund të grumbulloni shumë infomacione të vlefshme gjatë kohës që ecni apo lëvizni me makinë. Skesioni në [mobile mapping](/en/mobile-mapping/) shpejgon se si të grumbulloni informacione nëpërmjet pajisjeve të ndryshme GPS ose printime të posaçme. Ai gjithashtu rishikon numrin e aplikacioneve të lidhura me OpenStreetMap për pajisjet mobile.  
 
-OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
+OpenStreetMap është një përpjekje  bashkëpunues dhe shpresojmë se dhe ju do të jeni pjesë e tij.  Disa nga këto përpjekje i janë përkushtuar ndihmës humanitare në kujdesin e [Humanitarian OSM Team](http://hotosm.org). Nëse doni të ndihmoni HOT në rastet e katastrofave si tërmeti në Nepal ju lutem shikoni [sesionin në koordinim](/sq/coordination/). Ai meeret me mjetet të cilat sigurojnë se kontribuesit mund të punojnë së bashku në një hapvsirë relativisht të vogël në mënyrë konsistente. Sesioni gjithashtu përmban udhëzime në disa raste tipike që do ndesheni zakonisht kur i bashkoheni këtyre përpjekjeve.  
 
 
 Për më tepër
@@ -33,12 +33,12 @@ Ka shumë informacion rreth OpenStreetMap në [wiki.openstreetmap.org](http://wi
 
 <!-- gjithashtu më shumë informacion në këtë faqe sapo të përgatitet -->
 
-Mailing List
+Lista e postimeve
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
+Mënyra më e mirë për t'u lidhur me komunitetin e përdoruesve të OpenStreetMap është duke ju bashkuar listës së postimeve lokale (mailing list). Shumë individë regjistrohen duke përdorur llogarinë e tyre të email-it në listën e postimeve të OSM. Sapo të bëheni pjesë e listës, ju mund të dërgoni një email në grup nëse keni pyetje apo doni të flisni rreth OpenStreetMap  
 
-To sign up for your country's mailing list, open your internet browser and go to [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
+Për tu regjistruar në listën e postimeve të shtetit tuaj, hapni shfletuesin tuaj të internetin dhe shkoni në [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
 ![Mailing list][]
 
@@ -50,7 +50,7 @@ Klikoni mbi listën ku doni të përfshiheni
     + emrin tuaj  
     + një fjalëkalim të ri  
     + rishkruajeni fjalëkalimin   
-- When you are finished, click Subscribe.
+- Kur të përfundoni, klikoni Subscribe.
 - Now you need to open your email, just as you did when you signed up for OpenStreetMap. There will be a confirmation email in your inbox from the mailing list.  
 - Klikoni mbi link e vërtetimit  
 - You should now be a member of the mailing list.  

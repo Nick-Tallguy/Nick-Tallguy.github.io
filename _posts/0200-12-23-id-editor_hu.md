@@ -1,80 +1,80 @@
 ---
 layout: doc
-title: iD Editor
+title: iD szerkesztő
 permalink: /hu/beginner/id-editor/
 lang: hu
 category: beginner
 ---
 
-The iD Editor
+Az iD szerkesztő
 =============
 
-> This guide may be downloaded as [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) or [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
-> Reviewed 2016-03-30  
+> Ez az útmutató letölthető: [beginner_id-editor_hu.odt](/files/beginner_id-editor_hu.odt) or [beginner_id-editor_hu.pdf](/files/beginner_id-editor_hu.pdf)  
+> Átnézve: 2016-03-30  
 
 - TOC
 {:toc}
 
-The iD editor is the de facto, browser-based OpenStreetMap editor. iD is fast and easy to use, and  allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary.  
+Az iD szerkesztő a tulajdonképpeni böngészőből induló OpenStreetMap-szerkesztő. Gyors és könnyen kezelhető, lehetővé teszi a különböző adatforrásokból – például légifelvételek, GPS-adatok, Field Papers nyomtatott térképek vagy Mapillary – történő térképezést.  
 
-The iD editor is a great way to edit for small and easy changes that don't require the advanced features of JOSM (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD.  
+Az iD szerkesztővel remekül végezhetünk kicsi és könnyű szerkesztéseket, amelyeknél nincs szükség a JOSM (vagy egy fejlettebb térképszerkesztő) haladó funkcióira. Ez a fejezet az iD-vel történő szerkesztés alapjait mutatja be.  
 
-Starting the iD Editor
+Az iD szerkesztő elindítása
 ----------------------
 
--	The iD editor requires an active connection to the Internet.  
--	Open your Internet browser, and go to the OpenStreetMap website at [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Login** using your OpenStreetMap account  
--	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area.  
--	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**.  
+-	Az iD szerkesztőhöz aktív (online) internetkapcsolat szükséges.  
+-	Nyissa meg az internetböngészőt és menjen az OpenStreetMap weboldalára: [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Lépjen be** az OpenStreetMap-fiókjával.  
+-	Húzza és nagyítsa a térképet a szerkeszteni kívánt helyre. Húzni úgy tudja, hogy a bal egérgomb lenyomva tartása mellett mozgatja a térképet.  
+-	Kattintson a **Szerkesztés** melletti ki nyílra, majd erre: **Szerkesztés a következővel: iD (böngészőben futó szerkesztő)**.  
 
 ![image1][]
 
 
-iD Editor User Interface
+Az iD szerkesztő felhasználói felülete
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** This panel shows tags from the object selected on the map.  
-	You can add or edit tags from this panel.  
-2. **Tools:** This panel shows basic editing tools:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="24px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+1. **Elem szerkesztése**: ezen a panelen jelennek meg a térképen kijelölt objektum címkéi.  
+	Itt lehet címkéket hozzáadni vagy szerkeszteni.  
+2. **Eszközök**: itt vannak az alapvető szerkesztőeszközök:  
+    Pont (node) rajzolása; *billentyűparancs*: **1** ![image3][]{: height="24px"}  
+    Vonal (way) rajzolása; *billentyűparancs*: **2** ![image4][]{: height="24px"}  
+    Alakzat (polygon) rajzolása; *billentyűparancs*: **3** ![image5][]{: height="24px"}  
+    Visszavonás; *billentyűparancs* **Ctrl+z** ![image6][]{: height="24px"}  
+    Mégis; *billentyűparancs*: **Ctrl+y** ![image7][]{: height="24px"}  
+    Módosítások mentése; *billentyűparancs* **Ctrl+s** ![image8][]{: height="24px"}  
+3. **Térkép**: ez a panel különböző beállítási funkciókat tartalmaz:  
+    Nagyítás; *billentyűparancs* **+** ![image9][]{: height="24px"}  
+    Kicsinyítés; *billentyűparancs* **–** ![image10][]{: height="24px"}  
+    Pozícióm megjelenítése ![image11][]{: height="24px"}  
+    Háttérréteg beállításai; *billentyűparancs* **b** ![image12][]{: height="24px"}  
+    Térképadatok; *billentyűparancs* **f** ![Map Data][]{: height="24px"}  
+    Súgó; *billentyűparancs* **h** ![image13][]{: height="24px"}  
+4. **Információk**: Ez a panel különféle információkat jelenít meg, például a léptéket és azt, hogy mely felhasználók szerkesztették a területet.  
 
-Configuring the Background Layer
+A háttérréteg beállítása
 --------------------------------
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+Kattintson a **Háttérbeállítások** gombra vagy használja a **b** *billentyűparancsot*.![image14][]{: height="24px"}  
 ![image15][]  
-To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% ![image16][]{: height="24px"}  
-You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+A **fényerő** beállításához kattintson valamelyik négyzetre. A szintek: 100%, 75%, 50% és 25%. ![image16][]{: height="24px"}  
+A **háttérréteget meg is változtathatja**: válassza ki a kívánt képszolgáltatóját (az alapértelmezett réteg a Bing légi felvételei).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+Az **Egyéni**re kattintva saját térképmozaikokat is hozzáadhat. Ha például szeretne egy **Field Paper** [^fieldpaper] térképet hozzáadni, kattintson az **Egyéni**re, aztán a nagyító ikonra (keresés), és a következő ablak fog megnyílni:  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+Adja meg a **Field Paper pillanatkép URL**-jét, ami valami ilyesmi lesz: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+A **számítógépről származó GPS-nyomvonalak** (GPX-formátum) megjelenítéséhez egyszerűen húzza az egérrel a GPX-fájlt az iD szerkesztő felületére.  
+Az OpenStreetMapre feltöltöt nyomvonalak megjelenítéséhez kattintson a jelölőnégyzetre. Az alatta lévő térképen megjelennek a nyilvános GPS-nyomvonalak különböző színekkel, amelyek az utazás irányát jelölik.  
 ![osm gps traces][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
+Ha a [légi felvétel elcsúszott](/en/josm/aerial-imagery), akkor az **elcsúszás korrigálására** kattintva a helyére igazíthatja a légi felvételt. ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- A légi felvétel mozgatásához kattintson a navigációs gombokra. Az alapértelmezett pozícióhoz való visszatéréshez kattintson a Visszavonás gombra.  
 
-Basic Editing with iD  
+Alapvető szerkesztések az iD-vel  
 ----------------------  
 
-### Adding Points  
+### Pontok hozzáadása  
 
 To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
 

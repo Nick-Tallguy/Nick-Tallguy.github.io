@@ -1,71 +1,62 @@
 ---
 layout: doc
-title: Saving - changeset comment & Task Manager finishing a square - iD editor
-permalink: /vi/hot-tips/saving/
+title: Tracing round buildings - iD editor
+permalink: vin/hot-tips/tracing-round-buildings/
 lang: vi
 category: hot-tips
 ---
 
-Saving - changeset comment & Task Manager finishing a square - iD editor
+Vẽ các toà nhà tròn- iD editor
 ============
 
 - TOC
 {:toc}
 
-iD editor - saving
-------------------
+The Essentials
+----------
 
-### The Essentials of saving using the iD editor ###
+![Round Buildings][]  
 
-![saving][]
+> Hình ảnh này ![keymon]{: height="24px"} chỉ cho bạn thấy các nút và thao tác chuột cũng như các phím tắt trên bàn phím được sử dụng.  
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+Chú ý;  
 
-Click on the ![save-icon]{: height="24px"} icon, check what will be saved, add a changeset comment (hashtag?) and then click on the ![upload]{: height="24px"} icon to save your changes to OpenStreetMap.  
+- Đặt các điểm của bạn tại các góc tường chạm mặt đất - tối thiểu 3 điểm. Sử dụng công cụ để làm cho nó tròn.  
+- Hãy gắn thẻ cho đối tượng!  
+- Kích thước - *ước tính dân số dựa trên diện tích xây dựng tích lũy trong một khu vực nhất định*,  
+- Phóng đủ to để nhìn rõ các chi tiết - phóng to tới tỉ lệ 20 mét hoặc nhỏ hơn.  
+- **Tìm kiếm các toà nhà** - Lướt qua với tỉ lệ 50 mét và 80 mét. Theo dõi bóng râm và đường thẳng (quanh các tòa nhà khó tìm!)  
+- Các toà nhà, đường xá, sông, ranh giới **sử dụng đất=khu dân cư** hoặc các đối tượng khác không nên trùng nên nhau.  
+- Nếu bạn phạm sai lầm, hãy sử dụng nút ** Hoàn tác **![back arrow]{: height="26px"} để hoàn tác thay đổi cuối cùng của bạn  
+- Tất cả chúng ta đang nâng cấp bản đồ. Nếu người lập bản đồ trước bỏ qua các toà nhà hay vẽ sai, hay vẽ đúng lại và gửi một tin nhắn lịch sự cho họ.  
 
-### Saving or Uploading to OpenStreetMap - the details ###
+Nhận dạng
+---------------
 
-Save your work regularly. Perhaps after tracing 6 buildings. This is especially important at a mapathon when lots of people are all working on the same thing at the same time.  
+Các tòa nhà tròn thường được tìm thấy trong một khu liên hợp, và các tòa nhà có thể nằm trong các cụm, hoặc cách ly. Có thể khó thiết lập nếu bạn đang tìm kiếm một tòa nhà tròn hoặc một bụi cây hoặc đá. Các tòa nhà thường được tìm thấy gần một số phương tiện tiếp cận như đường dẫn hoặc lối đi, mặc dù điều này có thể khó nhìn thấy trên mặt đất. Thảm thực vật có thể bị mòn khi có nhiều người đi qua. Ở một số vùng trên thế giới, các tòa nhà có thể nằm trên vùng đất khô duy nhất, và có thể đi bằng thuyền trên sông hoặc hồ. Thường có một nguồn nước có thể nhìn thấy trong vòng 2 hoặc 3 cây số của bất kỳ nơi ở nào, nhưng ở nhiều nơi trên thế giới bạn không nhìn thấy nước, nhưng bạn thấy thực vật nhiều hơn để cho biết nó phải ở đó.  
 
-If you have been given a **#hashtag** to include in your work, the changeset comment shown in the image above is the place to put it. Also add a simple comment explaining what you have done at the end of the existing comments, for instance "**added a couple of buildings**".  
+Ở nhiều nơi trên thế giới, việc xây dựng một ngôi làng mới cách đó không xa, để lại những tòa nhà cũ bị tàn phá và rơi xuống - đôi khi chúng bị phá hủy bởi lửa. Tìm bóng để giúp bạn quyết định xem mình đang nhìn gì. Nếu tất cả những gì còn lại là một dấu tròn trên mặt đất, nó sẽ không có bóng tối. ** Nếu nghi ngờ thêm nó như một tòa nhà.**  
 
-For more information about changeset comments see <https://wiki.openstreetmap.org/wiki/Good_changeset_comments>  
+![bush-and-round-building][]  
+Hình ảnh này cho thấy cả một bụi cây và một tòa nhà tròn. Bóng tối có thể giúp bạn xác định xem bạn đang tìm kiếm một tòa nhà tròn, hoặc một bụi cây. Trong điều kiện khí hậu nóng, thường thấy các tòa nhà gần cây hoặc bụi cây sẽ cung cấp nơi trú ẩn và bóng mát. Các hướng dẫn cho nhiệm vụ cụ thể này bao gồm một [liên kết truy cập tới lịch sử](https://www.openstreetmap.org/user/IvanGayton/diary/38612) bởi người đã chụp ảnh các tòa nhà trong khu vực và đưa ra một sự miêu tả. Vui lòng dành thời gian để đọc thông tin này. Các tòa nhà tròn có thể có vật liệu xây dựng hơi khác nhau ở các khu vực khác trên thế giới, và mái nhà của chúng sẽ khác nhau - hướng dẫn của các dự án thường bao gồm các hướng dẫn cụ thể để giúp bạn hiểu những gì bạn đang nhìn thấy.  
 
-Your edits will appear on <http://www.openstreetmap.org> within a few seconds.  
+Hãy làm hết sức mình - ngay cả những chuyên gia đôi khi cũng không đồng quan điểm , và đôi khi bạn cần phải đến đó để xem chính xác những gì thực sự có ở đó. ** Nếu nghi ngờ thêm nó như một tòa nhà. **  
 
-Although your changes are accepted by OpenStreetMap within a few seconds, some programmes, apps. and devices use a saved version of OpenStreetMap which may not be updated for some weeks or months.  
+Gắn thẻ các toà nhà
+-------------
 
-Tasking Manager - Finishing a square, or stopping work before the square is finished  
--------------------------------------------------------------------
-
-When you think the square is finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete. Do not copy the changeset comment with hashtags which you used when saving.  
-![mark task as done]{: height="250px"}  
-
-If you select;
-
-- **Mark task as done** the square you were working on will turn yellow to show it is complete and awaiting validation.  
-- **Stop Mapping** the square will return to it's white or pale grey colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
-    - "There are more buildings to trace in the bottom right corner of the square, but I've run out of time"  
-
-The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is complete, click on the **Mark task as done** button. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated. *Sometimes the mapper who invalidated a square is wrong - perhaps they should have just completed the few things that were needed. - We all miss something at some point.*  
-
-OpenStreetMap has evolved because mappers are constantly improving the information. Sometimes new imagery becomes available making more detailed mapping possible, and sometimes a survey takes place and information is gained and added to the map.   
-
-### Task Manager - sending a message to another Task Manager user ###
-You can send a message from this box to another Tasking Manager user by using **@** followed by the username - for instance "Thanks for your work on this @Tallguy I noticed you were having problems with round buildings - this link may help http://learnosm.org/en/hot-tips/tracing-round-buildings/. Keep up the good work! Regards Nick"  
+Khi chúng ta gắn thẻ các tòa nhà mà chúng ta chưa bao giờ truy cập và không quen thuộc, chương trình gắn thẻ an toàn và đề xuất là ** building ** = ** yes ** mà bạn có thể thấy trên một tòa nhà được gắn thẻ chính xác nếu di chuyển xuống cuối cùng của gắn thẻ pane và kích vào ** All tags **.
 
 See also  
 ---------
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
-*Subtitles available in some languages*  
+[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+
+[![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
 
 
-
-[saving]:/images/hot-tips/saving.gif
 [keymon]:/images/hot-tips/keymon.png
-[mark task as done]:/images/hot-tips/mark-task-as-done.png
-[save-icon]: /images/beginner/save-icon.png "Save icon"
-[upload]: /images/beginner/upload.png "Upload"
-[arrow-up]: /images/arrow-up.png
-[OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
+[Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
+[back arrow]: /images/beginner/back-arrow.png "Undo"
+[building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

@@ -121,23 +121,23 @@ Créer un compte OpenStreetMap
     ressembler à l'image ci-dessous. Cliquez sur le lien indiqué
     ci-dessous :
 
-    ![Confirming your OpenStreetMap account][]
+    ![Confirmer votre compte OpenStreetMap][]
 
--   A new tab or window will open. If everything went well, you should
-    have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.
-    Enter your OpenStreetMap username and password and press Enter. You
-    should now be logged in. You should see your username in the upper
+-   Un nouvel onglet ou une nouvelle fenêtre va s'ouvrir. Si tout s'est déroulé correctement, vous devriez
+    avoir un compte OSM!
+-   Sur la page OpenStreetMap, cliquez sur “log in” dans le coin supérieur droit.
+    Saisissez vos nom d'utilisateur et mot de passe OpenStreetMap et appuyez sur Entrée. Vous
+    devriez maintenant être connecté. Vous devriez apercevoir votre nom d'utilisateur dans le haut
     à droite de la page.
 
-Adding Your First Points
+Ajouter Vos Premiers Points
 -----------------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap
-    website, you can use the iD editor to add your first point to
-    the map.
--   Move the map to a place that you know very well, such as your town
-    or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
+-   Maintenant sue vous êtes connecté avec votre nom d'utilisateur sur OpenStreetMap
+    , vous pouvez utiliser l'éditeur iD pour ajouter vos premiers points à
+    la carte.
+-   Déplacez la carte sur un lieu que vous connaissez très bien, comme votre ville
+    ou votre quartier. Une bonne idée serait de vérifier que votre maison (ou celle de votre voisin) et votre lieu de travail sont bien dessinés et ont la bonne adresse. 
 -   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
 -   Just above the map on the left, there is a tab named “Edit” with a small
     triangle besides it. Click the small triangle. You should see a menu

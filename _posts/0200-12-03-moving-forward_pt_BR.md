@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Further Reading
+title: Leitura adicional
 permalink: /pt_BR/beginner/moving-forward/
 lang: pt_BR
 category: beginner
