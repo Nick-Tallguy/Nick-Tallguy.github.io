@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /en/beginner/start-osm/
-lang: en
+permalink: /vi/beginner/start-osm/
+lang: vi
 category: beginner
 ---
 

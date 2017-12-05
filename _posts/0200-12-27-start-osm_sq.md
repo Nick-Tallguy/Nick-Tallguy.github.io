@@ -170,15 +170,15 @@ Shtimi i Pikave të Para
     bazën e të dhënave të OSM.
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
-more about using it in the [iD editor guide](/en/beginner/id-editor/).
-You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
-which is a great and interactive manner to discover the editor.
+Editori iD është një mënyrë  fantastike për të edituar lehtësisht OpenStreetMap, dhe ju mund të gjeni  
+më tepër rreth përdorimit të tij në  [iD editor guide](/sq/beginner/id-editor/).
+Ju gjithashtu mund të praktikoheni me  [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+i cila është një mënyrë e shkëlqyer dhe iteraktive për të zbuluar editorin.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
-that offers many more features.
-Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
-you can choose which editor - iD or JOSM - you like using the best.
+Gjithsesi në [sesionin për JOSM](/sq/josm) ne do të shikojmë një aplikacion të pavarur. 
+i cili ofron shumë më tepër veçori.
+Ndihuni të lirë të vazhdoni të luani me iD. Pasi të keni më shumë eksperiencë duke kontribuar në OSM,  
+ju mund të zgjidhni cilin editor, iD apo JOSM ju pëlqen të përdorni më tepër.
 
 Përmbledhje
 -------

@@ -20,7 +20,7 @@ Thông tin chính xác cho phép các tổ chức phi chính phủ, chính phủ
 các quyết định đúng đắn, và vì thế có thể làm cuộc sống của chúng ta tốt đẹp hơn.
 Các loại bản đồ là cách tốt để truyền đạt thông tin. 
 
-![Một ngôi làng ở Indonesia][]
+![A village in Indonesia][]
 
 Bản đồ là các biểu tượng trực quan về thế giới của chúng ta. 
 Chúng thường thể hiện các ý tưởng tốt hơn là từ ngữ. Cách này sẽ giúp chúng ta trả lời được nhiều câu hỏi.
@@ -35,7 +35,7 @@ Thông tin nào là quan trọng nhất? Vẽ bản đồ của bạn trong vài
 và khi bạn vẽ xong,
 hãy nói xem tại sao thông tin bạn đưa ra lại là quan trọng và quan trọng đối với ai.
 
-![Ví dụ về một bản đồ vẽ tay][]
+![Example of a hand-drawn map][]
 
 Giống như nhiều thị trấn khác khi bạn vẽ thị trấn của mình,
 bạn sẽ vẽ một số đường thể hiện các đường đi, dòng sông hoặc kênh rạch.
@@ -44,7 +44,7 @@ Dù bạn vẽ cái gì, bạn cần phải sử dụng các biểu tượng –
 một ô vuông thể hiện tòa nhà và các loại biểu tượng khác.
 Bản đồ của bạn sẽ thể hiện những gì có trên mặt đất.
 
-![Ví dụ về các biểu tượng][]
+![Examples of symbols][]
 
 Bản đồ của bạn chứa đựng rất nhiều thông tin.
 Bạn có thể sử dụng bản đồ như vậy để mô tả cho người khác những khu vực khác nhau,
@@ -56,7 +56,7 @@ Bởi vì bản đồ của bạn đơn thuần trên giấy nên khó có thể
 Vì vậy, thành lập bản đồ trên máy tính sẽ giúp mọi người có thể sử dụng được bản đồ
 và khiến nó có giá trị hơn rất nhiều. 
 
-![Lập bản đồ trên máy tính][]
+![Mapping on Computer][]
 
 OpenStreetMap – OSM – là một công cụ để tạo ra và chia sẻ thông tin bản đồ. 
 Mọi người đều có thể đóng góp vào OSM, và mỗi ngày có hàng nghìn người tham dự vào dự án này. 
@@ -67,15 +67,15 @@ Chúng ta vẫn vẽ đường để thể hiện đường phố, cánh đồng
 Điều quan trọng là các bản đồ OSM được lưu trữ trên mạng internet 
 và mọi người đều có thể sử dụng nó bất cứ lúc nào, hoàn toàn miễn phí.
 
-![Số hóa bản đồ với OpenStreetMap][]
+![Digital maps with OpenStreetMap][]
 
 Chúng tôi hy vọng rằng các bạn sẽ thấy OpenStreetMap thực sự hữu ích và thú vị với công việc của mình.
 Với hướng dẫn này, bạn có thể
 nhanh chóng tạo ra các bản đồ số trong OpenStreetMap.
 
 
-[Một ngôi làng ở Indonesia]: /images/beginner/village-in-indonesia.png
-[Ví dụ về một bản đồ vẽ tay]: /images/beginner/hand-drawn-map.png
-[Ví dụ về các biểu tượng]: /images/beginner/examples-of-symbols.png
-[Lập bản đồ trên máy tính]: /images/beginner/mapping-on-computer.png
-[Số hóa bản đồ với OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

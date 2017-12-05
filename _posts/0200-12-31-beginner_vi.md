@@ -2,7 +2,7 @@
 layout: doc
 permalink: /vi/beginner/
 lang: vi
-title: Beginner's guide
+title: Hướng dẫn cho người mới bắt đầu
 category: beginner
 cover: yes
 nosearch: true

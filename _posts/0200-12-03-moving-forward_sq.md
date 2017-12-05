@@ -51,20 +51,20 @@ Klikoni mbi listën ku doni të përfshiheni
     + një fjalëkalim të ri  
     + rishkruajeni fjalëkalimin   
 - Kur të përfundoni, klikoni Subscribe.
-- Now you need to open your email, just as you did when you signed up for OpenStreetMap. There will be a confirmation email in your inbox from the mailing list.  
+-Tashmë ju duhet të hapni email-in tuaj, njësoj si dhe në rastin kur krijuat llogarinë për OpenStreetMap. Duhet t'ju ketë ardhur një konfirmim në email nga lista e postimeve.  
 - Klikoni mbi link e vërtetimit  
-- You should now be a member of the mailing list.  
-- Now when you want to send a message to the list, you can send it to [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), replacing "id" with the country for your list. You will also receive emails when other members send a message to the list.  
+- Tashmë ju duhet të jeni një anëtar i listës së postimeve.  
+- Tani kur të doni të dërgoni një mesazh në listë, ju mund ta dërgoni atë në [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), duke zëvendësuar "id" me shtetin nga lista juaj. Ju gjithashtu do të merni email-et që anëtarët e tjerë dërgojnë në listë.  
 
 <!-- maybe expand and put this back later
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+Një projekt i ngjashëm është quajtur MapOSMatic, të cilën ju mund ta aksesoni nëpërmjet 
+shfletuesit tuaj të internetit në  [maposmatic.org](http://www.maposmatic.org/). Ky
+është një mjet i thjeshtë për të printuar një hartë të një zone që ju zgjidhni. Ai do të 
+krijojë hartën automatikisht, së bashku me një grid mbi hartë, dhe një 
+indeks lokacionesh të cilat janë të përfshira në zonë.
 
 ![MapOSMatic][]
 -->
