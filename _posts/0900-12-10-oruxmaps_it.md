@@ -47,7 +47,7 @@ offline maps. By the default, it’s in **OruxMaps/Mapfiles** folder in your int
 
 ![Offline maps storage settings][]
 
-Start Tracking
+Inizia a tracciare
 --------------
 
 Before you start tracking let’s review some settings under track/routes setting. The first setting is **Auto GPX Creation**. If you check this setting, OruxMap will help you to create .gpx file immediately after finishing a track (using Stop Tracking feature). So, after finishing a track, you can go to **OruxMaps/Tracklogs** in your internal storage to get your .gpx files without needing to export your track log first in track/routes management. The second setting is **Ask Track Name**. It’s very useful to define your track name before you start tracking so that you exactly know the specific name of your tracks.  
