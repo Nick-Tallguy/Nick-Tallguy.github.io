@@ -9,12 +9,12 @@ category: beginner
 Đọc thêm
 ===============
 
-> Hướng dẫn này có thể được tải xuống tại đây: [beginner_moving-forward_en.odt](/files/beginner_moving-forward_en.odt) or [beginner_moving-forward_en.pdf](/files/beginner_moving-forward_en.pdf)  
+> Hướng dẫn này có thể được tải xuống tại đây: [beginner_moving-forward_vi.odt](/files/beginner_moving-forward_vi.odt) hoặc [beginner_moving-forward_vi.pdf](/files/beginner_moving-forward_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
 Nếu bạn đã đọc đến chương này, xin chúc mừng! Bạn đã hiểu rõ về cách tạo bản đồ với OpenStreetMap. Bạn có thể làm gì khác với OSM? Làm sao bạn có thể học hỏi nhiều hơn? Bạn có thể kết nối với cộng đồng người lập bản đồ như thế nào?  
 
-CÁC PHẦN KHÁC CỦA LEARNOSM
+Các phần khác của LearnOSM
 ---------------------------
 
 Vào cuối chương về trình soạn thảo iD bạn đã nghe nói về sự khác biệt giữa iD và JOSM. Có một [Phần hoàn toàn nói về JOSM](/vi/josm/) nơi bạn sẽ tìm hiểu tất cả các chi tiết cần thiết để có thể sử dụng được những tính năng mà trình biên tập cung cấp.  
@@ -31,12 +31,12 @@ Có rất nhiều thông tin về OpenStreetMap có sẵn tại [wiki.openstreet
 
 ![Wiki][]
 
-<!-- also more info on this site once it is prepared -->
+<!-- và các thông tin khác về trang web này có thể cập nhật thêm -->
 
 DANH SÁCH GỬI THƯ
 ------------
 
-Cách tốt nhất để kết nối với cộng đồng người dùng OpenStreetMap là tham gia vào danh sách gửi thư địa phương của bạn. Nhiều người đăng ký, sử dụng tài khoản email của họ vào danh sách gửi thư OSM. Một khi bạn ở trong danh sách, bạn có thể gửi email đến nhóm nếu bạn có câu hỏi hoặc muốn nói về OpenStreetMap.  
+Cách tốt nhất để kết nối với cộng đồng người dùng OpenStreetMap là tham gia vào danh sách gửi thư theo địa phương của bạn. Nhiều người đăng ký, sử dụng tài khoản email của họ vào danh sách gửi thư OSM. Một khi bạn ở trong danh sách, bạn có thể gửi email đến nhóm nếu bạn có câu hỏi hoặc muốn nói về OpenStreetMap.  
 
 Để đăng ký danh sách địa chỉ quốc gia của bạn, mở trình duyệt internet của bạn và vào [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 

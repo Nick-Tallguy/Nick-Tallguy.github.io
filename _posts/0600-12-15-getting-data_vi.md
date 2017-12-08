@@ -9,7 +9,7 @@ category: osm-data
 Lấy dữ liệu OSM
 =================  
 
-> Hướng dẫn này có thể được tải xuống tại đây: [Getting_OSM_Data_vi.odt](/files/Getting_OSM_Data_vi.odt) or [Getting_OSM_Data_vi.pdf](/files/Getting_OSM_Data_vi.pdf)  
+> Hướng dẫn này có thể được tải xuống tại đây: [Getting_OSM_Data_vi.odt](/files/Getting_OSM_Data_vi.odt) hoặc [Getting_OSM_Data_vi.pdf](/files/Getting_OSM_Data_vi.pdf)  
 > Cập nhật: 2017-10-31
 
 Khi bạn muốn có được dữ liệu OpenStreetMap gần đây nhất, cách đơn giản nhất là sử dụng một công cụ web để trích xuất dữ liệu. Có nhiều dịch vụ web hỗ trợ chiết xuất dữ liệu cho một khu vực bạn chọn.  
@@ -40,12 +40,11 @@ TẢI XUỐNG DỮ LIỆU ĐƯỢC TRÍCH XUẤT
 CHẤT CHIẾT XUẤT DỮ LIỆU THEO YÊU CẦU
 -------------------
 
-### Công cụ HOT Exports  
+### HOT Export Tool  
 
-Nhóm [Humanitarian OpenStreetMap Team](http://hotosm.org) đã tạo ra một dịch vụ cho phép người dùng lựa chọn khu vực mà họ muốn trích xuất, và cũng sử dụng [các cài đặt sẵn trong JOSM](/vi/josm/josm-presets/)
-để chọn các thẻ tùy chỉnh để được đưa vào trích xuất. Dịch vụ này có sẵn cho tất cả các quốc gia nơi HOT hoạt động, tại [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. The service is available at [export.hotosm.org](https://export.hotosm.org/en/v3). Within minutes, up-to-date OpenStreetMap (OSM) data is exported, filtered and converted. Areas of interest (AOI) can be selected through searching, bounding box coordinates, drawing a box, free drawing, using the view or importing a GeoJSON file. Current file formats includes Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) and MBTiles (.mbtiles). Map features and specific tags can either be selected through the Tag Tree or by configuring some YAML code. To learn more please, see the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
 
-![hot exports][]
+![hot-export-tool][]
 
 ### BBBike  
 
@@ -99,5 +98,5 @@ TÓM LƯỢC
 Các dịch vụ được đề cập trong chương này là tất cả những gì mà người dùng trung bình cần để có được dữ liệu OSM họ muốn và có thể làm việc với nó trong phần mềm GIS. Tuy nhiên, bạn có thể muốn học cách hiệu quả hơn làm việc với các dữ liệu. Các chương còn lại trong phần này khá kỹ thuật, nhưng giới thiệu các phương pháp tiên tiến hơn về thao tác và truy cập dữ liệu OSM.  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot-export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

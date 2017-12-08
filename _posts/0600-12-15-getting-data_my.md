@@ -40,12 +40,11 @@ EXTRACTS ပြုလုပ်ထားသော အချက်အလက်မ�
 ကိုယ့်စိတ်ကြိုက်ပြုလုပ်ထားသော EXTRACTS များ
 -------------------
 
-### HOT Exports  
+### HOT Export Tool  
 
- [လူသားချင်းစာနာထောက်ထားသော OpenStreetMap အဖွဲ့ (The Humanitarian OpenStreetMap Team)](http://hotosm.org) သည် အသုံးပြုသူများအနေဖြင့် ၎င်းတို့ extract ပြုလုပ်လိုသော ဧရိယာကို ရွေးချယ်ရန်ခွင့်ပြုပေးထားပြီး extract ထဲတွင်ပါဝင်နိုင်သော ကိုယ့်စိတ်ကြိုက်တွဲဖက်မှုများကို ရွေးချယ်နိုင်ရန်အတွက်  [JOSM Presets](/en/josm/josm-presets/) ကို 
-အသုံးပြုရန်လည်းပဲ ခွင့်ပြုပေးထားသော ဝန်ဆောင်မှုတစ်ခုကို ပြုလုပ်ဖန်တီးပေးခဲ့ပြီးဖြစ်ပါသည်။ ၎င်းဝန်ဆောင်မှုကို  HOT ၏အလုပ်များရှိသော နိုင်ငံအားလုံးတွင် ရရှိနိုင်ပါသည်။[export.hotosm.org](http://export.hotosm.org) တွင်ရရှိနိုင်သည်။
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. The service is available at [export.hotosm.org](https://export.hotosm.org/en/v3). Within minutes, up-to-date OpenStreetMap (OSM) data is exported, filtered and converted. Areas of interest (AOI) can be selected through searching, bounding box coordinates, drawing a box, free drawing, using the view or importing a GeoJSON file. Current file formats includes Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) and MBTiles (.mbtiles). Map features and specific tags can either be selected through the Tag Tree or by configuring some YAML code. To learn more please, see the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
 
-![hot exports][]
+![hot-export-tool][]
 
 ### BBBike  
 
@@ -99,5 +98,5 @@ wget -O $file "$url"
 ဤအခန်းတွင် ဖော်ပြခဲ့သော ဝန်ဆောင်မှုများသည် သာမာန်အသုံးပြုသူများအနေဖြင့်  ၎င်းတို့လိုချင်သော OSM အချက်အလက်များ ရရှိရန် နှင့် GIS ဆောလ်ဖ့်ဝဲလ်အတွင်း ထိုအချက်အလက်များနှင့်အတူ အလုပ်လုပ်နိုင်ရန် လိုအပ်ကြောင်းတို့ ဖြစ်ပါသည်။ သို့သော်လည်း သင့်အနေဖြင့် သင်ကိုယ်တိုင် အချက်အလက်များနှင့်အတူ အလုပ်လုပ်ခြင်းဖြင့် ပိုမိုကောင်းမွန်သော နည်းလမ်းများအား သင်ယူလိုရမည်ဖြစ်သည်။ ဤအပိုင်းတွင် ကျန်ရှိနေသည့် အခန်းများသည် လုံးဝ နည်းပညာပိုင်းဆိုင်ရာ များဖြစ်ပါ သည်။ သို့သော်လည်း OSM အချက်အလက်များအား အသုံးပြုခြင်းနှင့် ကိုင်တွယ်ခြင်းတို့အတွက်ပို    ကောင်းမွန်သော နည်းစနစ်များကို ပြသမည်ဖြစ်ပါသည်။  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot-export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

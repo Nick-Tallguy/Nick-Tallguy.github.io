@@ -40,12 +40,11 @@ Gegevensextracten downloaden
 Aangepaste extracten
 -------------------
 
-### HOT Exports  
+### HOT Export Tool  
 
-Het [Humanitarian OpenStreetMap Team](http://hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen extraheren, en ook [voorkeuzen van JOSM gebruiken](/en/josm/josm-presets/)
-om aangepaste tags te selecteren die moeten worden opgenomen in het extract. De service is beschikbaar voor alle landen waar HOT werkt, op [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. The service is available at [export.hotosm.org](https://export.hotosm.org/en/v3). Within minutes, up-to-date OpenStreetMap (OSM) data is exported, filtered and converted. Areas of interest (AOI) can be selected through searching, bounding box coordinates, drawing a box, free drawing, using the view or importing a GeoJSON file. Current file formats includes Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) and MBTiles (.mbtiles). Map features and specific tags can either be selected through the Tag Tree or by configuring some YAML code. To learn more please, see the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
 
-![hot exports][]
+![hot-export-tool][]
 
 ### BBBike  
 
@@ -99,5 +98,5 @@ Overzicht
 De in dit hoofdstuk vermelde services zijn alles wat de gemiddelde gebruiker nodig heeft om de gegevens van OSM te verkrijgen die hij wil en om er mee te  kunnen werken in software voor GIS. U wilt echter misschien meer leren over meer krachtige manieren om zelf met de gegevens te werken. De resterende hoofdstukken in dit gedeelte zijn nogal technisch, maar laten meer geavanceerde methoden zien voor het manipuleren en toegang krijgen tot gegevens van OSM.  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot-export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

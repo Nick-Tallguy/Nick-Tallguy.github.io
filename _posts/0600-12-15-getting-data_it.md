@@ -40,12 +40,11 @@ Scaricare estratti di dati
 Estratti personalizzati
 -------------------
 
-### Exports HOT   
+### HOT Export Tool  
 
-Lo [Humanitarian OpenStreetMap Team](http://hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estrarre, e usa anche i [Presets JOSM](/en/josm/josm-presets/)
-per personalizzare la selezione dei tag da includere nell'estratto. Il servizio è disponibile in tutti i paesi in cui opera HOT, a [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](https://www.hotosm.org) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. The service is available at [export.hotosm.org](https://export.hotosm.org/en/v3). Within minutes, up-to-date OpenStreetMap (OSM) data is exported, filtered and converted. Areas of interest (AOI) can be selected through searching, bounding box coordinates, drawing a box, free drawing, using the view or importing a GeoJSON file. Current file formats includes Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) and MBTiles (.mbtiles). Map features and specific tags can either be selected through the Tag Tree or by configuring some YAML code. To learn more please, see the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
 
-![hot exports][]
+![hot-export-tool][]
 
 ### BBBike  
 
@@ -99,5 +98,5 @@ Sommario
 I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti per lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.  
 
 
-[hot exports]: /images/osm-data/hot-exports.png
+[hot-export-tool]: /images/osm-data/hot-export-tool.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png

@@ -2,7 +2,7 @@
 layout: doc
 permalink: /vi/osm-data/
 lang: vi
-title: OSM Data
+title: Dữ liệu OSM
 category: osm-data
 cover: yes
 nosearch: true
@@ -16,7 +16,7 @@ OpenStreetMap là một cơ sở dữ liệu khổng lồ về các dữ liệu 
 <!--
 Chúng ta sẽ nghiên cứu các vấn đề:
 
--	OSM Data: Tổng quan
+-	Dữ liệu OSM: Tổng quan
 -	Định dạng dữ liệu địa lý và file .osm
 -	Nhận dữ liệu
 -	Dữ liệu OSM Data và cơ sở dữ liệu

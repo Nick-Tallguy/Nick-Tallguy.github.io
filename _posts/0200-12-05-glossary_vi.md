@@ -27,17 +27,17 @@ Bảng chú giải
 
 **[Changeset/ Nhóm thay đổi](http://wiki.openstreetmap.org/wiki/Changeset)**: Một nhóm thay đổi bạn đã thực hiện đối với dữ liệu OSM. Sau khi tải lên OSM, các chỉnh sửa của bạn ngay lập tức có sẵn cho người khác nếu họ tải chúng xuống. Có thể mất vài phút hoặc vài giờ để xuất hiện trên bản đồ.
 
-**COD : Common Operational Database/ Cơ sở dữ liệu hoạt động chung** ; Bao gồm dữ liệu địa lý cho nhiều hoạt động nhân đạo. Các hoạt động này chủ yếu là: mạng lưới giao thông (đường xá, cầu, cảng vv), các khu dân cư (khu định cư), ranh giới hành chính, thủy văn (sông và các nguồn nước khác) và chụp cắt lớp (cao độ / đường viền). Có thể bao gồm các tòa nhà như một nguồn thống kê dân số gián tiếp. Được sử dụng bởi Văn phòng điều phối các vấn đề nhân đạo của Liên hợp quốc.
+**COD : Common Operational Database/ Cơ sở dữ liệu hoạt động chung** ; Bao gồm dữ liệu địa lý cho nhiều hoạt động nhân đạo. Các hoạt động này chủ yếu là: mạng lưới giao thông (đường xá, cầu, cảng vv), các khu dân cư (khu định cư), ranh giới hành chính, thủy văn (sông và các nguồn nước khác) và chụp cắt lớp (cao độ / đường đồng mức). Có thể bao gồm các tòa nhà như một nguồn thống kê dân số gián tiếp. Được sử dụng bởi Văn phòng điều phối các vấn đề nhân đạo của Liên hợp quốc.
 
-**DHN : Digital Humanitarian Network/ Mạng Nhân đạo Kỹ thuật số** ; tổ chức thúc đẩy mạng lưới kỹ thuật số để đáp ứng nhân đạo.
+**DHN : Digital Humanitarian Network/ Mạng Nhân đạo Kỹ thuật số** ; tổ chức thúc đẩy mạng lưới kỹ thuật số để hỗ trợ nhân đạo.
 
 **Extract/ Trích xuất** : [Tổng quan về dữ liệu OSM](/vi/osm-data/data-overview/) Một khối lượng lớn dữ liệu OSM cho một khu vực cụ thể (như tiểu bang, quốc gia hoặc khu vực địa lý).
 
 **[Field Papers/ Bản đồ hiện trường](/vi/mobile-mapping/field-papers/)**: là một công cụ dựa trên web để dễ dàng tạo ra một bản đồ bản đồ in được cho bất cứ nơi nào trên thế giới mà bạn có thể in và ghi chú. Xem [http://fieldpapers.org/](http://fieldpapers.org/) để biết thêm chi tiết. 
 
-**FOD : Fundamental Operational Database/ cơ sở dữ liệu hoạt động cơ bản** ; dữ liệu cụ thể để kích hoạt như các cơ sở y tế, trường học, cơ sở nước, lũ lụt, xây dựng thiệt hại, vv.
+**FOD : Fundamental Operational Database/ cơ sở dữ liệu hoạt động cơ bản** ; dữ liệu cụ thể để kích hoạt như các cơ sở y tế, trường học, hạ tầng cấp nước, lũ lụt, thiệt hại của các công trình xây dựng, vv.
 
-**GDACS :  Global Disaster Alert and Coordination System/ Hệ thống báo động và điều phối thiên tai toàn cầu** ; GDACS là một khuôn khổ hợp tác nằm trong khuôn khổ của Liên Hiệp Quốc. Nó bao gồm các nhà quản lý thiên tai và các hệ thống thông tin thiên tai trên toàn thế giới và nhằm mục đích làm đầy khoảng trống thông tin và điều phối trong giai đoạn đầu tiên sau những thảm họa lớn. GDACS cung cấp thời gian thực truy cập vào các hệ thống thông tin thiên tai dựa trên web và các công cụ điều phối liên quan.
+**GDACS :  Global Disaster Alert and Coordination System/ Hệ thống báo động và điều phối thiên tai toàn cầu** ; GDACS là một khuôn khổ hợp tác nằm trong khuôn khổ của Liên Hiệp Quốc. Nó bao gồm các nhà quản lý thiên tai và các hệ thống thông tin thiên tai trên toàn thế giới và nhằm mục đích làm đầy khoảng trống thông tin và điều phối trong giai đoạn đầu tiên sau những thảm họa lớn. GDACS cung cấp truy cập thời gian thực vào các hệ thống thông tin thiên tai dựa trên web và các công cụ điều phối liên quan.
 
 **[iD editor](/vi/beginner/id-editor/)** - Trình soạn thảo OpenStreetMap thân thiện với người mới bắt đầu được Mapbox thiết kế. 
 
@@ -45,7 +45,7 @@ Bảng chú giải
 
 **[JOSM](https://josm.openstreetmap.de/)** phát âm là "Jaws-um", Trình chỉnh sửa OpenStreetMap trên nền Java. 
 
-**[Layer/ Lớp](http://wiki.openstreetmap.org/wiki/Layer)**: Một nguồn dữ liệu được hiển thị trên một bản đồ trượt (thường được coi là một nhóm các mảnh được ghép lại với nhau).
+**[Layer/ Lớp](http://wiki.openstreetmap.org/wiki/Layer)**: Một nguồn dữ liệu được hiển thị trên một bản đồ chồng chập (thường được coi là một nhóm các mảnh được ghép lại với nhau).
 
 **NGO : Non Govermental Organisation / Tổ chức phi chính phủ** ; chủ yếu là nhóm không bắt buộc đối với những tổ chức ở cấp địa phương, quốc gia hoặc quốc tế.  
 
@@ -57,7 +57,7 @@ Bảng chú giải
 
 **[Relation/ Mối quan hệ](http://wiki.openstreetmap.org/wiki/Relation)**: một trong những yếu tố dữ liệu cốt lõi bao gồm một hoặc nhiều thẻ và cũng là một danh sách được sắp xếp của một hoặc nhiều nút, cách và / hoặc quan hệ như các thành viên được sử dụng để xác định các mối quan hệ logic hoặc địa lý giữa các yếu tố khác. Ví dụ, hãy chuyển đến trang Wiki [Các loại quan hệ](http://wiki.openstreetmap.org/wiki/Types_of_relation). 
 
-**Render** : để chuyển đổi từ dữ liệu thành một hình ảnh. Dữ liệu được rendering là một bản đồ.
+**Render/ Vẽ** : để chuyển đổi từ dữ liệu thành một hình ảnh. Dữ liệu đã được vẽ là một bản đồ.
 
 **SBTF : Stand-By Task-Force/ Nhóm Thường trực** ; một tổ chức điều phối các tình nguyện viên kỹ thuật số vào một mạng lưới đáp ứng, được đào tạo và chuẩn bị sẵn sàng để triển khai trong các cuộc khủng hoảng.
 
