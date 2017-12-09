@@ -12,12 +12,12 @@ Geofabrik en HOT Export gebruiken
 > Deze handleiding kan gedownload worden als  [Geofabrik_and_HOT_Export_nl_NL.odt](/files/Geofabrik_and_HOT_Export_nl_NL.odt) of [Geofabrik_and_HOT_Export_nl_NL.pdf](/files/Geofabrik_and_HOT_Export_nl_NL.pdf)  
 > Bijgewerkt 05-09-2016  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+Nadat u heeft geleerd gegevens toe te voegen en te bewerken in OpenStreetMap (OSM), wilt u nu misschien de gegevens verkrijgen als back-up of om verder te verwerken met behulp van software voor een Geografisch InformatieSysteem dat Open Source is, zoals QGIS ([www.qgis.org](http://www.qgis.org)).  
 
 Gegevens van OSM verkrijgen op de website van Geofabrik
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+De gegevens van OSM kunnen eenvoudig worden verkregen door ze te downloaden van [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
@@ -33,222 +33,222 @@ Als u dan de gegevens voor Indonesië wilt ophalen in de indeling shapefile (.sh
 
 U kunt controleren wanneer de gegevens voor het laatst werden bijgewerkt. Onthoud dat de server gewoonlijk de gegevens eenmaal per 24 uur bijwerkt, dus als u zojuist gegevens naar OSM hebt geüpload, zullen de gegevens niet automatisch verschijnen als u ze downloadt, maar dient u te wachten op de laatste bijwerkingen van de server.  
 
-Getting OSM Data on HOT Export Tool Website
+Gegevens van OSM ophalen via website HOT Export Tool
 --------------------------------------
 
-The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
+Het [Humanitarian OpenStreetMap Team](https://www.hotosm.org) heeft een online service gemaakt die het gebruikers mogelijk maakt aangepaste extracten uit OSM te maken, overal ter wereld, door een gebied, kaartobjecten en bestandsindelingen  te selecteren. Binnen minuten worden bijgewerkte gegevens van OpenStreetMap (OSM) geëxporteerd, gefilterd en geconverteerd. Het volgende gedeelte laat u zien hoe u het gereedschap Export Tool gebruikt. Deze informatie is ook te vinden in het gedeelte ‘[Learn](https://export.hotosm.org/en/v3/learn)’ op export.hotosm.org.
 
 ![hot-export-tool][]
 
-## QuickStart
+## Snel starten
 
-Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
+Iedereen kan een aangepaste export voor OpenStreetMap maken met het gereedschap Export Tool - registreer eenvoudigweg een account. U kunt zich registreren met een account van OpenStreetMap van openstreetmap.org, en een geldig e-mailadres, wat zal worden gebruikt om een link te sturen naar uw export als die eenmaal is voltooid.
 
-## Identify Area of Interest
+## Gebied identificeren
 
-There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
+Er zijn meerdere manieren om een gebied (Area of Interest (AOI)) te selecteren binnen Export Tool. Dit omvat de mogelijkheid om te typen en te zoeken, de coördinaten te specificeren van een begrenzingsvak, een begrenzingsvak te tekenen, vrij een polygoon te tekenen, de huidige weergave te gebruiken of een bestand van GeoJSON te uploaden.
 
 ![export-tool-create][]
 
-Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will become available. The ‘Create’ tab is where you will set up your export, by describing it on the left hand side and selecting your AOI with the map on the right hand side. 
+Wanneer u eenmaal bent ‘Logged In’ in de HOT Export Tool, zal de tab ‘Create’ beschikbaar komen. De tab ‘Create’ is waar u uw export zult instellen, door het aan de linkerkant te beschrijven en uw gebied (AOI) te selecteren met de kaart aan de rechterkant. 
 
 ![export-tool-describe][]
 
-### Search Bar
-There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+### Werkbalk Zoeken
+Er zijn 6 manieren om een gebied (AOI) te definiëren voor uw export. De eerste en tweede gebruiken de werkbalk Zoeken, die een plaats ofwel kan zoeken door de naam in te typen en te kiezen uit de opties eronder of door de coördinaten voor het begrenzingsvak te definiëren. De minimum X, minimum Y, maximum X en maximum Y (West, Zuid, Oost, Noord) coördinaten van een land kunnen worden gevonden [in een lijst CSV, die werd verschaft door de Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-### Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+### Digitaliseren 
+De derde en vierde manier waarop een AOI kunnen worden geselecteerd in de Export Tool, is door ofwel een begrenzingsvak te tekenen door de optie ‘Box’ te selecteren uit de kolom met gereedschappen aan de rechterkant van het scherm. Of u kunt direct een polygoon tekenen op de kaart door het gereedschap ‘Draw’ te selecteren.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-### Upload Polygon
-The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
+### Polygoon uploaden 
+De laatste twee manieren waarop een AOI kan worden geselecteerd is door middel van het gereedschap ‘This View’ aan de rechterkant van de kaart, wat het huiidge bereik van de kaartweergave vastlegt, of door het gereedschap ‘Import’ wat u in staat stelt een polygoon van het gebied te uploaden.  
 
 ![export-tool-area-view][]
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+De geïmporteerde polygoon moet een bestand van GeoJSON zijn met geografische coördinaten in WGS84. Eén van de manieren om een bestand van GeoJSON te maken is door de site geojson.io te gebruiken. Als het gebied eenmaal is geselecteerd in [geojson.io](http://geojson.io/), kopieer dan de tekst in het vak aan de rechterkant, plak het in een bewerker naar keuze, zoals [Atom](https://atom.io/) en sla uw bestand voor GeoJSON op.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+Het bestand van GeoJSON moet enigszins bewerkt worden om het te laten accepteren door Export Tool. Onthoud dat het bestand geen multipolygonen mag zijn. In de eenvoudigste vorm hoeft het bestand alleen maar te vermelden dat het een “type: Polygon” is en de coördinaten te vermelden van de punten/knopen die het gebied identificeren. Het bestand van GeoJSON zal dan met succes worden geparset  door het gereedschap en gebruikt worden om het AOI te specificeren.
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
 
 
-## Select File Formats
+## Bestandsindelingen selecteren
 
-The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
+Het gereedschap maakt het mogelijk gegevens van OSM uit te nemen met de Overpass API in zijn eigen bestandsindeling Protocol Buffer Binary (PBF), voor het filteren van de gegevens voor de kaartobjecten en geassocieerde tags, gespecificeerd door de gebruiker. Als de gegevens eenmaal zijn gefilterd worden zij daarna geconverteerd naar de door de gebruiker gekozen bestandsindeling.  
 
-Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Momenteel kan het gereedschap gegevens van OSM converteren naar Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, en MBTiles .mbtiles. Ten minste één van de bestandsindelingen moet worden geselecteerd om de export te maken, maar er is geen beperking op het te kiezen aantal, wat kan worden gedaan door meerdere vakken aan te kruisen.
 
 ![export-tool-file-formats][]
 
 
 ### Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+Shapefiles is een tabulaire indeling die is ontwikkeld door ESRI. Het is de meest populaire bestandsindeling voor gegevens van GIS. Een shapefile bestaat feitelijk uit 3-4 individuele bestanden, gewoonlijk tezamen gebundeld als een ZIP-archief. Shapefiles hebben bepaalde beperkingen, zoals de bestandsgrootte, afgebroken op 2 gigabytes (GB) en een een limiet voor de naam van een kolom tot 10 tekens. Lees meer over [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in het gedeelte Learn.
 
 ![export-tool-shapefile][]
 
 
 ### Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+OGC Geopackages slaat georuimtelijke gegevens op in één enkele database van SQLite. Geopackages lijken heel erg veel op  voor SpatiaLite ingeschakelde databases van SQLite. Zij zouden bruikbaar moeten zijn in de meest belangrijke toepassingen voor GIS. Geopackages ondersteunen praktisch onbeperkte bestandsgrootten en aantallen kolommen in tabellen, en hebben volledige ondersteuning voor Unicode. Zij zijn in het bijzonder ideaal als u query's voor SQL over de gegevens wilt uitvoeren. Les meer over [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in het gedeelte Learn.
 
 ![export-tool-sql][]
 
 
 ### Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+Een bestand .IMG bevat alle benodigde informatie die nodig is om een kaart te renderen op mobiele GPS-apparaten van Garmin. Onthoud dat de cartografische stijl .img en keuzes voor de objecten op de kaart niet afhankelijk zijn van de selectie voor objecten die wordt ingediend in Export Tool - in plaats daarvan wordt een  standaard stijl gebruikt, gebaseerd op alle gegevens van OSM. Lees meer over [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in het gedeelte Learn.
 
 ![export-tool-garmin][]
 
 
 ### Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+De Keyhole Markup Language (KML) is een op XML gebaseerde indeling voor het geografisch modelleren van punten, lijnen, polygonen en geassocieerde attributen. Google Earth is het meest wijdverspreid bekende platform voor het bekijken van de aarde met behulp van KML, wat ook de reden was voor de ontwikkeling ervan. Lees meer over [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in het gedeelte Learn.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
+De canonische gegevensindeling van OSM is een XML-document van knopen, wegen en relaties. Het Protocol Buffer Binary Format (PBF) is een geoptimaliseerde representatie van OSM XML, die kleiner is op schijf en sneller te lezen. Deze indeling is alleen compatibel met specifieke gereedschappen voor OSM, zoals een bewerkingssoftware voor OSM. Elke door de Export Tool verschafte .PBF zou referentieel volledig moeten zijn - dat is, elke knoop, weg of relatie waarnaar wordt verwezen door een weg of relatie zal in de PBF verschijnen. Leer meer over [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in het gedeelte Learn.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
+Maps.me is een GPS Navigatie- en kaarttoepassing voor Android en iOS smartphones en tablets, en ondersteunt offline mappen en navigeren. Lees meer over [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in het gedeelte Learn. Volg deze stappen om een aangepaste export uit te voeren met Maps.me op Android: 
+Open Maps.me en navigeer naar uw gebied
+Accepteer de prompt van Maps.me en download het aangeboden gebied
+Sluit Maps.me geforceerd af
+Maak een export van MWM
+Download de export, unzip die, en kopieer het bestand .mwm naar uw apparaat
+Navigeer, met behulp van de Android File Manager, naar de locatie die het bestand .mwm bevat
+Druk lang om het te selecteren en druk op de knop "copy" of "cut"
+Navigeer naar "MapsWithMe" en open de hoogst genummerde map (bijv. 170917)
+Kopieer/verplaats uw bestand .mwm naar deze map door te drukken op de knop "paste"
+verwijder het bestaande bestand .mwm voor uw gebied, waarbij u wel de bestandsnaam onthoudt
+Hernoem uw bestand .mwm  zodat die overeenkomt met het gebied dat werd gedownload door Maps.me (die u zojuist hebt verwijderd) door er lang op te drukken (om te selecteren) en te drukken op de knop "more" (3 verticale punten)
 Open Maps.me
 
 ![export-tool-mapsme][]
 
 
 ### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+OsmAnd is ook een GPS Navigatie en kaarttoepassing voor Android en iOS smartphones, en ook voor tablets, ondersteunt offline renderen, routeren, en zoeken. Lees meer over de toepassing en ontelbare mogelijkheden  van [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) op hun hoofdwebsite. 
 
 ![export-tool-osmand][]
 
 
 ### MBTiles .mbtiles
-MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
+MBTiles is een bestandsindeling voor het opslaan van kaarttegels in één enkel bestand. De Export Tool stelt gebruikers in staat MBTiles te maken die tegels bevatten van OSM, die kunnen worden gebruikt als bron of offline context binnen toepassingen die ze ondersteunen. Onthoud dat MBTiles alle objecten van OSM zullen uitnemen uit het geselecteerd gebied door middel van de Export Tool, waarbij de tab ‘3 Data’ automatisch schakelt naar een keuzeoptie en zoombereik, in plaats van de standaard boom voor tags en de YAML-optie voor het selecteren van objecten. Lees meer over [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in het gedeelte Learn.
 
 ![export-tool-mbtiles][]
 
 
-Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
+Aanvullende bestandsindelingen worden doorlopend voorgesteld en toegevoegd aan de Export Tool. Als er een bestandsindeling is die u in de toekomst gaar toegevoegd zou zien, plaats dan een opmerking op de opslagplaats van [GitHub](https://github.com/hotosm/osm-export-tool/issues). Voor meer gedetailleerde informatie met betrekking tot elk type bestandsindeling, bezoek de pagina ‘File Formats’ in het gedeelte ‘[Learn](https://export.hotosm.org/en/v3/learn)’ op de website van het gereedschap.
 
 
 
-## Customise Map Features
+## Kaartobjecten aanpassen
 
-The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
+Het gereedschap stelt de gebruiker in staat de geselecteerde gegevens binnen het gedefinieerde gebied aan te passen. De gegevens van OSM worden gedefinieerd met behulp van tagfilters en selecties van sleutels, met de boom van tags of het formulier van YAML. D boom van tags is voor gevallen van algemeen gebruik, en geeft een gecureerde verzameling filters en selecties weer, waar de configuratie van YAML volledig beheer verschaft over de filters en selecties, met behulp van een op SQL lijkende filterdefinitie.
 
 ![export-tool-treetag-tab][]
 ![export-tool-yaml-tab][]
 
 
-OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+OSM is een open globale database van getagde geografische objecten, met drie typen elementen:
+knopen, die een punt weergeven op het oppervlak van de aarde
+Wegen, die sets van knopen zijn die lijnen of polygonen vormen
+Relaties, die sets van knopen, wegen of andere relaties zijn
 
-Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
+Elk van deze elementen mag elk aantal tags sleutel=waarde hebben. Bijvoorbeeld: een postkantoor kan worden weergegeven door een weg met de tags building=yes en amenity=post_office. Laten we eens kijken hoe deze tags kunnen worden gedefinieerd in de Export Tool met behulp van de boom van tags en het formulier van YAML om de gegevens van OSM te filteren.
 
-### Tag Tree
-The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
+### Boom van tags
+De boom van tags is de eenvoudigste manier om te beginnen met het selecteren van objecten, door eenvoudig de gewenste keuzevakken voor de gewenste ouder of kind te selecteren. Onthoud dat het selecteren van een keuzevak voor een ouder de aanvullende tags sleutel=waarde zal toevoegen die zijn geassocieerd aan het thema, als ook de keuzevakken voor de kinderen eronder. Elk keuzevak voor een ouder heeft een verschillende query om gegevens te filteren, het wordt dan ook bijzonder aanbevolen om de syntaxis voor elk thema te verkennen door over het keuzevak te gaan, wat een informatievak aan de rechterkant zal laten zien. 
 
 ![export-tool-treetag-sql][]
 
 
-For example selecting the ‘Emergency’ parent checkbox, will automatically select the ‘Police Station’, ‘Ambulance Station’ and ‘Fire Station’ child checkboxes below it, yet in addition to this it will also select all tags where emergency=yes, amenity=police and amenity=fire_station in the following SQL query:
+Door, bijvoorbeeld, het keuzevak voor de ouder ‘Emergency’ te selecteren, zullen automatisch de daaronder gelegen keuzevakken voor kinderen ‘Police Station’, ‘Ambulance Station’ en ‘Fire Station’ worden geselecteerd, daarnaast zullen, in aanvulling daarop, ook alle tags met emergency=yes, amenity=police en amenity=fire_station worden geselecteerd in de volgende query voor SQL:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 
-The parent checkboxes do not always represent what is available as children below, to try and account for all possible tags associated with a theme. OSM tags are continuously evolving and we want to ensure that the tool can adapt to these changes. Only the most commonly used key=value tags are represented as child checkboxes, and the parent checkboxes are used to try and encompass those not used as frequently, but fall within a theme. If you have suggestions for modifications to these themes and tags, please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) used to populate the Tag Tree, and we will try to incorporate it where appropriate.
+De keuzevakken voor ouders geven niet altijd weer wat als kinderen daaronder beschikbaar is, om te proberen alle mogelijke tags die zijn geassocieerd aan een thema in aanmerking te laten komen. Tags voor OSM evolueren doorlopend en we willen dat het gereedschap zich aan die wijzigingen kan aanpassen. Allen de meest voorkomende tags sleutel=waarde worden als keuzevakken voor kinderen weergegeven, en de keuzevakken voor ouders worden gebruikt om de niet zo frequent gebruikte te proberen en op te nemen, maar wel binnen thema vallen. Indien u suggesties hebt voor het aanpassen van deze thema's en tags, plaats dan een opmerking in het [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) dat wordt gebruikt om de boom van tags te vullen, en we zullen proberen die in te passen waar mogelijk.
 
 ![export-tool-treetag-spreadsheet][]
 
 
-### YAML Form
-Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
+### Formulier van YAML
+Het gebruiken van een configuratie van YAML verschaft volledig beheer over het toepassen van filters op de gegevens van OSM, met behulp van een op SQL lijkende filterdefinitie om tags sleutel=waarde toe te passen. Onthoud dat ook de boom voor tags syntaxis genereert voor het formulier van YAML, dus elk geselecteerd keuzevak voor ouder of kind zal automatisch worden toegepast in het vak van YAML. Dit dient als een beginpunt voor de query die dan verder bewerkt kan worden. 
 
 ![export-tool-treetag-yaml][]
 
 
-The use of YAML was chosen due to its simplicity and compatibility with SQL. The YAML feature selection format  is similar to style files used by programs such as osm2pgsql and imposm. It is whitespace sensitive, with each child element indented below its parent element, and preceded by a dash. This dash must have a space after it. Here is a basic example of a feature selection with 3 themes, buildings, waterways and hospitals:
+Gebruiken van YAML werd gekozen vanwege zijn eenvoud en compatibiliteit met SQL. De YAML-indeling voor het selecteren van objecten  is soortgelijk aan de stijlbestanden die worden gebruikt door programma's zoals osm2pgsql en imposm. Het is gevoelig voor witruimte, elk kind-element springt in ten opzichte van zijn ouder-element, en wordt voorafgegaan door een streepje. Achter dit streepje moet een spatie staan. Hier is een basaal voorbeeld van het selecteren van objecten met 3 thema's, buildings, waterways en hospitals:
 
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
-Mappings in the above example are: types and select 
-Lists in the above example are: child elements of select and types
+YAML heeft Thema's, en twee gegevensstructuren, Mapping en Lists
+Thema in het hierboven staande voorbeeld is: buildings
+Mappings in het bovenstaande voorbeeld zijn: types en select 
+Lists in het bovenstaande voorbeeld zijn: kind-elementen van select en types
 
-YAML: Themes
-Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
+YAML: Thema's
+Thema's zijn het bovenste niveau sleutels in het document van YAML, met geldige tekens, inclusief letters, nummers en underscores. 
 
-YAML: Geometry Types
-The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
+YAML: Typen geometrie 
+De lijstwaarden onder de types voor mapping mogen één of meer zijn van ‘- points’, ‘- lines’, ‘- polygons’. Als de sleutel types wordt weggelaten zullen alle drie de typen geometrie worden opgenomen in het thema.
 
-YAML: Column Selections
-List items under the mapping select key determines the columns for each theme. The following example will populate the ‘name’ and ‘amenity’ columns with their values from OSM:
+YAML: Selecties van kolommen 
+Lijstitems onder de sleutel voor selecteren van mapping bepaalt de kolommen voor elk thema. Het volgende voorbeeld zal de kolommen ‘name’ en ‘amenity’ vullen met hun waarden uit OSM:
 
 ![export-tool-yaml-code2][]
 
 
 YAML: Filters
-Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
+Filters staan onder de sleutel where: in elk thema. Zij definiëren welke subset van objecten van OSM  tot dat thema behoren. Het volgende voorbeeld zal het thema filteren tot alleen de objecten waarvan de sleutel natural de waarde waterway heeft:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+Onthoud: Het is bijna altijd nodig om enige soort van filteren te hebben, anders zal het thema eenvoudigweg alle  objecten van OSM bevatten voor de opgegeven typen geometrie. Een filter wordt gespecificeerd met behulp van een SQL lijkende syntaxis, met geldige sleutelwoorden IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+JOSM voorkeuzen
+Oudere versies van de Export Tool gebruikten JOSM Preset .XML-bestanden om selecties van objecten te definiëren. De nieuwe versie gebruikt YAML omdat dat meer flexibeler is in hoe het gegevens van OSM transformeert. De nieuwe Export Tool kan echter helpen bij het converteren van voorkeuzen voor JOSM in configuraties van YAML, door de knop ‘Load from JOSM Preset .XML’ te selecteren. Onthoud: Als de voorkeuze wat meer complex is, zou die mogelijk moeten worden geschreven als een nieuwe configuratie voor YAML, gebaseerd op de elementen ‘item’ die zijn opgenomen in de XML.
 
 ![export-tool-load-preset][]
 
 
 
-### Configurations
+### Configuraties
 
-YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
+Configuraties voor YAML kunnen wordne gedefinieerd en woorden opgeslagen voor toekomstig gebruik middels de pagina ‘Configs’. Het is nuttig om één configuratie voor een project te maken dat dan kan worden gebruikt voor alle exports die zijn gerelateerd aan dat project. Geef de configuratie een ‘name’ en ‘description’ zodat die herkenbaar is voor andere gebruikers. Niet selecteren van het keuzevak ‘Public’ zal de configuratie alleen zichtbaar maken voor deze gebruiker. 
 
 ![export-tool-configuration-saved][]
 
 
-Please note that configurations can be edited, which is useful for evolving a feature selection during the course of a project. Saved YAML configurations can be selected via the ‘Stored Configuration’ option on the ‘3 Data’  tab when creating an export. Use the Search bar to find configurations related to your project.
+Onthoud dat configuraties kunnen worden bewerkt, wat nuttig is voor het evolueren van het selecteren van objecten gedurende de loop van een project. Opgeslagen configuraties van YAML kunnen worden geselecteerd via de optie ‘Stored Configuration’ op de tab ‘3 Data’ bij het maken van een export. Gebruik de werkbalk Zoeken om te zoeken naar configuraties die zijn gerelateerd aan uw project.
 
 ![export-tool-configuration-stored][]
 
 
-For further detailed information regarding feature selections and YAML, please visit the ‘Selecting Features’ and ‘YAML Specification’ in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website. 
+Voor meer gedetailleerde informatie met betrekking tot het selecteren van objecten en YAML, bezoek dan ‘Selecting Features’ en ‘YAML Specification’ in het gedeelte ‘[Learn](https://export.hotosm.org/en/v3/learn)’ op de website van het gereedschap. 
 
 
 
