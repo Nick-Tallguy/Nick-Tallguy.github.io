@@ -9,17 +9,17 @@ category: osm-data
 Sử dụng Geofabrik và HOT Export
 ================
 
-> This guide may be downloaded as [Geofabrik_and_HOT_Export_vi.odt](/files/Geofabrik_and_HOT_Export_vi.odt) or [Geofabrik_and_HOT_Export_vi.pdf](/files/Geofabrik_and_HOT_Export_vi.pdf)  
+> Hướng dẫn này có thể được tải xuống tại đây: [Geofabrik_and_HOT_Export_vi.odt](/files/Geofabrik_and_HOT_Export_vi.odt) or [Geofabrik_and_HOT_Export_vi.pdf](/files/Geofabrik_and_HOT_Export_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+Sau khi học cách thêm và chỉnh sửa dữ liệu trong OpenStreetMap (OSM), bây giờ có thể bạn muốn lấy dữ liệu làm bản sao lưu hoặc xử lý nó bằng phần mềm Hệ thống Thông tin Địa lý mã nguồn mở, chẳng hạn như Quantum GIS ([www.qgis. org] (http://www.qgis.org)).  
 
 TẢI DỮ LIỆU OSM TỪ TRANG WEB GEOFABRIK
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+Các dữ liệu OSM có thể dễ dàng thu được bằng cách tải nó từ [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
-![Tải dữ liệu từ geofabrik][]
+[Tải dữ liệu từ geofabrik][]
 
 Dữ liệu được chia thành nhiều vùng. Indonesia có thể được tìm thấy như là một phần của châu Á bằng cách nhấp vào Tiểu khu vực châu Á trên bảng màu xanh và sau đó trang sẽ xuất hiện như thế này.  
 
@@ -33,43 +33,43 @@ Sau đó, nếu bạn muốn lấy dữ liệu của Indonesia ở định dạn
 
 Bạn có thể kiểm tra dữ liệu thời gian qua đã được cập nhật. Xin lưu ý, máy chủ thường cập nhật dữ liệu 24 giờ một lần, vì vậy nếu bạn chỉ cần tải dữ liệu lên OSM thì dữ liệu sẽ không xuất hiện tự động khi bạn tải xuống, nhưng bạn phải đợi các cập nhật mới nhất từ máy chủ.  
 
-Getting OSM Data on HOT Export Tool Website
+Tải dữ liệu OSM từ công cụ trích xuất dữ liệu HOT
 --------------------------------------
 
-The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
+Nhóm [Humanitarian OpenStreetMap Team] (https://www.hotosm.org) đã tạo ra một dịch vụ trực tuyến cho phép người dùng tạo ra các trích xuất dữ liệu OSM tuỳ chỉnh bất cứ nơi nào trên thế giới, bằng cách chọn một khu vực quan tâm, các loại đối tượng bản đồ và định dạng tệp tin. Dịch vụ có tại [export.hotosm.org] (https://export.hotosm.org/en/v3). Trong vòng vài phút, dữ liệu OpenStreetMap cập nhật (OSM) được xuất, lọc và chuyển đổi.  Phần tiếp theo sẽ hướng dẫn bạn cách thức sử dụng công cụ trích xuất dữ liệu. Các thông tin này cũng có thể tìm thấy trong mục '[Tìm hiểu] (https://export.hotosm.org/en/v3/learn)' tại export.hotosm.org.
 
 ![hot-export-tool][]
 
-## QuickStart
+## Bắt đầu
 
-Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
+Bất cứ ai cũng có thể tạo một tùy chỉnh xuất dữ liệu OpenStreetMap với Export Tool - chỉ cần đăng ký một tài khoản. Bạn có thể đăng ký với một tài khoản OpenStreetMap từ openstreetmap.org, và một địa chỉ email hợp lệ, sẽ được sử dụng để gửi một liên kết đến phiên trích xuất dữ liệu của bạn sau khi hoàn tất.
 
-## Identify Area of Interest
+## Lựa chọn vùng xuất dữ liệu - Area of Interest
 
-There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
+Có nhiều cách để lựa chọn vùng xuất dữ liệu (AOI) thông qua Công cụ Trích xuất. Điều này bao gồm khả năng nhập và tìm kiếm, xác định các tọa độ của một hộp bao quanh, vẽ một hộp bao quanh, vẽ một đa giác, dùng khung nhìn hiện tại hoặc tải tệp tin địa lý geojson lên.
 
 ![export-tool-create][]
 
-Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will become available. The ‘Create’ tab is where you will set up your export, by describing it on the left hand side and selecting your AOI with the map on the right hand side. 
+Khi bạn đã 'Đăng nhập' vào Công cụ xuất dữ liệu HOT, tab 'Tạo' sẽ được kích hoạt. Tab 'Tạo' là nơi bạn sẽ thiết lập các tùy chọn cho việc xuất dữ liệu, bằng cách mô tả nó ở phía bên tay trái và chọn vùng xuất dữ liệu với bản đồ ở phía bên tay phải. 
 
 ![export-tool-describe][]
 
-### Search Bar
-There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+### Thanh công cụ tìm kiếm
+Có 6 cách để xác định cùng xuất dữ liệu của bạn. Cách thứ nhất và thứ hai là sử dụng thanh tìm kiếm, nơi có thể tìm địa điểm bằng cách nhập tên và chọn nó từ các tùy chọn bên dưới hoặc bằng cách xác định tọa độ của vùng bao. Bạn có thể tìm thấy tọa độ X cực đại, X cực tiểu, Y cực đại và Y cực tiểu (Tây, Nam, Đông, Bắc) của một quốc gia [trong một danh sách CSV do Cơ quan trao đổi dữ liệu nhân đạo (Humanitarian Data Exchange - HDX) cung cấp (https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-### Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+### Số hóa 
+Cách thứ ba và thứ tư để chọn vùng xuất dữ liệu trong Export Tool là bằng cách vẽ một hộp bao quanh bằng tùy chọn 'Box' từ cột công cụ ở bên phải của màn hình. Hoặc bạn có thể tự do vẽ đa giác trực tiếp trên bản đồ bằng cách chọn công cụ 'Vẽ'.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-### Upload Polygon
-The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
+### Tải lên vùng xuất dữ liệu
+Hai cách cuối cùng để chọn vùng xuất dữ liệu là thông qua chọn 'Vùng hiển thị' ở phía bên tay phải của bản đồ, để sử dụng phạm vi của chế độ xem hiện tại của bản đồ hoặc bằng công cụ 'Nhập' cho phép bạn tải lên một đa giác của vùng lựa chọn.  
 
 ![export-tool-area-view][]
 ![export-tool-area-import1][]

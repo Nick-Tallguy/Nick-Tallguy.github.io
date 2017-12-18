@@ -19,7 +19,7 @@ TẢI XUỐNG DỮ LIỆU ĐƯỢC TRÍCH XUẤT
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) là một công ty chuyên làm việc với OpenStreetMap. Họ cung cấp một loạt các chiết xuất miễn phí trong shapefile và định dạng OSM thô trên [trang web của họ](http://download.geofabrik.de). Ưu điểm của việc tải xuống dữ liệu GeoFabrik là nó được cập nhật hàng ngày, và nó dễ dàng và đáng tin cậy. Một bất lợi là dữ liệu được trích xuất theo quốc gia, và không phải tất cả các nước đều có sẵn.  
+[GeoFabrik](http://geofabrik.de) là một công ty chuyên làm việc với OpenStreetMap. Họ cung cấp một loạt các chiết xuất miễn phí theo định dạng shapefile và định dạng OSM thô trên [trang web của họ](http://download.geofabrik.de). Ưu điểm của việc tải xuống dữ liệu GeoFabrik là nó được cập nhật hàng ngày, và nó dễ dàng và đáng tin cậy. Một bất lợi là dữ liệu được trích xuất theo quốc gia, và không phải tất cả các nước đều có sẵn.  
 
 ### Metro Extracts
 
@@ -29,20 +29,20 @@ TẢI XUỐNG DỮ LIỆU ĐƯỢC TRÍCH XUẤT
 
 [BBBike](http://download.bbbike.org/osm/bbbike/) cung cấp một công cụ tương tự như Metro Extracts nhưng cho một sự lựa chọn khác nhau của các thành phố. Dữ liệu cũng được cập nhật hàng tuần.
 
->Hãy nhớ rằng các tính năng trong OpenStreetMap có một số lượng không hạn chế các thẻ "miễn phí",
+>Hãy nhớ rằng các đối tượng trong OpenStreetMap có một số lượng không hạn chế các thẻ "tự do",
 >nhưng các tập tin định dạng có các thuộc tính được lưu trong một số cột nhất định.
 >Điều này có nghĩa là khi dữ liệu OSM được chuyển thành shapefiles,
->chỉ có các thẻ được chỉ định sẽ được bao gồm trong bảng shapefile.
+>chỉ có các thẻ được chỉ định sẽ được bao gồm trong bảng thuộc tính của shapefile.
 >Các trang web được liệt kê ở trên cung cấp shapefiles với một tập hợp các thẻ phổ biến mặc định
 >nhưng nếu bạn muốn trích xuất các thẻ cụ thể,
 >bạn sẽ cần phải sử dụng một trong những dịch vụ chuyên biệt hơn trong phần tiếp theo hoặc tự học cách tự xuất dữ liệu.
 
-CHẤT CHIẾT XUẤT DỮ LIỆU THEO YÊU CẦU
+CHIẾT XUẤT DỮ LIỆU THEO YÊU CẦU
 -------------------
 
-### HOT Export Tool  
+### Công cụ trích xuất dữ liệu của HOT  
 
-Nhóm [Humanitarian OpenStreetMap Team] (https://www.hotosm.org) đã tạo ra một dịch vụ trực tuyến cho phép người dùng tạo ra các trích xuất dữ liệu OSM tuỳ chỉnh bất cứ nơi nào trên thế giới, bằng cách chọn một khu vực quan tâm, các loại đối tượng bản đồ và định dạng tệp tin. Dịch vụ có tại [export.hotosm.org] (https://export.hotosm.org/en/v3). Trong vòng vài phút, dữ liệu OpenStreetMap cập nhật (OSM) được xuất, lọc và chuyển đổi. Các vùng ưa thích (AOI) có thể được lựa chọn thông qua tìm kiếm, tọa độ của hộp bao quanh, vẽ một hộp, vẽ tự do, vùng đang hiển thị hoặc nhập tệp GeoJSON. Các định dạng tệp hiện tại bao gồm Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) và MBTiles (.mbtiles). Các tính năng của bản đồ và các thẻ cụ thể có thể được lựa chọn thông qua cây Tag hoặc bằng cách định cấu hình một số mã YAML. Để tìm hiểu thêm vui lòng xem phần '[Tìm hiểu] (https://export.hotosm.org/en/v3/learn)' tại export.hotosm.org.
+Nhóm [Humanitarian OpenStreetMap Team] (https://www.hotosm.org) đã tạo ra một dịch vụ trực tuyến cho phép người dùng tạo ra các trích xuất dữ liệu OSM tuỳ chỉnh bất cứ nơi nào trên thế giới, bằng cách chọn một khu vực quan tâm, các loại đối tượng bản đồ và định dạng tệp tin. Dịch vụ có tại [export.hotosm.org] (https://export.hotosm.org/en/v3). Trong vòng vài phút, dữ liệu OpenStreetMap cập nhật (OSM) được xuất, lọc và chuyển đổi. Các vùng ưa thích (Area of Interest - AOI) có thể được lựa chọn thông qua tìm kiếm, tọa độ của hộp bao quanh, vẽ một hộp, vẽ tự do, vùng đang hiển thị hoặc nhập tệp GeoJSON. Các định dạng tệp hiện tại bao gồm Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) và MBTiles (.mbtiles). Các tính năng của bản đồ và các thẻ cụ thể có thể được lựa chọn thông qua cây Tag hoặc bằng cách định cấu hình một số mã YAML. Để tìm hiểu thêm vui lòng xem phần '[Tìm hiểu] (https://export.hotosm.org/en/v3/learn)' tại export.hotosm.org.
 
 ![hot-export-tool][]
 
@@ -58,7 +58,7 @@ Overpass là một API (Giao diện lập trình ứng dụng) để trích xu�
 
 [Overpass Turbo](http://overpass-turbo.eu/) là công cụ tương tác để tạo lập các truy vấn, trước tiên bạn phải phóng to đến khu vực thích hợp trên bản đồ. Nhập truy vấn của bạn vào trường bên trái của trang và kích hoạt bất kỳ hành động nào bằng cách sử dụng các nút ở phía trên của giao diện. Nếu bạn chưa quen với ngôn ngữ truy vấn thì bạn có thể sử dụng trình trợ giúp để bắt đầu. Wiki OSM chứa một [mô tả đầy đủ](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) về cú pháp của ngôn ngữ truy vấn cũng như một [tập hợp các ví dụ](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
-Bản đồ sẽ làm nổi bật tất cả dữ liệu được lựa chọn bởi truy vấn của bạn, sau đó bạn có thể sửa đổi. Nhấn "Run" để làm mới màn hình kết quả. Một khi bạn đã hài lòng với những gì bạn thấy, "Export" cung cấp một số sự lựa chọn, trong số đó là dữ liệu OSM thô. Nếu lượng dữ liệu bị giới hạn bạn cũng có thể truy cập chúng trực tiếp sau khi chuyển đổi giữa chế độ xem bản đồ và chế độ xem dữ liệu bằng cách sử dụng các nút ở bìa phải phía trên. Tùy chọn xuất khẩu *Query -> compact OverpassQL* tạo ra một siêu liên kết được sử dụng cho Overpass API.
+Bản đồ sẽ làm nổi bật tất cả dữ liệu được lựa chọn bởi truy vấn của bạn, sau đó bạn có thể sửa đổi. Nhấn "Run" để làm mới màn hình kết quả. Một khi bạn đã hài lòng với những gì bạn thấy, "Export" cung cấp một số sự lựa chọn, trong số đó là dữ liệu OSM thô. Nếu lượng dữ liệu bị giới hạn bạn cũng có thể truy cập chúng trực tiếp sau khi chuyển đổi giữa chế độ xem bản đồ và chế độ xem dữ liệu bằng cách sử dụng các nút ở bìa phải phía trên. Tùy chọn trích xuất *Query -> compact OverpassQL* tạo ra một siêu liên kết được sử dụng cho Overpass API.
 
 ![overpass turbo][]
 
@@ -66,7 +66,7 @@ Nếu bạn muốn thiết kế một truy vấn riêng để có được một
 
 #### Overpass API
 
-[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) là một dịch vụ chuyên dụng được tối ưu hóa để truy vấn nhưng không viết dữ liệu OpenStreetMap. Do tối ưu hóa này nó hoạt động rất nhanh so với các api cơ sở dữ liệu chính và hầu như không có giới hạn về số lượng dữ liệu chuyển giao. Một số trường hợp của dịch vụ này có sẵn trên mạng, ví dụ sử dụng trong ví dụ sau cũng cung cấp một số thông tin trên [Trang chủ](http://overpass-api.de/)
+[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) là một dịch vụ chuyên dụng được tối ưu hóa để truy vấn nhưng không ghi dữ liệu lên OpenStreetMap. Do được tối ưu hóa, nó hoạt động rất nhanh so với các API cơ sở dữ liệu chính và hầu như không có giới hạn về số lượng dữ liệu chuyển giao. Một số trường hợp của dịch vụ này có sẵn trên mạng, ví dụ sử dụng trong ví dụ sau cũng cung cấp một số thông tin trên [Trang chủ](http://overpass-api.de/)
 
 Nếu bạn có URL truy vấn để gửi yêu cầu http đến Overpass API thì một công cụ như [wget](https://www.gnu.org/software/wget/) - khả dụng cho các hệ điều hành khác, xem [ở đây](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - cho phép bạn tải xuống dữ liệu OSM gốc trực tiếp từ máy chủ và lưu trữ chúng trên máy tính của bạn. Đoạn mã sau đây là mã lệnh của trình bash phổ biến trên các hệ thống Unix để lấy tất cả dữ liệu trong một vùng hạn xác định:
 
@@ -84,7 +84,7 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->Điều gì xảy ra ở đây (đối với những người tò mò không muốn đọc hết tài liệu về ngôn ngữ truy vấn)?  
+>Điều gì xảy ra ở đây (dành cho những người tò mò không muốn đọc hết tài liệu về ngôn ngữ truy vấn)?  
 >node(...) chọn tất cả các node trong một vùng xác định;  
 >< recurses up fully, i.e. tức là chọn tất cả các đường chứa các nút này và tất cả các mối quan hệ có chứa các nút và đường này;  
 >rel(br) lựa chọn tất cả các quan hệ cha mẹ của các mối quan hệ có thể thu được (nếu không mối quan hệ tổng thể sẽ không có được)
