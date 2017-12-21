@@ -12,7 +12,7 @@ Sử dụng Geofabrik và HOT Export
 > Hướng dẫn này có thể được tải xuống tại đây: [Geofabrik_and_HOT_Export_vi.odt](/files/Geofabrik_and_HOT_Export_vi.odt) or [Geofabrik_and_HOT_Export_vi.pdf](/files/Geofabrik_and_HOT_Export_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
-Sau khi học cách thêm và chỉnh sửa dữ liệu trong OpenStreetMap (OSM), bây giờ có thể bạn muốn lấy dữ liệu làm bản sao lưu hoặc xử lý nó bằng phần mềm Hệ thống Thông tin Địa lý mã nguồn mở, chẳng hạn như Quantum GIS ([www.qgis. org] (http://www.qgis.org)).  
+Sau khi học cách thêm và chỉnh sửa dữ liệu trong OpenStreetMap (OSM), bây giờ có thể bạn muốn lấy dữ liệu làm bản sao lưu hoặc xử lý nó bằng phần mềm Hệ thống Thông tin Địa lý mã nguồn mở, chẳng hạn như Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
 TẢI DỮ LIỆU OSM TỪ TRANG WEB GEOFABRIK
 -------------------------------------
@@ -75,40 +75,40 @@ Hai cách cuối cùng để chọn vùng xuất dữ liệu là thông qua ch�
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+Đa giác được nhập vào phải dưới định dạng GeoJSON hệ tọa độ WGS84. Một trong những cách để tạo file GeoJSON là sử dụng trang web geojson.io. Sau khi chúng ta chọn vùng trong trang web [geojson.io](http://geojson.io/), sao chép phần chữ trong ô bên phải và dán vào một trình soạn thảo mà bạn sử dụng, như là [Atom](https://atom.io/) và lưu dưới dạng .geojson.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+Tệp GeoJSON cần được chỉnh sửa một chút để Công cụ trích xuất dữ liệu chấp nhận. Xin lưu ý rằng tệp không được bao gồm nhiều đa giác. Với hình thức đơn giản nhất, tệp chỉ cần cho biết rằng đó là "loại: đa giác" và liệt kê tọa độ của các điểm / nút xác định khu vực. Tệp GeoJSON sau đó sẽ được công cụ phân tích cú pháp và được sử dụng để chỉ định tệp tin AOI.
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
 
 
-## Select File Formats
+## Lựa chọn định dạng dữ liệu
 
-The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
+Công cụ này cho phép trích xuất dữ liệu OSM thông qua Overpass API theo dạng thức gốc Protocol Buffer Binary (PBF), trước khi lọc dữ liệu cho các đối tượng bản đồ và các thẻ thông tin đi kèm do người dùng chỉ định. Khi dữ liệu đã được lọc, chúng hoàn toàn có thể chuyển đổi sang các định dạng mà người sử dụng lựa chọn.  
 
-Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Hiện tại công cụ có thể chuyển đổi dữ liệu OSM thành Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf và MBTiles .mbtiles. Ít nhất một trong các định dạng tệp phải được chọn cho việc trích xuất dữ liệu, nhưng không hạn chế chọn bao nhiêu, có thể thực hiện bằng cách đánh dấu nhiều ô.
 
 ![export-tool-file-formats][]
 
 
-### Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+### Định dạng Shapefile .shp
+Shapesfiles là một định dạng dạng bảng được phát triển bởi Esri. Đây là định dạng tệp phổ biến nhất cho dữ liệu GIS. Một shapefile thực sự là 3-4 tập tin riêng lẻ, thường đi kèm với nhau như một kho lưu trữ ZIP. Shapefiles có những hạn chế nhất định, chẳng hạn như kích thước tệp, giới hạn ở 2 gigabyte (GB) và giới hạn độ dài tên cột là 10 ký tự. Đọc thêm về [Shapefiles .shp] [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) trong phần "Học".
 
 ![export-tool-shapefile][]
 
 
-### Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+### Định dạng Geopackage .gpkg
+OGC Geopackages lưu trữ dữ liệu địa lý dưới định dạng CSDL SQLite đơn. Geopackages rất giống với định dạng CSDL Spatialite-enabled SQLite. Chúng có thể sử dụng được với hầu hết các ứng dụng GIS. Geopackages hỗ trợ không hạn chế dung lượng file và số lượng cột trong bảng, hỗ trợ Unicode. Chúng cũng phù hợp nếu bạn cần phải chạy các câu lệnh truy vấn dữ liệu. Đọc thêm về [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) trong phần "Học".
 
 ![export-tool-sql][]
 
 
-### Garmin .img
+### Định dạng Garmin .img
 A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
 
 ![export-tool-garmin][]

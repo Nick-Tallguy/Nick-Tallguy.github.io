@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Copying, Pasting & Rotating - iD editor
+title: Sao chép, Dán và Quay đối tượng - iD editor
 permalink: /vi/hot-tips/copy-paste/
 lang: vi
 category: hot-tips
 ---
 
-Sao chép, dán và xoay - Chỉnh sửa iD
+Sao chép, Dán và Quay đối tượng - iD editor
 ============
 
 ![copy-paste][]

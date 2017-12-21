@@ -1,19 +1,19 @@
 ---
 layout: doc
-title: Tasking Manager 2
+title: Trình quản lý tác vụ phiên bản 2
 permalink: /vi/coordination/tasking-manager/
 lang: vi
 category: coordination
 ---
 
-# Tasking Manager
+# Trình quản lý tác vụ
 
 > Hướng dẫn này có thể tải tại đây [tasking-manager_vi.odt](/files/tasking-manager_vi.odt) or [tasking-manager_vi.pdf](/files/tasking-manager_vi.pdf)  
-> Reviewed 2015-08-26  
+> Reviewed 2017-12-19  
 
 **Hướng dẫn này mô tả một phiên bản kế thừa của Tasking Manager. Nếu giao diện người dùng của phiên bản bạn sử dụng trông khác với trình mô tả ở đây thì bạn nên tham khảo [sổ tay cho phiên bản 3](/vi/coordination/tasking-manager3)**
 
-Chỉ mục
+Mục lục
 -------------
 -  [Tổng quan về cách sử dụng Trình quản lý tác vụ HOT](/vi/coordination/tasking-manager/#overview-of-the-process)  
 -  [Ngôn ngữ, Tùy chọn, liên kết trợ giúp, và các liên kết khác. Trang người dùng của bạn - danh sách các dự án mà bạn đã hỗ trợ và tin nhắn](/vi/coordination/tasking-manager/#options-amp-links)  

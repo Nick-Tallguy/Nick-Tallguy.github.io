@@ -2,48 +2,48 @@
 layout: doc
 permalink: /zh_TW/mobile-mapping/
 lang: zh_TW
-title: Mapping with a SmartPhone, GPS or Paper
+title: 使用手機、GPS 或紙本繪圖
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapping with a Smartphone, GPS or Paper
+使用手機、GPS 或紙本繪圖
 =============================
 
-> This guide may be downloaded as [mobile-mapping_en.odt](/files/mobile-mapping_en.odt) or [mobile-mapping_en.pdf](/files/mobile-mapping_en.pdf)  
-> Reviewed 2015-07-14  
+> 此指南能以 [mobile-mapping_zh_TW.odt](/files/mobile-mapping_zh_TW.odt) 或 [mobile-mapping_zh_TW.pdf](/files/mobile-mapping_zh_TW.pdf) 下載  
+> 審閲於 2015-07-14  
 
-To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+要真正建立詳細及準確的地圖，需要在你準備更新的區域進行調查。本節中的指南涉及使用：  
 
-- GPS  which will probably be more accurate than your mobile phone,  
-- Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
-- Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+- GPS：這可能會比你的手機更準確  
+- Field Papers：一種列印的地圖，你可以寫在上面，然後可以上傳並追蹤  
+- 你的手機：有許多應用程式使用OSM資料進行導航，許多應用程式可幫助您執行調查。這裡只列出了一些，但這個列表每天都在增加，一些援助組織正在設計自己的應用程式來收集特定的數據。  
 
-More and more smartphones today include a radio chip that allows them to receive signals from satellite navigation systems and determine their location. The most common chips receive signals from the U.S. GPS frequencies, while higher end models may include chips that can read frequencies from the Russian GLONASS satellites at the same time.  
+現在越來越多的智能手機內建一種芯片，能夠接收來自衛星定位系統的信號並確定其地理位置。最常見的芯片接收來自美國GPS頻率的信號，而較高端的型號可能包括可以同時從俄羅斯GLONASS衛星讀取頻率的芯片。  
 
-The quality of the chips used in smartphones may vary, and data accuracy and performance could vary as well.  
+智能手機中使用的芯片品質不一，數據的準確性和性能也會有所不同。  
 
-Devices with GPS chips can work autonomously, off the grid, and without an Internet connection, while devices marked with “A-GPS only” (Assisted GPS) require a network data connection (and a mobile signal from a telecommunications company) to work correctly. A-GPS data can help autonomous GPS chips perform better by pre-caching data for better performance.  
+帶有GPS芯片的設備可以自主工作，不需要電信基地台或是網路。而標有“僅限A-GPS” (輔助GPS) 的設備需要網路連線 (以及來自電信公司的基地台信號) 才能正常工作。A-GPS數據可以幫助獨立GPS芯片藉由預先儲存資料以提供更好的性能。  
 
-For most mapping applications to work as expected, the user is assumed to have a smartphone with an autonomous GPS chip. Check your device specifications to confirm whether your device uses an autonomous chip, or is A-GPS only device.  
+對於大多數繪圖應用程式，會假定用戶的智能手機有獨立GPS芯片。檢查你的設備規格以確認你的設備是使用獨立芯片，還是僅限於A-GPS設備。  
 
-There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
+應用程式市場有很多繪圖應用程式 (免費或付費) 供智能手機使用。每個應用程式都有自己的優點和缺點。  
 
-In choosing a mapping application for mapping in OpenStreetMap, you need to consider the following features.  
+選擇要繪圖 OpenStreetMap 的繪圖應用程式時，需要考慮以下功能。  
 
-- Easy to learn; immediately usable  
-- With GPX support (create waypoints, customizable log intervals)  
-- Allows OSM contribution (add, edit, upload data)  
-- Able to load OSM data offline  
-- Able to geo-tag multimedia files (notes, photos, videos)  
-- In active development  
+- 簡單易學、立即可用  
+- 支援 GPX (建立航點，可自訂日誌記錄間隔)  
+- 允許 OSM 貢獻 (新增、編輯、上傳資料)  
+- 允許離線載入 OSM 資料  
+- 能夠在多媒體文件 (筆記、照片、影片) 標記地理標籤  
+- 積極開發  
 
-Try several applications that are compatible with your phone to get familiar with the interface and choose the best app based on your personal preference and mapping approach.
+多試試幾個你的手機能安裝的應用程式，以熟悉界面，並根據您的個人喜好和繪圖習慣來選擇最好用的應用程式。
 
-<!-- Commenting for now since tables doesn't look very nice!
+<!--  因為表格看起來不漂亮，所以把他註解起來(不讓你看)
 
-Recommended Applications for Smartphones / PDAs
+手機 / PDA 推薦應用程式
 -----------------------------------------------------
 
 | Application      | Usage  | Android  | Blackberry | iOS     | Windows |
@@ -57,11 +57,11 @@ Recommended Applications for Smartphones / PDAs
 | OSMTracker       | m      | O        |            |         | O       |
 | Vespucci         | m:f    | O        |            |         |         |
 
-O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
+O - 支援, D - 開發中, m - 繪圖, n - 導航, p - POI 編輯器, f - 完整編輯器
 
  -->
 
-The next sections will guide you through the installation and use of specific applications for you to contribute to OpenStreetMap using your smartphone.
+接下來的部分將指導你安裝和使用特定應用程式，以便你使用智能手機也能為OpenStreetMap做出貢獻。
 
-> **Note:** Before proceeding any further, verify that GPS is available and active for the device. In Android, go to **Settings \> Location** and enable it.  
-> Remember, GPS doesn’t work inside buildings!
+> **注意：** 在繼續使用之前，請確認設備的 GPS 是否可用並在開啟狀態。 在Android 中，請到 **設定 \> 定位** 來啟動。  
+> 請記住，GPS在建築物內無法使用！

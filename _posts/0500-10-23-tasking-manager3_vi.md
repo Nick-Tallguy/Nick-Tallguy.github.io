@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tasking Manager 3
+title: Trình quản lý tác vụ phiên bản 3
 permalink: /vi/coordination/tasking-manager3/
 lang: vi
 category: coordination

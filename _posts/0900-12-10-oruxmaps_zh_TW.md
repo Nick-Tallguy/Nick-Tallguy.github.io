@@ -9,12 +9,12 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> This guide may be downloaded as [OruxMaps_en.odt](/files/OruxMaps_en.odt) or [OruxMaps_en.pdf](/files/OruxMaps_en.pdf)  
-> Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
+> 此指南能以 [OruxMaps_zh_TW.odt](/files/OruxMaps_zh_TW.odt) 或 [OruxMaps_zh_TW.pdf](/files/OruxMaps_zh_TW.pdf) 下載  
+> 審閲於 2016-08-04 雖然稍微過時仍然是有點用，並包含一個連結到網站自己的軟體使用手冊。
 
 In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  
 
-​Install OruxMaps
+​安裝 OruxMaps
 ------------------
 
 Install the app from Google Play Store by searching for **OruxMaps**, OruxMaps should be among the top search results listed.  
@@ -27,10 +27,10 @@ Click on **Install** button and press Accept after App permissions appears.
 
 Congratulations! You  now have OruxMaps installed in your device!  
 
-​Using OruxMaps
+使用 OruxMaps
 --------------------
 
-The first time you run the application, you will see a notification like this:  
+第一次執行應用程式時，你會看到這樣的通知：  
 
 ![Running OruxMaps for the first time][]
 
@@ -38,7 +38,7 @@ In OruxMaps, you can choose whether you want to use online maps or offline maps.
 
 ![Interface overview][]
 
-Source: [OruxMaps Manual English Version](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
+來源：[OruxMaps 使用手冊英文版](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
 This manual may be more up to date than this guide, and may be available in other languages.  
 
 You can change your background map under **Maps \> Switch Maps**. After that you get to options - you want to use your **Online Map** or you want to use
@@ -68,7 +68,7 @@ Some windows will pop up and you need to select **OpenStreetMaps** (1) and afte
 
 ![Uploading tracks to OpenStreetMap][]
 
-​Adding Waypoint
+新增航點
 ---------------------
 
 ![Creating a waypoint][]
@@ -81,10 +81,10 @@ If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. F
 
 ![Managing save waypoints][]
 
-Summary
+總結
 -----------
 
-Congratulations! You already know how to use OruxMaps for field surveys. It may be hard on your first time but if you continue using this you will be familiar with this application.  
+恭喜！ 您已經知道如何使用 OruxMaps 進行實地調查。 你第一次可能很難，但是如果你繼續使用，就會熟悉這個應用程式。  
 
 [Search OruxMaps in Play Store]: /images/mobile-mapping/oruxmaps_image00.png
 [Install OruxMaps]: /images/mobile-mapping/oruxmaps_image03.png

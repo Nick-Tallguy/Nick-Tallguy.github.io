@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tagging - iD editor
+title: Gắn Thẻ thông tin - iD editor
 permalink: /vi/hot-tips/tagging/
 lang: vi
 category: hot-tips
 ---
 
-Tagging - iD editor
+Gắn Thẻ thông tin - iD editor
 ============
 
 - TOC

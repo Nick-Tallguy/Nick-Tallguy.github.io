@@ -9,8 +9,8 @@ category: beginner
 iD 編輯器
 =============
 
-> 此一指南可供下載： [beginner_id-editor_zh_TW.odt](/files/beginner_id-editor_zh_TW.odt) 或 [beginner_id-editor_zh_TW.pdf](/files/beginner_id-editor_zh_TW.pdf)  
-> Reviewed 2016-03-30  
+> 此指南能以 [beginner_id-editor_zh_TW.odt](/files/beginner_id-editor_zh_TW.odt) 或 [beginner_id-editor_zh_TW.pdf](/files/beginner_id-editor_zh_TW.pdf) 下載  
+> 審閲於 2016-03-30  
 
 - TOC
 {:toc}

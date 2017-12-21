@@ -105,19 +105,19 @@ Una de nuestras herramientas de selección favoritas es **Deseleccionar nodos:**
 ¡Buena suerte!  
 
 
-[Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
+[Buildings tools plugin]: /images/josm/buildings_tools-plugin_es.png
 [Buildings tools button]: /images/josm/buildings_tools-button.png
 [Draw edge]: /images/josm/draw-edge.png
 [Extend building]: /images/josm/extend-building.png
 [Merge buildings]: /images/josm/merge-buildings.png
-[Set buildings size]: /images/josm/set-buildings-size.png
-[Set buildings size dialog]: /images/josm/set-buildings-size-dialog.png
-[Buildings advanced]: /images/josm/buildings-advanced.png
+[Set buildings size]: /images/josm/set-buildings-size_es.png
+[Set buildings size dialog]: /images/josm/set-buildings-size-dialog_es.png
+[Buildings advanced]: /images/josm/buildings-advanced_es.png
 [Utilsplugin2 plugin]: /images/josm/utilsplugin2-plugin_es.png
-[More tools menu]: /images/josm/more-tools-menu.png
+[More tools menu]: /images/josm/more-tools-menu_es.png
 [Nodes interesection]: /images/josm/utilsplugin2-nodes-intersection.png
-[Copy tags]: /images/josm/utilsplugin2-copy-tags.png
-[Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
-[Selection menu]: /images/josm/selection-menu.png
+[Copy tags]: /images/josm/utilsplugin2-copy-tags_es.png
+[Replace geometry]: /images/josm/utilsplugin2-replace-geometry_es.png
+[Selection menu]: /images/josm/selection-menu_es.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
 

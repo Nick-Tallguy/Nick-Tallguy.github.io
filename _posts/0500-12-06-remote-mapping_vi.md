@@ -1,21 +1,21 @@
 ---
 layout: doc
-title: HOT Remote Mapping  
+title: Lập bản đồ từ xa với HOT  
 permalink: /vi/coordination/HOT-Remote-Response-Guide 
 lang: vi
 category: coordination
 ---
 
-# Hướng dẫn HOT Remote Response   
+# Hướng dẫn về Hồ trợ từ xa với HOT   
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
 
 > Hướng dẫn này có thể tải tại đây [remote-mapping_vi.odt](/files/remote-mapping_vi.odt) or [remote-mapping_vi.pdf](/files/remote-mapping_vi.pdf)  
 > Reviewed 2015-09-18  
 
-Nhóm Nhân sự OpenStreetMap (HOT) là một cộng đồng toàn cầu đang làm việc để áp dụng các nguyên tắc của nguồn mở và chia sẻ dữ liệu mở nhằm đáp ứng nhân đạo và phát triển kinh tế.  
+Nhóm Humanitarian OpenStreetMap (HOT) là một cộng đồng toàn cầu đang làm việc để áp dụng các nguyên tắc của nguồn mở và chia sẻ dữ liệu mở nhằm hỗ trợ nhân đạo và phát triển kinh tế.  
 
-### Cách hoạt động của phản hồi từ xa 
+### Cách hoạt động Hỗ trợ từ xa của HOT 
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 

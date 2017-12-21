@@ -9,13 +9,13 @@ category: josm
 JOSM Editing Tools
 ==================
 
-> This guide may be downloaded as [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) or [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
-> Reviewed 2017-06-09  
+> 此指南能以 [josm_josm-tools_zh_TW.odt](/files/josm_josm-tools_zh_TW.odt) 或 [josm_josm-tools_zh_TW.pdf](/files/josm_josm-tools_zh_TW.pdf) 下載  
+> 審閲於 2017-06-09  
 
 - TOC
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+在 [開始使用 JSOM 編輯指南](/zh_TW/josm/start-josm/) 我們介紹了在JOSM中繪圖的基礎知識，但是有很多工具和技術沒有展示出來。
 
 Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
 

@@ -9,45 +9,45 @@ category: josm
 空照圖
 ================
 
-> 這篇指南可以 [aerial-imagery_zh_TW.odt](/files/aerial-imagery_zh_TW.odt) 或 [aerial-imagery_zh_TW.pdf](/files/aerial-imagery_zh_TW.pdf) 下載  
-> 2015-09-21 審閲  
+> 此指南能以 [aerial-imagery_zh_TW.odt](/files/aerial-imagery_zh_TW.odt) 或 [aerial-imagery_zh_TW.pdf](/files/aerial-imagery_zh_TW.pdf) 下載  
+> 審閲於 2015-09-21  
 
 為開放街圖描繪影像是相當簡單和有力的貢獻方法。利用影像來畫地面上的點、線和形狀的工作稱作**數化**。數化常與實地收集資料的方法分開看待，稱做**實地探察**。數化影像能提供 OSM 地圖骨架，讓實地探察的人們更容易展開。在這一章我們將學到更多有關如何運用空照圖的方法。  
 
 關於空照圖
 -------------
 
-Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
+空照圖指的是從天空向地面所拍攝的照片。可以從飛機，無人機，直升機，甚至是風箏和氣球中拍攝，但是最常見的來源是繞地球運轉的衛星。  
 
-[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
+繪圖[在 GPS 章節中](/zh_TW/mobile-mapping/using-gps) ，我們了解到數十顆繞地球運行的衛星，這些衛星可以讓我們的GPS接收機識別我們的經緯度。除了這些GPS衛星之外，還有可以拍攝地球的衛星。這些照片經過編輯後，就可以在GIS（繪圖）軟體中使用。 Bing空照圖就是由衛星照片組成。  
 
 解析度
 ----------
 
-All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  
+所有的數位照片都是由像素構成的。如果放大照片，你會發現圖像開始變得模糊，最終會看到圖像是由數千個不同顏色的小方塊組成的。無論照片是用單眼相機`、手機或是衛星繞地球拍攝，都是如此。  
 
 ![Image resolution][]
 
-Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.  
+解析度是指圖像中像素的長乘寬。像素越高表示有更高的解析度，這意味著你可以在照片中看到更多的細節。單眼相機的解析度通常以百萬像素為單位。你的相機能夠記錄的像素越多，照片的解析度就越高。  
 
-Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.  
+空照圖也是一樣的，除了我們通常談論的不同解決方案。測量對於空照圖很重要，因為像素就代表地面上的一定距離。我們通常將圖像描述為“兩米解析度的圖像”，這意味著一個像素相當於地面兩米。一米解析度的圖像將有更高的分辨率，而50公分的解析度會更高。由Bing提供的圖像通常是這樣的解析度，儘管它在不同位置而有變化，並且在許多地方，它比兩米更差，此時難以識別圖像中的物體。  
 
 ![Comparison of low and high resolution imagery][]
 
-The higher the resolution of an aerial image, the easier it is to use in making maps.  
+空照圖的解析度越高，製作地圖越容易。  
 
 地理參照
 ---------------
 
-Each pixel of an aerial photograph has a size, and each pixel also has a location. As we mentioned above, this is because aerial photographs are georeferenced.  
+空照圖的每個像素都有一個大小，每個像素也有一個地理位置。正如我們上面提到的，這是因為空照圖是地理參照。  
 
-Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
+就像一個 GPS 的點有一個經緯度，一個空照圖的像素也是如此。然而，正如解析度差可能給繪圖帶來挑戰一樣，地理參照圖像也是如此。  
 
-Let's think for a moment about how georeferencing works, and why it is challenging to do. When somebody georeferences an image, they first identify a handful of pixels in the image that are known locations. If we have a square photograph, we might identify the coordinates of all four corners, and that way the whole image can be correctly placed.  
+讓我們思考一下地理參照是如何工作的，以及為什麼要做這個工作。當某人對圖像進行地理對比時，他們首先識別圖像中已知地理位置的一小部分像素。如果我們有一個方形的照片，我們可以確定所有四個角的坐標，這樣整個圖像就可以正確放置。  
 
-This all seems quite simple, but consider this: Earth is round; camera lenses are round; yet photographs are flat and 2-dimensional. This means that when a flat image is being mapped onto the round Earth, there is always going to be some stretching of the image and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular. Because of this problem, all of the pixels in an aerial image might not be perfectly placed.  
+看起來似乎很簡單，但是要考慮到：地球是圓的、相機鏡頭是圓形的，但照片是2D平面的。這意味著，當一個平面圖像投影到圓形的地球上時，總會有一些圖像拉伸和失真。想像一下，試著扁平一個橘子皮，它不會長方形。由於這個問題，空照圖中的所有像素可能並不完美。  
 
-Luckily, some really smart people have devised clever algorithms for solving this problem, and so the imagery that you see on Bing is pretty close to being accurate. In most places it won't be noticeably wrong at all - and it's certainly fine for making maps. The most common areas for imagery to be inaccurately located are in hilly, mountainous areas. In the [Correcting Imagery Offset chapter](/en/josm/correcting-imagery-offset) we will see how to correct for this problem.  
+幸運的是，一些非常聰明的人已經設計了巧妙的算法解決這個問題，所以你在Bing上看到的圖像相當接近準確。在大多數地方，它根本不會有明顯的錯誤 - 用來製作地圖當然是沒問題了。最常見的圖像位置不准確的地區是丘陵和山區。在 [校正圖像偏移章節](/zh_TW/josm/correcting-imagery-offset) 中，我們將探討如何解決這個問題。  
 
 [Image resolution]: /images/josm/orange-resolution.png
 [Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png

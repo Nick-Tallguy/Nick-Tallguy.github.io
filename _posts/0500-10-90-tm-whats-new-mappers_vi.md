@@ -2,12 +2,12 @@
 layout: doc
 permalink: /vi/coordination/tm-whats-new-for-mappers/
 lang: vi
-title: What is new for Mappers in the Tasking Manager 3
+title: Tính năng mới dành cho Người lập bản đồ trong Trình quản lý tác vụ phiên bản 3
 category: coordination
 date: 0500-10-21 13:00:00
 ---
 
-# Tính năng mới của Mappers trong Tasking Manager 3
+# Tính năng mới dành cho Người lập bản đồ trong Trình quản lý tác vụ phiên bản 3
 
 > Hướng dẫn này có thể tải tại đây [tm3-news-for-mappers_vi.odt](/files/tm3-news-for-mappers_vi.odt) or [tm3-news-for-mappers_vi.pdf](/files/tm3-news-for-mappers_vi.pdf)  
 

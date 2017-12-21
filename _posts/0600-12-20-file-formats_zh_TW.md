@@ -1,16 +1,16 @@
 ---
 layout: doc
-title: File Formats
+title: 檔案格式
 permalink: /zh_TW/osm-data/file-formats/
 lang: zh_TW
 category: osm-data
 ---
 
-File Formats
+ 檔案格式
 =============
 
-> This guide may be downloaded as [File_Formats_en.odt](/files/File_Formats_en.odt) or [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
-> Reviewed 2016-09-05
+> 此指南能以 [File_Formats_zh_TW.odt](/files/File_Formats_zh_TW.odt) 或 [File_Formats_zh_TW.pdf](/files/File_Formats_zh_TW.pdf) 下載  
+> 審閲於 2016-09-05
 
 Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
 

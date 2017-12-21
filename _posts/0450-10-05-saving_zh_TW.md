@@ -31,11 +31,11 @@ iD 編輯器 - 儲存
 
 如果要看更多關於變動組合備註部分，請見  <https://wiki.openstreetmap.org/wiki/Good_changeset_comments>  
 
-Your edits will appear on <http://www.openstreetmap.org> within a few seconds.  
+你的變動將會於幾秒後顯示在 <http://www.openstreetmap.org> 。  
 
-Although your changes are accepted by OpenStreetMap within a few seconds, some programmes, apps. and devices use a saved version of OpenStreetMap which may not be updated for some weeks or months.  
+雖然你的變動在幾秒鐘內會被 OpenStreetMap 接受，但一些小程序，應用程式及設備儲存的OpenStreetMap版本，在幾週或幾個月內可能不會更新。  
 
-Tasking Manager - Finishing a square, or stopping work before the square is finished  
+任務分配管理系統 - 完成矩形，或在矩形完成之前停止工作  
 -------------------------------------------------------------------
 
 When you think the square is finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete. Do not copy the changeset comment with hashtags which you used when saving.  
@@ -57,8 +57,8 @@ You can send a message from this box to another Tasking Manager user by using **
 參見  
 ---------
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
-*Subtitles available in some languages*  
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "人道主義OpenStreetMap團隊 - 任務分配管理系統教學影片")  
+*部份語言有字幕*  
 
 
 

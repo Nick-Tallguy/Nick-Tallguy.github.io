@@ -8,8 +8,8 @@ category: coordination
 
 # 任務分配管理系統
 
-> 此指南能在 [tasking-manager_zh-tw.odt](/files/tasking-manager_zh-tw.odt) 或 [tasking-manager_zh-tw.pdf](/files/tasking-manager_zh-tw.pdf)  下載  
-> 2017-06-10 審閱  
+> 此指南能以 [tasking-manager_zh_TW.odt](/files/tasking-manager_zh_TW.odt) 或 [tasking-manager_zh_TW.pdf](/files/tasking-manager_zh_TW.pdf)  下載  
+> 審閲於 2015-08-26  
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
 

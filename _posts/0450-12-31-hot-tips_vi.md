@@ -2,13 +2,13 @@
 layout: doc
 permalink: /vi/hot-tips/
 lang: vi
-title: HOT Tips - Getting started for new mappers - iD editor
+title: Các gợi ý của HOT - Khởi đầu cho người lập bản đồ mới - iD editor
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-HOT Tips - Bắt đầu cho người lập bản đồ mới sử dụng iD và Trình quản lý tác vụ
+Các gợi ý HOT - Khởi đầu cho người lập bản đồ mới sử dụng iD và Trình quản lý tác vụ
 ================
 
 Các hướng dẫn ngắn này nhằm mục đích giúp các tình nguyện viên lập bản đồ cho các Cơ quan trợ giúp bằng cách sử dụng Trình quản lý tác vụ, nhưng các nguyên tắc đều giống nhau cho tất cả bản đồ OpenStreetMap. Lập bản đồ rất dễ dàng, nhưng hãy làm cho nó đúng và tiếp tục cải tiến bản đồ!

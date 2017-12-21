@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Starting with a Tasking Manager - iD editor
+title: Bắt đầu với Trình Quản lý tác vụ - iD editor
 permalink: /vi/hot-tips/getting-started/
 lang: vi
 category: hot-tips
 ---
 
-Bắt đầu với Trình Quản lý tác vụ - trình soạn thảo iD
+Bắt đầu với Trình Quản lý tác vụ - iD editor
 ============
 
 - TOC

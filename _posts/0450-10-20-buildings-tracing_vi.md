@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tracing rectangular buildings - iD editor
+title: Vẽ các toà nhà hình chữ nhật - iD editor
 permalink: /vi/hot-tips/tracing-rectangular-buildings/
 lang: vi
 category: hot-tips

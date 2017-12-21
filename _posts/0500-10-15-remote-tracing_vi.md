@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Theo dõi đường xá, nhà cửa, nước và sử dụng đất 
+title: Vẽ các loại đường, tòa nhà, vùng nước và các hình thức sử dụng đất 
 permalink: /vi/coordination/remote-tracing/
 lang: vi
 category: coordination
 ---
 
-Theo dõi đường xá, nhà cửa, nước và sử dụng đất
+Vẽ các loại đường, tòa nhà, vùng nước và các hình thức sử dụng đất
 ===========================================
 
 > Hướng dẫn này có thể tải xuống tại [remote-tracing_vi.odt](/files/remote-tracing_vi.odt) or [remote-tracing_vi.pdf](/files/remote-tracing_vi.pdf)  

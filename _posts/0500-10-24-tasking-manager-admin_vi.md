@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tasking Manager 2 Project Creation
+title: Trình quản lý tác vụ phiên bản 2 - Tạo dự án mới
 permalink: /vi/coordination/tasking-manager-project-admin/
 lang: vi
 category: coordination
@@ -9,7 +9,7 @@ category: coordination
 
 **Hướng dẫn này mô tả một phiên bản kế thừa của Trình quản lý tác vụ. Nếu giao diện người dùng của phiên bản bạn sử dụng trông khác với mô tả ở đây thì bạn nên tham khảo [hướng dẫn sử dụng phiên bản 3](/vi/coordination/tasking-manager3-project-admin)**
 
-# Quản trị dự án Trình quản lý tác vụ OSM
+# Trình quản lý tác vụ OSM - Quản trị dự án
 
 Trình quản lý tác vụ OpenStreetMap là điều cần thiết để thực hiện một mapathon, quản lý kích hoạt HOT, hoặc tạo nhiệm vụ lập bản đồ cho người lập bản đồ sinh viên. Tasking Manager phân chia công việc thành các phần địa lý có thể quản lý, làm giảm xung đột biên tập, đặc biệt với một số lượng lớn người lập bản đồ phân phối. Trình quản lý Tác vụ cũng giúp làm chính xác bản đồ và chất lượng dữ liệu bằng cách cung cấp tập hợp các hướng dẫn cho người lập bản đồ (ví dụ: 'ánh xạ tất cả các con đường và tòa nhà'). Nói tóm lại, Trình quản lý tác vụ là cách bạn thiết lập và chỉ đạo luồng công việc cho các hoạt động lập bản đồ mở. Mô-đun này mô tả việc quản lý cơ bản của Quản lý tác vụ OSM cho các sự kiện lập bản đồ thành công. 
 

@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tasking Manager 3 Project Creation
+title: Trình quản lý tác vụ phiên bản 3 - Tạo dự án mới
 permalink: /vi/coordination/tasking-manager3-project-admin/
 lang: vi
 category: coordination
 ---
 
-# Tạo lập quản lý tác vụ và Hành chính OSM
+# Trình quản lý tác vụ OSM - Tạo dự án và quản trị
 
 > Hướng dẫn này có thể được tải xuống dưới dạng mô-đun độc lập: [tasking-manager3-admin_vi.odt](/files/tasking-manager3-admin_vi.odt) or [tasking-manager3-admin_vi.pdf](/files/tasking-manager3-admin_vi.pdf) 
 

@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Enhancing the colours or background - iD editor
+title: Tăng cường màu sắc và nền - iD editor
 permalink: /vi/hot-tips/enhance/
 lang: vi
 category: hot-tips

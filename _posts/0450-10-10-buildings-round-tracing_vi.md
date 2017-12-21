@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tracing round buildings - iD editor
+title: Vẽ các toà nhà tròn- iD editor
 permalink: vin/hot-tips/tracing-round-buildings/
 lang: vi
 category: hot-tips

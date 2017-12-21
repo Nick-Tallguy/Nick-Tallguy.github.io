@@ -10,8 +10,8 @@ category: coordination
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
 
-> 本指南提供 [remote-mapping_zh_TW.odt](/files/remote-mapping_zh_TW.odt) 及 [remote-mapping_zh_TW.pdf](/files/remote-mapping_zh_TW.pdf) 兩種格式可供利用  
-> 2015-09-18 審核  
+> 此指南能以 [remote-mapping_zh_TW.odt](/files/remote-mapping_zh_TW.odt) 或 [remote-mapping_zh_TW.pdf](/files/remote-mapping_zh_TW.pdf) 下載  
+> 審閲於 2015-09-18  
 
 人道救援開放街圖小組 (Humanitarian OpenStreetMap Team, HOT) 是一個運用開源和開放資料原則在人道救援和經濟發展的全球社群。  
 

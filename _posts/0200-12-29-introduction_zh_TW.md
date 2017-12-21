@@ -10,7 +10,7 @@ category: beginner
 ============
 
 > 此指南能以 [beginner_introduction_zh_TW.odt](/files/beginner_introduction_zh_TW.odt) 或 [beginner_introduction_zh_TW.pdf](/files/beginner_introduction_zh_TW.pdf) 下載  
-> 2015-07-12 審閱  
+> 審閲於 2015-07-12  
 
 資訊就是力量。有了好的資訊以及正確
 的認知，個人和社群能夠更有效的增進
