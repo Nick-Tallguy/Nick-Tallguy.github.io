@@ -10,7 +10,7 @@ Sử dụng Geofabrik và HOT Export
 ================
 
 > Hướng dẫn này có thể được tải xuống tại đây: [Geofabrik_and_HOT_Export_vi.odt](/files/Geofabrik_and_HOT_Export_vi.odt) or [Geofabrik_and_HOT_Export_vi.pdf](/files/Geofabrik_and_HOT_Export_vi.pdf)  
-> Cập nhật: 2017-10-31  
+> Cập nhật: 2017-12-24  
 
 Sau khi học cách thêm và chỉnh sửa dữ liệu trong OpenStreetMap (OSM), bây giờ có thể bạn muốn lấy dữ liệu làm bản sao lưu hoặc xử lý nó bằng phần mềm Hệ thống Thông tin Địa lý mã nguồn mở, chẳng hạn như Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -109,146 +109,146 @@ OGC Geopackages lưu trữ dữ liệu địa lý dưới định dạng CSDL SQ
 
 
 ### Định dạng Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+Một file .IMG chứa đựng tất cả các thông tin cần thiết để vẽ lại bản đồ trong một thiết bị GPS di động Garmin.  Lưu ý rằng các lựa chọn kiểu dáng và tính năng của bản đồ không phụ thuộc vào lựa chọn tính năng được gửi tới Công cụ Xuất - thay vào đó, một kiểu mặc định dựa trên tất cả các dữ liệu OSM được sử dụng. Đọc thêm về [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) trong phần Học.
 
 ![export-tool-garmin][]
 
 
-### Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+### Định dạng Google Earth .kml
+Ngôn ngữ đánh dấu khóa (Keyhole Markup Language - KML) là một định dạng dựa trên XML để mô hình hóa điểm, đường, đa giác và thuộc tính liên quan theo địa lý. Google Earth là nền tảng trình duyệt xem trái đất nổi tiếng nhất sử dụng KML, cũng là lý do khiến nó được phát triển. Đọc thêm về [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) trong phần Học.
 
 ![export-tool-google-earth][]
 
 
-### OSM .pbf
-The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
+### Định dạng OpenStreetMap .pbf
+Các định dạng dữ liệu truyền thống của OSM là một tài liệu XML của các nút, đường và quan hệ. Định dạng nhị phân của Bộ đệm giao thức (Buffer Binary Format - PBF) là một hình thức được tối ưu hóa của OSM XML, kích thước lưu trữ nhỏ hơn và đọc nhanh hơn. Định dạng này chỉ tương thích với các công cụ cụ thể của OSM, chẳng hạn như phần mềm chỉnh sửa OSM. Mỗi .PBF được cung cấp bởi công cụ xuất khẩu phải được tham chiếu hoàn thiện - nghĩa là bất kỳ nút, đường hoặc mối quan hệ nào được tham chiếu bởi một đường hay mối quan hệ đều phải xuất hiện trong PBF. Đọc thêm về [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) trong phần Học.
 
 ![export-tool-xml-code][]
 
 
-### MAPS.ME .mwm
-Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-Open Maps.me
+### Định dạng MAPS.ME .mwm
+Maps.me là một ứng dụng Điều hướng GPS và Bản đồ dành cho điện thoại thông minh và máy tính bảng Android, đặc biệt là hỗ trợ lập bản đồ và điều hướng ngoại tuyến (không sử dụng kết nối internet). Đọc thêm về [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) trong phần Học. Để sử dụng các tùy biến trích xuất dữ liệu với Maps,me trong Android, hãy làm theo các bước sau:
+Mở Maps.me và điều hướng đến khu vực bạn quan tâm
+Chấp nhận lời nhắc của Maps.me và tải xuống khu vực được đưa ra
+Tắt hoàn toàn Maps.me
+Tạo một phiên trích xuất dữ liệu dạng MWM
+Tải xuống dữ liệu được trích xuất, giải nén và sao chép file .mwm vào thiết bị của bạn
+Sử dụng trình quản lý file trong Android, mở thư mục chứa file .mwm vừa sao chép
+Chạm và giữ để sao chép hoặc di chuyển file này
+Mở thư mục "MapsWithMe" và mở thư mục có số thứ tự lớn nhất (ví dụ: 170917)
+Sao chép hoặc di chuyển file .mwm của bạn vào thư mục này bằng cách chọn nút "Paste"
+Xóa file .mwm đã có cho khu vực bạn quan tâm ở trước đó nhưng ghi nhớ tên file đó
+Đổi tên file .mwm của bạn trùng với tên file bạn vừa xóa bằng cách chọn file (chạm và giữ) và nhấp vào nút 'More" (3 gạch)
+Mở Maps.me
 
 ![export-tool-mapsme][]
 
 
-### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+### Định dạng OsmAnd .odf
+OsmAnd cũng là ứng dụng Điều hướng GPS và bản đồ cho điện thoại thông minh Android và iOS cũng như máy tính bảng, đặc biệt là hỗ trợ hiển thị, định tuyến và tìm kiếm ngoại tuyến. Đọc thêm về ứng dụng và nhiều tính năng của nó tại trang chủ [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf). 
 
 ![export-tool-osmand][]
 
 
-### MBTiles .mbtiles
-MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
+### Định dạng MBTiles .mbtitles
+MBTiles là một định dạng tập tin để lưu trữ các bản đồ dạng mảnh ghép trong một tập tin duy nhất. Công cụ Export Tool cho phép người dùng tạo các MBTile chứa các mảnh ghép từ OSM, có thể được sử dụng làm nguồn dữ liệu trong hoàn cảnh ngoại tuyến trong các ứng dụng hỗ trợ chúng. Xin lưu ý rằng MBTiles sẽ trích xuất tất cả các đối tượng bản đồ OSM trong vùng được lựa chọn thông qua Công cụ Xuất, với tab '3 Dữ liệu' tự động chuyển sang tùy chọn thả xuống để chọn nguồn và phạm vi phóng, thay cho thẻ cây tiêu chuẩn và tính năng Tùy chọn YAML. Đọc thêm về [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) trong phần Học.
 
 ![export-tool-mbtiles][]
 
 
-Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
+Định dạng tệp khác liên tục được đề xuất và thêm vào Công cụ Xuất. Nếu có định dạng tệp mà bạn muốn thấy được thêm vào trong tương lai, vui lòng đưa ra nhận xét về Kho lưu trữ  [GitHub](https://github.com/hotosm/osm-export-tool/issues). Để biết thêm thông tin chi tiết về từng loại định dạng tệp, vui lòng truy cập trang Định dạng tệp trong mục ‘[Học](https://export.hotosm.org/en/v3/learn)’ của trang web công cụ.
 
 
 
-## Customise Map Features
+## Tùy biến các đối tượng bản đồ
 
-The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
+Công cụ này cho phép người dùng tuỳ chỉnh dữ liệu được lựa chọn trong khu vực được xác định. Dữ liệu OSM được xác định bằng cách sử dụng các bộ lọc thẻ và khóa, với Cây thẻ thông tin hoặc Mẫu YAML. Cây thẻ thông tin dành cho các trường hợp sử dụng phổ biến, đưa ra một bộ các bộ lọc và các lựa chọn, trong đó cấu hình YAML cung cấp sự kiểm soát hoàn toàn đối với các bộ lọc và các lựa chọn, sử dụng định nghĩa bộ lọc kiểu câu lệnh truy vấn có cấu trúc.
 
 ![export-tool-treetag-tab][]
 ![export-tool-yaml-tab][]
 
 
-OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+OSM là một cơ sở dữ liệu mở toàn cầu về các đối tượng địa lý được gắn thẻ, với ba loại yếu tố:
+Điểm, đặc trưng cho một điểm trên bề mặt trái đất
+Đường, là một tập hợp các điểm tạo thành các đoạn hoặc vùng
+Quan hệ, là một tập hợp các điểm, đường và các quan hệ khác
 
-Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
+Mỗi yếu tố này có thể có số lượng bất kỳ thẻ thông tin dạng khóa=giá trị. Ví dụ: bưu điện có thể được đại diện bằng một đường khép kín với các thẻ building=yes và amenity=post_office. Hãy xem các thẻ này có thể được định nghĩa trong Công cụ Xuất bằng cách sử dụng Cây thẻ thông tin và Biểu mẫu YAML để lọc dữ liệu OSM.
 
-### Tag Tree
-The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
+### Cây thẻ thông tin
+Cây thẻ thông tin là cách đơn giản nhất để bắt đầu lựa chọn các đối tượng bản đồ, chỉ đơn giản bằng cách đánh dấu hộp kiểm cha mẹ hoặc con. Xin lưu ý rằng việc chọn hộp kiểm cha mẹ sẽ thêm các thẻ khóa=giá trị liên quan đến chủ đề, cũng như các hộp kiểm con bên dưới nó. Mỗi hộp kiểm cha mẹ có một truy vấn khác để lọc dữ liệu, vì vậy bạn nên lướt qua mỗi hộp kiểm để hiển thị cú pháp cho mỗi chủ đề, mà cú pháp đó sẽ phải cung cấp trong hộp thông tin ở bên phải. 
 
 ![export-tool-treetag-sql][]
 
 
-For example selecting the ‘Emergency’ parent checkbox, will automatically select the ‘Police Station’, ‘Ambulance Station’ and ‘Fire Station’ child checkboxes below it, yet in addition to this it will also select all tags where emergency=yes, amenity=police and amenity=fire_station in the following SQL query:
+Ví dụ như chọn hộp kiểm cha 'Emergency', sẽ tự động chọn hộp kiểm con 'Police Station', 'Ambulance Station' và 'Fire Station' ở dưới nó, tuy nhiên ngoài ra nó cũng sẽ chọn tất cả các thẻ có  emergency=yes, amenity=police và amenity=fire_station trong truy vấn SQL sau đây:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 
-The parent checkboxes do not always represent what is available as children below, to try and account for all possible tags associated with a theme. OSM tags are continuously evolving and we want to ensure that the tool can adapt to these changes. Only the most commonly used key=value tags are represented as child checkboxes, and the parent checkboxes are used to try and encompass those not used as frequently, but fall within a theme. If you have suggestions for modifications to these themes and tags, please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) used to populate the Tag Tree, and we will try to incorporate it where appropriate.
+Các hộp kiểm cha mẹ không phải lúc nào cũng thể hiện những gì có trong các hộp kiểm con phía dưới, để thử và tính tất cả các thẻ có thể có liên quan đến một chủ đề. Các thẻ OSM liên tục phát triển và chúng tôi muốn đảm bảo rằng công cụ này có thể thích ứng với những thay đổi này. Chỉ các cặp khóa=giá trị phổ biến nhất được sử dụng trong cách hộp kiểm con, và hộp kiểm cha mẹ được sử dụng để thử và bao gồm thẻ thông tin không được sử dụng như thường xuyên, nhưng cùng nằm trong một chủ đề. Nếu bạn có đề xuất sửa đổi các chủ đề và thẻ này, hãy bình luận tại [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) để phổ biến Cây thẻ thông tin, và chúng tôi sẽ cố gắng tích hợp nó nếu phù hợp.
 
 ![export-tool-treetag-spreadsheet][]
 
 
-### YAML Form
-Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
+### Biểu mẫu YAML
+Sử dụng cấu hình YAML cho khả năng kiểm soát hoàn toàn việc áp dụng bộ lọc cho dữ liệu OSM, bằng cách sử dụng định nghĩa bộ lọc giống ngôn ngữ truy vấn có cấu trúc (SQL) để áp dụng các thẻ khóa=giá trị. Xin lưu ý rằng Cây thẻ thông tin cũng tạo cú pháp trên mẫu YAML, vì vậy bất kỳ hộp kiểm cha mẹ và con nào được chọn sẽ tự động được áp dụng trong hộp YAML. Hoạt động này như một điểm khởi đầu cho truy vấn có thể được chỉnh sửa thêm. 
 
 ![export-tool-treetag-yaml][]
 
 
-The use of YAML was chosen due to its simplicity and compatibility with SQL. The YAML feature selection format  is similar to style files used by programs such as osm2pgsql and imposm. It is whitespace sensitive, with each child element indented below its parent element, and preceded by a dash. This dash must have a space after it. Here is a basic example of a feature selection with 3 themes, buildings, waterways and hospitals:
+Việc sử dụng YAML đã được chọn do sự đơn giản và tính tương thích với SQL. Cách thức chọn đối tượng bản đồ thông qua công cụ YAML tương tự như các hình thức trích xuất file được sử dụng bởi các chương trình như osm2pgsql và imposm. Cú pháp tuân thủ khoảng trống chặt chẽ, với mỗi phần tử con được thụt vào bên dưới phần tử mẹ của nó, và phía trước có một dấu gạch ngang. Dấu gạch ngang này phải có một khoảng trắng sau đó. Dưới đây là một ví dụ cơ bản về lựa chọn đối tượng bản đồ với 3 chủ đề, tòa nhà, đường thuỷ và bệnh viện:
 
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
-Mappings in the above example are: types and select 
-Lists in the above example are: child elements of select and types
+YAML có chủ đề cùng với hai cấu trúc dữ liệu là Kiểu vẽ và Danh sách
+Chủ đề của ví dụ bên trên là: buildings
+Các kiểu vẽ trong ví dụ bên trên là: types và select 
+Danh sách trong ví dụ bên trên là: các phần tử con của select và types
 
-YAML: Themes
-Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
+YAML: Chủ đề
+Chủ đề là chìa khóa mức trên cùng của tài liệu YAML; các ký tự hợp lệ là con chữ, con số, và dấu gạch chân. 
 
-YAML: Geometry Types
-The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
+YAML: Kiểu Dạng hình
+Các giá trị danh sách dưới các kiểu vẽ có thể là ít nhất một trong: “- points”, “- lines”, “- polygons”. Nếu không có chìa khóa types, tất cả ba kiểu dạng hình được bao gồm trong chủ đề.
 
-YAML: Column Selections
-List items under the mapping select key determines the columns for each theme. The following example will populate the ‘name’ and ‘amenity’ columns with their values from OSM:
+YAML: Lựa chọn Cột
+Các mục dnah sách dưới chìa khóa select định rõ các cột của mỗi chủ đề. Ví dụ sau sẽ điền các cột “name” và “amenity” với các giá trị trong OSM:
 
 ![export-tool-yaml-code2][]
 
 
-YAML: Filters
-Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
+YAML: Bộ lọc
+Bộ lọc nằm dưới chìa khóa where: trong mỗi chủ đề. Chúng định rõ tập hợp con của dữ liệu OSM được bao gồm trong chủ đề. Ví dụ sau sẽ lọc chủ đề để chỉ có các đối tượng mà chìa khóa natural có giá trị waterway:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+Xin lưu ý rằng gần như lúc nào sẽ cần bộ lọc nào đó; nếu không thì chủ đề sẽ bao gồm tất cả các dữ liệu OSM ứng với một kiểu dạng hình cụ để. Một bộ lọc được định rõ theo cú pháp giống SQL; các từ khóa hợp lệ là IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+Các cài đặt trước của JOSM
+Các phiên bản cũ hơn của Công cụ Xuất đã sử dụng các tệp .XML JOSM định sẵn để xác định lựa chọn đối tượng bản đồ. Phiên bản mới sử dụng YAML vì nó linh hoạt hơn trong cách chuyển dữ liệu OSM. Tuy nhiên, Công cụ Xuất khẩu mới này có thể giúp chuyển đổi các cài đặt sẵn JOSM thành cấu hình YAML, bằng cách chọn nút 'Nạp từ JOSM Preset .XML'. Xin lưu ý Nếu cài đặt sẵn phức tạp hơn, có thể cần phải được viết như một cấu hình YAML mới dựa trên các phần tử 'item' chứa trong XML.
 
 ![export-tool-load-preset][]
 
 
 
-### Configurations
+### Cấu hình
 
-YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
+Các cấu hình YAML có thể được định nghĩa và lưu lại để sử dụng trong tương lai thông qua trang 'Configs'. Thật hữu ích khi tạo một cấu hình cho một dự án, sau đó có thể sử dụng cho tất cả các hình thức trích xuất dữ liệu liên quan đến dự án đó. Cung cấp cho cấu hình 'tên' và 'mô tả' sẽ làm giúp những người khác dễ dàng tìm thấy. Bỏ chọn hộp kiểm 'Công khai' sẽ làm cho cấu hình chỉ hiển thị đối với tác giả. 
 
 ![export-tool-configuration-saved][]
 
 
-Please note that configurations can be edited, which is useful for evolving a feature selection during the course of a project. Saved YAML configurations can be selected via the ‘Stored Configuration’ option on the ‘3 Data’  tab when creating an export. Use the Search bar to find configurations related to your project.
+Xin lưu ý rằng cấu hình có thể được chỉnh sửa, rất hữu ích cho việc phát triển lựa chọn tính năng trong quá trình thực hiện dự án. Các cấu hình YAML đã lưu có thể được lựa chọn thông qua tùy chọn 'Stored Configuration' trên tab '3 Data' khi tạo một phiên xuất dữ liệu. Sử dụng thanh Tìm kiếm để tìm các cấu hình liên quan đến dự án của bạn.
 
 ![export-tool-configuration-stored][]
 
 
-For further detailed information regarding feature selections and YAML, please visit the ‘Selecting Features’ and ‘YAML Specification’ in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website. 
+Để biết thêm chi tiết về lựa chọn đối tượng và YAML, xin hãy đọc 'Chọn Đối tượng' và 'Tiêu chuẩn YAML' trong phần '[Tìm hiểu](https://export.hotosm.org/vi/v3/learn)' của trang chủ công cụ. 
 
 
 
