@@ -26,7 +26,7 @@ Chỉ Mục
 
 ## Đường
 
-Bất kỳ loại đường nào từ đường cao tốc đến đường ray và đường dẫn đều được gắn nhãn 'đường cao tốc' trong OpenStreetMap. Điều quan trọng là các đường cao tốc được thêm chính xác vào cơ sở dữ liệu (OpenStreetMap data) vì chúng được sử dụng theo nhiều cách:  
+Bất kỳ loại đường nào từ đường cao tốc đến đường ray và đường dẫn đều được gắn nhãn 'highway' trong OpenStreetMap. Điều quan trọng là các đường cao tốc được thêm chính xác vào cơ sở dữ liệu (OpenStreetMap data) vì chúng được sử dụng theo nhiều cách:  
 
 -  Phần mềm điều hướng như thiết bị và ứng dụng Garmin. trên điện thoại thông minh như Osmand có thể cung cấp thông tin định tuyến trên khoảng cách lớn nếu thông tin chính xác được tải vào chúng. Vì những thiết bị này dựa vào các thiết bị GPS nằm trong thiết bị để định vị vị trí liên quan đến tấm cơ sở được nạp vào chúng, điều quan trọng là các đường cao tốc thực sự nằm trong khoảng 15 mét ở đúng nơi, hoặc chúng sẽ không hoạt động!  
 -  Lập kế hoạch cho một xe tải cứu hộ lớn dễ dàng hơn nhiều nếu bạn có thể phân biệt giữa con đường và con đường thân với tất cả các giai đoạn ở giữa.  
@@ -97,7 +97,7 @@ Ranh giới khu dân cư được sử dụng cho nhiều mục đích trong Ope
 
 ** Trong điều kiện lý tưởng **  
 
-*Gia đoạn 1* - Một quyết định được đưa ra để lập bản đồ một khu vực, và người lập bản đồ nhanh chóng sơ bộ đưa ra ranh giới khu dân cư landuse=residential boundary xung quanh một khu vực,  
+*Giai đoạn 1* - Một quyết định được đưa ra để lập bản đồ một khu vực, và người lập bản đồ nhanh chóng sơ bộ đưa ra ranh giới khu dân cư landuse=residential boundary xung quanh một khu vực,  
 *Giai đoạn 2* - Dự án Quản lý Tác vụ được tạo ra và mỗi người lập bản đồ cá nhân tinh chỉnh ranh giới để gần các tòa nhà …  
 
 ![JOSM residential][]
@@ -156,7 +156,7 @@ Trừ khi các hướng dẫn của dự án chỉ định khác, các tòa nhà
 
 Màn hình chỉ ra một phần ô vuông đang được chỉnh sửa. Lưu ý chiều cao tới mặt đất là 15 mét - về con số bạn nên điều chỉnh khi chỉnh sửa các tính năng. Khi thiết lập, bạn nhắm tới tòa nhà nơi nó đáp ứng mặt đất:  
 
-1.  **Toà nhà tròn.** Trong một số trường hợp các toà nhà có thể thấp và bóng của nó khó có thể nhìn thấy. Nếu bạn đứng giữa chúng, chúng sẽ xuất hiện giống như mái vòm. Tôi đã vẽ và gắn thẻ chỉ một trong số chúng **building=yes**. Để nhanh chóng thêm các toà nhà còn lại trong JOSM hoặc ID, tôi lựa chọn cái này (đánh dấu), trên bàn phím nhấn *Ctrl+c*, và di chuyển con trỏ tới trung tâm của toà nhà khác có cùng kích thước, nhấn phím *Ctrl+v*. Khi tất cả các tòa nhà tròn có kích thước này đã được thêm vào hình vuông của tôi, tôi dán một tòa nhà trên một tòa nhà có kích thước khác nhau, JOSM - sử dụng * Alt + Ctrl * và chuột để định lại kích thước đúng kích cỡ, sao chép nó và sau đó dán lên tất cả các tòa nhà tròn có cùng kích thước.  
+1.  **Toà nhà bo tròn.** Trong một số trường hợp các toà nhà có thể thấp và bóng của nó khó có thể nhìn thấy. Nếu bạn đứng giữa chúng, chúng sẽ xuất hiện giống như mái vòm. Tôi đã vẽ và chỉ gắn một thẻ là **building=yes**. Để nhanh chóng thêm các toà nhà còn lại trong JOSM hoặc ID, tôi lựa chọn cái này (đánh dấu), trên bàn phím nhấn *Ctrl+c*, và di chuyển con trỏ tới trung tâm của toà nhà khác có cùng kích thước, nhấn phím *Ctrl+v*. Khi tất cả các tòa nhà bo tròn có kích thước này đã được thêm vào vùng làm việc của tôi, tôi dán một tòa nhà trên một tòa nhà có kích thước khác nhau, JOSM - sử dụng *Alt + Ctrl* và chuột để định lại kích thước đúng kích cỡ, sao chép nó và sau đó dán lên tất cả các tòa nhà tròn có cùng kích thước.  
 2.  **Toà nhà hình chữ nhật.** Những tòa nhà đặc biệt này đang tạo ra một bóng dâm đáng chú ý. Bóng dâm có thể giúp xác định hình dạng của tòa nhà bị che khuất bởi đối tượng khác. Bạn sẽ thấy rằng nhiều tòa nhà không đơn giản như vậy, và có mặt hoặc dạng chữ 'L' - bạn phải theo dõi hình dạng thực tế của tòa nhà vì điều này sẽ giúp xác định nó khớp với tên và dữ liệu khác đang được thêm vào trong quá trình khảo sát mặt đất.  
 3.  **Tường bao của một tổ hợp toà nhà.** Sau khi kiểm tra hình ảnh, phóng to và thu nhỏ cho đến khi tôi hài lòng rằng từ hình dạng của đối tượng (sử dụng bóng của nó để xác định), tôi tin rằng đây là một bức tường, và tôi đã gắn thẻ nó **barrier=wall**. Có thể thay thế bằng barrier=fence and barrier=hedge.  
 4.  Tôi đã thêm trường barrier=wall vào trường building=yes tại góc toà nhà.  
