@@ -12,12 +12,12 @@ Geofabrik und den HOT Export benutzen
 > Diese Anleitung kann als [Geofabrik_and_HOT_Export_de.odt](/files/Geofabrik_and_HOT_Export_de.odt) oder [Geofabrik_and_HOT_Export_de.pdf](/files/Geofabrik_and_HOT_Export_de.pdf) heruntergeladen werden  
 > Geprüft 2016-09-05  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+Nachdem man gelernt hat Daten in OpenStreetMap (OSM) zu editieren und hinzuzufügen, möchte man nun vielleicht die Daten, als Backup oder zur Verarbeitung mit Geografischen Information Systemen, welche Open Source wie z.B. Quantum GIS ([www.qgis.org](http://www.qgis.org)) sein können, erhalten.  
 
 Daten von der Geofabrik Website herunterladen
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+Die OSM Daten können einfach heruntergeladen werden von [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
@@ -33,49 +33,49 @@ Wenn Sie dann die Daten Indonesiens im Shapefile (.shp) Format erhalten möchten
 
 Sie können überprüfen, wann die Daten das letzte Mal aktualisiert wurden. Bitte beachten Sie, dass der Server die Daten für gewöhnlich alle 24 Stunden aktualisiert. Wenn Sie also gerade erst Daten zu OSM hinzugefügt haben, werden sie nicht automatisch in ihrem Download enthalten sein, sondern Sie müssen zunächst darauf warten, dass der Server die neusten Änderungen erhält.  
 
-Getting OSM Data on HOT Export Tool Website
+OSM Daten von der HOT Export Tool Webseite erhalten
 --------------------------------------
 
-The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
+Das [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) bietet einen Onlineservice an, der es Benutzern erlaubt, spezifische OSM Extrakte von überall auf der Welt zu erstellen, indem man ein Gebiet auswählt, gewünschte Kartenelemente und ein Dateiformat. Innerhalb von Minuten werden aktuelle OSM Daten exportiert, gefiltert und konvertiert. Der nachfolgende Abschnitt zeigt, wie man das Export Tool verwendet. Diese Information ist auch im‘[Learn](https://export.hotosm.org/en/v3/learn)’ Abschnitt auf export.hotosm.org zu finden.
 
 ![hot-export-tool][]
 
-## QuickStart
+## Schnellstart
 
-Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
+Jeder der ein Benutzerkonto hat, kann einen spezifische OpenStreetMap Export mit dem Export Tool erstellen. Ein OpenStreetMap Benutzerkonto mit gültiger E-mail-Adresse genügt, damit nach erfolgreichem Export ein Link zum Herunterladen dorthin gesendet werden kann.
 
-## Identify Area of Interest
+## Gebiet angeben
 
-There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
+Es gibt mehrere Möglichkeiten ein Gebiet (Area of Interest - AOI) imExport Tool auszuwählen. Dies sind die Angabe von Koordinaten einer Bounding Box (eingrenzendes Rechteck), das Zeichnen einer Bounding Box, das Zeichnen eines Polygons (Vieleck), das Verwenden der aktuellen Ansicht oder durch das Hochladen einer geojson Datei.
 
 ![export-tool-create][]
 
-Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will become available. The ‘Create’ tab is where you will set up your export, by describing it on the left hand side and selecting your AOI with the map on the right hand side. 
+Sobald man sich im HOT Export Tool angemeldet hat, wird das 'Erstellen' Tab verfügbar. Hier definiert man seinen Export durch eine Beschreibung auf der linken Seite und der Auswahl des Gebiets (AOI) auf der Karte auf der rechten Seite. 
 
 ![export-tool-describe][]
 
-### Search Bar
-There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+### Suchleiste
+Es gibt 6 Wege ein Gebiet (AOI) für den Export zu definieren. Der erste und der zweite Weg verwenden die Suchleiste, welche einen Ort durch Eingabe des Namens und dessen Auswahl im Ergebnis darunter findet oder durch die Definition von Bounding Box Koordinaten. Die Minimum X, Minimum Y, Maximum X und Maximum Y (Westen, Süden, Osten, Norden) Koordinaten eines Landes können [in einer CSV Liste des Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries) gefunden werden.
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-### Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+### Digitalisiert 
+Der dritte und vierte Weg zur Auswahl eines Gebiets im Export Tool ist entweder das Zeichnen einer Bounding Box, durch Auswahl der 'Box' Option aus der Werkzeugspalte auf der rechten Seite des Bildschirms oder das freihändige Einzeichnen eines Polygons direkt auf der Karte, durch Auswahl des 'Zeichnen' Werkzeugs.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-### Upload Polygon
-The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
+### Ein Polygon hochladen
+Die letzten zwei Wege, wie man ein Gebiet auswählen kann, ist durch das 'Diese Ansicht' Werkzeug auf der rechten Seite der Karte, welches die Ausdehnung der aktuellen Kartenansicht nimmt oder durch das 'Import' Werkzeug, welches das Hochladen eines Flächenpolygons ermöglicht.  
 
 ![export-tool-area-view][]
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+Das importierte Polygon muss in Form einer GeoJSON Datei in WGS84 geographischen Koordinaten vorliegen. Eine Möglichkeit eine GeoJSON Datei zu erzeugen bietet die Webseite geojson.io. Hat man ein Gebiet ausgewählt unter [geojson.io](http://geojson.io/), kopiert man den Text in der rechten Box und fügt ihn in einen Editor seiner Wahl ein, wie z.B. [Atom](https://atom.io/) und speichert seine GeoJSON Datei.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
