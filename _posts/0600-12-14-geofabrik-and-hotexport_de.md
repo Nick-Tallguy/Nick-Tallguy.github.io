@@ -81,71 +81,71 @@ Das importierte Polygon muss in Form einer GeoJSON Datei in WGS84 geographischen
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+Die GeoJSON Datei muss leicht editiert werden, damit es das Export Tool akzeptiert. Bitte beachten, dass keine Multipolygone verwendet werden können. In der einfachsten Version muss nur angegeben werden, dass es sich um ein "type: Polygon" handelt und die Koordinaten der Punkte/Nodes des Gebiets aufgelistet werden. Die GeoJSON Datei wird dann erfolgreich durch das Tool analysiert und zur Definition des Gebietes (AOI) verwendet.
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
 
 
-## Select File Formats
+## Datei Formate auswählen
 
-The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
+Das Tool erlaubt es OSM Daten, unter Hilfe der Overpass API im nativen Protocol Buffer Binary (PBF) Dateiformat, zu extrahieren, nachdem die Daten nach den vom Benutzer angegebenen Kartenelementen gefiltert wurden. Nach dem Filtern der Daten wird die Datei ins gewünschte Dateiformat des Benutzers konvertiert.  
 
-Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Aktuell kann das Tool OSM Daten in Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf und MBTiles .mbtiles konvertieren. Mindestens ein Dateiformat muss für den Export ausgewählt werden, für die Anzahl gibt es aber keine Einschränkung, was durch mehrere Auswahlboxen erledigt werden kann.
 
 ![export-tool-file-formats][]
 
 
 ### Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+Shapefiles sind tabellarische Formate, welche durch Esri entwickelt wurden. Sie sind das beliebtestes Dateiformat für GIS Daten. Ein Shapefile ist eigentlich 3-4 individuelle Dateien, im Normalfall als ZIP Archiv zusammengefasst. Shapefiles haben bestimmte Einschränkungen, wie etwa eine Dateigröße bis maximal 2 Gigabytes (GB) und eine Spaltennamenlänge von maximal 10 Zeichen. Im [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) Lernkapitel gibt es mehr dazu zu lesen.
 
 ![export-tool-shapefile][]
 
 
 ### Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+OGC Geopackages speichern geospatiale Daten in einer einzigen SQLite Datenbank. Geopackages sind sehr ähnlich den Spatialite fähigen SQLite Datenbanken. Sie sollten in den meisten bekannten GIS Anwendungen verwendet werden können. Geopackages unterstützen uneingeschränkte Dateigrößen, beliebig viele Spalten in Tabellen und unterstützen Unicode. Sie sind besonders geeignet falls man SQL Abfragen über die Daten ausführen möchte. Im [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) Lernkapitel gibt es mehr darüber zu lesen.
 
 ![export-tool-sql][]
 
 
 ### Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+Eine .IMG Datei beinhaltet alle Informationen zum Rendern einer Karte auf einem mobilen Garmin GPS Gerät. Man beachte bitte, dass der kartografische .img Stil und die Auswahl der Kartenelemente unabhängig von der übertragenen Kartenelementauswahl an das Export Tool sind. Im  [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) Lernkapitel kann man mehr darüber lesen.
 
 ![export-tool-garmin][]
 
 
 ### Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+Die Keyhole Markup Language (KML) ist ein XML-basiertes Format zur Darstellung von Punkten, Linien, Polygonen und dazugehörigen geografischen Eigenschaften. Google Earth ist die bekannteste, browserbasierte Erderkundungsplattform, die KML verwendet, wofür es auch entwickelt wurde. Im [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) Lernkapitel kann man mehr darüber lesen.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
+Das anerkannte Datenformat für OSM ist ein XML Dokument aus Nodes, Wegen und Relationen. Das Protocol Buffer Binary Format (PBF) ist eine optimierte Darstellung von OSM XML, was weniger Speicherplatz verbraucht und schneller einzulesen ist. Das Format ist nur mit OSM spezifischen Werkzeugen kompatibel wie OSM Editoren. Jede .PBF Datei des Export Tools sollte in sich komplett sein - das heißt, jede Node, jeder Weg und jede Relation die durch einen Weg oder eine Relation referenziert wird, wird in der .PBF Datei auftauchen. Im [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) Lernkapitel kann man mehr dazu lesen.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-Open Maps.me
+Maps.me ist eine GPS Navigations- und Kartenanwendung für Android und iOS Smatphones und Tablets, die offline Mapping und Navigation unterstützt. Im [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) Lernkapitel kann man mehr dazu lesen. Um einen angepassten Export mit Maps.me auf Android zu verwenden, folgt man den folgenden Schritten:
+Man öffnet Maps.me und navigiert zu einer gewünschten Region.
+Man akzeptiert die Nachfrage von Maps.me und lädt die angebotene Region herunter.
+Man schließt Maps.me
+Man erstellt einen MWM Export
+Man lädt den Export herunter, entpackt ihn und kopiert die .mwm Datei auf das Gerät
+Man navigiert mit dem Android Dateimanager zum Dateipfad, der die .mwm Datei enthält
+Man drückt lange auf den Namen um sie auszuwählen und drückt den "Kopieren" oder "Ausschneiden" Button
+Man navigiert zu "MapsWithMe" und öffnet den am höchsten nummerierten Ordner (z.B. 170917)
+Man kopiert/verschiebt die .mwm Datei in diesen Ordner durch drücken des "Einfügen" Buttons
+Man löscht die in Maps.me heruntergeladene, ursprüngliche .mwm Datei für sein Gebiet, merkt sich aber den Dateinamen
+Man nennt seine .mwm Datei um, entsprechend des Namens der durch Maps.me heruntergeladenen Region (die Datei, die man gerade gelöscht hat) durch langes Drücken auf den Namen (zur Auswahl) und drückt den "Mehr" Button (3 vertikale Punkte)
+Man öffnet Maps.me
 
 ![export-tool-mapsme][]
 
 
 ### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+OsmAnd ist ebenfalls eine GPS Navigation- und Kartenanwendung für Android und iOS Smartphones, sowie Tablets, die offline Rendering, Routing und Suche ermöglicht. Mehr über die Anwendung und ihre zahlreichen Funktionen von [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) kann auf der Webseite der Anwendung gelesen werden. 
 
 ![export-tool-osmand][]
 
@@ -160,76 +160,76 @@ Additional file formats are continuously being suggested and added to the Export
 
 
 
-## Customise Map Features
+## Kartenelemente anpassen
 
-The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
+Das Tool erlaubt es Benutzern die im Gebiet ausgewählten Daten anzupassen. Die OSM Daten werden durch Tagfilter und Schlüsselselektion definiert, als Tagbaum oder im YAML Format. Der Tagbaum ist für allgemeine Anwendungsfälle mit einem vorbereitetem Satz an Filtern und einer möglichen Auswahl, wobei die YAML Konfiguration eine komplette Kontrolle über die Filter und Auswahl ermöglicht, mit einer SQL ähnlichen Filter Definition.
 
 ![export-tool-treetag-tab][]
 ![export-tool-yaml-tab][]
 
 
-OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+OSM ist eine öffentliche, globale Datenbank mit erfassten geografischen Elementen mit 3 Arten von Elementen:
+Nodes, die einen Punkt repräsentieren
+Wege, als ein Satz von Punkten, welche Linien oder Polygone formen
+Relationen, als ein Satz von Punkten, Wegen oder anderer Relationen
 
-Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
+Jedes dieser Elemente kann eine beliebige Anzahl an key=value Tags besitzen. Zum Beispiel eine Poststelle kann durch eine Linie mit den Tags building=yes und amenity=post dargestellt werden. Schauen wir uns an, wie diese Tags im Export Tool definiert werden können mit Hilfe des Tagbaums oder im YAML Format, um OSM Daten zu filtern.
 
-### Tag Tree
-The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
+### Tagbaum
+Der Tagbaum ist der einfachste Weg, um Elemente auszuwählen, durch einfaches anklicken der gewünschten Eltern und Kind Checkboxen. Man beachte, dass die Auswahl einer Eltern Checkbox zusätzliche zugehörige key=value Tags auswählen wird, genauso wie beinhaltete Kind Checkboxen. Jede Eltern Checkbox hat eine andere Abfrage um Daten zu filtern, wir empfehlen deshalb, die Syntax zu prüfen, durch Positionierung der Maus über der Checkbox, was eine Infobox hervorbringt. 
 
 ![export-tool-treetag-sql][]
 
 
-For example selecting the ‘Emergency’ parent checkbox, will automatically select the ‘Police Station’, ‘Ambulance Station’ and ‘Fire Station’ child checkboxes below it, yet in addition to this it will also select all tags where emergency=yes, amenity=police and amenity=fire_station in the following SQL query:
+Wählt man zum Beispiel die 'Emergency' Eltern Ceckbox, werden automatisch die 'Police Station', 'Ambulance Station' und 'Fire Station' darunter ausgewählt, des Weiteren werden auch alle Tags mit emergency=yes, amenity=police und amenity=fire_station  in folgender SQL Abfrage ausgewählt:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 
-The parent checkboxes do not always represent what is available as children below, to try and account for all possible tags associated with a theme. OSM tags are continuously evolving and we want to ensure that the tool can adapt to these changes. Only the most commonly used key=value tags are represented as child checkboxes, and the parent checkboxes are used to try and encompass those not used as frequently, but fall within a theme. If you have suggestions for modifications to these themes and tags, please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) used to populate the Tag Tree, and we will try to incorporate it where appropriate.
+Eltern Checkboxen beinhalten nicht immer alle möglichen Tags zu einem Thema als Kinder Checkboxen. OSM Tags entwickeln sich ständig weiter und wir möchten sicherstellen, dass das Tool sich an diese Änderungen anpasst. Nur die gebräuchlichsten key=value Tags sind als Kind Checkboxen enthalten und die Eltern Checkboxen werden nur zur Gruppierung solchen Themen verwendet. Falls man Änderungsvorschläge für diese Themen und Tags hat, kann man in dieser [Tabelle](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) kommentieren, die zur Erstellung des Tagbaums dient, und wir werden es wenn passend übernehmen.
 
 ![export-tool-treetag-spreadsheet][]
 
 
 ### YAML Form
-Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
+Verwendet man eine YAML Konfiguration hat man die komplette Kontrolle über die angewendete Filter über die OSM Daten, durch Verwendung einer SQL ähnlichen Filterdefinition zur key=value Auswahl. Man beachte, dass der Tagbaum auch eine Syntax in YAML Form generiert, so dass alle ausgewählten Eltern und Kind Checkboxen auch in der YAML Box Anwendung finden. Dies dient als Startpunkt für die Abfrage, die weiter angepasst werden kann. 
 
 ![export-tool-treetag-yaml][]
 
 
-The use of YAML was chosen due to its simplicity and compatibility with SQL. The YAML feature selection format  is similar to style files used by programs such as osm2pgsql and imposm. It is whitespace sensitive, with each child element indented below its parent element, and preceded by a dash. This dash must have a space after it. Here is a basic example of a feature selection with 3 themes, buildings, waterways and hospitals:
+Die Verwendung von YAML wurde gewählt, durch seine Einfachheit und Kompatibilität mit SQL. Die YAML Elementauswahl ist ähnlich den Styledateien, die durch Programme wie osm2pgsql und imposm verwendet werden. Sie ist Leerzeichen sensitiv, mit eingerückten Kindelementen unter den Eltern und einem vorstehendem Strich. Dem Strich muss ein Leerzeichen folgen. Es folgt ein Standardbeispiel einer Elementauswahl mit 3 Themen, Gebäuden, Wasserwegen und Krankenhäusern:
 
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
-Mappings in the above example are: types and select 
-Lists in the above example are: child elements of select and types
+XAML hat Themen und zwei Datenstrukturen, Mapping und Listen
+Das Thema im oberen Beispiel ist: buildings
+Mappings im oberen Beispiel sind: types und select 
+Listen im oberen Beispiel sind: Kinderelemente von select und types
 
-YAML: Themes
-Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
+YAML: Themen
+Themen sind die obersten Schlüsseln im YAML Dokument mit zulässigen Zeichen wie Buchstaben, Nummern und Unterstrichen. 
 
-YAML: Geometry Types
-The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
+YAML: Geometrie Typen
+Die Listenwerte unter den Mappingtypen können ein oder mehrere '- Punkte', '- Linien', '- Polygone' sein. Wird der Typenschlüssel weggelassen, werden alle drei Geometrietypen im Thema einbezogen.
 
-YAML: Column Selections
-List items under the mapping select key determines the columns for each theme. The following example will populate the ‘name’ and ‘amenity’ columns with their values from OSM:
+YAML: Spaltenauswahl
+Listenpunkte unter dem Mappingauswahlschlüssel bestimmen die Spalten für jedes Thema. Das folgende Beispiel wird die 'name' und 'amenity' Spalten mit ihren Werten aus OSM befüllen:
 
 ![export-tool-yaml-code2][]
 
 
-YAML: Filters
-Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
+YAML: Filter
+Filter sind unter dem where: Schlüssel in jedem Thema. Sie definieren welche Teilmengen von OSM Elementen zu einem Thema gehören. Das folgende Beispiel filtert das Thema nach Elementen bei denen der Schlüssel natural den Wert waterway besitzt:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+ Man beachte, dass es fast immer notwendig ist Filter einzusetzen, da sonst alle OSM Elemente im Thema beinhaltet sind für die gegebenen Geometrietypen. Ein Filter wird definiert durch eine SQL ähnliche Syntax mit den folgenden möglichen Schlüsselwörtern IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
+JOSM Vorlagen
 Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
 
 ![export-tool-load-preset][]
