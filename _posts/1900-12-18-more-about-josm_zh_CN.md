@@ -46,22 +46,20 @@ JOSM编辑过程
 
 ![JOSM Download Button][]
 
-- 下载窗口打开后，有一个粉色方框出现在地图上。
-    如果你没看到地图，点击“瓦片地图”
+-  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
     标签。
 
 ![JOSM Download Dialog][]
 
-- 粉色方框代表将要下载编辑的地图区域。
-    用鼠标右键平移、滚轮缩放到
+-  Use your mouse to pan and zoom it to an area
     你所熟知的区域，比如你的家乡或者邻里。
     JOSM地图窗口中的操作是一样的。
     鼠标右键拖动地图，滚轮放大和
     缩小。
 
->  如果偶尔在笔记本电脑上操作，滚动缩放
->  可能有点困难。JOSM中用鼠标操作更方便，
->  但多数较新款的笔记本都可以用触控板实现滚动。
+> Sometimes if you are working on a notebook computer it can be difficult
+> to scroll in and out. Working in JOSM is much easier if you have a mouse,
+> but most modern notebooks allow you to scroll using the touchpad.
 
 -  在要下载的区域画上方框。新建方框的方法是点击
     地图，按住鼠标左键，拖出
@@ -81,12 +79,14 @@ JOSM编辑过程
 -  要在JOSM里添加必应卫星影像，点击JOSM顶部菜单栏的“影像”，
     然后选择“必应卫星”。
 
-> 如果你的影像菜单里没有必应卫星(Bing Sat)，可能需要从JOSM首选项里激活。
-> 做法是进入编辑菜单的首选项对话框，
-点击写有“WMS TMS”的图标。有可能列表太长则需要按向下按钮才能找到这个图标。
+> If you don't see Bing Sat on the Imagery menu, you may need to activate
+> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
+> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> <br>
 >  ![JOSM Preferences up down][]
 >  ![JOSM Preferences WMS TMS][]
-> 点击“Bing Sat(必应卫星)”，然后点“激活”。
+> <br>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### JOSM概览
@@ -140,11 +140,11 @@ JOSM编辑过程
     和前一节一样，请通过选择相应的预设组合菜单来
     描述所绘制的对象。 
 
-> 千万不要编辑你已下载区域以外的地图。  
-> 你可以看见已下载区域有个实线矩形框，  
-> 而未下载区域则标有平行的斜线。  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You  
+> can see the rectangular area you have downloaded has a solid background,  
+> while the area you have not downloaded has diagonal pinstriped lines. 
+> <br>  
+> ![JOSM area downloaded][]
 
 保存变更
 --------------

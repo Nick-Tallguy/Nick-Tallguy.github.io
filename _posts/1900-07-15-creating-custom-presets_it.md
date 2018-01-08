@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM - Creazione di preimpostazioni personalizzate
-permalink: /en/josm/creating-presets/
+permalink: /it/josm/creating-presets/
 lang: it
 category: josm
 ---

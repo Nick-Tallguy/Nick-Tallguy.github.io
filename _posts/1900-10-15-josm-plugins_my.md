@@ -28,7 +28,7 @@ JOSM ဆော့လ်ဖ်ဝဲလ်သို့ ထပ်ပေါင်�
 
 ကျွန်ုပ်တို့နှစ်သက်သော ဖြည့်စွက်မှု (Plugins) အချို့မှာအောက်ပါအတိုင်းဖြစ်သည်။
 
-၁။ **[buildings_tools](my/josm/josm-more-plugins/)** ။ ။ အဆောက်အဦပုံသဏ္ဍာန် ခပ်များများ ရေးဆွဲရာတွင် လွယ်ကူမြန်ဆန်စေသည်။  
+1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
 
 ၂။ **DirectUpload** ။ ။ GPS လမ်းကြောင်းများ စုစည်းဖော်ပြမှုကို OpenStreetMap ဒေတာအချက်အလက်သိုမှီးမှုသို့ သိမ်းဆည်းရာတွင်လွယ်ကူစေသည်။  
 
@@ -38,11 +38,9 @@ JOSM ဆော့လ်ဖ်ဝဲလ်သို့ ထပ်ပေါင်�
 
 ၅။ **imagery_offset_db** ။ ။ OpenStreetMap မှအဓိကအသုံးပြုသော Bing ဂြိုဟ်တုပုံရိပ်တွင် တစုံတရာအမှားအယွင်းရှိနေကြောင်းသိရှိထားသော မြေပုံဆွဲသူတစ်ဦးဦးနှင့် ပေါင်းစပ်လုပ်ကိုင်နိုင်ရန်အတွက်အသုံးပြုသည်။ နောက်လာမည့်သင်ခန်းစာတစ်ခုတွင် ကျယ်ကျယ်ပြန့်ပြန့်သိရှိရမည်ဖြစ်သည်။  
 
-၆။ **mirrored_download** ။ ။ ပိုမိုကြီးမားသောဧရိယာအကျယ်အဝန်းရှိသည့် OSM ဒေတာများကို ရယူနိုင်ရန်အသုံးပြုသည်။  
+6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
 
-၇။ **print:** ။ ။ တည်နေရာတစ်ခုကို မြန်ဆန်စွာပုံနှိပ်ထုတ်ယူရန်အတွက်အသုံးပြုသည်။  
-
-၈။ **[utilsplugin2](my/josm/josm-more-plugins/)** ။ ။ အဆင့်မြင့်အသုံးချသူများအတွက် JOSM ဆော့လ်ဖ်ဝဲလ်အတွင်းသို့ အသုံးချကိရိယာများနှင့် menu များထည့်သွင်းရန်အသုံးပြုသည်။ [နောက်လာမည့်သင်ခန်းစာ](/my/josm/josm-more-plugins) တွင်အသေးစိတ်ရှင်းပြထားပါသည်။  
+7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
 
 
 

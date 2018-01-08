@@ -37,7 +37,7 @@ Vorlagen können entweder von einer Onlinebibliothek aus oder lokal gespeichert 
 
 ![tagging presets menu][]
 
-* Man fügt eine Vorlage aus dem Internet hinzu durch Auswahl in der Liste 	zur Linken und durch klicken auf den blauen Pfeil. In diesem Beispiel 	fügen wir die Vorlage "Buildings Indonesia by Kate Chapman" hinzu.  
+* Man fügt eine Vorlage aus dem Internet hinzu durch Auswahl in der Liste 	zur Linken und durch klicken auf den blauen Pfeil. In diesem Beispiel 	fügen wir die Vorlage "New Tags" hinzu.  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Vorlagen können entweder von einer Onlinebibliothek aus oder lokal gespeichert 
 * Man klickt OK.  
 * Man startet JOSM neu.  
 * Man erstellt einen neuen Layer und fügt einen Punkt oder Umriss hinzu.  
-* Man geht ins Vorlagenmenü. Man klickt auf den Eintrag "Building", welches am Ende des Menüs hinzugefügt wurde.  
+* Im Vorlagen-Menü gibt es jetzt einen neuen Eintrag am Ende, der verschiedene Möglichkeiten bietet, die in der Standardinstallation nicht enthalten sind.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* Falls man kein indonesisch spricht, wird es schwer zu lesen sein, aber man hat trotzdem erfolgreich ein eigenes Vorlagenmenü hinzugefügt.  
+* Die meisten Vorlagen sind für recht spezielle Anwendungsfälle aber vielleicht findet sich in der Liste ja etwas passendes.  
 
 * Falls man eine angepasste Vorlagendatei bekommen hat, kann man es auf ähnlichem Weg dem Menü hinzufügen. Man kehrt zurück zum Einstellungen Menü und anstatt dass man etwas in der Liste auswählt, klickt man auf den (+) Button oben rechts.  
 
@@ -61,7 +61,7 @@ Vorlagen können entweder von einer Onlinebibliothek aus oder lokal gespeichert 
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

@@ -37,7 +37,7 @@ Presets ဖိုင်များကို အင်တာနက်မှရ�
 
 ![tagging presets menu][]
 
-* အင်တာနက်မှတဆင့်ရရှိနိုင်သော Presets ဖိုင်များကို ဘယ်ဘက်ခြမ်းတွင်မြင်တွေ့နိုင်ပြီး နှစ်သက်ရာတစ်ခုကိုရွေးချယ်၍ ဘောင်ကွက်နှစ်ခုကြားရှိအပြာရောင်မြားခေါင်းကိုနှိပ်ပါ။ ဤဥပမာတွင်ကျွန်ုပ်တို့အနေဖြင့် "Buildings Indonesia by Kate Chapman" အမည်ရသော presets ဖိုင်ကို ထည့်သွင်းပြသမည်ဖြစ်သည်။  
+* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Presets ဖိုင်များကို အင်တာနက်မှရ�
 * OK ကိုနှိပ်ပါ။  
 * သင့်အနေဖြင့်JOSM ဆော့လ်ဖ်ဝဲလ်ကိုပိတ်ပြီး ပြန်ဖွင့်ပေးရန်လိုအပ်လိမ့်မည်ဖြစ်သည်။  
 * အလွှာအသစ်တစ်ခုပြုလုပ်ပြီး အမှတ် သို့မဟုတ် ပုံသဏ္ဍာန်တစ်ခုခုကိုရေးဆွဲဖန်တီးပါ။  
-* Presets menu ကိုသွားပါ။ "Building" ဟု အမည်ပေးထားသောအရာပေါ်သို့နှိပ်ပါက menu ၏အောက်ခြေတွင်ပေါင်းထည့်သွားမည်ကိုတွေ့ရပါလိမ့်မည်။  
+* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* အင်ဒိုနီးရှားဘာသာစကားဖြင့်ဖော်ပြထားသည်ကိုမြင်ရမည်ဖြစ်သော်လည်း သီးသန့်ပြင်ဆင်ထားသော Preset menu ထည့်သွင်းမှုအောင်မြင်ပြီဖြစ်ပါသည်။  
+* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
 * သီးသန့်ပြင်ဆင်ထားသောဖိုင်တခု အဆင်သင့်ရှိပါက အထက်တွင်ဖော်ပြခဲ့သည့်နည်းလမ်းအတိုင်းထည့်သွင်းနိုင်ပါသည်။ Preset menu သို့ပြန်သွားပါ။ အင်တာနက်ဖိုင်များမှရှာဖွေသည့်အစား ညာဘက်အပေါ်နားရှိအပေါင်းလက္ခဏာ(+) ခလုတ်ကိုနှိပ်၍ ထည့်သွင်းနိုင်ပါသည်။  
 
@@ -61,7 +61,7 @@ Presets ဖိုင်များကို အင်တာနက်မှရ�
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

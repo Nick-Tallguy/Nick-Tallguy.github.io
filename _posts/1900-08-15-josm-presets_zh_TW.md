@@ -37,7 +37,7 @@ JOSM 預設組合
 
 ![tagging presets menu][]
 
-* 要選擇從網路上的清單新增預設組合檔案，則要從⇥左側選擇，和點選藍色箭頭。在這個例子中，我們要⇥新增的預設組合叫「Buildings Indonesia by Kate Chapman」。  
+* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ JOSM 預設組合
 * 點選 OK。  
 * 你需要重新啟動 JOSM。  
 * 創建新圖層和新增點或形狀。  
-* 到預設組合選擇，點選先前加進去，現在位置選單底部，名稱是「Building」的項目。  
+* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* 如果你不會說印尼話，也許會有點難閱讀，但儘管如此，你已經成功新增客製化的預設組合選單。  
+* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
 * 如果你有自己的客製化預設組合檔案，你可以用類似的方法加到選單裡。只要回到設定選單，不用從選單挑選，而是在右上部按 (+) 按鈕。  
 
@@ -61,7 +61,7 @@ JOSM 預設組合
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

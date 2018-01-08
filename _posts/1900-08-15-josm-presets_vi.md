@@ -37,7 +37,7 @@ Tập tin Presets có thể được thêm từ một kho lưu trữ trực tuy�
 
 ![tagging presets menu][]
 
-* Thêm một tập tin định sẵn từ internet bằng cách chọn một trong danh sách ở bên trái và nhấp vào mũi tên màu xanh lam. Trong ví dụ này, chúng tôi sẽ thêm các cài đặt sẵn có tên "Buildings Indonesia by Kate Chapman/Tòa nhà Indonesia do Kate Chapman lập".  
+* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Tập tin Presets có thể được thêm từ một kho lưu trữ trực tuy�
 * Nhấp OK.  
 * Bạn sẽ cần khởi động lại JOSM.  
 * Tạo một lớp mới và thêm một điểm hoặc hình dạng.  
-* Đi tới trình đơn Đặt trước. Nhấp vào mục có tên "Tòa nhà", đã được thêm vào cuối trình đơn.  
+* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
 
-![indonesia building form][]
+![additional tags preset][]
 
-* Nếu bạn không nói tiếng Indonesia, điều này có thể là khó đọc, tuy nhiên bạn đã thành công và đã thêm một trình đơn cài sẵn tùy chỉnh.  
+* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
 
 * Nếu bạn đã được cung cấp một tập tin cài đặt sẵn tùy chỉnh, bạn có thể thêm nó vào trình đơn theo cách tương tự. Đơn giản chỉ cần trở lại trình đơn Preferences, và thay vì chọn từ danh sách, hãy nhấp vào nút (+) ở phía trên bên phải.  
 
@@ -61,7 +61,7 @@ Tập tin Presets có thể được thêm từ một kho lưu trữ trực tuy�
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets.png
-[indonesia building form]: /images/josm/indonesia-building-form.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

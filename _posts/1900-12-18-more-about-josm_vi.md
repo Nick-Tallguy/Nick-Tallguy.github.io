@@ -46,22 +46,20 @@ vì bản đồ luôn được cập nhật bởi những người dùng khác n
 
 ![JOSM Download Button][]
 
--   Khi cửa số tải xuống được mở ra,
-    bạn sẽ thấy khung bản đồ với một hình chữ nhật màu hồng.
+-  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
     Nếu bạn không nhìn thấy bản đồ, nhấp chuột vào trang “Slippy map”.
 
 ![JOSM Download Dialog][]
 
--  Ô chữ nhật màu hồng này thể hiện khu vực mà bạn muốn tải xuống dữ liệu bản đồ để chỉnh sửa.
-    Sử dụng chuột để di chuyển bản đô
+-  Use your mouse to pan and zoom it to an area
     đến khu vực mà bạn biết rõ như khu phố của bạn.
     Cách thức di chuyển bản đồ cũng giống như di chuyển bản đồ
     trong giao diện bản đồ của JOSM.
     Nút phải chuột để kéo bản đồ, nút cuộn để phóng to và thu nhỏ.
 
->   Đôi khi bạn sẽ gặp khó khăn khi sử dụng máy tính xách tay để phóng to và thu nhỏ bằng nút cuộn.
->   Bạn sẽ làm việc dễ dàng hơn với JOSM nếu có chuột ngoài
->   nhưng các máy tính hiện tại có thể cuộn bằng bàn cảm ứng.
+> Sometimes if you are working on a notebook computer it can be difficult
+> to scroll in and out. Working in JOSM is much easier if you have a mouse,
+> but most modern notebooks allow you to scroll using the touchpad.
 
 -   Vẽ một ô chữ nhật quanh khu vực mà bạn muốn tải dữ liệu xuống.
     Để vẽ ô chữ nhật mới, nhấp giữ trái chuột lên bản đồ và kéo con trỏ để tạo ô chữ nhật mới.
@@ -81,12 +79,14 @@ cho người dùng OpenStreetMap tham khảo trong khi chỉnh sửa bản đồ
 -	Để thêm ảnh vệ tinh Bing vào JOSM,
     nhấp chuột vào menu “Imagery” của JOSM và chọn “Bing Sat.”
 
->   Nếu bạn không thấy Bing Sat trong Imagery menu, bạn sẽ phải kích hoạt nó trong phần cài đặt chung của JOSM.
->   Vào meu Edit –> Preferences và chọn biểu tượng có chữ “WMS TMS”.
->   Bạn có thể phải nhấp chuột vào mũi tên xuống để tìm thấy nó.
+> If you don't see Bing Sat on the Imagery menu, you may need to activate
+> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
+> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> <br>
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
->   Nhấp chuột vào “Bing Sat”. Sau đó chọn “Activate”.
+> <br>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### Tổng quan về JOSM
@@ -140,11 +140,11 @@ Nhưng bạn có thể thấy dữ liệu đó cũng cùng một dạng với d�
     Mô tả đặc tính đối tượng bằng cách chọn từ menu Presets,
     như bạn đã làm trước đây. 
 
->  Không bao giờ chỉnh sửa bản đồ ngoài khu vực mà bạn đã tải dữ liệu xuống.  
->  Bạn sẽ thấy khu vực mà bạn đã tải dữ liệu.  
->  Bạn sẽ thấy khu vực mình đã tải xuống dữ liệu sẽ không bị che phủ bởi những gạch sọc.  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You  
+> can see the rectangular area you have downloaded has a solid background,  
+> while the area you have not downloaded has diagonal pinstriped lines. 
+> <br>  
+> ![JOSM area downloaded][]
 
 Lưu các thay đổi
 --------------

@@ -46,22 +46,20 @@ OSM မှမြေပုံအချက်အလက်များရယူခ�
 
 ![JOSM Download Button][]
 
-- အင်တာနက်မှ တစ်ဆင့်ရယူရန်ဖော်ပြချက်စာမျက်နှာပွင့်လာပါက ပန်းရောင်ခြယ်ထားသော 
-    အကွက်တစ်ခုပါသော မြေပုံတစ်ခုကိုတွေ့ရပါလိမ့်မည်။ မတွေ့ရှိပါက
+-  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
     “Slippy map” ဟုရေးထားသော အညွှန်းကွက်ကို တချက်နှိပ်ပါ။
 
 ![JOSM Download Dialog][]
 
-- မြေပုံပေါ်တွင် သင်ရယူမည့်တည်နေရာကို ပန်းရောင်ခြယ်အကွက်က ဖော်ပြပေးသည်။ 
-    သင်ရယူလိုသည့်နေရာသို့ရောက်ရန် mouse ကိုအသုံးပြုရွှေ့လျားပါ။ 
+-  Use your mouse to pan and zoom it to an area
     ထိန်းချုပ်အလုပ်လုပ်မှုများသည် JOSM ဆော့ဖ်ဝဲလ်မှာကဲ့သို့ပင်ဖြစ်ပြီး
     mouse ၏ညာဘက်ခလုတ်ကိုဖိလျက် မြေပုံကိုဆွဲရွှေ့ရန်နှင့်
     မြင်ကွင်းချုံ့၊ချဲ့မှုအတွက် mouse ၏
     ဘီးလုံးကိုအသုံးပြုရန်ဖြစ်သည်။
 
-> လက်ဆွဲကွန်ပျူတာ(laptop,notebook)အသုံးပြုသူများအတွက် mouse တပ်ဆင်မထားလျှင် 
-> မြင်ကွင်းချုံ့၊ချဲ့ရာတွင် အခက်ခဲရှိနိုင်သည်။ 
-> နောက်ပိုင်းထွက်ပေါ်လာသော လက်ဆွဲကွန်ပျူတာအများစုတွင် touchpad ကိုအသုံးပြုနိုင်သည်။
+> Sometimes if you are working on a notebook computer it can be difficult
+> to scroll in and out. Working in JOSM is much easier if you have a mouse,
+> but most modern notebooks allow you to scroll using the touchpad.
 
 - မိမိရယူလိုသောနေရာတဝိုက်တွင် ဘောင်ကွက်တစ်ခုဆွဲပါ။ မြေပုံပေါ်တွင် mouse ၏ဘယ်ဘက် ခလုတ်ကို
     တစ်ချက်ဖိနှိပ်ထားလျက် ဘောင်ကွက်တစ်ခုဖြစ်သည်အထိရွှေ့ပါ။ 
@@ -81,12 +79,14 @@ Microsoft Bing မှဖြစ်သည်။
 - JOSM ဆော့ဖ်ဝဲလ်တွင် Bing ပုံရိပ်ထည့်သွင်းရန်အတွက် menu ဘားတန်းမှ “Imagery” ကိုနှိပ်ပြီး
     “Bing Sat” ကိုရွေးချယ်ပါ။
 
-> Bing Sat ကိုမတွေ့ရှိပါက menu ဘားတန်းရှိ 
-> Edit ကိုနှိပ်ပြီး Preferences ကိုရွေးပါ။ 
-> အောက်တွင်ပြထားသည့်အတိုင်း  “WMS TMS” စာသားပါသော ရုပ်ပုံငယ်ကိုနှိပ်ပါ။
+> If you don't see Bing Sat on the Imagery menu, you may need to activate
+> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
+> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> <br>
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
-> ထို့နောက် “Bing Sat” တွင်တချက်နှိပ်ပြီး “Activate” ခလုတ်ကိုနှိပ်ပါ။
+> <br>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### JOSM ဆော့ဖ်ဝဲလ်ကိုလေ့လာခြင်း
@@ -140,11 +140,11 @@ username ကို Authors အကွက်အတွင်း စသည်ဖြ�
     အရှေ့သင်ခန်းတွင်လေ့လာခဲ့သည့်အတိုင်း အရာဝတ္ထုများ၏
     ဖော်ပြချက်များကို ဖြည့်သွင်းပါ။ 
 
-> သတိပြုရန်မှာ တည်းဖြတ်မှုပြုရန်အတွက် သင်ရယူထားသောအပိုင်းမှလွဲ၍ ကျန်နေရာများကို မထိခိုက်မိရန်ဖြစ်သည်။   
-> မြေပုံတွင် သင်ရယူထားသောနေရာကို ထောင့်မှန်စတုဂံပုံဖြင့်ဖော်ပြပေး ထားပြီးနောက်ခံပုံရိပ်ရှင်းလင်းပြတ်သားနေပေလိမ့်မည်။  
-> ကျန်နေရာများတွင် ထောင့်ဖြတ်မျဉ်းငယ် များဖြင့်ပိုင်းခြားပြသထားမည်ဖြစ်သည်။ (အောက်ပုံတွင်ရှု)  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You  
+> can see the rectangular area you have downloaded has a solid background,  
+> while the area you have not downloaded has diagonal pinstriped lines. 
+> <br>  
+> ![JOSM area downloaded][]
 
 တည်းဖြတ်မှုကိုသိမ်းဆည်းခြင်း
 --------------

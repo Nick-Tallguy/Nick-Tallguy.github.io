@@ -46,22 +46,20 @@ JOSM 修改流程
 
 ![JOSM Download Button][]
 
-- 當下載視窗打開的時候，你應該看到一個地圖，並且有粉紅色的框覆蓋在上面。
-    如果你看不到地圖，點選標示為
+-  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
     「Slippy map」的分頁。
 
 ![JOSM Download Dialog][]
 
-- 粉紅色的框呈現我們即將下載來編輯的地圖區域。
-    使用你的滑鼠上下移動並縮放到你非常熟悉的區域，
+-  Use your mouse to pan and zoom it to an area
     例如你的家鄉或鄰近區域。
     這個控制方式就跟 JOSM 的地圖視窗一樣。
     滑鼠右鍵可以拖拉地圖，
     滾輪可以讓你縮放地圖大小。
 
-> 如果你在筆記型電腦上，操作縮放有時候會十分困難。
->⇥t如果你有滑鼠，在 JOSM 上的操作會簡單一些；
->⇥不過現在的筆記型電腦一般都允許你使用觸控版操作滾輪。
+> Sometimes if you are working on a notebook computer it can be difficult
+> to scroll in and out. Working in JOSM is much easier if you have a mouse,
+> but most modern notebooks allow you to scroll using the touchpad.
 
 -⇥拉出一個方框以框住你想要下載的區域。要拉一個方框，點擊地圖，
     按住你的滑鼠左鍵，並移動你的滑鼠以建立一個方框。
@@ -81,12 +79,14 @@ JOSM 修改流程
 -⇥要在 JOSM 裡加入 Bing 的衛星圖資，點選 JOSM 上方選單的「Imagery」，
     並選擇「“Bing Sat」。
 
-> 如果你沒有在「Imagery」選單中看到「Bing Sat」，
-> 你可能需要在 JOSM 的設定裡面開啟。前往 Edit 選單中的 Preferences ，
-> 並且點選寫著「WMS TMS」的圖示。你可能需要往下拉才能找到。
+> If you don't see Bing Sat on the Imagery menu, you may need to activate
+> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
+> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> <br>
 > ![JOSM Preferences up down][]
 > ![JOSM Preferences WMS TMS][]
-> 點擊「Bing Sat」，然後點「Activate」。
+> <br>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### JOSM 之旅
@@ -140,11 +140,11 @@ JOSM 修改流程
     從 Presets 選單選擇這些物件以描述它，
     跟你在之前的章節做過的一樣。 
 
-> 絕對不要編輯那些你並未下載的區域。  
-你可以看到，你下載過的矩形區域擁有固定的背景，  
-而那些你沒有下載的區域會有斜的細線在上面。  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You  
+> can see the rectangular area you have downloaded has a solid background,  
+> while the area you have not downloaded has diagonal pinstriped lines. 
+> <br>  
+> ![JOSM area downloaded][]
 
 存檔
 --------------

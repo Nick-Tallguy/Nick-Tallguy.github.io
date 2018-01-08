@@ -46,22 +46,20 @@ fare cambiamenti alla mappa, perche' la mappa è aggiornata anche dagli altri ut
 
 ![JOSM Download Button][]
 
-- Quando la finestra di download si apre, dovresti vedere una mappa con un riquadro rosa
-    su di essa. Se non vedi la mappa, clicca sulla linguetta
+-  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
     “Slippy map”.
 
 ![JOSM Download Dialog][]
 
-- Il riquadro rosa rappresenta l’area della mappa che vorremmo
-    scaricare per modificarla. Usa il mouse per spostarti su una zona
+-  Use your mouse to pan and zoom it to an area
     che conosci bene, come la tua città o il tuo quartiere. I
     controlli sono gli stessi della finestra della mappa di JOSM. Il pulsante destro del mouse
     ti permette di spostare la mappa e la rotella ti permette di ingrandire o ridurre 
     la visuale.
 
->Se stai lavoranto su un portatile può risultare difficile 
->zoommare. Il lavoro con JOSM può essere più agevole con un mouse,
->ma i portatili più moderni ti permettono di spostare la visuale utilizzando il touchpad.
+> Sometimes if you are working on a notebook computer it can be difficult
+> to scroll in and out. Working in JOSM is much easier if you have a mouse,
+> but most modern notebooks allow you to scroll using the touchpad.
 
 -Disegna un nuovo riquadro intorno all'area che vuoi scaricare. Per disegnare un nuovo riquadro, clicca sulla
     mappa, tieni premuto il tasto sinistro del mouse, e trascina il mouse per creare
@@ -81,12 +79,14 @@ per contribuire alla mappa.
 -    Per aggiungere le immagini satellitari di Bing in JOSM, fai click su "Immagini aeree" sul menù in alto di
     JOSM e seleziona “Bing Sat”.
 
-> Se non vedi Bing Sat nel menù delle immagini aeree, lo devi attivare
-> nelle impostazioni di JOSM. Vai in Modifica -> Preferenze e fai click sull'icona 
-con su scitto “WMS TMS”. Potresti dover cliccare sulla freccia in basso per trovarla.
+> If you don't see Bing Sat on the Imagery menu, you may need to activate
+> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
+> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> <br>
 >  ![JOSM Preferences up down][]
 >  ![JOSM Preferences WMS TMS][]
->   Fai click su “Bing Sat”. Quindi fai click su “Activate”.
+> <br>
+> Click on “Bing Sat”. Then Click “Activate”.
 
 
 ### Principali caratteristiche di JOSM
@@ -140,11 +140,11 @@ visto in precedenza: punti, linee e aree, che rappresentano luoghi reali.
     Descrivi questi oggetti selezionandoli dal menù Preimpostazioni, come
     hai fatto già in precedenza. 
 
-> Non editare mai la mappa al di fuori dell'area non scaricata. Puoi  
-> vedere l'area rettangolare scaricata con uno sfondo neutro,  
-> mentre l'area non scaricata ha linee diagonali tratteggiate.  
-
-![JOSM area downloaded][]
+> Never edit the map outside of the area you have downloaded. You  
+> can see the rectangular area you have downloaded has a solid background,  
+> while the area you have not downloaded has diagonal pinstriped lines. 
+> <br>  
+> ![JOSM area downloaded][]
 
 Salvare le modifiche
 --------------

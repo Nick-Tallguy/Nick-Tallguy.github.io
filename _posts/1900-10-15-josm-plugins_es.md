@@ -28,7 +28,7 @@ Cuando quieras instalar un nuevo complemento, ve a **Editar \> Preferencias** y 
 
 Alguno de nuestros complementos favoritos son:
 
-1. ** [buildings_tools](es/josm/josm-more-plugins/):** Si dibujas muchos edificios, este hará el proceso más rápido y sencillo.  
+1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
 
 2. **DirectUpload:** Si recoges muchos datos recorridos GPS y deseas guardarlos en la base de datos de OSM, este complemento lo facilita.  
 
@@ -38,11 +38,9 @@ Alguno de nuestros complementos favoritos son:
 
 5. **imagery_offset_db:** Este complemento te permite cooperar con otros mapeadores que encuentran que las imágenes de satélite de Bing están un poco desalineadas. Este tema se trata con más detalle en un capítulo posterior.  
 
-6. **mirrored_download:** Con este complemento puedes descargar un área datos OSM de mayor tamaño para su edición.  
+6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
 
-7. **print:** Agrega una función de Impresión, en caso de que desees realizar impresiones rápidas de un área, que no necesita verse muy bien.  
-
-8. **[utilsplugin2](en/josm/josm-more-plugins/):** Agrega muchas herramientas y menús adicionales a JOSM para usuarios avanzados. Esto está cubierto con más detalle en el [siguiente capítulo](/es/josm/josm-more-plugins)  
+7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
 
 
 
