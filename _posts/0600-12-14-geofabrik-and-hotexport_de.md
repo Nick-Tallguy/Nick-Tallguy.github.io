@@ -151,12 +151,12 @@ OsmAnd ist ebenfalls eine GPS Navigation- und Kartenanwendung für Android und i
 
 
 ### MBTiles .mbtiles
-MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
+MBTiles is ein Dateiformat zur Speicherung von Kartenkacheln in einer einzigen Datei. Das Export Tool erlaubt es Benutzern MBTiles zu erstellen, die Kacheln von OSM enthalten, die als Quelle für Offline Anwendungen verwendet werden können, die dies unterstützen. Man beachte, dass MBTiles alle OSM Kartenelemente aus dem im Export Tool ausgewählten Gebiet exportieren und das '3 Daten' Tab automatisch zu einer Dropdown Quelloption und Zoomstufe wechselt, im Falle der Standard Baum Tag und YAML Kartenelementeauswahloption. Mehr darüber erfährt man im [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) Lernkapitel.
 
 ![export-tool-mbtiles][]
 
 
-Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
+Zusätzliche Dateiformate werden ständig vorgeschlagen und dem Export Tool hinzugefügt. Möchte man selbst ein weiteres Dateiformat hinzu bekommen, kann man einen Kommentar im [GitHub](https://github.com/hotosm/osm-export-tool/issues) Repository hinterlassen. Weitere Informationen zu den Dateiformattypen findet man auf der 'Dateiformat' Seite im ‘[Lernkapitel](https://export.hotosm.org/en/v3/learn)’ der Tool Webseite.
 
 
 
@@ -230,25 +230,25 @@ Filter sind unter dem where: Schlüssel in jedem Thema. Sie definieren welche Te
 
 
 JOSM Vorlagen
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+Ältere Versionen des Export Tools verwenden JOSM Vorlagen-XML-Dateien um eine Auswahl an Kartenelementen zu definieren. Die neue Version verwendet YAML, da es flexibler in der Art und Weise ist, wie es OSM Daten transformiert. Das neue Export Tool kann dabei helfen JOSM Vorlagen in YAML Konfigurationen zu konvertieren, indem man den 'Lade aus JOSM Vorlage .XML' Button verwendet. Man beachte, dass wenn die Vorlage etwas komplexer ist, es als neue YAML Konfiguration, basierend auf den 'item' Elementen der XML geschrieben, werden muss.
 
 ![export-tool-load-preset][]
 
 
 
-### Configurations
+### Konfigurationen
 
-YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
+YAML Konfigurationen können für den zukünftigen Gebrauch über die 'Konfiguration' Seite definiert und gespeichert werden. Es ist nützlich eine Konfiguration für ein Projekt zu erstellen, welche dann für alle dem Projekt zugehörigen Exporte verwendet werden kann. Man kann der Konfiguration einen 'Namen' und eine 'Beschreibung' geben, damit andere Benutzer sich zurechtfinden. Wenn man die 'Öffentlich' Checkbox demarkiert, ist die Konfiguration nur für den Benutzer selbst sichtbar. 
 
 ![export-tool-configuration-saved][]
 
 
-Please note that configurations can be edited, which is useful for evolving a feature selection during the course of a project. Saved YAML configurations can be selected via the ‘Stored Configuration’ option on the ‘3 Data’  tab when creating an export. Use the Search bar to find configurations related to your project.
+Man beachte, dass Konfigurationen editiert werden können, was nützlich ist, um die Kartenelementauswahl im Laufe eines Projekts anzupassen. Gespeicherte YAML Konfigurationen können in der 'Gespeicherte Konfigurationen' Option auf dem '3 Daten' Tab ausgewählt werden, wenn ein Export erstellt wird. Man kann die Suchleiste verwenden um dem Projekt zugehörige Konfigurationen zu finden.
 
 ![export-tool-configuration-stored][]
 
 
-For further detailed information regarding feature selections and YAML, please visit the ‘Selecting Features’ and ‘YAML Specification’ in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website. 
+Weitere detaillierte Informationen zu Kartenelementauswahl und YAML findet man unter 'Kartenelementauswahl' und 'YAML Spezifikation' im ‘[Lernkapitel](https://export.hotosm.org/en/v3/learn) auf der Tool Webseite. 
 
 
 

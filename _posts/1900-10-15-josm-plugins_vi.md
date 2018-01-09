@@ -28,7 +28,7 @@ Bất cứ lúc nào bạn muốn cài đặt thêm plugin mới, vào menu **Ed
 
 Một số plugin thường dùng của chúng ta là:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** Nếu bạn vẽ rất nhiều tòa nhà, công cụ này sẽ rất hữu ích cho bạn, khiến công việc trở nên nhanh và dễ dàng hơn  
 
 2. **DirectUpload:** Nếu bạn thu thập rất nhiều tuyến GPS và muốn lưu chúng trên cơ sở dữ liệu OSM, plugin này sẽ giúp bạn dễ dàng thực hiện.  
 
@@ -38,14 +38,14 @@ Một số plugin thường dùng của chúng ta là:
 
 5. **imagery_offset_db:** Plugin này cho phép bạn kết hợp với những người lập bản đồ khác khi hình ảnh vệ tinh Bing hơi lệch một chút. Vấn đề này được đề cập chi tiết hơn trong phần sau.  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print:** Thêm chức năng in bản đồ, trong trường hợp bạn muốn in bản đồ của một khu vực mà không cần thiết bản in ra phải thật đẹp.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Bổ sung nhiều công cụ hữu ích và menu trong JOSM dành cho người dùng nâng cao. Nội dung này sẽ được giới thiệu chi tiết hơn trong [chương sau](/en/josm/josm-more-plugins)  
 
 
 
 <!-- The remainder of this section needs to be edited, and/or moved to other sections,
-    commenting it out for now
+    Tạm thời đặt trong ghi chú
 
 
 - [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)
