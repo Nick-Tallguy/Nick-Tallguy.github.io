@@ -24,7 +24,7 @@ Trong trường hợp này, bạn có thể thêm các mục trình đơn tùy c
 Thêm Presets
 -----------
 
-Các menu và menu con tạo menu Presets được lưu trữ trong các tệp mô tả các thức tổ chức menu và biểu mẫu xuất hiện khi bạn nhấp vào một preset và cách xác định những thẻ nào được thêm vào một đối tượng dựa trên cách thức điền vào biểu mẫu.  
+Các menu và menu con tạo menu Presets được lưu trữ trong các tệp mô tả cách thức tổ chức menu và biểu mẫu xuất hiện khi bạn nhấp vào một preset và cách xác định những thẻ nào được thêm vào một đối tượng dựa trên cách thức điền vào biểu mẫu.  
 
 Tập tin Presets có thể được thêm từ một kho lưu trữ trực tuyến, hoặc được lưu trên máy tính cục bộ và thêm vào JOSM.  
 
@@ -37,7 +37,7 @@ Tập tin Presets có thể được thêm từ một kho lưu trữ trực tuy�
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Thêm một tệp tin cài đặt sẵn từ internet bằng cách chọn một mục trong danh sách ở bên tay trái và nhấp chuột vào mũi tên màu xanh. Trong ví dụ này, chúng ta sẽ thêm một cài đặt sẵn tên "New Tags"  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ Tập tin Presets có thể được thêm từ một kho lưu trữ trực tuy�
 * Nhấp OK.  
 * Bạn sẽ cần khởi động lại JOSM.  
 * Tạo một lớp mới và thêm một điểm hoặc hình dạng.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Vào menu Presets. Bạn sẽ thấy một mục mới được thêm vào phía dưới cùng, mục này mở ra các lựa chọn khác không có trong bản cài đặt gốc của JOSM.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* Hầu hết các Cài đặt sẵn bao hàm các tình huống sử dụng của bạn nên hãy mở danh sách để tìm kiếm mục phù hợp với yêu cầu của bạn.  
 
 * Nếu bạn đã được cung cấp một tập tin cài đặt sẵn tùy chỉnh, bạn có thể thêm nó vào trình đơn theo cách tương tự. Đơn giản chỉ cần trở lại trình đơn Preferences, và thay vì chọn từ danh sách, hãy nhấp vào nút (+) ở phía trên bên phải.  
 
