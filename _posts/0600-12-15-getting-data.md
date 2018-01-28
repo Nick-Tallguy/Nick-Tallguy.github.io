@@ -21,13 +21,9 @@ Downloading Data Extracts
 
 [GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
 
-### Metro Extracts
-
-[Another website maintained by Mapzen](https://mapzen.com/data/metro-extracts/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) offers something similar as Metro Extracts but for a different selection of cities. The data is updated weekly as well.
+[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
 
 >Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >but shapefiles have attributes stored in a limited number of columns. This means
