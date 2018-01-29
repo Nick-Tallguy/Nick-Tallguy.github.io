@@ -21,13 +21,9 @@ TẢI XUỐNG DỮ LIỆU ĐƯỢC TRÍCH XUẤT
 
 [GeoFabrik](http://geofabrik.de) là một công ty chuyên làm việc với OpenStreetMap. Họ cung cấp một loạt các chiết xuất miễn phí theo định dạng shapefile và định dạng OSM thô trên [trang web của họ](http://download.geofabrik.de). Ưu điểm của việc tải xuống dữ liệu GeoFabrik là nó được cập nhật hàng ngày, và nó dễ dàng và đáng tin cậy. Một bất lợi là dữ liệu được trích xuất theo quốc gia, và không phải tất cả các nước đều có sẵn.  
 
-### Metro Extracts
-
-[Một trang web khác được duy trì bởi Mapzen](https://mapzen.com/data/metro-extracts/) cung cấp shapefiles và định dạng OSM gốc cho các thành phố trên thế giới, trích xuất hàng tuần. Điều này hữu ích nếu bạn đang tìm kiếm dữ liệu chiết xuất cho một thành phố.  
-
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) cung cấp một công cụ tương tự như Metro Extracts nhưng cho một sự lựa chọn khác nhau của các thành phố. Dữ liệu cũng được cập nhật hàng tuần.
+[BBBike](http://download.bbbike.org/osm/bbbike/) cung cấp shapefiles và định dạng OSM gốc cho các thành phố trên thế giới, trích xuất hàng tuần. Điều này hữu ích nếu bạn đang tìm kiếm dữ liệu chiết xuất cho một thành phố.
 
 >Hãy nhớ rằng các đối tượng trong OpenStreetMap có một số lượng không hạn chế các thẻ "tự do",
 >nhưng các tập tin định dạng có các thuộc tính được lưu trong một số cột nhất định.
@@ -40,11 +36,12 @@ TẢI XUỐNG DỮ LIỆU ĐƯỢC TRÍCH XUẤT
 CHIẾT XUẤT DỮ LIỆU THEO YÊU CẦU
 -------------------
 
-### Công cụ trích xuất dữ liệu của HOT  
+### HOT Exports  
 
-Nhóm [Humanitarian OpenStreetMap Team] (https://www.hotosm.org) đã tạo ra một dịch vụ trực tuyến cho phép người dùng tạo ra các trích xuất dữ liệu OSM tuỳ chỉnh bất cứ nơi nào trên thế giới, bằng cách chọn một khu vực quan tâm, các loại đối tượng bản đồ và định dạng tệp tin. Dịch vụ có tại [export.hotosm.org] (https://export.hotosm.org/en/v3). Trong vòng vài phút, dữ liệu OpenStreetMap cập nhật (OSM) được xuất, lọc và chuyển đổi. Các vùng ưa thích (Area of Interest - AOI) có thể được lựa chọn thông qua tìm kiếm, tọa độ của hộp bao quanh, vẽ một hộp, vẽ tự do, vùng đang hiển thị hoặc nhập tệp GeoJSON. Các định dạng tệp hiện tại bao gồm Shapefile (.shp), GeoPackage (.gpkg), Garmin (.img), Google Earth (.kml), OSM (.pbf), MAPS.ME (.mwm), OsmAnd (.obf) và MBTiles (.mbtiles). Các tính năng của bản đồ và các thẻ cụ thể có thể được lựa chọn thông qua cây Tag hoặc bằng cách định cấu hình một số mã YAML. Để tìm hiểu thêm vui lòng xem phần '[Tìm hiểu] (https://export.hotosm.org/en/v3/learn)' tại export.hotosm.org.
+The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
+to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
 
-![hot-export-tool][]
+![hot exports][]
 
 ### BBBike  
 
@@ -98,5 +95,5 @@ TÓM LƯỢC
 Các dịch vụ được đề cập trong chương này là tất cả những gì mà người dùng trung bình cần để có được dữ liệu OSM họ muốn và có thể làm việc với nó trong phần mềm GIS. Tuy nhiên, bạn có thể muốn học cách hiệu quả hơn làm việc với các dữ liệu. Các chương còn lại trong phần này khá kỹ thuật, nhưng giới thiệu các phương pháp tiên tiến hơn về thao tác và truy cập dữ liệu OSM.  
 
 
-[hot-export-tool]: /images/osm-data/hot-export-tool.png
+[hot exports]: /images/osm-data/hot-exports.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png
