@@ -31,7 +31,7 @@ If you need to check what tag is actually on an item, click on it, then scroll t
 
 ### Tags - a brief explanation ###
 
-If you select an item and click on **All tags** you will see a label such as  
+ چنانچه موردی را انتخاب کرده و بر  روی **All tags** کلیک کنید همه برچسب های آن مانند  
 
 **building    yes**  
 

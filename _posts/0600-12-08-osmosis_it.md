@@ -22,9 +22,9 @@ Like osm2pgsql in the previous chapter, we will need to download and set up **os
 
 You will also need some raw OSM data to work with. If you want to follow the examples in this chapter, download our sample file [here](/files/sample_osmosis.osm.pbf). You may also use a raw data file of your choosing.  
 
-Follow these steps to download and prepare Osmosis:  
+Segui questi passi per scaricare e preparare Osmosis:  
 
-- First, download Osmosis [here](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
+- Per prima cosa, scarica Osmosis [qui](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
 - Unzip the folder and place it somewhere on your system where it will not be moved. We will need to add its location to the system path so that it can be run from the command line.  
 
 ![unzip it][]
@@ -54,7 +54,7 @@ Follow these steps to download and prepare Osmosis:
       C:\osmosis-latest\bin
 
 - Click OK several times to save the new settings.  
-- **osmosis** should be functioning now. Let's check it.  
+- **osmosis** ora dovrebbe funzionare. Proviamolo.  
 - Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
 
 ![cmd][]
@@ -87,10 +87,10 @@ Now let's learn our first Osmosis command. We will run a command that filters al
 In order to do this, we need to tell Osmosis a few things. We need to specify:  
 
 - an input file (sample_osmosis.osm.pbf)  
-- some rules which define what we want to filter  
+- alcune regole che definiscono cosa vogliamo filtrare  
 - an output file (we will output an uncompressed .osm file so we can open it in JOSM)  
 
-The command we will run is:  
+Il comando che lanceremo è:  
 
       osmosis --rbf sample_osmosis.osm.pbf --nkv keyValueList="amenity.school" --wx schools.osm
 

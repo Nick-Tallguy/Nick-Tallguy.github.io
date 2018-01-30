@@ -38,8 +38,8 @@ Aangepaste extracten
 
 ### HOT Exports  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+Het [Humanitarian OpenStreetMap Team](http://hotosm.org) heeft een service gemaakt die gebruikers in staat stelt het gebied te selecteren dat zij willen uitnemen, en ook [voorkeuzen van JOSM gebruiken](/nl_NL/josm/josm-presets/)
+om aangepaste tags te selecteren die moeten worden opgenomen in het extract. De service is beschikbaar voor alle landen waar HOT werkt, op [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
