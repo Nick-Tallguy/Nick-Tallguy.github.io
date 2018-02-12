@@ -63,10 +63,10 @@ Installing the Stylish extension in Firefox
 4. نصب.  
 ![Stylish-chrome-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon. You may have to select **Find more styles for this site** to find all of the available styles.  
+5.  سایت <http://www.openstreetmap.org/> را ببینیدو بر روی نماد Stylish که در منوبار مرورگرتان وجود دارد کلیک کنید. هر افزپنه مفید و دلخواه را انتخاب و نصب کنید و سپس آنها را بر حسب لزوم از آیکن Stylish فعال کنید. میتوانید **Find more styles for this site** را انتخاب کنید تا تمامی استایلهای موجود را پیدا کنید.  
 ![Stylish-chrome-5][]
 
-6.  Purple traced buildings is one of the options available. It may be worth checking back at intervals as more styles are developed.   
+6. صورتی رنگ کردن ساختمانهای ترسیم شده یکی از انتخابهای موجود است. بهتر است هر چند وقت یکبار سایت را چک کنید تا استایلهای جدیدی که به وجود آمده است را ببینید.   
 ![Stylish-chrome-6][]
 
 
