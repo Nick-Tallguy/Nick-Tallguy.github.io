@@ -3,6 +3,7 @@ layout: doc
 title: External Resources
 permalink: /en/resources/
 lang: en
+cover: yes
 category: resources
 ---
 
@@ -20,6 +21,9 @@ This is a commented list of pointers to other websites which we consider useful.
 ### iD
 
   * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
+  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
+  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
+  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
 
 ## Mapathons and similar events
 
@@ -38,6 +42,6 @@ This is a commented list of pointers to other websites which we consider useful.
 ## Statistics
 
   * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
-  * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see real-time progress worldwide
+  * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
   * [Who is around me ](http://resultmaps.neis-one.org/oooc) map display about mappers who recently contributed in an area
 
