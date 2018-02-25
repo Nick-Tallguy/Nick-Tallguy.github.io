@@ -31,8 +31,7 @@ layout: default
       </li>
 
       {% for category in site.priorities %}
-<li><span>{{category}}</span></li>
-<!--        {% for post in site.categories.category %}
+        {% for post in site.categories[category] %}
           {% if post.lang == page.lang %}{% unless post.hidden %}
           {% if post.cover %}{% unless post.category == page.category %}
             <li class='doc rounded'>
@@ -42,7 +41,7 @@ layout: default
             </li>
           {% endunless %}{% endif %}
           {% endunless %}{% endif %}
-        {% endfor %}-->
+        {% endfor %}
       {% endfor %}
   </ul>
 
