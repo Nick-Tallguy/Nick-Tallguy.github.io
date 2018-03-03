@@ -36,10 +36,10 @@ Datenauszüge herunterladen
 Angepasste Auszüge
 -------------------
 
-### HOT Exports  
+### HOT Exporte  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+Das [Humanitarian OpenStreetMap Team](http://hotosm.org) hat einen Service erstellt, der es Benutzern erlaubt ein Gebiet auszuwählen, das sie extrahieren wollen, dabei können [JOSM Presets](/en/josm/josm-presets/) verwendet werden
+um Benutzderfinierte Tags, welche im Extrakt beinhaltet sind, auszuwählen. Der Service ist in allen Ländern verfügbar, in denen HOT arbeitet, auf [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 

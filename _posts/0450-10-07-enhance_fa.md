@@ -15,21 +15,21 @@ category: hot-tips
 مقدمه
 ------------
 
-This module covers the changing of the brightness of the satellite imagery which may make it simpler to pick out details, but also covers installation of the Stylish extension on the Firefox and Chrome web browsers, which allows the installation of different colour schemes.  
+این ماژول جهت تغییر شفافیت تصاویر ماهواره ایی به منظور آسان کردن تشخیص رنگها به کار می رود، اما نصب افزونه Stylish در مرورگرهای فایرفاکس و کروم را نیز پوشش میدهد که اجازه میدهد تا طیفهای رنگی مختلفی نصب شوند.  
 
 Changing the colours of traced buildings may make it easier when working in an area with red roofed buildings, or another red backround.  
 
-Other extensions are also available. 
+افزونه های دیگری نیز وجود دارند. 
 
-Changing the brightness of the satellite imagery
+تغییر شفافیت تصاویر ماهواره‌ای
 --------------------------------------------------
 
 ![background][]
 
-Installing the Stylish extension in Firefox  
+نصب افزونه Stylish در فایرفاکس  
 -------------------------------------------
 
-1.  Click on the menu.  
+1. بر روی منو کلیک کنید .  
 ![Stylish-1]{: height="100px"}
 
 2.  Select "Add-ons"  
@@ -38,7 +38,7 @@ Installing the Stylish extension in Firefox
 3.  Search for stylish - first one in the list in the screenshot,  
 ![Stylish-3][]
 
-4.  Install & restart.  
+4. نصب و شروع مجدد.  
 ![Stylish-4][]
 
 5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.
