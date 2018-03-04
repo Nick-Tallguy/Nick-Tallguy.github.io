@@ -41,7 +41,7 @@ Estratti personalizzati
 Lo [Humanitarian OpenStreetMap Team](http://hotosm.org) ha creato un servizio che permette agli utenti di selezionare l'area che vogliono estarre, ed usare anche le [preimpostazioni JOSM](/en/josm/josm-presets/)
 per selezionare i tag utente che devono essere inclusi nell'estrazione. Il servizio è disponibile in tutti i paesi dove opera HOT su [export.hotosm.org](http://export.hotosm.org).
 
-![hot esportazioni][]
+![hot exports][]
 
 ### BBBike  
 
@@ -95,5 +95,5 @@ Sommario
 I servizi citati in questo capitolo sono tutto ciò che l'utente medio ha bisogno per recuperare i dati OSM che vuole e per essere in grado di lavorarci con programmi GIS. Tuttavia, potresti voler imparare metodi più potenti per lavorare con gli stessi dati. I capitoli successivi di questa sezione sono molto tecnici, ma mostrano metodi avanzati per manipolare ed accedere ai dati OSM.  
 
 
-[esportazioni HOT]: /images/osm-data/hot-exports.png
+[hot exports]: /images/osm-data/hot-exports.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png
