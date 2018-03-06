@@ -9,11 +9,11 @@ category: resources
 
 # Các tài nguyên khác
 
-> Reviewed 2018-02-24
+> Chỉnh sửa ngày 06/3/2018
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+Đây là các chỉ dẫn được cho là có ích cho các trang web khác. Tất cả các đường link chắc chắn hoạt động tại thời điểm tài liệu này được hoàn thiện.
 
-  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
+  * [Maptime liệt kê các liên kết trong việc lập bản đồ và bản đồ học](http://maptime.io/lessons-resources/) Một tập hợp đầy đủ các liên kết, không chỉ về OpenStreetMap mà bao gồm cả trình chiếu bản đồ, thành lập bản đồ và web mapping
 
 
 #### Chỉnh sửa
