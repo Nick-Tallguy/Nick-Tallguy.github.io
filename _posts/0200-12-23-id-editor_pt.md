@@ -92,16 +92,16 @@ Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height=
 
 - O cursor do seu mouse irá mudar para o botão de mais (+). Encontre uma via que não esteja desenhada no mapa e trace-a. Clique no ponto onde a via se inicia, mova o mouse e clique para adicionar pontos. Dê um duplo clique para finalizar o desenho da via. Observe o painel no lado esquerdo.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line, you will see these tools:  
+- Tal como num ponto, selecione as etiquetas apropriadas para a linha.  
+- Pode arrastar pontos da linha clicando com o botão esquerdo do rato num ponto e arrastando-o de seguida.  
+- Também pode mover toda a linha selecionando-a e escolhendo a **ferramenta Mover**. Então arraste a linha para uma nova localização. ![image30][]{: height="24px"}  
+- Quando clica com o botão esquerdo do rato num ponto individual (nó) na linha, irá ver estas ferramentas:  
 - Eliminar ponto da linha. ![image23][]{: height="24px"}  
 - Desligar ponto da linha. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
+- Dividir a linha em 2 linhas no ponto que selecionou. ![image27][]{: height="24px"}  
+- Quando clica com o botão esquerdo do rato numa linha (mas não num ponto), irá ver estas ferramentas:  
 -   Eliminar linha. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
+-   Criar círculo a partir da linha (apenas ativo se a linha estiver fechada) ![image29][]{: height="24px"}  
 -   Mover linha ![image30][]{: height="24px"}  
 -   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
 -   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
