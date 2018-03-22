@@ -103,38 +103,38 @@ Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height=
 -   Eliminar linha. ![image23][]{: height="24px"}  
 -   Criar círculo a partir da linha (apenas ativo se a linha estiver fechada) ![image29][]{: height="24px"}  
 -   Mover linha ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+-   Fazer um retângulo a partir de uma linha (apenas ativo se a linha estiver fechada) ![image31][]{: height="24px"}  
+-   Inverter direção da linha (útil em rios e estradas de sentido único) ![image32][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+Uma "linha" criada no editor iD é na verdade uma "via" com "etiquetas" nela.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+>Uma nota especial sobre **Eliminar**: Regra geral, deve evitar eliminar objetos que outras pessoas mapearam se estes apenas precisam de melhoramentos. Pode eliminar os seus próprios erros, mas deve tentar *ajustar* os objetos de outros mapeadores se estes precisarem de alterações. Isto preserva o histórico dos itens na base de dados do OSM e é um sinal de respeito para com outros utilizadores. Se acha que algo deve ser eliminado, considere perguntar à pessoa que o fez ou numa das listas de email sobre isso primeiro.
 
 ### Desenhar Formas (Polígonos)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Para adicionar uma forma geométrica com vários lados, clique no botão **Área**. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- O cursor do rato irá mudar para o símbolo mais (+). Tente desenhar um edifício utilizando as imagens de satélite como guia.  
+- Irá notar que a cor da forma geométrica irá mudar dependendo dos atributos que lhe der.  
 ![image35][]  
-- The tools that are available when you select a shape are similar to those when you click on a line.  
+- As ferramentas que estão disponíveis quando selecione uma forma geométrica são similares àquelas disponíveis quando clica numa linha.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+Um "polígono" no editor iD é na verdade uma "via fechada" com etiquetas nela.
 
 Gravar as Suas Alterações
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Quando (e se) quiser gravar as suas edições no OpenStreetMap, clique no botão **Gravar**. O painel à esquerda irá mostrar o painel de envio.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Introduza um comentário/sumário sobre as suas edições e clique em **Gravar**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Se editou o mesmo elemento (ponto, linha ou área) ao mesmo tempo que outra pessoa estava a editá-lo, irá ver um aviso a indicar que as suas edições não poderão ser enviadas até que resolva os  **conflitos** - escolha as edições que quer manter e envie as suas alterações. *Muitas vezes, o resolver de conflitos implica que se aceite algumas edições de outras pessoas, e nesse caso irá provavelmente desejar voltar ao elemento em questão e editá-lo de novo (**desta vez grave mais cedo para evitar que aconteça um conflito de edições de novo!**).*
 
-Additional Information and Custom Tags
+Informação Adicional e Etiquetas Personalizadas
 ---------------------------------------
 
-When you are editing an object, you will see a strip of icons at the bottom of the attribute panel. You can add additional information by clicking these icons:
+Quando está a editar um objeto, irá ver uma faixa de ícones no fundo do painel de atributos. Pode adicionar informações adicionais clicando nestes ícones:
 
 - Adicionar elevação ![image37][]{: height="24px"}  
 - Adicionar notas ![image38][]{: height="24px"}  
@@ -144,30 +144,30 @@ When you are editing an object, you will see a strip of icons at the bottom of t
 - Adicionar informação de acessibilidade ![image42][]{: height="24px"}  
 - Adicionar link Wikipédia ![image43][]{: height="24px"}  
 
-Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Ou pode adicionar etiquetas personalizadas clicando em **Todas as etiquetas**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Isto irá mostrar todas as etiquetas que o elemento tem.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Clique no símbolo mais (+) para adicionar chaves e valores ou clique no botão do caixote do lixo para eliminar etiquetas.
 
 iD versus JOSM
 ---------------  
 
 **o iD é bom para...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Quando está a fazer edições simples  
+- Quando tem uma ligação à Internet rápida para carregar as imagens de satélite e gravar as edições  
+- Quando quer ter a certeza que quer seguir um esquema de etiquetas simples e consistente  
+- Quando não pode instalar um programa no computador que está a utilizar
 
 **o JOSM é melhor...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Quando está a adicionar muitos edifícios (ver módulo buildings_tool / Ferramenta de Edifícios)
+- Quando está a editar muitos polígonos ou linhas que já existam
+- Quando tem uma ligação à Internet fraca / com falhas ou está desligado
+- Quando está a suar um esquema de etiquetas específico (ou modelos de etiquetas personalizados)
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Existe uma [secção no LearnOSM](/pt/mobile-mapping/field-papers/) que fornece mais informação sobre os Field Papers.
 
 
 
