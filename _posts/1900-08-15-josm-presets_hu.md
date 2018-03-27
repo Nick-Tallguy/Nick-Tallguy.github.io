@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM Presets
-permalink: /en/josm/josm-presets/
+permalink: /hu/josm/josm-presets/
 lang: hu
 category: josm
 ---

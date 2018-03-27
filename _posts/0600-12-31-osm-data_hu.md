@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /en/osm-data/
+permalink: /hu/osm-data/
 lang: hu
 title: OSM Data
 category: osm-data

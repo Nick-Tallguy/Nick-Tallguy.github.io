@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Editing Field Data
-permalink: /en/josm/editing-with-josm/
+permalink: /hu/josm/editing-with-josm/
 lang: hu
 category: josm
 ---

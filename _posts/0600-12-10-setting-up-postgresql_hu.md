@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Setting up PostgreSQL
-permalink: /en/osm-data/postgresql/
+permalink: /hu/osm-data/postgresql/
 lang: hu
 category: osm-data
 ---

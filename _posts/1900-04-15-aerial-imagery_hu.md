@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Aerial Imagery
-permalink: /en/josm/aerial-imagery/
+permalink: /hu/josm/aerial-imagery/
 lang: hu
 category: josm
 ---

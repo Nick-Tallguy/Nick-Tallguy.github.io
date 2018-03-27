@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM adding tms, wms or wmts imagery
-permalink: /en/josm/josm-adding-imagery/
+permalink: /hu/josm/josm-adding-imagery/
 lang: hu
 category: josm
 ---

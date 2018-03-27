@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM Building Tools & Utilsplugin2 plugins
-permalink: /en/josm/josm-more-plugins/
+permalink: /hu/josm/josm-more-plugins/
 lang: hu
 category: josm
 ---

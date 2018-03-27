@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Manipulating Data with Osmosis
-permalink: /en/osm-data/osmosis/
+permalink: /hu/osm-data/osmosis/
 lang: hu
 category: osm-data
 ---

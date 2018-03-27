@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: OSM Data Overview
-permalink: /en/osm-data/data-overview/
+permalink: /hu/osm-data/data-overview/
 lang: hu
 category: osm-data
 ---

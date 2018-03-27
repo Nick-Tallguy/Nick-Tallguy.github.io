@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: GPSLogger for Android
-permalink: /en/mobile-mapping/gpslogger/
+permalink: /hu/mobile-mapping/gpslogger/
 lang: hu
 category: mobile-mapping
 ---

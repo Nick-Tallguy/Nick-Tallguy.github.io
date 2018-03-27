@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: OruxMaps
-permalink: /en/mobile-mapping/oruxmaps/
+permalink: /hu/mobile-mapping/oruxmaps/
 lang: hu
 category: mobile-mapping
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: OSMTracker
-permalink: /en/mobile-mapping/osmtracker/
+permalink: /hu/mobile-mapping/osmtracker/
 lang: hu
 category: mobile-mapping
 ---

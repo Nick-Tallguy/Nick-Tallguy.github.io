@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: The JOSM Editing Process
-permalink: /en/josm/more-about-josm/
+permalink: /hu/josm/more-about-josm/
 lang: hu
 category: josm
 ---

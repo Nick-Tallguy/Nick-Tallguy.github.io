@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Gestionnaire de Tâches 3 Création de Projet
-permalink: /en/coordination/tasking-manager3-project-admin/
+permalink: /fr/coordination/tasking-manager3-project-admin/
 lang : fr
 category: coordination 
 ---

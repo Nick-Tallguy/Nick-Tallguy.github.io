@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Correcting Imagery Offset
-permalink: /en/josm/correcting-imagery-offset/
+permalink: /hu/josm/correcting-imagery-offset/
 lang: hu
 category: josm
 ---

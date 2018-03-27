@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM Conflict Resolution
-permalink: /en/josm/josm-conflict-resolution/
+permalink: /hu/josm/josm-conflict-resolution/
 lang: hu
 category: josm
 ---

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM Relations
-permalink: /en/josm/josm-relations/
+permalink: /hu/josm/josm-relations/
 lang: hu
 category: josm
 ---

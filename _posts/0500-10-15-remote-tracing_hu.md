@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tracing roads, buildings, water and landuse 
-permalink: /en/coordination/remote-tracing/
+permalink: /hu/coordination/remote-tracing/
 lang: hu
 category: coordination
 ---

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Enhancing the colours or background - iD editor
-permalink: /hu/hot-tips/enhance/
-lang: hu
+permalink: /fr/hot-tips/enhance/
+lang: fr
 category: hot-tips
 ---
 

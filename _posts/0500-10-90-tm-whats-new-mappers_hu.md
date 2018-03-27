@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-whats-new-for-mappers/
+permalink: /hu/coordination/tm-whats-new-for-mappers/
 lang: hu
 title: What is new for Mappers in the Tasking Manager 3
 category: coordination

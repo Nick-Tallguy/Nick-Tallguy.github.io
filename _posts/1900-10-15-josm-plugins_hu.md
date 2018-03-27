@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM Plugins
-permalink: /en/josm/josm-plugins/
+permalink: /hu/josm/josm-plugins/
 lang: hu
 category: josm
 ---

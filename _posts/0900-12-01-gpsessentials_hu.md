@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: GPS Essentials
-permalink: /en/mobile-mapping/gpsessentials/
+permalink: /hu/mobile-mapping/gpsessentials/
 lang: hu
 category: mobile-mapping
 --- 

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: JOSM - Creating Custom Presets
-permalink: /en/josm/creating-presets/
+permalink: /hu/josm/creating-presets/
 lang: hu
 category: josm
 ---
