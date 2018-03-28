@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Other Resources
-permalink: /en/resources/
-lang: en
+permalink: /it/resources/
+lang: it
 cover: yes
 category: resources
 ---
