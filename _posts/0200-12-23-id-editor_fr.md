@@ -2,7 +2,7 @@
 layout: doc
 title: Éditeur iD
 permalink: /fr/beginner/id-editor/
-lang : fr
+lang: fr
 category: beginner
 ---
 

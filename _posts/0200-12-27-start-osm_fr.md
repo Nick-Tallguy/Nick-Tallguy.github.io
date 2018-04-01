@@ -2,7 +2,7 @@
 layout: doc
 title: OpenStreetMap.org
 permalink: /fr/beginner/start-osm/
-lang : fr
+lang: fr
 category: beginner
 ---
 
