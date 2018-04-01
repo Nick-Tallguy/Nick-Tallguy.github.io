@@ -11,7 +11,7 @@ beg: "beginner's guide"
 interspan: "Humanitarian Mapping"
 interspanlink: /bn_BD/coordination/humanitarian
 inter: "Remote mapping  সম্পর্কিত তথ্য"
-advspan: "Mআরো নির্দেশনা"
+advspan: "আরো নির্দেশনা"
 adv: "নথিপত্র আকারে নির্দেশনাগুলো"
 advspanlink: "https://github.com/hotosm/learnosm/wiki/English-Learning-Guides/"
 faq: "সাধারণ প্রশ্নগুলো"
