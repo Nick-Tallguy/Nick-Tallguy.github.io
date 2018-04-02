@@ -121,7 +121,7 @@ Créer un compte OpenStreetMap
     ressembler à l'image ci-dessous. Cliquez sur le lien indiqué
     ci-dessous :
 
-    ![Confirmer votre compte OpenStreetMap][]
+    ![Confirming your OpenStreetMap account][]
 
 -   Un nouvel onglet ou une nouvelle fenêtre va s'ouvrir. Si tout s'est déroulé correctement, vous devriez
     avoir un compte OSM!

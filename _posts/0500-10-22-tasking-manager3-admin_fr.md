@@ -31,18 +31,18 @@ Le gestionnaire de tâches OpenStreetMap est essentiel pour effectuer un mapatho
 
  Ce guide est spécialement conçu pour les personnes qui ont besoin d'instructions sur l'administration du gestionnaire de tâches OSM, y compris la création et la modification de projets de tâches pour les événements de cartographie ouverte, c'est-à-dire 'mapathons'. Ce guide s'applique spécifiquement aux instances de OSM Tasking Manager version 3, y compris les  [HOT Tasking Manager](http://tasks.hotosm.org) et le [TeachOSM Tasking Manager](http://tasks.teachosm.org).
 
-La version 3 du gestionnaire de tâches HOT ou OSM est souvent appelée ** TM3, ** en tant que raccourci pour le gestionnaire de tâches, version 3.
+La version 3 du gestionnaire de tâches HOT ou OSM est souvent appelée **TM3,** en tant que raccourci pour le gestionnaire de tâches, version 3.
 
 ## Connexion et niveaux d'accès
 
-La première chose à comprendre est le niveau d'accès. Tout accès à TM3 est autorisé via le [site Web OpenStreetMap] (https://www.openstreetmap.org). Pour accéder à TM3, vous aurez besoin d'un compte OpenStreetMap (OSM). Une fois que vous avez ce compte, visitez [le gestionnaire de tâches] (http://tasks.hotosm.org) et cliquez sur ** Connexion à OpenStreetMap **, qui vous renverra à la page OSM où vous pouvez autoriser le gestionnaire de tâches à avoir accès limité à votre compte OSM. 
+La première chose à comprendre est le niveau d'accès. Tout accès à TM3 est autorisé via le [site Web OpenStreetMap] (https://www.openstreetmap.org). Pour accéder à TM3, vous aurez besoin d'un compte OpenStreetMap (OSM). Une fois que vous avez ce compte, visitez [le gestionnaire de tâches] (http://tasks.hotosm.org) et cliquez sur **Connexion à OpenStreetMap**, qui vous renverra à la page OSM où vous pouvez autoriser le gestionnaire de tâches à avoir accès limité à votre compte OSM. 
 
 ### Niveaux d'accès dans le gestionnaire de tâches OSM
 
 Le gestionnaire de tâches OSM a trois niveaux d'accès utilisateur:
-- ** Utilisateur ** - Le niveau le plus basique. L'utilisateur peut se connecter à TM3 et utiliser ses fonctionnalités pour trouver et sélectionner un projet de cartographie et y travailler. Ce niveau d'utilisation est décrit en détail dans [Le guide OSM Tasking Manager dans LearnOSM] (/fr/coordination/tasking-manager-3/). Notez que certains projets, tels que ceux dans l'état brouillon (c'est-à-dire non publié) ne sont pas visibles pour les utilisateurs.  
-- ** Chef de projet ** - Les chefs de projet ont accès à la création et à la mise à jour de projets au sein de TM3.  
-- ** Administrateur ** - Les administrateurs ont un accès leur permettant de gérer les niveaux d'accès des utilisateurs au sein de TM3.
+- **Utilisateur** - Le niveau le plus basique. L'utilisateur peut se connecter à TM3 et utiliser ses fonctionnalités pour trouver et sélectionner un projet de cartographie et y travailler. Ce niveau d'utilisation est décrit en détail dans [Le guide OSM Tasking Manager dans LearnOSM] (/fr/coordination/tasking-manager-3/). Notez que certains projets, tels que ceux dans l'état brouillon (c'est-à-dire non publié) ne sont pas visibles pour les utilisateurs.  
+- **Chef de projet** - Les chefs de projet ont accès à la création et à la mise à jour de projets au sein de TM3.  
+- **Administrateur** - Les administrateurs ont un accès leur permettant de gérer les niveaux d'accès des utilisateurs au sein de TM3.
 
 Vous aurez besoin du niveau d'accès Chef de projet pour créer de nouveaux projets en utilisant TM3.
 
@@ -50,7 +50,7 @@ Vous aurez besoin du niveau d'accès Chef de projet pour créer de nouveaux proj
 
 ![TM New][]
 
-Cliquez sur votre nom d'utilisateur dans le coin supérieur droit, puis sur ** Créer un nouveau projet. ** Vous pouvez ensuite choisir entre dessiner votre zone d'intérêt (AoI) sur la carte ou importer une zone d'intérêt à partir d'un fichier geojson;  
+Cliquez sur votre nom d'utilisateur dans le coin supérieur droit, puis sur **Créer un nouveau projet.** Vous pouvez ensuite choisir entre dessiner votre zone d'intérêt (AoI) sur la carte ou importer une zone d'intérêt à partir d'un fichier geojson;  
 
 > L'importation d'un fichier avec une zone définie est toujours préférable au dessin à la main d'un projet Tasking Manager. Des outils tels que JOSM, QGIS, etc. peuvent être utilisés pour créer des fichiers à importer dans le gestionnaire de tâches. Le workflow suggéré consiste à créer un fichier .osm de la zone d'intérêt en utilisant JOSM, puis à utiliser http://geojson.io/ pour générer un GeoJSON.
 
@@ -88,7 +88,7 @@ Pour créer une grille de carrés uniformes, sélectionnez l'option Quadrillage 
 
 La zone d’intérêt à cartographier est automatiquement divisé en cellules de la grille et chaque cellule devient une tâche. Déterminez la taille optimale des carreaux en utilisant les boutons "Plus grand" et "Plus petit" pour ajuster la taille des carrés des tâches. En tant que tel, une taille de tuile plus petite se traduira par plus de tâches. La taille optimale des tuiles dépendra donc à la fois de la taille de la zone (créer des tuiles plus petites pour un grand projet) et du nombre de caractéristiques qui devront probablement être cartographié dans chaque tuile. En règle générale, à mesure que la taille de la zone d'intérêt et / ou le nombre de caractéristiques probables augmentent, la taille de la mosaïque choisie pour le projet devrait diminuer. 
 
-Veuillez noter qu' **il existe plusieurs couches de carte disponibles pour déterminer la taille de la case **. Le bouton dans le coin inférieur droit de la carte fournira votre liste d'options pour la couche de carte. Choisir l'une des couches d'imagerie est probablement la meilleure option car elle vous permet de voir l'image réelle à cartographier.
+Veuillez noter qu' **il existe plusieurs couches de carte disponibles pour déterminer la taille de la case**. Le bouton dans le coin inférieur droit de la carte fournira votre liste d'options pour la couche de carte. Choisir l'une des couches d'imagerie est probablement la meilleure option car elle vous permet de voir l'image réelle à cartographier.
 
 Si vous avez des images personnalisées pour le projet, vous pouvez également le charger en utilisant le bouton en haut à droite de la carte et en mettant une URL TMS ou WMS.
 
@@ -96,7 +96,7 @@ Vous pouvez également créer plusieurs tailles de tâches différentes en utili
 
 > Généralement, vous aurez besoin de petites tuiles sur les zones de peuplement dense pour les bâtiments. L'objectif devrait être de créer des tâches de projet qui peuvent être achevées en 10-15 minutes.
 
-*** Considérations à prendre en compte avant de décider de la taille des carreaux ***
+***Considérations à prendre en compte avant de décider de la taille des carreaux***
 
 - Un nouveau mappeur lors d'un mapathon cartographie une zone à environ un quart de la vitesse d'un mappeur expérimenté (beaucoup démarrent beaucoup plus lentement, mais deviennent rapidement plus rapides). 
 - Un nouveau mappeur trouve qu'il est difficile de rechercher des entités dans l'imagerie satellite comme elles le font pour les cartographier. Trouver des huttes rondes couvertes de chaume avec des matériaux naturels dans une zone de buissons ronds est une courbe d'apprentissage abrupte pour un «débutant».
@@ -104,7 +104,7 @@ Vous pouvez également créer plusieurs tailles de tâches différentes en utili
 - Plus tard dans le processus, vous avez la possibilité pour un mappeur de «diviser» un carré - diviser un carré en quarts aide les nouveaux mappeurs à obtenir une taille carrée avec laquelle ils peuvent composer.  
 -  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
 - Un carré peut être divisé, mais il n'y a pas d'option pour joindre les carrés ensemble pour les rendre plus grands encore. Alors soyez prudent lorsque vous divisez
-- ** Conclusion ** Essayez de cartographier une zone du projet vous-même pour voir à quel point c'est facile et quelles difficultés seront rencontrées. Cela devrait vous aider à décider d'une taille de carré optimale. Permettre la division, mais pas à l'infini - certains nouveaux cartographes divisent continuellement les carrés jusqu'à ce qu'ils soient si petits qu'il devient extrêmement difficile à cartographier.  
+- **Conclusion** Essayez de cartographier une zone du projet vous-même pour voir à quel point c'est facile et quelles difficultés seront rencontrées. Cela devrait vous aider à décider d'une taille de carré optimale. Permettre la division, mais pas à l'infini - certains nouveaux cartographes divisent continuellement les carrés jusqu'à ce qu'ils soient si petits qu'il devient extrêmement difficile à cartographier.  
 
 Après avoir finalisé les tailles de tâches, cliquez sur "Suivant".
 
@@ -149,19 +149,19 @@ Les descriptions courtes et longues doivent fournir des informations sur les rai
 
 ![TM Instructions][]
 
-** Entités à mapper ** - Liste des entités/Objets que vous souhaitez que les utilisateurs cartographient. Généralement, moins il y a d'entités, mieux c'est, parce qu'elles sont plus susceptibles d'être complétées.
+**Entités à mapper** - Liste des entités/Objets que vous souhaitez que les utilisateurs cartographient. Généralement, moins il y a d'entités, mieux c'est, parce qu'elles sont plus susceptibles d'être complétées.
 
 > Les projets qui demandent de nombreuses entités à cartographier sont difficiles pour les cartographes et difficiles à valider. Ils prennent beaucoup plus de temps pour obtenir un bon jeu de données utilisable. Les tailles de tâches sont également difficiles à rendre efficaces pour différents types de cartographie, par exemple, les bâtiments ont besoin de petits carrés de tâches, les routes et les cours d'eau nécessitent des carrés de tâches plus grands. Faire plusieurs projets sur la même zone pour faire correspondre des bâtiments et des entités linéaires est une bonne pratique.
 
-** Commentaire du jeu de modifications ** - Il s'agit du commentaire de modification par défaut qui sera attaché à chaque téléchargement de données vers OSM. Il inclut généralement quelque chose qui identifie le gestionnaire de tâches sur lequel réside le projet et les fonctionnalités qui ont été mappées. Il est souvent utilisé pour les "hashtags" afin d'aider à identifier l'organisation demandant et / ou effectuant la cartographie. Il peut également décrire la cartographie en cours, par exemple, "Cartographie des bâtiments".
+**Commentaire du jeu de modifications** - Il s'agit du commentaire de modification par défaut qui sera attaché à chaque téléchargement de données vers OSM. Il inclut généralement quelque chose qui identifie le gestionnaire de tâches sur lequel réside le projet et les fonctionnalités qui ont été mappées. Il est souvent utilisé pour les "hashtags" afin d'aider à identifier l'organisation demandant et / ou effectuant la cartographie. Il peut également décrire la cartographie en cours, par exemple, "Cartographie des bâtiments".
 
 > Les utilisateurs devraient être invités à remplir des commentaires significatifs sur ce qu'ils ont cartographié, mais les aider avec de bons commentaires par défaut est toujours une bonne idée.
 
-** Instructions détaillées ** - C'est là que la majorité de vos instructions détaillées seront placées et ce que nous attendons de chaque cartographe et validateur à lire attentivement et à suivre.
+**Instructions détaillées** - C'est là que la majorité de vos instructions détaillées seront placées et ce que nous attendons de chaque cartographe et validateur à lire attentivement et à suivre.
 
 Voir les notes ci-dessous sur la création de bonnes instructions.
 
-** Instructions par tâche ** - Elles seront affichées lorsqu'un mappeur sélectionne une tâche et dispose également d'une fonctionnalité spéciale qui permet de créer des URL spécifiques à une tâche en fonction des coordonnées x, y, z typiques de la «carte glissante».
+**Instructions par tâche** - Elles seront affichées lorsqu'un mappeur sélectionne une tâche et dispose également d'une fonctionnalité spéciale qui permet de créer des URL spécifiques à une tâche en fonction des coordonnées x, y, z typiques de la «carte glissante».
 
 ### Métadonnées
 
@@ -169,11 +169,11 @@ Voir les notes ci-dessous sur la création de bonnes instructions.
 
 > Tous ces champs doivent être remplis et deviendront non-optionnels dans les futures versions de TM3.
 
-** Niveau du mappeur ** - Ceci est une indication de la difficulté du projet de cartographie. Il y a 3 options Débutant, Intermédiaire et Avancé. Ce paramètre est une indication pour le mappeur du niveau d'expérience qu'il devrait avoir pour réussir la cartographie du projet. Il peut être utilisé dans le filtrage des listes de projets et le niveau suggéré peut être requis dans la fenêtre autorisations.
+**Niveau du mappeur** - Ceci est une indication de la difficulté du projet de cartographie. Il y a 3 options Débutant, Intermédiaire et Avancé. Ce paramètre est une indication pour le mappeur du niveau d'expérience qu'il devrait avoir pour réussir la cartographie du projet. Il peut être utilisé dans le filtrage des listes de projets et le niveau suggéré peut être requis dans la fenêtre autorisations.
 
-** Type de cartographie ** - Utilisé dans le filtrage des listes de projets et aide les mappeurs à trouver les projets qu'ils souhaitent cartographier.
+**Type de cartographie** - Utilisé dans le filtrage des listes de projets et aide les mappeurs à trouver les projets qu'ils souhaitent cartographier.
 
-** Organisation ** - Vous permet de spécifier l'organisation qui utilisera les données cartographiées. Utilisé dans le filtrage de projet.
+**Organisation** - Vous permet de spécifier l'organisation qui utilisera les données cartographiées. Utilisé dans le filtrage de projet.
 
 **Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
 
