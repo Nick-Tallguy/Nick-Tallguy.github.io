@@ -1,20 +1,10 @@
 ---
 layout: default
 ---
+
+<!-- First the navigation bar on the left side -->
+
 <div class='doc-nav marginL cell3 padAll cf' id='doc-nav-left'>
-      <ul>
-
-    {% for post in site.categories[page.category] %}
-      {% if post.lang == page.lang %}{% unless post.hidden %}
-      <li class='doc rounded'>
-        <a class='title {% if post.cover %}cover{% endif %} {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
-          <span>{{ post.title }}</span>
-        </a>
-      </li>
-      {% endunless %}{% endif %}
-    {% endfor %}
-  </ul>
-
   <ul style="margin-top:40px;">
       <li class='doc rounded'>
         <a class='title cover'>
@@ -30,25 +20,42 @@ layout: default
         </a>
       </li>
 
+      <!-- We build a two-level menu, first with the names of all cover pages -->
       {% for category in site.priorities %}
         {% for post in site.categories[category] %}
           {% if post.lang == page.lang %}{% unless post.hidden %}
-          {% if post.cover %}{% unless post.category == page.category %}
-            <li class='doc rounded'>
-              <a class='title' href="{{site.baseurl}}{{ post.url }}">
-                <span>{{ post.title }}</span>
-              </a>
-            </li>
-          {% endunless %}{% endif %}
+            {% if post.cover %}
+              <li class='doc rounded'>
+                <a class='title' href="{{site.baseurl}}{{ post.url }}">
+                  <span>{{ post.title }}</span>
+                </a>
+              </li>
+              <!-- for the current category we show a submenu with the names of all guides contained -->
+              {% if post.category == page.category %}
+                <ul>
+                  {% for subpost in site.categories[page.category] %}
+                    {% if subpost.lang == page.lang %}{% unless subpost.hidden %}
+                    <li class='doc rounded'>
+                      <a class='title {% if subpost.cover %}cover{% endif %} {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
+                        <span>{{ subpost.title }}</span>
+                      </a>
+                    </li>
+                    {% endunless %}{% endif %}
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            {% endif %}
           {% endunless %}{% endif %}
         {% endfor %}
       {% endfor %}
   </ul>
-
 </div>
+
+<!-- On the right side we have... -->
+
 <div class='doc-main doc cell5 padAll'>
-  {{content}}
-  {% if page.cover %}
+  {{content}}           <!-- ...first the contents of the current document -->
+  {% if page.cover %}   <!--    then the 'return to top' button and and our call for feedback -->
     <div class='getstarted'>
       <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
     </div>
