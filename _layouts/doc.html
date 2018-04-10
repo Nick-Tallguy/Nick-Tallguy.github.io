@@ -26,7 +26,7 @@ layout: default
           {% if post.lang == page.lang %}{% unless post.hidden %}
             {% if post.cover %}
               <li class='doc rounded'>
-                <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
+                <a class='title {% if page.url == post.url %}active{% endif %}' href="{{site.baseurl}}{{ post.url }}">
                   <span>{{ post.title }}</span>
                 </a>
                 {% if post.category == page.category %}
