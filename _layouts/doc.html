@@ -30,18 +30,16 @@ layout: default
                   <span>{{ post.title }}</span>
                 </a>
                 {% if post.category == page.category %}
-                <!-- for the current category we show a submenu with the names of all guides contained -->
-                  <ul>
-                    {% for subpost in site.categories[page.category] %}
-                      {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
-                      <li class='doc rounded'>
-                        <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
-                          <span>{{ subpost.title }}</span>
-                        </a>
-                      </li>
-                      {% endunless %}{% endif %}
-                    {% endfor %}
-                  </ul>
+                <!-- for the current category we show an indented menu with the names of all guides contained -->
+                  {% for subpost in site.categories[page.category] %}
+                    {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
+                    <li class='doc doc-nav-secondary rounded'>
+                      <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
+                        <span>{{ subpost.title }}</span>
+                      </a>
+                    </li>
+                    {% endunless %}{% endif %}
+                  {% endfor %}
                 {% endif %}
               </li>
             {% endif %}
