@@ -535,6 +535,11 @@ a.license {
       content:'▸';
       margin-right:8px;
     }
+    .doc-nav-secondary .title span:before {
+      content:'▸';
+      margin-left:25px;
+      margin-right:8px;
+    }
   .doc .title.cover,
   .doc .title.cover:hover,
   .doc .title.cover.active {
