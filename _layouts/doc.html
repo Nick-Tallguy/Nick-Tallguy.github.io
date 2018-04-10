@@ -18,36 +18,36 @@ layout: default
             {% endif %}
           {% endif %}
         </a>
-      </li>
 
-      <!-- We build a two-level menu, first with the names of all cover pages -->
-      {% for category in site.priorities %}
-        {% for post in site.categories[category] %}
-          {% if post.lang == page.lang %}{% unless post.hidden %}
-            {% if post.cover %}
-              <li class='doc rounded'>
-                <a class='title' href="{{site.baseurl}}{{ post.url }}">
-                  <span>{{ post.title }}</span>
-                </a>
-              </li>
-              <!-- for the current category we show a submenu with the names of all guides contained -->
-              {% if post.category == page.category %}
-                <ul>
-                  {% for subpost in site.categories[page.category] %}
-                    {% if subpost.lang == page.lang %}{% unless subpost.hidden %}
-                    <li class='doc rounded'>
-                      <a class='title {% if subpost.cover %}cover{% endif %} {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
-                        <span>{{ subpost.title }}</span>
-                      </a>
-                    </li>
-                    {% endunless %}{% endif %}
-                  {% endfor %}
-                </ul>
+        <!-- We build a two-level menu, first with the names of all cover pages -->
+        {% for category in site.priorities %}
+          {% for post in site.categories[category] %}
+            {% if post.lang == page.lang %}{% unless post.hidden %}
+              {% if post.cover %}
+                <li class='doc rounded'>
+                  <a class='title' href="{{site.baseurl}}{{ post.url }}">
+                    <span>{{ post.title }}</span>
+                  </a>
+                </li>
+                <!-- for the current category we show a submenu with the names of all guides contained -->
+                {% if post.category == page.category %}
+                  <ul>
+                    {% for subpost in site.categories[page.category] %}
+                      {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
+                      <li class='doc rounded'>
+                        <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
+                          <span>{{ subpost.title }}</span>
+                        </a>
+                      </li>
+                      {% endunless %}{% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
               {% endif %}
-            {% endif %}
-          {% endunless %}{% endif %}
+            {% endunless %}{% endif %}
+          {% endfor %}
         {% endfor %}
-      {% endfor %}
+      </li>
   </ul>
 </div>
 
