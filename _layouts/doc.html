@@ -28,21 +28,21 @@ layout: default
                   <a class='title' href="{{site.baseurl}}{{ post.url }}">
                     <span>{{ post.title }}</span>
                   </a>
+                  <!-- for the current category we show a submenu with the names of all guides contained -->
+                  {% if post.category == page.category %}
+                    <ul>
+                      {% for subpost in site.categories[page.category] %}
+                        {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
+                        <li class='doc rounded'>
+                          <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
+                            <span>{{ subpost.title }}</span>
+                          </a>
+                        </li>
+                        {% endunless %}{% endif %}
+                      {% endfor %}
+                    </ul>
+                  {% endif %}
                 </li>
-                <!-- for the current category we show a submenu with the names of all guides contained -->
-                {% if post.category == page.category %}
-                  <ul>
-                    {% for subpost in site.categories[page.category] %}
-                      {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
-                      <li class='doc rounded'>
-                        <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
-                          <span>{{ subpost.title }}</span>
-                        </a>
-                      </li>
-                      {% endunless %}{% endif %}
-                    {% endfor %}
-                  </ul>
-                {% endif %}
               {% endif %}
             {% endunless %}{% endif %}
           {% endfor %}
