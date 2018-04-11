@@ -2,7 +2,7 @@
 layout: doc
 title: OruxMaps
 permalink: /es/mobile-mapping/oruxmaps/
-lang: en
+lang: es
 category: mobile-mapping
 ---
 

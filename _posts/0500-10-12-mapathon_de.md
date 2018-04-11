@@ -1,7 +1,7 @@
 ---
-Layout: doc
-Titel: Einen Mapathon organisieren
-Permalink: /de/coordination/mapathon/
+layout: doc
+title: Einen Mapathon organisieren
+permalink: /de/coordination/mapathon/
 lang: de
 category: coordination
 ---

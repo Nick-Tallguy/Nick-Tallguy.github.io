@@ -1,6 +1,6 @@
 ---
 layout: doc
-Title: Débuter avec JOSM
+title: Débuter avec JOSM
 permalink: /fr/josm/start-josm/
 lang: fr
 category: josm
