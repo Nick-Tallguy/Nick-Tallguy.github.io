@@ -42,105 +42,105 @@ Der Erfolg der Londoner Veranstaltung basiert auf vielen Faktoren, aber hauptsä
 - Die Erfahrung lehrt uns, dass die Lernkurve für Leute ohne Mappingerfahrung sehr steil ist, aber deprimierend und frustrierend sein kann, wenn man keine Eintragungen auf der ersten Veranstaltung hinbringt. Es ist wichtig sie so schnell wie möglich Mappen zu lassen, man zeigt nur die grundlegendsten Dinge mit dem einfacheren iD Editor und lässt sie ihre eigene Probleme während des Verlaufs des Abends entdecken, während sie die Möglichkeit haben nach Hilfe zu fragen.
 - Es war viel einfacher Mappern den komplexeren JOSM Editor beizubringen, falls diese bereit Erfahrung mit dem iD Editor oder anderen GIS Programmen hatten. Das bedeutet auch, dass man es mit einer Gruppe zu tun hat, die mehr Interesse daran hat die eigenen Mappingfähigkeiten zu erweitern, als nur herauszufinden worum es geht und ob man Spaß daran hat oder nicht.
 - Es war eine regelmäßige Veranstaltung am ersten Dienstag jeden Monats, man konnte also vorausplanen und den Zeitraum sich frei halten.
-  A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
+  Eine zweite Veranstaltung (in der Mitte des Monats) und ein Reviewer Training bei den monatlichen Veranstaltungen, ermöglicht es erfahreneren Mappern fortgeschrittene und interessantere Projekte wie Validierung, experimentelle Techniken und Feldunterlagen zu thematisieren.
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## Starte mit der Arbeit für deinen Mapathon spätestens einen Monat vor der Organisation und Vorbereitung der Veranstaltung.  
 
-### First step ... Preparing the format of your Mapathon.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+### Erster Schritt ... Vorbereitung des Formats deines Mapathon.  
+Die Größe des Veranstaltungsortes und die Verfügbarkeit von Räumen beeinflussen die Umstände deines Mapathons. Ein Veranstaltungsort kann eine lokale Firma, eine Universität oder Schule, Kunstzentrum, Bibliothek oder ein Saal sein. Folgende Punkte sollten beachtet werden:  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+1. Ist der Veranstaltungsort zentral und leicht erreichbar? (man beachte öffentliche Verkehrsmittel und Parkplätze)  
+2. Ist das WLAN ausreichend um bis zu 100 gleichzeitige Verbindungen zu ermöglichen?  
+3. Kann der Ort bis zu 100 Mapper aufnehmen? Das entscheidet über die Anzahl der eingeladenen Leute.  
+4. Gibt es genügend brauchbare Tische und Stühle?  
+5.  Gibt es ausreichend Stromanschlüsse um Laptops aufzuladen? (Verlängerungskabel einplanen)  
+6. Gibt es Projektionsmöglichkeiten für Tutorials und Präsentationen?  
+7. Gibt es kleinere Räume mit großen Bildschirmen für Expertentraining mit kleineren Gruppen?  
+8. Hat man genügend erfahrene Helfer um einen großen Mapathon durchzuführen?  
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
-Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
+### Zweiter Schritt ... Planung des Mapathon
+Wenn man genug Information aus dem ersten Schritt gesammelt hat, um über Anzahl, Veranstaltungsort und mögliche Termine entscheiden zu können, kann man mit der Planung des Mapathons beginnen.  
 
-1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
-2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
-3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
-4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
-6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
-  *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
-  *    A deputy to help with the arrangements and stand in for you as a back up.   
-7.  Add your event to the Mapathon calendar.
-8.   Have someone available from the local media to take photos and report the event.
-9.  Arrange for someone to film the presentation and create a live link for any remote mappers.
+1. Setze einen Termin für den Mapathon entsprechend der Verfügbarkeit der Veranstaltungsorte (Man sollte sicherstellen, dass es sich nicht mit anderen Veranstaltungen überschneidet, damit man genügend Freiwillige und Mapper anzieht). Man sieht mindestens 2,5 bis 3 Stunden für die Veranstaltung vor (Eine halbe Stunde Ansprache und Training, eine halbe Stunde Erfrischungen, 2 Stunden Mappen).  
+2. Man bucht den Veranstaltungsort. Man stellt sicher, dass der Ort der Veranstaltung auf OpenStreetMap erfasst ist.  
+3. Verteile Einladungen an Mapper durch lokale und online Medien, um gute Teilnahme sicherzustellen. [Eventbrite](https://www.eventbrite.co.uk/) ist eine gute Möglichkeit, um Plätze für die Veranstaltung zu buchen.  
+4. Wird man Snacks/Erfrischungen auf der Veranstaltung anbieten? (Pizza ist in der Regel beliebt, aber man wählt besser angesagtes Essen je nach der Region).  
+5. Man setzt ein Projekt für die Veranstaltung auf. Dabei beachtet man, dass der erste Mapathon in der Region möglicherweise viele Anfänger anziehen wird. Man sollte daher zwei einfache Projekte für Anfänger und zwei herausforderndere Aufgaben für erfahrene Mapper anbieten. Man kann das [Missing Maps Project](http://missingmaps.org) kontaktieren, wenn man Hilfe benötigt mit dem Aufsetzen von Projekten, oder genauso für Mapathon Material für die Tische und Schilder auf den Korridoren. Der [Tasking Manager](http://tasks.hotosm.org) ist eine gute Quelle für nützliche Projekte.  
+6. Mögliche, für die Veranstaltung benötigte Helfer  
+  *   Ein erfahrener Mapper als Ansprechpartner während des Mappen.  
+  * Ein IT-Fachmann des Veranstaltungsortes bei Probleme mit der Internetverbindung.  
+  * Ein Gastsprecher, der über seine Erfahrungen mit OpenStreetMap erzählt  
+  * Idealerweise ein erfahrener Mapper pro Tisch, damit die Leute wissen was zu tun ist und um Fragen zu beantworten. Man kann  [Missing Maps Project](http://missingmaps.org) kontaktieren, für Unterstützung bei der Suche nach Helfern oder [erfahrenen lokalen Mappern](http://resultmaps.neis-one.org/oooc)
+  * Ein Stellvertreter als Hilfe bei Organisation und zur Unterstützung.   
+7. Man fügt seine Veranstaltung dem Mapathon Kalender hinzu.
+8. Man lädt lokale Reporter ein und macht Fotos für die lokalen Medien um darüber berichten zu können.
+9. Jemand sollte die Präsentation filmen und ins Internet übertragen für Remote Mapper, die sich beteiligen wollen.
   
 ![people at work][]  ![more people at work][]
 
-### The week before the Mapathon
-1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
-2.  Compile a list of attendees for messaging and for identity tags for the event.  
-3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
-4.  Post notices on line, with links to the ticket allocation, reminding attendees to take up the last remaining spaces at your event.  
-5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
-6.  Check that you have current mapping projects for the event.  
-7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
-9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
-10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
-11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
-12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
-13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
-14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
+### Die Woche vor dem Mapathon
+1. Man besucht den Veranstaltungsort und prüft, dass alles wie geplant verfügbar ist. (Räume, Helfer, Ausrüstung)  
+2.  Man erstellt eine Liste an Teilnehmern für die Benachrichtigung und für Veranstaltungs-Tags.  
+3. Man verschickt Nachrichten an die Teilnehmer zur Erinnerung Laptops, Maus, einen OpenStreetMap Account anzulegen die die Logindaten mitzubringen, und JOSM herunterzuladen, falls man mit diesem Editor arbeiten möchte.  
+4. Man veröffentlicht Nachrichten für Teilnehmer, mit Links zur Ticketvergabe, mit der Erinnerung, sich die letzten Plätze für die Veranstaltung zu sichern.  
+5. Man plant die Raumaufteilung mit Tischen und Stühlen entsprechend der verfügbaren Stromquellen und der möglichen Sicht auf die großen Projektionsflächen.  
+6. Man prüft die aktuellen Mapping Projekte für die Veranstaltung.  
+7. Man prüft die Finanzierung für die Erfrischungen und andere Kosten.
+8. Man besorgt gedrucktes [Mapathon Material](#printout-materials) (oder erstellt eigenes) für die Veranstaltung.
+9. Man prüft, dass jemand Ausrüstung (Verlängerungskabel, Maus) und benötigtes Schreibzeug mitbringt.  
+10. Man benachrichtigt seine Helfer, dass man sie eine halbe Stunde vor dem Start der Veranstaltung benötigt, um Tische, Stühle, Verlängerungskabel etc. aufzubauen.  
+11. Man stellt sicher, dass alle Zugang und Passwort zum WLAN am Veranstaltungsort haben.  
+12. Man erstellt eine Liste für jeden Mapathon mit Teilnehmern, deren Benutzernamen und des genutzen Editors. Das ermöglicht es auszuwerten. wie viele Mapper zu einer weiteren Veranstaltung kommen, welche zwischen den Veranstaltungen weiter mappen, die Erfolgsrate bei Stammgästen und so weiter.
+13. Man kontaktiert die Remote Reviewer mindestens zwei Tage vor der Veranstaltung um sie darüber zu informieren, an welchen Projekten gearbeitet wird und weiteren Details, um Ihnen die Unterstützung des Mapathons zu erleichtern.
+14. Man wählt ein nahegelegenes Restaurant oder einen anderen Ort für anschliessende Treffen und prüft, dass es auf OpenStreetMap eingetragen ist.
 
-### At the Mapathon
-1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
-2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
-3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
-4. Check with the resident IT person that the internet connections are all working and the overhead large screens are connected to the relevant laptops.
-5. Have one helper at the door to welcome the mappers, give them their name tags and tell them where to sit.
-6. Have helpers moving from table to table helping mappers to log on when they arrive.
+### Auf dem Mapathon
+1. Man erscheint frühzeitig am Veranstaltungsort und prüft, dass der Empfang  funktioniert und vorbereitet ist.  
+2. Man macht sich mit dem Veranstaltungsort vertraut, mit Toiletten, Notausgängen etc.  
+3. Man instruiert die Helfer über die Raumaufteilung und lässt seinen Stellvertreter die Anordnung der Tische, Stühle, Ausrüstung und die Anbringung der Wegweiser in den Korridoren prüfen.  
+4. Man prüft mit der örtlichen IT Person, dass die Internetverbindung funktioniert und die Projektoren mit den relevanten Laptops verbunden sind.
+5. Ein Helfer heisst die Mapper am Eingang willkomen, gibt Ihnen ihr Namensschild und zeigt Ihnen den Platz.
+6. Mehrere Helfer laufen von Tisch zu Tisch und helfen den Mappern beim einloggen, sobald sie ankommen.
 
 ![mentoring][]
 
-### Start the Event
-1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
-2. Introduce your experienced mapper and start the training process.
-3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
-4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
-5. Check that the refreshments are in place for the mid-session break.
-6. Decide on a local pub for the meet up afterwards and check that it is on Openstreetmap.
-7. Check that the local media or/and a helper is taking photos.
+### Start der Veranstaltung
+1. Man sorgt für Ruhe, begrüsst alle, hält die Willkommensrede, erläutert das Veranstaltungsprogramm, Sicherheitsanweisungen. Toilettenstandorte, etc.  
+2. Man stellt seinen erfahrenen mapper vor und beginnt mit dem Training.
+3. Wichtige Tipps sollte man während der Veranstaltung weitergeben können, falls Fehler durch einige Mapper gemacht werden (wie nicht rechteckige Gebäude).
+4. <https://osmlab.github.io/show-me-the-way/bbox.html> ist eine nette Möglichkeit etwas auf dem Projektor darzustellen, damit Änderungen live verfolgt werden können.
+5. Man prüft, dass die Erfrischungen verfügbar sind für die Zwischenpausen.
+6. Man wählt ein nahegelegenes Restaurant für anschliessende Treffern, das auf OpenStreetMap eingetragen ist.
+7. Man stellt sicher, dass lokale Medien und/oder Helfer Fotos machen.
 
 ![snacks][]
 
-### At the end of the Event
-1. Thank the hosts for the great venue, the new mappers for coming along and joining the mapping community, the experienced mappers for their help and for their time and contributions, show them the progress that was made on the projects they worked on, ask them to come back to the next Mapathon and invite them to the pub afterwards.
-2. Check that the register of mappers has been completed
-3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
-4. Gather all the signs, equipment and collect any rubbish.
-5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.
+### Am Ende der Veranstaltung
+1. Man dankt den Gastgebern für den großartigen Veranstaltungsort, den neuen Mappern für das kommen und der Teilnahme an der Gemeinschaft, den erfahrenen mappern für deren Hilfe, Zeit und Beitrag, man zeigt den erreichten Fortschritt an den bearbeiteten Projekten, wünscht sich ein Wiedersehen beim nächsten Mapathon und lädt zum anschliessenden Treffen ein.
+2. Man prüft, dass die Liste der Mapper vollständig ist
+3. Man sammelt alle an Mapper verliehen Ausrüstung wieder ein (Maus, laptop, etc.)
+4. Man sammelt alle Schilder, Ausrüstung und Müll ein.
+5. Man stellt Tische, Stühl zurück und hinterlässt den Veranstaltungsort sauber, bevor man ins Restaurant geht.
 
-### Not all work and no play
-If your Mapathon becomes a regular event it is possible that you will start to get a core of regular attendees who will become your experienced helpers and help to make this a social event as well.
+### Nicht alles ist harte Arbeit und kein Spaß
+Falls dein Mapathon eine regelmäßige Veranstaltung wird, bekommt man möglicherweise regelmäßige Teilnehmer, welche zu erfahrenen Mappern werden und dazu beitragen, dass es eine unterhaltsame Veranstaltung wird.
 
 ![theme][]
 
 
-## Other Resources
+## Andere Ressourcen
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
+Eine checklist ist zum Herunterladen im [odt](/files/Mapathon_check_list_3.odt) und [pdf](/files/Mapathon_check_list_3.pdf) Format verfügbar, zur Nutzung in Vorbereitungstreffen.
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+Wertvolle Ressourcen können gefunden werden [auf externen Seiten](/en/resources).
 
 
 [venue]:               /images/coordination/mapathon-1.jpg
-[people at work]:      /images/coordination/mapathon-2.jpg
-[more people at work]: /images/coordination/mapathon-3.jpg
+[Bei der Arbeit]:      /images/coordination/mapathon-2.jpg
+[Mehr Leute bei der Arbeit]: /images/coordination/mapathon-3.jpg
 [kings college]:       /images/coordination/mapathon-kcl.jpg
-[mentoring]:           /images/coordination/mapathon-nick.jpg
-[snacks]:              /images/coordination/mapathon-pizza.jpg
-[theme]:               /images/coordination/mapathon-xmas.jpg
+[Unterstützung]:           /images/coordination/mapathon-nick.jpg
+[Snacks]:              /images/coordination/mapathon-pizza.jpg
+[Themen]:               /images/coordination/mapathon-xmas.jpg
