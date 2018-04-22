@@ -101,7 +101,6 @@ layout: default
   $('img').parent().addClass('has-image');
 
   // make title nav sticky
-  // {% unless page.cover %} // excluding cover pages // why? disabled this constraint
   $(document).ready(function(){
     var nav = $('.doc-nav'),
         navTop = nav.offset().top,
@@ -129,7 +128,6 @@ layout: default
         }
     });
   });
-  // {% endunless %}
   // get the second url of the current-chapter-nav and make it the url of the 'proceed' link
   var proceedTo = $('.doc-first-guide').attr('href');
   $('a.start').attr('href',proceedTo);
