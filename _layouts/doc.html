@@ -33,11 +33,13 @@ layout: default
                 <!-- for the current category we show an indented menu with the names of all guides contained -->
                   {% for subpost in site.categories[page.category] %}
                     {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
-                    <li class='doc doc-nav-secondary rounded'>
-                      <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
-                        <span>{{ subpost.title }}</span>
-                      </a>
-                    </li>
+                    <div class='doc-nav-secondary'>
+                      <li class='doc rounded'>
+                        <a class='title {% if page.url == subpost.url %}active{% endif %}' href="{{site.baseurl}}{{ subpost.url }}">
+                          <span>{{ subpost.title }}</span>
+                        </a>
+                      </li>
+                    </div>
                     {% endunless %}{% endif %}
                   {% endfor %}
                 {% endif %}
@@ -122,7 +124,7 @@ layout: default
   });
   {% endunless %}
   // get the second url of doc nav and make it the url of the 'proceed' link
-  var proceedTo = $('.doc-nav li:nth-child(2) a').attr('href');
+  var proceedTo = $('.doc-nav-secondary li:nth-child(2) a').attr('href');
   $('a.start').attr('href',proceedTo);
   // Set the min-height of the page dynamically based on height of navigation div
   $('.doc-main').css("min-height", function() {
