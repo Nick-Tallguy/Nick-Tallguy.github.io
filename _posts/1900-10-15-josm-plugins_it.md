@@ -28,7 +28,7 @@ Quando vuoi installare (o rimuovere) un plugin, vai su **Modifica \> Preferenze*
 
 Alcuni dei nostri plugin preferiti sono:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/it/josm/josm-more-plugins/#the-buildings-tools-plugin):**Se disegni un sacco di edifici, questo plugin renderà il tuo lavoro più facile e veloce.  
 
 2. **DirectUpload:** Se hai molte tracce GPS e le vuoi salvare nel database OSM, questo plugin facilita l'operazione.  
 
@@ -38,9 +38,9 @@ Alcuni dei nostri plugin preferiti sono:
 
 5. **imagery_offset_db:** Questo plugin consente di collaborare con altri mappatori che trovano le immagini satellitari di Bing leggermente disallineate. Questo argomento è trattato più dettagliatamente in un capitolo successivo.  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print:** aggiunge la funzione di stampa, nel caso tu voglia stampare velocemente un’area, senza avere grosse pretese.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+7. **[utilsplugin2](/it/josm/josm-more-plugins/#more-selection-tools):** Aggiunge a JOSM parecchi strumenti e menù in più per utenti avanzati. Ne discuteremo in dettaglio nel [prossimo capitolo](/it/josm/josm-more-plugins)  
 
 
 

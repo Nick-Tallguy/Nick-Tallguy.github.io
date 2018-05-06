@@ -37,7 +37,7 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Aggiungi un file di preimpostazioni scaricato da internet selezionandone uno dalla lista a 	sinistra, e cliccando sulla freccia blu. In questo esempio, aggiungeremo una preimpostazione chiamata “Nuovi tag”  
 
 ![example presets][]
 
@@ -45,11 +45,11 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 * Fai click su OK.  
 * Devi riavviare JOSM.  
 * Crea un nuovo livello (layer) e aggiungi un punto o un'area.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Vai al menù delle preimpostazioni. Vedrai una voce aggiuntiva in fondo che produrrà diverse opzioni non disponibili con l’installazione standard di JOSM.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* Molte preimpostazioni riguardano casi molto specifici, sfoglia la lista per trovarne una che corrisponda ai tuoi interessi.  
 
 * Se ti hanno dato o indicato un file di preimpostazioni personalizzate (preset), tu puoi aggiungerle al menù con lo stesso metodo. Semplicemente torna al menù Preferenze, e invece di selezionarlo dalla lista, clicca sul bottone (+) sulla parte superiore destra.  
 
@@ -61,7 +61,7 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets2.png
-[additional tags preset]: /images/josm/new-tags-preset.png
+[esempio di preimpostazioni]: /images/josm/example-presets2.png
+[preimpostazioni di tag aggiuntivi]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 
