@@ -14,7 +14,27 @@ nosearch: true
 
 本指南将介绍如何逐步开始参与OpenStreetMap。你将学到
 如何创建账号、如何使用基本的地图编辑软件，后续章节中还将学习如何外出
-采集用于地图的信息。协作章节则介绍了[人道主义OSM团队远程制图](/en/coordination/)的信息。 
+and collect information to put on the map. 
 
-> 本指南有[beginner_zh_CN.odt](/files/beginner_zh_CN.odt)和[beginner_zh_CN.pdf](/files/beginner_zh_CN.pdf)两种格式可供下载。  
-> 2015-07-12日修订  
+### Are you new to OpenStreetMap and want to improve the map by adding data?
+
+If you want to get started and be able to edit the map data then we recommend that you read these guides:
+- the [introduction](/en/beginner/introduction/) gives you some background about the project
+- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
+- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
+
+
+### You already know how to use an editor and want to contribute to Humanitarian Mapping?
+
+The main point is to learn how mapping in this context is coordinated.
+- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
+- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
+
+### Would you like to use OpenStreetMap on mobile devices?
+
+There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+
+
+### You are familiar with GIS tools and want access to the raw data?
+
+The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
