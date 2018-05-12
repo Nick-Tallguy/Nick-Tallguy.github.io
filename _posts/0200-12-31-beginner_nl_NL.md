@@ -14,27 +14,27 @@ Handleiding voor beginners
 
 Deze handleiding laat stap voor stap zien hoe je kunt beginnen met OpenStreetMap. Je zult leren
 hoe je een account kun aanmaken, hoe je basis editing software kunt gebruiken en later zul je leren hoe je buiten
-and collect information to put on the map. 
+en verzamel informatie om op de kaart te zetten. 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### Bent u nieuw bij OpenStreetMap en wilt u de kaart verbeteren door gegevens toe te voegen?
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+Als u wilt beginnen en in staat zijn om de gegevens van de kaart te bewerken dan raden wij aan dat u deze handleidingen leest:
+- de [introductie](/nl_NL/beginner/introduction/) geeft u wat achtergrond over het project
+- [Beginnen op OpenStreetMap.org](/nl_NL/beginner/start-osm/) laat u zien hoe u een account kunt maken en hoe u een bewerker start
+- in [iD editor](/nl_NL/beginner/id-editor/) leert u de basisbeginselen voor het bewerken van de gegevens
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### Weet u al hoe u een bewerker moet gebruiken en wilt u deelnemen aan Humanitair in kaart brengen?
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+Het belangrijkste punt is om te leren hoe het in kaart brengen in deze context wordt gecoördineerd.
+- de [handleiding voor het op afstand in kaart brengen](/nl_NL/coordination/HOT-Remote-Response-Guide/) en de algemene informatie over [humanitair in kaart brengen](/nl_NL/coordination/humanitarian/) geven enige achtergronden
+- het werkpaard is de [Tasking Manager](/nl_NL/coordination/tasking-manager3/) waarvan u bekend zou moeten raken met de werkstroom
+
+### Zou u OpenStreetMap willen gebruiken op mobiele apparaten?
+
+Er is een heel hoofdstuk gewijd aan het [mobiel in kaart brengen](/nl_NL/mobile-mapping/)
+
+
+### Bent u bekend met programma's voor GIS en wilt u toegang tot de ruwe gegevens?
+
+De handleidingen over [waar gegevens te verkrijgen](/nl_NL/osm-data/getting-data/) en [hoe Geofabrik en HOT Export te gebruiken](/nl_NL/osm-data/geofabrik-and-hot-export/) zouden tips kunnen geven over hoe gegevens in verschillende indelingen uit de database uit te nemen.
