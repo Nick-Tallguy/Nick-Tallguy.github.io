@@ -6,7 +6,7 @@ lang: pl
 category: osm-data
 ---
 
-File Formats
+Formaty plików
 =============
 
 > This guide may be downloaded as [File_Formats_en.odt](/files/File_Formats_en.odt) or [File_Formats_en.pdf](/files/File_Formats_en.pdf)  

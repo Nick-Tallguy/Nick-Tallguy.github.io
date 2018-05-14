@@ -24,7 +24,7 @@ So far, all the edits we added to the map were based on background imagery. But 
 OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
 
 
-Learn More
+Dowiedz się więcej
 ----------
 
 There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  

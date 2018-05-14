@@ -58,5 +58,5 @@ See also
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
-[back arrow]: /images/beginner/back-arrow.png "Undo"
+[back arrow]: /images/beginner/back-arrow.png "Cofnij"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

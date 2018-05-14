@@ -6,7 +6,7 @@ lang: pl
 category: beginner
 ---
 
-Glossary 
+Słowniczek 
 ============
 
 >This glossary is in the process of being updated and has been compiled from numerous other sources including the [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) site and a guide written by Will Skora. Feel free to help us update it by reviewing [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) for how to contribute to the site. 

@@ -6,10 +6,10 @@ lang: pl
 category: josm
 ---
 
-JOSM Presets
+Szablony JOSM
 ============
 
-> This guide may be downloaded as [josm-presets_en.odt](/files/josm-presets_en.odt) or [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [josm-presets_pl.odt](/files/josm-presets_pl.odt) lub [josm-presets_pl.pdf](/files/josm-presets_pl.pdf)  
 > Reviewed 2016-09-17  
 
 If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
@@ -21,7 +21,7 @@ If you like using presets, what happens when you want to add tags that are not c
 In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/editing/creating-presets), we will cover how to create custom presets files of your own.  
 
 
-Add Presets
+Dodaj szablony
 -----------
 
 The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  

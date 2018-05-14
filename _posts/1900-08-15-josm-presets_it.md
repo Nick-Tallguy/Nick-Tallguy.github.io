@@ -61,7 +61,7 @@ I file delle preimpostazioni possono essere aggiunti da un archivio online oppur
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
 [tagging presets menu]: /images/josm/tagging-presets-menu.png
-[esempio di preimpostazioni]: /images/josm/example-presets2.png
-[preimpostazioni di tag aggiuntivi]: /images/josm/new-tags-preset.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
 [plus button]: /images/josm/plus-button.png
 

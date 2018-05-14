@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Starting with a Tasking Manager - iD editor
+title: Rozpoczynanie z Menedżerem zadań - edytor iD
 permalink: /pl/hot-tips/getting-started/
 lang: pl
 category: hot-tips

@@ -34,9 +34,9 @@ This is a commented list of pointers to other websites which we consider useful.
 
 ### Listy kontrolne do planowania
 
-  * [MapGive checklist for an event](https://mapgive.state.gov/box/#resources&event-checklist)
+  * [Listy kontrolne MapGive na potrzeby wydarzenia](https://mapgive.state.gov/box/#resources&event-checklist)
 
-### Handouts 
+### Ulotki 
 
   * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
 
@@ -44,4 +44,4 @@ This is a commented list of pointers to other websites which we consider useful.
 
   * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
   * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
-  * [Who is around me ](http://resultmaps.neis-one.org/oooc) map display about mappers who recently contributed in an area
+  * [Kto jest blisko mnie ](http://resultmaps.neis-one.org/oooc) mapa, na której wyświetlane są osoby ostatnio tworzące mapę na danym obszarze
