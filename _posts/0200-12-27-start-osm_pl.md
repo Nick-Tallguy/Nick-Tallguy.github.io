@@ -9,36 +9,36 @@ category: beginner
 Rozpoczynanie na OpenStreetMap.org
 ====================================
 
-> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
-> Reviewed 2015-07-12  
+> Ten przewodnik może zostać pobrany jako [beginner_start-osm_pl.odt](/files/beginner_start-osm_pl.odt) lub [beginner_start-osm_pl.pdf](/files/beginner_start-osm_pl.pdf)  
+> Przejrzano 12.07.2015  
 
-In this section we will learn step by step how to navigate the
-OpenStreetMap website, view maps, and sign up for a user
-account. After you have your own username and password, you will be able
-to contribute your first points to the map.
+W tej części nauczymy się krok po kroku jak nawigować na
+stronie OpenStreetMap, przeglądać mapy i zarejestrować konto
+użytkownika. Gdy już będziesz mieć swoją nazwę użytkownika i hasło, będziesz mógł
+dodać swój pierwszy punkt na mapę.
 
 ![website][]
 
-Visit the OpenStreetMap Website
+Odwiedź stronę OpenStreetMap
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.
-    (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet
-    Explorer. If it is already open then you can create a new tab.
--   In the address bar at the top of the window, enter the following and press Enter:
+-   Zanim rozpoczniesz, upewnij się, że komputer posiada połączenie z Internetem.
+    (Jeśli czytasz ten tekst poprzez przeglądarkę, znaczy to, że musisz być połączony!)
+-   Otwórz swoją przeglądarkę internetową. Najpopularniejszymi przeglądarkami są Firefox, Chrome, Opera, lub Internet
+    Explorer. Jeśli jest już otwarta to możesz otworzyć jej nową kartę.
+-   Na pasku adresu u góry okienka napisz następujące i wciśnij przycisk Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like
-    this:
+-   Gdy strona zakończy się wczytywać powinieneś ujrzeć mniej więcej coś
+    takiego:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Navigate the Map
+Nawigacja po mapie
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking
-    on it with your left mouse button, holding the button down, and
-    dragging your mouse around (see figure below).
+-   Główną rzeczą, którą powieneś ujrzeć - to mapa. Poruszaj mapą klikając
+    na niej lewym przyciskiem myszy, przytrzymując wciśnięcie przycisku, i
+    poruszając myszką dookoła (zobacz ilustację poniżej).
 
     ![Mouse navigation][]
 
@@ -56,7 +56,7 @@ Navigate the Map
     ![Search][]
    
 
-View Different Map Styles
+Zobacz różne style map
 ------------------------
 
 OpenStreetMap contains geographic data from all over the world. Although
@@ -76,7 +76,7 @@ available on the OSM website.
 
     ![Transport map][]
 
-Create an OpenStreetMap Account
+Utwórz konto OpenStreetMap
 -------------------------------
 
 -   Now that you have seen what the main website looks like, you can

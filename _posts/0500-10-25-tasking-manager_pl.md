@@ -223,7 +223,7 @@ When leaving a comment against a square, you can have the comment sent as a mess
 
 For example:  
 
-    @Tallguy nice work tracing the building  
+    @Tallguy niezła robota z odwzorowaniem budynku  
     details here. You missed a small group  
     of houses on the upper left of the tile,  
     I added a few in, but some still remain.  

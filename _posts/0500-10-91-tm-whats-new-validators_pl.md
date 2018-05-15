@@ -9,7 +9,7 @@ date: 0500-10-21 12:00:00
 
 # What is new for Validators in the Tasking Manager 3
 
-> This guide may be downloaded as [tm3-news-for-validators_en.odt](/files/tm3-news-for-validators_en.odt) or [tm3-news-for-validators_en.pdf](/files/tm3-news-for-validators_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [tm3-news-for-validators_pl.odt](/files/tm3-news-for-validators_pl.odt) lub [tm3-news-for-validators_pl.pdf](/files/tm3-news-for-validators_pl.pdf)  
 
 ## Your User Profile
 

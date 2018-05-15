@@ -9,7 +9,7 @@ category: josm
 Narzędzia edycji JOSM
 ==================
 
-> This guide may be downloaded as [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) or [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [josm_josm-tools_pl.odt](/files/josm_josm-tools_pl.odt) lub [josm_josm-tools_pl.pdf](/files/josm_josm-tools_pl.pdf)  
 > Reviewed 2017-06-09  
 
 - TOC

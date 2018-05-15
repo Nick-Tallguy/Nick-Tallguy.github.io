@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Tracing roads, buildings, water and landuse 
+title: Odwzorowywanie dróg, budynków, wody i zagospodarowania terenu 
 permalink: /pl/coordination/remote-tracing/
 lang: pl
 category: coordination
 ---
 
-Tracing roads, buildings, water and landuse
+Odwzorowywanie dróg, budynków, wody i zagospodarowania terenu
 ===========================================
 
-> This guide may be downloaded as [remote-tracing_en.odt](/files/remote-tracing_en.odt) or [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [remote-tracing_pl.odt](/files/remote-tracing_pl.odt) lub [remote-tracing_pl.pdf](/files/remote-tracing_pl.pdf)  
 > Reviewed 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
@@ -33,7 +33,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
 
-### Highways - How to map
+### Autostrady - Jak dodać do mapy
 
 ![iD 3][]
 
@@ -92,7 +92,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 *  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
 
 
-### landuse=residential - how to map
+### landuse=residential - jak dodać do mapy
 
 
 ** In an ideal world **  
@@ -135,7 +135,7 @@ Buildings are added to the map data for a number of reasons;
 *  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
 
 
-### Budynki - Jak je zmapować
+### Budynki - Jak dodać do mapy
 
 The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
 

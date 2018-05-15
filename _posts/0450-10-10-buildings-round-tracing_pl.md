@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tracing round buildings - iD editor
+title: Odwzorowywanie okrągłych budynków - edytor iD
 permalink: /pl/hot-tips/tracing-round-buildings/
 lang: pl
 category: hot-tips
 ---
 
-Tracing round buildings - iD editor
+Odwzorowywanie okrągłych budynków - edytor iD
 ============
 
 - TOC

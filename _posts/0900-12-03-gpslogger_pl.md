@@ -9,7 +9,7 @@ category: mobile-mapping
 GPSLogger dla Androida
 =====================
 
-> This guide may be downloaded as [gpslogger_en.odt](/files/gpslogger_en.odt) or [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [gpslogger_pl.odt](/files/gpslogger_pl.odt) lub [gpslogger_pl.pdf](/files/gpslogger_pl.pdf)  
 > Reviewed 2015-12-06  
 
 ![GPSLogger][]

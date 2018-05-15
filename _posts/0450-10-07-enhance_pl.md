@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Enhancing the colours or background - iD editor
+title: Wzmocnienie kolorów lub tła - edytor iD
 permalink: /pl/hot-tips/enhance/
 lang: pl
 category: hot-tips
 ---
 
-Enhancing the colours or background - iD editor
+Wzmocnienie kolorów lub tła - edytor iD
 ============
 
 - TOC

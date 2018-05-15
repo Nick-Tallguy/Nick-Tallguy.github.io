@@ -12,7 +12,7 @@ nosearch: true
 Coordination
 ============
 
-> This guide may be downloaded as [coordination_en.odt](/files/coordination_en.odt) or [coordination_en.pdf](/files/coordination_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [coordination_pl.odt](/files/coordination_pl.odt) lub [coordination_pl.pdf](/files/coordination_pl.pdf)  
 > Reviewed 2015-09-18
 
 Because OpenStreetMap involves many people mapping together, it's

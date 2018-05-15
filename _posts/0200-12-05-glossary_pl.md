@@ -10,7 +10,7 @@ Słowniczek
 ============
 
 >This glossary is in the process of being updated and has been compiled from numerous other sources including the [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) site and a guide written by Will Skora. Feel free to help us update it by reviewing [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) for how to contribute to the site. 
-> Reviewed 2015-07-18  
+> Przejrzano 18.07.2015  
 
 To easily search this Glossary, use the search feature within your browser, by holding down the control key and whilst doing so press the f key (usually described as **Ctrl+f**)  
 

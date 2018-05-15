@@ -9,7 +9,7 @@ category: josm
 Proces edycji w JOSM
 ========================
 
-> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [josm_more-about-josm_pl.odt](/files/josm_more-about-josm_pl.odt) lub [josm_more-about-josm_pl.pdf](/files/josm_more-about-josm_pl.pdf)  
 > Reviewed 2015-07-12  
 
 In the previous section you

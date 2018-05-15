@@ -20,11 +20,11 @@ This is a commented list of pointers to other websites which we consider useful.
 
 ### iD
 
-  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
-  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
-  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
+  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Interaktywny samouczek o korzystaniu z iD jako części oprogramowania
+  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) dobry materiał szkoleniowy, jeśli planujesz wygłosić wprowadzenie na temat iD , np. na mapatonie
+  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) Kolekcja instruktażowych filmów koncentrujących się głównie na mapowaniu z użyciem iD i JOSM
+  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Trochę bardzo krótkich filmów wyjaśniających jak ukończyć najpowszechniejsze zadania
+  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) prezentacje niby-wykładowe o różnych aspektach dotyczących znaczników, warstw, relacji
 
 ## Mapatony i podobne wydarzenia
 
@@ -42,6 +42,6 @@ This is a commented list of pointers to other websites which we consider useful.
 
 ## Statystyki
 
-  * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
+  * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) Proste i otwartoźródłowe narzędzie do koordynacji. Wiki powiada, że nie jest już aktywnie rozwijane
   * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
   * [Kto jest blisko mnie ](http://resultmaps.neis-one.org/oooc) mapa, na której wyświetlane są osoby ostatnio tworzące mapę na danym obszarze

@@ -8,7 +8,7 @@ category: coordination
 
 # Menedżer zadań 3
 
-> This guide may be downloaded as [tasking-manager3_en.odt](/files/tasking-manager3_en.odt) or [tasking-manager3_en.pdf](/files/tasking-manager3_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [tasking-manager3_pl.odt](/files/tasking-manager3_pl.odt) lub [tasking-manager3_pl.pdf](/files/tasking-manager3_pl.pdf)  
 
 **This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager)**
 
@@ -41,7 +41,7 @@ The role of the Tasking Manager is to present a specific geographic region divid
 Once you are done mapping that small area, you record in the Tasking Manager that you have finished mapping that small area and hopefully you select another "Task" to map.
 
 
-## Quick Start Guide
+## Przewodnik szybkiego startu
 
 1. Create an account and login on http://openstreetmap.org/  
   ![TM Quick Start 1][]
@@ -275,7 +275,7 @@ When leaving a comment against a task, you can have the comment sent as a messag
 
 For example:  
 
-    @HOTMppr nice work tracing the building  
+    @HOTMppr niezła robota z odwzorowaniem budynku  
     details here. You missed a small group  
     of houses on the upper left of the task square,  
     I added a few in, but some still remain.  

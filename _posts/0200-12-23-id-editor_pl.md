@@ -9,7 +9,7 @@ category: beginner
 Edytor iD
 =============
 
-> This guide may be downloaded as [beginner_id-editor_en.odt](/files/beginner_id-editor_en.odt) or [beginner_id-editor_en.pdf](/files/beginner_id-editor_en.pdf)  
+> Ten przewodnik może zostać pobrany jako [beginner_id-editor_pl.odt](/files/beginner_id-editor_pl.odt) lub [beginner_id-editor_pl.pdf](/files/beginner_id-editor_pl.pdf)  
 > Reviewed 2016-03-30  
 
 - TOC
