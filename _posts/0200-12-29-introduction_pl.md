@@ -10,7 +10,7 @@ Wprowadzenie
 ============
 
 > Ten przewodnik może zostać pobrany jako [beginner_introduction_pl.odt](/files/beginner_introduction_pl.odt) lub [beginner_introduction_pl.pdf](/files/beginner_introduction_pl.pdf)  
-> Reviewed 2015-07-12  
+> Przejrzano 12.07.2015  
 
 Information is powerful. With good information and the right
 understanding, individuals and communities are better able to improve
