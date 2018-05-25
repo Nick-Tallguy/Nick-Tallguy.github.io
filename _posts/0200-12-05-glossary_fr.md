@@ -12,7 +12,7 @@ Glossaire
 >This glossary is in the process of being updated and has been compiled from numerous other sources including the [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) site and a guide written by Will Skora. Feel free to help us update it by reviewing [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) for how to contribute to the site. 
 Examiné le 2015-07-18  
 
-To easily search this Glossary, use the search feature within your browser, by holding down the control key and whilst doing so press the f key (usually described as **Ctrl+f**)  
+Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherche de votre navigateur internet, en maintenant la touche control enfoncée et en appuyant sur la touche F (Généralement décrit comme **Ctrl+F**)  
 
 **3W** : Who, What, Where;  Who does What, Where?  
 
