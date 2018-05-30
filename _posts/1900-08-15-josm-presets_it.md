@@ -18,7 +18,7 @@ Quando disegni un oggetto e lo selezioni dal menù Preimpostazioni, all'oggetto 
 
 Se ti piace utilizzare i preset, cosa succede quando vuoi aggiungere tag che non sono contenuti nei menù, o quando vuoi personalizzare i tuoi tags?  
 
-In questo caso, puoi aggiungere una voce di menù personalizzato alle Preimpostazioni. In questa sezione vedremo come fare ciò. Nel  [capitolo successivo](/it/editing/creating-presets), si parlerà di come crearsi un proprio file con le preimpostazioni personalizzate.  
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
 
 
 Aggiungi Preimpostazioni (Preset)

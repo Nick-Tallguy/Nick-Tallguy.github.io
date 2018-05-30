@@ -18,7 +18,7 @@ Wenn man ein Objekt mittels Vorlagenmenü zeichnet, werden die korrekten Tags au
 
 Was passiert, wenn man Tags trotz der Verwendung von Vorlagen hinzufügen möchte, die nicht im Menü enthalten sind oder man eigene Tags anpassen möchte?  
 
-In diesem Fall kann man eigene Menüeintrage den Vorlagen hinzufügen. In diesem Abschnitt befassen wir uns damit. Im [folgenden Kapitel](/de/editing/creating-presets) werden wir uns mit dem Erstellen von eigenen Vorlagen befassen.  
+Hier kann man eigene Menüeinträge zu den Vorlagen hinzufügen. Wir zeigen Ihnen in diesem Abschnitt wie das geht. Das [nächste Kapitel](/de/josm/creating-presets) befasst sich mit der Erstellung eigener Vorlagendateien.  
 
 
 Vorlagen hinzufügen

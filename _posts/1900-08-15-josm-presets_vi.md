@@ -18,7 +18,7 @@ Khi bạn vẽ một đối tượng và chọn từ trình đơn Cài đặt tr
 
 Nếu bạn thích sử dụng cài đặt trước, điều gì sẽ xảy ra khi bạn muốn thêm các thẻ không có trong trình đơn hoặc khi bạn muốn tùy chỉnh các thẻ của riêng mình?  
 
-Trong trường hợp này, bạn có thể thêm các mục trình đơn tùy chỉnh vào Presets. Trong phần này chúng ta sẽ thấy làm thế nào để làm điều này. Trong [Chương tiếp theo](/vi/editing/creating-presets), chúng ta sẽ giới thiệu cách tạo các tập tin đặt sẵn tùy chỉnh của riêng bạn  
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
 
 
 Thêm Presets

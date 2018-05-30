@@ -18,7 +18,7 @@ JOSM 預設組合
 
 如果你喜歡使用預設組合，假若你想加的標籤在選單中找不到，或是你想要加你自已的客製化標籤？  
 
-在上述的情境中，你可以將客製選單項目加到預設組合裡。在這一章節我們會看到要怎麼做到這一點。而[接下來章節](/zh-tw/editing/creating-presets)，我們會涵蓋如何自行創建你的客製化預設組合。  
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
 
 
 增加預設組合

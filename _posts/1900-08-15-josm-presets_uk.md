@@ -18,7 +18,7 @@ layout: doc
 
 Якщо вам подобається використовувати пресети, що трапляється, коли ви хочете додати теги, яких немає у меню, або коли ви хочете налаштувати ваші власні теги?   
 
-У такому випадку ви можете додати користувацькі пункти до пресетів. У цьому розділі ми навчимося це робити. У [наступному розділі](/en/editing/creating-presets), ми подивимося, як самостійно створити користувацькі пресети.   
+In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
 
 
 Додати пресет
