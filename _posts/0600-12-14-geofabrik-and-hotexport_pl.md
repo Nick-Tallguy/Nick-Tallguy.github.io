@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Using Geofabrik and HOT Export
+title: Korzystanie z eksportu Geofabrik i HOT
 permalink: /pl/osm-data/geofabrik-and-hot-export/
 lang: pl
 category: osm-data

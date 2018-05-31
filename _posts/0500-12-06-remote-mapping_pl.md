@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: HOT Remote Mapping  
+title: Zdalne mapowanie HOT  
 permalink: /pl/coordination/HOT-Remote-Response-Guide 
 lang: pl
 category: coordination
