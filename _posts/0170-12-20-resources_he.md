@@ -11,7 +11,7 @@ category: resources
 
 > Reviewed 2018-02-24
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+להלן רשימה מבוארת של מצביעים לאתרים אחרים שנראים לנו שימושיים. כל הקישורים נבדקו והם עובדים נכון לזמן סקירת המסמך הזה.
 
   * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
 
