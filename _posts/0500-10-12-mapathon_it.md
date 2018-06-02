@@ -8,7 +8,7 @@ category: coordination
 
 # Manage a Mapathon
 
-> This guide may be downloaded as [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) or [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
+> Questa guida può essere scaricata come [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) or [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
 > Creato il 2017-01-30  
 
 - TOC
@@ -33,7 +33,7 @@ While we can give general guidelines on how to organise a Mapathon, your event w
 
 ![kings college][]
 
-### History of a successful Mapathon
+### Mapathon di successo
 The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
 It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
 The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.

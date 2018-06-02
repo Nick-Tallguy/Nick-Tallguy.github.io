@@ -40,7 +40,7 @@ The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created
 
 ![hot-export-tool][]
 
-## QuickStart
+## Avvio rapido
 
 Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
 
@@ -108,13 +108,13 @@ OGC Geopackages store geospatial data in a single SQLite database. Geopackages a
 ![export-tool-sql][]
 
 
-### Garmin .img
+### .img di Garmin
 A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
 
 ![export-tool-garmin][]
 
 
-### Google Earth .kml
+### .kml di Google Earth
 The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
 
 ![export-tool-google-earth][]
@@ -139,7 +139,7 @@ Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
 Copy/move your .mwm file into this directory by tapping the "paste" button
 Delete the existing .mwm file for your region of interest, taking note of its filename
 Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-Open Maps.me
+Apri Maps.me
 
 ![export-tool-mapsme][]
 
@@ -236,7 +236,7 @@ Older versions of the Export Tool used JOSM Preset .XML files to define feature 
 
 
 
-### Configurations
+### Configurazioni
 
 YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
 

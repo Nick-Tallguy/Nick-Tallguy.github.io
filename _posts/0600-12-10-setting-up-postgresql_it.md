@@ -9,8 +9,8 @@ category: osm-data
 PostgreSQL & PostGIS
 ====================
 
-> This guide may be downloaded as [PostgreSQL_en.odt](/files/PostgreSQL_en.odt) or [PostgreSQL_en.pdf](/files/PostgreSQL_en.pdf)  
-> Reviewed 2016-09-10
+> Questa guida può essere scaricata come [PostgreSQL_en.odt](/files/PostgreSQL_en.odt) oopure [PostgreSQL_en.pdf](/files/PostgreSQL_en.pdf)  
+> Revisionato il 10-09-2016
 
 In this chapter we will see how to set up PostgreSQL on Windows and how to create a database in which you can store geographic data. We'll be using the open source GIS software QGIS in this chapter, so it will be helpful if you are already familiar with it. In the following chapter, we will see how to import OpenStreetMap data into a PostgreSQL database.  
 
@@ -74,7 +74,7 @@ Creare un database
 --------------------
 
 Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.  
+database.  
 
 ![pgadmin3][]
 

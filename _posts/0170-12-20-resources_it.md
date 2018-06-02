@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Other Resources
+title: Altre risorse
 permalink: /it/resources/
 lang: it
 cover: yes
