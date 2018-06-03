@@ -18,7 +18,7 @@ Wanneer u een object tekent en selecteert uit het menu Voorkeuzen, worden de jui
 
 Als u graag voorkeuzen gebruikt, wat gebeurt er dan als u tags wilt toevoegen die niet in het menu zijn opgenomen, of wanneer u uw eigen tags wilt aanpassen?  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+In dat geval kunt u aangepaste menu-items toevoegen aan het menu Voorkeuzen. In dit gedeelte zullen we laten zien hoe dit te doen. In het [volgende hoofdstuk](/nl_NL/josm/creating-presets) zullen we behandelen hoe aangepaste bestanden voor voorkeuzen zelf te maken.  
 
 
 Voorkeuzen toevoegen
