@@ -10,7 +10,7 @@ JOSM Conflict Resolution
 ====================
 
 > Ten przewodnik może zostać pobrany jako [josm-conflict-resolution_pl.odt](/files/josm-conflict-resolution_pl.odt) lub [josm-conflict-resolution_pl.pdf](/files/josm-conflict-resolution_pl.pdf)  
-> Reviewed 2016-09-27  
+> Przejrzano 27.09.2016  
 
 Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
 ![conflict detected][]  
@@ -74,7 +74,7 @@ Editing in the specific area you have downloaded minimizes conflict risk.  Make 
 
 ![edit outside area][]  
 
-Summary
+Podsumowanie
 --------
 When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
 

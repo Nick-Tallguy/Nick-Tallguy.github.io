@@ -13,7 +13,7 @@ Coordination
 ============
 
 > Ten przewodnik może zostać pobrany jako [coordination_pl.odt](/files/coordination_pl.odt) lub [coordination_pl.pdf](/files/coordination_pl.pdf)  
-> Reviewed 2015-09-18
+> Przejrzano 18.09.2015
 
 Because OpenStreetMap involves many people mapping together, it's
 useful to know how mappers can coordinate this activity.

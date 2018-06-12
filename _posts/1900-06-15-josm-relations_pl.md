@@ -10,7 +10,7 @@ Relations
 ==========
 
 > Ten przewodnik może zostać pobrany jako [josm_relations_pl.odt](/files/josm_relations_pl.odt) lub [josm_relations_pl.pdf](/files/josm_relations_pl.pdf)  
-> Reviewed 2017-06-06  
+> Przejrzano 06.06.2017  
 
 In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
 
@@ -95,7 +95,7 @@ It is important to select the specific route type from the dropdown menu at the 
 
 > If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
 
-Summary
+Podsumowanie
 -------
 
 Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.

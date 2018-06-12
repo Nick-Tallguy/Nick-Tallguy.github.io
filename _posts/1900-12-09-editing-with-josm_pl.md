@@ -10,7 +10,7 @@ Editing Field Data
 ==================
 
 > Ten przewodnik może zostać pobrany jako [josm_editing-with-josm_pl.odt](/files/josm_editing-with-josm_pl.odt) lub [josm_editing-with-josm_pl.pdf](/files/josm_editing-with-josm_pl.pdf)  
-> Reviewed 2015-07-13  
+> Przejrzano 13.07.2015  
 
 We've now covered all the building blocks of mapping with OpenStreetMap.
 In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.  
@@ -181,7 +181,7 @@ changes later on.
     open the file again, simply open JOSM, go to the “File” menu, and
     click “Open...”
 
-Summary
+Podsumowanie
 -------
 In this chapter we looked a little bit closer at the JOSM interface and learned
 about layers and tags. You should now have a solid footing in how to map and how

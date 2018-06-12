@@ -12,7 +12,7 @@ Mapping with a Smartphone, GPS or Paper
 =============================
 
 > Ten przewodnik może zostać pobrany jako [mobile-mapping_pl.odt](/files/mobile-mapping_pl.odt) lub [mobile-mapping_pl.pdf](/files/mobile-mapping_pl.pdf)  
-> Reviewed 2015-07-14  
+> Przejrzano 14.07.2015  
 
 To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
 

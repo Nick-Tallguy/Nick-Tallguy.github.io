@@ -10,7 +10,7 @@ Dalsza lektura
 ===============
 
 > Ten przewodnik może zostać pobrany jako [beginner_moving-forward_pl.odt](/files/beginner_moving-forward_pl.odt) lub [beginner_moving-forward_pl.pdf](/files/beginner_moving-forward_pl.pdf)  
-> Reviewed 2015-07-12  
+> Przejrzano 12.07.2015  
 
 If you have made it this far, congratulations! You should have a good understanding now of how to make maps with OpenStreetMap. What else can you do with OSM? How can you learn more? How can you stay connected to the community of mappers?  
 
@@ -70,7 +70,7 @@ index of locations that are included in the area.
 -->
 
 
-Summary
+Podsumowanie
 -------
 
 These are some of the ways that you can use and stay connected with the OpenStreetMap community and learn more. We hope you'll continue exploring and learning more about OSM, and contribute to the project. Happy Mapping!

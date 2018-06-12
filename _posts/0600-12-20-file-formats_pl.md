@@ -10,7 +10,7 @@ Formaty plików
 =============
 
 > Ten przewodnik może zostać pobrany jako [File_Formats_pl.odt](/files/File_Formats_pl.odt) lub [File_Formats_pl.pdf](/files/File_Formats_pl.pdf)  
-> Reviewed 2016-09-05
+> Przejrzano 05.09.2016
 
 Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
 
@@ -57,7 +57,7 @@ OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensi
 
 Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
 
-Summary
+Podsumowanie
 -------
 
 In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  

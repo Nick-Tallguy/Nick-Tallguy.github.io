@@ -10,7 +10,7 @@ Using Geofabrik and HOT Export
 ================
 
 > Ten przewodnik może zostać pobrany jako [Geofabrik_and_HOT_Export_pl.odt](/files/Geofabrik_and_HOT_Export_pl.odt) lub [Geofabrik_and_HOT_Export_pl.pdf](/files/Geofabrik_and_HOT_Export_pl.pdf)  
-> Reviewed 2016-09-05  
+> Przejrzano 05.09.2016  
 
 After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -236,7 +236,7 @@ Older versions of the Export Tool used JOSM Preset .XML files to define feature 
 
 
 
-### Configurations
+### Konfiguracje
 
 YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
 

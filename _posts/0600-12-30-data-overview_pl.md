@@ -11,7 +11,7 @@ OSM Data Overview
 
 
 > Ten przewodnik może zostać pobrany jako [OSM_Data_Overview_pl.odt](/files/OSM_Data_Overview_pl.odt) lub [OSM_Data_Overview_pl.pdf](/files/OSM_Data_Overview_pl.pdf)  
-> Reviewed 2016-09-05
+> Przejrzano 05.09.2016
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 

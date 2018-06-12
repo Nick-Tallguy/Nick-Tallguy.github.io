@@ -12,7 +12,7 @@ GPS Essentials
 ===================
 
 > Ten przewodnik może zostać pobrany jako [gps-essentials_pl.odt](/files/gps-essentials_pl.odt) lub [gps-essentials_pl.pdf](/files/gps-essentials_pl.pdf)  
-> Reviewed 2015-05-24  
+> Przejrzano 24.05.2015  
 
 Installation of GPS Essentials
 -------------

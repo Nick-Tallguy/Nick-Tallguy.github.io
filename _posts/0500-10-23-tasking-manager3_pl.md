@@ -61,7 +61,7 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
   ![TM Quick Start 8][]
 
 
-## Mapping Process 
+## Proces mapowania 
 
 1. A remote mapper creates an account in OpenStreetMap and logs into the Tasking Manager.
 1. The mapper finds a project to work on, usually based on priority and skill level set by a Tasking Manager project manager. 
@@ -174,9 +174,9 @@ When checking a task marked as complete, validators will expect that the require
 
 #### Activity and Stats button  
 
-This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
+Ta zakładka zawiera statystyki dotyczące projektu. Jest ona podzielona na dwie sekcje: szczegółową listę działań (dawniej jako własna karta w Menedżerze zadań wer. 2.0) oraz sekcję podsumowującą.
 
-The summary contains a list of mappers who have completed at least one task within the project.  
+Podsumowanie zawiera listę osób mapujących, którzy ukończyli przynajmniej jedno zadanie w ramach projektu.  
 
 A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
 
@@ -199,7 +199,7 @@ Clicking on the **Start Mapping** button locks the task so that no other mapper 
 
 Different options for editing are presented to you as soon as you lock a task.
 
-##### Edit with JOSM  
+##### Edycja z JOSM  
 
 Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
@@ -208,7 +208,7 @@ Start JOSM before using this link and it will automatically load the existing OS
 >  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
   
 
-##### iD editor  
+##### Edytor iD  
 
 Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
 

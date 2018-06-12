@@ -10,7 +10,7 @@ GPSLogger dla Androida
 =====================
 
 > Ten przewodnik może zostać pobrany jako [gpslogger_pl.odt](/files/gpslogger_pl.odt) lub [gpslogger_pl.pdf](/files/gpslogger_pl.pdf)  
-> Reviewed 2015-12-06  
+> Przejrzano 06.12.2015  
 
 ![GPSLogger][]
 
@@ -241,11 +241,11 @@ Display Options
 
 The application can be displayed 3 different ways, whichever you find most appropriate for your use:
 
-#### Simple View
+#### Prosty podgląd
 
 ![view0][]
 
-#### Detailed View
+#### Szczegółowy podgląd
 
 ![view1][]
 
@@ -254,7 +254,7 @@ The application can be displayed 3 different ways, whichever you find most appro
 ![view2][]
 
 
-Summary
+Podsumowanie
 -------
 
 Excellent! You've been introduced to a light-weight, battery-efficient app you can keep in your Android device to record tracks, which you can upload to OSM, or use with your favorite OpenStreetMap editor.  

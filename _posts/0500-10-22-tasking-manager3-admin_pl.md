@@ -219,7 +219,7 @@ Delete Project - This will permanently delete the project from the Tasking Manag
 
 Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
 
-### Instruction Notes
+### Uwagi instrukcyjne
 
 Please use plain language as your target audience may not consist of native English speakers.
 

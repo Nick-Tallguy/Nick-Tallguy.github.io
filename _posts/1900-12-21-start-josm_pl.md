@@ -11,7 +11,7 @@ Getting Started with JOSM
 =============================  
 
 > Ten przewodnik może zostać pobrany jako [josm_start-josm_pl.odt](/files/josm_start-josm_pl.odt) lub [josm_start-josm_pl.pdf](/files/josm_start-josm_pl.pdf)  
-> Reviewed 2015-07-12  
+> Przejrzano 12.07.2015  
 
 How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and
 learn some of the basic operations of the software. Remember in the
@@ -170,7 +170,7 @@ Learn Basic Drawing with JOSM
   points, lines, and shapes. What other places are best represented by
   points? Lines? Shapes?
 
-### Changing Objects
+### Zmienianie obiektów
 
 - Select the forest on the left side of the map. Be sure to click on
   the line around the forest, not one of the points on the line. Now
@@ -181,7 +181,7 @@ Learn Basic Drawing with JOSM
   move the point. This is how you can change the shape of an object,
   or move a point.
 
-### Drawing
+### Rysowanie
 
 - On the left side of JOSM is a column of buttons. Many of these
   buttons open new windows on the right side that provide more
@@ -259,7 +259,7 @@ Alternatively you can choose delete from the context menu of the layer.
 In order to continue editing you first need to download real data. 
 This will be explained in the next chapter.
 
-Summary
+Podsumowanie
 -------
 
 Excellent! If all went well you have learned how to setup JOSM on your

@@ -11,7 +11,7 @@ category: resources
 
 > Przejrzano 24.02.2018
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+Jest to skomentowana lista wskaźników do innych stron internetowych, które uważamy za użyteczne. Wszystkie odnośniki zostały zweryfikowane i działały, gdy ten dokument był ostatnio sprawdzany.
 
   * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
 

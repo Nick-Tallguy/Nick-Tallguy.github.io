@@ -11,7 +11,7 @@ category: coordination
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
 > Ten przewodnik może zostać pobrany jako [humanitarian_pl.odt](/files/humanitarian_pl.odt) lub [humanitarian_pl.pdf](/files/humanitarian_pl.pdf)  
-> Reviewed 2015-09-18
+> Przejrzano 18.09.2015
 
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
 

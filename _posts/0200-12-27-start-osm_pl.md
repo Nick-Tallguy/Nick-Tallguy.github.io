@@ -180,7 +180,7 @@ that offers many more features.
 Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
 you can choose which editor - iD or JOSM - you like using the best.
 
-Summary
+Podsumowanie
 -------
 
 Congratulations! If all went well you now have an OpenStreetMap username

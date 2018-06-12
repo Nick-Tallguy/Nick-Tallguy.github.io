@@ -10,7 +10,7 @@ Edytor iD
 =============
 
 > Ten przewodnik może zostać pobrany jako [beginner_id-editor_pl.odt](/files/beginner_id-editor_pl.odt) lub [beginner_id-editor_pl.pdf](/files/beginner_id-editor_pl.pdf)  
-> Reviewed 2016-03-30  
+> Przejrzano 30.03.2016  
 
 - TOC
 {:toc}

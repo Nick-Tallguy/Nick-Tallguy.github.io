@@ -10,7 +10,7 @@ Proces edycji w JOSM
 ========================
 
 > Ten przewodnik może zostać pobrany jako [josm_more-about-josm_pl.odt](/files/josm_more-about-josm_pl.odt) lub [josm_more-about-josm_pl.pdf](/files/josm_more-about-josm_pl.pdf)  
-> Reviewed 2015-07-12  
+> Przejrzano 12.07.2015  
 
 In the previous section you
 installed JOSM and began drawing your first points, lines, and shapes.
@@ -196,7 +196,7 @@ See your changes on the map
     general rule is, if your point has an icon in JOSM, then it should
     be seen on the main map at the OpenStreetMap website.
 
-Summary
+Podsumowanie
 -------
 Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
 is great, but it's not the only aspect of making maps. Of course you also

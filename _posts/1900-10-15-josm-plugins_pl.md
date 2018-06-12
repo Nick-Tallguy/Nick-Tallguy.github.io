@@ -10,7 +10,7 @@ Wtyczki JOSM
 ============
 
 > Ten przewodnik może zostać pobrany jako [josm-plugins_pl.odt](/files/josm-plugins_pl.odt) lub [josm-plugins_pl.pdf](/files/josm-plugins_pl.pdf)  
-> Reviewed 2015-07-14  
+> Przejrzano 14.07.2015  
 
 As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
 
@@ -177,7 +177,7 @@ out on the map by changing the number in the “Scale” box. Increase the
 resolution by changing the number next to “ppi”. When you have finished
 editing the settings, click “Print.”
 
-Summary
+Podsumowanie
 -------
 
 These are some useful plugins that are available for JOSM. Feel free to
