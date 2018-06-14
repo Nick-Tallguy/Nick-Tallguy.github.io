@@ -130,6 +130,19 @@
 	   "url":""}
 	]
 },{
+	"lang":"pl",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if post.lang == 'pl' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
 	"lang":"pt",
 		"chapters":[
 	  {% for post in site.posts %}
