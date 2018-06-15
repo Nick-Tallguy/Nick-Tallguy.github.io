@@ -30,7 +30,7 @@ Points to note;
 - the right size building the right way round will help people locate their village,  
 - Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
 - **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
+- Budynki i drogi, rzeki, granice **landuse=residential** lub innych cech mapy nie powinny się pokrywać.  
 - If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
 - We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
 

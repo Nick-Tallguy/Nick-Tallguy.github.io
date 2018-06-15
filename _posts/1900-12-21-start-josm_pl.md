@@ -7,7 +7,7 @@ category: josm
 published: true
 ---
 
-Getting Started with JOSM
+Rozpoczęcie pracy z JOSM
 =============================  
 
 > Ten przewodnik może zostać pobrany jako [josm_start-josm_pl.odt](/files/josm_start-josm_pl.odt) lub [josm_start-josm_pl.pdf](/files/josm_start-josm_pl.pdf)  

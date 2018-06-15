@@ -23,7 +23,7 @@ For example, imagine that you want to map a building that has courtyards in the 
 
 Relations are used to represent anything that requires a collection of objects to define.  Other examples are bus routes (a collections of lines), long and complex objects (rivers or roads), or multiple polygons that are all part of one location (like buildings in a university).  
 
-There are mainly four types of relations you will encounter in OSM: Multipolygons, Routes, Boundaries, and Restrictions (such as, no left turns).  In this section we will cover Multipolygons and Routes.  
+W OSM występują cztery główne typy relacji: Wielokąty, Trasy, Granice i Ograniczenia (takie jak brak skrętu w lewo). W tej sekcji omówimy Wielokąty i Trasy.  
 
 Creating Multipolygon Relations
 -------------------------------

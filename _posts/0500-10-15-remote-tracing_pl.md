@@ -15,7 +15,7 @@ Odwzorowywanie dróg, budynków, wody i zagospodarowania terenu
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
 
 
-Section Index
+Spis treści działu
 =====
 
 [Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
@@ -45,7 +45,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 > There is a high risk of suffering from conflicts which will prevent you saving your work when working on any highway which extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the highway, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
 
 
-### The Highway Network
+### Sieć autostrad
 
 ![JOSM 4][]
 
@@ -72,9 +72,9 @@ surface=unpaved
 ***
 
 
-## Residential Boundaries
+## Granice obszarów zamieszkania
 
-Residential boundaries are used for many purposes in OpenStreetMap.  
+Granice obszarów zamieszkania są używane w OpenStreetMap w wielu celach.  
 
 +  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](http://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
 +  Where there is not time to map in detail from the outset, the project within the Task Manager will frequently require something similar to this:  
@@ -89,7 +89,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
  once you have worked out the area covered by a landuse=residential boundary,  
  you can establish a very approximate population for that area.  
  Estimating the number of aid workers & quantity of medicine now becomes more realistic.
-*  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
+*  Nazwy miejsc i granice są często importowane z innych źródeł, ale ich lokalizacja nie zawsze jest dokładna. Po wprowadzeniu granicy strefy zamieszkania osoba dokonująca importu może zobaczyć, gdzie prawdopodobnie powinna znajdować się nazwa miejsca.
 
 
 ### landuse=residential - jak dodać do mapy

@@ -6,15 +6,15 @@ lang: pl
 category: hot-tips
 ---
 
-Copying, Pasting & Rotating - iD editor
+Kopiowanie, wklejanie i obracanie - edytor iD
 ============
 
 ![copy-paste][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> Ten obraz ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze są przyciśnięte.  
 
-You can easily copy, paste & rotate objects, but make sure they are the right size.  
-Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste.  
+Możesz łatwo kopiować, wklejać i obracać obiekty, ale upewnij się, że mają one odpowiedni rozmiar.  
+Wybierz obiekt za pomocą myszki, następnie naciśnij na klawiaturze **Ctrl+c**, aby skopiować i **Ctrl+v**, aby wkleić.  
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

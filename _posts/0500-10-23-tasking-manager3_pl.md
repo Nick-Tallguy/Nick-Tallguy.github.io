@@ -12,12 +12,12 @@ category: coordination
 
 **This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager)**
 
-Section Index
+Spis treści działu
 -------------
--  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
--  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
-    -  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
-    -  [Options - language settings and user profile](/en/coordination/tasking-manager3/#options-amp-links)  
+-  [Przewodnik szybkiego startu](/pl/coordination/tasking-manager3/#quick-start-guide)  
+-  [Proces tworzenia mapy](/pl/coordination/tasking-manager3/#mapping-process)  
+    -  [Logowanie się](/pl/coordination/tasking-manager3/#tasking-manager-login)  
+    -  [Opcje - ustawienia języka i profil użytkownika](/pl/coordination/tasking-manager3/#options-amp-links)  
     -  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
     -  [Mapping a Task - select, work on and unlock a task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
 -  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
@@ -43,15 +43,15 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ## Przewodnik szybkiego startu
 
-1. Create an account and login on http://openstreetmap.org/  
+1. Utwórz konto i zaloguj się na http://openstreetmap.org/  
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
+2. Odwiedź stronę [http://tasks.hotosm.org/](http://tasks.hotosm.org/) i zaloguj się poprzez górny prawy narożnik  
   ![TM Quick Start 2][]
 3. Click on "Contribute" and find a mapping project to work on  
   ![TM Quick Start 3][]
-4. Read the instructions for the project  
+4. Przeczytaj instrukcje dla projektu  
   ![TM Quick Start 4][]
-5. Click the "Map" tab  
+5. Kliknij kartę "Map"  
   ![TM Quick Start 5][]
 6. Find a "Ready" task to work on, click on it and select "Start Mapping"  
   ![TM Quick Start 6][]
@@ -69,7 +69,7 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 3. A second remote mapper checks that the task is completed to a satisfactory level and marks the task as 'validated'
 4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
 
-### Tasking Manager Login
+### Logowanie do Menedżera zadań
 
 The Tasking Manager is a separate tool that coordinates mapping in OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a separate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
 
@@ -85,7 +85,7 @@ Clicking on that button will take you to the OpenStreetMap website. There you wi
 
 Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
 
-### Options & links
+### Opcje i odnośniki
 
 The Task Manager initially displays in English - to change to another language click on **English** in the upper right area of the window.
 
@@ -121,7 +121,7 @@ By default all the projects available for mapping are displayed. You can use the
 - Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
 - Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
 
-#### Map View
+#### Podgląd mapy
 Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
 
 ![TM project map][]
@@ -140,7 +140,7 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 
 
-#### Project Page
+#### Strona projektu
 
 Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
 
@@ -156,7 +156,7 @@ Below the description the screen is divided into a left and right section. The l
 - The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 
 
-#### Instructions Tab
+#### Karta instrukcji
 This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
@@ -182,7 +182,7 @@ A log of all the comments left on individual tasks is at the bottom of the page.
 
 You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
 
-#### Map Tab  
+#### Karta mapy  
 
 Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
 
@@ -247,7 +247,7 @@ Having selected your task and inspected it with the imagery in place, you may re
 
 If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
-For example:  
+Na przykład:  
 
     Almost complete, small village top left 
     in the task square to be traced though
@@ -273,7 +273,7 @@ You will sometimes select a task that can not be mapped because the imagery is l
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
-For example:  
+Na przykład:  
 
     @HOTMppr niezła robota z odwzorowaniem budynku  
     details here. You missed a small group  
@@ -298,7 +298,7 @@ If you need to send a message, such as an email or an IRC message, and you are q
     - or shortcut keys **Ctrl+V**, to paste the link into the message. 
 
 
-## Getting help 
+## Uzyskiwanie pomocy 
 
 ### Live text based help
 
@@ -330,7 +330,7 @@ By now you have a good understanding of what the Tasking Manager is, and some of
 Some general advice to heed when working in this tool:  
 
 * Avoid mapping far outside of your task square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediately after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
+* Przedłuż drogi, strumienie lub inne funkcje nieco poza granice - dzięki temu następny twórca mapy będzie mógł przejąć pracę od miejsca, w którym została przerwana, ale pamiętaj, by przesyłać efekty swojej pracy zaraz po zakończeniu edycji.  
 * If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
 * If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
 * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
@@ -342,7 +342,7 @@ Some general advice to heed when working in this tool:
 
 Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
 
-### Getting Started
+### Rozpoczęcie pracy
 
 Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
 
@@ -358,7 +358,7 @@ New in the latest version of the Tasking Manager is the ability to select multip
 
 Depending on which editor you are using, this feature will behave differently.
 
-In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
+W JOSM zostanie utworzona druga warstwa danych OSM zatytułowana "Granice zadań - nie edytuj ani nie przesyłaj", a w najnowszych wersjach JOSM funkcja przesyłania zostanie wyłączona. JOSM **nie pobierze danych OSM**, ponieważ może to być bardzo duża ilość danych. Zamiast tego osoba kontrolująca będzie musiała użyć granic zadań jako przewodnika i ręcznie pobierać dane do aktywnej warstwy edycji.
 
 #### Select by drawing a polygon
 

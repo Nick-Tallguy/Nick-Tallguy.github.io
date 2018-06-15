@@ -2,13 +2,13 @@
 layout: doc
 permalink: /pl/hot-tips/
 lang: pl
-title: HOT Tips - Getting started for new mappers - iD editor
+title: Porady HOT Tips - Rozpoczęcie pracy dla nowych mapujących - edytor iD
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-HOT Tips - Getting started for new mappers using iD and a Tasking Manager
+Porady HOT - Rozpoczęcie pracy dla nowych mapujących wykorzystujących iD i Menedżer zadań
 ================
 
 This series of short guides is aimed at volunteers helping to map for Aid Agencies using a Tasking Manager, but the principles are the same for all OpenStreetMap mapping. Mapping is easy,  but let's get it right and keep improving the map!

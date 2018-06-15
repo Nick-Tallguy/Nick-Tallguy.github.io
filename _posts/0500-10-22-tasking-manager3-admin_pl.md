@@ -6,13 +6,13 @@ lang: pl
 category: coordination
 ---
 
-# OSM Tasking Manager Project Creation and Administration
+# Menedżer zadań OSM - Tworzenie projektu i jego administrowanie
 
 > Ten przewodnik może zostać pobrany jako samodzielny moduł: [tasking-manager3-admin_pl.odt](/files/tasking-manager3-admin_pl.odt) lub [tasking-manager3-admin_pl.pdf](/files/tasking-manager3-admin_pl.pdf) 
 
 **This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager-project-admin)**
 
-Section Index
+Spis treści działu
 -------------
 -  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
 -  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
@@ -33,7 +33,7 @@ The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managin
 
 The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
 
-## Logging in & Access Levels
+## Logowanie się i poziomy dostepu
 
 The first thing to understand is access level. All access to TMd is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
@@ -46,7 +46,7 @@ The OSM Tasking Manager has three user access levels:
 
 You will need Project Manager Access level to create new projects using TM3.
 
-## Initiate a new Project within TM3 
+## Zainicjuj nowy projekt w ramach MZ3 
 
 ![TM New][]
 
@@ -54,7 +54,7 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 
 > Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
 
-### Draw an area of interest to be mapped
+### Wyrysuj obszar zainteresowania, który należy zmapować
 
 1. Click the ‘Draw’ button in the upper right corner.
 2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
@@ -71,7 +71,7 @@ or
 4. Imported areas of interest can not be edited.
 
 
-## Task Creation
+## Tworzenie zadania
 
 An AoI for a project is the large overall area to map. That area is then divided up into smaller areas called Tasks. 
 
@@ -145,7 +145,7 @@ This screen allows you set the project priority, its status as Draft, Published,
 
 Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
 
-### Instructions
+### Instrukcje
 
 ![TM Instructions][]
 
@@ -163,7 +163,7 @@ See the below notes on creating good instructions.
 
 **Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
 
-### Metadata
+### Metadane
 
 ![TM Metadata][]
 
@@ -177,7 +177,7 @@ See the below notes on creating good instructions.
 
 **Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
 
-### Priority Areas
+### Obszary priorytetowe
 
 ![TM Priority Area][]
 
@@ -185,13 +185,13 @@ Use the provided tools to draw areas that should be mapped first. You can have m
 
 > During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
 
-### Imagery
+### Obrazowanie
 
 URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
 
 License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
-### Permissions
+### Upoważnienia
 
 ![TM Permissions][]
 
@@ -201,11 +201,11 @@ Require Validator Role - This allows you to require that people doing validation
 
 Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
 
-### Settings
+### Ustawienia
 
-Default Locale - Allows the setting of default instructions language for a project.
+Domyślne ustawienia regionalne - Umożliwia ustawienie domyślnego języka instrukcji dla projektu.
 
-### Actions
+### Działania
 
 ![TM Actions][]
 

@@ -12,13 +12,13 @@ Wprowadzenie
 > Ten przewodnik może zostać pobrany jako [beginner_introduction_pl.odt](/files/beginner_introduction_pl.odt) lub [beginner_introduction_pl.pdf](/files/beginner_introduction_pl.pdf)  
 > Przejrzano 12.07.2015  
 
-Information is powerful. With good information and the right
-understanding, individuals and communities are better able to improve
-their lives and make good decisions about the future. There are many
-people and organizations who make decisions that affect our lives. Good
-information allows these NGO's (non-government organisations), governments and citizens to make better
-decisions, and hopefully make our lives better. Maps are a good way
-to convey information. 
+Informacje są potężne. Dzięki dobrym informacjom i odpowiedniemu
+zrozumieniu jednostki i wspólnoty są w stanie poprawić
+swoje życie i podejmować dobre decyzje dotyczące przyszłości. Jest wiele
+osób i organizacji, które podejmują decyzje, które wpływają na nasze życie. Dobra
+informacja pozwala tym NGO-som (organizacjom pozarządowym), rządom i obywatelom podejmować lepsze
+decyzje i, miejmy nadzieję, poprawić nasze życie. Mapy to dobry sposób
+na przekazywanie informacji. 
 
 ![A village in Indonesia][]
 
@@ -69,9 +69,9 @@ internet, and anyone can access them at any time, totally free.
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your
-work. By following this guide, you should be able to quickly start
-making digital maps with OpenStreetMap.
+Mamy nadzieję, że OpenStreetMap okaże się przydatny i interesujący w Twojej
+pracy. Postępując zgodnie z tym przewodnikiem, powinieneś być w stanie szybko
+zacząć tworzyć cyfrowe mapy za pomocą OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png

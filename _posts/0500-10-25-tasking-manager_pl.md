@@ -13,11 +13,11 @@ category: coordination
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
 
-Section Index
+Spis treści działu
 -------------
 -  [Overview of how HOT uses the Tasking Manager](/en/coordination/tasking-manager/#overview-of-the-process)  
 -  [Languages, Options, help links, and other links. Your user page - list of projects you have assisted in, and messages](/en/coordination/tasking-manager/#options-amp-links)  
--  [Logging in](/en/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
+-  [Logowanie się](/pl/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
 -  [Finding a project](/en/coordination/tasking-manager/#locating-a-project)  
 -  [Description, Map grid, Instructions, Contributing, Activity, Statistics for a project](/en/coordination/tasking-manager/#description)  
 -  [Selecting a square to map, timer, releasing](/en/coordination/tasking-manager/#selecting-a-square-to-map)  
@@ -58,7 +58,7 @@ Once you have logged in, you may click on your username at the top. Here you can
 ![Tasking Manager Username_list][]  
 
 
-## Getting started with the Tasking Manager
+## Rozpoczęcie pracy z Menedżerem zadań
 
 You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to <http://tasks.hotosm.org>. You will see a page like this:  
 
@@ -272,7 +272,7 @@ By now you have a good understanding of what the Tasking Manager is, and some of
 **Some general advice to heed when working in this tool:**  
 
 * Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
+* Przedłuż drogi, strumienie lub inne funkcje nieco poza granice - dzięki temu następny twórca mapy będzie mógł przejąć pracę od miejsca, w którym została przerwana, ale pamiętaj, by przesyłać efekty swojej pracy zaraz po zakończeniu edycji.  
 * If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
 * If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
 * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  

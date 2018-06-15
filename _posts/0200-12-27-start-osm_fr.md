@@ -133,59 +133,59 @@ Créer un compte OpenStreetMap
 Ajouter Vos Premiers Points
 -----------------------------------
 
--   Maintenant sue vous êtes connecté avec votre nom d'utilisateur sur OpenStreetMap
-    , vous pouvez utiliser l'éditeur iD pour ajouter vos premiers points à
+-   Maintenant sue vous êtes connecté avec votre nom d'utilisateur sur OpenStreetMap,
+    vous pouvez utiliser l'éditeur iD pour ajouter vos premiers points à
     la carte.
 -   Déplacez la carte sur un lieu que vous connaissez très bien, comme votre ville
     ou votre quartier. Une bonne idée serait de vérifier que votre maison (ou celle de votre voisin) et votre lieu de travail sont bien dessinés et ont la bonne adresse. 
--   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
--   Just above the map on the left, there is a tab named “Edit” with a small
-    triangle besides it. Click the small triangle. You should see a menu
-    drop down.
--   Click “Edit with iD (in-browser editor)”.
+- Zoomez sur un lieu où vous voudriez ajouter un point à la carte (peut-être un restaurant ou une épicerie près de vous n'est pas encore cartographié).
+- Juste au dessus de la carte à gauche se trouve un onglet « modifier » avec un petit
+    triangle à côté. Cliquez sur le petit triangle. Vous devriez voir un menu
+    apparaître.
+- Cliquez sur « modifier avec iD (éditeur intégré au navigateur) ».
 
     ![Click edit][]
 
--   The online editor, named iD, should open. It will look something like this.
+- L'éditeur en ligne, iD, devrait s'ouvrir. Il ressemblera à quelque chose comme cela.
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at
-    the top the window. Then click on the map where you would like to add a new
+- Vous pouvez ajouter un point à la carte en cliquant sur le bouton « Point » sur la
+    fenêtre du haut. Ensuite cliquez sur la carte là où vous voudriez ajouter un nouveau
     point.
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are
-    adding to the map. You can then fill in the appropriate form with the location's
-    name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your
-    first edit, you may prefer to play around with the editor. Don't save your changes
-    unless you are sure they are correct.
+- Depuis le menu sur la gauche, choisissez le type d'emplacement que vous
+    ajoutez à la carte. Vous pouvez ensuite remplir les champs appropriés avec le nom de
+    l'emplacement et d'autres informations.
+- Pour sauvegarder vos changements, cliquez sur le bouton « Sauvegarder » en haut. Comme c'est votre première modification,
+    vous pourriez préférer jouer un peu avec l'éditeur. Ne sauvegardez pas vos changements
+    à moins d'être sûr qu'ils sont corrects.
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.
-    Then you can click "Save" once more, and your additions will be saved to the
-    OSM database!
+- Si vous cliquez sur Sauvegarder, on vous demandera une description de vos changements.
+    Ensuite vous pouvez cliquer sur « sauvegarder » de nouveau, et vos ajouts seront sauvegardés
+    dans la base de données OSM !
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
-more about using it in the [iD editor guide](/en/beginner/id-editor/).
-You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
-which is a great and interactive manner to discover the editor.
+L'éditeur iD est un super moyen de modifier facilement OpenStreetMap et vous pouvez 
+en apprendre plus dans le [guide de l'éditeur iD](/fr/beginner/id-editor/).
+Vous pouvez aussi jouer avec le [didacticiel](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
+qui une super manière de découvrir l'éditeur de manière interactive.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
-that offers many more features.
-Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
-you can choose which editor - iD or JOSM - you like using the best.
+Cependant, dans la [section sur JOSM](/fr/josm/) nous nous intéresserons à une application indépendante 
+qui propose plus de fonctionnalités.
+Continuez à jouer avec iD. Une fois que vous aurez plus d'expérience dans la contribution à OSM, 
+vous pourrez choisir l'éditeur — iD ou JOSM — que vous préférez le plus.
 
-Summary
+En résumé
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username
-and password, you know how to navigate the OSM website, and you have
-your first understanding of how to add points to the map.
+Bravo ! Si vous tout s'est bien passé vous avez maintenant un nom d'utilisateur OpenStreetMap
+et un mot de passe, vous savez naviguer sur le site web d'OSM et vous avez
+commencé à comprendre comment ajouter des points sur la carte.
 
 
 

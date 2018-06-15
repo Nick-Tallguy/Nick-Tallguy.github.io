@@ -1,44 +1,44 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /pl/beginner/start-osm/
-lang: pl
+permalink: /he/beginner/start-osm/
+lang: he
 category: beginner
 ---
 
-Rozpoczynanie na OpenStreetMap.org
+איך מתחילים ב־OpenStreetMap.org
 ====================================
 
-> Ten przewodnik może zostać pobrany jako [beginner_start-osm_pl.odt](/files/beginner_start-osm_pl.odt) lub [beginner_start-osm_pl.pdf](/files/beginner_start-osm_pl.pdf)  
-> Przejrzano 12.07.2015  
+> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
+> Reviewed 2015-07-12  
 
-W tej części nauczymy się krok po kroku jak nawigować na
-stronie OpenStreetMap, przeglądać mapy i zarejestrować konto
-użytkownika. Gdy już będziesz mieć swoją nazwę użytkownika i hasło, będziesz mógł
-dodać swój pierwszy punkt na mapę.
+In this section we will learn step by step how to navigate the
+OpenStreetMap website, view maps, and sign up for a user
+account. After you have your own username and password, you will be able
+to contribute your first points to the map.
 
 ![website][]
 
-Odwiedź stronę OpenStreetMap
+ביקור באתר של OpenStreetMap
 -------------------------------
 
--   Zanim rozpoczniesz, upewnij się, że komputer posiada połączenie z Internetem.
-    (Jeśli czytasz ten tekst poprzez przeglądarkę, znaczy to, że musisz być połączony!)
--   Otwórz swoją przeglądarkę internetową. Najpopularniejszymi przeglądarkami są Firefox, Chrome, Opera, lub Internet
-    Explorer. Jeśli jest już otwarta to możesz otworzyć jej nową kartę.
--   Na pasku adresu u góry okienka napisz następujące i wciśnij przycisk Enter:
+-   Before you begin, be sure your computer is connected to the internet.
+    (If you are reading this online, then you must be connected!)
+-   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet
+    Explorer. If it is already open then you can create a new tab.
+-   In the address bar at the top of the window, enter the following and press Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   Gdy strona zakończy się wczytywać powinieneś ujrzeć mniej więcej coś
-    takiego:
+-   When the page has finished loading, you should see something like
+    this:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Nawigacja po mapie
+ניווט במפה
 ----------------
 
--   Główną rzeczą, którą powieneś ujrzeć - to mapa. Poruszaj mapą klikając
-    na niej lewym przyciskiem myszy, przytrzymując wciśnięcie przycisku, i
-    poruszając myszką dookoła (zobacz ilustację poniżej).
+-   The main thing you should see is the map. Move the map by clicking
+    on it with your left mouse button, holding the button down, and
+    dragging your mouse around (see figure below).
 
     ![Mouse navigation][]
 
@@ -56,7 +56,7 @@ Nawigacja po mapie
     ![Search][]
    
 
-Zobacz różne style map
+הצגת סגנונות מפה שונים
 ------------------------
 
 OpenStreetMap contains geographic data from all over the world. Although
@@ -64,7 +64,7 @@ it is a single database, the data can be interpreted and styled in
 different ways. To see this in action, let's look at various map "styles"
 available on the OSM website.
 
--   Kliknij przycisk Warstwy po prawej stronie okna mapy.
+-   Click on the Layers button on the right side of the map window.
 
     ![Layers button][]
 
@@ -76,7 +76,7 @@ available on the OSM website.
 
     ![Transport map][]
 
-Utwórz konto OpenStreetMap
+Create an OpenStreetMap Account
 -------------------------------
 
 -   Now that you have seen what the main website looks like, you can
@@ -142,11 +142,11 @@ Adding Your First Points
 -   Just above the map on the left, there is a tab named “Edit” with a small
     triangle besides it. Click the small triangle. You should see a menu
     drop down.
--   Kliknij na “Edycja w iD (edytor przeglądarkowy)”.
+-   Click “Edit with iD (in-browser editor)”.
 
     ![Click edit][]
 
--   Powinien otworzyć się edytor internetowy o nazwie iD. Będzie wyglądać mniej więcej tak.
+-   The online editor, named iD, should open. It will look something like this.
 
     ![iD editor][]
 
@@ -170,22 +170,22 @@ Adding Your First Points
     OSM database!
 
 
-Edytor iD to fantastyczny sposób na łatwą edycję OpenStreetMap i możesz się dowiedzieć 
-więcej o korzystaniu z niego w [iD editor guide](/en/beginner/id-editor/).
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
+more about using it in the [iD editor guide](/en/beginner/id-editor/).
 You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
 which is a great and interactive manner to discover the editor.
 
 However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
 that offers many more features.
-Czuj się swobodnie w kontynuacji zabawy z iD. Gdy zdobędziesz więcej doświadczenia w tworzeniu OSM, 
-będziesz mógł wybrać, który edytor - iD czy JOSM - będzie dla Ciebie najlepszy.
+Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
+you can choose which editor - iD or JOSM - you like using the best.
 
-Podsumowanie
+תקציר
 -------
 
-Gratulacje! Jeśli wszystko poszło dobrze, masz teraz nazwę użytkownika OpenStreetMap
-oraz hasło, wiesz jak poruszać się po stronie internetowej OSM i zdobyłeś
-pierwsze wiadomości jak dodawać punkty na mapie.
+ברכותינו! אם הכול עבר כמו שצריך אמור להיות לך עכשיו שם משתמש
+וססמה ב־OpenStreetMap, ידע כיצד לנווט באתר של OSM ויש לך
+הבנה ראשונית בנוגע להוספת נקודות למפה.
 
 
 
