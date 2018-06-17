@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 permalink: /he/beginner/
 lang: he
 title: מדריך למתחילים

@@ -147,6 +147,17 @@ translations:
     language: "Français"
     quickaccess: "Accès rapide"
     returntotop: "Retourner en haut de la page"
+  he:
+    language: "עברית"
+    tagline: "רכישת ידע על OpenStreetMap שלב אחר שלב"
+    contribute: "סיוע בשיפור המדריכים שלנו"
+    trainingspan: "תפקידך הוא לארגן סדנאות?"
+    training: "להלן חומרי תרגול עבור מדריך זה (באנגלית)"
+    feedbackspan: "פרק זה סייע לך?"
+    feedback: "נשמח לחוות הדעת שלך ולסיוע שלך לשפר את המדריכים האלה!"
+    getstarted: "איך מתחילים"
+    returntotop: "חזרה לראש העמודge"
+    quickaccess: "גישה מהירה"
   hu:
     tagline: "Az OpenStreetMap megtanulása lépésről lépésre"
     contribute: "Segíts az útmutatók javításában"

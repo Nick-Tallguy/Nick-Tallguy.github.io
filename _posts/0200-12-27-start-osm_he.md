@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: OpenStreetMap.org
 permalink: /he/beginner/start-osm/
 lang: he

@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: העתקה, הדבקה והטיה - עורך iD
 permalink: /he/hot-tips/copy-paste/
 lang: he

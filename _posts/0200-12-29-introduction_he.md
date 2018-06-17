@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: כותרת
 permalink: /he/beginner/introduction/
 lang: he

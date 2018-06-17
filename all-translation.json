@@ -104,6 +104,19 @@
 	   "url":""}
 	]
 },{
+	"lang":"he",
+	"chapters":[
+	  {% for post in site.posts %}
+	  {% if post.lang == 'he' %}
+	  {% unless post.nosearch %}
+	      {% include post.json %},
+	  {% endunless %}
+	  {% endif %}
+	  {% endfor %}
+	  {"label":"",
+	   "url":""}
+	]
+},{
 	"lang":"it",
 	"chapters":[
 	  {% for post in site.posts %}

@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: משאבים אחרים
 permalink: /he/resources/
 lang: he

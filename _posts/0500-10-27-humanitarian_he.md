@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: מיפוי הומניטרי
 permalink: /he/coordination/humanitarian/
 lang: he
