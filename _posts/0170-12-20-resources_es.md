@@ -1,10 +1,10 @@
 ---
 layout: doc
 title: Otros Recursos
-permalink: /es/recursos/
+permalink: /es/resources/
 lang: es
-cover: sí
-category: recursos
+cover: yes
+category: resources
 ---
 
 # Otros Recursos
