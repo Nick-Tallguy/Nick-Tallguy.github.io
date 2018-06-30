@@ -2,7 +2,7 @@
 layout: doc
 permalink: /bn_BD/beginner/
 lang: bn_BD
-title: Beginner's guide
+title: নবীনদের জন্য সহায়িকা
 category: beginner
 cover: yes
 nosearch: true

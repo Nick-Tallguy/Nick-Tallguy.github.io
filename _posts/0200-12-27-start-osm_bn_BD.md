@@ -6,26 +6,26 @@ lang: bn_BD
 category: beginner
 ---
 
-Getting started on OpenStreetMap.org
+OpenStreetMap.org আরম্ভ করা
 ====================================
 
-> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
+> এই সহায়িকাটি [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) অথবা [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf) হিসাবে ডাউনলোড করা যাবে  
 >নিরীক্ষিত ২০১৫-০৭-১২  
 
-In this section we will learn step by step how to navigate the
-OpenStreetMap website, view maps, and sign up for a user
-account. After you have your own username and password, you will be able
-to contribute your first points to the map.
+এই অনুচ্ছেদে আমরা ধাপে ধাপে এগিয়ে শিখবো
+OpenStreetMap ওয়েবসাইট, মানচিত্র দেখা, এবং ব্যবহারকারী নিবন্ধন সম্পর্কে।
+আপনার নিজের ব্যবহারকারী নাম এবং পাসওয়ার্ড থাকলে
+মানচিত্রে অবদান রাখতে শুরু করতে পারবেন।
 
 ![website][]
 
-Visit the OpenStreetMap Website
+OpenStreetMap ওয়েবসাইট দেখুন
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.
-    (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet
-    Explorer. If it is already open then you can create a new tab.
+-   আরম্ভ করার পূর্বে আপনার কম্পিউটার ইন্টারনেটের সাথে যুক্ত আছে নাকি নিশ্চিত হয়ে নিন
+    (আপনি কি এখন অনলাইনে থেকে পড়ছেন, তবে আপনি নিশ্চিই ইন্টরনেটে যুক্ত আছেন!)
+- ওয়েব ব্রাউজার চালু করুন। সাধারন জনপ্রিয় ব্রাউজারগুলো হলো ফায়ারফক্স, ক্রোম, অপেরা এবং ইন্টারনেট এক্সপ্লোরার।
+    আপনি যদি আগেই চালু করে থাকেন তবে নতুন একটি ট্যাব খুলুন।
 -   In the address bar at the top of the window, enter the following and press Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   When the page has finished loading, you should see something like
