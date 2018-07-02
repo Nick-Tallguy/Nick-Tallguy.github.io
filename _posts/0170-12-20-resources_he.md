@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: משאבים אחרים
 permalink: /he/resources/
 lang: he
@@ -20,13 +20,13 @@ category: resources
 
 ### iD
 
-  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
-  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
-  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
+  * [ההדרכה המובנית של iD](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) מדריך אינטראקטיבי על אופן השימוש ב־iD מובנה בתכנית
+  * [שקופיות שמכסות את תוכן ההדרכה שלנו](/files/iD-editor-training.pptx) חומרי גלם מעולים לעריכת היכרות עם iD למשל במפגש עריכת מפות
+  * [הדרכות וידאו של HOT](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) אוסף של סרטונים לימודיים סביב הפקת מפות עם iD ועם JOSM
+  * [מדריכי וידאו על iD](https://www.sjtdelfs.de/wordpress/?page_id=84) סרטונים קצרים שמסבירים איך לבצע משימות נפוצות
+  * [שיעורי וידאו על הנתונים של OpenStreetMap](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) דמויי מצגת על מגוון היבטים כגון תגיות, שכבות ויחסים
 
-## Mapathons and similar events
+## אירועי מיפוי שונים ומוגוונים
 
   * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
   * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university
