@@ -22,23 +22,23 @@ category: beginner
 ביקור באתר של OpenStreetMap
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.
-    (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet
-    Explorer. If it is already open then you can create a new tab.
--   In the address bar at the top of the window, enter the following and press Enter:
+-   בטרם התחלת התהליך, נא לוודא שהמחשב שלך מחובר לאינטרנט.
+    (אם המידע הזה מופיע אצלך בדפדפן כנראה שכבר יש לך חיבור לאינטרנט!)
+-   עליך לפתוח את הדפדפן שלך. דפדפנים נפוצים הם Firefox,‏ Chrome,‏ Opera, או Internet
+    Explorer. אם כבר פתחת דפדפן ניתן פשוט ליצור לשונית חדשה.
+-   בסרגל הכתובת שבראש החלון יש להקליד את הכתובת הבאה וללחוץ על Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like
-    this:
+-   עם סיום טעינת הדף, אמור להופיע משהו
+    כזה:
 
     ![OpenStreetMap website with some main functions listed][]
 
 ניווט במפה
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking
-    on it with your left mouse button, holding the button down, and
-    dragging your mouse around (see figure below).
+-   הרכיב המרכזי ביותר שאמור להופיע הוא המפה. יש להזיז את המפה
+    על ידי לחיצה על לחצן העכבר השמאלי, החזקת הכפתור השמאלי
+    וגרירת העכבר על המסך (איור להלן).
 
     ![Mouse navigation][]
 
