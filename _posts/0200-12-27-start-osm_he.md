@@ -76,7 +76,7 @@ available on the OSM website.
 
     ![Transport map][]
 
-Create an OpenStreetMap Account
+יצירת חשבון ב־OpenStreetMap
 -------------------------------
 
 -   Now that you have seen what the main website looks like, you can
@@ -146,7 +146,7 @@ Adding Your First Points
 
     ![Click edit][]
 
--   The online editor, named iD, should open. It will look something like this.
+-   העורך המקוון, בשם iD, אמור להיפתח. הוא אמור להיראות בערך כך.
 
     ![iD editor][]
 
