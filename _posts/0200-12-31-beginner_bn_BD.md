@@ -12,29 +12,29 @@ nosearch: true
 ================
 
 
-এই নির্দেশিকা দেখায় ধাপে ধাপে দেখিয়ে দিবে কিভাবে OpenStreetMap-এ ম্যাপিং শুরু করতে হয়। এখানে আপনি শিখবেন
-কিভাবে একটি অ্যাকাউন্ট সেট আপ করতে হয়, প্রাথমিক মানচিত্র সম্পাদন সফ্টওয়্যার ব্যবহার করতে হয় এবং পরবর্তী অধ্যায়গুলিতে আপনি শিখতে পারেন কিভাবে মাঠ যেতে হয় 
-and collect information to put on the map. 
+এই নির্দেশিকা অনুসরণ করে ধাপে ধাপে OpenStreetMap সম্পর্কে জানা যাবে। এখানে আপনি শিখতে পারবেন
+কিভাবে একটি অ্যাকাউন্ট তৈরী করতে হয়, মানচিত্র সম্পাদনার সাধারণ সফটওয়্যারগুলো ব্যবহার করতে হয়, এবং পরবর্তী অধ্যায়গুলোতে আপনি শিখতে পারেন কিভাবে বাহিরে যেয়ে
+মানচিত্রের জন্য তথ্য সংগ্রহ করতে হয়। 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### আপনি কি OpenStreetMap-এ নতুন এবং মানচিত্রে তথ্য-উপাত্ত যোগ করে এর মান উন্নয়ন করতে চান?
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+যদি আপনি আরম্ভ করতে চান এবং মানচিত্রে তথ্য সংযোজনে সমর্থ হন তবে অনুগ্রহ করে নিচের নির্দেশনাগুলো পড়ুন:
+-  [ভূমিকা](/en/beginner/introduction/) থেকে আপনি এই প্রকল্প সম্পর্কে জানতে পারবেন
+- [আরম্ভ করা](/en/beginner/start-osm/) অংশ থেকে আপনি জানতে পারবেন কিভাবে নতুন অ্যাকাউন্ট তৈরী করতে হয় এবং মানচিত্র এডিটর চালু করতে হয়
+- [iD এডিটর](/en/beginner/id-editor/) থেকে তথ্য সম্পাদনার সাধারণ দিকগুলো জানা যাবে
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### সম্পাদনার সাধারণ দিকগুলো আপনার জানা আছে এবং Humanitarian Mapping এর জন্য অবদান রাখতে চান?
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+এখানে মূল বিষয় হলো সমন্বিতভাবে মানচিত্র সম্পাদনা। 
+- [রিমোট ম্যাপিং গাইড](/en/coordination/HOT-Remote-Response-Guide/) এবং [humanitarian mapping](/en/coordination/humanitarian/) থেকে প্রথমিক দিকগুলো জানা যাবে
+- মূল সমন্বয়ের জায়গা, [টাস্কিং ম্যানেজার](/en/coordination/tasking-manager3/) এবং এখানে কাজের পদ্ধতি সম্পর্কে পরিচিত হওয়া জরুরী
+
+### মোবাইল থেকে OpenStreetMap ব্যবহার করতে চান?
+
+[মোবাইল ম্যাপিং](/en/mobile-mapping/) নামে একটি পূর্ণ চ্যাপ্টার রয়েছে।
+
+
+### জিআইএস টুল সম্পর্কে ধারণা রয়েছে এবং মূল উপাত্তগুলো যাচাই করতে চান?
+
+[তথ্য উপাত্ত অনুসন্ধান](/en/osm-data/getting-data/) এবং [Geofabrik ও HOT Export](/en/osm-data/geofabrik-and-hot-export/) পাতা থেকে জানা যাবে কিভাবে মূল ডাটাবেজ থেকে বিভিন্ন ফরম্যাটে উপাত্তগুলো পাওয়া যাবে।

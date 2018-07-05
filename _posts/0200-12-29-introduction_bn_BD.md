@@ -1,77 +1,77 @@
 ---
 layout: doc
-title: Introduction
+title: ভূমিকা
 permalink: /bn_BD/beginner/introduction/
 lang: bn_BD
 category: beginner
 ---
 
-Introduction
+ভূমিকা
 ============
 
-> This guide may be downloaded as [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) or [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
+> এই সহায়িকাটি আপনি [beginner_introduction_bn.odt](/files/beginner_introduction_bn.odt) or [beginner_introduction_bn.pdf](/files/beginner_introduction_bn.pdf) ফাইল হিসাবে ডাউনলোড করতে পারবেন  
 >নিরীক্ষিত ২০১৫-০৭-১২  
 
-Information is powerful. With good information and the right
-understanding, individuals and communities are better able to improve
-their lives and make good decisions about the future. There are many
-people and organizations who make decisions that affect our lives. Good
-information allows these NGO's (non-government organisations), governments and citizens to make better
-decisions, and hopefully make our lives better. Maps are a good way
-to convey information. 
+তথ্য শক্তিশালী। কার্যকরী তথ্য এবং সঠিক
+জ্ঞান, ব্যক্তি ও সম্প্রদায়কে তাদের জীবনযাত্রার মান উন্নয়ন
+এবং ভবিষ্যত বিষয়ে সিদ্ধান্ত নিতে সাহায্য করে। অনেক
+ব্যক্তি ও প্রতিষ্ঠান এমন কিছু সিদ্ধান্ত নিয়ে থাকে যার সাথে আমরা যুক্ত থাকি। 
+মান সম্মত তথ্য এই সকল সরকারী, বেসরকারী প্রতিষ্ঠান এবং ব্যক্তিকে সঠিক সিদ্ধান্ত নিতে সাহায্য করে, এবং 
+আমাদের জীবন যাত্রার নাম উন্নয়নে সহযোগীতা করে। মানচিত্র একটি
+তথ্য আদান-প্রদানের একটি কার্যকর পদ্ধতি। 
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often 
-demonstrate an idea better than words. This in turn can help us
-answer important questions. *Where is the closest school or hospital? Who
-has the least access to these facilities? Where is poverty the most
-problematic?* Questions like these can often best be expressed with maps,
-and maps can help find solutions to these questions. 
+মানচিত্র বিশ্বের একটি দৃশ্যমান চিহ্ন। প্রায়শ 
+একটি আইডিয়া লেখার থেকে সহজে প্রকাশ করতে সাহায্য করে। একভাবে এটি
+গুরুত্বপূর্ণ প্রশ্নের উত্তর দিতে সহায়তা করে। নিকটবর্তী স্কুল বা হাসপাতালটি কোথায়?
+কাদের জন্য এই জায়গাগুলোতে যাতায়াত সম্ভব? কোথায় দারিদ্রের সমস্যাটি
+প্রবল? মানচিত্রের মাধ্যমে খুব সহজেই এই সকল প্রশ্নগুলোর উত্তর দেয়া যায়,
+এবং একই সাথে মানচিত্র এই প্রশ্নের সমাধান খুঁজে বের করতে সাহায্য করে। 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the
-most important things to include on the map? What is the most important
-information? Spend a few minutes making your map, and when you’re
-finished, think about why the information you included is important, and
-who it might be important to.
+অনুশীলনের জন্য প্রথমে একটি কাগজ ও কলম নিন এবং আপনার গ্রাম বা শহরের মানচিত্র তৈরী করুন।
+এই মানচিত্রে সর্বাধিক গুরুত্বপূর্ণ বিষয়গুলো কি কি? সর্বাধিক গুরুত্বপূর্ণ তথ্য
+কোনগুলো? কিছু সময় ভেবে মানচিত্রটি তৈরী করুন এবং সম্পন্ন হওয়ার পর
+ভাবুন, যেসকল তথ্য আপনি সংযোজন করেছেন, তার মধ্যে কোনগুলো গুরুত্বপূর্ণ এবং 
+কাদের জন্য গুরুত্বপূর্ণ।
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+আপনার শহরটি যদি অন্যান্য সাধারণ শহরের মত হয়ে থাকে, তবে আপনি বেশ কিছু দাগ দিয়েছেন
+যেগুলোর মাধ্যমে আপনি রাস্তা বা নদী বুঝুয়েছেন। হয়তো আপনি কিছু গুরুত্বপূর্ণ ভবন
+যেমন স্কুল, অফিস, খেলার জয়গা অথবা এলাকা তৈরী বা চিহ্নিত করেছেন।
+আপনি যা-ই তৈরী করে থাকেননা কেনো, মূলত আপনি কিছু চিহ্ন ব্যবহার করেছেন - সরলরেখা রাস্তা,
+আয়তক্ষেত্র ভবন ইত্যাদি। আপনার মানচিত্র হলো
+আপনার চারিদিকে অবস্থির বিভিন্ন বস্তুসমূহ।
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to
-someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The use of
-your map is limited though - there is only one copy of the map.The
-way you drew it may make sense to you, but perhaps not to someone else
-who would have drawn their own map in a different way. Because your map
-is merely on paper, it is difficult to get that information to others.
-This is why making your map on a computer, in such a way that anyone can
-access it, can be much more valuable. 
+আপনার মানচিত্র তথ্যবহুল। এই মানচিত্র ব্যবহার করে আপনি অপরকে বুঝাতে পারবেন
+কোন জায়গাগুলো শুরুত্বপূর্ণ, এলাকায় কোথায় সমস্যা রয়েছে,
+অথবা কোনো বক্তিকে পথ খুঁজে পেতে সহয়তা করতে পারবেন। আপনার এই মানচিত্রে
+কিছু সীমাবদ্ধতা রয়েছে - এই মানচিত্রটির একটি মাত্র কপি রয়েছে
+আপনি যেভাবে তৈরী করেছেন এটি অপর একজন নাও বুঝতে পারে,
+অন্যান্যরা তাদের মানচিত্র ভিন্ন ভাবে তৈরী করে থাকতে পারে। কারণ আপনার মানচিত্রটি
+একটি কাগজে তৈরী করা এবং এখান থেকে তথ্য স্থানান্তর সহজ নয়।
+মানচিত্র তৈরী করা উচিত কম্পিউটারে যেন অন্যান্য সবাই এটি দেখতে পারে,
+এবং এটি অধিকতর কার্যকর একটি পদ্ধতি। 
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information. 
-Anyone can contribute to OSM, and thousands of people add to the project 
-every day. Users draw maps on computers, rather than paper, but as we 
-will see in this guide, drawing a map on a computer is not all that 
-different from drawing on paper. We still draw lines to represent roads,
-fields, and anything else, and we still represent schools and hospitals 
-with symbols. The important thing is that OSM maps are saved on the 
-internet, and anyone can access them at any time, totally free.
+মানচিত্র তৈরী এবং এই সংক্রান্ত তথ্য আদান প্রদানের একটি স্থান হলো OpenStreetMap। 
+ওএসএম-এ যে কেউ অবদান রাখতে পারে এবং প্রতিদিনই হাজার হাজার স্বেচ্ছাসেবক এই প্রকল্পে অবদান রাখছেন। 
+ব্যবহারকারীরা কাগজের পরিবর্তে কম্পিউটারে মানচিত্র তৈরী করছেন, এবং আমরা দেখেছি 
+কাগজ ও কম্পিউটার থেকে মানচিত্র তৈরীর কাজে বিশেষ কোনো পার্থক্য নেই। 
+সরল রেখার মাধ্যমে আমরা রাস্তা, মাঠ এবং অন্যান্য স্থান তৈরী করি,
+স্কুল ও হাসপাতাল নির্দেশের জন্য একইভাবে বিভিন্ন চিহ্ন ব্যবহার করে থাকে। 
+ওএসএম এর উল্লেখযোগ্য দিক হলো এর সকল তথ্য ইন্টারনেটে সংরক্ষিত থাকে 
+এবং যে কেউ যে কোনো সময় এটি ব্যবহার করতে পারে, বিনামূল্যে।
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your
-work. By following this guide, you should be able to quickly start
-making digital maps with OpenStreetMap.
+আমদের বিশ্বাস OpenStreetMap আপনার কাজের ক্ষেত্রে সহায়ক হবে।
+এই নির্দেশিকা অনুসরণ করে আপনি খুব দ্রুত 
+OpenStreetMap-এ ডিজিটাল মানচিত্র তৈরী করতে পারবেন।
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
