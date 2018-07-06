@@ -26,26 +26,26 @@ OpenStreetMap ওয়েবসাইট দেখুন
     (আপনি কি এখন অনলাইনে থেকে পড়ছেন, তবে আপনি নিশ্চিই ইন্টরনেটে যুক্ত আছেন!)
 - ওয়েব ব্রাউজার চালু করুন। সাধারন জনপ্রিয় ব্রাউজারগুলো হলো ফায়ারফক্স, ক্রোম, অপেরা এবং ইন্টারনেট এক্সপ্লোরার।
     আপনি যদি আগেই চালু করে থাকেন তবে নতুন একটি ট্যাব খুলুন।
--   In the address bar at the top of the window, enter the following and press Enter:
+- ব্রাউজারের অ্যাড্রেসবারে নিচের ওয়েবসাইটের ঠিকানাটি লিখুন এবং এন্টার বাটন চাপুন:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like
-    this:
+- ওয়েবসাইটটি সম্পূর্ণ ওপেন হলে আপনি নিচের ছবির মত একটি 
+    পাতা দেখতে পারবেন:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Navigate the Map
+মানচিত্র পরিভ্রমণ
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking
-    on it with your left mouse button, holding the button down, and
-    dragging your mouse around (see figure below).
+- এই পাতার মূল অংশ হলো মানচিত্র। মানচিত্র-এর বিভিন্ন অংশ দেখার জন্য
+     মাউসের বাম বাটন ক্লিক করুন এবং ক্লিক করে ধরে রেখে
+    মাউসটি সরানোর সাথে সাথে মানচিত্রের বিভিন্ন অংশ দেখা যাবে (নিচের ছবির মত)।
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map
-    by turning the wheel. If you don’t have a scroll-wheel, use the +
-    and – buttons on the upper right corner of the map. (see figure
-    below)
+- আপনার মাউসে যদি স্ক্রল বাটন থাকে তাহলে এটি ব্যবহার করে মানচিত্র জুম করতে পারবেন
+    শুধুমাত্র এই স্ক্রল বাটন ব্যবহার করে। যদি আপনার মাউসে স্ক্রল বাটন না থাকে তাহলে স্ক্রিনের উপরের ডান পাশে থাকা 
+    + এবং - বাটন ব্যবহার করে মানচিত্র জুম করতে পারবেন। (নিচের 
+    ছবির মত)
 -   To search for a place, left-click in the box labelled “Search” on
     the left side of the page (see figure above). Type in the name of
     your town or village and press Enter. A window should appear to the

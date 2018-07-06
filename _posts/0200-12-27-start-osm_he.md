@@ -150,9 +150,9 @@ Adding Your First Points
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at
-    the top the window. Then click on the map where you would like to add a new
-    point.
+-   ניתן להוסיף נקודה למפה על ידי לחיצה על הכפתור בשם „נקודה” בראש
+    החלון. לאחר מכן, ללחוץ על המפה במיקום בו ברצונך להוסיף נקודה
+    חדשה.
 
     ![Point button][]    
 
