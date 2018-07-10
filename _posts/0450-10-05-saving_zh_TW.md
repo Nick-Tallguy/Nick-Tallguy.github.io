@@ -38,7 +38,7 @@ iD 編輯器 - 儲存
 任務分配管理系統 - 完成矩形，或在矩形完成之前停止工作  
 -------------------------------------------------------------------
 
-When you think the square is finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete. Do not copy the changeset comment with hashtags which you used when saving.  
+當你覺得矩形完成之後，回到瀏覽器任務分配管理系統的頁籤，新增註解並且標示矩形為完成。在儲存時請不要複製含有井字號的註解。  
 ![mark task as done]{: height="250px"}  
 
 如果你選擇；
