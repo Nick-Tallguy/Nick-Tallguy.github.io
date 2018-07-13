@@ -79,9 +79,9 @@ available on the OSM website.
 יצירת חשבון ב־OpenStreetMap
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can
-    register for a username and password and make your first additions
-    to the map.
+- עכשיו כשראית איך נראה האתר הראשי, ניתן להירשם ולקבל
+    שם משתמש וססמה כדי להוסיף את הפריטים הראשונים שלך
+    למפה.
 -   On the OpenStreetMap website, click “sign up” in the top
     right corner of the page.
 -   You should see a new page that looks like this:
@@ -113,13 +113,13 @@ available on the OSM website.
 -   Open a separate window or tab in your internet browser, and navigate
     to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com)
     and [www.gmail.com](http://www.gmail.com).
--   Enter your email address and your email password to open your email.
-    Note that this is __not__ the same as your OpenStreetMap username and
-    password.
--   If everything was successful with your registration, you should see
-    an email from OpenStreetMap in your inbox. Open the email. It should
-    look like the image below. Click on the link that is identified
-    below:
+- נא להקליד את כתובת הדוא״ל ואת הססמה של תיבת הדוא״ל שלך כדי לגשת לתיבת הדוא״ל שלך.
+    לתשומת לבך פרטים אלו __אינם__ זהים לשם המשתמש והססמה שלך
+    ב־OpenStreetMap.
+- אם כל תהליך ההרשמה שלך הצליח, אמורה להגיע אליך
+    הודעה בדוא״ל מ־OpenStreetMap. עליך לפתוח את ההודעה הזאת.
+    היא אמורה להיראות כמו התמונה
+    שלהלן:
 
     ![Confirming your OpenStreetMap account][]
 
@@ -177,8 +177,8 @@ which is a great and interactive manner to discover the editor.
 
 However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
 that offers many more features.
-Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
-you can choose which editor - iD or JOSM - you like using the best.
+אנו מזמינים אותך להמשיך ולהשתעשע עם iD. לאחר צבירת ניסיון שמספיק לתרומה ל־OSM, 
+באפשרות לבחור באיזה עורך - iD או JOSM - מתאים לך בצורה הטובה ביותר.
 
 תקציר
 -------
