@@ -1,7 +1,7 @@
 ---
-Layout: doc
-Titel: Andere Hilfsmittel
-Permalink: /de/resources/
+layout: doc
+title: Andere Hilfsmittel
+permalink: /de/resources/
 lang: de
 cover: yes
 category: resources
