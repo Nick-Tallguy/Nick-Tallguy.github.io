@@ -12,6 +12,8 @@ iD Editor
 > Kjo guidë mund të shkarkohet si [beginner_id-editor_sq.odt](/files/beginner_id-editor_sq.odt) ose [beginner_id-editor_sq.pdf](/files/beginner_id-editor_sq.pdf)  
 > Rishikuar 2016-03-30  
 
+Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ Për të shtuar një pikë të re, klikoni në buttonin **Point**. ![image3][]{:
 - Vini re se një pikë e re është shtuar. Në të njëjtën kohë, paneli në të majtë do të ndryshojë duke shfaqur një formë ku ju mund të zgjidhni atributet për objektin e krijuar. Klikoni **Hospital Grounds** për ta etiketuar pikën si spital.  
 ![image22][]  
 - Ju mund ta përdorni formën për të vendosur informacion të detajuar për pikën tuaj. Ju mund të plotësoni emrin, adresën apo dhe informacione të tjera shtesë për spitalin. Vëreni se secila veçori do të ketë opsione të ndryshme, në varësi të etiketës që ju zgjidhni nga paneli i veçorive (features).  
-- Nëse ju bëni një gabim, si një vendodhje të gabuar, ju mund ta zhvendosni pikën tuaj tek një vendodhje e re duke mbajtur butonin e majtë të mausit shtypur tek pika dhe duke e zvarritur atë. Ose nëse ju doni të fshini pikën tuaj, klikoni me butonin e majtë të mausit tek pika dhe më pas klikoni ikonën e cila ka simbolin e koshit të plehrave. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
 Një "pikë" e krijuar në iD editor është aktualisht një "nyje" e vetme me një set "etiketash" në të.  
 
 ### Vizatimi i vijave  
@@ -95,7 +97,7 @@ Për të shtuar një vijë të re, klikoni në butonin **Line**. ![image4][]{: h
 - Ashtu se me pikën, përzgjidhni etiketat e përshtatshme për vijën tuaj.  
 - Ju mund të tërhiqni pikat nga vija duke klikuar me të majtën e mausit në një pikë dhe duke e zvarritur atë.  
 - Ju gjithashtu mund të lëvizni të tërë vijën duke e selektuar atë dhe përzgjidhni **Move tool**. Pastaj tërhiqeni vijën në një pozicion të ri. ![image30][]{: height="24px"}  
-- Kur ju klikoni me të majtën e mausit në një pikë individuale (nyje) të vijës, ju do të shihni këto mjete:  
+- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
 - Fshijeni pikën nga vija. ![image23][]{: height="24px"}  
 - Shkëputeni pikën nga vija. ![image26][]{: height="24px"}  
 - Ndajeni vijën në dy të tilla nga pika që keni përzgjedhur. ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ To add a new multi-sided shape, click on the **Area** button. ![image34][]{: hei
 - Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
 - You will notice that the color of your shape will change depending on the attributes that you assign to it.  
 ![image35][]  
-- The tools that are available when you select a shape are similar to those when you click on a line.  
+- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
 
 A "polygon" in the iD editor is actually a "closed way" with tags on it.
+
+### Drawing Multipolygons
+
+Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+
+![create multipolygon][]
+
+When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+
+![part of multipolygon][]
 
 Saving Your Changes
 --------------------
@@ -150,6 +162,11 @@ Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24p
 ![image45][]  
 - Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
 
+Further tutorials
+------------------
+
+[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+
 iD versus JOSM
 ---------------  
 
@@ -169,6 +186,7 @@ iD versus JOSM
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
+The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD versus JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

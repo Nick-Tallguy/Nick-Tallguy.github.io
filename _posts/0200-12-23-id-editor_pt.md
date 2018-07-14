@@ -12,6 +12,8 @@ O Editor iD
 > Este guia pode ser descarregado como [beginner_id-editor_pt.odt](/files/beginner_id-editor_pt.odt) ou [beginner_id-editor_pt.pdf](/files/beginner_id-editor_pt.pdf)  
 > Revisto em 2016-03-30  
 
+Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ Para adicionar um novo ponto, clique no botão **Ponto**. ![image3][]{: height="
 - Note que é adicionado um novo ponto. Ao mesmo tempo, o painel lateral direito mostrará botões e campos onde pode selecionar e configurar atributos do objeto. Clique em **Hospital** para marcar o ponto como hospital.  
 ![image22][]  
 - Pode usar os campos para preencher informações sobre o ponto. Pode introduzir o nome de um hospital, morada e outras informações adicionais. Note que cada um dos elementos terão opções diferentes dependendo da etiqueta que escolher no painel lateral.  
-- Se cometer um erro, como uma localização errada, pode mover o ponto para uma nova localização mantendo premido o botão esquerdo do rato no ponto e arrastando-o. Se quiser eliminar o ponto, clique com o botão esquerdo do rato e depois clique no botão do caixote do lixo. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
 Um "ponto" criado no editor iD é na verdade um "nó" isolado com uma série de "etiquetas" nele.  
 
 ### Desenhar Linhas  
@@ -95,7 +97,7 @@ Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height=
 - Tal como num ponto, selecione as etiquetas apropriadas para a linha.  
 - Pode arrastar pontos da linha clicando com o botão esquerdo do rato num ponto e arrastando-o de seguida.  
 - Também pode mover toda a linha selecionando-a e escolhendo a **ferramenta Mover**. Então arraste a linha para uma nova localização. ![image30][]{: height="24px"}  
-- Quando clica com o botão esquerdo do rato num ponto individual (nó) na linha, irá ver estas ferramentas:  
+- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
 - Eliminar ponto da linha. ![image23][]{: height="24px"}  
 - Desligar ponto da linha. ![image26][]{: height="24px"}  
 - Dividir a linha em 2 linhas no ponto que selecionou. ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ Para adicionar uma forma geométrica com vários lados, clique no botão **Área
 - O cursor do rato irá mudar para o símbolo mais (+). Tente desenhar um edifício utilizando as imagens de satélite como guia.  
 - Irá notar que a cor da forma geométrica irá mudar dependendo dos atributos que lhe der.  
 ![image35][]  
-- As ferramentas que estão disponíveis quando selecione uma forma geométrica são similares àquelas disponíveis quando clica numa linha.  
+- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
 
 Um "polígono" no editor iD é na verdade uma "via fechada" com etiquetas nela.
+
+### Drawing Multipolygons
+
+Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+
+![create multipolygon][]
+
+When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+
+![part of multipolygon][]
 
 Gravar as Suas Alterações
 --------------------
@@ -150,6 +162,11 @@ Ou pode adicionar etiquetas personalizadas clicando em **Todas as etiquetas**. !
 ![image45][]  
 - Clique no símbolo mais (+) para adicionar chaves e valores ou clique no botão do caixote do lixo para eliminar etiquetas.
 
+Further tutorials
+------------------
+
+[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+
 iD versus JOSM
 ---------------  
 
@@ -169,6 +186,7 @@ iD versus JOSM
 
 [^fieldpaper]: Existe uma [secção no LearnOSM](/pt/mobile-mapping/field-papers/) que fornece mais informação sobre os Field Papers.
 
+The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD versus JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

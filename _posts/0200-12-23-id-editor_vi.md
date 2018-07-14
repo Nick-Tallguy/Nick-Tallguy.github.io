@@ -12,6 +12,8 @@ Trình chỉnh sửa bản đồ iD Editor
 > Hướng dẫn này có thể được tải xuống tại đây: [beginner_id-editor_vi.odt](/files/beginner_id-editor_vi.odt) or [beginner_id-editor_vi.pdf](/files/beginner_id-editor_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
+Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ Các thao tác chỉnh sửa bản đồ cơ bản với iD
 - Bạn dễ dàng nhận thấy một điểm mới được thêm. Lúc này, khung bên trái bản đồ hiển thị một biểu mẫu để bạn có thể chọn các thuộc tính cho đối tượng vừa tạo. Nhấp chuột vào nút **Hospital Grounds** để gắn thẻ bệnh viện cho điểm đó.  
 ![image22][]  
 - Bạn cũng có thể sử dụng biểu mẫu này để thêm các thông tin chi tiết về điểm bạn vừa thêm vào như tên bệnh viện, địa chỉ và các thông tin khác. Lưu ý rằng mỗi đối tượng sẽ có các lựa chọn khác nhau phụ thuộc vào thẻ mà bạn chọn tại bảng thuộc tính.  
-- Nếu bạn thực hiện không đúng, như chọn sai vị trí, bạn có thể di chuyển điểm đó tới vị trí mới bằng cách giữ chuột trái ở điểm bạn tạo ra và kéo nó. Hoặc nếu bạn muốn xóa điểm, nhấp chuột vào điểm đó và chọn nút có biểu tượng thùng rác. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
 Một **điểm** được tạo ra trong iD editor thường là các **điểm/ nút độc lập** với các **thẻ thuộc tính**.  
 
 ### Vẽ các đoạn  
@@ -95,7 +97,7 @@ Một **điểm** được tạo ra trong iD editor thường là các **điểm
 - Cũng giống như đối với điểm, chọn thẻ thông tin phù hợp với đoạn mà bạn vừa vẽ.  
 - Bạn có thể di chuyển từng điểm của đoạn bằng cách nhấp giữ chuột trái và kéo thả đến vị trí mới.  
 - Bạn cũng có thể di chuyển cả đoạn bằng cách chọn nó và nhấp chuột vào công cụ di chuyển **Move tool**. Sau đó di chuyển cả đoạn đến vị trí mới. ![image30][]{: height="24px"}  
-- Khi bạn nhấp chuột vào một điểm riêng lẻ của đoạn, bạn sẽ nhìn thấy các công cụ sau::  
+- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
 -   Xóa điểm thuộc đoạn. ![image23][]{: height="24px"}  
 -   Tách điểm khỏi đoạn. ![image26][]{: height="24px"}  
 -   Tách đoạn thành hai đoạn tại điểm bạn chọn. ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ Một đoạn được tạo ra trong iD editor thực ra là một đường v�
 - Con trỏ chuột của bạn sẽ thay đổi thành dấu cộng (+). Hãy thử vẽ theo viền một tòa nhà sử dụng hình ảnh nền.  
 - Bạn sẽ nhận thấy rằng màu sắc của hình dạng của bạn sẽ thay đổi tùy thuộc vào thuộc tính mà bạn gán cho nó.  
 ![image35][]  
-- Các công cụ có sẵn khi bạn chọn một hình tương tự như khi bạn nhấp vào một đường.  
+- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
 
 Một "đa giá/ polygon" trong iD editor thực ra là một "đường khép kín/ closed way" với các thẻ thông tin phù hợp.
+
+### Drawing Multipolygons
+
+Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+
+![create multipolygon][]
+
+When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+
+![part of multipolygon][]
 
 Lưu các thay đổi của bạn
 --------------------
@@ -150,6 +162,11 @@ Hoặc bạn có thể tùy biến bằng cách nhấp chuột vào **All tags**
 ![image45][]  
 - Nhấp vào dấu cộng (+) để thêm khóa và giá trị hoặc nhấp vào biểu tượng thùng rác để xóa các thẻ.
 
+Further tutorials
+------------------
+
+[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+
 iD so với JOSM
 ---------------  
 
@@ -169,6 +186,7 @@ iD so với JOSM
 
 [^fieldpaper]: [Một chương của LearnOSM](/vi/mobile-mapping/field-papers/) cung cấp thông tin cụ thể hơn về Field Papers/ Bản đồ hiện trường.
 
+The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD so với JOSM
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

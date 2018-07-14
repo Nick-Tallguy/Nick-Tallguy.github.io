@@ -12,6 +12,8 @@ iD အသုံးပြုတည်းဖြတ်ခြင်း
 > ဤလမ်းညွှန်ချက်ကို [beginner_id-editor_my.odt](/files/beginner_id-editor_my.odt)   (သို့မဟုတ်) [beginner_id-editor_my.pdf](/files/beginner_id-editor_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2016-03-30  
 
+Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ iD ဖြင့်ပြင်ဆင်တည်းဖြတ်ခြင်း�
 - ထိုသို့ထည့်သွင်းလိုက်သည်နှင့် မြေပုံ၏ဘယ်ဘက်နေရာသည် သင်ရွေးချယ်သောအရာ၏ အချက်အလက်များဖြည့်သွင်းရန် ပြောင်းလဲဖော်ပြမည်ဖြစ်သည်။ ဆေးရုံအဖြစ်အမှတ်အသားပြုလုပ်ရန် **Hospital Grounds** ကိုရွေးချယ်ပါ။ (အောက်ပုံတွင်ကြည့်)  
 ![image22][]  
 - ယင်းနောက်အသေးစိတ်အချက်အလက်များ ဖြည့်သွင်းပေးနိုင်သည်။ ဥပမာ ... ဆေးရုံအမည်၊ လိပ်စာ စသည်ဖြင့်။ သတိပြုရမည်မှာ သင့်ရွေးချယ်မှုပေါ်မူတည်၍ ဖြည့်သွင်းရမည့်အချက်အလက်များ အပြောင်းအလဲရှိနိုင်ပါသည်။  
-- နေရာမှားဖော်ပြမိခြင်းကဲ့သို့ အမှားများရှိလာပါက အမှတ်အသားပြုသည့်နေရာပေါ်တွင် mouse ၏ ဘယ်ဘက်ခလုတ်ကိုဖိနှိပ်ပြီး နေရာသစ်တခုဆီသို့ရွေ့ပြောင်းနိုင်သည်။ နေရာအမှတ်အသားကို ပြန်ဖျက်လိုပါက mouse ၏ ဘယ်ဘက်ခလုတ်နှိပ်၍ အမှတ်အသားပြုကာ အမှိုက်ပုံးသဏ္ဍာန်ခလုတ်ကိုနှိပ်ပြီး ဖျက်ပစ်နိုင်ပါသည်။ ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
 iD Editor အတွင်းသတ်မှတ်လိုက်သော "အမှတ်"တစ်ခုသည် သီးသန့်တည်ရှိနေသော နေရာ အမှတ်တစ်ခုဖြစ်ပြီး "ဖော်ညွှန်းချက်များ"လည်းပါရှိမည်ဖြစ်သည်။ ၎င်းကို “node” ဟုခေါ်သည်။  
 
 ### မျဉ်းကြောင်းများရေးဆွဲခြင်း  
@@ -95,7 +97,7 @@ iD Editor အတွင်းသတ်မှတ်လိုက်သော "အ�
 - မြေပုံနေရာအမှတ်အသားပြုစဉ်ကအတိုင်း ရည်ညွှန်းချက်ဖြည့်စွက်ရန် Line ကိုရွေးပါ။  
 - လမ်းကြောင်းပေါ်ရှိ အမှတ်အသားပြုခဲ့သောနေရာများတွင် mouse ၏ဘယ်ဘက်ခလုတ်ကို ဖိနှိပ်လျက်လိုရာသို့ဆွဲယူနိုင်သည်။  
 - မျဉ်းတစ်ကြောင်းလုံးကို ရွှေ့ယူလိုပါက မျဉ်းကြောင်းကို ရွေးချယ်ပြီး **Move tool** ကိုအသုံးပြုနိုင်သည်။ ထို့နောက် မိမိရွှေ့ပြောင်းလိုသောနေရာသို့ မျဉ်းကြောင်းကို ဆွဲယူပါ။ ![image30][]{: height="24px"}  
-- မျဉ်းကြောင်းပေါ်ရှိအမှတ်တခုစီပေါ်သို့ mouse ၏ဘယ်ဘက်ခလုတ်ကိုနှိပ်ပါက အောက်ပါကိရိယာများကိုမြင်တွေ့ရမည်ဖြစ်သည်။  
+- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
 - မျဉ်းကြောင်း (line) ပေါ်မှ အမှတ် (point) ကိုဖျက်မည်။ ![image23][]{: height="24px"}  
 - မျဉ်းကြောင်းနှင့်ဆက်သွယ်မှုကိုဖယ်ရှားမည်။ ![image26][]{: height="24px"}    
 - ရွေးထားသောအမှတ်မှစတင်၍ မျဉ်းနှစ်ကြောင်း ခွဲရေးဆွဲမည်။ ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ iD Editor တွင် ထည့်သွင်းရေးဆွဲထားသ
 - mouse ၏ ညွှန်ပြကိရိယာသည် (+) လက္ခဏာသို့ပြောင်းလဲဖော်ပြမည်။ ပုံရိပ်ကိုလမ်းညွှန် အဖြစ်အသုံးပြုလျက် အဆောက်အဦ၏ပုံသဏ္ဍာန်ကို မှန်းဆယူပါ။  
 - အချက်အလက်ဖြည့်စွက်မှုပေါ်မူတည်လျက် ပုံသဏ္ဍာန်၏အရောင်ပြောင်းလဲမည်ကိုသတိပြုပါ။  
 ![image35][]  
-- ပုံသဏ္ဍာန်တို့အတွက်အသုံးပြုရမည့် ကိရိယာများသည် မျဉ်းကြောင်းများအတွက်သုံးသည့် ကိရိယာများနှင့် အတူတူပင်ဖြစ်၏။  
+- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
 
 iD Editor တွင်ရှိသော ပုံသဏ္ဍာန်အမျိုးမျိုးသည် လမ်းကြောင်းပိတ်(စမှတ်ဆုံးမှတ်တူ)များဖြစ်ပြီး ဖော်ညွှန်းချက်များပါရှိမည်ဖြစ်၏။ ယင်းကို “closed way” ဟုခေါ်သည်။
+
+### Drawing Multipolygons
+
+Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+
+![create multipolygon][]
+
+When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+
+![part of multipolygon][]
 
 ပြောင်းလဲမှုများကိုသိမ်းဆည်းခြင်း
 --------------------
@@ -150,6 +162,11 @@ iD Editor တွင်ရှိသော ပုံသဏ္ဍာန်အမျ
 ![image45][]  
 - အပေါင်း(+)လက္ခဏာနေရာကိုနှိပ်၍ အချက်အလက်နှင့်ယင်း၏တန်ဖိုးများကိုပေါင်းထည့်နိုင်ပြီး ပယ်ဖျက်လိုပါက အမှိုက်ပုံးသင်္ကေတကိုနှိပ်ပါ။
 
+Further tutorials
+------------------
+
+[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+
 iD Editor နှင့် JOSM ဆော့ဖ်ဝဲလ် တို့နှိုင်းယှဉ်ချက်
 ---------------  
 
@@ -169,6 +186,7 @@ iD Editor နှင့် JOSM ဆော့ဖ်ဝဲလ် တို့နှ
 
 [^fieldpaper]: ဤနေရာ[section of LearnOSM](/my/mobile-mapping/field-papers/) တွင် Field Papers အကြောင်းနှင့်ပါတ်သက်၍ သတင်းအချက်အလက်အစုံအလင်ရှိပါသည်။
 
+The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD Editor နှင့် JOSM ဆော့ဖ်ဝဲလ် တို့နှ
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

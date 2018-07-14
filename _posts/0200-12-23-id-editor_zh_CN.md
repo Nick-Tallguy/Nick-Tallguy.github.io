@@ -12,6 +12,8 @@ iD编辑器
 > 本指南有 [beginner_id-editor_zh_CN.odt](/files/beginner_id-editor_zh_CN.odt) 和 [beginner_id-editor_zh_CN.pdf](/files/beginner_id-editor_zh_CN.pdf) 两种格式可供下载。  
 > Reviewed 2016-03-30  
 
+Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+
 - TOC
 {:toc}
 
@@ -83,7 +85,7 @@ iD基本编辑操作
 - Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
 ![image22][]  
 - 你可以在表单中填写所画地点的详细信息，例如医院名称、地址和其他附加信息。注意每类要素都有不同的选项，这取决于你从要素面板给地物选择的标签。  
-- 如果你标错了，比如位置放偏了，可以通过在你的点上按住鼠标左键并拖动来移动其位置。如果是想删除你的点，就在你的点上点击鼠标左键然后再点类似于垃圾箱的按钮。  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
 在iD编辑器中创建的“点”实际上是一个有一系列“标签”的独立“节点(node)”。  
 
 ### 画线  
@@ -95,7 +97,7 @@ iD基本编辑操作
 - 和画点时一样，画完线后也要给线选择合适的标签。  
 - 你可以通过在已有点上点击鼠标左键来选中并拖动它。  
 - 你还可以移动整条线。先选中整条线，然后选择 **移动工具** ，最后把线拖动到新位置。 ![image30][]{: height="24px"}  
-- 当你在线上的单个节点(node)上点击鼠标左键时，会有如下工具：   
+- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
 - 从线中删除点 ![image23][]{: height="24px"}  
 - 从线中断开点 ![image26][]{: height="24px"}  
 - 从选中点处将该线打断成两条 ![image27][]{: height="24px"}  
@@ -117,9 +119,19 @@ iD基本编辑操作
 - 你的鼠标指针会变成一个加(+)号。试着以影像为参照勾绘一栋建筑。  
 - 你会发现你的面的颜色将随你给它指定的属性而变化。  
 ![image35][]  
-- 当你选中一个面时可用的工具和线的工具差不多。  
+- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
 
 在iD编辑器中创建的“多边形”实际上是一个有标签的“封闭路径(closed way)”。
+
+### Drawing Multipolygons
+
+Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+
+![create multipolygon][]
+
+When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+
+![part of multipolygon][]
 
 保存你的更改
 --------------------
@@ -150,6 +162,11 @@ iD基本编辑操作
 ![image45][]  
 - 点击加号(+)添加键值对，点击垃圾桶图标删除标签。
 
+Further tutorials
+------------------
+
+[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+
 iD vs. JOSM 对比
 ---------------  
 
@@ -169,6 +186,7 @@ iD vs. JOSM 对比
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
+The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
 
 
 
@@ -218,4 +236,6 @@ iD vs. JOSM 对比
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png
