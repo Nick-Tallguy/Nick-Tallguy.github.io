@@ -42,16 +42,16 @@ category: beginner
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map
-    by turning the wheel. If you don’t have a scroll-wheel, use the +
-    and – buttons on the upper right corner of the map. (see figure
-    below)
--   To search for a place, left-click in the box labelled “Search” on
-    the left side of the page (see figure above). Type in the name of
-    your town or village and press Enter. A window should appear to the
-    left of the map with the results of your search. Click on the
-    location that looks like the one you want. The map will
-    automatically move to the location you chose.
+- אם יש לך עבר עם גלגלת, ניתן להתקרב ולהתרחק מהמפה
+    על ידי גלגול הגלגלת. אם אין לך גלגלת בעכבר, באפשרותך להשתמש ב־+
+    וב־- בפינה הימנית העליונה של המפה. (להלן
+    תמונה)
+- כדי לחפש אחר מיקום, יש ללחוץ עם הכפתור השמאלי על התיבה עם הכיתוב
+    „חיפוש” בצדו השמאלי של העמוד (להלן תמונה). יש להקליד את שם
+    העיר או היישוב וללחוץ על Enter. אז אמור להופיע חלון
+    בצדה השמאלי של המפה עם תוצאות החיפוש שלך. יש ללחוץ על המיקום
+    שהכי מתאים לך. המפה תעבור אוטומטית למיקום
+    אותו בחרת.
 
     ![Search][]
    
@@ -59,12 +59,12 @@ category: beginner
 הצגת סגנונות מפה שונים
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although
-it is a single database, the data can be interpreted and styled in
-different ways. To see this in action, let's look at various map "styles"
-available on the OSM website.
+OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העולם. למרות שמדובר
+במסד נתונים יחיד, ניתן לפענח ולעצב את אותו במגוון דרכים
+שונות. כדי לראות זאת בפעולה, אפשר להביא ב„סגנונות” השונים של המפות
+הזמינים באתר של OSM.
 
--   Click on the Layers button on the right side of the map window.
+-  יש ללחוץ על כפתור השכבות בצד ימין של חלון המפה.
 
     ![Layers button][]
 
