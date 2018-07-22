@@ -12,46 +12,30 @@ category: beginner
 > 本指南有[beginner_start-osm_zh_CN.odt](/files/beginner_start-osm_zh_CN.odt)和[beginner_start-osm_zh_CN.pdf](/files/beginner_start-osm_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
-本节我们将一步步地学习如何转到
-OpenStreetMap网站、浏览地图以及注册账号。
-有了自己的用户名和密码，你就可以
-向地图贡献你的第一个数据点。
+In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![website][]
 
 访问OpenStreetMap网站
 -------------------------------
 
-- 开始之前，请确保你的电脑已连接到互联网。
-    (如果你正在在线阅读本文，显然你肯定已经连接！)
-- 打开你的浏览器。常见的浏览器有Firefox、Chrome、Opera和Internet 
-    Explorer。如果已经打开了浏览器，你可以创建一个新标签页。
+-   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
+-   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
 - 在窗口顶端的地址栏中输入下列内容并按回车：
     [www.openstreetmap.org](http://www.openstreetmap.org/)
-- 页面加载完成后你应该看到类似
-    这样的内容：
+-   When the page has finished loading, you should see something like this:
 
     ![OpenStreetMap website with some main functions listed][]
 
 漫游地图
 ----------------
 
-- 你看到的主体部分应该是地图。通过在地图上点按
-    鼠标左键，按住不放并
-    四周拖动鼠标（见下图）。
+-   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
 
     ![Mouse navigation][]
 
-- 如果你的鼠标有滚轮，在地图上滚动滚轮
-    可以放大或缩小。如果你的鼠标没有滚轮，使用
-    位于地图右上角的+/-号。（见
-    下图）
-- 要搜索地点，左击页面左侧标有“搜索”的框
-    （见上图）。输入
-    你的城镇的名称并按回车。一个窗口会出现在
-    地图的左侧，显示你搜索的结果。点击
-    应该是你想查的那个地点，地图会
-    自动移动到你选择的位置。
+-   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
    
@@ -59,89 +43,48 @@ OpenStreetMap网站、浏览地图以及注册账号。
 查看不同地图样式
 ------------------------
 
-OpenStreetMap包含来自全世界的地理数据。尽管
-只有一个数据库，里面的数据可以被解释和设计成
-不同的风格。想实际看看这是怎么回事，可以了解一下
-OSM网站提供的众多地图“样式”。
+OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
 - 点击地图窗口右侧的图层按钮。
 
     ![Layers button][]
 
-- 点击不同的地图样式选项。注意地图如何
-    随每种样式变化。例如交通图着重表现
-    地图上的交通线路而自行车地图侧重自行车
-    线路。所有支撑这些样式的数据都存储在OSM
-    数据库里。
+-   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
     ![Transport map][]
 
 创建OpenStreetMap账户
 -------------------------------
 
-- 既然你已经看到了主网站的样子，你可以
-    接着注册一个用户名和密码来做出你第一次对地图
-    的增补。
-- 在OpenStreetMap网站上，点击页面右上角的
-    “注册”按钮。
+-   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+-   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
 - 你会看到一个如下图的新网页：
 
     ![Registering an OpenStreetMap account][]
 
-- 页面上有五个框要填写，
-    以便完成你在OSM的账户注册。
-- 在前两个框中输入你的电子邮件地址。
-    两个框中输入的地址应该一致。之后你需要打开
-    该邮箱确认你的OpenStreetMap账户。
-- 在第三个框中输入你想用的用户名。
-    你不能选择别人已经选用的名字，
-    所以想个有创意的名字吧。如果你想输入
-    你的姓这种简单的名字，很可能有人
-    已经先占用了这个名字。
-- 在第四第五个框里输入新密码。两个框
-    的输入要一致，不一定要和
-    你电子邮箱的密码一样。
-- 你可能要把你的OSM用户名和密码抄下来，因为你
-    在之后的登录中需要它。
-- 填完所有框之后，点击页面底部的“注册”
-    按钮。
-- 如果填写有问题，可能会弹出错误信息。请检查
-    确认你在两个框中输入的邮箱地址一致，
-    下面两个框中输入的密码也要一致。如果第三个框
-    用红色标出，这说明别人已经用了
-    你的用户名，你就要换个新名字。
-- 在浏览器中另开一个窗口或者标签页，转到
-    你的电子邮箱。常见的邮箱网站有 [mail.yahoo.com](http://mail.yahoo.com)
-    和 [www.gmail.com](http://www.gmail.com)。
-- 输入电子邮箱地址和邮箱密码打开邮箱。
-    注意这里 __不是__ 你的OpenStreetMap用户名和
-    密码。
-- 如果你的注册一切顺利，你会看到
-    收件箱中一封来自OpenStreetMap的电子邮件。邮件应该
-    如下图所示。点击下图标出的
-    地址：
+-   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
+-   You may want to write down your OSM username and password. You will need it to log in later.
+-   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
+-   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
+-   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
+-   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Confirming your OpenStreetMap account][]
 
-- 将有新标签页或窗口打开。如果一切正常，你就
-    拥有了一个OSM账户！
-- 在OpenStreetMap网页上，点击右上角的“登录”按钮。
-    输入你的OpenStreetMap用户名和密码后按回车。你
-    现在应该已经登录了。你会在顶部看到你的用户名。
-    “注册”按钮。
+-   A new tab or window will open. If everything went well, you should have an OSM account!
+-   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 添加你的第一个点
 ------------------------
 
-- 既然你已经用你的用户名登录了OpenStreetMap
-    网站，你可以用iD编辑器来向地图添加你的
-    第一个点。
-- 把地图移到一个你非常熟悉的地方，比如你的城镇
-    或者小区。画出你家(或者邻居的家)和你的工作地点并给出正确的地址会是个不错的主意。 
+-   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+-   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 - 在你想添加点的地方(也许是你附近的一家没被标出的餐馆或小卖部)放大地图。
-- 在地图左上方，有一个名为“编辑”的标签，
-    旁边有个小三角。点击三角符号，会看到一个菜单
-    弹出。
+-   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
 - 点击“使用 iD (浏览器内编辑器)编辑”。
 
     ![Click edit][]
@@ -150,42 +93,26 @@ OSM网站提供的众多地图“样式”。
 
     ![iD editor][]
 
-- 你可以通过点击一个窗口顶部名为“点”的按钮来添加一个点。
-    然后在你想地图上新增点的地方
-    点一下。
+-   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
 
     ![Point button][]    
 
-- 从左侧的菜单中选择你刚刚添加到地图上的地点的类型。
-    你可以接着填写该地点对应的表格，
-    比如名称和其他信息。
-- 要保存你的修改，点击顶部的“保存”按钮。由于这是你的
-    第一次编辑，你可能想玩一玩编辑器。在没确保编辑的正确性之前
-    不要保存你的修改。
+-   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
+-   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
 
     ![Save button][]    
 
-- 如果点击了保存，会要求你填写一个对你所做修改的描述。
-    接着再点一次“保存”，你的增补就会被保存到
-    OSM数据库！
+-   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out 
-more about using it in the [iD editor guide](/en/beginner/id-editor/).
-You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 
-which is a great and interactive manner to discover the editor.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application 
-that offers many more features.
-Feel free to continue playing with iD. Once you have more experience contributing to OSM, 
-you can choose which editor - iD or JOSM - you like using the best.
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
 小结
 -------
 
-恭喜！如果一切顺利的话，你现在已经拥有了一个OpenStreetMap用户名
-和密码，也知道该如何访问OSM网站，也
-对如何向地图添加点有了初步的了解。
+Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
 
 

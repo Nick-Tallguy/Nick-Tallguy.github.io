@@ -12,46 +12,30 @@ Beginnen op OpenStreetMap.org
 Deze handleiding kan worden gedownload als [beginner_start-osm_nl_NL.odt](/files/beginner_start-osm_nl_NL.odt) of [beginner_start-osm_nl_NL.pdf](/files/beginner_start-osm_nl_NL.pdf)  
 > Bijgewerkt op 2015-07-12  
 
-In dit onderdeel zullen we stap voor stap leren hoe we navigeren door de
-OpenStreetMap website, kaarten bekijken en registreren als gebruiker
-Wanneer je een eigen gebruikersnaam en wachtwoord hebt, kun je
-je eerste punten aan de kaart bijdragen.
+In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![website][]
 
 Bezoek de OpenStreetMap Website.
 -------------------------------
 
-- Voordat je begint, verzeker jezelf ervan dat je met het internet verbonden bent.
-    (Als je dit online leest, dan ben je verbonden!)
-- Open je web browser. Bekende browsers zijn Firefox, Chrome, Opera of Internet
-    Explorer. Als de browser al is geopend, open dan een nieuw tabblad of venster.
+-   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
+-   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
 - In de adresbalk bovenin het scherm, voer het volgende in en toets enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
-- Wanneer de pagina geladen is, zou je het volgende moeten
-    zien:
+-   When the page has finished loading, you should see something like this:
 
     ![OpenStreetMap website with some main functions listed][]
 
 Navigeer in de kaart
 ----------------
 
-- Het belangrijkste dat je zou moeten zien, is de kaart. Verschuif de kaart door erop te klikken
-    met je linkermuisknop, de knop ingedrukt te houden en
-    je muis heen en weer te slepen (zie onderstaande afbeelding).
+-   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
 
     ![Mouse navigation][]
 
-- Als je een muis hebt met scrollwiel, zoom dan in en uit op de kaart
-    door het wiel te draaien. Als je geen srcollwiel hebt, gebruik dan de +
-    en - toetsen in de kaart of op je toetsenbord (zie onderstaande
-    afbeelding)
-- Om een plaats te zoeken, klik op het blok genaamd "zoeken" op
-    de linkerkant van de pagina (zie bovenstaande afbeelding). Typ de naam van
-    je stad of dorp en druk enter. Een scherm zal verschijnen 
-    aan de linkerkant van de kaart met de zoekresultaten. Klik op de
-    locatie die op de gewenste locatie lijkt. De kaar zal
-    automatisch verplaatsen naar de gekozen locatie.
+-   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
    
@@ -59,89 +43,48 @@ Navigeer in de kaart
 Bekijk verschillende Kaart Stijlen
 ------------------------
 
-OpenStreetMap bevat geografische data van over de hele wereld. Hoewel
-het een enkele database is, kan de data geïnterpreteerd en gevisualiseerd worden
-op verschillende manieren. Om dit in actie te zien, laten we eens kijken naar verschillende kaartstijlen
-die beschikbaar zijn op de OSM website.
+OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
 - Klik op de lagen knop aan de rechterkant van het kaartvenster.
 
     ![Layers button][]
 
-- Klik op de verschillende stijl opties voor de kaart. Zie hoe de kaart
-    er anders uit ziet met de verschillende opties. De Transport kaart, bijvoorbeeld, legt nadruk op
-    transport routes op de kaart, waar de fietskaart focus legt op fietsroutes
-    Alle data die hiervoor nodig is, is opgeslagen in de OSM
-    database.
+-   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
     ![Transport map][]
 
 Maak een OpenStreetMap Account aan
 -------------------------------
 
-- Nu je hebt gezien hoe de hoofdwebsite eruit zien, kun je gaan
-    registreren voor een gebruikersnaam en wachtwoord en je eerste toevoegingen gaan maken
-    aan de kaart.
-- Op de OpenStreetMap website, klik op de "Registreren" knop in de rechterbovenhoek
-    van de pagina.
+-   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+-   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
 - Je zou een nieuwe pagina moeten zien die hierop lijkt:
 
     ![Registering an OpenStreetMap account][]
 
-- Er zijn vijf velden op de pagina die je moet invullen om
-    een account te registreren bij OSM.
-- Voer je email adres in in de eerste twee velden. Je moet
-    hetzelfde adres invullen in beide velden. Later zul je 
-    je email moeten openen om je account te bevestigen bij OpenStreetMap.
-- In het derde veld, voer de gebruikersnaam in die je zou willen hebben.
-    Je kunt geen gebruikersnaam kiezen die iemand anders
-    eerder heeft gekozen, dus zul je creatief moeten zijn. Als je probeert
-    iets simpels te kiezen, zoals je voornaam, is het te verwachten dat iemand
-    reeds die naam geregistreerd heeft.
-- Voeg een nieuw wachtwoord in in het vierde en vijfde veld. Vul in beide
-    velden hetzelfde wachtwoord in. Het hoeft niet hetzelfde wachtwoord te zijn
-    als je email.
-- Het kan handig zijn om je gebruikersnaam en wachtwoord op te schrijven. Je zult
-    later moeten inloggen.
-- Wanneer je alle velden hebt ingevuld, klik op "Registreren" onderaan
-    de pagina.
-- Als er problemen zijn, kan er een foutmelding in beeld komen. Controleer of
-    je email adres hetzelfde is in de twee eerste velden en dat 
-    je wachtwoord hetzelfde is in de laatste twee velden. Als het derde veld
-    rood gemaakt is, betekent dat dat iemand anders reeds je gekozen
-    gebruikersnaam heeft geregistreerd en dus zul je een andere naam moeten proberen,
-- Open een apart scherm of tabblad in je browser en navigeer
-    naar je email. Bekende email sites zijn  [mail.yahoo.com](http://mail.yahoo.com)
-    en [www.gmail.com](http://www.gmail.com).
-- Voer je email adres en email wachtwoord in om je mail te openen.
-    Let op dat dit _niet_ hetzelfde is als je OpenStreetMap gebruikersnaam en
-    wachtwoord.
-- Als alles goed is gegaan met je registratie, heb je een
-    email ontvangen van OpenStreetMap in je inbox. Open de email. Het zou 
-    eruit moeten zien zoals onderstaande afbeelding. Klik op de link die je hieronder
-    ziet:
+-   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
+-   You may want to write down your OSM username and password. You will need it to log in later.
+-   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
+-   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
+-   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
+-   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Confirming your OpenStreetMap account][]
 
-- Een nieuw tabblad of scherm zal openen. Als alles goed is gegaan, heb je
-    nu een OSM account!
-- Op de OpenStreetMap pagina, klik op "inloggen" in de rechterbovenhoek.
-    Voer je OpenStreetMap gebruikersnaam en wachtwoord in en toets Enter. Je
-    bent nu ingelogd. Je ziet je gebruikersnaam in de rechterbovenhoek
-    van de pagina.
+-   A new tab or window will open. If everything went well, you should have an OSM account!
+-   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 Voeg je eerste punten toe
 ------------------------
 
-- Nu je ingelogd bent met je Gebruikersnaam op de OpenStreetMap
-    website, kun je de iD editor gebruiken om je eerste punt toe te voegen aan
-    de kaart.
-- Verplaats de kaart naar een plek die je goed kent, zoals je stad
-    of buurt. Een goed idee is om er zeker van te zijn dat je huis (of het huis van je buren) en werkplek zijn ingetekend en het goede adres hebben. 
+-   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+-   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 - Zoom in naar een plek waar je een punt wilt toevoegen (misschien een restaurant of supermarkt in de buurt dat nog niet op de kaart staat).
-- Iets boven de kaart in de linker bovenhoek, is een tab genaamd "Bewerken" met een klein
-    driehoekje ernaast. Klik op de driehoek. Je krijgt een menu
-    te zien.
+-   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
 - Klik op "Bewerken met iD (bewerken in de browser)".
 
     ![Click edit][]
@@ -150,42 +93,26 @@ Voeg je eerste punten toe
 
     ![iD editor][]
 
-- Je kunt een punt aan de kaart toevoegen door te klikken op de knop genaamd "Punt" in
-    de linker bovenkant van het scherm. Daarna klik je op de kaart op een plek waar je een nieuw
-    punt wilt toevoegen.
+-   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
 
     ![Point button][]    
 
-- Selecteer in het menu aan de linkerkant wat voor type locatie het is, dat je net
-    hebt toegevoegd aan de kaart. Je kan dan de juiste velden invullen met de naam van de locatie
-    en aanvullende informatie.
-- Om je wijzigingen op te slaan, klik op de "Opslaan" knop. Omdat het je eerste
-    wijziging is, is het wellicht beter om nog wat te spelen met de editor. Sla je wijzigingen niet op
-    tenzij je zeker weet dat ze goed zijn.
+-   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
+-   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
 
     ![Save button][]    
 
-- Als je op opslaan klikt, zal je gevraagd worden om een omschrijving toe te voegen van je wijzigingen.
-    Daarna kun je op "Opslaan" klikken om je wijzigingen op te slaan in de
-    OSM database!
+-   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
 
 
-De iD-editor is een fantastische manier om eenvoudig OpenStreetMap te bewerken, en u kunt er meer 
-over het gebruik ervan vinden in de gids voor de [iD editor guide](/nl_NL/beginner/id-editor/).
-U kunt ook de [virtuele rondleiding](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) afspelen 
-wat een mooie en interactieve manier is om de bewerker te ontdekken.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
 
-Nochthans zullen we in het [gedeelte JOSM](/nl_NL/josm/) kijken naar een zelfstandige toepassing 
-die nog veel meer mogelijkheden biedt.
-Probeer iD gerust uit. Wanneer u meer ervaring hebt opgedaan bij het bijdragen aan OSM, 
-kunt u kiezen welke bewerker - iD of JOSM - u het beste bevalt.
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
 Samenvatting
 -------
 
-Gefeliciteerd! Als alles goed is gegaan heb je nu een OpenStreetMap gebruikersnaam
-en wachtwoord, weet je hoe je door de OSM website kan navigeren en heb je
-een eerste beeld van het toevoegen van punten aan de kaart.
+Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
 
 

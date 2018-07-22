@@ -1,33 +1,33 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /nb/beginner/start-osm/
-lang: nb
+permalink: /ca/beginner/start-osm/
+lang: ca
 category: beginner
 ---
 
-Kom i gang med OpenStreetMap.org
+Getting started on OpenStreetMap.org
 ====================================
 
-> Denne guiden kan lastes ned som [beginner_start-osm_nb.odt](/files/beginner_start-osm_nb.odt) or [beginner_start-osm_nb.pdf](/files/beginner_start-osm_nb.pdf)  
+> This guide may be downloaded as [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) or [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf)  
 > Reviewed 2015-07-12  
 
 In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![website][]
 
-Besøke OpenStreetMaps webside
+Visit the OpenStreetMap Website
 -------------------------------
 
 -   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
 -   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
-I adressefeltet i toppen av vinduet, legger du inn følgende og trykker Enter:
+-   In the address bar at the top of the window, enter the following and press Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   When the page has finished loading, you should see something like this:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Naviger i kartet
+Navigate the Map
 ----------------
 
 -   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
@@ -40,25 +40,25 @@ Naviger i kartet
     ![Search][]
    
 
-Se forskjellige kartstiler
+View Different Map Styles
 ------------------------
 
 OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
-- Klikk på Layers knappen på høyre side av kartet
+-   Click on the Layers button on the right side of the map window.
 
     ![Layers button][]
 
 -   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
-    ![Transport map][] 
+    ![Transport map][]
 
-Lag en OpenStreetMap konto
+Create an OpenStreetMap Account
 -------------------------------
 
 -   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
 -   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
-- Du burde få opp en ny side som ser slik ut:
+-   You should see a new page that looks like this:
 
     ![Registering an OpenStreetMap account][]
 
@@ -78,18 +78,18 @@ Lag en OpenStreetMap konto
 -   A new tab or window will open. If everything went well, you should have an OSM account!
 -   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
-Legg til dine første punkter
+Adding Your First Points
 ------------------------
 
 -   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
 -   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
-- Zoom inn på et sted hvor du du legge til et punkt på kartet. (Kanskje en restaurant eller butikk i nærheten ikke er kartlagt enda).
+-   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
 -   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
-- Trykk på "Rediger med iD (redigering i nettleseren)".
+-   Click “Edit with iD (in-browser editor)”.
 
     ![Click edit][]
 
-- Den web-baserte editoren, kalt iD, åpnes. Den vil se omtrent slik ut.
+-   The online editor, named iD, should open. It will look something like this.
 
     ![iD editor][]
 
@@ -109,7 +109,7 @@ The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find 
 
 However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
-Sammendrag
+Resum
 -------
 
 Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.

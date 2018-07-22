@@ -12,46 +12,30 @@ category: beginner
 >این راهنما را میتوان به صورت [beginner_start-osm_fa.odt](/files/beginner_start-osm_fa.odt) یا [beginner_start-osm_fa.pdf](/files/beginner_start-osm_fa.pdf) دانلود کرد  
 > تاریخ بازبینی ۱۳۹۴/۰۴/۳۱  
 
-در این بخش یاد می‌گیریم که چگونه قدم به قدم
-در سایت OpenStreetMap گام نهاده، نقشه‌ها را ببینیم و یک حساب کاربری در آن باز کنیم.
-پس از داشتن نام کاربری و رمز عبور فادر خواهید بود
-تا اولین مشارکت خود را در نقشه داشته باشید.
+In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 
 ![website][]
 
 بازدید از سایت OpenStreetMap
 -------------------------------
 
-قبل از شروع، از اتصال رایانه خود به اینترنت اطمینان حاصل کنید.
-    (چنانچه در حال مطالعه این متن به صورت آنلاین هستید، پس حتماً قبلاً متصل شده‌اید!)
-مرورگر خود را باز کنید. مرورگرهای رایج شامل فایرفاکس، کروم، اپرا و اینترنت
-    اکسپلورر هستند. اگرقبلاً آنها را باز کرده‌اید یک زبانه (Tab) جدید باز کنید.
+-   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
+-   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
 در خط آدرس بالای پنجره آدرس زیر را وارد و کلید Enter را بزنید:
     <www.openstreetmap.org>
-وقتی که بارگزاری صفجه کامل شود، چیزی شبیه این
-    می‌بینید:
+-   When the page has finished loading, you should see something like this:
 
     ![OpenStreetMap website with some main functions listed][]
 
 حرکت در نقشه
 ----------------
 
-نقشه عمده‌ترین چیزیست که می‌بینید. نقشه را با
-    استفاده از کلید چپ ماوس تکان دهید، کلید چپ را پائین نگه دارید و
-    ماوس را به اطراف جابجا کنید (تصویر زیر را ببینید).
+-   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
 
     ![Mouse navigation][]
 
-اگر ماوس دارای کلید چرخان وسط دارید، می‌توانید با چرخش آن بزرگنمایی نقشه را کم یا زیاد کنید.
-    اگر چنین ماوسی ندارید، از کلیدهای
-    + و - گوشه بالا و سمت راست نقشه استفاده کنید. (تصویر زیر را
-    ببینید)
-برای جستجوی یک محل، در جعبه محاوره‌ای که با عنوان "جستجو" در گوشه 
-    سمت چپ صفحه قرار  دارد (تصویر فوق را ببینید) کلیک چپ کنید. نام
-    شهر یا روستای خود را تایپ کنید. پنجره‌ای 
-    در سمت چپ نقشه نشان داده می‌شود که نتایج جستجو را نمایش می‌دهد. بر روی 
-    مشابه‌ترین مکان به مکان مورد نظرتان کلیک کنید. نقشه 
-    به صورت خودکار به محلی که انتخاب می‌کنید جابجا می‌شود.
+-   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
    
@@ -59,89 +43,48 @@ category: beginner
 دیدن طرح‌های مختلف نقشه
 ------------------------
 
-OpenStreetMap محتوی داده‌های جغرافیایی کل دنیاست. گرچه 
-تمامی آنها در یک پایگاه اطلاعاتی قرار دارند اما این داده‌ها را می‌توان 
-به روش‌های مختلف تقسیر و به روش‌های مختلف نیز نشان داد. برای فهمیدن این موضوع، بیایید به "طرح"های مختلف نقشه که در سایت OSM وجود دارند
-نگاهی بیاندازیم.
+OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
 بر روی دکمه لایه‌ها در سمت راست پنجره نقشه کلیک کنید.
 
     ![Layers button][]
 
-بر روی طرح‌های مختلف نقشه کلیک کنید. ببینید که نقشه چگونه
-    با کلیک بر روی هریک تغییر میکند. برای مثال، نقشه حمل و نقل بر روی 
-    مسیرهای حمل و نقل عمومی تأکید دارد درحالی‌که نقشه دوچرخه بر روی مسیرهای مخصوص دوچرخه تأکید
-    می‌کند. همه این داده‌ها در پایگاه داده OSM
-    قرار دارند.
+-   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
 
     ![Transport map][]
 
 ایجاد حساب OpenStreetMap
 -------------------------------
 
-حالا که متوجه شدید وبسایت اصلی چگونه است، می‌توانید
-    یک نام کاربری و رمز عبور در سایت ثبت کنید تا اولین
-    تغییر خود را در نقشه اعمال کنید.
-در وبسایت OpenStreetMap بر روی دکمه "ثبت نام" (sign up) در گوشه بالا و سمت
-     راست صفحه کلیک کنید.
+-   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+-   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
 صفحه جدیدی را می‌بینید که شبیه این است:
 
     ![Registering an OpenStreetMap account][]
 
-پنج کادر در این صفحه وجود دارد که بایستی توسط شما پر شود
-    تا حسابتان در OSM ثبت گردد.
-در دو کادر اول آدرس پست الکترونیکی خود را واردکنید. بایستی
-    در هر دو کادر آدرس پست الکترونیکی یکسانی وارد شود. بعداً، جهت تأیید حسابتان در 
-    OpenStreetMap نیاز است که پست الکترونیکی خود را باز کنید.
-در کادر سوم نام کاربری که دوست دارید داشته باشید را بنویسید.
-    نمی‌توان از نام کاربری که شخص دیگری قبلاً  به کار گرفته استفاده کرد،
-    پس کاملاً خلاقیت به خرج دهید. اگر نام کاربری خیلی ساده‌ای مانند اسم کوچک خود 
-    بکار ببرید، خیلی امکان دارد که شخص دیگری قبلاً آنرا 
-    به نام خود کرده باشد.
-در کادرهای چهارم و پنجم رمز عبور را وارد کنید. بایستی در 
-    هر دو کادر رمز یکسانی وارد شود. لزومی ندارد که 
-    شبیه رمز پست الکترونیکی‌تان باشد.
-بهتر است که نام کاربری و رمز عبور OSM خود را جایی یادداشت کنید. برای
-    ورود به سایت به اینها نیاز خواهید داشت.
-پس از کامل کردن همه کادرها، دکمه ثبت نام (Sign Up) 
-    پائین صفحه را بزنید.
-در صورت بروز هرگونه مشکل پنجره پیغام خطا نمایش داده می‌شود. بررسی کنید که آیا
-    پست الکترونیکی در دو کادر اول، و یا 
-    رمز عبور در دو کادر آخر شبیه هم هستند. اگه کادر سوم با رنگ قرمز پررنگ شده، 
-    به معنی این است که شخص دیگری
-    نام کاربری شمار را قبلاً انتخاب کرده، نام کاربری دیگری برای خود انتخاب کنید.
-یک پنجره یا زبانه جدید در مرورگر خود باز کنید، به پست الکترونیک خود
-    وارد شوید. سایتهای رایج جهت پست الکترونیک شامل [mail.yahoo.com](http://mail.yahoo.com)
-    و جیمیل [www.gmail.com](http://www.gmail.com) هستند.
-آدرس پست الکترونیکی و رمز عبور آنرا وارد کنید تا پست الکترونی‌تان باز شود.
-    توجه داشته باشید که اینها با نام کاربری و رمز عبور OpenStreetMap هیچ 
-    ارتباطی ندارند.
-اگر ثبت نام شما با موفقیت انجام شده باشد، بایستی ایمیلی از 
-    OpenStreetMap در صندوق دریافتی‌های خود ببینید. آنرا باز کنید. احتمالاً چیزی شبیه تصویر
-    به نظر می‌رسد. بر روی لینکی که در زیر 
-    مشخص شده کلیک کنید:
+-   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
+-   You may want to write down your OSM username and password. You will need it to log in later.
+-   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
+-   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
+-   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
+-   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Confirming your OpenStreetMap account][]
 
-یک زبانه یا پنجره جدید باز می‌شود. اگر همه چیز مرتب پیش رفته باشد، حالا 
-    شما یک حساب کاربری در OSM دارید!
-در صفحه OpenStreetMap بر روی دکمه ورود به سایت (log in) گوشه بالای سمت راست کلیک کنید.
-    نام کاربری و رمز عبور OpenStreetMap خود را وارد کرده و Enter کنید.
-    اکنون دیگر بایستی وارد سایت شده باشید. می‌توانید نام کاربری خود را در بالای صفحه ببینید
-     راست صفحه کلیک کنید.
+-   A new tab or window will open. If everything went well, you should have an OSM account!
+-   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 افزودن اولین نقطه
 ------------------------
 
-حالا که با نام کاربری خود به سایت OpenStreetMap وارد شده‌اید،
-    ‌می‌توانید از ویرایشگر iD استفاده کرده و اولین نقطه خود را به نقشه 
-    اضافه کنید.
-نقشه را به محلی که به خوبی می‌شناسید مانند شهر یا محله خودتان 
-    جابجا کنید. بهترین ایده این است که مطمئن شوید خانه خودتان (یا همسایگانتان) یا محل کارتان کشیه شده و آدرس صحیح داشته باشد.   
+-   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+-   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 به محلی که می‌خواهید نقطه‌ای به نقشه اضافه کنید زوم کنید (شاید رستوران یا خواربارفروشی نزدیک محل‌تان هنوز کشیده نشده باشد).
-بالای نقشه طرف چپ، یک زبانه به نام ویرایش (Edit) با یک 
-    مثلث کوچک درکنارش وجود دارد.بر روی مثلث کوچک کلیک کنید. یک منوی پائین‌افتادنی 
-    می‌بینید.
+-   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
 بر روی "ویرایش با iD (داخل ویرایشگر)" کلیک کنید.
 
     ![Click edit][]
@@ -150,42 +93,26 @@ OpenStreetMap محتوی داده‌های جغرافیایی کل دنیاست.
 
     ![iD editor][]
 
-با کلیک روی دکمه "نقطه (Point)" که در بالای پنجره قرار دارد 
-    می‌توانید یک نقطه اضافه کنید. سپس روی نقشه جایی که می‌خواهید نقطه را اضافه کنید کلیک کنید.
-    می‌توانید یک نقطه اضافه کنید. 
+-   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
 
     ![Point button][]    
 
-از منوی سمت چپ نوع محلی را که به نقشه اضافه کرده‌اید 
-    را انتخاب کنید. می‌توانید در محل مناسب نام محل و سایر اطلاعات را 
-    پر کنید.
-برای ذخیره تغییرات، بر روی کلید "ذخیره" (Save)  کلیک کنید. از آنجا که این اولین
-    نقطه شماست شاید بخواهید با ویرایشگر چرخشی در سایت بزنید. تغییراتتان را تا زمانی که
-    مطمئن نشده‌اید کاملاً درست هستند ذخیره نکنید.
+-   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
+-   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
 
     ![Save button][]    
 
-اگر بر روی دکمه ذخیره (Save) کلیک کنید، از شما خواسته میشود تا توضیحی راجع به تغییراتی که دادید بنویسید.
-    سپس یکبار دیگر دکمه "ذخیره" (Save) را بزنید تا تغییرات شما در
-    پایگاه داده OSM ذخیره شود!
+-   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
 
 
-ویرایشگر iD مسیری شگفت انگیز برای ویرایش آسان OpenStreetMap است، درباره آن در  
-[iD editor guide راهنمای ویرایشگر iD](/fa/beginner/id-editor/) خواهید آموخت.
-همچنین در  [اولین اجرا](http://www.openstreetmap.org/edit?editor=id#walkthrough=true)ی آن میتوانید بازی کنید   
-که راه بسیار خوب و تعاملی برای کشف کردن ویرایشگر است.
+The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
 
-با این حال، در [بخش JOSM](/fa/josm/) نگاهی به برنامه مستقلی  
-می اندازیم که امکانات متنوعی دارد.
-راحت باشید و به کار کردن با iD ادامه دهید. با افزایش تجربه شما در مشارکت در OSM، 
-میتوانید انتخاب کنید کدام ویرایشگر -iD یا JOSM- را بیشتر برای استفاده دوست دارید.
+However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
 خلاصه
 -------
 
-تبریک! اگر همه چیز مرتب پیش رفته باشد حالا شما دارای نام کاربری
-و رمز عبور در سایت OpenStreetMap هستید، می‌توانید در وبسایت OSM حرکت کنید، و حالا یک تصور ذهنی
-اولیه از نحوه افزودن نقطه به نقشه پیدا کرده‌اید.
+Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
 
 
