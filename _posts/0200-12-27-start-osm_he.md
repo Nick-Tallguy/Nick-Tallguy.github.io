@@ -12,18 +12,18 @@ category: beginner
 > ניתן להוריד מדריך זה בתור [beginner_start-osm_he.odt](/files/beginner_start-osm_he.odt) או בתור [beginner_start-osm_he.pdf](/files/beginner_start-osm_he.pdf)  
 > Reviewed 2015-07-12  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+בסעיף זה נלמד שלב אחר שלב כיצד לנווט באתר של OpenStreetMap, לצפות במפות ולרשום חשבון משתמש חדש. לאחר שקיבלת שם משתמש וססמה משלך, יתאפשר לך לתרום את הנקודות הראשונות שלך למפה.
 
 ![website][]
 
 ביקור באתר של OpenStreetMap
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
+-   לפני שנתחיל, מוטב לוודא שהמחשב שלך מחובר לאינטרנט.  (אם האתר הזה מופיע אצלך בדפדפן, כנראה שהחיבור תקין!)
+-   עליך לפתוח את הדפדפן שלך. דפדפנים נפוצים הם Firefox, Chrome, Opera, או Internet Explorer. אם הדפדפן שלך כבר פתוח ניתן ליצור לשונית/כרטיסייה חדשה.
 -   בסרגל הכתובת שבראש החלון יש להקליד את הכתובת הבאה וללחוץ על Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+-   עם סיום טעינת העמוד, אמור להופיע משהו כזה:
 
     ![OpenStreetMap website with some main functions listed][]
 
@@ -58,11 +58,11 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 
 -   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
 -   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
--   You should see a new page that looks like this:
+-   אמור להופיע בפניך עמוד חדש שנראה כך:
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
+-   ישנן חמש תיבות בעמוד זה שעליך למלא כדי לרשום חשבון ב־OSM.
 -   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
 -   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
 -   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
