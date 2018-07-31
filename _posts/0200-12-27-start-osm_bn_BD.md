@@ -35,17 +35,17 @@ OpenStreetMap ওয়েবসাইট দেখুন
     ![Mouse navigation][]
 
 - আপনার মানচিত্রে যদি স্ক্রল বাটন থাকে, তবে এটি ব্যবহার করে মানচিত্র জুম করে দেখতে পারবেন। আর যদি স্ক্রল বাটন না থাকে তবে মানচিত্রের উপরের ডান দিকের + এবং - বাটনে ক্লিক করেও একই কাজটি করা যাবে। (নিচের ছবিটি দেখুন)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+-   অনুসন্ধানের জন্য, উপরের বামদিকে "অনুসন্ধান" লেখা বাটনে ক্লিক করুন (উপরের ছবির মত)। আপনার শহর বা গ্রামের নাম লিখে Enter বাটন চাপুন। বাম দিকে একটি নতুন প্যানলে আপনার অনুসন্ধানের ফলাফল দেখা যাবে। তালিকা থেকে যে স্থানটি আপনার সঠিক মনে হবে সেই লিংকে ক্লিক করুন। ক্লিক করার পর সয়ংক্রিয়ভাবে মানচিত্রে আপনার অনুসন্ধানের স্থানটি দেখা যাবে।
 
     ![Search][]
    
 
-View Different Map Styles
+বিভিন্ন স্টাইলের মানচিত্র দেখুন
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap-এ সারা বিশ্বের ভৌগোলিক তথ্য রয়েছে। এটি একটি একক ডাটাবেস হলেও, ডেটা বিভিন্ন উপায়ে ব্যাখ্যা করা এবং স্টাইল যোগ করার সুযোগ রয়েছে। এই কাজটি কিভাবে করা যায় জানার জন্য OSM-এর ওয়েবসাইটে থাকা বিভিন্ন স্টাইলের মানচিত্র দেখুন।
 
--   Click on the Layers button on the right side of the map window.
+-   মানচিত্র উইন্ডোর ডান পাশের লেয়ার বাটনে ক্লিক করুন।
 
     ![Layers button][]
 
@@ -53,19 +53,19 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 
     ![Transport map][]
 
-Create an OpenStreetMap Account
+OpenStreetMap অ্যাকাউন্ট তৈরী করুন
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
--   You should see a new page that looks like this:
+-  ওয়েবসাইটের সাথে পরিচিত হওয়ার পর আপনি নিবন্ধন করতে পারেন, এরপর আপনি ব্যবহারকারী নাম ও পাসওয়ার্ড ব্যবহার করে লগইন করে মানচিত্র মান উন্নয়নের কাজ করতে পারবেন।
+OpenStreetMap ওয়েবসাইটের উপরের ডানপাশে "নিবন্ধন" বাটনে ক্লিক করুন।
+-   এই ছবির মত দেখতে একটি পাতা ওপেন হবে:
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
+- OSM-এ অ্যাকাউন্ট তৈরীর জন্য নিবন্ধন ফর্মে ৫টি ঘর রয়েছে।
+-  প্রথম দুটি ঘরে আপনার ইমেইল ঠিকানা লিখুন। দুটি ঘরেই একই ইমেইল ঠিকানা লিখতে হবে। OpenStreetMap অ্যাকাউন্ট তৈরী সম্পন্ন করতে পরবর্তীতে আপনার ইমেইল ঠিকানাটি নিশ্চিত করতে হবে।
+-  তৃতীয় ঘরে আপনার পছন্দের ব্যবহারকারী নাম লিখুন। আগে থেকেই অপর কেউ ব্যবহার করছেন এমন কোনো ব্যবহারকারী নাম নির্ধারন করার সুযোগ নেই, আপনাকে একটি সৃজনশীল হতে হবে। আপনি যদি পরিচিতি কোনো শব্দ যেমন নিজের নামের প্রথম অংশ ব্যবহার করতে চান, তবে সেটি হয়তো আগের কারো সাথে মিলে যেতে পারে।
+-  চতুর্থ এবং পঞ্চম ঘরে পাসওয়ার্ড লিখুন। দুটি ঘরেই একই পাসওয়ার্ড লিখতে হবে। মনে রাখবেন এটি এবং আপনার ইমেইলের পাসওয়ার্ড একই হওয়া উচিত নয়।
 -   You may want to write down your OSM username and password. You will need it to log in later.
 -   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
 -   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
@@ -78,18 +78,18 @@ Create an OpenStreetMap Account
 -   A new tab or window will open. If everything went well, you should have an OSM account!
 -   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
-Adding Your First Points
+আপনার প্রথম বিন্দু যোগ করুন
 ------------------------
 
 -   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
 -   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 -   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
 -   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
--   Click “Edit with iD (in-browser editor)”.
+-  "iD (ব্রাউজার থেকে সম্পাদনা) দিয়ে সম্পাদনা করুন" বাটনে ক্লিক করুন।
 
     ![Click edit][]
 
--   The online editor, named iD, should open. It will look something like this.
+iD নামের অনলাইন এডিটরটি চালু হবে। এটি দেখতে এই ছবির মত।
 
     ![iD editor][]
 
