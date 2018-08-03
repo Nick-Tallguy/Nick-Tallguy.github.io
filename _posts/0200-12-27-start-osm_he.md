@@ -63,9 +63,9 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
     ![Registering an OpenStreetMap account][]
 
 -   ישנן חמש תיבות בעמוד זה שעליך למלא כדי לרשום חשבון ב־OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
+-  נא להקליד את כתובת הדוא״ל שלך בשתי התיבות הראשונות. עליך להקליד את אותה הכתובת בשתי התיבות. לאחר מכן, יהיה עליך לפתוח את תיבת הדוא״ל שלך כדי לאמת את החשבון שלך מול OpenStreetMap.
+-  בתיבה השלישית, יש להקליד את שם המשתמש הרצוי לך. לא תהיה לך אפשרות לבחור בשם משתמש שכבר נבחר על ידי משתמש כלשהו בעבר, לכן נדרשת ממך יצירתיות. משהו פשוט, כגון שמך הפרטי, עשוי כבר להיות תפוס.
+-  יש להקליד ססמה חדשה בתיבות הרביעית והחמישית. עליך להקליד את אותה הססמה בשתי התיבות. ססמה זו אינה חייבת להיות זהה לססמת הגישה לדוא״ל שלך.
 -   You may want to write down your OSM username and password. You will need it to log in later.
 -   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
 -   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
