@@ -14,7 +14,7 @@ Handleiding voor beginners
 
 Deze handleiding laat stap voor stap zien hoe je kunt beginnen met OpenStreetMap. Je zult leren
 hoe je een account kun aanmaken, hoe je basis editing software kunt gebruiken en later zul je leren hoe je buiten
-en verzamel informatie om op de kaart te zetten. 
+informatie verzamelt om op de kaart te zetten. 
 
 ### Bent u nieuw bij OpenStreetMap en wilt u de kaart verbeteren door gegevens toe te voegen?
 
