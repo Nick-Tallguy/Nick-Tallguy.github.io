@@ -30,11 +30,11 @@ category: beginner
 ניווט במפה
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+-   הדבר העיקרי שאמור להופיע על המפה. ניתן להזיז את המפה עם הכפתור השמאלי בעכבר, החזקת הכפתור וגרירת העכבר ברחבי המסך (כמו בתמונה המצורפת).
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   אם יש לך עכבר עם גלגלת, ניתן להתקרב ולהתרחק מהמפה על ידי גלגול הגלגלת. אם אין לך גלגלת, ניתן להשתמש במקשים + ו־- בפינה הימנית העליונה של המפה. (כמו בתמונה המצורפת)
 -   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
@@ -43,7 +43,7 @@ category: beginner
 הצגת סגנונות מפה שונים
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העולם. למרות שמדובר במסד נתונים אחד, ניתן לפענח ולעצב את הנתונים במגוון דרכים. כדי לראות זאת בפעולה אפשר להסתכל על מגוון „סגנונות” שונים במפה שזמינים באתר של OSM.
 
 -  יש ללחוץ על כפתור השכבות בצד ימין של חלון המפה.
 
@@ -78,7 +78,7 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 -   A new tab or window will open. If everything went well, you should have an OSM account!
 -   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
-Adding Your First Points
+הוספת הנקודות הראשונות שלך
 ------------------------
 
 -   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
