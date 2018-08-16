@@ -35,7 +35,7 @@ category: beginner
     ![Mouse navigation][]
 
 -   אם יש לך עכבר עם גלגלת, ניתן להתקרב ולהתרחק מהמפה על ידי גלגול הגלגלת. אם אין לך גלגלת, ניתן להשתמש במקשים + ו־- בפינה הימנית העליונה של המפה. (כמו בתמונה המצורפת)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+-   כדי לחפש אחר מקום, יש ללחוץ לחיצה שמאלית על תיבה עם השם „חיפוש” בצד שמאל של העמוד (כמו בתמונה שלהלן). עליך להקליד את שם העיר או היישוב שלך וללחוץ על Enter. אמור להופיע חלון משמאל למפה עם תוצאות החיפוש שלך. עליך ללחוץ על המיקום שנראה לך הרצוי. המפה תזוז אוטומטית לפי המיקום שבחרת.
 
     ![Search][]
    
@@ -56,8 +56,8 @@ OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העול�
 יצירת חשבון ב־OpenStreetMap
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
+-   עכשיו כשראית איך נראה האתר הראשי, ניתן להירשם ולקבל שם משתמש וססמה כדי להוסיף את הפריטים הראשונים שלך למפה.
+-   באתר של OpenStreetMap יש ללחוץ על „הרשמה” בפינה הימנית העליונה של העמוד.
 -   אמור להופיע בפניך עמוד חדש שנראה כך:
 
     ![Registering an OpenStreetMap account][]
@@ -66,8 +66,8 @@ OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העול�
 -  נא להקליד את כתובת הדוא״ל שלך בשתי התיבות הראשונות. עליך להקליד את אותה הכתובת בשתי התיבות. לאחר מכן, יהיה עליך לפתוח את תיבת הדוא״ל שלך כדי לאמת את החשבון שלך מול OpenStreetMap.
 -  בתיבה השלישית, יש להקליד את שם המשתמש הרצוי לך. לא תהיה לך אפשרות לבחור בשם משתמש שכבר נבחר על ידי משתמש כלשהו בעבר, לכן נדרשת ממך יצירתיות. משהו פשוט, כגון שמך הפרטי, עשוי כבר להיות תפוס.
 -  יש להקליד ססמה חדשה בתיבות הרביעית והחמישית. עליך להקליד את אותה הססמה בשתי התיבות. ססמה זו אינה חייבת להיות זהה לססמת הגישה לדוא״ל שלך.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   מוטב לך לרשום את שם המשתמש והססמה שלך ב־OSM. אלו יידרשו לך כדי להיכנס בהמשך.
+-   לאחר שהשלמת את כל התיבות, עליך ללחוץ על „הרשמה” בתחתית העמוד.
 -   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
 -   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
 -   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
