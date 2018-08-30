@@ -1,69 +1,69 @@
 ---
 layout: doc
-title: Tworzenie projektu w Menedżerze zadań 3
+title: Tworzenie projektu w Tasking Managerze 3
 permalink: /pl/coordination/tasking-manager3-project-admin/
 lang: pl
 category: coordination
 ---
 
-# Menedżer zadań OSM - Tworzenie projektu i jego administrowanie
+# OSM Tasking Manager - Tworzenie projektu i administrowanie nim
 
 > Ten przewodnik może zostać pobrany jako samodzielny moduł: [tasking-manager3-admin_pl.odt](/files/tasking-manager3-admin_pl.odt) lub [tasking-manager3-admin_pl.pdf](/files/tasking-manager3-admin_pl.pdf) 
 
-**This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager-project-admin)**
+**Ten przewodnik opisuje aktualną wersję Tasking Managera. Jeżeli interfejs użytkownika wersji, którą używasz jest inny od opisanego tutaj, powinieneś spojrzeć na [podręcznik do poprzedniej wersji](/en/coordination/tasking-manager-project-admin)**
 
 Spis treści działu
 -------------
--  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
--  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
--  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
--  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tasking-manager3-project-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tasking-manager3-project-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tasking-manager3-project-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tasking-manager3-project-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tasking-manager3-project-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+-  [Logowanie się](/pl/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [Zainicjuj nowy projekt - zdefiniuj obszar zainteresowania](/pl/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [Tworzenie zadania - podziel obszar zainteresowania](/pl/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [Utwórz projekt - określ, co Twoi użytkownicy powinni wiedzieć](/pl/coordination/tasking-manager3-project-admin/#create-the-project)
+    -  [Opis - pierwsza rzecz, której użytkownicy dowiadują się o Twoim projekcie](/pl/coordination/tasking-manager3-project-admin/#description)
+    -  [Wskazówki - co użytkownicy powinni zrobić](/pl/coordination/tasking-manager3-project-admin/#instructions)
+    -  [Metadane - do czego należy projekt](/pl/coordination/tasking-manager3-project-admin/#metadata)
+    -  [Obszary priorytetowe - gdzie użytkownicy powinni zacząć mapowanie](/pl/coordination/tasking-manager3-project-admin/#priority-areas)
+    -  [Podkład - baza do mapowania](/pl/coordination/tasking-manager3-project-admin/#imagery)
+    -  [Uprawnienia - kto jest dopuszczony do mapowania i weryfikowania](/pl/coordination/tasking-manager3-project-admin/#permissions)
+    -  [Użyteczne wskazówki - jak powinieneś wypełnić te wszystkie pola](/pl/coordination/tasking-manager3-project-admin/#instruction-notes)
+    -  [Opublikuj - nie zapomnij, albo nigdy nie będziesz miał skończonej pracy](/pl/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
-The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
+OpenStreetMap Tasking Manager jest niezbędny do przeprowadzania mapathonów, zarządzania aktywacjami HOT lub tworzenia zadań mapowania dla uczniów. Tasking Manager dzieli pracę na łatwe do opanowania geograficznie kawałki, które zmniejszają konflikty edycyjne, zwłaszcza przy dużej liczbie rozproszonych maperów. Tasking Manager wspiera również dokładność mapowania i jakość danych poprzez dostarczanie zwięzłych zestawów instrukcji dla maperów (np. 'zmapuj wszystkie drogi i budynki'). W skrócie, Tasking Manager jest tym, co kieruje pracami przy otwartych działaniach mapowania. Ten moduł opisuje podstawy administracji OSM Tasking Managera dla udanych wydarzeń mapowania. 
 
- This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 3 including the [HOT Tasking Manager](http://tasks.hotosm.org) and the [TeachOSM Tasking Manager](http://tasks.teachosm.org).
+ Ten przewodnik jest napisany zwłaszcza dla tych osób, które potrzebują wskazówek o administracji w OSM Tasking Managerze, w tym o tworzeniu i modyfikowaniu projektów mapowania dla otwartych wydarzeń mapowania, np. 'mapathonów'. Ten przewodnik ma zastosowanie konkretnie do instancji OSM Tasking Managera w wersji 3, w tym [HOT Tasking Manager](http://tasks.hotosm.org) i [TeachOSM Tasking Manager](http://tasks.teachosm.org).
 
-The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
+ HOT lub OSM Tasking Manager wersja 3 jest często określany jako **TM3,** jako skrót od Tasking Manager, wersja 3.
 
 ## Logowanie się i poziomy dostepu
 
-The first thing to understand is access level. All access to TMd is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+Pierwszą rzeczą jest zrozumienie poziomów dostępu. Każdy dostęp do TM3 jest autoryzowany poprzez [stronę OpenStreetMap](https://www.openstreetmap.org). Aby uzyskać dostęp do TM3 potrzebujesz konta OpenStreetMap (OSM). Jeżeli masz już to konto, odwiedź [Tasking Manager](http://tasks.hotosm.org) i kliknij **Zaloguj do OpenStreetMap**, co przekieruje Cię z powrotem na stronę OSM, gdzie możesz autoryzować Tasking Managera, aby miał ograniczony dostęp do Twojego konta OSM. 
 
-### Access Levels within the OSM Tasking Manager
+### Poziomy dostępu w OSM Tasking Managerze
 
-The OSM Tasking Manager has three user access levels:
--  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers have access to create and update projects within TM3.  
--  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
+OSM Tasking Manager ma trzy poziomy dostępu użytkownika:
+-  **Użytkownik** - Najbardziej podstawowy poziom. Użytkownik może się zalogować do TM3 i używać jego funkcji do znalezienia i wybrania projektu mapowania do pracy. Ten poziom użytkowania jest w pełni opisany w [Przewodniku OSM Tasking Manager w LearnOSM](/pl/coordination/tasking-manager-3/). Zauważ, że niektóre projekty takie, jak będące w stanie szkicu (np. nieopublikowane) są niewidoczne dla użytkowników.  
+-  **Menadżer projektu** - Menadżerowie projektów mają dostęp do tworzenia i aktualizowania projektów w TM3.  
+-  **Administrator** - Administratorzy mają dostęp umożliwiający im zarządzanie poziomami dostępu użytkowników w TM3.
 
-You will need Project Manager Access level to create new projects using TM3.
+Potrzebujesz poziomu dostępu Menadżer projektu, aby tworzyć nowe projekty przy użyciu TM3.
 
-## Zainicjuj nowy projekt w ramach MZ3 
+## Zainicjuj nowy projekt w TM3 
 
 ![TM New][]
 
-Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest (AoI) on the map, or importing an area of interest from a geojson file;  
+Kliknij swoją nazwę użytkownika w prawym górnym rogu, a następnie **Utwórz nowy projekt.** Możesz wybrać pomiędzy rysowaniem obszaru zainteresowania (AOI) na mapie, a zaimportowaniem obszaru zainteresowania z pliku geojson;  
 
-> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
+> Importowanie pliku ze zdefiniowanym obszarem jest zawsze preferowane przed ręcznym rysowaniem projektu Tasking Managera. Narzędzia takie, jak JOSM, QGIS, itd. mogą być użyte do utworzenia plików do zaimportowania w Tasking Managerze. Sugerowana ścieżka, to utworzenie pliku .osm z AOI przy użyciu JOSM i wygenerowanie przez http://geojson.io/ pliku GeoJSON.
 
-### Wyrysuj obszar zainteresowania, który należy zmapować
+### Wyrysuj obszar zainteresowania do zmapowania
 
-1. Click the ‘Draw’ button in the upper right corner.
-2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
-3. Click on your starting point to complete the polygon  
-4. After completing a polygon you can move the nodes or add new ones to get the area just as you want it.
+1. Kliknij przycisk 'Rysuj' w prawym górnym rogu.
+2. Aby narysować wielokąt przestawiający AOI na mapie przytrzymaj prawy przycisk myszy i przesuwaj mapę bez klikania, co doda węzeł. Wielokąt powinien ściśle obramować obszar zainteresowania. Zaoszczędzi to czas na uzupełnianie kafelków, które są nieistotne (np. ocean, las)  
+3. Kliknij na punkcie początkowym, aby ukończyć wielokąt  
+4. Po skończeniu wielokąta możesz przesuwać węzły lub dodawać nowe, aby otrzymać dokładnie taki obszar, jaki chcesz.
 
-or
+lub
 
-### Upload a GeoJSON or KML file of the area of interest to be mapped  
+### Prześlij plik GeoJSON lub KML z obszarem zainteresowania do zmapowania  
 
 1. Click the ‘Import’ button,  
 2. Browse to your file in the File Upload window,  

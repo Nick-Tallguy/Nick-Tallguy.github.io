@@ -22,50 +22,50 @@ na przekazywanie informacji.
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often 
-demonstrate an idea better than words. This in turn can help us
-answer important questions. *Where is the closest school or hospital? Who
-has the least access to these facilities? Where is poverty the most
-problematic?* Questions like these can often best be expressed with maps,
-and maps can help find solutions to these questions. 
+Mapy są wizualnymi symbolami naszego świata. Zazwyczaj mogą one 
+opisać pomysł lepiej niż słowa. To z kolei może nam pomóc
+odpowiedzieć na ważne pytania. *Gdzie jest najbliższa szkoła lub szpital? Kto
+przynajmniej ma dostęp do tych obiektów? Gdzie bieda jest najbardziej
+problematyczna?* Takie pytania najlepiej mogą być wyrażone za pomocą map,
+a mapy mogą pomóc znaleźć odpowiedzi na te pytania. 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the
-most important things to include on the map? What is the most important
-information? Spend a few minutes making your map, and when you’re
-finished, think about why the information you included is important, and
-who it might be important to.
+Jako ćwiczenie, weź długopis i kartkę, a następnie narysuj mapę swojego miasta lub wioski. Jakie są
+najważniejsze rzeczy do narysowania na niej? Co jest najważniejszą
+informacją? Poświęć kilka minut na tworzenie swojej mapy, a kiedy
+skończysz, pomyśl o tym dlaczego informacje, które zawarłeś na niej są istotne i
+dla kogo mogą być ważne.
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent
-roads, possibly a river or stream. Perhaps you added important buildings
-such as schools and offices, fields, or boundaries. Whatever you drew,
-you probably used symbols – a line to symbolize a road, a square to
-symbolize a building, and so on. Your map is a representation of what is
-on the ground.
+Jeżeli Twoje miasto jest typowe, to pewnie narysowałeś kilka linii przestawiających
+drogi, może jakąś rzekę lub strumień. Prawdopodobnie dodałeś ważne budynki
+takie, jak szkoły i biura, pola lub granice. Cokolwiek narysowałeś
+najpewniej używałeś symboli - linia symbolizująca drogę, kwadrat
+oznaczający budynek, i tak dalej. Twoja mapa jest reprezentacją tego, co jest
+na ziemi.
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to
-someone where different places are, where problems are in your
-community, or merely to help someone find their way around. The use of
-your map is limited though - there is only one copy of the map.The
-way you drew it may make sense to you, but perhaps not to someone else
-who would have drawn their own map in a different way. Because your map
-is merely on paper, it is difficult to get that information to others.
-This is why making your map on a computer, in such a way that anyone can
-access it, can be much more valuable. 
+Twoja mapa jest informacyjna. Możesz użyć takiej mapy do wyjaśnienia
+komuś, gdzie są różne miejsca, gdzie pojawiają się problemy w Twojej
+społeczności lub tylko do pomocy komuś w znalezieniu drogi. Jednak
+użycie Twojej mapy jest ograniczone - jest tylko jedna jej kopia.
+Drogi, które narysowałeś mają sens dla Ciebie, ale prawdopodobnie nie dla kogoś innego,
+kto mógłby narysować swoją własną mapę w inny sposób. Ponieważ Twoja mapa
+jest tylko na papierze, trudno jest przekazać te informacje innym.
+To dlatego tworzenie mapy na komputerze, w taki sposób, aby każdy mógł
+się do niej dostać, może być bardziej wartościowe. 
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information. 
-Anyone can contribute to OSM, and thousands of people add to the project 
-every day. Users draw maps on computers, rather than paper, but as we 
-will see in this guide, drawing a map on a computer is not all that 
-different from drawing on paper. We still draw lines to represent roads,
-fields, and anything else, and we still represent schools and hospitals 
-with symbols. The important thing is that OSM maps are saved on the 
-internet, and anyone can access them at any time, totally free.
+OpenStreetMap jest narzędziem do tworzenia i dzielenia się informacjami mapy. 
+Każdy może wesprzeć OSM, a tysiące ludzi dołącza do projektu 
+każdego dnia. Użytkownicy rysują mapy na komputerach, zamiast na papierze, ale jak 
+zobaczymy w tym przewodniku, rysowanie na komputerze nie różni się 
+wiele od rysowania na papierze. Wciąż rysujemy linie do pokazania dróg,
+pól i wszystkiego innego, a także przedstawiamy szkoły i szpitale 
+za pomocą symboli. Ważne jest, że mapy OSM są zapisywane w 
+internecie i każdy może mieć do nich dostęp o każdej porze, całkowicie za darmo.
 
 ![Digital maps with OpenStreetMap][]
 
