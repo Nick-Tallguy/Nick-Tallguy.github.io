@@ -65,117 +65,117 @@ lub
 
 ### Prześlij plik GeoJSON lub KML z obszarem zainteresowania do zmapowania  
 
-1. Click the ‘Import’ button,  
-2. Browse to your file in the File Upload window,  
-3. Click the file name to highlight the file and then click ‘Open’.  
-4. Imported areas of interest can not be edited.
+1. Kliknij przycisk "Importuj",  
+2. W oknie przesyłania przejdź do swojego pliku,  
+3. Kliknij nazwę pliku, aby go podświetlić i kliknij 'Otwórz'.  
+4. Zaimportowane obszary zainteresowania nie mogą być edytowane.
 
 
 ## Tworzenie zadania
 
-An AoI for a project is the large overall area to map. That area is then divided up into smaller areas called Tasks. 
+AOI projektu jest dużym obszarem do zmapowania. Obszar ten jest podzielony na mniejsze kawałki nazywane zadaniami. 
 
-The AoI defined by the file upload or hand drawn will appear in the map frame, and you will then be asked to choose how the AoI is split into individual tasks. There are two options:  
+AOI określony poprzez przesłanie pliku lub ręczne rysowanie pojawi się na mapie, a wtedy zostaniesz poproszony o wybranie sposobu podzielenia go na indywidualne zadania. Są na to dwie możliwości:  
 
-1. Square Grid - The Tasking manager will uniformly divide up the overall project area in exactly the same sized task squares. This is usually a very good idea for general crowdmapping projects.
-2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes or the output from an AoI reduction process for example.
+1. Kwadratowa siatka - Tasking Manager podzieli równomiernie cały obszar projektu na kwadraty o takich samych wymiarach. Jest to zazwyczaj dobry pomysł dla ogólnych projektów wspólnego mapowania.
+2. Dowolne geometrie - Jeżeli wgrywasz plik określający obszar Twojego projektu, możesz również w nim zawrzeć kształty poszczególnych zadań. Mogą pojawić się specjalne potrzeby, żeby tworzyć zadania o nieregularnych kształtach. Na przykład projekt importu dróg może wymagać dopasowanych kształtów zadań lub powstaną one w wyniku procesu redukcji AOI.
 
-### Using the Square Grid for task squares
+### Używanie kwadratowej siatki do zadań w kwadratch
 
-To create uniform square tiles, select the Square Grid option.  
+Aby utworzyć jednolite kwadratowe kafelki, wybierz opcję Kwadratowa siatka.  
 
 ![TM Tile Sizes][]
 
-The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+AOI jest automatycznie dzielony na siatkę komórek, a każda komórka staje się zadaniem. Określ optymalny rozmiar kafelków używając przycisków "Większe" i "Mniejsze", aby dopasować je do rozmiarów zadań. Mniejszy rozmiar kafelków oznacza więcej zadań. Optymalny rozmiar kafelków zależy jednocześnie od wielkości obszaru (twórz mniejsze kafelki dla dużych projektów) i liczby obiektów, które powinny być zmapowane w każdym z nich. Generalnie rzecz biorąc, im większy jest AOI i/lub liczba pożądanych obiektów, tym mniejsze powinny być kafelki. 
 
-Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+Zauważ, że **przy określaniu rozmiaru kwadratów zadań jest dostępnych do użycia wiele warstw mapy**. Przycisk w prawym dolnym rogu mapy dostarcza listę opcji dla warstw mapy. Prawdopodobnie najlepszą opcją jest wybranie jednego z podkładów, ponieważ pozwala Ci zobaczyć aktualny obraz tego, co będzie mapowane.
 
-If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
+Jeżeli masz własny podkład dla projektu, możesz go również załadować używając przycisku w prawym górnym rogu mapy i podając url do TMS lub WMS.
 
-You can also create several different task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where tasks need to be split. The "Reset" button will reset all of your split tasks. The Split (Polygon) option will let you draw a polygon over an area to create smaller tasks and the Split (Point) will let you click individual task squares to split. The Reset button will remove all of your custom splitting.
+Możesz także utworzyć zadania w kilku różnych rozmiarach używając narzędzi "Podziel". Kwadraty zadań mogą być dzielone wiele razy. Ponownie, użycie warstwy podkładu pomoże Ci zdecydować, gdzie zadanie wymaga podzielenia. Przycisk "Resetuj" zresetuje wszystkie podzielone zadania. Opcja Podziel (wielokąt) pozawala narysować wielokąt nad obszarem, aby utworzyć mniejsze zadania, a Podziel (punkt) pozwala wybrać pojedyncze zadania do podziału. Przycisk Reset usuwa wszystkie Twoje niestandardowe podziały.
 
-> Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
+> Ogólnie, powinieneś używać mniejszych kafelków nad gęsto zabudowanymi obszarami mieszkalnymi. Celem powinno być utworzenie zadań, które da się wykonać w 10-15 minut.
 
-***Considerations before deciding on tile sizes***
+***Rozważania przed podjęciem decyzji o rozmiarze kafelków***
 
--  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),. 
--  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie'.
--  A new mapper also finds it difficult to trace lots of features such as buildings.
--  Later in the process you have the opportunity for a mapper to 'split' a square - splitting a square into quarters helps new mappers get a square size they can cope with.  
--  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
--  A square may be split, but there is no option to join squares together to make them bigger again. So be careful when splitting
--  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
+-  Całkiem nowy maper na mapathonie mapuje obszar około cztery razy wolniej niż doświadczony (wielu zaczyna dużo wolniej, ale wkrótce przyspiesza). 
+-  Nowy maper uważa, że trudno jest znaleźć na podkładzie satelitarnym obiekty, które inni dostrzegają. Znajdowanie okrągłych chat krytych strzechą na obszarze okrągłych krzaków jest trudnym procesem uczenia się dla 'nowicjusza'.
+-  Nowy maper uważa również, że wiele obiektów trudno jest odwzorować, jak np. budynki.
+-  Później w tym procesie masz możliwość 'podzielenia' maperowi kwadratu - podzielenie go na mniejsze kwadraciki pomoże uzyskać nowemu maperowi taki rozmiar, z którym sobie poradzi.  
+-  Częściami kwadratu, które sprawiają największe problemy są krawędzie i narożniki. Dlatego też mniejsze kwadraty oznaczają więcej rogów i krawędzi, co w efekcie daje duplikaty lub brakujące obiekty. Więc jest to kompromis pomiędzy tym, jakie małe zrobisz kwadraty, by ułatwić pracę nowym maperom, a wzrostem błędów z powodu dużej liczby krawędzi i narożników.
+-  Kwadrat może zostać podzielony, ale nie ma możliwości połączenia kwadratów z powrotem, aby je powiększyć. Bądź uważny przy dzieleniu.
+-  **Wniosek** Spróbuj samemu zmapować obszar projektu, aby zobaczyć, czy będzie łatwo i z jakie napotkasz problemy. Pomoże Ci to zdecydować o optymalnym rozmiarze kwadratu. Dopuszczaj dzielenie, ale nie bez końca - niektórzy nowi maperzy dzielą kwadraty tak długo, aż są na tyle małe, że stają się ekstremalnie trudne do mapowania.  
 
-After finalizing Task sizes, click “Next”.
+Po ustaleniu rozmiaru zadań, kliknij "Dalej".
 
-### Arbitrary Geometries
+### Dowolne geometrie
 
-It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AoI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
+Jeżeli przesyłasz plik do określenia obszaru projektu, to może on dodatkowo zawierać informacje o dokładnych kształtach, jakie chcesz, aby miały indywidualne zadania. Jeżeli AOI zawiera jeden wielokąt, projekt będzie miał tylko jedno zadanie. Generalnie nie używa się tego, ale jest przydatne w konkretnych potrzebach.
 
-Arbitrary geometries can not be split.
+Dowolne geometrie nie mogą być dzielone.
 
-### Project Area Trim
+### Przycinanie obszaru projektu
 
-After determining the task sizes you will have the option to "Trim" your AoI. You can either trim the AoI to the exact polygon shape you drew or imported (suggested) or you can trim to the nearest task square that includes your AoI.
+Po określeniu rozmiarów zadań możesz skorzystać z opcji "Przytnij" Twój AOI. Możesz przyciąć AOI zarówno do dokładnego kształtu wielokąta, który narysowałeś lub zaimportowałeś (polecane), jak i do najbliższego kwadratu, który zawiera Twój AOI.
 
-After finalizing a the AoI trim, click “Next”.
+Po zakończeniu przycinania AOI, kliknij "Dalej".
 
 ## Utwórz projekt
 
-Give the project a title (can be edited on the next screen) and click "Create"
+Nadaj projektowi tytuł (może być edytowany na następnym ekranie) i kliknij "Utwórz"
 
-This establishes the project in the Tasking Manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+To założy projekt w Tasking Managerze i otworzy ekran, na którym będziesz mógł podać opis, wskazówki i inne informacje o projekcie. Pamiętaj, że nie możesz tego lekceważyć. Spora część maperów (w wielu przypadkach większość) nie będzie miała wcześniejszego doświadczenia z OpenStreetMap i/lub HOT, więc nie będą zaznajomieni z wytycznymi dotyczącymi tagowania. Jest bardzo ważne, żeby cele projektu są jasno określone i wszystko, co maperzy powinni wziąć pod uwagę jest przedstawione tutaj. Często zaleca się, aby umieścić w projekcie jedną klasę obiektów do zmapowania. Jeżeli potrzebujesz podstawowej mapy obszaru, lepiej jest podzielić to na kilka projektów: jeden dla dróg, jeden dla budynków, itd. Wtedy początkujący będą mogli skupić się na małej klasie obiektów w czasie nauki prawidłowego mapowania. W przeciwnym wypadku możesz zostać z mnóstwem kafelków, które zawierają po trochu wszystkiego, ale nic rzeczywiście kompletnego.
 
-Once the Project is created, you will need to edit all its associated settings:
+Po utworzeniu projektu, będziesz mógł edytować wszystkie powiązane z nim ustawienia:
 
-- Description - Used for display in lists and motivational information for mappers
-- Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-- Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-- Imagery - Place to provide a TMS URL and License required.
-- Priority Areas - Allows you to specify parts of the Project that should be mapped first.
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Project due date and JOSM Presets.
-- Actions - Send messages to contributors, validate and invalidate the entire project with one click.
+- Opis - Używany do wyświetlenia na liście i informacji motywujących maperów
+- Wskazówki - Szczegółowe wskazówki co i jak mapować, potrzebne obiekty/wystąpienia/cechy
+- Metadane - Dodatkowe informacje używane do kategoryzowania projektu. Często używane przy filtrowaniu całej listy projektów.
+- Podkład - Miejsce do wprowadzenia adresu URL TMS i wymaganej licencji.
+- Obszary priorytetowe - Pozwala określić części projektu, które powinny być zmapowane jako pierwsze.
+- Uprawnienia - Pozwala Ci ograniczyć dostęp do mapowania i weryfikowania projektu.
+- Ustawienia - Termin realizacji projektu i szablon JOSM.
+- Akcje - Wyślij wiadomości do twórców, weryfikuj i odrzucaj cały projekt jednym kliknięciem.
 
 ### Opis
 
 ![TM Description][]
 
-This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
+Ten ekran pozwala Ci ustawić priorytet projektu, jego status jako szkic, opublikowany lub zarchiwizowany, krótki opis używany na liście projektów i długi opis dostępny po wybraniu projektu przez mapera.
 
-Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
+Zarówno krótki, jak i długi opis powinny zawierać informacje o tym dlaczego projekt istnieje, kto będzie używał danych i spodziewany wpływ, jaki będzie miało mapowanie. Te pola wspierają formatowanie Markdown oraz mogą zawierać obrazy i filmy.
 
-### Instrukcje
+### Wskazówki
 
 ![TM Instructions][]
 
-**Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
+**Wystąpienia do zmapowania** - Lista obiektów, które chcesz, aby użytkownicy zmapowali. Ogólnie, im mniej obiektów tym lepiej, jako że łatwiej o ukończenie.
 
-> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
+> Projekty, które wymagają zmapowania wielu wystąpień są trudne dla maperów i trudne do zweryfikowania. Zajmują więcej czasu, aby uzyskać z nich dobry zestaw danych. Rozmiar zadań też ma wpływ na wydajność przy różnych typach mapowania, np. budynki wymagają mniejszych kwadratów zadań, drogi i rzeki większych. Tworzenie wielu projektów na tym samym obszarze, osobno dla budynków i dla obiektów liniowych, jest najlepszą praktyką.
 
-**Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
+**Komentarz zestawu zmian** - To jest domyślny komentarz zestawu zmian, który zostanie dodany do wszystkich danych wysyłanych do OSM. Zazwyczaj zawiera coś, co określa, na jakim Tasking Managerze znajduje się projekt i obiekty, które zostały zmapowane. Jest zazwyczaj używany do "hasztagów", aby pomóc zidentyfikować potrzebującą organizację i/lub mapujących. Może też opisywać, co zostało zmapowane, np. "Mapowanie budynków".
 
-> Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
+> Użytkownicy powinni być poinstruowani, aby wypełniać sensownie komentarze o tym, co zmapowali, ale pomaganie im odpowiednim komentarzem domyślnym jest zawsze dobrym pomysłem.
 
-**Detailed Instructions** - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+**Szczegółowe wskazówki** - To jest miejsce, gdzie znajdzie się większość Twoich szczegółowych wskazówek, które, mamy nadzieję, każdy maper i weryfikator przeczyta dokładnie i będzie ich przestrzegał.
 
-See the below notes on creating good instructions.
+Zobacz poniższe uwagi o tworzeniu dobrych wskazówek.
 
-**Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
+**Instrukcje na zadanie** - To będzie wyświetlone, kiedy maper wybierze zadanie, a także ma specjalną funkcję, która pozwala na tworzenie specyficznych dla zadania adresów URL bazujących na współrzędnych x, y, z "uproszczonej mapy".
 
 ### Metadane
 
 ![TM Metadata][]
 
-> All of these fields should be filled out and will become non-optional in future versions of TM3.
+> Wszystkie te pola powinny być wypełnione i będą wymagane w przyszłych wersjach TM3.
 
-**Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
+**Poziom mapera** - To jest wskaźnik trudności projektu mapowania. Są 3 opcje do wyboru początkujący, pośredni i zaawansowany. To ustawienie wskazuje maperowi, jaki poziom doświadczenia powinien mieć, aby pomyślnie ukończyć projekt mapowania. Może być używany w filtrowaniu listy projektów, a na ekranie uprawnień można określić sugerowany poziom, który może być wymagany.
 
-**Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
+**Rodzaj mapowania** - Używany w filtrowaniu listy projektów i pomaga maperom znaleźć projekty, jakie lubią mapować.
 
-**Organization **- Allows you to specify the organization the mapping will be used by. Used in project filtering.
+**Organizacja** - Pozwala Ci określić organizację, która będzie używać zmapowanych danych. Używane w filtrowaniu projektów.
 
-**Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
+**Kampania** - To pozwala Ci połączyć projekt z innymi, które są częścią większego wysiłku mapowania. Używane w filtrowaniu listy projektów.
 
 ### Obszary priorytetowe
 
