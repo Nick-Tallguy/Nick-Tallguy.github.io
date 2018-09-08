@@ -181,25 +181,25 @@ Zobacz poniższe uwagi o tworzeniu dobrych wskazówek.
 
 ![TM Priority Area][]
 
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+Użyj dostępnych narzędzi do narysowania obszarów, które powinny być zmapowane w pierwszej kolejności. Możesz mieć wiele obszarów priorytetowych w projekcie. Możesz je również zmieniać w każdej chwili.
 
-> During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
+> Podczas mapowania katastrof, na początku wydarzenia, posiadanie dużego obszaru zainteresowania i używanie obszarów priorytetowych do skupienia się na nadchodzących informacjach jest najlepszym podejściem.
 
-### Obrazowanie
+### Podkład
 
-URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
+Pole URL - Pole, w którym podajesz URL do TMS, który zostanie automatycznie zastosowany w edytorze OSM, którego używa maper lub weryfikator. Zwróć uwagę na przykład, ponieważ jest bardzo ważne, żeby link był sformatowany prawidłowo, aby działał we wszystkich edytorach.
 
-License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licencja - Opcjonalnie, jeżeli jest wymagana specyficzna licencja, którą musi zaakceptować maper, możesz ją wybrać tutaj. Jeżeli potrzebujesz licencji, która jest niedostępna, skontaktuj się z administratorem instalacji Tasking Managera i poproś go o dodanie jej.
 
 ### Upoważnienia
 
 ![TM Permissions][]
 
-Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
+Poziom mapera - Pozwala Ci ustawić wymóg posiadania odpowiedniego poziomu przez mapera do pracy w tym projekcie (ekran Metadane powyżej). Poziomy maperów mogą być ustawiane ręcznie, ale są automatycznie przypisywane na podstawie ilości zestawów zmian.
 
-Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
+Wymagaj roli weryfikatora - To pozwala Ci wymagać, aby ludzie weryfikujący, byli sprawdzeni i zakwalifikowani jako weryfikatorzy. Uznanie kogoś za weryfikatora, menadżera projektu jest procesem wzajemnej oceny, więc istniejący weryfikatorzy mogą oznaczyć każdego użytkownika jako sprawdzonego weryfikatora.
 
-Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
+Prywatny projekt - To ograniczy dostęp do projektu tylko dla listy użytkowników. Użytkownik musi przynajmniej raz zalogować się do Tasking Managera, zanim będzie można dodać go do projektu.
 
 ### Ustawienia
 
@@ -209,48 +209,48 @@ Domyślne ustawienia regionalne - Umożliwia ustawienie domyślnego języka inst
 
 ![TM Actions][]
 
-Message All Contributors - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+Powiadom wszystkich współtwórców - Wysyła wiadomość w Tasking Managerze do wszystkich, którzy oznaczyli zadania jako ukończone lub zweryfikowane. Można tego użyć, aby podziękować i/lub wskazać twórcom inne projekty w portfolio/kampanii. Może też być użyte przed wybraniem opcji Weryfikuj/Odrzuć wszystkie zadania opisanej poniżej.
 
-Validate all Tasks - This will mark all tasks to "Green" validated status, with the exception of tasks that have been marked as "Bad Imagery"
+Zweryfikuj wszystkie zadania - To oznaczy "zielonym" zweryfikowanym statusem wszystkie zadania, z wyjątkiem tych, które są oznaczone jako "Zły podkład"
 
-Invalidate all Tasks - This will mark all tasks to "Red" invalidated status, with the exception of tasks that have been marked as "Bad Imagery"
+Odrzuć wszystkie zadania - To oznaczy "czerwonym" odrzuconym statusem wszystkie zadania, z wyjątkiem tych, które są oznaczone jako "Zły podkład"
 
-Delete Project - This will permanently delete the project from the Tasking Manager.
+Usuń projekt - To usunie całkowicie projekt z Tasking Managera.
 
-Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
+Klonuj projekt - To utworzy duplikat projektu z wyjątkiem obszaru zainteresowania, który będziesz musiał ponownie zaimportować lub narysować.
 
-### Uwagi instrukcyjne
+### Wskazówki
 
-Please use plain language as your target audience may not consist of native English speakers.
+Używaj prostego języka, ponieważ angielski może nie być ojczystym językiem dla Twojej docelowej grupy.
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
-*#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
+1. Tytuł projektu powinien ujawniać, co jest do zmapowania. Preferowane są tytuły takie, jak
+*#1396 - Missing Maps: stan Niger (północ), Nigeria (projekt 1: drogi i obszary zamieszkane)*
+2. Najważniejsze wiadomości powinny pojawić się na karcie z informacjami, aby zagwarantować ich przeczytanie. Trzeba też zawrzeć tam specjalny podkład do użycia zamiast Binga. Pierwsze zdania mogą mówić, na przykład o tym, że nie jest wymagane odwzorowanie każdego budynku jeżeli jest to projekt dotyczący dróg i obszarów zamieszkanych. Lub trzeba zmapować każdy dom, jeżeli projekt ma być użyty do oszacowania gęstości zaludnienia. To są wiadomości, które powinny pojawić się również na karcie opisu.
+3. Inne punkty wyjaśniające: Jeżeli projekt jest odpowiedni tylko dla maperów z konkretnym poziomem doświadczenia. Na przykład projekt używa importów albo istniejące dane powinny być dopasowane do śladów GPS albo innego podkładu (por. z poprzednią sekcją). Wyjaśnij, że nowi maperzy powinni czuć się zaproszeni do innych projektów, ale prosisz o wyrozumiałość i zrozumienie, że w tym wystąpieniu potrzebne są zaawansowane techniki.
+4. Istnieją wytyczne, które opisują typowe błędy popełniane przy weryfikowaniu. Jednym z przykładów jest kompilacja Blake'a Girardota o [mapowaniu w Zachodniej Afryce](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Użyj tego linku we wskazówkach i wyjaśnij, że wymagane jest stosowanie się do tych wytycznych.
+5. Ostatecznym źródłem tagowania jest [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Pl:Map_Features). Dla wielu zadań powiązanych z HOT strona [tagowanie dróg w Afryce](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) jest odpowiednią i mocno polecaną lekturą dla każdego mapera. Jeżeli Twój projekt musi odpowiadać różnym standardom tagowania, napisz podobną stronę w wiki i zalinkuj ją w swoich wskazówkach.
 
 
-### Considerations concerning Imagery
+### Rozważania o podkładzie
 
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+W większości przypadków używamy "standardowego" podkładu Bing. Ale są pewne sytuacje, w których możesz chcieć wybrać inne źródło:
 
-1. Bing does not provide high-resolution coverage for your AoI.
-2. Bing has considerable cloud cover in this area.
-3. You need newer imagery for post-disaster evaluation.
+1. Bing nie dostarcza pokrycia Twojego obszaru zainteresowania w wysokiej rozdzielczości.
+2. Bing ma sporo chmur w tym obszarze.
+3. Potrzebujesz nowszego podkładu do oceny sytuacji po katastrofie.
 
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+Jeżeli Bing nie jest odpowiedni, następnym wyborem jest Mapbox. Powinieneś szukać innych źródeł jeśli żadne z tych dwóch nie spełniają Twoich wymagań.
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AoI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AoI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+W takich przypadkach nie wystarczy tylko wybrać źródła o odpowiedniej licencji i udostępnić go przez usługę WMS lub TMS. Twój obszar zainteresowania prawdopodobnie jest już częściowo zmapowany przy użyciu podkładów Bing lub Mapbox i może pojawić się znaczące przesunięcie pomiędzy tymi obrazami. Musisz dokładnie przyjrzeć się różnym miejscom w Twoim obszarze zainteresowania i określić przesunięcie pomiędzy Twoim podkładem i wcześniej zmapowanymi danymi. Jeżeli istniejące dane OSM są nieznacznie przesunięte w stosunku do Twojego podkładu, ale pasują do Binga, to zazwyczaj przyjmujemy, że Bing jest "złotym standardem", dopóki nie mamy śladów GPS, które zaprzeczą temu założeniu.
 
-If there is a constant offset between your imagery and Bing across the AoI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AoI or if existing data are aligned with various sources then it is time for plan B:
+Jeżeli przesunięcie pomiędzy Twoim podkładem, a Bingiem jest stałe w całym obszarze zainteresowania, to można to skorygować na serwerze tak, że obrazy z różnych źródeł załadowane do edytora będą do siebie pasować. Jeżeli to nie jest możliwe, jeżeli przesunięcie jest zmienne lub istniejące dane są dopasowane do różnych źródeł, to przychodzi czas na plan B:
 
-The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+Ważnym zadaniem dla Ciebie jest to, że musisz przemyśleć, jak poradzić sobie z tymi problemami i dostarczyć szczegółowe instrukcje maperom i weryfikatorom. Zdecydowanie polecamy określenie takiego projektu jako "tylko dla doświadczonych maperów" i wyjaśnienie, że doświadczenie, w tym wypadku, nie oznacza zmapowania 200+ budynków, ale umiejętności radzenia sobie z problemami dopasowania i różnymi źródłami podkładów.
 
-One possible strategy could include these steps:
+Jedna z możliwych strategii może składać się z następujących kroków:
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
+1. Jasno określ, który podkład jest brany jako odniesienie, do którego wszystko inne powinno być dopasowane. W tym przykładzie załóżmy, że bazą jest Bing.
+2. Upewnij się, że wszystkie istniejące obiekty, widoczne na podkładzie Bing, są do niego wyrównane, ew. je dopasuj ponownie.
 3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
 4. Add new features from the now correctly aligned alternative imagery.
 
