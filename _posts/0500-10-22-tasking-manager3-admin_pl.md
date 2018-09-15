@@ -251,21 +251,21 @@ Jedna z możliwych strategii może składać się z następujących kroków:
 
 1. Jasno określ, który podkład jest brany jako odniesienie, do którego wszystko inne powinno być dopasowane. W tym przykładzie załóżmy, że bazą jest Bing.
 2. Upewnij się, że wszystkie istniejące obiekty, widoczne na podkładzie Bing, są do niego wyrównane, ew. je dopasuj ponownie.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
-4. Add new features from the now correctly aligned alternative imagery.
+3. Dopasuj alternatywny podkład do istniejących obiektów (a więc do Binga) używając funkcji przesunięcia podkładu w edytorze.
+4. Od teraz możesz dodawać nowe obiekty prawidłowo wyrównane do swojego podkładu.
 
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AoI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+Jest ważne, aby krok 3 powtórzyć dla każdego zadania w projekcie, a pojedyncze kwadraty zadań nie powinny być zbyt duże, ponieważ przesunięcie podkładu może być zmienne w obszarze zainteresowania, zwłaszcza jeśli teren nie jest płaski. Nawet nieciągłości podkładu mogą się zdarzyć w projekcie - sprawdź to i ewentualnie ostrzeż twórców o takim problemie.
 
-Here are some suggested bits of information which you might include in the project instructions:
+Tutaj jest kilka sugerowanych kawałków informacji, które możesz zawrzeć we wskazówkach do projektu:
 
-- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [ogólne wytyczne dla różnych edytorów](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [animowany gif o wyrównywaniu podkładu w iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [rozdział learnOSM o wyrównywaniu podkładu w josm](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-### Proofread and Publish
-Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
-If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+### Sprawdzenie i publikowanie
+Sprawdź różne zakładki, aby upewnić się, że słownictwo i formatowanie jest prawidłowe, a wskazówki są jasne. Jeżeli potrzebujesz wprowadzić zmiany albo poprawić swój projekt, kliknij link 'Edytuj' w prawym górnym rogu strony. 
+Jeżeli projekt jest gotowy do mapowania, kliknij link 'Opublikuj'. Kiedy projekt zostanie opublikowany, staje się dostępny do mapowania dla każdego, kto ma konto OSM, chyba że została określona grupa użytkowników na karcie 'Dozwoleni użytkownicy', to tylko oni będą mogli pracować nad projektem. Jeżeli pojawi się taka potrzeba, zmiany w projekcie mogą być wprowadzane po opublikowaniu poprzez kliknięcie linku 'Edytuj'.
 
 [TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
 [TM New]: /images/coordination/tm3_create_new.png
