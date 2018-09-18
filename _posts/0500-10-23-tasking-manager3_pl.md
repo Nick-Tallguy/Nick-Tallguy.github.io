@@ -1,44 +1,44 @@
 ---
 layout: doc
-title: Menedżer zadań 3
+title: Tasking Manager 3
 permalink: /pl/coordination/tasking-manager3/
 lang: pl
 category: coordination
 ---
 
-# Menedżer zadań 3
+# Tasking Manager 3
 
 > Ten przewodnik może zostać pobrany jako [tasking-manager3_pl.odt](/files/tasking-manager3_pl.odt) lub [tasking-manager3_pl.pdf](/files/tasking-manager3_pl.pdf)  
 
-**This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager)**
+**Ten przewodnik opisuje aktualną wersję Tasking Managera. Jeżeli interfejs użytkownika wersji, którą używasz jest inny od opisanego tutaj, powinieneś spojrzeć na [podręcznik do poprzedniej wersji](/pl/coordination/tasking-manager)**
 
 Spis treści działu
 -------------
 -  [Przewodnik szybkiego startu](/pl/coordination/tasking-manager3/#quick-start-guide)  
--  [Proces tworzenia mapy](/pl/coordination/tasking-manager3/#mapping-process)  
+-  [Proces mapowania](/pl/coordination/tasking-manager3/#mapping-process)  
     -  [Logowanie się](/pl/coordination/tasking-manager3/#tasking-manager-login)  
     -  [Opcje - ustawienia języka i profil użytkownika](/pl/coordination/tasking-manager3/#options-amp-links)  
-    -  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
-    -  [Mapping a Task - select, work on and unlock a task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
--  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
--  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
--  [Validation](/en/coordination/tasking-manager3/#validation)
+    -  [Znajdowanie projektu - z listy i używając widoku mapy, szukanie i filtrowanie](/pl/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+    -  [Mapowanie zadania - wybieranie, praca nad i odblokowanie zadania](/pl/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
+-  [Uzyskiwanie pomocy - na żywo i kontaktując się z administratorem projektu](/pl/coordination/tasking-manager3/#getting-help)  
+-  [Podpowiedzi i wskazówki](/pl/coordination/tasking-manager3/#editing-hints-and-tips)
+-  [Weryfikacja](/pl/coordination/tasking-manager3/#validation)
 
-The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
+[HOT OSM Tasking Manager](http://tasks.hotosm.org) jest narzędziem, które koordynuje wielu ludzi mapujących określone obszary geograficzne w OpenStreetMap.
 
-OpenStreetMap is a collabarative, crowd sourced, free map of the world. Anyone can contribute to OpenStreetMap to map any part of the world that interests them. The Tasking Manager is just a way to coordinate large groups of people contributing to OpenStreetMap but most contributions to OpenStreetMap are done by people not using the Tasking Manager.
+OpenStreetMap jest współtworzoną przez ludzi, wolną mapą świata. Każdy może wesprzeć OpenStreetMap przez mapowanie dowolnej części świata, która go interesuje. Tasking Manager jest tylko pomocą w koordynowaniu dużych grup ludzi tworzących OpenStreetMap, ale i tak większość wkładu do OpenStreetMap jest zrobiona przez ludzi nieużywających Tasking Managera.
 
-The Tasking Manager is a totally separate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager, you are actually using multiple software tools:
+Tasking Manager jest narzędziem całkowicie odrębnym od głównego projektu OpenStreetMap. Kiedy wspierasz OpenStreetMap używając Tasking Managera, tak na prawdę używasz wielu rozwiązań:
 
-* OpenStreetMap - A database of geographic information
-* The Tasking Manager - Helps coordinate large numbers of people editing OpenStreetMap data in the same area
-* An OpenStreetMap Editor - A software program that can read and write data into the OpenStreetMap database
+* OpenStreetMap - Baza danych informacji geograficznych
+* Tasking Manager - Pomaga koordynować dużą liczbę ludzi edytujących dane OpenStreetMap w tym samym obszarze
+* Edytor OpenStreetMap - Program, który potrafi czytać i zapisywać dane w bazie danych OpenStreetMap
 
 ![TM overview][]
 
-The role of the Tasking Manager is to present a specific geographic region divided up into small, quick to map areas called "Tasks" and provide a way to "checkout" or "lock" one of those small areas while you map that area using one of the standard OpenStreetMap editors. By "checking out" or "locking" one of those small areas, you help ensure that no one else will be mapping in that same area while you are. This helps prevent "double mapping" or other errors when two people are working on exactly the same area in OpenStreetMap.
+Zadaniem Tasking Managera jest prezentować konkretne regiony geograficzne podzielone na małe, szybkie do zmapowania kawałki zwane "Zadaniami" i dostarczyć sposób na "sprawdzenie" lub "zablokowanie" jednego z tych małych obszarów, kiedy go mapujesz używając jednego ze standardowych edytorów OpenStreetMap. Poprzez "sprawdzanie" lub "blokowanie" jednego z tych małych obszarów, zapewniasz sobie, że nikt inny nie będzie mapował w tym samym czasie tego obszaru. Pomaga to zapobiegać "podwójnemu mapowaniu" lub innym błędom, kiedy dwie osoby pracują nad dokładnie tym samym obszarem w OpenStreetMap.
 
-Once you are done mapping that small area, you record in the Tasking Manager that you have finished mapping that small area and hopefully you select another "Task" to map.
+Kiedy skończysz mapowanie tego małego obszaru, zapisujesz w Tasking Managerze, że ukończyłeś mapowanie i możesz wybrać kolejne "Zadanie" z mapy.
 
 
 ## Przewodnik szybkiego startu

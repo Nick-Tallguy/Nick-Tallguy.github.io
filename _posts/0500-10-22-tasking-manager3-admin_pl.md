@@ -10,7 +10,7 @@ category: coordination
 
 > Ten przewodnik może zostać pobrany jako samodzielny moduł: [tasking-manager3-admin_pl.odt](/files/tasking-manager3-admin_pl.odt) lub [tasking-manager3-admin_pl.pdf](/files/tasking-manager3-admin_pl.pdf) 
 
-**Ten przewodnik opisuje aktualną wersję Tasking Managera. Jeżeli interfejs użytkownika wersji, którą używasz jest inny od opisanego tutaj, powinieneś spojrzeć na [podręcznik do poprzedniej wersji](/en/coordination/tasking-manager-project-admin)**
+**Ten przewodnik opisuje aktualną wersję Tasking Managera. Jeżeli interfejs użytkownika wersji, którą używasz jest inny od opisanego tutaj, powinieneś spojrzeć na [podręcznik do poprzedniej wersji](/pl/coordination/tasking-manager-project-admin)**
 
 Spis treści działu
 -------------
@@ -260,7 +260,7 @@ Tutaj jest kilka sugerowanych kawałków informacji, które możesz zawrzeć we 
 
 - [ogólne wytyczne dla różnych edytorów](https://wiki.openstreetmap.org/wiki/Using_Imagery)
 - [animowany gif o wyrównywaniu podkładu w iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [rozdział learnOSM o wyrównywaniu podkładu w josm](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [rozdział learnOSM o wyrównywaniu podkładu w josm](http://learnosm.org/pl/josm/correcting-imagery-offset)
 
 
 ### Sprawdzenie i publikowanie
