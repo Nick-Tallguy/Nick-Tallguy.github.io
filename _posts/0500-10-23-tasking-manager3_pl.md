@@ -47,33 +47,33 @@ Kiedy skończysz mapowanie tego małego obszaru, zapisujesz w Tasking Managerze,
   ![TM Quick Start 1][]
 2. Odwiedź stronę [http://tasks.hotosm.org/](http://tasks.hotosm.org/) i zaloguj się poprzez górny prawy narożnik  
   ![TM Quick Start 2][]
-3. Click on "Contribute" and find a mapping project to work on  
+3. Kliknij "Wesprzyj" i znajdź projekt mapowania do pracy  
   ![TM Quick Start 3][]
 4. Przeczytaj instrukcje dla projektu  
   ![TM Quick Start 4][]
-5. Kliknij kartę "Map"  
+5. Kliknij kartę "Mapa"  
   ![TM Quick Start 5][]
-6. Find a "Ready" task to work on, click on it and select "Start Mapping"  
+6. Znajdź "Gotowe" zadanie do pracy, kliknij na nim i wybierz "Rozpocznij mapowanie"  
   ![TM Quick Start 6][]
-7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.  
+7. Zostaniesz przeniesiony do edytora OpenStreetMap, zmapuj wszystkie obiekty wskazane w instrukcjach.  
   ![TM Quick Start 7][]
-8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.  
+8. Kiedy skończysz mapowanie, przełącz się z powrotem do Tasking Managera i kliknij "Oznacz jako całkowicie zmapowane" jeżeli wykonałeś w pełni zadanie lub "Koniec mapowania" jeżeli potrzebujesz przerwać mapowanie z jakiegoś powodu.  
   ![TM Quick Start 8][]
 
 
 ## Proces mapowania 
 
-1. A remote mapper creates an account in OpenStreetMap and logs into the Tasking Manager.
-1. The mapper finds a project to work on, usually based on priority and skill level set by a Tasking Manager project manager. 
-2. A remote mapper selects a task square, completes the mapping, and marks the task as complete.
-3. A second remote mapper checks that the task is completed to a satisfactory level and marks the task as 'validated'
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
+1. Zdalny maper tworzy konto na OpenStreetMap i loguje się do Tasking Managera.
+1. Maper znajduje projekt do pracy, zazwyczaj opierając się na priorytecie i poziomie umiejętności ustawionym przez menadżera projektu Tasking Managera. 
+2. Zdalny maper wybiera kwadrat zadania, mapuje go i oznacza zadanie jako wykonane.
+3. Inny zdalny maper sprawdza, czy zadanie jest wykonane na zadowalającym poziomie i oznacza zadanie jako 'zatwierdzone'
+4. Proces mapowania projektu można obserwować w zakładce "statystyki", a projekt może być zdegradowany lub zarchiwizowany według uznania administratora.
 
 ### Logowanie do Menedżera zadań
 
-The Tasking Manager is a separate tool that coordinates mapping in OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a separate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
+Tasking Manager jest osobny narzędziem, które koordynuje mapowanie w OpenStreetMap. Pomimo tego używa systemu logowania OpenStreetMap. To oznacza, że nie potrzebujesz tworzyć osobnego konta do używania Tasking Managera, ale musisz utworzyć konto OpenStreetMap zanim będziesz mógł wykorzystać go do mapowania.
 
-When you first visit the Tasking Manager you will see a "Login" button in the upper right corner of the screen.
+Podczas pierwszej wizyty w Tasking Managerze zobaczysz przycisk "Zaloguj" w prawym górnym rogu ekranu.
 
 ![TM login 1][]
 
