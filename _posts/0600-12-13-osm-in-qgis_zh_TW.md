@@ -41,7 +41,7 @@ For this tutorial we will use the built-in download function in QGIS.
 > This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
 
 
-Importing Data into SQLite
+匯入資料到SQLite
 ---------------------------
 
 Next we will need to import our raw **.osm** file into a SQLite Database file.  
@@ -95,7 +95,7 @@ You can see here that we have a table which includes only the attributes we sele
 Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
 
 
-Summary
+摘要
 -------
 
 This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
