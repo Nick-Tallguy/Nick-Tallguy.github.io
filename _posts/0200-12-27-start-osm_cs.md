@@ -45,7 +45,7 @@ Zobrazení různých mapových vrstev
 
 OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
--   Click on the Layers button on the right side of the map window.
+- Klikněte na tlačítko Vrstvy na pravé straně okna mapy.
 
     ![Layers button][]
 
@@ -53,7 +53,7 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 
     ![Transport map][]
 
-Create an OpenStreetMap Account
+Vytvořit účet OpenStreetMap
 -------------------------------
 
 -   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
@@ -78,7 +78,7 @@ Create an OpenStreetMap Account
 -   A new tab or window will open. If everything went well, you should have an OSM account!
 -   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
-Adding Your First Points
+Přidání prvních bodů
 ------------------------
 
 -   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
@@ -109,8 +109,8 @@ The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find 
 
 However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
-Summary
--------
+Souhrn
+------- 
 
 Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
 
