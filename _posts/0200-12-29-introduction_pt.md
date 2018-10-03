@@ -9,12 +9,12 @@ category: beginner
 Introdução
 ============
 
-> Este guia pode ser descarregado como [beginner_introduction_pt.odt](/files/beginner_introduction_pt.odt) or [beginner_introduction_pt.pdf](/files/beginner_introduction_pt.pdf)  
-> Reviewed 2015-07-12  
+> Este guia pode ser descarregado no formato [beginner_introduction_pt.odt](/files/beginner_introduction_pt.odt) ou [beginner_introduction_pt.pdf](/files/beginner_introduction_pt.pdf)  
+> Revisto em 2015-07-12  
 
 Informação é poder. Com capacidade de análise e boa 
 informação, indivíduos e comunidades são mais capazes de melhorar 
-suas vidas e tomar melhores decisões sobre o futuro. Há muitas 
+as suas vidas e tomar melhores decisões sobre o futuro. Há muitas 
 pessoas e organizações que tomam decisões que afetam as nossas vidas. Informação 
 de qualidade permite que governos, ONGs e cidadãos tomem melhores decisões 
 em busca de tornarem nossas vidas melhores. Um mapa pode ser uma 
@@ -74,8 +74,8 @@ trabalho. Seguindo este guia, rapidamente você será capaz de começar
 a fazer mapas digitais com o OpenStreetMap.
 
 
-[A village in Indonesia]: /images/beginner/village-in-indonesia.png
-[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
-[Examples of symbols]: /images/beginner/examples-of-symbols.png
-[Mapping on Computer]: /images/beginner/mapping-on-computer.png
-[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
+[Uma aldeia na Indonésia]: /images/beginner/village-in-indonesia.png
+[Exemplo de um mapa desenhado à mão]: /images/beginner/hand-drawn-map.png
+[Exemplos de símbolos]: /images/beginner/examples-of-symbols.png
+[Mapear no Computador]: /images/beginner/mapping-on-computer.png
+[Mapas digitais com o OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

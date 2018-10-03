@@ -12,30 +12,30 @@ Začínáme s OpenStreetMap.org
 > Tento návod si můžete stáhnout jako [beginner_start-osm_cs.odt](/files/beginner_start-osm_cs.odt) nebo [beginner_start-osm_cs.pdf](/files/beginner_start-osm_cs.pdf)  
 > Zkontrolováno 12.7.2015  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+V této části se dozvíme krok za krokem navigaci na webové stránce OpenStreetMap, zobrazení map a přihlášení k uživatelskému účtu. Poté, co máte vlastní uživatelské jméno a heslo, budete moci na mapě přidat své první body.
 
 ![website][]
 
 Otevřít stránku OpenStreetMap
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
+- Než začnete, ujistěte se, že je váš počítač připojen k internetu. (Pokud čtete online, pak musíte být připojeni!)
+- Otevřete webový prohlížeč. Mezi běžné prohlížeče patří prohlížeče Firefox, Chrome, Opera nebo Internet Explorer. Pokud je již otevřený, můžete vytvořit novou kartu.
 - Do řádku adresy nahoře vyplňte následující adresu, a stiskněte Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+- Po dokončení načítání stránky byste měli vidět něco podobného:
 
     ![OpenStreetMap website with some main functions listed][]
 
 Ovládání mapy
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+- Hlavní věc, kterou byste měli vidět, je mapa. Přesuňte mapu kliknutím levým tlačítkem myši, podržením tlačítka a tažením myší kolem (viz obrázek níže).
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+- Pokud máte myš s rolovacím kolečkem, přiblížení a oddálení na mapě otáčením kolečka. Pokud nemáte rolovací kolečko, použijte tlačítka + a - v pravém horním rohu mapy. (viz obrázek níže)
+- Chcete-li vyhledat místo, klepněte levým tlačítkem na pole označené "Hledat" na levé straně stránky (viz obrázek výše). Zadejte název vašeho města nebo vesnice a stiskněte klávesu Enter. Okno se zobrazí vlevo od mapy s výsledky vyhledávání. Klikněte na místo, které vypadá jako požadované místo. Mapa se automaticky přesune na místo, které jste vybrali.
 
     ![Search][]
    
@@ -43,88 +43,88 @@ Ovládání mapy
 Zobrazení různých mapových vrstev
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap obsahuje geografická data z celého světa. Ačkoli je to jediná databáze, data mohou být interpretována a stylizována různými způsoby. Chcete-li si to prohlédnout v akci, podívejte se na různé "styly" mapy, které jsou k dispozici na webových stránkách OSM.
 
 - Klikněte na tlačítko Vrstvy na pravé straně okna mapy.
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+- Klikněte na různé možnosti stylu mapy. Všimněte si, jak se mapa mění s každým. Dopravní mapa například zdůrazňuje dopravní trasy na mapě, zatímco cyklistická mapa zdůrazňuje cyklistické trasy. Všechna data, která to umožňují, jsou obsažena v databázi OSM.
 
-    ![Transport map][]
+    ![Dopravní mapa][] 
 
 Vytvořit účet OpenStreetMap
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
--   You should see a new page that looks like this:
+- Nyní, když jste viděli, jak vypadá hlavní webová stránka, můžete se zaregistrovat pro uživatelské jméno a heslo a dělat první přírůstky na mapě.
+- Na webové stránce OpenStreetMap klikněte v pravém horním rohu stránky na "Registrace".
+- Měli byste vidět novou stránku, která vypadá takto:
 
-    ![Registering an OpenStreetMap account][]
+    ![Registrace účtu OpenStreetMap][] 
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
--   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
--   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+- Na této stránce je pět formulářových okének, které musíte vyplnit, abyste zaregistrovali účet v OSM.
+- Zadejte svou e-mailovou adresu do prvních dvou políček. Do obou políček byste měli zadat stejnou e-mailovou adresu. Později budete muset otevřít svůj e-mail a potvrdit svůj účet pomocí OpenStreetMap.
+- Ve třetím poli zadejte uživatelské jméno, které chcete mít. Nebudete moci zvolit uživatelské jméno, které si někdo jiný zvolil dříve, a proto by mělo být kreativní. Pokud se pokusíte zadat něco jednoduchého, jako je vaše jméno, je pravděpodobné, že někdo již toto jméno použil.
+- Do čtvrtého a pátého pole zadejte nové heslo. Do obou políček byste měli zadat stejné heslo. Nemusí to být stejné jako heslo pro váš e-mail.
+- Můžete si někam zapsat své uživatelské jméno a heslo OSM. Budete je potřebovat k přihlášení později.
+- Po vyplnění všech polí klikněte na "Registrace" v dolní části stránky.
+- Pokud se vyskytnou nějaké problémy, může se zobrazit chybová zpráva. Zkontrolujte, zda je váš e-mail v prvních dvou polích stejný a zda je stejné heslo ve dvou dolních polích. Pokud je třetí pole zvýrazněno červeně, znamená to, že někdo jiný už zvolil vaše uživatelské jméno a vyzkoušejte jiné jméno.
+- Otevřete v internetovém prohlížeči samostatné okno nebo kartu a přejděte na svůj e-mail. Běžné e-mailové stránky jsou [mail.yahoo.com] (http://mail.yahoo.com) a [www.gmail.com] (http://www.gmail.com).
+- Chcete-li otevřít e-mail, zadejte svou e-mailovou adresu a heslo. Všimněte si, že ___není___ stejné jako vaše uživatelské jméno a heslo do OpenStreetMap.
+- Pokud bylo při registraci úspěšné vše, měli byste vidět e-mail z OpenStreetMap ve vaší doručené poště. Otevřete e-mail. Mělo by vypadat jako obrázek níže. Klikněte na níže uvedený odkaz:
 
-    ![Confirming your OpenStreetMap account][]
+    ![Potvrzení vašeho účtu OpenStreetMap][] 
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+- Otevře se nová záložka nebo okno. Pokud všechno půjde dobře, měli byste mít účet OSM!
+- Na stránce OpenStreetMap klikněte v pravém horním rohu na "Přihlásit se". Zadejte uživatelské jméno a heslo OpenStreetMap a stiskněte klávesu Enter. Nyní byste měli být přihlášeni. V pravém horním rohu stránky byste měli vidět své uživatelské jméno.
 
 Přidání prvních bodů
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
--   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
--   Click “Edit with iD (in-browser editor)”.
+- Nyní, když jste přihlášeni pomocí uživatelského jména na webových stránkách OpenStreetMap, můžete pomocí editoru iD přidat svůj první bod na mapu.
+- Přesuňte mapu na místo, které znáte velmi dobře, jako je vaše město nebo okolí. Dobrým nápadem je ujistit se, že váš domov (nebo domov sousedů) a pracoviště jsou vedeny a zadány se správnou adresou. 
+- Přiblížit na místo, kde chcete přidat bod na mapu (možná restaurace nebo obchod s potravinami poblíž vás dosud nebyly mapovány).
+- Hned nad mapou vlevo se nachází záložka s názvem "Upravit" s malým trojúhelníkem vedle něj. Klikněte na malý trojúhelník. Měla by se zobrazit rozbalovací nabídka.
+- Kliknout na tlačítko Upravit pomocí aplikace iD (editor v prohlížeči).
 
-    ![Click edit][]
+    ![Kliknout na upravit][] 
 
--   The online editor, named iD, should open. It will look something like this.
+- Otevře se online editor s názvem iD. Bude to vypadat takto.
 
-    ![iD editor][]
+    ![iD editor][] 
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+- Kliknutím na tlačítko s názvem "Bod" v horní části okna můžete přidat mapu. Poté klikněte na mapu, kam chcete přidat nový bod.
 
-    ![Point button][]    
+    ![tlačítko Bod][]     
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+- Z nabídky vlevo vyberte, jaký typ umístění se přidáváte na mapu. Poté můžete vyplnit příslušný formulář s názvem umístění a dalšími informacemi.
+- Chcete-li změny uložit, klikněte v horní části na tlačítko Uložit. Jelikož se jedná o první úpravu, můžete si s editorem raději jen hrát. Neukládejte změny, pokud si nejste jisti, že jsou správné.
 
-    ![Save button][]    
+    ![tlačítko Uložit][]     
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+- Pokud kliknete na tlačítko Uložit, budete požádáni o poskytnutí popisu změn. Poté můžete klepnout na tlačítko "Uložit" a vaše dodatky budou uloženy do databáze OSM!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+iD Editor je fantastický způsob, jak snadno upravovat OpenStreetMap a můžete se dozvědět více o jeho použití v příručce [iD editoru] (/en/beginner/id-editor/). Můžete také přehrát [prohlídku] (http://www.openstreetmap.org/edit?editor=id#walkthrough=true), což je skvělý a interaktivní způsob, jak se seznámit s iD editorem.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
+V sekci [JOSM] (/en/josm/) se však podíváme na samostatnou aplikaci, která nabízí mnoho dalších funkcí. Neváhejte pokračovat v hraní s iD. Jakmile budete mít více zkušeností, které přispívají k OSM, můžete si vybrat, který editor - iD nebo JOSM - se vám líbí víc.
 
 Souhrn
 ------- 
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+Gratulujeme! Pokud vše proběhlo dobře, máte nyní uživatelské jméno a heslo OpenStreetMap, víte, jak navigovat na webových stránkách OSM a máte první pochopení, jak přidávat body na mapu.
 
 
 
-[website]: /images/beginner/start-osm_website.png
-[OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
-[Mouse navigation]: /images/beginner/mouse-navigation.png
-[Search]: /images/beginner/search.png
-[Layers button]: /images/beginner/layers.png
-[Transport map]: /images/beginner/transport-map.png
-[Registering an OpenStreetMap account]: /images/beginner/registering-account.png
-[Confirming your OpenStreetMap account]: /images/beginner/confirming-account.png
-[Click edit]: /images/beginner/click-edit.png
-[iD editor]: /images/beginner/id-editor.png
-[Point button]: /images/beginner/point-button.png
-[Save button]: /images/beginner/save-button.png
+[webová stránka]: /images/beginner/start-osm_website.png
+[Web OpenStreetMap s uvedenými některými hlavními funkcemi]: /images/beginner/osm-website-main-functions.png 
+[Navigace myší]: /images/beginner/mouse-navigation.png 
+[Hledání]: /images/beginner/search.png 
+[tlačítko Vrstvy]: /images/beginner/layers.png 
+[Dopravní mapa]: /images/beginner/transport-map.png 
+[Registrace účtu OpenStreetMap]: /images/beginner/registering-account.png 
+[Potvrzení vašeho účtu OpenStreetMap]: /images/beginner/confirming-account.png
+[kliknutím upravit]: /images/beginner/click-edit.png 
+[iD editor]: /images/beginner/id-editor.png 
+[tlačítko Bod]: /images/beginner/point-button.png 
+[tlačítko Uložit]: /images/beginner/save-button.png

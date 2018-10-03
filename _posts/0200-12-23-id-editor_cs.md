@@ -123,7 +123,7 @@ To add a new multi-sided shape, click on the **Area** button. ![image34][]{: hei
 
 A "polygon" in the iD editor is actually a "closed way" with tags on it.
 
-### Drawing Multipolygons
+### Kreslení multipolygonů
 
 Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
 
