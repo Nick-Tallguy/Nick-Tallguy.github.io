@@ -51,7 +51,7 @@ OpenStreetMap obsahuje geografická data z celého světa. Ačkoli je to jediná
 
 - Klikněte na různé možnosti stylu mapy. Všimněte si, jak se mapa mění s každým. Dopravní mapa například zdůrazňuje dopravní trasy na mapě, zatímco cyklistická mapa zdůrazňuje cyklistické trasy. Všechna data, která to umožňují, jsou obsažena v databázi OSM.
 
-    ![Dopravní mapa][] 
+    ![Transport map][]
 
 Vytvořit účet OpenStreetMap
 -------------------------------
@@ -60,7 +60,7 @@ Vytvořit účet OpenStreetMap
 - Na webové stránce OpenStreetMap klikněte v pravém horním rohu stránky na "Registrace".
 - Měli byste vidět novou stránku, která vypadá takto:
 
-    ![Registrace účtu OpenStreetMap][] 
+    ![Registering an OpenStreetMap account][]
 
 - Na této stránce je pět formulářových okének, které musíte vyplnit, abyste zaregistrovali účet v OSM.
 - Zadejte svou e-mailovou adresu do prvních dvou políček. Do obou políček byste měli zadat stejnou e-mailovou adresu. Později budete muset otevřít svůj e-mail a potvrdit svůj účet pomocí OpenStreetMap.
@@ -73,7 +73,7 @@ Vytvořit účet OpenStreetMap
 - Chcete-li otevřít e-mail, zadejte svou e-mailovou adresu a heslo. Všimněte si, že ___není___ stejné jako vaše uživatelské jméno a heslo do OpenStreetMap.
 - Pokud bylo při registraci úspěšné vše, měli byste vidět e-mail z OpenStreetMap ve vaší doručené poště. Otevřete e-mail. Mělo by vypadat jako obrázek níže. Klikněte na níže uvedený odkaz:
 
-    ![Potvrzení vašeho účtu OpenStreetMap][] 
+    ![Confirming your OpenStreetMap account][]
 
 - Otevře se nová záložka nebo okno. Pokud všechno půjde dobře, měli byste mít účet OSM!
 - Na stránce OpenStreetMap klikněte v pravém horním rohu na "Přihlásit se". Zadejte uživatelské jméno a heslo OpenStreetMap a stiskněte klávesu Enter. Nyní byste měli být přihlášeni. V pravém horním rohu stránky byste měli vidět své uživatelské jméno.
@@ -87,7 +87,7 @@ Přidání prvních bodů
 - Hned nad mapou vlevo se nachází záložka s názvem "Upravit" s malým trojúhelníkem vedle něj. Klikněte na malý trojúhelník. Měla by se zobrazit rozbalovací nabídka.
 - Kliknout na tlačítko Upravit pomocí aplikace iD (editor v prohlížeči).
 
-    ![Kliknout na upravit][] 
+    ![Click edit][]
 
 - Otevře se online editor s názvem iD. Bude to vypadat takto.
 
@@ -95,12 +95,12 @@ Přidání prvních bodů
 
 - Kliknutím na tlačítko s názvem "Bod" v horní části okna můžete přidat mapu. Poté klikněte na mapu, kam chcete přidat nový bod.
 
-    ![tlačítko Bod][]     
+    ![Point button][]    
 
 - Z nabídky vlevo vyberte, jaký typ umístění se přidáváte na mapu. Poté můžete vyplnit příslušný formulář s názvem umístění a dalšími informacemi.
 - Chcete-li změny uložit, klikněte v horní části na tlačítko Uložit. Jelikož se jedná o první úpravu, můžete si s editorem raději jen hrát. Neukládejte změny, pokud si nejste jisti, že jsou správné.
 
-    ![tlačítko Uložit][]     
+    ![Save button][]    
 
 - Pokud kliknete na tlačítko Uložit, budete požádáni o poskytnutí popisu změn. Poté můžete klepnout na tlačítko "Uložit" a vaše dodatky budou uloženy do databáze OSM!
 
@@ -117,14 +117,14 @@ Gratulujeme! Pokud vše proběhlo dobře, máte nyní uživatelské jméno a hes
 
 
 [webová stránka]: /images/beginner/start-osm_website.png
-[Web OpenStreetMap s uvedenými některými hlavními funkcemi]: /images/beginner/osm-website-main-functions.png 
-[Navigace myší]: /images/beginner/mouse-navigation.png 
-[Hledání]: /images/beginner/search.png 
-[tlačítko Vrstvy]: /images/beginner/layers.png 
-[Dopravní mapa]: /images/beginner/transport-map.png 
-[Registrace účtu OpenStreetMap]: /images/beginner/registering-account.png 
-[Potvrzení vašeho účtu OpenStreetMap]: /images/beginner/confirming-account.png
-[kliknutím upravit]: /images/beginner/click-edit.png 
+[OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
+[Mouse navigation]: /images/beginner/mouse-navigation.png
+[Search]: /images/beginner/search.png
+[Layers button]: /images/beginner/layers.png
+[Transport map]: /images/beginner/transport-map.png
+[Registering an OpenStreetMap account]: /images/beginner/registering-account.png
+[Confirming your OpenStreetMap account]: /images/beginner/confirming-account.png
+[Click edit]: /images/beginner/click-edit.png
 [iD editor]: /images/beginner/id-editor.png 
-[tlačítko Bod]: /images/beginner/point-button.png 
-[tlačítko Uložit]: /images/beginner/save-button.png
+[Point button]: /images/beginner/point-button.png
+[Save button]: /images/beginner/save-button.png

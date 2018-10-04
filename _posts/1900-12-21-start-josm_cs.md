@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Začínáme s JOSM
-permalink: /en/josm/start-josm/
+permalink: /cs/josm/start-josm/
 lang: cs
 category: josm
 published: true
@@ -136,33 +136,33 @@ Naučte se základní mapování s JOSM
 ### Body, linie a tvary
 
 - Když kliknete na různé objekty na ukázkové mapě, všimněte si, že tam
-  are three different types of objects on the map. There are points,
-  lines, and shapes.
-- Points are a single location, represented by symbols. On this sample
-  map, there are two points, a shoe shop and a supermarket. The
-  shoe shop is represented by a shoe symbol, and the market is
-  represented by a shopping cart.
-- There are several lines on the map as well, which represent roads.
-  If you look closely you will see that within the lines, there are
-  points as well. These points don’t have any symbols or other
-  information associated with them, but they help to define where the
-  line is located.
-- Lastly, there are numerous shapes on the sample map, representing
-  different places - a forest, a river, a park, and buildings. A shape
-  is used to represent an area, like a field or a building. A shape is
-  exactly like a line - the only difference is that the line begins at
-  the same point where it ends.
+  jsou tři různé typy objektů na mapě. Jsou tu body,
+  čáry a tvary.
+- Body jsou jednotlivá umístění, reprezentovaná symboly. Na tomto vzorku
+  mapy, existují dva body, obchod s botami a supermarket.
+  Prodejna s botami je reprezentována symbolem boty a obchod je
+  představovaný nákupním vozíkem.
+- Na mapě je také několik čar, které představují silnice.
+  Pokud se podíváte pozorně, uvidíte, že v čarách jsou
+  body také. Tyto body neobsahují žádné symboly nebo jiné
+  informace s nimi spojené, ale pomáhají definovat, kde
+  je čára nakreslená.
+- Nakonec, na vzorové mapě existuje řada objektů, které reprezentují
+  různá místa - les, řeku, park a budovy. Tvar
+  se používá k reprezentaci oblasti, jako pole nebo budovy. Tvar je
+  přesně jako linka - jediný rozdíl je, že linka objektu začíná na
+  stejném bodu, kde končí.
 
-> It's easy to think of a map as containing these three basic types of objects - 
-> points, lines, and shapes. In OpenStreetMap there is special terminology
-> which you will come to learn as you progress. In OSM, points are actually called
-> **nodes**, and lines are called **ways**. A shape is called a **closed way**
-> because it is just a line that ends at the same point where it begins.
+> Je snadné přemýšlet o mapě, která obsahuje tyto tři základní typy objektů - 
+> body, čáry a tvary. V OpenStreetMap existuje speciální terminologie
+> díky které se dozvíte, jak postupujete. V OSM jsou body vlastně nazývány jako
+> **uzly** a linie se nazývají **cesty**. Tvar je nazýván **uzavřenou cestou**
+> protože je to jen čára, která končí ve stejném místě, odkud začíná.
 
-- You may notice that when you select an object, a list appears to the
-  right of the map in a window called “Properties”. These are known as
-  tags. Tags are information that is tied to a point, line or shape
-  that describes what it is. We’ll learn more about tags in a later
+- Můžete si všimnout, že když vyberete objekt, objeví se seznam
+  vpravo od mapy v okně s názvem "Vlastnosti". Jsou známé jako
+  tagy. Tagy jsou informace, které jsou svázány s bodem, čárou nebo tvarem
+  který popisuje, co to je. Další informace o značkách se dozvíme později
   chapter. For now all you need to know is that this
   information helps describe whether our object is a forest, a river,
   a building, or something else.
@@ -193,7 +193,7 @@ Naučte se základní mapování s JOSM
 - Until now, you have been using the Select tool, which looks like
   takového:
 
-  ![nástroj Výběr][]
+  ![Select tool][]
 
 - Před kreslením se musíte ujistit, že není vybráno nic.
   Klikněte na černé místo na mapě, které je prázdné
@@ -204,21 +204,21 @@ Naučte se základní mapování s JOSM
 
 - Find an empty area on the map, and double-click with your mouse.
   This will draw a single point.
-- To draw a line, single-click with your mouse. Move your mouse and
-  click again. Continue until you are happy with your line. To end the
-  line, double-click your mouse.
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+- Chcete-li nakreslit čáru, klikněte jednou myší. Pohybujte myší a
+  klikněte znovu. Pokračujte, dokud nebudete spokojeni s vaší linkou. Chcete-li ukončit
+  čáru, poklepejte myší.
+- Nakreslete tvar tak, jak kreslíte čáru, ale dokončete tvar
+  poklepáním na místo, kde jste začali kreslit čáru.
 
 ### Přidat nastavení
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
+- Teď víme, jak nakreslit body, čáry a tvary, ale stále
+  jsme neurčili, co reprezentují. Chceme říci že
+  naše body jsou obchody, školy nebo něco jiného a že naše
+  tvary jsou pole, budovy nebo něco jiného.
 - Click on the Select tool, in the column of buttons on the left.
 
-  ![nástroj Výběr][]
+  ![Select tool][]
 
 - Select one of the objects that you drew with the Draw tool. On the
   top menu, click “Presets”. Move your mouse through the sub-menu to

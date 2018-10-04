@@ -60,10 +60,10 @@ Nyní otevřete váš email, stejně tak jak jste dělali když jste se registro
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
+Jeden takový projekt se nazývá MapOSMatic, ke kterému máte přístup přes
+internetový prohlížeč na [maposmatic.org](http://www.maposmatic.org/). To
+je jednoduchý nástroj pro tisk mapy libovolné oblasti, kterou si vyberete. Bude
+automaticky tvořit mapu spolu s mřížkou nad mapou a
 index of locations that are included in the area.
 
 ![MapOSMatic][]

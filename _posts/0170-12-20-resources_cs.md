@@ -1,26 +1,26 @@
 ---
 layout: doc
-title: Outros Recursos
-permalink: /pt/resources/
-lang: pt
+title: Other Resources
+permalink: /cs/resources/
+lang: cs
 cover: yes
 category: resources
 ---
 
-# Outros Recursos
+# Other Resources
 
-> Revisto em 2018-02-24
+> Reviewed 2018-02-24
 
-Isto é uma lista comentada de apontadores a outros sites que consideramos úteis. Todas as hiperligações foram verificadas se funcionavam no momento que que este documento foi revisto.
+This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
 
-  * [Maptime - lista de hiperligações sobre mapeamento e tópicos relacionados com cartografia](http://maptime.io/lessons-resources/) Uma lista de hiperligações abrangente, não apenas sobre o OpenStreetMap mas também cobre a visualização, criação de mapas e mapeamento pela web
+  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
 
 
-## Editar
+## Editing
 
 ### iD
 
-  * [Tutorial integrado do iD's](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Um tutorial interativo sobre como usar o editor iD
+  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
   * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
   * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
   * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
@@ -40,7 +40,7 @@ Isto é uma lista comentada de apontadores a outros sites que consideramos útei
 
   * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
 
-## Estatísticas
+## Statistics
 
   * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
   * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide

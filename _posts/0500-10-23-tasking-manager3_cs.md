@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager 3
-permalink: /en/coordination/tasking-manager3/
-lang: cz
+permalink: /cs/coordination/tasking-manager3/
+lang: cs
 category: coordination
 ---
 

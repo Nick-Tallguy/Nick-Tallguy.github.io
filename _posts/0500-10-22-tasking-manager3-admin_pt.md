@@ -6,26 +6,26 @@ lang: pt
 category: coordination
 ---
 
-# OSM Tasking Manager Project Creation and Administration
+# Gestor de Tarefas do OSM - Criação de Projeto e Administração
 
-> This guide may be downloaded as a stand-alone module: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) or [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
+> Este guia pode ser descarregado como um módulo independente: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) ou [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
-**This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager-project-admin)**
+**Este guia descreve a versão atual do Gestor de Tarefas. Se a interface da versão que usa for diferente da descrita aqui, deve consultar o [manual da versão anterior](/pt/coordination/tasking-manager-project-admin)**
 
-Section Index
+Índice de Secções
 -------------
--  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
--  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
--  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
--  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tasking-manager3-project-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tasking-manager3-project-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tasking-manager3-project-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tasking-manager3-project-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tasking-manager3-project-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+-  [Autenticação ](/pt/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [Iniciar um novo Projeto - definir a área de interesse](/pt/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [Criação de Tarefas - subdividir a área de interesse](/pt/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [Criar o Projeto - especificar o que os utilizadores têm de saber](/pt/coordination/tasking-manager3-project-admin/#create-the-project)
+    -  [Descrição - a primeira coisa que os utilizadores aprendem sobre o seu projeto](/pt/coordination/tasking-manager3-project-admin/#description)
+    -  [Instruções - o que os utilizadores devem fazer](/pt/coordination/tasking-manager3-project-admin/#instructions)
+    -  [Metadados - a onde o projeto pertence](/pt/coordination/tasking-manager3-project-admin/#metadata)
+    -  [Áreas Prioritárias - onde os utilizadores devem começar a mapear](/pt/coordination/tasking-manager3-project-admin/#priority-areas)
+    -  [Imagens Aéreas - o básico do mapeamento](/pt/coordination/tasking-manager3-project-admin/#imagery)
+    -  [Permissões - quem está autorizado a mapear e validar](/pt/coordination/tasking-manager3-project-admin/#permissions)
+    -  [Dicas Úteis - como deve preencher todos estes campos](/pt/coordination/tasking-manager3-project-admin/#instruction-notes)
+    -  [Publicar - não esquecer ou nunca terá o trabalho feito](/pt/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
 The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
