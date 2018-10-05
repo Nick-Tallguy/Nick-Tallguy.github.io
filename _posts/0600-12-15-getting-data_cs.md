@@ -10,7 +10,7 @@ Getting OSM Data
 =================  
 
 > This guide may be downloaded as [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) or [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
-> Reviewed 2016-04-05
+> Zkontrolováno 2016-04-05
 
 When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
 
@@ -89,7 +89,7 @@ wget -O $file "$url"
 
 
 
-Summary
+Souhrn
 -------  
 
 The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  

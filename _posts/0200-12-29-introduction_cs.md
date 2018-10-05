@@ -9,7 +9,7 @@ category: beginner
 Úvod
 ============
 
-> Tento návod si můžete stáhnout jako [beginner_introduction_cs.odt](/files/beginner_introduction_cs.odt) or [beginner_introduction_cs.pdf](/files/beginner_introduction_cs.pdf)  
+> Tento návod si můžete stáhnout jako [beginner_introduction_cs.odt](/files/beginner_introduction_cs.odt) nebo [beginner_introduction_cs.pdf](/files/beginner_introduction_cs.pdf)  
 > Zkontrolováno 12.7.2015  
 
 Informace jsou mocné. Se správnými informacemi a správným
@@ -31,7 +31,7 @@ a dokonce se nad mapou takové otázky i lépe formulují.
 
 Schválně si zkuste vzít tužku a papír a nakreslit mapu svého města nebo vesnice. Co by
 rozhodně na mapě nemělo chybět? Jaká informace je nejdůležitější?
-Věnujte se nakreslení mapy aspoň pár minut a až skončíte,
+Věnujte nakreslení mapy aspoň pár minut a až skončíte,
 zamyslete se nad tím, proč jsou vámi nakreslené informace důležité a
 také pro koho mohou být důležité.
 

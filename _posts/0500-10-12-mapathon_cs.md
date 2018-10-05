@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: Manage a Mapathon
+title: Organizace Mapathonu
 permalink: /cs/coordination/mapathon/
 lang: cs
 category: coordination
 ---
 
-# Manage a Mapathon
+# Organizace Mapathonu
 
 > This guide may be downloaded as [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) or [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
 > Created 2017-01-30  
 
-- TOC
+- Obsah
 {:toc}
 
 ## Introduction

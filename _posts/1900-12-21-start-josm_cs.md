@@ -10,7 +10,7 @@ published: true
 Začínáme s JOSM
 =============================  
 
-> This guide may be downloaded as [josm_start-josm_en.odt](/files/josm_start-josm_en.odt) or [josm_start-josm_en.pdf](/files/josm_start-josm_en.pdf)  
+zde:  
 > Zkontrolováno 12.7.2015  
 
 Jak stahovat a instalovat JOSM, Javovský editor mapy OpenStreetMap, změnit některá nastavení, otevřít ukázkovou mapu a
@@ -259,7 +259,7 @@ Alternatively you can choose delete from the context menu of the layer.
 In order to continue editing you first need to download real data. 
 This will be explained in the next chapter.
 
-Summary
+Souhrn
 -------
 
 Excellent! If all went well you have learned how to setup JOSM on your

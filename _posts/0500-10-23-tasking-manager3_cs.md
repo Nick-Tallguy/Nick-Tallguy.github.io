@@ -45,76 +45,76 @@ Po dokončení mapování této malé oblasti zaznamenáváte do Tasking Manager
 
 1. Vytvořte účet a přihlaste se na http://openstreetmap.org/  
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
+2. Navštivte [http://tasks.hotosm.org/](http://tasks.hotosm.org/) a přihlaste se přes pravý horní roh  
   ![TM Quick Start 2][]
-3. Click on "Contribute" and find a mapping project to work on  
+3. Klikněte na "Zapojit se" a najděte mapovací projekt, na který budete pracovat  
   ![TM Quick Start 3][]
-4. Read the instructions for the project  
+4. Přečtěte si pokyny k projektu  
   ![TM Quick Start 4][]
-5. Click the "Map" tab  
+5. Klikněte na kartu "Mapa"  
   ![TM Quick Start 5][]
-6. Find a "Ready" task to work on, click on it and select "Start Mapping"  
+6. Najděte úkol "Ready", který chcete pracovat, klikněte na něj a vyberte "Start Mapping"  
   ![TM Quick Start 6][]
-7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.  
+7. Budete přepojeni na editor OpenStreetMap a můžete mapovat všechny úkoly požadované v instrukcích.  
   ![TM Quick Start 7][]
-8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.  
+8. Po dokončení mapování přepněte zpět do Správce úloh a klepnutím na tlačítko "Označit jako úplně zmapováno", pokud jste plně zmapovali úkol nebo "Zastavit mapování", pokud potřebujete z nějakého důvodu zastavit mapování.  
   ![TM Quick Start 8][]
 
 
-## Mapping Process 
+## Proces mapování 
 
-1. A remote mapper creates an account in OpenStreetMap and logs into the Tasking Manager.
-1. The mapper finds a project to work on, usually based on priority and skill level set by a Tasking Manager project manager. 
-2. A remote mapper selects a task square, completes the mapping, and marks the task as complete.
-3. A second remote mapper checks that the task is completed to a satisfactory level and marks the task as 'validated'
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
+1. Vzdálený mapař vytvoří účet v aplikaci OpenStreetMap a přihlásí se do Tasking Manageru.
+1. Mapař najde projekt, na kterém pracuje, obvykle založený na prioritě a úrovni dovedností nastavené správcem projektu v Tasking Manageru. 
+2. Vzdálený mapař vybere čtverec úlohy, dokončí mapování a označí úlohu za dokončenou.
+3. Druhý vzdálený mapař zkontroluje, zda je úkol dokončen na uspokojivou úroveň a označuje úkol jako "ověřený"
+4. Vývoj mapování lze sledovat z tabulky "statistiky" projektu a může být snížena jeho naléhavost nebo být archivován podle požadavků administrátora.
 
-### Tasking Manager Login
+### Přihlášení do Tasking Manageru
 
-The Tasking Manager is a separate tool that coordinates mapping in OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a separate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
+Tasking Manager je samostatný nástroj, který koordinuje mapování v OpenStreetMap. Používá však přihlašovací systém OpenStreetMap. To znamená, že k použití Tasking Manageru nemusíte vytvářet samostatný uživatelský účet, musíte však vytvořit účet v OpenStreetMap a přihlásit se do OpenStreetMap před tím, než můžete použít Tasking Manager pro mapování.
 
-When you first visit the Tasking Manager you will see a "Login" button in the upper right corner of the screen.
+Když poprvé navštívíte Tasking Manager, zobrazí se v pravém horním rohu obrazovky tlačítko "Login".
 
 ![TM login 1][]
 
-Clicking on that button will take you to the OpenStreetMap website. There you will have to login and grant the Tasking Manager access to your OpenStreetMap preferences. Create an account on the OpenStreetMap website if you do not already have one.
+Kliknutím na toto tlačítko se dostanete na webovou stránku OpenStreetMap. Zde budete muset přihlásit a povolit správci Tasking Manager přístup k vašim preferencím OpenStreetMap. Pokud ještě nemáte, vytvořte si účet na webové stránce OpenStreetMap.
 
 ![TM login 2][]
 
 ![TM login 3][]
 
-Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
+Jakmile jste přihlášeni do OpenStreetMap, vrátíte se do Tasking Manageru, kliknutím na Zapojit se, se dostanete k seznamu projektů, do kterých můžete přispět.
 
-### Options & links
+### Možnosti a odkazy
 
-The Task Manager initially displays in English - to change to another language click on **English** in the upper right area of the window.
+Tasking Manager se zpočátku zobrazí v angličtině - pro změnu na jiný jazyk klikněte na **English** v pravé horní části okna.
 
-Once you have logged in, you may click on your username at the top. Here you can:
+Jakmile se přihlásíte, můžete kliknout na své uživatelské jméno v horní části stránky. Zde můžete:
 
-- View your Tasking Manager profile where you can:
-    - Update your email address and social media handles
-    - View your mapper experience level
-    - See a list and map of the projects you have contributed to
-- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
-- Logout
+- Zobrazte profil Tasking Manager, kde můžete:
+    - Aktualizovat svou e-mailovou adresu a odkazy na sociální média
+    - Zobrazit svou úroveň zkušenosti s mapováním
+    - Vidět seznam a mapu projektů, ke kterým jste přispěli
+- Jít na stránku **Zprávy** v nástroji Tasking Manager (to není totéž jako systém zasílání zpráv OpenStreetMap)
+- Odhlásit se
 
-### Finding a Project - Tasking Manager Contribute Screen
+### Hledání projektu - Obrazovka Tasking Manageru k zapojení se
 
-Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
+Kliknutím na odkaz "Zapojit se" v hlavním menu se dostanete k hlavnímu seznamu projektů v Tasking Manageru.
 
 ![TM contribute][]
 
-The Tasking Manager Contribute screen is divided into three main areas:
+Strana Tasking Manager Zapojit se je rozdělena do tří hlavních částí:
 
-- Search and Filter options along the left
-- Project List
-- Map View of Project List
+- možnosti vyhledávání a filtrování vlevo
+- Seznam projektů
+- Mapové zobrazení seznamu projektů
 
-#### Search and Filter Options
+#### Možnosti hledání a filtrování
 
-By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
+Ve výchozím nastavení jsou zobrazeny všechny projekty, které jsou k dispozici pro mapování. Pomocí části Filtry pokročilého vyhledávání na obrazovce můžete dále zúžit projekty, na kterých byste chtěli pracovat.
 
-- Project Number - If you know the number of the project you want to work on, you can enter it here and be taken directly to it.
+- Číslo projektu - Pokud znáte číslo projektu, na kterém chcete pracovat, můžete jej zadat a přejít přímo na něj.
 - Organization - This allows you to just display projects that have been requested by individual organizations.
 - Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
 - Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.

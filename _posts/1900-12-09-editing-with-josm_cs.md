@@ -181,7 +181,7 @@ changes later on.
     open the file again, simply open JOSM, go to the “File” menu, and
     click “Open...”
 
-Summary
+Souhrn
 -------
 In this chapter we looked a little bit closer at the JOSM interface and learned
 about layers and tags. You should now have a solid footing in how to map and how

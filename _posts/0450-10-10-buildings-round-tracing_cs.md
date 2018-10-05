@@ -9,7 +9,7 @@ category: hot-tips
 Tracing round buildings - iD editor
 ============
 
-- TOC
+- Obsah
 {:toc}
 
 The Essentials

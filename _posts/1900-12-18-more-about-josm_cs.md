@@ -42,7 +42,7 @@ to make changes to the map, because the map is often being updated by other user
 -	Click on “File” in the top left corner of JOSM and click “Download
     from OSM”. This will open up the download window. You can access
     this window more simply by clicking on the download button, shown
-    here:
+    zde:
 
 ![JOSM Download Button][]
 
@@ -196,7 +196,7 @@ See your changes on the map
     general rule is, if your point has an icon in JOSM, then it should
     be seen on the main map at the OpenStreetMap website.
 
-Summary
+Souhrn
 -------
 Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
 is great, but it's not the only aspect of making maps. Of course you also

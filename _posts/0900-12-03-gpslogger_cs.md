@@ -10,7 +10,7 @@ GPSLogger for Android
 =====================
 
 > This guide may be downloaded as [gpslogger_en.odt](/files/gpslogger_en.odt) or [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
-> Reviewed 2015-12-06  
+> Zkontrolováno 2015-12-06  
 
 ![GPSLogger][]
 
@@ -53,9 +53,9 @@ The **Annotate** button lets you to add a description to a point.
 
 - OpenStreetMap,  
 - Google Drive,  
-- DropBox,  
-- an FTP server,  
-- an OpenGTS server or  
+- Google Drive,  
+- FTP server,  
+- OpenGTS server nebo  
 - send the log to an email address.  
 
 The **Share** button lets you choose one or more log files you can share with other people via Bluetooth, or SMS. Depending on what apps are installed on your device, you may have different options available for you.  
@@ -254,7 +254,7 @@ The application can be displayed 3 different ways, whichever you find most appro
 ![view2][]
 
 
-Summary
+Souhrn
 -------
 
 Excellent! You've been introduced to a light-weight, battery-efficient app you can keep in your Android device to record tracks, which you can upload to OSM, or use with your favorite OpenStreetMap editor.  

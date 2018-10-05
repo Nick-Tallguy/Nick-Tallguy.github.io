@@ -177,7 +177,7 @@ out on the map by changing the number in the “Scale” box. Increase the
 resolution by changing the number next to “ppi”. When you have finished
 editing the settings, click “Print.”
 
-Summary
+Souhrn
 -------
 
 These are some useful plugins that are available for JOSM. Feel free to

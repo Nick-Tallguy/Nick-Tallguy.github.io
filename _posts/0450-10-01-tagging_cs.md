@@ -9,7 +9,7 @@ category: hot-tips
 Tagging - iD editor
 ============
 
-- TOC
+- Obsah
 {:toc}
 
 ![tagging][]

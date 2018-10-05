@@ -9,7 +9,7 @@ category: hot-tips
 Enhancing the colours or background - iD editor
 ============
 
-- TOC
+- Obsah
 {:toc}
 
 Introduction

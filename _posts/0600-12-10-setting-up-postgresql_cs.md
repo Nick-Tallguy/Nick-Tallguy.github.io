@@ -10,7 +10,7 @@ PostgreSQL & PostGIS
 ====================
 
 > This guide may be downloaded as [PostgreSQL_en.odt](/files/PostgreSQL_en.odt) or [PostgreSQL_en.pdf](/files/PostgreSQL_en.pdf)  
-> Reviewed 2016-09-10
+> Zkontrolováno 2016-09-10
 
 In this chapter we will see how to set up PostgreSQL on Windows and how to create a database in which you can store geographic data. We'll be using the open source GIS software QGIS in this chapter, so it will be helpful if you are already familiar with it. In the following chapter, we will see how to import OpenStreetMap data into a PostgreSQL database.  
 
@@ -146,7 +146,7 @@ When you add the layer you will need to select a coordinate system to display th
 
 > The layer behaves the same as if you had loaded a shapefile directly into QGIS.  The only difference is that if you edit the layer, the changes will be saved in your database.  
 
-Summary
+Souhrn
 -------
 
 Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new database, you're ready to try the utilities which allow us to import raw OSM data into a database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).  

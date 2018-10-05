@@ -9,7 +9,7 @@ category: resources
 
 # Other Resources
 
-> Reviewed 2018-02-24
+> Zkontrolováno 2018-02-24
 
 This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
 

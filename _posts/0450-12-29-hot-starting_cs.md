@@ -9,7 +9,7 @@ category: hot-tips
 Starting with a Tasking Manager - iD editor
 ============
 
-- TOC
+- Obsah
 {:toc}
 
 This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), but the principles are the same for all versions.  

@@ -10,9 +10,9 @@ Editor iD
 =============
 
 > Tato příručka může být stažena jako [beginner_id-editor_cs.odt](/files/beginner_id-editor_cs.odt) nebo [beginner_id-editor_cs.pdf](/files/beginner_id-editor_cs.pdf)  
-> Reviewed 2016-03-30  
+> Zkontrolováno 2016-03-30  
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tips section](/en/hot-tips/).  
 
 - TOC
 {:toc}
@@ -71,37 +71,37 @@ Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku
 ![osm gps traces][]  
 Pokud je [fotomapa posunutá](/en/josm/aerial-imagery), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- Klikněte na navigační tlačítka pro přesun snímků. Klepnutím na tlačítko Reset se vrátíte do výchozí pozice. ![image20][]  
 
-Basic Editing with iD  
+Základní úpravy s iD  
 ----------------------  
 
-### Adding Points  
+### Přidávání bodů  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Chcete-li přidat nový bod, klikněte na tlačítko **Bod**. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Kurzor myši se změní na znaménko plus (+). Nyní klikněte na pozici, kterou znáte a označte místo. Pokud například víte, že ve vaší oblasti je nemocnice, klikněte na místo nemocnice.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Všimněte si, že je přidán nový bod. Současně se změní levý panel tak, aby zobrazoval formulář, ve kterém můžete vybrat atributy objektu. Klepnutím na položku **Nemocnice** označte místo jako nemocnici.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Formuláře můžete použít k vyplnění podrobných informací o vašem místě. Můžete vyplnit název nemocnice, adresu a / nebo další doplňující informace. Všimněte si, že každá funkce bude mít různé možnosti, v závislosti na tom, jakou značku vyberete z panelu funkcí.  
+- Pokud uděláte chybu, například špatné místo, můžete přemístit svůj bod na nové místo podržením levého tlačítka myši na místě a přetažením. Nebo pokud chcete smazat svůj bod, klepněte na levé tlačítko myši v bodě, aktivujte kontextové menu klepnutím pravým tlačítkem myši a poté klikněte na tlačítko, které vypadá jako koš. ![image23][]{: height="24px"}  
+"Bod" vytvořený v iD editoru je ve skutečnosti samostatný "uzel" se souborem "značek" na něm.  
 
-### Drawing Lines  
+### Kreslení čar  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- Kurzor myši se změní na znaménko plus (+). Najděte cestu, která nebyla na mapě vykreslena, a obkreslete ji. Jedním kliknutím klikněte na místo, kde začíná úsek cesty, přesuňte myš a klepnutím přidáte další body. Poklepáním ukončíte proces kreslení. Všimněte si panelu vlevo.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- Delete point from line. ![image23][]{: height="24px"}  
-- Disconnect point from line. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
+- Stejně jako bod, vyberte příslušné značky pro vaši linku.  
+- Můžete přetáhnout body z linky kliknutím levého tlačítka myši na bod a přetažením.  
+- Můžete také přesunout celou čáru jejím výběrem a zvolením nástroje **Přesunout**. Potom přetáhněte čáru na novou pozici. ![image30][]{: height="24px"}  
+- Když klepnete levým tlačítkem myši na jednotlivý bod (uzel) na řádku a kliknutím pravým tlačítkem myši aktivujete místní nabídku, uvidíte tyto nástroje:  
+- Smazat bod z čáry. ![image23][]{: height="24px"}  
+- Odpojit bod od čáry. ![image26][]{: height="24px"}  
+- Rozdělit čáru na dvě čáry od místa, které jste vybrali. ![image27][]{: height="24px"}  
+- Když kliknete levým tlačítkem myši na řádek (ale ne na bod), uvidíte tyto nástroje:  
 -   Delete line. ![image23][]{: height="24px"}  
 -   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
 -   Move line ![image30][]{: height="24px"}  
@@ -110,7 +110,7 @@ To add a new line, click on the **Line** button. ![image4][]{: height="24px"}
 
 A "line" created in the iD editor is actually a "way" with "tags" on it.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+> Zvláštní poznámka o **Vymazání**: Obecně byste se měli vyhnout vymazání mapování ostatních lidí, pokud se to jen potřebuje zlepšit. Můžete smazat vlastní chyby, ale měli byste se pokusit *upravovat* mapované objekty jiných lidí, pokud potřebují změny. To zachovává historii položek v databázi OSM a respektuje kolegy mapery. Pokud opravdu cítíte, že by mělo být něco vymazáno, zvažte kontaktovat nejprve originálního mapaře nebo jednoho z e-mailových seznamů OSM.
 
 ### Drawing Shapes (Polygons)
 
