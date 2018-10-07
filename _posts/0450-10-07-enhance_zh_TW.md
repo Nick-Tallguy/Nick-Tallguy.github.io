@@ -12,7 +12,7 @@ Enhancing the colours or background - iD editor
 - TOC
 {:toc}
 
-Introduction
+說明介紹
 ------------
 
 This module covers the changing of the brightness of the satellite imagery which may make it simpler to pick out details, but also covers installation of the Stylish extension on the Firefox and Chrome web browsers, which allows the installation of different colour schemes.  
@@ -29,7 +29,7 @@ Changing the brightness of the satellite imagery
 Installing the Stylish extension in Firefox  
 -------------------------------------------
 
-1.  Click on the menu.  
+- 點擊選單  
 ![Stylish-1]{: height="100px"}
 
 2.  Select "Add-ons"  
@@ -38,7 +38,7 @@ Installing the Stylish extension in Firefox
 3.  Search for stylish - first one in the list in the screenshot,  
 ![Stylish-3][]
 
-4.  Install & restart.  
+4. 安裝以及重新啟動  
 ![Stylish-4][]
 
 5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.

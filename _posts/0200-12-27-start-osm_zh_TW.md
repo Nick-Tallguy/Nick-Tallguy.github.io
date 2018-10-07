@@ -19,8 +19,8 @@ In this section we will learn step by step how to navigate the OpenStreetMap web
 瀏覽開放街圖網站
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
+- 在你開始之前，請確認你已經連上網路。（如果你是線上閱讀，你必須要連上）
+- 打開瀏覽器。常見的瀏覽器有Firefox, Chrome, Opera, 或是 Internet Explorer，如果已經打開它請開啟新分頁。
 -   在視窗頂端的網址列，輸入下列網址後按 Enter：
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   When the page has finished loading, you should see something like this:
