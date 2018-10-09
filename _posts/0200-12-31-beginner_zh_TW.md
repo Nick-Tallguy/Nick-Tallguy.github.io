@@ -14,11 +14,11 @@ nosearch: true
 
 初學者指南將會導引你一步一步進入開放街圖的世界。你會學會
 會如何申請帳號，如何使用地圖繪圖軟體，以及如何到外實地探查
-and collect information to put on the map. 
+並且收集資料放入地圖 
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
+如果你想要開始編輯地圖，我們推薦你可以閱讀這些手冊：
 - the [introduction](/en/beginner/introduction/) gives you some background about the project
 - [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
 - in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
