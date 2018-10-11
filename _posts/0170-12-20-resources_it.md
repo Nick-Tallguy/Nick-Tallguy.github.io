@@ -28,9 +28,9 @@ Questo è un elenco commentato di collegamenti ad altri siti web che consideriam
 
 ## Mapathons ed eventi simili
 
-  * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
+  * [Pagina Wiki sulle Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) praticamente una lista per darti un’idea di cosa ti serve per organizzare un mapathon; anche se è stata pensata per Missing Maps, può essere in gran parte applicata a qualsiasi mapathon 
   * [Pagina Wiki sulle Missing Maps Mapathons in un ambito universitario](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) quasi come i documenti precedenti ma con suggerimenti specifici per eventi organizzati presso una università
-  * [developmentSEED guide for Mapathons](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) This document is based on a talk at a State of the Map conference about how to organize and run a mapathon
+  * [guida ai mapathon di developmentSEED](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) Questo documento è basato su una relazione ad una conferenza State of the Map su come organizzare e gestire un mapathon
 
 ### Elenco di controllo per la pianificazione
 

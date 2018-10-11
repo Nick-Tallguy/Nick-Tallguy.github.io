@@ -14,27 +14,27 @@ Guida per principianti
 
 Questa guida passo passo mostra come iniziare con OpenStreetMap. Imparerai
 come impostare un account, come usare software semplice per fare modifiche alla mappa e, nei capitoli seguenti, potrai imparare come uscire
-and collect information to put on the map. 
+e raccogliere informazioni da aggiungere alla mappa. 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### Sei nuovo di OpenStreetMap e vuoi migliorare la mappa aggiungendo dei dati?
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+Se vuoi iniziare ed essere in grado di modificare i dati della mappa allora ti consigliamo di leggere le seguenti guide:
+- l’[introduzione](/it/beginner/introduction/) fornisce alcune informazioni circa lo scopo del progetto
+- [Iniziare](/it/beginner/start-osm/) mostra come creare un account e aprire un editor
+in [Editor iD](/it/beginner/id-editor/) imparerai le basi per la modifica dei dati
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### Sai già come usare un editor e vuoi contribuire alla ‘mappatura umanitaria’?
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+Il punto principale è imparare a capire come funziona la mappatura in questi contesti.
+- la [guida alla mappatura da remoto](/it/coordination/HOT-Remote-Response-Guide/) e le informazioni generali sulla [mappatura umanitaria]/it/coordination/humanitarian/) forniscono qualche indizio a riguardo
+- il perno centrale è il [Tasking Manager](/it/coordination/tasking-manager3/) con cui dovrai prendere famigliarità
+
+### Vorresti usare OpenStreetMap su dispositivi mobile?
+
+C’è un intero capitolo dedicato alla [mappatura con smartphone](/it/mobile-mapping/)
+
+
+### Hai familiarità con gli strumenti GIS e vuoi accedere ai dati veri e propri?
+
+Le guide su [dove ottenere i dati](/en/osm-data/getting-data/) e [come usare Geofabrik e HOT Export](/en/osm-data/geofabrik-and-hot-export/) dovrebbero fornire alcune informazioni su come estrarre dati dal database in vari formati.

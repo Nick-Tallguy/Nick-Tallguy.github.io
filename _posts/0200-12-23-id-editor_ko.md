@@ -27,7 +27,7 @@ iD 편집기 시작하기
 -	iD 편집기에는 인터넷 연결이 필요합니다.  
 -	인터넷 브라우저를 열고 OpenStreetMap 웹 사이트 [http://www.openstreetmap.org](http://www.openstreetmap.org)로 이동하세요.  
 -	당신의 OpenStreetMap 계정으로 **로그인하세요**  
--	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area.  
+-	편집하고 싶은 위치를 지도에서 맞추고 확대하세요. 마우스 왼쪽 버튼을 누르고 지도를 원하는 방향으로 드래그하면 됩니다.  
 -	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**.  
 
 ![image1][]

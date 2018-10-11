@@ -12,7 +12,7 @@ Editor iD
 > Questa guida può essere scaricata come [beginner_id-editor_it.odt](/files/beginner_id-editor_it.odt) oppure [beginner_id-editor_it.pdf](/files/beginner_id-editor_it.pdf)  
 Revisionato il 30-05-2016  
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+Stai iniziando a mappare per il Tasking Manager HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
 
 - CONTENUTO
 {:toc}
@@ -85,7 +85,7 @@ Per inserire un nuovo punto, fai click sul bottone **Punto**. ![image3][]{: heig
 - Noterai che è stato aggiunto un punto. Allo stesso tempo il pannello di sinistra cambierà per mostrarti una maschera dove puoi selezionare gli attributi da applicare all'oggetto. Clicca su **Area Ospedaliera** per taggare (marcare) il punto come ospedale.  
 ![image22][]  
 - Puoi usare le maschere per inserire informazioni di dettaglio sui tuoi punti. Puoi inserire il nome dell'ospedale, e/o altre informazioni aggiuntive. Nota che ciascuna caratteristica avrà differenti opzioni, in base a quale tag hai scelto dal pannello di aggiunta/modifica.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
+- Se commetti un errore, come ad esempio una posizione sbagliata, puoi muovere il tuo punto in una nuova posizione tenendo premuto il tasto sinistro del mouse sul punto e trascinandolo. Oppure, se vuoi eliminare il tuo punto, clicca con il tasto sinistro del mouse sul punto, attiva il menù contestuale cliccando con il tasto destro del mouse e poi clicca il pulsante che assomiglia ad un cestino. ![image23][]{: height="24px"}  
 Un "punto" creato nell'editor iD è in realtà un "nodo" indipendente con uno o più tag applicati ad esso.  
 
 ### Disegnare linee  
@@ -97,7 +97,7 @@ Per inserire una nuova linea, fai click sul bottone **Linea**. ![image4][]{: hei
 - Proprio come con un punto, seleziona il tag appropriato per la tua linea.  
 - Puoi trascinare punti dalla linea semplicemente cliccandoci sopra col tasto sinistro del mouse e trascinandoli.  
 - Puoi anche muovere l'intera linea selezionandola e scegliendo **Muovi**. Trascina quindi la linea nella nuova posizione. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
+- Quando clicchi con il tasto sinistro del mouse su un punto individuale (nodo) della linea e clicchi con il tasto destro del mouse per attivare il menù contestuale, vedrai i seguenti strumenti:  
 - Elimina il punto dalla linea. ![image23][]{: height="24px"}  
 - Disconnetti il punto dalla linea. ![image26][]{: height="24px"}  
 - Dividi una linea in due nel punto che hai selezionato. ![image27][]{: height="24px"}  
@@ -119,17 +119,17 @@ Per aggiungere un nuovo oggetto a più lati, clicca sul bottone *Area*. ![image3
 - Il cursore del mouse cambierà in un segno più (+). Prova a disegnare un edificio utilizzando un'immagine di sfondo come guida.   
 - Noterai che il colore della tua forma cambierà in base agli attributi che gli assegni.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Gli strumenti che sono disponibili quando selezioni una figura e attivi il menù contestuale con il tasto destro del mouse sono simili a quelli che hai quando clicchi su una linea.  
 
 Un "poligono" nell'editor iD è in realtà una "via chiusa su sè stessa" con dei tag ad esso applicati.
 
-### Drawing Multipolygons
+### Disegnare multipoligoni
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+Talvolta devi disegnare un poligono che non ha soltanto un perimetro esterno ma ha anche uno o più bordi interni. Pensa ad esempio ad un edificio con dei cortili interni oppure ad un lago con delle isole. *Non disegnare tutti questi percorsi come un’unica linea* agganciando i contorni interni a quello esterno. Invece, disegna tutti i contorni separatamente, aggiungi le etichette solo al perimetro esterno, seleziona tutti i contorni e clicca **c** per formare quello che viene chiamato un multipoligono.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+Quando selezioni un qualsiasi contorno del multipoligono appena creato puoi vedere sulla sinistra a quale multipoligono esso appartiene
 
 ![part of multipolygon][]
 
@@ -162,10 +162,10 @@ o puoi aggiungere altri tag cliccando su **Tutti i tag**. ![image44][]{: height=
 ![image45][]  
 - Clicca sul segno più (+) per aggiungere chiavi e valori, o clicca sull'icona del cestino per eliminare i tag.
 
-Further tutorials
+Ulteriori tutorial
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[La nostra pagina delle risorse esterne](/it/resources/#iD) contiene link ad un certo numero di video tutorial da fonti diverse. 
 
 Differenze tra iD e JOSM
 ---------------  
@@ -186,7 +186,7 @@ Differenze tra iD e JOSM
 
 [^fieldpaper]: C'è una sezione di [LearnOSM](/en/mobile-mapping/field-papers/) che da maggiori informazioni sui Field Papers.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
+Il contenuto di questa guida è disponibile come [presentazione](/files/iD-editor-training.pptx)
 
 
 
@@ -236,6 +236,6 @@ The contents of this guide is available as a [presentation](/files/iD-editor-tra
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45_it.png
-[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
-[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
+[Crea un multipoligono]: /images/beginner/id-editor_create_multipolygon.png
+[parte di un multipoligono]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public_it.png

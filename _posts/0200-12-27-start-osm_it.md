@@ -12,30 +12,30 @@ Iniziare con OpenStreetMap.org
 > Questa guida può essere scaricata come [beginner_start-osm_it.odt](/files/beginner_start-osm_it.odt) oppure [beginner_start-osm_it.pdf](/files/beginner_start-osm_it.pdf)  
 > Revisionato 2015-07-12  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+In questa sezione impareremo passo dopo passo come navigare sul sito di OpenStreetMap, vedere le mappe e registrarsi come utente. Dopo che avrai un tuo username e password, sarai in grado di contribuire alla mappa con i tuoi primi nodi.
 
 ![website][]
 
 Visita il sito web di OpenStreetMap
 -------------------------------
 
--   Before you begin, be sure your computer is connected to the internet.  (If you are reading this online, then you must be connected!)
--   Open your web browser. Common browsers are Firefox, Chrome, Opera, or Internet Explorer. If it is already open then you can create a new tab.
+-  Prima di iniziare, controlla che il tuo computer sia collegato a Internet. (se stai leggendo questo documento online, allora sei connesso per forza!)
+-   Apri il tuo browser web. Esempi di browser sono Firefox, Chrome, Opera oppure Internet Explorer. Se è già aperto allora apri una nuova scheda.
 - Nella barra degli indirizzi in alto, inserisci il seguente testo e premi Invio:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+-   Quando la pagina avrà finito il caricamento, dovresti vedere qualcosa del tipo:
 
     ![OpenStreetMap website with some main functions listed][]
 
 Naviga nella mappa
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+-   La parte principale che dovresti vedere è la mappa. Muovi la mappa cliccandoci con il tasto sinistro del mouse, tenendolo premuto e poi trascinando il mouse (vedi la figura qua sotto).
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+-   Se hai un mouse con una rotella di scorrimento, ingrandisci e diminuisci la visuale della mappa ruotando la rotella. Se non hai la rotella, usa i tasti + e – nell’angolo in alto a destra della mappa (vedi la figura qua sotto)
+-   Per cercare un posto, clicca con il tasto sinistro del mouse nella casella con scritto “Cerca” nella parte sinistra della pagina (vedi la figura qua sopra). Scrivi il nome della città o del paese e premi Invio. Dovrebbe apparire una finestra sulla sinistra della mappa con i risultati della ricerca. Clicca sul posto che sembra quello che volevi. La mappa si sposterà automaticamente nella posizione da te scelta.
 
     ![Search][]
    
@@ -43,48 +43,48 @@ Naviga nella mappa
 Stili Differenti della Mappa
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap contiene dati geografici di tutto il mondo. Anche se si tratta di un singolo database, i dati possono essere interpretati e modellati in vari modi. Per verificarlo di persona, proviamo a vedere i vari “stili” della mappa disponibili sul sito web OSM.
 
 - Fai click sul bottone "Livelli" sul lato destro della finestra.
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+-   Clicca sulle diverse opzioni di stile della mappa. Nota come la mappa cambia in ognuno di essi. La mappa dei trasporti, ad esempio, enfatizza le linee dei mezzi pubblici sulla mappa mentre quella ciclabile mette in risalto le piste ciclabili. Tutti i dati che rendono ciò possibile sono contenuti nel database OSM.
 
     ![Transport map][]
 
 Crea un account in OpenStreetMap
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
+-   Adesso che hai visto come è il sito web principale, puoi registrarti scegliendo uno username e una password e fare le tue prime aggiunte alla mappa.
+-   Sul sito OpenStreetMap, clicca “Registrati” nell’angolo in alto a destra della pagina.
 - Dovresti vedere una pagina come la seguente:
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. It does not need to be the same as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
--   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
--   Enter your email address and your email password to open your email.  Note that this is __not__ the same as your OpenStreetMap username and password.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+-   Ci sono cinque caselle in questa pagina che dovrai compilare per registrare un account su OSM.
+-   Inserisci il tuo indirizzo email nelle prime due caselle. Dovresti inserire lo stesso indirizzo in entrambe. In seguito, dovrai aprire la tua email per confermare il tuo account su OpenStreetMap.
+-   Nella terza casella, inserisci lo username che vorresti avere.  Non puoi scegliere uno username che sia stato già scelto da qualcun altro, per cui scegline uno fantasioso. Se provi a inserire qualcosa di semplice, come il tuo nome, è molto probabile che un altro utente lo abbia già preso.
+-   Inserisci una nuova password nella quarta e nella quinta casella. Dovresti scrivere la stessa password in entrambe. È sconsigliabile usare la stessa password della tua email.
+-   Dovresti annotare da qualche parte il tuo username e la tua password di OSM. Ti serviranno più tardi per effettuare l’accesso.
+-   Dopo aver compilato tutte le caselle, clicca “Registrati” in fondo alla pagina.
+-   In caso di problemi, verrà visualizzato un messaggio di errore. Controlla che la tua email sia la stessa nelle prime due caselle e che la password sia la stessa nelle ultime due caselle. Se la terza casella è evidenziata in rosso, significa che qualcun altro ha già scelto il tuo username e che dovrai sceglierne un altro.
+-   Apri una finestra separata o una scheda del tuo browser e vai sulla tua email. I siti email più comuni sono [mail.yahoo.com](https://mail.yahoo.com) e [www.gmail.com](https://www.gmail.com).
+-   Inserisci il tuo indirizzo email e la password della tua email per aprire l’email. Tieni presente che __non__ sono le stesse credenziali di OpenStreetMap.
+-   Se la tua registrazione è andata a buon fine, dovresti vedere una email nella tua cartella di posta in arrivo. Apri l’email. Dovrebbe apparire come l’immagine più sotto. Clicca il link che è indicato qui sotto:
 
     ![Confirming your OpenStreetMap account][]
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+-   Si aprirà una nuova scheda o una finestra. Se tutto è andato bene, dovresti avere un account OSM!
+-   Sulla pagina OpenStreetMap, clicca “Accedi” nell’angolo in alto a destra. Inserisci il tuo username e la password di OpenStreetMap e premi Invio. Adesso dovresti aver effettuato l’accesso. Dovresti vedere il tuo username nell’angolo in alto a destra della pagina.
 
 Inserire i tuoi primi punti
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
+-   Adesso che hai effettuato l’accesso con il tuo username sul sito web di OpenStreetMap, puoi usare l’editor iD per aggiungere il tuo primo nodo sulla mappa.
+-   Sposta la mappa su un posto che conosci bene, come la tua città o il tuo quartiere. Una buona idea è quella di assicurarti che casa tua (o quella di un tuo vicino) e il tuo luogo di lavoro siano presenti e che abbiano l’indirizzo corretto. 
 - Ingrandisci la mappa nel punto in cui vuoi aggiungere un punto (magari un ristorante o negozio che non sono mappati vicino a te).
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
+-   Appena sopra la mappa sulla sinistra, è presente una scheda chiamata “Modifica” con un piccolo triangolo accanto. Clicca il piccolo triangolo. Dovresti vedere apparire un menù a discesa.
 - Fai click su “Modifica con iD (editor nel browser)”.
 
     ![Click edit][]
@@ -93,26 +93,26 @@ Inserire i tuoi primi punti
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+-   Puoi aggiungere un nodo alla mappa cliccando sul pulsante chiamato “Punto” in alto nella finestra. Quindi clicca sulla mappa dove vuoi aggiungere un nuovo punto.
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+-   Seleziona dal menù sulla sinistra il tipo di luogo che stai aggiungendo alla mappa. Successivamente puoi compilare nelle apposite caselle il nome del posto e altre informazioni.
+-   Per salvare le tue modifiche, clicca il pulsante “Salva” in alto. Dato che si tratta della tua prima modifica, puoi anche continuare a fare pratica con l’editor. Non salvare le tue modifiche a meno che tu non sia sicuro che siano corrette.
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+-   Se fai click su “Salva”, ti verrà chiesto di inserire una descrizione delle tue modifiche. Dopo potrai cliccare un’altra volta su “Salva” e le tue aggiunte saranno salvate nel database di OSM!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+L’editor iD è un modo fantastico per modificare con semplicità OpenStreetMap e puoi scoprire altre cose su come usarlo nella [guida all’editor iD](/en/beginner/id-editor/). Puoi anche provare il [tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) che è un modo ottimo e interattivo per scoprire come funziona l’editor.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
+Comunque nella [sezione JOSM](/it/josm/) vedremo un programma stand-alone che offre molte altre caratteristiche. Continua pure a giocare con iD. Una volta che avrai più esperienza come contributore di OSM, potrai scegliere quale editor - iD oppure JOSM - ti piace usare di più.
 
 Conclusioni
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+Congratulazioni! Se tutto è andato bene adesso hai uno username e una password di OpenStreetMap, sai come navigare sul sito web di OSM e hai un’infarinatura di come aggiungere punti sulla mappa.
 
 
 
