@@ -93,12 +93,12 @@ OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העול�
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+-   ניתן להוסיף נקודה למפה על ידי לחיצה על כפתור בשם „נקודה” בראש החלון. לאחר מכן ללחוץ על המיקום במפה בו בכוונתך להוסיף נקודה חדשה.
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+-   לבחור מהתפריט שמימין את סוג המיקום שבכוונתך להוסיף למפה. ניתן למלא בטופס המתאים את שם המיקום ופרטים נוספים.
+-   כדי לשמור את השינויים שלך, עליך ללחוץ על הכפתור „שמירה” בראש העמוד. מאחר שזאת העריכה הראשונה שלך, יתכן שעדיף לך לשחק עם העורך. אין טעם לשמור את השינויים שלך אלמלא לדעתך הם מהימנים.
 
     ![Save button][]    
 
@@ -112,7 +112,7 @@ However, in the [JOSM section](/en/josm/) we will be looking at a standalone app
 תקציר
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+ברכותינו! אם הכול פעל כמתוכנן כעת יש לך שם משתמש וססמה ב־OpenStreetMap, ידוע לך כיצד לנווט באתר של OSM ויש לך הבנה ראשונית בנוגע לדרך הוספת נקודות למפה.
 
 
 

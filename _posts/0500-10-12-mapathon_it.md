@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Manage a Mapathon
-permalink: /en/coordination/mapathon/
-lang: en
+title: Gestire un mapathon
+permalink: /it/coordination/mapathon/
+lang: it
 category: coordination
 ---
 
-# Manage a Mapathon
+# Gestire un mapathon
 
 > Questa guida può essere scaricata come [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) or [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
 > Creato il 2017-01-30  
@@ -17,15 +17,15 @@ category: coordination
 ## Introduzione
 
 ### Tipologia di evento  
-Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
+Decidere il tipo di evento che vuoi ospitare determinerà la direzione che devi prendere e i passi che dovrai fare.  
 
-This guide deals with indoor Mapathons for larger groups. 
+Questa guida riguarda i mapathon organizzati al chiuso per grandi gruppi. 
 
-For other types of gatherings for mapping see  
-[Weekend Mapping Projects](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
-[Mapping Parties](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
+Per altri tipi di ritrovi per la mappatura vedi  
+[Progetti di mappatura del fine settimana](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
+[Mapping party](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**A Mapathon is an organised gathering of people to add data to the OpenStreetMap. This can be a project to improve the map in your local area, or to help Response Teams on the ground during a Disaster, or a Missing Maps Project for ongoing or future Humanitarian Responses.**  
+**Un mapathon è un ritrovo organizzato di persone per aggiungere dati a OpenStreetMap. Può essere un progetto che si prefigge di migliorare la mappa nella tua regione locale oppure di assistere i soccorritori sul posto durante un evento disastroso o anche un progetto di Missing Maps per soccorsi umanitari presenti e futuri.**  
 
 Your Mapathon can be open to training new mappers as well as a regular event for experienced mappers and could consist of a training session, mapping time and time to socialise.  
 

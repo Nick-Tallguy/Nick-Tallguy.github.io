@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: כותרת
 permalink: /he/beginner/introduction/
 lang: he
@@ -9,15 +9,15 @@ category: beginner
 היכרות
 ============
 
-> This guide may be downloaded as [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) or [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
+> ניתן להוריד מדריך זה בתור [beginner_introduction_he.odt](/files/beginner_introduction_he.odt) או בתור [beginner_introduction_he.pdf](/files/beginner_introduction_he.pdf)  
 > Reviewed 2015-07-12  
 
-Information is powerful. With good information and the right
-understanding, individuals and communities are better able to improve
-their lives and make good decisions about the future. There are many
-people and organizations who make decisions that affect our lives. Good
-information allows these NGO's (non-government organisations), governments and citizens to make better
-decisions, and hopefully make our lives better. Maps are a good way
+ידע זה כוח. עם מידע איכותי והבנה
+בהתאם, יכולים בודדים וקהילות לשפר בצורה טובה יותר
+את חייהם ולקבל החלטות מושכלות יותר בנוגע לעתיד. ישנם אנשים
+וארגונים רבים שמקבלים החלטות שמשפיעות על החיים שלנו. מידע איכותי
+מאפשר לעמותות הציבוריות, לממשלות ולאזרחים לקבל החלטות איכותיות יותר
+ובתקווה גם לשפר את חיינו. מפות הן דרך טובה להעביר מידע.
 to convey information. 
 
 ![A village in Indonesia][]
