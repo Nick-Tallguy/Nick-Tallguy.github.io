@@ -28,42 +28,42 @@ iD 편집기 시작하기
 -	인터넷 브라우저를 열고 OpenStreetMap 웹 사이트 [http://www.openstreetmap.org](http://www.openstreetmap.org)로 이동하세요.  
 -	당신의 OpenStreetMap 계정으로 **로그인하세요**  
 -	편집하고 싶은 위치를 지도에서 맞추고 확대하세요. 마우스 왼쪽 버튼을 누르고 지도를 원하는 방향으로 드래그하면 됩니다.  
--	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**.  
+-	**편집** 옆에 있는 작은 화살표를 누르세요. 그런 다음 **iD (브라우저 내 편집기)(으)로 편집**을 누르세요.  
 
 ![image1][]
 
 
-iD Editor User Interface
+iD 편집기 사용자 인터페이스
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** This panel shows tags from the object selected on the map.  
-	You can add or edit tags from this panel.  
-2. **Tools:** This panel shows basic editing tools:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="24px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+1. **지물 편집 창:** 이 창에서 지도에서 선택한 개체의 태그를 볼 수 있습니다.  
+	이 창에서 태그를 추가하거나 편집할 수 있습니다.  
+2. **도구:** 이 창에서 기본적인 편집 도구를 사용할 수 있습니다.  
+    점(노드) 그리기, 단축키 **1** ![image3][]{: height="24px"}  
+    선(웨이) 그리기, 단축키 **2** ![image4][]{: height="24px"}  
+    공간(다각형) 그리기, 단축키 **3** ![image5][]{: height="24px"}  
+    실행 취소, 단축키 **Ctrl+z** ![image6][]{: height="24px"}  
+    다시 실행, 단축키 **Ctrl+y** ![image7][]{: height="24px"}  
+    저장, 단축키 **Ctrl+s** ![image8][]{: height="24px"}  
+3. **지도 창:** 이 창에서 다양한 설정을 조절할 수 있습니다.  
+    확대, 단축키 **+** ![image9][]{: height="24px"}  
+    축소, 단축키 **-** ![image10][]{: height="24px"}  
+    내 위치 보기 ![image11][]{: height="24px"}  
+    배경 설정, 단축키 **b** ![image12][]{: height="24px"}  
+    지도 자료, 단축키 **f** ![Map Data][]{: height="24px"}  
+    도움말, 단축키 **h** ![image13][]{: height="24px"}  
+4. **정보 창:** 이 창에서 축척과 이 지역 내에 기여한 사람들 같은 다양한 정보를 볼 수 있습니다.  
 
-Configuring the Background Layer
+배경 설정
 --------------------------------
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+**배경 설정** 버튼을 누르거나 단축키 **b**![image14][]{: height="24px"}를 사용하세요.  
 ![image15][]  
-To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% ![image16][]{: height="24px"}  
-You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+**명도**를 조절하려면 박스 4개 중 하나를 누르세요. 왼쪽부터 25%, 50%, 75%, 100%입니다. ![image16][]{: height="24px"}  
+원하는 이미지 제공자에 따라 **배경을 변경**할 수도 있습니다(기본값은 Bing 항공 이미지).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+**사용자 지정**을 눌러서 직접 지도 타일을 추가할 수도 있습니다. 예를 들어, **현장 조사 지도를 추가**[^fieldpaper]하고 싶다면, **사용자 지정**을 누르고 돋보기(검색) 아이콘을 눌러서 다음과 같이 창을 여세요.  
 ![image17][]   
 and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
