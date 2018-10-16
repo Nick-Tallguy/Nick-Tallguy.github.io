@@ -47,12 +47,12 @@ Stáhněte si JOSM
 Instalovat JOSM
 ------------
 
->  You may have problems installing JOSM if Java is not already
->  installed on your computer. If you have problems in this section,
->  try downloading and installing Java. You can download it here:
+> Možná máte problémy s instalací JOSM, pokud java ještě není
+> nainstalovaná v počítači. Máte-li problémy v této části,
+> zkuste stáhnout a nainstalovat Javu. Můžete si ji stáhnout zde:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
->  Mac users may have old versions of Java. Please see [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) for options for OSX 10.6 and 10.7.3+
+> Uživatelé MacOS mohou mít staré verze Javy. Další informace naleznete v části kapitoly [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) pro OSX 10.6 a 10.7.3+
 
 - Najděte instalační soubor JOSM v počítači. Poklepejte na něj
   a tím začněte nastavení.
@@ -163,34 +163,34 @@ Naučte se základní mapování s JOSM
   vpravo od mapy v okně s názvem "Vlastnosti". Jsou známé jako
   tagy. Tagy jsou informace, které jsou svázány s bodem, čárou nebo tvarem
   který popisuje, co to je. Další informace o značkách se dozvíme později
-  chapter. For now all you need to know is that this
-  information helps describe whether our object is a forest, a river,
-  a building, or something else.
-- Think about drawing a map by hand, and how you are also drawing
-  points, lines, and shapes. What other places are best represented by
-  points? Lines? Shapes?
+  Prozatím vše, co potřebujete vědět, je že tato
+  informace pomáhá popsat, zda náš objekt je les, řeka,
+  budova nebo něco jiného.
+- Přemýšlejte o ručním kreslení mapy a o tom, jakým způsobem kreslíte
+  body, čáry a tvary. Která další místa jsou nejlépe zastoupeny
+  body? Čarami? Tvary?
 
 ### Změna objektů
 
-- Select the forest on the left side of the map. Be sure to click on
-  the line around the forest, not one of the points on the line. Now
-  hold your left mouse button down and drag your mouse. You should be
-  able to move the forest to a new location on the map.
-- Click on one of the points on the line around the forest. Hold your
-  left mouse button down and drag your mouse. You should be able to
-  move the point. This is how you can change the shape of an object,
-  or move a point.
+- Vyberte lesy na levé straně mapy. Ujistěte se, že kliknete na
+  linii kolem lesa, ne jeden z bodů na čáře. Nyní
+  držte levé tlačítko myši a přetáhněte myší. Měli byste být
+  schopni přesunout les na nové místo na mapě.
+- Klikněte na jeden z bodů na čáře kolem lesa. Držte
+  levým tlačítkem myši a přetáhněte myš. Měli byste být schopni
+  přesunout bod. Takto můžete změnit tvar objektu,
+  nebo přesunout bod.
 
 ### Kreslení
 
-- On the left side of JOSM is a column of buttons. Many of these
-  buttons open new windows on the right side that provide more
-  information about the map. The most important buttons, however, are
-  at the top of these column. These buttons change what you can do
-  with your mouse.
-- The top buttons in this column are the ones you will use the most.
-  They are used for selecting objects and for drawing new ones.
-- Until now, you have been using the Select tool, which looks like
+- Na levé straně JOSM je sloupec tlačítek. Mnoho z těchto 
+  tlačítek otevře nová okna na pravé straně, která poskytují více
+  informací o mapě. Nejdůležitější tlačítka jsou však
+  v horní části tohoto sloupce. Tato tlačítka mění, co můžete udělat
+  pomocí myši.
+- Horní tlačítka v tomto sloupci jsou ty, které nejvíce použijete.
+  Používají se pro výběr objektů a pro kreslení nových.
+- Až dosud používáte nástroj Vybrat, který vypadá
   takového:
 
   ![Select tool][]
@@ -198,12 +198,12 @@ Naučte se základní mapování s JOSM
 - Před kreslením se musíte ujistit, že není vybráno nic.
   Klikněte na černé místo na mapě, které je prázdné
   nic není vybráno.
-- Click on the second button, the Draw tool.
+- Klikněte na druhé tlačítko, nástroj Draw.
 
   ![Draw tool][]
 
-- Find an empty area on the map, and double-click with your mouse.
-  This will draw a single point.
+- Najděte prázdnou oblast na mapě a poklepejte myší.
+  Tím se nakreslí jeden bod.
 - Chcete-li nakreslit čáru, klikněte jednou myší. Pohybujte myší a
   klikněte znovu. Pokračujte, dokud nebudete spokojeni s vaší linkou. Chcete-li ukončit
   čáru, poklepejte myší.
@@ -216,33 +216,33 @@ Naučte se základní mapování s JOSM
   jsme neurčili, co reprezentují. Chceme říci že
   naše body jsou obchody, školy nebo něco jiného a že naše
   tvary jsou pole, budovy nebo něco jiného.
-- Click on the Select tool, in the column of buttons on the left.
+- Klikněte na nástroj Vybrat ve sloupci tlačítek vlevo.
 
   ![Select tool][]
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+- Vyberte jeden z objektů, které jste kreslili nástrojem Kreslení. Na
+   horním menu klikněte na "Předvolby". Přesuňte kurzor myši přes podnabídku na
+  typ umístění, který chcete definovat.
+- Když kliknete na předvolbu, objeví se formulář s žádostí o další
+  informace. Nemusíte vyplňovat všechna pole, ale můžete
+  chtít přidat některé důležité oblasti, jako je například název
+  objektu.
+- Po dokončení zadávání informací klikněte na tlačítko Použít
+  Přednastavení". Pokud vše proběhne dobře, měl by váš bod, linie nebo tvar
+  změnit barvy nebo zobrazit symbol. Je to proto, že jste definovali
+  co to je.
 
-Draw Your Own Map
+Nakreslete vlastní mapu
 -----------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper previously.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+- Nyní nakreslíme mapu, abychom mohli procvičit techniky, které jsme 
+  se naučili. Možná budete chtít předtím načrtnout mapu, kterou jste na papíře nakreslili.
+- Přetáhněte mapu ze vzorové mapy. Držte pravé tlačítko myši
+  a táhněte myší, dokud nebudete mít pěknou prázdnou plochu.
+- Pomocí nástroje Kreslení vytvoříte body, čáry a tvary. Popište co
+  jsou vaše objekty, vybráním z nabídky Předvolby.
+- Když skončíte, měli byste mít svou vlastní mapu podobnou
+  ukázkové mapě, kterou jsme otevřeli v sample.osm.
 
 ## Remove the sample layer
 
@@ -262,9 +262,9 @@ This will be explained in the next chapter.
 Souhrn
 -------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next chapter we will
-take a closer look at the process of editing the OSM map with JOSM.
+Vynikající! Pokud jste všechno udělali dobře, tak jste se naučili, jak nastavit JOSM na svém
+počítači a základní nástroje pro kreslení map. V další kapitole se 
+blížeji podíváme na proces úpravy mapy OSM s JOSM.
 
 [JOSM website]: /images/josm/josm-website.png
 [Windows installer]: /images/josm/windows-installer.png

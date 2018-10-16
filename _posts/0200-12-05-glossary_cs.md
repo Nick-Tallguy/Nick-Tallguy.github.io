@@ -37,7 +37,7 @@ Pro jednoduché hledání ve slovníčku použijte funkci "hledat" ve vašem pro
 
 **FOD : Fundamental Operational Database**: (Základní operační databáze) data, která jsou specifická pro aktivaci, například zdravotní zázemí, školy, zdroje vody, rozsah povodní, poškození budov, atd.
 
-**GDACS : Global Disaster Alert and Coordination System**: GDACS je kooperační soustava pod střechou Spojených Národů. Součástí jsou manažeři katastrof a informační systémy katastrof po celém světě a cílí na vyplnění informační a koordinačních rozdílů v prvních fázích po závažných katastrofách. GDACS poskytuje přístup  k informačním systémům a souvisejícím koordinačním nástrojům v reálném čase pomocí webového prohlížeče.
+**GDACS : Global Disaster Alert and Coordination System**: GDACS je kooperační soustava pod zastřešením Spojených Národů. Součástí jsou krizoví manažeři a informační systémy katastrof po celém světě a cílí na vyplnění informační a koordinačních mezer v prvních fázích po závažných katastrofách. GDACS poskytuje přístup k informačním systémům a souvisejícím koordinačním nástrojům v reálném čase pomocí webového prohlížeče.
 
 **[iD editor](/cs/beginner/id-editor/)** - OpenStreetMap editor ve webovém prohlížeči pro úplné začátečníky navržený firmou Mapbox. 
 

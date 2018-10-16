@@ -1,28 +1,28 @@
 ---
 layout: doc
-title: The JOSM Editing Process
+title: Proces editace JOSM
 permalink: /cs/josm/more-about-josm/
 lang: cs
 category: josm
 ---
 
-The JOSM Editing Process
+Proces editace JOSM
 ========================
 
-> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
+> Tato příručka může být stažena jako [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
 > Zkontrolováno 12.7.2015  
 
-In the previous section you
-installed JOSM and began drawing your first points, lines, and shapes.
-You added presets to these objects in order to attach information about
-them. By the end, you were able to draw your own map in JOSM.
+V předchozí části jste 
+nainstalovali JOSM a začali kreslit své první body, čáry a tvary.
+Do těchto objektů jste přidali přednastavení, abyste mohli přidat informace o
+nich. Nakonec jste si mohli vytvořit vlastní mapu v JOSM.
 
-This was good practice, and now we are ready to edit OpenStreetMap.
+To byla dobrá praxe a teď jsme připraveni upravovat OpenStreetMap.
 
-In this section we will take a closer look at the interface of JOSM, and see
-how we can use it to edit the map on OpenStreetMap.
+V této části se blížeji podíváme na rozhraní JOSM a uvidíme
+jak ho můžeme použít k úpravě mapy na OpenStreetMap.
 
-The Cycle of Editing
+Cyklus úpravy
 ---------------------
 Editing OpenStreetMap with JOSM is similar to editing with the iD editor we
 saw previously. But because JOSM is a desktop application, it works a little
