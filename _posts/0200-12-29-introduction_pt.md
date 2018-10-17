@@ -74,8 +74,8 @@ trabalho. Seguindo este guia, rapidamente você será capaz de começar
 a fazer mapas digitais com o OpenStreetMap.
 
 
-[Uma aldeia na Indonésia]: /images/beginner/village-in-indonesia.png
-[Exemplo de um mapa desenhado à mão]: /images/beginner/hand-drawn-map.png
-[Exemplos de símbolos]: /images/beginner/examples-of-symbols.png
-[Mapear no Computador]: /images/beginner/mapping-on-computer.png
-[Mapas digitais com o OpenStreetMap]: /images/beginner/digital-maps-with-osm.png
+[A village in Indonesia]: /images/beginner/village-in-indonesia.png
+[Example of a hand-drawn map]: /images/beginner/hand-drawn-map.png
+[Examples of symbols]: /images/beginner/examples-of-symbols.png
+[Mapping on Computer]: /images/beginner/mapping-on-computer.png
+[Digital maps with OpenStreetMap]: /images/beginner/digital-maps-with-osm.png

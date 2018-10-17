@@ -53,13 +53,13 @@ For more information on relations (**not a beginner subject**) see;
 [LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
-See also  
+Ver também  
 ---------
 
 For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
 
 [![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+*As legendas estão disponíveis em alguns idiomas*  
 
 
 

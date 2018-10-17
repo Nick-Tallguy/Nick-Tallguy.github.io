@@ -78,4 +78,4 @@ Estas são algumas das formas que pode utilizar os dados, manter-se ligado com a
 
 [MapOSMatic]: /images/beginner/maposmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
-[Lista de e-mail]: /images/beginner/osm-mailing-lists.png
+[Mailing list]: /images/beginner/osm-mailing-lists.png

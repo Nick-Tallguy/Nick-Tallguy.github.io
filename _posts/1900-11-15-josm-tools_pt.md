@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM Editing Tools
+title: Ferramentas de edição do JOSM
 permalink: /pt/josm/josm-tools/
 lang: pt
 category: josm
@@ -10,7 +10,7 @@ Ferramentas de Edição do JOSM
 ==================
 
 > Este guia pode ser descarregado como [josm_josm-tools_pt.odt](/files/josm_josm-tools_pt.odt) ou [josm_josm-tools_pt.pdf](/files/josm_josm-tools_pt.pdf)  
-> Reviewed 2017-06-09  
+> Revisto em 2017-06-09  
 
 - TOC
 {:toc}

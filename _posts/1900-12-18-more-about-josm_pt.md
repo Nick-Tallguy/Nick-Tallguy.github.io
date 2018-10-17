@@ -1,48 +1,48 @@
 ---
 layout: doc
-title: Proces editace JOSM
-permalink: /cs/josm/more-about-josm/
-lang: cs
+title: O processo de edição do JOSM
+permalink: /pt/josm/more-about-josm/
+lang: pt
 category: josm
 ---
 
-Proces editace JOSM
+O processo de edição do JOSM
 ========================
 
-> Tato příručka může být stažena jako [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
-> Zkontrolováno 12.7.2015  
+> This guide may be downloaded as [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
+> Revisto em 2015-07-12  
 
-V předchozí části jste 
-nainstalovali JOSM a začali kreslit své první body, čáry a tvary.
-Do těchto objektů jste přidali přednastavení, abyste mohli přidat informace o
-nich. Nakonec jste si mohli vytvořit vlastní mapu v JOSM.
+In the previous section you
+installed JOSM and began drawing your first points, lines, and shapes.
+You added presets to these objects in order to attach information about
+them. By the end, you were able to draw your own map in JOSM.
 
-To byla dobrá praxe a teď jsme připraveni upravovat OpenStreetMap.
+This was good practice, and now we are ready to edit OpenStreetMap.
 
-V této části se blížeji podíváme na rozhraní JOSM a uvidíme
-jak ho můžeme použít k úpravě mapy na OpenStreetMap.
+In this section we will take a closer look at the interface of JOSM, and see
+how we can use it to edit the map on OpenStreetMap.
 
-Cyklus úpravy
+The Cycle of Editing
 ---------------------
-Editace OpenStreetMap s JOSM je podobná editaci s iD editorem jak 
-jsme viděli předtím. Ale protože JOSM je desktopová aplikace, funguje trochu
- jinak. Proces editace a přidávání do OpenStreetMap s
-JOSM bude vždy následující:
+Editing OpenStreetMap with JOSM is similar to editing with the iD editor we
+saw previously. But because JOSM is a desktop application, it works a little
+bit differently. The process of editing and adding to OpenStreetMap with
+JOSM will always be as follows:
 
-1. ** Stáhnout ** aktuální mapové údaje z OSM
-2. ** Upravit ** pomocí satelitních snímků, GPS, poznámek a jiných informací
-3. ** Uložit ** změny do OpenStreetMap
+1. **Download** the current map data from OSM
+2. **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
+3. **Save** changes to OpenStreetMap
 
-Stažení dat OSM
+Downloading OSM Data
 --------------------
-Prvním editačním krokem je stahovat data pro oblast světa
-kterou chceme se zlepšit. Nezapomeňte, že to musíte provést pokaždé, když chcete
-udělat změny mapy, protože mapa je často aktualizována jinými uživateli.
+The first editing step is to download the data for the area of the world that
+we want to improve. Remember that you need to do this every time that you want
+to make changes to the map, because the map is often being updated by other users.
 
-- Klikněte na "Soubor" v levém horním rohu stránky JOSM a klikněte na "Stáhnout 
-    z OSM". Otevře se okno pro stahování. Můžete přistupovat
-    k tomuto oknu jednoduše kliknutím na tlačítko pro stažení zobrazené
-    zde:
+-	Click on “File” in the top left corner of JOSM and click “Download
+    from OSM”. This will open up the download window. You can access
+    this window more simply by clicking on the download button, shown
+    here:
 
 ![JOSM Download Button][]
 
@@ -52,32 +52,32 @@ udělat změny mapy, protože mapa je často aktualizována jinými uživateli.
 ![JOSM Download Dialog][]
 
 -  Use your mouse to pan and zoom it to an area
-    kterou znáte velmi dobře, jako je vaše rodné město, nebo okolí.
-    Ovládací prvky jsou stejné jako v okně mapy JOSM. Pravé tlačítko myši
-    umožňuje posunovat mapu a rolovací kolečko umožňuje přiblížení a
-    oddálení.
+    that you know very well, such as your hometown or neighborhood. The
+    controls are the same as in the JOSM map window. The right mouse button
+    lets you drag the map, and your scroll wheel allows you to zoom in and
+    out.
 
 > Sometimes if you are working on a notebook computer it can be difficult
 > to scroll in and out. Working in JOSM is much easier if you have a mouse,
 > but most modern notebooks allow you to scroll using the touchpad.
 
-- Nakreslete rámeček kolem oblasti, kterou chcete stáhnout. Chcete-li nakreslit nový rámeček, klikněte na
-    mapu, držte levé tlačítko myši zmáčknuté a přetáhněte myš k vytvoření
-    rámečku. Uvolněte tlačítko myši a dokončete kreslení rámečku.
-- Pokud jste spokojeni s velikostí a polohou rámečku, klepněte na
-    "Stáhnout" ve spodní části okna. JOSM dostane data pro
-    tuto oblast z OpenStreetMap a otevřete ji v okně mapy k
-    úpravám. 
+-	Draw a box around the area that you want to download. To draw a new box, click on the
+    map, hold your left mouse button down, and drag your mouse to create
+    a box. Release the mouse button to finish drawing the box.
+-  When you are satisfied with the size and location of the box, click
+    “Download” at the bottom of the window. JOSM will get the data for
+    this area from OpenStreetMap and open it in your map window for
+    editing.
 
-### Přidat snímky
-Pokud jste sledovali, jak jsme přidali první body s iD editorem,
-pamatujte si, že pod mapovými daty byl satelitní obraz, který pomohl
-identifikovat objekty na zemi. Tato fotografie pocházela od společnosti Microsoft Bing, která
-velkoryse poskytuje své snímky pro uživatele OpenStreetMap, aby se mohly využít při
-přispívání do mapy.
+### Add Imagery
+If you followed along when we added our first points with the iD editor, you
+remember that beneath the map data there was a satellite image that helped
+us identify objects on the ground. This imagery was from Microsoft Bing, which
+generously provides its imagery for OpenStreetMap users to reference while
+contributing to the map.
 
-- Pokud chcete přidat satelitní snímky Bing v JOSM, klikněte na "Imagery" v horní nabídce
-    JOSM a vyberte "Bing Sat".
+-	To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of
+    JOSM and selecting “Bing Sat.”
 
 > If you don't see Bing Sat on the Imagery menu, you may need to activate
 > it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
@@ -89,15 +89,15 @@ přispívání do mapy.
 > Click on “Bing Sat”. Then Click “Activate”.
 
 
-### Prohlídka JOSM
-Nyní, když jsme stáhli data z OpenStreetMap a přidali satelitní snímky Bing,
- podívejme se ještě jednou na rozhraní JOSM.
+### Tour of JOSM
+Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery,
+let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-Hlavní okno, které již znáte - toto je okno mapy a 
-to je místo, kde se většina akce odehrává. Zde si můžete prohlédnout, upravit a
-přidat nová data do OpenStreetMap.
+The main window you are already familiar with - this is the map window, and 
+it is where most of the action takes place. Here you will view, edit, and
+add to the OpenStreetMap data.
 
 To the right of the map window are a series of panels, each of which has
 its own function. Typically when you first install JOSM several
@@ -196,7 +196,7 @@ See your changes on the map
     general rule is, if your point has an icon in JOSM, then it should
     be seen on the main map at the OpenStreetMap website.
 
-Souhrn
+Sumário
 -------
 Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
 is great, but it's not the only aspect of making maps. Of course you also
