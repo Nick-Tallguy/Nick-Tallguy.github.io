@@ -99,13 +99,13 @@ Hlavní okno, které již znáte - toto je okno mapy a
 to je místo, kde se většina akce odehrává. Zde si můžete prohlédnout, upravit a
 přidat nová data do OpenStreetMap.
 
-To the right of the map window are a series of panels, each of which has
-its own function. Typically when you first install JOSM several
-panels are shown by default, such as Layers, Properties, and
-Selection. When you select a point, line, or shape in the map
-window, it will be shown in the Selection panel. Information about
-the object will be shown in the Properties panel, and the username
-of the author of that object will be shown in the Authors panel.
+Vpravo od okna mapy je řada panelů, z nichž každý má
+vlastní funkci. Typicky při první instalaci JOSM je několik
+panelů zobrazeno ve výchozím nastavení, například Vrstvy, Vlastnosti a
+Výběr. Když na mapě vyberete bod, čáru nebo tvar v mapovém 
+okně, zobrazí se v panelu Výběr. Informace o
+objektu se zobrazí v panelu Vlastnosti a uživatelské jméno
+autora daného objektu se zobrazí v panelu Autoři. 
 
 These panels can be opened or closed by clicking on the various buttons on
 lower left side of JOSM. Above these buttons in the upper right are tools which

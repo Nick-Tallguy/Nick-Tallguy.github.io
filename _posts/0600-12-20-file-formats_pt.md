@@ -1,16 +1,16 @@
 ---
 layout: doc
-title: File Formats
+title: Formatos de Ficheiro
 permalink: /pt/osm-data/file-formats/
 lang: pt
 category: osm-data
 ---
 
-File Formats
+Formatos de Ficheiro
 =============
 
 > This guide may be downloaded as [File_Formats_en.odt](/files/File_Formats_en.odt) or [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
-> Reviewed 2016-09-05
+> Revisto em 2016-09-05
 
 Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
 
@@ -57,7 +57,7 @@ OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensi
 
 Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
 
-Summary
+Sumário
 -------
 
 In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
