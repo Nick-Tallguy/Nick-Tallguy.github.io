@@ -107,38 +107,38 @@ okně, zobrazí se v panelu Výběr. Informace o
 objektu se zobrazí v panelu Vlastnosti a uživatelské jméno
 autora daného objektu se zobrazí v panelu Autoři. 
 
-These panels can be opened or closed by clicking on the various buttons on
-lower left side of JOSM. Above these buttons in the upper right are tools which
-change what you can do with your mouse. You are already familiar with some of them,
-the Select tool and the Draw tool. Below them are tools which make it easier to
-zoom in, delete an object, draw a shape, or create a line that is parallel
-to another line.
+Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka na
+ dolní levé straně JOSM. Nad těmito tlačítky vpravo nahoře jsou nástroje, které
+ mění, co můžete dělat pomocí myši. Jste již s některými z nich obeznámeni,
+např. nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují práci
+přiblížit, smazat objekt, nakreslit tvar nebo vytvořit rovnoběžnou čáru
+k jiné čáře.
 
 
-Edit
+Upravit
 ----
-So we have completed step one of the editing process - Downloading. We have
-prepared JOSM with satellite imagery as a reference. The next step is to edit
-the map and add new items.
+Takže jsme dokončili první krok v editačním procesu - stahování. Máme
+připravený JOSM se satelitními snímky jako referenci. Dalším krokem je úprava
+mapy a přidání nových položek.
 
-Depending on the area that you chose to download, there may be a lot or very
-little existing map data. But notice that it is the same sort of data that we
-have seen previously - points, lines, and shapes that represent real-life locations.
+V závislosti na oblasti, kterou jste zvolili ke stažení, může být hodně nebo velmi
+málo existujících mapových dat. Všimněte si však, že se jedná o stejný druh dat jako jsme 
+již dříve viděli - body, čáry a tvary, které představují místa v reálném životě.
 
--	Use the techniques you have already learned to add a couple points to the map
-	of places that you know. If you see any mistakes, try to fix them.
--	You don't need to be too aggressive while you are learning. If you are unsure
-	about something it's better to leave it as it is.
--	If you want to move a point, line, or shape, use the
-    **select tool**. Click on an object and drag it where it
-    should be. This can be used to correct the location of items that
-    have been put in the wrong place.
+-Použijte techniky, kterými jste se již naučili přidat na mapu několik bodů
+	na místa, které znáte. Pokud uvidíte nějaké chyby, zkuste je opravit.
+- Nemusíte být příliš agresivní, když se učíte. Pokud si nejste jisti
+	s něčím, co je lepší nechat tak, jak je.
+- Jestliže chcete přesunout bod, čáru nebo tvar, použijte
+    **nástroj výběru**. Klikněte na objekt a přetáhněte jej tam, kde 
+    by měl být. To lze použít k opravě umístění položek které 
+    byly postaveny na špatné místo.
 
 ![JOSM select tool][]
 
--  Use the **draw tool** to draw new points, lines, and shapes.
-    Describe these objects by selecting from the Presets menu, as you
-    did in the previous section. 
+- Použijte **kreslicí nástroj** pro kreslení nových bodů, čar a tvarů.
+    Popište tyto objekty výběrem z nabídky Předvolby, jako jste 
+    dělali v předchozí části. 
 
 > Never edit the map outside of the area you have downloaded. You  
 > can see the rectangular area you have downloaded has a solid background,  
@@ -146,32 +146,32 @@ have seen previously - points, lines, and shapes that represent real-life locati
 > <br>  
 > ![JOSM area downloaded][]
 
-Save Changes
+Ukládání změn
 --------------
-The third and final step to complete our edits is to upload the changes we have
-made to the OpenStreetMap database. To save the changes, we must
-be connected to the internet.
+Třetím a posledním krokem k dokončení našich úprav je nahrát změny, které máme
+zapsat do databáze OpenStreetMap. Chcete-li změny uložit, musíme
+být připojeni k internetu.
 
--  Click “File” on the top menu, and then click “Upload Data”. This
-    will open up the upload window. You can access this window more
-    simply by clicking on the upload button, shown here:
+- V horní nabídce klikněte na "Soubor" a klikněte na "Nahrát data". To
+    otevře okno pro nahrávání. K tomuto oknu můžete přistupovat také 
+    jednoduše kliknutím na tlačítko pro nahrání, které je uvedeno zde:
 
 ![JOSM Upload Button][]
 
--  The window that appears shows a list of the objects that you are
-    adding and the objects you are modifying or deleting. In the box at
-    the bottom you are asked to provide a comment about the changes that
-    you are making. Type in here a description of your edits.
+- Zobrazené okno zobrazí seznam objektů, které jste
+    přidali a objektů, které jste upravili nebo odstranili. V kolonce na 
+    v dolní části budete požádáni, abyste uvedli komentář o změnách, které 
+    jste udělali. Zadejte tam popis úprav.
 
 ![JOSM Upload Dialog][]
 
--  Click “Upload Changes”.
+- Klikněte na tlačítko Nahrát změny.
 
--	If this is your first time saving changes to OpenStreetMap, you will
-    be asked for your OpenStreetMap username and password.
--	Enter them in the window that appears. If you check the box in
-    this window, your username and password will be saved and you won’t
-    need to enter them again in the future. Click “Authenticate”.
+-Jestliže se jedná o první ukládání změn na OpenStreetMap, budete
+    požádáni o své uživatelské jméno a heslo pro OpenStreetMap.
+- Zadejte je do zobrazeného okna. Pokud zaškrtnete políčko
+    v tomto okně, vaše uživatelské jméno a heslo budou uloženy a nebude
+    potřeba do budoucna je znovu vkládat. Klepněte na tlačítko Autentifikovat.
 
 ![JOSM Authenticate][]
 
