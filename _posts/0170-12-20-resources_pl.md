@@ -43,5 +43,5 @@ Jest to skomentowana lista wskaźników do innych stron internetowych, które uw
 ## Statystyki
 
   * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) Proste i otwartoźródłowe narzędzie do koordynacji. Wiki powiada, że nie jest już aktywnie rozwijane
-  * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
+  * [Postęp w czasie rzeczywistym na OpenStreetMap](https://github.com/osmlab/show-me-the-way) Na stronie readme na github jest wyjaśnione jak filtrować widok, aby nie było widać postępu na mapie całego świata
   * [Kto jest blisko mnie ](http://resultmaps.neis-one.org/oooc) mapa, na której wyświetlane są osoby ostatnio tworzące mapę na danym obszarze

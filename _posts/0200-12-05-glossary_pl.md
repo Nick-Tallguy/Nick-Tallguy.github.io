@@ -14,7 +14,7 @@ Słowniczek
 
 To easily search this Glossary, use the search feature within your browser, by holding down the control key and whilst doing so press the f key (usually described as **Ctrl+f**)  
 
-**3W** : Who, What, Where;  Who does What, Where?  
+**KCG** : Kto, Co, Gdzie; Kto robi Gdzie, Kiedy?  
 
 **AAR** : After Action Review;  A group activity to evaluate an exercise or activity to learn and improve.
 
