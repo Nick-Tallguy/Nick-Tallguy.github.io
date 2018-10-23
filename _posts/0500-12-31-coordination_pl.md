@@ -9,15 +9,15 @@ nosearch: true
 
 ---
 
-Coordination
+Koordynacja
 ============
 
 > Ten przewodnik może zostać pobrany jako [coordination_pl.odt](/files/coordination_pl.odt) lub [coordination_pl.pdf](/files/coordination_pl.pdf)  
 > Przejrzano 18.09.2015
 
-Because OpenStreetMap involves many people mapping together, it's
-useful to know how mappers can coordinate this activity.
+Ponieważ OpenStreetMap angażuje wielu ludzi mapujących wspólnie, jest
+użytecznym wiedzieć, jak maperzy koordynują swoje działania.
 
-This section of learnOSM provides information on various tools
-used for coordinating mapping activities, means of communication,
-and quality assurance.
+Ta sekcja LearnOSM dostarcza informacji na temat różnych narzędzi
+używanych do koordynowania działań mapowania, środków komunikacji
+i kontroli jakości.

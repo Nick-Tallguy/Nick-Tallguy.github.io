@@ -12,81 +12,81 @@ Edytor iD
 > Ten przewodnik może zostać pobrany jako [beginner_id-editor_pl.odt](/files/beginner_id-editor_pl.odt) lub [beginner_id-editor_pl.pdf](/files/beginner_id-editor_pl.pdf)  
 > Przejrzano 30.03.2016  
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+Zaczynasz mapować z Tasking Managerem dla HOT lub MissingMaps? Zobacz naszą [sekcję ze wskazówkami dla HOT](/pl/hot-tips/).  
 
 - TOC
 {:toc}
 
-The iD editor is the de facto, browser-based OpenStreetMap editor. iD is fast and easy to use, and  allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary.  
+Edytor iD jest de facto edytorem OpenStreetMap opartym na przeglądarce. iD jest szybki i łatwy w użyciu oraz pozwala na mapowanie z różnych źródeł danych takich, jak zdjęcia satelitarne i lotnicze, GPS, Field Papers lub Mapillary.  
 
-The iD editor is a great way to edit for small and easy changes that don't require the advanced features of JOSM (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD.  
+Edytor iD jest świetnym wyborem do edycji małych i łatwych zmian, które nie wymagają zaawansowanych funkcji JOSM (bardziej zaawansowany edytor map). Ten rozdział demonstruje podstawy edytowania w iD.  
 
-Starting the iD Editor
+Uruchamianie edytora iD
 ----------------------
 
--	The iD editor requires an active connection to the Internet.  
--	Open your Internet browser, and go to the OpenStreetMap website at [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Login** using your OpenStreetMap account  
--	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area.  
--	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**.  
+-	Edytor iD wymaga aktywnego połączenia z internetem.  
+-	Otwórz swoją przeglądarkę internetową i przejdź do strony OpenStreetMap pod adresem [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Zaloguj się** używając swojego konta OpenStreetMap.  
+-	Przesuń i przybliż mapę do obszaru, który chcesz edytować. Możesz przesuwać trzymając lewy przycisk myszy i przeciągając mapę do pożądanego obszaru.  
+-	Kliknij na małej strzałce za napisem **Edycja**. Następnie kliknij **Edytuj w iD (w tej przeglądarce)**.  
 
 ![image1][]
 
 
-iD Editor User Interface
+Interfejs użytkownika edytora iD
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** This panel shows tags from the object selected on the map.  
-	You can add or edit tags from this panel.  
-2. **Tools:** This panel shows basic editing tools:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="24px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+1. **Panel edycji obiektu:** Ten panel pokazuje tagi obiektu zaznaczonego na mapie.  
+	W tym panelu możesz dodawać lub edytować tagi.  
+2. **Narzędzia:** Ten panel pokazuje podstawowe narzędzia do edycji:  
+    Rysuj punkt (węzeł), *klawisz skrótu* **1** ![image3][]{: height="24px"}  
+    Rysuj linię (drogę), *klawisz skrótu* **2** ![image4][]{: height="24px"}  
+    Rysuj obszar (wielokąt), *klawisz skrótu* **3** ![image5][]{: height="24px"}  
+    Cofnij, *klawisz skrótu* **Ctrl+z** ![image6][]{: height="24px"}  
+    Ponów, *klawisz skrótu* **Ctrl+y** ![image7][]{: height="24px"}  
+    Zapisz zmiany, *klawisz skrótu* **Ctrl+s** ![image8][]{: height="24px"}  
+3. **Panel mapy:** Ten panel pokazuje różne funkcje konfiguracji:  
+    Przybliż, *klawisz skrótu* **+** ![image9][]{: height="24px"}  
+    Oddal, *klawisz skrótu* **-** ![image10][]{: height="24px"}  
+    Wyświetl aktualne położenie ![image11][]{: height="24px"}  
+    Ustawienia tła, *klawisz skrótu* **b** ![image12][]{: height="24px"}  
+    Dane mapy, *klawisz skrótu* **f** ![Map Data][]{: height="24px"}  
+    Pomoc, *klawisz skrótu* **h** ![image13][]{: height="24px"}  
+4. **Panel informacji:** Ten panel pokazuje różne informacje takie, jak pasek skali oraz nazwy użytkowników, którzy edytowali dany obszar.  
 
-Configuring the Background Layer
+Konfigurowanie warstwy podkładu
 --------------------------------
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+Kliknij przycisk **Ustawienia tła** lub użyj *klawisza skrótu* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% ![image16][]{: height="24px"}  
-You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Aby zmienić **poziom jasności** kliknij jeden z tych kwadratów, które oznaczają 100%, 75%, 50% i 25% ![image16][]{: height="24px"}  
+Możesz też **zmienić warstwę tła** zależnie od żądanego dostawcy kafelków (w Polsce domyślnie jest to Ortofotomapa z Geoportalu).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+Możesz dodać swoje własne kafelki mapy klikając na  **Własne**. Na przykład, jeśli chcesz **dodać Field Paper** [^fieldpaper], kliknij **Własne**, następnie kliknij na ikonce lupy (szukaj), aby otworzyć następujące okno:-  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+i wprowadź swój **URL z FieldPaper**, który będzie wyglądał mniej więcej tak: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Aby **wyświetlić ślady GPS z Twojego komputera** (format GPX), przeciągnij plik GPX do edytora iD.  
+Aby włączyć **ślady GPS OpenStreetMap** zaznacz pole. Na poniższym obrazku, publiczne ślady GPS są pokazane w różnych kolorach, wskazując na kierunek podróży.  
 ![osm gps traces][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
+Jeżeli występuje [przesunięcie podkładu](/pl/josm/aerial-imagery), możesz **skorygować przesunięcie podkładu** klikając na **Dopasuj przesunięcie warstwy tła**. ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- Klikaj strzałki, aby przesuwać podkład. Kliknij przycisk resetowania, aby przywrócić jego domyślną pozycję. ![image20][]  
 
-Basic Editing with iD  
+Podstawowa edycja w iD  
 ----------------------  
 
-### Adding Points  
+### Dodawanie punktów  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Aby dodać nowy punkt, kliknij na przycisku **Punkt**. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Twój kursor zmieni się na znak plusa (+). Teraz kliknij w miejscu, które znasz, aby zaznaczyć jego lokalizację. Na przykład, jeżeli wiesz, że w Twojej okolicy jest szpital, kliknij w miejscu, gdzie znajduje się budynek szpitala.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Zauważ, że został dodany nowy punkt. W tym samym czasie lewy panel zmienił się, aby pokazać formularz, w którym możesz wybrać właściwości obiektu. Kliknij **Teren szpitala**, aby oznaczyć punkt jako szpital.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Możesz używać formularzy, aby uzupełnić szczegółowe informacje o swoim punkcie. Możesz wypełnić nazwę szpitala, adres i/lub inne dodatkowe informacje. Zauważ, że każdy obiekt ma różne opcje, w zależności od tego, jaki tag wybierzesz w panelu edycji obiektu.  
+- Jeżeli popełnisz błąd taki, jak np. zła lokalizacja, to możesz przesunąć Twój punkt do nowej lokalizacji poprzez przytrzymanie lewego przycisku myszy na swoim punkcie i przeciąganie go. Lub, jeśli chcesz usunąć Twój punkt, kliknij go lewym przyciskiem myszy, aktywuj menu kontekstowe prawym przyciskiem myszy i kliknij przycisk wyglądający, jak kosz na śmieci. ![image23][]{: height="24px"}  
+"Punkt" utworzony w edytorze iD jest aktualnie samodzielnym "węzłem" z zestawem "tagów".  
 
 ### Drawing Lines  
 
