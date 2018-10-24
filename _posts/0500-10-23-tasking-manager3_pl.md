@@ -77,52 +77,52 @@ Podczas pierwszej wizyty w Tasking Managerze zobaczysz przycisk "Zaloguj" w praw
 
 ![TM login 1][]
 
-Clicking on that button will take you to the OpenStreetMap website. There you will have to login and grant the Tasking Manager access to your OpenStreetMap preferences. Create an account on the OpenStreetMap website if you do not already have one.
+Kliknięcie w ten przycisk przeniesie Cię do strony OpenStreetMap. Następnie powinieneś zalogować się i pozwolić Tasking Managerowi na dostęp do Twoich ustawień OpenStreetMap. Utwórz konto na stronie OpenStreetMap, jeżeli jeszcze go nie masz.
 
 ![TM login 2][]
 
 ![TM login 3][]
 
-Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
+Kiedy zalogujesz się do OpenStreetMap zostaniesz przekierowany z powrotem do Tasking Managera, a kliknięcie na Wesprzyj lub Rozpocznij przeniesie Cię do listy projektów, które możesz wesprzeć.
 
 ### Opcje i odnośniki
 
-The Task Manager initially displays in English - to change to another language click on **English** in the upper right area of the window.
+Początkowo Tasking Manager wyświetla się po angielsku - aby zmienić język kliknij na **English** w prawym górnym rogu okna.
 
-Once you have logged in, you may click on your username at the top. Here you can:
+Po zalogowaniu możesz kliknąć na swojej nazwie użytkownika na górze. Stąd możesz:
 
-- View your Tasking Manager profile where you can:
-    - Update your email address and social media handles
-    - View your mapper experience level
-    - See a list and map of the projects you have contributed to
-- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
-- Logout
+- Zobaczyć swój profil w Tasking Managerze, gdzie możesz:
+    - Zaktualizować swój adres email i linki do mediów społecznościowych
+    - Zobaczyć swój poziom doświadczenia mapera
+    - Zobaczyć listę i mapę projektów, które współtworzyłeś
+- Przejść do ekranu swoich **Wiadomości** w Tasking Managerze (jest to system inny niż na OpenStreetMap)
+- Wylogować się
 
-### Finding a Project - Tasking Manager Contribute Screen
+### Znajdowanie projektu - Ekran wspierania Tasking Managera
 
-Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
+Kliknięcie w link "Wesprzyj" w pasku głównego menu przeniesie Cię do głównej listy projektów w Tasking Managerze.
 
 ![TM contribute][]
 
-The Tasking Manager Contribute screen is divided into three main areas:
+Ekran Wesprzyj Tasking Managera jest podzielony na trzy główne obszary:
 
-- Search and Filter options along the left
-- Project List
-- Map View of Project List
+- Opcje Szukaj i Filtruj po lewej stronie
+- Lista projektów
+- Mapa z projektami z listy
 
-#### Search and Filter Options
+#### Opcje Szukaj i Filtruj
 
-By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
+Domyślnie wyświetlane są wszystkie projekty dostępne do mapowania. Możesz użyć Zaawansowanego Szukania w części ekranu służącej do filtrowania, aby zawęzić listę do projektów nad którymi chcesz pracować.
 
-- Project Number - If you know the number of the project you want to work on, you can enter it here and be taken directly to it.
-- Organization - This allows you to just display projects that have been requested by individual organizations.
-- Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
-- Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
-- Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
-- Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
+- Numer projektu - Jeżeli znasz numer projektu, nad którym chcesz pracować, to możesz go tutaj podać, a zostaniesz przeniesiony bezpośrednio do niego.
+- Organizacja - To pozwala Ci wyświetlić projekty zgłoszone przez konkretne organizacje.
+- Trudność mapowania - Niektóre projekty są trudniejsze do mapowania niż inne. Ta opcja pozwala Ci znaleźć projekty, które są najbardziej odpowiednie do Twojego poziomu doświadczenia. Zachęcamy, abyś pracował nad projektami, które najbardziej odpowiadają Twojemu poziomowi doświadczenia, zwłaszcza jeśli jesteś bardziej doświadczonym maperem.
+- Rodzaj mapowania - To pozwala Ci znaleźć projekty, które zawierają konkretne rodzaje obiektów do zmapowania. Wiele projektów skupia się na mapowaniu tylko jednego rodzaju obiektów, ale równie dobrze mogą zawierać kilka typów.
+- Szukanie w całym tekście - To pozwala Ci wyszukać projekty, które zawierają konkretne słowa lub frazy w swoim opisie.
+- Tagi kampanii - Projekty mogą zawierać inne tagi, które wskazują, że są częścią większej kampanii mapowania, możesz znaleźć projekty po tych tagach wpisując je do tego pola.
 
-#### Podgląd mapy
-Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
+#### Widok mapy
+Kliknięcie na karcie "Widok mapy" pokaże Ci liczbę projektów w danym regionie. Podwójne kliknięcie lub przybliżenie wyświetli pojedyncze projekty. Po przybliżeniu punkty na mapie mają różne kolory, gdzie czerwony oznacza pilny projekt, żółty, to wysoki lub średni priorytet, a szary niski priorytet. Kliknięcie na dowolnym punkcie na mapie spowoduje pokazanie informacji o projekcie. Kliknięcie na tytule projektu przeniesie Cię do niego.
 
 ![TM project map][]
 

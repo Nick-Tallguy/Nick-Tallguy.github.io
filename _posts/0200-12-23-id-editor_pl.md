@@ -88,105 +88,105 @@ Aby dodać nowy punkt, kliknij na przycisku **Punkt**. ![image3][]{: height="24p
 - Jeżeli popełnisz błąd taki, jak np. zła lokalizacja, to możesz przesunąć Twój punkt do nowej lokalizacji poprzez przytrzymanie lewego przycisku myszy na swoim punkcie i przeciąganie go. Lub, jeśli chcesz usunąć Twój punkt, kliknij go lewym przyciskiem myszy, aktywuj menu kontekstowe prawym przyciskiem myszy i kliknij przycisk wyglądający, jak kosz na śmieci. ![image23][]{: height="24px"}  
 "Punkt" utworzony w edytorze iD jest aktualnie samodzielnym "węzłem" z zestawem "tagów".  
 
-### Drawing Lines  
+### Rysowanie linii  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Aby dodać nową linię, kliknij na przycisku **Linia**. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- Twój kursor zmieni się na znak plusa (+). Znajdź drogę, która nie została jeszcze narysowana na mapie i ją odwzoruj. Kliknij raz w punkcie, gdzie zaczyna się segment drogi, przesuń mysz i kliknij, aby dodać kolejny punkt. Kliknij dwukrotnie, aby zakończyć proces rysowania. Zwróć uwagę na panel po lewej stronie.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- Delete point from line. ![image23][]{: height="24px"}  
-- Disconnect point from line. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
--   Delete line. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
--   Move line ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+- Tak samo, jak dla punktu, wybierz odpowiednie tagi dla swojej linii.  
+- Możesz przesuwać punkty linii poprzez kliknięcie ich lewym przyciskiem myszy i przeciąganie.  
+- Możesz też przesunąć całą linię przez zaznaczenie jej i wybranie **narzędzia Przesuń**. Następnie przeciągnij linię do nowej pozycji. ![image30][]{: height="24px"}  
+- Kiedy klikniesz lewym przyciskiem myszy na pojedynczym punkcie (węźle) linii, a następnie klikniesz prawym przyciskiem myszy, aby aktywować menu kontekstowe, to zobaczysz takie narzędzia:  
+- Usuń punkt z linii. ![image23][]{: height="24px"}  
+- Odłącz punkt od linii. ![image26][]{: height="24px"}  
+- Podziel linię na dwie od wybranego punktu. ![image27][]{: height="24px"}  
+- Kiedy klikniesz lewym przyciskiem myszy na linii (ale nie na punkcie), to zobaczysz takie narzędzia:  
+-   Usuń linię. ![image23][]{: height="24px"}  
+-   Utwórz okrąg z linii (aktywne tylko, jeżeli linia jest zamknięta) ![image29][]{: height="24px"}  
+-   Przesuń linię ![image30][]{: height="24px"}  
+-   Utwórz prostokąt z linii (aktywne tylko, jeżeli linia jest zamknięta) ![image31][]{: height="24px"}  
+-   Odwróć kierunek (dobre dla rzek i ulic jednokierunkowych) ![image32][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+"Linia" utworzona w edytorze iD jest aktualnie "linią" z zestawem "tagów".
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+>Specjalna uwaga dotycząca **Usuwania**: W ogólności powinieneś unikać usuwania czyjejś pracy, jeżeli wymaga tylko poprawek. Możesz usuwać swoje własne pomyłki, ale powinieneś próbować *poprawić* obiekty zmapowane przez innych, które wymagają korekty. Pozwala to zachować historię obiektów w bazie danych OSM i oznacza szacunek dla innych maperów. Jeżeli naprawdę uważasz, że coś powinno być usunięte, rozważ najpierw zapytanie autora tego obiektu lub dyskusję na forum OSM.
 
-### Drawing Shapes (Polygons)
+### Rysowanie kształtów (wielokątów)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Aby dodać nowy wielokąt, kliknij na przycisku **Obszar**. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- Twój kursor zmieni się na znak plusa (+). Spróbuj odrysować budynek używając podkładu jako pomocy.  
+- Zauważ, że kolor Twojego kształtu zmieni się zależnie od właściwości, które mu przypiszesz.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Narzędzia, które są dostępne po wybraniu kształtu i aktywowaniu menu kontekstowego prawym przyciskiem myszy są podobne do tych, które pojawiły się dla linii.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+"Wielokąt" w edytorze iD jest aktualnie "zamkniętą linią" z zestawem tagów.
 
-### Drawing Multipolygons
+### Rysowanie wielokątów złożonych
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+Czasami możesz chcieć narysować wielokąt, który ma nie tylko zewnętrzny kontur, ale również jeden lub więcej konturów wewnętrznych. Pomyśl na przykład o budynkach z wewnętrznymi dziedzińcami lub jeziorach z wyspami. *Nie rysuj wszystkich tych krawędzi jedną linią*, tak żeby wewnętrzny kontur zwisał z zewnętrznego. Zamiast tego narysuj te kontury osobno, dołącz tagi tylko do zewnętrznego konturu, wybierz wszystkie kontury i naciśnij **c**, aby połączyć je w coś, co jest nazywane wielokątem złożonym.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+Kiedy wybierzesz którykolwiek z konturów nowo utworzonego wielokąta złożonego, zobaczysz po lewej stronie, do jakich wielokątów złożonych on należy.
 
 ![part of multipolygon][]
 
-Saving Your Changes
+Zapisywanie zmian
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Kiedy (i jeżeli) chcesz zapisać swoje zmiany do OpenStreetMap, kliknij przycisk **Zapisz**. Panel po lewej stronie pokaże formularz wysyłania.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Wprowadź komentarz opisujący Twoje zmiany i kliknij **Prześlij**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Jeżeli edytujesz ten sam obiekt (punkt, linię lub obszar) w tym samym czasie, co ktoś inny, zobaczysz ostrzeżenie, że Twoje zmiany nie mogą być przesłane dopóki nie rozwiążesz **konfliktów** - wybierz, czyje zmiany zaakceptować i prześlij zmiany. *Rozwiązywanie konfliktów często pociąga za sobą akceptowanie zmian innych osób, co oznacza, że prawdopodobnie będziesz chciał wrócić do spornego obiektu i edytować go ponownie(**tym razem zapisz zmiany od razu po edycji, aby uniknąć ponownego konfliktu!**).*
 
-Additional Information and Custom Tags
+Dodatkowe informacje i niestandardowe tagi
 ---------------------------------------
 
-When you are editing an object, you will see a strip of icons at the bottom of the attribute panel. You can add additional information by clicking these icons:
+Kiedy edytujesz obiekt, u dołu panelu właściwości możesz zobaczyć pasek ikon. Klikając na nich możesz dodawać dodatkowe informacje:
 
-- Add elevation ![image37][]{: height="24px"}  
-- Add notes ![image38][]{: height="24px"}  
-- Add contacts / phone number ![image39][]{: height="24px"}  
-- Add source tag ![image40][]{: height="24px"}  
-- Add website ![image41][]{: height="24px"}  
-- Add accessibility information ![image42][]{: height="24px"}  
-- Add Wikipedia link ![image43][]{: height="24px"}  
+- Dodaj wysokość n.p.m. ![image37][]{: height="24px"}  
+- Dodaj notatki ![image38][]{: height="24px"}  
+- Dodaj kontakt / numer telefonu ![image39][]{: height="24px"}  
+- Dodaj tag źródła ![image40][]{: height="24px"}  
+- Dodaj stronę internetową ![image41][]{: height="24px"}  
+- Dodaj informacje o dostępności ![image42][]{: height="24px"}  
+- Dodaj link do Wikipedii ![image43][]{: height="24px"}  
 
-Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Lub możesz dodać niestandardowe tagi klikając **Wszystkie znaczniki**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Pokaże to wszystkie tagi przypisane do obiektu.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Kliknij na znaku plusa (+), aby dodać klucze i wartości lub kliknij na ikonie kosza, aby usunąć tagi.
 
-Further tutorials
+Kolejne samouczki
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[Nasza strona z zewnętrznymi źródłami](/pl/resources/#iD) zawiera linki do wielu samouczków wideo z różnych źródeł.
 
 iD versus JOSM
 ---------------  
 
-**iD is good for...**
+**iD jest dobry...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Kiedy robisz proste zmiany  
+- Kiedy masz szybki internet, aby pobrać podkład i zapisać zmiany  
+- Kiedy chcesz być pewnym, że stosujesz logiczny i prosty schemat tagowania  
+- Kiedy jesteś ograniczony w kwestii instalacji programów na komputerze, którego używasz
 
-**JOSM is better...**
+**JOSM jest lepszy...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Kiedy dodajesz wiele budynków (zobacz wtyczkę buildings_tool)
+- Kiedy edytujesz wiele już istniejących wielokątów lub linii
+- Kiedy nie masz pewnego połączenia z internetem lub jesteś offline
+- Kiedy używasz specjalnego schematu tagowania (lub niestandardowych szablonów)
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Jest to [rozdział LearnOSM](/pl/mobile-mapping/field-papers/) z większą ilością informacji o Field Papers.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
+Zawartość tego przewodnika jest dostępna jako [prezentacja](/files/iD-editor-training.pptx)
 
 
 

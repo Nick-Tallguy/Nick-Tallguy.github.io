@@ -102,7 +102,7 @@ Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{
 - Odpojit bod od čáry. ![image26][]{: height="24px"}  
 - Rozdělit čáru na dvě čáry od místa, které jste vybrali. ![image27][]{: height="24px"}  
 - Když kliknete levým tlačítkem myši na řádek (ale ne na bod), uvidíte tyto nástroje:  
--   Delete line. ![image23][]{: height="24px"}  
+-   Smazat čáru. ![image23][]{: height="24px"}  
 -   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
 -   Move line ![image30][]{: height="24px"}  
 -   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
