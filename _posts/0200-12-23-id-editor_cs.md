@@ -103,90 +103,90 @@ Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{
 - Rozdělit čáru na dvě čáry od místa, které jste vybrali. ![image27][]{: height="24px"}  
 - Když kliknete levým tlačítkem myši na řádek (ale ne na bod), uvidíte tyto nástroje:  
 -   Smazat čáru. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
--   Move line ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+-   Vytvoření kruhu z čáry (aktivní pouze v případě, že je čára uzavřena) ![image29][]{: height="24px"}  
+-   Posunout čáru ![image30][]{: height="24px"}  
+-   Vytvořit pravoúhlý tvar z čáry (aktivní pouze v případě, že je čára uzavřena) ![image31][]{: height="24px"}  
+-   Obrátí směr (dobré pro řeky a jednosměrné ulice) ![image32][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+"Čára" vytvořená v iD editoru je vlastně "cesta" se "značkami" umístěnými na ní.
 
 > Zvláštní poznámka o **Vymazání**: Obecně byste se měli vyhnout vymazání mapování ostatních lidí, pokud se to jen potřebuje zlepšit. Můžete smazat vlastní chyby, ale měli byste se pokusit *upravovat* mapované objekty jiných lidí, pokud potřebují změny. To zachovává historii položek v databázi OSM a respektuje kolegy mapery. Pokud opravdu cítíte, že by mělo být něco vymazáno, zvažte kontaktovat nejprve originálního mapaře nebo jednoho z e-mailových seznamů OSM.
 
-### Drawing Shapes (Polygons)
+### Kreslení tvarů (mnohoúhelníků)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Chcete-li přidat nový mnohoúhelník, klikněte na tlačítko **Oblast**.![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- Kurzor myši se změní na znaménko plus (+). Pokuste se vysledovat tvar budovy podle podkladu.  
+- Všimnete si, že barva mnohoúhelníku se změní v závislosti na atributech, které mu přiřadíte.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Nástroje, které jsou k dispozici při výběru mnohoúhelníku a aktivaci kontextové nabídky pravým tlačítkem myši, se podobají těm, které jsou když kliknete na čáru.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+"Mnohoúhelník" v iD editoru je vlastně "uzavřenou cestou" s umístěnými značkami na ní.
 
 ### Kreslení multipolygonů
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+Někdy musíte nakreslit mnohoúhelník, který má nejen vnější obrys, ale také jeden nebo více vnitřních obrysů. Představte si budovy s vnitřními dvory, nebo jezera s ostrovy. *Nekreslete tyto objekty jednou čarou* tak, aby vnitřní obrysy omezily vnější obrys. Raději nakreslete tyto obrysy odděleně, připojte značky pouze k vnějšímu obrysu, vyberte všechny obrysy a stiskněte **c**, aby bylo možné je spojit do multipolygonu neboli složeného mnohoúhelníku.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+Když vyberete některý z obrysů nově vytvořeného multipolygonu, můžete vidět na levé straně, do kterého multipolygonu patří
 
 ![part of multipolygon][]
 
-Saving Your Changes
+Uložení změn
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Když (a pokud) chcete uložit své úpravy na OpenStreetMap, klikněte na tlačítko **Uložit**. Na panelu vlevo se zobrazí panel pro nahrávání.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Zadejte komentář o úpravách a klikněte na tlačítko **Uložit**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Pokud jste upravili stejnou funkci (bod, cestu nebo oblast) současně s jinou osobou, která ji editovala, obdržíte varování, že vaše úpravy nelze nahrát, dokud nevyřešíte **konflikty** - vyberte, které editace přijmete a nahrajete změny. *Řešení konfliktů často zahrnuje přijetí úprav ostatních osob, v takovém případě se pravděpodobně budete muset vrátit k příslušné funkci a znovu ji upravit (**pak ji uložte brzy po úpravě, abyste pokusili znovu předejít konfliktu!**).*
 
-Additional Information and Custom Tags
+Další informace a vlastní značky
 ---------------------------------------
 
-When you are editing an object, you will see a strip of icons at the bottom of the attribute panel. You can add additional information by clicking these icons:
+Když upravujete objekt, uvidíte v dolní části panelu atributů ikonu. Další informace můžete přidat kliknutím na tyto ikony:
 
-- Add elevation ![image37][]{: height="24px"}  
-- Add notes ![image38][]{: height="24px"}  
-- Add contacts / phone number ![image39][]{: height="24px"}  
-- Add source tag ![image40][]{: height="24px"}  
-- Add website ![image41][]{: height="24px"}  
-- Add accessibility information ![image42][]{: height="24px"}  
-- Add Wikipedia link ![image43][]{: height="24px"}  
+- Přidat nadmořskou výšku ![image37][]{: height="24px"}  
+- Přidat poznámky ![image38][]{: height="24px"}  
+- Přidat kontakty / telefonní číslo ![image39][]{: height="24px"}  
+- Přidat označení zdroje ![image40][]{: height="24px"}  
+- Přidat webovou stranu ![image41][]{: height="24px"}  
+- Přidat informace o přístupnosti ![image42][]{: height="24px"}  
+- Přidat odkaz na Wikipedii ![image43][]{: height="24px"}  
 
-Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Nebo můžete přidat vlastní značky kliknutím na položku **Všechny značky**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Zobrazí se tak všechny značky připojené k této funkci.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Kliknutím na znaménko plus (+) přidejte klíče a hodnoty nebo klikněte na ikonu koše pro odstranění značek.
 
-Further tutorials
+Další tutorialy
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+Stránka našich externích zdrojů [Our external resources page](/en/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
 
-iD versus JOSM
+Srovnání iD a JOSM
 ---------------  
 
-**iD is good for...**
+**iD editor je vhodný pro ...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Když děláte jednoduché úpravy  
+- Pokud máte rychlý internet k načtení snímků a uložení úprav  
+- Pokud chcete mít jistotu, že budete postupovat podle důsledného a jednoduchého schématu značkování  
+- Pokud máte omezenou instalaci programu na počítači, který používáte
 
-**JOSM is better...**
+**JOSM je lepší ...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Když přidáváte mnoho budov (viz plugin buildings_tool)
+- Když upravujete mnoho mnohoúhelníků nebo čar, které již existují
+- Pokud máte nespolehlivé internetové připojení nebo jste offline
+- Pokud používáte konkrétní schéma označování značkami (nebo máte vlastní předvolby)
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Zde je sekce [section of LearnOSM](/en/mobile-mapping/field-papers/) poskytující více informací o terénních dokumentech.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
+Obsah této příručky je k dispozici jako [presentation](/files/iD-editor-training.pptx)
 
 
 

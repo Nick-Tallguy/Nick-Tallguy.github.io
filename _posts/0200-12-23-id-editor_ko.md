@@ -65,50 +65,50 @@ iD 편집기 사용자 인터페이스
 
 **사용자 지정**을 눌러서 직접 지도 타일을 추가할 수도 있습니다. 예를 들어, **현장 조사 지도를 추가**[^fieldpaper]하고 싶다면, **사용자 지정**을 누르고 돋보기(검색) 아이콘을 눌러서 다음과 같이 창을 여세요.  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+그리고 다음 URL처럼 생긴 **FieldPaper 스냅샷 URL**을 입력하세요. <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+**컴퓨터에 있는 GPS 궤적(GPX 포맷)을 띄우려면** GPX 파일을 iD 편집기에 드래그해서 놓으세요.  
+**OpenStreetMap GPS 궤적**을 활성화하려면 상자를 누르세요. 아래의 이미지에서, 공개 GPS 궤적이 다양한 색상으로, 진행 방향과 같이 나타납니다.  
 ![osm gps traces][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
+만약 [이미지 오프셋](/en/josm/aerial-imagery)이 있다면, **사진 오프셋 조절**을 눌러서 **이미지 오프셋**을 고칠 수 있습니다. ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- 네 방향 화살표를 눌러서 이미지를 움직이세요. 기본 위치로 되돌리려면 재설정 버튼을 누르세요. ![image20][]  
 
-Basic Editing with iD  
+iD 편집의 기초  
 ----------------------  
 
-### Adding Points  
+### 점 추가하기  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+새로운 점을 추가하려면 **점** 버튼을 누르세요. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- 마우스 커서가 더하기(+) 모양으로 변할 것입니다. 이제 표시하고 싶은 장소의 위치를 클릭하세요. 예를 들어, 근처에 있는 병원의 위치를 알고 있다면 병원 건물의 위치를 클릭하세요.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- 새로운 점이 추가된 것을 주목하세요. 개체의 속성을 선택할 수 있도록 동시에 왼쪽 창이 바뀝니다. 점을 병원으로 지정하려면 **병원 부지**를 누르세요.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- 양식을 사용해서 병원 이름, 주소 같은 점의 세부 정보를 채울 수 있습니다. 지물 창에서 선택한 태그에 따라 각 지물은 서로 다른 양식을 따른다는 점을 명심하세요.  
+- 만약 점을 잘못된 위치에 놓았다는지 하는 실수를 했다면, 왼쪽 마우스 버튼으로 점을 잡고 드래그해서 점을 새로운 위치로 옮길 수 있습니다. 점을 삭제하고 싶다면, 왼쪽 마우스 버튼으로 점을 클릭해서, 마우스 우클릭으로 메뉴를 열어 휴지통처럼 생긴 아이콘을 눌러 삭제하면 됩니다. ![image23][]{: height="24px"}  
+사실 iD 편집기에서 만든 "점"은 "태그"로 이루어진 집합을 달고 있는 독립된 "노드"입니다.  
 
-### Drawing Lines  
+### 선 긋기  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+새로운 선을 추가하려면 **선** 버튼을 누르세요. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- 마우스 커서가 더하기(+) 모양으로 변할 것입니다. 지도에 그려지지 않은 도로를 찾고 쭉 따라가세요. 도로가 시작하는 곳에서 한 번 클릭해 점을 만들고, 마우스를 움직여서 추가로 점을 찍으세요. 선을 그만 만들려면 두 번 클릭하세요. 왼쪽 창에 주목하세요.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- Delete point from line. ![image23][]{: height="24px"}  
-- Disconnect point from line. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
--   Delete line. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
--   Move line ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+- 점을 찍었을 때처럼 선에 걸맞는 적절한 태그를 선택하세요.  
+- 왼쪽 마우스 버튼으로 점을 잡고 드래그해서 선에 속한 점을 드래그할 수 있습니다.  
+- 선을 선택하고 **이동**을 선택해서 선 전체를 움직일 수도 있습니다. 그런 다음 선을 새로운 위치로 옮기세요. ![image30][]{: height="24px"}  
+- 왼쪽 마우스 버튼으로 선에 속하는 개별 점(노드)를 잡고 마우스 우클릭으로 메뉴를 열면, 다음 도구들을 사용할 수 있습니다.  
+- 선에서 점을 삭제합니다. ![image23][]{: height="24px"}  
+- 점을 선에서 분리합니다. ![image26][]{: height="24px"}  
+- 선택한 점을 기준으로 선 1개를 2개로 분할합니다. ![image27][]{: height="24px"}  
+- 선에 대고(점에서는 해당하지 않음) 마우스 좌클릭을 하면, 다음 도구들을 사용할 수 있습니다.  
+-   선을 삭제합니다. ![image23][]{: height="24px"}  
+-   선에서 원을 형성합니다(닫힌 선이어야 함). ![image29][]{: height="24px"}  
+-   선을 움직입니다. ![image30][]{: height="24px"}  
+-   선에서 직사각형을 형성합니다(닫힌 선이어야 함). ![image31][]{: height="24px"}  
+-   선의 방향을 뒤집습니다(강이나 일방통행로에 사용하기 좋음). ![image32][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+사실 iD 편집기에서 만든 "선"은 "태그"로 이루어진 집합을 달고 있는 독립된 "웨이"입니다.
 
 >A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
 

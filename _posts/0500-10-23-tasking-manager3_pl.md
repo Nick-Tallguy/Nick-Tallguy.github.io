@@ -126,15 +126,15 @@ Kliknięcie na karcie "Widok mapy" pokaże Ci liczbę projektów w danym regioni
 
 ![TM project map][]
 
-### Mapping via the Tasking Manager
+### Mapowanie przez Tasking Managera
 
-Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
+Kiedy odnajdziesz projekt, nad którym chcesz pracować, kliknięcie na jego tytuł przeniesie Cię do szczegółowego wpisu o nim. Widok szczegółów zawiera:
 
-- A description of the project's importance and how the data will be used
-- Detailed instructions for what to map
-- Selection screens for mapping validating
-- Detailed map of the individual mapping task areas, with information about their status.
-- A Questions and Comments tab for questions or comments about the project
+- Opis ważności projektu i informacje, jak będą używane dane
+- Szczegółowe instrukcje, co mapować
+- Ekrany wyboru do weryfikowania mapowania
+- Szczegółową mapę poszczególnych obszarów mapowanych zadań z informacjami o ich statusie.
+- Kartę Pytania i komentarze dla pytań i komentarzy dotyczących projektu
 
 ![TM project description][]
 
@@ -142,94 +142,94 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 #### Strona projektu
 
-Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
+Wszystko, co musisz wiedzieć o projekcie znajduje się tutaj! Na górze jest pełen opis projektu mapowania i informacje o nim.  
 
-Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
+Poniżej opisu ekran podzielony jest na dwie części. Lewa sekcja, to panel zakładek z kartami dla "Wskazówek", "Mapy", i "Pytań i komentarzy". Po prawej stronie jest mapa projektu i indywidualnych zadań do mapowania.
 
-- The uncolored tasks are ready and available for mapping
-- Pink areas of the map indicate higher priority areas
-- Yellow/Gold grid squares have had the first pass of mapping completed and are ready for validation
-- A yellow border indicates the task selected by you
-- Blue Tasks are currently being worked on by another mapper 
-- Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
-- Dark grey tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- Zadania bez koloru są gotowe i dostępne do mapowania
+- Różowe obszary mapy wskazują tereny o wysokim priorytecie
+- Żółte/Złote kwadraty są po pierwszym etapie mapowania i czekają na weryfikację
+- Żółta ramka oznacza zadanie wybrane przez Ciebie
+- Niebieskie zadania są aktualnie wykonywane przez innych maperów 
+- Zielone zadania są po 2. etapie mapowania i mają oznaczenie "zweryfikowane"
+- Ciemnoszare zadania, to miejsca sprawdzone i oznaczone przez innych maperów, jako obszary, które nie mają odpowiedniego podkładu 
+- Niebieska linia, zwykle widoczna w zewnętrznych kwadratach projektu pokazuje jego granice. Ta granica zwykle pokrywa się z dostępnym podkładem, granicą administracyjną, itp., więc może mieć dziwny kształt. Jakkolwiek możesz mapować poza tą granicą, to nie jest to wymagane i nie będzie brane pod uwagę przez weryfikatorów.  
 
 
 #### Karta instrukcji
-This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
+Tutaj zobaczysz, co jest wymagane w zadaniu mapowania. Projekty różnią się między sobą stopniem trudności, odpowiednio dla początkujących, średniozaawansowanych i doświadczonych maperów - co wyjaśnia instrukcja. Upewnij się, że przeczytałeś i zrozumiałeś tą część. Jest wiele rodzajów projektów mapowania, dla wielu różnych celów. Niektóre typowe polecenia, to:  
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
-- Mapping villages: Often used to identify places where people live and may be impacted  
-- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+- Sieć drogowa: Używana przez ludzi w terenie do wczytania danych do przenośnych urządzeń nawigacyjnych i znalezienia drogi do oddalonych terenów  
+- Mapowanie wiosek: Często używane do rozpoznawania miejsc, gdzie żyją ludzie, którzy mogą być w zagrożeniu  
+- Mapowanie budynków: Używane do oceny szkód lub śledzenia kontaktu z chorobami. Używane również do szacowania populacji.  
+- Mapowanie rzek, murów i innych obiektów  
 
-Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
+Nie wszystkie obszary na świecie są podobne do Twojej okolicy, więc mogą być dostarczone specjalne wskazówki dotyczące tagowania. Na przykład afrykańska sieć dróg jest bardzo różna od typowego amerykańskiego, czy europejskiego systemu drogowego.  
 
-There will be a section indicating the **Changeset comment** you should make sure appears in your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.  
+Pojawi się tutaj też sekcja wskazująca, w jaki sposób powinieneś uzupełnić pole **Opis zmian** przy wysyłaniu/zapisywaniu zmian w swoim programie do edycji, jak również informacja o **źródle**, którą (zależnie od programu) możesz skopiować i wkleić do odpowiedniego pola dla opisu zestawu zmian.  
 
-Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.  
+Czasami może być dostępny dla danego zadania specyficzny podkład - musisz zatwierdzić licencję, aby uzyskać dostęp do niego. Instrukcje zazwyczaj wskazują najłatwiejszą drogę załadowania go edytorów takich, jak JOSM lub iD.  
 
-When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
+Podczas sprawdzania zadania oznaczonego, jako kompletne, weryfikatorzy będą spodziewali się, że wszystkie wymagania z karty instrukcji są wypełnione. Może się zdarzyć, że ukończenie całego zadania będzie dość trudne - poniższe wskazówki są dotyczą odblokowywania zadań, jak również mówią o dostarczaniu użytecznych informacji kolejnym maperom.  
 
-#### Activity and Stats button  
+#### Przycisk Aktywność i statystyki  
 
-Ta zakładka zawiera statystyki dotyczące projektu. Jest ona podzielona na dwie sekcje: szczegółową listę działań (dawniej jako własna karta w Menedżerze zadań wer. 2.0) oraz sekcję podsumowującą.
+Ta karta zawiera statystyki dotyczące projektu. Jest ona podzielona na dwie sekcje: szczegółową listę działań (dawniej jako osobna karta w Tasking Managerze 2.0) oraz sekcję podsumowującą.
 
-Podsumowanie zawiera listę osób mapujących, którzy ukończyli przynajmniej jedno zadanie w ramach projektu.  
+Podsumowanie zawiera listę maperów, którzy ukończyli przynajmniej jedno zadanie w ramach projektu.  
 
-A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
+Lista wszystkich komentarzy pozostawionych przy pojedynczych zadaniach znajduje się na dole strony. To są komentarze pozostawione do zadań i nie powinny być mylone z kartą "Pytania i komentarze", która zawiera ogólne pytania i komentarze dotyczące całego projektu.
 
-You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
+Możesz powrócić do głównej strony wspierania projektu klikając na tytule projektu na stronie Aktywność i statystyki
 
 #### Karta mapy  
 
-Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
+Kliknij, kiedy będziesz gotowy do rozpoczęcia mapowania. Możesz wybrać pojedyncze zadanie do pracy zaznaczając je na mapie lub kliknąć na przycisku "Wybierz losowe zadanie". Tylko zadania bez koloru mogą być wybrane na tej karcie, inaczej pojawi się komunikat mówiący, że zadanie nie może być mapowane. Jeśli zamierzasz weryfikować, upewnij się, że wybrałeś kartę "Weryfikuj".
 
 ![TM map tab][]
 
-#### Selecting a task to map  
+#### Wybieranie zadania do mapowania  
 
-Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
+Po wybraniu zadania będziesz mógł zobaczyć, czy istnieje już dla niego jakaś historia, jak na przykład to, że ktoś inny zaczął mapować, ale nie miał wystarczająco czasu, aby je dokończyć.  
 
-Clicking on the **Start Mapping** button locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+Kliknięcie na przycisku **Rozpocznij mapowanie** zablokuje zadanie, więc żaden inny maper nie będzie mógł go wybrać, dopóki nie zostanie zwolniona blokada, a jednocześnie rozpocznie odliczanie 2 godzinny (120 minut) licznik, po upływie którego zadanie zostanie automatycznie odblokowane. Dobrym nawykiem jest regularne sprawdzanie pozostałego czasu - bardzo łatwo mapowanie może Cię pochłonąć i przegapisz odblokowanie zadania, więc będzie mogło ono być wybrane przez innego mapera, który rozpocznie nad nim pracę. Prowadzi to później do konfliktów i problemów.  
 
 
-#### Editing choices
+#### Opcje edycji
 
-Different options for editing are presented to you as soon as you lock a task.
+Różne opcje edytowania są prezentowane, gdy tylko zablokujesz zadanie.
 
-##### Edycja z JOSM  
+##### Edytuj w JOSM  
 
-Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+Uruchom JOSM przez użyciem tego linku, a istniejące dane OSM zostaną automatycznie wczytane do JOSM.  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+>  1. 'Włącz zdalne sterowania' musi być zaznaczone - szukaj w **Edycja / Ustawienia / Zdalne sterowanie**
+>  2. Jeżeli zainstalowałeś wcześniej wtyczkę 'continuosDownload', to najlepiej ją wyłącz (odznacz 'Pobieraj dane OSM w trybie ciągłym' w menu **Plik** w JOSM).  
+>  3. Jeżeli JOSM nie załaduje automatycznie podkładu, to równie dobrze można go normalnie znaleźć w menu **Podkłady**. [Więcej informacji o podkładach tutaj](/pl/josm/more-about-josm/#add-imagery)  
   
 
 ##### Edytor iD  
 
-Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
+Wybierz to, aby automatycznie uruchomić nową kartę lub okno Twojej przeglądarki z załadowanymi istniejącymi danymi OSM. Przeglądarka Internet Explorer nie obsługuje aktualnie iD, więc zamiast tego zostanie załadowany Potlatch 2. Oryginalna karta lub okno z Task Managerem będzie wciąż dostępna.  
 
 
 ##### Potlatch 2  
 
-The editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+Edytor załaduje się w nowym oknie lub karcie. Potlatch nie wyświetla automatycznie ramki ograniczającej zadania, ale możesz ją dodać postępując według następującej procedury:  
 
-1. In the Tasking Manager, select a task and click Start Mapping to lock it  
-2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
-3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.  
-4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.  
-5. In Potlatch, select Background, then Vector File...  
-6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
-7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
-8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
+1. W Tasking Managerze wybierz zadanie i kliknij Rozpocznij mapowanie, aby je zablokować.  
+2. W Tasking Managerze, wybierz Edytuj w JOSM (jeśli pojawi się okno z tekstem "Zdalne sterowanie JOSM nie odpowiada..." kliknij OK).  
+3. Poniżej przycisku Edytuj w JOSM znajduje się tekst "Wskazówka: Pobierz następujący plik .gpx ...". Pobierz plik .gpx i zapamiętaj, gdzie go zapisałeś.  
+4. W Tasking Managerze, zmień z Edytuj w JOSM na Edytuj w Potlatch 2. Potlatch powinien się otworzyć w nowej karcie.  
+5. W Potlatchu wybierz Podkład, a następnie Plik wektorowy...  
+6. W oknie Wczytaj plik wektorowy, na dole obok Plik, kliknij Otwórz i przejdź do pobranego pliku .gpx.  
+7. W oknie Wczytaj plik wektorowy upewnij się, że zaznaczone jest pole przy Pokaż kolumnę dla pliku .gpx, a następnie zamknij okno.  
+8. Potlatch powinien teraz wyświetlić granicę jako kwadrat (prawdopodobnie niebieski). Zauważ, że Potlatch będzie nadal wczytywał dane spoza obszaru zadania.  
   
 
 ##### Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+Do użytku tylko wtedy, gdy jesteś zaangażowany w projekt, w którym lokalny maper przeprowadził inspekcję w terenie i oznaczył na drukowanej mapie dane takie, jak np. nazwy ulic. Taka mapa może być zeskanowana i użyta jako podkład dla zdalnego lub lokalnego mapera, aby odczytać informacje i zaktualizować dane OpenStreetMap. [Sekcja LearnOSM o Field Papers] (/pl/mobile-mapping/field-papers/).  
 
 
 #### Splitting a task square
