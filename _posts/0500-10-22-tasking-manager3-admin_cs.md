@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tasking Manager 3 Project Creation
+title: Tasking Manager 3 Vytvoření projektu
 permalink: /cs/coordination/tasking-manager3-project-admin/
 lang: cs
 category: coordination
