@@ -1,22 +1,22 @@
 ---
 layout: doc
-title: Other Resources
+title: Další zdroje
 permalink: /cs/resources/
 lang: cs
 cover: yes
 category: resources
 ---
 
-# Other Resources
+# Další zdroje
 
 > Zkontrolováno 2018-02-24
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+Toto je komentovaný seznam odkazů na jiné weby, které považujeme za užitečné. Všechny odkazy byly ověřeny, aby fungovaly při posledním přezkoumání tohoto dokumentu.
 
-  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
+  * [Mapový seznam odkazů na mapování a související kartografické témata](http://maptime.io/lessons-resources/) Komplexní seznam odkazů, nejen o OpenStreetMap, ale také o vizualizaci, mapování a mapování webu
 
 
-## Editing
+## Úpravy
 
 ### iD
 
@@ -26,7 +26,7 @@ This is a commented list of pointers to other websites which we consider useful.
   * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
   * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
 
-## Mapathons and similar events
+## Mapatony a podobné události
 
   * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
   * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university

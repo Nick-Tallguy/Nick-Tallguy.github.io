@@ -175,33 +175,33 @@ být připojeni k internetu.
 
 ![JOSM Authenticate][]
 
--	You will need to wait a few seconds for your changes to be uploaded,
-    and then you are done! You have edited the map on OpenStreetMap.
+- Budete muset počkat několik vteřin, než se vaše změny nahrají,
+    a pak už jste hotovi! Upravili jste mapu na OpenStreetMap.
 
 > When you are editing, always be sure to upload your changes before you close  
 > JOSM. Even if you still have more editing to do, upload your changes, and  
 > then go through the process again later when you have time to edit.  
 > You don't want to lose your work!
 
-See your changes on the map
+Zobrazit změny na mapě
 ---------------------------
--  Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
--  Move the map to the area that you edited.
--  You should see your changes now appearing on the map! If you don’t,
-    try pressing CTRL+R to refresh the web page. Sometimes the map
-    doesn’t update properly and needs to be reloaded.
--  What if you don’t see your changes? Don’t worry - it may take a few
-    minutes for the changes to be shown on the map. Also, check your
-    additions in JOSM to make sure that you added them correctly. A good
-    general rule is, if your point has an icon in JOSM, then it should
-    be seen on the main map at the OpenStreetMap website.
+- Otevřete internetový prohlížeč a přejděte na adresu [http://openstreetmap.org/](http://openstreetmap.org/)
+- Přesuňte mapu na oblast, kterou jste upravili.
+- Měli byste vidět změny, které se nyní zobrazují na mapě! Pokud ne,
+    zkuste stisknutím kláves CTRL + R obnovit webovou stránku. Někdy se mapa
+    neaktualizuje správně a musí být znovu načtena.
+- Co když se vaše změny nezobrazí? Nebojte se - může to trvat jen několik
+    minuty pro změny, které se mají zobrazit na mapě. Zkontrolujte také vaše
+    doplnění do JOSM, abyste se ujistili, že jste je správně přidali. Dobré
+    obecné pravidlo je, pokud má váš bod ikonu v JOSM, pak by to měl být
+    vidět na hlavní mapě na webu OpenStreetMap.
 
 Souhrn
 -------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
-is great, but it's not the only aspect of making maps. Of course you also
-need to learn how to go outside and collect information about places on the
-ground.
+Nyní, když jste viděli, jak přidat do OpenStreetMap, co bude dál? No, editace
+je skvělá, ale není to jediný aspekt vytváření map. Samozřejmě také vy
+se musíte naučit, jak jít ven a shromažďovat informace o místech v 
+terénu.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

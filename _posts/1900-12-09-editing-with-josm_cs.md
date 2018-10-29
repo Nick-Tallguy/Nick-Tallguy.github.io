@@ -1,29 +1,29 @@
 ---
 layout: doc
-title: Editing Field Data
+title: Úprava dat polí
 permalink: /cs/josm/editing-with-josm/
 lang: cs
 category: josm
 ---
 
-Editing Field Data
+Úprava dat polí
 ==================
 
-> This guide may be downloaded as [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) or [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
+> Tato příručka může být stažena jako [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) nebo [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
 > Zkontrolováno 13.7.2015  
 
-We've now covered all the building blocks of mapping with OpenStreetMap.
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.  
+Nyní jsme zvládli všechny stavební bloky mapování s OpenStreetMap.
+V části [Mapování se smartphone, GPS nebo na papíře] (/en/mobile-mapping/) můžete vidět, jak používat mobilní nástroje pro zjišťování oblasti.  
 
-In this chapter we'll return once again to JOSM and look at a couple of new
-concepts which we have not covered thus far.
+V této kapitole se opět vrátíme k JOSM a podíváme se na pár nových
+konceptů, kterým jsme se dosud nevěnovali.
 
-JOSM Layers
+JOSM Vrstvy
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts
-of different things into JOSM. We can download OSM data, add Bing satellite imagery,
-load GPS tracks and waypoints, and add Field Papers - all of which are displayed
-in the map window of JOSM.
+Pokud jste nás následovali až sem, možná jste si všimli, že můžeme přidat všechny druhy
+různých věcí do JOSM. Můžeme stahovat data OSM, přidat satelitní snímky Bing,
+načíst GPS stopy a trasové body a přidat podklady z terénu - všechny budou zobrazeny
+v mapovém okně JOSM.
 
 You may have also noticed that every time you add something new to JOSM, an additional
 item is added to the Layers panel on the right side of JOSM. Depending on what you have

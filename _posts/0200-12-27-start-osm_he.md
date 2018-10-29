@@ -71,11 +71,11 @@ OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העול�
 -   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
 -   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
 - נא להקליד את כתובת הדוא״ל ואת הססמה של תיבת הדוא״ל שלך כדי לגשת לתיבת הדוא״ל שלך. לתשומת לבך פרטים אלו __אינם__ זהים לשם המשתמש והססמה שלך ב־OpenStreetMap.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+-  אם הכול הצליח במהלך ההרשמה שלך, אמורה להגיע אליך הודעה בדוא״ל מ־OpenStreetMap אל תיבת הדואר הנכנס שלך. עליך לפותח את ההודעה. היא אמורה להיראות כמו התמונה שלהלן. עליך ללחוץ על הקישור שנראה בערך ככה:
 
     ![Confirming your OpenStreetMap account][]
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
+-   ייפתחו בפניך חלון או לשונית חדשים. אם הכול עבר כראוי, אמור להיות לך חשבון OSM!
 -   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
 הוספת הנקודות הראשונות שלך

@@ -8,38 +8,38 @@ category: coordination
 
 # OSM Tasking Manager Vytvoření a správa projektu
 
-> This guide may be downloaded as a stand-alone module: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) or [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
+> Tato příručka může být stažena jako samostatný modul: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) nebo [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
-**This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager-project-admin)**
+**Tato příručka popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní verze, které používáte, vypadá jinak než to, který je zde popsáno, měli byste si prohlédnout [manuál pro předchozí verzi](/en/coordination/tasking-manager-project-admin)**
 
-Section Index
+Obsah sekcí
 -------------
--  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
--  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
--  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
--  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tasking-manager3-project-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tasking-manager3-project-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tasking-manager3-project-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tasking-manager3-project-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tasking-manager3-project-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+-  [Přihlášení ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [Zahájení nového projektu - definujte oblast zájmu](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [Vytvoření úkolu - rozdělte oblast zájmu](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [Vytvoření projektu - zadejte, co uživatelé potřebují vědět](/en/coordination/tasking-manager3-project-admin/#create-the-project)
+    -  [Popis - první věc, kterou se uživatelé dozvědí o vašem projektu](/en/coordination/tasking-manager3-project-admin/#description)
+    -  [Instrukce - co by uživatelé měli dělat](/en/coordination/tasking-manager3-project-admin/#instructions)
+    -  [Metadata - kam projekt patří](/en/coordination/tasking-manager3-project-admin/#metadata)
+    -  [Prioritní oblasti - kde by uživatelé měli začít mapovat](/en/coordination/tasking-manager3-project-admin/#priority-areas)
+    -  [Podkladové fotografie - základ pro mapování](/en/coordination/tasking-manager3-project-admin/#imagery)
+    -  [Oprávnění - kdo může mapovat a ověřovat](/en/coordination/tasking-manager3-project-admin/#permissions)
+    -  [Užitečné tipy - jak byste měli vyplnit všechna tato pole](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
+    -  [Publikujte - nezapomeňte na to, nebo nikdy nedokončíte práci](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
-The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
+Správce úloh (Tasking Manager) OpenStreetMap je nezbytný pro provádění mapathonu, správu aktivace HOT nebo vytvoření mapovacích úloh pro studentské mapovače. Tasking Manager rozděluje práci na zvládnutelné geografické bloky, což snižuje konflikty při editaci, zejména s velkým počtem distribuovaných mapovačů. Tasking Manager také pomáhá mapovat přesnost a kvalitu dat tím, že poskytuje konzistentní soubor instrukcí pro mapovače (např. 'Mapovat všechny cesty a budovy'). Stručně řečeno, Tasking Manager je o tom, jak nastavíte a nasměrujete pracovní postup pro dobrovolné mapování. Tento modul popisuje základní správu nástroje OSM Tasking Manager pro úspěšné události mapování. 
 
- This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 3 including the [HOT Tasking Manager](http://tasks.hotosm.org) and the [TeachOSM Tasking Manager](http://tasks.teachosm.org).
+ Tato příručka je speciálně napsána pro ty osoby, které potřebují pokyny pro správu Task Manageru OSM, včetně tvorby a úpravy projektů mapování pro události otevřeného mapování, tj. "Mapatony". Tato příručka se konkrétně vztahuje na případy OSM Tasking Manager verze 3 včetně [HOT Tasking Manager](http://tasks.hotosm.org) a [TeachOSM Tasking Manager](http://tasks.teachosm.org) .
 
-The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
+Modul Správce úloh HOT nebo OSM verze 3 je často označován jako ** TM3, ** jako zkratka pro Tasking Manager verze 3.
 
-## Logging in & Access Levels
+## Přihlašování a přístupové úrovně
 
-The first thing to understand is access level. All access to TMd is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+První věc, kterou je potřeba pochopit, je přístupová úroveň. Veškerý přístup k TMd je povolen prostřednictvím webových stránek [OpenStreetMap](https://www.openstreetmap.org). Pro přístup k TM3 budete potřebovat účet OpenStreetMap (OSM). Jakmile budete mít tento účet, navštivte [Tasking Manager](http://tasks.hotosm.org) a klikněte na **Login to OpenStreetMap**, který vás vrátí zpět na stránku OSM, kde můžete povolit správci Tasking Manager omezený přístup k vašemu účtu OSM. 
 
-### Access Levels within the OSM Tasking Manager
+### Úrovně přístupu v rámci Správce úloh (Tasking Manageru) OSM
 
-The OSM Tasking Manager has three user access levels:
+Tasking Manager OSM má tři úrovně přístupu uživatelů:
 -  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
 -  **Project Manager** - Project managers have access to create and update projects within TM3.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.

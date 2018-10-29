@@ -2,22 +2,22 @@
 layout: doc
 permalink: /cs/coordination/
 lang: cs
-title: Coordination
+title: Koordinace
 category: coordination
 cover: yes
 nosearch: true
 
 ---
 
-Coordination
+Koordinace
 ============
 
-> This guide may be downloaded as [coordination_en.odt](/files/coordination_en.odt) or [coordination_en.pdf](/files/coordination_en.pdf)  
+> Tato příručka může být stažena jako [coordination_en.odt](/files/coordination_en.odt) or [coordination_en.pdf](/files/coordination_en.pdf)  
 > Zkontrolováno 2015-09-18
 
-Because OpenStreetMap involves many people mapping together, it's
-useful to know how mappers can coordinate this activity.
+Vzhledem k tomu, že OpenStreetMap zahrnuje mnoho lidí, které mapují dohromady, je 
+užitečné vědět, jak maperům tuto aktivitu koordinovat.
 
-This section of learnOSM provides information on various tools
-used for coordinating mapping activities, means of communication,
-and quality assurance.
+Tato část webu learnOSM poskytuje informace o různých nástrojích
+pro koordinaci mapovacích činností, komunikačních prostředků,
+a zajištění kvality.

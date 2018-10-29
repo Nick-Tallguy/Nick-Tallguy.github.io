@@ -232,70 +232,70 @@ Edytor załaduje się w nowym oknie lub karcie. Potlatch nie wyświetla automaty
 Do użytku tylko wtedy, gdy jesteś zaangażowany w projekt, w którym lokalny maper przeprowadził inspekcję w terenie i oznaczył na drukowanej mapie dane takie, jak np. nazwy ulic. Taka mapa może być zeskanowana i użyta jako podkład dla zdalnego lub lokalnego mapera, aby odczytać informacje i zaktualizować dane OpenStreetMap. [Sekcja LearnOSM o Field Papers] (/pl/mobile-mapping/field-papers/).  
 
 
-#### Splitting a task square
+#### Dzielenie kwadratu zadania
 
-Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
+Po wybraniu zadania i sprawdzeniu jego podkładu, możesz stwierdzić, że jest w nim zbyt dużo wymaganych do zmapowania szczegółów. Na przykład może to być rysowanie budynków w mocno zurbanizowanych obszarach lub umieszczanie małych wiosek na dużym obszarze. Jako wsparcie, kiedy jest niemożliwe ukończenie przez jedną osobę zadania w 2 godziny, możesz zazwyczaj je podzielić na 4 mniejsze obszary. *Używaj ostrożnie* - jeżeli kwadraty zadań są zbyt małe, trudno jest rozsądzić, jaki jest typ drogi i zidentyfikować inne obiekty.  
 
-> Be aware that other useful comments about the work previously completed will no longer be available.
+> Miej świadomość, że inne użyteczne komentarze o wcześniej wykonanej pracy nie będą dłużej dostępne.
 
 
-#### Unlocking a Task
+#### Odblokowywanie zadania
 
 ![TM unlock][]
 
-##### Unlocking a Task before it is complete
+##### Odblokowywanie zadania przed ukończeniem
 
-If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
+Jeżeli zaczniesz pracę nad zadaniem, ale nie możesz z różnych względów go ukończyć, to dobrym zwyczajem jest pozostawić komentarz o tym w zadaniu. Po prostu napisz, co pozostało jeszcze do zrobienia i wybierz **Zakończ mapowanie**. Upewnij się, że Twój komentarz jest odpowiedni i pomoże następnemu maperowi.  
 
 Na przykład:  
 
-    Almost complete, small village top left 
-    in the task square to be traced though
+    Prawie ukończone, pozostała mała wioska 
+    w lewym górnym rogu kwadratu zadania
   
 
-##### Unlocking a Task that is completely mapped
+##### Odblokowywanie całkowicie zmapowanego zadania
 
-It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
+Bardzo trudno jest stwierdzić z całą pewnością, że całkowicie ukończyło się zadanie - jednakże jest akceptowalne oznaczyć zadanie jako kompletne, jeżeli jesteś dość pewnym - zawartość zostanie sprawdzona przez innego mapera przy weryfikacji, a wtedy mogą być wykonane małe uzupełnienia.  
 
-For the process to work most effectively, mappers need to mark tasks as "Mapped" rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+Dla pełnej efektywności procesu, maperzy muszą oznaczyć zadania jako "Zmapowane" zamiast po prostu zostawiać je dla innych 'niepewnych' maperów, którzy zmarnują czas na ich sprawdzanie.  
 
-When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
+Kiedy skończysz edytowanie i myślisz, że zadanie jest wykonane, zapisz wszystko w swoim programie do edycji i powróć do Tasking Managera.  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
-+ Click on the "Mark as Mapped" button, and your work is ready for review.  
++ Dodaj komentarz w odpowiednim polu opisując, co zrobiłeś, a przede wszystkim, czego nie jesteś pewien. Na przykład; "Ukończone na tyle, na ile widzę, ale w prawym górnym rogu są chmury i nie mogę narysować tego obszaru".  
++ Kliknij przycisk "Oznacz jako zmapowane" i Twoja praca jest gotowa do przejrzenia.  
 
-##### Marking a Task as Bad Imagery
+##### Oznaczanie zadania jako zły podkład
 
-You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
+Czasami wybierzesz zadanie, którego nie da się zmapować, ponieważ podkład ma zbyt małą rozdzielczość lub pojawiają się chmury. Po prostu zamknij zadanie i edytorze i użyj przycisku "Oznacz jako zły podkład", aby zapisać, że nie można zmapować zadania z powodu słabego podkładu.
 
 
-#### Sending a message from the comment box
+#### Wysyłanie wiadomości z pola komentarzy
 
-When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
+Kiedy zostawiasz komentarz do zadania, możesz wysłać go jako wiadomość do nazwanego mapera. Tak jak na Twitterze, po prostu użyj @ przed nazwą użytkownika. To spowoduje wysłanie do użytkownika wiadomości zawierającej komentarz z tego pola oraz link do zadania, do którego odnosi się ten wpis.  
 
 Na przykład:  
 
-    @HOTMppr niezła robota z odwzorowaniem budynku  
-    details here. You missed a small group  
-    of houses on the upper left of the task square,  
-    I added a few in, but some still remain.  
+    @HOTMppr niezła robota z odwzorowaniem  
+    szczegółów budynku. Pominąłeś małą grupę  
+    domów w lewym górnym rogu kwadratu zadania,  
+    dodałem kilka, ale wciąż niektórych brakuje.  
 
-This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
+Jest to przydatne zwłaszcza przy weryfikowaniu lub dodawaniu czegoś do pracy innego mapera - możesz przekazać opinię, podziękowania lub inną wiadomość.  
 
-+ You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
++ Możesz chcieć przekazać link do strony, która pomoże maperowi, takiej jak <http://learnosm.org/pl/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ Miej na uwadze, że ludzie z całego świata biorą udział, więc używaj prostego, jasnego języka. Jeżeli trafisz na komentarze w innych językach, narzędzia takie, jak Google Translate powinny być wystarczająco pomocne.
 
 
-#### Referring to a particular task when sending an email  
+#### Powoływanie się na konkretne zadanie przy wysyłaniu emaila  
 
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
+Jeżeli potrzebujesz wysłać wiadomość, np. email lub wiadomość na IRC i wspominasz coś dotyczącego konkretnego zadania w projekcie (załóżmy, że potrzebujesz pomocy w zidentyfikowaniu czegoś na podkładzie):  
 
-1. Click on the task square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-    - either, mouse right click & paste,  
-    - or shortcut keys **Ctrl+V**, to paste the link into the message. 
+1. Kliknij na interesującym cię kwadracie zadania  
+2. Kliknij w pasku adresu Twojej przeglądarki, który powinien pokazywać coś podobnego do 'http://tasks.hotosm.org/project/713?task=259'  
+3. Zaznacz myszą cały tekst w pasku adresu lub użyj klawiszy skrótu **Ctrl+A**, aby zaznaczyć cały tekst, a następnie użyj klawiszy **Ctrl+C**, aby go skopiować  
+4. W swoim emailu, wiadomości IRC lub innej wiadomości  
+    - kliknij prawym przyciskiem myszy i wklej,  
+    - lub używj klawiszy skrótu **Ctrl+V**, aby wkleić link do wiadomości. 
 
 
 ## Uzyskiwanie pomocy 

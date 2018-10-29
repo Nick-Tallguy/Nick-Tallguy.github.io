@@ -34,7 +34,7 @@ Ovládání mapy
 
     ![Mouse navigation][]
 
-- Pokud máte myš s rolovacím kolečkem, přiblížení a oddálení na mapě otáčením kolečka. Pokud nemáte rolovací kolečko, použijte tlačítka + a - v pravém horním rohu mapy. (viz obrázek níže)
+- Pokud máte myš s rolovacím kolečkem, přiblížení a oddálení na mapě dělejte otáčením kolečka. Pokud nemáte rolovací kolečko, použijte tlačítka + a - v pravém horním rohu mapy. (viz obrázek níže)
 - Chcete-li vyhledat místo, klepněte levým tlačítkem na pole označené "Hledat" na levé straně stránky (viz obrázek výše). Zadejte název vašeho města nebo vesnice a stiskněte klávesu Enter. Okno se zobrazí vlevo od mapy s výsledky vyhledávání. Klikněte na místo, které vypadá jako požadované místo. Mapa se automaticky přesune na místo, které jste vybrali.
 
     ![Search][]
@@ -49,7 +49,7 @@ OpenStreetMap obsahuje geografická data z celého světa. Ačkoli je to jediná
 
     ![Layers button][]
 
-- Klikněte na různé možnosti stylu mapy. Všimněte si, jak se mapa mění s každým. Dopravní mapa například zdůrazňuje dopravní trasy na mapě, zatímco cyklistická mapa zdůrazňuje cyklistické trasy. Všechna data, která to umožňují, jsou obsažena v databázi OSM.
+- Klikněte na různé možnosti stylu mapy. Všimněte si, jak se mapa mění s každým stylem. Dopravní mapa například zdůrazňuje dopravní trasy na mapě, zatímco cyklistická mapa zdůrazňuje cyklistické trasy. Všechna data, která to umožňují, jsou obsažena v databázi OSM.
 
     ![Transport map][]
 
@@ -81,7 +81,7 @@ Vytvořit účet OpenStreetMap
 Přidání prvních bodů
 ------------------------
 
-- Nyní, když jste přihlášeni pomocí uživatelského jména na webových stránkách OpenStreetMap, můžete pomocí editoru iD přidat svůj první bod na mapu.
+- Nyní, když jste přihlášeni pomocí uživatelského jména na webových stránkách OpenStreetMap, můžete pomocí iD editoru  přidat svůj první bod na mapu.
 - Přesuňte mapu na místo, které znáte velmi dobře, jako je vaše město nebo okolí. Dobrým nápadem je ujistit se, že váš domov (nebo domov sousedů) a pracoviště jsou vedeny a zadány se správnou adresou. 
 - Přiblížit na místo, kde chcete přidat bod na mapu (možná restaurace nebo obchod s potravinami poblíž vás dosud nebyly mapovány).
 - Hned nad mapou vlevo se nachází záložka s názvem "Upravit" s malým trojúhelníkem vedle něj. Klikněte na malý trojúhelník. Měla by se zobrazit rozbalovací nabídka.
@@ -107,7 +107,7 @@ Přidání prvních bodů
 
 iD Editor je fantastický způsob, jak snadno upravovat OpenStreetMap a můžete se dozvědět více o jeho použití v příručce [iD editoru] (/en/beginner/id-editor/). Můžete také přehrát [prohlídku] (http://www.openstreetmap.org/edit?editor=id#walkthrough=true), což je skvělý a interaktivní způsob, jak se seznámit s iD editorem.
 
-V sekci [JOSM] (/en/josm/) se však podíváme na samostatnou aplikaci, která nabízí mnoho dalších funkcí. Neváhejte pokračovat v hraní s iD. Jakmile budete mít více zkušeností, které přispívají k OSM, můžete si vybrat, který editor - iD nebo JOSM - se vám líbí víc.
+V sekci [JOSM](/en/josm/) se však podíváme na samostatnou aplikaci, která nabízí mnoho dalších funkcí. Neváhejte pokračovat v hraní s iD. Jakmile budete mít více zkušeností, které přispívají k OSM, můžete si vybrat, který editor - iD nebo JOSM - se vám líbí víc.
 
 Souhrn
 ------- 
@@ -116,7 +116,7 @@ Gratulujeme! Pokud vše proběhlo dobře, máte nyní uživatelské jméno a hes
 
 
 
-[webová stránka]: /images/beginner/start-osm_website.png
+[website]: /images/beginner/start-osm_website.png
 [OpenStreetMap website with some main functions listed]: /images/beginner/osm-website-main-functions.png
 [Mouse navigation]: /images/beginner/mouse-navigation.png
 [Search]: /images/beginner/search.png
