@@ -1,34 +1,34 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: JOSM Pluginy
 permalink: /cs/josm/josm-plugins/
 lang: cs
 category: josm
 ---
 
-JOSM Plugins
+JOSM Pluginy
 ============
 
-> This guide may be downloaded as [josm-plugins_en.odt](/files/josm-plugins_en.odt) or [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
+> Tato příručka může být stažena jako [josm-plugins_en.odt](/files/josm-plugins_en.odt) nebo [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
 > Zkontrolováno 14.7.2015  
 
-As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
+Jakmile se stanete pokročilejší ve svých editacích technikách, budete možná chtít použít další funkce JOSM pro zlepšení mapovacích dovedností. JOSM umožňuje instalovat četné pluginy, které dodávají softwaru další funkce.  
 
-In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
+V této části se podíváme, jak nainstalovat pluginy a některé z nejužitečnějších pluginů, které jsou k dispozici.
 
-Installing Plugins
+Instalace pluginů
 -------------------
-Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
+Kdykoli chcete nainstalovat nový plugin, přejděte na **Upravit \> Předvolby** a klikněte na záložku **Pluginy**.  
 
 ![Plugins][]
 
-* If you don’t see a list of available plugins, click **Download List**.  
-* To install a plugin you simply must check the box next to it and click OK at the bottom.  
-* Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
+* Pokud nevidíte seznam dostupných pluginů, klikněte na **Seznam stahování**.  
+* Chcete-li nainstalovat plugin, stačí zaškrtnout políčko vedle něj a v dolní části klikněte na OK.  
+* A nakonec, s některými verzemi JOSM pravděpodobně budete muset restartovat JOSM při instalaci nových pluginů.
 
-Some of our favorite plugins are:
+Některé z našich oblíbených pluginů jsou:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** Pokud kreslíte spoustu budov, bude to proces rychlejší a snadnější  
 
 2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
 

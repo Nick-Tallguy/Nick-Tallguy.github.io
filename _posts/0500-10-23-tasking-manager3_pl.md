@@ -300,92 +300,92 @@ Jeżeli potrzebujesz wysłać wiadomość, np. email lub wiadomość na IRC i ws
 
 ## Uzyskiwanie pomocy 
 
-### Live text based help
+### Pomoc tekstowa na żywo
 
-From the Learn page of the Tasking Manager:  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
+Ze strony pomocy Tasking Managera:  
+1. Kliknij na **Kanał OSM HOT IRC #hot**  
+2. Wprowadź nazwę użytkownika (Twoją nazwę użytkownika OSM?) lub użyj wstępnie ustawionej  
+3. U dołu rozwijanej listy wybierz **hot**  
 
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+- Po prawej stronie ekranu jest lista użytkowników, którzy są aktualnie online.  
+- Wpisz swoją wiadomość w polu w lewej dolnej części ekranu (czasami pole jest zasłonięte innym tekstem, ale zniknie on, gdy klikniesz w tym polu).  
+- Aby skierować wiadomość do konkretnej osoby, zawrzyj jej nazwę użytkownika widoczną na liście w treści wiadomości. Wpisz, a następnie naciśnij enter, aby wysłać wiadomość. System działa 'na bieżąco', więc poczekaj na odpowiedź - Twoja nazwa użytkownika zazwyczaj pojawia się w odpowiedzi po to, żebyś widział, że to wiadomość do Ciebie. Normalnie powinieneś otrzymać odpowiedź w ciągu kilku sekund, więc poczekaj.  
+- Inny równie prosty system możesz znaleźć na [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
+- Więcej informacji o używaniu IRC z OpenStreetMap można znaleźć na [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
+- Równie dobrze możesz użyć wybranego klienta IRC (Server=irc.oftc.net, and channel=#hot)  
 
-### Leaving a Project question / comment / contacting the Project creator
+### Dodawanie do projektu  pytań / komentarzy / kontakt z twórcą projektu
 
-Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
+Używając karty projektu "Komentarze" możesz zobaczyć pytania i komentarze innych użytkowników oraz zostawić swoje. Możesz również kliknąć link "Skontaktuj się z menadżerem projektu", a zostaniesz automatycznie przekierowany do komentarzy/pytań do twórcy projektu. 
 
-All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
+Wszystkie komentarze są publiczne, ale nie funkcjonują w czasie rzeczywistym, więc użyj opcji IRC dla rozmowy na żywo.
 
 ![TM comments][]
 
 
-## Editing hints and tips  
+## Wskazówki i porady do edytowania  
 
-By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
+Teraz już masz podstawową wiedzę o tym, czym jest Tasking Manager i jakie funkcje obsługuje. Inaczej niż normalne edytowanie, to narzędzie jest często używane w krytycznych projektach z udziałem wielu ludzi - może to być coś trochę innego niż Twój sposób użycia.  
 
-Some general advice to heed when working in this tool:  
+Kilka ogólnych rad, których należy przestrzegać w pracy z tym narzędziem:  
 
-* Avoid mapping far outside of your task square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediately after mapping something at the border.  
-* Przedłuż drogi, strumienie lub inne funkcje nieco poza granice - dzięki temu następny twórca mapy będzie mógł przejąć pracę od miejsca, w którym została przerwana, ale pamiętaj, by przesyłać efekty swojej pracy zaraz po zakończeniu edycji.  
-* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
-* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
-* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+* Unikaj mapowania daleko poza kwadratem zadania - inni maperzy mogą pracować w tym obszarze, co spowoduje podwojenie pracy. Jest wskazanym, aby mapować budynki przecięte granicą, ale unikaj wychodzenia dalej - przesyłaj zmiany natychmiast po zmapowaniu czegoś na granicy.  
+* Przedłużaj drogi, strumienie lub inne obiekty nieco poza granice - pozwoli to następnemu maperowi kontynuować pracę od miejsca, w którym skończyłeś, ale przesyłaj zmiany od razu po zakończeniu edycji.  
+* Jeżeli masz wątpliwości, czym jest dany obiekt, użyj sekcji komentarzy, aby zadać pytanie lub sprawdź w wiki.  
+* Jeżeli popełnisz poważny błąd - na przykład usunięcie ważengo obiektu lub relacji - użyj IRC lub pola komentarzy, aby poprosić innych maperów o pomoc w cofnięciu zmian. Spróbuj podać zestaw zmian lub opis tego, co zrobiłeś. Jak to we wspólnych zadaniach, wielu innych maperów jest tutaj, aby Ci pomóc - ważne jest by pamiętać, że każdy robi czasem błędy.  
+* Nie wahaj się zapytać o opinię - maperzy weryfikujący Twoją pracę mogą być lakoniczni i krótcy, ale jeżeli uznają, że warto porozmawiać z Tobą, będzie to z pożytkiem dla wszystkich. Może być trudno komunikować się w innym języku, ale łatwo możesz przerwać kiedy musisz coś przetłumaczyć, jak również przekazać wiadomość w języku, którego nie znasz zbyt dobrze.  
+* Nie musisz weryfikować swojej własnej pracy - druga para oczu zawsze prowadzi do lepszej jakości mapowania.  
+* Nie martw się, jeżeli inny maperzy są oschli przy weryfikacji Twojej pracy - tak, jak Ty oni chcą tylko upewnić się, że wszystkie dane są dokładnie zmapowane. Opinia zależy od pozostałej pracy, a nie jest krytyką dotychczasowych wysiłków.  
 
 
-## Validation
+## Weryfikacja
 
-Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
+Weryfikacja jest procesem, w którym drugi maper przegląda mapowanie pierwszego użytkownika w zadaniu projektu. Jest to zaplanowane po to, żeby zapewnić kompletne jakościowe dane i dostarczyć podziękowania, opinie i poparcie maperom.
 
 ### Rozpoczęcie pracy
 
-Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
+Weryfikacja zaczyna się tak samo, jak mapowanie, wolontariusz znajduje projekt, nad którym chce pracować, czyta kartę ze wskazówkami, aby być pewnym, że rozumie czego się oczekuje i jak powinno to być zmapowane, ale zamiast wybierać kartę mapowania projektu wybiera kartę "Weryfikuj".
 
 ![TM select for validation][]
 
-The validator can select a task by clicking on an individual task square, clicking "Select a random Task", select by user or draw a polygon to select multiple, connected tasks.
+Weryfikator może wybrać zadanie przez kliknięcie na pojedynczym kwadracie zadania, kliknięcie "Wybierz losowe zadanie", wybranie użytkownika lub narysowanie wielokąta, aby wybrać wiele połączonych zadań.
 
-Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
+W przeciwieństwie do maperów, weryfikator może wybrać kilka zadań do przeprowadzenia weryfikacji na większą skalę niż tylko jedno zadanie.
 
-### Selecting Multiple Tasks for Validation
+### Wybieranie wielu zadań do weryfikacji
 
-New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
+Nowością w ostatniej wersji Tasking Managera jest możliwość wyboru wielu zadań do weryfikacji, zarówno poprzez obszar, jak i użytkownika.
 
-Depending on which editor you are using, this feature will behave differently.
+Zależnie od edytora, którego używasz, ta funkcja będzie działać inaczej.
 
-W JOSM zostanie utworzona druga warstwa danych OSM zatytułowana "Granice zadań - nie edytuj ani nie przesyłaj", a w najnowszych wersjach JOSM funkcja przesyłania zostanie wyłączona. JOSM **nie pobierze danych OSM**, ponieważ może to być bardzo duża ilość danych. Zamiast tego osoba kontrolująca będzie musiała użyć granic zadań jako przewodnika i ręcznie pobierać dane do aktywnej warstwy edycji.
+W JOSM zostanie utworzona druga warstwa danych OSM zatytułowana "Granice zadań - nie edytuj, ani nie przesyłaj", a w najnowszych wersjach JOSM funkcja przesyłania zostanie wyłączona. JOSM **nie pobierze danych OSM**, ponieważ może to być ich bardzo dużo. Zamiast tego weryfikator będzie musiał użyć granic zadań jako wskazówek i ręcznie pobierać dane do aktywnej warstwy edycji.
 
-#### Select by drawing a polygon
+#### Wybieranie przez rysowanie wielokąta
 
-This option allows a validtor to draw a square around a group of tasks and check them all out at once.
+Ta opcja pozwala weryfikatorowi narysować kwadrat dookoła grupy zadań i sprawdzić je za jednym zamachem.
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
+W edytorze **weryfikator musi ręcznie pobierać dane OSM** dla wybranych obszarów zadań. Zapobiega to pobieraniu wszystkich danych OSM pomiędzy wybranymi zadaniami.
 
 
-#### Select By User
+#### Wybieranie przez użytkownika
 
-A list of mappers who have marked a task as done is presented. Hovering over anyone in the list will highlight the tasks they have marked as completed. The list also prensents three important pices of information about the mapper, their experience level, the number of days since they first started mapping using the Tasking Manager and the number of days since they last received feedback via validation. This allows the validator to specifically target new mappers, experienced mappers or mappers who have not had any feedback for an extended period of time.
+Lista maperów, którzy oznaczyli zadania jako wykonane jest pokazana. Najechanie myszą na kogoś z listy podświetli zadania oznaczone przez niego jako kompletne. Lista pokazuje także trzy ważne informacje o maperze, jego poziom doświadczenia, liczbę dni od pierwszego mapowania przy użyciu Tasking Managera i liczbę dni od ostatniej opinii w weryfikacji. To pozwala weryfikatorowi skupić się na nowych maperach, doświadczonych maperach lub takich, którzy nie mieli opinii od dłuższego czasu.
 
-Clicking on the "Start Validating" button will lock all the tasks completed by that mapper and allow the validator to open them in their editor of choice.
+Kliknięcie na przycisku "Rozpocznij weryfikowanie" zablokuje wszystkie ukończone przez mapera zadania i pozwoli weryfikatorowi na otwarcie ich w wybranym edytorze.
 
 ![TM multi selection][]
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
+W edytorze **weryfikator musi ręcznie pobierać dane OSM** dla wybranych obszarów zadań. Zapobiega to pobieraniu wszystkich danych OSM pomiędzy wybranymi zadaniami.
 
-### Finalizing Validation
+### Kończenie weryfikacji
 
-Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
+Kiedy weryfikator skończy proces weryfikacji jednego lub wielu zadań, powinien wrócić do Tasking Managera i wybrać jedną z trzech opcji, która odpowiada zmapowaniu zadania:
 
-- Stop Validating - If you could not complete the validation process but must stop validating.
-- Mark (all) as Valid - If the mapping is complete and accurate
-- Mark (all) as Invalid - If the mapping is not complete or inaccurate.
+- Przerwij weryfikację - Kiedy nie możesz dokończyć procesu weryfikacji, ale musisz już skończyć.
+- Oznacz (wszystkie) jako zweryfikowane - Jeżeli mapowanie jest skończone i dokładne
+- Oznacz (wszystkie) jako odrzucone - Jeżeli mapowanie nie jest skończone lub dokładne.
 
-For the last two choices the validator can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping. Please be considerate before marking a task as invalid. If just a few bits are missing add them yourself, explain what was missing in your comment but nevertheless mark the task as valid. New mappers will consider their completed task marked as invalid as a fairly harsh comment.
+Przy dwóch ostatnich opcjach weryfikator może i powinien zostawić przyjazny, zachęcający komentarz kierowany do zaangażowanego mapera(ów) i przekazać podziękowania za wkład oraz opinię o mapowaniu. Bądź uważny przy oznaczaniu zadania jako odrzuconego. Jeżeli brakuje tylko kilka szczegółów dodaj je samemu, wyjaśnij w komentarzu czego brakowało, ale jednak oznacz zadanie jako zweryfikowane. Nowi maperzy odbiorą odrzucenie ich ukończonych zadań jako dość przykry komentarz.
 
 
 
