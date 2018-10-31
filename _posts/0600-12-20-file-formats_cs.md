@@ -57,7 +57,7 @@ OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensi
 
 Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
 
-Souhrn
+Shrnutí
 -------
 
 In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  

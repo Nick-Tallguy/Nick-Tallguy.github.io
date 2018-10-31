@@ -254,7 +254,7 @@ The application can be displayed 3 different ways, whichever you find most appro
 ![view2][]
 
 
-Souhrn
+Shrnutí
 -------
 
 Excellent! You've been introduced to a light-weight, battery-efficient app you can keep in your Android device to record tracks, which you can upload to OSM, or use with your favorite OpenStreetMap editor.  

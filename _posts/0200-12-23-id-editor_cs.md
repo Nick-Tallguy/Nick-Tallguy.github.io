@@ -90,7 +90,7 @@ Chcete-li přidat nový bod, klikněte na tlačítko **Bod**. ![image3][]{: heig
 
 ### Kreslení čar  
 
-Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{: height="24px"}  
+Chcete-li přidat novou čáru, klikněte na tlačítko **Linie**. ![image4][]{: height="24px"}  
 
 - Kurzor myši se změní na znaménko plus (+). Najděte cestu, která nebyla na mapě vykreslena, a obkreslete ji. Jedním kliknutím klikněte na místo, kde začíná úsek cesty, přesuňte myš a klepnutím přidáte další body. Poklepáním ukončíte proces kreslení. Všimněte si panelu vlevo.  
 ![image24][]  
@@ -98,10 +98,10 @@ Chcete-li přidat novou čáru, klikněte na tlačítko **Čára**. ![image4][]{
 - Můžete přetáhnout body z čáry kliknutím levého tlačítka myši na bod a přetažením.  
 - Můžete také přesunout celou čáru jejím výběrem a zvolením nástroje **Přesunout**. Potom přetáhněte čáru na novou pozici. ![image30][]{: height="24px"}  
 - Když klepnete levým tlačítkem myši na jednotlivý bod (uzel) na čáře a kliknutím pravým tlačítkem myši aktivujete místní nabídku, uvidíte tyto nástroje:  
-- Smazat bod z čáry. ![image23][]{: height="24px"}  
+- Smazat bod z linie. ![image23][]{: height="24px"}  
 - Odpojit bod od čáry. ![image26][]{: height="24px"}  
-- Rozdělit čáru na dvě čáry od místa, které jste vybrali. ![image27][]{: height="24px"}  
-- Když kliknete levým tlačítkem myši na čáru (ale ne na bod), uvidíte tyto nástroje:  
+- Rozdělit linii na dvě linie od místa, které jste vybrali. ![image27][]{: height="24px"}  
+- Když kliknete levým tlačítkem myši na linii (ale ne na bod), uvidíte tyto nástroje:  
 -   Smazat čáru. ![image23][]{: height="24px"}  
 -   Vytvoření kruhu z čáry (aktivní pouze v případě, že je čára uzavřena) ![image29][]{: height="24px"}  
 -   Posunout čáru ![image30][]{: height="24px"}  

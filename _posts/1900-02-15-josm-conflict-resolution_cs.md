@@ -74,7 +74,7 @@ Editing in the specific area you have downloaded minimizes conflict risk.  Make 
 
 ![edit outside area][]  
 
-Souhrn
+Shrnutí
 --------
 When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
 

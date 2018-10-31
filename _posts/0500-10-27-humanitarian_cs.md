@@ -1,32 +1,32 @@
 ---
 layout: doc
-title: Humanitarian Mapping
+title: Humanitární mapování
 permalink: /cs/coordination/humanitarian/
 lang: cs
 category: coordination
 ---
 
-# Humanitarian Mapping
+# Humanitární mapování
 
 ![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
 
-> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
+> Tato příručka může být stažena jako [humanitarian_en.odt](/files/humanitarian_en.odt) nebo  [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Zkontrolováno 2015-09-18
 
-Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
+Děkujeme za dobrovolnictví, abyste pomohli místním komunitám a organizacím poskytujícím pomoc reagovat na tuto krizi tím, že jim poskytnete aktualizované mapové údaje.  
 
-Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce.  
+Stejně jako vy, chceme pomoci co nejrychleji. V tom, co děláme, existuje skutečný pocit naléhavosti. Důvod, proč zdravotnické organizace závisí na našich mapových datech, je ten, že si uvědomujeme, že to, co vyrábíme, je užitečné a odpovídá jejich potřebám. Potřebujeme, abyste se o to postarali. I když to bude zpožděno, jakmile začnete aktualizovat mapu, potřebujeme, abyste pochopili, jak a co mapovat ještě před začátkem. Nepokoušejte se spěchat a začít mapovat, aniž byste si nejprve prohlédli nebo četli některé z výukových programů. Trvá mnohem déle, než vyčistíme chyby v mapování, než když je vytváříme. Chyby  mohou způsobit, že zdravotní pracovník by měl pochybnosti o spolehlivosti map, které vytváříme.  
 
-We are constantly updating our software & training guides, but it does take time. The software in the Tasking Manager will be updated soon so that only experienced people can review mapping work and mark it as "validated", but at the moment we ask that the "validation" process be left for the most experienced mappers - please keep mapping and you will become one of our mapping validators in the future. **If you select a task square and the green button says 'Review the work' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
+Neustále aktualizujeme naše příručky pro software a školení, ale to trvá nějakou dobu. Softwarový program Tasking Manager bude brzy aktualizován, takže pouze zkušení lidé mohou kontrolovat mapování a označit mapu za "ověřenou", ale v tuto chvíli požadujeme, aby byl proces "validace" ponechán pro ty nejzkušenější mapovače - a v budoucnu se stanete jedním z našich mapovacích validátorů. **Pokud vyberete čtverec úlohy a zelené tlačítko říká "Zkontrolovat dílo", pak stačí kliknout na jiný čtverec úlohy, protože tato kontrola je něco, co potřebuje zkušeného mapovače, který práci dokončí**  
 
-We don't need you to read all of this site before you start, but we do need you to understand the basics:  
+Nepotřebujete, abyste si přečetli všechny tyto stránky dříve, než začnete, ale potřebujeme, abyste pochopili základy:  
 
-1.  You need to carefully read the Task Manager Instructions for any project you would like to help map. They can be different, so make sure you read & understand them. There is a full description of how to use the [Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/), and it includes how to get live help from an experienced mapper.  
+1. Potřebujete pečlivě přečíst pokyny k Tasking Manageru pro každý projekt, který by vám pomohl mapovat. Mohou se lišit, takže se ujistěte, že jste je přečetli a porozuměli jim. Existuje úplný popis použití [Tasking Manageru zde v rámci LearnOSM](/en/coordination/tasking-manager/) a zahrnuje jak získat živou pomoc od zkušeného mapovače.  
 
-2.  Make sure you have zoomed in enough so that you can actually see what you should be tracing - [it and many other things are explained here.](/en/coordination/remote/)  
+2. Ujistěte se, že jste si dostatečně přiblížili mapu, takže můžete skutečně vidět, co byste měli sledovat - [to, a mnoho dalšího je vysvětleno zde.](/en/coordination/remote/)  
 
-3.  Buildings have to be traced, and the shape of the tracing should match the shape of the building. [This section of LearnOSM](/en/coordination/remote-tracing/) explains this, and how to create roads and a road network.  
+3. Budovy musí být obkresleny a tvar trasování by měl odpovídat tvaru budovy. [Tento oddíl LearnOSM](/en/coordination/remote-tracing/) to vysvětluje a také jak tvořit silnice a silniční síť.  
 
-Thank you for reading this, and we hope you'll take the short time needed to make sure you do the important things right. We need all the help we can get, and hope that you can help us with this.  
+Děkujeme, že jste si to přečetli, a doufáme, že budete potřebovat kratší čas, abyste se ujistili, že děláte důležité věci správně. Potřebujeme veškerou pomoc, kterou můžeme získat, a doufáme, že nám s tím můžete pomoci.  
 
-Please remember, that although this event is very recent, the problems will continue for a very long time. People no longer have housing, and are living in shelters at the mercy of more bad weather. Hygiene will become difficult and there is the possibility of disease and other problems related to food and water. Although you may not see the problems mentioned in the news, they will still exist, and the aid workers will need maps that reflect the current situation. Please help us now, but please remember to come back and help us again in the future. 
+Nezapomeňte, že ačkoli je tato událost velmi nedávná, problémy budou pokračovat po velmi dlouhou dobu. Lidé už nemají bydlení a žijí v přístřešcích na milost stále horšího počasí. Hygiena se stane obtížnou a existuje riziko onemocnění a dalších problémů souvisejících s jídlem a vodou. Ačkoli problémy, které se ve zprávách uvádějí, pravděpodobně nevidíte, budou existovat a pracovníci humanitární pomoci budou potřebovat mapy, které popisují  současnou situaci. Pomozte nám prosím, ale také se nezapomeňte vrátit a pomoci nám znovu i v budoucnu. 

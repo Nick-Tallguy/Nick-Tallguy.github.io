@@ -109,7 +109,7 @@ iD Editor je fantastický způsob, jak snadno upravovat OpenStreetMap a můžete
 
 V sekci [JOSM](/en/josm/) se však podíváme na samostatnou aplikaci, která nabízí mnoho dalších funkcí. Neváhejte pokračovat v hraní s iD. Jakmile budete mít více zkušeností, které přispívají k OSM, můžete si vybrat, který editor - iD nebo JOSM - se vám líbí víc.
 
-Souhrn
+Shrnutí
 ------- 
 
 Gratulujeme! Pokud vše proběhlo dobře, máte nyní uživatelské jméno a heslo OpenStreetMap, víte, jak navigovat na webových stránkách OSM a máte první pochopení, jak přidávat body na mapu.

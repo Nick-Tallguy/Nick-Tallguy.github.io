@@ -259,7 +259,7 @@ Alternatively you can choose delete from the context menu of the layer.
 In order to continue editing you first need to download real data. 
 This will be explained in the next chapter.
 
-Souhrn
+Shrnutí
 -------
 
 Vynikající! Pokud jste všechno udělali dobře, tak jste se naučili, jak nastavit JOSM na svém

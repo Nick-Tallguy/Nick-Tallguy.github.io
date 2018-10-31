@@ -146,7 +146,7 @@ When you add the layer you will need to select a coordinate system to display th
 
 > The layer behaves the same as if you had loaded a shapefile directly into QGIS.  The only difference is that if you edit the layer, the changes will be saved in your database.  
 
-Souhrn
+Shrnutí
 -------
 
 Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new database, you're ready to try the utilities which allow us to import raw OSM data into a database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).  

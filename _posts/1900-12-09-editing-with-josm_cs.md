@@ -25,75 +25,75 @@ různých věcí do JOSM. Můžeme stahovat data OSM, přidat satelitní snímky
 načíst GPS stopy a trasové body a přidat podklady z terénu - všechny budou zobrazeny
 v mapovém okně JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional
-item is added to the Layers panel on the right side of JOSM. Depending on what you have
-opened, your Layers panel may look something like this:
+Možná jste si také všimli, že pokaždé, když přidáte něco nového do JOSM, další
+položka je přidána do panelu Vrstvy na pravé straně JOSM. V závislosti na tom, co máte
+otevřeno, tak panel Vrstvy může vypadat například takto:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that
-you have open in your map window. In this example, “Data Layer
-1” is the OpenStreetMap data that we are editng. "Field Papers” is
-the layer created when we added our Field Paper into JOSM.
+Každá položka v tomto seznamu představuje jiný zdroj dat
+který máte otevřen v okně mapy. V tomto příkladu jsou "Datová vrstva
+1 " data OpenStreetMap, kterou upravujeme. "Terénní mapy" jsou
+vytvořenou vrstvou když jsme přidali náš snímek terénu do JOSM.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+Pokud přidáte satelitní snímky Bing, objeví se nová vrstva v panelu Vrstvy s názvem "Bing Sat."
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each
-layer is like a semi-transparent piece of paper, and they are all stacked on top of one
-another. Each piece of paper has a certain type of information on it, and they can be rearranged
-any way you like.
+Myšlenka vrstev může být často těžko pochopitelná. Dobrý způsob, jak si to představit, je že každá
+vrstva je jako poloprůhledný kus papíru a všechny jsou uloženy na
+té další. Každý kus papíru má na sobě určitý druh informací a může být znovu uspořádán
+jak se vám líbí.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers
-are often called "base layers." The OSM data layer is the layer that you actually work with.
+Vrstvy, které se používají jako reference, jako jsou satelitní snímky, GPS stopy a terénní snímky 
+jsou často nazývány jako "základní vrstvy". Datová vrstva OSM je vrstva, se kterou pracujete.
 
--   To move a layer, click on it in the Layers panel and click on the up
-    or down arrow to move it.
+- Chcete-li vrstvu přesunout, klikněte na ni v panelu Vrstvy a klikněte na tlačítko nahoru
+    nebo šipku dolů, abyste je mohli přesunout.
 
 ![Layers up down][]
 
--  To hide a layer, select it with your mouse and
-    click the Show/Hide button:
+- Chcete-li skrýt vrstvu, vyberte ji myší a
+    klikněte na tlačítko Zobrazit / Skrýt:
 
 ![Layers show hide][]
 
--  You should see the layer that you selected disappear in the map
-    window. Click Show/Hide again, and it will reappear.
--  You can remove a layer by selecting it and using the delete
-    button:
+- Měli byste vidět, že zvolená vrstva zmizela na mapovém
+    okně. Klikněte znovu na možnost Zobrazit / skrýt a znovu se zobrazí.
+- Můžete odstranit vrstvu tak, že ji vyberete a použijete tlačítko 
+    Odstranit:
 
 ![Layers delete][]
 
--  Lastly, it’s important to know that you can only edit the layer that
-    is considered *active* by JOSM. If you are unable to edit the map in
-    your map window, it’s probably because you don’t have the correct
-    layer set as active. Most layers, such as GPS points, Field
-    Papers, and satellite imagery, can’t be edited. The only layers that
-    can be edited are data from OpenStreetMap, which are usually called
+- Nakonec je důležité vědět, že tuto vrstvu můžete upravit pouze
+    když je považována za *aktivní* od JOSM. Pokud nemáte možnost upravit mapu ve
+    vašem mapovém okně, je to pravděpodobně proto, že nemáte správné
+    nastavení vrstvy jako aktivní. Většina vrstev, například GPS body, terénní
+    záznamy a satelitní snímky nelze editovat. Jediné vrstvy, které
+    lze editovat data z OpenStreetMap, které jsou obvykle nazvány 
     “Data Layer 1”.
--  To make a layer active, select it in the Layers panel, and click on
-    the Activate button:
+- Chcete-li vrstvu aktivovat, vyberte ji v panelu Vrstvy a klepněte na
+    tlačítko Aktivovat:
 
 ![Layers activate][]
 
 
-Using GPS Data and Field Papers
+Použití GPS dat a terénních dokumentů
 -------------------------------
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS
-and Field Papers, and how to load it into JOSM as a layer.
+V kapitolách [Mapování se smartphone, GPS nebo s papírem](/en/mobile-mapping/) jsme viděli, jak shromažďovat data pomocí GPS
+a terénními podklady a jak je načíst do JOSM jako vrstvy.
 
-Once you have surveyed with one of these tools, you still need
-to add the information into OpenStreetMap digitally.
+Jakmile jste jeden z těchto nástrojů prozkoumali, stále potřebujete
+přidat informace do OpenStreetMap digitálně.
 
-You do this with the same process you learned previously - **download,
-edit, save**. The difference is that instead of using only satellite
-imagery as a base layer, you can also use your GPS data, Field Papers,
-notes, or a combination of them all.
+Provedete to stejným procesem, jaký jste se dozvěděli dříve - **stahování,
+upravit, uložit**. Rozdíl spočívá v tom, že místo použití pouze satelitních
+snímků jako základní vrstvy, můžete také použít data GPS, terénní podklady,
+poznámky nebo kombinace toto všeho.
 
--   For example, let's assume you have your GPS waypoints as a background
-    layer in JOSM, you saved a waypoint on your GPS with the name 030, and
-    you wrote in your notebook that 030 is a school. To add this point
-    into OpenStreetMap, you will select the draw tool, and
-    double-click on top of point 030 in your map window. This will
+- Předpokládejme například, že máte GPS body jako pozadí
+    v JOSM, uložili jste GPS navigační značku s názvem 030 a
+    napsal jste v notebooku, že 030 je škola. Pro přidání tohoto bodu
+    do OpenStreetMap, vyberete nástroj pro kreslení a
+    poklepejte na vrchol bodu 030 v okně mapy. Tohle bude
     create a point. Then go to the Presets menu, and find the preset for
     school. Enter the name of the school and click “Apply Preset”. Do
     the same to add lines and shapes.
@@ -181,7 +181,7 @@ changes later on.
     open the file again, simply open JOSM, go to the “File” menu, and
     click “Open...”
 
-Souhrn
+Shrnutí
 -------
 In this chapter we looked a little bit closer at the JOSM interface and learned
 about layers and tags. You should now have a solid footing in how to map and how

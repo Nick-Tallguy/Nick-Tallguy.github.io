@@ -81,7 +81,7 @@ If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. F
 
 ![Managing save waypoints][]
 
-Souhrn
+Shrnutí
 -----------
 
 Congratulations! You already know how to use OruxMaps for field surveys. It may be hard on your first time but if you continue using this you will be familiar with this application.  

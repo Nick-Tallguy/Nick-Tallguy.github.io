@@ -70,7 +70,7 @@ index of locations that are included in the area.
 -->
 
 
-Souhrn
+Shrnutí
 -------
 
 Toto jsou některé způsoby jak můžete zůstat ve spojení s OpenStreetmap komunitou a naučit se více. Doufáme, že budete pokračovat zkoumáním a učením se více o OSM a přispějete do projektu. Veselé mapování!

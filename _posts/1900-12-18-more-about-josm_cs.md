@@ -46,20 +46,20 @@ udělat změny mapy, protože mapa je často aktualizována jinými uživateli.
 
 ![JOSM Download Button][]
 
--  When the download window opens, you should see a map. If you don’t see the map, click on the tab marked
+- Po otevření okna pro stahování by se měla zobrazit mapa. Pokud nevidíte mapu, klikněte na kartu označenou
     “Slippy map”.
 
 ![JOSM Download Dialog][]
 
--  Use your mouse to pan and zoom it to an area
+- Použijte myš k posunutí a přiblížení na oblast
     kterou znáte velmi dobře, jako je vaše rodné město, nebo okolí.
     Ovládací prvky jsou stejné jako v okně mapy JOSM. Pravé tlačítko myši
     umožňuje posunovat mapu a rolovací kolečko umožňuje přiblížení a
     oddálení.
 
-> Sometimes if you are working on a notebook computer it can be difficult
-> to scroll in and out. Working in JOSM is much easier if you have a mouse,
-> but most modern notebooks allow you to scroll using the touchpad.
+> Někdy, pokud pracujete na přenosném počítači, může být obtížné
+> posunovat a oddalovat mapu. Práce v JOSM je mnohem jednodušší, pokud máte myš,
+> ale většina moderních notebooků umožňuje posouvat pomocí touchpadu.
 
 - Nakreslete rámeček kolem oblasti, kterou chcete stáhnout. Chcete-li nakreslit nový rámeček, klikněte na
     mapu, držte levé tlačítko myši zmáčknuté a přetáhněte myš k vytvoření
@@ -79,14 +79,14 @@ přispívání do mapy.
 - Pokud chcete přidat satelitní snímky Bing v JOSM, klikněte na "Imagery" v horní nabídce
     JOSM a vyberte "Bing Sat".
 
-> If you don't see Bing Sat on the Imagery menu, you may need to activate
-> it in the JOSM preferences. Go to Edit -> Preferences and click on the icon
-> that says “WMS TMS”. You may need to click on the down arrow to find it.
+> Pokud v nabídce Obrázky neobjevíte Bing Sat, možná je budete muset aktivovat
+> v předvolbách JOSM. Přejděte na položku Upravit -> Předvolby a klikněte na ikonu
+> "WMS TMS". Možná budete muset kliknout na šipku dolů a najít ji.
 > <br>
 >	![JOSM Preferences up down][]
 >	![JOSM Preferences WMS TMS][]
 > <br>
-> Click on “Bing Sat”. Then Click “Activate”.
+> Klikněte na "Bing Sat". Pak klikněte na tlačítko "Aktivovat".
 
 
 ### Prohlídka JOSM
@@ -140,9 +140,9 @@ již dříve viděli - body, čáry a tvary, které představují místa v reál
     Popište tyto objekty výběrem z nabídky Předvolby, jako jste 
     dělali v předchozí části. 
 
-> Never edit the map outside of the area you have downloaded. You  
-> can see the rectangular area you have downloaded has a solid background,  
-> while the area you have not downloaded has diagonal pinstriped lines. 
+> Nikdy neupravujte mapu mimo oblast, kterou jste si stáhli.  
+> Můžete vidět obdélníkové oblasti, které jste si stáhli. Má hladké pozadí,  
+> zatímco oblast, kterou jste nestahovali, má diagonální zkosené šrafování. 
 > <br>  
 > ![JOSM area downloaded][]
 
@@ -178,10 +178,10 @@ být připojeni k internetu.
 - Budete muset počkat několik vteřin, než se vaše změny nahrají,
     a pak už jste hotovi! Upravili jste mapu na OpenStreetMap.
 
-> When you are editing, always be sure to upload your changes before you close  
-> JOSM. Even if you still have more editing to do, upload your changes, and  
-> then go through the process again later when you have time to edit.  
-> You don't want to lose your work!
+> Při editaci vždy nezapomeňte nahrát změny dříve, než zavřete  
+> JOSM. Dokonce i když máte ještě další úpravy, nahrajte změny a  
+> pak postupujte v procesu znovu později, když máte čas na úpravu.  
+> Nechcete přeci přijít o práci!
 
 Zobrazit změny na mapě
 ---------------------------
@@ -196,7 +196,7 @@ Zobrazit změny na mapě
     obecné pravidlo je, pokud má váš bod ikonu v JOSM, pak by to měl být
     vidět na hlavní mapě na webu OpenStreetMap.
 
-Souhrn
+Shrnutí
 -------
 Nyní, když jste viděli, jak přidat do OpenStreetMap, co bude dál? No, editace
 je skvělá, ale není to jediný aspekt vytváření map. Samozřejmě také vy

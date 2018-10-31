@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tasking Manager 3 Vytvoření projektu
-permalink: /cs/coordination/tasking-manager3-project-admin/
+permalink: /en/coordination/tasking-manager3-project-admin/
 lang: cs
 category: coordination
 ---
@@ -41,7 +41,7 @@ První věc, kterou je potřeba pochopit, je přístupová úroveň. Veškerý p
 
 Tasking Manager OSM má tři úrovně přístupu uživatelů:
 -  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers have access to create and update projects within TM3.  
+- **Project Manager** - Projektoví manažeři mají přístup k vytváření a aktualizaci projektů v TM3.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
 
 You will need Project Manager Access level to create new projects using TM3.

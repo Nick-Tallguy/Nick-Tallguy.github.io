@@ -10,7 +10,7 @@ iD编辑器
 =============
 
 > 本指南有 [beginner_id-editor_zh_CN.odt](/files/beginner_id-editor_zh_CN.odt) 和 [beginner_id-editor_zh_CN.pdf](/files/beginner_id-editor_zh_CN.pdf) 两种格式可供下载。  
-> Reviewed 2016-03-30  
+> 2016年03月30日修订  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 
@@ -61,9 +61,9 @@ iD编辑器用户界面
 点击**背景设置**按钮或按下*快捷键* **B**.![image14][]{: height="24px"}  
 ![image15][]  
 To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% ![image16][]{: height="24px"}  
-You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+你还可以根据自己喜爱的瓦片提供者（默认来源为必应卫星影像）来**修改底图图层**  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+你可以通过点击**自定义**来添加你自己的地图瓦片。例如，如果你想**添加一张Field Paper** [^fieldpaper]，点击**自定义**，然后点击放大镜（搜索）图标来打开窗口:-  
 ![image17][]   
 然后输入你的**FieldPaper快照网址**，形式大致如下： <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 你可以**显示本地计算机的GPS轨迹**(GPX格式)。也可以将GPX文件拖曳并放入iD编辑器。  

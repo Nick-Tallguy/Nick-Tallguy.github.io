@@ -89,7 +89,7 @@ wget -O $file "$url"
 
 
 
-Souhrn
+Shrnutí
 -------  
 
 The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
