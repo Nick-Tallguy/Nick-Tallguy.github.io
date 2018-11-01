@@ -13,9 +13,9 @@ Wprowadzenie
 > Przejrzano 12.07.2015  
 
 Informacje są potężne. Dzięki dobrym informacjom i odpowiedniemu
-zrozumieniu jednostki i wspólnoty są w stanie poprawić
+zrozumieniu, jednostki i wspólnoty są w stanie poprawić
 swoje życie i podejmować dobre decyzje dotyczące przyszłości. Jest wiele
-osób i organizacji, które podejmują decyzje, które wpływają na nasze życie. Dobra
+osób i organizacji, które podejmują decyzje wpływające na nasze życie. Dobra
 informacja pozwala tym NGO-som (organizacjom pozarządowym), rządom i obywatelom podejmować lepsze
 decyzje i, miejmy nadzieję, poprawić nasze życie. Mapy to dobry sposób
 na przekazywanie informacji. 
@@ -25,7 +25,7 @@ na przekazywanie informacji.
 Mapy są wizualnymi symbolami naszego świata. Zazwyczaj mogą one 
 opisać pomysł lepiej niż słowa. To z kolei może nam pomóc
 odpowiedzieć na ważne pytania. *Gdzie jest najbliższa szkoła lub szpital? Kto
-przynajmniej ma dostęp do tych obiektów? Gdzie bieda jest najbardziej
+ma najsłabszy dostęp do tych obiektów? Gdzie bieda jest najbardziej
 problematyczna?* Takie pytania najlepiej mogą być wyrażone za pomocą map,
 a mapy mogą pomóc znaleźć odpowiedzi na te pytania. 
 
@@ -37,12 +37,12 @@ dla kogo mogą być ważne.
 
 ![Example of a hand-drawn map][]
 
-Jeżeli Twoje miasto jest typowe, to pewnie narysowałeś kilka linii przestawiających
+Jeżeli Twoje miasto jest typowe, to pewnie narysowałeś kilka linii przedstawiających
 drogi, może jakąś rzekę lub strumień. Prawdopodobnie dodałeś ważne budynki
 takie, jak szkoły i biura, pola lub granice. Cokolwiek narysowałeś
 najpewniej używałeś symboli - linia symbolizująca drogę, kwadrat
 oznaczający budynek, i tak dalej. Twoja mapa jest reprezentacją tego, co jest
-na ziemi.
+w terenie.
 
 ![Examples of symbols][]
 
@@ -64,14 +64,14 @@ każdego dnia. Użytkownicy rysują mapy na komputerach, zamiast na papierze, al
 zobaczymy w tym przewodniku, rysowanie na komputerze nie różni się 
 wiele od rysowania na papierze. Wciąż rysujemy linie do pokazania dróg,
 pól i wszystkiego innego, a także przedstawiamy szkoły i szpitale 
-za pomocą symboli. Ważne jest, że mapy OSM są zapisywane w 
+za pomocą symboli. Ważne jest to, że mapy OSM są zapisywane w 
 internecie i każdy może mieć do nich dostęp o każdej porze, całkowicie za darmo.
 
 ![Digital maps with OpenStreetMap][]
 
-Mamy nadzieję, że OpenStreetMap okaże się przydatny i interesujący w Twojej
+Mamy nadzieję, że OpenStreetMap okaże się przydatna i interesująca w Twojej
 pracy. Postępując zgodnie z tym przewodnikiem, powinieneś być w stanie szybko
-zacząć tworzyć cyfrowe mapy za pomocą OpenStreetMap.
+zacząć tworzyć cyfrowe mapy w OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
