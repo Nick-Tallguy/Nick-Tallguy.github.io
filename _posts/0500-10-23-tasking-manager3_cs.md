@@ -10,19 +10,19 @@ category: coordination
 
 > Tento návod může být stažen jako [tasking-manager3_en.odt](/files/tasking-manager3_en.odt) nebo [tasking-manager3_en.pdf](/files/tasking-manager3_en.pdf)  
 
-**Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní, které používáte, vypadá jinak než zde popsané, měli byste si prohlédnout [příručku pro předchozí verzi] (/en/coordination/tasking-manager)**
+**Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní, které používáte, vypadá jinak než zde popsané, měli byste si prohlédnout [příručku pro předchozí verzi] (/cs/coordination/tasking-manager)**
 
 Sekce Index
 -------------
-- [Rychlý návod](/en/coordination/tasking-manager3/#quick-start-guide)  
-- [Proces mapování](/en/coordination/tasking-manager3/#mapping-process)  
-    - [Přihlašování](/en/coordination/tasking-manager3/#tasking-manager-login)  
-    - [Možnosti - nastavení jazyka a uživatelský profil](/en/coordination/tasking-manager3/#options-amp-links)  
-    - [Vyhledání projektu založeného na seznamu a používání zobrazení mapy, vyhledávání a filtrování](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
-    - [Mapování úlohy - vyberte, pracujte a odemkněte úkol](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
-- [Získání nápovědy - naživo a kontaktování správce projektu](/en/coordination/tasking-manager3/#getting-help)  
-- [Tipy a triky](/en/coordination/tasking-manager3/#editing-hints-and-tips)
-- [Validace](/en/coordination/tasking-manager3/#validation)
+- [Rychlý návod](/cs/coordination/tasking-manager3/#quick-start-guide)  
+- [Proces mapování](/cs/coordination/tasking-manager3/#mapping-process)  
+    - [Přihlašování](/cs/coordination/tasking-manager3/#tasking-manager-login)  
+    - [Možnosti - nastavení jazyka a uživatelský profil](/cs/coordination/tasking-manager3/#options-amp-links)  
+    - [Vyhledání projektu založeného na seznamu a používání zobrazení mapy, vyhledávání a filtrování](/cs/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+    - [Mapování úlohy - vyberte, pracujte a odemkněte úkol](/cs/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
+- [Získání nápovědy - naživo a kontaktování správce projektu](/cs/coordination/tasking-manager3/#getting-help)  
+- [Tipy a triky](/cs/coordination/tasking-manager3/#editing-hints-and-tips)
+- [Validace](/cs/coordination/tasking-manager3/#validation)
 
 [HOT OSM Tasking Manager](http://tasks.hotosm.org) je nástroj, který koordinuje mnoho lidí mapujících určitou geografickou oblast v OpenStreetMapě.
 

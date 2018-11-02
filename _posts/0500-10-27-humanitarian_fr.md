@@ -8,7 +8,7 @@ category: coordination
 
 # Cartographie humanitaire
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Ce guide peut être téléchargé : [humanitarian_fr.odt](/files/humanitarian_fr.odt) ou [humanitarian_fr.pdf](/files/humanitarian_fr.pdf)  
 > Reviewed 2015-09-18

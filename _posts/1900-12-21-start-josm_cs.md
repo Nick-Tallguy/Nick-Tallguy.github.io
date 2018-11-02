@@ -106,7 +106,7 @@ Naučte se základní mapování s JOSM
 
   ![Open file][]
 
-- Najděte soubor ** sample.osm **. Je pravděpodobně ve složce Stahování,
+- Najděte soubor **sample.osm**. Je pravděpodobně ve složce Stahování,
   pokud jste ho neuložili někde jinde. Klikněte na něj a pak klikněte na tlačítko "Otevřít".
 - Nyní byste měli vidět vzorovou mapu, která vypadá takto:
 

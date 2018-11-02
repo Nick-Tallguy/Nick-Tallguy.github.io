@@ -18,7 +18,7 @@ Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coor
 Section Index
 =====
 
-[Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
+[Silnice a dálnice včetně cest a tras](/cs/coordination/remote-tracing/#roads)  
 [The Highway network](/en/coordination/remote-tracing/#the-highway-network)  
 [Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
 [Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  

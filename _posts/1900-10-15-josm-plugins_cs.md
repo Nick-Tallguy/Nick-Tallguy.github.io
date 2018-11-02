@@ -28,7 +28,7 @@ Kdykoli chcete nainstalovat nový plugin, přejděte na **Upravit \> Předvolby*
 
 Některé z našich oblíbených pluginů jsou:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** Pokud kreslíte spoustu budov, bude to proces rychlejší a snadnější  
+1. **[buildings_tools](/cs/josm/josm-more-plugins/#the-buildings-tools-plugin):** Pokud kreslíte spoustu budov, bude to proces rychlejší a snadnější  
 
 2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
 

@@ -21,7 +21,7 @@ Na konec kapitoly o editory iD jste slyšeli o rozdílech mezi iD a JOSM. Existu
 
 Zatím, všechny změny přidané do mapy byly založené na fotografiích na pozadí. Vy ale můžete sbírat mnoho důležitých informací během chůze nebo ježdění kolem. [Kapitola o mobilním mapování](/cs/mobile-mapping/) vysvětluje jak sbírat informace pomocí různých GPS zařízení nebo speciálně navržených výtisků. Také vysvětluje několik aplikací souvisejících s OpenStreetMap pro mobilní telefony.  
 
-OpenStreetMap je společný program a doufáme, že budete její součástí. Některé z těchto úkolů jsou věnovány humanitární podpoře pod záštitou [Humanitární OSM Tým](http://hotosm.org). Pokud byste chtěli pomoci HOT v případě katastrof jako zemětřesení v Nepálu, prosím, podívejte se na [kapitolu koordinace](/en/coordination/). Ta popisuje nástroje, které umožňují mnoha lidem pracovat společně na relativně malém prostoru sladěně. Také obsahuje rady k některým typickým úkolům, které často potkáte pokud se připojíte k tomuto programu.  
+OpenStreetMap je společný program a doufáme, že budete její součástí. Některé z těchto úkolů jsou věnovány humanitární podpoře pod záštitou [Humanitární OSM Tým](http://hotosm.org). Pokud byste chtěli pomoci HOT v případě katastrof jako zemětřesení v Nepálu, prosím, podívejte se na [kapitolu koordinace](/cs/coordination/). Ta popisuje nástroje, které umožňují mnoha lidem pracovat společně na relativně malém prostoru sladěně. Také obsahuje rady k některým typickým úkolům, které často potkáte pokud se připojíte k tomuto programu.  
 
 
 Číst více

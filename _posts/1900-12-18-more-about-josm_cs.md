@@ -29,9 +29,9 @@ jsme viděli předtím. Ale protože JOSM je desktopová aplikace, funguje troch
  jinak. Proces editace a přidávání do OpenStreetMap s
 JOSM bude vždy následující:
 
-1. ** Stáhnout ** aktuální mapové údaje z OSM
-2. ** Upravit ** pomocí satelitních snímků, GPS, poznámek a jiných informací
-3. ** Uložit ** změny do OpenStreetMap
+1. **Stáhnout** aktuální mapové údaje z OSM
+2. **Upravit** pomocí satelitních snímků, GPS, poznámek a jiných informací
+3. **Uložit** změny do OpenStreetMap
 
 Stažení dat OSM
 --------------------

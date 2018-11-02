@@ -8,7 +8,7 @@ category: coordination
 
 # Humanitární mapování
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Tato příručka může být stažena jako [humanitarian_en.odt](/files/humanitarian_en.odt) nebo  [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Zkontrolováno 2015-09-18
@@ -23,9 +23,9 @@ Nepotřebujete, abyste si přečetli všechny tyto stránky dříve, než začne
 
 1. Potřebujete pečlivě přečíst pokyny k Tasking Manageru pro každý projekt, který by vám pomohl mapovat. Mohou se lišit, takže se ujistěte, že jste je přečetli a porozuměli jim. Existuje úplný popis použití [Tasking Manageru zde v rámci LearnOSM](/en/coordination/tasking-manager/) a zahrnuje jak získat živou pomoc od zkušeného mapovače.  
 
-2. Ujistěte se, že jste si dostatečně přiblížili mapu, takže můžete skutečně vidět, co byste měli sledovat - [to, a mnoho dalšího je vysvětleno zde.](/en/coordination/remote/)  
+2. Ujistěte se, že jste si dostatečně přiblížili mapu, takže můžete skutečně vidět, co byste měli sledovat - [to, a mnoho dalšího je vysvětleno zde.](/cs/coordination/remote/)  
 
-3. Budovy musí být obkresleny a tvar trasování by měl odpovídat tvaru budovy. [Tento oddíl LearnOSM](/en/coordination/remote-tracing/) to vysvětluje a také jak tvořit silnice a silniční síť.  
+3. Budovy musí být obkresleny a tvar trasování by měl odpovídat tvaru budovy. [Tento oddíl LearnOSM](/cs/coordination/remote-tracing/) to vysvětluje a také jak tvořit silnice a silniční síť.  
 
 Děkujeme, že jste si to přečetli, a doufáme, že budete potřebovat kratší čas, abyste se ujistili, že děláte důležité věci správně. Potřebujeme veškerou pomoc, kterou můžeme získat, a doufáme, že nám s tím můžete pomoci.  
 

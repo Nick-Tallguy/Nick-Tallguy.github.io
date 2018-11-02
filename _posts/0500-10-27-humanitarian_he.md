@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: מיפוי הומניטרי
 permalink: /he/coordination/humanitarian/
 lang: he
@@ -8,7 +8,7 @@ category: coordination
 
 # מיפוי הומניטרי
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Reviewed 2015-09-18

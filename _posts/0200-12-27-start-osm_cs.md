@@ -105,9 +105,9 @@ Přidání prvních bodů
 - Pokud kliknete na tlačítko Uložit, budete požádáni o poskytnutí popisu změn. Poté můžete klepnout na tlačítko "Uložit" a vaše dodatky budou uloženy do databáze OSM!
 
 
-iD Editor je fantastický způsob, jak snadno upravovat OpenStreetMap a můžete se dozvědět více o jeho použití v příručce [iD editoru] (/en/beginner/id-editor/). Můžete také přehrát [prohlídku] (http://www.openstreetmap.org/edit?editor=id#walkthrough=true), což je skvělý a interaktivní způsob, jak se seznámit s iD editorem.
+iD Editor je fantastický způsob, jak snadno upravovat OpenStreetMap a můžete se dozvědět více o jeho použití v příručce [iD editoru](/cs/beginner/id-editor/). Můžete také přehrát [prohlídku] (http://www.openstreetmap.org/edit?editor=id#walkthrough=true), což je skvělý a interaktivní způsob, jak se seznámit s iD editorem.
 
-V sekci [JOSM](/en/josm/) se však podíváme na samostatnou aplikaci, která nabízí mnoho dalších funkcí. Neváhejte pokračovat v hraní s iD. Jakmile budete mít více zkušeností, které přispívají k OSM, můžete si vybrat, který editor - iD nebo JOSM - se vám líbí víc.
+V sekci [JOSM](/cs/josm/) se však podíváme na samostatnou aplikaci, která nabízí mnoho dalších funkcí. Neváhejte pokračovat v hraní s iD editorem. Jakmile budete mít více zkušeností, které přispívají k OSM, můžete si vybrat, který editor - iD nebo JOSM - se vám líbí víc.
 
 Shrnutí
 ------- 

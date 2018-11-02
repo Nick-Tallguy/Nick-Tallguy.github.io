@@ -19,22 +19,22 @@ a shromažďovat informace, které je třeba umístit na mapu.
 ### Jste noví na OpenStreetMap a chcete vylepšit mapu přidáním dat?
 
 Pokud chcete začít a pak editovat mapová data, doporučujeme vám přečíst tyto příručky:
-- [Úvod](/en/beginner/introduction/) vám poskytne informace o projektu
-- [Začínáme](/en/beginner/start-osm/) vám ukáže, jak získat účet a jak spustit editor
-- v [iD editoru] (/en/beginner/id-editor/) se naučíte základy úpravy dat
+- [Úvod](/cs/beginner/introduction/) vám poskytne informace o projektu
+- [Začínáme](/cs/beginner/start-osm/) vám ukáže, jak získat účet a jak spustit editor
+- v [iD editoru](/cs/beginner/id-editor/) se naučíte základy úpravy dat
 
 
 ### Už víte, jak používat editor a chcete přispívat k mapování humanitární pomoci?
 
 Hlavním bodem je zjistit, jak je mapování v tomto kontextu koordinováno.
-- [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) a obecné informace o mapování [humanitární pomoci](/en/coordination/humanitarian/) poskytne nějaké základní informace
-- silným pomocníkem je [Tasking Manager] (/en/coordination/tasking-manager3 /), s jehož pracovním postupem byste se měli seznámit
+- [remote mapping guide](/cs/coordination/HOT-Remote-Response-Guide/) a obecné informace o mapování [humanitární pomoci](/cs/coordination/humanitarian/) poskytne nějaké základní informace
+- silným pomocníkem je [Tasking Manager](/cs/coordination/tasking-manager3 /), s jehož pracovním postupem byste se měli seznámit
 
 ### Chcete používat OpenStreetMap v mobilních zařízeních?
 
-K dispozici je celá kapitola věnovaná [mobilnímu mapování](/en/mobile-mapping/)
+K dispozici je celá kapitola věnovaná [mobilnímu mapování](/cs/mobile-mapping/)
 
 
 ### Jste obeznámeni s nástroji GIS a chcete získat přístup k surovým datům?
 
-Pokyny [kde získat data](/en/osm-data/getting-data/) a [jak používat Geofabrik a HOT Export](/en/osm-data/geofabrik-and-hot-export/) mohou poskytnout některé ukazatele, jak extrahovat data v různých formátech z databáze OSM.
+Pokyny [kde získat data](/cs/osm-data/getting-data/) a [jak používat Geofabrik a HOT Export](/cs/osm-data/geofabrik-and-hot-export/) mohou poskytnout některé ukazatele, jak extrahovat data v různých formátech z databáze OSM.

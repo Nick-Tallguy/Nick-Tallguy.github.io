@@ -13,7 +13,7 @@ category: josm
 > Zkontrolováno 13.7.2015  
 
 Nyní jsme zvládli všechny stavební bloky mapování s OpenStreetMap.
-V části [Mapování se smartphone, GPS nebo na papíře] (/en/mobile-mapping/) můžete vidět, jak používat mobilní nástroje pro zjišťování oblasti.  
+V části [Mapování se smartphone, GPS nebo na papíře] (/cs/mobile-mapping/) můžete vidět, jak používat mobilní nástroje pro zjišťování oblasti.  
 
 V této kapitole se opět vrátíme k JOSM a podíváme se na pár nových
 konceptů, kterým jsme se dosud nevěnovali.
@@ -78,13 +78,13 @@ jsou často nazývány jako "základní vrstvy". Datová vrstva OSM je vrstva, s
 
 Použití GPS dat a terénních dokumentů
 -------------------------------
-V kapitolách [Mapování se smartphone, GPS nebo s papírem](/en/mobile-mapping/) jsme viděli, jak shromažďovat data pomocí GPS
+V kapitolách [Mapování se smartphone, GPS nebo s papírem](/cs/mobile-mapping/) jsme viděli, jak shromažďovat data pomocí GPS
 a terénními podklady a jak je načíst do JOSM jako vrstvy.
 
 Jakmile jste jeden z těchto nástrojů prozkoumali, stále potřebujete
 přidat informace do OpenStreetMap digitálně.
 
-Provedete to stejným procesem, jaký jste se dozvěděli dříve - **stahování,
+Provedete to stejným procesem, jaký jste se dozvěděli dříve - **stáhnout,
 upravit, uložit**. Rozdíl spočívá v tom, že místo použití pouze satelitních
 snímků jako základní vrstvy, můžete také použít data GPS, terénní podklady,
 poznámky nebo kombinace toto všeho.

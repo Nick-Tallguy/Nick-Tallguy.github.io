@@ -12,7 +12,7 @@ iD Editor
 > Tato příručka může být stažena jako [beginner_id-editor_cs.odt](/files/beginner_id-editor_cs.odt) nebo [beginner_id-editor_cs.pdf](/files/beginner_id-editor_cs.pdf)  
 > Zkontrolováno 2016-03-30  
 
-Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tips section](/en/hot-tips/).  
+Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tipy](/cs/hot-tips/).  
 
 - TOC
 {:toc}
@@ -69,7 +69,7 @@ vložte vaši **URI snímku na FieldPaper**, který bude vypadat nějak takto: <
 Pro **zobrazení tras GPS z vašeho počítače** (GPX formát), chyťte a pusťte GPX soubor do iD editoru.  
 Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku níže, jsou  veřejně dostupné GPS trasy zobrazeny v různých barvách určujících směr pohybu.  
 ![osm gps traces][]  
-Pokud je [fotomapa posunutá](/en/josm/aerial-imagery), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
+Pokud je [fotomapa posunutá](/cs/josm/aerial-imagery), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
 
 - Klikněte na navigační tlačítka pro přesun snímků. Klepnutím na tlačítko Reset se vrátíte do výchozí pozice. ![image20][]  
 
@@ -165,7 +165,7 @@ Nebo můžete přidat vlastní značky kliknutím na položku **Všechny značky
 Další tutorialy
 ------------------
 
-Stránka našich externích zdrojů [Our external resources page](/en/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
+[Stránka našich externích zdrojů](/cs/resources/#iD) poskytuje odkazy na řadu video tutoriálů z různých zdrojů.
 
 Srovnání iD a JOSM
 ---------------  
@@ -184,7 +184,7 @@ Srovnání iD a JOSM
 - Pokud máte nespolehlivé internetové připojení nebo jste offline
 - Pokud používáte konkrétní schéma označování značkami (nebo máte vlastní předvolby)
 
-[^fieldpaper]: Zde je [sekce LearnOSM](/en/mobile-mapping/field-papers/) poskytující více informací o terénních dokumentech.
+[^fieldpaper]: Zde je [sekce LearnOSM](/cs/mobile-mapping/field-papers/) poskytující více informací o terénních dokumentech.
 
 Obsah této příručky je k dispozici jako [prezentace](/files/iD-editor-training.pptx)
 

@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Tasking Manager 3 Vytvoření projektu
-permalink: /en/coordination/tasking-manager3-project-admin/
+permalink: /cs/coordination/tasking-manager3-project-admin/
 lang: cs
 category: coordination
 ---
@@ -10,22 +10,22 @@ category: coordination
 
 > Tato příručka může být stažena jako samostatný modul: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) nebo [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
-**Tato příručka popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní verze, které používáte, vypadá jinak než to, který je zde popsáno, měli byste si prohlédnout [manuál pro předchozí verzi](/en/coordination/tasking-manager-project-admin)**
+**Tato příručka popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní verze, které používáte, vypadá jinak než to, který je zde popsáno, měli byste si prohlédnout [manuál pro předchozí verzi](/cs/coordination/tasking-manager-project-admin)**
 
 Obsah sekcí
 -------------
--  [Přihlášení ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
--  [Zahájení nového projektu - definujte oblast zájmu](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
--  [Vytvoření úkolu - rozdělte oblast zájmu](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
--  [Vytvoření projektu - zadejte, co uživatelé potřebují vědět](/en/coordination/tasking-manager3-project-admin/#create-the-project)
-    -  [Popis - první věc, kterou se uživatelé dozvědí o vašem projektu](/en/coordination/tasking-manager3-project-admin/#description)
-    -  [Instrukce - co by uživatelé měli dělat](/en/coordination/tasking-manager3-project-admin/#instructions)
-    -  [Metadata - kam projekt patří](/en/coordination/tasking-manager3-project-admin/#metadata)
-    -  [Prioritní oblasti - kde by uživatelé měli začít mapovat](/en/coordination/tasking-manager3-project-admin/#priority-areas)
-    -  [Podkladové fotografie - základ pro mapování](/en/coordination/tasking-manager3-project-admin/#imagery)
-    -  [Oprávnění - kdo může mapovat a ověřovat](/en/coordination/tasking-manager3-project-admin/#permissions)
-    -  [Užitečné tipy - jak byste měli vyplnit všechna tato pole](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publikujte - nezapomeňte na to, nebo nikdy nedokončíte práci](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+-  [Přihlášení ](/cs/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [Zahájení nového projektu - definujte oblast zájmu](/cs/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [Vytvoření úkolu - rozdělte oblast zájmu](/cs/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [Vytvoření projektu - zadejte, co uživatelé potřebují vědět](/cs/coordination/tasking-manager3-project-admin/#create-the-project)
+    -  [Popis - první věc, kterou se uživatelé dozvědí o vašem projektu](/cs/coordination/tasking-manager3-project-admin/#description)
+    -  [Instrukce - co by uživatelé měli dělat](/cs/coordination/tasking-manager3-project-admin/#instructions)
+    -  [Metadata - kam projekt patří](/cs/coordination/tasking-manager3-project-admin/#metadata)
+    -  [Prioritní oblasti - kde by uživatelé měli začít mapovat](/cs/coordination/tasking-manager3-project-admin/#priority-areas)
+    -  [Podkladové fotografie - základ pro mapování](/cs/coordination/tasking-manager3-project-admin/#imagery)
+    -  [Oprávnění - kdo může mapovat a ověřovat](/cs/coordination/tasking-manager3-project-admin/#permissions)
+    -  [Užitečné tipy - jak byste měli vyplnit všechna tato pole](/cs/coordination/tasking-manager3-project-admin/#instruction-notes)
+    -  [Publikujte - nezapomeňte na to, nebo nikdy nedokončíte práci](/cs/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
 Správce úloh (Tasking Manager) OpenStreetMap je nezbytný pro provádění mapathonu, správu aktivace HOT nebo vytvoření mapovacích úloh pro studentské mapovače. Tasking Manager rozděluje práci na zvládnutelné geografické bloky, což snižuje konflikty při editaci, zejména s velkým počtem distribuovaných mapovačů. Tasking Manager také pomáhá mapovat přesnost a kvalitu dat tím, že poskytuje konzistentní soubor instrukcí pro mapovače (např. 'Mapovat všechny cesty a budovy'). Stručně řečeno, Tasking Manager je o tom, jak nastavíte a nasměrujete pracovní postup pro dobrovolné mapování. Tento modul popisuje základní správu nástroje OSM Tasking Manager pro úspěšné události mapování. 
 

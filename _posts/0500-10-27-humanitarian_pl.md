@@ -8,7 +8,7 @@ category: coordination
 
 # Humanitarian Mapping
 
-![HotGuideLogo](http://hotosm.org/sites/default/themes/hot_theme/logo.png)
+![HotGuideLogo](/images/hot-logo.png)
 
 > Ten przewodnik może zostać pobrany jako [humanitarian_pl.odt](/files/humanitarian_pl.odt) lub [humanitarian_pl.pdf](/files/humanitarian_pl.pdf)  
 > Przejrzano 18.09.2015
