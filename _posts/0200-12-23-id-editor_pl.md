@@ -85,7 +85,7 @@ Aby dodać nowy punkt, kliknij na przycisku **Punkt**. ![image3][]{: height="24p
 - Zauważ, że został dodany nowy punkt. W tym samym czasie lewy panel zmienił się, aby pokazać formularz, w którym możesz wybrać właściwości obiektu. Kliknij **Teren szpitala**, aby oznaczyć punkt jako szpital.  
 ![image22][]  
 - Możesz używać formularzy, aby uzupełnić szczegółowe informacje o swoim punkcie. Możesz wypełnić nazwę szpitala, adres i/lub inne dodatkowe informacje. Zauważ, że każdy obiekt ma różne opcje, w zależności od tego, jaki tag wybierzesz w panelu edycji obiektu.  
-- Jeżeli popełnisz błąd taki, jak np. zła lokalizacja, to możesz przesunąć Twój punkt do nowej lokalizacji poprzez przytrzymanie lewego przycisku myszy na swoim punkcie i przeciąganie go. Lub, jeśli chcesz usunąć Twój punkt, kliknij go lewym przyciskiem myszy, aktywuj menu kontekstowe prawym przyciskiem myszy i kliknij przycisk wyglądający, jak kosz na śmieci. ![image23][]{: height="24px"}  
+- Jeżeli popełnisz błąd taki, jak np. zła lokalizacja, to możesz przesunąć Twój punkt do nowej lokalizacji poprzez przytrzymanie lewego przycisku myszy na nim i przeciąganie go. Lub, jeśli chcesz usunąć Twój punkt, kliknij go lewym przyciskiem myszy, aktywuj menu kontekstowe prawym przyciskiem myszy i kliknij przycisk wyglądający, jak kosz na śmieci. ![image23][]{: height="24px"}  
 "Punkt" utworzony w edytorze iD jest aktualnie samodzielnym "węzłem" z zestawem "tagów".  
 
 ### Rysowanie linii  
@@ -125,7 +125,7 @@ Aby dodać nowy wielokąt, kliknij na przycisku **Obszar**. ![image34][]{: heigh
 
 ### Rysowanie wielokątów złożonych
 
-Czasami możesz chcieć narysować wielokąt, który ma nie tylko zewnętrzny kontur, ale również jeden lub więcej konturów wewnętrznych. Pomyśl na przykład o budynkach z wewnętrznymi dziedzińcami lub jeziorach z wyspami. *Nie rysuj wszystkich tych krawędzi jedną linią*, tak żeby wewnętrzny kontur zwisał z zewnętrznego. Zamiast tego narysuj te kontury osobno, dołącz tagi tylko do zewnętrznego konturu, wybierz wszystkie kontury i naciśnij **c**, aby połączyć je w coś, co jest nazywane wielokątem złożonym.
+Czasami możesz chcieć narysować wielokąt, który ma nie tylko zewnętrzny kontur, ale również jeden lub więcej konturów wewnętrznych. Pomyśl na przykład o budynkach z wewnętrznymi dziedzińcami lub jeziorach z wyspami. *Nie rysuj wszystkich tych krawędzi jedną linią*, tak żeby wewnętrzny kontur był podłączony do zewnętrznego. Zamiast tego narysuj te kontury osobno, dołącz tagi tylko do zewnętrznego konturu, wybierz ponownie wszystkie i naciśnij **c**, aby połączyć je w coś, co jest nazywane wielokątem złożonym.
 
 ![create multipolygon][]
 
@@ -141,7 +141,7 @@ Kiedy (i jeżeli) chcesz zapisać swoje zmiany do OpenStreetMap, kliknij przycis
 
 - Wprowadź komentarz opisujący Twoje zmiany i kliknij **Prześlij**.  
 
-> Jeżeli edytujesz ten sam obiekt (punkt, linię lub obszar) w tym samym czasie, co ktoś inny, zobaczysz ostrzeżenie, że Twoje zmiany nie mogą być przesłane dopóki nie rozwiążesz **konfliktów** - wybierz, czyje zmiany zaakceptować i prześlij zmiany. *Rozwiązywanie konfliktów często pociąga za sobą akceptowanie zmian innych osób, co oznacza, że prawdopodobnie będziesz chciał wrócić do spornego obiektu i edytować go ponownie(**tym razem zapisz zmiany od razu po edycji, aby uniknąć ponownego konfliktu!**).*
+> Jeżeli edytujesz ten sam obiekt (punkt, linię lub obszar) w tym samym czasie, co ktoś inny, zobaczysz ostrzeżenie, że Twoje zmiany nie mogą być przesłane dopóki nie rozwiążesz **konfliktów** - wybierz, czyją edycję zaakceptować i prześlij zmiany. *Rozwiązywanie konfliktów często pociąga za sobą akceptowanie zmian innych osób, co oznacza, że prawdopodobnie będziesz chciał wrócić do spornego obiektu i edytować go ponownie(**tym razem zapisz zmiany od razu po edycji, aby uniknąć ponownego konfliktu!**).*
 
 Dodatkowe informacje i niestandardowe tagi
 ---------------------------------------

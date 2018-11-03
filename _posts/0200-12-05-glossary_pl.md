@@ -9,14 +9,14 @@ category: beginner
 Słowniczek 
 ============
 
->This glossary is in the process of being updated and has been compiled from numerous other sources including the [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) site and a guide written by Will Skora. Feel free to help us update it by reviewing [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) for how to contribute to the site. 
+>Ten słowniczek jest w trakcie ciągłego uzupełniania, a jest oparty na wielu innych źródłach uwzględniając stronę [Wiki OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) i przewodnik napisany przez Will'iego Skora. Możesz pomóc nam uaktualniać go przeglądając [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md), aby dowiedzieć się jak wesprzeć tą stronę. 
 > Przejrzano 18.07.2015  
 
-To easily search this Glossary, use the search feature within your browser, by holding down the control key and whilst doing so press the f key (usually described as **Ctrl+f**)  
+Aby łatwo przeszukiwać ten Słowniczek, użyj funkcji wyszukiwania wbudowanej w Twoją przeglądarkę, przytrzymując klawisz control i naciskając klawisz f (zazwyczaj opisywane jako **Ctrl+f**)  
 
-**KCG** : Kto, Co, Gdzie; Kto robi Gdzie, Kiedy?  
+**3W** : Kto, Co, Gdzie (ang. Who, What, Where); Kto, Co robi, Gdzie?  
 
-**AAR** : After Action Review;  A group activity to evaluate an exercise or activity to learn and improve.
+**AAR** : Po Akcji Przejrzeć (ang. After Action Review); Zespołowe działanie oceniania ćwiczenia lub aktywności w celu nauki i doskonalenia.
 
 **Activation (HOT term)** : Sometimes referred to as a crisis, disaster, or emergency response and generally characterized by a specific event and/or anticipated humanitarian impact with a relatively shorter time-frame associated with the response and recovery phases of the disaster cycle than a longer-term Humanitarian Project.
 
