@@ -68,7 +68,7 @@ OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העול�
 -  יש להקליד ססמה חדשה בתיבות הרביעית והחמישית. עליך להקליד את אותה הססמה בשתי התיבות. ססמה זו אינה חייבת להיות זהה לססמת הגישה לדוא״ל שלך.
 -   מוטב לך לרשום את שם המשתמש והססמה שלך ב־OSM. אלו יידרשו לך כדי להיכנס בהמשך.
 -   לאחר שהשלמת את כל התיבות, עליך ללחוץ על „הרשמה” בתחתית העמוד.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you should try a different name.
+- אם מתגלות תקלות, עשויה לקפוץ הודעת שגיאה. נא לוודא שכתובת הדוא״ל שלך זהה בשתי התיבות הראשונות ושהססמה שלך זהה בשתי התיבות התחתונות. אם התיבה השלישית מודגשת באדום, משמעות הדבר היא ששם המשתמש שלך כבר נבחר על ידי מישהו ושעליך להשתמש בשם אחר.
 -   Open a separate window or tab in your internet browser, and navigate to your email.  Common email sites are [mail.yahoo.com](http://mail.yahoo.com) and [www.gmail.com](http://www.gmail.com).
 - נא להקליד את כתובת הדוא״ל ואת הססמה של תיבת הדוא״ל שלך כדי לגשת לתיבת הדוא״ל שלך. לתשומת לבך פרטים אלו __אינם__ זהים לשם המשתמש והססמה שלך ב־OpenStreetMap.
 -  אם הכול הצליח במהלך ההרשמה שלך, אמורה להגיע אליך הודעה בדוא״ל מ־OpenStreetMap אל תיבת הדואר הנכנס שלך. עליך לפותח את ההודעה. היא אמורה להיראות כמו התמונה שלהלן. עליך ללחוץ על הקישור שנראה בערך ככה:
@@ -81,7 +81,7 @@ OpenStreetMap מכיל נתונים גאוגרפיים מכל רחבי העול�
 הוספת הנקודות הראשונות שלך
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
+- עכשיו כשנכנסת עם שם המשתמש והססמה שלך לאתר OpenStreetMap, באפשרותך להשתמש בעורך iD כדי להוסיף את הנקודה הראשונה שלך למפה.
 -   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
 -   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
 -   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
