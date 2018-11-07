@@ -18,69 +18,69 @@ Aby łatwo przeszukiwać ten Słowniczek, użyj funkcji wyszukiwania wbudowanej 
 
 **AAR** : Po Akcji Przejrzeć (ang. After Action Review); Zespołowe działanie oceniania ćwiczenia lub aktywności w celu nauki i doskonalenia.
 
-**Activation (HOT term)** : Sometimes referred to as a crisis, disaster, or emergency response and generally characterized by a specific event and/or anticipated humanitarian impact with a relatively shorter time-frame associated with the response and recovery phases of the disaster cycle than a longer-term Humanitarian Project.
+**Aktywacja (określenie HOT)** : Czasami odnoszone do kryzysu, katastrofy lub reakcji na zagrożenie; w ogólności określane przez konkretne wydarzenie i/lub spodziewany wpływ humanitarny przy relatywnie krótszych ramach czasowych reakcji i fazy odbudowy w cyklu katastrofy niż długoterminowe Projekty Humanitarne.
 
-**Activator(s)** : HOT volunteers who have completed training and are endorsed by an existing activator to perform roles during events. 
+**Aktywator(zy)** : Wolontariusze HOT, którzy ukończyli trening i zostali zaaprobowani przez istniejących aktywatorów, aby pełnić role podczas wydarzeń. 
 
-**AOI : Area of Interest** ; defined by activation coordinators in consultation with humanitarian partners, field teams and HOT community in wake of a disaster.
+**AOI : Obszar zainteresowania (ang. Area of Interest)** ; określany, w następstwie katastrofy, przez koordynatorów aktywacji w porozumieniu z partnerami humanitarnymi, drużynami terenowymi i społecznością HOT.
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: A group of changes that you made to OSM data. Once uploaded to OSM, your edits are instantly available to others if they download them. They may take a few minutes or several hours to appear on the map.
+**[Zestaw zmian](http://wiki.openstreetmap.org/wiki/Changeset)**: Grupa zmian, których dokonałeś w danych OSM. Po przesłaniu do OSM, Twoje edycje są od razu dostępne dla innych, którzy je pobiorą. Pojawiają się na mapie w czasie od kilku minut do kilku godzin.
 
-**COD : Common Operational Database** ; Comprises the geographical data for multiple humanitarian activations. These are mainly: transportation network (roads, bridges/fords, ports etc.), populated places (settlements), administrative boundaries, hydrology (rivers and other bodies of water) and hypsography (elevations/contours). May include buildings as an indirect source of population statistics.  Used by the United Nations Office for the Coordination of Humanitarian Affairs.
+**COD : Wspólna Operacyjna Baza Danych (ang. Common Operational Database)** ; Zawiera dane geograficzne dla wielu aktywacji humanitarnych. Są to głównie: sieć transportowa (drogi, mosty/brody, porty, itp.), miejsca zamieszkane (osady), granice administracyjne, hydrologia (rzeki i inne wody) i hipsografia (wysokość/kontury). Może zawierać budynki, jako pośrednie źródło statystyk populacji. Używana przez Biuro Narodów Zjednoczonych ds. Koordynacji Pomocy Humanitarnej.
 
-**DHN : Digital Humanitarian Network** ; organization which leverages digital network for humanitarian response.
+**DHN : Digital Humanitarian Network (pol. Cyfrowa Sieć Humanitarna)** ; organizacja, która wykorzystuje cyfrową się do celów pomocy humanitarnej.
 
-**Extract** : [OSM Data Overview](/en/osm-data/data-overview/) A large chunk of OSM data for a specific area (like a state, country, or geographic area).
+**Wyciąg** : [Przegląd danych OSM](/pl/osm-data/data-overview/) Duża porcja danych OSM dla określonego obszaru (takiego, jak stan, kraj lub obszar geograficzny).
 
-**[Field Papers](/en/mobile-mapping/field-papers/)**: is a web-based tool for easily creating a printable map atlas for anywhere in the world that you can print and add notes to. See [http://fieldpapers.org/](http://fieldpapers.org/) for more details. 
+**[Field Papers](/pl/mobile-mapping/field-papers/)**: internetowe narzędzie do łatwego tworzenia papierowych map każdego miejsca na świecie, w którym możesz dodać do nich notatki i je wydrukować. Zobacz [http://fieldpapers.org/](http://fieldpapers.org/), aby poznać więcej szczegółów. 
 
-**FOD : Fundamental Operational Database** ; data that is specific for to activation i.e. health facilities, schools, water facilities, flood extents, building damages, etc.
+**FOD : Zasadnicza Operacyjna Baza Danych (ang. Fundamental Operational Database)** ; dane, które są specyficzne dla aktywacji, np. placówki medyczne, szkoły, zaopatrzenie w wodę, zasięg powodzi, zniszczenia budynków. itp.
 
-**GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
+**GDACS : Światowy System Koordynacji i Ostrzegania o Katastrofach (ang. Global Disaster Alert and Coordination System)** ; GDACS, to wspólna struktura pod parasolem Organizacji Narodów Zjednoczonych. Składa się ona z menedżerów katastrof i ogólnoświatowego systemu informacji o katastrofach, a jej zadaniem jest wypełnienie luki informacyjnej i koordynacyjnej w pierwszej fazie poważnych katastrof. GDACS daje, w czasie rzeczywistym, dostęp do internetowego systemu informacji o katastrofach i powiązanych narzędzi do koordynacji.
 
-**[iD editor](/en/beginner/id-editor/)** - Web-based beginner-friendly OpenStreetMap editor designed by Mapbox. 
+**[Edytor iD](/pl/beginner/id-editor/)** - Internetowy, przyjazny dla początkujących edytor OpenStreetMap, zaprojektowany przez Mapbox. 
 
-**IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
+**IDP : Uchodźca wewnętrzny (ang. Internally Displaced Person)** ; osoba zmuszona do opuszczenia własnego domu, ale pozostająca w granicach swojego kraju.
 
-**[JOSM](https://josm.openstreetmap.de/)** pronounced "Jaws-um", OpenStreetMap editor written in Java. 
+**[JOSM](https://josm.openstreetmap.de/)** wymawiane "dżos-um", edytor OpenStreetMap napisany w Javie. 
 
-**[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: A data source that's displayed on a slippy map (often is thought of as a group of tiles stitched together).
+**[Warstwa](http://wiki.openstreetmap.org/wiki/Layer)**: Źródło danych, które jest wyświetlane na mapie (często jest pomyślane jako grupa połączonych razem kafelków).
 
-**NGO : Non Govermental Organisation / Agency** ; primarily a not for profit compulsory group of citizens who are organized on a local, national or international level.  
+**NGO : Organizacja Pozarządowa (ang. Non Govermental Organisation / Agency)** ; przede wszystkim niedochodowa grupa obywateli zorganizowanych na poziomie lokalnym, krajowym lub międzynarodowym.  
 
-**[Node](http://wiki.openstreetmap.org/wiki/Node)**: A node is one of the core elements in the OpenStreetMap data model. It consists of a single point in space defined by its latitude, longitude and node id. Nodes can be used to define standalone point features, but are more often used to define the shape or "path" of a way.
+**[Węzeł](http://wiki.openstreetmap.org/wiki/Node)**: Jeden z podstawowych elementów modelu danych OpenStreetMap. Składa się z jednego punktu w przestrzeni, zdefiniowanego przez szerokość i długość geograficzną oraz numer id węzła. Węzły mogą być użyte do określenia samodzielnych punktowych obiektów, ale częściej są wykorzystywane do definiowania kształtu lub przebiegu linii.
 
-**OCHA : United Nations Office for the Coordination of Humanitarian Affairs** ; OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies. OCHA also ensures there is a framework within which each actor can contribute to the overall response effort.
+**OCHA : Biuro Narodów Zjednoczonych ds. Koordynacji Pomocy Humanitarnej (ang. United Nations Office for the Coordination of Humanitarian Affairs)** ; OCHA jest częścią Sekretariatu Organizacji Narodów Zjednoczonych odpowiedzialną za łączenie podmiotów humanitarnych, tak aby zapewnić spójne reagowanie na zagrożenia. OCHA odpowiada również za strukturę, którą każdy podmiot może wesprzeć dla ogólnego wysiłku pomocy.
 
-**POC : Point of Contact** ; person(s) to engage with for any enquiries, questions, coordination, etc.
+**POC : Punkt Kontaktowy (ang. Point of Contact)** ; osoba(osoby) do zaangażowania w wywiady, pytania, koordynację, itp.
 
-**[Relation](http://wiki.openstreetmap.org/wiki/Relation)**: one of the core data elements that consists of one or more tags and also an ordered list of one or more nodes, ways and/or relations as members which is used to define logical or geographic relationships between other elements. For examples go to the [Types of Relations](http://wiki.openstreetmap.org/wiki/Types_of_relation) wiki page. 
+**[Relacja](http://wiki.openstreetmap.org/wiki/Relation)**: jeden z bazowych elementów danych, który składa się z jednego lub wielu tagów oraz uporządkowanej listy jednego lub większej ilości węzłów, linii i/lub relacji jako członków. Używane są do zdefiniowania logicznych lub geograficznych powiązań pomiędzy różnymi elementami. Aby zobaczyć przykłady przejdź do strony wiki o [Rodzajach relacji](http://wiki.openstreetmap.org/wiki/Types_of_relation). 
 
-**Render** : to convert from data into an image. Rendered data is a map.
+**Renderować** : konwertować dane na obraz. Wyrenderowane dane, to mapa.
 
-**SBTF : Stand-By Task-Force** ; an organization which coordinates digital volunteers into a responsive, trained, and prepared network ready to deploy in crises.
+**SBTF : Stand-By Task-Force (pol. Siły Specjalne w Gotowości)** ; organizacja, która koordynuje cyfrowych wolontariuszy w czułą, wytrenowaną i przygotowaną sieć, gotową do działania w czasie kryzysów.
 
-**Slippy Map** : What you see when you're on <http://www.openstreetmap.org> ! Consists of a layer and a software library that controls interactive features like zooming & panning.
+**Slippy Map** : Coś, co widzisz będąc na  <http://www.openstreetmap.org> ! Składa się z warstwy danych i biblioteki programowej, która odpowiada za działanie interaktywnych funkcji, jak przybliżanie i przesuwanie.
 
-**Stylesheet** : In most instances, it means a text file that's used to determine what features (which roads ?) are displayed, and how (what color should the road be ? Its width ? ) on a map.
+**Arkusz stylów** : Przeważnie oznacza plik tekstowy, który jest używany do określenia, jakie obiekty (które drogi?) i w jaki sposób (jakiego koloru powinna być droga? jaką mieć szerokość?) są wyświetlane na mapie.
 
-**Tag**: Tags describe describe a point, line or polygons. Each tag contains a key and value (written in OSM as 'key=value'). For example, highway=residential and name=Woodland Avenue. Initially mentioned in Learnosm within [iD section](/en/beginner/id-editor/#basic-editing-with-id) A Point, line, or polygon usually have more than one tag on them. Sometimes choosing the right tag is confusing. [Taginfo](https://taginfo.openstreetmap.org/) helps you by showing statistics about which tags are actually in the database, how many people use those tags, where they are used and so on. It also gets information about tags from the wiki and from other places.
+**Tag**: Tagi opisują punkt, linię lub wielokąt. Każdy tag zawiera klucz i wartość (zapisywane w OSM jako 'klucz=wartość'). Na przykład, highway=residential i name=Aleja Leśna. Krótko wspomniane w LearnOSM w [rozdziale o iD](/pl/beginner/id-editor/#basic-editing-with-id). Punkt, linia lub wielokąt zazwyczaj mają więcej niż jeden tag. Czasami wybieranie właściwych tagów może być kłopotliwe. Pomoże Ci strona [Taginfo](https://taginfo.openstreetmap.org/) pokazująca statystyki tego, jakie tagi są aktualnie w bazie danych, ilu ludzi ich używa, gdzie są wykorzystywane, itd. Pobiera też informacje o tagach z wiki i innych miejsc.
 
-**TIGER** : A data source from the US Census Bureau that was imported into OSM, in 2007. This is the source for most data in the USA in OSM.
+**TIGER** : Źródło danych z US Census Bureau, które zostało zaimportowane do OSM w 2007 roku. Jest to źródło większości danych OSM w USA.
 
-**Tile** : a small image (256x256 pixels ) of rendered map data.
+**Kafelek** : mały obraz (256x256 pixeli) wyrenderowanych danych mapy.
 
-**[Way](http://wiki.openstreetmap.org/wiki/Way)**: an ordered list of nodes which normally also have at least one tag or is included within a Relation. A way can have between 2 and 2,000 nodes, although it's possible that faulty ways with zero or a single node exist. A way can be open or closed.  
+**[Linia](http://wiki.openstreetmap.org/wiki/Way)**: uporządkowana lista węzłów, która normalnie posiada też przynajmniej jeden tag lub jest częścią relacji. Linia może mieć od 2 do 2000 węzłów, jednak jest możliwe istnienie błędnych linii bez węzłów lub z jednym węzłem. Linia może być otwarta lub zamknięta.  
 
-* A closed way ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) is one whose last node on the way is also the first on that way. A closed way may be interpreted either as a closed polyline, or an area, or both. 
+* Zamknięta linia ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png), to taka, w której ostatni węzeł jest zarówno pierwszym. Zamknięta linia może być interpretowana jako zamknięta łamana, obszar lub oba jednocześnie. 
 
-* An open way ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) is way describing a linear feature which does not share a first and last node. Many roads, streams and railway lines are open ways.
+* Otwarta linia ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png), to linia opisująca obiekt liniowy, której początkowy i końcowy węzeł nie są połączone. Wiele dróg, strumieni i linii kolejowych, to otwarte linie.
  
-### Note on OSM Editing Terms:
+### Uwaga do słówek dotyczących edycji OSM:
 
-Many terms to describe map features in OSM are used in dialects of British English and spelled as such. Like neighbourhood.
+Wiele wyrażeń do opisywania obiektów mapy w OSM jest wyrażonych w brytyjskim angielskim i zapisywanych jako takie. Przykładem może być "neighbourhood".
 
-**Motorway**: British English term for the most major highway, also considered as 'freeway'
+**Motorway (pol. autostrada)**: określenie w brytyjskim angielskim dla najbardziej głównej drogi, określanej również jako 'freeway'.
 
-**Pitch** : used to describe a playing field. Including tennis courts, basketball courts, baseball diamonds, or football fields.
+**Pitch (pol. boisko)** : używane do określenia pola do gry. Uwzględniając korty tenisowe, boiska do koszykówki, boiska bejsbolowe i boiska piłkarskie.

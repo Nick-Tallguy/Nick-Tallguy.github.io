@@ -1,46 +1,46 @@
 ---
 layout: doc
-title: Rozpoczynanie z Menedżerem zadań - edytor iD
+title: Rozpoczynanie z Tasking Managerem - edytor iD
 permalink: /pl/hot-tips/getting-started/
 lang: pl
 category: hot-tips
 ---
 
-Starting with a Tasking Manager - iD editor
+Rozpoczynanie z Tasking Managerem - edytor iD
 ============
 
 - TOC
 {:toc}
 
-This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), but the principles are the same for all versions.  
+Ten przewodnik jest napisany dla [HOT Tasking Manager](http://tasks.hotosm.org/), ale zasady są takie same dla wszystkich wersji.  
 
-The Essentials
+Podstawy
 --------------
 
 ![TM Start][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
-1. Go to a Tasking Manager (TM) site, for example <http://tasks.hotosm.org/>. Using your <http://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
-2.  Start on a project designed for new mappers - these are often 'buildings only' projects.  
-3.  Read the **Description** and **Instructions** and make sure you understand what is needed before you start. 
-4.  The mapping is checked by 'validators' who often send messages giving valuable feedback on your contributions.  
+1. Przejdź do strony Tasking Managera (TM), na przykład <http://tasks.hotosm.org/>. Użyj swojego loginu <http://www.openstreetmap.org>, autoryzuj Tasking Managera do dostępu do swojego konta OpenStreetMap.  
+2. Rozpocznij od projektu przewidzianego dla nowych maperów - są to zazwyczaj projekty 'tylko budynki'.  
+3. Przeczytaj **Opis** i **Wskazówki** oraz upewnij się zanim zaczniesz, że rozumiesz, co jest potrzebne. 
+4. Mapowanie jest sprawdzane przez 'weryfikatorów', którzy często wysyłają wiadomości z wartościowymi opiniami o Twojej pracy.  
 ![TM-start-at-top]{: height="100px"}  
-**Tip -** Many validators start working at the top of the map and work down - you are more likely to get valuable feedback at an early stage if you use the map & select a square as close to the top as you can. (The yellow squares have been marked as complete, and the green ones have been marked as complete and then validated). Click on a white or pale grey square - more info at [Guide to the Tasking Manager](/en/coordination/tasking-manager/).  
-5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
-6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
-4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
-5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+**Wskazówka -** Wielu weryfikatorów zaczyna pracę od góry mapy i posuwa się w dół - jest większa szansa, że otrzymasz wartościową opinię na wcześniejszym etapie jeżeli wybierzesz kwadrat tak blisko góry, jak tylko się da. (Żółte kwadraty zostały oznaczone jako gotowe, a zielone jako kompletne i później zweryfikowane). Kliknij na białym lub jasnoszarym kwadracie - więcej informacji w [Przewodniku do Tasking Managera](/pl/coordination/tasking-manager/).  
+5. Zacznij mapować - możesz chcieć przeczytać więcej sekcji w tym rozdziale z poradami od HOT przed kontynuowaniem. Mogą Ci pomóc rozdziały z wskazówkami HOT o [okrągłych budynkach](/pl/hot-tips/tracing-round-buildings/) lub [budynkach z kątami prostymi](/pl/hot-tips/tracing-rectangular-buildings/).  
+6. Zapisuj regularnie - zobacz [porady HOT - zapisywanie](/pl/hot-tips/saving/)  
+7. Bądź cierpliwy - czasami jest niedobór weryfikatorów, a wielu nowych maperów chce opinii! Kontynuuj mapowanie, ale jeśli uzmysłowisz sobie, że popełniłeś błąd (wszyscy je robimy!), sprawdź, czy możesz go poprawić lub poproś o pomoc.  
+8. Jeśli chcesz wiedzieć, jak dokładnie określić kwadrat, nad którym pracujesz, aby wysłać wiadomość lub uzyskać natychmiast komentarz, przejdź do [rozdziału LearnOSM o Tasking Managerze](/pl/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
 
-See also  
+Zobacz również  
 ---------
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
-*Subtitles available in some languages*  
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Samouczki wideo Tasking Managera")  
+*Napisy dostępne w niektórych językach*  
 
 
 [TM-start-at-top]:/images/hot-tips/TM-start-at-top-1.png
-[TM Start]:/images/hot-tips/tm_start.gif "Tasking Manager selecting a square and loading into the iD editor"
+[TM Start]:/images/hot-tips/tm_start.gif "Wybieranie kwadratu w Tasking Manager i wczytywanie go do edytora iD"
 [keymon]:/images/hot-tips/keymon.png
 [mark task as done]:/images/hot-tips/mark-task-as-done.png
-[OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
+[OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Samouczki wideo Tasking Managera"

@@ -11,9 +11,9 @@ nosearch: true
 Porady HOT - Rozpoczynanie pracy dla nowych maperów z użyciem iD i Tasking Managera
 ================
 
-This series of short guides is aimed at volunteers helping to map for Aid Agencies using a Tasking Manager, but the principles are the same for all OpenStreetMap mapping. Mapping is easy,  but let's get it right and keep improving the map!
+Ta seria krótkich przewodników jest kierowana do wolontariuszy pomagających mapować dla Agencji Pomocy używając Tasking Managera, ale zasady są takie same dla całego mapowania w OpenStreetMap.  Mapowanie jest łatwe, ale rób to dobrze i poprawiaj mapę!
 
-Use the menu to choose the order that suits you.  
+Użyj menu, aby wybrać kolejność, która Ci odpowiada.  
 
 Zobacz również  
 ---------
@@ -22,21 +22,21 @@ Zobacz również
 *Napisy dostępne w niektórych językach*  
 
 ![iD help]{: height="400px"}  
-iD help menu - always available when you are editing which includes an optional walkthrough.    
+Menu pomocy iD - zawsze dostępne, kiedy edytujesz; zawiera opcjonalny samouczek.    
   
 [lista skrótów klawiaturowych iD na wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
 [Wiki OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page)  
 
-[Blake Girardot's guide to West Africa Mapping](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[Przewodnik Blake'a Girardot'a do mapowania zachodniej Afryki](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-If you are new to OpenStreetMap the following modules of our beginner section will be useful to you;  
+Jeżeli jesteś nowy w OpenStreetMap, to poniższe moduły naszego rozdziału dla początkujących będą Ci przydatne;  
 
 -  [Wstęp do mapowania](/pl/beginner/introduction/)  
 -  [OpenStreetMap.org](/pl/beginner/start-osm/)
 
 
 
-[Logo HOT z napisem]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
+[HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
+[iD help]:/images/hot-tips/iD-help.png "Menu pomocy iD - zawsze dostępne, kiedy edytujesz; zawiera opcjonalny samouczek."
 [one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team Jednominutowe samouczki wideo"

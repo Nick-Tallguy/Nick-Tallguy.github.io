@@ -1,18 +1,18 @@
 ---
 layout: doc
-title: Wzmocnienie kolorów lub tła - edytor iD
+title: Poprawianie kolorów lub tła - edytor iD
 permalink: /pl/hot-tips/enhance/
 lang: pl
 category: hot-tips
 ---
 
-Wzmocnienie kolorów lub tła - edytor iD
+Poprawianie kolorów lub tła - edytor iD
 ============
 
 - TOC
 {:toc}
 
-Introduction
+Wprowadzenie
 ------------
 
 This module covers the changing of the brightness of the satellite imagery which may make it simpler to pick out details, but also covers installation of the Stylish extension on the Firefox and Chrome web browsers, which allows the installation of different colour schemes.  
