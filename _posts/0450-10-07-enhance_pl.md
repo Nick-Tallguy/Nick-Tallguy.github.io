@@ -15,58 +15,58 @@ Poprawianie kolorów lub tła - edytor iD
 Wprowadzenie
 ------------
 
-This module covers the changing of the brightness of the satellite imagery which may make it simpler to pick out details, but also covers installation of the Stylish extension on the Firefox and Chrome web browsers, which allows the installation of different colour schemes.  
+Ten moduł opisuje zmianę jasności podkładu satelitarnego, co ułatwia dostrzeżenie szczegółów, a także instalację rozszerzenia Stylish do przeglądarek Firefox i Chrome, które pozwala na instalowanie różnych schematów kolorystycznych.  
 
-Changing the colours of traced buildings may make it easier when working in an area with red roofed buildings, or another red backround.  
+Zmiana kolorów odwzorowanych budynków może ułatwić pracę, kiedy działasz w terenie z budynkami o czerwonych dachach lub innym czerwonym tłem.  
 
-Other extensions are also available. 
+Są też dostępne inne rozszerzenia. 
 
-Changing the brightness of the satellite imagery
+Zmiana jasności podkładu satelitarnego
 --------------------------------------------------
 
 ![background][]
 
-Installing the Stylish extension in Firefox  
+Instalowanie rozszerzenia Stylish w Firefoxie  
 -------------------------------------------
 
-1.  Click on the menu.  
+1. Kliknij na menu.  
 ![Stylish-1]{: height="100px"}
 
-2.  Select "Add-ons"  
+2. Wybierz "Dodatki".  
 ![Stylish-2]{: height="348px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. Wyszukaj Stylish - pierwszy na liście ze zrzutu ekranu.  
 ![Stylish-3][]
 
-4.  Install & restart.  
+4. Zainstaluj i uruchom ponownie.  
 ![Stylish-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.
+5. Wejdź na <http://www.openstreetmap.org/> i kliknij na ikonie Stylish, która pojawi się na pasku menu. Wybierz dowolne przydatne rozszerzenie, a następnie zainstaluj je i aktywuj używając menu z ikonki Stylish.
 ![Stylish-5][]
 
-6.  Purple traced buildings  
+6. Fioletowe obrysy budynków.  
 ![Stylish-6][]
 
 
-Installing the Stylish extension in Chrome  
+Instalowanie rozszerzenia Stylish w Chromie  
 -------------------------------------------
 
-1.  Click on menu and **Settings**.  
+1. Kliknij na menu, a następnie **Ustawienia**.  
 ![Stylish-chrome-1]{: height="300px"}
 
-2.  Select **Extensions** and **Get more extensions**  
+2. Wybierz **Rozszerzenia** i **Pobierz więcej rozszerzeń**.  
 ![Stylish-chrome-2]{: height="248px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. Wyszukaj Stylish - pierwszy na liście ze zrzutu ekranu.  
 ![Stylish-chrome-3][]
 
-4.  Install.  
+4. Zainstaluj  
 ![Stylish-chrome-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon. You may have to select **Find more styles for this site** to find all of the available styles.  
+5. Wejdź na <http://www.openstreetmap.org/> i kliknij na ikonie Stylish, która pojawi się na pasku menu. Wybierz dowolne przydatne rozszerzenie, a następnie zainstaluj je i aktywuj używając menu z ikonki Stylish. Możesz wybrać też **Znajdź więcej stylów dla tej strony**, aby znaleźć wszystkie dostępne style.  
 ![Stylish-chrome-5][]
 
-6.  Purple traced buildings is one of the options available. It may be worth checking back at intervals as more styles are developed.   
+6. Fioletowe obrysy budynków są jedną z dostępnych opcji. Warto sprawdzać co jakiś czas, czy nie pojawiły się nowe style.   
 ![Stylish-chrome-6][]
 
 

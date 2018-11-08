@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tagging - iD editor
+title: Tagowanie - edytor iD
 permalink: /pl/hot-tips/tagging/
 lang: pl
 category: hot-tips
 ---
 
-Tagging - iD editor
+Tagowanie - edytor iD
 ============
 
 - TOC
@@ -14,52 +14,52 @@ Tagging - iD editor
 
 ![tagging][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
-Why Tags are needed
+Dlaczego tagi są potrzebne
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+Bez tagów element nie ma żadnego znaczenia, więc nie pojawi się na mapie. Tag tłumaczy komputerowi, czym dany obiekt jest. Jeżeli znajdziesz coś bez tagów, dodaj je. Gdy element jest otagowany, to będzie miał kolor, jak na przykład, czerwony odcień otagowanego budynku na rysunku powyżej. **Jeżeli jest biały, to sprawdź, dlaczego i dodaj tag, jeśli go brakuje**.  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+Autor projektu w Tasking Managerze nie wie, jakiego edytora będzie używał dany maper, więc wskazówki zazwyczaj mogą mieć komentarz podobny do tego;  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+-  *Budynki, to zazwyczaj okrągłe chatki i powinny być otagowane jako **Budynki / Budynek (ogólny)** w edytorze iD lub **building=yes** w JOSM.*  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+Jeżeli potrzebujesz sprawdzić, jakie tagi ma dany element, kliknij go, a następnie przewiń do samego końca panel tagowania i zobacz w części **Wszystkie tagi**.
 
-### Tags - a brief explanation ###
+### Tagi - krótkie wyjaśnienie ###
 
-If you select an item and click on **All tags** you will see a label such as  
+Jeżeli wybierzesz element i klikniesz na **Wszystkie tagi**, to zobaczysz etykietę taką, jak np.  
 
 **building    yes**  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+To jest najbardziej podstawowy tag dla budynku i jest zalecany, kiedy rysujesz budynki z zadań w Tasking Managerze.  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
+Jeżeli wiesz dokładnie, co to jest za budynek, to użyj bardziej szczegółowego tagu, jak;  
   **building   house**  
   **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+lub jednego z wielu innych. Bardziej szczegółowe informacje o tagowaniu budynków znajdziesz na <https://wiki.openstreetmap.org/wiki/Buildings>.  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+Więcej informacji o tagowaniu dróg znajdziesz w [rozdziale Drogi porad HOT](/pl/hot-tips/highways/).  
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### Relations - takie, jak budynki z dziedzińcami lub wyspy na rzece ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+Niektóre obiekty mają swoje tagi w **Relacji** zamiast na samym sobie. Jeżeli widzisz na swoim ekranie coś opisanego jako relacja, to będąc początkującym najlepiej to 'zostawić'.  
 
-For more information on relations (**not a beginner subject**) see;  
+Więcej informacji o relacjach (**temat nie dla nowicjuszy**) znajdziesz w;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
+[LearnOSM - JOSM - Relacje](/pl/josm/josm-relations/), gdzie są wyjaśnione relacje, ale przy użyciu innego edytora OSM lub  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
-See also  
+Zobacz również  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+Bardziej obszerną listę tagów znajdziesz na <https://wiki.openstreetmap.org/wiki/Map_Features>  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - Jednominutowe samouczki wideo")  
+*Napisy dostępne w niektórych językach*  
 
 
 
@@ -68,4 +68,4 @@ For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/M
 [tagging]:/images/hot-tips/tagging.gif
 [keymon]:/images/hot-tips/keymon.png
 [tagged-building]:/images/hot-tips/tagged-building.png
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team Jednominutowe samouczki wideo"
