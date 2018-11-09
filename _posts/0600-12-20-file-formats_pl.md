@@ -12,20 +12,20 @@ Formaty plików
 > Ten przewodnik może zostać pobrany jako [File_Formats_pl.odt](/files/File_Formats_pl.odt) lub [File_Formats_pl.pdf](/files/File_Formats_pl.pdf)  
 > Przejrzano 05.09.2016
 
-Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
+Jak dla każdego innego typu danych, tak i dla danych geograficznych są różne sposoby na przechowywanie ich na komputerze. Mogą być zapisane w bazie danych, która jest specjalnym systemem przechowywania i przetwarzania danych i w rzeczywistości jest specjalnie zaprojektowany system bazodanowy do przechowywania danych geograficznych. Mogą być również przechowywane w tradycyjnych plikach komputerowych, które oferują wiele różnych formatów dla danych geograficznych.  
 
-In this section we'll go through a few ways of storing geographic data, explain how they work and how they're typically used.  
+W tym rozdziale przyjrzymy się kilku sposobom przechowywania danych geograficznych wyjaśniając, jak one działają i jakie jest ich typowe użycie.  
 
-.OSM Files
+Pliki .OSM
 -----------
 
-The **.osm** file format is specific to OpenStreetMap. You won't come across it elsewhere. If you have ever downloaded data using JOSM and saved it as a file, you may have noticed that the file is saved with the extension **.osm**. If you are a GIS user, you may also have noticed that it is not easy to open these files using software such as QGIS.  
+Format plików **.osm** jest specyficzny dla OpenStreetMap. Nie wykorzystasz go nigdzie indziej. Jeżeli kiedykolwiek pobierałeś dane używając JOSM i zapisałeś je jako plik, to być może zauważyłeś, że plik został zapisany z rozszerzeniem **.osm**. Jeżeli jesteś użytkownikiem GIS, to mogłeś też zauważyć, że nie jest łatwo otworzyć te pliki używając oprogramowania takiego, jak QGIS.  
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that many geographic data formats predate the modern internet era, and are designed for quick access and querying like one would query a database. OSM data, on the other hand is designed to be easily sent and received across the internet in a standard format. Hence, **.osm** files are coded in XML, and contain geographic data in a structured, ordered format. A simple **.osm** file would look like this if viewed in a text editor:  
+Więc dlaczego OSM przechowuje dane w formacie, którego nikt inny nie może użyć? Odpowiedzią jest fakt, że wiele formatów danych geograficznych powstało przed erą internetu i są zaprojektowane do szybkiego dostępu i odpytywania tak, jak baza danych. Z kolei dane OSM są zaprojektowane do łatwego przesyłania przez internet w standardowym formacie. Dlatego pliki **.osm** są kodowane w XML i zawierają dane geograficzne w usystematyzowanym i uporządkowanym formacie. Prosty plik **.osm**, otwarty w edytorze tekstu, może wyglądać tak, jak ten:  
 
 ![Sample OSM XML file][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you download data in JOSM, but using these files for analysis and map design is not easy. Hence you are better off converting the data into another format, or getting it from a service that converts the data for you.  
+Pozyskiwanie danych w formacie **.osm** jest proste - w rzeczywistości robisz to za każdym razem, kiedy pobierasz dane w JOSM, ale używanie tych danych do analizowania i projektowania mapy nie jest łatwe. Dlatego lepiej przekonwertować dane do innego formatu lub pobrać z usługi, która skonwertuje je dla Ciebie.  
 
 > Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
 

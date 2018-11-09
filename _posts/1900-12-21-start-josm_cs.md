@@ -62,8 +62,8 @@ Instalovat JOSM
   Start Menu v levém dolním rohu počítače a kliknutím na tlačítko
   aplikace JOSM.
 - Může se vám zobrazit okno, které se vás zeptá, zda chcete aktualizovat
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
+  software. Nemusíte ho aktualizovat, protože je nový. zmáčkněte
+  tlačítko "Zrušit". Pokud to nikdy nechcete vidět
   okno s informací znovu, zaškrtněte políčko v dolní části před stisknutím tlačítka "Zrušit".
 - Když se spustí JOSM, vypadá to takto:
 
@@ -112,8 +112,8 @@ Naučte se základní mapování s JOSM
 
   ![Sample file][]
 
-- You will use these data in order to try various editing techniques.
-  *You must however never upload these fictitious data to the database.*
+- Tyto údaje použijete k vyzkoušení různých technik úprav.
+  *Tyto fiktivní data však nikdy nesmíte nahrát do databáze.*
 
 ### Základní operace
 
@@ -244,20 +244,20 @@ Nakreslete vlastní mapu
 - Když skončíte, měli byste mít svou vlastní mapu podobnou
   ukázkové mapě, kterou jsme otevřeli v sample.osm.
 
-## Remove the sample layer
+## Odstranit vzorovou vrstvu
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features. 
+Jakmile se budete cítit pohodlně s těmito základními technikami úprav, budete chtít
+zaměřit svou pozornost na mapování skutečných funkcí. 
 
-*It is very important that you first remove the layer with the sample data. 
-These data are fictitious and must not be uploaded to the OpenStreetMap 
-database (newer JOSM releases automatically prevent this).*
+* Je velmi důležité, abyste nejprve odstranili vrstvu se vzorovými daty. 
+Tato data jsou fiktivní a nesmí být nahrána do OpenStreetMap  
+databáze (novější verze JOSM tomu automaticky zabrání).*
 
-In the Layers window on the upper right of the screen select the sample.osm layer. 
-Then click on the trash can icon in the lower right corner of that window. 
-Alternatively you can choose delete from the context menu of the layer. 
-In order to continue editing you first need to download real data. 
-This will be explained in the next chapter.
+V okně Vrstvy v pravé horní části obrazovky vyberte vrstvu sample.osm. 
+Potom klikněte na ikonu koše v pravém dolním rohu okna. 
+Alternativně můžete vybrat smazání z kontextové nabídky vrstvy. 
+Chcete-li pokračovat v úpravách, musíte nejprve stáhnout skutečná data. 
+To bude vysvětleno v následující kapitole.
 
 Shrnutí
 -------
