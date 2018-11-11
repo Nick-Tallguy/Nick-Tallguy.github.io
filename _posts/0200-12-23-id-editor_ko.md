@@ -63,7 +63,7 @@ iD 편집기 사용자 인터페이스
 **명도**를 조절하려면 박스 4개 중 하나를 누르세요. 왼쪽부터 25%, 50%, 75%, 100%입니다. ![image16][]{: height="24px"}  
 원하는 이미지 제공자에 따라 **배경을 변경**할 수도 있습니다(기본값은 Bing 항공 이미지).  
 
-**사용자 지정**을 눌러서 직접 지도 타일을 추가할 수도 있습니다. 예를 들어, **현장 조사 지도를 추가**[^fieldpaper]하고 싶다면, **사용자 지정**을 누르고 돋보기(검색) 아이콘을 눌러서 다음과 같이 창을 여세요.  
+**사용자 지정**을 눌러서 직접 지도 타일을 추가할 수도 있습니다. 예를 들어, **Field Paper(현장 조사 지도)를 추가**[^fieldpaper]하고 싶다면, **사용자 지정**을 누르고 돋보기(검색) 아이콘을 눌러서 다음과 같이 창을 여세요.  
 ![image17][]   
 그리고 다음 URL처럼 생긴 **FieldPaper 스냅샷 URL**을 입력하세요. <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 **컴퓨터에 있는 GPS 궤적(GPX 포맷)을 띄우려면** GPX 파일을 iD 편집기에 드래그해서 놓으세요.  
@@ -110,83 +110,83 @@ iD 편집의 기초
 
 사실 iD 편집기에서 만든 "선"은 "태그"로 이루어진 집합을 달고 있는 독립된 "웨이"입니다.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+>**삭제**할 때 주의할 점: 일반적으로 지도 개선만 하려고 할 때 다른 사람이 만든 것을 삭제하는 것은 피해야 합니다. 당신이 한 실수는 삭제할 수 있지만, 다른 사람이 기여한 것을 고쳐야 할 때는 개체를 '조정'해야 합니다. 이는 OSM 데이터베이스에 있는 항목의 역사를 보존하는 데 중요하며, 동료 기여자들을 존중하는 방법입니다. 만약 정말로 삭제해야 된다고 생각한다면, 우선 이전 기여자나 OSM 메일링 리스트의 회원들 중 1명에게 물어보세요.
 
-### Drawing Shapes (Polygons)
+### 도형(다각형) 그리기
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+새로운 다각형을 추가하려면 **공간** 버튼을 누르세요. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- 마우스 커서가 더하기(+) 모양으로 변할 것입니다. 배경 이미지를 토대로 건물 테두리를 따라 그리세요.  
+- 당신이 부여한 속성에 따라 당신이 그린 다각형의 색이 바뀐다는 것을 알아차리게 될 것입니다.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- 다각형을 선택했을 때와 마우스 우클릭 버튼으로 창을 띄웠을 때 사용할 수 있는 도구들은 선을 선택했을 때와 비슷합니다.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+사실 iD 편집기에서 만든 "다각형"은 태그가 붙어 있는 "닫힌 웨이"입니다.
 
-### Drawing Multipolygons
+### 다중 다각형 그리기
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+때때로 외부 테두리 하나로는 부족하고, 내부 테두리가 필요한 다각형을 그려야 할 때가 있습니다. 건물을 안마당이라고, 호수를 섬이라고 생각하세요. 이러한 다각형을 외부 테두리에서 내부 테두리로 이어지도록 선 하나만으로 표현하지 마세요. 각각 테두리를 분리해서 그린 다음에, 태그를 외부 테두리에만 붙이고, 모든 테두리를 선택해서 **c**를 눌러 테두리를 결합하세요. 이것이 바로 다중 다각형입니다.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+새롭게 만든 다중 다각형의 테두리 중 하나를 선택하면 왼쪽에서 다중 다각형 전체의 속성을 볼 수 있습니다.
 
 ![part of multipolygon][]
 
-Saving Your Changes
+변경 내역 저장하기
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+OpenStreetMap에 당신이 편집한 것들을 저장하고 싶다면, **저장** 버튼을 누르세요. 왼쪽에 업로드 창이 뜰 것입니다.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- 자신이 무엇을 편집했는지 써 주고 **저장** 버튼을 누르세요.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> 만약 동시에 여러 사람이 같은 지물(점, 선, 영역)을 편집했을 때에는, **충돌**을 해결하기 전까지는 편집 내역을 업로드할 수 없다는 경고를 받습니다. 여러 사람의 편집 내역 중 업로드할 것을 고르세요. 충돌을 해결할 때는 보통 다른 사람의 편집 내역을 포함하게 되어 있습니다. 이 경우 충돌이 발생한 지물로 되돌아가 다시 편집하길 원할 것입니다(**다시 충돌이 생기는 것을 방지하기 위해 편집하고 나서 바로 저장하세요!**).
 
-Additional Information and Custom Tags
+추가 정보와 추가하고 싶은 태그
 ---------------------------------------
 
-When you are editing an object, you will see a strip of icons at the bottom of the attribute panel. You can add additional information by clicking these icons:
+개체를 편집할 때, 속성 창 아래쪽에 아이콘 목록이 보일 것입니다. 이 아이콘들을 클릭해서 추가 정보를 넣을 수 있습니다.
 
-- Add elevation ![image37][]{: height="24px"}  
-- Add notes ![image38][]{: height="24px"}  
-- Add contacts / phone number ![image39][]{: height="24px"}  
-- Add source tag ![image40][]{: height="24px"}  
-- Add website ![image41][]{: height="24px"}  
-- Add accessibility information ![image42][]{: height="24px"}  
-- Add Wikipedia link ![image43][]{: height="24px"}  
+- 고도 추가 ![image37][]{: height="24px"}  
+- 참고 추가 ![image38][]{: height="24px"}  
+- 연락처·전화번호 추가 ![image39][]{: height="24px"}  
+- source(출처) 태그 추가 ![image40][]{: height="24px"}  
+- 웹 사이트 추가 ![image41][]{: height="24px"}  
+- 접근성 정보 추가 ![image42][]{: height="24px"}  
+- 위키피디아 링크 추가 ![image43][]{: height="24px"}  
 
-Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+아니면, **모든 태그**를 클릭해서 추가하고 싶은 태그를 추가할 수도 있습니다. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- 클릭하면 지물에 붙어 있는 모든 태그를 볼 수 있습니다.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- 키와 값을 추가하려면 더하기(+) 버튼을, 태그를 삭제하려면 휴지통 아이콘을 누르세요.
 
-Further tutorials
+추가 튜토리얼
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[우리의 외부 자료 페이지](/en/resources/#iD)에서 다양한 곳에서 나온 수많은 영상 튜토리얼 링크를 볼 수 있습니다.
 
-iD versus JOSM
+iD VS JOSM
 ---------------  
 
-**iD is good for...**
+**iD는 이럴 때 좋습니다...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- 단순한 편집을 하려 할 때  
+- 이미지를 불러오고 편집을 저장할 수 있을 정도로 빠른 인터넷을 갖추고 있을 때  
+- 일관성 있고 단순한 태그 체계를 따르고 싶을 때  
+- 당신이 사용하고 있는 컴퓨터에 프로그램을 설치하는 것을 제한받을 때
 
-**JOSM is better...**
+**JOSM은 이럴 때 좋습니다...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- 많은 건물을 추가할 때(buildings_tool 플러그인 참조)
+- 기존의 다각형이나 선을 대량으로 수정할 때
+- 인터넷 연결에 의존할 수 없거나 오프라인 상태일 때
+- 당신이 특정 태그 체계(혹은 이용자들이 만든 사전 집합)를 사용하고 있을 때
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Field Paper에 관한 더 많은 정보는 [다른 LearnOSM 문서](/en/mobile-mapping/field-papers/)에서 볼 수 있습니다.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
+이 안내서의 내용은 [프레젠테이션](/files/iD-editor-training.pptx)으로 이용할 수 있습니다.
 
 
 
