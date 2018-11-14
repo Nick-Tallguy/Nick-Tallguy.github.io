@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Uzyskiwanie danych OSM
+title: Pozyskiwanie danych OSM
 permalink: /pl/osm-data/getting-data/
 lang: pl
 category: osm-data
