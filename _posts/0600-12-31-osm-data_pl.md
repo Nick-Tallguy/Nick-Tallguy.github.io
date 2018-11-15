@@ -20,7 +20,7 @@ Omówimy:
 -	Formaty plików geograficznych i plik .osm
 -	Pozyskiwanie danych
 -	Dane i bazy danych OSM
--	Manipulowanie plikami OSM przy użyciu Osmosis
+-	Przetwarzanie plików OSM w Osmosis
 -	API OverPass
 
 -->

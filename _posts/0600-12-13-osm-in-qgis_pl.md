@@ -1,104 +1,104 @@
 ---
 layout: doc
-title: Wykorzystywanie danych OSM w QGIS
+title: Używanie danych OSM w QGIS
 permalink: /pl/osm-data/osm-in-qgis/
 lang: pl
 category: osm-data
 ---
 
-Wykorzystywanie danych OSM w QGIS
+Używanie danych OSM w QGIS
 =================
 
 > Ten przewodnik może zostać pobrany jako [Using_OSM_data_in_QGIS_pl.odt](/files/Using_OSM_data_in_QGIS_pl.odt) lub [Using_OSM_data_in_QGIS_pl.pdf](/files/Using_OSM_data_in_QGIS_pl.pdf)  
 > Przejrzano 19.07.2015
 
-QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
+QGIS (dawniej Quantum GIS) jest w pełni funkcjonalnym, otwartoźródłowym, międzyplatformowym Systemem Informacji Geograficznych (ang. Geographic Information System). W QGIS możesz uzyskać dostęp do aktualnych danych OSM kiedy tylko chcesz, wybierz tagi, które potrzebujesz i po prostu wyeksportuj je do łatwej w użyciu bazy danych SQLite lub pliku shape.  
 
-In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 2.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
+W tym rozdziale przejdziemy przez kroki potrzebne do zrobienia tego. Zakładamy, że pobrałeś i zainstalowałeś już QGIS 2.x. Jeżeli jeszcze tego nie zrobiłeś, możesz pobrać go z <http://www.qgis.org/pl/site/forusers/download.html>.  
 
-To get our customized, up-to-date OSM layers loaded into QGIS, we will first get the most recent OSM data in raw **.osm** format. Then, we will convert this data into a SQLite database, which is a lightweight database system stored in one file on your system. Lastly, we will create a layer (or multiple layers) that includes only the feature types and tags we want to access. These layers can be used in QGIS as they are or saved in another format, such as a shapefile.  
+Aby mieć nasze dostosowane, aktualne warstwy OSM załadowane do QGIS, najpierw pobierzemy najnowsze dane OSM w surowym formacie **.osm**. Następnie przekonwertujemy te dane do bazy danych SQLite, który jest lekkim systemem bazodanowym przechowywanym w jednym pliku w Twoim systemie. Na koniec utworzymy warstwę (lub warstwy), które będą zawierać tylko te obiekty i tagi, do których chcemy mieć dostęp. Te warstwy będą mogły być używane w QGIS tak, jak są lub zapisane w innym formacie, jak np. plik shape.  
 
-Accessing OpenStreetMap Data
+Uzyskiwanie dostępu do danych OpenStreetMap
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-described in the previous chapters on [Getting OSM Data](/en/osm-data/getting-data) and [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export).  
+Pierwszą rzeczą, którą zrobimy jest pobranie aktualnych danych OSM. Możemy to zrobić na kilka sposobów. Oczywiście pobieranie danych z serwera OSM tak, jak to robimy w edytorze JOSM, jest ograniczone, więc nie możemy uzyskać bardzo dużej ilości danych za jednym razem - jednakże są sposoby na dostęp do dużych zestawów danych, jak
+opisane w poprzednim rozdziale [Pozyskiwanie danych OSM](/pl/osm-data/getting-data) i [Korzystanie z Geofabrik i HOT Export](/pl/osm-data/geofabrik-and-hot-export).  
 
-For this tutorial we will use the built-in download function in QGIS.  
+W tym samouczku użyjemy funkcji pobierania wbudowanej w QGIS.  
 
-- Open QGIS and go to Vector -> OpenStreetMap -> Download Data...  
-- You can choose from several options here - if your window is already displaying the extent you want, check the box next to "From map canvas." If you have a layer loaded in QGIS with the correct extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual" and enter the latitudes and longitudes which form a **bounding box** around the area we	want to access. You can fill in the lats and lons that are of interest to you, but remember that the area cannot be too large, or you won't be able to download all the data.  
+- Otwórz QGIS i przejdź do Wektor -> OpenStreetMap -> Pobierz dane...  
+- Możesz tutaj wybrać z kilku dostępnych opcji - jeżeli Twoje okno wyświetla się w odpowiednim rozmiarze, zaznacz pole przy "Z mapy." Jeżeli masz wczytaną warstwę w QGIS w prawidłowym rozmiarze wybierz "Z warstwy" i wybierz, której warstwy chcesz użyć. Tutaj wybierzemy "Ręcznie" i podamy szerokości i długości **ramki granicznej** dookoła obszaru	, który chcemy pobrać. Możesz wpisać interesujące Cię szerokości i długości, ale pamiętaj, że obszar nie może być zbyt duży, bo nie będziesz mógł pobrać danych.  
 
 ![bounding box][]
 
-- Select a name and location for the output file, using the **.osm** file extension, and click OK.  
-- You will be notified when the download is complete. Click "Close" to exit the download dialog.  
+- Wybierz nazwę i lokalizację pliku wyjściowego, używając rozszerzenia pliku **.osm** i kliknij OK.  
+- Otrzymasz powiadomienie o ukończonym pobieraniu. Kliknij "Zamknij", aby wyjść z okna pobierania.  
 
 ![download complete][]
 
-- The OSM data will now be saved in the location you specified.  
+- Dane OSM zostaną zapisane w określonej przez Ciebie lokalizacji.  
 
-> This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
+> Ta metoda dostępu do danych OSM jest taka sama, jak pobieranie ich w JOSM lub na [openstreetmap.org](http://www.openstreetmap.org). Dla dużych aktualnych wyciągów, możesz spróbować pobierać ze [strony HOT export](http://export.hotosm.org) lub [bbbike.org](http://extract.bbbike.org/). Pamiętaj, że jeśli pobierasz skompresowany plik OSM, musisz najpierw rozpakować go do formatu **.osm**, aby kontynuować.  
 
 
-Importing Data into SQLite
+Importowanie danych do SQLite
 ---------------------------
 
-Next we will need to import our raw **.osm** file into a SQLite Database file.  
+Teraz musimy zaimportować nasz surowy plik **.osm** do pliku bazy danych SQLite.  
 
-- Go to Vector -> OpenStreetMap -> Import Topology from XML...  
-- In the first field, select your **.osm** file.  
-- You can change the name of the output database file if you like.  
-- Keep the box checked next to "Create Connection..."  
+- Przejdź do Wektor -> OpenStreetMap -> Importuj topologię z XML...  
+- W pierwszym polu wybierz swój plik **.osm**.  
+- Jeśli chcesz, możesz zmienić nazwę wyjściowego pliku bazy danych.  
+- Pozostaw zaznaczone pole przy "Utwórz połączenie..."  
 
 ![import dialog][]  
 
-- Click OK.  
-- When it is finished, click "Close."  
+- Kliknij OK.  
+- Kiedy wszystko zostanie ukończone kilknij "Zamknij".  
 
 
-Creating Layers
+Tworzenie warstw
 --------------
 
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.  
+Na koniec, zdefiniujemy warstwy, które będą mogły być użyte w QGIS, dostosowane do naszych potrzeb.  
 
-- Go to Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- In the first field, select the database you created in the previous step.  
+- Przejdź do Wektor -> OpenStreetMap -> Eksportuj topologię do SpatiaLite...  
+- W pierwszym polu wybierz bazę danych utworzoną w poprzednim kroku.  
 
 ![input db file][]  
 
-- Under "Export type," select the type of features you want to create a layer for. Here we will create a layer using polygons.  
+- Pod "Rodzaj eksportu" wybierz rodzaj obiektów, dla których chcesz utworzyć warstwę. Tutaj utworzymy warstwę używając wielokątów.  
 
 ![export type][]  
 
-Edit the layer name if you like.  
+Jeśli chcesz, edytuj nazwę warstwy.  
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be included in our output layer. This gives us flexibility over exactly which data we want to access.  
+Pod "Wyeksportowane tagi" zaczyna się magia. Tutaj możemy wybrać, które tagi będą uwzględnione na naszej warstwie wyjściowej. To daje nam elastyczność, których danych konkretnie chcemy użyć.  
 
-- Click "Load from DB" to see a list of all the available tags in the database. Expand the window size by dragging the corner if that helps. You can see all the tags contained in this data, and also the number of features that have each tag.  
-- Check the boxes next to the tags that you want to include. Here we will select a few features that will be useful for polygons that represent buildings.  
+- Kliknij "Wczytaj z BD", aby zobaczyć listę wszystkich dostępnych w bazie danych tagów. Powiększ okno przeciągając narożniki, jeśli to pomoże. Zobaczysz wszystkie tagi zawarte w tych danych, a liczbę obiektów z każdego tagu.  
+- Zaznacz pola przy tagach, które chcesz uwzględnić. Tutaj wybierzemy kilka obiektów, które będą przydatne dla wielokątów reprezentujących budynki.  
 
 ![export full][]  
 
-When you are finished, click OK.  Close the box. Your layer should be automatically added.  
+Kiedy skończysz kliknij OK. Zamknij okno. Twoja warstwa powinna zostać automatycznie dodana.  
 
 ![cairo polygons][]  
 
-Right-click on the layer and click "Open Attribute Table."  
+Kliknij prawym przyciskiem myszy na "Otwórz tabelę właściwości".  
 
 ![open attribute table][]  
 
-You can see here that we have a table which includes only the attributes we selected.  
+Możesz zobaczyć tutaj, że mamy tabelę, która zawiera tylko wybrane przez nas właściwości.  
 
 ![attribute table][]  
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
+Zauważ, że nie utworzyliśmy warstwy z **samymi** budynkami. Zamiast tego stworzyliśmy warstwę zawierającą wszystkie wielokąty z naszych oryginalnych danych, ale mają one tylko wybrane przez nas tagi. Aby pokazać na tej warstwie tylko budynki, musielibyśmy wykonać zapytanie, które odfiltrowałoby jedynie wielokąty z building=yes.
 
 
 Podsumowanie
 -------
 
-This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
+Ten proces upraszcza pozyskanie aktualnych danych OSM i wciągnięcie ich do QGIS. Gdy już masz warstwy takie, jak ta w QGIS, można je zapisać jako pliki shape, wykonać filtry, zapytania i tak dalej. Więcej szczegółów dotyczących tych funkcji poznasz w menu Pomoc w QGIS.  
 
 
 [bounding box]: /images/osm-data/bounding_box.png

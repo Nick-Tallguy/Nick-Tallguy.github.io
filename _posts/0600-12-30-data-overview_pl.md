@@ -32,7 +32,7 @@ Jeżeli nie jesteś doświadczonym użytkownikiem GIS, to ważne, żebyś zrozum
 Edytory takie, jak iD lub JOSM mają jedną główną funkcję, którą spełniają bardzo dobrze - ułatwiają użytkownikom edycję OpenStreetMap. Ale nie są programami przeznaczonymi do analizowania lub sprawdzania danych -
 ta funkcja pozostała dla innych aplikacji. Oprogramowanie GIS takie, jak darmowe i otwartoźródłowe [Quantum GIS (QGIS)](http://www.qgis.org), pozwala użytkownikom projektować ładne mapy do sprawdzania i analizowania danych oraz wielu innych zastosowań. Programy GIS mogą być również używane do edytowania danych geograficznych, ale dużo łatwiej jest zmieniać OpenStreetMap używając dedykowanych edytorów OSM.  
 
-W następnym rozdziale przyjrzymy się bliżej formatom plików powiązanych z OpenStreetMap i ogólnie danych geograficznych. Przejrzymy różne sposoby na dostęp i zmianę danych OSM oraz konwertowanie ich pomiędzy różnymi typami plików.  
+W następnym rozdziale przyjrzymy się bliżej formatom plików powiązanych z OpenStreetMap i ogólnie danych geograficznych. Przejrzymy różne sposoby na dostęp i przetwarzanie danych OSM oraz konwertowanie ich pomiędzy różnymi typami plików.  
 
 
 Pobieranie danych

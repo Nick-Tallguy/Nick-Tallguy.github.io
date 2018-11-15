@@ -60,7 +60,7 @@ Inny typ bazy danych znany jako SQLite, posiada podobną funkcjonalność, co Po
 Podsumowanie
 -------
 
-W kolejnych rozdziałach zobaczymy, jak możesz pobierać dane z internetu w różnych formatach i jak używać różnych narzędzi, aby samemu móc manipulować surowymi danymi.  
+W kolejnych rozdziałach zobaczymy, jak możesz pobierać dane z internetu w różnych formatach i jak używać różnych narzędzi, aby samemu móc przetwarzać surowe dane.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png
