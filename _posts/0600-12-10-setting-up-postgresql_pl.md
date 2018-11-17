@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Ustawienia bazy PostgreSQL
+title: Uruchamianie bazy PostgreSQL
 permalink: /pl/osm-data/postgresql/
 lang: pl
 category: osm-data
@@ -12,144 +12,144 @@ PostgreSQL i PostGIS
 > Ten przewodnik może zostać pobrany jako [PostgreSQL_pl.odt](/files/PostgreSQL_pl.odt) lub [PostgreSQL_pl.pdf](/files/PostgreSQL_pl.pdf)  
 > Przejrzano 10.09.2016
 
-In this chapter we will see how to set up PostgreSQL on Windows and how to create a database in which you can store geographic data. We'll be using the open source GIS software QGIS in this chapter, so it will be helpful if you are already familiar with it. In the following chapter, we will see how to import OpenStreetMap data into a PostgreSQL database.  
+W tym rozdziale zobaczymy, jak uruchomić PostgreSQL w systemie Windows i jak utworzyć bazę danych, w której będziesz mógł przechowywać dane geograficzne. Będziemy używać w tym rozdziale otwartoźródłowego programu GIS o nazwie QGIS, więc dobrze, jeśli już jesteś z nim zaznajomiony. W kolejnym rozdziale zobaczymy, jak zaimportować dane OpenStreetMap do bazy danych PostgreSQL.  
 
-Instalacja PostgreSQL i PostGIS
+Instalowanie PostgreSQL i PostGIS
 ----------------------------------
 
-In this section we will install PostgreSQL and then add the PostGIS spatial extensions. This is fairly easy to setup using the One-Click Installer. Navigate your web browser to the PostgreSQL website and the download page <http://www.postgresql.org/download/>  
+W tej części zainstalujemy PostgreSQL i dodamy rozszerzenie przestrzenne PostGIS. Jest to dość łatwo zrobić jednym kliknięciem używając odpowiedniego instalatora. Przejdź w swojej przeglądarce internetowej do strony pobierania PostgreSQL <http://www.postgresql.org/download/>  
 
 ![postgresql website][]
 
-From here you can find installation instructions for different operating systems.  Click on the “**Windows**” link.  
-This page explains what the One-Click Installer will do.  It will install three different components:  
+Znajdziesz tutaj wskazówki do instalacji w różnych systemach operacyjnych. Kliknij link "**Windows**".  
+Ta strona wyjaśnia, co zrobi szybki instalator. Zainstaluje on trzy różne komponenty:  
 
-* **PostgreSQL server**:  The database software, the core component  
-* **pgAdmin III**: The graphical interface for managing your databases  
-* **StackBuilder**: A tool for adding additional applications; we will use this for adding the PostGIS extensions  
+* **Serwer PostgreSQL**:  Oprogramowanie bazodanowe, główny komponent  
+* **pgAdmin III**: Interfejs graficzny do zarządzania Twoimi bazami danych  
+* **StackBuilder**: Narzędzie do dodawania dodatkowych aplikacji; użyjemy tego, aby dodać rozszerzenie PostGIS  
 
-Click on **Download**.  
+Kiknij **Download**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version. As of this writing it is version 9.3.1. Click on the button that says **Win x86-32**.  This is the installer for the 32-bit version of Windows.  
+Zobaczysz kilka różnych opcji instalatorów dla różnych wersji oprogramowania PostgreSQL. Pobierz najnowszą wersję. W momencie pisania tego artykułu, jest to wersja 9.3.1. Kliknij na przycisku **Win x86-32**. Jest to instalator dla 32-bitowych wersji systemu Windows.  
 
 ![postgresql version][]
 
-When it has finished downloading, run the One-Click Installer.  
+Kiedy pobieranie zostanie ukończone, uruchom instalator.  
 
 ![install 1][]
 
-Click “**Next**” to navigate through the installation wizard.  The default options should be fine. You will need to provide a password for the first database user (the user is postgres).  This user has superuser privileges, meaning that they can do whatever they want, so don’t forget the password that you use!  
+Klikaj "**Next**", aby przejść przez kreator instalacji. Domyślne opcje powinny być dobre. Będziesz musiał podać hasło dla pierwszego użytkownika bazy danych (użytkownik to postgres). Ten użytkownik ma prawa superużytkownika, co oznacza, że może zrobić wszystko, co chce, więc nie zapomnij hasła, którego użyłeś!  
 
-> You can create as many databases as you want using Postgresql.  You might want a database for your geographic data, and separate databases for other projects that you are working on. And you may want different people to have different types of access to these databases.  For this purpose, every database that you create uses the concept of **users** and **roles**.  A database must always be owned by a user, and usually that user will need a password in order to make changes to the database.  Additional users can be given permission to access a database, and they can be given certain roles.  For example, you may want a database user that can only read information from the database, but cannot change it.  Or you may want a user that can add data, but does not have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too much about this, just remember that your database is owned by a **user**, and to access the database you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**, meaning they have permission to do everything with the databases.  
+> Przy użyciu Postgresql możesz utworzyć tyle baz danych, ile tylko chcesz. Możesz mieć bazę danych dla swoich danych geograficznych i osobne bazy danych dla innych projektów, nad którymi pracujesz. Możesz także dać różnym ludziom różne rodzaje dostępu do tych baz. Dlatego każda baza danych, którą utworzysz używa koncepcji **użytkowników** i **ról**. Baza musi zawsze mieć właściciela i zazwyczaj ten użytkownik będzie potrzebował hasła, aby dokonać w niej zmian. Dodatkowo użytkownik może mieć nadane uprawnienia do dostępu do bazy danych oraz konkretne role. Na przykład, możesz chcieć stworzyć użytkownika, który może tylko odczytywać informacje z bazy, ale nie może ich zmieniać. Albo możesz mieć użytkownika, który może dodawać dane, ale nie może ich usuwać. Z użytkownikami i rolami jest to możliwe. Teraz nie będziemy się tym za bardzo przejmować, więc po prostu zapamiętaj, że właścicielem Twojej bazy danych jest **użytkownik**, a do uzyskania dostępu do niej potrzebujesz nazwy użytkownika i hasła.  Pierwszy użytkownik, którego stworzyliśmy (nazwany postgres) jest **superużytkownikiem**, co oznacza, że ma uprawnienia do zrobienia wszystkiego z bazą.  
 
-After you have clicked through the wizard and accepted the default configuration options, the wizard will install everything for you.  It may take a few minutes.  
+Kiedy przeklikasz kreator i zaakceptujesz domyślne opcje konfiguracji, to kreator zainstaluje Ci wszystko. Może to zająć klika minut.  
 
-When the installation is complete, the wizard will ask you if you want to launch StackBuilder, which is the utility that will allow us to install PostGIS.  Make sure the box is checked before you click “**Finish**.”  
+Po zakończeniu instalacji, kreator zapyta Cię, czy chcesz uruchomić StackBuilder, narzędzie, które pozwoli nam zainstalować PostGIS. Zanim klikniesz "**Finish**" upewnij się, że pole jest zaznaczone.  
 
 ![install 2][]
 
-Now we’ve successfully installed PostgreSQL and we need to add the PostGIS extensions. When the StackBuilder wizard opens, select your PostgresSQL installation from the dropdown menu and click **Next**.  It will look something like this:  
+Mamy teraz zainstalowane PostgreSQL i potrzebujemy dodać rozszerzenie PostGIS. Kiedy otworzy się kreator StackBuilder, wybierz z rozwijanego menu swoją instalację PostgreSQL i kliknij **Next**. Będzie to wyglądać podobnie, jak tutaj:  
 
 ![install 3][]
 
-Open the “Spatial Extensions” tab and check the box next to PostGIS. As of this writing the most recent version of PostGIS is 2.1.  
+Otwórz zakładkę "Spatial Extensions" i zaznacz pole przy PostGIS. W momencie pisania tego artykułu, najnowszą wersją PostGIS była 2.1.  
 
 ![install 4][]
 
-Click **Next** to download the extensions and install.  When prompted, click “**I Agree**” to accept the terms and conditions.  
+Kliknij **Next**, aby pobrać i zainstalować rozszerzenie. Kiedy wyskoczy okno z pytaniem o zgodę na regulamin, kliknij "**I Agree**", aby go zaakceptować.  
 
-The PostGIS installer will ask more questions, but generally the default options are fine. You can tell it to create the first database automatically, but we will learn how to do that ourselves next. To begin the PostGIS installation you will need to supply the postgres password that you created when you installed PostgreSQL.  
+Instalator PostGIS zada kilka pytań, ale w zasadzie domyślne opcje będą odpowiednie. Możesz pozwolić mu utworzyć pierwszą bazę danych automatycznie, ale za chwilę nauczymy się to robić samemu. Aby rozpocząć instalację PostGIS musisz podać hasło użytkownika postgres, które utworzyłeś przy instalacji PostgreSQL.  
 
 ![install 5][]
 
-If you are asked to register the **GDAL_DATA** environment variable, click "**Yes**."  
+Jeśli zostaniesz zapytany o zarejestrowanie zmiennej środowiskowej **GDAL_DATA**, kliknij "**Yes**".  
 
 ![install 6][]
 
-When the installation is completed, click “**Close**” and then “**Finish**.”  
+Po ukończeniu instalacji kliknij "**Close**", a anstępnie "**Finish**".  
 
-Creating a Database
+Tworzenie bazy danych
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.  
+Teraz, kiedy mamy zainstalowane wszystkie potrzebne programy, możemy utworzyć bazę danych. Użyjemy pgAdmin III, który jest graficznym klientem bazodanowym i jest przydatny przy zapytaniach i modyikacjach
+baz danych.  
 
 ![pgadmin3][]
 
-PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin III is an easy way to get started.  
+PgAdmin III jest oficjalnym klientem dla PostgreSQL i pozwala używać języka SQL do przetwarzania tabel z Twoimi danymi. Umożliwia również tworzenie i przetwarzanie baz danych z wiersza poleceń, ale póki co, pgAdmin III jest łatwym sposobem na rozpoczęcie.  
 
-Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.  
+Otwórz pgAdmin III. Powinien znajdować się w menu Start we Wszystkie programy -> PostgreSQL 9.3 > pgAdmin III.  
 
 ![pgadmin3 start][]
 
-In the panel on the left under Servers, right-click where it says PostgreSQL and click “**Connect**.”  
+W panelu po lewej stronie, pod Serwerami, kliknij prawym przyciskiem myszy PostgreSQL i kliknij "**Connect**".  
 
 ![postgresql connect][]
 
-Enter the postgres user password that you created when you installed the software. Remember that the username and password are required so that you can create and access a database.  
+Wprowadź hasło użytkownika postgres, które utworzyłeś podczas instalacji. Pamiętaj, że nazwa użytkownika i hasło są wymagane do tworzenia i dostępu do bazy danych.  
 
 ![enter password][]
 
-Right-click on **Databases** and select **New Database**...  
+Kliknij prawym przyciskiem myszy na **Databases** i wybierz **New Database**...  
 
 ![new database][]
 
-You need to enter a few pieces of information to create the new database: name and owner.  In the Properties tab, give the new database a name.  In this example, we name our database gisdb.  We should also give our database an owner.  Since we only have one user right now, let’s give our database the owner postgres.  (Note: for security reasons it is usually a good idea to create users without superuser permission, but for now we won’t worry about this.)  
+Musisz podać trochę informacji, aby utworzyć nową bazę danych: nazwę i właściciela. W zakładce Properties, nadaj nazwę bazie. W tym przykładzie, nazwiemy naszą bazę danych gisdb. Powinniśmy również nadać naszej bazie właściciela. Skoro na razie mamy tylko jednego użytkownika, dajmy bazie użytkownika postgres jako właściciela. (Uwaga: ze względów bezpieczeństwa dobrze jest tworzyć użytkowników bez uprawnień superużytkownika, ale na razie nie będziemy się tym przejmować).  
 
 ![new database form][]
 
-<!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
+<!-- W zakładce Definition pozostaw domyślne wartości, ale obok Template wybierz template_postgis. Pozwoli to utworzyć naszą bazę danych z odpowiednimi kolumnami przestrzennymi. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin III.  
+Kliknij **OK**, aby utworzyć bazę danych. Zobaczysz teraz Twoją bazę na liście poniżej "**Databases**". Musimy teraz uruchomić polecenie, aby uaktywnić rozszerzenie PostGIS dla bazy. Kliknij ![sql button][]{: height="24px"} na górze PgAdmin III.  
 
 
 
-In the query window, type:  
+W oknie zapytania wpisz:  
 
 **CREATE EXTENSION postgis;**  
 
-Then click the "**Execute query**" button.  
+Następnie kliknij przycisk "**Execute query**".  
 
 ![postgis command][]
 
-Load Sample Data (optional)
+Ładowanie przykładowych danych (opcjonalne)
 ---------------------------
 
-If you are comfortable so far and are familiar with QGIS, follow along as we load some data into our new database. To do this, we will use a utility that converts shapefiles and loads them into the database.  
+Jeżeli dobrze Ci poszło i znasz już QGIS, to chodźmy dalej i załadujmy dane do naszej nowej bazy. Aby to zrobić użyjemy funkcji, która konwertuje pliki shape i ładuje je do bazy danych.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Upewnij się, że w panelu po lewej jest wybrana Twoja nowa baza danych i przejdź do **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
 
 ![shapefile loader][]
 
--	Click “**Add File**” and find a shapefile on your filesystem.
--	If you don't have any shapefiles, you can download a sample [here](/files/buildings_sample.zip).
--	Once you have selected a file, click “**Import**.”  If everything goes smoothly, the output will read “**Shapefile import completed**.”
+-	Kliknij "**Add File**" i znajdź plik shape w swoim komputerze.
+-	Jeśli nie masz żadnych plików shape, możesz pobrać przykładowy [tutaj](/files/buildings_sample.zip).
+-	Po wybraniu pliku kliknij "**Import**". Jeżeli wszystko przebiegło pomyślnie, zobaczysz wynik "**Shapefile import completed**".
 
 ![add shapefile][]
 
-Now let's load the data from our database into the QGIS application. If you don't have QGIS you can download it on the [QGIS website](http://www.qgis.org/site/forusers/download.html).  
+Teraz załadujmy dane z naszej bazy danych do aplikacji QGIS. Jeżeli jej nie masz, możesz ją pobrać ze [strony internetowej QGIS](http://www.qgis.org/site/forusers/download.html).  
 
--	Open QGIS and click the ![qgis add postgis button][]{: height="24px"} button.  
--	Under “Connections” at the top, click “**New**.”  
--	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database). Enter the username postgres and your password below.  
+-	Otwórz QGIS i kliknij przycisk ![qgis add postgis button][]{: height="24px"}.  
+-	Poniżej "Połączeń" na górze kliknij "**Nowy**".  
+-	Nadaj nazwę nowemu połączeniu. W polu baza danych wpisz **gisdb** (lub taką nazwę, jaką nadałeś bazie). Poniżej wprowadź nazwę użytkownika postgres i swoje hasło.  
 
 ![connection settings][]
 
--	Click **OK** to save the connection settings.  Then click “Connect” to connect to your PostgreSQL server.  You may need to enter your username and password again.  
--	If everything is successful, you will see the shapefile layer  (or multiple layers with different features types) that you loaded into the database available here.  Select a layer and click “**Add**” to add it to your map.  
+-	Kliknij **OK**, aby zapisać parametry połączenia. Następnie naciśnij "Połącz", żeby połączyć się ze swoim serwerem PostgreSQL. Możesz zostać poproszony ponownie o nazwę użytkownika i hasło.  
+-	Jeżeli wszystko pójdzie dobrze, zobaczysz warstwę z pliku shape (lub wiele warstw z różnymi rodzajami obiektów), który załadowałeś do bazy danych. Wybierz warstwę i kliknij "**Dodaj**", aby dodać ją do mapy.  
 
 ![your data layer][]
 
-When you add the layer you will need to select a coordinate system to display the data in.  You will most likely want to select WGS 84, which is the coordinate system OpenStreetMap uses.  
+Po dodaniu warstwy będziesz musiał wybrać system odniesienia, w którym będą wyświetlane dane. Najprawdopodobniej będzie to WGS 84, który jest używany przez OpenStreetMap.  
 
-> The layer behaves the same as if you had loaded a shapefile directly into QGIS.  The only difference is that if you edit the layer, the changes will be saved in your database.  
+> Warstwa będzie zachowywać się tak samo, jak po bezpośrednim załadowaniu pliku shape do QGIS. Jedyną różnicą jest to, że zmiany dokonane na tej warstwie będą zapisane w Twojej bazie danych.  
 
 Podsumowanie
 -------
 
-Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new database, you're ready to try the utilities which allow us to import raw OSM data into a database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).  
+Teraz, kiedy wiesz już, jak uruchomić PostgreSQL i PostGIS oraz jak stworzyć nową bazę danych, jesteś gotowy do sprawdzenia narzędzi, które pozwalają nam na importowanie surowych danych OSM do bazy danych. Przyjrzymy się temu w [następnym rozdziale](/pl/osm-data/osm2pgsql).  
 
 
 

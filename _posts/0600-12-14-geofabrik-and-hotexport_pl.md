@@ -144,7 +144,7 @@ Otwórz Maps.me
 ![export-tool-mapsme][]
 
 
-### Pliki .obf OsmAnd
+### OsmAnd .obf
 OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
 
 ![export-tool-osmand][]
