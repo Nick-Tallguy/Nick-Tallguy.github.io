@@ -25,11 +25,11 @@ category: coordination
     -  [이미지 - 지도 제작의 기반](/ko/coordination/tasking-manager3-project-admin/#imagery)
     -  [권한 - 지도를 제작하고 유효성 검사를 할 수 있는 사람을 지정](/ko/coordination/tasking-manager3-project-admin/#permissions)
     -  [유용한 힌트 - 영역 전체를 채울 때 써야 하는 방법](/ko/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+    -  [게시하기 - 게시를 해야만 작업이 완전히 끝납니다](/ko/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
-The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
+OpenStreetMap 과업 관리자는 매퍼톤(Mapathon)을 진행하고 HOT 활동을 관리할 때, 학생 기여자들을 위해 지도 작업 과업을 만들 때 꼭 필요합니다. 과업 관리자는 작업을 정사각형 덩어리로 분할해 관리하기 쉽고, 편집 충돌을 줄여 주고, 특히 대규모 편집에서 충돌을 줄여 줍니다. 과업 관리자는 참여자들에게 일관적인 지시(예를 들어 "모든 도로와 건물을 지도에 추가")를 내림으로써 지도 작업을 정확하게 하고 데이터 품질을 높일 수 있도록 도와 줍니다. 쉽게 말하자면, 과업 관리자는 당신이 어떻게 열린 지도 작업 활동을 위한 작업 흐름을 구성하고, 어떻게 작업을 이끌지를 도와 줍니다. 이 단락에서는 성공적으로 지도 작업 행사를 진행하도록 OSM 과업 관리자 관리의 기초를 설명하고 있습니다. 
 
- This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 3 including the [HOT Tasking Manager](http://tasks.hotosm.org) and the [TeachOSM Tasking Manager](http://tasks.teachosm.org).
+ 이 안내서는 특히 열린 지도 작업 행사(매퍼톤)를 위한 프로젝트를 만들고 수정하는 등, OSM 과업 관리자를 관리하는 방법이 필요한 사람을 위해 작성되었습니다. 이 안내서는 특히 OSM 과업 관리자([HOT 과업 관리자](http://tasks.hotosm.org)와 [TeachOSM 과업 관리자](http://tasks.teachosm.org)) 버전 3을 기준으로 작성되었습니다.
 
 The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
 
