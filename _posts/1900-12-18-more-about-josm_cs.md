@@ -9,7 +9,7 @@ category: josm
 Proces editace JOSM
 ========================
 
-> Tato příručka může být stažena jako [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) or [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
+> Tento návod může být stažen jako [josm_more-about-josm_en.odt](/files/josm_more-about-josm_en.odt) nebo [josm_more-about-josm_en.pdf](/files/josm_more-about-josm_en.pdf)  
 > Zkontrolováno 12.7.2015  
 
 V předchozí části jste 

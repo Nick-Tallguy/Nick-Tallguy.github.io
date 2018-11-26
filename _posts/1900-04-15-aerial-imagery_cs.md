@@ -1,53 +1,53 @@
 ---
 layout: doc
-title: Aerial Imagery
+title: Letecké snímky
 permalink: /cs/josm/aerial-imagery/
 lang: cs
 category: josm
 ---
 
-Aerial Imagery
+Letecké snímky
 ================
 
-> This guide may be downloaded as [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) or [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
+> Tento návod může být stažen jako [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) nebo [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
 > Zkontrolováno 2015-09-21  
 
-Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
+Trasování snímků je snadný a výkonný způsob, jak přispívat k OSM. Použití snímků pro kreslení bodů, linií a tvarů na zemi se nazývá **digitalizace**. To může být často odděleno od aktu shromažďování dat atributů na zemi, což se často nazývá **pozemní ověřování**. Digitalizace snímků může poskytnout kostru map OSM, což usnadňuje lidem v terénu ověření dat. V této kapitole se dozvíme trochu víc o tom, jak fungují letecké snímky.  
 
-About Imagery
+O snímkování
 -------------
 
-Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
+Letecké snímky jsou termínem, který používáme k popisu fotografií, které jsou pořízeny z oblohy. Ty mohou být převzaty z letadel, dronů, vrtulníků nebo dokonce draků a balónů, ale nejčastější zdroj snímků pochází ze satelitů obíhajících kolem Země.  
 
-[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
+[V kapitole o GPS](/cs/mobil-mapping/using-gps) jsme se dozvěděli o desítkách satelitů obíhajících kolem Země, které umožňují našim GPS přijímačům identifikovat naši zeměpisnou šířku a délku. Kromě těchto družic GPS jsou také satelity, které fotografují zemi. Tyto fotografie jsou pak manipulovány tak, aby mohly být použity v GIS (mapovacím) softwaru. Bing letecké snímkování se skládá ze satelitních snímků.  
 
-Resolution
+Rozlišení
 ----------
 
-All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  
+Všechny digitální fotografie jsou tvořeny pixely. Pokud se přiblížíte velmi blízko na fotografii, zjistíte, že se obraz začne rozmazávat a nakonec uvidíte, že obraz je tvořen tisíci malými čtverci, které mají odlišnou barvu. Je lhostejno zda je fotografie pořízena ruční kamerou, mobilním telefonem nebo družicí, která obíhá kolem Země.  
 
 ![Image resolution][]
 
-Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.  
+Rozlišení se vztahuje na počet pixelů na šířku a počtu pixelů na výšku celého obrazu. Více pixelů znamená vyšší rozlišení, což znamená, že na fotografii můžete vidět větší detaily. Rozlišení v ručních kamerách je často měřeno v megapixelech. Čím více megapixelů je schopen váš fotoaparát zaznamenat, tím vyšší je rozlišení vašich fotografií.  
 
-Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.  
+Letecké snímky jsou stejné, s tím rozdílem, že obvykle hovoříme o rozlišení jinak. Měření je důležité s leteckými fotografiemi - proto pixel představuje určitou vzdálenost na zemi. Obvykle popisujeme snímky jako něco jako "dva metry rozlišení obrazu", což znamená, že jeden pixel odpovídá dvěma metrům na zemi. Jeden metr rozlišení bude mít vyšší rozlišení než toto a rozlišení 50 cm by bylo ještě vyšší. To je obecně rozsah snímků, které poskytuje Bing, ačkoli se liší mezi místy a na mnoha místech je horší než dva metry, a v tomto okamžiku je obtížné identifikovat objekty v obraze.  
 
 ![Comparison of low and high resolution imagery][]
 
-The higher the resolution of an aerial image, the easier it is to use in making maps.  
+Čím vyšší je rozlišení leteckého snímku, tím je snazší použít jej při vytváření map.  
 
-Georeferencing
+Georeferencování
 ---------------
 
-Each pixel of an aerial photograph has a size, and each pixel also has a location. As we mentioned above, this is because aerial photographs are georeferenced.  
+Každý pixel letecké fotografie má velikost a každý pixel má také umístění. Jak jsme uvedli výše, je to proto, že letecké fotografie jsou georeferencované.  
 
-Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
+Stejně jako bod GPS má zeměpisné šířky a délky, stejně tak budou obrazové body v leteckém snímku. Nicméně, stejně jako špatné rozlišení může být komplikací v mapování, tak je mohou přinést i špatně georeferencované snímky.  
 
-Let's think for a moment about how georeferencing works, and why it is challenging to do. When somebody georeferences an image, they first identify a handful of pixels in the image that are known locations. If we have a square photograph, we might identify the coordinates of all four corners, and that way the whole image can be correctly placed.  
+Pojďme na okamžik přemýšlet o tom, jak funguje georeferencování a proč je to náročné. Když někdo georeferencuje fotografii, nejprve identifikuje několik pixelů v obrazu, u kterých je známé umístění. Pokud máme čtvercovou fotografii, můžeme identifikovat souřadnice všech čtyř rohů, a tak může být celý obrázek správně umístěn.  
 
-This all seems quite simple, but consider this: Earth is round; camera lenses are round; yet photographs are flat and 2-dimensional. This means that when a flat image is being mapped onto the round Earth, there is always going to be some stretching of the image and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular. Because of this problem, all of the pixels in an aerial image might not be perfectly placed.  
+To vše se zdá být poměrně jednoduché, ale zvažte tohle: Země je kulatá; objektivy fotoaparátu jsou kulaté; fotografie jsou ploché a dvourozměrné. To znamená, že když je plochý obraz mapován na kulatou Zemi, vždy dojde k nějakému protahování obrazu a zkreslení. Představte si, že se snažíte vyrovnat pomerančovou kůru. Nebude nikdy pravoúhlá. Kvůli tomuto problému nemusí být všechny pixely v leteckém snímku dokonale umístěny.  
 
-Luckily, some really smart people have devised clever algorithms for solving this problem, and so the imagery that you see on Bing is pretty close to being accurate. In most places it won't be noticeably wrong at all - and it's certainly fine for making maps. The most common areas for imagery to be inaccurately located are in hilly, mountainous areas. In the [Correcting Imagery Offset chapter](/en/josm/correcting-imagery-offset) we will see how to correct for this problem.  
+Naštěstí někteří skutečně chytří lidé vymysleli chytré algoritmy pro řešení tohoto problému a tak obrazy, které vidíte na Bingu, jsou docela přesné. Na většině míst nebude vůbec zjevně chyba - a to je určitě v pořádku pro vytváření map. Nejčastěji se nacházejí oblasti, ve kterých jsou snímky špatně umístěny, v kopcovitých horských oblastech. V kapitole [Korekce odsazení obrazu](/cs/josm/correction-imagery-offset) uvidíme, jak tento problém napravit.  
 
 [Image resolution]: /images/josm/orange-resolution.png
 [Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png

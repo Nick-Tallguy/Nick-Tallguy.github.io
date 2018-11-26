@@ -31,22 +31,22 @@ OpenStreetMap 과업 관리자는 매퍼톤(Mapathon)을 진행하고 HOT 활동
 
  이 안내서는 특히 열린 지도 작업 행사(매퍼톤)를 위한 프로젝트를 만들고 수정하는 등, OSM 과업 관리자를 관리하는 방법이 필요한 사람을 위해 작성되었습니다. 이 안내서는 특히 OSM 과업 관리자([HOT 과업 관리자](http://tasks.hotosm.org)와 [TeachOSM 과업 관리자](http://tasks.teachosm.org)) 버전 3을 기준으로 작성되었습니다.
 
-The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
+HOT(또는 OSM) 과업 관리자 버전 3은 Tasking Manager, version 3을 줄인 말인 **TM3**라고 많이 불립니다.
 
-## Logging in & Access Levels
+## 로그인 & 접근 수준
 
-The first thing to understand is access level. All access to TMd is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+우선 접근 수준을 이해해야 합니다. 과업 관리자에 로그인하려면 [OpenStreetMap 웹 사이트](https://www.openstreetmap.org)에서 인증을 받아야 합니다. 과업 관리자 버전 3에 로그인하려면  OpenStreetMap(OSM) 계정이 필요합니다. 당신이 갖고 있는 계정으로 [과업 관리자](http://tasks.hotosm.org)에 들어가 **로그인**을 클릭하세요. 그럼 OSM 페이지로 넘어갑니다. OSM 페이지에서 과업 관리자가 당신의 OSM 계정에 제한된 접근을 할 수 있도록 등록해 주세요. 
 
-### Access Levels within the OSM Tasking Manager
+### OSM 과업 관리자에서의 접근 수준
 
-The OSM Tasking Manager has three user access levels:
--  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers have access to create and update projects within TM3.  
--  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
+OSM 과업 관리자에는 사용자 접근 수준이 세 단계로 존재합니다.
+-  **사용자** - 가장 기초적인 단계입니다. 사용자는 과업 관리자에 로그인하고 과업 관리자의 기능을 사용할 수 있는 권한이 주어져 지도 작업 프로젝트를 찾고 작업할 수 있습니다. 이 단계는 [LearnOSM의 OSM 과업 관리자 안내서](/ko/coordination/tasking-manager-3/)에서 잘 설명해 놓았습니다. 초안(미발행) 상태에 있는 프로젝트 등, 몇몇 프로젝트는 사용자가 볼 수 없습니다.  
+-  **프로젝트 관리자** - 프로젝트 관리자는 과업 관리자 버전 3에서 프로젝트를 만들고 업데이트할 권한을 가집니다.  
+-  **관리자** - 관리자는 과업 관리자 버전 3 사용자들의 접근 수준을 관리할 권한을 가집니다.
 
-You will need Project Manager Access level to create new projects using TM3.
+과업 관리자 버전 3에서 새로운 프로젝트를 만들려면 프로젝트 관리자 접근 수준이 필요합니다.
 
-## Initiate a new Project within TM3 
+## 과업 관리자 버전 3에서 새로운 프로젝트 착수하기 
 
 ![TM New][]
 

@@ -85,7 +85,7 @@ Přidání prvních bodů
 - Přesuňte mapu na místo, které znáte velmi dobře, jako je vaše město nebo okolí. Dobrým nápadem je ujistit se, že váš domov (nebo domov sousedů) a pracoviště jsou vedeny a zadány se správnou adresou. 
 - Přiblížit na místo, kde chcete přidat bod na mapu (možná restaurace nebo obchod s potravinami poblíž vás dosud nebyly mapovány).
 - Hned nad mapou vlevo se nachází záložka s názvem "Upravit" s malým trojúhelníkem vedle něj. Klikněte na malý trojúhelník. Měla by se zobrazit rozbalovací nabídka.
-- Kliknout na tlačítko Upravit pomocí aplikace iD (editor v prohlížeči).
+- Kliknout na tlačítko Upravit pomocí iD editoru (editor v prohlížeči).
 
     ![Click edit][]
 

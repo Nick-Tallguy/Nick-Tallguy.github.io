@@ -63,7 +63,7 @@ Start OSMTracker, and press the menu icon on your Android device, then select **
 -  **Default photo source** Generally you will take photo's with the camera through this app., but you can chose to use photo's already on the phone.  
 -  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
 -  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
--  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [see below](/en/mobile-mapping/osmtracker/#button-presets).   
+-  **Přednastavení tlačítek** Můžete si navrhnout a nainstalovat vlastní sadu tlačítek a zvolit je tak, aby byly zobrazeny pomocí této volby. Pro úplný popis této funkce, [více zde](/cs/mobile-mapping/osmtracker/#button-presets).   
 -  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
 
 > This does require a data connection to download the map. You do not need to use this function unless you wish to.  

@@ -18,30 +18,30 @@ Toto je komentovaný seznam odkazů na jiné weby, které považujeme za užite�
 
 ## Úpravy
 
-### iD
+### iD editor
 
-  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
-  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
-  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
+  * [Integrovaný výukový program iD editoru](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) Interaktivní výukový program o používání iD editoru jako součást softwaru
+  * [prezentace pokrývající obsah našeho průvodce](/files/iD-editor-training.pptx) dobrý materiál, pokud byste chtěli úvod o ID editoru, např. na mapathonu
+  * [HOT výuková videa](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) Sbírka instruktážních videí, které se většinou soustřeďují na mapování s iD editorem a JOSM
+  * [Video návody pro iD editor](https://www.sjtdelfs.de/wordpress/?page_id=84) Některá velmi krátká videa vysvětlující, jak dosáhnout společných úkolů
+  * [Video lekce na datech OpenStreetMap](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) Prezentace ve formě přednášky o různých aspektech mapování, včetně značek, vrstev, vztahů
 
 ## Mapatony a podobné události
 
-  * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
-  * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university
-  * [developmentSEED guide for Mapathons](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) This document is based on a talk at a State of the Map conference about how to organize and run a mapathon
+  * [Wiki o Mapathonech pro Missing Maps](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) téměř kontrolní seznam, který vám dává představu, co chcete zvážit, pokud chcete uspořádat mapathon; ačkoli se zaměřuje na Missing Maps, většina z nich se vztahuje na mapathony obecně
+  * [Wiki záznam o Missing Maps Mapathonech v univerzitním prostředí] (http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) téměř stejný dokument jako předchozí, ale se specifickými náznaky, pokud jsou organizovány na vysoké škole
+  * [návod pro Mapathony na webu developmentSEED](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) Tento dokument je založen na diskuzi z konference o Stavu mapování  a o tom, jak pořádat mapathon
 
-### Checklists for planning
+### Kontrolní seznamy pro plánování
 
-  * [MapGive checklist for an event](https://mapgive.state.gov/box/#resources&event-checklist)
+  * [MapGive kontrolní seznam události](https://mapgive.state.gov/box/#resources&event-checklist)
 
-### Handouts 
+### Podklady 
 
-  * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
+  * [Podklady tištěných materiálů Missing Maps](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) většina letáků je označena jako Missing Maps, takže pokud byste je chtěli použít pro jinou událost, měli byste požádat o povolení k jejich úpravě
 
-## Statistics
+## Statistika
 
-  * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
-  * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
-  * [Who is around me ](http://resultmaps.neis-one.org/oooc) map display about mappers who recently contributed in an area
+  * [Wiki záznam k MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) Jednoduchý nástroj pro koordinaci otevřených zdrojů. Wiki říká, že již není aktivně udržovaný
+  * [Průběh v reálném čase na OpenStreetMap](https://github.com/osmlab/show-me-the-way) Stránka readme na stránce github vysvětluje, jak filtrovat zobrazení tak, aby nebyl vidět celosvětový průběh změn
+  * [Kdo je kolem mě ](http://resultmaps.neis-one.org/oooc) zobrazení mapujících osob, kteří nedávno přispěli do mapované oblasti

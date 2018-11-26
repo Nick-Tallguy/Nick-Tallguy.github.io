@@ -14,7 +14,7 @@ Using OSM Data in QGIS
 
 QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
 
-In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 2.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
+V této kapitole projdeme k tomu potřebnými kroky. Předpokládáme, že jste již stáhli a nainstalovali QGIS 2.x. Pokud jste to ještě neučinili, můžete si jej stáhnout z <http://www.qgis.org/en/site/forusers/download.html>.  
 
 To get our customized, up-to-date OSM layers loaded into QGIS, we will first get the most recent OSM data in raw **.osm** format. Then, we will convert this data into a SQLite database, which is a lightweight database system stored in one file on your system. Lastly, we will create a layer (or multiple layers) that includes only the feature types and tags we want to access. These layers can be used in QGIS as they are or saved in another format, such as a shapefile.  
 
@@ -22,7 +22,7 @@ Accessing OpenStreetMap Data
 ---------------------------
 
 The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-described in the previous chapters on [Getting OSM Data](/en/osm-data/getting-data) and [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export).  
+popsané v předchozích kapitolách [Získání dat OSM](/cs/osm-data/getting-data) a [Použití programu Geofabrik a HOT Export](/cs/osm-data/geofabrik-and-hot-export).  
 
 For this tutorial we will use the built-in download function in QGIS.  
 

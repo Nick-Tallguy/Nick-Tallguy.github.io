@@ -1,72 +1,72 @@
 ---
 layout: doc
-title: Enhancing the colours or background - iD editor
+title: Zlepšení barev nebo pozadí - iD editor
 permalink: /cs/hot-tips/enhance/
 lang: cs
 category: hot-tips
 ---
 
-Enhancing the colours or background - iD editor
+Zlepšení barev nebo pozadí - iD editor
 ============
 
 - Obsah
 {:toc}
 
-Introduction
+Úvod
 ------------
 
-This module covers the changing of the brightness of the satellite imagery which may make it simpler to pick out details, but also covers installation of the Stylish extension on the Firefox and Chrome web browsers, which allows the installation of different colour schemes.  
+Tento modul popisuje změnu jasu satelitních snímků, což usnadňuje rozeznání detailů, ale zahrnuje i instalaci stylového rozšíření pro prohlížeče Firefox a Chrome, což umožňuje instalaci různých barevných schémat.  
 
-Changing the colours of traced buildings may make it easier when working in an area with red roofed buildings, or another red backround.  
+Změna barvy sledovaných budov může usnadnit práci v oblasti s červenými střechami nebo jiným červeným podkladem.  
 
-Other extensions are also available. 
+Další rozšíření jsou také k dispozici. 
 
-Changing the brightness of the satellite imagery
+Změna jasu satelitních snímků
 --------------------------------------------------
 
 ![background][]
 
-Installing the Stylish extension in Firefox  
+Instalace Stylového rozšíření ve Firefoxu  
 -------------------------------------------
 
-1.  Click on the menu.  
+1. Klikněte na nabídku.  
 ![Stylish-1]{: height="100px"}
 
-2.  Select "Add-ons"  
+2. Vyberte "Doplňky"  
 ![Stylish-2]{: height="348px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. Vyhledejte stylování - první v seznamu na otisku obrazovky,  
 ![Stylish-3][]
 
-4.  Install & restart.  
+4. Nainstalujte a restartujte.  
 ![Stylish-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.
+5. Navštivte <http://www.openstreetmap.org/> a klikněte na ikonu Stylování, která se zobrazí na panelu nabídek. Vyberte si jakákoli užitečná rozšíření pro instalaci a aktivujte je podle potřeby pomocí nabídky z ikony Stylování.
 ![Stylish-5][]
 
-6.  Purple traced buildings  
+6. Růžově vykreslené budovy  
 ![Stylish-6][]
 
 
-Installing the Stylish extension in Chrome  
+Instalace stylového rozšíření v prohlížeči Chrome  
 -------------------------------------------
 
-1.  Click on menu and **Settings**.  
+1. Klepněte na nabídku a **Nastavení**.  
 ![Stylish-chrome-1]{: height="300px"}
 
-2.  Select **Extensions** and **Get more extensions**  
+2. Vyberte možnost **Rozšíření** a **Získejte další rozšíření**  
 ![Stylish-chrome-2]{: height="248px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. Vyhledejte stylování - první v seznamu na otisku obrazovky,  
 ![Stylish-chrome-3][]
 
-4.  Install.  
+4. Nainstalujte.  
 ![Stylish-chrome-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon. You may have to select **Find more styles for this site** to find all of the available styles.  
+5. Navštivte <http://www.openstreetmap.org/> a klikněte na ikonu Stylování, která se zobrazí na panelu nabídek. Vyberte si jakákoli užitečná rozšíření pro instalaci a aktivujte je podle potřeby pomocí nabídky z ikony Stylování. Možná budete muset vybrat **Vyhledat více stylů pro tyto stránky** a najít všechny dostupné styly.  
 ![Stylish-chrome-5][]
 
-6.  Purple traced buildings is one of the options available. It may be worth checking back at intervals as more styles are developed.   
+6. Růžově vykreslené budovy je jen jedna z dostupných možností. Možná stojí za to, abyste si v pravidelných intervalech zkontrolovali další styly.   
 ![Stylish-chrome-6][]
 
 

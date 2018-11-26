@@ -8,9 +8,9 @@ category: coordination
 
 # OSM Tasking Manager Vytvoření a správa projektu
 
-> Tato příručka může být stažena jako samostatný modul: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) nebo [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
+> Tento návod může být stažen jako samostatný modul: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) nebo [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
-**Tato příručka popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní verze, které používáte, vypadá jinak než to, který je zde popsáno, měli byste si prohlédnout [manuál pro předchozí verzi](/cs/coordination/tasking-manager-project-admin)**
+**Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní verze, které používáte, vypadá jinak než to, který je zde popsáno, měli byste si prohlédnout [manuál pro předchozí verzi](/cs/coordination/tasking-manager-project-admin)**
 
 Obsah sekcí
 -------------
@@ -29,13 +29,13 @@ Obsah sekcí
 
 Správce úloh (Tasking Manager) OpenStreetMap je nezbytný pro provádění mapathonu, správu aktivace HOT nebo vytvoření mapovacích úloh pro studentské mapovače. Tasking Manager rozděluje práci na zvládnutelné geografické bloky, což snižuje konflikty při editaci, zejména s velkým počtem distribuovaných mapovačů. Tasking Manager také pomáhá mapovat přesnost a kvalitu dat tím, že poskytuje konzistentní soubor instrukcí pro mapovače (např. 'Mapovat všechny cesty a budovy'). Stručně řečeno, Tasking Manager je o tom, jak nastavíte a nasměrujete pracovní postup pro dobrovolné mapování. Tento modul popisuje základní správu nástroje OSM Tasking Manager pro úspěšné události mapování. 
 
- Tato příručka je speciálně napsána pro ty osoby, které potřebují pokyny pro správu Task Manageru OSM, včetně tvorby a úpravy projektů mapování pro události otevřeného mapování, tj. "Mapatony". Tato příručka se konkrétně vztahuje na případy OSM Tasking Manager verze 3 včetně [HOT Tasking Manager](http://tasks.hotosm.org) a [TeachOSM Tasking Manager](http://tasks.teachosm.org) .
+ Tento návod je speciálně napsán pro ty osoby, které potřebují pokyny pro správu Task Manageru OSM, včetně tvorby a úpravy projektů mapování pro události otevřeného mapování, tj. "Mapatony". Tento návod se konkrétně vztahuje na případy OSM Tasking Manager verze 3 včetně [HOT Tasking Manager](http://tasks.hotosm.org) a [TeachOSM Tasking Manager](http://tasks.teachosm.org) .
 
 Modul Správce úloh HOT nebo OSM verze 3 je často označován jako ** TM3, ** jako zkratka pro Tasking Manager verze 3.
 
 ## Přihlašování a přístupové úrovně
 
-První věc, kterou je potřeba pochopit, je přístupová úroveň. Veškerý přístup k TMd je povolen prostřednictvím webových stránek [OpenStreetMap](https://www.openstreetmap.org). Pro přístup k TM3 budete potřebovat účet OpenStreetMap (OSM). Jakmile budete mít tento účet, navštivte [Tasking Manager](http://tasks.hotosm.org) a klikněte na **Login to OpenStreetMap**, který vás vrátí zpět na stránku OSM, kde můžete povolit správci Tasking Manager omezený přístup k vašemu účtu OSM. 
+První věc, kterou je potřeba pochopit, je přístupová úroveň. Veškerý přístup k TM je povolen prostřednictvím webových stránek [OpenStreetMap](https://www.openstreetmap.org). Pro přístup k TM3 budete potřebovat účet OpenStreetMap (OSM). Jakmile budete mít tento účet, navštivte [Tasking Manager](http://tasks.hotosm.org) a klikněte na **Login to OpenStreetMap**, který vás vrátí zpět na stránku OSM, kde můžete povolit správci Tasking Manager omezený přístup k vašemu účtu OSM. 
 
 ### Úrovně přístupu v rámci Správce úloh (Tasking Manageru) OSM
 
@@ -259,7 +259,7 @@ It is important that step 3 is repeated for every task of the project and the in
 Here are some suggested bits of information which you might include in the project instructions:
 
 - [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [animovaný gif na zarovnání snímků v iD editoru](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
 - [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 

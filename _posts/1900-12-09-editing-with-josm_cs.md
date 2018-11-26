@@ -9,7 +9,7 @@ category: josm
 Úprava dat polí
 ==================
 
-> Tato příručka může být stažena jako [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) nebo [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
+> Tento návod může být stažen jako [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) nebo [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
 > Zkontrolováno 13.7.2015  
 
 Nyní jsme zvládli všechny stavební bloky mapování s OpenStreetMap.

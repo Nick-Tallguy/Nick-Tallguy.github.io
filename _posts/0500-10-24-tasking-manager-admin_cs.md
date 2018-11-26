@@ -108,7 +108,7 @@ It is important that step 3 is repeated for every task of the project and the in
 Here are some suggested bits of information which you might include in the project instructions:
 
 - [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [animovaný gif o zarovnání snímků v iD editoru](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
 - [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 ## Create the project & add description

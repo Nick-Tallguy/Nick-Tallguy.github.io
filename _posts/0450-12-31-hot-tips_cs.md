@@ -2,41 +2,41 @@
 layout: doc
 permalink: /cs/hot-tips/
 lang: cs
-title: HOT Tips - Getting started for new mappers - iD editor
+title: HOT Tipy - Začínáme pro nové mapovače - iD editor
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-HOT Tips - Getting started for new mappers using iD and a Tasking Manager
+HOT Tipy - Začínáme s novými mapovači pomocí iD editoru a Taskung Manageru
 ================
 
-This series of short guides is aimed at volunteers helping to map for Aid Agencies using a Tasking Manager, but the principles are the same for all OpenStreetMap mapping. Mapping is easy,  but let's get it right and keep improving the map!
+Tato série krátkých průvodců je určena dobrovolníkům, kteří pomáhají mapovat humanitárním organizacím pomocí Tasking Manageru, ale zásady jsou stejné pro všechna mapování v OpenStreetMap. Mapování je snadné, ale dělejme to dobře a neustále vylepšujme mapu!
 
-Use the menu to choose the order that suits you.  
+Pomocí nabídky vyberte pořadí, které vám vyhovuje.  
 
-See also  
+Viz též  
 ---------
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitární OpenStreetMap tým - Minutová výuková videa")  
+*Titulky dostupné v některých jazycích*  
 
 ![iD help]{: height="400px"}  
-iD help menu - always available when you are editing which includes an optional walkthrough.    
+Nabídka nápovědy iD editoru - k dispozici vždy při úpravách, které obsahují volitelný návod.    
   
-[iD shortcut list on wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
+[iD editor seznam zkratek na wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
 [OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Main_Page)  
 
-[Blake Girardot's guide to West Africa Mapping](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[Blake Girardotův průvodce mapování západní Afriky](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-If you are new to OpenStreetMap the following modules of our beginner section will be useful to you;  
+Pokud jste na OpenStreetMap noví, budou vám pro vás užitečné následující moduly pro začátečníky.  
 
--  [Introduction to mapping](/en/beginner/introduction/)  
--  [OpenStreetMap.org](/en/beginner/start-osm/)
+-  [Úvod do mapování](/cs/beginner/introduction/)  
+-  [OpenStreetMap.org](/cs/beginner/start-osm/)
 
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[iD editor nápověda]:/images/hot-tips/iD-help.png "Nabídka nápovědy iD editoru - k dispozici vždy při úpravách, které obsahují volitelný návod."
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitární OpenStreetMap tým - Minutová výuková videa"

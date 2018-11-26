@@ -1,62 +1,62 @@
 ---
 layout: doc
-title: JOSM Presets
+title: Předvolby JOSM
 permalink: /cs/josm/josm-presets/
 lang: cs
 category: josm
 ---
 
-JOSM Presets
+Předvolby JOSM
 ============
 
-> This guide may be downloaded as [josm-presets_en.odt](/files/josm-presets_en.odt) or [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
+> Tento návod může být stažen jako [josm-presets_en.odt](/files/josm-presets_en.odt) nebo [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
 > Zkontrolováno 2016-09-17  
 
-If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
+Pokud používáte JOSM dlouho, nyní už trochu rozumíte značkám a předvolbám. Každý objekt je definován dvěma věcmi - jednak jeho geometrií (ať už je to bod, čára nebo tvar a jeho poloha) a za druhé, jeho atributy, které přicházejí ve formě značek.  
 
-When you draw an object and select from the Presets menu, the correct tags are automatically applied to the object.  
+Při kreslení objektu a výběru z nabídky Přednastavení se na objekt automaticky použijí správné značky.  
 
-If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
+Chcete-li používat přednastavení, co se stane, když chcete přidat značky, které nejsou obsaženy v nabídce nebo chcete upravit vlastní značky?  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+V takovém případě můžete do přednastavení přidat vlastní položky nabídky. V této části uvidíme, jak to udělat. V [následující kapitole](/cs/josm/creating-presets) se budeme zabývat tvorbou vlastních přednastavených souborů.  
 
 
-Add Presets
+Přidat předvolby
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+Nabídky a podnabídky, které tvoří nabídku Předvolby, jsou uloženy v souborech, které popisují způsob vytváření nabídek a formulářů, které se objeví po klepnutí na přednastavení, a jak definovat, jaké značky jsou přidány k objektu podle toho, jak je formulář vyplněn.  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+Soubory předvoleb mohou být buď přidány z online archivu nebo uloženy v počítači místně a přidány do JOSM.  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* Chcete-li přidat novou položku do nabídky Předvolby, otevřete JOSM a přejděte na položku Upravit-> Předvolby.  
+* Klikněte na třetí záložku dole, která vypadá jako mřížka pokrývající planetu.  
 
 ![tagging presets tab][]
 
-* At the top, click on "Tagging Presets."  
+* V horní části klikněte na "Předvolby Označování."  
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Přidejte soubor předvolby z internetu výběrem jednoho v seznamu na levé straně a kliknutím na modrou šipku. V tomto příkladu přidáme předvolbu s názvem "Nové značky"  
 
 ![example presets][]
 
-* You will see a new item appear in the list on the right.  
-* Click OK.  
-* You will need to restart JOSM.  
-* Create a new layer and add a point or shape.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Uvidíte novou položku v seznamu vpravo.  
+* Klepněte na tlačítko OK.  
+* Budete muset restartovat JOSM.  
+* Vytvořte novou vrstvu a přidejte bod nebo tvar.  
+* Přejděte do nabídky Předvolby. V dolní části se zobrazí další položka, která se rozšiřuje na několik možností, které nejsou pokryty standardní instalací JOSM.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* Většina předvoleb pokrývá poměrně specifické případy použití, takže procházejte seznamem, pokud najdete jeden, který odpovídá vašim zájmům.  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* Pokud jste dostali vlastní soubor s předvolbami, můžete ho podobným způsobem přidat do nabídky. Jednoduše se vraťte do nabídky Předvolby a namísto výběru ze seznamu klikněte na tlačítko (+) vpravo nahoře.  
 
 ![plus button][]
 
-* Locate your file and give it a name if you like.  
-* Click OK.  
+* Vyhledejte soubor a pojmenujte jej, pokud se vám líbí.  
+* Klepněte na tlačítko OK.  
 
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png

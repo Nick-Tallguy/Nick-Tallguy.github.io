@@ -2,58 +2,58 @@
 layout: doc
 permalink: /cs/coordination/tm-whats-new-for-mappers/
 lang: cs
-title: What is new for Mappers in the Tasking Manager 3
+title: Co je nového pro mapovače v Tasking Manageru 3
 category: coordination
 date: 0500-10-21 13:00:00
 ---
 
-# What is new for Mappers in the Tasking Manager 3
+# Co je nového pro mapovače v Tasking Manageru 3
 
-> This guide may be downloaded as [tm3-news-for-mappers_en.odt](/files/tm3-news-for-mappers_en.odt) or [tm3-news-for-mappers_en.pdf](/files/tm3-news-for-mappers_en.pdf)  
+> Tento návod může být stažen jako [tm3-news-for-mappers_en.odt](/files/tm3-news-for-mappers_en.odt) nebo [tm3-news-for-mappers_en.pdf](/files/tm3-news-for-mappers_en.pdf)  
 
-## Your User Profile
+## Váš uživatelský profil
 
-Please make **your first activity in the new Tasking Manager visiting your User Profile**, which can be selected from the popdown menu under your OpenStreetMap (OSM) user name in the upper right corner.
+Proveďte prosím **svou první aktivitu v novém Tasking Manageru návštěvou uživatelského profilu**, který můžete vybrat v pop-up menu pod uživatelským jménem OpenStreetMap (OSM) v pravém horním rohu.
 
-Here you will find a number of new features, some of which will affect your regular mapping activity.
+Zde naleznete řadu nových funkcí, z nichž některé ovlivní vaše pravidelné mapování.
 
 ![profile][]
 
-1. **Contact information** - Please add your email address by clicking on the *Add/Edit Contact Details* button. This is critically important as OSM does not share your email address with anyone (and neither will we) so that you can get emails about your mapping and projects you have contributed to.
+1. **Kontaktní údaje** - Přidejte svou e-mailovou adresu kliknutím na tlačítko *Přidat / Upravit kontaktní údaje*. To je velmi důležité, protože OSM nesdílí vaši e-mailovou adresu s nikým (a ani my ne), takže tím můžete získat e-maily o mapování na projektech, ke kterým jste přispěli.
 
-2. **Your Mapper Experience Level** - This is a gauge of how much mapping you have done and some mapping projects might require a certain level of experience before you can contribute. This same area will indicate if you are an "Experienced Validator" as well.
+2. **Vaše úroveň mapovacích zkušeností** - To je ukazatel toho, kolik mapování jste udělali. Některé mapové projekty mohou vyžadovat určitou úroveň zkušeností, než jak budete moci přispět. Stejná oblast bude také ukazovat, zda jste "zkušený validátor".
 
-3. **A list and map view** of all the projects you have completed tasks in. This makes it very easy to come back and keep working on projects you have contributed to.
+3. **Seznam a zobrazení mapy** všech projektů, kde jste dokončili úkoly. Díky tomu je velmi snadné se vrátit a pokračovat v práci na projektech, ke kterým jste přispěli.
 
 
-## Finding Projects to Map
+## Hledání projektů k mapování
 
-Clicking on the Contribute link in the menu bar will bring you to the familiar list of projects sorted by priority, but along the left hand side of the screen you will find a full text/project number search box as well as some filters you can apply. Please note: We have all of the projects from the previous version of the Tasking Manager, most of which will not have these tags applied, so you still might need to search by text or project number to find them.
+Kliknutím na odkaz Contribute na liště nabídek se dostanete k známému seznamu projektů tříděných podle priorit, ale v levé části obrazovky najdete vyhledávací pole pro celé textové číslo / číslo projektu a některé filtry, které můžete použít . Vezměte prosím na vědomí: Máme všechny projekty z předchozí verze Správce úkolů, z nichž většina nebude mít tyto tagy aplikované, takže stále budete muset hledat podle textu nebo čísla projektu, abyste je našli.
 
 ![projects][]
 
-1. **Mapping Difficulty** - Projects can now have a difficulty assigned to them. This corresponds to your mapper experience level mentioned above. As you gain more experience mapping, you should try to work on projects that need your level of experience. Some projects may require you have certain level of experience to contribute to them.
+1. **Mapovací obtížnost** - Projekty mohou nyní mít přiřazenou obtížnost. To odpovídá výše zmíněné úrovni zkušeností s mapováním. Jak získáte více mapování zkušeností, měli byste se pokusit pracovat na projektech, které vyžadují vaši úroveň zkušeností. Některé projekty mohou vyžadovat, abyste měli k dispozici určitou úroveň zkušeností.
 
-2. **Organization and Campaign** - These filters will let you find projects for specific organizations or groups or for specific mapping campaigns.
+2. **Organizace a kampaň** - Tyto filtry vám umožní najít projekty pro konkrétní organizace nebo skupiny nebo pro konkrétní mapovací kampaně.
 
-3. **Type of Mapping** - Now you can find the projects that are asking for the kinds of mapping you like to do most or are in the mood to map.
+3. **Typ mapování** - Nyní můžete nalézt projekty, které požadují typy mapování, které chcete nejvíce provádět, nebo na které máte náladu mapovat.
 
 
-## Project Mapping Page
+## Strana Mapování projektu
 
-The Project mapping page has a number of changes that affect mappers. The most significant change is to the "Tabs" for the project.
+Stránka Mapování projektu má řadu změn, které ovlivňují mapovače. Nejvýznamnější změnou jsou "Záložky" pro projekt.
 
 ![mapping][]
 
-1. The **Description Tab** is gone and now the project description is always at the top of the page along with other detailed information about the project. The default tab open when you visit a page is the Instructions tab. Like always, you should read the instructions fully and check them often during crisis mapping in case they are updated or change.
+1. Záložka **Popis** je pryč a nyní popis projektu je vždy v horní části stránky spolu s dalšími podrobnými informacemi o projektu. Výchozí karta, která se otevře při návštěvě stránky, je karta Pokyny. Stejně jako vždy, měli byste si zcela přečíst pokyny a často je kontrolovat během mapování krizí v případě, že jsou aktualizovány nebo změněny.
 
-2. **Mapping and Validating tabs** - There are now two separate tabs for mapping and validating. You will need to make sure you are on the correct tab depending on whether you are mapping or validating. If you see a message about a task not being in the correct state, it is likely because you are on the wrong tab.
+2. **Záložky Mapovat a Ověřit** - K dispozici jsou nyní dvě samostatná záložky pro mapování a validaci. Budete se muset ujistit, že jste na správné kartě v závislosti na tom, zda mapujete nebo ověřujete. Zobrazí-li se zpráva o tom, že úkol není ve správném stavu, je pravděpodobné, že jste na nesprávné kartě.
 
-    On the Mapping tab you will also see a new option to mark a Task as "Bad Imagery," please use this if there is no high resolution imagery or the square is covered significantly by clouds.
+    Na záložce Mapovat se objeví i nová možnost označující úkol jako "Označit jako špatné fotomapy", použijte jej, pokud nejsou k dispozici snímky s vysokým rozlišením nebo je čtverec výrazně pokrytý mraky.
 
-    On the Project Task map, in the lower right corner you will find a button that allows you to see what the area looks like in satellite imagery.
+    Na mapě Projektové Úlohy v pravém dolním rohu najdete tlačítko, které vám umožní zjistit, jak vypadá oblast na satelitních snímcích.
 
-3. **Questions and Comments tab** - this is a project level (not task level) place to ask questions and leave comments for the project manager and other mappers. If you have any questions about mapping in general or the project overall this is the place to put them. There is a link "Contact project manager" that will automatically put the project manager's OSM username into the comment to make sure they see it.
+3. Záložka **Otázky a poznámky** - je to místo na úrovni projektu (ne na úrovni úkolu), kde můžete klást otázky a ponechat komentáře pro správce projektu a další mapovače. Pokud máte nějaké otázky o mapování obecně, nebo o projektu jako celku, je to místo, kde je můžete dát. K dispozici je odkaz "Kontaktujte správce projektu", který automaticky přidá uživatelské jméno OSM správce projektu do komentáře, aby se ujistil, že ho vidí.
 
 [profile]:  /images/coordination/tm3_wnm_profile.png
 [projects]: /images/coordination/tm3_wnm_projects.png

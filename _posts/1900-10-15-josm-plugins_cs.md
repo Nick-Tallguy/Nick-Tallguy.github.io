@@ -9,7 +9,7 @@ category: josm
 JOSM Pluginy
 ============
 
-> Tato příručka může být stažena jako [josm-plugins_en.odt](/files/josm-plugins_en.odt) nebo [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
+> Tento návod může být stažen jako [josm-plugins_en.odt](/files/josm-plugins_en.odt) nebo [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
 > Zkontrolováno 14.7.2015  
 
 Jakmile se stanete pokročilejší ve svých editacích technikách, budete možná chtít použít další funkce JOSM pro zlepšení mapovacích dovedností. JOSM umožňuje instalovat četné pluginy, které dodávají softwaru další funkce.  
@@ -50,8 +50,8 @@ Některé z našich oblíbených pluginů jsou:
 
 - [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)
 - [Direct Upload]({{site.baseurl}}/en/beginner/josm-plugins/#direct-upload) (allow you to upload GPS tracks)
-- [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)
-- [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
+- [Editgpx]({{site.baseurl}}/cs/beginner/josm-plugins/#edit-gpx) (umožňuje editovat soubory GPX)
+- [Tisk]({{site.baseurl}}/cs/beginner/josm-plugins/#print)
 
 We also recommend downloading these plug-ins, which are covered in other
 chapters:
@@ -111,7 +111,7 @@ will have to do it now.
 
 Once successfully uploaded, the Text area will display an "OK" status
 and the “Upload Trace” button will not be clickable. More information
-about this plug-in and GPS uploads is available in the [Appendix]({{site.baseurl}}/learnosm/en/).
+o tomto plug-inu a nahráních GPS je k dispozici v [Appendix]({{site.baseurl}}/learnosm/cs/).
 
 Edit gpx
 --------
@@ -202,7 +202,7 @@ Adding your GPS tracks and waypoints to the OSM Server is useful for
 many reasons.
 __(If you do not want your GPX points to be seen by anyone else you do not have to read this section.  You can simply display your GPX files from JOSM, and therefore store them locally).
 First of all, GPS tracks are the most useful way of collecting and
-georeferencing objects in OSM. See [Aerial Imagery](/en/josm/aerial-imagery/)
+georeferencování objektů v OSM. Viz [Letecké snímkování](/cs/josm/aerial-imagery/)
 GPS units have greater accuracy than satellite imagery and therefore are
 a useful tool for checking how offset imagery may be. Using many GPS
 tracks (the greater the number of tracks the greater the ability to

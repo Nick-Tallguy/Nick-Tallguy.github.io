@@ -29,13 +29,13 @@ Considering the scale of the crisis, HOT allocates the necessary resources and t
 
 The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
+Abyste mohli používat HOT Tasking Manager, musíte se zaregistrovat pomocí OpenStreetMap (OSM) s uživatelským jménem a heslem. Další pokyny si přečtěte na [Tasking Manager Tutorial](http://learnosm.org/cs/coordination/tasking-manager/).  
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Editing Tools 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
+[iD editor](http://learnosm.org/cs/beginner/id-editor/) - webový editor vytvořený společností [Mapbox](http://www.mapbox.com) s velmi uživatelsky přívětivým rozhraním. Obecně považován za nejlepší nástroj pro editaci. Můžete spustit tento [interaktivní výukový program pro iD editor](http://ideditor.com/), abyste se seznámili s jeho použitím.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
@@ -58,7 +58,7 @@ This guide has been summarized and collected from a variety of existing tutorial
 
 #### Tutorials
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+[LearnOSM - průvodce vzdáleného mapování](http://learnosm.org/cs/coordination/remote/) - jeden z nejkomplexnějších průvodců  
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
 
