@@ -31,7 +31,7 @@ Správce úloh (Tasking Manager) OpenStreetMap je nezbytný pro provádění map
 
  Tento návod je speciálně napsán pro ty osoby, které potřebují pokyny pro správu Task Manageru OSM, včetně tvorby a úpravy projektů mapování pro události otevřeného mapování, tj. "Mapatony". Tento návod se konkrétně vztahuje na případy OSM Tasking Manager verze 3 včetně [HOT Tasking Manager](http://tasks.hotosm.org) a [TeachOSM Tasking Manager](http://tasks.teachosm.org) .
 
-Modul Správce úloh HOT nebo OSM verze 3 je často označován jako ** TM3, ** jako zkratka pro Tasking Manager verze 3.
+Modul Správce úloh HOT nebo OSM verze 3 je často označován jako **TM3** jako zkratka pro Tasking Manager verze 3.
 
 ## Přihlašování a přístupové úrovně
 

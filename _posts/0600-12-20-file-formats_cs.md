@@ -1,66 +1,66 @@
 ---
 layout: doc
-title: File Formats
+title: Souborové formáty
 permalink: /cs/osm-data/file-formats/
 lang: cs
 category: osm-data
 ---
 
-File Formats
+Souborové formáty
 =============
 
-> This guide may be downloaded as [File_Formats_en.odt](/files/File_Formats_en.odt) or [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
+> Tento návod může být stažen jako [File_Formats_en.odt](/files/File_Formats_en.odt) nebo [File_Formats_en.pdf](/files/File_Formats_en.pdf)  
 > Zkontrolováno 2016-09-05
 
-Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
+Stejně jako jakýkoli typ dat existují různé způsoby ukládání geografických dat do počítače. Může být uložen v databázi, která je specializovaným systémem pro ukládání a načítání dat, a ve skutečnosti existují databázové systémy speciálně určené pro ukládání geografických dat. Může být také uložen v tradičních počítačových souborech, i když existuje mnoho různých formátů souborů pro geografické údaje.  
 
-In this section we'll go through a few ways of storing geographic data, explain how they work and how they're typically used.  
+V této části projdeme několik způsobů ukládání geografických údajů, vysvětlení, jak fungují a jak jsou obvykle používány.  
 
-.OSM Files
+.OSM soubory
 -----------
 
-The **.osm** file format is specific to OpenStreetMap. You won't come across it elsewhere. If you have ever downloaded data using JOSM and saved it as a file, you may have noticed that the file is saved with the extension **.osm**. If you are a GIS user, you may also have noticed that it is not easy to open these files using software such as QGIS.  
+Formát souboru **.osm** je specifický pro OpenStreetMap. Nenarazíte na něj nikde jinde. Pokud jste někdy stáhli data pomocí JOSM a uložili je jako soubor, možná jste si všimli, že soubor je uložen s příponou **.osm**. Pokud jste uživatel GIS, můžete si také všimnout, že není snadné tyto soubory otevřít pomocí softwaru, jako je QGIS.  
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that many geographic data formats predate the modern internet era, and are designed for quick access and querying like one would query a database. OSM data, on the other hand is designed to be easily sent and received across the internet in a standard format. Hence, **.osm** files are coded in XML, and contain geographic data in a structured, ordered format. A simple **.osm** file would look like this if viewed in a text editor:  
+Proč jsou tedy data OSM uložena ve formátu souboru, který nikdo jiný nepoužívá? Odpověď zní, že mnoho geografických formátů dat předchází moderní éře internetu a je určeno pro rychlý databázový přístup a dotazování, jako by se dotazovalo na databázi. Údaje OSM jsou na druhou stranu navrženy tak, aby byly snadno odesílány a přijímány přes internet v standardním formátu. Proto jsou soubory **.osm** kódovány ve formátu XML a obsahují geografické údaje ve strukturovaném uspořádaném formátu. Jednoduchý **.osm** soubor bude vypadat takto, pokud se zobrazí v textovém editoru:  
 
 ![Sample OSM XML file][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you download data in JOSM, but using these files for analysis and map design is not easy. Hence you are better off converting the data into another format, or getting it from a service that converts the data for you.  
+Získání dat ve formátu **.osm** je snadné - ve skutečnosti to děláte pokaždé, když stahujete data v JOSM, ale použití těchto souborů pro analýzu a návrh map není snadné. Proto je lepší převést data do jiného formátu nebo získat je ze služby, která pro vás převádí data.  
 
-> Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
+> Původní OSM data jsou obvykle uloženy v **.osm**, ale mohou se také zobrazit v souborech končící na **.bz2** a **.pbf**. Jedná se v podstatě o **.osm** soubory, které byly komprimovány, aby se ušetřilo místo, což může být mimořádně užitečné při práci s velkými datovými soubory.  
 
 Shapefiles
 ----------
 
-The **shapefile** is a widely used format for storing vector geographic data. It was developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.  
+Formát **shapefile** je široce používaný formát pro ukládání vektorových geografických dat. Byl vyvinut společností ESRI, která dělá software ArcGIS, populární sadu aplikací GIS.  
 
-Shapefiles are actually a collection of several different files. For example, a shapefile that contains building data might have files with the following extensions:  
+Shapefiles jsou vlastně sbírka několika různých souborů. Například shapefile, který obsahuje data budovy, může mít soubory s následujícími příponami:  
 
--	buildings.**shp**
--	buildings.**shx**
--	buildings.**dbf**
+-	budovy.**shp**
+-	budovy.**shx**
+-	budovy.**dbf**
 
-Shapefiles will often have additional files too which contain other information.  
+Shapefiles budou mít často i další soubory, které obsahují další informace.  
 
-A shapefile must be designated to hold only one type of feature (points, lines, or polygons), and each feature has it's attributes contained in a table. Unlike the OpenStreetMap system in which every object can have an unlimited number of tags, the attributes of features in a shapefile must fit into the shapefile's defined table structure, which might look something like this:  
+Soubor shapefile musí být navržen k tomu, aby obsahoval pouze jeden typ prvku (body, čáry nebo mnohoúhelníky) a každá funkce má atributy obsažené v tabulce. Na rozdíl od systému OpenStreetMap, v němž každý objekt může mít neomezený počet značek, atributy funkcí v shapefile musí odpovídat definované tabulkové struktuře shapefile, která může vypadat takto:  
 
 ![Shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
+Data OpenStreetMap lze převést na shapefile. Různé webové stránky poskytují shapefile soubory převedené z dat OSM. Ty jsou popsány v [další kapitole](/cs/osm-data/getting-data).  
 
-Databases
+Databáze
 ---------
 
-Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  
+Mnoho typů informací je uloženo v databázových systémech, které poskytují logický způsob uspořádání a přístupu k datům. Geografické údaje se neliší, ačkoli jsou databáze určené pro geodata specializovány na zvládnutí komplexních funkcí, které geografické údaje vyžadují.  
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
+Data OpenStreetMap jsou často uložena v databázi PostgreSQL s doplňky PostGIS. Tento typ databáze poskytuje rychlý přístup k datům a lze je snadno použít s Mapnikem, softwarem, který vytváří dlaždice mapy používané ve webových mapách. Existuje několik nástrojů pro import surových dat OSM do databáze PostgreSQL.  
 
-Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
+Jiný typ databáze je známý jako SQLite, který poskytuje podobnou funkcionalitu jako databáze PostgreSQL, ale je uložen v jediném souboru a nevyžaduje spuštění databázového softwaru. To je trochu obtížnější vytvořit si sám, ale může být snadnější pracovat s malými sadami dat.  
 
 Shrnutí
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+V následujících kapitolách uvidíme, jak lze stahovat data z různých formátů z internetu a jak můžete sami manipulovat s vlastními daty pomocí různých nástrojů.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png

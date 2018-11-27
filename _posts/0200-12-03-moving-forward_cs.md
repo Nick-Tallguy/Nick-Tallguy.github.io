@@ -17,9 +17,9 @@ Pokud jste se dostali až sem, gratulujeme! Měli byste mít dobré porozumění
 Další sekce learnOSM
 ---------------------------
 
-Na konec kapitoly o editory iD jste slyšeli o rozdílech mezi iD a JOSM. Existuje [celá kapitola věnovaná JOSM](/cs/josm/), kde se budete moci naučit všechny detaily potřebné k využití všech výhod, které tento editor nabízí.  
+Na konci kapitoly o iD editoru jste slyšeli o rozdílech mezi iD editorem a JOSM. Existuje [celá kapitola věnovaná JOSM](/cs/josm/), kde se budete moci naučit všechny detaily potřebné k využití všech výhod, které tento editor nabízí.  
 
-Zatím, všechny změny přidané do mapy byly založené na fotografiích na pozadí. Vy ale můžete sbírat mnoho důležitých informací během chůze nebo ježdění kolem. [Kapitola o mobilním mapování](/cs/mobile-mapping/) vysvětluje jak sbírat informace pomocí různých GPS zařízení nebo speciálně navržených výtisků. Také vysvětluje několik aplikací souvisejících s OpenStreetMap pro mobilní telefony.  
+Zatím, všechny změny přidané do mapy byly založené na fotografiích na pozadí. Vy ale můžete sbírat mnoho důležitých informací během chůze nebo ježdění na kole. [Kapitola o mobilním mapování](/cs/mobile-mapping/) vysvětluje jak sbírat informace pomocí různých GPS zařízení nebo speciálně navržených výtisků. Také vysvětluje několik aplikací souvisejících s OpenStreetMap pro mobilní telefony.  
 
 OpenStreetMap je společný program a doufáme, že budete její součástí. Některé z těchto úkolů jsou věnovány humanitární podpoře pod záštitou [Humanitární OSM Tým](http://hotosm.org). Pokud byste chtěli pomoci HOT v případě katastrof jako zemětřesení v Nepálu, prosím, podívejte se na [kapitolu koordinace](/cs/coordination/). Ta popisuje nástroje, které umožňují mnoha lidem pracovat společně na relativně malém prostoru sladěně. Také obsahuje rady k některým typickým úkolům, které často potkáte pokud se připojíte k tomuto programu.  
 

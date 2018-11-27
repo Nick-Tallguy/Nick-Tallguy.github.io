@@ -28,7 +28,7 @@ Začínáme s iD Editorem
 -	Otevřete váš internetový prohlížeč a jděte na stránku OpenStreetMap na [http://www.openstreetmap.org](http://www.openstreetmap.org).  
 -	**Přihlašte se** pomocí vašeho OpenStreetMap účtu.  
 -	Přesuňte se a přibližte mapu nad místo, kde chcete něco upravovat. Přesouvat se můžete pomocí držení levého tlačítka myši a posouváním mapy do vámi hledané polohy.  
--	Klikněte na malou šipku vedle nápisu **Editovat*. Potom klikněte na **Editovat pomocí iD (editor v prohlížeči)**.  
+-	Klikněte na malou šipku vedle nápisu **Editovat**. Potom klikněte na **Editovat pomocí iD (editor v prohlížeči)**.  
 
 ![image1][]
 

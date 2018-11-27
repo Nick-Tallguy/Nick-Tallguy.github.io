@@ -1,71 +1,71 @@
 ---
 layout: doc
-title: HOT Remote Mapping  
+title: HOT Vzdálené mapování  
 permalink: /cs/coordination/HOT-Remote-Response-Guide 
 lang: cs
 category: coordination
 ---
 
-# HOT Remote Response Guide   
+# HOT příručka pro vzdálenou odezvu   
 
 ![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
 
-> This guide may be downloaded as [remote-mapping_en.odt](/files/remote-mapping_en.odt) or [remote-mapping_en.pdf](/files/remote-mapping_en.pdf)  
+> Tento návod může být stažen jako [remote-mapping_en.odt](/files/remote-mapping_en.odt) nebo [remote-mapping_en.pdf](/files/remote-mapping_en.pdf)  
 > Zkontrolováno 2015-09-18  
 
-The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.  
+Humanitární tým OpenStreetMap (HOT) je globální komunita, která funguje na uplatňování principů otevřeného a otevřeného sdílení dat v oblasti humanitární pomoci a hospodářského rozvoje.  
 
-### How Remote Response Works 
+### Jak funguje vzdálená odezva 
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
-The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.  
+Většina aktivit a reakcí HOT se děje vzdáleně. Po krizové události členové HOT hledají stávající data a dostupné satelitní snímky. Příslušní partneři jsou kontaktováni, aby poskytli snímky kompatibilní s ODbL. Po získání snímků je virtuální komunita digitalizuje nebo trasuje ze snímků (obvykle se zaměřuje na rozpoznatelné objekty, které jsou užitečné pro humanitární reakci, jako jsou silnice, budovy, blokované silnice, rozsah povodní atd.) a generuje data a mapy. Během této doby jsou také kontaktovány záchranné organizace, aby určily své potřeby.  
 
-Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
+Vzhledem k rozsahu krizové události přidává společnost HOT potřebné zdroje a reakce je koordinována konkrétním týmem nebo členem, který zajistí, aby všichni věděli, kdy jsou k dispozici nové zdroje, a kam zaměřit své úsilí. HOT podporuje zapojení komunit OSM, a pokud existují, i místní aktéři také používají nástroje, jako je Tasking Manager, sloužící ke koordinaci úsilí o reakci. Příklady zahrnují vzdálené aktivity prováděné na Pobřeží slonoviny, Senegalu, Filipínách a Demokratické republice Kongo.  
 
-[Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
+[Příklad aktivace Sýrie](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### The HOT Tasking Manager 
+### HOT Tasking Manager 
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
+[HOT Tasking Manager](http://tasks.hotosm.org/) je nástroj s otevřeným zdrojovým kódem určený k rozdělení úlohy mapování na menší úkoly, které lze rychle dokončit. Ukazuje, které oblasti je třeba mapovat a které oblasti potřebují mapování ověřené ostatními. Zahrnuje mapovací úlohy pro [Aktivace](http://wiki.openstreetmap.org/wiki/HOT_activation) a dlouhodobé [Humanitární projekty](http://hot.openstreetmap.org/projects).  
 
 Abyste mohli používat HOT Tasking Manager, musíte se zaregistrovat pomocí OpenStreetMap (OSM) s uživatelským jménem a heslem. Další pokyny si přečtěte na [Tasking Manager Tutorial](http://learnosm.org/cs/coordination/tasking-manager/).  
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
-### Editing Tools 
+### Nástroje pro úpravy 
 
 [iD editor](http://learnosm.org/cs/beginner/id-editor/) - webový editor vytvořený společností [Mapbox](http://www.mapbox.com) s velmi uživatelsky přívětivým rozhraním. Obecně považován za nejlepší nástroj pro editaci. Můžete spustit tento [interaktivní výukový program pro iD editor](http://ideditor.com/), abyste se seznámili s jeho použitím.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
+[JOSM](https://josm.openstreetmap.de/) - javovská aplikace vyslovovaná jako "Jaws-um", která vyžaduje stažení aplikace a má větší křivku učení. Přestože nastavení a učení trvá déle, je pro zpracování dalších úprav super rychlé. Pro tento editor se doporučuje používat myš.   
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Advice & Words of Encouragement
+### Poradenství a slova povzbuzení
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
-> "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
-> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
+> "Chcete-li trénovat, doporučujeme začít s místní oblastí, kterou znáte, a vyzkoušet nějaké úpravy, například aktualizaci místní budovy ve vašem okolí."  
+> "Některé úkoly jsou jednodušší než jiné. Pokud se necítíte na nějakou z nich, jednoduše ji přeskočte a zkuste další!" -Petr (@meetar)  
+> "Není problém, když nedokončíte úkol, stačí nahrát to, co jste udělali, a odemknout úkol, aby ostatní mohli na něm pracovat." -Petr (@meetar)  
+> "Pokud chcete vidět příklady kvalitní práce, která je vzorně zpracovaná, podívejte se na jeden ze zelených "ověřených" úkolů. Nebojte se, když klepnete na tlačítko "Zkontrolovat práci" - to prostě zablokuje úlohu, jako kdybyste ji upravovali. Načtěte ji jako obvykle a po dokončení jednoduše odemkněte úkol." -Petr (@meetar)  
+> "Satelitní snímky jsou někdy obtížně interpretovány, ale nemusíte se příliš bát o kreslení perfektní linky nebo tvaru - vaše práce bude přezkoumána a upravena ostatními a časem zdokonalena. A pamatujte, jsou to krizové oblasti, ne daňové záznamy nebo volební obvody - tyto mapy budou číst lidé, kteří mohou spěchat, v temnotě, nebo v ohrožení. V západní Africe je dokonce i hrubá čára na mapě výrazem naděje. Mnoho objektů v pásmu Gaza, které mají být namapované, jsou již pryč, ale označujeme jejich stavbu. "Přesnost je hezká, ale není to vždy pointa." -Petr (@meetar)  
  
-### Other Resources 
+### Jiné zdroje 
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
+Tato příručka byla shrnutá a shromážděna z různých stávajících zdrojů výuky a z pracovní příručky HOT. Další odkazy naleznete níže.  
 
-#### Tutorials
+#### Tutoriály
 
 [LearnOSM - průvodce vzdáleného mapování](http://learnosm.org/cs/coordination/remote/) - jeden z nejkomplexnějších průvodců  
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[MapGive's Learn To Map tutoriál](http://mapgive.state.gov/learn-to-map/) - obsahuje videa, která si můžete pozastavit, abyste je mohli prozkoumat  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - napsal Peter Richardson (@meetar) zkušený dobrovolník HOT Remote Response  
 
-#### About HOT 
+#### O HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news  
+[HOT Wiki strana](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dozvíte se více o tom, jak funguje HOT a i některé z nejnovějších zpráv  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describes HOT activities in more detail from their website  
+[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities) - podrobněji popisuje činnosti HOT z jejich webových stránek  

@@ -21,7 +21,7 @@ Neustále aktualizujeme naše příručky pro software a školení, ale to trvá
 
 Nepotřebujete, abyste si přečetli všechny tyto stránky dříve, než začnete, ale potřebujeme, abyste pochopili základy:  
 
-1. Potřebujete pečlivě přečíst pokyny k Tasking Manageru pro každý projekt, který by vám pomohl mapovat. Mohou se lišit, takže se ujistěte, že jste je přečetli a porozuměli jim. Existuje úplný popis použití [Tasking Manageru zde v rámci LearnOSM](/en/coordination/tasking-manager/) a zahrnuje jak získat živou pomoc od zkušeného mapovače.  
+1. Potřebujete pečlivě přečíst pokyny k Tasking Manageru pro každý projekt, který by vám pomohl mapovat. Mohou se lišit, takže se ujistěte, že jste je přečetli a porozuměli jim. Existuje úplný popis použití [Tasking Manageru zde v rámci LearnOSM](/cs/coordination/tasking-manager/) a zahrnuje jak získat živou pomoc od zkušeného mapovače.  
 
 2. Ujistěte se, že jste si dostatečně přiblížili mapu, takže můžete skutečně vidět, co byste měli sledovat - [to, a mnoho dalšího je vysvětleno zde.](/cs/coordination/remote/)  
 
