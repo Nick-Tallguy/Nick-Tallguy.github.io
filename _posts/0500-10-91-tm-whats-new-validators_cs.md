@@ -2,68 +2,68 @@
 layout: doc
 permalink: /cs/coordination/tm-whats-new-for-validators/
 lang: cs
-title: What is new for Validators in the Tasking Manager 3
+title: Co je nového pro validátory v Tasking Manageru 3
 category: coordination
 date: 0500-10-21 12:00:00
 ---
 
-# What is new for Validators in the Tasking Manager 3
+# Co je nového pro validátory v Tasking Manageru 3
 
-> This guide may be downloaded as [tm3-news-for-validators_en.odt](/files/tm3-news-for-validators_en.odt) or [tm3-news-for-validators_en.pdf](/files/tm3-news-for-validators_en.pdf)  
+> Tento návod může být stažen jako [tm3-news-for-validators_en.odt](/files/tm3-news-for-validators_en.odt) nebo [tm3-news-for-validators_en.pdf](/files/tm3-news-for-validators_en.pdf)  
 
-## Your User Profile
+## Váš uživatelský profil
 
-The Tasking Manager 3 has a number of new features directed toward folks doing validation. Please make your **first activity in the new Tasking Manager visiting your User Profile**, which can be selected from the popdown menu under your OpenStreetMap (OSM) user name in the upper right corner.
+Tasking Manager 3 má řadu nových funkcí zaměřených na lidi kteří validují. Proveďte svou **první aktivitu v novém Tasking Manageru, návštěvou uživatelského profilu**, na který můžete vstoupit z pop-up menu pod uživatelským jménem OpenStreetMap (OSM) v pravém horním rohu.
 
 ![profile][]
 
-1. **Email Address** - The Tasking Manager can now send an email whenever a user receives a message in the Tasking Manager. This is very important to people doing validation. Comments left when validating mapping are now much more likely to be seen by the person whose work you are validating. Please be sure to **add your email address** to your profile as well.
+1. **E-mailová adresa** - Tasking Manager nyní může poslat e-mail vždy, když uživatel obdrží zprávu v Tasking Manageru. To je velmi důležité pro lidi, kteří provádějí validaci. Komentář, který jste zanechali při validaci mapování, je mnohem pravděpodobnější, že bude vidět osoba, jejíž práci potvrzujete. Ujistěte se, že **přidáte svou e-mailovou adresu** také do svého profilu.
 
-2. **Validator Role** - Projects can optionally require experienced validators to validate project mapping. While "Mapper Experience Level" is automatically set based on OSM changesets, the validator role is currently only set by project managers manually. The initial list of folks with the validator role is incomplete, please contact a project manager to have your name added to the list of those with the validator role if you are an experienced validator who does not have the validator role in the Tasking Manager. **Please note**: The validator role is Tasking Manager wide and therefore we ask project managers to only assign this role to validators whose validation work they know directly, and have first hand knowledge the validator is qualified to validate any project in the Tasking Manager.
+2. **Role Validátora** - Projekty mohou volitelně vyžadovat zkušené validátory k ověření mapování projektu. Zatímco "úroveň zkušeností Mapper" je automaticky nastavena na základě sady změn OSM, role validátora je v současné době nastavována ručně pouze projektovými manažery. Počáteční seznam uživatelů s úlohou ověřovacího modulu je neúplný, obraťte se na správce projektu, aby bylo vaše jméno přidáno do seznamu osob, které mají role validátora, pokud jste zkušený validátor, který ještě nemá v nástroji Tasking Manager roli ověřování. **Upozorňujeme**: Role validátora je v Tasking Manageru významná, a proto žádáme projektové manažery, aby tuto roli přiřadili validátorům, jejichž validační práci přímo znají a mají znalosti z první ruky, že validátor je kvalifikován pro validaci jakéhokoli projektu v Tasking Manageru.
 
 
-## Validation Process
+## Proces validace
 
-### Step 1 - Task Selection
+### Krok 1 - Výběr úloh
 
-Validating can only be done by clicking the "Validation" tab on a Project page. Once you have selected the "Validation" tab you have three main options for how to select tasks to validate.
+Ověření lze provést pouze kliknutím na kartu "Validace" na stránce Projekt. Jakmile vyberete kartu Validace, máte k dispozici tři hlavní možnosti výběru úkolů k ověření.
 
 ![selection][]
 
-1. **Select an individual task** to validate - This is exactly the same process that exists in the current Tasking Manager, you click on a task or use the "Validate a Random Task" button and then click "Start Validating" and launch your editor.
+1. **Vybrat individuální úlohu** pro ověření - Je to přesně stejný proces, který existuje v aktuálním Tasking Manageru, kliknete na úkol nebo použijete tlačítko "Ověřit náhodnou úlohu" a poté kliknete na "Start Validating" a spusťte editor.
 
-2. **Select by area** - This allows you to draw one polygon on the task map and it will select all of the tasks that are available for validation. You can then click "Start Validating" and it will lock them all for validation.
+2. **Výběr podle oblasti** - Umožňuje kreslit jeden polygon na mapě úkolů a vybere všechny úkoly, které jsou k dispozici pro validaci. Poté můžete klepnout na tlačítko "Start Validating" (Začátek ověřování) a všechny je uzamknete pro ověření.
 
-3. **Select by user** - A list of all the users who have contributed to the project is on the left side of the page along with some information about them. You can sort by any of column headings:
+3. **Výběr podle uživatele** - Seznam všech uživatelů, kteří přispěli k projektu, je na levé straně stránky spolu s informacemi o nich. Můžete třídit podle libovolných záhlaví sloupců:
 
-- Level - Based on the number of OSM changesets
-- Registered - How long they have been using the Tasking Manager.
-- Last Validation - The last time they had a task validated
+- Úroveň - Na základě počtu sady změn OSM
+- Registrovaní - Jak dlouho používají Tasking Manager.
+- Poslední validace - Poslední ověření úkolu
 
-Using your mouse to hover over the "Start" link will highlight the tasks that user has completed. Clicking on the "Start" link will lock them all for validation.
+Pomocí myši umísťujete kurzor myši nad odkaz "Start" zvýrazníte úkoly, které uživatel dokončil. Klepnutím na odkaz "Start" je všechny zamknete pro ověření.
 
-### Step 2 - Validating Multiple Tasks
+### Krok 2 - Validace více úkolů
 
-Selecting one single task and launching your editor of choice will behave the same as in the previous version of the Tasking Manager, the real difference will be when you select multiple tasks and launch your editor.
+Výběr jednoho úkolu a spuštění vašeho editoru se bude chovat stejným způsobem jako v předchozí verzi Tasking Manageru, skutečný rozdíl bude při výběru více úloh a spuštění editoru.
 
-There is less of a change in the iD editor, the big difference being that instead of seeing just one task outline, you will see multiple task outlines. Because iD only downloads data for areas you zoom in close for and accepts GPX outlines there is not much difference in your workflow, just more areas locked in the Tasking Manager and more area to review mapping in. 
+Změn iD editoru je málo, velký rozdíl spočívá v tom, že namísto toho, abyste viděli pouze jeden obrys úkolu, uvidíte více obrysů úloh. Vzhledem k tomu, že aplikace iD editor pouze stahuje data pro oblasti, pro které se blížíte přiblížení a akceptuje obrysy GPX, není ve vašem pracovním postupu příliš velký rozdíl, pouze více oblastí je uzamčeno v nástroji Správce úloh a více oblastí, kde je možné prohlížet mapování. 
 
-Using JOSM however is now slightly different. When launching JOSM two OSM data layers will be created, one will be non-uploadable and it will have the outlines of the tasks that need validation and one will be a blank, editable OSM data layer. **No data will be downloaded from OSM**.
+Použití JOSM se však nyní trochu liší. Při spuštění JOSM budou vytvořeny dvě vrstvy dat OSM, jedna bude nedostupná a bude mít obrysy úkolů, které potřebují ověření a jedna bude prázdná, upravitelná datová vrstva OSM. **Z OSM nebudou stažena žádná data**.
 
 ![multiple][]
 
-You will use the with the task outlines as a guide for downloading OSM data to the editable layer and proceed to validate as you normally would.
+Použijete obrysy úloh jako pomůcku pro stahování dat OSM do upravitelné vrstvy a pokračujte v ověřování tak, jak jste běžně zvyklí.
 
-When you are done validating, you have the three standard options, Mark all Valid, Mark all Invalid, or Stop Validating. When multiple tasks are checked out for validation, the same option must be chosen for all the tasks checked out. You can not, in the same workflow, mark some as valid and mark others as invalid.
+Po dokončení validace máte tři standardní možnosti: Označit všechny platné, Označit všechny neplatné nebo Zastavit ověření. Při kontrole validace více úkolů je třeba zvolit stejnou volbu pro všechny kontrolované úkoly. Ve stejném pracovním postupu nemůžete označit některé jako platné a označit ostatní jako neplatné.
 
-If you need to mark tasks with different statuses after reviewing them, please check them out individually to mark them accordingly.
+Pokud potřebujete označit úkoly s různými stavy po jejich kontrole, zkontrolujte je, zda je chcete označit.
 
 
-## Other Validation related Items
+## Další položky související s validací
 
-1. **Questions and Comments tab** - This is now a tab for project level questions and comments. Validators should review the the comments in that tab and answer questions as needed. Validators can also use that tab and the "Contact the Project Manager" link to direct questions or comments to the creator of the project.
+1. Záložka **Otázky a komentáře** - Toto je nyní záložka pro otázky a komentáře na úrovni projektu. Validátoři by měli zkontrolovat komentáře na této kartě a podle potřeby odpovědět na otázky. Validátoři mohou také použít tuto kartu a odkaz "Kontaktujte projektového manažera", aby nasměrovali otázky nebo připomínky tvůrci projektu.
 
-2. **Task level comments feed** - The Activity and Stats button in the upper right hand corner of the tasks map now has a feed of all the comments left on the individual tasks. Validators should review that list of comments to help identify issues and answer questions.
+2. **Úkoly na úrovni úloh** - Tlačítko Aktivita a statistiky v pravém horním rohu mapy úloh má nyní zdroj všech připomínek, které zůstaly v jednotlivých úlohách. Validátoři by měli přezkoumat tento seznam poznámek, aby pomohli identifikovat problémy a odpovídat na otázky.
 
 [profile]:   /images/coordination/tm3_wnv_profile.png
 [selection]: /images/coordination/tm3_wnv_selection.png
