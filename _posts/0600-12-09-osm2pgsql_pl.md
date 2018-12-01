@@ -11,63 +11,63 @@ osm2pgsql
 
 > Ten przewodnik może zostać pobrany jako [osm2pgsql_pl.odt](/files/osm2pgsql_pl.odt) lub [osm2pgsql_pl.pdf](/files/osm2pgsql_pl.pdf)  
 
-In the previous chapter we saw how to set up Postgresql with PostGIS in Windows and how to set up a database and load it with shapefile data. In order to get OpenStreetMap data into a database, you could get the data in shapefile format and use the shapefile loader, but this may leave you without all the data that you want. In this chapter we will learn how to use **osm2pgsql**, a command-line program for loading raw OSM data into a PostGIS database.  
+W poprzednim rozdziale zobaczyliśmy, jak zainstalować Postgresql z PostGIS w Windowsie oraz jak ustawić bazę danych i wypełnić ją danymi z plików shape. W celu pozyskania danych OpenStreetMap do bazy danych możesz wziąć dane w plikach shape i użyć wczytywania tych plików, ale może to skutkować tym, że nie zdobędziesz wszystkich danych, które chciałeś. W tym rozdziale nauczymy się, jak używać **osm2pgsql**, programu wiersza polecenia do ładowania surowych danych OSM do bazdy danych PostGIS.  
 
-We will go through the steps to set up osm2pgsql on Windows, though the steps should be roughly the same on another operating system, assuming you have set up your PostGIS database(s) correctly.  
+Przejdziemy przez kroki do ustawienia osm2pgsql w Windowsie, chociaż mniej więcej tak samo powinno być na innym systemie operacyjnym, jeżeli ustawiłeś prawidłowo bazę (bazy) danych PostGIS.  
 
-Get osm2pgsql
+Pobierz osm2pgsql
 -------------
 
-To download the windows version of osm2pgsql, navigate your web browser to <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+Aby pobrać wersję osm2pgsql dla Windowsa, przejdź w przeglądarce do <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
 
 ![windows binary][]
 
-- Download the file named **osm2pgsql.zip**  
-- Unzip the file on your system. You should move the unzipped folder to a location where you will not move it later, because we need to add its location to the system path.  
+- Pobierz plik nazwany **osm2pgsql.zip**  
+- Wypakuj plik na swoim komputerze. Powinieneś przenieść rozpakowany folder do miejsca, z którego nie będziesz go już przenosić, ponieważ będziemy musieli dodać go do ścieżki systemowej.  
 
 ![unzip it][]
 
-- In the osm2pgsql directory that you unzipped is a file called osm2pgsql.exe.  This is a program that we will run to import the data, but in order for Windows to find it, we need to add its location to the system path.  Click on the Start Menu and type “system path.”  
+- W folderze osm2pgsql, który rozpakowałeś jest plik nazwany osm2pgsql.exe. To jest program, który uruchomimy, aby zaimportować dane, ale żeby Windows mógł go znaleźć, musimy dodać jego lokalizację do ścieżki systemowej. Kliknij na menu Start i wpisz "ścieżka systemu".  
 
 ![system path][]
 
-- You should see an option named “Edit the system environment variables.”  Click on it.  
+- Zobaczysz opcję nazwaną "Edytuj zmienne środowiskowe systemu". Kliknij ją.  
 
 ![edit variables][]
 
-- Click on the button named “**Environment Variables**”  
+- Kliknij przycisk nazwany "**Zmienne środowiskowe**".  
 
 ![env variables][]
 
-- At the bottom find the variable named “**Path**” and click “**Edit...**”  
+- U dołu znajdź zmienną nazwaną "**Path**" i kliknij "**Edytuj...**"  
 
 ![find path][]
 
-- You must add the directory where osm2pgsql.exe is located to the Path variable.  
+- Musisz dodać katalog, w którym jest osm2pgsql.exe do zmiennej Path.  
 
 ![edit path][]
 
-- Add a semicolon to the end of the previous directory and then type in the full directory path of osm2pgsql.exe.  For example, if you put the **osm2pgsql** folder directly in the **C:\\** directory the path would be:  
+- Dodaj średnik na końcu poprzedniego katalogu i wpisz pełną ścieżkę do folderu z osm2pgsql.exe.  Na przykład, jeśli folder **osm2pgsql** znajduje się bezpośrednio w katalogu **C:\\**, ścieżka będzie wyglądała następująco:  
 	
 **C:\osm2pgsql\Win32**  
 
-- Click OK several times to save the new settings.  
-- **osm2pgsql** should be functioning now. Let's check it.  
-- Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
+- Kliknij OK kilka razy, aby zapisać nowe ustawienia.  
+- **osm2pgsql** powinno teraz działać. Sprawdźmy to.  
+- Otwórz Wiersz polecenia. Możesz to zrobić klikając menu Start i wpisując "**cmd**". Pojawi się Wiersz polecenia i możesz nacisnąć Enter lub kliknąć na nim, aby go uruchomić.  
 
 ![cmd][]
 
-- In the black command window that opens, type:  
+- W czarnym oknie poleceń, które się pojawi, wpisz:  
 
 **osm2pgsql**
 
-- If everything is working right, you should get a message like this:  
+- Jeżeli wszystko działa prawidłowo, powinieneś otrzymać wiadomość podobną do tej:  
 
 ![osm2pgsql test][]
 
-- If you don't see an error message like this, and it says that it cannot find the application **osm2pgsql**, then you may have entered the Path variable incorrectly.  
+- Jeżeli nie widzisz takiego błędu, a pojawia się komunikat, że nie można znaleźć aplikacji **osm2pgsql**, to mogłeś źle uzupełnić zmienną Path.  
 
-Getting Raw OSM Data
+Pobieranie surowych danych OSM
 ---------------------
 Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://mapzen.com/data/metro-extracts/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
 
