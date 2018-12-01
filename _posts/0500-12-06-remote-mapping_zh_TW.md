@@ -8,7 +8,7 @@ category: coordination
 
 # HOT 遠端支援指南   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > 此指南能以 [remote-mapping_zh_TW.odt](/files/remote-mapping_zh_TW.odt) 或 [remote-mapping_zh_TW.pdf](/files/remote-mapping_zh_TW.pdf) 下載  
 > 審閲於 2015-09-18  

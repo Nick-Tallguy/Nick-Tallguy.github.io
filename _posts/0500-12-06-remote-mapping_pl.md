@@ -8,7 +8,7 @@ category: coordination
 
 # Przewodnik zdalnego reagowania HOT   
 
-![Logo Przewodnika HOT](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![Logo Przewodnika HOT](/images/hot-logo.png)  
 
 > Ten przewodnik może zostać pobrany jako [remote-mapping_pl.odt](/files/remote-mapping_pl.odt) lub [remote-mapping_pl.pdf](/files/remote-mapping_pl.pdf)  
 > Przejrzano 18.09.2015  

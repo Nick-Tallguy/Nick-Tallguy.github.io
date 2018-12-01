@@ -8,7 +8,7 @@ category: coordination
 
 # HOT Remote Response Guide   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > این راهنما را می‌توان به صورت [remote-mapping_fa.odt](/files/remote-mapping_fa.odt) و یا [remote-mapping_fa.pdf](/files/remote-mapping_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۱۷  

@@ -8,7 +8,7 @@ category: coordination
 
 # HOT příručka pro vzdálenou odezvu   
 
-![HotGuideLogo](http://hot.openstreetmap.org/sites/default/themes/hot/logo.png)  
+![HotGuideLogo](/images/hot-logo.png)  
 
 > Tento návod může být stažen jako [remote-mapping_en.odt](/files/remote-mapping_en.odt) nebo [remote-mapping_en.pdf](/files/remote-mapping_en.pdf)  
 > Zkontrolováno 2015-09-18  
