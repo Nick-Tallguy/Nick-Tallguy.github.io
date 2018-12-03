@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: HOT 遠端製圖  
-permalink: /zh_TW/coordination/HOT-Remote-Response-Guide 
+permalink: /zh_TW/coordination/HOT-Remote-Response-Guide/ 
 lang: zh_TW
 category: coordination
 ---

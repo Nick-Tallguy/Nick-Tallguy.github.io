@@ -43,15 +43,15 @@ iD 編輯器 - 儲存
 
 如果你選擇；
 
-- **Mark task as done** the square you were working on will turn yellow to show it is complete and awaiting validation.  
-- **Stop Mapping** the square will return to it's white or pale grey colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
-    - "There are more buildings to trace in the bottom right corner of the square, but I've run out of time"  
+**標記任務為完成*你工作的方塊，然後會變成黃色表示完成，並且等待審核。  
+- **停止畫地圖**會讓方塊變成白色或是恢白色，顯示需要更多工作。留下評論則會讓下個圖客知道要做什麼，像是   
+    - 「右下角的方框內有不少可以描繪的建築，但我沒時間」  
 
 The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is complete, click on the **Mark task as done** button. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated. *Sometimes the mapper who invalidated a square is wrong - perhaps they should have just completed the few things that were needed. - We all miss something at some point.*  
 
 OpenStreetMap has evolved because mappers are constantly improving the information. Sometimes new imagery becomes available making more detailed mapping possible, and sometimes a survey takes place and information is gained and added to the map.   
 
-### Task Manager - sending a message to another Task Manager user ###
+### 任務分配管理器 - 傳送訊息給其他任務分配管理器使用者 ###
 You can send a message from this box to another Tasking Manager user by using **@** followed by the username - for instance "Thanks for your work on this @Tallguy I noticed you were having problems with round buildings - this link may help http://learnosm.org/en/hot-tips/tracing-round-buildings/. Keep up the good work! Regards Nick"  
 
 參見  
