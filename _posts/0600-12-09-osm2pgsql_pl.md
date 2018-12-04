@@ -69,41 +69,41 @@ Aby pobrać wersję osm2pgsql dla Windowsa, przejdź w przeglądarce do <http://
 
 Pobieranie surowych danych OSM
 ---------------------
-Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://mapzen.com/data/metro-extracts/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
+Zanim uruchomimy **osm2pgsql** potrzebujemy trochę surowych danych OSM do zaimportowania ich do bazy danych. Jeśli nie masz jeszcze pliku **.osm**, którego mógłbyś użyć, spróbuj pobrać plik z <https://mapzen.com/data/metro-extracts/>. Ta strona udostępnia wiele wyciągów z OSM dla różnych miast. Znajdź miasto do zaimportowania i pobierz dla niego plik PBF. Pliki PBF, to skompresowane wersje plików **.osm**. Możesz użyć którejkolwiek z usług wyciągów wymienionych w rozdziale o [pozyskiwaniu danych](/pl/osm-data/getting-data), jeśli wolisz surowe dane z innego obszaru.  
 
-Get the Style File
+Pobieranie pliku stylu
 ------------------
-**osm2pgsql** requires the use of a custom style file to define which tags are included in the database during import. You can download the default style file [here](/files/default.style).  
+**osm2pgsql** wymaga użycia dostosowanego pliku stylu do określenia, które tagi są zawarte w bazie danych podczas importu. Możesz pobrać domyślny plik stylu [tutaj](/files/default.style).  
 
-Importing the Data
+Importowanie danych
 -------------------
-Open PgAdmin III and create a new database named **osm**, just as you did in the previous chapter. To import the data, we will run the **osm2pgsql** program via the command line. 
+Otwórz PgAdmin III i utwórz nowa bazę danych o nazwie **osm** tak, jak to zrobiłeś w poprzednim rozdziale. Aby zaimportować dane, uruchomimy program **osm2pgsql** z wiersza polecenia. 
 
-- Click on the Start Menu and type "cmd" and Enter to open the Command Prompt.  
+- Kliknij menu Start i wpisz "cmd", a następnie naciśnij Enter, aby uruchomić Wiersz polecenia.  
 
 ![command prompt][]
 
-Here we will run the application **osm2pgsql** with several options. We need at least to supply it with:  
+Tutaj uruchomimy aplikację **osm2pgsql** z kilkoma opcjami. Musimy podać przynajmniej:  
 
-- The location of the OSM Data File  
-- The name of the database, and the database username  
-- The style file which defines which OSM tags will be imported to the database  
+- Położenie pliku danych OSM  
+- Nazwę bazy danych i jej użytkownika  
+- Styl opisujący, które tagi OSM zostaną zaimportowane do bazy danych  
 
-We have placed our OSM file into the **C:\\** directory to make this easier.  
+Dla ułatwienia umieściliśmy nasz plik OSM w katalogu **C:\\**.  
 
-- Type the following command, replacing the location of the OSM file and style file with your own.
+- Wpisz następujące polecenie, zastępując lokalizację pliku OSM i pliku stylu swoimi własnymi.
 
       osm2pgsql -c -d osm -U postgres -H localhost -S C:\default.style C:\bangkok.osm.pbf  
 
-- Press Enter. If all goes well, the process should begin running. It may take a few minutes for all of the data to load into the database.  
+- Naciśnij Enter. Jeśli wszystko poszło dobrze proces powinien się rozpocząć. Wczytanie wszystkich danych do bazy może zająć kilka minut.  
 
 ![osm2pgsql output][]
 
-- If your raw OSM file is large, you may need to add additional memory to the osm2pgsql import process. To do this, add the following to the command:  
+- Jeśli Twój surowy plik OSM jest duży możesz chcieć dodać więcej pamięci procesowi importu osm2pgsql. Aby to zrobić dopisz następujące polecenie:  
 
       --cache 600
 
-Testing It
+Testowanie
 -----------
 
 We can test that the import was successful and view the data in our database using QGIS.  
