@@ -10,68 +10,31 @@ Bevezetés
 ============
 
 > Ez az útmutató letölthető: [beginner_introduction_hu.odt](/files/beginner_introduction_hu.odt) vagy [beginner_introduction_hu.pdf](/files/beginner_introduction_hu.pdf)  
-> Átnézve: 2015-07-12  
+> Reviewed 2015-08-22  
 
-Az információ hatalom. Megfelelő információkkal és ezek helyes
-értelmezésével az emberek és a közösségek még inkább képessé válnak arra, hogy jobbá tegyék
-életüket és a jövőjükre vonatkozóan előremutató döntéseket hozzanak. Sok
-ember és szervezet hoz az életünket valamilyen formában befolyásoló döntéseket. Jó
-minőségű információval ezek a civil szervezetek, kormányzatok és polgárok jobb
-döntéseket hozhatnak, és így remélhetőleg jobbá teszik az életünket. A térkép nagyon módja
-az információtovábbításnak. 
+Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 
 
 ![A village in Indonesia][]
 
-A térkép világunk vizuális leképezése. Gyakran 
-sokkal jobban tud megjeleníteni egy ötletet, mint a szavak. Segítségével tehát
-fontos kérdésekre adhatunk választ. *Hol van a legközelebbi iskola vagy kórház? Ki
-az, aki a legnehezebben fér hozzá ezekhez a létesítményekhez? A szegénység hol
-a legproblematikusabb?* Az ilyen és ehhez hasonló kérdéseket gyakran térképekkel lehet a legjobban kifejezni,
-és a térképek abban is segíthetnek, hogy ezekre a problémákra megoldást találjunk. 
+Maps are visual symbols of our world. They can often demonstrate an idea better than words. This in turn can help us answer important questions. *Where is the closest school or hospital? Who has the least access to these facilities? Where is poverty the most problematic?* Questions like these can often best be expressed with maps, and maps can help find solutions to these questions. 
 
-Kezdő gyakorlatkén fogj egy papírt és egy ceruzát, és rajzold le városod vagy falud térképét. Melyek
-a legfontosabb dolgok, amelyeket föl szeretnél tenni a térképre? Melyek a legfontosabb
-információk? Szánj rá néhány percet a térképed elkészítésére, és ha
-elkészült, gondolkozz el egy kicsit: Miért pont azok a legfontosabb információk, amelyeket feltüntettél?
-Kinek lehet mindez fontos?
+As an exercise, get a pen and paper and draw a map of your town or village. What are the most important things to include on the map? What is the most important information? Spend a few minutes making your map, and when you’re finished, think about why the information you included is important, and who it might be important to.
 
 ![Example of a hand-drawn map][]
 
-Ha a városod olyan, mint a többi, akkor alighanem rajzoltál néhány vonalat, hogy megjeleníts
-utakat, esetleg egy folyót vagy egy patakot. Talán hozzáadtál fontos épületeket is,
-például iskolákat és hivatalokat, területeket vagy határokat. Bármit is rajzoltál,
-valószínűleg szimbólumokat használtál – egy vonalat egy út megjelenítéséhez, egy négyzetet
-egy épület jelképeként és így tovább. A térképed annak a megjelenítése, ami
-a terepen van.
+If your town is like most, you may have drawn some lines to represent roads, possibly a river or stream. Perhaps you added important buildings such as schools and offices, fields, or boundaries. Whatever you drew, you probably used symbols – a line to symbolize a road, a square to symbolize a building, and so on. Your map is a representation of what is on the ground.
 
 ![Examples of symbols][]
 
-A térképed informatív. Talán arra is felhasználhatod, hogy elmagyarázd
-valakinek, hol találhatók különböző helyek, hol vannak problémák
-a közösségedben vagy egyszerűen csak hogy eltaláljon valahová.
-Térképed használhatósága mindazonáltal korlátozott: csupán egy példány van belőle.
-Az általad felrajzolt vonal számodra talán érthető, de lehet, hogy másvalakinek már nem,
-hiszen ő másként rajzolta volna meg a saját térképét. Mivel térképed
-csak papíron van meg, nehéz másoknak továbbadni az információt.
-Ezért ha számítógépen készíted el, oly módon, hogy bárki
-hozzáférhessen, akkor sokkal értékesebb lehet. 
+Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
 
 ![Mapping on Computer][]
 
-Az OpenStreetMap egy térképi információ létrehozására és megosztására szolgáló eszköz. 
-Bárki szerkesztheti az OSM-et, és emberek ezrei járulnak hozzá a projekthez 
-nap mint nap. A felhasználók papír helyett számítógépen rajzolnak térképeket, de amint 
-azt később ebben az útmutatóban is látni fogjuk, számítógépen térképet rajzolni egyáltalán 
-nem különbözik olyan sokban a papírra rajzolástól. Az utak megjelenítéseként itt is vonalakat rajzolunk,
-aztán területeket és minden mást, ami itt is iskolákat és kórházakat 
-jelöl szimbólumokkal. Ami fontos az az, hogy az OSM-térképek elmentésének helye az 
-internet, és bárki bármikor ingyen elérheti őket.
+OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
 
 ![Digital maps with OpenStreetMap][]
 
-Reméljük, az OpenStreetMapet hasznosnak és érdekesnek találod
-munkád során. Az útmutatót követve gyorsan képes leszel elkezdeni
-a digitális OpenStreetMap-térképek elkészítését.
+We hope that you will find OpenStreetMap useful and interesting in your work. By following this guide, you should be able to quickly start making digital maps with OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
