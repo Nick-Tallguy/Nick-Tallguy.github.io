@@ -180,6 +180,17 @@ translations:
     language: "Italiano"
     quickaccess: "Accesso veloce"
     returntotop: "Ritorna ad inizio pagina"
+  ja:
+    language: "日本語"
+    tagline: "はじめてからのOpenStreetMapガイド"
+    contribute: "ガイドの拡充にご協力ください"
+    trainingspan: "ワークショップを主催されるかたはこちら?"
+    training: "このガイドのトレーニング教材はこちら (英語)"
+    feedbackspan: "この章はわかりやすかったでしょうか？"
+    feedback: "分かりづらかったポイントがあれば教えていただけると幸いです"
+    getstarted: "はじめる"
+    returntotop: "トップページに戻る"
+    quickaccess: "クイックアクセス"
   kn:
     tagline: "ಹಂತ ಹಂತವಾಗಿ ಒಪನ್‌ಸ್ಟ್ರೀಟ್‌ಮ್ಯಾಪ್ ಕಲಿಯಿರಿ"
     contribute: "ನಮ್ಮ ಕೈಪಿಡಿಯನ್ನು ಉತ್ತಮಗೊಳಿಸಲು ಸಹಾಯ ಮಾಡಿ"
