@@ -2,13 +2,13 @@
 layout: doc
 permalink: /ja/beginner/
 lang: ja
-title: Beginner's guide
+title: ビギナーズガイド
 category: beginner
 cover: yes
 nosearch: true
 ---
 
-Beginner's Guide
+ビギナーズガイド
 ================
 
 
@@ -16,25 +16,25 @@ This guide shows step by step how to get started with OpenStreetMap. You will le
 how to set up an account, how to use basic map editing software, and in later chapters you can learn how to go outside
 and collect information to put on the map. 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### OpenStreetMapの編集をしてみたいけれど、どこから始めればよいかわからないかた
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+これから編集をはじめるかたは、地図データの編集を始める前に以下のガイドを一読しておくことをお勧めします:
+- [イントロダクション] (/ja/beginner/introduction/)を読むことで、OpenStreetMapプロジェクトの背景を知ることができます
+- [最初の一歩](/ja/beginner/start-osm/)では、アカウントの取得方法とエディタの起動方法が解説されています
+- [iDエディタ] (/ja/beginner/id-editor/)ではデータ編集の基本操作が解説されています
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### エディタの操作方法を理解していて、人道支援マッピングに興味があるかた
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+人道支援マッピングで重要な点は、それぞれのマッピングの文脈で何が求められているかを理解することです。
+- [遠隔マッピングガイド](/ja/coordination/HOT-Remote-Response-Guide/)、および[人道支援マッピング](/ja/coordination/humanitarian/)の概要部分は、背景の理解に役に立ちます
+- [Tasking Manager](/en/coordination/tasking-manager3/)は非情に重要なシステムで、これを使ったワークフローには慣れておく必要があります
+
+### 携帯端末でOpenStreetMapを使いたいかた
+
+[モバイルマッピング](/ja/mobile-mapping/)という、専門の章を用意しています。
+
+
+### GISツールを使って生データを扱ってみたいかた
+
+[データの入手方法](/ja/osm-data/getting-data/)と[GeofabrikとHOT Exportの使い方](/ja/osm-data/geofabrik-and-hot-export/)では、データベースから様々なフォーマットでデータを抽出する方法や、そのために必要な事柄へのポインタが示されています。

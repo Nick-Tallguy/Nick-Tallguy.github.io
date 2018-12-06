@@ -10,31 +10,31 @@ category: beginner
 ============
 
 > このガイドは次の形式でダウンロードできます。 [beginner_introduction_ja.odt](/files/beginner_introduction_ja.odt) or [beginner_introduction_ja.pdf](/files/beginner_introduction_ja.pdf)  
-> Reviewed 2015-08-22  
+> 2018/12/5 レビュー  
 
-Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 
+情報は強力なパワーを持っています。有用な情報を正しく理解することによって、個人やコミュニティは日々の暮らしを改善し、未来に対して正しい判断を行うことができるようになります。そしていま現在、私たちの日々の生活には、多くの組織や人々が関わっています。例えば政府やNGO、そしてNPOや一般市民といったそれらの人々が良質な情報を得ることができれば、各々の組織や個人は判断をしやすくなり、結果として、私たちの日々の生活は少しずつ、改善に向かうはずです。 
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often demonstrate an idea better than words. This in turn can help us answer important questions. *Where is the closest school or hospital? Who has the least access to these facilities? Where is poverty the most problematic?* Questions like these can often best be expressed with maps, and maps can help find solutions to these questions. 
+地図とは、私たちの世界をシンボルとして可視化したものです。誰かに自分のアイデアを伝えるとき、単に言葉で説明するよりも、地図の上に示すほうが説明しやすいことはよくあります。この問いかけはいわば、重要な質問への回答を導く鍵となります。 *ここから一番近い学校施設や病院の位置はどこなのでしょうか。それらの施設へゆくには、どこへ連絡すればよいのでしょうか。あるいは、生活が困窮している住民が多い地域はどこなのでしょうか。* こういった質問に対しては、地図を使って答える方法が最もわかりやすい方法であり、さらに地図を使うことによって、こうした課題の解決の糸口が見つかることもしばしばです。 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the most important things to include on the map? What is the most important information? Spend a few minutes making your map, and when you’re finished, think about why the information you included is important, and who it might be important to.
+試しに、あなたの手元にある紙とペンを使って、あなたの住む街の地図を紙に描いてみてください。地図の上に何かを描くとして、最も表したいものはなんでしょうか。最も伝えたい情報とはなんでしょうか。地図を描く数分の間、そして地図を描き終えた後、少し考えてみてください。地図の上に記述した事柄は、なぜ重要だったのでしょうか、そしてその事柄は、誰にとって重要なのでしょうか。
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent roads, possibly a river or stream. Perhaps you added important buildings such as schools and offices, fields, or boundaries. Whatever you drew, you probably used symbols – a line to symbolize a road, a square to symbolize a building, and so on. Your map is a representation of what is on the ground.
+あなたが住んでいる場所がどこであれ、大抵の場合、地図には道路が描かれることでしょう。また、時には河川や小川が描かれているかもしれませんし、学校やオフィスなどの重要な建物や、田園や山林といった土地の利用方法、あるいは何かしらの境界線を描いているかもしれません。そして、あなたが何を描いたとしても、そこには何らかのシンボルが使われているはずです。例えば、道路を表す線や建物を表す四角形などもシンボルのひとつです。あなたの描いた地図は、その土地に何が存在しているのか、を表現しています。
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
+あなたが描いた地図には情報が埋め込まれています。あなたの近くの地域で事件が発生した時、あるいは単純にあなたが誰かに助言を求める場合など、誰かに地域の説明をする際には、このような手書きの地図が描かれ、使われます。しかしながら、あなたの描いた地図の使い道はとても限定的です。その地図は1枚だけしかありませんし、さらに、あなたの観点による記述はあなたにとってのみ価値があるものです。異なった観点をもつ他の誰かにとって、あなたの地図がそのまま意味を持つとは限りません。あなたの描いた地図は、そのままでは紙の上に描かれた単なる点と線に過ぎず、他の人がそこから情報を得ることは困難なのです。そこでコンピュータ上の地図の出番です。地図はコンピュータの上に描かれることによって、誰もがアクセスできるものとなり、その価値が増えるのです。 
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
+OpenStreetMapとは地図そのものを作成し、さらに地図に描かれたさまざまな情報を共有するためのツールです。OSMへは誰でも手を加えることができます。そして実際、毎日数千人もの人たちが、このプロジェクトへの加筆修正を加えています。このプロジェクトでは、地図を紙ではなくコンピュータの上に描きます。ですが、このガイドの中で紹介されているように、コンピュータを使っても、紙を使っても、地図の書き方に大きな違いはありません。土地の利用方法や道路などを示すには線を描きますし、学校や病院を表すにはシンボルを使います。重要なのは、OSMはインターネットの上に保存され、誰しもがアクセスでき、すべてが自由 (フリー) である、ということです。
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your work. By following this guide, you should be able to quickly start making digital maps with OpenStreetMap.
+OpenStreetMapがあなたの活動にとって興味深く使いやすいものになるように、そしてさらに、このガイドを手引きとして、あなたもまたOSMというデジタル地図を描くようになってもらえることを、私たちは願っています。
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png
