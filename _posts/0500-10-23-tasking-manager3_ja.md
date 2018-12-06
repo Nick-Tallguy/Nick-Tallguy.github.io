@@ -112,54 +112,54 @@ Tasking Manager参加画面は3つの大きなエリアで構成されていま�
 
 ### 検索とフィルタリングオプション
 
-By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
+デフォルトでは、表示されているプロジェクトはすべてマッピング可能な状態となっています。また、拡張検索フィルタを使うことで、作業対象のプロジェクトを細かく指定することが可能です。
 
-- Project Number - If you know the number of the project you want to work on, you can enter it here and be taken directly to it.
-- Organization - This allows you to just display projects that have been requested by individual organizations.
-- Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
-- Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
-- Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
-- Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
+- プロジェクト番号 - 探しているプロジェクトの番号が判明している場合、その番号をもとに検索が可能です。
+- 組織 - プロジェクトに関与している組織の名前をもとに検索を行うことができます。
+- マッピング難易度 - プロジェクトの中には、通常よりもマッピングの難易度が高いものが存在します。このオプションを使うことで、参加者の経験レベルに応じた適切なプロジェクトを検索することができます。経験豊富なマッパーにお薦めの機能です。
+- マッピングタイプ - マッピング対象となっている地物によるフィルタリングを行います。ほとんどのプロジェクトはマッピング対象の地物が1種類ですが、状況によっては複数の地物をマッピングするものもあります。
+- 全文検索 - プロジェクトの説明に、特定の文言やフレーズが使われているかどうかをもとに検索を行います。
+- キャンペーンタグ - それぞれのプロジェクトは、より大きなマッピングキャンペーンの一部として行われることがあります。このフィールドにキャンペーンの名前を入力して、そのキャンペーン単位での検索が可能です。
 
-#### Map View
-Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
+### 地図表示
+"地図表示"タブをクリックすることで、世界のどこでどのようなプロジェクトが行われているか、表示させることができます。個々のプロジェクトを表示させるには、地図をダブルクリック、あるいは拡大してください。拡大してゆくと優先度ごとに、緊急は赤色、高・中は黄色、低は緑色でポイントが表示されます。地図上のポイントをクリックすると、そのプロジェクトの概要が表示されます。プロジェクトのタイトルをクリックすることで、該当のプロジェクトページを表示させることができます。
 
 ![TM project map][]
 
-### Mapping via the Tasking Manager
+### Tasking Managerを使ったマッピング
 
-Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
+作業を行う対象のプロジェクトを決めたら、プロジェクトのタイトルをクリックし、詳細を確認してください。詳細表示には以下の内容が含まれています:
 
-- A description of the project's importance and how the data will be used
-- Detailed instructions for what to map
-- Selection screens for mapping validating
-- Detailed map of the individual mapping task areas, with information about their status.
-- A Questions and Comments tab for questions or comments about the project
+- プロジェクトの重要性と、そのデータの利活用方法
+- 何をどのようにマッピングすべきか、の詳細
+- マッピング内容検証の選択画面
+- 個々のマッピングタスクエリア表示と、その状況
+- プロジェクトについての質問やコメント
 
 ![TM project description][]
 
 
 
-#### Project Page
+### プロジェクトページ
 
-Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
+プロジェクトに関するすべての情報はここに集約されています！ 最上部はマッピングプロジェクトについての解説と、関連情報が表示されます。  
 
-Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
+その下は、大きく左右に分割されています。左側には"マッピング方法解説"、"マッピング"、"検証"、そして"質問とコメント"のタブが表示されます。右側はプロジェクトに関する地図表示と、タスクそれぞれのマッピング状況が示されます。
 
-- The uncolored tasks are ready and available for mapping
-- Pink areas of the map indicate higher priority areas
-- Yellow/Gold grid squares have had the first pass of mapping completed and are ready for validation
-- A yellow border indicates the task selected by you
-- Blue Tasks are currently being worked on by another mapper 
-- Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
-- Dark grey tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- 色のついていないタスクは、誰もマッピングしておらず、作業が可能です
+- ピンクで囲まれた区画は、優先度の高いエリアです
+- 黄色/金色の縁取りがされた区画はマッピング完了の報告があるエリアで、検証作業待ちの状態です
+- 黄色の縁取りは、あなたが選択しているタスクです
+- 青色のタスクは現在他のマッパーが作業を行っています 
+- 緑色のタスクは2段階目のマッピングプロセスが終わり、"検証済み" になっている状態です
+- 濃い灰色のタスクは他のマッパーによってロックされており、航空写真の品質が悪いためにマッピングができないことを意味しています 
+- プロジェクトの対象範囲は青い色の線で表示されます。この青い線は、航空写真が提供された範囲や行政区画などをもとに定義されており、あまり一般的ではない形状になっている場合もあります。対象範囲外をマッピングしても構いませんが、その作業は必須事項ではなく、作業検証者による検証対象にはなりません。  
 
 
-#### Instructions Tab
-This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
+### マッピング方法解説タブ
+ここには、対象のマッピングタスクで何が求められているかが記載されます。プロジェクトの難易度、例えば初心者歓迎なのか、中級者以上推奨なのか、熟練マッパー限定なのか、や、その説明などがそれにあたります。作業を始める際にはこの部分をよく読み、理解するようにしてください。マッピングプロジェクトには様々なスタイルがあり、目的は多種多様に渡ります。多くのプロジェクト活動が含む内容は以下のとおりです:  
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
+- 道路ネットワーク: 現地で活動する人たちが手持ちのデバイスに読み込んだり、遠方から目的地までどのように到達すればよいか検討したりするために使います  
 - Mapping villages: Often used to identify places where people live and may be impacted  
 - Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
 - Mapping rivers, walls and other features  
