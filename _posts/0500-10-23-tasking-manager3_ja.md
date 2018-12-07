@@ -160,71 +160,71 @@ Tasking Manager参加画面は3つの大きなエリアで構成されていま�
 ここには、対象のマッピングタスクで何が求められているかが記載されます。プロジェクトの難易度、例えば初心者歓迎なのか、中級者以上推奨なのか、熟練マッパー限定なのか、や、その説明などがそれにあたります。作業を始める際にはこの部分をよく読み、理解するようにしてください。マッピングプロジェクトには様々なスタイルがあり、目的は多種多様に渡ります。多くのプロジェクト活動が含む内容は以下のとおりです:  
 
 - 道路ネットワーク: 現地で活動する人たちが手持ちのデバイスに読み込んだり、遠方から目的地までどのように到達すればよいか検討したりするために使います  
-- 村落のマッピング: どこに人々が住んでいるかの特定や、被害の影響推定にしばしば使われます  
-- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+- 集落マッピング: どこに人々が住んでいるかの特定や、被害の影響推定にしばしば使われます  
+- 建物マッピング: 災害の被災状況の把握やアセスメントに使われます。また、人口推定作業にも利用されます  
+- 河川、壁などその他の地物のマッピング  
 
-Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
+世界中全ての地域が同じようにマッピングされているというわけではなく、その地域や状況に応じた特殊なタグ付けについての情報提供が行われています。例えばアフリカの道路ネットワークは、アメリカやヨーロッパの道路システムとは全く異なったタグ付けが行われます。  
 
-There will be a section indicating the **Changeset comment** you should make sure appears in your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.  
+OpenStreetMapの編集を行い、変更をアップロードする際に、エディタによっては **変更セットコメント** や、あなたが参照した **情報源 (source)** を、適切なフィールドにコピー＆ペーストで入力するよう求められることがあります。  
 
-Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.  
+また、タスクによっては特別に提供された航空写真が利用可能であることがあり、その場合、写真にアクセスするためにライセンスを承諾する必要がある場合があります。マッピング方法解説の箇所に適切な記載が行われていることで、それらのデータをJOSMやiDに読みこませることができます。  
 
-When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
+タスクのマッピングに完了マークを付けると、次に検証作業者は、マッピング方法解説で示されている要求事項を満たしたマッピングが行われているかどうかのチェック作業に移ります。また、タスクによっては一度にマッピングを完了させることは難しいかもしれません。その場合、タスクをアンロックすることが可能で、今後作業を行うマッパーに対して有益なメッセージを残すこともできます。  
 
-#### Activity and Stats button  
+### アクティビティと活動統計ボタン  
 
-This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
+このタブにはプロジェクトの活動統計が表示されます。ページは、アクティビティの一覧（Tasking Manager 2.0の際には独自でタブあり）とサマリーの2つのセクションに分けられています。
 
-The summary contains a list of mappers who have completed at least one task within the project.  
+このサマリには、プロジェクトに参加し、最低1つ以上のタスクを完了しているマッパーの一覧が表示されます。  
 
-A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
+ページの下部には、それぞれのタスクにつけられたコメントの一覧がログとして表示されます。なおこのログはタスクに対するコメントであり、"Questions and Comments"のタブで表示されるプロジェクト全般に関わる質問事項とは異なることに注意してください。
 
-You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
+プロジェクトのメインページに戻るには、活動統計ページに表示されているプロジェクトのタイトルをクリックしてください。
 
-#### Map Tab  
+### マッピングタブ  
 
-Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
+マッピングの準備が整ったらこちらをクリックしてください。地図上の四角形をクリックしてタスクを選択するか、あるいは "タスクをランダム選択" オプションをクリックしてください。選択できるのは色のついていないタスクだけで、もし色のついたタスクを選択した場合エラーメッセージが表示され、マッピングができないことが表示されます。もし検証作業を行う場合は、"検証"タブを選択してください。
 
 ![TM map tab][]
 
-#### Selecting a task to map  
+#### 地図上でのタスク選択  
 
-Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
+タスクの選択を行うとその履歴、例えばマッピングを開始したけれども完了させることができなかったマッパーなどが表示されます。  
 
-Clicking on the **Start Mapping** button locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+**マッピング開始**ボタンをクリックするとタスクがロックされ、自発的にアンロックするか、あるいは2時間 (120分) のカウントダウンタイマーが経過して自動的にアンロックされるまで、他のマッパーがそのタスクを選択できなくなります。作業を行う際には、自分で2時間のタイマーを管理しておくとよいでしょう。作業に没頭してしまうとロック状態を開放するのを忘れてしまい、他のマッパーがその地域をマッピングすることを防いでしまうことがあります。これは時折、データの競合や問題に発展することがあります。  
 
 
-#### Editing choices
+#### 編集方法の選択
 
-Different options for editing are presented to you as soon as you lock a task.
+タスクをロックすると、編集で利用する際のオプションが表示されます。
 
-##### Edit with JOSM  
+##### JOSMで編集  
 
-Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+このリンクを使う前にJOSMを起動しておき、そのJOSMにOSMデータを自動的に読み込みます。  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+> 1. JOSMで 'リモート操作を有効' 機能が有効化されている必要があります - 設定は **編集 / 設定 / リモート制御** にあります。
+> 2. 'continuousDownload' プラグインをインストールしている場合、プラグインを無効化したほうがよいでしょう (JOSMメニューの **ファイル** から 'Download OSM Data continuously' を無効化)  
+> 3. それでもJOSMが背景画像を自動的に読み込まない場合、**画像**メニューから画像を読み込んでください。 [背景画像に関するより詳しい情報はこちら](/ja/josm/more-about-josm/#add-imagery)  
   
 
-##### iD editor  
+##### iDエディタ  
 
-Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
+これを選択すると、自動的にもうひとつブラウザ、あるいはタブが起動し、対象地域のOSMデータが読み込まれます。Internet Explorerは現在のiDエディタではサポートしていないため、Potlatch 2が代わりに起動します。もともとTasking Managerを表示していたタブやウィンドウはそのまま残ります。  
 
 
 ##### Potlatch 2  
 
-The editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+このエディタは自動的に別のウィンドウやタブが起動します。Potlatchでは自動的に対象地域の表示が行われませんが、以下の手順を行うことでその動作を補完できます。  
 
-1. In the Tasking Manager, select a task and click Start Mapping to lock it  
-2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
-3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.  
-4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.  
-5. In Potlatch, select Background, then Vector File...  
-6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
-7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
-8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
+1. Tasking Managerでタスクを選択し、マッピング開始、を選択してロックする  
+2. Tasking Managerで、JOSMで編集、を選択します。("JOSMのリモート制御が応答しません"というウィンドウが表示されますが、無視してOKを押してください)  
+3. JOSMで編集、のボタンを押した後、"Tip: Download the following .gpx file..."というテキストが表示されます。.gpxファイルをダウンロードし、ファイルとして保存してください。  
+4. Tasking Managerで、JOSMで編集、からPotlatch 2で編集、に切り替えてください。Potlatchが別タブで自動的に起動します。  
+5. Potlatchで、背景画像、ベクトルファイル、を選択します  
+6. ファイル、の隣りにあるベクトルファイルの読み込みウィンドウで、Openをクリックし、先程保存した.gpxファイルを選びます  
+7. ベクトルファイルの読み込み画面で.gpxファイルの表示にチェックが入っていることを確認し、ウィンドウを閉じてください  
+8. Potlatchで対象の区域の境界線を表示することができます（薄い灰色であることが多いです）。また、範囲外のOSMデータを読み込むことも可能です。  
   
 
 ##### Field Papers  
@@ -232,48 +232,48 @@ The editor will load in a new window or tab. Potlatch will not automatically dis
 For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
 
-#### Splitting a task square
+#### タスクの分割
 
-Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
+タスクを選択して衛星写真をチェックした際に、対象地域で必要な作業が非常に多く、手に余ることがわかる場合があります。例えば都会の密集地域の建物を描く場合や、非常に広い領域から小さな集落を探す場合などです。指針としては、1人の人間が2時間マッピングしても要求事項を描ききれない場合は、タスクを分割し、4つの小さなエリアに分けるようにしてください。 *注意事項* - もしタスクをあまりにも小さく分割してしまうと、その領域に存在する道路の種別が判別しづらくなってしまったり、その他の地物が認識しづらくなってしまうことがあります。  
 
-> Be aware that other useful comments about the work previously completed will no longer be available.
+> タスクを分割する前に投稿されていたコメントは、分割後、表示できなくなります。
 
 
-#### Unlocking a Task
+#### タスクのアンロック
 
 ![TM unlock][]
 
-##### Unlocking a Task before it is complete
+##### 作業完了せずにタスクをアンロック
 
-If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
+もしタスクの作業を開始した後、何らかの理由によって作業を完了できなかった場合は、タスクに対してなにかしらのコメントを残しておくことをお勧めします。何を書き残しているのかを簡潔に記述して **マッピングを中断** してください。コメントの内容は、次のマッパーにとって価値があり、マッピングの役に立つものを書くようにしましょう。  
 
-For example:  
+例:  
 
-    Almost complete, small village top left 
-    in the task square to be traced though
+    おおむね完了、左上に小さな村落が点在 
+    タスクの四角形のなかにまだトレースすべきものがある
   
 
-##### Unlocking a Task that is completely mapped
+##### 作業が完了した後にタスクをアンロック
 
-It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
+なにをもって完全にタスクを完了とするかは、非常に難しい問題です。ただ、自分が概ね完了した、と感じたら、その時点で完了のマークをつけるのは問題ありません。作業内容は検証作業として他のマッパーによってチェックされ、ごく小さな内容がそこで追加されるはずです。  
 
-For the process to work most effectively, mappers need to mark tasks as "Mapped" rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+作業プロセスを効率よく実施するためにも、完了したと感じた場合は "作業完了" のマークをつけておき、状況をよく把握できていない他のマッパーが確認のために無駄な時間を費やさないようにしましょう。  
 
-When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
+作業が完了したと感じた場合、その時点でエディタ内で保存していない作業内容をアップロードし、Tasking Managerに戻ります。  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
-+ Click on the "Mark as Mapped" button, and your work is ready for review.  
++ コメントとして実施した作業内容を記載し、さらにより重要なこととして、もし判断しかねた点があればそれを書いておくようにします。例えば "見た限りすべて追加完了しました。ただし、タスクの右上の角に雲がかかっていてその地域はマップできていません" などです。  
++ "作業感呂としてマーク" ボタンをクリックし、レビューを待ちます。  
 
-##### Marking a Task as Bad Imagery
+##### 低品質の航空写真としてマーク
 
-You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
+衛星写真の品質が非常に荒い、あるいは雲で覆われているなどの理由で、選択したタスクをマッピングできない場合があります。その場合、エディタの編集画面を閉じて、タスクを "低品質の航空写真" としてマークし、マッピングができないことを記録してください。
 
 
 #### Sending a message from the comment box
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
-For example:  
+例:  
 
     @HOTMppr nice work tracing the building  
     details here. You missed a small group  
