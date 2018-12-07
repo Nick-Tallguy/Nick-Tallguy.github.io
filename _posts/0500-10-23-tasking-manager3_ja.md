@@ -160,7 +160,7 @@ Tasking Manager参加画面は3つの大きなエリアで構成されていま�
 ここには、対象のマッピングタスクで何が求められているかが記載されます。プロジェクトの難易度、例えば初心者歓迎なのか、中級者以上推奨なのか、熟練マッパー限定なのか、や、その説明などがそれにあたります。作業を始める際にはこの部分をよく読み、理解するようにしてください。マッピングプロジェクトには様々なスタイルがあり、目的は多種多様に渡ります。多くのプロジェクト活動が含む内容は以下のとおりです:  
 
 - 道路ネットワーク: 現地で活動する人たちが手持ちのデバイスに読み込んだり、遠方から目的地までどのように到達すればよいか検討したりするために使います  
-- Mapping villages: Often used to identify places where people live and may be impacted  
+- 村落のマッピング: どこに人々が住んでいるかの特定や、被害の影響推定にしばしば使われます  
 - Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
 - Mapping rivers, walls and other features  
 
