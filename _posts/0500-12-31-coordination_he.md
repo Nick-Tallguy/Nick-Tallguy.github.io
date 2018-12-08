@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /he/coordination/
 lang: he
 title: תיאום
