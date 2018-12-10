@@ -13,7 +13,7 @@ BasicAirData GPS Logger
 
 BasicAirData GPS Logger is a simple app to record your position and your path. It is a basic and lightweight GPS tracker focused on accuracy, with an eye to power saving. This app is very accurate in determining your altitude if you enable EGM96 automatic altitude correction on settings. You can record all your trips, view them in your preferred external viewer (it must be installed) directly from the in-app tracklist, and share them in KML, GPX, and TXT format in many ways.
 
-The app is free and open source.
+The app is available for Android devices, free and open source.
 
 The application is freely downloadable from [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br>
 As alternative, the APK is directly downloadable in GPSLogger's [GitHub repository](https://github.com/BasicAirData/GPSLogger/tree/master/apk).
@@ -23,7 +23,7 @@ Features
 
 ![BasicAirData-GPSLogger-000][]
 
-* recording only - the app has no integrated maps
+* Track recording - the app has no integrated maps
 * A modern UI with a low consumption dark theme and a tabbed interface
 * Foreground & background recording (On Android 6+ please turn off all battery monitoring and optimizations for this app)
 * Placemark creation also while recording
@@ -58,7 +58,7 @@ You can use this simple 2-step procedure:
 
 1. Save the GPX track on your Personal Computer in one of the following ways:
 * Go on the GPS Logger tracklist, tap on the desired track and then click on __Export__; the GPX file will be created and saved on the /GPSLogger folder of your Android device (make sure that GPX format is enabled on the settings screen). Then connect the phone with your PC using a USB cable and move (or copy) your GPX tracks on your PC using the File Manager;
-* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via e-mail, FTP, or using many Cloud Services. The sharing possibilities depend on the third-party apps installed on your Android Device;
+* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via e-mail, FTP, or using many Cloud Services). The sharing possibilities depend on the third-party apps installed on your Android Device;
 2. Import the GPX track into your OpenStreetMap Editor: using the GPX tracks with the JOSM and iD editors is easy by dragging the files and dropping them into the application (or the browser tab, for iD).
 
 Official Documentation
