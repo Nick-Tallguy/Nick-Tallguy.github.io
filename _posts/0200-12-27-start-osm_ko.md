@@ -19,8 +19,7 @@ OpenStreetMap.org에서 기여 시작하기
 OSM 웹 사이트 방문하기
 -------------------------------
 
-- 시작하기 전에 컴퓨터가 인터넷에 연결되어 있는지 확인하세요. (이 안내서를 온라인으로 읽고 있으면 확인할 필요 없습니다!)
-- 웹 브라우저를 엽니다. 보통 Firefox, Chrome, Opera, Internet Explorer를 사용합니다. 브라우저가 이미 열려 있으면 새 탭을 여세요.
+-   Open your web browser.
 - 상단의 주소창에 다음 주소를 입력하고 엔터 키를 누르세요.
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 - 로딩이 끝나면, 다음 이미지처럼 화면이 보이게 됩니다.
@@ -65,12 +64,11 @@ OSM 계정 만들기
 - OSM에 가입하려면 상자 5개를 채워야 합니다.
 - 이메일 주소를 첫 번째와 두 번째 상자에 입력하세요. 서로 똑같이 입력해야 합니다. 나중에 OSM 계정 인증을 받아야 하기 때문에 사용할 수 있는 이메일 주소를 입력해 주세요.
 - 세 번째 상자에는 사용자 이름을 입력하세요. 한 번 정하면 다시는 바꿀 수 없습니다. 독창적으로 지으세요. 한 번 정하면 다시는 바꿀 수 없습니다. 사용자 이름에 성만 넣어서 짓는 등, 단순하게 입력하면 이미 사용 중인 이름이라고 뜰 가능성이 높습니다.
-- 네 번째와 다섯 번째 상자에 비밀번호를 입력하세요. 서로 똑같이 입력해야 합니다. 이메일 비밀번호와 똑같이 지을 필요는 없습니다.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
 - 아마 원하는 이름과 비밀번호를 정했을 것입니다. 이제부터 로그인할 때는 이름과 비밀번호로 로그인합니다.
 - 모든 상자를 다 채운 뒤 아래쪽에 있는 "가입하기" 버튼을 누르세요.
-- 만약 문제가 있다면 오류 메시지가 뜰 것입니다. 이메일 주소를 첫 번째와 두 번째 상자에 정확히 똑같이 입력했는지, 비밀번호를 네 번째와 다섯 번째 상자에 정확히 똑같이 입력했는지 확인하세요. 만약 세 번째 상자에 빨간 불이 들어왔다면, 입력한 이름을 이미 다른 사람이 사용하고 있다는 뜻입니다.
-- 이메일을 확인할 새 창이나 탭을 여세요. 메일 서비스는 [네이버](https://mail.naver.com)나 [gmail](https://mail.google.com)을 많이 씁니다.
-- 이메일 주소와 비밀번호를 입력해서 이메일을 확인하세요. 이메일 주소와 비밀번호는 OSM 이름과 비밀번호와 완전히 __다르다는__ 점을 알아 두세요.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
+-   Have a look at your email.
 - 가입에 성공했다면, 메일함에 OSM에서 온 메일이 하나 있을 것입니다. 그 메일을 여세요. 아래 이미지처럼 생겼습니다. 아래 이미지를 참고해서 인증 링크를 여세요.
 
     ![Confirming your OpenStreetMap account][]

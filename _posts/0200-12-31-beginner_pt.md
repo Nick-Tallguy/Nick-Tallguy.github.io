@@ -11,10 +11,10 @@ nosearch: true
 Guia de Iniciante
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-Este guia mostra passo a passo como começar com o OpenStreetMap. Irá aprender
-como criar uma conta, como usar programas simples de edição de mapas, e em capítulos mais adiante, pode aprender a sair para a rua
-e recolher informação para colocar no mapa. 
+Este guia mostra passo a passo como começar com o OpenStreetMap. Irá aprender como criar uma conta, como usar programas simples de edição de mapas, e em capítulos mais adiante, pode aprender a sair para a rua e recolher informação para colocar no mapa. 
 
 ### É novo no OpenStreetMap e quer melhorar o mapa adicionando dados?
 

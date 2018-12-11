@@ -292,10 +292,7 @@ Nếu bạn cần gửi một tin nhắn, chẳng hạn như email hoặc tin nh
 
 1. Nhấp vào hình vuông nhiệm vụ có liên quanClick on the task square concerned  
 2. Nhấp vào thanh địa chỉ trong trình duyệt web của bạn, trong đó sẽ hiển thị một cái gì đó tương tự như 'http://tasks.hotosm.org/project/713?task=259'  
-3. Đánh dấu bằng chuột tất cả các văn bản trong thanh địa chỉ, hoặc sử dụng các phím tắt **Ctrl+A** để chọn tất cả các văn bản, sau đó sử dụng phím tắt **Ctrl+C** để sao chép văn bản  
-4. Trong email, tin nhắn của IRC, hoặc tin nhắn khác,  
-    - một trong hai, click chuột phải và dán,  
-    - hoặc phím tắt **Ctrl+V**, để dán liên kết vào tin nhắn. 
+3. Copy this link into the message. 
 
 
 ## Trợ giúp 

@@ -19,8 +19,7 @@ W tej sekcji nauczymy się, krok po kroku, jak poruszać się po stronie OpenStr
 Odwiedź stronę OpenStreetMap
 -------------------------------
 
--   Zanim rozpoczniesz, upewnij się, że Twój komputer jest podłączony do internetu.  (Jeżeli czytasz ten tekst online, oznacza to, że jesteś połączony!)
--   Otwórz swoją przeglądarkę internetową. Popularne przeglądarki, to Firefox, Chrome, Opera lub Internet Explorer. Jeżeli przeglądarka jest już uruchomiona, możesz otworzyć nową kartę.
+-   Open your web browser.
 -   W pasku adresu u góry okna wpisz poniższy adres i naciśnij Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   Gdy strona się załaduje, powinieneś zobaczyć mniej więcej coś takiego:
@@ -65,12 +64,11 @@ Utwórz konto OpenStreetMap
 -   Na tej stronie jest pięć pól, które musisz wypełnić, aby zarejestrować konto w OSM.
 -   W pierwszych dwóch polach wprowadź swój adres email. Musisz podać ten sam adres w obu polach. Później, będziesz musiał otworzyć swoją skrzynkę, aby potwierdzić swoje konto w OpenStreetMap.
 -   W trzecim polu podaj nazwę użytkownika, której chcesz używać. Nie możesz wybrać takiej samej nazwy, jak inny użytkownik, więc powinna być kreatywna. Jeśli spróbujesz wpisać coś prostego, jak Twoje imię, to bardzo prawdopodobne, że ktoś już używa takiej nazwy.
--   W czwartym i piątym polu wprowadź nowe hasło. Musisz podać takie samo hasło w obu polach. Powinno ono być inne niż hasło do Twojego maila.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
 -   Możesz zapisać swoją nazwę użytkownika w OSM i hasło. Będziesz ich później potrzebować do zalogowania.
 -   Po wypełnieniu wszystkich pól kliknij "Zarejestruj się" u dołu strony.
--   Jeżeli wystąpiły jakieś problemy, pojawi się wiadomość o błędzie. Upewnij się, że Twój adres email jest taki sam w dwóch pierwszych polach i hasło w dwóch ostatnich polach też jest identyczne. Jeżeli trzecie pole jest podświetlone na czerwono, to oznacza, że ktoś inny już używa wybranej przez Ciebie nazwy użytkownika i musisz spróbować użyć innej.
--   Otwórz osobne okno lub kartę w swojej przeglądarce i przejdź do skrzynki emailowej. Typowe strony, to [mail.yahoo.com](http://mail.yahoo.com) i [www.gmail.com](http://www.gmail.com).
--   Wprowadź swój adres email i hasło do skrzynki, aby się zalogować. Zwróć uwagę, że to __nie__ są te same dane, co do konta OpenStreetMap.
+-   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
+-   Have a look at your email.
 -   Jeżeli wszystko przebiegło pomyślnie, to powinieneś zobaczyć w swojej skrzynce email od OpenStreetMap. Otwórz tą wiadomość. Powinna ona wyglądać podobnie, jak na obrazku poniżej. Kliknij link, który jest pokazany niżej:
 
     ![Confirming your OpenStreetMap account][]

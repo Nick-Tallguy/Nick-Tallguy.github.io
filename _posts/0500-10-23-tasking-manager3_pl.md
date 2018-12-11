@@ -292,10 +292,7 @@ Jeżeli potrzebujesz wysłać wiadomość, np. email lub wiadomość na IRC i ws
 
 1. Kliknij na interesującym cię kwadracie zadania  
 2. Kliknij w pasku adresu Twojej przeglądarki, który powinien pokazywać coś podobnego do 'http://tasks.hotosm.org/project/713?task=259'  
-3. Zaznacz myszą cały tekst w pasku adresu lub użyj klawiszy skrótu **Ctrl+A**, aby zaznaczyć cały tekst, a następnie użyj klawiszy **Ctrl+C**, aby go skopiować  
-4. W swoim emailu, wiadomości IRC lub innej wiadomości  
-    - kliknij prawym przyciskiem myszy i wklej,  
-    - lub używj klawiszy skrótu **Ctrl+V**, aby wkleić link do wiadomości. 
+3. Copy this link into the message. 
 
 
 ## Uzyskiwanie pomocy 

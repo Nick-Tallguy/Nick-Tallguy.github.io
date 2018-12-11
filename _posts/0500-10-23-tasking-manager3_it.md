@@ -292,10 +292,7 @@ Se hai bisogno di inviare un messaggio come una email o tramite IRC e devi fare 
 
 1. Clicca sul quadrato del task di interesse  
 2. Clicca sulla barra indirizzi del web browser che dovrebbe mostrare qualcosa di simile a 'http://tasks.hotosm.org/project/713?task=259'  
-3. Evidenzia con il mouse tutto il testo nella barra indirizzi, o usa la **Ctrl+A** per selezionare tutto il testo, e usa quindi **Ctrl+C** per copiare il testo  
-4. Nella email, nel messaggio IRC o altro,  
-    - clicca con il tasto destro del mouse e seleziona incolla,  
-     oppure usa **Ctrl+V** pe incollare il link nel messaggio 
+3. Copia il link nel messaggio. 
 
 
 ## Ottenere Aiuto 

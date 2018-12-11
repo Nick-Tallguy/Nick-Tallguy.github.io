@@ -11,10 +11,10 @@ nosearch: true
 Guide du débutant
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-Ce guide explique étape par étape comment bien démarrer avec OpenStreetMap. Vous apprendrez
-comment créer un compte, comment utiliser le logiciel de base d'édition de la carte et, dans les chapitres suivants, comment aller sur le terrain
-et collecter des informations pour les ajouter à la carte. 
+Ce guide explique étape par étape comment bien démarrer avec OpenStreetMap. Vous apprendrez comment créer un compte, comment utiliser le logiciel de base d'édition de la carte et, dans les chapitres suivants, comment aller sur le terrain et collecter des informations pour les ajouter à la carte. 
 
 ### Vous êtes nouveau sur OpenStreetMap et voulez améliorer la carte en y ajoutant des données ?
 

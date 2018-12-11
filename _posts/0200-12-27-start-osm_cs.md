@@ -19,8 +19,7 @@ V této části se dozvíme krok za krokem navigaci na webové stránce OpenStre
 Otevřít stránku OpenStreetMap
 -------------------------------
 
-- Než začnete, ujistěte se, že je váš počítač připojen k internetu. (Pokud čtete online, pak musíte být připojeni!)
-- Otevřete webový prohlížeč. Mezi běžné prohlížeče patří prohlížeče Firefox, Chrome, Opera nebo Internet Explorer. Pokud je již otevřený, můžete vytvořit novou kartu.
+- Otevřete webový prohlížeč.
 - Do řádku adresy nahoře vyplňte následující adresu, a stiskněte Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 - Po dokončení načítání stránky byste měli vidět něco podobného:
@@ -65,12 +64,11 @@ Vytvořit účet OpenStreetMap
 - Na této stránce je pět formulářových okének, které musíte vyplnit, abyste zaregistrovali účet v OSM.
 - Zadejte svou e-mailovou adresu do prvních dvou políček. Do obou políček byste měli zadat stejnou e-mailovou adresu. Později budete muset otevřít svůj e-mail a potvrdit svůj účet pomocí OpenStreetMap.
 - Ve třetím poli zadejte uživatelské jméno, které chcete mít. Nebudete moci zvolit uživatelské jméno, které si někdo jiný zvolil dříve, a proto by mělo být kreativní. Pokud se pokusíte zadat něco jednoduchého, jako je vaše jméno, je pravděpodobné, že někdo již toto jméno použil.
-- Do čtvrtého a pátého pole zadejte nové heslo. Do obou políček byste měli zadat stejné heslo. Nemusí to být stejné jako heslo pro váš e-mail.
+-   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
 - Můžete si někam zapsat své uživatelské jméno a heslo OSM. Budete je potřebovat k přihlášení později.
 - Po vyplnění všech polí klikněte na "Registrace" v dolní části stránky.
 - Pokud se vyskytnou nějaké problémy, může se zobrazit chybová zpráva. Zkontrolujte, zda je váš e-mail v prvních dvou polích stejný a zda je stejné heslo ve dvou dolních polích. Pokud je třetí pole zvýrazněno červeně, znamená to, že někdo jiný už zvolil vaše uživatelské jméno a vyzkoušejte jiné jméno.
-- Otevřete v internetovém prohlížeči samostatné okno nebo kartu a přejděte na svůj e-mail. Běžné e-mailové stránky jsou [mail.yahoo.com] (http://mail.yahoo.com) a [www.gmail.com] (http://www.gmail.com).
-- Chcete-li otevřít e-mail, zadejte svou e-mailovou adresu a heslo. Všimněte si, že ___není___ stejné jako vaše uživatelské jméno a heslo do OpenStreetMap.
+-   Have a look at your email.
 - Pokud bylo při registraci úspěšné vše, měli byste vidět e-mail z OpenStreetMap ve vaší doručené poště. Otevřete e-mail. Mělo by vypadat jako obrázek níže. Klikněte na níže uvedený odkaz:
 
     ![Confirming your OpenStreetMap account][]

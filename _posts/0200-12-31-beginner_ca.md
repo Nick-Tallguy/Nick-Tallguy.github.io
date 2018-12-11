@@ -11,10 +11,10 @@ nosearch: true
 Guia d'iniciació
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-Aquesta guia mostra pas a pas com iniciar-vos amb l'OpenStreetMap. Hi aprendreu
-com configurar un compte, com usar els programes d'edició de mapes bàsics i en capítols posterior aprendreu com fer feina de camp
-and collect information to put on the map. 
+Aquesta guia mostra pas a pas com iniciar-vos amb l'OpenStreetMap. Hi aprendreu com configurar un compte, com usar els programes d'edició de mapes bàsics i en capítols posterior aprendreu com fer feina de camp 
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 

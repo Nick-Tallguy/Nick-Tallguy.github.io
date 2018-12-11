@@ -11,10 +11,10 @@ nosearch: true
 راهنمای مبتدیان
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-این راهنما شروع به کار با OpenStreetMap را به روش گام به گام به شما آموزش می‌هد. یاد می‌گیرید که 
-چگونه یک حساب کاربری بسازید، از نرم‌افزار ویرایشگر نقشه استفاده کنید و در فصل‌های انتهایی یاد می‌گیرید بیرون از خانه رفته 
-and collect information to put on the map. 
+این راهنما شروع به کار با OpenStreetMap را به روش گام به گام به شما آموزش می‌هد. یاد می‌گیرید که  چگونه یک حساب کاربری بسازید، از نرم‌افزار ویرایشگر نقشه استفاده کنید و در فصل‌های انتهایی یاد می‌گیرید بیرون از خانه رفته  
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 

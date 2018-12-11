@@ -292,10 +292,7 @@ Si vous avez besoin d'envoyer un message (e-mail, IRC...) concernant une tâche 
 
 1. Cliquez sur la zone de la tâche concernée  
 2. Cliquez dans la barre d'adresse de votre navigateur Web, qui devrait afficher quelque chose de similaire à « http://tasks.hotosm.org/project/713?task=259 »  
-3. Sélectionner avec votre souris tout le texte de la barre d'adresse, ou utilisez le raccourci clavier **Ctrl+A**, puis utilisez le raccourci **Ctrl+C** pour copier le texte  
-4. Dans votre e-mail, message IRC, ou tout autre message,  
-    - soit faites un clic droit et « coller » ;  
-    - soit utilisez le raccourci clavier **Ctrl+V**, pour coller le lien dans le message. 
+3. Copiez le lien dans le message. 
 
 
 ## Obtenir de l'aide 

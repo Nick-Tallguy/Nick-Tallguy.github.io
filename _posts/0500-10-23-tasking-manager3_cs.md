@@ -292,10 +292,7 @@ If you need to send a message, such as an email or an IRC message, and you are q
 
 1. Click on the task square concerned  
 2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-    - either, mouse right click & paste,  
-    - or shortcut keys **Ctrl+V**, to paste the link into the message. 
+3. Copy this link into the message. 
 
 
 ## Getting help 

@@ -11,10 +11,10 @@ nosearch: true
 Guida e fillestarëve
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-Kjo guidë tregon hap pas hapi se si të nisni me OpenStreetMap. Ju do të mësoni
-si të krijoni një llogari, si të përdorni programe bazikë për editimin e hartave dhe në kapitujt më vonë ju mund të mësoni si të dilni jashtë
-and collect information to put on the map. 
+Kjo guidë tregon hap pas hapi se si të nisni me OpenStreetMap. Ju do të mësoni si të krijoni një llogari, si të përdorni programe bazikë për editimin e hartave dhe në kapitujt më vonë ju mund të mësoni si të dilni jashtë 
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 

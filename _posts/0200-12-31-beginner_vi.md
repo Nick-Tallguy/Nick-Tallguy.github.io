@@ -11,10 +11,10 @@ nosearch: true
 Hướng dẫn cho người mới bắt đầu
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-Bộ hướng dẫn này trình bày các bước bắt đầu làm việc với OpenStreetMap.
-Bạn sẽ được biết làm cách nào để tạo một tài khoản, sử dụng một phần mềm chỉnh sửa bản đồ cơ bản và trong các chương tiếp theo, bạn sẽ được biết làm thế nào để thu thập thông tin hiện trường để bổ sung vào bản đồ.
-and collect information to put on the map. 
+Bộ hướng dẫn này trình bày các bước bắt đầu làm việc với OpenStreetMap. Bạn sẽ được biết làm cách nào để tạo một tài khoản, sử dụng một phần mềm chỉnh sửa bản đồ cơ bản và trong các chương tiếp theo, bạn sẽ được biết làm thế nào để thu thập thông tin hiện trường để bổ sung vào bản đồ. 
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 

@@ -12,13 +12,13 @@ Introduksjon
 Denne veiledningen kan lastes ned som [beginner_introduction_nb.odt](/files/beginner_introduction_nb.odt) eller [beginner_introduction_nb.pdf](/files/beginner_introduction_nb.pdf)  
 > Reviewed 2015-08-22  
 
-Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 
+Informasjon er makt. Med god informasjon og den riktige forståelsen, kan enkeltindivider og samfunn forbedre egne liv og ta gode avgjørelse for fremtiden. Det er mange mennesker og organisasjoner som tar avgjørelser som påvirker livene våre. God informasjon gir disse NGOene (Ikke-statlige organisasjoner), myndigheter og borgere mulighet til å ta bedre avgjørelser, og forhåpentligvis gjøre livene våre bedre. Kart er en god måte å formidle informasjon på. 
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often demonstrate an idea better than words. This in turn can help us answer important questions. *Where is the closest school or hospital? Who has the least access to these facilities? Where is poverty the most problematic?* Questions like these can often best be expressed with maps, and maps can help find solutions to these questions. 
+Kart er visuelle symboler av vår verden. De kan ofte vise en tanke eller idè bedre enn ord. Dette kan i tillegg hjelpe oss med å besvare viktige spørsmål. *Hvor er nærmeste skole eller sykehus? Hvem har dårligst tilgang til disse fasilitetene? Hvor er fattigdom mest utfordrende?* Spørsmål som dette kan ofte beskrives best ved hjelp av kart, og kart kan finne løsningen på disse spørsmålene. 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the most important things to include on the map? What is the most important information? Spend a few minutes making your map, and when you’re finished, think about why the information you included is important, and who it might be important to.
+Som en øvelse, hent en pen og et papir og tegn et kart over området du bor i. Hva er de mest viktige tingene å inkludere på kartet? Hva er den viktigste informasjonen? Bruk noen minutter på å lage kartet ditt, og når du er ferdig, tenk over hvorfor informasjonen du har inkludert på kartet er viktig, og hvem som kan ha nytte av informasjonen.
 
 ![Example of a hand-drawn map][]
 

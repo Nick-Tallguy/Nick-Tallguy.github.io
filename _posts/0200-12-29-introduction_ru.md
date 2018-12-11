@@ -10,9 +10,9 @@ category: beginner
 ============
 
 > Это руководство можно скачать как [beginner_introduction_ru.odt](/files/beginner_introduction_ru.odt) или [beginner_introduction_ru.pdf](/files/beginner_introduction_ru.pdf)  
-> Reviewed 2015-08-22  
+> Проверено 2015-07-12  
 
-Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 
+Знание -- сила. Благодаря качественным данным и глубокому пониманию, отдельные люди и сообщества способны в большей степени улучшать свою жизнь и принимать решения от которых зависит будущее. Существует множество людей и организаций, чьи решения влияют на нашу жизнь. Качественные данные позволяют этим  НПО (неправительственные организации), правительствам и гражданам принимать более оптимальные решения, ведущие, хочется верить, к улучшению нашей жизни. Карты -- отличный способ донести информацию. 
 
 ![Деревня в Индонезии][]
 

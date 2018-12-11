@@ -12,13 +12,13 @@ category: beginner
 > ניתן להוריד מדריך זה בתור [beginner_introduction_he.odt](/files/beginner_introduction_he.odt) או בתור [beginner_introduction_he.pdf](/files/beginner_introduction_he.pdf)  
 > Reviewed 2015-08-22  
 
-Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 
+ידע זה כוח. עם מידע איכותי והבנה בהתאם, יכולים בודדים וקהילות לשפר בצורה טובה יותר את חייהם ולקבל החלטות מושכלות יותר בנוגע לעתיד. ישנם אנשים וארגונים רבים שמקבלים החלטות שמשפיעות על החיים שלנו. מידע איכותי מאפשר לעמותות הציבוריות, לממשלות ולאזרחים לקבל החלטות איכותיות יותר ובתקווה גם לשפר את חיינו. מפות הן דרך טובה להעביר מידע. 
 
 ![A village in Indonesia][]
 
-Maps are visual symbols of our world. They can often demonstrate an idea better than words. This in turn can help us answer important questions. *Where is the closest school or hospital? Who has the least access to these facilities? Where is poverty the most problematic?* Questions like these can often best be expressed with maps, and maps can help find solutions to these questions. 
+מפות הן סימולים חזותיים של העולם שלנו. הן בדרך כלל מייצגות רעיון בצורה טובה יותר ממילים. מצב כזה יכול לסייע לנו לענות על שאלות חשובות כגון: *איפה בית הספר או בית החולים הקרוב אלי? למי יש פחות גישה למתקנים אלו? איפה העוני פוגע הכי הרבה?* שאלות כאלו ניתן בדרך כלל לייצג בצורה הטובה ביותר עם מפות ומפות יכולות לסייע לנו למצוא פתרונות לשאלות האלו. 
 
-As an exercise, get a pen and paper and draw a map of your town or village. What are the most important things to include on the map? What is the most important information? Spend a few minutes making your map, and when you’re finished, think about why the information you included is important, and who it might be important to.
+כתרגול, נא להחזיק בעט ונייר ולצייר מפה של העיירה או היישוב שלך. מה הם הדברים החשובים ביותר לכלול במפה? מה המידע החשוב ביותר? כדאי להשקיע מספר דקות ביצירת המפה שלך וכשסיימת לחשוב על כך, כדאי לחשוב על מדוע המידע שהוספת חשוב ולמי הוא עשוי להיות חשוב.
 
 ![Example of a hand-drawn map][]
 
@@ -30,11 +30,11 @@ Your map is informative. You might use a map like this to explain to someone whe
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
+OpenStreetMap הוא כלי ליצירה ולשיתוף מידע על מפות. כל אחד יכול לתרום ל־OSM ואלפי אנשים מוסיפים למיזם כל יום. משתמשים מציירים מפות במחשבים, יותר מאשר על נייר, אך כפי שנראה במדריך הזה, ציור מפה במחשב אינה שונה בהרבה מציור על נייר. אנו עדיין מציירים קווים כדי לייצג דרכים, שדות וכל דבר אחר, ואנו עדיין מייצגים בתי ספר ובתי חולים באמצעות סמלים. הדבר החשוב הוא שהמפות של OSM נשמרות באינטרנט וכולם יכולים לגשת אליהןבכל עת, בחינם לגמרי.
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your work. By following this guide, you should be able to quickly start making digital maps with OpenStreetMap.
+אנו מקווים ש־OpenStreetMap יביא לך תועלת ועניין בעבודתך.על ידי התעמקות במדריך זה, תהיה לך היכולת להתחילליצור מפות דיגיטליות בקלות עם OpenStreetMap.
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png

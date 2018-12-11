@@ -11,10 +11,10 @@ nosearch: true
 دليل المبتدئ
 ================
 
+> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> Reviewed 2015-07-12  
 
-يوضح هذا الدليل خطوة بخطوة كيفية البدء باستخدام OpenStreetMap, سوف تتعلم
-كيفية إعداد حساب، كيفية استخدام برنامج تحرير الخرائط الأساسية، وفي الفصول اللاحقة يمكنك معرفة كيفية الذهاب خارجا
-and collect information to put on the map. 
+يوضح هذا الدليل خطوة بخطوة كيفية البدء باستخدام OpenStreetMap, سوف تتعلم كيفية إعداد حساب، كيفية استخدام برنامج تحرير الخرائط الأساسية، وفي الفصول اللاحقة يمكنك معرفة كيفية الذهاب خارجا 
 
 ### Are you new to OpenStreetMap and want to improve the map by adding data?
 
