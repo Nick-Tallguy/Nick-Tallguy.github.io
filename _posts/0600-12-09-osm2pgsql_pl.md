@@ -106,35 +106,35 @@ Dla ułatwienia umieściliśmy nasz plik OSM w katalogu **C:\\**.
 Testowanie
 -----------
 
-We can test that the import was successful and view the data in our database using QGIS.  
+Możemy sprawdzić, czy import był udany i zobaczyć dane z naszej bazy używając QGIS.  
 
-- Open QGIS and click on the "Add PostGIS Layers" button. ![qgis add postgis button][]{: height="24px"}
+- Otwórz QGIS i kliknij na przycisku "Dodaj warstwy PostGIS". ![qgis add postgis button][]{: height="24px"}
 
-- Under “Connections” at the top, click “**New**.”  
-- Give the new connection a name.  Under database type **osm** (the name of your database).  
-- Enter the username postgres and your password below.  
+- Poniżej "Połączeń" na górze kliknij "**Nowe**".  
+- Nadaj nazwę nowemu połączeniu. Pod typem bazy danych **osm** (nazwa Twojej bazy danych).  
+- Poniżej wpisz nazwę użytkownika postgres i hasło.  
 
 ![connection settings][]
 
-- Click OK to save the connection settings.  Then click “Connect” to connect to your PostgreSQL server.  
-- Click next to "public" to see all of the layers (tables) in your database. Notice that osm2pgsql creates a separate table for different object types - points, lines, and polygons. It also creates a roads table, which contains only major roads.  
+- Kliknij OK, aby zapisać ustawienia połączenia. Następnie kliknij "Połącz", aby połączyć się ze swoim serwerem PostgreSQL.  
+- Kliknij obok "publiczne", aby zobaczyć wszystkie warstwy (tabele) w swojej bazie danych. Zauważ, że osm2pgsql tworzy osobne tabele dla obiektów różnych typów - punktów, linii i wielokątów. Tworzy również tabelę dróg, która zawiera tylko główne drogi.  
 
 ![postgis layers][]
 
-- Select one or more of the layers and click "Add." If asked, choose WGS84 as the CRS.  
-- If everything is successful, you will see the layers you selected displayed in QGIS.  
+- Wybierz jedną lub więcej warstw i kliknij "Dodaj". Jeżeli pojawi się pytanie, wybierz WGS84 jako system odniesienia.  
+- Jeżeli wszystko pójdzie dobrze, zobaczysz wybrane warstwy wyświetlone w QGIS.  
 
 ![osm in qgis][]
 
-> If you look at the attribute tables of the layers, you will see that the attributes are mapped to OSM tags. The specific tags that are imported are defined during the **osm2pgsql** import process. In order to add specific tags that are not included by default, you can edit the *style* file that osm2pgsql references to define the data schema.  
+> Jeżeli spojrzysz na tabele właściwości warstw, to zobaczysz, że właściwości zostały zmapowane do tagów OSM. Określone tagi, które są zaimportowane, zostały zdefiniowane podczas procesu importowania w **osm2pgsql**. Aby dodać konkretne tagi, które nie są zawarte domyślnie, możesz edytować plik *stylu*, który jest odniesieniem do definicji schematu danych osm2pgsql.  
 
 
 Podsumowanie
 -------
 
-When you want to import OpenStreetMap data into your own database, **osm2pgsql** is a great tool. It can be extremely useful when you need to be able to get the most up-to-date OSM data and customize the attributes you want, or when working on more complex projects.  
+Kiedy chcesz zaimportować dane OpenStreetMap do swojej własnej bazy danych, to **osm2pgsql** sprawdzi się doskonale. To narzędzie może być bardzo przydatne, kiedy potrzebujesz zdobyć najbardziej aktualne dane OSM i dopasować wybrane właściwości lub podczas pracy nad bardziej złożonymi projektami.  
 
-Another import tool has been developed recently, called [imposm](http://imposm.org/), and offers some speed and other improvements over osm2pgsql, although as of this writing it lacks other key functions which are promised in imposom version 3.  
+Ostatnio powstało nowe narzędzie do importu nazwane [imposm](http://imposm.org/), które jest szybsze i oferuje ulepszenia względem osm2pgsql, jednak w czasie pisania tego tekstu brakuje mu innych kluczowych funkcji, które są obiecane w wersji 3 imposom.  
 
 Więcej informacji o osm2pgsql znajdziesz w Wiki OSM - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
 

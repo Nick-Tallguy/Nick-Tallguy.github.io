@@ -12,64 +12,64 @@ Korzystanie z Geofabrik i HOT Export
 > Ten przewodnik może zostać pobrany jako [Geofabrik_and_HOT_Export_pl.odt](/files/Geofabrik_and_HOT_Export_pl.odt) lub [Geofabrik_and_HOT_Export_pl.pdf](/files/Geofabrik_and_HOT_Export_pl.pdf)  
 > Przejrzano 05.09.2016  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+Po nauce dodawania i edytowania danych w OpenStreetMap (OSM), możesz chcieć pozyskać te dane jako kopię zapasową lub do przetwarzania z wykorzystaniem oprogramowania Geographic Information System, które jest otwartoźródłowe takim, jak Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
-Getting OSM Data on Geofabrik Website
+Pozyskiwanie danych OSM ze strony Geofabrik
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+Dane OSM mogą być łatwo pozyskane przez pobranie ich ze strony [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
-The data is divided into several regions. Indonesia can be found as part of Asia by clicking on the Asia sub-region on the blue table, and then the page will appear like this.  
+Dane są podzielone na kilka regionów. Indonezję można znaleźć jako część Azji, klikając na podregionie Azja w niebieskiej tabeli, a wtedy strona będzie wyglądała tak.  
 
 ![geofabrik-asia][]
 
-After appearing at the top of the page, see how the sub-region divides into countries of Asia. To get the data, you need to click the Indonesian state on the blue table, and it will appear like this.  
+Po pojawieniu się na górze strony, zobacz, jak podregion dzieli się na kraje Azji. Aby pobrać dane musisz kliknąć na Indonezji w niebieskiej tabeli, a wtedy będzie to wyglądać tak.  
 
 ![geofabrik-indonesia][]
 
-Then if you want to obtain the Indonesian data in shapefile (.shp) format, you click on the indonesia-latest.shp.zip link, and the file will be downloaded. There are several formats that can be downloaded. One popular format is shapefile (shp) with points, polyline, and polygon layer.  
+Jeżeli chcesz zdobyć indonezyjskie dane w pliku formatu shape (.shp) kliknij na linku indonesia-latest.shp.zip, a rozpocznie się pobieranie pliku. Jest kilka formatów, w których możesz pobierać dane. Najpopularniejszym jest format plików shape (shp) z warstwami punktów, polilinii i wielokątów.  
 
-You can check the last time data was updated. Please note, the server usually updates the data once every 24 hours, so if you just upload data to OSM, the data does not appear automatically when you download it, but you have to wait for the latest updates from the server.  
+Możesz sprawdzić datę ostatniej aktualizacji danych. Miej na uwadze, że dane na serwerze są aktualizowane co 24 godziny, więc jeśli dopiero co wgrałeś dane do OSM, to nie pojawią się one automatycznie kiedy pobierzesz dane, ale musisz poczekać na następną aktualizację na serwerze.  
 
-Getting OSM Data on HOT Export Tool Website
+Pobieranie danych OSM na stronie narzędzia HOT Export
 --------------------------------------
 
-The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
+[Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) stworzył usługę internetową, która pozwala użytkownikom na tworzenie niestandardowych wyciągów z OSM dla każdego miejsca na świecie poprzez wybieranie obszaru zainteresowania, obiektów mapy i formatów plików. W ciągu kilku minut aktualne dane OSM są eksportowane, filtrowane i konwertowane. Ta sekcja jest przewodnikiem po narzędziu Export. Te informacje można znaleźć też w sekcji '[Nauka](https://export.hotosm.org/pl/v3/learn)' na stronie export.hotosm.org.
 
 ![hot-export-tool][]
 
 ## Szybki start
 
-Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
+Każdy może utworzyć niestandardowy eksport z OpenStreetMap w narzędziu Export - wystarczy założyć konto. Możesz zarejestrować się używając konta OpenStreetMap ze strony openstreetmap.org i aktualnego adresu email, który zostanie użyty do wysłania linka do Twojego eksportu, kiedy będzie już gotowy.
 
-## Identify Area of Interest
+## Określ obszar zainteresowania
 
-There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
+Jest wiele sposobów na wybranie Obszaru zainteresowania (AOI) w narzędziu Export. Są to między innymi wpisanie i wyszukiwanie, określenie współrzędnych ramki ograniczającej, rysowanie ramki ograniczającej, swobodne rysowanie wielokąta, użycie aktualnego widoku, czy wgranie pliku geojson.
 
 ![export-tool-create][]
 
-Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will become available. The ‘Create’ tab is where you will set up your export, by describing it on the left hand side and selecting your AOI with the map on the right hand side. 
+Kiedy jesteś 'zalogowany' do narzędzia HOT Export, karta 'Utwórz' staje się aktywna. Karta 'Utwórz', to miejsce, gdzie wprowadzasz ustawienia swojego eksportu, przez opisywanie go po lewej stronie i wybieranie AOI na mapie po prawej stronie. 
 
 ![export-tool-describe][]
 
-### Search Bar
-There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+### Pasek wyszukiwania
+Jest 6 sposobów na określenie AOI dla Twojego eksportu. Pierwszy i drugi używają paska wyszukiwania, który może służyć do znajdowania miejsc przez wpisywanie ich nazw i wybieranie ich z listy poniżej lub przez definiowanie współrzędnych ramki ograniczającej. Współrzędne minimalnego X, minimalnego Y, maksymalnego X i maksymalnego Y (zachód, południe, wschód, północ) dla poszczególnych krajów można znaleźć [w pliku CSV dostarczanym przez Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-### Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+### Digitalizacja 
+Trzeci i czwarty sposób w jaki można wybrać AOI w narzędziu Export, to rysowanie ramki ograniczającej przez wybranie opcji 'Ramka' z kolumny narzędzi po prawej stronie ekranu. Możesz także narysować dowolny wielokąt bezpośrednio na mapie wybierając narzędzie 'Rysuj'.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-### Upload Polygon
-The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
+### Wgraj wielokąt
+Ostatnie dwie metody na określenie AOI wykorzystują narzędzie 'Ten widok' po prawej stronie mapy, które przechwytuje obszar aktualnego widoku mapy i narzędzie 'Importuj', które pozwala przesłać wielokąt obszaru.  
 
 ![export-tool-area-view][]
 ![export-tool-area-import1][]
