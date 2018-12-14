@@ -75,29 +75,29 @@ Ostatnie dwie metody na określenie AOI wykorzystują narzędzie 'Ten widok' po 
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+Importowany wielokąt musi być plikiem GeoJSON w systemie współrzędnych WGS84. Jednym ze sposobów utworzenia pliku GeoJSON jest użycie strony geojson.io. Kiedy wybierzesz obszar w  [geojson.io](http://geojson.io/), skopiuj tekst z okna po prawej stronie, wklej go do wybranego edytora, jak np. [Atom](https://atom.io/) i zapisz swój plik GeoJSON.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+Plik GeoJSON musi być nieco edytowany, aby został zaakceptowany przez narzędzie Export. Zwróć uwagę, że w pliku nie może być wielokątów złożonych. W najprostszej formie plik musi stwierdzać, że to jest "type: Poligon" i zawierać listę współrzędnych punktów/węzłów, które określają obszar. Wtedy plik GeoJSON może zostać prawidłowo przetworzony przez narządzie i użyty do określenia AOI.
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
 
 
-## Select File Formats
+## Wybieranie formatu pliku
 
-The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
+Narzędzie pozwala wyciągać dane OSM przez Overpass API w jego natywnym formacie Protocol Buffer Binary (PBF) przed filtrowaniem danych pod kątem obiektów mapy i powiązanych tagów określonych przez użytkownika. Po przefiltrowaniu dane są konwertowane do jednego z formatu plików, wybranego przez użytkownika.  
 
-Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Aktualnie narzędzie może konwertować dane OSM do plików Shape .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf i MBTiles .mbtiles. Przynajmniej jeden z tych formatów musi zostać wybrany, aby utworzyć eksport, ale nie ma ograniczenia, jak wiele z nich może być wybranych, co można zrobić zaznaczjąc wiele pól.
 
 ![export-tool-file-formats][]
 
 
-### Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+### Plik Shape .shp
+Pliki shape, to tabelaryczny format zaprojektowany przez Esri. Są najpopularniejszym formatem plików danych GIS. Plik shape, to tak na prawdę 3-4 pojedyncze pliki, spakowane razem jako archiwum ZIP. Pliki shape mają konkretne ograniczenia takie, jak rozmiar pliku, ograniczony do 2 gigabajtów (GB) i długość nazwy kolumny  limitowana do 10 znaków. Przeczytaj więcej o [plikach shape .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) w sekcji Nauka.
 
 ![export-tool-shapefile][]
 
