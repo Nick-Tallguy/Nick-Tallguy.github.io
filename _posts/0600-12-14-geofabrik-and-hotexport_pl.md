@@ -103,49 +103,49 @@ Pliki shape, to tabelaryczny format zaprojektowany przez Esri. Są najpopularnie
 
 
 ### Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+OGC Geopackage zawierają dane przestrzenne w pojedynczej bazie danych SQLite. Geopackage są bardzo podobne do baz danych SQLite z dodatkiem Spatialite. Powinny dać się używać w większości aplikacji GIS. Geopackage obsługuje praktycznie nieograniczony rozmiar pliku i liczbę kolumn w tabeli oraz a pełne wsparcie dla Unicode. Te pliki są idealne zwłaszcza jeśli potrzebujesz wykonywać zapytania SQL na danych. Przeczytaj więcej o [Geopackage .gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) w sekcji Nauka.
 
 ![export-tool-sql][]
 
 
 ### Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+Plik .IMG zawiera wszystkie informacje niezbędne do wyrenderowania mapy na urządzeniach mobilnych Garmin GPS. Zwróć uwagę, że styl kartograficzny pliku .img i obiekty wybrane na mapie są niezależne od wyboru obiektów przesłanych do narzędzia Export - zamiast tego, używany jest domyślny styl dla wszystkich danych OSM. Przeczytaj więcej o [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) w sekcji Nauka.
 
 ![export-tool-garmin][]
 
 
 ### Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+Keyhole Markup Language (KML) jest opartym na XML formatem do modelowania punktów, linii, wielokątów i geograficznie powiązanych właściwości. Google Earth jest najszerzej znaną platformą do przeglądania widoków Ziemi używającą KML, co jest także powodem, dla którego stworzono ten format. Przeczytaj więcej o [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) w sekcji Nauka.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
+Obowiązującym w OSM formatem danych jest dokument XML z węzłami, liniami i relacjami. Protocol Buffer Binary Format (PBF) jest zoptymalizowaną reprezentacją XML OSM, który zajmuje mniej miejsca na dysku i jest szybszy w odczycie. Ten format jest kompatybilny tylko z konkretnymi narzędziami OSM, takimi jak oprogramowanie do edycji OSM. Każdy .PBF dostarczany przez narzędzie Export powinien być referencyjnie kompletny - co oznacza, że każdy węzeł, linia lub relacja odniesiona do linii lub relacji pojawi się w pliku PBF. Przeczytaj więcej o [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) w sekcji Nauka.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
+Maps.me to nawigacja GPS i aplikacja mapowa dla smartfonów i tabletów z Androidem oraz iOS, wspierająca zwłaszcza mapy i nawigację w trybie offline. Przeczytaj więcej o [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) w sekcji Nauka. Aby używać niestandardowych eksportów w Maps.me na Androidzie, wykonaj następujące kroki:
+Otwórz Maps.me i przejdź do interesującego Cię obszaru
+Zaakceptuj podpowiedź Maps.me i pobierz oferowany region
+Zamknij Maps.me
+Utwórz eksport MWM
+Pobierz eksport, rozpakuj go i skopiuj plik .mwm na swoje urządzenie
+Używając Menedżera plików Androida przejdź do lokalizacji zawierającej plik .mwm
+Przytrzymaj długo palec, aby go zaznaczyć i dotknij przycisk "kopiuj" lub "wytnij"
+Przejdź do "MapsWithMe" i otwórz folder o największym numerze (np. 170917)
+Skopiuj/przenieś swój plik .mwm do tego katalogu dotykając przycisku "wklej"
+Usuń istniejący plik .mwm wybranego wcześniej obszaru zapamiętując jego nazwę
+Zmień nazwę swojego pliku .mwm przez długie dotknięcie (zaznaczenie) i kliknięcie przycisku "więcej" (3 poziome kropki) tak, aby odpowiadał nazwie regionu pobranego przez Maps.me (ten który usunąłeś przed chwilą) 
 Otwórz Maps.me
 
 ![export-tool-mapsme][]
 
 
 ### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+OsmAnd także jest nawigacją GPS i aplikacją mapową dla smartfonów oraz tabletów z Androidem i iOS, szczególnie wspierającą renderowanie, wyznaczanie trasy i szukanie w trybie offline. Przeczytaj więcej o aplikacji i wielu funkacjach [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) na jej głównej stronie. 
 
 ![export-tool-osmand][]
 
