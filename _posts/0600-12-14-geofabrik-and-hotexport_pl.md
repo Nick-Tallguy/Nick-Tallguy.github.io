@@ -151,86 +151,86 @@ OsmAnd także jest nawigacją GPS i aplikacją mapową dla smartfonów oraz tabl
 
 
 ### MBTiles .mbtiles
-MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
+MBTiles to format plików do przechowywania kafelków mapy w jednym pliku. Narzędzie Export pozwala utworzyć użytkownikowi MBTiles zawierające kafelki z OSM, które mogą być użyte jako źródło w aplikacjach offline obsługujących je. Zauważ, że MBTiles zawierają wszystkie obiekty OSM w wybranym przez narzędzie Export obszarze zainteresowania, kiedy karta '3 Dane' automatycznie zmienia się w rozwijane menu z wyborem opcji i zakresu powiększenia, zamiast standardowego drzewa tagów i wyboru obiektów YAML. Przeczytaj więcej o [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) w sekcji Nauka.
 
 ![export-tool-mbtiles][]
 
 
-Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
+Dodatkowe formaty plików są na bieżąco omawiane i wprowadzane do narzędzia Export. Jeżeli jest jakiś format plików, który chciałbyś, aby był dodany w przyszłości, dodaj komentarz w repozytorium na [GitHubie](https://github.com/hotosm/osm-export-tool/issues). Więcej szczegółowych informacji o każdy formacie plików znajdziesz na stronie 'Formaty plików' w sekcji '[Nauka](https://export.hotosm.org/en/v3/learn)' strony tego narzędzia.
 
 
 
-## Customise Map Features
+## Dopasowywanie obiektów mapy
 
-The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
+Narzędzie pozwala użytkownikowi na dostosowanie wyboru danych w określonym obszarze zainteresowania. Dane OSM są określane przy użyciu filtrów tagów i wyboru kluczy w Drzewie tagów lub Formularzu YAML. Drzewo tagów jest przydatne dla popularnych przypadków, dzięki określonej liście zestawów filtrów i wyborów, podczas gdy konfiguracja YAML pozwala w pełni kontrolować filtry i wybory przy użyciu definicji filtrów podobnych do SQL.
 
 ![export-tool-treetag-tab][]
 ![export-tool-yaml-tab][]
 
 
-OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+OSM jest otwartą globalną bazą danych otagowanych obiektów geograficznych, składającą się z trzech rodzajów elementów:
+Węzłów, które reprezentują punkty na powierzchni ziemi
+Linii, które są zestawami węzłów, które mogą tworzyć linie i wielokąty
+Relacji, które są zestawami węzłów, linii lub innych relacji
 
-Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
+Każdy z tych elementów może mieć dowolną ilość tagów w formacie klucz=wartość. Na przykład urząd pocztowy może być pokazany jako linia z tagami building=yes i amenity=post_office. Zobaczmy, jak te tagi mogą być określone w narzędziu Export do odfiltrowania danych OSM przy użyciu Drzewa tagów i Formularza YAML.
 
-### Tag Tree
-The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
+### Drzewo tagów
+Drzewo tagów jest najprostszą metodą na rozpoczęcie wybierania obiektów, przez zwykłe zaznaczanie pól wyboru przy tych, których potrzebujemy. Zauważ, że zaznaczenie nadrzędnego pola dołączy dodatkowe tagi klucz=wartość powiązane z nim tak samo, jak zaznaczenie podrzędnego pola wyboru poniżej. Każde nadrzędne pole wyboru ma inne zapytanie filtrujące dane, więc jest zalecane, żeby przejrzeć składnię każdego z nich poprzez najechanie myszką, co wyświetli więcej informacji po prawej stronie.  
 
 ![export-tool-treetag-sql][]
 
 
-For example selecting the ‘Emergency’ parent checkbox, will automatically select the ‘Police Station’, ‘Ambulance Station’ and ‘Fire Station’ child checkboxes below it, yet in addition to this it will also select all tags where emergency=yes, amenity=police and amenity=fire_station in the following SQL query:
+Na przykład, wybranie nadrzędnego pola 'Ratownictwo' spowoduje automatyczne zaznaczenie podrzędnych pól wyboru 'Komisariat policji', 'Stacja pogotowia ratunkowego' i 'Remiza strażacka' oraz dodatkowo wybranie wszystkich tagów z emergency=yes, amenity=police i amenity=fire_station poprzez następujące zapytanie SQL:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 
-The parent checkboxes do not always represent what is available as children below, to try and account for all possible tags associated with a theme. OSM tags are continuously evolving and we want to ensure that the tool can adapt to these changes. Only the most commonly used key=value tags are represented as child checkboxes, and the parent checkboxes are used to try and encompass those not used as frequently, but fall within a theme. If you have suggestions for modifications to these themes and tags, please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) used to populate the Tag Tree, and we will try to incorporate it where appropriate.
+Nadrzędne pola wyboru nie zawsze pokazują, to co znajduje się na kolejnym poziomie tak, aby spróbować uwzględnić wszystkie możliwe tagi powiązane z tematem. Tagi OSM wciąż ewoluują, a my chcemy zapewnić, że narzędzie będzie przystosowywać się do tych zmian. Tylko najczęściej używane tagi klucz=wartość są przedstawione jako podrzędne pola wyboru, a nadrzędne pola wyboru próbują objąć te, które nie są używane zbyt często, ale należą do tematu. Jeżeli masz sugestie zmian tych tematów i tagów, dodaj komentarz w [arkuszu](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) używanym do wypełniania Drzewa tagów, a my postaramy się włączyć je według potrzeb.
 
 ![export-tool-treetag-spreadsheet][]
 
 
-### YAML Form
-Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
+### Formularz YAML
+Używanie konfiguracji YAML pozwala w pełni kontrolować stosowanie filtrów na danych OSM poprzez używanie definicji tagów klucz=wartość opartych na SQL. Zwróć uwagę, że Drzewo tagów również generuje składnię dla YAML, więc każde zaznaczone pole wyboru będzie automatycznie generować wpis w polu YAML. Jest to punkt startowy dla zapytanie, które może być później edytowane. 
 
 ![export-tool-treetag-yaml][]
 
 
-The use of YAML was chosen due to its simplicity and compatibility with SQL. The YAML feature selection format  is similar to style files used by programs such as osm2pgsql and imposm. It is whitespace sensitive, with each child element indented below its parent element, and preceded by a dash. This dash must have a space after it. Here is a basic example of a feature selection with 3 themes, buildings, waterways and hospitals:
+Użycie YAML zostało wybrane ze względu na prostotę i kompatybilność z SQL. Format wyboru obiektów YAML jest podobny do plików stylu używanych przez programy takie, jak osm2pgsql i imposm. Rozpoznaje on białe znaki, więc każdy podrzędny element jest wcięty względem swojego rodzica i poprzedzony myślnikiem. Po myślniku musi wystąpić spacja. Tutaj jest podstawowy przykład wyboru obiektów z 3 tematów: budynków, dróg wodnych i szpitali:
 
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
-Mappings in the above example are: types and select 
-Lists in the above example are: child elements of select and types
+YAML ma Tematy i dwie struktury danych, Mapowanie i Listy
+Temat w powyższym przykładzie sto: budynki
+Mapowanie w powyższym przykładzie to: rodzaje i wybór 
+Listy w powyższym przykładzie to: potomkowie wyboru i rodzaje
 
-YAML: Themes
-Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
+YAML: Tematy
+Kluczami najwyższego rzędu w dokumencie YAML są Tematy składające się z prawidłowych znaków, czyli liter, cyfr i podkreśleń. 
 
-YAML: Geometry Types
-The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
+YAML: Rodzaje geometrii
+Lista wartości mapowanych rodzajów może mieć jeden lub więcej z '- punktów', '- linii', '- wielokątów'. Jeżeli klucz rodzaju zostanie pominięty, to wszystkie trzy typy geometrii będą włączone do tematu.
 
-YAML: Column Selections
-List items under the mapping select key determines the columns for each theme. The following example will populate the ‘name’ and ‘amenity’ columns with their values from OSM:
+YAML: Wybieranie kolumn
+Lista elementów mapowanych kluczy wyboru określa kolumny każdego tematu. Poniższy przykład wypełni kolumny 'name' i 'amenity' ich wartościami z OSM:
 
 ![export-tool-yaml-code2][]
 
 
-YAML: Filters
-Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
+YAML: Filtry
+Filtry znajdują się pod kluczem where: w każdym temacie. Określają one jaki podzbiór obiektów OSM należy do tematu. Kolejny przykład odfiltruje temat do obiektów, dla których klucz natural ma wartość waterway:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+Zwróć uwagę, że prawie zawsze jest potrzebny jakiś rodzaj filtrowania, inaczej temat będzie po prostu zawierał wszystkie obiekty OSM dla danego typu geometrii. Filtr określa się używając składni bazującej na SQL, ze słowami kluczowymi IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+Szablony JOSM
+Starsze wersje narzędzia Export używały szablonów JOSM w plikach .XML do definiowania wyboru obiektów. Nowa wersja używa YAML, ponieważ jest on bardziej elastyczny w transformowaniu danych OSM. Nowe narzędzie Export może jednak pomóc skonwertować szablon JOSM do konfiguracji YAML przez kliknięcie przycisku 'Załaduj z szablonu JOSM .XML'. Miej na uwadze, że jeśli szablon jest bardziej złożony, może być potrzebne napisanie nowej konfiguracji YAML bazując na elementach 'item' zawartych w XML.
 
 ![export-tool-load-preset][]
 
@@ -238,17 +238,17 @@ Older versions of the Export Tool used JOSM Preset .XML files to define feature 
 
 ### Konfiguracje
 
-YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
+Konfiguracja YAML może być zdefiniowana i zapisana na do przyszłego użycia na stronie 'Konfiguracja'. Dobrze jest utworzyć jedną konfigurację do projektu, która może być później użyta do wszystkich eksportów związanych z tym projektem. Nadaj konfiguracji 'nazwę' i 'opis', które ułatwią odnalezienie jej przez innych użytkowników. Odznaczenie pola 'Publiczna' uczyni konfigurację widoczną tylko dla użytkownika. 
 
 ![export-tool-configuration-saved][]
 
 
-Please note that configurations can be edited, which is useful for evolving a feature selection during the course of a project. Saved YAML configurations can be selected via the ‘Stored Configuration’ option on the ‘3 Data’  tab when creating an export. Use the Search bar to find configurations related to your project.
+Zauważ, że konfiguracja może być edytowana, co jest użyteczne przy ewolucji wyboru obiektów podczas trwania projektu. Zapisana konfiguracja YAML może być wybrana przez opcję 'Zapisana konfiguracja' na karcie '3 Dane' podczas tworzenia eksportu. Użyj paska Wyszukiwanie do znalezienia konfiguracji odpowiedniej dla Twojego projektu.
 
 ![export-tool-configuration-stored][]
 
 
-For further detailed information regarding feature selections and YAML, please visit the ‘Selecting Features’ and ‘YAML Specification’ in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website. 
+Po więcej szczegółowych informacji dotyczących wybierania obiektów i YAML przejdź do 'Wybierania obiektów' i 'Specyfikacji YAML' w sekcji '[Nauka](https://export.hotosm.org/en/v3/learn)' na stronie narzędzia. 
 
 
 
