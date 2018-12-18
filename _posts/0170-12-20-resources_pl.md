@@ -9,7 +9,7 @@ category: resources
 
 # Inne źródła
 
-> Przejrzano 24.02.2018
+> Przejrzano 2018-02-24
 
 Jest to skomentowana lista odnośników do innych stron internetowych, które uważamy za użyteczne. Wszystkie odnośniki zostały zweryfikowane i działały, gdy ten dokument był ostatnio sprawdzany.
 

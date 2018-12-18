@@ -11,19 +11,19 @@ category: coordination
 ![HotGuideLogo](/images/hot-logo.png)  
 
 > Ten przewodnik może zostać pobrany jako [remote-mapping_pl.odt](/files/remote-mapping_pl.odt) lub [remote-mapping_pl.pdf](/files/remote-mapping_pl.pdf)  
-> Przejrzano 18.09.2015  
+> Przejrzano 2015-09-18  
 
-The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.  
+Humanitarian OpenStreetMap Team (HOT) jest globalną społecznością pracującą na rzecz zastosowania otwartych źródeł i otwartych danych w działaniach humanitarnych i dla rozwoju ekonomicznego.  
 
 ### Jak działa zdalne reagowanie 
 
-![Proces BrakującychMap](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
+![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.  
 
 Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
 
-[Przykład aktywacji w Syrii](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
+[Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
 ### Menedżer zadań HOT 
 
@@ -31,13 +31,13 @@ The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool design
 
 In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
 
-![Menedżer zadań HOT](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
+![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Narzędzia edycji 
 
 [iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
 
-![Edytor iD](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
+![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
 [JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
@@ -60,12 +60,12 @@ This guide has been summarized and collected from a variety of existing tutorial
 
 [Przewodnik zdalnego mapowania LearnOSM](http://learnosm.org/en/coordination/remote/) - jeden z najbardziej wszechstronnych przewodników  
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[Samouczek Learn To Map od MapGive's](http://mapgive.state.gov/learn-to-map/) - zawiera filmy, które możesz zatrzymać i prześledzić dokładnie  
 
 [Podręcznik szybkiego startu z HOT](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - napisany przez Petera Richardsona (@meetar), doświadczonego wolontariusza zdalnego reagowania HOT  
 
 #### Informacje o HOT 
 
-[Strona wiki HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dowiedz się więcej na temat jak działa HOT i poznaj najnowsze jego wiadomości  
+[Strona wiki HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dowiedz się więcej na temat jak działa HOT i poznaj najnowsze wiadomości  
 
 [Możliwości HOT](http://hot.openstreetmap.org/about/hot_capacities) - opisuje działania HOT w bardziej szczegółowy sposób na swojej stronie internetowej  

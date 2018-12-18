@@ -10,7 +10,7 @@ GPSLogger dla Androida
 =====================
 
 > Ten przewodnik może zostać pobrany jako [gpslogger_pl.odt](/files/gpslogger_pl.odt) lub [gpslogger_pl.pdf](/files/gpslogger_pl.pdf)  
-> Przejrzano 06.12.2015  
+> Przejrzano 2015-12-06  
 
 ![GPSLogger][]
 

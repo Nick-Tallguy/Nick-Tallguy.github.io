@@ -3,7 +3,7 @@ layout: doc
 title: BasicAirData GPS Logger
 permalink: /es/mobile-mapping/basicairdata-gpslogger/
 lang: es
-categoría: mapeado-móvil
+category: mobile-mapping
 ---
 
 > Esta guía puede ser descargada como [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) o [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  

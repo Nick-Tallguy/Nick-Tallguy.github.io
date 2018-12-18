@@ -10,7 +10,7 @@ OSMTracker
 ==============
 
 > Ten przewodnik może zostać pobrany jako [OSMTracker_pl.odt](/files/OSMTracker_pl.odt) lub [OSMTracker_pl.pdf](/files/OSMTracker_pl.pdf)  
-> Przejrzano 08.02.2016
+> Przejrzano 2016-02-08
   
 **This article relates to OSMTracker for Android - there is a similar product available for windows mobile.**  
 OSMTracker allows the creation of a gpx trace of a journey, with the collection of 'waypoints' along the route. Voice recording, photographs and other notes may also be recorded, and all will be geolocated.

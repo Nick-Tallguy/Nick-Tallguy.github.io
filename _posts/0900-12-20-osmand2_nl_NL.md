@@ -33,7 +33,7 @@ In aanvulling op de bovenstaande bronnen, is een door de gemeenschap onderhouden
 Beginnen
 ---------------
 
-OsmAnd laat u live, online kaarten gebruiken, als ook offline databases van OpenStreetMap die geen internetverbinding vereisen. De laatste gaat er van uit dat de benodigde stappen om de offline database te downlaoden en op te slaan op uw apparaat zijn voltooid.  
+OsmAnd laat u live, online kaarten gebruiken, als ook offline databases van OpenStreetMap die geen internetverbinding vereisen. De laatste gaat er van uit dat de benodigde stappen om de offline database te downloaden en op te slaan op uw apparaat zijn voltooid.  
 
 De offline mogelijkheid voor OsmAnd is één van zijn sterke kanten. Daarom is één van de eerste taken die een nieuwe gebruiker zou willen is om de database(s) te downloaden. En, indien u geïnteresseerd bent in stem-assisterende navigatie, dient ook ook de bestanden voor de stemmen te downloaden.  
 
@@ -255,7 +255,7 @@ Hieronder staat een voorbeeld van hoe sporen en waypoints er uitzien op een kaar
 GPX-sporen exporteren naar de bewerker van OpenStreetMap
 --------------------------------------------
 
-Wanneer u gereed bent met het verzamelen van de gegevens in het veld, kunt u de GPX-sporen importeren om te gebruiken in JOSM, iD of een andere een andere bewerker voor OpenStreetMap.  
+Wanneer u gereed bent met het verzamelen van de gegevens in het veld, kunt u de GPX-sporen importeren om te gebruiken in JOSM, iD of een andere bewerker voor OpenStreetMap.  
 
 Verbind uw apparaat met Android aan een computer (met behulp van een gegevenskabel, Bluetooth, of een internetverbinding) en kopieer de GPX-sporen en (en misschien multimediabestanden) die u heeft vastgelegd. Zoek, in de opslag van uw apparaat, naar de GPX-sporen in de map /osmand/tracks, en de multimediabestanden in /osmand/avnotes.  
 

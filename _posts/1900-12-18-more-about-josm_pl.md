@@ -10,7 +10,7 @@ Proces edycji w JOSM
 ========================
 
 > Ten przewodnik może zostać pobrany jako [josm_more-about-josm_pl.odt](/files/josm_more-about-josm_pl.odt) lub [josm_more-about-josm_pl.pdf](/files/josm_more-about-josm_pl.pdf)  
-> Przejrzano 12.07.2015  
+> Przejrzano 2015-07-12  
 
 In the previous section you
 installed JOSM and began drawing your first points, lines, and shapes.

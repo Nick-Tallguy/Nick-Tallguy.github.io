@@ -292,7 +292,7 @@ Jeżeli potrzebujesz wysłać wiadomość, np. email lub wiadomość na IRC i ws
 
 1. Kliknij na interesującym cię kwadracie zadania  
 2. Kliknij w pasku adresu Twojej przeglądarki, który powinien pokazywać coś podobnego do 'http://tasks.hotosm.org/project/713?task=259'  
-3. Copy this link into the message. 
+3. Skopiuj ten link do wiadomości. 
 
 
 ## Uzyskiwanie pomocy 

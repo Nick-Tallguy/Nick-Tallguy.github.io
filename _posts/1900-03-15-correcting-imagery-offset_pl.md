@@ -10,7 +10,7 @@ Imagery Offset
 ===============
 
 > Ten przewodnik może zostać pobrany jako [correcting-imagery-offset_pl.odt](/files/correcting-imagery-offset_pl.odt) lub [correcting-imagery-offset_pl.pdf](/files/correcting-imagery-offset_pl.pdf)  
-> Przejrzano 21.09.2015  
+> Przejrzano 2015-09-21  
 
 Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
 

@@ -10,7 +10,7 @@ Narzędzia edycji JOSM
 ==================
 
 > Ten przewodnik może zostać pobrany jako [josm_josm-tools_pl.odt](/files/josm_josm-tools_pl.odt) lub [josm_josm-tools_pl.pdf](/files/josm_josm-tools_pl.pdf)  
-> Przejrzano 09.06.2017  
+> Przejrzano 2017-06-09  
 
 - TOC
 {:toc}

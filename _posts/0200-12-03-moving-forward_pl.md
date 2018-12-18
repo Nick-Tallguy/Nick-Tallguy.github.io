@@ -10,7 +10,7 @@ Dalsza lektura
 ===============
 
 > Ten przewodnik może zostać pobrany jako [beginner_moving-forward_pl.odt](/files/beginner_moving-forward_pl.odt) lub [beginner_moving-forward_pl.pdf](/files/beginner_moving-forward_pl.pdf)  
-> Przejrzano 12.07.2015  
+> Przejrzano 2015-07-12  
 
 Gratulacje, że udało Ci się zajść aż tutaj! Powinieneś teraz mieć spore rozeznanie, jak tworzyć mapy w OpenStreetMap. Co jeszcze możesz robić z OpenStreetMap? Jak możesz nauczyć się więcej? Jak pozostać w kontakcie ze społecznością maperów?  
 

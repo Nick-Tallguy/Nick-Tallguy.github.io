@@ -11,8 +11,8 @@ nosearch: true
 Przewodnik dla początkujących
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
-> Reviewed 2015-07-12  
+> Ten przewodnik może zaostać pobrany jako [beginner_pl.odt](/files/beginner_pl.odt) lub [beginner_pl.pdf](/files/beginner_pl.pdf)  
+> Przejrzano 2015-07-12  
 
 Ten przewodnik pokaże krok po kroku, jak zacząć korzystać z OpenStreetMap. Nauczysz się, jak utworzyć konto, jak używać prostego oprogramowania do edycji map, a w dalszych rozdziałach dowiesz się, jak wyjść na zewnątrz i zbierać informacje do umieszczenia na mapie. 
 

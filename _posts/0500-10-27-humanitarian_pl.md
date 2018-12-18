@@ -6,12 +6,12 @@ lang: pl
 category: coordination
 ---
 
-# Humanitarian Mapping
+# Mapowanie humanitarne
 
 ![HotGuideLogo](/images/hot-logo.png)
 
 > Ten przewodnik może zostać pobrany jako [humanitarian_pl.odt](/files/humanitarian_pl.odt) lub [humanitarian_pl.pdf](/files/humanitarian_pl.pdf)  
-> Przejrzano 18.09.2015
+> Przejrzano 2015-09-18
 
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
 

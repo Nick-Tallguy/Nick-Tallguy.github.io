@@ -10,7 +10,7 @@ Editing Field Data
 ==================
 
 > Ten przewodnik może zostać pobrany jako [josm_editing-with-josm_pl.odt](/files/josm_editing-with-josm_pl.odt) lub [josm_editing-with-josm_pl.pdf](/files/josm_editing-with-josm_pl.pdf)  
-> Przejrzano 13.07.2015  
+> Przejrzano 2015-07-13  
 
 We've now covered all the building blocks of mapping with OpenStreetMap.
 In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.  

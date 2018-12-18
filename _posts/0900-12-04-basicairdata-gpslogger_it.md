@@ -1,21 +1,21 @@
 ---
 layout: doc
-title: BasicAirData GPS Logger
-permalink: /en/mobile-mapping/basicairdata-gpslogger/
-lang: en
+BasicAirData GPS Logger
+permalink: /it/mobile-mapping/basicairdata-gpslogger/
+lang: it
 category: mobile-mapping
 ---
 
-> This guide may be downloaded as [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) or [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  
+Questa guida può essere scaricata come [basicairdata_gpslogger_it.odt](/files/basicairdata_gpslogger_it.odt) oppure [basicairdata_gpslogger_it.pdf](/files/basicairdata_gpslogger_it.pdf)
 
 BasicAirData GPS Logger
 =======================
 
 ![BasicAirData-GPSLogger-002][]
 
-BasicAirData GPS Logger è una semplice applicazione per registrare la tua posizione e il tuo percorso. È un registratore GPS leggero focalizzato sull'accuratezza, con un occhio al risparmio energetico. L'app è molto accurata nella determinazione dell'altitudine, quando viene abilitata la correzione automatica dell'altitudine EGM96 nelle impostazioni. Puoi registrare tutti i tuoi itinerari, visualizzarli nel tuo visualizzatore esterno preferito (deve essere installato) direttamente dall'archivio tracce integrato, e condividerle nei formati KML, GPX e TXT in tanti modi.
+BasicAirData GPS Logger è una semplice applicazione per registrare la tua posizione e il tuo percorso. È un registratore GPS leggero focalizzato sull'accuratezza, con un occhio al risparmio energetico. L'app è molto accurata nella determinazione dell'altitudine, quando viene abilitata la correzione automatica dell'altitudine EGM96 nelle impostazioni. Puoi registrare tutti i tuoi itinerari, visualizzarli nel tuo visualizzatore esterno preferito (deve essere installato) direttamente dall'archivio itinerari integrato, e condividerli nei formati KML, GPX e TXT in tanti modi.
 
-L'app è disponibile per Android, è libera, gratuita e Open Source.
+L'app è disponibile per Android, libera, gratuita e Open Source.
 
 L'applicazione è scaricabile gratuitamente su [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br>
 Come alternativa, l'APK è scaricabile direttamente dalla [repo di GitHub](https://github.com/BasicAirData/GPSLogger/tree/master/apk) di GPSLogger.
@@ -26,12 +26,12 @@ Caratteristiche
 ![BasicAirData-GPSLogger-000][]
 
 * Registrazione di itinerari - l'app non ha mappe integrate
-* Un'interfaccia moderna con un tema scuro a basso consumo e una visualizzazione a schede
+* Un'interfaccia moderna con tema scuro a basso consumo e una visualizzazione a schede
 * Registrazione in primo piano e in background (In Android 6+ è necessario disabilitare monitoraggi e ottimizzazioni della batteria per l'app)
 * Creazione di annotazioni, anche durante la registrazione
 * Visualizzazione delle informazioni GPS
-* Correzione manuale dell'altitudine (aggiunta di un offset)
-* Correzione automatica dell'altitudine basata su NGA Earth Geoid Model EGM96 (da abilitare nelle impostazioni)
+* Correzione manuale dell'altitudine (con l'aggiunta di un offset)
+* Correzione automatica dell'altitudine basata su NGA EGM96 Earth Geoid Model (da abilitare nelle impostazioni)
 * Statistiche itinerario in tempo reale
 * Archivio itinerari integrato, con la lista dei percorsi registrati
 * Visualizzazione itinerari tramite qualsiasi visualizzatore KML/GPX installato, direttamente dall'archivio itinerari
@@ -46,30 +46,30 @@ Utilizzo di base
 
 Se la posizione GPS non è attiva sul tuo dispositivo, attivala. Poi vai in un luogo aperto e avvia GPS Logger.
 
-1. Attendi che l'app agganci il segnale gps. Non appena trovato il segnale, il tab __FIX GPS__ inizierà a visualizzare le coordinate del fix. A questo punto (quando possibile) è consigliabile attendere almeno un altro minuto prima di procedere con la fase successiva, al fine di consentire la stabilizzazione del segnale
+1. Attendi che l'app agganci il segnale gps. Non appena trovato il segnale, la scheda __FIX GPS__ inizierà a visualizzare le coordinate del fix. A questo punto (quando possibile) è consigliabile attendere almeno un altro minuto prima di procedere con la fase successiva, al fine di consentire la stabilizzazione del segnale
 2. Clicca sul bottone __Punti GPS__ che trovi nel pannello inferiore per iniziare la registrazione dell'itinerario. Il bottone diventerà di colore rosso. Puoi interrompere e riprendere la registrazione in ogni momento cliccando su di esso. Il bottone mostra il numero di punti registrati.
-È possibile andare nel tab __ITINERARIO__ per vedere le statistiche del percorso in tempo reale.
-3. When your trip is finished, double-tap on the little __V tick__ located near the upper right corner to finalize (finish) the active track.
-4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen
+È possibile andare nella scheda __ITINERARIO__ per vedere le statistiche del percorso in tempo reale.
+3. Alla fine del viaggio, fai doppio click sul piccolo segno di spunta __V tick__ in alto a destra per terminare (finalizzare) l'itinerario registrato.
+4. Vai nella scheda __ARCHIVIO__, dove troverai la traccia che hai appena registrato. Cliccando sulla card dell'itinerario, apparirà un menu. Puoi scegliere di condividere l'itinerario in molti modi, visualizzarlo usando un visualizzatore esterno tra quelli installati, esportarlo nella cartella /GPSLogger del tuo smartphone, o eliminarlo dall'archivio. I formati di esportazione possono essere configurati nelle impostazioni dell'applicazione
 
-Import of GPX tracks in OpenStreetMap Editor
+Importazione degli itinerari GPX nell'editor di OpenStreetMap
 --------------------------------------------
 
-When you are done collecting field data, you may import the GPX tracks for use in JOSM, iD or another OpenStreetMap Editor.
-You can use this simple 2-step procedure:
+Terminata la raccolta dei dati sul campo, è possibile importare le tracce GPX per l'utilizzo in JOSM, iD o qualsiasi editor OpenStreetMap.
+Puoi utilizzare questa semplice procedura:
 
-1. Save the GPX track on your Personal Computer in one of the following ways:
-* Go on the GPS Logger tracklist, tap on the desired track and then click on __Export__; the GPX file will be created and saved on the /GPSLogger folder of your Android device (make sure that GPX format is enabled on the settings screen). Then connect the phone with your PC using a USB cable and move (or copy) your GPX tracks on your PC using the File Manager;
-* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via e-mail, FTP, or using many Cloud Services). The sharing possibilities depend on the third-party apps installed on your Android Device;
-2. Import the GPX track into your OpenStreetMap Editor: using the GPX tracks with the JOSM and iD editors is easy by dragging the files and dropping them into the application (or the browser tab, for iD).
+1. Salva l'itinerario in formato GPX sul tuo Personal Computer in uno dei seguenti modi:
+* Vai nell'archivio itinerari di GPS Logger, clicca sull'itinerario desiderato e nel menu che compare seleziona la voce __Esporta__; il file GPX verrà creato e salvato nella cartella /GPSLogger del tuo dispositivo Android (assicurati che il formato GPX sia abilitato nelle impostazioni di esportazione). Successivamente collega il tuo telefono con il PC tramite cavo USB e sposta (o copia) i files GPX usando il File Manager;
+* Come alternativa, puoi utilizzare la funzione __Condividi__ per inviare l'itinerario al PC (è possibile inviare gli itinerari via e-mail, FTP, o utilizzando diversi servizi cloud). Le possibilità di condivisione disponibili dipendono dalle applicazioni installate e configurate sul tuo dispositivo Android;
+2. Importa il file GPX nell'editor OpenStreetMap: l'operazione è molto semplice, è sufficiente trascinare il file e rilasciarlo nell'editor (o nella scheda del browser, per iD).
 
-Official Documentation
+Documentazione ufficiale (in inglese)
 ----------------------
 
-- For further information about this app you can read [this article](http://www.basicairdata.eu/projects/android/android-gps-logger/).<br>
-- [Here](http://www.basicairdata.eu/projects/android/android-gps-logger/getting-started-guide-for-gps-logger/) you can find a Getting Started Guide and an Overview of the App Settings.<br>
-- Problems during use or configuration of GPS Logger? Read the [Frequently Asked Questions](https://github.com/BasicAirData/GPSLogger/blob/master/readme.md#frequently-asked-questions) page!
+- Per ulteriori informazioni sull'applicazione puoi leggere [questo articolo](http://www.basicairdata.eu/projects/android/android-gps-logger/).<br>
+-  [Qui](http://www.basicairdata.eu/projects/android/android-gps-logger/getting-started-guide-for-gps-logger/) puoi trovare una guida introduttiva e una panoramica delle impostazioni dell'app.<br>
+- Problemi durante l'uso o la configurazione di GPS Logger? Leggi la sezione delle [domande più frequenti](https://github.com/BasicAirData/GPSLogger/blob/master/readme.md#frequently-asked-questions)!
 
-[BasicAirData-GPSLogger-002]:  /images/mobile-mapping/basicairdata-gpslogger_002.en.jpg
-[BasicAirData-GPSLogger-000]:  /images/mobile-mapping/basicairdata-gpslogger_000.en.jpg
-[BasicAirData-GPSLogger-001]:  /images/mobile-mapping/basicairdata-gpslogger_001.en.jpg
+[BasicAirData-GPSLogger-002]: /images/mobile-mapping/basicairdata-gpslogger_002.en.jpg
+[BasicAirData-GPSLogger-000]: /images/mobile-mapping/basicairdata-gpslogger_000.en.jpg
+[BasicAirData-GPSLogger-001]: /images/mobile-mapping/basicairdata-gpslogger_001.en.jpg

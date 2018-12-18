@@ -10,7 +10,7 @@ JOSM - Adding Aerial Imagery
 ================
 
 > Ten przewodnik może zostać pobrany jako [josm_adding_imagery_pl.odt](/files/josm_adding_imagery_pl.odt) lub [josm_adding_imagery_pl.pdf](/files/josm_adding_imagery_pl.pdf)  
-> Przejrzano 09.09.2016  
+> Przejrzano 2016-09-09  
 
 Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  
 

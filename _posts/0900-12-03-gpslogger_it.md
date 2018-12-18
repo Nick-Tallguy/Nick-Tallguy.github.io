@@ -20,23 +20,23 @@ Una semplice, leggera e minimalista app per registrare tracce GPS sulla piattafo
 
 GPSLogger per Android è una app di uso gratuito, ed è attivamente mantenuto come progetto open source. Le donazioni sono benvenute per migliorare ulteriormente la app. Se tu desideri essere coinvolto (ad es.: con traduzioni in altra lingua, bug reporting, o sottoponendo richieste per nuove funzioni), visita il [repository](https://github.com/mendhak/gpslogger).  
 
-> OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
+> OpenGTS si riferisce all'[Open GPS Tracking System](http://opengts.sourceforge.net/) project  
 
 
 Caratteristiche
 --------  
 
-* Specify logging based on time or distance intervals  
-* Specific battery saving configurations  
-* GPS accuracy filter to not log unreliable points  
-* Select wifi, Cellphone tower and/or GPS satellites as location information source  
-* Log to GPX, KML, CSV, TXT or NMEA files with ZIP support  
+* Registrazione basata su intervalli di tempo o distanza  
+* Configurazioni specifiche di risparmio batteria  
+* Filtro accuratezza del GPS per non registrare punti non attendibili  
+* Selezione della sorgente per l'acquisizone della posizione (wifi, celle telefoniche e/o GPS)  
+* Registrazione in file GPX, KML, CSV, TXT o NMEA con supporto ZIP  
 * Unità di misura metriche oppure imperiali  
 * Avvio automatico  
 * Può essere eseguito in background  
-* Works well with other GPS applications running  
-* Automatic sending to email/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS at user defined intervals  
-* Easy to preconfigure text configuration files for distribution to many users  
+* Funziona bene in contemporanea con altre applicazioni GPS  
+* Invio automatico via email/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS ad intervalli definiti dall'utente  
+* Preconfigurazione dei file di configurazione per la distribuzione a vari utenti  
 
 
 Interfaccia utente
@@ -44,26 +44,26 @@ Interfaccia utente
 
 ![Canvass1][]
 
-The **Menu** button provides more options for configuring the app.  
-The **Views drop-down** lets you to choose how information is display on the screen.  
-The **Help** button provides additional information about how to use the app.  
-The **Annotate** button lets you to add a description to a point.  
-**Log one point** button lets you manually log a waypoint.  
+Il bottone **Menu** fornisce opzioni aggiuntive per la configurazione dell'app.  
+Il **Drop-down Viste** permette di scegliere come visualizzare le informazioni sullo schermo.  
+Il bottone **Aiuto** fornisce informazioni aggiuntive su come usare l'app.  
+Il bottone **Annota** permette di aggiungere una descrizione ad un punto.  
+Il bottone **Registra un singolo punto** permette di registrare manualmente un waypoint.  
 **Upload** lets you choose from a variety of options for uploading your log file. This includes an option to auto send to any of the following:  
 
 - OpenStreetMap,  
 - Google Drive,  
 - DropBox,  
-- an FTP server,  
-- an OpenGTS server or  
-- send the log to an email address.  
+- un server FTP,  
+- un server OpenGTS o  
+- invio file ad un indirizzo email.  
 
-The **Share** button lets you choose one or more log files you can share with other people via Bluetooth, or SMS. Depending on what apps are installed on your device, you may have different options available for you.  
+Il bottone **Condividi** permette di scegliere uno o più file da condividere con altre persone via Bluetooth, o SMS. Dipendentemente da quali app sono installate sul tuo dispositivo, puoi avere differenti opzioni disponibili.  
 
 
 ![Canvass2][]
 
-The **Start Logging** button is in blue. When you press this button to start recording, it turns to  a green button.  
+Il bottone **Inizia la registrazione** è di colore blu. Quando clicchi su di esso per iniziare la registrazione, il bottone diventa verde.  
 The **Coordinates** displays the last recorded GPS point, and is refreshed when a new coordinates become available.  
 The **Satellites** icon will show you how many satellites you are fixed on.  
 The **Elevation** shows elevation data.  
