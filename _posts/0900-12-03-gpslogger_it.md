@@ -45,11 +45,11 @@ Interfaccia utente
 ![Canvass1][]
 
 Il bottone **Menu** fornisce opzioni aggiuntive per la configurazione dell'app.  
-Il **Drop-down Viste** permette di scegliere come visualizzare le informazioni sullo schermo.  
-Il bottone **Aiuto** fornisce informazioni aggiuntive su come usare l'app.  
-Il bottone **Annota** permette di aggiungere una descrizione ad un punto.  
-Il bottone **Registra un singolo punto** permette di registrare manualmente un waypoint.  
-**Upload** lets you choose from a variety of options for uploading your log file. This includes an option to auto send to any of the following:  
+Il **Views drop-down** permette di scegliere come visualizzare le informazioni sullo schermo.  
+Il bottone **Help** fornisce informazioni aggiuntive su come usare l'app.  
+Il bottone **Annotate** permette di aggiungere una descrizione ad un punto.  
+Il bottone **Log one point** permette di registrare manualmente un waypoint.  
+**Upload** permette di scegliere tra una varietà di opzioni per l'upload dei file. Questo include un'opzione per l'invio automatico a:  
 
 - OpenStreetMap,  
 - Google Drive,  
@@ -58,19 +58,19 @@ Il bottone **Registra un singolo punto** permette di registrare manualmente un w
 - un server OpenGTS o  
 - invio file ad un indirizzo email.  
 
-Il bottone **Condividi** permette di scegliere uno o più file da condividere con altre persone via Bluetooth, o SMS. Dipendentemente da quali app sono installate sul tuo dispositivo, puoi avere differenti opzioni disponibili.  
+Il bottone **Share** permette di scegliere uno o più file da condividere con altre persone via Bluetooth, o SMS. Dipendentemente da quali app sono installate sul tuo dispositivo, puoi avere differenti opzioni disponibili.  
 
 
 ![Canvass2][]
 
-Il bottone **Inizia la registrazione** è di colore blu. Quando clicchi su di esso per iniziare la registrazione, il bottone diventa verde.  
-The **Coordinates** displays the last recorded GPS point, and is refreshed when a new coordinates become available.  
-The **Satellites** icon will show you how many satellites you are fixed on.  
-The **Elevation** shows elevation data.  
-The **Duration** displays the total time elapsed since pressing the start button.  
-The **Distance** will display the total distance recorded.  
-The **File Types** indicate what type of logs are being generated while the **File Path** tells you where the location of the file in your device or memory card.  
-The **Status** indicator will display in green when it is recording, while a spinner is displayed when the device is trying to get a fix.  
+Il bottone **Start Logging** è di colore blu. Quando clicchi su di esso per iniziare la registrazione, il bottone diventa verde.  
+**Coordinates** visualizza l'ultimo punto GPS, ed è aggiornato quando delle nuove coordinate sono disponibili.  
+L'icona **Satellites** visualizzerà quanti satelliti sono stati utilizzati per il fix.  
+**Elevation** mostra l'altitudine (elevazione).  
+**Durata** mostra il tempo totale trascorso dall'ultima pressione del tasto di avvio.  
+**Distance** mostra la distanza totale registrata.  
+**File types** indica quali tipi di log file sono generati, mentre **File path** indica la posizione dei file sul tuo dispositivo o memory card.  
+L'indicatore **Status** è verde durante la registrazione, mentre visualizza uno spinner quando il dispositivo sta cercando di ottenere un fix.  
 The **Accuracy** will display the accuracy of the recorded data, which varies between receivers, the position or number of available satellites, weather condition, or the obstructions of the horizon.  
 The **Bearing** tells you the direction you are moving.  
 The **Speed** will give you approximate information of how fast you are going.  
