@@ -18,7 +18,7 @@ BasicAirData GPS Logger è una semplice applicazione per registrare la tua posiz
 L'app è disponibile per Android, libera, gratuita e Open Source.
 
 L'applicazione è scaricabile gratuitamente su [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br>
-Come alternativa, l'APK è scaricabile direttamente dalla [repo di GitHub](https://github.com/BasicAirData/GPSLogger/tree/master/apk) di GPSLogger.
+Come alternativa, l'APK è scaricabile direttamente dalla [repo GitHub di GPSLogger](https://github.com/BasicAirData/GPSLogger/tree/master/apk).
 
 Caratteristiche
 --------
