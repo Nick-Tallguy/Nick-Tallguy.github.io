@@ -115,66 +115,66 @@ Strana Tasking Manager Zapojit se je rozdělena do tří hlavních částí:
 Ve výchozím nastavení jsou zobrazeny všechny projekty, které jsou k dispozici pro mapování. Pomocí části Filtry pokročilého vyhledávání na obrazovce můžete dále zúžit projekty, na kterých byste chtěli pracovat.
 
 - Číslo projektu - Pokud znáte číslo projektu, na kterém chcete pracovat, můžete jej zadat a přejít přímo na něj.
-- Organization - This allows you to just display projects that have been requested by individual organizations.
-- Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
-- Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
-- Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
-- Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
+- Organizace - umožňuje zobrazit pouze projekty, které byly požadovány jednotlivými organizacemi.
+- Obtížnost mapování - Některé projekty je obtížnější mapovat než jiné. Tato možnost vám umožňuje najít projekty, které jsou nejvhodnější pro vaši úroveň zkušeností. Doporučujeme pracovat na projektech, které nejlépe odpovídají vašim zkušenostem, obzvláště pokud jste zkušený mapovač.
+- Typ mapování - Umožňuje najít projekty, které obsahují určitý typ objektu, který chcete mapovat. Mnoho projektů je zaměřeno pouze na jeden typ mapování, ale projekty mohou obsahovat více typů úloh, které je třeba mapovat.
+- Fulltextové vyhledávání - umožňuje vyhledávat projekty, které mohou obsahovat určité slovo nebo frázi v popisu projektu.
+- Značky kampaně - Projekty mohou obsahovat jiné značky, které označují, že větší projekty mapování kampaní jsou součástí projektu, tyto projekty můžete najít zadáním do tohoto pole.
 
-#### Map View
-Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
+#### Zobrazení mapy
+Kliknutím na kartu Zobrazení mapy se zobrazí počet projektů v regionu. Dvojitým kliknutím nebo přiblížením se zobrazí jednotlivé projekty. Jakmile je zvětšeno, body na mapě jsou barevně označeny, červená je naléhavá, žlutá je vysoká nebo střední priorita a šedá je nízká priorita. Kliknutím na některý z bodů na mapě se zobrazí informace o daném projektu. Kliknutím na název projektu se dostanete k tomuto projektu.
 
 ![TM project map][]
 
-### Mapping via the Tasking Manager
+### Mapování přes Tasking Manager
 
-Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
+Jakmile najdete projekt, na kterém chcete pracovat, kliknutím na název projektu se dostanete k podrobnému záznamu pro daný projekt. Tento podrobný náhled obsahuje:
 
-- A description of the project's importance and how the data will be used
-- Detailed instructions for what to map
-- Selection screens for mapping validating
-- Detailed map of the individual mapping task areas, with information about their status.
-- A Questions and Comments tab for questions or comments about the project
+- popis důležitosti projektu a způsob využití dat
+- Podrobné pokyny pro to, co mapovat
+- výběrové obrazovky pro validaci mapování
+- Podrobná mapa oblastí jednotlivých mapovacích úloh s informacemi o jejich stavu.
+- Karta Otázky a poznámky k otázkám nebo připomínkám k projektu
 
 ![TM project description][]
 
 
 
-#### Project Page
+#### Projektová stránka
 
-Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
+Vše, co potřebujete vědět o projektu, je tady! V horní části je úplný popis mapového projektu a informace o projektu.  
 
-Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
+Pod popisem je obrazovka rozdělena do levé a pravé části. V levé části je panel se záložkami s kartami pro "Pokyny", "Mapa", "Ověřit" a "Otázky a poznámky". Vpravo je mapa projektu a jednotlivé úkoly pro mapování.
 
-- The uncolored tasks are ready and available for mapping
-- Pink areas of the map indicate higher priority areas
-- Yellow/Gold grid squares have had the first pass of mapping completed and are ready for validation
-- A yellow border indicates the task selected by you
-- Blue Tasks are currently being worked on by another mapper 
-- Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
-- Dark grey tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- Neobarvené úkoly jsou připravené a dostupné pro mapování
+- Růžové oblasti mapy označují oblasti s vyšší prioritou
+- čtverce žluté / zlaté mřížky mají dokončen první průchod mapování a jsou připraveny k ověření (validaci)
+- Žlutý rámeček označuje vámi vybraný úkol
+- Modré úkoly v současné době mapuje jiný mapovač 
+- Zelená úloha byla dokončena 2. průchodem mapování a mapování bylo "ověřeno" (validováno)
+- Tmavě šedé úlohy byly mapovány a označeny že nemají přijatelné snímky pro mapování 
+- Modrá čára, která je běžně viditelná v obvodových čtvercích projektu, označuje okraj projektu. Tato hranice běžně sleduje dostupné snímky, správní hranici atd., Takže se může zobrazit jako neobvyklý tvar. Přestože mapování může být dokončeno mimo tento okraj, není to požadavek a nebude to považováno od validátorů za nutné.  
 
 
-#### Instructions Tab
-This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
+#### Karta Pokyny
+To ukazuje, co je zapotřebí v mapovací úloze. Projekty se nacházejí v obtížnosti, vhodné pro začátečníky, pokročilé a pokročilé mapovače - a pokyny to vysvětlí. Ujistěte se, že této části po přečtení rozumíte. Existuje mnoho stylů mapového projektu pro mnoho různých účelů. Některé běžné aktivity projektu zahrnují:  
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
-- Mapping villages: Often used to identify places where people live and may be impacted  
-- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+- silniční sítě: používají lidé k nahrání dat do ručních navigačních přístrojů aby s nimi hledali přístup k odlehlým oblastem  
+- Mapování vesnic: Často se používá k identifikaci míst, kde lidé žijí a kde mohou být postiženi  
+- Mapování budov: Používá se pro posouzení poškození nebo sledování zasažení nemocemi. Používá se také pro odhady počtu obyvatel.  
+- Mapování řek, zdí a dalších prvků  
 
-Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
+Ne všechny oblasti světa jsou podobné vašim vlastním, takže mohou být poskytnuty konkrétní rady pro značkování. Například africká silniční síť se velmi liší od typických amerických nebo evropských dálnic.  
 
-There will be a section indicating the **Changeset comment** you should make sure appears in your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.  
+Zobrazí se oddíl s označením **Změna sady komentářů** Měli byste se ujistit, že se v editačním programu objeví při nahrávání nebo ukládání změn spolu s informacemi **source**, které můžete (v závislosti na vašem editačním softwaru) potřebovat zkopírovat & vložit do zdrojového pole při provádění změn.  
 
-Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.  
+Někdy mohou být k dispozici snímky specifické pro danou úlohu - možná budete muset souhlasit s licencí, abyste získali přístup. Pokyny obvykle označují nejjednodušší způsob, jak je načíst do editorů, jako je JOSM nebo iD.  
 
-When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
+Při kontrole úlohy označené jako úplná, ověřovatelé očekávají, že všechny požadavky na kartě s pokyny byly dokončeny. Možná, že dokončení celého úkolu je poměrně obtížné - pokyny uvedené níže jsou k dispozici kolem úloh, které jste odemkli; stejně jako poskytování užitečné zpětné vazby pro další mapovače.  
 
-#### Activity and Stats button  
+#### Tlačítko aktivita a statistiky  
 
-This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
+Tato záložka obsahuje statistiky o projektu. Je rozdělena na dvě části, podrobný seznam aktivit (dříve na vlastní záložce u Tasking Manager 2.0) a souhrnný oddíl.
 
 The summary contains a list of mappers who have completed at least one task within the project.  
 
@@ -247,7 +247,7 @@ Having selected your task and inspected it with the imagery in place, you may re
 
 If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
-For example:  
+Například:  
 
     Almost complete, small village top left 
     in the task square to be traced though
@@ -273,7 +273,7 @@ You will sometimes select a task that can not be mapped because the imagery is l
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
-For example:  
+Například:  
 
     @HOTMppr nice work tracing the building  
     details here. You missed a small group  

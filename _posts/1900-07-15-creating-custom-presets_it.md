@@ -21,82 +21,82 @@ Introduzione all'XML
 
 Per poter creare un tuo menù personalizzato delle impostazioni, dobbiamo prima capire un linguaggio chiamato XML. Se hai già familiarità con XML puoi tranquillamente saltare alla prossima sezione.  
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML, che sta per "Linguaggio di Mark-up Estensibile" (Extensible Mark-up Language), è un linguaggio simile all'HTML. La differenza chiave è che l'XML è progettato per il trasporto dei dati, non per la sua visualizzazione. Molte applicazioni su internet utilizzano l'XML per trasmettere dati, inclusa OpenStreetMap. L'XML usa elementi, e ciascun elemento può contenere elementi "figli" al suo interno. Ad esempio immaginiamo di voler creare un file XML che contiene i dati riguardanti il menu di un ristorante. Dovremo creare un elemento radice (root element) che contiene tutti i dati riguardanti il menu. Il nostro elemento radice avrà un'etichetta (tag) di apertura ed una di chiusura, come questa:
 
       <menu>
-      ... whatever data we want to include in our menu ...
+      ... dati che vogliamo includere nel nostro menu ...
       </menu>
 
-Information is contained inside an element, and within each element there can be more elements.  
+Le informazioni sono contenute all'interno di un elemento, e all'interno di ciascun elemento possono esserci altri elementi.  
 
       <menu>
         <item name=“Hamburger”>
           <cost>400</cost>
-          <description>Delicious beef patty</description>
+          <description>Delizioso tortino di manzo</description>
         </item>
           <item name=“Nasi Goreng”>
           <cost>200</cost>
-          <description>Indonesian Fried Rice</description>
+          <description>Riso fritto indonesiano</description>
         </item>
       </menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+In questo esempio abbiamo inserito due &lt;item&gt; all'interno del nostro elemento &lt;menu&gt; per descrivere due differenti item che sono contenuti nel menu. Ciascun item contiene due o più elementi all'interno, &lt;cost&gt; e &lt;description&gt;. Nota anche come abbiamo scritto name=”Hamburger” all'interno dell'etichetta (tag) di apertura &lt;item&gt;. Questo è chiamato attributo, ed aggiunge informazioni riguardanti l'elemento.
 
 
-### XML Terminology
+### Terminologia XML
 
-- **root element:** the outermost element of an XML document, which describes what is contained  
-- **element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;  
-- **tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this with OSM tags, which have a different meaning.  
-- **attribute:** a piece of information contained inside a tag, such as name=“Hamburger”  
+- **root element:** l'elemento più esterno di un documento XML, che descrive il contenuto del documento  
+- **element:** un oggetto XML, contenuto tra etichetta (tag) di apertura e di chiusura, tipo &lt;item&gt; ... data ... &lt;/item&gt;  
+- **tag:** qualcosa contenuto tra parentesi, come &lt;item&gt;. &lt;item&gt; è l'etichetta (tag) di apertura di un elemento, e &lt;/item&gt; è quella di chiusura. Da non confondere con i tags OSM, che hanno un significato differente.  
+- **attribute:** un pezzo di informazione contenuto all'interno di un'etichetta (tag), come name=“Hamburger”  
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.  
+L'utilizzo dell'XML per contenere e trasmettere dati è una grande cosa, perchè è semplice da capire per i computer.  
 
 
-JOSM Presets Files
+File delle preimpostazioni di JOSM
 -------------------
 
-Let's add a sample presets file into JOSM and analyze how it works.  
+Vediamo come aggiungere un file di preimpostazioni d'esempio in JOSM ed analizziamo come funziona.  
 
-- Download the file [sample_presets.xml](/files/sample_presets.xml).  
-- Then load it into JOSM as described in the [previous chapter](/en/josm/josm-presets).  
-- Create a new layer and a new object.  
-- Go the the Presets menu. There will be a new item named "Sample Building." Click on it.  
+- Scarica il file [sample_presets.xml](/files/sample_presets.xml).  
+- Poi caricalo in JOSM come descritto nel  [capitolo precedente](/it/josm/josm-presets).  
+- Crea un nuovo layer ed un nuovo oggetto.  
+- Vai nel menu preimpostazioni. Troverai un nuovo item nominato "Sample Building." Cliccaci sopra.  
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+È possibile notare che il modulo che appare ha tre campi, ciascuno dei quali accetta un tipo differente di input. Il primo campo, building name, accetta una stringa di testo in input. Il secondo, building use, ha un menu a discesa. Il campo finale è una casella di spunta, che significa che può avere solo uno dei due valori "on" oppure "off".
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+Ora diamo un'occhiata al file XML che definisce il modulo di preimpostazione.
 
-- Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad program. If you want a more easy-to-use editor, you might download the free Notepad++ application.  
-- The **sample_presets.xml** file looks like this:  
+- Trova il file XML nel tuo computer e aprilo con un editor di testi. Se stai usando Windows puoi usare il programma Notepad. Se desideri un editor più facile da usare, puoi scaricare l'applicazione gratuita Notepad++.  
+- Il file **sample_presets.xml** si presenta così:  
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+Per ora ignoriamo le prime sei linee e quella finale, e focalizziamoci su tutto quello che c'è tra le etichette (tags) &lt;item&gt;.
 
-The first line looks like this:
+Le prima linea si presenta così:
 
       <item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.  
+Questa è l'etichetta (tag) di apertura di un item che è stato aggiunto al menu. Ha due attributi, name e type. L'attributo name definisce come questo apparirà nel menu preimpostazioni. L'attributo type limita questa preimpostazione a specifici tipi di oggetti. In questo caso la preimpostazione può essere applicata solamente a punti e sagome - in altre parole, nodi e percorsi chiusi. Se provassimo ad applicare questa preimpostazione ad una linea, non funzionerà.  
 
-Let's look at the next line:  
+Diamo un'occhiata alla linea successiva:  
 
       <label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.  
+Cliccando sul menu e aprendo il modulo di esempio, in alto è possibile vedere il testo "Building Form." Questo è il testo definito da questa linea. Questo definisce l'elemento &lt;label&gt;, che visualizza semplicemente un testo nel modulo. Il testo è definito dall'attributo *text="some text"*.  
 
-Go down a few lines and find this:  
+Alcune linee più in basso troviamo questo:  
 
       <key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.  
+Questa è una delle etichette (tags) che verranno applicate all'oggetto selezionato. Visto che utilizza l'elemento &lt;key&gt;, l'etichetta qui inserita verrà automaticamente applicata non appena la preimpostazione verrà selezionata. Quindi l'oggetto otterrà automaticamente l'etichetta (tag) *building=yes*.  
 
-The next line is a bit different, using the &lt;text&gt; element.  
+La linea seguente è un po' diversa, usando l'elemento &lt;text&gt;.  
 
       <text key="name" text="Name of Building" default="" delete_if_empty="true" />
 
