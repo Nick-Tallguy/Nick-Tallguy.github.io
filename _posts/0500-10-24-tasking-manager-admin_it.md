@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager 2 Project Creation
-permalink: /en/coordination/tasking-manager-project-admin/
-lang: en
+permalink: /it/coordination/tasking-manager-project-admin/
+lang: it
 category: coordination
 ---
 > This guide may be downloaded as a stand-alone module: [tasking-manager-admin_en.odt](/files/tasking-manager-admin_en.odt) or [tasking-manager-admin_en.pdf](/files/tasking-manager-admin_en.pdf) 
