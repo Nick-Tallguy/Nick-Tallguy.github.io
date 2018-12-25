@@ -10,7 +10,7 @@ OpenStreetMap.org에서 기여 시작하기
 ====================================
 
 > 이 안내서는 [beginner_start-osm_ko.odt](/files/beginner_start-osm_ko.odt) 또는 [beginner_start-osm_ko.pdf](/files/beginner_start-osm_ko.pdf)로 다운로드할 수 있습니다  
-> 2015-07-12에 리뷰됨  
+> 2015-07-12에 검토됨  
 
 이 단락에서 OSM 웹 사이트를 탐색하고, 지도를 보고, 계정을 만드는 법을 차례차례 배울 수 있습니다. 지도를 편집하려면 먼저 가입을 해야 합니다.
 
@@ -19,7 +19,7 @@ OpenStreetMap.org에서 기여 시작하기
 OSM 웹 사이트 방문하기
 -------------------------------
 
--   Open your web browser.
+- 웹 브라우저를 여세요.
 - 상단의 주소창에 다음 주소를 입력하고 엔터 키를 누르세요.
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 - 로딩이 끝나면, 다음 이미지처럼 화면이 보이게 됩니다.
@@ -61,14 +61,14 @@ OSM 계정 만들기
 
     ![Registering an OpenStreetMap account][]
 
-- OSM에 가입하려면 상자 5개를 채워야 합니다.
-- 이메일 주소를 첫 번째와 두 번째 상자에 입력하세요. 서로 똑같이 입력해야 합니다. 나중에 OSM 계정 인증을 받아야 하기 때문에 사용할 수 있는 이메일 주소를 입력해 주세요.
-- 세 번째 상자에는 사용자 이름을 입력하세요. 한 번 정하면 다시는 바꿀 수 없습니다. 독창적으로 지으세요. 한 번 정하면 다시는 바꿀 수 없습니다. 사용자 이름에 성만 넣어서 짓는 등, 단순하게 입력하면 이미 사용 중인 이름이라고 뜰 가능성이 높습니다.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
+- OSM에 가입하려면 5개의 칸를 채워야 합니다.
+- 이메일 주소를 첫 번째와 두 번째 칸에 입력하세요. 서로 똑같이 입력해야 합니다. 나중에 OSM 계정 인증을 받아야 하기 때문에 사용할 수 있는 이메일 주소를 입력해 주세요.
+- 세 번째 칸에는 사용자 이름을 입력하세요. 한 번 정하면 다시는 바꿀 수 없습니다. 독창적으로 지으세요. 한 번 정하면 다시는 바꿀 수 없습니다. 사용자 이름에 성만 넣어서 짓는 등, 단순하게 입력하면 이미 사용 중인 이름이라고 뜰 가능성이 높습니다.
+ - 네 번째와 다섯 번째 칸에 새로운 비밀번호를 입력하세요. 두 칸에 비밀번호를 정확히 똑같이 입력해야 합니다. 이메일 비밀번호 같이 중요한 비밀번호와 같은 비밀번호를 설정하면 **안 됩니다**.
 - 아마 원하는 이름과 비밀번호를 정했을 것입니다. 이제부터 로그인할 때는 이름과 비밀번호로 로그인합니다.
 - 모든 상자를 다 채운 뒤 아래쪽에 있는 "가입하기" 버튼을 누르세요.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
--   Have a look at your email.
+ - 만약 문제가 발생했다면, 오류 메시지 팝업이 뜰 것입니다. 첫 번째 칸과 두 번째 칸에 같은 이메일을 입력했는지, 네 번째 칸과 다섯 번째 칸에 같은 비밀번호를 입력했는지 확인하세요. 세 번째 칸이 붉은색으로 빛난다면, 당신이 정한 사용자 이름을 다른 사람이 이미 사용하고 있다는 뜻입니다. 다른 이름을 정하세요.
+- 이메일을 확인하세요.
 - 가입에 성공했다면, 메일함에 OSM에서 온 메일이 하나 있을 것입니다. 그 메일을 여세요. 아래 이미지처럼 생겼습니다. 아래 이미지를 참고해서 인증 링크를 여세요.
 
     ![Confirming your OpenStreetMap account][]

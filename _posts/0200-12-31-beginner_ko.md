@@ -11,8 +11,8 @@ nosearch: true
 초보자 안내서
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
-> Reviewed 2015-07-12  
+> 이 안내서는 [beginner_ko.odt](/files/beginner_ko.odt) 또는 [beginner_ko.pdf](/files/beginner_ko.pdf)로 다운로드할 수 있습니다  
+> 2015-07-12에 검토됨  
 
 이 안내서에서는 OSM을 시작하는 방법을 단계별로 알려주고 있습니다. 이제부터 어떻게 계정을 설정하는지, 어떻게 기본 지도 편집 소프트웨어를 이용하는지, 뒤에 가서는 밖에 나가서 정보를 수집하고 지도에 입력하는 법을 알려줄 것입니다. 
 
