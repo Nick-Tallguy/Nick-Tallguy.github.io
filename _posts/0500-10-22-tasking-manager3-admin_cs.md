@@ -50,7 +50,7 @@ You will need Project Manager Access level to create new projects using TM3.
 
 ![TM New][]
 
-Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest (AoI) on the map, or importing an area of interest from a geojson file;  
+Klikněte na své uživatelské jméno v pravém horním rohu a pak na **Create New Project (Vytvořit nový projekt).** Můžete si vybrat mezi kreslením vaší oblasti zájmu (AoI) na mapě nebo importováním oblasti zájmu z geojson souboru;  
 
 > Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
 
