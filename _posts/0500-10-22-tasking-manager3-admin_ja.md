@@ -78,27 +78,27 @@ TM3でプロジェクトを新規に作成するには、プロジェクト管�
 AoIをインポートした場合も手書きした場合も、地図フレームのなかに領域が表示され、次に個別のタスクにどのように分割するかの質問が表示されます。2つの選択肢があります:  
 
 1. 四角形のグリッド - Tasking Managerが自動で、プロジェクト領域全体を同じ大きさのグリッドに分割します。通常のクラウドマッピングプロジェクトではこの方法がよいでしょう。
-2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes or the output from an AoI reduction process for example.
+2. 任意形状 - ファイルをアップロードしてプロジェクト対象地域の指定を行う場合、そのファイルのなかに個々のタスクの形を含めておくことができます。タスクの形状をカスタマイズする必要がある場合に、この機能を使ってください。例えば、道路データのインポートや作業対象地域のアウトプットを処理する工程などがあげられます。
 
-### Using the Square Grid for task squares
+### タスクの分割に四角形のグリッドを利用
 
-To create uniform square tiles, select the Square Grid option.  
+同じ大きさの四角形タイルを作成するには、"四角形のグリッド"オプションを選んでください。  
 
 ![TM Tile Sizes][]
 
-The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+作業対象地域が四角形のグリッドに分割され、それぞれの四角形が1つのタスクとなります。"拡大"と"縮小"のボタンを使って、タスクの大きさを適切に修正してください。実質的に、タイルのサイズを小さくするとより多くのタスクが生成されることになります。タスクのサイズの適切な大きさがどのくらいかは、対象区域の大きさ (大きなプロジェクトで小さめのタイルを生成) や、それぞれのタイルのなかでマッピング対象になる地物の数によって変わってきます。一般的に、作業対象地域が大きくなったり、マッピングするべき地物の数が多くなったりするにつれて、プロジェクトで使われるタイルは小さめに作っておくことが望ましいです。 
 
-Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+**タスクの大きさを決める際に参照できる地図レイヤは1つだけではない**という点に注意してください。地図の右下にあるボタンを押すことで、地図レイヤの切り替えを行うことができます。衛星写真のレイヤを表示させておくことで、マッピング対象の実際の画像を確認しながら設定を行うことができます。
 
-If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
+プロジェクトで特別に利用できる航空写真がある場合、地図の右上のボタンを使うことでTMSやWMSのURLを追加することができます。
 
-You can also create several different task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where tasks need to be split. The "Reset" button will reset all of your split tasks. The Split (Polygon) option will let you draw a polygon over an area to create smaller tasks and the Split (Point) will let you click individual task squares to split. The Reset button will remove all of your custom splitting.
+この工程とは別に、"分割"ツールを使うことでタスクのサイズを異なる大きさに変更することができます。タスクの分割に回数制限はありません。繰り返しになりますが、衛星写真レイヤを表示させることで、どの地域を分割するかの判断材料に役立ちます。"リセット"ボタンを押すと、分割したすべてのタスクの大きさをリセットすることができます。分割オプション（ポリゴン）はエリア内にポリゴンを描いてその部分を小さなタスクに分割する機能で、 分割オプション（ポイント）はそれぞれのタスクを選択し、そのタスクを分割する機能です。リセットボタンで、分割したすべてのタスクがデフォルト状態に戻ります。
 
-> Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
+> 一般的に、居住用の建物が密集している地域は小さなタイルにします。プロジェクトのタスクを作成するにあたっては、作業時間として10-15分で完了できる分量にするようにすべきです。
 
-***Considerations before deciding on tile sizes***
+***タイルサイズ策定にあたっての検討事項***
 
--  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),. 
+- マッパソンに参加する新規マッパーが1つのエリアをマップするために必要な時間は、経験を積んだマッパー (最初はみな遅いとはいえ、すぐに素早くなりますが) の約4倍程度を見込んでください。 
 -  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie'.
 -  A new mapper also finds it difficult to trace lots of features such as buildings.
 -  Later in the process you have the opportunity for a mapper to 'split' a square - splitting a square into quarters helps new mappers get a square size they can cope with.  
