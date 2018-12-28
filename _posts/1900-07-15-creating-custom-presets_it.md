@@ -10,7 +10,7 @@ JOSM - Creare impostazioni personalizzate
 =======================
 
 > Questa guida può essere scaricata come  [creating-presets_it.odt](/files/creating-presets_it.odt) o come [creating-presets_it.pdf](/files/creating-presets_it.pdf)  
-> Reviewed 2015-09-20  
+> Revisionato 2015-09-20  
 
 Nel [capitolo precedente](/it/josm/josm-presets) abbiamo visto come aggiungere in JOSM i menu delle impostazioni personalizzate. In questo capitolo vedrai come puoi creare un tuo file con le impostazioni personalizzate.  
 
@@ -78,7 +78,7 @@ Ora diamo un'occhiata al file XML che definisce il modulo di preimpostazione.
 
 Per ora ignoriamo le prime sei linee e quella finale, e focalizziamoci su tutto quello che c'è tra le etichette (tags) &lt;item&gt;.
 
-Le prima linea si presenta così:
+La prima linea si presenta così:
 
       <item name="Sample Building" type="node,closedway">
 
@@ -88,7 +88,7 @@ Diamo un'occhiata alla linea successiva:
 
       <label text="Building Form" />
 
-Cliccando sul menu e aprendo il modulo di esempio, in alto è possibile vedere il testo "Building Form." Questo è il testo definito da questa linea. Questo definisce l'elemento &lt;label&gt;, che visualizza semplicemente un testo nel modulo. Il testo è definito dall'attributo *text="some text"*.  
+Cliccando sul menu e aprendo il modulo di esempio, in alto è possibile vedere il testo "Building Form". Questo è il testo definito da questa linea. Questo definisce l'elemento &lt;label&gt;, che visualizza semplicemente un testo nel modulo. Il testo è definito dall'attributo *text="some text"*.  
 
 Alcune linee più in basso troviamo questo:  
 
@@ -100,32 +100,32 @@ La linea seguente è un po' diversa, usando l'elemento &lt;text&gt;.
 
       <text key="name" text="Name of Building" default="" delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.  
+L'elemento &lt;text&gt; crea un campo vuoto. Quando il modulo viene creato in JOSM, l'utente potrà riempire i campi vuoti. Visto che il campo *delete_if_empty="true"* è selezionato, nessuna etichetta (tag) sarà aggiunta se l'utente lascia il campo vuoto.  
 
-The dropdown box on the form is defined in the following line:  
+Il menu a discesa nel modulo è definito dalla linea seguente:  
 
       <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.  
+Un menu a discesa è definito dall'elemento &lt;combo&gt;. Come per l'elemento &lt;text&gt;, l'attributo *key* definisce l'etichetta (tag) key. Il valore è quindi scelto da una lista di possibili *values*. L'attributo *display_values* permette di scegliere nomi differenti da visualizzare nel menu a discesa, che saranno più semplici da capire rispetto ai valori OSM delle etichette (tag).  
 
-Lastly, let's look at the line which defines the checkbox.  
+Infine, diamo un occhiata alla linea che definisce il menu a discesa.  
 
       <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.  
+L'elemento &lt;check&gt; definisce - hai indovinato! - la casella di spunta. L'attributo *default="off"* definisce che la casella è di default deselezionata. I rimanenti attributi sono già stati trattati.  
 
-Creating Your Own Presets File
+Creazione del proprio file di preimpostazioni
 ------------------------------
 
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.  
+Il modo migliore per creare il proprio file di preimpostazioni è quello di prenderne uno che già esiste e modificarlo per raggiungere i propri obiettivi. Sentiti libero di utilizzare questo file di esempio per fare esperimenti per imparare le basi. Ricorda solamente che, ogni volta the salvi il file, è necessario riavviare JOSM per caricare i cambiamenti.  
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+Prima di iniziare a creare le proprie preimpostazioni, occorre riflettere attentamente riguardo le etichette (tags) che useremo. Inventare nuove etichette è completamente un'altro argomento. Generalmente, se già presenti, andrebbero utilizzate le etichette OSM esistenti. La maggior parte delle etichette esistenti sono elencate nella [pagina Wiki delle funzionalità della mappa](http://wiki.openstreetmap.org/wiki/Map_Features).  
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.  
+Questo file di esempio contiene la maggior parte degli elementi che troverai in un file di preimpostazioni di JOSM - non contiene molti elementi nel modulo. Se vuoi sperimentare con un file di preimpostazioni più complesso, scarica il file [dhaka_presets.xml](/files/dhaka_presets.xml) da questo link.  
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).  
+In aggiunta, [qui](http://josm.openstreetmap.de/wiki/TaggingPresets) puoi trovare una spiegazione dettagliata di tutti gli elementi che puoi trovare.  
 
-Good luck!  
+Buon divertimento!  
 
 
 [sample building menu]: /images/josm/sample-building-menu.png
