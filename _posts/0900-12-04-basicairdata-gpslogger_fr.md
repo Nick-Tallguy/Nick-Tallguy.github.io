@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: BasicAirData GPS Logger
-permalink: /en/mobile-mapping/basicairdata-gpslogger/
+permalink: /fr/mobile-mapping/basicairdata-gpslogger/
 lang: fr
 category: mobile-mapping
 ---

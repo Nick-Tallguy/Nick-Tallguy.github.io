@@ -1,6 +1,6 @@
 ---
 layout: doc
-BasicAirData GPS Logger
+title: BasicAirData GPS Logger
 permalink: /it/mobile-mapping/basicairdata-gpslogger/
 lang: it
 category: mobile-mapping
