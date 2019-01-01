@@ -71,22 +71,22 @@ L'icona **Satellites** visualizzerà quanti satelliti sono stati utilizzati per 
 **Distance** mostra la distanza totale registrata.  
 **File types** indica quali tipi di log file sono generati, mentre **File path** indica la posizione dei file sul tuo dispositivo o memory card.  
 L'indicatore **Status** è verde durante la registrazione, mentre visualizza uno spinner quando il dispositivo sta cercando di ottenere un fix.  
-The **Accuracy** will display the accuracy of the recorded data, which varies between receivers, the position or number of available satellites, weather condition, or the obstructions of the horizon.  
-The **Bearing** tells you the direction you are moving.  
-The **Speed** will give you approximate information of how fast you are going.  
-**Points logged** will display the total number of poins recorded from the time the start button was pressed.  
+**Accuracy** visualizza l'accuratezza dei dati registrati, che può variare dipendentemente dai ricevitori, la posizione o il numero di satelliti disponibili, le condizioni meteo, le ostruzioni dell'orizzonte.  
+**Bearing** indica la direzione del movimento.  
+**Speed** fornisce l'informazione approssimata di quanto veloce stiamo andando.  
+**Points logged** visualizza il numero totale di punti registrati da quando è stato premuto il bottone Start.  
 
 
-Menus
+I menu
 --------------------------
 
 ![Menus][]
 
-The **General options** is where to find settings for *Start on bootup*, *unit of measurement* (Metric or Imperial), *debug file* and *version information*.  
+In **General options** si trovano le impostazioni di *Avvio automatico*, *unità di misura* (Metriche o imperiali), *file di debug* e *informazioni sulla versione*.  
 
 ![Menus1][]
 
-The **Logging details** is where to find settings  *File formats* (multiple formats simultaneously supported), *folder* path to store logs, rules on *new file creation* and *custom file name*.  
+In **Logging Details** si trovano le impostazioni *Formato di file* (formati multipli sono supportati simultaneamente), *Cartella* percorso in cui vengono salvati i files di log, le regole riguardanti la *creazione dei nuovi file* e del *nome file personalizzato*.  
 
 ![Menus2][]
 

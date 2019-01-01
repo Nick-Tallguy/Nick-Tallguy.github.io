@@ -6,7 +6,7 @@ lang: de
 category: mobile-mapping
 ---
 
-> Diese Anleitung kann unter [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) oder [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  heruntergeladen werden
+> Diese Anleitung kann unter [basicairdata_gpslogger_de.odt](/files/basicairdata_gpslogger_de.odt) oder [basicairdata_gpslogger_de.pdf](/files/basicairdata_gpslogger_de.pdf)  heruntergeladen werden
 
 BasicAirData GPS Logger
 =======================
@@ -17,7 +17,7 @@ Der BasicAirData GPS Logger ist eine einfache Applikation um Ihre Position und I
 
 Die Anwendung ist für Android-Geräte verfügbar, kostenlos und Open Source.
 
-Die Anwendung kann vom [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br> heruntergeladen werden.
+Die Anwendung kann vom [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger) heruntergeladen werden.<br>
 Alternativ steht sie als APK-Datei im [GitHub repository](https://github.com/BasicAirData/GPSLogger/tree/master/apk) des GPSLogger zur Verfügung.
 
 Eigenschaften
