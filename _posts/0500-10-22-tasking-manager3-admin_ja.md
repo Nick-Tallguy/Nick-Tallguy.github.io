@@ -99,9 +99,9 @@ AoIをインポートした場合も手書きした場合も、地図フレー�
 ***タイルサイズ策定にあたっての検討事項***
 
 - マッパソンに参加する新規マッパーが1つのエリアをマップするために必要な時間は、経験を積んだマッパー (最初はみな遅いとはいえ、すぐに素早くなりますが) の約4倍程度を見込んでください。 
--  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie'.
--  A new mapper also finds it difficult to trace lots of features such as buildings.
--  Later in the process you have the opportunity for a mapper to 'split' a square - splitting a square into quarters helps new mappers get a square size they can cope with.  
+- 初心者マッパーが、広大な航空写真のなかから特定の地物を探し出し、それらを見つける都度マッピングしてゆくのは困難を伴います。茂みの中に点在する、天然の素材で茅葺きされたヒュッテを見つけ出すのは'初心者'には極めて難易度の高い作業です。
+- また、初心者マッパーにとっては、建物など多数の地物をトレースし続けることは困難な傾向があります。
+- このプロセスの後半では、マッパーが対象区域を'分割'する方法を紹介します。タスクをより小さな区域に分割することで、初心者マッパーにとっても対処のしやすい広さにすることができます。  
 -  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
 -  A square may be split, but there is no option to join squares together to make them bigger again. So be careful when splitting
 -  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
