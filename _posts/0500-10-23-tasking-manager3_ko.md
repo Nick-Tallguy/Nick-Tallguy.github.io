@@ -24,109 +24,109 @@ category: coordination
 -  [힌트와 팁](/ko/coordination/tasking-manager3/#editing-hints-and-tips)
 -  [유효성 검사](/ko/coordination/tasking-manager3/#validation)
 
-[HOT OSM 과업 관리자](http://tasks.hotosm.org)는 특정 지역에서 OpenStreetMap 지도 작업을 하는 많은 사람들을 조직해 주는 도구입니다.
+[HOT 오픈스트리트맵 과업 관리자](http://tasks.hotosm.org)는 특정 지역에서 오픈스트리트맵 지도 작업을 하는 많은 사람들을 조직해 주는 도구입니다.
 
-OpenStreetMap은 집단이 모여서 제작하는 자유 세계 지도입니다. 아무나 관심 있는 지역의 지도를 만들어서 OpenStreetMap에 기여할 수 있습니다. 과업 관리자는 단순히 OpenStreetMap에 기여하는 사람들을 모아 큰 조직을 만드는 도구일 뿐입니다. OpenStreetMap 기여자들의 대다수는 과업 관리자를 사용하지 않습니다.
+오픈스트리트맵은 집단이 모여서 제작하는 자유 세계 지도입니다. 아무나 관심 있는 지역의 지도를 만들어서 오픈스트리트맵에 기여할 수 있습니다. 과업 관리자는 단순히 오픈스트리트맵에 기여하는 사람들을 모아 큰 조직을 만드는 도구일 뿐입니다. 오픈스트리트맵 기여자들의 대다수는 과업 관리자를 사용하지 않습니다.
 
-과업 관리자는 주요 OpenStreetMap 프로젝트와 완전히 떨어져 있습니다. 과업 관리자를 사용해서 OpenStreetMap에 기여하는 것은, 사실 여러 가지 소프트웨어를 사용하는 것과 같습니다.
+과업 관리자는 주요 오픈스트리트맵 프로젝트와 완전히 떨어져 있습니다. 과업 관리자를 사용해서 오픈스트리트맵에 기여하는 것은, 사실 여러 가지 소프트웨어를 사용하는 것과 같습니다.
 
-* OpenStreetMap - 지리 정보 데이터베이스
-* 과업 관리자 - OpenStreetMap에서 동일한 지역의 데이터를 편집하는 많은 사람들을 조직해 줍니다
-* OpenStreetMap 편집기 - OpenStreetMap 데이터베이스의 데이터를 읽고 쓸 수 있는 소프트웨어
+* 오픈스트리트맵 - 지리 정보 데이터베이스
+* 과업 관리자 - 오픈스트리트맵에서 동일한 지역의 데이터를 편집하는 많은 사람들을 조직해 줍니다
+* 오픈스트리트맵 편집기 - 오픈스트리트맵 데이터베이스의 데이터를 읽고 쓸 수 있는 소프트웨어
 
 ![TM overview][]
 
-The role of the Tasking Manager is to present a specific geographic region divided up into small, quick to map areas called "Tasks" and provide a way to "checkout" or "lock" one of those small areas while you map that area using one of the standard OpenStreetMap editors. By "checking out" or "locking" one of those small areas, you help ensure that no one else will be mapping in that same area while you are. This helps prevent "double mapping" or other errors when two people are working on exactly the same area in OpenStreetMap.
+과업 관리자는 넓은 영역을 잘게 쪼개서 특정한 영역으로 나타내고, 해당 영역의 지도를 제작하는 "과업"을 빠르게 하고, 당신이 오픈스트리트맵 편집기로 작업한 영역을 "검토"하거나 "잠금"할 때 사용합니다. 작은 영역 하나를 "검토"나 "잠금"으로 설정하면 자신이 해당 영역을 작업할 때 다른 사람들이 해당 영역에 동시에 참여하는 것을 막을 수 있습니다. 이렇게 설정하면 두 사람이 오픈스트리트맵에서 똑같은 영역을 작업할 때 생기는 "중복 작업" 같은 문제를 막을 수 있습니다.
 
-Once you are done mapping that small area, you record in the Tasking Manager that you have finished mapping that small area and hopefully you select another "Task" to map.
+일단 작은 영역의 지도 작업을 마치면, 과업 관리자에 해당 영역의 과업이 완료되었다고 기록되며, 또 다른 "과업" 달성을 위해 계속 작업할 수 있습니다.
 
 
-## Quick Start Guide
+## 빠르게 시작하기
 
-1. Create an account and login on http://openstreetmap.org/  
+1. http://openstreetmap.org/ 에서 계정을 만들고 로그인합니다.  
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
+2. [http://tasks.hotosm.org/](http://tasks.hotosm.org/) 로 들어가 오른쪽 위에서 로그인합니다.  
   ![TM Quick Start 2][]
-3. Click on "Contribute" and find a mapping project to work on  
+3. "기여"를 클릭하고 작업할 프로젝트를 탐색합니다.  
   ![TM Quick Start 3][]
-4. Read the instructions for the project  
+4. 프로젝트에 나와 있는 지시를 숙지합니다.  
   ![TM Quick Start 4][]
-5. Click the "Map" tab  
+5. "지도 작업"을 클릭합니다.  
   ![TM Quick Start 5][]
-6. Find a "Ready" task to work on, click on it and select "Start Mapping"  
+6. "준비" 상태인 과업 중에서 작업할 과업을 선택하고 "지도 작업 시작"을 클릭합니다.  
   ![TM Quick Start 6][]
-7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.  
+7. 오픈스트리트맵 편집기로 넘어가게 됩니다. 넘어가면 프로젝트 지시에 따라 해당하는 지물을 만들거나 수정합니다.  
   ![TM Quick Start 7][]
-8. When finished mapping, switch back to the Tasking Manager and click either "Mark as Completely Mapped" if you completely mapped the task, or "Stop Mapping" if you just need to stop mapping for some reason.  
+8. 작업이 끝났다면 과업 관리자로 돌아와서, 완전히 작업이 끝났을 때에는 "완전히 작업이 끝났다고 표시"를 클릭하세요. 지도 작업을 멈춰야 하는 상황이라면 "작업 중지"를 클릭하세요.  
   ![TM Quick Start 8][]
 
 
-## Mapping Process 
+## 지도 작업을 하는 과정 
 
-1. A remote mapper creates an account in OpenStreetMap and logs into the Tasking Manager.
-1. The mapper finds a project to work on, usually based on priority and skill level set by a Tasking Manager project manager. 
-2. A remote mapper selects a task square, completes the mapping, and marks the task as complete.
-3. A second remote mapper checks that the task is completed to a satisfactory level and marks the task as 'validated'
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
+1. 현지 기여자가 아닌 사람(비현지 기여자)가 오픈스트리트맵 계정을 만들고 과업 관리자에서 로그인합니다.
+1. 작업할 프로젝트를 결정합니다. 과업 관리자를 사용하는 프로젝트 관리자가 설정한 중요도나 난이도에 따라 결정하는 경우가 많습니다. 
+2. 비현지 기여자가 과업(사각형으로 된 영역)을 선택하고, 지도 작업을 끝내고, 과업이 완수되었다고 표시합니다.
+3. 또 다른 비현지 기여자가 해당 과업을 검토해 만족할 만한 수준이라고 판단하면 해당 과업을 '유효성 검사 완료됨'이라고 표시합니다.
+4. 프로젝트에서 지도 제작 진척도는 모니터링되어 "통계" 탭에서 볼 수 있습니다. 또한 프로젝트는 관리자의 판단에 따라 중요도를 낮추거나 보존 처리할 수 있습니다.
 
-### Tasking Manager Login
+### 과업 관리자에 로그인하기
 
-The Tasking Manager is a separate tool that coordinates mapping in OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a separate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
+과업 관리자는 오픈스트리트맵 지도 작업을 조직하는 도구입니다. 오픈스트리트맵과는 별개의 도구이지만, 과업 관리자에서는 오픈스트리트맵 로그인 시스템을 사용합니다. 따라서 과업 관리자에 사용할 계정을 따로 만들 필요가 없으며, 오픈스트리트맵 계정만 필요합니다. 또한 과업 관리자를 사용하기 전에 오픈스트리트맵에 먼저 로그인을 해 두어야 합니다.
 
-When you first visit the Tasking Manager you will see a "Login" button in the upper right corner of the screen.
+처음 과업 관리자에 접속했다면 화면 오른쪽 위에서 "로그인" 버튼이 있을 것입니다.
 
 ![TM login 1][]
 
-Clicking on that button will take you to the OpenStreetMap website. There you will have to login and grant the Tasking Manager access to your OpenStreetMap preferences. Create an account on the OpenStreetMap website if you do not already have one.
+버튼을 클릭하면 오픈스트리트맵 웹 사이트로 이동합니다. 로그인을 하고, 오픈스트리트맵 환경설정에서 과업 관리자 접속 권한을 얻어야 합니다. 계정이 없다면 오픈스트리트맵 웹 사이트에서 계정을 만드세요.
 
 ![TM login 2][]
 
 ![TM login 3][]
 
-Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
+오픈스트리트맵에서 로그인을 했다면, 과업 관리자로 되돌아갑니다. "기여"나 "시작"을 클릭하면 기여할 수 있는 프로젝트 목록으로 이동합니다.
 
-### Options & links
+### 옵션 & 계정 연결
 
-The Task Manager initially displays in English - to change to another language click on **English** in the upper right area of the window.
+과업 관리자는 처음에 영어로 표시됩니다. 다른 언어로 변경하려면 화면 오른쪽 위에 있는 **English**를 클릭하세요.
 
-Once you have logged in, you may click on your username at the top. Here you can:
+로그인된 상태에서는 오른쪽 위에 사용자명이 뜹니다. 사용자명을 클릭하면 아래와 같은 작업을 할 수 있습니다.
 
-- View your Tasking Manager profile where you can:
-    - Update your email address and social media handles
-    - View your mapper experience level
-    - See a list and map of the projects you have contributed to
-- Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
-- Logout
+- 과업 관리자 프로필 보기
+    - 이메일 주소와 SNS를 업데이트할 수 있습니다.
+    - 기여 레벨을 볼 수 있습니다.
+    - 기여한 프로젝트 목록/지도를 볼 수 있습니다.
+- 과업 관리자의 **메시지** 시스템 이용(오픈스트리트맵의 메시지 시스템과는 별개입니다)
+- 로그아웃
 
-### Finding a Project - Tasking Manager Contribute Screen
+### 프로젝트 찾기 - 과업 관리자 기여 창
 
-Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
+메인 창에서 "기여"를 클릭하면 과업 관리자 프로젝트 목록으로 이동합니다.
 
 ![TM contribute][]
 
-The Tasking Manager Contribute screen is divided into three main areas:
+과업 관리자 기여 창은 세 영역으로 나누어져 있습니다.
 
-- Search and Filter options along the left
-- Project List
-- Map View of Project List
+- 왼쪽에 위치한 검색/옵션 필터링
+- 프로젝트 목록
+- 목록에 있는 프로젝트를 나타낸 지도
 
-#### Search and Filter Options
+#### 검색/옵션 필터링
 
-By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
+기본적으로 작업할 수 있는 모든 프로젝트가 표시됩니다. 고급 검색 필터를 이용하면 작업할 프로젝트의 후보를 좁힐 수 있습니다.
 
-- Project Number - If you know the number of the project you want to work on, you can enter it here and be taken directly to it.
-- Organization - This allows you to just display projects that have been requested by individual organizations.
-- Mapping Difficulty - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
-- Type of Mapping - This allows you to find projects that include a certain type of feature to map. Many projects are focused on only one type of mapping, but projects may include multiple types of features to map.
-- Full text search - This allows you to search for projects that may contain a certain word or phrase in the project description.
-- Campaign Tags - Projects can have other tags that indicate a larger mapping campaign projects are a part of, you can find projects by those tags by entering them into this field.
+- 프로젝트 번호 - 작업하고 싶은 프로젝트의 번호를 알고 있다면 검색창에서 바로 프로젝트로 이동할 수 있습니다.
+- 단체 - 이 옵션을 이용하면 해당 단체가 진행하는 프로젝트만 표시됩니다.
+- 작업 난이도 - 몇몇 프로젝트는 여타 프로젝트보다 어렵습니다. 이 옵션을 이용하면 자신의 수준에 맞는 프로젝트를 찾을 수 있습니다. 특히 자신의 수준이 높다면, 그에 맞춰서 어려운 프로젝트를 작업하길 권장합니다.
+- 작업 유형 - 이 옵션을 이용하면 선택한 지물을 다루는 프로젝트를 찾을 수 있습니다. 많은 프로젝트들은 한 가지 유형의 지물만 다루지만, 여러 유형의 지물을 동시에 다루는 프로젝트들도 있습니다.
+- 전체 텍스트 검색 - 검색창에 입력한 단어나 어구가 프로젝트 설명에 있는 프로젝트를 찾을 수 있습니다.
+- 캠페인 태그 - 어떤 프로젝트에는 해당 프로젝트가 상위 프로젝트(캠페인)의 일부라는 뜻으로 태그가 붙어 있을 수 있습니다. 이 옵션을 이용하면 원하는 태그가 달린 프로젝트를 찾을 수 있습니다.
 
-#### Map View
-Clicking on the "Map View" tab will show you the number of projects in a region. Double clicking  or zooming in will display the individual projects. Once zoomed in, the points on the map are color coded, with red being urgent, yellow being high or medium priority and grey being low priority. Clicking on any of the points on the map will show information about that project. Clicking on the project title will take you to that project.
+#### 지도로 보기
+"지도" 탭을 클릭하면 각 지역마다 프로젝트의 개수가 뜹니다. 더블 클릭하거나 확대하면 프로젝트를 하나씩 볼 수 있습니다. 지도를 확대하면 각 점마다 색이 입혀집니다. 붉은색은 급한 프로젝트, 노란색은 우선순위 중간·높음, 회색은 우선순위 낮음을 나타냅니다. 지도에 있는 각 점을 클릭하면 프로젝트 정보가 뜹니다. 프로젝트 제목을 클릭하면 해당 프로젝트로 이동합니다.
 
 ![TM project map][]
 
-### Mapping via the Tasking Manager
+### 과업 관리자로 지도 작업하기
 
 Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
 
