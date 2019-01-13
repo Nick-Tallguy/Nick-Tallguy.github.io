@@ -128,51 +128,51 @@ category: coordination
 
 ### 과업 관리자로 지도 작업하기
 
-Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
+작업할 프로젝트를 찾았다면, 프로젝트 제목을 클릭해서 프로젝트의 세부 내용을 확인하세요.
 
-- A description of the project's importance and how the data will be used
-- Detailed instructions for what to map
-- Selection screens for mapping validating
-- Detailed map of the individual mapping task areas, with information about their status.
-- A Questions and Comments tab for questions or comments about the project
+- 프로젝트의 중요성과 데이터를 이용할 곳의 설명
+- 작업하는 방법이 상세하게 나온 지시문
+- 유효성 검사가 필요한 곳을 표시하는 창
+- 개인 작업 영역과 영역의 상태를 표시하는 지도
+- 프로젝트의 질문과 답변이 올라오는 질문/답변란
 
 ![TM project description][]
 
 
 
-#### Project Page
+#### 프로젝트 페이지
 
-Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
+프로젝트에 관해 알아야 할 모든 것이 여기에 있습니다! 맨 위에는 프로젝트의 전체 설명과 프로젝트의 정보가 있습니다.  
 
-Below the description the screen is divided into a left and right section. The left section is a tabbed panel with tabs for "Instructions", "Map", "Validate" and "Questions and Comments". On the right is a map of the project and the individual tasks for mapping.
+설명 아래의 화면은 왼쪽과 오른쪽으로 나뉘어 있습니다. 왼쪽은 "지시", "지도", "유효성 검사", "질문과 답변"을 클릭했을 때 해당 정보가 뜨는 곳입니다. 오른쪽은 개별 작업의 현황을 나타낸 프로젝트 지도입니다.
 
-- The uncolored tasks are ready and available for mapping
-- Pink areas of the map indicate higher priority areas
-- Yellow/Gold grid squares have had the first pass of mapping completed and are ready for validation
-- A yellow border indicates the task selected by you
-- Blue Tasks are currently being worked on by another mapper 
-- Green Tasks have had the 2nd pass of mapping completed and the mapping has been "validated"
-- Dark grey tasks have been looked at by a mapper and marked as not having acceptable imagery for mapping 
-- The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
+- 색이 없는 영역은 바로 작업할 수 있는 영역입니다.
+- 분홍색 영역은 우선순위가 높은 영역입니다.
+- 노란색/금색 영역은 작업이 한 번 완료된 곳으로, 유효성 검사를 할 수 있는 영역입니다.
+- 노란색 경계선으로 표시된 영역은 당신이 선택한 영역을 나타냅니다.
+- 파란색 영역은 현재 다른 사람이 작업하고 있는 영역을 나타냅니다. 
+- 초록색 영역은 작업이 2번 완료된 곳으로, "유효성 검사"가 완료된 곳입니다.
+- 어두운 회색 영역은 작업을 할 때 필요한 이미지의 품질이 좋지 않다고 (영역을 직접 둘러 본 사람이) 표시해 놓은 영역입니다. 
+- 프로젝트 외곽에 보이는 파란색 선은 프로젝트의 경계를 나타냅니다. 이 경계선은 보통 이용할 수 있는 이미지의 경계나 행정 경계 등을 따릅니다. 따라서 경계선은 불규칙한 모양으로 나타날 수도 있습니다. 경계 바깥은 프로젝트 요구 사항에 포함되지 않으며, 경계 바깥에서 이루어진 작업은 유효성 검사 대상에 포함되지 않습니다.  
 
 
-#### Instructions Tab
-This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
+#### 지시 탭
+여기에서는 지도 작업을 할 때 필수로 해야 하는 것들을 볼 수 있습니다. 이 지시 창에서 프로젝트의 난이도를 알려 주기 때문에, 지시문을 보고 초수, 중수, 고수에게 맞는 난이도의 프로젝트를 스스로 고를 수 있습니다. 지시문은 꼭 숙독하고 확실히 이해하도록 하세요. 프로젝트의 스타일과 목적은 프로젝트마다 다양합니다. 일반적인 프로젝트에서는 아래과 같은 작업을 합니다.  
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
-- Mapping villages: Often used to identify places where people live and may be impacted  
-- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+- 도로망 추가 및 보정: 현지 사람들이 내비게이션 같은 도구에 데이터를 가져올 때, 다른 곳에서 현지로 이동하는 법을 계산할 때 사용합니다.  
+- 마을 추가: 주로 사람들이 거주하는 장소나 재해에 영향을 받은 장소를 식별할 때 사용합니다.  
+- 건물 추가: 재해로 인한 피해를 계산하거나 질병의 감염을 추적할 때 사용합니다. 인구 산출에도 사용합니다.  
+- 강, 장벽, 기타 지물 추가 및 보정  
 
-Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
+전 세계의 모든 영역이 당신이 사는 곳과 비슷한 것은 아닙니다. 따라서 구체적인 태그 작성법을 배울 필요가 있습니다. 예를 들어, 아프리카의 도로망은 주로 미국식과 유럽식으로 나뉘는데, 이 둘 간의 차이는 매우 큽니다.  
 
-There will be a section indicating the **Changeset comment** you should make sure appears in your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.  
+**바뀜집합 댓글** 영역이 있습니다. 당신이 바뀜집합을 업로드할 때 바뀜집합 댓글 칸에 이 영역에 있는 내용을 복사&붙여넣기해야 합니다. 이 영역에 **출처(source)**가 나와 있는 경우도 있는데, 이럴 때에는 제시된 출처를 (사용하고 있는 편집 소프트웨어의) 출처 칸에 복사&붙여넣기해야 합니다.  
 
-Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.  
+작업에 특화된 이미지를 사용할 수 있을 때도 있습니다. 다만 이미지를 사용하려면 라이선스에 동의해야 할 수도 있습니다. 보통 지시문에 이러한 이미지를 편집기(주로 iD나 JOSM)에 불러오는 가장 쉬운 방법이 나와 있습니다.  
 
-When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
+완료되었다고 표시된 작업을 검토할 때, 유효성 검사기는 지시문에 나온 모든 요구 사항이 충족되었기를 예상합니다. 당신은 아마 모든 요구 사항을 충족시키는 것이 꽤나 어렵다는 것을 알아챌 수도 있습니다. 아래에 있는 지침은 잠기지 않은 작업에 사용할 수 있습니다.  
 
-#### Activity and Stats button  
+#### 활동 및 통계 버튼  
 
 This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
