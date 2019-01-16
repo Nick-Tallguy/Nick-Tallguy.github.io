@@ -102,37 +102,37 @@ poznámky nebo kombinace toto všeho.
 
 Tags
 ----
-When you draw a point, line, or shape, it has a location, but no
-information about what it is. In other words, we know **where** it
-is, but not **what** it is. Before now, we have been using items
-from the Presets menu to define **what** it is. The way
-OpenStreetMap knows **what** an object is is by using **tags**.
+Když nakreslíte bod, čáru nebo tvar, má místo, ale ne
+informace o tom, co to je. Jinými slovy, víme **kde** to
+je, ale ne **co** to je. Předtím jsme používali položky
+z nabídky Předvolby k určení **co** to je. Způsob, jak 
+OpenStreetMap ví **co** objekt je pomocí **tagů**.
 
-A tag is like a label that you can put on something. For example, if
-we draw a square, it’s only a square. But then we add attributes to
-it that describe what it is: this square is a building; the name of
-the building is “Menara Thamrin”; the building is 16 levels high.
+Tag je jako štítek, který můžete na něco dát. Například pokud
+nakreslíme čtverec, je to jen čtverec. Ale pak přidáme atributy
+které to popíší, co to je: tento čtverec je budova; název
+budovy je "Menara Thamrin"; budova je 16 pater vysoká.
 
-You can add as many tags as you want to an object. Tags are saved as
-pairs of text, called **keys** and the **values**. In
-OpenStreetMap, the tags written above would in fact be:
+Do objektu můžete přidat tolik značek, kolik chcete. Značky jsou uloženy jako
+párů textů, nazývaných **klíč** a **hodnota**. V
+OpenStreetMap, značky uvedené výše by byly ve skutečnosti:
 
 -   building = yes
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are
-attached to it in the Properties panel on the right.
+Pokud vyberete objekt v JOSM, můžete vidět všechny značky, které jsou
+připojené k němu v panelu Vlastnosti vpravo.
 
 ![Properties panel][]
 
 ### Editace tagů
-You can add, edit, and delete tags from the Properties panel. However, the tags
-are traditionally in English and can sometimes be confusing, so it
-is often easier to use the Presets menu. When you add or change tags, the attributes
-of the object are changed.
+Z panelu Vlastnosti můžete přidávat, upravovat a odstraňovat značky. Značky
+jsou tradičně v angličtině a někdy mohou být matoucí, takže je 
+často snadnější používat nabídku Předvolby. Když přidáte nebo změníte značky, atributy
+objektu se změní.
 
--   To edit an object's tags, first select it.
+- Chcete-li upravit značky objektu, nejprve je vyberte.
 -   Then edit the tags in one of two ways: (1) Use the Presets menu,
     or (2) edit the tags directly in the Properties window on the right. 
 

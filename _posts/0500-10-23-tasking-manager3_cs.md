@@ -10,7 +10,7 @@ category: coordination
 
 > Tento návod může být stažen jako [tasking-manager3_en.odt](/files/tasking-manager3_en.odt) nebo [tasking-manager3_en.pdf](/files/tasking-manager3_en.pdf)  
 
-**Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní, které používáte, vypadá jinak než zde popsané, měli byste si prohlédnout [příručku pro předchozí verzi] (/cs/coordination/tasking-manager)**
+**Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní, které používáte, vypadá jinak než zde popsané, měli byste si prohlédnout [příručku pro předchozí verzi](/cs/coordination/tasking-manager)**
 
 Sekce Index
 -------------
