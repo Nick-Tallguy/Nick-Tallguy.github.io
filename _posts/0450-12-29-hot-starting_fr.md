@@ -29,7 +29,7 @@ Les points essentiels
 **Astuce -" Beaucoup de validateurs commencent à travailler en haut de la carte et travaillent en descendant - vous avez plus de chance d'avoir des retours intéressants à une étape précoce si vous sélectionnez un carré sur la carte le plus proche du haut possible. (Les carrés jaunes ont été marqués comme complet et les vert comme complets et validés). Cliquez sur un carré blanc ou gris pâle - plus d'infos sur le [Guide du Gestionnaire de Tâches](/fr/coordination/tasking-manager3/).  
 5. Commencez à cartographier - vous devrez peut-être lire d'autres sections dans ce chapitre sur les astuce HOT pour vous aider démarrer. Les sections sur les [bâtiments ronds](/fr/hot-tips/tracing-round-buildings/) ou les [bâtiments rectangulaires](/fr/hot-tips/tracing-rectangular-buildings/) peuvent être utiles.  
 6. Sauvegarder régulièrement - voir [Astuce HOT - sauvegarde](/fr/hot-tips/saving/)  
-4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+4. Soyez patient - nous sommes quelquefois à court de validateurs et beaucoup de nouveaux mappers veulent une réponse ! Continuez à cartographier, mais si vous faites une erreur, (tout le monde en fait !) essayez de la corriger où demandez de l'aide.  
 5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
 
 See also  

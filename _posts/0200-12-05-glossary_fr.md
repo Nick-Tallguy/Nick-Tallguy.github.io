@@ -9,12 +9,12 @@ category: beginner
 Glossaire 
 ============
 
->This glossary is in the process of being updated and has been compiled from numerous other sources including the [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) site and a guide written by Will Skora. Feel free to help us update it by reviewing [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) for how to contribute to the site. 
+Ce glossaire est en train d'être mis à jour et complété par de nombreuses autres sources, incluant le site [OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Main_Page) et un guide écrit par Will Skora. N'hésitez pas à nous aider à mettre à jour en s'informant [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) pour contribuer au site. 
 Examiné le 2015-07-18  
 
 Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherche de votre navigateur internet, en maintenant la touche control enfoncée et en appuyant sur la touche F (Généralement décrit comme **Ctrl+F**)  
 
-**3W** : Who, What, Where;  Who does What, Where?  
+**Les 3 questions**: Qui, Quoi, Où; Qui fait quoi et où ?  
 
 **AAR** : After Action Review;  A group activity to evaluate an exercise or activity to learn and improve.
 

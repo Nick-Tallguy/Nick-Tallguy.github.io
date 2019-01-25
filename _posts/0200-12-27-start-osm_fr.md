@@ -12,7 +12,7 @@ Débuter sur OpenStreetMap.org
 > Ce guide peut être téléchargé : [beginner_start-osm_fr.odt](/files/beginner_start-osm_fr.odt) ou [beginner_start-osm_fr.pdf](/files/beginner_start-osm_fr.pdf)  
 > Examiné 2015-07-12  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+Dans cette section, nous allons apprendre étape par étape comment naviguer sur le site OpenStreetMap, voir des cartes et créer un compte utilisateur. Une fois que vous aurez votre propre nom d'utilisateur et mot de passe, vous pourrez ajouter vos premiers points à la carte.
 
 ![website][]
 
@@ -22,19 +22,19 @@ Visiter le site Web OpenStreetMap
 -   Ouvrez votre navigateur web.
 - Dans la barre d'adresse en haut de la fenêtre, taper l'adresse suivante et appuyez sur Entrée :
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+- Une fois le chargement de la page terminé, vous devriez voir quelque chose comme ceci :
 
     ![OpenStreetMap website with some main functions listed][]
 
 Naviguer sur la carte
 ---------------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+- La principale chose que vous devriez voir, c'est la carte. Déplacez la carte en cliquant dessus avec le bouton gauche de la souris, en maintenant le bouton enfoncé et en faisant glisser la souris (voir figure ci-dessous).
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+- Si vous avez une souris à molette, faites un zoom avant et arrière sur la carte en la tournant. Si vous n'avez pas de molette de défilement, utilisez les boutons + et - dans le coin supérieur droit de la carte. (voir figure ci-dessous)
+- Pour rechercher un lieu, cliquez dans la barre de recherche à gauche de la page (voir figure ci-dessus). Tapez le nom de votre ville ou village et appuyez sur Entrée. Une fenêtre devrait apparaître à gauche de la carte avec les résultats de votre recherche. Cliquez sur l'emplacement qui correspond à celui que vous souhaitez. La carte se déplacera automatiquement à l'endroit que vous avez choisi.
 
     ![Search][]
    
@@ -42,26 +42,26 @@ Naviguer sur la carte
 Afficher différents styles de carte
 -----------------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap contient des données géographiques du monde entier. Bien qu'il s'agisse d'une base de données unique, les données peuvent être interprétées et stylisées de différentes manières. Pour le voir en pratique, regardons les différents "styles" de cartes disponibles sur le site d'OSM.
 
 - Cliquez sur le bouton « Couches » à droite de la carte.
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+- Cliquez sur les différentes options de style de la carte. Remarquez comment la carte change avec chacune d'elles. La carte des transports, par exemple, met l'accent sur les itinéraires de transport sur la carte, tandis que la carte des vélos met l'accent sur les itinéraires cyclables. Toutes les données pour rendre cela possible sont contenues dans la base de données d'OSM.
 
     ![Transport map][]
 
 Créer un compte OpenStreetMap
 ---------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
+- Maintenant que vous avez vu à quoi ressemble le site web principal, vous pouvez vous inscrire pour obtenir un nom d'utilisateur et un mot de passe et faire vos premiers ajouts sur la carte.
+- Sur le site OpenStreetMap, cliquez sur "s'inscrire" dans le coin supérieur droit de la page.
 - Vous devriez voir une nouvelle page qui ressemble à ceci :
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
+- Il y a cinq cases sur cette page que vous devez remplir pour ouvrir un compte auprès d'OSM.
 -   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
 -   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
 -   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.

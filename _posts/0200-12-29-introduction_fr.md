@@ -10,9 +10,9 @@ introduction
 ============
 
 > Ce guide peut être téléchargé avec [beginner_introduction_fr.odt](/files/beginner_introduction_fr.odt) ou [beginner_introduction_fr.pdf](/files/beginner_introduction_fr.pdf)  
-> Mise à jour le 2015-07-12  
+> Mise à jour le 22/08/2015  
 
-L'information a de la valeur. Avec la bonne information et une bonne compréhension, les individus et communautés sont plus à même d'améliorer leurs vies et mieux anticiper l'avenir. De nombreusespersonnes ou organisations prennent des décisions qui affectent nos vies. Une information efficace permet à ces ONG (Organisation Non-Gouvernementale), gouvernements et citoyens de prendre des décisions éclairées, qui éventuellement rendent nos vies meilleures. Les cartes sont un excellent support pour diffuser cette information. 
+L'information a de la valeur. Avec la bonne information et une bonne compréhension, les individus et communautés sont plus à même d'améliorer leurs vies et mieux anticiper l'avenir. De nombreuses personnes ou organisations prennent des décisions qui affectent nos vies. Une information efficace permet à ces ONG (Organisation Non-Gouvernementale), gouvernements et citoyens de prendre des décisions éclairées, qui peuvent rendre nos vies meilleures. Les cartes sont un excellent support pour diffuser cette information. 
 
 ![A village in Indonesia][]
 
@@ -22,7 +22,7 @@ Pour s'exercer, prenez un crayon et un papier, puis tracez une carte de votre vi
 
 ![Example of a hand-drawn map][]
 
-Si votre ville est comme beaucoup d'autres, vous avez sans doute tracé quelques lignes pour représenter les routes, parfois une rivière ou un ruisseau. Peut-être vous avez ajouté des bâtiments importants comme les écoles ou bureaux, les champs, ou les frontières. Peu importe ce que vous avez tracé, vous avez sans doute utilisé des symboles – une ligne pour symboliser une route, un carré pour symboliser un bâtiment, et ainsi de suite. Votre carte est une représentation de ce qu'il y a au sol.
+Si votre ville est comme beaucoup d'autres, vous avez sans doute tracé quelques lignes pour représenter les routes, parfois une rivière ou un ruisseau. Peut-être avez vous ajouté des bâtiments importants comme des écoles ou des bureaux, des champs, ou ses frontières. Peu importe ce que vous avez tracé, vous avez sans doute utilisé des symboles – une ligne pour symboliser une route, un carré pour symboliser un bâtiment, et ainsi de suite. Votre carte est une représentation de ce qu'il y a au sol.
 
 ![Examples of symbols][]
 

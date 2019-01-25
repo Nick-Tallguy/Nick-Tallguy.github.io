@@ -40,45 +40,45 @@ První věc, kterou je potřeba pochopit, je přístupová úroveň. Veškerý p
 ### Úrovně přístupu v rámci Správce úloh (Tasking Manageru) OSM
 
 Tasking Manager OSM má tři úrovně přístupu uživatelů:
--  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
+- **Uživatel** - Nejzákladnější úroveň. Uživatel se může přihlásit k TM3 a využít jeho funkce k vyhledání a výběru projektu mapování a práci na něm. Tato úroveň využití je plně popsána v příručce [Tasking Manager OSM v programu LearnOSM](/cs/coordination/tasking-manager-3/). Všimněte si, že některé projekty, jako například projekty v konceptu (tj. Nepublikované), nejsou pro uživatele viditelné.  
 - **Project Manager** - Projektoví manažeři mají přístup k vytváření a aktualizaci projektů v TM3.  
--  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
+- **Administrator** - Administrátoři mají přístup, který jim umožňuje spravovat přístupové úrovně uživatelů v TM3.
 
-You will need Project Manager Access level to create new projects using TM3.
+Pro vytvoření nových projektů pomocí TM3 budete potřebovat úroveň přístupu na Project Manager.
 
-## Initiate a new Project within TM3 
+## Začít nový projekt v TM3 
 
 ![TM New][]
 
 Klikněte na své uživatelské jméno v pravém horním rohu a pak na **Create New Project (Vytvořit nový projekt).** Můžete si vybrat mezi kreslením vaší oblasti zájmu (AoI) na mapě nebo importováním oblasti zájmu z geojson souboru;  
 
-> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
+> Importovat soubor s definovanou oblastí je vždy lepší než ručně kreslit projekt v Tasking Manageru. Nástroje jako JOSM, QGIS atd. lze použít k vytváření souborů pro import do Tasking Manageru. Doporučeným pracovním postupem je vytvořit soubor .osm oblast zájmu (AoI) pomocí JOSM a poté použít http://geojson.io/ pro vytvoření GeoJSONu.
 
-### Draw an area of interest to be mapped
+### Nakreslete oblast zájmu, kterou chcete mapovat
 
-1. Click the ‘Draw’ button in the upper right corner.
-2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
-3. Click on your starting point to complete the polygon  
-4. After completing a polygon you can move the nodes or add new ones to get the area just as you want it.
+1. Klikněte na tlačítko Draw v pravém horním rohu.
+2. Chcete-li nakreslit polygon představující AoI v rámečku mapy, podržte pravé tlačítko myši a přesuňte mapu bez kliknutí, což přidá uzel. Polygon by měl těsně zaostřit oblast zájmu. To šetří čas na dokončení dlaždic, které nejsou zajímavé (tj. oceán, les)  
+3. Klepnutím na počáteční bod dokončete polygon  
+4. Po dokončení polygonu můžete přesunout uzly nebo přidat nové tak, abyste dostali oblast tak, jak ji chcete.
 
 nebo
 
-### Upload a GeoJSON or KML file of the area of interest to be mapped  
+### Nahrajte GeoJSON nebo soubor KML oblasti zájmu, která má být mapována  
 
-1. Click the ‘Import’ button,  
-2. Browse to your file in the File Upload window,  
-3. Click the file name to highlight the file and then click ‘Open’.  
-4. Imported areas of interest can not be edited.
+1. Klikněte na tlačítko Import,  
+2. Vyhledejte soubor v okně Nahrávání souborů,  
+3. Klepnutím na název souboru zvýrazněte soubor a klepněte na tlačítko Otevřít.  
+4. Importované oblasti zájmu nelze upravovat.
 
 
-## Task Creation
+## Tvorba úkolů (task)
 
-An AoI for a project is the large overall area to map. That area is then divided up into smaller areas called Tasks. 
+Oblast zájmu AoI pro projekt je rozsáhlá celková oblast, která má být mapována. Tato oblast je pak rozdělena na menší oblasti nazvané Tasks, neboli Úkoly. 
 
-The AoI defined by the file upload or hand drawn will appear in the map frame, and you will then be asked to choose how the AoI is split into individual tasks. There are two options:  
+AoI definovaná nahraným nebo ručně vykresleným souborem se objeví v rámečku mapy a poté budete požádáni, abyste zvolili, jak je AoI rozdělena na jednotlivé úkoly. Existují dvě možnosti:  
 
-1. Square Grid - The Tasking manager will uniformly divide up the overall project area in exactly the same sized task squares. This is usually a very good idea for general crowdmapping projects.
-2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes or the output from an AoI reduction process for example.
+1. Čtvercová mřížka - Správce úkolů rovnoměrně rozdělí celou oblast projektu na přesně stejné čtverečky úkolů. To je obvykle velmi dobrý nápad pro obecné projekty zpracovávané dobrovolníky.
+2. Libovolné geometrie - Pokud jste nahrali soubor a definovali jeho oblast projektu, může tento soubor obsahovat i tvary jednotlivých úloh. V mapování musí být zvláštní potřeba vytvořit vlastní tvary úkolů. Projekt importu silnic může vyžadovat například vlastní tvary úkolů nebo výstup z procesu redukce AoI.
 
 ### Using the Square Grid for task squares
 
