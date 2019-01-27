@@ -16,18 +16,18 @@ Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherch
 
 **Les 3 questions**: Qui, Quoi, Où; Qui fait quoi et où ?  
 
-**AAR** : After Action Review;  A group activity to evaluate an exercise or activity to learn and improve.
+**RAA** : Révision Après Action ; Une activité de groupe pour évaluer un exercice ou une activité à apprendre et à améliorer.
 
-**Activation (HOT term)** : Sometimes referred to as a crisis, disaster, or emergency response and generally characterized by a specific event and/or anticipated humanitarian impact with a relatively shorter time-frame associated with the response and recovery phases of the disaster cycle than a longer-term Humanitarian Project.
+**Activation (terme HOT)** : Parfois appelé crise, catastrophe ou intervention d'urgence et généralement caractérisé par un événement spécifique et/ou un impact humanitaire anticipé avec un délai relativement plus court associé aux phases d'intervention et de relèvement du plan d'urgence que dans un projet humanitaire de longue durée.
 
-**Activator(s)** : HOT volunteers who have completed training and are endorsed by an existing activator to perform roles during events. 
+**Activateur(s) ** : Les bénévoles de HOT qui ont terminé leur formation et qui ont reçu l'appui d'un activateur existant pour jouer un rôle pendant les événements. 
 
-**AOI : Area of Interest** ; defined by activation coordinators in consultation with humanitarian partners, field teams and HOT community in wake of a disaster.
+**ZDI : Zone d'Intérêt** ; définie par les coordinateurs d'activation, en accord avec les partenaires humanitaires et les équipes de terrain et la communauté HOT à la suite d'une catastrophe.
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: A group of changes that you made to OSM data. Once uploaded to OSM, your edits are instantly available to others if they download them. They may take a few minutes or several hours to appear on the map.
+**[Modifications](http://wiki.openstreetmap.org/wiki/Changeset)** : Un groupe de modifications que vous avez apportées aux données d'OSM. Une fois téléchargées dans OSM, vos éditions sont instantanément disponibles pour les autres si elles sont téléchargées. Ils peuvent prendre quelques minutes ou plusieurs heures pour apparaître sur la carte.
 
-**COD : Common Operational Database** ; Comprises the geographical data for multiple humanitarian activations. These are mainly: transportation network (roads, bridges/fords, ports etc.), populated places (settlements), administrative boundaries, hydrology (rivers and other bodies of water) and hypsography (elevations/contours). May include buildings as an indirect source of population statistics.  Used by the United Nations Office for the Coordination of Humanitarian Affairs.
+**BOC : Base de données Opérationnelle Commune** ; Comprend les données géographiques pour de multiples actions humanitaires. Il s'agit principalement du réseau de transport (routes, ponts/fords, ports, etc.), des lieux habités (établissements humains), des limites administratives, de l'hydrologie (rivières et autres plans d'eau) et de l'hypsographie (élévations/contours). Peut inclure les bâtiments comme source indirecte de statistiques démographiques. Utilisé par le Bureau de la coordination des affaires humanitaires des Nations Unies.
 
 **DHN : Digital Humanitarian Network** ; organization which leverages digital network for humanitarian response.
 
