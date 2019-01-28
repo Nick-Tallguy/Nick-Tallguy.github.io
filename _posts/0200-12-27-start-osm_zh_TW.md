@@ -12,7 +12,7 @@ category: beginner
 > 此指南能以 [beginner_start-osm_zh_TW.odt](/files/beginner_start-osm_zh_TW.odt) 或 [beginner_start-osm_zh_TW.pdf](/files/beginner_start-osm_zh_TW.pdf) 下載  
 > 審閲於 2015-07-12  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+在這一章節，我們會一步一步學習如何瀏覽開放街圖網站，檢視地圖，以及帳號使用者帳號。之後你有自己的使用者名稱和密碼，你能開始貢獻第一個點到地圖上面。
 
 ![website][]
 
@@ -22,14 +22,14 @@ In this section we will learn step by step how to navigate the OpenStreetMap web
 - 打開瀏覽器。
 -   在視窗頂端的網址列，輸入下列網址後按 Enter：
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+- 當頁面結束讀取時，你應該看到以下的東西：
 
     ![OpenStreetMap website with some main functions listed][]
 
 瀏覽地圖
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+- 主要的事情是你可以看地圖，移動地圖要按滑鼠左鍵，按住按鈕，然後在附近拖拉 (請見下圖)。
 
     ![Mouse navigation][]
 

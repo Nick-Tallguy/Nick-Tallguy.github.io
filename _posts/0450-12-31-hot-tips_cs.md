@@ -24,7 +24,7 @@ Viz též
 ![iD help]{: height="400px"}  
 Nabídka nápovědy iD editoru - k dispozici vždy při úpravách, které obsahují volitelný návod.    
   
-[iD editor seznam zkratek na wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
+[iD shortcut list on wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
 [OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Main_Page)  
 
@@ -38,5 +38,5 @@ Pokud jste na OpenStreetMap noví, budou vám pro vás užitečné následujíc�
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD editor nápověda]:/images/hot-tips/iD-help.png "Nabídka nápovědy iD editoru - k dispozici vždy při úpravách, které obsahují volitelný návod."
+[iD help]:/images/hot-tips/iD-help.png  "Nabídka nápovědy iD editoru - k dispozici vždy při úpravách, které obsahují volitelný návod."
 [one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitární OpenStreetMap tým - Minutová výuková videa"
