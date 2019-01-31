@@ -102,13 +102,13 @@ AoIをインポートした場合も手書きした場合も、地図フレー�
 - 初心者マッパーが、広大な航空写真のなかから特定の地物を探し出し、それらを見つける都度マッピングしてゆくのは困難を伴います。茂みの中に点在する、天然の素材で茅葺きされたヒュッテを見つけ出すのは'初心者'には極めて難易度の高い作業です。
 - また、初心者マッパーにとっては、建物など多数の地物をトレースし続けることは困難な傾向があります。
 - このプロセスの後半では、マッパーが対象区域を'分割'する方法を紹介します。タスクをより小さな区域に分割することで、初心者マッパーにとっても対処のしやすい広さにすることができます。  
--  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
--  A square may be split, but there is no option to join squares together to make them bigger again. So be careful when splitting
--  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
+- 作業を行うにあたって問題が発生しがちな箇所は、四角形の四隅と辺縁部分です。対象の四角形が小さくなればなるほど、編集データの重複やマッピングの不足に伴う欠落が発生する可能性が高くなります。対象エリアの大きさ指定はある意味トレードオフの関係にあり、小さければ小さいほど新しいマッパーが参加しやすくなり、それに伴ってエラーが発生しやすくなるといえます。
+- 四角形は分割を行うことが可能です。ただし、一度分割した四角形を再度結合して大きな四角形にすることはできません。分割は慎重に行うようにしてください。
+- **まとめ** プロジェクトの対象エリアを作成したら、自分で一度マッピングを行ってみて、その作業が簡単か難しいか、どのような課題に直面するかを試してみてください。最適なタスクのサイズを確定するにあたってこの作業は非常に役に立ちます。分割作業は許可するほうがよいですが、無限に分割を行うことは避けたほうがよいでしょう。稀に連続して分割を行ってしまい、マッピング自体が極めて困難になってしまうケースも存在します。  
 
-After finalizing Task sizes, click “Next”.
+タスクの大きさを確定したら、"次へ"をクリックしてください。
 
-### Arbitrary Geometries
+### 任意のジオメトリ
 
 It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AoI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
 

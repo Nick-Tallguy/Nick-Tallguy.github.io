@@ -62,27 +62,27 @@ Créer un compte OpenStreetMap
     ![Registering an OpenStreetMap account][]
 
 - Il y a cinq cases sur cette page que vous devez remplir pour ouvrir un compte auprès d'OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
--   Have a look at your email.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+- Entrez votre adresse e-mail dans les deux premiers champs. Vous devez entrer la même adresse e-mail dans les deux champs. Plus tard, vous devrez ouvrir votre email pour confirmer votre compte avec OpenStreetMap.
+- Dans le troisième champ, entrez le nom d'utilisateur que vous aimeriez avoir. Vous ne pouvez pas choisir un nom d'utilisateur déjà choisi par quelqu'un d'autre, donc il doit unique. Si vous essayez d'entrer quelque chose de simple, comme votre prénom, il est fort probable que quelqu'un ait déjà pris ce nom.
+- Entrez un nouveau mot de passe dans les quatrième et cinquième champs. Vous devez entrer le même mot de passe dans les deux champs. Vous n'êtes *pas* obligé d'utiliser un mot de passe aussi complexe que le mot de passe de votre courriel.
+- Vous pouvez noter votre nom d'utilisateur et votre mot de passe OSM. Vous en aurez besoin pour vous connecter plus tard.
+- Après avoir rempli tous les champs, cliquer sur "S'inscrire" au bas de la page.
+- En cas de problème, un message d'erreur peut s'afficher. Vérifiez que votre courriel est le même dans les deux premiers champs et que votre mot de passe est le même dans les deux champs inférieurs. Si le troisième champ est surligné en rouge, cela signifie que quelqu'un d'autre a déjà choisi votre nom d'utilisateur et que vous devez essayer un autre nom.
+- Consulter votre email.
+- Si tout s'est bien passé avec votre inscription, vous recevrez un email d'OpenStreetMap dans votre boîte de réception. Ouvrer le courriel. Il devrait ressembler à l'image ci-dessous. Cliquer sur le lien ci-dessous :
 
     ![Confirming your OpenStreetMap account][]
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+- Un nouvel onglet ou une nouvelle fenêtre s'ouvre. Si tout s'est bien passé, vous devriez avoir un compte OSM !
+- Sur la page OpenStreetMap, cliquer sur "Se connecter" dans le coin supérieur droit. Entrez votre nom d'utilisateur et votre mot de passe pour OpenStreetMap et appuyez sur Entrée. Vous devriez maintenant être connecté. Vous verrez votre nom d'utilisateur dans le coin supérieur droit de la page.
 
 Ajouter Vos Premiers Points
 -----------------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
+- Maintenant que vous êtes connecté avec votre nom d'utilisateur sur le site OpenStreetMap, vous pouvez utiliser l'éditeur iD pour ajouter votre premier point sur la carte.
+- Déplacez la carte vers un endroit que vous connaissez très bien, comme votre ville ou votre quartier. Une bonne idée est de vous assurer que votre maison (ou celle de votre voisin) et votre lieu de travail sont dessinés et qu'on leur a attribué la bonne adresse. 
 - Zoomez sur un lieu où vous voudriez ajouter un point à la carte (peut-être un restaurant ou une épicerie près de vous n'est pas encore cartographié).
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
+- Juste au-dessus de la carte sur la gauche, il y a un bouton intitulé " Modifier " avec un petit triangle à côté. Cliquer sur le petit triangle. Vous devriez voir un menu déroulant.
 - Cliquez sur « modifier avec iD (éditeur intégré au navigateur) ».
 
     ![Click edit][]
@@ -91,21 +91,21 @@ Ajouter Vos Premiers Points
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+- Vous pouvez ajouter un point à la carte en cliquant sur le bouton "Point" en haut de la fenêtre. Cliquer ensuite sur la carte où vous souhaitez ajouter un nouveau point.
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+- Sélectionner dans le menu de gauche le type d'emplacement que vous ajoutez à la carte. Vous pouvez ensuite remplir le formulaire approprié avec le nom du lieu et d'autres informations.
+- Pour enregistrer vos modifications, cliquer sur le bouton " Sauvegarder " en haut de l'écran. Puisqu'il s'agit de votre première édition, vous pouvez vous amuser avec l'éditeur. Ne sauvegardez pas vos modifications à moins d'être sûr qu'elles soient correctes.
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+- Si vous cliquez sur Sauvegarder, il vous sera demandé de fournir une description de vos modifications. Ensuite, vous pouvez cliquer une fois de plus sur "Envoyer" et vos ajouts seront sauvegardés dans la base de données d'OSM !
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+L'éditeur iD est un moyen fantastique d'éditer facilement OpenStreetMap, et vous pouvez en savoir plus sur son utilisation dans le[guide de l'éditeur iD] (/fr/beginner/id-editor/). Vous pouvez également jouer le[walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) qui est un excellent moyen interactif de découvrir l'éditeur.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
+Cependant, dans la [section JOSM](/fr/josm/), nous verrons une application autonome qui offre de nombreuses autres fonctionnalités. N'hésitez pas à continuer à jouer avec iD. Une fois que vous aurez plus d'expérience à contribuer à OSM, vous pourrez choisir celui qui vous convient le mieux - iD ou JOSM - en utilisant le meilleur éditeur.
 
 En résumé
 -------
