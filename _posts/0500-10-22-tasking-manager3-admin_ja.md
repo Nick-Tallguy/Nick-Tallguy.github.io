@@ -110,92 +110,92 @@ AoIをインポートした場合も手書きした場合も、地図フレー�
 
 ### 任意のジオメトリ
 
-It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AoI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
+ファイルをアップロードすることでプロジェクト対象エリアを指定する場合、ファイルに任意の形状のポリゴンを含んでおくことで、それぞれのポリゴン形状を個別のタスクとすることが可能です。もしファイルに含まれるポリゴンの数が1つの場合、プロジェクトにはタスクが1つしか生成されません。この機能は通常利用されませんが、状況によっては必要となる場合があります。
 
-Arbitrary geometries can not be split.
+任意のジオメトリを設定した場合、分割を行うことはできません。
 
-### Project Area Trim
+### プロジェクト対象エリアのトリミング
 
-After determining the task sizes you will have the option to "Trim" your AoI. You can either trim the AoI to the exact polygon shape you drew or imported (suggested) or you can trim to the nearest task square that includes your AoI.
+タスクのサイズを確定した後、対象エリアを "トリミング" することもできます。トリミングは任意のポリゴン形状を描いたり、形状をインポートしたり、対象地域を含む最も近いタスクをもとに行ったりすることが可能です。
 
-After finalizing a the AoI trim, click “Next”.
+トリミングの対象エリアを確定させたら "次へ" をクリックしてください。
 
-## Create the project
+## プロジェクトの作成
 
-Give the project a title (can be edited on the next screen) and click "Create"
+プロジェクトに適切な名前をつけて、 "作成" を押してください（名前は次の画面でも編集可能です）。
 
-This establishes the project in the Tasking Manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+これでTaking Managerへのプロジェクト登録は完了で、次はその概要やマッピング方法の解説を記述する必要があります。なおこの作業は、決して疎かにしないでください。マッピングに参加する一定以上の (多くの場合、ほとんどの) マッパーはこれまでOpenStreetMapあるいはHOTの活動に参加したことがなく、タグづけのガイドラインについても十分な知識を持ちません。この箇所において、プロジェクトの目標と、何をどのようにマッピングすればよいかを明確に記述してください。多くの場合、1つのプロジェクトのなかでマッピングする地物は1種類に限定することが推奨されます。もしその地域のベースマップを完成させたい場合、道路は道路、建物は建物といったように、複数のプロジェクトに作業を分割するようにしてください。新規に参加するマッパーは、小さな対象区域のなかで特定のマッピングに慣れる過程で、それらの地物をどのようにマッピングすることが望ましいか、学習してゆきます。もし複数の地物を対象としてしまうと、中途半端に様々なものがマッピングされた区域が多く発生し、実際にはマッピングが完遂できないという自体に陥る可能性が高くなります。
 
-Once the Project is created, you will need to edit all its associated settings:
+プロジェクトの作成が完了したら、関連する設定についても確認しておきましょう。
 
-- Description - Used for display in lists and motivational information for mappers
-- Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-- Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-- Imagery - Place to provide a TMS URL and License required.
-- Priority Areas - Allows you to specify parts of the Project that should be mapped first.
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Project due date and JOSM Presets.
-- Actions - Send messages to contributors, validate and invalidate the entire project with one click.
+- 解説 - プロジェクト一覧で表示される名称と、マッパーの参加意欲をかき立てる情報
+- マッピング方法解説 - 何をどのようにマッピングすることが求められているかに関する詳細な解説
+- メタデータ - プロジェクトをカテゴライズするにあたっての付帯情報。プロジェクト一覧からフィルタリングを行う際などに利用されます
+- 航空写真 - TMSのURLを記載したり、必要となるライセンスについて記載する場所
+- Priority Areas - プロジェクトの対象地域のなかで優先してマッピングされるべき場所
+- アクセス権 - マッピングや検証作業に参加できるアカウントを制限することが可能です
+- 設定 - プロジェクトの期限とJOSMプリセット
+- アクション - プロジェクト参加者へのメッセージや、プロジェクトの検証作業に関して許可/不許可を一括編集できます
 
-### Description
+### 解説
 
 ![TM Description][]
 
-This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
+この画面ではプロジェクトの優先度や、下書き・公開中・アーカイブ済みといったステータス、プロジェクト一覧で表示される短い解説文や、プロジェクトを選択した後に表示される長めの解説文について設定することができます。
 
-Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
+解説文は長短どちらにおいても、なぜこのプロジェクトを行うに至ったかや、データを誰が使うのか、マッピングがもたらす社会的なインパクトについて記述するようにしてください。文章を記載する際にはMarkdownを利用することができ、画像や動画を貼り付けることも可能です。
 
-### Instructions
+### マッピング方法解説
 
 ![TM Instructions][]
 
-**Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
+**マッピング対象** - ユーザにマッピングして欲しい地物の一覧です。一般的に、対象の地物が少ないほど、マッピングが完了する可能性が高くなります。
 
-> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
+> 多くの要素をマッピングすることを要求するプロジェクトは、マッパーによる作業が困難なばかりでなく、検証作業も困難です。これにより、良質で使いやすいデータセットを作成するにも長い股間がかかるようになってしまいます。また、例えば建物のタスクには小さめのサイズのタスク、道路や河川には大きめのタスクなど、マッピング対象の地物によって適切なタスクのサイズは異なっています。ライン状の地物と建物など、同じ地域を対象としてプロジェクト自体を複数に分割することがベストプラクティスとなります。
 
-**Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
+**変更セットコメント** - この箇所で設定したコメントが、OSMにデータをアップロードする際にデフォルトで入力されるようになります。変更セットには通常、Tasking Managerのどのプロジェクトに関連する作業かを特定する内容と、マッピングを行った地物の概要が入力されます。ここには通常、"ハッシュタグ" が利用され、マッピングを要請した、あるいは実施している組織についての情報が入力されます。また、どのような内容をマッピングしたか、例えば "建物のマッピング" などのような内容も入力されます。
 
-> Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
+> 変更セットコメントを入力するにあたって、ユーザには何をマッピングしたか、有用なコメントを入力するよう教育するべきです。ただし、デフォルト値としてよいコメントが入っていることもまた、その入力を支援するために重要となります。
 
-**Detailed Instructions** - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+**マッピング方法詳解** - マッピングに関して最も詳細な方法の解説をこの場所に記載してください。また、参加するマッパーや検証作業参加者に対して、熟読して守ってほしい欲しい内容もここに記載します。
 
-See the below notes on creating good instructions.
+わかりやすい解説の記載方法については、後述のメモも参照してください。
 
-**Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
+**Per Task Instructions** - この箇所の記述は、マッパーがタスクを選択した際に表示されます。また、そのタスクのために作成された、x, y, z の座標指定を伴ういわゆる "スリッピーマップ" の指定もこちらで行います。
 
-### Metadata
+### メタデータ
 
 ![TM Metadata][]
 
-> All of these fields should be filled out and will become non-optional in future versions of TM3.
+> これらのフィールドは、将来的にTM3ではすべて必須項目となる予定です。
 
-**Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
+**マッパーレベル** - これはプロジェクトのマッピング難易度を表す指標です。選択肢には初心者、中級者、上級者の3つが存在します。このプロジェクトを成功させるために最低限必要なマッパーの経験について、この箇所で指定を行います。ここで設定した値はプロジェクト一覧のフィルタ条件で使われるとともに、アクセス権の画面で推奨レベルを設定する際にも利用されます。
 
-**Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
+**マッピング対象** - プロジェクト一覧の利用条件や、マッパーが参加したいプロジェクトを見つける手がかりになります。
 
-**Organization **- Allows you to specify the organization the mapping will be used by. Used in project filtering.
+**組織** - マッピングの成果が誰によって利用されるのか、を指定します。プロジェクトのフィルタ条件に利用されます。
 
-**Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
+**キャンペーンタグ** - この設定を使うことで、このプロジェクトを他のプロジェクトとグループ化し、より大きなマッピングの成果の一部にすることができます。プロジェクト一覧でのフィルタ条件に利用されます。
 
-### Priority Areas
+### 優先エリア
 
 ![TM Priority Area][]
 
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+Tasking Managerに組み込まれたツールを使って、まず最初にマッピングされるべき地域を描きます。1つのプロジェクト内に複数の有線エリアを指定することが可能です。優先エリアの指定はいつでも変更する事ができます。
 
-> During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
+> 災害対応マッピングを行う際、特に初期の段階では、プロジェクトでのエリア指定を大きくとっておき、新しい情報が入る都度、優先エリアの機能を使って集中するべき箇所を指定してゆくと効果的です。
 
-### Imagery
+### 航空写真
 
-URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
+サービスURL - 作業に参加するマッパーや確認者が使うOSMエディタに対し、この箇所で指定したTMSのURLが自動的に読み込まれます。記入例に従って記入してください。すべてのエディタで問題なく動作するには、入力が正しい形式である必要があります。
 
-License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+ライセンス - 必須ではありませんが、もし航空写真を利用するにあたってマッパーが特定のライセンスに同意している必要がある場合、そのライセンスをここで指定することができます。指定したいライセンスがリストに存在しない場合は、Tasking Managerの管理者に連絡を取り、当該のライセンスを追加してもらうようにしてください。
 
-### Permissions
+### アクセス権
 
 ![TM Permissions][]
 
-Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
+マッパーレベル - プロジェクトに対して適切な習熟度を持っているマッパーの参加だけに制限することができます (上記のメタデータ項目も参照)。マッパーレベルは手動で設定することもできますし、マッパーが行った変更セットの数に応じて自動的に適用することも可能です。
 
 Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
 
