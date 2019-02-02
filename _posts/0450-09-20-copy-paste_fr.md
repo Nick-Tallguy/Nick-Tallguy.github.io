@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: Copying, Pasting & Rotating - iD editor
+titre : Copier, Coller & Rotation - Editeur iD
 permalink: /fr/hot-tips/copy-paste/
 lang: en
-category: hot-tips
+catégorie : conseils
 ---
 
-Copying, Pasting & Rotating - iD editor
+Copier, Coller & Rotation - Editeur iD
 ============
 
-![copy-paste][]
+![copier-coller][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> Cette image !{ : height="24px"} vous montre quels clics ou molette de la souris ont été utilisés, et quels boutons du clavier ont été tapés.  
 
-You can easily copy, paste & rotate objects, but make sure they are the right size.  
-Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste.  
+Vous pouvez facilement copier, coller et faire pivoter des objets, mais assurez-vous qu'ils soient de la bonne taille.  
+Sélectionnez avec votre souris, puis **Ctrl+c** pour copier, et **Ctrl+v** pour coller.  
 
-[copy-paste]:/images/hot-tips/copy-paste.gif
+[copier-coller]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
