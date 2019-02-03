@@ -3,7 +3,7 @@ layout: doc
 title: Tagging - iD editor
 permalink: /en/hot-tips/tagging/
 lang: fr
-category: hot-tips
+category: conseils
 ---
 
 Tagging - iD editor
@@ -48,18 +48,18 @@ Pour plus d'informations sur le marquage des routes, reportez-vous à la rubriqu
 
 Certaines fonctionnalités ont leurs balises sur une **Relation** et non sur l'élément cartographique lui-même. Si vous voyez la mention d'une relation, en tant que débutant complet, le meilleur conseil est de 'laisser tomber'.  
 
-For more information on relations (**not a beginner subject**) see;  
+Pour plus d'informations sur les relations (**sujet non débutant**) voir ;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
+[ApprendreOSM - JOSM - Relations](/en/josm/josm/josm-relations/) qui explique les relations mais utilise un éditeur OSM différent, ou  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
-See also  
+Voir aussi  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+Pour une liste plus complète des attributs, voir <https://wiki.openstreetmap.org/wiki/Map_Features>.  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - Tutoriels vidéo d'une minute")  
+*Sous-titres disponibles dans certaines langues*  
 
 
 
@@ -68,4 +68,4 @@ For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/M
 [tagging]:/images/hot-tips/tagging.gif
 [keymon]:/images/hot-tips/keymon.png
 [tagged-building]:/images/hot-tips/tagged-building.png
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team Tutoriels vidéo d'une minute"
