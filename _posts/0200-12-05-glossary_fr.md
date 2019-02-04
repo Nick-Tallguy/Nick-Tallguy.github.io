@@ -2,7 +2,7 @@
 layout: doc
 title: Glossaire 
 permalink: /fr/beginner/glossary/
-lang : fr
+lang: fr
 category: beginner
 ---
 

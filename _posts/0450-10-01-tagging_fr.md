@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Tagging - iD editor
-permalink: /en/hot-tips/tagging/
+permalink: /fr/hot-tips/tagging/
 lang: fr
-category: conseils
+category: hot-tips
 ---
 
 Tagging - iD editor

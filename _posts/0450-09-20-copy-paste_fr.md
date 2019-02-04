@@ -3,7 +3,7 @@ layout: doc
 title: Copier, Coller & Rotation - Editeur iD
 permalink: /fr/hot-tips/copy-paste/
 lang: fr
-category: conseils
+category: hot-tips
 ---
 
 Copier, Coller & Rotation - Editeur iD
