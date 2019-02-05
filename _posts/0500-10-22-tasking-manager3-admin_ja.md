@@ -197,75 +197,75 @@ Tasking Managerに組み込まれたツールを使って、まず最初にマ�
 
 マッパーレベル - プロジェクトに対して適切な習熟度を持っているマッパーの参加だけに制限することができます (上記のメタデータ項目も参照)。マッパーレベルは手動で設定することもできますし、マッパーが行った変更セットの数に応じて自動的に適用することも可能です。
 
-Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
+確認者レベル - この設定を有効化すると、確認者のロールを持っているユーザのみが確認作業を行うことができるようになります。指定が行われた確認者、プロジェクト管理者、そして既存の確認者は、相互確認プロセスのもと、参加ユーザを確認者として指定することができます。
 
-Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
+プライベートプロジェクト - 限られたユーザだけがプロジェクトにアクセスできるようになります。対象となるユーザは、プロジェクトに参加する前に最低一度はTasking Managerにログインしている必要があります。
 
-### Settings
+### 設定
 
-Default Locale - Allows the setting of default instructions language for a project.
+デフォルト言語表記 - プロジェクトで表示されるマッピング方法解説の、デフォルトの言語設定を行います。
 
-### Actions
+### アクション
 
 ![TM Actions][]
 
-Message All Contributors - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+全ての協力者にメッセージ - タスクを1つ以上完了、あるいは確認実施したすべての参加者に対してTasking Manager上のメッセージを送付します。参加してくれた人々に感謝のメッセージを伝えたり、他のプロジェクトの状況/キャンペーンなどを伝えたりするのに役に立ちます。次項目で解説する、すべてのタスクの確認/差し戻し作業を行う際には、事前にこの機能を使ってメッセージを送るようにしましょう。
 
-Validate all Tasks - This will mark all tasks to "Green" validated status, with the exception of tasks that have been marked as "Bad Imagery"
+全タスクを検証 - "低品質の航空写真"としてマークされたタスクを除き、全てのタスクを"グリーン"の検証済み状態にします。
 
-Invalidate all Tasks - This will mark all tasks to "Red" invalidated status, with the exception of tasks that have been marked as "Bad Imagery"
+全タスクを差し戻し - "低品質の航空写真"としてマークされたタスクを除き、全てのタスクを"レッド"の差し戻し状態にします。
 
-Delete Project - This will permanently delete the project from the Tasking Manager.
+プロジェクトを削除 - Tasking Managerからこのプロジェクトを永久に削除します。
 
-Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
+プロジェクトを複製 - 作業対象地域の指定を除き、全ての設定を複製してプロジェクトを作成します。作業対象地域は再度インポートするか、もう一度手で描いてください。
 
-### Instruction Notes
+### マッピング方法解説を記述するにあたって
 
-Please use plain language as your target audience may not consist of native English speakers.
+プロジェクトの参加者がネイティブの英語話者ではない可能性があります。平易な記述を心がけてください。
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
+1. プロジェクトのタイトルの中に、何をマッピングするか含めるようにしてください。例えば以下のようなタイトルが推奨されます。
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
+2. 最も重要なメッセージは、最初に参加者が目を通すであろう、マッピング方法解説タブの一番最初に記述してください。例えば航空写真としてBing以外の写真を使う場合などが挙げられます。また、例えばプロジェクトの作業対象が道路や居住地域のマッピングの場合、全ての建物を詳細にマッピングする必要が無い旨を最初の一文に含めておくとよいでしょう。逆に、人口密集地域で人口の推定を行うことがプロジェクトの目的であるならば、建物を1つ1つ描く必要があることを記載しておくべきです。この内容は、概要説明のタブにおいても表示されるほうがよいでしょう。
+3. 念の為の記述として、プロジェクトが一定以上の経験を有したマッパーにだけ適している場合。例えばデータのインポート作業や既存データの修正を、GPSトレースや新しく提供される航空写真 (前項参照) などをもとに修正して利用する必要がある場合、新しいマッパーは他のプロジェクトへの参加が推奨であり、この作業には熟達した技術が必要であることを理解できるような文言を記載しておきましょう。
+4. 確認作業を行うにあたって、よくある間違いに関するガイドラインがあります。例えば Blake Girardotさんが編集した [西アフリカにおけるマッピング/mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips) などです。マッピング方法解説の文章としてそれら文章へのリンクを張り、こうしたガイドラインが必要となった背景を正しく説明してください。
+5. タグ付け方法について、一番信頼できるリソースは [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features)です。HOTが関与する多くのプロジェクトでは[アフリカの道路に関するタグ付け](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)も非常に参考となり、すべての参加マッパーは目を通す必要があります。もしプロジェクトにおけるタグの利用方法が通常とは異なる場合、類似のタグを解説するwikiページへのリンクを張り、解説のなかでその違いを説明するようにしてください。
 
 
-### Considerations concerning Imagery
+### 航空写真に関する注意事項
 
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+多くの場合、私達のプロジェクトでは "スタンダードな" Bing衛星写真が利用されます。ただし場合によっては、Bing以外の写真を利用するケースがあります:
 
-1. Bing does not provide high-resolution coverage for your AoI.
-2. Bing has considerable cloud cover in this area.
-3. You need newer imagery for post-disaster evaluation.
+1. 作業対象エリアに、Bingが高解像度の写真を提供していない場合。
+2. 作業対象エリアのBing写真に、一定以上の雲が表示されている場合。
+3. 災害発生後の状況確認のため、新しい航空写真が必要な場合。
 
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+もしBingが十分な品質を提供できていない場合、次の選択肢はMapboxです。この2つの衛星写真が必要な品質水準を満たしていない場合、それ以外の衛星写真も試してみてください。
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AoI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AoI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+そのような場合、単純にライセンス的に利用可能な情報源を探し、WMSあるいはTMSサービスとして利用可能にするだけでは、作業として不足する場合があります。例えば、あなたが設定する作業対象区域はBingやMapbox衛星写真を使って部分的に編集がされてしまっており、衛星写真ごとの画像オフセットが大きい場合があります。作業対象地域の状況をよく確認し、すでにマッピングされているデータと新しい航空写真の間のオフセットを見極めてください。既存のOSMデータがあなたの航空写真とも合致するオフセットで、Bing航空写真にも適合する場合、その地域のBingは"ゴールドスタンダード"であると扱われます。ただし、GPSトレースも確認した場合、この扱いが間違いであることもあり得ます。
 
-If there is a constant offset between your imagery and Bing across the AoI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AoI or if existing data are aligned with various sources then it is time for plan B:
+もしあなたの航空写真とBingが一定のオフセットを示している場合、サーバの設定を変更し、それらの画像が正しく重なるように読み込まれるようにできるかもしれません。この設定ができず、なおかつ作業対象区域の全域にわたってオフセットがあったり既存のデータが様々な情報源をもとに描かれてしまっている場合、プランBの出番です:
 
-The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+ここで重要なことは、存在する課題を正しく扱うための作業手法を策定し、マッパーと確認者に対して詳細な作業手順を提供することです。その際、例えばプロジェクトを"上級者のみ"の設定にした上で、上級者の定義として、建物を200以上描いておりなおかつ複数の衛星写真の位置あわせ作業を行ったことがあるひと、とすることを強くお勧めします。
 
-One possible strategy could include these steps:
+作業工程の例として、例えば以下のような流れがあります:
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
-4. Add new features from the now correctly aligned alternative imagery.
+1. どちらの衛星写真が正しい位置を示しているかを明確にします。この場合、Bing写真がリファレンスである、と仮定します。
+2. 既存の地物がすべてBingに映っていることを確認し、Bingの位置と適合しているかを確認します。必要に応じて表示位置を調整してください。
+3. エディタのオフセット機能を使い、既存の地物の位置 (つまりBingの位置) にあわせて、もうひとつの衛星写真の位置を調整します。
+4. 位置が調整された画像にあわせて、新しく地物を書き加えます。
 
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AoI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+上記のステップの3番目は、プロジェクトで表示される全てのタスクで都度実施される必要があります。また、それぞれのタスクの大きさは小さめに設定するようにしてください。例えば平坦ではない地形が存在する場所など、オフセットが存在する箇所は作業対象区域の一部のみのケースが多くあるためです。場合によっては、プロジェクトのある地域では、衛星写真の接合が正しく行われていないこともあります。そうした場合も、場所と状況をあらかじめ調べておき、参加者に対してアドバイスするようにしてください。
 
-Here are some suggested bits of information which you might include in the project instructions:
+プロジェクトのマッピング方法解説に含めたほうがよいかもしれない内容について、以下でいくつか例を挙げます:
 
-- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [様々なエディタに関する一般的なガイドライン](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [iDエディタで航空写真の位置調整を設定する際のアニメーションGIF](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [LearnOSM記事内、JOSMでの航空写真の位置調整作業に関する章](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-### Proofread and Publish
-Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
-If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+### 内容確認と公開
+それぞれのタブの内容をチェックし、文章とフォーマットが正しく、さらにマッピング方法の解説が明確に記載されていることを確認してください。もしプロジェクトの記述を変更したり、アップデートしたい場合は、ページの右側に表示されている ‘編集’ リンクをクリックしてください。 
+プロジェクトへのマッピング準備が整ったら  ‘公開’ リンクを押してください。プロジェクトを公開すると、 ‘限定ユーザ’タブでプロジェクトへの参加が可能なユーザを限定していない限り、OSMアカウントを持っているすべてのひとがマッピング作業をはじめることができるようになります。公開を行った後も、必要に応じて、 ‘編集’ リンクをクリックし、内容の編集を行うことが可能です。
 
 [TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
 [TM New]: /images/coordination/tm3_create_new.png
