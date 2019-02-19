@@ -190,7 +190,7 @@ The parent checkboxes do not always represent what is available as children belo
 ![export-tool-treetag-spreadsheet][]
 
 
-### YAML Form
+### YAML Formulář
 Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
 
 ![export-tool-treetag-yaml][]
@@ -218,7 +218,7 @@ List items under the mapping select key determines the columns for each theme. T
 ![export-tool-yaml-code2][]
 
 
-YAML: Filters
+YAML: Filtry
 Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
 
 ![export-tool-yaml-code3][]
@@ -229,7 +229,7 @@ Please note It is almost always necessary to have some kind of filtering, otherw
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
+Nastavení JOSM
 Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
 
 ![export-tool-load-preset][]

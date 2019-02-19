@@ -191,7 +191,7 @@ URL Field - A field that takes a TMS URL that will passed automatically to the O
 
 License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
-### Permissions
+### Oprávnění
 
 ![TM Permissions][]
 

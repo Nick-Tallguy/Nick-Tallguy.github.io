@@ -9,14 +9,14 @@ category: coordination
 # Organizace Mapathonu
 
 > This guide may be downloaded as [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) or [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
-> Created 2017-01-30  
+> Vytvořeno 2017-01-30  
 
 - Obsah
 {:toc}
 
-## Introduction
+## Úvod
 
-### What type of event  
+### Jaký typ události  
 Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
 
 This guide deals with indoor Mapathons for larger groups. 
@@ -33,7 +33,7 @@ While we can give general guidelines on how to organise a Mapathon, your event w
 
 ![kings college][]
 
-### History of a successful Mapathon
+### Historie úspěšného Mapathonu
 The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
 It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
 The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
@@ -46,7 +46,7 @@ The success of the London event is based on a number of factors but mainly the f
   
 ## Start working on your Mapathon at least a month before for organising and preparing the event.  
 
-### First step ... Preparing the format of your Mapathon.  
+### První krok ... Příprava formátu vašeho Mapathonu.  
 The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
 
 1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
@@ -60,7 +60,7 @@ The size of the available venues and the availability of facilities at the venue
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
+### Druhý krok ... Plánování mapathonu
 Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
 
 1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
@@ -80,7 +80,7 @@ Now that you have enough information from your first steps to decide the numbers
   
 ![people at work][]  ![more people at work][]
 
-### The week before the Mapathon
+### Týden před Mapathonem
 1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
 2.  Compile a list of attendees for messaging and for identity tags for the event.  
 3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
@@ -96,7 +96,7 @@ Now that you have enough information from your first steps to decide the numbers
 13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
 14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
 
-### At the Mapathon
+### Na Mapathonu
 1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
 2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
 3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
@@ -106,20 +106,20 @@ Now that you have enough information from your first steps to decide the numbers
 
 ![mentoring][]
 
-### Start the Event
-1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
-2. Introduce your experienced mapper and start the training process.
-3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
+### Začátek akce
+1. Ztište všechny a zahajte uvítání, úvodní řeč, program události, pokyny pro evakuaci požáru, umístění toalet atd.  
+2. Představte zkušeného mapovače a zahajte tréninkový proces.
+3. Během akce buďte připraveni oznamovat užitečné tipy, pokud si všimnete, že někteří mapovači udělali chybu (např. Neupravili budovy)
 4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
-5. Check that the refreshments are in place for the mid-session break.
-6. Decide on a local pub for the meet up afterwards and check that it is on Openstreetmap.
-7. Check that the local media or/and a helper is taking photos.
+5. Zkontrolujte, zda je připraveno občerstvení na přestávku v půlce akce.
+6. Dohodněte se o místní hospodě, kde se setkáte po akci a zkontrolujte, zda je na OpenStreetmapě.
+7. Zkontrolujte, zda místní média a/nebo pomocník fotografuje.
 
 ![snacks][]
 
-### At the end of the Event
-1. Thank the hosts for the great venue, the new mappers for coming along and joining the mapping community, the experienced mappers for their help and for their time and contributions, show them the progress that was made on the projects they worked on, ask them to come back to the next Mapathon and invite them to the pub afterwards.
-2. Check that the register of mappers has been completed
+### Na konci akce
+1. Poděkujte hostitelům za skvělé místo konání, novým mapařům za příchod a zapojení se do mapovací komunity, zkušeným mapovačům za jejich pomoc a za jejich čas a příspěvky, ukažte jim pokrok, kterého jste dosáhli na projektech, na kterých pracovali, požádejte aby přišli i na další Mapathon a pozvěte je nakonec do hospody.
+2. Zkontrolujte, zda byla registrace mapovačů dokončen
 3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
 4. Gather all the signs, equipment and collect any rubbish.
 5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.

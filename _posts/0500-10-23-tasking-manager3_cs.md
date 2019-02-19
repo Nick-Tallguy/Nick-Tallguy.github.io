@@ -188,7 +188,7 @@ Click when you are ready to start mapping. You may choose an individual task to 
 
 ![TM map tab][]
 
-#### Selecting a task to map  
+#### Výběr úkolu k mapování  
 
 Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
 
@@ -199,7 +199,7 @@ Clicking on the **Start Mapping** button locks the task so that no other mapper 
 
 Different options for editing are presented to you as soon as you lock a task.
 
-##### Edit with JOSM  
+##### Editace s JOSM  
 
 Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
@@ -239,7 +239,7 @@ Having selected your task and inspected it with the imagery in place, you may re
 > Be aware that other useful comments about the work previously completed will no longer be available.
 
 
-#### Unlocking a Task
+#### Odemčení úkolu
 
 ![TM unlock][]
 
@@ -253,7 +253,7 @@ Například:
     in the task square to be traced though
   
 
-##### Unlocking a Task that is completely mapped
+##### Odemčení úlohy, která je zcela zmapována
 
 It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
@@ -264,12 +264,12 @@ When you have finished editing and think that the task is complete, save any rem
 + Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
 + Click on the "Mark as Mapped" button, and your work is ready for review.  
 
-##### Marking a Task as Bad Imagery
+##### Označení úlohy se špatnou fotomapou
 
 You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
 
 
-#### Sending a message from the comment box
+#### Odeslání zprávy z pole komentáře
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
@@ -295,7 +295,7 @@ If you need to send a message, such as an email or an IRC message, and you are q
 3. Copy this link into the message. 
 
 
-## Getting help 
+## Získání nápovědy 
 
 ### Live text based help
 
@@ -320,7 +320,7 @@ All comments are public and it is not real time, live chat, use the IRC option a
 ![TM comments][]
 
 
-## Editing hints and tips  
+## Tipy a triky při editaci  
 
 By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
 
@@ -335,11 +335,11 @@ Some general advice to heed when working in this tool:
 * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
 
 
-## Validation
+## Validace
 
 Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
 
-### Getting Started
+### Začínáme
 
 Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
 
@@ -349,7 +349,7 @@ The validator can select a task by clicking on an individual task square, clicki
 
 Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
 
-### Selecting Multiple Tasks for Validation
+### Výběr více úkolů pro validaci
 
 New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
 
@@ -374,7 +374,7 @@ Clicking on the "Start Validating" button will lock all the tasks completed by t
 
 Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
 
-### Finalizing Validation
+### Dokončení validace
 
 Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
 

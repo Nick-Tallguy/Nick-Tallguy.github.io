@@ -36,7 +36,7 @@ Downloading Data Extracts
 Customized Extracts
 -------------------
 
-### HOT Exports  
+### HOT Exporty  
 
 The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
 to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
