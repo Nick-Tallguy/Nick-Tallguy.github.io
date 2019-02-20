@@ -1,12 +1,12 @@
 ---
 layout: doc
-Vyznačení kulatých budov - ID editor
+Vyznačení kulatých budov - iD editor
 permalink: /cs/hot-tips/tracing-round-buildings/
 lang: cs
 category: hot-tips
 ---
 
-Vyznačení kulatých budov - ID editor
+Vyznačení kulatých budov - iD editor
 ============
 
 - Obsah
@@ -19,28 +19,28 @@ Základy
 
 > Tento obrázek ![keymon]{: height="24px"} zobrazuje, zda bylo použito tlačítko, kolečko na myši, nebo byla zmáčknuta klávesa na klávesnici.   
 
-Points to note;  
+Hlavní body;  
 
 - Umístěte body na místo, kde se stýká zeď se zemí - 3 body jsou minimum. Pak použijte nástroj na zakulacení.  
-- Make sure you tag!  
-- Size matters - *population estimates are based on the cumulative building area in a given area*,  
+- Nezapomeňte popisovat!  
+- Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - Dostatečně si přibližte mapu, abyste viděli detaily - přiblížení na 20 metrů a méně je obvykle dostačující.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
+- **Hledání budov** - hledejte z výšky mezi 50-80 metry nad povrchem. Všímejte si stínů a rovných línií (kulaté budovy se těžko hledají!)  
 - Budovy by se neměly překrývat s řekami, cestami, **landuse=residential** hranicemi atd.  
 - Pokud uděláte chybu, použijte tlačítko **Zpět** ![back arrow]{: height="26px"} a tím se vrátíte o krok zpět   
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- Všichni vylepšujeme mapu. Pokud předchozí mapeři zanechali budovy podivného nebo špatného tvaru, opravte je a můžete jim o tom ze slušnosti poslat zprávu.  
 
 Identifikace
 ---------------
 
-Round buildings are often found within a compound, and the buildings may be in clusters, or in isolation. It can be difficult to establish if you are looking at a round building or a bush or rock. Buildings are usually found near some means of access such as a path or track, although this can be difficult to see on very hard ground. The vegetation may be worn down by the passage of feet. In some parts of the world the buildings may be on the only dry land, and the access is by boat on a river or lake. There is normally a water source visible within 2 or 3 kilometres of any habitation, but in many parts of the world you do not see the water, but you do see more vegetation to indicate it must be there.  
+Kulaté budovy jsou často uvnitř oplocení, budovy mohou být ve skupince, nebo samostatné. Může být obtížné rozhodnout se, jestli je to kulatá budova, keř nebo skála. K budovám většinou vede cesta nebo pěšina, ale i ta může být těžko viditelná na nezpevněném povrchu. Vegetace může ležet na zemi, když po ní někdo prošel. V některých částech světa jsou budovy jen na suchých místech a jediný přístup je pomocí loďky po řece nebo jezeře. Vodní zdroj je většinou vzdálený 2-3km od obydlí, ale v mnoha částech světa vidět není, avšak vegetace naznačuje, že tam voda někde být musí.  
 
-In many places in the world it is easier to build a new village a short distance from the old one, leaving the old buildings to rot away and fall down - sometimes they are destroyed by fire. Look for shadows to help you decide what you are looking at. If all that is left is a round mark on the ground, it will have no shadow. **If in doubt add it as a building.**  
+V mnoha místech na Zemi je jednodušší postavit novou vesnici nedaleko od té staré, opustit staré budovy a nechat je zhroutit - někdy jsou zničené požárem. Hledejte stíny, ty vám pomohou se rozhodnout. Pokud je budova zbořená, nevrhá žádný stín.  **Pokud váháte, budovu přidejte.**  
 
 ![bush-and-round-building][]  
 Tento obrázek zobrazuje oboje, keř i kulatou budovu. Stíny vám mohou pomoci při identifikaci. V teplých krajích jsou běžně budovy poblíž stromů, nebo keřů, které poskytují přístřeší a stín. Instrukce k tomuto konkrétnímu úkolu obsahují [odkaz na záznam v zápisníku](https://www.openstreetmap.org/user/IvanGayton/diary/38612) někoho, kdo vyfotil budovy v této oblasti a popsal je. Prosím, přečtěte si tyto informace. Kulaté budovy mohou být postaveny z různých materiálů a jejich střechy mohou vypadat různě - instrukce k projektu často obsahují průvodce, kteří vám pomohou rozpoznat, na co se díváte.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+Dělejte, co umíte - dokonce i odborníci semtam nesouhlasí a někdy prostě musíte jet na dané místo, abyste si ověřili skutečnost. **Pokud váháte, budovu přidejte.**  
 
 Popis budovy
 -------------
@@ -50,7 +50,7 @@ Když popisujeme budovu, kterou jsme nikdy nenavštívili a neznáme ji, nejrych
 Shlédněte také  
 ---------
 
-[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+[Zápisek z diáře Ivana Gaytona pro Hadjer Lamis, Chad - komentáře od ostatních naznačují, že popis sedí i na ostatní části světa](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team výukové videa - Přidání budovy do OpenStreetMap")  
 

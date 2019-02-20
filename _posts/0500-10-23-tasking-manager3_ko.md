@@ -174,111 +174,111 @@ category: coordination
 
 #### 활동 및 통계 버튼  
 
-This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
+이 탭에는 프로젝트 통계가 있습니다. 이 탭은 크게 두 부분으로 나누어지는데, 하나는 활동 내역(과업 관리자 2.0에서는 별개의 탭이었음)이고, 나머지 하나는 통계 요약입니다.
 
-The summary contains a list of mappers who have completed at least one task within the project.  
+통계 요약부에는 프로젝트에 한 번 이상 기여한 사람들이 나열됩니다.  
 
-A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
+페이지를 아래로 내리면 모든 바뀜집합 댓글을 볼 수 있습니다. "질문과 답변" 탭에 있는 댓글과 헷갈리지 마세요. "질문과 답변" 탭은 프로젝트에 대한 질문과 답변이 달리는 곳입니다.
 
-You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
+"활동 및 통계" 페이지에서 프로젝트 제목을 클릭하면 프로젝트 메인 페이지로 돌아갑니다.
 
-#### Map Tab  
+#### 지도 탭  
 
-Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
+기여할 준비가 되었다면 지도 탭을 클릭하세요. 지도에서 과업을 선택하거나 "임의로 과업 선택"을 클릭하면 기여를 시작할 수 있습니다. 색깔이 없는 과업만 선택할 수 있으며, 다른 과업을 선택하면 '지도 제작이 불가능한 과업'이라는 메시지가 뜹니다. 유효성 검사를 하고 싶다면, "유효성 검사" 탭을 클릭하세요.
 
 ![TM map tab][]
 
-#### Selecting a task to map  
+#### 지도에서 과업 선택하기  
 
-Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
+과업을 선택하면 선택한 과업의 역사(지도 작업을 시작했지만 끝내지 못한 사람 등)를 볼 수 있습니다.  
 
-Clicking on the **Start Mapping** button locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+**지도 작업 시작** 버튼을 클릭하면 2시간(120분) 동안 과업을 잠글 수 있습니다. 이제 잠금을 풀 때까지 다른 사람들은 해당 과업을 선택할 수 없습니다. 2시간이 지나면 자동으로 과업의 잠금이 풀립니다. 평소에 2시간을 재 놓고 작업하는 습관을 들이는 게 좋습니다. 작업에 몰두하는 건 순식간입니다. 2시간이 지난 줄도 모르고 계속 작업하다 보면 도중에 다른 사람이 작업에 끼어들 수 있습니다. 이러면 서로 충돌할 가능성이 높습니다.  
 
 
-#### Editing choices
+#### 편집 옵션
 
-Different options for editing are presented to you as soon as you lock a task.
+과업을 잠그면 편집 방법을 선택하라는 문구가 뜹니다.
 
-##### Edit with JOSM  
+##### JOSM으로 편집하기  
 
-Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+먼저 JOSM을 켜세요. 그러고 나서 이 옵션을 선택하면 자동으로 오픈스트리트맵 데이터를 JOSM으로 가져옵니다.  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+>  1. **편집 / 설정 / 원격 조종**에 들어가 '원격 조종 활성화'를 선택하세요.
+>  2. 만약 'continuosDownload' 플러그인을 설치했다면 **파일**에서 'OSM 데이터를 계속해서 다운로드'를 비활성화시키세요.  
+>  3. JOSM에서 항공/위성 사진을 자동으로 불러오지 못한다면, **이미지** 메뉴에서 적당한 사진을 직접 찾으세요. 자세한 내용은 [여기](/ko/josm/more-about-josm/#add-imagery)를 참조하세요.  
   
 
-##### iD editor  
+##### iD 편집기  
 
-Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
+이 옵션을 선택하면 자동으로 새 탭이 열립니다. 현재 iD는 인터넷 익스플로러 브라우저를 지원하지 않기 때문에, 이 경우에는 Potlatch 2를 대신 불러옵니다. 과업 관리자 탭은 그대로 남아 있습니다.  
 
 
 ##### Potlatch 2  
 
-The editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+이 옵션을 선택하면 자동으로 새 탭이 열립니다. Potlatch는 자동으로 경계선 상자를 보여 주지 않습니다. 다음 절차를 따라하면 경계선 상자를 볼 수 있습니다.  
 
-1. In the Tasking Manager, select a task and click Start Mapping to lock it  
-2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
-3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.  
-4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.  
-5. In Potlatch, select Background, then Vector File...  
-6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
-7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
-8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
+1. 과업 관리자에서 과업을 선택하고 '지도 작업 시작'을 클릭해 과업을 잠급니다.  
+2. 과업 관리자에서 'JOSM으로 편집하기'를 클릭합니다("JOSM 원격 조종이 응답하지 않습니다..."라는 문구가 뜨면 그냥 OK를 누르세요).  
+3. 'JOSM으로 편집하기' 버튼 아래를 보면 "참고: 다음 .gpx 파일 다운로드..."라는 문구가 있습니다. 이 문구를 클릭해서 .gpx 파일을 다운로드하세요.  
+4. 과업 관리자에서 'JOSM으로 편집하기'를 'Potlatch 2로 편집하기'로 변경합니다. Potlatch가 새 탭에서 열려야 합니다.  
+5. Potlatch에서 '배경'에 들어가 '벡터 파일...'을 선택합니다.  
+6. '벡터 파일 불러오기' 창에서 '파일' 옆에 있는 '열기' 버튼을 누르세요. 그러고 나서 아까 다운로드했던 .gpx 파일을 찾으세요.  
+7. '벡터 파일 불러오기' 창에서 경계선 상자가 적용되었는지 확인한 후, 창을 닫으세요.  
+8. 이제 Potlatch에서 경계선 상자가 (청록색) 정사각형으로 보여야 합니다. Potlatch는 경계선 상자 바깥의 데이터도 불러온다는 점을 잊지 마세요.  
   
 
 ##### Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+Field Papars는 현지 기여자들이 직접 거리를 돌아다니며 지도에 정보(도로명 등)를 표시하는 프로젝트에 참여할 때만 사용하세요. 재스캔 작업을 거친 Field Papars는 다른 기여자들이 읽고 오픈스트리트맵 데이터를 업데이트하는 데 사용합니다. 자세한 내용은 [LearnOSM의 Field papers 단락](/ko/mobile-mapping/field-papers/)을 참조하세요.  
 
 
-#### Splitting a task square
+#### 과업을 정사각형으로 나누기
 
-Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
+선택한 과업을 항공 사진이나 위성 사진으로 조사하다 보면 지도 작업에 필요한 정보가 너무 많다는 것을 깨달을 것입니다. 예를 들어 건물을 그려야 하는데 건물들이 너무 빽빽히 붙어 있는 경우도 있고, 아니면 넓은 영역에서 작은 마을 하나를 찾아야 하는 경우도 있습니다. 안내서대로만 하면 한 사람이 2시간 내로 과업 하나를 끝내는 건 거의 불가능합니다. 과업 하나를 작은 과업 4개로 쪼개는 방법도 있습니다. 그러나 과업을 너무 작게 쪼개다 보면 도로가 어떤 유형인지 알아보기 힘들고, 다른 지물들을 알아보기 힘들어집니다.  
 
-> Be aware that other useful comments about the work previously completed will no longer be available.
+> 이미 완수된 과업에 달린 댓글은 볼 수 없다는 점을 명심하세요.
 
 
-#### Unlocking a Task
+#### 과업의 잠금을 해제하기
 
 ![TM unlock][]
 
-##### Unlocking a Task before it is complete
+##### 아직 완수하지 못한 과업의 잠금을 해제하기
 
-If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
+지도 작업을 시작했는데 도중에 끝내야 할 경우에는 과업에 댓글을 남겨 놓는 것이 좋습니다. 남은 작업을 간단히 설명하고 **지도 작업 중단**을 선택하세요. 남긴 댓글이 정말 다음 기여자에게 유용한지 다시 한번 확인하세요.  
 
-For example:  
+예를 들어,  
 
-    Almost complete, small village top left 
-    in the task square to be traced though
+    Almost complete, small village top left(거의 끝났지만, 작은 마을 위쪽이 아직 남았습니다) 
+    in the task square to be traced though(그래도 남은 작업은 충분히 찾아낼 수 있습니다)
   
 
-##### Unlocking a Task that is completely mapped
+##### 완수한 과업의 잠금을 해제하기
 
-It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
+정말 과업을 완수한 게 맞는지 확인하는 작업은 매우 어렵습니다. 하지만 과업을 완수했다고 확신한다면 과업을 완수했다고 표시해도 됩니다. 해당 과업은 다른 기여자가 유효성 검사 작업을 하면서 정말 완수된 과업인지 확인하게 됩니다. 유효성 검사 작업에서 지물 몇 개를 추가할 수도 있습니다.  
 
-For the process to work most effectively, mappers need to mark tasks as "Mapped" rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+프로젝트가 효율적으로 돌아가도록 완수한 과업에는 반드시 "지도 작업 완료"를 표시해야 합니다. "지도 작업 완료"를 표시하지 않으면 '확신이 없는' 다른 기여자들이 해당 과업이 정말 완료된 과업인지 확인하는 데 시간이 또 들어갑니다.  
 
-When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
+지도 작업을 완전히 끝냈고, 과업을 완수했다고 생각한다면 남은 편집 내역을 저장하고 과업 관리자로 돌아오세요.  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
-+ Click on the "Mark as Mapped" button, and your work is ready for review.  
++ 댓글로 자신이 완수한 작업과 확신하지 못하는 부분을 설명하세요. 예를 들어, "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area(볼 수 있는 곳은 다 했지만, 오른쪽 위에 구름이 좀 끼어 있어서 그쪽은 작업할 수 없었습니다)"라고 적을 수 있습니다.  
++ "지도 작업 완료로 표시" 버튼을 클릭하세요. 그러면 이제 해당 과업을 검토할 수 있게 됩니다.  
 
-##### Marking a Task as Bad Imagery
+##### 과업을 "저품질 이미지"로 표시하기
 
-You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
+기여를 하다 보면 이미지 품질이 너무 떨어지거나 이미지에 구름이 껴서 도저히 과업을 완수할 수 없을 때도 생깁니다. 그럴 때는 그냥 편집기를 끄고 "저품질 이미지로 표시" 버튼을 클릭하세요. 그러면 이미지 품질이 떨어져서 수행할 수 없는 과업이라는 것을 모두에게 알릴 수 있습니다.
 
 
-#### Sending a message from the comment box
+#### 댓글 창에서 메시지 보내기
 
-When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
+과업에 댓글을 남길 때, 다른 사람에게 메시지를 보낼 수도 있습니다. 트위터처럼 사용자명 앞에 @를 붙이기만 하면 됩니다. 그러면 해당 사용자에게 댓글 내용과 댓글 링크가 전송됩니다.  
 
-For example:  
+예를 들어,  
 
-    @HOTMppr nice work tracing the building  
-    details here. You missed a small group  
-    of houses on the upper left of the task square,  
-    I added a few in, but some still remain.  
+    @HOTMppr nice work tracing the building(건물 그리기 작업은 잘 된 것 같습니다)  
+    details here. You missed a small group(다만 왼쪽 위에 놓친 건물 몇 개가 있어서)  
+    of houses on the upper left of the task square,(어느 정도 추가하긴 했습니다.)  
+    I added a few in, but some still remain.(그래도 아직 몇 개 남아 있네요.)  
 
 This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
 

@@ -28,7 +28,7 @@ Začínáme s iD Editorem
 -	Otevřete váš internetový prohlížeč a jděte na stránku OpenStreetMap na [http://www.openstreetmap.org](http://www.openstreetmap.org).  
 -	**Přihlašte se** pomocí vašeho OpenStreetMap účtu.  
 -	Přesuňte se a přibližte mapu nad místo, kde chcete něco upravovat. Přesouvat se můžete pomocí držení levého tlačítka myši a posouváním mapy do vámi hledané polohy.  
--	Klikněte na malou šipku vedle nápisu **Editovat**. Potom klikněte na **Editovat pomocí iD (editor v prohlížeči)**.  
+-	Klikněte na malou šipku vedle nápisu **Upravit**. Potom klikněte na **Upravit pomocí iD (editor v prohlížeči)**.  
 
 ![image1][]
 
@@ -69,7 +69,7 @@ vložte vaši **URI snímku na FieldPaper**, který bude vypadat nějak takto: <
 Pro **zobrazení tras GPS z vašeho počítače** (GPX formát), chyťte a pusťte GPX soubor do iD editoru.  
 Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku níže, jsou  veřejně dostupné GPS trasy zobrazeny v různých barvách určujících směr pohybu.  
 ![osm gps traces][]  
-Pokud je [fotomapa posunutá](/cs/josm/aerial-imagery), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
+Pokud je [fotomapa posunutá](/cs/josm/aerial-imagery/), můžete **opravit posunutí** kliknutím na  **Opravit zarovnání**. ![image18][]  
 
 - Klikněte na navigační tlačítka pro přesun snímků. Klepnutím na tlačítko Reset se vrátíte do výchozí pozice. ![image20][]  
 
