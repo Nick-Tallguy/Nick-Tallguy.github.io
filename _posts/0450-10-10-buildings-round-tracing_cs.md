@@ -1,6 +1,6 @@
 ---
 layout: doc
-Vyznačení kulatých budov - iD editor
+title: Vyznačení kulatých budov - iD editor
 permalink: /cs/hot-tips/tracing-round-buildings/
 lang: cs
 category: hot-tips
