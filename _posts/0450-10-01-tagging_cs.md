@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tagging - iD editor
+title: Tagování - iD editor
 permalink: /cs/hot-tips/tagging/
 lang: cs
 category: hot-tips
 ---
 
-Tagging - iD editor
+Tagování - iD editor
 ============
 
 - Obsah
@@ -14,52 +14,52 @@ Tagging - iD editor
 
 ![tagging][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> Tento obrázek ![keymon]{: height="24px"} zobrazuje, zda bylo použito tlačítko, kolečko na myši, nebo byla zmáčknuta klávesa na klávesnici.   
 
-Proč jsou potřebné značky
+Proč jsou potřebné tagy
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+Bez tagu (popisu) nemá budova žádný význam a nezobrazí se. Tag vysvětluje počítači, co objekt doopravdy je. Když narazíte na něco bez tagu, prosím přidejte jej. Objekt s nastavenými tagy je zbarvený, třeba do červena jako budova na obrázku výše. **Když je bílý, podívejte se, který tag chybí a přidejte jej.**  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+Autor projektu v Tasking Manageru neví, který editor bude maper používat, takže v instrukcích nejspíš bude komentář podobný tomuto;  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+- *Budovy jsou většinou kulaté chatrče označené jako **Building Features / Building** v iD a **building=yes** v JOSM.*  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+Pokud chcete zkontrolovat tagy přiřazené k objektu, klikněte na objekt a poté sjeďte na konec tagovacího panelu a podívejte se do **All Tags**
 
-### Tags - a brief explanation ###
+### Tagy - stručné vysvětlení ###
 
-If you select an item and click on **All tags** you will see a label such as  
+Když si vyberete objekt a kliknete na **All tags** uvidíte nápis podobný tomuto  
 
 **building    yes**  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+Je to základní tag u budovy a je také doporučený při zakreslování budov v úkolech z Tasking Manageru.  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
-  **building   house**  
-  **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+Pokud budovu znáte, můžete zadat více detailních tagů, jako např.;  
+  **building house**  
+  **building school**  
+nebo některé z ostatních. Více informací o tagování budov naleznete na <https://wiki.openstreetmap.org/wiki/Cs:Budovy>  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+Přejděte na [Highways section of this HOT-tips section](/en/hot-tips/highways/) pro více informací o dálnicích.  
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### Relace - třeba budovy s nádvořím nebo ostrovy uvnitř řek ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+Některé objekty mají tagy v sekci **Relation**, ne v samotném objektu. Pokud vidíte zmínku o relaci a jste úplný začátečník, nejlepší rada je 'nechte to být'.  
 
-For more information on relations (**not a beginner subject**) see;  
+Více informací o relacích (**není to pro začátečníky**) najdete zde;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
-<https://wiki.openstreetmap.org/wiki/Relation>
+[LearnOSM - JOSM - Relace](/en/josm/josm-relations/) vysvětluje relace, ale využívá jiného OSM editor, nebo  
+<https://wiki.openstreetmap.org/wiki/Cs:Relace>
 
-See also  
+Shlédněte také  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+Obsáhlý seznam tagů naleznete zde <https://wiki.openstreetmap.org/wiki/Cs:Map_Features>  
 
 [![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+*Titulky dostupné v některých jazycích*  
 
 
 
