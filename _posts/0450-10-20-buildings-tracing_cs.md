@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Kreslení obdelníkových budov - iD editor
+title: Vyznačení obdélníkových budov - iD editor
 permalink: /cs/hot-tips/tracing-rectangular-buildings/
 lang: cs
 category: hot-tips
 ---
 
-Kreslení obdélníkových budov - iD editor
+Vyznačení obdélníkových budov - iD editor
 ============
 
 - Obsah
@@ -27,7 +27,7 @@ Hlavní body;
 - Pokud je budova pravoúhlá, ujistěte se, že jste ji tak nakreslili, případně použijte nástroj na nastavení pravoúhlích rohů.  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
--  
+- správná velikost budovy a správně zakreslená cesta okolo pomůže lidem najít svoji vesnici,  
 - Dostatečně si přibližte mapu, abyste viděli detaily - přiblížení na 20 metrů a méně je obvykle dostačující.  
 - **Hledání budov** - hledejte z výšky mezi 50-80 metry nad povrchem. Všímejte si stínů a rovných línií (kulaté budovy se těžko hledají!)  
 - Budovy by se neměly překrývat s řekami, cestami, **landuse=residential** hranicemi atd.  
