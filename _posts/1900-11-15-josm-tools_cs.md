@@ -90,7 +90,7 @@ Use this tool, which will create a more perfect circle. Draw a line which repres
 
 ### Align Nodes in Line
 
-This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+Tato funkce zarovná řadu bodů do přímky. Při dlouhých čarách je nejlepší vybrat části čáry, kterou chcete narovnat. Buďte opatrní, neboť to má tendenci k malému posunu linky.
 
 ![Align nodes in line][]
 
@@ -112,7 +112,7 @@ This tool allows you to detach nodes that are connected. It is useful when two o
 Keyboard Shortcuts
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
+Jakmile budete velmi často pracovat, uvědomíte si, že ztrácíte mnoho času kliknutím na nabídky a podnabídky. Abyste to překonali, JOSM má klávesové zkratky pro téměř všechno.
 
 This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
 

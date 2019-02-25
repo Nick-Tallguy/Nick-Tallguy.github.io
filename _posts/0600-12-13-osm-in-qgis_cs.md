@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Using OSM Data in QGIS
+title: Využití OSM dat v QGIS
 permalink: /cs/osm-data/osm-in-qgis/
 lang: cs
 category: osm-data
 ---
 
-Using OSM Data in QGIS
+Využití OSM dat v QGIS
 =================
 
 > This guide may be downloaded as [Using_OSM_data_in_QGIS_en.odt](/files/Using_OSM_data_in_QGIS_en.odt) or [Using_OSM_data_in_QGIS_en.pdf](/files/Using_OSM_data_in_QGIS_en.pdf)  
