@@ -1,25 +1,25 @@
 ---
 layout: doc
-title: JOSM Editing Tools
+title: Editační nástroje v JOSM
 permalink: /cs/josm/josm-tools/
 lang: cs
 category: josm
 ---
 
-JOSM Editing Tools
+Editační nástroje v JOSM
 ==================
 
-> This guide may be downloaded as [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) or [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
+> Tento návod můžete stáhnout jako [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) nebo [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
 > Zkontrolováno 2017-06-09  
 
 - Obsah
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+V [Začínáme s JOSM](/cs/josm/start-josm/) jsme si ukázali základy kreslení v JOSM, ale existuje mnoho nástrojů a technik, které jsme si nepředstavili.
 
-Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
+V této kapitole se podíváme na některé základní nástroje a techniky na kreslení v JOSM a v následujících kapitolách půjdeme více do hloubky k pokročilejším nástrojům.
 
-Get the Sample File
+Stáhněme si ukázkový soubor
 -------------------
 
 - If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:

@@ -9,7 +9,7 @@ category: josm
 Úprava dat polí
 ==================
 
-> Tento návod může být stažen jako [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) nebo [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
+> Tento návod může stáhnout jako [josm_editing-with-josm_en.odt](/files/josm_editing-with-josm_en.odt) nebo [josm_editing-with-josm_en.pdf](/files/josm_editing-with-josm_en.pdf)  
 > Zkontrolováno 13.7.2015  
 
 Nyní jsme zvládli všechny stavební bloky mapování s OpenStreetMap.
@@ -93,14 +93,14 @@ poznámky nebo kombinace toto všeho.
     v JOSM, uložili jste GPS navigační značku s názvem 030 a
     napsal jste v notebooku, že 030 je škola. Pro přidání tohoto bodu
     do OpenStreetMap, vyberete nástroj pro kreslení a
-    poklepejte na vrchol bodu 030 v okně mapy. Tohle bude
-    create a point. Then go to the Presets menu, and find the preset for
-    school. Enter the name of the school and click “Apply Preset”. Do
-    the same to add lines and shapes.
+    poklepejte na vrchol bodu 030 v okně mapy. Tím
+    vytvoříte bod. Potom přejděte do menu Presets a najděte předvolbu pro
+    školu. Vložte název školy a klikněte na "Apply Preset".
+    To stejné udělejte pokud chcete přidat přímku nebo tvar.
 
 ![GPS in JOSM][]
 
-Tags
+Tagy
 ----
 Když nakreslíte bod, čáru nebo tvar, má místo, ale ne
 informace o tom, co to je. Jinými slovy, víme **kde** to
@@ -133,59 +133,59 @@ jsou tradičně v angličtině a někdy mohou být matoucí, takže je
 objektu se změní.
 
 - Chcete-li upravit značky objektu, nejprve je vyberte.
--   Then edit the tags in one of two ways: (1) Use the Presets menu,
-    or (2) edit the tags directly in the Properties window on the right. 
+- Poté upravte tady jední z následujících způsobů: (1) Přes Presets menu,
+    nebo (2) přímo v okně Properties vpravo. 
 
-### Běžná chyba: Označení uzlů, když chcete označit řádky nebo mnohoúhelníky
-When you are editing the attributes of a point, you will first select
-the point and then add tags either through the Presets menu or directly
-in the Properties panel. A common mistake is when adding attributes to a
-line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+### Běžná chyba: Označení uzlů, namísto řádků nebo mnohoúhelníků
+Když upravujte atributy bodu, tak ho první vyberete
+a poté přidáte tagy buď skrze Presets menu nebo přímo
+v panelu Properties. Běžně nastane chyba při přidávání atributů k
+čáře či tvaru. Při výběru objektu je důležité
+kliknout na linku, nikoliv na bod, který ji tvoří.
 
-This frequently occurs because editors use the JOSM select tool to draw a
-box around an object, which causes everything, both the line **and** the nodes
-to be selected, and when you add tags they are applied to the nodes
-as well. Be sure to **only** select lines when you want to add tags
-to them.
+To se běžně stává, protože editoři používají v JOSM výběrový nástroj ke kreslení
+boxů okolo objektů, čímž do výběru zahrnou linky **a** body.
+Když potom přidáte tagy, tak jsou aplikované i na body.
+Ujistěte se, že máte vybrané **pouze* linky, když chcete přidat tagy
+k nim.
 
 ![Nodes mistake][]
 
-Saving OSM files
+Ukládání OSM souborů
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and
-upload changes in a reasonably short period of time. You do not want to download
-data one day, and then wait until a few days later to upload your edits. What if
-someone else edits the same area during that time? This will cause errors and conflicts.
+Když editujete v JOSM, je nejlepší data stáhnout, upravit a
+a nahrát změny zpět v co nejkratším čase. Není dobré stáhnout
+data a poté čekat s nahrátím změn několik dní. Co kdyby
+během té doby někdo jiný udělal úpravy ve stejné oblasti? Způsobilo by to chyby a konflikty.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will
-be saved to the database and you will not lose your hard work.
+Nebojte se částo nahrávat své úpravy. To zajistí, že budou
+uloženy do databáze a nepřijdete o svoji tvrdou práci.
 
-If you are working in a single area, it's a good idea to download the map data
-every time you want to edit, in case another user has made changes.
+Pokud pracujete v určité oblasti, je dobrým zvykem stahovat mapová data
+vždy, když chcete jít editovat, pro případ, že někdo jiný v dané oblasti udělal změny.
 
-Although you should always try to download OSM data when you are ready to edit,
-and upload your changes frequently, there may be cases in which you want to save
-the OSM data on your computer. For example, if you have intermittent connectivity
-to the internet, you may wish to download data, save it, edit, and then upload your
-changes later on.
+Ikdyž byste vždy měli zkusit stáhnout OSM data až jste připravení editovat,
+a často poté nahrávat změny zpět, může dojít na případ, kdy si chcete uložit
+OSM data do počítače. Když vám vypadává připojení
+k Internetu, tak si data stáhnete, upravíte, ale nahrajete
+až to bude zase možné.
 
--  To save an OSM file, make sure that it is the active layer in the
-    the Layers panel. Click “File” on the top menu, and click “Save”.
-    Choose a location for the file and give it a name. You can also save
-    by clicking this button:
+- Před ukládáním OSM souboru se ujistěte, že máte zvolenou správnou vrstvu
+    v Layers panelu. Klikněte na "File" v horním menu a poté na "Save".
+    Vyberte cílovou složku pro soubor a pojmenujte ho. Toto provedete taktéž
+    kliknutím na toto tlačítko:
 
 ![JOSM save button][]
 
--  You can now close JOSM and your data will be saved. When you want to
-    open the file again, simply open JOSM, go to the “File” menu, and
-    click “Open...”
+- Nyní můžete zavřít JOSM a vaše data budou bezpečně uložena. Až budete chtít
+    soubor znovu načíst, prostě otevřete JOSM, v hlavním menu zvolte "File"
+    a klikněte na "Open..."
 
 Shrnutí
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned
-about layers and tags. You should now have a solid footing in how to map and how
-to edit OpenStreetMap.
+V této kapitole jsme si trochu představili uživatelské rozhraní JOSM a probrali jsme
+vrstvy a tagy. Už byste měli mít pevný základ pro mapování
+a úpravu OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png
