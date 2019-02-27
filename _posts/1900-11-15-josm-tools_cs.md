@@ -19,129 +19,129 @@ V [Začínáme s JOSM](/cs/josm/start-josm/) jsme si ukázali základy kreslení
 
 V této kapitole se podíváme na některé základní nástroje a techniky na kreslení v JOSM a v následujících kapitolách půjdeme více do hloubky k pokročilejším nástrojům.
 
-Stáhněme si ukázkový soubor
+Stáhněte si ukázkový soubor
 -------------------
 
-- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
+- Nechte se vést a procvičte si nástroje v JOSM, stáhněte si ukázkový soubor [tools_menu_sample.osm](/files/tools_menu_sample.osm). Spusťte JOSM a načtěte si ho. Měli byste vidět toto:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Nástroje na kreslení
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
+Když kliknete na "Tools" v hlavním menu JOSM, uvidíte několik funkcí, které vám mohou pomoci při kreslení čar, tvarů a při editaci objektů na mapě.
 
-JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
+JOSM má i jiné nástroje, které ulehčí kreslení čar a tvarů. Jsou v nabídce "Tools".
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+Abyste je mohli použít, musíte nejdříve vybrat bod, čáru, nebo tvar v mapě. Ukázkový soubor obsahuje různé elementy, které jsou pojmenovány podle různých nástrojů v menu.
 
-### Aligning nodes in a circle  
+### Srovnání bodů do kruhu  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- Zkuste si vybrat jeden z elementů. Poté přejděte do menu Tools a klikněte na funkci, která má stejný název jako element. Například vyberte špatně nakreslený kruh.
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+- Z menu "Tools" vyberte "Align Nodes in Circle". Nepovedený kruh se krásně zakulatí.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+Vyzkoušejte všechny nástroje. Popis některých nástrojů je uveden níže.
 
-### Split Way  
+### Split Way (Rozdělení cesty)  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+Tento nástroj vám umožní rozdělit čáru na dvě části. Hodí se to v případě, že chcete přidat každé části jiné atributy, jako třeba most. Funkci použijete tak, že vyberete bod uprostřed čáry, kterou chcete rozdělit, poté vyberte funkci Split Way z nabídky nástrojů Tools a vaše čára by se měla rozdělit.
 
 
-### Combine Way
+### Combine Way (Spojení cest)
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+Je to opak funkce Split Way. Ke spojení dvou čar do jedné, musí mít společný jeden bod. Před použitím této funkce vyberte dvě čáry ke sloučení. Výběr více objektů provedete podržením klávesy SHIFT a kliknutím na každý z nich. Jakmile máte vybrané obě čáry, klikněte na Combine Way v menu Tools.
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### Reverse and Combine (Obrátit a spojit)  
 
-If you are combining roads that have different directions, you might get this warning:
+Když spojujete silnice s odlišným směrem jízdy, nejspíš obdržíte toto varování:
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+Pokud jsou silnice propojené a mají stejný směr jízdy, pak vyberte "Reverse and Combine."
 
 
-### Reverse Way
+### Reverse Way (Obrátit směr jízdy)
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+Tímto změníte směr jízdy u silnice. Všechny línie v OSM mají určený směr, což je v JOSM vyobrazeno pomocí šipek na línii. Na směru většinou nezáleží, pokud zrovna nejde o jednosměrku nebo řeku, která plyne daným směrem. V těchto případech je potřeba změnit směr na správný.
 
 ![Way direction][]
 
-### Simplify Way
+### Simplify Way (Zjednodušit cestu)
 
-If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
+Pokud se vaše cesta skládá příliš mnoha bodů a chtěli byste ji zjednodušit, tak tento nástroj jich několik odebere.
 
 ![Simplify way][]
 
 
-### Create a Circle
+### Create a Circle (Vytvořit kruh)
 
-Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+Tento nástroj využijete při tvorbě perfektního kruhu. Nakreslete čáru, která representuje průměr kruhu a  poté aplikujte tento nástroj.
 
 ![Create circle][]
 
 
-### Align Nodes in Line
+### Align Nodes in Line (Zarovnat body do přímky)
 
-Tato funkce zarovná řadu bodů do přímky. Při dlouhých čarách je nejlepší vybrat části čáry, kterou chcete narovnat. Buďte opatrní, neboť to má tendenci k malému posunu linky.
+Tato funkce zarovná řadu bodů do přímky. U dlouhých čar je nejlepší vybrat jen části, které chcete narovnat. Buďte opatrní, neboť může dojít k malému posunu linky.
 
 ![Align nodes in line][]
 
-### Orthogonalize Shape
+### Orthogonalize Shape (Pravoúhlý tvar)
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+Tato funkce je užitečná u pravidelných tvarů, jakými jsou třeba budovy (**Ale shlédněte také  [JOSM building tools](/cs/josm/josm-more-plugins/)**). Po zakreslení oblasti, tato funkce změní její tvar na pravoúhlý..
 
 ![Orthagonalize][]
 
 
-### Unglue way
+### Unglue way (Odpojení cesty)
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+K rozdělení spojených bodů využijte tento nástroj. Hodí se v případě, když dva objekty sdílejí jeden bod a neměly by. Například běžnou chybou je společný bod u cesty a rohu budovy. Cesty běžně nevedou do budov, takže je to chyba a objekty byste měli v daném bodě oddělit.
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+*Čára a bod ve skutečnosti nevypadají oddělené, dokud s nimi nepohnete.*
 
-Keyboard Shortcuts
+Klávesové zkratky
 ------------------
 
-Jakmile budete velmi často pracovat, uvědomíte si, že ztrácíte mnoho času kliknutím na nabídky a podnabídky. Abyste to překonali, JOSM má klávesové zkratky pro téměř všechno.
+Jakmile budete mít za sebou mnoho editací, uvědomíte si, že ztrácíte mnoho času klikáním na nabídky a podnabídky. Pro urychlení práce má JOSM téměř na všechno klávesové zkratky.
 
-This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
+Tím chci říct, že místo klikání na objekty a pak opakování zdlouhavého procesu v menu, můžete vybrat objekt a zmáčknout klávesu na klávesnici.
 
-All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+Všechny nástroje, zmíněné v předchozí sekci, mají klávesové zkratky, které jsou v nabídce Tools vypsány hned vpravo vedle každého nástroje. Například "O" je
+zkratka k zarovnání bodů do kruhu. "L" je zase srovná do přímky. Chvíli to trvá než si zkratky zapamatujete, ale zjistíte, že to ušetří
+spoustu času.
 
-Here are other shortcut keys (in **bold**) which are some of the most important.
+Seznam dalších zkratek ( **tučně**), které jsou jedny z nejužitečnějších.
 
-1.  Activate the Select Tool - **S**
-2.  Activate the Draw Tool - **A**
-3.  Activate the Zoom Tool - **Z**
-4.  Delete the selected object(s) - **Delete**
-5.  Zoom In - **+**
-6.  Zoom Out - **-**
+1. Aktivace Select Tool (Výběr) -  **S**
+2. Aktivace Draw Tool (Kreslení) -  **A**
+3.  Aktivace Zoom Tool (Přiblížení/Oddálení) - **Z**
+4.  Smazání vybraného objektu - **Delete**
+5.  Zoom In (Přiblížení) - **+**
+6.  Zoom Out (Oddálení) - **-**
 
 
-Scale and Rotate
+Scale and Rotate (Změna velikosti a Rotace)
 ----------------
 
-A common question is how to rotate a line or shape after it has been drawn.
+Častý dotaz je na rotaci přímky nebo tvaru až po jeho nakreslení.
 
-To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
+Vyberte objekt k rotaci. Podržte **SHIFT+CTRL** na klávesnici. Klikněte a podržte tlačítko myši a otočte objektem.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
+Velikost objektu změníte (zmenšíte či zvětšíte) podobným způsobem, jen podržíte ALT+CTRL.
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+Tyto informace najdete také informačním pásku ve spodní části okna JOSM:
 
 ![Rotate instructions][]
 
