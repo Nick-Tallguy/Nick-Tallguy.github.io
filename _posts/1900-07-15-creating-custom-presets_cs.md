@@ -10,7 +10,7 @@ JOSM - Creating Custom Presets
 =======================
 
 > This guide may be downloaded as [creating-presets_en.odt](/files/creating-presets_en.odt) or [creating-presets_en.pdf](/files/creating-presets_en.pdf)  
-> Zkontrolováno 2015-09-20  
+> Zkontrolováno 20.9.2015  
 
 In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  
 

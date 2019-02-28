@@ -10,19 +10,19 @@ Editační nástroje v JOSM
 ==================
 
 > Tento návod můžete stáhnout jako [josm_josm-tools_en.odt](/files/josm_josm-tools_en.odt) nebo [josm_josm-tools_en.pdf](/files/josm_josm-tools_en.pdf)  
-> Zkontrolováno 2017-06-09  
+> Zkontrolováno 9.6.2017  
 
 - Obsah
 {:toc}
 
-V [Začínáme s JOSM](/cs/josm/start-josm/) jsme si ukázali základy kreslení v JOSM, ale existuje mnoho nástrojů a technik, které jsme si nepředstavili.
+V kapitole [Začínáme s JOSM](/cs/josm/start-josm/) jsme si ukázali základy kreslení v JOSM, ale existuje mnoho nástrojů a technik, které jsme si nepředstavili.
 
-V této kapitole se podíváme na některé základní nástroje a techniky na kreslení v JOSM a v následujících kapitolách půjdeme více do hloubky k pokročilejším nástrojům.
+V této kapitole probereme některé z nich a v následujících kapitolách půjdeme více do hloubky k pokročilejším nástrojům.
 
 Stáhněte si ukázkový soubor
 -------------------
 
-- Nechte se vést a procvičte si nástroje v JOSM, stáhněte si ukázkový soubor [tools_menu_sample.osm](/files/tools_menu_sample.osm). Spusťte JOSM a načtěte si ho. Měli byste vidět toto:
+- Nechte se vést a procvičte si nástroje v JOSM, stáhněte si ukázkový soubor [tools_menu_sample.osm](/files/tools_menu_sample.osm). Spusťte JOSM a načtěte si ho. Měli byste vidět tyto tvary:
 
 ![tools_menu_sample.osm][]
 
@@ -49,7 +49,7 @@ Vyzkoušejte všechny nástroje. Popis některých nástrojů je uveden níže.
 
 ### Split Way (Rozdělení cesty)  
 
-Tento nástroj vám umožní rozdělit čáru na dvě části. Hodí se to v případě, že chcete přidat každé části jiné atributy, jako třeba most. Funkci použijete tak, že vyberete bod uprostřed čáry, kterou chcete rozdělit, poté vyberte funkci Split Way z nabídky nástrojů Tools a vaše čára by se měla rozdělit.
+Tento nástroj vám umožní rozdělit čáru na dvě části. Hodí se to v případě, že jim chcete přiřadit rozdílné atributy, jako třeba u mostu. Funkci použijete tak, že vyberete bod uprostřed čáry, kterou chcete rozdělit, poté vyberte funkci Split Way z nabídky nástrojů Tools a vaše čára by se měla rozdělit.
 
 
 ### Combine Way (Spojení cest)
@@ -76,7 +76,7 @@ Tímto změníte směr jízdy u silnice. Všechny línie v OSM mají určený sm
 
 ### Simplify Way (Zjednodušit cestu)
 
-Pokud se vaše cesta skládá příliš mnoha bodů a chtěli byste ji zjednodušit, tak tento nástroj jich několik odebere.
+Pokud se vaše cesta skládá z příliš mnoha bodů a chtěli byste ji zjednodušit, tak tento nástroj jich několik odebere.
 
 ![Simplify way][]
 
@@ -96,14 +96,14 @@ Tato funkce zarovná řadu bodů do přímky. U dlouhých čar je nejlepší vyb
 
 ### Orthogonalize Shape (Pravoúhlý tvar)
 
-Tato funkce je užitečná u pravidelných tvarů, jakými jsou třeba budovy (**Ale shlédněte také  [JOSM building tools](/cs/josm/josm-more-plugins/)**). Po zakreslení oblasti, tato funkce změní její tvar na pravoúhlý..
+Tato funkce je užitečná u pravidelných tvarů, jakými jsou třeba budovy (**Pokročilejší nástroje probereme v [JOSM building tools](/cs/josm/josm-more-plugins/)**). Zakreslené oblasti dodá tato funkce pravoúhlý tvar.
 
 ![Orthagonalize][]
 
 
 ### Unglue way (Odpojení cesty)
 
-K rozdělení spojených bodů využijte tento nástroj. Hodí se v případě, když dva objekty sdílejí jeden bod a neměly by. Například běžnou chybou je společný bod u cesty a rohu budovy. Cesty běžně nevedou do budov, takže je to chyba a objekty byste měli v daném bodě oddělit.
+K rozdělení spojených bodů využijte tento nástroj. Hodí se v případě, když dva objekty sdílí jeden bod a neměli by. Například běžnou chybou je společný bod u cesty a rohu budovy. Cesty běžně nevedou do budov, takže je to chyba a objekty byste měli v daném bodě oddělit.
 
 ![Unglue way][]
 
@@ -116,11 +116,11 @@ Jakmile budete mít za sebou mnoho editací, uvědomíte si, že ztrácíte mnoh
 
 Tím chci říct, že místo klikání na objekty a pak opakování zdlouhavého procesu v menu, můžete vybrat objekt a zmáčknout klávesu na klávesnici.
 
-Všechny nástroje, zmíněné v předchozí sekci, mají klávesové zkratky, které jsou v nabídce Tools vypsány hned vpravo vedle každého nástroje. Například "O" je
-zkratka k zarovnání bodů do kruhu. "L" je zase srovná do přímky. Chvíli to trvá než si zkratky zapamatujete, ale zjistíte, že to ušetří
+Všechny zmíněné nástroje, mají klávesové zkratky, které jsou vypsány v menu u každého nástroje hned vpravo vedle názvu. Například "O" je
+zkratka k zarovnání bodů do kruhu. "L" je zase srovná do přímky. Chvíli to trvá než si zkratky zapamatujete, ale zjistíte, že ušetří
 spoustu času.
 
-Seznam dalších zkratek ( **tučně**), které jsou jedny z nejužitečnějších.
+Tady je seznam dalších zkratek (**tučně**), které se často používají.
 
 1. Aktivace Select Tool (Výběr) -  **S**
 2. Aktivace Draw Tool (Kreslení) -  **A**
@@ -133,13 +133,13 @@ Seznam dalších zkratek ( **tučně**), které jsou jedny z nejužitečnější
 Scale and Rotate (Změna velikosti a Rotace)
 ----------------
 
-Častý dotaz je na rotaci přímky nebo tvaru až po jeho nakreslení.
+Častý dotaz je na rotaci přímky nebo tvaru až po jejich nakreslení.
 
 Vyberte objekt k rotaci. Podržte **SHIFT+CTRL** na klávesnici. Klikněte a podržte tlačítko myši a otočte objektem.
 
 ![Rotate demo][]
 
-Velikost objektu změníte (zmenšíte či zvětšíte) podobným způsobem, jen podržíte ALT+CTRL.
+Velikost objektu  (zmenšení či zvětšení) změníte podobným způsobem, jen podržíte ALT+CTRL.
 
 Tyto informace najdete také informačním pásku ve spodní části okna JOSM:
 

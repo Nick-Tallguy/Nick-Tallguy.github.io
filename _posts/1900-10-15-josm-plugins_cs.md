@@ -9,12 +9,12 @@ category: josm
 JOSM Pluginy
 ============
 
-> Tento návod může být stažen jako [josm-plugins_en.odt](/files/josm-plugins_en.odt) nebo [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
+> Tento návod můžete stáhnout jako [josm-plugins_en.odt](/files/josm-plugins_en.odt) nebo [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
 > Zkontrolováno 14.7.2015  
 
-Jakmile se stanete pokročilejší ve svých editacích technikách, budete možná chtít použít další funkce JOSM pro zlepšení mapovacích dovedností. JOSM umožňuje instalovat četné pluginy, které dodávají softwaru další funkce.  
+Jakmile si osvojíte pokročilejší techniky editace, možná se budete chtít naučit další funkce JOSM a vylepšit si tak mapovací dovednosti. JOSM umožňuje instalovat mnoho pluginů, které mu dodávají další funkce.  
 
-V této části se podíváme, jak nainstalovat pluginy a některé z nejužitečnějších pluginů, které jsou k dispozici.
+V této části si ukážeme, jak na instalaci pluginů a některé z nejužitečnějších si představíme.
 
 Instalace pluginů
 -------------------
@@ -24,23 +24,23 @@ Kdykoli chcete nainstalovat nový plugin, přejděte na **Upravit \> Předvolby*
 
 * Pokud nevidíte seznam dostupných pluginů, klikněte na **Seznam stahování**.  
 * Chcete-li nainstalovat plugin, stačí zaškrtnout políčko vedle něj a v dolní části klikněte na OK.  
-* A nakonec, s některými verzemi JOSM pravděpodobně budete muset restartovat JOSM při instalaci nových pluginů.
+* A nakonec, s některými verzemi JOSM pravděpodobně budete muset restartovat JOSM po instalaci nových pluginů.
 
 Některé z našich oblíbených pluginů jsou:
 
-1. **[buildings_tools](/cs/josm/josm-more-plugins/#the-buildings-tools-plugin):** Pokud kreslíte spoustu budov, bude to proces rychlejší a snadnější  
+1. **[buildings_tools](/cs/josm/josm-more-plugins/#the-buildings-tools-plugin):** Pokud kreslíte spoustu budov, tímto tento proces urychlíte  
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **DirectUpload:** Pokud máte spoustu GPS tras a chcete je nahrát do OSM databáze, tento plugin vám to usnadní.  
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx:** Když chcete nahrát GPS trasy ze zařízení Garmin, nejspíš využijete tento plugin. OSM nepřijímá trasy uložené na externí paměťové kartě v Garminu, ale tento plugin soubory upraví tak, aby je bylo možné nahrát.   
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers:** S tímto můžete načíst naskenované Field Papers (papírové mapy z terénu) do JOSM.  
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db:** Pro spolupráci s mapery, kteří zjistili, že satelitní snímky Bing jsou mírně mimo mapu použijte tento plugin. Tento problém je popsát v jiné kapitole.  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print:** Přidá funkci pro rychlí tisk zvolené oblasti, která nevypadá moc přehledně.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Přidá mnoho dalších nástrojů a nabídek do JOSM pro pokročilejší uživatele. Více informací získáte v [další kapitole](/cs/josm/josm-more-plugins)  
 
 
 
