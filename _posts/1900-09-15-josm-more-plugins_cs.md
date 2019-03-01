@@ -17,11 +17,11 @@ Pluginy **buildings_tools** a **utilsplugin2** přidávají skvělé funkce do J
 Plugin Buildings Tools
 --------------------------
 
-Pokud jste si jej ještě neinstalovali, následujte instrukce v [JOSM Pluginy](/cs/josm/josm-plugins).  
+Pokud ho nemáte nainstalovaný, následujte instrukce v [JOSM Pluginy](/cs/josm/josm-plugins).  
 
 ![Buildings tools plugin][]
 
-Tento plugin je velmi nápomocný při digitalizaci budov. Umožňuje vyznačit jednu stranu pravoúhlé budovy a pak rychle doplnit tvar. Pokud digitalizujete mnoho budov, tak vám ušetří spoustu klikání a tím i čas.  
+Tento plugin je velmi nápomocný při digitalizaci budov. Umožňuje vyznačit polovinu pravoúhlé budovy a zbytek tvaru se dopočítá. Pokud digitalizujete mnoho budov, tak vám ušetří spoustu klikání a tím i čas.  
 
 Jakmile je plugin nainstalovaný, objeví se v levé části okna JOSM nové tlačítko, které vypadá takhle: ![Buildings tools button][]{: height="29px"}
 
@@ -42,8 +42,8 @@ Třetím kliknutím vyberte třetí roh budovy a zbytek se dokreslí automaticky
 Komplikované budovy můžete vytvářet nakreslením několika překrývajících se budov a pak je sloučit do jedné.  
 
 * Nakreslete dvě překrývající se budovy ve tvaru písmene L.  
-* Vyberte obě budovy (podržte SHIFT pro výběr více jak jednoho objektu).  
-* Otevřete si nabídku Tools />Join overlapping Areas nebo zmáčkněte SHIFT+J na klávesnici.  
+* Vyberte obě budovy (podržte SHIFT pro výběr více objektů).  
+* Otevřete si nabídku Tools \> Join overlapping Areas nebo zmáčkněte SHIFT+J na klávesnici.  
 
 ![Merge buildings][]
 
@@ -51,7 +51,7 @@ Komplikované budovy můžete vytvářet nakreslením několika překrývající
 
 Dále si můžete upravit nastavení pluginu podle sebe.  
 
-* Jděte do nabídky Data /> Set buildings size. ![Set buildings size][]{: height="39px"}  
+* Jděte do nabídky Data \> Set buildings size. ![Set buildings size][]{: height="39px"}  
 
 * Pokud vytváříte několik stejně velkých budov, můžete si nastavit konkrétní rozměry budovy, jako např. 6 x 10 metrů (jednotkou jsou metry).  
 
@@ -67,15 +67,15 @@ Navíc si můžete pomocí tlačítka "Advanced..." přidat další tagy, které
 Utilsplugin2
 -------------
 
-* Pokud jste si jej ještě neinstalovali, následujte instrukce v [JOSM Pluginy](/cs/josm/josm-plugins).  
+Pokud ho nemáte nainstalovaný, následujte instrukce v [JOSM Pluginy](/cs/josm/josm-plugins).  
 
 ![Utilsplugin2 plugin][]
 
-Po instalaci pluginu a restartu JOSM, objeví se nová nabídka v hlavním menu s názvem "More Tools."  
+Po instalaci pluginu a restartu JOSM se objeví nová nabídka v hlavním menu s názvem "More Tools."  
 
 ![More tools menu][]
 
-Vytvořte si novou vrstvu a vyzkoušejte některé nové nástroje. Představíme vám ty nejužitečnější nástroje:  
+Vytvořte si novou vrstvu a vyzkoušejte si některé nové nástroje. Představíme vám ty nejužitečnější nástroje:  
 
 1. **Add Nodes at Intersections:**  Tento nástroj přidá chybějící body v křižovatkách vybraných cest. Cesty by vždy měly mít společný bod v místech, kde se protínají.  
 
@@ -94,7 +94,7 @@ Vytvořte si novou vrstvu a vyzkoušejte některé nové nástroje. Představím
 
 ### Více nástrojů pro výběr
 
-**Utilsplugin2** také přidá více nástrojů do menu "Selection". Zkuste si je projít.  
+**Utilsplugin2** přidá více nástrojů i do menu "Selection". Zkuste si je projít.  
 
 ![Selection menu][]
 
