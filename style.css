@@ -1,3 +1,16 @@
+@media screen {
+  div.print-watermark {
+    display: none;
+  }
+}
+@media print {
+  div.print-watermark {
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+}
+
 /* --------------------------------------------------------
   Grids and Rules
 -------------------------------------------------------- */
