@@ -14,8 +14,12 @@ html {
     margin: 1%;
 }
 h1 {
-    color: black
+    color: black;
     font-size: 28px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .entry a:after {
 	content: " [" attr(href) "] ";
