@@ -13,14 +13,21 @@ html {
     width: 96%;
     margin: 1%;
 }
+h1:before {
+    background-image: url("watermark.png");
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 h1 {
     color: black;
     font-size: 28px;
+    text-align: center;
 }
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
-.entry a:after {
-	content: " [" attr(href) "] ";
+a:after {
+    content: " [" attr(href) "] ";
 }
