@@ -5,9 +5,11 @@
 }
 @media print {
   div.print-watermark {
+    border: none;
     position: fixed;
     top: 0;
     right: 0;
+    margin-bottom: 25px;
   }
 }
 
