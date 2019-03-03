@@ -3,6 +3,7 @@ html {
 }
 .doc-nav,
 #banner-top,
+#header,
 #footer,
 .feedback,
 .banner {
@@ -12,9 +13,10 @@ html {
     width: 96%;
     margin: 1%;
 }
-.logo:before {
-    content: "LearnOSM";
+h1 {
+    color: black
+    font-size: 28px;
 }
-#header span {
-    display: inline-block;
+.entry a:after {
+	content: " [" attr(href) "] ";
 }
