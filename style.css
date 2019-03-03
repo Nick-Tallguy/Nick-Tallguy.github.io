@@ -2,6 +2,9 @@
   div.print-watermark {
     display: none;
   }
+  div.space-watermark {
+    display: none;
+  }
 }
 @media print {
   div.print-watermark {
@@ -9,6 +12,8 @@
     position: fixed;
     top: 0;
     right: 0;
+  }
+  div.space-watermark {
     margin-bottom: 25px;
   }
 }
