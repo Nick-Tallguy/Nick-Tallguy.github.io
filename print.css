@@ -13,12 +13,6 @@ html {
     width: 96%;
     margin: 1%;
 }
-h1:before {
-    background-image: url("watermark.png");
-    position: absolute;
-    top: 20px;
-    right: 20px;
-}
 h1 {
     color: black;
     font-size: 28px;
