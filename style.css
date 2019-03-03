@@ -16,6 +16,9 @@
   div.space-watermark {
     margin-bottom: 25px;
   }
+  img {
+    border: none;
+  }
 }
 
 /* --------------------------------------------------------
