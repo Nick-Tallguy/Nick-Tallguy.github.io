@@ -11,30 +11,30 @@ nosearch: true
 راهنمای مبتدیان
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
-> Reviewed 2015-07-12  
+> این راهنما را می‌توان به صورت [beginner_fa.odt](/files/beginner_fa.odt) و یا [beginner_fa.pdf](/files/beginner_fa.pdf) دانلود کرد  
+> تاریخ بازبینی ۱۳۹۴/۰۴/۲۱  
 
 این راهنما شروع به کار با OpenStreetMap را به روش گام به گام به شما آموزش می‌هد. یاد می‌گیرید که  چگونه یک حساب کاربری بسازید، از نرم‌افزار ویرایشگر نقشه استفاده کنید و در فصل‌های انتهایی یاد می‌گیرید بیرون از خانه رفته  
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### آیا شما در OpenStreetMap تازه کار هستید و می‌خواهید با اضافه کردن داده بهبود ببخشید؟
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+اگر می‌خواهید شروع کنید و قادر باشید که نقشه را ویرایش کنید ما خواندن این راهنماها را پیشنهاد می‌کنیم:
+- [مقدمه](/fa/beginner/introduction/)  زمینه‌ای از پروژه را برای شما نشان می‌دهد
+- [شروع به کار](/fa/beginner/start-osm/) نشان می‌دهد که چگونه حساب کاربری باز کنید و یک ویرایشگر را بکار بگیرید
+- در [ویرایشگر iD](/en/beginner/id-editor/) اصول اولیه ویرایش داده را یاد می‌گیرید 
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### قبلاْ با طرز استفاده از ویرایشگر آشنایی داشته و میخواهید در نقشه‌کشی‌های بشردوستانه شرکت کنید؟
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+نکته اصلی این است که یاد بگیرید چگونه در این مقوله نقشه‌کشی هماهنگ می‌گردد.
+- [راهنمای نقشه‌کشی از راه دور](/fa/coordination/HOT-Remote-Response-Guide/) و اطلاعات کلی در مورد [نقشه‌کشی بشردوستانه](/fa/coordination/humanitarian/) یک پس‌زمینه کلی در این مورد می‌دهد
+- نیروی محرکه [مدیریت وظایف](/fa/coordination/tasking-manager3/) است که باید با طرز کار آن آشنا شوید 
+
+### آیا می‌خواهید از OpenStreetMap بر روی دستگاههای موبایل استفاده کنید؟
+
+یک بخش کامل به [نقشه‌کشی همراه](/fa/mobile-mapping/) اختصاص داده شده است
+
+
+###  آیا با ابزارهای GIS آشنا هستید و می‌خواهید به داده‌های خام دسترسی داشته باشید؟
+
+راهنمای [کجا داده‌ها را به دست آوریم](/fa/osm-data/getting-data/) و [چگونه از Geofabrik و خروجی HOT استفاده کنیم](/fa/osm-data/geofabrik-and-hot-export/)  نکاتی را برای چگونگی استخراج داده‌ها در قالبهای مختلف از پایگاه داده ارائه می‌کنند.

@@ -2,7 +2,7 @@
 layout: doc-rtl
 permalink: /fa/hot-tips/
 lang: fa
-title: HOT Tips - Getting started for new mappers - iD editor
+title: ترفندهای HOT - شروع به کار به عنوان نقشه‌کش جدید - ویرایشگر iD
 category: hot-tips
 cover: yes
 nosearch: true
@@ -15,7 +15,7 @@ This series of short guides is aimed at volunteers helping to map for Aid Agenci
 
 Use the menu to choose the order that suits you.  
 
-See also  
+همچنین ببینید  
 ---------
 
 [![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  

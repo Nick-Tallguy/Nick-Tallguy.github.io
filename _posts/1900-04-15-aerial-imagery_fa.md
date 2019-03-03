@@ -9,8 +9,8 @@ category: josm
 تصاویر ماهواره ای
 ================
 
-> This guide may be downloaded as [aerial-imagery_en.odt](/files/aerial-imagery_en.odt) or [aerial-imagery_en.pdf](/files/aerial-imagery_en.pdf)  
-> Reviewed 2015-09-21  
+> این راهنما را می‌توان به صورت [aerial-imagery_fa.odt](/files/aerial-imagery_fa.odt) یا [aerial-imagery_fa.pdf](/files/aerial-imagery_fa.pdf) دانلود کرد.  
+> تاریخ بازبینی ۱۳۹۴/۰۶/۳۰  
 
 Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
 
@@ -34,12 +34,12 @@ Aerial imagery is the same, except that we usually talk about resolution differe
 
 ![Comparison of low and high resolution imagery][]
 
-The higher the resolution of an aerial image, the easier it is to use in making maps.  
+هرچه دقت وضوح تصویر هوایی بالاتر باشد استفاده از آن برای کشیدن نقشه راحتتر است.  
 
  زمین مرجع (ژئورفرنس) کردن
 ---------------
 
-Each pixel of an aerial photograph has a size, and each pixel also has a location. As we mentioned above, this is because aerial photographs are georeferenced.  
+هر پیکسل یک تصویر هوایی یک اندازه‌ و یک موقعیت جغرافیایی دارد،‌  همانطور که در بالا ذکر شد، علت این امر این است که تصاویر هوایی ژئورفرنس شده‌اند.  
 
 Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
 

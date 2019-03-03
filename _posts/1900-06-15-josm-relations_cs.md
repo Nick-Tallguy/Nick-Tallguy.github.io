@@ -14,7 +14,7 @@ Relace
 
 V kapitole [Příručka pro začátečníky](/cs/beginner) jsme si vysvětlili, že existují tři typy objektů, které můžete zakreslit do OpenStreetMap - body (uzly), přímky (cesty) a polygony (uzavřené cesty). Přímky obsahují několik bodů a atributy, které definují to, co reprezentují. Polygony jsou vpodstatě přímky, jen na rozdíl od nich musí končit tam kde začaly, aby vytvořili nějaký tvar.  
 
-V podstatě jsme vám lhali, protože existuje ještě jeden typ objektu v OpenStreetMap a ten se nazývá relations. Stejně jako přímka obsahuje
+V podstatě jsme vám lhali, protože existuje ještě jeden typ objektu v OpenStreetMap a ten se nazývá relace. Stejně jako přímka obsahuje
 body, tak se relace skládá ze skupiny objektů (bodů, přímek či polygonů). Pokud se chcete dostat na vyšší úroveň editačních schopností, tak je důležité pochopit relace a vědět jak je správně upravovat.  
 
 Představte si, že chcete mapovat budovu, která má uprostřed nádvoří. Potřebujete nakreslit polygon kolem vnějších stěn budovy a chtěli byste, aby polygon ohraničující nádvoří nebyl součástí budovy. Toto je příklad relace. Ralace může obsahovat několik polygonů - a atributy budovy by měli být spojené s relací, nikoliv s polygony.  
@@ -40,7 +40,7 @@ Pojďme si ukázat, jak vytvořit relaci v multipolygonu podobném tomu níže.
 
 ![New mp object][]
 
-- Klikněte na tlačítko Upravit.  
+- Klikněte na tlačítko *Upravit* (Edit).  
 
 - Objeví se okno editoru relací. Je poněkud komplexní, protože přidáváte tagy do skupiny cest.  
 
@@ -68,7 +68,7 @@ Multipolygony se používají pro komplexní objekty, které vyžadují vnitřn�
 Relace u cest
 ----------------
 
-Relace jsou taktéž velmi užitečné pro zobrazení dlouhých tras. Například autobusová či cyklistická trasa se skládá z ruzných segmentů cesty. K definice takové trasy můžeme vytvořit relaci, která obsahuje všechny segmenty cest tvoříci trasu. Další funkce, jako třeba autobusová zastávka, mohou být taktéž členem relace trasy.  
+Relace jsou taktéž velmi užitečné pro zobrazení dlouhých tras. Například autobusová či cyklistická trasa se skládá z různých segmentů cest. K definice takové trasy můžeme vytvořit relaci, která obsahuje všechny segmenty cest tvoříci trasu. Další vlastnosti, jako třeba autobusové zastávky, mohou být taktéž členem relace trasy.  
 
 ![Route relation][]
 
@@ -85,12 +85,12 @@ Pojďme si vytvořit relaci pro autobusovou trasu v JOSM:
 
 Je důležité vybrat specifický typ trasy z rozbalovacího menu. Pro trasu autobusu jsou dostupné dvě varianty - autobus a trolejbus. Můžete také přidat jméno, referenční číslo, odkud a kam jezdí.
 
-- Klikněte na tlačítko "Nová relace". Objeví se relační okno, stejně jako při vytváření multipolygonu.  
+- Klikněte na tlačítko *Nová relace* (New ralation). Objeví se relační okno, stejně jako při vytváření multipolygonu.  
 
 ![Bus route relation][]
 
-- Všimněte si předvyplněných tagů, které definují relaci jako route (trasu). Místo *type=multipolygon*, máme *type=route*. Máme zde také tag definující ji jako autobusovou trasu, narozdíl od jiného druhu trasy.  
-- Možná teď přemýšlíte, jaké by měli být **role** členů? V případě trasy není potřeba definovat role členů.    Když ponecháte pole rolí prázdné, program ví, že jsou prostě částí trasy. Můžeme u každého segmentu definovat roli jako **route**, ale není to nutné.  
+- Všimněte si předvyplněných tagů, které definují relaci jako route (trasu). Místo *type=multipolygon*, je *type=route*. Máme zde také tag definující ji jako autobusovou trasu, narozdíl od jiného druhu trasy.  
+- Možná teď přemýšlíte, jaké by měli být **role** členů? V případě trasy není potřeba definovat role členů. Když ponecháte pole rolí prázdné, program prostě ví, že se jedná o část trasy. Můžeme u každého segmentu definovat roli jako **route**, ale není to nutné.  
 - Klikněte na OK a vaše relace trasy je kompletní!  
 
 > Pokud chcete seznam všech relací na mapě, můžete si otevřít panel relací kliknutím na toto tlačítko v levé části okna: ![relation panel button][]{: height="30px"}. Otevře se panel, ve kterém si můžete vybrat, upravit nebo vytvořit nové relace.  
@@ -98,7 +98,7 @@ Je důležité vybrat specifický typ trasy z rozbalovacího menu. Pro trasu aut
 Shrnutí
 -------
 
-Porozumět relacím může být obtížné a není potřeba je používat často, ale je důležité o nich vědět. Když si uvědomíte, že potřebujete relaci ke korektnímu zmapování nějakého objektu, tak víte, že existuje a informace k jejímu vytvoření najdete v OSM Wiki.
+Porozumět relacím může být obtížné a není potřeba je používat často, ale je důležité o nich vědět. Když si uvědomíte, že potřebujete relaci ke korektnímu zmapování nějakého objektu, tak si na ni vzpomenete a informace k jejímu vytvoření najdete v OSM Wiki.
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png

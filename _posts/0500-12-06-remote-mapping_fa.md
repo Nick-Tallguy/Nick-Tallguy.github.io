@@ -6,7 +6,7 @@ lang: fa
 category: coordination
 ---
 
-# HOT Remote Response Guide   
+#راهنمای واکنش از راه دور HOT   
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
@@ -15,7 +15,7 @@ category: coordination
 
 تیم بشر دوستانه OpenStreetMap که به اختصار HOT نامیده می‌شود جامعه‌ای جهانی است که داده‌های متن باز و اشتراک گزاری داده‌های آزاد را در واکنش به مسائل انسانی و در جهت توسعه اقتصادی در اختیار همگان قرار می‌دهد.  
 
-### How Remote Response Works 
+###واکنش از راه دور چگونه کار می‌کند 
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
@@ -25,7 +25,7 @@ category: coordination
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### The HOT Tasking Manager 
+###مدیریت وظایف در HOT 
 
 [مدیریت وظایف HOT](http://tasks.hotosm.org/) ابزاری متن باز است که طراحی شده تا کار نقشه‌کشی را به وظایف کوچکتر تقسیم بندی کند تا سریعتر به اتمام برسد. این ابزار نشان می‌دهد که کدام مناطق نیاز به کشیدن نقشه دارند و کدام مناطق بایستی توسط سایرین تأیید شوند. این ابزار شامل دو قسمت [کارهای نقشه‌کشی در موارد حاد](http://wiki.openstreetmap.org/wiki/HOT_activation) و [پروژه‌های بشردوستانه](http://hot.openstreetmap.org/projects) بلند مدت می‌شود.  
 
@@ -33,7 +33,7 @@ category: coordination
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
-### Editing Tools 
+### ابزارهای ویرایش 
 
 [iD](http://learnosm.org/fa/beginner/id-editor/) - یک ویرایشگر بر پایه وب است که توسط [Mapbox](www.mapbox.com) و با یک رابط کاربری بسیار کاربرپسند طراحی شده است. معمولاً به عنوان بهترین ابزار ویرایش در شروع کار از آن یاد می‌شود. می‌توانید به صفحه [آموزش تعاملی ویرایشگر iD](http://ideditor.com/) بروید تا با شیوه استفاده از آن آشنا شوید.  
 
@@ -44,19 +44,19 @@ category: coordination
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Advice & Words of Encouragement
+### توصیه‌ها و مشوق‌ها
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
-> "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
-> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
+> "توصیه می‌شود جهت تمرین از ناحیه‌ای در اطراف خودتان که آنجا را می‌شناسید شروع کنید و سعی کنید کمی ویرایش انجام دهید، مثلاْ یک ساختمان در محله خود را به روز کنید."  
+> "برخی کارها به نسبت آسانتر از بقیه هستند؛ چنانچه با یکی احساس خوبی نداشتید به راحتی آنرا لغو کنید و دیگری را امتحان کنید!" -Peter (@meetar)  
+> "چنانچه کاری را تکمیل نکردید، مشکلی نیست؛ فقط کارهایی را که انجام داده‌اید آپلود کنید و آن وظیفه را آزاد کنید تا بقیه روی آن کار کنند."  
+> "اگر تمایل دارید نمونه کیفیت کارهایی که تمام شده‌اند را ببینید، یکی از وظایف "تأیید شده" سبز رنگ را ببینید. نگران نباشید، کلیک بر روی دکمه "بازبینی کار" برای شما هیچ تعهدی برای انجام کاری ایجاد نمی‌کند - اینکار فقط آن وظیفه را قفل می‌کند انگار دارید آنرا ویرایش می‌کنید. مانند حالت معمولی، آنرا قفل کنید و وقتی که کار خود را انجام دادید به آسانی دوباره آنرا آزاد کنید." -Peter (@meetar)  
+> "گاهی تفسیر تصاویر ماهواره‌ای بسیار دشوار است اما خیلی در مورد کشیدن دقیق خطوط و شکلها نگران نباشید - کار شما توسط دیگران بازبینی و تغییر داده می‌شود و به مرور زمان بهبود می‌یابد. و به یاد داشته باشید این مناطق، مناطق بحران‌زده هستند نه محل ثبت مالیات یا مناطق انتخاباتی - این نقشه‌ها توسط کسانی که عجله دارند و در معرض خطر هستند خوانده می‌شوند. در غرب آفریقا، حتی وجود یک خط نامنظم روی نقشه هم چراغ امیدی به شمار می‌رود. در غزه، خیلی از ساختمانهایی که قبلاً کشیده شده‌اند، تخریب شده‌اند اما ما حقیقت وجودی آنها را ثبت میکنیم. دقت خوب است، اما همه چیز نیست." -Peter (@meetar)  
  
-### Other Resources 
+### سایر منابع 
 
 این راهنما از منابع آموزشی گوناگون و راهنمای کار با HOT گردآوری و خلاصه شده است. می‌توانید در لینک‌های زیر منابع آموزشی بیشتری پیدا کنید.  
 
-#### Tutorials
+###آموزش‌ها
 
 [راهنمای نقشه‌کشی از راه دور LearnOSM](http://learnosm.org/fa/coordination/remote/)- یکی از جامعترین راهنماها  
 
@@ -64,7 +64,7 @@ category: coordination
 
 [HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - نوشته شده توسط پیتر ریچاردسون (@meetar) یک داوطلب واکنش از راه دور HOT با تجربه  
 
-#### About HOT 
+###درباره HOT 
 
 [صفحه ویکی HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)- درباره چگونگی عملکرد HOT بیشتر بیاموزید و آخرین اخبار آنها را ببینید  
 

@@ -17,7 +17,7 @@ category: hot-tips
 
 این ماژول جهت تغییر شفافیت تصاویر ماهواره ایی به منظور آسان کردن تشخیص رنگها به کار می رود، اما نصب افزونه Stylish در مرورگرهای فایرفاکس و کروم را نیز پوشش میدهد که اجازه میدهد تا طیفهای رنگی مختلفی نصب شوند.  
 
-Changing the colours of traced buildings may make it easier when working in an area with red roofed buildings, or another red backround.  
+تغییر دادن رنگ ساختمانهای رسم شده جاهایی که رنگ سقف ساختمانها قرمز است و یا پس‌زمینه قرمز وجود دارد، کار را تسهیل می‌کند.   
 
 افزونه های دیگری نیز وجود دارند. 
 
@@ -32,16 +32,16 @@ Changing the colours of traced buildings may make it easier when working in an a
 1. بر روی منو کلیک کنید .  
 ![Stylish-1]{: height="100px"}
 
-2.  Select "Add-ons"  
+2. "افزونه‌ها (Add-ons)" را انتخاب کنید  
 ![Stylish-2]{: height="348px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. دنبال گزینه stylish بگردید که در این تصویر اولین مورد لیست است،  
 ![Stylish-3][]
 
 4. نصب و شروع مجدد.  
 ![Stylish-4][]
 
-5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.
+5.  سایت <http://www.openstreetmap.org/> را ببینید و بر روی آیکن Stylish که در منوبار مرورگرتان وجود دارد کلیک کنید. هر افزونه مفید و دلخواه را انتخاب و نصب کنید و سپس آنها را بر حسب لزوم از آیکن Stylish فعال کنید.
 ![Stylish-5][]
 
 6.  ساختمانهای رسم شده را صورتی کنید  
@@ -57,7 +57,7 @@ Changing the colours of traced buildings may make it easier when working in an a
 2.  **افزونه ها** را انتخاب کرده و سپس **افزونه های بیشتری را بگیرید** انتخاب کنید  
 ![Stylish-chrome-2]{: height="248px"}
 
-3.  Search for stylish - first one in the list in the screenshot,  
+3. دنبال گزینه stylish بگردید که در این تصویر اولین مورد لیست است،  
 ![Stylish-chrome-3][]
 
 4. نصب.  

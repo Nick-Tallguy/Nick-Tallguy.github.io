@@ -7,7 +7,7 @@ cover: بله
 category: resources
 ---
 
-# Other Resources
+# سایر منابع
 
 > Reviewed 2018-02-24
 
@@ -16,7 +16,7 @@ This is a commented list of pointers to other websites which we consider useful.
   * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
 
 
-## Editing
+## ویرایش
 
 ### iD
 
@@ -32,15 +32,15 @@ This is a commented list of pointers to other websites which we consider useful.
   * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university
   * [developmentSEED guide for Mapathons](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) This document is based on a talk at a State of the Map conference about how to organize and run a mapathon
 
-### Checklists for planning
+### چک لیست برنامه ریزی
 
   * [MapGive checklist for an event](https://mapgive.state.gov/box/#resources&event-checklist)
 
-### Handouts 
+### اعانه 
 
   * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
 
-## Statistics
+## آمار
 
   * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
   * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide

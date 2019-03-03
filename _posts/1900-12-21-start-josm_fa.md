@@ -1,6 +1,6 @@
 ---
 layout: doc-rtl
-title: شرو به کار با JOSM
+title: شروع به کار با JOSM
 permalink: /fa/josm/start-josm/
 lang: fa
 category: josm
@@ -62,8 +62,8 @@ JOSM را نصب کنید
   منوی شروع در گوشه سمت راست رایانه رفته و بر روی 
   برنامه JOSM کلیک کنید.
 شاید پنجره‌ای در ابتدای برنامه ببینید که از شما می‌خواهد که 
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
+  برنامه را به‌روز کنید. نیازی ندارید که اینکار را بکنید چون فعلاْ برنامه به‌روز می‌باشد.
+  دکمه "لغو (Cancel)" را بزنید. چنانچه می‌خواهید دیگر این
   پیغام را نبینید، قبل از زدن “Cancel” مربع پائین را علامت بزنید.
 وقتی که JOSM شروع می‌شود، ظاهری اینچنینی دارد:
 
@@ -112,8 +112,8 @@ OK را بزنید.
 
   ![Sample file][]
 
-- You will use these data in order to try various editing techniques.
-  *You must however never upload these fictitious data to the database.*
+- از این داده‌ها برای تمرین روشهای مختلف ویرایش استفاده خواهید کرد.
+  *هیچگاه این داده‌های ساختگی را به پایگاه داده آپلود نکنید.*
 
 ###کارهای اولیه
 
@@ -244,20 +244,20 @@ OK را بزنید.
 بعد از اتمام کار نقشه خودتان را شبیه 
   نقشه نمونه‌ای که در فایل sample.osm باز کردیم، داریم.
 
-## Remove the sample layer
+### لایه تمرینی را حذف کنید
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features. 
+به محض اینکه با این روشهای ویرایش کاملاْ راحت بودید شاید بخواهید که 
+توجه خود را به کشیدن نقشه عوارض واقعی معطوف کنید. 
 
-*It is very important that you first remove the layer with the sample data. 
-These data are fictitious and must not be uploaded to the OpenStreetMap 
-database (newer JOSM releases automatically prevent this).*
+*بسیار مهم است که ابتدا لایه دارای داده تمرینی را حذف کنید. 
+این داده‌ها ساختگی بوده و نباید به پایگاه داده OpenStreetMap آپلود شوند. 
+(نسخه‌های جدیدتر JOSM به طور خودکار از این کار جلوگیری می‌کنند)*
 
-In the Layers window on the upper right of the screen select the sample.osm layer. 
-Then click on the trash can icon in the lower right corner of that window. 
-Alternatively you can choose delete from the context menu of the layer. 
-In order to continue editing you first need to download real data. 
-This will be explained in the next chapter.
+در پنجره لایه‌ها در گوشه سمت راست بالای صفحه لایه sample.os را انتخاب کنید. 
+سپس روی آیکون سطل آشغال در گوشه پایین و راست آن پنجره کلیک کنید. 
+همچنین می‌توانید از منوی کلیک راست لایه آنرا پاک کنید. 
+برای ادامه ویرایش ابتدا نیاز است که داده واقعی را دانلود کنید. 
+این مورد در فصل بعد توضیح داده می‌شود.
 
 خلاصه
 -------
