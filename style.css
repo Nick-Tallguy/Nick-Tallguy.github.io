@@ -6,12 +6,13 @@
 @media print {
   div.print-watermark {
     position: fixed;
+    z-index: -10;
     top: 0;
     right: 0;
   }
   div.doc-content {
     position: relative;
-    margin-top: 25px;
+    padding-top: 25px;
   }
 }
 
