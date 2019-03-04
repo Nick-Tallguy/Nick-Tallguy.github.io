@@ -2,9 +2,6 @@
   div.print-watermark {
     display: none;
   }
-  div.space-watermark {
-    display: none;
-  }
 }
 @media print {
   div.print-watermark {
@@ -12,12 +9,6 @@
     position: fixed;
     top: 0;
     right: 0;
-  }
-  div.space-watermark {
-    margin-bottom: 25px;
-  }
-  img {
-    border: none;
   }
 }
 
@@ -200,13 +191,9 @@ small {
 img {
   display: span;
   max-width:480px;
-  border:1px solid #ddd;
   background: #fff;
   padding:3px;
   margin:2px 0;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
   transition: all 200ms linear;
   -moz-transition: all 200ms linear;
   -webkit-transition: all 200ms linear;
