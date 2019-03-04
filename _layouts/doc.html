@@ -64,7 +64,9 @@ layout: default
   <div class='print-watermark'>
     <img src="{{site.baseurl}}/img/watermark.png">
   </div>
-  {{content}}           <!-- ...first the contents of the current document -->
+  <div class='doc-content'>
+    {{content}}           <!-- ...first the contents of the current document -->
+  </div>
   {% if page.cover %}   <!--    then the 'return to top' button and and our call for feedback -->
     <div class='getstarted'>
       <span><a class='start rounded'>{{site.translations[page.lang].getstarted}}</a></span>
