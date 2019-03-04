@@ -5,10 +5,12 @@
 }
 @media print {
   div.print-watermark {
-    border: none;
     position: fixed;
     top: 0;
     right: 0;
+  }
+  div.doc-content {
+    top-margin: 25px;
   }
 }
 
