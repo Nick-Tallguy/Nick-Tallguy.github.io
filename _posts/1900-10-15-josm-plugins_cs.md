@@ -18,7 +18,7 @@ V této části si ukážeme, jak na instalaci doplňků a některé z nejužite
 
 Instalace doplňků
 -------------------
-Kdykoli chcete nainstalovat nový doplňek, přejděte na *Předvolby \> Nastavení předvoleb* a klikněte na záložku *Nastavení doplňků JOSM*.  
+Kdykoliv chcete nainstalovat nový doplňek, přejděte na *Předvolby ‣ Nastavení předvoleb* a klikněte na záložku **Nastavení doplňků JOSM**.  
 
 ![Plugins][]
 

@@ -24,7 +24,7 @@ Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coor
 [ساختمانها، دیواره‌ها، نرده‌ها، ترکیبها و موانع](/fa/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 
-## راه‌ها
+##  راه‌ها
 
 Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
 
@@ -33,7 +33,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 دانستن اینکه سطح جاده آسفالت یا خاک نرم است در برنامه‌ریزی مسیر شما تأثیر خواهد گذاشت.
 - زمانی که شیوع یک بیماری را بررسی می‌کنید، توصیف اینکه یک مصدوم  "نزدیک صلیب سرخ" می‌باشد بسیار مهم است اگر بتوانید صلیب سرخ را بر روی نقشه ببینید.
 
-### راه‌ها - چگونه نقشه بکشیم
+###  راه‌ها - چگونه نقشه بکشیم
 
 ![iD 3][]
 
