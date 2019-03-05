@@ -1,9 +1,19 @@
 @page :left {
-    margin-left: 2cm;
+    margin-right: 0.8cm;
+    div.print-watermark {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
 }
 
 @page :right {
-    margin-right: 0.8cm;
+    margin-left: 2cm;  
+    div.print-watermark {
+        position: fixed;
+        top: 0;
+        right: 2cm;
+    }
 }
 
 p a {
