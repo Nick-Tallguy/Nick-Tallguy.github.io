@@ -1,38 +1,38 @@
 ---
 layout: doc
-title: JOSM Conflict Resolution
+title: JOSM Řešení konfliktů
 permalink: /cs/josm/josm-conflict-resolution/
 lang: cs
 category: josm
 ---
 
-JOSM Conflict Resolution
+JOSM Řešení konfliktů
 ====================
 
-> This guide may be downloaded as [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) or [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
-> Zkontrolováno 2016-09-27  
+> Tento návod můžete stáhnout jako [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) nebo [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
+> Zkontrolováno 27.9.2016  
 
-Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
+Někdy pracujete v JOSM a při nahrávání všech těch skvělých změn dostanete nepříjemnou zprávu stěžující si na konflikt.  
 ![conflict detected][]  
-What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
+Došlo k tomu, že jste stáhli balík dat, které obsahovaly bod, kterému říkáme Node A (Uzel A). Pak v průběhu vaší editace, někdo jiný také stáhnul tento Uzel A, změnil ho a uložil změny zpět do OpenStreetMap. A když teď chcete nahrát vaši verzi Uzlu A, je rozdílný oproti tomu v OSM. Proto JOSM neví, kterou verzi Uzlu A by měl uložit.  
 
-Conflicts
+Konflikty
 ----------
 
-Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:  
+Někdy sám JOSM přijde na to, jak konflikt vyřešit a dá vám ho vědět podobnou zprávou:  
 ![resolved automatically][]  
-This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
+JOSM vám oznámil, že se automaticky rozhodl nenahrát data z lokálního datasetu na hlavní server, protože již byly jiným uživatelem smazány. Pro některé konflikty však neexistuje jednoznačné řešení, které by JOSM mohl provést, a tak ponechává rozhodnutí na uživateli, aby vybral nejlepší postup. Takže je na vás, jak vyřešíte daný konflikt.  
 
-This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:  
+Toto varování po vás chce abyste se podívali na všechny vaše konflikty ve Vrstvě 1 v okně **Dialog List**:  
 ![warning unresolved][]  
 
-This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
+Toto dialogové okno vás varuje, že by u vašich úprav mohlo dojít ke konfliktu. Pokud však zkontrolujete server, budete schopni opravit problémy s úpravami dřív, než vzniknou:  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+Tímto vám JOSM oznamuje, že se mu nepodařilo tento uzel odstranit, protože je součástí nějaké cesty. Aby ho bylo možné odstranit, musí se uživatel vrátit do JOSM, vyřešit konflikt a pak data znovu zkusit nahrát:  
 ![still in use][]  
 
-Conflict Resolution
+Řešení konfliktů
 --------------------
 
 The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
@@ -41,7 +41,7 @@ When you get a conflict window pop-up, it is best to choose the button “Synchr
 ![synchronize node][]  
 Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
 
-**Types of Conflict:**
+**Typy konfliktů:**
 
 - **Properties:**  Object has been moved (coordinates) or deleted  
 - **Tags:**  Tags do not match  

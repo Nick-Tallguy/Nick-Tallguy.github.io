@@ -12,9 +12,9 @@ JOSM - Přidání leteckých snímků
 > Tento návod můžete stáhnout jako [josm_adding_imagery_en.odt](/files/josm_adding_imagery_en.odt) nebo [josm_adding_imagery_en.pdf](/files/josm_adding_imagery_en.pdf)  
 > Zkontrolováno 9.9.2016  
 
-Všechny letecké snímky nejsou součástí menu **Podkladové mapy**, ale dají se jednoduše přidat, pod na ně máte odkaz.  
+Všechny letecké snímky nejsou součástí menu **Podkladové mapy**, ale dají se jednoduše přidat, pokud na ně máte odkaz.  
 
-V tomto příkladu pracujeme v [HOT Tasking Manager](http://tasks.hotosm.org/) a snímky potřebné k dokončení jednoho projektu je potřeba manuálně stáhnout do JOSM. Princip přidání odkazu na snímek je vždy stejný, ať pracujete na čemkoliv, u čeho je odkaz na snímky k dispozici. Stává se, že poskytnutý odkaz nefunguje a je nutné snímky přidat manuálně, ale musíte být schopni získat informace k odkazu.  
+V tomto příkladu pracujeme v [HOT Tasking Manager](http://tasks.hotosm.org/) a snímky potřebné k dokončení jednoho projektu je potřeba manuálně stáhnout do JOSM. Princip přidání odkazu na snímek je vždy stejný, ať pracujete na čemkoliv, u čeho je odkaz na ně k dispozici. Stává se, že poskytnutý odkaz nefunguje a je nutné snímky přidat manuálně, ale musíte být schopni získat informace k odkazu.  
 
 Ze záložky **Instrukce** v Tasking Manageru, nebo jiného vašeho zdroje informací, zkopírujte všechno ze sekce **Mapový podklad**.  
 
@@ -24,16 +24,16 @@ Jděte do nabídky **Předvolby** (**Upravit / Předvolby**, nebo na počítač�
 
 ![Preferences WMS TMS 1][]
 
-Klikněte na ikonu ![WMS_TMS_button][]{: height="24px"}, a v tomto případě dále na ikonu ![+TMS_button][]{: height="24px"} icon.  
+Klikněte na ikonu ![WMS_TMS_button][]{: height="24px"}, a v tomto případě dále na ikonu ![+TMS_button][]{: height="24px"}.  
 
 > TMS URL adresy obsahují obvykle (x)(y) a (z), WMS URL adresy jsou velmi dlouhé a obsahují (width) a (height), WMTS URL adresy zahrnují WMTSCapabilities.xml. Pokud si nejste jistí, který máte typ URL adresy snímků, zkuste je přidat pod různými typy a uvidíte, který bude fungovat.  
 
 ![Preferences WMS TMS 3][]
 
-**Box 1.** Informace zkopírované z Tasking Managera vložte do prvního okýnka v dialogovém okně. JOSM je ověří a pokud jsou správné, ověřovací proces je zkopíruje do okýnka číslo 3 (můžete vidět na obrázku níže). Pokud informace nezkopíruje během pár vteřin, zkontrolujte je, zda jste nezapoměli na nějaké písmenko nebo náhodou nepřidali tzv. 'bílý znak' (prázdné místo) na začátek nebo konec - musíte zkopírovat a vložit pouze samotný odkaz.  
-**Box 2.** Obvykle zůstává prázdné, pokud neobdržíte další pokyny.  
-**Box 3.** nyní obsahuje kopii Box 1, vygenerovanou ověřovacím procesem JOSM.  
-**Box 4.** Vložte název vrstvy - jelikož byly mé snímky v Tasking Manager identifikovány jako "Satelitní snímky pro tento projekt laskavě dodává společnost Digital Globe prostřednictvím své služby +Vivid." Pojmenoval jsem moji vrstvu "Digital Globe + Vivid".  
+**Pole 1.** Informace zkopírované z Tasking Managera vložte do prvního okýnka v dialogovém okně. JOSM je ověří a pokud jsou správné, ověřovací proces je zkopíruje do okýnka číslo 3 (můžete vidět na obrázku níže). Pokud informace nezkopíruje během pár vteřin, zkontrolujte je, zda jste nezapoměli na nějaké písmenko nebo náhodou nepřidali tzv. 'bílý znak' (prázdné místo) na začátek nebo konec - musíte zkopírovat a vložit pouze samotný odkaz.  
+**Pole 2.** Obvykle zůstává prázdné, pokud neobdržíte další pokyny.  
+**Pole 3.** Nyní obsahuje kopii Box 1, vygenerovanou ověřovacím procesem JOSM.  
+**Pole 4.** Vložte název vrstvy - jelikož byly mé snímky v Tasking Manager identifikovány jako *Satelitní snímky pro tento projekt laskavě dodává společnost Digital Globe prostřednictvím své služby +Vivid.* Pojmenoval jsem moji vrstvu **Digital Globe + Vivid**.  
 
 ![Preferences WMS TMS 4][]
 
@@ -52,26 +52,26 @@ Tlačítkem ![OK_button][]{: height="24px"} zavřete okno předvoleb a vrátíte
 Přidání WMS serveru
 ===========
 
-Přidání WMS serveru je velmi podobné přidávání TMS serveru, s jedným podstatným rozdílem. WMS servery typicky poskytují více než jednu vrstvu snímků, ze kterých si můžete vybrat a buď si vyberete vrstvu při přidávání WMS serveru v předvolbách, nebo nastavíte možnost, že si výběr vrstvy necháte až na chvíli, kdy si vyberete daný server z nabídky **Mapové podklady** v hlavním menu JOSM.
+Přidání WMS serveru je velmi podobné přidávání TMS serveru, s jedním podstatným rozdílem. WMS servery typicky poskytují více než jednu vrstvu snímků, ze kterých si můžete vybrat a buď si vyberete vrstvu při přidávání WMS serveru v předvolbách, nebo nastavíte možnost, že si výběr vrstvy necháte až na chvíli, kdy si vyberete daný server z nabídky **Mapové podklady** v hlavním menu JOSM.
 
 Pokud chcete přidat WMS server, otevřete nastavení mapových podkladů, které jste mohli vidět výše, ale tentokrát klikněte na tlačítko **Vložte novou položku WMS...** ![wms_add_button][]
 
 Vyskočí toto dialogové okno:
 ![wms_entry_dialog_numbered][]
 
-**Box 1.** Vložte URL WMS serveru do políčka. Typická URL adresa začíná na http nebo https  
+**Pole 1.** Vložte URL WMS serveru do textového pole. Typická URL adresa začíná na http nebo https  
 **Tlačítko 2.** Po vložení URL klikněte na tlačítko **Získat vrstvy**. JOSM kontaktuje WMS server a získá seznam vrstev dostupných na serveru  
-**Box 3.** Tady se zobrazí daný seznam dostupných vrstev. Měli by tam být adresáře, které je potřeba rozkliknout k zobrazení dostupných vstev  
-**Rozbalovací nabídka 4.** Formát obrázků - obvykle se automaticky vybere hned po zvolení jedné z vrstev v **Box 3**. Může zde být výběr z více formátů, ale obvykle je to jpeg nebo png.  
-**Box 5.** Název se generuje automaticky po zvolení vrstvy v **Box 3**. Bude dlouhý a komplikovaný, obvykle je použitelný, obsahuje dostatek informací a většinou není potřeba ho měnit.  
-**Box 6.** Sem vložte název serveru nebo vrstvy. Výchozí název je předvyplněný na základě URL, ale můžete si zvolit mnohem smysluplnější. Tento název hledejte v nabídce **Podkladové mapy**, když si budete přidávat vrstvu do panelu vrstev v rozhraní JOSM.  
+**Pole 3.** Tady se zobrazí daný seznam dostupných vrstev. Měli by tam být adresáře, které je potřeba rozkliknout k zobrazení dostupných vstev  
+**Rozbalovací nabídka 4.** Formát obrázků - obvykle se automaticky vybere hned po zvolení jedné z vrstev v textovém poli **Pole 3**. Může zde být výběr z více formátů, ale obvykle je to jpeg nebo png.  
+**Pole 5.** Název se generuje automaticky po zvolení vrstvy v textovém poli **Pole 3**. Bude dlouhý a komplikovaný, obvykle je použitelný, obsahuje dostatek informací a většinou není potřeba ho měnit.  
+**Pole 6.** Sem vložte název serveru nebo vrstvy. Výchozí název je předvyplněný na základě URL, ale můžete si zvolit mnohem smysluplnější. Tento název pak budete hledat v nabídce **Podkladové mapy**, když si budete přidávat vrstvu do panelu vrstev v rozhraní JOSM.  
 
 > Ukázkový WMS server se spoustou zajímavých vrstev: http://sedac.ciesin.columbia.edu/geoserver/wms  
 
 ![wms_select_layer_highlighted][]  
-Zkontrolujte si, jestli máte vybranou nějako vrstvu, kterou chcete vždy z nabídky Podkladové mapy načíst. V ukázce výše, když je tento server vybrán z nabídky Podkladové mapy, tak se vždy načte vrstva "World Database of Protected Areas".
+Zkontrolujte si, jestli máte vybranou nějako vrstvu, kterou chcete vždy z nabídky Podkladové mapy načíst. V ukázce výše, když je tento server vybrán z nabídky **Podkladové mapy**, tak se vždy načte vrstva *World Database of Protected Areas*.
 
-Pokud si však chcete zvolit vrstvu, která bude načtena, po každém výběru tohoto serveru z nabídky Mapové podklady a mít možnost načíst si jednoduše několik vrstev z uloženého serveru, tak si zaškrtněte políčko u Uložit pouze základní adresu WMS, vrstvy vybrat až při jeho použití. Tím se také znemožní výběr vrstvy a pole ověření URL.
+Pokud si však chcete vrstvu z tohoto serveru manuálně vybírat při každém jeho načtení a mít možnost načíst si i více vrstev, tak si zaškrtněte políčko **Uložit pouze základní adresu WMS, vrstvy vybrat až při jeho použití**. Tím se také znemožní výběr vrstvy a pole ověření URL zešedne.
 
 ![wms_end_point_only_highlighted][]  
 

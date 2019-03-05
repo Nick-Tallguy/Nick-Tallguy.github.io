@@ -11,11 +11,11 @@ category: coordination
 ![HotGuideLogo](/images/hot-logo.png)
 
 > Ce guide peut être téléchargé : [humanitarian_fr.odt](/files/humanitarian_fr.odt) ou [humanitarian_fr.pdf](/files/humanitarian_fr.pdf)  
-> Reviewed 2015-09-18
+> Examiné le 18-09-2015
 
-Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
+Merci pour l'aide que vous apportez bénévolement aux communautés locales et aux organisations humanitaires qui répondent à cette crise en leur fournissant des données cartographiques à jour.  
 
-Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce.  
+Comme vous, nous souhaitons aider aussi vite que possible et il y a une véritable urgence dans nos actions. Mais, la raison pour laquelle les organisations humanitaires dépendent de nous est parce que nous prenons le temps de nous assurer que ce que nous produisons est utile et correspond à leurs besoins. Vous devez vous aussi faire attention. Bien que cela vous retarde au début dans votre mise à jour de la carte, nous avons besoin que vous compreniez comment et quoi cartographier avant de démarrer. Ne vous précipitez pas et ne commencez pas à cartographier sans regarder ni lire certains des tutoriels disponibles d'abord. Cela nous demande plus de temps de nettoyer des erreurs que cela n'en prend pour les créer, et elles peuvent susciter des doutes quant à la pertinence d'utiliser les cartes que nous produisons.  
 
 We are constantly updating our software & training guides, but it does take time. The software in the Tasking Manager will be updated soon so that only experienced people can review mapping work and mark it as "validated", but at the moment we ask that the "validation" process be left for the most experienced mappers - please keep mapping and you will become one of our mapping validators in the future. **If you select a task square and the green button says 'Review the work' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
 
