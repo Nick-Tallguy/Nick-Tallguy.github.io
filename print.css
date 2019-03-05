@@ -1,9 +1,9 @@
 @page :left {
-    margin: 2cm;
+    margin-left: 2cm;
 }
 
 @page :right {
-    margin: 0.8cm;
+    margin-right: 0.8cm;
 }
 
 p a {
