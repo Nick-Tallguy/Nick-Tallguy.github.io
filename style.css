@@ -2,17 +2,35 @@
   div.print-watermark {
     display: none;
   }
+  div.print-pagenumber {
+    display: none;
+  }
+  div.print-watermark-reserved {
+    display: none;
+  }
+  div.print-pagenumber-reserved {
+    display: none;
+  }
 }
 @media print {
   div.print-watermark {
     position: fixed;
-    z-index: -10;
     top: 0;
     right: 0;
   }
   div.doc-content {
     position: relative;
     padding-top: 25px;
+  }
+  div.print-pagenumber {
+    position: fixed;
+    bottom: 0;
+  }
+  div.print-watermark-reserved {
+    height: 30px;
+  }
+  div.print-pagenumber-reserved {
+    height: 20px;
   }
 }
 
