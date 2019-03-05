@@ -7,6 +7,9 @@
   }
 }
 @media print {
+  div.return-to-top {
+    display: none;
+  }
   div.print-watermark {
     position: fixed;
     top: 0;
