@@ -65,9 +65,7 @@ layout: default
   <table>
     <thead>
       <tr><td>
-        <div class='print-watermark'>
-          <img src="{{site.baseurl}}/img/watermark.png">
-        </div>
+        <div class='print-watermark-reserved'> &nbsp; </div>
       </td></tr>
     </thead>
     <tbody>
@@ -92,10 +90,10 @@ layout: default
         {% endunless %}
       </td></tr>
     </tbody>
-    <tfoot>
-      <div class='print-pagenumber'> &nbsp; </div>
-    </tfoot>
   </table>
+</div>
+<div class='print-watermark'>
+<img src="{{site.baseurl}}/img/watermark.png">
 </div>
 
 <script>
