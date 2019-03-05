@@ -1,11 +1,3 @@
-@page :left {
-    margin-right: 0.8cm;
-}
-
-@page :right {
-    margin-left: 2cm;  
-}
-
 p a {
     word-wrap: break-word;
 }
