@@ -10,11 +10,6 @@
   div.return-to-top {
     display: none;
   }
-  div.print-watermark {
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
   div.doc-content {
     position: relative;
     padding-top: 25px;
