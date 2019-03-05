@@ -4,20 +4,20 @@ p a {
 
 h1, h2, h3, h4, h5, h6 { 
     page-break-after:avoid; 
-    page-break-inside:avoid 
+    page-break-inside:avoid; 
 }
 
 a {
-    page-break-inside: avoid
+    page-break-inside: avoid;
 }
 blockquote {
     page-break-inside: avoid;
 }
 pre { 
-    page-break-inside: avoid 
+    page-break-inside: avoid; 
 }
 ul, ol, dl  { 
-    page-break-before: avoid 
+    page-break-before: avoid; 
 }
 
 html {
