@@ -79,7 +79,7 @@ pracovat v jiném.
 
 - Chcete-li otevřít okno Předvolby, kliknout na Upravit -\> Předvolby.
 
-  ![Preferences window][]
+  ![Preferences window][]<img src="https://drive.google.com/open?id=1e8T3yLQdqTID5Jca4cviXUrnJ6walZ4j" alt="Předvolby">
 
 - Na levé straně kliknout na ikonu, která vypadá jako kbelík barvy a
   štětec.

@@ -14,16 +14,16 @@ JOSM Řešení konfliktů
 
 Někdy pracujete v JOSM a při nahrávání všech těch skvělých změn dostanete nepříjemnou zprávu stěžující si na konflikt.  
 ![conflict detected][]  
-Došlo k tomu, že jste stáhli balík dat, které obsahovaly bod, kterému říkáme Node A (Uzel A). Pak v průběhu vaší editace, někdo jiný také stáhnul tento Uzel A, změnil ho a uložil změny zpět do OpenStreetMap. A když teď chcete nahrát vaši verzi Uzlu A, je rozdílný oproti tomu v OSM. Proto JOSM neví, kterou verzi Uzlu A by měl uložit.  
+Došlo k tomu, že jste stáhli balík dat, který obsahovl bod, kterému říkáme Node A (Uzel A). Pak v průběhu vaší editace, někdo jiný také stáhnul tento Uzel A, změnil ho a uložil změny zpět do OpenStreetMap. A když teď chcete nahrát vaši verzi Uzlu A, je rozdílný oproti tomu v OSM. Proto JOSM neví, kterou verzi Uzlu A by měl uložit.  
 
 Konflikty
 ----------
 
-Někdy sám JOSM přijde na to, jak konflikt vyřešit a dá vám ho vědět podobnou zprávou:  
+Někdy sám JOSM přijde na to, jak konflikt vyřešit a dá vám to vědět podobnou zprávou:  
 ![resolved automatically][]  
-JOSM vám oznámil, že se automaticky rozhodl nenahrát data z lokálního datasetu na hlavní server, protože již byly jiným uživatelem smazány. Pro některé konflikty však neexistuje jednoznačné řešení, které by JOSM mohl provést, a tak ponechává rozhodnutí na uživateli, aby vybral nejlepší postup. Takže je na vás, jak vyřešíte daný konflikt.  
+JOSM vám oznámil, že se automaticky rozhodl nenahrát data z lokálního datasetu na hlavní server, protože již byly jiným uživatelem smazány. Pro některé konflikty však neexistuje jednoznačné řešení, které by JOSM mohl provést, a tak ponechá rozhodnutí na uživateli, aby vybral nejlepší postup. Takže je na vás, jak vyřešíte daný konflikt.  
 
-Toto varování po vás chce abyste se podívali na všechny vaše konflikty ve Vrstvě 1 v okně **Dialog List**:  
+Toto varování po vás chce, abyste se podívali na všechny vaše konflikty ve vrstvě **Data Layer 1**:  
 ![warning unresolved][]  
 
 Toto dialogové okno vás varuje, že by u vašich úprav mohlo dojít ke konfliktu. Pokud však zkontrolujete server, budete schopni opravit problémy s úpravami dřív, než vzniknou:  
@@ -35,48 +35,48 @@ Tímto vám JOSM oznamuje, že se mu nepodařilo tento uzel odstranit, protože 
 Řešení konfliktů
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
+Proces řešení konfliktů je docela jednoduchý, ikdyž z počátku bude se může zdát poněkud matoucím. Vpodstatě u každého konfliktu vám JOSM dá na výběr ze dvou možností - vaši verzi objektu a verzi na serveru. Musíte si vybrat zda zachovat vaši verzi, nebo ponechat novou verzi na serveru.  
+Možná si říkáte: *Jistěže moje verze, je lepší!* A třeba máte pravdu. Ale vzpomeňte si na náš příklad z úvodu kapitoly. Zatímco jste editoval, jiný maper přidal spoustu informací k nějakému uzlu ve vašem souboru dat. Když vyberete svoji verzi, ztratí se všechny hodnotné informace, které přidal někdo jiný. Proto byste měli zvážit ponechání jejich verze, nebo sloučení obou verzí.  
+Když se vám objeví dialogové okno konfliktu, nejlepším řešení je tlačítko **Synchronizovat pouze...**. Možná to bude potřeba udělat u více objektů, ale je dobré vyřešit konflikty jednou pro vždy.  
 ![synchronize node][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+Jakmile kliknete na toto tlačítko, objeví se další okno s detailní informací o konfliktu. Chybová zpráva možná vypadá složitě, ale vpodstatě je jednoduchá. Typ konfliktu se dozvíte v záložce s červeným čtverečkem. Náš ukázkový konflikt poukazuje na vlastnosti, lokaci a existenci objektu. Proto jsou v seznamu vypsány souřadnice a stav smazání.  
 
 **Typy konfliktů:**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
-- **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
+- **Vlastnosti:**  Objekt byl přesunut (souřadnice) nebo smazán  
+- **Značky:**  Značky nesouhlasí  
+- **Uzly:**  Nesouhlasí seznam uzlů u dvou cest  
+- **Členové:**  Nesouhlasí seznam členů v relaci  
 ![properties with conflicts][]  
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+Konflikty se objeví pouze při současné editaci dvěma mapery. Pokud se dojde ke třem a více konfliktům, tak se začnou řetězit. Proto byste měli provádět výběr nebo sloučení maximálně u dvou konfliktů současně. Vybrat verzi vaši nebo někoho druhého nebo je obě sloučit.   
 
-In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
+V následujícím příkladu nemáte na výběr sloučení. Klikněte na první buňku, nebo**Moje verze**, pokud věříte, že vaše úpravy jsou správné. V opačném případě vyberte **Jejich verze**.  
 ![conflicts resolved][]  
 
-Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
+Jakmile si vyberete verzi, která je podle vás nejlepší, pak klikněte na **Aplikovat řešení**. Objeví se několik dalších oken a budete na cestě k úspěšnému nahrátí vašich úprav. Udělejte pár dalších úprav. Pak klikněte na **Nahrát**. Následuje toto dialogové okno:  
 ![command stack][]  
 
-On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
+V nabídce **Okna** máte položku **Konflikt**. Toto okno zobrazuje seznam konfliktů. Celkový počet nevyřešených konfliktů je zobrazeno v hlavičce. Kliknutím na konflikt ho vyberete nebo vyřešíte. Je to užitečné, pokud potřebujete vyřešit mnoho konfliktů.  
 ![one unresolved][]  
-You cannot upload your changes until this list is empty.  
+Úpravy nemůžete nahrát, dokud tento seznam není prázdný.  
 
-Ways to Avoid Conflicts
+Jak se vyhnout konfliktům
 ------------------------
 
-### Upload Frequently
+### Často nahrávejte změny
 
-To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
+Pro minimalizaci šance a počtu konfliktů je důležité průběžně úpravy nahrávat. Konflikty se objevují častěji u těch, kteří mají tendenci ukládat své úpravy na lokální server a do OSM je nahrávají až později. Čím větší je časový odstup od stažení dat a zpětnému nahrání změn na server, tím větší je pravděpodobnost, že někdo mezitím v dané oblasti udělal změny. Pokud jste na Mapathonu a upravujete například silnici, na které může pracovat i někdo jiný, nahrávejte změny co nejčastěji, zhruba každých 6 změn!  
 
-### Edit in the Area You Download
+### Provádějte změny jen ve stažené oblasti
 
-Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
+Úpravy pouze v oblasti, kterou jste si stáhli, minimalizují pravděpodobnost konfliktu. Dávejte pozor na úpravy mimo vaši oblast. Oblast za hranicí vámi stažené oblasti poznáte v JOSM velmi snadno, protože je tvořena diagonálními čarami.  
 
 ![edit outside area][]  
 
 Shrnutí
 --------
-When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
+Při editaci v JOSM, riskujte možnost vzniku konfliktů. Konflikty vznikají při editaci jednoho objektu dvěma lidmi v jednu chvíli. Když pochopíte, jak konflikt vzniká a jak se s ním vypořádat, budete schopni dosáhnout toho, že se ty nejlepší možné úpravy uloží do OpenStreetMap.  
 
 
 <!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE

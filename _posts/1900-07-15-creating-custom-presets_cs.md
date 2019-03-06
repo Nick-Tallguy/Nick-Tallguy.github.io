@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: JOSM - Creating Custom Presets
+title: JOSM - Tvorba vlastních předvoleb
 permalink: /cs/josm/creating-presets/
 lang: cs
 category: josm
 ---
 
-JOSM - Creating Custom Presets
+JOSM - Tvorba vlastních předvoleb
 =======================
 
 > This guide may be downloaded as [creating-presets_en.odt](/files/creating-presets_en.odt) or [creating-presets_en.pdf](/files/creating-presets_en.pdf)  
