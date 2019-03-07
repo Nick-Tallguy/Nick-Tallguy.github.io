@@ -9,123 +9,123 @@ category: josm
 JOSM - Tvorba vlastních předvoleb
 =======================
 
-> This guide may be downloaded as [creating-presets_en.odt](/files/creating-presets_en.odt) or [creating-presets_en.pdf](/files/creating-presets_en.pdf)  
+> Tento návod můžete stáhnout jako [creating-presets_en.odt](/files/creating-presets_en.odt) or [creating-presets_en.pdf](/files/creating-presets_en.pdf)  
 > Zkontrolováno 20.9.2015  
 
-In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  
+V [předchozí kapitole](/cs/josm/josm-presets) ja se nabídky vlastních předvoleb přidávají do JOSM. V této kapitole si vytvoříme vlastní soubor předvoleb.  
 
-WARNING! This is an advanced topic... consider yourself warned!  
+VAROVÁNÍ! Toto je téma pro pokročilé... berte toto varování na vědomí!  
 
-Introduction to XML
+Úvod do XML
 -------------------
 
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.  
+Než si vytvoříme vlastní nabídku předvoleb, nejdříve musíte porozumět tzv. jazyku XML. Pokud jej znáte, klidně přeskočte na další sekci.  
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML je zkratka pro *Extensible Mark-up Language*, počítačový jazyk podobný HTML. Hlavní rozdíl je, že XML data nese a HTML je zobrazuje. Mnoho aplikací na internetu využívá XML k přenosu dat, stejně jako OpenStreetMap. XML používá elementy a každý element může obsahovat podřízené elementy. Například si představte, že chcete vytvořit XML soubor, který obsahuje data o menu v restauraci. Musíte vytvořit křenový element, který obsahuje všechny data z našeho menu. Kořenový element má třeba takovou otevírací a uzavírací značku?
 
       <menu>
-      ... whatever data we want to include in our menu ...
+      ... jakékoliv data, které chceme zahrnout do menu...
       </menu>
 
-Information is contained inside an element, and within each element there can be more elements.  
+V elementu je uložena informace, ale také může obsahovat další elementy.    
 
       <menu>
         <item name=“Hamburger”>
           <cost>400</cost>
-          <description>Delicious beef patty</description>
+          <description>Delikátní hovězí pečeně</description>
         </item>
           <item name=“Nasi Goreng”>
           <cost>200</cost>
-          <description>Indonesian Fried Rice</description>
+          <description>Indonéská smažená rýže</description>
         </item>
       </menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+V tomto příkladu jsme vložili dva elementy &lt;item&gt; do našeho &lt;menu&gt; elementu, abychom popsali dvě různé položky v našem menu. Každá položka obsahuje dva další elementy, &lt;cost&gt; a &lt;description&gt;. Všimněte si také zápisu name=”Hamburger” uvnitř otevírací značky &lt;item&gt;.
 
 
-### XML Terminology
+### XML terminologie
 
-- **root element:** the outermost element of an XML document, which describes what is contained  
-- **element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;  
-- **tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this with OSM tags, which have a different meaning.  
-- **attribute:** a piece of information contained inside a tag, such as name=“Hamburger”  
+- **kořenový element:** hlavní element v XML dokumentu, který popisuje jeho obsah  
+- **element:** jakýkoliv XML objekt ohraničený otevírací a zavírací značkou, jako třeba &lt;item&gt; ... data ... &lt;/item&gt;  
+- **značka:** vše uzavřené v závorkách, např. &lt;item&gt;.  &lt;item&gt; je otevírací značka elementu a &lt;/item&gt; je zavírací značka. Nepleťte si to s OSM značkama, ty mají jiný význam.  
+- **atribut:** kousek informace uzavřené mezi značkami, třeba name=“Hamburger”  
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.  
+Využítí XML k ukládání a přenosu dat je skvělé, protože počítače tomuto jazyku rozumí.  
 
 
-JOSM Presets Files
+Soubory předvoleb v JOSM 
 -------------------
 
-Let's add a sample presets file into JOSM and analyze how it works.  
+Pojďme přidat ukázkový soubor předvoleb do JOSM a prozkoumejme, jak to funguje.  
 
-- Download the file [sample_presets.xml](/files/sample_presets.xml).  
-- Then load it into JOSM as described in the [previous chapter](/en/josm/josm-presets).  
-- Create a new layer and a new object.  
-- Go the the Presets menu. There will be a new item named "Sample Building." Click on it.  
+- Stáhněte si soubor [sample_presets.xml](/files/sample_presets.xml).  
+- Nahrejte ho do JOSM podle návodu v [předchozí kapitole](/cs/josm/josm-presets).  
+- Vytvořte novou vrstvu a objekt.  
+- Jděte do nabídky **Předvolby**. Bude tam nová položka **Sample Building**. Klikněte na ni.  
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+Ve formuláři, který se objevil, si všimněte, že každé pole očekává jiný typ vstupu. První *Name of Building* přijímá textové řetězce. Druhé *Building Use* má rozevírací seznam. A poslední je zaškrtávací políčko, takže může nést pouze dvě různé hodnoty, zapnuto nebo vypnuto.
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+Teď se podívejme na XML soubor, který definuje tento formulář Predvoleb.
 
-- Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad program. If you want a more easy-to-use editor, you might download the free Notepad++ application.  
-- The **sample_presets.xml** file looks like this:  
+- Nejděte tento XML soubor ve vašem počítači a otevřete ho pomocí textového editoru. Na Windows můžete použít program **Poznámkový blok**. Chcete-li snadno ovladatelný editor, můžete si zdarma stáhnout Notepad++.  
+- Soubor **sample_presets.xml** vypadá takhle:  
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+ Prozatím přeskočíme prvních 6 a poslední řádek a zaměříme se na všechno mezi značkami &lt;item&gt;.
 
-The first line looks like this:
+První řádek vypadá takto:
 
       <item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.  
+Jde o otevírací značku položky, která je přidána do nabídky. Má dva atributy - název a typ. Pod tímto názvem se položka objeví v nabídce Předvolby. Typ omezuje předvolbu na určité typy objektů. V tomto příkladu, může být předvolba aplikována pouze na body a tvary - jinými slovy uzly a uzavřené cesty. Předvolba nepůjde aplikovat na čáru.  
 
-Let's look at the next line:  
+Podívejme se na další řádek:  
 
       <label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.  
+Když kliknete na nabídku a otevřete si ukázkový formulář, v horní části bude text **Building Form**. Tento text je definován právě na tomto řádku. Definuje se použitím elementu &lt;label&gt;, který prostě zobrazí text ve formuláři. Text je definován atributem *text="some text"*.  
 
-Go down a few lines and find this:  
+Přesuneme se o pár řádků níž na:  
 
       <key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.  
+Toto je jedna ze značek, které budou aplikovány na objekt, který je vybraný. Protože používá element &lt;key&gt;, tak se tato OSM značka automaticky nastaví, při každém výběru této předvolby. Proto tento objekt automaticky obdrží značku *building=yes*.  
 
-The next line is a bit different, using the &lt;text&gt; element.  
+Následující řádek je trochu jiný, používá element &lt;text&gt;.  
 
       <text key="name" text="Name of Building" default="" delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.  
+Element &lt;text&gt; vytvoří prázdné pole. Když se formulář v JOSM objeví, uživatel dostane možnost toto pole vyplnit. Protože je nastaven atribut *delete_if_empty="true"*, žádná značka se nepřidá, pokud uživatel nechá pole prázdné.  
 
-The dropdown box on the form is defined in the following line:  
+Rozbalovací seznam z formuláře je definován v tomto řádku:  
 
       <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.  
+Rozbalovací seznam je definován elementem &lt;combo&gt;. Stejně jako u elementu &lt;text&gt; atribut *key* definuje značku **key**. Jeho hodnota je pak vybrána ze seznamu možností *values*. Atribut *display_values* vám umožňuje zvolit jiné názvy v rozbalovacím seznamu, které mohou být srozumitelnější než hodnoty OSM značek.  
 
-Lastly, let's look at the line which defines the checkbox.  
+Nakonec se podíváme na řádek, který definuje zaškrtávací políčko.  
 
       <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.  
+Element &lt;check&gt; definuje - hádejte co! - zaškrtávací políčko. Atribut *default="off"* znamená, že ve výchozím stavu bude nezaškrtnuté. Ostatní atributy už znáte.  
 
-Creating Your Own Presets File
+Vytváříme si vlastní soubor předvoleb
 ------------------------------
 
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.  
+Nejlepší způsob vytváření vlastního souboru předvoleb, je použitím již existujícího a naplněním vlastními objekty. Klidně si upravte tento ukázkový soubor a experimentováním se naučte základy. Jen si zapamatujte, že po každém uložení je potřeba restartovat JOSM, aby se změny aplikovaly.  
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+Než začnete vytvářet vlastní předvolby, je potřeba si pečlivě promyslet značky, které použijete. Vymýšlení nových značek je už zcela jiné téma. Obvykle byste měli používat stávající značky OSM, pokud existují. Většina existujících značek najdete v seznamu na [stránce Map Features v OSM Wiki](https://wiki.openstreetmap.org/wiki/Cs:Map_Features).  
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.  
+Tento ukázkový soubor obsahuje většinu elementů, které naleznete v JOSM souboru předvoleb - neobsahuje mnoho formulářových elementů. Jestli chcete experimentovat s komplexnějším souborem, stáhněte si soubor [dhaka_presets.xml](/files/dhaka_presets.xml).  
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).  
+Dále je možné nalézt podrobný popis všech možných elementu [zde](http://josm.openstreetmap.de/wiki/TaggingPresets).  
 
-Good luck!  
+Hodně štěstí!  
 
 
 [sample building menu]: /images/josm/sample-building-menu.png
