@@ -267,6 +267,15 @@ body {
   padding:0;
   height:100%;
 }
+
+table {
+  table-layout: fixed;
+}
+td {
+  word-wrap: break-word;
+  white-space:normal;
+}
+
 #wrapper {
   min-height:100%;
   position:relative;
