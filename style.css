@@ -42,6 +42,7 @@
 .cell12 { float:left; width:100.0000%; }
 .right {float:right;}
 .left {float:left;}
+#contents-column { width:41.6666%; }
 
 .marginL { margin-left: 08.3333%; }
 .marginR { margin-right:08.3333%; }
