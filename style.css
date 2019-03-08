@@ -42,7 +42,6 @@
 .cell12 { float:left; width:100.0000%; }
 .right {float:right;}
 .left {float:left;}
-#contents-column { width:41.6666%; }
 
 .marginL { margin-left: 08.3333%; }
 .marginR { margin-right:08.3333%; }
@@ -266,14 +265,6 @@ body {
   margin:0;
   padding:0;
   height:100%;
-}
-
-table {
-  table-layout: fixed;
-}
-td {
-  word-wrap: break-word;
-  white-space:normal;
 }
 
 #wrapper {
