@@ -22,9 +22,9 @@ Sekce Index
     - [Mapování úlohy - vyberte, pracujte a odemkněte úkol](/cs/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
 - [Získání nápovědy - naživo a kontaktování správce projektu](/cs/coordination/tasking-manager3/#getting-help)  
 - [Tipy a triky](/cs/coordination/tasking-manager3/#editing-hints-and-tips)
-- [Validace](/cs/coordination/tasking-manager3/#validation)
+- [Ověřování](/cs/coordination/tasking-manager3/#validation)
 
-[HOT OSM Tasking Manager](http://tasks.hotosm.org) je nástroj, který koordinuje mnoho lidí mapujících určitou geografickou oblast v OpenStreetMapě.
+[HOT OSM Tasking Manager](http://tasks.hotosm.org) je nástroj, který koordinuje mnoho lidí mapujících určitou geografickou oblast v OpenStreetMap.
 
 OpenStreetMap je svobodná, bezplatná mapa světa založená na spolupráci. Každý, kdo může přispívat na OpenStreetMap, mapuje libovolnou část světa, která ho zajímá. Tasking Manager je jen způsob, jak koordinovat velké skupiny lidí, kteří přispívají k OpenStreetMap, ale většinu příspěvků k OpenStreetMap dělají lidé, kteří nepoužívají Tasking Manager.
 
@@ -32,7 +32,7 @@ Tasking Manager je zcela samostatný nástroj oddělený od hlavního projektu O
 
 * OpenStreetMap - databáze geografických informací
 * Tasking Manager - pomáhá koordinovat velké množství lidí, kteří upravují data OpenStreetMap ve stejné oblasti
-* OpenStreetMap Editor - softwarový program, který dokáže číst a zapisovat data do databáze OpenStreetMap
+* OpenStreetMap Editor - program, který dokáže číst a zapisovat data do databáze OpenStreetMap
 
 ![TM overview][]
 
@@ -85,7 +85,7 @@ Kliknutím na toto tlačítko se dostanete na webovou stránku OpenStreetMap. Zd
 
 Jakmile jste přihlášeni do OpenStreetMap, vrátíte se do Tasking Manageru, kliknutím na Zapojit se, se dostanete k seznamu projektů, do kterých můžete přispět.
 
-### Možnosti a odkazy
+### Nastavení a odkazy
 
 Tasking Manager se zpočátku zobrazí v angličtině - pro změnu na jiný jazyk klikněte na **English** v pravé horní části okna.
 
@@ -140,7 +140,7 @@ Jakmile najdete projekt, na kterém chcete pracovat, kliknutím na název projek
 
 
 
-#### Projektová stránka
+#### Záložka Instrukce
 
 Vše, co potřebujete vědět o projektu, je tady! V horní části je úplný popis mapového projektu a informace o projektu.  
 
@@ -172,92 +172,92 @@ Někdy mohou být k dispozici snímky specifické pro danou úlohu - možná bud
 
 Při kontrole úlohy označené jako úplná, ověřovatelé očekávají, že všechny požadavky na kartě s pokyny byly dokončeny. Možná, že dokončení celého úkolu je poměrně obtížné - pokyny uvedené níže jsou k dispozici kolem úloh, které jste odemkli; stejně jako poskytování užitečné zpětné vazby pro další mapovače.  
 
-#### Tlačítko aktivita a statistiky  
+#### Tlačítko Aktivita a statistiky  
 
 Tato záložka obsahuje statistiky o projektu. Je rozdělena na dvě části, podrobný seznam aktivit (dříve na vlastní záložce u Tasking Manager 2.0) a souhrnný oddíl.
 
-The summary contains a list of mappers who have completed at least one task within the project.  
+Souhrn obsahuje seznam maperů, kteří dokončili alespoň jeden úkol z projektu.  
 
-A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
+Záznam všech komentářů k jednotlivým úkolům je ve spodní části stránky. Jsou to komentáře k úkolům a neměli byste si je splést se záložkou **Questions and Comments**, která obsahuje běžné dotazy a komentáře k celému projektu.
 
-You can return the main project contribution page by clicking on the project title on the Activity and Stats page.
+Na hlavní stránku projektu se vrátíte kliknutím na tlačítko **Return to project**.
 
-#### Map Tab  
+#### Záložka Mapovat  
 
-Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
+Klikněte na ni, pokud chcete začít mapovat. Můžete si z mapy vybrat některý z úkolů, nebo klikněte na tlačítko **Vybrat náhodný úkol**. Zvolit si můžete jen z neobarvených úkolů, jinak dostanete zprávu, že na tomto úkolu nelze pracovat. Pokud jste chtěli ověřovat, tak přejděte na záložku **Ověřit**.
 
 ![TM map tab][]
 
 #### Výběr úkolu k mapování  
 
-Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
+Když si vyberete úkol, můžete si prohlédnout jeho historii, třeba že na něm někdo začal dělat, ale nezbyl mu čas na jeho dokončení.  
 
-Clicking on the **Start Mapping** button locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+Klikněte na tlačítko **Začít mapovat**, tím se úloha uzamkne a nikdo jiný si ji nemůže vybrat, dokud nebude znovu uvolněna a zároveň se spustí odpočet 2 hodin (120 minut), po jehož vypršení se úloha automaticky uvolní. Je dobrým zvykem si pravidelně kontrolovat časovač - můžete se lehce zabrat do mapování, ani se nenadáte, vaše úloha je automaticky uvolněna a už na ní pracuje někdo jiný. Pak může dojít ke konfliktu a problémům.  
 
 
-#### Editing choices
+#### Možnosti editace
 
-Different options for editing are presented to you as soon as you lock a task.
+Různé možnosti editace se vám zobrazí hned poté, co uzamknete úkol.
 
 ##### Editace s JOSM  
 
-Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+JOSM spusťte dřív než kliknete na tento odkaz a tím se automaticky stáhnou aktuální OSM data do JOSM .  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+>  1. Políčko **Zapnout vzdálené ovládání** musí být zaškrtnuté - najdete ho v *Upravit ‣ Nastavení ‣ záložka Vzdálené ovládání*
+> 2. Pokud jste předtím nainstalovali doplněk **continuosDownload** je lepší ho vypnout (zrušit zaškrtnutí u **Stahovat OSM data kontinuálně** v nabídce **Soubor** v JOSM).  
+> 3. Pokud JOSM nezobrazí podkladové snímky automaticky, najdete je v nabídce **Mapové podklady**. [Více informací o snímcích](cs/josm/more-about-josm/#přidat-snímky)   
   
 
 ##### iD editor  
 
-Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
+Zvolte tuto možnost a iD editor se automaticky spustí v  nové záložce nebo okně prohlížeče s aktuálními daty z OSM. Internet Explorer momentálně nepodporuje iD a místo něj načte Potlatch 2. Původní záložka nebo okno Task Managera se nezavře.  
 
 
 ##### Potlatch 2  
 
-The editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+Editor se načte do nového okna nebo záložky. Potlatch automaticky nezobrazí hranice úkolu, ale můžete je zapnout manuálně pomocí těchto kroků:  
 
-1. In the Tasking Manager, select a task and click Start Mapping to lock it  
-2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
-3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.  
-4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.  
-5. In Potlatch, select Background, then Vector File...  
-6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
-7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
-8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
+1. V Tasking Manageru si vyberte úkol a uzamkněte si ho kliknutím na **Začít Mapovat**.  
+2. Jako editor si zvolte **JOSM** (když se objeví hláška *Dálkové ovládání JOSM nereaguje...* tak klikněte na **Stop using JOSM**).  
+3. Pod políčkem výběru editoru je text *Tip: Download the following .gpx file...*. Stáhněte si tedy .gpx soubor a poznamenejte si jeho umístění.  
+4. V Tasking Manageru změňte editor na Potlatch 2. Ten se spustí v nové záložce (může vyžadovat instalaci Adobe Flash Playeru, pokud ho již nemáte nainstalovaný).  
+5. V Potlatch vyberte *Podklad ‣ Vector file...*  
+6. Ve spodní části okna **Load Vector File** vedle popisku **File** klikněte na **Open** a najděte .gpx soubor, který jste stáhli.  
+7. Zkontrolujte, že je zaškrtnuto políčko ve sloupci **Show** v řádku s vaším .gpx souborem.  
+8. Potlach by měl zobrazovat hranice ve tvaru čtverce (nejspíš tyrkysovou barvou). Berte na vědomí, že Potlach i tak stáhne data za hranicí úkolu.  
   
 
 ##### Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+Používá se pouze, když jste zapojeni v projektu, ve kterém místní mapeři provádí terénní výzkum a značí si do vytištěné mapy informace, např. názvy ulic. Tato mapa se pak naskenuje a použije jako mapa podkladu pro vzdálené nebo místí mapery, kteří si informace přečtou a zaznamenají do OpenStreetMap. [Field papers sekce v LearnOSM](/cs/mobile-mapping/field-papers/)  
 
 
-#### Splitting a task square
+#### Rozdělení čtverce úkolu
 
-Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
+Po výběru úkolu a prohlédnutí podkladových map si můžete uvědomit, že obsahuje spoustu detailů, které zvyšují náročnost mapování. Příkladem může být značení budov v hustě obydlených městech, nebo zakreslování malých vesnic v rozlehlých oblastech. Pokud není v silách jedné osoby dokončit úlohu v 2 hodinovém časovém limitu, můžete úkol rozdělit na 4 menší oblasti. *Používat s obezřetnosti* - když jsou čtverce úkolů rozděleny na příliš malé čtverečky, je třeba obtížné rozhodnout o jaký typ cesty se jedná atd.  
 
-> Be aware that other useful comments about the work previously completed will no longer be available.
+> Uvědomte si, že užitečné komentáře dříve zmíněné u daného úkolu již nebudou dostupné.
 
 
 #### Odemčení úkolu
 
 ![TM unlock][]
 
-##### Unlocking a Task before it is complete
+##### Odemčení úkolu, který není dokončen
 
-If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
+Když začnete pracovat na úkolu, ale nestihnete ho z nějakého důvodu dokončit, je dobré u něj zanechat komentář. Popište, co jste nestihli a klikněte na **Ukončit mapování**. Komentář by měl být relevantní a nápomocný dalšímu maperovi.  
 
 Například:  
 
-    Almost complete, small village top left 
-    in the task square to be traced though
+    Skoro hotovo, malá vesnice v levém horním rohu 
+    zůstala nezmapována.
   
 
-##### Odemčení úlohy, která je zcela zmapována
+##### Odemčení úkolu, který je zcela zmapován
 
-It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
+Je velmi obtížné, být si naprosto jistý, že je úkol kompletně hotový - je však přijatelné označit úkol za úplný, pokud jste si aspoň trochu jistí - obsah bude ještě zkontrolován jiným maperem při ověřování a všechny drobnosti mohou být dokončeny.  
 
-For the process to work most effectively, mappers need to mark tasks as "Mapped" rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+Pro efektivitu procesu je lepší úkol označit jako **Zmapovaný**, než ho nechat několika dalším *nesebejistým* maperům, kteří by ztráceli čas jeho kontrolou.  
 
 When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
 

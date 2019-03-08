@@ -77,9 +77,9 @@ Jedním z nastavení, které můžete upravit, je jazyk. JOSM
 byl přeložen do mnoha jazyků a můžete dát přednost 
 pracovat v jiném.
 
-- Chcete-li otevřít okno Předvolby, kliknout na Upravit -\> Předvolby.
+- Chcete-li otevřít okno Předvolby, kliknout na *Upravit -\> Předvolby*.
 
-  ![Preferences window][]<img src="https://i.ibb.co/DrqPNGG/start-josm-predvolby.png" alt="Předvolby">
+  ![Preferences window][]
 
 - Na levé straně kliknout na ikonu, která vypadá jako kbelík barvy a
   štětec.
@@ -269,7 +269,7 @@ blížeji podíváme na proces úpravy mapy OSM s JOSM.
 [JOSM website]: /images/josm/josm-website.png
 [Windows installer]: /images/josm/windows-installer.png
 [JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
+[Preferences window]: /images/josm/josm_preferences_cs.png
 [Look and feel]: /images/josm/josm_look-and-feel.png
 [Open file]: /images/josm/josm_open-file.png
 [Sample file]: /images/josm/josm_sample-file.png
