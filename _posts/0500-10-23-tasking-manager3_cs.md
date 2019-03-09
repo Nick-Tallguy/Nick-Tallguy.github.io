@@ -259,112 +259,112 @@ Je velmi obtížné, být si naprosto jistý, že je úkol kompletně hotový - 
 
 Pro efektivitu procesu je lepší úkol označit jako **Zmapovaný**, než ho nechat několika dalším *nesebejistým* maperům, kteří by ztráceli čas jeho kontrolou.  
 
-When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
+Pokud máte úpravy dokončeny a myslíte si, že je úkol hotový, uložte si všechny úpravy v editačním programu a vraťte se do Tasking Managera.  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
-+ Click on the "Mark as Mapped" button, and your work is ready for review.  
++ Do pole pro komentáře popište své úpravy a co je důležitější, zapište i to s čím si nejste jistí. Například: *Co je zřetelné, to je zmapováno, ale pravý horní roh je zakrytý mrakem, tak tam nejde rozpoznat trasa*.  
++ Klikněte na **Označit jako kompletně zmapované** a vaše práce je připravena ke kontrole.  
 
 ##### Označení úlohy se špatnou fotomapou
 
-You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
+Semtam si vyberete úkol, který nejde zmapovat, protože snímky mají nízké rozlišení, nebo jsou zakryté mraky. Zavřete úkol ve svém editoru a použijte tlačítko **Označit jako "špatné fotomapy"**, aby se vědělo, že se tento úkol nedá splnit.
 
 
-#### Odeslání zprávy z pole komentáře
+#### Posílání zprávy přes komentáře
 
-When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
+Při zanechávání zprávy k úkolu, ji můžete adresovat konkretnímu maperovi. Podobně jako na Twitteru, jednoduše použitím @ následovaného uživatelským jménem. Tím se zašle zpráva uživateli s obsahem vašeho komentáře a odkaz na úkol, ke kterému komentář patří.  
 
 Například:  
 
-    @HOTMppr nice work tracing the building  
-    details here. You missed a small group  
-    of houses on the upper left of the task square,  
-    I added a few in, but some still remain.  
+    @HOTMppr krásná detailní práce  
+    na budovách. Jen jste zapoměl na malou skupinu  
+    domů v levém horním rohu vašeho čtverce,  
+    pár domů jsem přidal, ale i tak jich pár zbylo.  
 
-This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
+Je to zejména užitečné, když ověřujete, nebo doděláváte práci někoho jiného - můžete poskytnout zpětnou vazbu, poděkovat nebo něco jiného.  
 
-+ You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
++ Možná byste chtěli poskytnout odkaz na stránku, která může maperovi pomoci, jako třeba <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ Je potřeba si uvědomit, že se do úprav zapojují lidé z celého světa, tak je lepší se vyjadřovat jednoduše a přesně. Pokud budete procházet komentáře v jiných jazycích, nástroje jako Google Translate (Překladač) jsou celkem užitečné.
 
 
-#### Referring to a particular task when sending an email  
+#### Odkaz na konkrétní úkol při komunikaci emailem  
 
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
+Když potřebujete poslat zprávu emailem nebo přes IRC a dotazujete se na něco, co se týče určitého úkolu v rámci projektu (třeba potřebujete pomoct s identifikací nějakého objektu na satelitním snímku):  
 
-1. Click on the task square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
-3. Copy this link into the message. 
+1. Klikněte na příslušný čtverec úkolu  
+2. Označte celou adresu v adresním řádku prohlížeče, která bude vypadat nějak takto: *http://tasks.hotosm.org/project/713?task=259*  
+3. Zkopírujte adresu do zprávy. 
 
 
 ## Získání nápovědy 
 
-### Live text based help
+### Ptejte se naživo
 
-From the Learn page of the Tasking Manager:  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
+Na stránce **Naučit se** v Tasking Manageru:  
+1. Klikněte na **OSM HOT IRC Channel #hot**  
+2. Vložte uživatelské jméno (vaše uživ. jméno v OSM?), nebo ponechte výchozí znaky  
+3. Na konci rozbalovacího seznamu vyberte **hot**.  
 
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+- Napravo je seznam uživatelů, kteří jsou online.  
+- Do okýnka vlevo dole vepište zprávu (semtam je zakryté jiným textem, ale objeví se kliknutím do okýnka).  
+- Pokud chcete zprávu někomu přímo adresovat, přidejte do zprávy jeho uživatelské jméno ze seznamu napravo. Napište zprávu a použijte tlačítko návratu k odeslání komentáře. Systém je "živý", takže počkejte na odpověď - vaše uživatelské jméno je většinou součástí odpovědi, aby vás upozornila, že je pro vás. Odpověď obdržíte většinou do pár vteřin, tak si prosím vydržte.  
+- Alternativní jednoduchý systém najdete na adrese [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
+- Další informace o používání IRC s OpenStreetMap můžete nalézt na [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
+- Taktéž můžete využít vlastního IRC klienta (Server=irc.oftc.net, a channel=#hot)  
 
-### Leaving a Project question / comment / contacting the Project creator
+### Zanechání otázky k projektu / komentáře / kontaktování tvůrce projektu
 
-Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. 
+Když se podíváte do záložky **Komentáře** u projektu, uvidíte dotazy a komentáře od ostatních uživatelů a můžete zde zanechat vlastní. Také můžete kliknout na odkaz **Contact Project Manager** a tím svůj komentář/dotaz nasměřujete přímo tvůrci projektu. 
 
-All comments are public and it is not real time, live chat, use the IRC option above for realtime chat.
+Všechny komentáře jsou veřejné a nejsou živé, pro tuto možnost využijte IRC zmíněné výše.
 
 ![TM comments][]
 
 
-## Tipy a triky při editaci  
+## Tipy a triky pro editaci  
 
-By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
+Teď už máte nějaké povědomí o Tasking Manageru a jaké různé funkce podporuje. Na rozdíl od normálních úprav je tento nástroj často používán pro projekty v kritické časové tísni a s mnoha účastníky - může se to trochu lišit od toho, na co jste zvyklí.  
 
-Some general advice to heed when working in this tool:  
+Některé obecné rady při práci s tímto nástrojem:  
 
-* Avoid mapping far outside of your task square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediately after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
-* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
-* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
+* Vyhněte se mapování daleko za hranicí vašeho úkolu - v této oblasti mohou pracovat i jiní mapeři, což vede k duplicitní snaze. Nebude vadit, když zmapujete budovy, které leží na hranici, ale dál už nezacházejte - po zmapování něčeho na hranici, nahrejte změnu ihned.  
+* Protáhněte silnice, toky nebo podobné objekty lehce přes hranice - to umožní dalšímu maperovi pokračovat tam, kde jste skončili, ale nahrajte úpravy hned, jakmile je dokončíte.  
+* Pokud máte pochybnosti u nějakého objektu, použijte sekci komentářů a zeptejte se na názor ostatních nebo se podívejte do wiki.  
+* Pokud uděláte vážnou chybu - například odstranění hlavního objektu nebo relace - použijte IRC nebo pole s komentáři a požádejte ostatní mapovače, aby vám pomohli změnu vrátit zpět. Pokuste se zahrnout sadu změn nebo popis toho, co se stalo. Jelikož jde o společný úkol, je zde mnoho dalších maperů, kteří rádi pomohou - je důležité si pamatovat, že každý jednou může udělat chybu.  
 * Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+* Nemusíte ověřovat vlastní práci - druhý pár očí vždy zajistí lepší kvalitu mapování.  
+* Nedělejte si starosti, když ostatní mapovači budou při ověřování vaší práce striktní - stejně jako vy, chtějí pouze zajistit, aby byla všechna data přesně zmapována. Zpětná vazba je vždy o zbývající práci, ne kritikou vašeho úsilí.  
 
 
-## Validace
+## Ověřování
 
-Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
+Ověřování je proces, ve kterém jiný mapovač zkontroluje mapování původního mapovače projektového úkolu. Je navržena tak, aby zajistil kompletnost, kvalitní data a poskytl mapovačům poděkování, zpětnou vazbu a povzbuzení.
 
 ### Začínáme
 
-Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
+Ověřování začíná podobně jako mapování, dobrovolníci si najdou projekt, na kterém chtějí pracovat, přečtou si instrukce, aby věděli, na co se mají zaměřit a co se má zmapovat, ale místo zvolení záložky pro mapování, přejdou na záložku **Ověřit**. 
 
 ![TM select for validation][]
 
-The validator can select a task by clicking on an individual task square, clicking "Select a random Task", select by user or draw a polygon to select multiple, connected tasks.
+Ověřovatel si vybere úkol kliknutí na čtverec, náhodně pomocí **Vybrat náhodný úkol**, podle uživatelského jména, nebo nakreslí polygon pro výběr více úkolů dohromady.  
 
-Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
+Na rozdíl od mapovačů mohou ověřovatelé vybrat více úloh zároveň a ověřovat ve větším měřítku než jen jednu úlohu.
 
-### Výběr více úkolů pro validaci
+### Výběr více úkolů k ověřování
 
-New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
+Novinkou v poslední verzi Tasking Managera je možnost výběru více úkolů k ověřování, buď výběrem oblasti nebo podle uživatele.
 
-Depending on which editor you are using, this feature will behave differently.
+Tato funkce se v každém editoru používá trochu jinak.
 
 In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
 
-#### Select by drawing a polygon
+#### Výběr pomocí nakraslení polygonu.
 
 This option allows a validtor to draw a square around a group of tasks and check them all out at once.
 
 Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
 
 
-#### Select By User
+#### Výběr pomocí uživatele
 
 A list of mappers who have marked a task as done is presented. Hovering over anyone in the list will highlight the tasks they have marked as completed. The list also prensents three important pices of information about the mapper, their experience level, the number of days since they first started mapping using the Tasking Manager and the number of days since they last received feedback via validation. This allows the validator to specifically target new mappers, experienced mappers or mappers who have not had any feedback for an extended period of time.
 
@@ -374,7 +374,7 @@ Clicking on the "Start Validating" button will lock all the tasks completed by t
 
 Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
 
-### Dokončení validace
+### Ukončení ověřování
 
 Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
 
