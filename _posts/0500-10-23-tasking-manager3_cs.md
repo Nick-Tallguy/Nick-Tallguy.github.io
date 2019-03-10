@@ -330,7 +330,7 @@ Některé obecné rady při práci s tímto nástrojem:
 * Protáhněte silnice, toky nebo podobné objekty lehce přes hranice - to umožní dalšímu maperovi pokračovat tam, kde jste skončili, ale nahrajte úpravy hned, jakmile je dokončíte.  
 * Pokud máte pochybnosti u nějakého objektu, použijte sekci komentářů a zeptejte se na názor ostatních nebo se podívejte do wiki.  
 * Pokud uděláte vážnou chybu - například odstranění hlavního objektu nebo relace - použijte IRC nebo pole s komentáři a požádejte ostatní mapovače, aby vám pomohli změnu vrátit zpět. Pokuste se zahrnout sadu změn nebo popis toho, co se stalo. Jelikož jde o společný úkol, je zde mnoho dalších maperů, kteří rádi pomohou - je důležité si pamatovat, že každý jednou může udělat chybu.  
-* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
+* Neváhejte a požádejte o zpětnou vazbu - mapeři, kteří ověřují vaši práci, mohou být upřímní nebo puntičkáři, ale pokud vědí, že není problém s vámi vézt dialog, výsledek je většinou mnohem lepší pro všechny zúčastněné. Může být obtížné komunikovat v cizým jazyce a lehce se stane, že budete muset překládat i samotnou zprávu do jazyka, kterým plynule nemluvíte.  
 * Nemusíte ověřovat vlastní práci - druhý pár očí vždy zajistí lepší kvalitu mapování.  
 * Nedělejte si starosti, když ostatní mapovači budou při ověřování vaší práce striktní - stejně jako vy, chtějí pouze zajistit, aby byla všechna data přesně zmapována. Zpětná vazba je vždy o zbývající práci, ne kritikou vašeho úsilí.  
 
@@ -353,36 +353,36 @@ Na rozdíl od mapovačů mohou ověřovatelé vybrat více úloh zároveň a ov�
 
 Novinkou v poslední verzi Tasking Managera je možnost výběru více úkolů k ověřování, buď výběrem oblasti nebo podle uživatele.
 
-Tato funkce se v každém editoru používá trochu jinak.
+Tato funkce se bude v každém editoru chovat trochu jinak.
 
-In JOSM, a second OSM data layer will be created titled "Task Boundaries - Do Not Edit or Upload" and it will have uploading disabled in recent versions of JOSM. JOSM **will not download the OSM data** because it could be a very large amount of data. Instead the validator will have to use the task boundaries as a guide and download the data to the active editing layer manually.
+V JOSM se vytvoří druhá vrstva OSM dat s názvem *Task Boundaries - Do Not Edit or Upload* a bude mít zakázané nahrávaní. JOSM **nebude stahovat OSM data**, protože mohou mít velkou velikost. Místo toho bude muset ověřovatel sledovat hranice úkolu a podle toho ručně stahovat aktivní vrstvu pro úpravy.
 
 #### Výběr pomocí nakraslení polygonu.
 
-This option allows a validtor to draw a square around a group of tasks and check them all out at once.
+Tato funkce umožňuje ověřovatelům nakreslit čtverec okolo skupiny úkolů a tím je označit všechny najednou.
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected Tasks.
+Do editoru podle vlastního výběru, **si ověřovatel musí manuálně stáhnout OSM data** k úkolu ve vybrané oblasti. Tím se zabrání stahování všech dat OSM mezi vybranými úlohami.
 
 
 #### Výběr pomocí uživatele
 
-A list of mappers who have marked a task as done is presented. Hovering over anyone in the list will highlight the tasks they have marked as completed. The list also prensents three important pices of information about the mapper, their experience level, the number of days since they first started mapping using the Tasking Manager and the number of days since they last received feedback via validation. This allows the validator to specifically target new mappers, experienced mappers or mappers who have not had any feedback for an extended period of time.
+Seznam maperů, kteří dokončili úkol je volně dostupný. Přejetím kurzoru přes jméno se zobrazí úkoly, které označil za dokončené. Taky se můžete o maperovi dozvědět tři zajimavé informace - úroveň zkušností, jak dlouho už mapuje pomocí Tasking Managera a kdy naposled získal zpětnou vazbu při ověřování. Tak se může ověřovatel zaměřit na mepera začínajícího, zkušeného, nebo mapera, který nedostal delší dobu neobdržel žádnou zpětnou vazbu.
 
-Clicking on the "Start Validating" button will lock all the tasks completed by that mapper and allow the validator to open them in their editor of choice.
+Klikněte na **Začít validovat**, tím uzamknete všechny úkoly, které maper dokončil a otevřou se ve zvoleném editoru.
 
 ![TM multi selection][]
 
-Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
+Ve vybraném editoru **musí ověřovatel ručně stáhnout OSM data** pro danou oblast. Tím zabraní stahování všech OSM dat mezi jednotlivými vrstvami.
 
 ### Ukončení ověřování
 
-Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
+Jakmile jsou všechna data ověřena u jednoho nebo všech úkolů, měl by se ověřovatel vrátit do Tasking Managera a měl by vybrat jednu ze tří možností, které vyjadřují stav ověřování u úkolu:
 
-- Stop Validating - If you could not complete the validation process but must stop validating.
-- Mark (all) as Valid - If the mapping is complete and accurate
-- Mark (all) as Invalid - If the mapping is not complete or inaccurate.
+- Ukončit ověřování - Pokud jste nedokončili ověřování, ale musíte skončit.
+- Označit (vše) jako ověřené - Pokud je vše zmapované a přesné.
+- Označit (vše) jako neplatné - Když mapování není dokončeno nebo nepřesné.
 
-For the last two choices the validator can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping. Please be considerate before marking a task as invalid. If just a few bits are missing add them yourself, explain what was missing in your comment but nevertheless mark the task as valid. New mappers will consider their completed task marked as invalid as a fairly harsh comment.
+Pokud jde o posledních dvě možnosti, tak by měl ověřovatel zanechat zapojeným maperům přátelský a povzbudivý komentář, poděkovat za jejich zapojení a zpětnou vazbu k jejich mapování. Prosím zvažte každé označení úkolu za neplatný. Pokud zbývá jen pár drobností, tak je dokončete, do komentáře zapište, co chybělo a úkol označte za dokončený. Pro začínající mapery může být odmítnutí dokončeného úkolu odrazující.
 
 
 
