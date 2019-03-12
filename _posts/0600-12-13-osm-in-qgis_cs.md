@@ -9,36 +9,36 @@ category: osm-data
 Využití OSM dat v QGIS
 =================
 
-> This guide may be downloaded as [Using_OSM_data_in_QGIS_en.odt](/files/Using_OSM_data_in_QGIS_en.odt) or [Using_OSM_data_in_QGIS_en.pdf](/files/Using_OSM_data_in_QGIS_en.pdf)  
-> Zkontrolováno 2015-07-19
+> Tento návod můžete stáhnout jako [Using_OSM_data_in_QGIS_en.odt](/files/Using_OSM_data_in_QGIS_en.odt) nebo [Using_OSM_data_in_QGIS_en.pdf](/files/Using_OSM_data_in_QGIS_en.pdf)  
+> Zkontrolováno 19.7.2015
 
-QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
+QGIS (dříve Quantum GIS) je plnohodnotný, open-source, geografický informační systém, který funguje napříč platformami. S QGIS můžete přistupovat k aktuálním datům OSM kdykoliv chcete, vyberte značky, které chcete zahrnout a jednoduše je exportujte do snadno použitelné SQLite databáze nebo Shapefile.  
 
 V této kapitole projdeme k tomu potřebnými kroky. Předpokládáme, že jste již stáhli a nainstalovali QGIS 2.x. Pokud jste to ještě neučinili, můžete si jej stáhnout z <http://www.qgis.org/en/site/forusers/download.html>.  
 
-To get our customized, up-to-date OSM layers loaded into QGIS, we will first get the most recent OSM data in raw **.osm** format. Then, we will convert this data into a SQLite database, which is a lightweight database system stored in one file on your system. Lastly, we will create a layer (or multiple layers) that includes only the feature types and tags we want to access. These layers can be used in QGIS as they are or saved in another format, such as a shapefile.  
+Než bude možné nahrát naši upravenou aktuální OSM vrstvu do QGIS, musíme si nejdříve stáhnout OSM data v neupraveném **.osm** formátu. Poté data převedeme do SQLite databáze, což je nenáročný databázový systém uložený v jednom souboru ve vašem systému. Nakonec vytvoříme vrstvu (nebo více vrstev), která bude obsahovat pouze typy objektů a značek, ke kterým chceme přistupovat. Tyto vrstvy můžeme v QGIS využít ve stávajícím formátu nebo je uložit do jiného, např. shapefile.  
 
-Accessing OpenStreetMap Data
+Přístup k datům OpenStreetMap
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-popsané v předchozích kapitolách [Získání dat OSM](/cs/osm-data/getting-data) a [Použití programu Geofabrik a HOT Export](/cs/osm-data/geofabrik-and-hot-export).  
+První si nachystáme nějaké aktuální OSM data. Jde to několika způsoby. Ziskat data z OSM serveru stejným způsobem, jako jsme to udělali v JOSM editoru nelze, protože množství zdrojových dat ke stažení je omezeno - avšak způsob, jak stáhnout velké množství dat existuje, jak
+jsme si řekli v předchozích kapitolách [Získání dat OSM](/cs/osm-data/getting-data) a [Použití programu Geofabrik a HOT Export](/cs/osm-data/geofabrik-and-hot-export).  
 
-For this tutorial we will use the built-in download function in QGIS.  
+V tomto tutoriálu využijeme vestavěnou funkci QGIS určenou ke stahování.  
 
-- Open QGIS and go to Vector -> OpenStreetMap -> Download Data...  
-- You can choose from several options here - if your window is already displaying the extent you want, check the box next to "From map canvas." If you have a layer loaded in QGIS with the correct extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual" and enter the latitudes and longitudes which form a **bounding box** around the area we	want to access. You can fill in the lats and lons that are of interest to you, but remember that the area cannot be too large, or you won't be able to download all the data.  
+- Spusťte QGIS a jděte do *Vector -> OpenStreetMap -> Download Data...*  
+- Zde si můžete vybrat z několika možností - pokud okno již zobrazuje požadovaný rozsah, zaškrtněte políčko vedle možnosti **From map canvas**. Pokud máte v QGIS vloženou vrstvu se správným rozsahem, zvolte **From layer** a vyberte vrstvu, kterou chcete použít. V našem případě vybereme možnost **Manual** (ručně) a vyplníme zeměpisné šířky a délky, které vytvoří **ohraničující rámeček** kolem oblasti, do které chceme přistupovat. Můžete vyplnit šířky a délky, které vás zajímají, ale nezapomeňte, že oblast nemůže být příliš velká neboť nebudete moci stáhnout všechna data.  
 
 ![bounding box][]
 
-- Select a name and location for the output file, using the **.osm** file extension, and click OK.  
-- You will be notified when the download is complete. Click "Close" to exit the download dialog.  
+- Zvolte si název a umístění výsledného souboru s příponou **.osm** a potvrďte OK.  
+- Dostanete oznámení, až se stahování dokončí. Dialog zavřete tlačítkem **Close.**  
 
 ![download complete][]
 
-- The OSM data will now be saved in the location you specified.  
+- OSM data jsou teď uložena v místě, které jste si vybrali.  
 
-> This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
+> Tato metoda přístupu k OSM datům je stejná, jako při jejich stahování do JOSM nebo v [openstreetmap.org](http://www.openstreetmap.org). Pro získání většího objemu dat můžete zkusti použít [HOT export site](http://export.hotosm.org) nebo [bbbike.org](http://extract.bbbike.org/). Pamatujte si, že stahujete komprimovaný OSM soubor, nejprve ho bude potřeba rozbalit do formátu **.osm**, než přejdeme na další krok.  
 
 
 Importing Data into SQLite
