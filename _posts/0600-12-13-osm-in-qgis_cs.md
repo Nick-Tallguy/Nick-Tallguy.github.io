@@ -41,64 +41,64 @@ V tomto tutoriálu využijeme vestavěnou funkci QGIS určenou ke stahování.
 > Tato metoda přístupu k OSM datům je stejná, jako při jejich stahování do JOSM nebo v [openstreetmap.org](http://www.openstreetmap.org). Pro získání většího objemu dat můžete zkusti použít [HOT export site](http://export.hotosm.org) nebo [bbbike.org](http://extract.bbbike.org/). Pamatujte si, že stahujete komprimovaný OSM soubor, nejprve ho bude potřeba rozbalit do formátu **.osm**, než přejdeme na další krok.  
 
 
-Importing Data into SQLite
+Import dat do SQLite
 ---------------------------
 
-Next we will need to import our raw **.osm** file into a SQLite Database file.  
+Teď je na řadě import zdrojového **.osm** souboru do souboru SQLite databáze.  
 
-- Go to Vector -> OpenStreetMap -> Import Topology from XML...  
-- In the first field, select your **.osm** file.  
-- You can change the name of the output database file if you like.  
-- Keep the box checked next to "Create Connection..."  
+- Jděte do *Vector -> OpenStreetMap -> Import Topology from XML...*  
+- Přes první políčko vyberte váš **.osm** soubor.  
+- Název výstupního databázového souboru si můžete změnit.  
+- Políčko u **Create Connection...** nechte zaškrtnuté.  
 
 ![import dialog][]  
 
-- Click OK.  
-- When it is finished, click "Close."  
+Potvrďte OK.  
+- Až proces skončí, zavřete okno pomocí **Close**.  
 
 
-Creating Layers
+Vytváření vrstev
 --------------
 
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.  
+Nakonec si definujeme vrstvy, které budeme v QGIS využívat, upravené přesně podle našich potřeb.  
 
-- Go to Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- In the first field, select the database you created in the previous step.  
+- Jděte do *Vector -> OpenStreetMap -> Export Topology to SpatiaLite...*  
+- Do prvního políčka načtěte databázi, kterou jste vytvořili v předcházejícím kroku.  
 
 ![input db file][]  
 
-- Under "Export type," select the type of features you want to create a layer for. Here we will create a layer using polygons.  
+- V **Export type** vyberte typ objektů, pro které vrstvu vytváříte. V našem příkladu vytváříme vrstvu s polygony.  
 
 ![export type][]  
 
-Edit the layer name if you like.  
+Jestli chcete, změňte si název vrstvy.  
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be included in our output layer. This gives us flexibility over exactly which data we want to access.  
+V poli **Exported tags** se děje to nejdůležitější. Tady si vybereme značky, které chceme zahrnout do naší vrstvy. To nám dává flexibilitu v tom, která data chceme zpřístupnit.  
 
-- Click "Load from DB" to see a list of all the available tags in the database. Expand the window size by dragging the corner if that helps. You can see all the tags contained in this data, and also the number of features that have each tag.  
-- Check the boxes next to the tags that you want to include. Here we will select a few features that will be useful for polygons that represent buildings.  
+- Kliknutím na "Load from DB" zobrazíte seznam všech dostupných tagů v databázi. Okno si můžete zvětšit tažením za pravý dolní roh, pokud to pomůže. Můžete vidět všechny značky obsažené v těchto datech a také počet objektů u jednotlivých značek.  
+- Zaškrtněte políčko u značek, které chcete zahrnout. V našem případě vybere ty, které budou užitečné pro polygony reprezentující budovy.  
 
 ![export full][]  
 
-When you are finished, click OK.  Close the box. Your layer should be automatically added.  
+Až budete hotovy, klikněte na OK. Zavřete okno. Vaše vrstva se automaticky přidá.  
 
 ![cairo polygons][]  
 
-Right-click on the layer and click "Open Attribute Table."  
+Klikněte pravým tlačítkem na vrstvu a vyberte **Open Attribute Table**.  
 
 ![open attribute table][]  
 
-You can see here that we have a table which includes only the attributes we selected.  
+Zde vidíte, že máme tabulku, která obsahuje pouze atributy, které jsme vybrali.  
 
 ![attribute table][]  
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
+Všimněte si, že jsme nevytvořili **pouze** vrstvu budov. Místo toho jsme vytvořili vrstvu, která obsahuje všechny polygony z našich původních dat, ale zahrnuje pouze námi vybrané značky. Aby bylo možné filtrovat tuto vrstvu tak, aby zobrazovala pouze budovy, museli bychom provést dotaz, který filtruje pouze polygony s atributem **building = yes**.
 
 
 Shrnutí
 -------
 
-This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
+Tento proces usnadňuje získání aktuálních OSM dat a jejich stažení do QGIS. Jakmile máte takové vrstvy v QGIS, je možné je uložit jako shapefiles, spouštět filtry, dotazy atd. Podrobnější informace o těchto funkcích naleznete v nabídce Nápovědy v QGIS.  
 
 
 [bounding box]: /images/osm-data/bounding_box.png

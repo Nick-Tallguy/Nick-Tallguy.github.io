@@ -1,18 +1,18 @@
 ---
 layout: doc
-title: Tracing roads, buildings, water and landuse 
+title: Trasování silnic, budov, vod a využití půdy 
 permalink: /cs/coordination/remote-tracing/
 lang: cs
 category: coordination
 ---
 
-Tracing roads, buildings, water and landuse
+Trasování silnic, budov, vod a využití půdy
 ===========================================
 
-> This guide may be downloaded as [remote-tracing_en.odt](/files/remote-tracing_en.odt) or [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
-> Zkontrolováno 2016-02-08  
+> Tento návod můžete stáhnout jako [remote-tracing_en.odt](/files/remote-tracing_en.odt) nebo [remote-tracing_en.pdf](/files/remote-tracing_en.pdf)  
+> Zkontrolováno 8.2.2016  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+Navazuje na část [Remote, Armchair & Mapathon sekce LearnOSM] (/cs/coordination/remote/) sekci, která je zaměřená na mapovače bez zkušeností s mapováním HOT.  
 
 
 Section Index
