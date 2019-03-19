@@ -72,22 +72,22 @@ surface=unpaved
 ***
 
 
-## Residential Boundaries
+## Rezidenční hranice
 
-Residential boundaries are used for many purposes in OpenStreetMap.  
+Rezidenční hranice jsou v OpenStreetMap využívány pro mnohé účely.  
 
-+  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](http://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
-+  Where there is not time to map in detail from the outset, the project within the Task Manager will frequently require something similar to this:  
++ Nejběžnější využití je při pohledu na obydlené oblasti z vyšších úrovní oddálení při prohlížení [OpenStreetMap.org] (http://www.openstreetmap.org), kde jsou ve standardním zobrazení zbarveny světle šedě.  
++ Tam, kde není čas mapovat podrobně od samého počátku, bude projekt v Task Manageru často vyžadovat něco podobného tomuto:  
 
->    Map essential infrastructures such as schools, place of worship and markets.  
->    Trace outbound of settlements and cemeteries.  
->    We will trace roads later in an other Task.   
-+  landuse=residential can also be used for statistical purposes, and accurate mapping then becomes important  
+> Mapovat základní infrastruktury, jako jsou školy, náboženská místa a trhy.  
+> Trasovat výjezdy z osad a hřbitovů.  
+> Cesty přidáme později v jiném úkolu.   
++ **landuse=residential** může být využit pro statistické účely a přesné zmapování se tak stává důležitým  
 
-*  If you can establish how many people normally reside in each dwelling, and  
- how many dwellings are normally built in a given area, then  
- once you have worked out the area covered by a landuse=residential boundary,  
- you can establish a very approximate population for that area.  
+* Pokud můžete zjistit, kolik lidí obvykle bydlí v každém obydlí,  
+ kolik obydlí se obvykle v dané oblasti postaví,  
+ když potom pracujete v oblasti obklopené hranicí **landuse=residential**,  
+ můžete poměrně přesně určit velikost populace pro danou oblast.  
  Estimating the number of aid workers & quantity of medicine now becomes more realistic.
 *  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
 
