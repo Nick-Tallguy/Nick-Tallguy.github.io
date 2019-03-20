@@ -76,7 +76,7 @@ surface=unpaved
 
 Rezidenční hranice jsou v OpenStreetMap využívány pro mnohé účely.  
 
-+ Nejběžnější využití je při pohledu na obydlené oblasti z vyšších úrovní oddálení při prohlížení [OpenStreetMap.org] (http://www.openstreetmap.org), kde jsou ve standardním zobrazení zbarveny světle šedě.  
++ Nejběžnější využití je při pohledu na obydlené oblasti z vyšších úrovní oddálení při prohlížení [OpenStreetMap.org](http://www.openstreetmap.org), kde jsou ve standardním zobrazení zbarveny světle šedě.  
 + Tam, kde není čas mapovat podrobně od samého počátku, bude projekt v Task Manageru často vyžadovat něco podobného tomuto:  
 
 > Mapovat základní infrastruktury, jako jsou školy, náboženská místa a trhy.  
@@ -87,40 +87,40 @@ Rezidenční hranice jsou v OpenStreetMap využívány pro mnohé účely.
 * Pokud můžete zjistit, kolik lidí obvykle bydlí v každém obydlí,  
  kolik obydlí se obvykle v dané oblasti postaví,  
  když potom pracujete v oblasti obklopené hranicí **landuse=residential**,  
- můžete poměrně přesně určit velikost populace pro danou oblast.  
- Estimating the number of aid workers & quantity of medicine now becomes more realistic.
-*  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
+ můžete poměrně přesně určit velikost populace v dané oblasti.  
+ Odhad počtu potřebných humanitárních pracovníků a množství léků se nyní stává realističtějším.
+* Názvy míst a hranice jsou často importovány z jiných zdrojů, ale jejich umístění není vždy přesné. Jakmile je k dispozici ohraničení obydlené oblasti, osoba provádějící import, může správně nastavit umístění jejího názvu.
 
 
-### landuse=residential - how to map
+### landuse=residential - jak mapovat
 
 
-** In an ideal world **  
+**V ideálním světě**  
 
-*Stage 1* - A decision is taken to map an area, and a mapper quickly puts a very rough landuse=residential boundary around an area,  
-*Stage 2* - The Task Manager project is created & the individual mappers refine the boundary so that it is closer to the buildings etc.  
+*Krok 1* - Je rozhodnuto o mapování oblasti a mapovač rychle umístí velmi hrubé hranice **landuse=residential** kolem oblasti,  
+*Krok 2* - Projekt v Task Manageru je vytvořen a jednotliví mapovači upravují hranici tak, aby byla blíže k obydlí atd.  
 
 ![JOSM residential][]
 
 ![iD residential][]
  
-The iD & JOSM screenshots above show a correctly mapped landuse=residential boundary.  
+Snímky obrazovky iD a JOSM uvedené výše ukazují správně zmapované hranice **landuse=residential**.  
 
-1.  The boundary needs to be closed, so that the start point of the line (way), joins to the end point.  
-2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *i.e.* it should not share any nodes. But they can cross.  
-3.  The boundary should be fairly close to the buildings & any gardens or yards that form part of the grouping.  
+1. Hranice musí být uzavřena, takže počáteční bod čáry (trasy) se připojí ke koncovému bodu.  
+2. Segmenty a uzly hranice by se neměly spojovat se silnicemi, vodními cestami, budovami ani jinými objekty. To znamená, že by neměli sdílet žádné uzly. Ale mohou se křížit.  
+3. Hranice by měla být poměrně blízko budov nebo zahrad, které jsou součástí seskupení.  
 
 
-In the screenshot below, my square contains part of a landuse=residential boundary. The person who completed the square to my right has continued a landuse=residential boundary through their square, and has then correctly 'handed it over' to me by placing the boundary just within my square for me to establish exactly where it should be in my square.  
+Na obrázku níže můj čtverec obsahuje část hranice **landuse=residential**. Osoba, která dokončila čtverec vpravo odemně, pokračovala v ohraničení **landuse=residential** a poté mi ho správně „předala“ umístěním hranice do mého čtverce, abych přesně věděl, kde mám pokračovat.  
 
 
 ![JOSM residential 1][]
 
-I will add extra nodes to the boundary, extending it horizontally across my square so that it goes around the buildings , and at the bottom I will continue the boundary as a straight line just inside the square below mine so that the person selecting the square below mine will be able to extend it around any buildings they may have.  
+Přidám k hranicím další uzly a tím se rozšíří kolem budov horizontálním směrem přes můj čtverec, ve spodní části budu pokračovat podél hranice rovnoběžnou přímkou uvnitř přilehlého čtverce, takže osoba, která si ho vybere, bude moci pokračovat v jeho rozšiřování kolem všech budov, které se tam nachází.  
 
-This is a difficult operation - you can see only a small part of the whole town / city / village and although you will do your best with the landuse=residential boundary it is extremely likely that a validator who has an overview of several squares will need to tidy up the boundary as best they can after the individual squares have been mapped.  
+Jedná se o obtížnou operaci - můžete vidět pouze malou část celého města / obce / vesnice a i když vytvoříte hranici **landuse=residential** jak nejlépe umíte, je velmi pravděpodobné, že ověřovatel, který má přehled několika čtverců, bude muset hranici ještě doladit, hned po mapování v jednotlivých čtvercích.  
 
-> There is a high risk of suffering from conflicts when working on a landuse=residential boundary, as it extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the boundary, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> Existuje velké riziko, že nastanou konflikty při práci na hranici **landuse=residential**, protože se rozšiřují i do dalších čtverců, kde je budou také upravovat. Doporučujeme uložit všechny změny před úpravou hranice a poté uložit změny ve velmi častých intervalech, například po přidání každých 6 uzlů.
 
 ***
 
