@@ -18,10 +18,10 @@ Navazuje na část [Remote, Armchair & Mapathon sekce LearnOSM] (/cs/coordinatio
 Obsah kapitoly
 =====
 
-[Silnice a dálnice včetně cest a tras](/cs/coordination/remote-tracing/#roads)  
-[Síť dálnic](/cs/coordination/remote-tracing/#the-highway-network)  
-[Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
-[Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
+[Silnice a dálnice včetně cest a tras](/cs/coordination/remote-tracing/#cesty)  
+[Silniční síť](/cs/coordination/remote-tracing/#silničn%C3%AD-s%C3%ADť)  
+[Rezidenční hranice](/cs/coordination/remote-tracing/#rezidenčn%C3%AD-hranice)  
+[Budovy, zdi, ploty, betonové zdi a bariéry](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 
 ## Cesty
@@ -125,65 +125,65 @@ Jedná se o obtížnou operaci - můžete vidět pouze malou část celého měs
 ***
 
 
-## Buildings walls compounds barriers  
+## Budovy, zdi, ploty a bariéry  
 
-Buildings are added to the map data for a number of reasons;  
+Budovy jsou mapovány z několika důvodů;  
 
-*  The density of buildings in an area gives a very good indication of the number of people residing there.  
-*  The size, shape & location of a building can help to identify it as a potential evacuation or treatment site.  
-*  The size, shape, and relative location of buildings can be used to identify particular locations such as wells, aid stations, schools, etc..  
-*  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
+* Hustota budov v dané oblasti umožňuje poměrně přesně odhadnout počet lidí, kteří v ní bydlí.  
+* Velikost, tvar a umístění budovy mohou pomoci identifikovat ji jako potenciální místo pro evakuace nebo léčení.  
+* Velikost, tvar a relativní umístění budov lze využít při identifikaci konkrétních míst, jako jsou studny, stanice pomoci, školy atd.  
+* Lze stanovit míru škod způsobených budovou, která může být použita k odhadu počtu potenciálních obětí a velikosti podpory, která by byla požadována - to se v současné době (leden 2015) projednává pro budoucí využití.  
 
 
-### Buildings - How to Map
+### Budovy - Jak mapovat
 
-The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
+Drtivá většina budov, které vyžadují mapování HOT, jsou buď založena na obdélníkových tvarech s pravoúhlými nebo kulatými rohy. Pokud budova vypadá, že je směsí obou tvarů, pravděpodobně se díváte na budovu, jejíž obrysy jsou zkresleny stínem, odrazem, zelení nebo podobným způsobem.  
 
-For some tasks where only an outline of an area is required, the task may specify that buildings can be mapped as nodes, but these situations are now rare.  
+U některých úkolů, kde je vyžadován pouze obrys oblasti, může být povoleno mapovat budovy jako body, ale tyto situace jsou velmi vzácné.  
 
 
 #### building=yes
 
-Unless the project instructions specify otherwise, buildings should be tagged **building=yes**  
+Pokud není v instrukcích u projektu uvedeno jinak, budovy by měly být označeny **building = yes**  
 
-*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
+* Mezi focením satelitních snímků a samotným mapováním může být často časové zpoždění. Je možné, že budova, na kterou se díváte, nemá střechu, ale teď už je dokončená a obydlená. Je také možné, že se díváte na budovu s několika podlažími, dolní patra jsou obydlená, ale nejvyšší patro je momentálně bez střechy a obyvatel.  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 's').  
+> **Mapování budov pomocí iD** - když vytváříte základí tvar oblasti pomocí nástroje pro vytváření oblastí v iD editoru, nesmíte zapomět nastavit značku **building=yes**. Výchozí nastavení pouze označí tvar jako **area=yes**. Pokud vytváříte budovu s hranatými rohy, udělejte ji pravoúhlou (klikněte na ni a zmáčkněte klávesu 'S' ).  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/more-tools/#the-buildings-tools-plugin)  
+*  JOSM je pro mapování budov rychlejší - [JOSM building tools je vysvětlen zde.](/cs/josm/josm-more-plugins/#doplněk-buildings-tools)  
 
 ![Buildings iD][]
 
-This screenshot shows part of a square being edited. Note the scale at the bottom of 15 metres - about the figure you should aim at when editing features. When tracing, you are aiming to place the building where it meets the ground:  
+Tento snímek obrazovky zobrazuje část čtverce, který je upravován. Všimněte si měřítka ve spodní části 15 metrů - je to číslo, na které byste se měli při úpravách podívat. Při kreslení se snažte umístit budovu tam, kde se stýká se zemí:  
 
-1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM or iD I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, JOSM - use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size.  
-2.  **Rectangular buildings.** These particular buildings are casting a noticeable shadow. The shadow can help to identify the shape of a building which is partially obscured by another feature. You will find that many buildings are not so simple, and have a verandah or are 'L' shaped - you must trace the actual shape of the building as this will help to identify it when names & other data is being added as part of the ground survey process.  
-3.  **Barriers - walls (or hedges) of a compound.** Having examined the imagery, zooming in & out until I am satisfied that from the shape of the object (use its shadow as well to identify), I believe this to be a wall, and I have tagged it **barrier=wall**. Alternatives include barrier=fence and barrier=hedge.  
-4.  I have joined the barrier=wall to the building=yes at the corner of the building.  
+1. **Kulaté budovy** Bývají poměrně nízké a jejich stín je stěží viditelný. Kdybyste stáli mezi nimi, vypadali by jako kopule. Zatím jsem zakreslil a označil pouze jednu z nich **building=yes**. Chcete-li rychle přidat zbývající kulaté budovy v JOSM nebo iD, vyberte jednu (označte ji), zkopírujte ji pomocí zkratky *Ctrl + C*, přesuňte kurzor do středu jiné kulaté budovy stejné velikosti a vložte ji pomocí *Ctrl + V*. Jakmile jsou všechny kulaté budovy této velikosti přidány, vložím budovu na místo jiné velké kulaté budovy, v JOSM - pomocí *Alt + Ctrl* a myši jí nastavím správnou velikost a pokračuji v kopírování stejným způsobem, jako u předchozích budov.  
+2. ** Obdélníkové budovy ** Tento typ budov vrhá znatelný stín. Stín může pomoci určit tvar budovy, která je částečně zakryta jiným objektem. Zjistíte, že mnohé budovy nejsou tvarově jednoduché a mají verandu nebo mají tvar písmene „L“ - musíte vyznačit skutečný tvar budovy, je důležitý při její identifikaci při terénním průzkumu, když se jí přiřazuje jméno a další informace.  
+3. **Bariéry - betonové (nebo živé) ploty.** Zkoumal jsem snímky, přiblížoval a oddaloval, dokud jsem nebyl spokojen s tvarem objektu (využil jsem i stíny k jeho identifikaci), myslím si, že je to zeď a tak jsem ji označil **barrier=wall**. Alternativní označení může být **barrier=fence** a **barrier=hedge**.  
+4. Spojil jsem **barrier=wall** s **building=yes** v rohu budovy.  
 
 
-### Satellite imagery distorting the building shape.
+### Satelitní snímky zkreslují tvar budovy.
 
 
 ![Buildings_2][]
 
-1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
+1. Satelitní snímky výše obsahují budovy, ale satelit nebyl přímo nad nimi, takže budova vypadá zkresleně a je viditelná zadní stěna. Kvůli tomuto úhlu nemá střecha tvar obdélníku. Slunce je prakticky přímo nad budovou, takže stín budovy označený šipkami s číslem 1 potvrzuje, že budova je obdélníková.  
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
+2. Chcete-li tuto budovu zmapovat, vytvořte obdélník, který se rozprostírá od šipek s číslem 2, až k předpokládanému konci budovy, označenému na obrázku šipkou s číslem 3.  
 
 
 ***
 
 
-More to follow - see the below links for more guidance.
+Další informace naleznete v následujících odkazech.
 
 
-# Further Reading
+# Více informací
 
--  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
--  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
--  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
--  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
+-  [Tipy pro HOT Mapování v zapádní Africe od uživatele Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
+-  [OSM wiki článek týkající se ověřování](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
+-  [Highway značka v Africe - preferovaný způsob značení cest v Africe](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
+-  [Krátký tutoriál ve francouzštině o vzdáleném mapování](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
 [iD 3]: /images/coordination/iD_3.png
 [JOSM 4]: /images/coordination/JOSM_4.png
