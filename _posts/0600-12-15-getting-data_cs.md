@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: Getting OSM Data
+title: Stahování dat z OSM
 permalink: /cs/osm-data/getting-data/
 lang: cs
 category: osm-data
 ---
 
-Getting OSM Data
+Stahování dat z OSM
 =================  
 
-> This guide may be downloaded as [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) or [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
-> Zkontrolováno 2016-04-05
+> Tento návod můžete stáhnout jako [Getting_OSM_Data_en.odt](/files/Getting_OSM_Data_en.odt) nebo [Getting_OSM_Data_en.pdf](/files/Getting_OSM_Data_en.pdf)  
+> Zkontrolováno 5.4.2016
 
-When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
+Pokud chcete získat nejnovější data z OpenStreetMap, nejjednodušším způsobem je stáhnout požadovanou oblast z webu. Existují různé webové služby, které poskytují tuto službu.  
 
-Downloading Data Extracts
+Stažení výtažku dat
 --------------------------
 
 ### GeoFabrik

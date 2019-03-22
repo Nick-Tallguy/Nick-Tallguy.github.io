@@ -21,7 +21,7 @@ Obsah kapitoly
 [Silnice a dálnice včetně cest a tras](/cs/coordination/remote-tracing/#cesty)  
 [Silniční síť](/cs/coordination/remote-tracing/#silničn%C3%AD-s%C3%ADť)  
 [Rezidenční hranice](/cs/coordination/remote-tracing/#rezidenčn%C3%AD-hranice)  
-[Budovy, zdi, ploty, betonové zdi a bariéry](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
+[Budovy, zdi, ploty, betonové zdi a bariéry](/cs/coordination/remote-tracing/#budovy,-zdi,-ploty-a-bariéry)  
 
 
 ## Cesty

@@ -6,9 +6,9 @@ lang: cs
 category: coordination
 ---
 
-# OSM Tasking Manager Vytvoření a správa projektu
+# OSM Tasking Manager - Vytvoření a správa projektu
 
-> Tento návod může být stažen jako samostatný modul: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) nebo [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
+> Tento návod může být stažen jako samostatný modul: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) nebo [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf)   
 
 **Tento návod popisuje aktuální verzi Tasking Manageru. Pokud uživatelské rozhraní verze, které používáte, vypadá jinak než to, který je zde popsáno, měli byste si prohlédnout [manuál pro předchozí verzi](/cs/coordination/tasking-manager-project-admin)**
 

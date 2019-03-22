@@ -6,70 +6,70 @@ lang: cs
 category: mobile-mapping
 ---
 
-> This guide may be downloaded as [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) or [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  
+> Tento návod můžete stáhnout jako [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) nebo [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf) 
 
 BasicAirData GPS Logger
 =======================
 
 ![BasicAirData-GPSLogger-002][]
 
-BasicAirData GPS Logger is a simple app to record your position and your path. It is a basic and lightweight GPS tracker focused on accuracy, with an eye to power saving. This app is very accurate in determining your altitude if you enable EGM96 automatic altitude correction on settings. You can record all your trips, view them in your preferred external viewer (it must be installed) directly from the in-app tracklist, and share them in KML, GPX, and TXT format in many ways.
+BasicAirData GPS Logger je jednoduchá aplikace pro záznam vaší pozice a vaší cesty. Jedná se o základní a nenáročný GPS tracker zaměřený na přesnost, s důrazem na úsporu energie. Tato aplikace je velmi přesná při určování výšky, pokud v nastavení povolíte automatickou korekci nadmořské výšky EGM96. Můžete zaznamenávat všechny své cesty, prohlížet si je v preferovaném externím prohlížeči (musí být nainstalován) přímo ze seznamu stop v aplikaci a sdílet je několika způsoby ve formátu KML, GPX a TXT.
 
-The app is available for Android devices, free and open source.
+Aplikace je dostupná zdarma pro zařízení Android a jako open source.
 
-The application is freely downloadable from [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br>
-As alternative, the APK is directly downloadable in GPSLogger's [GitHub repository](https://github.com/BasicAirData/GPSLogger/tree/master/apk).
+Aplikaci lze zdarma stáhnout z [Google Play(tm)](https://play.google.com/store/apps/details?id=eu.basicairdata.graziano.gpslogger).<br>
+Alternativně můžete stáhnout APK přímo z [GitHub repository](https://github.com/BasicAirData/GPSLogger/tree/master/apk) GPSLogger.
 
-Features
+Funkce
 --------
 
 ![BasicAirData-GPSLogger-000][]
 
-* Track recording - the app has no integrated maps
-* A modern UI with a low consumption dark theme and a tabbed interface
-* Foreground & background recording (On Android 6+ please turn off all battery monitoring and optimizations for this app)
-* Placemark creation also while recording
-* Visualization of GPS information
-* Manual altitude correction (adding an overall offset)
-* Automatic altitude correction based on NGA EGM96 Earth Geoid Model (must be enabled in the settings)
-* Real time track statistics
-* In-app tracklist showing the list of recorded tracks
-* Visualization of your tracks using any installed KML/GPX viewer, directly from the tracklist
-* Track export in the /GPSLogger folder of your device, in KML, GPX, and TXT
-* Track sharing, in KML, GPX, and TXT format, via E-mail, Dropbox, Google Drive, FTP, ...
-* Uses metric, imperial, or nautical units
+* Záznam stopy - aplikace nemá integrované mapy
+* Moderní UI v tmavých barvách s nízkou spotřebou a tabulkovým rozhraním
+* Nahrávání v popředí i na pozadí (V systému Android 6+ vypněte všechna monitorování a optimalizace baterie pro tuto aplikaci)
+* Vytváření POI během záznamu trasy
+* Vizualizace GPS informací
+* Ruční korekce nadmořské výšky (přidání celkového posunu)
+* Automatická korekce nadmořské výšky založená na modelu NGA EGM96 Earth Geoid (musí být zapnuta v nastavení)
+* Statistiky stopy v reálném čase
+* Zobrazení seznamu zaznamenaných stop přímo v aplikaci
+* Zobrazení vašich stop pomocí jakéhokoliv KML/GPX prohlížeče, přímo z jejich seznamu
+* Export stop ve formátu KML, GPX, a TXT do adresáře /GPSLogger ve vašem zařízení
+* Sdílení stop ve formátu KML, GPX, a TXT přes E-mail, Dropbox, Google Drive, FTP, ...
+* Používá jednotky metrické, britské, nebo námořní
 
-Basic Usage
+Základy používání
 -----------
 
 ![BasicAirData-GPSLogger-001][]
 
-If the GPS location is not active on your phone, activate it. Then go in an open area and start GPS Logger.
+Nemáte-li zapnutou GPS v mobilu, zapněte ji. Pak jděte na prostranství a zapněte GPS Logger.
 
-1. Wait until the app finds the fix. When available, the __GPS FIX__ tab will start to show the coordinates of the Fix. At this point (when possible) you should wait at least another minute before proceeding with the next phase in order to allow the signal to stabilize
-2. Click on the __Trackpoints__ button of the bottom panel to start recording track points. The button will become red. You can switch recording process on and off at any time by clicking on that button. The button shows the number of the trackpoints recorded.
-You can go to the __TRACK__ tab to view in real time the statistics of your trip.
-3. When your trip is finished, double-tap on the little __V tick__ located near the upper right corner to finalize (finish) the active track.
-4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen
+1. Počkejte, až aplikace získá vaši pozici. Jakmile je k dispozici, v záložce **GPS FIX** se začnou zobrazovat souřadnice. V tomto okamžiku (pokud je to možné) vyčkejte alespoň další minutu, než budete pokračovat další fází, aby se signál stabilizoval
+2. Klikněte na tlačítko **Trackpoints** na dolním panelu a začněte zaznamenávat body stopy. Tlačítko zčervená. Proces nahrávání můžete kdykoli zapnout a vypnout kliknutím na toto tlačítko. Na tlačítku se zobrazuje počet zaznamenaných bodů stop.
+Můžete přejít na záložku **TRACK** a zobrazit v reálném čase statistiky vaší trasy.
+3. Po dokončení cesty klepněte na malou fajfku **V** v pravém horním rohu a dokončete (ukončete) aktivní stopu.
+4. Přejděte na záložku **TRACKLIST**, kde najdete právě zaznamenanou stopu. Vyberte ji. Zobrazí se nabídka. Můžete ji sdílet mnoha způsoby, zobrazit ji pomocí nainstalovaného externího prohlížeče, exportovat ji do složky /GPSLogger ve smartphonu nebo ji odstranit ze seznamu stop. Formáty použité pro export lze konfigurovat v nastavení
 
-Import of GPX tracks in OpenStreetMap Editor
+Import GPX stop do editoru OpenStreetMap
 --------------------------------------------
 
-When you are done collecting field data, you may import the GPX tracks for use in JOSM, iD or another OpenStreetMap Editor.
-You can use this simple 2-step procedure:
+Po dokončení sběru dat v terénu můžete importovat GPX stopy pro použití v JOSM, iD nebo jiném editoru OpenStreetMap.
+Tento jednoduchý postup se skládá ze 2 kroků:
 
-1. Save the GPX track on your Personal Computer in one of the following ways:
-* Go on the GPS Logger tracklist, tap on the desired track and then click on __Export__; the GPX file will be created and saved on the /GPSLogger folder of your Android device (make sure that GPX format is enabled on the settings screen). Then connect the phone with your PC using a USB cable and move (or copy) your GPX tracks on your PC using the File Manager;
-* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via e-mail, FTP, or using many Cloud Services). The sharing possibilities depend on the third-party apps installed on your Android Device;
-2. Import the GPX track into your OpenStreetMap Editor: using the GPX tracks with the JOSM and iD editors is easy by dragging the files and dropping them into the application (or the browser tab, for iD).
+1. Uložte GPX stopu do svého osobního počítače jedním z následujících způsobů:
+* Otevřete si seznam GPS stop, klepněte na požadovanou stopu a poté na **Export**; soubor GPX bude vytvořen a uložen ve složce / GPSLogger ve vašem zařízení Android (ujistěte se, že je v nastavení aktivován formát GPX). Poté připojte telefon k počítači pomocí kabelu USB a přesuňte (nebo zkopírujte) GPX stopu do počítače pomocí Správce souborů;
+* Jako alternativu můžete použít funkci **Share** k odeslání souboru do počítače (můžete to provést prostřednictvím e-mailu, FTP nebo pomocí mnoha Cloudových služeb). Možnosti sdílení závisí na aplikacích třetích stran nainstalovaných ve vašem zařízení s Androidem;
+2. Vložte GPX stopu do editoru OpenStreetMap: import GPX stop do editoru JOSM a iD je snadný, stačí přetáhnout soubory do aplikace (nebo do záložky prohlížeče u iD editoru).
 
-Official Documentation
+Oficiální dokumentace
 ----------------------
 
-- For further information about this app you can read [this article](http://www.basicairdata.eu/projects/android/android-gps-logger/).<br>
-- [Here](http://www.basicairdata.eu/projects/android/android-gps-logger/getting-started-guide-for-gps-logger/) you can find a Getting Started Guide and an Overview of the App Settings.<br>
-- Problems during use or configuration of GPS Logger? Read the [Frequently Asked Questions](https://github.com/BasicAirData/GPSLogger/blob/master/readme.md#frequently-asked-questions) page!
+- Více informací k této aplikaci si můžete přečíst v [tomto článku](http://www.basicairdata.eu/projects/android/android-gps-logger/) (anglicky).<br>
+- [Tady](http://www.basicairdata.eu/projects/android/android-gps-logger/getting-started-guide-for-gps-logger/) naleznete průvodce pro začátečníky a přehled nastavení v aplikaci (anglicky).<br>
+- Máte problém s používáním nebo nastavením GPS Loggeru? Přečtěte si stránku [Často kladené otázky](https://github.com/BasicAirData/GPSLogger/blob/master/readme.md#frequently-asked-questions) (anglicky)!
 
 [BasicAirData-GPSLogger-002]:  /images/mobile-mapping/basicairdata-gpslogger_002.en.jpg
-[BasicAirData-GPSLogger-000]:  /images/mobile-mapping/basicairdata-gpslogger_000.en.jpg
+[BasicAirData-GPSLogger-000]:  /images/mobile-mapping/basicairdata-gpslogger_000.cs.jpg
 [BasicAirData-GPSLogger-001]:  /images/mobile-mapping/basicairdata-gpslogger_001.en.jpg
