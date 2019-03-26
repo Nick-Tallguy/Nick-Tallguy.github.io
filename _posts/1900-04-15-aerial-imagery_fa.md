@@ -12,25 +12,25 @@ category: josm
 > این راهنما را می‌توان به صورت [aerial-imagery_fa.odt](/files/aerial-imagery_fa.odt) یا [aerial-imagery_fa.pdf](/files/aerial-imagery_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۴/۰۶/۳۰  
 
-Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
+ردیابی تصاویر یک راه آسان و قدرتمند برای کمک به OSM است. استفاده از تصاویر برای رسم نقاط، خطوط و اشکال روی زمین **دیجیتالیزه** کردن نامیده می‌شود. اغلب می‌توان آنرا از عمل جمع‌آوری داده ویژگیهای روی زمین، که **ground-truthing** نامیده می‌شود، جدا دانست. تصاویر دیجیتالی می‌تواند اسکلت نقشه‌های OSM را فراهم کند، که باعث می‌شود مردم روی زمین درباره ground-truthing آنها راحت‌تر عمل کنند. در این فصل، ما کمی بیشتر درباره نحوه کار تصاویر هوایی یاد خواهیم گرفت.  
 
 درباره تصاویر ماهواره ای
 -------------
 
-Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
+لغت تصوير هوایی توصیف عکس هایی است كه از آسمان گرفته می شوند. این تصاویر می‌تواند به وسیله هواپیما، هواپیمای بدون سرنشین، هلیکوپتر یا حتی بادبادک و بالن گرفته شوند، اما شایع‌ترین منبع تصویربرداری، ماهواره‌های در حال چرخش در مدار زمین می‌باشد.  
 
-[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
+[در فصلمربوط به GPS](/fa/mobile-mapping/using-gps)، ما در مورد دهها ماهواره در مدار زمین که اجازه می‌دهند گیرنده های GPS ما طول و عرض جغرافیایی‌مان را شناسایی کنیم، آموختیم. علاوه بر این ماهواره های GPS نیز ماهواره‌هایی هستند که عکس‌های زمین را می‌گیرند. این عکسها پس از آن دستکاری می‌شوند تا در نرم افزار GIS (نقشه برداری) مورد استفاده قرار گیرند. تصویر هوایی بینگ از عکس های ماهواره ای تشکیل شده است.  
 
 دقت
 ----------
 
-All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  
+تمام عکس‌های دیجیتال از یکسری پیکسل تشکیل شده‌اند. اگر روی یک عکس بسیار بزرگنمایی انجام دهید، متوجه خواهید شد که تصویر شروع به تار شدن می‌کند، و در نهایت خواهید دید که یک تصویر از هزاران مربع کوچک ساخته شده است که هر کدام یک رنگ متفاوت هستند. این مورد در همه مواردی که عکس با یک دوربین دستی، یک تلفن همراه یا یک ماهواره مدار زمین گرفته شده صدق می‌کند.  
 
 ![Image resolution][]
 
-Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.  
+رزولوشن به تعداد پیکسل های عرض در ارتفاع تصویر گفته می‌شود. پیکسل بیشتر به معنای رزولوشن بالاتر است، به این معنی که شما قادر به دیدن جزئیات بیشتر در عکس هستید. رزولوشن در دوربین های دستی اغلب در مگاپیکسل اندازه‌گیری می‌شود. بیشتر مگاپیکسل دوربین شما قادر به ضبط است، هرچه دوربین‌تان قادر باشد که مگاپیکسل بیشتری ضبط کند، تصاویرتان رزولوشن بیشتری دارند.  
 
-Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.  
+تصاویر هوایی نیز به مهمی صورت هستند، با این تفاوت که معمولاْ درباره رزولوشن آنها به طور متفاوت صحبت می‌کنیم. در عکس‌های هوایی اندازه‌گیری امر مهمی است - چونکه، یک پیکسل نشان دهنده یک فاصله مشخصی روی زمین است. ما معمولاْ تصاویر را به عنوان چیزی شبیه "تصاویر با دقت دو متر" توصیف می کنیم، یعنی یک پیکسل برابر با دو متر روی زمین است. رزولوشن یک متری رزولوشن بالاتر از این است و رزولوشن ۵۰ سانتیمتری نیز حتی بالاتر خواهد بود. این به طور کلی محدوده تصاویری است که توسط بینگ ارائه می‌شود، هرچند که در مکانهای مختلف متفاوت بوده و در بسیاری از موارد حتی بدتر از دو متر است، در این صورت به سختی می‌توان اشیاء را در تصویر شناسایی کرد.  
 
 ![Comparison of low and high resolution imagery][]
 
@@ -41,13 +41,13 @@ Aerial imagery is the same, except that we usually talk about resolution differe
 
 هر پیکسل یک تصویر هوایی یک اندازه‌ و یک موقعیت جغرافیایی دارد،‌  همانطور که در بالا ذکر شد، علت این امر این است که تصاویر هوایی ژئورفرنس شده‌اند.  
 
-Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
+یک پیکسل در یک تصویر هوایی درست همانند یک نقطه GPS دارای طول و عرض جغرافیایی است. با این حال، همانطور که وضوح ضعیف می تواند چالش‌هایی را برای نقشه‌کشی ایجاد کند، به همین مقدار هم تصاویری که بد ژئورفرنس شده باشند در نرسم صحیح نقشه اختلال ایجاد میکنند.  
 
-Let's think for a moment about how georeferencing works, and why it is challenging to do. When somebody georeferences an image, they first identify a handful of pixels in the image that are known locations. If we have a square photograph, we might identify the coordinates of all four corners, and that way the whole image can be correctly placed.  
+بیایید چند لحظه در مورد روش ژئورفرنس کردن تصاویر و اینکه این کار تا چه حد چالش برانگیز است، فکر کنیم. وقتی کسی تصویری را ژئورفرنس می‌کند، ابتدا چند پیکسل روی تصویر را که مکان کاملاْ شناحته شده‌ای ست را شناسایی میکند. اگر یک عکس مربع شکل داشته باشیم، ابتدا مختصات چهارگوشه آنرا شناسایی کرده و با استفاده از آنها میتوانیم تصویر را به طور صحیح در محل قرار دهیم.  
 
-This all seems quite simple, but consider this: Earth is round; camera lenses are round; yet photographs are flat and 2-dimensional. This means that when a flat image is being mapped onto the round Earth, there is always going to be some stretching of the image and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular. Because of this problem, all of the pixels in an aerial image might not be perfectly placed.  
+این کاربه نظر ساده می‌رسد. اما این را در نظر داشته باشید که: زمین گرد است؛ لنزهای دوربین گرد هستند، با این حال عکس‌ها مسطح و دو‌بعدی هستند. این بدان معنی است که هنگامی که یک تصویر مسطح بر روی زمین گرد به عنوان نقشه قرار بگیرد، همیشه مقداری کشش و اعوجاج تصویر صورت می‌گیرد. تصور کنید که سعی کنید پوست پرتقال را صاف کنید. هیچگاه به صورت کاملاْ مستطیل در نخواهد آمد. به دلیل این مشکل، تمام پیکسل ها در یک تصویر هوایی ممکن است کاملاْ در محل خود قرار نداشته باشند.  
 
-Luckily, some really smart people have devised clever algorithms for solving this problem, and so the imagery that you see on Bing is pretty close to being accurate. In most places it won't be noticeably wrong at all - and it's certainly fine for making maps. The most common areas for imagery to be inaccurately located are in hilly, mountainous areas. In the [Correcting Imagery Offset chapter](/en/josm/correcting-imagery-offset) we will see how to correct for this problem.  
+خوشبختانه، برخی از مردم واقعاْ هوشمند، الگوریتم‌های هوشمندانه‌ای را برای حل این مشکل طراحی کرده‌اند و بنابراین تصاویری که در بینگ مشاهده می‌کنید بسیار دقیق هستند. در اغلب مکان‌ها، اشتباه قابل توجهی وجود ندارد و مطمئناْ برای ساخت نقشه‌ها مناسب است. شایع‌ترین مناطق برای نادرست بودن تصاویر در مناطق تپه‌ای و کوهستانی است. در [فصل تصحیح افست تصاویر] (/fa/josm/correing-imagery-offset) خواهیم دید که چگونه این مشکل را اصلاح می‌کنیم.  
 
 [Image resolution]: /images/josm/orange-resolution.png
 [Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png

@@ -19,11 +19,11 @@ Stažení výtažku dat
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
+[GeoFabrik](http://geofabrik.de) je společnost, která se specializuje na práci s OpenStreetMap. Na svých webových stránkách v sekci [download](http://download.geofabrik.de) poskytují zdarma ke stažení řadu oblastí ve formátu shapefile a surovém formátu OSM. Výhodou stahování dat GeoFabrik je, že jsou aktualizovány každý den a je to snadné a spolehlivé. Nevýhodou je, že data jsou extrahována podle zemí a ne všechny země jsou k dispozici.  
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
+[BBBike](http://download.bbbike.org/osm/bbbike/) poskytuje shapefiles a surový formát OSM pro města po celém světě, s týdenní aktualizací. To je užitečné, pokud potřebujete data pouze pro jediné město.
 
 >Remember that features in OpenStreetMap have an unlimited number of "free" tags,
 >but shapefiles have attributes stored in a limited number of columns. This means

@@ -34,7 +34,7 @@ category: beginner
     ![Mouse navigation][]
 
 اگر ماوسی با دکمه غلتان وسط دارید، با چرخاندن آن بزرگنمایی نقشه را کم . زیاد کنید، همچنین می‌توانید از دکمه‌های + و - گوشه راست بالای نقشه هم استفاده کنید. (شکل زیر را ببینید)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+- برای جستجوی یک مکان، در جعبه‌ای با عنوان "جستجو" در سمت چپ صفحه کلیک کنید (شکل بالا را ببینید). نام شهر یا روستای خود را بنویسید و Enter را فشار دهید. پنجره‌ای در سمت چپ نقشه ظاهر می‌شود که حاوی نتایج جستجو می‌باشد. روی مکانی که به نظر می‌رسد بیش از همه به محل مورد نظر شما شبیه باشد کلیک کنید. نقشه به طور خودکار به محل مورد نظر شما حرکت می کند.
 
     ![Search][]
    
@@ -42,20 +42,20 @@ category: beginner
 دیدن طرح‌های مختلف نقشه
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap شامل اطلاعات جغرافیایی از سراسر جهان است. اگر چه این یک پایگاه داده واحد است، اما داده‌ها را می‌توان به روش های مختلف تفسیر و مدلسازی کرد. برای دیدن این مورد در عمل، اجازه دهید نگاهی به "سبک"های مختلف نقشه موجود در وب سایت OSM بیندازیم.
 
 بر روی دکمه لایه‌ها در سمت راست پنجره نقشه کلیک کنید.
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+- بر روی گزینه‌های مختلف سبک برای نقشه کلیک کنید. توجه کنید که چگونه نقشه با هر یک از آنها تغییر می‌کند. برای مثال، نقشه حمل و نقل بر مسیرهای حمل و نقل روی نقشه تأکید می کند در حالی که نقشه دوچرخه بر مسیرهای دوچرخه سواری تأکید دارد. تمام داده‌ها برای ایجاد این امکانات در پایگاه داده OSM موجود است.
 
     ![Transport map][]
 
 ایجاد حساب OpenStreetMap
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+- حالا که دیدید وب سایت اصلی چطور به نظر می‌رسد، می‌توانید برای نام کاربری و رمز عبور ثبت نام کنید و اولین بار به نقشه مواردی را اضافه کنید.
 - در وبسایت OpenStreetMap بر روی دکمه "ثبت نام" (sign up) در گوشه بالا و راست صفحه کلیک کنید.
 صفحه جدیدی را می‌بینید که شبیه این است:
 
@@ -74,15 +74,15 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
     ![Confirming your OpenStreetMap account][]
 
 - یک پنجره جدید باز خواهد شد. اگر همه چیز مرتب باشد، حالا شما یک حساب کاربری OSM دارید!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+- در صفحه OpenStreetMap، روی "ورود به سیستم" در گوشه سمت راست بالا کلیک کنید. نام کاربری و رمز عبور OpenStreetMap خود را وارد کنید و Enter را فشار دهید. اکنون باید وارد سیستم شوید. باید نام کاربری خود را در گوشه بالا سمت راست صفحه مشاهده کنید.
 
 افزودن اولین نقطه
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
+- اکنون که با نام کاربری خود در وب سایت OpenStreetMap وارد سایت شده‌اید، می‌توانید از ویرایشگر ID برای اضافه کردن اولین نقطه خود به نقشه استفاده کنید.
+- نقشه را به جایی که با آن منطقه به خوبی آشنایی دارید جابجا کنید. ایده خوبی است که اطمینان حاصل کنید که خانه شما (یا خانه همسایه شما) و محل کارتان وارد نقشه شده و آدرس صحیح داده شده است. 
 به محلی که می‌خواهید نقطه‌ای به نقشه اضافه کنید زوم کنید (شاید رستوران یا خواربارفروشی نزدیک محل‌تان هنوز کشیده نشده باشد).
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
+- درست بالای نقشه در سمت چپ، یک برگه با نام "ویرایش" با یک مثلث کوچک در کنار آن وجود دارد. روی مثلث کوچک کلیک کنید. شما باید منوی کشویی را ببینید.
 بر روی "ویرایش با iD (داخل ویرایشگر)" کلیک کنید.
 
     ![Click edit][]
@@ -91,19 +91,19 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+- برای اضافه کردن نقطه به نقشه می‌توانید بر روی دکمه به نام "نقطه" در بالای پنجره کلیک کنید. سپس روی نقشه، جایی که می خواهید یک نقطه جدید اضافه کنید، کلیک کنید.
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+- از منوی سمت چپ انتخاب کنید که کدام نوع مکان است که شما به نقشه اضافه می‌کنید. سپس می‌توانید فرم را با نام محل و سایر اطلاعات مناسب پر کنید.
+- برای ذخیره تغییرات خود، بر روی دکمه "ذخیره" در بالای صفحه کلیک کنید. از آنجا که این اولین ویرایش شماست، ممکن است ترجیح دهید با ویرایشگر بازی کنید. تغییرات خود را ذخیره نکنید، مگر اینکه مطمئن شوید که آنها درست هستند.
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+- اگر روی "ذخیره" کلیک کنید، از شما خواسته خواهد شد که برای تغییرات خود توضیحاتی ارائه کنید. سپس میتوانید یک بار دیگر "ذخیره" را کلیک کنید، و اضافه کردن شما در پایگاه داده OSM ذخیره خواهد شد!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+ویرایشگر iD یک روش فوق‌العاده برای ویرایش OpenStreetMap است و می‌توانید اطلاعات بیشتری در مورد استفاده از آن را در [راهنمای ویرایشگر iD](/fa/beginner/id-editor/) پیدا کنید. همچنین می‌توانید در [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) بازی کنید که یک روش عالی و تعاملی برای کشف ویرایشگر است.
 
 با این وجود، در [بخش JOSM(/fa/josm/) نگاهی به برنامه کاربردی مستقلی خواهیم انداخت که قابلیتهای بسیار زیادی ارائه می‌کند. در کمال آسایش به بازی کردن با iD ادامه دهید. وقتی که تجربه بیشتری در مشارکت در OSM پیدا کنید می‌توانید تصمیم بگیرید که از کدام ویرایشگر بهتر و راحتتر استفاده کنید - iD یا JOSM.
 
