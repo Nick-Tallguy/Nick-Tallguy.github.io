@@ -25,47 +25,47 @@ Stažení výtažku dat
 
 [BBBike](http://download.bbbike.org/osm/bbbike/) poskytuje shapefiles a surový formát OSM pro města po celém světě, s týdenní aktualizací. To je užitečné, pokud potřebujete data pouze pro jediné město.
 
->Remember that features in OpenStreetMap have an unlimited number of "free" tags,
->but shapefiles have attributes stored in a limited number of columns. This means
->that when OSM data is converted into shapefiles, only the specified tags will be
->included in the shapefile table. The websites listed above provide shapefiles
->with a default set of common tags, but if you want to extract specific tags
->you will need to use one of the more specialized services in the next section
->or learn how to export the data yourself.
+>Pamatujte si, že objekty v OpenStreetMap mohou obsahovat neomezené množství "volných" značek,
+>ale shapefiles má atributy uloženy v datově omezené tabulce. To znamená,
+>že při konverzi OSM dat do shapefile, budou do jeho tabulky zahrnuty
+>pouze specifické značky. Výše uvedené webové stránky poskytují shapefiles
+>s přednastavenou sestavou běžných značek, ale chcete-li extrahovat konkrétní značky,
+>bude potřeba využít více specializované služby z následující sekce
+>nebo se naučit exportovat data vlastními silami.
 
-Customized Extracts
+Vlastní extrakty
 -------------------
 
 ### HOT Exporty  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+[Humanitarian OpenStreetMap tým](http://hotosm.org) vytvořil nástroj, který umožňuje uživatelům vybrat si oblast, kterou chtějí extrahovat a využít [JOSM Předvolby](/cs/josm/josm-presets/)
+ k výběru vlastních značek a zahrnout je do extraktu. Služba je dostupná pro všechny země, ve kterých HOT pracuje a to na adrese [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike  
 
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
+U této služby si můžete vybrat vlastní oblast z kterékoli části světa na adrese [http://extract.bbbike.org/](http://extract.bbbike.org/). Nevýhodou je, že si nemůžete vybrat konkrétní značky a omezení na množství dat, které můžete stáhnout.  
 
 ### Overpass
 
-Overpass is an API (Application Programming Interface) for extracting data from a read-only copy of the main OpenStreetMap database which can deliver an almost arbitrary amount of data. Using a query language you can customize which subset of the data you obtain. You can either use the API directly by generating a http-request or through the overpass turbo interface.
+Overpass je rozhraní API (Application Programming Interface) pro extrahování dat z kopie hlavní databáze OpenStreetMap, která je určena pouze pro čtení, čímž můžete přenést téměř libovolné množství dat. Pomocí dotazovacího jazyka si můžete nadefinovat, kterou podmnožinu dat chcete získaných. API můžete použít přímo ke generování http požadavku nebo přes rozhrani overpass turbo.
 
 #### Overpass Turbo
 
-[Overpass Turbo](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
+[Overpass Turbo](http://overpass-turbo.eu/) je interaktivní generátor dotazů, ve kterém si nejprve přiblížíte příslušnou oblast na mapě. Zadáte svůj dotaz do levého pole na stránce a požadovanou akci spustíte pomocí tlačítka v horní části rozhraní. Pokud jste nováček v dotazovacím jazyku, měli byste začít průvodcem. Wiki OSM obsahuje [ucelený popis](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) syntaxe dotazovacího jazyka a taktéž [spoustu příkladů](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
-The map will highlight all data selected by your query which you can then modify. Press "Run" to refresh the result display. Once you are satisfied with what you see then "Export" offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well access them directly after switching between map view and data view using the rightmost buttons at the top. The export option *Query -> compact OverpassQL* generates a hyperlink to be used for the Overpass API.
+Mapa zvýrazní všechna data vybraná dotazem, který pak můžete upravit. Stisknutím tlačítka **Run** obnovíte zobrazené výsledky. Jakmile jste spokojeni s tím, co vidíte, pak tlačítko **Export** nabízí řadu možností, mezi nimi i surová data OSM. Pokud je množství dat omezeno, můžete k nim přistoupit také přímo a to přepnutím ze zobrazení mapy na zobrazení dat pomocí tlačítek vpravo nahoře. Možnost exportu *Query -> (compact) OverpassQL* vygeneruje hypertextový odkaz, který lze použit v Overpass API.
 
 ![overpass turbo][]
 
-If you want to engineer a fancy query in order to obtain a subset of the data from a large area then it is a good idea to test and improve this query in Overpass Turbo on a small area. You can then zoom out to your complete region of interest and use the resulting query url directly for the API. The next section explains how you can do this.
+Chcete-li vytvořit zajímavý dotaz, abyste získali podmnožinu dat z velké oblasti, je vhodné tento dotaz nejprve otestovat a vylepšit na malé ploše v Overpass Turbo. Poté si můžete nastavit pohled na celou oblast vašeho zájmu a použít výslednou adresu URL dotazu přímo v rozhraní API. V následující sekci si řekneme, jak na to.
 
 #### Overpass API
 
-[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) is a dedicated service optimized for querying but not writing OpenStreetMap data. Due to this optimization it operates very fast compared to the main database api and has virtually no limits on the amount of data transferred. Several instances of this service are available on the net, the one used in the following example also provides some information on [its homepage](http://overpass-api.de/)
+[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) je služba optimalizovaná výhradně pro dotazování OSM, nikoli pro zápis dat do OpenStreetMap. Díky této optimalizaci pracuje velmi rychle ve srovnání s hlavním api databáze a nemá prakticky žádné limity na množství přenesených dat. Několik instancí této služby je k dispozici na síti, informace o námi použité v následujícím příkladu, naleznete na [její domovské stránce](http://overpass-api.de/)
 
-If you have a working query-URL for submitting an http-request to the Overpass API then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a script for the bash shell common on Unix systems which obtains all data within a specified bounding box:
+Pokud máte funkční URL dotaz pro odeslání http požadavku na API Overpass, pak nástroj jako [wget](https://www.gnu.org/software/wget/) - dostupný pro různé operační systémy, viz [zde](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - umožňuje stáhnout surová data OSM přímo ze serveru a lokálně je uložit. Následující úryvek obsahuje skript pro bash shell běžný v systémech Unix, který získává všechna data v zadaném ohraničovacím rámečku:
 
 ```
 echo lower left latitude
@@ -81,7 +81,7 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->What happens here (for the curious who do not want to read the full query language documentation)?  
+> Co tento dotaz udělá (pro zvědavé, kteří nechtějí číst celou dokumentaci dotazovacího jazyka)?  
 >node(...) selects all nodes within a bounding box;  
 >< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;  
 >rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
