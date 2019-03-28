@@ -71,7 +71,7 @@ nebo
 4. Importované oblasti zájmu nelze upravovat.
 
 
-## Tvorba úkolů (task)
+## Vytvoření úkolu (task)
 
 Oblast zájmu AoI pro projekt je rozsáhlá celková oblast, která má být mapována. Tato oblast je pak rozdělena na menší oblasti nazvané Tasks, neboli Úkoly. 
 

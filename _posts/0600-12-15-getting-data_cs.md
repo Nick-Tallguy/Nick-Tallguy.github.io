@@ -65,7 +65,7 @@ Chcete-li vytvořit zajímavý dotaz, abyste získali podmnožinu dat z velké o
 
 [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) je služba optimalizovaná výhradně pro dotazování OSM, nikoli pro zápis dat do OpenStreetMap. Díky této optimalizaci pracuje velmi rychle ve srovnání s hlavním api databáze a nemá prakticky žádné limity na množství přenesených dat. Několik instancí této služby je k dispozici na síti, informace o námi použité v následujícím příkladu, naleznete na [její domovské stránce](http://overpass-api.de/)
 
-Pokud máte funkční URL dotaz pro odeslání http požadavku na API Overpass, pak nástroj jako [wget](https://www.gnu.org/software/wget/) - dostupný pro různé operační systémy, viz [zde](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - umožňuje stáhnout surová data OSM přímo ze serveru a lokálně je uložit. Následující úryvek obsahuje skript pro bash shell běžný v systémech Unix, který získává všechna data v zadaném ohraničovacím rámečku:
+Pokud máte funkční URL dotaz pro odeslání http požadavku na API Overpass, pak nástroj jako [wget](https://www.gnu.org/software/wget/) - dostupný pro různé operační systémy, viz [zde](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - umožňuje stáhnout surová data OSM přímo ze serveru a lokálně je uložit. Následující úryvek obsahuje skript pro bash shell běžný v systémech Unix, který získává všechna data v zadaném rámci:
 
 ```
 echo lower left latitude
@@ -82,9 +82,9 @@ url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$
 wget -O $file "$url"
 ```
 > Co tento dotaz udělá (pro zvědavé, kteří nechtějí číst celou dokumentaci dotazovacího jazyka)?  
->node(...) selects all nodes within a bounding box;  
->< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;  
->rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
+>*node(...)* vybere všechny uzly v zadaném rámci;  
+>< výběr úplný, tj. vybere všechny cesty obsahující tyto uzly a všechny relace obsahující tyto uzly a cesty;  
+>*rel(br)* vybere všechny mateřské relace dusud nalezených relací (jinak by master relace nebylo možné získat)
 >
 
 
@@ -92,7 +92,7 @@ wget -O $file "$url"
 Shrnutí
 -------  
 
-The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
+Služby zmíněné v této kapitole mají vše, co průměrný uživatel potřebuje k získání OSM data a dále je zpracovat v softwaru GIS. Možná se sami budete chtít naučit účinnější způsoby práce s daty. Zbývající kapitoly v této sekci jsou poměrně technické, ale ukazují pokročilejší metody manipulace a přístupu k údajům OSM.  
 
 
 [hot exports]: /images/osm-data/hot-exports.png
