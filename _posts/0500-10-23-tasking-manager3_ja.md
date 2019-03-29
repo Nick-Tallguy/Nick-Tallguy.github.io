@@ -275,7 +275,7 @@ OpenStreetMapの編集を行い、変更をアップロードする際に、エ�
 
 例:  
 
-    @HOTMppr nice work tracing the building  
+    @HOTMppr 建物のトレース、完璧です！  
     details here. You missed a small group  
     of houses on the upper left of the task square,  
     I added a few in, but some still remain.  
@@ -291,8 +291,8 @@ OpenStreetMapの編集を行い、変更をアップロードする際に、エ�
 メールやIRCメッセージなどで、プロジェクト内の特定タスクについてなにかメッセージを送る（例えば衛星画像に何が写っているか判別に苦慮している場合）際には、以下の要領で行います:  
 
 1. 対象のタスクの四角形をクリック  
-2. ウェブブラウザのなかで、'http://tasks.hotosm.org/project/713?task=259'のような文字列が表示されているアドレスバー部分をクリック  
-3. Copy this link into the message. 
+2. ウェブブラウザのなかで、'http://tasks.hotosm.org/project/713?task=259' のような文字列が表示されているアドレスバー部分をクリック  
+3. このリンクをメッセージのなかにコピー 
 
 
 ## ヘルプを求める 
