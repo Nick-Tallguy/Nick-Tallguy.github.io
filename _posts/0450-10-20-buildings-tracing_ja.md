@@ -27,46 +27,46 @@ category: hot-tips
 - もし建物の角が直角である場合、トレースしたポリゴンもツールを使って角を直角にするべきです。  
 - タグを付けるのを忘れずに！  
 - サイズの問題 - *人口推定作業は、対象のエリア内に占める建物のエリアの割合で計算します*。  
-- the right size building the right way round will help people locate their village,  
-- Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
-- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- 正しいサイズで正しい位置に描かれた建物は、集落の位置を特定するのに役立ちます。  
+- 詳細な情報を確認するため、適切に表示を拡大しましょう - 多くの場合、20メートルあるいはそれ以下の縮尺が適切です。  
+- **建物を探す** - 適切に拡大を行った状態で、50メートルから80メートルほど、建物を探してみましょう。建物によって発生する影と、真っ直ぐな線がポイントです（円形の建物は探すのに苦労します！）。  
+- 建物や道路、河川、**landuse=residential**の境界線など、地物はオーバーラップしないように描きましょう。  
+- もし間違ってしまった場合、**やり直し/Undo** ボタン ![back arrow]{: height="26px"} をクリックすると、最後に行った変更が取り消されます。  
+- 私達の目的は、地図を改善することです。もし以前に編集を行ったマッパーが、おかしな形や明らかに間違った建物の描き方をしてしまっていることを見つけた場合、その形状を修正し、その人に優しい言葉でメッセージを送ってみましょう。  
 
-Buildings obscured or seen at an angle  
+形状が不明瞭、あるいはアングルがついている場合  
 --------------------------------------
 
 ![building-obscured][]  
 
-It is common for the satellite image to be taken at an angle making the building seem distorted. In the above image the image to the right shows how the building should be traced. It is often easiest to trace the outline of the roof, then drag this to the point where the walls meet the ground - this was the technique used to trace the building above. Notice also that a building partially obscured by trees has been correctly traced as rectangular. 
+衛星写真の撮影が斜め方向から行われた場合など、建物の形状がひずんでしまうことはよくあります。上記の画像では、右側の画像が、建物の形状を正しく描いた状態です。このような建物を描く際に利用されるテクニックとしては、まず建物の屋根の形状をトレースし、その後、建物と地面が接している部分までオブジェクトをドラッグして移動する方法が、一番簡単です。また、建物の一部が樹木で隠されてしまっている場合は、正しく四角形の形状で建物を描くようにしてください。 
 
-Buildings with a ridged roof
+屋根に傾斜のある建物
 ----------------------------
  
-Most buildings either have corners at 90 degrees, or they are round buildings.  
+円形の建物も稀にありますが、ほとんどの建物は、四角形の角が90度で形成されています。  
 
 ![building-ridge][]  
-This building has 90 degree corners, but has a ridge on its roof. The camera angle initially makes the building look a strange shape.  
+この建物は角が90度で形成されていますが、屋根に傾斜があるようです。そのため、カメラの画角の影響で、形が奇妙に歪んでしまっています。  
 
 ![building-tree-ridge][]  
-This building has a tree partially obscuring it. It is a rectangular building.  
+この建物は、一部が樹木で隠されてしまっています。形状は四角形のようです。  
 
-In isolated parts of the world it is common to use sheets of corrugated iron as roofing - when new these will reflect the sunlight which creates a **very bright flare effect** on the satellite imagery. It is common for buildings to have a verandah or be **L shaped** and you should ensure that your tracing follows the shape of the building.  
-When tracing the building outline, you must try to trace the building at the right size, and at the point where its walls meet the ground - do your best! In many parts of the world, buildings are partially constructed and then left without roofs until they are sold, or otherwise wanted for use. Map a building without a roof as a normal building as it does not take long to add a roof, and the roof may have been added already, in the time since the satellite imagery was taken.  
+世界の一部では、屋根にトタンを使うことはしばしば行われていますが、トタンが日光を反射することによって、衛星写真に **非常に明るい、フレア効果** が映ることがあります。また、屋根にはベランダがある場合や、 **形状がL字状**である場合もあります。トレースした建物の形について、気を配るようにしましょう。  
+建物の形状をトレースする場合、建物の大きさはできるだけ正確に、そして建物の壁が地面と接している部分をトレースするようにしましょう。がんばりどころです！ 世界の多くの場所では、建物は建てられている途中であったり、売り先や用途が見つかるまで屋根がつけられなかったりすることがあります。屋根のない建物も、普通の建物と同じように描くようにしてください。そうした建物は屋根がつけられるまでそれほど長い期間かかりませんし、衛星写真の撮影期間によっては、既に現在、屋根がつけられている可能性も十分にあります。  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+最善を尽くしましょう - 熟練したマッパーでもたまに間違うことがありますが、マッピングを行う際には、そこに表示されているものをなるべく正確に描くようにしましょう。 **もし迷うような場合、建物を描いてしまってください。**  
 
-Building Tags
+建物のタグ付け
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.
+今回のような作業の場合、私達はそこに訪れたこともなければ、詳しく状況を見知ったこともない場所を描きます。そのため、最も安全かつお勧めのタグは **building**=**yes** です。建物のオブジェクトにこのタグがついているかどうかは、iDの画面左側のタグ情報ペインの一番下、**すべてのタグ**をクリックすると確認できます。
 
-See also  
+参考情報  
 ---------
 
 - [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
-*Subtitles available in some languages*  
+*言語によっては字幕あり*  
 
 - [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
