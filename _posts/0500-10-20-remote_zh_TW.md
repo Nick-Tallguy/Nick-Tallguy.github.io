@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Remote, Armchair or Mapathon editing
+title: 遠端、沙發畫圖或圖客松編輯
 permalink: /zh_TW/coordination/remote/
 lang: zh_TW
 category: coordination
