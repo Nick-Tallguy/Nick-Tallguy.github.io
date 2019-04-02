@@ -26,11 +26,11 @@ Tasking Managerの使い方 - iDエディタ
 3. **解説** と **マッピング方法解説** を読み、どのような作業を行うべきか、作業開始前に理解してください。 
 4. マッピングした結果は '確認者/validators' によってチェックされます。時折、作業した内容について、フィードバックのメッセージが送られることがあります。  
 ![TM-start-at-top]{: height="100px"}  
-**Tip -** Many validators start working at the top of the map and work down - you are more likely to get valuable feedback at an early stage if you use the map & select a square as close to the top as you can. (The yellow squares have been marked as complete, and the green ones have been marked as complete and then validated). Click on a white or pale grey square - more info at [Guide to the Tasking Manager](/en/coordination/tasking-manager/).  
-5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
-6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
-4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
-5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+**TIP -** 検証担当者は、多くが、地図の上部から下に向かって検証作業を開始します。もし地図からタスクを選択している場合、上部に近い箇所から作業を始めると、有益なフィードバックを得られる可能性が高くなります。（黄色にマークされた部分は既に完了しているタスクです。また、緑色にマークされた部分は、作業と確認が両方とも完了しています）白、あるいは薄い灰色の四角形をクリックしてください。より詳しい情報は[Tasking Managerガイド](/ja/coordination/tasking-manager/)を参照してください。  
+5. マッピングの開始 - マッピングを始める前に、このサイトのHOT Tipsの章を読み進めるようにしてください。特にTipsのなかの [円形の建物の描き方](/ja/hot-tips/tracing-round-buildings/) と [四角形の角をもつ建物の描き方](/ja/hot-tips/tracing-rectangular-buildings/) は役に立ちます。  
+6. - こまめに保存しましょう - [HOT tips - 作業の保存](/ja/hot-tips/saving/) を参照してください。  
+4. 忍耐強く待ちましょう - しばしば、検証作業ができる人に比べて新しいマッパーの数が多すぎ、フィードバックの連絡が遅くなることがあります！ その間は、別のマッピングを行いながら待てばよいのですが、もし自分が間違いをしてしまったことに気がついた場合、それが修正可能なものならば直してしまうか、難しければヘルプをあげるようにしましょう（誰でも間違いはあります）。  
+5. 例えばメッセージを送ったり、リアルタイムのフィードバックをやりとりしたりするなど、自分が作業しているタスクを明確に把握したい場合、[LearnOSMのTasking Managerの章](/ja/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)を参照してください。  
 
 参考情報  
 ---------
