@@ -73,22 +73,22 @@ nebo
 
 ## Vytvoření úkolu (task)
 
-Oblast zájmu AoI pro projekt je rozsáhlá celková oblast, která má být mapována. Tato oblast je pak rozdělena na menší oblasti nazvané Tasks, neboli Úkoly. 
+Oblast zájmu (AoI) pro projekt je rozsáhlá celková oblast, která má být mapována. Tato oblast je pak rozdělena na menší oblasti nazvané Tasks, neboli Úkoly. 
 
 AoI definovaná nahraným nebo ručně vykresleným souborem se objeví v rámečku mapy a poté budete požádáni, abyste zvolili, jak je AoI rozdělena na jednotlivé úkoly. Existují dvě možnosti:  
 
 1. Čtvercová mřížka - Správce úkolů rovnoměrně rozdělí celou oblast projektu na přesně stejné čtverečky úkolů. To je obvykle velmi dobrý nápad pro obecné projekty zpracovávané dobrovolníky.
 2. Libovolné geometrie - Pokud jste nahrali soubor a definovali jeho oblast projektu, může tento soubor obsahovat i tvary jednotlivých úloh. V mapování musí být zvláštní potřeba vytvořit vlastní tvary úkolů. Projekt importu silnic může vyžadovat například vlastní tvary úkolů nebo výstup z procesu redukce AoI.
 
-### Using the Square Grid for task squares
+### Rozdělení úkolu pomocí čtvercové mřížky
 
-To create uniform square tiles, select the Square Grid option.  
+Chcete-li vytvořit jednotné čtvercové dlaždice, využijte možnost Square Grid.  
 
 ![TM Tile Sizes][]
 
-The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+AoI se automaticky rozdělí na buňky mřížky a každá buňka představuje úkol. Pomocí tlačítek "Větší" a "Menší" určete optimální velikost dlaždice. Menší velikost dlaždice bude mít za následek více úkolů. Optimální velikost dlaždice bude tedy záviset jak na velikosti oblasti (vytvořit menší dlaždice pro velký projekt), tak na počtu objektů, které je potřeba zmapovat v rámci každé dlaždice. Obecně řečeno, jak se velikost AoI a/nebo počet pravděpodobných objektů zvyšuje, velikost dlaždice u projektu by se měla snížit. 
 
-Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+Všimněte si prosím, že **existuje více vrstev map, které lze použít při určování velikosti čtverce úloh**. Tlačítko v pravém dolním rohu mapy poskytne seznam dostupných mapových vrstev. Volba jedné z vrstev snímků je pravděpodobně nejlepší volbou, protože umožňuje zobrazit aktuální snímky, které mají být mapovány.
 
 If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
 
