@@ -88,7 +88,7 @@ Chcete-li vytvořit jednotné čtvercové dlaždice, využijte možnost Square G
 
 AoI se automaticky rozdělí na buňky mřížky a každá buňka představuje úkol. Pomocí tlačítek "Větší" a "Menší" určete optimální velikost dlaždice. Menší velikost dlaždice bude mít za následek více úkolů. Optimální velikost dlaždice bude tedy záviset jak na velikosti oblasti (vytvořit menší dlaždice pro velký projekt), tak na počtu objektů, které je potřeba zmapovat v rámci každé dlaždice. Obecně řečeno, jak se velikost AoI a/nebo počet pravděpodobných objektů zvyšuje, velikost dlaždice u projektu by se měla snížit. 
 
-Všimněte si prosím, že **existuje více vrstev map, které lze použít při určování velikosti čtverce úloh**. Tlačítko v pravém dolním rohu mapy poskytne seznam dostupných mapových vrstev. Volba jedné z vrstev snímků je pravděpodobně nejlepší volbou, protože umožňuje zobrazit aktuální snímky, které mají být mapovány.
+Všimněte si prosím, že **existuje více mapových vrstev, které lze použít při určování velikosti čtverce úloh**. Pod tlačítkem v pravém dolním rohu mapy najdete seznam dostupných mapových vrstev. Volba jedné z vrstev snímků je pravděpodobně nejlepší volbou, protože umožňuje zobrazit aktuální snímky, které mají být mapovány.
 
 If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
 
