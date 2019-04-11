@@ -9,22 +9,22 @@ category: josm
 قالبهای آماده JOSM 
 ============
 
-> This guide may be downloaded as [josm-presets_en.odt](/files/josm-presets_en.odt) or [josm-presets_en.pdf](/files/josm-presets_en.pdf)  
-> Reviewed 2016-09-17  
+> این راهنما را می‌توان به صورت[josm-presets_fa.odt](/files/josm-presets_fa.odt)) و یا [josm-presets_fa.pdf](/files/josm-presets_fa.pdf)) دانلود کرد.  
+تاریخ بازبینی ۱۳۹۵/۰۶/۲۷  
 
-If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
+اگر مدت طولانی است که از JOSM استفاده می‌کنید، در مورد برچسب‌ها و قالبهای آماده خیلی چیزها میدانید. هر شیء توسط دو چیز تعریف می‌شود - اول، هندسه آن (به صورت نقطه، خط یا شکل و مکان آن)، و دوم، ویژگی‌های آن که در قالب تگ هستند.  
 
-When you draw an object and select from the Presets menu, the correct tags are automatically applied to the object.  
+هنگامی که چیزی را رسم می‌کنید و از منوی Presets انتخاب میکنید، تگ‌های صحیح به صورت خودکار به شی اعمال می شوند.  
 
-If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
+چنانچه تمایل به استفاده از قالبهای آماده دارید، وقتی می‌خواهید تگهایی را که در منو وجود ندارد اضافه کنید یا وقتی می‌خواهید تگهای خود را سفارشی کنید چه اتفاقی می افتد؟  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+در این مورد، می‌توانید آیتم‌های منوی سفارشی را به قالبهای آماده اضافه کنید. در این بخش خواهیم دید که چگونه این کار را انجام دهیم. در [فصل بعد] (/fa/josm/creating-presets)، ما نحوه ایجاد قالبهای آماده سفارشی برای خودتان را پوشش خواهیم داد.  
 
 
-Add Presets
+اضافه کردن قالبهای آماده
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+منوها و زیرمنوهایی که منوی Presets را تشکیل می‌دهند در فایل‌هایی ذخیره می‌شوند که نحوه ایجاد منو و فرم‌هایی را که هنگام کلیک بر روی یک قالب آماده بالا می‌آیند را شرح میدهند، و نحوه تعریف تگهایی که به شی افزوده می‌شود بر اساس نحوه پرکردن فرم تعریف میکنند.  
 
 Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
 
@@ -33,7 +33,7 @@ Presets files can either be added from an online archive, or saved on your compu
 
 ![tagging presets tab][]
 
-* At the top, click on "Tagging Presets."  
+* از قسمت بالا روی "Tagging Presets" (تگهای پیش تنظیم شده) کلیک کنید.  
 
 ![tagging presets menu][]
 
@@ -41,7 +41,7 @@ Presets files can either be added from an online archive, or saved on your compu
 
 ![example presets][]
 
-* You will see a new item appear in the list on the right.  
+* میبینید که یک آیتم جدید به لیست طرف راست افزوده می‌شود.  
 * Ok را کلیک کنید.  
 * لازم است که JOSM را بسته و دوباره اجرا کنید.  
 * لایه جدیدی ایجاد کنید و یک نقطه یا شکل به آن اضافه کنید.  

@@ -8,35 +8,35 @@ cover: yes
 nosearch: true
 ---
 
-HOT Tips - Getting started for new mappers using iD and a Tasking Manager
+ترفندهای HOT - شروع به کار به عنوان نقشه‌کش جدید با استفاده از ویرایشگر iD و مدیر وظایف
 ================
 
-This series of short guides is aimed at volunteers helping to map for Aid Agencies using a Tasking Manager, but the principles are the same for all OpenStreetMap mapping. Mapping is easy,  but let's get it right and keep improving the map!
+این مجموعه از راهنماهای مختصر با هدف کمک به داوطلبان جهت نقشه‌کشی برای سازمان‌هایی که مدیر وظایف استفاده میکنند ارائه شده است، اما اصول همانند نقشه‌کشی در OpenStreetMap است. نقشه‌کشی آسان است، اما اجازه دهید آن را صحیح انجام داده و نقشه را بهبود ببخشیم!
 
-Use the menu to choose the order that suits you.  
+از منو استفاده کنید تا نوع مورد نظر خود را انتخاب کنید.  
 
 همچنین ببینید  
 ---------
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "گروه بشردوستانه  OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای")  
+*برای بعضی زبانها زیرنویس وجود دارد*  
 
 ![iD help]{: height="400px"}  
-iD help menu - always available when you are editing which includes an optional walkthrough.    
+منوی کمک iD - در حال ویرایش همیشه وجود دارد و شامل walkthrough اختیاری نیز می‌باشد.    
   
-[iD shortcut list on wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
+[لیست میانبرهای iD در ویکی)(https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
-[OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Main_Page)  
+[ویکی OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page)  
 
-[Blake Girardot's guide to West Africa Mapping](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[راهنمای Blake Girardot در مورد نقشه‌کشی در غرب آفریقا](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-If you are new to OpenStreetMap the following modules of our beginner section will be useful to you;  
+اگر شما در OpenStreetMap تازه‌کار هستید قسمتهای ذیل در بخش راهنمای مبتدیان ما برایتان مفید خواهد بود؛  
 
--  [Introduction to mapping](/en/beginner/introduction/)  
--  [OpenStreetMap.org](/en/beginner/start-osm/)
+- [مقدمه‌ای بر نقشه‌کشی](/fa/beginner/introduction/)  
+-  [OpenStreetMap.org](/fa/beginner/start-osm/)
 
 
 
-[HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[لوگوی HOT به همراه متن]:/images/hot-tips/Hot_logo_with_text.svg
+[منوی کمک iD]:/images/hot-tips/iD-help.png "منوی کمک iD - در حال ویرایش همیشه وجود دارد و شامل walkthrough اختیاری نیز می‌باشد."
+[فیلم‌های آموزشی یک دقیقهای]: /images/hot-tips/one-mnute-tutorial-videos.png "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای"

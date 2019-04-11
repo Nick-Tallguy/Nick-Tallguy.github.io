@@ -9,39 +9,39 @@ category: resources
 
 # سایر منابع
 
-> Reviewed 2018-02-24
+> تاریخ بازبینی ۱۳۹۶/۱۲/۰۵
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+این یک لیست از اشاره‌گرها به وب سایتهای دیگر است که از نظر ما مفید هستند. در زمان آخرین بازبینی این سند، صحت تمام پیوندها تأیید شد.
 
-  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
+  * [لیست لینکهای Maptime در مورد نقشه‌کشی و سایر عناوین مرتبط با نقشه‌برداری] (http://maptime.io/lessons-resources/) لیست جامعی از پیوندهاست که نه تنها در مورد OpenStreetMap می‌باشند بلکه شامل تجسم، ایجاد نقشه و نقشه برداری وب نیز می‌شوند.
 
 
 ## ویرایش
 
 ### iD
 
-  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
-  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
-  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
+  * [آموزش یکپارچه iD](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) یک آموزش تعاملی درباره استفاده از iD به عنوان بخشی از نرم‌افزار
+  * [اسلایدهای نمایشی که حاوی محتویات راهنمای ما است](/files/iD-editor-training.pptx) چیز خوبی است اگر می‌خواهید مقدمه‌ای درباره iD ارائه کنید، برای مثال در یک کارزار نقشه
+  * [ویدئوهای آموزشی HOT](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) مجموعه‌ای از فیلم‌های آموزنده است که بیشتر بر روی نقشه‌کشی با iD و JOSM متمرکز می‌باشند. 
+  * [ویدئوهای آموزشی iD](https://www.sjtdelfs.de/wordpress/?page_id=84) تعدادی فیلم کوتاه که نحوه انجام کارهای رایج را توضیح می‌دهند.
+  * [دروس ویدئویی در مورد داده‌های OpenStreetMap](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) ارائه‌های سخنرانی مانند در مورد جنبه‌های مختلف تگ‌ها، لایه‌ها و روابط
 
-## Mapathons and similar events
+## کارزارهای نقشه و مناسبتهای مشابه
 
-  * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
-  * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university
-  * [developmentSEED guide for Mapathons](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) This document is based on a talk at a State of the Map conference about how to organize and run a mapathon
+  * [مدخل ویکی در مورد کارزار نقشه‌های مفقود](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) تقریباْ سیاهه‌ای از مواردی که در صورت تمایل به برگزاری یک کارزار نقشه بایست مد نظر داشته باشید؛ گرچه که بیشتر در جهت نقشه‌های مفقود می‌باشد اما بطور کلی در مورد اغلب کارزارهای نقشه بکار می‌رود
+  * [مدخل ویکی در مورد کارزارهای نقشه در مجموعه دانشگاهی](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) تقریبا یک سند همانند پیشین است، اما نکات خاصی را در مورد برگزاری این مناسبتها در دانشگاه دارد
+  * [راهنمای developmentSEED در مورد کارزارهای نقشه](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) این سند براساس گفتگویی است که در یکی از کنفرانسهای حالت نقشه در مورد چگونگی سازماندهی و اجرای یک کارزار نقشه ارائه شده است
 
-### چک لیست برنامه ریزی
+### چک لیست برنامهریزی
 
-  * [MapGive checklist for an event](https://mapgive.state.gov/box/#resources&event-checklist)
+  * [چک لیست مناسبتهای MapGive](https://mapgive.state.gov/box/#resources&event-checklist)
 
-### اعانه 
+### جزوه‌ها 
 
-  * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
+  * [محتویات چاپی نقشه‌های مفقود](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) بیشتر جزوات برای نقشه های مفقود علامت گزاری شده‌اند، بنابراین اگر شما مایل به استفاده از آنها برای رویداد دیگری هستید، باید جهت انطباق مجوز آنها اقدام کنید
 
 ## آمار
 
-  * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
-  * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
-  * [Who is around me ](http://resultmaps.neis-one.org/oooc) map display about mappers who recently contributed in an area
+  * [مدخل ویکی در مورد MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) یک ابزار هماهنگ سازی ساده منبع باز. طبق گفته ویکی دیگر به صورت فعال نگهداری نمی‌شود. 
+  * [پیشرفت لحظه به لحظه OpenStreetMap](https://github.com/osmlab/show-me-the-way) صفحه توضیحات گیت‌هاب چگونگی فیلتر کردن صفحه نمایش را شرح داده تا تغییرات کل دنیا را مشاهده نکنید
+  * [چه کسی در نزدیکی من است](http://resultmaps.neis-one.org/oooc) نقشه‌کشهایی را که به تازگی در محدوده شما مشارکت داشته‌اند را روی نقشه نشان میدهد
