@@ -12,25 +12,25 @@ category: hot-tips
 - TOC
 {:toc}
 
-<!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  
-> Created 2016-10-30  -->  
+<!-- > این راهنما را می‌توان به صورت [tm_starting_fa.odt](/files/tm_starting_fa.odt) و یا [tm_starting_fa.pdf](/files/tm_starting_fa.pdf) دانلود کرد.  
+> ایجاد شده در تاریخ ۱۳۹۵/۰۸/۰۹ -->  
 
 ملزومات
 ----------
 
 ![Rectangular building][]  
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> این تصویر ![keymon]{: height="24px"} به شما نشان می‌دهد که کدام کلیدها و کلید چرخان ماوس بایستی استفاده و کدام کلید از صفحه کلید فشرده شود.  
 
-Points to note;  
+نکاتی که باید یادآوری کرد؛  
 
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners.  
-- Make sure you tag!  
-- Size matters - *population estimates are based on the cumulative building area in a given area*,  
-- the right size building the right way round will help people locate their village,  
-- Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
+- اگر ساختمان دارای گوشه‌های مربعی باشد، مطمئن شوید که آن را با گوشه‌های مربع ردیابی کرده‌اید، یا از ابزار استفاده کنید تا گوشه‌ها را مربع کنید.  
+- مطمئن شوید که تگ گذاشته‌اید!  
+- اندازه مهم است - * برآورد جمعیت بر اساس تجمیع ساختمانها در یک منطقه مشخص صورت می‌گیرد*،  
+- اندازه صحیح ساختمان به مردم به درستی کمک خواهد کرد تا روستای خود را در جای مناسب قرار دهند،  
+- به اندازه کافی برای دیدن جزئیات زوم کنید - مقیاس بزرگنمایی ۲۰ متر یا کمتر معمولاْ کافی است.  
+- ** در جستجوی ساختمان‌ها ** - با مقیاسی در حدود ۵۰ تا ۸۰ متر منطقه را پویش کنید. دنبال سایه‌ها و خطوط مستقیم باشید (پیدا کردن ساختمان‌های مدور سخت‌تر است!)  
+- ساختمان‌ها با جاده‌ها، رودخانه‌ها، مرز مناطق مسکونی **landuse=residential** و یا سایر ویژگی‌ها نباید همپوشانی داشته باشند.  
 - If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
 - We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
 
@@ -78,4 +78,4 @@ As we are tagging buildings we have never visited and are not familiar with, the
 [back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
 [building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "قبل و بعد - ترسیم یک ساختمان که از یک زاویه دیده می‌شود"
-[building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
+[فیلم‌های آموزشی در مورد ساختمان]: /images/hot-tips/building-video.png "فیلم‌های آموزشی گروه بشردوستانه OpenStreetMap - افزودن ساختمان به OpenSstreetMap"
