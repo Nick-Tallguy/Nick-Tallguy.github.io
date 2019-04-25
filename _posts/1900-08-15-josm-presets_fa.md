@@ -26,10 +26,10 @@ category: josm
 
 منوها و زیرمنوهایی که منوی Presets را تشکیل می‌دهند در فایل‌هایی ذخیره می‌شوند که نحوه ایجاد منو و فرم‌هایی را که هنگام کلیک بر روی یک قالب آماده بالا می‌آیند را شرح میدهند، و نحوه تعریف تگهایی که به شی افزوده می‌شود بر اساس نحوه پرکردن فرم تعریف میکنند.  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+فایل های Preset را می‌توان از یک بایگانی آنلاین اضافه نمود و یا به صورت محلی روی کامپیوتر ذخیره کرده و سپس به JOSM اضافه کرد.  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* برای اضافه کردن یک مدخل جدید به منوی  Presetها، JOSM را باز کنید و به Edit-> Preferences بروید.  
+* روی سه برگه (Tab) پایینتر، شکلی که شبیه کره زمین پوشیده شده با شبکه خطوط است کلیک کنید.  
 
 ![tagging presets tab][]
 
@@ -37,21 +37,21 @@ Presets files can either be added from an online archive, or saved on your compu
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* از اینترنت یک فایل قالب آماده را با انتخاب یکی از آنها در لیست سمت چپ و سپس کلیک روی فلش آبی، اضافه کنید. در این مثال، ما قالب آماده دارای نام "برچسب‌های جدید" را اضافه می‌کنیم.  
 
 ![example presets][]
 
-* میبینید که یک آیتم جدید به لیست طرف راست افزوده می‌شود.  
+* می‌بینید که یک آیتم جدید به لیست طرف راست افزوده می‌شود.  
 * Ok را کلیک کنید.  
 * لازم است که JOSM را بسته و دوباره اجرا کنید.  
 * لایه جدیدی ایجاد کنید و یک نقطه یا شکل به آن اضافه کنید.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* به منوی Preset بروید. یک مدخل اضافی در پایین مشاهده خواهید کرد که به چندین گزینه بعدی که در JOSM استاندارد وجود ندارد، گسترش پیدا می‌کند.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* اکثر قالبهای آماده تقریباْ موارد استفاده خاص را پوشش می‌دهند بنابراین فهرست را بگردید و آنچه را که مطابق خواسته‌تان است را پیدا کنید.  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* اگر به شما یک فایل قالب آماده سفارشی داده شده است، می‌توانید آن را به همین شیوه به منو اضافه کنید. به سادگی به منوی Preferences بروید و به جای انتخاب از لیست، روی دکمه (+) در بالا سمت راست کلیک کنید.  
 
 ![plus button][]
 
