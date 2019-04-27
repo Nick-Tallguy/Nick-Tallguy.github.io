@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: نگاه کلی به داده‌های OSM
 permalink: /fa/osm-data/data-overview/
 lang: fa

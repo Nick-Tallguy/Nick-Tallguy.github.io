@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: BasicAirData GPS Logger
 permalink: /fa/mobile-mapping/basicairdata-gpslogger/
 lang: fa

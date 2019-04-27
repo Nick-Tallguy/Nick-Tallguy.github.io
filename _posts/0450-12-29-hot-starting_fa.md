@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: Starting with a Tasking Manager - iD editor
 permalink: /fa/hot-tips/getting-started/
 lang: fa

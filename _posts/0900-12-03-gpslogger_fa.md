@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: نرم‌افزار آندروئید GPSLogger 
 permalink: /fa/mobile-mapping/gpslogger/
 lang: fa

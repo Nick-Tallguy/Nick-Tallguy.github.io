@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: تصحیح آفست تصاویر
 permalink: /fa/josm/correcting-imagery-offset/
 lang: fa

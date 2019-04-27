@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: مدیریت وظایف ۳
 permalink: /fa/coordination/tasking-manager3/
 lang: fa

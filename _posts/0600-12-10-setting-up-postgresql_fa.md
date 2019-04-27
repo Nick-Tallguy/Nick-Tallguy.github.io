@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: راه اندازی PostgreSQL
 permalink: /fa/osm-data/postgresql/
 lang: fa

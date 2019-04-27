@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: Tasking Manager 2 Project Creation
 permalink: /fa/coordination/tasking-manager-project-admin/
 lang: fa

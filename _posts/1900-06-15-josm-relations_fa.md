@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: رابطه‌های JOSM
 permalink: /fa/josm/josm-relations/
 lang: fa

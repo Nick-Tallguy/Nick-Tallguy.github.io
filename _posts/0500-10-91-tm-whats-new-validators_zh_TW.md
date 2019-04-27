@@ -1,17 +1,17 @@
 ---
-layout: doc-rtl
-permalink: /fa/coordination/tm-whats-new-for-validators/
-lang: fa
+layout: doc
+permalink: /zh_TW/coordination/tm-whats-new-for-validators/
+lang: zh_TW
 title: What is new for Validators in the Tasking Manager 3
 category: coordination
-تاریخ: ۱۲:۰۰:۰۰ ۲۱-۱۰-۰۵۰۰
+date: 0500-10-21 12:00:00
 ---
 
-# در مدیریت وظایف ۳ چه چیز جدید برای اعتباردهنده وجود دارد
+# What is new for Validators in the Tasking Manager 3
 
-> This guide may be downloaded as [tm3-news-for-validators_en.odt](/files/tm3-news-for-validators_en.odt) or [tm3-news-for-validators_en.pdf](/files/tm3-news-for-validators_en.pdf)  
+>此指南能以 [tm3-news-for-validators_zh_TW.odt](/files/tm3-news-for-validators_zh_TW.odt) 或 [tm3-news-for-validators_zh_TW.pdf](/files/tm3-news-for-validators_zh_TW.pdf) 下載  
 
-## پروفایل کاربری‌تان
+## Your User Profile
 
 The Tasking Manager 3 has a number of new features directed toward folks doing validation. Please make your **first activity in the new Tasking Manager visiting your User Profile**, which can be selected from the popdown menu under your OpenStreetMap (OSM) user name in the upper right corner.
 
@@ -22,9 +22,9 @@ The Tasking Manager 3 has a number of new features directed toward folks doing v
 2. **Validator Role** - Projects can optionally require experienced validators to validate project mapping. While "Mapper Experience Level" is automatically set based on OSM changesets, the validator role is currently only set by project managers manually. The initial list of folks with the validator role is incomplete, please contact a project manager to have your name added to the list of those with the validator role if you are an experienced validator who does not have the validator role in the Tasking Manager. **Please note**: The validator role is Tasking Manager wide and therefore we ask project managers to only assign this role to validators whose validation work they know directly, and have first hand knowledge the validator is qualified to validate any project in the Tasking Manager.
 
 
-## فرآیند اعتباربخشی
+## Validation Process
 
-### مرحله ۱ - انتخاب وظیفه
+### Step 1 - Task Selection
 
 Validating can only be done by clicking the "Validation" tab on a Project page. Once you have selected the "Validation" tab you have three main options for how to select tasks to validate.
 
@@ -42,7 +42,7 @@ Validating can only be done by clicking the "Validation" tab on a Project page. 
 
 Using your mouse to hover over the "Start" link will highlight the tasks that user has completed. Clicking on the "Start" link will lock them all for validation.
 
-### مرحله ۲ - اعتباربخشی وطایف متعدد
+### Step 2 - Validating Multiple Tasks
 
 Selecting one single task and launching your editor of choice will behave the same as in the previous version of the Tasking Manager, the real difference will be when you select multiple tasks and launch your editor.
 
@@ -59,7 +59,7 @@ When you are done validating, you have the three standard options, Mark all Vali
 If you need to mark tasks with different statuses after reviewing them, please check them out individually to mark them accordingly.
 
 
-## سایر موارد مرتبط به اعتباربخشی
+## Other Validation related Items
 
 1. **Questions and Comments tab** - This is now a tab for project level questions and comments. Validators should review the the comments in that tab and answer questions as needed. Validators can also use that tab and the "Contact the Project Manager" link to direct questions or comments to the creator of the project.
 

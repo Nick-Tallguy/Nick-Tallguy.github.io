@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: osm2pgsql
 permalink: /fa/osm-data/osm2pgsql/
 lang: fa

@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /fa/coordination/tm-whats-new-for-validators/
 lang: fa
 title: What is new for Validators in the Tasking Manager 3

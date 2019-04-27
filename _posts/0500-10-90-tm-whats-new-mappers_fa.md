@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 permalink: /fa/coordination/tm-whats-new-for-mappers/
 lang: fa
 title: جه جیز جدیدی در مدیریت وظایف ۳ برای نقشه‌کشها وجود دارد؟

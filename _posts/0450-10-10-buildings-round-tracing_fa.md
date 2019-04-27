@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: ردیابی ساختمانهای مدور - ویرایشگر iD
 permalink: /fa/hot-tips/tracing-round-buildings/
 lang: fa

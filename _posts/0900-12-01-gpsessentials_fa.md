@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: GPS Essentials
 permalink: /fa/mobile-mapping/gpsessentials/
 lang: fa

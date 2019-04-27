@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: استفاده از Geofabrik و خروجی HOT
 permalink: /fa/osm-data/geofabrik-and-hot-export/
 lang: fa

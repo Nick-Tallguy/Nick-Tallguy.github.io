@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: حل تداخل JOSM
 permalink: /fa/josm/josm-conflict-resolution/
 lang: fa

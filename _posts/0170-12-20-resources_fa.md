@@ -3,7 +3,7 @@ layout: doc-rtl
 title: سایر منابع
 permalink: /fa/resources/
 lang: fa
-cover: بله
+cover: yes
 category: resources
 ---
 

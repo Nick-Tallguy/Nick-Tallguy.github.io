@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: ابزارهای ساختمان JOSM و افزونه Utilsplugin2
 permalink: /fa/josm/josm-more-plugins/
 lang: fa
