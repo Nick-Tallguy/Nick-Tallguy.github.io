@@ -4,6 +4,7 @@
 *.mo
 _build/
 _site/
+vendor/
 .DS_Store
 Gemfile.lock
 serve/
