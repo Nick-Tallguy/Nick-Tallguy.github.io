@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: OSM Data Overview
+title: نگاه کلی به داده‌های OSM
 permalink: /fa/osm-data/data-overview/
 lang: fa
 category: osm-data
 ---
 
-OSM Data Overview
+نگاه کلی به داده‌های OSM
 ==================
 
 
-> This guide may be downloaded as [OSM_Data_Overview_en.odt](/files/OSM_Data_Overview_en.odt) or [OSM_Data_Overview_en.pdf](/files/OSM_Data_Overview_en.pdf)  
-> Reviewed 2016-09-05
+> این راهنما را می‌توان به صورت [OSM_Data_Overview_fa.odt](/files/OSM_Data_Overview_fa.odt) و یا [OSM_Data_Overview_fa.pdf](/files/OSM_Data_Overview_fa.pdf) دانلود کرد.  
+تاریخ بازبینی ۱۳۹۵/۰۶/۱۵
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 
