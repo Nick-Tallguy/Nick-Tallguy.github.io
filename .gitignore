@@ -5,6 +5,7 @@
 _build/
 _site/
 .DS_Store
+Gemfile.lock
 serve/
 jekyll_*log.txt
 _config.yml
