@@ -1,5 +1,5 @@
 ---
-layout: اسناد
+layout: doc-rtl
 title: سایر منابع
 permalink: /fa/resources/
 lang: fa
