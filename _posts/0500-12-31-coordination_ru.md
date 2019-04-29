@@ -12,7 +12,7 @@ nosearch: true
 Coordination
 ============
 
-> Reviewed 2015-09-18
+Testing translation update - https://github.com/hotosm/learnosm/issues/568 refers. This text may be deleted.  
 
 Because OpenStreetMap involves many people mapping together, it's useful to know how mappers can coordinate this activity.
 

@@ -9,7 +9,6 @@ category: resources
 
 # Další zdroje
 
-> Zkontrolováno 2018-02-24
 
 Toto je komentovaný seznam odkazů na jiné weby, které považujeme za užitečné. Všechny odkazy byly ověřeny, aby fungovaly při posledním přezkoumání tohoto dokumentu.
 

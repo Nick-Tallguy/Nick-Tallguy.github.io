@@ -9,7 +9,6 @@ category: resources
 
 # Otros Recursos
 
-> Revisado 2018-02-24
 
 Esta es una lista de marcadores comentados de otros sitios web que nosotros consideramos útiles. Todos los enlaces han sido verificados y funcionaban cuando se hizo la ultima revisión de este sitio.
 
