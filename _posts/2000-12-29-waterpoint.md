@@ -10,7 +10,6 @@ Waterpoint - Updating OSM from data held in a spreadsheet
 ============
 
 <!-- > This guide may be downloaded as [Waterpoint_en.odt](/files/Waterpoint_en.odt) or [Waterpoint_en.pdf](/files/Waterpoint_en.pdf)  
-> Created 2016-10-19  -->
 
 There are occassions when a large number of surveys are carried out, the data collected electronically, and this data consolidated into a spreadsheet. This guide illustrates how data, in this case data from a waterpoint survey, may be added to OpenStreetMap.
 

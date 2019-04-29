@@ -9,7 +9,6 @@ category: coordination
 Odwzorowywanie dróg, budynków, wody i zagospodarowania terenu
 ===========================================
 
-> Ten przewodnik może zostać pobrany jako [remote-tracing_pl.odt](/files/remote-tracing_pl.odt) lub [remote-tracing_pl.pdf](/files/remote-tracing_pl.pdf)  
 > Przejrzano 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  

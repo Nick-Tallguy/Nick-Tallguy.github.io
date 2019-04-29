@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager
 
-> ဤလမ်းညွှန်ချက်ကို [tasking-manager_my.odt](/files/tasking-manager_my.odt) (သို့မဟုတ်) [tasking-manager_my.pdf](/files/tasking-manager_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-08-26  
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**

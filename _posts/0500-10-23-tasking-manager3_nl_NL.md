@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Deze handleiding kan gedownload worden als  [tasking-manager3_nl_NL.odt](/files/tasking-manager3_nl_NL.odt) of [tasking-manager3_nl_NL.pdf](/files/tasking-manager3_nl_NL.pdf)  
 
 **Deze handleiding beschrijft de huidige versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor de vorige versie](/nl_NL/coordination/tasking-manager) moeten consulteren**
 

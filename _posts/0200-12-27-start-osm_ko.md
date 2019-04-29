@@ -9,7 +9,6 @@ category: beginner
 OpenStreetMap.org에서 기여 시작하기
 ====================================
 
-> 이 안내서는 [beginner_start-osm_ko.odt](/files/beginner_start-osm_ko.odt) 또는 [beginner_start-osm_ko.pdf](/files/beginner_start-osm_ko.pdf)로 다운로드할 수 있습니다  
 > 2015-07-12에 검토됨  
 
 이 문서에서 오픈스트리트맵 웹 사이트를 탐색하고, 지도를 보고, 계정을 만드는 법을 차례차례 배울 수 있습니다. 지도를 편집하려면 먼저 가입을 해야 합니다.

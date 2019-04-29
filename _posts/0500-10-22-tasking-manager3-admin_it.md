@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager OSM - Creazione ed Amministrazione di un Progetto
 
-> Questa guida può essere scaricata come modulo a se' stante: [tasking-manager3-admin_it.odt](/files/tasking-manager3-admin_it.odt) oppure  [tasking-manager3-admin_it.pdf](/files/tasking-manager3-admin_it.pdf) 
 
 **Questa guida descrive l'attuale versione del Tasking Manager. Se l'interfaccia utente della versione che stai usando è differente da quella descritta qui allora dovresti consultare il [manuale della precedente versione](/it/coordination/tasking-manager-project-admin)**
 

@@ -9,7 +9,6 @@ category: beginner
 Bevezetés
 ============
 
-> Ez az útmutató letölthető: [beginner_introduction_hu.odt](/files/beginner_introduction_hu.odt) vagy [beginner_introduction_hu.pdf](/files/beginner_introduction_hu.pdf)  
 > Átnézve: 2015-07-12  
 
 Az információ hatalom. Megfelelő információkkal és ezek helyes értelmezésével az emberek és a közösségek még inkább képessé válnak arra, hogy jobbá tegyék életüket és a jövőjükre vonatkozóan előremutató döntéseket hozzanak. Sok ember és szervezet hoz az életünket valamilyen formában befolyásoló döntéseket. Jó minőségű információval ezek a civil szervezetek, kormányzatok és polgárok jobb döntéseket hozhatnak, és így remélhetőleg jobbá teszik az életünket. A térkép nagyon módja az információtovábbításnak. 

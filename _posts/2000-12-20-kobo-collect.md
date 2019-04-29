@@ -10,7 +10,6 @@ Kobo Collect - KoBoToolbox - surveys with a mobile phone
 ============
 
 <!-- > This guide may be downloaded as [kobo_en.odt](/files/kobo_en.odt) or [kobo_en.pdf](/files/kobo_en.pdf)  
-> Created 2016-10-19  -->
 
 Kobo Collect is a mobile phone app. designed to be used for data collection. It is part of the open source <http://www.kobotoolbox.org/> suite of tools and a more detailed explanation of the suite of tools can be obtained from the website. KoBoToolbox was based upon OpenDataKit (ODK) and many modules are interchangeable. The creation of a survey using a spreadsheet programme may be difficult, and KoBoToolbox overcomes this by providing a simple web interface - this guide provides a simple explanation of how to use this web interface to create your survey.  
 

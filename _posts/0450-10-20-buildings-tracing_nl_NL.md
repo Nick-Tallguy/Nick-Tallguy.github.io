@@ -13,7 +13,6 @@ Rechthoekige gebouwen traceren - iD editor
 {:toc}
 
 <!-- >  Deze handleiding kan gedownload worden als [tm_starting_nl.odt](/files/tm_starting_nl.odt) of [tm_starting_nl.pdf](/files/tm_starting_nl.pdf)  
-> Gemaakt op 30-10-2016  -->  
 
 De beginselen
 ----------

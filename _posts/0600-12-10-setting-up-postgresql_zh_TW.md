@@ -9,7 +9,6 @@ category: osm-data
 PostgreSQL & PostGIS
 ====================
 
-> 此指南能以 [PostgreSQL_zh_TW.odt](/files/PostgreSQL_zh_TW.odt) 或 [PostgreSQL_zh_TW.pdf](/files/PostgreSQL_zh_TW.pdf) 下載  
 > 審閲於 2016-09-10
 
 In this chapter we will see how to set up PostgreSQL on Windows and how to create a database in which you can store geographic data. We'll be using the open source GIS software QGIS in this chapter, so it will be helpful if you are already familiar with it. In the following chapter, we will see how to import OpenStreetMap data into a PostgreSQL database.  

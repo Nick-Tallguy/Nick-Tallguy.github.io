@@ -8,7 +8,6 @@ category: coordination
 
 # Manage a Mapathon
 
-> Ten przewodnik może zostać pobrany jako [Manage_a_Mapathon_pl.odt](/files/Manage_a_Mapathon_pl.odt) lub [Manage_a_Mapathon_pl.pdf](/files/Manage_a_Mapathon_pl.pdf)  
 > Created 2017-01-30  
 
 - TOC

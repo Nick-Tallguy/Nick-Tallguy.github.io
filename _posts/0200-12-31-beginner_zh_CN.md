@@ -11,7 +11,6 @@ nosearch: true
 新手指南
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
 > Reviewed 2015-07-12  
 
 本指南将介绍如何逐步开始参与OpenStreetMap。你将学到 如何创建账号、如何使用基本的地图编辑软件，后续章节中还将学习如何外出 

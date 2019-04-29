@@ -11,7 +11,6 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
-> این راهنما را می‌توان به صورت [gps-essentials_fa.odt](/files/gps-essentials_fa.odt) و یا [gps-essentials_fa.pdf](/files/gps-essentials_fa.pdf) دانلود کرد  
 > تاریخ بازبینی ۱۳۹۴/۰۳/۰۳  
 
 نصب برنامه GPS Essentials

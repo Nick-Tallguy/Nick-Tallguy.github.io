@@ -8,7 +8,6 @@ category: coordination
 
 # OSM 과업 관리자 프로젝트 만들기 및 관리
 
-> 이 안내서는 [tasking-manager3-admin_ko.odt](/files/tasking-manager3-admin_ko.odt) 또는 [tasking-manager3-admin_ko.pdf](/files/tasking-manager3-admin_ko.pdf)로 다운로드할 수 있습니다 
 
 **이 안내서는 현재 버전의 과업 관리자를 설명하고 있습니다. 당신이 사용하고 있는 사용자 인터페이스가 여기서 설명하는 것과 다르다면 [이전 버전 안내서](/ko/coordination/tasking-manager-project-admin)를 찾아 보세요**
 

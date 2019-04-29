@@ -10,7 +10,6 @@ Kobo Form Builder - KoBoToolbox - surveys with a mobile phone
 ============
 
 <!-- > This guide may be downloaded as [kobo-form_en.odt](/files/kobo-form_en.odt) or [kobo-form_en.pdf](/files/kobo-form_en.pdf)  
-> Created 2016-11-7  -->
 
 This guide is based upon information obtained from <http://www.kobotoolbox.org/> - the site at this location contains easy to use guides on creating forms, and includes a free to use database of forms that have been created by other users. 
 

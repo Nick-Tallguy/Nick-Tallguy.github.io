@@ -10,7 +10,6 @@ Introduksjon
 ============
 
 Denne veiledningen kan lastes ned som [beginner_introduction_nb.odt](/files/beginner_introduction_nb.odt) eller [beginner_introduction_nb.pdf](/files/beginner_introduction_nb.pdf)  
-> Reviewed 2015-08-22  
 
 Informasjon er makt. Med god informasjon og den riktige forståelsen, kan enkeltindivider og samfunn forbedre egne liv og ta gode avgjørelse for fremtiden. Det er mange mennesker og organisasjoner som tar avgjørelser som påvirker livene våre. God informasjon gir disse NGOene (Ikke-statlige organisasjoner), myndigheter og borgere mulighet til å ta bedre avgjørelser, og forhåpentligvis gjøre livene våre bedre. Kart er en god måte å formidle informasjon på. 
 

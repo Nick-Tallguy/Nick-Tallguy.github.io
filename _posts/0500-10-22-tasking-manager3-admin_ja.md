@@ -8,7 +8,6 @@ category: coordination
 
 # OSM Tasking Manager プロジェクト作成と管理
 
-> このガイドは別途、次の形式でもダウンロードできます: [tasking-manager3-admin_ja.odt](/files/tasking-manager3-admin_ja.odt) or [tasking-manager3-admin_ja.pdf](/files/tasking-manager3-admin_ja.pdf) 
 
 **このガイドは現行バージョンのTasking Managerについて解説を行っています。もしあなたが利用している画面がこのガイドと異なっている場合は、[以前のバージョンのマニュアル](/ja/coordination/tasking-manager-project-admin)を参照するようにしてください。**
 

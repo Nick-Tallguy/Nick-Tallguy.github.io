@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager
 
-> این راهنما را می‌توان به صورت [tasking-manager_fa.odt](/files/tasking-manager_fa.odt) و یا [tasking-manager_fa.pdf](/files/tasking-manager_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۰۴  
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**

@@ -8,7 +8,6 @@ category: coordination
 
 # Trình quản lý tác vụ 3
 
-> Hướng dẫn này có thể tải tại đây [tasking-manager3_vi.odt](/files/tasking-manager3_vi.odt) or [tasking-manager3_vi.pdf](/files/tasking-manager3_vi.pdf)  
 
 **Hướng dẫn này mô tả phiên bản hiện tại của Trình quản lý tác vụ. Nếu giao diện người dùng của phiên bản bạn sử dụng trông khác với trình mô tả ở đây thì bạn nên tham khảo [hướng dẫn sử dụng cho phiên bản trước đó](/vi/coordination/tasking-manager)**
 

@@ -9,7 +9,6 @@ category: josm
 Wtyczki JOSM
 ============
 
-> Ten przewodnik może zostać pobrany jako [josm-plugins_pl.odt](/files/josm-plugins_pl.odt) lub [josm-plugins_pl.pdf](/files/josm-plugins_pl.pdf)  
 > Przejrzano 2015-07-14  
 
 As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  

@@ -8,7 +8,6 @@ category: coordination
 
 # Создание и администрирование проектов в Менеджере задач OSM
 
-> Это руководство можно скачать в формате: [tasking-manager3-admin_ru.odt](/files/tasking-manager3-admin_ru.odt) или [tasking-manager3-admin_ru.pdf](/files/tasking-manager3-admin_ru.pdf) 
 
 **Это руководство описывает текущую версию Менеджера задач. Если версия используемая Вами визуально отличается, ознакомьтесь с [гайдом по предыдущей версии](/ru/coordination/tasking-manager-project-admin)**
 

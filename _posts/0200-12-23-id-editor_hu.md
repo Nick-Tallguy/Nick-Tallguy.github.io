@@ -9,7 +9,6 @@ category: beginner
 Az iD szerkesztő
 =============
 
-> Ez az útmutató letölthető: [beginner_id-editor_hu.odt](/files/beginner_id-editor_hu.odt) or [beginner_id-editor_hu.pdf](/files/beginner_id-editor_hu.pdf)  
 > Átnézve: 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  

@@ -9,7 +9,6 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> 此指南能以 [OruxMaps_zh_TW.odt](/files/OruxMaps_zh_TW.odt) 或 [OruxMaps_zh_TW.pdf](/files/OruxMaps_zh_TW.pdf) 下載  
 > 審閲於 2016-08-04 雖然稍微過時仍然是有點用，並包含一個連結到網站自己的軟體使用手冊。
 
 In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  

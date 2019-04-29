@@ -5,7 +5,6 @@ permalink: /my/coordination/tasking-manager-project-admin/
 lang: my
 category: coordination
 ---
-> ဤလမ်းညွှန်ချက်ကို [tasking-manager-admin_my.odt](/files/tasking-manager-admin_my.odt) (သို့မဟုတ်) [tasking-manager-admin_my.pdf](/files/tasking-manager-admin_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။ 
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3-project-admin)**
 

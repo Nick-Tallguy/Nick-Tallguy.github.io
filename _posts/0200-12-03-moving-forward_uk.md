@@ -9,7 +9,6 @@ category: beginner
 Подальше читання
 ===============
 
-> Цей путівник може бути завантажений як [beginner_moving-forward_en.odt](/files/beginner_moving-forward_en.odt) або [beginner_moving-forward_en.pdf](/files/beginner_moving-forward_en.pdf)  
 > Перевірено 2015-07-12  
 
 Якщо ви це зробили – вітаємо! Тепер ви чудово розумієте, як створювати мапу в OpenStreetMap. Що ще ви можете зробити в OSM? Як ви можете навчитися більшого? Як ви можете долучитися до спільноти маперів?   

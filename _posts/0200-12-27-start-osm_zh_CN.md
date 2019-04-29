@@ -9,7 +9,6 @@ category: beginner
 从OpenStreetMap.org入门
 ====================================
 
-> 本指南有[beginner_start-osm_zh_CN.odt](/files/beginner_start-osm_zh_CN.odt)和[beginner_start-osm_zh_CN.pdf](/files/beginner_start-osm_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.

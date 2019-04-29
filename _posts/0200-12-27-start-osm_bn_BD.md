@@ -9,7 +9,6 @@ category: beginner
 OpenStreetMap.org আরম্ভ করা
 ====================================
 
-> এই সহায়িকাটি [beginner_start-osm_en.odt](/files/beginner_start-osm_en.odt) অথবা [beginner_start-osm_en.pdf](/files/beginner_start-osm_en.pdf) ফাইল হিসাবে ডাউনলোড করা যাবে  
 >নিরীক্ষিত ২০১৫-০৭-১২  
 
 এই অনুচ্ছেদে আমরা ধাপে ধাপে OpenStreetMap ওয়েবসাইট, মানচিত্র ভ্রমন এবং নতুন অ্যাকাউন্ট তৈরী করার পদ্ধতি শিখতে পারবো। আপনার নিজের ব্যবহারকারী নাম ও পাসওয়ার্ড থাকলে আপনি মানচিত্র সম্পাদনার মাধ্যমে অবদান রাখতে পারবেন।

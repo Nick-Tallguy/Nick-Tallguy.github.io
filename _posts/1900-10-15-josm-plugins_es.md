@@ -9,7 +9,6 @@ category: josm
 Complementos JOSM
 ============
 
-> Esta guía puede ser descargada como [josm-plugins_es.odt](/files/josm-plugins_es.odt) o [josm-plugins_es.pdf](/files/josm-plugins_es.pdf)  
 > Revisado 2015-07-14  
 
 A medida que avanzas en tus técnicas de edición, es posible que desees utilizar funciones adicionales de JOSM para mejorar tus habilidades de mapeo. JOSM te permite instalar numerosos complementos, que agregan funcionalidad adicional al programa.  

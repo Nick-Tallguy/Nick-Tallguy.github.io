@@ -9,7 +9,6 @@ category: osm-data
 osm2pgsql
 ==========
 
-> Deze handleiding kan gedownload worden als [osm2pgsql_nl_NL.odt](/files/osm2pgsql_nl_NL.odt) of [osm2pgsql_nl_NL.pdf](/files/osm2pgsql_nl_NL.pdf)  
 
 In het vorige hoofdstuk hebben we gezien hoe Postgresql met PostGIS in Windows in te stellen en hoe een database in te stellen en die te laden met gegevens uit een shapefile. U zou, om de gegevens van OpenStreetMap in een database te krijgen, de gegevens op moeten halen in de indeling shapefile en de shapefile-lader moeten gebruiken, maar dit zou misschien niet alle gegevens ophalen die u wilt. In dit hoofdstuk zullen we leren hoe **osm2pgsql** te gebruiken, een programma voor de opdrachtregel voor het laden van ruwe gegevens van OSM in een database van PostGIS.  
 

@@ -9,7 +9,6 @@ category: osm-data
 قالبهای فایل
 =============
 
-> این راهنما را می‌توان به صورت [File_Formats_fa.odt](/files/File_Formats_fa.odt) و یا [File_Formats_fa.pdf](/files/File_Formats_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۵/۰۶/۱۵
 
 Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  

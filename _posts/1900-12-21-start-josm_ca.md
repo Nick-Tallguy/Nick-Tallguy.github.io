@@ -10,7 +10,6 @@ published: true
 Iniciació al JOSM
 =============================  
 
-> Aquesta guia es pot baixar com a[josm_start-josm_ca.odt](/files/josm_start-josm_ca.odt) o [josm_start-josm_ca.pdf](/files/josm_start-josm_ca.pdf)  
 > Reviewed 2015-07-12  
 
 Com baixar i instal·lar el JOSM, l'editor d'OpenStreetMap en Java, canviar algun dels paràmetres, obrir un mapa d'exemple i

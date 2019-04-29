@@ -10,7 +10,6 @@ category: osm-data
 ==================
 
 
-> این راهنما را می‌توان به صورت [OSM_Data_Overview_fa.odt](/files/OSM_Data_Overview_fa.odt) و یا [OSM_Data_Overview_fa.pdf](/files/OSM_Data_Overview_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۵/۰۶/۱۵
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->

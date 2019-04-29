@@ -9,7 +9,6 @@ category: beginner
 איך מתחילים ב־OpenStreetMap.org
 ====================================
 
-> ניתן להוריד מדריך זה בתור [beginner_start-osm_he.odt](/files/beginner_start-osm_he.odt) או בתור [beginner_start-osm_he.pdf](/files/beginner_start-osm_he.pdf)  
 > Reviewed 2015-07-12  
 
 בסעיף זה נלמד שלב אחר שלב כיצד לנווט באתר של OpenStreetMap, לצפות במפות ולרשום חשבון משתמש חדש. לאחר שקיבלת שם משתמש וססמה משלך, יתאפשר לך לתרום את הנקודות הראשונות שלך למפה.

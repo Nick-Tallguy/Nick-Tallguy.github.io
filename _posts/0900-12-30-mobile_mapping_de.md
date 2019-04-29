@@ -12,7 +12,6 @@ Kartierung mit Smartphone, GPS oder Field Paper
 =============================
 
 Diese Anleitung kann als [mobile-mapping_de.odt](/files/mobile-mapping_de.odt) oder [mobile-mapping_de.pdf](/files/mobile-mapping_de.pdf) heruntergeladen werden  
-> Geprüft 2015-07-14  
 
 Um eine wirklich genaue Karte zu erstellen müssen Sie das betreffende Gebiet vermessen. Die Anleitungen in diesem Kapitel erklären Ihnen, wie Sie das erreichen können:  
 

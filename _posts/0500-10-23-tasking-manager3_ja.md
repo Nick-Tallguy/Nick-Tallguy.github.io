@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> このガイドは次の形式でダウンロードできます。 [tasking-manager3_ja.odt](/files/tasking-manager3_ja.odt) および [tasking-manager3_ja.pdf](/files/tasking-manager3_ja.pdf)  
 
 **このガイドは現行バージョンのTasking Managerについて解説を行っています。もしあなたが利用している画面がこのガイドと異なっている場合は、[以前のバージョンのマニュアル](/ja/coordination/tasking-manager)を参照するようにしてください。**
 

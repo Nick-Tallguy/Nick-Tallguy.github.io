@@ -9,7 +9,6 @@ category: josm
 افزونه‌های JOSM
 ============
 
-> این راهنما را می‌توان به صورت [josm-plugins_fa.odt](/files/josm-plugins_fa.odt) و یا [josm-plugins_fa.pdf](/files/josm-plugins_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۴/۰۴/۲۳  
 
 As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  

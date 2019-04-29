@@ -9,7 +9,6 @@ category: mobile-mapping
 GPSLogger for Android
 =====================
 
-> 此指南能以 [gpslogger_zh_TW.odt](/files/gpslogger_zh_TW.odt) 或 [gpslogger_zh_TW.pdf](/files/gpslogger_zh_TW.pdf) 下載  
 > 審閲於 2015-12-06  
 
 ![GPSLogger][]

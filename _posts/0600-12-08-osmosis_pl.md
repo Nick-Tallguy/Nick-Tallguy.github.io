@@ -9,7 +9,6 @@ category: osm-data
 Przetwarzanie danych w Osmosis
 ===============================
 
-> Ten przewodnik może zostać pobrany jako [osmosis_pl.odt](/files/osmosis_pl.odt) lub [osmosis_pl.pdf](/files/osmosis_pl.pdf)  
 
 **Osmosis** jest potężnym narzędziem wiersza polecenia do przetwarzania surowych danych **.osm**. Jest ono często używane do przetwarzania wielkich plików z danymi, do dzielenia plików OSM na mniejsze kawałki i do stosowania zestawów zmian do aktualizacji istniejących plików.  
 

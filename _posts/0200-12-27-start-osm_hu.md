@@ -9,7 +9,6 @@ category: beginner
 Első lépések az OpenStreetMap.org oldalon
 ====================================
 
-> Ez az útmutató letölthető: [beginner_start-osm_hu.odt](/files/beginner_start-osm_hu.odt) vagy [beginner_start-osm_hu.pdf](/files/beginner_start-osm_hu.pdf)  
 > Átnézve: 2015-07-12  
 
 In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.

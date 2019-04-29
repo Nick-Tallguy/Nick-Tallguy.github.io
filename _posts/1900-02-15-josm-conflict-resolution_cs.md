@@ -9,7 +9,6 @@ category: josm
 JOSM Řešení konfliktů
 ====================
 
-> Tento návod můžete stáhnout jako [josm-conflict-resolution_en.odt](/files/josm-conflict-resolution_en.odt) nebo [josm-conflict-resolution_en.pdf](/files/josm-conflict-resolution_en.pdf)  
 > Zkontrolováno 27.9.2016  
 
 Někdy pracujete v JOSM a při nahrávání všech těch skvělých změn dostanete nepříjemnou zprávu stěžující si na konflikt.  

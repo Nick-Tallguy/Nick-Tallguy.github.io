@@ -9,7 +9,6 @@ category: josm
 စုဖွဲ့ဖော်ပြခြင်း (Relations)
 ==========
 
-> ဤလမ်းညွှန်ချက်ကို [josm_relations_my.odt](/files/josm_relations_my.odt) (သို့မဟုတ်) [josm_relations_my.pdf](/files/josm_relations_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2017-06-06  
 
 In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  

@@ -17,7 +17,6 @@ The Essentials
 
 ![Round Buildings][]  
 
-> Hình ảnh này ![keymon]{: height="24px"} chỉ cho bạn thấy các nút và thao tác chuột cũng như các phím tắt trên bàn phím được sử dụng.  
 
 Chú ý;  
 

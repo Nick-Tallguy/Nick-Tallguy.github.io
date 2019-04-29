@@ -13,7 +13,6 @@ category: hot-tips
 {:toc}
 
 <!-- > این راهنما را می‌توان به صورت [tm_starting_fa.odt](/files/tm_starting_fa.odt) و یا [tm_starting_fa.pdf](/files/tm_starting_fa.pdf) دانلود کرد.  
-> ایجاد شده در تاریخ ۱۳۹۵/۰۸/۰۹ -->  
 
 ملزومات
 ----------

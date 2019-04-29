@@ -9,7 +9,6 @@ category: josm
 JOSM - ایجاد قالب آماده
 =======================
 
-> این راهنما را می‌توان به صورت [creating-presets_fa.odt](/files/creating-presets_fa.odt) و یا [creating-presets_fa.df](/files/creating-presets_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۵/۰۶/۳۰  
 
 In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  

@@ -9,7 +9,6 @@ category: beginner
 مقدمة
 ============
 
-> يمكن تنزيل هذا الدليل كـ [beginner_introduction_en.odt](/files/beginner_introduction_en.odt) أو [beginner_introduction_en.pdf](/files/beginner_introduction_en.pdf)  
 > تمت مراجعته 2015-07-12  
 
 Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 

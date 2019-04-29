@@ -11,7 +11,6 @@ category: mobile-mapping
 Go Map!!
 ===================
 
-> 此指南能以 [gomap_zh_TW.odt](/files/gomap_zh_TW.odt) 或 [gomap_zh_TW.pdf](/files/gomap_zh_TW.pdf) 下載  
 > 審閲於 2016-08-10  
 
 Go Map!! is an iOS app that lets you create and edit information in OpenStreetMap.

@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> این راهنما را می‌توان به صورت [remote-mapping_fa.odt](/files/remote-mapping_fa.odt) و یا [remote-mapping_fa.pdf](/files/remote-mapping_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۴/۰۶/۱۷  
 
 تیم بشر دوستانه OpenStreetMap که به اختصار HOT نامیده می‌شود جامعه‌ای جهانی است که داده‌های متن باز و اشتراک گزاری داده‌های آزاد را در واکنش به مسائل انسانی و در جهت توسعه اقتصادی در اختیار همگان قرار می‌دهد.  

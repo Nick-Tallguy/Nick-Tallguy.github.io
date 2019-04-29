@@ -11,7 +11,6 @@ nosearch: true
 Nybegynnerveiledning
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
 > Reviewed 2015-07-12  
 
 Denne guiden viser deg steg for steg hvordan du kommer i gang med OpenStreetMap. Du vil lære hvordan du setter opp en konto, bruk av grunnleggende programvare, og senere vil du lære hvordan du går utendørs 

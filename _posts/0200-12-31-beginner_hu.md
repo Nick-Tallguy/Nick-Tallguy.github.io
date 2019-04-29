@@ -11,7 +11,6 @@ nosearch: true
 Útmutató kezdőknek
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
 > Reviewed 2015-07-12  
 
 Ez az útmutató lépésről lépésre végigvezet az OpenStreetMap kezdeti használatán. Meg fogod tanulni, hogyan hozz létre egy fiókot, hogyan használd az alapvető térképszerkesztő szoftvereket, a későbbi fejezetekben pedig azt, hogyan mehetsz ki a terepre, 

@@ -13,7 +13,6 @@ Disegnare edifici rettangolari - iD editor
 {:toc}
 
 <!-- > Questa guida può essere scaricata come [tm_starting_it.odt](/files/tm_starting_it.odt) oppure [tm_starting_it.pdf](/files/tm_starting_it.pdf)  
-> Creato il 2016-10-30  -->  
 
 Le basi
 ----------

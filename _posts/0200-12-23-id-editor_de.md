@@ -9,7 +9,6 @@ category: beginner
 Der iD Editor
 =============
 
-> Diese Anleitung kann als [beginner_id-editor_de.odt](/files/beginner_id-editor_de.odt) oder als [beginner_id-editor_de.pdf](/files/beginner_id-editor_de.pdf) heruntergeladen werden.  
 Überprüft 2016-03-30  
 
 Wollen Sie gerade mit dem Tasking Manager ein Projekt für HOT oder MissingMaps bearbeiten? Schauen Sie doch einmal in unsere [HOT-tips](/de/hot-tips/).  

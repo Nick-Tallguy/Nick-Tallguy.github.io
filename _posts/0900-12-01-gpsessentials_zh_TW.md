@@ -11,7 +11,6 @@ category: mobile-mapping
 GPS Essentials
 ===================
 
-> 此指南能以 [gps-essentials_zh_TW.odt](/files/gps-essentials_zh_TW.odt) 或 [gps-essentials_zh_TW.pdf](/files/gps-essentials_zh_TW.pdf) 下載  
 > 審閲於 2015-05-24  
 
 安裝 GPS Essentials

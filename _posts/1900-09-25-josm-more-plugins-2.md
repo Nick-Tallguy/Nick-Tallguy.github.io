@@ -9,7 +9,6 @@ category: josm
 Opendata Plugin - using data from a spreadsheet
 ============
 
-> This guide may be downloaded as [josm-opendata-plugin_en.odt](/files/josm-opendata-plugin_en.odt) or [josm-opendata-plugin_en.pdf](/files/josm-opendata-plugin_en.pdf)  
 > Created 2017-07-19  
 
 - TOC

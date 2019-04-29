@@ -9,7 +9,6 @@ category: beginner
 Further Reading
 ===============
 
->Muongozo hu unaweza kupakuliwa kama [beginner_moving-forward_sw.odt](/files/beginner_moving-forward_sw.odt) or [beginner_moving-forward_sw.pdf](/files/beginner_moving-forward_sw.pdf)  
 > Reviewed 2015-07-12  
 
 If you have made it this far, congratulations! You should have a good understanding now of how to make maps with OpenStreetMap. What else can you do with OSM? How can you learn more? How can you stay connected to the community of mappers?  

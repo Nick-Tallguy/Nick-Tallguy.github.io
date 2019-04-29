@@ -11,7 +11,6 @@ nosearch: true
 初學者指南
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
 > Reviewed 2015-07-12  
 
 初學者指南將會導引你一步一步進入開放街圖的世界。你會學會 會如何申請帳號，如何使用地圖繪圖軟體，以及如何到外實地探查 並且收集資料放入地圖 

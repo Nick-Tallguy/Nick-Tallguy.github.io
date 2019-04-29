@@ -9,7 +9,6 @@ category: josm
 JOSM Building Tools & Utilsplugin2 plugins
 ============
 
-> 此指南能以 [josm-more-plugins_zh_TW.odt](/files/josm-more-plugins_zh_TW.odt) 或 [josm-more-plugins_zh_TW.pdf](/files/josm-more-plugins_zh_TW.pdf) 下載  
 > 審閲於 2016-09-12  
 
 The **buildings_tools** and **utilsplugin2** plugins add great additional functionality into JOSM. In this section we'll take a closer look at the functions they provide.  

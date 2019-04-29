@@ -9,7 +9,6 @@ category: beginner
 Glosszárium 
 ============
 
->A glosszárium folyamatosan frissül, és számos forrásból állt össze, többek között az [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) oldaláról és egy Will Skora által írt útmutatóból. Te is nyugodtan frissítheted, csak először nézd át a szerkesztéssel kapcsolatos tudnivalókat a [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) oldalon. 
 > Átnézve: 2015-07-18  
 
 A glosszáriumban való egyszerű kereséshez használd a böngésző „keresés” funkcióját: Ctrl-F.  

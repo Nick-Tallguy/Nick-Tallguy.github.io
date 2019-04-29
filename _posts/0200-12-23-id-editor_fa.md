@@ -9,7 +9,6 @@ category: beginner
 ویرایشگر iD
 =============
 
-> این راهنما را می‌توان به صورت [beginner_id-editor_fa.odt](/files/beginner_id-editor_fa.odt) و یا [beginner_id-editor_fa.pdf](/files/beginner_id-editor_fa.pdf) دانلود کرد.  
 > Reviewed 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  

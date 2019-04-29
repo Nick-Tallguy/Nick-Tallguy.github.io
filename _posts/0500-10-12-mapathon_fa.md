@@ -8,7 +8,6 @@ category: coordination
 
 # Manage a Mapathon
 
-> این راهنما را می‌توان به صورت [Manage_a_Mapathon_fa.odt](/files/Manage_a_Mapathon_fa.odt) و یا [Manage_a_Mapathon_fa.pdf](/files/Manage_a_Mapathon_fa.pdf) دانلود کرد.  
 > ایجاد شده در تاریخ ۱۳۹۵/۱۱/۱۱  
 
 - TOC

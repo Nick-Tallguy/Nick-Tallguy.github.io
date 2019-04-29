@@ -8,7 +8,6 @@ category: coordination
 
 # Gestire un mapathon
 
-> Questa guida può essere scaricata come [Manage_a_Mapathon_en.odt](/files/Manage_a_Mapathon_en.odt) or [Manage_a_Mapathon_en.pdf](/files/Manage_a_Mapathon_en.pdf)  
 > Creato il 2017-01-30  
 
 - TOC

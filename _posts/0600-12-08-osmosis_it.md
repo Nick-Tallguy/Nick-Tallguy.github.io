@@ -9,7 +9,6 @@ category: osm-data
 Manipolare dati con Osmosis
 ===============================
 
-> Questa guida può essere scaricata come [osmosis_en.odt](/files/osmosis_en.odt) or [osmosis_en.pdf](/files/osmosis_en.pdf)  
 
 **Osmosis** è un potente strumento a linea di comando per manipolare e processare dati **.osm** grezzi. E' spesso usato per processare file di grosse dimensioni, per tagliare file OSM in parti più piccole e, applicando un file di differenze, per aggiornare un file esistente.   
 

@@ -9,7 +9,6 @@ category: beginner
 L'editor iD
 =============
 
-> Podeu baixar aquesta guia com a [beginner_id-editor_ca.odt](/files/beginner_id-editor_ca.odt) o [beginner_id-editor_ca.pdf](/files/beginner_id-editor_ca.pdf)  
 > Reviewed 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  

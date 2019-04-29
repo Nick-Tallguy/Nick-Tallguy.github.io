@@ -8,7 +8,6 @@ category: coordination
 
 # Gestor de Tarefas
 
-> This guide may be downloaded as [tasking-manager_en.odt](/files/tasking-manager_en.odt) or [tasking-manager_en.pdf](/files/tasking-manager_en.pdf)  
 > Revisto em 2015-08-26  
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**

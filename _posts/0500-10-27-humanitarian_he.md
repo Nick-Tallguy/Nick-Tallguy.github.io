@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> This guide may be downloaded as [humanitarian_en.odt](/files/humanitarian_en.odt) or [humanitarian_en.pdf](/files/humanitarian_en.pdf)  
 > Reviewed 2015-09-18
 
 תודה לך על התנדבותך לסיוע לקהילות המקומיות ולארגוני הסיוע להגיב למשבר זה על ידי אספקת נתוני מפות עדכניים עבורם.  

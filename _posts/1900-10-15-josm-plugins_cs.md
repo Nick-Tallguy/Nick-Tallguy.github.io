@@ -9,7 +9,6 @@ category: josm
 JOSM doplňky
 ============
 
-> Tento návod můžete stáhnout jako [josm-plugins_en.odt](/files/josm-plugins_en.odt) nebo [josm-plugins_en.pdf](/files/josm-plugins_en.pdf)  
 > Zkontrolováno 14.7.2015  
 
 Jakmile si osvojíte pokročilejší techniky editace, možná se budete chtít naučit další funkce JOSM a vylepšit si tak mapovací dovednosti. JOSM umožňuje instalovat mnoho doplňků, které mu dodávají další funkce.  

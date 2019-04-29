@@ -9,7 +9,6 @@ category: josm
 Herramientas de Edición en JOSM
 ==================
 
-> Esta guía puede ser descargada como [josm_josm-tools_es.odt](/files/josm_josm-tools_es.odt) o [josm_josm-tools_es.pdf](/files/josm_josm-tools_es.pdf)  
 > Reviewed 2017-06-09  
 
 - TOC

@@ -9,7 +9,6 @@ category: beginner
 次の一歩
 ===============
 
-> このガイドは次の形式でダウンロードできます。 [beginner_moving-forward_ja.odt](/files/beginner_moving-forward_ja.odt) or [beginner_moving-forward_ja.pdf](/files/beginner_moving-forward_ja.pdf)  
 > 2018-12-05 レビュー  
 
 長い道のり、おつかれさまでした！ OpenStreetMapで地図を描くにあたって、あなたは既に十分な知識を得ることができました。では、OSMを使うことによって、具体的に何ができるようになるのでしょうか。また、OSMについてさらに多くのことを知るにはどうしたらよいのでしょうか。マッパーたちのコミュニティと繋がり続けるにはどうしたらよいのでしょうか。  

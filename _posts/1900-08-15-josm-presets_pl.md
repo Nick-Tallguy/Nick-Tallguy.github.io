@@ -9,7 +9,6 @@ category: josm
 Szablony JOSM
 ============
 
-> Ten przewodnik może zostać pobrany jako [josm-presets_pl.odt](/files/josm-presets_pl.odt) lub [josm-presets_pl.pdf](/files/josm-presets_pl.pdf)  
 > Przejrzano 2016-09-17  
 
 If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  

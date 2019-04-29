@@ -9,7 +9,6 @@ category: josm
 JOSM Editing Tools
 ==================
 
-> 此指南能以 [josm_josm-tools_zh_TW.odt](/files/josm_josm-tools_zh_TW.odt) 或 [josm_josm-tools_zh_TW.pdf](/files/josm_josm-tools_zh_TW.pdf) 下載  
 > 審閲於 2017-06-09  
 
 - TOC

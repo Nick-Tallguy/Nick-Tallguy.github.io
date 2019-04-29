@@ -9,7 +9,6 @@ category: fillestar
 Për më shumë njohuri
 ===============
 
-> Kjo guidë mund të shkarkohet si [beginner_moving-forward_sq.odt](/files/beginner_moving-forward_sq.odt) ose [beginner_moving-forward_sq.pdf](/files/beginner_moving-forward_sq.pdf)  
 > Rishikuar 2015-07-12  
 
 Nëse keni arritur deri këtu, urime! Ju duhet të keni tashmë njohuri se si të krijoni harta me OpenStreetMap. Çfarë tjetër mund të bëni me OSM? Si mund të mësoni më shumë? Si mund të jeni të lidhur me komunitetin e njerëzve që meren me harta?  

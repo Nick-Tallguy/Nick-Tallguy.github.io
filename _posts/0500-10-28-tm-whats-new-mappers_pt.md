@@ -9,7 +9,6 @@ date: 0500-10-21 13:00:00
 
 # Quais são as novidades para os mapeadores no Gestor de Tarefas 3
 
-> Este guia pode ser descarregado como [tm3-news-for-mappers_pt.odt](/files/tm3-news-for-mappers_pt.odt) ou [tm3-news-for-mappers_pt.pdf](/files/tm3-news-for-mappers_pt.pdf)  
 
 ## O seu perfil de utilizador
 

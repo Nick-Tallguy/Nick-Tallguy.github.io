@@ -9,7 +9,6 @@ category: mobile-mapping
 Surveying with Field Papers
 =============================
 
-> 此指南能以 [Field_Papers_zh_TW.odt](/files/Field_Papers_zh_TW.odt) 或 [Field_Papers_zh_TW.pdf](/files/Field_Papers_zh_TW.pdf) 下載  
 > 審閲於 2016-08-10  
 
 In this chapter we will see how we can record the coordinates of places without a GPS. We will use a tool called [Field Papers](http://fieldpapers.org/), which allows you to print a map of an area, draw on it and add notes, and load the paper back into JOSM, where you can add your locations to OpenStreetMap. You can also watch this 8-minute [Tutorial Field Papers video](http://www.youtube.com/watch?v=A_HGkBXZ69g&feature=youtu.be) on how to create an atlas and upload a snapshot.  

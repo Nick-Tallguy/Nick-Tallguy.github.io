@@ -9,7 +9,6 @@ category: mobile-mapping
 نرم‌افزار آندروئید GPSLogger 
 =====================
 
-> این راهنما را می‌توان به صورت [gpslogger_fa.odt](/files/gpslogger_fa.odt) و یا [gpslogger_fa.pdf](/files/gpslogger_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۴/۰۹/۱۵  
 
 ![GPSLogger][]

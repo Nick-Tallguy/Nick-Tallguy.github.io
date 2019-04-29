@@ -9,7 +9,6 @@ date: 0500-10-21 12:00:00
 
 # What is new for Validators in the Tasking Manager 3
 
->此指南能以 [tm3-news-for-validators_zh_TW.odt](/files/tm3-news-for-validators_zh_TW.odt) 或 [tm3-news-for-validators_zh_TW.pdf](/files/tm3-news-for-validators_zh_TW.pdf) 下載  
 
 ## Your User Profile
 

@@ -9,7 +9,6 @@ category: beginner
 iD Editor
 =============
 
-> Kjo guidë mund të shkarkohet si [beginner_id-editor_sq.odt](/files/beginner_id-editor_sq.odt) ose [beginner_id-editor_sq.pdf](/files/beginner_id-editor_sq.pdf)  
 > Rishikuar 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  

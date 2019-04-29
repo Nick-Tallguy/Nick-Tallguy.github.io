@@ -13,7 +13,6 @@ Tracing rectangular buildings - iD editor
 {:toc}
 
 <!-- > 此指南能以 [tm_starting_zh_TW.odt](/files/tm_starting_zh_TW.odt) 或 [tm_starting_zh_TW.pdf](/files/tm_starting_zh_TW.pdf) 下載  
-> Created 2016-10-30  -->  
 
 The Essentials
 ----------

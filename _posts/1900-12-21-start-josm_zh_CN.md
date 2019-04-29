@@ -10,7 +10,6 @@ published: true
 JOSM入门
 =============================  
 
-> 本指南有[josm_start-josm_zh_CN.odt](/files/josm_start-josm_zh_CN.odt)和[josm_start-josm_zh_CN.pdf](/files/josm_start-josm_zh_CN.pdf)两种格式可供下载。  
 > 2015年7月12日修订  
 
 本节介绍如何下载并安装Java OpenStreetMap编辑器JOSM、修改部分设置、打开示例地图、

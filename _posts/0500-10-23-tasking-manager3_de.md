@@ -8,7 +8,6 @@ category: coordination
 
 # Tasking Manager 3
 
-> Diese Anleitung kann unter [tasking-manager3_de.odt](/files/tasking-manager3_de.odt) oder [tasking-manager3_de.pdf](/files/tasking-manager3_de.pdf) heruntergeladen werden  
 
 **Diese Anleitung beschreibt die aktuelle Version des Tasking Managers. Wenn sich die Benutzeroberfläche der Version, die Sie benutzen, von der hier beschriebenen unterscheidet, lesen Sie bitte [das Handbuch zur vorherigen Version}/de/coordination/tasking-manager)**
 

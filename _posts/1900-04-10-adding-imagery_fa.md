@@ -9,7 +9,6 @@ category: josm
 JOSM - افزودن تصاویر هوایی
 ================
 
-> این راهنما را می‌توان به صورت [josm_adding_imagery_fa.odt](/files/josm_adding_imagery_fa.odt) و یا [josm_adding_imagery_fa.pdf](/files/josm_adding_imagery_fa.pdf) دانلود کرد.  
 تاریخ بازبینی ۱۳۹۵/۰۶/۱۹  
 
 Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  

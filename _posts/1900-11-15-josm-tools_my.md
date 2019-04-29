@@ -9,7 +9,6 @@ category: josm
 JOSM ဆော့လ်ဖ်ဝဲလ်၏ ပြင်ဆင်တည်းဖြတ်မှုဆိုင်ရာ ကိရိယာများ
 ==================
 
-> ဤလမ်းညွှန်ချက်ကို [josm_josm-tools_my.odt](/files/josm_josm-tools_my.odt) (သို့မဟုတ်) [josm_josm-tools_my.pdf](/files/josm_josm-tools_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2017-06-09  
 
 - TOC

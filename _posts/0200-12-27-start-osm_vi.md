@@ -9,7 +9,6 @@ category: beginner
 Bắt đầu với OpenStreetMap.org
 ====================================
 
-> Hướng dẫn này có thể được tải xuống tại đây: [beginner_start-osm_vi.odt](/files/beginner_start-osm_vi.odt) or [beginner_start-osm_vi.pdf](/files/beginner_start-osm_vi.pdf)  
 > Cập nhật: 2017-10-31  
 
 In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.

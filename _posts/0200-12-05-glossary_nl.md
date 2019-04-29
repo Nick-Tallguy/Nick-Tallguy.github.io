@@ -9,7 +9,6 @@ category: beginner
 Woordenlijst 
 ============
 
->Deze woordenlijst wordt nog steeds bijgewerkt en is samengesteld uit vele andere bronnen waaronder de site [wiki van OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) en een gids geschreven door Will Skora. Help ons om het bij te blijven werken door [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) te bekijken om te zien hoe u aan de site kunt bijdragen. 
 > Bijgewerkt 18-07-2015  
 
 Gebruik, om deze woordenlijst gemakkelijk te doorzoeken, de zoekmogelijkheid binnen uw browser, door de Ctrl-toets ingedrukt te houden en dan de toets F in te drukken (gewoonlijk beschreven als **Ctrl+f**)  

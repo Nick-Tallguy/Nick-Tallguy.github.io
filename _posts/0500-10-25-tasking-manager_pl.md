@@ -8,7 +8,6 @@ category: coordination
 
 # Menedżer zadań
 
-> Ten przewodnik może zostać pobrany jako [tasking-manager_pl.odt](/files/tasking-manager_pl.odt) lub [tasking-manager_pl.pdf](/files/tasking-manager_pl.pdf)  
 > Przejrzano 2015-08-26  
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**

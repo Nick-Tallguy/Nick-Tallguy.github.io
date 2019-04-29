@@ -9,7 +9,6 @@ category: coordination
 Reviewing OSM Data
 ==================
 
-> 此指南能以 [review_zh_TW.odt](/files/review_zh_TW.odt) 或 [review_zh_TW.pdf](/files/review_zh_TW.pdf) 下載  
 > 審閲於 2017-04-24  
 
 - TOC

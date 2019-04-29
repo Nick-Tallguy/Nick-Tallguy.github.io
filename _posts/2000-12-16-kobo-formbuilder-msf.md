@@ -10,7 +10,6 @@ Kobo Form Builder - KoBoToolbox - surveys with a mobile phone
 ============
 
 <!-- > This guide may be downloaded as [kobo-form_en.odt](/files/kobo-form_en.odt) or [kobo-form_en.pdf](/files/kobo-form_en.pdf)  
-> Created 2016-11-7  -->
 
 You will need to obtain your own login to a Kobo server for the purpose of obtaining survey data. This guide is based upon use of the training server at <https://kobo.msf.org/> with a username of \********* <!--**missingmaps**--> and a password of  \******** <!--**m0ndayk**-->.  MSF personnel are free to use this training server in order to learn & practice their skills, but do please ensure that any surveys you create for 'real use' are saved elsewhere as this database is used for training and the data it contains is frequently altered by users.
 

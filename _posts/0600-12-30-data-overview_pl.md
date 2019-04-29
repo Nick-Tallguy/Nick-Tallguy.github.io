@@ -10,7 +10,6 @@ Przegląd danych OSM
 ==================
 
 
-> Ten przewodnik może zostać pobrany jako [OSM_Data_Overview_pl.odt](/files/OSM_Data_Overview_pl.odt) lub [OSM_Data_Overview_pl.pdf](/files/OSM_Data_Overview_pl.pdf)  
 > Przejrzano 2016-09-05
 
 <!--W tym rozdziale zastanowimy się, jak działa OpenStreetMap, co pomoże nam lepiej zrozumieć, jak usystematyzowane są dane i jak możemy najlepiej je wykorzystać.-->

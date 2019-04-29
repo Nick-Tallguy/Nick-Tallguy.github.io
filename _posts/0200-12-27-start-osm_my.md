@@ -9,7 +9,6 @@ category: beginner
 OpenStreetMap.org ကိုစတင်လေ့လာခြင်း
 ====================================
 
-> ဤလမ်းညွှန်ချက်ကို[beginner_start-osm_my.odt](/files/beginner_start-osm_my.odt) (သို့မဟုတ်) [beginner_start-osm_my.pdf](/files/beginner_start-osm_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2015-07-12  
 
 In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.

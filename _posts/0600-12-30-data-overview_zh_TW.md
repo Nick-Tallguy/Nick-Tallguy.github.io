@@ -10,7 +10,6 @@ OSM Data Overview
 ==================
 
 
-> 此指南能以 [OSM_Data_Overview_zh_TW.odt](/files/OSM_Data_Overview_zh_TW.odt) 或 [OSM_Data_Overview_zh_TW.pdf](/files/OSM_Data_Overview_zh_TW.pdf) 下載  
 > 審閲於 2016-09-05
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->

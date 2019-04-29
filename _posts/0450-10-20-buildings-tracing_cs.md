@@ -13,7 +13,6 @@ Vyznačení obdélníkových budov - iD editor
 {:toc}
 
 <!-- > Tento průvodce může být stažen jako [tm_starting_en.odt](/files/tm_starting_en.odt) nebo [tm_starting_en.pdf](/files/tm_starting_en.pdf)  
-> Vytvořeno 2016-10-30 -->  
 
 Základy
 ----------

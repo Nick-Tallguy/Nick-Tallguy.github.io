@@ -9,7 +9,6 @@ category: josm
 编辑外业数据
 ==================
 
-> 本指南有[josm_editing-with-josm_zh_CN.odt](/files/josm_editing-with-josm_zh_CN.odt) 和[josm_editing-with-josm_zh_CN.pdf](/files/josm_editing-with-josm_zh_CN.pdf) 两种格式可供下载。  
 > 2015年7月13日修订  
 
 现在我们已经讲完了用OpenStreetMap绘制建筑。

@@ -5,7 +5,6 @@ permalink: /zh_TW/coordination/tasking-manager-project-admin/
 lang: zh_TW
 category: coordination
 ---
-> 此指南能以 [tasking-manager-admin_zh_TW.odt](/files/tasking-manager-admin_zh_TW.odt) 或 [tasking-manager-admin_zh_TW.pdf](/files/tasking-manager-admin_zh_TW.pdf) 下載 
 
 **This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3-project-admin)**
 

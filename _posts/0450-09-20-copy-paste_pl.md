@@ -11,7 +11,6 @@ Kopiowanie, wklejanie i obracanie - edytor iD
 
 ![copy-paste][]
 
-> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
 Możesz łatwo kopiować, wklejać i obracać obiekty, ale upewnij się, że mają one odpowiedni rozmiar.  
 Wybierz obiekt za pomocą myszki, następnie naciśnij **Ctrl+c**, aby skopiować i **Ctrl+v**, aby wkleić.  

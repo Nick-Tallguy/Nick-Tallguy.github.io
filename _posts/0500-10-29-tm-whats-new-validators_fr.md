@@ -9,7 +9,6 @@ date: 0500-10-21 12:00:00
 
 # Quoi de neuf pour les validateurs dans le Gestionnaire de Tâches 3
 
-> Ce guide peut être téléchargé : [tm3-news-for-validators_fr.odt](/files/tm3-news-for-validators_fr.odt) ou [tm3-news-for-validators_fr.pdf](/files/tm3-news-for-validators_fr.pdf)  
 
 ## Votre profil utilisateur
 

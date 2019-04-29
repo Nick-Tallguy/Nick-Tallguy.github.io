@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
->  このガイドは次の形式でダウンロードできます。 [humanitarian_ja.odt](/files/humanitarian_ja.odt) および [humanitarian_ja.pdf](/files/humanitarian_ja.pdf)  
 > Reviewed 2019-04-18
 
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  

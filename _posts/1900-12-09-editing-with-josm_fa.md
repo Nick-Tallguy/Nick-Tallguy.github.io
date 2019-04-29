@@ -9,7 +9,6 @@ category: josm
 ویزایش داده‌های میدانی
 ==================
 
-> این راهنما را می‌توان به صورت [josm_editing-with-josm_fa.odt](/files/josm_editing-with-josm_fa.odt) و یا [josm_editing-with-josm_fa.pdf](/files/josm_editing-with-josm_fa.pdf) دانلود کرد.  
 > تاریخ بازبینی ۱۳۹۵/۰۵/۰۱  
 
 حالا ما همه بلوک‌های ساختمنی نقشه‌کشی با OpenStreetMap را پوشش دادیم.

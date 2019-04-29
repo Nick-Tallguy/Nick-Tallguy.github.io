@@ -9,7 +9,6 @@ Kategorie: osm-data
 osm2pgsql
 ==========
 
-> Dieser Leitfaden kann heruntergeladen werden unter [osm2pgsql_en.odt](/files/osm2pgsql_en.odt) oder [osm2pgsql_en.pdf](/files/osm2pgsql_en.pdf)  
 
 Im vorherigen Kapitel sahen wir wie man PostgreSQL zusammen mit PostGIS in Windows aufsetzt und eine Datenbank aufsetzt und diese mit Shapefile Daten lädt. Um OpenStreetMap Daten in eine Datenbank zu bekommen, kann man die Daten im Shapefile Format bekommen und den Shapefile Loader verwenden, aber es kann passieren, dass die gewünschten Daten fehlen. In diesem Kapitel lernen wir, wie man **osm2pgsql** verwendet, ein Kommandozeilen Programm, um rohe OSM Daten in eine PostGIS Datenbank zu laden.  
 

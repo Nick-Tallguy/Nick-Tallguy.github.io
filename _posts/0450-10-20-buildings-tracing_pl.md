@@ -13,7 +13,6 @@ Rysowanie prostokątnych budynków - edytor iD
 {:toc}
 
 <!-- > Ten przewodnik może zostać pobrany jako [tm_starting_pl.odt](/files/tm_starting_pl.odt) lub [tm_starting_pl.pdf](/files/tm_starting_pl.pdf)  
-> Utworzono 2016-10-30  -->  
 
 Podstawy
 ----------

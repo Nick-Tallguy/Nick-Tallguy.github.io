@@ -52,7 +52,6 @@ Sie benötigen Projektmanager-Berechtigung, um neue Projekte in TM3 anzulegen.
 
 Klicken Sie auf Ihren Benutzernamen in der oberen rechten Ecke und dann auf **Neues Projekt erstellen**. Sie können das zu bearbeitende Gebiet entweder auf einer Karte zeichnen oder aus einer geojson-Datei importieren;  
 
-> Der Import einer Datei mit einem vordefinierten Gebiet sollte gegenüber dem Zeichnen von Hand bevorzugt werden. Werkzeuge wie JOSM, QGIS etc. können verwendet werden um Dateien für den Import in den Tasking Manager zu erstellen. Wir empfehlen Ihnen, von dem Gebiet mit JOSM eine .osm-Datei zu erstellen und daraus mit http://geojson.io/ eine GeoJSON Datei zu erzeugen.
 
 ### Zeichnen eines zu kartierenden Gebiets
 

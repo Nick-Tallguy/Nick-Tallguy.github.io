@@ -6,7 +6,6 @@ lang: fa
 category: mobile-mapping
 ---
 
-> ین راهنما را می‌توان به صورت [basicairdata_gpslogger_fa.odt](/files/basicairdata_gpslogger_fa.odt) و یا [basicairdata_gpslogger_fa.pdf](/files/basicairdata_gpslogger_fa.pdf) دانلود کرد.
 
 BasicAirData GPS Logger
 =======================

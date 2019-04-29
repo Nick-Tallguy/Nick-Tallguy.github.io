@@ -9,7 +9,6 @@ category: josm
 JOSM - Creating Custom Presets
 =======================
 
-> 此指南能以 [creating-presets_zh_TW.odt](/files/creating-presets_zh_TW.odt) 或 [creating-presets_zh_TW.pdf](/files/creating-presets_zh_TW.pdf) 下載  
 > 審閲於 2015-09-20  
 
 In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  

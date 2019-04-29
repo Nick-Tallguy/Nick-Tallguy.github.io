@@ -10,7 +10,6 @@ GPSLogger für Android
 =====================
 
 Diese Anleitung kann heruntergeladen werden als [gpslogger_en.odt](/files/gpslogger_en.odt) oder [gpslogger_en.pdf](/files/gpslogger_en.pdf)  
-> Gereviewt am 2015-12-06  
 
 ![GPSLogger][]
 

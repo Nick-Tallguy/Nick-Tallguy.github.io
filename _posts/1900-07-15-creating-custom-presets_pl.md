@@ -9,7 +9,6 @@ category: josm
 JOSM - Tworzenie własnych szablonów
 =======================
 
-> Ten przewodnik może zostać pobrany jako [creating-presets_pl.odt](/files/creating-presets_pl.odt) lub [creating-presets_pl.pdf](/files/creating-presets_pl.pdf)  
 > Przejrzano 2015-09-20  
 
 In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  

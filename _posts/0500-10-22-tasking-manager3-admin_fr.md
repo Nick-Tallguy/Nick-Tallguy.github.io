@@ -8,7 +8,6 @@ category: coordination
 
 title: Gestionnaire de Tâches Version 3 Création et Administration de Projet
 
-> Ce guide peut être téléchargé en tant que module autonome: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) ou  [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
 **Ce guide décrit la version actuelle du gestionnaire de tâches. Si l'interface utilisateur de la version que vous utilisez semble différente de celle décrite ici, alors vous devriez consulter [le manuel de la version précédente](/en/coordination/tasking-manager-project-admin)**
 

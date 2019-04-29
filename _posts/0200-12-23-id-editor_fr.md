@@ -9,7 +9,6 @@ category: beginner
 L’Éditeur iD
 =============
 
-> Ce guide peut être téléchargé : [beginner_id-editor_fr.odt](/files/beginner_id-editor_fr.odt) ou [beginner_id-editor_fr.pdf](/files/beginner_id-editor_fr.pdf)  
 Révision 2016-03-30  
 
 Commencer à cartographier avec gestionnaire de tâches pour HOT ou MissingMaps etc ? Voir notre section [HOT-conseils](/fr/hot-tips/).  

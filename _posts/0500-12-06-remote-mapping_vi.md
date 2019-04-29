@@ -10,7 +10,6 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> Hướng dẫn này có thể tải tại đây [remote-mapping_vi.odt](/files/remote-mapping_vi.odt) or [remote-mapping_vi.pdf](/files/remote-mapping_vi.pdf)  
 > Reviewed 2015-09-18  
 
 Nhóm Humanitarian OpenStreetMap (HOT) là một cộng đồng toàn cầu đang làm việc để áp dụng các nguyên tắc của nguồn mở và chia sẻ dữ liệu mở nhằm hỗ trợ nhân đạo và phát triển kinh tế.  

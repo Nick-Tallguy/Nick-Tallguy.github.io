@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> ဤ လမ်းညွှန်ချက်ကို  [OSMTracker_my.odt](/files/OSMTracker_my.odt) (သို့မဟုတ်) [OSMTracker_my.pdf](/files/OSMTracker_my.pdf) တွင် download ပြုလုပ်၍ရယူနိုင်ပါသည်။  
 > Reviewed 2016-02-08
   
 **ဤဆောင်းပါးသည် OSMTracker for Android နှင့်ဆက်စပ်မှုရှိပါသည်။ Wiindows mobile အတွက် အလားတူ product တစ်ခုလည်းရရှိနိုင်ပါသည်။**   

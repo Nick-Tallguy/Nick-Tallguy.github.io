@@ -9,7 +9,6 @@ category: coordination
 Tracing roads, buildings, water and landuse
 ===========================================
 
-> 此指南能以 [remote-tracing_zh_TW.odt](/files/remote-tracing_zh_TW.odt) 或 [remote-tracing_zh_TW.pdf](/files/remote-tracing_zh_TW.pdf) 下載  
 > 審閲於 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  

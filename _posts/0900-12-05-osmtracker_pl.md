@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Ten przewodnik może zostać pobrany jako [OSMTracker_pl.odt](/files/OSMTracker_pl.odt) lub [OSMTracker_pl.pdf](/files/OSMTracker_pl.pdf)  
 > Przejrzano 2016-02-08
   
 **This article relates to OSMTracker for Android - there is a similar product available for windows mobile.**  

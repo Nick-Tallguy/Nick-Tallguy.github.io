@@ -9,7 +9,6 @@ category: josm
 ابزارهای ویرایش با JOSM
 ==================
 
-> این راهنما را میتوان به صورت [josm_josm-tools_fa.odt](/files/josm_josm-tools_fa.odt) و یا [josm_josm-tools_fa.pdf](/files/josm_josm-tools_fa.pdf) دانلود کرد.  
 > Reviewed 2017-06-09  
 
 - TOC

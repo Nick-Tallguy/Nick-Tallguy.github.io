@@ -17,4 +17,3 @@ Jinsi gani ya kufungua akaunti,jinsi gani yakutumia programu za kuhariri ramani,
 na kukusanya taarifa za kuweka kwenye ramani. Sura zingine zinazofuata zitakuwa na taarifa kuhusu [HOT Remote Mapping](/en/coordination/) 
 
 Huu muongozo unaweza kupakuliwa kama  [beginner_sw.odt](/files/beginner_sw.odt) au [beginner_sw.pdf](/files/beginner_sw.pdf)  
-> Reviewed 2015-07-12  

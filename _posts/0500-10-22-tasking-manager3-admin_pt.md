@@ -8,7 +8,6 @@ category: coordination
 
 # Gestor de Tarefas do OSM - Criação de Projeto e Administração
 
-> Este guia pode ser descarregado como um módulo independente: [tasking-manager3-admin_en.odt](/files/tasking-manager3-admin_en.odt) ou [tasking-manager3-admin_en.pdf](/files/tasking-manager3-admin_en.pdf) 
 
 **Este guia descreve a versão atual do Gestor de Tarefas. Se a interface da versão que usa for diferente da descrita aqui, deve consultar o [manual da versão anterior](/pt/coordination/tasking-manager-project-admin)**
 

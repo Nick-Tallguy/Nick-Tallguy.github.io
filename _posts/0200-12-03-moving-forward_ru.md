@@ -9,7 +9,6 @@ category: начинающий
 Дополнительные источники информации
 ===============
 
-> This guide may be downloaded as [beginner_moving-forward_en.odt](/files/beginner_moving-forward_en.odt) or [beginner_moving-forward_en.pdf](/files/beginner_moving-forward_en.pdf)  
 > Пересмотрено 2015-07-12  
 
 Поздравляем! Вы продвинулись достаточно далеко в освоении OpenStreetMap, теперь Вы должны хорошо ориентироваться в создании карт. Что ещё можно делать с OSM? Чему ещё нужно обучиться? Как помогать сообществу картографов?  

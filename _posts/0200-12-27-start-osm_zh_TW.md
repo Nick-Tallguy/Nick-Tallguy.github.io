@@ -9,7 +9,6 @@ category: beginner
 開始使用 OpenStreetMap.org
 ====================================
 
-> 此指南能以 [beginner_start-osm_zh_TW.odt](/files/beginner_start-osm_zh_TW.odt) 或 [beginner_start-osm_zh_TW.pdf](/files/beginner_start-osm_zh_TW.pdf) 下載  
 > 審閲於 2015-07-12  
 
 在這一章節，我們會一步一步學習如何瀏覽開放街圖網站，檢視地圖，以及帳號使用者帳號。之後你有自己的使用者名稱和密碼，你能開始貢獻第一個點到地圖上面。

@@ -9,7 +9,6 @@ category: mobile-mapping
 OsmAnd 2.x
 ==========
 
-> 此指南能以 [osmand2_zh_TW.odt](/files/osmand2_zh_TW.odt) 或 [osmand2_zh_TW.pdf](/files/osmand2_zh_TW.pdf) 下載  
 > 審閲於 2016-08-08  
 
 OsmAnd (OSM Automated Navigation Directions) is an open source application for map viewing, editing, track recording and touring which utilizes the OpenStreetMap (OSM) database for both online and offline use. It also includes a routing and navigation feature, with visual and voice guidance, that is also available online and offline. OsmAnd enables users to contribute directly to OpenStreetMap by reporting bugs, uploading GPX tracks, and adding (or editing) POIs.  

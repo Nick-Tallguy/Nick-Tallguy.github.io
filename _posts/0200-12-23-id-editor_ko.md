@@ -9,7 +9,6 @@ category: beginner
 iD 편집기
 =============
 
-> 이 안내서는 [beginner_id-editor_ko.odt](/files/beginner_id-editor_ko.odt) 또는 [beginner_id-editor_ko.pdf](/files/beginner_id-editor_ko.pdf)로 다운로드할 수 있습니다  
 > 2016-03-30에 검토됨  
 
 HOT나 MissingMaps의 과업 관리자 같은 도구로 지도 작업을 시작하고 싶으신가요? [HOT 팁 문서](/ko/hot-tips/)를 참고하세요.  

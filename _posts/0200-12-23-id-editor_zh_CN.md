@@ -9,7 +9,6 @@ category: beginner
 iD编辑器
 =============
 
-> 本指南有 [beginner_id-editor_zh_CN.odt](/files/beginner_id-editor_zh_CN.odt) 和 [beginner_id-editor_zh_CN.pdf](/files/beginner_id-editor_zh_CN.pdf) 两种格式可供下载。  
 > 2016年03月30日修订  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  

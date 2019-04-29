@@ -9,7 +9,6 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> Ten przewodnik może zostać pobrany jako [OruxMaps_pl.odt](/files/OruxMaps_pl.odt) lub [OruxMaps_pl.pdf](/files/OruxMaps_pl.pdf)  
 > Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
 
 In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  

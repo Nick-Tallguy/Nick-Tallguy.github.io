@@ -11,7 +11,6 @@ nosearch: true
 מדריך למתחילים
 ================
 
-> This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
 > Reviewed 2015-07-12  
 
 מדריך זה מציג לך שלב אחר שלב איך מתחילים עם OpenStreetMap. במדריך ניתן ללמוד איך להגדיר חשבון, איך להשתמש בתכנית עריכה בסיסית של מפה ובפרקים מאוחרים יותר כיצד לצאת החוצה ולאסוף מידע ולהציב על המפה. 
