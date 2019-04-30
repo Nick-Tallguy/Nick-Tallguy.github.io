@@ -198,13 +198,12 @@ Notice that the language code has been changed from **en** to **zh_TW**
 
 ### This guide may be downloaded as etc
 
-      > This guide may be downloaded as [beginner_en.odt](/files/beginner_en.odt) or [beginner_en.pdf](/files/beginner_en.pdf)  
+> This guide may be downloaded as ......
 
-in Taiwanese this becomes;  
+LearnOSM will no longer be providing downloadable documents in this fashion. The style sheet for the site has been updated and prints may be obtained by using the menu of the web browser you are viewing the site with (Chrome, Firefox, etc..). As it would be very time consuming to have every document translated again, just because this paragraph has been removed, a software 'fix' has been implemented, which blanks the first instance of text beginning with a > symbol.
 
-      > 此指南能以 [beginner_zh_TW.odt](/files/beginner_zh_TW.odt) 或 [beginner_zh_TW.pdf](/files/beginner_zh_TW.pdf) 下載  
-
-The language code has been changed each time it appeared, and the parts of the text not in \[ \] \( or \) have been translated.
+It is easier to replace this section of text with something like;  
+\> This text may be ignored as it is no longer required and will not appear on the website.
 
 ### Reviewed 2017 etc
 
