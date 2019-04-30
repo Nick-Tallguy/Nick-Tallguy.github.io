@@ -9,6 +9,7 @@ category: resources
 
 # Các tài nguyên khác
 
+> Chỉnh sửa ngày 06/3/2018
 
 Đây là các chỉ dẫn được cho là có ích cho các trang web khác. Tất cả các đường link chắc chắn hoạt động tại thời điểm tài liệu này được hoàn thiện.
 
