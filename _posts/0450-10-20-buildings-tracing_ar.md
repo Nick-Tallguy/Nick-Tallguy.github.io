@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tracing rectangular buildings - iD editor
-permalink: /pt/hot-tips/tracing-rectangular-buildings/
-lang: pt
+permalink: /ar/hot-tips/tracing-rectangular-buildings/
+lang: ar
 category: hot-tips
 ---
 
@@ -12,7 +12,7 @@ Tracing rectangular buildings - iD editor
 - TOC
 {:toc}
 
-> Criado em 2016-10-30  -->  
+> Created 2016-10-30  -->  
 
 The Essentials
 ----------
@@ -61,11 +61,11 @@ Building Tags
 
 As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.
 
-Ver também  
+See also  
 ---------
 
 - [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
-*As legendas estão disponíveis em alguns idiomas*  
+*Subtitles available in some languages*  
 
 - [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
