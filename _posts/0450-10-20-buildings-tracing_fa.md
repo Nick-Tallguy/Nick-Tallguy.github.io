@@ -30,15 +30,15 @@ category: hot-tips
 - به اندازه کافی برای دیدن جزئیات زوم کنید - مقیاس بزرگنمایی ۲۰ متر یا کمتر معمولاْ کافی است.  
 - ** در جستجوی ساختمان‌ها ** - با مقیاسی در حدود ۵۰ تا ۸۰ متر منطقه را پویش کنید. دنبال سایه‌ها و خطوط مستقیم باشید (پیدا کردن ساختمان‌های مدور سخت‌تر است!)  
 - ساختمان‌ها با جاده‌ها، رودخانه‌ها، مرز مناطق مسکونی **landuse=residential** و یا سایر ویژگی‌ها نباید همپوشانی داشته باشند.  
-- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- اگر اشتباه کردید، از دکمه **لغو** استفاده کنید [arrow backward]{: height = "26px"} تا آخرین تغییر(ات) برگردانده شود.  
+- همه ما نقشه را بهبود می‌بخشیم. اگر نقشه‌کش قبلی ساختمانها را به شکل مضحک  یا اشتباه باقی گذاشته باشد، آنها را تصحیح کنید و به یاد داشته باشید که یک پیام مودبانه برای وی ارسال کنید.  
 
-Buildings obscured or seen at an angle  
+ساختمانهایی که پوشیده شده‌اند و یا با زاویه مبهم دیده می‌شوند  
 --------------------------------------
 
 ![building-obscured][]  
 
-It is common for the satellite image to be taken at an angle making the building seem distorted. In the above image the image to the right shows how the building should be traced. It is often easiest to trace the outline of the roof, then drag this to the point where the walls meet the ground - this was the technique used to trace the building above. Notice also that a building partially obscured by trees has been correctly traced as rectangular. 
+شایان ذکر است که تصاویر ماهواره‌ای با زاویه گرفته می‌شوند که در آن ساختمانها به نظر تفییر شکل داده می‌شوند. در شکل بالا، تصویر سمت راست نشان می‌دهد که چگونه ساختمان باید ردیابی شود. اغلب ساده‌ترین روش برای ردیابی، کشیدن طرح سقف و سپس جابجایی آن به نقطه‌ای که دیواره‌ها به زمین می‌رسند، است. این روش ردیابی ساختمان در تصویر بالا بوده است. همچنین توجه داشته باشید که ساختمانی که فسمتی از آن توسط درختها پوشیده شده است به درستی به شکل مستطیل کشیده شده است. 
 
 ساختمانهای دارای سقفهای مضرس
 ----------------------------
