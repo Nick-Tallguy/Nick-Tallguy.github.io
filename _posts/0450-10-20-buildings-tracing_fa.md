@@ -38,7 +38,7 @@ category: hot-tips
 
 ![building-obscured][]  
 
-شایان ذکر است که تصاویر ماهواره‌ای با زاویه گرفته می‌شوند که در آن ساختمانها به نظر تفییر شکل داده می‌شوند. در شکل بالا، تصویر سمت راست نشان می‌دهد که چگونه ساختمان باید ردیابی شود. اغلب ساده‌ترین روش برای ردیابی، کشیدن طرح سقف و سپس جابجایی آن به نقطه‌ای که دیواره‌ها به زمین می‌رسند، است. این روش ردیابی ساختمان در تصویر بالا بوده است. همچنین توجه داشته باشید که ساختمانی که فسمتی از آن توسط درختها پوشیده شده است به درستی به شکل مستطیل کشیده شده است. 
+شایان ذکر است که تصاویر ماهواره‌ای با زاویه گرفته می‌شوند که در آن ساختمانها به نظر تفییر شکل داده می‌شوند. در شکل بالا، تصویر سمت راست نشان می‌دهد که چگونه ساختمان باید ردیابی شود. اغلب ساده‌ترین روش برای ردیابی، کشیدن طرح سقف و سپس جابجایی آن به نقطه‌ای که دیواره‌ها به زمین می‌رسند، است. این روش ردیابی ساختمان در تصویر بالا بوده است. همچنین توجه داشته باشید که ساختمانی که قسمتی از آن توسط درختها پوشیده شده است به درستی به شکل مستطیل کشیده شده است. 
 
 ساختمانهای دارای سقفهای مضرس
 ----------------------------
@@ -46,32 +46,32 @@ category: hot-tips
 بیشتر ساختمانها یا گوشه‌های ۹۰ درجه دارند یا اینکه دایره‌ای هستند.  
 
 ![building-ridge][]  
-This building has 90 degree corners, but has a ridge on its roof. The camera angle initially makes the building look a strange shape.  
+این ساختمان دارای گوشه های ۹۰ درجه است، اما روی سقفش مضرس است. با این زاویه دوربین، ساختمان به شکل عجیبی به نظر می‌سد.  
 
 ![building-tree-ridge][]  
-This building has a tree partially obscuring it. It is a rectangular building.  
+این یک ساختمان مستطیلی است که قسمتی از آن توسط درختها پوشیده شده است.  
 
-In isolated parts of the world it is common to use sheets of corrugated iron as roofing - when new these will reflect the sunlight which creates a **very bright flare effect** on the satellite imagery. It is common for buildings to have a verandah or be **L shaped** and you should ensure that your tracing follows the shape of the building.  
-When tracing the building outline, you must try to trace the building at the right size, and at the point where its walls meet the ground - do your best! In many parts of the world, buildings are partially constructed and then left without roofs until they are sold, or otherwise wanted for use. Map a building without a roof as a normal building as it does not take long to add a roof, and the roof may have been added already, in the time since the satellite imagery was taken.  
+در اقصی نقاط دنیا، از ورقه‌های آهن موجدار جهت سقف استفاده فراوانی می‌شود - در ابتدا زمانی که نو هستند، نور خورشید را بازتاب می‌دهند که **اثر بسیار براق** را بر روی تصاویر ماهواره‌ای ایجاد می‌کند. وجود بالکن ویا **L شکل بودن** در ساختمانها رایج است و شما باید اطمینان حاصل کنید که ردیابی شما بر اساس شکل ساختمان انجام می‌شود.  
+هنگام ردیابی طرح ساختمان، باید سعی کنید ساختمان را در اندازه صحیح و کاملاْ در نقطه‌ای که دیوارها به زمین می‌رسند ردیابی کنید - حداکثر تلاش خود را بکنید! در بسیاری از نقاط جهان، قسمتی از ساختمان ساخته شده و سپس بدون سقف به فروش می‌رسند یا بدون وجود سقف از آنها استفاده می‌شود. یک ساختمان بدون پشت بام را همانند یک ساختمان معمولی نقشه بکشید زیرا طولی نمیکشد که سقف به آن اضافه خواهد شد و شاید هم از زمانی که تصاویر ماهواره ای گرفته شده تا کنون، ممکن است سقفش نیز اضافه شده باشد.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+بهترین کار را انجام دهید - حتی متخصصان نیز گاهی اوقات مخالف هستند و گاهی اوقات فقط باید به آنجا بروید تا ببینید دقیقاْ در واقعیت چه چیزی وجود دارد. **اگر  شک دارید تنها آنرا به عنوان یک ساختمان اضافه کنید**.  
 
 تگ‌های ساختمان
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.
+توصیه می‌شود و ارجح است برای برچسب (تگ) ساختمانی که آنرا هیچوقت ندیده‌اید و با آن آشنا نیستید،  تنها از تگ **building**=**yes** استفاده کنید، برای اینکار می‌توانید به پایین صفحه بروید و در فسمت تگ‌ها بر روی **همه برچسب‌ها** (All tags) کلیک کنید تا ببینید آیا به روش درست برچسب زده شده است.
 
 همچنین ببینید  
 ---------
 
-- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
-*Subtitles available in some languages*  
+- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "فیلم‌های آموزشی گروه بشردوستانه OpenStreetMap - افزودن ساختمان به OpenSstreetMap")  
+*برای بعضی زبانها زیرنویس وجود دارد*  
 
 - [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 
 
-[Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracing a rectangular building, squaring the corners, and adding tags."
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "دریابی ساختمان مستطیل شکل، نود درجه کردن گوشه‌ها و اضافه کردن تگها."
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
