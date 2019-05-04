@@ -34,42 +34,42 @@ JOSM دارای ابزارهای اضافی است که ترسیم خطوط و �
 
 ![منوی ابزارها][Tools menu]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+برای اعمال کاربردهای این منو، ابتدا باید در پنجره نقشه یک نقطه، خط یا شکل را انتخاب کنید. فایل نمونه حاوی عناصر مختلفی است که براساس نام ابزارهای مختلف  منو برچسب گذاری شده است.
 
-### Aligning nodes in a circle  
+### تراز کردن نقاط در یک دایره  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- یکی از عناصر موجود در فایل را انتخاب کنید. سپس به منوی Tools بروید و بر روی تابعی که نام آن در ویژگی مورد نظرتان مشخص شده است بروید. به عنوان مثال، روی خطی که به صورت یک دایره بدشکل کشیده شده کلیک کنید تا آن را انتخاب کنید.
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+- سپس، به Tools-> Align Nodes in Circle بروید. دایره نامنظم انتخاب شده به صورت دایره کامل و منظمی می‌شود.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+با هر یک از ابزارها با استفاده از فایل نمونه کار کنید. شرح برخی از ابزارها در زیر ارائه شده است.
 
-### Split Way  
+### تقسیم مسیر  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+اینکار به شما اجازه می‌دهد تا یک خط را به دو خط جداگانه تقسیم کنید. این حالت زمانی مفید است که می‌خواهید ویژگیهای مختلف را به قسمت‌های مختلف یک جاده بدهید مانند اضافه کردن پل در بین مسیر. برای استفاده از این عملکرد یک نقطه را در میانه خطی که می‌خواهید تقسیم شود انتخاب کنید، Split Way را از منوی Tools انتخاب کرده و خط خود را به دو قسمت تقسیم کنید.
 
 
-### Combine Way
+### ترکیب مسیر
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+این کار برعکس Split Way را انجام می‌دهد. برای ترکیب دو خط به یک خط واحد، آنها باید یک نقطه واحد مشترک داشته باشند. برای استفاده از این عملکرد، دو خطی که می‌خواهید ترکیب کنید را انتخاب کنید. می‌توانید بیش از یک شی را با نگه داشتن کلید SHIFT در صفحه کلید خود و کلیک بر روی هر خط انتخاب کنید. هنگامی که هر دو خط را انتخاب کردید، Combine Way را از منوی Tools انتخاب کنید.
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### معکوس کردن و ترکیب کردن  
 
-If you are combining roads that have different directions, you might get this warning:
+اگر جاده هایی را که دارای جهات مختلف هستند ترکیب کنید، ممکن است این هشدار را دریافت کنید:
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+اگر جاده‌ها متصل شده و در مسیر هم حرکت کنند، سپس "معکوس کردن و ادامه دادن" را انتخاب کنید.
 
 
-### Reverse Way
+### معکوس کردن مسیر
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+اینکار مسیر خط را تغییر می‌دهد. تمام خطوط در OSM دارای یک جهت هستند، که توسط فلش​‌های خط در JOSM نشان داده می‌شود. به صورت کلی جهت مهم نیست، به جز در مورد جاده‌های یکطرفه و رودخانه‌هایی که در جهت خاص جریان دارند. در این موارد ممکن است لازم باشد مسیر را به گونه‌ای تغییر دهید تا در مسیر صحیح قرار گیرد.
 
 ![Way direction][]
 
@@ -95,18 +95,18 @@ This will change the direction of the line. All lines in OSM have a direction, w
 
 ### عمود کردن گوشه‌های اشکال
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+این تابع برای رسم اشکال کاملاْ منظم مانند ساختمان بسیار مفید است (**اما به [JOSM](/fa/josm/josm-more-pluginsابزارهای ساختمان در /)** نیز مراجعه کنید). پس از رسم یک پهنه، این عملکرد آن را تغییر میدهد تا گوشه‌های مربع داشته باشد.
 
 ![Orthagonalize][]
 
 
-### Unglue way
+### جدا کردن مسیر
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+این ابزار به شما اجازه می‌دهد تا نقاط متصل بهم را از هم جدا کنید و هنگامی کارآیی دارد که دو شیء دارای یک نقطه مشترک باشند. مثلاْ، یک اشتباه رایج در جاده‌ها این است که قسمتی از یک ساختمان به آن چسبیده و دارای نقطه مشترک باشند. مسلماْ هیچگاه جاده‌ها به ساختمان‌ها نچسبیده‌اند، بنابراین این یک اشتباه است و می‌توانید اشیا را از یکدیگر جدا کنید.
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+* خط و نقطه در واقع تا زمانی که یکی از آنها را حرکت ندهید جداگانه به نظر نمی‌رسند.
 
 میانبرهای صفحه کلید
 ------------------

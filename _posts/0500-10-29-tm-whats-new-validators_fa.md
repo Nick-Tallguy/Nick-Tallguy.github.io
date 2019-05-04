@@ -12,16 +12,16 @@ category: coordination
 
 ## پروفایل کاربری‌تان
 
-The Tasking Manager 3 has a number of new features directed toward folks doing validation. Please make your **first activity in the new Tasking Manager visiting your User Profile**, which can be selected from the popdown menu under your OpenStreetMap (OSM) user name in the upper right corner.
+مدیر وظایف ۳ دارای تعدادی ویژگی جدید است که به افرادی که اعتباردهی می‌کنند مربوط می‌شود. لطفاْ **اولین فعالیت خود در مدیر وظایف جدید را به بازدید از نمایه کاربری خود** اختصاص دهید، که می‌توانید از منوی پائین کشیدنی تحت نام کاربری OpenStreetMap (OSM) خود در گوشه سمت راست بالا انتخاب کنید.
 
 ![profile][]
 
-1. **Email Address** - The Tasking Manager can now send an email whenever a user receives a message in the Tasking Manager. This is very important to people doing validation. Comments left when validating mapping are now much more likely to be seen by the person whose work you are validating. Please be sure to **add your email address** to your profile as well.
+1. **آدرس ایمیل** - مدیر وظایف هم اکنون می‌تواند هر زمان که کاربری یک پیام را در ویریت وظایف دریافت می‌کند، یک ایمیل بفرستد. این برای افرادی که اعتباردهی را انجام می‌دهند بسیار مهم است. توضیحاتی که در حال تأیید نقشه گذاشته می‌شود خیلی بیشتر از مواردی است که در حال نقشه‌کشی انجام می‌شود. لطفا مطمئن شوید **آدرس ایمیل‌تان** را نیز به نمایه خود اضافه کرده‌اید.
 
-2. **Validator Role** - Projects can optionally require experienced validators to validate project mapping. While "Mapper Experience Level" is automatically set based on OSM changesets, the validator role is currently only set by project managers manually. The initial list of folks with the validator role is incomplete, please contact a project manager to have your name added to the list of those with the validator role if you are an experienced validator who does not have the validator role in the Tasking Manager. **Please note**: The validator role is Tasking Manager wide and therefore we ask project managers to only assign this role to validators whose validation work they know directly, and have first hand knowledge the validator is qualified to validate any project in the Tasking Manager.
+2. **نقش اعتباردهنده** - پروژه‌ها می‌توانند به صورت اختیاری نیاز به اعتباردهنده با تجربه برای اعتباربخشی به پروژه‌های نقشه‌کشی را اعلام کنند. درحالیکه "سطح تجربه نقشه‌کش" به طور خودکار بر اساس بسته‌های تغییر OSM تنظیم می‌شود، در حال حاضر نقش تأییدکننده به صورت دستی تنها توسط مدیران پروژه تنظیم می‌شود. لیست اولیه افراد دارای نقش تأییدکننده ناقص است، لطفاْ با مدیر پروژه تماس بگیرید تا در صورتی که یک اعتباردهنده با تجربه هستید اما نقش تأییدکننده در مدیر وظایف ندارید اسم شما در فهرست کسانی که دارای نقش تأییدکننده هستند اضافه شود. **لطفاْ توجه داشته باشید**: نقش اعتباردهنده در مدیر وظایف گسترده است و از اینرو ما از مدیران پروژه می‌خواهیم این نقش را فقط به اعتباردهنده‌هایی که با کار اعتباربخشی آنها به طور مستقیم آشنایی داریم و دانش دست اول اعتباردهنده مجاز به اعتباردهی هر پروژه در مدیر وظایف دارد اختصاص داده می‌شود.
 
 
-## فرآیند اعتباربخشی
+## فرآیند اعتباردهی
 
 ### مرحله ۱ - انتخاب وظیفه
 

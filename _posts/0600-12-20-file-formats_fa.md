@@ -11,52 +11,52 @@ category: osm-data
 
 تاریخ بازبینی ۱۳۹۵/۰۶/۱۵
 
-Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
+همانند هرگونه داده‌ای، روش‌های مختلفی برای ذخیره‌سازی داده‌های جغرافیایی در یک کامپیوتر وجود دارد. می‌توان آنها را در یک پایگاه داده که یک سیستم تخصصی برای ذخیره و بازیابی داده‌ها است و در واقع سیستم‌های پایگاه داده‌ای که به طور خاص برای ذخیره سازی داده‌های جغرافیایی طراحی شده‌اند، ذخیره نمود. همچنین می‌توان به صورت فایلهای کامپیوتری سنتی ذخیره نمود، هرچند انواع مختلف قالبهای فایل برای داده‌های جغرافیایی وجود دارد.  
 
-In this section we'll go through a few ways of storing geographic data, explain how they work and how they're typically used.  
+در این بخش، چند راه برای ذخیره داده‌های جغرافیایی، توضیح چگونگی کار آنها و نحوه استفاده از آنها را خواهیم آموخت.  
 
 فایلهای OSM.
 -----------
 
-The **.osm** file format is specific to OpenStreetMap. You won't come across it elsewhere. If you have ever downloaded data using JOSM and saved it as a file, you may have noticed that the file is saved with the extension **.osm**. If you are a GIS user, you may also have noticed that it is not easy to open these files using software such as QGIS.  
+قالب فایل **osm.** برای OpenStreetMap اختصاصی است. هیچ جای دیگری آن را نخواهید یافت. اگر تا به حال داده‌ها را با استفاده از JOSM بارگیری (دانلود) کرده‌اید و آن را به عنوان یک فایل ذخیره کرده‌اید، ممکن است متوجه شده باشید که فایل با پسوند **osm.** ذخیره می‌شود. اگر کاربر GIS هستید، ممکن است متوجه شده باشید که باز کزدن این فایلها با استفاده از نرم‌افزاری مانند QGIS آسان نیست.  
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that many geographic data formats predate the modern internet era, and are designed for quick access and querying like one would query a database. OSM data, on the other hand is designed to be easily sent and received across the internet in a standard format. Hence, **.osm** files are coded in XML, and contain geographic data in a structured, ordered format. A simple **.osm** file would look like this if viewed in a text editor:  
+پس چرا داده‌های OSM در یک قالب فایلی ذخیره می‌شود که هیچ کس دیگری از آن نمی‌تواند استفاده کند؟ پاسخ این است که بسیاری از ‌قالبهای داده جغرافیایی پیش از دوران اینترنت مدرن هستند و برای دسترسی سریع و پرس‌وجو همانند پرس‌وجو از یک پایگاه داده طراحی شده‌اند. از سوی دیگر، اطلاعات OSM،  طوری طراحی شده‌اند که به راحتی و طبق استاندارد رایج در سراسر اینترنت ارسال و دریافت شوند. از این رو، فایلهای **osm.** به صورت XML کدگذاری می‌شوند و حاوی اطلاعات جغرافیایی در قالب ساختار یافته و مرتب می‌باشند. یک فایل **osm.** ساده را اگر در یک ویرایشگر متن ببینید به صورت زیر دیده می‌شود:  
 
 ![Sample OSM XML file][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you download data in JOSM, but using these files for analysis and map design is not easy. Hence you are better off converting the data into another format, or getting it from a service that converts the data for you.  
+به دست آوردن اطلاعات در قالب **osm.** آسان است - در حقیقت هر بار که بارگیری داده‌ها را در JOSM انجام می‌دهید، اینکار را انجام می‌دهید، اما استفاده از این فایلها برای تجزیه و تحلیل و طراحی نقشه آسان نیست. از این رو بهتر است که داده‌ها را به یک فرمت دیگر تبدیل کنید یا از طریق سرویسی که داده را برای شما تبدیل می‌کند، این کار را بکنید.  
 
-> Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
+> داده خام OSM به طور معمول در فایل **osm.** ذخیره می‌شود، اما ممکن است فایل هایی را با پسوند **bz2.** و **pbf.** نیز ببینید. اینها اساساْ همان فایل **osm.** هستند که برای صرفه‌جویی حجمی فشرده شده‌اند تا هنگام کار با فایل‌های حاوی داده بزرگ بکار روند.  
 
-Shapefiles
+فایلهای شیپ (Shapefiles)
 ----------
 
-The **shapefile** is a widely used format for storing vector geographic data. It was developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.  
+**فایلهای شیپ** قالبی هستند که به طور گسترده‌ای برای ذخیره داده‌های جغرافیایی برداری استفاده می‌شوند. این قالب توسط ESRI، شرکتی که برنامه ArcGIS را و مجموعه‌ای محبوب از برنامه‌های کاربردی GIS را توسعه داده است ساخته شده است.  
 
-Shapefiles are actually a collection of several different files. For example, a shapefile that contains building data might have files with the following extensions:  
+یک فایل شیپ در واقع مجموعه‌ای از چندین فایل مختلف است. به عنوان مثال، یک فایل شیپ که حاوی داده‌های ساختمان است ممکن است فایل‌هایی با پسوندهای زیر داشته باشد:  
 
 -	buildings.**shp**
 -	buildings.**shx**
 -	buildings.**dbf**
 
-Shapefiles will often have additional files too which contain other information.  
+فایلهای شیپ اغلب دارای فایلهای اضافی حاوی اطلاعات دیگر نیز هستند.  
 
-A shapefile must be designated to hold only one type of feature (points, lines, or polygons), and each feature has it's attributes contained in a table. Unlike the OpenStreetMap system in which every object can have an unlimited number of tags, the attributes of features in a shapefile must fit into the shapefile's defined table structure, which might look something like this:  
+یک فایل شیپ باید فقط یک نوع ویژگی (نقاط، خطوط یا چند ضلعی) را نگه دارد، و خصوصیات هر ویژگی در یک جدول نگهداری می‌شود. بر خلاف سیستم OpenStreetMap که در آن هر شیء می‌تواند تعداد نامحدودی برچسب داشته باشد، خصوصیات ویژگی‌ها در فایلهای شیپ باید در ساختار جدول تعریف شده آن که چیزی شبیه به این است قرار دارد:  
 
 ![Shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
+داده‌های OpenStreetMap را می‌توان به فایل شیپ تبدیل کرد. وبسایت‌های مختلفی فایلهای شیپ شبیه‌سازی شده از داده‌های OSM را ارائه می‌کنند. اینها در [فصل بعدی](/fa/osm-data/getting-data) بحث شده اند.  
 
-Databases
+پایگاههای داده
 ---------
 
-Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  
+انواع گوناگونی از اطلاعات در سیستم‌های پایگاه داده ذخیره می‌شوند که روش منطقی سازماندهی و دسترسی به داده را فراهم می‌کنند. داده‌های جغرافیایی نیز متفاوت نیستند، گرچه پایگاه‌های داده طراحی شده برای داده‌های زمینی جهت فائق آمدن بر کارکردهای پیجیده‌ای که برای استخراج داده‌های جغرافیایی مورد نیاز است، تخصصی هستند.  
 
 OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
 
 Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
 
-Summary
+خلاصه
 -------
 
 In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  

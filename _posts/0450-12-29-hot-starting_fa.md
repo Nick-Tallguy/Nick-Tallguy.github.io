@@ -1,18 +1,18 @@
 ---
 layout: doc-rtl
-title: Starting with a Tasking Manager - iD editor
+title: شروع به کار با مدیریت وظایف - ویزایشگر iD
 permalink: /fa/hot-tips/getting-started/
 lang: fa
 category: hot-tips
 ---
 
-Starting with a Tasking Manager - iD editor
+شروع به کار با مدیریت وظایف - ویزایشگر iD
 ============
 
 - TOC
 {:toc}
 
-This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), but the principles are the same for all versions.  
+این راهنمای برای [مدیر وظایف HOT](http://tasks.hotosm.org/) نوشته شده است، اما اصول کار برای همه نسخه‌ها یکسان است.  
 
 ملزومات
 --------------
@@ -20,22 +20,22 @@ This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), b
 ![TM Start][]
 
 
-1. Go to a Tasking Manager (TM) site, for example <http://tasks.hotosm.org/>. Using your <http://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
-2.  Start on a project designed for new mappers - these are often 'buildings only' projects.  
-3.  Read the **Description** and **Instructions** and make sure you understand what is needed before you start. 
-4.  The mapping is checked by 'validators' who often send messages giving valuable feedback on your contributions.  
+1. به یک سایت (Tasking Manager (TM بروید، مثلاْ <http://tasks.hotosm.org/>. با استفاده از حساب کاربزی خود در <http://www.openstreetmap.org> وارد شوید، مدیر وظایف را برای دسترسی به حساب OpenStreetMap خود مجاز کنید.  
+2. با یک پروژه که برای نقشه‌کش‌های تازه‌کار است شروع کنید - اینها اغلب پروژه‌های "فقط ساختمان" هستند.  
+3. **توضیحات** و **دستورالعمل** را بخوانید و اطمینان حاصل کنید که همه آنچه را که قبل از شروع نیاز است را فهمیده‌اید. 
+4. نقشه‌کشی شما توسط "اعتباردهندگان" که اغلب پیام‌هایی با بازخورد ارزشمند در مورد مشارکت شما ارسال می‌کنند، بررسی می‌شود.  
 ![TM-start-at-top]{: height="100px"}  
-**Tip -** Many validators start working at the top of the map and work down - you are more likely to get valuable feedback at an early stage if you use the map & select a square as close to the top as you can. (The yellow squares have been marked as complete, and the green ones have been marked as complete and then validated). Click on a white or pale grey square - more info at [Guide to the Tasking Manager](/en/coordination/tasking-manager/).  
-5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
-6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
-4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
-5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+**نکته -** بسیاری از اعتباردهندها از بالای نقشه شروع به کار می‌کنند و به پائین می‌آیند - احتمالاْ به شما بازخورد ارزشمندی در مرحله اولیه‌ای که از نقشه استفاده می‌کنید و مربعی که به بالای نقشه نزدیکتر است را انتخاب کرده‌اید، داده می‌شود . (مربع‌های زرد به عنوان کامل شده مشخص شده‌اند، و مربع‌های سبز علاوه بر کامل شدن، اعتبارسنجی نیز شده‌اند). روی مربع سفید یا خاکستری کمرنگ کلیک کنید - اطلاعات بیشتر در [راهنمای مدیریت وظایف](/en/coordination/tasking-manager/).  
+5. نقشه‌کشی را شروع کنید - ممکن است لازم باشد بخش‌های بیشتری از این فصل نکات HOT را بخوانید تا بتوانید ادامه دهید. نکات مهم در مورد [ساختمان‌های مدور](/fa/hot-tips/tracing-round-buildings/) یا [ساختمانهای با گوشه مربع](/fa/hot-tips/tracing-rectangular-buildings/) ممکن است کمک کننده باشد.  
+6. مرتباْ ذخیره کنید - [نکات HOT -ذخیره‌سازی](/fa/hot-tips/saving/) را ببینید.  
+4. صبور باشید - گاهی اوقات کمبود اعتباردهنده‌ها و تعداد زیاد نقشه‌کش‌های جدید که همگی منتظر بازخورد مورد نظر هستند وجود دارد! نقشه‌کشی را انجام دهید، اما زمانی که متوجه شدید اشتباه کرده‌اید (همه ما اشتباه میکنیم!) ببینید می‌توانید خودتان آن را حل کنید، در غیر اینصورت درخواست کمک کنید.  
+5. اگر نیاز دارید که مربعی را که در حال کار بر روی آن هستید دقیقاْ بشناسید، برای ارسال یک پیام یا گرقتن بازخورد زنده، لطفاْ به [بخش مدیریت وظایف LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email) مراجعه کنید.  
 
-See also  
+همچنین ببینید  
 ---------
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
-*Subtitles available in some languages*  
+*برای بعضی زبانها زیرنویس وجود دارد*  
 
 
 [TM-start-at-top]:/images/hot-tips/TM-start-at-top-1.png
