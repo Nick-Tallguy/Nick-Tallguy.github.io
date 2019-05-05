@@ -52,14 +52,14 @@ category: osm-data
 
 انواع گوناگونی از اطلاعات در سیستم‌های پایگاه داده ذخیره می‌شوند که روش منطقی سازماندهی و دسترسی به داده را فراهم می‌کنند. داده‌های جغرافیایی نیز متفاوت نیستند، گرچه پایگاه‌های داده طراحی شده برای داده‌های زمینی جهت فائق آمدن بر کارکردهای پیجیده‌ای که برای استخراج داده‌های جغرافیایی مورد نیاز است، تخصصی هستند.  
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
+داده‌های OpenStreetMap اغلب در پایگاه داده PostgreSQL با پسوند PostGIS ذخیره می‌شوند. این نوع پایگاه داده دسترسی سریع به داده‌ها را فراهم کرده و به آسانی با Mapnik، قطعه نرم‌افزاری که کاشی‌های نقشه مورد استفاده در نقشه‌های وبی را ایجاد می‌کند، استفاده شود. چندین ابزار برای وارد کردن داده OSM خام به پایگاه داده PostgreSQL وجود دارد.  
 
-Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
+نوع دیگری از پایگاه داده که به عنوان SQLite شناخته می‌شود، عملکردی مشابه پایگاه داده PostgreSQL را ارائه می‌دهد اما همه داده در یک فایل ذخیره شده و نیازی به اجرای نرم افزار پایگاه داده نیست. ایجاد این داده‌ها برای شما کمی مشکل می‌باشد، اما برای کار با مجموعه‌های کوچکی از داده‌ها آسان است.  
 
 خلاصه
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+در فصول بعد خواهیم دید که چگونه می‌توانید داده‌ها را در فرمت‌های مختلف از اینترنت دانلود کنید و نحوه استفاده از ابزارهای مختلف برای دستکاری داده‌های خام برای خودتان را یاد خواهید گرفت.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png

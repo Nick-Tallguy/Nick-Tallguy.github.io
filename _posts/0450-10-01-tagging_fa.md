@@ -57,7 +57,7 @@ See also
 
 For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای")  
 *Subtitles available in some languages*  
 
 
@@ -67,4 +67,4 @@ For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/M
 [tagging]:/images/hot-tips/tagging.gif
 [keymon]:/images/hot-tips/keymon.png
 [tagged-building]:/images/hot-tips/tagged-building.png
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای"

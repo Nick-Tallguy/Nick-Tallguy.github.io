@@ -36,7 +36,7 @@ Features
 * Visualization of your tracks using any installed KML/GPX viewer, directly from the tracklist
 * Track export in the /GPSLogger folder of your device, in KML, GPX, and TXT
 * Track sharing, in KML, GPX, and TXT format, via E-mail, Dropbox, Google Drive, FTP, ...
-* Uses metric, imperial, or nautical units
+* استفاده از واحدهای متریک، امپریال، و یا دریایی
 
 Basic Usage
 -----------
