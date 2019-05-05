@@ -31,7 +31,8 @@ html {
 .banner {
     display: none;
 }
-.doc-main {
+.doc-main,
+.doc-main-rtl {
     width: 96%;
     margin: 1%;
 }
