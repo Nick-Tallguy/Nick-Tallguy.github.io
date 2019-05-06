@@ -9,47 +9,47 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
+> در تاریخ ۱۳۹۵/۰۵/۱۴ بازبینی شده است و گرچه کمی قدیمی است اما هنوز به درد بخور است و حاوی لینک به راهنمای خود نرم‌افزار در سایتش میباشد.
 
-In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  
+در این بخش، یاد خواهیم گرفت که چگونه OruxMaps را راه‌اندازی کنیم، چگونه نقاط بین‌راهی را ایجاد کنیم، یک tracklog را چگونه ببینیم و چگونه یک tracklog را برای استفاده در JOSM آماده کنیم.  
 
 نصب OruxMaps
 ------------------
 
-Install the app from Google Play Store by searching for **OruxMaps**, OruxMaps should be among the top search results listed.  
+برنامه را از فروشگاه Google Play با جستجوی **OruxMaps** نصب کنید، OruxMaps باید در میان نتایج بالایی فهرست شده باشد.  
 
 ![Search OruxMaps in Play Store][]
 
-Click on **Install** button and press Accept after App permissions appears.  
+بر روی دکمه **Install** کلیک کنید و دکمه Accept را بعد از ظاهر شدن مجوزهای برنامه بزنید.  
 
 ![Install OruxMaps][]
 
-Congratulations! You  now have OruxMaps installed in your device!  
+تبریک می گویم! شما   اکنون OruxMaps را در دستگاه خود نصب کرده اید!  
 
 استفاده از OruxMaps
 --------------------
 
-The first time you run the application, you will see a notification like this:  
+اولین بار که برنامه را اجرا می‌کنید، یک اعلان مانند این را خواهید دید:  
 
 ![Running OruxMaps for the first time][]
 
-In OruxMaps, you can choose whether you want to use online maps or offline maps. It’s better to use offline maps since you can use it even without an Internet connection. OruxMaps will suggest two sources  for downloading offline maps. If you already have your offline maps, you can also put in here too! At first it can be a little bit confusing because there are so many buttons in there. But don’t worry, you will see the explanation for each buttons below:  
+در OruxMaps، می‌توانید انتخاب کنید که آیا می‌خواهید از نقشه‌های آنلاین یا نقشه‌های آفلاین استفاده کنید. بهتر است از نقشه‌های آفلاین استفاده کنید زیرا حتی بدون اتصال به اینترنت می‌توانید از آن استفاده کنید. OruxMaps دو منبع برای دانلود نقشه‌های آفلاین را پیشنهاد می‌کند. اگر قبلاْ برای خود نقشه آفلاین تهیه کرده‌اید، می توانید در اینجا نیز قرار دهید! شاید در شروع کمی گیج کننده باشد زیرا دکمه‌های زیادی وجود دارد. اما نگران نباشید، توضیح هر دکمه را در زیر می‌بینید:  
 
 ![Interface overview][]
 
-Source: [OruxMaps Manual English Version](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
-This manual may be more up to date than this guide, and may be available in other languages.  
+منبع: [OruxMaps Manual English Version](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
+این کتابچه راهنمای کاربر ممکن است از راهنمای کنونی ما به روزتر باشد و همچنین به زبانهای دیگر نیز موجود باشد.  
 
-You can change your background map under **Maps \> Switch Maps**. After that you get to options - you want to use your **Online Map** or you want to use
-**Offline Maps**. OruxMaps provide a lot of Online Maps source that can you choose but of course it will cost money from the data plan on your device.  If you want to know where you can put your offline maps, you can go to **Setting \>Maps**. In the map directory option you can see where the OruxMaps put your
-offline maps. By the default, it’s in **OruxMaps/Mapfiles** folder in your internal storage.  
+می‌توانید نقشه پس زمینه خود را در قسمت **Maps \> Switch Maps** تغییر دهید. پس از آن می‌توانید گزینه خود را انتخاب کنید - از **نقشه‌های آنلاین** یا 
+**نقشه آفلاین** استفاده کنید. OruxMaps منابع بسیاری از نقشه‌های آنلاین را فراهم می کند که می‌توانید آنها را انتخاب کنید البته به علت استفاده از داده دستگاه برای شما هزینه دارد. اگر می‌خواهید بدانید کجا می‌توانید نقشه آفلاین خود را قرار دهید، می توانید به **Setting \>Maps** بروید. در گزینه پوشه نقشه می‌توانید ببینید OruxMaps 
+که نقشه‌های آفلاین کجا قرار داده می‌شوند. پیش فرض آن پوشه **OruxMaps/Mapfiles** در حافظه داخلی شما است.  
 
 ![Offline maps storage settings][]
 
-Start Tracking
+شروع ثبت مسیر
 --------------
 
-Before you start tracking let’s review some settings under track/routes setting. The first setting is **Auto GPX Creation**. If you check this setting, OruxMap will help you to create .gpx file immediately after finishing a track (using Stop Tracking feature). So, after finishing a track, you can go to **OruxMaps/Tracklogs** in your internal storage to get your .gpx files without needing to export your track log first in track/routes management. The second setting is **Ask Track Name**. It’s very useful to define your track name before you start tracking so that you exactly know the specific name of your tracks.  
+قبل از اینکه شروع به ردیابی کنید، اجازه دهید بعضی از تنظیمات قسمت track/routes را بررسی کنیم. تنظیمات اول **Auto GPX Creation** است. اگر این تنظیم را فعال کنید، OruxMap به شما در ایجاد فایل gpx. بلافاصله بعد از تمام شدن مسیر قبلی (با استفاده از قابلیت توقف ثبت مسیر) کمک خواهد کرد. بنابراین، پس از اتمام یک مسیر، میتوانید به **OruxMaps/Tracklogs** در حافظه داخلی خود بروید تا فایل های gpx. خود را بدون نیاز به خروجی گرفتن از طریق track/routes management به دست آورید. تنظیم دوم **Ask Track Name** است. بسیار مفید است قبل از اینکه شما شروع به ردیابی کنید، نام مسیر خود را تعریف کنید تا دقیقاْ نام مسیرتان را بدانید.  
 
 ![Tracklog settings][]
 
@@ -83,7 +83,7 @@ If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. F
 خلاصه
 -----------
 
-Congratulations! You already know how to use OruxMaps for field surveys. It may be hard on your first time but if you continue using this you will be familiar with this application.  
+تبریک می‌گوییم! حالا می‌دانید چگونه از OruxMaps برای بررسی میدانی استفاده کنید. اینکار شاید در اوایل کمی سخت باشد، اما با استفاده ممتد از آن، با این برنامه آشنا خواهید شد.  
 
 [Search OruxMaps in Play Store]: /images/mobile-mapping/oruxmaps_image00.png
 [Install OruxMaps]: /images/mobile-mapping/oruxmaps_image03.png

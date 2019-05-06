@@ -20,40 +20,40 @@ QGIS (که قبلاْ کوانتوم GIS نامیده میشد) یک سیستم 
 دستیابی به داده‌های OSM
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-در [دریافت داده‌های OSM](/fa/osm-data/getting-data) و [استفاده از Geofabrik و خروجی HOT](/fa/osm-data/geofabrik-and-hot-export) توضیح داده شده روشهای زیادی برای دریافت مجموعه داده‌های بزرگ وجود دارد.  
+اولین کاری که انجام میدهیم دریافت مقداری اطلاعات به روز از OSM است. می‌توانیم این کار را به طرق مختلف انجام دهیم. البته، درخواست داده از سرور OSM، همانطور که در ویرایشگر JOSM انجام می‌شود، محدود است، بنابراین نمی‌توانیم حجم بسیار زیادی از داده خام را یکجا بیرون بکشیم، اما راه‌هایی برای دسترسی به مجموعه‌های داده‌های بزرگ 
+همانگونه که در [دریافت داده‌های OSM](/fa/osm-data/getting-data) و [استفاده از Geofabrik و خروجی HOT](/fa/osm-data/geofabrik-and-hot-export) توضیح داده شده وجود دارد.  
 
-در این راهنما از تابع درونزاد دانلود خود QGIS استفاده می‌کنیم.  
+در این راهنما از تابع دانلود درونی خود QGIS استفاده می‌کنیم.  
 
-- Open QGIS and go to Vector -> OpenStreetMap -> Download Data...  
-- You can choose from several options here - if your window is already displaying the extent you want, check the box next to "From map canvas." If you have a layer loaded in QGIS with the correct extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual" and enter the latitudes and longitudes which form a **bounding box** around the area we	want to access. You can fill in the lats and lons that are of interest to you, but remember that the area cannot be too large, or you won't be able to download all the data.  
+QGIS را باز کنید و به Vector -> OpenStreetMap -> Download Data بروید  
+- در اینجا می‌توانید از بین چندین گزینه انتخاب کنید - اگر قبلاْ پنجره شما منطقه‌ای را که می‌خواهید نشان می‌دهد، کادر کنار "از روی بوم نقشه" (From map canvas) را تیک بزنید. اگر لایه‌ای از QGIS را دارید که منطقه صحیح را دانلود کرده، «از لایه» (From layer) را انتخاب کنید و لایه‌ای که می‌خواهید استفاده کنید را انتخاب کنید. در اینجا ما "دستی" (Manual) را انتخاب می‌کنیم و طول و عرض جغرافیایی را وارد می‌کنیم که یک **کادر محدوده** را در اطراف منطقه که می‌خواهیم به آن دسترسی پیدا کنیم	 تشکیل می‌دهد. می‌توانید طول و عرض‌هایی را که می‌خواهید بنویسید اما به یاد داشته باشید که محدوده نمی‌تواند بیش از حد بزرگ باشد در غیر اینصورت نمی‌توانید همه داده ها را دانلود کنید.  
 
 ![کادر محدوده][bounding box]
 
-- Select a name and location for the output file, using the **.osm** file extension, and click OK.  
-- You will be notified when the download is complete. Click "Close" to exit the download dialog.  
+- نام و مسیر فایل خروجی را با استفاده از فرمت **osm.**انتخاب کنید و روی OK کلیک کنید.  
+- هنگامی که دانلود کامل شود، اطلاع داده میشود. روی «بستن» کلیک کنید تا کادر محاوره‌ای دانلود خارج شوید.  
 
 ![دانلود کامل شد][download complete]
 
-- The OSM data will now be saved in the location you specified.  
+- داده OSM اکنون در مسیری که مشخص کزده‌اید ذخیره خواهد شد.  
 
-> This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
+> این روش دسترسی به داده OSM همانند زمانی است که در JOSM یا در [openstreetmap.org] (http://www.openstreetmap.org) دانلود می‌کنید. برای استخراجهای به روزتر، می‌توانید از سایت [HOT export site](http://export.hotosm.org) یا [bbbike.org](http://extract.bbbike.org/) دانلود کنید. به یاد داشته باشید که اگر یک فایل OSM فشرده را دانلود کنید، برای ادامه مراحل بعدی ابتدا باید آن را به فرمت **osm.** باز کنید.  
 
 
 وارد کردن داده‌ها به SQLite
 ---------------------------
 
-حالا ما باید فایل خام **.osm**مان را به پایگاه داده SQLite وارد کنیم.  
+حالا ما باید فایل خام **osm.**مان را به پایگاه داده SQLite وارد کنیم.  
 
-- Go to Vector -> OpenStreetMap -> Import Topology from XML...  
-- In the first field, select your **.osm** file.  
-- You can change the name of the output database file if you like.  
-- Keep the box checked next to "Create Connection..."  
+- به ...Vector -> OpenStreetMap -> Import Topology from XML بروید  
+- از فبلد اول فایل **.osm** را انتخاب کنید.  
+- اگر مایل باشید می‌توانید نام فایل پایگاه داده خروجی را تغییر دهید.  
+- تیک کنار «ایجاد اتصال ...» (...Create Connection) زده شده باشد.  
 
 ![وارد کردن داده‌ها][import dialog]  
 
-- Click OK.  
-- When it is finished, click "Close."  
+- OK را بزنید.  
+- پس از اتمام "Close" را بزنید.  
 
 
 ایجاد لایه‌ها
@@ -61,43 +61,43 @@ The first thing we will do is get some up-to-date OSM data. We can do this in nu
 
 دست آخر لایه‌هایی را که در QGIS استفاده خواهد شد بر اساس نیازهایمان تعریف می‌کنیم.  
 
-- Go to Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- In the first field, select the database you created in the previous step.  
+- به ...Vector -> OpenStreetMap -> Export Topology to SpatiaLite بروید.  
+- در فیلد اول، پایگاه داده‌ای را که در مرحله قبلی ایجاد کرده‌اید، انتخاب کنید.  
 
-![واردکردن فایل db][input db file]  
+![input db file][]  
 
-- Under "Export type," select the type of features you want to create a layer for. Here we will create a layer using polygons.  
+- در قسمت "Export type"، نوع ویژگی‌هایی را که می‌خواهید برای لایه ایجاد کنید را انتخاب کنید. در اینجا یک لایه از چندضلعی‌ها ایجاد می‌کنیم.  
 
-![نوع خروجی][export type]  
+![export type][]  
 
-Edit the layer name if you like.  
+اگر دوست دارید نام لایه را ویرایش کنید.  
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be included in our output layer. This gives us flexibility over exactly which data we want to access.  
+قسمت "تگهای صادر شده" (Exported tags) جایی است که جادو اتفاق می‌افتد. در اینجا برچسبهایی را که می‌خواهیم در لایه خروجی ما قرار داشته باشند را وارد کنیم. این به ما انعطاف‌پذیری اینرا میدهد که دقیقاْ به اطلاعاتی که میخواهیم دسترسی داشته باشیم برسیم.  
 
-- Click "Load from DB" to see a list of all the available tags in the database. Expand the window size by dragging the corner if that helps. You can see all the tags contained in this data, and also the number of features that have each tag.  
-- Check the boxes next to the tags that you want to include. Here we will select a few features that will be useful for polygons that represent buildings.  
+- بر روی "Load from DB" کلیک کنید تا لیستی از تمام تگ‌های موجود در پایگاه داده مشاهده کنید. اندازه پنجره را با کشیدن گوشه آن گسترش دهید. می‌توانید تمام برچسب‌های موجود در این پایگاه داده و همچنین تعداد ویژگی‌هایی که هر برچسب دارند را مشاهده کنید.  
+- کادر کنار برچسب‌هایی که می‌خواهید وارد کنید را تیک بزنید. در اینجا چند ویژگی را انتخاب خواهیم کرد که برای چند ضلعی‌هایی که ساختمانها را نشان می‌دهند مفید خواهد بود.  
 
 ![export full][]  
 
-When you are finished, click OK.  Close the box. Your layer should be automatically added.  
+وقتی که تمام شد، روی OK کلیک کنید. کادر را ببندید. لایه شما باید به صورت خودکار اضافه شود.  
 
-![چندضلعی‌های قاهره][cairo polygons]  
+![cairo polygons][]  
 
-Right-click on the layer and click "Open Attribute Table."  
+روی لایه کلیک راست کرده و روی "Open Table Attribute" کلیک کنید.  
 
-![جدول بازکردن خصوصیات][open attribute table]  
+![open attribute table][]  
 
-You can see here that we have a table which includes only the attributes we selected.  
+می‌بینید که ما جدولی داریم که شامل تنها ویژگی‌هایی است که انتخاب کردیم.  
 
-![جدول ویژگی‌ها][attribute table]  
+![attribute table][]  
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
+توجه داشته باشید که ما یک لایه **فقط** از ساختمان‌ها ایجاد نکرده‌ایم. بلکه، لایه‌ای از  تمام چند ضلعی‌های داده اصلی ایجاد کرده‌ایم که فقط شامل برچسب‌هایی است که انتخاب کردیم. برای فیلترکردن این لایه جهت نمایش فقط ساختمانها، باید پرس‌وجویی را اجرا کنیم که فقط چند ضلعی‌هایی که در آنها building=yes است انتخاب شوند.
 
 
 خلاصه
 -------
 
-This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
+این فرآیند باعث می‌شود تا اطلاعات OSM بروز شده و در QGIS گذاشته شود. وفتی که در QGIS لایه‌هایی مانند این داشته باشید، می‌توانید آنها را به صورت فایلهای شیپ ذخیره کنید، فیلتر و پرس‌وجو را روی آنها اجرا کنید و غیره. برای جزئیات بیشتر در مورد این توابع، منوی Help در QGIS را ببینید.  
 
 
 [bounding box]: /images/osm-data/bounding_box.png
