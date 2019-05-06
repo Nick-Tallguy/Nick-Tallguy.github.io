@@ -6,12 +6,12 @@ lang: fa
 category: coordination
 ---
 
-Tracing roads, buildings, water and landuse
+ردیابی راه‌ها، ساختمانها، آبها و کاربری اراضی
 ===========================================
 
-> Reviewed 2016-02-08  
+> تاریخ بازبینی ۱۳۹۴/۱۱/۱۹  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+در ادامه بخش [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) و در صورتی که با نقشه‌کشی برای HOT آشنایی ندارید به این نیاز پیدا خواهید کرد.  
 
 
 فهرست بخش
@@ -25,7 +25,7 @@ Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coor
 
 ##  راه‌ها
 
-Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
+در OpenStreetMap هرگونه جاده‌ای از آزادراه گرفته تا گذرگاه‌ها و مسیرها با عنوان 'راه' شناخته می‌شوند. بسیار مهم است که جاده‌ها به طور صحیحی به پایگاه داده (داده‌های OpenStreetMap) اضافه شوند چونکه به روشهای زیادی مورد استفاده قرار می‌گیرند:  
 
 - نرم‌افزارهای مسیریاب مانند دستگاههای گارمین و برنامه‌های موجود برای گوشی‌های هوشمند مانند Osmand قابلیت این را دارند که اطلاعات مسیریابی را در فواصل بسیار طولانی ارائه کنند به شرطی که اطلاعات درستی به آنها داده شود. از آنجا که این دستگاه‌ها برای تشخیص موقعیت نسبت به نقشه پایه‌ای که درون آنها بارگزاری شده است متکی به GPS درونی گوشی هستند، بسیار مهم است که راه‌ها دقیقاً با فاصله حداکثر ۱۵ متری از جای اصلی صحیح خود قرار داشته باشند والا درست کار نمی‌کنند.  
 - برنامه‌ریزی مسیر برای یک کامیون بزرگ امدادی بسیار ساده‌تر خواهد بود چنانچه بتوانید بین یک مسیر و جاده بزرگراه و همه دسته‌های بینابینی این دو افتراق قائل شوید.  
@@ -71,7 +71,7 @@ surface=unpaved
 ***
 
 
-## Residential Boundaries
+## محدوده‌های مسکونی
 
 Residential boundaries are used for many purposes in OpenStreetMap.  
 

@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tracing rectangular buildings - iD editor
-permalink: /en/hot-tips/tracing-rectangular-buildings/
-lang: en
+permalink: /ar/hot-tips/tracing-rectangular-buildings/
+lang: ar
 category: hot-tips
 ---
 
@@ -11,6 +11,8 @@ Tracing rectangular buildings - iD editor
 
 - TOC
 {:toc}
+
+> Created 2016-10-30  -->  
 
 The Essentials
 ----------

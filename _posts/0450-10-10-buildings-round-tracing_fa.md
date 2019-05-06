@@ -18,44 +18,44 @@ category: hot-tips
 ![Round Buildings][]  
 
 
-Points to note;  
+نکات قابل ذکر؛  
 
-- Place your points where the walls will reach the ground - 3 points is the minimum. Use the tool to make it round.  
-- Make sure you tag!  
-- Size matters - *population estimates are based on the cumulative building area in a given area*,  
-- Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
-- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- نقاط خود را در جایی که دیوارها به زمین می‌رسند قرار دهید - حداقل 3 نقطه لازم  است. از ابزار برای مدور کردن آن استفاده کنید.  
+- مطمئن شوید که تگ گذاشته‌اید!  
+- اندازه مهم است - * برآورد جمعیت بر اساس تجمیع ساختمانها در یک منطقه مشخص صورت می‌گیرد*،  
+- به اندازه کافی برای دیدن جزئیات زوم کنید - مقیاس بزرگنمایی ۲۰ متر یا کمتر معمولاْ کافی است.  
+- **در جستجوی ساختمان‌ها باشید** - با مقیاسی در حدود ۵۰ تا ۸۰ متر منطقه را پویش کنید. دنبال سایه‌ها و خطوط مستقیم باشید (پیدا کردن ساختمان‌های مدور سخت‌تر است!)  
+- ساختمان‌ها با جاده‌ها، رودخانه‌ها، مرز مناطق مسکونی **landuse=residential** و یا سایر ویژگی‌ها نباید همپوشانی داشته باشند.  
+- اگر اشتباه کردید، از دکمه **لغو** استفاده کنید [arrow backward]{: height = "26px"} تا آخرین تغییر(ات) برگردانده شود.  
+- همه ما نقشه را بهبود می‌بخشیم. اگر نقشه‌کش قبلی ساختمانها را به شکل مضحک  یا اشتباه باقی گذاشته باشد، آنها را تصحیح کنید و به یاد داشته باشید که یک پیام مودبانه برای وی ارسال کنید.  
 
-Identification
+تشخیص
 ---------------
 
-Round buildings are often found within a compound, and the buildings may be in clusters, or in isolation. It can be difficult to establish if you are looking at a round building or a bush or rock. Buildings are usually found near some means of access such as a path or track, although this can be difficult to see on very hard ground. The vegetation may be worn down by the passage of feet. In some parts of the world the buildings may be on the only dry land, and the access is by boat on a river or lake. There is normally a water source visible within 2 or 3 kilometres of any habitation, but in many parts of the world you do not see the water, but you do see more vegetation to indicate it must be there.  
+ساختمانهای گرد معمولاْ به صورت ترکیبی قرار می‌گیرند، و یا ممکن است به صورت دسته جمعی در یک مکان و یا تک تک و جدا از هم باشند. ممکن است پیدا کردن  یک ساختمان مدور از بین بوته‌ها یا تخته سنگها دشوار باشد. معمولاْ ساختمانها در نزدیکی مسیرهای دسترسی قرار دارند، اگرچه پیدا کردن آنها هم بر روی زمین خشک بسیار دشوار است. ممکن است پوشش گیاهی به علت عبور و مرور خوابیده باشد. در برخی از نقاط جهان، ساختمانها بر روی یک تکه زمین خشک که تنها از مسیر رودخانه یا دریاچه اطراف توسط قایق دسترسی دارند، قرار گرفته‌اند. به طور معمول یک منبع آب در شعاع ۲ یا ۳ کیلومتری از هر محل زندگی قابل مشاهده است، اما در بسیاری از نقاط جهان آبی نمی‌بینید، و فقط از روی پوشش گیاهی می‌توان فهمید که باید آنجا چیزی باشد.  
 
-In many places in the world it is easier to build a new village a short distance from the old one, leaving the old buildings to rot away and fall down - sometimes they are destroyed by fire. Look for shadows to help you decide what you are looking at. If all that is left is a round mark on the ground, it will have no shadow. **If in doubt add it as a building.**  
+در بسیاری از نقاط جهان، ساختن یک روستای جدید در یک فاصله کوتاهی از یک روستای دیگر آسانتر است، که ساختمانهای قدیمی فرسوده شده و آوار می‌شوند - گاهی اوقات آتش ساختمانها را تخریب می‌کند. به دنبال سایه ها باشید تا به شما کمک کند تصمیم بگیرید که چه چیزی را دنبال می‌کنید. اگر همه آنچه که بر روی زمین باقی مانده همانند علامت است هیچ سایه‌ای نخواهد داشت. **اگر شک دارید تنها به عنوان یک ساختمان اضافه کنید**  
 
 ![bush-and-round-building][]  
-This image shows both a bush and a round building. Shadows can help you to identify if you are looking at a round building, or a bush. In hot climates it is common to find buildings close to trees or bushes which will provide shelter and shade. The instructions to this particular task include a [link to a diary entry](https://www.openstreetmap.org/user/IvanGayton/diary/38612) by someone who has taken photographs of the buildings in the area, and gives a description. Please take the time to read this information. Round buildings can have slightly different construction materials in other areas of the world, and their roofs will appear different - the project instructions will often include guides to help you understand what you are seeing.  
+این تصویر هم یک بوته و هم یک ساختمان مدور را نشان می‌دهد. به کمک سایه‌ها می‌توان شناسایی نمود که به یک ساختمان مدور یا یک بوته نگاه می‌کنید. در آب و هوای گرم، معمول است که ساختمانها را در مجاورت درختان یا بوته‌ها میسازند تا  پناهگاه و سایه‌ای برای آنها فراهم کنند. دستورالعملهای مربوط به این کار خاص شامل یک [لینک به یک دفترچه خاطرات] (https://www.openstreetmap.org/user/IvanGayton/diary/38612) توسط کسی که عکسهایی از ساختمانهای این مناطق گرفته و آنها را توصیف می‌کند، وجود دارد. لطفاْ برای خواندن این اطلاعات وقت بگذارید. ساختمانهای گرد در سایر نقاط جهان مواد ساختمانی متفاوتی داشته و سقف آنها نیز متفاوت خواهد بود - دستورالعملهای پروژه اغلب شامل راهنماهایی برای کمک به شما در درک آنچه می‌بینید، هستند.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+بهترین کار را انجام دهید - حتی متخصصان نیز گاهی اوقات مخالف هستند و گاهی اوقات فقط باید به آنجا بروید تا ببینید دقیقاْ در واقعیت چه چیزی وجود دارد. **اگر  شک دارید تنها آنرا به عنوان یک ساختمان اضافه کنید**.  
 
-Building Tags
+تگ‌های ساختمان
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if scroll to the bottom of the tagging pane and click on **All tags**.
+توصیه می‌شود و ارجح است برای برچسب (تگ) ساختمانی که آنرا هیچوقت ندیده‌اید و با آن آشنا نیستید،  تنها از تگ **building**=**yes** استفاده کنید، برای اینکار می‌توانید به پایین صفحه بروید و در فسمت تگ‌ها بر روی **همه برچسب‌ها** (All tags) کلیک کنید تا ببینید آیا به روش درست برچسب زده شده است.
 
 همچنین ببینید  
 ---------
 
-[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+- [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
-[![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
+- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "فیلم‌های آموزشی گروه بشردوستانه OpenStreetMap - افزودن ساختمان به OpenSstreetMap")  
 
 
 [keymon]:/images/hot-tips/keymon.png
-[Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
-[bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
-[back arrow]: /images/beginner/back-arrow.png "Undo"
-[building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
+[Round Buildings]: /images/hot-tips/round_building.gif "نمایش کشیدن نقشه ساختمانهای مدور"
+[bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "ساختمان مدور در مجاورت بوته گیاه"
+[back arrow]: /images/beginner/back-arrow.png "برگرداندن"
+[فیلم‌های آموزشی در مورد ساختمان]: /images/hot-tips/building-video.png "فیلم‌های آموزشی گروه بشردوستانه OpenStreetMap - افزودن ساختمان به OpenSstreetMap"

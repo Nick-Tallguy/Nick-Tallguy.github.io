@@ -12,7 +12,7 @@ Tracing rectangular buildings - iD editor
 - TOC
 {:toc}
 
-<!-- > This guide may be downloaded as [tm_starting_en.odt](/files/tm_starting_en.odt) or [tm_starting_en.pdf](/files/tm_starting_en.pdf)  
+> Creado 2016-10-30  -->  
 
 Lo Esencial
 ----------

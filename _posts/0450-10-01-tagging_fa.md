@@ -18,47 +18,47 @@ category: hot-tips
 به چه خاطر به تگ‌ها نیاز داریم
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+بدون تگ هیچ آیتمی معنا ندارد و نقشه‌ها آن را نشان نمی‌دهند. تگ به کامپیوتر توضیح می‌دهد که این ویژگی در واقع چیست. اگر چیزی پیدا کردید که برچسب آن 'فراموش' شده شده باشد، لطفاً برچسبهای آنرا اضافه کنید. اگر آیتمی برچسب‌گذاری شده باشد، مانند ساختمانی که در تصویر بالا نشان داده شده به صورت رنگی مانند رنگ قرمز بالا نشان داده می‌شود. **اگر چیزی سفید رنگ است، آن را بررسی کنید و اگر برچسب آن فراموش شده به آن برچسب اضافه کنید**.  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+ایجادکننده پروژه در مدیریت وظایف نمی‌داند که نقشه‌کش از چه ویرایشگری استفاده کرده است، بنابراین دستورالعمل‌ها اغلب نظری مشابه این خواهند داشت؛  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+- *به طور کلی ساختمانها کلبه‌های مدوری هستند که باید با تگ **Building Features / Building** در ID و **building=yes** در JOSM مشخص شوند.  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+اگر می‌خواهید همه تگ‌های یک آیتم را  بررسی کنید، بر روی آن کلیک کنید، سپس به پایین پنجره برچسب زدن بروید و قسمت **همه برچسب‌ها** را ببینید.
 
-### Tags - a brief explanation ###
+### برچسب‌ها (تگ‌ها) - یک توصیح مختصر ###
 
- چنانچه موردی را انتخاب کرده و بر  روی **All tags** کلیک کنید همه برچسب های آن مانند  
+ چنانچه موردی را انتخاب کرده و بر  روی **همه برچسب‌ها** کلیک کنید همه برچسب های آن مانند  
 
-**building    yes**  
+**building    yes** را خواهید دید.  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+این تگ اصلی‌ترین تگ ساختمان است و در هنگام ردیابی ساختمان‌ها در مدیریت وظایف نیز همین تگ توصیه شده است.  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
+اگر دقیقاْ ماهیت ساختمان را می‌دانید، برچسب‌های دارای جزئیات بیشتر مانند؛  
   **building   house**  
   **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+یا خیلی تگ‌های دیگر استفاده کنید.جهت اطلاعات بیشتر در مورد برچسب‌گذاری ساختمانها <https://wiki.openstreetmap.org/wiki/Buildings> را ببینید.  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+[Highways section of this HOT-tips section](/en/hot-tips/highways/) را نیز جهت اطلاعات بیشتر در مورد راهها ببینید.  
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### رابطه‌ها - ساختمانهایی که حیاط دارند و یا در وسط یک رودخانه قرار دارند ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+برچسب‌های بعضی ویژگی به **رابطه** (Relation) آنها داده میشود نه به خود ویژگی. به عنوان یک مبتدی، اگر بر روی صفحه یک رابطه را ببینید، بهترین توصیه این است که «بدون هیچ تغییری» آنرا رها کنید.  
 
-For more information on relations (**not a beginner subject**) see;  
+برای اطلاعات بیشتر در مورد رابطه‌ها (**به درد مبتدیان نمیخورد**) این موارد را ببینید؛  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
+[LearnOSM - JOSM - رابطه‌ها](/fa/josm/josm-relations/) که در مورد رابطه‌ها توضیح داده اما از یک ویرایشگر دیگر OSM استفاده میکند، یا  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
-See also  
+همچنین ببینید  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+برای دیدن لیست جامع تگ‌ها <https://wiki.openstreetmap.org/wiki/Map_Features> را ببینید.  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای")  
+*برای بعضی زبانها زیرنویس وجود دارد*  
 
 
 
@@ -67,4 +67,4 @@ For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/M
 [tagging]:/images/hot-tips/tagging.gif
 [keymon]:/images/hot-tips/keymon.png
 [tagged-building]:/images/hot-tips/tagged-building.png
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "گروه بشردوستانه OpenStreetMap - فیلم‌های آموزشی یک دقیقه‌ای"

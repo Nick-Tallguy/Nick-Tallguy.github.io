@@ -36,7 +36,7 @@ layout: default
                   {% assign first_guide = "0" %}
                   {% for subpost in site.categories[page.category] %}
                     {% if subpost.lang == page.lang %}{% unless subpost.cover or subpost.hidden %}
-                    <li class='doc doc-nav-secondary rounded'>
+                    <li class='doc doc-nav-secondary-rtl rounded'>
                       {% if first_guide == "0" %}
                         <a class='title {% if page.url == subpost.url %}active{% endif %} doc-first-guide' href="{{site.baseurl}}{{ subpost.url }}">
                         <span>{{ subpost.title }}</span>
@@ -62,7 +62,7 @@ layout: default
 <!-- On the left side we have... -->
 <!-- the table layout makes sure that the logo header and pagenumber footer appear on _every_ page -->
 
-<div class='doc-main doc cell5 padAll'>
+<div class='doc-main-rtl doc cell7 padAll'>
   <table>
     <thead>
       <tr><td>

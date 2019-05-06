@@ -11,11 +11,11 @@ JOSM - افزودن تصاویر هوایی
 
 تاریخ بازبینی ۱۳۹۵/۰۶/۱۹  
 
-Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  
+همه تصاویر هوایی در منوی تصویر JOSM وجود ندارند، اما اضافه کردن آنها چنانچه  لینک حاوی اطلاعات کافی از آنها داشته باشید، آسان است.  
 
-In this example we are working from the [HOT Tasking Manager](http://tasks.hotosm.org/) and the imagery required to complete one of the projects needs to be manually added to JOSM. The principle of adding the image link is the same whatever the editing you are working on, as long as you are provided with the link. There are also occasions when the intended links do not work as expected and it may be necessary to add the imagery manually, if you can obtain the link information.  
+در این مثال ما با [مدیر وظایف HOT](http://tasks.hotosm.org/) کار می‌کنیم و تصاویر مورد نیاز برای تکمیل یکی از پروژه‌ها که باید به صورت دستی به JOSM افزوده شود را اضافه می‌کنیم. اساس افزودن لینک تصویر یکسان است و به آنچه که بر روی آن ویرایش می‌کنید بستگی ندارد. همچنین مواردی وجود دارد که لینک مورد نظر آنطور که انتظار می‌رود کار نمی‌کند و ممکن است لازم باشد که تصاویر را به صورت دستی اضافه کنید، اگر بتوانید اطلاعات لینک را بدست آورید.  
 
-From the Tasking Manager information tab, or your other source of the information, copy all of the Imagery section.  
+از بخش اطمینان مدیر وظایف یا منبع دیگر اطلاعات، تمام بخشهای تصویر را کپی کنید.  
 
 ![TM Imagery][]
 
