@@ -19,13 +19,13 @@ JOSM - افزودن تصاویر هوایی
 
 ![TM Imagery][]
 
-Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**)  
+به منوی تنظیمات JOSM بروید (**Edit / Preferences**, یا در دستگاه اپل **JOSM / Preferences**)  
 
 ![Preferences WMS TMS 1][]
 
-Click on the ![WMS_TMS_button][]{: height="24px"} icon, and in this case the ![+TMS_button][]{: height="24px"} icon.  
+روی آیکن [WMS_TMS_button][]{: height="24px"}! کلیک کنید، و سپس در این مورد آیکن [+TMS_button][]{: height="24px"}! را بزنید.  
 
-> TMS URLs usually have {x}{y} and {z} in them, WMS URLs are typically very long and have {width} and {height}, WMTS URLs usually have WMTSCapabilities.xml in them. If you are not sure what type of imagery URL you have, you can try adding them as different types to see which one works.  
+آدرسهای TMS معمولاْ دارای {x}{y} و {z} هستند، URL های WMS معمولا طولانی هستند و دارای {width} و {height} هستند، URLهای WMTS معمولا خیلی طولانی هستند و {width} و {height} دارند، URLهای WMTS در خودشان WMTSCapabilities.xml دارند. اگر مطمئن نیستید کدام نوع URL تصویری دارید، می‌توانید آنها را در انواع مختلف اضافه کنید تا ببینید کدام یک از آنها کار می‌کند.  
 
 ![Preferences WMS TMS 3][]
 
@@ -51,11 +51,11 @@ Click the ![OK_button][]{: height="24px"} button to close the preferences window
 افزودن سرور WMS
 ===========
 
-Adding a WMS server is very similar to adding a TMS server, with one important difference. WMS servers typically provide more than one imagery layer to choose from and you must either select a layer when adding the WMS server in the preferences, or specify that you will select a layer to use whenever you select the server from the Imagery menu in the main JOSM interface.
+اضافه کردن یک سرور WMS بسیار شبیه به اضافه کردن سرور TMS است، با یک تفاوت مهم. سرورهای WMS به طور معمول بیش از یک لایه تصویر را برای انتخاب ارایه می‌کنند و باید هنگام اضافه کردن سرور WMS در قسمت تنظیمات یک لایه را انتخاب کنید یا مشخص کنید که هر زمان که سرور را از منوی Imagery منوی اصلی JOSM انتخاب می‌کنید لایه را انتخاب خواهید کرد. 
 
-To add a WMS server open the JOSM imagery preferences dialog as shown above, but this time click on the "Add WMS" button ![wms_add_button][]
+برای اضافه کردن یک سرور WMS، همانند تصویر بالا کادر محاوره‌ای را تنظیمات تصاویر ماهواره‌ای JOSM را باز کنید، اما این بار روی دکمه «افزودن WMS» کلیک کنید ![wms_add_button][]
 
-The resulting dialog box will look like the one below:
+کادر محاوره‌ای مشابه زیر نشان داده می‌شود:
 ![wms_entry_dialog_numbered][]
 
 **Box 1.** Enter the URL of the WMS Server in this field. This should just be a typical URL that starts with http or https  
@@ -65,12 +65,12 @@ The resulting dialog box will look like the one below:
 **Box 5.** This is auto generated after you select a layer in **Box 3**. It will be long and complicated, usually it is just fine and is more informational and typically should not be edited.  
 **Box 6.** Enter a name for the server or layer. A default name will be filled in based on the URL, but you can enter a more meaningful name. This is the name that will appear in the JOSM Imagery menu when you want to add the layer to your layers panel in the regular JOSM interface.  
 
-> Example WMS server with a lot of interesting layers: http://sedac.ciesin.columbia.edu/geoserver/wms  
+> مثال سرور WMS که لایه‌های جالب زیادی دارد: http://sedac.ciesin.columbia.edu/geoserver/wms  
 
 ![wms_select_layer_highlighted][]  
-Make sure you actually click on a layer if would like to have the Imagery menu item always load the same layer. In the above example, when the layer is selected from the Imagery Menu, it will always load the "World Database of Protected Areas" layer.
+اگر میخواهید که آیتم منوی Imagery همیشه یک لایه مشابه را بارگذاری کند، حتما روی یک لایه کلیک کنید. در مثال بالا زمانی که لایه از منوی Imagery  انتخاب شده باشد، همیشه لایه "پایگاه داده های جهانی مناطق حفاظت شده" (World Database of Protected Areas) را بارگذاری می‌کند.
 
-If you would like to choose which layer to load each time you select the server from the Imagery Menu and be able to load multiple layers from the save server easily, just check to box that says "Store WMS endpoint only". That will also disable selecting a layer and the verify URL field.
+اگر می‌خواهید انتخاب کنید که هر بار که سرور را از منوی Imagery انتخاب می‌کنید کدام لایه بارگیری شود و قادر به بارگیری چندین لایه از سرور باشید صرفاْ در کادری که نوشته «Store WMS endpoint only» را تیک بزنید. اینکار همچنین انتخاب یک لایه و فیلد تأیید URL را غیرفعال میکند.
 
 ![wms_end_point_only_highlighted][]  
 

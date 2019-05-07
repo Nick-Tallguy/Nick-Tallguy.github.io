@@ -11,14 +11,14 @@ title: گرفتن دادههای OSM
 
 تاریخ بازبینی ۱۳۹۶/۰۱/۱۶
 
-When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
+هنگامی که می‌خواهید تازه‌ترین داده‌های OpenStreetMap را دریافت کنید، ساده‌ترین راه این است که خروجی یک وبسایت را دانلود کنید. سرویسهای وبی مختلفی وجود دارد که خروجی داده محدوده منطقه انتخابی‌تان را ارائه می‌کنند.  
 
-Downloading Data Extracts
+دانلود داده‌های استخراج شده
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
+(GeoFabrik](http://geofabrik.de] شرکتی است که متخصص در کار با OpenStreetMap است. آنها خروجی‌های متنوع رایگانی به فرمت فایلهای شیپ و داده خام OSM در وب سایت خود (http://download.geofabrik.de) ارائه میکنند. مزیت دانلود داده‌های GeoFabrik این است که روزانه به روز می‌شوند و آسان و قابل اعتمادند. یکی از معایب آن این است که داده‌ها بر اساس کشور استخراج می‌شوند و همه کشورها در دسترس نیستند.  
 
 ### BBBike  
 

@@ -53,17 +53,17 @@ OruxMaps
 
 ![Tracklog settings][]
 
-To start tracking, one thing to remember is that we must set GPS Features in your device on. Any features in OruxMaps like **Start GPS** and **Start Rec** will not start unless you activate the GPS Features. OruxMaps will show notification if your GPS still disabled, and after that you will directly go to **Location Setting** in your device. After you turn on Location feature in your device, you can know your location by using **Start GPS** (1) feature in the right panel. After your location is already acquired, you can start Tracking by using **Start Rec.** (2) in the right Panel.  
+برای شروع ردیابی، fبه خاطر داشته باشید که باید GPS دستگاه خود را روشن کنید. عملکردهای OruxMaps مانند **شروع GPS** و **شروع ثبت** (Start Rec) بدون فعال بودن GPS دستگاه کار نمی‌کنند. اگر GPS غیرفعال باشد، OruxMaps پیامی را نشان می‌دهد و پس از آن به طور مستقیم به **تنظیم موقعیت** (Location Setting) دستگاه هدایت می‌شوید. بعد از روشن شدن قابلیت موقعیت مکانی، می‌توانید موقعیت مکانی خود را با استفاده از **شروع GPS** در پانل سمت راست ببینید (1). پس از اینکه موقعیت مکانی به دست آمد، میتوانید با استفاده از **Start Rec** در پانل سمت راست، شروع به ضبط مسیر کنید (2).  
 
 ![Start track recording][]
 
-To stop tracking you only need to press the same button (2) in the right panel. After you stop tracking OruxMap will store your tracklog in an internal  database. You can access the tracklog by accessing **Routes** panel in top page, select **Manage**.You will find all of your tracklog here and you can see the route by press the tracklog that you want to see and select **Load the Track** (1). If you don’t use Auto GPX creation feature you can export your tracklog in various format (GPX, KML, KMZ) by select your tracklog and **Export as** (2).  
+برای توقف ضبط، فقط باید همان دکمه (2) را در پانل سمت راست مجدداْ بزنید. پس از توقف ردیابی OruxMap سابقه مسیر را در یک پایگاه داده داخلی ذخیره خواهد کرد. می‌توانید با دسترسی به پانل **Routes** در صفحه بالای به آنها دسترسی پیدا کنید، **مدیریت** (Manage) را انتخاب کنید. تمام سوابق مسیرها را پیدا خواهید کرد و سپس مسیری را که میخواهید ببینید انتخاب کرده و **بارگزاری مسیر** (Load the Track) (1) را انتخاب کنید. اگر از ویژگی ایجاد خودکار GPX استفاده نکرده‌اید، می‌توانید از آن در فرمت‌های مختلف (GPX، KML، KMZ) خروجی بگیرید، مسیر را انتخاب کرده و **صدور به صورت** (Export as) (2) را بزنید.  
 
 ![Managing tracklogs][]
 
-If you already have an OpenStreetMap account, you can upload your track directly using OruxMaps. Before you upload your tracklog you need to put your username and password by going to **Setting \> Integration \> OpenStreetMap**. After that enter your username and password. You can upload your tracklog by using **Upload to (3)** in track/routes management.  
+اگر قبلاْ حساب کاربری OpenStreetMap داشته باشید با استفاده از OruxMaps می‌توانید مسیر خود را مستقیماْ بارگزاری (آپلود) کنید. قبل از اینکه سوابق مسیرتان را آپلود کنید، باید نام کاربری و رمز عبور خود را با رفتن به **Setting \> Integration \> OpenStreetMap** و وارد کردن نام کاربری و رمز عبور در این قسمت در OruxMaps ذخیره کنید. می‌توانید سوابق مسیر خود را با استفاده از **آپلود** (3) (Upload to) در قسمت track/routes management آپلود کنید.  
 
-Some windows will pop up and you need to select **OpenStreetMaps** (1) and after that you choose your **Tracklog type** (2), put your **Description** (3) and also the **Tag** (4). After all the information already filled up press **Upload GPX** (5). The notification will pop up and you can directly see your GPS traces on the OpenStreetMap website by selecting **OK** (6).  
+چند پنجره نشان داده می‌شوند که باید ابتدا **OpenStreetMaps** را انتخاب کنید   (1) و پس از آن **نوع Tracklog** و (2) **شرح** (3) و همچنین **تگ** (4) را وارد کنید. پس از وارد کردن همه اطلاعات، **آپلود GPX** را بزنید (5). پیامی ظاهر می‌شود و سپس می‌توانید مستقیماْ مسیرهای ضبط شده خود را با انتخاب **OK** در وبسایت OpenStreetMap مشاهده کنید (6).  
 
 ![Uploading tracks to OpenStreetMap][]
 
@@ -72,11 +72,11 @@ Some windows will pop up and you need to select **OpenStreetMaps** (1) and afte
 
 ![Creating a waypoint][]
 
-If you want to add waypoint, you need to go to **Waypoint** symbol (1) at the top of the page and go to **Create** (2). It will bring you to waypoint creation page and fill your waypoint name. You can add extra information, for example a description of your waypoint and coordinates of your waypoint by checking the Coordinates checklist. Press Accept to save your waypoint.  
+اگر می‌خواهید نقاط بین‌راهی اضافه کنید، باید در بالای صفحه نماد **Waypoint**  را (1)  و سپس  (2)   **Create** انتخاب کنید. این شما را به صفحه ایجاد نقطه بین‌راهی میبرد که در آنجا نام آنرا وارد کنید. می‌توانید اطلاعات بیشتری مانند توضیحی برای این نقطه بین‌راهی و یا با بررسی چک‌لیست مختصات ،مختصات آن را اضافه کنید.  Accept را برای ذخیره کردن نقطه بین‌راهی بزنید.  
 
 ![Waypoint creation settings][]
 
-If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. From this page you can change the properties, delete and export the waypoint. To see all of your waypoints in **map**, select the waypoints and go to show in map (1) and if you want to export your waypoints press **Export** (2). All of your exported waypoints will be stored in internal storage (by the default it stored in **oruxmaps/geocaches**).  
+اگر می‌خواهید همه نقاط بین‌راهی خود را ببینید، می‌توانید به **Waypoint \>Manage** بروید. از این صفحه می‌توانید خصوصیات آنرا تغییر دهید، یا آنرا پاک کنید و یا از آن به فرمت دیگری خروجی بگیرید. برای دیدن همه نقاط بین‌راهی در **map**، نقاط بین‌راهی را انتخاب کنید و به نشان دادن در نقشه  (1) بروید و اگر بخواهید از آن خروجی بگیرید، (2)  **Export** را بزنید. همه نقاط بین‌راهی شما در حافظه داخلی ذخیره می‌شوند (به طور پیش فرض در **oruxmaps/geocaches** ذخیره میشوند).  
 
 ![Managing save waypoints][]
 
