@@ -14,6 +14,7 @@ Gắn Thẻ thông tin - iD editor
 
 ![tagging][]
 
+> This image ![keymon]{: height="24px"} chỉ ra các nút và thao tác chuột được sử dụng và dùng trên bàn phím.  
 
 Tại sao gắn thẻ lại cần thiết
 -------------------

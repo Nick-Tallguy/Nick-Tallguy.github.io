@@ -9,6 +9,7 @@ category: beginner
 Fjalori 
 ============
 
+> Ky fjalor është në proces përditësimi dhe është pvrpiluar nga disa burime të tjera duke përfshirë faqen [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) dhe një guidë të shkruar nga Will Skora. Ndjehuni të lirë të na ndihmoni ta përditësojmë duke rishikuar [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) se si të kontribuoni në faqe. 
 Rishikuar 2015-07-18  
 
 Për të kërkuar lehësisht në këtë Fjalor, përdorni veçorinë kërko në shfletuesin tuaj, duke mbajtur shtypur tastën e kontrollit ndërsa shtypni tastën f (zakonisht cilësuar si **Ctrl+f**)  

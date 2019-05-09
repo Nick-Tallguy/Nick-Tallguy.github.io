@@ -17,6 +17,7 @@ The Essentials
 
 ![Round Buildings][]  
 
+> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
 Puntos a nota;  
 

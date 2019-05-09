@@ -17,6 +17,7 @@ Podstawy
 
 ![Round Buildings][]  
 
+> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
 Do zanotowania;  
 

@@ -14,6 +14,7 @@ Etiquetar - editor iD
 
 ![tagging][]
 
+> Esta imagem ![keymon]{: height="24px"} mostra que botões ou roda num rato foram usados e que teclas do teclado foram utilizadas.  
 
 Porque são necessárias Etiquetas
 -------------------

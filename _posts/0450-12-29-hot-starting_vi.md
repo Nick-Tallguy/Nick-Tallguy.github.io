@@ -19,6 +19,7 @@ Các yếu tố cần thiết
 
 ![TM Start][]
 
+> Hình này ![keymon]{: height="24px"} Hiển thị các nút, thao tác chuột và phím tắt trên bàn phím được sửu dụng.  
 
 1.  Vào trang web Quản lý tác vụ - Tasking Manager (TM), <http://tasks.hotosm.org/>. Sử dụng <http://www.openstreetmap.org> để đăng nhập, ủy quyền cho Quản lý Tác vụ truy cập vào tài khoản OpenStreetMap của bạn.  
 2.  Bắt đầu một dự án được thiết kế cho những người lập bản đồ mới - thường là các dự án 'các toà nhà'.  

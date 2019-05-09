@@ -19,6 +19,7 @@ Podstawy
 
 ![TM Start][]
 
+> Ten obrazek ![keymon]{: height="24px"} pokazuje, które przyciski lub kółko myszki zostały użyte i które klawisze były naciśnięte.  
 
 1. Przejdź do strony Tasking Managera (TM), na przykład <http://tasks.hotosm.org/>. Użyj swojego loginu <http://www.openstreetmap.org>, autoryzuj Tasking Managera do dostępu do swojego konta OpenStreetMap.  
 2. Rozpocznij od projektu przewidzianego dla nowych maperów - są to zazwyczaj projekty 'tylko budynki'.  
