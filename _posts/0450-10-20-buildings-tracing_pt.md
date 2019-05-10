@@ -12,7 +12,6 @@ Tracing rectangular buildings - iD editor
 - TOC
 {:toc}
 
-> This text may be ignored as it is no longer required and will not appear on the website.  
 > Criado em 2016-10-30  -->  
 
 The Essentials
