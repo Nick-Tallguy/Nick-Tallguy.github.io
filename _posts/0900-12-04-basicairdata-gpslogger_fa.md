@@ -43,10 +43,10 @@ BasicAirData GPS Logger یک برنامه ساده برای ثبت موقعیت 
 
 ![BasicAirData-GPSLogger-001][]
 
-If the GPS location is not active on your phone, activate it. Then go in an open area and start GPS Logger.
+اگر موقعیت GPS در تلفن شما فعال نیست، آن را فعال کنید. سپس به یک منطقه باز رفته و GPS Logger را اجرا کنید.
 
-1. Wait until the app finds the fix. When available, the __GPS FIX__ tab will start to show the coordinates of the Fix. At this point (when possible) you should wait at least another minute before proceeding with the next phase in order to allow the signal to stabilize
-2. Click on the __Trackpoints__ button of the bottom panel to start recording track points. The button will become red. You can switch recording process on and off at any time by clicking on that button. The button shows the number of the trackpoints recorded.
+1. صبر کنید تا برنامه موقعیت را فیکس کند. وقتیکه اینکار انجام شد، زبانه __GPS FIX__ مختصات را نشان خواهد داد. در این مرحله (در صورت امکان) قبل از شروع مرحله بعدی حداقل یک دقیقه دیگر منتظر بمانید تا سیگنال کاملاْ ثابت شود.
+2. برای شروع ضبط مسیر، روی دکمه __Trackpoints__ در پانل پایین کلیک کنید. دکمه قرمز خواهد شد می توانید با کلیک بر روی این دکمه هر زمان که بخواهید فرآیند ضبط را روشن یا خاموش کنید. این دکمه تعداد نقاط ردیابی شده را نشان میدهد.
 به زبانه __TRACK__ بروید تا آمار لحظه به لحظه سفر خود را ببینید.
 3. هنگامی که سفر شما تمام شد، بر روی __V tick__ کوچک واقع در نزدیکی گوشه سمت راست بالا کلیک کنید تا مسیر جاری نهایی (پایان) شود.
 4. به زبانه __TRACKLIST__ بروید، جایی که مسیری را که قبلاْ ثبت کرده‌اید پیدا خواهید کرد. روی مسیر ضربه بزنید یک منو ظاهر خواهد شد که می‌توانید مسیر را به روشهای گوناگونی به اشتراک بگذارید، آن را با استفاده از یک مشاهده‌گر نصب شده ببینید، آن را به پوشه GPSLogger/ گوشی هوشمند خود منتقل کنید، یا از لیست مسیرها حذف کنید. فرمت‌های مورد استفاده برای خروجی گرفتن را می‌توان در صفحه تنظیمات پیکربندی نمود.
@@ -58,8 +58,8 @@ If the GPS location is not active on your phone, activate it. Then go in an open
 به سادگی از روش ساده دو مرحله‌ای استفاده کنید:
 
 1. به یکی از روش های زیر مسیر GPX را در رایانه شخصی خود ذخیره کنید:
-* Go on the GPS Logger tracklist, tap on the desired track and then click on __Export__; the GPX file will be created and saved on the /GPSLogger folder of your Android device (make sure that GPX format is enabled on the settings screen). Then connect the phone with your PC using a USB cable and move (or copy) your GPX tracks on your PC using the File Manager;
-* As alternative, you can use the __Share__ feature to send the file to the PC (you can do it via e-mail, FTP, or using many Cloud Services). The sharing possibilities depend on the third-party apps installed on your Android Device;
+* به لیست مسیرهای GPS Logger بروید، روی مسیر مورد نظر ضربه بزنید و سپس روی __Export__ کلیک کنید. فایل GPX در پوشه GPSLogger/ دستگاه Android تان ایجاد می شود (مطمئن شوید که فرمت GPX در صفحه تنظیمات فعال شده است). سپس با استفاده از کابل USB تلفن خود را به کامپیوتر متصل کرده و با استفاده از مدیر فایل مسیرهای GPX خود را به کامپیوتر منتقل (یا کپی) کنید؛
+* به عنوان روش جایگزین، می توانید از ویژگی __Share__ برای ارسال فایل به کامپیوتر استفاده کنید (می توانید از طریق ایمیل، FTP یا با استفاده از سرویسهای ابری این کار را انجام دهید). امکانات اشتراک گذاری به برنامه های شخص ثالثی که در دستگاه Android شما نصب شده است بستگی دارد؛
 2. مسیر GPX را به ویرایشگر OpenStreetMap وارد کنید: استفاده از مسیرهای GPX در ویرایشگرهای JOSM و iD آسان است کافی است فایل را کشیده و درون برنامه (یا در iD به زبانه مرورگر) بیندازید.
 
 مستندات رسمی

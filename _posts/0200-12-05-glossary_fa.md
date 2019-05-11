@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 title: لغتنامه 
 /permalink: /fa/beginner/glossary
 lang: fa
@@ -57,17 +57,17 @@ category: beginner
 
 **[Relation](http://wiki.openstreetmap.org/wiki/Relation)**: one of the core data elements that consists of one or more tags and also an ordered list of one or more nodes, ways and/or relations as members which is used to define logical or geographic relationships between other elements. For examples go to the [Types of Relations](http://wiki.openstreetmap.org/wiki/Types_of_relation) wiki page. 
 
-**Render** : to convert from data into an image. Rendered data is a map.
+**رندر** : تبدیل داده به تصویر. نقشه داده رندر شده است.
 
 **SBTF : Stand-By Task-Force** ; an organization which coordinates digital volunteers into a responsive, trained, and prepared network ready to deploy in crises.
 
-**Slippy Map** : What you see when you're on <http://www.openstreetmap.org> ! Consists of a layer and a software library that controls interactive features like zooming & panning.
+**نقشه لغزان** : آن چیزی که در صفحه <http://www.openstreetmap.org> می‌بینید! تشکیل شده از یک لایه و کتابخانه نرم‌افزاری که کارهای تعاملی مثل زوم و جابجا کردن را کنترل میکند.
 
 **Stylesheet** : In most instances, it means a text file that's used to determine what features (which roads ?) are displayed, and how (what color should the road be ? Its width ? ) on a map.
 
-**Tag**: Tags describe describe a point, line or polygons. Each tag contains a key and value (written in OSM as 'key=value'). For example, highway=residential and name=Woodland Avenue. Initially mentioned in Learnosm within [iD section](/en/beginner/id-editor/#basic-editing-with-id) A Point, line, or polygon usually have more than one tag on them. Sometimes choosing the right tag is confusing. [Taginfo](https://taginfo.openstreetmap.org/) helps you by showing statistics about which tags are actually in the database, how many people use those tags, where they are used and so on. It also gets information about tags from the wiki and from other places.
+**برچسب (تگ)**: نقطه، خط یا چند ضلعی توسط برچسبها توصیف می‌شوند. هر تگ شامل یک کلید و یک مقدار است (در OSM به صورت 'key=value' نوشته شده است). به عنوان مثال، highway=residential و name=Woodland Avenue. اولین بار در  LearnOSM در [بخش iD](/fa/beginner/id-editor/fa/basic-editing-with-id) در مورد تگ صحبت شد. نقاط، خطوط یا چندضلعی‌ها معمولاْ دارای بیش از یک برچسب هستند. گاهی اوقات انتخاب برچسب مناسب گیج‌کننده است. [Taginfo] (https://taginfo.openstreetmap.org/) با نشان دادن آماری در خصوص اینکه کدام تگ در واقع در پایگاه داده وجود دارد، چند نفر از آن تگ استفاده کرده‌اند و کجا استفاده می‌شود و غیره در این مورد به شما کمک می‌کند. همچنین اطلاعاتی در مورد هر برچسب از ویکی و جاهای دیگر میتوان گرفت.
 
-**TIGER** : A data source from the US Census Bureau that was imported into OSM, in 2007. This is the source for most data in the USA in OSM.
+**TIGER** : یک منبع داده از دفتر آمار و سرشماری ایالات متحده که در سال ۲۰۰۷ وارد OSM شد. بیشترین داده ایالات متحده آمریکا در OSM از این منبع میباشد.
 
 **Tile** : a small image (256x256 pixels ) of rendered map data.
 

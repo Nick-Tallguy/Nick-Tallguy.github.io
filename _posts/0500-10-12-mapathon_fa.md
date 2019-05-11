@@ -6,7 +6,7 @@ lang: fa
 category: coordination
 ---
 
-# Manage a Mapathon
+# مدیریت کارزار نقشه
 
 > ایجاد شده در تاریخ ۱۳۹۵/۱۱/۱۱  
 
@@ -15,7 +15,7 @@ category: coordination
 
 ## مقدمه
 
-### What type of event  
+### نوع رویداد  
 Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
 
 This guide deals with indoor Mapathons for larger groups. 

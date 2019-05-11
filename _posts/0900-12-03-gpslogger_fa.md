@@ -1,262 +1,262 @@
 ---
 layout: doc-rtl
-title: نرم‌افزار آندروئید GPSLogger 
+title: نرم‌افزار آندروئید GPSLogger
 permalink: /fa/mobile-mapping/gpslogger/
 lang: fa
 category: mobile-mapping
 ---
 
-نرم‌افزار آندروئید GPSLogger 
+نرم‌افزار آندروئید GPSLogger
 =====================
 
 > تاریخ بازبینی ۱۳۹۴/۰۹/۱۵  
 
-![GPSLogger][]
+![GPSLogger] []
 
-A simple, light-weight, and minimalistic app for recording GPS traces on the Android platform. The easy-to-use interface with the sole purpose of GPS logging and staying quite makes for a very battery-efficient application that can save gps tracks in GPX, KML, NEMA or text file formats. Log files can automatically be uploaded to OpenStreetMap, an OpenGTS server, DropBox, FTP server, HTTP server or sent to an email address.  
+یک برنامه ساده، کم حجم و حداقلی برای ضبط مسیرهای GPS در پلتفرم Android است. رابط کاربری آسان که تنها با هدف ثبت و نگهداری GPS و آرام ماندن طراحی شده آنرا به برنامه ای با کارایی بسیار بالا برای ذخیره سازی باتری که می تواند مسیرهای GPS را در فرمتهای GPX ،KML ،NEMA یا فرمت فایل متنی ذخیره کند تبدیل کرده است. فایل های ثبت شده به طور خودکار می توانند به OpenStreetMap، سرور OpenGTS، دراپ باکس، سرور FTP و سرور HTTP آپلود شوند یا به آدرس ایمیل فرستاده شوند.  
 
-<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
+<https://play.google.com/store/apps/details؟id=com.mendhak.gpslogger&hl=fa>  
 
-GPSLogger for Android is an app that is free to use, and an actively maintained open source project. Donations are welcomed to further enhance the app. If you wish to get involved (e.g. providing translations in another language, bug reporting, or submitting feature requests), visit the [repository](https://github.com/mendhak/gpslogger).  
+استفاده از GPSLogger برای آندروید رایگان است و فعالانه به صورت یک پروژه منبع باز نگهداری می شود. از کمک های مالی برای بهبود بیشتر برنامه استقبال می شود. اگر میخواهید مشارکت کنید (به عنوان مثال ارائه ترجمه به زبانهای دیگر، گزارش خطا یا ارسال درخواست ویژگی جدید)، از (https://github.com/mendhak/gpslogger)[مخزن] بازدید کنید.  
 
-> OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
+> OpenGTS اشاره به پروژه [Open GPS Tracking System] (http://opengts.sourceforge.net/) دارد  
 
 
-Features
+ویژگیها
 --------  
 
-* Specify logging based on time or distance intervals  
-* Specific battery saving configurations  
-* GPS accuracy filter to not log unreliable points  
-* Select wifi, Cellphone tower and/or GPS satellites as location information source  
-* Log to GPX, KML, CSV, TXT or NMEA files with ZIP support  
-* Imperial or metric display units  
-* Auto start on boot  
-* Can run in background  
-* Works well with other GPS applications running  
-* Automatic sending to email/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS at user defined intervals  
-* Easy to preconfigure text configuration files for distribution to many users  
+* مشخص کردن ثبت بر اساس فاصله زمانی یا مکانی  
+* مشخص کردن تنظیمات صرفه جویی در باتری  
+* فیلتر دقت GPS برای عدم ثبت نقطه های غیر قابل اعتماد  
+* انتخاب وای فای، دکل مخابراتی تلفن همراه و/یا ماهواره های GPS به عنوان منبع اطلاعات مکان  
+* ثبت به فرمتهای GPX، KML، CSV، TXT یا NMEA با پشتیبانی ZIP  
+* واحد نمایش امپریال یا متریک  
+* شروع خودکار پس از روشن شدن دستگاه  
+* اجرا در پس زمینه  
+* به خوبی با سایر برنامه های GPS در حال اجرا کار می کند  
+* ارسال خودکار به ایمیل/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS در فواصل تعریف شده توسط کاربر  
+* پیش تنظیم آسان فایلهای پیکربندی متنی برای توزیع به بسیاری از کاربران  
 
 
-User Interface
+رابط کاربری
 --------------------------
 
-![Canvass1][]
+[Canvass1][]!
 
-The **Menu** button provides more options for configuring the app.  
-The **Views drop-down** lets you to choose how information is display on the screen.  
-The **Help** button provides additional information about how to use the app.  
-The **Annotate** button lets you to add a description to a point.  
-**Log one point** button lets you manually log a waypoint.  
-**Upload** lets you choose from a variety of options for uploading your log file. This includes an option to auto send to any of the following:  
+دکمه **Menu** گزینه های بیشتری را برای پیکربندی برنامه فراهم می کند.  
+منوی کشویی **Views** به شما اجازه می دهد انتخاب کنید که چگونه اطلاعات روی صفحه نمایش داده شود.  
+دکمه **Help** اطلاعات اضافی در مورد چگونگی استفاده از برنامه را فراهم می کند.  
+دکمه **Annotate** به شما اجازه می دهد یک توضیح را به یک نقطه اضافه کنید.  
+دکمه **ثبت یک نقطه** (Log one point) به شما اجازه می دهد تا به صورت دستی یک نقطه راه را وارد کنید.  
+**آپلود** اجازه می دهد تا گزینه های مختلفی را برای آپلود فایل ثبتی انتخاب کنید. این موارد شامل گزینه ای برای ارسال خودکار به هر یک از موارد زیر است:  
 
-- OpenStreetMap,  
-- Google Drive,  
-- DropBox,  
-- an FTP server,  
-- an OpenGTS server or  
-- send the log to an email address.  
+- OpenStreetMap  
+- گوگل درایو،  
+- دراپ باکس،  
+- یک سرور FTP  
+- یک سرور OpenGTS یا  
+- ارسال به آدرس ایمیل  
 
-The **Share** button lets you choose one or more log files you can share with other people via Bluetooth, or SMS. Depending on what apps are installed on your device, you may have different options available for you.  
+دکمه **اشتراک** به شما اجازه می دهد یک یا چند فایل ثبت شده را انتخاب کرده و با افراد دیگر از طریق بلوتوث یا پیامک به اشتراک بگذارید. بسته به برنامه های نصب شده بر روی دستگاه تان ممکن است گزینه های مختلفی برای شما در دسترس باشد.  
 
 
 ![Canvass2][]
 
-The **Start Logging** button is in blue. When you press this button to start recording, it turns to  a green button.  
-The **Coordinates** displays the last recorded GPS point, and is refreshed when a new coordinates become available.  
-The **Satellites** icon will show you how many satellites you are fixed on.  
-The **Elevation** shows elevation data.  
-The **Duration** displays the total time elapsed since pressing the start button.  
-The **Distance** will display the total distance recorded.  
-The **File Types** indicate what type of logs are being generated while the **File Path** tells you where the location of the file in your device or memory card.  
-The **Status** indicator will display in green when it is recording, while a spinner is displayed when the device is trying to get a fix.  
-The **Accuracy** will display the accuracy of the recorded data, which varies between receivers, the position or number of available satellites, weather condition, or the obstructions of the horizon.  
-The **Bearing** tells you the direction you are moving.  
-The **Speed** will give you approximate information of how fast you are going.  
-**Points logged** will display the total number of poins recorded from the time the start button was pressed.  
+دکمه **Start Logging** به رنگ آبی است. هنگامی که این دکمه را برای شروع ضبط بزنید، سبز رنگ میشود.  
+**مختصات** آخرین نقطه GPS ثبت شده را نشان می دهد و وقتی یک مختصات جدید در دسترس قرار می گیرد، تازه سازی می شود.  
+آیکن **ماهواره ها** تعدادماهواره های متصل شده را نشان می دهد.  
+**ارتفاع** اطلاعات ارتفاع را نشان می دهد.  
+**مدت** زمان کل زمان سپری شده از زمان فشار دادن دکمه شروع را نمایش میدهد.  
+**مسافت** مسافت کل ضبط شده را نشان می دهد.  
+**نوع فایل** نشان می دهد چه نوع ثبتی ایجاد شده و **مسیر فایل**می گوید که محل فایل روی دستگاه یا کارت حافظه است.  
+نشانگر **وضعیت** در هنگام ضبط سبز رنگ است، زمانی که دستگاه در حال تلاش برای اتصال است یک چرخ دنده نشان داده میشود.  
+**دقت** دقت داده های ضبط شده را نشان می دهد که در گیرنده های مختلف، موقعیت یا تعداد ماهواره های موجود، شرایط آب و هوایی یا موانع دید افق متفاوت است.  
+**امتداد** جهت حرکت تان را به شما می گوید.  
+**سرعت** اطلاعات تقریبی سرعت تان را نشان می دهد.  
+**نقاط ثبت شده** تعداد کل نقطه های ثبت شده از زمان فشردن دکمه شروع را نشان می دهد.  
 
 
-Menus
+منوها
 --------------------------
 
-![Menus][]
+[Menus][]!
 
-The **General options** is where to find settings for *Start on bootup*, *unit of measurement* (Metric or Imperial), *debug file* and *version information*.  
+**گزینه های عمومی** جایی است که تنظیمات *شروع در هنگام روشن شدن*، *واحد اندازه گیری* (متریک یا امپریال)*، *فایل اشکالزدایی* و *اطلاعات نسخه* را پیدا میکنید.  
 
-![Menus1][]
+[Menus1][]!
 
-The **Logging details** is where to find settings  *File formats* (multiple formats simultaneously supported), *folder* path to store logs, rules on *new file creation* and *custom file name*.  
+**جزئیات ثبت ها** جایی است که تنظیمات *فرمت فایل* (همزمان از چند فرمت مختلف به طور همزمان پشتیبانی میشود)، *پوشه* مسیر ذخیره ثبت ها، قواعد *ایجاد فایل جدید* و *نام فایل سفارشی* را پیدا میکنید.  
 
-![Menus2][]
+[Menus2][]!
 
-![Menus3][]
+[Menus3][]!
 
-Under **Performance** is where the settings for *location providers*, *timings*, *filters* and *listeners* are found. The location provider option lets you set the sources for the location data: **GPS** - navigation satellites; **Network** - cellular tower; **Passive** - lets GPSLogger "borrow" the location coordinates that another app has requested, to save battery by not making the request itself.  
+قسمت **عملکرد** جایی است که تنظیمات *ارائه دهندگان مکان*، *زمان بندی*، *فیلتر* و * شنوندگان * یافت می شود. گزینه ارائه دهنده مکان به شما اجازه می دهد که منابع داده های مکان را تنظیم کنید: **GPS** - ماهواره های ناوبری؛ **شبکه** - دکلهای مخابراتی تلفن همراه؛ **Passive** - اجازه می دهد GPSLogger مختصات موقعیت مکانی را از برنامه دیگر "وام" بگیرد، تا در اثر عدم درخواست خود برنامه در مصرف باتری صرفه جویی شود.  
 
-![Menus4][]
+[Menus4][]!
 
-![Menus5][]
+[Menus5][]!
 
-**Auto send, email and upload**  is where the settings for various upload options such as OpenStreetMap, Google Drive, FTP, Dropbox are found.  
+**ارسال خودکار، ایمیل و آپلود** جایی است که تنظیمات گزینه های آپلود مختلف مانند OpenStreetMap، گوگل درابو، FTP، دراپ باکس یافت می شود.  
 
-![Menus6][]
+[Menus6][]!
 
-Uploading GPS traces is another way of contributing data to the OpenStreetMap project. A trace is a record of your location at various time or distance intervals, and recorded as geographic coordinates (longitude, latitude, altitude). They can be used as a background layer when editing maps, and is useful for adding features to the map, similar to aerial imagery.  
+آپلود مسیرهای ردیابی شده GPS راه دیگری برای کمک به مشارکت داده در پروژه OpenStreetMap است. مسیر ردیابی شده یک ضبط موقعیت مکانی شما در فواصل زمانی یا مسافتی مختلف است که مختصات جغرافیایی (طول و عرض جغرافیایی و ارتفاع) ثبت می شود. از این مسیرها به عنوان لایه پس زمینه در هنگام ویرایش نقشه میتوان استفاده نمود و برای افزودن ویژگی های نقشه مانند تصاویر هوایی مفید هستند.  
 
-#### OpenStreetMap options
+#### گزینه های OpenStreetMap
 
-![osm0][]
+[osm0][]!
 
-**Allow auto sending** settings determines whether log files are uploaded automatically.  
-**Authorize this app** is for granting the app permission to upload GPS traces to OSM, using your OSM account.  
-The **Visibility**, **Description**, **Tags** options are disabled until you authorize the app to upload GPS traces. These settings are used for the GPS traces that will be uploaded to the OpenStreetMap database.  
-When you click the *Authorize this app*, you will be directed to your Internet browser and to the OpenStreetMap website. If you are not logged in, you will be asked for your credentials.  
+تنظیمات **اجازه ارسال خودکار** تعیین می کند که آیا فایل های ثبتی به صورت خودکار آپلود شوند.  
+**مجاز کردن برنامه** برای اعطای مجوز برنامه جهت آپلود مسیرهای ردیابی شده GPS به OSM، با استفاده از حساب OSM تان است.  
+گزینه های **قابلیت مشاهده**، **توضیحات**، **برچسب ها** تا زمانی که شما برنامه را مجاز به آپلود مسیرهای GPS کنید، غیر فعال هستند. این تنظیمات برای مسیهای ردیابی شده GPS که به پایگاه داده OpenStreetMap آپلود می شوند استفاده می شوند.  
+هنگام کلیک بر روی *مجاز کردن برنامه*، به مرورگر اینترنتی و وبسایت OpenStreetMap هدایت می شوید. اگر وارد سیستم نشده اید، از شما نام کاربری و رمزتان خواسته می شود.  
 
-![osm2][]
+[osm2][]!
 
-After logging in, you see a page like below, for verifying the app request, and the specific permission to *upload GPS traces*. Click on *Save changes* button to authorize the app.  
+پس از ورود به سیستم، صفحه ای مانند زیر را که تأیید درخواست برنامه میکند و به طور اختصاصی اجازه *بارگذاری مسیر ردیابی شده GPS* را میخواهد مشاهده خواهید کرد. بر روی دکمه *ذخیره تغییرات* کلیک کنید تا برنامه را تأیید کنید.  
 
-![osm3][]
+[osm3][]!
 
-Back to the GPSLogger app, the screen will be slightly different screen, with additional options available.
+پس از بازگشت به برنامه GPSLogger، صفحه نمایش کمی متفاوت خواهد بود و با گزینه های بیشتری در دسترس است.
 
-![osm1][]
+[osm1][]!
 
-Clicking on the **Clear authorization** option will remove the permission to upload GPS traces to the OSM server.  
+با کلیک بر روی گزینه **پاک کردن تأیید مجوز**، اجازه آپلود مسیر به سرور OSM را حذف خواهید کرد.  
 
-There are several *visibility* options for GPS traces. *Private* traces are shared as anonymous, with unordered points. *Public* traces are shown in the trace listing, and as anonymous, unordered points. *Trackable* traces are shared as anonymous, with timestamps for ordered points. *Identifiable* traces are shown in the trace list, and can be associated with your username, with timestamps for ordered points.  
+گزینه های گوناگونی برای نمایش GPS وجود دارد. مسیرهای *خصوصی* (Private) به عنوان ناشناس، با نقاط غیرمرتب به اشتراک گذاشته می شوند. مسیرهای *عمومی* در لیست مسیرها  به صورت ناشناس، با نقاط غیرمرتب نشان داده میشوند. مسیرهای *قابل ردیابی* به عنوان ناشناس با نقاط مرتب دارای برچسب زمانی به اشتراک گذاشته می شوند. مسیرهای *قابل شناسایی* در لیست مسیرها نمایش داده میشوند در حابیکه نام کاربری شما همراه با برچسب های زمانی برای نقاز مرتب شده امتیازات سفارش شده باشد.  
 
-It is recommended that you set the visibility of the GPS traces you upload to *identifiable*. The data and metadata makes it more useful for other mappers. If you have concerns about privacy and personal security, choose a more appropriate settings, or don't upload the traces at all.  
+توصیه می شود که وضعیت دیداری مسیرهای GPSتان را هنگام آپلود به صورت *قابل شناسایی* قرار دهید. داده ها و ابَرداده ها آن را برای نقشه کشهای دیگر مفیدتر می کند. اگر نگرانی در ارتباط با حریم شخصی و امنیت شخصی دارید، تنظیمات مناسب تری را انتخاب کنید یا اصلاْ مسیرها را آپلود نکنید.  
 
-A text *description* help others understand how a trace is recorded. A trace recorded on foot will not be similar to a trace recorded by a drone.  
+مقداری *توضیحات* متنی به دیگران کمک می کند که بفهمند چگونه مسیر ردیابی شده ثبت شده است. مسیری که با پای پیاده ثبت می شود، شبیه مسیر ثبت شده توسط هواپیمای بدون سرنشین نیست.  
 
-A *tag* is short keyword that can be used to associate a trace with projects, places, or events.  
+*تگ* کلمه کلیدی کوتاهی است که برای ارتباط دادن مسیر ردیابی شده با پروژه، مکان یا رویداد خاصی استفاده میشود.  
 
 
-Data Collection
+جمع آوری داده
 ---------------
 
-### Automated collection and uploading of gps tracks
+### جمع آوری و آپلود خودکار مسیرهای GPS
 
-Once properly configured, the application can run in the background and automatically record tracks and upload them once a day to any of its configured services. This would allow for the automated collection of tracks of daily driving to help build a collection of road and travel time data for later mapping or analysis. Once configured the person who has the phone or other android device should notice a little impact on battery usage and not have to do anything manually. Some experimentation will be needed to find the right balance of battery usage and clarity of the GPS tracks.  
+در صورت پیکربندی صحیح، برنامه در پس زمینه اجرا شده و به صورت خودکار مسیرها را ضبط کرده و آنها را یک بار در روز به هر سرویس پیکربندی شده آپلود میکند. اینکار اجازه می دهد تا مجموعه ای از مسیرها به صورت خودکاردر هنگام  رانندگی روزانه ایجاد و به ایجاد مجموعه ای از اطلاعات جاده ای و زمان سفر برای نقشه کشی یا تجزیه و تحلیل بعدی کمک میکند. دارنده گوشی یا دستگاه اندرویدی به محض پیکربندی متوجه تاثیر بسیار کم برنامه روی مصرف باتری شده و نیاز به انجام هیچ کار دستی دیگری نیست. پیدا کردن تعادل مناسب استفاده باتری و وضوح مسیر GPS، با کمی تجربه به دست می آید.  
 
-An example config to automatically collect and upload to OpenStreetMap daily you would need to adjust these settings:  
+یک نمونه پیکربندی برای جمع آوری و آپلود خودکار روزانه به OpenStreetMap نیاز به وارد کردن این تنظیمات است:  
 
-#### General Options  
+#### گزینه های عمومی  
 
-* **Start on bootup** - On  
+* * شروع هنگام روشن شدن دستگاه** - روشن  
 
-#### Logging Details  
+#### ثبت جزئیات  
 
-* **Log to GPX** - On  
-* **New file creation** - Once a day  
+* ** ثبت به GPX ** - روشن  
+* **ایجاد فایل جدید** - یک بار در روز  
 
-#### Performance  
+#### کارایی  
 
-* **Time before logging** - 5  
-* **Keep GPS on between fixes** - On (Turing this off can cause "jumps" in the GPS tracks while the device requires the GPS satellites each time.)  
-* **Don't log if I'm not moving** - On  
+* **زمان قبل از ثبت** - 5  
+* **روشن نگه داشتن GPS بین فیکسها** - روشن (خاموش کردن این مورد منجر به ایجاد "جهش" در مسیرهای GPS زمانی که دستگاه هر بار به ماهواره های GPS نیاز دارد.)  
+* **عدم ثبت در صورت توقف** - روشن  
 
-#### Auto send, email and upload  
+#### ارسال خودکار، ایمیل و آپلود  
 
-* **Allow auto sending** - On  
-* **How often** - For once a day enter 1440 minutes. This setting can be a little tricky if you do not have access to data or wifi when it executes. It should start counting from when you either boot the device or hit the "Start logging" button, so if you start it in the morning, it will upload the same time the next morning for example.  
-* **OpenStreetMap** - Allow auto sending on and any other settings you want to configure, pay close attention to the visibility setting if you have privacy concerns about the GPS tracks.  
-
-
-### Manually Recording Traces
-
-To start collecting logs (in Simple view), simply click on the blue button. A spinner will appear near the upper right corner of the screen to indicate the attempt to get a fix on satellites. A green circle will show in the upper right hand area to indicate logging is on going.  
-
-To stop recording data any time, just press the green *Stop Logging* button.  
-
-#### Annotate  
-
-To add a note or description to a log, click on the *Annotate* (Pencil) icon. This option will let you a leave text to describe or take note of details that are associated with the current point.  
-
-##### Calling annotation from the Notification Bar  
-
-It's also possible to directly call the *Annotate* button from Android's Notification bar. Select the app from the Notification List and click on the *Annotate* button.  
-
-![annotate0][]
-
-This will display an input dialog box where you can enter the text details of the note.
-
-![annotate1][]
-
-#### Log intervals
-
-Log intervals are determined by time or distance under the **Performance** menu.  
-
-##### By time
-
-**Time before logging** is set to 60 seconds by default. You can change this to five or ten seconds, when you are walking instead of riding in a vehicle. When you are in a car, you can set this to 1 second to generate very accurate logs.  
-
-##### By distance
-
-The **Distance filter** is set by default to zero. You can set this to something else, if you want to record the coordinates for every X number of units from the last point recorded.  
+* **اجازه ارسال خودکار** - روشن  
+* **هر چند وقت یکبار** - برای یک بار در روز ۱۴۴۰ دقیقه را وارد کنید. این تنظیم در صورتی که در هنگام اجرای آن دسترسی به داده یا وای فای ندارید کمی قلق دارد. یا باید از زمان روشن شدن دستگاه شروع به شمارش کند و یا از زمان زدن دکمه "شروع ثبت"، بنابراین اگر در صبح شروع کنید، صبح روز بعد در همان زمان شروع به آپلود میکند.  
+* **OpenStreetMap** - اجازه ارسال خودکار و تنظیمات دیگری را که می خواهید پیکربندی کنید میدهد، در صورتی که نگرانی های امنیتی مربوط به مسیرهای GPS دارید، به تنظیمات قابلیت دیده شدن توجه کنید.  
 
 
-​Uploading traces
+### ضبط دستی مسیرها
+
+برای شروع ثبت ها (در نمای ساده)، به سادگی روی دکمه آبی کلیک کنید. یک چرخ دنده در نزدیکی گوشه سمت راست بالای صفحه ظاهر می شود تا تلاش برای دریافت سیگنالهای ماهواره ای را نشان دهد. یک دایره سبز در بالا سمت راست نشان داده می شود تا نشان دهد ثبت مسیر در حال انجام است.  
+
+برای متوقف کردن ضبط داده ها در هر زمان، فقط دکمه سبز *توقف ثبت* را بزنید.  
+
+#### یادداشت نویسی  
+
+جهت اضافه کردن یادداشت یا توضیحات برای هر مسیر ثبت شده، روی آیکن *یادداشت* (مداد) کلیک کنید. این گزینه به شما اجازه می دهد متنی را جهت توصیف و یا یادداشتی از جزئیات مرتبط با هر نقطه را بنویسید.  
+
+##### فراخوانی یادداشت نویسی از نوار اعلان  
+
+همچنین این امکان وجود دارد که یاداشت نویسی را از نوار اعلان آندروئید فرا بخوانید. برنامه را از لیست اعلانها انتخاب کنید و روی دکمه *یادداشت* کلیک کنید.  
+
+[annotate0][]!
+
+اینکار یک کادر محاوره ای ورودی را نمایش می دهد که در آن می توانید جزئیات متن یادداشت را وارد کنید.
+
+[annotate1][]!
+
+#### فواصل ثبت
+
+فواصل ثبت بر اساس زمان یا مسافت در منوی **کارایی** تعیین می شود.  
+
+##### زمان
+
+**زمان قبل از ثبت** به طور پیش فرض روی ۶۰ ثانیه تنظیم شده است. هنگام پیاده روی آنرا می توانید به پنج یا ده ثانیه تغییر دهید. زمانی که در حال رانندگی با خودرو هستید، آنرا روی ۱ ثانیه تنظیم کنید تا بتوانید مسیر بسیار دقیقی ایجاد کنید.  
+
+##### مسافت
+
+فیلتر **مسافت** به طور پیش فرض صفر است. می توانید آن را روی عدد دیگری تنظیم کنید، اگر می خواهید مختصات را برای هر X واحد طی شده از آخرین نقطه ضبط شده ثبت کنید.  
+
+
+آپلود مسیرهای ردیابی شده
 ------------------
 
-#### to OpenStreetMap
+#### به OpenStreetMap
 
-Press the *Upload* button and select the *OpenStreetMap* option. A dialog window will appear where files are available for selection. Choose any you want to upload and hit the *Ok* button.  
+دکمه *آپلود* را بزنید و گزینه OpenStreetMap را انتخاب کنید. یک پنجره محاوره ای که در آن فایل ها برای انتخاب در دسترس قرار میگیرند نمایش داده می شود. هرکدام را که میخواهید آپلود کنید انتخاب کرده و دکمه Ok را فشار دهید.  
 
-![upload0][]
+[upload0][]!
 
-#### to other options
+#### به گزینه های دیگر
 
-There are other upload options you can explore, but are outside the scope of this guide. Refer to the GPSLogger for Android Project website for details.  
+گزینه های آپلود دیگری نیز وجود دارد که می توانید کشف کنید، اما خارج از حیطه این راهنما میباشند. برای اطلاعات بیشتر در مورد GPSLogger به وبسایت پروژه اندروید مراجعه کنید.  
 
 
-​Sharing traces 
+به اشتراک گذاری مسیرهای ردیابی شده 
 ---------------
 
-You may also share the recorded traces, or your current location with other people. Sharing options may vary from one device to another, or the apps installed on a device. Below is an example of how the sharing option screen may look:  
+شما همچنین می توانید مسیرهای ضبط شده یا مکان فعلی خود را با افراد دیگر به اشتراک بگذارید. گزینه های اشتراک ممکن است از دستگاهی به دستگاه دیگر یا براساس برنامه های نصب شده بر روی دستگاه متفاوت باشند. مثال زیر نمونه ای از  صفحه به اشتراک گذاری می باشد:  
 
-![share0][]
+[share0][]!
 
 
-Exporting traces to an OpenStreetMap editor
+خروجی مسیر ردیابی شده به یک ویرایشگر OpenStreetMap
 --------------------------------------------
 
-When you are done recording traces, the tracks may be imported to JOSM (or another OpenStreetMap editor, like iD).  
+هنگامی که ضبط  مسیر انجام شد، میتوانید آن را به JOSM (یا یکی دیگر از ویرایشگرهای OpenStreetMap مانند iD) وارد کنید.  
 
-Connect your Android device to a computer (also possible using a data cable, Bluetooth, or an Internet connection) and copy the GPX tracks and (and perhaps, multimedia files) you’ve captured.  In your device storage, look for the GPX tracks under the folder /Android/data/com.mendhak.gpslogger/files  
+دستگاه آندروئید خود را به رایانه متصل کنید (با استفاده از کابل، بلوتوث یا ارتباط اینترنت امکانپذیر است) و مسیرهای GPX (و شاید فایل های چندرسانه ای) را که گرفته اید منتقل کنید. در محل ذخیره دستگاه، مسیرهای GPX را در پوشه Android/data/com.mendhak.gpslogger/files/ جستجو کنید.  
 
-Using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD).  
+استفاده از مسیرهای GPX با ویرایشگر JOSM و iD به آسانی کشیدن فایل و رها کردن آنها درون محیط نرم افزار (و یا برای iD زبانه مرورگر) است.  
 
-For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).  
+برای جزئیات بیشتر برای کاربران iD، بخش [پیکربندی لایه پس زمینه(http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer) را ببینید.  
 
-If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](http://learnosm.org/en/mobile-mapping/using-gps/#open-in-josm).  
+اگر از ویرایشگر JOSM استفاده می شود، می توانید دستورالعمل نحوه استفاده از مسیر GPX و فایل های چندرسانه ای در JOSM را در بخش [بازکردن در JOSM(http://learnosm.org/fa/mobile-mapping/using-gps/#open-in-josm) ببینید.  
 
-For other OpenStreetMap editors, please refer to your software’s documentation.  
+برای دیگر ویرایشگرهای OpenStreetMap لطفاْ به مستندات خود نرم افزار مراجعه کنید.  
 
 
-Display Options
+گزینه های نمایش
 -----------------
 
-The application can be displayed 3 different ways, whichever you find most appropriate for your use:
+برنامه به ۳ روش مختلف نمایش داده میشود، هر کدام که برایتان مناسبتر است بکار ببرید:
 
-#### Simple View
+#### نمای ساده
 
-![view0][]
+[view0][]!
 
-#### Detailed View
+#### نمای با جزئیات
 
-![view1][]
+[view1][]!
 
-#### Big View
+#### نمای بزرگ
 
-![view2][]
+[view2][]!
 
 
 خلاصه
 -------
 
-بسیار عالی! نرم‌افزار بسیار سبک و کم مصرف باطری به شما معرفی شد که می‌توانید در دستگاه آندروئیدتان داشته باشید تا مسیرها را ضبط کنید، به OSM آپلود کنید و یا به عنوان ویرایشگر محبوبتان برای OpenStreetMap از آن استفاده کنید.  
+بسیار عالی! نرم‌افزار بسیار سبک و کم مصرف به شما معرفی شد که می‌توانید در دستگاه آندروئیدتان داشته باشید تا مسیرها را ضبط کرده، به OSM آپلود کنید و یا در ویرایشگر OpenStreetMap دلخواه تان از آن استفاده کنید.  
 
 GPSLogger آندروئید ابزار دیگری برای جمع‌آوری داده‌های میدانی بدون داشتن گیرنده GPS است. جمع‌آوری داده‌های میدانی معمول حتی بدون داشتن اتصال اینترنت فعال نیز امکانپذیر است.  
 
