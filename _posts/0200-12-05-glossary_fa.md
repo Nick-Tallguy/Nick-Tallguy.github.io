@@ -33,27 +33,27 @@ category: beginner
 
 **Extract** : [OSM Data Overview](/en/osm-data/data-overview/) A large chunk of OSM data for a specific area (like a state, country, or geographic area).
 
-**[Field Papers](/en/mobile-mapping/field-papers/)**: is a web-based tool for easily creating a printable map atlas for anywhere in the world that you can print and add notes to. See [http://fieldpapers.org/](http://fieldpapers.org/) for more details. 
+**[ورقه‌های میدانی](/fa/mobile-mapping/field-papers/)** ؛ یک ابزار تحت وب برای ایجاد آسان نقشه چاپی از هر مکان است که می‌توانید از آن چاپ گرفته و به آن یادداشت اضافه کنید. برای اطلاعات بیشتر [http://fieldpapers.org/](http://fieldpapers.org/) را ببینید. 
 
 **FOD : Fundamental Operational Database** ; data that is specific for to activation i.e. health facilities, schools, water facilities, flood extents, building damages, etc.
 
-**GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
+**GDACS : سیستم جهانی هشدار و هماهنگی بحران** ؛ GDACS یک چارچوب همکاری تحت نظارت سازمان ملل متحد است که شامل مدیران بحران و سیستم‌های اطلاعات بحران در سراسر جهان می‌شود و هدف آن پر کردن شکاف اطلاعاتی و هماهنگی در فاز اول پس از وقایع بزرگ است. GDACS دسترسی به اطلاعات لحظه‌ای به سیستمإهای اطلاعاتی بحران تحت وب و ابزارهای هماهنگی مربوطه را فراهم می کند.
 
-**[iD editor](/en/beginner/id-editor/)** - Web-based beginner-friendly OpenStreetMap editor designed by Mapbox. 
+**[ویرایشگر iD](/en/beginner/id-editor/)** - ویرایشگر تحت وب و آسان برای مبتدیان OpenStreetMap که توسط Mapbox طراحی شده است. 
 
 **IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
 
-**[JOSM](https://josm.openstreetmap.de/)** pronounced "Jaws-um", OpenStreetMap editor written in Java. 
+**[JOSM](https://josm.openstreetmap.de/)** به صورت "جاو-سوم" تلفظ میشود، ویرایشگر OpenStreetMap که به زبان جاوا نوشته شده است 
 
-**[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: A data source that's displayed on a slippy map (often is thought of as a group of tiles stitched together).
+**[لایه](http://wiki.openstreetmap.org/wiki/Layer)**: یک منبع داده است که روی نقشه لغزان نشان داده می‌شود (اغلب به صورت گروهی از کاشی‌های چسبیده به هم تصور میشود)
 
-**NGO : Non Govermental Organisation / Agency** ; primarily a not for profit compulsory group of citizens who are organized on a local, national or international level.  
+**NGO : سازمان غیردولتی** ؛ گروهی از شهروندان که در سطح محلی، ملی و بین‌المللی به صورت غیرانتفاعی سازماندهی شده‌اند.  
 
 **[Node](http://wiki.openstreetmap.org/wiki/Node)**: A node is one of the core elements in the OpenStreetMap data model. It consists of a single point in space defined by its latitude, longitude and node id. Nodes can be used to define standalone point features, but are more often used to define the shape or "path" of a way.
 
-**OCHA : United Nations Office for the Coordination of Humanitarian Affairs** ; OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies. OCHA also ensures there is a framework within which each actor can contribute to the overall response effort.
+**OCHA : دفتر سازمان ملل متحد در امور انسانی** ؛ بخشی از دبیرکلی سازمان ملل است که مسئول گردهم‌آوری فعالیتهای بشردوستانه برای اطمینان از هم‌افزایی پاسخ در مواقع اورژانسی است. همچنین OCHA تضمین می‌کند که چارچوبی وجود دارد تا در قالب آن هر یک از عمل‌کنندگان می‌توانند به تلاش کلی پاسخ دهند.
 
-**POC : Point of Contact** ; person(s) to engage with for any enquiries, questions, coordination, etc.
+**POC (نقطه تماس Point of Contact):** ؛ شخص یا اشخاصی که درگیر هرگونه درخواست، پرسش، هماهنگی و غیره هستند.
 
 **[Relation](http://wiki.openstreetmap.org/wiki/Relation)**: one of the core data elements that consists of one or more tags and also an ordered list of one or more nodes, ways and/or relations as members which is used to define logical or geographic relationships between other elements. For examples go to the [Types of Relations](http://wiki.openstreetmap.org/wiki/Types_of_relation) wiki page. 
 
@@ -69,7 +69,7 @@ category: beginner
 
 **TIGER** : یک منبع داده از دفتر آمار و سرشماری ایالات متحده که در سال ۲۰۰۷ وارد OSM شد. بیشترین داده ایالات متحده آمریکا در OSM از این منبع میباشد.
 
-**Tile** : a small image (256x256 pixels ) of rendered map data.
+**کاشی** (Tile): یک نصویر کوچک (256*256 پیکسل) از رندر داده نقشه
 
 **[Way](http://wiki.openstreetmap.org/wiki/Way)**: an ordered list of nodes which normally also have at least one tag or is included within a Relation. A way can have between 2 and 2,000 nodes, although it's possible that faulty ways with zero or a single node exist. A way can be open or closed.  
 
@@ -77,10 +77,10 @@ category: beginner
 
 * An open way ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) is way describing a linear feature which does not share a first and last node. Many roads, streams and railway lines are open ways.
  
-### Note on OSM Editing Terms:
+### یادداشتی بر اصطلاحات ویرایش OSM
 
 بیشتر اصطلاحات استفاده شده در نقشه‌ها در OSM از زبان محاوره‌ای انگلیسی بریتانیایی آورده شده و به همان صورت نیز تلفظ می‌شود. مانند neighbourhood
 
-**Motorway**: اصطلاح انگلیسی بریتانیایی است که به بزرگترین جاده گفته می‌شود، به آن freeway 'آزادراه' هم می‌گویند.
+**بزرگراه** (Motorway): اصطلاح انگلیسی بریتانیایی است که به بزرگترین جاده گفته می‌شود، به آن  'آزادراه' (freeway) هم می‌گویند.
 
-**Pitch** : used to describe a playing field. Including tennis courts, basketball courts, baseball diamonds, or football fields.
+**زمین** (Pitch): برای توصیف یک زمین بازی از جمله زمین‌های تنیس، بسکتبال، بیسبال یا زمین‌های فوتبال استفاده می‌شود.
