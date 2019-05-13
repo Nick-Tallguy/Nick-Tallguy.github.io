@@ -9,56 +9,56 @@ category: josm
 ابزارهای ساختمان JOSM و افزونه Utilsplugin2
 ============
 
-> Reviewed 2016-09-12  
+> تاریخ بازبینی ۱۳۹۵/۰۶/۲۲  
 
-The **buildings_tools** and **utilsplugin2** plugins add great additional functionality into JOSM. In this section we'll take a closer look at the functions they provide.  
+پلاگینهای **buildings_tools** و **utilsplugin2** قابلیتهای بسیار فراوانی به JOSM اضافه می‌کنند.در این بخش نگاه نزدیکتری به قابلیتهای اینها می‌اندازیم.  
 
-The Buildings Tools Plugin
+پلاگین ابزار ساختمان
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+اگر قبلاْ نصب نکرده‌اید، این پلاگین را به همراه دستورالعمل آن از [افزونه‌های JOSM](/fa/josm/josm-plugins) دانلود کنید.  
 
 ![Buildings tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings. It allows you to trace one side of a rectangular building, and easily extend the shape. If you are digitizing many buildings, this plugin will save you clicks, and thereby save you time.  
+پلاگین ابزار ساختمان برای دیجیتالی کردن ساختمانها بسیار مفید است. این پلاگین به شما اجازه ردیابی از یک طرف ساختمان مستطیل شکل و گسترش شکل آن را به راحتی  می‌دهد. اگر شما ساختمانهای زیادی را دیجیتالی می‌کنید، این افزونه به کاهش تعدادکلیک و به دنبال آن صرفه‌جویی در زمان را میدهد.  
 
-Once the plugin has been installed you will see a new button on the left side of JOSM, which looks like this: ![Buildings tools button][]{: height="29px"}
+به محض نصب پلاگین، دکمه جدیدی در سمت چپ JOSM می‌بینید که شبیه به این است: ![Buildings tools button][]{: height="29px"}
 
-Start JOSM and download an area where you wish to trace buildings.  
+JOSM را راه‌اندازی کنید و ناحیه‌ای را که میخواهید ساختمانهای آنرا بکشید دانلود کنید.  
 
-* Select the building tool and click twice to draw a line on the map.  
+* ابزار ساختمان را انتخاب کنید و دوبار کلیک کنید تا یک خط روی نقشه بکشید.  
 
 ![Draw edge][]
 
-* Then extend the mouse and click again to draw a rectangle.  
+* سپس ماوس را گسترش دهید و دوباره کلیک کنید تا یک مستطیل کشیده شود.  
 
 ![Extend building][]
 
-* This will not only create a rectangle with only three clicks, but it will also automatically apply the **building=yes** tag to the shape.  
+* با این کار نه تنها مستطیل را تنها با سه کلیک ایجاد می‌کنید، بلکه به طور خودکار برچسب **building=yes** نیز به شکل اعمال می‌شود.  
 
 ### ساختمانهای پیچیده
 
-You can also create more complicated buildings by first drawing several overlapping buildings and then merging them together.  
+همچنین می‌توانید ساختمانهایی که شکلی پیچیده دارند را ابتدا با کشیدن چند مستطیل که با هم همپوشانی دارند و سپس ادغام آنها با هم رسم کنید.  
 
-* Draw two buildings which over lap, so that they form an L shape.  
-* Select both buildings (hold SHIFT to select more than one object).  
-* Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.  
+* دو ساختمان که با هم همپوشانی داشته و شکل L مانند را می‌سازند بکشید.  
+* هردو ساختمان را با انتخاب کنید (کلید SHIFT را نگه داشته و بیش از یک شی انتخاب کنید).  
+* به Tools->Join overlapping Areas بروید و یا SHIFT+J را از صفحه کلید بزنید.  
 
 ![Merge buildings][]
 
 ### ویرایش تنظیمات
 
-Furthermore, you can alter the default settings of the plugin.  
+علاوه بر این، می‌توانید تنظیمات پیش‌فرض افزونه را تغییر دهید.  
 
-* Go to Data->Set buildings size. ![Set buildings size][]{: height="39px"}  
+* به Data->Set buildings size بروید. ![Set buildings size][]{: height="39px"}  
 
-* If you are creating many similarly sized buildings, you can set specific width and height dimensions of the buildings, such as 6 x 10 meters (the unit is in meters).  
+* چنانچه ساختمانهای زیادی با شکل و اندازه یکسان را ایجاد می‌کنید، می‌توانید طول و عرض ساختمانها را بطور پیش‌فرض تعیین کنید، مثلاْ ۶ * ۱۰ متر (واحد به متر است).  
 
 ![Set buildings size dialog][]
 
-* By setting the dimensions you will only need two clicks to create precisely sized buildings.  
+* با تعیین کردن اندازه ساختمان، برای رسم آن تنها به دو کلیک نیاز دارید.  
 
-Lastly, you can click on the Advanced button if you would like to add additional tags that will automatically be applied to every building. For example, if every building you draw is on the same street, you might add a tag which identifies the street that will be automatically applied.  
+در نهایت، اگر می‌خواهید یک سری تگ پیش‌فرض اضافه کنید که به طور خودکار برای هر ساختمان اعمال شود، می‌توانید روی دکمه 'پیشرفته' (Advanced) کلیک کنید. به عنوان مثال، اگر همه ساختمانهای که ترسیم می‌کنید در یک خیابان قرار دارند، شاید یک برچسب اضافه کنید که خیابان را مشخص کند و به صورت خودکار به همه ساختمانها اعمال شود.  
 
 ![Buildings advanced][]
 
@@ -66,38 +66,38 @@ Lastly, you can click on the Advanced button if you would like to add additional
 Utilsplugin2
 -------------
 
-* If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+اگر قبلاْ نصب نکرده‌اید، این پلاگین را به همراه دستورالعمل آن از [افزونه‌های JOSM](/fa/josm/josm-plugins) دانلود کنید.  
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have a new menu at the top named "More Tools."  
+پس از نصب افزونه و راه‌اندازی مجدد JOSM، در بالا یک منوی جدید به نام «ابزارهای بیشتر» (More Tools) خواهید داشت.  
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+یک لایه جدید ایجاد کنید و برخی از ابزارهای جدید را آزمایش کنید. در اینجا ما برخی از مفیدترین ابزارهای جدید را شرح میدهیم:  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **اضافه کردن گره در تقاطع:** این ابزار برای اضافه کردن گره‌های فراموش شده در تقاطع راه‌های انتخاب شده بسیار مفید است. جاده‌ها همیشه باید در جایی که هم را قطع میکنند یک گره مشترک داشته باشند.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **کپی کردن برچسب‌ها از انتخاب قبلی:** این عملکرد باعث می‌شود که تگ‌ها را راحت‌تر کپی کنید. اگر می‌خواهید اشیاء زیادی را با تگ‌های مشابه ایجاد کنید، ابتدا اشیا را رسم کنید. سپس برچسب‌ها را به یک شی اضافه کنید. روی شی دیگری کلیک کنید و Shift+R را برای کپی کردن برچسب‌ها از شی قبلی بزنید. می‌توانید این کار را برای تمام اشیائی که می‌خواهید برچسب‌گذاری کنید انجام دهید. به یاد داشته باشید که برچسب‌ها از شی انتخاب شده قبلی کپی می‌شوند، بنابراین اگر روی یک شیء بدون برچسب کلیک کنید و سپس روی یک شیء بدون برچسب دیگر کلیک کنید، نمی‌توانید هیچ تگی را کپی کنید.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. ** اضافه کردن تگ منبع:** این ابزار افزودن تگ منبع را ساده می‌کند. این عملکرد منبع نقشه‌ای را که آخرین بار اختصاص داده شده به خاطر سپرده و آن را به اشیاء اضافه می‌کند. شما می‌توانید منبع را تنها با یک کلیک وارد کنید.  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **جایگزینی هندسه:** (Replace Geometry) این ابزار اگر می‌خواهید یک شیء بدشکل را دوباره بکشید، اما می‌خواهید تاریخ، ویژگی‌ها و شماره شناسه آن شیء را نگه دارید فوق‌العاده است. به عنوان مثال، در یک ساختمان پیچیده که کامل رسم نشده به جای اینکه یکی یکی هر نقطه از ساختمان را به سختی جابجا کنید، می‌توانید بطور کامل دوباره از اول شی را ترسیم کنید، اشیاء قدیمی و جدید را انتخاب کنید و ¨جایگزینی هندسه¨ را برای انتقال همه اطلاعات قبلی بزنید.  
 
     ![Replace geometry][]
 
 
 ### ابزارهای انتخاب بیشتر
 
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+**Utilsplugin2** ابزارهای بیشتری را در منوی "انتخاب" (Selection) ارائه می‌کند. سعی کنید با آنها کار کنید.  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+یکی از ابزارهای انتخاب مورد علاقه ما **Unselect Nodes:** این ابزار تمام گره‌ها را ار انتخاب پاک می‌کند. این عملکرد می‌تواند مفید باشد اگر شما کادری را برای انتخاب چندین شی میکشید اما شما نمی خواهید نقطه‌ها موجود در تمام خطوط و اشکال را انتخاب کنید.  
 
 ![Unselect nodes][]
 
