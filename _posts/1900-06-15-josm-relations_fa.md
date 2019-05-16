@@ -11,93 +11,93 @@ category: josm
 
 > تاریخ بازبینی ۱۳۹۶/۰۳/۱۶  
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
+در [راهنمای مبتدیان](/fa/beginner) توضیح دادیم که در OpenStreetMap سه نوع  شی را می‌توان ترسیم کرد  - نقطه (گره‌ها)، خط (راه‌ها) و چندضلعی (راه بسته). خطوط دارای نقاط متعددند، و خود خط صفاتی دارد که تعریف آن را نشان می‌دهند. چندضلعی همان خط است، به جز اینکه به منظور ساختن یک شکل باید آن خط به جایی که از آن شروع شده به پایان برسد.  
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap, called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points, lines, or polygons.  If you are looking to advance your editing skills, then understanding and knowing how to properly edit relations is important.  
+در حقیقت، ما به شما دروغ گفتیم، زیرا در OpenStreetMap یک نوع دیگر شی وجود دارد که رابط (ریلیشن) نامیده می‌شود. همانطور که یک خط از
+نقاط دیگر تشکیل شده، رابطه نیز از گروهی از اشیاء دیگر تشکیل شده است که میتواند چند نقطه، خط یا چندضلعی باشد. اگر به دنبال پیشرفت مهارت‌های ویرایشی خود هستید، درک و شناخت نحوه درست ویرایش ریلیشن‌ها مهم است.  
 
-For example, imagine that you want to map a building that has courtyards in the center.  You would need to draw a polygon around the outside of the building, and you would want other polygons around the courtyards to indicate that they are not part of the building.  This is an example of a relation.  The relation would contain several polygons - and the attributes of the building would be attached to the relation, not the polygons.  
+به عنوان مثال، تصور کنید می‌خواهید یک ساختمان را که دارای یک حیاط در مرکزش است را بکشید. شما باید یک چندضلعی در اطراف ساختمان بکشید و چندضلعی دیگری را در اطراف حیاط بکشید که نشان دهد این قسمت جزو ساختمان نیست. این مثالی از یک رابطه است. این رابطه چندین چندضلعی را شامل می‌شود - و ویژگی‌های ساختمان به رابطه، و نه به چندضلعی‌ها متصل می شود.  
 
 ![An example of a multipolygon][]
 
-Relations are used to represent anything that requires a collection of objects to define.  Other examples are bus routes (a collections of lines), long and complex objects (rivers or roads), or multiple polygons that are all part of one location (like buildings in a university).  
+روابط برای نشان دادن هر چیزی که برای تعریف شدن نیاز به یک مجموعه از اشیاء دارد بکار می‌روند. مثالهای دیگر مسیرهای اتوبوس (مجموعه ای از خطوط)، اشیاء طولانی و پیچیده (رودخانه‌ها یا جاده‌ها) یا تعدادی چندضلعی که همگی قسمتی از یک مکان هستند (مانند ساختمان‌های یک دانشگاه) می‌باشند.  
 
-There are mainly four types of relations you will encounter in OSM: Multipolygons, Routes, Boundaries, and Restrictions (such as, no left turns).  In this section we will cover Multipolygons and Routes.  
+به طور عمده در OSM با چهار نوع رابطه مواجه می‌شوید: مولتی‌پلیگون (Multipolygon)، مسیرها (Routes)، مرزها (Boundaries) و محدودیتها (Limits) (مانند محدودیت در گردش به چپ). در این قسمت ما مولتی‌پلیگون و مسیرها را پوشش میدهیم.  
 
-Creating Multipolygon Relations
--------------------------------
+ایجاد ریلیشن مولتی‌پلیگون
+------------------------------
 
-Let's see how to create a multipolygon relation like the one shown above.  
+بیایید ببینیم که چگونه یک رابطه مولتی‌پلیگون مانند آنچه که در بالا نشان داده شده را ایجاد کنیم.  
 
-- First, draw your shapes. In this case we will draw three polygons, an outer rectangle, and two smaller rectangles.
+- ابتدا، شکلهای خود را بکشید، در این مورد، ما سه چندضلعی، یک مستطیل بیرونی و دو مستطیل کوچکتر را کشیده‌ایم.
 
 ![Multipolygon ways][]
 
-- Select all of the polygons. Remember you can select multiple objects by holding SHIFT and clicking on each.  
-- Choose *Tools->Create multipolygon* from the menu.  
-- The tags window now contains the new multipolygon.
+- تمام چندضلعی‌ها را انتخاب کنید. به یاد داشته باشید می‌توانید اشیاء مختلف را با نگه داشتن کلید SHIFT و کلیک بر روی هر یک انتخاب کنید.  
+- از منو گزینه *Tools->Create multipolygon* را انتخاب کنید.  
+- پنجره تگها اکنون حاوی مولتی‌پلیگون جدید است.
 
 ![New mp object][]
 
-- بر روی کلید ویرایش کلیک کنید.  
+- روی دکمه ویرایش کلیک کنید.  
 
-- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
+- حالا باید پنجره ویرایشگر ریلیشن را ببینید. این قسمت کمی پیچیده است زیرا اکنون برچسب‌ها را به مجموعه‌ای از خط‌ها اضافه میکنید.  
 
 ![Building relation][]
 
-- Observe that at the top of the panel are the tags for the relation. These tags work the same way as tags always work.  
-- At the bottom is a list of the members of the relation. This relation has three members - that is, the three ways that are part of our relation.  
-- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
-- Click in the tag box and add this tag.  
+- دقت کنید که در قسمت بالای پانل، تگ (برچسب‌)های رابطه قرار دارند. این برچسب‌ها همان کارهایی را انجام می‌دهند که همه تگها انجام می‌دهند.  
+- در پایین لیستی از اعضای رابطه وجود دارد. این رابطه سه عضو دارد - یعنی سه خط که هرکدام بخشی از رابطه ما است.  
+- توجه داشته باشید که در حال حاضر یک تگ برای ما تعریف شده است، *type= multipolygon*. ما باید برچسب دیگری اضافه کنیم که نوع شی که این ریلیشن آنرا نشان میدهد، مشخص شود. باید یک تگ اضافه کنیم که می‌گوید *building=yes*.  
+- در کادر تگ کلیک کرده و این برچسب را اضافه کنید.  
 
 ![Building yes][]
 
-- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
+- **نقش**ها فعلاْ به درستی به خط‌ها اختصاص داده شده است. هر عضو یک رابطه، یک نقش دارد که نشان می‌دهد هدف آن عضو چیست. در این حالت، نقش چندضلعی بیرونی را باید به عنوان **outer** تعریف کرد و نقش دو عدد چندضلعی داخلی باید به عنوان **inner** تعریف شود. اینها نقش‌هایی هستند که برای اعضای یک چندضلعی در دسترس هستند.  
 
-- Click OK and your multipolygon relation is complete!  
+- اکنون با کلیک بر روی OK رابطه مولتی‌پلیگون شما کامل است!  
 
 ![New multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:  
+هنگامی که مولتی‌پلیگون را ایجاد می‌کنید پس از رندر بر روی نقشه همانند شکل زیر دیده می‌شود:  
 
 ![Multipolygon in Mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
+از مولتی‌پلیگون‌ها برای هر شی پیچیده‌ای که نیاز به چندین چندضلعی درونی و بیرونی دارد، مانند یک ساختمان یا رودخانه با تکه‌های زمین در داخل آن، استفاده کرد. اطلاعات بیشتر در مورد مولتی‌پلیگون را می‌توانید در [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon) پیدا کنید.  
 
-Route Relations
+رابطه‌های مسیر
 ----------------
 
-Relations are also very useful for representing long routes. For example, a bus or bicycle route follows various road segments. To define such a route, we can create a relation which contains all of the road segments that are part of the route. Additional features, such as bus stops can also be members of a route relation.  
+رابطه‌ها برای نشان دادن مسیرهای طولانی نیز مفید هستند. به عنوان مثال، یک مسیر اتوبوس یا دوچرخه که از قطعات مختلف جاده‌ای تشکیل شده‌اند. برای تعریف چنین مسیری، می‌توانیم یک رابطه ایجاد کنیم که شامل تمام قطعه‌های جاده‌ای است که بخشی از مسیر هستند. ویژگی‌های بیشتر، مانند توقفگاه‌های اتوبوس نیز می‌توانند به عنوان عضوی از رابطه مسیر باشند.  
 
 ![Route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:  
+بیایید ببینیم که چگونه برای مسیر اتوبوس در JOSM رابطه ایجاد کنیم:  
 
-- First, select all of the ways which the route runs along. You may need to split some streets into separate segments if only part of them belong to the relation. You can do this using the "Split Way" tool.  
-- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
+- ابتدا همه مسیرهایی که اتوبوس از آنها می‌گذرد را انتخاب کنید. اگر فقط بخشی از یک خیابان مربوط به رابطه باشد، ممکن است لازم باشد بعضی از خیابان‌ها را به قطعات مجزا تقسیم کنید. برای اینکار می‌توانید از ابزار Split Way  استفاده کنید.  
+- هنگامی که تمام قطعات انتخاب شدند، به *Presets->Transport->Public Transport->Public Transport Route (Bus)* بروید.  
 
 ![Public transport preset][]
 
-- A new window pops up where you can enter information which applies to the route as a whole.
+- یک پنجره جدید ظاهر می‌شود که در آن می‌توانید اطلاعاتی را وارد کنید که به کل مسیر اعمال می‌شود.
 
 ![New route relation][]
 
-It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+مهم است که نوع خاص مسیر را از منوی کشویی بالای صفحه انتخاب کنید. برای مسیرهای اتوبوس دو گزینه در دسترس است، اتوبوس و اتوبوس برقی. همچنین به طور معمول بهتر است نام، شماره مرجع، مبدا و مقصد نیز وارد شود.
 
-- Click "New Relation." You will see the relation window pop up, just as when you create a multipolygon.  
+- روی "ارتباط جدید" کلیک کنید. پنجره رابطه را همانند مولتی‌پلیگون می بینید.  
 
 ![Bus route relation][]
 
-- Notice that there are already tags which define the relation as a route. Instead of *type=multipolygon*, we have *type=route*. We also have a tag defining it as a bus route, as opposed to another type of route.  
-- You may now think, what should the **role** of the members be? Well, in the case of a route, we don't need to define the role of the members. By leaving the role blank the software knows that they are simply part of the route. We could also define the role of each segment as **route**, but it is not necessary.  
-- Click OK and your route relation will be complete!  
+- توجه داشته باشید که برچسب‌هایی که رابطه را به عنوان یک مسیر تعریف می‌کنند از پیش وجود دارند. به جای *type=multipolygon*، ما *type=route* داریم. همچنین تگی داریم که  در عوض انواع دیگر مسیر، آنرا به عنوان یک مسیر اتوبوس تعریف می‌کند،.  
+- حالا شاید فکر کنید که **نقش** اعضا چه باید باشد؟ خب، در مورد مسیر، ما نیازی به تعریف نقش اعضا نداریم. با خالی گذاشتن نقش، نرم‌افزار می‌داند که آنها به راحتی بخشی از مسیر هستند. همچنین می‌توانیم نقش هر قطعه را به عنوان **مسیر** تعریف کنیم، اما لازم نیست.  
+- روی OK کلیک کنید و رابطه مسیر شما کامل خواهد شد!  
 
-> If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
+> اگر لیستی از تمام رابطه‌های موجود در نقشه را می‌خواهید، می‌توانید پانل رابطه‌ها را با کلیک بر روی این دکمه در سمت چپ باز کنید: ![relation panel button][]{: height="30px"}. این یک پانل را باز می کند که در آن می‌توانید رابطه جدید را انتخاب، ویرایش و ایجاد کنید.  
 
 خلاصه
 -------
 
-Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.
+فهمیدن ریلیشن‌ها دشوار است از طرفی لازم نیست که همیشه از آنها استفاده کرد، اما لازم است که در مورد آنها بدانیم. هر چند اغلب ممکن است متوجه شوید که برای کشیدن صحیح چیزی نیاز به یک ارتباط دارید و می‌توانید از این دانش استفاده کنید و اطلاعات بیشتر نیز از ویکی OSM پیدا کنید تا به شما کمک کند به درستی نقشه ریلیشن‌هایتان را بکشید.
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png
