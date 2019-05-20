@@ -18,30 +18,30 @@ category: beginner
 
 **AAR**: بررسی پس از واقعه؛ یک کار گروهی برای ارزیابی آموزش و بهبود تمرین یا فعالیت.
 
-**Activation (HOT term)** : Sometimes referred to as a crisis, disaster, or emergency response and generally characterized by a specific event and/or anticipated humanitarian impact with a relatively shorter time-frame associated with the response and recovery phases of the disaster cycle than a longer-term Humanitarian Project.
+**فعال‌سازی (اصطلاحی از گروهHOT)**: بعضی اوقات به یک بحران، فاجعه یا واکنش اضطراری اشاره دارد و به طور کلی با یک رویداد خاص که تاثیر انسانی پیش‌بینی شده دارد و برخلاف پروژه‌های بلندمدت انسانی در یک دوره زمانی نسبتاْ کوتاه همراه با مراحل پاسخ و بهبودی چرخه فاجعه رخ می‌دهد.
 
-**Activator(s)** : HOT volunteers who have completed training and are endorsed by an existing activator to perform roles during events. 
+**فعال‌ساز(ها)**: داوطلبان HOT که دوره های آموزشی را تکمیل کرده‌اند و توسط فعال‌ساز موجود برای انجام نقش در حوادث تأیید شده‌اند. 
 
-**AOI : Area of Interest** ; defined by activation coordinators in consultation with humanitarian partners, field teams and HOT community in wake of a disaster.
+**AOI  منطقه مورد علاقه**؛ تعریف می‌شود با فعال کردن هماهنگ‌کننده‌ها در مشورت با شرکای بشردوستانه، تیم‌های میدانی و جامعه HOT در زمان وقوع یک فاجعه.
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: A group of changes that you made to OSM data. Once uploaded to OSM, your edits are instantly available to others if they download them. They may take a few minutes or several hours to appear on the map.
+**[بسته تغییرات](http://wiki.openstreetmap.org/wiki/Changeset)**: گروهی از تغییرات که شما در داده‌های OSM انجام داده‌اید. پس از آپلود در OSM، ویرایش‌هایتان  بلافاصله برای دیگران در صورت دانلود توسط آنها، در دسترس خواهند بود. ممکن است چند دقیقه تا چند ساعت طول بکشد تا روی نقشه نمایش داده شوند.
 
-**COD : Common Operational Database** ; Comprises the geographical data for multiple humanitarian activations. These are mainly: transportation network (roads, bridges/fords, ports etc.), populated places (settlements), administrative boundaries, hydrology (rivers and other bodies of water) and hypsography (elevations/contours). May include buildings as an indirect source of population statistics.  Used by the United Nations Office for the Coordination of Humanitarian Affairs.
+**COD : پایگاه داده عملیاتی مشترک**؛ شامل اطلاعات جغرافیایی برای فعالیتهای بشردوستانه متعدد می‌شود. اینها عمدتاْ شامل: شبکه حمل‌ونقل (جاده‌ها، پل‌ها/معبرها، بنادر و غیره)، اماکن جمعیتی (مسکونی)، مرزهای اداری، هیدرولوژی (رودخانه‌ها و دیگر اشیاء آبی) و هیپسوگرافی (ارتفاعات/خطوط منحنی) هستند. ممکن است ساختمانها بعنوان منبع غیرمستقیم آمار جمعیتی باشند. توسط دفتر ملل متحد برای هماهنگی امور انسان‌دوستانه مورد استفاده قرار میگیرد.
 
-**DHN : Digital Humanitarian Network** ; organization which leverages digital network for humanitarian response.
+**DHN : شبکه انسانی دیجیتال**؛ سازمانی که شبکه دیجیتال را برای پاسخ بشردوستانه بکار میگیرد.
 
-**Extract** : [OSM Data Overview](/en/osm-data/data-overview/) A large chunk of OSM data for a specific area (like a state, country, or geographic area).
+**عصاره (Extract)**: [مرور کلی داده OSM](/fa/osm-data/data-overview/) حجم زیادی از داده OSM برای یک منطقه خاص (مانند یک ایالت، کشور یا منطقه جغرافیایی).
 
 **[ورقه‌های میدانی](/fa/mobile-mapping/field-papers/)** ؛ یک ابزار تحت وب برای ایجاد آسان نقشه چاپی از هر مکان است که می‌توانید از آن چاپ گرفته و به آن یادداشت اضافه کنید. برای اطلاعات بیشتر [http://fieldpapers.org/](http://fieldpapers.org/) را ببینید. 
 
-**FOD : Fundamental Operational Database** ; data that is specific for to activation i.e. health facilities, schools, water facilities, flood extents, building damages, etc.
+**FOD : پایگاه داده عملیاتی پایه**؛ داده‌هائی که مخصوص فعال‌سازی هستند، به عنوان مثال امکانات بهداشتی، مدارس، امکانات آب، محدوده‌های سیل، آسیب‌های ساختمان و ...
 
 **GDACS : سیستم جهانی هشدار و هماهنگی بحران** ؛ GDACS یک چارچوب همکاری تحت نظارت سازمان ملل متحد است که شامل مدیران بحران و سیستم‌های اطلاعات بحران در سراسر جهان می‌شود و هدف آن پر کردن شکاف اطلاعاتی و هماهنگی در فاز اول پس از وقایع بزرگ است. GDACS دسترسی به اطلاعات لحظه‌ای به سیستمإهای اطلاعاتی بحران تحت وب و ابزارهای هماهنگی مربوطه را فراهم می کند.
 
 **[ویرایشگر iD](/en/beginner/id-editor/)** - ویرایشگر تحت وب و آسان برای مبتدیان OpenStreetMap که توسط Mapbox طراحی شده است. 
 
-**IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
+** IDP : شخص جابجاشده داخلی**؛ فردی است که مجبور به فرار از خانه خود شده در حالی که همچنان در مرزهای داخلی کشورش باقی می‌ماند.
 
 **[JOSM](https://josm.openstreetmap.de/)** به صورت "جاو-سوم" تلفظ میشود، ویرایشگر OpenStreetMap که به زبان جاوا نوشته شده است 
 
@@ -49,7 +49,7 @@ category: beginner
 
 **NGO : سازمان غیردولتی** ؛ گروهی از شهروندان که در سطح محلی، ملی و بین‌المللی به صورت غیرانتفاعی سازماندهی شده‌اند.  
 
-**[Node](http://wiki.openstreetmap.org/wiki/Node)**: A node is one of the core elements in the OpenStreetMap data model. It consists of a single point in space defined by its latitude, longitude and node id. Nodes can be used to define standalone point features, but are more often used to define the shape or "path" of a way.
+**[گره](http://wiki.openstreetmap.org/wiki/Node)**: گره یکی از عناصر اصلی در مدل داده OpenStreetMap است. از یک نقطه واحد در فضا تشکیل شده که با طول و عرض جغرافیایی و شناسه گره تعریف می‌شود. از گره‌ می‌توان برای تعریف ویژگی‌های یک نقطه مستقل استفاده کرد اما از آنها اغلب برای تشکیل شکل یا "مسیر" یک راه استفاده می‌شود.
 
 **OCHA : دفتر سازمان ملل متحد در امور انسانی** ؛ بخشی از دبیرکلی سازمان ملل است که مسئول گردهم‌آوری فعالیتهای بشردوستانه برای اطمینان از هم‌افزایی پاسخ در مواقع اورژانسی است. همچنین OCHA تضمین می‌کند که چارچوبی وجود دارد تا در قالب آن هر یک از عمل‌کنندگان می‌توانند به تلاش کلی پاسخ دهند.
 

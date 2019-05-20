@@ -10,115 +10,115 @@ category: osm-data
 ===============================
 
 
-**Osmosis** is a powerful command-line tool for manipulating and processing raw **.osm** data. It is often used for processing large data files, for splitting OSM files into smaller pieces, and for applying a changeset to update an existing file.  
+**Osmosis** یک ابزار قدرتمند خط فرمان برای دستکاری و پردازش داده خام **osm.** است. از آن اغلب برای پردازش فایلهای بزرگ داده، تقسیم فایل‌های OSM به قطعات کوچکتر و جهت برای اعمال بسته تغییرات برای به‌روزرسانی یک فایل موجود استفاده می‌شود.  
 
-There are a great many functions available with Osmosis, and you can read about each in detail on the [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). However many of the functions are quite complex and difficult to understand, particularly if you are just getting started with command-line programs and OpenStreetMap. This chapter will serve to introduce Osmosis, install it on Windows, and get started with a basic Osmosis command.  
+توابع بسیار زیادی در Osmosis وجود دارند و شما می‌توانید در مورد جزئیات هر یک در [ویکی](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41) بخوانید. با این حال بسیاری از توابع آن بسیار پیچیده و درک‌شان دشوار است، به ویژه اگر به تازگی شروع به برنامه‌های خط فرمان و OpenStreetMap کرده‌اید. این فصل به معرفی Osmosis، نصب آن بر روی ویندوز و شروع به استفاده از فرمان‌های اصلی Osmosis می‌پردازد.  
 
 Osmosis را نصب کنید
 ----------------
 
-Like osm2pgsql in the previous chapter, we will need to download and set up **osmosis** so that we can run it from the command line. The process for this will be very similar to osm2pgsql.  
+مانند osm2pgsql در فصل قبل ما باید **osmosis** را دانلود و راه‌اندازی کنیم تا بتوانیم آن را از خط فرمان اجرا کنیم. فرایند این کار بسیار شبیه osm2pgsql خواهد بود.  
 
-You will also need some raw OSM data to work with. If you want to follow the examples in this chapter, download our sample file [here](/files/sample_osmosis.osm.pbf). You may also use a raw data file of your choosing.  
+شما همچنین نیاز به مقداری داده OSM دارید تا با آنها کار کنید. اگر می‌خواهید مثال‌های این فصل دنبال کنید، فایل نمونه ما را از [اینجا](/files/sample_osmosis.osm.pbf) دانلود کنید. همچنین می‌توانید از یک فایل خام داده به انتخاب خودتان استفاده کنید.  
 
-Follow these steps to download and prepare Osmosis:  
+برای دانلود و آماده سازی Osmosis مراحل زیر را دنبال کنید:  
 
-- First, download Osmosis [here](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
-- Unzip the folder and place it somewhere on your system where it will not be moved. We will need to add its location to the system path so that it can be run from the command line.  
+- ابتدا، Osmosis را از [اینجا](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip) دانلود کنید.  
+- پوشه را از حالت فشرده خارج کنید و آن را در جایی از سیستم که جابجا نمی‌شود قرار دهید. ما باید این مکان را به مسیر سیستم اضافه کنیم تا بتوان آنرا از خط فرمان اجرا کرد.  
 
 ![unzip it][]
 
-- Click on the Start Menu and type “system path.”  
+- روی منوی شروع کلیک کنید و "مسیر سیستم" را تایپ کنید.  
 
 ![system path][]
 
-- You should see an option named “Edit the system environment variables.”  Click on it.  
+- شما باید یک گزینه با نام "ویرایش متغیر محیط سیستم" را ببینید. روی آن کلیک کنید.  
 
 ![edit variables][]
 
-- Click on the button named “Environment Variables.”  
+- روی دکمه "متغیرهای محیطی" کلیک کنید.  
 
 ![env variables][]
 
-- At the bottom find the variable named “Path” and click “Edit...”  
+- در پایین متغیر با نام "مسیر" را پیدا کنید و روی "ویرایش ..." کلیک کنید.  
 
 ![find path][]
 
-- You must add the directory where osmosis.bat is located to the Path variable.  
+- شما باید دایرکتوری که osmosis.bat در آن قرار دارد را به متغیر مسیر اضافه کنید.  
 
 ![edit path][]
 
-- Add a semicolon to the end of the previous directory and then type in the full directory path of osmosis.  For example, if you put the **osmosis-latest** folder 	directly in the **C:\\** directory the path would be:  
+- یک نقطه ویرگول به انتهای دایرکتوری قبلی اضافه کنید و سپس مسیر دایرکتوری کامل Osmosis را تایپ کنید. برای مثال، اگر آنرا در پوشه **osmosis-latest** 	مستقیماْ در دایرکتوری **\\:C** گذاشته‌اید، مسیر آن می‌شود:  
 	
       C:\osmosis-latest\bin
 
-- Click OK several times to save the new settings.  
-- **osmosis** should be functioning now. Let's check it.  
-- Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
+- برای ذخیره تنظیمات جدید OK را چندین بار بزنید.  
+- حالا **osmosis** باید کار کند. بیایید آن را بررسی کنیم.  
+- اعلان فرمان ویندوز را باز کنید. این کار را با کلیک بر روی منوی شروع و تایپ کردن "**cmd**" انجام دهید. برنامه اعلان فرمان بالا می‌آید و می‌توانید Enter را فشار دهید یا روی آن کلیک کنید.  
 
 ![cmd][]
 
-- In the black command window that opens, type:  
+- در پنجره سیاه فرمان که باز می شود، تایپ کنید:  
 
       osmosis
 
-- If everything is working right, you should get a message like this:  
+- اگر همه چیز درست کار کند، باید پیامی شبیه به این داشته باشید:  
 
 ![osmosis test][]
 
-- If you don't see output like this, and it says that it cannot find the application **osmosis**, then you may have entered the Path variable incorrectly.  
+- اگر چنین خروجی ندیدید و اعلان می‌کند که نمی‌تواند برنامه **osmosis** را پیدا کند، ممکن است متغیر مسیر را اشتباه وارد کرده باشید.  
 
-Filtering Data
+فیلترکردن دادهإها
 ---------------
 
-Osmosis should be working correctly from the command line now. In order to work run operations on our data file, we need to change the working directory to the place that we've put the **sample_osmosis.osm.pbf** file. To make things simple, we have placed this file in the **C:\ directory**.  
+Osmosis باید از خط فرمان به درستی کار کند. برای انجام اجرای عملیات در فایل داده، باید دایرکتوری کاری را به جاییکه فایل **sample_osmosis.osm.pbf** قرار داده‌ایم تغییر دهیم. برای راحتی، ما این فایل را در **دایرکتوری \:C** قرار داده‌ایم.  
 
-- To change the working directory in the command prompt to the C:\ directory, type the following command and press Enter:  
+- برای تغییر دایرکتوری کاری در خط فرمان به C:\directory، دستور زیر را تایپ کرده و Enter را فشار دهید:  
 
-      cd C:\
+      \:cd C
     
-- The prompt should change, indicating that you are now in the C:\ directory.  
+- اعلان باید تغییر کند و نشان دهد که شما در حال حاضر در دایرکتوری \:C هستید.  
 
 ![cd command][]
 
-Now let's learn our first Osmosis command. We will run a command that filters all of the schools from our large file.  
+حالا اولین دستور Osmosis را یاد بگیریم. ما فرمانی را اجرا خواهیم کرد که تمام مدارس را از فایل بزرگ ما فیلتر می‌کند.  
 
-In order to do this, we need to tell Osmosis a few things. We need to specify:  
+برای انجام این کار، ما باید چند چیز را به Osmosis بدهیم. باید مشخص کنیم:  
 
-- an input file (sample_osmosis.osm.pbf)  
-- some rules which define what we want to filter  
-- an output file (we will output an uncompressed .osm file so we can open it in JOSM)  
+- یک فایل ورودی (sample_osmosis.osm.pbf)  
+- تعدادی قاعده که آنچه برای فیلتر کردن میخواهیم را تعریف میکنند  
+- یک فایل خروجی (ما فایل غیرفشرده osm. برای خروجی می‌خواهیم تا بتوانیم آن را در JOSM باز کنیم)  
 
-The command we will run is:  
+فرمانی که اجرا می‌کنیم هست:  
 
       osmosis --rbf sample_osmosis.osm.pbf --nkv keyValueList="amenity.school" --wx schools.osm
 
-Try running this command in the command prompt. When it finishes, you should see a new file in your directory, called **schools.osm**. If we open the new file in JOSM, we can see that only the schools have been filtered out from the sample file.  
+سعی کنید این دستور را در خط فرمان اجرا کنید. وقتی کارش به اتمام برسد، باید یک فایل جدید در دایرکتوری‌تان به نام **schools.osm** مشاهده کنید. اگر فایل جدید را در JOSM باز کنیم، می‌توانیم ببینیم که فقط مدارس از فایل مثال فیلتر شده اند.  
 
 ![schools osm][]
 
-Let's take a look at the command we ran piece by piece to understand how it all works. First, we call the name of the program.
+بیایید به فرمانی که اجرا کردیم تکه به تکه نگاهی بیندازیم تا ببینیم چگونه کار می‌کند. اول، نام برنامه را فرا میخوانیم.
 
       osmosis
 
-Next, we supply the input file. Remember that this file is a compressed format.  **--rbf** is actually shorthand for **--read-pbf-fast**. Osmosis understands that the file we supply after this flag is the file we want to read from.  
+سپس، فایل ورودی را ارائه می‌دهیم. به خاطر داشته باشید که این فایل فشرده است. **rbf--** در حقیقت خلاصه شده **read-pbf-fast--** است. Osmosis متوجه می‌شود که فایلی که بعد از این پارامتر عرضه می‌کنیم، فایلی‌ست که می‌خواهیم از آن بخوانیم.  
 
-      --rbf sample_osmosis.osm.pbf
+      rbf sample_osmosis.osm.pbf--
 
-The next bit of our command says *--nkv keyValueList="amenity.school"*. You might guess that this indicates that osmosis should filter out everything with the tag **amenity=school**. **--nkv** is shorthand for **--node-key-value**. This command indicates that Osmosis should filter out only nodes with the keys and values supplied in the following list. Additionaly key.value sets can be added by placing commas in between them.  
+تکه بعدی دستور می‌گوید *"nkv keyValueList= amenity.school--"*. ممکن است حدس زده باشید که osmosis باید هر چیز که تگ **amenity=school** داشته باشد را فیلتر کند. **nkv--** خلاصه شده **node-key-value--** است. این دستور نشان می‌دهد که Osmosis باید فقط گره‌های دارای کلید و مقادیر ارائه شده در لیست زیر را فیلتر کند. مجموعه‌ای از key.valueهای بیشتر را می‌توان با قرار دادن ویرگول بین آنها اضافه نمود.  
 
-      --nkv keyValueList="amenity.school"
+      "nkv keyValueList="amenity.school--
 
-Lastly, we supply the name and format of the output file. We use the flag **-wx**, which is shorthand for **--write-xml**. Note that we could also use **--wb**, which is the counterpart to **--rbf**, if we wanted to output the data again in PBF format.  
+در نهایت، نام و فرمت فایل خروجی را ارائه می‌دهیم. ما از پارامتر **wx--** که خلاصه شده **write-xml--** است، استفاده می‌کنیم. توجه داشته باشید که اگر بخواهیم از داده‌ها دوباره در فرمت PBF خروجی بگیریم، می‌توانیم از **wb--** استفاده کنیم، که برابر با **rbf--** است.  
 
-      --wx schools.osm
+      wx schools.osm--
 
-Moving Forward
+حرکت به جلو
 ---------------
 
-The number of processing tasks that can be done with Osmosis is enormous, and to learn more it is best to refer to the [Osmosis Detailed Usage](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.43) page on the Wiki.  
+تعداد وظایف پردازشی که با Osmosis انجام می‌شود بسیار زیاد است و برای کسب اطلاعات بیشتر، بهتر است به صفحه  [Osmosis Detailed Usage](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.43) در ویکی مراجعه کنید.  
 
-One useful task is being able to divide a big raw OSM file into separate parts, either by supplying rectangles or by creating bounding polygon files. You can get a basic grounding in this process at the [Osmosis Examples page](http://wiki.openstreetmap.org/wiki/Osmosis/Examples).  
+یک کارکرد مفید توانایی تقسیم کردن فایل بزرگ خام OSM به تکه‌های مجزاست که با تعیین چهارگوشه یا ایجاد چندضلعی احاطه کننده آن انجام می‌شود. می‌توانید مفاهیم  اساسی این فرآیند را در [صفحه مثالهای Osmosis](http://wiki.openstreetmap.org/wiki/Osmosis/Examples) پیدا کنید.  
 
 [unzip it]: /images/osm-data/unzip-it.png
 [system path]: /images/osm-data/system-path.png
