@@ -122,11 +122,11 @@ To add a new multi-sided shape, click on the **Area** button. ![image34][]{: hei
 
 Un "polígono" en el editor iD es en realidad una "vía cerrada" con etiquetas asociadas.
 
-### Drawing Multipolygons
+### Dibujando Multipolígonos
 
 Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
 
-![create multipolygon][]
+![crear multipolígono][]
 
 When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
 
@@ -169,7 +169,7 @@ Further tutorials
 iD versus JOSM
 ---------------  
 
-**iD is good for...**
+**iD es bueno para...**
 
 - Cuando está haciendo ediciones simples  
 - When you have fast Internet to load the imagery and save the edits  
