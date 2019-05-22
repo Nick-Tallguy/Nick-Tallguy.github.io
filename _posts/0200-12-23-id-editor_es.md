@@ -97,13 +97,13 @@ To add a new line, click on the **Line** button. ![image4][]{: height="24px"}
 - Puede arrastrar puntos desde la línea haciendo clic con el botón izquierdo del mouse en un punto y arrastrándolo.  
 - You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
 - When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- Delete point from line. ![image23][]{: height="24px"}  
-- Disconnect point from line. ![image26][]{: height="24px"}  
-- Split a line into two lines from the point you’ve selected. ![image27][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
--   Delete line. ![image23][]{: height="24px"}  
--   Create a circle from a line (only active if the line is closed) ![image29][]{: height="24px"}  
--   Move line ![image30][]{: height="24px"}  
+- Eliminar punto de la línea. ![image23][]{: height="24px"}  
+- Desconectar punto de la línea. ![image26][]{: height="24px"}  
+- Dividir la línea en dos a partir del punto que ha seleccionado. ![image27][]{: height="24px"}  
+- Cuando haga clic con el botón izquierdo del ratón en una línea (pero no en un punto), verá estas herramientas:  
+-   Eliminar línea. ![image23][]{: height="24px"}  
+-  Crear un círculo a partir de una línea (solo activo si la línea está cerrada) ![image29][]{: height="24px"}  
+-   Mover línea ![image30][]{: height="24px"}  
 -   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
 -   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
 
@@ -130,7 +130,7 @@ Sometimes you have to draw a polygon which does not only have an outer contour b
 
 When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
 
-![part of multipolygon][]
+![parte de multipolígono][]
 
 Guardando sus cambios
 --------------------
@@ -140,17 +140,17 @@ When (and if) you want to save your edits to OpenStreetMap, click the **Save** b
 
 - Enter a comment about your edits and click **Save**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+Si ha editado la misma función (punto, forma o área) al mismo tiempo que otra persona lo estaba editando, recibirá una advertencia de que sus ediciones no se pueden cargar hasta que haya resuelto los **conflictos**: elija cuáles ediciones aceptar y así subirlas. *La resolución de conflictos a menudo implica aceptar las ediciones de otras personas, en cuyo caso es probable que desee volver a la función en cuestión y editar nuevamente (**esta vez, guardar después de la edición para intentar evitar nuevamente un conflicto**).*
 
 Información adicional y etiquetas personalizadas
 ---------------------------------------
 
-When you are editing an object, you will see a strip of icons at the bottom of the attribute panel. You can add additional information by clicking these icons:
+Cuando edite un objeto, verá una tira de iconos en la parte inferior del panel de atributos. Puede agregar información adicional haciendo clic en estos iconos:
 
-- Add elevation ![image37][]{: height="24px"}  
-- Add notes ![image38][]{: height="24px"}  
-- Add contacts / phone number ![image39][]{: height="24px"}  
-- Add source tag ![image40][]{: height="24px"}  
+- Añadir elevación ![image37][]{: height="24px"}  
+- Añadir notas ![image38][]{: height="24px"}  
+- Añadir contactos / número telefónico ![image39][]{: height="24px"}  
+- Agregar etiqueta de origen ![image40][]{: height="24px"}  
 - Add website ![image41][]{: height="24px"}  
 - Add accessibility information ![image42][]{: height="24px"}  
 - Add Wikipedia link ![image43][]{: height="24px"}  
@@ -161,10 +161,10 @@ Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24p
 ![image45][]  
 - Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
 
-Further tutorials
+Otros tutoriales
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[Nuestra página de recursos externo](/en/resources/#iD) suministra enlaces a un número de video tutoriales desde varias fuentes.
 
 iD versus JOSM
 ---------------  
@@ -172,16 +172,16 @@ iD versus JOSM
 **iD es bueno para...**
 
 - Cuando está haciendo ediciones simples  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Cuando dispones de una internet rápida para cargar las imágenes y guardar sus modificaciones  
+- Cuando quiere asegurarse de seguir un esquema de etiquetado simple y consistente  
+- Cuando tiene prohibido instalar un programa en la computadora que está usando
 
-**JOSM is better...**
+**JOSM es mejor...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Cuando está agregando varias construcciones (Ver complemento buildings_tool)
+- Cuando está modificando varios polígonos o líneas que ya existen.
+- Cuando está en una conexión a Internet no confiable o sin conexión
+- Cuando está utilizando un esquema de etiquetado específico (o ajustes predeterminados personalizados)
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
