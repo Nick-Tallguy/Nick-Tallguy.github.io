@@ -6,7 +6,7 @@ lang: es
 category: hot-tips
 ---
 
-Starting with a Tasking Manager - iD editor
+Comenzando con el Admninistrador de Tareas - Editor ID
 ============
 
 - TOC
@@ -32,15 +32,15 @@ Lo Esencial
 4.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
 5.  If you need to know how to identify the exact square you are working on, in order to send a message, or obtain live feedback, please refer to the [Tasking Manager section of LearnOSM](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
 
-See also  
+Ver también  
 ---------
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
-*Subtitles available in some languages*  
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Equipo Humanitario OpenStreetMap - Videos tutoriales del administrador de tareas")  
+*Subtítulos disponibles en algunos idiomas*  
 
 
-[TM-start-at-top]:/images/hot-tips/TM-start-at-top-1.png
-[TM Start]:/images/hot-tips/tm_start.gif "Tasking Manager selecting a square and loading into the iD editor"
+[TM-empezar-en-parte-superior]:/images/hot-tips/TM-start-at-top-1.png
+[TM Start]:/images/hot-tips/tm_start.gif "Administrador de tareas seleccionando un cuadrado y cargándolo en el editor iD"
 [keymon]:/images/hot-tips/keymon.png
-[mark task as done]:/images/hot-tips/mark-task-as-done.png
+[marcar tarea como finalizada]:/images/hot-tips/mark-task-as-done.png
 [OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
