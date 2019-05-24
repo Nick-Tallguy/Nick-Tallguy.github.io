@@ -40,7 +40,7 @@ When you get a conflict window pop-up, it is best to choose the button “Synchr
 ![synchronize node][]  
 Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
 
-**Types of Conflict:**
+**Tipos de conflicto:**
 
 - **Properties:**  Object has been moved (coordinates) or deleted  
 - **Tags:**  Tags do not match  
@@ -113,7 +113,7 @@ Click on the value you want to keep, in the example for instance on the
 value on the left. If you either double-click on the value or click on
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
 opposite value. The table in the middle now displays the value to keep
-and the background color turns to green.
+y el color de fondo se vuelve verde.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 

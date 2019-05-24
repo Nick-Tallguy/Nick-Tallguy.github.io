@@ -28,7 +28,7 @@ Follow these steps to download and prepare Osmosis:
 
 ![unzip it][]
 
-- Click on the Start Menu and type “system path.”  
+- Clic en el menú de inicio y tipee "system path."  
 
 ![system path][]
 
@@ -52,7 +52,7 @@ Follow these steps to download and prepare Osmosis:
 	
       C:\osmosis-latest\bin
 
-- Click OK several times to save the new settings.  
+- Clic OK varias veces para guardar sus nuevos ajustes.  
 - **osmosis** should be functioning now. Let's check it.  
 - Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
 
@@ -85,11 +85,11 @@ Now let's learn our first Osmosis command. We will run a command that filters al
 
 In order to do this, we need to tell Osmosis a few things. We need to specify:  
 
-- an input file (sample_osmosis.osm.pbf)  
+- un archivo de entrada (sample_osmosis.osm.pbf)  
 - some rules which define what we want to filter  
 - an output file (we will output an uncompressed .osm file so we can open it in JOSM)  
 
-The command we will run is:  
+El comando que vamos a ejecutar es:  
 
       osmosis --rbf sample_osmosis.osm.pbf --nkv keyValueList="amenity.school" --wx schools.osm
 

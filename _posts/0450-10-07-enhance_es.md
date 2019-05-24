@@ -38,7 +38,7 @@ Installing the Stylish extension in Firefox
 3.  Search for stylish - first one in the list in the screenshot,  
 ![Stylish-3][]
 
-4.  Install & restart.  
+4.  Instalar & reiniciar.  
 ![Stylish-4][]
 
 5.  Visit <http://www.openstreetmap.org/> and click on the Stylish icon which will be present in your menu bar. Choose any useful extensions for installation & activate them as required using the menu from the Stylish icon.

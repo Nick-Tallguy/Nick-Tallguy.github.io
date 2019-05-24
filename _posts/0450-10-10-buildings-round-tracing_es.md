@@ -22,7 +22,7 @@ The Essentials
 Puntos a nota;  
 
 - Place your points where the walls will reach the ground - 3 points is the minimum. Use the tool to make it round.  
-- Make sure you tag!  
+- Asegúrese de etiquetar!  
 - Size matters - *population estimates are based on the cumulative building area in a given area*,  
 - Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
 - **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
@@ -30,7 +30,7 @@ Puntos a nota;
 - If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
 - We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
 
-Identification
+Identificación
 ---------------
 
 Round buildings are often found within a compound, and the buildings may be in clusters, or in isolation. It can be difficult to establish if you are looking at a round building or a bush or rock. Buildings are usually found near some means of access such as a path or track, although this can be difficult to see on very hard ground. The vegetation may be worn down by the passage of feet. In some parts of the world the buildings may be on the only dry land, and the access is by boat on a river or lake. There is normally a water source visible within 2 or 3 kilometres of any habitation, but in many parts of the world you do not see the water, but you do see more vegetation to indicate it must be there.  
@@ -47,7 +47,7 @@ Building Tags
 
 As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if scroll to the bottom of the tagging pane and click on **All tags**.
 
-See also  
+Ver también  
 ---------
 
 [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
