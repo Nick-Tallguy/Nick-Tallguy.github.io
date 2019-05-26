@@ -20,7 +20,7 @@ Pour effectuer une recherche dans ce glossaire, utilisez la fonction de recherch
 
 **Activation (terme HOT)** : Parfois appelé crise, catastrophe ou intervention d'urgence et généralement caractérisé par un événement spécifique et/ou un impact humanitaire anticipé avec un délai relativement plus court associé aux phases d'intervention et de relèvement du plan d'urgence que dans un projet humanitaire de longue durée.
 
-**Activateur(s) ** : Les bénévoles de HOT qui ont terminé leur formation et qui ont reçu l'appui d'un activateur existant pour jouer un rôle pendant les événements. 
+**Activateur(s)** : Les bénévoles de HOT qui ont terminé leur formation et qui ont reçu l'appui d'un activateur existant pour jouer un rôle pendant les événements. 
 
 **AOI : Area of Interest** (Zone d'Intérêt) ; définie par les coordinateurs d'activation, en accord avec les partenaires humanitaires et les équipes de terrain et la communauté HOT à la suite d'une catastrophe.
 
