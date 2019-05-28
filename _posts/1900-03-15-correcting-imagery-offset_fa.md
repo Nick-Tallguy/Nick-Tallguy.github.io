@@ -9,140 +9,140 @@ category: josm
 آفست تصاویر
 ===============
 
-> Reviewed 2015-09-21  
+> تاریخ بازبینی ۱۳۹۴/۰۶/۳۰  
 
-Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
+ارائه‌دهندگان تصاویر معمولاْ کارهای بسیار خوبی در جهت ژئورفرنس کردن تصاویرشان انجام می‌دهند، اما گاهی اوقات تصاویر خارج از موقعیت قرار دارند. این موضوع به خصوص در مناطق تپه‌ای و کوهستانی صدق می‌کند که در آنها پهن کردن و کشیدن یک تصویر مسطح روی یک تکه از زمین دارای پستی و بلندی زیاد به سختی قابل انجام است. هنگامی که تصاویر را در JOSM بارگذاری می‌کنید، امکان اینکه ده متر یا بیشتر از موقعیت واقعی آن تفاوت داشته باشد وجود دارد. به این **افست تصویر** گفته می‌شود.  
 
-Notice in the following image that two separate aerial photographs have been georeferenced and merged together.  Because georeferencing is not a perfect process, the images do not line up perfectly with each other.  Hence one, or both, must be inaccurate.  
+در تصویر زیر توجه کنید که دو عکس هوایی جداگانه از هم به یکدیگر وصل شده و با هم ادغام شده اند. از آنجا که ژئورفرنس کردن يك فرآيند كامل نيست، تصاوير به طور كامل در تراز هم قرار ندارند. از این رو یکی یا هر دو آنها باید نادرست باشد.  
 
 ![Misaligned imagery][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial imagery to identify features on the ground, and another is by using GPS to record tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial imagery is obvious.  It enables you, the mapper, to see the whole picture, to observe various details from the image, consider your knowledge of the area, and easily trace roads, buildings, and areas.  One key advantage of GPS however, is that it doesn't suffer from offset like imagery.  A GPS will always provide you with a correct latitude and longitude.  The only exception is when the satellite signals are interrupted by tall buildings or mountains, but in this case it is easy to recognize the error.  Observe the GPS trace in this image, compared with the Bing aerial imagery layer beneath it:  
+ما در مورد دو راه اصلی ساخت نقشه ها آموخته ایم - یکی از این ها با استفاده از تصاویر هوایی برای شناسایی ویژگی های زمین است و دیگری با استفاده از GPS برای ضبط آهنگ ها و ایستگاه های راه دور و سپس آنها را به OpenStreetMap اضافه کنید. مزیت تصویر هوایی بسیار واضح است. این شما را قادر می سازد، نقشه گیر، برای دیدن کل تصویر، مشاهده جزئیات مختلف از تصویر، در نظر گرفتن دانش خود را از منطقه، و به راحتی ردیابی جاده ها، ساختمان ها، و مناطق. یکی از مزیت های کلیدی GPS، این است که از تصاویر جابجا نمی شود. GPS همیشه GPS را با طول و عرض جغرافیایی مناسب ارائه می دهد. تنها استثنا زمانی است که سیگنال های ماهواره ای توسط ساختمان های بلند یا کوه ها متوقف شده، اما در این مورد، خطا را آسان می کند. ردیابی GPS در این تصویر را مشاهده کنید، در مقایسه با لایه تصویربرداری هوایی Bing زیر آن:  
 
 ![Aerial vs GPS][]
 
-Because of what we now know, it is clear that the GPS trace is likely to be accurate, and the image beneath it is out of place. So now we must ask, “if the imagery may be out of place, how can we still use it and make accurate maps?”  
+به دلیل آنچه که اکنون می دانیم، واضح است که ردیابی GPS احتمالا دقیق است و تصویر زیر آن خارج از محل است. بنابراین اکنون باید بپرسیم "اگر تصاویر ممکن است خارج از محل قرار بگیرند، چگونه می توانیم از آن استفاده کنیم و نقشه های دقیق ایجاد کنیم؟"  
 
-Correcting Imagery Offset
+تصحیح تصحیح تصویر
 -------------------------
 
-The answer to the preceding question is that we can move the imagery so that it aligns with things that we know are in the correct location, such as GPS tracks. It is easy to correct imagery offset in JOSM.  
+پاسخ به سوال قبلی این است که ما می توانیم تصاویر را حرکت دهیم تا با چیزهایی که ما می دانیم در مکان صحیح، مانند مسیرهای جیپیاس، هماهنگ باشد. آسان است که تصحیح تصاویر را در JOSM اصلاح کنید.  
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the more GPS tracks that you have to reference, the more accurate you will be able to align your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database, we can download them and use them to align our imagery.  
+بهترین راهنمایی برای تنظیم تصاویر، جاده هایی هستند که مسیرهای جاده را دنبال می کنند. و جاده های GPS بیشتر که شما باید مرجع، دقیق تر شما می توانید تصاویر خود را تراز کنید. از آنجاییکه کاربران OpenStreetMap اغلب مسیرهای GPS خود را به پایگاه داده OSM آپلود می کنند، می توانیم آنها را دانلود کنیم و از آنها برای ترسیم تصاویر استفاده کنیم.  
 
-- Click on the download button. ![JOSM download button][]{: height="24px"}  
+- بر روی دکمه دانلود کلیک کنید. ! [دکمه دانلود JOSM] [] {: height = "24px"}  
 
-- Check the box next to “Raw GPS Data” ![Download raw GPS data][]{: height="24px"} near the top of the Download window. Select your area and click “Download.”  
+- کادر کنار "GPS Data Raw" را علامت بزنید! [دانلود اطلاعات GPS خام] [] {: height = "24px"} در بالای پنجره دانلود. منطقه خود را انتخاب کنید و روی "دانلود" کلیک کنید.  
 
-- This will download an additional layer to JOSM containing GPS tracks. Depending on how many tracks have been uploaded by OSM users, you may see few tracks (or even no tracks):  
+- این یک لایه اضافی برای JOSM حاوی آهنگ های GPS دانلود می کند. بسته به اینکه چندین آهنگ توسط کاربران OSM آپلود شده است، ممکن است چند آهنگ (یا حتی بدون آهنگ) را مشاهده کنید:  
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- یا ممکن است آهنگ های بسیاری را ببینید:  
 
 ![Many GPS tracks from OSM][]
 
-- To adjust an imagery layer, click on the “Adjust imagery offset” button ![Adjust imagery offset button][]{: height="24px"} at the top of JOSM.  
+- برای تنظیم یک لایه تصویری، بر روی دکمه «تنظیم خنثیسازی تصویر» کلیک کنید! [تنظیم دکمه افست تصویر] [] {: height = "24px"} در بالای JOSM.  
 
-- Ignoring the box that pops up, use your mouse to drag the imagery layer so that it aligns correctly with the GPS tracks.  The GPS tracks should line up with the roads on the imagery as closely as possible.  You will see the offset numbers in the box change.  
+- نادیده گرفتن جعبه ای که بالا میآید، با استفاده از ماوس خود برای کشیدن لایه تصاویر به طوری که آن را با GPS آهنگ درست aligned. مسیرهای جیپیاس باید با جاده ها در تصاویر تا حد ممکن نزدیکتر باشند. اعداد افست را در تغییر جعبه مشاهده خواهید کرد.  
 
 ![Adjust imagery offset][]
 
-- If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
-- If you do not want to save the offset, simply click OK without entering a bookmark name.  
+- اگر دوست دارید، می توانید این تنظیمات افست را با وارد کردن یک نام نشانه و سپس کلیک بر روی OK را ذخیره کنید. سپس شما می توانید تنظیمات مشابه را با رفتن به تصاویر ‣ از بین بردن عکس و کلیک بر روی نشان خود بطور خودکار تنظیم کنید.  
+- اگر نمی خواهید افست را ذخیره کنید، به راحتی بدون وارد کردن نام نشانه روی OK کلیک کنید.  
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+اگر مسیرهای جیپیاس در OpenStreetMap وجود نداشته باشند و شما GPS ندارید، چه؟ بدون آهنگ های جیپیاس، تصاویر را با هم ترکیب می کند. اگر این یک ناحیه نسبتا خالی است (انجام نقشه خیلی زیاد نیست)، ممکن است انتخاب کنید که به سادگی از تصاویر استفاده کنید و داده ها را بعدا اصلاح کنید. بهتر است که نقشه یک منطقه 20 یا 30 متر افقی داشته باشیم تا نقشه را به طور کامل نگذاریم.  
 
-If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
+اگر شما می توانید طول و عرض جغرافیایی یک جسم را بر روی زمین بطور مثبت شناسایی کنید، می توانید اطمینان حاصل کنید که تصاویر با قرار دادن این مراحل به درستی قرار می گیرد:  
 
-1. Identify the object whose position you know on the imagery.  
-2. Click on the latitude and longitude in the bottom left corner of JOSM.![JOSM lat lon][]{: height="24px"}  
-3. In the dialog that opens, enter the latitude and longitude of the place that you know, and enter a small number for Zoom, about five or ten.  
-![JOSM lat lon dialogue][]
-4. This will zoom and center the map to your longitude and latitude.  Now you can move the imagery as you did previously so that the feature you know is centered at the correct position.  
+1. شناسایی جسم که موقعیت شما را در تصاویر می داند.  
+2. در عرض جغرافیایی و جغرافیایی در گوشه پایین سمت چپ JOSM کلیک کنید. [JOSM LAT] [] {: height = "24px"}  
+3. در گفت و گو که باز می شود، عرض و طول جغرافیایی که شما می دانید را وارد کنید و تعداد کمی برای Zoom، حدود پنج یا ده را وارد کنید.  
+[JOSM گفتگوی لاتین] []
+4. این نقشه زوم و مرکز را به طول و عرض جغرافیایی شما متمرکز می کند. اکنون می توانید تصاویر را همانطور که قبلا انجام دادید حرکت دهید تا ویژگی شناخته شده شما در موقعیت صحیح متمرکز باشد.  
 
-If, on the other hand, the area has already been extensively mapped, then hopefully the previous mappers have drawn objects in their correct locations.  In this case, you can align the imagery to the OSM map, but beware!  Other mappers may not be aware of imagery offset, and they may have made mistakes when they mapped.  
+اگر، از سوی دیگر، منطقه قبلا به طور گسترده نقشه برداری شده است، و امیدواریم نقشه های قبلی اشیا را در مکان های صحیح خود بکشند. در این مورد، شما می توانید تصاویر را به نقشه OSM تراز کنید، اما مراقب باشید! نقشه های دیگر ممکن است از افست تصویری آگاه نباشند و ممکن است هنگام نقشه گذاری آنها اشتباهاتی مرتکب شده باشند.  
 
 
-The Imagery Offset Database
+پایگاه داده افست تصویری
 ---------------------------
 
-Now you know how to watch out for and correct imagery offset, but there is one major problem with this approach that we have overlooked thus far.  If every OpenStreetMap user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.  
+حالا شما می دانید چطور مراقب باشید و تصحیح تصویر را درست کنید، اما یکی از مشکلات عمده این روش است که ما تا کنون نادیده گرفته شده است. اگر هر کاربر OpenStreetMap تصاویر را به صورت متفاوتی تنظیم کند، هر کس با زمینه های کمی متفاوت نقشه می گیرد.  
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is offset by 15 meters to the north. So you adjust the imagery and then use it to map the whole town accurately. But then somebody else wants to add something to the map, so they download the data and load Bing imagery, but they don’t know about the imagery offset you discovered!  They will think that something is wrong and all of the objects in town are misplaced by 15 meters, and they will start to move them, which is not correct!  This can be disastrous for the town’s map data.  
+تصور کنید که شما نقشه کوچک یک شهر کوچک را می فهمید و متوجه می شوید که تصاویر Bing 15 متر به سمت شمال است. بنابراین تصاویر را تنظیم کنید و سپس آن را برای نقشه کل شهر با دقت مورد استفاده قرار دهید. اما پس از آن کسی دیگر می خواهد چیزی را به نقشه اضافه کند، به طوری که آنها داده ها را بارگیری می کنند و تصاویر Bing را بارگذاری می کنند، اما آنها در مورد عکس هایی که شما کشف کرده اید نمی دانند! آنها فکر می کنند که چیزی اشتباه است و تمام اجسام در شهر 15 متر نابجا هستند و آنها شروع به حرکت می کنند، درست نیست! این می تواند برای داده های نقشه شهر فاجعه آمیز باشد.  
 
-For this reason it is important that all users are aware of imagery offset, and should always check for it before mapping an area.  To help with this problem, some smart people created a plugin that allows users to save offset information in a database and share it with others.  Let’s see how this works:  
+به همین دلیل مهم است که تمام کاربران از جبران خسارت تصویری مطلع باشند و همیشه باید قبل از نقشه برداری یک منطقه را بررسی کنند. برای کمک به این مشکل، برخی از افراد هوشمند یک پلاگین ایجاد کرده اند که به کاربران اجازه می دهد صرفه جویی در اطلاعات را در پایگاه داده و اشتراک گذاری آن با دیگران داشته باشند. بیایید ببینیم چگونه این کار می کند:  
 
-- Open the Preferences menu in JOSM, and click on the Plugins tab.![JOSM plugins tab][]{: height="24px"}  
+- منوی تنظیمات را در JOSM باز کنید و روی زبانه پلاگین کلیک کنید. [زبانه افزونه JOSM] [] {: height = "24px"}  
 
-- Find the plugin named “imagery_offset_db” and check the box next to it.  
+- پیدا کردن افزونه به نام "imagery_offset_db" و کادر کنار آن را علامت بزنید.  
 
 ![Imagery_offset_db plugin][]
 
-- Click OK.  You will need to restart JOSM to finish the plugin installation.  
+- روی OK کلیک کنید برای تکمیل نصب افزونه باید JOSM را مجددا راه اندازی مجدد کنید.  
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows you to save offsets to a central database, and to access the offsets that other users have created.  Hence, if one mapper creates an imagery offset in an area, other users can use the exact same offset to map with.  
+به همان شیوه ای که می توانید صرفه جویی را به عنوان بوک مارک ها ذخیره کنید، این افزونه به شما اجازه می دهد صرفه جویی در یک پایگاه داده مرکزی را ذخیره کنید و برای دسترسی به آفستایی که سایر کاربران ایجاد کرده اند دسترسی داشته باشید. از این رو، اگر یک Mapper یک برآورد تصویری در یک منطقه ایجاد کند، کاربران دیگر می توانند از همان جابجایی با نقشه استفاده کنند.  
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets, and when you create your own offset, you should ALWAYS save it to this database.  
+هنگام استفاده از لایه های تصویر هوایی، شما همیشه باید برای تعرفه های موجود چک کنید و هنگامی که افست خود را ایجاد می کنید، همیشه باید آن را به این پایگاه داده ذخیره کنید.  
 
 
-Add Imagery Offset from the Database
+اضافه کردن تفکیک تصویر از پایگاه داده
 ------------------------------------
 
-When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
+وقتی یک لایه تصویر اضافه می کنید، افزونه جدید به شما هشدار می دهد که باید پایگاه داده تصاویر را برای یک افست موجود بررسی کنید. شما یک آیکون با علامت تعجب سرخ روی آن در بالای JOSM خواهید دید، مانند این:  
 
 ![Imagery offset notification][]
 
-- Click on the button and the plugin will communicate with the database to see if there are existing offsets in this area.  
-- Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia. In this case, we have found one existing offset. Click on it to apply to the map.  
+- بر روی دکمه کلیک کنید و افزونه با پایگاه داده ارتباط برقرار خواهد کرد تا ببیند آیا آفست های موجود در این منطقه وجود دارد.  
+- در اینجا ما اطلاعات OSM و GPS را در کویته، بالی، اندونزی دانلود کرده ایم. در این مورد، ما یک افست موجود پیدا کرده ایم. بر روی آن کلیک کنید تا به نقشه اعمال شود.  
 
 ![Offset in Kuta bali][]
 
-- This causes the imagery layer to shift.  However, when we add someone else’s offset like this, we should check that it is valid by comparing to GPS tracks.  
+- این باعث می شود که لایه تصویر تغییر کند. با این حال، هنگامی که جابجایی شخص دیگری را مانند این اضافه می کنیم، باید بررسی کنیم که با مقایسه با جاده های GPS معتبر است.  
 
 ![Comparing imagery offset from GPS tracks][]
 
-- We can see that the imagery layer is in fact misaligned.  We don’t want other users to use this offset, so we should mark it as incorrect in the database. Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).  
+- ما می توانیم ببینیم که لایه های تصویری در واقع ناهموار هستند. ما نمی خواهیم که کاربران دیگر از این افست استفاده کنند، بنابراین ما باید آن را به عنوان نادرست در پایگاه داده علامت گذاری کنیم. دوباره روی دکمه "Offsets" کلیک کنید (علامت تعجب قرمز دیگری نخواهد داشت).  
 
 ![Offsets button][]
 
-- This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”  
+- این بار زمانی که گفت و گو باز می شود، بر روی افست کلیک راست کرده و روی دکمه "Offset Offset" کلیک کنید.  
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
-- You will need to enter a reason for deprecating this offset.  
+- برای تأیید روی "بله" کلیک کنید.  
+- شما باید یک دلیل برای تخفیف این افست را وارد کنید.  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+اضافه کردن تصاویر به پایگاه داده
 ------------------------------------
 
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
+اکنون که ما این جبران کننده را به عنوان "تخفیف" مشخص کردیم، باید یک جبران بهبودی به پایگاه داده اضافه کنیم.  
 
-1. Click on the “Adjust imagery offset” button. ![Adjust imagery offset button][]{: height="24px"}  
-2.  Adjust the imagery to match the GPS tracks.  Click OK in the box.  
-3.  Now go to Offset ‣ Store Imagery Offset...  
-![Store imagery offset][]
-4.  Enter a description of the offset in the box that opens.  
-![Offset description][]
-5.  Click OK.  Your offset will be saved to the database.  
-6.  Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.  
+1. بر روی دکمه "تنظیم عکس تصحیح" کلیک کنید. [تنظیم دکمه افست تصویری] [] {: height = "24px"}  
+2. تصاویر را مطابق با جاده های GPS تنظیم کنید. در جعبه OK را کلیک کنید.  
+3. حالا به Offset بروید ‣ Store Image Offset ...  
+! [ذخیره تصاوير جبران شده] []
+4. توضیح افست در جعبه ای که باز می شود را وارد کنید.  
+[توصیف افست] []
+5. روی OK کلیک کنید. افست شما به پایگاه داده ذخیره خواهد شد.  
+6. حالا لایه GPS را پنهان کرده و به اطلاعات OSM در برابر تصاویر به درستی قرار داده اید.  
 
 ![Corrected imagery][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
+وای نه! کسی این منطقه را با تصاویر ناهموار مقایسه کرده است، بنابراین این منطقه به درستی نقشه نمیباشد. این زمان برای رفع نیاز است.
 
 
-Imagery Offset Database Website
+وب سایت پایگاه داده افست تصویری
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+در نهایت، برای کسب اطلاعات بیشتر در مورد پایگاه داده تخفیف، می توانید از وب سایت در [http://offsets.textual.ru/](http://offsets.textual.ru/) بازدید کنید. این لیست تمام آفست ها را که در پایگاه داده آپلود شده اند، و همچنین دارای یک ویژگی نقشه خنک است که در آن جبران تعرفه ها را نشان می دهد، همانطور که می توانید در اینجا ببینید:  
 
 ![http://offsets.textual.ru/][]
 
-> One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
+> آخرین چیزی که باید به خاطر بسپارید این است که تصاویر هرگز نمی توانند همان فاصله را در همه جا جبران کنند! این به ویژه در مناطقی که تپه ها و کوه ها زیاد است، صادق است. بنابراین اگر تصاویر به نظر می رسد در مناطق مختلف متفاوت است، شما باید دوباره آن را حرکت دهید.  
 
 خلاصه
 --------

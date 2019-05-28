@@ -16,124 +16,124 @@ category: coordination
 ## مقدمه
 
 ### نوع رویداد  
-Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
+تصمیم‌گیری در مورد نوع رویدادی که می‌خواهید میزبانی شود، تصمیم‌تان در خصوص جهت حرکت و مراحل مورد نیاز را مشخص می‌کند.  
 
-This guide deals with indoor Mapathons for larger groups. 
+این راهنما در مورد کارزارهای نقشه‌ای است که در محیط بسته و با گروه‌های بزرگ سروکار دارد. 
 
-For other types of gatherings for mapping see  
-[Weekend Mapping Projects](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
-[Mapping Parties](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
+برای سایر انواع اجتماعات نقشه ببینید  
+[پروژه های نقشه‌کشی آخر هفته](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
+[احزاب نقشه‌کشی](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**A Mapathon is an organised gathering of people to add data to the OpenStreetMap. This can be a project to improve the map in your local area, or to help Response Teams on the ground during a Disaster, or a Missing Maps Project for ongoing or future Humanitarian Responses.**  
+**کارزار نقشه اجتماع سازمان یافته‌ای از مردم برای افزودن اطلاعات به OpenStreetMap است. می‌تواند یک پروژه برای بهبود نقشه در منطقه بومی خودتان باشد، یا برای کمک به تیم‌های واکنش بر روی زمین در حین فاجعه، یا پروژه نقشه‌های گمشده برای پاسخ‌های بشردوستانه در حال انجام یا آینده.**  
 
-Your Mapathon can be open to training new mappers as well as a regular event for experienced mappers and could consist of a training session, mapping time and time to socialise.  
+کارزار هم می‌تواند برای آموزش نقشه‌کش‌های جدید باشد و هم یک رویداد منظم برای نقشه‌کش‌های باتجربه، و می‌تواند شامل یک جلسه آموزشی، زمان نقشه‌کشی و زمانی برای اجتماع شدن باشد.  
 
-While we can give general guidelines on how to organise a Mapathon, your event will evolve and develop its own structure and identity depending on the people who organise it, the venues available and the people that turn up to map.  
+در عین حالی که ما می‌توانیم دستورالعمل‌های کلی در مورد چگونگی سازماندهی کارزار نقشه را ارائه کنیم، اما رویداد شما ساختار و هویت خود را با توجه به افرادی که آنرا سازماندهی می‌کنند، مکان‌های در دسترس و افرادیکه به نقشه روی می‌آورند، شکل گرفته و گسترش خواهد یافت.  
 
 ![kings college][]
 
-### History of a successful Mapathon
-The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
-It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
-The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
-The success of the London event is based on a number of factors but mainly the following strategy...
+### تاریخچه یک کارزرا نقشه موفق
+Missing Maps Mapathons لندن در سال ۲۰۱۴ به عنوان گروه کوچک که نقشه‌کش‌های جدید را  آموزش می‌دادند، آغاز شد. آنها توانستند حامیان زیادی از شرکت‌های بزرگ با مکانهای عالی با ظرفیت حدود بیش از ۸۰ نقشه‌کش را با خود همراه کنند.
+این کارزار با آموزش همه شرکت‌کنندگان با اصول اولیه نقشه‌کشی با iD به عنوان ویرایشگر انتخابی مبتدیان آغاز شد.
+این رویداد یک بار در ماه برگزار می‌شد و نقشه‌کش‌ها میتوانستند از طریق Eventbrite یک مکان رایگان را رزرو کنند. بعد از مدتی متوجه شدند که چه تعداد از شرکت‌کنندگان برای ادامه نقشه‌کشی و آموزش بیشتر دوباره مراجعه می‌کنند. تصمیم گرفته شد که رویداد به بخش‌های آموزش تازه واردین در iD، و مهاجرت نقشه‌کش‌های مکرر به JOSM و همچنین آموزش اعتبارسنجی تقسیم‌بندی شود. این شکل نشان داده است که بسیار موفقیت آمیز است، اما نتیجه این است که باید نقشه‌کش‌ها را به خاطر تکمیل شدن ظرفیت از خود دور کنیم. یک کارزار نقشه دوم شروع شد، کارزار وسط ماه برای کاربران باتجربه‌تر JOSM که بر روی نقشه‌کشی پیشرفته‌تر و بررسی و آزمایش ایده‌های جدید تمرکز کرده است.
+چندین عامل بر موفقیت رویداد لندن اثر داشته است اما عمدتاْ استراتژی زیر ...
 
--   Experience taught us that the learning curve for people with no mapping experience whatsoever is very steep and can be off putting and frustrating for these newcomers if they cannot get some mapping done on their first event. It is important to get them mapping as quickly as possible, so they were shown just the very basics with the simpler iD editor, letting them encounter their own particular problems during the course of the evening when they were able to ask for help.
--   It was much easier teaching mappers the more complex JOSM editor if they already had experience of mapping with the iD editor or some other GIS programme. It also meant that you were dealing with a group that were interested in advancing their mapping skills rather than just along to find out what it was about and whether they liked it or not.
--   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
-  A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
+- تجربه به ما آموخته که منحنی یادگیری افرادی که تجربه نقشه‌کشی ندارند، شیب بسیار کندی دارد و این می‌تواند برای تازه واردان اگر نتوانند در همان اولین رویداد نقشه‌کشی کمی نقشه بکشند خیلی کسل‌کننده و ملالت‌آور باشد. مهم است که در اسرع وقت بگذاریم آنها نقشه بکشند، بنابراین به آنها اصول خیلی اولیه ویرایشگر ساده ‌تر ID نشان داده می‌شود و اجازه داده می‌شود تا آنها در طول دوره با مشکلات خاص خود مواجه شده و قادر باشند تا درخواست کمک کنند.
+- آموزش ویرایشگر پیچیده‌تر JOSM به نقشه‌کشهایی که تجربه کار با ویرایشگر iD یا سایر برنامه‌های GIS داشتند، بسیار راحتتر بود. این همچنین بدان معنا بود که شما با یک گروه که علاقمند به پیشبرد مهارت‌های نقشه‌کشی خود هستند سروکار دارید، نه فقط کسانی که از روی حس کنجکاوی برای دانستن نقشه و یا برای اینکه بفهمند نقشه‌کشی را دوست دارند یا خیر مراجعه کرده‌اند.
+- این رویداد به طور منظم در سه‌شنبه اول هر ماه بود، بنابراین می‌توانستند آن را در نظر گرفته و در برنامه زندگی خود آنرا بگنجانند.
+  رویداد دوم (وسط ماه) و آموزش اعتباردهنده‌ها در رویداد ماهانه، به نقشه‌کش‌های باتجربه‌تر فرصتی برای ورود به پروژه‌های پیشرفته‌تر و جالب‌تر مانند اعتبارسنجی، تکنیک‌های تجربی و ورقه‌های میدانی می‌دهد.
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## حداقل از یک ماه قبل برای سازماندهی و آماده‌سازی رویداد، کار خود را آغاز کنید.  
 
-### First step ... Preparing the format of your Mapathon.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+### اولین گام ... آماده کردن شکل کارزارتان.  
+اندازه سالن‌های در دسترس و در دسترس بودن امکانات در محل، فاکتورهای مربوط به کارزار نقشه‌تان را تعیین می‌کند. محل برگزاری می‌تواند یک شرکت محلی، دانشگاه یا مدرسه، فرهنگسرا، کتابخانه، سالن باشد. نکات قابل توجه:  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+1. آیا محل برگزاری در مرکز و دسترسی به آن آسان است؟ (به حمل‌ونقل عمومی یا پارکینگ توجه داشته باشید)  
+2. آیا وای‌فای خوب است و می تواند تا یکصد اتصال همزمان را اداره کند؟  
+3. آیا تا یکصد نقشه‌کش جا دارد؟ این تعداد افرادی که دعوت میشوند را تعیین می‌کند.  
+4. آیا میز و صندلی کافی و مناسب وجود دارد؟  
+5. آیا برای شارژ لپ‌تاپ پریز کافی وجود دارد؟ (مهیا کردن سه‌راهی برق)  
+6. آیا صفحه نمایش به اندازه کافی بزرگ برای آموزش و سخنرانی وجود دارد؟  
+7. آیا اتاقهای جانبی کوچکتر با صفحه نمایش بزرگ برای آموزش گروههای تخصصی و گروههای کوچکتر وجود دارد؟  
+8. آیا برای برگزاری یک کارزار نقشه بزرگ افراد باتجربه کافی به شما کمک می‌کنند؟  
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
-Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
+### مرحله دوم ... برنامه‌ریزی کارزار نقشه
+اکنون که اطلاعات کافی از اولین گامهای تصمیم گیری در مورد تعداد، مکان و تاریخ‌های موجود دارید، می‌توانید برنامه‌ریزی خود را چهت کارزار شروع کنید.  
 
-1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
-2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
-3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
-4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
-6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
-  *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
-  *    A deputy to help with the arrangements and stand in for you as a back up.   
-7.  Add your event to the Mapathon calendar.
-8.   Have someone available from the local media to take photos and report the event.
-9.  Arrange for someone to film the presentation and create a live link for any remote mappers.
+1. تاریخ و زمان را با توجه به در دسترس بودن مکان تنظیم کنید (مراقب باشید که با برخی رویدادهای مهم دیگر که ممکن است از جذب داوطلبان و نقشه‌کشها به رویداد شما جلوگیری کند تداحل نداشته باشد). حداقل ۲:۳۰ تا ۳ ساعت برای رویداد خود در نظر بگیرید (نیم ساعت برای سخنرانی‌ها و آموزش، نیم ساعت برای تازه‌سازی، دو ساعت برای نقشه‌کشی).  
+2. محل برگزاری را رزرو کنید. اطمینان حاصل کنید که مکان محل برگزاری در Openstreetmap وجود دارد.  
+3. دعوتنامه‌ها را به نقشه‌کش‌ها از طریق رسانه‌های محلی و آنلاین توزیع کنید تا به هدف حضور حداکثری برسید. [Eventbrite](https://www.eventbrite.co.uk/) راه خوبی برای رزرو مکان در این رویداد است.  
+4. آیا در این رویداد شما می‌توانید غذاهای آماده‌/‌نوشیدنی تهیه کنید؟ (ثابت شده پیتزا  انتخاب محبوب است اما برای سایر نقاط دنیا غذاهای محبوب خود را در نظر داشته باشید).  
+5. برای رویداد یک پروژه ایجاد کنید. به یاد داشته باشید که اولین کارزار نقشه در منطقه شما احتمالاْ دارای بخش بزرگی از مبتدیان است. پیشنهاد می‌کنیم که دو پروژه آسان برای مبتدیان و دو وظیفه چالش برانگیز برای نقشه‌کشهای باتجربه‌تر داشته باشید. در صورت نیاز به کمک در راه‌اندازی پروژه‌ها و همچنین وسایل مورد نیاز روی میزها و علامتهای هدایت‌کننده در راهروها، با [پروژه نقشه‌های گمشده](http://missingmaps.org) تماس بگیرید. [مدیر وظایف](http://tasks.hotosm.org) منبع خوبی از پروژه‌های مفید است.  
+6. حامیان پیشنهادی که ممکن است برای رویداد لازم باشد  
+  * یک نقشه‌کش با تجربه برای حرف زدن از طریق فرایند نقشه‌کشی.  
+  * یک فرد فناوری اطلاعات از محل برگزاری برای حل مشکلات ارتباطی.  
+  * سخنران مهمان برای صحبت در مورد تجربیاتش در مورد Openstreetmap  
+  * به طور ایده‌آل یک نقشه‌کش باتجربه سر هر میز برای بررسی اینکه آنها میدانند چه کاری باید انجام دهند و به هر سوالی پاسخ دهند. برای کمک به پیدا کردن افرادی که کمک می‌کنند با [پروژه نقشه‌های گمشده](http://missingmaps.org) و جهت پیدا کردن [نقشه‌کشهای باتجربه در منطقه‌تان](http://resultmaps.neis-one.org/oooc) را در اینجا بررسی کنید.
+  * یک معاون برای کمک به تدارکات و قرار گرفتن در کنارتان به عنوان پشتیبان.   
+7. رویداد خود را به تقویم ماپاتون‌ها اضافه کنید.
+8. یک نفر را از رسانه محلی در اختیار داشته باشید تا عکس بگیرد و رویداد را گزارش دهد.
+9. کسی را برای فیلم گرفتن از ارائه‌ها و ایجاد یک لینک زنده برای نقشه‌کش‌های از راه دور آماده کنید.
   
 ![people at work][]  ![more people at work][]
 
-### The week before the Mapathon
-1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
-2.  Compile a list of attendees for messaging and for identity tags for the event.  
-3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
-4.  Post notices on line, with links to the ticket allocation, reminding attendees to take up the last remaining spaces at your event.  
-5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
-6.  Check that you have current mapping projects for the event.  
-7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
-9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
-10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
-11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
-12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
-13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
-14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
+### هفته قبل از کارزار نقشه
+1. محل برگزاری را بررسی کنید و بررسی کنید که همه تسهیلات در محل قرار دارند. (محل برگزاری، کمک، تجهیزات).  
+2. لیستی از شرکت‌کنندگان را برای پیام دادن و تهیه برچسب هویتی آنان برای رویداد تهیه کنید.  
+3. ارسال پیام به شرکت‌کنندگان جهت یادآوری آنها برای آوردن لپ‌تاپ و ماوس و ایجاد حساب کاربری Openstreetmapشان، آوردن جزئیات ورودشان با خودشان، و JOSM دانلود شده اگر این ویرایشگر انتخابی‌شان باشد.  
+4. ارسال پست آنلاین، با لینک به تخصیص بلیط، یادآوری به شرکت کنندگان برای پر کردن آخرین جاهای خالی باقیمانده در رویداد شما.  
+5. طرح‌بندی طرز قرار دادن میز و صندلی‌ها با در نظر گرفتن پیرزهای برق موجود و سهولت دیده شدن صفحه نمایش.  
+6. بررسی کنید که پروژه نقشه‌کشی فعلی برای این رویداد دارید.  
+7. بررسی کنید که برای نوشیدنی و سایر هزینه‌ها پول دارید.
+8. ترتیب دادن [وسایل کارزار نقشه](#printout-materials) (یا درست کردن آنها توسط خودتان) جهت آماده چاپ نمودن برای رویداد.
+9. بررسی کنید که یک نفر تجهیزات (کابلهای اضافه، ماوس اضافی) و ابزارهای مورد نیاز بر سر میز را با خود بیاورد.  
+10. افرادی که به شما کمک می‌کنند را مطلع کنید که جهت چیدن میز، صندلی، سیم کشی، و غیره به آنها نیاز دارید و نیم ساعت قبل از شروع در محل حاضر باشند.  
+11. بررسی کنید که ورود به سیستم وای‌فای در محل برگزاری وجود دارد و یک رمز عبور برای همه استفاده می‌شود.  
+12. یک محل ثبت ایجاد کنید که نام شرکت‌کنندگان، نام کاربری و ویرایشگر مورد استفاده‌شان در هر کارزار نقشه را ثبت کند. اینکار یک ثبت مستمر از ارزیابی اینکه چند نقشه‌کش برای بار دوم یا بیشتر دوباره رجوع می‌کنند، ارزیابی اینکه کدام نقشه‌کشها در طول دوره بین رویدادها همچنان نقشه‌کشی را دنبال میکنند، و ارزیابی میزان موفقیت نقشه‌کش‌ها و غیره را ایجاد می‌کند.
+13. حداقل دو روز قبل از رویداد، با تأییدکننده‌های از راه دور تماس بگیرید تا در مورد پروژه‌هایی که در حال کار بر روی آنها هستید و هر جزئیات دیگری که به آنها کمک می‌کند راهنمایی کنید تا آنها هم به کارزار نقشه شما کمک کنند.
+14. در مورد یک محل عمومی یا هر مکان دیگر برای دیدارهای آتی تصمیم بگیرید و بررسی کنید که حتماْ در Openstreetmap باشد.
 
-### At the Mapathon
-1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
-2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
-3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
-4. Check with the resident IT person that the internet connections are all working and the overhead large screens are connected to the relevant laptops.
-5. Have one helper at the door to welcome the mappers, give them their name tags and tell them where to sit.
-6. Have helpers moving from table to table helping mappers to log on when they arrive.
+### در کارزار
+1. زود به محل بروید و مطمئن شوید که پذیرش کاملاْ چیده شده و برای رویداد آماده است.  
+2. گوشه و کنار محل برگزاری دور بزنید تا خودتان با محیط، توالت‌ها، خروجی اضطراری و غیره آشنا شوید.  
+3. به افراد کمک‌کننده طرح کلی اتاق‌ها را گزارش دهید و معاون خود را به منظور نظارت بر چیدن میز، صندلی و تجهیزات و قراردادن تابلوهای راهنما در راهروها، توجیه کنید.  
+4. همراه با شخص مقیم IT بررسی کنید که اتصال اینترنت کاملاْ کار می‌کند و صفحه نمایش به لپ‌تاپ مربوطه متصل است.
+5. یک نفر از افراد کمکی را جلوی درب ورودی جهت خوشامدگویی به نقشه‌کشها، دادن برچسب اسم و گفتن محلی که باید بنشینند به کار بگیرید.
+6. بگویید کمکی‌ها سر هر میز حرکت کنند تا هنگام ورود نقشه‌کشها به آنها جهت ثبت ورود کمک کنند.
 
 ![mentoring][]
 
 ### شروع رویداد
-1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
-2. Introduce your experienced mapper and start the training process.
-3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
-4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
-5. Check that the refreshments are in place for the mid-session break.
-6. Decide on a local pub for the meet up afterwards and check that it is on Openstreetmap.
-7. Check that the local media or/and a helper is taking photos.
+1. همه را دعوت به سکوت کنید و خوشامدگویی، سخنرانی معارفه، برنامه رویداد، دستورالعمل تخلیه در صورت آتش‌سوزی، موقعیت توالتها و غیره را شرح دهید.  
+2. نقشه‌کش باتجربه خود را معرفی کنید و روند آموزش را شروع کنید.
+3. در طول رویداد آماده باشید تا در صورت فهمیدن اشتباه برخی نقشه‌کشها، هرگونه توصیه مفید را اعلام کنید (بعنوان مثال قائم نکردن ساختمانها)
+4. <https://osmlab.github.io/show-me-the-way/bbox.html> یک روش خوب برای قراردادن چیزی روی صفحه نمایش برای نقشه‌کشها است تا ویرایشهای زنده در حال اجرا را ببینند.
+5. بررسی کنید که نوشیدنی‌ها برای استراحت وسط جلسه آماده باشد.
+6. برای یک مکان عمومی جهت دیدار آتی تصمیم‌گیری کنید و بررسی کنید که در Openstreetmap وجود داشته باشد.
+7. بررسی کنید که آیا رسانه‌های محلی یا افراد کمکی عکس گرفته باشند.
 
 ![snacks][]
 
 ### در پایان رویداد
-1. Thank the hosts for the great venue, the new mappers for coming along and joining the mapping community, the experienced mappers for their help and for their time and contributions, show them the progress that was made on the projects they worked on, ask them to come back to the next Mapathon and invite them to the pub afterwards.
-2. Check that the register of mappers has been completed
-3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
-4. Gather all the signs, equipment and collect any rubbish.
-5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.
+1. از میزبان برای در اختیار گذاشتن محل، از نقشه‌کشهای جدید برای آمدن و پیوستن به جامعه نقشه‌کشها، از نقشه‌کشهای باتجربه به خاطر کمک آنها و وقت گذاشتن و مشارکت‌شان،  تشکر کنید. میزان پیشرفت پروژه‌ای که روی آن کار کردند را به همه نشان دهید، از  آنها بخواهید که دوباره باز هم مراجعه کنند و در کارزار بعدی شرکت کنند و سپس آنها را به کافی‌شاپ دعوت کنید.
+2. بررسی کنید که ثبت نام نقشه‌کشها تکمیل شده باشد.
+3. هر تجهیزاتی که به نقشه‌کشها قرض داده شده (موس، لپ‌تاپ و غیره) را جمع‌آوری کنید.
+4. تمام نشانه‌ها، تجهیزات را جمع‌آوری کرده و زباله‌ها را تخلیه کنید.
+5. اطمینان حاصل کنید که میز و صندلی‌ها سر جایشان قرار داده شده و قبل از رفتن به کافی شاپ محل برگزاری تمیز شده است.
 
-### Not all work and no play
-If your Mapathon becomes a regular event it is possible that you will start to get a core of regular attendees who will become your experienced helpers and help to make this a social event as well.
+### همه کارها و هیچ بازی نیست
+اگر کارزار نقشه شما یک رویداد منظم و همیشگی شود، ممکن است شروع به جمع کردند هسته‌ای از شرکت‌کنندگان همیشگی کنید که در آینده تبدیل به کمک‌کننده باتجربه برای شما خواهند شد و به شما در ایجاد این رویداد احتماعی کمک خواهند کرد.
 
 ![theme][]
 
 
 ## سایر منابع
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
+چک لیستی جهت داتلود به صورت [odt](/files/Mapathon_check_list_3.odt) و [pdf](/files/Mapathon_check_list_3.pdf) وجود دارد که می‌توانید جهت آماده شدن استفاده کنید.
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+منابع مفید جهت کارزار نقشه نیز در [صفحه منابع ما پیدا می‌شوند](/fa/resources).
 
 
 [venue]:               /images/coordination/mapathon-1.jpg
