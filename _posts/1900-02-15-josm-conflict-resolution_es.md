@@ -12,14 +12,14 @@ Resolución de Conflicto JOSM
 > Revisado 2016-09-27  
 
 Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
-![conflict detected][]  
+![conflicto detectado][]  
 What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
 
 Conflictos
 ----------
 
 Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:  
-![resolved automatically][]  
+![resuelto automáticamente][]  
 This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
 
 This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:  
@@ -29,36 +29,36 @@ This window provides you with a warning as to whether you are likely to experien
 ![check on server][]  
 
 This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
-![still in use][]  
+![aún en uso][]  
 
-Conflict Resolution
+Resolución de conflicto
 --------------------
 
 The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
 You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
 When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
-![synchronize node][]  
+![sincronizar nodo][]  
 Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
 
 **Tipos de conflicto:**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
-- **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
-![properties with conflicts][]  
+- **Propiedades:**  El objeto ha sido movido (coordenadas) o eliminado  
+- **Etiquetas:**  Etiquetas no coinciden  
+- **Nodos:**  Hay una diferencia en la lista de nodos de dos maneras  
+- **Miembros:**  Hay una diferencia en la lista de miembros en una relación  
+![propiedades con conflictos][]  
 
 Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
 
 In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
-![conflicts resolved][]  
+![conflictos resueltos][]  
 
 Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
-![command stack][]  
+![pila de comando][]  
 
 On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
-![one unresolved][]  
-You cannot upload your changes until this list is empty.  
+![uno sin resolver][]  
+No puede subir sus cambios hasta que la lista esté vacía.  
 
 Maneras de Evitar Conflictos
 ------------------------
@@ -67,11 +67,11 @@ Maneras de Evitar Conflictos
 
 To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
 
-### Edit in the Area You Download
+### Modificar en el área que descargó
 
 Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
 
-![edit outside area][]  
+![Modificar en el área exterior][]  
 
 Resumen
 --------
@@ -79,33 +79,33 @@ When you edit in JOSM, you run the risk of running into conflicts.  Conflicts oc
 
 
 <!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE
-## Appendix. More Specific Conflicts
+## Apéndice. Más conflictos específicos
 
 ### Conflictos de Etiqueta
 
-If the tags of one version of an objects are different from the tags of
-another version, the Conflict dialog shows a ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in
-the tab Tags. Click on the tab to display a dialog for resolving tag
+Si las etiquetas de una versión de los objetos son diferentes de las etiquetas de
+otra versión, el cuadro de diálogo de Conflicto muestra una ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)en
+la pestaña Etiquetas. Clic en la pestaña muestra el cuadro de diálogo para resolver las mismas
 conflictos.
 
-There are three tables displayed in this dialog, from left to right:
+Hay tres tablas mostradas en este cuadro de diálogo, de izquierda a derecha:
 
-1.  My version: shows the tags of the first object version participating
-    in this conflict. These are usually the tags of the object version
-    in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
-    empty. The more tag conflicts you resolve, the more tag values will
+1.  Mi versión: muestra las etiquetas de la versión del primer objeto participando
+    en este conflicto. Estas son usualmente las etiquetas del objeto 
+    en su conjunto de datos local.
+2. Versión fusionada: muestra las etiquetas fusionadas. Esta tabla está inicialmente
+    vacío. Cuantos más conflictos de etiquetas resuelva, los valores de las etiquetas 
     we be displayed in this table.
 3.  Their version: shows the tags of the second object version
-    participating in this conflict. These are usually the tags of the
-    object version currently stored on the server.
+    participando en este conflicto. Estas son usualmente las etiquetas de 
+    versión del objeto actualmente guardado en el servidor.
 
 In the example below both versions have a tag "name". The values in the
 two object versions are different, though, and JOSM therefore displays
 the row with a red background. The value of the first version is
 "Secondary School", the opposite version has a value "Elementary
 School". You now have to decide which of these values you want to keep
-and which you want to discard.
+y cual desea descartar.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
@@ -125,8 +125,8 @@ The values you've chosen will be applied and the dialog will be closed.
 ## Resolving differences in the node list of two versions of a way
 
 If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
-have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
+tiene que resolver diferencias en la lista de
+[nodos](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)de dos
 [ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
 are three columns in the respective panel (see screen shot below):
 
@@ -145,8 +145,8 @@ server dataset (the rightmost table).
 ### El flujo de trabajo estándar
 
 The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
+[objeto
+versiones](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consiste
 de tres pasos:
 
 1.  Pick nodes from either object version and reorder the resulting node
@@ -216,11 +216,11 @@ colores son usados:
 [resolved automatically]: /images/josm/resolved-automatically.png
 [warning unresolved]: /images/josm/warning-unresolved.png
 [check on server]: /images/josm/check-on-server.png
-[still in use]: /images/josm/still-in-use.png
-[synchronize node]: /images/josm/synchronize-node.png
-[properties with conflicts]: /images/josm/properties-with-conflicts.png
-[conflicts resolved]: /images/josm/conflicts-resolved.png
-[synchronize node]: /images/josm/synchronize-node.png
-[command stack]: /images/josm/command-stack.png
-[one unresolved]: /images/josm/one-unresolved.png
+[aún en uso]: /images/josm/still-in-use.png
+[sincronizar nodo]: /images/josm/synchronize-node.png
+[propiedades con conflictos]: /images/josm/properties-with-conflicts.png
+[conflictos resueltos]: /images/josm/conflicts-resolved.png
+[sincronizar nodo]: /images/josm/synchronize-node.png
+[pila de comando]: /images/josm/command-stack.png
+[uno sin resolver]: /images/josm/one-unresolved.png
 [edit outside area]: /images/josm/edit-outside-area.png
