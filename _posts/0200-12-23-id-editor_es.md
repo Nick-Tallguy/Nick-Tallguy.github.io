@@ -89,7 +89,7 @@ Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asocia
 
 ### Dibujando líneas  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Para añadir una nueva línea, clic en el botón **Línea**. ![image4][]{: height="24px"}  
 
 - El cursor del mouse cambiará a signo más (+). Busca un camino que no se dibujó en el mapa y hazlo. Haga clic una vez en un punto donde comienza el segmento de carretera, mueva el mouse y haga clic para agregar puntos adicionales. Haga doble clic para finalizar el proceso de dibujo. Observe el panel de la izquierda.  
 ![image24][]  
@@ -135,10 +135,10 @@ When you select any of the contours of the newly created multipolygon you can se
 Guardando sus cambios
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Cuando (y si) desea guardar sus modificaciones en OpenStreetMap, clic en el botón **Guardar**. El panel de la izquierda mostrará el panel de carga.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Agregar un comentario acerca de sus modificaciones y haz clic en **Guardar**.  
 
 Si ha editado la misma función (punto, forma o área) al mismo tiempo que otra persona lo estaba editando, recibirá una advertencia de que sus ediciones no se pueden cargar hasta que haya resuelto los **conflictos**: elija cuáles ediciones aceptar y así subirlas. *La resolución de conflictos a menudo implica aceptar las ediciones de otras personas, en cuyo caso es probable que desee volver a la función en cuestión y editar nuevamente (**esta vez, guardar después de la edición para intentar evitar nuevamente un conflicto**).*
 
@@ -151,15 +151,15 @@ Cuando edite un objeto, verá una tira de iconos en la parte inferior del panel 
 - Añadir notas ![image38][]{: height="24px"}  
 - Añadir contactos / número telefónico ![image39][]{: height="24px"}  
 - Agregar etiqueta de origen ![image40][]{: height="24px"}  
-- Add website ![image41][]{: height="24px"}  
-- Add accessibility information ![image42][]{: height="24px"}  
-- Add Wikipedia link ![image43][]{: height="24px"}  
+- Añadir sitio web ![image41][]{: height="24px"}  
+- Añadir información de accesibilidad ![image42][]{: height="24px"}  
+- Añadir enlace Wikipedia ![image43][]{: height="24px"}  
 
-Or, you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+O, puede añadir etiquetas personalizadas haciendo clic en **Todas las etiquetas**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Esto mostrará todas las etiquetas relacionadas con este elemento.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Clic en el signo (+) para añadir claves o valores o simplemente en el ícono de la papelera para eliminar etiquetas.
 
 Otros tutoriales
 ------------------
@@ -185,7 +185,7 @@ iD versus JOSM
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
+Los contenidos de esta guía están disponibles como una [presentación](/files/iD-editor-training.pptx)
 
 
 
@@ -235,6 +235,6 @@ The contents of this guide is available as a [presentation](/files/iD-editor-tra
 [image43]: /images/beginner/id-editor_image43.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
-[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
-[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
+[crear multipolígono]: /images/beginner/id-editor_create_multipolygon.png
+[parte del multipolígono]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png
