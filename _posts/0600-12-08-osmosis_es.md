@@ -6,7 +6,7 @@ lang: es
 category: osm-data
 ---
 
-Manipulating Data with Osmosis
+Manipulando datos con Osmosis
 ===============================
 
 
@@ -21,50 +21,50 @@ Like osm2pgsql in the previous chapter, we will need to download and set up **os
 
 You will also need some raw OSM data to work with. If you want to follow the examples in this chapter, download our sample file [here](/files/sample_osmosis.osm.pbf). You may also use a raw data file of your choosing.  
 
-Follow these steps to download and prepare Osmosis:  
+Siga estos pasos para descargar y preparar Osmosis:  
 
-- First, download Osmosis [here](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
+- Primero, descargue Osmosis [aquí](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
 - Unzip the folder and place it somewhere on your system where it will not be moved. We will need to add its location to the system path so that it can be run from the command line.  
 
 ![unzip it][]
 
 - Clic en el menú de inicio y tipee "system path."  
 
-![system path][]
+![ruta del sistema][]
 
 - You should see an option named “Edit the system environment variables.”  Click on it.  
 
-![edit variables][]
+![modificar variables][]
 
-- Click on the button named “Environment Variables.”  
+- Haga clic en el botón llamado "Variables de entorno".  
 
-![env variables][]
+![variables env][]
 
-- At the bottom find the variable named “Path” and click “Edit...”  
+- En la parte inferior encuentre la variable llamada "Ruta" y haga click en "Modificar..."  
 
-![find path][]
+![encontrar ruta][]
 
 - You must add the directory where osmosis.bat is located to the Path variable.  
 
-![edit path][]
+![modificar ruta][]
 
 - Add a semicolon to the end of the previous directory and then type in the full directory path of osmosis.  For example, if you put the **osmosis-latest** folder 	directly in the **C:\\** directory the path would be:  
 	
       C:\osmosis-latest\bin
 
 - Clic OK varias veces para guardar sus nuevos ajustes.  
-- **osmosis** should be functioning now. Let's check it.  
+- **osmosis** debería estar funcionando ahora. Comprobémoslo.  
 - Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
 
 ![cmd][]
 
-- In the black command window that opens, type:  
+- En la ventana negra de comando que se abre, tipee:  
 
       osmosis
 
 - If everything is working right, you should get a message like this:  
 
-![osmosis test][]
+![prueba osmosis][]
 
 - If you don't see output like this, and it says that it cannot find the application **osmosis**, then you may have entered the Path variable incorrectly.  
 
@@ -86,7 +86,7 @@ Now let's learn our first Osmosis command. We will run a command that filters al
 In order to do this, we need to tell Osmosis a few things. We need to specify:  
 
 - un archivo de entrada (sample_osmosis.osm.pbf)  
-- some rules which define what we want to filter  
+- algunas reglas que definen que deseamos filtrar  
 - an output file (we will output an uncompressed .osm file so we can open it in JOSM)  
 
 El comando que vamos a ejecutar es:  
@@ -95,7 +95,7 @@ El comando que vamos a ejecutar es:
 
 Try running this command in the command prompt. When it finishes, you should see a new file in your directory, called **schools.osm**. If we open the new file in JOSM, we can see that only the schools have been filtered out from the sample file.  
 
-![schools osm][]
+![escuelas osm][]
 
 Let's take a look at the command we ran piece by piece to understand how it all works. First, we call the name of the program.
 
@@ -121,14 +121,14 @@ The number of processing tasks that can be done with Osmosis is enormous, and to
 One useful task is being able to divide a big raw OSM file into separate parts, either by supplying rectangles or by creating bounding polygon files. You can get a basic grounding in this process at the [Osmosis Examples page](http://wiki.openstreetmap.org/wiki/Osmosis/Examples).  
 
 [unzip it]: /images/osm-data/unzip-it.png
-[system path]: /images/osm-data/system-path.png
-[edit variables]: /images/osm-data/edit-environment-variables.png
-[env variables]: /images/osm-data/environment-variables.png
+[ruta sistema]: /images/osm-data/system-path.png
+[modificar variables]: /images/osm-data/edit-environment-variables.png
+[variables env]: /images/osm-data/environment-variables.png
 [find path]: /images/osm-data/find-path.png
-[edit path]: /images/osm-data/edit-path-variable.png
+[modificar ruta]: /images/osm-data/edit-path-variable.png
 [cmd]: /images/osm-data/cmd.png
-[osmosis test]: /images/osm-data/osmosis-test.png
+[prueba osmosis]: /images/osm-data/osmosis-test.png
 [cd command]: /images/osm-data/cd-command.png
-[schools osm]: /images/osm-data/schools-osm.png
+[escuelas osm]: /images/osm-data/schools-osm.png
 
 

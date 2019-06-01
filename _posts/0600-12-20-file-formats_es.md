@@ -47,7 +47,7 @@ A shapefile must be designated to hold only one type of feature (points, lines, 
 
 OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
 
-Databases
+Base de datos
 ---------
 
 Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  

@@ -1,212 +1,212 @@
 ---
 layout: doc-rtl
-title: حل تداخل JOSM
+title: حل تداخل در JOSM
 permalink: /fa/josm/josm-conflict-resolution/
 lang: fa
 category: josm
 ---
 
-حل تداخل JOSM
+حل تداخل در JOSM
 ====================
 
-> Reviewed 2016-09-27  
+تاریخ بازبینی ۱۳۹۵/۰۷/۰۶  
 
-Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
+گاهی اوقات شما در JOSM مشغول به کار هستید و زمانی که می‌خواهید تمام ویرایشهای زیبایتان را بارگذاری کنید، یک پیام زننده که از یک تداخل شکایت می‌کند مشاهده می‌کنید.  
 ![conflict detected][]  
-What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
+آنچه که اتفاق افتاده این است که شما مقداری داده را دانلود کرده‌اید که شامل یک نقطه است که ما آنرا گره A می‌خوانیم، سپس در حالی که شما در حال ویرایش بودید، یک نفر دیگر نیز گره A را دانلود کرده و آنرا تغییر داده و تغییراتش را در OpenStreetMap ذخیره هم کرده است. حالا وقتی که شما سعی در آپلود نسخه خود از گره A دارید، نسخه آن با نسخه ذخیره شده در OSM متفاوت است. بنابراین JOSM نمی‌داند کدام نسخه از گره A را باید ذخیره کند.  
 
-Conflicts
+تداخلات
 ----------
 
-Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:  
+گاهی اوقات، JOSM خود قادر است که حل تداخل را خودش بفهمد و پیامی مانند زیر به شما می‌دهد:  
 ![resolved automatically][]  
-This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
+این به آن معنی است که JOSM به طور خودکار تصمیم گرفته که اقلام موجود در مجموعه داده‌های محلی شما را به سرور اصلی آپلود نکند، زیرا آنها قبلاْ توسط کاربر دیگری حذف شده‌اند. با این وجود JOSM بعضی از تداحلات را به سادگی نمیتواند حل کند و بنابراین تصمیم گیری را بر عهده کاربر می‌گذارد تا تعیین کند که بهترین شیوه عمل چیست. این به آن معنی است که حل تداخل بر عهده شما گذاشته شده است.  
 
-This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:  
+این به شما می‌گوید که به تمام تداخلات خود در لایه ۱ در **Dialog List** نگاه کنید:  
 ![warning unresolved][]  
 
-This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
+این پنجره به شما هشداری را نشان می‌دهد که می‌گوید آیا مایلید تداخل با ویرایش‌هایتان را تجربه کنید. اگر بر روی سرور چک کنید قادر خواهید بود مشکلات ویرایش‌تان را برطرف کنید:  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+این هشدار به شما می گوید که JOSM نتوانسته یک گره را حذف کند زیرا هنوز در یک راه از آن استفاده می‌شود. برای اصلاح این، کاربر باید قبل از آپلود داده‌ها به JOSM بازگردد و تداخل را حل کند.  
 ![still in use][]  
 
-حل معارضات
+حل تداخلات
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
-![synchronize node][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+روند حل و فصل تداخل بسیار ساده است، اگرچه ممکن است در ابتدا در JOSM گیج کننده باشد. اساساْ، JOSM برای هر تداخل دو گزینه پیش روی شما قرار میدهد - نسخه شما از یک شی و نسخه ای که در سرور از آن شی قرار دارد. باید انتخاب کنید که آیا نسخه خود را حفظ می‌کنید یا اینکه نسخه جدید روی سرور بایستی باقی بماند.  
+شما ممکن است فکر کنید، "البته من نسخه بهتر است!" و شاید شما درست است. اما در ابتدای این فصل به مثال ما فکر کنید. شاید در حالی که شما مشغول ویرایش بود، Mapper دیگری اطلاعات زیادی را به یکی از گره ها در مجموعه داده های شما اضافه کرد. اگر شما نسخه خود را بر روی نسخه خود را انتخاب کنید، شما تمام اطلاعات ارزشمند اضافه شده را از دست خواهید داد. از این رو باید در نظر بگیرید که نسخه خود را حفظ کنید یا آن را با خودتان ترکیب کنید.  
+هنگامی که یک پنجره بالقوه ظاهر می شود، بهتر است دکمه "Synchronize ... only" را انتخاب کنید. ممکن است لازم باشد این کار را برای بیش از یک شیء انجام دهید، اما بهتر است که یک درگیری را حل کنید.  
+[گره همگام سازی] []  
+هنگامی که شما بر روی این دکمه کلیک میکنید، یک پنجره پاپ آپ در اختیار شما قرار میگیرد. پیام خطا ممکن است پیچیده باشد اما ساده است. شما می دانید چه نوع از درگیری شما با نماد مربع قرمز در برگه بالا. منازعه در مثال زیر به خواص، مانند محل و وجود شی اشاره می کند. به همین دلیل مختصات و حالت حذف شده ذکر شده است.  
 
-**Types of Conflict:**
+**انواع تداخلات:**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
-- **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
+- **خواص:** شی جابجا شده (مختصات) یا حذف شده است  
+- **تگ‌ها:** تگ‌ها مطابقت ندارند  
+- **گره‌ها:** در لیست گره‌های دو راه اختلاف وجود دارد  
+- **اعضا:** در لیست اعضای یک رابطه اختلاف وجود دارد  
 ![properties with conflicts][]  
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+اختلافات فقط با دو ویرایش مختلف در یک زمان ظاهر می شود. اگر سه یا چند درگیری وجود دارد، پس زنجیره ای از درگیری ها ظاهر خواهد شد. بنابراین شما فقط باید در زمان دو تا از درگیری ها را انتخاب کنید یا ادغام کنید. شما می توانید نسخه خود را انتخاب کنید، نسخه دیگر و یا، در برخی موارد، این دو را ادغام کنید.  
 
-In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
+در مثال زیر شما گزینه ادغام را ندارید. اگر فکر می کنید که ویرایش های شما درست است، روی ستون اول یا نسخه من کلیک کنید. اگر فکر می کنید که ویرایش های دیگر بهتر است، بر روی نسخه خود کلیک کنید.  
 ![conflicts resolved][]  
 
-Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
+هنگامی که شما انتخاب کرده اید کدام نسخه ای که فکر می کنید بهترین است، سپس روی «اعمال رزولوشن» کلیک کنید. چند پنجره دیگر ظاهر می شوند و شما می توانید راه خود را برای آپلود ویرایش های خود داشته باشید. ویرایشهای بیشتری انجام دهید سپس روی «آپلود» کلیک کنید. شما یک پنجره باز می کنید که می گوید:  
 ![command stack][]  
 
-On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
+در منوی ویندوز شما یک Dialog لیست اختلافات دارید. این پنجره یک لیست از درگیری ها را نمایش می دهد. تعداد کل اختلافات حل نشده در header نشان داده شده است. شما می توانید با کلیک کردن روی یک درگیری، انتخاب کنید یا حل کنید. این مفید است وقتی که شما در برخورد با بسیاری از درگیری ها هستید.  
 ![one unresolved][]  
-You cannot upload your changes until this list is empty.  
+ تا زمانی که این لیست خالی باشد، نمی‌توانید تغییرات خود را آپلود کنید.  
 
-راه‌های اجتناب از تعارض
+راه‌های اجتناب از تداخل
 ------------------------
 
-### زودتر آپلود کنید
+### مرتباْ آپلود کنید
 
-To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
+برای به حداقل رساندن شانس و تعداد درگیری ها، ویرایشهای خود را به طور منظم آپلود کنید. مناقشات بیشتر برای کسانی که تمایل به ذخیره منطقه در حال کار بر روی سرور محلی خود را دارند و چندان منتظر آپلود آن هستند. بهتر است منطقه ای را که روی آن کار می کنید دانلود کنید، آنرا ویرایش کنید و بلافاصله آن را آپلود کنید. هرچه زمان بین بارگیری داده ها و آپلود تغییرات به آن داده ها بیشتر باشد، احتمال این است که تا آن زمان کسی چیزی را ویرایش کرده باشد. اگر در یک Mapathon و ویرایش یک ویژگی مانند بزرگراه باشید که ممکن است توسط دیگران نیز کار کند، آپلود اغلب، شاید هر 6 ویرایش!  
 
 ### در محدوده دانلود شده ویرایش کنید
 
-Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
+در حال ویرایش در ناحیه خاصی که دانلود کرده اید خطر ریسک را کم می کند. اطمینان حاصل کنید که خارج از منطقه ای که دانلود کرده اید را ویرایش کنید. شما به راحتی می توانید ببینید که کدام مناطق خارج از منطقه دانلود خود را در JOSM، چرا که پس زمینه از خطوط مورب ساخته شده به جای جامد سیاه و سفید.  
 
 ![edit outside area][]  
 
 خلاصه
 --------
-When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
+هنگامی که شما در JOSM ویرایش می کنید، خطر ریسک درگیر شدن در درگیری ها را افزایش می دهد. مناقشات رخ می دهد زمانی که یک شی توسط دو نفر در همان زمان ویرایش شده است. با درک آنچه که درگیر است و چگونه با آن برخورد کنید، می توانید اطمینان حاصل کنید که بهترین ویرایش ممکن برای OpenStreetMap ذخیره می شود.  
 
 
 <!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE
-## Appendix. More Specific Conflicts
+## ضمیمه. تداخلات خاص
 
-### Tag Conflicts
+### تداخلات تگ
 
-If the tags of one version of an objects are different from the tags of
-another version, the Conflict dialog shows a ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in
-the tab Tags. Click on the tab to display a dialog for resolving tag
-conflicts.
+اگر برچسب‌های یک نسخه از یک شی از برچسب‌های
+نسخه دیگر آن متفاوت باشند، کادر محاوره‌‌ای تداخلات در زبانه تگ‌ها ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) را 
+نشان می‌دهد. روی زبانه کلیک کنید تا کادر محاوره‌ای برای حل تداخل تگ
+نشان داده شود.
 
-There are three tables displayed in this dialog, from left to right:
+سه جدول در این کادر محاوره‌ای وجود دارد، از چپ به راست:
 
-1.  My version: shows the tags of the first object version participating
-    in this conflict. These are usually the tags of the object version
-    in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
-    empty. The more tag conflicts you resolve, the more tag values will
-    we be displayed in this table.
-3.  Their version: shows the tags of the second object version
-    participating in this conflict. These are usually the tags of the
-    object version currently stored on the server.
+1. نسخه من: تگ‌های اولین نسخه شیء شرکت‌کننده 
+    در این تداخل را نشان می‌دهد. اینها معمولاْ تگ‌های نسخه
+    موجود در اطلاعات محلی شما هستند.
+2. نسخه ادغام شده: تگ‌های ادغام شده را نشان می‌دهد. این جدول در ابتدا
+    خالی است. هرچه تداخل تگ بیشتری حل کنید، مقدار تگهای بیشتری در 
+    این جدول نمایش داده خواهد شد.
+3. نسخه آنها: تگ‌های نسخه دوم شیء را که
+    این تداخل حضور دارند را نشان می‌دهد. اینها معمولاْ تگهایی هستند
+    که در نسخه حال حاضر شیء بر روی سرور ذخیره شده‌اند.
 
-In the example below both versions have a tag "name". The values in the
-two object versions are different, though, and JOSM therefore displays
-the row with a red background. The value of the first version is
-"Secondary School", the opposite version has a value "Elementary
-School". You now have to decide which of these values you want to keep
-and which you want to discard.
+در مثال زیر هر دو نسخه تگ "نام" دارند. مقادیر در
+هر دو نسخه متفاوت هستند و بنابراین JOSM 
+ردیف آنها را با رنگ پس‌زمینه قرمز نشان می‌دهد. ارزش نسخه اول 
+"مدرسه متوسطه" است، نسخه مقابل دارای ارزش "مدرسه ابتدایی"
+ است. حالا شما باید تصمیم بگیرید کدام یک از این ارزش‌ها را می خواهید حفظ کنید
+و کدام را دور می‌اندازید.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Click on the value you want to keep, in the example for instance on the
-value on the left. If you either double-click on the value or click on
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
-opposite value. The table in the middle now displays the value to keep
-and the background color turns to green.
+روی مقداری که می‌خواهید نگه دارید، در این مثال مورد
+ارزش سمت چپی، کلیک کنید. اگر بر روی مقدار دوبار کلیک کنید یا اینکه
+روی ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png) کلیک کنید. شما تصمیم گرفتید که این مقدار را نگه دارید و
+مقدار طرف مقابل را دور بیندازید. حالا جدول وسطی مقداری که نگه داشته شده را نشان می‌دهد
+و رنگ پس‌زمینه به سبز تبدیل می‌شود.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
-The values you've chosen will be applied and the dialog will be closed.
+هنگامی که دکمه Apply Resolutionis فعال شود می‌توانید تصمیم خود را اعمال کنید.
+مقادیری که انتخاب کرده‌اید اعمال می‌شوند و کادر محاوره‌ای بسته می شود.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-## Resolving differences in the node list of two versions of a way
+## حل اختلاف لیست گره دو نسخه از یک راه
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
-have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
-are three columns in the respective panel (see screen shot below):
+اگر آیکن ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) را در زبانه گره‌ها ببینید، شما
+باید اختلافات در فهرست
+[گره‌های](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) دو
+[راه](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) را حل کنید.
+سه ستون در پانل مربوطه وجود دارد (تصویر زیر را ببینید):
 
-1.  the leftmost table displays the list of nodes of the the local
-    object version
-2.  the rightmost table displays the list of nodes of the the server
-    object version
-3.  the table in the middle shows the list of nodes of the merged ways
+1. جدول سمت چپ لیست گره‌های نسخه محلی 
+    شی را نشان می‌دهد.
+2. جدول سمت راست لیست گره‌های سرور را نشان می دهد
+    شی را نشان می‌دهد.
+3. جدول وسط لیست گره‌های ادغام شده راه را نشان می‌دهد
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+در ابتدا، جدول وسط خالی است. اکنون باید تصمیم بگیرید که کدام گره
+را از مجموعه داده‌های محلی (جدول چپ) و کدام گره را از 
+مجموعه داده‌های سرور (جدول راست) نگهدارید.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### جریان کار استاندارد
 
-The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
-of three steps:
+جریان کار استاندارد برای حل تداخل لیست گره دو
+[نسخه
+شی](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) شامل
+سه مرحله است:
 
-1.  Pick nodes from either object version and reorder the resulting node
-    list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
-3.  Apply the resolution
+1. گره‌ها را از هر نسخه شیء انتخاب کنید و لیست گره‌های حاصل را 
+    در صورت لزوم دوباره مرتب کنید.
+2. با کلیک روی دکمه زیر لیست گره‌های ادغام شده را فریز کنید
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). هنگامی که لیست گره‌های ادغام شده را فریز می کنید
+    به JOSM می‌گوییید که تمام تداخلات در لیست گره حل شده است.
+3. حل انجام شده  را  اعمال کنید
 
-### A simple workflow: Keep the node list from your local object version
+### جریان کار ساده: لیست گره‌های نسخه محلی شیء خود را نگه دارید
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+مثال زیر، جریان کار را زمانی که تصمیم گرفته‌اید تمام گره‌ها را از همان شیء محلی خود به همان ردیف نگه دارید را نشان می‌دهد.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+- اول، همه عناصر جدول چپی را (با استفاده از ماوس یا توسط 
+    با فشار دادن Ctrl-A در جدول) انتخاب کنید (تصویر بعدی را ببینید):
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
--   Then, click 
+- سپس روی  
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+    برای کپی گره‌های انتخاب شده به جدول وسطی با گره‌های ادغام شده کلیک کنید:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
--   Finally, click
+- در نهایت روی
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+    برای فریز لیست گره‌های ادغام شده کلیک کنید:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    The symbol in the nodes tab now switched to 
+    آیکن زبانه گره اکنون به  
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
+    تغییر می‌کند و می‌توانید تصمیمات ادغام را اعمال کنید.
 
-### Support for comparing node lists
+### پشتیبانی از مقایسه لیست گره‌ها
 
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+تفاوت بین لیست گره از دو نسخه شیء، به ویژه برای راه هایی با بسیاری از گره ها، می تواند دشوار باشد.
 
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+Dialog Dialogue شما را در پیدا کردن تفاوت ها پشتیبانی می کند. این می تواند دو لیست از گره ها را نمایش دهد (لیست گره "من"، لیست گره های ادغام شده و لیست "گره" آنها) را مقایسه می کند و می تواند تفاوت بین آنها را با رنگ های پس زمینه خاص ارائه دهد.
 
-From the following combo box you can select which pair of node lists to compare:
+از جعبه ترکیبی زیر شما می توانید انتخاب کنید که جفت لیست گره برای مقایسه:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
-    in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
-    the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
-    in the Conflict Dialog
+1. من با آنها: جدول چپ را با جدول سمت راست مقایسه می کند
+    در گفتگو اختالف
+2. من با ادغام: جدول چپتر با جدول وسط را در مقایسه می کند
+    گفتگوی تقابل
+3. آنها با ادغام: جدول میانی را با جدول سمت راست مقایسه می کند
+    در گفتگو اختالف
 
-Depending on the position of a node in the list different background
-colors are used:
+بسته به موقعیت یک گره در لیست پس زمینه های مختلف
+رنگ ها استفاده می شود:
 
-1.  The node is in this list only. It isn't present in the opposite list:
+1. گره فقط در این لیست هست. در لیست مقابل وجود ندارد:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
+2. گره در هر دو لیست هست، اما در موقعیت‌های مختلف قرار دارد:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
-    position.
+3. پس زمینه سفید به این معنی است که یک گره در هر دو لیست
+    موقعیت یکسانی دارد.
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 
