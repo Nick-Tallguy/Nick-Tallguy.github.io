@@ -9,7 +9,7 @@ category: beginner
 The iD Editor
 =============
 
-> Reviewed 2016-03-30  
+> Reviewed 2019-06-10
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 
@@ -69,7 +69,7 @@ To enable **OpenStreetMap GPS traces** click on the box. In the image below, pub
 ![osm gps traces][]  
 To change the **appearance of the imagery** click **Display Options**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**.  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
 ![image18][]  
 
 - Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
@@ -141,11 +141,11 @@ When you select any of the contours of the newly created multipolygon you can se
 
 ## Issues
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries a yellow dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
 
-![Issue][]
+![Issue][] ![Error][]
 
-The lower part of the issues tab show the available checks and allows you to disable them individually though this is not recommended.
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
 
 Saving Your Changes
 --------------------
@@ -194,8 +194,6 @@ iD versus JOSM
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -240,6 +238,7 @@ The contents of this guide is available as a [presentation](/files/iD-editor-tra
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
 [Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
 [AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
