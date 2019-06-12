@@ -9,7 +9,6 @@ category: beginner
 El Editor iD
 =============
 
-> Revisado 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 
@@ -44,23 +43,22 @@ Interfaz de usuario de iD
     Dibuja una forma (polígono), *atajo de teclado* **3** ![image5][]{: height="24px"}  
     Deshacer, *atajo de teclado* **Ctrl+z** ![image6][]{: height="24px"}  
     Rehacer, *atajo de teclado* **Ctrl+y** ![image7][]{: height="24px"}  
-    Guardar cambios, *atajo de teclado* **Ctrl+s** ![image8][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Panel del mapa:** Este panel muestra varias funciones de configuración:  
     Acercar, *atajo de teclado* **+** ![image9][]{: height="24px"}  
     Alejar, *atajo de teclado* **-** ![image10][]{: height="24px"}  
     Ir a tu ubicación ![image11][]{: height="24px"}  
     Configurar la capa de fondo, *atajo de teclado* **b** ![image12][]{: height="24px"}  
     Datos del mapa, *atajo de teclado* **f** ![Map Data][]{: height="24px"}  
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     Abrir el menú de ayuda, *atajo de teclado* **h** ![image13][]{: height="24px"}  
 4. **Panel de información:** Este panel muestra información diversa como, la barra de escala y qué usuarios han contribuido en esa área.  
 
-Configurando la capa de fondo
---------------------------------
+## Configuring the Background Layer
 
 Haz click en el botón **Configuración del fondo** o utiliza el *atajo de teclado* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-Para cambiar el **nivel de brillo** haz click en alguna de estas cajas, los niveles de brillo son 100%, 75%, 50% y 25% ![image16][]{: height="24px"}  
-también puede **cambiar la capa de fondo** en función del proveedor de tesela deseado (el predeterminado es Bing Aerial Imagery).  
+You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
 
 You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
 ![image17][]   
@@ -68,7 +66,10 @@ and enter your **FieldPaper snapshot URL**, which will be something like this: <
 Para **mostrar las pistas de GPS desde su computadora** (formato GPX), arrastre y suelte el archivo GPX en el editor iD.  
 To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
 ![osm gps traces][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Fix Alignment**. ![image18][]  
+To change the **appearance of the imagery** click **Display Options**.  
+![DisplayOptions][]  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+![image18][]  
 
 - Haga clic en los botones de navegación para mover las imágenes. Haga clic en el botón de reinicio para volver a la posición predeterminada. ![image20][]  
 
@@ -84,7 +85,7 @@ El cursor del mouse cambiará a signo más (+). Ahora, haga clic en una posició
 - Tenga en cuenta que se agrega un nuevo punto. Al mismo tiempo, el panel izquierdo cambiará para mostrar un formulario donde puede seleccionar atributos para el objeto. Haga clic en **Terreno de Hospital** para etiquetar el punto como un hospital.  
 ![image22][]  
 - Puede usar los formularios para completar información detallada sobre su punto. Puede completar el nombre, la dirección y/o otra información adicional del hospital. Tenga en cuenta que cada característica tendrá diferentes opciones, dependiendo de qué etiqueta elija en el panel de funciones.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
 Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asociado a un conjunto de "etiquetas".  
 
 ### Dibujando líneas  
@@ -95,17 +96,22 @@ Para añadir una nueva línea, clic en el botón **Línea**. ![image4][]{: heigh
 ![image24][]  
 - Al igual que con un punto, seleccione las etiquetas apropiadas para su línea.  
 - Puede arrastrar puntos desde la línea haciendo clic con el botón izquierdo del mouse en un punto y arrastrándolo.  
-- You also can move the whole line by selecting it, and choosing the **Move tool**. Then drag the line to a new position. ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- Eliminar punto de la línea. ![image23][]{: height="24px"}  
-- Desconectar punto de la línea. ![image26][]{: height="24px"}  
-- Dividir la línea en dos a partir del punto que ha seleccionado. ![image27][]{: height="24px"}  
+- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
+  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
+  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
 - Cuando haga clic con el botón izquierdo del ratón en una línea (pero no en un punto), verá estas herramientas:  
--   Eliminar línea. ![image23][]{: height="24px"}  
--  Crear un círculo a partir de una línea (solo activo si la línea está cerrada) ![image29][]{: height="24px"}  
--   Mover línea ![image30][]{: height="24px"}  
--   Form a square shape from a line (only active if the line is closed) ![image31][]{: height="24px"}  
--   Reverse line direction (good for rivers & one-way streets) ![image32][]{: height="24px"}  
+  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
+  -   Move line ![LineToolMove][]{: height="24px"}  
+  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
+  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
+  -   Delete line. ![LineToolDelete][]{: height="24px"}  
 
 Una "línea" creada en el editor iD es en realidad una "vía" con "etiquetas" asociadas.
 
@@ -132,6 +138,14 @@ When you select any of the contours of the newly created multipolygon you can se
 
 ![parte de multipolígono][]
 
+## Issues
+
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+
+![Issue][] ![Error][]
+
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+
 Guardando sus cambios
 --------------------
 
@@ -145,17 +159,11 @@ Si ha editado la misma función (punto, forma o área) al mismo tiempo que otra 
 Información adicional y etiquetas personalizadas
 ---------------------------------------
 
-Cuando edite un objeto, verá una tira de iconos en la parte inferior del panel de atributos. Puede agregar información adicional haciendo clic en estos iconos:
+When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
 
-- Añadir elevación ![image37][]{: height="24px"}  
-- Añadir notas ![image38][]{: height="24px"}  
-- Añadir contactos / número telefónico ![image39][]{: height="24px"}  
-- Agregar etiqueta de origen ![image40][]{: height="24px"}  
-- Añadir sitio web ![image41][]{: height="24px"}  
-- Añadir información de accesibilidad ![image42][]{: height="24px"}  
-- Añadir enlace Wikipedia ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-O, puede añadir etiquetas personalizadas haciendo clic en **Todas las etiquetas**. ![image44][]{: height="24px"}  
+Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
 
 - Esto mostrará todas las etiquetas relacionadas con este elemento.  
 ![image45][]  
@@ -185,8 +193,6 @@ iD versus JOSM
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
-Los contenidos de esta guía están disponibles como una [presentación](/files/iD-editor-training.pptx)
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +208,38 @@ Los contenidos de esta guía están disponibles como una [presentación](/files/
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [crear multipolígono]: /images/beginner/id-editor_create_multipolygon.png

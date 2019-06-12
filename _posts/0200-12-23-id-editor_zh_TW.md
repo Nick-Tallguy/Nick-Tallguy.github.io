@@ -9,7 +9,6 @@ category: beginner
 iD 編輯器
 =============
 
-> 審閲於 2016-03-30  
 
 你要用任務管理器為 HOT 或是 MissingMaps 等專案開始畫地圖嗎？請見我們的[HOT-技巧區](/en/hot-tips/)。  
 
@@ -44,23 +43,22 @@ iD 編輯器使用者界面
     繪製形狀 (多邊形)，*快速鍵* **3** ![image5][]{: height="24px"}  
     復原，*快速鍵* **Ctrl+z** ![image6][]{: height="24px"}  
     取消復原，*快速鍵* **Ctrl+y** ![image7][]{: height="24px"}  
-    儲存變動，*快速鍵* **Ctrl+s** ![image8][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **地圖面板：**這個面板顯示多個設定選項：  
     放大，*快速鍵* **+** ![image9][]{: height="24px"}  
     縮小，*快速鍵* **-** ![image10][]{: height="24px"}  
     顯示你的位置 ![image11][]{: height="24px"}  
     背景圖像設定，*快速鍵* **b** ![image12][]{: height="24px"}  
     地圖圖資，*快速鍵* **f** ![Map Data][]{: height="24px"}  
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     開啟說明文件，*快速鍵* **h** ![image13][]{: height="24px"}  
 4. **資訊面板：** 這個面板顯示多項資訊，像是比例尺和那些使用者在這一帶貢獻。  
 
-設定背景圖層
---------------------------------
+## Configuring the Background Layer
 
 點選**背景圖像設定**按鈕，或是使用*快速鍵* **b** ![image14][]{: height="24px"}  
 ![image15][]  
-要調速**亮度**，請點選其中一個方框，總共有 100%、75%、50% 和 25% ![image16][]{: height="24px"}  
-你可以依據你想加的圖磚提供者 (預設是 Bing 空照圖)，來**改變背景圖層**。  
+You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
 
 你可以按**客製化**新增你自己的地圖圖磚。舉例來說，如果你想要**新增 Field Paper** [^fieldpaper]，點選**客製化**，接著按放大鏡 (搜尋) 圖示開啟視窗 :-  
 ![image17][]   
@@ -68,7 +66,10 @@ iD 編輯器使用者界面
 要**顯示你電腦中的 GPS 軌跡** (GPX 格式)，拖拉你的 GPS 檔案到 iD 編輯器裡。  
 要啟用 **開放街圖 GPS 軌跡**，請點選方框。下面的圖片中，公共的 GPS 軌跡用不同顏色顯示，表示旅行的方向。  
 ![osm gps traces][]  
-如果有[圖片偏移](/en/josm/aerial-imagery)狀態，你可以按**調整影像偏移**來**修正圖片偏移**。![image18][]  
+To change the **appearance of the imagery** click **Display Options**.  
+![DisplayOptions][]  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+![image18][]  
 
 - 按位移按鈕移動影像。按重設鍵回到原先的位置。![image20][]  
 
@@ -84,7 +85,7 @@ iD 編輯器使用者界面
 - 注意你加了新點了。同時在左邊面板會變成能夠填寫物件詳細資訊的表格型式。點**醫院用地**能夠將節點標示為醫院。  
 ![image22][]  
 - 你可以用表格來填寫你的節點詳細資訊。你可以填寫醫院名稱、地址、和/或其他附加資訊。注意每一個圖徵會有不同選項，端示選了圖徵面板中那個標籤。  
-- 如果你出錯的話，像是標錯地點，你可以按住滑鼠左鍵，將節點拖拉到新的位置。或者你想刪除點，對著點按住左鍵，按右鍵啟用內容選單，然後按像是垃圾筒的按鈕。![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
 iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點」。  
 
 ### 繪製線條  
@@ -95,17 +96,22 @@ iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點�
 ![image24][]  
 - 就像是加點，選擇對線段最適合的標籤。  
 - 你可以藉由用左鍵按線段的點，來拖拉線段的點。  
-- 你也可以選擇整個線段來移動整個線段，選擇**移動工具**，接著拖拉整個線段到新的位置。![image30][]{: height="24px"}  
-- 當你對著在線上單獨的點 (節點) 點滑鼠左鍵時，接著按滑鼠右鍵時會啟用內容選單，你會看到以下工具：  
-- 刪除線段上的點。![image23][]{: height="24px"}  
-- 從線段分離節點。![image26][]{: height="24px"}  
-- 從選取的點切割線段，變成兩個線段。![image27][]{: height="24px"}  
+- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
+  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
+  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
 - 當你對著線段按滑鼠左鍵(但不是在點上)，你會看到這些工具：  
-- 刪除線段。![image23][]{: height="24px"}  
-- 從線段新增圓圈 (只有在線段封閉時才有作用) ![image29][]{: height="24px"}  
-- 移動線段 ![image30][]{: height="24px"}  
-- 從線段變成圓圈 (只有在線段封閉時才有作用) ![image31][]{: height="24px"}  
-反轉線段方向 (通常用在河流和單行道) ![image32][]{: height="24px"}  
+  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
+  -   Move line ![LineToolMove][]{: height="24px"}  
+  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
+  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
+  -   Delete line. ![LineToolDelete][]{: height="24px"}  
 
 iD 編輯器的「線」通常是上面有標籤的「線段」。
 
@@ -132,6 +138,14 @@ iD 編輯器的「線」通常是上面有標籤的「線段」。
 
 ![多重多邊形部分][]
 
+## Issues
+
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+
+![Issue][] ![Error][]
+
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+
 儲存您的編輯
 --------------------
 
@@ -145,17 +159,11 @@ iD 編輯器的「線」通常是上面有標籤的「線段」。
 額外資訊及自定義標籤
 ---------------------------------------
 
-當你編輯物件時，你會在屬性面版看到好幾個圖示。你可以按這些圖示增加額外的資訊：
+When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
 
-- 增加海拔高度 ![image37][]{: height="24px"}  
-- 增加註記 ![image38][]{: height="24px"}  
-增加聯絡 / 電話號碼 ![image39][]{: height="24px"}  
-- 增加資料來源標籤 ![image40][]{: height="24px"}  
-增加網站 ![image41][]{: height="24px"}  
-- 增加無障礙設施資訊 ![image42][]{: height="24px"}  
-增加維基百科連結 ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-或者你可以點選**所有標籤**加客製的標籤 ![image44][]{: height="24px"}  
+Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
 
 - 這樣會顯示所有跟圖徵相關的標籤。  
 ![image45][]  
@@ -185,8 +193,6 @@ iD vs JOSM
 
 [^fieldpaper]：關於 Field Papers，手冊中有 [section of LearnOSM](/en/mobile-mapping/field-papers/) 的章節。
 
-這份指南的內容部分，也在這份[簡報](/files/iD-editor-training.pptx)裡
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +208,38 @@ iD vs JOSM
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [創建多重多邊形]: /images/beginner/id-editor_create_multipolygon.png

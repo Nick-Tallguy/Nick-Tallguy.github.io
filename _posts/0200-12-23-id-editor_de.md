@@ -23,11 +23,11 @@ Der iD-Editor stellt eine gute Möglichkeit zum Bearbeiten dar, wenn Sie kleine 
 Den iD Editor starten
 ----------------------
 
-- Der iD-Editor benötigt eine aktive Verbindung zum Internet.  
-- Öffnen Sie Ihren Webbrowser und navigieren Sie zu der OpenStreetMap-Website auf [http://www.openstreetmap.org](http://www.openstreetmap.org).  
-- **Melden Sie sich an** mit Ihrem OpenStreetMap-Benutzerkonto  
-- Verschieben und vergrößern Sie die Karte zu dem Bereich, den Sie bearbeiten wollen. Sie können verschieben, indem Sie die linke Maustaste gedrückt halten und die Karte zum gewünschten Bereich ziehen.  
-- Klicken Sie auf den kleinen Pfeil neben **Bearbeiten**. Dann klicken Sie auf **Bearbeiten mit iD (im Browser eingebetteter Editor)**.  
+-⇥ Der iD-Editor benötigt eine aktive Verbindung zum Internet.  
+-	 Öffnen Sie Ihren Webbrowser und navigieren Sie zu der OpenStreetMap-Website auf [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-⇥**Melden Sie sich an** mit Ihrem OpenStreetMap-Benutzerkonto  
+-⇥Verschieben und vergrößern Sie die Karte zu dem Bereich, den Sie bearbeiten wollen. Sie können verschieben, indem Sie die linke Maustaste gedrückt halten und die Karte zum gewünschten Bereich ziehen.  
+-⇥ Klicken Sie auf den kleinen Pfeil neben **Bearbeiten**. Dann klicken Sie auf **Bearbeiten mit iD (im Browser eingebetteter Editor)**.  
 
 ![image1][]
 
@@ -116,7 +116,6 @@ Um eine neue Linie hinzuzufügen, klicken Sie auf die Schaltfläche Linie. ![ima
 
 Eine "Linie" im iD-Editor ist eigentlich ein "Weg" mit "tags", also Attributen.
 
-> Ein Extrahinweis zum **Löschen**: Normalerweise sollten Sie das Löschen der Kartenbeiträge anderer vermeiden, wenn sie lediglich verbessert werden müssen. Sie können Ihre eigenen Fehler löschen, aber Sie sollten versuchen, die kartierten Objekte anderer *anzupassen*, wenn das nötig ist. Dies sichert die Geschichte von Gegenständen in der OSM-Datenbank und respektiert andere Kartierer. Wenn Sie wirklich der Auffassung sind, dass etwas gelöscht werden sollte, erwägen Sie, zuerst die Person zu kontaktieren oder auf einer der OSM Mailinglisten nachzufragen.
 
 ### Zeichnen von Flächen (Polygonen)
 

@@ -9,7 +9,6 @@ category: beginner
 iD编辑器
 =============
 
-> 2016年03月30日修订  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 
@@ -44,23 +43,22 @@ iD编辑器用户界面
     画面(多边形polygon)， *快捷键* **3** ![image5][]{: height="24px"}  
     撤销， *快捷键* **Ctrl+Z** ![image6][]{: height="24px"}  
     重做，*快捷键* **Ctrl+Y** ![image7][]{: height="24px"}  
-    保存修改, *快捷键* **Ctrl+S** ![image8][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **地图面板:** 该面板显示各配置功能：  
     放大， *快捷键* **+** ![image9][]{: height="24px"}  
     缩小， *快捷键* **-** ![image10][]{: height="24px"}  
     显示我的位置 ![image11][]{: height="24px"}  
     配置底图图层， *快捷键* **B** ![image12][]{: height="24px"}  
     地图数据， *快捷键* **F** ![Map Data][]{: height="24px"}  
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     帮助， *快捷键* **H** ![image13][]{: height="24px"}  
 4. **信息面板:** 该面板显示一些信息，例如比例尺、向此地图贡献过的用户。  
 
-配置底图图层
---------------------------------
+## Configuring the Background Layer
 
 点击**背景设置**按钮或按下*快捷键* **B**.![image14][]{: height="24px"}  
 ![image15][]  
-To change the **brightness level** click one of these boxes, the levels are 100%, 75%, 50%, and 25% ![image16][]{: height="24px"}  
-你还可以根据自己喜爱的瓦片提供者（默认来源为必应卫星影像）来**修改底图图层**  
+You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
 
 你可以通过点击**自定义**来添加你自己的地图瓦片。例如，如果你想**添加一张Field Paper** [^fieldpaper]，点击**自定义**，然后点击放大镜（搜索）图标来打开窗口:-  
 ![image17][]   
@@ -68,7 +66,10 @@ To change the **brightness level** click one of these boxes, the levels are 100%
 你可以**显示本地计算机的GPS轨迹**(GPX格式)。也可以将GPX文件拖曳并放入iD编辑器。  
 你可以打开**OpenStreetMap GPS轨迹**图层，这样可以显示此地区的公共GPS轨迹。在下面的图片中，公共GPS轨迹用不同颜色表示，颜色代表着运行的方向。  
 ![osm gps traces][]  
-如果有[影像偏移](/zh_CN/josm/aerial-imagery)，你可以通过点击修复对齐来**纠正影像偏移**。 ![image18][]  
+To change the **appearance of the imagery** click **Display Options**.  
+![DisplayOptions][]  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+![image18][]  
 
 点击方向按钮可以移动影像，点击重置按钮可以恢复到默认位置。 ![image20][]  
 
@@ -84,7 +85,7 @@ iD基本编辑操作
 - Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
 ![image22][]  
 - 你可以在表单中填写所画地点的详细信息，例如医院名称、地址和其他附加信息。注意每类要素都有不同的选项，这取决于你从要素面板给地物选择的标签。  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
 在iD编辑器中创建的“点”实际上是一个有一系列“标签”的独立“节点(node)”。  
 
 ### 画线  
@@ -95,17 +96,22 @@ iD基本编辑操作
 ![image24][]  
 - 和画点时一样，画完线后也要给线选择合适的标签。  
 - 你可以通过在已有点上点击鼠标左键来选中并拖动它。  
-- 你还可以移动整条线。先选中整条线，然后选择 **移动工具** ，最后把线拖动到新位置。 ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- 从线中删除点 ![image23][]{: height="24px"}  
-- 从线中断开点 ![image26][]{: height="24px"}  
-- 从选中点处将该线打断成两条 ![image27][]{: height="24px"}  
+- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
+  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
+  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
 - 当你在线上(注意不是在某个点上)点击鼠标左键时，会有如下工具：  
--   删除线 ![image23][]{: height="24px"}  
--   将线调整为圆形(仅当线是封闭的时可用) ![image29][]{: height="24px"}  
--   移动线 ![image30][]{: height="24px"}  
--   将线调整为方形(仅当线是封闭的时可用) ![image31][]{: height="24px"}  
--   反转线的方向(用于河流和单行道) ![image32][]{: height="24px"}  
+  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
+  -   Move line ![LineToolMove][]{: height="24px"}  
+  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
+  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
+  -   Delete line. ![LineToolDelete][]{: height="24px"}  
 
 在iD编辑器中创建的“线”实际上是一个有一系列“标签”的“路径(way)”。
 
@@ -132,6 +138,14 @@ When you select any of the contours of the newly created multipolygon you can se
 
 ![part of multipolygon][]
 
+## Issues
+
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+
+![Issue][] ![Error][]
+
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+
 保存你的更改
 --------------------
 
@@ -145,17 +159,11 @@ When you select any of the contours of the newly created multipolygon you can se
 附加信息与自定义标签
 ---------------------------------------
 
-当你在编辑一个对象时，你会看到属性面板底部有一条图标。你可以通过点击这些图标添加附加信息：
+When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
 
-- 添加高程 ![image37][]{: height="24px"}  
-- 添加注释 ![image38][]{: height="24px"}  
-- 添加联系方式或电话号码 ![image39][]{: height="24px"}  
-- 添加来源标签 ![image40][]{: height="24px"}  
-- 添加网站 ![image41][]{: height="24px"}  
-- 添加残疾人可达性信息(轮椅通道) ![image42][]{: height="24px"}  
-- 添加维基百科链接 ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-或者通过点击**所有标签**添加自定义标签。 ![image44][]{: height="24px"}  
+Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
 
 - 这里会显示所有添加到要素的标签。  
 ![image45][]  
@@ -185,8 +193,6 @@ iD vs. JOSM 对比
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +208,38 @@ The contents of this guide is available as a [presentation](/files/iD-editor-tra
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [create multipolygon]: /images/beginner/id-editor_create_multipolygon.png

@@ -9,7 +9,6 @@ category: beginner
 iD အသုံးပြုတည်းဖြတ်ခြင်း
 =============
 
-> Reviewed 2016-03-30  
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 
@@ -44,23 +43,22 @@ iD Editor ဖြင့် စတင်ဆောင်ရွက်ခြင်း
     ပုံသဏ္ဍာန် (*ကွန်ပျူတာကီးဘုတ်မှ* **3**  *ခလုတ်* ဖြင့်လည်းသုံးနိုင်သည်)![image5][]{: height="24px"}  
     ပြန်ဖျက်ရန် (*ကွန်ပျူတာကီးဘုတ်မှ* **(Ctrl+z)**  *ခလုတ်* ဖြင့်လည်းသုံးနိုင်သည်)![image6][]{: height="24px"}   
     ထပ်မံပြုလုပ်ရန် (*ကွန်ပျူတာကီးဘုတ်မှ* **Ctrl+y**  *ခလုတ်* ဖြင့်လည်းသုံးနိုင်သည်)![image7][]{: height="24px"}  
-    ပြောင်းလဲမှုများသိမ်းဆည်းရန် (*ကွန်ပျူတာကီးဘုတ်မှ* **Ctrl+s**  *ခလုတ်* ဖြင့်လည်းသုံးနိုင်သည်)![image8][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
 ၃။ **မြေပုံ** ။ ။ မြေပုံအတွက်ပြုပြင်ပြောင်းလဲမှုပြုရန် ညာဖက်ဘေးနေရာတွင်ဖော်ပြထားသည်။  
     မြင်ကွင်းချဲ့ရန် (*ကွန်ပျူတာကီးဘုတ်မှ* **+** *ခလုတ်*ဖြင့်လည်းသုံးနိုင်သည်)![image9][]{: height="24px"}  
     မြင်ကွင်းချုံ့ရန် (*ကွန်ပျူတာကီးဘုတ်မှ* **-** *ခလုတ်*ဖြင့်လည်းသုံးနိုင်သည်)![image10][]{: height="24px"}  
     နေရာတစ်ခုသို့သွားရန် ![image11][]{: height="24px"}  
     မြေပုံတွင်နောက်ခံအလွှာပြောင်းလဲဖော်ပြရန် (*ကွန်ပျူတာကီးဘုတ်မှ*  **b** *ခလုတ်* ဖြင့်လည်းသုံးနိုင်သည်)![image12][]{: height="24px"}  
     မြေပုံအချက်အလက် (*ကွန်ပျူတာကီးဘုတ်မှ* **f** *ခလုတ်*ဖြင့်လည်းသုံးနိုင်သည်)![Map Data][]{: height="24px"}    
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     အကူအညီရယူရန် (*ကွန်ပျူတာကီးဘုတ်မှ* **h** *ခလုတ်*ဖြင့်လည်းသုံးနိုင်သည်)![image13][]{: height="24px"}   
 ၄။ **သတင်းအချက်အလက်နေရာ** ။ ။ မြေပုံ၏ အတိုင်းအတာနေရာစကေးနှင့် ထိုနေရာအတွက် ပေါင်းစပ်ဖြည့်သွင်းကြသူများ စသည့်အချက်အလက်များကိုပြသသည့်နေရာ ဖြစ်သည်။  
 
-မြေပုံနောက်ခံအလွှာကို ပြင်ဆင်ခြင်း
---------------------------------
+## Configuring the Background Layer
 
 နောက်ခံအလွှာပြောင်းလဲရန် *ကွန်ပျူတာကီးဘုတ်မှ*  **b** *ခလုတ်* သို့မဟုတ် ပုံတွင်ပြထားသည့်အတိုင်း**နောက်ခံအပြင်အဆင်များ**(Background settings) ကိုနှိပ်ပါ။![image14][]{: height="24px"}  
 ![image15][]  
- **အလင်းအမှောင်အဆင့်** ချိန်ညှိရန်အတွက်အထက်ပုံတွင်ဖော်ပြထားသည့်အတိုင်း ၁၀၀% ၊ ၇၅% ၊ ၅၀%နှင့်  ၂၅% စသည်ဖြင့် ချိန်ညှိနိုင်သည်။ ![image16][]{: height="24px"}  
-ပေးထားသော အထောက်အပံ့(နေရာ၊ ဝတ္ထုတစ်ခုခု) တို့မှ သင့်စိတ်တိုင်းကျမှုအပေါ်အခြေခံ၍  **မြေပုံ၏နောက်ခံအလွှာကိုပြောင်းလဲနိုင်**ပါသည်။ ရယူသုံးစွဲနိုင်သည်။ (OSM အင်တာနက်စာမျက်နှာအတွက် မူလမြေပုံကို Bing Aerial Imagery မှရယူသုံးစွဲထားသည်။)  
+You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
 
 မြေပုံဖော်ပြမှုကို ပြောင်းလဲလိုပါက**Custom**ကိုရွေးပါ။ ရှာဖွေရန်အတွက် ဘေးနားတွင်ရှိသော မှန်ဘီလူးပုံသဏ္ဍာန်လေးကို နှိပ်ပါက အောက်ပါပုံအတိုင်းမြင်တွေ့နိုင်သည်။ ပုံတွင် **Field Paper ထည့်သွင်းခြင်း** [^fieldpaper] ကို ဥပမာပြထား၏။   
 ![image17][]   
@@ -68,7 +66,10 @@ iD Editor ဖြင့် စတင်ဆောင်ရွက်ခြင်း
 **သင့်ကွန်ပျူတာတွင် GPS လမ်းကြောင်းပြသရန်**အတွက်(GPX ပုံစံဖြင့်) GPX ဖိုင်တခုကို iD Editor သို့ထည့်သွင်း အသုံးပြုနိုင်သည်။  
 OpenStreetMap မှကျန်ရှိနေမည့် GPS လမ်းကြောင်းများကိုမြင်ရစေရန်အတွက်**OpenStreetMap GPS traces** ဘေးရှိအကွက်ကိုနှိပ်ပါ။ အောက်ဖက်ရှိပုံတွင်ပြထားသကဲ့သို့ အများပြည်သူနှင့်ဆိုင်သော GPS လမ်းကြောင်းများ(public GPS traces) များသည်အရောင်မျိုးစုံဖြင့်ပြနေပြီး သွားရာလမ်းကြောင်းကိုညွှန်ပြနေပါသည်။  
 ![osm gps traces][]  
-**ဓါတ်ပုံဖော်ပြမှုကို ချိန်ညှိခြင်း**[imagery offset](/en/josm/aerial-imagery)ပြုလုပ်လိုပါက အောက်ဖက်ဆုံးတွင်ဖော်ပြထားသည့် **Fix Alignment** ကိုနှိပ်ပါ။ ![image18][]  
+To change the **appearance of the imagery** click **Display Options**.  
+![DisplayOptions][]  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+![image18][]  
 
 - နေရာပြောင်းလဲရွှေ့လျားရန်အတွက် မြားခေါင်းသဏ္ဍာန်ခလုတ်များကိုနှိပ်ပါ။ မူလနေရာသို့ပြန်သွားလိုပါက reset ခလုတ်ကိုနှိပ်ပါ။ ![image20][]  
 
@@ -84,7 +85,7 @@ iD ဖြင့်ပြင်ဆင်တည်းဖြတ်ခြင်း�
 - ထိုသို့ထည့်သွင်းလိုက်သည်နှင့် မြေပုံ၏ဘယ်ဘက်နေရာသည် သင်ရွေးချယ်သောအရာ၏ အချက်အလက်များဖြည့်သွင်းရန် ပြောင်းလဲဖော်ပြမည်ဖြစ်သည်။ ဆေးရုံအဖြစ်အမှတ်အသားပြုလုပ်ရန် **Hospital Grounds** ကိုရွေးချယ်ပါ။ (အောက်ပုံတွင်ကြည့်)  
 ![image22][]  
 - ယင်းနောက်အသေးစိတ်အချက်အလက်များ ဖြည့်သွင်းပေးနိုင်သည်။ ဥပမာ ... ဆေးရုံအမည်၊ လိပ်စာ စသည်ဖြင့်။ သတိပြုရမည်မှာ သင့်ရွေးချယ်မှုပေါ်မူတည်၍ ဖြည့်သွင်းရမည့်အချက်အလက်များ အပြောင်းအလဲရှိနိုင်ပါသည်။  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
 iD Editor အတွင်းသတ်မှတ်လိုက်သော "အမှတ်"တစ်ခုသည် သီးသန့်တည်ရှိနေသော နေရာ အမှတ်တစ်ခုဖြစ်ပြီး "ဖော်ညွှန်းချက်များ"လည်းပါရှိမည်ဖြစ်သည်။ ၎င်းကို “node” ဟုခေါ်သည်။  
 
 ### မျဉ်းကြောင်းများရေးဆွဲခြင်း  
@@ -95,17 +96,22 @@ iD Editor အတွင်းသတ်မှတ်လိုက်သော "အ�
 ![image24][]  
 - မြေပုံနေရာအမှတ်အသားပြုစဉ်ကအတိုင်း ရည်ညွှန်းချက်ဖြည့်စွက်ရန် Line ကိုရွေးပါ။  
 - လမ်းကြောင်းပေါ်ရှိ အမှတ်အသားပြုခဲ့သောနေရာများတွင် mouse ၏ဘယ်ဘက်ခလုတ်ကို ဖိနှိပ်လျက်လိုရာသို့ဆွဲယူနိုင်သည်။  
-- မျဉ်းတစ်ကြောင်းလုံးကို ရွှေ့ယူလိုပါက မျဉ်းကြောင်းကို ရွေးချယ်ပြီး **Move tool** ကိုအသုံးပြုနိုင်သည်။ ထို့နောက် မိမိရွှေ့ပြောင်းလိုသောနေရာသို့ မျဉ်းကြောင်းကို ဆွဲယူပါ။ ![image30][]{: height="24px"}  
-- When you click your left mouse button on an individual point (node) on the line and click on the right mouse button to activate the context menu, you will see these tools:  
-- မျဉ်းကြောင်း (line) ပေါ်မှ အမှတ် (point) ကိုဖျက်မည်။ ![image23][]{: height="24px"}  
-- မျဉ်းကြောင်းနှင့်ဆက်သွယ်မှုကိုဖယ်ရှားမည်။ ![image26][]{: height="24px"}    
-- ရွေးထားသောအမှတ်မှစတင်၍ မျဉ်းနှစ်ကြောင်း ခွဲရေးဆွဲမည်။ ![image27][]{: height="24px"}  
+- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
+  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
+  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
 - Mouse ၏ ဘယ်ဘယ်ခလုတ်ကို မျဉ်းကြောင်းပေါ်သို့နှိပ်ပါက အောက်ပါကိရိယာများကို မြင်တွေ့ရမည်ဖြစ်သည်။  
-- မျဉ်းကြောင်းကိုဖျက်မည်။  ![image23][]{: height="24px"}  
-- အဝိုင်းပတ်ပုံဆွဲမည်။ (မျဉ်းကြောင်းအဆုံးသတ်မှသာ) ![image29][]{: height="24px"}  
-- မျဉ်းကြောင်းကိုရွှေ့မည်။ ![image30][]{: height="24px"}  
-- လေးထောင့်ပုံဆွဲမည်။ (မျဉ်းကြောင်းအဆုံးသတ်မှသာ) ![image31][]{: height="24px"}    
-- မျဉ်းကြောင်း၏လားရာဘက်ကိုပြောင်းလဲဖော်ပြမည်။ ( မြစ်များနှင့်တစ်လမ်းမောင်းစနစ် လမ်းများအတွက်သင့်လျော်သည်) ![image32][]{: height="24px"}  
+  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
+  -   Move line ![LineToolMove][]{: height="24px"}  
+  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
+  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
+  -   Delete line. ![LineToolDelete][]{: height="24px"}  
 
 iD Editor တွင် ထည့်သွင်းရေးဆွဲထားသော "မျဉ်းကြောင်း"တစ်ခုသည် "ဖော်ညွှန်းချက်များ"ပါရှိသော လမ်းကြောင်းတစ်ခုအဖြစ်ရှိနေမည်ဖြစ်သည်။ ယင်းကို “way” ဟုခေါ်သည်။
 
@@ -132,6 +138,14 @@ When you select any of the contours of the newly created multipolygon you can se
 
 ![part of multipolygon][]
 
+## Issues
+
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+
+![Issue][] ![Error][]
+
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+
 ပြောင်းလဲမှုများကိုသိမ်းဆည်းခြင်း
 --------------------
 
@@ -145,17 +159,11 @@ When you select any of the contours of the newly created multipolygon you can se
 ထပ်ဆောင်းသတင်းအချက်အလက်နှင့် မိမိနှစ်သက်ရာရည်ညွှန်းချက်များ
 ---------------------------------------
 
-အကြောင်းအရာတစ်ခုကို တည်းဖြတ်မှုပြုစဉ်တွင် သင်္ကေတရုပ်ပုံများပါဝင်သော အတန်းရှည်တစ်ခုကို အချက်အလက်ဖော်ပြသောဘောင်ကွက်၏ အောက်ခြေတွင်တွေ့မြင်နိုင်သည်။ ထိုသင်္ကေတများကို အသုံးပြု၍ ထပ်ဆောင်းသတင်းအချက်အလက်များကို ထည့်သွင်းနိုင်သည်။
+When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
 
-- မြေပြင်အနိမ့်အမြင့်ထည့်သွင်းခြင်း  ![image37][]{: height="24px"}  
-- မှတ်စုများထည့်သွင်းခြင်း ![image38][]{: height="24px"}  
-- ဆက်သွယ်ရန်လိပ်စာများ/ဖုန်းနံပါတ်ထည့်သွင်းခြင်း ![image39][]{: height="24px"}  
-- အချက်အလက်ရင်းမြစ်ရည်ညွှန်းချက်ထည့်သွင်းခြင်း ![image40][]{: height="24px"}  
-- အင်တာနက်စာမျက်နှာထည့်သွင်းခြင်း ![image41][]{: height="24px"}  
-- ရရှိလွယ်သော သတင်းအချက်အလက်များကိုထည့်သွင်းခြင်း ![image42][]{: height="24px"}  
-- Wikipedia နှင့်ချိတ်ဆက်ရန် link ထည့်သွင်းခြင်း ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-သို့မဟုတ် သင်နှစ်သက်ရာရည်ညွှန်းချက်များကိုထည့်သွင်းလိုပါက**All tags**ကိုနှိပ်ပါ။ ![image44][]{: height="24px"}  
+Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
 
 - ရွေးချယ်ထားသော အကြောင်းအရာ၏လက္ခဏာရပ်အတွက် တွဲစပ်ဖော်ပြမည့်အညွှန်းများကိုပြသမည်။  
 ![image45][]  
@@ -185,8 +193,6 @@ iD Editor နှင့် JOSM ဆော့ဖ်ဝဲလ် တို့နှ
 
 [^fieldpaper]: ဤနေရာ[section of LearnOSM](/my/mobile-mapping/field-papers/) တွင် Field Papers အကြောင်းနှင့်ပါတ်သက်၍ သတင်းအချက်အလက်အစုံအလင်ရှိပါသည်။
 
-The contents of this guide is available as a [presentation](/files/iD-editor-training.pptx)
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +208,38 @@ The contents of this guide is available as a [presentation](/files/iD-editor-tra
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [create multipolygon]: /images/beginner/id-editor_create_multipolygon.png

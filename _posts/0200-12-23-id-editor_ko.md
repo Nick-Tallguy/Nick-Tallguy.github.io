@@ -9,7 +9,6 @@ category: beginner
 iD 편집기
 =============
 
-> 2016-03-30에 검토됨  
 
 HOT나 MissingMaps의 과업 관리자 같은 도구로 지도 작업을 시작하고 싶으신가요? [HOT 팁 문서](/ko/hot-tips/)를 참고하세요.  
 
@@ -44,23 +43,22 @@ iD 편집기 사용자 인터페이스
     공간(다각형) 그리기, 단축키 **3** ![image5][]{: height="24px"}  
     실행 취소, 단축키 **Ctrl+z** ![image6][]{: height="24px"}  
     다시 실행, 단축키 **Ctrl+y** ![image7][]{: height="24px"}  
-    저장, 단축키 **Ctrl+s** ![image8][]{: height="24px"}  
+    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **지도 창:** 이 창에서 다양한 설정을 조절할 수 있습니다.  
     확대, 단축키 **+** ![image9][]{: height="24px"}  
     축소, 단축키 **-** ![image10][]{: height="24px"}  
     내 위치 보기 ![image11][]{: height="24px"}  
     배경 설정, 단축키 **b** ![image12][]{: height="24px"}  
     지도 자료, 단축키 **f** ![Map Data][]{: height="24px"}  
+    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     도움말, 단축키 **h** ![image13][]{: height="24px"}  
 4. **정보 창:** 이 창에서 축척과 이 지역 내에 기여한 사람들 같은 다양한 정보를 볼 수 있습니다.  
 
-배경 설정
---------------------------------
+## Configuring the Background Layer
 
 **배경 설정** 버튼을 누르거나 단축키 **b**![image14][]{: height="24px"}를 사용하세요.  
 ![image15][]  
-**명도**를 조절하려면 박스 4개 중 하나를 누르세요. 왼쪽부터 25%, 50%, 75%, 100%입니다. ![image16][]{: height="24px"}  
-원하는 이미지 제공자에 따라 **배경을 변경**할 수도 있습니다(기본값은 Bing 항공 이미지).  
+You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
 
 **사용자 지정**을 눌러서 직접 지도 타일을 추가할 수도 있습니다. 예를 들어, **Field Paper를 추가**[^fieldpaper]하고 싶다면, **사용자 지정**을 누르고 돋보기(검색) 아이콘을 눌러서 다음과 같이 창을 여세요.  
 ![image17][]   
@@ -68,7 +66,10 @@ iD 편집기 사용자 인터페이스
 **컴퓨터에 있는 GPS 궤적(GPX 포맷)을 띄우려면** GPX 파일을 iD 편집기에 드래그해서 놓으세요.  
 **오픈스트리트맵 GPS 궤적**을 활성화하려면 상자를 누르세요. 아래의 이미지에서, 공개 GPS 궤적이 다양한 색상으로, 진행 방향과 같이 나타납니다.  
 ![osm gps traces][]  
-만약 [이미지 오프셋](/en/josm/aerial-imagery)이 있다면, **사진 오프셋 조절**을 눌러서 **이미지 오프셋**을 고칠 수 있습니다. ![image18][]  
+To change the **appearance of the imagery** click **Display Options**.  
+![DisplayOptions][]  
+If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+![image18][]  
 
 - 네 방향 화살표를 눌러서 이미지를 움직이세요. 기본 위치로 되돌리려면 재설정 버튼을 누르세요. ![image20][]  
 
@@ -84,7 +85,7 @@ iD 편집의 기초
 - 새로운 점이 추가된 것을 주목하세요. 개체의 속성을 선택할 수 있도록 동시에 왼쪽 창이 바뀝니다. 점을 병원으로 지정하려면 **병원 부지**를 누르세요.  
 ![image22][]  
 - 양식을 사용해서 병원 이름, 주소 같은 점의 세부 정보를 채울 수 있습니다. 지물 창에서 선택한 태그에 따라 각 지물은 서로 다른 양식을 따른다는 점을 명심하세요.  
-- 만약 점을 잘못된 위치에 놓았다는지 하는 실수를 했다면, 왼쪽 마우스 버튼으로 점을 잡고 드래그해서 점을 새로운 위치로 옮길 수 있습니다. 점을 삭제하고 싶다면, 왼쪽 마우스 버튼으로 점을 클릭해서, 마우스 우클릭으로 메뉴를 열어 휴지통처럼 생긴 아이콘을 눌러 삭제하면 됩니다. ![image23][]{: height="24px"}  
+- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
 사실 iD 편집기에서 만든 "점"은 "태그"로 이루어진 집합을 달고 있는 독립된 "노드"입니다.  
 
 ### 선 긋기  
@@ -95,17 +96,22 @@ iD 편집의 기초
 ![image24][]  
 - 점을 찍었을 때처럼 선에 걸맞는 적절한 태그를 선택하세요.  
 - 왼쪽 마우스 버튼으로 점을 잡고 드래그해서 선에 속한 점을 드래그할 수 있습니다.  
-- 선을 선택하고 **이동**을 선택해서 선 전체를 움직일 수도 있습니다. 그런 다음 선을 새로운 위치로 옮기세요. ![image30][]{: height="24px"}  
-- 왼쪽 마우스 버튼으로 선에 속하는 개별 점(노드)를 잡고 마우스 우클릭으로 메뉴를 열면, 다음 도구들을 사용할 수 있습니다.  
-- 선에서 점을 삭제합니다. ![image23][]{: height="24px"}  
-- 점을 선에서 분리합니다. ![image26][]{: height="24px"}  
-- 선택한 점을 기준으로 선 1개를 2개로 분할합니다. ![image27][]{: height="24px"}  
+- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
+  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
+  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
 - 선에 대고(점에서는 해당하지 않음) 마우스 좌클릭을 하면, 다음 도구들을 사용할 수 있습니다.  
--   선을 삭제합니다. ![image23][]{: height="24px"}  
--   선에서 원을 형성합니다(닫힌 선이어야 함). ![image29][]{: height="24px"}  
--   선을 움직입니다. ![image30][]{: height="24px"}  
--   선에서 직사각형을 형성합니다(닫힌 선이어야 함). ![image31][]{: height="24px"}  
--   선의 방향을 뒤집습니다(강이나 일방통행로에 사용하기 좋음). ![image32][]{: height="24px"}  
+  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
+  -   Move line ![LineToolMove][]{: height="24px"}  
+  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
+  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
+  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
+  -   Delete line. ![LineToolDelete][]{: height="24px"}  
 
 사실 iD 편집기에서 만든 "선"은 "태그"로 이루어진 집합을 달고 있는 독립된 "웨이"입니다.
 
@@ -132,6 +138,14 @@ iD 편집의 기초
 
 ![part of multipolygon][]
 
+## Issues
+
+The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+
+![Issue][] ![Error][]
+
+The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+
 변경 내역 저장하기
 --------------------
 
@@ -145,17 +159,11 @@ iD 편집의 기초
 추가 정보와 추가하고 싶은 태그
 ---------------------------------------
 
-개체를 편집할 때, 속성 창 아래쪽에 아이콘 목록이 보일 것입니다. 이 아이콘들을 클릭해서 추가 정보를 넣을 수 있습니다.
+When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
 
-- 고도 추가 ![image37][]{: height="24px"}  
-- 참고 추가 ![image38][]{: height="24px"}  
-- 연락처·전화번호 추가 ![image39][]{: height="24px"}  
-- source(출처) 태그 추가 ![image40][]{: height="24px"}  
-- 웹 사이트 추가 ![image41][]{: height="24px"}  
-- 접근성 정보 추가 ![image42][]{: height="24px"}  
-- 위키피디아 링크 추가 ![image43][]{: height="24px"}  
+![AdditionalTags][]
 
-아니면, **모든 태그**를 클릭해서 추가하고 싶은 태그를 추가할 수도 있습니다. ![image44][]{: height="24px"}  
+Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
 
 - 클릭하면 지물에 붙어 있는 모든 태그를 볼 수 있습니다.  
 ![image45][]  
@@ -185,8 +193,6 @@ iD VS JOSM
 
 [^fieldpaper]: Field Paper에 관한 더 많은 정보는 [다른 LearnOSM 문서](/en/mobile-mapping/field-papers/)에서 볼 수 있습니다.
 
-이 안내서의 내용은 [프리젠테이션](/files/iD-editor-training.pptx)으로 이용할 수 있습니다.
-
 
 
 [image1]: /images/beginner/id-editor_image1.png 
@@ -202,37 +208,38 @@ iD VS JOSM
 [image11]: /images/beginner/id-editor_image11.png
 [image12]: /images/beginner/id-editor_image12.png
 [Map Data]: /images/beginner/id-editor_map_data.png
+[Issues]: /images/beginner/id-editor_issues.png
 [image13]: /images/beginner/id-editor_image13.png
 [image14]: /images/beginner/id-editor_image14.png
 [image15]: /images/beginner/id-editor_image15.png
-[image16]: /images/beginner/id-editor_image16.png
+[DisplayOptions]: /images/beginner/id-editor_display-options.png
 [image17]: /images/beginner/id-editor_image17.png
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
-[image23]: /images/beginner/id-editor_image23.png
 [image24]: /images/beginner/id-editor_image24.png
-[image25]: /images/beginner/id-editor_image25.png
-[image26]: /images/beginner/id-editor_image26.png
-[image27]: /images/beginner/id-editor_image27.png
-[image28]: /images/beginner/id-editor_image28.png
-[image29]: /images/beginner/id-editor_image29.png
-[image30]: /images/beginner/id-editor_image30.png
-[image31]: /images/beginner/id-editor_image31.png
-[image32]: /images/beginner/id-editor_image32.png
-[image33]: /images/beginner/id-editor_image33.png
+[PointToolContinue]: /images/beginner/id-editor_point-tool-continue.png
+[PointToolDelete]: /images/beginner/id-editor_point-tool-delete.png
+[PointToolDisconnect]: /images/beginner/id-editor_point-tool-disconnect.png
+[PointToolSplit]: /images/beginner/id-editor_point-tool-split.png
+[LineToolCircularize]: /images/beginner/id-editor_line-tool-circularize.png
+[LineToolDelete]: /images/beginner/id-editor_line-tool-delete.png
+[LineToolDisconnect]: /images/beginner/id-editor_line-tool-disconnect.png
+[LineToolMove]: /images/beginner/id-editor_line-tool-move.png
+[LineToolReflectLong]: /images/beginner/id-editor_line-tool-reflect-long.png
+[LineToolReflectShort]: /images/beginner/id-editor_line-tool-reflect-short.png
+[LineToolReverse]: /images/beginner/id-editor_line-tool-reverse.png
+[LineToolRotate]: /images/beginner/id-editor_line-tool-rotate.png
+[LineToolSquare]: /images/beginner/id-editor_line-tool-square.png
+[LineToolStraighten]: /images/beginner/id-editor_line-tool-straighten.png
 [image34]: /images/beginner/id-editor_image34.png
 [image35]: /images/beginner/id-editor_image35.png
+[Issue]: /images/beginner/id-editor_issue.png
+[Error]: /images/beginner/id-editor_error.png
 [image36]: /images/beginner/id-editor_image36.png
-[image37]: /images/beginner/id-editor_image37.png
-[image38]: /images/beginner/id-editor_image38.png
-[image39]: /images/beginner/id-editor_image39.png
-[image40]: /images/beginner/id-editor_image40.png
-[image41]: /images/beginner/id-editor_image41.png
-[image42]: /images/beginner/id-editor_image42.png
-[image43]: /images/beginner/id-editor_image43.png
+[AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
 [create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
