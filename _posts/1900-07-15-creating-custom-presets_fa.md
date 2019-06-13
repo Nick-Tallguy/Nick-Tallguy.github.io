@@ -11,97 +11,97 @@ JOSM - ایجاد قالب آماده
 
 > تاریخ بازبینی ۱۳۹۵/۰۶/۳۰  
 
-In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  
+در [فصل قبل](fa/josm/josm-presets/) به چگونگی اضافه کردن منوهای قالب آماده سفارشی به JOSM نگاهی انداختیم. در این فصل ما چگونگی ایجاد فایل‌های قالب آماده سفارشی را پوشش خواهیم داد.  
 
-WARNING! This is an advanced topic... consider yourself warned!  
+هشدار! این یک موضوع پیشرفته است ... در این زمینه مراقب باشید!  
 
 مقدمه‌ای بر XML
 -------------------
 
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.  
+به منظور ایجاد منوی قالب آماده، ما ابتدا باید به زبانی به نام XML آشنایی داشته باشیم. اگر قبلاْ با XML آشنا هستید، به بخش بعدی بروید.  
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML، که مخفف "Extensible Mark-up Language" است، یک زبان رایانه‌ای شبیه به HTML است. تفاوت کلیدی این است که XML برای انتقال داده و نه نمایش آن طراحی شده است. بسیاری از برنامه‌های کاربردی در اینترنت از جمله OpenStreetMap از XML برای انتقال داده استفاده می‌کنند. XML از عناصر استفاده می‌کند و هر عنصر می‌تواند عناصر کودک دیگری را در داخل خود داشته باشد. به عنوان مثال، بیایید تصور کنیم که می‌خواهیم یک فایل XML ایجاد کنیم که حاوی داده‌های مربوط به یک منو رستوران باشد. ما باید یک عنصر ریشه حاوی تمام اطلاعات مربوط به منوی خودمان ایجاد کنیم. عنصر ریشه ما یک تگ باز و یک تگ بسته دارد، مانند این:
 
       <menu>
-      ... whatever data we want to include in our menu ...
+      ... هر اطلاعاتی که می‌خواهیم در منوی خودمان داشته باشیم ...
       </menu>
 
-Information is contained inside an element, and within each element there can be more elements.  
+اطلاعات در داخل عنصر قرار دارد و در هر عنصری، عناصر بیشتری وجود دارد.  
 
       <menu>
         <item name=“Hamburger”>
           <cost>400</cost>
-          <description>Delicious beef patty</description>
+          <description>گوشت گوساله خوشمزه</description>
         </item>
           <item name=“Nasi Goreng”>
           <cost>200</cost>
-          <description>Indonesian Fried Rice</description>
+          <description>برنج سرخ شده اندونزیایی</description>
         </item>
       </menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+در این مثال ما دو عنصر &lt;item&gt; را درون عنصر &lt;menu&gt; قرار داده‌ایم تا دو آیتم مختلف موجود در منو را توصیف کنند. هر آیتم خود حاوی دو عنصر &lt;cost&gt; و &lt;description&gt; در درون خودش می‌باشد. همچنین توجه داشته باشید که چگونه name=”Hamburger” در داخل تگ &lt;item&gt; نوشته شده است. این خصیصه (attribute) نامیده می‌شود و اطلاعاتی در مورد عنصر اضافه می‌کند.
 
 
-### XML Terminology
+### لغت‌شناسی XML
 
-- **root element:** the outermost element of an XML document, which describes what is contained  
-- **element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;  
-- **tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this with OSM tags, which have a different meaning.  
-- **attribute:** a piece of information contained inside a tag, such as name=“Hamburger”  
+- **عنصر ریشه:** بیرونی‌ترین عنصر سند XML، که آنچه را که در درون دارد شرح  می‌دهد  
+- **عنصر:** هر شیء XML، که با یک تگ باز و یک تگ بسته احاطه شده است، مانند &lt;item&gt; ... داده... &lt;/item&gt;  
+- **تگ:** چیزی که درون براکت‌ها قرار دارد، مانند &lt;item&gt;. &lt;item&gt; تگ بازکننده یک عنصر است و &lt;/item&gt; تگ بسته‌کننده است. این اصطلاح را با برچسب‌های OSM که معنای دیگری دارند، اشتباه نگیرید.  
+- **خصیصه:** تکه‌ای اطلاعات موجود در داخل یک تگ، مانند name=“Hamburger”  
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.  
+استفاده از XML برای نگهداری و انتقال اطلاعات عالی است، زیرا فهم آن برای کامپیوترها آسان است.  
 
 
-JOSM Presets Files
+فایلهای قالب آماده JOSM
 -------------------
 
-Let's add a sample presets file into JOSM and analyze how it works.  
+بیایید یک فایل قالب آماده نمونه را به JOSM اضافه کنیم و آن را تجزیه و تحلیل کنیم که چگونه کار می کند.  
 
-- Download the file [sample_presets.xml](/files/sample_presets.xml).  
-- Then load it into JOSM as described in the [previous chapter](/en/josm/josm-presets).  
-- Create a new layer and a new object.  
-- Go the the Presets menu. There will be a new item named "Sample Building." Click on it.  
+- فایل [sample_presets.xml](/files/sample_presets.xml) را دانلود کنید.  
+- سپس آنرا همانطور که در [فصل قبل](fa/josm/josm-presets/) توضیح داده شد در JOSM باگزاری کنید.  
+- سپس یک لایه جدید و شی جدید ایجاد کنید.  
+- به منوی قالب‌های آماده بروید. یک ردیف جدید به نام "Sample Building" دیده می‌شود. روی آن کلیک کنید.  
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+توجه داشته باشید که در فرم ظاهر شده سه فیلد وجود دارد و هر فیلد نوع ورودی متفاوتی را می‌پذیرد. اولین فیلد، نام ساختمان، که یک رشته متنی را به عنوان ورودی می پذیرد. دومی، کاربرد ساختمان، یک جعبه کشویی دارد. فیلد آخر یک چک‌باکس است، به این معنی که فقط می‌تواند یکی از دو مقدار، روشن یا خاموش را داشته باشد.
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+حالا بیایید به فایل XMLای که فرم ورودی قالب آماده را تعریف می‌کند نگاهی بیندازیم.
 
-- Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad program. If you want a more easy-to-use editor, you might download the free Notepad++ application.  
-- The **sample_presets.xml** file looks like this:  
+- فایل XML را در کامپیوتر خود پیدا کنید آنرا با یک برنامه ویرایشگر متن باز کنید. اگر از ویندوز استفاده می‌کنید می‌توانید از برنامه نوت‌پد استفاده کنید. اگر یک ویرایشگر بسیار آسانتر بخواهید، می‌توانید بزنامه رایگان ++Notepad را دانلود کنید.  
+- فایل **sample_presets.xml** چیزی شبیه به این به نظر میرسد:  
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+فعلاْ از سه خط اول و خط آخر صرفنظر میکنیم و توجه خود را بیشتر به آنچه که مابین تگهای &lt;آیتم&gt; وجود دارد معطوف میکنیم.
 
-The first line looks like this:
+خط اول اینگونه است:
 
       <item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.  
+این تگ بازکننده یک آیتم است که به منو اضافه شده است. این تگ دو خصیصه، نام و نوع دارد. نام مشخص می‌کند که چگونه این مورد در منوی قالب آماده نمایش داده شود. نوع، این قالب آماده را محدود به نوع خاصی از شی میکند. در این مورد، قالب آماده را تنها می‌توان برای نقاط و اشکال - به عبارت دیگر گره‌ها و راهای بسته، استفاده کرد. اگر سعی کنید این قالب آماده را به یک خط اعمال کنید، کار نمی کند.  
 
-Let's look at the next line:  
+بیایید به خط بعدی نگاه کنیم:  
 
       <label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.  
+وقتی روی منو کلیک میکنید و فرم نمونه را باز میکنید، در بالای صفحه متن "فرم ساختمان" را می‌بینید. این متن در این خط تعریف شده است. این یک عنصر &lt;label&gt; را تعریف می‌کند، که به سادگی متن را در فرم نمایش می‌دهد. متن بوسیله خصیصه *"text="some text* تعریف شده است.  
 
-Go down a few lines and find this:  
+چند خط پایین تر بروید و این را پیدا کنید:  
 
       <key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.  
+این یکی از تگهایی است که به شی مورد نظر ما اعمال می‌شود. از آنجا که از عنصر &lt;key&gt; استفاده می‌کند، زمانی که این قالب آماده انتخاب شود تگ OSMای که در اینجا آورده شده، بطور خودکار به شی اعمال می‌شود. از این رو این شی به طور خودکار برچسب *building=yes* را دریافت خواهد کرد.  
 
-The next line is a bit different, using the &lt;text&gt; element.  
+خط بعدی کمی متفاوت‌تر است و از عنصر &lt;text&gt; استفاده می‌کند.  
 
       <text key="name" text="Name of Building" default="" delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.  
+عنصر &lt;text&gt; یک فیلد خالی ایجاد می‌کند. هنگامی که فرم در JOSM ایجاد می‌شود، کاربر می‌تواند فیلد خالی را پر کند. از آنجا که خصیصه *"delete_if_empty="true* تنظیم شده است، اگر کاربر این فیلد را خالی بگذارد، هیچ تگی اضافه نخواهد شد.  
 
-The dropdown box on the form is defined in the following line:  
+کادر منوی کشویی فرم در خط بعدی نعریف می‌شود:   
 
       <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
 
