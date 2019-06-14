@@ -101,30 +101,30 @@ XML، که مخفف "Extensible Mark-up Language" است، یک زبان رای�
 
 عنصر &lt;text&gt; یک فیلد خالی ایجاد می‌کند. هنگامی که فرم در JOSM ایجاد می‌شود، کاربر می‌تواند فیلد خالی را پر کند. از آنجا که خصیصه *"delete_if_empty="true* تنظیم شده است، اگر کاربر این فیلد را خالی بگذارد، هیچ تگی اضافه نخواهد شد.  
 
-کادر منوی کشویی فرم در خط بعدی نعریف می‌شود:   
+در خط بعد، کادر منوی کشویی فرم تعریف می‌شود:  
 
       <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.  
+یک کادر کشویی توسط &lt;combo&gt; تعریف شده است. همانند عنصر &lt;text&gt; خصیصه  *key* کلید تگ را تعریف می‌کند. سپس ارزش آن از بین لیستی از *مقادیر* ممکن انتخاب می شود. ویژگی *display_values* به شما اجازه می‌دهد نام‌های مختلفی را که در کادر کشویی نمایش داده می‌شود را انتخاب کنید، که ممکن است فهم آن از مقادیر برچسب OSM آسانتر باشد.  
 
-Lastly, let's look at the line which defines the checkbox.  
+بالاخره، به خطی که چک‌باکس را تعریف می‌کند نگاهی بیندازیم.  
 
       <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.  
+عنصر &lt;check&gt; همانطور که حدس زدید چک‌باکس را تعریف می‌کند. خصیصه *default="off"* می‌گوید که کادر به صورت پیش‌فرض بدون تیک باشد. خصیصه‌های دیگر را قبلاْ دیده‌اید.  
 
-Creating Your Own Presets File
+ایجاد فایل قالب آماده خودتان
 ------------------------------
 
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.  
+بهترین راه برای ایجاد یک فایل قالب آماده برای خودتان این است که یکی از فایلهایی که قبلاْ وجود داشته است را برداشته  و با دستکاری آن به اهداف مورد نظر خود برسید. این فایل نمونه را به راحتی ویرایش کنید و با آن آزمایش کنید تا اصول پایه را یاد بگیرید. فقط به یاد داشته باشید که هر بار که آن را ذخیره می‌کنید، باید JOSM را برای بارگذاری تغییرات مجدداْ راه اندازی کنید.  
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+قبل از اینکه شروع به ایجاد قالب آماده برای خود کنید، باید به دقت در مورد تگهایی که از آن استفاده می‌کنید فکر کنید. اختراع تگ جدید خود مقوله مجزای دیگری است. به طور کلی، درصورت موجود بودن باید از تگهای حال حاضر OSM استفاده کنید. اکثر تگهای موجود در [صفحه عوارض نقشه ویکی OSM](http://wiki.openstreetmap.org/wiki/Map_Features) ذکر شده‌اند.  
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.  
+این فایل نمونه اغلب عناصری را که در یک فایل قالب آماده JOSM پیدا می‌کنید، شامل می‌شود - عناصر فرم بسیار زیاد نیستند. اگر می‌خواهید با یک فایل بسیار پیچیده‌تر آزمایش کنید، از اینجا فایل [dhaka_presets.xml](/files/dhaka_presets.xml) را دانلود کنید.  
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).  
+به علاوه، توضیح مفصلی از تمام عناصر موجود را می‌توان در [اینجا](http://josm.openstreetmap.de/wiki/TaggingPresets) پیدا کرد.  
 
-Good luck!  
+موفق باشید!  
 
 
 [sample building menu]: /images/josm/sample-building-menu.png
