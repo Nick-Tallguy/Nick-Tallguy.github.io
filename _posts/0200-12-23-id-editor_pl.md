@@ -43,22 +43,22 @@ Interfejs użytkownika edytora iD
     Rysuj obszar (wielokąt), *klawisz skrótu* **3** ![image5][]{: height="24px"}  
     Cofnij, *klawisz skrótu* **Ctrl+z** ![image6][]{: height="24px"}  
     Ponów, *klawisz skrótu* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    Zapisz zmiany, *klawisz skrótu* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Panel mapy:** Ten panel pokazuje różne funkcje konfiguracji:  
     Przybliż, *klawisz skrótu* **+** ![image9][]{: height="24px"}  
     Oddal, *klawisz skrótu* **-** ![image10][]{: height="24px"}  
     Wyświetl aktualne położenie ![image11][]{: height="24px"}  
     Ustawienia tła, *klawisz skrótu* **b** ![image12][]{: height="24px"}  
     Dane mapy, *klawisz skrótu* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    Problemy, *klawisz skrótu* **i** ![Issues][]{: height="24px"}  
     Pomoc, *klawisz skrótu* **h** ![image13][]{: height="24px"}  
 4. **Panel informacji:** Ten panel pokazuje różne informacje takie, jak pasek skali oraz nazwy użytkowników, którzy edytowali dany obszar.  
 
-## Configuring the Background Layer
+## Konfigurowanie warstwy podkładu
 
 Kliknij przycisk **Ustawienia tła** lub użyj *klawisza skrótu* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Możesz **zmienić warstwę tła** zależnie od żądanego dostawcy kafelków (w Polsce domyślnie jest to Ortofotomapa z Geoportalu).  
 
 Możesz dodać swoje własne kafelki mapy klikając na  **Własne**. Na przykład, jeśli chcesz **dodać Field Paper** [^fieldpaper], kliknij **Własne**, następnie kliknij na ikonce lupy (szukaj), aby otworzyć następujące okno:-  
 ![image17][]   
@@ -66,9 +66,9 @@ i wprowadź swój **URL z FieldPaper**, który będzie wyglądał mniej więcej 
 Aby **wyświetlić ślady GPS z Twojego komputera** (format GPX), przeciągnij plik GPX do edytora iD.  
 Aby włączyć **ślady GPS OpenStreetMap** zaznacz pole. Na poniższym obrazku, publiczne ślady GPS są pokazane w różnych kolorach, wskazując na kierunek podróży.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Aby zmienić **wygląd podkładu** kliknij **Opcje wyświetlania**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Jeżeli występuje [przesunięcie podkładu](/pl/josm/aerial-imagery), możesz **skorygować przesunięcie podkładu** klikając na **Dopasuj przesunięcie warstwy tła**.  
 ![image18][]  
 
 - Klikaj strzałki, aby przesuwać podkład. Kliknij przycisk resetowania, aby przywrócić jego domyślną pozycję. ![image20][]  
@@ -85,7 +85,7 @@ Aby dodać nowy punkt, kliknij na przycisku **Punkt**. ![image3][]{: height="24p
 - Zauważ, że został dodany nowy punkt. W tym samym czasie lewy panel zmienił się, aby pokazać formularz, w którym możesz wybrać właściwości obiektu. Kliknij **Teren szpitala**, aby oznaczyć punkt jako szpital.  
 ![image22][]  
 - Możesz używać formularzy, aby uzupełnić szczegółowe informacje o swoim punkcie. Możesz wypełnić nazwę szpitala, adres i/lub inne dodatkowe informacje. Zauważ, że każdy obiekt ma różne opcje, w zależności od tego, jaki tag wybierzesz w panelu edycji obiektu.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Jeżeli popełnisz błąd taki, jak np. zła lokalizacja, to możesz przesunąć Twój punkt do nowej lokalizacji poprzez przytrzymanie lewego przycisku myszy na nim i przeciąganie go. Lub, jeśli chcesz usunąć Twój punkt, kliknij go lewym przyciskiem myszy, aktywuj menu kontekstowe prawym przyciskiem myszy i kliknij przycisk wyglądający, jak kosz na śmieci. ![PointToolDelete][]{: height="24px"}  
 "Punkt" utworzony w edytorze iD jest aktualnie samodzielnym "węzłem" z zestawem "tagów".  
 
 ### Rysowanie linii  
@@ -96,22 +96,22 @@ Aby dodać nową linię, kliknij na przycisku **Linia**. ![image4][]{: height="2
 ![image24][]  
 - Tak samo, jak dla punktu, wybierz odpowiednie tagi dla swojej linii.  
 - Możesz przesuwać punkty linii poprzez kliknięcie ich lewym przyciskiem myszy i przeciąganie.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- Kiedy klikniesz lewym przyciskiem myszy na pojedynczym punkcie (węźle) linii, a następnie klikniesz prawym przyciskiem myszy lub naciśniesz spację, aby aktywować menu kontekstowe, to zobaczysz takie narzędzia:  
+  - Kontynuuj linię od tego punktu ![PointToolContinue][]{: height="24px"}  
+  - Rozłącz linie w tym punkcie ![PointToolDisconnect][]{: height="24px"}  
+  - Podziel linię na dwie w tym punkcie. ![PointToolSplit][]{: height="24px"}  
+  - Usuń punkt z linii. ![PointToolDelete][]{: height="24px"}  
 - Kiedy klikniesz lewym przyciskiem myszy na linii (ale nie na punkcie), to zobaczysz takie narzędzia:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   Utwórz okrąg z linii (aktywne tylko, jeżeli linia jest zamknięta) ![LineToolCircularize][]{: height="24px"}  
+  -   Odłącz linię od innych obiektów ![LineToolDisconnect][]{: height="24px"}  
+  -   Przesuń linię ![LineToolMove][]{: height="24px"}  
+  -   Wyrównaj wszystkie narożniki do kątów prostych ![LineToolSquare][]{: height="24px"}  
+  -   Odbij linię względem krótszej osi ![LineToolReflectShort][]{: height="24px"}  
+  -   Odbij linię względem dłuższej osi ![LineToolReflectLong][]{: height="24px"}  
+  -   Odwróć kierunek (dobre dla rzek i ulic jednokierunkowych) ![LineToolReverse][]{: height="24px"}  
+  -   Obróć linię względem jej środka ![LineToolRotate][]{: height="24px"}  
+  -   Wyprostuj linię ![LineToolStraighten][]{: height="24px"}  
+  -   Usuń linię. ![LineToolDelete][]{: height="24px"}  
 
 "Linia" utworzona w edytorze iD jest aktualnie "linią" z zestawem "tagów".
 
@@ -138,13 +138,13 @@ Kiedy wybierzesz którykolwiek z konturów nowo utworzonego wielokąta złożone
 
 ![part of multipolygon][]
 
-## Issues
+## Problemy
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+Kiedy tylko edytujesz coś, to edytor rozpoczyna sprawdzanie tego. Jeżeli stwierdzi, że to, co zrobiłeś może powodować problemy, to powiadomi Cię w panelu problemów. Kiedy na ikonce problemów pojawia się kropka w kolorze żółtym (ostrzeżenia) lub czerwonym (błędy) powinieneś otworzyć tą zakładkę i zobaczyć, o co chodzi. Ta informacja jest też widoczna w zakładce obiektu po lewej stronie jeżeli jest on zaznaczony. Zostaniesz również powiadomiony, że są nierozwiązane problemy podczas wysyłania danych. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+Dolna część panelu problemów pokazuje dostępne reguły i pozwala wyłączać poszczególne z nich, jednakże nie jest to zalecane.
 
 Zapisywanie zmian
 --------------------
@@ -159,11 +159,11 @@ Kiedy (i jeżeli) chcesz zapisać swoje zmiany do OpenStreetMap, kliknij przycis
 Dodatkowe informacje i niestandardowe tagi
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Kiedy edytujesz obiekt, u dołu panelu właściwości zobaczysz menu "Dodaj pole". Klikając na nich możesz dodawać dodatkowe informacje (warstwa, wysokość, wikipedia, itd.).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Lub możesz dodać niestandardowe tagi klikając **Wszystkie znaczniki**. ![image44][]{: height="24px"}  
 
 - Pokaże to wszystkie tagi przypisane do obiektu.  
 ![image45][]  

@@ -10,132 +10,132 @@ osm2pgsql
 ==========
 
 
-In the previous chapter we saw how to set up Postgresql with PostGIS in Windows and how to set up a database and load it with shapefile data. In order to get OpenStreetMap data into a database, you could get the data in shapefile format and use the shapefile loader, but this may leave you without all the data that you want. In this chapter we will learn how to use **osm2pgsql**, a command-line program for loading raw OSM data into a PostGIS database.  
+در فصل قبل ما شاهد چگونگی راه‌اندازی Postgresql با PostGIS در ویندوز و نحوه تنظیم یک پایگاه داده و بارگیری آن با داده فایل شیپ بودیم. برای به دست آوردن اطلاعات OpenStreetMap در پایگاه داده، می‌توانید داده‌ها را در فرمت شیپ فایل دریافت کرده و با استفاده لودر فایلهای شیپ آنها را بارگزاری کنید، اما اینکار شاید کوجب شود که تمام داده‌هایی که می‌خواهید بارگزاری نشوند. در این فصل ما نحوه استفاده از **osm2pgsql**، که یک برنامه خط فرمانی برای بارگیری اطلاعات خام OSM در یک پایگاه داده PostGIS است را یاد میگیریم.  
 
-We will go through the steps to set up osm2pgsql on Windows, though the steps should be roughly the same on another operating system, assuming you have set up your PostGIS database(s) correctly.  
+ما مراحل نصب osm2pgsql در ویندوز را اجرا خواهیم کرد، هرچند همین مراحل باید در یک سیستم عامل دیگر نیز تقریباْ مشابه است، با فرض اینکه پایگاه داده(های) PostGIS خود را درست تنظیم کرده باشید.  
 
-Get osm2pgsql
+گرفتن osm2pgsql
 -------------
 
-To download the windows version of osm2pgsql, navigate your web browser to <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+برای دانلود نسخه ویندوز osm2pgsql، با مرورگر وب خود به <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows> بروید.  
 
 ![windows binary][]
 
-- Download the file named **osm2pgsql.zip**  
-- Unzip the file on your system. You should move the unzipped folder to a location where you will not move it later, because we need to add its location to the system path.  
+- فایل با نام **osm2pgsql.zip** را دانلود کنید.  
+- فایل را بر روی سیستم خود باز کنید. باید پوشه استخراج شده را به مسیری منتقل کنید که بعداْ آن را جابجا نکنید، زیرا باید مسیر آن را به مسیر سیستم اضافه کنیم.  
 
 ![unzip it][]
 
-- In the osm2pgsql directory that you unzipped is a file called osm2pgsql.exe.  This is a program that we will run to import the data, but in order for Windows to find it, we need to add its location to the system path.  Click on the Start Menu and type “system path.”  
+- در دایرکتوری osm2pgsql که فایل فشرده باز شده است فایلی به نام osm2pgsql.exe وجود دارد. این برنامه‌ای است که برای وارد کردن داده‌ها آنرا اجرا میکنیم، اما برای اینکه ویندوز بتواند آن را پیدا کند، باید محل آن را به مسیر سیستم اضافه کنیم. روی منوی شروع کلیک کنید و مسیر "system path" را تایپ کنید.  
 
 ![system path][]
 
-- You should see an option named “Edit the system environment variables.”  Click on it.  
+- باید گزینه‌ای با نام "Edit the system environment variables" را ببینید. بر روی آن کلیک کنید.  
 
 ![edit variables][]
 
-- Click on the button named “**Environment Variables**”  
+- روی دکمه “**Environment Variables**” کلیک کنید.  
 
 ![env variables][]
 
-- At the bottom find the variable named “**Path**” and click “**Edit...**”  
+- در پایین صفحه متغیری با نام “**Path**” را پیدا کنید و روی “**Edit...**” کلیک کنید.  
 
 ![find path][]
 
-- You must add the directory where osm2pgsql.exe is located to the Path variable.  
+- شما باید دایرکتوری که در آن osm2pgsql.exe قرار دارد را به متغیر مسیر اضافه کنید.  
 
 ![edit path][]
 
-- Add a semicolon to the end of the previous directory and then type in the full directory path of osm2pgsql.exe.  For example, if you put the **osm2pgsql** folder directly in the **C:\\** directory the path would be:  
+- یک نقطه‌ویرگول (semicolon) به انتهای دایرکتوری قبلی اضافه کنید و سپس مسیر دایرکتوری osm2pgsql.exe را تایپ کنید. برای مثال، اگر پوشه **osm2pgsql** را مستقیماْ در دایرکتوری **\\:C** قرار داده‌اید، مسیر آن خواهد بود:  
 	
 **C:\osm2pgsql\Win32**  
 
-- Click OK several times to save the new settings.  
-- **osm2pgsql** should be functioning now. Let's check it.  
-- Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
+- برای ذخیره تنظیمات جدید Ok را چندین بار کلیک کنید.  
+- حالا باید **osm2pgsql** کار کند. بیایید آن را بررسی کنیم.  
+- اعلان فرمان ویندوز را باز کنید. این کار را با کلیک بر روی منوی شروع و تایپ کردن "**cmd**" انجام دهید. برنامه Command Prompt در ابتدای منو نمایش داده می‌شود و می‌توانید Enter را فشار دهید یا روی آن کلیک کنید.  
 
 ![cmd][]
 
-- In the black command window that opens, type:  
+- در پنجره فرمان سیاه رنگی که باز می‌شود، تایپ کنید:  
 
 **osm2pgsql**
 
-- If everything is working right, you should get a message like this:  
+- اگر همه چیز درست کار کند، باید پیامی شبیه به این داشته باشید:  
 
 ![osm2pgsql test][]
 
-- If you don't see an error message like this, and it says that it cannot find the application **osm2pgsql**, then you may have entered the Path variable incorrectly.  
+- اگر یک پیام هشدار مانند این را نمی‌بینید و می‌گوید که نمی‌تواند برنامه **osm2pgsql** را پیدا کند، ممکن است متغیر مسیر را اشتباه وارد کرده باشید.  
 
-Getting Raw OSM Data
+گرفتن اطلاعات خام OSM
 ---------------------
-Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://mapzen.com/data/metro-extracts/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
+قبل از اینکه بتوانیم **osm2pgsql** اجرا کنیم، باید مقداری داده خام OSM را برای وارد کردن به یک پایگاه داده داشته باشیم. اگر قبلاْ یک فایل **osm.** داشته باشید می‌توانید از آن استفاده کنید، سعی کنید فایلی را از </https://mapzen.com/data/metro-extracts> دانلود کنید. این سایت میزبان بسیاری از فایلهای استخراج شده OSM برای شهرهای مختلف است. یک شهر را پیدا کنید و فایل PBF آن را دانلود کنید. فایل‌های PBF نسخه‌های فشرده از فایل‌های معمول **osm.** هستند. اگر داده‌های خام یک منطقه دیگر را بخواهید، می‌توانید از هر سرویسی که فایلهای OSM را استخراج می‌کنند و در فصل [گرفتن داده‌ها](fa/osm-data/get-data) لیست شده‌اند، استفاده کنید.  
 
-Get the Style File
+گرفتن فایل طرح (Style)
 ------------------
-**osm2pgsql** requires the use of a custom style file to define which tags are included in the database during import. You can download the default style file [here](/files/default.style).  
+**osm2pgsql** نیاز به استفاده از یک فایل طرح سفارشی دارد تا تعیین کند هنگام وارد کردن در پایگاه داده کدام برچسب‌ها شامل باشند. فایل طرح پیش‌فرض را از [اینجا](/files/default.style) می‌توانید دانلود کنید.  
 
-Importing the Data
+وارد کردن داده ها
 -------------------
-Open PgAdmin III and create a new database named **osm**, just as you did in the previous chapter. To import the data, we will run the **osm2pgsql** program via the command line. 
+PgAdmin III را باز کنید و همانطور که فصل قبل انجام دادید، یک پایگاه داده جدید به نام **osm** ایجاد کنید. برای وارد کردن داده، برنامه **osm2pgsql** را از طریق خط فرمان اجرا می کنیم. 
 
-- Click on the Start Menu and type "cmd" and Enter to open the Command Prompt.  
+- روی منوی شروع کلیک کنید و "cmd" را تایپ کنید و Enter را برای باز کردن فرمان Command Prompt بزنید.  
 
 ![command prompt][]
 
-Here we will run the application **osm2pgsql** with several options. We need at least to supply it with:  
+در اینجا ما برنامه **osm2pgsql** را با چندین گزینه اجرا خواهیم کرد. حداقل موارد زیر باید به برنامه داده شود:  
 
-- The location of the OSM Data File  
-- The name of the database, and the database username  
-- The style file which defines which OSM tags will be imported to the database  
+- محل فایل داده OSM  
+- نام پایگاه داده و نام کاربری پایگاه داده  
+- فایل طرح که تعیین می‌کند چه برچسب‌هایی از OSM به پایگاه داده وارد خواهد شد  
 
-We have placed our OSM file into the **C:\\** directory to make this easier.  
+ما فایل OSM را در دایرکتوری **:\\C** قرار داده‌ایم تا کار را آسانتر کنیم.  
 
-- Type the following command, replacing the location of the OSM file and style file with your own.
+- دستور زیر را وارد کنید، فقط محل فایل OSM و فایل طرح را با فایلهای خودتان جایگزین کنید.
 
       osm2pgsql -c -d osm -U postgres -H localhost -S C:\default.style C:\bangkok.osm.pbf  
 
-- Press Enter. If all goes well, the process should begin running. It may take a few minutes for all of the data to load into the database.  
+- Enter را بزنید، اگر همه چیز خوب پیش برود، فرآیند باید شروع شود. ممکن است چند دقیقه طول بکشد تا تمام اطلاعات در پایگاه داده بارگیری شود.  
 
 ![osm2pgsql output][]
 
-- If your raw OSM file is large, you may need to add additional memory to the osm2pgsql import process. To do this, add the following to the command:  
+- اگر فایل خام OSMتان بزرگ است، ممکن است نیاز به افزودن حافظه اضافی در فرآیند وارد کردن osm2pgsql باشد. برای انجام این کار، دستور زیر را اضافه کنید:  
 
       --cache 600
 
-Testing It
+آزمایش کردن
 -----------
 
-We can test that the import was successful and view the data in our database using QGIS.  
+می‌توانیم آزمایش کنیم که فرآیند وارد کردن موفق بوده و داده‌های پایگاه داده را با استفاده از QGIS مشاهده کنیم.  
 
-- Open QGIS and click on the "Add PostGIS Layers" button. ![qgis add postgis button][]{: height="24px"}
+- QGIS را باز کنید و روی دکمه "Add PostGIS Layers" کلیک کنید. ![qgis add postgis button][]{: height="24px"}
 
-- Under “Connections” at the top, click “**New**.”  
-- Give the new connection a name.  Under database type **osm** (the name of your database).  
-- Enter the username postgres and your password below.  
+- در قسمت "Connections" در بالای صفحه، روی "**New**" کلیک کنید.  
+- به اتصال جدید یک نام بدهید. زیر پایگاه داده، **osm** (نام پایگاه داده‌تان) را تایپ کنید.  
+- نام کاربری postgres و رمز عبور خود را در زیر وارد کنید.  
 
 ![connection settings][]
 
-- Click OK to save the connection settings.  Then click “Connect” to connect to your PostgreSQL server.  
-- Click next to "public" to see all of the layers (tables) in your database. Notice that osm2pgsql creates a separate table for different object types - points, lines, and polygons. It also creates a roads table, which contains only major roads.  
+- روی OK کلیک کنید تا تنظیمات اتصال ذخیره شود. سپس برای اتصال به سرور PostgreSQL روی "Connect" کلیک کنید.  
+- در کنار "public" کلیک کنید تا همه لایه‌ها (جداول) پایگاه داده را ببینید. توجه داشته باشید که osm2pgsql برای انواع مختلف اشیاء - نقاط، خطوط و چندضلعی‌ها، یک جدول جداگانه  ایجاد می‌کند. یک جدول نیز برای جاده‌ها ایجاد می‌کند که تنها جاده‌های اصلی را شامل می‌شود.  
 
 ![postgis layers][]
 
-- Select one or more of the layers and click "Add." If asked, choose WGS84 as the CRS.  
-- If everything is successful, you will see the layers you selected displayed in QGIS.  
+- یک یا چند لایه را انتخاب کنید و روی "افزودن" (Add) کلیک کنید. در صورت درخواست، WGS84 را به عنوان CRS انتخاب کنید.  
+- اگر همه چیز موفق‌آمیز باشد، خواهید دید که لایه‌هایی که انتخاب کرده‌اید در QGIS نمایش داده می‌شوند.  
 
 ![osm in qgis][]
 
-> If you look at the attribute tables of the layers, you will see that the attributes are mapped to OSM tags. The specific tags that are imported are defined during the **osm2pgsql** import process. In order to add specific tags that are not included by default, you can edit the *style* file that osm2pgsql references to define the data schema.  
+> اگر به جداول ویژگیهای لایه نگاه کنید، خواهید دید که ویژگی‌ها به برچسب‌های OSM مرتبط می‌شوند. برچسب های خاص وارد شده، در فرآیند وارد کردن **osm2pgsql** تعریف می‌شوند. برای اضافه کردن تگ‌های خاصی که به طور پیش‌فرض گنجانده نشده، می‌توانید فایل *طرح* را که osm2pgsql از آن به منظور تعریف شمای داده استفاده می‌کند را ویرایش کنید.  
 
 
 خلاصه
 -------
 
-When you want to import OpenStreetMap data into your own database, **osm2pgsql** is a great tool. It can be extremely useful when you need to be able to get the most up-to-date OSM data and customize the attributes you want, or when working on more complex projects.  
+هنگامی که بخواهید داده‌های OpenStreetMap را به پایگاه داده خود وارد کنید، **osm2pgsql** یک ابزار عالی است. این امر زمانی که شما نیازمند به دست آوری  به روزترین اطلاعات OSM و سفارشی‌سازی ویژگی‌های مورد نظر خود باشید و یا در هنگام کار بر روی پروژه‌های پیچیده، بسیار مفید خواهد بود.  
 
-Another import tool has been developed recently, called [imposm](http://imposm.org/), and offers some speed and other improvements over osm2pgsql, although as of this writing it lacks other key functions which are promised in imposom version 3.  
+یک ابزار دیگر وارد کردن داده به نام [imposm](http://imposm.org/) اخیراْ ساخته شده است که نسبت به osm2pgsql دارای سرعت بیشت بوده و بهبودهای دیگری را ارائه می‌دهد، اگر چه در زمان نگارش این نوشتار نواقصی هملکردی کلیدی دیگری دارد که قول داده شده در iposom نسخه ۳ رفع شود.  
 
-For more information on osm2pgsql, refer to the OSM Wiki - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
+برای اطلاعات بیشتر در مورد osm2pgsql، به ویکی OSM مراجعه کنید - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
 
 
 [windows binary]: /images/osm-data/windows-binary.png

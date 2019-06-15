@@ -11,40 +11,40 @@ category: josm
 
 > تاریخ بازبینی ۱۳۹۴/۰۴/۲۳  
 
-As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
+هرچقدر در تکنیکهای ویرایش پیشرفت کنید، ممکن است بخواهید برای بهبود مهارتهای نقشه‌کشی خود از ویژگی‌های اضافه JOSM استفاده کنید. JOSM به شما اجازه می‌دهد پلاگینهای متعددی نصب کنید که قابلیتهای بیستری را به نرم‌افزار اضافه می‌کنند.  
 
-In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
+در این بخش نگاهی به نحوه نصب پلاگینها انداخته و برخی از پلاگین‌های مفید موجود را بررسی خواهیم کرد.
 
 نصب افزونه‌ها
 -------------------
-Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
+هرگاه بخواهید یک افزونه جدید نصب کنید، به **Edit \> Preferences** بروید و روی زبانه **Plugins** کلیک کنید.  
 
 ![Plugins][]
 
-* If you don’t see a list of available plugins, click **Download List**.  
-* To install a plugin you simply must check the box next to it and click OK at the bottom.  
-* Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
+چنانچه لیست افزونه‌های موجود را نمی‌بینید روی **Download List** کلیک کنید.  
+- به منظور نصب افزونه به راحتی فقط باید کادر کنار نام آنرا تیک زده و از پایین صفحه OK را کلیک کنید.  
+* در آخر، در بعضی ویرایشهای JOSM وقتی افزونه جدیدی نصب می‌کنید مجبور هستید JOSM را راه‌اندازی مجدد کنید.
 
 تعدادی از افزونه‌های مورد علاقه ما:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/fa/josm/josm-more-plugins/#the-buildings-tools-plugin):** اگر ساختمانهای زیادی را رسم می‌کنید، این افزونه فرآیند را سریعتر و راحتتر می‌کند.  
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **DirectUpload:** چنانچه همیشه مسیرهای GPS را جمع‌آوری می‌کنید و میخواهید آنها را در پایگاه داده OSM ذخیره کنید، این افزونه اینکار را راحت می‌کند.  
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx:** اگر می‌خواهید مسیرهای GPS را از یک دستگاه گارمین آپلود کنید، ممکن است به این افزونه نیاز پیدا کنید. OSM مسیرهای GPSای که روی کارت حافظه خارجی گارمین ذخیره شده را قبول نخواهد کرد. اما این افزونه می‌تواند آنها را تصحیح کند تا بتوانند آپلود شوند.  
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers:** این افزونه به شما اجازه بارگزاری ورقه‌های میدانی اسکن شده در JOSM را می‌دهد.  
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db:** این افزونه اجازه می‌دهد که شما با سایر نفشه‌کشهایی که تصاویر ماهواره‌ای بینگ را کمی ناتراز می‌یابند همکاری کنند. این موضوع در فصلهای بعدی بیشتر توضیح داده خواهد شد.  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print:** قابلیت جاپ را اضافه می‌کند. در صورتی که بخواهید یک خروجی چاپی سریع از منطقه داشته باشید اما نیازی نیست که ظاهر خیلی خوبی داشته باشد.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)  
+7. **[utilsplugin2](/fa/josm/josm-more-plugins/#more-selection-tools):** ابزارها و منوهای بسیار زیادی برای کاربران پیشرفته به JOSM اضافه می‌کند. این افزونه در [فصل بعد](/fa/josm/josm-more-plugins) به تفصیل پوشش داده شده است.  
 
 
 
 <!-- The remainder of this section needs to be edited, and/or moved to other sections,
-    فعلاً توضیح گذاشته شد.
+    commenting it out for now
 
 
 - [Mirrored Download]({{site.baseurl}}/en/beginner/josm-plugins/#mirrored-download) (allows you to download more OSM data)
@@ -52,7 +52,7 @@ Any time you want to install a new plugin, go to **Edit \> Preferences** and cli
 - [Editgpx]({{site.baseurl}}/en/beginner/josm-plugins/#edit-gpx) (allows you to edit GPX files)
 - [Print]({{site.baseurl}}/en/beginner/josm-plugins/#print)
 
-ما نیز پیشنهاد می‌کنیم که افزونه‌هایی که در سایر فصلها شرح داده شده‌اند را 
+ما همچنین پیشنهاد می‌کنیم که افزونه‌های زیر که در سایر فصلها شرح داده شده‌اند را 
 دانلود کنید:
 
 - FieldPapers
@@ -202,78 +202,78 @@ OSM ارسال نمایید (مثلاً با استفاده از
 __اگر نمی‌خواهید فایل GPX شما توسط دیگران دیده شود مجبور نیستید این بخش را بخوانید. براحتی می‌توانید فایلهای GPXتان را در  JOSM ببینید و همانجا آنها را در رایانه خود ذخیره کنید)
 قبل از هر چیز، مسیرهای GPS راحتترین راه جمع‌آوری داده و 
 آدرس‌دهی جغرافیایی عوارض در OSM هستند. [Aerial Imagery](/fa/josm/aerial-imagery/) را ببینید.
-GPS units have greater accuracy than satellite imagery and therefore are
-a useful tool for checking how offset imagery may be. Using many GPS
-tracks (the greater the number of tracks the greater the ability to
-determine geolocation accuracy) allows you to determine if background
-imagery may be misaligned.
+دستگاه GPS دقت بسیار بیشتری نسبت به تصاویر ماهواره‌ای دارد و بنابراین
+ابزار مفیدی جهت بررسی میزان افست تصاویر ماهواره میتواند باشد. استفاده از مسیرهای GPS فراوان
+(هرچه تعداد مسیر بیشتر باشد توانایی تشخیص
+صحت موقعیت زمینی بیشتر خواهد بود) به شما اجازه می‌دهد تا تعیین کنید که آیا 
+تصاویر زمینه ناتراز قرار دارند یا خیر.
 
-Uploading tracks to the server permits greater sharing of information.
-It allows people who do not have access to the field, simply because
-they do not live in that area or they do not have access to a GPS
-devices, to help with digitizing. There are two ways to upload your
-traces: 1) JOSM Plugin or 2) on the main OSM website.
+آپلود کردن مسیرها به سرور اجازه به اشتراک گزاری اطلاعات بیشتر را می‌دهد.
+افرادی که دسترسی به بررسی میدانی ندارند
+چونکه در آن منطقه زندگی نمی‌کنند و دسترسی به دستگاه GPS
+ندارند را به آسانی قادر می‌سازد تا در دیجیتالی کردن شرکت کنند. دو روش برای آپلود 
+مسیرها وجود دارد: ۱) افزونه JOSM یا ۲) وبسایت اصلی OSM.
 
-> Note: GPS waypoints cannot be uploaded to the OSM database directly.
-> However, they can be converted to tracks and then be uploaded temporarily,
-> for example, so they can be displayed as background objects in Potlatch.
+> نکته: نقاط بین‌راهی را نمی‌توان مستقیماْ به پایگاه داده OSM آپلود کرد.
+> با این حال، می‌توان آنها را به مسیر تبدیل و به طور موقت آپلود نمود،
+> مثلاْ، به عنوان پس‌زمینه اشیاء در Potlatch نمایش داده شوند.
 
-After you have opened your GPX file in JOSM and clicked Go to
-"Tools" and click "Upload traces". Describe the GPX file,
-write some tags, and visibility. For visibility, you can choose whether
-private, trackable, public or identifable.
+بعد از باز کردن فایل GPXتان در JOSM و کلیک بر روی آن به 
+"Tools" رفته و "Upload traces" را کلیک کنید. فایل GPX را شرح دهید،
+ چندین برچسب برای آن بنویسید و قابلیت دیده شدن آنرا مشخص کنید. برای قابلیت دیده شدن، می‌توانید انتخاب کنید که آیا
+ خصوصی (private)، قابل ردیابی (trackable)، عمومی (public) و یا قابل شناسایی (identifable) است.
 
-1.  **Identifiable**: Your trace will be shown publicly in Your
-    GPS**traces and in the public GPS traces list. Other users can
-    download the raw trace and connect it with your username. Timestamps
-    of the tracks points will also be available through the public GPS
-    API.
+1. **قابل شناسایی**: ردیابی شما به طور عمومی در 
+    قسمت مسیرهای GPS و لیست مسیرهای GPS عمومی نشان داده می‌شود. سایر کاربران می‌توانند
+    مسیر خام ردیابی شده را دانلود کرده و آنرا با نام کاربری شما پیوند دهند. برچسب زمان
+    مسیر نیز از طریق GPS API عمومی در دسترس
+     خواهد بود.
 
-2.  **Public**: Your trace will be shown publicly in Your GPS**traces
-    and in the public GPS traces list. Other users are still able to
-    download the raw trace from the public trace list and any timestamps
-    contained within. However, data shown in the API does not reference
-    your trace page, nor are the timestamps available, though the points
-    are chronically ordered.
+2. **عمومی**: ردیابی شما به طور عمومی در مسیرهای GPSتان 
+    و در لیست مسیرهای GPS عمومی نشان داده می‌شود. کاربران دیگر هنوز قادر به 
+    دانلود مسیر خام از فهرست ردیابی‌های عمومی هستند و هر برچسب زمانی
+    که درون آن وجود دارد، هستند. با این حال، داده‌های نشان داده شده در API به
+    به صفحه مسیرها و همچنین برچسبهای زمانی موجود ارجاع نمی‌دهند، هرچند نقاط
+    برحسب زمان مرتب شده‌اند.
 
-1.  **Trackable**: The trace will **not** show up in any public
-    listings, but the trackpoints will still be available through the
-    public GPS API **with timestamps**. Other users will be able
-    to download the trackpoints but these will not be associated with
-    you.
+1.  **قابل ردیابی**: مسیر شما در هیچ 
+    لیست عمومی نمایش داده نخواهد شد، اما نقاط ردیابی از طریق
+    GPS API عمومی **همراه با برچسبهای زمانی** در دسترس خواهد بود. کاربران دیگر قادر به 
+    دانلود نقاط مسیر هستند اما با شما ارتباطی نخواهد 
+    داشت.
 
-2.  **Private**: The trace will **not** show up in any public
-    listings. Trackpoints will be available in timeline order through
-    the public GPS API **without timestamps**.
+2. **خصوصی**: ردیابی در هیچ لیست عمومی
+     نمایش داده نخواهد شد. نقاط مسیر به ترتیب زمانی از طریق
+    GPS API عمومی **بدون برچسبهای زمانی** در دسترس خواهند بود.
 
 ![DirectUpload Traces Options][]
 
-Uploading GPS Traces Online
+آپلود مسیرهای GPS به صورت آنلاین
 ---------------------------
 
-1. Go
-to [http://www.openstreetmap.org/](http://www.openstreetmap.org/) and log in.
+1. به
+ [http://www.openstreetmap.org/](http://www.openstreetmap.org/) بروید و وارد شوید.
 
-2. Select "GPS Traces" found on the left banner.
+2. "GPS Traces" که در بنر طرف جپ قرار دارد را انتخاب کنید.
 
 ![Left Banner][]
 
-3. Select
-[upload a trace](http://www.openstreetmap.org/trace/create).
-Here, you can also  **See just your traces** to review previous GPS tracks.  
+3. گزینه
+[upload a trace](http://www.openstreetmap.org/trace/create) را انتخاب کنید.
+در اینجا می‌توانید **See just your traces** را نیز ببینید تا مسیرهای GPS پیشین را مرور کنید.  
 
-4. Find your file in "Choose File". Label it in the Description
-box, give it some Tags, and chose what type of Visibility it will have.
-If you have many .gpx files you can compress them into a zip archive and
-upload it. It will be treated as one large gpx file and only one entry
-on the trace list will be created. 
+4. با استفاده از "Choose File" فایل خود را پیدا کنید. در 
+کادر توضیح برای آن نام گذاشته چند تگ به آن بدهید و نوع دیده شدن آنرا انتخاب کنید.
+اگر تعداد زیادی فایل gpx. دارید می‌توانید آنها را در یک زیپ فشرده کرده و
+آپلود کنید. با آن به مثابه یک فایل بزرگ gpx رفتار شده و تنها یک مدخل در 
+لیست مسیرها برای آن ایجاد می‌شود. 
 
 ![Online Upload Traces Options][]
 
-5. Click *Upload*.
+5. *آپلود* را کلیک کنید.
 
-  The file will be uploaded to the OSM server, where it will join the
-queue of files waiting to be inserted into the database.
+  فایل در سرور OSM آپلود می‌شود تا در آنجا 
+در صف فایلهای منتظر اضافه شدن به پایگاه داده قرار گیرد.
 
 [Plug Icon]: /images/josm/josm-plugins_image00_plug-icon.png
 [Restart JOSM]: /images/josm/josm-plugins_image01_restart-josm.png

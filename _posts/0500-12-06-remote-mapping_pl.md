@@ -18,28 +18,28 @@ Humanitarian OpenStreetMap Team (HOT) jest globalną społecznością pracując�
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
-The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.  
+Większość działań reagowania HOT odbywa się zdalnie. Po wystąpieniu katastrofy, członkowie HOT szukają istniejących danych i dostępnych podkładów satelitarnych. Odpowiedni partnerzy są proszeni o dostarczenie podkładów zgodnych z ODbL. Po uzyskaniu podkładu wirtualna społeczność przenosi dane do postaci cyfrowej lub odwzorowuje podkłady (zazwyczaj skupia się na rozpoznawalnych obiektach, które są użyteczne dla służb humanitarnych takich, jak drogi, budynki, zablokowanie drogi, zasięg powodzi, itp.) i generuje dane oraz mapy. W tym czasie nawiązuje się kontakt z organizacjami pomocowymi, aby określić ich potrzeby.  
 
-Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
+Biorąc pod uwagę skalę kryzysu, HOT rozdziela potrzebne zasoby i wsparcie jest koordynowane przez odpowiedni zespół lub członka, który upewnia się, że każdy wie kiedy nowe zasoby są dostępne, jak również na czym skupić wysiłki. HOT popiera zaangażowanie społeczności OSM i, jeśli istnieją, lokalnych postaci do używania narzędzi takich, jak Tasking Manager do koordynowania wysiłków wsparcia. Przykładami mogą być zdalne działania wykonane w Wybrzeżu Kości Słoniowej, Senegalu, Filipinach, czy Demokratycznej Republice Konga.  
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
 ### Menedżer zadań HOT 
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
+[HOT Tasking Manager](http://tasks.hotosm.org/) jest otwartoźródłowym narzędziem zaprojektowanym do rozdzielenia mapowania na mniejsze zadania, które mogą być szybko wykonane. Pokazuje ono, które obszary wymagają mapowania, a które weryfikacji przez innych. Zawiera zadania mapowania dla [Aktywacji](http://wiki.openstreetmap.org/wiki/HOT_activation) oraz długoterminowych [Projektów Humanitarnych](http://hot.openstreetmap.org/projects).  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
+Aby używać HOT Tasking Managera musisz zalogować się nazwą użytkownika i hasłem z OpenStreetMap (OSM). Więcej wskazówek znajdziesz w [Samouczku Tasking Managera](http://learnosm.org/pl/coordination/tasking-manager/).  
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Narzędzia edycji 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
+[iD](http://learnosm.org/pl/beginner/id-editor/) - przeglądarkowy edytor z bardzo przyjaznym interfejsem stworzony przez [Mapbox](www.mapbox.com). Uznawany ogólnie za najlepsze narzędzie do edycji na początek. Możesz uruchomić ten [interaktywny samouczek edytora iD](http://ideditor.com/), aby zapoznać się z tym, jak go używać.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
+[JOSM](https://josm.openstreetmap.de/) - aplikacja Java wymawiana jako "Dżas-um", która wymaga pobrania i ma wyższą krzywą uczenia się. Jakkolwiek zajmuje więcej czasu, aby zainstalować i nauczyć się jej, to jest bardzo szybka przy wykonywaniu wielu edycji. W tym edytorze zalecane jest używanie myszy.  
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
@@ -53,7 +53,7 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
  
 ### Inne źródła 
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
+Ten przewodnik został stworzony z wielu istniejących źródeł samouczków i działającego Przewodnika HOT. Możesz znaleźć więcej źródeł do nauki w poniższych linkach.  
 
 #### Samouczki
 
