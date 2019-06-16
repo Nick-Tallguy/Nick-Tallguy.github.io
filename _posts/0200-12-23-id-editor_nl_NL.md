@@ -43,22 +43,22 @@ iD Editor User Interface
     Teken een gebied (polygoon), *sneltoets* **3** ![image5][]{: height="24px"}  
     Ongedaan maken, *sneltoets* **Ctrl+z** ![image6][]{: height="24px"}  
     Opnieuw doen, *sneltoets* **Crtl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    Bewerkingen opslaan, *sneltoets* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Kaartpaneel:** Dit venster toont verschillende configuratie opties:  
     Inzoomen, *sneltoets* **+** ![image9][]{: height="24px"}  
     Uitzoomen, *sneltoets* **-** ![image10][]{: height="24px"}  
     Ga naar uw locatie ![image11][]{: height="24px"}  
     Achtergrondlaag configureren, *sneltoets* **b** ![image12][]{: height="24px"}  
     Kaartgegevens, *sneltoets* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    Problemen, *shortcut key* **i** ![Issues][]{: height="24px"}  
     Menu Help openen, *sneltoets* **h** ![image13][]{: height="24px"}  
 4. **Informatiepaneel:** Dit paneel toont verschillende informatie, zoals de schaalbalk en welke gebruikers hebben bijgedragen aan dit gebied.  
 
-## Configuring the Background Layer
+## De achtergrondlaag configureren 
 
 Klik op de knop **Achtergrondinstellingen** of gebruik de *sneltoets* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Je kunt **de achtergrondlaag wijzigen** op basis van de provider van je voorkeur (de standaard is Bing Aerial Imagery).  
 
 Je kunt je eigen kaarttegels toevoegen door te klikken op **Aangepast**. Bijvoorbeeld, als je **een Field Paper wilt toevoegen** [^fieldpaper], klik op **Aangepast**, klik dan op het pictogram Vergrootglas (zoeken) om het volgende venster te openen:-  
 ![image17][]   
