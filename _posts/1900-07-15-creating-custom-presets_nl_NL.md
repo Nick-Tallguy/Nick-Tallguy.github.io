@@ -9,7 +9,6 @@ category: josm
 JOSM - Aangepaste voorkeuzen maken
 =======================
 
-> Bijgewerkt 20-09-2015  
 
 In het [vorige hoofdstuk](/nl_NL/josm/josm-presets) hebben we gekeken hoe menu's voor aangepaste voorkeuzen kunnen worden toegevoegd aan JOSM. In dit hoofdstuk zullen we behandelen hoe u uw eigen bestanden voor aangepaste voorkeuzen maakt.  
 
@@ -103,13 +102,15 @@ Het element &lt;text&gt; maakt een blanco veld. Wanneer het formulier in JOSM wo
 
 Het vak voor het keuzemenu op het formulier wordt gedefinieerd op de volgende regel:  
 
-      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" display_values="Residential, Commercial, Industrial"/>
+      <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
+      <display_values="Residential, Commercial, Industrial"/>
 
 Een vak voor een keuzemenu wordt gedefinieerd door het element &lt;combo&gt;. Net als met het element &lt;text&gt;, definieert het attribuut *key* de sleutel voor de tag. De waarde wordt dan gekozen uit een lijst met mogelijke *values*. Het attribuut *display_values* stelt u in staat om te kiezen om verschillende namen weer te laten geven in het vak van het keuzemenu, wat gemakkelijker zou kunnen worden begrepen dan de waarden van de tags voor OSM.  
 
 Laten we tenslotte nog eens kijken naar de regel die het keuzevak definieert.  
 
-      <check key="building:vacant" text="Is the building vacant?" default="off" delete_if_empty="true" />
+      <check key="building:vacant" text="Is the building vacant?" default="off" /> 
+      <delete_if_empty="true" />
 
 Het element &lt;check&gt; definieert - u raadde het al! - het keuzevak. Het attribuut *default="off"* geeft aan dat het keuzevak standaard niet geselecteerd is. De resterende attributen heeft u al eerder gezien.  
 

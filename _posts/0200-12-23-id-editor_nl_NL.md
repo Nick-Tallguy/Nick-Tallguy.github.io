@@ -66,9 +66,9 @@ en voer jouw **FieldPaper snapshot URL** in, die er waarschijnlijk ongeveer zo u
 **GPS-sporen inladen vanaf uw computer** (GPX-indeling), het GPX-bestand in het scherm van iD editor slepen en neerzetten.  
 **OpenStreetMap GPS-sporen** aanzetten, klik op het vak. In onderstaande afbeelding zie je publieke GPS-sporen weergegeven in verschillende kleuren, die de reisrichting aangeven.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Klik op **Display Options** om het **uiterlijk van de afbeelding** te wjzigen.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Als er een [imagery offset](/en/josm/aerial-imagery) is, kun je **de verschuiving van de afbeelding corrigeren** door te klikken op **Repareer de ligging**.  
 ![image18][]  
 
 - Klik op de navigatieknoppen om de luchtfoto te verplaatsen. Klik op de knop Herstellen om terug te gaan naar de originele positie. ![image20][]  
@@ -85,7 +85,7 @@ Klik op de knop **Punt** om een nieuw punt toe te voegen. ![image3][]{: height="
 -⇥ Je ziet dat een nieuw punt is toegevoegd. Tegelijk zal het linker paneel veranderen in een formulier waar je tags kunt toevoegen aan het punt. Klik **omgeving Ziekenhuis** om het punt aan te merken als ziekenhuis.  
 ![image22][]  
 -⇥ Je kunt de formulieren gebruiken om gedetailleerde informatie toe te voegen aan het punt. Je kunt de naam van het ziekenhuis toevoegen, een adres en/of andere informatie. Onthoud dat elk punt andere opties heeft, afhankelijk van welke tag je kiest uit het paneel met objecten.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Als je een fout maakt, zoals een verkeerde locatie, kun je het punt verplaatsen naar een nieuwe locatie door de linker muisknop ingedrukt te houden op het punt en het te verslepen. Of, als je het punt wilt verwijderen, klik met de linker muisknop op het punt, activeer het contextmenu door met de rechter muisknop te klikken en klik dan op het pictogram dat op een prullenbak lijkt. ![PointToolDelete][]{: height="24px"}  
 Een "punt", aangemaakt in de iD editor is een opzichzelf staande "node" met een aantal "tags" eraan.  
 
 ### Lijnen tekenen  
@@ -96,22 +96,22 @@ Klik op de knop **Lijn** om een nieuwe lijn toe te voegen. ![image4][]{: height=
 ![image24][]  
 - Net als met het punt, selecteer de juiste tags voor je lijn.  
 - Je kunt punten van de lijn slepen door met de linker muisknop op een punt te klikken en dat te slepen.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- Als je op met de linker muisknop op een individueel punt (node) op de lijn klikt en klikt ofwel met de rechter muisknop of met de spatiebalk om het contextmenu te activeren, zie je de volgende gereedschappen:  
+  - Lijn voortzetten vanaf dit punt ![PointToolContinue][]{: height="24px"}  
+  - Lijnen losmaken op dit punt ![PointToolDisconnect][]{: height="24px"}  
+  - Lijn in twee lijnen splitsen op dit punt. ![PointToolSplit][]{: height="24px"}  
+  - Punt van de lijn verwijderen. ![PointToolDelete][]{: height="24px"}  
 - Als je met je linker muisknop op een lijn klikt (maar niet op een punt), zie je de volgende gereedschappen:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  - Maak een cirkel van een lijn (alleen actief als de lijn gesloten is) ![LineToolCircularize][]{: height="24px"}  
+  -   Lijn losmaken van andere objecten ![LineToolDisconnect][]{: height="24px"}  
+  - Lijn verplaatsen ![LineToolMove][]{: height="24px"}  
+  -   Alle hoeken loodrecht maken ![LineToolSquare][]{: height="24px"}  
+  -   Reflecteer de lijn langs zijn korte as ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflecteer de lijn langs zijn lange as ![LineToolReflectLong][]{: height="24px"}  
+  - Verander de richting van de lijn (goed voor rivieren & éénrichtingsverkeer) ![LineToolReverse][]{: height="24px"}  
+  -   De lijn langs zijn centrum draaien ![LineToolRotate][]{: height="24px"}  
+  -   De lijn recht maken ![LineToolStraighten][]{: height="24px"}  
+  -   Lijn verwijderen. ![LineToolDelete][]{: height="24px"}  
 
 Een "lijn" toegevoegd in de iD editor is een "weg" met "tags" eraan gekoppeld.
 
@@ -138,13 +138,13 @@ Wanneer u een van de omtrekken van de nieuw gemaakte multipolygoon selecteert, k
 
 ![part of multipolygon][]
 
-## Issues
+## Problemen
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+De bewerker voert een aantal controles uit zodra u iets bewerkt. Als het denkty dat wat u deed zou kunnen orgen voor problemen, geeft het daarvan bericht op de tab problemen. Wanneer het pictogram voor problemen aan de rechterkant een gele (voor waarschuwingen) of rode (voor fouten) punt bevat zou u de tab moeten openen en kijken wat het bericht is. Deze informatie wordt ook weergegevben in de tab van het object aan de linkerkant als het relevante object is geselecteerd. U wordt ook gewaarschuwd als er niet opgeloste problemen zijn wanneer u uw gegevens upload. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+Het onderste gedeelte van de tab Problemen geeft de beschikbare regels weer en stelt u in staat ze individueel uit te sachakelen, hoewel dat niet wordt aanbevolen.
 
 Bewerkingen opslaan
 --------------------
@@ -159,11 +159,11 @@ Wanneer (en als) je je bewerkingen wilt opslaan in OpenStreetMap, klik dan op de
 Extra informatie en Aangepaste Tags
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Wanneer je een object bewerkt, zul je een menu "Veld toevoegen" zien aan de onderkant van het attributenpaneel. Je kunt diverse aanvullende informatie toevoegen door een van de items (laag, hoogte, Wikipedia etc.) te selecteren.  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Of je kunt aangepaste tags toevoegen door te klikken op **Alle tags**. ![image44][]{: height="24px"}  
 
 - Dit zal alle tags weergeven die aan het object zijn gekoppeld.  
 ![image45][]  
