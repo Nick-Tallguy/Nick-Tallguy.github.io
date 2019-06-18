@@ -119,7 +119,7 @@ Uw eigen bestand voor voorkeuzen maken
 
 De beste manier om uw eigen bestand voor voorkeuzen te maken is door er een te nemen dat al bestaat, en bewerk dat zodat het voldoet aan uw doel. U mag dit voorbeeldbestand vrijelijk bewerken en er mee experimenteren om de basisbeginselen te leren. Onthoud echter dat, elke keer als u het hebt opgeslagen, u JOSM opnieuw zult moeten starten om de wijzigingen te laden.  
 
-Vóórdta u begint met het maken van uw eigen voorkeuzen, dient u zorgvuldig na te denken over de tags die u gaat gebruiken. Nieuwe tags uitvinden is een onderwerp op zich. In het algemeen dient u zoveel mogelijk bestaande tags van OSM te gebruiken, als zij bestaan. De meeste bestaande tags zijn vermeld op de [pagina Map Features op de wiki van OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+Vóórdat u begint met het maken van uw eigen voorkeuzen, dient u zorgvuldig na te denken over de tags die u gaat gebruiken. Nieuwe tags uitvinden is een onderwerp op zich. In het algemeen dient u zoveel mogelijk bestaande tags van OSM te gebruiken, als zij bestaan. De meeste bestaande tags zijn vermeld op de [pagina Map Features op de wiki van OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
 
 Dit voorbeeldbestand bevat de meeste elementen die u zult vinden in een bestand voor voorkeuzen voor JOSM - er zijn niet erg veel elementen voor formulieren. Als u zou willen experimenteren met een meer complex bestand voor voorkeuzen, download dan hier het bestand [dhaka_presets.xml](/files/dhaka_presets.xml).  
 
