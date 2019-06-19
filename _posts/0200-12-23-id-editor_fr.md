@@ -43,7 +43,7 @@ Interface Utilisateur de l’Éditeur iD
     Tracer un polygone (forme), *raccourci* **3** ![image5][]{: height="24px"}  
     Annuler, *raccourci* **Ctrl+z** ![image6][]{: height="24px"}  
     Rétablir, *raccourci* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    Sauvegardez les modifications, *raccourci clavier* **Ctrl+s** ![image8][]{: height="32px"}  
 3. ***Carte :*** Ce panel affiche plusieurs fonctions de configuration :  
     Zoomer, *raccourci* **+** ![image9][]{: height="24px"}  
     Dézoomer, *raccourci* **-** ![image10][]{: height="24px"}  
@@ -54,11 +54,11 @@ Interface Utilisateur de l’Éditeur iD
     Aide, *raccourci* **h** ![image13][]{: height="24px"}  
 4. **Panel d’information :** Ce panel affiche des informations variées telles que l’échelle et les utilisateurs ayant contribué à cette zone.  
 
-## Configuring the Background Layer
+## Configurer le calque de fond
 
 Cliquez sur le bouton **Paramètres du fond de carte** ou utilisez le *raccourci* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Vous pouvez changer le calque de fond en fonction du fournisseur  de tuiles désiré (par défaut l'imagerie aérienne Bing).  
 
 Vous pouvez ajouter vos propres tuiles en cliquant sur **Personnalisé**. Par exemple, si vous souhaitez ajouter un **Field Paper** [^fieldpaper], cliquez sur **Personnalisé** puis cliquez sur l’icône de loupe (rechercher) pour ouvrir la fenêtre suivante :-  
 ![image17][]   
@@ -97,21 +97,21 @@ Pour ajouter une nouvelle ligne, cliquer sur le bouton **Ligne**. ![image4][]{: 
 - Comme pour un point, sélectionnez les attributs appropriés pour votre ligne.  
 - Vous pouvez déplacer des points de la ligne en faisant un clic gauche sur un point et en le glissant.  
 - When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+  - Continuer la ligne depuis ce point ![PointToolContinue][]{: height="24px"}  
+  - Séparer les lignes en ce point ![PointToolDisconnect][]{: height="24px"}  
+  - Diviser la ligne en deux lignes au niveau du point sélectionné ![PointToolSplit][]{: height="24px"}  
+  - Supprimer le point de la ligne. ![PointToolDelete][]{: height="24px"}  
 - Quand vous faites un clic gauche sur une ligne (mais pas sur un point), vous pouvez voir ces outils :  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
+  - Créer un cercle à partir d'une ligne (disponible seulement si la ligne fait une boucle fermée). ![LineToolCircularize][]{: height="24px"}  
   -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  - Déplacer une ligne. ![LineToolMove][]{: height="24px"}  
+  - Rendre tous les angles rectangulaire ![LineToolSquare][]{: height="24px"}  
+  - Transformer la ligne par effet miroir le long de son axe court ![LineToolReflectShort][]{: height="24px"}  
+  - Transformer la ligne par effet miroir le long de son axe long ![LineToolReflectLong][]{: height="24px"}  
+  - Inverser la direction de la ligne (utile pour les rivières et les rues à sens unique). ![LineToolReverse][]{: height="24px"}  
+  - Rotation de la ligne autour de son centre ![LineToolRotate][]{: height="24px"}  
+  - Rendre la ligne droite ![LineToolStraighten][]{: height="24px"}  
+  - Supprimer la ligne. ![LineToolDelete][]{: height="24px"}  
 
 Une « ligne » créée dans l'éditeur iD est en fait un « chemin » (« way ») avec des « attributs » (« tags ») associés.
 
@@ -138,7 +138,7 @@ Lorsque vous sélectionnez un des contours du multipolygone nouvellement créé,
 
 ![part of multipolygon][]
 
-## Issues
+## Problèmes
 
 The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
 
