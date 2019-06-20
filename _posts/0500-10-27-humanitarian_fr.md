@@ -18,7 +18,7 @@ Comme vous, nous souhaitons aider aussi vite que possible et il y a une véritab
 
 We are constantly updating our software & training guides, but it does take time. The software in the Tasking Manager will be updated soon so that only experienced people can review mapping work and mark it as "validated", but at the moment we ask that the "validation" process be left for the most experienced mappers - please keep mapping and you will become one of our mapping validators in the future. **If you select a task square and the green button says 'Review the work' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
 
-We don't need you to read all of this site before you start, but we do need you to understand the basics:  
+Nous ne vous demandons pas de lire l’intégralité de ce site avant de commencer mais nous avons besoin que vous compreniez les bases.  
 
 1.  You need to carefully read the Task Manager Instructions for any project you would like to help map. They can be different, so make sure you read & understand them. There is a full description of how to use the [Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/), and it includes how to get live help from an experienced mapper.  
 

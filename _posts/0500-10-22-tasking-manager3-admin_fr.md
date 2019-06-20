@@ -174,9 +174,9 @@ Voir les notes ci-dessous sur la création de bonnes instructions.
 
 **Organisation** - Vous permet de spécifier l'organisation qui utilisera les données cartographiées. Utilisé dans le filtrage de projet.
 
-**Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
+**Campagne** – Cela vous permet de grouper le projet avec d'autres projets qui font partie d'un effort de cartographie plus large. La valeur est utilisée pour filtrer la liste des projets. 
 
-### Priority Areas
+### Zone prioritaires
 
 ![TM Priority Area][]
 
@@ -184,7 +184,7 @@ Use the provided tools to draw areas that should be mapped first. You can have m
 
 > During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
 
-### Imagery
+### Imagerie
 
 URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
 
@@ -200,9 +200,9 @@ Require Validator Role - This allows you to require that people doing validation
 
 Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
 
-### Settings
+### Paramètres
 
-Default Locale - Allows the setting of default instructions language for a project.
+Langue (locale) par défaut – Permet de configurer le langage par défaut des instructions d'un projet.
 
 ### Actions
 
@@ -218,11 +218,11 @@ Delete Project - This will permanently delete the project from the Tasking Manag
 
 Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
 
-### Instruction Notes
+### Instructions
 
-Please use plain language as your target audience may not consist of native English speakers.
+Merci d'utiliser un langage simple (en anglais) car votre audience cible peut être composée de personnes ne parlant pas anglais nativement.
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
+1. Le titre du projet devrait déjà révéler quels entités doivent être cartographiées. Préférez un titre tel que
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
 2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
 3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
@@ -230,7 +230,7 @@ Please use plain language as your target audience may not consist of native Engl
 5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
 
 
-### Considerations concerning Imagery
+### Considérations liées à l'imagerie
 
 In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
 

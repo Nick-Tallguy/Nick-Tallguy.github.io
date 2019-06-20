@@ -82,9 +82,9 @@ Klik op de knop **Punt** om een nieuw punt toe te voegen. ![image3][]{: height="
 
 - Je muisaanwijzer zal veranderen in een plus (+) teken. Klik vervolgens op een plek in de kaart die je kent om een locatie aan te wijzen. Bijvoorbeeld als je weet dat er een ziekenhuis in je gebied is, klik op de positie van het ziekenhuisgebouw.  
 ![image21][]  
--⇥ Je ziet dat een nieuw punt is toegevoegd. Tegelijk zal het linker paneel veranderen in een formulier waar je tags kunt toevoegen aan het punt. Klik **omgeving Ziekenhuis** om het punt aan te merken als ziekenhuis.  
+- Je ziet dat een nieuw punt is toegevoegd. Tegelijk zal het linker paneel veranderen in een formulier waar je tags kunt toevoegen aan het punt. Klik **omgeving Ziekenhuis** om het punt aan te merken als ziekenhuis.  
 ![image22][]  
--⇥ Je kunt de formulieren gebruiken om gedetailleerde informatie toe te voegen aan het punt. Je kunt de naam van het ziekenhuis toevoegen, een adres en/of andere informatie. Onthoud dat elk punt andere opties heeft, afhankelijk van welke tag je kiest uit het paneel met objecten.  
+- Je kunt de formulieren gebruiken om gedetailleerde informatie toe te voegen aan het punt. Je kunt de naam van het ziekenhuis toevoegen, een adres en/of andere informatie. Onthoud dat elk punt andere opties heeft, afhankelijk van welke tag je kiest uit het paneel met objecten.  
 - Als je een fout maakt, zoals een verkeerde locatie, kun je het punt verplaatsen naar een nieuwe locatie door de linker muisknop ingedrukt te houden op het punt en het te verslepen. Of, als je het punt wilt verwijderen, klik met de linker muisknop op het punt, activeer het contextmenu door met de rechter muisknop te klikken en klik dan op het pictogram dat op een prullenbak lijkt. ![PointToolDelete][]{: height="24px"}  
 Een "punt", aangemaakt in de iD editor is een opzichzelf staande "node" met een aantal "tags" eraan.  
 

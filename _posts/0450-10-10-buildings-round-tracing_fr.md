@@ -56,7 +56,7 @@ Voir aussi
 
 
 [keymon]:/images/hot-tips/keymon.png
-[Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[Round Buildings]: /images/hot-tips/round_building.gif "Démonstration d'une cartographie de bâtiment circulaire"
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Bâtiment circulaire à proximité d'un buisson"
 [back arrow]: /images/beginner/back-arrow.png "Annuler"
 [building-video]: /images/hot-tips/building-video.png "Vidéos tutoriel de l’équipe Humanitaire OpenStreetMap - Ajouter un bâtiment dans OpenStreetMap"

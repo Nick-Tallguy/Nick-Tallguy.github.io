@@ -9,14 +9,14 @@ category: osm-data
 PostgreSQL و PostGIS
 ====================
 
-> Reviewed 2016-09-10
+تاریخ بازبینی ۱۳۹۵/۰۶/۲۰
 
-In this chapter we will see how to set up PostgreSQL on Windows and how to create a database in which you can store geographic data. We'll be using the open source GIS software QGIS in this chapter, so it will be helpful if you are already familiar with it. In the following chapter, we will see how to import OpenStreetMap data into a PostgreSQL database.  
+در این فصل، خواهیم دید چگونه PostgreSQL را روی ویندوز تنظیم و یک پایگاه داده که بتواند داده‌های جغرافیایی را ذخیره کند، ایجاد کنیم. ما در این فصل از QGIS که نرم‌افزار منبع باز GIS است استفاده خواهیم کرد، بنابراین اگر قبلاْ با آن آشنایی دارید، مفید خواهد بود. در فصل بعد خواهیم دید چگونه داده‌های OpenStreetMap را به پایگاه داده PostgreSQL وارد کنیم.  
 
-Installing PostgreSQL and PostGIS
+نصب PostgreSQL و PostGIS
 ----------------------------------
 
-In this section we will install PostgreSQL and then add the PostGIS spatial extensions. This is fairly easy to setup using the One-Click Installer. Navigate your web browser to the PostgreSQL website and the download page <http://www.postgresql.org/download/>  
+در این بخش PostgreSQL را نصب می‌کنیم و سپس پسوندهای PostGIS را اضافه می‌کنیم. با استفاده از نصب‌کننده یک کلیکی این تنظیم بسیار آسان است. با مرورگر وب خود به وبسایت PostgreSQL و صفحه دانلود <http://www.postgresql.org/download/> بروید.   
 
 ![postgresql website][]
 
