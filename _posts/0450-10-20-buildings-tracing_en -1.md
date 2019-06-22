@@ -20,7 +20,8 @@ The Essentials
 
 Points to note;  
 
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners.  
+- To finish tracing an area, double click on the last point,
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
 - Make sure you tag!  
 - Size matters - *population estimates are based on the cumulative building area in a given area*,  
 - the right size building the right way round will help people locate their village,  
