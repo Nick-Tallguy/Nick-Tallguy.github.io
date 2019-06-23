@@ -9,6 +9,7 @@ category: coordination
 Vẽ các loại đường, tòa nhà, vùng nước và các hình thức sử dụng đất
 ===========================================
 
+> Reviewed 2016-02-08  
 
 Tiếp theo từ phần [Remote, Armchair & Mapathon của phần LearnOSM](/vi/coordination/remote/), bạn sẽ cần nếu bạn không có kinh nghiệm lập bản đồ cho HOT.  
 

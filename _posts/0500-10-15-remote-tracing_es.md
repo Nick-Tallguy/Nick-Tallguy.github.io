@@ -9,6 +9,7 @@ category: coordination
 Trazando caminos, edificios, cuerpos de agua y uso del suelo
 ===========================================
 
+> Revisado 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
 
