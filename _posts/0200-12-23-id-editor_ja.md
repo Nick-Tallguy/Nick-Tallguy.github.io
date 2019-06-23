@@ -9,6 +9,7 @@ category: beginner
 iD エディタ
 =============
 
+> Reviewed 2019-06-10
 
 HOTやMissingMapsなどでTasking Managerを利用する際には、[HOT TIPSセクション](/ja/hot-tips/)も参照してください。  
 

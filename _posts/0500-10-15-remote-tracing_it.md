@@ -9,7 +9,6 @@ category: coordination
 Disegnare strade, edifici, corpi d'acqua e uso del terreno
 ===========================================
 
-> Revisionato il 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
 
@@ -32,7 +31,7 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
 
-### Autostrade - Come mapparle
+### <a name="highways-howto"></a> Highways - How to map
 
 ![iD 3][]
 
@@ -91,7 +90,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 *  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
 
 
-### landuse=residential - how to map
+### <a name="residential-howto"></a> landuse=residential - how to map
 
 
 ** In un mondo ideale **  
@@ -134,7 +133,7 @@ Buildings are added to the map data for a number of reasons;
 *  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
 
 
-### Buildings - How to Map
+### <a name="buildings-howto"></a> Buildings - How to Map
 
 The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
 
@@ -147,9 +146,9 @@ Unless the project instructions specify otherwise, buildings should be tagged **
 
 *  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 's').  
+> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 'q').  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/more-tools/#the-buildings-tools-plugin)  
+*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/josm-more-plugins/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 

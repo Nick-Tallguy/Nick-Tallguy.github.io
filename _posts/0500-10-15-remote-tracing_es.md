@@ -9,7 +9,6 @@ category: coordination
 Trazando caminos, edificios, cuerpos de agua y uso del suelo
 ===========================================
 
-> Revisado 2016-02-08  
 
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
 
@@ -32,7 +31,7 @@ Software de navegacion tales como los artefactos Garmin y aplicaciones en smartp
 -  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
 -  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
 
-### Carreteras - cómo mapear
+### <a name="highways-howto"></a> Highways - How to map
 
 ![iD 3][]
 
@@ -91,7 +90,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 *  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
 
 
-### landuse=residential - cómo mapear
+### <a name="residential-howto"></a> landuse=residential - how to map
 
 
 ** En un mundo ideal **  
@@ -134,7 +133,7 @@ Buildings are added to the map data for a number of reasons;
 *  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
 
 
-### Edificios - Cómo Mapear
+### <a name="buildings-howto"></a> Buildings - How to Map
 
 La vasta mayoría de los edificios que requieren de mapeo para HOT son basados en formas rectangulares con esquinas cuadradas o son redondos. Si un edificio aparente tener una mezcla de ambos, es más probable que estés viendo un edificio cuyo contorno esté oscurecido por una sombra, reflejo, follaje o similar.  
 
@@ -147,9 +146,9 @@ A menos que las instrucciones del proyecto indiquen lo contrario, los edificios 
 
 * A menudo puede haber demora entre que la imagen satelital es tomada, y el mapeo llevado a cabo. Es posible que el edificio que está mirando que aparenta no tener techo, haya sido ahora completado y habitado. También es posible que esté mirando un edificio con varios pisos, estando los inferiores habitados, y los superiores deshabitados.  
 
->** Mapear edificios usando iD** - cuando esté usando la herramienta de area dentro de iD para crear la forma básica, debe recordar cambiar la etiqueta a building=yes. La configuración por defecto simplemente etiquetará la forma como area=yes. Si su trazado es de un edificio con esquinas cuadradas, por favor tómese el tiempo de cuadricular su item trazado (resáltelo y shortcut´s).  
+> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 'q').  
 
-* JOSM es mucho más rápido para mapear edificios - [herramientas de construcción JOSM se explica aquí.](/es/josm/more-tools/#the-buildings-tools-plugin)  
+*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/josm-more-plugins/#the-buildings-tools-plugin)  
 
 ![Buildings iD][]
 

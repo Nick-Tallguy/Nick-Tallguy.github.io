@@ -9,6 +9,7 @@ category: beginner
 O Editor iD
 =============
 
+> Reviewed 2019-06-10
 
 Está a começar a mapear com o Gestor de Tarefas do HOT ou MissingMaps? Veja a [secção dicas HOT](/pt/hot-tips/).  
 

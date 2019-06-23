@@ -9,6 +9,7 @@ category: beginner
 iD အသုံးပြုတည်းဖြတ်ခြင်း
 =============
 
+> Reviewed 2019-06-10
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 
