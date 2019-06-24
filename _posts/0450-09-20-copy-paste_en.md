@@ -9,6 +9,8 @@ category: hot-tips
 Copying, Pasting & Rotating - iD editor
 ============
 
+> Updated 2019-06-24
+
 ![copy-paste][]
 
 
