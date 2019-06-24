@@ -9,10 +9,10 @@ category: hot-tips
 Rechteckige Gebäude zeichnen - iD editor
 ============
 
+> Updated 2019-06-23
+
 - TOC
 {:toc}
-
-> Überprüft 2016-10-30 -->  
 
 Die Grundlagen
 ----------
@@ -23,7 +23,8 @@ Die Grundlagen
 
 Folgendermaßen ist vorzugehen:  
 
-- Wenn das Gebäude rechteckig sein soll, achten Sie darauf die Ecken auch mit 90 Grad Winkeln einzeichnen oder benutzen Sie das Werkzeug zum Erzeugen rechter Ecken.  
+- To finish tracing an area, double click on the last point,  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
 - Vergessen Sie nicht, Eigenschaften hinzuzufügen!  
 - Die Größe ist wichtig - *Die Bevölkerungsschätzung basiert auf der addierten Grundfläche der Gebäude in dem jeweiligen Gebiet*,  
 - die richtige Gebäudegröße und das richtig ausgerichtete Einzeichnen erleichtert es Menschen, ihr Dorf zu erkennen.  
@@ -59,7 +60,7 @@ Geben Sie ihr Bestes - selbst die Experten werden sich manchmal nicht einig dar�
  Attribute für Gebäude
 -------------
 
-Da wir Gebäude eintragen, die wir noch nie besucht haben und auch sonst nicht kennen, ist der sicherste und beste Weg alle Gebäude mit dem Attribut **building**=**yes** zu versehen, welches Sie bei richtig eingetragenen Gebäuden finden können, indem Sie zum Ende der Eigenschaftsübersicht scrollen und auf **Alle Eigenschaften** klicken.
+Da wir Gebäude eintragen, die wir noch nie besucht haben und auch sonst nicht kennen, ist der sicherste und beste Weg alle Gebäude mit dem Attribut **building**=**yes** zu versehen, welches Sie bei richtig eingetragenen Gebäuden finden können, indem Sie zum Ende der Eigenschaftsübersicht scrollen und auf **Alle Eigenschaften** klicken.  
 
 Siehe auch  
 ---------
