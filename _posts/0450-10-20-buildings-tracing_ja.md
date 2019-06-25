@@ -24,7 +24,7 @@ category: hot-tips
 注意するポイント;  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - タグを付けるのを忘れずに！  
 - サイズの問題 - *人口推定作業は、対象のエリア内に占める建物のエリアの割合で計算します*。  
 - 正しいサイズで正しい位置に描かれた建物は、集落の位置を特定するのに役立ちます。  

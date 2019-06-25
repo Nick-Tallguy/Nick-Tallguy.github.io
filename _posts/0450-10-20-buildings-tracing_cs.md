@@ -24,7 +24,7 @@ Základy
 Hlavní body;  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - správná velikost budovy a správně zakreslená cesta okolo pomůže lidem najít svoji vesnici,  

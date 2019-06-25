@@ -1,10 +1,10 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-whats-new-for-mappers/
-idioma: en
+permalink: /es/coordination/tm-whats-new-for-mappers/
+lang: es
 title: What is new for Mappers in the Tasking Manager 3
-categoría: coordinación
-fecha: 0500-10-21 13:00:00
+category: coordination
+date: 0500-10-21 13:00:00
 ---
 
 # What is new for Mappers in the Tasking Manager 3

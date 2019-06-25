@@ -24,7 +24,7 @@ Các yếu tố cần thiết
 Điểm cần lưu ý;  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Đảm bảo bạn gắn thẻ!  
 - Kích thước - * ước lượng dân số được dựa trên diện tích tích lũy xây dựng trong một khu vực *,  
 - Đúng kích cỡ xây dựng sẽ giúp người dân xác định vị trí thôn,  

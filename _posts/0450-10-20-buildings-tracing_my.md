@@ -24,7 +24,7 @@ category: hot-tips
 မှတ်သားရန်အချက်များ -  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - သင် tag လုပ်ထားသည်ကိုသေချာပါစေ!  
 - အရွယ်အစားကိစ္စရပ်များ - *လူဦးရေခန့်မှန်းခြင်းများသည် ဧရိယာတစ်ခုအတွင်းရှိ တဖြည်းဖြည်း တိုးပွားလာသောအဆောက်အဦးဧရိယာအပေါ်တွင် မူတည်ပါသည်။*  
 - အရွယ်အစားမှန်ကန်သောအဆောက်အဦးရှိခြင်းနှင့် အဆောက်အဦးပတ်လည်ရှိ မှန်ကန်သောလမ်းရှိခြင်းသည် လူများအား ၎င်းတို့ရွာ၏တည်နေရာကို သိရှိအောင် ကူညီနိုင်လိမ့်မည်ဖြစ်သည်။  

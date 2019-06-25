@@ -24,7 +24,7 @@ Die Grundlagen
 Folgendermaßen ist vorzugehen:  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Vergessen Sie nicht, Eigenschaften hinzuzufügen!  
 - Die Größe ist wichtig - *Die Bevölkerungsschätzung basiert auf der addierten Grundfläche der Gebäude in dem jeweiligen Gebiet*,  
 - die richtige Gebäudegröße und das richtig ausgerichtete Einzeichnen erleichtert es Menschen, ihr Dorf zu erkennen.  

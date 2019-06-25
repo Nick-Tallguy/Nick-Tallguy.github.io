@@ -24,7 +24,7 @@ Podstawy
 Do zanotowania;  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Upewnij się, że dodałeś tagi!  
 - Rozmiar ma znaczenie - *szacowanie zaludnienia opiera się na zsumowanej powierzchni budynków w danym obszarze*,  
 - prawidłowy rozmiar budynku, to prawidłowe statystyki, co pomoże ludziom znaleźć ich wioskę.  

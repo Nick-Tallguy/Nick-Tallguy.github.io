@@ -24,7 +24,7 @@ De beginselen
 Punten om te onthouden;  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Zorg er voor dat u tags toevoegt!  
 - Grootte is van belang - *schattingen van bevolkingsaantallen zijn gebaseerd op het cumulatieve gebied met gebouwen in een bepaald gebied*,  
 - de juiste grootte van het gebouw op de juiste manier zal mensen helpen hun woonplaats te lokaliseren,  

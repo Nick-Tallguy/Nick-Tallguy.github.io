@@ -16,139 +16,139 @@ PostgreSQL و PostGIS
 نصب PostgreSQL و PostGIS
 ----------------------------------
 
-در این بخش PostgreSQL را نصب می‌کنیم و سپس پسوندهای PostGIS را اضافه می‌کنیم. با استفاده از نصب‌کننده یک کلیکی این تنظیم بسیار آسان است. با مرورگر وب خود به وبسایت PostgreSQL و صفحه دانلود <http://www.postgresql.org/download/> بروید.   
+در این بخش PostgreSQL را نصب می‌کنیم و سپس پسوندهای PostGIS را اضافه می‌کنیم. با استفاده از نصب‌کننده یک کلیکی این تنظیم بسیار آسان است. با مرورگر وب خود به وبسایت PostgreSQL و صفحه دانلود <http://www.postgresql.org/download/> بروید.  
 
 ![postgresql website][]
 
-From here you can find installation instructions for different operating systems.  Click on the “**Windows**” link.  
-This page explains what the One-Click Installer will do.  It will install three different components:  
+از اینجا می‌توانید دستورات نصب برای سیستم عامل‌های مختلف را پیدا کنید. روی لینک "**Windows**" کلیک کنید.  
+این صفحه توضیح می‌دهد که برنامه نصاب یک کلیکه چه کار خواهد کرد. سه جزء مختلف نصب خواهد شد:  
 
-* **PostgreSQL server**:  The database software, the core component  
-* **pgAdmin III**: The graphical interface for managing your databases  
-* **StackBuilder**: A tool for adding additional applications; we will use this for adding the PostGIS extensions  
+* **سرور PostgreSQL**: نرم‌افزار پایگاه داده، هسته اصلی برنامه  
+* **pgAdmin III**: رابط گرافیکی برای مدیریت پایگاه‌های داده شما  
+* **StackBuilder**: ابزاری برای افزودن برنامه‌های اضافی؛ از این برای افزودن پسوندهای PostGIS استفاده خواهیم کرد  
 
-Click on **Download**.  
+روی **دانلود** کلیک کنید.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version. As of this writing it is version 9.3.1. Click on the button that says **Win x86-32**.  This is the installer for the 32-bit version of Windows.  
+در برنامه نصب‌کننده چندین گزینه مختلف برای نسخه‌های مختلف نرم‌افزار PostgreSQL را مشاهده خواهید کرد. جدیدترین نسخه را دانلود کنید. در زمان نوشتن این مطلب نسخه 9.3.1 است. روی دکمه‌ای که **Win x86-32** نوشته کلیک کنید. این نصب‌کننده نسخه ۳۲ بیتی ویندوز است.  
 
 ![postgresql version][]
 
-When it has finished downloading, run the One-Click Installer.  
+با اتمام دانلود برنامه نصب‌کننده یک کلیکه را اجرا کنید.  
 
 ![install 1][]
 
-Click “**Next**” to navigate through the installation wizard.  The default options should be fine. You will need to provide a password for the first database user (the user is postgres).  This user has superuser privileges, meaning that they can do whatever they want, so don’t forget the password that you use!  
+روی "**Next**" کلیک کنید تا وارد جادوگر نصب شوید. گزینه‌های پیش‌فرض باید مناسب باشند. یک رمز عبور برای اولین کاربر پایگاه داده (کاربر postgres) باید بدهید. این کاربر دارای امتیازات کاربری فوق‌العاده است، به این معنی که می‌تواند هر چیزی که بخواهد می‌تواند انجام دهد، بنابرایین رمز عبوری که استفاده می‌کنید را فراموش نکنید!  
 
-> You can create as many databases as you want using Postgresql.  You might want a database for your geographic data, and separate databases for other projects that you are working on. And you may want different people to have different types of access to these databases.  For this purpose, every database that you create uses the concept of **users** and **roles**.  A database must always be owned by a user, and usually that user will need a password in order to make changes to the database.  Additional users can be given permission to access a database, and they can be given certain roles.  For example, you may want a database user that can only read information from the database, but cannot change it.  Or you may want a user that can add data, but does not have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too much about this, just remember that your database is owned by a **user**, and to access the database you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**, meaning they have permission to do everything with the databases.  
+> می‌توانید با استفاده از Postgresql هر تعداد پایگاه داده‌ای که بخواهید ایجاد کنید. ممکن است یک پایگاه داده برای داده‌های جغرافیایی‌تان و پایگاه داده جداگانه‌ای برای سایر پروژه‌هایی که روی آنها کار می‌کنید، بخواهید. و ممکن است بخواهید که افراد مختلف دسترسی‌های مختلفی به این پایگاه‌های اطلاعاتی داشته باشند. برای این منظور، هر پایگاه داده‌ای که ایجاد می‌کنید، از مفهوم **کاربران** (users) و **نقش** (roles) استفاده می‌کند. یک پایگاه داده همیشه باید متعلق به یک کاربر باشد و معمولاْ آن کاربر به منظور ایجاد تغییرات در پایگاه داده نیاز به یک رمز عبور دارد. اجازه دسترسی به یک پایگاه داده به کاربران بیشتر می‌تواند داده شود و به آنها می‌توان نقش‌های خاصی را اعطا نمود. به عنوان مثال، ممکن است بخواهید که یک کاربر تنها بتواند اطلاعات را از پایگاه داده بخواند، اما نتواند آنها را تغییر دهد. یا ممکن است بخواهید کاربری بتواند داده را اضافه کند، اما مجوز حذف آنها را نداشته باشد. با استفاده از کاربران و نقشها، این امکان‌پذیر است. در حال حاضر بیش از حد نگران این موضوع نباشید، فقط به یاد داشته باشید که پایگاه داده شما متعلق به **کاربر** است، و برای دسترسی به پایگاه داده به نام کاربری و رمز عبور کاربر نیاز دارید. اولین کاربر ما (به نام postgres) یک **ابَرکاربر** (superuser) است، به این معنی که او مجوز انجام همه کاری با پایگاه داده را دارد.  
 
-After you have clicked through the wizard and accepted the default configuration options, the wizard will install everything for you.  It may take a few minutes.  
+پس از اینکه در ساحره نصب چندین کلیک کردید و گزینه‌های پیکربندی پیش‌فرض را پذیرفتید، همه چیز برای شما نصب خواهد شد. ممکن است چند دقیقه طول بکشد.  
 
-When the installation is complete, the wizard will ask you if you want to launch StackBuilder, which is the utility that will allow us to install PostGIS.  Make sure the box is checked before you click “**Finish**.”  
+هنگامی که نصب کامل شد، ساحره نصب از شما می‌خواهد که اگر می‌خواهید StackBuilder را راه‌اندازی کند، این همان ابزاری است که ما را قادر به نصب PostGIS می‌کند. قبل از اینکه روی "**Finish**" کلیک کنید مطمئن شوید تیک را زده باشید.  
 
 ![install 2][]
 
-Now we’ve successfully installed PostgreSQL and we need to add the PostGIS extensions. When the StackBuilder wizard opens, select your PostgresSQL installation from the dropdown menu and click **Next**.  It will look something like this:  
+اکنون ما PostgreSQL را با موفقیت نصب کرده‌ایم و باید افزونه‌های PostGIS را اضافه کنیم. هنگامی که ساحره StackBuilder باز می‌شود، نصب PostgresSQL را از منوی کشویی انتخاب کرده و روی **Next** کلیک کنید. این چیزی شبیه به این خواهد بود:  
 
 ![install 3][]
 
-Open the “Spatial Extensions” tab and check the box next to PostGIS. As of this writing the most recent version of PostGIS is 2.1.  
+زبانه "Extensions Spatial" را باز کنید و کادر کنار PostGIS را علامت بزنید. در زمان این نوشتار جدیدترین نسخه PostGIS 2.1 است.  
 
 ![install 4][]
 
-Click **Next** to download the extensions and install.  When prompted, click “**I Agree**” to accept the terms and conditions.  
+برای دانلود و نصب افزونه‌ها روی **Next** کلیک کنید. هنگام اعلان، برای پذیرفتن شرایط و ضوابط، روی "**I Agree**" کلیک کنید.  
 
-The PostGIS installer will ask more questions, but generally the default options are fine. You can tell it to create the first database automatically, but we will learn how to do that ourselves next. To begin the PostGIS installation you will need to supply the postgres password that you created when you installed PostgreSQL.  
+نصب کننده PostGIS سوالات بیشتری را می‌پرسد، اما به طور کلی گزینه‌های پیش‌فرض خوب هستند. شما می‌توانید به آن بگوئید که اولین پایگاه داده را به طور خودکار ایجاد کند، اما ما یاد خواهیم گرفت که چطور بعداْ خودمان اینکار را انجام دهیم. برای شروع نصب PostGIS باید رمز ورود postgres که هنگام نصب PostgreSQL ایجاد کردید را باید بزنید.  
 
 ![install 5][]
 
-If you are asked to register the **GDAL_DATA** environment variable, click "**Yes**."  
+اگر از شما خواسته شد که متغیر محیطی **GDAL_DATA** را ثبت کنید، روی "**Yes**" را کلیک کنید.  
 
 ![install 6][]
 
-When the installation is completed, click “**Close**” and then “**Finish**.”  
+وقتی نصب کامل شد، روی "**Close**" و سپس "**Finish**"  کلیک کنید.  
 
 ایجاد پایگاه داده
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.  
+اکنون که تمام نرم‌افزارهای لازم را نصب کرده‌ایم، یک پایگاه داده ایجاد خواهیم کرد. از pgAdmin III استفاده خواهیم کرد که یک کلاینت گرافیکی پایگاه داده است و برای پرس‌وجو و تغییر
+پایگاه‌های داده مفید است.  
 
 ![pgadmin3][]
 
-PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin III is an easy way to get started.  
+PgAdmin III کلاینت رسمی PostgreSQL است و به شما اجازه می‌دهد که از زبان SQL برای دستکاری در جداول داده خود استفاده کنید. همچنین امکان ایجاد و دستکاری پایگاه داده از خط فرمان نیز وجود دارد، اما در حال حاضر، pgAdmin III آسان‌ترین راه برای شروع است.  
 
-Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.  
+pgAdmin III را باز کنید. در منوی شروع در قسمت  All Programs-> PostgreSQL 9.3> pgAdmin III باید قرار داشته باشد.  
 
 ![pgadmin3 start][]
 
-In the panel on the left under Servers, right-click where it says PostgreSQL and click “**Connect**.”  
+در پنل سمت چپ در قسمت سرور، روی PostgreSQL راست کلیک کنید و "**Connect**" را انتخاب کنید.  
 
 ![postgresql connect][]
 
-Enter the postgres user password that you created when you installed the software. Remember that the username and password are required so that you can create and access a database.  
+گذرواژه کاربر postgres که هنگام نصب نرم‌افزار ایجاد کردید را وارد کنید. به یاد داشته باشید که نام کاربری و رمز عبور مورد نیاز است تا بتوانید یک پایگاه داده ایجاد کرده و به آن دسترسی داشته باشید.  
 
 ![enter password][]
 
-Right-click on **Databases** and select **New Database**...  
+بر روی **Databases** کلیک راست کرده و **New Database** را انتخاب کنید ...  
 
 ![new database][]
 
-You need to enter a few pieces of information to create the new database: name and owner.  In the Properties tab, give the new database a name.  In this example, we name our database gisdb.  We should also give our database an owner.  Since we only have one user right now, let’s give our database the owner postgres.  (Note: for security reasons it is usually a good idea to create users without superuser permission, but for now we won’t worry about this.)  
+برای ایجاد پایگاه داده جدید باید چند قطعه اطلاعات وارد کنید: نام و مالک. در زبانه Properties، به پایگاه داده جدید یک نام اختصاص بدهید. در این مثال، ما پایگاه داده خود را gisdb نامگذاری می‌کنیم. همچنین بایستی به پایگاه داده خود یک مالک هم بدهیم. از آنجاییکه ما در حال حاضر فقط یک کاربر داریم، اجازه دهید postgres را به عنوان مالک پایگاه اطلاعاتی‌مان بگذاریم. (توجه داشته باشید: به دلایل امنیتی معمولاْ بهتر است که کاربران را بدون اجازه ابَرکاربر ایجاد کنیم، اما ما در حال حاضر درباره این موضوع نگرانی نداریم.)  
 
 ![new database form][]
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin III.  
+برای ایجاد پایگاه داده روی **OK** کلیک کنید. خواهید دید که پایگاه داده‌تان در زیر "**Databases**" لیست شده است. ما اکنون باید یک دستور را اجرا کنیم تا پایگاه داده  با پسوند PostGIS را فعال کنیم. روی دکمه ![sql button][]{: height="24px"} در بالای صفحه PgAdmin III کلیک کنید.  
 
 
 
-In the query window, type:  
+در پنجره پرس‌وجو، تایپ کنید:  
 
-**CREATE EXTENSION postgis;**  
+**;CREATE EXTENSION postgis**  
 
-Then click the "**Execute query**" button.  
+سپس بر روی دکمه "**Execute query**" کلیک کنید.  
 
 ![postgis command][]
 
-Load Sample Data (optional)
+بارگیری اطلاعات نمونه (اختیاری)
 ---------------------------
 
-If you are comfortable so far and are familiar with QGIS, follow along as we load some data into our new database. To do this, we will use a utility that converts shapefiles and loads them into the database.  
+اگر تا به حال با QGIS آشنا هستید و با آن راحت هستید، همراه ما باشید تا تعدادی داده به پایگاه داده جدیدمان بارگیری کنیم. برای انجام این کار، از ابزاری استفاده می‌کنیم که فایلهای شیپ را تبدیل کرده و آنها را در پایگاه داده بارگذاری میکند.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+اطمینان حاصل کنید که پایگاه داده جدیدتان در پنل سمت چپ انتخاب شده است و به **Plugins -> PostGIS Shapefile** and DBF loader 2.1 ** بروید.
 
 ![shapefile loader][]
 
--	Click “**Add File**” and find a shapefile on your filesystem.
--	If you don't have any shapefiles, you can download a sample [here](/files/buildings_sample.zip).
--	Once you have selected a file, click “**Import**.”  If everything goes smoothly, the output will read “**Shapefile import completed**.”
+- 	بر روی "**Add File**" کلیک کنید و یک فایل شیپ در فایل سیستم خود پیدا کنید.
+- 	اگر هیچ فایل شیپی ندارید، می‌توانید یک نمونه را از [اینجا](/files/buildings_sample.zip) دانلود کنید.
+- 	هنگامی که یک پرونده را انتخاب کردید، روی "**Import**" کلیک کنید. اگر همه چیز هموار باشد، در خروجی "**Shapefile import complete**" خوانده خواهد شد.
 
 ![add shapefile][]
 
-Now let's load the data from our database into the QGIS application. If you don't have QGIS you can download it on the [QGIS website](http://www.qgis.org/site/forusers/download.html).  
+اکنون بیایید داده را از پایگاه داده‌مان به برنامه QGIS بارگذاری کنیم. اگر QGIS ندارید می‌توانید آن را در [وبسایت QGIS](http://www.qgis.org/site/forusers/download.html) دانلود کنید.  
 
--	Open QGIS and click the ![qgis add postgis button][]{: height="24px"} button.  
--	Under “Connections” at the top, click “**New**.”  
--	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database). Enter the username postgres and your password below.  
+- QGIS را باز کنید و روی دکمه ![qgis add postgis button][]{: height="24px"} کلیک کنید.  
+- 	در قسمت "Connections" در بالای صفحه، روی "**New**" کلیک کنید.  
+- به اتصال جدید نام بدهید. در قسمت پایگاه داده **gisdb** بنویسید (و یا هر نام دیگری که به پایگاه داده خود داده‌اید). نام کاربری postgres و رمز عبور خود را در زیر وارد کنید  
 
 ![connection settings][]
 
--	Click **OK** to save the connection settings.  Then click “Connect” to connect to your PostgreSQL server.  You may need to enter your username and password again.  
--	If everything is successful, you will see the shapefile layer  (or multiple layers with different features types) that you loaded into the database available here.  Select a layer and click “**Add**” to add it to your map.  
+- 	بر روی **OK** کلیک کنید تا تنظیمات اتصال ذخیره شود. سپس برای اتصال به سرور PostgreSQL روی "Connect" کلیک کنید. ممکن است لازم باشد دوباره نام کاربری و رمز عبور خود را وارد کنید.  
+- اگر همه چیز موفقیت‌آمیز باشد، می‌توانید لایه فایلهای شیپ (یا لایه‌های متعدد با انواع ویژگی‌های مختلف) را که در پایگاه داده موجود در اینجا بارگیری کرده‌اید را ببینید. یک لایه را انتخاب کنید و روی "**Add**" کلیک کنید تا آن را به نقشه خود اضافه کنید.  
 
 ![your data layer][]
 
-When you add the layer you will need to select a coordinate system to display the data in.  You will most likely want to select WGS 84, which is the coordinate system OpenStreetMap uses.  
+هنگامی که لایه را اضافه میکنید، باید یک سیستم مختصات را برای نمایش داده‌ها انتخاب کنید. به احتمال زیاد بخواهید WGS 84 را انتخاب کنید زیراکه سیستم مختصات مورد استفاده در OpenStreetMap است.  
 
-> The layer behaves the same as if you had loaded a shapefile directly into QGIS.  The only difference is that if you edit the layer, the changes will be saved in your database.  
+> این لایه همانند اینکه یک فایل شیپ را مستقیما به QGIS بارگذاری کرده‌اید رفتار می‌کند. تنها تفاوت این است که اگر لایه را ویرایش کنید، تغییرات در پایگاه داده شما ذخیره خواهند شد.  
 
 خلاصه
 -------
 
-Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new database, you're ready to try the utilities which allow us to import raw OSM data into a database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).  
+حالا که چگونگی راه‌اندازی PostgreSQL و PostGIS و همچنین نحوه ایجاد یک پایگاه داده جدید را دیدید، آماده‌اید تا ابزارهایی را امتحان کنید که به ما امکان می‌دهد داده‌های خام OSM را به پایگاه داده وارد کنیم. به این موضوع در [فصل بعدی](/fa/osm-data/osm2pgsql) نگاهی خواهیم انداخت.  
 
 
 

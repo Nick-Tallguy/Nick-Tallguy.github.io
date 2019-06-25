@@ -24,7 +24,7 @@ Le basi
 Punti da tenere a mente:  
 
 - To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (shortcut **q**).  
+- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
 - Assicurati di aggiungere i tag!  
 - Le dimensioni contano - *le stime sulla popolazione sono basate sull'area complessiva degli edifici in una data zona*.  
 - Edifici delle giuste dimensioni e orientati correttamente, aiuteranno le persone ad individuare il loro paese.  
