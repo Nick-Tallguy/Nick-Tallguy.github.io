@@ -9,19 +9,20 @@ category: hot-tips
 ردیابی ساختمانهای مدور - ویرایشگر iD
 ============
 
+> Updated 2019-06-24
+
 - TOC
 {:toc}
 
 ملزومات
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> این تصویر ![keymon]{: height="24px"} به شما نشان می‌دهد که کدام کلیدها و کلید چرخان ماوس بایستی استفاده و کدام کلید از صفحه کلید فشرده شود.  
 
 نکات قابل ذکر؛  
 
-- نقاط خود را در جایی که دیوارها به زمین می‌رسند قرار دهید - حداقل 3 نقطه لازم  است. از ابزار برای مدور کردن آن استفاده کنید.  
+- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
 - مطمئن شوید که تگ گذاشته‌اید!  
 - اندازه مهم است - * برآورد جمعیت بر اساس تجمیع ساختمانها در یک منطقه مشخص صورت می‌گیرد*،  
 - به اندازه کافی برای دیدن جزئیات زوم کنید - مقیاس بزرگنمایی ۲۰ متر یا کمتر معمولاْ کافی است.  
@@ -29,6 +30,16 @@ category: hot-tips
 - ساختمان‌ها با جاده‌ها، رودخانه‌ها، مرز مناطق مسکونی **landuse=residential** و یا سایر ویژگی‌ها نباید همپوشانی داشته باشند.  
 - اگر اشتباه کردید، از دکمه **لغو** استفاده کنید [arrow backward]{: height = "26px"} تا آخرین تغییر(ات) برگردانده شود.  
 - همه ما نقشه را بهبود می‌بخشیم. اگر نقشه‌کش قبلی ساختمانها را به شکل مضحک  یا اشتباه باقی گذاشته باشد، آنها را تصحیح کنید و به یاد داشته باشید که یک پیام مودبانه برای وی ارسال کنید.  
+
+Building - converting square to round
+-------------------------------------
+
+![Square to round][]  
+
+If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+
+- move each of the corners so they are now on the perimeter of the round building,
+- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
 
 تشخیص
 ---------------
@@ -57,6 +68,7 @@ category: hot-tips
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "نمایش کشیدن نقشه ساختمانهای مدور"
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "ساختمان مدور در مجاورت بوته گیاه"
 [back arrow]: /images/beginner/back-arrow.png "برگرداندن"
 [فیلم‌های آموزشی در مورد ساختمان]: /images/hot-tips/building-video.png "فیلم‌های آموزشی گروه بشردوستانه OpenStreetMap - افزودن ساختمان به OpenSstreetMap"
