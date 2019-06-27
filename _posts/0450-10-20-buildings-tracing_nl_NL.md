@@ -9,7 +9,7 @@ category: hot-tips
 Rechthoekige gebouwen traceren - iD editor
 ============
 
-> Updated 2019-06-23
+> Bijgewerkt op 23-06-2019
 
 - TOC
 {:toc}
@@ -23,8 +23,8 @@ De beginselen
 
 Punten om te onthouden;  
 
-- To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
+- Voltooien van het traceren van een gebied: dubbelklik op het laatste punt,  
+- Als het gebouw vierkante hoeken dient te hebben, zorg er dan voor dat u het traceert met vierkante hoeken, of gebruik het gereedschap om de hoeken vierkant te maken (in Engels, sneltoets **q**).  
 - Zorg er voor dat u tags toevoegt!  
 - Grootte is van belang - *schattingen van bevolkingsaantallen zijn gebaseerd op het cumulatieve gebied met gebouwen in een bepaald gebied*,  
 - de juiste grootte van het gebouw op de juiste manier zal mensen helpen hun woonplaats te lokaliseren,  

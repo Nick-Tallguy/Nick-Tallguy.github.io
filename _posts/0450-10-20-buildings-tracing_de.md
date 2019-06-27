@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Rechteckige Gebäude zeichnen - iD editor
+title: Rechteckige Gebäude zeichnen - iD-Editor
 permalink: /de/hot-tips/tracing-rectangular-buildings/
 lang: de
 category: hot-tips
 ---
 
-Rechteckige Gebäude zeichnen - iD editor
+Rechteckige Gebäude zeichnen - iD-Editor
 ============
 
-> Updated 2019-06-23
+> Aktualisiert am 23.06.2019
 
 - TOC
 {:toc}
@@ -23,8 +23,8 @@ Die Grundlagen
 
 Folgendermaßen ist vorzugehen:  
 
-- To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
+- Um das Zeichnen eines Gebiets abzuschließen, doppelklicken Sie auf den letzten Punkt,  
+- Wenn das Gebäude rechtwinklige Ecken haben soll, müssen Sie es mit rechtwinkligen Ecken einzeichnen oder das Werkzeug zum Erzeugen rechtwinkliger Ecken (auf Englisch Tastenkürzel „q“) verwenden.  
 - Vergessen Sie nicht, Eigenschaften hinzuzufügen!  
 - Die Größe ist wichtig - *Die Bevölkerungsschätzung basiert auf der addierten Grundfläche der Gebäude in dem jeweiligen Gebiet*,  
 - die richtige Gebäudegröße und das richtig ausgerichtete Einzeichnen erleichtert es Menschen, ihr Dorf zu erkennen.  

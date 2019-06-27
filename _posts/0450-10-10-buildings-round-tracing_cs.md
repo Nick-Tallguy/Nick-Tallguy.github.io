@@ -9,19 +9,20 @@ category: hot-tips
 Vyznačení kulatých budov - iD editor
 ============
 
+> Updated 2019-06-24
+
 - Obsah
 {:toc}
 
 Základy
 ----------
 
-![Round Buildings][]  
+![Round Buildings][]
 
-> Tento obrázek ![keymon]{: height="24px"} zobrazuje, zda bylo použito tlačítko, kolečko na myši, nebo byla zmáčknuta klávesa na klávesnici.   
 
 Hlavní body;  
 
-- Umístěte body na místo, kde se stýká zeď se zemí - 3 body jsou minimum. Pak použijte nástroj na zakulacení.  
+- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - Dostatečně si přibližte mapu, abyste viděli detaily - přiblížení na 20 metrů a méně je obvykle dostačující.  
@@ -29,6 +30,16 @@ Hlavní body;
 - Budovy by se neměly překrývat s řekami, cestami, **landuse=residential** hranicemi atd.  
 - Pokud uděláte chybu, použijte tlačítko **Zpět** ![back arrow]{: height="26px"} a tím se vrátíte o krok zpět   
 - Všichni vylepšujeme mapu. Pokud předchozí mapeři zanechali budovy podivného nebo špatného tvaru, opravte je a můžete jim o tom ze slušnosti poslat zprávu.  
+
+Building - converting square to round
+-------------------------------------
+
+![Square to round][]  
+
+If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+
+- move each of the corners so they are now on the perimeter of the round building,
+- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
 
 Identifikace
 ---------------
@@ -57,6 +68,7 @@ Shlédněte také
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Kulatá budova vedle keře" 
 [back arrow]: /images/beginner/back-arrow.png "Zpět" 
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team výukové videa - Přidání budovy do OpenStreetMap"

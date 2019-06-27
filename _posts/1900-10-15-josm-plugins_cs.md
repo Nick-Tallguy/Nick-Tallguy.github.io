@@ -53,7 +53,7 @@ Některé z našich oblíbených doplňků jsou:
 - [Tisk]({{site.baseurl}}/cs/beginner/josm-plugins/#print)
 
 We also recommend downloading these plug-ins, which are covered in other
-chapters:
+kapitoly:
 
 - FieldPapers
 - Buildings\_tool
