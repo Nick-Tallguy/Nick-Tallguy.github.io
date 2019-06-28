@@ -19,7 +19,7 @@ The Essentials
 
 ![issues][]
 
-The iD editor contains a 'checking feature' which can show potential problems with any area you are viewing. If you are mapping a square on the Tasking manager, you may wish to alter the settings so that you see potential errors for everything everywhere, so that you are able to check that there are no existing problems to be cleared before you begin your own mapping.  
+The iD editor contains a 'checking feature' which can show potential problems with any area you are viewing. If you are mapping a square on the Tasking manager, you may wish to alter the settings so that you see potential errors for **everything** and **within view**, so that you are able to check that there are no existing problems to be cleared before you begin your own mapping. Be careful that the issue that iD highlights is actually within your allocated square.  
 
 ### Warnings from iD (Issues) ###
 
