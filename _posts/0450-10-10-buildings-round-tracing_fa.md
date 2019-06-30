@@ -9,7 +9,7 @@ category: hot-tips
 ردیابی ساختمانهای مدور - ویرایشگر iD
 ============
 
-> Updated 2019-06-24
+> بروزرسانی شده در تاریخ ۱۳۹۸/۰۴/۰۳
 
 - TOC
 {:toc}
@@ -22,7 +22,7 @@ category: hot-tips
 
 نکات قابل ذکر؛  
 
-- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
+- نقطه‌های خود را در محل رسیدن دیوار به زمین بگذارید - حداقل سه نقطه قرار دهید. برای اتمام کشیدن یک محوطه در نقطه پایانی دوبار کلیک کنید. برای دایره کردن شکل از ابزار استفاده کنید - میانبر آن در انگلیسی حرف **o** می‌باشد.  
 - مطمئن شوید که تگ گذاشته‌اید!  
 - اندازه مهم است - * برآورد جمعیت بر اساس تجمیع ساختمانها در یک منطقه مشخص صورت می‌گیرد*،  
 - به اندازه کافی برای دیدن جزئیات زوم کنید - مقیاس بزرگنمایی ۲۰ متر یا کمتر معمولاْ کافی است.  
@@ -31,15 +31,15 @@ category: hot-tips
 - اگر اشتباه کردید، از دکمه **لغو** استفاده کنید [arrow backward]{: height = "26px"} تا آخرین تغییر(ات) برگردانده شود.  
 - همه ما نقشه را بهبود می‌بخشیم. اگر نقشه‌کش قبلی ساختمانها را به شکل مضحک  یا اشتباه باقی گذاشته باشد، آنها را تصحیح کنید و به یاد داشته باشید که یک پیام مودبانه برای وی ارسال کنید.  
 
-Building - converting square to round
+ساختمان - تبدیل مربع به دایره
 -------------------------------------
 
 ![Square to round][]  
 
-If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+اگر ساختمانی را چهارگوش کشیده‌اید، اما میبینید که دایره است تبدیل آن به دایره راحت است؛
 
-- move each of the corners so they are now on the perimeter of the round building,
-- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
+- همه نقطه‌ها را به اطراف ساختمان دایره شکل جابجا کنید،
+- راست کلیک کنید و از ابزار دایره کردن یا کلید میانبر **o** استفاده کنید - شاید در سایر زبانها حرف دیگری باشد.  
 
 تشخیص
 ---------------

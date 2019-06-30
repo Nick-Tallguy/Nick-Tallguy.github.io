@@ -55,7 +55,7 @@ Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-
     Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
 4. **پانل اطلاعات:** این پانل اطلاعات مختلفی نظیر مقیاس نقشه و اینکه چه کاربرانی در این محدوده مشارکت داشته‌اند را نشان می‌دهد.  
 
-## Configuring the Background Layer
+## پیکربندی لایه پس‌زمینه
 
 Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
 ![image15][]  
@@ -112,7 +112,7 @@ To add a new line, click on the **Line** button. ![image4][]{: height="24px"}
   -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
   -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
   -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   حذف خط. ![LineToolDelete][]{: height="24px"}  
 
 A "line" created in the iD editor is actually a "way" with "tags" on it.
 
@@ -129,7 +129,7 @@ To add a new multi-sided shape, click on the **Area** button. ![image34][]{: hei
 
 A "polygon" in the iD editor is actually a "closed way" with tags on it.
 
-### Drawing Multipolygons
+### ترسیم چندضلعی‌ها
 
 Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
 
@@ -170,7 +170,7 @@ Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px
 ![image45][]  
 - Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
 
-Further tutorials
+آموزشهای بیشتر
 ------------------
 
 [Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.

@@ -6,22 +6,22 @@ lang: fa
 category: coordination
 ---
 
-# Tasking Manager 3
+# مدیریت وظایف ۳
 
 
-**This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager)**
+**این راهنما نسخه حال حاضر مدیریت وظایف را شرح میدهد. اگر رابط کاربری که شما استفاده می‌کنید با چیزی که در اینجا توضیح داده شده است متفاوت باشد بایستی از  [راهنمای نسخه‌های قبلی](/fa/coordination/tasking-manager) استفاده کنید**
 
-Section Index
+فهرست بخش
 -------------
--  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
--  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
-    -  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
-    -  [Options - language settings and user profile](/en/coordination/tasking-manager3/#options-amp-links)  
-    -  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
-    -  [Mapping a Task - select, work on and unlock a task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
--  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
--  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
--  [Validation](/en/coordination/tasking-manager3/#validation)
+-  [راهنمای شروع سریع](/fa/coordination/tasking-manager3/#quick-start-guide)  
+-  [فرآیند نقشه‌کشی](/fa/coordination/tasking-manager3/#mapping-process)  
+    -  [ورود به سیستم](/fa/coordination/tasking-manager3/#tasking-manager-login)  
+    -  [تنظیمات - تنظیمات زبان و پروفایل کاربر](/fa/coordination/tasking-manager3/#options-amp-links)  
+    -  [پیدا کردن پروژه - بر اساس لیست و با استفاده از نمای نقشه، جستجو و فیلتر کردن](/fa/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+    -  [نقشه‌کشی وظیفه - انتخاب، عمل و بازکردن قفل یک وظیفه](/fa/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
+-  [کمک گرفتن - زنده و نماس با مدیر پروژه](/fa/coordination/tasking-manager3/#getting-help)  
+-  [نکات و راهنمایی ها](/fa/coordination/tasking-manager3/#editing-hints-and-tips)
+-  [صحت‌سنجی](/fa/coordination/tasking-manager3/#validation)
 
 The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
 
@@ -29,9 +29,9 @@ OpenStreetMap is a collabarative, crowd sourced, free map of the world. Anyone c
 
 The Tasking Manager is a totally separate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager, you are actually using multiple software tools:
 
-* OpenStreetMap - A database of geographic information
-* The Tasking Manager - Helps coordinate large numbers of people editing OpenStreetMap data in the same area
-* An OpenStreetMap Editor - A software program that can read and write data into the OpenStreetMap database
+* OpenStreetMap - پایگاه اطلاعات جغرافیایی
+* مدیر وظایف - کمک به هماهنگ کردن تعداد زیاد افراد ویرایش‌کننده داده‌های OpenStreetMap در یک منطقه می‌کند
+* ویرایشگر OpenStreetMap - یک برنامه نرم‌افزاری که می‌تواند داده را از پایگاه داده OpenStreetMap بخواند و نیز در آن بنویسد
 
 ![TM overview][]
 
@@ -42,17 +42,17 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ## راهنمای شروع سریع
 
-1. Create an account and login on http://openstreetmap.org/  
+1. یک حساب کاربری ایجاد کنید و به /http://openstreetmap.org وارد شوید  
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
+2. [http://tasks.hotosm.org/](http://tasks.hotosm.org/) را ببینید و از طریق گوشه بالا راست وارد سیستم شوید  
   ![TM Quick Start 2][]
-3. Click on "Contribute" and find a mapping project to work on  
+3. روی "Contribute" کلیک کنید و پروژه‌ای را برای کارکردن پیدا کنید  
   ![TM Quick Start 3][]
-4. Read the instructions for the project  
+4. دستورالعملهای پروژه را بخوانید  
   ![TM Quick Start 4][]
-5. Click the "Map" tab  
+5. زبانه "Map" را کلیک کنید  
   ![TM Quick Start 5][]
-6. Find a "Ready" task to work on, click on it and select "Start Mapping"  
+6. یک پروژه "آماده" برای کار را پیدا کنید، روی آن کلیک کنید و "Start Mapping" را انتخاب کنید  
   ![TM Quick Start 6][]
 7. You will be switched to an OpenStreetMap editor, map all the features asked for in the instructions.  
   ![TM Quick Start 7][]
@@ -68,7 +68,7 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 3. A second remote mapper checks that the task is completed to a satisfactory level and marks the task as 'validated'
 4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
 
-### Tasking Manager Login
+### ورود به سیستم مدیریت وظایف
 
 The Tasking Manager is a separate tool that coordinates mapping in OpenStreetMap. However, it makes use of the OpenStreetMap login system. This means that you do not need to create a separate user account to use the Tasking Manager, but you do need to create an OpenStreetMap account and login to OpenStreetMap before you can use the Tasking Manager for mapping.
 
@@ -84,7 +84,7 @@ Clicking on that button will take you to the OpenStreetMap website. There you wi
 
 Once you are logged into OpenStreetMap you will be returned to the Tasking Manager, clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
 
-### Options & links
+## گزینه‌ها و لینک‌ها
 
 The Task Manager initially displays in English - to change to another language click on **English** in the upper right area of the window.
 
@@ -95,9 +95,9 @@ Once you have logged in, you may click on your username at the top. Here you can
     - View your mapper experience level
     - See a list and map of the projects you have contributed to
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)
-- Logout
+- خروج از سیستم
 
-### Finding a Project - Tasking Manager Contribute Screen
+### پیدا کردن یک پروژه - صفحه مشارکت مدیریت وظایف
 
 Clicking on the "Contribute" link in the main menu bar will take you to the main list of projects in the Tasking Manager.
 
@@ -106,10 +106,10 @@ Clicking on the "Contribute" link in the main menu bar will take you to the main
 The Tasking Manager Contribute screen is divided into three main areas:
 
 - Search and Filter options along the left
-- Project List
+- لیست پروژه
 - Map View of Project List
 
-#### Search and Filter Options
+#### گزینه‌های جستجو و فیلتر
 
 By default all the projects available for mapping are displayed. You can use the Advanced Search filters section of the screen to further narrow down the projects that you would like to work on.
 
@@ -125,7 +125,7 @@ Clicking on the "Map View" tab will show you the number of projects in a region.
 
 ![TM project map][]
 
-### Mapping via the Tasking Manager
+### نقشه‌کشی با مدیریت وظایف
 
 Once you have located a Project to work on, clicking on the Project title will take you to the detailed entry for that Project. This detailed view contains:
 
@@ -139,7 +139,7 @@ Once you have located a Project to work on, clicking on the Project title will t
 
 
 
-#### Project Page
+#### صفحه پروژه‌ها
 
 Everything you need to know about the project is here! At the top is a full description of the mapping project and information about the project.  
 
@@ -155,13 +155,13 @@ Below the description the screen is divided into a left and right section. The l
 - The blue line normally visible in the perimeter squares of a project indicates the border of the project. This border normally follows the available imagery, an administrative boundary, etc, so may appear as an unusual shape. Although mapping may be completed outside this border, it is not a requirement and will not be considered by validators.  
 
 
-#### Instructions Tab
+#### زبانه دستورالعمل‌ها
 This shows what is required in the mapping task. Projects range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
 
 - Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
 - Mapping villages: Often used to identify places where people live and may be impacted  
 - Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+- نقشه‌کشی رودها، دیوارها و سایر عوارض  
 
 Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
 
@@ -171,7 +171,7 @@ Sometimes, task specific imagery may be available - you may need to agree to a l
 
 When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
 
-#### Activity and Stats button  
+#### دکمه فعالیت و آمار  
 
 This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
 
@@ -226,7 +226,7 @@ The editor will load in a new window or tab. Potlatch will not automatically dis
 8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
   
 
-##### Field Papers  
+##### ورقه‌های میدانی  
 
 For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
@@ -238,7 +238,7 @@ Having selected your task and inspected it with the imagery in place, you may re
 > Be aware that other useful comments about the work previously completed will no longer be available.
 
 
-#### Unlocking a Task
+#### بازکردن قفل یک وظیفه
 
 ![TM unlock][]
 
@@ -246,13 +246,13 @@ Having selected your task and inspected it with the imagery in place, you may re
 
 If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
 
-For example:  
+برای مثال:  
 
     Almost complete, small village top left 
     in the task square to be traced though
   
 
-##### Unlocking a Task that is completely mapped
+##### بازکردن قفل یک وظیفه که به صورت کامل نقشه آن کشیده شده است
 
 It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
@@ -268,11 +268,11 @@ When you have finished editing and think that the task is complete, save any rem
 You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
 
 
-#### Sending a message from the comment box
+#### ارسال پیام توسط کادر توضیحات
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
-For example:  
+برای مثال:  
 
     @HOTMppr nice work tracing the building  
     details here. You missed a small group  
@@ -334,11 +334,11 @@ Some general advice to heed when working in this tool:
 * Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
 
 
-## Validation
+## صحت‌سنجی
 
 Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
 
-### Getting Started
+### شروع به کار
 
 Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
 
@@ -348,7 +348,7 @@ The validator can select a task by clicking on an individual task square, clicki
 
 Unlike mappers, validators can select multiple tasks to perform validation on a larger scale than just one task.
 
-### Selecting Multiple Tasks for Validation
+### انتخاب چندین وظیفه برای صحت‌سنجی
 
 New in the latest version of the Tasking Manager is the ability to select multiple tasks for validation, either by area or by user.
 
@@ -373,7 +373,7 @@ Clicking on the "Start Validating" button will lock all the tasks completed by t
 
 Once in the editor of their choice, **the validator will have to manually download the OSM data** for task areas selected. This is to prevent downloading all of the OSM data between the selected tasks.
 
-### Finalizing Validation
+### نهایی کردن صحت‌سنجی
 
 Once the validator has finished the validation process either for one task or multiple tasks, they should return to the Tasking Manager and select one of the three choices that reflect the mapping of the task:
 

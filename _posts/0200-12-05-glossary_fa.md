@@ -55,15 +55,15 @@ category: beginner
 
 **POC (نقطه تماس Point of Contact):** ؛ شخص یا اشخاصی که درگیر هرگونه درخواست، پرسش، هماهنگی و غیره هستند.
 
-**[Relation](http://wiki.openstreetmap.org/wiki/Relation)**: one of the core data elements that consists of one or more tags and also an ordered list of one or more nodes, ways and/or relations as members which is used to define logical or geographic relationships between other elements. For examples go to the [Types of Relations](http://wiki.openstreetmap.org/wiki/Types_of_relation) wiki page. 
+**[رابطه (Relation)](http://wiki.openstreetmap.org/wiki/Relation)**: یکی از عناصر اصلی داده است که از یک یا چندین تگ و لیست پشت سرهمی از یک یا چند گره، راه و/یا رابطه دیگر به عنوان اعضا تشکیل شده که برای تعریف یک رابطه منطقی یا جغرافیایی عناصر دیگر را توصیف می‌کند. برای دیدن مثالها به صفحه [انواع رابطه](http://wiki.openstreetmap.org/wiki/Types_of_relation) ویکی بروید. 
 
 **رندر** : تبدیل داده به تصویر. نقشه داده رندر شده است.
 
-**SBTF : Stand-By Task-Force** ; an organization which coordinates digital volunteers into a responsive, trained, and prepared network ready to deploy in crises.
+**SBTF : Stand-By Task-Force** ; ارگانی که داوطلبین دیجیتال را در یک شبکه پاسخگو، ماهر و مهیا برای بکارگیری در زمان بحران هماهنگ می‌کند.
 
 **نقشه لغزان** : آن چیزی که در صفحه <http://www.openstreetmap.org> می‌بینید! تشکیل شده از یک لایه و کتابخانه نرم‌افزاری که کارهای تعاملی مثل زوم و جابجا کردن را کنترل میکند.
 
-**Stylesheet** : In most instances, it means a text file that's used to determine what features (which roads ?) are displayed, and how (what color should the road be ? Its width ? ) on a map.
+**Stylesheet** : در بسیاری موارد به معنی یک فایل متنی است که  معین می‌کند چه عوارضی از نقشه (چه جاده‌هایی؟) نمایش داده شوند و چگونه روی نقشه نمایش داده شوند (جاده چه رنگی باشد؟ عرضش چقدر باشد؟)
 
 **برچسب (تگ)**: نقطه، خط یا چند ضلعی توسط برچسبها توصیف می‌شوند. هر تگ شامل یک کلید و یک مقدار است (در OSM به صورت 'key=value' نوشته شده است). به عنوان مثال، highway=residential و name=Woodland Avenue. اولین بار در  LearnOSM در [بخش iD](/fa/beginner/id-editor/fa/basic-editing-with-id) در مورد تگ صحبت شد. نقاط، خطوط یا چندضلعی‌ها معمولاْ دارای بیش از یک برچسب هستند. گاهی اوقات انتخاب برچسب مناسب گیج‌کننده است. [Taginfo] (https://taginfo.openstreetmap.org/) با نشان دادن آماری در خصوص اینکه کدام تگ در واقع در پایگاه داده وجود دارد، چند نفر از آن تگ استفاده کرده‌اند و کجا استفاده می‌شود و غیره در این مورد به شما کمک می‌کند. همچنین اطلاعاتی در مورد هر برچسب از ویکی و جاهای دیگر میتوان گرفت.
 
@@ -71,11 +71,11 @@ category: beginner
 
 **کاشی** (Tile): یک نصویر کوچک (256*256 پیکسل) از رندر داده نقشه
 
-**[Way](http://wiki.openstreetmap.org/wiki/Way)**: an ordered list of nodes which normally also have at least one tag or is included within a Relation. A way can have between 2 and 2,000 nodes, although it's possible that faulty ways with zero or a single node exist. A way can be open or closed.  
+**[راه](http://wiki.openstreetmap.org/wiki/Way)**: لبست پشت سرهمی از گره‌ها که حداقل یک برچسب نیز دارند و یا اینکه در یک رابطه گنجانده شده‌اند. یک راه می‌تواند از ۲ تا ۲۰۰۰ نقطه داشته باشد، گرچه ممکن است راه‌هایی به اشتباه یک گره و حتی هیچ گرهی نداشته باشند. راه هم می‌تواند باز باشد و هم بسته باشد.  
 
-* A closed way ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) is one whose last node on the way is also the first on that way. A closed way may be interpreted either as a closed polyline, or an area, or both. 
+* یک راه بسته ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) راهی است که نقطه پایانی‌اش با نقطه ابتدایی‌اش یکی باشد. راه بسته می‌تواند یک چندضلعی بسته یا محوطه یا هردو باشد. 
 
-* An open way ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) is way describing a linear feature which does not share a first and last node. Many roads, streams and railway lines are open ways.
+* یک راه باز ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) راهی است که یک عارضه خطی را توصیف می‌کند که نقطه ابتدایی و انتهایی آن یکی نیستند. بسیاری از جاده‌ها، رودها و ریلهای راه‌آهن مثالی از راه باز هستند.
  
 ### یادداشتی بر اصطلاحات ویرایش OSM
 

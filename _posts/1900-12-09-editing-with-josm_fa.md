@@ -50,15 +50,15 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 
 ![Layers up down][]
 
--  To hide a layer, select it with your mouse and
-    click the Show/Hide button:
+برای مخفی کردن یک لایه، آن لایه را با ماوس انتخاب کرده و
+    دکمه Show/Hide را کلیک کنید:
 
 ![Layers show hide][]
 
--  You should see the layer that you selected disappear in the map
-    window. Click Show/Hide again, and it will reappear.
--  You can remove a layer by selecting it and using the delete
-    button:
+- خواهید دید که لایه‌ای که انتخاب کردید در پنجره نقشه ناپدید می‌شود.
+    Show/Hide را مجدداْ کلیک کنید تا دوباره ظاهر شود.
+- می‌توانید یک لایه را با اتخاب آن و زدن دکمه
+    حذف بردارید:
 
 ![Layers delete][]
 
@@ -75,7 +75,7 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 ![Layers activate][]
 
 
-Using GPS Data and Field Papers
+استفاده از داده GPS و ورقه‌های میدانی
 -------------------------------
 In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS
 and Field Papers, and how to load it into JOSM as a layer.
@@ -112,9 +112,9 @@ we draw a square, it’s only a square. But then we add attributes to
 it that describe what it is: this square is a building; the name of
 the building is “Menara Thamrin”; the building is 16 levels high.
 
-You can add as many tags as you want to an object. Tags are saved as
-pairs of text, called **keys** and the **values**. In
-OpenStreetMap, the tags written above would in fact be:
+هرچندتا تگ که بخواهید می‌توانید به یک شی بدهید. تگ‌ها به صورت 
+یک جفت عبارت متنی که **کلید (keys)** و **مقدار (values)** نامیده می‌شوند، ذخیره می‌شوند. در
+OpenStreetMap تگ‌های نوشته فوق در حقیقت به صورت زیر نوشته می‌شوند:
 
 -   building = yes
 -   name = Menara Thamrin

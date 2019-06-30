@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Tasking Manager 2
+title: مدیریت وظایف ۲
 permalink: /fa/coordination/tasking-manager/
 lang: fa
 category: coordination
@@ -33,7 +33,7 @@ category: coordination
 The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that mappers can use to sort an area into a grid, and work together to map an area in an organized way. This allows mappers throughout the world to assist in mapping a defined region with a minimum risk of overlapping work areas, and also allows people both on the ground and working remotely (also sometimes referred to as "armchair mappers") to collaborate effectively, rapidly, and avoid accidental rework being required due to conflicts.  
 
 
-## Overview of the process
+## مرور کلی فرآیند
 
 1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager, although they may also make changes later if required.  
 2. A remote mapper selects a task square, completes the mapping, and marks the square as complete.  
@@ -41,7 +41,7 @@ The HOT Tasking Manager, <http://tasks.hotosm.org/>, is an intuitive tool that m
 4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.  
 
 
-## Options & links
+## گزینه‌ها و لینک‌ها
 
 The Task Manager initially displays in English - to change to another language click on **English** in the red header banner.  
 
@@ -51,13 +51,13 @@ Once you have logged in, you may click on your username at the top. Here you can
 
 - Access a list of projects for which you have completed squares,  
 - Go to your **Messages** screen within the Tasking Manager (this is not the same as the OpenStreetMap messaging system)  
-- Logout  
+- خروج از سیستم  
 - See a list of all users who have contributed completed squares within the Tasking Manager. You may access links to see more information about the user you select, such as which tasks they have completed squares for and their OSM edit history.  
 
 ![Tasking Manager Username_list][]  
 
 
-## Getting started with the Tasking Manager
+## شروع به کار با مدیریت وظایف
 
 You may view projects as a visitor, but to actively participate you must be logged into the Tasking Manager - use your OpenStreetMap account username & password. Open your Internet browser and go to <http://tasks.hotosm.org>. You will see a page like this:  
 
@@ -69,13 +69,13 @@ You may view projects as a visitor, but to actively participate you must be logg
 ![Authorizing access to OSM account by the Tasking Manager][]
 
 
-## Locating a project
+## پیداکردن پروژه
 
-The current list of projects may be sorted according to:  
+لیست جاری پروژه‌ها را می‌توان برحسب موارد زیر مرتب کرد:  
 
-- High priority  
-- Creation date, or  
-- Last update  
+- ارجحیت بالا  
+- تاریخ ایجاد، یا  
+- آخرین بروزرسانی  
 
 You can further refine your list by clicking in the **Your Projects** box, to see just the projects in which you have participated, whether you have completed a square or not. Validators will also find projects they have contributed validated squares in, by using this checkbox. You may use a free text search to locate projects that contain particular text strings, such as **Ebola** (search is not case sensitive).  
 
@@ -86,7 +86,7 @@ Click on a blue project title to see more information about that project.
 ![Job description][]
 
 
-## Description
+## توصیف
 
 Everything you need to know about the project is here! On the left is a description of the mapping project and what is required. On the right side is a grid showing the area to be mapped;  
 
@@ -98,13 +98,13 @@ Everything you need to know about the project is here! On the left is a descript
 - The remaining squares still need to be completed, or have previously been invalidated (invalidated squares are a darker colour).  
 
 
-### Instructions tab
+### زبانه دستورالعمل‌ها
 This shows what is required in the mapping task. Tasks range in difficulty, suitable for beginners, intermediate and advanced mappers - and the instructions will explain this. Make sure you read and understand this section. There are many styles of mapping project, for many different purposes. Some common project activities include:  
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
-- Mapping villages: Often used to identify places where people live and may be impacted  
-- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+-شبکه راه‌ها: توسط مردمان روی زمین جهت بارگزاری داده روی ابزارهای ناوبری دستی، و برای چگونگی دسترسی به نقاط دورافتاده استفاده می‌شود  
+- نقشه‌کشی روستاها: اغلب برای دانستن محل زندگی افرادی که احتمالاْ آسیب می‌بینند بکار میرود  
+- نقشه‌کشی ساختمانها: برای ارزیابی میزان تخریب و یا بیماریهای تماسی مورد استفاده قرار می‌گیرد. همچنین برای تخمین مقدار جمعیت استفاده می‌شود.  
+- نقشه‌کشی رودها، دیوارها و سایر عوارض  
 
 Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
 
@@ -115,12 +115,12 @@ Sometimes, task specific imagery may be available - you may need to agree to a l
 When checking a square marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire tile is quite difficult - guidance below is available around unlocking tiles; as well as providing useful feedback for the next mapper.  
 
 
-### Activity tab  
+### زبانه فعالیت  
 
 This shows activity that has taken place within the task in chronological order.  
 
 
-### Stats tab  
+### زبانه آمار  
 
 This contains a graph of progress & other information.  
 
@@ -129,14 +129,14 @@ The Stats tab also contains a list of mappers who have completed at least one sq
 Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
 
 
-### Contribute tab  
+### زبانه مشارکت  
 
 Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
 
 ![Picking a task][]  
 
 
-## Selecting a square to map  
+## انتخاب یک مربع جهت نقشه‌کشی  
 
 ![Assigned task square][]  
 
@@ -147,14 +147,14 @@ If you accidentally select a square, you can release it again by clicking on the
 Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
 
 
-### Editing choices
+### ویرایش گزینه‌ها
 
 Different options for editing are presented to you as soon as you lock a square.
 
 ![Editing options][]  
 
 
-#### Edit with JOSM  
+#### ویرایش با JOSM  
 
 Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
@@ -163,7 +163,7 @@ Start JOSM before using this link and it will automatically load the existing OS
 >  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
 
 
-#### iD editor  
+#### ویرایشگر iD  
 
 Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
 
