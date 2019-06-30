@@ -23,7 +23,7 @@ The iD editor contains a 'checking feature' which can show potential problems wi
 
 ### Warnings from iD (Issues) ###
 
-**At any time** ![id issues icon]{: height="24px"}
+### Warnings at any time ![id issues icon]{: height="24px"}
 
 ![id issues][]
 
@@ -31,7 +31,11 @@ The iD editor contains a 'checking feature' which can show potential problems wi
 
 In the first image only the mappers own edits are shown - there are no issues, but there is a warning that a potential issue exists. The second image shows all potential issues everywhere in view, and warns of the highway / building overlap which has been previously mapped and saved by someone.  
 
-**Whilst mapping**, iD will warn you if you may be making a mistake in your mapping, for instance accidentally overlapping a road and building.  
+![Error][]
+
+### Warnings Whilst mapping
+
+iD will warn you if you may be making a mistake in your mapping, for instance accidentally overlapping a road and building.  
 
 ![warn when mapping][]
 
@@ -47,4 +51,5 @@ The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more info
 [warn when mapping]: /images/hot-tips/20190625-warn-when-mapping.png
 [id issues]: /images/hot-tips/20190625-id-issues.png
 [id issues everywhere]: /images/hot-tips/20190625-id-issues-everywhere.png
+[Error]: /images/beginner/id-editor_error.png
 
