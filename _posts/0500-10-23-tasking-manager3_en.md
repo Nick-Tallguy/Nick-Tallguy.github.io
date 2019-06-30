@@ -42,9 +42,9 @@ Once you are done mapping that small area, you record in the Tasking Manager tha
 
 ## Quick Start Guide
 
-1. Create an account and login on http://openstreetmap.org/  
+1. If you do not have an OpenStreetMap account then go to https://openstreetmap.org and create one. This will be the login details you use to log in to the Tasking Manager. <br/>
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and login via the upper right corner  
+2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and log in via the upper right corner  
   ![TM Quick Start 2][]
 3. Click on "Contribute" and find a mapping project to work on  
   ![TM Quick Start 3][]
