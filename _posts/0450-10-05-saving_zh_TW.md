@@ -9,6 +9,8 @@ category: hot-tips
 儲存 - 變更組合備註和用任務分配管理系統完成繪製一個方框 - iD 編輯器
 ============
 
+> Updated 2019-06-25
+
 - TOC
 {:toc}
 
@@ -17,42 +19,40 @@ iD 編輯器 - 儲存
 
 ### 使用 iD 編輯器儲存的基本操作 ###
 
-![saving][]
+![saving OSM][]
 
-> 這張圖片 ![keymon]{: height="24px"} 顯示你可以用那個按鈕，滑鼠的滾輪，或是按那個鍵築的按鈕。  
 
-點擊 ![save-icon]{: height="24px"} 圖示，點擊了之後就會儲存，之後加上變更組合備註 (主題標籤？)，接著點擊 ![upload]{: height="24px"} 圖示儲存你的變動到開放街圖。  
+Click on the ![save-icon]{: height="24px"} icon, check what will be saved, add a comment explaining what you have added and then click on the ![upload]{: height="24px"} icon to save your changes to OpenStreetMap.  
 
 ### 儲存或上傳到開放街圖 - 詳細說明 ###
 
 經常儲存你的工作，也許是畫了 6 棟建築。當你在圖客趴上有很多人同時間同一地工作時，經常儲存是相當重要的事情。  
 
-如果你需要在你的貢獻上加上 #主題標籤 的話，圖片中顯示的變動組合的備註部分是可以寫上去的地方。而且可以在備註結尾處加上簡單的描述你做了什麼，例如說"**新增了一些建築**"。  
+Add a simple comment explaining what you have done at the end of the existing comments, for instance "**added a couple of buildings**".  
+
+### More information about saving to OpenStreetMap ###
 
 如果要看更多關於變動組合備註部分，請見  <https://wiki.openstreetmap.org/wiki/Good_changeset_comments>  
 
-你的變動將會於幾秒後顯示在 <http://www.openstreetmap.org> 。  
+Your edits will appear on <http://www.openstreetmap.org> within a few seconds of uploading or saving them.  
 
 雖然你的變動在幾秒鐘內會被 OpenStreetMap 接受，但一些小程序，應用程式及設備儲存的OpenStreetMap版本，在幾週或幾個月內可能不會更新。  
 
 任務分配管理系統 - 完成矩形，或在矩形完成之前停止工作  
 -------------------------------------------------------------------
 
-當你覺得矩形完成之後，回到瀏覽器任務分配管理系統的頁籤，新增註解並且標示矩形為完成。在儲存時請不要複製含有井字號的註解。  
-![mark task as done]{: height="250px"}  
+When you think the square is finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete. Do not copy the changeset comments which you used when saving to openstreetmap.  
+![Stop Mapping][]  
 
 如果你選擇；
 
-**標記任務為完成*你工作的方塊，然後會變成黃色表示完成，並且等待審核。  
-- **停止畫地圖**會讓方塊變成白色或是恢白色，顯示需要更多工作。留下評論則會讓下個圖客知道要做什麼，像是   
+- **MARK AS COMPLETELY MAPPED** the square you were working on will turn yellow to show it is complete and awaiting validation.  
+- **STOP MAPPING** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
     - 「右下角的方框內有不少可以描繪的建築，但我沒時間」  
 
-整個任務分配管理器的過程，只有在圖客標示方框為完成 - 即便你是新手和不確定，你覺得已經完成，那就點**標示任務為完成**按鈕。最糟的狀況是有人認為還有不少東西能做，而取消審核你的方框。我們大部分人會畫不少塊，然後會有至少一塊方框會被取消審核。*有時候圖客取消審核方框是錯的 - 至少他們就補上少部分需要做的事情。我們總會在某一刻漏掉一些東西。*  
+The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is complete, click on the **Mark task as done** button. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
 
 開放街圖因為圖客而演化，大家持續不斷精進資訊。有時候有新的影像之後，造就更詳細的畫地圖可能，而有時候探察之後，收集到的資訊則加到地圖。   
-
-### 任務分配管理器 - 傳送訊息給其他任務分配管理器使用者 ###
-你可以用這個信箱寄訊息給其他任務分配管理器使用者，只要使用 **@** 然後接使用者名稱 - 像是「謝謝你的努力， @Tallguy 我注意到你沒有直角化你的建築 - 這個連結也許會幫到你 http://learnosm.org/en/hot-tips/tracing-round-buildings/。繼續努力！Nick 祝福」  
 
 參見  
 ---------
@@ -62,9 +62,13 @@ iD 編輯器 - 儲存
 
 
 
-[saving]:/images/hot-tips/saving.gif
+[saving OSM]:/images/hot-tips/saving.gif
 [keymon]:/images/hot-tips/keymon.png
-[mark task as done]:/images/hot-tips/mark-task-as-done.png
+[Stop Mapping]:/images/hot-tips/20190625-TM-stop-mapping-800px.png
+[id issues icon]: /images/hot-tips/id-issues.png
+[warn when mapping]: /images/hot-tips/20190625-warn-when-mapping.png
+[id issues]: /images/hot-tips/20190625-id-issues.png
+[id issues everywhere]: /images/hot-tips/20190625-id-issues-everywhere.png
 [save-icon]: /images/beginner/save-icon.png "Save icon"
 [upload]: /images/beginner/upload.png "Upload"
 [arrow-up]: /images/arrow-up.png

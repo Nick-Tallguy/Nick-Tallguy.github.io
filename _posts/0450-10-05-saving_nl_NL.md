@@ -9,6 +9,8 @@ category: hot-tips
 Opslaan - opmerking wijzigingenset & Task Manager voltooien van een vierkant - iD editor
 ============
 
+> Updated 2019-06-25
+
 - TOC
 {:toc}
 
@@ -17,42 +19,40 @@ iD editor - opslaan
 
 ### De beginselen van het opslaan met behulp van de bewerker iD ###
 
-![saving][]
+![saving OSM][]
 
-> Deze afbeelding ![keymon]{: height="24px"} laat u zien welke knopen of wiel op een muis moet worden gebruikt, en welke toetsen op het toetsenbord moeten worden ingedrukt.  
 
-Klik op het pictogram ![save-icon]{: height="24px"}, controleer wat zal worden opgeslagen, voeg een opmerking voor de wijzigingenset toe (hashtag?) en klik dan op het pictogram ![upload]{: height="24px"} om uw wijzigingen op te slaan bij OpenStreetMap.  
+Click on the ![save-icon]{: height="24px"} icon, check what will be saved, add a comment explaining what you have added and then click on the ![upload]{: height="24px"} icon to save your changes to OpenStreetMap.  
 
 ### Opslaan of uploaden naar OpenStreetMap - de details ###
 
 Sla uw werk regelmatig op. Misschien na het traceren van 6 gebouwen. Dit is speciaal van belang bij een mapathon wanneer veel mensen werken aan hetzelfde op dezelfde tijd.  
 
-Indien u een **#hashtag** heeft gekregen om op te nemen in uw werk, is de opmerking voor de wijzigingenset, zoals weergegeven in bovenstaande afbeelding, de plaats om die neer te zetten. Voeg ook, aan het einde van bestaande opmerkingen, een eenvoudige opmerking toe van wat u heeft gedaan, bijvoorbeeld "**added a couple of buildings**".  
+Add a simple comment explaining what you have done at the end of the existing comments, for instance "**added a couple of buildings**".  
+
+### More information about saving to OpenStreetMap ###
 
 Voor meer informatie over opmerkingen voor wijzigingensets, zie <https://wiki.openstreetmap.org/wiki/Good_changeset_comments>  
 
-U bewerkingen zullen binnen een paar seconden verschijnen op <http://www.openstreetmap.org>.  
+Your edits will appear on <http://www.openstreetmap.org> within a few seconds of uploading or saving them.  
 
 Hoewel uw wijzigingen binnen een paar seconden zijn geaccepteerd door OpenStreetMap, gebruiken sommige programma's, apps. en apparaten een opgeslagen versie van OpenStreetMap die misschien pas na enkele weken of maanden zal worden bijgewerkt.  
 
 Tasking Manager - Voltooien van een vierkant, of stoppen met werken voordat een vierkant is voltooid  
 -------------------------------------------------------------------
 
-Wanneer u denkt dat een vierkant is voltooid, ga terug naar de tab Tasking Manager in uw browser, voeg een opmerking toe & markeer het vierkant als voltooid. Kopieer niet de opmerking voor de wijzigingenset met hashtags die u gebruikte bij het opslaan.  
-![mark task as done]{: height="250px"}  
+When you think the square is finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete. Do not copy the changeset comments which you used when saving to openstreetmap.  
+![Stop Mapping][]  
 
 Als u selecteert;
 
-- **Mark task as done** zal het vierkant waar u aan werkte geel worden om aan te geven dat het is voltooid en wacht op validatie.  
-- **Stop Mapping** het vierkant zal terugkeren naar zijn witte of grijsbleke kleur om aan te geven dat het nog meer werk nodig heeft. Het is bijzonder nuttig als uw opmerking de volgende mapper laat weten wat er nodig nodig is, zoals  
+- **MARK AS COMPLETELY MAPPED** the square you were working on will turn yellow to show it is complete and awaiting validation.  
+- **STOP MAPPING** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
     - "There are more buildings to trace in the bottom right corner of the square, but I've run out of time"  
 
-Het gehele proces voor Tasking Manager werkt alleen als mappers vierkanten markeren als voltooid - zal als u net nieuw bent en niet zeker, wanneer u denkt dat het voltooid is, klik op de knop **Mark task as done**. Het ergste dat kan gebeuren is iemand denkt dat er nog meer gedaan kan worden en uw vierkant niet valideert. De mesten van ons die al heel veel in kaart hebben gebracht via de Task Manager hebben ten minste één vierkant niet gevalideerd gekregen. *Soms heeft de mapper die het vierkant niet valideerde het fout - misschien zouden zij juist de paar dingen die nog ontbraken hebben moeten voltooien. - We missen allemaal wel eens iets op een bepaald punt.*  
+The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is complete, click on the **Mark task as done** button. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
 
 OpenStreetMap is geëvolueerd omdat mappers constant de informatie verbeteren. Soms komen nieuwe afbeeldingen beschikbaar die meer gedetailleerd in kaart brengen mogelijk maakt, en soms wordt er veldonderzoek uitgevoerd en wordt informatie verzameld en toegevoegd aan de kaart.   
-
-### Task Manager - een bericht sturen aan een andere gebruiker van Task Manager ###
-U kunt vanuit dit vak een bericht sturen naar een andere gebruiker van Tasking Manager met behulp van **@** gevolgd door de gebruikersnaam - bijvoorbeeld "Thanks for your work on this @Tallguy I noticed you were having problems with round buildings - this link may help http://learnosm.org/en/hot-tips/tracing-round-buildings/. Keep up the good work! Regards Nick"  
 
 Zie ook  
 ---------
@@ -62,9 +62,13 @@ Zie ook
 
 
 
-[saving]:/images/hot-tips/saving.gif
+[saving OSM]:/images/hot-tips/saving.gif
 [keymon]:/images/hot-tips/keymon.png
-[mark task as done]:/images/hot-tips/mark-task-as-done.png
+[Stop Mapping]:/images/hot-tips/20190625-TM-stop-mapping-800px.png
+[id issues icon]: /images/hot-tips/id-issues.png
+[warn when mapping]: /images/hot-tips/20190625-warn-when-mapping.png
+[id issues]: /images/hot-tips/20190625-id-issues.png
+[id issues everywhere]: /images/hot-tips/20190625-id-issues-everywhere.png
 [save-icon]: /images/beginner/save-icon.png "Pictogram Opslaan"
 [upload]: /images/beginner/upload.png "Uploaden"
 [arrow-up]: /images/arrow-up.png
