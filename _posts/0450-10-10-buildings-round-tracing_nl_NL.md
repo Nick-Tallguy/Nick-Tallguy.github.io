@@ -9,7 +9,7 @@ category: hot-tips
 Ronde gebouwen traceren - iD editor
 ============
 
-> Updated 2019-06-24
+> Bijgewerkt op 24-06-2019
 
 - TOC
 {:toc}
@@ -22,7 +22,7 @@ De beginselen
 
 Punten om te onthouden;  
 
-- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
+- Plaats uw punten waar de muren de grond zullen raken - 3 punten is het minimum. Dubbelklik op het laatste punt om het traceren van een gebied te voltooien. Gebruik het gereedschap om het rond te maken  - sneltoets **o** in het Engels.  
 - Zorg er voor dat u tags toevoegt!  
 - Grootte is van belang - *schattingen van bevolkingsaantallen zijn gebaseerd op het cumulatieve gebied met gebouwen in een bepaald gebied*,  
 - Zoom voldoende in om de details te kunnen zien - een zoomschaal van ongeveer 20 meter of minder is meestal goed.  
@@ -31,15 +31,15 @@ Punten om te onthouden;
 - Indien u een fout maakt, gebruik dan de knop **Ongedaan maken** ![back arrow]{: height="26px"} om uw laatste wijziging(en) ongedaan te maken  
 - We verbeteren allemaal de kaart. Als een eerdere mapper de gebouwen met een ietwat aparte vorm heeft laten staan of op enige manier foutief, corrigeer het en overweeg om hem een beleefd berichtje te sturen.  
 
-Building - converting square to round
+Gebouw - converteren van vierkant naar rond
 -------------------------------------
 
 ![Square to round][]  
 
-If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+Als een gebouw werd getraceerd als rechthoekig, maar u kunt zien dat het rond zou moeten zijn, is het gemakkelijk om het te converteren naar een rond gebouw;
 
-- move each of the corners so they are now on the perimeter of the round building,
-- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
+- verplaats elk van de hoeken zodat zij op de omtrek van het ronde gebouw staan,
+- klik met rechts en gebruik het gereedschap om cirkels te maken, of sneltoets **o** - zou een ander teken in andere talen kunnen zijn.  
 
 Identificatie
 ---------------
@@ -68,7 +68,7 @@ Zie ook
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstratie van het in kaart brengen van een rond gebouw"
-[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstratie van wijzigen van een rechthoekig naar een rond gebouw"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Ronde gebouwen naast een bosje"
 [back arrow]: /images/beginner/back-arrow.png "Ongedaan maken"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

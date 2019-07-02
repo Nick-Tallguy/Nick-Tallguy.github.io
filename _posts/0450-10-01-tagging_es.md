@@ -9,12 +9,13 @@ category: hot-tips
 Etiquetado - editor iD
 ============
 
+> Updated 2019-06-28
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
 
 Por qué se necesitan Etiquetas
 -------------------

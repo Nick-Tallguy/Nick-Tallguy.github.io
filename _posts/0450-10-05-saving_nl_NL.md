@@ -9,7 +9,7 @@ category: hot-tips
 Opslaan - opmerking wijzigingenset & Task Manager voltooien van een vierkant - iD editor
 ============
 
-> Updated 2019-06-25
+> Bijgewerkt op 25-06-2019
 
 - TOC
 {:toc}
@@ -22,35 +22,35 @@ iD editor - opslaan
 ![saving OSM][]
 
 
-Click on the ![save-icon]{: height="24px"} icon, check what will be saved, add a comment explaining what you have added and then click on the ![upload]{: height="24px"} icon to save your changes to OpenStreetMap.  
+Klik op het pictogram ![save-icon]{: height="24px"}, controleer wat zal worden opgeslagen, voeg een opmerking toe die uitlegt wat u hebt toegevoegd en klik dan op het pictogram ![upload]{: height="24px"} om uw wijzigingen op te slaan bij OpenStreetMap.  
 
 ### Opslaan of uploaden naar OpenStreetMap - de details ###
 
 Sla uw werk regelmatig op. Misschien na het traceren van 6 gebouwen. Dit is speciaal van belang bij een mapathon wanneer veel mensen werken aan hetzelfde op dezelfde tijd.  
 
-Add a simple comment explaining what you have done at the end of the existing comments, for instance "**added a couple of buildings**".  
+Voeg, aan het einde van de bestaande opmerkingen, een eenvoudige opmerking toe van wat u heeft gedaan, bijvoorbeeld "**added a couple of buildings**".  
 
-### More information about saving to OpenStreetMap ###
+### Meer informatie over het opslaan naar OpenStreetMap ###
 
 Voor meer informatie over opmerkingen voor wijzigingensets, zie <https://wiki.openstreetmap.org/wiki/Good_changeset_comments>  
 
-Your edits will appear on <http://www.openstreetmap.org> within a few seconds of uploading or saving them.  
+U bewerkingen zullen, binnen een paar seconden na het uploaden of opslaan, verschijnen op <http://www.openstreetmap.org>.  
 
 Hoewel uw wijzigingen binnen een paar seconden zijn geaccepteerd door OpenStreetMap, gebruiken sommige programma's, apps. en apparaten een opgeslagen versie van OpenStreetMap die misschien pas na enkele weken of maanden zal worden bijgewerkt.  
 
 Tasking Manager - Voltooien van een vierkant, of stoppen met werken voordat een vierkant is voltooid  
 -------------------------------------------------------------------
 
-When you think the square is finished, return to the Tasking Manager tab on your browser, add a comment & mark the square as complete. Do not copy the changeset comments which you used when saving to openstreetmap.  
+Wanneer u denkt dat een vierkant is voltooid, ga terug naar de tab Tasking Manager in uw browser, voeg een opmerking toe & markeer het vierkant als voltooid. Kopieer niet de opmerking voor de wijzigingenset die u gebruikte bij het opslaan naar OpenStreetMap.  
 ![Stop Mapping][]  
 
 Als u selecteert;
 
-- **MARK AS COMPLETELY MAPPED** the square you were working on will turn yellow to show it is complete and awaiting validation.  
-- **STOP MAPPING** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
+- **MARK AS COMPLETELY MAPPED** zal het vierkant waar u aan werkte geel maken om aan te geven dat het is voltooid en wacht op validatie.   
+- **STOP MAPPING** het vierkant zal terugkeren naar zijn eerdere kleur om aan te geven dat het nog meer werk nodig heeft. Het is bijzonder nuttig als uw opmerking de volgende mapper laat weten wat er nodig nodig is, zoals  
     - "There are more buildings to trace in the bottom right corner of the square, but I've run out of time"  
 
-The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is complete, click on the **Mark task as done** button. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
+Het gehele proces voor Tasking Manager werkt alleen als mappers vierkanten markeren als voltooid - zal als u net nieuw bent en niet zeker, wanneer u denkt dat het voltooid is, klik op de knop **Mark task as done**. Het ergste dat kan gebeuren is iemand denkt dat er nog meer gedaan kan worden en uw vierkant niet valideert. De mesten van ons die al heel veel in kaart hebben gebracht via de Task Manager hebben ten minste één vierkant niet gevalideerd gekregen. *We missen allemaal wel eens iets op een bepaald punt.*  
 
 OpenStreetMap is geëvolueerd omdat mappers constant de informatie verbeteren. Soms komen nieuwe afbeeldingen beschikbaar die meer gedetailleerd in kaart brengen mogelijk maakt, en soms wordt er veldonderzoek uitgevoerd en wordt informatie verzameld en toegevoegd aan de kaart.   
 

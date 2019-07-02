@@ -9,12 +9,13 @@ category: hot-tips
 Copiado, Pegado & Rotación - editor iD
 =============
 
+> Updated 2019-06-24
+
 ![copy-paste][]
 
-Esta imagen ![keymon]{: height="24px"} le muestra que botones o rueda del mouse se usaron, y que botones del teclado se presionaron.  
 
 Fácilmente puede copiar, pegar y rotar, pero asegúrese de que el tamaño es el correcto.   
-Seleccione con su mouse, luego presione **Ctrl+c** para copiar y **Ctrl+v** para pegar.  
+Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

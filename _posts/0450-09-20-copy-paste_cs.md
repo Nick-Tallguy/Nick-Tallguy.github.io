@@ -9,12 +9,13 @@ category: hot-tips
 Kopírování, vkládání a otáčení - iD editor 
 ============
 
+> Updated 2019-06-24
+
 ![copy-paste][]
 
-> Tento obrázek ![keymon]{: height="24px"} zobrazuje, která tlačítka nebo kolečko na myši byla použita a které z tlačítek na klávesnici byly stlačeny.  
 
 Můžete snadno kopírovat, vkládat a otáčet objekty, ale ujistěte se, že jsou správné velikosti.  
-Vyberte pomocí myši a potom **Ctrl+c** pro kopírování a **Ctrl+v** pro vkládání.  
+Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

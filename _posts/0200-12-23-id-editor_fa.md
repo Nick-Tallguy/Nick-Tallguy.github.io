@@ -9,7 +9,7 @@ category: beginner
 ویرایشگر iD
 =============
 
-> Reviewed 2019-06-10
+> تاریخ بازبینی ۱۳۹۶/۰۳/۲۰
 
 Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
 

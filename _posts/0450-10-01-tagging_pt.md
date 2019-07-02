@@ -9,12 +9,13 @@ category: hot-tips
 Etiquetar - editor iD
 ============
 
+> Updated 2019-06-28
+
 - TOC
 {:toc}
 
 ![tagging][]
 
-> Esta imagem ![keymon]{: height="24px"} mostra que botões ou roda num rato foram usados e que teclas do teclado foram utilizadas.  
 
 Porque são necessárias Etiquetas
 -------------------

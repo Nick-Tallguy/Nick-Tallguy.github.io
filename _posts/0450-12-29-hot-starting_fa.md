@@ -9,7 +9,7 @@ category: hot-tips
 شروع به کار با مدیریت وظایف - ویزایشگر iD
 ============
 
-> Updated 2019-06-26  
+> بروزرسانی شده در تاریخ ۱۳۹۸/۰۴/۰۵  
 
 - TOC
 {:toc}
@@ -28,7 +28,7 @@ category: hot-tips
 4. نقشه‌کشی شما توسط "اعتباردهندگان" که اغلب پیام‌هایی با بازخورد ارزشمند در مورد مشارکت شما ارسال می‌کنند، بررسی می‌شود.  
 5. نقشه‌کشی را شروع کنید - ممکن است لازم باشد بخش‌های بیشتری از این فصل نکات HOT را بخوانید تا بتوانید ادامه دهید. نکات مهم در مورد [ساختمان‌های مدور](/fa/hot-tips/tracing-round-buildings/) یا [ساختمانهای با گوشه مربع](/fa/hot-tips/tracing-rectangular-buildings/) ممکن است کمک کننده باشد.  
 6. مرتباْ ذخیره کنید - [نکات HOT -ذخیره‌سازی](/fa/hot-tips/saving/) را ببینید.  
-7.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+7. صبور باشید - گاهی اوقات تعداد افرادی که صحت‌بخشی را انجام می‌دهند کم و در عوض تعداد نقشه‌کشهای جدید که منتظر بازخورد هستند بسیار زیاد است! به نقشه‌کشی ادامه دهید، اما اگر فکر کردید اشتباه دارید (همه ما اشتباه داریم!) ببینید می‌توان آنرا خودتان درست کنید یا اینکه تقاضای کمک کنید.  
 
 
 

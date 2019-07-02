@@ -30,10 +30,10 @@ category: josm
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that
-you have open in your map window. In this example, “Data Layer
-1” is the OpenStreetMap data that we are editng. "Field Papers” is
-the layer created when we added our Field Paper into JOSM.
+هر مورد در این لیست نماینده منبع متفاوتی از داده است که 
+شما در پنجره نقشه باز می کنید. در این مثال، “Data Layer
+1” داده OpenStreetMap است که آنرا ویرایش می کنیم. "ورقه های میدانی” 
+لایه ایست که ما در زمان اضافه کردن آنها به JOSM ایجاد کردیم.
 
 If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
 

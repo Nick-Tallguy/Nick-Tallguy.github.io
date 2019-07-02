@@ -9,12 +9,13 @@ category: hot-tips
 Copier, Coller & Rotation - Editeur iD
 ============
 
+> Updated 2019-06-24
+
 ![copy-paste][]
 
-> Cette image ![keymon]{: height="24px"}  vous montre quels clics ou molette de la souris ont été utilisés, et quels boutons du clavier ont été tapés.  
 
 Vous pouvez facilement copier, coller et faire pivoter des objets, mais assurez-vous qu'ils soient de la bonne taille.  
-Sélectionnez avec votre souris, puis **Ctrl+c** pour copier, et **Ctrl+v** pour coller.  
+Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

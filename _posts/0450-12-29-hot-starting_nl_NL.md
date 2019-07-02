@@ -9,7 +9,7 @@ category: hot-tips
 Beginnen met Tasking Manager - iD editor
 ============
 
-> Updated 2019-06-26  
+> Bijgewerkt op 26-06-2019  
 
 - TOC
 {:toc}
@@ -28,14 +28,14 @@ De beginselen
 4.  Het in kaart brengen wordt gecontroleerd door 'validators' die vaak berichten met waardevolle terugkoppeling geven voor uw bijdragen.  
 5.  Begin met het in kaart brengen - u moet misschien meer gedeelten lezen in dit hoofdstuk met HOT Tips om u op gang te brengen. Gedeelten van HOT Tips over [ronde gebouwen](/nl_NL/hot-tips/tracing-round-buildings/) of [Gebouwen met vierkante hoeken](/nl_NL/hot-tips/tracing-rectangular-buildings/) zouden hulp kunnen bieden.  
 6.  Sla regelmatig op - zie [HOT tips - opslaan](/nl_NL/hot-tips/saving/)  
-7.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+7.  Wees geduldig - soms is er een tekort aan validators en veel nieuwe mappers die allemaal terugkoppeling willen! Ga door met het in kaart brengen, maar wanneer u zich realiseert dat u een fout hebt gemaakt (en dat doen we allemaal!) bekijk dan of u het kunt repareren, of vraag om hulp.  
 
 
 
 Zie ook  
 ---------
 
-The [Tasking Manager 3 Guide on LearnOSM](/en/coordination/tasking-manager3/)  
+De [Gids voor Tasking Manager 3 op LearnOSM](/nl_NL/coordination/tasking-manager3/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
 *Ondertiteling in sommige talen beschikbaar*  

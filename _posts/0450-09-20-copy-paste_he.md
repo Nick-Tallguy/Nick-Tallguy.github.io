@@ -9,12 +9,13 @@ category: hot-tips
 העתקה, הדבקה והטיה - עורך iD
 ============
 
+> Updated 2019-06-24
+
 ![copy-paste][]
 
-> התמונה ![keymon]{: height="24px"} מציגה בפניך אילו כפתורים או גלגלות בעכבר היו בשימוש ואילו מקשים במקלדת נלחצו.  
 
 ניתן בקלות להעתיק, להדביק ולהטות פריטים, אך כדאי קודם לשים לב שהם בגודל הנכון.  
-יש לבחור עם העכבר ואז להקיש **Ctrl+c** כדי להעתיק ו־**Ctrl+v** כדי להדביק.  
+Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
