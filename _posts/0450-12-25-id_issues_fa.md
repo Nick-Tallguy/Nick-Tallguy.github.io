@@ -1,5 +1,5 @@
 ---
-layout: rtl-doc
+layout: doc-rtl
 title: مشکلات - ویرایشگر iD
 permalink: /fa/hot-tips/issues/
 lang: fa

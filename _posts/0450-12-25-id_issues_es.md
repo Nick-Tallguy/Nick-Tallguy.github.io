@@ -29,7 +29,7 @@ El editor iD contiene una "función de verificación" que puede mostrar problema
 
 ![id de incidentes por doquier][]
 
-In the first image only the mappers own edits are shown - there are no issues, but there is a warning that a potential issue exists. The second image shows all potential issues everywhere in view, and warns of the highway / building overlap which has been previously mapped and saved by someone.  
+En la primera imagen solo se muestran las ediciones propias de los mapeadores - no hay problemas, pero hay una advertencia de que pueda existir un potencial problema. La segunda imagen muestra todos los problemas potenciales a la vista por doquier, y advierte sobre la superposición de la autopista / construcciones que previamente alguien ha mapeado y guardado.
 
 ![Error][]
 
