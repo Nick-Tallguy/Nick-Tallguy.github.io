@@ -22,7 +22,7 @@ Základy
 
 Hlavní body;  
 
-- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
+- Umístěte body, kde se stěny dotýkají země - minimálně 3 body. Poklepejte na poslední bod a dokončete trasování oblasti. Použijte tento nástroj, aby byl kulatý - klávesová  zkratka **o** .  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - Dostatečně si přibližte mapu, abyste viděli detaily - přiblížení na 20 metrů a méně je obvykle dostačující.  
@@ -31,12 +31,12 @@ Hlavní body;
 - Pokud uděláte chybu, použijte tlačítko **Zpět** ![back arrow]{: height="26px"} a tím se vrátíte o krok zpět   
 - Všichni vylepšujeme mapu. Pokud předchozí mapeři zanechali budovy podivného nebo špatného tvaru, opravte je a můžete jim o tom ze slušnosti poslat zprávu.  
 
-Building - converting square to round
+Budova - změna pravoúhlé na kruhovou
 -------------------------------------
 
 ![Square to round][]  
 
-If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+Pokud byla budova obkreslena jako pravoúhlá, ale vidíte, že by měla být kulatá, lze ji snadno přeměnit na kruhovou budovu;
 
 - move each of the corners so they are now on the perimeter of the round building,
 - right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  

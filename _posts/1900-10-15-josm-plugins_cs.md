@@ -61,7 +61,7 @@ kapitoly:
 
 ![Restart JOSM][]
 
-Try clicking “Restart JOSM” and watch the software reload on its own.
+Zkuste kliknout na „Restartovat JOSM“ a sledovat, jak se znovu načítá software.
 
 Mirrored Download
 -----------------
@@ -73,32 +73,32 @@ data for editing faster. Instead of getting the data from the central
 OSM server, it allows us to get it from a “mirror,” which is an exact
 replica of the data but in a location that is faster to access it.
 
-Once the plugin is installed (and you have restarted JOSM), you will see
-another new entry on the File Menu, “Download from OSM mirror...”
+Jakmile je plugin nainstalován (a restartujete JOSM), uvidíte
+další nový záznam v nabídce Soubor, „Stáhnout ze zrcadla OSM ...“
 
 ![Download from OSM Mirror][]
 
-Downloading data is exactly the same process you learned before, but it
-can be much faster!
+Stahování dat je přesně to samé, co jste se naučili dříve, ale 
+může být mnohem rychlejší!
 
-Direct Upload
+Přímé nahrávání
 -------------
 
 ![Direct Upload][]
 
-__DirectUpload__ uploads GPX tracks directly to OSM
-through JOSM (more information is available in the **Appendix**). Once
-the plug-in is installed (and you have restarted JOSM), you will see
-anew “Upload traces” item under the “Tools” Menu.
+__DirectUpload__ nahraje trasy GPX přímo do OSM
+prostřednictvím JOSM (více informací naleznete v **Appendix**). Jakmile 
+je plugin nainstalován (a restartovali jste JOSM), uvidíte
+v nabídce „Nástroje“ znovu položku „Nahrát stopy“.
 
 ![Upload Traces Item][]
 
-When you click on the “Upload Traces” button this window will pop up:
+Když kliknete na tlačítko „Nahrát stopy“, zobrazí se toto okno:
 
 ![Upload Traces Window][]
 
-Put keywords (seperated by commas without spaces) that relate to your
-GPS trace in the "Tags (comma delimited)" box. For example,
+Umístěte klíčová slova (oddělená čárkami bez mezer), která se týkají vašeho
+Sledování GPS v poli "Tagy (čárkami oddělený)". Například,
 "Country,region,city,neighborhood,road name". Next, provide a
 description of your tags. A drop-down list will allow you to reuse
 former tags and descriptions. Lastly, choose what type of visibility you
