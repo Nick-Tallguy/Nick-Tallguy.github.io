@@ -15,7 +15,7 @@ Copier, Coller & Rotation - Editeur iD
 
 
 Vous pouvez facilement copier, coller et faire pivoter des objets, mais assurez-vous qu'ils soient de la bonne taille.  
-Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
+Sélectionnez avec la souris, ensuite **Ctrl+c** pour copier, et **Ctrl+v** pour coller. Si nécessaire, vous pouvez 'réfléchir' un objet le long, soit de son grand, soit de son petit, axe.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
