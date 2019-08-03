@@ -44,7 +44,7 @@ Interfaccia utente dell'editor iD
     Disegna una figura (un poligono), *scorciatoia da tastiera* **3** ![image5][]{: height="24px"}  
     Annulla azione, *scorciatoia da tastiera* **Ctrl+z** ![image6][]{: height="24px"}  
     Ripeti azione, *scorciatoia da tastiera* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    Salva modifiche, *scorciatoia da tastiera* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Pannello della mappa:** Questo pannello mostra le varie funzioni di configurazione:  
     Ingrandisci visuale, *scorciatoia da tastiera* **+** ![image9][]{: height="24px"}  
     Riduci visuale, *scorciatoia da tastiera* **-** ![image10][]{: height="24px"}  
@@ -55,11 +55,11 @@ Interfaccia utente dell'editor iD
     Apri il menu di aiuto, *scorciatoia da tastiera* **h** ![image13][]{: height="24px"}  
 4. **Pannello informazioni:** Questo pannello mostra diverse informazioni, quali l'indicatore della scala e quali utenti hanno contribuito all'area visualizzata.  
 
-## Configuring the Background Layer
+## Configurare il livello di sfondo
 
 Clicca sul tasto **Sfondo** o usa il *tasto scorciatoia* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Puoi **cambiare il livello di sfondo** in base al provider di immagini che preferisci (di base vengono mostrate le immagini aeree di Bing).  
 
 Puoi anche aggiungere un tuo strato di immagini di sfondo cliccando su **Personalizzato**. Per esempio, se vuoi **aggiungere un -fieldPapers** allora clicca sull'icona con lente d'ingrandimento (ricerca) per aprire la seguente finestra:-  
 ![image17][]   
@@ -86,7 +86,7 @@ Per inserire un nuovo punto, fai click sul bottone **Punto**. ![image3][]{: heig
 - Noterai che è stato aggiunto un punto. Allo stesso tempo il pannello di sinistra cambierà per mostrarti una maschera dove puoi selezionare gli attributi da applicare all'oggetto. Clicca su **Area Ospedaliera** per taggare (marcare) il punto come ospedale.  
 ![image22][]  
 - Puoi usare le maschere per inserire informazioni di dettaglio sui tuoi punti. Puoi inserire il nome dell'ospedale, e/o altre informazioni aggiuntive. Nota che ciascuna caratteristica avrà differenti opzioni, in base a quale tag hai scelto dal pannello di aggiunta/modifica.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Se commetti un errore, come ad esempio una posizione sbagliata, puoi muovere il tuo punto in una nuova posizione tenendo premuto il tasto sinistro del mouse sul punto e trascinandolo. Oppure, se vuoi eliminare il tuo punto, clicca con il tasto sinistro del mouse sul punto, attiva il menù contestuale cliccando con il tasto destro del mouse e poi clicca il pulsante che assomiglia ad un cestino. ![PointToolDelete][]{: height="24px"}  
 Un "punto" creato nell'editor iD è in realtà un "nodo" indipendente con uno o più tag applicati ad esso.  
 
 ### Disegnare linee  
