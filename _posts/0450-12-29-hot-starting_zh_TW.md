@@ -9,7 +9,7 @@ category: hot-tips
 開始使用任務分配管理系統 - iD 編輯器
 ============
 
-> Updated 2019-06-26  
+> 更新日期 2019-06-26  
 
 - TOC
 {:toc}
@@ -28,14 +28,14 @@ category: hot-tips
 4. 畫圖行動由'覆核者'覆核，並且經常會寄訊息給予你關於你貢獻部分的寶貴意見。  
 5. 開始畫地圖 - 你也許需要閱讀更多 HOT 小技巧的章節。HOT 小技巧 [圓形房屋](/zh_TW/hot-tips/tracing-round-buildings/) 或是[有方角的建築](/zh_TW/hot-tips/tracing-rectangular-buildings/) 也許會幫助你。  
 6. 經常儲存 - 請見 [HOT 小技巧 - 儲存](/zh_TW/hot-tips/saving/)  
-7.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+7. 有耐心 - 有時候缺少覆核人員，而很多新手圖客等待回饋意見！繼續畫地圖，但當你發現你犯了錯 (我們都會犯錯！)，看看你能否解決，或是尋求協助。  
 
 
 
 另見  
 ---------
 
-The [Tasking Manager 3 Guide on LearnOSM](/en/coordination/tasking-manager3/)  
+ [LearnOSM 的任務分配管理器 3](/zh_TW/coordination/tasking-manager3/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "人道救援開放街圖小組 - 任務分配管理器教學影片")  
 *目前有些語言是有字幕*  

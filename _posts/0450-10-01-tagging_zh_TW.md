@@ -9,7 +9,7 @@ category: hot-tips
 標籤 - iD 編輯器
 ============
 
-> Updated 2019-06-28
+> 更新日期 2019-06-28
 
 - TOC
 {:toc}
