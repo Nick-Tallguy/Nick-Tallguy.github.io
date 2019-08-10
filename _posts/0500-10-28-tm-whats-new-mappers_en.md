@@ -4,6 +4,7 @@ permalink: /en/coordination/tm-whats-new-for-mappers/
 lang: en
 title: What is new for Mappers in the Tasking Manager 3
 category: coordination
+navigation: skip
 date: 0500-10-21 13:00:00
 ---
 

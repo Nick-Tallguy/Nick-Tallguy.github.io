@@ -272,6 +272,24 @@ table {
   width: 100%;
 }
 
+figure {
+  margin-left: 10%;
+}
+
+.disambiguation-link {
+  margin-left: 10%
+}
+
+.disambiguation-link p a {
+  color: #ffffff;
+  background-color: #79bc5f;
+  padding: 10px;
+}
+
+.disambiguation-version {
+  margin-bottom: 100px;
+}
+
 #wrapper {
   min-height:100%;
   position:relative;

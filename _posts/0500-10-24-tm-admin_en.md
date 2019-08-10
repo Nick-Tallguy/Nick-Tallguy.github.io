@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Tasking Manager 3 Project Creation
-permalink: /en/coordination/tasking-manager3-project-admin/
+title: Tasking Manager Project Creation
+permalink: /en/coordination/tm-admin/
 lang: en
 category: coordination
 ---
 
-# OSM Tasking Manager Project Creation and Administration
+# Tasking Manager Project Creation and Administration
 
 
-**This guide describes the current version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for the previous version](/en/coordination/tasking-manager-project-admin)**
+**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
 Section Index
 -------------
