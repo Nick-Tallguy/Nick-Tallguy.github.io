@@ -15,7 +15,7 @@ Kopírování, vkládání a otáčení - iD editor 
 
 
 Můžete snadno kopírovat, vkládat a otáčet objekty, ale ujistěte se, že mají správné rozměry.  
-Proveďte výběr pomocí myši, poté pomocí **Ctrl+c** zkopírujete a *Ctrl+v** vložíte. Pokud to bude potřeba, upravte tvar podle daného objektu.   
+Proveďte výběr pomocí myši, poté pomocí **Ctrl+c** zkopírujete a **Ctrl+v** vložíte. Pokud to bude potřeba, upravte tvar podle daného objektu.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png

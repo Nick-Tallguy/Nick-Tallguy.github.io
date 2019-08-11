@@ -17,7 +17,7 @@ JOSM 預設組合
 
 如果你喜歡使用預設組合，假若你想加的標籤在選單中找不到，或是你想要加你自已的客製化標籤？  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+在上述的情境中，你可以將客製選單項目加到預設組合裡。在這一章節我們會看到要怎麼做到這一點。而[接下來章節](/zh-tw/josm/creating-presets)，我們會涵蓋如何自行創建你的客製化預設組合。  
 
 
 增加預設組合
@@ -36,7 +36,7 @@ In this case, you can add custom menu items to the Presets. In this section we w
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* 要選擇從網路上的清單新增預設組合檔案，則要從	左側選擇，和點選藍色箭頭。在這個例子中，我們要新增的預設組合叫"新標籤"。  
 
 ![example presets][]
 
@@ -44,11 +44,11 @@ In this case, you can add custom menu items to the Presets. In this section we w
 * 點選 OK。  
 * 你需要重新啟動 JOSM。  
 * 創建新圖層和新增點或形狀。  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* 到預設組合選單，你會看到下面有更多標準 JOSM 安裝時，更加擴張的輸入選項，  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* 大多數的預設組合是為了特殊用途，所以好好的瀏覽然後找出那個你最有興趣。  
 
 * 如果你有自己的客製化預設組合檔案，你可以用類似的方法加到選單裡。只要回到設定選單，不用從選單挑選，而是在右上部按 (+) 按鈕。  
 
