@@ -9,12 +9,12 @@ category: hot-tips
 Vyznačení obdélníkových budov - iD editor
 ============
 
-> Updated 2019-06-23
+> Aktualizováno 2019-06-23
 
 - Obsah
 {:toc}
 
-Základy
+Úvod
 ----------
 
 ![Rectangular building][]  
@@ -23,8 +23,8 @@ Základy
 
 Hlavní body;  
 
-- To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
+Trasování ukončíte dvojklikem na poslední bod,  
+- Pokud by budova měla mít pravoúhlé rohy, ujistěte se, že jste ji tak nekreslili, nebo použijte nástroj k jejich zarovnání ( v angličtině, klávesová zkratka **q**).  
 - Nezapomeňte popisovat!  
 - Na velikosti záleží - *odhad populace je založen na oblastech s větším množstvím budov*,  
 - správná velikost budovy a správně zakreslená cesta okolo pomůže lidem najít svoji vesnici,  

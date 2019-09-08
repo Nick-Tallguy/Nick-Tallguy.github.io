@@ -1,48 +1,47 @@
 ---
 layout: doc
-title: Issues - iD editor
+title: Chyby - iD editor
 permalink: /en/hot-tips/issues/
-lang: en
+lang: cs
 category: hot-tips
 ---
 
-Issues - iD editor
+Chyby - iD editor
 ============
 
 > Vytvořeno 2019-06-28  
 
-- TOC
+- Obsah
 {:toc}
 
-The Essentials
+Úvod
 --------------
 
 ![issues][]
 
-The iD editor contains a 'checking feature' which can show potential problems with any area you are viewing. If you are mapping a square on the Tasking manager, you may wish to alter the settings so that you see potential errors for **everything** and **within view**, so that you are able to check that there are no existing problems to be cleared before you begin your own mapping. Be careful that the issue that iD highlights is actually within your allocated square.  
+iD editor obsahuje 'kontrolní nástroj', který může zobrazit potenciální problémy v každé oblasti, kterou si prohlížíte. Pokud mapujete oblast v Tasking manageru, možná byste si chtěli změnit nastavení tak, aby se vám zobrazovali **všechny** chyby **na této části mapy** a mohli si tak zkontrolovat, jestli se nevyskytuje nějaký problém, předtím než začnete mapovat. Ujistěte se, že iD zvýraznilo chybu ve vaší oblasti.
 
-### Warnings from iD (Issues) ###
+### Varování od iD (Chyby) ###
 
-### Warnings at any time ![id issues icon]{: height="24px"}
+### Varování vždy ![id issues icon]{: height="24px"}
 
 ![id issues][]
 
 ![id issues everywhere][]
 
-In the first image only the mappers own edits are shown - there are no issues, but there is a warning that a potential issue exists. The second image shows all potential issues everywhere in view, and warns of the highway / building overlap which has been previously mapped and saved by someone.  
+Na prvním obrázku vidí maper pouze své úpravy - nevyskytují se žádné chyby, ale je zde varování o možnosti vzniku chyby. Druhý obrázek zobrazuje všechny potenciální chyby všude v zobrazené oblasti a varuje před překrytím cesty a budovy, které bylo dříve zmapováno a uloženo.
 
 ![Error][]
 
-### Warnings Whilst mapping
+### Varování během mapování
 
-iD will warn you if you may be making a mistake in your mapping, for instance accidentally overlapping a road and building.  
+iD vás bude varovat, pokud uděláte chybu během mapování, např. zde náhodou došlo k překrytí cesty budovou.
 
 ![warn when mapping][]
 
-See also  
----------
+Viz také
 
-The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more information.  
+[Průvodce pro iD editor na LearnOSM](/cs/beginner/id-editor/), ve kterém naleznete více informací.  
 
 
 [issues]:/images/hot-tips/issues.gif "Tasking Manager selecting a square and loading into the iD editor"

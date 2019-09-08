@@ -9,7 +9,7 @@ category: hot-tips
 Tagování - iD editor
 ============
 
-> Updated 2019-06-28
+> Aktualizováno 2019-06-28
 
 - Obsah
 {:toc}

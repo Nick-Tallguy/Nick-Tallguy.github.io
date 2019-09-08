@@ -44,18 +44,18 @@ Uživatelské prostředí iD editoru 
     Nakresli plochu (polygon), *klávesová zkratka* **3** ![image5][]{: height="24px"}  
     Vrátit zpět, *klávesová zkratka* **Ctrl+z** ![image6][]{: height="24px"}  
     Provést znovu, *klávesová zkratka* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    Uložit změny, *klávesová zkratka* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Panel mapy:** Tento panel zobrazuje různé možnosti nastavení:  
     Přiblížit, *klávesová zkratka* **+** ![image9][]{: height="24px"}  
     Oddálit, *klávesová zkratka* **-** ![image10][]{: height="24px"}  
     Jít na vaši pozici ![image11][]{: height="24px"}  
     Nastavit vrstvu pozadí, *klávesová zkratka* **b** ![image12][]{: height="24px"}  
     Mapová data, *klávesová zkratka* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    Chyby, *klávesová zkratka* **i** ![Issues][]{: height="24px"}  
     Otevřít menu nápovědy, *klávesová zkratka* **h** ![image13][]{: height="24px"}  
 4. **Informační panel:** Tento panel zobrazuje různé informace, jako třeba měřítko a kteří uživatelé přispěli v této oblasti.  
 
-## Configuring the Background Layer
+## Nastavení vrstvy pozadí
 
 Klikněte na tlačítko **Nastavení pozadí** nebo použijte klávesovou zkratku **b**.![image14][]{: height="24px"}  
 ![image15][]  
@@ -139,7 +139,7 @@ Když vyberete některý z obrysů nově vytvořeného multipolygonu, můžete v
 
 ![part of multipolygon][]
 
-## Issues
+## Chyby
 
 The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
 

@@ -9,12 +9,12 @@ category: hot-tips
 Vyznačení kulatých budov - iD editor
 ============
 
-> Updated 2019-06-24
+> Aktualizováno 2019-06-24
 
 - Obsah
 {:toc}
 
-Základy
+Úvod
 ----------
 
 ![Round Buildings][]
@@ -38,8 +38,8 @@ Budova - změna pravoúhlé na kruhovou
 
 Pokud byla budova obkreslena jako pravoúhlá, ale vidíte, že by měla být kulatá, lze ji snadno přeměnit na kruhovou budovu;
 
-- move each of the corners so they are now on the perimeter of the round building,
-- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
+- umístěte všechny body na okraj kulaté budovy,
+- klepněte na pravé tlačítko a použijte nástroj k zakulacení **o** - možná je to jiné písmeno v jiných jazycích.  
 
 Identifikace
 ---------------
@@ -68,7 +68,7 @@ Shlédněte také
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
-[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
+[Square to round]: /images/hot-tips/square-round-building.gif "Ukázka změny hranaté budovy na kulatou"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Kulatá budova vedle keře" 
 [back arrow]: /images/beginner/back-arrow.png "Zpět" 
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team výukové videa - Přidání budovy do OpenStreetMap"
