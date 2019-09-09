@@ -9,7 +9,7 @@ category: beginner
 iD Editor
 =============
 
-> Reviewed 2019-06-10
+> Zkontrolováno 2019-06-10
 
 Začínáte mapovat pomocí Tasking Manageru pro HOT nebo MissingMaps atd.? Podívejte se na sekci [HOT-tipy](/cs/hot-tips/).  
 
@@ -59,7 +59,7 @@ Uživatelské prostředí iD editoru 
 
 Klikněte na tlačítko **Nastavení pozadí** nebo použijte klávesovou zkratku **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Můžete si **změnit vrstvu podkladu** na vámi požadovanou (přednastavené jsou Bing Aerial Imagery).  
 
 Můžete přidat svoje vlastní mapové čtverce pomocí volby **Vlastní**. Například, pokud chcete **přidat Field Paper** [^fieldpaper], klikněte na **Vlastní** poté klikněte na ikonu lupy (hledat) pro otevření následujícího okna:-  
 ![image17][]   
@@ -67,9 +67,9 @@ vložte vaši **URI snímku na FieldPaper**, který bude vypadat nějak takto: <
 Pro **zobrazení tras GPS z vašeho počítače** (GPX formát), chyťte a pusťte GPX soubor do iD editoru.  
 Pro zobrazení **GPS tras z OpenStreetmap** klikněte na čtvrteček. V obrázku níže, jsou  veřejně dostupné GPS trasy zobrazeny v různých barvách určujících směr pohybu.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Chcete-li změnit **vzhled snímků** klikněte na **Volby zobrazení** (Display Options).  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Pokud jsou [snímky posunuté](/en/josm/aerial-imagery), můžete **posunutí opravit** kliknutím na **Zarovnat podklad** (Adjust imagery offset).  
 ![image18][]  
 
 - Klikněte na navigační tlačítka pro přesun snímků. Klepnutím na tlačítko Reset se vrátíte do výchozí pozice. ![image20][]  
@@ -86,7 +86,7 @@ Chcete-li přidat nový bod, klikněte na tlačítko **Bod**. ![image3][]{: heig
 - Všimněte si, že je přidán nový bod. Současně se změní levý panel tak, aby zobrazoval formulář, ve kterém můžete vybrat atributy objektu. Klepnutím na položku **Nemocnice** označte místo jako nemocnici.  
 ![image22][]  
 - Formuláře můžete použít k vyplnění podrobných informací o vašem místě. Můžete vyplnit název nemocnice, adresu a / nebo další doplňující informace. Všimněte si, že každá funkce bude mít různé možnosti, v závislosti na tom, jakou značku vyberete z panelu funkcí.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Pokud uděláte chybu, např. špatně něco umístíte, můžete to přesunout pomocí levého tlačítka myši. Pro smazání bodu ho levým tlačítkem vyberte, pravým vyvolejte kontextové menu a poté klikněte na ikonu vypadající jako koš. ![PointToolDelete][]{: height="24px"}  
 "Bod" vytvořený v iD editoru je ve skutečnosti samostatný "uzel" se souborem "značek" na něm.  
 
 ### Kreslení čar  
@@ -97,22 +97,22 @@ Chcete-li přidat novou čáru, klikněte na tlačítko **Linie**. ![image4][]{:
 ![image24][]  
 - Stejně jako bod, vyberte příslušné značky pro vaši čáru.  
 - Můžete přetáhnout body z čáry kliknutím levého tlačítka myši na bod a přetažením.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- Když vyberete některý z bodů (node) na čáře a kliknete na něj pravým tlačítkem, nebo zmáčknete mezerník pro vyvolání kontextového menu, nabídnou se vám tyto nástroje:  
+  - Pokračovat čárou z tohoto bodu ![PointToolContinue][]{: height="24px"}  
+  - Rozpojit čáry v tomto bodě ![PointToolDisconnect][]{: height="24px"}  
+  - Rozdělit čáru na dvě v tomto bodě. ![PointToolSplit][]{: height="24px"}  
+  - Smazat bod. ![PointToolDelete][]{: height="24px"}  
 - Když kliknete levým tlačítkem myši na linii (ale ne na bod), uvidíte tyto nástroje:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   Vytvořit kruh z čáry (pouze pokud je čára uzavřená) ![LineToolCircularize][]{: height="24px"}  
+  -   Odpojit čáru od objektu ![LineToolDisconnect][]{: height="24px"}  
+  -   Přesunout čáru ![LineToolMove][]{: height="24px"}  
+  -   Udělat všechny úhly pravoúhlé ![LineToolSquare][]{: height="24px"}  
+  -   Zrcadlit prvek podle kratší strany ![LineToolReflectShort][]{: height="24px"}  
+  -   Zrcadlit prvek podle delší strany ![LineToolReflectLong][]{: height="24px"}  
+  -   Obrátit směr přímky (hodí se u řek a jednosměrných ulic) ![LineToolReverse][]{: height="24px"}  
+  -   Otočit čáru okolo jejího středu ![LineToolRotate][]{: height="24px"}  
+  -   Nárovnat čáru ![LineToolStraighten][]{: height="24px"}  
+  -   Smazat čáru. ![LineToolDelete][]{: height="24px"}  
 
 "Čára" vytvořená v iD editoru je vlastně "cesta" se "značkami" umístěnými na ní.
 
@@ -141,11 +141,11 @@ Když vyberete některý z obrysů nově vytvořeného multipolygonu, můžete v
 
 ## Chyby
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+Editor provádí několik kontrol během vašich úprav. Pokud vyhodnotí, že vaše úpravy mohou vést k problémům, tak vás upozorní v záložce Chyby. Kdykoliv se u chybové ikony vpravo objeví žlutá (varování) nebo červená (chyba) tečka, měli byste si záložku otevřít a podívat se co hlásí. Tato informace je taktéž zobrazena u vlastnotí objektu v záložce vlevo, pokud je daný objekt vybrán. Zároveň jste varování o nevyřešených chybách při nahrávání data na server. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+Ve spodní části záložky s chybama se nachází seznam pravidel, ve kterém si můžete hlášení zakázat, ale to se nedoporučuje.
 
 Uložení změn
 --------------------
@@ -160,11 +160,11 @@ Když (a pokud) chcete uložit své úpravy na OpenStreetMap, klikněte na tlač
 Další informace a vlastní značky
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Když upravujete objekt, můžete si v panelu vlastností všimnout kolonky "Přidat vlastnost:". Zde je možné přidat různé informace z dané nabídky (vrstva, nadmořská výška, wikipedie atd.).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Nebo si můžete vytvořit vlastní tag kliknutím na **Všechny vlastnosti**. ![image44][]{: height="24px"}  
 
 - Zobrazí se tak všechny značky připojené k této funkci.  
 ![image45][]  

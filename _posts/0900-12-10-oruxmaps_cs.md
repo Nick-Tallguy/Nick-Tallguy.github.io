@@ -9,44 +9,44 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
+> Zkontrolováno 2016-08-04 a ikdyž je software mírně zastaralý, tak stále funguje a v článku najdete odkaz na originální manuál k softwaru. 
 
-In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  
+V této sekci se naučíme nastavit OruxMaps, vytvoříme si výchozí body, podíváme se na záznam trasy a exportujeme ho pro použití v JOSM.  
 
 ​Instalace OruxMaps
 ------------------
 
-Install the app from Google Play Store by searching for **OruxMaps**, OruxMaps should be among the top search results listed.  
+Nainstalujte si aplikaci z Google Play Store vyhledáním **OruxMaps**, měla by se zobrazit mezi prvními v seznamu.  
 
 ![Search OruxMaps in Play Store][]
 
-Click on **Install** button and press Accept after App permissions appears.  
+Klikněte na **Instalovat** a přijměte podmínky používání.  
 
 ![Install OruxMaps][]
 
-Congratulations! You  now have OruxMaps installed in your device!  
+Gratulujeme! Nyní  máte nainstalováno OruxMaps na svém zařízení!  
 
-​Using OruxMaps
+Používání OruxMaps
 --------------------
 
-The first time you run the application, you will see a notification like this:  
+Po prvním spuštění aplikace se vám zobrazí podobná notifikace:  
 
 ![Running OruxMaps for the first time][]
 
-In OruxMaps, you can choose whether you want to use online maps or offline maps. It’s better to use offline maps since you can use it even without an Internet connection. OruxMaps will suggest two sources  for downloading offline maps. If you already have your offline maps, you can also put in here too! At first it can be a little bit confusing because there are so many buttons in there. But don’t worry, you will see the explanation for each buttons below:  
+V OruxMaps si můžete vybrat, jestli chcete používat online nebo offline mapy. Lepší jsou offline mapy, protože nejste závislý na internetovém připojení. OruxMaps vám nabídnou dva zdroje pro stažení offline map. Pokud je již máte, můžete je sem také vložit! Zpočátku může být to množství tlačítek trochu matoucí. Ale není čeho se bát, níže se se s každým z nich seznámíte:  
 
 ![Interface overview][]
 
-Source: [OruxMaps Manual English Version](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
-This manual may be more up to date than this guide, and may be available in other languages.  
+Zdroj: [OruxMaps manuál anglická verze](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
+Tento manuál je nejspíš aktuálnější než tento průvodce a možná je dostupný i v jiných jazycích.  
 
-You can change your background map under **Maps \> Switch Maps**. After that you get to options - you want to use your **Online Map** or you want to use
-**Offline Maps**. OruxMaps provide a lot of Online Maps source that can you choose but of course it will cost money from the data plan on your device.  If you want to know where you can put your offline maps, you can go to **Setting \>Maps**. In the map directory option you can see where the OruxMaps put your
-offline maps. By the default, it’s in **OruxMaps/Mapfiles** folder in your internal storage.  
+Mapový podklad si můžete změnit v nabídce **Maps \> Switch Maps**. Poté si vyberte ze dvou možností - chcete-li použít **Online Mapy** nebo radši
+**Offline Mapy**. OruxMaps poskytuje spoustu zdrojů Online Map, ze kterých si můžete vybrat, ale to vás můžete stát peníze v závislosti na ceně vašich dat.  Pokud chcete vědět, kam můžete uložit vaše offline mapy, jděte do **Setting \>Maps**. U položky **Maps directory** je uvedena cesta, kam OruxMaps ukládá vaše
+offline mapy. Přednastavený je adresář **OruxMaps/Mapfiles** ve vaší vnitřní paměti.   
 
 ![Offline maps storage settings][]
 
-Start Tracking
+Spouštíme záznam trasy
 --------------
 
 Before you start tracking let’s review some settings under track/routes setting. The first setting is **Auto GPX Creation**. If you check this setting, OruxMap will help you to create .gpx file immediately after finishing a track (using Stop Tracking feature). So, after finishing a track, you can go to **OruxMaps/Tracklogs** in your internal storage to get your .gpx files without needing to export your track log first in track/routes management. The second setting is **Ask Track Name**. It’s very useful to define your track name before you start tracking so that you exactly know the specific name of your tracks.  
@@ -67,7 +67,7 @@ Some windows will pop up and you need to select **OpenStreetMaps** (1) and afte
 
 ![Uploading tracks to OpenStreetMap][]
 
-​Adding Waypoint
+Přidáváme výchozí bod
 ---------------------
 
 ![Creating a waypoint][]
@@ -83,7 +83,7 @@ If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. F
 Shrnutí
 -----------
 
-Congratulations! You already know how to use OruxMaps for field surveys. It may be hard on your first time but if you continue using this you will be familiar with this application.  
+Gratulujeme! Už víte, jak používat OruxMaps pro průzkum terénu. Napoprvé to bude možná obtížné, ale pokud to překonáte, tak se s touto aplikací určite sžijete.  
 
 [Search OruxMaps in Play Store]: /images/mobile-mapping/oruxmaps_image00.png
 [Install OruxMaps]: /images/mobile-mapping/oruxmaps_image03.png
