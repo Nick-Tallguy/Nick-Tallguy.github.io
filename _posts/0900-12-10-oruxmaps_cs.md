@@ -49,11 +49,11 @@ offline mapy. Přednastavený je adresář **OruxMaps/Mapfiles** ve vaší vnit�
 Spouštíme záznam trasy
 --------------
 
-Before you start tracking let’s review some settings under track/routes setting. The first setting is **Auto GPX Creation**. If you check this setting, OruxMap will help you to create .gpx file immediately after finishing a track (using Stop Tracking feature). So, after finishing a track, you can go to **OruxMaps/Tracklogs** in your internal storage to get your .gpx files without needing to export your track log first in track/routes management. The second setting is **Ask Track Name**. It’s very useful to define your track name before you start tracking so that you exactly know the specific name of your tracks.  
+Předtím než začneme zaznamenávat trasu, nahlédněme do nastavení track/routes (trasy/cesty). První nastavení je **Auto GPX Creation**. Pokud toto nastavení zaškrtnete, OruxMap vám pomůže s vytvořením .gpx souboru ihned po ukončení záznamu trasy (pomocí funkce Stop Tracking). Takže jakmile dokončíte trasu, přejděte do **OruxMaps/Tracklogs** ve své interní paměti, kde najdete své .gpx soubory aniž byste museli exportovat váš track log přes track/routes nastavení. Druhým nastavením je **Ask Track Name**. Vyplatí se pojmenovat si trasu před jejím záznamem, později ji rychleji najdete.  
 
 ![Tracklog settings][]
 
-To start tracking, one thing to remember is that we must set GPS Features in your device on. Any features in OruxMaps like **Start GPS** and **Start Rec** will not start unless you activate the GPS Features. OruxMaps will show notification if your GPS still disabled, and after that you will directly go to **Location Setting** in your device. After you turn on Location feature in your device, you can know your location by using **Start GPS** (1) feature in the right panel. After your location is already acquired, you can start Tracking by using **Start Rec.** (2) in the right Panel.  
+Před spuštěním záznamu si ověřte zda máte zapnutou GPS v zařízení. Žádná funkce v OruxMaps, jako např. **Start GPS** a **Start Rec**, nebude fungovat dokud neaktivujete GPS. OruxMaps vám zobrazí notifikaci, pokud máte zakázanou GPS a přesune vás rovnou do nastavení GPS. Jakmile zapnete GPS, můžete si zjistit svoji pozici pomocí funkce **Start GPS** (1)  v pravém panelu. Jakmile je vaše pozici zaměřena, můžete spustit záznam pomocí  **Start Rec.** (2) v pravém panelu.  
 
 ![Start track recording][]
 
