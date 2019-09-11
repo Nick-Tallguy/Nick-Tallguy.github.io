@@ -57,13 +57,13 @@ Před spuštěním záznamu si ověřte zda máte zapnutou GPS v zařízení. Ž
 
 ![Start track recording][]
 
-To stop tracking you only need to press the same button (2) in the right panel. After you stop tracking OruxMap will store your tracklog in an internal  database. You can access the tracklog by accessing **Routes** panel in top page, select **Manage**.You will find all of your tracklog here and you can see the route by press the tracklog that you want to see and select **Load the Track** (1). If you don’t use Auto GPX creation feature you can export your tracklog in various format (GPX, KML, KMZ) by select your tracklog and **Export as** (2).  
+K zastavení záznamu stačí znovu zmáčknout stejné tlačítko (2) v pravém panelu. Jakmile záznam zastavíte, OruxMap uloží záznam trasy do interní databáze. Zároveň k němu máte přístup skrz **Routes** v horní části stránky a poté volba **Manage**. Na tomto místě najdete všechny vaše zaznamenané trasy a konkrétní trasu si zobrazíte zmáčknutím a volbou **Load the Track** (1). Pokud nepoužíváte funkci "Auto GPX creation", můžete vaše záznamy exportovat do různých formátů (GPX, KML, KMZ) výběrem daného záznamu a volbou **Export as** (2).  
 
 ![Managing tracklogs][]
 
-If you already have an OpenStreetMap account, you can upload your track directly using OruxMaps. Before you upload your tracklog you need to put your username and password by going to **Setting \> Integration \> OpenStreetMap**. After that enter your username and password. You can upload your tracklog by using **Upload to (3)** in track/routes management.  
+Pokud již máte uživatel. účet u OpenStreetMap, můžete své trasy nahrávat přímo z OruxMaps. Předtím než budete moci uploadovat trasy, musíte zadat své uživ. jméno a heslo v nastavení **Setting \> Integration \> OpenStreetMap**. Potom zadejte své uživ. jméno a heslo. Pak už jen stačí použít funkci **Upload to (3)** v manažeru vašich tras.  
 
-Some windows will pop up and you need to select **OpenStreetMaps** (1) and after that you choose your **Tracklog type** (2), put your **Description** (3) and also the **Tag** (4). After all the information already filled up press **Upload GPX** (5). The notification will pop up and you can directly see your GPS traces on the OpenStreetMap website by selecting **OK** (6).  
+Objeví se okýnko, ve kterém zvolíte **OpenStreetMaps** (1), poté si zvolíte **Tracklog typ** (2), přidáte **Popis** (3) a taktéž můžete přidat **Tag** (4). Jakmile jsou všechny informace přidány, zmáčkněte **Upload GPX** (5). Vyskočí oznámení a můžete se na svoji trasu podívat přímo na OpenStreetMap kliknutím na **OK** (6).  
 
 ![Uploading tracks to OpenStreetMap][]
 
