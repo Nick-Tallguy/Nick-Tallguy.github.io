@@ -72,11 +72,11 @@ Přidáváme výchozí bod
 
 ![Creating a waypoint][]
 
-If you want to add waypoint, you need to go to **Waypoint** symbol (1) at the top of the page and go to **Create** (2). It will bring you to waypoint creation page and fill your waypoint name. You can add extra information, for example a description of your waypoint and coordinates of your waypoint by checking the Coordinates checklist. Press Accept to save your waypoint.  
+Pokud chcete přidat waypoint (výchozí bod), najděte symbol **Waypoint** (1) v horní části obrazovky a klikněte na **Create** (2). Objeví se stránka pro založení waypointu s vyplněným názvem waypointu. Můžete přidat další informace, např. popis a souřadnice zaškrtnutím políčka u slova **Coordinates**. Zmáčkněte **Accept** a waypoint je vytvořen.  
 
 ![Waypoint creation settings][]
 
-If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. From this page you can change the properties, delete and export the waypoint. To see all of your waypoints in **map**, select the waypoints and go to show in map (1) and if you want to export your waypoints press **Export** (2). All of your exported waypoints will be stored in internal storage (by the default it stored in **oruxmaps/geocaches**).  
+Pokud se chcete podívat na vaše waypointy, jděte do **Waypoint \>Manage**. Na této stránce můžete měnit jejich vlastnosti, mazat je a exportovat. K zobrazení všech waypointů na **mapě**, vyberte požadované waypointy a klikněte na ikonu "oka" (1), pokud je chcete exportovat, tak zmáčkněte **Export**(2). Všechny exportované waypointy naleznete v interní paměti (v základním nastavení je cesta **oruxmaps/geocaches**).  
 
 ![Managing save waypoints][]
 
