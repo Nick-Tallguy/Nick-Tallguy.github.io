@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: Manipulating Data with Osmosis
+title: Manipulace s daty pomocí Osmosis
 permalink: /cs/osm-data/osmosis/
 lang: cs
 category: osm-data
 ---
 
-Manipulating Data with Osmosis
+Manipulace s daty pomocí Osmosis
 ===============================
 
 
-**Osmosis** is a powerful command-line tool for manipulating and processing raw **.osm** data. It is often used for processing large data files, for splitting OSM files into smaller pieces, and for applying a changeset to update an existing file.  
+**Osmosis** je výkonný nástroj, ovládaný pomocí příkazové řádky, k manipulaci a zpracování surových **.osm** dat. Často se používá ke zpracování velkých datových souborů, pro rozdělování OSM souborů na menší části a pro aplikování sad změn na existující soubor.  
 
-There are a great many functions available with Osmosis, and you can read about each in detail on the [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). However many of the functions are quite complex and difficult to understand, particularly if you are just getting started with command-line programs and OpenStreetMap. This chapter will serve to introduce Osmosis, install it on Windows, and get started with a basic Osmosis command.  
+Osmosis obsahuje spoustu skvělých funkcí a jejich detailní popis naleznete na [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). Většinou se jedná o funkce poměrně komplexní a těžce pochopitelné, obzvláště pro začátečníky pracující s programy v příkazové řádce a OpenStreetMap. Tato kapitola vás seznámí s Osmosis, pomůže s intalací ve Windows a představí základní příkazy v Osmosis.  
 
-Install Osmosis
+Instalace Osmosis
 ----------------
 
 Like osm2pgsql in the previous chapter, we will need to download and set up **osmosis** so that we can run it from the command line. The process for this will be very similar to osm2pgsql.  
