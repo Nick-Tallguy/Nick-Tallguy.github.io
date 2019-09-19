@@ -39,7 +39,7 @@ Některé z našich oblíbených doplňků jsou:
 
 6. **print:** Přidá funkci pro rychlí tisk zvolené oblasti, která nevypadá moc přehledně.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Přidá mnoho dalších nástrojů a nabídek do JOSM pro pokročilejší uživatele. Více informací získáte v [další kapitole](/cs/josm/josm-more-plugins)  
+7. **[utilsplugin2](/cs/josm/josm-more-plugins/#more-selection-tools):** Přidá mnoho dalších nástrojů a nabídek do JOSM pro pokročilejší uživatele. Více informací získáte v [další kapitole](/cs/josm/josm-more-plugins)  
 
 
 
