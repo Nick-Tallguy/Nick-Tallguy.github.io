@@ -10,18 +10,18 @@ osm2pgsql
 ==========
 
 
-In the previous chapter we saw how to set up Postgresql with PostGIS in Windows and how to set up a database and load it with shapefile data. In order to get OpenStreetMap data into a database, you could get the data in shapefile format and use the shapefile loader, but this may leave you without all the data that you want. In this chapter we will learn how to use **osm2pgsql**, a command-line program for loading raw OSM data into a PostGIS database.  
+V předchozí kapitole jsme si představili Postgresql s PostGIS ve Windows, jak se nastavuje databáze a jak ji naplnit shapefile daty. Chcete-li načíst OpenStreetMap data do databáze, můžete je stáhnout ve formátu shapefile a použít shapefile loader, ale tenhle způsob nemusí fungovat na všechna data, které potřebujete. V této kapitole se naučíme, jak pomocí **osm2pgsql**, programu běžícím v příkazové řádce, načíst zdrojová OSM data do PostGIS databáze.  
 
-We will go through the steps to set up osm2pgsql on Windows, though the steps should be roughly the same on another operating system, assuming you have set up your PostGIS database(s) correctly.  
+Jednotlivé kroky nastavení osm2pgsql si předvedeme ve Windows, ale postup bude zřejmě velmi podobný i v jiných operačních systémech, za předpokladu, že jste PostGIS nastavili správným způsobem.  
 
-Get osm2pgsql
+Jak získat osm2pgsql
 -------------
 
-To download the windows version of osm2pgsql, navigate your web browser to <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+Odkaz na Windows verzi osm2pgsql naleznete na adrese <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
 
 ![windows binary][]
 
-- Download the file named **osm2pgsql.zip**  
+- Stáhněte si soubor s názvem **osm2pgsql.zip**  
 - Unzip the file on your system. You should move the unzipped folder to a location where you will not move it later, because we need to add its location to the system path.  
 
 ![unzip it][]
