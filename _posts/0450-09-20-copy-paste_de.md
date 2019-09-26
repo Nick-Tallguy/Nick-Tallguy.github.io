@@ -9,7 +9,7 @@ category: hot-tips
 Kopieren, Einfügen & Drehen - iD editor
 ============
 
-> Updated 2019-06-24
+> Aktualisiert am 24.6.2019
 
 ![copy-paste][]
 

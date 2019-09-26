@@ -9,7 +9,7 @@ category: hot-tips
 Attributieren - iD Editor
 ============
 
-> Updated 2019-06-28
+> Aktualisiert am 28.6.2019
 
 - TOC
 {:toc}

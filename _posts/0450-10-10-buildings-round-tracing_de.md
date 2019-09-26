@@ -9,7 +9,7 @@ category: hot-tips
 Runde Gebäude zeichnen - iD editor
 ============
 
-> Updated 2019-06-24
+> Aktualisiert am 24.6.2019
 
 - TOC
 {:toc}
@@ -31,7 +31,7 @@ Folgendermaßen ist vorzugehen:
 - Wenn Sie einen Fehler machen, benutzen Sie den **Rückgängig** Button ![back arrow]{: height="26px"}, um deine letzten Änderungen rückgängig zu machen.  
 - Wir wollen alle die Karte verbessern. Wenn der vorherige Mapper die Gebäude in einer komischen Form oder sonst falsch eingezeichnet hat, verbessern Sie diese und überlegen Sie sich, ob Sie ihm eine freundliche Nachricht schicken wollen.  
 
-Building - converting square to round
+Gebäude - Rechteckig nach rund konvertieren
 -------------------------------------
 
 ![Square to round][]  
