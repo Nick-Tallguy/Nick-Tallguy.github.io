@@ -22,87 +22,87 @@ Odkaz na Windows verzi osm2pgsql naleznete na adrese <http://wiki.openstreetmap.
 ![windows binary][]
 
 - Stáhněte si soubor s názvem **osm2pgsql.zip**  
-- Unzip the file on your system. You should move the unzipped folder to a location where you will not move it later, because we need to add its location to the system path.  
+- Rozbalte soubor ve svém počítači. Umístěte rozbalenou složku na místo, odkud ji už nebude třeba přesouvat, protože bude potřeba přidat její umístění mezi systémové proměnné.  
 
 ![unzip it][]
 
-- In the osm2pgsql directory that you unzipped is a file called osm2pgsql.exe.  This is a program that we will run to import the data, but in order for Windows to find it, we need to add its location to the system path.  Click on the Start Menu and type “system path.”  
+- v adresáři osm2pgsql, který jste právě rozbalili je soubor osm2pgsql.exe. Pomocí tohoto programu budeme importovat data, ale aby jej Windows našly, bude potřeba přidat jeho lokaci do systémové složky. Do vyhledávacího políčka u nabídky Start napište "proměnné prostředí".  
 
 ![system path][]
 
-- You should see an option named “Edit the system environment variables.”  Click on it.  
+- Měla by se vám zobrazit nastavení pojmenované "Upravit proměnné prostředí systému". Klikněte na něj.  
 
 ![edit variables][]
 
-- Click on the button named “**Environment Variables**”  
+- Klikněte na tlačítko "Proměnné prostředí".  
 
 ![env variables][]
 
-- At the bottom find the variable named “**Path**” and click “**Edit...**”  
+- Najděte proměnnou "Path" a klikněte na "Upravit..."  
 
 ![find path][]
 
-- You must add the directory where osm2pgsql.exe is located to the Path variable.  
+- Je potřeba do pro Path přidat adresář, ve kterém je umístěn osm2pgsql.exe.  
 
 ![edit path][]
 
-- Add a semicolon to the end of the previous directory and then type in the full directory path of osm2pgsql.exe.  For example, if you put the **osm2pgsql** folder directly in the **C:\\** directory the path would be:  
+- /Windows 10/: Klikněte na tlačítko **Nový** a vložte celou cestu k adresáři s osm2pgsql.exe. (/Windows 7 a starší/: Přidejte středník na konec původního textu a pak vepište celou adresářovou cestu k osmosis.) Například, pokud jste uložili adresář **osm2pgsql** přímo na **C:\\**, potom cesta bude:  
 	
 **C:\osm2pgsql\Win32**  
 
-- Click OK several times to save the new settings.  
-- **osm2pgsql** should be functioning now. Let's check it.  
-- Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
+- Klikněte na OK pro uložení nastavení.  
+- **osm2pgsql** by mělo fungovat. Pojďme to zkontrolovat.  
+- Otevřeme si Příkazovou řádku ve Windows. Klikněte na vyhledávací tlačítko u nabídky Start a napište "**cmd**". Objeví se aplikace Příkazová řádka, tak na ni klikněte, nebo zmáčkněte Enter.  
 
 ![cmd][]
 
-- In the black command window that opens, type:  
+- Jakmile se zobrazí černé okno, napište příkaz:  
 
 **osm2pgsql**
 
-- If everything is working right, you should get a message like this:  
+- Pokud vše správně funguje, měla by se vám zobrazit podobá zpráva:  
 
 ![osm2pgsql test][]
 
-- If you don't see an error message like this, and it says that it cannot find the application **osm2pgsql**, then you may have entered the Path variable incorrectly.  
+- Pokud tomu tak není a oznamuje vám to, že nemůže najít aplikaci **osm2pgsql**, pak jste možná špatně zadali cestu k adresáři v proměnných prostředí.  
 
-Getting Raw OSM Data
+Stahování dat z OSM
 ---------------------
-Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://mapzen.com/data/metro-extracts/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
+Dříve než spustíme **osm2pgsql** stáhneme si nějaká zdrojová OSM data k importu do databáze. Pokud ještě nemáte **.osm** soubor, který lze použít, stáhněte si soubor z <https://mapzen.com/data/metro-extracts/>. Na této stránce je umístěno několik OSM extraktů různých měst.  Vyberte si některé z měst a stáhněte si PBF soubor. PBF soubory jsou komprimované **.osm** soubory. K extrakci dat můžete využít některou ze služeb uvedených v seznamu v kapitole [stahování dat z OSM](/cs/osm-data/getting-data), pokud chcete zdrojová data pro jinou oblast.  
 
-Get the Style File
+Stáhněte si soubor stylů
 ------------------
-**osm2pgsql** requires the use of a custom style file to define which tags are included in the database during import. You can download the default style file [here](/files/default.style).  
+**osm2pgsql** vyžaduje vlastní soubor stylů, který definuje tagy použité v databázi během importu. Základní soubor stylů si můžete stáhnout [odsud](/files/default.style).  
 
-Importing the Data
+Importujeme data
 -------------------
-Open PgAdmin III and create a new database named **osm**, just as you did in the previous chapter. To import the data, we will run the **osm2pgsql** program via the command line. 
+Otevřete PgAdmin III a vytvořte novou databázi s názvem **osm**, stejně jako v předchozí kapitole. Data importujeme spuštěním programu **osm2pgsql** přes příkazovou stránku. 
 
-- Click on the Start Menu and type "cmd" and Enter to open the Command Prompt.  
+- Do vyhledávacího pole u menu Start napište "cmd" a zmáčkněte Enter pro otevření příkazové řádky.  
 
 ![command prompt][]
 
-Here we will run the application **osm2pgsql** with several options. We need at least to supply it with:  
+Odsud spustíme aplikaci **osm2pgsql** s několika parametry. Je potřeba poskytnou minimálně následující:  
 
-- The location of the OSM Data File  
-- The name of the database, and the database username  
-- The style file which defines which OSM tags will be imported to the database  
+- Umístění souboru s OSM daty  
+- Název databáze a přístupové jméno do databáze  
+- Soubor stylů definující OSM tagy, které budou importovány do databáze  
 
-We have placed our OSM file into the **C:\\** directory to make this easier.  
+Abychom to zjednodušili, umístili jsme OSM soubor do adresáře **C:\\** .  
 
-- Type the following command, replacing the location of the OSM file and style file with your own.
+- Zadejte následující příkaz, ale nezapomeňte uvést vaše umístění souboru OSM a souboru se styly.
 
       osm2pgsql -c -d osm -U postgres -H localhost -S C:\default.style C:\bangkok.osm.pbf  
 
-- Press Enter. If all goes well, the process should begin running. It may take a few minutes for all of the data to load into the database.  
+- Zmáčkněte Enter. Pokud je vše správně nastaveno, proces by se měl spustit. Načtení všech dat do databáze může trvat několik minut.  
 
 ![osm2pgsql output][]
 
-- If your raw OSM file is large, you may need to add additional memory to the osm2pgsql import process. To do this, add the following to the command:  
+- Pokud je soubor s OSM daty velký, můžete přidat dodatečnou paměť importovacímu procesu osm2pgsql. To uděláte tak, že přidáte následující text za příkaz:  
 
       --cache 600
 
-Testing It
+Testujeme
 -----------
 
 We can test that the import was successful and view the data in our database using QGIS.  
@@ -140,11 +140,11 @@ For more information on osm2pgsql, refer to the OSM Wiki - <http://wiki.openstre
 
 [windows binary]: /images/osm-data/windows-binary.png
 [unzip it]: /images/osm-data/unzip-it.png
-[system path]: /images/osm-data/system-path.png
-[edit variables]: /images/osm-data/edit-environment-variables.png
-[env variables]: /images/osm-data/environment-variables.png
-[find path]: /images/osm-data/find-path.png
-[edit path]: /images/osm-data/edit-path-variable.png
+[system path]: /images/osm-data/system-path_cs.png
+[edit variables]: /images/osm-data/edit-environment-variables_cs.png
+[env variables]: /images/osm-data/environment-variables_cs.png
+[find path]: /images/osm-data/find-path_cs.png
+[edit path]: /images/osm-data/edit-path-variable_cs.png
 [cmd]: /images/osm-data/cmd.png
 [osm2pgsql test]: /images/osm-data/osm2pgsql-test.png
 [command prompt]: /images/osm-data/command-prompt.png
