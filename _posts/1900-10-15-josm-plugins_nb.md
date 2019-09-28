@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Módulos JOSM
-permalink: /pt/josm/josm-plugins/
-lang: pt
+title: JOSM Plugins
+permalink: /en/josm/josm-plugins/
+lang: nb
 category: josm
 ---
 
-Módulos JOSM
+JOSM Plugins
 ============
 
 
@@ -14,7 +14,7 @@ As you become more advanced in your editing techniques, you may want to use addi
 
 In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
 
-Installing Plugins
+Installere plugins
 -------------------
 Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
 

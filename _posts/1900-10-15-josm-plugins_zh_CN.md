@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Módulos JOSM
-permalink: /pt/josm/josm-plugins/
-lang: pt
+title: JOSM Plugins
+permalink: /zh_CN/josm/josm-plugins/
+lang: zh_CN
 category: josm
 ---
 
-Módulos JOSM
+JOSM Plugins
 ============
 
 

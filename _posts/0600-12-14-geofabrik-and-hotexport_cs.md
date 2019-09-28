@@ -1,47 +1,47 @@
 ---
 layout: doc
-title: Using Geofabrik and HOT Export
+title: Využití Geofabrik a export z HOT
 permalink: /cs/osm-data/geofabrik-and-hot-export/
 lang: cs
 category: osm-data
 ---
 
-Using Geofabrik and HOT Export
+Využití Geofabrik a export z HOT
 ================
 
 > Zkontrolováno 2016-09-05  
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+Jakmile se naučíte přidat a upravit data v OpenStreetMap (OSM), nejspíš budete chtít data zálohovat nebo zpracovat pomocí softwaru Geographic Information System, který je pod licencí Open Source, stejně jako Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
 
-Getting OSM Data on Geofabrik Website
+Stažení OSM dat z webu Geofabrik
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+OSM data si můžete jednoduše stáhnout z [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
-The data is divided into several regions. Indonesia can be found as part of Asia by clicking on the Asia sub-region on the blue table, and then the page will appear like this.  
+Data jsou rozdělena do několika regionů. Indonésii je součástí Asie, po jejím rozkliknutí se vám zobrazí stránka na obrázku níže.  
 
 ![geofabrik-asia][]
 
-After appearing at the top of the page, see how the sub-region divides into countries of Asia. To get the data, you need to click the Indonesian state on the blue table, and it will appear like this.  
+Asie je rozdělena do několika subregionů (zemí). Data získáte na stránce, která se vám zobrazí po kliknutí na stát Indonésie v modré tabulce.  
 
 ![geofabrik-indonesia][]
 
-Then if you want to obtain the Indonesian data in shapefile (.shp) format, you click on the indonesia-latest.shp.zip link, and the file will be downloaded. There are several formats that can be downloaded. One popular format is shapefile (shp) with points, polyline, and polygon layer.  
+Pokud chcete data Indonésie ve formátu shapefile (.shp), klikněte na odkaz indonesia-latest.shp.zip a soubor se stáhne. Je zde i několik jiných formátů, ve kterých lze soubor stáhnout. Populárním formát však je shapefile (.shp) obsahující vrstvu bodů, čar a polygonů.  
 
-You can check the last time data was updated. Please note, the server usually updates the data once every 24 hours, so if you just upload data to OSM, the data does not appear automatically when you download it, but you have to wait for the latest updates from the server.  
+Můžete si zkontrolovat poslední aktualizaci dat. Pamatujte si, že server obvykle aktualizuje data jednou za 24 hodin, takže pokud jste právě nahráli úpravy do OSM, tak se hned neobjeví ve staženém souboru, ale je potřeba počkat na nejbližší update serveru.  
 
-Getting OSM Data on HOT Export Tool Website
+Stažení OSM dat pomocí webu HOT Export Tool
 --------------------------------------
 
-The [Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) has created an online service that allows users to create custom OSM extracts anywhere in the world, by selecting an area of interest, map features and file formats. Within minutes, up-to-date OSM data is exported, filtered and converted. The following section will guide you on how to use the Export Tool. This information can also be found through the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section at export.hotosm.org.
+[Humanitarian OpenStreetMap Team](https://www.hotosm.org/) (HOT) vytvořil online službu, která umožňuje uživatelům vytvářet vlastní OSM extrakty kdekoliv na světě, stačí si vybrat oblast, která vás zajímá, funkce mapy a formát souboru. Během několik minut se aktuální data z OSM exportují, vyfiltrují a zkonvertují. Následující sekce vás naučí používat Export Tool. Tyto infomace můžete taktéž získat v sekci ‘[Learn](https://export.hotosm.org/en/v3/learn)’ na webu export.hotosm.org.
 
 ![hot-export-tool][]
 
-## QuickStart
+## Úvodem
 
-Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
+Kdokoliv si může vytvořit vlastní OpenStreetMap export pomocí Export Tool - stačí si vytvořit účet. Můžete se registrovat pomocí OpenStreetMap účtu z openstreetmap.org a ověřené emailové adresy, která bude využita k zaslání odkazu na váš export, jakmile bude hotový.
 
 ## Identify Area of Interest
 
