@@ -43,44 +43,44 @@ Stažení OSM dat pomocí webu HOT Export Tool
 
 Kdokoliv si může vytvořit vlastní OpenStreetMap export pomocí Export Tool - stačí si vytvořit účet. Můžete se registrovat pomocí OpenStreetMap účtu z openstreetmap.org a ověřené emailové adresy, která bude využita k zaslání odkazu na váš export, jakmile bude hotový.
 
-## Identify Area of Interest
+## Identifikace oblasti zájmu
 
-There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
+Oblast zájmu (Area of Interest-AOI) lze pomocí Export Tool vybrat několika způsoby. Mezi nejběžnější patří vyhledání podle názvu, zadáním souřadnic hranic čtverce, nakreslením hranic čtverce, nakreslením polygonu, použitím aktuálně zobrazené oblasti nebo nahrátím souboru geojson.
 
 ![export-tool-create][]
 
-Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will become available. The ‘Create’ tab is where you will set up your export, by describing it on the left hand side and selecting your AOI with the map on the right hand side. 
+Jakmile jste ‘Přihlášení’ v HOT Export Tool, zobrazí se vám záložka ‘Create’. V této záložce si nastavíte samotný export, přidáte mu popis a vyberete svou AOI v mapě napravo. 
 
 ![export-tool-describe][]
 
-### Search Bar
-There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+### Vyhledávací pole
+Existuje 6 způsobů, kterými lze definovat AOI pro váš export. První a druhý využívají vyhledávací pole, do kterého můžete zadat název vašeho místa a poté jej vybrat ze zobrazené nabídky, nebo zadáním souřadnic ohraničujícího boxu. Minimální X, minimální Y, maximální X a maximální Y (Západ, Jih, Východ, Sever) souřadnice státu lze najít [v CSV seznamu, který poskytuje Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-### Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+### Digitalizace 
+Třetí a čtvrtou možností je kreslení hranic AOI pomocí nástroje ‘Box’, který je umístěný ve sloupci nástrojů na pravé straně obrazovky Export Tool. Nebo můžete "od ruky" nakreslit polygon přímo do mapy pomocí nástroje ‘Draw’. 
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-### Upload Polygon
-The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
+### Nahrátím polygonu
+Zbývající dva způsoby využívají nástroj ‘This View’ v nástrojové liště napravo u mapy. Tento nástroj zachytí okraje aktuálně zobrazené mapy a pod ním se nachází tlačítko pro ‘Import’, které vám umožní nahrát soubor s polygonem oblasti.    
 
 ![export-tool-area-view][]
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+Importovaný polygon musí být soubor GeoJSON v souřadnicovém systému WGS84. Jedním z několika způsobů jak vytvořit soubor GeoJSON je web geojson.io. Jakmile máte vybranou oblast na [geojson.io](http://geojson.io/), zkopírujte si text v boxu napravo a vložte jej do nějakého editoru, např. [Atom](https://atom.io/) a uložte jako soubor GeoJSON.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+Soubor GeoJSON je potřeba ještě mírně upravit, aby se dal použít v Export Tool. Pamatujte si, že soubor nesmí obsahovat více polygonů. V nejjednodušší podobě musí soubor obsahovat “type: Polygon” a seznam souřadnic bodů/nodů, které tvoří oblast. Poté bude soubor GeoJSON bez problémů zpracován importovacím nástrojem. 
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
