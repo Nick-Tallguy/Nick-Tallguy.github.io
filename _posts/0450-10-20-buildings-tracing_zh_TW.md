@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: Tracing rectangular buildings - iD editor
+title: 描繪方型建築 - iD 編輯器
 permalink: /zh_TW/hot-tips/tracing-rectangular-buildings/
 lang: zh_TW
 category: hot-tips
 ---
 
-Tracing rectangular buildings - iD editor
+描繪方型建築 - iD 編輯器 
 ============
 
-> Updated 2019-06-23
+> 更新日期 2019-06-23
 
 - TOC
 {:toc}
 
-The Essentials
+基本
 ----------
 
 ![Rectangular building][]  
