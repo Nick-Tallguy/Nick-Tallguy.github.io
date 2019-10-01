@@ -86,29 +86,29 @@ Soubor GeoJSON je potřeba ještě mírně upravit, aby se dal použít v Export
 ![export-tool-area-import2][]
 
 
-## Select File Formats
+## Výběr formátu souboru
 
-The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
+Nástroj umožňuje extrakci OSM dat skrze Overpass API v jeho vlastním formátu Protocol Buffer Binary (PBF), ještě před filtrací dat uživatelem podle jeho požadavků na obsah mapy a přidružené tagy. Jakmile jsou filtry nastaveny, data jsou poté konvertovány do uživatelem požadovaného formátu.  
 
-Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Momentálně lze konvertovat OSM data do Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. Je potřeba vybrat nejméně jeden z formátů, aby export proběhl, ale nic vám nebrání vybrat si klidně všechny.
 
 ![export-tool-file-formats][]
 
 
 ### Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+Shapefiles jsou tabulkový formát vytvořený firmou Esri. Jsou nejpopulárnějším formátem pro GIS data. Shapefile se ve skutečnosti skládá ze 3-4 souborů, většinou sloučených do jednoho ZIP archivu. Shapefiles mají určité limity, jako třeba velikost souboru s hranicí na 2 gigabytech (GB) a nebo délka názvu sloupce 10 znaků. Více se o [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) dozvíte v sekci Learn na webu Export Tool.
 
 ![export-tool-shapefile][]
 
 
 ### Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+OGC Geopackages obsahují geoprostorová data v jedné SQLite databázi. Geopackages jsou velmi podobné Spatialite-enabled SQLite databázím. Lze je využít ve většině používaných GIS aplikacích. Geopackages poskytují prakticky neomezenou velikost souboru a počet sloupců v tabulkách, a taktéž plnou podporu Unicode. Ideální jsou v případech, kdy potřebujete nad daty provádět různé SQL příkazy. Více se o [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) dozvíte v sekci Learn na webu Export Tool.
 
 ![export-tool-sql][]
 
 
 ### Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+.IMG soubor obsahuje všechny informace potřebné k vykreslení mapy v přenosných GPS zařízeních od firmy Garmin. Pamatujte si, že kartografický styl .img a vybrané funkce mapy nezávisí na funkcích vybraných při exportu v Export Tool - místo něj se použije výchozí styl založený na všech datech OSM. Více se o [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) dozvíte v sekci Learn na webu Export Tool.
 
 ![export-tool-garmin][]
 
@@ -127,10 +127,10 @@ The canonical data format of OSM is an XML document of nodes, ways and relations
 
 ### MAPS.ME .mwm
 Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
+Otevřete Maps.me a najděte si oblast, která vás zajímá.
+Přijměte upozornění od Maps.me a stáhněte si nabídnutou oblast.
+"Natvrdo" ukončete Maps.me
+Vytvořte si MWM export
 Download the export, unzip it, and copy the .mwm file to your device
 Using the Android File Manager, navigate to the location containing the .mwm file
 Long-press to select it and touch the "copy" or "cut" button
