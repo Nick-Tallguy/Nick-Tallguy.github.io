@@ -114,19 +114,19 @@ OGC Geopackages obsahují geoprostorová data v jedné SQLite databázi. Geopack
 
 
 ### Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+Keyhole Markup Language (KML) je XML formát pro grafické vykreslení bodů, čar, polygonů a přidružených atributů. Google Earth je nejznámější platforma pro zobrazení země, využívající KML, a kvůli ní byl tento formát vyvinut. Více se o [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) dozvíte v sekci Learn na webu Export Tool.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
+Datový formát OSM vychází z XML dokumentu, který obsahuje body, cesty a relace. Protocol Buffer Binary Format (PBF) je optimalizovaným zástupcem OSM XML, který na disku zabírá méně místa a dá se v něm rychleji hledat. Tento formát je kompatibilní pouze se specifickými OSM nástroji, jakým je např. editační software OSM. Každý .PBF vytvořený pomocí export tool by měl být referenčně kompletní - což znamená, že každý bod, cesta nebo relace tvořící cestu nebo relaci se zobrazí v PBF. Více se o [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) dozvíte v sekci Learn na webu Export Tool.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
+Maps.me je navigační a mapová GPS aplikace pro Android a iOS smarphony a tablety, doménou je podpora offline mapování a navigace. Více se o [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) dozvíte v sekci Learn na webu Export Tool. Pokud chcete vytvořit vlastní export s Maps.me na Androidu, následujte tento postup:
 Otevřete Maps.me a najděte si oblast, která vás zajímá.
 Přijměte upozornění od Maps.me a stáhněte si nabídnutou oblast.
 "Natvrdo" ukončete Maps.me

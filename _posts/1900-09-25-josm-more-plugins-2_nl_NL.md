@@ -8,7 +8,6 @@ category: josm
 
 Plug-in Opendata - gegevens gebruiken  uit een werkblad
 
-> Gemaakt op 19-07-2017
 
 - Inhoud
 {:toc}

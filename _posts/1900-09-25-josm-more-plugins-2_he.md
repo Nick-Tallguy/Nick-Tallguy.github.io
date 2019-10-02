@@ -9,7 +9,6 @@ category: josm
 Opendata Plugin - using data from a spreadsheet
 ============
 
-> Created 2017-07-19  
 
 - TOC
 {:toc}

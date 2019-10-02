@@ -9,7 +9,6 @@ category: josm
 Opendata Plugin - usare i dati da un foglio di lavoro
 ============
 
-> Creato il 2017-07-19  
 
 - INDICE
 {:toc}
