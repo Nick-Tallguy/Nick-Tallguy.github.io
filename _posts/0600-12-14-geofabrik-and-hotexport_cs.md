@@ -129,16 +129,16 @@ Datový formát OSM vychází z XML dokumentu, který obsahuje body, cesty a rel
 Maps.me je navigační a mapová GPS aplikace pro Android a iOS smarphony a tablety, doménou je podpora offline mapování a navigace. Více se o [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) dozvíte v sekci Learn na webu Export Tool. Pokud chcete vytvořit vlastní export s Maps.me na Androidu, následujte tento postup:
 Otevřete Maps.me a najděte si oblast, která vás zajímá.
 Přijměte upozornění od Maps.me a stáhněte si nabídnutou oblast.
-"Natvrdo" ukončete Maps.me
-Vytvořte si MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-Open Maps.me
+"Natvrdo" ukončete Maps.me.
+Vytvořte si MWM export.
+Stáhněte si export, rozbalte ho a zkopírujte .mwm soubor do svého zařízení.
+Ve Správci souborů v Androidu najděte umístění .mwm souboru.
+Dlouze ho zmáčkněte a poté vyberte možnost "kopírovat" nebo "vyjmout".
+Přejděte do "MapsWithMe" a otevřete adresář s nejvyšším číslem (např. 170917).
+Zkopírujte/přesuňte váš .mwm soubor do adresáře kliknutí na "Vložit".
+Smažte existující .mwm soubor pro vaši oblast zájmu, ale zapište si jeho název.
+Přejmenujte .mwm soubor tak, aby odpovídal oblasti, kterou jste si stáhli pomocí Maps.me (kterou jste právě smazali) dlouhým stisknutím (pro výběr) a klikněte na tlačítko "more" (3 vertikální tečky).
+Otevřete Maps.me.
 
 ![export-tool-mapsme][]
 
