@@ -144,53 +144,53 @@ Otevřete Maps.me.
 
 
 ### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+OsmAnd je taktéž GPS navigace a mapová aplikace pro Android a iOS smartphony, tablety, zejména umožňuje offline vykreslování, trasování a vyhledávání. Více informací o všemožných funkcích aplikace [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) se dozvíte na webu vývojáře. 
 
 ![export-tool-osmand][]
 
 
 ### MBTiles .mbtiles
-MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
+MBTiles je formát souboru pro ukládání mapových dlaždic do jediného souboru. Export Tool umožňuje uživatelům vytvořit MBTiles obsahující dlaždice z OSM, které slouží jako zdroje offline kontextu uvnitř aplikací, které je podporují. Berte na vědomí, že MBTiles extrahují z OSM všechny funkce z vybrané oblasti zájmu skrze Export Tool. Záložka ‘3 Data’ se automaticky přepne na Tree tag, rozbalovací seznam tagů a je možné si přepnout zobrazení do YAML. Více se o [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) dozvíte v sekci Learn na webu Export Tool.
 
 ![export-tool-mbtiles][]
 
 
-Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
+Další formáty souborů jsou průběžně navrhovány a přidávány do Export Tool. Pokud byste chtěli některý formát v budoucnu přidat, prosím přidejte jej do komentářů u [GitHub](https://github.com/hotosm/osm-export-tool/issues) repozitáře. Další podrobné informace o každém typu formátu souboru naleznete na stránce „Formáty souborů“ v části „[Learn](https://export.hotosm.org/en/v3/learn)“ na webových stránkách nástroje.
 
 
 
-## Customise Map Features
+## Upravujeme funkce mapy
 
-The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
+Nástroj umožňuje uživateli upravit si data vybraná uvnitř definované oblasti zájmu. OSM data jsou definovaná pomocí tagových filtrů a výběrem klíčů pomocí Tagu Tree nebo YAML Formuláře. Tag Tree se využívá v běžných případech, představuje několik filtrů a výběrů, zatímco konfigurace YAML poskytuje kompletní kontrolu nad filtry a výběry s využitím filtračních definicí podobných těm v SQL.
 
 ![export-tool-treetag-tab][]
 ![export-tool-yaml-tab][]
 
 
-OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+OSM je otevřená globální databáze otagovaných zeměpisných prvků s třemi typy elementů:
+Nody, které reprezentují bod na povrchu země.
+Cesty, které jsou tvořeny řadou nodů, jenž mohou vytvořit čáry nebo polygony.
+Relace, které jsou tvořeny soustavou bodů, cest nebo jiných relací.
 
-Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
+Každý z těchto elementů může mít jakýkoliv počet key=value tagů. Např. pošta může být reprezentována cestou s tagy building=yes a amenity=post_ofiice. Pojďme si ukázat, jak se tyto tagy definují v Export Tool pomocí Tag Tree a YAML formuláře, abychom si vyfiltrovaly OSM data.
 
 ### Tag Tree
-The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
+Tag Tree je nejjednodušší způsob výběru vlastností, prostým zaškrtnutím políčka u rodiče nebo potomka. Pamatujte si, že výběrem rodiče se přidají další key=value tagy přiřazené šabloně, a stejně tak potomkovi pod tímto výběrem. Každé zaškrtávací políčko rodiče odesílá jiný příkaz k filtraci dat, takže rozhodně doporučujeme prohlédnout si syntaxi pro každou šablonu umístění kurzoru nad zaškrtávací políčko, čímž se vyvolá informační box v pravé časti okna. 
 
 ![export-tool-treetag-sql][]
 
 
-For example selecting the ‘Emergency’ parent checkbox, will automatically select the ‘Police Station’, ‘Ambulance Station’ and ‘Fire Station’ child checkboxes below it, yet in addition to this it will also select all tags where emergency=yes, amenity=police and amenity=fire_station in the following SQL query:
+Např. zaškrtnutím ‘Emergency’ se automaticky zaškrtne i ‘Police Station’, ‘Ambulance Station’ a ‘Fire Station’, což jsou jeho potomci, kromě toho se taktéž vyberou všechny tagy, ve kterých je emergency=yes, amenity=police a amenity=fire_station v následujícím dotazu SQL:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 
-The parent checkboxes do not always represent what is available as children below, to try and account for all possible tags associated with a theme. OSM tags are continuously evolving and we want to ensure that the tool can adapt to these changes. Only the most commonly used key=value tags are represented as child checkboxes, and the parent checkboxes are used to try and encompass those not used as frequently, but fall within a theme. If you have suggestions for modifications to these themes and tags, please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) used to populate the Tag Tree, and we will try to incorporate it where appropriate.
+Rodič ne vždy reprezentuje potomky pod sebou a nezahrnuje všechny možné tagy v šabloně. OSM tagy se postupně vyvíjí a je potřeba zajistit, aby se nástroj dokázal na tyto změny adaptovat. Pouze ty běžně nejpoužívanější tagy key=value jsou zahrnuty do potomků a nadřazené položky se snaží zahrnout ty méně používané, ale zapadající do tématu. Pokud máte návrh na úpravu těchto témat a tagů, přidejte komentář do tohoto [spreadsheetu](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) z něhož se plní Tag Tree a my změnu případně zařídíme.
 
 ![export-tool-treetag-spreadsheet][]
 
 
 ### YAML Formulář
-Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
+Konfigurace pomocí YAML poskytuje kompletní kontrolu nad aplikací filtrů na OSM data, pomocí definicí filtrů podobných těm v SQL pro aplikaci key=value tagů. Zapamatujte si, že Tag Tree taktéž generuje syntaxi v YAML formuláři, takže se každý zaškrtnutý checkbox rodiče nebo potomka automaticky objeví v YAML boxu. Toto je výchozím bodem dotazu, který lze dále upravovat. 
 
 ![export-tool-treetag-yaml][]
 
