@@ -195,59 +195,59 @@ Konfigurace pomocí YAML poskytuje kompletní kontrolu nad aplikací filtrů na 
 ![export-tool-treetag-yaml][]
 
 
-The use of YAML was chosen due to its simplicity and compatibility with SQL. The YAML feature selection format  is similar to style files used by programs such as osm2pgsql and imposm. It is whitespace sensitive, with each child element indented below its parent element, and preceded by a dash. This dash must have a space after it. Here is a basic example of a feature selection with 3 themes, buildings, waterways and hospitals:
+YAML byl zvolen kvůli jeho jednoduchosti a kompatibilitou s SQL. Formát výběru vlastností v YAML je podobný stylu souborů používaných v programech jako je osm2pgsql a imposm. Je citlivý na bílé znaky, každý element potomka je odsazený v řádku pod nadřazeným prvkem a je před ním pomlčka. Za pomlčkou musí být mezera. Tady je jednoduchý příklad výběru vlastností ze 3 témat, buildings, waterways a hospitals:
 
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
-Mappings in the above example are: types and select 
-Lists in the above example are: child elements of select and types
+YAML obsahuje Themes (témata) a dvě datové struktury, Mapping a Lists (seznamy).
+Theme v příkladu výše je: buildings.
+Mapping v příkladu výše jsou: types a select. 
+Lists představují elementy potomka v select a types.
 
 YAML: Themes
-Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
+Themes jsou keys nejvyšší úrovně v dokumentech YAML, povolenými znaky jsou písmena, čísla a podtržítka. 
 
-YAML: Geometry Types
-The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
+YAML: Geometrické Typy
+Hodnoty v seznamu pod mapping types mohou obsahovat jeden nebo více ‘- points’, ‘- lines’, ‘- polygons’.
 
-YAML: Column Selections
-List items under the mapping select key determines the columns for each theme. The following example will populate the ‘name’ and ‘amenity’ columns with their values from OSM:
+YAML: Výběry sloupců
+Položky v seznamu pod klíčem mapping select určuje sloupce pro každé téma. Následující příklad naplní sloupce ‘name’ a ‘amenity’ jejich hodnotami z OSM:
 
 ![export-tool-yaml-code2][]
 
 
 YAML: Filtry
-Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
+Filtry jsou vypsány pod klíčem where: v každém tématu. Definují, která podmnožina funkcí OSM patří k danému tématu. Následující příklad vyfiltruje z tohoto tématu pouze funkce, ve kterých má klíč natural hodnotu waterway:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+Pamatujte, že je téměř vždy nutné použít nějaký druh fitrace, jinak bude téma obsahovat všechny OSM vlastnosti pro dané geometrické typy. Filtr se specifikuje pomocí syntaxe podobné v SQL, s platnými klíčovými slovy IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
-Nastavení JOSM
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+JOSM Presets
+Starší verze Export Tool používaly soubory JOSM Preset .XML k definici vyběru vlastností. Nová verze používá YAML, protože je flexibilnější v transformaci OSM dat. Nový Export Tool vám může pomoci při konverzi JOSM presets do konfigurace YAML, kliknutím na tlačítko ‘Load from JOSM Preset .XML’. Pamatujte si, že pokud je preset komplikovanější, možná bude potřeba ho vypsat pomocí nové konfigurace YAML založené na elementech ‘item’ obsažených v XML. 
 
 ![export-tool-load-preset][]
 
 
 
-### Configurations
+### Konfigurace
 
-YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
+YAML konfigurace lze definovat a uložit pro budoucí použití skrze stránku ‘Configs’. Je užitečné vytvořit si jednu konfiguraci na projekt, kterou následně lze použít na všechny exporty v rámci daného projektu. Dejte konfiguraci ‘name’ (název) a ‘description’ (popis), díky kterému ho mohou nalézt ostatní uživatelé. Pokud nezaškrtnete ‘Public’, pak bude konfigurace přístupná pouze vám.  
 
 ![export-tool-configuration-saved][]
 
 
-Please note that configurations can be edited, which is useful for evolving a feature selection during the course of a project. Saved YAML configurations can be selected via the ‘Stored Configuration’ option on the ‘3 Data’  tab when creating an export. Use the Search bar to find configurations related to your project.
+Pamatujte si, že konfigurace lze upravovat, což je užitečné při změně výběru funkcí v průběhu vývoje projektu. Uložené YAML konfigurace lze najít pomocí nabídky ‘Stored Configuration’ v záložce ‘3 Data’ při vytváření exportu. Do vyhledávacího pole zadejte název konfigurace související s vašim projektem.
 
 ![export-tool-configuration-stored][]
 
 
-For further detailed information regarding feature selections and YAML, please visit the ‘Selecting Features’ and ‘YAML Specification’ in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website. 
+Další podrobné informace o výběru funkcí a YAML najdete v kapitole ‘Selecting Features’ a ‘YAML Specification’ v sekci ‘[Learn](https://export.hotosm.org/en/v3/learn)’ na webu nástroje. 
 
 
 

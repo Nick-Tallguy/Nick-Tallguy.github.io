@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Setting up PostgreSQL
+title: Nastavení PostgreSQL
 permalink: /cs/osm-data/postgresql/
 lang: cs
 category: osm-data
@@ -11,65 +11,65 @@ PostgreSQL & PostGIS
 
 > Zkontrolováno 2016-09-10
 
-In this chapter we will see how to set up PostgreSQL on Windows and how to create a database in which you can store geographic data. We'll be using the open source GIS software QGIS in this chapter, so it will be helpful if you are already familiar with it. In the following chapter, we will see how to import OpenStreetMap data into a PostgreSQL database.  
+V této kapitole si představíme PostgreSQL ve Windows, vytvoříme si databázi, ve které si můžete uložit geografická data. V této kapitole budeme používat open source GIS software QGIS, takže bylo by dobré, kdybyste se s ním už dříve seznámili. Taktéž si ukážeme, jak importovat OpenStreetMap data do PostgreSQL databáze.  
 
-Installing PostgreSQL and PostGIS
+Instalace PostgreSQL a PostGIS
 ----------------------------------
 
-In this section we will install PostgreSQL and then add the PostGIS spatial extensions. This is fairly easy to setup using the One-Click Installer. Navigate your web browser to the PostgreSQL website and the download page <http://www.postgresql.org/download/>  
+V této sekci si nainstalujeme PostgreSQL a poté si přidáme PostGIS prostorové rozšíření. Je to velmi jednoduché díky instalatéru na jedno kliknutí. V prohlížeči si najděte stránku PostgreSQL a přejděte na stránku se souborem ke stažení <http://www.postgresql.org/download/>  
 
 ![postgresql website][]
 
-From here you can find installation instructions for different operating systems.  Click on the “**Windows**” link.  
-This page explains what the One-Click Installer will do.  It will install three different components:  
+Zde můžete nalézt instrukce k instalaci pro různé operační systémy. Klikněte na odkaz “**Windows**”.  
+Tato stránka vysvětluje, co instalátor provede. Nainstalují se tři různé komponenty:  
 
-* **PostgreSQL server**:  The database software, the core component  
-* **pgAdmin III**: The graphical interface for managing your databases  
-* **StackBuilder**: A tool for adding additional applications; we will use this for adding the PostGIS extensions  
+* **PostgreSQL server**:  Software databáze, hlavní komponent  
+* **pgAdmin III**: Grafické rozhraní pro správu vaší databáze  
+* **StackBuilder**: Nástroj pro přidávání dalších aplikací; Použijeme ho k přidání PostGIS rozšíření  
 
-Click on **Download**.  
+Klikněte na **Download**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version. As of this writing it is version 9.3.1. Click on the button that says **Win x86-32**.  This is the installer for the 32-bit version of Windows.  
+Zobrazí se vám několik různých variant instalátorů, pro různé verze softwaru PostgreSQL. Stáhněte si nejnovější verzi. V době psaní článku je to verze 9.3.1. Klikněte na tlačítko s nápisem **Win x86-32**. Je to instalátor pro 32-bitovou verzi Windows.  
 
 ![postgresql version][]
 
-When it has finished downloading, run the One-Click Installer.  
+Po stažení spusťte instalátor.  
 
 ![install 1][]
 
-Click “**Next**” to navigate through the installation wizard.  The default options should be fine. You will need to provide a password for the first database user (the user is postgres).  This user has superuser privileges, meaning that they can do whatever they want, so don’t forget the password that you use!  
+Pomocí “**Next**” se proklikejte instaličním průvodcem. Přednastavené možnosti jsou vyhovující. Bude potřeba poskytnout heslo pro prvního uživatele databáze (uživatelské jméno je postgres). Tento uživatel má superuser práva, což znamená, že může dělat všechno, tak nezapomeňte heslo, které zadáte.  
 
-> You can create as many databases as you want using Postgresql.  You might want a database for your geographic data, and separate databases for other projects that you are working on. And you may want different people to have different types of access to these databases.  For this purpose, every database that you create uses the concept of **users** and **roles**.  A database must always be owned by a user, and usually that user will need a password in order to make changes to the database.  Additional users can be given permission to access a database, and they can be given certain roles.  For example, you may want a database user that can only read information from the database, but cannot change it.  Or you may want a user that can add data, but does not have permission to delete it.  With users and roles, this is possible.  For now we won’t worry too much about this, just remember that your database is owned by a **user**, and to access the database you will need the user’s name and password.  The first user we create (named postgres) is a **superuser**, meaning they have permission to do everything with the databases.  
+> Pomocí Postgresql můžete vytvořit tolik databází kolik chcete. Můžete mít databázi pro vaše geografická data a zvlášť databázi pro další projekty, na kterých pracujete. A možná budete chtít, aby každý člověk měl jiné práva k databázím. Pro tento případ používá každá vámi vytvořená databáze koncept **uživatelů** a **rolí**. Každá databáze musí být vlastněna nějakým uživatelem, který obvykle potřebuje heslo k editaci databáze. Dalším uživatelům může být uděleno právo k přístupu do databáze a přiřazena určitá role. Například potřebujete uživatele, který může pouze číst informace z databáze, ale nemůže je změnit. Nebo jiný uživatel může data přidávat, ale nemůže je mazat. Pomocí uživatelů a jejich rolí je tohle možné udělat. Prozatím si s tím nebudeme zatěžovat hlavu, ale pamatujte si, že vaše databáze je vlastněna **uživatelem** a pro přístup do databáze budete potřebovat uživatelské jméno a heslo. První uživatel, kterého vytvoříme (pojmenovaný postgres) je tzv. **superuser** a má veškerá práva k databázi.  
 
-After you have clicked through the wizard and accepted the default configuration options, the wizard will install everything for you.  It may take a few minutes.  
+Jakmile se proklikáte průvodcem instalace a přijmete přednastavenou konfiguraci, průvodce za vás vše nainstaluje. Může to trvat pár minut.  
 
-When the installation is complete, the wizard will ask you if you want to launch StackBuilder, which is the utility that will allow us to install PostGIS.  Make sure the box is checked before you click “**Finish**.”  
+Jakmile je vše nainstalováno, průvodce se vás zeptá, zda chcete spustit StackBuilder, což je nástroj pomocí kterého je možné nainstalovat PostGIS. Ujistěte se, že políčko je zaškrtnuto než kliknete na “**Finish**.”  
 
 ![install 2][]
 
-Now we’ve successfully installed PostgreSQL and we need to add the PostGIS extensions. When the StackBuilder wizard opens, select your PostgresSQL installation from the dropdown menu and click **Next**.  It will look something like this:  
+Nyní máme úspěšně nainstalován PostgreSQL a potřebujeme přidat rozšíření PostGIS. Jakmile se otevře průvodce StackBuilder, vyberte vaši instalaci PostgreSQL z rozbalovací nabídky a klikněte na **Next**. Okno vypadá nějak takhle:  
 
 ![install 3][]
 
-Open the “Spatial Extensions” tab and check the box next to PostGIS. As of this writing the most recent version of PostGIS is 2.1.  
+Rozbalte si záložku “Spatial Extensions” a zaškrtněte políčko u PostGIS. V době psaní tohoto článku ma PostGIS verzi 2.1.  
 
 ![install 4][]
 
-Click **Next** to download the extensions and install.  When prompted, click “**I Agree**” to accept the terms and conditions.  
+Klikněte na “Next”, rozšíření se stáhne a nainstaluje. Jakmile budete dotázáni klikněte na “**I Agree**”, čímž přijmete pravidla a podmínky.  
 
-The PostGIS installer will ask more questions, but generally the default options are fine. You can tell it to create the first database automatically, but we will learn how to do that ourselves next. To begin the PostGIS installation you will need to supply the postgres password that you created when you installed PostgreSQL.  
+Instalátor PostGIS se zeptá na několik otázek, ale přednastavené odpovědi jsou vpořádku. Tentokrát si nechte automaticky vytvořit první databázi, ale v další části si ji vytvoříme sami. Aby se mohla spustit instalace PostGIS, je potřeba zadat heslo pro postgres, které jste si vytvořili při instalaci PostgreSQL.  
 
 ![install 5][]
 
-If you are asked to register the **GDAL_DATA** environment variable, click "**Yes**."  
+Při dotazu na registraci proměnné prostředí **GDAL_DATA**, klikněte na "**Yes**."  
 
 ![install 6][]
 
-When the installation is completed, click “**Close**” and then “**Finish**.”  
+Po dokončení instalace, klikněte na “**Close**” a poté “**Finish**.”  
 
-Creating a Database
+Vytvoření databáze
 --------------------
 
 Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
