@@ -72,83 +72,83 @@ Po dokončení instalace, klikněte na “**Close**” a poté “**Finish**.”
 Vytvoření databáze
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin III, which is a graphical database client that is useful for querying and modifying
-databases.  
+Teď, když máme nainstalovaný všechen potřebný software, vytvoříme si databázi. Použijeme k tomu pgAdmin III, což je klient grafické databáze pro dotazování a úpravy
+databází.  
 
 ![pgadmin3][]
 
-PgAdmin III is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin III is an easy way to get started.  
+PgAdmin III je oficiální klient pro PostgreSQL a umožňuje vám využít jazyk SQL k manipulaci s datovými tabulkami. Vytvářet a manipulovat s databázemi je možné i pomocí příkazové řádky, ale tentokrát půjdeme snadnější cestou v podobě pgAdmin III.  
 
-Open pgAdmin III.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin III.  
+Otevřete pgAdmin III. Měl by být ve Start Menu pod Všemi Programy -> PostgreSQL 9.3 -> pgAdmin III.  
 
 ![pgadmin3 start][]
 
-In the panel on the left under Servers, right-click where it says PostgreSQL and click “**Connect**.”  
+Vlevo v panelu v seznamu Servers, klikněte pravým tlačítkem na PostgreSQL a vyberte “**Connect**.”  
 
 ![postgresql connect][]
 
-Enter the postgres user password that you created when you installed the software. Remember that the username and password are required so that you can create and access a database.  
+Zadejte heslo uživatele postgres, vytvořili jste si ho při instalaci softwaru. Pamatujte si, že uživatelské jméno a heslo je potřeba k vytvoření a přístupu do databáze.  
 
 ![enter password][]
 
-Right-click on **Databases** and select **New Database**...  
+Klikněte pravým tlačítkem na **Databases** a vyberte **New Database**...  
 
 ![new database][]
 
-You need to enter a few pieces of information to create the new database: name and owner.  In the Properties tab, give the new database a name.  In this example, we name our database gisdb.  We should also give our database an owner.  Since we only have one user right now, let’s give our database the owner postgres.  (Note: for security reasons it is usually a good idea to create users without superuser permission, but for now we won’t worry about this.)  
+Při vytváření databáze je potřeba zadat několik informací: název a vlastníka. V záložce Properties zadejte  název nové databáze. V našem příkladu dáme databázi název gisdb. Měli bychom určit i vlastníka databáze. Jelikož zatím máme jen jednoho uživatele, nastavíme tedy vlastníkem postgres. (Poznámka: z bezpečnostního hlediska je lepší vytvořit uživatele bez práv superuser, ale teď se tím nebudeme zatěžovat.)  
 
 ![new database form][]
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin III.  
+Kliknutím na **OK** vytvoříte databázi. Nově vytvořená databáze se vytvoří v seznamu “**Databases**.” Teď je potřeba spustit příkaz k povolení databáze s PostGIS rozšířením. Klikněte na ![sql button][]{: height="24px"} v horní části PgAdmin III.  
 
 
 
-In the query window, type:  
+Do okna query zadejte:  
 
 **CREATE EXTENSION postgis;**  
 
-Then click the "**Execute query**" button.  
+Poté klikněte na tlačítko "**Execute query**" .  
 
 ![postgis command][]
 
-Load Sample Data (optional)
+Načtení ukázkových dat (nepovinné)
 ---------------------------
 
-If you are comfortable so far and are familiar with QGIS, follow along as we load some data into our new database. To do this, we will use a utility that converts shapefiles and loads them into the database.  
+Pokud jste to dosud zvládli v pohodě a rozumíte QGIS, pojďme nahrát nějaká data do naší nové databáze. Uděláme to pomocí nástroje, který převede shapefiles a načte je do databáze.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
+Ujistěte se, že máte vybranou vaši novou databázi vlevo v panelu a přejděte do **Plugins -> PostGIS Shapefile and DBF loader 2.1**.
 
 ![shapefile loader][]
 
--	Click “**Add File**” and find a shapefile on your filesystem.
--	If you don't have any shapefiles, you can download a sample [here](/files/buildings_sample.zip).
--	Once you have selected a file, click “**Import**.”  If everything goes smoothly, the output will read “**Shapefile import completed**.”
+-	Klikněte na “**Add File**” a najděte shapefile na svém disku.
+-	Pokud nemáte žádný shapefiles, můžete si stáhnout náš ukázkový [odsud](/files/buildings_sample.zip).
+-	Jakmile soubor najdete, klikněte na “**Import**.” Pokud vše proběhne v pořádku, v log windows se vypíše “**Shapefile import completed**.”
 
 ![add shapefile][]
 
-Now let's load the data from our database into the QGIS application. If you don't have QGIS you can download it on the [QGIS website](http://www.qgis.org/site/forusers/download.html).  
+Teď si načteme data z databáze do aplikace QGIS. Pokud jej nemáte, můžete jej stáhnout z [webu QGIS](http://www.qgis.org/site/forusers/download.html).  
 
--	Open QGIS and click the ![qgis add postgis button][]{: height="24px"} button.  
--	Under “Connections” at the top, click “**New**.”  
--	Give the new connection a name.  Under database type **gisdb** (or whatever you named your database). Enter the username postgres and your password below.  
+-	Otevřete QGIS a klikněte na tlačítko ![qgis add postgis button][]{: height="24px"}.  
+-	V nabídce “Connections” klikněte na “**New**.”  
+-	Zadejte název připojení. V našem případě **gisdb** (můžete si zadat vlastní). Uživatelské jméno postgres a vaše heslo o políčko níže.  
 
 ![connection settings][]
 
--	Click **OK** to save the connection settings.  Then click “Connect” to connect to your PostgreSQL server.  You may need to enter your username and password again.  
--	If everything is successful, you will see the shapefile layer  (or multiple layers with different features types) that you loaded into the database available here.  Select a layer and click “**Add**” to add it to your map.  
+-	Klikněte na **OK** a tím uložíte nastavení.  Poté na “Connect” a připojíte se k vašemu PostgreSQL serveru. Asi bude potřeba zadat vaše uživatelské jméno a heslo.  
+-	Pokud všechno dopadne dobře, uvidíte shapefile vrstvu (nebo více vrstev s různými typy funkcí) kterou jste si nahráli do databáze. Vyberte tuto vrstvu a klikněte na “**Add**”, čímž ji přidáte do mapy.  
 
 ![your data layer][]
 
-When you add the layer you will need to select a coordinate system to display the data in.  You will most likely want to select WGS 84, which is the coordinate system OpenStreetMap uses.  
+Po přidání vrstvy je potřeba vybrat souřadnicový systém, ve které se data zobrazí. Nejspíš vyberete WGS 84, což je souřadnicový systém, který používá OpenStreetMap.  
 
-> The layer behaves the same as if you had loaded a shapefile directly into QGIS.  The only difference is that if you edit the layer, the changes will be saved in your database.  
+> Vrstva se chová stejně, jako kdybyste nahráli shapefile přímo do QGIS. Jediný rozdíl je v tom, že pokud vrstvu upravíte, změny se uloží do databáze.  
 
 Shrnutí
 -------
 
-Now that you have seen how to set up PostgreSQL and PostGIS, as well as how to create a new database, you're ready to try the utilities which allow us to import raw OSM data into a database. We'll take a look at this in the [next chapter](/en/osm-data/osm2pgsql).  
+Teď když víte, jak si nastavit PostgreSQL a PostGIS a vytvořit novou databázi, je na čase vyzkoušet nástroje pro import zdrojových OSM dat do databáze. Na to se podíváme v [příští kapitole](/en/osm-data/osm2pgsql).  
 
 
 
