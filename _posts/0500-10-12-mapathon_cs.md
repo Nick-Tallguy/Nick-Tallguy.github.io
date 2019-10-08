@@ -16,19 +16,19 @@ category: coordination
 ## Úvod
 
 ### Jaký typ události  
-Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
+Typ události bude určovat směr, kterým půjdete a kroky, které bude potřeba podniknout.  
 
-This guide deals with indoor Mapathons for larger groups. 
+Tento průvodce se zaměřuje na Mapathony uvnitř, pro větší skupiny. 
 
-For other types of gatherings for mapping see  
+Další typy shromáždění za účelem mapování mrkněte na  
 [Weekend Mapping Projects](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
 [Mapping Parties](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**A Mapathon is an organised gathering of people to add data to the OpenStreetMap. This can be a project to improve the map in your local area, or to help Response Teams on the ground during a Disaster, or a Missing Maps Project for ongoing or future Humanitarian Responses.**  
+**Mapathon je organizované shromáždění lidí za účelem doplnění dat do OpenStreetMap. Může to být projekt na vylepšení mapy ve vašem okolí, pomoc pro záchranné týmy v terénu během katastrofy, nebo projekt Missing Maps pro probíhající, či budoucí humanitární pomoc.**  
 
-Your Mapathon can be open to training new mappers as well as a regular event for experienced mappers and could consist of a training session, mapping time and time to socialise.  
+Váš Mapaton můžete pojmout jako školení pro nové mapery, nebo regulérní událost pro pokročilé mapery, která zahrnuje školení, mapování a také čas na spřátelení.  
 
-While we can give general guidelines on how to organise a Mapathon, your event will evolve and develop its own structure and identity depending on the people who organise it, the venues available and the people that turn up to map.  
+Ikdyž můžeme poskytnout obecný návod k organizaci Mapatonu, tak organizace a vývoj vaší události bude mít vlastní strukturu a identitu, která závisí na lidech, kteří ji organizují, pořadatelském místě a lidech, kteří se k mapování připojí.  
 
 ![kings college][]
 
