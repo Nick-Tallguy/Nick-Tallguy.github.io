@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: GPS Essentials
+title: Základy GPS
 permalink: /cs/mobile-mapping/gpsessentials/
 lang: cs
 category: mobile-mapping
@@ -8,7 +8,7 @@ category: mobile-mapping
 
 
 
-GPS Essentials
+Základy GPS
 ===================
 
 > Zkontrolováno 2015-05-24  

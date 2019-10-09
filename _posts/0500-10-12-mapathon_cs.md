@@ -33,17 +33,17 @@ Ikdyž můžeme poskytnout obecný návod k organizaci Mapatonu, tak organizace 
 ![kings college][]
 
 ### Historie úspěšného Mapathonu
-The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
-It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
-The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
-The success of the London event is based on a number of factors but mainly the following strategy...
+Missing Maps Mapathon v Londýně začínal v roce 2014 v okruhu malé skupiny, která školila nové mapery. Měli tu výhodu, že je sponzorsky zaštítily velké společnosti s velkými prostory pro 80+ maperů.
+Začalo to tréninkem účastníků v základech mapování pomocí iD, což je editor pro začátečníky.
+Událost se konala jednou za měsíc a mapeři si mohli rezervovat místa skrz Eventbrite. Po čase se dalo zjistit, kolik účastníků se vrací k mapování a tréninku. Rozhodlo se tedy, že se událost rozdělí na trénink nově příchozích v iD a vracející se účastníky přesunou na JOSM a zároveň byl představen kurz pro validátory. Tento formát se ukázal jako úspěšný, ale výsledkem byl odchod maperů, protože událost byla naplněná. A tak začal druhý Mapathon uprostřed měsíce pro více pokročilé uživatele JOSM, který se zaměřoval na mnohem pokročilejší mapování, zkoumání a testování nových myšlenek.
+Úspěch události v Londýně je založen na mnoha faktorech, ale hlavním je následující strategie...
 
--   Experience taught us that the learning curve for people with no mapping experience whatsoever is very steep and can be off putting and frustrating for these newcomers if they cannot get some mapping done on their first event. It is important to get them mapping as quickly as possible, so they were shown just the very basics with the simpler iD editor, letting them encounter their own particular problems during the course of the evening when they were able to ask for help.
--   It was much easier teaching mappers the more complex JOSM editor if they already had experience of mapping with the iD editor or some other GIS programme. It also meant that you were dealing with a group that were interested in advancing their mapping skills rather than just along to find out what it was about and whether they liked it or not.
--   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
-  A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
+- Ze zkušenosti víme, že křivka učení u lidí, kteří nemají zkušenosti s mapováním, je velmi strmá a pro tyto nováčky může být zneklidňující a frustrující, pokud nemohou dokončit nějaké mapování na své první události. Je důležité dostat je k mapování co nejrychleji, takže se jim ukáží základy jednoduchého iD editoru a rovnou je necháme čelit jejich vlastním konkrétním problémům v průběhu večera, kdy mají možnost požádat o pomoc.
+- Bylo mnohem jednodušší učit mapery více komplexní editor JOSM, pokud už mají zkušenosti s mapováním v iD editoru nebo jiném GIS programu. Znamenalo to také, že jste se bavili se skupinou, kteří se chtěli zdokonalit v mapování a nepřišli jen tak, aby zjistili o čem to je a jestli je to bude bavit. 
+- Jednalo se o pravidelnou akci každé první úterý v měsíci, takže s tím všichni mohli počítat a zařídit si podle toho svůj čas.
+  Druhá událost (uprostřed měsíce) a validátorský trénink každý měsíc dávali možnost zkušenějším maperům zabývat se pokročilejšími a zajímavějšími projekty, jako třeba validací, experimentálními technikami a Field Papers.
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## Začněte pracovat na Mapathonu nejméně měsíc před oraganizací a přípravou události.  
 
 ### První krok ... Příprava formátu vašeho Mapathonu.  
 The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  

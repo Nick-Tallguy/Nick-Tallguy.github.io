@@ -38,7 +38,7 @@ Features
 * Easy to preconfigure text configuration files for distribution to many users  
 
 
-User Interface
+Uživatelské rozhraní
 --------------------------
 
 ![Canvass1][]

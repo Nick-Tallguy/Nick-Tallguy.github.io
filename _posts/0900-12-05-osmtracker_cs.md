@@ -11,31 +11,31 @@ OSMTracker
 
 > Zkontrolováno 2016-02-08
   
-**This article relates to OSMTracker for Android - there is a similar product available for windows mobile.**  
-OSMTracker allows the creation of a gpx trace of a journey, with the collection of 'waypoints' along the route. Voice recording, photographs and other notes may also be recorded, and all will be geolocated.
+**Tento článek se týká aplikace OSMTracker pro Android - existuje podobný produkt pro Windows Mobile.**  
+OSMTracker umožňuje vytvoření gpx stopy z cesty se sbírkou „waypointu“ v průběhu cesty. Může být také zaznamenán hlasový záznam, fotografie a další poznámky a vše bude geolokováno.
 
-Quick Start
+Rychlý start
 -----------
 
 ![OSMTracker_1][]  
 
-1.  Click on the cross to create new track.  
-2.  Screen will change to show the buttons - wait until they are no longer greyed out, which indicates the GPS has a fix.  
-3.  Travel your route, pressing appropriate buttons when you are exactly at the feature to be mapped. You can also create voice recordings, take photographs and take notes using the buttons.  
-4.  When you've finished, press the floppy disk icon to save your track & waypoints.  
-5.  To convert the track to a gpx file, press & hold it in the list, then select the appropriate option.  
-6.  Transfer the track, pictures and recordings to your computer & read from them to update OSM.  
+1. Klepnutím na kříž vytvořte novou stopu.  
+2. Obrazovka se změní a zobrazí tlačítka - počkejte, až již nebudou šedá, což znamená, že GPS je zafixovaná.  
+3. Projeďte svou trasu, tiskněte příslušná tlačítka, když jste přesně na mapovaném objektu. Pomocí tlačítek můžete také vytvářet hlasové nahrávky, pořizovat fotografie a dělat si poznámky.  
+4. Po dokončení stiskněte ikonu diskety pro uložení vašich tras a trasových bodů.  
+5. Chcete-li převést stopu na soubor gpx, stiskněte a podržte prst na ní v seznamu a vyberte příslušnou možnost.  
+6. Přeneste stopu, obrázky a nahrávky do počítače a načtěte si z toho aktualizaci OSM.  
 
 
-Install OSMTracker
+Instalace OSMTracker
 -------------------------
 
-Install OSMTracker from the [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
+Nainstalujte OSMTracker z [Google play Store](https://play.google.com/store/apps/details?id=net.osmtracker&hl=cs).  
 ![OSMTracker Logo][]  
-The [most recent application package](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) can be downloaded outside of Google play Store if need be.  
+[Nejnovější balíček aplikace](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) lze v případě potřeby stáhnout mimo obchod Google Play.  
 
 
-OSMTracker Configuration
+Konfigurace OSMTracker
 ------------------------
 
 Start OSMTracker, and press the menu icon on your Android device, then select **Settings**.  
