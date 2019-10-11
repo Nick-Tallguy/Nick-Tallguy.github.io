@@ -46,21 +46,21 @@ Událost se konala jednou za měsíc a mapeři si mohli rezervovat místa skrz E
 ## Začněte pracovat na Mapathonu nejméně měsíc před oraganizací a přípravou události.  
 
 ### První krok ... Příprava formátu vašeho Mapathonu.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+Velikost míst konaní a jejich dostupnost, jsou rozhodujícím faktorem pro váš Mapathon. Tímto místem může být místní firma, univerzita, škola, umělecké centrum, knihovna, prostorná hala. Důležité body:  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+1. Je místo situováno v centru a dobře dostupné? (pomocí hromadné dopravy nebo blízko parkoviště)  
+2. Je tam dostupná kvalitní wi-fi, která zvládne až 100 součásných připojení?  
+3. Má kapacitu do 100 maperů? Tím se určí počet pozvaných lidí.  
+4. Nachází se na místě dostatek vhodných stolů a židlí?  
+5. Dostatek elektrických zásuvek pro připojení notebooků? (zajistit prodlužovací kabely)  
+6. Projektor s plátnem pro návody a prezentace?  
+7. Menší místnosti s velkou obrazovkou pro speciální školení menších skupin?  
+8. Dostatek zkušenějších pomocníků pro hladký průběh velkého Mapathonu?  
 
 ![venue][]
 
 ### Druhý krok ... Plánování mapathonu
-Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
+Když už máte informace k prvnímu kroku, tak víte kolik pozvete lidí, znáte místo a termín konání, můžete začít plánovat Mapathon.  
 
 1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
 2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
