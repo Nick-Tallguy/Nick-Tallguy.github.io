@@ -62,20 +62,20 @@ Velikost míst konaní a jejich dostupnost, jsou rozhodujícím faktorem pro vá
 ### Druhý krok ... Plánování mapathonu
 Když už máte informace k prvnímu kroku, tak víte kolik pozvete lidí, znáte místo a termín konání, můžete začít plánovat Mapathon.  
 
-1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
-2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
-3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
-4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
-6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
-  *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
-  *    A deputy to help with the arrangements and stand in for you as a back up.   
-7.  Add your event to the Mapathon calendar.
-8.   Have someone available from the local media to take photos and report the event.
-9.  Arrange for someone to film the presentation and create a live link for any remote mappers.
+1. Stanovte si datum a čas konání Mapathonu podle dostupnosti místa konání (dejte si pozor na to, aby se nekryl s nějakou velkou událostí, která by z ní mohla odlákat dobrovolníky a mapery). Na událost si vyhraďte minimálně 2,5-3 hodiny (z toho půl hodiny na proslov a zaškolení, další půl hodinu na občerstvení, 2 hodiny na mapování).  
+2. Zamluvte si místo konání. Ujistěte se, že lokace místa je v Openstreetmap.  
+3. Odešlete pozvánky maperům skrz lokální a online média, abyste si zajistili dobrou účast. [Eventbrite](https://www.eventbrite.co.uk/) je dobrá platforma pro rezervaci míst na událost.  
+4. Budete zařizovat občerstvení na událost? (Pizza je celkem populární, ale berte v úvahu i populární jídla ve vaší části světa).  
+5. Vyberte projekt. který se bude zpracovávat. Připravte se na to, že na první Mapathon ve vašem okolí přijdou převážně začátečníci. Doporučujeme vybrat dva jednoduché projekty pro začátečníky a dva náročnější úkoly pro zkušenější mapery. Kontaktujte [projekt Missing Maps](http://missingmaps.org), pokud potřebujete pomoct s výběrem projektu, zažádejte si o materiály na Mapathon a směrové značky na chodby. [Tasking Manager](http://tasks.hotosm.org) obsahuje několik použitelných projektů.  
+6. Na událost si doporučujeme zajistit tyto pomocníky  
+  *    Zkušeného mapera, který je provede procesem mapování.  
+  *    Ajťáka z místa konání, který bude řešit problémy s připojením.  
+  *    Hosta, který promluví o svých zkušenostech s Openstreetmap.  
+  *   V ideálním případě mít u každého stolu zkušeného mapera, který bude odpovídat na případné dotazy. Požádejte [Missing Maps Project](http://missingmaps.org) o pomoc při hledání pomocníků a zkuste najít [zkušenější mapery ve vašem okolí](http://resultmaps.neis-one.org/oooc).
+  *    Zástupce, který pomůže s přípravou a v případě potřeby vás zastoupí.   
+7. Přidejte vaši událost do kalendáře Mapathonů.
+8. Zajistěte si někoho z místních médií, který udělá pár fotografií a napíše zprávu k události.
+9. Někdo mi mohl natočit prezentaci a zpřístupnit ji online pro externí mapery.
   
 ![people at work][]  ![more people at work][]
 
