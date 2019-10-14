@@ -80,28 +80,28 @@ Když už máte informace k prvnímu kroku, tak víte kolik pozvete lidí, znát
 ![people at work][]  ![more people at work][]
 
 ### Týden před Mapathonem
-1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
-2.  Compile a list of attendees for messaging and for identity tags for the event.  
-3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
-4.  Post notices on line, with links to the ticket allocation, reminding attendees to take up the last remaining spaces at your event.  
-5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
-6.  Check that you have current mapping projects for the event.  
-7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
-9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
-10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
-11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
-12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
-13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
-14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
+1. Navštivte místo konání a zkontrolujte zda vše platí, jak bylo domluveno. (místo, pomocníci, vybavení).   
+2. Sestavte si seznam účastníků pro zaslání zpráv a přípravu identifikačních štítků na událost.  
+3. Rozešlete zprávy účastníkům a připomeňte jim, aby si přinesli notebooky a myši, vytvořili si účet na Openstreetmap, uložili si své přihlašovací údaje a stáhli si JOSM, pokud s ním chtějí pracovat.  
+4. Zavěste ještě poslední připomínku online s odkazem na registraci a upozorněním na poslední zbývající místa na událost.  
+5. Naplánujte si rozmístění stolů a židlí podle elektrických zásuvek a výhledu na prezentační plátno.  
+6. Zkontrolujte si projekt, který se bude mapovat.  
+7. Zkontrolujte si také finance na občerstvení a jiné výdaje.
+8. Vytiskněte si [materiály pro Mapathon](#printout-materials) (nebo si vytvořte vlastní).
+9. Ujistěte se, že máte někoho, kdo přinese všechno vybavení (prodlužovací kábly, plonkovní myši), včetně stolních pomůcek, které budou potřeba.  
+10. Upozorněte vaše pomocníky, že je budete potřebovat půl hodiny před začátkem, na přípravu stolů, židlí, prodlužek atd.  
+11. Zkontrolujte také dostupnost wi-fi a hesla k ní pro všechny účastníky.  
+12. Vytvořte si registrační tabulku, kterou můžete použít na každém Mapathonu, pro zaznamenání uživatelského jména a typu editoru, který účastník použil. Hodí se to později ke zjištění, kolik z těchto maperů se vrátí na další událost, kteří pokračují v mapování mezi událostmi, či kolik z nich u mapování zůstalo atd.
+13. Kontaktujte externí validátory aspoň dva dny před událostí a dejte jim instrukce, který projekt se bude zpracovávat a ostatní informace, které ke spolupráci na Mapathonu potřebují.
+14. Vyberte místní hospodu nebo podobné místo, kde by mohla být afterpárty a ujistěte se, že je v Openstreetmap.
 
 ### Na Mapathonu
-1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
-2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
-3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
-4. Check with the resident IT person that the internet connections are all working and the overhead large screens are connected to the relevant laptops.
-5. Have one helper at the door to welcome the mappers, give them their name tags and tell them where to sit.
-6. Have helpers moving from table to table helping mappers to log on when they arrive.
+1. Dorazte na místo s předstihem, abyste zjistili jestli je vše připraveno na příchozí účastníky.  
+2. Projděte si místo, abyste zjistili, kde jsou toalety, únikové východy atd.  
+3. Informujte pomocníky o rozvržení místnosti a nechte svého zástupce ať dohlídne na rozestavění stolů, židlí, ostatního vybavení a rozmístění směrových značek po chodbách.  
+4. Zeptejte se zdejšího ajťáka, jestli funguje připojení k Internetu a zda je k projektoru připojen nějaký notebook.
+5. Jednoho pomocníka postavte ke dveřím, aby přivítal účastníky, dal jim jmenovky a řekl jim, kam si mohou sednout.
+6. Ostatní pomocníci mohou pomoct maperům s přihlášením k wifi, nebo do OSM.
 
 ![mentoring][]
 
@@ -109,7 +109,7 @@ Když už máte informace k prvnímu kroku, tak víte kolik pozvete lidí, znát
 1. Ztište všechny a zahajte uvítání, úvodní řeč, program události, pokyny pro evakuaci požáru, umístění toalet atd.  
 2. Představte zkušeného mapovače a zahajte tréninkový proces.
 3. Během akce buďte připraveni oznamovat užitečné tipy, pokud si všimnete, že někteří mapovači udělali chybu (např. Neupravili budovy)
-4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
+4. <https://osmlab.github.io/show-me-the-way/bbox.html> můžete promítnout přes projektor, aby mapeři na živo viděli průběh svého mapování.
 5. Zkontrolujte, zda je připraveno občerstvení na přestávku v půlce akce.
 6. Dohodněte se o místní hospodě, kde se setkáte po akci a zkontrolujte, zda je na OpenStreetmapě.
 7. Zkontrolujte, zda místní média a/nebo pomocník fotografuje.
@@ -119,21 +119,21 @@ Když už máte informace k prvnímu kroku, tak víte kolik pozvete lidí, znát
 ### Na konci akce
 1. Poděkujte hostitelům za skvělé místo konání, novým mapařům za příchod a zapojení se do mapovací komunity, zkušeným mapovačům za jejich pomoc a za jejich čas a příspěvky, ukažte jim pokrok, kterého jste dosáhli na projektech, na kterých pracovali, požádejte aby přišli i na další Mapathon a pozvěte je nakonec do hospody.
 2. Zkontrolujte, zda byla registrace mapovačů dokončen
-3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
-4. Gather all the signs, equipment and collect any rubbish.
-5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.
+3. Posbírejte všechno vybavení, které jste zapůjčili maperům (myši, notebooky atd.)
+4. Posbírejte směrovky, vybavení a případné odpadky.
+5. Ukliďte stoly, židle a celou místnost před odchodem do hospody.
 
-### Not all work and no play
-If your Mapathon becomes a regular event it is possible that you will start to get a core of regular attendees who will become your experienced helpers and help to make this a social event as well.
+### Nejen práce, ale i zábava
+Pokud se váš Mapathon stane pravidelnou událostí, je možné, že se vytvoří jádro pravidelných účastníků, kteří se stanou vašimi zkušenými pomocníky a vytvoří z toho společenskou událost.
 
 ![theme][]
 
 
-## Other Resources
+## Další zdroje
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
+Seznam úkolů si můžete stáhnout ve formátech [odt](/files/Mapathon_check_list_3.odt) a [pdf](/files/Mapathon_check_list_3.pdf) a postupně si odškrtávat úkoly na přípravných schůzkách.
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+Užitečné zdroje pro mapathony můžete taktéž nalézt [na stránce zdrojů](/en/resources).
 
 
 [venue]:               /images/coordination/mapathon-1.jpg
