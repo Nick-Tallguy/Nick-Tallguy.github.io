@@ -38,28 +38,28 @@ Nainstalujte OSMTracker z [Google play Store](https://play.google.com/store/apps
 Konfigurace OSMTracker
 ------------------------
 
-Start OSMTracker, and press the menu icon on your Android device, then select **Settings**.  
+Spusťte OSMTracker a z menu vyberte položku **Settings**.  
 
--  **Voice record duration** - your choice, but 30 seconds is used by the author.  
--  **Enable sound** - recommended to tick this box - emits a beep to warn you when voice recording starts and ends.  
--  **Reset  authentication**. This button will be 'greyed out' until you have uploaded a .gpx file, and authorised OSMTracker to upload tracks to your OpenStreetMap account.  
--  **GPS settings** Which methods your Android device will use to determine the location. Recommended to set this to **High accuracy** and the device will then use GPS, Wi-Fi and mobile networks to estimate the location.  
--  **Check GPS at startup** When you start OSMTracker, if the GPS has been switched off, the programme will prompt you to turn it back on.
--  **Ignore GPS clock** If ticked will use the devices internal clock instead of the time provided within the GPS signal.  
--  **GPS logging interval** Choose the period between the recording of the position - for best accuracy select 0 or 1, each of which results in a recording each second.  
+-  **Voice record duration** (Délka záznamu hlasu) - vaše volba, ale my jsme si nastavili 30 sekund .  
+-  **Enable sound** (Povolit zvuk) - doporučujeme zaškrtnout - ozve se pípnutí, které vás informuje o začátku nebo konci nahrávání hlasu.  
+-  **Reset  authentication** (Resetovat autorizaci) - Toto tlačítko nebude aktivní, dokud nenahrajete .gpx soubor a nepovolíte OSMTracker nahrávat vaše trasy na váš účet OpenStreetMap.  
+-  **GPS settings** (Nastavení GPS) - Metody, které bude zařízení používat k určení lokace. Doporučujeme nastavit **High accuracy** (Nejvyšší přesnost) a bude se tak využívat GPS, Wi-Fi a mobilní síť.  
+-  **Check GPS at startup** (Zkontrolovat GPS při startu) - Když spustíte OSMTracker a máte vypnutou GPS, aplikace vás vyzve k jejímu zapnutí.
+-  **Ignore GPS clock** (Ignorovat hodiny GPS) - Pokud je zaškrtnuto, bude se místo času uvedeného v signálu GPS používat vnitřní čas zařízení.  
+-  **GPS logging interval** (Interval záznamu GPS) - Vyberte si interval mezi záznamem pozice - pro nejlepší přesnost vyberte 0 nebo 1, obě možnosti znamenají záznam každou vteřinu.  
 
-> The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
+> Frekvence záznamu ovlivňuje využití baterie, avšak při používání této aplikace je display převážně zapnutý, gps pracuje a možná budete i fotit a nahrávat - tohle všechno velmi spotřebovává energii z baterie a pro dlouhodobé používání se doporučuje sebou nosit powerbanku.  
 
--  **External storage (SD) directory** Default is /osmtracker  
+-  **External storage (SD) directory** (Adresář v externí paměti - SD) - Přednastaven adresář /osmtracker  
 
-> Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
+> Nejnovější Android zařízení nepovolí ukládání dat na externí microSD nebo SD kartu. Ikdyž je označena jako 'externí paměť', budou se záznamy ukládat do **/storage/emulated/0/osmtracker.**  
 
--  **One directory per track** Recommended as this will result in all of the related voice recordings, photographs, text notes and the gpx trace all being stored in the same folder, named with the date and time of the gpx file creation.  
--  **Filename for named tracks** Options for you to choose from if you have a preference for the naming of the files.  
--  **Accuracy in GPX file** Recommended - will result in the waypoint name including a figure approximating the possible error range in metres. For instance *Footpath (4.0m)*. This information can be extremely useful later when updating OSM, and deciding whether to move an existing feature to align with the new trace & waypoints.  
--  **Use HDOP approximation** Relates to additional calculations to improve the position accuracy (Horizontal Dilution of Precision).  
--  **Export Compass Heading** Defines if and how the compass data should be exported to the GPX file.  
--  **Default photo source** Generally you will take photo's with the camera through this app., but you can chose to use photo's already on the phone.  
+-  **One directory per track** (Každá trasa do samostatného adresáře) - Doporučujeme, díky tomuto se všechny hlasové záznamy, fotografie, textové poznámky a gpx trasa uloží do společného adresáře, pojmenovaném podle data a času vytvoření gpx souboru.  
+-  **Filename for named tracks** (Název pro pojmenované trasy) - Varianty názvu souboru, ze kterých si můžete vybrat podle svých preferencí.  
+-  **Accuracy in GPX file** (Přesnost v GPX souboru) - Doporučeno - výsledkem je název výchozího bodu obsahující typ trasy s přibližnou přesností v metrech. Například *Footpath (4.0m)*. Tato informace může být později velmi užitečná při úpravách OSM a rozhodování, zda posunout existující prvek na novou trasu & výchozí bod.   
+-  **Use HDOP approximation** (Použít HDOP přiblížení) - Umožňuje provést dodatečné výpočty pro zpřesnění pozice (Horizontal Dilution of Precision - horizontální ředění pozice).  
+-  **Export Compass Heading** (Export hlavičky kompasu) - Definuje zda a jak exportovat data z kompasu do GPX souboru.  
+-  **Default photo source** (Výchozí zdroj fotografií) - Většinou budete pořizovat fotografie pomocí fotoaparátu v této aplikaci, ale můžete použít i fotografie z telefonu.  
 -  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
 -  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
 -  **Přednastavení tlačítek** Můžete si navrhnout a nainstalovat vlastní sadu tlačítek a zvolit je tak, aby byly zobrazeny pomocí této volby. Pro úplný popis této funkce, [více zde](/cs/mobile-mapping/osmtracker/#button-presets).   
