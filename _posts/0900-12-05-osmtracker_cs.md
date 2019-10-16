@@ -60,65 +60,65 @@ Spusťte OSMTracker a z menu vyberte položku **Settings**.
 -  **Use HDOP approximation** (Použít HDOP přiblížení) - Umožňuje provést dodatečné výpočty pro zpřesnění pozice (Horizontal Dilution of Precision - horizontální ředění pozice).  
 -  **Export Compass Heading** (Export hlavičky kompasu) - Definuje zda a jak exportovat data z kompasu do GPX souboru.  
 -  **Default photo source** (Výchozí zdroj fotografií) - Většinou budete pořizovat fotografie pomocí fotoaparátu v této aplikaci, ale můžete použít i fotografie z telefonu.  
--  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
--  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
+-  **Screen always on** (Stále zapnutý display) - Vyberte tuto možnost, pokud stále klikáte na tlačítka, fotíte, nebo pořizujete zvukové záznamy - jinak budete muset pokaždé zapnout display, ale spotřebujete tak méně energie.  
+-  **Main screen graphic theme** (Grafické téma hlavní obrazovky) - Nastavení kontrastu a jasu obrazovky, pokud jsou špatně viditelná tlačítka.  
 -  **Přednastavení tlačítek** Můžete si navrhnout a nainstalovat vlastní sadu tlačítek a zvolit je tak, aby byly zobrazeny pomocí této volby. Pro úplný popis této funkce, [více zde](/cs/mobile-mapping/osmtracker/#button-presets).   
--  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
+-  **Background map** (Mapa na pozadí) - Pokud si zapnete tuto funkci, zmáčkněte a podržte prstu na nahrané trase, ta se zobrazí a aplikace stáhne OpenStreetMap data na pozadí.  
 
-> This does require a data connection to download the map. You do not need to use this function unless you wish to.  
+> Ke stažení mapy je vyžadováno připojení k internetu. Pokud si to nepřejete, nemusíte tuto funkci používat.  
 
--  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
--  **Orientation**  Do you want the screen to rotate, or use it in landscape or portrait?  
+-  **Map Tile Provider** (Poskytovatel mapového podkladu) - Pokud jste si zapnuli stažení mapových dat na pozadí, můžete si vybrat verzi map.  
+-  **Orientation** (Orientace obrazovky) - Chcete, aby se obrazovka převracela, nebo zůstala v dané pozici?  
 
-The Track List
+Seznam tras
 --------------
 
 ![OSMTracker_2][]  
-Having carried out your initial survey, clicking buttons, creating voice recordings and taking photographs, when you have finished, click on the floppy disk icon to end your track. Now press and hold the track in the list & options become available:  
+Jakmile si projdete aplikaci, proklikáte tlačítka, vyzkoušíte záznam zvuku a nafotíte pár fotografií, klikněte na ikonu diskety pro ukončení záznamu trasy. Teď zmáčkněte a podržte prst na trase v seznamu a objeví se tyto možnosti:  
 
--  **Resume Tracking** useful when you realise you've missed a bit!  
--  **Display** will show the track, possibly with a background map depending on your data connection and the option you selected in **Background Map**.  
--  **Export as GPX** - necessary for the track and waypoints to be used in an editing programme.  
--  **Upload to OpenStreetMap** Use this option to upload your trace to OpenStreetMap - you will need to have an OpenStreetMap account ([How to obtain explained here](/en/beginner/start-osm/)), and will need to authorise this app to upload traces to your account. See [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) for more information on why these traces are so important to OpenStreetMap.  
+-  **Resume Tracking** (Pokračovat v záznamu) - užitečné, když si uvědomíte, že vám kousek chybí!  
+-  **Display** (Zobrazit) - zobrazí zaznamenanou trasu, pravděpodobně i s mapou na pozadí, v závislosti na datovém připojení a vámi zvolené variantě v **Background Map** (Mapa pozadí).  
+-  **Export as GPX** (Exportovat GPX) - potřebné pro následnou editaci tras a výchozích bodů v jiných programech.  
+-  **Upload to OpenStreetMap** (Nahrát do OpenStreetMap) - Pomocí této možnosti nahrajete vaši trasu do OpenStreetMap - budete potřebovat účet v OpenStreetMap. ([Jak jej získat, zjistíte zde](/cs/beginner/start-osm/)). Dále bude potřeba autorizovat tuto aplikaci k nahrávání tras na váš účet. Mrkněte se níže na [GPS Trasy - gpx soubory](/cs/mobile-mapping/osmtracker/#gps-traces--gpx-files), abyste zjistili, proč jsou tyto trasy tak důležité pro OpenStreetMap.  
 
-> **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
+> **Varování: zatím trasu nemažte v zařízení.** Nahráli jste pouze samotnou trasu, nikoliv výchozí body, fotografie atd. Udělat to můžete až po přesunu trasy do počítače pro další úpravy.  
 
--  **Delete**. Self explanatory.  
+-  **Delete** (Smazat) - Nepotřebuje vysvětlení.  
 
 
-Button Presets
+Tlačítkové předvolby
 --------------
 
-If you will be surveying for a particular reason, and the waypoint label you require is not available, you can create your own set of button presets prior to your surveying trip, load them into the phone and select them whilst surveying as & when you need them - several can be loaded in the phone & you may switch between them without stopping your recording. As the label you create is in the form of a personal note, it does not need to conform to the tags used within OpenStreetMap, and will not be uploaded to it. For instance, you may choose to have buttons labelled;  
+Pokud budete dělat nějaký průzkum a název výchozího bodu, který potřebujete použít, není v seznamu, můžete si vytvořit svůj vlastní seznam předvoleb, který využijete pro konkrétní výlet, nahrajete ho do telefonu a jakmile jej budete potřebovat, tak si ho načtete - v telefonu jich můžete mít několik a můžete mezi nimi přepínat, aniž byste museli zastavit záznam trasy. Jakmile je vámi vytvořený nápis ve formuláři osobní poznámky, nemusí odpovídat značkám používaným v OpenStreetMap, protože nebudou do OSM nahrány. Například si na předvolby můžete nastavit tyto nápisy;  
 
-- 1 family,  
-- 2 families,  
-- 3 families,  
-- 4 families,  
-- chiefs house,  
-- 20% damaged,  
-- 40% damaged,  
-- 60% damaged,  
-- 80% damaged,  
-- destroyed,  
-- unsuitable for lorry,  
-- 4wd needed,  
-- etc..  
+- 1 rodina,  
+- 2 rodiny,  
+- 3 rodiny,  
+- 4 rodiny,  
+- šéfův dům,  
+- 20% poškození,  
+- 40% poškození,  
+- 60% poškození,  
+- 80% poškození,  
+- zničená,  
+- nevhodné pro nákladní automobily,  
+- potřebný pohon 4x4,  
+- atd..  
 
-For a full description on creating a button preset, see the [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). This is a [sample download file.](/files/R_of_Way.xml)  
+Celý postup vytvoření tlačítkových předvoleb můžete nastudovat ve [wiki sekci OSMTracker](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). Tady máte [ukázkový soubor ke stažení.](/files/R_of_Way.xml)  
 
 ![OSMTracker button presets][]  
 
 
-Voice recordings, photograph & text image sizes  
+Záznam hlasu, velikost fotografií a textových obrázků  
 -----------------------------------------------  
 
 ![OSMTracker recorded file sizes][]  
 
-If file transfer at a later stage is an issue, be aware of the file sizes involved - as the screenshot shows photographs are very memory intensive compared to the gpx file or a 10 second voice recording.  
+Pokud nastane v pozdější fázi problém s přesunem, zkontrolujte si velikost souboru - jak vidíte na snímku obrazovky, fotografie zabírají mnohem více paměti oproti gpx souboru, či 10 sekundám záznamu hlasu.  
 
 
-GPS Traces - gpx files
+GPS Trasy - gpx soubory
 ----------------------  
 
 ![OSMTracker JOSM][]  
@@ -126,7 +126,7 @@ GPS Traces - gpx files
 GPS traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph.  
 
 If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
-Volunteers updating OpenStreetMap can download all of the traces that have been uploaded in an area, and use them to:  
+Dobrovolníci upravující OpenStreetMapy si mohou stáhnout všechny trasy nahrané pro danou oblast a použít je na:  
 
 1. Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
 2. Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.  
