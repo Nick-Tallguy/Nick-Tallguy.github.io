@@ -79,7 +79,7 @@ Jakmile si projdete aplikaci, proklikáte tlačítka, vyzkoušíte záznam zvuku
 -  **Resume Tracking** (Pokračovat v záznamu) - užitečné, když si uvědomíte, že vám kousek chybí!  
 -  **Display** (Zobrazit) - zobrazí zaznamenanou trasu, pravděpodobně i s mapou na pozadí, v závislosti na datovém připojení a vámi zvolené variantě v **Background Map** (Mapa pozadí).  
 -  **Export as GPX** (Exportovat GPX) - potřebné pro následnou editaci tras a výchozích bodů v jiných programech.  
--  **Upload to OpenStreetMap** (Nahrát do OpenStreetMap) - Pomocí této možnosti nahrajete vaši trasu do OpenStreetMap - budete potřebovat účet v OpenStreetMap. ([Jak jej získat, zjistíte zde](/cs/beginner/start-osm/)). Dále bude potřeba autorizovat tuto aplikaci k nahrávání tras na váš účet. Mrkněte se níže na [GPS Trasy - gpx soubory](/cs/mobile-mapping/osmtracker/#gps-traces--gpx-files), abyste zjistili, proč jsou tyto trasy tak důležité pro OpenStreetMap.  
+-  **Upload to OpenStreetMap** (Nahrát do OpenStreetMap) - Pomocí této možnosti nahrajete vaši trasu do OpenStreetMap - budete potřebovat účet v OpenStreetMap. ([Jak jej získat, zjistíte zde](/cs/beginner/start-osm/)). Dále bude potřeba autorizovat tuto aplikaci k nahrávání tras na váš účet. Mrkněte se níže na [GPS Trasy - gpx soubory](/cs/mobile-mapping/osmtracker/#gps-trasy---gpx-soubory), abyste zjistili, proč jsou tyto trasy tak důležité pro OpenStreetMap.  
 
 > **Varování: zatím trasu nemažte v zařízení.** Nahráli jste pouze samotnou trasu, nikoliv výchozí body, fotografie atd. Udělat to můžete až po přesunu trasy do počítače pro další úpravy.  
 
@@ -123,15 +123,15 @@ GPS Trasy - gpx soubory
 
 ![OSMTracker JOSM][]  
 
-GPS traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph.  
+GPS trasy ve formátu gpx souborů jsou tvořeny několika elementy, hlavními jsou 'trasy' a 'výchozí body'. Snímek, který vidíte výše, zobrazuje adresář se soubory vytvořenými v OSMTrackeru, načtenými do JOSM a připravenými k editaci se satelitními snímky na pozadí. Čtvercová ikona uprostřed trasy informuje o přítomnosti fotografie, pořízené na tomto místě - stačí na ni kliknout a zobrazí se.  
 
-If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
+Pokud navigujete a používáte GPS k udávání směru, tak někdy dostanete upozornění o 'přepočítávání'. Je to normální, protože vnitřní lokace GPS neodpovídá předpokládanému umístění cesty nebo pěšiny - jde o chybu v posunutí, při vytváření cest a pěšin může jednoduše dojít k mírnému posunutí od správné pozice, k posunutí silnice může dojít i po jejich vytvoření.  
 Dobrovolníci upravující OpenStreetMapy si mohou stáhnout všechny trasy nahrané pro danou oblast a použít je na:  
 
-1. Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
-2. Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.  
+1. Trasování cest a pěšin v oblastech, ve kterých není dobré pokrytí satelitními snímky, kvůli mrakům, stromům, stínům, budovám atd...  
+2. Přesunutí satelitních snímků do správné pozice - u některých snímků může existovat překvapivá variace.  
 
-Although a single gpx trace is very useful, it may not be particularly accurate and can be as much as 30 metres out of place. When there are several traces, the correct route of the path or road is now easy to see - for example see the screenshot below showing a download of gpx traces in a town, in which the main roads can be seen by the volume of traces.  
+Ikdyž je i jediná gpx trasa užitečná, nemusí být úplně přesná a nepřesnost může dosahovat i 30 metrů. Jakmile je dostupných více tras, pak je jednoduší najít tu správnou trasu pěšiny nebo cesty - mrkněte na snímek níže zobrazující gpx trasy stažené pro město, ve kterém hlavní silnici vidíme vykreslenou několika trasami.  
 
 ![OSMTracker_gpx][] 
 

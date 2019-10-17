@@ -79,46 +79,46 @@ Při editaci v JOSM, riskujte možnost vzniku konfliktů. Konflikty vznikají p�
 
 
 <!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE
-## Appendix. More Specific Conflicts
+## Dodatek. Několik konkrétních konfliktů
 
-### Tag Conflicts
+### Konflikty značek
 
-If the tags of one version of an objects are different from the tags of
-another version, the Conflict dialog shows a ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in
-the tab Tags. Click on the tab to display a dialog for resolving tag
-conflicts.
+Pokud jsou tagy jedné verze objektu jiné než tagy
+druhé verze, v dialogovém okně Konfliktů se zobrazí ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) v
+záložce Značky. Klikněte na záložku a tím si vyvoláte dialog pro vyřešení konfliktů se
+značkou.
 
-There are three tables displayed in this dialog, from left to right:
+V tomto dialogu jsou tři tabulky, z leva do prava:
 
-1.  My version: shows the tags of the first object version participating
-    in this conflict. These are usually the tags of the object version
-    in your local data set.
-2.  Merged version: shows the merged tags. This table is initially
-    empty. The more tag conflicts you resolve, the more tag values will
-    we be displayed in this table.
-3.  Their version: shows the tags of the second object version
-    participating in this conflict. These are usually the tags of the
-    object version currently stored on the server.
+1. Moje verze: zobrazuje značky první verze objektu, které se podílejí na
+    konfliktu. Obvykle jsou to značky verze objektu,
+    kterou máte v lokálním data setu.
+2. Sloučené verze: zobrazuje sloučené značky. Tato tabulka je zpočátku
+    prázdná. Čím více konfliktů značek vyřešíte, tím více hodnot značek
+    se v této tabulce objeví.
+3. Jejich verze: zobrazuje značky v druhé verzi objektu
+    podílející se na konfliktu. Jsou to obvykle značky
+    verze objektu, která je momentálně uložena na serveru.
 
-In the example below both versions have a tag "name". The values in the
-two object versions are different, though, and JOSM therefore displays
-the row with a red background. The value of the first version is
-"Secondary School", the opposite version has a value "Elementary
-School". You now have to decide which of these values you want to keep
-and which you want to discard.
+V příkladu níže mají obě verze značku "name". Hodnota
+u obou verzí objektu je různá a proto JOSM podkreslí
+daný řádek červenou barvou. Hodnota první verze je
+"Secondary School" a druhá verze má hodnotu "Elementary
+School". Vy teď musíte rozhodnout, kterou verzi hodnoty si necháte
+a kterou zrušíte.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Click on the value you want to keep, in the example for instance on the
-value on the left. If you either double-click on the value or click on
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
-opposite value. The table in the middle now displays the value to keep
-and the background color turns to green.
+Klikněte na hodnotu, kterou si chcete ponechat, v příkladu je to
+hodnota vlevo. Pokud na hodnotu kliknete dvakrát nebo kliknete na
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), tak si danou hodnotu ponecháte a zrušíte
+tu druhou. Tabulka uprostřed nyní obsahuje hodnotu, kterou zachováte
+a pozadí se změní na zelené.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
-The values you've chosen will be applied and the dialog will be closed.
+Až se tlačítko Apply Resolutionis aktivuje, můžete uložit své rozhodnutí.
+Hodnoty, které jste vybrali, budou aplikovány a dialog se zavře.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
