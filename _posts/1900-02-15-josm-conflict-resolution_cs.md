@@ -122,18 +122,18 @@ Hodnoty, které jste vybrali, budou aplikovány a dialog se zavře.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-## Resolving differences in the node list of two versions of a way
+## Řešení rozdílů v seznam uzlů dvou variant cest
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
-have to resolve differences in the list of
-[nodes](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)of two
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
-are three columns in the respective panel (see screen shot below):
+Pokud vidíte symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) v záložce Uzly potom
+musíte vyřešit rozdíly v seznamu
+[uzlů](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) dvou
+[cest](http://josm.openstreetmap.de/wiki/Help/Concepts/Object).
+V příslušném panelu jsou tři sloupce (podívejte se na obrázek níže).
 
-1.  the leftmost table displays the list of nodes of the the local
-    object version
-2.  the rightmost table displays the list of nodes of the the server
-    object version
+1. tabulka vlevo zobrazuje seznam uzlů lokální
+    verze objektu
+2. tabulka vpravo obsahuje seznam uzlů na serveru
+    verze objektu
 3.  the table in the middle shows the list of nodes of the merged ways
 
 Initially, the middle table is empty. You should now decide which nodes
