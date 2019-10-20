@@ -134,79 +134,79 @@ V příslušném panelu jsou tři sloupce (podívejte se na obrázek níže).
     verze objektu
 2. tabulka vpravo obsahuje seznam uzlů na serveru
     verze objektu
-3.  the table in the middle shows the list of nodes of the merged ways
+3. tabulka uprostřed zobrazuje seznam uzlů sloučených cest
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+Zpočátku je prostřední tabulky prázdná. Vy se teď musíte rozhodnout, které uzly
+ponecháte z lokální databáze (tabulka vlevo) a které z
+databáze na serveru (tabulka vpravo).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### Běžný průběh
 
-The standard workflow to resolve conflicts in the node lists of two
-[object
-versions](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consists
-of three steps:
+Běžný průběh řešení konfliktů v seznamu uzlů dvou
+[verzí
+objektu](http://josm.openstreetmap.de/wiki/Help/Concepts/Object) se skládá
+ze tří kroků:
 
-1.  Pick nodes from either object version and reorder the resulting node
-    list if necessary
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
-3.  Apply the resolution
+1. Vyberete uzly z jedné verze objektu a uspořádáte výsledný seznam
+    uzlů, pokud je to nutné.
+2. Potvrdíte výsledný seznam uzlů kliknutím na tlačítko
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). Jakmile seznam potvrdíte,
+    oznámíte tím JOSM, že jsou všechny konflikty v seznamu vyřešeny.
+3. Aplikujete rozhodnutí.
 
-### A simple workflow: Keep the node list from your local object version
+### Jednoduché řešení: Použijte seznam uzlů lokální verze objektu
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+Následující příklad ukazuje řešení, ve kterém se rozhodnete, ponechat všechny uzly ve stejném tvaru, jako má lokální verze objektu.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+- Zaprvé, vyberte všechny elementy v levé tabulce (buď pomocí myši nebo 
+    zmáčknutím Ctrl-A v tabulce) (podívejte se na následující snímek obrazovky):
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
--   Then, click 
+- Poté klikněte na 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+    pro zkopírování vybraných uzlů do prostřední tabulky ke sloučeným uzlům:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
--   Finally, click
+- Nakonec, klikněte na
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+    k uložení výsledného sloučeného seznamu uzlů:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    The symbol in the nodes tab now switched to 
+    Symbol v záložce uzlů se nyní změnil na 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
-    and you can apply the merge decisions.
+    a vy můžete aplikovat změnit, které jste uložili.
 
-### Support for comparing node lists
+### Pomoc při porovnávání seznamu uzlů
 
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+Může být těžké najít rozdíly mezi seznamem uzlů dvou verzí objektu, zvláště u cest s velkým množstvím uzlů.
 
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+Dialog konfliktu vám pomáhá nalézt rozdíly. Může porovnat dva seznamy uzlů ("náš" seznam, seznam sloučených uzlů a "jejich" seznam) a vykreslit rozdíly mezi nimi pomocí určité barvy pozadí.
 
-From the following combo box you can select which pair of node lists to compare:
+Z následujícího dvouokna si můžete vybrat, který pár seznamu uzlů chcete porovnat:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
-    in the Conflict Dialog
-2.  My with Merged: compares the leftmost table with the middle table in
-    the Conflict Dialog
-3.  Their with Merge: compares the middle table with the rightmost table
-    in the Conflict Dialog
+1. Náš s jejich: porovná levou a pravou tabulku
+    v dialogu konfliktu.
+2. Naši se sloučenou: porovná levou tabulku s prostřední v
+    dialogu konfliktu.
+3. Jejich a sloučenou: porovná pravou tabulku s prostřední.
+    v dialogu konfliktu.
 
-Depending on the position of a node in the list different background
-colors are used:
+V závislosti na umístění uzlů v seznamu se použijí různé barvy
+na pozadí:
 
-1.  The node is in this list only. It isn't present in the opposite list:
+1. Uzel se nachází pouze v tomto seznamu. Není v tom druhém:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
+2. Uzel je v obou seznamech, ale je na jiné pozici:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
-    position.
+3. Bílé pozadí znamená, že uzel je v obou seznamech na stejné
+    pozici.
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 
