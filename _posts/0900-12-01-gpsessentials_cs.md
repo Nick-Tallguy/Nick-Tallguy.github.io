@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Základy GPS
+title: GPS Essentials
 permalink: /cs/mobile-mapping/gpsessentials/
 lang: cs
 category: mobile-mapping
@@ -8,106 +8,106 @@ category: mobile-mapping
 
 
 
-Základy GPS
+GPS Essentials
 ===================
 
 > Zkontrolováno 2015-05-24  
 
-Installation of GPS Essentials
+Instalace GPS Essentials
 -------------
 
-1. Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
-2. Tap the “Search” icon in the upper right corner.
-3. Use the search bar at the top to search for “GPS Essentials”.
-4. Tap the GPS Essentials icon and select "Install". The icon looks like this:
+1. Otevřete si aplikaci “Google Play Store” ve vašem Android zařízení.
+2. Klikněte na "Vyhledávací" ikonu vpravo nahoře.
+3. Vyhledejte “GPS Essentials”.
+4. Označte ikonu GPS Essentials a vyberte "Instalovat". Ikona vypadá takhle:
 
    ![GPS Essentials logo][]
 
-If you don't have access to Google Play or if you want to download versions other than the stable release
-such as older versions or the latest beta, you can download GPS Essentials from http://www.images.com.
+Pokud nemáte přístup do Google Play nebo chcete stáhnout jinou než stabilní verzi,
+jako třeba starší nebo nejnovější betu, můžete stáhnout GPS Essentials z http://www.images.com.
 
-Configure GPS Essentials to Work Offline
+Konfigurace GPS Essentials pro práci offline
 -------------
 
-1. Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
+1. Spusťte GPS Essentials. Otevřete Settings a vyberte Map Cache. Nastavte cache limit na maximum.
 
    ![Map Cache][]
 
-2. Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable
-map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as
-possible, and slowly zoom in on each waypoint.
+2. Připojte se k rychlé síti. Na hlavní obrazovce vyberte 'Portable Maps'. Všechny mapy zobrazené v módu portable
+map se automaticky uloží do paměti Androidu. Uložte si mapy, které budete potřebovat offline v maximálním detailu
+a pomalu si přibližte každý výchozí bod.
 
-3. Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a
-network and slowly zoom in on the map location you need.
+3. Odpojte se ze sítě a podívejte se na mapy v módu portable map. Pokud některé mapy postrádají detail, znovu se připojte
+ k Internetu a pomalu si přibližte oblast, kterou potřebujete.
 
-GPS feature on Android phone
+Funkce GPS na Android telefonu
 -------------
 
-Before using the GPS Essentials Application, make sure the GPS in your Android phone is enabled.
+Před použitím GPS Essentials se ujistěte, že máte povolenou GPS v telefonu.
 
 ![Enable GPS in Android][]
 
-Acquiring Satellites
+Připojení k satelitům
 -------------
 
-Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites.
-The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites
-high above the horizon usually have better signals. 
+Dříve než začne přijímač GPS vysílat lokaci (taktéž nazáváno GPS fix), musí přijmout signály z nejméně čtyř satelitů.
+Čím níže je satelit nad horizontem, tím déle signál putuje skrze atmosféru, takže satelity
+vysoko nad horizontem mají obvykle lepší signály. 
 
-To check the satellites in your area:
+Kontrola satelitů ve vaší oblasti:
 
-1. From the main menu, select Satellites.
+1. V hlavním menu vyberte Satellites.
 
    ![Satellites page][]
 
-2. If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
+2. Pokud se zobrazí alespoň čtyři připojené satelity, pak můžete začít používat funkce GPS Essentials.
 
-Creating Tracks
+Vytváření tras
 -------------
 
-1. From the main menu, select Tracks.
+1. Z hlavního menu vyberte Tracks.
 
-2. Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is
-available.
+2. Zmáčkněte Start. Vytvoří se nová trasa a začne záznam. Vyčkejte několik sekund dokud se GPS 
+nepřipojí.
 
    ![New Track][]
 
-3. Select Pause button to pause recording. If you want to continue recording, press it again.
+3. Tlačítkem Pause pozastavíte záznam. Opětovným zmáčknutím záznam znovu spustíte.
 
-Creating Waypoints
+Vytváření výchozích bodů
 -------------
 
-### Using Portable Maps
+### Pomocí Portable Maps
 
-1. From the main menu, select Portable Maps.
+1. Z hlavního menu vyberte Portable Maps.
 
-2. Tap and hold on the map to create a new cursor.
+2. Podržte prst na mapě pro vytvoření nového kurzoru.
 
    ![Waypoints1][]
 
-3. Drag the cursor onto the location where you want the new waypoint.
+3. Přesuňte kurzor na místo, kde chcete vytvořit nový výchozí bod.
 
-4. Tap on Actions to show the actions pane. The Actions icon looks like this:
+4. Zmáčkněte tlačítko Actions a zobrazí se podokno akcí. Ikona Actions vypadá takhle:
 	
    ![Actions][]
 	
-5. Select the Add Tool to create the waypoint.
+5. Zmačknutím Add Tool vytvoříte výchozí bod.
 	
    ![Waypoints2][]
 	
-### Using Google Maps
+### Pomocí Google Maps
 
-1. From the main menu, select Google Maps.
+1. Z hlavního menu vyberte Google Maps.
 
-2. Go to the location where you want to add your waypoint.
+2. Nejďte na místo, kde chcete vytvořit váš výchozí bod.
 
-3. Select the Add Tool to create the waypoint. Tap on the location on the map to create a 
-   Waypoint there. If you want to create a waypoint at your current location, tap the Add
-   Waypoint button again.
+3. Zmáčkněte tlačítko Add Tool. Ťukněte na místo na mapě a tam 
+   se výchozí bod vytvoří. Pokud ho chcete vytvořit na vaší aktuální pozici, zmáčkněte tlačítko
+   Přidat výchozí bod ještě jednou.
 
    ![GoogleMaps][]
 
-4. Repeat steps b and c until you are finished recording your desired waypoints.
+4. Opakujte krok 2 a 3 dokud nebudete mít umístěné všechny výchozí body.
 
 ### Using Waypoints page
 
