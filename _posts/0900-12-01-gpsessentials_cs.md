@@ -109,94 +109,94 @@ Vytváření výchozích bodů
 
 4. Opakujte krok 2 a 3 dokud nebudete mít umístěné všechny výchozí body.
 
-### Using Waypoints page
+### Pomocí stránky Waypoints
 
-1. From the main menu, select Waypoints.
+1. Z hlavního menu vyberte Waypoints.
 
-2. Select the Add tool to create the waypoint.
+2. Výchozí bod vytvoříte přes ikonu Add tool.
 
    ![Waypointspage1][]
 
-3. It will start recording your 1st waypoint. You may change the attributes of the waypoint
-   and then press Back to get back to the list.
+3. Začne se zaznamenávat váš první výchozí bod. Můžete změnit atributy výchozího bodu
+   a poté zmáčknout Back, pro návrat zpět na seznam.
 	
    ![Waypointspage2][]
 
-4. When you select the Map pane, you will see where your waypoint is located on the map.
+4. Přepnutím do mapy se vám výchozí bod zobrazí přímo ve své lokaci.
 	
    ![Waypointspage3][]
 
-5. Select Close icon to save your waypoint. The Close icon looks like this:
+5. Zmáčknutím ikony Close se výchozí bod uloží. Ikona Close vypadá takhle:
 	
    ![Close][]
 
 
 	
-Geotagging Photos
+Přidání lokace k fotkám
 -------------
 
-1. From the main menu, select Camera.
+1. V hlavním menu vyberte Camera.
 
-2. Take a picture of your desired area for geotagging.
+2. Vyfoťte oblast, ke které chcete přidat lokaci.
 
-3. The photo you took will serve as a waypoint and automatically be saved on the Portable Maps
-and Google Maps page.
+3. Foto bude sloužit jako výchozí bod a automaticky se uloží do Portable Maps
+a na stránku Google Maps.
 
-4. The data (picture location and the photo file name) will also be logged on the Waypoints page.
-You may also choose which icon to be used for a particular image. The icon will be shown on the
-Portable Maps and Google Maps page as well.
+4. Data (lokace obrázku a název fota) se také zapíšou na stránku Waypoints.
+Každému obrázku můžete přiřadit ikonu. Ikona se zobrazí v
+Portable Maps a na stránce Google Maps.
 
-Saved Photos
+Uložené fotky
 -------------
 
-All your pictures are in the folder com.mictale.images on your SD card. You can
-delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder
-regularly to see what’s new.
+Všechny vaše obrázky jsou uloženy v adresáři com.mictale.images na vaší SD kartě. Můžete
+je odsud smazat a dokonce sem můžete přidat i nové. GPS Essentials pravidelně prohledává tento adresář,
+jestli neobsahuje něco nového.
 
-Exporting/Saving Waypoints
+Export/Ukládání výchozích bodů
 -------------
 
-1. From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
+1. Z hlavního menu vyberte Waypoints. Zobrazí se vám seznam výchozích bodů, které jste zaznamenali.
 
-2. To export all the waypoints, select Export from the Options button. If you want to export
-a single waypoint, select the desired waypoint, click the Options button and select Export.
+2. Pokud je chcete exportovat, vyberte Export z nabídky Options. Pokud chcete exportovat
+jeden výchozí bod, vyberte jej a klikněte na Options a pak Export.
 
-3. The dropdown box will let you select what type of file you want your data to be exported.
-For now, click KML (Google Earth).
+3. Dostanete na výběr z dostupných formátů k exportu.
+Tentokrát zvolíme KML (Google Earth).
 
    ![Export file format][]
 
-4. Select the SD card icon to manually select your desired location of the file.
+4. Zmáčkněte ikonu SD karty pro vlastní výběr umístění soubor.
 
    ![Export to SD card][]
 
-5. Click this icon to Save.
+5. A zmáčkněte Save pro uložení.
 
    ![Arrow][]
 
-Exporting/Saving Tracks
+Export/Ukládání tras
 -------------
 
-1. From the main menu, select Tracks. It shows the data from the current track you recorded.
+1. Z hlavního menu vyberte Tracks. Zobrazí se vám seznam vašich zaznamenaných tras.
 
-2. Select Export from the Options button to write the contents of the current track to a file.
+2. Zmáčkněte tlačítko Options a pak vyberte Export, pro vytvoření souboru z aktuálně vybrané trasy.
 
-3. If you want to export the previous track you recorded, select Tracks icon and choose the desired track.
-   Click the Options button and select Export. The Tracks icon looks like this:
+3. Pokud chcete exportovat předchozí trasu, zmáčkněte ikonu Tracks a vyberte požadovanou trasu.
+   Dále tlačítko Options a vyberte Export. Ikona Tracks vypadá takhle:
 
    ![Footprints][]
 
 
-4. The dropdown box will let you select what type of file you want your data to be exported.
-   For now, click KML (Google Earth).
+4. Z nabídky si vyberte formát souboru, do kterého chcete data exportovat.
+   Tentokrát zvolíme KML (Google Earth).
 
    ![Export1][]
 
-5. Select the SD card icon to manually select your desired location of the file.
+4. Zmáčkněte ikonu SD karty pro vlastní výběr umístění soubor.
 
    ![Export3][]
 
-6. Click this icon to Save.
+5. A zmáčkněte Save pro uložení.
 
    ![Arrow][]
 
