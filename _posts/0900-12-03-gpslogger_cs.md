@@ -1,41 +1,41 @@
 ---
 layout: doc
-title: GPSLogger for Android
+title: GPSLogger pro Android
 permalink: /cs/mobile-mapping/gpslogger/
 lang: cs
 category: mobile-mapping
 ---
 
-GPSLogger for Android
+GPSLogger pro Android
 =====================
 
 > Zkontrolováno 2015-12-06  
 
 ![GPSLogger][]
 
-A simple, light-weight, and minimalistic app for recording GPS traces on the Android platform. The easy-to-use interface with the sole purpose of GPS logging and staying quite makes for a very battery-efficient application that can save gps tracks in GPX, KML, NEMA or text file formats. Log files can automatically be uploaded to OpenStreetMap, an OpenGTS server, DropBox, FTP server, HTTP server or sent to an email address.  
+Jednoduchá, nenáročná a minimalistická aplikace pro záznam GPS tras pro platformu Android. Jednoduché uživatelské rozhraní, jediným účelem je záznam GPS a spotřebovávat tak co nejméně energie, k tomu možnost ukládat gps trasy do formátu GPX, KML, NEMA nebo textového. Soubory mohou být automaticky nahrány do OpenStreetMap, na OpenGTS server, DropBox, FTP server, HTTP server nebo odeslány na emailovou adresu.  
 
 <https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
 
-GPSLogger for Android is an app that is free to use, and an actively maintained open source project. Donations are welcomed to further enhance the app. If you wish to get involved (e.g. providing translations in another language, bug reporting, or submitting feature requests), visit the [repository](https://github.com/mendhak/gpslogger).  
+GPSLogger pro Android je zdarma a aktivně vyvíjený open source projekt. Sponzorské dary jsou vítány, podporují další vylepšování aplikace. Pokud se chcete zapojit (např. překladem do jiných jazyků, oznámit chybu, nebo navrhnout vylepšení), přejděte na [repozitář](https://github.com/mendhak/gpslogger).  
 
-> OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
+> Informace o OpenGTS najdete na stránce [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
 
 
-Features
+Funkce
 --------  
 
-* Specify logging based on time or distance intervals  
-* Specific battery saving configurations  
-* GPS accuracy filter to not log unreliable points  
-* Select wifi, Cellphone tower and/or GPS satellites as location information source  
-* Log to GPX, KML, CSV, TXT or NMEA files with ZIP support  
-* Imperial or metric display units  
-* Auto start on boot  
-* Can run in background  
-* Works well with other GPS applications running  
-* Automatic sending to email/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS at user defined intervals  
-* Easy to preconfigure text configuration files for distribution to many users  
+* Záznam na základě časového intervalu nebo vzdálenosti  
+* Specifické nastavení šetření baterie  
+* Filtr přesnosti GPS pro záznam nespolehlivých bodů  
+* Volba mezi wifi, vysílačem mobilní sítě a/nebo GPS satelity, jako zdroje informací o umístění.  
+* Záznam do GPX, KML, CSV, TXT nebo NMEA souborů s podporou ZIP  
+* Britské nebo metrické jednotky zobrazení  
+* Automatický start po spuštění systému  
+* Může běžet na pozadí  
+* Může běžet společně s jinou GPS aplikací  
+* Automatické odeslání na email/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS v intervalech nastavených uživatelem  
+* Lze snadno přednastavit textové konfigurační soubory pro distribuci mnoha uživatelům  
 
 
 Uživatelské rozhraní
