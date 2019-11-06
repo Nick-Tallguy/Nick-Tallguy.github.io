@@ -43,21 +43,21 @@ Uživatelské rozhraní
 
 ![Canvass1][]
 
-The **Menu** button provides more options for configuring the app.  
-The **Views drop-down** lets you to choose how information is display on the screen.  
-The **Help** button provides additional information about how to use the app.  
-The **Annotate** button lets you to add a description to a point.  
-**Log one point** button lets you manually log a waypoint.  
-**Upload** lets you choose from a variety of options for uploading your log file. This includes an option to auto send to any of the following:  
+Tlačítko **Menu** poskytuje více možností nastavení aplikace.  
+**Views drop-down** umožňuje nastavit způsob zobrazení informací na obrazovce.  
+Pod tlačítkem **Help** naleznete další informace, jak používat aplikaci.  
+Pomocí tlačítka **Annotate** přidáte popis k bodu.  
+**Log one point** vám umožní ručně přidat waypoint.  
+**Upload** vám umožňuje vybrat si z různých možností nahrávání logů. Zahrnuje i variantu automatického zasílání na některé z následujících:  
 
 - OpenStreetMap,  
 - Google Drive,  
 - Google Drive,  
 - FTP server,  
 - OpenGTS server nebo  
-- send the log to an email address.  
+- zaslání logu na emailovou adresu.  
 
-The **Share** button lets you choose one or more log files you can share with other people via Bluetooth, or SMS. Depending on what apps are installed on your device, you may have different options available for you.  
+Tlačítkem **Share** můžete nasdílet jeden nebo více záznamů s ostatními lidmi skrze Bluetooth, nebo SMS. Podle toho jaké aplikace máte nainstalované na zařízení, dostanete různou nabídku možností.  
 
 
 ![Canvass2][]
