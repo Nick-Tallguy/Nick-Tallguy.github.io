@@ -62,52 +62,52 @@ Tlačítkem **Share** můžete nasdílet jeden nebo více záznamů s ostatními
 
 ![Canvass2][]
 
-The **Start Logging** button is in blue. When you press this button to start recording, it turns to  a green button.  
-The **Coordinates** displays the last recorded GPS point, and is refreshed when a new coordinates become available.  
-The **Satellites** icon will show you how many satellites you are fixed on.  
-The **Elevation** shows elevation data.  
-The **Duration** displays the total time elapsed since pressing the start button.  
-The **Distance** will display the total distance recorded.  
-The **File Types** indicate what type of logs are being generated while the **File Path** tells you where the location of the file in your device or memory card.  
-The **Status** indicator will display in green when it is recording, while a spinner is displayed when the device is trying to get a fix.  
-The **Accuracy** will display the accuracy of the recorded data, which varies between receivers, the position or number of available satellites, weather condition, or the obstructions of the horizon.  
-The **Bearing** tells you the direction you are moving.  
-The **Speed** will give you approximate information of how fast you are going.  
-**Points logged** will display the total number of poins recorded from the time the start button was pressed.  
+Tlačítko **Start Logging** je modré. Když jej zmáčknete, začne nahrávání a změní se na zelené.  
+**Coordinates** zobrazuje poslední zapsaný GPS bod a změní se jakmile jsou k dispozici nové koordináty.  
+Ikonka **Satellites** zobrazuje počet připojených satelitů.  
+U **Elevation** se ukazuje nádmořská výška.  
+**Duration** je uplynulý čas od zmáčknutí tlačítka start.  
+**Distance** je celková zaznamenaná vzdálenost.  
+**File Types** zobrazuje typy logů, které se vytvářejí a **File Path** je umístění souboru v zařízení nebo paměťové kartě.  
+**Status** indikátor je zelený, když probíhá nahrávání, točí se, když se snaží najít signál.  
+**Accuracy** informuje o přesnosti nahrávaných dat, která je ovlivněna přijímačem, polohou, počtem dostupných satelitů, povětrnostními podmínkami nebo překážkami na obzoru.  
+**Bearing** ukazuje směr pohybu.  
+**Speed** představuje průměrnou rychlost, kterou se pohybujete.  
+**Points logged** je počet zaznamenaných bodů od chvíle, kdy jste zmáčkli tlačítko start.  
 
 
-Menus
+Menu
 --------------------------
 
 ![Menus][]
 
-The **General options** is where to find settings for *Start on bootup*, *unit of measurement* (Metric or Imperial), *debug file* and *version information*.  
+V **General options** najdete nastavení *Spustit při startu*, *jednotky měření* (metrické nebo imperiální), *debug soubor* a *informace o verzi*.  
 
 ![Menus1][]
 
-The **Logging details** is where to find settings  *File formats* (multiple formats simultaneously supported), *folder* path to store logs, rules on *new file creation* and *custom file name*.  
+V **Logging details** si nastavíte *Souborové formáty* (můžete si vybrat i více formátů), *adresář* cesta k uloženým logům, pravidla pro *nově vytvořené soubory* a *název vlastního souboru*.  
 
 ![Menus2][]
 
 ![Menus3][]
 
-Under **Performance** is where the settings for *location providers*, *timings*, *filters* and *listeners* are found. The location provider option lets you set the sources for the location data: **GPS** - navigation satellites; **Network** - cellular tower; **Passive** - lets GPSLogger "borrow" the location coordinates that another app has requested, to save battery by not making the request itself.  
+Pod **Performance** je schováno nastavení *poskytovatelů lokace*, *načasování*, *filtrů* a *přijímačů*. V nastavení poskytovatelů lokace si můžete vybrat mezi: **GPS** - navigační satelity; **Síť** - přístupové body mobilní síťe; **Pasivní** - GPSLogger si "získává" souřadnice lokace z jiné aplikace a tak šetří baterii.  
 
 ![Menus4][]
 
 ![Menus5][]
 
-**Auto send, email and upload**  is where the settings for various upload options such as OpenStreetMap, Google Drive, FTP, Dropbox are found.  
+**Auto send, email and upload** umožňuje nastavení různých možností nahrávání, jako např. do OpenStreetMap, Google Drive, FTP, Dropbox.  
 
 ![Menus6][]
 
-Uploading GPS traces is another way of contributing data to the OpenStreetMap project. A trace is a record of your location at various time or distance intervals, and recorded as geographic coordinates (longitude, latitude, altitude). They can be used as a background layer when editing maps, and is useful for adding features to the map, similar to aerial imagery.  
+Nahrávání GPS tras je dalším způsobem zapojení do projektu OpenStreetMap. Trasa se skládá ze záznamů vaší lokace v různých časových okamžicích nebo po určité vzdálenosti a to ve formátu zeměpisných souřadnic (délka, šířka, nadmořská výška). Mohou být využity, jako vrstva na pozadí při editaci map a je užitečná pro přidávání prvků do map, podobně jako satelitní snímky.  
 
-#### OpenStreetMap options
+#### Nastavení OpenStreetMap
 
 ![osm0][]
 
-**Allow auto sending** settings determines whether log files are uploaded automatically.  
+**Allow auto sending** povolí automatické odesílání souboru zaznamenané trasy.  
 **Authorize this app** is for granting the app permission to upload GPS traces to OSM, using your OSM account.  
 The **Visibility**, **Description**, **Tags** options are disabled until you authorize the app to upload GPS traces. These settings are used for the GPS traces that will be uploaded to the OpenStreetMap database.  
 When you click the *Authorize this app*, you will be directed to your Internet browser and to the OpenStreetMap website. If you are not logged in, you will be asked for your credentials.  
