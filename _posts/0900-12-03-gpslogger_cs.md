@@ -44,11 +44,11 @@ Uživatelské rozhraní
 ![Canvass1][]
 
 Tlačítko **Menu** poskytuje více možností nastavení aplikace.  
-**Views drop-down** umožňuje nastavit způsob zobrazení informací na obrazovce.  
-Pod tlačítkem **Help** naleznete další informace, jak používat aplikaci.  
-Pomocí tlačítka **Annotate** přidáte popis k bodu.  
-**Log one point** vám umožní ručně přidat waypoint.  
-**Upload** vám umožňuje vybrat si z různých možností nahrávání logů. Zahrnuje i variantu automatického zasílání na některé z následujících:  
+**Varianty zobrazení** umožňuje nastavit způsob zobrazení informací na obrazovce.  
+Pod tlačítkem **Pomoc** naleznete další informace, jak používat aplikaci.  
+Pomocí tlačítka **Přidat popis** přidáte popis k bodu.  
+**Zaznamenat jeden bod** vám umožní ručně přidat waypoint.  
+**Odeslání** vám umožňuje vybrat si z různých možností nahrávání logů. Zahrnuje i variantu automatického zasílání na některé z následujících:  
 
 - OpenStreetMap,  
 - Google Drive,  
@@ -57,23 +57,23 @@ Pomocí tlačítka **Annotate** přidáte popis k bodu.
 - OpenGTS server nebo  
 - zaslání logu na emailovou adresu.  
 
-Tlačítkem **Share** můžete nasdílet jeden nebo více záznamů s ostatními lidmi skrze Bluetooth, nebo SMS. Podle toho jaké aplikace máte nainstalované na zařízení, dostanete různou nabídku možností.  
+Tlačítkem **Sdílení** můžete nasdílet jeden nebo více záznamů s ostatními lidmi skrze Bluetooth, nebo SMS. Podle toho jaké aplikace máte nainstalované na zařízení, dostanete různou nabídku možností.  
 
 
 ![Canvass2][]
 
-Tlačítko **Start Logging** je modré. Když jej zmáčknete, začne nahrávání a změní se na zelené.  
-**Coordinates** zobrazuje poslední zapsaný GPS bod a změní se jakmile jsou k dispozici nové koordináty.  
-Ikonka **Satellites** zobrazuje počet připojených satelitů.  
-U **Elevation** se ukazuje nádmořská výška.  
-**Duration** je uplynulý čas od zmáčknutí tlačítka start.  
-**Distance** je celková zaznamenaná vzdálenost.  
-**File Types** zobrazuje typy logů, které se vytvářejí a **File Path** je umístění souboru v zařízení nebo paměťové kartě.  
+Tlačítko **Spustit zápis** je modré. Když jej zmáčknete, začne nahrávání a změní se na zelené.  
+**Souřadnice** zobrazuje poslední zapsaný GPS bod a změní se jakmile jsou k dispozici nové koordináty.  
+Ikonka **Satelity** zobrazuje počet připojených satelitů.  
+U **Nadmořská výška** se ukazuje nádmořská výška.  
+**Doba trvání** je uplynulý čas od zmáčknutí tlačítka start.  
+**Vzdálenost** je celková zaznamenaná vzdálenost.  
+**Typ souboru** zobrazuje typy logů, které se vytvářejí a **Cesta k souboru** je umístění souboru v zařízení nebo paměťové kartě.  
 **Status** indikátor je zelený, když probíhá nahrávání, točí se, když se snaží najít signál.  
-**Accuracy** informuje o přesnosti nahrávaných dat, která je ovlivněna přijímačem, polohou, počtem dostupných satelitů, povětrnostními podmínkami nebo překážkami na obzoru.  
-**Bearing** ukazuje směr pohybu.  
-**Speed** představuje průměrnou rychlost, kterou se pohybujete.  
-**Points logged** je počet zaznamenaných bodů od chvíle, kdy jste zmáčkli tlačítko start.  
+**Přesnost** informuje o přesnosti nahrávaných dat, která je ovlivněna přijímačem, polohou, počtem dostupných satelitů, povětrnostními podmínkami nebo překážkami na obzoru.  
+**Směr** ukazuje směr pohybu.  
+**Rychlost** představuje průměrnou rychlost, kterou se pohybujete.  
+**Počet bodů** je počet zaznamenaných bodů od chvíle, kdy jste zmáčkli tlačítko start.  
 
 
 Menu
@@ -81,23 +81,23 @@ Menu
 
 ![Menus][]
 
-V **General options** najdete nastavení *Spustit při startu*, *jednotky měření* (metrické nebo imperiální), *debug soubor* a *informace o verzi*.  
+V **Obecné možnosti** najdete nastavení *Spustit při startu*, *jednotky měření* (metrické nebo imperiální), *ladící soubor* a *informace o verzi*.  
 
 ![Menus1][]
 
-V **Logging details** si nastavíte *Souborové formáty* (můžete si vybrat i více formátů), *adresář* cesta k uloženým logům, pravidla pro *nově vytvořené soubory* a *název vlastního souboru*.  
+V **Podrobnosti záznamu** si nastavíte *Souborové formáty* (můžete si vybrat i více formátů), *adresář* cesta k uloženým logům, pravidla pro *nově vytvořené soubory* a *název vlastního souboru*.  
 
 ![Menus2][]
 
 ![Menus3][]
 
-Pod **Performance** je schováno nastavení *poskytovatelů lokace*, *načasování*, *filtrů* a *přijímačů*. V nastavení poskytovatelů lokace si můžete vybrat mezi: **GPS** - navigační satelity; **Síť** - přístupové body mobilní síťe; **Pasivní** - GPSLogger si "získává" souřadnice lokace z jiné aplikace a tak šetří baterii.  
+Pod **Výkon** je schováno nastavení *poskytovatelů lokace*, *načasování*, *filtrů* a *přijímačů*. V nastavení poskytovatelů lokace si můžete vybrat mezi: **GPS** - navigační satelity; **Síť** - přístupové body mobilní síťe; **Pasivní** - GPSLogger si "získává" souřadnice lokace z jiné aplikace a tak šetří baterii.  
 
 ![Menus4][]
 
 ![Menus5][]
 
-**Auto send, email and upload** umožňuje nastavení různých možností nahrávání, jako např. do OpenStreetMap, Google Drive, FTP, Dropbox.  
+**Automaticky odeslat, email a nahrávání** umožňuje nastavení různých možností nahrávání, jako např. do OpenStreetMap, Google Drive, FTP, Dropbox.  
 
 ![Menus6][]
 
@@ -107,68 +107,68 @@ Nahrávání GPS tras je dalším způsobem zapojení do projektu OpenStreetMap.
 
 ![osm0][]
 
-**Allow auto sending** povolí automatické odesílání souboru zaznamenané trasy.  
-**Authorize this app** is for granting the app permission to upload GPS traces to OSM, using your OSM account.  
-The **Visibility**, **Description**, **Tags** options are disabled until you authorize the app to upload GPS traces. These settings are used for the GPS traces that will be uploaded to the OpenStreetMap database.  
-When you click the *Authorize this app*, you will be directed to your Internet browser and to the OpenStreetMap website. If you are not logged in, you will be asked for your credentials.  
+**Povolit automatické odesílání** povolí automatické odesílání souboru zaznamenané trasy.  
+**Autorizovat aplikaci** slouží k udělení práv k nahrávání GPS tras do OSM pomocí vašeho OSM účtu.  
+**Viditelnost**, **Popis**, **Štítky** nejsou aktivní, dokud nepovolíte aplikaci nahrávání GPS tras. Tato nastavení se používají pro GPS trasy, které budete nahrávat do OpenStreetMap databáze.  
+Když kliknete na *Autorizovat aplikaci*, budete přesměrování do internetového prohlížeče na stránku OpenStreetMap. Pokud nejste přihlášeni, budete k tomu vyzváni.  
 
 ![osm2][]
 
-After logging in, you see a page like below, for verifying the app request, and the specific permission to *upload GPS traces*. Click on *Save changes* button to authorize the app.  
+Po přihlášení se vám zobrazí stránka podobná té níže, sloužící k ověření požadavku aplikace a udělení práva k *nahrávání GPS tras*. Klikněte na *Save changes* a tím aplikaci autorizujete.  
 
 ![osm3][]
 
-Back to the GPSLogger app, the screen will be slightly different screen, with additional options available.
+Zpátky do aplikace GPSLogger, obrazovka se mírně změnila, přibylo několik dalších možností.
 
 ![osm1][]
 
-Clicking on the **Clear authorization** option will remove the permission to upload GPS traces to the OSM server.  
+Kliknutím na **Zrušit autorizaci** odeberete práva k nahrávání GPS tras na OSM server.  
 
-There are several *visibility* options for GPS traces. *Private* traces are shared as anonymous, with unordered points. *Public* traces are shown in the trace listing, and as anonymous, unordered points. *Trackable* traces are shared as anonymous, with timestamps for ordered points. *Identifiable* traces are shown in the trace list, and can be associated with your username, with timestamps for ordered points.  
+Položka *viditelnost* obsahuje několik nastavení pro GPS trasy. *Private* trasy jsou sdílené jako anonymní, s neseřazenými body. *Public* trasy se zobrazují v seznamu tras, jako anonymní, neseřazené body. *Trackable* trasy jsou anonymní, s časovými značkami pro seřazené body. *Identifiable* trasy se objeví v seznamu tras a mohou být spojeny s vašim uživatelským jménem a časovou značkou pro seřazené body.  
 
-It is recommended that you set the visibility of the GPS traces you upload to *identifiable*. The data and metadata makes it more useful for other mappers. If you have concerns about privacy and personal security, choose a more appropriate settings, or don't upload the traces at all.  
+Doporučené nastavení pro nahrávané GPS trasy je *identifiable*. Data a metadata jsou tak užitečnější pro ostatní mapery. Pokud máte obavy o bezpečnost a osobní údaje, vyberte si vhodnější nastavení, nebo trasy vůbec nenahrávejte.  
 
-A text *description* help others understand how a trace is recorded. A trace recorded on foot will not be similar to a trace recorded by a drone.  
+Text v *popis* pomáhá ostatním pochopit, jak byla trasa zaznamenána. Trasa zaznamenaná při chůzy bude odlišná od trasy nahrané dronem.  
 
-A *tag* is short keyword that can be used to associate a trace with projects, places, or events.  
+*Štítek* je krátké slovo, které můžete použít ke spojení trasy s nějakým projektem, místem, nebo událostí.  
 
 
-Data Collection
+Sběr dat
 ---------------
 
-### Automated collection and uploading of gps tracks
+### Automatizovaný sběr a nahrávání GPS tras
 
-Once properly configured, the application can run in the background and automatically record tracks and upload them once a day to any of its configured services. This would allow for the automated collection of tracks of daily driving to help build a collection of road and travel time data for later mapping or analysis. Once configured the person who has the phone or other android device should notice a little impact on battery usage and not have to do anything manually. Some experimentation will be needed to find the right balance of battery usage and clarity of the GPS tracks.  
+Po správném nastavení může aplikace běžet na pozadí a automaticky zaznamenávat trasy a nahrávat je jednou za den na jakoukoliv z přednastavených služeb. To umožňuje automatický sběr tras z každodenních cest a vytvoření soustavy cest a času cestování pro pozdější mapování nebo analýzu. Toto nastavení způsobí mírné navýšení spotřeby baterie. Je potřeba s tím trochu experimentovat a vybalancovat spotřebu baterie a přesnost GPS tras.  
 
-An example config to automatically collect and upload to OpenStreetMap daily you would need to adjust these settings:  
+Příklad nastavení automatického sběru a denní nahrávání na OpenStreetMapy může vypadat následovně:  
 
-#### General Options  
+#### Obecné možnosti  
 
-* **Start on bootup** - On  
+* **Spustit při startu** - Zapnuto  
 
-#### Logging Details  
+#### Podrobnosti záznamu  
 
-* **Log to GPX** - On  
-* **New file creation** - Once a day  
+* **Zapisovat do GPX** - Zapnuto  
+* **Vytvoření nového souboru** - Jednou za den  
 
-#### Performance  
+#### Výkon  
 
-* **Time before logging** - 5  
-* **Keep GPS on between fixes** - On (Turing this off can cause "jumps" in the GPS tracks while the device requires the GPS satellites each time.)  
-* **Don't log if I'm not moving** - On  
+* **Interval protokolování** - 5  
+* **Ponechat GPS zapnutou mezi odečty polohy** - Zapnuto (Pokud ponecháte vypnuto,  vzniknou "skoky" v GPS trasách, pokaždé když se zařízení snaží získat příjem z GPS satelitů.)  
+* **Nezaznamenávat pokud se nehýbu** - Zapnuto  
 
-#### Auto send, email and upload  
+#### Automaticky odeslat, email a nahrávání  
 
-* **Allow auto sending** - On  
-* **How often** - For once a day enter 1440 minutes. This setting can be a little tricky if you do not have access to data or wifi when it executes. It should start counting from when you either boot the device or hit the "Start logging" button, so if you start it in the morning, it will upload the same time the next morning for example.  
-* **OpenStreetMap** - Allow auto sending on and any other settings you want to configure, pay close attention to the visibility setting if you have privacy concerns about the GPS tracks.  
+* **Povolit automatické odesílání** - Zapnuto  
+* **Jak často** - Pokud chcete jednou za den, zadejte 1440 minut. Toto nastavení může být mírně problematické, pokud nemáte přístup k datovému připojení nebo wifi, když má proběhnout odeslání. Odpočet začne buď od spustění zařízení nebo od zmáčknutí tlačítka "Spustit záznam", takže pokud ho zapnete ráno, odeslání proběhne ve stejný čas příští ráno.  
+* **OpenStreetMap** - Povolte automatické odesílání a dále nastavte, co potřebujete, hlavně se zaměřte na nastavení viditelnosti, pokud máte obavy ohledně ochrany osobních údajů v GPS trasách.  
 
 
-### Manually Recording Traces
+### Manuální záznam tras
 
-To start collecting logs (in Simple view), simply click on the blue button. A spinner will appear near the upper right corner of the screen to indicate the attempt to get a fix on satellites. A green circle will show in the upper right hand area to indicate logging is on going.  
+Pro spuštění sběru záznamů (v jednoduchém zobrazení), jednoduše klikněte na modré tlačítko. Rotující kolečko se zobrazí v pravém horním rohu obrazovky, indikující pokus o připojení k satelitům. Zelené kolečko znamená spuštění záznamu.  
 
-To stop recording data any time, just press the green *Stop Logging* button.  
+Jakmile chcete zastavit záznam dat, klikněte na zelené tlačítko *Ukončit záznam*.  
 
 #### Annotate  
 
