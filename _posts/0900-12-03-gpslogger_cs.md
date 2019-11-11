@@ -170,85 +170,85 @@ Pro spuštění sběru záznamů (v jednoduchém zobrazení), jednoduše klikně
 
 Jakmile chcete zastavit záznam dat, klikněte na zelené tlačítko *Ukončit záznam*.  
 
-#### Annotate  
+#### Poznámky  
 
-To add a note or description to a log, click on the *Annotate* (Pencil) icon. This option will let you a leave text to describe or take note of details that are associated with the current point.  
+Poznámku nebo popis k logu přidáte kliknutím na ikonu *Anotace* (Tužka). Tato funkce vám umožní přidat text do popisu nebo poznámky s detaily, které přiřadíte aktuálnímu bodu.  
 
-##### Calling annotation from the Notification Bar  
+##### Vyvolání poznámky z notifikačního panelu  
 
-It's also possible to directly call the *Annotate* button from Android's Notification bar. Select the app from the Notification List and click on the *Annotate* button.  
+Tlačítko *Anotace* naleznete přímo v Notifikačním panelu Androidu. Vyberte aplikaci ze seznamu notifikací a klikněte na *Anotační* tlačítko.  
 
 ![annotate0][]
 
-This will display an input dialog box where you can enter the text details of the note.
+Poté se zobrazí dialogové okno se vstupním polem, do kterého můžete přidat detailní text k poznámce.
 
 ![annotate1][]
 
-#### Log intervals
+#### Intervaly záznamu
 
-Log intervals are determined by time or distance under the **Performance** menu.  
+Intervaly záznamu jsou odvozeny od času nebo vzdálenosti v menu **Výkon**.  
 
-##### By time
+##### Pomocí času
 
-**Time before logging** is set to 60 seconds by default. You can change this to five or ten seconds, when you are walking instead of riding in a vehicle. When you are in a car, you can set this to 1 second to generate very accurate logs.  
+**Doba před záznamem** je přednastavený na 60 sekund. Můžete to změnit na 5 nebo 10 sekund, pokud zaznamenáváte chůzi místo jízdy ve vozidle. Když jedete autem, můžete nastavit 1 sekundu, aby byl záznam co nejpřesnější.  
 
-##### By distance
+##### Pomocí vzdálenosti
 
-The **Distance filter** is set by default to zero. You can set this to something else, if you want to record the coordinates for every X number of units from the last point recorded.  
+**Filtr vzdálenosti** je přednastavený na 0. Můžete nastavit cokoliv jiného, pokud chcete souřadnice zaznamenat po každých X jednotkách od posledního bodu.  
 
 
-​Uploading traces
+Odesílání tras
 ------------------
 
-#### to OpenStreetMap
+#### do OpenStreetMap
 
-Press the *Upload* button and select the *OpenStreetMap* option. A dialog window will appear where files are available for selection. Choose any you want to upload and hit the *Ok* button.  
+Zmáčkněte tlačítko *Nahrát* a vyberte možnost *OpenStreetMap*. Objeví se dialogové okno, ve kterém si můžete vybrat soubory. Vyberte si kterýkoliv chcete a zmáčkněte *Ok*.  
 
 ![upload0][]
 
-#### to other options
+#### ostatní možnosti
 
-There are other upload options you can explore, but are outside the scope of this guide. Refer to the GPSLogger for Android Project website for details.  
+Prozkoumat můžete i ostatní možnosti, ale na ty se tento průvodce nezaměřuje. Detailnější informace získáte na stránkách projektu GPSLogger for Android.  
 
 
-​Sharing traces 
+Sdílení tras 
 ---------------
 
-You may also share the recorded traces, or your current location with other people. Sharing options may vary from one device to another, or the apps installed on a device. Below is an example of how the sharing option screen may look:  
+Trasy nebo vaši aktuální pozici můžete sdílet s ostatními lidmi. Možnosti sdílení se mohou v jednotlivých zařízeních nebo aplikacích lišit. Níže je ukázka, jak by mohla obrazovka sdílení vypadat:  
 
 ![share0][]
 
 
-Exporting traces to an OpenStreetMap editor
+Export tras do editoru OpenStreetMap
 --------------------------------------------
 
-When you are done recording traces, the tracks may be imported to JOSM (or another OpenStreetMap editor, like iD).  
+Pokud jste ukončili záznam tras, můžete je importovat do JOSM (nebo jiného editoru OpenStreetMap, jako třeba iD).  
 
-Connect your Android device to a computer (also possible using a data cable, Bluetooth, or an Internet connection) and copy the GPX tracks and (and perhaps, multimedia files) you’ve captured.  In your device storage, look for the GPX tracks under the folder /Android/data/com.mendhak.gpslogger/files  
+Připojte své Android zařízení k počítači (což je možné pomocí datového kabelu, Bluetooth, nebo internetového připojení) a zkopírujte GPX trasy a multimediální soubory, které jste pořídily. V paměti vašem zařízení vyhledejte GPX trasy v adresáři /Android/data/com.mendhak.gpslogger/files  
 
-Using the GPX tracks with the JOSM and iD editors are easy as dragging the files and dropping them into the application (or the browser tab, for iD).  
+GPX trasy lze do JOSM nebo iD editoru přidat pouhým přesunutím souborů do okna aplikace (nebo prohlížeče - pro iD).  
 
-For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).  
+Další informace pro uživatele iD, mrkněte do sekce [Nastavení vrstvy pozadí](https://learnosm.org/cs/beginner/id-editor/#nastaven%C3%AD-vrstvy-pozad%C3%AD).  
 
-If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](http://learnosm.org/en/mobile-mapping/using-gps/#open-in-josm).  
+Pokud používáte editor JOSM, instrukce k využití GPX tras s multimediálními soubory v JOSM mrkněte do sekce [Načtení do JOSM](https://learnosm.org/cs/mobile-mapping/using-gps/#načten%C3%AD-do-josm).  
 
-For other OpenStreetMap editors, please refer to your software’s documentation.  
+U ostatních editorů nahlédněte do dokumentace k danému softwaru.  
 
 
-Display Options
+Nastavení zobrazení
 -----------------
 
-The application can be displayed 3 different ways, whichever you find most appropriate for your use:
+Aplikace má tři způsoby zobrazení, ze kterých si můžete vybrat vám vyhovující:
 
-#### Simple View
+#### Jednoduché zobrazení
 
 ![view0][]
 
-#### Detailed View
+#### Detailní zobrazení
 
 ![view1][]
 
-#### Big View
+#### Velké zobrazení
 
 ![view2][]
 
@@ -256,19 +256,19 @@ The application can be displayed 3 different ways, whichever you find most appro
 Shrnutí
 -------
 
-Excellent! You've been introduced to a light-weight, battery-efficient app you can keep in your Android device to record tracks, which you can upload to OSM, or use with your favorite OpenStreetMap editor.  
+Výborně! Právě jste se seznámili s nenáročnou, energeticky úspornou aplikaci do vašeho Android zařízení k záznamu tras, které poté můžete odeslat do OSM, nebo využít ve svém oblíbeném editoru OpenStreetMap.  
 
-GPSLogger for Android is another tool for collecting field data without a dedicated GPS receiver. Casual field data collection is possible without an active Internet connection.  
+GPSLogger pro Android je dalším z nástrojů ke sběru dat v terénu bez specializovaného GPS přijímače. Běžný sběr dat v terénu je možný bez aktivního internetového připojení.  
 
-Take some time to practice and familiarize yourself with the app before working with live data.  
+Nějakou chvíli aplikaci prozkoumávejte a seznamujte se s ní, než začnete pracovat s živými daty.  
 
-This section introduced the concept of using GPSLogger for Android for collecting GPS traces, uploading traces to OpenStreetMap, and transferring these logs to a PC.  
+Tato sekce představila koncept použití GPSLogger pro Android pro sběr GPS tras, jejich odeslání do OpenStreetMap a přesun do PC.  
 
 
-Official GPSLogger for Android Documentation
+Oficiální dokumentace k GPSLogger pro Android
 --------------------------------------------
 
-The project maintains an [FAQ](http://code.mendhak.com/gpslogger/#faq) for commonly asked questions.
+Projekt poskytuje [FAQ](http://code.mendhak.com/gpslogger/#faq) pro nejčastěji kladené otázky.
 
 [GPSLogger]: /images/mobile-mapping/gpslogger_000.en.png
 [Canvass1]: /images/mobile-mapping/gpslogger_001.en.png
