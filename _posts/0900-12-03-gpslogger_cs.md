@@ -45,8 +45,8 @@ Uživatelské rozhraní
 
 Tlačítko **Menu** poskytuje více možností nastavení aplikace.  
 **Varianty zobrazení** umožňuje nastavit způsob zobrazení informací na obrazovce.  
-Pod tlačítkem **Pomoc** naleznete další informace, jak používat aplikaci.  
-Pomocí tlačítka **Přidat popis** přidáte popis k bodu.  
+Pod tlačítkem **Pomoc** naleznete další informace, jak používat aplikaci. (V nové verzi schováno na konci Menu.)  
+Pomocí tlačítka **Anotace** přidáte popis k bodu.  
 **Zaznamenat jeden bod** vám umožní ručně přidat waypoint.  
 **Odeslání** vám umožňuje vybrat si z různých možností nahrávání logů. Zahrnuje i variantu automatického zasílání na některé z následujících:  
 
