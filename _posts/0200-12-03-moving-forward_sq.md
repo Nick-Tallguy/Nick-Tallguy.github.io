@@ -55,7 +55,7 @@ Klikoni mbi listën ku doni të përfshiheni
 - Tashmë ju duhet të jeni një anëtar i listës së postimeve.  
 - Tani kur të doni të dërgoni një mesazh në listë, ju mund ta dërgoni atë në [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), duke zëvendësuar "id" me shtetin nga lista juaj. Ju gjithashtu do të merni email-et që anëtarët e tjerë dërgojnë në listë.  
 
-<!-- maybe expand and put this back later
+<!-- mbase zgjerojeni dhe kthejeni pas më vonë
 MapOSMatic
 ----------
 

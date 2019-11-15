@@ -9,9 +9,9 @@ category: beginner
 iD Editor
 =============
 
-> Reviewed 2019-06-10
+> Rishikuar 2019-06-10
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+Do filloni të hartëzoni me Tasking Manager për HOT apo MissingMaps etj? Shikoni [HOT-tips section](/sq/hot-tips/).  
 
 - TOC
 {:toc}
@@ -44,22 +44,22 @@ Ndërfaqja me përdoruesin e iD Editor
     Vizato formë (polygon), *shkurtimisht butoni* **3** ![image5][]{: height="24px"}  
     Kthehu pas, *shkurtimisht butonat* **Ctrl+z** ![image6][]{: height="24px"}  
     Ribëje, *shkrutimisht butonat* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    Ruaj ndryshimet, *shkurtimisht butonat* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **Paneli i hartës:** Ky panel tregon funksione të ndryshme të konfigurimit:  
     Zmadhoni, *shkurtimisht butoni* **+** ![image9][]{: height="24px"}  
     Zvogëloni, *shkurtimisht butoni* **-** ![image10][]{: height="24px"}  
     Shkoni tek vendodhja juaj ![image11][]{: height="24px"}  
     Konfiguroni shtresën e sfondit, *shkurtimisht butoni* **b** ![image12][]{: height="24px"}  
     Të dhënat e hartës, *shkurtimisht butoni* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    Çështjet, *shkurtimisht butoni* **i** ![Issues][]{: height="24px"}  
     Hap menunë e ndihmës, *shkurtimisht butoni* **h** ![image13][]{: height="24px"}  
 4. **Paneli i informacionit:** Ky panel shfaq të dhëna të ndryshme, si shiritin e shkallëzimit dhe cilët përdorues kanë kontribuar në atë zonë.  
 
-## Configuring the Background Layer
+## Konfigurimi i Shtresës së Sfondit
 
 Klikoni ikonën për **Cilësimet e sfondit** ose përdorni *shkurtimisht butonin* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Ju mund të **ndryshoni shtresën në sfond** bazuar në mundësuesin e preferuar të imazheve (i parazgjedhur është imazheria nga Bing Aerial).  
 
 Ju mund të shtoni pllakt tuaja në hartë duke klikuar në **Custom**. Për shembull, nvse ju doni të **shtoni një Field Paper** [^fieldpaper], klikoni **Custom** pastaj klikoni në ikonën e lupës zmadhuese (search) për të hapur dritaren pasardhëse:  
 ![image17][]   
@@ -67,9 +67,9 @@ dhe vendosni **FieldPaper snapshot URL** që keni, e cila do të jetë diçka si
 Për të **shfaqur GPS tracks nga kompjuteri juaj** (formati GPX), mereni dhe vendoseni skedarin GPX në iD editor.  
 Për të aktivizuar **OpenStreetMap GPS traces** klikoni në kutinë. Në imazhin më poshtë, gjurmimet GPS publike janë të shfaqura në ngjyra të ndryshme, duke treguar drejtimin e udhëtimit.   
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Për të ndryshuar **paraqitjen e imazherisë** klikoni **Display Options**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Nëse aty ka [imagery offset](/en/josm/aerial-imagery), ju mund ta  **korigjoni offset të imazherisë** duke klikuar **Adjust imagery offset**.  
 ![image18][]  
 
 - Klikoni butonin e navigimit për të lëvizur imazherinë. Klinoni butonin e reset-imit për tu kthyer në pozicionin fillestar. ![image20][]  
@@ -86,7 +86,7 @@ Për të shtuar një pikë të re, klikoni në buttonin **Point**. ![image3][]{:
 - Vini re se një pikë e re është shtuar. Në të njëjtën kohë, paneli në të majtë do të ndryshojë duke shfaqur një formë ku ju mund të zgjidhni atributet për objektin e krijuar. Klikoni **Hospital Grounds** për ta etiketuar pikën si spital.  
 ![image22][]  
 - Ju mund ta përdorni formën për të vendosur informacion të detajuar për pikën tuaj. Ju mund të plotësoni emrin, adresën apo dhe informacione të tjera shtesë për spitalin. Vëreni se secila veçori do të ketë opsione të ndryshme, në varësi të etiketës që ju zgjidhni nga paneli i veçorive (features).  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Nëse ju bëni një gabim, si vendosja e një lokacioni jo në pozicionin e duhur, ju mund ta lëvizni pikën tuaj tek një vendndodhje e re duke mbajtur butonin e majtë të mausit klikuar dhe duke e tërhequr atë. Ose, nëse doni të fshnini një pikë, klikoni maus tek pika, dhe aktivizoni menunë e kontekstit duke klikuar me të djathtën e mausit dhe pastaj klikoni në butonin që duket si kosh plehrash. ![PointToolDelete][]{: height="24px"}  
 Një "pikë" e krijuar në iD editor është aktualisht një "nyje" e vetme me një set "etiketash" në të.  
 
 ### Vizatimi i vijave  
@@ -97,22 +97,22 @@ Për të shtuar një vijë të re, klikoni në butonin **Line**. ![image4][]{: h
 ![image24][]  
 - Ashtu se me pikën, përzgjidhni etiketat e përshtatshme për vijën tuaj.  
 - Ju mund të tërhiqni pikat nga vija duke klikuar me të majtën e mausit në një pikë dhe duke e zvarritur atë.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- Kur ju klikoni me të majtën e mausit në një pikë individuale (node) në vijë dhe klikoni me të djathtën e mausit apo shtypni tastën e hapësirës, ju do shikoni mjetet e mëposhtme:  
+  - Vazhdoni vijën nga kjo pikë  ![PointToolContinue][]{: height="24px"}  
+  - Ndajini vijat në këtë pikë ![PointToolDisconnect][]{: height="24px"}  
+  - Ndajeni një vijë në dy vija në këtë pikë. ![PointToolSplit][]{: height="24px"}  
+  - Fshijeni pikën nga vija. ![PointToolDelete][]{: height="24px"}  
 - Kur klikoni me të djathtën e mausit në një vijë (por jo pikë), do të shihni këto mjete:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   Krijoni një rreth nga vija (aktive vetëm kur vija është e mbyllur) ![LineToolCircularize][]{: height="24px"}  
+  -   Ndajeni vijën nga objektet e tjera ![LineToolDisconnect][]{: height="24px"}  
+  -   Zhvendosni vijën ![LineToolMove][]{: height="24px"}  
+  -   Bëjini katrore të gjithë këndet ![LineToolSquare][]{: height="24px"}  
+  -   Reflektojen vijën përgjatë aksit të shkurtër ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflektojeni vijën përgjatë aksit të gjatë ![LineToolReflectLong][]{: height="24px"}  
+  -   Ndryshoni drejtimin e vijës (është mirë tek lumenjtë & dhe rrugët me një drejtim) ![LineToolReverse][]{: height="24px"}  
+  -   Rrotullojeni vijën rreth qendrës së saj ![LineToolRotate][]{: height="24px"}  
+  -   Drejtojeni vijën ![LineToolStraighten][]{: height="24px"}  
+  -  Fshijeni vijën. ![LineToolDelete][]{: height="24px"}  
 
 Një "vijë" e krijuar në iD editor është aktualisht një "rrugë"" me "etiketa" në të.
 
