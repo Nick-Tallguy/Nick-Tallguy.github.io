@@ -3,7 +3,7 @@ layout: doc
 title: Për më shumë njohuri
 permalink: /sq/beginner/moving-forward/
 lang: sq
-category: fillestar
+category: beginner
 ---
 
 Për më shumë njohuri
