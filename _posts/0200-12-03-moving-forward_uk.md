@@ -16,7 +16,7 @@ category: beginner
 Інший розділ learnOSM
 ---------------------------
 
-У кінці розділу про редактор iD ви чули про різницю між iD та JOSM. Існує [цілий розділ, присвяений JOSM](/en/josm/), де ви можете дізнатися про більше деталей, необхідних для повного використання усіх можливостей, що може запропонувати цей редактор.   
+У кінці розділу присвяченому редактору iD ви чули про різницю між iD та JOSM. Існує [цілий розділ, присвячений JOSM](/en/josm/), де ви можете дізнатися більше деталей, які стануть вам в пригоді щоб скористатись усіма можливостями, які пропонує цей редактор.   
 
 So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
 
