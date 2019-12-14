@@ -1,78 +1,78 @@
 ---
 layout: doc
-title: Подальше читання
+title: Додаткова інформація
 permalink: /uk/beginner/moving-forward/
 lang: uk
 category: beginner
 ---
 
-Подальше читання
+Додаткова інформація
 ===============
 
-> Перевірено 2015-07-12  
+> Редакція 2015-07-12  
 
-Якщо ви це зробили – вітаємо! Тепер ви чудово розумієте, як створювати мапу в OpenStreetMap. Що ще ви можете зробити в OSM? Як ви можете навчитися більшого? Як ви можете долучитися до спільноти маперів?   
+Якщо ви дійшли до цього розділу – прийміть наші привітання! Тепер у вас є достатньо чітке уявлення про те, як створюється мапа OpenStreetMap. Що ж ще можна робити з OSM? Як дізнатися більше? Як залишатися на зв’язку зі спільнотою, іншими маперами?  
 
-Інший розділ learnOSM
+Інші розділи LearnOSM
 ---------------------------
 
-У кінці розділу присвяченому редактору iD ви чули про різницю між iD та JOSM. Існує [цілий розділ, присвячений JOSM](/en/josm/), де ви можете дізнатися більше деталей, які стануть вам в пригоді щоб скористатись усіма можливостями, які пропонує цей редактор.   
+В кінці розділу присвяченому редактору iD ви чули про різницю між iD та JOSM. Існує [цілий розділ, присвячений JOSM](/uk/josm/), де ви можете дізнатися більше деталей, які стануть вам в пригоді щоб скористатись усіма можливостями, які пропонує цей редактор.   
 
-So far, all the edits we added to the map were based on background imagery. But you can collect a wealth of information while walking or driving around. The [section on mobile mapping](/en/mobile-mapping/) explains how to collect information with different GPS-based devices or using specially designed printouts. It also reviews a number of OpenStreetMap-related applications for mobile devices.  
+Поки що, всі зміни які ми робили на мапі були основані на фоновому зображенні. Але ви можете зібрати купу інформації просто гуляючи або подорожуючи. Розділ присвячений [мобільному мапінгу](/uk/mobile-mapping/) розповість як збирати інформацію за допомогою різноманітних пристроїв обладнаних приймачем GPS або спеціально надрукованих матеріалів. Він також описує числені мобільні застосунки пов'язані з OpenStreetMap.  
 
-OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
+OpenStreetMap - це спільні зусилля, і ми сподіваємось, що ви будете їх частиною. Деякі з них спрямовані на гуманітарні потреби під егідою [Гуманітарної команди OSM - HOT](http://hotosm.org). Якщо ви бажаєте допомогти HOT, як це зробило багато людей під час землетрусу в Непалі, зверніться до розділу [спільна робота](/uk/coordination/).    
 
 
-Дізнатися більше
+Дізнайтеся більше
 ----------
 
-There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  
+Багато інформації про OpenStreetMap міститься на [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Тут ви можете знайти інформацію про інші проєкти пов'язані з OpenStreetMap, а також документацію та довідники, які допоможуть вам дізнатись більше про OSM.  
 
 ![Вікі][]
 
 <!-- also more info on this site once it is prepared -->
 
-Mailing List
+Списки розсилки
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
+Найкращим способом підтримання зв’язку зі світовою спільнотою OpenStreetMap є приєднання до одного із локальних списків розсилки. Багато людей підписуються на них використовуючи власну адресу електронної пошти для отримання інформації зі списків розсилки OSM. Після приєднання до списку розсилки ви зможете надсилати листи в групу, щоб обговорити питання, які вас цікавлять, або ж просто обговорювати OpenStreetMap.  
 
-To sign up for your country's mailing list, open your internet browser and go to [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
+Щоб підписатись на розсилку для певної країни, відкрийте ваш веб-оглядач та перейдіть на: [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
 ![Mailing list][]
 
-Scroll down the page to find the list associated with your country. The country lists are named "Talk-lg", where lg represents the country of that list. For example, "Talk-id" is the list for Indonesia.  
+Прогорніть сторінку, щоб знайти розсилку пов’язану з потрібною вам країною. Списки упорядковані за іменами “Talk-lg”, де lg відповідає коду потрібної вам країни. Наприклад, “Talk-id” — список розсилки для Індонезії.  
 
-- Click on the list you want to join.  
-- Enter the following information in the boxes on this page:  
-    +  your email address  
-    +  your first name  
-    +  a new password  
-    +  repeat the password  
-- When you are finished, click Subscribe.
-- Now you need to open your email, just as you did when you signed up for OpenStreetMap. There will be a confirmation email in your inbox from the mailing list.  
-- Click on the confirmation link.  
-- You should now be a member of the mailing list.  
-- Now when you want to send a message to the list, you can send it to [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), replacing "id" with the country for your list. You will also receive emails when other members send a message to the list.  
+- Клацніть на розсилку, до якої ви бажаєте приєднатись.  
+- Введіть наступну інформацію про себе в поля на цій сторінці:  
+    +  адресу електронної пошти  
+    +  ваше ім’я  
+    +  пароль  
+    +  пароль ще раз (для підтвердження)  
+- Після заповнення полів, натіснить Subscribe (Підписатись).
+- Тепер вам потрібно перевірити свою пошту, так само як ви робили реєструючись в OpenStreetMap. Там буде лист для підтвердження підписки.  
+- Перейдить за посиланням в листі, щоб підтвердити вашу підписку.  
+- Тепер ви є членом списку розсилки.  
+- Отже, коли вам треба надіслати повідомлення до списку розсилки, надішліть його на адресу [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), замінюючи “id” на потрібну вам країну. Ви будете також отримувати листи, коли інші будуть писати до списку розсилки.  
 
-<!-- maybe expand and put this back later
+<!-- maybe expand and put this back later 
 MapOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+Один з таких проєктів – MapOSMatic. Ви можете перейти до нього
+у вашому веб-оглядачі за посиланням [maposmatic.org](http://www.maposmatic.org/).
+Це простий інструмент для видруку мап для будь-якою території.
+Він автоматично створить мапу разом із сіткоб поверх
+та індексом для обраної території.
 
 ![MapOSMatic][]
 -->
 
 
-Summary
+Підсумки
 -------
 
-These are some of the ways that you can use and stay connected with the OpenStreetMap community and learn more. We hope you'll continue exploring and learning more about OSM, and contribute to the project. Happy Mapping!
+Існує кілька способів за допомогою яких ви можете підтримувати зв’язок зі спільнотою OpenStreetMap та дізнаватись про новини. Ми сподіваємось, що ви продовжите ваші дослідження та дізнаєтесь більше про OSM та зробите свій внесок у проєкт. Хай вам щастить!
 
 
 [MapOSMatic]: /images/beginner/maposmatic-homepage.png

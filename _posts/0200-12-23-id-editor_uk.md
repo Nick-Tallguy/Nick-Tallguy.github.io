@@ -155,44 +155,44 @@ category: beginner
 
 - Додайте опис ваших право та натисніть **Надіслати**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> У випадку, коли ви змінили той самий об'єкт (точку, лінію або полігон) в той самий час коли його було змінено іншим учасником, ви отримаєте попередження про те, що ваші зміни не можуь бути завантажені на сервер доти, доки ви не роз'яєете **конфлікти** – оберіть яку версію треба залишити та надішліть ваші зміни. *Розв'язання конфліктів часто вимагає прийняття змін зроблених іншими, що вимагатиме від вас повернення до таких об'єктів та їх повторного редагування (**щоб уникати конфліктів надсилайте ваші зміни частіше**).*
 
-Additional Information and Custom Tags
+Додаткова інформація та теґи
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Під час редагування об'єкта ви можете побачити рядок "Додати поле" внизу панелі властивостей об'єкта. Ви можете додати різноманітну інформацію обравши один з варіантів (Шар, Висота над р.м., Вікіпедія й так далі).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Або ж ви можете додати власні теґи в розділі **Всі теґи**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Тут ви можете побачити всі теґи, що їх має виділений об'єкт.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Клацніть на кнопку з хрестиком (+) для того щоб додати новий теґ та його значення, або ж натисніть на значок смітника щоб вилучити теґ.
 
-Further tutorials
+Інші посібники
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[На сторінці з посиланнями на зовнішні ресурси](/uk/resources/#iD) ви можете знайти багато додаткових джерел серед яких відеоуроки та інше.
 
-iD versus JOSM
+iD чи JOSM
 ---------------  
 
-**iD is good for...**
+**iD краще підходить для…**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Простих змін  
+- Якщо у вас швидкісне з'єднання з Інтернет для завантаження фонових знімків та збереження даних  
+- Коли ви використовуєте прості схеми теґування   
+- Коли у вас немає можливості встановити стороннє програмне забезпечення на комп'ютер, яким ви користуєтесь
 
-**JOSM is better...**
+**JOSM краще підходить для…**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Додавання великої кількості будинків (Див. втулок buildings_tool)
+- Редагування великої кількості полігонів та ліній, які раніше були додані іншими учасниками
+- Випадків, коли у вас не дуже надійний зв'язок або ви працюєте офлайн
+- Застосування специфічної схеми теґування об'єктів
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Дивіться [розділ присвячений Field Papers](/uk/mobile-mapping/field-papers/) для отримання докладної інформації.
 
 
 
