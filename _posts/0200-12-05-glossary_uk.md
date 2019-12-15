@@ -59,28 +59,28 @@ category: beginner
 
 **Render, Рендер, Рендерінг** : процес (або інструмент) перетворення даних в зображення. Опрацьовані за допомогою рендера дані перетворюються на мапу.
 
-**SBTF : Stand-By Task-Force** ; an organization which coordinates digital volunteers into a responsive, trained, and prepared network ready to deploy in crises.
+**SBTF : Stand-By Task-Force** ; організація, яка координує цифрових волонтерів з метою швидкого розгортання чутливої, тренованої та підготовленої мережі у відповідь на кризи.
 
 **Slippy Map, Рухома мапа** : Ви бачите її на головній сторінці <http://www.openstreetmap.org> ! Складається з фонового зображення та програмного забезпечення, що надає певну інтерактивність зображенню, дозволяючи робити масштабування та пересування мапи.
 
-**Stylesheet** : In most instances, it means a text file that's used to determine what features (which roads ?) are displayed, and how (what color should the road be ? Its width ? ) on a map.
+**Stylesheet, Стиль** :  в більшості випадків це звичайний текстовий файл з описом того, які об'єкти (напр. дороги) треба показувати, та яким чином (колір, вигляд та товщина ліній дороги) їх зображати.
 
-**Tag**: Tags describe describe a point, line or polygons. Each tag contains a key and value (written in OSM as 'key=value'). For example, highway=residential and name=Woodland Avenue. Initially mentioned in Learnosm within [iD section](/en/beginner/id-editor/#basic-editing-with-id) A Point, line, or polygon usually have more than one tag on them. Sometimes choosing the right tag is confusing. [Taginfo](https://taginfo.openstreetmap.org/) helps you by showing statistics about which tags are actually in the database, how many people use those tags, where they are used and so on. It also gets information about tags from the wiki and from other places.
+**Tag, Теґ**: Теґи описують чим є точки, лінії або полігони. Кожен теґ складається з ключа та його значення (записується в документації як 'key=value'), наприклад highway=residential та name=Woodland Avenue. Вперше згадується в LearnOSM в [розділі iD](/uk/beginner/id-editor/#basic-editing-with-id). Точка, лінія та полігон можуть мати більше одного теґа. Іноді доволі важко визначитись з вибором правильного теґа. Сервіс [Taginfo](https://taginfo.openstreetmap.org/) допоможе вам переглянути статистику щодо використання того чи іншого теґа, як часто і де вони застосовуються. Він також надає інформацію про теґи з Вікі OSM та інших джерел.
 
-**TIGER** : A data source from the US Census Bureau that was imported into OSM, in 2007. This is the source for most data in the USA in OSM.
+**TIGER** : Дані Бюро перепису населення США імпортовані в OSM у 2007. Є джерелом більшості даних про США в OSM.
 
-**Tile** : a small image (256x256 pixels ) of rendered map data.
+**Tile, Тайл** : невеличке зображення (256x256 пікселів) мапи, створеної на основі даних з БД.
 
 **[Way](http://wiki.openstreetmap.org/wiki/Uk:Way), Лінія**: являє собою впорядковану послідовність точок, з'єднаних друг з другом; має принаймні один теґ або є членом зв'язка. Довжина ліні від 2 до 2000 точок. Можлива поява ліній що складаються з однієї точки або не має точок взагалі - це помилкові дані. Лінії можуть бути замкненими та навпаки.  
 
-* A closed way ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) is one whose last node on the way is also the first on that way. A closed way may be interpreted either as a closed polyline, or an area, or both. 
+* Замкнена лінія ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) – ліня перша та остання точки якої є однією точкою. В залежності від теґів, замкненна лінія може представляти полігон або полілінію, або й те і те одночасно. 
 
-* An open way ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) is way describing a linear feature which does not share a first and last node. Many roads, streams and railway lines are open ways.
+* Полілінія ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) – лінія що являє собою лінійний об'єкт, перша та остання точки якої рознесені в просторі. Дороги, струмки, залізничні колії є полілініями.
  
-### Note on OSM Editing Terms:
+### Зауваження до деяких термінів OSM:
 
-Many terms to describe map features in OSM are used in dialects of British English and spelled as such. Like neighbourhood.
+Багато визначень OSM, які стосуються об'єктів мапи, запозичені з британської англійської та використовують ті ж самі правила запису. Наприклад, neighbourhood.
 
-**Motorway**: British English term for the most major highway, also considered as 'freeway'
+**Motorway, Автомагістраль**: Визначення в Британії дороги найвищого класу, в США вона може називатись 'freeway'
 
-**Pitch** : used to describe a playing field. Including tennis courts, basketball courts, baseball diamonds, or football fields.
+**Pitch, майданчик** : використовується для опису ігрового поля, включаючи тенісні корти, баскетбольні майданчики, бейсбольні майданчики або футбольні поля.
