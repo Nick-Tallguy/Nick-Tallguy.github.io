@@ -1,12 +1,12 @@
 ---
 layout: doc
 title: Glosarium 
-permalink: /en/beginner/glossary/
-lang: en
-category: pemula
+permalink: /id/beginner/glossary/
+lang: id
+category: beginner
 ---
 
-Glosarim 
+Glosarium 
 ============
 
 >Glosarium ini dalam proses diperbarui dan telah dikompilasi dari berbagai sumber lain termasuk situs [OpenStreetMap Wiki](http://wiki.openstreetmap.org/wiki/Main_Page) dan panduan ditulis oleh Will Skora. Silakan bantu kami untuk terus memperbaruinya dengan melihat [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) untuk mengetahui bagaimana cara berkontribusi ke dalam website. 
@@ -39,7 +39,7 @@ Untuk mencari Glosarium ini dengan mudah, gunakan fitur pencarian yang ada di da
 
 **GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
 
-**[iD editor](/en/beginner/id-editor/)** - Web-based beginner-friendly OpenStreetMap editor designed by Mapbox. 
+**[iD editor](/id/beginner/id-editor/)** - Editor OpenStreetMap berbasis web serta mudah untuk digunakan yang dibuat oleh Mapbox.  
 
 **IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
 

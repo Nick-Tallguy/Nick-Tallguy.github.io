@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: Pengenalan
-permalink: /en/beginner/introduction/
-lang: en
-category: pemula
+permalink: /id/beginner/introduction/
+lang: id
+category: beginner
 ---
 
 Pengenalan 
@@ -21,19 +21,19 @@ Sebagai latihan, ambil pulpen dan gambar peta kota atau desa dimana Anda tinggal
 
 ![Example of a hand-drawn map][]
 
-If your town is like most, you may have drawn some lines to represent roads, possibly a river or stream. Perhaps you added important buildings such as schools and offices, fields, or boundaries. Whatever you drew, you probably used symbols – a line to symbolize a road, a square to symbolize a building, and so on. Your map is a representation of what is on the ground.
+Jika kota Anda sama seperti kondisi kota pada umumnya, Anda mungkin telah menggambarkan beberapa simbol garis yang menggambarkan jalan atau sungai. Mungkin Anda juga menambahkan bangunan-bangunan penting seperti sekolah, kantor, lapangan, atau batas wilayah. Objek apapun yang Anda gambar di peta, pasti diwakili dengan sebuah simbol - garis untuk menggambarkan jalan, persegi empat untuk menggambarkan bangunan, dan sebagainya. Peta Anda merupakan sebuah penggambaran dari apa yang ada di permukaan bumi. 
 
 ![Examples of symbols][]
 
-Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
+Peta Anda sangat informatif. Anda mungkin akan menggunakan peta seperti ini untuk menjelaskan kepada seseorang mengenai lokasi tertentu, lokasi permasalahan yang ada di komunitas Anda, atau bahkan sekadar membantu seseorang untuk menemukan tujuan mereka. Bagaimanapun, penggunaan peta seperti peta yang Anda gambar sekarang sangatlah terbatas - peta Anda hanya terdapat sebanyak satu lembar. Cara Anda menggambarkan peta tersebut mungkin memudahkan bagi Anda sendiri, namun belum tentu bagi orang lain. Bisa saja orang lain menggambarkan peta mereka dengan cara yang berbeda. Karena peta Anda hanya tergambar di atas secarik kertas, sangatlah sulit untuk membagikan informasi tersebut kepada orang lain. Oleh karena itu, akan lebih tepat jika peta Anda digambarkan menggunakan komputer, dimana terdapat sebauh cara agar orang lain juga dapat mengakses peta Anda.  
 
 ![Mapping on Computer][]
 
-OpenStreetMap is a tool for creating and sharing map information.  Anyone can contribute to OSM, and thousands of people add to the project every day. Users draw maps on computers, rather than paper, but as we will see in this guide, drawing a map on a computer is not all that different from drawing on paper. We still draw lines to represent roads, fields, and anything else, and we still represent schools and hospitals with symbols. The important thing is that OSM maps are saved on the internet, and anyone can access them at any time, totally free.
+OpenStreetMap adalah sebuah alat untuk membuat dan berbagi informasi peta. Semua orang dapat berkontribusi ke dalam OSM, dan ribuan orang terus bergabung setiap harinya. Dengan OSM, para pengguna membuat peta menggunakan komputer, bukan kertas. Meskipun demikian, membuat peta menggunakan komputer kurang lebih memiliki konsep dan prinsip yang sama dengan menggambar peta di atas secarik kertas. Kita masih menggunakan garis untuk menggambarkan jalan, lapangan, dan hal lain, juga kita menggambarkan sekolah dan rumah sakit dengan sebuah simbol persegi. Hal terpenting adalah peta OSM akan tersimpan di internet, dan semua orang dapat mengaksesnya kapanpun, secara gratis. 
 
 ![Digital maps with OpenStreetMap][]
 
-We hope that you will find OpenStreetMap useful and interesting in your work. By following this guide, you should be able to quickly start making digital maps with OpenStreetMap.
+Kami berharap Anda akan melihat bahwa OpenStreetMap sangatlah menarik serta memilki fungsi yang beragam terkait pekerjaan Anda. Dengan mengikuti panduan ini, Anda akan dengan mudah untuk membuat peta digital menggunakan OpenStreetMap. 
 
 
 [A village in Indonesia]: /images/beginner/village-in-indonesia.png

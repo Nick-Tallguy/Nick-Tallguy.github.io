@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: OpenStreetMap.org
-permalink: /en/beginner/start-osm/
-lang: en
+permalink: /id/beginner/start-osm/
+lang: id
 kategori: pemula
 ---
 
@@ -11,7 +11,7 @@ Memulai menggunakan OpenStreetMap.org
 
 > Reviewed 2015-07-12  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+Di bagian ini kita akan belajar langkah demi langkah cara menavigasi situs web OpenStreetMap, melihat peta, dan mendaftar untuk akun pengguna. Setelah Anda memiliki nama pengguna dan kata sandi Anda sendiri, Anda akan dapat berkontribusi untuk titik pertama Anda ke peta.
 
 ![website][]
 
@@ -32,7 +32,7 @@ Navigasikan peta
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+-   Apabila Anda memiliki mouse dengan roda gulir, perbesar dan perkecil tampilan peta dengan cara memutar roda mouse. Apabila Anda tidak mempunyai roda gulir, gunakan tombol + dan - pada ujung kanan atas pada peta (lihat gambar di bawah).
 -   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
@@ -61,36 +61,36 @@ Membuat Akun OpenStreetMap
     ![Registering an OpenStreetMap account][]
 
 - Terdapat lima kotak pada halaman ini yang Anda perlu isi untuk mendaftarkan sebuah akun pada OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-  Ketikkan alamat e-mail pada dua kotak pertama. Anda harus memasukkan alamat email yang sama pada kedua kotak tersebut. Kemudian, Anda perlu membuka email untuk mengkonfirmasi akun OpenStreetMap.
+-   Pada kotak ketiga, masukkan nama pengguna yang ingin anda punya. Anda tidak bisa memilih sebuah nama pengguna yang telah orang lain pilih, jadi harus kreatif. Apabila Anda mencoba dengan sesuatu yang sederhana, seperti nama pertama, seseorang bisa saja telah mengklaim nama tersebut.
+-   Masukkan kata sandi baru pada kotak keempat dan kelima. Anda harus memasukkan kata sandi yang sama pada kedua kotak tersebut. Anda seharusnya *tidak* menggunakan sesuatu yang penting seperti kata sandi email Anda.
+-   Anda mungkin ingin menulis nama pengguna OSM Anda dan kata sandi. Anda akan memerlukannya untuk masuk nanti.
+-   Setelah Anda melengkapi semua kotak, klik "Daftar" pada bagian bawah halaman.
 -   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
--   Have a look at your email.
+-   Lihat pada email Anda.
 -   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
 
     ![Confirming your OpenStreetMap account][]
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+-   Sebuah tab atau jendela akan terbuka. Jika semua berjalan dengan baik, Anda telah memiliki akun OSM!
+-   Pada halaman OpenStreetMap, klik "Masuk" di pojok kanan atas. Masukkan nama pengguna OpenStreetMap dan kata sandi dan tekan Enter. Anda seharusnya sekarang telah masuk. Anda seharusnya melihat nama pengguna di pojok kanan atas halaman.
 
-Adding Your First Points
+Menambahkan Titik Pertama Anda
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
--   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
--   Click “Edit with iD (in-browser editor)”.
+-   Sekarang Anda telah masuk dengan nama pengguna Anda pada situs OpenStreetMap, Anda dapat menggunakan editor iD untuk menambahkan titik pertama pada peta.
+-   Pindahkan tampilan peta menuju tempat yang Anda ketahui dengan baik, seperti kota atau lingkungan tempat tinggal Anda. Ide yang bagus adalah memastikan rumah Anda (atau rumah tetangga Anda) dan tempat kerja digambar dan diberi alamat yang benar. 
+-   Perbesar tampilan ke tempat dimana Anda ingin menambahkan titik pada peta (mungkin sebuah rumah makan atau toko grosir terdekat Anda yang belum dipetakan)
+-   Tepat di atas peta di sebelah kiri, ada tab bernama "Edit" dengan segitiga kecil di sampingnya. Klik segitiga kecil. Anda akan melihat menu drop down.
+-   Klik “Edit menggunakan iD (editor in-browser)”.
 
     ![Click edit][]
 
--   The online editor, named iD, should open. It will look something like this.
+-   Editor online, namanya adalah iD, seharusnya terbuka. Itu akan terlihat seperti ini.
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+-   Anda dapat menambahkan titik pada peta dengan klik tombol dengan nama "Titik" pada bagian atas jendela. Lalu klik pada peta dimana Anda ingin menambahkan titik baru.
 
     ![Point button][]    
 
