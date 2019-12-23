@@ -9,7 +9,7 @@ category: beginner
 iD Editor
 =============
 
-> Reviewed 2019-06-10
+> 2019-06-10
 
 Ingin mulai memetakan menggunakan Tasking Manager untuk HOT atau MissingMaps? Lihat [HOT-tips section](/en/hot-tips/).  
 
@@ -79,17 +79,17 @@ Editing Dasar dengan iD Editor
 
 ### Menambahkan Titik  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Untuk menambahkan titik baru, klik pada tombol **Titik**. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Kursor mouse Anda akan berubah menjadi tanda plus (+). Sekarang, klik pada posisi dimana Anda menandai sebuah lokasi. Sebagai contoh, jika Anda mengetahui lokasi Rumah Sakit di area anda, klik pada posisi bangunan rumah sakit tersebut.   
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Perhatikan bahwa sebuah titik baru telah ditambahkan. Di saat yang bersamaan, panel di sebelah kiri Anda akan menampilkan formulir dimana Anda dapat memilih atribut objek. Klik **Hospital Grounds** untuk menandai titik tersebut sebagai rumah sakit.   
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Anda dapat menggunakan formulir ini untuk mengisi informasi detail tentang titik Anda. Anda dapat mengisi nama rumah sakit, alamat, dan/atau informasi tambahan lainnya. Perhatikan bahwa setiap fitur akan memiliki pilihan yang berbeda, tergantung pada tag apa yang Anda pilih dari panel fitur.   
+- Jika Anda membuat kesalahan, seperti kesalahan lokasi, Anda dapat memindahkan titik Anda ke lokasi yang benar dengan cara menekan dan menahan tombol klik kiri mouse pada titik yang ingin Anda pindahkan kemudian geser titik tersebut. Atau, jika Anda ingin menghapus titik, kllik kiri mouse Anda pada titik yang diinginkan, kemudian aktifkan menu tambahan dengan menekan tombol klik kanan dan pilih tombol dengan gambar tempat sampah. ![PointToolDelete][]{: height="24px"}  
 A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
 
-### Drawing Lines  
+### Menggambar Garis  
 
 To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
 

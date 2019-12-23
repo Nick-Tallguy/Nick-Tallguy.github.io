@@ -44,24 +44,24 @@ Jika bangunan tergambar dengan bentuk persegi tetapi Anda melihat bangunan terse
 Identifikasi
 ---------------
 
-Round buildings are often found within a compound, and the buildings may be in clusters, or in isolation. It can be difficult to establish if you are looking at a round building or a bush or rock. Buildings are usually found near some means of access such as a path or track, although this can be difficult to see on very hard ground. The vegetation may be worn down by the passage of feet. In some parts of the world the buildings may be on the only dry land, and the access is by boat on a river or lake. There is normally a water source visible within 2 or 3 kilometres of any habitation, but in many parts of the world you do not see the water, but you do see more vegetation to indicate it must be there.  
+Bangunan bundar sering ditemukan di dalam suatu kamp, dan bangunan itu mungkin berada dalam kelompok, atau terisolasi. Mungkin sulit untuk melihat jika Anda melihat bangunan mirip dengan semak atau batu. Bangunan biasanya ditemukan di dekat beberapa sarana akses seperti jalan setapak atau jalur, meskipun ini bisa sulit dilihat di citra satelit yang tidak jelas. Jalan setapak dapat dibentuk seiring dengan  berlalunya kaki manusia pada semak belukar. Di beberapa bagian dunia bangunan-bangunan itu mungkin berada di satu-satunya tanah yang kering, dan aksesnya adalah dengan perahu di sungai atau danau. Biasanya ada sumber air yang terlihat dalam 2 atau 3 kilometer dari tempat tinggal mana pun, tetapi di banyak bagian dunia Anda tidak melihat air, tetapi Anda melihat lebih banyak vegetasi untuk menunjukkan bahwa itu pasti ada di sana.  
 
-In many places in the world it is easier to build a new village a short distance from the old one, leaving the old buildings to rot away and fall down - sometimes they are destroyed by fire. Look for shadows to help you decide what you are looking at. If all that is left is a round mark on the ground, it will have no shadow. **If in doubt add it as a building.**  
+Di beberapa tempat di dunia, mudah untuk membangun sebuah desa baru dalam jarak yang tidak jauh dari lokasi lama, meninggalkan bangunan tua hingga lapuk dan hancur - terkadang hancur karena api. Lihat bayangan untuk memudahkan Anda mengidentifikasi apa yang Anda cari. Jika yang tersisa adalah bentuk rangka, ini tidak akan meninggalkan bayangan. **Jika tidak yakin tambahkan sebagai bangunan.**  
 
 ![bush-and-round-building][]  
-This image shows both a bush and a round building. Shadows can help you to identify if you are looking at a round building, or a bush. In hot climates it is common to find buildings close to trees or bushes which will provide shelter and shade. The instructions to this particular task include a [link to a diary entry](https://www.openstreetmap.org/user/IvanGayton/diary/38612) by someone who has taken photographs of the buildings in the area, and gives a description. Please take the time to read this information. Round buildings can have slightly different construction materials in other areas of the world, and their roofs will appear different - the project instructions will often include guides to help you understand what you are seeing.  
+Gambar ini menjelaskan antara semak dan bangunan bundar. Bayangan dapat membantu Anda untuk mengidentifikasi apakah Anda melihat bangunan atau semak. Pada iklim panas, sering ditemui bangunan yang berjarak dekat dengan pohon atau semak yang akan menyediakan tempat berlindung yang teduh. Instruksi task ini termasuk dalam  [link ke catatan](https://www.openstreetmap.org/user/IvanGayton/diary/38612) yang dibuat oleh seseorang yang mengambil foto bangunan dalam sebuah area dan memberikan deskripsi. Harap luangkan waktu untuk membaca informasi ini. Bangunan bundar bisa memiliki konstruksi material yang berbeda dibandingkan bangunan lain dan atap mereka juga berbeda - instruksi proyek akan membantu Anda untuk memahami apa yang Anda cari.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+Lakukan apa yang terbaik menurut anda - bahkan seorang ahli juga bisa tidak setuju sewaktu-waktu, dan kadang dibutuhkan survey lapangan untuk melihat apa yang ada disana. **Jika masih tidak yakin sebagai bangunan.**  
 
-Building Tags
+Tag Bangunan
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if scroll to the bottom of the tagging pane and click on **All tags**.
+Karena kita memberikan informasi bangunan yang kita belum pernah kunjungi atau tidak familiar, opsi yang paling aman dan direkomendasikan adalah dengan menggunakan **building**=**yes** untuk setiap objek yang Anda kira bangunan, lihat bagian bawah dari panel tagging dan klik pada **All tags**
 
-See also  
+Lihat lebih lanjut  
 ---------
 
-[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+[Catatan Ivan Gayton untuk Hadjer Lamis, Chad - komen dari pengguna lain menunjukkan deskripsi sesuai](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
 

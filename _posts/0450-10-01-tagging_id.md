@@ -20,36 +20,36 @@ Tagging - iD editor
 Mengapa Tag diperlukan
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+Tanpa tag objek tersebut tidak memiliki arti dan peta tidak akan menampilkan. Tag menjelaskan kepada komputer apa fitur yang sebenarnya. Jika Anda menemukan objek yang tidak memiliki tag, silahkan tambahkan tag. Jika sebuah objek memiliki tag, objek tersebut akan memiliki warna, seperti merah untuk tag bangunan seperti pada gambar di atas. **Jika berwarna putih, selidiki dan tambahkan tag jika belum ada.**  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+Pembuat projek di Tasking Manager tidak tahu alat edit apa yang akan digunakan oleh pembuat peta, maka instruksinya biasanya ditemukan komentar seperti ini;  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+- *Bangunan umumnya berbentuk pondok bundar dan seharusnya diberikan tag sebagai **Building Features / Building** di iD dan **building=yes** in JOSM.*  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+Jika Anda perlu memeriksa tag apa yang sebenarnya ada pada suatu objek, klik pada objek, lalu gulir ke bagian bawah panel tag dan lihat di bawah **All Tag**
 
-### Tags - a brief explanation ###
+### Tags - penjelasan singkat ###
 
-If you select an item and click on **All tags** you will see a label such as  
+Jika Anda memilih objek dan klik pada **All tags** Anda akan melihat label seperti   
 
-**building    yes**  
+**building yes**  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+Ini adalah tag paling dasar untuk bangunan, dan ini adalah tag yang direkomendasikan ketika menggambar bangunan dari task pada Tasking Manager  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
-  **building   house**  
-  **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+Jika Anda tau bangunan apa itu, maka Anda dapat menggunakan tag yang lebih rinci seperti;  
+  **building house**  
+  **building school**  
+atau satu dari banyak tag. Untuk info lebih lanjut mengenai tag bangunan silakan lihat <https://wiki.openstreetmap.org/wiki/Buildings>  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+Lihat [Highways section of this HOT-tips section](/en/hot-tips/highways/) untuk informasi lebih lanjut mengenai tag jalan raya.  
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### Relations - seperti bangunan dengan halaman atau pulau di sungai ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+Beberapa fitur memiliki tag pada **Relation** bukan pada fiturnya sendiri. Jika Anda melihat pada layar Anda menyebutkan relation, sebagai pemula masukan terbaik adalah 'tinggalkan saja'.  
 
-For more information on relations (**not a beginner subject**) see;  
+Untuk informasi lebih lanjut mengenai relations (**bukan materi untuk pemula**) lihat;  
 
 [LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
 <https://wiki.openstreetmap.org/wiki/Relation>

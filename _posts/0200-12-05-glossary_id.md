@@ -16,16 +16,16 @@ Untuk mencari Glosarium ini dengan mudah, gunakan fitur pencarian yang ada di da
 
 **3W** : Who, What, Where;  Who does What, Where?  
 
-**AAR** : After Action Review;  A group activity to evaluate an exercise or activity to learn and improve.
+**AAR** : After Action Review;  Aktifitas grup untuk mengevaluasi sebuah kegiatan atau aktifitas untuk dipelajari dan ditingkatkan.
 
-**Activation (HOT term)** : Sometimes referred to as a crisis, disaster, or emergency response and generally characterized by a specific event and/or anticipated humanitarian impact with a relatively shorter time-frame associated with the response and recovery phases of the disaster cycle than a longer-term Humanitarian Project.
+**Activation (HOT term)** : Terkandang merujuk pada kondisi krisis, bencana, atau respon darurat dan umumnya memiliki karakteristik dengan kejadian yang spesifik dan/atau diantisipasi dengan dampak kemanusiaan dengan jangka waktu relatif singkat dan diasosiasikan dengan fase respon dan pemulihan dari siklus kebencanaan dibandingkan dengan proyek kemanusiaan.
 
-**Activator(s)** : HOT volunteers who have completed training and are endorsed by an existing activator to perform roles during events. 
+**Activator(s)** : Volunter HOT yang telah menyelesaikan pelatihan dan di setujui oleh activator yang sudah ada untuk melaksanakan peran saat kejadian. 
 
-**AOI : Area of Interest** ; defined by activation coordinators in consultation with humanitarian partners, field teams and HOT community in wake of a disaster.
+**AOI : Area of Interest** ; didefinisikan oleh koordinator aktivasi konsultasi dengan partner kemanusiaan, tim lapangan, dan komunitas HOT saat kejadian bencana.
 
 
-**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: A group of changes that you made to OSM data. Once uploaded to OSM, your edits are instantly available to others if they download them. They may take a few minutes or several hours to appear on the map.
+**[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: sekelompok perubahan yang Anda lakukan pada data OSM. Saat diupload ke OSM, perubahan Anda secara langsung tersedia dan bisa dilihat oleh semua orang. Membutuhkan beberapa menit atau jam untuk bisa muncul pada peta.
 
 **COD : Common Operational Database** ; Comprises the geographical data for multiple humanitarian activations. These are mainly: transportation network (roads, bridges/fords, ports etc.), populated places (settlements), administrative boundaries, hydrology (rivers and other bodies of water) and hypsography (elevations/contours). May include buildings as an indirect source of population statistics.  Used by the United Nations Office for the Coordination of Humanitarian Affairs.
 

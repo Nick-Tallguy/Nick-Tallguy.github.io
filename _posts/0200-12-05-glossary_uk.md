@@ -35,9 +35,9 @@ category: beginner
 
 **[Field Papers](/uk/mobile-mapping/field-papers/), Польові дослідження, Обхідні листи**: веб інструмент для простого створення друкованих мап будь-якої частини світу, які можна видрукувати та використовувати для додавання на них нотаток. Відвідайте сайт [http://fieldpapers.org/](http://fieldpapers.org/) щоб дізнатись більше. 
 
-**FOD : Fundamental Operational Database** ; data that is specific for to activation i.e. health facilities, schools, water facilities, flood extents, building damages, etc.
+**FOD : Fundamental Operational Database** ; дані, які використовуються для активації, інформація про лікарні, школи, доступ до води, інформація про підтоплення та руйнування осель, й т.д.
 
-**GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
+**GDACS :  Global Disaster Alert and Coordination System** ; GDACS – інфраструктура під егідою Організації Об'єднаних націй для координування спільних дій. Вона складається з операційний менеджерів та інформації про стихійні лиха метою діяльності яких є усунення прогалин на перших етапах реакції на катастрофи. GDACS надає доступ в режимі реального часу до інформаційної системи та системи координації зусиль.
 
 **[Редактор iD](/uk/beginner/id-editor/)** - веб-редактор OpenStreetMap, з дружнім інтерфейсом, створений Mapbox. 
 
@@ -51,7 +51,7 @@ category: beginner
 
 **[Node](http://wiki.openstreetmap.org/wiki/Uk:Node), Точка**: точки ґ базовим елементом моделі даних OpenStreetMap. Точка характеризується координатами та своїм ідентифікатором. Точки використовуються для позначення точкових об'єктів, а також використовуються для створення фігур, утворюючи вершини відрізків.
 
-**OCHA : United Nations Office for the Coordination of Humanitarian Affairs** ; OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies. OCHA also ensures there is a framework within which each actor can contribute to the overall response effort.
+**OCHA : United Nations Office for the Coordination of Humanitarian Affairs** ; OCHA – є складовою Секретаріату Організації Об'єднаних Націй відповідальною за об'єднання гуманітарних суб'єктів для забезпечення послідовного реагування на надзвичайні ситуації. OCHA також підтримує інфраструктуру, в межах якої кожен учасник може внести свій внесок у загальні зусилля щодо реагування.
 
 **POC : Point of Contact, Контактна особа** ; особа(и) до якої ви можете звернутись із запитами на отримання інформації та координування.
 

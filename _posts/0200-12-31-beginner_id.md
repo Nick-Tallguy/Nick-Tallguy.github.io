@@ -11,7 +11,7 @@ nosearch: true
 Panduan Bagi Pemula
 ================
 
-> Reviewed 2015-07-12  
+> 2015-07-12  
 
 Panduan ini menjelaskan tentang langkah-langkah yang perlu Anda lakukan untuk mulai menggunakan OpenStreetMap. Anda akan belajar bagaimana cara membuat akun, menggunakan software pemetaan tingkat dasar, dan di bagian yang akan datang Anda akan belajar bagaimana cara pengumpulan data lapang untuk dimasukan ke dalam peta.  
 

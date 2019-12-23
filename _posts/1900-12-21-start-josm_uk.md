@@ -1,25 +1,25 @@
 ---
 layout: doc
-title: Getting Started with JOSM
+Знайомство з JOSM
 permalink: /uk/josm/start-josm/
 lang: uk
 category: josm
 published: true
 ---
 
-Getting Started with JOSM
+Знайомство з JOSM
 =============================  
 
 > Редакція 2015-07-12  
 
-How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and
-learn some of the basic operations of the software. Remember in the
-introduction chapter when we asked you to draw a map of your town or
-village? We will conclude this chapter by drawing your map again, this
-time digitally. After this you should have a good understanding of how
-to draw maps in JOSM.
+Як завантажити та встановити JOSM, редактор OpenStreetMap написаний мовою Java, налаштувати його під власні потреби, завантажити тестову мапу та  
+дізнатись про базові принципи редагування.
+Пам'ятаєте у розділі Вступ ми просили вас накреслити мапу вашого міста або села?
+Ми закінчимо креслення вашої мапи в кінці цього розділу, але цього разу це буде мапа в цифровому вигляді.
+Після того, як ви закінчите, ви будете мати добре уявлення про те,
+як редагувати дані в JOSM.
 
-Download JOSM
+Завантаження JOSM
 -------------
 
 - If you have a copy of JOSM on a CD or usb flash drive, you can skip
