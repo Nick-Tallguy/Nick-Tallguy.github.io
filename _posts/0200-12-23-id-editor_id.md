@@ -45,11 +45,11 @@ Tampilan Antar Muka iD Editor
     Undo, *tombol pintas* **Ctrl+z** ![image6][]{: height="24px"}  
     Redo, *tombol pintas* **Ctrl+y** ![image7][]{: height="24px"}  
     Simpan perubahan, *tombol pintas* **Ctrl+s** ![image8][]{: height="32px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
+3. **Panel Peta;** Panel ini memperlihatkan berbagai fungsi konfigurasi:  
+    Perbesar tampilan, *shortcut key* **+** ![image9][]{: height="24px"}  
+    Memperkecil tampilan, *shortcut key* **-** ![image10][]{: height="24px"}  
+    Pergi ke lokasi Anda ![image11][]{: height="24px"}  
+    Konfigurasikan latar belakang , *shortcut key* **b** ![image12][]{: height="24px"}  
     Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
     Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
@@ -91,45 +91,45 @@ A "point" created in the iD editor is actually a standalone "node" with a set of
 
 ### Menggambar Garis  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Untuk menambahkan garis, klik pada tombol **Garis**. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+-  Kursor mouse Anda akan berubah menjadi tanda plus (+). Cari objek jalan yang belum digambarkan di peta lalu gambarkan objek jalan tersebut. Klik satu kali pada titik dimana segmen jalan tersebut dimulai, gerakan mouse Anda, dan klik lagi untuk menambahkan titik berikutnya Klik dua kali untuk mengakhiri proses menggambar. Perhatikan panel yang ada di sebelah kiri.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+- Sama seperti objek titik, pilih tag yang sesuai untuk objek garis Anda.   
+- Anda dapat menggeser titik yang ada pada objek garis dengan meng-klik kiri mouse Anda pada titik yang dituju lalu geser titik tersebut.  
+- Ketika Anda klik kiri mouse pada titik di objek garis, klik kanan pada mouse atau tekan tombol spasi untuk mengaktifkan menu tambahan, seperti berikut:  
+  - Melanjutkan garis dari titik ini ![PointToolContinue][]{: height="24px"}  
   - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
+  - Membagi garis menjadi dua pada titik ini. ![PointToolSplit][]{: height="24px"}  
+  - Menghapus titik dari garis. ![PointToolDelete][]{: height="24px"}  
+- Ketika Anda klik kiri mouse pada sebuah garis (bukan pada titik dari garis), Anda akan melihat beberapa alat seperti berikut:  
+  -   Membuat lingkaran dari garis (hanya aktif jika garis tertutup) ![LineToolCircularize][]{: height="24px"}  
+  -   Memutuskan garis dari objek lain ![LineToolDisconnect][]{: height="24px"}  
+  -   Memindahkan garis ![LineToolMove][]{: height="24px"}  
   -   Square all corners ![LineToolSquare][]{: height="24px"}  
   -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
   -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   Memutarbalikan arah garis (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
+  -   Memutar garis pada pusatnya ![LineToolRotate][]{: height="24px"}  
+  -   Meluruskan garis ![LineToolStraighten][]{: height="24px"}  
+  -   Menghapus garis. ![LineToolDelete][]{: height="24px"}  
 
 A "line" created in the iD editor is actually a "way" with "tags" on it.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+>Catatan khusus tentang **Menghapus**: Umumnya Anda harus menghindari untuk menghapus hasil pemetaan orang lain jika objek tersebut hanya butuh sedikit perbaikan. Anda dapat menghapus hasil kesalahan Anda sendiri, tapi sebaiknya Anda harus *memperbaiki* objek hasil pemetaan orang lain jika dibutuhkan. Hal ini menjaga rekam jejak dari objek yang ada di database OSM dan juga untuk menghargai sesama pemeta. Jika Anda merasa bahwa sebuah objek benar-benar harus dihapus, harap pertimbangkan untuk menanyakannya dulu kepada si pembuat atau salah satu daftar email OSM yang tersedia. 
 
-### Drawing Shapes (Polygons)
+### Menggambar Area (Poligon)
 
 To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- Kursor mouse Anda akan berubah menjadi tanda plus (+). Cobalah untuk menggambar bangunan menggunakan citra satelit sebagai panduan Anda.   
+- Anda akan melihat bahwa perubahan warna dari bentuk yang Anda gambar akan bergantung pada atribut yang Anda berikan.   
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Alat-alat yang digunakan adalah akan tersedia jika Anda memilih sebuah poligon dan mengaktifkan menu tambahan dengan mengklik tombol klik kanan pada mouse.   
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+Sebuah "poligon" dalam iD editor adalah sebuah "garis yang tertutup" dengan tag di dalamnya.
 
-### Drawing Multipolygons
+### Menggambar Multipoligon
 
 Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
 
@@ -141,56 +141,56 @@ When you select any of the contours of the newly created multipolygon you can se
 
 ## Issues
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+Editor akan melakukan pengecekan ketika Anda melakukan suatu perubahan. Jika editor menganggap bahwa terjadi masalah pada data Anda, editor akan memberitahukan hal tersebut di tab isu. Kapanpun ikon isu pada sebelah kanan memunculkan warna titik kuning (untuk warning) atau titik merah (untuk eror) Anda sebaiknya membuka tab isu dan lihat laporan apa yang tersedia. Informasi ini juga akan muncul pada tab fitur objek di sebelah kiri jika sebuah objek sedang terpilih. Anda juga akan diberi peringatan apabila terdapat masalah yang belum diselesaikan saat Anda ingin mengunggah data. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+Bagian bawah dari tab isu menunjukkan beberapa aturan yang tersedia dan memungkinkan Anda untuk menon-aktifkan nya jika Anda rasa hal tersebut tidak sesuai. 
 
-Saving Your Changes
+Menyimpan Perubahan
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Jika Anda ingin menyimpan hasil perubahan Anda ke dalam OpenStreetMap, klik tombol **Save**. Panel di sebelah kiri akan menampilkan panel unggah (upload).  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Tulis komentar Anda mengenai hasil edit Anda dan klik **Simpan**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Jika anda melakukan perubahan terhadap objek yang sama (titik, garis atau area) dengan orang lain, Anda akan menerima pemberitahuan bahwa hasil perubahan Anda tidak dapat diunggah sampai Anda dapat menyelesaikan **konflik** - pilih hasil perubahan siapa yang ingin diterapkan & unggah perubahan Anda. *Menyelesaikan konflik seringkali melibatkan orang lain untuk menerima hasil perubahan orang lain, dimana Anda mungkin berharap hal ini tidak terjadi sehingga anda bisa memetakan objek lain (**kali ini simpan segera hasil perubahan Anda dan cobalah untuk menghindari konflik dengan data milik orang lain!**).*
 
-Additional Information and Custom Tags
+Informasi Tambahan dan Penyesuaian Tag
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Ketika Anda memetakan sebuah objek, Anda akan melihat menu "Add Field" di bagian bawah dari panel atribut. Anda dapat menambahkan berbagai macam informasi tambahan dengan memilih salah satu isian (layer, ketinggian, wikipedia etc.).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Atau Anda dapat menambahkan tag tertentu dengan cara meng-kllik tombol **All tags**. ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- Ini akan menampilkan seluruh tag terkait fitur tersebut.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Klik tanda plus (+) untuk menambahkan key dan value atau klik tombol tempat sampah untuk menghapus tag. 
 
-Further tutorials
+Tutorial lebih lanjut
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[Halaman luar kami](/id/resources/#iD) menyediakan tautan ke video tutorial dari berbagai macam sumber.
 
 iD versus JOSM
 ---------------  
 
-**iD is good for...**
+**iD baik digunakan untuk...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Ketika Anda melakukan edit sederhana  
+- Ketika Anda memiliki internet yang cepat untuk memuat citra satelit dan menyimpan hasil perubahan  
+- Ketika Anda ingin mengikuti skema tagging yang simpel dan konsisten  
+- Ketika Anda memiliki keterbatasan untuk melakukan instalasi program pada komputer yang Anda gunakan
 
-**JOSM is better...**
+**JOSM lebih baik...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Ketika Anda menambahkan banyak bangunan (Lihat buildings_tool plugin)
+- Ketika Anda mengedit banyak poligon atau garis yang sudah ada
+- Ketika Anda berada pada koneksi internet yang buruk atau bahkan offline
+- Ketika Anda menggunakan skema tagging yang spesifik (atau bahkan preset buatan sendiri)
 
 [^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
 

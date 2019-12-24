@@ -51,16 +51,16 @@ Beberapa fitur memiliki tag pada **Relation** bukan pada fiturnya sendiri. Jika 
 
 Untuk informasi lebih lanjut mengenai relations (**bukan materi untuk pemula**) lihat;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
+[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) yang menjelaskan relation tetapi menggunakan OSM editor yang berbeda, atau  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
-See also  
+Lihat juga  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+Untuk daftar tag yang lebih komprehensif, lihat <https://wiki.openstreetmap.org/wiki/Map_Features>  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - Video Tutorial dalam Satu Menit")  
+"Terjemahan tersedia di beberapa bahasa"  
 
 
 
@@ -69,4 +69,4 @@ For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/M
 [tagging]:/images/hot-tips/tagging.gif
 [keymon]:/images/hot-tips/keymon.png
 [tagged-building]:/images/hot-tips/tagged-building.png
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Satu menit Video Tutorial oleh Humanitarian OpenStreetMap Team"

@@ -33,7 +33,7 @@ Navigasikan peta
     ![Mouse navigation][]
 
 -   Apabila Anda memiliki mouse dengan roda gulir, perbesar dan perkecil tampilan peta dengan cara memutar roda mouse. Apabila Anda tidak mempunyai roda gulir, gunakan tombol + dan - pada ujung kanan atas pada peta (lihat gambar di bawah).
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+- Untuk mencari tempat, klik kiri di kotak berlabel "Cari" di sisi kiri halaman (lihat gambar di atas). Ketikkan nama kota atau desa Anda dan tekan Enter. Sebuah jendela akan muncul di sebelah kiri peta dengan hasil pencarian Anda. Klik pada lokasi yang terlihat seperti yang Anda inginkan. Peta akan secara otomatis pindah ke lokasi yang Anda pilih.
 
     ![Search][]
    
@@ -41,7 +41,7 @@ Navigasikan peta
 Lihat Berbagai Gaya Peta
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+OpenStreetMap berisi data geografis dari seluruh dunia. Meskipun ini adalah database tunggal, data dapat ditafsirkan dan ditata dengan cara yang berbeda. Untuk melihat ini, mari kita lihat berbagai "gaya" peta yang tersedia di situs web OSM.
 
 - Klik pada tombol Lapisan di samping kanan jendela peta.
 
@@ -106,7 +106,7 @@ The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find 
 
 However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
-Summary
+Ringkasan
 -------
 
 Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.

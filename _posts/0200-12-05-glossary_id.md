@@ -27,51 +27,51 @@ Untuk mencari Glosarium ini dengan mudah, gunakan fitur pencarian yang ada di da
 
 **[Changeset](http://wiki.openstreetmap.org/wiki/Changeset)**: sekelompok perubahan yang Anda lakukan pada data OSM. Saat diupload ke OSM, perubahan Anda secara langsung tersedia dan bisa dilihat oleh semua orang. Membutuhkan beberapa menit atau jam untuk bisa muncul pada peta.
 
-**COD : Common Operational Database** ; Comprises the geographical data for multiple humanitarian activations. These are mainly: transportation network (roads, bridges/fords, ports etc.), populated places (settlements), administrative boundaries, hydrology (rivers and other bodies of water) and hypsography (elevations/contours). May include buildings as an indirect source of population statistics.  Used by the United Nations Office for the Coordination of Humanitarian Affairs.
+**COD : Common Operational Database** ; Kompromi data geografi untuk beberapa aktivasi kemanusiaan. Hal ini seperti: jaringan transportasi (jalan, jembatan, pelabuhan, etc), area pemukiman, batas administrasi, hidrologi (sungai atau badan air) dan hipsografi (ketinggian / kontur). Bisa termasuk bangunan sebagai salah satu sumber tidak langsung untuk statistik populasi. Digunakan oleh UN untuk koordinasi kepentingan kemanusiaan.
 
-**DHN : Digital Humanitarian Network** ; organization which leverages digital network for humanitarian response.
+**DHN : Digital Humanitarian Network** ; organisasi yang mengutamakan jaringan digital untuk respon kemanusiaan
 
-**Extract** : [OSM Data Overview](/en/osm-data/data-overview/) A large chunk of OSM data for a specific area (like a state, country, or geographic area).
+**Extract** : [OSM Data Overview](/en/osm-data/data-overview/) untuk data OSM di area spesifik (seperti kota, kabupaten, atau area geografis).
 
-**[Field Papers](/en/mobile-mapping/field-papers/)**: is a web-based tool for easily creating a printable map atlas for anywhere in the world that you can print and add notes to. See [http://fieldpapers.org/](http://fieldpapers.org/) for more details. 
+**[Field Papers](/en/mobile-mapping/field-papers/)**: merupakan alat untuk memudahkan dalam pembuatan peta cetak untuk semua tempat didunia yang bisa Anda print dan tambahkan catatan pada peta tersebut. Lihat  [http://fieldpapers.org/](http://fieldpapers.org/) untuk detail lebih lanjut. 
 
-**FOD : Fundamental Operational Database** ; data that is specific for to activation i.e. health facilities, schools, water facilities, flood extents, building damages, etc.
+**FOD : Fundamental Operational Database** ; data yang secara spesifik untuk aktivasi seperti fasilitas kesehatan, sekolah, fasilitas air bersih, batas banjir, kerusakan bangunan, dsb.
 
-**GDACS :  Global Disaster Alert and Coordination System** ; GDACS is a cooperation framework under the United Nations umbrella. It includes disaster managers and disaster information systems worldwide and aims at filling the information and coordination gap in the first phase after major disasters. GDACS provides real-time access to web‐based disaster information systems and related coordination tools.
+**GDACS :  Global Disaster Alert and Coordination System** ; GDACS adalah kerangka korporasi dibawah payung UN. Ini termasuk manajemen bencana dan sistem informasi bencana global dan ditujukan untuk mengisi gap informasi dan koordinasi dalam fase pertama setelah bencana besar. GDACS menyediakan akses real-time dan sistem informasi bencana digital dan alat koordinasi.
 
 **[iD editor](/id/beginner/id-editor/)** - Editor OpenStreetMap berbasis web serta mudah untuk digunakan yang dibuat oleh Mapbox.  
 
-**IDP : Internally Displaced Person** ; is a person that is forced to flee his or her home while continuing to remain within their country's borders.
+**IDP : Internally Displaced Person** ; adalah penduduk yang dipaksa untuk kabur dari rumah mereka namun masih didalam negara.
 
-**[JOSM](https://josm.openstreetmap.de/)** pronounced "Jaws-um", OpenStreetMap editor written in Java. 
+**[JOSM](https://josm.openstreetmap.de/)** dibaca "Jaws-um", editor OpenStreetMap berbasis Java. 
 
-**[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: A data source that's displayed on a slippy map (often is thought of as a group of tiles stitched together).
+**[Layer](http://wiki.openstreetmap.org/wiki/Layer)**: Sumber data yang ditampilkan dalam peta geser (juga sering disebut kelompok kotak yang satukan bersama-sama).
 
-**NGO : Non Govermental Organisation / Agency** ; primarily a not for profit compulsory group of citizens who are organized on a local, national or international level.  
+**NGO : Non Govermental Organisation / Agency** ; utamanya disebut sebagai organisasi non profit yang di atur dalam skala lokal, nasional, atau internasional.  
 
-**[Node](http://wiki.openstreetmap.org/wiki/Node)**: A node is one of the core elements in the OpenStreetMap data model. It consists of a single point in space defined by its latitude, longitude and node id. Nodes can be used to define standalone point features, but are more often used to define the shape or "path" of a way.
+**[Node](http://wiki.openstreetmap.org/wiki/Node)**: elemen utama di model data OpenStreetMap. Terdiri dari satu titik dalam ruangan yang didefinisikan oleh lintang, bujur, dan id titik. Titik/node bisa digunakan untuk mendefinisikan sebuah fitur berupa titik, namun juga bisa ditemui untuk mendefinisikan sebuah bentuk area atau garis.
 
-**OCHA : United Nations Office for the Coordination of Humanitarian Affairs** ; OCHA is the part of the United Nations Secretariat responsible for bringing together humanitarian actors to ensure a coherent response to emergencies. OCHA also ensures there is a framework within which each actor can contribute to the overall response effort.
+**OCHA : United Nations Office for the Coordination of Humanitarian Affairs** ; OCHA merupakan bagian dari sekretarian UN yang bertugas untuk membawa bersama aktor kemanusiaan untuk menjamin kelancaran respon kemanusiaan. OCHA selalu memastikan bahwa ada kerangka didalam setiap aktor yang bisa berkontribusi untuk semua dukungan respon.
 
-**POC : Point of Contact** ; person(s) to engage with for any enquiries, questions, coordination, etc.
+**POC : Point of Contact** ; orang yang berinteraksi untuk berbagai keperluan, pertanyaan, koordinasi, dsb.
 
-**[Relation](http://wiki.openstreetmap.org/wiki/Relation)**: one of the core data elements that consists of one or more tags and also an ordered list of one or more nodes, ways and/or relations as members which is used to define logical or geographic relationships between other elements. For examples go to the [Types of Relations](http://wiki.openstreetmap.org/wiki/Types_of_relation) wiki page. 
+**[Relation](http://wiki.openstreetmap.org/wiki/Relation)**: salah satu elemen data utama yang terdiri dari satu atau lebih tag dan bisa dalam daftar satu atau lebih titik, garis, dan/atau anggota relasi yang digunakan untuk mendefinisikan hubungan logika atau geografis antar elemen. Untk contoh bisa ke halaman wiki: [Types of Relations](http://wiki.openstreetmap.org/wiki/Types_of_relation). 
 
-**Render** : to convert from data into an image. Rendered data is a map.
+**Render** : untuk mengubah dari data ke dalam gambar. Data hasil render berupa peta.
 
-**SBTF : Stand-By Task-Force** ; an organization which coordinates digital volunteers into a responsive, trained, and prepared network ready to deploy in crises.
+**SBTF : Stand-By Task-Force** ; sebuah organisasi yang mengkoordinir volunteer digital ke dalam jaringan yang responsif, terlatih, tersedia untuk dikerahkan dalam kondisi darurat.
 
-**Slippy Map** : What you see when you're on <http://www.openstreetmap.org> ! Consists of a layer and a software library that controls interactive features like zooming & panning.
+**Slippy Map** : Apa yang anda lihat ketika anda di <http://www.openstreetmap.org> ! Terdiri dari beberapa lapisan dan librari perangkat lunak yang mengkontrol fitur interaktif seperti perbesaran dan pergeseran.
 
-**Stylesheet** : In most instances, it means a text file that's used to determine what features (which roads ?) are displayed, and how (what color should the road be ? Its width ? ) on a map.
+**Stylesheet** : Dalam beberapa kesempatan, ini berarti sebuah berkas teks yang digunakan untuk menentukan seperti apa sebuah fitur ditampilkan (contoh jalan ?), dan bagaimana (warna yang digunakan untuk jalan? Ukurannya?) dalam peta.
 
-**Tag**: Tags describe describe a point, line or polygons. Each tag contains a key and value (written in OSM as 'key=value'). For example, highway=residential and name=Woodland Avenue. Initially mentioned in Learnosm within [iD section](/en/beginner/id-editor/#basic-editing-with-id) A Point, line, or polygon usually have more than one tag on them. Sometimes choosing the right tag is confusing. [Taginfo](https://taginfo.openstreetmap.org/) helps you by showing statistics about which tags are actually in the database, how many people use those tags, where they are used and so on. It also gets information about tags from the wiki and from other places.
+**Tag**: tag digunakan untuk menjelaskan titik, garis, atau area. Setiap tag terdiri dari key dan value (ditulis dalam OSM seperti 'key=value'). Sebagai contoh, highway=residential dan name=Woodland Avenue. Awalnya muncul pada LearOSM di [iD section](/en/beginner/id-editor/#basic-editing-with-id). Sebuah titik, garis, atau area biasanya mempunyai lebih dari satu tag. Kadang memilih tag yang sesuai seringkali mengalami kebingungan.  [Taginfo](https://taginfo.openstreetmap.org/) digunakan untuk menampilkan data statistik tentang tag apa saja yang sudah tersedia dalam database, bagaimana cara menggunakan tag tersebut, dimana digunakan, dsb. Ini juga untuk mendapatkan informasi tag dari wiki atau dari tempat lain.
 
-**TIGER** : A data source from the US Census Bureau that was imported into OSM, in 2007. This is the source for most data in the USA in OSM.
+**TIGER**: sumber data dari sensus US yang di import ke OSM di tahun 2007. Ini merupakan sumber data utama untuk US di OSM
 
-**Tile** : a small image (256x256 pixels ) of rendered map data.
+**Tile**: sekumpulan gambar kecil  (256x256 pixels ) yang menggambarkan peta.
 
-**[Way](http://wiki.openstreetmap.org/wiki/Way)**: an ordered list of nodes which normally also have at least one tag or is included within a Relation. A way can have between 2 and 2,000 nodes, although it's possible that faulty ways with zero or a single node exist. A way can be open or closed.  
+**[Way](http://wiki.openstreetmap.org/wiki/Way)**: sekumpulan titik yang secara normal memiliki satu tag atau masuk kedalam relasi. Sebuah way/garis bisa memiliki 2 sampai 2000 titik meskipun mungkin saja terdiri dari 0 titik. Sebuah garis bisa berbentuk tertutup atau terbuka  
 
 * A closed way ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) is one whose last node on the way is also the first on that way. A closed way may be interpreted either as a closed polyline, or an area, or both. 
 
