@@ -47,7 +47,7 @@ OpenStreetMap berisi data geografis dari seluruh dunia. Meskipun ini adalah data
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+- Klik pada opsi gaya yang berbeda untuk peta. Perhatikan bagaimana peta berubah dengan gaya masing-masing. Peta transportasi, misalnya, menekankan pada rute transportasi di peta, sementara peta sepeda menekankan rute bersepeda. Semua data untuk bisa membuat seperti ini terkandung dalam basis data OSM.
 
     ![Transport map][]
 
