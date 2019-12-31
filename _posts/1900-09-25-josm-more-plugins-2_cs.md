@@ -57,33 +57,33 @@ se změní na;
 
 #### Tag name
 
-Our aim now is to amend the spreadsheet so that the information is in the format expected by OpenStreetMap. The column headings will be the **Key** values, and the data withing the spreadsheet becomes the **Value** element. For our simple spreadsheet, amend the first column heading from **Name_of_the_shop** to **name**. Using the format key=value, our first spreadsheet line now becomes;  
+Našim cílem bude upravit tabulku tak, aby informace byly ve formátu, který OpenStreetMap podporuje. Jako názvy sloupců použijeme hodnoty **Klíče** a data v tabulce budou jejich **Hodnotami**. V naší jednoduché tabulce změníme název sloupce z **Name_of_the_shop** na **name**. Při použití formátu key=value bude první řádek tabulky vypadat následovně; 
 **name=Tony's Supermarket**
 
-If your spreadsheet has more than one name, such as a **local name** or **official name**, please consult the wiki page at <https://wiki.openstreetmap.org/wiki/Names> which lists many possible alternatives so that your updates to OpenStreetMap can contain all of the names that are likely to be used or searched for.  
+Pokud vaše tabulka obsahuje více jak jeden název, např. **local name** nebo **official name**, podívejte se jak na to na wiki <https://wiki.openstreetmap.org/wiki/Names>, která obsahuje mnoho možných alternativ, aby vaše aktualizace OpenStreetMap mohly obsahovat všechna jména, která budou pravděpodobně použita nebo vyhledávána.
 
-#### Columns without a heading
+#### Sloupce bez názvů
 
-If you remove the heading for a column, but keep the data below it, then the data is effectively hidden from JOSM.  
+Pokud smažete názvy sloupců, ale data ponecháte, pak jsou data před JOSM skryta.
 
 ![opendata 1][]
 
-#### Columns with data from different keys 
+#### Sloupce s daty různých klíčů
 
 ![opendata mixed][]
 
-The person designing the survey, and the person carrying out the survey will often not be aware of the tags and values that have evolved in OpenStreetMap. The **shop** column in my spreadsheet actually contains data from two different tags, and the spreadsheet will need amending. The column heading **Type of shop** can be changed to **shop**, for the following data;  
-  shop=supermarket  
-  shop=convenience  
-  shop=hairdresser  
+Osoba plánující průzkum a osoba provádějící průzkum často nebudou vědět o značkách a hodnotách, které se vyvinuly v OpenStreetMap. Sloupec **shop** v mé tabulce momentálně obsahuje data dvou různých značek a tabulka bude potřebovat upravit. Název sloupce **Type of shop** by se měl změnit na **shop**, pro následující data; 
+shop=supermarket 
+shop=convenience 
+shop=hairdresser 
 
-but **restaurant** and **fast_food** are from the **amenity** key.
+ale **restaurant** a **fast_food** jsou hodnoty pro klíč **amenity**.
 
-A new column should be inserted with the heading **amenity**, and the data moved, so that our spreadsheet now looks like this;  
+Je potřeba přidat nový sloupec s názvem **amenity** a data přesunou tak, aby naše tabulka vypadala takto;
 
 ![opendata shop amenity][]
 
-#### sub tags
+#### sub tagy
 
 The column heading **Does_the_shop_have_toilet_faci** has been abbreviated during the survey process, and originally read **Does the shop have toilet facilities?**.  
 
