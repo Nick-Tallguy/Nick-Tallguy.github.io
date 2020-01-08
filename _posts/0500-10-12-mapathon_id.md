@@ -16,42 +16,42 @@ category: koordinasi
 ## Introduction
 
 ### Tipe acara  
-Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
+Memutuskan jenis acara apa yang ingin Anda selenggarakan akan menentukan arah yang harus Anda tuju dan langkah-langkah yang perlu Anda ambil.  
 
-This guide deals with indoor Mapathons for larger groups. 
+Panduan ini berkaitan dengan Mapathon di dalam ruangan untuk jumlah peserta yang cukup banyak. 
 
-For other types of gatherings for mapping see  
-[Weekend Mapping Projects](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
+Untuk tipe pertemuan pemetaan lainnya dapat melihat  
+[Proyek Pemetaan Akhir Pekan](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
 [Mapping Parties](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**A Mapathon is an organised gathering of people to add data to the OpenStreetMap. This can be a project to improve the map in your local area, or to help Response Teams on the ground during a Disaster, or a Missing Maps Project for ongoing or future Humanitarian Responses.**  
+**Mapathon adalah suatu acara berkumpulnya orang-orang untuk menambahkan data ke OpenStreetMap. Ini dapat menjadi proyek untuk menambah data pada area lokal Anda, atau untuk membantu Tim Respon di lapangan selama bencana, atau untuk mengerjakan proyek Missing Maps yang sedang berjalan atau respon kemanusiaan yang akan datang.**  
 
-Your Mapathon can be open to training new mappers as well as a regular event for experienced mappers and could consist of a training session, mapping time and time to socialise.  
+Mapathon Anda dapat terbuka untuk melatih para pembuat peta baru serta acara reguler untuk para pembuat peta yang sudah berpengalaman dan dapat terdiri atas sesi pelatihan, sesi pemetaan, dan waktu untuk bersosialisasi.  
 
-While we can give general guidelines on how to organise a Mapathon, your event will evolve and develop its own structure and identity depending on the people who organise it, the venues available and the people that turn up to map.  
+Meskipun kami dapat memberikan panduan umum tentang cara mengatur Mapathon, acara Anda akan berkembangkan dengan struktur dan identitasnya sendiri tergantung pada orang yang mengelolanya, tempat yang tersedia, dan orang-orang yang datang untuk memetakan.  
 
 ![kings college][]
 
-### History of a successful Mapathon
-The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
-It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
-The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
-The success of the London event is based on a number of factors but mainly the following strategy...
+### Cerita tentang Mapathon yang sukses
+London Missing Maps Mapathon dimulai pada tahun 2014 sebagai kelompok kecil yang melatih para pembuat peta baru. Mereka mendapat keuntungan karena dapat melibatkna banyak sponsor perusahaan besar dengan tempat yang besar dengan kapasitas sekitar 80 pembuat peta.
+Acara dimulai dengan melatih semua peserta dalam pemetaan dasar menggunakan iD sebagai editor pilihan untuk pemula.
+Acara ini diadakan sebulan sekali dan para pembuat peta dapat mendaftar gratis melalui Eventbrite. Setelah beberapa saat, tercatat banyak peserta yang akan datang kembali untuk pemetaan dan pelatihan lebih lanjut. Akhirnya keputusan dibuat untuk membagi acara menjadi training untuk pembuat peta baru menggunakan iD, memigrasikan pembuat peta yang sebelumnya sudah belajar menggunakan iD menjadi menggunakan JOSM, dan pelatihan untuk validator juga diperkenalkan. Format ini telah terbukti sangat sukses tetapi banyak pembuat peta yang tidak dapat mengikuti pelatihan karena acara pelatihan sudah penuh. Mapathon kedua dimulai, Mapathon pada pertengahan bulan untuk pengguna JOSM yang lebih berpengalaman yang akan berkonsentrasi pada pemetaan yang lebih lanjut dan mencoba ide-ide baru.
+Keberhasilan acara London berdasarkan pada sejumlah faktor tetapi terutama pada strategi berikut ...
 
 -   Experience taught us that the learning curve for people with no mapping experience whatsoever is very steep and can be off putting and frustrating for these newcomers if they cannot get some mapping done on their first event. It is important to get them mapping as quickly as possible, so they were shown just the very basics with the simpler iD editor, letting them encounter their own particular problems during the course of the evening when they were able to ask for help.
 -   It was much easier teaching mappers the more complex JOSM editor if they already had experience of mapping with the iD editor or some other GIS programme. It also meant that you were dealing with a group that were interested in advancing their mapping skills rather than just along to find out what it was about and whether they liked it or not.
 -   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
   A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## Memulai bekerja untuk Mapathon Anda paling sebentar satu bulan sebelumnya untuk mengatur dan mempersiapkan acara.  
 
-### First step ... Preparing the format of your Mapathon.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+### Langkah pertama ... Persiapkan format mapathon Anda.  
+Ukuran tempat yang tersedia dan ketersediaan fasilitas di tempat tersebut akan menentukan faktor-faktor untuk Mapathon Anda. Lokasi tempat mapathon dapat berupa perusahaan lokal, universitas atau sekolah, pusat seni, perpustakaan, aula. Poin yang perlu diperhatikan:  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
+1. Apakah tempat mapathon berlokasi di pusat dan mudah dijangkau? (perhatikan transportasi umum atau parkir)  
+2. Apakah tempat tersebut memiliki wi-fi yang bagus dan dapat menangani hingga 100 koneksi secara bersamaan?  
+3. Apakah dapat menampung hingga 100 orang pembuat peta? Ini akan menentukan jumlah orang yang diundang.  
+4. Apakah ada meja dan kursi yang cukup dan nyaman?  
 5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
 6.  Does it have a large overhead screen for tutorials and presentations?  
 7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  

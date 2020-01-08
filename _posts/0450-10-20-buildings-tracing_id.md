@@ -27,46 +27,46 @@ Hal yang perlu diperhatikan;
 - Jika bangunan memiliki bentuk kotak, pastikan Anda mendijitasinya dengan bentuk kotak yang memiliki sudut siku, gunakan alat untuk membuat sudutnya siku (tombol pintas **q**).  
 - Pastikan Anda menambahkan tag pada objek!  
 - Ukuran berpengaruh - *estimasi populasi berdasarkan akumulasi area bangunan pada suatu area*,  
-- the right size building the right way round will help people locate their village,  
-- Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
-- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- ukuran serta bentuk yang persis dengan yang tampak pada citra satelit akan membantu dan memudahkan masyarakat mencari lokasi daerahnya,  
+- Perbesar hingga cukup besar dan cukup jelas untuk melihat objek secara detail - skala pembesaran 20 meter biasanya sudah cukup jelas untuk melihat detail objek.  
+- **Mencari bangunan** - cari dan amati bangunan dengan skala antara 50 meter dan 80 meter. Waspada terhadap bayangan dan garis lurus (bangunan melingkar lebih sulit untuk ditemukan)  
+- Bangunan dan jalan, sungai, **landuse=residential** batas administrasi atau objek lainnya tidak boleh bertampalan.  
+- Jika Anda membuat kesalahan, gunakan tombol **Undo** ![back arrow]{: height="26px"} untuk mengembalikan perubahan terakhir yang Anda buat  
+- Kita semua berniat untuk membuat peta menjadi lebih baik. Jika pemeta sebelumnya memetakan sebuah bangunan secara salah, perbaiki lalu kirimkan sebuah pesan untuk pemeta tersebut yang berisi saran.  
 
-Buildings obscured or seen at an angle  
+Bangunan terhalang atau terlihat miring  
 --------------------------------------
 
 ![building-obscured][]  
 
-It is common for the satellite image to be taken at an angle making the building seem distorted. In the above image the image to the right shows how the building should be traced. It is often easiest to trace the outline of the roof, then drag this to the point where the walls meet the ground - this was the technique used to trace the building above. Notice also that a building partially obscured by trees has been correctly traced as rectangular. 
+Sudah menjadi hal yang biasa untuk citra satelit diambil dengan sudut kemiringan tertentu sehingga bangunan terlihat miring dan terdistorsi. Pada gambar di atas, gambar di sebelah kanan menunjukkan bagaimana bangunan seharusnya dipetakan. Cara yang termudah adalah dengan memetakan bangunan dari ujung atapnya lalu tarik garis ke titik di mana temboknya bersentuhan dengan permukaan tanah - teknik ini adalah teknik yang biasa digunakan untuk memetakan bangunan seperti pada gambar di atas. Perhatikan juga bahwa bangunan yang tertutup pohon sebagian tetap digambarkan sebagai persegi empat. 
 
-Buildings with a ridged roof
+Bangunan dengan atap yang bergerigi
 ----------------------------
  
-Most buildings either have corners at 90 degrees, or they are round buildings.  
+Sebagian besar bangunan memiliki sudut 90 derajat atau jika tidak, mereka adalah bangunan berbentuk lingkaran.  
 
 ![building-ridge][]  
-This building has 90 degree corners, but has a ridge on its roof. The camera angle initially makes the building look a strange shape.  
+Bangunan ini memiliki sudut-sudut 90 derajat, namun memiliki gerigi pada atapnya. Sudut kemiringan kamera ketika mengambil gambar membuat bentuk bangunan terlihat janggal.  
 
 ![building-tree-ridge][]  
-This building has a tree partially obscuring it. It is a rectangular building.  
+Bangunan ini tertutup sebagian oleh pohon. Ini adalah bangunan berbentuk persegi empat.  
 
-In isolated parts of the world it is common to use sheets of corrugated iron as roofing - when new these will reflect the sunlight which creates a **very bright flare effect** on the satellite imagery. It is common for buildings to have a verandah or be **L shaped** and you should ensure that your tracing follows the shape of the building.  
-When tracing the building outline, you must try to trace the building at the right size, and at the point where its walls meet the ground - do your best! In many parts of the world, buildings are partially constructed and then left without roofs until they are sold, or otherwise wanted for use. Map a building without a roof as a normal building as it does not take long to add a roof, and the roof may have been added already, in the time since the satellite imagery was taken.  
+Pada belahan dunia tertentu, seng lazim digunakan sebagai atap - ketika seng yang digunakan adalah seng baru, cahaya matahari akan dipantulkan yang memberikan **efek silau** pada citra satelit. Bangunan juga lazim memiliki beranda atau memiliki bentuk seperti **huruf L** dan Anda harus pastikan untuk memetakannya sesuai bentuk bangunannya.  
+Ketika memetakan bangunan, Anda harus mencoba memetakan bangunan sesuai dengan ukurannya, dan ketika dinding bangunan menyentuh permukaan tanah - lakukan yang terbaik! Di beberapa bagian dunia, bangunan dibangun sebagian dulu tanpa dipasang atap sampai bangunan tersebut laku terjual atau bangunan tersebut ingin segera digunakan. Petakan bangunan tanpa atap tersebut seperti bangunan pada umumnya karena untuk menambahkan atap tidak memakan waktu yang lama dan mungkin saja atapnya sudah ditambahkan setelah citra satelitnya diambil.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+Lakukan yang terbaik - bahkan ahli terkadang tidak setuju, dan kadang Anda hanya perlu melihat lebih teliti objek apa yang berada di situ. **Jika ragu, petakan saja sebagai bangunan.**  
 
-Building Tags
+Tag Bangunan
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.  
+Ketika menambahkan tag bangunan yang belum pernah kita kunjungi atau bangunan yang belum familiar, paling aman berikan bangunan tersebut tag **building**=**yes** yang Anda dapat lihat bangunan dengan tag yang tepat jika Anda lihat pada bagian bawah panel tag dan klik **All tags**.  
 
-See also  
+Lihat juga  
 ---------
 
 - [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
-*Subtitles available in some languages*  
+*Subtitle tersedia dalam beberapa bahasa*  
 
 - [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 

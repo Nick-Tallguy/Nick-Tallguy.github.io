@@ -24,8 +24,8 @@ Anda tidak perlu untuk membaca semua yang ada di situs ini sebelum Anda  memulai
 
 2.  Pastikan Anda memperbesar cukup dekat sehingga Anda dapat melihat dengan jelas objek yang akan dipetakan - [penjelasan lebih lanjut.](/id/coordination/remote/)  
 
-3.  Buildings have to be traced, and the shape of the tracing should match the shape of the building. [This section of LearnOSM](/en/coordination/remote-tracing/) explains this, and how to create roads and a road network.  
+3.  Bangunan harus dipetakan dan dijitasi bangunan harus sesuai dengan bentuk bangunannya. [Bagian LearnOSM ini](/en/coordination/remote-tracing/) menjelaskan bagaimana memetakan bangunan dan jaringan jalan.  
 
-Thank you for reading this, and we hope you'll take the short time needed to make sure you do the important things right. We need all the help we can get, and hope that you can help us with this.  
+Terima kasih telah membaca panduan ini dan kami harap Anda meluangkan waktu untuk berlatih agar dapat melakukan pemetaan dengan baik. Kami semua membutuhkan bantuan dan kami harap Anda dapat membantu kami dalam memetakan.  
 
-Please remember, that although this event is very recent, the problems will continue for a very long time. People no longer have housing, and are living in shelters at the mercy of more bad weather. Hygiene will become difficult and there is the possibility of disease and other problems related to food and water. Although you may not see the problems mentioned in the news, they will still exist, and the aid workers will need maps that reflect the current situation. Please help us now, but please remember to come back and help us again in the future. 
+Harap diingat bahwa meskipun kejadian ini baru saja terjadi, masalah akan terus muncul untuk waktu yang lama. Masyarakat tidak lagi memiliki tempat tinggal dan hidup sementara di pengungsian akibat cuaca buruk. Kebersihan juga sulit dijaga dan terdapat kemungkinan terjangkit penyakit serta masalah kesehatan lain yang menyangkut makan dan minum. Walaupun Anda tidak melihat masalah tersebut di berita, masalah tersebut masih tetap muncul dan pekerja sosial akan membutuhkan peta yang menggambarkan situasi terkini. Anda dapat membantu kami sekarang, namun jangan lupa untuk kembali dan bantu kami lagi di waktu yang akan datang. 

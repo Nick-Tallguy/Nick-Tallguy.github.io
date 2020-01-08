@@ -39,32 +39,32 @@ Agar bisa menggunakan HOT Tasking manager, Anda harus mendaftar terlebih dahulu 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
+[JOSM](https://josm.openstreetmap.de/)- sebuah aplikasi berbasis Java yang, yang membutuhkan untuk mengunduh aplikasinya dan pembelajaran yang lama. Meskipun membutuhkan pengaturan dan pembelajaran yang lama, JOSM sangat cepat untuk menambahkan data. Disarankan menggunakan mouse untuk editor ini.  
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Advice & Words of Encouragement
+### Saran dan Kata-kata Penyemangat
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
-> "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
-> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
+> "Direkomendasikan untuk memulai dengan area lokal yang Anda ketahui dan memasukkan beberapa data seperti, menambahkan bangunan lokal di lingkungan anda."  
+> "Beberapa tugas lebih mudah dibandingkan yang lain; jika Anda merasa tidak bisa mengerjakan, batalkan tugas dan coba tugas yang lain!" - Peter (@meetar)  
+> "Tidak jadi sebuah masalah apabila Anda tidak dapat menyelesaikan tugas; unggah apa yang telah Anda kerjakan dan buka kunci tugas tersebut sehingga orang lain bisa mengerjakannya" - Peter (@meetar)  
+> "Jika Anda ingin melihat contoh hasil pekerjaan yang telah lolos pengecekan, cek pada tugas yang berwarna hijau. Jangan khawatir, mengklik "Review the work" tidak akan membuat Anda mengubah apapun - ini hanya akan mengunci tugas seperti anda melakukan pengubahan. Munculkan secara normal dan buka kunci dari tugas setelah Anda selesai mengerjakan" - Peter (@meetar)  
+> "Foto satelit kadang susah untuk diinterpretasi, tetapi jangan terlalu khawatir untuk menggambar garis atau bentuk yang sempurna - pekerjaan Anda akan diperbaiki dan diubah oleh orang lain, dan meningkatkannya. Dan harap diingat, ini adalah area krisis, bukan catatan pajak atau distrik voting - peta ini akan dibaca oleh orang yang mungkin terburu-buru, dalam kegelapan atau dalam ancaman. Di Afrika Barat, meskipun hanya sebuah garis pada peta namun itu bisa berarti dari ekspresi harapan. Di Gaza, banyak bangunan dipetakan tetapi sudah tidak ada; tetapi kita menandai fakta dari konstruksi. Akurasi ini bagus, tapi bukan itu poinnya." - Peter (@meetar)  
  
-### Other Resources 
+### Sumber Daya Lainnya 
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
+Panduan ini sudah dirangkum dan dikumpulkan dari beberapa sumber tutorial yang ada dan dari panduan HOT. Anda bisa menemukan sumber pembelajaran pada link dibawah ini.  
 
-#### Tutorials
+#### Tutorial
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+[Panduan Pemetaan Jarak Jauh LearnOSM](http://learnosm.org/en/coordination/remote/)- salah satu panduan terlengkap  
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[Tutorial MapGive: Learn To Map](http://mapgive.state.gov/learn-to-map/)- termasuk video yang bisa Anda ikuti  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - dibuat oleh Peter Richardson (@meetar) yang berpengalaman dengan volunteer HOT  
 
-#### About HOT 
+#### Tentang HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news  
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  pelajari tentang bagaimana HOT beroperasi dan beberapa berita terbaru  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describes HOT activities in more detail from their website  
+[Kapasitas HOT](http://hot.openstreetmap.org/about/hot_capacities)- menjelaskan tentang aktifitas HOT lebih lanjut  
