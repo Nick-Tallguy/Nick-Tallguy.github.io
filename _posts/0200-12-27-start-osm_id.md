@@ -54,7 +54,7 @@ OpenStreetMap berisi data geografis dari seluruh dunia. Meskipun ini adalah data
 Membuat Akun OpenStreetMap
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
+Sekarang setelah Anda melihat seperti apa situs utama, Anda dapat mendaftarkan akun menggunakan nama pengguna dan kata sandi, dan membuat perubahan pertama Anda ke peta.
 - Pada situs OpenStreetMao, klik "Daftar" di ujung kanan atas halaman.
 - Anda seharusnya melihat halaman baru yang terlihat seperti ini:
 

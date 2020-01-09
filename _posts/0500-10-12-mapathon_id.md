@@ -52,14 +52,14 @@ Ukuran tempat yang tersedia dan ketersediaan fasilitas di tempat tersebut akan m
 2. Apakah tempat tersebut memiliki wi-fi yang bagus dan dapat menangani hingga 100 koneksi secara bersamaan?  
 3. Apakah dapat menampung hingga 100 orang pembuat peta? Ini akan menentukan jumlah orang yang diundang.  
 4. Apakah ada meja dan kursi yang cukup dan nyaman?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+5. Apakah ada pengisi daya yang cukup untuk mengisi daya laptop? (mengatur kabel tambahan)  
+6. Apakah di tempat itu memiliki layar yang besar untuk menjelaskan tutorial dan presentasi?  
+7. Apakah ada ruangan kecil dengan layar lebar untuk pelatihan khusus untuk kelompok kecil?  
+8. Apakah Anda memiliki tim bantu yang cukup berpengalaman untuk menjalankan Mapathon besar?  
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
+### Langkah kedua ... Merencanakan Mapathon
 Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
 
 1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  

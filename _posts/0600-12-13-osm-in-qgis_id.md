@@ -37,67 +37,67 @@ Untuk tutorial ini kita akan menggunakan fitur download yang sudah ada pada QGIS
 
 - Data OSM akan disimpan di direktori yang sudah Anda tentukan.  
 
-> This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
+> Metode mengakses data OSM ini sama seperti jika Anda mengunduhnya di JOSM atau pada [openstreetmap.org](http://www.openstreetmap.org). Untuk mengekstrak data yang lebih besar yang terbaru, Anda mungkin dapat mencobanya di [HOT export site](http://export.hotosm.org) atau [bbbike.org](http://extract.bbbike.org/). Ingat bahwa jika Anda mengunduh file OSM yang dikompres, Anda harus dekompres file tersebut ke dalam format file **.osm** untuk langkah berikutnya.  
 
 
-Importing Data into SQLite
+Mengimpor Data ke SQLite
 ---------------------------
 
-Next we will need to import our raw **.osm** file into a SQLite Database file.  
+Berikutnya kita akan mengimpor data mentah **.osm** ke dalam file database SQLite.  
 
-- Go to Vector -> OpenStreetMap -> Import Topology from XML...  
-- In the first field, select your **.osm** file.  
-- You can change the name of the output database file if you like.  
-- Keep the box checked next to "Create Connection..."  
+- Klik menu Vector -> OpenStreetMap -> Import Topology from XML...  
+- Pada kolom pertama, pilih file **.osm** Anda.  
+- Anda dapat mengubah nama dari file output database jika perlu.  
+- Biarkan kotak "Create Connection..." tetap tercentang.  
 
 ![import dialog][]  
 
-- Click OK.  
-- When it is finished, click "Close."  
+- Klik OK.  
+- Setelah selesai, klik "Close."  
 
 
-Creating Layers
+Membuat Layer
 --------------
 
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.  
+Terakhir, kita akan membuat layer sesuai kebutuhan kita yang dapat dibuka di QGIS.  
 
-- Go to Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- In the first field, select the database you created in the previous step.  
+- Klik menu Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
+- Pada kolom pertama, pilih database yang Anda buat pada langkah sebelumnya.  
 
 ![input db file][]  
 
-- Under "Export type," select the type of features you want to create a layer for. Here we will create a layer using polygons.  
+- Di bawah "Export type," pilih tipe fitur yang ingin Anda buat layer nya. Di sini kita akan membuat layer menggunakan poligon.  
 
 ![export type][]  
 
-Edit the layer name if you like.  
+Ubah nama layer jika Anda mau.  
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be included in our output layer. This gives us flexibility over exactly which data we want to access.  
+Di bawah "Exported tags" adalah dimana semuanya diatur. Di sini kita dapat memilih tag mana yang akan dimasukkan ke dalam layer output nya. Hal ini memberikan kita keleluasaan untuk memilih data mana yang mau kita akses.  
 
-- Click "Load from DB" to see a list of all the available tags in the database. Expand the window size by dragging the corner if that helps. You can see all the tags contained in this data, and also the number of features that have each tag.  
-- Check the boxes next to the tags that you want to include. Here we will select a few features that will be useful for polygons that represent buildings.  
+- Klik "Load from DB" untuk melihat daftar tag yang tersedia pada database. Perbesar ukuran kotak dialog dengan menggeser sudutnya. Anda dapat melihat semua tag yang terdapat di data ini dan jumah fitur yang memiliki tag-tag tersebut.  
+- Beri centang pada kotak di sebelah tag yang mau Anda masukkan. Di sini kita akan memilih beberapa fitur yang berupa poligon dan menggambarkan bangunan.  
 
 ![export full][]  
 
-When you are finished, click OK.  Close the box. Your layer should be automatically added.  
+Jika sudah selesai, klik OK.  Tutup kotak dialog. Layer Anda akan otomatis terbuka.  
 
 ![cairo polygons][]  
 
-Right-click on the layer and click "Open Attribute Table."  
+Klik kanan pada layer dan klik "Open Attribute Table."  
 
 ![open attribute table][]  
 
-You can see here that we have a table which includes only the attributes we selected.  
+Anda dapat melihat tabel ini hanya memiliki atribut dari tag yang dipilih dari tag sebelumnya.  
 
 ![attribute table][]  
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
+Perhatikan bahwa kita tidak membuat layer yang berisi **hanya** bangunan. Kita membuat sebuah layer yang berisi semua poligon dari data awal, namun hanya mencakup semua tag yang kita pilih saja. Untuk memfilter layer ini agar menampilkan bangunan saja, kita harus memfilter menggunakan query yang memfilter poligon bertag building=yes.
 
 
-Summary
+Rangkuman
 -------
 
-This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
+Proses ini memudahkan kita untuk mendapatkan data OSM terbaru dan membukanya di QGIS. Ketika Anda sudah memiliki layer seperti ini di QGIS, banyak yang dapat dilakukan terhadap layer tersebut seperti menyimpannya ke dalam format shapefile, menjalankan filter dan query dan sebagainya. Untuk informasi lebih lengkap mengenai fungsi-fungsi tersebut silakan lihat menu Bantuan/Help pada QGIS.  
 
 
 [bounding box]: /images/osm-data/bounding_box.png
