@@ -66,9 +66,9 @@ Sekarang setelah Anda melihat seperti apa situs utama, Anda dapat mendaftarkan a
 -   Masukkan kata sandi baru pada kotak keempat dan kelima. Anda harus memasukkan kata sandi yang sama pada kedua kotak tersebut. Anda seharusnya *tidak* menggunakan sesuatu yang penting seperti kata sandi email Anda.
 -   Anda mungkin ingin menulis nama pengguna OSM Anda dan kata sandi. Anda akan memerlukannya untuk masuk nanti.
 -   Setelah Anda melengkapi semua kotak, klik "Daftar" pada bagian bawah halaman.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
+- Jika ada masalah, kotak pesan kesalahan akan muncul. Periksa dan pastikan email Anda sama di dua kotak pertama, dan kata kunci Anda sama di dua kotak di bawah. Jika kotak ketiga berwarna merah, berarti orang lain telah menggunakan nama pengguna Anda, dan Anda harus mencoba nama lain.
 -   Lihat pada email Anda.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+- Jika registrasi Anda semuanya sukses, Anda sebaiknya melihat email dari OpenStreetMap pada kotak masuk Anda. Buka email tersebut. Email Anda akan terlihat seperti gambar di bawah ini. Klik pada link seperti di bawah ini:
 
     ![Confirming your OpenStreetMap account][]
 

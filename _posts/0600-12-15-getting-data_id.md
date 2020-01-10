@@ -26,35 +26,35 @@ Men-download Data OSM
 
 >Hal yang harus diingat yaitu beberapa fitur di dalam OpenStreetMap memiliki "free" tags dengan jumlah huruf yang tidak terbatas,
 >tetapi shapefiles memiliki penyimpanan atribut dengan jumlah huruf yang terbatas pada atribut kolom. Ini berarti
->that when OSM data is converted into shapefiles, only the specified tags will be
->included in the shapefile table. The websites listed above provide shapefiles
->with a default set of common tags, but if you want to extract specific tags
->you will need to use one of the more specialized services in the next section
->or learn how to export the data yourself.
+>ketika data OSM akan diubah ke dalam shapefile, hanya tag spesifik yang akan 
+>termasuk ke dalam tabel atribut shapefile. Pada situs ini hanya menyediakan shapefile
+>dengan tags default yang pada umumnya digunakan, tetapi jika Anda ingin mendapatkan shapefile dengan tag spesifik
+>Anda dapat menggunakan situs layanan yang lebih spesifik yang dapat memilih tag tertentu pada sub bab berikutnya
+>atau Anda dapat mempelajari bagaimana cara mengekspor data.
 
-Customized Extracts
+Kustomisasi Data
 -------------------
 
 ### HOT Exports  
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+The [Humanitarian OpenStreetMap Team](http://hotosm.org) telah membuat sebuah layanan yang memungkinkan pengguna untuk memilih sebuah wilayah yang ingin diambil datanya dengan menggunakan [JOSM Presets](/en/josm/josm-presets/)
+untuk memilih tags yang diinginkan yang akan tersaring di dalam proses ekspor. Layanan ini tersedia untuk semua negara dimana HOT bekerja, situs tersebut yaitu [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike  
 
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
+Anda dapat memilih wilayah yang spesifik yang Anda inginkan dengan menggunakan [http://extract.bbbike.org/](http://extract.bbbike.org/). Kelemahan dari layanan ini yaitu Anda tidak dapat memilih tag yang di kustomisasi dan jumlah data yang Anda download akan terbatas.  
 
 ### Overpass
 
-Overpass is an API (Application Programming Interface) for extracting data from a read-only copy of the main OpenStreetMap database which can deliver an almost arbitrary amount of data. Using a query language you can customize which subset of the data you obtain. You can either use the API directly by generating a http-request or through the overpass turbo interface.
+Overpass API (Application Programming Interface) adalah untuk mengekstrak data dari server OpenStreetMap yang akan sesuai dengan jumlah data yang dihasilkan. Dengan menggunakan kueri Anda dapat mengkustomisasi bagian data yang Anda peroleh. Anda dapat juga menggunakan API secara langsung dengan menghasilkan sebuah http-request atau melalui tampilan overpass turbo. 
 
 #### Overpass Turbo
 
-[Overpass Turbo](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
+[Overpass Turbo](http://overpass-turbo.eu/) adalah sebuah kueri generator yang interaktif dimana Anda harus memperbesar peta dan memilih wilayah yang Anda inginkan. Masukkan kueri Anda di kotak sebelah kiri dari halaman dan gunakan beberapa menu yang terdapat di bagian atas halaman. Jika Anda baru menggunakan bahasa kueri, klik pada bagian wizard untuk memulai. OSM wiki berisi konten [deskripsi lebih lanjut](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) dari sintaksis bahasa kueri yang sama dengan [contoh](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
-The map will highlight all data selected by your query which you can then modify. Press "Run" to refresh the result display. Once you are satisfied with what you see then "Export" offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well access them directly after switching between map view and data view using the rightmost buttons at the top. The export option *Query -> compact OverpassQL* generates a hyperlink to be used for the Overpass API.
+Peta akan menampilkan semua data yang diseleksi dengan kueri yang nantinya bisa Anda modifikasi. Tekan "Run" untuk memperbaharui tampilan. Jika Anda telah selesai klik "Export" akan menampilkan jumlah data, diantara raw data OSM. Jika jumlah data terbatas, Anda dapat mengaksesnya dengan memindahkan diantara tampilan peta dan tampilan data degan menggunakan tombol di sisi bagian atas. Pilihan eskpor *Query -> compact OverpassQL* akan memproses hyperlink yang digunakan untuk Overpass API. 
 
 ![overpass turbo][]
 

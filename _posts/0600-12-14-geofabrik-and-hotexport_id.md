@@ -41,15 +41,15 @@ Memperoleh Data OSM menggunakan Situs HOT Export Tool
 
 ## QuickStart
 
-Anyone can create a custom OpenStreetMap export with the Export Tool - just register an account. You can register with an OpenStreetMap account from openstreetmap.org, and a valid email address, which will be used to send a link to your export once it is complete.
+Siapapun dapat mengekspor data OpenStreetMap menggunakan Export Tool - cukup dengan mendaftarkan sebuah akun. Anda dapat mendaftar menggunakan akun OpenStreetMap yang dibuat di openstreetmap.org dan sebuah alamat email valid yang akan digunakan untuk mengirimkan tautan ekspor setelah prosesnya selesai.
 
 ## Identify Area of Interest
 
-There are multiple ways an Area of Interest (AOI) can be selected through the Export Tool. This includes the ability to type and search, specify the coordinates of a bounding box, draw a bounding box, free draw a polygon, use the current view or upload a geojson file.
+Ada beberapa cara untuk menentukan area yang akan diunduh menggunakan Export Tool. Cara-cara tersebut adalah mencari area di kotak pencarian, memasukkan koordinat dari sebuah kotak, menggambar kotak secara manual, menggambar poligon bebas, menggunakan cakupan area pada tampilan saat ini serta mengunggah file geojson.
 
 ![export-tool-create][]
 
-Once you are ‘Logged In’ to the HOT Export Tool, the ‘Create’ tab will become available. The ‘Create’ tab is where you will set up your export, by describing it on the left hand side and selecting your AOI with the map on the right hand side. 
+Setelah berhasil login ke HOT Export Tool, tab 'Create' akan tersedia. Pada tab 'Create' ini Anda akan mengatur ekspor, dengan menggambarkannya pada sisi sebelah kiri dan memilih area yang Anda akan unduh pada sisi sebelah kanan Anda. 
 
 ![export-tool-describe][]
 
