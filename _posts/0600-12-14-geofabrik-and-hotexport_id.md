@@ -54,33 +54,33 @@ Setelah berhasil login ke HOT Export Tool, tab 'Create' akan tersedia. Pada tab 
 ![export-tool-describe][]
 
 ### Search Bar
-There are 6 ways to define an AOI for your export. The first and second use the search bar, which can either find a place by typing in its name and selecting it from the options below, or by defining the bounding box coordinates. The minimum X, minimum Y, maximum X and maximum Y (West, South, East, North) coordinates of a country can be found [in a CSV list provided by the Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+Ada enam cara untuk menentukan area yang akan diunduh. Cara pertama dan kedua adalah dengan menggunakan kotak pencarian dengan menuliskan nama tempat atau dengan memasukkan koordinat kotak area. Koordinat minimum X, minimum Y, maksimum X dan maksimum Y (Barat, Selatan, Timur, Utara) dari suatu negara dapat ditemukan di [daftar CSV Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
 ### Digitise 
-The third and fourth way that an AOI can be selected in the Export Tool, is by either drawing a bounding box by selecting the ‘Box’ option from the column of tools on the right of the screen. Or you can free draw a polygon directly on the map by selecting the ‘Draw’ tool.
+Cara ketiga dan keempat untuk menentukan area untuk diunduh menggunakan Export Tool adalah dengan cara menggambar sebuah kotak menggunakan tombol 'Box' di sebelah kanan layar Anda atau menggambar poligon bebas langsung di atas peta menggunakan tombol 'Draw'.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
 ### Upload Polygon
-The last two ways in which an AOI can be selected is through the ‘This View’ tool on the right hand side of the map, which captures the extent of the map’s current view, or by the ‘Import’ tool which enables you to upload a polygon of the area.  
+Dua cara terakhir untuk menentukan area yang akan diunduh yaitu menggunakan tombol 'This View' di sebelah kanan layar Anda, yang akan mengambil cakupan area yang saat ini ditampilkan oleh peta, atau dengan menggunakan tombol 'Import' yang memungkinkan Anda untuk mengunggah poligon dari area yang akan diunduh.  
 
 ![export-tool-area-view][]
 ![export-tool-area-import1][]
 
 
-The imported polygon must be a GeoJSON file in WGS84 geographic coordinates. One of the ways to create a GeoJSON file is to use the geojson.io site. Once the area has been selected in [geojson.io](http://geojson.io/), copy the text in the box to the right, paste it into an editor of choice, such as [Atom](https://atom.io/) and save your GeoJSON file.
+TFile yang dapat diunggah harus dalam format GeoJSON dalam WGS84. Salah satu cara untuk membuat sebuah file GeoJSON adalah dengan menggunakan website geojson.io. Setelah areanya sudah terseleksi di [geojson.io](http://geojson.io/), salin teks pada kotak di samping kanan, paste teks tersebut ke dalam editor pilihan Anda, seperti [Atom](https://atom.io/) dan simpan sebagai file GeoJSON.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
 
 
-The GeoJSON file needs to be edited slightly in order for it to be accepted by the Export Tool. Please note that the file can not be multipolygons. In the simplest form the file only needs to state that it is a “type: Polygon” and list the coordinates of the points/nodes that identify the area. The GeoJSON file will then successfully be parsed by the tool and used to specify the AOI.
+File GeoJSON harus sedikit diedit agar dapat diterima oleh Export Tool. Harap diingat bahwa file tidak dapat berupa multipoligon. File harus memiliki jenis "type:Polygon" dan daftar koordinat dari titik-titik area tersebut. GeoJSON akan berhasil terbaca oleh Export Tool untuk menentukan area ekspor.
 
 ![export-tool-geojson-edit2][]
 ![export-tool-area-import2][]
@@ -88,7 +88,7 @@ The GeoJSON file needs to be edited slightly in order for it to be accepted by t
 
 ## Select File Formats
 
-The tool allows OSM data to be extracted through the Overpass API in its native Protocol Buffer Binary (PBF) file format, before filtering the data for the map features and associated tags specified by the user. Once the data has been filtered it is then converted into the file formats chosen by the user.  
+Alat ini memungkin data OSM diambil melalu Overpass API dalam format file Protocol Buffer Binary (PBF), sebelum memfilter data untuk fitur peta dan tag yang dispesifikasikan oleh pengguna. Setelah data sudah difilter, data akan diubah ke dalam format file yang dipilih pengguna.  
 
 Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
 
