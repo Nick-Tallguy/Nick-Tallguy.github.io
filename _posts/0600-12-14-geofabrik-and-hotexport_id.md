@@ -13,7 +13,7 @@ Menggunakan Geofabrik dan HOT Export
 
 Setelah belajar bagaimana menambahkan dan mengedit data OpenStreetMap (OSM), sekarang mungkin Anda ingin mendapatkan data tersebut sebagai cadangan atau ingin memprosesnya menggunakan software SIG yang open source, seperti QGIS ([www.qgis.org](http://www.qgis.org)).  
 
-Mendapatkan Data OSM di Situs Geofabrik
+Memperoleh Data OSM di Situs Geofabrik
 -------------------------------------
 
 Data OSM dapat diperoleh secara mudah dengan mengunduhnya dari [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
@@ -54,7 +54,7 @@ Setelah berhasil login ke HOT Export Tool, tab 'Create' akan tersedia. Pada tab 
 ![export-tool-describe][]
 
 ### Search Bar
-Ada enam cara untuk menentukan area yang akan diunduh. Cara pertama dan kedua adalah dengan menggunakan kotak pencarian dengan menuliskan nama tempat atau dengan memasukkan koordinat kotak area. Koordinat minimum X, minimum Y, maksimum X dan maksimum Y (Barat, Selatan, Timur, Utara) dari suatu negara dapat ditemukan di [daftar CSV Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
+Ada 6 cara untuk menentukan area yang akan diunduh. Cara pertama dan kedua adalah dengan menggunakan kotak pencarian dengan menuliskan nama tempat atau dengan memasukkan koordinat kotak area. Koordinat minimum X, minimum Y, maksimum X dan maksimum Y (Barat, Selatan, Timur, Utara) dari suatu negara dapat ditemukan di [daftar CSV Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
@@ -90,25 +90,25 @@ File GeoJSON harus sedikit diedit agar dapat diterima oleh Export Tool. Harap di
 
 Alat ini memungkin data OSM diambil melalu Overpass API dalam format file Protocol Buffer Binary (PBF), sebelum memfilter data untuk fitur peta dan tag yang dispesifikasikan oleh pengguna. Setelah data sudah difilter, data akan diubah ke dalam format file yang dipilih pengguna.  
 
-Currently the tool can convert OSM data into Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, and MBTiles .mbtiles. At least one of the file formats must be selected to create the export, but there is no restriction as to how many can be chosen, which can be done by ticking multiple boxes.
+Saat ini, di HOT Export Tool Anda dapat menyimpan data OSM dalam format Shapefile .shp, GeoPackage .gpkg, Garmin .img, Google Earth .kml, OSM .pbf, MAPS.ME .mwm, OsmAnd .obf, dan MBTiles .mbtiles. Setidaknya salah satu format file harus dipilih untuk mengekspor data OSM, namun Anda dapat memilih lebih dari satu jenis format file dengan mencentang lebih dari satu jenis format file.
 
 ![export-tool-file-formats][]
 
 
 ### Shapefile .shp
-Shapefiles are a tabular format developed by Esri. They are the most popular file format for GIS data. A shapefile is actually 3-4 individual files, commonly bundled together as a ZIP archive. Shapefiles do have certain limitations, such as the file size, capping at 2 gigabytes (GB) and a column name length limit of 10 characters. Read more about [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) in the Learn section.
+Shapefile adalah format tabular yang diciptakan oleh Esri. Format file ini adalah format yang paling sering digunakan untuk data spasial. Sebuah file shapefile sebenarnya terdiri dari 3-4 file individu, yang pada umumnya digabungkan menjadi satu dalam format ZIP. Shapefile memiliki beberapa batasan, seperti ukuran file maksimal 2 gigabytes (GB) dan nama kolom dengan maksimal 10 karakter. Baca lebih lanjut mengenai [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) pada bagian Learn.
 
 ![export-tool-shapefile][]
 
 
 ### Geopackage .gpkg
-OGC Geopackages store geospatial data in a single SQLite database. Geopackages are very similar to Spatialite-enabled SQLite databases. They should be usable in most major GIS applications. Geopackages support practically unlimited file sizes and numbers of columns in tables, and have full support for Unicode. They are especially ideal if you need to run SQL queries over the data. Read more about [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) in the Learn section.
+OGC Geopackages menyimpan data geospasial dalam sebuah database SQLite. Geopackages sangat mirip dengan database Spatialite-enabled SQLite. File tersebut dapat digunakan di hampir semua aplikasi SIG. Geopackages mendukung ukuran file yang tak terbatas dan jumlah kolom pada tabel dan mendukung penuh Unicode. Tipe file ini sangat ideal jika Anda ingin menjalankan query SQL untuk data Anda. Baca lebih lanjut mengenai [Geopackages.gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) pada bagian Learn.
 
 ![export-tool-sql][]
 
 
 ### Garmin .img
-A .IMG file contains all information needed to render a map onto a Garmin GPS mobile device. Please note that the cartographic .img style and feature choices of the map are not dependent on the feature selection submitted to the Export Tool - instead, a default style based on all OSM data is used. Read more about [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) in the Learn section.
+A .File IMG berisi semua informasi yang diperlukan untuk menerjemahkan peta ke perangkat Garmin GPS. Harap diingat bahwa kartografi dari .img dan pilihan fitur dari peta tidak bergantung pada pemilihan fitur saat menggunakan Export Tool - melainkan menggunakan sebuah gaya kartografi bawaan berdasarkan gaya yang digunakan oleh semua data OSM. Baca lebih lanjut mengenai [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) pada bagian Learn.
 
 ![export-tool-garmin][]
 
