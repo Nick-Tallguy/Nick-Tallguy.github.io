@@ -39,11 +39,11 @@ Memperoleh Data OSM menggunakan Situs HOT Export Tool
 
 ![hot-export-tool][]
 
-## QuickStart
+## Panduan Singkat
 
 Siapapun dapat mengekspor data OpenStreetMap menggunakan Export Tool - cukup dengan mendaftarkan sebuah akun. Anda dapat mendaftar menggunakan akun OpenStreetMap yang dibuat di openstreetmap.org dan sebuah alamat email valid yang akan digunakan untuk mengirimkan tautan ekspor setelah prosesnya selesai.
 
-## Identify Area of Interest
+## Menentukan Area
 
 Ada beberapa cara untuk menentukan area yang akan diunduh menggunakan Export Tool. Cara-cara tersebut adalah mencari area di kotak pencarian, memasukkan koordinat dari sebuah kotak, menggambar kotak secara manual, menggambar poligon bebas, menggunakan cakupan area pada tampilan saat ini serta mengunggah file geojson.
 
@@ -53,21 +53,21 @@ Setelah berhasil login ke HOT Export Tool, tab 'Create' akan tersedia. Pada tab 
 
 ![export-tool-describe][]
 
-### Search Bar
+### Kotak Pencarian
 Ada 6 cara untuk menentukan area yang akan diunduh. Cara pertama dan kedua adalah dengan menggunakan kotak pencarian dengan menuliskan nama tempat atau dengan memasukkan koordinat kotak area. Koordinat minimum X, minimum Y, maksimum X dan maksimum Y (Barat, Selatan, Timur, Utara) dari suatu negara dapat ditemukan di [daftar CSV Humanitarian Data Exchange (HDX)](https://data.humdata.org/dataset/bounding-boxes-for-countries).
 
 ![export-tool-search][]
 ![export-tool-coordinates][]
 
 
-### Digitise 
+### Melakukan Digitasi pada Batas Area 
 Cara ketiga dan keempat untuk menentukan area untuk diunduh menggunakan Export Tool adalah dengan cara menggambar sebuah kotak menggunakan tombol 'Box' di sebelah kanan layar Anda atau menggambar poligon bebas langsung di atas peta menggunakan tombol 'Draw'.
 
 ![export-tool-area-bbox][]
 ![export-tool-area-draw][]
 
 
-### Upload Polygon
+### Upload Poligon
 Dua cara terakhir untuk menentukan area yang akan diunduh yaitu menggunakan tombol 'This View' di sebelah kanan layar Anda, yang akan mengambil cakupan area yang saat ini ditampilkan oleh peta, atau dengan menggunakan tombol 'Import' yang memungkinkan Anda untuk mengunggah poligon dari area yang akan diunduh.  
 
 ![export-tool-area-view][]
@@ -86,7 +86,7 @@ File GeoJSON harus sedikit diedit agar dapat diterima oleh Export Tool. Harap di
 ![export-tool-area-import2][]
 
 
-## Select File Formats
+## Memilih Format File
 
 Alat ini memungkin data OSM diambil melalu Overpass API dalam format file Protocol Buffer Binary (PBF), sebelum memfilter data untuk fitur peta dan tag yang dispesifikasikan oleh pengguna. Setelah data sudah difilter, data akan diubah ke dalam format file yang dipilih pengguna.  
 
@@ -114,65 +114,65 @@ A .File IMG berisi semua informasi yang diperlukan untuk menerjemahkan peta ke p
 
 
 ### Google Earth .kml
-The Keyhole Markup Language (KML) is an XML-based format for modeling points, lines, polygons and associated attributes geographically. Google Earth is the most widely known earth view browsing platform using KML, which is also the reason why it was developed. Read more about [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) in the Learn section.
+Keyhole Markup Language (KML) adalah format file berbasis XML untuk modeling untuk titik, garis dan poligon dan atribut terkait secara geografis. Google Earth adalah platform terkenal untum menjelajah permukaan Bumi menggunakan KML, yang juga merupakan alasan mengapa format file ini dikembangkan. Baca lebih lanjut mengenai [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) pada bagian Learn.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-The canonical data format of OSM is an XML document of nodes, ways and relations. The Protocol Buffer Binary Format (PBF) is an optimised representation of OSM XML, which is smaller on disk and faster to read. This format is only compatible with OSM specific tools, such as OSM editing software. Each .PBF provided by the export tool should be referentially complete - that is, any node, way or relation referenced by a way or relation will appear in the PBF. Learn more about [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) in the Learn section.
+Format data OSM pada dasarnya adalah sebuah dokumen XML dari nodes, ways dan relations. Protocol Buffer Binary Format (PBF) adalah representasi dari data OSM XML, yang berukuran lebih kecil dan lebih cepat dibaca. Format ini hanya kompatibel dengan alat OSM spesifik, seperti software editor OSM. Setiap .PBF yang diperoleh dari export tool seharusnya sudah lengkap secara referensi - yaitu, tiap node, way atau relation yang tereferensi dari sebuah way atau relation akan muncul di PBF. Pelajari lebih lanjut mengenai [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) pada bagian Learn.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me is a GPS Navigation and map application for Android and iOS smartphones and tablets, notably supporting offline mapping and navigation. Read more about [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) in the Learn section. To use a custom export with Maps.me on Android, please follow these steps:
-Open Maps.me and navigate to your region of interest
-Accept Maps.me's prompt and download the offered region
-Force close Maps.me
-Create an MWM export
-Download the export, unzip it, and copy the .mwm file to your device
-Using the Android File Manager, navigate to the location containing the .mwm file
-Long-press to select it and touch the "copy" or "cut" button
-Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-Copy/move your .mwm file into this directory by tapping the "paste" button
-Delete the existing .mwm file for your region of interest, taking note of its filename
-Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-Open Maps.me
+Maps.me adalah sebuah aplikasi peta dan navigasi untuk tablet dan smartphone berbasis Android dan iOS, yang mendukungpeta dan navigasi offline. Baca lebih lanjut [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) pada bagian Learn. Untuk menggunakan data ekspor kustom menggunakan Maps.me pada Android, silakan ikuti langkah-langkah berikut:
+Buka Maps.me dan navigasikan ke wilayah yang Anda inginkan
+Terima permintaan Maps.me dan unduh area tersebut
+Tutup Maps.me
+Buat sebuah ekspor MWM
+Unduh hasil ekspor, unzip dan salin file .mwm ke dalam perangkat Anda
+Gunakan Android File Manager untuk menemukan dimana letak file .mwm
+Tekan agak lama pada file tersebut dan tekan tombol "salin" atau "potong"
+Navigasi ke "MapsWithMe" dan buka folder dengan angka tertinggi (misalnya 170917)
+Salin/Pindahkan file .mwm ke direktori dengan menekan tombol "paste"
+Hapus file .mwm yang ada untuk wilayah Anda, catat nama file tersebut
+Ubah nama file .mwm yang Anda salin dengan nama yang tadi Anda catat (yang file nya baru saja dihapus) dengan menekan agak lama (untuk memilih) dan tekan tombol "more" (3 titik vertikal)
+Buka Maps.me
 
 ![export-tool-mapsme][]
 
 
 ### OsmAnd .obf
-OsmAnd is also a GPS Navigation and map application for Android and iOS smartphones, as well as  tablets, notably supporting offline rendering, routing, and searching. Read more about the application and its numerous features of [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) from their main website. 
+OsmAnd adalah aplikasi peta dan navigasi untuk smartphone dan tablet berbasis Android dan iOS, terutama mendukung render, navigasi dan pencarian offline. Baca lebih lanjut mengenai aplikasi ini dan fitur-fiturnya di [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) dari situs web utama mereka. 
 
 ![export-tool-osmand][]
 
 
 ### MBTiles .mbtiles
-MBTiles is a file format for storing map tiles in a single file. The Export Tool allows users to create MBTiles containing tiles from OSM, which can be used as sources of offline context within applications that support them. Please note that MBTiles will extract all the OSM features in the selected area of interest through the Export Tool, with the ‘3 Data’ tab automatically switching to a dropdown source option and zoom range, in place of the standard tree tag and YAML feature selection option. Read more about [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) in the Learn section.
+MBTiles adalah sebuah format file untuk menyimpan map tiles dalam sebuah file. Export Tool memungkinkan pengguna untuk membuat MBTiles berisi tiles dari OSM, yang dapat digunakan sebagai sumber konteks offline di dalam aplikasi. Harap diingat bahwa MBTiles akan mengambil semua fitur OSM pada area yang dipilih di Export Tool, dengan tab ‘3 Data’ yang akan otomatis berubah menjadi pilihan sumber berupa dropdown dan rentang perbesaran, tree tag standar dan pilihan YAML. Baca lebih lanjut mengenai [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) pada bagian Learn.
 
 ![export-tool-mbtiles][]
 
 
-Additional file formats are continuously being suggested and added to the Export Tool. If there is a file format that you would like to see added in the future, please make a comment on the [GitHub](https://github.com/hotosm/osm-export-tool/issues) repository. For further detailed information regarding each file format type, please visit the ‘File Formats’ page in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website.
+Format file tambahan terus disarankan untuk ditambahkan ke Export Tool. Jika ada format file yang Anda inginkan untuk ditambahkan ke Export Tool, silakan berikan komentar pada repositori [GitHub](https://github.com/hotosm/osm-export-tool/issues). Untuk informasi lebih detail mengenai jenis masing-masing format file, silakan kunjungi halaman ‘File Formats’ pada bagian ‘[Learn](https://export.hotosm.org/en/v3/learn)’ di situs web.
 
 
 
 ## Customise Map Features
 
-The tool allows the user to customise the data selected within the defined area of interest. The OSM data is defined by using tag filters and key selections, with the Tag Tree or YAML Form. The Tag Tree is for common use cases, presenting a curated set of filters and selections, where the YAML configuration provides complete control over filters and selections, using a SQL-like filter definition.
+Alat ini memungkinkan pengguna untuk mengkustomisasi data yang dipilih pada area yang telah ditentukan. Data OSM yang didefinisikan menggunakan filter tag dan seleksi key, menggunakan Tag Tree atau YAML. Tag Tree digunakan untuk contoh kasus yang umum, menampilkan sebuah set filter dan seleksi, dimana YAML memungkinkan Anda mengontrol filter dan seleksi, menggunakan filter yang mirip dengan SQL.
 
 ![export-tool-treetag-tab][]
 ![export-tool-yaml-tab][]
 
 
-OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+OSM adalah database global terbuka dari fitur geografis, dengan tiga tipe elemen:
+Nodes/titik, yang merepresentasikan sebuah titik pada permukaan bumi
+Ways/garis, yang merupakan kumpulan dari nodes/titik yang membentuk garis atau poligon (garis tertutup)
+Relations/relasi, yang merupakan kumpulan nodes/titik, garis atau relasi lainnya
 
-Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
+Setiap tipe data dapat memiliki beberapa tag (key dan value). Sebagai contoh, sebuah kantor pos mungkin termasuk tipe data garis dengan tags building=yes dan amenity=post_office. Perhatikan bagaimana tag tersebut dapat didefiniskan di Export Tool dengan menggunakan Tag Tree dan Form YAML untuk melakukan filter data OSM.
 
 ### Tag Tree
 The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
