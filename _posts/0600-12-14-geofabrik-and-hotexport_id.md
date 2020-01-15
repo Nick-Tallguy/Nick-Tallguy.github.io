@@ -175,40 +175,40 @@ Relations/relasi, yang merupakan kumpulan nodes/titik, garis atau relasi lainnya
 Setiap tipe data dapat memiliki beberapa tag (key dan value). Sebagai contoh, sebuah kantor pos mungkin termasuk tipe data garis dengan tags building=yes dan amenity=post_office. Perhatikan bagaimana tag tersebut dapat didefiniskan di Export Tool dengan menggunakan Tag Tree dan Form YAML untuk melakukan filter data OSM.
 
 ### Tag Tree
-The Tag Tree is the simplest way to get started selecting features, simply by ticking the desired parent or child checkboxes. Please note that selecting a parent checkbox will add additional key=value tags associated to the theme, as well as the child checkboxes below it. Each parent checkbox has a different query to filter data, so it is highly recommended that the syntax for each theme is explored by hovering over the checkbox, which will provide an info box to the right. 
+Tag Tree adalah cara termudah untuk memilih fitur yang akan diunduh, dengan mencentang jenis objeknya. Perlu diingat bahwa jika memilih satu tema jenis objek maka key=value terkait tema tersebut akan ditambahkan berikut dengan sub-tema dibawahnya. Setiap tema memiliki query berbeda untuk memfilter data, jadi sangat direkomendasikan untuk mengeksplor tiap tema dengan menyorot tema tersebut sehingga muncul kotak informasi di sebelahnya. 
 
 ![export-tool-treetag-sql][]
 
 
-For example selecting the ‘Emergency’ parent checkbox, will automatically select the ‘Police Station’, ‘Ambulance Station’ and ‘Fire Station’ child checkboxes below it, yet in addition to this it will also select all tags where emergency=yes, amenity=police and amenity=fire_station in the following SQL query:
+Misalnya, jika memilih tema 'Emergency' akan otomatis memilih sub-tema Police Station’, ‘Ambulance Station’ and ‘Fire Station’ yang berada di bawahnya, tag yang terkait tema ini emergency=yes, amenity=police and amenity=fire_station akan ditambahkan  juga ke dalam query SQL di bawah ini:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 
-The parent checkboxes do not always represent what is available as children below, to try and account for all possible tags associated with a theme. OSM tags are continuously evolving and we want to ensure that the tool can adapt to these changes. Only the most commonly used key=value tags are represented as child checkboxes, and the parent checkboxes are used to try and encompass those not used as frequently, but fall within a theme. If you have suggestions for modifications to these themes and tags, please comment on the [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) used to populate the Tag Tree, and we will try to incorporate it where appropriate.
+Tema tidak selalu mencerminkan sub-tema yang ada di bawahnya, untuk mencoba dan mencakup semua tag yang berkaitan dengan tema tersebut. Tag OSM selalu berkembang dari waktu ke waktu dan kami ingin memastikan bahwa alat ini dapat beradaptasi terhadap perubahan itu. Hanya tag key=value yang paling sering digunakan yang dijadikan sebagai sub-tema dan tema yang digunakan mencoba untuk mencakup semua yang tidak digunakan begitu sering, namun masih terkait dalam tema tersebut. Jika Anda memiliki saran untuk memodifikasi tema dan tag ini, silakan berikan komentar pada [spreadsheet](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) yang digunakan untuk mengisi Tag Tree dan kami akan mencoba untuk memasukkannya di tema yang sesuai.
 
 ![export-tool-treetag-spreadsheet][]
 
 
 ### YAML Form
-Using a YAML configuration provides complete control over applying filters to the OSM data, by using a SQL-like filter definition to apply key=value tags. Please note that the Tag Tree also generates syntax on the YAML Form, so any parent and child checkboxes selected will automatically be applied in the YAML box. This acts as a starting point for the query which can be further edited. 
+Menggunakan YAML memungkinkan Anda untuk memegang kendali penuh dalam memfilter data OSM, menggunakan sejenis filter SQL untuk tag key=value. Perlu diingat bahwa Tag Tree juga menghasilkan syntax dalam bentuk YAML, jadi tiap tema dan sub-tema yang terpilih akan otomatis diaplikasikan di kotak YAML. Ini adalah titik awal dari query yang dapat diedit lebih lanjut. 
 
 ![export-tool-treetag-yaml][]
 
 
-The use of YAML was chosen due to its simplicity and compatibility with SQL. The YAML feature selection format  is similar to style files used by programs such as osm2pgsql and imposm. It is whitespace sensitive, with each child element indented below its parent element, and preceded by a dash. This dash must have a space after it. Here is a basic example of a feature selection with 3 themes, buildings, waterways and hospitals:
+Penggunaan YAML dipilih karena sifatnya yang sederhana dan kompatibel dengan SQL. Format pemilihan fitur YAML serupa dengan format yang digunakan banyak program seperti osm2pgsql dan imposm. YAML sensitif dengan spasi, dengan masing-masing elemen di bawah tema utama diindentasi dan diawali dengan tanda strip (-). Tanda strip ini harus diberi spasi setelahnya. Berikut ini adalah sebuah contoh dasar dari pemilihan fitur dengan 3 tema yaitu bangunan (buildings), sungai (waterways) dan rumah sakit (hospitals):
 
 ![export-tool-yaml-code1][]
 
 
-YAML has Themes, and two data structures, Mapping and Lists
-Theme in the above example is: buildings
-Mappings in the above example are: types and select 
+YAML memiliki Themes (tema) dan dua struktur data, Mapping and Lists
+Tema (Theme) pada contoh di atas adalah: bangunan (buildings)
+Mapping pada contoh di atas adalah: tipe dan pilihan (type and select) 
 Lists in the above example are: child elements of select and types
 
-YAML: Themes
-Themes are the top level keys in the YAML document, with valid characters including letters, numbers and underscores. 
+YAML: Tema (Themes)
+Tema (Themes) adalah keys level tertinggi pada dokumen YAML, dengan karakter yang valid termasuk huruf, angka dan garis bawah (underscore). 
 
-YAML: Geometry Types
+YAML: Jenis Geometri
 The list values under the mapping types can be one or more of ‘- points’, ‘- lines’, ‘- polygons’. If the types key is omitted, all three geometry types will be included in the theme.
 
 YAML: Column Selections
@@ -217,19 +217,19 @@ List items under the mapping select key determines the columns for each theme. T
 ![export-tool-yaml-code2][]
 
 
-YAML: Filters
-Filters are under the where: key in each theme. They define what subset of OSM features belongs to that theme. The following example will filter the theme to only features where the key natural has the value waterway:
+YAML: Filter
+Filter berada di bawah: key pada setiap tema. Mereka mendefinisikan subset dari fitur OSM mana yang termasuk pada tema itu. Contoh di bawah ini akan memfilter tema hanya pada fitur yang memiliki key natural dan memiliki value waterway:
 
 ![export-tool-yaml-code3][]
 
 
-Please note It is almost always necessary to have some kind of filtering, otherwise the theme will simply include all OSM features for the given geometry types. A filter is specified using SQL-like syntax, with valid keywords IS NOT NULL, AND, OR, IN, =, !=.
+Perlu diingat bahwa penting melakukan filter, jika tidak tema akan memasukkan sema fitur OSM dari tipe geometrinya. Sebuah filter diaplikasikan menggunakan syntax mirip SQL dengan kata kunci valid IS NOT NULL, AND, OR, IN, =, !=.
 
 ![export-tool-yaml-code4][]
 
 
 JOSM Presets
-Older versions of the Export Tool used JOSM Preset .XML files to define feature selections. The new version uses YAML as it is more flexible in how it transforms OSM data. The new Export Tool, however can help convert JOSM presets into YAML configurations, by selecting the ‘Load from JOSM Preset .XML’ button. Please note If the preset is more complex, it may need to be written as a new YAML configuration based on the ‘item’ elements contained in the XML.
+Versi sebelumnya Export Tool menggunakan file .XML Preset JOSM untuk menyeleksi fitur. Versi terbaru menggunakan YAML karena file ini lebih fleksibel dalam mentransformasi data OSM. Export Tool terbaru dapat membantu mengkonversi preset JOSM ke dalam YAML, dengan menekan tombol ‘Load from JOSM Preset .XML’. Perlu diingat jika presets yang dimasukkan cukup kompleks, mungkin akan dikonversikan sebagai sebuah konfigurasi YAML baru berdasarkan elemen ‘item’ pada XML.
 
 ![export-tool-load-preset][]
 
@@ -237,7 +237,7 @@ Older versions of the Export Tool used JOSM Preset .XML files to define feature 
 
 ### Configurations
 
-YAML configurations can be defined and saved for future use through the ‘Configs’ page. It's useful to create one configuration for a project, which can then used on all exports related to that project. Give the configuration a ‘name’ and ‘description’ that will make it discoverable by other users. Unchecking the ‘Public’ checkbox will make the configuration visible to only the user. 
+YAML dapat didefinisikan dan disimpan untuk digunakan di waktu yang lain melalui halaman ‘Configs’. Hal ini berguna untuk membuat satu konfigurasi untuk sebuah proyek, yang kemudian dapat digunakan untuk semua ekspor yang berhubungan dengan proyek itu. Berikan konfigurasi YAML tersebut sebuah ‘name’ dan ‘description’ yang akan membuatnya dapat ditemukan oleh pengguna lain. Tidak mencentang ‘Public’ akan membuat konfigurasi YAML terlihat hanya oleh pengguna tersebut. 
 
 ![export-tool-configuration-saved][]
 
