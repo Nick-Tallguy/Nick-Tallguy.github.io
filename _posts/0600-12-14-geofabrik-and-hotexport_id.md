@@ -228,7 +228,7 @@ Perlu diingat bahwa penting melakukan filter, jika tidak tema akan memasukkan se
 ![export-tool-yaml-code4][]
 
 
-JOSM Presets
+Preset JOSM
 Versi sebelumnya Export Tool menggunakan file .XML Preset JOSM untuk menyeleksi fitur. Versi terbaru menggunakan YAML karena file ini lebih fleksibel dalam mentransformasi data OSM. Export Tool terbaru dapat membantu mengkonversi preset JOSM ke dalam YAML, dengan menekan tombol ‘Load from JOSM Preset .XML’. Perlu diingat jika presets yang dimasukkan cukup kompleks, mungkin akan dikonversikan sebagai sebuah konfigurasi YAML baru berdasarkan elemen ‘item’ pada XML.
 
 ![export-tool-load-preset][]
@@ -242,12 +242,12 @@ YAML dapat didefinisikan dan disimpan untuk digunakan di waktu yang lain melalui
 ![export-tool-configuration-saved][]
 
 
-Please note that configurations can be edited, which is useful for evolving a feature selection during the course of a project. Saved YAML configurations can be selected via the ‘Stored Configuration’ option on the ‘3 Data’  tab when creating an export. Use the Search bar to find configurations related to your project.
+Perlu diingat bahwa konfigurasi dapat diubah, yang sangat berguna untuk mengembangkan seleksi fitur selama proyek berlangsung. Konfigurasi YAML yang tersimpan dapat dipilih kembali melalui opsi ‘Stored Configuration’ pada tab ‘3 Data’ ketika membuat sebuah ekspor. Gunakan kotak pencarian untuk mencari konfigurasi yang berhubungan dengan proyek Anda.
 
 ![export-tool-configuration-stored][]
 
 
-For further detailed information regarding feature selections and YAML, please visit the ‘Selecting Features’ and ‘YAML Specification’ in the ‘[Learn](https://export.hotosm.org/en/v3/learn)’ section on the tool website. 
+Untuk informasi lebih detail mengenai seleksi fitur dan YAML, silakan kunjungi halaman ‘[Learn](https://export.hotosm.org/en/v3/learn)’ pada bagian ‘Selecting Features’ dan ‘YAML Specification’. 
 
 
 
