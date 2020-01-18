@@ -1,8 +1,8 @@
 ---
 tata letak : doc
 judul: sumber lainnya
-permalink: /en/resources/
-lang: en
+permalink: /id/resources/
+lang: id
 sampul: ya
 kategori: sumber daya
 ---
