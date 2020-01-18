@@ -59,7 +59,7 @@ Jenis database lainnya yang sering ditemui adalah SQLite, yang menyediakan fungs
 Rangkuman
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+Pada bab di bawah kita akan mempelajari bagaimana Anda dapat mengunduh data dalam berbagai macam format dari internet dan bagaimana Anda daoat menggunakan bebagai macam alat untuk memanipulasi data mentah sendiri.  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png
