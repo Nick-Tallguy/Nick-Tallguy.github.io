@@ -3,7 +3,7 @@ layout: doc
 permalink: /id/beginner/
 lang: id
 title: Panduan bagi pemula
-category: pemula
+category: beginner
 cover: yes
 nosearch: true
 ---

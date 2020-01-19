@@ -3,7 +3,7 @@ layout: doc
 title: Mengelola Mapathon
 permalink: /id/coordination/mapathon/
 lang: id
-category: koordinasi
+category: coordination
 ---
 
 # Mengelola Mapathon

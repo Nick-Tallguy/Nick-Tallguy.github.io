@@ -11,7 +11,7 @@ iD Editor
 
 > 2019-06-10
 
-Ingin mulai memetakan menggunakan Tasking Manager untuk HOT atau MissingMaps? Lihat [HOT-tips section](/en/hot-tips/).  
+Ingin mulai memetakan menggunakan Tasking Manager untuk HOT atau MissingMaps? Lihat [HOT-tips section](/id/hot-tips/).  
 
 - TOC
 {:toc}

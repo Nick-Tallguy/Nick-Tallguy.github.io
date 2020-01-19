@@ -3,7 +3,7 @@ layout: doc
 title: OpenStreetMap.org
 permalink: /id/beginner/start-osm/
 lang: id
-kategori: pemula
+category: beginner
 ---
 
 Memulai menggunakan OpenStreetMap.org
