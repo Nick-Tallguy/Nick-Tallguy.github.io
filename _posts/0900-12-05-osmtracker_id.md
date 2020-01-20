@@ -46,31 +46,31 @@ Buka OSMTracker dan tekan ikon menu pada perangkat Android Anda lalu pilih **Set
 -  **GPS settings** Metode mana yang perangkat Android Anda gunakan untuk menentukan lokasi. Direkomendasikan untuk memilih **High accuracy** dan perangkat Anda akan menggunakan GPS, Wi-Fi dan jaringan seluler untuk mengestimasi lokasi.  
 -  **Check GPS at startup** Ketika Anda membuka OSMTracker, jika GPS dalam keadaan nonaktif, aplikasi ini akan meminta Anda untuk mengaktifkannya.
 -  **Ignore GPS clock** Jika kotak ini dicentang, waktu yang digunakan adalah waktu dari jam internal perangkat daripada waktu yang disediakan oleh sinyal GPS.  
--  **GPS logging interval** Choose the period between the recording of the position - for best accuracy select 0 or 1, each of which results in a recording each second.  
+-  **GPS logging interval** Pilih periode perekaman posisi - untuk akurasi terbaik pilih 0 atau 1, aplikasi akan merekam trek tiap detik periode perekaman yang dipilih.  
 
-> The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
+> Frekuensi ini berdampak pada penggunaan baterai, namun ketika menggunakan aplikasi ini, layar Anda biasanya akan selalu menyala, GPS selalu bekerja dan Anda juga mungkin mengambil beberapa foto dan rekaman - semua ini akan menguras daya smartphone Anda sehingga baterai cepat habis dan direkomendasikan untuk menggunakan alat tambahan untuk mengisi daya (power bank) saat merekam perjalanan Anda.  
 
--  **External storage (SD) directory** Default is /osmtracker  
+-  **External storage (SD) directory** Direktori bawaan adalah /osmtracker  
 
-> Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
+> Perangkat Android terbaru tidak memperbolehkan Anda untuk menyimpan data di eksternal microSD atau SD card. Meskipun diatur ke 'external storage' trek dan lainnya akan disimpan di **/storage/emulated/0/osmtracker.**  
 
--  **One directory per track** Recommended as this will result in all of the related voice recordings, photographs, text notes and the gpx trace all being stored in the same folder, named with the date and time of the gpx file creation.  
--  **Filename for named tracks** Options for you to choose from if you have a preference for the naming of the files.  
--  **Accuracy in GPX file** Recommended - will result in the waypoint name including a figure approximating the possible error range in metres. For instance *Footpath (4.0m)*. This information can be extremely useful later when updating OSM, and deciding whether to move an existing feature to align with the new trace & waypoints.  
--  **Use HDOP approximation** Relates to additional calculations to improve the position accuracy (Horizontal Dilution of Precision).  
--  **Export Compass Heading** Defines if and how the compass data should be exported to the GPX file.  
--  **Default photo source** Generally you will take photo's with the camera through this app., but you can chose to use photo's already on the phone.  
--  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
--  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
--  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [see below](/en/mobile-mapping/osmtracker/#button-presets).   
--  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
+-  **One directory per track** Direkomendasikan karena semua rekaman suara, foto, catatan dan trek gpx disimpan di folder yang sama, dengan nama waktu dan tanggal saat trek diambil.  
+-  **Filename for named tracks** Pilihan untuk Anda mengatur nama file sesuai preferensi Anda.  
+-  **Accuracy in GPX file** Direkomendasikan - nama waypoint akan terdapat angka perkiraan error yang mungkin terjadi dalam satuan meter. Misalnya *Footpath (4.0m)*. Informasi ini akan sangat berguna ketika digunakan untuk memperbarui data OSM dan ketika memutuskan apakah sebuah objek harus disesuaikan dengan waypoints atau tidak.  
+-  **Use HDOP approximation** Berhubungan dengan perhitungan tambahan untuk meningkatkan akurasi posisi (Horizontal Dilution of Precision).  
+-  **Export Compass Heading** Mendefinisikan jika dan bagaimana data kompas harus diekspor ke file GPX.  
+-  **Default photo source** Pada umumnya Anda akan mengambil foto menggunakan kamera melalui aplikasi ini, tapi Anda dapat menggunakan foto yang sudah ada di handphone Anda.  
+-  **Screen always on** Pilih opsi ini jika Anda seringkali menekan tombol, mengambil foto atau merekam suara - jika tidak, biarkan kotak tidak dicentang sehingga Anda dapat menyala-matikan layar ketika Anda membutuhkan, yang akan menghemat baterai.  
+-  **Main screen graphic theme** Pilihan untuk mengubah kontras dan kecerahan layar jika Anda kesulitan melihat tombol saat merekam trek perjalanan.  
+-  **Button Presets** Anda dapat mendesain dan menginstal set tombol sendiri dan memilihnya sebagai tampilan pada aplikasi dengan memilih opsi ini. Untuk deskripsi lengkap dari fungsi ini, [lihat di bawah](/id/mobile-mapping/osmtracker/#button-presets).   
+-  **Background map** Dengan menekan dan menahan pada trek yang sudah direkam, jika fitur ini dipilih, Anda dapat menampilkan trek dan aplikasi akan mengunduh data OpenStreetMap sebagai peta latar belakang.  
 
-> This does require a data connection to download the map. You do not need to use this function unless you wish to.  
+> Untuk mengunduh data peta dibutuhkan koneksi internet. Anda tidak wajib untuk menggunakan fitur ini kecuali jika Anda memang ingin menggunakannya.  
 
--  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
--  **Orientation**  Do you want the screen to rotate, or use it in landscape or portrait?  
+-  **Map Tile Provider** Jika Anda memilih untuk mengunduh data peta sebagai latar belakang ketika menampilkan petanya, Anda dapat memilih versi peta mana untuk digunakan sebagai latar belakang.  
+-  **Orientation**  Apakah Anda ingin layar dapat berotasi secara otomatis, atau ingin layar landscape atau portrait?  
 
-The Track List
+Daftar Trek
 --------------
 
 ![OSMTracker_2][]  
