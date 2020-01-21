@@ -206,64 +206,64 @@ Belajar Dasar-Dasar Menggambar menggunakan JOSM
 - Untuk menggambar garis, klik satu kali dengan mouse Anda. Gerakkan mouse Anda dan
   Klik lagi. Lanjutkan hingga Anda merasa cukup puas dengan hasil garis Anda. Untuk mengakhiri
   garis, klik dua kali menggunakan mouse Anda. 
-- Draw a shape the same way that you draw a line, but finish the shape
-  by double-clicking on the point where you started the line.
+- Menggambar poligon sama dengan menggambar garis, namun sempurnakan bentuk area 
+  dengan klik dua kali pada titik dimana Anda mulai menggambar.
 
-### Add Presets
+### Menambahkan Preset
 
-- Now we know how to draw points, lines and shapes, but we still
-  haven’t defined what they represent. We want to be able to say that
-  our points are shops, schools, or something else, and whether our
-  shapes are fields, buildings, or something else.
-- Click on the Select tool, in the column of buttons on the left.
+- Sekarang kita tahu bagaimana cara menggambarkan titik, garis dan poligon, tapi kita
+  belum mendefinisikan informasi objek tersebut. Kita perlu mengidentifikasi apakah 
+  titik yang kita gambar adalah toko, sekolah, atau hal lain, dan apakah
+  poligon kita adalah lapangan, bangunan, atau hal lain.
+-Klik pada Select tool, di kolom tombol sebelah kiri.
 
   ![Select tool][]
 
-- Select one of the objects that you drew with the Draw tool. On the
-  top menu, click “Presets”. Move your mouse through the sub-menu to
-  the type of location you would like to define.
-- When you click on a preset, a form will pop up asking you for more
-  information. You do not have to fill in every field, but you may
-  wish to add some of the important fields, such as the name of the
-  object.
-- When you are finished entering the information, click “Apply
-  Preset”. If everything went well, your point, line, or shape should
-  change colors or show a symbol. This is because you have defined
-  what it is.
+- Pilih salah satu objek yang Anda gambar tadi menggunakan Draw tool. Pada
+  menu bagian atas, klik "Presets". Gerakkan mouse Anda ke bagian sub-menu
+  dimana Anda ingin mendefinisikan objek Anda sebagai apa. 
+- Ketika Anda klik preset, sebuah form isian akan muncul dan menanyakan informasi lebih
+  detil. Anda tiak perlu mengisi semua bagian, tapi mungkin Anda 
+  ingin mengisi beberapa bagian penting seperti nama
+  objek.
+- Ketika Anda selesai mengisi informasi, klik "Apply
+  Preset". Jika semuanya benar, titik, garis, atau poligon Anda akan
+  berganti warna atau menunjukkan simbol. Ini disebabkan Anda telah mendefinisikan 
+  objek apakah itu.
 
-Draw Your Own Map
+Menggambar Peta Anda Sendiri
 -----------------
 
-- Now let’s draw a map in order to practice the techniques you have
-  learned. You may wish to redraw the map that you drew on paper previously.
-- Drag the map away from the sample map. Hold the right mouse button
-  and drag your mouse, until you have a nice empty area to draw on.
-- Use the Draw tool to create points, lines, and shapes. Describe what
-  your objects are by selecting from the Presets menu.
-- When you are finished, you should have your own map, similar to the
-  sample map that we opened in sample.osm.
+- Sekarang mari menggambar peta untuk berlatih teknik yang telah Anda
+  pelajari.
+- Geser peta menjauhi peta contoh. Klik kanan dan tahan 
+  dan geser mouse Anda, hingga Anda mempunyai area kosong untuk digambar.
+- Gunakan Draw tool untuk menggambar titik, garis, dan poligon. Deskripsikan apa
+  yang Anda gambar dengan memilihnya dari menu Presets.
+- Ketika Anda selesai, Anda seharusnya telah memiliki peta Anda sendiri, sama seperti
+  peta contoh yang kita bubka di sample.osm.
 
-## Remove the sample layer
+## Menghilangkan layer contoh
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features. 
+Ketika Anda telah menguasai teknik dasar editing Anda mungkin ingin 
+lebih fokus untuk memetakan objek nyata. 
 
-*It is very important that you first remove the layer with the sample data. 
-These data are fictitious and must not be uploaded to the OpenStreetMap 
-database (newer JOSM releases automatically prevent this).*
+*Sangat penting bagi Anda untuk menghapus layer yang berisi data contoh. 
+Data-data ini adalah data fiktif dan tidak diperbolehkan untuk diupload ke database 
+OpenStreetMap (versi JOSM terbaru secara otomatis mencegah hal ini).*
 
-In the Layers window on the upper right of the screen select the sample.osm layer. 
-Then click on the trash can icon in the lower right corner of that window. 
-Alternatively you can choose delete from the context menu of the layer. 
-In order to continue editing you first need to download real data. 
-This will be explained in the next chapter.
+Di jendela Layer di sebelah kanan atas layar pilih layer sample.osm. 
+Lalu klik tombol dengan gambar tempat sampah di sebelah kanan bawah jendela tersebut. 
+Sebagi alternatif Anda dapat menghapus menggunakan context menut di bagian layer. 
+Untuk melanjutkan editing Anda perlu mendownload data asli. 
+Hal ini akan dijelaskan di bab berikutnya.
 
-Summary
+Ringkasan
 -------
 
-Excellent! If all went well you have learned how to setup JOSM on your
-computer, and the basic tools for drawing maps. In the next chapter we will
-take a closer look at the process of editing the OSM map with JOSM.
+Luar biasa! Jika segalanya berjalan baik Anda telah berhasil mempelajari bagaimana melakukan pengatran JOSM di
+komputer Anda, dan alat-alat dasar untuk menggambar peta. Di bab selanjutnya kita akan 
+melihat lebih dekat pada proses editing peta OSM menggunakan JOSM.
 
 [JOSM website]: /images/josm/josm-website.png
 [Windows installer]: /images/josm/windows-installer.png

@@ -74,22 +74,22 @@ Daftar Trek
 --------------
 
 ![OSMTracker_2][]  
-Having carried out your initial survey, clicking buttons, creating voice recordings and taking photographs, when you have finished, click on the floppy disk icon to end your track. Now press and hold the track in the list & options become available:  
+Setelah menyelesaikan survey, menandai objek, membuat rekaman suara dan mengambil foto, klik pada icon disket untuk menyudahi perekaman trek. Lalu tekan dan tahan nama trek tersebut pada daftar trek dan pilihan-pilihan berikut akan muncul:  
 
--  **Resume Tracking** useful when you realise you've missed a bit!  
--  **Display** will show the track, possibly with a background map depending on your data connection and the option you selected in **Background Map**.  
--  **Export as GPX** - necessary for the track and waypoints to be used in an editing programme.  
--  **Upload to OpenStreetMap** Use this option to upload your trace to OpenStreetMap - you will need to have an OpenStreetMap account ([How to obtain explained here](/en/beginner/start-osm/)), and will need to authorise this app to upload traces to your account. See [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) for more information on why these traces are so important to OpenStreetMap.  
+-  **Resume Tracking** berguna ketika Anda menyadari perekaman trek belum selesai dan ingin Anda lanjutkan  
+-  **Display** akan memunculkan trek, kemungkinan dengan peta latar belakang tergantung dengan koneksi internet Anda dan pilihan yang Anda pilih pada **Background Map**.  
+-  **Export as GPX** - penting untuk mengubah trek dan waypoints menjadi format gpx untuk digunakan pada editor.  
+-  **Upload to OpenStreetMap** Gunakan pilihan ini untuk mengunggah trek Anda ke OpenStreetMap - Anda membutuhkan akun OpenStreetMap untuk melakukannya ([Bagaimana cara membuat akun OSM](/id/beginner/start-osm/)), dan Anda butuh memberikan otorisasi aplikasi ini untuk mengunggah trek ke akun Anda. Lihat [Trek GPS - file gpx di bawah](/id/mobile-mapping/osmtracker/#gps-traces--gpx-files) untuk melihat informasi lebih lanjut mengapa trek ini penting untuk OpenStreetMap.  
 
-> **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
+> **Perhatian, jangan hapus trek dulu.** Anda baru mengunggah trek dasar dan bukan waypoints, foto dan sebagainya. You have only uploaded the basic trace and not the waypoints, photographs etc. Pindahkan semua ke dalam untuk selanjutnya digunakan untuk mengedit.  
 
--  **Delete**. Self explanatory.  
+-  **Delete**. Untuk menghapus trek.  
 
 
-Button Presets
+Tombol Presets
 --------------
 
-If you will be surveying for a particular reason, and the waypoint label you require is not available, you can create your own set of button presets prior to your surveying trip, load them into the phone and select them whilst surveying as & when you need them - several can be loaded in the phone & you may switch between them without stopping your recording. As the label you create is in the form of a personal note, it does not need to conform to the tags used within OpenStreetMap, and will not be uploaded to it. For instance, you may choose to have buttons labelled;  
+Jika Anda akan melaukan survey untuk alasan tertentu dan ternyata label waypoint yang Anda butuhkan tidak tersedia, Anda dapat membuat sebuah set tombol preset sendiri sebelum melakukan survey, menyalinnya ke dalam smartphone Anda dan menggunakannya ketika survey - beberapa set dapat dibuka di smartphone Anda dan Anda dapat menggunakannya secara bergantian tanpa harus menghentikan perekaman trek Anda. Karena label yang digunakan dibuat dalam bentuk formulir catatan personal dan tidak akan diunggah ke OpenStreetMap, label tersebut tidak perlu mengikuti tag yang digunakan pada OpenStreetMap. Misalnya, Anda menggunakan tombol label seperti ini;  
 
 - 1 family,  
 - 2 families,  
@@ -105,17 +105,17 @@ If you will be surveying for a particular reason, and the waypoint label you req
 - 4wd needed,  
 - etc..  
 
-For a full description on creating a button preset, see the [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). This is a [sample download file.](/files/R_of_Way.xml)  
+Untuk deskripsi lengkap mengenai pembuatan tombol preset, lihat [halaman wiki OSMTracker](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). Berikut ini adalah sebuah [file sampel.](/files/R_of_Way.xml)  
 
 ![OSMTracker button presets][]  
 
 
-Voice recordings, photograph & text image sizes  
+Ukuran rekaman suara, foto & teks foto  
 -----------------------------------------------  
 
 ![OSMTracker recorded file sizes][]  
 
-If file transfer at a later stage is an issue, be aware of the file sizes involved - as the screenshot shows photographs are very memory intensive compared to the gpx file or a 10 second voice recording.  
+Jika transfer file menjadi sebuah masalah pada tahap berikutnya, perhatikan ukuran filenya - screenshot menampilkan bahwa file foto akan lebih besar ukuran filenya daripada file gpx atau sebuah file rekaman suara 10 detik.  
 
 
 GPS Traces - gpx files
@@ -123,7 +123,7 @@ GPS Traces - gpx files
 
 ![OSMTracker JOSM][]  
 
-GPS traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph.  
+Trek GPS yang berupa file gpx terdiri dari sejumlah element, yaitu sebuah 'trek' dan 'waypoints'. Screenshot di atas menunjukkan sebuah folder yang berisi file hasil survey menggunakan OSMTracker yang sudah dibuka di JOSM siap digunakan untuk mengedit data OSM, dengan citra satelit sebagai latar belakang. Ikon persegi di tengah-tengah trek mengindikasikan ada foto yang diambil di lokasi tersebut - klik ikon persegi tersebut untuk menampilkan foto.  
 
 If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
 Volunteers updating OpenStreetMap can download all of the traces that have been uploaded in an area, and use them to:  
