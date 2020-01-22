@@ -125,13 +125,13 @@ GPS Traces - gpx files
 
 Trek GPS yang berupa file gpx terdiri dari sejumlah element, yaitu sebuah 'trek' dan 'waypoints'. Screenshot di atas menunjukkan sebuah folder yang berisi file hasil survey menggunakan OSMTracker yang sudah dibuka di JOSM siap digunakan untuk mengedit data OSM, dengan citra satelit sebagai latar belakang. Ikon persegi di tengah-tengah trek mengindikasikan ada foto yang diambil di lokasi tersebut - klik ikon persegi tersebut untuk menampilkan foto.  
 
-If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
-Volunteers updating OpenStreetMap can download all of the traces that have been uploaded in an area, and use them to:  
+Jika Anda melakukan navigasi menggunakan GPS untuk mendapatkan arahan, Anda akan menyadari bahwa GPS melakukan 'rekalkulasi'. Hal ini normal terjadi karena lokasi dari internal GPS tidak sesuai dengan dimana lokasi jalan berada - ada margin of error, namun akan sangat mudah untuk jalan diletakkan sedikit bergeser atau untuk jalan digeser setelah data peta dibuat.  
+Relawan yang memperbarui data OpenStreetMap dapat mengunduh semua trek GPS yang sudah diunggah pada suatu area dan menggunakannya untuk:  
 
-1. Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
-2. Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.  
+1. Trek jalan dapat melalui area yang tidak terlihat pada citra satelit karena tertutup awan, pohon, bayangan, bangunan dll.  
+2. Menyesuaikan citra satelit sehingga citra satelitnya sejajar dengan trek GPS - terdapat variasi pada beberapa citra.  
 
-Although a single gpx trace is very useful, it may not be particularly accurate and can be as much as 30 metres out of place. When there are several traces, the correct route of the path or road is now easy to see - for example see the screenshot below showing a download of gpx traces in a town, in which the main roads can be seen by the volume of traces.  
+Meskipun sebuah trek gpx sangat berguna, bisa saja trek gpx tidak akurat dan bisa saja bergeser sejauh 30 meter. Ketika ada beberapa trek, rute dari jalan yang benar akan mudah dilihat - lihat contoh screenshot di bawah ini menampilkan hasil unduhan trek gpx dari sebuah kota, dimana jalan utamanya dapat dilihat dari volume treknya.  
 
 ![OSMTracker_gpx][] 
 
