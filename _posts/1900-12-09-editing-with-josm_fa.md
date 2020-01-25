@@ -15,7 +15,7 @@ category: josm
 در بخش [نقشه‌کشی با گوشی هوشمند، GPS و یا برگه‌های میدانی](/fa/mobile-mapping/) می‌توانید ببینید که چگونه از موبایل برای بررسی میدانی یک منطقه استفاده کنید.  
 
 در این فصل دوباره به JOSM بازمی‌گردیم و نگاهی به چند جنبه آن که 
-در آن زمان بجث نکردیم، می‌پردازیم.
+در آن زمان بحث نکردیم، می‌پردازیم.
 
 لایه‌های JOSM
 -----------
@@ -35,18 +35,18 @@ category: josm
 1” داده OpenStreetMap است که آنرا ویرایش می کنیم. "ورقه های میدانی” 
 لایه ایست که ما در زمان اضافه کردن آنها به JOSM ایجاد کردیم.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+اگر تصاویر ماهواره‌ای Bing را اضافه کنید، لایه جدیدی به اسم "Bing Sat"در پنل لایه‌ها ایجاد می‌شود.
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each
-layer is like a semi-transparent piece of paper, and they are all stacked on top of one
-another. Each piece of paper has a certain type of information on it, and they can be rearranged
-any way you like.
+فهمیدن لایه‌ها کمی مشکل است. یک روش خوب برای تصورسازی لایه‌ها این است که هر
+لایه را مانند یک ورقه کاغذ نیمه شفاف در نظر بگیرید که روی یکدیگر قرار گرفته‌اند.
+هر ورقه اطلاعات خاصی روی خودش دارد و لایه‌ها را 
+به هر روشی که دوست دارید می‌توانید روی هم قرار دهید.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers
-are often called "base layers." The OSM data layer is the layer that you actually work with.
+از لایه‌ای که به عنوان مرجع استفاده می‌شود، مانند تصاویر ماهواره‍ای، مسیرهای GPS و ورقه‌های میدانی
+اغلب به عنوان "لایه پایه" نام برده می‌شود. لایه داده OSM لایه‌ایست که شما در واقع با آن کار می‌کنید.
 
--   To move a layer, click on it in the Layers panel and click on the up
-    or down arrow to move it.
+- برای جابجا کردن یک لایه، در پنل لایه‌ها روی آن کلیک کنید و سپس روی  
+    فلش‌های بالا یا پایین کلیک کنید تا آنرا جابجا کنید.
 
 ![Layers up down][]
 
@@ -62,15 +62,15 @@ are often called "base layers." The OSM data layer is the layer that you actuall
 
 ![Layers delete][]
 
--  Lastly, it’s important to know that you can only edit the layer that
-    is considered *active* by JOSM. If you are unable to edit the map in
-    your map window, it’s probably because you don’t have the correct
-    layer set as active. Most layers, such as GPS points, Field
-    Papers, and satellite imagery, can’t be edited. The only layers that
-    can be edited are data from OpenStreetMap, which are usually called
-    “Data Layer 1”.
--  To make a layer active, select it in the Layers panel, and click on
-    the Activate button:
+- بالاخره، مهم است بدانید که تنها لایه‌ای را می‌توانید ویرایش کنید که
+    لایه *فعال* JOSM می‌باشد. اگر نمی‌توانید نقشه را 
+    در پنجره نقشه ویرایش کنید شاید به خاطر این است که 
+    لایه مناسب فعال نیست. بیشتر لایه‌ها، مثل لایه نقاط GPS، ورقه‌های میدانی 
+    و تصاویر ماهواره‌ای قابل ویرایش نیستند. تنها لایه‌ایی که 
+    قابل ویرایش است لایه داده OpenStreetMap است که معمولاْ
+    “Data Layer 1” نامیده می‌شود.
+- برای فعال کردن یک لایه، در پنل لایه‌ها آنرا انتخاب کنید و روی 
+    کلید فعال کردن (Activate) کلیک کنید:
 
 ![Layers activate][]
 
