@@ -58,11 +58,11 @@ Peta akan menampilkan semua data yang diseleksi dengan kueri yang nantinya bisa 
 
 ![overpass turbo][]
 
-If you want to engineer a fancy query in order to obtain a subset of the data from a large area then it is a good idea to test and improve this query in Overpass Turbo on a small area. You can then zoom out to your complete region of interest and use the resulting query url directly for the API. The next section explains how you can do this.
+Jika Anda ingin menjalankan sebuah query yang rumit untuk memperoleh data dari area yang besar, ada baiknya jika Anda mencoba query tersebut di Overpass Turbo pada area yang lebih kecil. Anda kemudian dapat memperkecil untuk melengkapi area Anda dan gunakan url query tersebut langsung ke API. Bab berikutnya akan menjelaskan bagaimana Anda dapat melakukannya.
 
 #### Overpass API
 
-[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) is a dedicated service optimized for querying but not writing OpenStreetMap data. Due to this optimization it operates very fast compared to the main database api and has virtually no limits on the amount of data transferred. Several instances of this service are available on the net, the one used in the following example also provides some information on [its homepage](http://overpass-api.de/)
+[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) adalah sebuah layanan yang didedikasikan untuk melakukan query namun tidak untuk menulis data OpenStreetMap. Karena optimisasi ini, Overpass beroperasi sangat cepat dibandingkan dengan api database utama dan memiliki jumlah tak terbatas untuk transfer data. Beberapa contoh layanan ini tersedia di internet, yang digunakan pada contoh di bawah ini juga menyediakan informasi pada [halaman depannya](http://overpass-api.de/)
 
 If you have a working query-URL for submitting an http-request to the Overpass API then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a script for the bash shell common on Unix systems which obtains all data within a specified bounding box:
 

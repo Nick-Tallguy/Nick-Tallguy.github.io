@@ -53,23 +53,23 @@ Tampilan Antar Muka iD Editor
     Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
     Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
     Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+4. **Information panel:** Panel ini menunjukkan berbagai macam informasi, seperti skala dan kontributor yang sudah memetakan area tersebut.  
 
 ## Configuring the Background Layer
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+Klik tombol **Background settings** atau gunakan *shortcut key* **b**.![image14][]{: height="24px"}  
 ![image15][]  
 Anda dapat **mengubah latar belakang** berdasarkan tampilan citra satelit yang tersedia (tampilan awal adalah Citra Satelit Bing).   
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+Anda dapat menambahkan map tiles Anda sendiri dengan mengklik **Custom**. Misalnya, Jka Anda ingin **menambahkan Field Paper** [^fieldpaper], klik **Custom** lalu klik ikon kaca pembesar (search) untuk membuka jendela berikut:-  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+dan masukkan **URL snapshot FieldPaper** Anda, yang tampak seperti ini: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 Untuk  **menampilkan trek GPS dari komputer Anda** (format GPX), tarik dan jatuhkan (drag and drop) file GPX ke dalam iD editor.  
 Untuk mengaktifkan **jejak GPS di OpenStreetMap** klik pada kotak. Pada gambar di bawah, data GPS akan ditampilkan dalam berbagai warna, menunjukkan arah trek yang tersedia.   
 ![osm gps traces][]  
 Untuk mengubah **tampilan citra satelit** klik **Display Options**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Jika terdapat [citra yang offset](/id/josm/aerial-imagery), Anda dapat **memperbaiki offset citra** dengan mengklik **Adjust imagery offset**.  
 ![image18][]  
 
 - Klik tombol navigasi untuk memindahkan citra satelit. Klik tombol reset untuk mengembalikannya ke posisi semula. ![image20][]  
@@ -87,7 +87,7 @@ Untuk menambahkan titik baru, klik pada tombol **Titik**. ![image3][]{: height="
 ![image22][]  
 - Anda dapat menggunakan formulir ini untuk mengisi informasi detail tentang titik Anda. Anda dapat mengisi nama rumah sakit, alamat, dan/atau informasi tambahan lainnya. Perhatikan bahwa setiap fitur akan memiliki pilihan yang berbeda, tergantung pada tag apa yang Anda pilih dari panel fitur.   
 - Jika Anda membuat kesalahan, seperti kesalahan lokasi, Anda dapat memindahkan titik Anda ke lokasi yang benar dengan cara menekan dan menahan tombol klik kiri mouse pada titik yang ingin Anda pindahkan kemudian geser titik tersebut. Atau, jika Anda ingin menghapus titik, kllik kiri mouse Anda pada titik yang diinginkan, kemudian aktifkan menu tambahan dengan menekan tombol klik kanan dan pilih tombol dengan gambar tempat sampah. ![PointToolDelete][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+Sebuah "titik" yang dibuat di iD editor biasanya adalah sebuah "node" yang berdiri sendiri dengan serangkaian "tags" di dalamnya.  
 
 ### Menggambar Garis  
 
@@ -99,7 +99,7 @@ Untuk menambahkan garis, klik pada tombol **Garis**. ![image4][]{: height="24px"
 - Anda dapat menggeser titik yang ada pada objek garis dengan meng-klik kiri mouse Anda pada titik yang dituju lalu geser titik tersebut.  
 - Ketika Anda klik kiri mouse pada titik di objek garis, klik kanan pada mouse atau tekan tombol spasi untuk mengaktifkan menu tambahan, seperti berikut:  
   - Melanjutkan garis dari titik ini ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
+  - Putuskan garis pada titik ini ![PointToolDisconnect][]{: height="24px"}  
   - Membagi garis menjadi dua pada titik ini. ![PointToolSplit][]{: height="24px"}  
   - Menghapus titik dari garis. ![PointToolDelete][]{: height="24px"}  
 - Ketika Anda klik kiri mouse pada sebuah garis (bukan pada titik dari garis), Anda akan melihat beberapa alat seperti berikut:  

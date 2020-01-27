@@ -94,22 +94,22 @@ Menambahkan Titik Pertama Anda
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+-   Pilih dari menu di sebelah kiri jenis lokasi yang Anda tambahkan ke dalam peta. Anda kemudian dapat mengisi informasi yang sesuai dengan nama lokasi serta informasi lainnya.
+-   Untuk menyimpan perubahan, klik tombol "Save" di atas. Karena ini adalah perubahan yang Anda buat pertama kali, Anda mungkin lebih memilih untuk berlatih menggunakan editor ini. Jangan simpan perubahan yang Anda buat kecuali Anda yakin mereka sudah benar.
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+-   Jika Anda mengklik Save, Anda akan diminta untuk menambahkan deskripsi dari perubahan yang Anda buat.  Lalu Anda dapat mengklik "Save" sekali lagi dan perubahan Anda akan disimpan ke dalam database OSM!
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+iD editor adalah sebuah editor yang mudah digunakan untuk mengedit OpenStreetMap dan Anda dapat mempelajari cara menggunakannya di [panduan iD editor](/id/beginner/id-editor/).  Anda juga dapat mempelajari [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) yang merupakan sebuah alat interaktif dan bagus untuk mempelajari editor.
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
+Namun, pada [bab JOSM](/id/josm/) kita akan melihat sebuah aplikasi yang menyediakan berbagai macam fitur.  Silakan lanjutkan berlatih menggunakan iD. Ketika Anda sudah memiliki pengalaman berkontribusi ke OSM, Anda dapat memilih editor mana yang paling Anda sukai - iD atau JOSM.
 
 Ringkasan
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+Selamat! Jika semua berjalan lancar Anda sekarang memiliki username dan password OpenStreetMap, Anda mengetahui bagaimana menavigasi situs web OSM dan Anda sudah memahami bagaimana menambahkan titik ke dalam peta.
 
 
 

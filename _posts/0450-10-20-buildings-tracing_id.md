@@ -14,7 +14,7 @@ Mendijitasi bangunan persegi empat - iD editor
 - TOC
 {:toc}
 
-The Essentials
+Hal-hal Mendasar
 ----------
 
 ![Rectangular building][]  
@@ -68,7 +68,7 @@ Lihat juga
 - [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
 *Subtitle tersedia dalam beberapa bahasa*  
 
-- [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+- [Catatan Ivan Gayton untuk Hadjer Lamis, Chad - komentar dari orang lain menunjukkan deskripsi juga cocok untuk bagian lain dunia](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 
 

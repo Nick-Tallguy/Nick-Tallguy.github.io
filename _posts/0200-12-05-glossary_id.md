@@ -73,14 +73,14 @@ Untuk mencari Glosarium ini dengan mudah, gunakan fitur pencarian yang ada di da
 
 **[Way](http://wiki.openstreetmap.org/wiki/Way)**: sekumpulan titik yang secara normal memiliki satu tag atau masuk kedalam relasi. Sebuah way/garis bisa memiliki 2 sampai 2000 titik meskipun mungkin saja terdiri dari 0 titik. Sebuah garis bisa berbentuk tertutup atau terbuka  
 
-* A closed way ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) is one whose last node on the way is also the first on that way. A closed way may be interpreted either as a closed polyline, or an area, or both. 
+* Garis tertutup/poligon ![closedwayimage](http://wiki.openstreetmap.org/w/images/thumb/e/ed/Mf_closed_way.svg/20px-Mf_closed_way.svg.png) merupakan objek dimana titik awal dan titik akhirnya berada di posisi yang sama. Garis tertutup juga dapat diartikan sebagai poligon tertutup atau area.  
 
-* An open way ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) is way describing a linear feature which does not share a first and last node. Many roads, streams and railway lines are open ways.
+* Garis terbuka ![openwayimage](http://wiki.openstreetmap.org/w/images/thumb/2/2a/Mf_way.svg/20px-Mf_way.svg.png) adalah sebuah garis linear dimana titik awalnya tidak sama dengan titik akhirnya. Jalan, jaringan jalan, dan jalur kereta merupakan contoh dari garis ini.
  
-### Note on OSM Editing Terms:
+### Catatan tentang Ketentuan Pengeditan OSM:
 
-Many terms to describe map features in OSM are used in dialects of British English and spelled as such. Like neighbourhood.
+Banyak istilah untuk menggambarkan fitur peta dalam OSM digunakan dalam dialek bahasa Inggris British dan dieja seperti itu. Seperti lingkungan.
 
-**Motorway**: British English term for the most major highway, also considered as 'freeway'
+**Motorway**. Pengertian dalam Bahasa Inggris British untuk sebagian besar jalan, juga dikenal sebagai 'freeway'
 
-**Pitch** : used to describe a playing field. Including tennis courts, basketball courts, baseball diamonds, or football fields.
+**Pitch** : digunakan untuk mendeskripsikan taman bermain. Termasuk, lapangan tenis, basket, baseball, atau lapangan sepakbola.
