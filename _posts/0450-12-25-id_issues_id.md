@@ -23,7 +23,7 @@ iD editor memiliki 'fitur pengecekan' yang dapat menunjukkan potensi masalah yan
 
 ### Warnings dari iD (Isu) ###
 
-### Warnings at any time ![id issues icon]{: height="24px"}
+### Warning setiap saat ![id issues icon]{: height="24px"}
 
 ![id issues][]
 

@@ -14,51 +14,51 @@ Alat Editing JOSM
 - TOC
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+Dalam [panduan memulai JOSM](/en/josm/start-josm/) kami mencakup dasar-dasar menggambar di JOSM, namun terdapat banyak sekali alat dan teknik yang tidak didemonstrasikan.
 
-Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
+Disini kita akan melihat beberapa alat dan teknik dasar yang bisa digunakan untuk menggambar peta di JOSM, dan di bab-bab selanjutnya kita akan melihat lebih dalam pada alat menggambar tingkat lanjut.
 
-Get the Sample File
+Ambil File Contoh
 -------------------
 
-- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
+- Jika Anda ingin mengikuti dan berlatih menggunakan alat-alat di JOSM, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Buka JOSM dan buka file tersebut. File tersebut akan terlihat seperti ini:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Alat Menggambar
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
+Jika Anda mengklik pada menu "Tools" di bagian atas JOSM, Anda akan melihat banyak sekali fungsi yang dapat membantu Anda menggambar garis dan bentuk lainnya, dan juga mengedit objek lain di peta.
 
-JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
+JOSM memiliki beberapa alat tambahan yang dapat memudahkandalam menggambar garis dan bentuk. Alat-alat ini bisa ditemukan di menu "Tools" di bagian atas JOSM.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+Untuk menerapkan fungsi dalam menu ini, terlebih dahulu Anda harus memilih titik, garis, atau poligon di jendela peta. File contoh berisi banyak elemen yang diberi nama berbeda berdasrakan alat-alat yang ada di menu.
 
-### Aligning nodes in a circle  
+### Membuat titik menjadi lingkaran  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- Coba pilih salah satu elemen yang ada di file. Lalu pergi ke menu Tools dan klik fungsi yang sesuai dengan tulisan yang ada di objek terpilih. Sebagai contoh, klik pada lingkaran tidak sempurna tersebut. 
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+- Kemudian, oergi ke Tools->Align Nodes in Circle. Lingkaran yang tidak sempurna akan berbentuk lebih bulat sempurna.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+Cobalah masing-masing alat menggunakan file latihan ini. Deskripsi dari beberapa alat telah disediakan di bawah.
 
-### Split Way  
+### Memisahkan Garis  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+Fitur ini memungkinkan Anda untuk membagi sebuah garis menjadi dua garis berbeda. Hal ini berguna jika Anda ingin menambahkan atribut yang berbeda pada segmen jalan yang berbeda, seperti jembatan, Untuk menggunakan fungsi ini, pilih titik pada bagian tengah garis yang ingin Anda pisah, kemudian pilih Split Way dari menu Tools, dan garis tersebut seharusnya akan terpisah menjadi dua.  
 
 
-### Combine Way
+### Menggabungkan Garis
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+Hal ini merupakan kebalikan dari Memisahkan Garis atau Split Way. Untuk menggunakan fungsi ini, pilih kedua garis yang ingin Anda gabung. Anda dapat memilih lebih dari satu objek dengan menekan tombol SHIFT pada keyboard Anda dan klik di masing-masing garis. Ketika Anda telah memilih kedua garis, pilih Combine Way dari menu Tools. 
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### Memutar balikan dan Menggabungkan  
 
 If you are combining roads that have different directions, you might get this warning:
 

@@ -64,7 +64,7 @@ Jika Anda ingin menjalankan sebuah query yang rumit untuk memperoleh data dari a
 
 [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) adalah sebuah layanan yang didedikasikan untuk melakukan query namun tidak untuk menulis data OpenStreetMap. Karena optimisasi ini, Overpass beroperasi sangat cepat dibandingkan dengan api database utama dan memiliki jumlah tak terbatas untuk transfer data. Beberapa contoh layanan ini tersedia di internet, yang digunakan pada contoh di bawah ini juga menyediakan informasi pada [halaman depannya](http://overpass-api.de/)
 
-If you have a working query-URL for submitting an http-request to the Overpass API then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a script for the bash shell common on Unix systems which obtains all data within a specified bounding box:
+Jika Anda memiliki sebuah query-URL yang berfungsi dengan baik untuk mengirimkan sebuah http-request ke Overpass API maka sebuah alat seperti [wget](https://www.gnu.org/software/wget/) - tersedia untuk beberapa sistem operasi, lihat [di sini](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - memungkinkan Anda untuk mengunduh data mentah OSM langsung dari server dan menyimpannya secara lokal. Potongan script di bawah ini adalah sebuah script untuk melakukan bash shell pada sistem Unix yang berisi semua data pada kotak tertentu:
 
 ```
 echo lower left latitude
@@ -80,7 +80,7 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->What happens here (for the curious who do not want to read the full query language documentation)?  
+>Apa yang terjadi di sini (untuk yang ingin tahu namun tidak membaca keseluruhan dokumentasi bahasa query)?  
 >node(...) selects all nodes within a bounding box;  
 >< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;  
 >rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
@@ -88,10 +88,10 @@ wget -O $file "$url"
 
 
 
-Summary
+Ringkasan
 -------  
 
-The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
+Layanan yang disebutkan pada bab ini adalah pengguna biasa membutuhkan data OSM yang mereka butuhkan dan dapat mengolahnya di software GIS. Namun, Anda mungkin berminat untuk mempelajari cara yang lebih efektif dalam mengolah data. Bab yang tersisa akan sangat teknis, namun akan menunjukkan metode memanipulasi dan mengakses data OSM.  
 
 
 [hot exports]: /images/osm-data/hot-exports.png

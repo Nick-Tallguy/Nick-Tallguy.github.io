@@ -14,7 +14,7 @@ OSMTracker
 **Artikel ini berhubungan dengan OSMTracker untuk Android - ada aplikasi yang serupa untuk windows mobile.**  
 OSMTracker memungkinkan Anda merekam trek gpx perjalanan Anda, dengan kumpulan 'waypoints' yang dapat ditambahkan ketika merekam perjalanan. Perekaman suara, pengambilan foto atau catatan dapat juga ditambahkan ketika merekam perjalanan dan semua akan tergeolokasi.
 
-Quick Start
+Mulai Cepat
 -----------
 
 ![OSMTracker_1][]  
@@ -40,7 +40,7 @@ Konfigurasi OSMTracker
 
 Buka OSMTracker dan tekan ikon menu pada perangkat Android Anda lalu pilih **Settings**.  
 
--  **Voice record duration** - your choice, but 30 seconds is used by the author.  
+-  **Voice record duration** - tergantung pilihan Anda, tapi 30 detik adalah waktu yang digunakan oleh penulis.  
 -  **Enable sound** - direkomendasikan untuk mencentang kotak ini - memunculkan notifikasi suara untuk menandakan ketika memulai dan mengakhiri perekaman suara.  
 -  **Reset  authentication**. Tombol ini akan berwarna abu-abu sampai Anda mengunggah .gpx file dan mengizinkan OSMTracker untuk mengunggah trek ke akun OpenStreetMap Anda.  
 -  **GPS settings** Metode mana yang perangkat Android Anda gunakan untuk menentukan lokasi. Direkomendasikan untuk memilih **High accuracy** dan perangkat Anda akan menggunakan GPS, Wi-Fi dan jaringan seluler untuk mengestimasi lokasi.  

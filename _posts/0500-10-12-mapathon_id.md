@@ -38,9 +38,9 @@ Acara dimulai dengan melatih semua peserta dalam pemetaan dasar menggunakan iD s
 Acara ini diadakan sebulan sekali dan para pembuat peta dapat mendaftar gratis melalui Eventbrite. Setelah beberapa saat, tercatat banyak peserta yang akan datang kembali untuk pemetaan dan pelatihan lebih lanjut. Akhirnya keputusan dibuat untuk membagi acara menjadi training untuk pembuat peta baru menggunakan iD, memigrasikan pembuat peta yang sebelumnya sudah belajar menggunakan iD menjadi menggunakan JOSM, dan pelatihan untuk validator juga diperkenalkan. Format ini telah terbukti sangat sukses tetapi banyak pembuat peta yang tidak dapat mengikuti pelatihan karena acara pelatihan sudah penuh. Mapathon kedua dimulai, Mapathon pada pertengahan bulan untuk pengguna JOSM yang lebih berpengalaman yang akan berkonsentrasi pada pemetaan yang lebih lanjut dan mencoba ide-ide baru.
 Keberhasilan acara London berdasarkan pada sejumlah faktor tetapi terutama pada strategi berikut ...
 
--   Experience taught us that the learning curve for people with no mapping experience whatsoever is very steep and can be off putting and frustrating for these newcomers if they cannot get some mapping done on their first event. It is important to get them mapping as quickly as possible, so they were shown just the very basics with the simpler iD editor, letting them encounter their own particular problems during the course of the evening when they were able to ask for help.
--   It was much easier teaching mappers the more complex JOSM editor if they already had experience of mapping with the iD editor or some other GIS programme. It also meant that you were dealing with a group that were interested in advancing their mapping skills rather than just along to find out what it was about and whether they liked it or not.
--   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
+- Pengalaman mengajari kami bahwa kurva pembelajaran untuk orang-orang yang tidak memiliki pengalaman pemetaan apa pun sangat curam dan dapat membuat frustasi bagi para pendatang baru ini jika mereka tidak dapat melakukan pemetaan pada acara pertama mereka. Hal ini penting bagi mereka untuk memetakan secepat mungkin, sehingga mereka hanya diperlihatkan dasar-dasar dengan iD editor yang lebih sederhana, membiarkan mereka menemukan masalah mereka sendiri selama acara berlangsung dan mereka dapat meminta bantuan.
+- Jauh lebih mudah mengajarkan pemetaan kepada editor JOSM yang lebih kompleks jika mereka sudah memiliki pengalaman pemetaan dengan iD editor atau program GIS lainnya. Itu juga berarti Anda berurusan dengan kelompok yang tertarik untuk menambah keterampilan pemetaan mereka daripada hanya sekedar mencari tahu tentang apa itu dan apakah mereka menyukainya atau tidak.
+- Ini adalah acara reguler pada hari Selasa pertama setiap bulan sehingga mereka dapat memperhitungkannya terlebih dahulu dan tetap slot tetap terbuka.
   A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
   
 ## Memulai bekerja untuk Mapathon Anda paling sebentar satu bulan sebelumnya untuk mengatur dan mempersiapkan acara.  
@@ -129,11 +129,11 @@ If your Mapathon becomes a regular event it is possible that you will start to g
 ![theme][]
 
 
-## Other Resources
+## Sumber daya lainnya
 
 A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+Sumber daya yang berguna untuk mapathon dapat ditemukan [pada halaman sumber daya eksternal kami](/id/resources).
 
 
 [venue]:               /images/coordination/mapathon-1.jpg
