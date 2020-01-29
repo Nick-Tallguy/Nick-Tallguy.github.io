@@ -19,13 +19,13 @@ From the Tasking Manager information tab, or your other source of the informatio
 
 ![TM Imagery][]
 
-Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**)  
+Pergi ke menu Preferences di JOSM (**Edit / Preferences**, atau di Apple **JOSM / Preferences**)  
 
 ![Preferences WMS TMS 1][]
 
-Click on the ![WMS_TMS_button][]{: height="24px"} icon, and in this case the ![+TMS_button][]{: height="24px"} icon.  
+Klik pada ikon ![WMS_TMS_button][]{: height="24px"}, dan dalam kasus ini ikon ![+TMS_button][]{: height="24px"}.  
 
-> TMS URLs usually have {x}{y} and {z} in them, WMS URLs are typically very long and have {width} and {height}, WMTS URLs usually have WMTSCapabilities.xml in them. If you are not sure what type of imagery URL you have, you can try adding them as different types to see which one works.  
+> URL TMS biasanya mempunyai {x}{y} dan {z} di dalamnya, URL WMS biasanya sangat panjang dan memiliki {width} dan {height}, WMTS URL biasanya memiliki WMTSCapabilities.xml di dalamnya. Jika Anda tidak yakin dengan tipe URL citra yang Anda miliki, Anda dapat mencoba menambahkan berbagai tipe yang berbeda untuk melihat mana yang bekerja.  
 
 ![Preferences WMS TMS 3][]
 

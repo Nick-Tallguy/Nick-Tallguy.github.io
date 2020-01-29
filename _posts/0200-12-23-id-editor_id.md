@@ -50,12 +50,12 @@ Tampilan Antar Muka iD Editor
     Memperkecil tampilan, *shortcut key* **-** ![image10][]{: height="24px"}  
     Pergi ke lokasi Anda ![image11][]{: height="24px"}  
     Konfigurasikan latar belakang , *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
+    Data Peta, *shortcut key* **f** ![Data Peta ][]{: height="24px"}  
+    Isu, *shortcut key* **i** ![Isu][]{: height="24px"}  
+    Buka Menu Bantuan, *shortcut key* **h** ![image13][]{: height="24px"}  
 4. **Information panel:** Panel ini menunjukkan berbagai macam informasi, seperti skala dan kontributor yang sudah memetakan area tersebut.  
 
-## Configuring the Background Layer
+## Mengatur Background Layer atau Lapisan Latar Belakang
 
 Klik tombol **Background settings** atau gunakan *shortcut key* **b**.![image14][]{: height="24px"}  
 ![image15][]  
@@ -106,7 +106,7 @@ Untuk menambahkan garis, klik pada tombol **Garis**. ![image4][]{: height="24px"
   -   Membuat lingkaran dari garis (hanya aktif jika garis tertutup) ![LineToolCircularize][]{: height="24px"}  
   -   Memutuskan garis dari objek lain ![LineToolDisconnect][]{: height="24px"}  
   -   Memindahkan garis ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
+  -   Kotakan suluruh sudut ![LineToolSquare][]{: height="24px"}  
   -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
   -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
   -   Memutarbalikan arah garis (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
