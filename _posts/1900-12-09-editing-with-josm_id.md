@@ -112,9 +112,9 @@ kita menggambar sebuah kotak, itu hanyalah sebuah kotak. Namun jika kita menamba
 kotak tersebut yang menggambarkan apa kotak tersebut: kotak ini adalah sebuah bangunan; nama
 bangunan ini adalah “Menara Thamrin”; bangunan ini memiliki 16 lantai.
 
-You can add as many tags as you want to an object. Tags are saved as
-pairs of text, called **keys** and the **values**. In
-OpenStreetMap, the tags written above would in fact be:
+Anda dapat menambahkan tag sebanyak yang Anda inginkan. Tag disimpan sebagai
+sepasang teks yang disebut **keys** dan **values**. Dalam
+OpenStreetMap, tag tersebut di atas akan menjadi:
 
 -   building = yes
 -   name = Menara Thamrin

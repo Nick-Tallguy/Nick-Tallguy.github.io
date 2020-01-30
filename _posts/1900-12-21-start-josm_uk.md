@@ -22,108 +22,108 @@ published: true
 Завантаження JOSM
 -------------
 
-- If you have a copy of JOSM on a CD or usb flash drive, you can skip
-  to the next section, Install JOSM.
-- If you don’t have JOSM already, or want the newest version, open
-  your web browser - this may be Firefox, Chrome, Opera, or Internet
+- Якщо ви вже маєте копію JOSM на флешці, ви можете переходити до наступного розділу,
+  Встановлення JOSM.
+- Якщо у вас немає JOSM, або ви бажаєте мати свіжу версію, 
+  відкрийте ваш оглядач – це може бути Chrome, Opera, чи Internet
   Explorer.
-- In the address bar at the top of the window, enter the following
-  text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-- You can also find the JOSM website by searching the internet for “JOSM”.
-- The website should look something like this:
+- В адресному рядку, вгорі вікна, введіть наступний текст та натисніть Enter:
+   [josm.openstreetmap.de](http://josm.openstreetmap.de)
+- Ви також можете відшукати веб-сайт JOSM в інтернеті за пошуковим словом “JOSM”.
+- Він виглядатиме приблизно так, як на малюнку:
 
   ![JOSM website][]
 
-- If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
+- Якщо на вашому комп’ютері встановлено Windows, натисніть “встановлювач Windows” (“Windows Installer”) для завантаження JOSM.
 
   ![Windows installer][]
 
-- If you have a different operating
-  system, click on the link for your system. Your download should
-  begin. In this chapter we will assume that you are using Windows,
-  but the instructions are similar for other operating systems.
+- Якщо у вас інша операційна система, натисніть на посилання для вашої системи.
+  Повинно розпочатись завантаження.
+  В цьому розділі ми вважаємо, що ви використовуєте Windows,
+  але інструкції для інших операційних систем схожі.
 
-Install JOSM
+Встановлення JOSM
 ------------
 
->  You may have problems installing JOSM if Java is not already
->  installed on your computer. If you have problems in this section,
->  try downloading and installing Java. You can download it here:
+> Ви можете мати труднощі зі встановленням JOSM, якщо у вас на комп’ютері не встановлено Java.
+> Якщо це так, спробуйте завантажити та встановити Java. 
+> Встановлювач Java знаходиться за посиланням:
 >  [http://www.java.com/en/download/](http://www.java.com/en/download/)
 
->  Mac users may have old versions of Java. Please see [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) for options for OSX 10.6 and 10.7.3+
+> Користувачі Mac’ів можуть мати застарілу версію Java. Будь ласка, ознайомтесь з [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation), щоб дізнатись що робити на  OSX 10.6 та 10.7.3+
 
-- Find the JOSM install file on your computer. Double-click it to
-  begin setup.
-- Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation
-  is complete, click ‘Finish’ to launch JOSM for the first time.
-  Later, when you want to start JOSM, you can do so by clicking on the
-  Start Menu in the lower left corner of your computer, and clicking
-  the program JOSM.
-- You may see a window pop up that asks if you want to update the
-  software.  You don’t need to update it since it is new.  Press the
-  button that says “Cancel.”  If you don’t ever want to see this
-  message again, check the box at the bottom before pressing “Cancel.”
-- When JOSM starts, it will look something like this:
+- Знайдіть файл зі встановлювачем JOSM на вашому комп’ютері.
+  Подвійне клацання на ньому розпочне процес встановлення.
+- Клацніть ‘OK’, ‘Next’, ‘I Agree’ та ‘Install’.
+  Коли встановлення буде закінчене, клацніть на кнопку ‘Finish’ для запуску JOSM вперше.
+  Потім, коли ви захочете запустити JOSM, ви можете зробити це клацнувши на кнопку Пуск 
+  у нижньому куті ліворуч на екрані вашого комп’ютера та клацнувши на рядок 
+  JOSM серед інших програм.
+- Ви повинні побачити вікно із запитом на оновлення програмного забезпечення.  
+  Вам не потрібно оновлювати JOSM, тому, що ви тільки що його встановили. Натисніть на кнопку “Скасувати” (“Cancel”). 
+  Якщо ви більше не бажаєте бачити це вікно поставте прапорець в нижній частині вікна, 
+  перед тим як натиснути “Скасувати” (“Cancel”).
+- Після запуску JOSM виглядатиме так:
 
   ![JOSM splash page][]
 
-JOSM Preferences
+Зміна налаштувань JOSM
 --------------------
 
-There are many different settings that you can customize in JOSM. 
-One setting that you may want to adjust is the language. JOSM has
-been translated into numerous languages, and you may prefer to
-work in a different one.
+Є дуже багато різноманітних параметрів, які можна налаштувати в JOSM. 
+Одним з них є налаштування мови інтерфейсу, можливо у вас виникне потребе її змінити.
+JOSM перекладено багатьма мовами 
+і у вас є можливість обрати потрібну вам мову.
 
-- To access the Preferences window, click Edit -\> Preferences.
+- Для зміни налаштувань клацніть в меню “Правка” (“Edit”) та оберіть пункт “Налаштування” (“Preferences”).
 
   ![Preferences window][]
 
-- On the left side, click the icon that looks like a paint can and
-  paint brush.
-- At the top of the window, click the tab that says “Look and Feel”.
-- Choose your language in the dropdown box next to the word
-  “Language”.
+- Ліворуч, натисніть на вкладку із зображенням малярного пензля та 
+  фарбою.
+- Вгорі вікна натисніть вкладку “Зовнішній вигляд” (“Look and Feel”).
+- Оберіть вашу мову у списку, що розгортається, поруч зі словом “Мова” 
+  (“Language”).
   
   ![Look and feel][]
 
-- Click OK.
-- You need to restart JOSM to save your settings. Click “File” in the upper
-  left corner, and Click “Restart” near the bottom of the menu.
+- Натисніть Так (OK).
+- Вам потрібно перезапустити JOSM щоб ваші налаштування вступили в дію.
+  В меню “Файл” (“File”) в горі ліворуч, оберіть пункт “Перезапустити” (“Restart”), ближче до нижньої частини меню.
 
-Learn Basic Drawing with JOSM
+Основи креслення в JOSM
 -----------------------------
 
-- Now let’s open up a sample OSM file which we will use to learn the
-  basic ways to draw maps with JOSM. Note that this map is not real,
-  in that it is not a real map of a real place, so we will not save it
-  on OpenStreetMap.
-- Download the file here: [sample.osm](/files/sample.osm)
-- Now let’s open the sample map file in JOSM. Click the
-  “Open” button in the upper left.
+- А тепер відкриймо зразковий файл OSM, на якому ми будемо вивчати основні способи креслення мап в JOSM. 
+  Зауважте, що ця мапа несправжня, 
+  і тому що вона не є мапою реального місця, ми не будемо зберігати її в 
+  OpenStreetMap.
+- Завантажте файл: [sample.osm](/files/sample.osm)
+- Тепер відкриємо цей зразковий файл в JOSM.
+  Клацніть на кнопку “Відкрити” (“Open”) вгорі ліворуч.
 
   ![Open file][]
 
-- Find the file **sample.osm**. It is probably in your Downloads folder,
-  unless you saved it somewhere else. Click on it, and then click “Open”.
-- You should now see a sample map that looks like this:
+- Знайдіть файл **sample.osm**. Можливо він буде у вашій теці Завантаження (Downloads), якщо звісно, ви не зберегли його десь в іншому місці. 
+  Клацніть на нього, а потім на кнопку “Відкрити” (“Open”). 
+- Ви повинні побачити зразкову мапу, схожу на цю:
 
   ![Sample file][]
 
-- You will use these data in order to try various editing techniques.
-  *You must however never upload these fictitious data to the database.*
+- Ми будемо використовувати ці дані, щоб спробувати різноманітні способи редагування.
+  *Однак ви ніколи не повинні завантажувати ці вигадані дані в базу OSM.*
 
-### Basic Operations
+### Основні операції
 
-- To move the map left or right, up or down, hold your right mouse
-  button down, and move your mouse.
-- There are several ways to zoom in and out of the map. If you have a
-  mouse, you can use your scroll wheel to zoom in and out. If you are
-  using a laptop and don’t have a mouse, you can zoom in and out using
-  the scale bar in the upper left of the map window. Drag the bar left
-  and right by holding your left mouse down and moving the bar left or
-  right with your mouse.
+- Для пересування мапи ліворуч або праворуч, вгору та вниз 
+  натисніть праву клавішу миші та потягніть мишею в потрібному напрямку.
+- Є кілька способів зміни масштабу мапи. 
+  Якщо ви використовуєте мишу, ви можете крутити коліщатко для збільшення чи зменшення масштабу. 
+  Якщо у вас ноутбук і немає миші, ви можете змінювати масштаб за допомогою масштабної лінійки у верхньому лівому куті вікна з мапою. 
+  Потягніть бігунок ліворуч або праворуч використовуючи ліву кнопку
+  та сенсорну панель вашого 
+  ноутбука.
 
   ![Scale bar][]
 
