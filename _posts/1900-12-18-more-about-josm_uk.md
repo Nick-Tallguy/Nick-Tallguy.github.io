@@ -40,7 +40,7 @@ category: josm
 
 - В меню “Файл” (“File”), зверху ліворуч в JOSM, оберіть пункт “Завантажити з OSM” (“Download from OSM”). Буде відкрите вікно для завантаження. Ви також можете відкрити це вікно просто клацнувши на значок завантаження на панелі інструментів:
     <!-- remove this line -->
-    this window more simply by clicking on the download button, shown
+    <!-- remove this line -->
     <!-- remove this line -->
 
 ![JOSM Download Button][]
@@ -135,72 +135,72 @@ category: josm
 
 ![JOSM select tool][]
 
--  Use the **draw tool** to draw new points, lines, and shapes.
-    Describe these objects by selecting from the Presets menu, as you
-    did in the previous section. 
+- Використовуйте інструмент **Креслення** для креслення нових точок, ліній та фігур. Описуйте об’єкти за допомогою Заготовок (Presets) із відповідного меню, так, як ми робили це в попередньому розділі.
+    <!-- remove this line -->
+    <!-- remove this line --> 
 
-> Never edit the map outside of the area you have downloaded. You  
-> can see the rectangular area you have downloaded has a solid background,  
-> while the area you have not downloaded has diagonal pinstriped lines. 
+> Ніколи не змінюйте мапу за межами завантажених ділянок. Ви можете побачити, що ділянка, яку ви завантажили, буде мати суцільний фон, в той час як, незавантажена ділянка буде мати діагональне штрихування.  
+<!-- remove this line -->  
+<!-- remove this line --> 
 > <br>  
 > ![JOSM area downloaded][]
 
-Save Changes
+Збереження змін
 --------------
-The third and final step to complete our edits is to upload the changes we have
-made to the OpenStreetMap database. To save the changes, we must
-be connected to the internet.
+Третій та фінальний крок, що завершує вашу роботу — надсилання зроблених вами змін до бази даних OpenStreetMap. Для того, щоб зберегти зміни потрібно під’єднатись до Інтернету.
+<!-- remove this line -->
+<!-- remove this line -->
 
--  Click “File” on the top menu, and then click “Upload Data”. This
-    will open up the upload window. You can access this window more
-    simply by clicking on the upload button, shown here:
+- Оберіть меню “Файл” (“File”), в основному меню вгорі, та натисніть “Надіслати дані на сервер” (“Upload Data”). З’явиться вікно надсилання даних. Також його можна викликати, натиснувши на кнопку надсилання даних:
+    <!-- remove this line -->
+    <!-- remove this line -->
 
 ![JOSM Upload Button][]
 
--  The window that appears shows a list of the objects that you are
-    adding and the objects you are modifying or deleting. In the box at
-    the bottom you are asked to provide a comment about the changes that
-    you are making. Type in here a description of your edits.
+- У вікні надсилання даних показується перелік об’єктів, які були додані, змінені або вилучені вами. В нижній частині вікна вам буде запропоновано ввести опис ваших змін. Додайте його.
+    <!-- remove this line -->
+    <!-- remove this line -->
+    <!-- remove this line -->
 
 ![JOSM Upload Dialog][]
 
--  Click “Upload Changes”.
+- Натисніть “Надіслати зміни” (“Upload Changes”).
 
--	If this is your first time saving changes to OpenStreetMap, you will
-    be asked for your OpenStreetMap username and password.
--	Enter them in the window that appears. If you check the box in
-    this window, your username and password will be saved and you won’t
-    need to enter them again in the future. Click “Authenticate”.
+- Якщо це ваш перший раз збереження змін в OpenStreetMap, вам буде запропоновано ввести ваш логін і пароль OpenStreetMap.
+    <!-- remove this line -->
+- Введіть їх у наступному вікні. Якщо ви поставите прапорець, логін і пароль будуть збережені в налаштуваннях і вам не доведеться вводити їх в майбутньому знов. Натисніть “Автентифікація” (“Authenticate”).
+    <!-- remove this line -->
+    <!-- remove this line -->
 
 ![JOSM Authenticate][]
 
--	You will need to wait a few seconds for your changes to be uploaded,
-    and then you are done! You have edited the map on OpenStreetMap.
+- Вам треба трохи зачекати доки ваші зміни будуть надіслані, після чого можна вважати, що роботу завершено! Ви внесли зміни до мапи OpenStreetMap.
+    <!-- remove this line -->
 
-> When you are editing, always be sure to upload your changes before you close  
-> JOSM. Even if you still have more editing to do, upload your changes, and  
-> then go through the process again later when you have time to edit.  
-> You don't want to lose your work!
+> Під час редагування завжди перевіряйте чи ви надіслали зміни на сервер перед тим, як закрити JOSM. Навіть якщо вам треба зробити ще багато роботи, надсилайте ваші зміни, щоб потім повернутись і продовжити роботу, коли у вас з’явиться час. Ви ж не бажаєте втратити результати ваших зусиль?!  
+<!-- remove this line -->  
+<!-- remove this line -->  
+<!-- remove this line -->
 
-See your changes on the map
+Перегляд ваших змін на мапі
 ---------------------------
--  Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
--  Move the map to the area that you edited.
--  You should see your changes now appearing on the map! If you don’t,
-    try pressing CTRL+R to refresh the web page. Sometimes the map
-    doesn’t update properly and needs to be reloaded.
--  What if you don’t see your changes? Don’t worry - it may take a few
-    minutes for the changes to be shown on the map. Also, check your
-    additions in JOSM to make sure that you added them correctly. A good
-    general rule is, if your point has an icon in JOSM, then it should
-    be seen on the main map at the OpenStreetMap website.
+- Відкрийте ваш веб-оглядач і перейдіть на <https://openstreetmap.org/>
+- Перемістіть мапу до місця, до якого ви доклали зусиль.
+- Ви повинні побачити що ваші зміни з’явились на мапі! Якщо їх не видно, спробуйте перезавантажити сторінку, натиснувши CTRL+R. Іноді мапа не оновлюється відповідним чином і потребує перезавантаження.
+    <!-- remove this line -->
+    <!-- remove this line -->
+- Що робити, якщо ви не бачите власних змін? Не хвилюйтесь — потрібно щоб пройшло кілька хвилин, щоб зміни з’явились на мапі. Також, перевірте ваші зміни в JOSM, щоб переконатись, що ви все зробили вірно. Загальне правило каже, якщо ви бачите значок на точці в JOSM, то й на мапі на сайті OpenStreetMap вони повинні також показуватись.
+    <!-- remove this line -->
+    <!-- remove this line -->
+    <!-- remove this line -->
+    <!-- remove this line -->
 
-Summary
+Підсумки
 -------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing
-is great, but it's not the only aspect of making maps. Of course you also
-need to learn how to go outside and collect information about places on the
-ground.
+Тепер, після того, як ви побачили як додавати дані в OpenStreetMap, що робити далі? Що ж, редагування даних — це добре, але тільки ним створення мап не обмежується. Звісно вам потрібно дізнатись, як в польових умовах збирати інформацію про об’єкти на місцевості.
+<!-- remove this line -->
+<!-- remove this line -->
+<!-- remove this line -->
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

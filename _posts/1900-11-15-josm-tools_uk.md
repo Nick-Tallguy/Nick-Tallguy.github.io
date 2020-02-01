@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: JOSM Editing Tools
+title: Інструменти редагування JOSM
 permalink: /uk/josm/josm-tools/
 lang: uk
 category: josm
 ---
 
-JOSM Editing Tools
+Інструменти редагування JOSM
 ==================
 
-> Reviewed 2017-06-09  
+> Редакція 2019-06-09  
 
 - TOC
 {:toc}
