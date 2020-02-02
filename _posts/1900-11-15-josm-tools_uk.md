@@ -14,41 +14,41 @@ category: josm
 - TOC
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+У розділі [введення в JOSM](/uk/josm/start-josm/) ми висвітлили основні принципи креслення об'єктів в JOSM, але крім цього існує багато інших інструментів та підходів про які ми ще не розказали. 
 
-Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
+Тут ми розглянемо деякі основні інструменти та методи, доступні для додавання об'єктів на мапу в JOSM, а в наступних розділах ми докладніше розглянемо розширені інструменти редагування.
 
-Get the Sample File
+Отримання файлу з тренувальними даними
 -------------------
 
-- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
+- Якщо ви бажаєте попрактикуватись та спробувати користуватись інструментами JOSM, завантажте файл: [tools_menu_sample.osm](/files/tools_menu_sample.osm). Запустіть JOSM та відкрийте файл. Його вміст має виглядати так:
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Інструменти креслення
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
+Відкрийте маню “Інструменти”, в основному меню JOSM, там ви побачите різноманітні інструменти для креслення ліній, полігонів та редагування об’єктів на мапі.
 
-JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
+У JOSM є кілька додаткових інструментів, щоб полегшити малювання ліній та фігур. Ці інструменти знаходяться в меню “Інструменти” в основному меню JOSM в горі.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+Для того, щоб мати можливість застосувати пункти з цього меню, вам треба спочатку виділити точку, лінію або полігон у вікні з мапою. Файл з тренувальними даними містить різноманітні елементи які підписані назвами різних інструментів. 
 
-### Aligning nodes in a circle  
+### Вирівнювання точок по колу  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- Спробуйте виділити один з елементів з файлу. Потім відкрийте меню “Інструменти” та оберіть пункт, назву якого має виділений вами об’єкт. Наприклад, клацніть на грубо накреслене коло, щоб виділити його.
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+- Далі, меню Інструменти -> Вирівняти точки по колу. Точки лінії утворять рівне коло.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+Спробуйте кожен з інструментів, про які йдеться в тренувальному файлі. Нижче знаходиться опис деяких з них.
 
-### Split Way  
+### Розрізання ліній  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+Цей інструмент дозволяє розділяти лінію на дві окремі частини. Це корисно, якщо ви хочете додати різні атрибути в різні частини дороги, наприклад, позначити міст. Для того щоб скористатись цим інструментом, виділіть точку в середині лінії, там де вам потрібно її розрізати, оберіть в меню Інструменти пункт Розділити лінію і таким чином лінію буде розрізано на дві окремі лінії.
 
 
 ### Combine Way
