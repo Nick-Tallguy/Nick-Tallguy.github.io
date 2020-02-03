@@ -51,9 +51,9 @@ category: josm
 Цей інструмент дозволяє розділяти лінію на дві окремі частини. Це корисно, якщо ви хочете додати різні атрибути в різні частини дороги, наприклад, позначити міст. Для того щоб скористатись цим інструментом, виділіть точку в середині лінії, там де вам потрібно її розрізати, оберіть в меню Інструменти пункт Розділити лінію і таким чином лінію буде розрізано на дві окремі лінії.
 
 
-### Combine Way
+### З'єднання ліній
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+Ця дія є протилежною до розрізання доріг. Для того щоб з'єднати дві лінії в одну, вони мають з'єднуватися у спільній точці. Щоб скористатись цим інструментом, виділить обидві лінії які ви бажаєте з'єднати. Для виділення кількох об'єктів утримуйте натиснутою клавішу SHIFT на клавіатурі та клацайте на потрібні лінії мишею. Після виділення обох ліній оберіть пункт З'єднати лінії в меню Інструменти. 
 
 ![Combine way][]
 
