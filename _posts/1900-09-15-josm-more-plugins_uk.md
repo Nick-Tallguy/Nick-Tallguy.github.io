@@ -1,40 +1,40 @@
 ---
 layout: doc
-title: JOSM Building Tools & Utilsplugin2 plugins
+title: Втулки Building Tools та Utilsplugin2
 permalink: /uk/josm/josm-more-plugins/
 lang: uk
 category: josm
 ---
 
-JOSM Building Tools & Utilsplugin2 plugins
+Втулки Building Tools та Utilsplugin2
 ============
 
-> Reviewed 2016-09-12  
+> Редакція 2016-09-12  
 
-The **buildings_tools** and **utilsplugin2** plugins add great additional functionality into JOSM. In this section we'll take a closer look at the functions they provide.  
+Втулки **buildings_tools** та **utilsplugin2** додають чудові інструменти та розширюють можливості JOSM. В цім розділі ми розкажемо про це докладніше.  
 
-The Buildings Tools Plugin
+Втулок Buildings Tools
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+Якщо ви ще не зробили цього, встановіть втулок використовуючи рекомендації з розділу про [Втулки JOSM](/uk/josm/josm-plugins).    
 
 ![Buildings tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings. It allows you to trace one side of a rectangular building, and easily extend the shape. If you are digitizing many buildings, this plugin will save you clicks, and thereby save you time.  
+Втулок Buildings Tools дуже корисний для додавання будинків. Він дозволяє накреслити одну сторону прямокутника будинку і одним додатковим рухом створити з лінії прямокутник. Якщо вам треба накреслити багато будинків, цей втулок зекономить вам тисячі кліків, а з ними і час.  
 
-Once the plugin has been installed you will see a new button on the left side of JOSM, which looks like this: ![Buildings tools button][]{: height="29px"}
+Після встановлення втулка, ліворуч на панелі інструментів, ви побачите кнопку: ![Buildings tools button][]{: height="29px"}
 
-Start JOSM and download an area where you wish to trace buildings.  
+Завантажте в JOSM ділянку на якій ви бажаєте додати будинки.  
 
-* Select the building tool and click twice to draw a line on the map.  
+* Оберіть інструмент building tool і двома кліками накресліть лінію вздовж стіни будинку.  
 
 ![Draw edge][]
 
-* Then extend the mouse and click again to draw a rectangle.  
+* Потім потягніть мишу в бік, щоб перетворити лінію в прямокутник, клацніть третій раз для завершення креслення.  
 
 ![Extend building][]
 
-* This will not only create a rectangle with only three clicks, but it will also automatically apply the **building=yes** tag to the shape.  
+* Це дозволить вам не тільки накреслити прямокутник в три кліки, а також додасть теґ **building=yes** до полігону будівлі.  
 
 ### Complex Buildings
 

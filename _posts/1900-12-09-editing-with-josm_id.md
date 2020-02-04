@@ -120,71 +120,71 @@ OpenStreetMap, tag tersebut di atas akan menjadi:
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are
-attached to it in the Properties panel on the right.
+Jika Anda memilih sebuah objek di JOSM, Anda dapat melihat semua tag yang
+dimiliki objek tersebut pada panel Properties di sebelah kanan.
 
 ![Properties panel][]
 
-### Editing Tags
-You can add, edit, and delete tags from the Properties panel. However, the tags
-are traditionally in English and can sometimes be confusing, so it
-is often easier to use the Presets menu. When you add or change tags, the attributes
-of the object are changed.
+### Mengubah Tag
+Anda dapat menambahkan, mengedit dan menghapus tag dari panel Properties. Namun, tag
+formatnya bahasa Inggris dan terkadang dapat membingungkan, jadi
+gunakan menu Presets untuk memudahkan Anda menemukan tag yang dimaksud. Ketika Anda menambahkan atau mengubah tag, atribut
+dari objek juga berubah.
 
--   To edit an object's tags, first select it.
--   Then edit the tags in one of two ways: (1) Use the Presets menu,
-    or (2) edit the tags directly in the Properties window on the right. 
+-   Untuk mengubah tag dari sebuah objek, pertama pilih objek tersebut.
+-   Lalu edit tag menggunakan salah satu cara berikut: (1) Gunakan menu Presets,
+    atau (2) ubah tag secara langsung pada jendela Properties di sisi kanan. 
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
-When you are editing the attributes of a point, you will first select
-the point and then add tags either through the Presets menu or directly
-in the Properties panel. A common mistake is when adding attributes to a
-line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+### Kesalahan Umum: Menambahkan tag pada titik ketika Anda ingin menambahkan tag pada garis atau poligon
+Ketika Anda mengedit atribut dari sebuah titik, pertama-tama Anda pilih dulu
+titiknya lalu tambahkan tag melalui menu Presets atau langsung
+tambahkan pada panel Properties. Sebuah kesalahan umum yang sering terjadi adalah ketika menambahkan atribut pada sebuah
+garis atau sebuah poligon. Ketika memilih objeknya, pastikan Anda
+memilih garisnya dan BUKAN titik yang menghubungkan garis tersebut.
 
-This frequently occurs because editors use the JOSM select tool to draw a
-box around an object, which causes everything, both the line **and** the nodes
-to be selected, and when you add tags they are applied to the nodes
-as well. Be sure to **only** select lines when you want to add tags
-to them.
+Hal ini sering terjadi karena para kontrinutor menggunakan tool select pada JOSM untuk menggambar sebuah
+objek, yang menyebabkan baik garis **dan** titik
+terpilih dan ketika Anda menambahkan tag, tag tersebut juga akan diberikan pada titiknya
+Pastikan untuk **hanya** memilih garis ketika Anda ingin menambahkan tag
+pada garis.
 
 ![Nodes mistake][]
 
-Saving OSM files
+Menyimpan file OSM
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and
-upload changes in a reasonably short period of time. You do not want to download
-data one day, and then wait until a few days later to upload your edits. What if
-someone else edits the same area during that time? This will cause errors and conflicts.
+Ketika Anda mengedit di JOSM, sebaiknya Anda mengunduh data, mengedit dan
+mengunggah perubahan secara berkala. Anda sebaiknya tidak mengunduh data
+di satu hari dan menunggu beberapa hari untuk mengunggah perubahan yang Anda buat. Bagaimana jika
+orang lain mengedit area yang sama pada saat itu? Hal ini akan menimbulkan error dan konflik.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will
-be saved to the database and you will not lose your hard work.
+Jangan takut untuk mengunggah perubahan Anda secara berkala. Hal ini untuk memastikan perubahan Anda akan
+disimpan ke database dan Anda tidak akan kehilangan perubahan yang sudah Anda buat.
 
-If you are working in a single area, it's a good idea to download the map data
-every time you want to edit, in case another user has made changes.
+Jika Anda bekerja di suatu area, sebaiknya unduh data peta
+setiap Anda ingin mengedit, jika saja ada pengguna lain yang melakukan perubahan pada area yang sama.
 
-Although you should always try to download OSM data when you are ready to edit,
-and upload your changes frequently, there may be cases in which you want to save
-the OSM data on your computer. For example, if you have intermittent connectivity
-to the internet, you may wish to download data, save it, edit, and then upload your
-changes later on.
+Anda sebaiknya mengunduh data OSM ketika Anda siap untuk mengedit
+dan mengunggah perubahan secara berkala, mungkin ada saatnya ketika Anda ingin menyimpan
+data OSM pada komputer Anda. Misalnya, jika Anda memiliki koneksi
+internet yang tidak stabil, Anda mungkin dapat mengunduh data, menyimpan data, mengedit data dan mengunggah perubahan Anda
+nanti.
 
--  To save an OSM file, make sure that it is the active layer in the
-    the Layers panel. Click “File” on the top menu, and click “Save”.
-    Choose a location for the file and give it a name. You can also save
-    by clicking this button:
+-  Untuk menyimpan file OSM, pastikan file OSM tersebut adalah layer yang sedang aktif
+    pada layer Layers. Klik “File” pada menu di atas dan klik “Save”.
+    Pilih direktori tempat Anda ingin menyimpan file dan berikan nama untuk file tersebut. Anda juga dapat menyimpan
+    dengan mengklik tombol ini:
 
 ![JOSM save button][]
 
--  You can now close JOSM and your data will be saved. When you want to
-    open the file again, simply open JOSM, go to the “File” menu, and
-    click “Open...”
+-  Anda sekarang dapat menutup JOSM dan data Anda akan disimpan. Ketika Anda ingin
+    membuka file itu lagi, buka JOSM, pergi ke menu “File” dan
+    klik “Open...”
 
-Summary
+Rangkuman
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned
-about layers and tags. You should now have a solid footing in how to map and how
-to edit OpenStreetMap.
+Pada bab ini kita melihat lebih dekat pada tampilan antarmuka JOSM dan belajar
+mengenai layer dan tag. Anda sekarang sudah memiliki pengetahuan yang cukup bagaimana cara memetakan dan bagaimana
+mengedit OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png

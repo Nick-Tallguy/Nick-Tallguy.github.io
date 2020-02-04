@@ -51,96 +51,96 @@ category: josm
 Цей інструмент дозволяє розділяти лінію на дві окремі частини. Це корисно, якщо ви хочете додати різні атрибути в різні частини дороги, наприклад, позначити міст. Для того щоб скористатись цим інструментом, виділіть точку в середині лінії, там де вам потрібно її розрізати, оберіть в меню Інструменти пункт Розділити лінію і таким чином лінію буде розрізано на дві окремі лінії.
 
 
-### З'єднання ліній
+### З’єднання ліній
 
-Ця дія є протилежною до розрізання доріг. Для того щоб з'єднати дві лінії в одну, вони мають з'єднуватися у спільній точці. Щоб скористатись цим інструментом, виділить обидві лінії які ви бажаєте з'єднати. Для виділення кількох об'єктів утримуйте натиснутою клавішу SHIFT на клавіатурі та клацайте на потрібні лінії мишею. Після виділення обох ліній оберіть пункт З'єднати лінії в меню Інструменти. 
+Ця дія є протилежною до розрізання доріг. Для того щоб з’єднати дві лінії в одну, їхні кінці повинні мати спільну точку. Щоб скористатись цим інструментом, виділить обидві лінії які ви бажаєте з’єднати. Для виділення кількох об’єктів утримуйте натиснутою клавішу SHIFT на клавіатурі та клацайте на потрібні лінії мишею. Після виділення обох ліній оберіть пункт З’єднати лінії в меню Інструменти. 
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### Змінити напрямок та з’єднати  
 
-If you are combining roads that have different directions, you might get this warning:
+У випадку, коли ви об’єднуєте лінії з протилежними напрямками, ви отримаєте наступне попередження:
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+Якщо дороги є з’єднаними та мають спільний напрямок (в першу чергу стосується доріг з одностороннім рухом), натисніть “Змінити напрямок на протилежний і з’єднати” ("Reverse and Combine").
 
 
-### Reverse Way
+### Змінити напрямок лінії
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+За допомогою цього інструменту змінюється напрямок лінії. Всі лінії в OSM мають напрямок, який показується в JOSM стрілками на кінцях відрізків лінії. Іноді напрямок ліній не виграє жодної ролі, за винятком випадків коли ми позначаємо напрямок течії або дорогу з одностороннім рухом. В таких випадках вам треба змінити напрямок лінії так, щоб вона була спрямована у відповідний бік.
 
 ![Way direction][]
 
-### Simplify Way
+### Спрощення ліній
 
-If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
+Якщо ваша лінія має забагато точок у своєму складі та ви бажаєте спростити її, з допомогою цього інструменту можна прибрати зайві точки без погіршення загального вигляду лінії.
 
 ![Simplify way][]
 
 
-### Create a Circle
+### Створення кола
 
-Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+Використовуйте цей інструмент для створення правильних кіл. Накреслить лінію, що представляє діаметр майбутнього кола і скористайтесь цим інструментом для перетворення її в коло.
 
 ![Create circle][]
 
 
-### Align Nodes in Line
+### Вирівнювання точок в лінію
 
-This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+Цей інструмент дозволяє розташувати кілька точок вздовж прямої лінії. Якщо у вас довга лінія, краще виділяти її по відрізках для їх подальшого вирівнювання. Будьте обережні з цим інструментом, через те, що точки що знаходяться між крайніми точками будуть зсунуті з попередніх місць.
 
 ![Align nodes in line][]
 
-### Orthogonalize Shape
+### Вирівнювання кутів
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+Цей інструмент є дуже корисним, коли вам треба додавати прямокутні об’єкти, такі як будинки (**хоча для цього краще використовувати втулок [building tools](/uk/josm/josm-more-plugins/)**). Після того, як ви накреслите контур, цей інструмент допоможе вам перетворити всі кути на прямі.
 
 ![Orthagonalize][]
 
 
-### Unglue way
+### Від’єднання лінії
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+Цей інструмент дозволяє вам від’єднати приєднані одна до іншої точки. Це буває потрібно, коли одна точка входить до складу двох об’єктів, але це помилково. Наприклад, поширена помилка коли кут будинку приєднано до дороги. Зазвичай дорога проходить в стороні від будинку і такий випадок буде помилкою, яку можна виправити роз'єднавши ці об’єкти друг від друга.
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+*Лінія і точка насправді не показуватимуться окремо, доки ви не посунете їх один від одного.*
 
-Keyboard Shortcuts
+Клавіатурні скорочення
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
+Як тільки ви почнете активно редагувати, ви зрозумієте, що витрачаєте багато часу гортаючи меню у пошуках потрібного пункту. Щоб уникнути марнування на це часу, JOSM має клавіатурні скорочення майже для всього.
 
-This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
+Це означає, що замість виділення об’єкта та подальшого пошуку в меню потрібного пункту, ви можете виділити об’єкт та натиснути пару клавіш на клавіатурі.
 
-All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+Всі ці інструменти, про які ми говорили до цього, мають власні клавішні скорочення, які ви можете побачити поруч з ними в меню Інструменти. Наприклад, “O” – це клавішне скорочення для вирівнювання точок по колу, а “L” – для вирівнювання точок в лінію. Звісно, вам доведеться трохи попрактикуватись, доки ви запам’ятаєте потрібні скорочення, але потім ви побачити скільки часу вони дозволять вам зекономити надалі.
+<!-- remove this line -->
+<!-- remove this line -->
 
-Here are other shortcut keys (in **bold**) which are some of the most important.
+Ось кілька клавішних скорочень (виділено **жирним**), що є найбільш важливими.
 
-1.  Activate the Select Tool - **S**
-2.  Activate the Draw Tool - **A**
-3.  Activate the Zoom Tool - **Z**
-4.  Delete the selected object(s) - **Delete**
-5.  Zoom In - **+**
-6.  Zoom Out - **-**
+1.  Переключитись в режим виділення об’єктів – **S**
+2.  Активація режиму креслення – **A**
+3.  Режим масштабування – **Z**
+4.  Вилучення виділених об’єктів – **Delete**
+5.  Наблизитись – **+**
+6.  Віддалитись – **-**
 
 
-Scale and Rotate
+Збільшення/зменшення та обертання об’єктів
 ----------------
 
-A common question is how to rotate a line or shape after it has been drawn.
+Поширене питання – як повернути лінію чи полігон після її додавання.
 
-To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
+Для обертання об’єктів, спочатку виділіть їх. Натисніть та тримайте **SHIFT+CTRL**. За допомогою миші обертайте.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
+Для збільшення або зменшення об’єктів, повторіть ті ж самі дії, але натискайте натомість **ALT+CTRL**.
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+Ці поради показуються в інформаційному рядку в нижній частині JOSM.
 
 ![Rotate instructions][]
 

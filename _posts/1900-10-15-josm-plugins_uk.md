@@ -1,43 +1,43 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: Втулки JOSM
 permalink: /uk/josm/josm-plugins/
 lang: uk
 category: josm
 ---
 
-JOSM Plugins
+Втулки JOSM
 ============
 
 
-As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
+Згодом, як ви вдосконалите ваші вміння, вам захочеться спробувати додаткові можливості JOSM. JOSM дозволяє встановлювати додаткові втулки, які розширюють функціонал та додають нові інструменти.  
 
-In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
+В цім розділі ми покажемо як встановлювати втулки, а також розкажемо про найбільш корисні з них.
 
-Installing Plugins
+Встановлення втулків
 -------------------
-Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
+За потреби встановити новий втулок перейдіть до Налаштувань (меню **Правити \> Налаштування**) та відкрийте вкладку **Втулки**.  
 
 ![Plugins][]
 
-* If you don’t see a list of available plugins, click **Download List**.  
-* To install a plugin you simply must check the box next to it and click OK at the bottom.  
-* Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
+* Якщо ви не бачите перелік доступних втулків, натисніть кнопку **Завантажити список** (**Download List**).  
+* Для встановлення втулка позначте його прапорцем та натисніть на кнопку Так (OK) внизу вікна.  
+* І останнє, не всі втулки мають можливість підключатись на ходу, то ж іноді вам буде запропоновано перезапустити JOSM для їх задіяння.
 
-Some of our favorite plugins are:
+Ось кілька втулків, які ми рекомендуємо до встановлення:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/uk/josm/josm-more-plugins/#the-buildings-tools-plugin):** Якщо вам потрібно накреслити багато будинків, цей втулок допоможе спростити та пришвидшити цей процес.  
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **DirectUpload:** За наявності у вас GPS-треків, цей втулок дозволить вам завантажити їх до сервера OSM.  
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx:** У разі потреби завантаження на сервер GPS-треків записаних пристроями Garmin, вам можливо знадобиться цей втулок. OSM не приймає GPS-треки, які були записані на зовнішні носії в пристроях Garmin, але за допомогою цього втулку ви можете зробити їх придатними для завантаження.  
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers:** Цей втулок дозволяє вам завантажувати скановані Обхідні листки (Field Papers) в JOSM.  
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db:** Цей втулок дозволяє співпрацювати з іншими маперами, які з’ясували, що супутникові знімки Bing є зміщеними. Про це більш докладно далі, в наступному розділі.  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print:** Додає можливість друку, якщо ви хочете зробити швидкий видрук ділянок, може бути далеким від ідеалу.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)
+7. **[utilsplugin2](/uk/josm/josm-more-plugins/#more-selection-tools):** Додає багато додаткових інструментів та меню в JOSM для досвідчених користувачів. Про це в [наступному розділі](/uk/josm/josm-more-plugins)
 
 [Plugins]: /images/josm/josm-plugins_image00_plug-icon.png

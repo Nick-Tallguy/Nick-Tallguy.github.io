@@ -1,151 +1,151 @@
 ---
 layout: doc
-title: Opendata Plugin - data from a spreadsheet
-permalink: /en/josm/opendata-plugin/
-lang: en
+title: Втулок Opendata – дані з електронних таблиць
+permalink: /uk/josm/opendata-plugin/
+lang: uk
 category: josm
 ---
 
-Opendata Plugin - using data from a spreadsheet
+Втулок Plugin – використання даних з електронних таблиць
 ============
 
 
 - TOC
 {:toc}
 
-This guide describes how to add data to OpenStreetMap which may be in the form of a spreadsheet, probably obtained by a field survey using a tool such as ODK collect or Kobo collect.  
+Ці настанови описують, як додавати дані в OpenStreetMap, що містяться в електронних таблицях, отриманих за результатами польових досліджень з використанням таких інструментів, як ODK collect чи Kobo collect. 
 
-**Please note - if the data you are planning to add to OpenStreetMap may be termed an 'import' then you should consult the [Import Guidelines page of the OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Import/Guidelines). If you are in any doubt it is best to consult first!**
+**Будь ласка, візьміть до уваги – якщо дані, які ви збираєтесь додати в OpenStreetMap підпадають під визначення “Імпорту”, звіртесь з [Настановами щодо Імпорту у Вікі OpenStreetMap](https://wiki.openstreetmap.org/wiki/Uk:Import/Guidelines). За наявності сумнівів, спочатку краще ознайомитись з ними!**
 
 
-Installing the Opendata Plugin
+Встановлення втулку Opendata
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+Якщо ви ще не зробили цього, встановіть втулок використовуючи рекомендації з розділу про [Втулки JOSM](/uk/josm/josm-plugins).  
 
 ![Opendata][]
 
-Once installed, you may click on ![Opendata preferences][]   
-to access any of the more specific modules.  
+Після встановлення, натисніть на ![Opendata preferences][]   
+для доступу до модулів втулка.  
 
 ![Opendata modules][]
 
-This guide is using the basic functionality, and no modules are being loaded.   
+Ці настанови використовують базовий функціонал та не вимагають встановлення модулів.
 
-Preparing the spreadsheet  
+Підготовка електронної таблиці
 -------------------------
 
-The wiki page at <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> provides more detailed information about formats which can be used. For our purposes we are assuming that the spreadsheet has been downloaded and passed to us in the proprietry **.xlsx** which will not load into the opendata plugin.  
+Сторінка Вікі <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> надає більш детальні пояснення щодо форматів даних, які можна використовувати. Для наших потреб ми маємо на увазі, що дані містяться у пропрієтарному форматі **.xlsx**, який не сприймається втулком opendata.  
 
-- Open the spreadsheet in an opensource programme such as LibreOffice which is available for most operating systems <http://www.libreoffice.org/>,  
-- and then save it in an opensource format. Our spreadsheet which was **shops.xlsx** becomes **shops.ods**.  
+- Відкрийте таблицю в LibreOffice, який достпний для більшості сучасних операційних систем – <http://www.libreoffice.org/>, 
+- та збережіть дані у відкритому форматі. Наша таблиця **shops.xlsx** перетвориться **shops.ods**.  
 
-Although it is possible to load the spreadsheet into josm now, it is better to carry out further amendments to make the process easier before doing so.  
+Хоча зараз вже можна завантажити електронну таблицю в JOSM, але краще внести інші поправки, щоб полегшити процес, ніж робити це зараз.
 
-### latitude & longitude
+### широта & довгота
 
-The Opendata plugin is very good at extracting the latitude and longitude from spreadsheets, but if you are in any doubt it is better to change the column headings to a simpler format;  
+Втулок Opendata дуже добре витягує широту та довготу з електронних таблиць, але якщо ви сумніваєтесь, краще змінити заголовки стовпців на простіші;
 
 ![latitude longitude][]
 
-becomes;  
+стало;  
 
 ![latitude longitude corrected][]
 
-### Key and Value
+### Ключі та Значення
 
-#### The name tag  
+#### Теґ name
 
-Our aim now is to amend the spreadsheet so that the information is in the format expected by OpenStreetMap. The column headings will be the **Key** values, and the data withing the spreadsheet becomes the **Value** element. For our simple spreadsheet, amend the first column heading from **Name_of_the_shop** to **name**. Using the format key=value, our first spreadsheet line now becomes;  
+Наша мета зараз – змінити електронну таблицю, так щоб інформація була у форматі OpenStreetMap. Заголовки стовпців будуть значеннями **Key**, а дані, що містяться в таблиці, перетворюються на їх **Значення / Value**. Для нашої простої електронної таблиці змініть заголовок першого стовпця з **Name_of_the_shop** на **name**. Використовуючи формат ключ=значення, тепер перший рядок електронної таблиці перетвориться у 
 **name=Tony's Supermarket**
 
-If your spreadsheet has more than one name, such as a **local name** or **official name**, please consult the wiki page at <https://wiki.openstreetmap.org/wiki/Names> which lists many possible alternatives so that your updates to OpenStreetMap can contain all of the names that are likely to be used or searched for.  
+Якщо ваша таблиця містить більше ніж одну назву, можливо це буде **local name** чи **official name**, звіртесь з  <https://wiki.openstreetmap.org/wiki/Uk:Names>, що містить можливі варіанти, які ви зможете використовувати для пошуку даних в OpenStreetMap.  
 
-#### Columns without a heading
+#### Стовпчики без заголовків
 
-If you remove the heading for a column, but keep the data below it, then the data is effectively hidden from JOSM.  
+Якщо ви вилучите заголовок стовпця, але залишите дані під ним, то дані фактично будуть приховані від JOSM.
 
 ![opendata 1][]
 
-#### Columns with data from different keys 
+#### Стовпці з даними для різних ключів
 
 ![opendata mixed][]
 
-The person designing the survey, and the person carrying out the survey will often not be aware of the tags and values that have evolved in OpenStreetMap. The **shop** column in my spreadsheet actually contains data from two different tags, and the spreadsheet will need amending. The column heading **Type of shop** can be changed to **shop**, for the following data;  
+Особи, які збирають дані, не завжди обізнані в тонкощах всіх теґів та їх значень, що ми використовуємо в OpenStreetMap. Стовпчик **shop**, в нашій таблиці, містить значення, для двох різних ключів, тож таблиця вимагає деяких змін. Стовпець **Type of shop** перейменуємо на **shop**, для наступних даних:  
   shop=supermarket  
   shop=convenience  
   shop=hairdresser  
 
-but **restaurant** and **fast_food** are from the **amenity** key.
+проте  **restaurant** та **fast_food** це значення ключа **amenity**.
 
-A new column should be inserted with the heading **amenity**, and the data moved, so that our spreadsheet now looks like this;  
+Нам треба додати новий стовпець з заголовком **amenity**, до якого перемістити ці дані; тож після наших змін таблиця виглядатиме наступним чином:
 
 ![opendata shop amenity][]
 
-#### sub tags
+#### суб-теґи
 
-The column heading **Does_the_shop_have_toilet_faci** has been abbreviated during the survey process, and originally read **Does the shop have toilet facilities?**.  
+Заголовок стовпця **Does_the_shop_have_toilet_faci** був обрізаний, в оригіналі він виглядав як **Does the shop have toilet facilities? (Чи є в магазині вбиральня?)**.  
 
-Although there is a separate tag for toilets, which is usually added to a node within a building, this actually refers to toilets which are accessible to the public. If we carried out our own survey, we know exactly what was intended with the question and answer, but if this is information passed on to us, it will probably be necessary to query what was intended. It is also extremely useful to be able to load the survey questions into a phone and carry out a 'mock' survey so that the layout of the questions can be seen. Careful reading of the wiki page at <https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets>, and study of the original survey is needed before amending the spreadsheet. In particular, the wiki entry contains the information - 
+Хоча й існує окремий теґ для туалетів, який зазвичай додається до точки всередині будівлі, він насправді стосується загально доступних туалетів. Якщо ми провели власне дослідження, ми точно знаємо, що передбачалося під запитанням та відповіддю, але якщо це інформація, передана нам, можливо, буде потрібно уточнити, що було позначено. Також надзвичайно корисно завантажити питання у телефон та провести "випробувальне" опитування, щоб мати уявлення про розташування запитань. Уважне ознайомлення з <https://wiki.openstreetmap.org/wiki/Tag:amenity=toilets>, а також вивчення матеріалів оригінального дослідження потрібне для внесення змін в таблицю. Зокрема, у вікі йдеться:
 
-- *Please do not use toilet=yes (singular). In general please do not map toilets that are inaccessible to the public. Many buildings have toilets inside for workers or owners, but mapping these could create needless conflict or unrealistic expectations. Use toilets=no for places you might expect to find a usable toilet (e.g. a railway station or trailhead) where no public toilets are made available.*  
+- *Будь ласка, не використовуйте toilet=yes (в однині). Загалом, будь ласка, не додавайте туалети, які недоступні для загалу. У багатьох будинках є туалети для робітників або власників, але їх додавання може створити непотрібні конфлікти або нереалістичні очікування. Використовуйте toilets=no в місцях, там де очікується наявність туалету (наприклад, залізничні станції), але туалет із загальним доступом відсутній.*  
 
-Following the advice from the wiki as best as I can, my amended spreadsheet for the information about toilets now reads;  
+Користуючись порадами з Вікі, ми змінили в таблиці інформацію про туалети наступним чином:
 
 ![opendata toilets][]
 
 
-I have blanked the heading on a number of columns, so that the data will not be visible when I am carrying out my editing in JOSM.  
+Ми вилучили заголовки для кількох стовпців, тож ці дані будуть не видимі, коли ми завантажимо їх для подальшого редагування в JOSM.
 
-Loading the spreadsheet into JOSM
+Завантаження таблиці в JOSM
 ---------------------------------
 
-Click on ![josm open][], navigate to where your spreadsheet is saved, and open it within JOSM.  
+Натисніть на ![josm open][], знайдіть вашу таблицю та відкрийте її тепер в JOSM.  
 
 ![opendata pop up][]  
 
-A pop-up will possibly appear asking you to confirm the 'projection method' used when collecting the data. The Opendata plugin will attempt to calculate the 'projection method' used and will present this as the most likely option. Unless this has been altered in the settings by the surveyor, accepting the suggested projection but then checking when editing that the points created are appearing in likely locations is a sensible choice.  
+З’явиться вікно із запитанням про проєкцію ('projection method'), що використовувалась під час збирання даних. Втулок Opendata спробує вирахувати проєкцію та запропонує її як бажаний варіант. Якщо цей параметр не був змінений під час проведення досліджень, застосування запропонованого варіанта, але з обов'язковою перевіркою чи дані з’являються там де треба, буде розумним вибором.
 
 ![opendata spreadsheet loaded][]
 
-Congratulations! You've done all the hard work and you're nearly ready to update OpenStreetMap with your nice new survey data. 
+Вітаємо! Ви зробили всю важку роботу, і тепер  майже готові оновити OpenStreetMap своїми новими даними, зібраними під час дослідження.
 
-Using the ToDo plugin
+Використання втулка ToDo
 ----------------------
 
-Within JOSM select all of the items added by your spreadsheet, either by;  
+В JOSM виділіть всі дані, додані з вашої таблиці. Це можна зробити:
 
-- scroll out until all are visible, then drag your mouse from top left to bottom right while holding the left mouse button down, or  
-- use **Ctrl+f** to carry out a search - I searched on **name** as this appears in all 5 of my surveys.  
+- змінивши масштаб так, щоб було видно всі дані, і за допомогою миші протягнути з лівого верхнього до правого нижнього кута утримуючи натиснутою ліву кнопку миші, або
+- скористатись пошуком **Ctrl+f** та ввести в форму для пошуку **name**, теґ name міститься у всіх наших 5 записах.
 
-make sure you have selected all of your surveys - there are five surveys in my spreadsheet and I need to have 5 objects selected.  
+переконайтесь, що ви виділили всі ваші дані – у нас 5 записів в таблиці, то ж ми матимемо 5 виділених об’єктів.
 
 ![5 selected][]
 
-On the ToDo plugin panel, click on **Add**.  
+В панелі втулка ToDo натисніть **Додати / Add**.  
 
 ![opendata todo add][]
 
-and the list of items to add should appear in the panel.  
+виділені об’єкти мають з’явитись в переліку об’єктів втулка ToDo.
 
 ![opendata todo loaded][]
 
-Load OpenStreetMap data as a separate layer
+Завантаження даних OpenStreetMap до окремого шару
 -------------------------------------------
 
-Double click on the top item in your ToDo list, which will centre it in your editing panel, and click on the download ![download][] icon.
+Двічі клацніть на першому елементі у списку ToDo, це призведе по переміщення до нього на мапі, та натисніть на значок Завантаження ![download][].
 
-When the download dialog window appears, ensure you place a tick in ![download new layer][] (bottom left on the next screenshot) so that your OSM data does not download into your spreadsheet data.
+Після появи вікна Завантаження, натисніть на кнопку “Завантажити як новий шар”, щоб уникнути додавання даних до шару з даними вашої таблиці.
 
 ![download dialog][]
 
 
-Compare the data between the layers
+Порівняння даних між шарами
 ------------------------------------
 
-Ensure you carefully check the data held in your spreadsheet against the existing data already in OpenStreetMap. There are ways of copying tags, or parts of tags (Look through the **Tools** and **More Tools** menu's of JOSM, or read the earlier chapters within LearnOSM) between the layers. In many cases you will be merging new data with existing data. Carefully check the data, if necessary checking the history and source for the different features - it's always possible the data within OpenStreetMap is more recent or more accurate than your spreadsheet data.  
+Переконайтесь що ви ретельно звірили дані з вашої таблиці з даним що вже є в OpenStreetMap. Існує кілька способів перенесення даних між шарами (подивіться меню **Інструменти** та  **Ще інструменти** в JOSM, також ознайомтесь з іншими розділами в LearnOSM). В більшості випадків ви будете об’єднувати наявні дані з вашими. Уважно перевіряйте наявні дані, якщо треба звіряйтесь з історією редагувань об’єктів – завжди є шанс, що дані в OpenStreetMap можуть виявитись більш актуальними ніж дані з вашої таблиці.
 
-When you have updated the information from one line of the spreadsheet, use the **Mark** button of the ToDo plugin to move onto the next item - you may have to download more OSM data if the next item is outside the area already downloaded.  
+Після того як ви оновили інформацію з одного рядка вашої таблиці, скористайтесь кнопкою **Позначити / Mark** на панелі втулка ToDo щоб перейти до наступного рядка; можливо вам доведеться завантажити додаткову порцію даних з OSM, якщо виділений елемент виявиться за межами завантаженої ділянки.
 
 
 [Opendata]: /images/josm/opendata-plugin.png
