@@ -1,6 +1,6 @@
 ---
 layout: doc
-Знайомство з JOSM
+title: Знайомство з JOSM
 permalink: /uk/josm/start-josm/
 lang: uk
 category: josm

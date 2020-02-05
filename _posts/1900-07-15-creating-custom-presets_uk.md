@@ -1,131 +1,131 @@
 ---
 layout: doc
-title: JOSM - Creating Custom Presets
+title: JOSM – Створення власних заготовок
 permalink: /uk/josm/creating-presets/
 lang: uk
 category: josm
 ---
 
-JOSM - Creating Custom Presets
+JOSM – Створення власних заготовок
 =======================
 
 
-In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  
+У [попередньому розділі](/uk/josm/josm-presets) ми дізнались, як додати заготовки в меню Заготовок JOSM. В цьому розділі ми розкажемо як створювати власні заготовки.  
 
-WARNING! This is an advanced topic... consider yourself warned!  
+УВАГА! Ця тема для досвідчених користувачів… вважайте, що ми вас попередили!  
 
-Introduction to XML
+Введення в XML
 -------------------
 
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.  
+Для того щоб створювати власні заготовки, вам знадобиться розуміння мови XML. Якщо ви знаєте що таке XML, можете перейти до наступного розділу.  
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML (“Extensible Mark-up Language” – “Розширювана мова розмітки”) – є однією із комп’ютерних мов, дуже схожа на HTML. Головна відмінність, це те що основне призначення XML – обмін даними, а не їх показ. Багато застосунків в Інтернет використовують XML для передачі даних, OpenStreetMap – один із прикладів. XML використовує елементи, кожен елемент може мати вкладені в нього інші елементи. Наприклад, уявімо що ми бажаємо створити файл XML, який би містив меню ресторану. Нам треба створити кореневий елемент, який буде містити дані про наше меню. Наш кореневий елемент матиме початковий та кінцевий теґи, як тут:
 
       <menu>
-      ... whatever data we want to include in our menu ...
+      … будь-які дані, які ми бажали б додати в наше меню …
       </menu>
 
-Information is contained inside an element, and within each element there can be more elements.  
+Інформація знаходиться в середині елемента, а кожен елемент може містити інші елементи.  
 
       <menu>
         <item name=“Hamburger”>
           <cost>400</cost>
-          <description>Delicious beef patty</description>
+          <description>Смачний пиріжок з яловичиною</description>
         </item>
           <item name=“Nasi Goreng”>
           <cost>200</cost>
-          <description>Indonesian Fried Rice</description>
+          <description>Смажений рис по-індонезійськи</description>
         </item>
       </menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+У цьому прикладі ми маємо два елемента &lt;item&gt; в середині нащо кореневого елемента &lt;menu&gt; для опису двох різних страв з нашого меню. Кожен елемент містить два інші елементи: &lt;cost&gt; та &lt;description&gt;. Зверніть увагу, що ми маємо name=“Hamburger” в середині початкового теґа &lt;item&gt;. Це називається атрибут, він містить інформацію про елемент.
 
 
-### XML Terminology
+### Термінологія XML
 
-- **root element:** the outermost element of an XML document, which describes what is contained  
-- **element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;  
-- **tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this with OSM tags, which have a different meaning.  
-- **attribute:** a piece of information contained inside a tag, such as name=“Hamburger”  
+- **кореневий елемент:** самий зовнішній елемент документа XML, який описує, що міститься в документі  
+- **елемент:** будь-який об’єкт XML, що має початковий та кінцевий теґи, як &lt;item&gt; ... дані ... &lt;/item&gt;  
+- **теґ:** те що міститься в дужках, наприклад &lt;item&gt;.  &lt;item&gt; – початковий теґ елемента, а &lt;/item&gt; – кінцевий теґ. Не плутайте їх з теґами OSM tags, які мають інший сенс.  
+- **атрибут:** частина інформації, яка міститься в середині теґа, наприклад, name=“Hamburger”  
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.  
+Використання XML для збереження та передачі інформації – це чудово, оскільки він легко обробляється  комп’ютерами.  
 
 
-JOSM Presets Files
+Файли заготовок JOSM
 -------------------
 
-Let's add a sample presets file into JOSM and analyze how it works.  
+Спробуймо додати тренувальну заготовку в JOSM та проаналізуємо, як все працює.  
 
-- Download the file [sample_presets.xml](/files/sample_presets.xml).  
-- Then load it into JOSM as described in the [previous chapter](/en/josm/josm-presets).  
-- Create a new layer and a new object.  
-- Go the the Presets menu. There will be a new item named "Sample Building." Click on it.  
+- Завантажте файл [sample_presets.xml](/files/sample_presets.xml).  
+- Додайте заготовку в JOSM відповідно до інструкцій з [попереднього розділу](/uk/josm/josm-presets).  
+- Створіть новий шар та додайте до нього новий об’єкт.  
+- Відкрийте меню Заготовки. Знайдіть пункт "Sample Building". Клацніть на нього.  
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+Зверніть увагу, діалог має три поля, кожне з яких призначено для різного типу вводу. Перше поле, назва будинку, – призначено для вводу довільного тексту. Друге поле, призначення будинку – має випадаюче меню. І, останнє поле, це перемикач – означає, що воно може мати два значення, увімкнено та вимкнено.
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+Давайте тепер подивимось на файл XML, який містить опис цього діалогу.
 
-- Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad program. If you want a more easy-to-use editor, you might download the free Notepad++ application.  
-- The **sample_presets.xml** file looks like this:  
+- Знайдіть файл XML на вашому комп’ютері та відкрийте в текстовому редакторі. У Windows можна скористатись Notepad. Якщо ви хочете простіший у використанні редактор, ви можете завантажити безкоштовний Notepad++.  
+- Файл **sample_presets.xml** виглядає наступним чином:  
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+Не звертайте зараз уваги на перші шість рядків та на останній рядок, подивімось що знаходиться між теґами &lt;item&gt;
 
-The first line looks like this:
+Перший рядок виглядає так:
 
       <item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.  
+Це початковий теґ елемента, який буде додано в меню. Він має два атрибути, назву та тип. Назва буде показуватись в меню Заготовки. Тип обмежує використання нашої заготовки переліком типів об’єктів. В нашому випадку, заготовку можна застосовувати до точок та полігонів. Якщо ви спробуєте застосувати його до звичайної лінії, він не спрацює.  
 
-Let's look at the next line:  
+Подивіться на наступний рядок:  
 
       <label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.  
+Після вибору нашої заготовки в меню відкриється діалог в горі якого ви побачите напис "Building Form". Цей текст визначається у цьому рядку. Він визначає елемент &lt;label&gt;, який лише показує текст. Зміст визначається атрибутом *text="some text"*.  
 
-Go down a few lines and find this:  
+Спустимось трохи нижче, до рядка:  
 
       <key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.  
+Це один з теґів, які будуть застосовані до виділеного об’єкта, тому що він використовує елемент &lt;key&gt;, який описує теґ OSM що буде доданий цією заготовкою. Отже, виділений об’єкт автоматично отримає теґ *building=yes*.  
 
-The next line is a bit different, using the &lt;text&gt; element.  
+Наступний рядок трохи інший, він використовує елемент &lt;text&gt;.  
 
       <text key="name" text="Name of Building" default="" delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.  
+Елемент &lt;text&gt; створює пусте поле. В нього користувач може додати потрібний текст, коли JOSM діалог заготовки. Завдяки атрибуту *delete_if_empty="true"*, якщо мапер залишить поле пустим теґ не буде доданий до виділеного об’єкта.  
 
-The dropdown box on the form is defined in the following line:  
+Випадаюче меню описується наступним рядком:  
 
       <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
       <display_values="Residential, Commercial, Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.  
+Випадаюче меню описується елементом &lt;combo&gt;. Воно підписується текстом з атрибут &lt;text&gt;, а ключ теґа OSM визначається атрибутом *key*. Значення теґу обирається з переліку – атрибут *values*. Атрибут *display_values* дозволяє вам показувати в меню більш зрозумілі підказки замість значень теґів OSM.  
 
-Lastly, let's look at the line which defines the checkbox.  
+І нарешті, подивімось на останній рядок, де описується перемикач.  
 
       <check key="building:vacant" text="Is the building vacant?" default="off" /> 
       <delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.  
+Елемент &lt;check&gt; описує, ну, ви здогадались! – перемикач. Атрибут *default="off"* говорить про те, що типовий стан перемикача – вимкнено. Інші атрибути ми вже розглянули раніше.  
 
-Creating Your Own Presets File
+Створення вашої власної заготовки
 ------------------------------
 
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.  
+Найкращий спосіб створити власну заготовку – взяти наявну та змінити її під власні потреби. Ви можете змінювати наведену тут для прикладу заготовку, експериментувати з нею, щоб навчитись основ. Але не забувайте перезапускати JOSM кожного разу після внесення змін до неї.  
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+Перед створенням власної заготовки ви маєте добре знати теґи, які ви збираєтесь використовувати. Вигадування нових теґів в OSM – зовсім інша тема. Взагалі, намагайтесь використовувати наявні в OSM теґи. Ви завжди можете ознайомитись з переліком теґів на сторінці [Елементи мапи у Вікі OSM](http://wiki.openstreetmap.org/wiki/Uk:Map_Features).  
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.  
+Наш файл зі зразком заготовки містить більшість елементів, які ви інших заготовках в JOSM, їх вже й не так і багато. Якщо у вас є бажання поекспериментувати зі складнішою заготовкою, завантажте собі:  [dhaka_presets.xml](/files/dhaka_presets.xml).  
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).  
+На додачу, докладний опис всіх можливих елементів знаходиться [тут](http://josm.openstreetmap.de/wiki/TaggingPresets).  
 
-Good luck!  
+Хай щастить!  
 
 
 [sample building menu]: /images/josm/sample-building-menu.png

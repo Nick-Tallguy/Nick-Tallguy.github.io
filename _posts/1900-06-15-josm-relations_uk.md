@@ -1,22 +1,22 @@
 ---
 layout: doc
-title: JOSM Relations
+title: Зв'язки в JOSM
 permalink: /uk/josm/josm-relations/
 lang: uk
 category: josm
 ---
 
-Relations
+Зв’язки
 ==========
 
-> Reviewed 2017-06-06  
+> Редакція 2017-06-06  
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
+В [Керівництві для початківців](/uk/beginner) ми розказали про три типи об’єктів, які можна додати в OpenStreetMap – точки (nodes), лінії (ways) та полігони (closed ways - замкнені лінії). Лінії містять числені точки, в той самий час як самі лінії мають атрибути, які говорять нам про те, що ці ліні означають. Полігони – такі ж самі лінії, лише з однією відмінністю, їх початок та кінець збігаються утворюючи контур.  
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap, called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points, lines, or polygons.  If you are looking to advance your editing skills, then understanding and knowing how to properly edit relations is important.  
+Фактично, ми збрехали вам, тому що в OpenStreetMap є ще один тип об’єктів, який називається – зв’язок. Так само, як лінія складається з точок, зв’язок утворюється з точок, ліній та полігонів. Якщо ви хочете розширити свої навички редагування, вам важливо розуміти та знати, як правильно редагувати зв’язки.
+<!-- remove this line -->  
 
-For example, imagine that you want to map a building that has courtyards in the center.  You would need to draw a polygon around the outside of the building, and you would want other polygons around the courtyards to indicate that they are not part of the building.  This is an example of a relation.  The relation would contain several polygons - and the attributes of the building would be attached to the relation, not the polygons.  
+Наприклад, уявіть, що ви хочете скласти мапу на якій будуть будівлі з дворами в середині. Вам доведеться накреслити зовнішній контур будівлі і ще один контур, який позначає внутрішній двір. Це найпростіший приклад зв’язку. Зв’язок міститиме кілька полігонів, а всі атрибути будівлі будуть призначені самому зв’язку, а не полігонам.  
 
 ![An example of a multipolygon][]
 

@@ -1,61 +1,61 @@
 ---
 layout: doc
-заголовок: пресети JOSM
-постійне покликання: /en/josm/josm-presets/
+title: Заготовки теґів в JOSM
+permalink: /uk/josm/josm-presets/
 lang: uk
 категорія: josm
 ---
 
-Пресети JOSM
+Заготовки теґів в JOSM
 ============
 
 > Редакція 2016-09-17  
 
-Якщо ви вже протягом тривалого часу використовуєте JOSM , то зараз ви вже щось розумієте про теги і пресети. Кожен об'єкт визначається за двома речима - по-перше, це геометрія (точка, лінія чи форма а також їх локація), і по-друге, це атрибути, які йдуть у формі з тегами.   
+Якщо ви вже деякий час користуєтесь JOSM, то ви вже щось розумієте що таке теґи та заготовки. Кожен об’єкт визначається за двома речами – по-перше, це геометрія (точка, лінія чи полігон та їх знаходження), і по-друге, це атрибути об’єктів, які зазначаються у вигляді теґів.  
 
-Коли ви малюєте об'єкт і вибираєте його з меню Пресетів, правильні теги автоматично додаються до об'єкту.   
+Коли ви креслите об’єкт і обираєте з меню Заготовки відповідний пункт, правильні теґи призначаються об’єкту автоматично.  
 
-Якщо вам подобається використовувати пресети, що трапляється, коли ви хочете додати теги, яких немає у меню, або коли ви хочете налаштувати ваші власні теги?   
+Якщо вам подобається користуватись заготовками і ви бажаєте додати теґи, яких немає у меню, або ви бажаєте використовувати ваші власні набори теґів, що робити?   
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+В цьому випадку, ви можете додати додатковий елемент в меню Заготовки. В цім розділі ми розглянемо, як це зробити, а в [наступному розділі](/uk/josm/creating-presets) ви дізнаєтесь як створювати власні заготовки.  
 
 
-Додати пресет
+Додавання заготовок
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+Меню та підменю, що утворюють меню Заготовки зберігаються в спеціальних файлах, які містять опис як створювати діалоги, що з’являються, коли ви обираєте відповідну заготовку, а також описує набори теґів які додаються до об’єкта відповідно до зробленого вами вибору.  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+Файли із заготовками можна додавати в JOSM як з онлайн джерел, так і ті, що зберігаються на вашому комп’ютері.  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* Для додавання нового елемента в Заготовки, відкрийте налаштування JOSM, меню Правити -> Налаштування.  
+* Оберіть третю вкладу з гори, вона схожа на решітку поверх земної кулі.  
 
 ![tagging presets tab][]
 
-* At the top, click on "Tagging Presets."  
+* Потім, вгорі вікна знайдіть вкладку "Заготовки теґів".  
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Для додавання заготовки, що зберігається онлайн в сховищі JOSM, у вікні ліворуч оберіть потрібну вам заготовку та натисніть на блакитну стрілку, посередині між вікнами. В цьому прикладі ми додамо заготовку "New Tags".  
 
 ![example presets][]
 
-* You will see a new item appear in the list on the right.  
-* Click OK.  
-* You will need to restart JOSM.  
-* Create a new layer and add a point or shape.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Обрана вами заготовка з’явиться у вікні праворуч.  
+* Натисніть “Так”  
+* Тепер вам треба перезапустити JOSM.  
+* Створіть новий шар до якого додайте точку чи полігон.  
+* Відкрийте меню Заготовки. Ви побачите внизу меню додаткове підменю, яке містить елементи яких не було в стандартному наборі JOSM.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* Більшість заготовок охоплюють досить конкретні випадки, перегляньте список та пошукайте той, який відповідає вашим інтересам.  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* Якщо ви отримали файл із заготовкою, додавання нових заготовок з нього відбувається у схожий спосіб. Поверніться до Налаштувань, але тепер натисніть на кнопку з (+), яка знаходиться праворуч.  
 
 ![plus button][]
 
-* Locate your file and give it a name if you like.  
-* Click OK.  
+* Знайдіть файл на вашому комп’ютері та додайте назву заготовці, за вашим бажанням.  
+* Натисніть “Так”  
 
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png
