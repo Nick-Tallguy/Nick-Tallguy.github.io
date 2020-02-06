@@ -60,7 +60,7 @@ Peta akan menampilkan semua data yang diseleksi dengan kueri yang nantinya bisa 
 
 Jika Anda ingin menjalankan sebuah query yang rumit untuk memperoleh data dari area yang besar, ada baiknya jika Anda mencoba query tersebut di Overpass Turbo pada area yang lebih kecil. Anda kemudian dapat memperkecil untuk melengkapi area Anda dan gunakan url query tersebut langsung ke API. Bab berikutnya akan menjelaskan bagaimana Anda dapat melakukannya.
 
-#### Overpass API
+#### API Overpass
 
 [Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) adalah sebuah layanan yang didedikasikan untuk melakukan query namun tidak untuk menulis data OpenStreetMap. Karena optimisasi ini, Overpass beroperasi sangat cepat dibandingkan dengan api database utama dan memiliki jumlah tak terbatas untuk transfer data. Beberapa contoh layanan ini tersedia di internet, yang digunakan pada contoh di bawah ini juga menyediakan informasi pada [halaman depannya](http://overpass-api.de/)
 

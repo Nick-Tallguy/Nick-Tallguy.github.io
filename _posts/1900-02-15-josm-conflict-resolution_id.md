@@ -28,15 +28,15 @@ Ini menyarankan Anda untuk melihat ke semua konflik yang ada di Layer 1 pada kot
 Jendela ini membantu Anda memberikan peringatan ketika Anda menemukan konflik. Jika Anda mengecek ke server Anda dapat memperbaiki masalah ini:  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+Peringatan ini memberitahu Anda bahwa JOSM gagal menghapus titik karena masih terkait dengan sebuah garis. Untuk mengatasi ini, pengguna harus kembali ke JOSM dan menyelesaikan konflik yang terjadi sebelum dapat mengupload data:  
 ![still in use][]  
 
-Conflict Resolution
+Penyelesaian Konflik
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
+Proses penyelesaian konflik cukup sederhana, meskipun dapat juga membingungkan jika baru pertama kali mengalaminya di JOSM. Pada dasarnya, setiap konflik di JOSM akan menyediakan dua pilihan - objek versi Anda atau versi yang ada di server. Anda harus memilih apakah ingin menyimpan versi Anda, atau versi yang di server.   
+Anda mungkin berpikir, "tentu saja versi saya akan jauh lebih baik!" Dan mungkin juga Anda benar. Tapi pikirkan kembali contoh yang diberikan di awal. Mungkin pada saat Anda sibuk mengedit, pengguna lain juga menambahkan banyak informasi ke salah satu titik di set data Anda. Jika Anda memilih versi Anda dibandinkan versi mereka, Anda akan kehilangan semua informasi yang mereka tambahkan. Oleh karena itu Anda harus mempertimbangkan untuk menyimpan versi mereka, atau menggabungkannya dengan milik Anda.  
+Saat jendela pemberitahuan konflik muncul, pilihan terbaik yang bisa Anda pilih adalah menekan tombol "Synchronize ... only." Anda mungkin harus melakukan ini lebih dari satu objek, tapi ini merupakan cara terbaik untuk memperbaiki konflik satu per satu.   
 ![synchronize node][]  
 Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
 
