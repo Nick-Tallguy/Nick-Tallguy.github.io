@@ -38,32 +38,32 @@ Proses penyelesaian konflik cukup sederhana, meskipun dapat juga membingungkan j
 Anda mungkin berpikir, "tentu saja versi saya akan jauh lebih baik!" Dan mungkin juga Anda benar. Tapi pikirkan kembali contoh yang diberikan di awal. Mungkin pada saat Anda sibuk mengedit, pengguna lain juga menambahkan banyak informasi ke salah satu titik di set data Anda. Jika Anda memilih versi Anda dibandinkan versi mereka, Anda akan kehilangan semua informasi yang mereka tambahkan. Oleh karena itu Anda harus mempertimbangkan untuk menyimpan versi mereka, atau menggabungkannya dengan milik Anda.  
 Saat jendela pemberitahuan konflik muncul, pilihan terbaik yang bisa Anda pilih adalah menekan tombol "Synchronize ... only." Anda mungkin harus melakukan ini lebih dari satu objek, tapi ini merupakan cara terbaik untuk memperbaiki konflik satu per satu.   
 ![synchronize node][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+Ketika Anda mengklik tombol ini, akan muncul jendela yang menjelaskan mengenai konflik Anda. Pesan error nya mungkin terlihat rumit, tapi kali ini cukup sederhana. Anda akan tahu tipe konflik apa yang Anda miliki dari kotak merah yang ada di bagian atas. Konflik di bagian bawah merujuk ke bagian properti, seperti lokasi dan keberadaan objek, Ini alasan kenapa koordinat dan status yang dihapus terdaftar.  
 
-**Types of Conflict:**
+**Tipe Konflik:**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
+- **Properties:**  Objek telah dipindahkan (koordinat) atau dihapus  
+- **Tags:**  Tag tidak cocok  
 - **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
+- **Members:**  Ada perbedaan pada daftar member di relasi  
 ![properties with conflicts][]  
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+Konflik hanya muncul pada dua hasil edit yang berbeda. Jika terdapat tiga atau lebih konflik, maka rantai konflik akan muncul. Untuk itu Anda harus memilih atau menggabungkannya dengan dua konflik pada saat bersamaan. Anda dapat memilih versi Anda, versi lain atau, menggabungkan keduanya.   
 
-In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
+Pada contoh di bawah Anda tidak memiliki pilihan untuk menggabungkan. Klik kolom pertama, atau My version jika Anda percaya bahwa hasil edit Anda benar. Klik pada Their version jika Anda pikir hasil edit orang lain lebih baik.   
 ![conflicts resolved][]  
 
-Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
+Ketika Anda memilih versi mana yang Anda pikir lebih baik, lalu klik "Apply Resolution." Beberapa jendela akan muncul dan Anda harus mengerjakan beberapa hal sendiri. Perbaiki beberapa editing. Lalu klik 'Upload'. Anda akan mendapatkan pesan muncul yang mengatakan:   
 ![command stack][]  
 
-On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
+Pada menu Windows Anda memiliki Conflict List Dialog . Jendela ini memunculkan daftar konflik yang terjadi. Total jumlah dari konflik yang belum terselesaikan muncul di bagian atas. Anda dapat memilih atau memperbaiki konflik dengan mengklik bagian tersebut. Hal ini berguna ketika Anda memiliki banyak konflik yang harus diselesaikan.   
 ![one unresolved][]  
-You cannot upload your changes until this list is empty.  
+Anda tidak dapat mengupload perubahan hingga daftar ini kosong.   
 
-Ways to Avoid Conflicts
+Cara untuk Menghindari Konflik
 ------------------------
 
-### Upload Frequently
+### Upload Berkala
 
 To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
 

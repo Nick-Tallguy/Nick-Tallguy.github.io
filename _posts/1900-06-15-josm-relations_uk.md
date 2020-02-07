@@ -20,84 +20,84 @@ category: josm
 
 ![An example of a multipolygon][]
 
-Relations are used to represent anything that requires a collection of objects to define.  Other examples are bus routes (a collections of lines), long and complex objects (rivers or roads), or multiple polygons that are all part of one location (like buildings in a university).  
+Зв’язки використовуються для об’єктів, що складаються з набору інших об’єктів. Інші приклади, це маршрут громадського транспорту (збірка з відрізків доріг), дуже великі та складні об’єкти (річки, озера, дороги) або кілька полігонів, що утворюють один об’єкт (наприклад будівля університету, що складається з корпусів, з’єднаних один з одним переходами).  
 
-There are mainly four types of relations you will encounter in OSM: Multipolygons, Routes, Boundaries, and Restrictions (such as, no left turns).  In this section we will cover Multipolygons and Routes.  
+Ви можете побачити переважно чотири типи зв’язків в OSM: мультиполігони, маршрути, кордони та обмеження маневрів (наприклад, поворот ліворуч заборонено). В цьому розділи ми розкажемо про мультиполігони та маршрути.  
 
-Creating Multipolygon Relations
+Створення мультиполігонів
 -------------------------------
 
-Let's see how to create a multipolygon relation like the one shown above.  
+Розглянемо як створювати мультиполігони, схожі на показані вище.  
 
-- First, draw your shapes. In this case we will draw three polygons, an outer rectangle, and two smaller rectangles.
+- Спочатку, накресліть всі контури. В цьому випадку три замкнені лінії, одна – зовнішній контур, дві менші – внутрішні контури.
 
 ![Multipolygon ways][]
 
-- Select all of the polygons. Remember you can select multiple objects by holding SHIFT and clicking on each.  
-- Choose *Tools->Create multipolygon* from the menu.  
-- The tags window now contains the new multipolygon.
+- Виділіть їх. Пам’ятаєте, ви може виділяти кілька об’єктів утримуючи натиснутою клавішу SHIFT.  
+- В меню оберіть пункт *Інструменти -> Створити мультиполігон*.  
+- У вікні Теґи/Членство тепер ваш новостворений мультиполігон.
 
 ![New mp object][]
 
-- Click on the edit button.  
+- Натисніть кнопку Правити.  
 
-- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
+- Відкриється редактор зв’язків в новому вікні. Все не так складно, як виглядає з першого погляду, просто тепер ви додаєте теґи до набору об’єктів.  
 
 ![Building relation][]
 
-- Observe that at the top of the panel are the tags for the relation. These tags work the same way as tags always work.  
-- At the bottom is a list of the members of the relation. This relation has three members - that is, the three ways that are part of our relation.  
-- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
-- Click in the tag box and add this tag.  
+- Верхня частина редактора призначена для додавання теґів зв’язку. Вони працюють так само, як і завжди.  
+- В нижній частині – перелік членів зв’язку. Цей зв’язок має трьох членів – лінії, що входять до його складу.  
+- Бачите, у нас вже є один теґ, *type=multipolygon*. Тепер нам треба додати інші теґи, щоб описати об’єкт, для якого ми створили зв’язок. Це будинок, тож нам треба додати теґ *building=yes*.  
+- Клацніть у верхній частині редактора та додайте цей теґ.  
 
 ![Building yes][]
 
-- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
+- **Ролі** вже були правильно призначені членам нашого зв’язка. Кожен член зв’язка має власну роль, яка вказує на його призначення. Тут, зовнішній контур будинку має роль **outer**, а два внутрішні контури мають ролі **inner**. Це ролі, які доступні для членів мультиполігону.  
 
-- Click OK and your multipolygon relation is complete!  
+- Після того, як ви натиснете Так, створення вашого зв’язка буде закінчено!   
 
 ![New multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:  
+Коли ви створюєте подібний мультиполігон, він показуватиметься на мапі так:  
 
 ![Multipolygon in Mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
+Мультиполігони можна використовувати для будь-яких складних об’єктів у яких є внутрішній та зовнішній контури, таких як будинки, або річки та озера з острівцями на них. Докладніше про мультиполігони читайте у [Вікі OSM](http://wiki.openstreetmap.org/wiki/Uk:Relation:multipolygon).  
 
-Route Relations
+Маршрути
 ----------------
 
-Relations are also very useful for representing long routes. For example, a bus or bicycle route follows various road segments. To define such a route, we can create a relation which contains all of the road segments that are part of the route. Additional features, such as bus stops can also be members of a route relation.  
+Зв’язки використовуються для створення маршрутів, наприклад, маршруту автобуса, чи велосипедного маршруту, що проходять частинами різних доріг. Для їх позначення ми створюємо зв’язок, членами якого є відрізки доріг. Додаткові елементи, як наприклад, автобусні зупинки також можуть бути членами зв’язку.  
 
 ![Route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:  
+Розглянемо як створити автобусний маршрут в JOSM:  
 
-- First, select all of the ways which the route runs along. You may need to split some streets into separate segments if only part of them belong to the relation. You can do this using the "Split Way" tool.  
-- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
+- Виділіть всі відрізки доріг по которих проходить маршрут. Можливо, вам доведеться розділити деякі вулиці на кілька частин, якщо маршрут проходить тільки по їх частині. Це робиться за допомоги інструмента "Розділити лінію" ("Split Way").  
+- Коли всі відрізки маршруту будуть виділені – *Заготовки -> Транспорт -> Громадський транспорт -> Маршрут громадського транспорту (автобусний)*.  
 
 ![Public transport preset][]
 
-- A new window pops up where you can enter information which applies to the route as a whole.
+- У вікні, що з’явиться, ви можете додати інформацію про маршрут.
 
 ![New route relation][]
 
-It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+Важливо не забувати вибрати правильний тип маршруту у випадаючим меню вгорі. Якщо ви вирішили додати маршрут тролейбуса, оберіть його в цьому меню. Також ви можете додати назву маршруту, його номер, початкову та кінцеву зупинки.
 
-- Click "New Relation." You will see the relation window pop up, just as when you create a multipolygon.  
+- Клацніть кнопку "Новий зв’язок" ("New Relation"). Перед вами з’явиться редактор зв’язків, ви вже знайомі з ним після створення мультиполігону.   
 
 ![Bus route relation][]
 
-- Notice that there are already tags which define the relation as a route. Instead of *type=multipolygon*, we have *type=route*. We also have a tag defining it as a bus route, as opposed to another type of route.  
-- You may now think, what should the **role** of the members be? Well, in the case of a route, we don't need to define the role of the members. By leaving the role blank the software knows that they are simply part of the route. We could also define the role of each segment as **route**, but it is not necessary.  
-- Click OK and your route relation will be complete!  
+- Бачите, у нас вже є теґи, що описують цей зв’язок як маршрут, замість *type=multipolygon* у нас *type=route*.  Також у нас є теґ, що описує наш маршрут, як маршрут автобуса, а не будь-який інший.  
+- Ви можете запитати, а які **ролі** будуть мати його члени? Що ж, нам не треба призначати ролі відрізкам маршруту. Залишаючи їх порожніми ми ніби кажемо, що це просто частини маршруту. Ми б могли призначити роль **route** членам маршруту, але робити цього не треба.  
+- Натисніть Так для завершення створення маршруту!  
 
-> If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
+> Якщо ви бажаєте переглянути всі наявні на мапі маршрути, відкрийте манель зв’язків клацнувши на цю кнопку ![relation panel button][]{: height="30px"} на панелі інструментів ліворуч. Вона активує панель зв’язків, де ви можете переглянути, виділити, створити або правити зв’язки.  
 
-Summary
+Підсумки
 -------
 
-Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.
+Можливо для когось зв’язки й досі є складними для розуміння, але знати про їх існування важливо. Коли ви зрозумієте, що для того щоб додати певний об’єкт на мапу вам треба створити для цього зв’язок, ви зможете зробити це правильно, спираючись на отримані рекомендації. Ви завжди можете звернутись до Вікі OSM за докладною інформацією за потреби.
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png
