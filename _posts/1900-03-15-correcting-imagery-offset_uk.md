@@ -1,153 +1,153 @@
 ---
 layout: doc
-title: Correcting Imagery Offset
+title: Виправлення зсуву зображень
 permalink: /uk/josm/correcting-imagery-offset/
 lang: uk
 category: josm
 ---
 
-Imagery Offset
+Зсув зображення
 ===============
 
-> Reviewed 2015-09-21  
+> Редакція 2015-09-21  
 
-Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
+Постачальники знімків зазвичай роблять дуже багато роботи по прив’язуванню їх знімків до місцевості, але іноді трапляється так, що знімки є зсунутими. Це досить часто помітно в гірських районах та в місцях перепаду висот, на пагорбах, там де доволі важко розтягнути пласке зображення так, щоб воно правильно лягло на всі нерівності рельєфу. Завантажуючи зображення в JOSM можна помітити, що в таких випадках воно може бути зсунутим на десять на навіть більше метрів від справжнього свого положення. Такі випадки називаються **зсувом фонового зображення** (**imagery offset**).  
 
-Notice in the following image that two separate aerial photographs have been georeferenced and merged together.  Because georeferencing is not a perfect process, the images do not line up perfectly with each other.  Hence one, or both, must be inaccurate.  
+Помітили, на зображенні два знімки були прив'язані та зшиті в один. Але через те що прив’язування зображень до місцевості це дуже складний процес, два знімки виявились такими, що не стикуються добре один з одним. Отже, один чи обидва знімки є не точно прив’язаними.  
 
 ![Misaligned imagery][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial imagery to identify features on the ground, and another is by using GPS to record tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial imagery is obvious.  It enables you, the mapper, to see the whole picture, to observe various details from the image, consider your knowledge of the area, and easily trace roads, buildings, and areas.  One key advantage of GPS however, is that it doesn't suffer from offset like imagery.  A GPS will always provide you with a correct latitude and longitude.  The only exception is when the satellite signals are interrupted by tall buildings or mountains, but in this case it is easy to recognize the error.  Observe the GPS trace in this image, compared with the Bing aerial imagery layer beneath it:  
+Ми вже знаємо що мапи можна створювати двома способами – використовуючи аерофотознімки, обкреслюючи предмети, які на них можна розпізнати, або використовуючи записані GPS-треки та дорожні точки, щоб перенести їх на мапу в OpenStreetMap. Переваги аерофотознімків є незаперечними. Вони дозволяють нам, маперам, бачити всю картину повністю, спираючись на наше знання місцевості та вміння розрізняти об’єкти, дозволяють швидко додавати на мапу дороги, будівлі та зонувати території. Перевагою GPS-треків у порівнянні з аерофотознімками є їх менша схильність до зсуву положення. Пристрої GPS завжди нададуть нам більш точну інформацію про довготу та широту. Правда і тут будуть виключення, коли на шляху GPS-сигналу трапляються перешкоди у вигляді високих будинків, гір, дерев, але їх просто розпізнати та ідентифікувати як помилки.  
 
 ![Aerial vs GPS][]
 
-Because of what we now know, it is clear that the GPS trace is likely to be accurate, and the image beneath it is out of place. So now we must ask, “if the imagery may be out of place, how can we still use it and make accurate maps?”  
+Отже, з того що нам відомо, ми знаємо, що GPS-треки є точнішими, а зображення під ними можуть бути зміщеними. Тож постає питання – “Якщо зображення зміщене, як ми можемо використовувати його для створення точних мап?”  
 
-Correcting Imagery Offset
+Виправлення зсуву зображень
 -------------------------
 
-The answer to the preceding question is that we can move the imagery so that it aligns with things that we know are in the correct location, such as GPS tracks. It is easy to correct imagery offset in JOSM.  
+Відповідь на запитання полягає в тому, що ми можемо рухати зображення так, щоб підлаштувати його положення під речі, про які нам відомо що вони знаходяться точно на своєму місці, це наші треки GPS. Зробити це в JOSM зовсім не важко.  
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the more GPS tracks that you have to reference, the more accurate you will be able to align your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database, we can download them and use them to align our imagery.  
+Найкраще для цього використовувати GPS-треки, що проходять по дорогах. І чим більше у вас є треків, тим точніше ви можете підлаштувати положення знімків. Дякуючи учасникам OpenStreetMap, які завантажують свої треки в базу OSM, ми можемо завантажити їх собі для того щоб перевірити та підлаштувати положення аерофотознімків.  
 
-- Click on the download button. ![JOSM download button][]{: height="24px"}  
+- Натисніть кнопку для завантаження даних. ![JOSM download button][]{: height="24px"}  
 
-- Check the box next to “Raw GPS Data” ![Download raw GPS data][]{: height="24px"} near the top of the Download window. Select your area and click “Download.”  
+- Позначте прапорцем пункт “Дані GPS” (“Raw GPS Data”) ![Download raw GPS data][]{: height="24px"} вгорі вікна завантаження даних. Обведіть ділянку для завантаження та натисніть на кнопку  “Завантажити” (“Download”).  
 
-- This will download an additional layer to JOSM containing GPS tracks. Depending on how many tracks have been uploaded by OSM users, you may see few tracks (or even no tracks):  
+- Це дозволить вам отримати додатковий шар в JOSM, який міститиме треки GPS. В залежності від кількості треків, які учасники проєкту розмістили на сервері, ви побачите кілька треків (або не побачите, якщо треків немає):  
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- Або, ви побачите багато треків:  
 
 ![Many GPS tracks from OSM][]
 
-- To adjust an imagery layer, click on the “Adjust imagery offset” button ![Adjust imagery offset button][]{: height="24px"} at the top of JOSM.  
+- Для підлаштування положення зображення натисніть на кнопку “Налаштування положення фону” (“Adjust imagery offset”) ![Adjust imagery offset button][]{: height="24px"} на панелі інструментів JOSM вгорі.  
 
-- Ignoring the box that pops up, use your mouse to drag the imagery layer so that it aligns correctly with the GPS tracks.  The GPS tracks should line up with the roads on the imagery as closely as possible.  You will see the offset numbers in the box change.  
+- Не звертайте уваги на вікно, що з’явиться, потягніть зображення з допомогою миші, так щоб вона стало в правильне місце під треками GPS. Треки GPS мають бути поверх доріг на знімку якомога точніше. У вікні ви побачити цифри, що означають зсув вашого фону.  
 
 ![Adjust imagery offset][]
 
-- If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
-- If you do not want to save the offset, simply click OK without entering a bookmark name.  
+- За бажанням, ви можете зберегти параметри зсуву в закладки додавши назву та натиснувши кнопку Так. Потім ви зможете застосувати ті ж самі параметри зсуву перейшовши в меню Фон ‣ Положення фону та обравши потрібну закладку.  
+- Якщо у вас немає бажання створювати закладку, просто натисніть кнопку Так, без додавання назви.  
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+Що робити, якщо, а ні у вас, а ні в OpenStreetMap треків немає? Без GPS-треків доволі складно перевірити та підлаштувати положення знімків. Якщо це порівнянню незамаплена територія, ви можете припустити що зсуву немає та розпочати додавати дані, щоб уточнити їх пізніше. Краще мати дані що зміщені на 20-30 метрів, ніж не мати їх взагалі.  
 
-If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
+Якщо ви зможете точно визначити широту та довготу певного об’єкта на землі, ви можете перевірити, що зображення розміщено правильно, виконавши наступні кроки:  
 
-1. Identify the object whose position you know on the imagery.  
-2. Click on the latitude and longitude in the bottom left corner of JOSM.![JOSM lat lon][]{: height="24px"}  
-3. In the dialog that opens, enter the latitude and longitude of the place that you know, and enter a small number for Zoom, about five or ten.  
+1. Знайдіть цей об’єкт на знімку.  
+2. Натисніть на показники широти та довготи у лівому нижньому кутку JOSM. ![JOSM lat lon][]{: height="24px"}  
+3. У вікні, що відкриється, введіть відомі вам широту та довготу та масштаб в метрах, десь 5-10 метрів.  
 ![JOSM lat lon dialogue][]
-4. This will zoom and center the map to your longitude and latitude.  Now you can move the imagery as you did previously so that the feature you know is centered at the correct position.  
+4. Це призведе до переміщення до точки з вказаними координатами. Тепер ви можете рухати зображення, як ви робили це раніше, так щоб відомий вам об’єкт опинився у центрі екрану.  
 
-If, on the other hand, the area has already been extensively mapped, then hopefully the previous mappers have drawn objects in their correct locations.  In this case, you can align the imagery to the OSM map, but beware!  Other mappers may not be aware of imagery offset, and they may have made mistakes when they mapped.  
+Якщо, з іншого боку, територія вже замаплена, можна сподіватись що попередні учасники накреслили об’єкти перевіривши розташування знімків. В такому випадку, ви можете підлаштувати положення знімків, розташувавши їх під мапою OSM, але будьте обережні! Можливо інші мапери не знали про зсув знімків і вони могли розташувати об’єкти з помилками, не врахувавши зсув знімків.  
 
 
-The Imagery Offset Database
+База даних зсувів знімків
 ---------------------------
 
-Now you know how to watch out for and correct imagery offset, but there is one major problem with this approach that we have overlooked thus far.  If every OpenStreetMap user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.  
+Тепер ви знаєте про зсув знімків, як його ідентифікувати та підправити положення знімків, але з цим підходом існує інша проблема, якої ми ще не торкнулися. Якщо кожен учасник OpenStreetMap підлаштовуватиме положення знімків на власний розсуд, то кожен буде мапити з трохи різними параметрами зсуву фонового зображення.  
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is offset by 15 meters to the north. So you adjust the imagery and then use it to map the whole town accurately. But then somebody else wants to add something to the map, so they download the data and load Bing imagery, but they don’t know about the imagery offset you discovered!  They will think that something is wrong and all of the objects in town are misplaced by 15 meters, and they will start to move them, which is not correct!  This can be disastrous for the town’s map data.  
+Уявіть, що ви мапите невеличке місто, та з’ясували, що зсув знімків Bing тут 15 метрів на північ. Тож ви підлаштовуєте положення фону і потім точно мапите все місто. Але, потім, хтось інший бажає уточнити деякі деталі, він завантажує дані,  відкриває знімки Bing, але йому нічого не відомо про зсув яким ви користувались! Він вважає що хтось інший додав об’єкти на мапу зі зсувом у 15 метрів, і він починає пересувати їх, що є невірним! Це може завдати невиправної шкоди даним міста!  
 
-For this reason it is important that all users are aware of imagery offset, and should always check for it before mapping an area.  To help with this problem, some smart people created a plugin that allows users to save offset information in a database and share it with others.  Let’s see how this works:  
+Тому, дуже важливо, щоб всі учасники знали про зсув знімків, і щоб вони завжди перевіряли його перед тим як мапити. Для розв’язання цієї проблеми, був створений втулок, який дозволяє зберігати інформацію про зсув зображення в спільній базі даних та обмінюватись нею з іншими. Розглянемо як це працює:  
 
-- Open the Preferences menu in JOSM, and click on the Plugins tab.![JOSM plugins tab][]{: height="24px"}  
+- Відкрийте Налаштування JOSM, перейдіть на вкладку Втулки.![JOSM plugins tab][]{: height="24px"}  
 
-- Find the plugin named “imagery_offset_db” and check the box next to it.  
+- Знайдіть втулок “imagery_offset_db” та позначте його прапорцем.  
 
 ![Imagery_offset_db plugin][]
 
-- Click OK.  You will need to restart JOSM to finish the plugin installation.  
+- Натисніть кнопку Так. Можливо, вам доведеться перезапустити JOSM, щоб активувати встановлений втулок.  
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows you to save offsets to a central database, and to access the offsets that other users have created.  Hence, if one mapper creates an imagery offset in an area, other users can use the exact same offset to map with.  
+Так само, як ви зберігали параметри зсувів в закладки, втулок дозволяє зберігати їх в загальній базі даних, та надає доступ до зсувів, доданих іншими користувачами. Отже, якщо хтось записав параметри зсуву для певної території, інші учасники можуть їх отримати та використовувати під час мапінгу.  
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets, and when you create your own offset, you should ALWAYS save it to this database.  
+Під час використання аерофотознімків, треба ЗАВЖДИ перевіряти наявність зсувів для них, а коли ви додаєте власні – зберігати їх в базі.  
 
 
-Add Imagery Offset from the Database
+Використання інформації про зсув знімків з бази даних
 ------------------------------------
 
-When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
+Під час додавання шару з аерофотознімками JOSM попереджатиме вас про необхідність перевірити їх положення, а втулок про те що ви можете перевірити наявність зсувів в базі. Ви побачите значок зі знаком оклику червоного кольору на панелі інструментів, схожий на цей:  
 
 ![Imagery offset notification][]
 
-- Click on the button and the plugin will communicate with the database to see if there are existing offsets in this area.  
-- Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia. In this case, we have found one existing offset. Click on it to apply to the map.  
+- Натисніть на нього, щоб втулок звернувся до бази даних та перевірив наявність зміщень для цієї території.  
+- Тут ми маємо завантажені з OSM дані та GPS-треки в Кута, Балі, Індонезія. Ми бачимо, що наявний знімок має інформацію про параметри зсуву. Натисніть на кнопку щоб застосувати параметри до знімка.   
 
 ![Offset in Kuta bali][]
 
-- This causes the imagery layer to shift.  However, when we add someone else’s offset like this, we should check that it is valid by comparing to GPS tracks.  
+- Це призведе до зміни зсуву фону. Однак, коли ми використовуємо параметри зсуву, що були додані іншими маперами, ми маємо перевірити чи вони все ще є вірними по треках GPS.  
 
 ![Comparing imagery offset from GPS tracks][]
 
-- We can see that the imagery layer is in fact misaligned.  We don’t want other users to use this offset, so we should mark it as incorrect in the database. Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).  
+- Ми можемо бачити, що фонове зображення має неправильні параметри зсуву. Для того щоб вберегти інших від використання помилкових чи застарілих даних, ми можемо позначити цю інформацію в базі даних, як застарілу та некоректну. Натисніть на кнопку “Зсув” (вона вже не матиме червоного знаку оклику).  
 
 ![Offsets button][]
 
-- This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”  
+- Цього разу, у вікні натисніть правою кнопкою миші на зсув та оберіть “Вилучити зсув” (“Deprecate Offset”).  
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
-- You will need to enter a reason for deprecating this offset.  
+- Натисніть Так щоб підтвердити ваше бажання.  
+- Вам також доведеться додати пояснення, чому ви бажаєте позначити ці параметри непридатними до використання.  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+Додавання інформації про зсув в базу даних
 ------------------------------------
 
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
+Після того, як ми позначили параметри зсуву “застарілими”, нам треба додати нові дані в базу.  
 
-1. Click on the “Adjust imagery offset” button. ![Adjust imagery offset button][]{: height="24px"}  
-2.  Adjust the imagery to match the GPS tracks.  Click OK in the box.  
-3.  Now go to Offset ‣ Store Imagery Offset...  
+1. Натисніть на кнопку “Налаштування положення фону” (“Adjust imagery offset”). ![Adjust imagery offset button][]{: height="24px"}  
+2.  Підлаштуйте положення знімку, скориставшись GPS-треками. Та натисніть кнопку Так.  
+3.  Перейдіть в меню Положення ‣ Збереження зміщення фону… (Offset ‣ Store Imagery Offset…)  
 ![Store imagery offset][]
-4.  Enter a description of the offset in the box that opens.  
+4.  Додайте опис зміщення в наступному вікні.  
 ![Offset description][]
-5.  Click OK.  Your offset will be saved to the database.  
-6.  Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.  
+5.  Натисніть Так, щоб зберегти ваші параметри в базі.  
+6.  Тепер приховаємо шар GPS та подивимось на дані OSM та порівняємо їх з вирівняним фоновим зображенням.  
 
 ![Corrected imagery][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
+От халепа! Хтось замапив цю ділянку без врахування зміщення знімків, тепер доведеться витратити час щоб привести все до ладу.
 
 
-Imagery Offset Database Website
+Веб-сайт бази даних зміщення знімків
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+Нарешті, для отримання додаткової інформації про зміщення з бази даних можна відвідати веб-сайт за адресою <http://offsets.textual.ru/>.  На ньому містяться всі завантажені в базу дані, там також є мапа на якій показуються всі дані і де вони розташовані:  
 
 ![http://offsets.textual.ru/][]
 
-> One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
+> Останнє, що потрібно пам’ятати, – це те, що зображення можуть не мати однакове змішення всюди! Особливо це стосується регіонів, де багато пагорбів та гір. Тож якщо зображення зміщено по-різному в різних областях, вам потрібно буде зміщувати його кожного разу знову.  
 
-Summary
+Підсумки
 --------
 
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+Коли ви тільки починаєте OpenStreetMap, вам не потрібно занадто турбуватися про зміщення зображень. Але якщо ви бачите зміни іншого мапера, які здаються неузгодженими із зображенням, завжди слід враховувати, що може існувати зміщення знімків, перш ніж ви почнете змінювати додані ним об’єкти. І якщо ви ще не готові до роботи зі зміщеними знімками, просто запам’ятайте, що іноді краще мати дані зі зміщенням у 20-30 метрів ніж не мати їх взагалі. Але завжди пам’ятайте, що зображення може мати зміщення. Використовуйте кроки, описані тут для того щоб підлаштувати його за потреби.
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png

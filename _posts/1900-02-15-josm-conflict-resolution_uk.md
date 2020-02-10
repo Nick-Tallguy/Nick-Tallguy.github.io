@@ -1,28 +1,28 @@
 ---
 layout: doc
-title: JOSM Conflict Resolution
+title: JOSM – розв’язання конфліктів
 permalink: /uk/josm/josm-conflict-resolution/
 lang: uk
 category: josm
 ---
 
-JOSM Conflict Resolution
+JOSM – розв’язання конфліктів
 ====================
 
-> Reviewed 2016-09-27  
+> Редакція 2016-09-27  
 
-Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
+Іноді, коли ви намагаєтесь в JOSM завантажити результати вашої кропіткої праці на сервер, ви можете побачити це неприємне повідомлення про виникнення конфліктів в даних.  
 ![conflict detected][]  
-What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
+То що ж відбувається? Ви завантажуєте з сервера частину даних, що містить, наприклад, точку А. Потім, поки ви змінюєте вашу копію даних, хтось інший також завантажує дані з точкою А, змінює її, та надсилає зміна назад до OpenStreetMap. тепер, коли ви пробуєте завантажити вашу версію точки А, вона є відмінною від тої, що зберігалась до цього на сервері. Отже JOSM не знає до якої версії точки А потрібно внести зміни.  
 
-Conflicts
+Конфлікти
 ----------
 
-Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:  
+Іноді, JOSM може з’ясувати що робити у випадку появи конфлікту в даних самостійно і видасть вам повідомлення схоже на це:  
 ![resolved automatically][]  
-This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
+Це означає, що JOSM автоматично вирішив, що елементи у вашій локальній копії даних не будуть завантажені до головного сервера тому що вони вже були вилучені іншим мапером. Але деякі конфлікти не мають простих способів розв’язання, які JOSM може застосувати самотужки, тож JOSM залишає право вибору дій за мапером, для вибору найкращого варіанту. Це означає, що вам доведеться розв’язувати конфлікти в даних самим.  
 
-This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:  
+Цей діалог каже нам, що нам треба переглянути всі конфлікти в даних Шару 1:  
 ![warning unresolved][]  
 
 This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
