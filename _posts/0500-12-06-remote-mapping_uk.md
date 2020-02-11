@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: HOT Remote Mapping  
+title: Дистанційний мапінг для HOT  
 permalink: /uk/coordination/HOT-Remote-Response-Guide/ 
 lang: uk
 category: coordination
 ---
 
-# HOT Remote Response Guide   
+# Посібник з дистанційного мапінгу HOT   
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> Reviewed 2015-09-18  
+> Редакція 2015-09-18  
 
-The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.  
+Гуманітарна команда OpenStreetMap (The Humanitarian OpenStreetMap Team – HOT)  – глобальна спільнота, що сповідує принципи відкритості, використання програмного забезпечення з відкритими сирцями для вільного обміну даними для економічного розвитку та реагування на гуманітарні проблеми.  
 
-### How Remote Response Works 
+### Як все працює 
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 

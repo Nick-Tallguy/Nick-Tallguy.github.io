@@ -22,60 +22,60 @@ JOSM – розв’язання конфліктів
 ![resolved automatically][]  
 Це означає, що JOSM автоматично вирішив, що елементи у вашій локальній копії даних не будуть завантажені до головного сервера тому що вони вже були вилучені іншим мапером. Але деякі конфлікти не мають простих способів розв’язання, які JOSM може застосувати самотужки, тож JOSM залишає право вибору дій за мапером, для вибору найкращого варіанту. Це означає, що вам доведеться розв’язувати конфлікти в даних самим.  
 
-Цей діалог каже нам, що нам треба переглянути всі конфлікти в даних Шару 1:  
+Цей діалог каже нам, що нам треба переглянути всі конфлікти в даних Шарі 1:  
 ![warning unresolved][]  
 
-This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
+Це вікно містить попередження про те, що у вас можуть виникнути конфлікти у вашій копії даних. Якщо ви оновити вашу копію даних даними з сервера, ви зможете виправити конфлікти, яки можуть з’явитись:  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+Це вікно сповіщає про те, що JOSM не вдалося вилучити точку, через те що вона залишається пов’язаною з лінією. Щоб виправити цей випадок, вам потрібно повернутись  в JOSM та розв’язати конфлікти перед надсиланням даних до сервера.  
 ![still in use][]  
 
-Conflict Resolution
+Розв’язання конфліктів
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
+Розв’язувати конфлікти в JOSM, насправді, не так вже і складно, як це може здаватись з першого погляду. В основному, для кожного конфлікту JOSM запропонує вам два варіанти: або залишити вашу версію, або ж застосувати версію даних, що зберігається на сервері. Вам треба буде зробити вибір, або залишити вашу версію змін, або оновлену версію даних з сервера.  
+Ви можете подумати, “звісно ж, моя версія краща!” І, можливо, ви праві. Але повернімось назад, на початок цього розділу. Поки ви були зайняті внесенням власних змін, інший мапер додав багато іншої інформації до однієї з точок з вашої копії даних. Якщо ви оберете залишити вашу версію, замість версії іншого мапера, ви можете втратити важливі дані, додані ним. Отже, вам краще подумати про те, як залишити його версію та поєднати його зміни з вашими.  
+Коли у вас з’явиться повідомлення про конфлікт, вам краще натиснути кнопку “Синхронізувати …” (“Synchronize ... only”). Вам, можливо, доведеться зробити це для кількох об’єктів, але краще розв’язувати конфлікти по одному.  
 ![synchronize node][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+Після натискання на цю кнопку з’явиться вікно, в якому детально описується ваш конфлікт. Повідомлення про помилку може виглядати складно, але це воно досить просте. Ви знатимете, який тип конфлікту у вас виник по червоному квадрату на верхній вкладці. Конфлікт у наведеному нижче прикладі стосується властивостей, таких як розташування та існування об’єкта. Ось чому тут містяться координати та згадується стан.  
 
-**Types of Conflict:**
+**Типи конфліктів:**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
-- **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
+- **Властивості:**  Об’єкт було посунуто (координати) або вилучено  
+- **Теґи:**  Теґи відрізняються  
+- **Точки:**  Лінія в різних версіях складається із різних точок  
+- **Члени:**  Зв’язок в різних версіях складається з різних членів  
 ![properties with conflicts][]  
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+Конфлікти виникають тільки між двома змінами за раз. Якщо у вас три чи більше конфліктів, вам доведеться розв’язати їх ланцюжки. Все одно, вам треба обирати або вашу, або чужу версію, або ж зливати їх між собою, але не більше ніж для двох версій за раз.   
 
-In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
+У прикладі вище, у вас немає варіанта поєднати дві версії. Натисніть на перший стовпець, або Моя версія, якщо ви бажаєте зберегти її. Клацніть Версія з сервера, якщо ви вирішите, що зміни інших є кращими.  
 ![conflicts resolved][]  
 
-Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
+Після того, як ви оберете яка версія краще, натисніть на кнопку “Застосувати…” (“Apply Resolution”). У вас може з’явитись ще кілька попереджень про конфлікти перед тим, як ви нарешті зможете завантажити ваші дані на сервер. Внесіть ваші зміни та натисніть на кнопку “Надіслати”. У вас може з’явитись повідомлення:  
 ![command stack][]  
 
-On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
+На панелі діалогів, меню Панель ‣ Конфлікти, ви можете побачити перелік наявних конфліктів. Загальна кількість нерозв’язаних конфліктів показується в заголовку панелі. Ви можете виділити та розв’язати конфлікт клацнувши на ньому. Корисно мати цю панель під рукою, коли вам треба розв’язати велику кількість конфліктів.  
 ![one unresolved][]  
-You cannot upload your changes until this list is empty.  
+Ви не зможете надіслати ваші зміни на сервер доки не очистите цей список.  
 
-Ways to Avoid Conflicts
+Шляхи щодо уникнення конфліктів
 ------------------------
 
-### Upload Frequently
+### Частіше надсилання змін на сервер
 
-To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
+Для мінімізації випадків виникнення конфліктів, а також мінімізації їх кількості, рекомендується регулярно надсилати ваші зміна на сервер. Конфлікти виникають частіше у тих, хто тяжіє до створення власної копії даних та несвоєчасному їх надсиланню на сервер. Найкращим способом уникнення конфліктів є завантаження невеликої ділянки, внесення змін в дані та негайне надсилання цих змін на сервер. Чим довший проміжок часу між завантаженням даних та їх зворотнім надсиланням на сервер, тим більше ймовірність, що хто-небудь інший змінить їх за цей час. Якщо ви берете участь у Мапатоні та редагуєте, наприклад, довгу дорогу, є шанс, що хтось інший змінює її в іншому місці пороч з вами також; завантажуйте ваші зміни частіше, принаймні кожні 6 правок!  
 
-### Edit in the Area You Download
+### Редагування тільки в межах завантаженої області
 
-Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
+Редагування лише в межах завантаженої ділянки зменшує ризик виникнення конфліктів. Переконайтесь що ви не вносите зміни поза межами завантаженої ділянки. Ви можете легко ідентифікувати території, дані для яких ще не були завантажені по спеціальній заливці діагональним штрихованням.   
 
 ![edit outside area][]  
 
-Summary
+Підсумки
 --------
-When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
+Коли ви вносите зміни за допомогою JOSM, у вас є ризик виникнення конфліктів в даних. Конфлікти виникають, коли один об’єкт змінюється двома маперами одночасно. Розуміючи природу конфліктів даних, ви зможете правильно їх розв’язати та надіслати ваші правки на сервер OpenStreetMap.  
 
 
 <!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE

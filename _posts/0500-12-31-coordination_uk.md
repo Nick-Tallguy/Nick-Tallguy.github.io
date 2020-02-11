@@ -2,18 +2,18 @@
 layout: doc
 permalink: /uk/coordination/
 lang: uk
-title: Coordination
+title: Координація зусиль
 category: coordination
 cover: yes
 nosearch: true
 
 ---
 
-Coordination
+Координація зусиль
 ============
 
-> Reviewed 2015-09-18
+> Редакція 2015-09-18
 
-Because OpenStreetMap involves many people mapping together, it's useful to know how mappers can coordinate this activity.
+В додаванні даних в OpenStreetMap бере участь велика кількість людей, і координація спільних зусиль є дуже важливою.
 
-This section of learnOSM provides information on various tools used for coordinating mapping activities, means of communication, and quality assurance.
+Цей розділ LearnOSM містить інформацію про різноманітні інструменти для координації, засоби комунікації та перевірку якості даних. 
