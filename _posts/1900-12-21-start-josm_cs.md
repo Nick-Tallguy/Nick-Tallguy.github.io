@@ -8,254 +8,156 @@ published: true
 ---
 
 Začínáme s JOSM
-=============================  
+=============================
 
-> Zkontrolováno 12.7.2015  
 
-Jak stahovat a instalovat JOSM, Javovský editor mapy OpenStreetMap, změnit některá nastavení, otevřít ukázkovou mapu a
-seznamte se se základními operacemi softwaru. Pamatujete si
-úvodní kapitolu, když jsme vás požádali o kreslení mapy vašeho města nebo
-vesnice? Tuto kapitolu uzavřeme tím, že znovu vytvoříte svou mapu
-tentokrát digitálně. Poté byste měli dobře pochopit, jak
-tvořit mapy v JOSM.
+How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
 
 Stáhněte si JOSM
 -------------
 
-- Pokud máte kopii JOSM na CD nebo USB flash paměti, můžete přeskočit
-  do sekce *Instalovat JOSM*.
-- Pokud nemáte JOSM nebo chcete nejnovější verzi, otevřete si
-  váš webový prohlížeč - Firefox, Chrome, Operu nebo Internet
-  Explorer.
-- Do adresního řádku v horní části okna zadejte následující
-  adresu a stiskněte Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-- Internetovou stránku JOSM najdete také vyhledáváním internetu pro "JOSM".
-- Webová stránka by měla vypadat takto:
+-   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
+-   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
+-   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   You can also find the JOSM website by searching the internet for “JOSM”.
+-   The website should look something like this:
 
-  ![JOSM website][]
+    ![JOSM website][]
 
-- Pokud máte v počítači nainstalovaný systém Windows, klikněte na "Instalační služba Windows Installer" pro stažení JOSM.
+-   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
-  ![Windows installer][]
+    ![Windows installer][]
 
-- Pokud máte jiný operační 
-  systém, klikněte na odkaz pro váš systém. Vaše stažení by mělo
-  začít. V této kapitole budeme předpokládat, že používáte Windows,
-  ale pokyny jsou podobné i u jiných operačních systémů.
+-   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
 
 Instalujeme JOSM
 ------------
 
-> Možná máte problémy s instalací JOSM, pokud Java ještě není
-> nainstalovaná v počítači. Máte-li problémy v této části,
-> zkuste stáhnout a nainstalovat Javu. Můžete si ji stáhnout zde:
->  [http://www.java.com/en/download/](http://www.java.com/en/download/)
+>  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>
+>  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
 
-> Uživatelé MacOS mohou mít staré verze Javy. Další informace naleznete v části kapitoly [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) pro OSX 10.6 a 10.7.3+
+-   Find the JOSM install file on your computer. Double-click it to begin setup.
+-   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
+-   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
+-   When JOSM starts, it will look something like this:
 
-- Najděte instalační soubor JOSM v počítači. Poklepejte na něj
-  a tím začněte nastavení.
-- Kliknout na 'OK', 'Další', 'Souhlasím' a 'Instalovat'. Když je instalace
-   kompletní, kliknout na tlačítko Dokončit a poprvé spustit JOSM.
-  Později, když chcete spustit JOSM, můžete to udělat kliknutím na
-  Start Menu v levém dolním rohu počítače a kliknutím na tlačítko
-  aplikace JOSM.
-- Může se vám zobrazit okno, které se vás zeptá, zda chcete aktualizovat
-  software. Nemusíte ho aktualizovat, protože je nový. zmáčkněte
-  tlačítko "Zrušit". Pokud to nikdy nechcete vidět
-  okno s informací znovu, zaškrtněte políčko v dolní části před stisknutím tlačítka "Zrušit".
-- Když se spustí JOSM, vypadá to takto:
-
-  ![JOSM splash page][]
+    ![JOSM splash page][]
 
 Předvolby JOSM
---------------------
+----------------
 
-Existuje mnoho různých nastavení, která můžete přizpůsobit v JOSM. 
-Jedním z nastavení, které můžete upravit, je jazyk. JOSM
-byl přeložen do mnoha jazyků a můžete dát přednost 
-pracovat v jiném.
+There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
 
-- Chcete-li otevřít okno Předvolby, klikněte na *Edit ‣ Preferences*.
+-   To access the Preferences window, click Edit -> Preferences.
 
-  ![Preferences window][]
+    ![Preferences window][]
 
-- Na levé straně kliknout na ikonu, která vypadá jako kbelík barvy a
-  štětec.
-- V horní části okna kliknout na kartu s nápisem **Look and Feel**.
-- V rozbalovacím poli vyberte svůj jazyk vedle slova
-  "Language"
-  
-  ![Look and feel][]
+-   On the left side, click the icon that looks like a paint can and paint brush.
+-   At the top of the window, click the tab that says “Look and Feel”.
+-   Choose your language in the dropdown box next to the word “Language”.
 
-- Potvrďte tlačítkem OK.
-- Aby se nastavení uložilo, musíte restartovat JOSM. Kliknout na "File" v horním 
-  levém rohu a v dolní části nabídky kliknout na tlačítko "Restart".
+    ![Look and feel][]
+
+-   Click OK.
+-   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
 
 Naučte se základy mapování s JOSM
 -----------------------------
 
-- Nyní otevřete ukázkový soubor OSM, který použijeme k naučení
-  základních způsobů kreslení map s JOSM. Všimněte si, že tato mapa není skutečná,
-  v tom, že to není skutečná mapa skutečného místa, takže ji nebudeme ukládat 
-  do OpenStreetMap.
-- Stáhněte soubor zde: [sample.osm](/files/sample.osm)
-- Nyní otevřete ukázkový mapový soubor v JOSM. Kliknout na 
-  tlačítko "Otevřít" vlevo nahoře.
+-   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+-   Download the file here: [sample.osm](/files/sample.osm)
+-   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
 
-  ![Open file][]
+    ![Open file][]
 
-- Najděte soubor **sample.osm**. Je pravděpodobně ve složce Stahování,
-  pokud jste ho neuložili někde jinde. Klikněte na něj a pak klikněte na tlačítko "Otevřít".
-- Nyní byste měli vidět vzorovou mapu, která vypadá takto:
+-   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
+-   You should now see a sample map that looks like this:
 
-  ![Sample file][]
+    ![Sample file][]
 
-- Tyto údaje použijete k vyzkoušení různých technik úprav.
-  *Tyto fiktivní data však nikdy nesmíte nahrát do databáze.*
+-   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
 
 ### Základní operace
 
-- Chcete-li mapu posunout doleva nebo doprava, nahoru nebo dolů, zmáčkněte a držte pravé 
-  tlačítko myši a pohybujte myší.
-- Existuje několik způsobů, jak přiblížit a oddálit mapu. Pokud máte 
-  myš, můžete použít rolovací kolečko k přiblížení a oddálení. Pokud 
-  používáte notebook a nemáte myš, můžete zvětšovat a zmenšovat mapu pomocí
-  lišty stupnice v levé horní části okna mapy. Přetáhněte lištu doleva
-  a doprava podržením levého tlačítka myši a posunutím pruhu doleva nebo
-  doprava myší.
+-   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
+-   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
 
-  ![Scale bar][]
+    ![Scale bar][]
 
-- Podívejte se na ukázkovou mapu. Existuje zde několik různých typů objektů.
-  Je tu řeka, les, nějaké budovy, několik silnic a 
-  pár obchodů. Chcete-li vybrat objekt, musíte na něj kliknout levým
-  tlačítkem myši.
+-   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
 
 ### Body, přímky a tvary
 
-- Když kliknete na různé objekty na ukázkové mapě, všimněte si, že tam
-  jsou tři různé typy objektů na mapě. Jsou tu body,
-  přímky a tvary.
-- Body jsou jednotlivá umístění, reprezentovaná symboly. Na tomto vzorku
-  mapy, existují dva body, obchod s botami a supermarket.
-  Prodejna s botami je reprezentována symbolem boty a obchod je
-  představovaný nákupním vozíkem.
-- Na mapě je také několik přímek, které představují silnice.
-  Pokud se podíváte pozorně, zjistíte, že přímky obsahují
-  také body. Tyto body neobsahují žádné symboly nebo jiné
-  informace s nimi spojené, ale pomáhají definovat, kde
-  je přímka nakreslená.
-- Nakonec, na vzorové mapě existuje řada objektů, které reprezentují
-  různá místa - les, řeku, park a budovy. Tvar
-  se používá k reprezentaci oblasti, jako pole nebo budovy. Tvar je
-  přesně jako přímka - jediný rozdíl je, že přímka objektu začíná na
-  stejném bodu, kde končí.
+-   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
+-   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
+-   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
+-   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
 
-> Je snadné přemýšlet o mapě, která obsahuje tyto tři základní typy objektů - 
+> Je snadné přemýšlet o mapě, která obsahuje tyto tři základní typy objektů -
 > body, přímky a tvary. V OpenStreetMap existuje speciální terminologie
 > díky které se dozvíte, jak postupujete. V OSM jsou body vlastně nazývány jako
 > **uzly** a přímky se nazývají **cesty**. Tvar je nazýván **uzavřenou cestou**
 > protože je to jen přímka, která končí ve stejném místě, odkud začíná.
 
-- Můžete si všimnout, že když vyberete objekt, objeví se seznam
-  vpravo od mapy v okně s názvem "Vlastnosti". Jsou známé jako
-  tagy. Tagy jsou informace, které jsou svázány s bodem, přímkou nebo tvarem
-  který popisuje, co to je. Další informace o značkách se dozvíme později
-  Prozatím vše, co potřebujete vědět, je že tato
-  informace pomáhá popsat, zda náš objekt je les, řeka,
-  budova nebo něco jiného.
-- Přemýšlejte o ručním kreslení mapy a o tom, jakým způsobem kreslíte
-  body, přímky a tvary. Která další místa jsou nejlépe zastoupeny
-  body? Přímkami? Tvary?
+-   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+-   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
 
 ### Změna objektů
 
-- Vyberte lesy na levé straně mapy. Ujistěte se, že kliknete na
-  přímka kolem lesa, ne jeden z bodů na čáře. Nyní
-  držte levé tlačítko myši a přetáhněte myší. Měli byste být
-  schopni přesunout les na nové místo na mapě.
-- Klikněte na jeden z bodů na přímce kolem lesa. Držte
-  levým tlačítkem myši a přetáhněte myš. Měli byste být schopni
-  přesunout bod. Takto můžete změnit tvar objektu,
-  nebo přesunout bod.
+-   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
+-   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
 
 ### Kreslení
 
-- Na levé straně JOSM je sloupec tlačítek. Mnoho z těchto 
-  tlačítek otevře nová okna na pravé straně, která poskytují více
-  informací o mapě. Nejdůležitější tlačítka jsou však
-  v horní části tohoto sloupce. Tato tlačítka mění, co můžete udělat
-  pomocí myši.
-- Horní tlačítka v tomto sloupci jsou ty, které nejvíce použijete.
-  Používají se pro výběr objektů a pro kreslení nových.
-- Až dosud používáte nástroj Vybrat, který vypadá
-  takového:
+-   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
+-   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
+-   Until now, you have been using the Select tool, which looks like this:
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Před kreslením se musíte ujistit, že není vybráno nic.
-  Klikněte na černé místo na mapě, které je prázdné
-  nic není vybráno.
-- Klikněte na druhé tlačítko, nástroj Draw.
+-   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
+-   Click on the second button, the Draw tool.
 
-  ![Draw tool][]
+    ![Draw tool][]
 
-- Najděte prázdnou oblast na mapě a poklepejte myší.
-  Tím se nakreslí jeden bod.
-- Chcete-li nakreslit přímku, klikněte myší. Pohybujte myší a
-  klikněte znovu. Pokračujte, dokud nebudete spokojeni s vaší přímkou. Chcete-li ukončit
-  přímku, poklepejte myší.
-- Nakreslete tvar tak, jak kreslíte přímku, ale dokončete tvar
-  poklepáním na místo, kde jste začali kreslit přímku.
+-   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+-   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
+-   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
 
 ### Přidat nastavení
 
-- Teď víme, jak nakreslit body, přímky a tvary, ale stále
-  jsme neurčili, co reprezentují. Chceme říci že
-  naše body jsou obchody, školy nebo něco jiného a že naše
-  tvary jsou pole, budovy nebo něco jiného.
-- Klikněte na nástroj Vybrat ve sloupci tlačítek vlevo.
+-   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
+-   Click on the Select tool, in the column of buttons on the left.
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Vyberte jeden z objektů, které jste kreslili nástrojem Kreslení. Na
-   horním menu klikněte na "Předvolby". Přesuňte kurzor myši přes podnabídku na
-  typ umístění, který chcete definovat.
-- Když kliknete na předvolbu, objeví se formulář s žádostí o další
-  informace. Nemusíte vyplňovat všechna pole, ale můžete
-  chtít přidat některé důležité oblasti, jako je například název
-  objektu.
-- Po dokončení zadávání informací klikněte na tlačítko Použít
-  Přednastavení". Pokud vše proběhne dobře, měl by váš bod, přímka nebo tvar
-  změnit barvy nebo zobrazit symbol. Je to proto, že jste definovali
-  co to je.
+-   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
+-   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
+-   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
 
 Nakreslete vlastní mapu
 -----------------
 
-- Nyní nakreslíme mapu, abychom mohli procvičit techniky, které jsme 
-  se naučili. Možná budete chtít předtím načrtnout mapu, kterou jste na papíře nakreslili.
-- Přetáhněte mapu ze vzorové mapy. Držte pravé tlačítko myši
-  a táhněte myší, dokud nebudete mít pěknou prázdnou plochu.
-- Pomocí nástroje Kreslení vytvoříte body, přímky a tvary. Popište co
-  jsou vaše objekty, vybráním z nabídky Předvolby.
-- Když skončíte, měli byste mít svou vlastní mapu podobnou
-  ukázkové mapě, kterou jsme otevřeli v sample.osm.
+-   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
+-   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
+-   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
+-   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
 
-## Odstranit vzorovou vrstvu
+Remove the sample layer
+-----------------------
 
 Jakmile se budete cítit pohodlně s těmito základními technikami úprav, budete chtít
-zaměřit svou pozornost na mapování skutečných funkcí. 
+zaměřit svou pozornost na mapování skutečných funkcí.
 
-* Je velmi důležité, abyste nejprve odstranili vrstvu se vzorovými daty. 
-Tato data jsou fiktivní a nesmí být nahrána do OpenStreetMap  
-databáze (novější verze JOSM tomu automaticky zabrání).*
+_It is very important that you first remove the layer with the sample data.
+Tato data jsou fiktivní a nesmí být nahrána do OpenStreetMap 
+database (newer JOSM releases automatically prevent this)._
 
-V okně Vrstvy v pravé horní části obrazovky vyberte vrstvu sample.osm. 
-Potom klikněte na ikonu koše v pravém dolním rohu okna. 
-Alternativně můžete vybrat smazání z kontextové nabídky vrstvy. 
-Chcete-li pokračovat v úpravách, musíte nejprve stáhnout skutečná data. 
+V okně Vrstvy v pravé horní části obrazovky vyberte vrstvu sample.osm.
+Potom klikněte na ikonu koše v pravém dolním rohu okna.
+Alternativně můžete vybrat smazání z kontextové nabídky vrstvy.
+Chcete-li pokračovat v úpravách, musíte nejprve stáhnout skutečná data.
 To bude vysvětleno v následující kapitole.
 
 Shrnutí
@@ -265,13 +167,22 @@ Vynikající! Pokud jste všechno udělali dobře, tak jste se naučili, jak nas
 počítači a základní nástroje pro kreslení map. V další kapitole se 
 blížeji podíváme na proces úpravy mapy OSM s JOSM.
 
-[JOSM website]: /images/josm/josm-website_it.png
-[Windows installer]: /images/josm/windows-installer.png
-[JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences_cs.png
-[Look and feel]: /images/josm/josm_look-and-feel.png
-[Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file.png
-[Scale bar]: /images/josm/josm_scale-bar.png
-[Select tool]: /images/josm/josm_select-tool.png
-[Draw tool]: /images/josm/josm_draw-tool.png
+[josm website]: /images/josm/josm-website.png
+
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[look and feel]: /images/josm/josm_look-and-feel.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png

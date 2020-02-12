@@ -8,254 +8,156 @@ published: true
 ---
 
 شروع به کار با JOSM
-=============================  
+=============================
 
-> تاریخ بازبینی ۱۳۹۴/۰۴/۳۱  
 
-روش دانلود و نصب JOSM، ویرایشگر جاوای OpenStreetMap، تغییر برخی تنظیمات آن و باز کردن یک نقشه نمونه و 
-آموزش برخی کارکردهای اولیه نرم‌افزار. به یاد دارید که در 
-فصل مقدمه از شما خواستیم تا نقشه شهر یا روستای خود را 
-بکشید؟ این فصل را نیز با کشیدن نقشه اما به 
-صورت دیجیتال تمام خواهیم کرد. بعد از آن درک درستی از اینکه در JOSM چگونه 
-نقشه کشیده می‌شود پیدا می‌کنید.
+How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
 
 دانلود JOSM
 -------------
 
-اگر یک نسخه از JOSM را روی لوح فشرده یا حافظه فلش دارید، می‌توانید به
-  بخش بعد، نصب JOSM بروید.
-اگر JOSM قبلاً نداشته‌اید یا نسخه جدیدتر آنرا بخواهید، مرورگر
-  خود را باز کنید- مرورگرتان می‌تواند فایرفاکس، کروم، اپرا یا اینترنت اکسپلورر
-  باشد.
-در خط آدرس بالای پنجره مرورگر، آدرس 
-  ذیل را وارد و Enter را بزنید: [josm.openstreetmap.de](http://josm.openstreetmap.de)
-همچنین می‌توانید وبسایت JOSM  را با جستجوی کلمه "JOSM" در اینترنت پیدا کنید.
-ظاهر سایت چیزی شبیه به این می‌باشد:
+-   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
+-   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
+-   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   You can also find the JOSM website by searching the internet for “JOSM”.
+-   The website should look something like this:
 
-  ![JOSM website][]
+    ![JOSM website][]
 
-اگر سیستم عامل کامپیوترتان ویندوز می‌باشد، روی “Windows Installer” کلیک کنید تا JOSM دانلود شود.
+-   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
-  ![Windows installer][]
+    ![Windows installer][]
 
-اگر سیستم عامل دیگری دارید، 
-  بر روی لینک مربوط به همان سیستم عامل کلیک کنید. دانلود شروع می‌شود.
-  در این فصل ما فرض می‌کنیم که ویندوز دارید، 
-  اما دستورالعمل برای سایر سیستم عاملها مشابه می‌باشد.
+-   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
 
 JOSM را نصب کنید
 ------------
 
-> اگر روی کامپیوترتان قبلاً جاوا را نصب نکرده باشید، احتمالاً برای 
-نصب JOSM هم مشکل خواهید داشت. چنانچه در این مورد مشکل دارید،
-جاوا را دانلود و نصب کنید. می‌توانید از این لینک استفاده کنید:
->  [http://www.java.com/en/download/](http://www.java.com/en/download/)
+>  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>
+>  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
 
-دارندگان سیستمهای مک احتمالاً نسخه‌های قدیمی‌تر جاوا را داشته باشند. لطفاً این لینک را برای OSX 10.6 و 10.7.3 و بالاتر ببینید: [http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation)
+-   Find the JOSM install file on your computer. Double-click it to begin setup.
+-   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
+-   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
+-   When JOSM starts, it will look something like this:
 
-فایل نصبی JOSM را روی کامپیوتر خود پیدا کنید. برای شروع نصب
-  روی آن دوبار کلیک کنید.
-به ترتیب روی ‘OK’, ‘Next’, ‘I Agree’ و ‘Install’ کلیک کنید. پس از اتمام 
-  نصب، روی ‘Finish’ کلیک کنید تا JOSM برای اولین بار اجرا شود.
-  بعدها، برای اجرای JOSM می‌توانید به 
-  منوی شروع در گوشه سمت راست رایانه رفته و بر روی 
-  برنامه JOSM کلیک کنید.
-شاید پنجره‌ای در ابتدای برنامه ببینید که از شما می‌خواهد که 
-  برنامه را به‌روز کنید. نیازی ندارید که اینکار را بکنید چون فعلاْ برنامه به‌روز می‌باشد.
-  دکمه "لغو (Cancel)" را بزنید. چنانچه می‌خواهید دیگر این
-  پیغام را نبینید، قبل از زدن “Cancel” مربع پائین را علامت بزنید.
-وقتی که JOSM شروع می‌شود، ظاهری اینچنینی دارد:
-
-  ![JOSM splash page][]
+    ![JOSM splash page][]
 
 تنظیمات JOSM
---------------------
+----------------
 
-در JOSM تنظیمات بسیار زیادی برای شخصی‌سازی وجود دارد. 
-یکی از آنها که احتمالاً بخواهید تنظیم کنید زبان برنامه است. JOSM
-به زبانهای متعددی ترجمه شده و شاید ترجیح دهید 
-به زبان دیگری کار کنید.
+There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
 
- برای دستیابی به پنجره تنظیمات منوی Edit -\> Preferences را بزنید.
+-   To access the Preferences window, click Edit -> Preferences.
 
-  ![Preferences window][]
+    ![Preferences window][]
 
-در سمت چپ، روی آیکونی که به شکل سطل و چرتکه رنگ است 
-  کلیک کنید.
-در بالای پنجره، روی زبانه “Look and Feel” کلیک کنید.
-از لیست پائین افتادنی کنار کلمه "Language"، زبان مورد نظر خود را 
-  انتخاب کنبد.
-  
-  ![Look and feel][]
+-   On the left side, click the icon that looks like a paint can and paint brush.
+-   At the top of the window, click the tab that says “Look and Feel”.
+-   Choose your language in the dropdown box next to the word “Language”.
 
-OK را بزنید.
-برای ذخیره تنظیمات نیاز به راه‌اندازی مجدد JOSM می‌باشد. روی “File” در گوشه بالای 
-  سمت چپ کلیک کنید و روی “Restart” نزدیک انتهای منو بزنید.
+    ![Look and feel][]
+
+-   Click OK.
+-   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
 
 یادگیری ترسیم‌های اولیه در JOSM
 -----------------------------
 
-اکنون بیایید یک فایل نمونه OSM که ما از آن جهت آموزش 
-  روشهای پایه ترسیم نقشه با JOSM استفاده می‌کنیم را باز کنیم. توجه داشته باشید که این نقشه واقعی نیست، یعنی
-  نقشه مکان واقعی روی زمین نیست، به همین دلیل آنرا در 
-  OpenStreetMap ذخیره نمی‌کنیم.
-فایل را از اینجا دانلود کنید: [sample.osm](/files/sample.osm)
-حالا این فایل نمونه را در JOSM باز کنید. روی 
-  کلید “Open” در گوشه بالای سمت چپ کلیک کنید.
+-   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+-   Download the file here: [sample.osm](/files/sample.osm)
+-   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
 
-  ![Open file][]
+    ![Open file][]
 
-فایل **sample.osm** را پیدا کنید. احتمالاً در پوشه دانلودهای شما قرار دارد 
-  مگر اینکه آنرا در جای دیگری ذخیره کرده باشید. آنرا انتخاب کنید و “Open” را بزنید.
-حالا یک نقشه نمونه را که این شکلی به نظر می‌سد می‌بینید:
+-   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
+-   You should now see a sample map that looks like this:
 
-  ![Sample file][]
+    ![Sample file][]
 
-- از این داده‌ها برای تمرین روشهای مختلف ویرایش استفاده خواهید کرد.
-  *هیچگاه این داده‌های ساختگی را به پایگاه داده آپلود نکنید.*
+-   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
 
 ###کارهای اولیه
 
-برای جابجا کردن نقشه به چپ و راست و بالا و پائین، کلید ماوس را پائین 
-  نگه دارید و ماوس را جابجا کنید.
-چندین روش برای بزرگنمایی و کوچکنمایی نقشه وجود دارد. اگر ماوس دارید
-  می‌توانید از کلید چرخان وسط آن برای بزرگنمایی و کوچکنمایی استفاده کنید. اگر
-  از لپتاپ استفاده می‌کنید و ماوس هم ندارید با استفاده از 
-  نوار مقیاس گوشه بالای سمت چپ پنجره نقشه اینکار را انجام دهید.دکمه نوار لغزان را به چپ 
-  و راست بکشید در حالیکه کلید چپ ماوس را نگه داشته‌اید و ماوس را به طرف چپ 
-  و راست حرکت می‌دهید.
+-   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
+-   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
 
-  ![Scale bar][]
+    ![Scale bar][]
 
-به نقشه نمونه نگاه کنید. فقط چند نوع شی جزئی در آن وجود دارد.
-  یک رودخانه، یک جنگل، چند ساختمان، چندین جاده و 
-  تعدادی مغازه در آن وجود دارد. برای انتخاب هر شی، با کلید چپ ماوس روی 
-  آن کلیک کنید.
+-   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
 
 ### نقاط، خطوط و شکلها
 
-توجه کنید که با کلیک روی هر شی در نقشه نمونه، 
-  سه نوع مختلف از اشیاء نقشه وجود دارد. نقاطريال
-  خطوط و شکل‌ها.
- نقطه‌ها یک محل منفرد هستند که با نماد خودشان نشان داده می‌شوند، در این نقشه نمونه 
-  دو نقطه وجود دارد یکی مغازه کفش‌فروشی و دیگری یک سوپرمارکت.
-  مغازه کفش‌فروشی با نماد کفش و سوپرمارکت 
-  با نماد سبد خرید نشان داده شده است.
-در این نقشه همچنین چندین خط وجود دارد که نشان دهنده جاده‌ها می‌باشند.
-  اگر دقیق نگاه کنید می‌بینید که در این 
-  خطوط نقطه نیز وجود دارد. این نقطه‌ها هیچ نمادی روی خودشان ندارند و 
-  هیچگونه اطلاعاتی همراه آنها نمی‌باشد اما کمک می‌کنند تا 
-  محل خط مشخص شود.
-بالاخره، چندین شکل در این نقشه وجود داردکه 
-  مکانهای مختلفی را نشان می‌دهند - یک جنگل، یک رودخانه، یک پارک و چندین ساختمان. هر شکل
-  یک محوطه مانند مزرعه و یا ساختمان را نشان می‌دهد. یک شکل
-  دقیقاً شبیه خط است - تنها فرقشان این است که که این خط به همانجایی ختم 
-  می‌شود که شروع شده است.
+-   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
+-   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
+-   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
+-   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
 
-> خیلی آسونه که ما نقشه رو ترکیبی از سه نوع اولیه از اشیاء در نظر بگیریم - 
+> خیلی آسونه که ما نقشه رو ترکیبی از سه نوع اولیه از اشیاء در نظر بگیریم -
 نقطه‌ها، خطوط و شکل‌ها. در OpenStreetMap برای 
 هرکدام از اینها یک اصطلاح خاص وجود دارد که به مرور زمان آنها را یاد می‌گیرید. در OSM به نقاط در واقع 
 **گره** گفته می‌شود، خطوط **راه‌ها** نامیده می‌شوند و شکل ** مسیر بسته** 
 خوانده می‌شود زیرا که فقط خطی است که نقطه‌های اول و آخر آن یکی هستند.
 
-حتماً متوجه شده‌اید که با انتخاب هر شی لیستی 
-  در طرف راست نقشه در یک پنجره جدید به نام  "خصوصیات" (Properties) نشان داده می‌شود. اینها را 
-  به نام تگ می‌شناسیم. تگ‌ها اطلاعاتی هستند که به نقطه یا خط یا شکل متصل شده‌اند 
-  و آن شی را توصیف می‌کنند. در یک فصل دیگر درباره تگ‌ها بیشتر 
-  یاد خواهیم گرفت. برای الان فقط همین که بدانید 
-  این اطلاعات به ما کمک می‌کند تا یک شی را توصیف کنیم که جنگل است یا روخانه 
-  یا ساختمان و یا هرچیز دیگر، کافی است.
-> کشیدن نقشه با دست را در نظر بگیرید و اینکه چگونه شما هم 
-  نقطه، خط و شکل می‌کشید. چه جاهای دیگری را می‌توان 
-  با نقطه یا خط یا شکل نشان داد؟
+-   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+-   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
 
 ### تغییر اشیاء
 
-جنگل سمت چپ نقشه را انتخاب کنید. مطمئن شوید که 
-  روی خطوط حاشیه جنگل کلیک کرده‌اید نه برروی نقطه‌های روی آن خطوط. حالا 
-  کلید چپ ماوس را نگه داشته و ماوس را جابجا کنید. قادر خواهید بود که 
-  جنگل را به محل دیگری روی نقشه جابجا کنید.
-روی یکی از نقطه‌های خط اطراف جنگل کلیک کنید. کلید چپ ماوس را نگه دارید 
-  و ماوس را تکان دهید. قادر خواهید بود که  
-  آن نقطه را جابجا کنید. به این روش می‌توانید شکل آن شی را تغییر دهید.
-  و یا اینکه یک نقطه را جابجا کنید.
+-   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
+-   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
 
 ### ترسیم
 
-در کناره چپ OSM  ستونی از کلیدها وجود دارد. بیشتر این کلیدها 
-  پنجره جدیدی را در طرف راست باز می‌کنند که 
-  اطلاعات بیشتری درباره نقشه به ما می‌دهند. با این وجود، مهمترین این کلیدها  
-  در بالای این ستون قرار دارند. این کلیدها کاری که با ماوس می‌توانید انجام دهید 
-  را تغییر می‌دهند.
-کلیدهای بالای این ستون کلیدهایی هستند که بیشترین استفاده را از آنها خواهید کرد.
-  اینها برای انتخاب اشیا و کشیدن اشیاء جدید به کار می‌روند.
-- تاکنون شما از ابزار انتخاب استفاده کرده‌اید که به این شکل 
-  است:
+-   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
+-   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
+-   Until now, you have been using the Select tool, which looks like this:
 
-  ![Select tool][]
+    ![Select tool][]
 
-قبل از ترسیم، بایستی مطمئن شوید که چیزی انتخاب نشده باشد.
-  روی منطقه سیاه نقشه که خالی‌ست کلیک کنید تا مطمئن شوید 
-  چیزی انتخاب نشده است.
-روی دومین کلید یعنی ابزار کشیدن کلیک کنید.
+-   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
+-   Click on the second button, the Draw tool.
 
-  ![Draw tool][]
+    ![Draw tool][]
 
-یک محل خالی روی نقشه پیدا کنید و با ماوس دوبار کلیک کنید.
-  اینکار یک نقطه را میکشد.
-برای کشیدن یک خط، با کلید ماوس یک کلیک کنید و ماوس را جابجا کنید و 
-  دوباره کلیک کنید. به همین کار تا وقتی که از اندازه خط راضی شوید ادامه دهید. برای پایان دادن 
-  به کشیدن خط، ماوس را دوبار کلیک کنید.
-کشیدن یک شکل همانند کشیدن خط می‌باشد با این تفاوت که 
-  برای تمام کردن شکل روی همان نقطه‌ای که شروع کردید دوبار کلیک کنید.
+-   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+-   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
+-   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
 
 ### افزودن پیش‌فرضها
 
-حالا یاد گرفتید که چگونه می‌توان نقطه، خط و شکل را کشید اما ما
-  هنوز نگفته‌ایم که آنها نشانگر چه چیزی روی زمین هستند. نمیتوانیم بگوییم که 
-  نقطه ما مغازه یا مدرسه یا چیز دیگری است و یا اینکه 
-  شکل ما مزرعه است یا ساختمان یا چیز دیگر.
-روی ابزار انتخاب در ستون کلیدهای طرف چپ کلیک کنید.
+-   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
+-   Click on the Select tool, in the column of buttons on the left.
 
-  ![Select tool][]
+    ![Select tool][]
 
-یکی از اشیایی را که به وسیله ابزار ترسیم کشیده‌اید را انتخاب کنید. از روی 
-  منوی بالا روی “Presets” (پیش‌فرض) کلیک کنید. ماوس خود را به زیرمنوی کشانده 
-  و نوع مکانی که مایلید تعریف کنید را انتخاب کنید.
-وقتی که بر روی یکی از موارد پیش‌فرض کلیک می‌کنید فرمی نشان داده می‌شود که 
-  اطلاعات کاملتری درباره شی از شما می‌پرسد. لازم نیست که همه جاهای خالی را پر کنید، اما بهتر است 
-  برخی موارد مهم مانند نام شی 
-  تکمیل شود.
-زمانی که وزود اطلاعات کامل شد روی "Apply Preset" بزنید.
-  اگر همه چیز خوب پیش رفته باشدنقطه یا خط یا شکل شما 
-  تغییر رنگ داده و نمادی را نشان میدهد. چونکه نوع 
-  آنرا تعریف کرده‌اید.
+-   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
+-   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
+-   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
 
 نقشه خودتان را بکشید
 -----------------
 
-حالا بیایید نقشه‌ای را بکشیم تا مواردی را که 
-  یاد گرفته‌ایم تمرین کنیم. شاید بخواهید نقشه‌ای را که قبلاً روی کاغذ کشیده‌اید دوباره ترسیم کنید.
-محل نقشه را از جایی که نقشه نمونه ما بوده است دور کنید. کلید راست ماوس را بگیرید 
-  و بکشید. تا یک نقطه کاملاً خالی برای ترسیم داشته باشید.
-از ابزار ترسیم برای ایجاد نقطه، خط و شکل استفاده کنید و آنرا
-  با استفاده از منوی Presets تعریف کنید.
-بعد از اتمام کار نقشه خودتان را شبیه 
-  نقشه نمونه‌ای که در فایل sample.osm باز کردیم، داریم.
+-   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
+-   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
+-   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
+-   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
 
-### لایه تمرینی را حذف کنید
+Remove the sample layer
+-----------------------
 
 به محض اینکه با این روشهای ویرایش کاملاْ راحت بودید شاید بخواهید که 
-توجه خود را به کشیدن نقشه عوارض واقعی معطوف کنید. 
+توجه خود را به کشیدن نقشه عوارض واقعی معطوف کنید.
 
-*بسیار مهم است که ابتدا لایه دارای داده تمرینی را حذف کنید. 
-این داده‌ها ساختگی بوده و نباید به پایگاه داده OpenStreetMap آپلود شوند. 
-(نسخه‌های جدیدتر JOSM به طور خودکار از این کار جلوگیری می‌کنند)*
+_It is very important that you first remove the layer with the sample data.
+این داده‌ها ساختگی بوده و نباید به پایگاه داده OpenStreetMap آپلود شوند.
+database (newer JOSM releases automatically prevent this)._
 
-در پنجره لایه‌ها در گوشه سمت راست بالای صفحه لایه sample.osm را انتخاب کنید. 
-سپس روی آیکون سطل آشغال در گوشه پایین و راست آن پنجره کلیک کنید. 
-همچنین می‌توانید از منوی کلیک راست لایه آنرا پاک کنید. 
-برای ادامه ویرایش ابتدا نیاز است که داده واقعی را دانلود کنید. 
+در پنجره لایه‌ها در گوشه سمت راست بالای صفحه لایه sample.osm را انتخاب کنید.
+سپس روی آیکون سطل آشغال در گوشه پایین و راست آن پنجره کلیک کنید.
+همچنین می‌توانید از منوی کلیک راست لایه آنرا پاک کنید.
+برای ادامه ویرایش ابتدا نیاز است که داده واقعی را دانلود کنید.
 این مورد در فصل بعد توضیح داده می‌شود.
 
 خلاصه
@@ -265,13 +167,22 @@ OK را بزنید.
 در رایانه‌تان نصب و از ابزارهای اولیه ترسیم نقشه استفاده کنید. در فصل بعد 
 نگاه نزدیکتری به فرآیند ویرایش OSM با برنامه JOSM خواهیم انداخت.
 
-[JOSM website]: /images/josm/josm-website.png
-[Windows installer]: /images/josm/windows-installer.png
-[JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
-[Look and feel]: /images/josm/josm_look-and-feel.png
-[Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file.png
-[Scale bar]: /images/josm/josm_scale-bar.png
-[Select tool]: /images/josm/josm_select-tool.png
-[Draw tool]: /images/josm/josm_draw-tool.png
+[josm website]: /images/josm/josm-website.png
+
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[look and feel]: /images/josm/josm_look-and-feel.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png

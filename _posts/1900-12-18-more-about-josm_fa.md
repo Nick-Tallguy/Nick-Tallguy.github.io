@@ -9,198 +9,116 @@ category: josm
 فرآیند ویرایش در JOSM
 ========================
 
-> تاریخ بازبینی ۱۳۹۴/۰۴/۳۱  
 
-در بخش قبل شما 
-JOSM را نصب کردید و شروع به کشیدن اولین نقطه‌ها، خطوط و شکلها کردید.
-تعاریف پیش‌فرض را به این اشیاء اضافه کردید تا اطلاعاتی درباره ماهیت آنها به 
-آنها اضافه کنید. دست آخر توانستید نقشه خودتان را در JOSM بکشید.
+In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
 
 تا به حال تمرین خوبی داشتیم و اکنون آماده‌ایم تا OpenStreetMap را ویرایش کنیم.
 
-در این بخش ما نگاه کاملتری به رابط کاربری JOSM خواهیم انداخت و می‌بینیم 
-که چگونه از آن برای ویرایش نقشه OpenStreetMap استفاده می‌کنیم.
+In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
 
 چرخه ویرایش
 ---------------------
-ویرایش OpenStreetMap در JOSM شبیه ویرایش آن با ویرایشگر iD که 
-قبلاً دیده‌ایم می‌باشد. اما از آنجا که JOSM یک برنامه تحت دسکتاپ است 
-کمی متفاوت‌تر کار می‌کند. روند ویرایش و افزودن به OpenStreetMap با 
-JOSM به طور کلی به صورت زیر است:
+Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
 
-1. **دانلود** نقشه جاری از OSM
-2. **ویرایش** آن با استفاده از تصاویر ماهواره‌ای، GPS، برگه‌های میدانی و یادداشتها به عنوان راهنما
-3. **ذخیره** تغییرات در OpenStreetMap
+1.  **Download** the current map data from OSM
+2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
+3.  **Save** changes to OpenStreetMap
 
 دانلود داده‌های OSM
 --------------------
-اولین گام در ویرایش نقشه دانلود داده‌های آن ناحیه از جهان است که 
-تصمیم به بهبود آن دارید. به یاد داشته باشید که اینکار را هربار که می‌خواهید 
-در نقشه تغییری ایجاد کنید بایستی انجام دهید زیرا نقشه دائما توسط کاربران دیگر در حال به‌روزرسانی می‌باشد.
+The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
 
-روی “File” درگوشه بالا و چپ JOSM کلیک کرده و سپس "Download from OSM" 
-    رابزنید. اینکارپنجره دانلود را باز می‌کند همچنین جهت سهولت کار 
-    می‌توانید روی دکمه‌ای که به این شکل نشان داده شده 
-    کلیک کنید:
+-   Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
-- پس از باز شدن پنجره دانلود، نقشه‌ای را می‌بینید. چنانچه نقشه را نمی‌بینید، روی زبانه‌ای که نوشته
-    “Slippy map” کلیک کنید.
+-   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
 
 ![JOSM Download Dialog][]
 
-- از ماوس برای جابجایی و حرکت نقشه و بزرگنمایی آن روی یک منطقه استفاده کنید
-    که کاملاً آشنا هستید مانند محله یا شهر خود بروید. 
-    کنترل‌ها دقیقاً مانند کنترل‌های پنجره نقشه JOSM هستند. کلید راست ماوس 
-    باعث جابجایی نقشه و کلید چرخان وسط آن موجب تغییر بزرگنمایی 
-    می‌شود.
+-   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
 
-> گاهی اوقات در صورت استفاده از نوت بوک سخت است که
->بزرگنمایی را نقشه تغییر داد. کار کردن با JOSM در صورت داشتن ماوس بسیار راحت تر است،
->اما در بسیاری از لپ‌تاپهای جدید امکان استفاده از تاچ‌پد وجود دارد.
+> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
 
-اطراف ناحیه‌ای که می‌خواهید دانلود کنید کادر صورتی رنگ را بکشید. برای کشیدن کادر جدید، روی نقشه 
-    کلیک کنید، کلید چپ ماوس را پائین نگه دارید و ماوس را بکشید تا
-    کادر را رسم کنید. برای اتمام کشیدن کادر کلید ماوس  را رها کنید.
-زمانی که از موقعیت و اندازه کادر خود راضی شدید، کلید
-    "Download" را در پائین پنجره بزنید. JOSM داده‌ها را 
-    برای این ناحیه از OpenStreetMap دانلود میکند و پنجره نقشه را برای 
-    ویرایش باز می‌کند.
+-   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
+-   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
 
 ### افزودن تصاویر ماهواره‌ای
-چنانچه با ما هنگام اضافه کردن اولین نقطه‌ها با ویرایشگر iD همراه بودید، 
-حتماً به خاطر دارید که زیر داده‌های نقشه تصاویر ماهواره‌ای وجود داشت که به ما کمک می‌کرد 
-تا اشیاء روی زمین را تشخیص دهیم. این تصاویر از Microsoft Bing بود که 
-بسیار سخاوتمندانه تصاویر ماهواره‌اش را در اختیار کاربران OpenStreetMap قرار داده تا به عنوان مرجع 
-در هنگام مشارکت در نقشه از آنها استفاده کنند.
+If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
 
-برای اضافه کردن تصاویر ماهواره‌ای بینگ به JOSM، از منوی بالایی روی "Imagery" 
-    کلیک کرده و "Bing Sat" را انتخاب کنید.
+-   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
 
-> اگر Bing Sat را در منوی Imagery نمی‌بینید بایستی آنرا 
-> از روی تنظیمات JOSM فعال کنید. به Edit -> Preferences بروید و روی آیکنی که
-> “WMS TMS” نوشته کلیک کنید. شاید لازم باشد روی فلش پائین کلیک کنید تا آنرا پیدا کنید.
-> <br>
->![JOSM Preferences up down][]
->![JOSM Preferences WMS TMS][]
-> <br>
+> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+>
+> ![JOSM Preferences up down][]
+> ![JOSM Preferences WMS TMS][]
+>
 > روی “Bing Sat” کلیک کنید و سپس “Activate” را بزنید.
 
 
 ### گردش در JOSM
-حالا که ما داده‌های OpenStreetMap را دانلود کرده و تصاویر ماهواره‌ای را اضافه کردیم،
-بیایید نگاه مجددی به رابط کاربری JOSM بیاندازیم.
+Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-پنجره اصلی که از قبل با آن آشنا هستید - پنجره نقشه است و  
-جایی است که بیشتر کارها در آن اتفاق می‌افتد. اینجا می‌توانید 
-داده‌های OpenStreetMap را ببینید و ویرایش کنید.
+The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
 
-در طرف راست پنجره نقشه، یک سری پانل وجود دارد که هرکدام 
-کاربرد خودش را دارد. معمولاً در اولین نصب JOSM بعضی 
-از آنها به طور پیشفرض نشان داده می‌شوند مانند پانل لایه‌ها، خصوصیات، 
-و انتخاب. وقتی که نقطه، خط یا شی را در نقشه انتخاب می‌کنید، 
-آن مورد در پانل Selection (انتخاب) نمایش داده می‌شود. اطلاعات در خصوص  
-آن مورد در پانل Properties (خصوصیات) و نام کاربری که 
-آن مورد را ایجاد کرده است در پانل Authors نمایش داده می‌شود.
+To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
 
-این پانلها را می‌توان با کلیک روی دکمه‌های متنوعی که 
-در قسمت چپ و پائین JOSM وجود دارند باز یا بسته کرد. در بالای این کلیدها در سمت چپ و بالا ابزارهایی هستند که می‌توانند 
-کاری را که با ماوس انجام می‌دهید تغییر دهند. قبلاً با چند تا از اینها آشنا شده‌اید:
-ابزار انتخاب و ابزار ترسیم. زیر آنها ابزارهایی وجود دارند که کار 
-بزرگنمایی، حذف یک شی، ترسیم شکل و یا ایجاد خط موازی 
-با خط دیگر را تسهیل می‌کنند.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper right are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 ویرایش
 ----
-خب حالا ما اولین گام در فرآیند ویرایش یعنی دانلود کردن را انجام دادیم. همچنین 
-JOSM را آماده کردیم تا تصاویر ماهواره‌ای را به عنوان مرجع قرار بدهد. گام بعدی ویرایش 
-نقشه و افزودن چیزهای جدید به آن است.
+So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
 
-بسته به ناحیه‌ای که برای دانلود انتخاب کرده‌اید، ممکن است 
-داده‌های نقشه کم یا زیادی وجود داشته باشد. اما توجه داشته باشید که همانند همان نوع 
-داده‌هایی هستند که قبلاًدیده بودیم - نقطه، خط و شکل.
+Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
 
-از روشهایی که قبلاً یاد گرفته‌اید چند مورد از 
-	مواردی که میشناسید به نقشه اضافه کنید. اگر اشکالی می‌بینید سعی کنید تا آنرا رفع کنید.
-نیاز نیست خیلی شلوغ  کاری کنید. اگر از چیزی مطمئن نیستید
-	بهتر است که آنرا به حال خود رها کنید و به آن دست نزنید.
-اگر می‌خواهید نقطه‌، خط یا شکلی را جابجا کنید،
-    از **ابزار انتخاب**  استفاده کنید. روی مورد کلیک کنید و آنرا با ماوس 
-    به جایی که باید باشد حرکت دهید. این کار برای اصلاح موقعیت اشیایی که 
-    درمکان ناصحیح قرار دارند به کار میرود.
+-   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
+-   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
+-   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
 
 ![JOSM select tool][]
 
-از **ابزار ترسیم** استفاده کنید تا نقطه، خط یا شکل جدیدی بکشید.
-    هرکدام از این اشیا را با استفاده از منوی Presets همانگونه که 
-    در بخش قبلی دیدید توصیف کنید. 
+-   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
 
-> هیچگاه خارج از محدوده‌ای که دانلود کرده‌اید را ویرایش نکنید.  
-منطقه‌ای که دانلود شده به صورت مستطیل با پس‌زمینه به رنگ سیاه یکنواخت دیده می‌شود،   
-در حالیکه مناطق دانلود نشده خطوط هاشوری مورب دارند. 
-> <br>  
+> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+>
 > ![JOSM area downloaded][]
 
 تغییرات را ذخیره کنید
 --------------
-سومین و آخرین گام برای تکمیل ویرایش‌های ما، آپلود تغییرات داده شده 
-به پایگاه داده OpenStreetMap می‌باشد. برای ذخیره تغییرات بایستی 
-به اینترنت متصل بود.
+The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
 
-از منوی بالا روی “File” و سپس روی “Upload Data” کلیک کنید. اینکار 
-    پنجره آپلود را باز می‌کند.  برای دسترسی 
-    راحتتر به این پنجره می‌توانید روی دکمه آپلود که به شکل زیر است، کلیک کنید:
+-   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
 
-![JOSM Upload Button][]
+    ![JOSM Upload Button][]
 
-درپنجره‌ای که باز  میشود لیست کلیه اشیایی که 
-    اضافه کرده‌اید یا تغییر داده‌اید و یا حذف کرده‌اید نمایش داده می‌شوند. در کادر 
-    پائین صفحه از شما خواسته می‌شود تا توضیحی درباره تغییراتی که 
-    انجام داده‌اید بنویسید. درباره تغییراتتان شرحی بنویسید.
+-   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
-روی “Upload Changes” کلیک کنید.
+-   Click “Upload Changes”.
 
-اگراولین باری است که تغییرات را در OpenStreetMap ذخیره می‌کنید، از شما خواسته می‌شود که 
-    نام کاربری و رمز OpenStreetMapتان را وارد کنید.
-آنها را در پنجره‌ای که ظاهر می‌شود وارد کنید. اگر مربع 
-    این پنجره را تیک بزنید، نام کاربری و رمز شما ذخیره می‌شود و 
-    نیازی به وارد کردن مجدد آنها در دفعات بعدی نمی‌باشد. روی “Authenticate” کلیک کنید.
+-   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
+-   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate][]
+    ![JOSM Authenticate][]
 
-لازم است که چند ثانیه‌ای برای آپلود شدن تغییرات صبر کنید،
-    و سپس کار تمام است! شما نقشه  OpenStreetMap را ویرایش کردید.
+-   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
 
-> در زمان ویرایش، همیشه اظمینان حاصل کنید که تغییرات خود را قبل از بستن JOSM آپلود کرده‌اید.  
-حتی اگر ویرایش‌های بیشتری می‌خواهید انجام دهید تغییرات خود را آپلود کنید،   
-و سپس به این فرآیند بعداً هرزمان که وقت داشتید ادامه دهید.  
-> دوست ندارید که کارهایی که کردید از بین بروند!
+> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
 
 تغییرات خود را در نقشه ببینید.
 ---------------------------
-مرورگر اینترنت را باز کنید و به سایت [http://openstreetmap.org/](http://openstreetmap.org/) بروید.
-نقشه را به منطقه‌ای که ویرایش کردید جابجا کنید.
-می‌بینید که تغییرات شما در نقشه ظاهر می‌شوند! اگر چیزی ندیدید،
-    دکمه‌های CTRL+R را با هم بزنید تا صفحه وب را بارگزاری مجدد کنید. گاهی اوقات 
-    نقشه به درستی به‌روز نمی‌شود و بایستی آنرا بارگزاری مجدد کرد.
-اگرتغییرات خود را ندیدید چه می‌شود؟ نگران نباشید - چند 
-    دقیقه‌ای زمان می‌برد تاتغییرات دیده شوند. همچنین بررسی کنید که 
-    اضافات خود را به درستی در JOSM به درستی وارد کرده‌اید. قاعده 
-    کلی این است که اگر نقطه شما در JOSM دارای آیکن میباشد، 
-    روی وبسایت OpenStreetMap هم بایستی دارای همان نماد باشد.
+-   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Move the map to the area that you edited.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.
+-   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
 
 خلاصه
 -------
-حالا که فهمیدید چطور می‌توان به OpenStreetMap اضافه کرد، بعدش میشه چیکار کرد؟ خب، ویرایش 
-خیلی عالیه، اما تنها جنبه نقشه سازی نیست. مسلماً نیاز دارید که 
-به محیط بیرون رفته و درباره مواردی که روی زمین هست اطلاعات 
-جمع‌آوری کنید.
+Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

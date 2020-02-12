@@ -4,41 +4,36 @@ title: GPS Essentials
 permalink: /fa/mobile-mapping/gpsessentials/
 lang: fa
 category: mobile-mapping
---- 
+---
 
 
 
 GPS Essentials
 ===================
 
-> تاریخ بازبینی ۱۳۹۴/۰۳/۰۳  
 
 نصب برنامه GPS Essentials
 -------------
 
-1. برای باز کردن مارکت آندرویید روی نماد برنامه "Google Play Store" در صفحه اصلی دستگاه آندرویید خود ضربه بزنید.
-2. روی آیکن "جستجو" در گوشه سمت راست بالا ضربه بزنید.
-3. برای جستجوی "GPS Essentials" از نوار جستجوی بالای صفحه استفاده کنید.
-4. روی آیکن GPS Essentials ضربه بزنید و "نصب" را انتخاب کنید. آیکون برنامه شبیه زیر است:
+1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
+2.  Tap the “Search” icon in the upper right corner.
+3.  Use the search bar at the top to search for “GPS Essentials”.
+4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPS Essentials logo][]
+    ![GPS Essentials logo][]
 
-اگر به گوگل پلی دسترسی ندارید یا اگر می‌خواهید نسخه‌های غیر از نسخه پایدار
-مانند نسخه های قدیمی یا آخرین بتا را دانلود کنید، می‌توانید برنامه را از http://www.images.com دانلود کنید.
+If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
 
 پیکربندی GPS Essentials برای کارکرد آفلاین
 -------------
 
-1. برنامه را باز کنید. به تنظیمات بروید و Map Cache را انتخاب کنید. حداکثر حد مجاز کش را انتخاب کنید.
+1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![Map Cache][]
+    ![Map Cache][]
 
-2. یک اتصال شبکه قوی پیدا کنید. از صفحه اصلی، «نقشه های قابل حمل» (Portable Maps) را انتخاب کنید. هر نقشه‌ای که در نمای نقشه قابل حمل مشاهده می کنید
-به طور خودکار در حافظه آندروید ذخیره می‌شود. نقشه‌هایی را که به صورت آفلاین تا حد جزئیاتی که نیاز دارید ذخیره کنید
-و به آرامی در هر نقطه بین‌راهی بزرگنمایی کنید.
+2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
 
-3. از شبکه جدا شوید و نقشه را در حالت نقشه قابل حمل مشاهده کنید. اگر برخی نقاط نقشه فاقد جزئیات لازم باشد، دوباره به یک
-شبکه متصل شده و به آرامی در مکان مورد نیاز زوم کنید.
+3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
 
 ویژگی‌های GPS بر روی گوشی آندروید
 -------------
@@ -50,155 +45,138 @@ GPS Essentials
 دستیابی به ماهواره‌ها
 -------------
 
-قبل از اینکه یک گیرنده GPS مکان را نشان دهد (که به اصطلاح ثبات GPS نیز نامیده می‌شود)، باید حداقل از چهار ماهواره سیگنال دریافت کند.
-هرچقدر میزان ارتفاع ماهواره از سطح افق کمتر باشد، عبور سیگنال‌های آن از طریق جو طولانی‌تر است و 
-ماهواره‌های بالاتز از سطح افق معمولاْ سیگنال‌های بهتری دارند. 
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
 
 برای بررسی ماهواره‌های منطقه خود:
 
-1. از منوی اصلی، ماهواره‌ها را انتخاب کنید.
+1.  From the main menu, select Satellites.
 
-   ![Satellites page][]
+    ![Satellites page][]
 
-2. اگر حداقل از چهار ماهواره در فیکس استفاده شود، می‌توانید از ویژگی‌های GPS Essentials استفاده کنید.
+2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
 ایجاد مسیر
 -------------
 
-1. از منوی اصلی، مسیرها (Tracks) را انتخاب کنید.
+1.  From the main menu, select Tracks.
 
-2. از نوار ابزار روی Start ضربه بزنید. مسیر جدیدی ایجاد میشود و ضبط آن شروع می‌شود. چند ثانیه صبر کنید تا ثبات (فیکس) GPS 
-انجام شود.
+2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
 
-   ![New Track][]
+    ![New Track][]
 
-3. برای توقف ضبط، دکمه مکث را انتخاب کنید. اگر می‌خواهید ضبط را ادامه دهید، آن را دوباره فشار دهید.
+3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
 ایجاد نقطه بین‌راهی
 -------------
 
 ### با استفاده از نقشه‌های قابل حمل
 
-1. از منوی اصلی، نقشه های قابل حمل را انتخاب کنید.
+1.  From the main menu, select Portable Maps.
 
-2. برای ایجاد یک مکان‌نمای جدید روی نقشه ضربه بزنید و نگه دارید.
+2.  Tap and hold on the map to create a new cursor.
 
-   ![Waypoints1][]
+    ![Waypoints1][]
 
-3. مکان‌نما را به محل مورد نظر که نقطه بین‌راهی جدیدی را می خواهید، بکشید.
+3.  Drag the cursor onto the location where you want the new waypoint.
 
-4. بر روی Actions کلیک کنید تا پنجره Actionها را نشان دهد. آیکن Actions مانند این است:
-	
-   ![Actions][]
-	
-5. برای افزودن یک نقطه مسیر، ابزار افزودن را انتخاب کنید.
-	
-   ![Waypoints2][]
-	
+4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+
+    ![Actions][]
+
+5.  Select the Add Tool to create the waypoint.
+
+    ![Waypoints2][]
+
 ### با استفاده از Google Maps
 
-1. از منوی اصلی، Google Maps را انتخاب کنید.
+1.  From the main menu, select Google Maps.
 
-2. به محل مورد نظر خود بروید.
+2.  Go to the location where you want to add your waypoint.
 
-3. ابزار Add را انتخاب کنید تا نقطه بین‌راهی را ایجاد کنید. برای ایجاد نقطه بین‌راهی در آن موقعیت مکانی روی نقشه ضربه بزنید. 
-   اگر می‌خواهید نقطه بین‌رهای در مکان فعلی شما ایجاد شود، روی 
-   دکمه Add Waypoint دوباره ضربه بزنید.
+3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
 
-   ![GoogleMaps][]
+    ![GoogleMaps][]
 
-4. مراحل B و C را تا زمانی که تمام ایستگاههای مورد نظر خود را ضبط کردید تکرار کنید.
+4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
 ### با استفاده از صفحه Waypoints
 
-1. از منوی اصلی، گزینه های Waypoint را انتخاب کنید.
+1.  From the main menu, select Waypoints.
 
-2. برای ایجاد نقطه بین‌راهی، ابزار افزودن را انتخاب کنید.
+2.  Select the Add tool to create the waypoint.
 
-   ![Waypointspage1][]
+    ![Waypointspage1][]
 
-3. شروع به ضبط اولین نقطه بینراهی خواهد کرد. شما می‌توانید ویژگی‌های نقطه بین‌راهی را تغییر دهید
-   و سپس بازگشت (Back) را فشار دهید تا به لیست بازگردید
-	
-   ![Waypointspage2][]
+3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
 
-4. هنگامی که پنجره نقشه را انتخاب کنید، مکانهای بین‌راهی‌تان را روی نقشه خواهید دید.
-	
-   ![Waypointspage3][]
+    ![Waypointspage2][]
 
-5. برای ذخیره کردن نقاط بین‌راهی مسیرتان، آیکن بستن (Close) را انتخاب کنید. آیکن بستن به شکل زیر است:
-	
-   ![Close][]
+4.  When you select the Map pane, you will see where your waypoint is located on the map.
 
+    ![Waypointspage3][]
 
-	
+5.  Select Close icon to save your waypoint. The Close icon looks like this:
+
+    ![Close][]
+
 عکس‌های دارای برچسب جغرافیایی (Geotag)
 -------------
 
-1. از منوی اصلی، دوربین را انتخاب کنید.
+1.  From the main menu, select Camera.
 
-2. یک عکس از منطقه مورد نظر خود بگیرید.
+2.  Take a picture of your desired area for geotagging.
 
-3. عکسی که میگیرید مانند یک نقطه بین‌راهی عمل کرده و به طور خودکار در نقشه‌های قابل حمل 
-و صفحه Google Maps ذخیره می‌شود.
+3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
-4. داده (موقعیت تصویر و نام فایل عکس) نیز در صفحه Waypoints وارد می‌شود.
-همچنین می‌توانید شکل مورد نظرتان برای یک تصویر خاص را جهت آیکن انتخاب کنید. آیکن در 
-صفحه نقشه‌های قابل حمل و نقشه‌های Google Maps نشان داده می‌شود.
+4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 
 عکسهای ذخیره شده
 -------------
 
-همه عکس‌هایتان در پوشه com.mictale.images روی کارت SD هستند. می‌توانید
-تصاویر را از این پوشه حذف کنید و حتی می‌توانید عکسهای جدیدی اضافه کنید. Essentials GPS این پوشه را 
-به طور منظم برای دیدن موارد جدید اسکن می‌کند.
+All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
 خروجی گرفتن/ذخیره نقاط بین‌راهی
 -------------
 
-1. از منوی اصلی، Waypoint را انتخاب کنید. اینکار لیست نقاط بین‌راهی را که شما ثبت کرده اید نشان خواهد داد.
+1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
 
-2. برای خروجی گرفتن همه نقاط بین‌راهی، گزینه Export را از دکمه گزینه‌ها انتخاب کنید. اگر میخواهید
-تنها از یک نقطه بین‌راهی خروجی بگیرید، نقطه مورد نظر را انتخاب کرده، و سپس از دکمه گزینه‌ها (Options)،  Export را انتخاب کنید.
+2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
 
-3. جعبه کشویی به شما اجازه می‌دهد تا نوع فایل خروجی مورد نظر خود را انتخاب کنید.
-در حال حاضر، روی (Google Earth (KML کلیک کنید.
+3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export file format][]
+    ![Export file format][]
 
-4. نماد کارت SD را انتخاب کنید تا محل فایل مورد نظرتان را به صورت دستی انتخاب کنید.
+4.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export to SD card][]
+    ![Export to SD card][]
 
-5. این آیکن را بزنید تا ذخیره شود.
+5.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 خروجی گرفتن/ذخیره مسیرها
 -------------
 
-1. از منوی اصلی، مسیرها (Tracks) را انتخاب کنید. اینکار داده‌های مسیر فعلی که ضبط کرده‌اید را نشان می‌دهد.
+1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
 
-2. برای خروجی گرفتن از محتویات مسیر جاری به یک فایل، از دکمه گزینه‌ها Export را انتخاب کنید.
+2.  Select Export from the Options button to write the contents of the current track to a file.
 
-3. اگر میخواهید از مسیرهای قبلی که ضبط کرده‌اید خروجی بگیرید، نماد Tracks را انتخاب کرده و مسیر مورد نظر را انتخاب کنید.
-   روی دکمه گزینه‌ها کلیک کنید و Export را انتخاب کنید. آیکون مسیرها به این شکل است:
+3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
 
-   ![Footprints][]
+    ![Footprints][]
 
 
-4. جعبه کشویی به شما اجازه می‌دهد که نوع فایل مورد نظر خود را که میخواهید داده‌های خود را به آن صادر کنید، انتخاب کنید.
-   در حال حاضر، روی (Google Earth (KML کلیک کنید.
+4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export1][]
+    ![Export1][]
 
-5. آیکن کارت SD را انتخاب کنید تا محل فایل مورد نظر خود را به صورت دستی انتخاب کنید.
+5.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export3][]
+    ![Export3][]
 
-6. این آیکن را بزنید تا ذخیره گردد.
+6.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 [GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
 [Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png

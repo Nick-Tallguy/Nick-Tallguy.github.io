@@ -4,41 +4,36 @@ title: GPS Essentials
 permalink: /cs/mobile-mapping/gpsessentials/
 lang: cs
 category: mobile-mapping
---- 
+---
 
 
 
 GPS Essentials
 ===================
 
-> Zkontrolováno 2015-05-24  
 
 Instalace GPS Essentials
 -------------
 
-1. Otevřete si aplikaci “Google Play Store” ve vašem Android zařízení.
-2. Klikněte na "Vyhledávací" ikonu vpravo nahoře.
-3. Vyhledejte “GPS Essentials”.
-4. Označte ikonu GPS Essentials a vyberte "Instalovat". Ikona vypadá takhle:
+1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
+2.  Tap the “Search” icon in the upper right corner.
+3.  Use the search bar at the top to search for “GPS Essentials”.
+4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPS Essentials logo][]
+    ![GPS Essentials logo][]
 
-Pokud nemáte přístup do Google Play nebo chcete stáhnout jinou než stabilní verzi,
-jako třeba starší nebo nejnovější betu, můžete stáhnout GPS Essentials z http://www.images.com.
+If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
 
 Konfigurace GPS Essentials pro práci offline
 -------------
 
-1. Spusťte GPS Essentials. Otevřete Settings a vyberte Map Cache. Nastavte cache limit na maximum.
+1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![Map Cache][]
+    ![Map Cache][]
 
-2. Připojte se k rychlé síti. Na hlavní obrazovce vyberte 'Portable Maps'. Všechny mapy zobrazené v módu portable
-map se automaticky uloží do paměti Androidu. Uložte si mapy, které budete potřebovat offline v maximálním detailu
-a pomalu si přibližte každý výchozí bod.
+2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
 
-3. Odpojte se ze sítě a podívejte se na mapy v módu portable map. Pokud některé mapy postrádají detail, znovu se připojte
- k Internetu a pomalu si přibližte oblast, kterou potřebujete.
+3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
 
 Funkce GPS na Android telefonu
 -------------
@@ -50,155 +45,138 @@ Před použitím GPS Essentials se ujistěte, že máte povolenou GPS v telefonu
 Připojení k satelitům
 -------------
 
-Dříve než začne přijímač GPS vysílat lokaci (taktéž nazáváno GPS fix), musí přijmout signály z nejméně čtyř satelitů.
-Čím níže je satelit nad horizontem, tím déle signál putuje skrze atmosféru, takže satelity
-vysoko nad horizontem mají obvykle lepší signály. 
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
 
 Kontrola satelitů ve vaší oblasti:
 
-1. V hlavním menu vyberte Satellites.
+1.  From the main menu, select Satellites.
 
-   ![Satellites page][]
+    ![Satellites page][]
 
-2. Pokud se zobrazí alespoň čtyři připojené satelity, pak můžete začít používat funkce GPS Essentials.
+2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
 Vytváření tras
 -------------
 
-1. Z hlavního menu vyberte Tracks.
+1.  From the main menu, select Tracks.
 
-2. Zmáčkněte Start. Vytvoří se nová trasa a začne záznam. Vyčkejte několik sekund dokud se GPS 
-nepřipojí.
+2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
 
-   ![New Track][]
+    ![New Track][]
 
-3. Tlačítkem Pause pozastavíte záznam. Opětovným zmáčknutím záznam znovu spustíte.
+3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
 Vytváření výchozích bodů
 -------------
 
 ### Pomocí Portable Maps
 
-1. Z hlavního menu vyberte Portable Maps.
+1.  From the main menu, select Portable Maps.
 
-2. Podržte prst na mapě pro vytvoření nového kurzoru.
+2.  Tap and hold on the map to create a new cursor.
 
-   ![Waypoints1][]
+    ![Waypoints1][]
 
-3. Přesuňte kurzor na místo, kde chcete vytvořit nový výchozí bod.
+3.  Drag the cursor onto the location where you want the new waypoint.
 
-4. Zmáčkněte tlačítko Actions a zobrazí se podokno akcí. Ikona Actions vypadá takhle:
-	
-   ![Actions][]
-	
-5. Zmačknutím Add Tool vytvoříte výchozí bod.
-	
-   ![Waypoints2][]
-	
+4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+
+    ![Actions][]
+
+5.  Select the Add Tool to create the waypoint.
+
+    ![Waypoints2][]
+
 ### Pomocí Google Maps
 
-1. Z hlavního menu vyberte Google Maps.
+1.  From the main menu, select Google Maps.
 
-2. Nejďte na místo, kde chcete vytvořit váš výchozí bod.
+2.  Go to the location where you want to add your waypoint.
 
-3. Zmáčkněte tlačítko Add Tool. Ťukněte na místo na mapě a tam 
-   se výchozí bod vytvoří. Pokud ho chcete vytvořit na vaší aktuální pozici, zmáčkněte tlačítko
-   Přidat výchozí bod ještě jednou.
+3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
 
-   ![GoogleMaps][]
+    ![GoogleMaps][]
 
-4. Opakujte krok 2 a 3 dokud nebudete mít umístěné všechny výchozí body.
+4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
 ### Pomocí stránky Waypoints
 
-1. Z hlavního menu vyberte Waypoints.
+1.  From the main menu, select Waypoints.
 
-2. Výchozí bod vytvoříte přes ikonu Add tool.
+2.  Select the Add tool to create the waypoint.
 
-   ![Waypointspage1][]
+    ![Waypointspage1][]
 
-3. Začne se zaznamenávat váš první výchozí bod. Můžete změnit atributy výchozího bodu
-   a poté zmáčknout Back, pro návrat zpět na seznam.
-	
-   ![Waypointspage2][]
+3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
 
-4. Přepnutím do mapy se vám výchozí bod zobrazí přímo ve své lokaci.
-	
-   ![Waypointspage3][]
+    ![Waypointspage2][]
 
-5. Zmáčknutím ikony Close se výchozí bod uloží. Ikona Close vypadá takhle:
-	
-   ![Close][]
+4.  When you select the Map pane, you will see where your waypoint is located on the map.
 
+    ![Waypointspage3][]
 
-	
+5.  Select Close icon to save your waypoint. The Close icon looks like this:
+
+    ![Close][]
+
 Přidání lokace k fotkám
 -------------
 
-1. V hlavním menu vyberte Camera.
+1.  From the main menu, select Camera.
 
-2. Vyfoťte oblast, ke které chcete přidat lokaci.
+2.  Take a picture of your desired area for geotagging.
 
-3. Foto bude sloužit jako výchozí bod a automaticky se uloží do Portable Maps
-a na stránku Google Maps.
+3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
-4. Data (lokace obrázku a název fota) se také zapíšou na stránku Waypoints.
-Každému obrázku můžete přiřadit ikonu. Ikona se zobrazí v
-Portable Maps a na stránce Google Maps.
+4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 
 Uložené fotky
 -------------
 
-Všechny vaše obrázky jsou uloženy v adresáři com.mictale.images na vaší SD kartě. Můžete
-je odsud smazat a dokonce sem můžete přidat i nové. GPS Essentials pravidelně prohledává tento adresář,
-jestli neobsahuje něco nového.
+All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
 Export/Ukládání výchozích bodů
 -------------
 
-1. Z hlavního menu vyberte Waypoints. Zobrazí se vám seznam výchozích bodů, které jste zaznamenali.
+1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
 
-2. Pokud je chcete exportovat, vyberte Export z nabídky Options. Pokud chcete exportovat
-jeden výchozí bod, vyberte jej a klikněte na Options a pak Export.
+2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
 
-3. Dostanete na výběr z dostupných formátů k exportu.
-Tentokrát zvolíme KML (Google Earth).
+3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export file format][]
+    ![Export file format][]
 
-4. Zmáčkněte ikonu SD karty pro vlastní výběr umístění soubor.
+4.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export to SD card][]
+    ![Export to SD card][]
 
-5. A zmáčkněte Save pro uložení.
+5.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 Export/Ukládání tras
 -------------
 
-1. Z hlavního menu vyberte Tracks. Zobrazí se vám seznam vašich zaznamenaných tras.
+1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
 
-2. Zmáčkněte tlačítko Options a pak vyberte Export, pro vytvoření souboru z aktuálně vybrané trasy.
+2.  Select Export from the Options button to write the contents of the current track to a file.
 
-3. Pokud chcete exportovat předchozí trasu, zmáčkněte ikonu Tracks a vyberte požadovanou trasu.
-   Dále tlačítko Options a vyberte Export. Ikona Tracks vypadá takhle:
+3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
 
-   ![Footprints][]
+    ![Footprints][]
 
 
-4. Z nabídky si vyberte formát souboru, do kterého chcete data exportovat.
-   Tentokrát zvolíme KML (Google Earth).
+4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export1][]
+    ![Export1][]
 
-4. Zmáčkněte ikonu SD karty pro vlastní výběr umístění soubor.
+5.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export3][]
+    ![Export3][]
 
-5. A zmáčkněte Save pro uložení.
+6.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 [GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
 [Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png

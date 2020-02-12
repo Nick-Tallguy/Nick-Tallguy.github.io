@@ -4,41 +4,36 @@ title: GPS Essentials
 permalink: /nl_NL/mobile-mapping/gpsessentials/
 lang: nl_NL
 category: mobile-mapping
---- 
+---
 
 
 
 GPS Essentials
 ===================
 
-> Bijgewerkt op 24-05-2015  
 
 Installeren van GPS Essentials
 -------------
 
-1. Tik op het app-pictogram “Google Play Store” op de thuispagina van uw Android-apparaat om de Android Market te openen.
-2. Tik op het pictogram “Search” in de rechter bovenhoek.
-3. Gebruik de zoekbalk bovenin om te zoeken naar “GPS Essentials”.
-4. Tik op het pictogram van GPS Essentials en selecteer "Install". Het pictogram ziet er zo uit:
+1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
+2.  Tap the “Search” icon in the upper right corner.
+3.  Use the search bar at the top to search for “GPS Essentials”.
+4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
 
-   ![GPS Essentials logo][]
+    ![GPS Essentials logo][]
 
-Als u geen toegang heeft tot Google Play of indien u andere versies wilt downloaden dan de stabiele uitgave
-zoals oudere versies of de laatste bèta, kunt u GPS Essentials downloaden vanaf http://www.images.com.
+If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
 
 GPS Essentials configureren om offline te werken
 -------------
 
-1. Open GPS Essentials. Ga naar Settings en selecteer Map Cache. verplaats de limiet van de cache naar het maximum.
+1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
 
-   ![Map Cache][]
+    ![Map Cache][]
 
-2. Zoek een sterke netwerkverbinding. Selecteer 'Portable Maps' vanuit het hoofdscherm. Elke kaart die u bekijkt in de modus Portable
-map wordt automatisch opgeslagen in het geheugen van Android. Sla kaarten die u offline nodig heeft zoveel mogelijk in detail op
-als mogelijk, en zoom langzaam in op elk waypoint.
+2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
 
-3. Verbreek de verbinding met het netwerk en bekijk kaarten in de modus Portable map. Als in sommige kaarten details ontbreken, verbindt dan opnieuw met een
-netwerk en zoom langzaam in op de kaartlocatie die u nodig heeft.
+3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
 
 Mogelijkheid voor GPS op Android-telefoon
 -------------
@@ -50,155 +45,138 @@ Zorg er voor dat de GPS in uw Android-telefoon is ingeschakeld, vóórdat u de a
 Satellieten ophalen
 -------------
 
-Voordat een GPS-ontvanger een locatie kan vaststellen (ook wel een GPS-fix genoemd), moet het signalen ontvangen van tenminste vier satellieten.
-Hoe lager de satelliet boven de horizon is, hoe langer de signalen ervan door de atmosfeer moeten reizen, dus satellieten
-die hoog boven de horizon staan hebben gewoonlijk betere signalen. 
+Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
 
 De satellieten in uw gebied controleren:
 
-1. Selecteer, uit het hoofdmenu, Satellites.
+1.  From the main menu, select Satellites.
 
-   ![Satellites page][]
+    ![Satellites page][]
 
-2. Als er tenminste vier satellieten zijn gebruikt in de fix, dan kunt u beginnen met de door GPS Essentials geboden mogelijkheden.
+2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
 Tracks maken
 -------------
 
-1. Selecteer, uit het hoofdmenu, Tracks.
+1.  From the main menu, select Tracks.
 
-2. Tik op Start op de werkbalk. Het zal een nieuwe track maken en beginnen met opnemen. Wacht enkele seconden totdat de GPS-fix
-beschikbaar is.
+2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
 
-   ![New Track][]
+    ![New Track][]
 
-3. Selecteer de knop Pause om het opnemen te pauzeren. Druk er opnieuw op als u wilt doorgaan met opnemen.
+3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
 Waypoints maken
 -------------
 
 ### Portable Maps gebruiken
 
-1. Selecteer, uit het hoofdmenu, Portable Maps.
+1.  From the main menu, select Portable Maps.
 
-2. Tik en blijf op de kaart om een nieuwe cursor te maken.
+2.  Tap and hold on the map to create a new cursor.
 
-   ![Waypoints1][]
+    ![Waypoints1][]
 
-3. Sleep de cursor naar de locatie waar u het nieuwe waypoint wilt hebben.
+3.  Drag the cursor onto the location where you want the new waypoint.
 
-4. Tik op Actions om het venster Actions weer te geven. Het pictogram Actions ziet er ongeveer zo uit:
-	
-   ![Actions][]
-	
-5. Selecteer het gereedschap Add om het waypoint te maken.
-	
-   ![Waypoints2][]
-	
+4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+
+    ![Actions][]
+
+5.  Select the Add Tool to create the waypoint.
+
+    ![Waypoints2][]
+
 ### Google Maps gebruiken
 
-1. Selecteer, uit het hoofdmenu, Google Maps.
+1.  From the main menu, select Google Maps.
 
-2. Ga naar de locatie waar u uw nieuwe waypoint wilt toevoegen.
+2.  Go to the location where you want to add your waypoint.
 
-3.  Selecteer het gereedschap Add om het waypoint te maken. Tik op de locatie op de kaart om daar een 
-   waypoint te maken. Indien u een waypoint wilt maken op uw huidige locatie, tik opnieuw op de knop Add
-   Waypoint.
+3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
 
-   ![GoogleMaps][]
+    ![GoogleMaps][]
 
-4. Herhaal de stappen b en c totdat u gereed bent met het opnemen van de door u gewenste waypoints.
+4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
 ### Pagina Waypoints gebruiken
 
-1. Selecteer, uit het hoofdmenu, Waypoints.
+1.  From the main menu, select Waypoints.
 
-2. Selecteer het gereedschap Add om het waypoint te maken.
+2.  Select the Add tool to create the waypoint.
 
-   ![Waypointspage1][]
+    ![Waypointspage1][]
 
-3. Het zal beginnen met het opnemen van uw  1ste waypoint. U kunt de attributen van het waypoint wijzigen
-   en dan op Back drukken om terug te gaan naar de lijst.
-	
-   ![Waypointspage2][]
+3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
 
-4. Wanneer u het venster Map selecteert, zult u zien waar uw waypoint is gelegen op de kaart.
-	
-   ![Waypointspage3][]
+    ![Waypointspage2][]
 
-5. Selecteer het pictogram Close om uw waypoint op te slaan. Het pictogram Close ziet er ongeveer zo uit:
-	
-   ![Close][]
+4.  When you select the Map pane, you will see where your waypoint is located on the map.
 
+    ![Waypointspage3][]
 
-	
+5.  Select Close icon to save your waypoint. The Close icon looks like this:
+
+    ![Close][]
+
 Foto's voorzien van geoverwijzingen
 -------------
 
-1. Selecteer, uit het hoofdmenu, Camera.
+1.  From the main menu, select Camera.
 
-2. Neem een foto van het door u gewenste gebied waar u een geoverwijzing wilt maken.
+2.  Take a picture of your desired area for geotagging.
 
-3. De foto die u heeft genomen zal dienen als een waypoint en automatisch worden opgeslagen op de Portable Maps
-en de pagina van Google Maps.
+3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
-4. De gegevens (locatie van de afbeelding en de bestandsnaam van de foto) zullen ook worden gelogd op de pagina Waypoints.
-U kunt ook kiezen welk pictogram moet worden gebruikt voor een bepaalde afbeelding. Het pictogram zal ook worden weergegeven op de
-Portable Maps en de pagina van Google Maps.
+4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 
 Opgeslagen foto's
 -------------
 
-Al uw afbeeldingen staan in de map com.mictale.images op uw SD-kaart. U kunt
-afbeeldingen verwijderen uit deze map en u kunt zelfs nieuwe toevoegen. GPS Essentials scant deze map
-regelmatig om te zien wat er nieuw is.
+All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
 Waypoints exporteren/opslaan
 -------------
 
-1. Selecteer, uit het hoofdmenu, Waypoints. Het zal u de lijst laten zien met waypoints die u heeft opgenomen.
+1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
 
-2. Selecteer, om alle waypoints te exporteren, Export uit de knop Options. Als u één enkel waypoint wiltexporteren
-selecteer dan het gewenste waypoint, klik op de knop Options en selecteer Export.
+2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
 
-3. Het vak van het keuzemenu zal u laten selecteren naar welk type bestand u uw gegevens wilt exporteren.
-Voor nu, klik op KML (Google Earth).
+3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export file format][]
+    ![Export file format][]
 
-4. Selecteer het pictogram van de SD-kaart om handmatig de gewenste locatie voor het bestand te selecteren.
+4.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export to SD card][]
+    ![Export to SD card][]
 
-5. Klik op dit pictogram om op te slaan.
+5.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 Tracks exporteren/opslaan
 -------------
 
-1. Selecteer, uit het hoofdmenu, Tracks. Het geeft de gegevens weer van het huidige track dat u heeft opgenomen.
+1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
 
-2. Selecteer Export uit de knop Options om de inhoud van het huidige track naar een bestand te schrijven.
+2.  Select Export from the Options button to write the contents of the current track to a file.
 
-3. Als u het vorige track dat u heeft opgenomen wilt exporteren, selecteer het pictogram Tracks en kies het gewenste track.
-   Klik op de knop Options en selecteer Export. Het pictogram Tracks ziet er zo uit:
+3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
 
-   ![Footprints][]
+    ![Footprints][]
 
 
-4. Het vak van het keuzemenu zal u laten selecteren naar welk type bestand u uw gegevens wilt exporteren.
-   Voor nu, klik op KML (Google Earth).
+4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
 
-   ![Export1][]
+    ![Export1][]
 
-5. Selecteer het pictogram van de SD-kaart om handmatig de gewenste locatie voor het bestand te selecteren.
+5.  Select the SD card icon to manually select your desired location of the file.
 
-   ![Export3][]
+    ![Export3][]
 
-6. Klik op dit pictogram om op te slaan.
+6.  Click this icon to Save.
 
-   ![Arrow][]
+    ![Arrow][]
 
 [GPS Essentials logo]:  /images/mobile-mapping/gpsessentials-Logo.png
 [Map Cache]:  /images/mobile-mapping/gpsessentials-mapcache.png

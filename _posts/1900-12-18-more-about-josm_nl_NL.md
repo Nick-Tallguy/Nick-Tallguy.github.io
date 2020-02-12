@@ -9,198 +9,116 @@ category: josm
 Het bewerkingsproces van JOSM
 ========================
 
-> Bijgewerkt op 12-07-2015  
 
-In het eerdere gedeelte heeft u
-JOSM geïnstalleerd en bent u uw eerste punten, lijnen en vormen gaan tekenen.
-U heeft voorkeuzen aan deze objecten toegevoegd om extra informatie aan ze
-toe te kunnen voegen. Aan het einde was u in staat uw eigen kaart te tekenen in JOSM.
+In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
 
 Dat was een goede oefening en nu zijn we klaar om OpenStreetMap te bewerken.
 
-In dit gedeelte zullen we nader kijken naar de interface van JOSM en zien
-hoe we die kunnen gebruiken om de kaart op OpenStreetMap te bewerken.
+In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
 
 De cyclus van het bewerken
 ---------------------
-OpenStreetMap bewerken met JOSM is soortgelijk aan het bewerken met de iD editor die we
-eerder zagen. Maar omdat JOSM een desktoptoepassing is, werkt het iets
-anders. Het proces van bewerken en toevoegen aan OpenStreetMap met
-JOSM zal altijd als volgt zijn:
+Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
 
-1. **Download** de huidige kaartgegevens vanaf OSM
-2. **Bewerk** ze met behulp van satellietafbeeldingen, GPS, velddocumenten, en notities als gids
-3. **Sla** wijzigingen op in OpenStreetMap
+1.  **Download** the current map data from OSM
+2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
+3.  **Save** changes to OpenStreetMap
 
 Downloaden van gegevens van OSM
 --------------------
-De eerste stap voor het bewerken is om de gegevens te downloaden voor het gebied van de wereld dat
-we wille verbeteren. Onthoud dat u dit elke keer moet doen als u wijzigingen wilt
-maken aan de kaart, omdat de kaart vaak wordt bijgewerkt door andere gebruikers.
+The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
 
--    Klik op “Bestand” in de linker bovenhoek van JOSM en klik op “Downloaden
-    vanuit OSM”. Dit zal het venster om te downloaden openen. U kunt dit venster
-    eenvoudiger openen door gewoon op de knop Downloaden, die hier
-    is weergegeven:
+-   Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
 
 ![JOSM Download Button][]
 
--  Wanneer het venster om te downloaden opent zou u een kaart moeten zien. Als u de kaart niet ziet, klik dan op de tab gemarkeerd
-    “Slippy-kaart”.
+-   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
 
 ![JOSM Download Dialog][]
 
-Gebruik uw muis om naar gebied te pannen en te zoomen
-    dat u goed kent, zoals uw eigen stad of wijk. De
-    besturingselementen zijn hetzelfde als in het kaartvenster van JOSM. Met de rechter muisknop
-    kunt u de kaart slepen, en uw scrolwiel stelt u in staat in en
-    uit te zoomen.
+-   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
 
-> Soms, als u werkt met een notebookcomputer kan het moeilijk zijn
-> om in en uit te scrollen. Werken in JOSM is veel eenvoudiger als u een muis heeft,
-> maar de meeste moderne notebooks stellen u in staat te scrollen met het touchpad.
+> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
 
--    teken een vak rondom het gebied dat u wilt downloaden. Klik, om een nieuw vak te tekenen, op de
-    kaart, houd uw linker muisknop ingedrukt, en sleep met uw muis om een
-    vak te maken. Laat de muis los om het tekenen van het vak te beëindigen.
--  Klik, wanneer u tevreden bent met de grootte en locatie van het vak,
-    op “Downloaden” aan de onderzijde van het venster. JOSM zal de gegevens ophalen
-    voor dit gebied vanaf OpenStreetMap en ze openen in uw kaartvenster om ze te
-    bewerken.
+-   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
+-   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
 
 ### Afbeeldingen toevoegen
-Indien u ons hebt gevolgd vanaf toen we onze eerste punten toevoegden met de iD editor, zult u
-hebben onthouden dat onder de kaartgegevens een satellietafbeelding lag die ons hielp
-bij het identificeren van objecten op de grond. Die afbeelding was van Microsoft Bing, die
-genereus zijn afbeeldingen ter beschikking stelt aan gebruikers van OpenStreetMap als verwijzing terwijl
-zij bedragen aan de kaart.
+If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
 
--    Klik, om satellietafbeeldingen van Bing in JOSM toe te voegen, op "Afbeeldingen" in het bovenste menu van
-    JOSM en selecteer “Bing Sat.”
+-   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
 
-> Indien u Bing luchtfotografie niet in uw menu Afbeeldingen ziet, moet u die misschien nog activeren
-> in de voorkeuren van JOSM. Ga naar Bewerken -> Voorkeuren en klik op het pictogram
-> dat zegt “WMS TMS”. U moet misschien op de pijl naar beneden klikken om die te vinden.
-> <br>
->    ![JOSM Preferences up down][]
->    ![JOSM Preferences WMS TMS][]
-> <br>
+> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+>
+> ![JOSM Preferences up down][]
+> ![JOSM Preferences WMS TMS][]
+>
 > Klik op “Bing luchtfotografie”. Klik dan op “Activeren”.
 
 
 ### Rondleiding in JOSM
-Nu we gegevens van OpenStreetMap hebben gedownload en satellietafbeeldingen van Bing hebben toegevoegd,
-zullen we eens wat nader kijken naar de interface van JOSM.
+Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
 
 ![JOSM layout][]
 
-Het hoofdvenster waarmee u al bekend bent - dit is het kaartvenster, en 
-dit is waar de meeste actie is te vinden. Hier zult u bekijken, bewerken en
-toevoegen aan de gegevens van OpenStreetMap.
+The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
 
-rechts van het kaartvenster staan een aantal panelen, elk daarvan heeft
-zijn eigen functie. Gewoonlijk, wanneer u JOSM voor de eerste keer installeert, zijn verscheidene
-panelen standaard verborgen, zoals Lagen, Eigenschappen, en
-Selectie. Wanneer u een punt, lijn, of vorm selecteert in het kaart
-venster, zal het worden weergegeven in het paneel Selectie. Informatie over
-het object zal worden weergegeven in het panel Eigenschappen, en de gebruikersnaam
-van de auteur van dat object zal worden weergegeven in het paneel Auteurs.
+To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
 
-Deze panelen kunnen worden geopend of gesloten door te klikken op de verschillende knoppen aan
-linker onderkant van JOSM. Boven deze knoppen, aan de linker bovenkant, staan gereedschappen die
-wijzigen wat u kunt doen met uw muis. Enkele daarvan kent u al,
-het gereedschap Selectie en het gereedschap Tekenen. Daaronder staan gereedschappen die het eenvoudiger maken
-in te zoomen, een object te verwijderen, een vorm te tekenen, of een lijn te maken die parallel is aan
-een andere lijn.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper right are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 Bewerken
 ----
-We hebben dus de eerste stap van het bewerkingsproces voltooid - Downloaden. We hebben
-JOSM voorbereid met een satellietafbeelding als verwijzing. De volgende stap is het bewerken
-van de kaart en het toevoegen van nieuwe items.
+So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
 
-Afhankelijk van het gebied dat u heeft gedownload, zou er veel of zeer
-weinig bestaand kaartgegevens kunnen zijn. Maar zie dat het dezelfde soort gegevens zijn die we
-eerder hebben gezien - punten, lijnen, en vormen die locaties in de echte wereld weergeven.
+Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
 
--    Gebruik de technieken die u al heeft geleerd om enkele punten aan de kaart toe te voegen
-	van plekken die u kent Als u fouten ziet, probeer ze dan te repareren.
--    U hoeft niet te agressief te zijn terwijl u leert. Als u niet zeker bent
-	van iets, is het beter om het te laten zoals het is.
--    Gebruik, als u een punt, lijn of vorm wilt verplaatsen, het
-    **gereedschap Selectie**. Klik op een object en sleep het naar waar
-    het zou moeten zijn. Dit kan worden gebruikt om de locatie va items te corrigeren die
-    op de verkeerde plaats zijn neergezet
+-   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
+-   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
+-   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
 
 ![JOSM select tool][]
 
-- Gebruik het **gereedschap Tekenen** om nieuwe punten, lijnen en vormen te tekenen.
-    Beschrijf deze objecten door te kiezen uit het menu Voorkeuzen, zoals u
-    in het eerdere gedeelte deed. 
+-   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
 
-> Bewerk nooit de kaart buiten het gebied dat u heeft gedownload. U  
-> kunt het rechthoekige gebied dat u heeft gedownload zien als een vaste achtergrond,  
-> terwijl het gebied dat u niet heeft gedownload diagonale lijnen met strepen heeft. 
-> <br>  
+> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+>
 > ![JOSM area downloaded][]
 
 Wijzigingen opslaan
 --------------
-De derde en laatste stap om onze bewerkingen te voltooien is het uploaden van de wijzigingen die we hebben
-gemaakt naar de database van OpenStreetMap. We moeten, om de wijzigingen op te slaan,
-verbonden zijn met het internet.
+The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
 
--  Klik op “Bestand” in het bovenste menu, en klik dan op “Gegevens bijwerken”. Dit
-    zal het venster voor het uploaden openen. U kunt dit venster
-    eenvoudiger openen door te klikken op de knop Uploaden, hier weergegeven:
+-   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
 
-![JOSM Upload Button][]
+    ![JOSM Upload Button][]
 
--  Het venster dat verschijnt geeft een lijst weer van de objecten die u
-    wilt toevoegen en de objecten die u bijwerkt of verwijdert. In het vak aan
-    de onderzijde wordt u gevraagd een opmerking op te geven over de wijzigingen die
-    u maakt. Typ hier een beschrijving van uw bewerkingen.
+-   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
 
-![JOSM Upload Dialog][]
+    ![JOSM Upload Dialog][]
 
--  Klik op “Wijzigingen uploaden”.
+-   Click “Upload Changes”.
 
--    Als dit de eerste keer is dat u wijzigingen opslaat in OpenStreetMap, zult u
-    worden gevraagd naar uw gebruikersnaam en wachtwoord voor OpenStreetMap.
--    Voer ze in in het venster dat verschijnt. Als u het vak selecteert in
-    dit venster, zullen uw gebruikersnaam en wachtwoord worden opgeslagen en zult u
-    ze  in de toekomst niet meer hoeven in te voeren. Klik op “Authenticate”.
+-   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
+-   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
 
-![JOSM Authenticate][]
+    ![JOSM Authenticate][]
 
--    U zult een paar seconden moeten wachten voordat uw wijzigingen zullen zijn geüpload,
-    en dan bent u klaar! U heeft de kaart op OpenStreetMap bewerkt.
+-   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
 
-> Als u aan het bewerken bent, zorg er dan voor dat u uw wijzigingen uploadt vóórdat u  
-> JOSM sluit. Zelfs als u nog meer bewerkingen wilt uitvoeren, upload uw wijzigingen, en  
-> ga dan later opnieuw door het proces wanneer u tijd heeft om te bewerken.  
-> U wilt uw werk niet verliezen!
+> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
 
 Uw wijzigingen bekijken op de kaart
 ---------------------------
--  Open uw internetbrowser en ga naar [http://openstreetmap.org/](http://openstreetmap.org/)
--  Verplaats de kaart naar het gebied dat u heeft bewerkt.
--  U zou uw wijzigingen nu moeten zien verschijnen op de kaart! Als dat niet zo is,
-    probeer dan door te drukken op CTRL+R de webpagina te vernieuwen. Soms wordt de kaart
-    niet helemaal correct bijgewerkt en moet die opnieuw worden geladen.
--  Wat als u uw wijzigingen niet ziet? Geen zorgen - het kan enkele
-    minuten duren voordat de wijzigingen worden weergegeven op de kaart. Controleer ook uw
-    aanvullingen in JOSM om er zeker van te zijn dat u ze correct heeft toegevoegd. Een goede
-    algemene regel is, als uw punt een pictogram in JOSM heeft, dan zou het
-    moeten kunnen worden bekeken op de hoofdkaart van de website van OpenStreetMap.
+-   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Move the map to the area that you edited.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.
+-   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
 
 Samenvatting
 -------
-Nu we u hebben laten zien hoe u kunt toevoegen aan OpenStreetMap, wat is het volgende? Wel, bewerken
-is fantastisch, maar het is niet het enige aspect het maken van kaarten. Natuurlijk moet u ook nog
-leren hoe u naar buiten gaat en informatie verzamelt over plaatsen op de
-grond.
+Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

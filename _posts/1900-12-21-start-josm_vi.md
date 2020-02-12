@@ -8,254 +8,156 @@ published: true
 ---
 
 Getting Started with JOSM
-=============================  
+=============================
 
-> Cập nhật: 2017-11-06  
 
-Chương này, chúng ta sẽ biết cách tải xuống và cài đặt JOSM,
-viết tắt của Java OpenStreetMap editor, thay đổi một số cài đặt,
-mở một bản đồ thí dụ và thực hành một số thao tác cơ bản trong phần mềm này.
-Hãy nhớ lại trong chương mở đầu, chúng tôi có yêu cầu bạn vẽ bản đồ của khu phố hoặc thị trấn bạn đang ở.
-Với chương này, chúng ta sẽ vẽ lại bản đồ đó của bạn, lần này là bằng kỹ thuật số.
-Sau đó, bạn sẽ hiểu rõ hơn cách làm thế nào để vẽ bản đồ trên JOSM.
+How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
 
 Tải xuống JOSM
 -------------
 
-- Nếu bạn có sẵn bộ cài đặt JOSM trong CD hoặc bút nhớ USB,
-  bạn có thể bỏ qua bước này để tiến hành cài đặt JOSM.
-- Nếu bạn chưa có bộ cài JOSM hoặc muốn có phiên bản mới nhất,
-  hãy mở trình duyệt web của bạn – có thể là Firefox, Chrome,
-  Opera hoặc Internet Explorer.
-- Gõ địa chỉ sau vào thanh địa chỉ của trình duyệt web:
-  josm.openstreetmap.de
-- Bạn cũng có thể tìm thấy trang web chứa bộ cài JOSM bằng cách tiến hành tìm kiếm cụm từ “JOSM”.
-- Trang web sẽ trông như sau:
+-   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
+-   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
+-   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   You can also find the JOSM website by searching the internet for “JOSM”.
+-   The website should look something like this:
 
-  ![JOSM website][]
+    ![JOSM website][]
 
-- Nếu bạn sử dụng hệ điều hành Windows, nhấn chuột vào dòng chữ “Windows Installer” để tải xuống JOSM.
+-   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
 
-  ![Windows installer][]
+    ![Windows installer][]
 
-- Đối với các hệ điều hành khác, bạn nhấp chuột vào liên kết tương ứng với hệ điều hành mình đang sử dụng.
-  Bộ cài đặt JOSM sẽ được tải xuống máy tính của bạn.
-  Trong chương này, chúng tôi mặc định bạn sử dụng hệ điều hành Windows
-  nhưng cách thức thực hiện với các hệ điều hành khác cũng tương tự như vậy.
+-   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
 
 Cài đặt JOSM
 ------------
 
->  Bạn sẽ không thể cài đặt JOSM nếu máy tính của bạn không có Java.
->  Vì vậy, bạn cần phải tải xuống và
->  cài đặt Java từ địa chỉ:
->  [http://www.java.com/en/download/](http://www.java.com/en/download/)
+>  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>
+>  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
 
->  Hệ điều hành Mac có thể phải sử dụng các phiên bản cũ hơn của Java, xin tham khảo tại địa chỉ sau http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) với các tùy chọn cho phiên bản OSX 10.6 và 10.7.3+
+-   Find the JOSM install file on your computer. Double-click it to begin setup.
+-   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
+-   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
+-   When JOSM starts, it will look something like this:
 
-- Tìm đến bộ cài đặt JOSM trong máy tính của bạn,
-  nhấp đúp để bắt đầu quá trình cài đặt.
-- Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’.
-  Khi quá trình cài đặt kết thúc,
-  nhấp chuột vào nút ‘Finish’,
-  lúc này bạn có thể khởi chạy JOSM lần đầu tiên.
-  Ở những lần sau, bạn có thể khởi chạy JOSM qua nút Start.
-- Bạn có thể nhận được  thông báo cập nhật phần mềm khi khởi chạy JOSM.
-  Bạn sẽ không cần thiết phải cật nhật khi vừa mới cài đặt nên hãy nhấp chuột vào nút “Cancel”.
-  Nếu bạn không muốn thấy thông báo này lần nữa,
-  bạn có thể nhấp chọn vào ô phía dưới trước khi nhấp chuột vào nút “Cancel.”
-- Khi JOSM khởi chạy, giao diện phần mềm sẽ giống như ở dưới:
-
-  ![JOSM splash page][]
+    ![JOSM splash page][]
 
 Các cài đặt riêng cho JOSM
---------------------
+----------------
 
-Có rất nhiều cài đặt khác nhau mà bạn có thể tùy biến trong JOSM. 
-Một trong những cài đặt đó là thay đổi ngôn ngữ.
-JOSM đã được dịch ra nhiều ngôn ngữ khác nhau
-và bạn có thể lựa chọn sử dụng.
+There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
 
-- Để đi đến cửa sổ cài đặt, nhấp chuột vào menu Edit -\> Preferences.
+-   To access the Preferences window, click Edit -> Preferences.
 
-  ![Preferences window][]
+    ![Preferences window][]
 
-- Ở phía trái của khung tùy chọn,
-  nhấp chuột vào biểu tượng
-- Nhấp chuột vào thẻ “Look and Feel”.
-- Chọn ngôn ngữ bạn muốn sử dụng từ danh sách thả xuống bên cạnh từ
-  “Language”.
-  
-  ![Look and feel][]
+-   On the left side, click the icon that looks like a paint can and paint brush.
+-   At the top of the window, click the tab that says “Look and Feel”.
+-   Choose your language in the dropdown box next to the word “Language”.
 
-- Nhấp chuột vào nút “OK”.
-- Bạn sẽ phải khởi động lại JOSM để các thay đổi cài đặt có hiệu lực.
-  Nhấp chuột vào menu “File” -> “Restart”.
+    ![Look and feel][]
+
+-   Click OK.
+-   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
 
 Các thao tác chỉnh sửa bản đồ cơ bản trong JOSM
 -----------------------------
 
-- Bây giờ, chúng ta sẽ mở một file OSM làm ví dụ
-  để học các thao tác chỉnh sửa bản đồ cơ bản trong JOSM.
-  Xin lưu ý rằng đây không phải là một bản đồ thực tế
-  của một khu vực trên thực địa nên chúng ta sẽ không lưu vào OpenStreetMap.
-- Tải xuống file: [sample.osm](/files/sample.osm)
-- Hãy mở file bản đồ thí dụ này trong JOSM.
-  Nhấp chuột vào nút “Open” ở góc trên bên trái.
+-   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+-   Download the file here: [sample.osm](/files/sample.osm)
+-   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
 
-  ![Open file][]
+    ![Open file][]
 
-- Tìm đến file **sample.osm**. File này có thể trong thư mục Downloads của bạn, trừ phi bạn chủ định lưu vào thư mục khác.
-  Nhấp chuột vào nút “Open”.
-- Bạn sẽ thấy bản đồ thí dụ giống như sau:
+-   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
+-   You should now see a sample map that looks like this:
 
-  ![Sample file][]
+    ![Sample file][]
 
-- Bạn sẽ sử dụng các dữ liệu này để thực hành các kỹ thuật chỉnh sửa bản đồ khác nhau.
-  *Bạn cũng nên lưu ý là không tải lên bất kỳ dữ liệu You must however never upload these fictitious data to the database.*
+-   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
 
 ### Các thao tác cơ bản
 
-- Để di chuyển bản đồ lên/ xuống hoặc sang trái/ phải,
-  nhấn và giữ nút phải chuột.
-- Có nhiều cách để phóng to và thu nhỏ bản đồ.
-  Nếu sử dụng bản đồ,
-  bạn có thể dùng nút cuộn để phóng to/ thu nhỏ.
-  Ngoài ra, bạn có thể dùng thanh tỷ lệ
-  phía trên bên trái khung bản đồ.
-  Kéo thanh tỷ lệ về phía trái hoặc phải.
+-   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
+-   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
 
-  ![Scale bar][]
+    ![Scale bar][]
 
-- Nhìn vào bản đồ thí dụ, bạn sẽ thấy một số đối tượng khác nhau
-  gồm một con sông, một khu rừng, một số tòa nhà,
-  một số con đường và vài cửa hàng.
-  Để chọn một đối tượng, nhấp chuột trái vào đối tượng đó.
+-   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
 
 ### Điểm, đường và hình
 
-- Khi bạn chọn các đối tượng khác nhau trên bản đồ thí dụ,
-  bạn sẽ thấy có 3 nhóm đối tượng khác nhau trên bản đồ.
-  Đó là nhóm các điểm, đường và hình.
-- Điểm là một vị trí đơn lẻ và được thể hiện bằng các biểu tượng.
-  Trong bản đồ ví dụ này, bạn sẽ thấy 2 điểm, một là cửa hang giày và một là siêu thị.
-  Cửa hàng giày được biểu tượng bằng hình chiếc giày
-  và siêu thị được biểu tượng bằng xe đẩy hàng.
-- Có một số đường kẻ trên bản đồ thể hiện cho đường đi.
-  Nếu bạn nhìn gần hơn,
-  bạn sẽ thấy đường kẻ này cũng chứa các điểm.
-  Các điểm này không chứa thông tin hay biểu tượng
-  nhưng nó xác định vị trí đường.
-- Cuối cùng, bạn có thể thấy một số hình
-  biểu thị các khu vực khác nhau
-  như một khu rừng, một con sông, một công viên hay các tòa nhà.
-  Một hình vẽ thì giống hệt một đường
-  nhưng khác ở chỗ là điểm đầu và điểm cuối là trùng nhau.
+-   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
+-   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
+-   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
+-   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
 
-> Một cách đơn giản, có thể hiểu bản đồ chứa đựng 3 loại đối tượng cơ bản: điểm, đường và vùng. 
+> Một cách đơn giản, có thể hiểu bản đồ chứa đựng 3 loại đối tượng cơ bản: điểm, đường và vùng.
 > Trong OpenStreetMap, có một số khái niệm bạn sẽ phải làm quen khi chỉnh sửa bản đồ
 > như điểm được gọi là **nút/ nodes**, và đường được gọi là **đoạn/ ways**.
 > Một hình được gọi là **đường khép kín** vì
 > nó là một đường với điểm đầu và điểm cuối trùng nhau.
 
-- Bạn có thể thấy khi chọn một đối tượng trên bản đồ,
-  một danh sách sẽ được đưa ra bên phải của khung bản đồ gọi là Các thuộc tính/ “Properties”.
-  Đây là các thẻ thông tin được gắn với một điểm, đường hoặc hình để mô tả đặc điểm của đối tượng.
-  Chúng ra sẽ tìm hiểu them về thẻ thong tin ở các chương sau.
-  Hiện tại, bạn cũng chỉ cần hiểu rằng
-  các thẻ thông tin giúp chúng ta biết được đối tượng trên bản đồ
-  là một khu rừng, một con sông, tòa nhà hay là gì khác.
-- Về cách thức thành lập bản đồ thủ công,
-  bạn làm như thế nào để vẽ điểm, đường và vùng.
-  Những khu vực nào được thể hiện tốt nhất bằng các điểm, đường và vùng?
+-   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
+-   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
 
 ### Thay đổi các đối tượng
 
-- Chọn khu rừng ở bên trái của bản đồ
-  bằng cách nhấp chuột vào cạnh của khu rừng chứ không phải điểm nút của các đoạn.
-  Bây giờ, hãy nhấn giữ trái chuột vào kéo.
-  Bạn sẽ có thể di chuyển khu rừng đến địa điểm mới trên bản đồ.
-- Nhấp chuột vào một điểm của một đoạn bất kỳ,
-  nhấn giữ trái chuột và kéo.
-  Bạn sẽ có thể di chuyển điểm đó.
-  Đây là cách để bạn thay đổi hình dạng của đối tượng hoặc di chuyển một điểm.
+-   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
+-   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
 
 ### Vẽ
 
-- Ở bên trái trong giao diện của JOSM là một cột các nút bấm.
-  Nhiều nút trong số đó sẽ mở cửa số mới bên phải
-  để cung cấp thêm thông tin của bản đồ.
-  Những nút quan trọng nhất được bố trí ở phần trên cảu cột.
-  Khi nút này chìm xuống chỉ ra bạn có thể làm gì bằng con trỏ chuột.
-- Nút trên cùng của cột này cũng chính là nút các bạn sẽ sử dụng nhiều nhất.
-  Đó là nút dùng để chọn một đối tượng và để vẽ một đối tượng mới.
-- Cho đến giờ, bạn đã sử dụng công cụ Chọn/ Select tool,
-  trông như thế này:
+-   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
+-   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
+-   Until now, you have been using the Select tool, which looks like this:
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Trước khi bạn vẽ thêm đối tượng, bạn cần chắc chắn là ko có đối tượng nào đang được chọn.
-  Nhấp chuột vào khu vực trống của bản đồ
-  để đảm bảo không có đối tượng nào được chọn.
-- Nhấp chuột vào nút tiếp theo, nút Công cụ vẽ/ Draw tool.
+-   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
+-   Click on the second button, the Draw tool.
 
-  ![Draw tool][]
+    ![Draw tool][]
 
-- Tìm đến một khu vực trống của bản đồ, nhấp đúp chuột.
-  Một điểm mới sẽ được vẽ.
-- Để vẽ một đoạn, nhấp trái chuột, di chuyển chuột và nhấp chuột lần nữa,
-  tiếp diễn đến khi bạn hài lòng với đoạn mình đã vẽ.
-  Nhấp đúp chuột để kết thúc quá trình vẽ đường.
-- Vẽ hình cũng tương tự như vẽ đoạn/ đường
-  nhưng kết thúc bằng cách nhấp đúp vào điểm đầu tiên bạn vẽ.
+-   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+-   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
+-   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
 
 ### Thêm các tùy biến có sẵn/ Presets
 
-- Bây giờ, chúng ta đã biết cách vẽ điểm, đường và hình
-  nhưng chúng ta vẫn chưa định nghĩa xem các điểm/ đường/ hình là gì.
-  Chúng ta sẽ muốn đưa vào thông tin về mỗi điểm là cửa hàng,
-  trường học hay gì khác, và hình vừa vẽ là cánh đồng, toàn nhà.
-- Nhấp chuột vào công cụ Chọn/ Select tool trên cột các nút ở phía trái.
+-   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
+-   Click on the Select tool, in the column of buttons on the left.
 
-  ![Select tool][]
+    ![Select tool][]
 
-- Chọn một đối tượng mà bạn đã vẽ từ công cụ vẽ.
-  Từ menu hệ thống, nhấp chuột vào “Presets”.
-  Di chuyển con trỏ theo các menu thứ cấp để chọn được loại địa điểm mà bạn muốn sử dụng.
-- Khi bạn chọn một cài đặt có sẵn,
-  một biểu nhập thông tin sẽ hiện ra để bạn đưa các thông tin bổ sung.
-  Bạn không nhất thiết phải điền tẩt cả các trường thông tin
-  nhưng bạn nên điền vào các trường thông tin quan trọng như tên của đối tượng.
-- Khi bạn cung cấp đầy đủ thông tin, nhấp chuột vào nút “Apply Preset”.
-  Nếu thông tin bạn đưa là phù hợp,
-  bạn sẽ thấy điểm, đường hay vùng sẽ thay đổi màu
-  và biểu tượng do các thông tin bạn đã đưa vào.
+-   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
+-   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
+-   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
 
 Vẽ bản đồ của chính bạn
 -----------------
 
-- Và bây giờ, hãy bắt đầu vẽ một bản đồ bằng các kỹ thuật mà bạn vừa học.
-  Bạn có thể sẽ muốn vẽ lại bản đồ mà bạn vẽ trên giấy trước đây.
-- Kéo bản đồ ra khỏi khu vực bản đồ thí dụ vừa rồi.
-  Nhấn giữ chuột phải và kéo đến khi bạn thấy một khu vực hoàn toàn trống để vẽ.
-- Sử dụng công cụ Vẽ để tạo các điểm, đường và vùng.
-  Mô tả các đặc điểm của đối tượng bằng cách chọn trong menu Presets.
-- Khi bạn vẽ xong, bạn sẽ có bản đồ của riêng mình,
-  giống hệt như bản đồ ví dụ mà bạn đã mở trong sample.osm.
+-   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
+-   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
+-   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
+-   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
 
-## Remove the sample layer
+Remove the sample layer
+-----------------------
 
 Một khi bạn cảm thấy thoải mái với những kỹ thuật chỉnh sửa cơ bản này,
-bạn có thể muốn chuyển sự chú ý của bạn tới việc lập bản đồ thực sự. 
+bạn có thể muốn chuyển sự chú ý của bạn tới việc lập bản đồ thực sự.
 
-*Điều rất quan trọng là bạn lần đầu tiên gỡ bỏ lớp với dữ liệu mẫu. 
-Những dữ liệu này là hư cấu và không được tải lên cơ sở dữ liệu OpenStreetMap 
-(phiên bản JOSM mới hơn tự động ngăn chặn điều này).*
+_It is very important that you first remove the layer with the sample data.
+Những dữ liệu này là hư cấu và không được tải lên cơ sở dữ liệu OpenStreetMap
+database (newer JOSM releases automatically prevent this)._
 
-Trong cửa sổ Layers ở phía trên bên phải của màn hình, 
-chọn lớp sample.osm. Sau đó nhấp vào biểu tượng thùng rác ở góc dưới bên phải của cửa sổ đó. 
-Ngoài ra, bạn có thể chọn xóa từ trình đơn ngữ cảnh của lớp. 
-Để tiếp tục chỉnh sửa, trước tiên bạn cần tải dữ liệu thực. 
+Trong cửa sổ Layers ở phía trên bên phải của màn hình,
+chọn lớp sample.osm. Sau đó nhấp vào biểu tượng thùng rác ở góc dưới bên phải của cửa sổ đó.
+Ngoài ra, bạn có thể chọn xóa từ trình đơn ngữ cảnh của lớp.
+Để tiếp tục chỉnh sửa, trước tiên bạn cần tải dữ liệu thực.
 Điều này sẽ được giải thích trong chương tiếp theo.
 
 Tóm lược
@@ -265,13 +167,22 @@ Thật tuyệt! Cho đến lúc này, bạn đã học cách cài đặt JOSM v�
 các công cụ cơ bản để vẽ bản đồ.
 Trong chương tiếp theo, bạn sẽ được biết trình tự chỉnh sửa bản đồ OSM trong JOSM.
 
-[JOSM website]: /images/josm/josm-website.png
-[Windows installer]: /images/josm/windows-installer.png
-[JOSM splash page]: /images/josm/josm-splash-page.png
-[Preferences window]: /images/josm/josm_preferences.png
-[Look and feel]: /images/josm/josm_look-and-feel.png
-[Open file]: /images/josm/josm_open-file.png
-[Sample file]: /images/josm/josm_sample-file.png
-[Scale bar]: /images/josm/josm_scale-bar.png
-[Select tool]: /images/josm/josm_select-tool.png
-[Draw tool]: /images/josm/josm_draw-tool.png
+[josm website]: /images/josm/josm-website.png
+
+[windows installer]: /images/josm/windows-installer.png
+
+[josm splash page]: /images/josm/josm-splash-page.png
+
+[preferences window]: /images/josm/josm_preferences.png
+
+[look and feel]: /images/josm/josm_look-and-feel.png
+
+[open file]: /images/josm/josm_open-file.png
+
+[sample file]: /images/josm/josm_sample-file.png
+
+[scale bar]: /images/josm/josm_scale-bar.png
+
+[select tool]: /images/josm/josm_select-tool.png
+
+[draw tool]: /images/josm/josm_draw-tool.png

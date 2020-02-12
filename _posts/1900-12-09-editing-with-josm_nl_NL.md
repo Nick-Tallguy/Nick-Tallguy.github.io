@@ -9,182 +9,109 @@ category: josm
 Gegevens uit het veld bewerken
 ==================
 
-> Bijgewerkt op 13-07-2015  
 
-We hebben nu alle bouwblokken voor het maken van kaarten met OpenStreetMap behandeld.
-In het gedeelte [In kaart brengen met een smartphone, GPS of op papier](/nl_NL/mobile-mapping/) kunt u zien hoe u mobiele gereedschappen gebruikt om een gebied te verkennen en vast te leggen.  
+We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
 
-In dit hoofdstuk keren we nog een keer terug naar JOSM en kijken we naar een aantal nieuwe
-concepten die we tot op heden nog niet behandeld hebben.
+In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
 
 Lagen in JOSM
 -----------
-Als u alles gevolgd heeft zou het u opgevallen kunnen zijn dat we allerlei soorten
-verschillende dingen kunnen toevoegen in JOSM. We kunnen gegevens van OSM downloaden, satellietafbeeldingen van Bing toevoegen,
-load GPS-sporen en punten laden, en Veldbeschrijvingen toevoegen - welke alle worden weergegeven
-in het kaartvenster van JOSM.
+If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
 
-Het zal u misschien zijn opgevallen dat, elke keer als u iets nieuws toevoegt aan JOSM, een aanvullend
-item wordt toegevoegd aan het Lagenpaneel aan de rechterzijde van JOSM. Afhankelijk van wat u heeft
-geopend, zou uw Lagenpaneel er ongeveer zo uit kunnen zien:
+You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
 
 ![Layers panel][]
 
-Elk item in deze lijst vertegenwoordigt een verschillende bron van gegevens die
-u heeft geopend in uw kaartvenster. In dit voorbeeld is “Data Layer
-1” de gegevens van OpenStreetMap die we bewerken. "Field Papers” is
-de laag die werd gemaakt toen we onze Veldformulieren toevoegden aan JOSM.
+Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
 
 Indien u satellietafbeeldingen van Bing toevoegt, zal een nieuwe laag, genaamd "Bing Sat", in het Lagenpaneel verschijnen.
 
-Het concept van lagen is soms moeilijk te begrijpen. Een goede manier om het te visualiseren is dat elke
-laag is als een semi-doorzichtig stuk papier, en zij zijn allemaal bovenop elkaar
-gestapeld. Elk stuk papier bevat een bepaald type informatie, en zijn kunnen opnieuw worden geschikt
-op elke manier die u wilt.
+The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
 
-Lage die als verwijzingen worden gebruikt, zoals satellietafbeeldingen, GPS-sporen en Veldformulieren
-worden vaak "basislagen" genoemd. De laag met gegevens van OSM is de laag waar u in feite mee werkt.
+Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
 
--   Klik, om een laag te verplaatsen, er op in het Lagenpaneel en klik op de pijl naar boven
-    of naar beneden om hem te verplaatsen.
+-   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
 
 ![Layers up down][]
 
--  Selecteer, om een laag te verbergen, die met uw muis en
-    klik op de knop Weergeven/Verbergen:
+-   To hide a layer, select it with your mouse and click the Show/Hide button:
 
 ![Layers show hide][]
 
--  U zou moeten zien dat de door u geselecteerde laag verdwijnt van de kaart
-    venster. Klik opnieuw op Weergeven/Verbergen en het zal weer verschijnen.
--  U kunt een laag verwijderen door die te selecteren en de knop Delete
-    te gebruiken:
+-   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
+-   You can remove a layer by selecting it and using the delete button:
 
 ![Layers delete][]
 
-- Tenslotte is het belangrijk te weten dat u alleen de laag kunt bewerken die
-    als *actief* wordt beschouwd door JOSM. Als u niet in staat bent de kaart te bewerken in
-    uw kaartvenster, is dat waarschijnlijk omdat u niet de juiste
-    laag als actief hebt ingesteld. De meeste lagen, zoals GPS-punten, Veld
-    formulieren en satellietafbeeldingen, kunnen niet worden bewerkt. De enige lagen die
-    die kunnen worden bewerkt zijn gegevens van OpenStreetMap, die gewoonlijk is genaamd
-    “Gegevenslaag 1”.
--  Selecteer, om een laag actief te maken, die in het Lagenpaneel en klik op
-    de knop Activeren:
+-   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
+-   To make a layer active, select it in the Layers panel, and click on the Activate button:
 
 ![Layers activate][]
 
 
 GPS-gegevens en Veldformulieren gebruiken
 -------------------------------
-In de hoofdstukken [In kaart brengen met een smartphone, GPS of op papier](/nl_NL/mobile-mapping/) zagen we hoe gegevens te verzamelen met een GPS
-en Veldformulieren, en hoe die in JOSM te laden als een laag.
+In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
 
-Als u eenmaal veldonderzoek hebt gedaan met één van deze gereedschappen, dient u nog steeds
-digitaal de informatie toe te voegen aan OpenStreetMap.
+Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
 
-U doet dit met hetzelfde proces als dat wat u eerder leerde - **downloaden,
-bewerken, opslaan**. Het verschil is dat in plaats van alleen satelliet
-afbeeldingen te gebruiken als een basislaag, kunt u ook uw GPS-gegevens, Veldformulieren,
-notities, of een combinatie daarvan gebruiken.
+You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
 
--   Bijvoorbeeld: laten we er van uitgaan dat u uw GPS-punten als een achtergrond
-    laag in JOSM, u heeft een punt op uw GPS opgeslagen onder de naam 030, en
-    u schreef in uw notitieboekje dat 030 een school is. Voor het toevoegen van dit punt
-    in OpenStreetMap, selecteert u het gereedschap Tekenen, en
-    dubbelklik op punt 030 in uw kaartvenster. Dit zal
-    een punt maken. Ga dan naar het menu Voorkeuzen en zoek naar de voorkeuze voor
-    school. Voer de naam van de school in en klik op “Voorkeuze toepassen”. Doe
-    hetzelfde om lijnen en vormen toe te voegen.
+-   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
 
 ![GPS in JOSM][]
 
 Tags
 ----
-Wanneer u een punt, lijn, of vorm tekent, heeft het een locatie, maar geen
-informatie over wat het is. Met andere woorden, we weten **waar** het
-is, maar niet **wat** het is. Hiervoor gebruikten we items
-uit het menu Voorkeuzen om te definiëren **wat** het is. De manier
-waarop OpenStreetMap weet **wat** een object is is door **tags** te gebruiken.
+When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
 
-Een tag is als een label dat u op iets kunt plakken. Bijvoorbeeld, als
-als we een vierkant tekenen, is het slechts een vierkant. Maar dan voegen we attributen toe
-die beschrijven wat het is: dit vierkant is een gebouw; de naam van
-het gebouw is “Menara Thamrin”; het gebouw is 16 lagen hoog.
+A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
 
-U kunt net zoveel tags aan een object toevoegen als u wilt. Tags worden opgeslagen als
-paren van tekst, genaamd **sleutels** en de **waarden**. In
-OpenStreetMap zouden de hierboven geschreven tags zouden in feite zijn:
+You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
 
 -   building = yes
 -   name = Menara Thamrin
 -   building:levels = 16
 
-Wanneer u een object in JOSM selecteert, kunt u alle tags die er aan zijn
-verbonden in het paneel Eigenschappen aan de rechterzijde.
+If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
 
 ![Properties panel][]
 
 ###Tags bewerken
-U kunt tags toevoegen, bewerken of verwijderen vanuit het paneel Eigenschappen. De tags zijn echter
-traditioneel in het Engels en kunnen soms verwarrend zijn, dus is
-het vaak eenvoudiger om het menu Voorkeuzen te gebruiken. Wanneer u tags toevoegt of wijzigt, worden de attributen
-van het object gewijzigd.
+
+You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
 
 -   Selecteer eerst een object om de tags ervan te bewerken.
--   Bewerk dan de tags op één van de twee manieren: (1) Gebruik het menu Voorkeuzen,
-    of (2) bewerk de tags direct in het venster Eigenschappen aan de rechterzijde. 
+-   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
 
 ###Veel voorkomende fout: Taggen van knopen wanneer u lijnen of polygonen wilt taggen
-Wanneer u de attributen van een punt bewerkt, zult u eerst
-het punt selecteren en dan tags toevoegen, ofwel via het menu Voorkeuzen of direct
-in het paneel Eigenschappen. Een veel voorkomende fout gebeurt vaak bij het toevoegen van attributen aan een
-lijn of een vorm. Bij het selecteren van het object, is het belangrijk dat u
+
+When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
 de lijn selecteert, en NIET de punten die de lijn vormen.
 
-Dit komt regelmatig voor omdat bewerkers het gereedschap selectie in JOSM gebruiken om een
-vak rondom een object te tekenen, wat er voor zorgt dat alles, zowel de lijn **en** de knopen
-worden geselecteerd, en wanneer u tags toevoegt worden zij ook toegepast op de
-knopen. Zorg er voor **alleen** lijnen te selecteren wanneer u daaraan tags
-wilt toevoegen.
+This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
 
 ![Nodes mistake][]
 
 OSM-bestanden opslaan
 ----------------
-Wanneer u in JOSM bewerkt, is het altijd een goed idee om te downloaden, te bewerken, en
-wijzigingen te uploaden in een redelijk korte periode. U wilt niet de ene dag
-gegevens downloaden, en dan een paar dagen wachten om uw bewerkingen te uploaden. Wat als
-iemand anders hetzelfde gebied bewerkt gedurende die tijd? Dat zal fouten en conflicten veroorzaken.
+When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
 
-Wees niet bang om uw bewerkingen regelmatig te uploaden. Dat zorgt er voor dat uw wijzigingen zullen
-worden opgeslagen in de database en u zult uw harde werk niet verliezen.
+Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
 
-Als u werkt in één enkel gebied, is het een goed idee om de kaartgegevens te downloaden
-elke keer als u wilt bewerken, voor het geval een andere gebruiker wijzigingen heeft gemaakt.
+If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
 
-Hoewel u altijd zou moeten proberen gegevens van OSM te downloaden als u klaar bent om te gaan bewerken,
-en uw wijzigingen regelmatig zou moeten uploaden, zouden er gevallen kunnen zijn waarin u
-de gegevens van OSM wilt opslaan op uw computer. Bijvoorbeeld als uw verbinding
-met het internet wordt onderbroken,dan wilt u gegevens downloaden, ze opslaan, bewerken, en dan uw
-wijzigingen later uploaden.
+Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
 
--  Zorg er voor, om een OSM-bestand op te slaan, dat het de actieve laag is in
-    het Lagenpaneel. Klik op “Bestand” in het bovenste menu, en klik op “Opslaan”.
-    Kies een locatie voor het bestand en geef het een naam. U kunt ook opslaan
-    door op deze knop te klikken:
+-   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
 
 ![JOSM save button][]
 
--  U kunt nu JOSM sluiten en uw gegevens zullen zijn opgeslagen. Wanneer u
-    het bestand opnieuw wilt openen, open eenvoudigweg JOSM, ga naar het menu “Bestand”, en
-    klik op “Openen...”
+-   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
 
 Samenvatting
 -------
-In dit hoofdstuk hebben we meer in detail gekeken naar de interface van JOSM interface en geleerd
-over lagen en tags. U zou nu een goede basis moeten hebben om dingen in kaart te brengen en hoe
-OpenStreetMap te bewerken.
+In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png

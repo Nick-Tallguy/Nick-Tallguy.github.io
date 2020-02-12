@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: 編輯田野資料
-permalink: /zh_TW/josm/editing-with-josm/
-lang: zh_TW
+title: Editing Field Data
+permalink: /ca/josm/editing-with-josm/
+lang: ca
 category: josm
 ---
 
-編輯田野資料
+Editing Field Data
 ==================
 
 
@@ -14,7 +14,7 @@ We've now covered all the building blocks of mapping with OpenStreetMap. In the 
 
 In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
 
-JOSM 圖層
+JOSM Layers
 -----------
 If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
 
@@ -24,7 +24,7 @@ You may have also noticed that every time you add something new to JOSM, an addi
 
 Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
 
-如果你增加了 Bing 衛星影像，圖層面板上會有另一個「Bing Sat」的圖層。
+If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
 
 The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
 
@@ -49,7 +49,7 @@ Layers that are used as references, such as satellite imagery, GPS tracks, and F
 ![Layers activate][]
 
 
-使用 GPS 資料和 Field Papers
+Using GPS Data and Field Papers
 -------------------------------
 In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
 
@@ -61,7 +61,7 @@ You do this with the same process you learned previously - **download, edit, sav
 
 ![GPS in JOSM][]
 
-標籤
+Tags
 ----
 When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
 
@@ -69,31 +69,31 @@ A tag is like a label that you can put on something. For example, if we draw a s
 
 You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
 
-- building = yes
-- name = 優盛大廈
-- building:levels = 16
+-   building = yes
+-   name = Menara Thamrin
+-   building:levels = 16
 
 If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
 
 ![Properties panel][]
 
-### 編輯標籤
+### Editing Tags
 
 You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
 
-- 要編輯物件的標籤，先選中它。
+-   To edit an object's tags, first select it.
 -   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
 
-### 常見錯誤：誤將本來用在線或面的標籤打在節點上
+### Common Mistake: Tagging nodes when you want to tag lines or polygons
 
 When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
-自己選中的應該是線，而不是構成線的點。
+select the line, and NOT the points that make up the line.
 
 This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
 
 ![Nodes mistake][]
 
-儲存 OSM 檔案
+Saving OSM files
 ----------------
 When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
 
@@ -109,7 +109,7 @@ Although you should always try to download OSM data when you are ready to edit, 
 
 -   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
 
-總結
+Resum
 -------
 In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
 
