@@ -10,45 +10,45 @@ category: josm
 ========================
 
 
-In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
+В попередньому розділі ви встановили JOSM та розпочали креслити власні перші точки, лінії та полігони. Ви застосовували заготовки для того щоб додати інформацію про об’єкти. І наприкінці ви накреслили власну мапу в JOSM.
 
 Ви достатньо попрактикувались і тепер готові розпочати редагувати дані в OpenStreetMap.
 
-In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
+В цьому розділі ми докладно ознайомимось з інтерфейсом JOSM, та з тим як використовувати його для створення мапи OpenStreetMap.
 
 Цикл редагування
 ---------------------
-Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
+Редагування OpenStreetMap за допомогою JOSM схоже на редагування в iD, з яким ми познайомились раніше. Але через те, що JOSM є настільним застосунком, він працює трохи інакше. Процес редагування та додавання об’єктів в OpenStreetMap за допомогою JOSM завжди буде наступним:
 
-1.  **Download** the current map data from OSM
-2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
-3.  **Save** changes to OpenStreetMap
+1.  **Завантаження** поточних даних з OSM
+2.  **Редагування** даних з використанням супутникових знімків, GPS, Обхідних листків (Field Papers) та нотаток в якості підказок
+3.  **Збереження** змін в OpenStreetMap
 
 Завантаження даних OSM
 --------------------
-The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
+Першим кроком в редагуванні є завантаження даних для ділянки, яку ви бажаєте покращити. Пам’ятайте, що це потрібно робити кожного разу, коли ви бажаєте змінити мапу, тому що дані часто оновлюються іншим учасниками.
 
--   Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
+-   В меню “Файл” (“File”), зверху ліворуч в JOSM, оберіть пункт “Завантажити з OSM” (“Download from OSM”). Буде відкрите вікно для завантаження. Ви також можете відкрити це вікно просто клацнувши на значок завантаження на панелі інструментів:
 
 ![JOSM Download Button][]
 
--   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
+-   Коли буде відкрите вікно завантаження ви побачите мапу з рожевим прямокутником на ній. Якщо ви не бачите мапу, клацніть на вкладку “Мапа” (“Slippy map”).
 
 ![JOSM Download Dialog][]
 
--   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
+-   Скористайтесь мишею для пересування та змінення масштабу мапи до того місця, яке вам добре відоме, наприклад, вашого міста чи району. Керування таке ж саме як і на основній мапі JOSM. За допомогою правої кнопки миші можна перетягувати мапу, а коліщатком змінювати масштаб.
 
-> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
+> Іноді, якщо ви працюєте на портативному комп’ютері, змінювати масштаб може бути важко. Робота в JOSM набагато простіше, якщо у вас є миша, але більшість сучасних ноутбуків дозволяють робити це за допомогою тачпада.
 
--   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
--   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
+-   Накресліть прямокутник, навколо місця, яке ви бажаєте завантажити. Щоб накреслити прямокутник заново, клацніть на мапі, натисніть та утримуйте ліву кнопку миші та потягніть її для створення нового прямокутника. Відпустіть кнопку миші для закінчення виділення ділянки.
+-   Якщо розмір та місце виділеної ділянки вас задовольняє, натисніть на кнопку “Завантажити” (“Download”) внизу вікна. JOSM завантажить дані для виділеної ділянки з OpenStreetMap та відкриє їх в основному вікні з мапою для редагування.
 
 ### Використання аерофотознімків
-If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
+Якщо ви прочитали попередні розділи, коли ми додавали наші перші точки за допомогою редактора iD, ви пам’ятаєте, що крім даних мапи були присутні супутникові знімки, які допомагали нам визначати об’єкти на місцевості. Ці знімки надані Microsoft Bing, сервісом який люб’язно надає їх для учасників OpenStreetMap для обкреслювання об’єктів та покращення даних мапи.
 
--   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
+-   Для додавання супутникових знімків Bing в JOSM, оберіть "Фон" ("Imagery") в основному меню JOSM, а потім — “Bing аерофотознімки" (“Bing Sat”).
 
-> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+> Якщо у вашому меню відсутній пункт “Bing аерофотознімки” (“Bing Sat”), вам потрібно активувати його в налаштуваннях JOSM. Перейдіть Правити (Edit) -> Налаштування (Preferences) та натисніть на вкладку “WMS TMS”. Можливо вам доведеться пошукати його в переліку.
 >
 > ![JOSM Preferences up down][]
 > ![JOSM Preferences WMS TMS][]
@@ -57,68 +57,68 @@ If you followed along when we added our first points with the iD editor, you rem
 
 
 ### Огляд JOSM
-Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
+Тепер у вас є завантажені дані OpenStreetMap, а також шар із супутниковими знімками Bing, давайте ще раз подивимося на інтерфейс JOSM.
 
 ![JOSM layout][]
 
-The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
+Головне вікно, з яким ви вже познайомились, є вікном мапи в якому відбувається більшість дій. Тут ми будемо переглядати, змінювати та додавати дані OpenStreetMap.
 
-To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
+Праворуч від вікна мапи знаходиться набір панелей, кожна з яких відповідає за певну функцію. Зазвичай, після початкового встановлення JOSM показується кілька типових панелей, таких як Шари (Layers), Теґи/Членство (Properties) та Виділення (Selection). Коли ви виділяєте точку, лінію або фігуру на мапі, вони з’являються на панелі Виділення (Selection). Інформація про об’єкт показується на панелі Теґи/Членство (Properties), а на панелі Автори (Authors) показується інформація про учасників, які останніми доклали зусиль до виділених об’єктів.
 
-These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper right are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
+Ці панелі можуть бути відкриті або закриті натисканням кнопок в нижній частині панелі інструментів, ліворуч від вікна мапи в JOSM. Над цими кнопками знаходяться інструменти, якими ми обираємо можливі дії, що виконуються мишею. Ви вже знайомі з деяким з них: інструментом Виділення (Select tool) та інструментом Креслення (Draw tool). Під ними інструменти, що полегшують масштабування, вилучення об’єктів, креслення фігур, чи креслення паралельних ліній.
 
 
 Редагування
 ----
-So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
+Отже, ви виконали перший крок процесу редагування даних — завантаження. Ви підготували в JOSM фоновий шар зі супутниковими знімками, по яких ми будемо креслити. Наступний крок — редагування мапи та додавання нових об’єктів.
 
-Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
+В залежності від місцевості, яку ви оберете для редагування, у вас може бути багато чи мало внесених раніше на мапу даних. Але зверніть увагу, що це ті ж самі типи даних, з якими ми познайомились раніше — точки, лінії та фігури, які представляють місцевість в реальному житті.
 
--   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
--   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
--   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
+-   Скористайтеся тими ж прийомами, які ви вивчили, додавши кілька точок на мапу в місці, що добре вам відоме. Якщо ви побачили помилки, спробуйте виправити їх.
+-   Ви не повинні бути занадто напористими в той час як ви вчитеся. Якщо ви не впевнені в чомусь краще залишити все як є.
+-   Якщо вам потрібно пересунути точку, лінію або фігуру використовуйте інструмент **Виділення**. Клацніть на об’єкт та перетягніть його у потрібне місце. Цей прийом використовується для уточнення місця де мають знаходитись об’єкти.
 
 ![JOSM select tool][]
 
--   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
+-   Використовуйте інструмент **Креслення** для креслення нових точок, ліній та фігур. Описуйте об’єкти за допомогою Заготовок (Presets) із відповідного меню, так, як ми робили це в попередньому розділі.
 
-> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+> Ніколи не змінюйте мапу за межами завантажених ділянок. Ви можете побачити, що ділянка, яку ви завантажили, буде мати суцільний фон, в той час як, незавантажена ділянка буде мати діагональне штрихування.
 >
 > ![JOSM area downloaded][]
 
 Збереження змін
 --------------
-The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
+Третій та фінальний крок, що завершує вашу роботу — надсилання зроблених вами змін до бази даних OpenStreetMap. Для того, щоб зберегти зміни потрібно під’єднатись до Інтернету.
 
--   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
+-   В меню “Файл” (“File”), зверху ліворуч в JOSM, оберіть пункт “Завантажити з OSM” (“Download from OSM”). Буде відкрите вікно для завантаження. Ви також можете відкрити це вікно просто клацнувши на значок завантаження на панелі інструментів:
 
     ![JOSM Upload Button][]
 
--   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
+-   У вікні надсилання даних показується перелік об’єктів, які були додані, змінені або вилучені вами. В нижній частині вікна вам буде запропоновано ввести опис ваших змін. Додайте його.
 
     ![JOSM Upload Dialog][]
 
--   Click “Upload Changes”.
+-   Натисніть “Надіслати зміни” (“Upload Changes”).
 
--   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
--   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
+-   Якщо це ваш перший раз збереження змін в OpenStreetMap, вам буде запропоновано ввести ваш логін і пароль OpenStreetMap.
+-   Введіть їх у наступному вікні. Якщо ви поставите прапорець, логін і пароль будуть збережені в налаштуваннях і вам не доведеться вводити їх в майбутньому знов. Натисніть “Автентифікація” (“Authenticate”).
 
     ![JOSM Authenticate][]
 
--   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
+-   Вам треба трохи зачекати доки ваші зміни будуть надіслані, після чого можна вважати, що роботу завершено! Ви внесли зміни до мапи OpenStreetMap.
 
-> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
+> Під час редагування завжди перевіряйте чи ви надіслали зміни на сервер перед тим, як закрити JOSM. Навіть якщо вам треба зробити ще багато роботи, надсилайте ваші зміни, щоб потім повернутись і продовжити роботу, коли у вас з’явиться час. Ви ж не бажаєте втратити результати ваших зусиль?!
 
 Перегляд ваших змін на мапі
 ---------------------------
--   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
--   Move the map to the area that you edited.
--   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.
--   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
+-   Відкрийте ваш веб-оглядач і перейдіть на <https://openstreetmap.org/>
+-   Перемістіть мапу до місця, до якого ви доклали зусиль.
+-   Ви повинні побачити що ваші зміни з’явились на мапі! Якщо їх не видно, спробуйте перезавантажити сторінку, натиснувши CTRL+R. Іноді мапа не оновлюється відповідним чином і потребує перезавантаження.
+-   Що робити, якщо ви не бачите власних змін? Не хвилюйтесь — потрібно щоб пройшло кілька хвилин, щоб зміни з’явились на мапі. Також, перевірте ваші зміни в JOSM, щоб переконатись, що ви все зробили вірно. Загальне правило каже, якщо ви бачите значок на точці в JOSM, то й на мапі на сайті OpenStreetMap вони повинні також показуватись.
 
 Підсумки
 -------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
+Тепер, після того, як ви побачили як додавати дані в OpenStreetMap, що робити далі? Що ж, редагування даних — це добре, але тільки ним створення мап не обмежується. Звісно вам потрібно дізнатись, як в польових умовах збирати інформацію про об’єкти на місцевості.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png

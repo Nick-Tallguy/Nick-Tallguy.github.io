@@ -10,108 +10,108 @@ category: josm
 ==================
 
 
-We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+Тепер ви знаєте про всі будівельні блоки, з яких складається процес створення мапи в OpenStreetMap. Ви можете дізнатись, як використовувати [GPS та Обхідні листки (Field Papers)](/uk/mobile-mapping/) для дослідження місцевості.
 
-In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
+В цьому розділі ми знов повернемось до JOSM та ознайомимось з кількома новими концепціями, які не були розкриті раніше.
 
 Шари JOSM
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
+Якщо ви дійшли до цього місця, ви можливо помітили, що ми можемо додавати в JOSM різноманітні речі. Ми можемо завантажити дані OSM, додавати супутникові знімки Bing, завантажувати треки GPS та дорожні точки, а також використовувати Обхідні листки (Field Papers) — все, що показується у вікні мапи JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
+Можливо, ви також помітили, що кожного разу, коли ви додаєте щось нове в JOSM, на панелі Шарів (Layers), що знаходиться праворуч, з’являються нові елементи. В залежності від того, що у вас відкрито, ваша панель Шарів виглядатиме приблизно так:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
+Кожен елемент з цього переліку представляє окреме джерело даних, відкритих у вікні мапи. В цьому прикладі, “Data Layer 1” — дані OpenStreetMap, з якими ми працюємо. “Field Papers” — шар, створений під час додавання Обхідних листків (Field Paper) в JOSM.
 
 Якщо ви додасте супутникові знімки Bing, на панелі Шарів з’явиться новий елемент з назвою "Bing аерофотознімки" ("Bing Sat").
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
+Ідею шарів іноді важко зрозуміти. Найкраще уявити, що кожен шар подібний до напівпрозорих аркушів паперу і вони лежать один на одному. Кожен аркуш містить певну інформацію і їх можна перекладати так, як вам треба.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
+Референсні шари, такі як супутникові знімки, треки GPS, Обхідні листки (Field Papers) часто називають “базовими”. Шар з даними OSM — шар даних з якими ви насправді працюєте.
 
--   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
+-   Щоб перемістити шар, виділіть його на панелі Шарів та натисніть на стрілку вниз чи вгору.
 
 ![Layers up down][]
 
--   To hide a layer, select it with your mouse and click the Show/Hide button:
+-   Щоб приховати шар, виділіть його мишею та натисніть кнопку Показати/Приховати:
 
 ![Layers show hide][]
 
--   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
--   You can remove a layer by selecting it and using the delete button:
+-   Ви побачите, як шар який ви виділили зникне у вікні з мапою. Клацніть Показати/Приховати знов, щоб він з’явився.
+-   Ви можете вилучити шар, виділивши його та натиснувши на кнопку вилучення:
 
 ![Layers delete][]
 
--   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
--   To make a layer active, select it in the Layers panel, and click on the Activate button:
+-   Нарешті, дуже важливо знати, що ви можете вносити зміни тільки до шару який є в JOSM активним. Якщо ви не можете редагувати мапу, можливо це через те, що ви не зробили потрібний шар активним. Більшість шарів, таких як: точки GPS, Обхідні листки (Field Papers) та супутникові знімки, не можуть бути зміненими. Редагувати можна тільки шар з даними з OpenStreetMap, який типово зветься “Data Layer 1”.
+-   Для того, щоб зробити шар активним, виділіть його в панелі Шарів та натисніть кнопку Активувати (Activate):
 
 ![Layers activate][]
 
 
 Використання даних GPS та Обхідних листків (Field Papers)
 -------------------------------
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
+В розділі [Використання GPS та Обхідних листків (Field Papers)](/uk/mobile-mapping/) можна дізнатись як збирати дані за допомогою GPS та Обхідних листків (Field Papers), та як завантажувати їх до шарів JOSM.
 
-Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
+Після того, як ви закінчили дослідження місцевості за допомогою одного чи обох інструментів, вам все ще потрібно перетворити інформацію в цифровий вигляд для додавання її до OpenStreetMap.
 
-You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+Зробити це можна за допомогою дій, про які ви дізнались раніше — **завантаження, редагування, збереження**. Відмінність полягає в тому, що замість використання тільки супутникових знімків у вигляді базового шару, ви можете використовувати ваші дані GPS, Обхідні листки (Field Papers), нотатки, чи будь-які комбінації цих даних.
 
--   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+-   Наприклад, припустімо, що у вас є шар GPS з дорожніми точками у вигляді фону; ви зберегли дорожню точку на вашому GPS з ім’ям 030, і записали у записнику, що 030 — це школа. Для того, щоб додати цю точку в OpenStreetMap, вам потрібно вибрати інструмент креслення, та подвійним клацанням поставити точку поверх точки 030 в основному вікні з мапою. Таким чином ви додали точку. Потім із меню Заготовок (Presets) оберіть шаблон для школи. Введіть назву школи та натисніть на кнопку “Застосувати заготовку” (“Apply Preset”). Робіть так само й для ліній та полігонів.
 
 ![GPS in JOSM][]
 
 Теґи
 ----
-When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
+Коли ви креслите точку, лінію або полігон вони створюються у певному місці, але ми не маємо й гадки що вони позначають. Іншою мовою, ми знаємо **де** вони, але не знаємо **чим** вони є. До цього моменту ми використовували шаблони з меню Заготовки (Presets) для визначення того, **чим** є доданий об'єкт. В OpenStreetMap відомості про те, **чим** є об’єкт зазначаються за допомогою **теґів**.
 
-A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
+Теґ чимось схожий на ярлик, який ви можете приліпити до будь-чого. Наприклад, ви накреслили квадрат, це лише квадрат. Але потім ми позначимо його кількома теґами, які описують що: цей квадрат є будівлею; будинок називається “Menara Thamrin”; він має висоту у 16 поверхів.
 
-You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
+Ви можете додавати стільки теґів, скільки ви вважаєте потрібним для опису об’єкту. Теґ складається із текстових пар, одна частина яких зветься **key** (ключ), а інша — **value** (значення). В OpenStreetMap, теґи що описують наведений вище приклад виглядатимуть наступним чином:
 
 -   building = yes
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
+Якщо виділити об’єкт в JOSM, ви зможете побачити усі теґи, що його описують на панелі Теґи/Членство (Properties).
 
 ![Properties panel][]
 
 ### Редагування теґів
 
-You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
+Ви можете додавати, змінювати та вилучати теґи на панелі Теґи/Членство (Properties). Однак, теґи зазвичай записуються англійською мовою, що може збивати з пантелику, тому простіше використовувати меню Заготовок (Presets). Коли ви додаєте чи змінюєте теґи, атрибути об'єктів змінюються також.
 
-- Для редагування теґів об’єкта, спочатку виділіть його.
--   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
+-   Для редагування теґів об’єкта, спочатку виділіть його.
+-   Потім змініть теґи одним зі способів: (1) Використовуючи меню Заготовки (Presets), або (2) змініть теґи безпосередньо на панелі Теґи/Членство (Properties).
 
 ### Поширена помилка: Позначення точок, коли ви бажаєте призначити теґи лініям чи полігонам
 
-When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
+Коли ви змінюєте атрибути точки, вам спочатку треба виділити її, після чого додати теґи або через меню Заготовки, або безпосередньо на панелі Теґи/Членство (Properties). Помилка виникає під час додавання атрибутів до ліній чи фігур. Виділяючи об’єкт звертайте увагу, що ви виділили саме лінію, а не точки, якими вона утворюється.
 <!-- remove this line -->
 
-This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
+Таке часто трапляється через те, що користувачі використовують інструмент Виділення в JOSM, виділяючи об’єкти розтягуючи прямокутник, що призводить до **виділення як ліній, так й точок**, і коли ви додаєте теґи, вони застосовуються і до ліній і до точок також. Переконайтесь, що ви виділили **тільки** потрібну лінію для додавання теґів.
 
 ![Nodes mistake][]
 
 Збереження даних у файл OSM
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
+Коли ви працюєте з даними в JOSM, непогано б було завантажувати, редагувати та надсилати зміни на сервер у порівняно короткі проміжки часу. Ви ж не бажаєте завантажувати дані один раз на добу, а потім чекати кілька днів, перед тим як надіслати ваші правки? Що якщо хтось інший працює над тією ж ділянкою, що й ви? Це може призвести до появи помилок та конфліктів.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
+Не бійтесь завантажувати ваші зміни часто. Це гарантує, що вони будуть збережені в базі даних і ваша праця не пропаде.
 
-If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
+Якщо ви приділяєте багато часу роботі з якоюсь конкретною місцевістю, непогано завантажувати дані з сервера кожного разу, коли ви збираєтесь щось змінити, на випадок, якщо хтось інший вже додав зміни на цій ділянці.
 
-Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
+Хоча ви завжди повинні намагатися завантажувати дані з OSM, перед початком редагування, і надсилати ваші зміни часто, можуть виникати випадки, в яких вам доведеться зберегти дані OSM на вашому комп’ютері. Наприклад, ви не маєте постійного зв’язку з інтернетом, тож ви можете завантажувати та зберігати дані локально, змінювати їх, а потім пізніше надсилати зміни.
 
--   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
+-   Для збереження файлу OSM, переконайтесь, що шар з даними є активним шаром на панелі Шарів (Layers). Клацніть в основному меню “Файл” (“File”) та “Зберегти” (“Save”). Виберіть місце для файлу та назвіть його. Ви також можете зробити це клацнувши на цю кнопку:
 
 ![JOSM save button][]
 
--   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
+-   Тепер ви можете закрити JOSM і ваші дані будуть збережені. Коли ви забажаєте відкрити файл знову, просто запустіть JOSM, в меню “Файл” (“File”) оберіть пункт “Відкрити…” (“Open…”).
 
 Підсумки
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
+В цьому розділі ви трохи ближче познайомилися з інтерфейсом JOSM та дізнались про шари й теґи. Тепер ви маєте міцну основу для мапінгу та редагування даних OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png

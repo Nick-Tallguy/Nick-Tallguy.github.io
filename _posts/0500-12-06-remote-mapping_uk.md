@@ -18,36 +18,36 @@ category: coordination
 
 ![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
-The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.  
+Більшість робіт в проєктах HOT відбувається віддалено. Після ударів стихії, учасники HOT розшукують наявні дані та супутникові знімки. Зв’язуються з постачальниками аерофотознімків, надсилають запити, щоб отримати дозвіл на їх використання відповідно до умов ODbL. Після отримання знімків, віртуальна спільнота стає до перетворення об’єктів на них у цифрову форму (зазвичай увага приділяється до впізнаваних об’єктів, що стануть в пригоді гуманітарним місіям, це дороги, будівлі, заблоковані дороги, території підтоплення, й т.і.), дані потім перетворюються на цифрові мапи. Впродовж цього часу відбувається координація з гуманітарними місіями для уточнення їх потреб в мапах.  
 
-Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
+Відповідно до масштабу кризи, HOT виділяє відповідні ресурси так координує зусилля через спеціально створені групи або одного з учасників, що допомагає іншим дізнатись де шукати готові дані та в якому напрямку докладати зусиль. HOT залучає спільноту OSM та місцевих учасників через розподілення завдань в Менеджері завдань для координації спільних зусиль. Серед таких прикладів реакція на катастрофи в Кот-д'Івуарі, Сенегалі, Філіппінах та Демократичній Республіці Конго.  
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### The HOT Tasking Manager 
+### Менеджер завдань HOT 
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
+[Менеджер завдань HOT](http://tasks.hotosm.org/) – інструмент з відкритими сирцями, створений для розподілу завдань з мапінгу на частини, які можуть бути виконані в порівняно короткий термін. Він показує, які ділянки потребують мапінгу, а які – перевірки іншими учасниками. В ньому знаходяться як [короткострокові](http://wiki.openstreetmap.org/wiki/HOT_activation), так і довготривалі [гуманітарні проєкти](http://hot.openstreetmap.org/projects).  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
+Для того щоб користуватись Менеджером завдань HOT, вам потрібно мати обліковий запис OpenStreetMap (OSM). За докладними інструкціями звертайтесь до [розділу Менеджер завдань 3](http://learnosm.org/uk/coordination/tasking-manager3/).  
 
 ![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
-### Editing Tools 
+### Інструменти редагування 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
+Редактор [iD](/uk/beginner/id-editor/) – доступний в оглядачі інструмент, створений [Mapbox](https://www.mapbox.com/), з простим та зрозумілим інтерфейсом. Вважається кращим інструментом для опановування початківцями, з якого варто починати. Ви можете спробувати [вбудоване в iD покрокове керівництво](https://preview.ideditor.com/release#walkthrough=true), для того щоб дізнатись як з ним працювати. (Див. Довідка в iD - Покрокове керівництво)  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
+[JOSM](https://josm.openstreetmap.de/) – застосунок Java, читається як “ДжОСМ”, вимагає встановлення на вашому комп’ютері та вимагає певних зусиль, щоб навчитись працювати з ним. Попри те, що редактор вимагає встановлення та тривалого вивчення, він дозволяє значно підвищити ефективність вашої роботи. Рекомендується використання миші або подібного до миші маніпулятора.  
 
 ![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Advice & Words of Encouragement
+### Поради та слова заохочення
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
+> "Для того щоб попрактикуватись, рекомендується обрати добре відому вам територію та спробувати покращити її, наприклад оновити відомості про будинки у вашому районі."  
+> "Одні завдання простіші, інші – складніше; якщо ви вагаєтесь, просто не зберігайте ваші зміні, та спробуйте інше!" - Peter (@meetar)  
+> "Не біда, якщо ви не закінчите завдання; надішліть на сервер те що ви встигли зробити та розблокуйте його, щоб хтось інший міг це зробити." - Peter (@meetar)  
 > "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
 > "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
  
