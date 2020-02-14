@@ -11,24 +11,24 @@ Beginnen met JOSM
 =============================
 
 
-How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
+Hoe JOSM, de Java OpenStreetMap-bewerker, te downloaden en te installeren, enkele van de instellingen te wijzigen, een voorbeeldkaart te openen en enkele basisbewerkingen van de software te leren. Weet u nog dat we u in het hoofdstuk Introductie hebben gevraagd een kaart te tekenen van uw stad of dorp? We zullen dit hoofdstuk afsluiten door uw kaart opnieuw te tekenen, deze keer digitaal. Hierna zou u een goed begrip moeten hebben van hoe kaarten te tekenen in JOSM.
 
 JOSM downloaden
 -------------
 
--   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
--   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
--   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
--   You can also find the JOSM website by searching the internet for “JOSM”.
--   The website should look something like this:
+- Als u al een kopie van JOSM op een CD of USB-drive hebt, kunt u doorgaan naar het volgende gedeelte, JOSM installeren.
+- Als u het programma JOSM nog niet hebt, of de nieuwste versie ervan wilt, open uw webbrowser - dat mag Firefox, Chrome, Opera, of Internet Explorer zijn.
+- Voer, in de adresbalk bovenin het scherm, het volgende in en druk op Enter: [josm.openstreetmap.de](https://josm.openstreetmap.de)
+-   U kunt ook zoeken naar de website van JOSM door op het internet te zoeken naar “JOSM”.
+-   De website zou er ongeveer zo uit moeten zien:
 
     ![JOSM website][]
 
--   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
+-   Klik op “Windows Installer” om JOSM te downloaden als u Windows op uw computer hebt geïnstalleerd.
 
     ![Windows installer][]
 
--   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
+-   Als u een ander besturingssysteem hebt, klik dan op de link voor uw systeem. Uw download zou nu moeten beginnen. In dit hoofdstuk gaan we er van uit dat u Windows gebruikt, maar de instructies zijn soortgelijk voor andere besturingssystemen.
 
 JOSM installeren
 ------------

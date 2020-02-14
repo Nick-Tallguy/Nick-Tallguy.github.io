@@ -48,23 +48,23 @@ category: coordination
 > "Для того щоб попрактикуватись, рекомендується обрати добре відому вам територію та спробувати покращити її, наприклад оновити відомості про будинки у вашому районі."  
 > "Одні завдання простіші, інші – складніше; якщо ви вагаєтесь, просто не зберігайте ваші зміні, та спробуйте інше!" - Peter (@meetar)  
 > "Не біда, якщо ви не закінчите завдання; надішліть на сервер те що ви встигли зробити та розблокуйте його, щоб хтось інший міг це зробити." - Peter (@meetar)  
-> "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
-> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
+> "Якщо ви хочете побачити приклади якісті роботи, що пройшли перевірку, перегляньте одне із зелених «затверджених» завдань. Не хвилюйтесь, натискання кнопки "Переглянути роботу" ("Review the work") не зобов’язує вас ні до чого – воно просто блокує завдання так, ніби ви його редагуєте. Завантажте його як звичайно і просто розблокуйте завдання знову, коли закінчите." - Peter (@meetar)  
+> "Іноді супутникові знімки дуже важко інтерпретувати, але не хвилуйтеся занадто про те що ваші креслення не ідеальні – все одно ваша робота буде перевірена іншими, та за надобності покращена з часом. І запам’ятайте це теріторія де виникла криза, жодних реєстрів з податкової чи реєстру виборців – ці мапи потрібні тим хто мчить на допомогу через темряву та небезпеку. У Західній Африці навіть груба лінія на мапі це вже прояв надії. В Секторі Газа, більшість будинків які потрібно додати на мапу вже зникли; але ми відмічаємо факт їх існування. Точність – це добре, але не головне." - Peter (@meetar)  
  
-### Other Resources 
+### Інші ресурси 
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
+Цей довідник було створено шляхом збирання інформації з різних джерел та перетворено на Настанови HOT. Ви можете знайти матеріали для вивчення, перейшовши за посиланнями нижче.  
 
-#### Tutorials
+#### Посібники
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+[Настанови з віддаленого мапінгу на LearnOSM](/uk/coordination/remote/) – один із найповніших довідників  
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+[Вчимось мапити, від MapGive](http://mapgive.state.gov/learn-to-map/) – містить відео, добре іноді натиснути паузу щоб спробувати повторити самому  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - створено Peter Richardson (@meetar) один із най досвідчених волонтерів HOT Remote Response  
 
-#### About HOT 
+#### Про HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news  
+[Сторінка HOT на Wiki OSM](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) – дізнайтесь про те, як працює HOT, а також про останні новини  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describes HOT activities in more detail from their website  
+[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities) – описання діяльності HOT більш докладно  

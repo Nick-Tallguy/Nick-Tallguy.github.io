@@ -1,18 +1,18 @@
 ---
 layout: doc
-title: Humanitarian Mapping
+title: Мапінг для гуманітарних потреб
 permalink: /uk/coordination/humanitarian/
 lang: uk
 category: coordination
 ---
 
-# Humanitarian Mapping
+# Мапінг для гуманітарних потреб
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Reviewed 2015-09-18
+> Редакція 2015-09-18
 
-Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
+Щиро дякуємо за вашу допомогу місцевим спільнотам та гуманітарним організаціям за відклик на кризи, який ви втілюєте у вигляді оновлених даних для мап.  
 
 Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce.  
 
