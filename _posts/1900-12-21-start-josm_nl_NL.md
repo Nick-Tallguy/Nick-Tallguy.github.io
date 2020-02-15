@@ -33,66 +33,66 @@ JOSM downloaden
 JOSM installeren
 ------------
 
->  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>  U zou problemen kunnen ondervinden bij het installeren van JOSM als Java nog niet is geïnstalleerd op uw computer. Als u problemen hebt in dit gedeelte, probeer dan Java te downloaden en te installeren. U kunt het hier downloaden: <https://www.java.com/en/download/>
 >
->  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
+>  Mac-gebruikers zouden oude versies van Java kunnen hebben Java. Bekijk [https://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation](https://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation) voor opties voor OSX 10.6 en 10.7.3+
 
--   Find the JOSM install file on your computer. Double-click it to begin setup.
--   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
--   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
--   When JOSM starts, it will look something like this:
+- Zoek naar het installatiebestand voor JOSM op uw computer. Dubbelklik er op om het te installeren.
+-   Klik op ‘OK’, ‘Next’, ‘I Agree’, en ‘Install’. Als de installatie is voltooid, klik dan op ‘Finish’ om JOSM voor de eerste keer te starten. Als u JOSM later nog eens wilt starten kunt u dat doen door te klikken in het menu Start, in de linker benedenhoek van uw computer, en te klikken op het programma JOSM.
+-   U zou een venster kunnen zien dat u vraagt of u de software wilt bijwerken.  U hoeft niet bij te werken, omdat het nieuw is.  Druk op de knop “Cancel.”  Als u dit bericht niet meer wilt zien, selecteer dan het vak aan de onderzijde voordat u op “Cancel” drukt.
+-  Als JOSM start, zal het er ongeveer zo uitzien:
 
     ![JOSM splash page][]
 
 Voorkeuren voor JOSM
 ----------------
 
-There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
+Er zijn veel verschillende instellingen in JOSM die u kunt aanpassen.  Één instelling die u misschien zou willen aanpassen is de taal. JOSM is vertaald in vele talen en u zou de voorkeur kunnen hebben voor een andere.
 
--   To access the Preferences window, click Edit -> Preferences.
+-   Klik op Bewerken -\> Voorkeuren om toegang te verkrijgen tot het venster Voorkeuren,
 
     ![Preferences window][]
 
--   On the left side, click the icon that looks like a paint can and paint brush.
--   At the top of the window, click the tab that says “Look and Feel”.
--   Choose your language in the dropdown box next to the word “Language”.
+-   Klik, aan de linkerkant, op het pictogram dat er uitziet als een verfblik en kwast.
+-   Klik, boven in het venster, op de tab “Weergave en vormgeving”.
+-   Kies uw taal in het keuzemenu naast het woord "Language".
 
     ![Look and feel][]
 
--   Click OK.
--   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
+-   Klik op OK.
+-   U moet JOSM opnieuw opstarten om uw instellingen op te slaan. Klik op “Bestand” in de linker bovenhoek en klik op “Opnieuw starten” nabij de onderzijde van het menu.
 
 Basis tekenen met JOSM leren
 -----------------------------
 
--   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
--   Download the file here: [sample.osm](/files/sample.osm)
--   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
+-   Laten we nu een voorbeeldbestand voor JOSM openen dat we zullen gebruiken om de basismanieren te leren om kaarten te bewerken met JOSM. Onthoud dat deze kaart niet echt is, in die zin dat het geen echte kaart is van een echte plaats, dus zullen we hem niet opslaan in OpenStreetMap.
+- Download het bestand hier: [sample.osm](/files/sample.osm)
+- Laten we nu het voorbeeld kaartbestand openen in JOSM, Klik op de knop “Openen” in de linker bovenhoek.
 
     ![Open file][]
 
--   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
--   You should now see a sample map that looks like this:
+- Zoek naar het bestand **sample.osm**. Het staat vermoedelijk in uw map Downloads, tenzij u het ergens anders heeft opgeslagen. Klik er op en klik dan op “Openen”.
+- U zou nu een voorbeeldkaart moeten zien die er ongeveer zo uitziet:
 
     ![Sample file][]
 
--   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
+- U zult deze gegevens gebruiken om de verschillende technieken voor bewerken uit te proberen. _U moet echter deze fictieve gegevens nooit uploaden naar de database._ 
 
 ### Basisbewerkingen
 
--   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
--   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
+- De kaart naar links, rechts, naar boven of beneden verplaatsen: houdt uw rechter muisknop ingedrukt en verplaats de muis.
+-   Er zijn verschillende manieren om op de kaart in en uit te zoomen. Als u een muis hebt kunt u uw muiswiel gebruiken om in en uit te zoomen. Als u een laptop gebruikt en geen muis hebt, kunt u in en uit zoomen met de schaalbalk in de linker bovenhoek van het kaartvenster. Sleep de balk naar links en naar rechts door uw linker muisknop ingedrukt te houden en de schaalbalk naar links of rechts te verplaatsen met uw muis.
 
     ![Scale bar][]
 
--   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
+-   Kijk naar de voorbeeldkaart. Er staan een aantal verschillende typen objecten op. Er is een rivier, een bos, enkele gebouwen, verscheidene wegen en een aantal winkels. Klik, om een object te selecteren, er op met uw linker muisknop.
 
 ### Punten, lijnen en vormen
 
--   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
--   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
--   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
--   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
+- Als u op de verschillende objecten op de voorbeeldkaart klikt, zie dan dat er drie verschillende typen objecten op de kaart staan. Er zijn punten, lijnen en vormen.
+-   Punten zijn één enkele locatie, weergegeven door symbolen. Op deze voorbeeldkaart staan twee punten, een schoenenwinkel en een supermarkt. De schoenenwinkel wordt weergegeven door het symbool van een schoen, en de supermarkt wordt weergegeven door een winkelkar.
+-   Er staan ook verschillende lijnen op de kaart die wegen weergeven. Als u wat beter kijkt zult u zien dat er, in de lijnen, ook punten staan. Die punten hebben geen symbolen of andere informatie aan zich verbonden, maar zij helpen definiëren waar de lijn zich bevindt.
+-   Tenslotte staan er ook nog enkele vormen op de voorbeeldkaart, die verschillende plaatsen weergeven - een bos, een rivier, een park en gebouwen. Een vorm wordt gebruikt om een gebied weer te geven, zoals een veld of een gebouw. Een vorm is exact hetzelfde als een lijn - het enige verschil is dat de lijn eindigt op hetzelfde punt als waar hij begint.
 
 > Het is eenvoudig aan een kaart te denken die deze drie basistypen objecten bevat -
 > punten, lijnen en vormen. In OpenStreetMap is er speciale terminologie
@@ -100,59 +100,59 @@ Basis tekenen met JOSM leren
 > **knopen**, en lijnen worden **wegen** genoemd. Een vorm wordt een **gesloten weg** genoemd
 > omdat het slechts een lijn is die eindigt op hetzelfde punt als waar hij begon.
 
--   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
--   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
+-   Het zou u kunnen zijn opgevallen dat wanneer u een object selecteert, er een lijst verschijnt aan de rechterkant van de kaart in een paneel genaamd “Eigenschappen”. Deze worden tags genoemd. Tags zijn informatie die is verbonden met een punt, lijn of vorm die beschrijft wat het is. We zullen in een later hoofdstuk meer leren over tags. Voor nu is alles dat u moet weten dat deze informatie helpt beschrijven of ons object een bos, een rivier of een gebouw is, of iets anders.
+-   Denk aan het tekenen van een kaart met de hand, en hoe u ook punten, lijnen en vormen tekent. Welke andere plaatsen worden het beste weergegeven door punten? Lijnen? Vormen?
 
 ### Objecten wijzigen
 
--   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
--   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
+-   Selecteer het bos aan de linkerkant van de kaart. Zorg er voor dat u klikt op de lijn rondom het bos, niet op een van de punten op de lijn. Houd nu de linker muisknop ingedrukt en sleep met uw muis. U zou het bos moeten kunnen verplaatsen naar een nieuwe locatie op de kaart.
+-   Klik op één van de punten op de lijn rondom het bos. Houd uw linker muisknop ingedrukt en sleep met uw muis. U zou het punt moeten kunnen verplaatsen. Dat is hoe u de vorm van een object kunt wijzigen, of een punt verplaatsen.
 
 ### Tekenen
 
--   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
--   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
--   Until now, you have been using the Select tool, which looks like this:
+-   Aan de linkerkant van JOSM staat een kolom met knoppen. Veel van deze knoppen openen nieuwe panelen aan de rechterkant, die meer informatie over de kaart verschaffen. De meest belangrijke knoppen staan echter aan de bovenkant van deze kolom. Deze knoppen wijzigen wat u met uw muis kunt doen.
+- De bovenste knoppen in deze kolom zijn die welke u het meest zult gebruiken. Zij worden gebruikt voor het selecteren van objecten en het tekenen van nieuwe.
+- Tot nu toe heeft u het gereedschap Selectie gebruikt, wat er zo uitziet:
 
     ![Select tool][]
 
--   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
--   Click on the second button, the Draw tool.
+-   Voordat u gaat tekenen moet u er zeker van zijn dat er niets geselecteerd is. Klik in de zwarte ruimte op de kaart, waar die leeg is, om er zeker van te zijn dat er niets is geselecteerd.
+- Klik op de tweede knop, het gereedschap Tekenen.
 
     ![Draw tool][]
 
--   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
--   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
--   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
+- Zoek een leeg gebied op de kaart en dubbelklik met uw muis. Dit zal één enkel punt tekenen.
+-   Klik eenmaal met uw muis om een lijn te tekenen. Verplaats uw muis en klik opnieuw. Ga door totdat u tevreden bent met uw lijn. Dubbelklik met uw muis om de lijn te voltooien.
+- Teken, op dezelfde manier als u een lijn tekende, een vorm, maar beëindig de vorm door te dubbelklikken op het punt waar u begon met de lijn.
 
 ### Voorkeuzen toevoegen
 
--   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
--   Click on the Select tool, in the column of buttons on the left.
+-   Nu weten we hoe punten, lijnen n vormen te tekenen, maar we hebben nog steeds niet gedefinieerd wat zij weergeven. We willen in staat zijn om te zeggen dat onze punten winkels, scholen of iets anders zijn, en of onze vormen velden, gebouwen of iets anders zijn.
+- Klik, in de kolom met knoppen aan de linkerkant, op het gereedschap Selectie.
 
     ![Select tool][]
 
--   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
--   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
--   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
+-   Selecteer één van de objecten die u tekende met het gereedschap Tekenen. Klik, in het hoofdmenu, op “Voorkeuzen”. Verplaats uw muis door het submenu naar het type locatie dat u zou willen definiëren.
+-   Wanneer u op een voorkeuze klikt, zal een formulier openen dat u vraagt om meer informatie. U hoeft niet elk veld in te vullen, maar u zou enkele belangrijke velden wel willen toevoegen, zoals de naam van het object.
+-   Klik op “Voorkeuze toepassen” als u het invoeren van de informatie hebt voltooid. Als alles goed is gegaan zou uw punt, lijn of vorm van kleur moeten veranderen of een symbool moeten weergeven. Dat komt omdat u hebt gedefinieerd wat het is.
 
 Uw eigen kaart tekenen
 -----------------
 
--   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
--   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
--   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
--   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
+- Laten we nu eens een kaart tekenen om de technieken te oefenen die u heeft geleerd. U wilt misschien opnieuw de kaart tekenen die u eerder op papier heeft getekend.
+- Sleep de kaart weg van de voorbeeldkaart. Houd de rechter muisknop ingedrukt en sleep met uw muis, totdat u een ruim leeg gebied heeft om op te tekenen.
+-   Gebruik het gereedschap Tekenen om punten, lijnen en vormen te tekenen. Beschrijf wat uw objecten zijn door ze te selecteren in het menu Voorkeuzen.
+- Wanneer u gereed bent zou u uw eigen kaart moeten hebben, soortgelijk aan de voorbeeldkaart die we hebben geopend in sample.osm.
 
-Remove the sample layer
+De voorbeeldlaag verwijderen
 -----------------------
 
 Als u deze basistechnieken van bewerken beheerst, wilt u misschien
 uw aandacht verleggen naar het in kaart brengen van echte objecten.
 
-_It is very important that you first remove the layer with the sample data.
+_Het is erg belangrijk dat u eerst de laag met de voorbeeldgegevens verwijdert.
 Die gegevens zijn fictief en moeten niet worden geüpload naar de OpenStreetMap
-database (newer JOSM releases automatically prevent this)._
+database (nieuwere uitgaven van JOSM voorkomen dat automatisch)._
 
 Selecteer, in het venster Lagen aan de rechter bovenzijde van het scherm,  de voorbeeldlaag van OSM.
 Klik dan op het pictogram van de prullenbak in de rechter benedenhoek van dat venster.

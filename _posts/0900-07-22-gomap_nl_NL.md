@@ -17,36 +17,36 @@ U kunt het gratis downloaden uit de App Store.
 Mogelijkheden
 ---------------
 
--   Quickly add points of interest
--   Edit notes, ways and areas
--   Track your location and heading
--   Bing and Mapnik backgrounds available
--   Supports abritrary tag values
--   Full undo/redo support
--   Work online or offline seamlessly
--   See who last edited and object and when
--   Find other mappers nearby
--   Search for places using Nomatim
--   Free. No ads or in-app purchases
+-  Snel toevoegen van interessante punten
+-  Opmerkingen, wegen en gebieden bewerken
+-  Uw locatie en richting vastleggen
+-  Achtergronden voor Bing en Mapnik beschikbaar
+-  Ondersteunt willekeurige waarden voor tags
+-  Volledige ondersteuning voor Ongedaan maken/Opnieuw
+-  Naadloos online of offline werken
+- Zien wie het laatst een object bewerkte en wanneer
+- Andere mappers in de buurt zoeken
+- Zoeken naar plaatsen met behulp van Nomatim
+- Gratis. Geen advertenties of in-app aankopen
 
 In het kort
 ---------------
 
-When you first start Go Map!!, it will prompt to use your device's GPS to determine your location. Say "allow" and it will zoom to your position and download the satellite and OpenStreetMap data near you. If you live in a densely mapped area, it may take a few moments to download, and if you live in a sparsely mapped area, you may need to zoom out a bit to see details. Simply pinch zoom and drag to pan around your immediate neighborhood. Go Map!! automatically downloads additional data as needed as you pan around your location.
+Wanneer u voor het eerst begint met Go Map!!, zal het u vragen de GPS van uw apparaat te gebruiken om uw locatie te bepalen. Zeg "allow" en het zal naar uw positie zoomen en de gegevens van satellieten en OpenStreetMap in uw nabijheid downloaden. Als u zich in een gebied bevindt dat al ruim in kaart is gebracht kan het downloaden even duren, en als u zich in een schaars in kaart gebracht gebied bevindt, zou u misschien wat uit moeten zomen om details te zien. Experimenteer eenvoudigweg met zoomen en verplaatsen in uw onmiddellijke nabijheid. Go Map!! downloadt indien nodig automatisch aanvullende gegevens als u zich rondom uw locatie verplaatst.
 
 ![Home][]
 
-OpenStreetMap uses the term 'node' to describe simple points, which typically indicate smaller objects like trees or small shops, while 'ways' are larger objects with size, such as highways or buildings. Go Map!! indicates a node with an icon or a small square, while ways are displayed as lines, rectangles or polygons.
+OpenStreetMap gebruikt de term 'node' om eenvoudige punten te beschrijven, die gewoonlijk kleinere objecten aangeven, zoals bomen of kleine winkels, terwijl 'ways' grotere objecten qua grootte zijn, zoals snelwegen of gebouwen. Go Map!! geeft een node aan met een pictogram of een klein vierkantje, terwijl wegen worden weergegeven als lijnen, rechthoeken of polygonen.
 
 Gegevens van OSM toevoegen
 ---------------
 
 ### Tags toevoegen
-Tags are used to describe objects in the OpenStreetMap database, such as indicating that a location contains a shop or restaurant and what its name is. To select an existing object, either a node or a way, simply tap it. To select a building, you must select the outline of the building instead the center. Selected objects are highlighted in yellow and its tag is displayed (gray box) and a configuration button. Press the "Tags" button to view and edit tags.
+Tags worden gebruikt om objecten te beschrijven in de database van OpenStreetMap, zoals het aangeven dat een locatie een winkel of restaurant bevat en wat de naam daarvan is. Tik er eenvoudigweg op om een bestaand object te selecteren, een node of een way.  U moet de omtrek van het gebouw selecteren in plaats van het midden om een gebouw te selecteren, Geselecteerde objecten worden geaccentueerd in geel en de tag ervan wordt weergegeven (grijs vak) en een knop voor het configureren. Druk op de knop "Tags" om tags te bekijken en te bewerken.
 
 ![Adding tags][]
 
-The tag editing screen presented has three tabs of views. The first tab, Common Tags, presents fields for adding common points of interest.
+Het weergegeven bewerkingsscherm voor tags heeft drie tabs voor weergaven. De eerste tab, Common Tags, geeft de velden voor het toevoegen van veel voorkomende interessante punten weer.
 
 ![Common Tags][]
 
@@ -54,112 +54,112 @@ De tweede tab, All Tags", stelt gevorderde gebruikers in staat om willekeurige t
 
 ![All Tags][]
 
-The third tab shows metadata about the object: who created it and when, and additional low-level details. From this tab, you can also drill down to information stored on the OSM server about the user, changeset, object history, and object details.
+De derde tab geeft metadata weer over het object: wie maakte het en wanneer, en aanvullende details voor een  laag niveau. Vanaf deze tab kunt u ook verder zoeken naar informatie die is opgeslagen op de server van OSM over de gebruiker, wijzigingenset, objectgeschiedenis, en details van het object.
 
 ![Way Attributes][]
 
--   Identifier - object page
--   User - user page
--   Version - object history page
--   Changeset - changeset page
+- Identifier - pagina over het object
+- User - pagina van de gebruiker
+- Version - pagina over geschiedenis van het object
+- Changeset - pagina over de wijzigingenset
 
 ### Een knoop, een weg, of een knoop in een weg verplaatsen
-To move a node or a way, tap to select it, and it will be highlighted in yellow. To select a node that is part of a way, first, select the way, then tap a node in it.
+Klik, om een knoop of weg te verplaatsen, er op om het te selecteren, en het zal worden geaccentueerd in geel. Selecteer, om een node te selecteren die deel uitmaakt van een weg, eerst de weg en tik dan op een knoop daarin.
 
 ![node in a way][]
 
-Once selected, drag the title box (gray box) to move it to a new location. Confirm the move if prompted. If you make a mistake, use the Undo button, or simply move it back.
+Sleep, eenmaal geselecteerd, het titelvak (grijze vak) om het naar een nieuwe locatie te verplaatsen. Bevestig het verplaatsen als daar naar gevraagd wordt. Als u een fout maakt, gebruik dan de knop Ongedaan maken, of verplaats het eenvoudigweg terug.
 
 ### Een POI maken, verplaatsen en taggen
-To create a new node or point of interest, tap the "+" button. A pin will drop indicating the position of your new node.
+Klik op de knop "+" om een nieuwe knoop of punt van interesse te maken. Een punaise zal de positie van uw nieuwe knoop aangeven.
 
 ![New node][]
 
-Drag it using the title bar to the correct location, then press the "Tags" button to add tags. If you don't add any tags, then your  new node will be discarded, so if you drop a pin by accident, simply tap elsewhere and it will disappear.
+Sleep het met de kleine balk naar de juiste locatie, en druk dan op de knop "Tags" om tags toe te voegen. Als u geen tags toevoegt, dan zal uw nieuwe knoop worden genegeerd, dus als u per ongeluk een punaise plaatst, tik dan eenvoudigweg ergens anders en het zal verdwijnen.
 
 ![Add tag to the node][]
 
 ### Een knoop aan een weg toevoegen
-If you wish to add nodes to a way, there are two approaches, depending on whether you are adding the node to the middle of the way or extending it at either end.
+Indien u knopen aan een weg wilt toevoegen, zijn er twee benaderingen, afhankelijk van of u de knoop in het midden van de weg toevoegt of dat u één van beide uiteinden verlengt.
 
-To add a node to the middle of the way, select the way by tapping close to the position where you want the new node to appear, then press "+". A node will be added to the selected location.
+Selecteer, om een knoop aan het midden van de weg toe te voegen, de weg door er op te klikken dichtbij het punt waar u de nieuwe knoop wilt laten verschijnen, en druk dan op "+". Een knoop zal op de geselecteerde locatie worden toegevoegd.
 
 ![Middle node][]
 
-To append a node to the end of a way, select the way, then select a node at either end, then press "+". A new node will be added to the start or end of the way.
+Selecteer, om een knoop aan het einde van een weg toe te voegen, de weg door er op te klikken en selecteer een knoop aan één van de uiteinden, druk dan op "+". Een nieuwe knoop zal aan het begin of einde van de weg worden toegevoegd.
 
 ![End node][]
 
 ### Een weg/gebied maken
-Creating a new way or area is similar to creating a node, except you press "+" twice. On the first press of "+", a pin will drop which you can position as desired. Tap "+" again to add the second node connected to the first node. Position the second node and continue pressing "+" to add additional nodes.
+Maken van een nieuwe weg of gebied gaat op dezelfde manier als het maken van een knoop, maar u moet twee keer op "+" drukken. Bij de eerste keer drukken op "+" zal een punaise worden geplaatst die u kunt positioneren zoals u wilt. Tik opnieuw op "+" om de tweede knoop te verbinden met de eerste knoop. Plaats de tweede knoop en ga door met het drukken op "+" om aanvullende knopen toe te voegen.
 
 ![Create way][]
 
-To create an area, simply drop a final node and then drag it on the top of the first node. A circle of dots will indicate that it is joining to the existing node. You can also join to existing ways by dragging over them.
+Plaats, om een gebied te maken, eenvoudigweg een laatste knoop en sleep die dan bovenop de eerste knoop. Een cirkel van punten zal aangeven dat het wordt verbonden met de bestaande knoop. U kunt ook bestaande wegen samenvoegen door er overheen te slepen.
 
 ![Create area][]
 
 ### Ongedaan maken/Opnieuw
-Any time you make an error, you can use the undo button to revert your changes. All actions including tag changes can be undone, or redone, even if you exit the app and restart later. After uploading to the server all undo actions are discarded. You cannot undo after uploading.
+Elke keer als u een fout maakt kunt u de knop Undo gebruiken om uw wijzigingen terug te draaien. Alle acties, inclusief wijzigingen aan tags, kunnen ongedaan worden gemaakt, of opnieuw worden uitgevoerd, zelfs als u de app afsluit en later opnieuw opstart. Na het uploaden naar de server worden alle acties voor ongedaan maken genegeerd. U kunt na uploaden niet meer ongedaan maken.
 
 ![Undo][]
 
 ### Wijzigingen uploaden
-When you are finished making your changes to the map, you can submit your changes to the OpenStreetMap server by pressing the upload (cloud) button.
+Wanneer u gereed ben met uw wijzigingen op de kaart, dan kunt u die wijzigingen toevoegen aan de server van OpenStreetMap door op de knop Upload (cloud) te drukken.
 
 ![Cloud][]
 
-If the change is uploaded successfully, you will simply be returned to the map screen. After uploading, you cannot undo to a previous state; all changes are final.
+Als de wijziging met succes wordt geüpload, zult u eenvoudigweg worden teruggeleid naar het kaartscherm. Na het uploaden kunt u een eerdere status niet ongedaan maken; alle wijzigingen zijn permanent.
 
 Zoeken naar plaatsen
 ---------------
-Press the GPS button to zoom to and track your current location. Press it again to turn off GPS. Press and hold the GPS button to perform a nomatim search of places or landmarks you wish to zoom in.
+Druk op de knop GPS om te zoomen naar en uw huidige locatie te zien. Druk er opnieuw op om de GPS uit te schakelen. Druk en houdt de knop GPS ingedrukt om een zoekactie naar plaatsen, of landmarkeringen waarop u wilt inzoomen, uit te voeren met Nomatim.
 
 ![Search][]
 
 De weergave op de achtergrond instellen
 -------------
 
-Like using the OSM editors such as  iD or JOSM, Go Map!! allows us to use different backgrounds that can guide us in editing data. You can change the background to show just the editing layer while you may select "Editor with Aerial" if you want to use aerial imagery as the background for editing.
+Net zoals bij het gebruiken van bewerkers voor OSM zoals  iD of JOSM, staat Go Map!! ons toe om verschillende achtergronden te gebruiken die ons helpen bij het bewerken van gegevens. U kunt de achtergrond wijzigen om alleen de bewerkingslaag te zien, terwijl u "Editor with Aerial" zou kunnen selecteren als u luchtfoto's wilt gebruiken als achtergrond bij bewerken.
 
 ![Display][]
 
-You also have the option to select what aerial imagery to use while editing. By selecting the text beside "Aerial only", choose which imagery you wish to use.
+U heeft ook de optie om te selecteren welke luchtfoto's u wilt gebruiken bij het bewerken. Door de tekst naast "Alleen luchtfoto" te selecteren, kiest u welke luchtfoto's u wilt gebruiken.
 
 ![Custom Aerial][]
 
-You may also customize with your own imagery by selecting "Add New" and entering the name and the URL of the imagery on the URL text box. You need to define the tile servers and max zoom for this imagery.
+U kunt ook uw eigen afbeelding aanpassen door "Nieuw toevoegen" te selecteren en de naam en de URL van de foto's in te voeren in het tekstvak URL. U moet de servers voor de tegels en de maximale zoom voor de foto's definiëren.
 
 ![Aerial Provider][]
 
-Select "Clear Cache" if you want to clear the OSM data cache. It can be used if you have downloaded a bit too much data for your iOS device to handle and things are becoming sluggish.
+Selecteer "Clear Cache" als u de cache met gegevens van OSM wilt leegmaken. Het kan worden gebruikt als u enigszins teveel gegevens hebt gedownload voor uw iOS-apparaat om af te handelen en dingen traag beginnen te worden.
 
-Clearing the OSM data cache is helpful especially if the application state becomes out of sync with the OSM server. This may occur if someone else changes data you are editing, or if one of your uploads fails midway through preventing from uploading additional data.
+Leegmaken van de cache met gegevens van OSM is in het bijzonder nuttig als de status van de toepassing out of sync begint te raken met de server van OSM. Dat kan voorkomen als iemand anders gegevens wijzigt die u bewerkt, of als een van uw uploads tussentijds mislukt bij het uploaden van aanvullende gegevens.
 
-> Clearing the OSM cache will cause you to lose any changes that have not yet been uploaded.
+> Opruimen van de cache van OSM zal er voor zorgen dat u wijzigingen verliest die nog niet zijn geüpload.
 
-Clear the Mapnik or Overlay tile caches to download the latest tiles that reflect changes you've previously submitted. Your changes may take up to 24 hours to be processed.
+Ruim de caches van tegels van Mapnik of Overlay op om de laatste tegels te downloaden die de wijzigingen weergeven die u zojuist hebt ingediend. Het kan tot 24 uur duren totdat uw wijzigingen zijn verwerkt.
 
 ![Clear Cache][]
 
-You may also overlay different information such as GPX Tracks, Notes & Fixmes, OpenStreetMap GPS Traces, and Unnamed Roads. Plus, you can enable rotation of the app and enable 3-D effects of the OSM data.
+U zou er ook andere informatie overheen kunnen leggen, zoals GPX-bestanden, Notes & Fixmes, OpenStreetMap GPS-sporen, en Unnamed Roads. Plus, u kunt draaien van de app inschakelen en 3D-effecten voor de gegevens van OSM inschakelen.
 
 Instellingen instellen en overige
 -------------
 
-Go Map!! requires you to be a registered user on openstreetmap.org in order to upload changes you make to the map. You are required to provide tour openstreetmap.org name and password to the application before uploading data.
+Go Map!! vereist dat u een geregistreerde gebruiker bent op openstreetmap.org om wijzigingen te kunnen uploaden naar de kaart. U moet uw naam en wachtwoord voor openstreetmap.org in de toepassing opgeven voordat u gegevens kunt uploaden.
 
-Under the Settings icon, select OpenStreetMap Login and type your OSM username and password. If you don't have an OSM account, kindly select "Register new account" and follow the instructions. Select "Verify" once you're done.
+Selecteer, onder het pictogram Settings, OpenStreetMap Login en typ uw gebruikersnaam en wachtwoord voor OSM in. Als u nog geen account voor OSM hebt, selecteer dan "Register new account" en volg de instructies. Selecteer "Verify" als u klaar bent.
 
 ![Verify][]
 
-You can also find other mappers nearby by selecting "Nearby Mappers". This shows everyone that has edited the area in your current view. Zoom in to see fewer people or zoom out to see more.
+U kunt ook naar andere mappers in de omgeving zoeken door "Nearby Mappers" te selecteren. Dit geeft iedereen weer die het gebied in uw huidige weergave heeft bewerkt. Zoom in om minder mensen te zien of zoon uit om meer mensen te zien.
 
 ![Nearby mappers][]
 
-"Prepare fo Offline" option downloads Bing and/or Mapnik tiles for offline use if you expect to be mapping an area without cellular connectivity. Alternatively you can simply scroll around the area you plan to be visiting: all Bing, Mapnik and OpenStreetMap data is cached and will be available even if you have no connectivity. Once you have an access to the internet, simply upload as usual.
+De optie "Prepare fo Offline" downloadt tegels van Bing en/of Mapnik voor gebruik offline als u verwacht een gebied te bewerken zonder draadloze verbinding. Als alternatief kunt u eenvoudigweg door het gebied scrollen dat van plan bent te bezoeken: alle gegevens van Bing, Mapnik en OpenStreetMap wordt gecachet en zal beschikbaar zijn, zelfs als u geen verbinding hebt. U kunt eenvoudigweg weer uploaden als u weer toegang hebt tot het internet.
 
-When displaying Bing aerial imagery, click the Bing logo to retrieve Bing copyright and data provider information.
+Klik, bij het weergeven van luchtfoto's van Bing, op het logo van Bing om informatie over auteursrechten en de gegevensprovider te krijgen.
 
 [Home]: /images/mobile-mapping/gomap_home.PNG
 [Adding tags]: /images/mobile-mapping/gomap_adding_tags.PNG
