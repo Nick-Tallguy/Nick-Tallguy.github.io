@@ -1,61 +1,61 @@
 ---
 layout: doc
-title: Tracing roads, buildings, water and landuse 
+title: Позначення доріг, будинків та цільового призначення територій 
 permalink: /uk/coordination/remote-tracing/
 lang: uk
 category: coordination
 ---
 
-Tracing roads, buildings, water and landuse
+Позначення доріг, будинків, річок та цільового призначення територій
 ===========================================
 
-> Reviewed 2016-02-08  
+> Редакція 2016-02-08  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+Продовження розділу про [Дистанційний мапінг з  LearnOSM](/uk/coordination/remote/), з яким вам треба ознайомитись, якщо у вас немає досвіду мапінгу для HOT.  
 
 
-Section Index
+Зміст
 =====
 
-[Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
-[The Highway network](/en/coordination/remote-tracing/#the-highway-network)  
+[Дороги – від автомагістралей до путівців та стежок](#дороги)  
+[Дорожня мережа](#дорожня-мережа)  
 [Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
 [Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 
-## Roads
+## Дороги
 
-Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
+Для позначення будь-яких доріг в OpenStreetMap використовується теґ з ключем 'highway'. Дуже важливо правильно додавати дороги в базу даних (дані OpenStreetMap) через те що вони використовуються у різний спосіб:  
 
--  Navigation software such as Garmin devices and apps. on smartphones such as Osmand can provide routing information over great distances if the correct information is loaded into them. As these rely on the gps within the device to locate the position in relation to the basemap loaded into them, it is important that the highways are actually within about 15 metres of the right place, or they will not work!  
--  Planning the route for a large 'aid' lorry is much easier if you can differentiate between a path & a trunk road, with all the stages in between.  
--  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
--  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
+-  Навігаційні пристрої, такі як Garmin, та програмне забезпечення на смартфонах – Osmand, можуть прокладати маршрути на великі відстані за наявності завантаженої в них коректної інформації. Оскільки вони покладаються на інформацію з супутників GPS для обчислення координат та визначають ваше положення з прив’язкою до завантаженої в них базової мапи, важливо, щоб дорога знаходилась десь в межах 15 метрів від визначеного ними місця, інакше вони працюватимуть некоректно!  
+-  Планування маршруту для великих вантажівок з допомогою буде простішим, якщо ми можемо розрізняти всі види доріг, від автомагістралей до путівців та стежок, на всіх ділянках маршруту.  
+-  Наявність даних про покриття дороги, чи нам доведеться їхати по асфальту або ж по піску чи багнюці, також допомагає під час планування маршруту експедиції.
+При спробі визначити територію поширення хвороби опис постраждалих "біля перехрестя" є важливим, якщо ви можете побачити перехрестя на мапі.
 
-### <a name="highways-howto"></a> Highways - How to map
+### <a name="highways-howto"></a> Дороги – як мапити
 
 ![iD 3][]
 
-1.  When tracing highways, ensure you are zoomed in sufficiently. As a starting guide set the scale to about 20 metres, and trace the highway so that your tracing has sufficient points in it to keep it on, or very close to, the road you can see in your satellite imagery. In the screenshot above you can see I have traced the road that had been passed over to me, down, through the trees, and down to another building where it appears to stop. Where the trees are close to the road, and the imagery is obtained by an overhead camera, it appears as if the road narrows as it goes through the trees - however, it is just the effect of the trees obscuring the view, and the road is the same width throughout.  
-2.  I've also traced another section of road, making sure that it is connected at each end - iD shows this with a slightly larger and darker coloured dot at the junction. It is important that the roads join and 'share a common node' so that routing software will provide the correct guidance.  
-3.  The road is tagged as 'highway=residential', and I've also added 'surface=unpaved'.  
-4.  For a full description of tagging within Africa, refer to the wiki page [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
+1.  Під час креслення доріг, переконайтесь що ви наблизились на достатню для цього відстань. Для початку встановіть масштаб приблизно на 20 метрів та почніть креслити дорогу додаючи потрібну кількість точок у місцях її вигину, так щоб ваша лінія на мапі повторювала вигини дороги на знімку. На малюнку вище ви бачите, що ми накреслили дорогу, яка перейшла до нас з іншого завдання, вниз, через дерева, і вниз, до іншої будівлі, де вона, здається, зупиняється. Там, де дерева знаходяться недалеко від дороги, а знімки отримуються камерами які дивляться згори вниз, схоже, що дорога звужується, коли вона проходить під деревами – однак, це лише здається, що дерева перекривають дорогу, дорога має однакову ширину і під ними.  
+2.  Ми також додали інші відрізки доріг, треба переконатись, що вони з’єднуються з іншими дорогами – в iD доказом цього є трохи більша і темніша точка на місці з’єднання. Дуже важливо щоб ‘дороги мали спільну точку’, це допоможе навігаційному програмному забезпеченню правильно прокладати маршрути та надавати вірні вказівки під час руху.  
+3.  Ми позначили дорогу як 'highway=residential', а також додали інформацію про те що у неї немає покриття 'surface=unpaved'.  
+4.  Повний опис правил позначення доріг в Африці дивіться на сторінці вікі [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
 
-> There is a high risk of suffering from conflicts which will prevent you saving your work when working on any highway which extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the highway, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> Існує високий ризик виникнення конфліктів в даних, що заважатимуть вам зберегти вашу роботу, особливо коли ви працюєте з дорогами, що виходять за межі вашого завдання, і можливо, з якими також працюють інші мапери. Рекомендується надсилати ваші зміни на сервер до того як ви почнете працювати з дорогами, і потім зберігати ваші роботу після зміни кожних 6 точок.
 
 
-### The Highway Network
+### Дорожня мережа
 
 ![JOSM 4][]
 
-This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](https://josm.openstreetmap.de/wiki/Styles). Although designed to assist validators, it can be very useful when carrying out initial mapping. Anything that is coloured red has some kind of problem - the remaining colours are explained in the key in this screenshot.  
+На малюнку JOSM з активованим [стилем](https://josm.openstreetmap.de/wiki/Styles) HOT-OSM-Validate, який було створено щоб допомогти контролерам, він також згодиться і під час мапінгу. Все що має червоний колір містить ті чи інші помилки, пояснення щодо інших кольорів є в легенді на зображені.  
 
-1.  This section of highway is coloured red because the tag has been incorrectly typed and a capital letter has been used. The tag should be highway=unclassified, which would have resulted in a pale brown colour in the screenshot.  
-2.  This is part of the highway network for the town to the South West.This network connects to the rest of the highway network of Africa.  
-3.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
+1.  Ці відрізки доріг забарвлені червоним через застосування великих літер в тезі. Теґ мав бути  highway=unclassified, щоб призвело до блідо коричневого забарвлення дороги.  
+2.  Ця частина входить до складу дорожньої мережі, що веде до міста на південному заході. Ця мережа з’єднується з рештою доріг Африки.  
+3.  Ці відрізи – ‘ізоляти’. Вони не з’єднані з іншими дорогами. В такому вигляді вони не дуже корисні та вимагають подальшого дослідження, чи можна їх приєднати до решти доріг або їх треба вилучити.  
 
 
-**Highway or stream?**
+**Дорога чи струмок?**
 
 ![iD 5][]
 
