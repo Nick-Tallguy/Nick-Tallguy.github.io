@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Позначення доріг, будинків та цільового призначення територій 
+title: Позначення доріг, будинків та територій 
 permalink: /uk/coordination/remote-tracing/
 lang: uk
 category: coordination
@@ -19,7 +19,7 @@ category: coordination
 
 [Дороги – від автомагістралей до путівців та стежок](#дороги)  
 [Дорожня мережа](#дорожня-мережа)  
-[Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
+[Межі житлової забудови](#межі-житлової-забудови)  
 [Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 
@@ -52,79 +52,79 @@ category: coordination
 
 1.  Ці відрізки доріг забарвлені червоним через застосування великих літер в тезі. Теґ мав бути  highway=unclassified, щоб призвело до блідо коричневого забарвлення дороги.  
 2.  Ця частина входить до складу дорожньої мережі, що веде до міста на південному заході. Ця мережа з’єднується з рештою доріг Африки.  
-3.  Ці відрізи – ‘ізоляти’. Вони не з’єднані з іншими дорогами. В такому вигляді вони не дуже корисні та вимагають подальшого дослідження, чи можна їх приєднати до решти доріг або їх треба вилучити.  
+3.  Ці відрізки – ‘ізоляти’. Вони нез’єднані з іншими дорогами. В такому вигляді вони не дуже корисні та вимагають подальшого дослідження, для того щоб переконатись чи можна їх приєднати до решти доріг або їх треба вилучити.  
 
 
 **Дорога чи струмок?**
 
 ![iD 5][]
 
-There are no style views available to assist in using iD, but in this screenshot you can see an area of vegetation and ground. The ground appears to be silt or perhaps even an area of marshland without the water present. The dotted black and white lines represent paths in iD & I have temporarily highlighted & then deleted one of them to show the terrain.  
+Для iD у нас немає такого стиля, який би показував нам помилки, але на цьому знімку ви можете побачити можна побачити територію зайняту рослинністю та ґрунт. Ґрунт схожий на мул, або навіть на болотисту місцевість під час сухого періоду, коли зійшла вода. Пунктирні чорно-білі лінії являють собою стежки в iD. Ми трохи прибрали частину з них, щоб показати місцевість.  
 
-1.  highway=path or stream bed. Probably both!  highways of all sizes frequently follow a river valley and in many cases they may follow the course of a seasonal river or stream. In this case this appears to be a flood plain area which at the time the satellite imagery was produced was dry, and being used as a path. This would be best tagged as:  
-highway=path  
-seasonal=yes  
-surface=unpaved  
-2.  The path can be clearly seen going towards and into the band of trees and shrubland, but it is not possible to see its exact course through the trees. In these circumstances you can be certain the path, track or highway is present, it is just obscured from your view by the trees. I have mapped this by continuing the path I was tracing where it could be clearly seen on the ground as a straight line through the trees to the clearly visible continuation on the other side. Use this with caution, but in this instance it is obvious that the path is present and its path is likely to be very close to the line I have drawn. This is a more extreme usage - it is more usual to estimate the path of a highway for only a few metres where your view of it is obscured by one or two trees.  
-3.  Having deleted the path so that I could see the ground clearly, I can easily replace it by using the 'undo' feature of iD.  
+1.  `highway=path` чи це річище струмка. Скоріш за все й стежка і річище! Шляхи будь-яких розмірів дуже часто проходять долинами річок, а й іноді під час сухого сезону, вони проходять по пересохлих річищах річок чи струмків. В цьому випадку це схоже на заплаву, яка на момент створення знімку була сухою та використовувалась як шлях. Цей випадок найкраще позначати як:  
+`highway=path`  
+`seasonal=yes`  
+`surface=unpaved`  
+2.  Добре видно що стежка йде у напрямку дерев та чагарників, але ми не можемо побачити її точне розташування під деревами. За таких обставин ми можемо бути точно впевненні, що тут проходить стежка або дорога, але вона закрита деревами. Ми додали стежку там де її добре видно і з’єднали прямою лінією, що проходить через масив дерев, в тому місці де вона входить та виходить з обох боків. Робіть це дуже обережно, але тут очевидно, що стежка є і вона проходить доволі близько до лінії, якою ми її позначили. Це, звісно, крайній випадок, зазвичай ми оцінюємо наявність дороги лише на кілька метрів вперед, там де вона закрита одним чи двома деревами.  
+3.  Перед цим ми вилучили деякі зі стежок щоб краще бачити поверхню, тепер ми можемо повернути їх назад скориставшись кнопкою ‘Скасувати’ (‘undo’) в iD.  
 
 ***
 
 
-## Residential Boundaries
+## Межі житлової забудови
 
-Residential boundaries are used for many purposes in OpenStreetMap.  
+Межі житлової забудови використовуються в OpenStreetMap для різних потреб.  
 
-+  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](http://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
-+  Where there is not time to map in detail from the outset, the project within the Task Manager will frequently require something similar to this:  
+-  Найпростіше застосування – мати можливість бачити території житлової забудови переглядаючи стандартний шар на [OpenStreetMap.org](http://www.openstreetmap.org), коли вони показуються світло-сірим кольором на мапі.  
+-  Якщо немає часу детально скласти мапу з самого початку, проєкт у Менеджері завдань часто вимагатиме щось подібне до цього:  
 
->    Map essential infrastructures such as schools, place of worship and markets.  
->    Trace outbound of settlements and cemeteries.  
->    We will trace roads later in an other Task.   
-+  landuse=residential can also be used for statistical purposes, and accurate mapping then becomes important  
+>    Додайте на мапу важливі елементи інфраструктури: школи, храми та ринки.  
+>    Позначте контури поселень та кладовищ.  
+>    Дороги будуть додані пізніше, в наступних Завданях.   
+-  `landuse=residential` може використовуватись для статистичних досліджень, тож їх точне нанесення важливе  
 
-*  If you can establish how many people normally reside in each dwelling, and  
- how many dwellings are normally built in a given area, then  
- once you have worked out the area covered by a landuse=residential boundary,  
- you can establish a very approximate population for that area.  
- Estimating the number of aid workers & quantity of medicine now becomes more realistic.
-*  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
-
-
-### <a name="residential-howto"></a> landuse=residential - how to map
+-  Якщо ви можете визначити скільки осіб зазвичай мешкають в кожному помешканні, та  
+ скільки помешкань збудовано на певній ділянці, та  
+ як тільки ви закінчите працювати з територією покритою межами житлової забудови `landuse=residential`  
+ ви можете сказати скільки приблизно осіб проживає на цьому клаптику суші.  
+ Тепер оцінку кількості працівників гуманітарної місії та потребу в медикаментах можна зробити точніше.
+-  Назви населених пунктів та межі житлової забудови, як правило, беруть з інших джерел, але їх розташування не завжди є точним. Після того, як ви нанесете межі житлової забудови, особі яка робить імпорт буде простіше визначитись де та чи інша місцевість знаходиться.
 
 
-** In an ideal world **  
+### <a name="residential-howto"></a> landuse=residential  – як мапити
 
-*Stage 1* - A decision is taken to map an area, and a mapper quickly puts a very rough landuse=residential boundary around an area,  
-*Stage 2* - The Task Manager project is created & the individual mappers refine the boundary so that it is closer to the buildings etc.  
+
+**В ідеальному світі**  
+
+*Етап 1* – Приймається рішення про мапінг району, і мапер швидко додає доволі приблизні межі районів житлової забудови landuse=residential,  
+*Етап 2* – Створюється проєкт в Менеджері завдань та інші мапери уточнюють ці межі так щоб вони були ближче до будинків й т.і.  
 
 ![JOSM residential][]
 
 ![iD residential][]
  
-The iD & JOSM screenshots above show a correctly mapped landuse=residential boundary.  
+На скріншотах, наведених вище, в iD та JOSM, зображено правильно нанесені межі житлової забудови `landuse=residential`.  
 
-1.  The boundary needs to be closed, so that the start point of the line (way), joins to the end point.  
-2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *i.e.* it should not share any nodes. But they can cross.  
-3.  The boundary should be fairly close to the buildings & any gardens or yards that form part of the grouping.  
+1.  Межа має бути замкненою лінією, так щоб кінцева точка з’єднувалась з початковою.  
+2.  Відрізки та точки межі не повинні приєднуватись до доріг, струмків чи рік, будинків, або інших об’єктів, тобто, вони не повинні мати спільних точок. Але вони можуть перетинатись.  
+3.  Межі мають проходити по межі помешкань; сади та городи, що знаходяться на присадибних ділянках мають входити до житлової території.  
 
 
-In the screenshot below, my square contains part of a landuse=residential boundary. The person who completed the square to my right has continued a landuse=residential boundary through their square, and has then correctly 'handed it over' to me by placing the boundary just within my square for me to establish exactly where it should be in my square.  
+На скріншоті нижче, наше завдання містить частину межі landuse=residential. Учасник, який мапив завдання праворуч, накреслив ту частину, що була на його квадраті та “передав” її нам, накресливши її трохи на нашому квадраті, так що ми можемо продовжити її креслення розширивши її на наш квадрат.  
 
 
 ![JOSM residential 1][]
 
-I will add extra nodes to the boundary, extending it horizontally across my square so that it goes around the buildings , and at the bottom I will continue the boundary as a straight line just inside the square below mine so that the person selecting the square below mine will be able to extend it around any buildings they may have.  
+Ми продовжимо її креслення, розширивши її на наш квадрат та відмітимо її прямою лінією на квадраті нижче, щоб інший учасник також мав змогу продовжити її у своєму завданні.  
 
-This is a difficult operation - you can see only a small part of the whole town / city / village and although you will do your best with the landuse=residential boundary it is extremely likely that a validator who has an overview of several squares will need to tidy up the boundary as best they can after the individual squares have been mapped.  
+Це доволі складно, коли ви бачите лише невелику частину міста чи села, і ви можете докласти зусіль, щоб зробити її як найкраще, позначивши межу `landuse=residential`, але, скоріш за все контролеру, що перевіряє кілька виконаних завдань, доведеться зробити певні коригування, після того, як вони будуть завершені.  
 
-> There is a high risk of suffering from conflicts when working on a landuse=residential boundary, as it extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the boundary, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> Існує високий ризик виникнення конфліктів в даних,  коли ви працюєте з landuse=residentia, що виходять за межі вашого завдання, і можливо, з якими також працюють інші мапери. Рекомендується надсилати ваші зміни на сервер до того як ви почнете працювати з межами, і потім зберігати ваші роботу після зміни кожних 6 точок.
 
 ***
 
 
-## Buildings walls compounds barriers  
+## Будівлі, стіни, огорожі  
 
 Buildings are added to the map data for a number of reasons;  
 
