@@ -20,7 +20,7 @@ category: coordination
 [Дороги – від автомагістралей до путівців та стежок](#дороги)  
 [Дорожня мережа](#дорожня-мережа)  
 [Межі житлової забудови](#межі-житлової-забудови)  
-[Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
+[Будівлі, стіни, огорожі](#будівлі,-стіни,-огорожі)  
 
 
 ## Дороги
