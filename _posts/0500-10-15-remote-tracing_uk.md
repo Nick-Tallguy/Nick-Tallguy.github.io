@@ -126,30 +126,30 @@ category: coordination
 
 ## Будівлі, стіни, огорожі  
 
-Buildings are added to the map data for a number of reasons;  
+Будівлі додаються в дані з кількох причин:  
 
-*  The density of buildings in an area gives a very good indication of the number of people residing there.  
-*  The size, shape & location of a building can help to identify it as a potential evacuation or treatment site.  
-*  The size, shape, and relative location of buildings can be used to identify particular locations such as wells, aid stations, schools, etc..  
-*  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
+*  Щільність будівель на даній території дуже добре вказує на кількість людей, які проживають там.  
+*  Розмір, форма та розташування будівлі можуть допомогти визначити її як потенційне місце для евакуації чи лікарні.  
+*  Розмір, форма та відносне розташування будівель можна використовувати для визначення конкретних місць, де можуть знаходитись колодязі, пункти допомоги, школи тощо.  
+*  Існує потенціал для оцінки ступеня шкоди, завданої будівлі, яка може бути використана для оцінки потенційних жертв та рівня підтримки, яка може знадобитися - це наразі (січень 2015 року) обговорюється для подальшого використання.  
 
 
-### <a name="buildings-howto"></a> Buildings - How to Map
+### <a name="buildings-howto"></a> Будівлі – як мапити
 
-The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
+Переважна більшість будівель, що потребують мапінгу з боку HOT, є прямокутної форми з прямими кутами, або мають круглу форму. Якщо будівля здається сумішшю цих двох, швидше за все, ви дивитесь на будівлю, контур якої затьмарений тінню, листям чи чимось подібним.  
 
-For some tasks where only an outline of an area is required, the task may specify that buildings can be mapped as nodes, but these situations are now rare.  
+Для деяких завдань, де потрібно лише окреслити область, завдання може бути вказано, що будівлі можуть бути позначені точками замість полігонів, але таки випадки дуже рідкісні.  
 
 
 #### building=yes
 
-Unless the project instructions specify otherwise, buildings should be tagged **building=yes**  
+Якщо не зазначено інше в інструкціях проєкту, будинки треба позначати теґом **building=yes**  
 
-*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
+*  Часто між супутниковими знімками та мапінгом можуть бути затримки в часі. Є ймовірність, що будівля, на яку ви дивитесь, та у якої, здається, не має даху, зараз вже закінчена і в ній живуть люди. Можливо також, що ви дивитесь на будівлю з декількома поверхами, в яких нижні поверхи вже заселені, а верхній поверх, без даху, в даний час не придатний для проживання.  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 'q').  
+> **Мапінг будинків в iD** – після того, як ви накреслили конутр будівлі за допомогою інструмента креслення полігонів, не забувайте додавати теґ `building=yes`. Типово, полігонам додається теґ area=yes. Якщо ви креслите прямокутну будівлю, не забувайте спрямляти її кути після того як накреслите контур (клавшішна комбінація 'q').  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/josm-more-plugins/#the-buildings-tools-plugin)  
+*  Мапіг будівель в JOSM відбувається швидше – читайте про [використання в JOSM втулку building](/uk/josm/josm-more-plugins/#втулок-buildings-tools).  
 
 ![Buildings iD][]
 
