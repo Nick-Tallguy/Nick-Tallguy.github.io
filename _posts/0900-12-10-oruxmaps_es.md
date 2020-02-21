@@ -9,24 +9,24 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
+> Revisado el 2016-08-04 y, aunque un está un poco desactualizada, sigue sirviendo y contiene un enlace al sitio del manual del software.
 
-In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  
+En esta sección, vamos a aprender cómo configurar OruxMaps, cómo crear waypoints, cómo ver un tracklog y cómo exportar un tracklog para su uso en JOSM.  
 
 ​Instalar OruxMaps
 ------------------
 
-Install the app from Google Play Store by searching for **OruxMaps**, OruxMaps should be among the top search results listed.  
+Instale la aplicación desde Google Play Store buscando **OruxMaps**, OruxMaps debe estar entre los mejores resultados de búsqueda listados.  
 
-![Search OruxMaps in Play Store][]
+! [Buscar OruxMaps en Play Store] []
 
-Click on **Install** button and press Accept after App permissions appears.  
+Haga clic en el botón **Instalar** y presione Aceptar después de que aparezcan los permisos de aplicación.  
 
-![Install OruxMaps][]
+! [Instalar OruxMaps] []
 
-Congratulations! You  now have OruxMaps installed in your device!  
+¡Felicitaciones! ¡Ahora tienes OruxMaps instalado en tu dispositivo!  
 
-​Using OruxMaps
+Uso de OruxMaps
 --------------------
 
 The first time you run the application, you will see a notification like this:  
