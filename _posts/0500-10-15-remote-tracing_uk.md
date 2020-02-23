@@ -153,36 +153,36 @@ category: coordination
 
 ![Buildings iD][]
 
-This screenshot shows part of a square being edited. Note the scale at the bottom of 15 metres - about the figure you should aim at when editing features. When tracing, you are aiming to place the building where it meets the ground:  
+Га цьому скріншоті показано частину завдання. Зверніть увагу на масштаб (15 метрів), рекомендується обирати подібні значення для редагування даних. Під час додавання будинків їх треба наносити по контуру фундаменту:  
 
-1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM or iD I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, JOSM - use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size.  
-2.  **Rectangular buildings.** These particular buildings are casting a noticeable shadow. The shadow can help to identify the shape of a building which is partially obscured by another feature. You will find that many buildings are not so simple, and have a verandah or are 'L' shaped - you must trace the actual shape of the building as this will help to identify it when names & other data is being added as part of the ground survey process.  
-3.  **Barriers - walls (or hedges) of a compound.** Having examined the imagery, zooming in & out until I am satisfied that from the shape of the object (use its shadow as well to identify), I believe this to be a wall, and I have tagged it **barrier=wall**. Alternatives include barrier=fence and barrier=hedge.  
-4.  I have joined the barrier=wall to the building=yes at the corner of the building.  
+1.  **Круглі будинки.** В цьому випадку вони досить низькі і їхню тінь майже не видно. Якщо дивитися на них з землі – вони матимуть форму купола. Тут ми поки що позначили лише один з них та додали йому теґ **building=yes**. Для швидкого додавання решти таких будинків в JOSM або iD ми виділимо цей один будинок, копіюємо його натиснувши *Ctrl+c*, змістимо курсор в центр іншого круглого будинку та натиснемо *Ctrl+v*. Після додавання всіх круглих будинків однакового розміру в цьому завданні, треба скопіювати один з них на будинок іншого розміру та підлаштувати його розмір, в JOSM – використовуйте *Alt+Ctrl*  та мишу для цього; потім скопіюйте його та вставте там де будинки мають такий самий розмір.  
+2.  **Прямокутні будинки.** Безпосередньо ці будинки відкидають доволі помітну тінь. Тін допомагає нам визначити форму будинків, які частково приховані іншими предметами. Ви можете побачити що більшість з ним не такій вже “прості”, деякі з них мають веранду або форму літери 'L'. Вам треба повторити їх форму саме так, якими вони є насправді. Це допоможе потім ідентифікувати їх на місцевості, коли додаткові дані про мешканців та таке інше будуть додані для перевірки їх на місті.  
+3.  **Бар’єри – стіни, паркани та огорожі.** Після ознайомлення з фоновим зображенням, його наближенням та віддаленням, доки ми не переконаємось у формі та вигляді об’єктів (використовуйте тіні для цього), ми можемо сказати що це стіна, тож позначимо її теґом  **barrier=wall**. Серед варіантів можуть бути `barrier=fence` та `barrier=hedge`.  
+4.  Ми приєднали стіну (`barrier=wall`) до кута будівлі (`building=yes`) там де вони з’єднуються.  
 
 
-### Satellite imagery distorting the building shape.
+### Супутникові знімки викривляють форму будинків.
 
 
 ![Buildings_2][]
 
-1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
+1.  На супутниковому знімку знизу ми бачимо будинок, але через те що він був зроблений не вертикально, а під певним кутом, будинок виглядає викривленим і ми можемо бачити одну з його стін на знімку. Завдяки цьому куту, під яким було зроблено знімок, контур даху не виглядає прямокутним. Сонце знаходиться прямо над будинком, то ж тінь від нього, ми позначили її стрілками на малюнку 1, підтверджує наше припущення, що цей будинок прямокутний.  
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
+2.  Для того щоб правильно накреслити цей будинок, створіть прямокутник витягнувши його від лінії, позначеною стрілками 2, до точки 3 на протилежному кінці.  
 
 
 ***
 
 
-More to follow - see the below links for more guidance.
+Докладніше - перегляньте посилання нижче для отримання додаткових вказівок.
 
 
-# Further Reading
+# Додаткова інформація
 
 -  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
--  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
--  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
--  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
+-  [OSM Вікі, інформація стосовно валідації виконаних завдань](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
+-  [Застосування теґу Highway в Африці](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
+-  [Короткий посібник (французькою) про дистанційний мапінг](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
 [iD 3]: /images/coordination/iD_3.png
 [JOSM 4]: /images/coordination/JOSM_4.png

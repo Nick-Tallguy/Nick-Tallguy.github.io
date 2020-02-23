@@ -1,39 +1,39 @@
 ---
 layout: doc
-title: Manage a Mapathon
+title: Організація мапатону
 permalink: /uk/coordination/mapathon/
 lang: uk
 category: coordination
 ---
 
-# Manage a Mapathon
+title: Організація та проведення мапатону
 
-> Created 2017-01-30  
+> Редакція 2017-01-30  
 
 - TOC
 {:toc}
 
-## Introduction
+## Вступ
 
-### What type of event  
-Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
+### Тип події  
+Визначення типу події, яку ви бажаєте організувати, буде впливати на напрямок, в якому вам потрібно докласти зусилля та кроки по їх реалізації.  
 
-This guide deals with indoor Mapathons for larger groups. 
+В цих настановах йдеться про організацію Мапатону для великого зібрання. 
 
-For other types of gatherings for mapping see  
-[Weekend Mapping Projects](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
-[Mapping Parties](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
+Для інших типів зустрічей, метою яких є мапінг дивіться:  
+[Проєкти вихідного дня з мапінгу](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
+[Мапінг вечорниці](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**A Mapathon is an organised gathering of people to add data to the OpenStreetMap. This can be a project to improve the map in your local area, or to help Response Teams on the ground during a Disaster, or a Missing Maps Project for ongoing or future Humanitarian Responses.**  
+**Мапатон – організоване зібрання людей для додавання даних в OpenStreetMap. Це може бути проєкт пов’язаний з покращенням мапи у вашій місцевості або ж допомога волонтерам, які надають знаходяться в містах катастроф та стихійних лих, участь в проєктах Missing Maps для реагування на поточні чи майбутні for заходи гуманітарних місій.**  
 
-Your Mapathon can be open to training new mappers as well as a regular event for experienced mappers and could consist of a training session, mapping time and time to socialise.  
+Ваш мапатон може мати на меті як навчання новачків, так і участь досвідчених маперів, і може складатись з навчальної частини, безпосередньо самого мапінгу та часу на знайомство та спілкування.  
 
-While we can give general guidelines on how to organise a Mapathon, your event will evolve and develop its own structure and identity depending on the people who organise it, the venues available and the people that turn up to map.  
+В той час як ми надаємо лише загальні рекомендації по організації мапатону, ваша подія може еволюціонувати та розвиватись отримуючи власну структуру та ідентичність, в залежності від осіб організаторів, місця проведення та учасників, щоб братимуть участь в мапінгу.  
 
 ![kings college][]
 
-### History of a successful Mapathon
-The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
+### Історія успішного мапатону
+London Missing Maps Mapathons почали проводитись з 2014 року невеличкою групою для навчання нових маперів. Ініціаторам вдалося залучити багато корпоративних спонсорів, що дозволило знайти місце для розміщення більше ніж 80 учасників.
 It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
 The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
 The success of the London event is based on a number of factors but mainly the following strategy...

@@ -20,7 +20,7 @@ category: beginner
 
 حتى الآن، جميع التعديلات التي أضفناها إلى الخريطة كانت مستندة على صور خلفية. ولكن يمكنك جمع الكثير من المعلومات أثناء المشي أو القيادة في الجوار.[هذا القسم على خرائط الجوال](/en/mobile-mapping/) يشرح كيفية جمع المعلومات بأجهزة مختلفة تدعم تحديد المواقع أو باستخدام المطبوعات المصممة خصيصا. كما يستعرض عدد من التطبيقات ذات الصلة بـ OpenStreetMap للهواتف النقالة.  
 
-OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
+OpenStreetMap هى جهود تعاونية نامل ان تكون انت جزء منها. بعض هذه الجهودات خصصت للمساعدة الانسانية تحت رعاية [Humanitarian OSM Team] (http://hotosm.org). اذا اردت انا تساعد HOT فى فرصة اثناء خطر ما مثل زلزال نيبال ما عليك هو ان تشاهد [section on coordination](/en/coordination/). انه يتعامل مع الادوات التى تجعل الناس واثقين من العمل سويا خلال أجواء صغيرة بطريقة ثابتة. إنه ايضا يحتوى على ارشادات خلال بعض المهام المتشابهة التى ستواجهها عند الانضمام لهذا العمل.  
 
 
 تعلم أكثر
