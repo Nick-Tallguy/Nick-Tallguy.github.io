@@ -28,45 +28,52 @@ Section Index
 
 The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
- This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 3 including the [HOT Tasking Manager](http://tasks.hotosm.org) and the [TeachOSM Tasking Manager](http://tasks.teachosm.org).
+ This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 4 including the [HOT Tasking Manager](http://tasks.hotosm.org) and the [TeachOSM Tasking Manager](http://tasks.teachosm.org).
 
-The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
+The HOT or OSM Tasking Manager version 4 is frequently referred to as **TM4,** as a shorthand for Tasking Manager, version 4.
 
 ## Logging in & Access Levels
 
-The first thing to understand is access level. All access to TMd is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+The first thing to understand is access level. All access to TM4 is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM4 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
 ### Access Levels within the OSM Tasking Manager
 
 The OSM Tasking Manager has three user access levels:
--  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers have access to create and update projects within TM3.  
--  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
+-  **User** - The most basic level. The user is able to login to TM4 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tm-user/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
+-  **Project Manager** - Project managers have access to create and update projects within TM4.  
+-  **Administrator** - Administrators have access that allows them to manage access levels of users within TM4.
 
-You will need Project Manager Access level to create new projects using TM3.
+You will need Project Manager Access level to create new projects using TM4.
 
-## Initiate a new Project within TM3 
+## Initiate a new Project within TM4 
+
+Click on 'Manage' in the menu on the top, 'Projects' should be automatically selected. Then click on the 'Add' button.
+
+![TM Add Project][]
+
+You may choose between drawing your area of interest (AoI) on the map, or importing an area of interest from a geojson file;  
 
 ![TM New][]
-
-Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest (AoI) on the map, or importing an area of interest from a geojson file;  
 
 > Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
 
 ### Draw an area of interest to be mapped
 
-1. Click the ‘Draw’ button in the upper right corner.
-2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
-3. Click on your starting point to complete the polygon  
-4. After completing a polygon you can move the nodes or add new ones to get the area just as you want it.
+![TM Draw AoI][]
+
+1. You may switch to other background layers using the buttons on the top. 
+1. Click the ‘Draw’ button on the left.
+2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
+3. Click on your starting point to complete the polygon.
+4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
 or
 
 ### Upload a GeoJSON or KML file of the area of interest to be mapped  
 
-1. Click the ‘Import’ button,  
-2. Browse to your file in the File Upload window,  
-3. Click the file name to highlight the file and then click ‘Open’.  
+1. Click the ‘Upload file’ button.
+2. Browse to your file in the File Upload window.
+3. Click the file name to highlight the file and then click ‘Open’.
 4. Imported areas of interest can not be edited.
 
 
@@ -85,13 +92,13 @@ To create uniform square tiles, select the Square Grid option.
 
 ![TM Tile Sizes][]
 
-The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the 'Larger' and 'Smaller' buttons to adjust the size of the task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
 
-Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+Please note that **there are multiple map layers available to use while determining Task square size**. The buttons at the top of the map show your options for the background layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
 
-If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
+<!--If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
 
-You can also create several different task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where tasks need to be split. The "Reset" button will reset all of your split tasks. The Split (Polygon) option will let you draw a polygon over an area to create smaller tasks and the Split (Point) will let you click individual task squares to split. The Reset button will remove all of your custom splitting.
+You can also create several different task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where tasks need to be split. The 'Click to split' button will let you click individual task squares to split. The 'Draw area to split' button will let you draw a polygon over an area and all tasks within it will be split. The Reset button will remove all of your custom splitting.
 
 > Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
 
@@ -115,7 +122,15 @@ Arbitrary geometries can not be split.
 
 ### Project Area Trim
 
-After determining the task sizes you will have the option to "Trim" your AoI. You can either trim the AoI to the exact polygon shape you drew or imported (suggested) or you can trim to the nearest task square that includes your AoI.
+![TM Trim][]
+
+After determining the task sizes you will have the option to "Trim" your AoI. If you simply click on 'Trim' then you skip all task squares which do not contain the AoI
+
+![TM Trim coarse][]
+
+If you check the box about trimming to the exact area before clicking on 'Trim' then you obtain arbitrary task shapes at the fringe
+
+![TM Trim fine][]
 
 After finalizing a the AoI trim, click “Next”.
 
@@ -140,7 +155,7 @@ Once the Project is created, you will need to edit all its associated settings:
 
 ![TM Description][]
 
-This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
+This screen allows you set the project status as Draft, Published, or Archived, priority, a short description used in project listings and the long description available once a mapper has selected the project.
 
 Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
 
@@ -166,15 +181,15 @@ See the below notes on creating good instructions.
 
 ![TM Metadata][]
 
-> All of these fields should be filled out and will become non-optional in future versions of TM3.
+> All of these fields should be filled in and will become non-optional in future versions of the Tasking Manager.
 
 **Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
 
 **Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
 
-**Organization **- Allows you to specify the organization the mapping will be used by. Used in project filtering.
+**Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
 
-**Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
+**OSMCha filter ID** - 
 
 ### Priority Areas
 
@@ -188,35 +203,47 @@ Use the provided tools to draw areas that should be mapped first. You can have m
 
 URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
 
-License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
 ### Permissions
 
 ![TM Permissions][]
 
-Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
+**Mapping permissions** - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
 
-Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
+**Validation permissions** - This allows you to require that people performing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
 
-Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
+**Organization** - 
+
+**Teams** - 
+
+**Privacy** - This restricts access to the project to a list of users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
 
 ### Settings
 
-Default Locale - Allows the setting of default instructions language for a project.
+![TM Settings][]
+
+**Default Language** - Sets the default instructions language for a project.
+
+**Editors** - Restricts the available editors to those checked. You may specify different sets for mapping and for validation.
+
+**Enforce random selection** - If checked then users cannot select a specific task for mapping.
 
 ### Actions
 
 ![TM Actions][]
 
-Message All Contributors - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+**Message all ccontributors** - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
 
-Validate all Tasks - This will mark all tasks to "Green" validated status, with the exception of tasks that have been marked as "Bad Imagery"
+**Mapping, validation and invalidation** - This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
 
-Invalidate all Tasks - This will mark all tasks to "Red" invalidated status, with the exception of tasks that have been marked as "Bad Imagery"
+**Reset tasks** - This will reset all tasks to their pristine state but previous actions will still available in the task history. Handle with care as there is no undo.
 
-Delete Project - This will permanently delete the project from the Tasking Manager.
+**Transfer project ownership** - Lets you specify another user who will become the owner of this project. Handle with care as there is no undo.
 
-Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
+**Clone Project** - This will create a duplicate of the project except for the AoI, task grid and priority areas which you will need to re-import or re-draw.
+
+**Delete Project** - This will permanently delete the project from the Tasking Manager. Handle with care as there is no undo. This action is no longer available as soon as any contributions have been made to the project.
 
 ### Instruction Notes
 
@@ -266,11 +293,17 @@ Here are some suggested bits of information which you might include in the proje
 Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
 If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 
-[TM Tile Sizes]: /images/coordination/tm3_tile_sizes.png
-[TM New]: /images/coordination/tm3_create_new.png
-[TM Description]: /images/coordination/tm3_description.png
-[TM Instructions]: /images/coordination/tm3_instructions.png
-[TM Metadata]: /images/coordination/tm3_metadata.png
-[TM Priority Area]: /images/coordination/tm3_priority_area.png
-[TM Permissions]: /images/coordination/tm3_permissions.png
-[TM Actions]: /images/coordination/tm3_actions.png
+[TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
+[TM Add Project]: /images/coordination/tm4_new_project.png
+[TM New]: /images/coordination/tm4_create_new.png
+[TM Draw AoI]: /images/coordination/tm4_draw_aoi.png
+[TM Trim]: /images/coordination/tm4_trim1.png
+[TM Trim coarse]: /images/coordination/tm4_trim2.png
+[TM Trim fine]: /images/coordination/tm4_trim3.png
+[TM Description]: /images/coordination/tm4_description.png
+[TM Instructions]: /images/coordination/tm4_instructions.png
+[TM Metadata]: /images/coordination/tm4_metadata.png
+[TM Priority Area]: /images/coordination/tm4_priority_area.png
+[TM Permissions]: /images/coordination/tm4_permissions.png
+[TM Settings]: /images/coordination/tm4_settings.png
+[TM Actions]: /images/coordination/tm4_actions.png
