@@ -6,7 +6,7 @@ lang: uk
 category: coordination
 ---
 
-title: Організація та проведення мапатону
+# Організація та проведення мапатону
 
 > Редакція 2017-01-30  
 
@@ -24,7 +24,7 @@ title: Організація та проведення мапатону
 [Проєкти вихідного дня з мапінгу](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
 [Мапінг вечорниці](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**Мапатон – організоване зібрання людей для додавання даних в OpenStreetMap. Це може бути проєкт пов’язаний з покращенням мапи у вашій місцевості або ж допомога волонтерам, які надають знаходяться в містах катастроф та стихійних лих, участь в проєктах Missing Maps для реагування на поточні чи майбутні for заходи гуманітарних місій.**  
+**Мапатон – організоване зібрання людей для додавання даних в OpenStreetMap. Це може бути проєкт пов’язаний з покращенням мапи у вашій місцевості або ж допомога волонтерам, які знаходяться в містах катастроф та стихійних лих, участь в проєктах Missing Maps для реагування на поточні чи майбутні for заходи гуманітарних місій.**  
 
 Ваш мапатон може мати на меті як навчання новачків, так і участь досвідчених маперів, і може складатись з навчальної частини, безпосередньо самого мапінгу та часу на знайомство та спілкування.  
 
@@ -34,78 +34,78 @@ title: Організація та проведення мапатону
 
 ### Історія успішного мапатону
 London Missing Maps Mapathons почали проводитись з 2014 року невеличкою групою для навчання нових маперів. Ініціаторам вдалося залучити багато корпоративних спонсорів, що дозволило знайти місце для розміщення більше ніж 80 учасників.
-It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
-The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
-The success of the London event is based on a number of factors but mainly the following strategy...
+Зібрання розпочиналось з навчання всіх учасників базовим навичкам мапінгу в iD, як найкращого редактора для опановування початківцями.
+Подія відбувалася раз на місяць, учасники могли зареєструватись для участі через Eventbrite. Через деякий час було помічено, що відвідувачів повертаються для подальшого мапінгу та навчання. Було прийнято рішення розділити подію на підготовку новачків з використанням iD та допомогти учасникам, які брали участь в кількох подіях, перейти на JOSM, а також було запроваджено навчання контролерів (валідаторів). Такий формат добре зарекомендував себе, але довелось відмовитись від мапінгу досвідченим учасникам через нестачу вільних місць. Було започатковано другий мапатон – Mid Month Mapathon, призначений для досвідчених користувачів JOSM, які б бажали зосередитись на більш докладних формах мапінгу, обговорити та перевірити нові ідеї. 
+Успіх події в Лондоні оснований на ряді факторів, але в основному на наступній стратегії …
 
--   Experience taught us that the learning curve for people with no mapping experience whatsoever is very steep and can be off putting and frustrating for these newcomers if they cannot get some mapping done on their first event. It is important to get them mapping as quickly as possible, so they were shown just the very basics with the simpler iD editor, letting them encounter their own particular problems during the course of the evening when they were able to ask for help.
--   It was much easier teaching mappers the more complex JOSM editor if they already had experience of mapping with the iD editor or some other GIS programme. It also meant that you were dealing with a group that were interested in advancing their mapping skills rather than just along to find out what it was about and whether they liked it or not.
--   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
-  A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
+-   Як показує досвід, крива навчання для людей, які не мають досвіду в мапінгу, є дуже крутою, і може відштовхнути новачків, якщо вони не зможуть зробити жодних змін на мапі під час свого першого візиту. Дуже важливо дати їм можливість почати мапити якнайшвидше, тож їм треба показати основи мапінгу в iD, як найдоступнішому для новачків редакторі, дозволяючи їм розв’язувати самотужки проблеми з якими вони стикаються та мати можливість звернутись по допомогу в разі потреби під час самої події.
+-   Навчати маперів роботі зі складнішим редактором JOSM легше, якщо у них вже є досвід роботи з iD або іншими програмами для роботи з ГІС. Це також означатиме, що ви матимете справу з особами, які дійсно хочуть покращити свої навички ніж просто дізнатись, що є такий редактор, незалежно від того подобається він їм чи ні.
+-   Це була регулярна подія кожного першого вівторка місяця, тож учасники мали змогу запланувати відвідання заздалегідь.
+  Друга подія (Mid Month) та навчання контролерів на щомісячних зустрічах надає найдосвідченішим маперам шанс попрацювати над більш складними та цікавими речами, такими як перевірка вже замаплених проєктів, застосування експериментальних технік мапінгу та робота з Field Papers.
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## Розпочніть підготовку до вашого мапатону не менше ніж за місяць.  
 
-### First step ... Preparing the format of your Mapathon.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+### Перший крок … Визначення з форматом мапатону.  
+Розмір доступних місць та наявність потрібних зручностей в місці проведення будуть вирішальними факторами для вашого мапатону. Місцем проведення мапатону може бути місцева компанія, університет чи школа, центр мистецтв, бібліотека або мерія. Треба враховувати наступні чинники:  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+1.  Чи місце проведення розташовано в центральній частині міста, або так щоб до нього було легко дістатись? (наявність громадського транспорту або місця для стоянки)  
+2.  Чи є в місці проведення гарний wifi-зв’язок, який може витримати до 100 одночасних підключень?   
+3.  Чи може воно вмістити 100 маперів? Це буде впливати на кількість запрошених учасників.  
+4.  Чи є в достатній кількості столи та стільці?  
+5.  Чи достатньо розеток, щоб під'єднати ноутбуки учасників для тривалої роботи? (подумайте про подовжувачі)  
+6.  Чи є великий екран для демонстрації навчальних матеріалів та презентацій?  
+7.  Чи є поруч кімнати з великими екранами для навчання окремих груп?  
+8.  Чи є у вас в наявності достатня кількість досвідчених помічників для проведення великого мапатону?  
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
-Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
+### Другий крок … Планування мапатону
+Тепер, коли у вас є достатньо інформації про місце та доступні дати для проведення мапатону, ви можете розпочати його планування.  
 
-1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
-2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
-3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
-4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
-6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
-  *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
-  *    A deputy to help with the arrangements and stand in for you as a back up.   
-7.  Add your event to the Mapathon calendar.
-8.   Have someone available from the local media to take photos and report the event.
-9.  Arrange for someone to film the presentation and create a live link for any remote mappers.
+1.  Встановіть дату та час для мапатону відповідно до наявності вільного часу в місцях проведення (Будьте обережні, щоб він не перетинався з якоюсь іншою важливою подією, яка може вплинути на те, що ви не зможете залучити до своєї події волонтерів та маперів). Плануйте щонайменше 2.5-3  години на саму подію (пів години на виступи та навчання, ще пів години на перерви, та десь 2 години на сам мапінг).  
+2.  Забронюйте місце для проведення мапатону. Переконайтесь що воно вже є в  Openstreetmap.  
+3.  Поширте запрошення для маперів через місцеві та онлайн засоби інформації щоб мати добру відвідуваність. [Eventbrite](https://www.eventbrite.com/) – добре підходить для бронювання місця проведення подій.  
+4.  Чи збираєтесь ви пропонувати якісь закуски та напої під час події? (Схоже піца – це універсальний варіант, але зважте на ваші місцеві вподобання).  
+5.  Створіть проєкт в Менеджері завдань для вашої події. Візьміть до уваги, якщо це перший мапатон у вашому регіоні, тож більшу частку учасників становитимуть новачки. Запропонуйте один-два проєкти для початківців, та один-два проєкти для досвідчених маперів. За потреби зв’яжіться з [Missing Maps](http://missingmaps.org) для отримання допомоги зі створення проєкту в Менеджері завдань, а також для отримання настільних навчальних матеріалів та вказівників в коридори, щоб вказати напрямок до місця проведення події. [Менеджер завдань](http://tasks.hotosm.org) є гарним джерелом для пошуку корисних проєктів, до яких ви можете заохотити учасників вашого мапатону.  
+6.  Можливо вам знадобляться помічники під час проведення мапатону:  
+  *    Досвідчений мапер, який розповість про те як треба мапити.  
+  *    АйТі-спеціаліст, який допоможе розв’язати проблеми з під’єднанням до мережі на місці проведення мапатону.  
+  *    Запрошений гість, який розкаже про свій досвід роботи з Openstreetmap  
+  *    В ідеалі по досвідченому маперу за кожним столом, який допоможе проконтролювати що учасники знають що треба робити та відповідати на їх питання. Можна звернутись до [Missing Maps Project](http://missingmaps.org) за допомогою в пошуку або пошукати [досвідчених учасників у вашій місцевості](http://resultmaps.neis-one.org/oooc) самим
+  *    Заступник, який допоможе з організацією мапатону та зможе підстрахувати вас на всяк випадок.   
+7.  Додайте вашу подію в календар мапатону.
+8.   Запросіть представників місцевих  медіа щоб вони зробили фото та зробили репортаж про подію.
+9.  Домовтесь з будь-ким, щоб зняти вступну частину з доповідями та навчанням для поширення онлайн для віддалених учасників.
   
 ![people at work][]  ![more people at work][]
 
-### The week before the Mapathon
-1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
-2.  Compile a list of attendees for messaging and for identity tags for the event.  
-3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
-4.  Post notices on line, with links to the ticket allocation, reminding attendees to take up the last remaining spaces at your event.  
-5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
-6.  Check that you have current mapping projects for the event.  
-7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
-9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
-10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
-11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
-12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
-13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
-14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
+### За тиждень до мапатону
+1.  Відвідайте місце проведення та перевірте що всі домовленості в силі. (В наявності місце, помічники, обладнання).  
+2.  Складіть список відвідувачів для інформування та підготовки наліпок з іменами учасників.  
+3.  Розішліть учасникам нагадування, щоб вони не забули взяти з собою ноутбук, мишу, а також щоб вони зареєструвались в Openstreetmap, та мали при собі відомості про свій обліковий запис, та мали встановлений JOSM, якщо вони обрали роботу з цим редактором.  
+4.  Опублікуйте онлайн повідомлення із посиланнями на місце реєстрацію на подію (розповсюдження квитків), з нагадуванням для учасників про останні вільні місця, що залишилися на вашій події.  
+5.  Сплануйте розташування столів і стільців з врахуванням можливості під’єднання до електромережі та можливості бачити головний екран.  
+6.  Перевірте чи є у вас проєкт для мапінгу в Менеджері завдань для вашої події.  
+7.  Перевірте, чи є у вас кошти на закуски та будь-які інші витрати.
+8.  Підготуйте матеріали для мапатону та роздрукуйте їх, так щоб вони були готові до його початку.
+9.  Переконайтеся, що є відповідальна особа, що принесе додаткове обладнання (запасні миші, подовжувачі) та настільні посібники, у разі потреби.  
+10.  Сповістіть ваших помічників, що їм треба бути на місті як мінімум за пів години до початку, щоб допомогти розставити столи, стільці, підготувати подовжувачі й т.і.  
+11.  Перевірте, чи є wifi-з’єднання на місці проведення мапатону і що пароль доступний для всіх учасників.  
+12.  Створіть форму в яку ви будете записувати учасників мапатону, яким редактором вони користуються. Це дозволить вам отримати відомості скільки з учасників після минулого мапатону прийшли на наступну зустріч, чи мапили вони проміж зустрічей, та отримати статистику тих хто повернувся й так далі.
+13.  Зверніться до учасників які будуть дистанційно проводити валідацію щонайменше за два дні до події, щоб проінструктувати їх про проєкти, над якими учасники мапатону будуть працювати, та будь-які інші деталі, що будуть корисні для них, щоб допомогти у проведені мапатону.
+14.  Оберіть місцевий бар або інше місце для проведення спільного часу після мапатону і перевірте, чи воно є на Openstreetmap
 
-### At the Mapathon
-1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
-2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
-3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
-4. Check with the resident IT person that the internet connections are all working and the overhead large screens are connected to the relevant laptops.
-5. Have one helper at the door to welcome the mappers, give them their name tags and tell them where to sit.
-6. Have helpers moving from table to table helping mappers to log on when they arrive.
+### В день проведення мапатону
+1.  Прибудьте на місце проведення мапатону заздалегідь та переконайтесь що все готове для його проведення.  
+2.  Пройдіться ще раз по місцю проведення мапатону, щоб ознайомитись з місцевістю, знайти де знаходяться туалети, аварійні виходи тощо.  
+3.  Проведіть коротку нараду з помічниками, повідомте їх щодо плану приміщення та попросіть свого заступника керувати ними під час розставлення столів, стільців та обладнання, табличок із напрямками в коридорах.  
+4.  Перевірте з місцевим айті-персоналом з’єднання з інтернетом, що проєктор великого екрана під'єднано до відповідного лептопу.
+5.  Попросіть одного з помічників зустрічати учасників на вході, роздавати їм наліпки або беджики з їх іменами та допомагати знайти місце де їм сісти.
+6.  Попросіть помічників переходити від столу до столу, допомагаючи маперам під’єднатись до wifi, коли вони прибудуть.
 
 ![mentoring][]
 
-### Start the Event
+### Початок
 1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
 2. Introduce your experienced mapper and start the training process.
 3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
