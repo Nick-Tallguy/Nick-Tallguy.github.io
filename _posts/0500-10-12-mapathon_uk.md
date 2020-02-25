@@ -106,34 +106,34 @@ London Missing Maps Mapathons почали проводитись з 2014 рок
 ![mentoring][]
 
 ### Початок
-1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
-2. Introduce your experienced mapper and start the training process.
-3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
-4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
-5. Check that the refreshments are in place for the mid-session break.
-6. Decide on a local pub for the meet up afterwards and check that it is on Openstreetmap.
-7. Check that the local media or/and a helper is taking photos.
+1.  Почніть з привітання, вступної промови, оголосіть  програму події, інструкції з евакуації пожежі, місця знаходження туалетів тощо.  
+2.  Передайте слово досвідченому маперу, який розпочне навчальну частину вашої події.
+3.  Будьте напоготові, впродовж події, дати корисні поради, якщо помітите, що кілька учасників припускаються однакових помилок (наприклад, не спрямляють кути у будинків)
+4.  <https://osmlab.github.io/show-me-the-way/bbox.html> – корисний та цікавий спосіб показати на великому екрані прогрес мапінгу, показувати зміни які учасники додають на мапу в онлайн режимі.
+5.  Перевірте, чи є напої та закуски на час проведення перерви.
+6.  Оберіть місцевий бар або інше місце для проведення спільного часу після мапатону і перевірте, чи воно є на Openstreetmap.
+7.  Перевірте, чи фотографують подію місцеві медіа та/або ваші помічники.
 
 ![snacks][]
 
-### At the end of the Event
-1. Thank the hosts for the great venue, the new mappers for coming along and joining the mapping community, the experienced mappers for their help and for their time and contributions, show them the progress that was made on the projects they worked on, ask them to come back to the next Mapathon and invite them to the pub afterwards.
-2. Check that the register of mappers has been completed
-3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
-4. Gather all the signs, equipment and collect any rubbish.
-5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.
+### Наприкінці події
+1.  Подякуйте хазяям місця де ви організували вашу подію за можливість провести мапатон; новим учасникам за те що вони вирішили відвідати подію та приєднатись до спільноти; досвідченим маперам за їх допомогу, за те що знайшли час на це та за їх внесок в покращення даних. Покажіть учасникам який прогрес було досягнуто в ході роботи над проєктом. Запросіть їх взяти участь в наступному зібранні та також відвідати бар для подальшого спілкування та покращення зв’язків між учасниками.
+2.  Переконайтесь що реєстр учасників був заповнений
+3.  Зберіть назад речі, які ви надали учасникам (миші, комп’ютери й т.і.)
+4.  Складіть всі речі, обладнання та приберіть сміття.
+5.  Переконайтесь що ви розставили столи та стільці назад та місце проведення є таким же чистим та охайним, яким воно було до початку зустрічі, перед тим як вирушити в бар.
 
-### Not all work and no play
-If your Mapathon becomes a regular event it is possible that you will start to get a core of regular attendees who will become your experienced helpers and help to make this a social event as well.
+### Робота в радість
+Якщо ваш мапатон стане регулярною подією, можливо, у вас сформується ядро ​​постійних відвідувачів, які стануть вашими досвідченими помічниками та допоможуть зробити також цю подію соціальним заходом.
 
 ![theme][]
 
 
-## Other Resources
+## Інші ресурси
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
+<! -- outdated part!!! A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings. -->
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+Ви можете знайти корисні посилання на нашій сторінці [Додаткова інформація](/uk/resources).
 
 
 [venue]:               /images/coordination/mapathon-1.jpg
