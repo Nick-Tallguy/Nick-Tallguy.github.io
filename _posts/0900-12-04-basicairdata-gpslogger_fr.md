@@ -12,7 +12,7 @@ BasicAirData GPS Logger
 
 ![BasicAirData-GPSLogger-002][]
 
-BasicAirData GPS Logger is a simple app to record your position and your path. It is a basic and lightweight GPS tracker focused on accuracy, with an eye to power saving. This app is very accurate in determining your altitude if you enable EGM96 automatic altitude correction on settings. You can record all your trips, view them in your preferred external viewer (it must be installed) directly from the in-app tracklist, and share them in KML, GPX, and TXT format in many ways.
+BasicAirData GPS Logger est une application simple à utiliser pour enregistrer votre position et votre chemin. C'est un traceur GPS axé sur la précision avec un souci d'économie d'énergie. Cette application est très précise pour déterminer votre altitude si vous activez la correction automatique d'altitude EGM96 dans les paramètres. Vous pouvez enregistrer tous vos trajets, les visualiser dans votre visionneuse externe préférée (elle doit être installée) directement à partir de la liste et les partager aux formats KML, GPX et TXT de nombreuses façons. 
 
 L'application est disponible pour les appareils Android, gratuit et open-source.
 
