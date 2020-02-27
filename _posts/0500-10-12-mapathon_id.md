@@ -68,8 +68,8 @@ Now that you have enough information from your first steps to decide the numbers
 4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
 5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
 6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
+  *    Seorang mapper berpengalaman yang menjelaskan proses pemetaan ke mereka.  
+  *    Seorang pengurus IT yang bersiap di lokasi untuk menyelesaikan masalah konektivitas.  
   *    A guest speaker to talk about their experiences with Openstreetmap  
   *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
   *    A deputy to help with the arrangements and stand in for you as a back up.   

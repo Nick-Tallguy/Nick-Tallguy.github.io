@@ -9,9 +9,9 @@ category: beginner
 El Editor iD
 =============
 
-> Reviewed 2019-06-10
+> Revisado 2019-06-10
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+¿Comenzando a mapear con un administrador de tareas para HOT o MissingMaps, etc.? Vea nuestra [sección de consejos HOT](/es/hot-tips/).  
 
 - TOC
 {:toc}
@@ -55,21 +55,21 @@ Interfaz de usuario de iD
     Abrir el menú de ayuda, *atajo de teclado* **h** ![image13][]{: height="24px"}  
 4. **Panel de información:** Este panel muestra información diversa como, la barra de escala y qué usuarios han contribuido en esa área.  
 
-## Configuring the Background Layer
+## Configuración de la capa de fondo
 
-Haz click en el botón **Configuración del fondo** o utiliza el *atajo de teclado* **b**.![image14][]{: height="24px"}  
+Haga clic en el botón **Configuración del fondo** o utiliza el *atajo de teclado* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Puede **cambiar la capa de fondo** en función de su proveedor de tesela deseado (el predeterminado es Bing Aerial Imagery).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
-![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-Para **mostrar las pistas de GPS desde su computadora** (formato GPX), arrastre y suelte el archivo GPX en el editor iD.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+Puede agregar sus propias teselas de mapas haciendo clic en **Personalizado**. Por ejemplo, si desea **agregar un Field Paper** [^fieldpaper], haga clic en **Personalizado** y luego haga clic en el icono de lupa (búsqueda) para abrir la siguiente ventana:-  
+! [imagen17][]   
+e ingrese su **URL de instantánea de FieldPaper**, que será algo como esto: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Para **mostrar las trazas de GPS desde su computadora** (formato GPX), arrastre y suelte el archivo GPX en el editor iD.  
+Para habilitar **trazas GPS de OpenStreetMap** haga clic en el cuadro. En la imagen a continuación, los rastros públicos de GPS se muestran en varios colores, lo que indica la dirección de viaje.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Para cambiar la **apariencia de las imágenes** haga clic en **Opciones de visualización**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Si hay [desplazamiento de imágenes](/es/josm/aerial-imagery), puede **corregir el desplazamiento de imágenes** haciendo clic en **Ajustar desplazamiento de imágenes**.  
 ![image18][]  
 
 - Haga clic en los botones de navegación para mover las imágenes. Haga clic en el botón de reinicio para volver a la posición predeterminada. ![image20][]  
@@ -79,14 +79,14 @@ Edición básica con iD
 
 ### Añadiendo puntos  
 
-Para añadir un nuevo punto, haga clic en el botón **Punto**. ! [image3] [] {: height = "24px"}  
+Para agregar un nuevo punto, haga clic en el botón **Punto**. ![image3][] {: height = "24px"}  
 
 El cursor del mouse cambiará a signo más (+). Ahora, haga clic en una posición que conozca para marcar una ubicación. Por ejemplo, si sabe que hay un hospital en su área, haga clic en la posición del edificio del hospital.  
 ![image21][]  
 - Tenga en cuenta que se agrega un nuevo punto. Al mismo tiempo, el panel izquierdo cambiará para mostrar un formulario donde puede seleccionar atributos para el objeto. Haga clic en **Terreno de Hospital** para etiquetar el punto como un hospital.  
 ![image22][]  
 - Puede usar los formularios para completar información detallada sobre su punto. Puede completar el nombre, la dirección y/o otra información adicional del hospital. Tenga en cuenta que cada característica tendrá diferentes opciones, dependiendo de qué etiqueta elija en el panel de funciones.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Si comete un error, como una ubicación incorrecta, puede mover su punto a una nueva ubicación manteniendo presionado el botón izquierdo del mouse sobre su punto y arrastrándolo. O, si desea eliminar su punto, haga clic con el botón izquierdo del mouse en el punto, active el menú contextual haciendo clic con el botón derecho del mouse y luego haga clic en el botón que parece una papelera. ![PointToolDelete][]{: height="24px"}  
 Un "punto" creado en el editor iD es en realidad un "nodo" independiente, asociado a un conjunto de "etiquetas".  
 
 ### Dibujando líneas  
@@ -97,22 +97,22 @@ Para añadir una nueva línea, clic en el botón **Línea**. ![image4][]{: heigh
 ![image24][]  
 - Al igual que con un punto, seleccione las etiquetas apropiadas para su línea.  
 - Puede arrastrar puntos desde la línea haciendo clic con el botón izquierdo del mouse en un punto y arrastrándolo.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
-- Cuando haga clic con el botón izquierdo del ratón en una línea (pero no en un punto), verá estas herramientas:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+- Cuando hace clic con el botón izquierdo del mouse en un punto individual (nodo) en la línea y hace clic en el botón derecho del mouse o presiona la barra espaciadora para activar el menú contextual, verá estas herramientas:  
+  - Continúar la línea desde este punto ![PointToolContinue][]{: height="24px"}  
+  - Desconectar las líneas en este punto ![PointToolDisconnect][]{: height="24px"}  
+  - Dividir una línea en dos líneas en este punto. ![PointToolSplit][]{: height="24px"}  
+  - Eliminar punto de la línea. ![PointToolDelete][]{: height="24px"}  
+- Cuando haga clic con el botón izquierdo del ratón en una línea (pero no en un punto), vaya a estas herramientas:  
+  -   Crear un círculo a partir de una línea (solo activo si la línea es cerrada) ![LineToolCircularize][]{: height="24px"}  
+  -   Desconectar la línea de otros objetos ![LineToolDisconnect][]{: height="24px"}  
+  -   Mover línea ![LineToolMove][]{: height="24px"}  
+  -   Escuadrar todas las esquinas ![LineToolSquare][]{: height="24px"}  
+  -   Reflejar la línea a través de su eje corto ![LineToolReflectShort][]{: height="24px"}  
+  -   Reflejar la línea a través de su eje largo ![LineToolReflectLong][]{: height="24px"}  
+  -   Invertir dirección de línea (buena para ríos y calles de sentido único) ![LineToolReverse][]{: height="24px"}  
+  -   Girar la línea alrededor de su centro ![LineToolRotate][]{: height="24px"}  
+  -   Enderezar la línea ![LineToolStraighten][]{: height="24px"}  
+  -   Eliminar línea. ![LineToolDelete][]{: height="24px"}  
 
 Una "línea" creada en el editor iD es en realidad una "vía" con "etiquetas" asociadas.
 
@@ -120,37 +120,37 @@ Una "línea" creada en el editor iD es en realidad una "vía" con "etiquetas" as
 
 ### Dibujando formas (polígonos)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Para agregar una nueva forma de múltiples lados, haga clic en el botón **Área**. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- El cursor del mouse cambiará al signo más (+). Trata de rastrear un edificio usando las imágenes como guía.  
+- Notará que el color de su forma cambiará según los atributos que le asigne.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Las herramientas que están disponibles cuando selecciona una forma y activa el menú contextual con el botón derecho del mouse son similares a aquellas cuando hace clic en una línea.  
 
 Un "polígono" en el editor iD es en realidad una "vía cerrada" con etiquetas asociadas.
 
 ### Dibujando Multipolígonos
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+A veces hay que dibujar un polígono que no solo tiene un contorno externo sino también uno o más contornos internos. Solo piense en edificios con patios interiores o lagos con islas. *No dibuje todas estas formas en una sola línea* para que los contornos internos se suspendan del contorno externo. En lugar de dibujar estos contornos por separado, asigne etiquetas solo al contorno exterior, seleccione todos los contornos y presione **c** para combinarlos en lo que se llama multipolígono.
 
 ![crear multipolígono][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+Cuando selecciona cualquiera de los contornos del multipolígono recién creado, puede ver a la izquierda a qué multipolígonos pertenece
 
 ![parte de multipolígono][]
 
-## Issues
+## Problemas
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+El editor realiza una serie de comprobaciones tan pronto como edita algo. Si cree que lo que hizo podría causar problemas, se lo notifica en la pestaña de problemas. Siempre que el ícono de problemas a la derecha tenga un punto amarillo (para advertencias) o rojo (para errores), debe abrir la pestaña y ver qué informa. Esta información también se muestra en la pestaña de características del objeto a la izquierda si se selecciona el objeto relevante. También se le advierte que hay problemas sin resolver cuando carga sus datos. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+La parte inferior de la pestaña de problemas muestra las reglas disponibles y le permite deshabilitarlas individualmente, aunque esto no es recomendable.
 
 Guardando sus cambios
 --------------------
 
-Cuando (y si) desea guardar sus modificaciones en OpenStreetMap, clic en el botón **Guardar**. El panel de la izquierda mostrará el panel de carga.  
+Cuando (y si) desea guardar sus modificaciones en OpenStreetMap, haga clic en el botón **Guardar**. El panel de la izquierda mostrará el panel de carga.  
 ![image36][]  
 
 - Agregar un comentario acerca de sus modificaciones y haz clic en **Guardar**.  
@@ -160,20 +160,20 @@ Si ha editado la misma función (punto, forma o área) al mismo tiempo que otra 
 Información adicional y etiquetas personalizadas
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Cuando esté editando un objeto, verá un menú "Agregar campo" en la parte inferior del panel de atributos. Puede agregar diversa información adicional seleccionando una de las entradas (capa, elevación, wikipedia, etc.).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+O puede agregar etiquetas personalizadas haciendo clic en **Todas las etiquetas**. ![image44][]{: height="24px"}  
 
 - Esto mostrará todas las etiquetas relacionadas con este elemento.  
 ![image45][]  
-- Clic en el signo (+) para añadir claves o valores o simplemente en el ícono de la papelera para eliminar etiquetas.
+- Haga clic en el signo (+) para añadir claves o valores o simplemente en el ícono de la papelera para eliminar etiquetas.
 
 Otros tutoriales
 ------------------
 
-[Nuestra página de recursos externo](/en/resources/#iD) suministra enlaces a un número de video tutoriales desde varias fuentes.
+[Nuestra página de recursos externo](/es/resources/#iD) suministra enlaces a un número de video tutoriales desde varias fuentes.
 
 iD versus JOSM
 ---------------  
@@ -192,7 +192,7 @@ iD versus JOSM
 - Cuando está en una conexión a Internet no confiable o sin conexión
 - Cuando está utilizando un esquema de etiquetado específico (o ajustes predeterminados personalizados)
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: hay una [sección de LearnOSM](/es/mobile-mapping/field-papers/) que brinda más información sobre Field Papers.
 
 
 
