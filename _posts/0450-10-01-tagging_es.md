@@ -9,7 +9,7 @@ category: hot-tips
 Etiquetado - editor iD
 ============
 
-> Updated 2019-06-28
+> Actualizado 2019-06-28
 
 - TOC
 {:toc}
@@ -20,47 +20,47 @@ Etiquetado - editor iD
 Por qué se necesitan Etiquetas
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+Sin una etiqueta, un elemento no tiene significado y los mapas no lo mostrarán. La etiqueta explica a la computadora cuál es la característica en realidad. Si encuentra algo donde la etiqueta se ha "perdido", agregue la etiqueta. Si un elemento está etiquetado, tendrá un color, como el tono rojo del edificio etiquetado en la imagen de arriba. **Si es blanco, investigue y agregue la etiqueta si se ha perdido.**  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+El autor del proyecto en el Tasking Manager no sabe qué editor utilizará el mapeador, por lo que las instrucciones a menudo pueden tener un comentario similar a este;  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+-  * Los edificios son generalmente cabañas redondas y deben etiquetarse como **Elementos de edificio / Edificio** en iD y **building=yes** en JOSM.*  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+Si necesita verificar qué etiqueta está realmente en un elemento, haga clic en él, luego desplácese hasta la parte inferior del panel de etiquetado y mire debajo en **Todas las etiquetas**
 
-### Tags - a brief explanation ###
+### Etiquetas: una breve explicación ###
 
-If you select an item and click on **All tags** you will see a label such as  
+Si selecciona un elemento y hace clic en **Todas las etiquetas**, verá una etiqueta como  
 
 **building    yes**  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+Esta es la etiqueta de construcción más básica y es la etiqueta recomendada al rastrear edificios desde una tarea en el Tasking Manager.  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
+Si sabe exactamente qué es el edificio, entonces usaría una etiqueta más detallada como;  
   **building   house**  
   **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+o una de muchas otras etiquetas. Para obtener información más detallada sobre cómo etiquetar edificios, consulte <https://wiki.openstreetmap.org/wiki/Buildings>  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+Consulte la [Sección de carreteras de esta sección de HOT-tips](/es/hot-tips/highways/ para obtener más información sobre el etiquetado de carreteras.  
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### Relaciones, tales como edificios con un patio o islas en un río ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+Algunos elementos tienen sus etiquetas en una **Relación** y no en el elemento en sí. Si ve en su pantalla la mención de una relación, como principiante completo, el mejor consejo es 'dejarlo solo'.  
 
-For more information on relations (**not a beginner subject**) see;  
+Para obtener más información sobre las relaciones (**no es un tema para principiantes**) vea;  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
+[LearnOSM - JOSM - Relations](/es/josm/josm-relations/) que explica las relaciones pero usa un editor OSM diferente, o  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
-See also  
+Ver también  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+Para obtener una lista más completa de etiquetas, consulte <https://wiki.openstreetmap.org/wiki/Map_Features>  
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Equipo Humanitario OpenStreetMap - Videos tutoriales de un minuto")  
+*Subtítulos disponibles en algunos idiomas*  
 
 
 

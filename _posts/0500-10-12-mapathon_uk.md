@@ -131,7 +131,7 @@ London Missing Maps Mapathons почали проводитись з 2014 рок
 
 ## Інші ресурси
 
-<! -- outdated part!!! A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings. -->
+<!-- outdated part!!! A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings. -->
 
 Ви можете знайти корисні посилання на нашій сторінці [Додаткова інформація](/uk/resources).
 

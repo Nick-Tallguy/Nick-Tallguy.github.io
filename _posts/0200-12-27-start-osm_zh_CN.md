@@ -11,14 +11,14 @@ category: beginner
 
 > 2015年7月12日修订  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+在本节中，我们将逐步学习如何浏览OpenStreetMap网站，查看地图以及注册用户帐户。当您拥有自己的用户名和密码后，您将可以为地图贡献您的第一个地点。
 
 ![website][]
 
 访问OpenStreetMap网站
 -------------------------------
 
--   Open your web browser.
+- 打开你的浏览器。
 - 在窗口顶端的地址栏中输入下列内容并按回车：
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   When the page has finished loading, you should see something like this:

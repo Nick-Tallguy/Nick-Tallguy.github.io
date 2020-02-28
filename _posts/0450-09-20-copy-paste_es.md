@@ -9,13 +9,13 @@ category: hot-tips
 Copiado, Pegado & Rotación - editor iD
 =============
 
-> Updated 2019-06-24
+> Actualizado 2019-06-24
 
 ![copy-paste][]
 
 
 Fácilmente puede copiar, pegar y rotar, pero asegúrese de que el tamaño es el correcto.   
-Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
+Seleccione con el mouse, luego **Ctrl+c** para copiar y **Ctrl+v** para pegar. Si lo necesita, puede 'reflejar' un objeto a lo largo de su eje largo o corto.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
