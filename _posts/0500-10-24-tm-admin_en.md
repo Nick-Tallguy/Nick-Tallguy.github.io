@@ -189,7 +189,7 @@ See the below notes on creating good instructions.
 
 **Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
 
-**OSMCha filter ID** - 
+**OSMCha filter ID** - OSMCha is offered as a link from the contributions overview. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach  to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here.
 
 ### Priority Areas
 
