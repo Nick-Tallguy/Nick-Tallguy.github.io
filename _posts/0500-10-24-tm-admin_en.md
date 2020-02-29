@@ -209,15 +209,15 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 ![TM Permissions][]
 
-**Mapping permissions** - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
+**Mapping permissions** - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a mapper to be part of a team. Teams can be selected below
 
-**Validation permissions** - This allows you to require that people performing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
+**Validation permissions** - Allows you to require that a mapper is at the proper level to validate on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a validator to be part of a team. Teams can be selected below
 
-**Organization** - 
+**Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
 
-**Teams** - 
+**Teams** - Select teams for mapping and validation. If you do so then you can restrict mapping and/or validation to team members using the controls above. You may select several teams for each role. Select a team, select a role and press 'Add'. Once you added a team you may edit its role or delete the assignment.
 
-**Privacy** - This restricts access to the project to a list of users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
+**Privacy** - This restricts access to the project to those users who are part of the team to which the project belongs.
 
 ### Settings
 
