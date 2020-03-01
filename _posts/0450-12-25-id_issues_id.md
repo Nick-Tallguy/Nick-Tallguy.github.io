@@ -39,7 +39,7 @@ iD will warn you if you may be making a mistake in your mapping, for instance ac
 
 ![warn when mapping][]
 
-See also  
+Lihat juga  
 ---------
 
 The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more information.  
