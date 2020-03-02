@@ -22,7 +22,7 @@ Die Grundlagen
 
 Folgendermaßen ist vorzugehen:  
 
-- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
+- Setzen Sie überall dort Knotenpunkte, wo die Gebäudemauer den Boden berührt - mindestens 3 Punkte. Benutzen Sie das Werkzeug, um es rund zu machen. Shortcut: "o"  
 - Vergessen Sie nicht, Eigenschaften hinzuzufügen!  
 - Die Größe ist wichtig - *Die Bevölkerungsschätzung basiert auf der addierten Grundfläche der Gebäude in dem jeweiligen Gebiet*,  
 - Zoomen Sie weit genug rein, um alle Details zu sehen - ein Zoom Maßstab von 20 Metern oder weniger ist normalerweise gut.  
