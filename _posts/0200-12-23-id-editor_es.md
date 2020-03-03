@@ -62,7 +62,7 @@ Haga clic en el botón **Configuración del fondo** o utiliza el *atajo de tecla
 Puede **cambiar la capa de fondo** en función de su proveedor de tesela deseado (el predeterminado es Bing Aerial Imagery).  
 
 Puede agregar sus propias teselas de mapas haciendo clic en **Personalizado**. Por ejemplo, si desea **agregar un Field Paper** [^fieldpaper], haga clic en **Personalizado** y luego haga clic en el icono de lupa (búsqueda) para abrir la siguiente ventana:-  
-! [imagen17][]   
+![image17][]   
 e ingrese su **URL de instantánea de FieldPaper**, que será algo como esto: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 Para **mostrar las trazas de GPS desde su computadora** (formato GPX), arrastre y suelte el archivo GPX en el editor iD.  
 Para habilitar **trazas GPS de OpenStreetMap** haga clic en el cuadro. En la imagen a continuación, los rastros públicos de GPS se muestran en varios colores, lo que indica la dirección de viaje.  
@@ -79,7 +79,7 @@ Edición básica con iD
 
 ### Añadiendo puntos  
 
-Para agregar un nuevo punto, haga clic en el botón **Punto**. ![image3][] {: height = "24px"}  
+Para agregar un nuevo punto, haga clic en el botón **Punto**. ![image3][]{: height = "24px"}  
 
 El cursor del mouse cambiará a signo más (+). Ahora, haga clic en una posición que conozca para marcar una ubicación. Por ejemplo, si sabe que hay un hospital en su área, haga clic en la posición del edificio del hospital.  
 ![image21][]  
@@ -133,11 +133,11 @@ Un "polígono" en el editor iD es en realidad una "vía cerrada" con etiquetas a
 
 A veces hay que dibujar un polígono que no solo tiene un contorno externo sino también uno o más contornos internos. Solo piense en edificios con patios interiores o lagos con islas. *No dibuje todas estas formas en una sola línea* para que los contornos internos se suspendan del contorno externo. En lugar de dibujar estos contornos por separado, asigne etiquetas solo al contorno exterior, seleccione todos los contornos y presione **c** para combinarlos en lo que se llama multipolígono.
 
-![crear multipolígono][]
+![create multipolygon][]
 
 Cuando selecciona cualquiera de los contornos del multipolígono recién creado, puede ver a la izquierda a qué multipolígonos pertenece
 
-![parte de multipolígono][]
+![part of multipolygon][]
 
 ## Problemas
 
@@ -243,6 +243,6 @@ iD versus JOSM
 [AdditionalTags]: /images/beginner/id-editor_additional-tags.png
 [image44]: /images/beginner/id-editor_image44.png
 [image45]: /images/beginner/id-editor_image45.png
-[crear multipolígono]: /images/beginner/id-editor_create_multipolygon.png
-[parte del multipolígono]: /images/beginner/id-editor_part_of_multipolygon.png
+[create multipolygon]: /images/beginner/id-editor_create_multipolygon.png
+[part of multipolygon]: /images/beginner/id-editor_part_of_multipolygon.png
 [osm gps traces]: /images/beginner/id-editor_gps_public.png

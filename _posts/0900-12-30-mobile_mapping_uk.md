@@ -2,30 +2,30 @@
 layout: doc
 permalink: /uk/mobile-mapping/
 lang: uk
-title: Mapping with a SmartPhone, GPS or Paper
+title: Мапінг на смартфоні, GPS та Field Papers
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapping with a Smartphone, GPS or Paper
+Мапінг з використанням смартфону, GPS або Field Papers
 =============================
 
-> Reviewed 2015-07-14  
+> Редакція 2015-07-14  
 
-To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+Для створення дійсно деталізованої та точної мапи, вам потрібно провести дослідження території. Настанови у цьому розділі допоможуть вам провести дослідження з допомогою:  
 
-- GPS  which will probably be more accurate than your mobile phone,  
-- Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
-- Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+-  GPS-пристрою, що ймовірно є точнішим за вбудовану можливість роботи з GPS-сигналом у вашому смартфоні,   
+-   Field Papers, способу створення друкованої мапи для додавання на неї нотаток з подальшим її завантаженням на сервер і використання її у вигляді фону для додавання/оновлення даних,  
+-  Вашого смартфону. Є багато застосунків для навігації з використанням даних OSM, а також застосунків, які допоможуть вам провести дослідження. Тут перераховано лише декілька, але цей список щодня зростає, і деякі організації, що надають допомогу, розробляють власні – для збору конкретних даних.  
 
-More and more smartphones today include a radio chip that allows them to receive signals from satellite navigation systems and determine their location. The most common chips receive signals from the U.S. GPS frequencies, while higher end models may include chips that can read frequencies from the Russian GLONASS satellites at the same time.  
+Все більше смартфонів в наші дні отримують вбудовану можливість отримувати сигнали від супутників навігаційних систем, що допомагає їх визначати ваше місцеположення. Найпоширенішими є чіпи, що працюють з сигналами системи GPS (робота системи підтримується США), більш сучасні можуть отримувати сигнали більш ніж з однієї системи навігації одночасно (GLONASS, BeiDou).  
 
-The quality of the chips used in smartphones may vary, and data accuracy and performance could vary as well.  
+Якість чипів, які використовуються в смартфонах, може відрізнятися, так само як точність даних та їх продуктивність.  
 
-Devices with GPS chips can work autonomously, off the grid, and without an Internet connection, while devices marked with “A-GPS only” (Assisted GPS) require a network data connection (and a mobile signal from a telecommunications company) to work correctly. A-GPS data can help autonomous GPS chips perform better by pre-caching data for better performance.  
+Пристрої, обладнані чіпом GPS, можуть працювати автономно, без підключення до мережі та інтернет з’єднання, в той час як пристрої “A-GPS only” (Assisted GPS) вимагають підключення до мобільної мережі для коректної роботи. Чіпи A-GPS можуть допомагати автономним GPS чіпам працювати краще, шляхом попереднього кешування даних.  
 
-For most mapping applications to work as expected, the user is assumed to have a smartphone with an autonomous GPS chip. Check your device specifications to confirm whether your device uses an autonomous chip, or is A-GPS only device.  
+Для більшості застосунків, що використовуються для мапінгу, для їх коректної роботи передбачається, що смартфон обладнано автономним GSP чіпом. Перевірте технічні характеристики свого пристрою, щоб перевірити, чи ваш пристрій використовує автономний чіп, чи у вас “A-GPS only” пристрій.  
 
 There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
 

@@ -19,7 +19,7 @@ Esta guía está escrita para el  [Tasking Manager de HOT] (http://tasks.hotosm.
 Lo Esencial
 --------------
 
-! [TM Start] []
+![TM Start][]
 
 
 1. Vaya a un sitio de Tasking Manager (TM), por ejemplo <http://tasks.hotosm.org/>. Utilizando su inicio de sesión <http://www.openstreetmap.org>, autorice al Tasking Manager a acceder a su cuenta de OpenStreetMap.  
