@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Tracing rectangular buildings - iD editor
+title: Trazado de edificios rectangulares - editor iD
 permalink: /es/hot-tips/tracing-rectangular-buildings/
 lang: es
 category: hot-tips
 ---
 
-Tracing rectangular buildings - iD editor
+Trazado de edificios rectangulares - editor iD
 ============
 
-> Updated 2019-06-23
+> Actualizado 2019-06-23
 
 - TOC
 {:toc}
@@ -19,63 +19,63 @@ Lo Esencial
 
 ![Rectangular building][]  
 
-> This image ![keymon]{: height="24px"} shows you which buttons or wheel on a mouse has been used, and which keyboard buttons pressed.  
+> Esta imagen ![keymon]{: height="24px"} muestra qué botones o rueda de un mouse se han utilizado y qué botones del teclado fueron presionados.  
 
-Points to note;  
+Puntos a tener en cuenta;  
 
-- To finish tracing an area, double click on the last point,  
-- If the building should have square corners, make sure you trace it with square corners, or use the tool to square the corners (in English, shortcut **q**).  
-- Make sure you tag!  
-- Size matters - *population estimates are based on the cumulative building area in a given area*,  
-- the right size building the right way round will help people locate their village,  
-- Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
-- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- Para terminar de trazar un área, haga doble clic en el último punto,  
+- Si el edificio debe tener esquinas cuadradas, asegúrese de trazarlo con esquinas cuadradas, o use la herramienta para escuadrar las esquinas (en inglés, atajo **q**).  
+- ¡Asegúrese de etiquetar!  
+- El tamaño importa - *las estimaciones de población se basan en el área de construcción acumulativa en un área determinada*,  
+- el tamaño correcto de la construcción correcta ayudará a las personas a ubicar su aldea,  
+- Amplíe lo suficiente para ver los detalles: una escala de zoom de 20 metros o menos suele ser la correcta.  
+- **Buscando edificios** - escanee con su escala en algún lugar entre 50 metros y 80 metros. Tenga cuidado con las sombras y las líneas rectas (¡los edificios redondos son más difíciles de encontrar!)  
+- Los edificios y carreteras, ríos, **landuse=residential** u otras características no deben superponerse.  
+- Si comete un error, use el botón **Deshacer** ![back arrow]{: height="26px"} para deshacer sus últimos cambios.  
+- Todos estamos mejorando el mapa. Si el mapeador anterior ha dejado a los edificios con una forma divertida o incorrecta de alguna manera, corríjalo y considere enviarles un mensaje cortés.  
 
-Buildings obscured or seen at an angle  
+Edificios oscurecidos o vistos en ángulo  
 --------------------------------------
 
 ![building-obscured][]  
 
-It is common for the satellite image to be taken at an angle making the building seem distorted. In the above image the image to the right shows how the building should be traced. It is often easiest to trace the outline of the roof, then drag this to the point where the walls meet the ground - this was the technique used to trace the building above. Notice also that a building partially obscured by trees has been correctly traced as rectangular. 
+Es común que la imagen de satélite se tome en un ángulo que hace que el edificio parezca distorsionado. En la imagen de arriba, la imagen de la derecha muestra cómo se debe rastrear el edificio. A menudo es más fácil trazar el contorno del techo, luego arrastrarlo hasta el punto donde las paredes se encuentran con el suelo: esta fue la técnica utilizada para trazar el edificio de arriba. Observe también que un edificio parcialmente oscurecido por árboles se ha trazado correctamente como rectangular. 
 
-Buildings with a ridged roof
+Edificios con techo surcado
 ----------------------------
  
-Most buildings either have corners at 90 degrees, or they are round buildings.  
+La mayoría de los edificios tienen esquinas a 90 grados o son edificios redondos.  
 
 ![building-ridge][]  
-This building has 90 degree corners, but has a ridge on its roof. The camera angle initially makes the building look a strange shape.  
+Este edificio tiene esquinas de 90 grados, pero tiene una cresta en el techo. El ángulo de la cámara inicialmente hace que el edificio tenga una forma extraña.  
 
 ![building-tree-ridge][]  
-This building has a tree partially obscuring it. It is a rectangular building.  
+Este edificio tiene un árbol que lo oculta parcialmente. Es un edificio rectangular.  
 
-In isolated parts of the world it is common to use sheets of corrugated iron as roofing - when new these will reflect the sunlight which creates a **very bright flare effect** on the satellite imagery. It is common for buildings to have a verandah or be **L shaped** and you should ensure that your tracing follows the shape of the building.  
-When tracing the building outline, you must try to trace the building at the right size, and at the point where its walls meet the ground - do your best! In many parts of the world, buildings are partially constructed and then left without roofs until they are sold, or otherwise wanted for use. Map a building without a roof as a normal building as it does not take long to add a roof, and the roof may have been added already, in the time since the satellite imagery was taken.  
+En partes aisladas del mundo, es común usar láminas de hierro corrugado como techo; cuando son nuevas, reflejarán la luz solar, lo que crea un **efecto de destello muy brillante** en las imágenes satelitales. Es común que los edificios tengan una veranda o sean **en forma de L** y debe asegurarse de que su trazado siga la forma del edificio.  
+Al trazar el contorno del edificio, debe intentar trazar el edificio en el tamaño correcto y en el punto donde sus paredes se encuentran con el suelo: ¡haga lo mejor que pueda! En muchas partes del mundo, los edificios se construyen parcialmente y luego se dejan sin techos hasta que se venden o, de lo contrario, se quieren usar. Mapear un edificio sin techo como un edificio normal, ya que no lleva mucho tiempo agregar un techo, y el techo puede haber sido agregado ya, en el tiempo transcurrido desde que se tomaron las imágenes satelitales.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+Haga su mejor esfuerzo: incluso los expertos estarán en desacuerdo a veces, y a veces solo queda ir allí para ver exactamente qué hay realmente. **En caso de duda, agréguelo como un edificio.**  
 
-Building Tags
+Etiquetas de edificio
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.  
+Como estamos etiquetando edificios que nunca hemos visitado y con los que no estamos familiarizados, el esquema de etiquetado más seguro y recomendado es *building**=**yes** que puede ver en un edificio etiquetado correctamente si se desplaza hacia la parte inferior de panel de etiquetado y haga clic en **Todas las etiquetas**.  
 
 Vea también  
 ---------
 
-- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
-*Subtitles available in some languages*  
+- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Videos Tutoriales del Equipo Humanitario OpenStreetMap - Agregando un Edificio a OpenStreetMap")  
+*Subtítulos disponibles en algunos idiomas*  
 
-- [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+- [Entrada del diario de Ivan Gayton para Hadjer Lamis, Chad - los comentarios de otros indican que la descripción también se ajusta a otras partes del mundo](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 
 
-[Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracing a rectangular building, squaring the corners, and adding tags."
-[keymon]:/images/hot-tips/keymon.png
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "Trazar un edificio rectangular, escuadrar las esquinas y agregar etiquetas".
+keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
-[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Before & after - tracing a building seen at an angle"
-[building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"
+[building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Antes y después - trazado de un edificio visto en ángulo"
+[building-video]: /images/hot-tips/building-video.png "Videos Tutoriales del Equipo Humanitario OpenStreetMap - Agregando un Edificio a OpenStreetMap"
