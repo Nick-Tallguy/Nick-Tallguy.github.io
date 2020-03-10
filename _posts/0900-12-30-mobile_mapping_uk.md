@@ -27,18 +27,18 @@ nosearch: true
 
 Для більшості застосунків, що використовуються для мапінгу, для їх коректної роботи передбачається, що смартфон обладнано автономним GSP чіпом. Перевірте технічні характеристики свого пристрою, щоб перевірити, чи ваш пристрій використовує автономний чіп, чи у вас “A-GPS only” пристрій.  
 
-There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
+Наразі існує велика кількість застосунків для мапінгу (як безкоштовних так і платних) для більшості смартфонів на ринку. Кожен застосунок має власні переваги та недоліки.  
 
-In choosing a mapping application for mapping in OpenStreetMap, you need to consider the following features.  
+Під час вибору застосунку для мапінгу в OpenStreetMap вам треба звертати увагу на наступне:  
 
-- Easy to learn; immediately usable  
-- With GPX support (create waypoints, customizable log intervals)  
-- Allows OSM contribution (add, edit, upload data)  
-- Able to load OSM data offline  
-- Able to geo-tag multimedia files (notes, photos, videos)  
-- In active development  
+-  Просте у вивченні; можливо використовувати одразу  
+-  Має підтримку GPX (створення маршрутних точок, налаштування проміжків часу запису координат)  
+-  Дозволяє робити внесок в OSM (додавати, змінювати, завантажувати дані)  
+-  Можливість завантаження даних OSM для роботи в офф-лайн  
+-  Можливість геотеґування медіа-файлів (примітки, фото, відео)  
+-  Активно вдосконалюється  
 
-Try several applications that are compatible with your phone to get familiar with the interface and choose the best app based on your personal preference and mapping approach.
+Спробуйте кілька застосунків, сумісних з вашим телефоном, щоб ознайомитись з інтерфейсом та виберіть найкращий, виходячи з ваших особистих уподобань та потреб у мапінгу.
 
 <!-- Commenting for now since tables doesn't look very nice!
 
@@ -60,7 +60,7 @@ O - supported, D - under development, m - mapping, n - navigation, p - POI edito
 
  -->
 
-The next sections will guide you through the installation and use of specific applications for you to contribute to OpenStreetMap using your smartphone.
+Наступні розділи ознайомлять вас з встановленням та використанням конкретних застосунків, які допоможуть вам покращувати дані OpenStreetMap з використанням вашого телефона.
 
-> **Note:** Before proceeding any further, verify that GPS is available and active for the device. In Android, go to **Settings \> Location** and enable it.  
-> Remember, GPS doesn’t work inside buildings!
+>  **Примітка:** Перед тим як рухатись далі, перевірте що у вашого пристроя є вбудований приймач GPS і він працює. В андроїд-смартфонах перейдіть в **Налаштування \> Місцеположення** та увімкніть його.  
+>  Але вам треба пам’ятати, що GPS не працює в середині будівель!
