@@ -9,7 +9,7 @@ category: hot-tips
 Copier, Coller & Rotation - Editeur iD
 ============
 
-> Updated 2019-06-24
+> Mise à jour le 2019-06-24
 
 ![copy-paste][]
 
