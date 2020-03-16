@@ -73,7 +73,7 @@ Vea también
 
 
 [Rectangular building]: /images/hot-tips/rectangular_building.gif "Trazar un edificio rectangular, escuadrar las esquinas y agregar etiquetas".
-keymon]:/images/hot-tips/keymon.png
+[keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
