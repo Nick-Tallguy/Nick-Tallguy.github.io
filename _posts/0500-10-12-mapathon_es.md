@@ -2,7 +2,7 @@
 layout: doc
 title: Administrar un Mapatón
 permalink: /es/coordination/mapathon/
-idioma: en
+lang: es
 category: coordination
 ---
 
