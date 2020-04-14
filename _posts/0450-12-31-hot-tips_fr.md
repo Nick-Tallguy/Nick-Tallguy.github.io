@@ -2,41 +2,41 @@
 layout: doc
 permalink: /fr/hot-tips/
 lang: fr
-title: HOT Tips - Getting started for new mappers - iD editor
+title: Astuces HOT - Guide du débutant pour les nouveaux mappers - éditeur iD
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-HOT Tips - Getting started for new mappers using iD and a Tasking Manager
+Astuces HOT - Guide du débutant pour les nouveaux contributeurs  utilisant l'éditeur iD et un gestionnaire de tâches
 ================
 
-This series of short guides is aimed at volunteers helping to map for Aid Agencies using a Tasking Manager, but the principles are the same for all OpenStreetMap mapping. Mapping is easy,  but let's get it right and keep improving the map!
+Cette série de guides courts s'adresse aux bénévoles qui aident à cartographier pour les organisation humanitaire à l'aide d'un gestionnaire de tâches, mais les principes sont les mêmes pour toutes les contributions OpenStreetMap. La cartographie est facile, mais faisons la bien et continuons à améliorer la carte !
 
-Use the menu to choose the order that suits you.  
+Utilisez le menu pour choisir l'ordre qui vous convient.  
 
-See also  
+Voir aussi  
 ---------
 
-[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+[![one-minute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap (HOT) (en Anglais)")  
+*Sous-titres disponibles dans certaines langues*  
 
 ![iD help]{: height="400px"}  
-iD help menu - always available when you are editing which includes an optional walkthrough.    
+Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procédure pas à pas facultative.    
   
-[iD shortcut list on wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
+[Liste des raccourcis iD sur le wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
-[OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Main_Page)  
+[wiki OpenStreetMap] (https://wiki.openstreetmap.org/wiki/Main_Page)  
 
-[Blake Girardot's guide to West Africa Mapping](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[Guide de Blake Girardot sur la cartographie de l'Afrique de l'Ouest] (https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-If you are new to OpenStreetMap the following modules of our beginner section will be useful to you;  
+Si vous êtes nouveau sur OpenStreetMap, les modules suivants de notre section débutant vous seront utiles ;  
 
--  [Introduction to mapping](/en/beginner/introduction/)  
--  [OpenStreetMap.org](/en/beginner/start-osm/)
+- [Introduction à la cartographie] (/fr/beginner/introduction/)  
+- [OpenStreetmap.org] (/fr/beginner/start-osm/)
 
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[iD help] :/images/hot-tips/id-help.png « Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procédure pas à pas facultative. »
+[one-minute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap (HOT) (en Anglais)"
