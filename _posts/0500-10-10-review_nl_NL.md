@@ -9,7 +9,6 @@ category: coordination
 Gegevens van OSM nakijken
 ==================
 
-> Bijgewerkt op 24-04-2017  
 
 - Inhoud
 {:toc}

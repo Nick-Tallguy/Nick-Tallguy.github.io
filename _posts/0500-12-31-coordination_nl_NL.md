@@ -12,7 +12,6 @@ nosearch: true
 Coordinatie
 ============
 
-> Bijgewerkt 18-09-2015
 
 Omdat er zoveel mensen aan OpenStreetMap bijdragen, is het handig om te weten hoe mappers deze activiteiten kunnen coördineren.
 

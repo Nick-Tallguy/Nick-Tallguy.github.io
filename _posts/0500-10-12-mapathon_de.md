@@ -8,7 +8,6 @@ category: coordination
 
 # Einen Mapathon organisieren
 
-> Erstellt am 2017-01-30  
 
 - TOC
 {:toc}

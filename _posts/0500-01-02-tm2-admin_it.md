@@ -34,7 +34,6 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 
 ![TM Draw or Import][]
 
-> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager.
 
 #### Draw an area of interest to be mapped
 

@@ -12,7 +12,6 @@ nosearch: true
 Phối hợp hoạt động
 ============
 
-> Reviewed 2015-09-18
 
 Bởi vì OpenStreetMap liên quan đến nhiều người lập bản đồ với nhau. Vì vậy, sẽ rất hữu ích khi biết cách những người lập bản đồ có thể phối hợp trong hoạt động này.
 

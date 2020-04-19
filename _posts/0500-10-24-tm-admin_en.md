@@ -44,7 +44,6 @@ Anything else is handled by organizations and teams. An **organization** is the 
 
 Managers of an organization can define several **teams**. Teams are groups of users and can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'by invite' which means that the team managers are notified about requests to join and must decide upon them. Project managers can restrict mapping and/or validation of individual projects to members of a team.
 
-> You must be manager of an organization to create new projects using TM4.
 
 ## Initiate a new Project within TM4 
 

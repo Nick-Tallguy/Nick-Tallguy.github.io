@@ -9,7 +9,6 @@ category: coordination
 Reviewing OSM Data
 ==================
 
-> 審閲於 2017-04-24  
 
 - TOC
 {:toc}
