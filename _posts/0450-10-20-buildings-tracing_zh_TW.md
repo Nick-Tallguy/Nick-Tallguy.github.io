@@ -57,18 +57,18 @@ When tracing the building outline, you must try to trace the building at the rig
 
 Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
 
-Building Tags
+建築標籤
 -------------
 
 As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if you scroll to the bottom of the tagging pane and click on **All tags**.  
 
-See also  
+請見  
 ---------
 
 [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "人道主義OpenStreetMap團隊教學影片 - 新增建築物到OpenStreetMap")  
-*Subtitles available in some languages*  
+*字幕可能有其他語言版本*  
 
-- [Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+- [Ivan Gayton 的日記記述有關查德哈傑爾-拉密區的事情 - 其他人的回應也能顯示適合其他地方](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 
 
