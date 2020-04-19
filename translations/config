@@ -123,7 +123,7 @@ source_lang = en
 type = TXT
 
 [learnosm-1.0500-10-25-tasking-managermd]
-file_filter = translations/0500-01-01-tm2_user_<lang>.md
+file_filter = translations/0500-01-01-tm2-user_<lang>.md
 source_lang = en
 type = TXT
 
