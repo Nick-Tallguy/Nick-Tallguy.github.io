@@ -102,10 +102,10 @@ file_filter = translations/0500-10-15-remote-tracing_<lang>.md
 source_lang = en
 type = TXT
 
-[learnosm-1.0500-10-20-remotemd]
-file_filter = translations/0500-10-20-remote_<lang>.md
-source_lang = en
-type = TXT
+# [learnosm-1.0500-10-20-remotemd]
+# file_filter = translations/0500-10-20-remote_<lang>.md
+# source_lang = en
+# type = TXT
 
 [learnosm-1.0500-10-22-tasking-manager3-adminmd]
 file_filter = translations/0500-01-04-tm3-admin_<lang>.md
@@ -117,10 +117,10 @@ file_filter = translations/0500-01-03-tm3-user_<lang>.md
 source_lang = en
 type = TXT
 
-[learnosm-1.0500-10-24-tasking-manager-adminmd]
-file_filter = translations/0500-01-02-tm2-admin_<lang>.md
-source_lang = en
-type = TXT
+# [learnosm-1.0500-10-24-tasking-manager-adminmd]
+# file_filter = translations/0500-01-02-tm2-admin_<lang>.md
+# source_lang = en
+# type = TXT
 
 # [learnosm-1.0500-10-25-tasking-managermd]
 # file_filter = translations/0500-01-01-tm2-user_<lang>.md
