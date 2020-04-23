@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tasking Manager Project Creation
+title: Tasking Manager Administration Guide
 permalink: /en/coordination/tm-admin/
 lang: en
 category: coordination
 ---
 
-# Tasking Manager Project Creation and Administration
+# Tasking Manager Administation Guide
 
 
 **If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
@@ -26,26 +26,24 @@ Section Index
     -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
     -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
-The Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the  Tasking Manager for successful mapping events. 
+The Tasking Manager the essential tool to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the  Tasking Manager for successful mapping events. 
 
  This guide is specifically written for those persons who need instructions on administration of the Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the Tasking Manager version 4 including the [HOT Tasking Manager](http://tasks.hotosm.org).
 
-The Tasking Manager version 4 is frequently referred to as **TM4,** as a shorthand for Tasking Manager, version 4.
-
 ## Logging in & Access Levels
 
-The first thing to understand is access level. All access to TM4 is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM4 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+The first thing to understand is access level. All access to Tasking Manager is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access Tasking Manager you will need an OpenStreetMap (OSM) account. Once you have this account visit the [HOT Tasking Manager](http://tasks.hotosm.org) (or another instance of your preferance) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
 ### Access Levels within the Tasking Manager
 
-The most basic level is that of a **user**. The user is able to login to TM4 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The Tasking Manager guide within LearnOSM](/en/coordination/tm-user/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users. 
+The most basic level is that of a **user**. The user is able to login to Tasking Manager and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The Tasking Manager guide within LearnOSM](/en/coordination/tm-user/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users. 
 
-Anything else is handled by organizations and teams. An **organization** is the top of the hierarchy and projects can only be created by organizations. An organization could e.g. represent a data user such as a humanitarian organization or a data provider such as an organizer of mapathons. Organizations can only be created by the global administrators of the TM4 instance. Every organization will have one or more **managers** who have the permission to create and modify projects and teams.
+Anything else is handled by organizations and teams. An **organization** is the top of the hierarchy and projects can only be created by organizations. An organization could e.g. represent a data user such as a humanitarian organization or a data provider such as an organizer of mapathons. Organizations can only be created by the global administrators of the Tasking Manager instance. Every organization will have one or more **managers** who have the permission to create and modify projects and teams.
 
 Managers of an organization can define several **teams**. Teams are groups of users and can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'by invite' which means that the team managers are notified about requests to join and must decide upon them. Project managers can restrict mapping and/or validation of individual projects to members of a team.
 
 
-## Initiate a new Project within TM4 
+## Initiate a new Project within Tasking Manager 
 
 Click on 'Manage' in the menu on the top, 'Projects' should be automatically selected. Then click on the 'Add' button.
 
@@ -290,6 +288,7 @@ Here are some suggested bits of information which you might include in the proje
 
 
 ### Proofread and Publish
+
 Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
 If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
 

@@ -23,7 +23,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Project administration guide](/en/coordination/tm-admin)
+[User guide](/en/coordination/tm-user) [Administration guide](/en/coordination/tm-admin)
 </div>
 </div>
 
