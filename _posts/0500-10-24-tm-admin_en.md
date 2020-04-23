@@ -13,7 +13,7 @@ category: coordination
 
 Section Index
 -------------
--  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [Log in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
 -  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
 -  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
 -  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
@@ -26,119 +26,126 @@ Section Index
     -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
     -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
-The Tasking Manager the essential tool to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the  Tasking Manager for successful mapping events. 
+The Tasking Manager is the essential tool for all kind of groups to coordinate mapping on OpenStreetMap. It helps you to conduct a mapathon, manage a humanitarian mapping initiatives, or you want to create mapping tasks for students. The application divides an area of interest into manageable geographic chunks, that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
 
- This guide is specifically written for those persons who need instructions on administration of the Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the Tasking Manager version 4 including the [HOT Tasking Manager](http://tasks.hotosm.org).
+The Software further supports mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the  Tasking Manager for successful mapping events.
 
-## Logging in & Access Levels
+This guide covers instructions on the administration of the Tasking Manager, including the creation and modification of mapping projects and handling permissions for mapping and review and validation of data.
 
-The first thing to understand is access level. All access to Tasking Manager is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access Tasking Manager you will need an OpenStreetMap (OSM) account. Once you have this account visit the [HOT Tasking Manager](http://tasks.hotosm.org) (or another instance of your preferance) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+## Access the Tasking Manager
 
-### Access Levels within the Tasking Manager
+Access is given to the Tasking Manager by users authorizing themselves through the [OpenStreetMap website](https://www.openstreetmap.org). In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preferance. There click `Sign up` and it redirects you to OpenStreetMap.org to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account. 
 
-The most basic level is that of a **user**. The user is able to login to Tasking Manager and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The Tasking Manager guide within LearnOSM](/en/coordination/tm-user/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users. 
+### Handling permissions
 
-Anything else is handled by organizations and teams. An **organization** is the top of the hierarchy and projects can only be created by organizations. An organization could e.g. represent a data user such as a humanitarian organization or a data provider such as an organizer of mapathons. Organizations can only be created by the global administrators of the Tasking Manager instance. Every organization will have one or more **managers** who have the permission to create and modify projects and teams.
+The most basic user level is the one of a **mapper**. Mappers are able to login to the Tasking Manager, and they can find and select a mapping project to work on. All of their functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers.
 
-Managers of an organization can define several **teams**. Teams are groups of users and can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'by invite' which means that the team managers are notified about requests to join and must decide upon them. Project managers can restrict mapping and/or validation of individual projects to members of a team.
+All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
+
+Every organization has one or more **administrators**. They have the permission to create and modify associated projects. All administration options can be accessed through the `Manage` section in the main navigation.
+
+Administrators of an organization can create **teams**. Teams are groups of users and they can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+
+For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
 
 
-## Initiate a new Project within Tasking Manager 
+## Create a mapping project
 
-Click on 'Manage' in the menu on the top, 'Projects' should be automatically selected. Then click on the 'Add' button.
+To access the administation section, click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
 
 ![TM Add Project][]
 
-You may choose between drawing your area of interest (AoI) on the map, or importing an area of interest from a geojson file;  
+You may choose between defining the area of interest (mapping area) of your mapping project by either:
+
+* Option 1: `Draw` the area of interest on a web map (preferred method)
+* Option 2: `Upload file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
 
 ![TM New][]
 
-> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
+### Define the mapping area
 
-### Draw an area of interest to be mapped
-
-![TM Draw AoI][]
+![TM Draw mapping area][]
 
 1. You may switch to other background layers using the buttons on the top. 
-1. Click the ‘Draw’ button on the left.
-2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
+1. Click the `Draw` button on the left.
+2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
 3. Click on your starting point to complete the polygon.
 4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
-or
+### Define tasks
 
-### Upload a GeoJSON or KML file of the area of interest to be mapped  
-
-1. Click the ‘Upload file’ button.
-2. Browse to your file in the File Upload window.
-3. Click the file name to highlight the file and then click ‘Open’.
-4. Imported areas of interest can not be edited.
-
-
-## Task Creation
-
-An AoI for a project is the large overall area to map. That area is then divided up into smaller areas called Tasks. 
-
-The AoI defined by the file upload or hand drawn will appear in the map frame, and you will then be asked to choose how the AoI is split into individual tasks. There are two options:  
-
-1. Square Grid - The Tasking manager will uniformly divide up the overall project area in exactly the same sized task squares. This is usually a very good idea for general crowdmapping projects.
-2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes or the output from an AoI reduction process for example.
-
-### Using the Square Grid for task squares
-
-To create uniform square tiles, select the Square Grid option.  
+After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
 
 ![TM Tile Sizes][]
 
-The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the 'Larger' and 'Smaller' buttons to adjust the size of the task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
 
-Please note that **there are multiple map layers available to use while determining Task square size**. The buttons at the top of the map show your options for the background layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
 
-<!--If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
+After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
 
-You can also create several different task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where tasks need to be split. The 'Click to split' button will let you click individual task squares to split. The 'Draw area to split' button will let you draw a polygon over an area and all tasks within it will be split. The Reset button will remove all of your custom splitting.
+**Task sizes**:  Please take you time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes on rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities por dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
 
-> Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
+It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
 
-***Considerations before deciding on tile sizes***
+> Considerations for deciding on task sizes:
+> 
+> -  Beginner mappers roughly needs four times as long as an experienced mappers.
+> -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
+> -  Beginner mappers face challenges tracing a lot similar features such as buildings.
+> -  A square may be split later on, but there is no option to join squares together.
+> -  On the edge and corners of tasks, there is always the potential to get in conflict with a fellow mapper next to you. Smaller tasks means more corners and edges. There is a tradeoff in the size to make it easy for mappers, but to not produce mapping conflicts between them.
 
--  A brand new mapper at a mapathon will map an area at roughly a quarter of the speed of an experienced mapper (many start off far slower, but soon get faster),. 
--  A new mapper finds it as hard to search for features in the satellite imagery as they do to actually map them. Finding round huts thatched with natural materials in an area of round bushes is a steep learning curve for a 'newbie'.
--  A new mapper also finds it difficult to trace lots of features such as buildings.
--  Later in the process you have the opportunity for a mapper to 'split' a square - splitting a square into quarters helps new mappers get a square size they can cope with.  
--  The most likely part of a square for problems to occur is at the edges and corners. Therefore smaller squares means more corners and edges and will result in duplication of mapping as well as objects being missed. There is a tradeoff in how small you make the square, which may make it easier for the new mapper and an increase in errors because there are more corners and edges.
--  A square may be split, but there is no option to join squares together to make them bigger again. So be careful when splitting
--  **Conclusion** Try mapping an area of the project yourself to see how easy it is and what difficulties will be faced. This should help you to decide on an optimum square size. Allow splitting, but not to infinity - some new mappers continually split squares until they are so small that it becomes extremely difficult to map.  
-
-After finalizing Task sizes, click “Next”.
-
-### Arbitrary Geometries
-
-It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AoI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
-
-Arbitrary geometries can not be split.
+After finalizing the definition of task sizes, click `Next`.
 
 ### Project Area Trim
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to "Trim" your AoI. If you simply click on 'Trim' then you skip all task squares which do not contain the AoI
+After determining the task sizes you will have the option to trim the tasks to the extend of your mapping area. If you simply click on `Trim` then you skip all task squares which do not contain the mapping area
 
 ![TM Trim coarse][]
 
-If you check the box about trimming to the exact area before clicking on 'Trim' then you obtain arbitrary task shapes at the fringe
+If you check the box about trimming to the exact area before clicking on `Trim` then you obtain arbitrary task shapes at the fringe
 
 ![TM Trim fine][]
 
-After finalizing a the AoI trim, click “Next”.
+After finalizing a the mapping area trim, click `Next`.
 
-## Create the project
 
-Give the project a title (can be edited on the next screen) and click "Create"
+### Save the project
 
-This establishes the project in the Tasking Manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+Give the project a title (can be edited on the next screen) and click `Create`. First step is done.
 
-Once the Project is created, you will need to edit all its associated settings:
+Learn more about how to add descriptions and instructions to the project and get it published to the mappers in our "Edit a mapping project" chapter below.
+
+### Advanced: Define mapping project areas and tasks with imported geodata
+
+You can be much more precise to draw the area of interest with a geospatial desktop application like JOSM or QGIS, than with the slippy web map inside the Tasking Manager. And you can also determine special task shapes and sizes beforehand.
+
+> The suggested workflow to prepare such a file, is to use JOSM, save the area of interest drawn as an OSM file and convert it via geojson.io
+
+#### Upload a GeoJSON or KML file of the area of interest to be mapped  
+
+1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
+2. Browse to your file in the File Upload window.
+3. Click the file name to highlight the file and then click ‘Open’.
+4. Imported areas of interest can not be edited.
+
+After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
+
+1. `Square Grid`, with the functionality described above to define tasks.
+2. `Arbitrary Geometries`, coming from the file you just uploaded.
+
+#### Define arbitrary geometries
+
+If you uploaded a file to define your project area, that file can also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs. An import of roads project might need custom task shapes or the output from an mapping area reduction process for example.
+
+Please note, arbitrary geometries can not be split.
+
+## Edit a mapping project
+
+After a project has been initially set up and created, you have to edit its information and settings:
 
 - Description - Used for display in lists and motivational information for mappers
 - Instructions - Detailed instructions for what and how to map the needed objects/entities/features
@@ -149,6 +156,10 @@ Once the Project is created, you will need to edit all its associated settings:
 - Settings - Project due date and JOSM Presets.
 - Actions - Send messages to contributors, validate and invalidate the entire project with one click.
 
+> Filling in this information carefully is an essential part of making a successfull mapping project. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. Keep in mind, that a fair share of mappers doesn't have previous experience with OpenStreetMap, and are not well familiar with tagging guidelines.
+> 
+>  It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
+ 
 ### Description
 
 ![TM Description][]
@@ -195,7 +206,7 @@ See the below notes on creating good instructions.
 
 Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
 
-> During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
+> During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is a best practice.
 
 ### Imagery
 
@@ -239,7 +250,7 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 **Transfer project ownership** - Lets you specify another user who will become the owner of this project. Handle with care as there is no undo.
 
-**Clone Project** - This will create a duplicate of the project except for the AoI, task grid and priority areas which you will need to re-import or re-draw.
+**Clone Project** - This will create a duplicate of the project except for the mapping area, task grid and priority areas which you will need to re-import or re-draw.
 
 **Delete Project** - This will permanently delete the project from the Tasking Manager. Handle with care as there is no undo. This action is no longer available as soon as any contributions have been made to the project.
 
@@ -259,15 +270,15 @@ Please use plain language as your target audience may not consist of native Engl
 
 In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
 
-1. Bing does not provide high-resolution coverage for your AoI.
+1. Bing does not provide high-resolution coverage for your mapping area.
 2. Bing has considerable cloud cover in this area.
 3. You need newer imagery for post-disaster evaluation.
 
 If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AoI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AoI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 
-If there is a constant offset between your imagery and Bing across the AoI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AoI or if existing data are aligned with various sources then it is time for plan B:
+If there is a constant offset between your imagery and Bing across the mapping area then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the mapping area or if existing data are aligned with various sources then it is time for plan B:
 
 The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
 
@@ -278,7 +289,7 @@ One possible strategy could include these steps:
 3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
 4. Add new features from the now correctly aligned alternative imagery.
 
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AoI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
 
 Here are some suggested bits of information which you might include in the project instructions:
 
