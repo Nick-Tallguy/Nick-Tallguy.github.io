@@ -9,6 +9,7 @@ FOLDER2=/home/nick/Github/Transifex_10pc
 FOLDER3=/home/nick/Github/Transifex_10pc/translations
 FOLDER4=/home/nick/Github/Nick-Tallguy.github.io/_posts
 FOLDER5=/home/nick/Github/Transifex_10pc/translations-temp
+FOLDERINTERIM=/home/nick/Github/Transifex_10pc/translations-interim
 ##
 #  Update this instance from latest on Github
 cd ${FOLDER1}
@@ -23,14 +24,15 @@ cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
 cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
 ##
 # Remove the enhance modules that are no longer updated
+## 0450-10-07* has been commented out in config, and can be deleted soon
 rm ${FOLDER5}/0450-10-07*
 #
 ### Move the files that do not need the script run on them
-mv ${FOLDER5}/0200-12-05-* ${FOLDER4}/
-mv ${FOLDER5}/0450-* ${FOLDER4}/
-mv ${FOLDER5}/1900-12-31* ${FOLDER4}/
-mv ${FOLDER5}/0200-12-23* ${FOLDER4}/
-mv ${FOLDER5}/0500-10-15* ${FOLDER4}/
+mv ${FOLDER5}/0200-12-05-* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0450-* ${FOLDERINTERIM}/
+mv ${FOLDER5}/1900-12-31* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0200-12-23* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0500-10-15* ${FOLDERINTERIM}/
 #
 # Run edit script on files in FOLDER5 (translations-temp)
 for f in ${FOLDER5}/*
@@ -39,7 +41,43 @@ sed -i '0,/^>/{/^>/d;}' $f
 done
 ##
 # Copy updated files from FOLDER 5 (temp) to FOLDER4 (_posts)
-cp -u ${FOLDER5}/*.md ${FOLDER4}/
+cp -u ${FOLDER5}/*.md ${FOLDERINTERIM}/
+#
+## Move the files from the interim folder to the language folder with _posts
+mv ${FOLDERINTERIM}/*_ar.md ${FOLDER4}/ar/
+mv ${FOLDERINTERIM}/*_bn_BD.md ${FOLDER4}/bn_BD/
+mv ${FOLDERINTERIM}/*_ca.md ${FOLDER4}/ca/
+mv ${FOLDERINTERIM}/*_cs.md ${FOLDER4}/cs/
+mv ${FOLDERINTERIM}/*_de.md ${FOLDER4}/de/
+mv ${FOLDERINTERIM}/*_en.md ${FOLDER4}/en/
+mv ${FOLDERINTERIM}/*_es.md ${FOLDER4}/es/
+mv ${FOLDERINTERIM}/*_fa.md ${FOLDER4}/fa/
+mv ${FOLDERINTERIM}/*_fr.md ${FOLDER4}/fr/
+mv ${FOLDERINTERIM}/*_he.md ${FOLDER4}/he/
+mv ${FOLDERINTERIM}/*_hr.md ${FOLDER4}/hr/
+mv ${FOLDERINTERIM}/*_hu.md ${FOLDER4}/hu/
+mv ${FOLDERINTERIM}/*_id.md ${FOLDER4}/id/
+mv ${FOLDERINTERIM}/*_it.md ${FOLDER4}/it/
+mv ${FOLDERINTERIM}/*_ja.md ${FOLDER4}/ja/
+mv ${FOLDERINTERIM}/*_jv.md ${FOLDER4}/jv/
+mv ${FOLDERINTERIM}/*_ko.md ${FOLDER4}/ko/
+mv ${FOLDERINTERIM}/*_lb.md ${FOLDER4}/lb/
+mv ${FOLDERINTERIM}/*_lt.md ${FOLDER4}/lt/
+mv ${FOLDERINTERIM}/*_my.md ${FOLDER4}/my/
+mv ${FOLDERINTERIM}/*_nb.md ${FOLDER4}/nb/
+mv ${FOLDERINTERIM}/*_nl_NL.md ${FOLDER4}/nl_NL/
+mv ${FOLDERINTERIM}/*_pl.md ${FOLDER4}/pl/
+mv ${FOLDERINTERIM}/*_pt.md ${FOLDER4}/pt/
+mv ${FOLDERINTERIM}/*_pr_BR.md ${FOLDER4}/pt_BR/
+mv ${FOLDERINTERIM}/*_ru.md ${FOLDER4}/ru/
+mv ${FOLDERINTERIM}/*_sl.md ${FOLDER4}/sl/
+mv ${FOLDERINTERIM}/*_sq.md ${FOLDER4}/sq/
+mv ${FOLDERINTERIM}/*_sw.md ${FOLDER4}/sw/
+mv ${FOLDERINTERIM}/*_uk.md ${FOLDER4}/uk/
+mv ${FOLDERINTERIM}/*_vi.md ${FOLDER4}/vi/
+mv ${FOLDERINTERIM}/*_zh_CN.md ${FOLDER4}/zh_CN/
+mv ${FOLDERINTERIM}/*_zh_TW.md ${FOLDER4}/zh_TW/
+##
 cd ${FOLDER1}
 git add *
 git commit -m "latest updates from Transifex"
