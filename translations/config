@@ -87,6 +87,11 @@ file_filter = translations/0450-12-31-hot-tips_<lang>.md
 source_lang = en
 type = TXT
 
+[learnosm-1.0500-01-04-tm3-admin]
+file_filter = translations/0500-01-04-tm3-admin_<lang>.md
+source_lang = en
+type = TXT
+
 [learnosm-1.0500-10-10-reviewmdtxt]
 file_filter = translations/0500-10-10-review_<lang>.md
 source_lang = en
