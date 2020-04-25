@@ -52,6 +52,7 @@ file_filter = translations/0450-10-05-saving_<lang>.md
 source_lang = en
 type = TXT
 
+# This paragraph can be deleted if all working okay after 27/04/2020
 # [learnosm-1.0450-10-07-enhancemdtxt]
 # file_filter = translations/0450-10-07-enhance_<lang>.md
 # source_lang = en
