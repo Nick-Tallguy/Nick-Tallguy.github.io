@@ -28,6 +28,9 @@ rm ${FOLDER3}/0500-10-23-tasking-manag*
 ### 0500-10-22 was removed on 2020-04-25, and this line can be removed from script if working okay on 2020-04-28
 rm ${FOLDER3}/0500-10-22*
 #
+## 0500-10-25-tasking-manager was removed on 25/04/2020
+rm ${FOLDER3}/0500-10-25-tasking-manager*
+#
 # Copy files for editing from FOLDER3 (translations) to FOLDER5 (translations-temp)
 cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
 cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
@@ -39,6 +42,7 @@ mv ${FOLDER5}/0450-* ${FOLDERINTERIM}/
 mv ${FOLDER5}/1900-12-31* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0200-12-23* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-10-15* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0500-01-01* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-01-03* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-01-04* ${FOLDERINTERIM}/
 #
