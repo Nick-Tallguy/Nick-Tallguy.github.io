@@ -25,12 +25,10 @@ cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
 ##
 # Remove the enhance modules that are no longer updated
 ## 0450-10-07* has been commented out in config, removed from transifex (2020-04-25), and can be deleted soon
-rm ${FOLDER5}/0450-10-07*
-rm ${FOLDER4}/*/0450-10-07*
+rm ${FOLDER3}/0450-10-07*
 #
 ### 0500-10-22 was removed on 2020-04-25, and this line can be removed from script if working okay on 2020-04-28
-rm ${FOLDER5}/0500-10-22*
-rm ${FOLDER4}/*/0500-10-22*
+rm ${FOLDER3}/0500-10-22*
 #
 ### Move the files that do not need the script run on them
 mv ${FOLDER5}/0200-12-05-* ${FOLDERINTERIM}/
