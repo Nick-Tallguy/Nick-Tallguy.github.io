@@ -44,7 +44,7 @@ mv ${FOLDER5}/0200-12-23* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-10-15* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-01-* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-10-10* ${FOLDERINTERIM}/
-
+mv ${FOLDER5}/0500-10-12* ${FOLDERINTERIM}/
 #
 # Run edit script on files in FOLDER5 (translations-temp)
 for f in ${FOLDER5}/*
