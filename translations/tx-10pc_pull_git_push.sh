@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-## This script updates LearnOSM staging site daily with any updates from Transifex
+## This script updates LearnOSM staging site daily at 05:35hrs with any updates from Transifex
 #
 logger -t tx-10pc_pull_git_push.sh cron.info
 #
@@ -24,8 +24,11 @@ cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
 cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
 ##
 # Remove the enhance modules that are no longer updated
-## 0450-10-07* has been commented out in config, and can be deleted soon
-rm ${FOLDER5}/0450-10-07*
+## 0450-10-07* has been commented out in config, removed from transifex (2020-04-25), and can be deleted soon
+rm ${FOLDER5}/0450-10-07*  
+#
+### 0500-10-22 was removed on 2020-04-25, and this line can be removed from script if working okay on 2020-04-28
+rm ${FOLDER5}/0500-10-22*
 #
 ### Move the files that do not need the script run on them
 mv ${FOLDER5}/0200-12-05-* ${FOLDERINTERIM}/
@@ -78,6 +81,7 @@ mv ${FOLDERINTERIM}/*_vi.md ${FOLDER4}/vi/
 mv ${FOLDERINTERIM}/*_zh_CN.md ${FOLDER4}/zh_CN/
 mv ${FOLDERINTERIM}/*_zh_TW.md ${FOLDER4}/zh_TW/
 ##
+### change to repository home
 cd ${FOLDER1}
 git add *
 git commit -m "latest updates from Transifex"
@@ -85,4 +89,5 @@ git push origin
 #
 ## empty FOLDER5 so they are not edited again tomorrow
 rm ${FOLDER5}/*
-# trash-empty 31
+#
+# 
