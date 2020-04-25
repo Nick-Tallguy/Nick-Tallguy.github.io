@@ -93,6 +93,7 @@ Indien u aangepaste afbeeldingen hebt voor het project, kunt u die ook laden met
 
 U kunt ook verscheidene verschillende grootten van taken maken door gebruik te maken van de gereedschappen "Split". Vierkanten van taken kunnen meerdere keren worden gesplitst. Opnieuw, gebruiken van een afbeeldingslaag zullen u helpen te bepalen waar taken dienen te worden gesplitst. De knop "Reset" zal al uw gesplitste taken herstellen. De optie Split (Polygon) zal u een polygoon laten tekenen over een gebied om kleinere taken te maken en de Split (Point) zal u op individuele taken laten klikken om te splitsen. De knop Reset zal al uw aangepaste splitsingen herstellen.
 
+> In het algemeen zult u kleinere tegels voor dichte gebieden met gebouwen willen hebben. Het doel zou moeten zijn om taken voor het project te maken die kunnen worden voltooid in 10-15 minuten.
 
 ***Overwegingen bij het bepalen van tegelgrootten***
 
