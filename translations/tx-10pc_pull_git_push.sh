@@ -19,16 +19,17 @@ git pull
 cd ${FOLDER2}
 /usr/local/bin/tx pull -a
 ##
-# Copy files for editing from FOLDER3 (translations) to FOLDER5 (translations-temp)
-cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
-cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
-##
 # Remove the enhance modules that are no longer updated
 ## 0450-10-07* has been commented out in config, removed from transifex (2020-04-25), and can be deleted soon
 rm ${FOLDER3}/0450-10-07*
 #
 ### 0500-10-22 was removed on 2020-04-25, and this line can be removed from script if working okay on 2020-04-28
 rm ${FOLDER3}/0500-10-22*
+#
+# Copy files for editing from FOLDER3 (translations) to FOLDER5 (translations-temp)
+cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
+cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
+##
 #
 ### Move the files that do not need the script run on them
 mv ${FOLDER5}/0200-12-05-* ${FOLDERINTERIM}/
@@ -64,6 +65,7 @@ mv ${FOLDERINTERIM}/*_id.md ${FOLDER4}/id/
 mv ${FOLDERINTERIM}/*_it.md ${FOLDER4}/it/
 mv ${FOLDERINTERIM}/*_ja.md ${FOLDER4}/ja/
 mv ${FOLDERINTERIM}/*_jv.md ${FOLDER4}/jv/
+mv ${FOLDERINTERIM}/*_kn.md ${FOLDER4}/kn/
 mv ${FOLDERINTERIM}/*_ko.md ${FOLDER4}/ko/
 mv ${FOLDERINTERIM}/*_lb.md ${FOLDER4}/lb/
 mv ${FOLDERINTERIM}/*_lt.md ${FOLDER4}/lt/
@@ -72,7 +74,7 @@ mv ${FOLDERINTERIM}/*_nb.md ${FOLDER4}/nb/
 mv ${FOLDERINTERIM}/*_nl_NL.md ${FOLDER4}/nl_NL/
 mv ${FOLDERINTERIM}/*_pl.md ${FOLDER4}/pl/
 mv ${FOLDERINTERIM}/*_pt.md ${FOLDER4}/pt/
-mv ${FOLDERINTERIM}/*_pr_BR.md ${FOLDER4}/pt_BR/
+mv ${FOLDERINTERIM}/*_pt_BR.md ${FOLDER4}/pt_BR/
 mv ${FOLDERINTERIM}/*_ru.md ${FOLDER4}/ru/
 mv ${FOLDERINTERIM}/*_sl.md ${FOLDER4}/sl/
 mv ${FOLDERINTERIM}/*_sq.md ${FOLDER4}/sq/
