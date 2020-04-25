@@ -19,10 +19,12 @@ git pull
 cd ${FOLDER2}
 /usr/local/bin/tx pull -a
 ##
-# Remove the enhance modules that are no longer updated
+# Remove the modules that are no longer updated
 ## 0450-10-07* has been commented out in config, removed from transifex (2020-04-25), and can be deleted soon
 rm ${FOLDER3}/0450-10-07*
 #
+## 0500-10-23-tasking-manager3md_en.txt was moved to 0500-01-03 tm3 user on 25/04/2020
+rm ${FOLDER3}/0500-10-23-tasking-manag*
 ### 0500-10-22 was removed on 2020-04-25, and this line can be removed from script if working okay on 2020-04-28
 rm ${FOLDER3}/0500-10-22*
 #
@@ -37,6 +39,7 @@ mv ${FOLDER5}/0450-* ${FOLDERINTERIM}/
 mv ${FOLDER5}/1900-12-31* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0200-12-23* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-10-15* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0500-01-03* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-01-04* ${FOLDERINTERIM}/
 #
 # Run edit script on files in FOLDER5 (translations-temp)
@@ -45,10 +48,10 @@ do
 sed -i '0,/^>/{/^>/d;}' $f
 done
 ##
-# Copy updated files from FOLDER 5 (temp) to FOLDER4 (_posts)
+# Copy updated files from FOLDER 5 (temp) to FOLDERINTERIM ready to go to _posts
 cp -u ${FOLDER5}/*.md ${FOLDERINTERIM}/
 #
-## Move the files from the interim folder to the language folder with _posts
+## Move the files from the interim folder to the language folder within  _posts
 mv ${FOLDERINTERIM}/*_ar.md ${FOLDER4}/ar/
 mv ${FOLDERINTERIM}/*_bn_BD.md ${FOLDER4}/bn_BD/
 mv ${FOLDERINTERIM}/*_ca.md ${FOLDER4}/ca/
