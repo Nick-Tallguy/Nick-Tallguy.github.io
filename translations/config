@@ -93,6 +93,10 @@ file_filter = translations/0500-01-01-tm2-user_<lang>.md
 source_lang = en
 type = TXT
 
+[learnosm-1.0500-01-02-tm2-adminmd]
+file_filter = translations/0500-01-02-tm2-admin_<lang>.md
+source_lang = en
+type = TXT
 
 [learnosm-1.0500-01-03-tm3-usermd]
 file_filter = translations/0500-01-03-tm3-user_<lang>.md
