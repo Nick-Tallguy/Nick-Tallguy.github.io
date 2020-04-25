@@ -9,9 +9,9 @@ category: beginner
 Editor iD
 =============
 
-> Revisionato il 2017-06-10
+> Revisionato il 2019-06-10
 
-Stai iniziando a mappare per il Tasking Manager HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
+Stai iniziando a mappare per il Gestore attività (tasking manager) HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
 
 - CONTENUTO
 {:toc}
@@ -69,7 +69,7 @@ Per abilitare **le tracce GPS OpenStreetMap** clicca sul riquadro. Nell'immagine
 ![osm gps traces][]  
 To change the **appearance of the imagery** click **Display Options**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Se c'è un [disallineamento delle immagini](/en/josm/aerial-imagery), puoi **correggere lo scostamento** cliccando su **Correggi spostamento immagini**.  
 ![image18][]  
 
 - Clicca sui bottoni di navigazione per muovere le immagini. Clicca sul bottone di reset per riportarle alla loro posizione iniziale.  ![image20][]  
@@ -97,8 +97,8 @@ Per inserire una nuova linea, fai click sul bottone **Linea**. ![image4][]{: hei
 ![image24][]  
 - Proprio come con un punto, seleziona il tag appropriato per la tua linea.  
 - Puoi trascinare punti dalla linea semplicemente cliccandoci sopra col tasto sinistro del mouse e trascinandoli.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
+- Quando clicchi con il tasto sinistro del mouse su un punto individuale (nodo) della linea e clicchi con il tasto destro del mouse o premi la barra spaziatrice per attivare il menù contestuale, vedrai i seguenti strumenti:  
+  - Continua la linea da questo punto ![PointToolContinue][]{: height="24px"}  
   - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
   - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
   - Delete point from line. ![PointToolDelete][]{: height="24px"}  

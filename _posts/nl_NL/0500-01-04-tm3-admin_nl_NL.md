@@ -4,12 +4,13 @@ title: Tasking Manager 3 Projecten maken
 permalink: /nl_NL/coordination/tasking-manager3-project-admin/
 lang: nl_NL
 category: coordination
+navigation: skip
 ---
 
 # OSM Tasking Manager Projecten maken en beheren
 
 
-**Deze handleiding beschrijft de huidige versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor de vorige versie](/nl_NL/coordination/tasking-manager-project-admin) moeten consulteren**
+**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
 Index
 -------------
@@ -92,7 +93,6 @@ Indien u aangepaste afbeeldingen hebt voor het project, kunt u die ook laden met
 
 U kunt ook verscheidene verschillende grootten van taken maken door gebruik te maken van de gereedschappen "Split". Vierkanten van taken kunnen meerdere keren worden gesplitst. Opnieuw, gebruiken van een afbeeldingslaag zullen u helpen te bepalen waar taken dienen te worden gesplitst. De knop "Reset" zal al uw gesplitste taken herstellen. De optie Split (Polygon) zal u een polygoon laten tekenen over een gebied om kleinere taken te maken en de Split (Point) zal u op individuele taken laten klikken om te splitsen. De knop Reset zal al uw aangepaste splitsingen herstellen.
 
-> In het algemeen zult u kleinere tegels voor dichte gebieden met gebouwen willen hebben. Het doel zou moeten zijn om taken voor het project te maken die kunnen worden voltooid in 10-15 minuten.
 
 ***Overwegingen bij het bepalen van tegelgrootten***
 
