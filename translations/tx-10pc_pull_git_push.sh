@@ -87,7 +87,7 @@ mv ${FOLDERINTERIM}/*_zh_TW.md ${FOLDER4}/zh_TW/
 ### change to repository home
 cd ${FOLDER1}
 git add *
-git commit -m "latest updates from Transifex"
+git commit -a -m "latest updates from Transifex"
 git push origin
 #
 ## empty FOLDER5 so they are not edited again tomorrow
