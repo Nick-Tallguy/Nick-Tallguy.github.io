@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Direview 2015-09-18
 
 Terima kasih sudah sukarela membantu komunitas lokal dan Organisasi Bantuan untuk merespon bencana dengan menyediakan data peta terbaru.  
 

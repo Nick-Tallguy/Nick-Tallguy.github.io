@@ -4,9 +4,10 @@ title: Tasking Manager 2 Projecten maken
 permalink: /nl_NL/coordination/tasking-manager-project-admin/
 lang: nl_NL
 category: coordination
+navigation: skip
 ---
 
-**Deze gids beschrijft een oudere versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor versie 3](/nl/coordination/tasking-manager3-project-admin) moeten consulteren**
+**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
 # OSM Tasking Manager projectbeheer
 

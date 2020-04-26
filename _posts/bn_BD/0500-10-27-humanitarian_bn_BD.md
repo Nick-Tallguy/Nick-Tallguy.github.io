@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Reviewed 2015-09-18
 
 Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
 

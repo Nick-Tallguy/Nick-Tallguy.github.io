@@ -8,6 +8,7 @@ category: coordination
 
 # Gestionar un Mapatón
 
+> Creado 2017-01-30  
 
 - TOC
 {:toc}

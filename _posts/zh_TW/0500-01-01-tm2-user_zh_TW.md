@@ -4,12 +4,13 @@ title: Tasking Manager 2
 permalink: /zh_TW/coordination/tasking-manager/
 lang: zh_TW
 category: coordination
+navigation: skip
 ---
 
 # 任務分配管理系統
 
 
-**This guide describes a legacy version of the Tasking Manager. If the user interface of the version you use looks different from the one described here then you should consult [the manual for version 3](/en/coordination/tasking-manager3)**
+**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
 章節索引
 -------------

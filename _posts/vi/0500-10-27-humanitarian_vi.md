@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Reviewed 2015-09-18
 
 Cảm ơn bạn đã tình nguyện giúp đỡ cộng đồng địa phương và các Tổ chức Hỗ trợ ứng phó với sự biến động này bằng cách cung cấp dữ liệu bản đồ cập nhật cho họ  
 

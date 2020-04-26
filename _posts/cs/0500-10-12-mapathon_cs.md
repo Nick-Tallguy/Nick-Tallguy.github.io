@@ -8,6 +8,7 @@ category: coordination
 
 # Organizace Mapathonu
 
+> Vytvořeno 2017-01-30  
 
 - Obsah
 {:toc}

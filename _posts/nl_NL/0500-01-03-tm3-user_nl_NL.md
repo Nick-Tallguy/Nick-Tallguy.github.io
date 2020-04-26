@@ -4,12 +4,13 @@ title: Tasking Manager 3
 permalink: /nl_NL/coordination/tasking-manager3/
 lang: nl_NL
 category: coordination
+navigation: skip
 ---
 
 # Tasking Manager 3
 
 
-**Deze handleiding beschrijft de huidige versie van de Tasking Manager. Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [de handleiding voor de vorige versie](/nl_NL/coordination/tasking-manager) moeten consulteren**
+**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
 Index
 -------------
@@ -42,10 +43,11 @@ Als u eenmaal gereed bent met het in kaart brengen van dat kleine gebied, legt u
 
 ## Gids Snel starten
 
-1. Maak een account en log in op http://openstreetmap.org/  
+1. If you do not have an OpenStreetMap account then go to https://openstreetmap.org and create one. This will be the login details you use to log in to the Tasking Manager. <br/>
   ![TM Quick Start 1][]
-2. Bezoek [http://tasks.hotosm.org/](http://tasks.hotosm.org/) en log in via de rechter bovenhoek  
+2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and log in via the upper right corner  
   ![TM Quick Start 2][]
+  > You must provide a valid email address in your profile (accessible through the first entry in the menu in the upper right corner) before you can start mapping.
 3. Klik op "Deelnemen" en zoek naar een project voor in kaart brengen om aan te werken  
   ![TM Quick Start 3][]
 4. Lees de instructies voor het project  
@@ -82,7 +84,9 @@ Klikken op die knop brengt u naar de website van OpenStreetMap. Daar dient u in 
 
 ![TM login 3][]
 
-Wanneer u eenmaal bent ingelogd op OpenStreetMap zult u worden teruggebracht naar de Tasking Manager, klikken op Deelnemen of Beginnen met zullen u naar een l,ijst met projecten brengen waaraan u kunt deelnemen.
+Once you are logged into OpenStreetMap you will be returned to the Tasking Manager. Now is the time to add your email address to the profile. Click on your username in the upper right corner to open the menu and select the first entry, 'Your profile'. You can edit your contact details using the respective button in the top right part of the form. The Tasking Manager allows to send messages and it is therefore required to provide a valid email address before you can start mapping.
+
+Clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
 
 ### Opties & links
 
@@ -146,13 +150,13 @@ Alles wat u van dit project moet weten staat hier!. Aan de bovenkant staat een v
 Onder de beschrijving is het scherm opgedeeld in een linker en rechter gedeelte. Het gedeelte links is een paneel met tabs voor "Instructies", "Kaart", "Valideren" en "Vragen en opmerkingen". Aan de rechterkant staat een kaart van het project en de individuele taken om in kaart te brengen.
 
 - De niet gekleurde taken zijn aangemaakt en beschikbaar voor in kaart brengen
-- Roze gebieden van de kaart geven gebieden met hogere prioriteit aan
+- Pink grid squares have been invalidated by a validator and are again available for mapping
+- Red areas of the map indicate higher priority areas
 - Geel/Gouden vierkanten hebben hun eerste doorgang voor in kaart brengen voltooid en staan klaar om te worden gevalideerd
-- Een gele rand geeft aan dat de taak door u is geselecteerd
-- Blauwe taken worden momenteel bewerkt door een andere mapper 
+- Blue Tasks are currently being worked on
+- A dark blue border indicates the task selected by you
 - Groene taken hebben hun 2e doorgang voor in kaart brengen voltooid en het in kaart brengen is "gevalideerd"
 - Donkergrijze taken zijn bekeken door een mapper en gemarkeerd als onvoldoende acceptabele afbeeldingen voor in kaart brengen 
-- De blauwe lijn die normaal zichtbaar is in vierkanten langs de randen  van een project geeft de grens van het project aan. Deze grens volgt normaal gesproken de beschikbare afbeeldingen, een administratieve grens, etc, zou dus kunnen verschijnen als een ongewone vorm. Hoewel het in kaart brengen buiten deze grens zou kunnen worden voltooid, is dat geen vereiste en wordt door validators niet in overweging genomen.  
 
 
 #### tab Instructies
@@ -179,7 +183,7 @@ De samenvatting bevat een lijst van mappers die tenminste één taak binnen het 
 
 Een logboek van alle achtergelaten opmerkingen over individuele taken staat aan de onderzijde van de pagina. Dit zijn opmerkingen die zijn achtergelaten voor taken en zouden niet moeten worden verward met de tab "Vragen en opmerkingen" wat algemene vragen en opmerkingen over het project als geheel zijn.
 
-U kunt terugkeren naar de hoofdpagina voor Deelnemen aan het project door te klikken op de titel van het project op de pagina Activiteit en Statistieken.
+You can return to the main project contribution page by clicking on the project title on the Activity and Stats page.
 
 #### tab Kaart  
 
@@ -260,7 +264,7 @@ Om het proces efficiënt te laten verlopen, is het handig dat mappers taken als 
 Wanneer u klaar bent met bewerken en denkt dat de taak voltooid is, sla dan eventuele wijzigingen in het bewerkingsprogramma op en ga terug naar de Tasking Manager.  
 
 + Voeg opmerkingen toe aan het vak die vermelden wat je hebt gedaan en nog belangrijker: waar u niet zeker van bent. Bijvoorbeeld: "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".  
-+ Klik op de knop "Markeer als gereed" en uw werk is klaar om gecontroleerd te worden.  
++ Click on the "Mark as Completely Mapped" button, and your work is ready for review.  
 
 ##### Een taak markeren als Slechte afbeelding
 
@@ -295,25 +299,20 @@ Wanneer u een bericht moet sturen, zoals een e-mail of een IRC-bericht, en u wil
 
 ## Hulp krijgen 
 
+### E-Mail
+
+For questions which might require a little research to answer or more detailed explanations, usually the best channel is to write to mapper-support@hotosm.org
+
 ### Live tekstgebaseerde hulp
 
-Vanaf de pagina Learn van de Tasking Manager:  
-1. Klik op **OSM HOT IRC Channel #hot**  
-2. Voer een gebruikersnaam in (uw gebruikersnaam van OSM is handig) of gebruik de vooraf ingestelde tekens  
-3. Selecteer onderaan de keuzelijst **hot**  
-
-- Rechts in uw scherm ziet u een lijst met gebruikers die nu online zijn.  
-- Typ uw bericht in het vak linksonder in het scherm (Soms is dat tijdelijk lastig te zien door tekst die er overheen staat, maar dat zal verdwijnen als u het vak selecteert.  
-- Om een bericht te richten aan een specifiek individu, neem dan zijn gebruikersnaam uit de lijst aan de rechterkant op in het bericht. Gebruik de Enter-toets om uw bericht te verzenden. Het systeem is 'live' dus wacht op een antwoord - uw gebruikersnaam zal normaal gesproken worden gebruikt in het antwoord om te laten zien dat het bericht aan u gericht is. Normaal gesproken krijgt u binnen een paar seconden antwoord, wacht daar dus op.  
-- Een alternatief en eenvoudig systeem is te vinden op [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Meer informatie over het gebruik van IRC met OpenStreetMap kunt u vinden op de [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- U kunt ook een IRC-cliënt naar keuze gebruiken (Server=irc.oftc.net en kanaal=#hot)  
+1. Sign up at slack.hotosm.org. This will require filling in a form and might take a while to be accepted.
+2. Join the mapper-support channel
 
 ###  Vraag / opmerking voor het project achterlaten - contact opnemen met de maker van het project
 
 Door het gebruiken van de tab "Opmerkingen" voor het project kunt u vragen en opmerkingen van andere gebruikers zien en er zelf een achterlaten. U kunt ook klikken op de link "Contact projectbeheerder" en dat zal uw opmerking/vraag automatisch richten aan de maker van het project. 
 
-Alle opmerkingen zijn openbaar en het is niet in echte tijd, live chat, gebruik de optie IRC hierboven voor realtime chat.
+All comments are public and it is not live chat. Use the Slack option above if you need immediate attention.
 
 ![TM comments][]
 

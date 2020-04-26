@@ -33,7 +33,7 @@ Es gibt sehr viele Informationen über OpenStreetMap auf [wiki.openstreetmap.org
 
 <!-- auch mehr Informationen über diese Seite, sobald ausgearbeitet -->
 
-Mailing List
+Mailing-Liste
 ------------
 
 Der beste Weg um mit der OpenStreetMap-Nutzer-Community verbunden zu bleiben, ist, eine lokale Mailing-Liste zu abonnieren. Viele Benutzer haben das getan und es bietet eine gute Möglichkeit, um Fragen zu stellen oder sich über OpenStreetMap zu unterhalten.  

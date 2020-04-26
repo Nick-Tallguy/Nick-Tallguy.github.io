@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Reviewed 2015-09-18
 
 תודה לך על התנדבותך לסיוע לקהילות המקומיות ולארגוני הסיוע להגיב למשבר זה על ידי אספקת נתוני מפות עדכניים עבורם.  
 

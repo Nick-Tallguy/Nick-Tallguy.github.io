@@ -8,6 +8,7 @@ category: coordination
 
 # Manage a Mapathon
 
+> Criado em 2017-01-30  
 
 - TOC
 {:toc}

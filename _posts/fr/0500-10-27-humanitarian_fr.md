@@ -10,6 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
+> Examiné le 18-09-2015
 
 Merci pour l'aide que vous apportez bénévolement aux communautés locales et aux organisations humanitaires qui répondent à cette crise en leur fournissant des données cartographiques à jour.  
 

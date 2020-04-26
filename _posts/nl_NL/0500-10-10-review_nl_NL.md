@@ -9,6 +9,7 @@ category: coordination
 Gegevens van OSM nakijken
 ==================
 
+> Bijgewerkt op 24-04-2017  
 
 - Inhoud
 {:toc}
@@ -279,6 +280,5 @@ In deze handleiding zijn we door een aantal effectieve methoden gegaan voor het 
 [QGIS Map Image 2]: /images/coordination/reviewing_osm_data_image20.png
 [QGIS Query Result]: /images/coordination/reviewing_osm_data_image21.png
 [QGIS Map Image 3]: /images/coordination/reviewing_osm_data_image22.png
-
 
 
