@@ -19,14 +19,7 @@ git pull
 cd ${FOLDER2}
 /usr/local/bin/tx pull -a
 ##
-# Remove the modules that are no longer updated
-## 0450-10-07* has been commented out in config, removed from transifex (2020-04-25), and can be deleted soon
-rm ${FOLDER3}/0450-10-07*
-#
-## 0500-10-23-tasking-manager3md_en.txt was moved to 0500-01-03 tm3 user on 25/04/2020
-rm ${FOLDER3}/0500-10-23-tasking-manag*
-### 0500-10-22 was removed on 2020-04-25, and this line can be removed from script if working okay on 2020-04-28
-rm ${FOLDER3}/0500-10-22*
+#### Remove the modules that are no longer updated
 #
 ## 0500-10-25-tasking-manager was removed on 25/04/2020
 rm ${FOLDER3}/0500-10-25-tasking-manager*
