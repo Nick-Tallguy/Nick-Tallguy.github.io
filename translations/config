@@ -142,16 +142,6 @@ file_filter = translations/0500-10-27-humanitarian_<lang>.md
 source_lang = en
 type = TXT
 
-[learnosm-1.0500-10-90-tm-whats-new-mappersmd]
-file_filter = translations/0500-10-28-tm-whats-new-mappers_<lang>.md
-source_lang = en
-type = TXT
-
-[learnosm-1.0500-10-91-tm-whats-new-validatorsmd]
-file_filter = translations/0500-10-29-tm-whats-new-validators_<lang>.md
-source_lang = en
-type = TXT
-
 [learnosm-1.0500-12-06-remote-mappingmd]
 file_filter = translations/0500-12-06-remote-mapping_<lang>.md
 source_lang = en
