@@ -9,7 +9,7 @@ category: hot-tips
 Disegnare edifici rettangolari - iD editor
 ============
 
-> Updated 2019-06-23
+> Revisionato il 2019-06-23
 
 - TOC
 {:toc}

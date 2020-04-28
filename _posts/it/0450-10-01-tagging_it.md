@@ -9,7 +9,7 @@ category: hot-tips
 Tagging - iD editor
 ============
 
-> Updated 2019-06-28
+> Revisionato il 2019-06-28
 
 - TOC
 {:toc}

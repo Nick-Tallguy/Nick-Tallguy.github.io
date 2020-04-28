@@ -11,7 +11,7 @@ Editor iD
 
 > Revisionato il 2019-06-10
 
-Stai iniziando a mappare per il Gestore attività (tasking manager) HOT o per MissingMaps, etc. ? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
+Stai iniziando a mappare per il Gestore attività (tasking manager) HOT o per MissingMaps, etc? Vedi la [sezione Consigli per HOT](/it/hot-tips/).  
 
 - CONTENUTO
 {:toc}
@@ -51,7 +51,7 @@ Interfaccia utente dell'editor iD
     Salta alla tua posizione geografica ![image11][]{: height="24px"}  
     Configura il livello di sfondo, *tasto scorciatoia* **b** ![image12][]{: height="24px"}  
     Dati visualizzati sulla mappa, *tasto scorciatoia* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    Problematiche, *scorciatoia da tastiera* **i** ![Issues][]{: height="24px"}  
     Apri il menu di aiuto, *scorciatoia da tastiera* **h** ![image13][]{: height="24px"}  
 4. **Pannello informazioni:** Questo pannello mostra diverse informazioni, quali l'indicatore della scala e quali utenti hanno contribuito all'area visualizzata.  
 
@@ -67,7 +67,7 @@ e inserisci il tuo **indirizzo URL del Fieldpaper**, che sarà qualcosa simile a
 Per **visualizzare tue tracce GPS dal tuo computer** (in formato GPX), seleziona, trascina e rilascia il tuo file nella finestra dell'editor iD.  
 Per abilitare **le tracce GPS OpenStreetMap** clicca sul riquadro. Nell'immagine sotto sono mostrate delle tracce GPS pubbliche in diversi colori, è mostrato anche il senso di percorrenza.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Per cambiare l'**aspetto delle immagini di sfondo** clicca **Impostazioni dello sfondo**.  
 ![DisplayOptions][]  
 Se c'è un [disallineamento delle immagini](/en/josm/aerial-imagery), puoi **correggere lo scostamento** cliccando su **Correggi spostamento immagini**.  
 ![image18][]  
@@ -99,20 +99,20 @@ Per inserire una nuova linea, fai click sul bottone **Linea**. ![image4][]{: hei
 - Puoi trascinare punti dalla linea semplicemente cliccandoci sopra col tasto sinistro del mouse e trascinandoli.  
 - Quando clicchi con il tasto sinistro del mouse su un punto individuale (nodo) della linea e clicchi con il tasto destro del mouse o premi la barra spaziatrice per attivare il menù contestuale, vedrai i seguenti strumenti:  
   - Continua la linea da questo punto ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+  - Disconnetti le linee in questo punto ![PointToolDisconnect][]{: height="24px"}  
+  - Dividi una linea in questo punto. ![PointToolSplit][]{: height="24px"}  
+  - Elimina il punto dalla linea. ![PointToolDelete][]{: height="24px"}  
 - Quando clicchi con tasto sinistro del mouse su una linea (ma non su un punto) vedrai apparire questi strumenti:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   Crea un cerchio dalla linea (attivo solo se la linea è chiusa) ![LineToolCircularize][]{: height="24px"}  
+  -   Disconnetti la linea dagli altri oggetti ![LineToolDisconnect][]{: height="24px"}  
+  -   Muovi la linea ![LineToolMove][]{: height="24px"}  
+  -   Rendi a spigolo vivo tutti gli angoli ![LineToolSquare][]{: height="24px"}  
+  -   Refletti la linea rispetto il suo asse corto ![LineToolReflectShort][]{: height="24px"}  
+  -   Refletti la linea rispetto il suo asse lungo  ![LineToolReflectLong][]{: height="24px"}  
+  -   Inverti la direzione della linea (utile per fiumi e strade a senso unico) ![LineToolReverse][]{: height="24px"}  
+  -   Ruota la linea intorno al suo centro ![LineToolRotate][]{: height="24px"}  
+  -   Raddrizza la linea ![LineToolStraighten][]{: height="24px"}  
+  -   Cancella la linea. ![LineToolDelete][]{: height="24px"}  
 
 Una "linea" creata nell'editor iD è realmente una "way" (un percorso) con "tag" (descrittori) applicati su di essa.
 
@@ -139,13 +139,13 @@ Quando selezioni un qualsiasi contorno del multipoligono appena creato puoi vede
 
 ![part of multipolygon][]
 
-## Issues
+## Problemi
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+L'editor effettua un numero di controlli non appena viene modificato qualcosa. Se pensa che quello che hai fatto possa causare problemi lo notifica nella scheda problemi. Qualora l'icona problemi presenti un punto giallo (in caso di segnalazioni) o rosso (in caso si problemi) sarebbe opportuno aprire la scheda e visionare i messaggi che vengono riportati. Questa informazione è visualizzata anche nella scheda delle caratteristiche sulla sinistra quando l'oggetto è selezionato. Si viene anche avvertiti che sono presenti dei problemi quando si caricano le modifiche. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+La parte inferiore della scheda dei problemi mostra le regole disponibili e ti permette di disabilitarle individualmente, anche se questo non è raccomandato.
 
 Salvare le modifiche
 --------------------
@@ -160,11 +160,11 @@ Quando (e se) vuoi salvare le tue modifiche su OpenStreetMap, clicca il bottone 
 Ulteriori informazioni e tag personalizzati
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Quando stai editando un oggetto, vedrai un menu "Aggiungi Campo" sul fondo del pannello attributi. Puoi aggiungere varie informazioni addizionali selezionando una delle possibilità (piano, elevazione, wikipedia etc.).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Oppure puoi aggiungere tag personalizzati cliccando su **Tutti i tag**. ![image44][]{: height="24px"}  
 
 - Questo mostrerà tutti i tag associati all'oggetto.  
 ![image45][]  

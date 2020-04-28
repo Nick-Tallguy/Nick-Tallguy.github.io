@@ -1,21 +1,21 @@
 ---
 layout: doc
-title: Copying, Pasting & Rotating - iD editor
+title: Копіювання, Вставка та Обертання - редактор iD
 permalink: /uk/hot-tips/copy-paste/
 lang: uk
 category: hot-tips
 ---
 
-Copying, Pasting & Rotating - iD editor
+Копіювання, Вставка та Обертання - редактор iD
 ============
 
-> Updated 2019-06-24
+> Редакція 2019-06-24
 
 ![copy-paste][]
 
 
-You can easily copy, paste & rotate objects, but make sure they are the right size.  
-Select with your mouse, then **Ctrl+c** to copy, and **Ctrl+v** to paste. If you need to you can 'reflect' an object along either its long or its short axis.   
+Копіювання, вставку та обертання об'єктів робити досить просто, але вам треба переконатись, що їх форма та розмір є відповідними.  
+Виділіть потрібний об'єкт клацнувши по ньому мишею, щоб скопіювати його натисніть **Ctrl+C**, та **Ctrl+V**, щоб вставити. За потреби об'єкт можна віддзеркалити за його довгою чи короткою стороною.   
 
 [copy-paste]:/images/hot-tips/copy-paste.gif
 [keymon]:/images/hot-tips/keymon.png
