@@ -7,7 +7,7 @@ category: coordination
 navigation: skip
 ---
 
-# OSM Tasking Manager Projecten maken en beheren
+# OSM Tasking Manager 3 Project Creation and Administration
 
 
 **If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
@@ -37,9 +37,9 @@ Naar de HOT of OSM Tasking Manager wordt regelmatig verwezen als naar **TM3,** a
 
 Het eerst wat u moet begrijpen is het toegangsniveau. Alle toegang tot TM3 wordt geautoriseerd door middel van de website van [OpenStreetMap](https://www.openstreetmap.org). U heeft een account voor OpenStreetMap (OSM) nodig om toegang te kunnen krijgen tot TM3. Bezoek, als u dat account eenmaal heeft, [de Tasking Manager] (http://tasks.hotosm.org) en klik op **Login to OpenStreetMap**, wat u terug zal brengen naar de pagina van OSM waar u de Tasking Manager kunt autoriseren voor beperkte toegang tot uw account van OSM. 
 
-### Toegangsniveaus binnen de OSM Tasking Manager
+### Access Levels within the OSM Tasking Manager 3
 
-De OSM Tasking Manager heeft drie niveaus voor toegang van gebruikers:
+The OSM Tasking Manager 3 has three user access levels:
 -  **User** - Het meest basale niveau. De gebruiker kan inloggen in TM3 en de functionaliteit ervan gebruiken om een project voor het in kaart brengen te zoeken en te selecteren en daarin te werken. Dit gebruiksniveau wordt volledig beschreven in [de handleiding OSM Tasking Manager binnen LearnOSM](/nl_NL/coordination/tasking-manager-3/). Onthoud dat sommige projecten, zoals die in de status concept (d.i. nog niet gepubliceerd) niet zichtbaar zijn voor gebruikers.  
 -  **Project Manager** - Projectbeheerders hebben toegang om projecten binnen TM3 aan te maken en bij te werken.  
 -  **Administrator** - Beheerders hebben toegang die hen in staat stelt gebruikersniveaus van gebruikers binnen TM3 te beheren.
@@ -52,6 +52,7 @@ U heeft het toegangsniveau Project Manager nodig om nieuwe projecten binnen TM3 
 
 Klik op uw gebruikersnaam in de rechter bovenhoek, dan **Create a New Project.** U kunt dan kiezen om het door u gewenste gebied (AoI) tekenen op een kaart of om een bepaald gebied (Area of Interest = AoI) te importeren vanuit een GeoJSON-bestand;  
 
+> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
 
 ### Tekenen van een gebied voor het in kaart brengen
 

@@ -9,9 +9,9 @@ navigation: skip
 
 **If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
-# OSM Tasking Manager projectbeheer
+# OSM Tasking Manager 2 Project Admin
 
-De OpenStreetMap Tasking Manager is essentieel voor het uitvoeren van een mapathon, het activeren van HOT, of het maken van taken voor het in kaart brengen voor leerling-mappers. De Tasking Manager verdeelt het werk in beheersbare geografische stukken, die conflicten bij bewerken verminderen, speciaal bij een groot aantal mappers. De Tasking Manager helpt ook bij de nauwkeurigheid voor het in kaart brengen en de kwaliteit van de gegevens door een consistente set instructies te verschaffen voor uw mappers (bijv. 'breng alle wegen en gebouwen in kaart'). In het kort: de Tasking Manager beheert hoe u de werkstroom indeelt en verdeelt voor open activiteiten voor het in kaart brengen. Deze module beschrijft het basisbeheer voor de OSM Tasking Manager voor succesvolle gebeurtenissen voor het in kaart brengen. 
+The OpenStreetMap Tasking Manager 2 is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
  Deze handleiding is specifiek geschreven voor die personen die instructies behoeven voor het beheren van de OSM Tasking Manager, inclusief het maken en aanpassen van projecten voor het in kaart brengen van open gebeurtenissen, d.i. 'mapathons'. Deze handleiding is van toepassing voor alle instanties van de OSM Tasking Manager, inclusief de HOT Tasking Manager <http://tasks.hotosm.org/> en de TeachOSM Tasking Manager <http://tasks.teachosm.org/>. Een lijst van andere instanties van de OSM Tasking Manager is t evinden op [de wiki van OpenStreetMap](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager)
 
@@ -20,8 +20,8 @@ Naar de HOT of OSM Tasking Manager wordt regelmatig verwezen als naar **TM2,** a
 ## Inloggen & toegangsniveaus
 Het eerst wat u moet begrijpen is het toegangsniveau. Alle toegang tot TM2 wordt geautoriseerd door middel van <https://www.openstreetmap.org>. U heeft een account voor OpenStreetMap (OSM) nodig om toegang te kunnen krijgen tot TM2. Bezoek, als u dat account eenmaal heeft, <http://tasks.hotosm.org/> en klik op **Login to OpenStreetMap**, wat u terug zal brengen naar de pagina van OSM waar u de Tasking Manager kunt autoriseren voor beperkte toegang tot uw account van OSM. 
 
-### Toegangsniveaus binnen de OSM Tasking Manager
-De OSM Tasking Manager heeft drie niveaus voor toegang van gebruikers:
+### Access Levels within the OSM Tasking Manager 2
+The OSM Tasking Manager 2 has three user access levels:
 -  **User** - Het meest basale niveau. De gebruiker kan inloggen in TM2 en de functionaliteit ervan gebruiken om een project voor het in kaart brengen te zoeken en te selecteren en daarin te werken. Dit gebruiksniveau wordt volledig beschreven in [de handleiding OSM Tasking Manager binnen LearnOSM](/nl_NL/coordination/tasking-manager/). Onthoud dat sommige projecten, zoals die in de status concept (d.i. nog niet gepubliceerd) niet zichtbaar zijn voor gebruikers.  
 -  **Project Manager** - Projectbeheerders hebben toegang om projecten binnen TM2 aan te maken en bij te werken.  
 -  **Administrator** - Beheerders hebben toegang die hen in staat stelt gebruikersniveaus van gebruikers binnen TM2 te beheren.
@@ -35,6 +35,7 @@ Klik op uw gebruikersnaam in de rechter bovenhoek, dan **Create a New Project.**
 
 ![TM Draw or Import][]
 
+> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager.
 
 #### Tekenen van een gebied voor het in kaart brengen
 

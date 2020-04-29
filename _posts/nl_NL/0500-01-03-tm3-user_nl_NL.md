@@ -28,7 +28,7 @@ De [HOT OSM Tasking Manager](http://tasks.hotosm.org) is een programma dat het, 
 
 OpenStreetMap is een door samenwerking van vrijwilligers gemaakte vrije kaart van de wereld. Iedereen mag deelnemen aan OpenStreetMap om elk dele van de wereld dat hen interesseert in kaart te brengen. De Tasking Manager is slechts een manier om grote groepen mensen te coördineren die deelnemen aan OpenStreetMap, maar de meeste bijdragen aan OpenStreetMap worden gemaakt door mensen die niet de Tasking Manager gebruiken.
 
-De Tasking Manager is een totaal afzonderlijk programma ten opzichte van het hoofdproject van OpenStreetMap. Wanneer u bijdraagt aan OpenStreetMap met behulp van de Tasking Manager, gebruikt u in feite meerdere softwareprogramma's:
+The Tasking Manager 3 is a totally separate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager 3, you are actually using multiple software tools:
 
 * OpenStreetMap - Een database met geografische informatie
 * De Tasking Manager - Helpt bij het coördineren van grote groepen mensen die gegevens van OpenStreetMap in hetzelfde gebied bewerken
@@ -36,7 +36,7 @@ De Tasking Manager is een totaal afzonderlijk programma ten opzichte van het hoo
 
 ![TM overview][]
 
-De rol van de Tasking Manager is om een specifieke geografische regio weer te geven die is opgedeeld in kleine, snel in kaart te brengen gebieden, genaamd "Taken" en een manier te verschaffen om één van die kleine gebieden te "selecteren" of te "vergrendelen" terwijl u dat gebied in kaart brengt met behulp van een van de standaard bewerkers voor OpenStreetMap. Door een van deze kleine gebieden "te selecteren" of "te vergrendelen", helpt u er voor te zorgen dat niemand anders datzelfde gebied in kaart brengt terwijl u dat doet. Dit helpt bij het voorkomen van "dubbel in kaart brengen" of andere fouten als twee mensen aan exact hetzelfde gebied werken in OpenStreetMap.
+The role of the Tasking Manager 3 is to present a specific geographic region divided up into small, quick to map areas called "Tasks" and provide a way to "checkout" or "lock" one of those small areas while you map that area using one of the standard OpenStreetMap editors. By "checking out" or "locking" one of those small areas, you help ensure that no one else will be mapping in that same area while you are. This helps prevent "double mapping" or other errors when two people are working on exactly the same area in OpenStreetMap.
 
 Als u eenmaal gereed bent met het in kaart brengen van dat kleine gebied, legt u in de Tasking Manager vast dat u het in kaart brengen van dat kleine gebied hebt voltooid en hopelijk selecteert u een andere "Taak" om in kaart te brengen.
 
@@ -64,13 +64,13 @@ Als u eenmaal gereed bent met het in kaart brengen van dat kleine gebied, legt u
 
 ## Proces van in kaart brengen 
 
-1. Een mapper op afstand maakt een account aan in OpenStreetMap en logt in op de Tasking Manager.
+1. A remote mapper creates an account in OpenStreetMap and logs into the Tasking Manager 3.
 1. De mapper zoekt naar een project om aan te werken, gewoonlijk gebaseerd op prioriteit en ervaringsniveau dat is ingesteld door een projectbeheerder van Tasking Manager. 
 2. Een remote mapper selecteert een taak-vierkant op de kaart, voltooid het in kaart brengen en markeert de taak als voltooid.
 3. Een tweede mapper op afstand controleert of de taak inderdaad compleet is en voldoet aan de gevraagde criteria en markeert de taak als 'gevalideerd'.
 4. De voortgang van het project is te volgen via de tab "Statistieken" van het project en het project kan door een beheerder worden terug geschaald of gearchiveerd als dat nodig is.
 
-### Inloggen in Tasking Manager
+### Tasking Manager 3 Login
 
 De Tasking Manager is een afzonderlijk programma dat het in kaart brengen in OpenStreetMap coördineert. Het maakt echter gebruik van het systeem voor inloggen van OpenStreetMap. Dit betekent dat u geen afzonderlijk gebruikersaccount hoeft te maken voor het gebruiken van de Tasking Manager, maar u dient wel een account te maken voor OpenStreetMap en in te loggen op OpenStreetMap vóórdat u de Tasking Manager kunt gebruiken om in kaart te brengen.
 
@@ -101,7 +101,7 @@ Als u eenmaal bent ingelogd, kunt u op uw gebruikersnaam klikken. Hier kunt u:
 - Naar het scherm **Berichten** binnen de Tasking Manager gaan (dit is niet hetzelfde berichtensysteem als dat van  OpenStreetMap)
 - Uitloggen
 
-### Zoeken naar een project - Tasking Manager scherm Deelnemen
+### Finding a Project - Tasking Manager 3 Contribute Screen
 
 Klikken op de link "Deelnemen" op de hoofdmenubalk zal u naar de lijst met projecten in de Tasking Manager brengen.
 
@@ -129,7 +129,7 @@ Klikken op de tab "Kaartweergave" zal u het aantal projecten in een regio laten 
 
 ![TM project map][]
 
-### In kaart brengen via de Tasking Manager
+### Mapping via the Tasking Manager 3
 
 Als u eenmaal een project hebt gevonden om aan te werken zal klikken op de titel van het project u naar het gedetailleerde item voor dat project brengen. Deze gedetailleerde weergave bevat:
 
@@ -206,6 +206,7 @@ Verschillende opties voor bewerken komen beschikbaar zodra u een taak vergrendel
 
 Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen automatisch worden ingeladen in JOSM.  
 
+>  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
 > 2. Als u de plug-in 'continuousDownload' hebt geïnstalleerd, kunt u die het beste uitschakelen (zet het vinkje uit bij 'Gegevens van OSM doorlopen downloaden' onder het menu **Bestand** in JOSM.  
 > 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kunt u die vinden onder het menu **Afbeeldingen**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)  
   

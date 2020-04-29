@@ -9,9 +9,9 @@ navigation: skip
 
 **If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
-# OSM Tasking Manager Project Admin
+# OSM Tasking Manager 2 Project Admin
 
-The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
+The OpenStreetMap Tasking Manager 2 is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
 
  This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is applicable to all instances of the OSM Tasking Manager including the HOT Tasking Manager <http://tasks.hotosm.org/> and the TeachOSM Tasking Manager <http://tasks.teachosm.org/>. A list of other instances of the OSM Tasking Manager can be found at [the OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager)
 
@@ -20,8 +20,8 @@ The HOT or OSM Tasking Manager is frequently referred to as **TM2,** as a shorth
 ## Logging in & Access Levels
 The first thing to understand is access level. All access to TM2 is authorized through <https://www.openstreetmap.org>. To access TM2 you will need an OpenStreetMap (OSM) account. Once you have this account visit <http://tasks.hotosm.org/> and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
 
-### Access Levels within the OSM Tasking Manager
-The OSM Tasking Manager has three user access levels:
+### Access Levels within the OSM Tasking Manager 2
+The OSM Tasking Manager 2 has three user access levels:
 -  **User** - The most basic level. The user is able to login to TM2 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
 -  **Project Manager** - Project managers have access to create and update projects within TM2.  
 -  **Administrator** - Administrators have access that allows them to manage access levels of users within TM2.
@@ -35,6 +35,7 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 
 ![TM Draw or Import][]
 
+> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager.
 
 #### Draw an area of interest to be mapped
 
