@@ -4,14 +4,14 @@ title: Tasking Manager 2
 permalink: /nl_NL/coordination/tasking-manager/
 lang: nl_NL
 category: coordination
-navigation: skip
+navigatie: overslaan
 ---
 
 # Tasking Manager 2
 
-> Reviewed 2015-08-26  
+> Bijgewerkt op 26-08-2015  
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [ons overzicht van de versies](/nl_NL/coordination/tm-disambiguation) moeten raadplegen**
 
 Index
 -------------

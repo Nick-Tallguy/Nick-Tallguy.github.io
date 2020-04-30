@@ -15,25 +15,25 @@ GPS Essentials
 Instalace GPS Essentials
 -------------
 
-1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
-2.  Tap the “Search” icon in the upper right corner.
-3.  Use the search bar at the top to search for “GPS Essentials”.
-4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
+1. Klepnutím na ikonu aplikace „Obchod Google Play“ na domovské obrazovce zařízení Android otevřete Android Market.
+2. Klepněte na ikonu „Hledat“ v pravém horním rohu.
+3. Pomocí vyhledávací lišty v horní části vyhledejte „GPS Essentials“.
+4. Klepněte na ikonu GPS Essentials a vyberte „Instalovat“. Ikona vypadá takto:
 
     ![GPS Essentials logo][]
 
-If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
+Pokud nemáte přístup ke službě Google Play nebo si chcete stáhnout jiné verze než stabilní verzi, jako jsou starší verze nebo nejnovější beta verzi, můžete si stáhnout GPS Essentials z <http://www.images.com>.
 
 Konfigurace GPS Essentials pro práci offline
 -------------
 
-1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
+1. Otevřete GPS Essentials. Přejděte do Nastavení a vyberte Map Cache. Přesuňte limit mezipaměti na maximum.
 
     ![Map Cache][]
 
-2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
+2. Najděte silné síťové připojení. Na hlavní obrazovce vyberte „Přenosné mapy“. Každá mapa, kterou si prohlížíte v režimu přenosné mapy, se automaticky uloží do paměti systému Android. Uložte mapy, které budete potřebovat offline, v co nejpodrobnějších detailech a pomalu přibližujte jednotlivé body.
 
-3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
+3. Odpojte se od sítě a zobrazujte mapy v režimu přenosných map. Pokud některým mapám chybí podrobnosti, znovu se připojte k síti a pomalu přibližujte požadované místo na mapě.
 
 Funkce GPS na Android telefonu
 -------------
@@ -45,88 +45,88 @@ Před použitím GPS Essentials se ujistěte, že máte povolenou GPS v telefonu
 Připojení k satelitům
 -------------
 
-Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
+Předtím, než přijímač GPS vyšle polohu (což se také nazývá GPS fix), musí přijímat signály alespoň ze čtyř satelitů. Čím níže je satelit nad horizontem, tím déle jeho signály putují atmosférou, takže satelity vysoko nad horizontem mají obvykle lepší signály.
 
 Kontrola satelitů ve vaší oblasti:
 
-1.  From the main menu, select Satellites.
+1. Z hlavní nabídky vyberte Satelity.
 
     ![Satellites page][]
 
-2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
+2. Pokud jsou ve fixu použity alespoň čtyři satelity, můžete začít používat funkce GPS Essentials.
 
 Vytváření tras
 -------------
 
-1.  From the main menu, select Tracks.
+1. Z hlavní nabídky vyberte Trasy.
 
-2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
+2. Na panelu nástrojů klepněte na Start. Vytvoří novou trasu a začne nahrávat. Počkejte několik sekund, dokud nebude k dispozici GPS fix.
 
     ![New Track][]
 
-3.  Select Pause button to pause recording. If you want to continue recording, press it again.
+3. Stisknutím tlačítka Pauza nahrávání pozastavíte. Pokud chcete pokračovat v nahrávání, stiskněte jej znovu.
 
 Vytváření výchozích bodů
 -------------
 
 ### Pomocí Portable Maps
 
-1.  From the main menu, select Portable Maps.
+1. Z hlavní nabídky vyberte Přenosné mapy.
 
-2.  Tap and hold on the map to create a new cursor.
+2. Klepnutím a přidržením na mapě vytvořte nový kurzor.
 
     ![Waypoints1][]
 
-3.  Drag the cursor onto the location where you want the new waypoint.
+3. Přetáhněte kurzor na místo, kde chcete mít nový trasový bod.
 
-4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+4. Klepnutím na Akce zobrazíte podokno akcí. Ikona Akce vypadá takto:
 
     ![Actions][]
 
-5.  Select the Add Tool to create the waypoint.
+5. Vyberte nástroj Přidat a vytvořte trasový bod.
 
     ![Waypoints2][]
 
 ### Pomocí Google Maps
 
-1.  From the main menu, select Google Maps.
+1. Z hlavní nabídky vyberte Mapy Google.
 
-2.  Go to the location where you want to add your waypoint.
+2. Přejděte na místo, kam chcete přidat svůj trasový bod.
 
-3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
+3. Vyberte nástroj Přidat a vytvořte trasový bod. Klepněte na místo na mapě a vytvořte tam Waypoint. Chcete-li vytvořit trasový bod v aktuálním umístění, klepněte znovu na tlačítko Přidat trasový bod.
 
     ![GoogleMaps][]
 
-4.  Repeat steps b and c until you are finished recording your desired waypoints.
+4. Opakujte kroky b a c, dokud neukončíte nahrávání požadovaných trasových bodů.
 
 ### Pomocí stránky Waypoints
 
-1.  From the main menu, select Waypoints.
+1. Z hlavní nabídky vyberte Trasové body.
 
-2.  Select the Add tool to create the waypoint.
+2. Vyberte nástroj Přidat a vytvořte trasový bod.
 
     ![Waypointspage1][]
 
-3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
+3. Začne zaznamenávat váš 1. waypoint. Můžete změnit atributy trasového bodu a stisknutím Zpět se vraťte do seznamu.
 
     ![Waypointspage2][]
 
-4.  When you select the Map pane, you will see where your waypoint is located on the map.
+4. Když vyberete podokno mapy, uvidíte, kde se váš trasový bod nachází na mapě.
 
     ![Waypointspage3][]
 
-5.  Select Close icon to save your waypoint. The Close icon looks like this:
+5. Vyberte ikonu Zavřít pro uložení vašeho trasového bodu. Ikona Zavřít vypadá takto:
 
     ![Close][]
 
 Přidání lokace k fotkám
 -------------
 
-1.  From the main menu, select Camera.
+1. Z hlavní nabídky vyberte Camera.
 
-2.  Take a picture of your desired area for geotagging.
+2. Vyfoťte požadovanou oblast pro geotagging.
 
-3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
+3. Vyfotografovaná fotografie bude sloužit jako waypoint a bude automaticky uložena na stránce Přenosné mapy a Mapy Google.
 
 4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
 

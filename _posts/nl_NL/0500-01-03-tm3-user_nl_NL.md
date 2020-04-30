@@ -4,13 +4,13 @@ title: Tasking Manager 3
 permalink: /nl_NL/coordination/tasking-manager3/
 lang: nl_NL
 category: coordination
-navigation: skip
+navigatie: overslaan
 ---
 
 # Tasking Manager 3
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [ons overzicht van de versies](/nl_NL/coordination/tm-disambiguation) moeten raadplegen**
 
 Index
 -------------
@@ -28,7 +28,7 @@ De [HOT OSM Tasking Manager](http://tasks.hotosm.org) is een programma dat het, 
 
 OpenStreetMap is een door samenwerking van vrijwilligers gemaakte vrije kaart van de wereld. Iedereen mag deelnemen aan OpenStreetMap om elk dele van de wereld dat hen interesseert in kaart te brengen. De Tasking Manager is slechts een manier om grote groepen mensen te coördineren die deelnemen aan OpenStreetMap, maar de meeste bijdragen aan OpenStreetMap worden gemaakt door mensen die niet de Tasking Manager gebruiken.
 
-The Tasking Manager 3 is a totally separate tool from the main OpenStreetMap project. When you are contributing to OpenStreetMap using the Tasking Manager 3, you are actually using multiple software tools:
+De Tasking Manager 3 is een totaal afzonderlijk programma ten opzichte van het hoofdproject van OpenStreetMap. Wanneer u bijdraagt aan OpenStreetMap met behulp van de Tasking Manager 3, gebruikt u in feite meerdere softwareprogramma's:
 
 * OpenStreetMap - Een database met geografische informatie
 * De Tasking Manager - Helpt bij het coördineren van grote groepen mensen die gegevens van OpenStreetMap in hetzelfde gebied bewerken
@@ -36,18 +36,18 @@ The Tasking Manager 3 is a totally separate tool from the main OpenStreetMap pro
 
 ![TM overview][]
 
-The role of the Tasking Manager 3 is to present a specific geographic region divided up into small, quick to map areas called "Tasks" and provide a way to "checkout" or "lock" one of those small areas while you map that area using one of the standard OpenStreetMap editors. By "checking out" or "locking" one of those small areas, you help ensure that no one else will be mapping in that same area while you are. This helps prevent "double mapping" or other errors when two people are working on exactly the same area in OpenStreetMap.
+De rol van de Tasking Manager 3 is om een specifieke geografische regio weer te geven die is opgedeeld in kleine, snel in kaart te brengen gebieden, genaamd "Taken" en een manier te verschaffen om één van die kleine gebieden te "selecteren" of te "vergrendelen" terwijl u dat gebied in kaart brengt met behulp van een van de standaard bewerkers voor OpenStreetMap. Door een van deze kleine gebieden "te selecteren" of "te vergrendelen", helpt u er voor te zorgen dat niemand anders datzelfde gebied in kaart brengt, terwijl u dat doet. Dit helpt bij het voorkomen van "dubbel in kaart brengen" of andere fouten als twee mensen aan exact hetzelfde gebied werken in OpenStreetMap.
 
 Als u eenmaal gereed bent met het in kaart brengen van dat kleine gebied, legt u in de Tasking Manager vast dat u het in kaart brengen van dat kleine gebied hebt voltooid en hopelijk selecteert u een andere "Taak" om in kaart te brengen.
 
 
 ## Gids Snel starten
 
-1. If you do not have an OpenStreetMap account then go to https://openstreetmap.org and create one. This will be the login details you use to log in to the Tasking Manager. <br/>
+1. Als u geen account voor OpenStreetMap hebt, ga dan naar https://openstreetmap.org en maak er een. Dat zullen de inloggegevens zijn die u gebruikt om in te loggen in de Tasking Manager. <br/>
   ![TM Quick Start 1][]
-2. Visit [http://tasks.hotosm.org/](http://tasks.hotosm.org/) and log in via the upper right corner  
+2. Bezoek [https://tasks.hotosm.org/](https://tasks.hotosm.org/) en log in via de rechterbovenhoek  
   ![TM Quick Start 2][]
-  > You must provide a valid email address in your profile (accessible through the first entry in the menu in the upper right corner) before you can start mapping.
+  > U moet een geldig e-mailadres opgeven in uw profiel (toegankelijk via het eerste item in de rechterbovenhoek) voordat u kunt beginnen met het in kaart brengen.
 3. Klik op "Deelnemen" en zoek naar een project voor in kaart brengen om aan te werken  
   ![TM Quick Start 3][]
 4. Lees de instructies voor het project  
@@ -64,13 +64,13 @@ Als u eenmaal gereed bent met het in kaart brengen van dat kleine gebied, legt u
 
 ## Proces van in kaart brengen 
 
-1. A remote mapper creates an account in OpenStreetMap and logs into the Tasking Manager 3.
+1. Een mapper op afstand maakt een account aan in OpenStreetMap en logt in op de Tasking Manager 3.
 1. De mapper zoekt naar een project om aan te werken, gewoonlijk gebaseerd op prioriteit en ervaringsniveau dat is ingesteld door een projectbeheerder van Tasking Manager. 
 2. Een remote mapper selecteert een taak-vierkant op de kaart, voltooid het in kaart brengen en markeert de taak als voltooid.
 3. Een tweede mapper op afstand controleert of de taak inderdaad compleet is en voldoet aan de gevraagde criteria en markeert de taak als 'gevalideerd'.
 4. De voortgang van het project is te volgen via de tab "Statistieken" van het project en het project kan door een beheerder worden terug geschaald of gearchiveerd als dat nodig is.
 
-### Tasking Manager 3 Login
+### Inloggen in Tasking Manager 3
 
 De Tasking Manager is een afzonderlijk programma dat het in kaart brengen in OpenStreetMap coördineert. Het maakt echter gebruik van het systeem voor inloggen van OpenStreetMap. Dit betekent dat u geen afzonderlijk gebruikersaccount hoeft te maken voor het gebruiken van de Tasking Manager, maar u dient wel een account te maken voor OpenStreetMap en in te loggen op OpenStreetMap vóórdat u de Tasking Manager kunt gebruiken om in kaart te brengen.
 
@@ -84,9 +84,9 @@ Klikken op die knop brengt u naar de website van OpenStreetMap. Daar dient u in 
 
 ![TM login 3][]
 
-Once you are logged into OpenStreetMap you will be returned to the Tasking Manager. Now is the time to add your email address to the profile. Click on your username in the upper right corner to open the menu and select the first entry, 'Your profile'. You can edit your contact details using the respective button in the top right part of the form. The Tasking Manager allows to send messages and it is therefore required to provide a valid email address before you can start mapping.
+Als u eenmaal bent ingelogd in OpenStreetMap zult u worden teruggebracht naar de Tasking Manager. Nu is het moment om uw e-mailadres toe te voegen aan het profiel. Klik op uw gebruikersnaam in de rechterbovenhoek om het menu te openen en selecteer het eerste item, 'Uw profiel'. U kunt uw contactdetails bewerken met de respectievelijke knop in het gedeelte rechtsboven in het formulier. De Tasking Manager stelt u in staat berichten te verzenden en het is daarom vereist om een geldig e-mailadres op te geven voordat u begint met het in kaart brengen.
 
-Clicking on Contribute or Get Started will take you to a list of projects you can contribute to.
+Klikken op Deelnemen of Beginnen met in kaart brengen zal u naar de lijst met projecten in de Tasking Manager brengen waaraan u kunt bijdragen.
 
 ### Opties & links
 
@@ -101,7 +101,7 @@ Als u eenmaal bent ingelogd, kunt u op uw gebruikersnaam klikken. Hier kunt u:
 - Naar het scherm **Berichten** binnen de Tasking Manager gaan (dit is niet hetzelfde berichtensysteem als dat van  OpenStreetMap)
 - Uitloggen
 
-### Finding a Project - Tasking Manager 3 Contribute Screen
+### Zoeken naar een project - Tasking Manager 3 scherm Deelnemen
 
 Klikken op de link "Deelnemen" op de hoofdmenubalk zal u naar de lijst met projecten in de Tasking Manager brengen.
 
@@ -129,7 +129,7 @@ Klikken op de tab "Kaartweergave" zal u het aantal projecten in een regio laten 
 
 ![TM project map][]
 
-### Mapping via the Tasking Manager 3
+### In kaart brengen via de Tasking Manager 3
 
 Als u eenmaal een project hebt gevonden om aan te werken zal klikken op de titel van het project u naar het gedetailleerde item voor dat project brengen. Deze gedetailleerde weergave bevat:
 
@@ -150,11 +150,11 @@ Alles wat u van dit project moet weten staat hier!. Aan de bovenkant staat een v
 Onder de beschrijving is het scherm opgedeeld in een linker en rechter gedeelte. Het gedeelte links is een paneel met tabs voor "Instructies", "Kaart", "Valideren" en "Vragen en opmerkingen". Aan de rechterkant staat een kaart van het project en de individuele taken om in kaart te brengen.
 
 - De niet gekleurde taken zijn aangemaakt en beschikbaar voor in kaart brengen
-- Pink grid squares have been invalidated by a validator and are again available for mapping
-- Red areas of the map indicate higher priority areas
+- Roze taken zijn bekeken door een mapper en gemarkeerd als onvoldoende in kaart gebracht en zijn opnieuw beschikbaar voor in kaart brengen
+- Rode gebieden van de kaart geven gebieden met hogere prioriteit aan
 - Geel/Gouden vierkanten hebben hun eerste doorgang voor in kaart brengen voltooid en staan klaar om te worden gevalideerd
-- Blue Tasks are currently being worked on
-- A dark blue border indicates the task selected by you
+- Blauwe taken worden momenteel bewerkt
+- Een donkerblauwe rand geeft aan dat de taak door u is geselecteerd
 - Groene taken hebben hun 2e doorgang voor in kaart brengen voltooid en het in kaart brengen is "gevalideerd"
 - Donkergrijze taken zijn bekeken door een mapper en gemarkeerd als onvoldoende acceptabele afbeeldingen voor in kaart brengen 
 
@@ -183,7 +183,7 @@ De samenvatting bevat een lijst van mappers die tenminste één taak binnen het 
 
 Een logboek van alle achtergelaten opmerkingen over individuele taken staat aan de onderzijde van de pagina. Dit zijn opmerkingen die zijn achtergelaten voor taken en zouden niet moeten worden verward met de tab "Vragen en opmerkingen" wat algemene vragen en opmerkingen over het project als geheel zijn.
 
-You can return to the main project contribution page by clicking on the project title on the Activity and Stats page.
+U kunt terugkeren naar de hoofdpagina voor Deelnemen aan het project door te klikken op de titel van het project op de pagina Activiteit en statistieken.
 
 #### tab Kaart  
 
@@ -206,7 +206,7 @@ Verschillende opties voor bewerken komen beschikbaar zodra u een taak vergrendel
 
 Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen automatisch worden ingeladen in JOSM.  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
+>1. 'Afstandsbediening inschakelen' moet aan staan - te vinden onder **Bewerken/Voorkeuren/Afstandsbediening**
 > 2. Als u de plug-in 'continuousDownload' hebt geïnstalleerd, kunt u die het beste uitschakelen (zet het vinkje uit bij 'Gegevens van OSM doorlopen downloaden' onder het menu **Bestand** in JOSM.  
 > 3. Als JOSM niet automatisch ook de satellietbeelden inlaadt, kunt u die vinden onder het menu **Afbeeldingen**. [Hier staat meer informatie over afbeeldingen](en/josm/more-about-josm/#add-imagery)  
   
@@ -265,7 +265,7 @@ Om het proces efficiënt te laten verlopen, is het handig dat mappers taken als 
 Wanneer u klaar bent met bewerken en denkt dat de taak voltooid is, sla dan eventuele wijzigingen in het bewerkingsprogramma op en ga terug naar de Tasking Manager.  
 
 + Voeg opmerkingen toe aan het vak die vermelden wat je hebt gedaan en nog belangrijker: waar u niet zeker van bent. Bijvoorbeeld: "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".  
-+ Click on the "Mark as Completely Mapped" button, and your work is ready for review.  
++ Klik op de knop "Als voltooid gemarkeerd" en uw werk is klaar om gecontroleerd te worden.  
 
 ##### Een taak markeren als Slechte afbeelding
 
@@ -300,20 +300,20 @@ Wanneer u een bericht moet sturen, zoals een e-mail of een IRC-bericht, en u wil
 
 ## Hulp krijgen 
 
-### E-Mail
+### E-mail
 
-For questions which might require a little research to answer or more detailed explanations, usually the best channel is to write to mapper-support@hotosm.org
+Voor vragen die misschien enig onderzoek vergen om te worden beantwoord of meer gedetailleerde uitleg, is het gewoonlijk het beste om te schrijven naar mapper-support@hotosm.org
 
 ### Live tekstgebaseerde hulp
 
-1. Sign up at slack.hotosm.org. This will require filling in a form and might take a while to be accepted.
-2. Join the mapper-support channel
+1. Registreer u op slack.hotosm.org. Dit vereist het invullen van een formulier en het zou even kunnen duren voordat u geaccepteerd wordt.
+2. Neem deel aan het kanaal mapper-support
 
 ###  Vraag / opmerking voor het project achterlaten - contact opnemen met de maker van het project
 
 Door het gebruiken van de tab "Opmerkingen" voor het project kunt u vragen en opmerkingen van andere gebruikers zien en er zelf een achterlaten. U kunt ook klikken op de link "Contact projectbeheerder" en dat zal uw opmerking/vraag automatisch richten aan de maker van het project. 
 
-All comments are public and it is not live chat. Use the Slack option above if you need immediate attention.
+Alle opmerkingen zijn openbaar en het is niet in echte tijd, live chat. Gebruik de optie Slack hierboven als u onmiddellijk hulp nodig hebt.
 
 ![TM comments][]
 
