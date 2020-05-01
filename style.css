@@ -710,6 +710,12 @@ input.default-value {
     background-position: -109px -183px;
     }
 
+  .doc .highlighter-rouge {
+    background-color: #ccc;
+    font-weight: bold;
+    padding: 0 5px;
+    }
+
 /* contribute page */
 .contribute-intro h4, .contribute-links h4 {
   padding:20px 0px;
