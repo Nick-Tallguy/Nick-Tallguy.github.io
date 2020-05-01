@@ -10,60 +10,60 @@ category: josm
 ==================
 
 
-We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+Nyní jsme pokryli všechny stavební bloky mapování pomocí OpenStreetMap. V části [Mapování pomocí smartphonu, GPS nebo papíru](/en/mobile-mapping/) můžete vidět, jak používat mobilní nástroje pro průzkum oblasti.
 
-In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
+V této kapitole se vrátíme znovu k JOSM a podíváme se na několik nových konceptů, kterými jsme se dosud nezabývali.
 
 JOSM Vrstvy
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
+Pokud jste postoupili až sem, možná jste si všimli, že do JOSM můžeme přidat nejrůznější věci. Můžeme stahovat data OSM, přidávat satelitní snímky Bing, načítat GPS trasy a waypointy a přidávat ručně kreslené mapy - to vše se zobrazuje v mapovém okně JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
+Možná jste si také všimli, že pokaždé, když do JOSM přidáte něco nového, přidá se na panel Vrstvy na pravé straně JOSM další položka. V závislosti na tom, co jste otevřeli, může panel Vrstvy vypadat asi takto:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
+Každá položka v tomto seznamu představuje jiný zdroj dat, který máte otevřený v okně mapy. V tomto příkladu „Data Layer 1“ jsou data OpenStreetMap, která editujeme. „Field Papers“ je vrstva vytvořená, když jsme přidali naši ručně kreslenou mapu do JOSM.
 
 Pokud přidáte satelitní snímky Bing, objeví se nová vrstva v panelu Vrstvy s názvem "Bing Sat."
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
+Myšlenka vrstev může být často obtížně pochopitelná. Dobrým způsobem, jak si představit, je, že každá vrstva je jako poloprůhledný kus papíru a všechny jsou naskládány na sebe. Každý kus papíru obsahuje určitý typ informací a lze je libovolně uspořádat.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
+Vrstvy, které se používají jako reference, jako jsou satelitní snímky, GPS trasy a polní mapy, se často nazývají „základní vrstvy“. Datová vrstva OSM je vrstva, se kterou skutečně pracujete.
 
--   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
+- Chcete-li vrstvu přesunout, klikněte na ni v panelu Vrstvy a kliknutím na šipku nahoru nebo dolů ji přesuňte.
 
 ![Layers up down][]
 
--   To hide a layer, select it with your mouse and click the Show/Hide button:
+- Chcete-li vrstvu skrýt, vyberte ji myší a klikněte na tlačítko Zobrazit / skrýt:
 
 ![Layers show hide][]
 
--   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
--   You can remove a layer by selecting it and using the delete button:
+- Měli byste vidět že vrstva, kterou jste vybrali, zmizela v mapovém okně. Klikněte znovu na Zobrazit / skrýt a znovu se objeví.
+- Vrstvu můžete odstranit tak, že ji vyberete a použijete tlačítko Smazat:
 
 ![Layers delete][]
 
--   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
--   To make a layer active, select it in the Layers panel, and click on the Activate button:
+- A konečně je důležité vědět, že můžete upravovat pouze vrstvu, kterou JOSM považuje za *aktivní*. Pokud nemůžete upravit mapu v okně mapy, je to pravděpodobně proto, že nemáte aktivní vrstvu nastavenou jako aktivní. Většina vrstev, jako jsou GPS body, terénní mapy a satelitní snímky, nelze upravovat. Jediné vrstvy, které lze editovat, jsou data z OpenStreetMap, která se obvykle nazývají „Data Layer 1”“.
+- Chcete-li aktivovat vrstvu, vyberte ji na panelu Vrstvy a klikněte na tlačítko Aktivovat:
 
 ![Layers activate][]
 
 
 Použití GPS dat a terénních dokumentů
 -------------------------------
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
+V kapitolách [Mapování se Smartphone, GPS nebo papírem](/en/mobile-mapping/) jsme viděli, jak shromažďovat data pomocí GPS a terénních map a jak je načítat do JOSM jako vrstvu.
 
-Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
+Jakmile provedete průzkum pomocí některého z těchto nástrojů, musíte informace přidat do OpenStreetMap digitálně.
 
-You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+Děláte to stejným způsobem, jaký jste se naučili dříve - **stáhnout, upravit, uložit**. Rozdíl je v tom, že místo použití pouze satelitních snímků jako základní vrstvy můžete také použít vaše GPS data, terénní mapy, poznámky nebo jejich kombinaci.
 
--   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+- Předpokládejme například, že máte GPS waypointy jako vrstvu pozadí v JOSM, uložili jste do GPS navigační bod s názvem 030 a do notebooku jste napsali, že 030 je škola. Chcete-li přidat tento bod do OpenStreetMap, vyberte nástroj kreslení a dvakrát klikněte na horní bod 030 v okně mapy. Tím vytvoříte bod. Poté přejděte do nabídky Předvolby a najděte předvolbu pro školu. Zadejte název školy a klikněte na „Použít nastavení“. Stejným způsobem přidejte čáry a tvary.
 
 ![GPS in JOSM][]
 
 Tagy
 ----
-When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
+Když nakreslíte bod, čáru nebo tvar, má místo, ale žádné informace o tom, co to je. Jinými slovy, víme **kde** je, ale ne **co** je. Předtím jsme pomocí položek z nabídky Nastavení definovali **co** to je. Způsob, jakým OpenStreetMap ví **co je** objekt, je pomocí **značek**.
 
 A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
 
@@ -73,7 +73,7 @@ You can add as many tags as you want to an object. Tags are saved as pairs of te
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
+Pokud vyberete objekt v JOSM, uvidíte všechny značky, které jsou k němu připojeny, na panelu Vlastnosti vpravo.
 
 ![Properties panel][]
 
