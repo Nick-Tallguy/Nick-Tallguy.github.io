@@ -13,32 +13,36 @@ category: coordination
 
 Section Index
 -------------
--  [Log in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
--  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
--  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
--  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tasking-manager3-project-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tasking-manager3-project-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tasking-manager3-project-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tasking-manager3-project-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tasking-manager3-project-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+-  [Login and access](/en/coordination/tm-admin/#login-and-access)
+-  [Permissions](/en/coordination/tm-admin/#permissions)
+-  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
+    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
+-  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
+    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
+    -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
+    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
+    -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
+    -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
+    -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
+    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tm-admin/#helpful-hints)
+    -  [Publish - do not forget or you never get work done](/en/coordination/tm-admin/#publish)
 
-The Tasking Manager is the essential tool for all kind of groups to coordinate mapping on OpenStreetMap. It helps you to conduct a mapathon, manage a humanitarian mapping initiatives, or you want to create mapping tasks for students. The application divides an area of interest into manageable geographic chunks, that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
+The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
 
-The Software further supports mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the  Tasking Manager for successful mapping events.
+The Software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
 
-This guide covers instructions on the administration of the Tasking Manager, including the creation and modification of mapping projects and handling permissions for mapping and review and validation of data.
+This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
 
-## Access the Tasking Manager
+## Login and access
 
-Access is given to the Tasking Manager by users authorizing themselves through the [OpenStreetMap website](https://www.openstreetmap.org). In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preferance. There click `Sign up` and it redirects you to OpenStreetMap.org to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account. 
+In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preference. There click `Sign up` and it redirects you to the [OpenStreetMap website](https://www.openstreetmap.org) to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account.
 
-### Handling permissions
+## Permissions
 
-The most basic user level is the one of a **mapper**. Mappers are able to login to the Tasking Manager, and they can find and select a mapping project to work on. All of their functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers.
+The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
 
 All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
 
@@ -62,9 +66,9 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 ![TM New][]
 
-### Define the mapping area
+### Define mapping area
 
-![TM Draw mapping area][]
+![TM Draw AoI][]
 
 1. You may switch to other background layers using the buttons on the top. 
 1. Click the `Draw` button on the left.
@@ -89,7 +93,6 @@ After you've adjusted the base grid task size, you can selectively divide certai
 It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
 
 > Considerations for deciding on task sizes:
-> 
 > -  Beginner mappers roughly needs four times as long as an experienced mappers.
 > -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
 > -  Beginner mappers face challenges tracing a lot similar features such as buildings.
@@ -121,11 +124,11 @@ Learn more about how to add descriptions and instructions to the project and get
 
 ### Advanced: Define mapping project areas and tasks with imported geodata
 
-You can be much more precise to draw the area of interest with a geospatial desktop application like JOSM or QGIS, than with the slippy web map inside the Tasking Manager. And you can also determine special task shapes and sizes beforehand.
+Geospatial desktop applications like JOSM or QGIS allow mappers to more precisely draw the areas of interest, compared to the slippy web map inside the Tasking Manager. You can also determine special task shapes and sizes beforehand.
 
-> The suggested workflow to prepare such a file, is to use JOSM, save the area of interest drawn as an OSM file and convert it via geojson.io
+> The Tasking Manager is a web application. Please make sure the file you upload is reduced in it's size. You might want to simplify geometries first and cut off too many digits of the coordinates.
 
-#### Upload a GeoJSON or KML file of the area of interest to be mapped  
+**Upload a GeoJSON or KML file of the area of interest to be mapped**
 
 1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
 2. Browse to your file in the File Upload window.
@@ -137,11 +140,11 @@ After uploading a file to the Tasking Manager you can select if you want to defi
 1. `Square Grid`, with the functionality described above to define tasks.
 2. `Arbitrary Geometries`, coming from the file you just uploaded.
 
-#### Define arbitrary geometries
+**Define arbitrary geometries**
 
-If you uploaded a file to define your project area, that file can also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs. An import of roads project might need custom task shapes or the output from an mapping area reduction process for example.
+If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
 
-Please note, arbitrary geometries can not be split.
+Please note, arbitrary geometries can not be split. They should only be used in special cases, as they have implications on the performance of the tool.
 
 ## Edit a mapping project
 
@@ -156,9 +159,8 @@ After a project has been initially set up and created, you have to edit its info
 - Settings - Project due date and JOSM Presets.
 - Actions - Send messages to contributors, validate and invalidate the entire project with one click.
 
-> Filling in this information carefully is an essential part of making a successfull mapping project. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. Keep in mind, that a fair share of mappers doesn't have previous experience with OpenStreetMap, and are not well familiar with tagging guidelines.
-> 
->  It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
+> Filling in this information carefully is an essential part of a successful mapping project. It is very important project objectives and resources are clearly communicated so mappers are aware of specific and important information. Keep in mind, mappers may not have previous experience with OpenStreetMap, and will not be familiar with tagging guidelines.
+>  It is advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
  
 ### Description
 
@@ -196,6 +198,8 @@ See the below notes on creating good instructions.
 
 **Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
 
+**Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
+
 **Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
 
 **OSMCha filter ID** - OSMCha is offered as a link from the contributions overview. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach  to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here.
@@ -221,8 +225,6 @@ License - Optionally, if there is a specific license required for the mapper to 
 **Mapping permissions** - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a mapper to be part of a team. Teams can be selected below
 
 **Validation permissions** - Allows you to require that a mapper is at the proper level to validate on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a validator to be part of a team. Teams can be selected below
-
-**Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
 
 **Teams** - Select teams for mapping and validation. If you do so then you can restrict mapping and/or validation to team members using the controls above. You may select several teams for each role. Select a team, select a role and press 'Add'. Once you added a team you may edit its role or delete the assignment.
 
