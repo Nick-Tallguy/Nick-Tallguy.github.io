@@ -4,7 +4,7 @@ title: Tasking Manager 2 Projecten maken
 permalink: /nl_NL/coordination/tasking-manager-project-admin/
 lang: nl_NL
 category: coordination
-navigatie: overslaan
+navigation: skip
 ---
 
 **Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [ons overzicht van de versies](/nl_NL/coordination/tm-disambiguation) moeten raadplegen**

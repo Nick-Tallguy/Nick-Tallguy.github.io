@@ -9,25 +9,25 @@ category: beginner
 Az iD szerkesztő
 =============
 
-> Reviewed 2019-06-10
+> Átnézve 2019-06-10
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+A Tasking Manager feladatkezelővel kezd térképezni a Humanitárius OpenStreetMap Team (HOT), a MissingMaps vagy más szervezet számára? Nézze meg [HOT tippjeinket](/hu/hot-tips)!  
 
 - TOC
 {:toc}
 
-Az iD szerkesztő a tulajdonképpeni böngészőből induló OpenStreetMap-szerkesztő. Gyors és könnyen kezelhető, lehetővé teszi a különböző adatforrásokból – például légifelvételek, GPS-adatok, Field Papers nyomtatott térképek vagy Mapillary – történő térképezést.  
+Az iD szerkesztő a tulajdonképpeni böngészőből induló OpenStreetMap-szerkesztő. Gyors és könnyen kezelhető, lehetővé teszi a különböző adatforrásokból – például légi felvételek, GPS-adatok, Field Papers nyomtatott térképek vagy Mapillary – történő térképezést.  
 
-Az iD szerkesztővel remekül végezhetünk kicsi és könnyű szerkesztéseket, amelyeknél nincs szükség a JOSM (vagy egy fejlettebb térképszerkesztő) haladó funkcióira. Ez a fejezet az iD-vel történő szerkesztés alapjait mutatja be.  
+Az iD szerkesztővel remekül végezhetünk kicsi és könnyű szerkesztéseket, amelyeknél nincs szükség a JOSM (egy fejlettebb térképszerkesztő) speciális funkcióira. Ez a fejezet az iD-vel történő szerkesztés alapjait mutatja be.  
 
 Az iD szerkesztő elindítása
 ----------------------
 
 -	Az iD szerkesztőhöz aktív (online) internetkapcsolat szükséges.  
 -	Nyissa meg az internetböngészőt és menjen az OpenStreetMap weboldalára: [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Lépjen be** az OpenStreetMap-fiókjával.  
+-	**Jelentkezzék be** az OpenStreetMap-fiókjával.  
 -	Húzza és nagyítsa a térképet a szerkeszteni kívánt helyre. Húzni úgy tudja, hogy a bal egérgomb lenyomva tartása mellett mozgatja a térképet.  
--	Kattintson a **Szerkesztés** melletti ki nyílra, majd erre: **Szerkesztés a következővel: iD (böngészőben futó szerkesztő)**.  
+-	Kattintson a **Szerkesztés** melletti kis nyílra, majd erre: **Szerkesztés a következővel: iD (böngészőben futó szerkesztő)**.  
 
 ![image1][]
 
@@ -36,40 +36,40 @@ Az iD szerkesztő felhasználói felülete
 -------------------------
 ![image2][]
 
-1. **Elem szerkesztése**: ezen a panelen jelennek meg a térképen kijelölt objektum címkéi.  
+1. **Elem szerkesztése:** ezen a panelen jelennek meg a térképen kijelölt objektum címkéi.  
 	Itt lehet címkéket hozzáadni vagy szerkeszteni.  
-2. **Eszközök**: itt vannak az alapvető szerkesztőeszközök:  
-    Pont (node) rajzolása; *billentyűparancs*: **1** ![image3][]{: height="24px"}  
-    Vonal (way) rajzolása; *billentyűparancs*: **2** ![image4][]{: height="24px"}  
-    Alakzat (polygon) rajzolása; *billentyűparancs*: **3** ![image5][]{: height="24px"}  
-    Visszavonás; *billentyűparancs* **Ctrl+z** ![image6][]{: height="24px"}  
-    Mégis; *billentyűparancs*: **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
-3. **Térkép**: ez a panel különböző beállítási funkciókat tartalmaz:  
-    Nagyítás; *billentyűparancs* **+** ![image9][]{: height="24px"}  
-    Kicsinyítés; *billentyűparancs* **–** ![image10][]{: height="24px"}  
+2. **Eszközök:** itt vannak az alapvető szerkesztőeszközök:  
+    Pont (node) rajzolása, *billentyűparancs:* **1** ![image3][]{: height="24px"}  
+    Vonal (way) rajzolása, *billentyűparancs:* **2** ![image4][]{: height="24px"}  
+    Alakzat (polygon, sokszög) rajzolása, *billentyűparancs:* **3** ![image5][]{: height="24px"}  
+    Visszavonás, *billentyűparancs:* **Ctrl+Z** ![image6][]{: height="24px"}  
+    Mégis, *billentyűparancs:* **Ctrl+Y** ![image7][]{: height="24px"}  
+    Módosítások mentése, *billentyűparancs:* **Ctrl+S** ![Image8][]{: height="32px"}  
+3. **Térkép:** ez a panel különböző beállítási funkciókat tartalmaz:  
+    Nagyítás, *billentyűparancs:* **+** ![image9][]{: height="24px"}  
+    Kicsinyítés, *billentyűparancs:* **–** ![image10][]{: height="24px"}  
     Pozícióm megjelenítése ![image11][]{: height="24px"}  
-    Háttérréteg beállításai; *billentyűparancs* **b** ![image12][]{: height="24px"}  
-    Térképadatok; *billentyűparancs* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
-    Súgó; *billentyűparancs* **h** ![image13][]{: height="24px"}  
+    Háttérréteg beállításai, *billentyűparancs:* **B** ![image12][]{: height="24px"}  
+    Térképadatok, *billentyűparancs* **F** ![Map Data][]{: height="24px"}  
+    Problémák, *billentyűparancs:* **I** ![Issues][]{: height="24px"}  
+    Súgó; *billentyűparancs:* **H** ![image13][]{: height="24px"}  
 4. **Információk**: Ez a panel különféle információkat jelenít meg, például a léptéket és azt, hogy mely felhasználók szerkesztették a területet.  
 
-## Configuring the Background Layer
+## A háttérréteg beállítása
 
-Kattintson a **Háttérbeállítások** gombra vagy használja a **b** *billentyűparancsot*.![image14][]{: height="24px"}  
+Kattintson a **Háttérbeállítások** gombra vagy használja a **B** *billentyűparancsot*.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+A kívánt térképmozaik-szolgáltató alapján **módosíthatja a háttérréteget** (az alapértelmezett Bing légi felvételek).  
 
 Az **Egyéni**re kattintva saját térképmozaikokat is hozzáadhat. Ha például szeretne egy **Field Paper** [^fieldpaper] térképet hozzáadni, kattintson az **Egyéni**re, aztán a nagyító ikonra (keresés), és a következő ablak fog megnyílni:  
 ![image17][]   
 Adja meg a **Field Paper pillanatkép URL**-jét, ami valami ilyesmi lesz: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 A **számítógépről származó GPS-nyomvonalak** (GPX-formátum) megjelenítéséhez egyszerűen húzza az egérrel a GPX-fájlt az iD szerkesztő felületére.  
-Az OpenStreetMapre feltöltöt nyomvonalak megjelenítéséhez kattintson a jelölőnégyzetre. Az alatta lévő térképen megjelennek a nyilvános GPS-nyomvonalak különböző színekkel, amelyek az utazás irányát jelölik.  
+Az OpenStreetMap GPS-nyomvonalak engedélyezéséhez kattintson a dobozra. Az alatta lévő képen megjelennek a nyilvános GPS-nyomvonalak különböző színekkel, amelyek az utazás irányát jelölik.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+A légi felvétel kinézetének módosításához kattintson a **Megjelenítési beállítások**ra.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Ha [a légi felvétel a valósághoz képest eltolódott] (/hu/josm/aerial-imagery/), akkor a **Légi felvétel eltolódásának beállítása** gombra kattintva **korrigálhatja az eltolódást**.  
 ![image18][]  
 
 - A légi felvétel mozgatásához kattintson a navigációs gombokra. Az alapértelmezett pozícióhoz való visszatéréshez kattintson a Visszavonás gombra.  
@@ -79,9 +79,9 @@ Alapvető szerkesztések az iD-vel
 
 ### Pontok hozzáadása  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Új pont hozzáadásához kattintson a ** Pont ** gombra. ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Az egérmutatója plusz (+) jellé változik. Most kattintson egy olyan helyre, amelyről tudja, hogy megjelöl valamit. Például, ha tudja, hogy a környékén található egy kórház, kattintson a kórházépület pozíciójára.  
 ![image21][]  
 - Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
 ![image22][]  

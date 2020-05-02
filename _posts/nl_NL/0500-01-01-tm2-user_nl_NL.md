@@ -4,7 +4,7 @@ title: Tasking Manager 2
 permalink: /nl_NL/coordination/tasking-manager/
 lang: nl_NL
 category: coordination
-navigatie: overslaan
+navigation: skip
 ---
 
 # Tasking Manager 2

@@ -2,17 +2,17 @@
 layout: doc
 permalink: /hu/coordination/
 lang: hu
-title: Coordination
+title: Koordináció
 category: coordination
 cover: yes
 nosearch: true
 
 ---
 
-Coordination
+Koordináció
 ============
 
 
-Because OpenStreetMap involves many people mapping together, it's useful to know how mappers can coordinate this activity.
+Mivel az OpenStreetMap-en sokan térképeznek egyszerre, hasznos tudni, hogy a térképezők hogyan koordinálhatják ezt a tevékenységet.
 
-This section of learnOSM provides information on various tools used for coordinating mapping activities, means of communication, and quality assurance.
+A LearnOSM ezen szakasza a térképezési tevékenységek, a kommunikációs eszközök és a minőségbiztosítás összehangolásához használt különféle eszközökről tájékoztat.

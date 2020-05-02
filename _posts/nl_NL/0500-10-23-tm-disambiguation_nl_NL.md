@@ -3,8 +3,8 @@ layout: doc
 permalink: /nl_NL/coordination/tm-disambiguation/
 lang: nl_NL
 title: Versies van Tasking Manager
-category: coordinatie
-navigation: overslaan
+category: coordination
+navigation: skip
 ---
 
 Versies van Tasking Manager

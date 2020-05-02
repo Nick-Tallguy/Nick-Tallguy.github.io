@@ -11,29 +11,29 @@ nosearch: true
 Útmutató kezdőknek
 ================
 
-> Reviewed 2015-07-12  
+> Állapot: 2015-07-12  
 
-Ez az útmutató lépésről lépésre végigvezet az OpenStreetMap kezdeti használatán. Meg fogod tanulni, hogyan hozz létre egy fiókot, hogyan használd az alapvető térképszerkesztő szoftvereket, a későbbi fejezetekben pedig azt, hogyan mehetsz ki a terepre, 
+Ez az útmutató lépésről lépésre végigvezeti az OpenStreetMap kezdeti használatán. Meg fogja tanulni, hogyan hozzon létre egy fiókot, hogyan használja az alapvető térképszerkesztő szoftvereket, a későbbi fejezetekben pedig azt, hogyan mehet ki a terepre. 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### Újdonság számára az OpenStreetMap, és adatok hozzáadásával szeretné javítani a térképet?
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+Ha szeretné elkezdeni, és megtanulni a térképadatok szerkesztését, akkor azt javasoljuk, hogy az alábbi útmutatókat olvassa el:
+- a [bevezetés](/hu/beginner/introduction/) bemutatja a projekt hátterét
+- Az [első lépések](/hu/beginner/start-osm/) bemutatja, hogyan lehet fiókot készíteni, és segítségül hívni egy szerkesztőt
+- az [iD szerkesztőben) (/hu/beginner/id-editor/) megtanulhatja az adatok szerkesztésének alapjait
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### Már tudja, hogyan kell használni egy szerkesztőt, és szeretne közreműködni a humanitárius térképezésben?
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+A lényeg annak elsajátítása, hogy ebben az összefüggésben hogyan koordinálják a térképezést.
+- a [távoli térképezési útmutatóból] (/hu/coordination/HOT-Remote-Response-Guide/) és a [humanitárius térképezésről](/hu/coordination/humanitarian/) szóló általános tájékoztatóból nagy vonalakban megismerheti a hátteret
+- az igáslovunk a [Tasking Manager feladatkezelő](/hu/coordination/tasking-manager3/), amelynek a munkafolyamatát meg kell ismernie
+
+### Szeretné-e mobil eszközökön is használni az OpenStreetMapet?
+
+A [mobil térképezésnek] (/hu/mobile-mapping/) egy egész fejezetet szenteltünk.
+
+
+### Kiismeri magát a térinformatikai (GIS) eszközök világában, és szeretne hozzáférni a nyers adatokhoz?
+
+Az [adatok beszerzéséről] (/hu/osm-data/getting-data/) és [a Geofabrik és a HOT Export használatáról] (/hu/osm-data/geofabrik-and-hot-export/) útmutatók némi felvilágosítással szolgálnak arról, hogyan lehet az adatbázisból különféle formátumú adatokat kinyerni.

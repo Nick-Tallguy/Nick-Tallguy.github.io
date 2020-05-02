@@ -4,7 +4,7 @@ title: Tasking Manager 3
 permalink: /nl_NL/coordination/tasking-manager3/
 lang: nl_NL
 category: coordination
-navigatie: overslaan
+navigation: skip
 ---
 
 # Tasking Manager 3

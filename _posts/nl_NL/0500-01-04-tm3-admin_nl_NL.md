@@ -4,7 +4,7 @@ title: Tasking Manager 3 Projecten maken
 permalink: /nl_NL/coordination/tasking-manager3-project-admin/
 lang: nl_NL
 category: coordination
-navigatie: overslaan
+navigation: skip
 ---
 
 # OSM Tasking Manager 3 Projecten maken en beheren
