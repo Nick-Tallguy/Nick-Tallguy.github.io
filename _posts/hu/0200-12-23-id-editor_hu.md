@@ -25,7 +25,7 @@ Az iD szerkesztő elindítása
 
 -	Az iD szerkesztőhöz aktív (online) internetkapcsolat szükséges.  
 -	Nyissa meg az internetböngészőt és menjen az OpenStreetMap weboldalára: [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Jelentkezzék be** az OpenStreetMap-fiókjával.  
+-	**Jelentkezzék be** az OpenStreetMap-fiókjával  
 -	Húzza és nagyítsa a térképet a szerkeszteni kívánt helyre. Húzni úgy tudja, hogy a bal egérgomb lenyomva tartása mellett mozgatja a térképet.  
 -	Kattintson a **Szerkesztés** melletti kis nyílra, majd erre: **Szerkesztés a következővel: iD (böngészőben futó szerkesztő)**.  
 
@@ -57,7 +57,7 @@ Az iD szerkesztő felhasználói felülete
 
 ## A háttérréteg beállítása
 
-Kattintson a **Háttérbeállítások** gombra vagy használja a **B** *billentyűparancsot*.![image14][]{: height="24px"}  
+Kattintson a **Háttérbeállítások** gombra vagy használja a **B** *billentyűparancsot*. ![image14][]{: height="24px"}  
 ![image15][]  
 A kívánt térképmozaik-szolgáltató alapján **módosíthatja a háttérréteget** (az alapértelmezett Bing légi felvételek).  
 
@@ -77,122 +77,122 @@ Ha [a légi felvétel a valósághoz képest eltolódott] (/hu/josm/aerial-image
 Alapvető szerkesztések az iD-vel  
 ----------------------  
 
-### Pontok hozzáadása  
+### Pont hozzáadása  
 
 Új pont hozzáadásához kattintson a ** Pont ** gombra. ![image3][]{: height="24px"}  
 
 - Az egérmutatója plusz (+) jellé változik. Most kattintson egy olyan helyre, amelyről tudja, hogy megjelöl valamit. Például, ha tudja, hogy a környékén található egy kórház, kattintson a kórházépület pozíciójára.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Láthatja, hogy a térképhez hozzáadódott egy új pont. Ugyanakkor a bal oldali panel megváltozik, és megjelenik egy űrlapot, amelyen kiválaszthatja az objektum tulajdonságait. A pont kórházként való megjelöléséhez kattintson a **Kórház** elemre.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Az űrlapokkal információkat adhat a ponthoz. Kitöltheti a kórház nevét, címét és/vagy egyéb kiegészítő információit. Ne feledje, hogy minden objektumhoz más beállítások tartoznak, attól függően, hogy milyen címkét választott.  
+- Ha hibát ejt, például rosszul jelöli meg a helyet, akkor áthelyezheti a pontját egy új helyre, ha a ponton a bal egérgombot lenyomva tartja és elhúzza. Ha inkább törölni szeretné a pontot, kattintson a bal egérgombbal a pontra, a jobb egérgombbal történő kattintással aktiválja a helyi menüt, majd kattintson a kukához hasonlító gombra. ![PointToolDelete][]{: height="24px"}  
+Az iD szerkesztőben létrehozott „pötty” az OpenStreetMap szóhasználatával valójában egy önálló „pont” (node), amelyen „címkék” (tags) jelenítik meg a tulajdonságokat.  
 
-### Drawing Lines  
+### Vonal rajzolása  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Új vonal hozzáadásához kattintson a **Vonal** gombra. ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- Az egérmutató plusz (+) jelre változik. Keressen egy utat, amelyet még nem rajzoltak fel a térképre, és kövesse a nyomvonalát. Kattintson egyszer arra a pontra, ahol az útszakasz kezdődik, mozgassa az egeret, és kattintson a további pontok hozzáadásához. Kattintson duplán a rajzfolyamat befejezéséhez. Figyelje meg a bal oldali panelt.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+- Csakúgy, mint egy pontnál, válassza ki a vonalhoz illő címkéket.  
+- Változtathat a vonal vezetésén egyes pontok elhúzásával, ha a bal egérgombbal rákattint egy pontra, és elhúzza azt.  
+- Amikor a bal egérgombbal rákattint a vonal egy pontjára, akkor vagy kattintson a jobb egérgombbal, vagy nyomja meg a szóközt, hogy aktiválja a helyi menüt, ezeket az eszközöket fogja látni:  
+  - A sor folytatása ettől a ponttól ![PointToolContinue][]{: height="24px"}  
+  - Vonalak szétválasztása ennél a pontnál ![PointToolDisconnect][]{: height="24px"}  
+  - Vonal kétfelé vágása ennél a pontnál. ![PointToolSplit][]{: height="24px"}  
+  - Pont törlése a vonalról. ![PointToolDelete][]{: height="24px"}  
+- Ha a bal egérgombbal egy vonalra (de nem egy pontra) kattint, akkor az alábbi eszközöket fogja látni:  
+  -   Kör létrehozása vonalból (csak akkor aktív, ha a vonal zárt) ![LineToolCircularize][]{: height="24px"}  
+  -   Vonal leválasztása más objektumokról ![LineToolDisconnect][]{: height="24px"}  
+  -   Vonal mozgatása ![LineToolMove][]{: height="24px"}  
+  -   Sarkok derékszögesítése ![LineToolSquare][]{: height"24px"}  
+  -   Vonal tükrözése a rövid tengelyére ![LineToolReflectShort][]{: height="24px"}  
+  -   Vonal tükrözése a hosszú tengelyére ![LineToolReflectLong][]{: height="24px"}  
+  -   Vonal irányának megfordítása (folyóknál és egyirányú utcáknál hasznos) ![LineToolReverse][]{: height="24px"}  
+  -   Vonal forgatása a középpontja körül ![LineToolRotate][]{: height="24px"}  
+  -   Vonal kiegyenesítése ![LineToolStraighten][]{: height="24px"}  
+  -   Vonal törlése ![LineToolDelete][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+Az iD szerkesztőben létrehozott „vonal” angolul „way” (út), amelyen címkék (tags) vannak.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+> Megjegyzés a **Törlés**ről: Általában kerüljük mások térképezésének törlését, ha az csupán javításra szorul. Saját hibáit törölheti, de inkább próbálja meg *módosítani* más emberek térképre rajzolt objektumait, ha azokon változtatni kell. Ezzel megőrzi az OSM-adatbázisban az elemek előzményeit, és tiszteletben tartjuk a térképésztársainkat. Ha valóban úgy érzi, hogy valamit törölni kell, fontolja meg, hogy előbb megkérdezi az eredeti térképkészítőt vagy az OSM e-mail listáját.
 
-### Drawing Shapes (Polygons)
+### Alakzat (sokszög) rajzolása
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Új többoldalas alak hozzáadásához kattintson a **Terület** gombra. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- Az egérmutatója plusz (+) jelre változik. A légi felvételek segítségével próbálja nyomon követni egy épület alaprajzát.  
+- Észre fogja venni, hogy az alakzat színe a hozzárendelt tulajdonságoktól függően változik.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Az alakzatok kiválasztásakor és a helyi menü a jobb egérgombbal történő aktiválásakor elérhető eszközök hasonlóak azokhoz, amelyek a vonalra kattintva jelentek meg.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+Az iD szerkesztőben a „sokszög” tulajdonképpen egy „zárt vonal”, címkékkel.
 
-### Drawing Multipolygons
+### Multipoligon rajzolása
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+Időnként olyan sokszöget kell rajzolnunk, amelynek nem csak külső körvonala van, hanem egy vagy több belsője is. Gondoljon például belső udvarokkal rendelkező épületekre vagy a szigetekkel rendelkező tavakra. *Ezeket a vonalakat ne egyetlen vonallal rajzolja meg*, hogy a belső körvonalak a külsőre vannak „függesztve”. Ehelyett külön-külön rajzolja meg az összes körvonalat, kizárólag a külső körvonalra helyezzen címkéket, majd jelölje ki az összes körvonalat és nyomja meg a **c** billentyűt, hogy összekapcsolódjanak egy a multipoligonnak nevezett alakzattá.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+Ha az újonnan létrehozott multipoligon bármelyik körvonalát kijelöli, akkor a bal oldalon láthatja, hogy az melyik multipoligon(ok)hoz tartozik
 
 ![part of multipolygon][]
 
-## Issues
+## Problémák
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+A szerkesztőalkalmazás számos ellenőrzést végrehajt, amint Ön szerkeszt valamit. Ha az alkalmazás úgy látja, hogy az Ön által tett lépések alkalmasint problémát okozhatnak, értesíti Önt a problémák fülön. Ha a jobb oldali probléma ikonon megjelenik egy sárga (figyelmeztetés) vagy piros (hiba) pont, akkor nyissa meg a fület, és nézze meg, hogy mit jelent. Ez az információ a bal oldali objektumfunkció fülön is megjelenik, ha a megfelelő objektum van kijelölve. Arról is kap figyelmeztetést, ha az adatok feltöltésekor még megoldatlan problémák vannak. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+A Problémák fül alsó része bemutatja a rendelkezésre álló szabályokat, és akár azok külön-külön történő letiltását is lehetővé teszi, bár ez nem ajánlott.
 
-Saving Your Changes
+Módosításainak mentése
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Amikor (és ha) el szeretné menteni a szerkesztéseit az OpenStreetMap alkalmazásba, kattintson a **Mentés** gombra. A bal oldali panelen megjelenik a feltöltési panel.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Írjon egy megjegyzést a szerkesztéseiről, majd kattintson a **Mentés** gombra.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Ha egy objektumot (pontot, vonalat vagy területet) éppen akkor szerkesztette, amikor egy másik személy is, akkor figyelmeztetést kap, hogy a szerkesztéseket csak akkor lehet feltölteni, amíg fel nem oldja az **ütközéseket**. Válassza ki, kinek a szerkesztéseit fogadja el és tölti fel. *Az ütközések feloldása gyakran azzal jár, hogy elfogadjuk a többiek által végrehajtott szerkesztéseket. Ilyenkor valószínűleg rövidesen szeretnénk visszatérni a kérdéses objektumhoz, és azt újra szerkeszteni. (**Ebben az esetben az újbóli ütközés elkerülése érdekében célszerű a szerkesztést követően minél hamarabb menteni a módosításokat! **). *
 
-Additional Information and Custom Tags
+További információk és egyedi címkék
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Objektum szerkesztésekor a tulajdonságpanel alján megjelenik egy „Mező hozzáadása” menü. A bejegyzések (layer [réteg], elevation [tengerszint feletti magasság], wikipedia [Wikipédia] stb.) kijelölésével megadhat különféle kiegészítő információkat.  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Vagy hozzáadhat egyéni címkéket is a **Minden címkére** kattintva. ![image44][]{: height="24 képpont"}  
 
-- This will show all the tags attached to the feature.  
+- Ez az objektumhoz csatolt összes címkét megjeleníti.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- Kulcsok és értékek hozzáadásához kattintson a pluszjelre (+), címkék törléséhez pedig kattintson a kuka ikonra.
 
-Further tutorials
+További oktatóanyagok
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+A [külső anyagokról szóló oldalunk] (/hu/resources/#iD) számos, különböző forrásokból származó oktatóvideóhoz tartalmaz linkeket.
 
 iD versus JOSM
 ---------------  
 
-**iD is good for...**
+** Az iD jó eszköz akkor, ha... **
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- egyszerű szerkesztéseket végez  
+- gyors internetkapcsolata van a légi felvételek betöltéséhez és a szerkesztések mentéséhez  
+- biztos akar lenni abban, hogy következetes és egyszerű címkézési séma szerint dolgozik  
+- korlátozva van abban, hogy az Ön által használt számítógépre programot telepítsen
 
-**JOSM is better...**
+**A JOSM jobb eszköz akkor, ha…**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- sok épületet ad hozzá (lásd a bulidings_tool bővítményt)
+- sok már létező sokszöget vagy vonalat szerkeszt
+- megbízhatatlan internetkapcsolaton vagy offline állapotban dolgozik
+- egy konkrét címkézési sémát (vagy egyéni előre beállított értékeket, előbeállításokat) használ
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: Van egy [LearnOSM fejezet] (/hu/mobile-mapping/field-papers/), amely további tájékoztatást ad a Field Papersről.
 
 
 
