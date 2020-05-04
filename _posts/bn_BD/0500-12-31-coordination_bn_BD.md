@@ -12,6 +12,7 @@ nosearch: true
 Coordination
 ============
 
+> Reviewed 2015-09-18
 
 Because OpenStreetMap involves many people mapping together, it's useful to know how mappers can coordinate this activity.
 

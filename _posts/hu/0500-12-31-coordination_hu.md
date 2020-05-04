@@ -12,6 +12,7 @@ nosearch: true
 Koordináció
 ============
 
+> Állapot: 2015-09-18
 
 Mivel az OpenStreetMap-en sokan térképeznek egyszerre, hasznos tudni, hogy a térképezők hogyan koordinálhatják ezt a tevékenységet.
 

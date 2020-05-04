@@ -12,6 +12,7 @@ nosearch: true
 Koordynacja
 ============
 
+> Przejrzano 2015-09-18
 
 Ponieważ OpenStreetMap angażuje wielu ludzi mapujących wspólnie, dobrze jest wiedzieć, jak maperzy koordynują swoje działania.
 
