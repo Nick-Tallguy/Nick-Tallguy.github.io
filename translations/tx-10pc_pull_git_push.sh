@@ -20,9 +20,7 @@ cd ${FOLDER2}
 /usr/local/bin/tx pull -a
 ##
 #### Remove the modules that are no longer updated
-#
-## 0500-10-25-tasking-manager was removed on 25/04/2020
-rm ${FOLDER3}/0500-10-25-tasking-manager*
+# rm ${FOLDER3}/0500-12-06-*  #updated 05/05/2020
 #
 # Copy files for editing from FOLDER3 (translations) to FOLDER5 (translations-temp)
 cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
@@ -42,6 +40,7 @@ mv ${FOLDER5}/0500-10-27* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-12-31* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-10-23* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0500-10-20* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0500-12-06* ${FOLDERINTERIM}/
 #
 # Run edit script on files in FOLDER5 (translations-temp)
 for f in ${FOLDER5}/*
