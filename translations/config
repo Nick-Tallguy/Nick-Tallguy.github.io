@@ -117,25 +117,25 @@ file_filter = translations/0500-10-15-remote-tracing_<lang>.md
 source_lang = en
 type = TXT
 
-# [learnosm-1.0500-10-20-remotemd]
-# file_filter = translations/0500-10-20-remote_<lang>.md
-# source_lang = en
-# type = TXT
+[learnosm-1.0500-10-20-remotemd]
+file_filter = translations/0500-10-20-remote_<lang>.md
+source_lang = en
+type = TXT
 
 [learnosm-1.0500-10-23-tm-disambiguation_enmd]
 file_filter = translations/0500-10-23-tm-disambiguation_<lang>.md
 source_lang = en
 type = TXT
 
-# [learnosm-1.0500-10-24-tm-admin_enmd]
-# file_filter = translations/0500-10-24-tm-admin_<lang>.md
-# source_lang = en
-# type = TXT
+[learnosm-1.0500-10-24-tm-admin_enmd]
+file_filter = translations/0500-10-24-tm-admin_<lang>.md
+source_lang = en
+type = TXT
 
-# [learnosm-1.0500-10-25-tm-user_enmd]
-# file_filter = translations/0500-10-25-tm-user_<lang>.md
-# source_lang = en
-# type = TXT
+[learnosm-1.0500-10-25-tm-user_enmd]
+file_filter = translations/0500-10-25-tm-user_<lang>.md
+source_lang = en
+type = TXT
 
 [learnosm-1.0500-10-27-humanitarianmd]
 file_filter = translations/0500-10-27-humanitarian_<lang>.md
