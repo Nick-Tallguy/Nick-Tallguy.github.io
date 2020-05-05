@@ -10,12 +10,11 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Reviewed 2015-09-18  
 
 Nhóm Humanitarian OpenStreetMap (HOT) là một cộng đồng toàn cầu đang làm việc để áp dụng các nguyên tắc của nguồn mở và chia sẻ dữ liệu mở nhằm hỗ trợ nhân đạo và phát triển kinh tế.  
 
 ### Cách hoạt động Hỗ trợ từ xa của HOT 
-
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 Phần lớn các hoạt động phản hồi của HOT xảy ra từ xa. Sau thảm họa, thành viên của HOT tìm kiếm dữ liệu hiện có và hình ảnh vệ tinh hiện có. Các đối tác quan trọng được liên lạc để cung cấp hình ảnh tương thích ODbL. Một khi hình ảnh đã thu được, cộng đồng ảo sẽ được số hoá, hoặc dấu vết từ hình ảnh (thông thường, tập trung vào các đối tượng có thể nhận biết hữu ích cho đáp ứng nhân đạo, như đường xá, nhà cửa, đường bị chặn, mức lũ lụt ...) và tạo ra dữ liệu và bản đồ. Trong thời gian này, các tổ chức phản hồi cũng được liên lạc để xác định nhu cầu của họ.  
 
@@ -29,7 +28,6 @@ Xét về quy mô của cơn khủng hoảng, HOT phân bổ các nguồn lực 
 
 Để sử dụng HOT Tasking Manager, bạn cần phải đăng ký với OpenStreetMap (OSM) với tên người dùng và mật khẩu. Để biết thêm hướng dẫn, hãy đọc [Hướng dẫn quản lý tác vụ](http://learnosm.org/en/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Công cụ Chỉnh sửa 
 

@@ -10,12 +10,11 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Zuletzt geprüft 2015-09-18  
 
 Das Humanitarian OpenStreetMap Team (HOT) ist eine weltumspannende Gemeinschaft, die daran arbeitet, die Prinzipien von Open Source und Open Data Sharing (also lizenzfreier Quellen und Daten) auf die Bereiche humanitäre Hilfseinsätze und Entwicklungshilfe zu übertragen.  
 
 ### So funktioniert Fernkartierung 
-
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 Die Mehrheit der Tätigkeiten von HOT besteht aus Fernkartierungen. Nach dem Ausbruch von Katastrophen suchen HOT-Mitglieder nach bestehenden Datenquellen und verfügbaren Satellitenbildern. Sobald die Bilder bezogen wurden, digitalisiert die Gemeinschaft die Bilder (normalerweise liegt der Schwerpunkt auf erkennbaren Objekten, die nützlich für humanitäre Zwecke sind, wie z. B. Straßen, Gebäude, blockierte Straßen, Überflutungsgebiete etc.) und erstellt Daten und Karten. Währenddessen werden Hilfsorganisationen kontaktiert, um deren Bedürfnisse zu ermitteln.  
 
@@ -29,7 +28,6 @@ Der [HOT Tasking Manager](http://tasks.hotosm.org/) ist ein Open-Source-Werkzeug
 
 Um den HOT Tasking Manager zu benutzen müssen Sie sich mit Ihrem OpenStreetMap-Benutzernamen und Passwort einloggen. Nähere Informationen finden sie [in einer eigenen Anleitung](/de/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Werkzeuge zum Kartieren 
 

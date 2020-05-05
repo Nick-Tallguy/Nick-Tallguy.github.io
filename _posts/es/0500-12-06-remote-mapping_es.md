@@ -10,12 +10,11 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Revisado 2015-09-18  
 
 El Equipo de OpenStreetMap Humanitario (Humanitarian OpenStreetMap Team - HOT) es una comunidad global que trabaja para aplicar los principios del código abierto y datos abiertos compartiendo hacia la respuesta humanitaria y el desarrollo económico.  
 
 ### ¿Cómo funciona Respuesta Remota?  
-
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 La mayoría de las actividades de respuesta de HOT se producen de forma remota. Después de un desastre, los miembros HOT buscan datos existentes y las imágenes de satélite disponibles. Socios pertinentes se ponen en contacto para proporcionar imágenes compatibles ODbL. Una vez que se obtiene la imagen la comunidad virtual se digitaliza, o rastros de las imágenes (normalmente, la atención se centra en objetos reconocibles que son útiles para la respuesta humanitaria, como carreteras, edificios, carreteras bloqueadas, extensión de la inundación, etc.) y genera los datos y mapas. Durante este tiempo, las organizaciones que respondieron también se ponen en contacto para determinar sus necesidades.  
 
@@ -29,7 +28,6 @@ El [Administrador de Tareas HOT] (http://tasks.hotosm.org/) es una herramienta d
 
 Para utilizar el Administrador de Tareas HOT necesita registrarse con OpenStreetMap (OSM) con un nombre de usuario y contraseña. Para más instrucciones lee el [Tutorial del Administrador de Tareas] (http://learnosm.org/es/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Herramientas de Edición 
 

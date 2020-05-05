@@ -10,12 +10,11 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Przejrzano 2015-09-18  
 
 Humanitarian OpenStreetMap Team (HOT) jest globalną społecznością pracującą na rzecz zastosowania otwartych źródeł i otwartych danych w działaniach humanitarnych i dla rozwoju ekonomicznego.  
 
 ### Jak działa zdalne reagowanie 
-
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 Większość działań reagowania HOT odbywa się zdalnie. Po wystąpieniu katastrofy, członkowie HOT szukają istniejących danych i dostępnych podkładów satelitarnych. Odpowiedni partnerzy są proszeni o dostarczenie podkładów zgodnych z ODbL. Po uzyskaniu podkładu wirtualna społeczność przenosi dane do postaci cyfrowej lub odwzorowuje podkłady (zazwyczaj skupia się na rozpoznawalnych obiektach, które są użyteczne dla służb humanitarnych takich, jak drogi, budynki, zablokowanie drogi, zasięg powodzi, itp.) i generuje dane oraz mapy. W tym czasie nawiązuje się kontakt z organizacjami pomocowymi, aby określić ich potrzeby.  
 
@@ -29,7 +28,6 @@ Biorąc pod uwagę skalę kryzysu, HOT rozdziela potrzebne zasoby i wsparcie jes
 
 Aby używać HOT Tasking Managera musisz zalogować się nazwą użytkownika i hasłem z OpenStreetMap (OSM). Więcej wskazówek znajdziesz w [Samouczku Tasking Managera](http://learnosm.org/pl/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### Narzędzia edycji 
 

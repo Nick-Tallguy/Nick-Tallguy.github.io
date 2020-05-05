@@ -10,12 +10,11 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Reviewed 2019-04-17  
 
 OpenStreetMap人道支援チーム (HOT, Humanitarian OpenStreetMap Team) は全世界のコミュニティであり、オープンソースとオープンデータの共有によって人道支援活動と経済発展という目的を達成しようと活動しています。  
 
 ### リモートレスポンスの基本 
-
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 HOTによる災害対応活動は主にリモートから行われます。災害発生後、HOTメンバーは既存の入手可能なデータや、利用可能な衛星画像を探します。関係各所のパートナーに対してODbLと互換のある衛星画像が得られるかコンタクトをとります。衛星写真の入手後、オンラインでのコミュニティが結成され、衛星画像をトレースしてデジタル化し、地図を作成する活動にとりかかります（通常、トレースの目的は、道路や建物、通行不可の道路や洪水の浸水域など、人道支援に有用な地物の抽出です）。この際、現地で対応を行っている組織に対しても、現地のニーズがどのようなものか、コンタクトが試みられます。  
 
@@ -29,7 +28,6 @@ HOTによる災害対応活動は主にリモートから行われます。災�
 
 HOT Tasking Managerを使うにはOpenStreetMap (OSM) アカウントのユーザ名とパスワードを使ったログインが必要です。より詳しい情報は[Tasking Manager Tutorial](http://learnosm.org/ja/coordination/tasking-manager/)の章を参照ください。  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ### 地図編集ツール 
 

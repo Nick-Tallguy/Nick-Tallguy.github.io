@@ -10,12 +10,11 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
+> Direview 2020-01-07  
 
 Humanitarian OpenStreetMap Team (HOT) adalah komunitas global yang bekerja untuk menerapkan prinsip open-source dan open-data-sharing untuk respon kemanusiaan dan pembangunan ekonomi.  
 
 ## Bagaimana Respon Jarak Jauh Bekerja 
-
-![MissingMapsProcess](http://hot.openstreetmap.org/sites/default/files/styles/large/public/process.png?itok=jlAYWov0)  
 
 Sebagian besar aktifitas respon dari HOT muncul secara jarak jauh. Setelah bencana datang, anggota HOT mencari data yang tersedia dan citra satelit yang bisa digunakanan. Partner yang bersangkutan juga dihubungi untuk bisa menyediakan citra satelit yang kompatibel dengan lisensi ODbL. Setelah citra satelit didapatkan, komunitas virtual mendigitasi, atau menggambar berdasarkan citra satelit (biasanya, fokusnya hanya pada obyek yang bisa dikenali dan berguna untuk respon kemanusiaan, seperti jaringan jalan, bangunan, jalan yang tertutup, wilayah banjir, dsb) dan menyiapkan data serta peta. Saat fase ini, organisasi yang merespon juga dihubungi untuk menentukan kebutuhan mereka.  
 
@@ -29,7 +28,6 @@ Mempertimbangkan skala dari krisis, HOT mengalokasikan sumber daya dan respon ju
 
 Agar bisa menggunakan HOT Tasking manager, Anda harus mendaftar terlebih dahulu dengan akun OpenStreetMap (OSM). Untuk instruksi lebih lanjut baca [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
 
-![HOTTaskingManager](http://hot.openstreetmap.org/sites/default/files/styles/large/public/task_manager_v2_screenshot_CAR_example.png?itok=Q35ytxKl)  
 
 ## Alat Edit 
 
