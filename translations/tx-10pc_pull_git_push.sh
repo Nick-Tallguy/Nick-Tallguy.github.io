@@ -28,6 +28,7 @@ cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
 ##
 #
 ### Move the files that do not need the script run on them
+mv ${FOLDER5}/0200-12-03-* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0200-12-05-* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0200-12-23* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0450-* ${FOLDERINTERIM}/
