@@ -20,7 +20,7 @@ cd ${FOLDER2}
 /usr/local/bin/tx pull -a
 ##
 #### Remove the modules that are no longer updated
-# rm ${FOLDER3}/0500-12-06-*  #updated 05/05/2020
+# rm ${FOLDER3}/0500-10-29*  #updated 05/05/2020
 #
 # Copy files for editing from FOLDER3 (translations) to FOLDER5 (translations-temp)
 cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
@@ -29,19 +29,11 @@ cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
 #
 ### Move the files that do not need the script run on them
 mv ${FOLDER5}/0200-12-05-* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0450-* ${FOLDERINTERIM}/
-mv ${FOLDER5}/1900-12-31* ${FOLDERINTERIM}/
 mv ${FOLDER5}/0200-12-23* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-15* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-01-* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-10* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-12* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-27* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-12-31* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-23* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-20* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-12-06* ${FOLDERINTERIM}/
-mv ${FOLDER5}/0500-10-20* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0450-* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0500-* ${FOLDERINTERIM}/
+mv ${FOLDER5}/0900-12-04* ${FOLDERINTERIM}/
+mv ${FOLDER5}/1900-12-31* ${FOLDERINTERIM}/
 #
 # Run edit script on files in FOLDER5 (translations-temp)
 for f in ${FOLDER5}/*
