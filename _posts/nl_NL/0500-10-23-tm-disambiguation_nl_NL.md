@@ -23,7 +23,7 @@ Deze pagina geeft u een overzicht van de versies van Tasking Manager waarvoor we
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Gebruikershandleiding](/nl_NL/coordination/tm-user) [Handleiding Beheer](/nl_NL/coordination/tm-admin)
+[Gebruikershandleiding](/nl_NL/coordination/tm-user) [Handleiding Projectbeheer](/nl_NL/coordination/tm-admin)
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Deze pagina geeft u een overzicht van de versies van Tasking Manager waarvoor we
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[Gebruikershandleiding](/nl_NL/coordination/tasking-manager) [Handleiding projectbeheer](/nl_NL/coordination/tasking-manager-project-admin)
+[Gebruikershandleiding](/nl_NL/coordination/tasking-manager) [Handleiding Projectbeheer](/nl_NL/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

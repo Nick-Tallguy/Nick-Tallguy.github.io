@@ -72,7 +72,7 @@ Voir aussi
 
 
 
-[Bâtiment rectangulaire]: /images/hot-tips/rectangular_building.gif « Tracer un bâtiment rectangulaire, rendre les coins rectangulaires et ajouter des attributs. »
+[Rectangular building]: /images/hot-tips/rectangular_building.gif « Tracer un bâtiment rectangulaire, rendre les coins rectangulaires et ajouter des attributs. »
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
