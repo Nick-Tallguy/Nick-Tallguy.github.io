@@ -18,7 +18,7 @@ Utilisez le menu pour choisir l'ordre qui vous convient.
 Voir aussi  
 ---------
 
-[![one-minute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap (HOT) (en Anglais)")  
+[![one-minute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap HOT, en Anglais")  
 *Sous-titres disponibles dans certaines langues*  
 
 ![iD help]{: height="400px"}  
@@ -26,17 +26,17 @@ Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procéd
   
 [Liste des raccourcis iD sur le wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
-[wiki OpenStreetMap] (https://wiki.openstreetmap.org/wiki/Main_Page)  
+[wiki OpenStreetMap](https://wiki.openstreetmap.org/wiki/Main_Page)  
 
-[Guide de Blake Girardot sur la cartographie de l'Afrique de l'Ouest] (https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[Guide de Blake Girardot sur la cartographie de l'Afrique de l'Ouest](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
 Si vous êtes nouveau sur OpenStreetMap, les modules suivants de notre section débutant vous seront utiles ;  
 
-- [Introduction à la cartographie] (/fr/beginner/introduction/)  
-- [OpenStreetmap.org] (/fr/beginner/start-osm/)
+- [Introduction à la cartographie](/fr/beginner/introduction/)  
+- [OpenStreetmap.org](/fr/beginner/start-osm/)
 
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help] :/images/hot-tips/id-help.png « Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procédure pas à pas facultative. »
-[one-minute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap (HOT) (en Anglais)"
+[iD help] :/images/hot-tips/id-help.png "Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procédure pas à pas facultative."
+[one-minute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap - HOT, en Anglais"

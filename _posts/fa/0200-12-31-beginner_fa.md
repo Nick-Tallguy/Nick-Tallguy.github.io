@@ -27,7 +27,7 @@ nosearch: true
 
 نکته اصلی این است که یاد بگیرید در این مقوله چگونه نقشه‌کشی هماهنگ می‌گردد.
 - [راهنمای نقشه‌کشی از راه دور](/fa/coordination/HOT-Remote-Response-Guide/) و اطلاعات کلی در مورد [نقشه‌کشی بشردوستانه](/fa/coordination/humanitarian/) یک پس‌زمینه کلی در این مورد می‌دهد
-- نیروی محرکه [مدیریت وظایف](/fa/coordination/tasking-manager3/) است که باید با طرز کار آن آشنا شوید 
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### آیا می‌خواهید از OpenStreetMap بر روی دستگاههای موبایل استفاده کنید؟
 

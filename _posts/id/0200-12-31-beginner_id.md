@@ -27,7 +27,7 @@ Jika Anda ingin memulai dan  ingin mahir dalam menambahkan data peta maka kami m
 
 Poin utama adalah untuk belajar bagaimana pemetaan dalam konteks ini dapat terkoordinasi dengan baik. 
 - [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) dan informasi umum tentang [humanitarian mapping](/en/coordination/humanitarian/) menyediakan sedikit latar belakang
-- alat tersebut adalah [Tasking Manager](/id/coordination/tasking-manager3/) yang cara kerjanya harus Anda pahami
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### Apakah Anda ingin menggunakan OpenStreetMap pada perangkat seluler?
 

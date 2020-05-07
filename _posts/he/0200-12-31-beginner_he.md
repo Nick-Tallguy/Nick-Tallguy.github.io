@@ -27,7 +27,7 @@ nosearch: true
 
 הנקודה העיקרית היא ללמוד איך מיפוי מתואם בהקשר זה.
 - [מדריך מיפוי מרוחק](/he/coordination/HOT-Remote-Response-Guide/) והמידע הכללי על [מיפוי הומניטרי](/he/coordination/humanitarian/) מספקים קצת רקע
-- מנוע העבודה המרכזי הוא [מנהל המשימות](/he/coordination/tasking-manager3/) שכדאי להכיר את אופן העבודה שלו
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### ברצונך להשתמש ב־OpenStreetMap במכשירים ניידים?
 

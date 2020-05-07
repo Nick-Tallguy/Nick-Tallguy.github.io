@@ -27,7 +27,7 @@ nosearch: true
 
 এখানে মূল বিষয় হলো সমন্বিতভাবে মানচিত্র সম্পাদনা। 
 - [রিমোট ম্যাপিং গাইড](/en/coordination/HOT-Remote-Response-Guide/) এবং [humanitarian mapping](/en/coordination/humanitarian/) থেকে প্রথমিক দিকগুলো জানা যাবে
-- মূল সমন্বয়ের জায়গা, [টাস্কিং ম্যানেজার](/en/coordination/tasking-manager3/) এবং এখানে কাজের পদ্ধতি সম্পর্কে পরিচিত হওয়া জরুরী
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### মোবাইল থেকে OpenStreetMap ব্যবহার করতে চান?
 

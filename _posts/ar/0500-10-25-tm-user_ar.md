@@ -196,6 +196,7 @@ Different options for editing are presented to you as soon as you lock a task.
 
 Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
+>  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
 >  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
 >  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
 

@@ -27,7 +27,7 @@ nosearch: true
 
 人道支援マッピングで重要な点は、それぞれのマッピングの文脈で何が求められているかを理解することです。
 - [遠隔マッピングガイド](/ja/coordination/HOT-Remote-Response-Guide/)、および[人道支援マッピング](/ja/coordination/humanitarian/)の概要部分は、背景の理解に役に立ちます
-- [Tasking Manager](/en/coordination/tasking-manager3/)は非常に重要なシステムで、これを使ったワークフローには慣れておく必要があります
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### 携帯端末でOpenStreetMapを使いたい
 
