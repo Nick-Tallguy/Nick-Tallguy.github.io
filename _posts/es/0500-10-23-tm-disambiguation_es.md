@@ -1,19 +1,19 @@
 ---
-layout: documento
+layout: doc
 permalink: /en/coordination/tm-disambiguation/
 lang: en
-title: Tasking Manager Versions
-category: Coordinación
+title: Versiones de Tasking Manager
+category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
+Versiones de Tasking Manager
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+Esta página le ofrece una visión de conjunto sobre las versiones del Tasking Manager para los que les ofrecemos documentación. Seleccione la guía con las capturas de pantalla que correspondan con la versión del software con el cual desea trabajar.
 
 <div class='disambiguation-version' markdown="1">
-## Version 4 ##
+## Versión 4 ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -28,9 +28,10 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Version 3 ##
+## Versión 3 ##
 
 <figure markdown="1">
+
 ![TM3-start][]
 </figure>
 <figure markdown="1">
@@ -44,7 +45,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 
 
 <div class='disambiguation-version' markdown="1">
-## Version 2 ##
+## Versión 2 ##
 
 <figure markdown="1">
 ![TM2-start][]

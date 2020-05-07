@@ -6,9 +6,10 @@ lang: ko
 category: mobile-mapping
 ---
 
-
 BasicAirData GPS 로거
 =======================
+
+> Reviewed 2020-05-05
 
 ![BasicAirData-GPSLogger-002][]
 

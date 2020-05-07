@@ -11,7 +11,6 @@ nosearch: true
 Guida per principianti
 ================
 
-Questa guida può essere scaricata come [beginner_it.odt](/files/beginner_it.odt) oppure [beginner_it.pdf](/files/beginner_it.pdf)  
 Revisionato 2015-07-12  
 
 Questa guida passo passo mostra come iniziare con OpenStreetMap. Imparerai come impostare un account, come usare software semplice per fare modifiche alla mappa e, nei capitoli seguenti, potrai imparare come uscire e raccogliere informazioni da aggiungere alla mappa. 
@@ -28,7 +27,7 @@ in [Editor iD](/it/beginner/id-editor/) imparerai le basi per la modifica dei da
 
 Il punto principale è imparare a capire come funziona la mappatura in questi contesti.
 - la [guida alla mappatura da remoto](/it/coordination/HOT-Remote-Response-Guide/) e le informazioni generali sulla [mappatura umanitaria]/it/coordination/humanitarian/) forniscono qualche indizio a riguardo
-- il perno centrale è il [Tasking Manager](/it/coordination/tasking-manager3/) con cui dovrai prendere famigliarità
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### Vorresti usare OpenStreetMap su dispositivi mobile?
 

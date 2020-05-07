@@ -11,7 +11,7 @@ nosearch: true
 Muongozo Kwa Anayeanza
 ================
 
-Huu muongozo unaweza kupakuliwa kama  [beginner_sw.odt](/files/beginner_sw.odt) au [beginner_sw.pdf](/files/beginner_sw.pdf)  
+> Reviewed 2015-07-12  
 
 This guide shows step by step how to get started with OpenStreetMap. You will learn how to set up an account, how to use basic map editing software, and in later chapters you can learn how to go outside and collect information to put on the map. 
 
@@ -27,7 +27,7 @@ If you want to get started and be able to edit the map data then we recommend th
 
 The main point is to learn how mapping in this context is coordinated.
 - the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tasking-manager3/) whose workflow you should get familiar with
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### Would you like to use OpenStreetMap on mobile devices?
 

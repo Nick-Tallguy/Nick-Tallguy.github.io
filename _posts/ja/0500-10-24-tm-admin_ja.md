@@ -84,6 +84,7 @@ After the overall mapping area has been defined, it is going be divded into smal
 
 The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
 
+> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
 
 After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
 

@@ -1,89 +1,90 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
-permalink: /en/coordination/tm-admin/
-lang: en
+title: Handleiding Beheerder Tasking Manager
+permalink: /nl_NL/coordination/tm-admin/
+lang: nl_NL
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# Handleiding Beheerder Tasking Manager
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**Als de gebruikersinterface van de versie die u gebruikt er anders uitziet dan die welke hier wordt beschreven dan zou u [ons overzicht van de versies](/nl_NL/coordination/tm-disambiguation) moeten raadplegen**
 
-Section Index
+Index gedeelte
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
--  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tm-admin/#helpful-hints)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tm-admin/#publish)
+-  [Inloggen en toegang](/en/coordination/tm-admin/#login-and-access)
+-  [Rechten](/en/coordination/tm-admin/#permissions)
+-  [Een project maken](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [Het in kaart te brengen gebied definiëren](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Taken definiëren](/en/coordination/tm-admin/#define-tasks)
+    -  [Projectgebied verkleinen](/en/coordination/tm-admin/#project-area-trim)
+    -  [Gevorderd: Gebieden voor projecten voor in kaart brengen en taken met geïmporteerde geogegevens definiëren](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
+-  [Een project voor in kaart brengen bewerken](/en/coordination/tm-admin/#edit-a-mapping-project)
+    -  [Omschrijving - het eerste dat gebruikers leren over uw project](/en/coordination/tm-admin/#description)
+    -  [Instructies - wat de gebruikers zouden moeten doen](/en/coordination/tm-admin/#instructions)
+    -  [Metadata - waartoe het project behoort](/en/coordination/tm-admin/#metadata)
+    -  [Prioriteitsgebieden - waar gebruikers zouden moeten beginnen met in kaart brengen](/en/coordination/tm-admin/#priority-areas)
+    -  [Afbeeldingen - de basis voor in kaart brengen](/en/coordination/tm-admin/#imagery)
+    -  [Rechten - wie mogen in kaart brengen en wie valideren](/en/coordination/tm-admin/#permissions)
+    -  [Nuttige hints - hoe u al deze velden in zou moeten vullen](/en/coordination/tm-admin/#helpful-hints)
+    -  [Publiceren - vergeet dit niet of u krijgt het werk nooit af](/en/coordination/tm-admin/#publish)
 
-The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
+De Tasking Manager is het essentiële programma om het in kaart brengen in OpenStreetMap te coördineren. Het ondersteunt initiatieven voor humanitair in kaart brengen, mapathons uitvoeren of het maken van taken om in kaart te brengen voor studenten. De toepassing deelt een gebied op in beheersbare geografische stukken, die snel en met meerdere mensen in kaart kunnen worden gebracht. Deze benadering maakt het verdelen van taken aan veel individuele mappers mogelijk, waardoor mogelijke conflicten bij bewerken worden verkleind. 
 
-The Software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
+De software stimuleert nauwkeurige en kwaliteitsgegevens voor in kaart brengen door een consistente set instructies te verschaffen aan uw mappers (bijv. 'breng alle wegen en gebouwen in kaart'). In het kort is de Tasking Manager hoe u de werkstroom voor open activiteiten voor in kaart brengen instelt en beheert. 
 
-This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
+Deze handleiding beschrijft het basisbeheer van de Tasking Manager. Het behandelt instructies om projecten voor in kaart brengen te maken en aan te passen en het afhandelen van rechten voor in kaart brengen en nakijken van gecrowd-sourcede gegevens.
 
-## Login and access
+## Inloggen en toegang
 
-In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preference. There click `Sign up` and it redirects you to the [OpenStreetMap website](https://www.openstreetmap.org) to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account.
+Voor het inloggen in de Tasking Manager is een account voor OpenStreetMap (OSM) nodig. U kunt de [HOT Tasking Manager](http://tasks.hotosm.org) bezoeken, of enige andere gemeenschapsinstantie van uw voorkeur. Klik daar op `Sign up` en het brengt u naar de [website van OpenStreetMap](https://www.openstreetmap.org) om uw account te maken. Of klik op `Log in` als u al een account hebt, en in de pop-up kunt u de Tasking Manager beperkte toegang verlenen tot uw account van OSM.
 
-## Permissions
+## Rechten
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
+Het meest basale niveau voor een gebruiker is **mapper**. Mappers kunnen inloggen in de Tasking Manager om een project te zoeken en te selecteren om aan te werken. Alle functionaliteiten voor de mapper worden beschreven in de [LearnOSM Handleiding in kaart brengen met Tasking Manager](/nl_NL/coordination/tm-user/). Onthoud dat sommige projecten, zoals die in de status concept (d.i. nog niet gepubliceerd) niet zichtbaar zijn voor gewone gebruikers
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
+Alle speciale rechten worden afgehandeld door *organisaties* en *teams*. Een **organisatie** is de belangrijkste paraplu, en onder elke organisatie kunnen projecten voor in kaart brengen en teams worden gemaakt. Een organisatie zou bijvoorbeeld een gegevensgebruiker kunnen weergeven, zoals een humanitaire organisatie, of een gemeenschap van OpenStreetMap. Als u uw organisatie moet instellen in de Tasking Manager, neem dan contact op met degenen die de instantie van de Tasking Manager technisch onderhouden.
 
-Every organization has one or more **administrators**. They have the permission to create and modify associated projects. All administration options can be accessed through the `Manage` section in the main navigation.
+Elke organisatie heeft één of meer **administrators** (beheerders). Zij hebben de rechten om geassocieerde projecten te maken en aan te passen. Alle opties voor beheer zijn toegankelijk via het gedeelte `Beheren` in de hoofdnavigatie.
 
-Administrators of an organization can create **teams**. Teams are groups of users and they can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+Beheerders van een organisatie kunnen **teams** maken. Teams zijn groepen van gebruikers en zij kunnen voor iedereen zichtbaar zijn of privaat. Zij kunnen ook één of meer beheerders hebben. Teams kunnen zo worden ingesteld dat gebruikers zichzelf kunnen toevoegen of 'alleen op invitatie', wat betekent dat de beheerders van het team in kennis worden gesteld over verzoeken om te worden toegevoegd en daarover moeten beslissen.
 
-For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
+Voor elk project kunnen beheerders specifieke teams aanwijzen om toegang te verlenen tot of te beperken voor in kaart brengen, te definiëren wie de gegevens mag valideren, of wie anders in staat is de metadata voor het project te bewerken.
 
 
-## Create a mapping project
+## Een project voor in kaart brengen maken
 
-To access the administation section, click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
+Klik, om toegang te verkrijgen tot het gedeelte voor beheer, op `Beheren` in de navigatie aan de bovenzijde. Op de eerste regel ziet u een ruimte voor 'Projecten'. Klik, daarnaast, op de knop `Toevoegen` om er een te maken.
 
 ![TM Add Project][]
 
-You may choose between defining the area of interest (mapping area) of your mapping project by either:
+U kunt, om het gebied van interesse (gebied voor in kaart brengen) van uw project voor in kaart brengen te definiëren, kiezen tussen ofwel:
 
-* Option 1: `Draw` the area of interest on a web map (preferred method)
-* Option 2: `Upload file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
+* Optie 1: `Tekenen` van het gebied van interesse op een webkaart (voorkeursmethode)
+* Optie 2: `Bestand uploaden` om het gebied van interesse te importeren vanuit een geoJSON, KML of Shapefile. Dit zou ook specifieke taken kunnen bevatten (meer informatie is te vinden in het gedeelte "Gevorderd maken van project" hieronder)
 
 ![TM New][]
 
-### Define mapping area
+### Het in kaart te brengen gebied definiëren
 
 ![TM Draw AoI][]
 
-1. You may switch to other background layers using the buttons on the top. 
+1. U kunt naar andere lagen voor de achtergrond schakelen met de knoppen aan de bovenzijde. 
 1. Click the `Draw` button on the left.
-2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
-3. Click on your starting point to complete the polygon.
-4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
+2. Houd, om een polygoon te tekenen die het gebied om in kaart te brengen weergeeft in het kaartvenster, de rechtermuisknop ingedrukt om de kaart te verplaatsen zonder te klikken, wat een knoop zal toevoegen.  De polygoon zou net aan het in kaart te brengen gebied moeten omvatten. Dit bespaart tijd bij het voltooien van tegels die niet van belang zijn (d.i. oceaan, bos)
+3. Klik op uw beginpunt om de polygoon te voltooien.
+4. Ga door met het toevoegen van knopen met één enkele muisklik. Een dubbele muisklik zal de polygoon voltooien. <!--Na het voltooien van een polygoon kunt u de knopen verplaatsen of nieuwe toevoegen om het gebied precies zo te krijgen als u dat wilt.-->
 
-### Define tasks
+### Taken definiëren
 
-After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
+Nadat het overall gebied om in kaart te brengen is gedefinieerd, zal het worden opgedeeld in kleinere gebieden, genaamd *Taken*. Deze taken moet een goede grootte hebben, zodat zij snel en door meerdere mensen kunnen worden voltooid, waarbij veel mensen bijdragen aan een collectief doel voor het project.
 
 ![TM Tile Sizes][]
 
 The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
 
+> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
 
 After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
 

@@ -27,7 +27,7 @@ Si vous souhaitez débuter et être capable d'éditer les données de la carte, 
 
 Le point le plus important est d'apprendre comment est coordonnée la cartographie dans ce contexte.
 - le [guide de la cartographie à distance](/fr/coordination/HOT-Remote-Response-Guide/) et les généralités sur la [cartographie humanitaire](/fr/coordination/humanitarian/) donne quelques informations
-- notre cheval de bataille est le [Gestionnaire de Tâches](/fr/coordination/tasking-manager3/) avec lequel vous devez vous familiariser
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### Vous voulez utiliser OpenStreetMap sur un appareil mobile ?
 

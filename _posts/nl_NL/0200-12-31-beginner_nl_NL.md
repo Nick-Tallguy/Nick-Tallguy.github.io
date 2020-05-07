@@ -27,7 +27,7 @@ Als u wilt beginnen en in staat zijn om de gegevens van de kaart te bewerken dan
 
 Het belangrijkste punt is om te leren hoe het in kaart brengen in deze context wordt gecoördineerd.
 - de [handleiding voor het op afstand in kaart brengen](/nl_NL/coordination/HOT-Remote-Response-Guide/) en de algemene informatie over [humanitair in kaart brengen](/nl_NL/coordination/humanitarian/) geven enige achtergronden
-- het werkpaard is de [Tasking Manager](/nl_NL/coordination/tasking-manager3/) waarvan u bekend zou moeten raken met de werkstroom
+- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
 ### Zou u OpenStreetMap willen gebruiken op mobiele apparaten?
 
