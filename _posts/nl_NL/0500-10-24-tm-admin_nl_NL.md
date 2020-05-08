@@ -71,7 +71,7 @@ U kunt, om het gebied van interesse (gebied voor in kaart brengen) van uw projec
 ![TM Draw AoI][]
 
 1. U kunt naar andere lagen voor de achtergrond schakelen met de knoppen aan de bovenzijde. 
-1. Click the `Draw` button on the left.
+1. Klik op de knop `Tekenen` aan de linkerkant,
 2. Houd, om een polygoon te tekenen die het gebied om in kaart te brengen weergeeft in het kaartvenster, de rechtermuisknop ingedrukt om de kaart te verplaatsen zonder te klikken, wat een knoop zal toevoegen.  De polygoon zou net aan het in kaart te brengen gebied moeten omvatten. Dit bespaart tijd bij het voltooien van tegels die niet van belang zijn (d.i. oceaan, bos)
 3. Klik op uw beginpunt om de polygoon te voltooien.
 4. Ga door met het toevoegen van knopen met één enkele muisklik. Een dubbele muisklik zal de polygoon voltooien. <!--Na het voltooien van een polygoon kunt u de knopen verplaatsen of nieuwe toevoegen om het gebied precies zo te krijgen als u dat wilt.-->
@@ -82,9 +82,9 @@ Nadat het overall gebied om in kaart te brengen is gedefinieerd, zal het worden 
 
 ![TM Tile Sizes][]
 
-The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
+Het in kaart te brengen gebied wordt automatisch gesplitst in rastercellen en elke cel wordt een taak. Gebruik de knoppen `Groter` en `Kleiner` om de overall grootte van de vierkanten voor de taken aan te passen.
 
-> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
+> Gebruiken van een satellietafbeelding, om een goede grootte voor de taak te bepalen, is bijzonder nuttig. U kunt tussne verschillende kaartlagen voor de achtergrond schakelen met de knoppen aan de bovenzijde van de kaart. <!-- Indien u aangepaste afbeeldingen hebt voor het project, kunt u die ook laden met behulp van de knop in de rechter bovenhoek van de kaart en een URL voor een TMS of WMS invoeren. -->
 
 After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
 

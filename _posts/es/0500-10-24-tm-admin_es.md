@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
-permalink: /en/coordination/tm-admin/
-lang: en
+title: Guía del Administrador de Tasking Manager
+permalink: /es/coordinación/tm-admin/
+lang: es
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# Guía del Administrador de Tasking Manager
 
 
 **If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
 
-Section Index
+Índice por secciones
 -------------
 -  [Login and access](/en/coordination/tm-admin/#login-and-access)
 -  [Permissions](/en/coordination/tm-admin/#permissions)

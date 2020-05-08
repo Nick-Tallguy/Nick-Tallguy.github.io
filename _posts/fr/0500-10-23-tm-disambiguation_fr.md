@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
+permalink: /fr/coordination/tm-disambiguation/
+lang: fr
 title: Versions du Tasking Manager
 category: coordination
 navigation: skip
@@ -23,7 +23,7 @@ Cette page fournit une vue d'ensemble de tous les versions du Tasking Manager po
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[User guide](/fr/coordination/tm-user) [Administrator guide](/fr/coordination/tm-admin)
 </div>
 </div>
 
@@ -38,7 +38,7 @@ Cette page fournit une vue d'ensemble de tous les versions du Tasking Manager po
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
+[User guide](/fr/coordination/tasking-manager3) [Administrator guide](/fr/coordination/tasking-manager3-projet-admin)
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Cette page fournit une vue d'ensemble de tous les versions du Tasking Manager po
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
+[User guide](/fr/coordination/tasking-manager) [Administrator guide](/fr/coordination/tasking-manager-projet-admin)
 </div>
 </div>
 
