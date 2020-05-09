@@ -9,7 +9,7 @@ category: beginner
 Otras lecturas
 ===============
 
-> Revisado 2015-07-12  
+> Reviewed 2020-05-08  
 
 Si has llegado hasta aquí, ¡Felicitaciones! Debería tener un buen entendimiento ahora de cómo hacer mapas con OpenStreetMap. ¿Qué más puedes hacer con OSM? ¿Cómo se puede obtener más información? ¿Cómo puede mantenerte conectado a la comunidad de editores de mapas?  
 
@@ -55,18 +55,16 @@ La mejor manera de conectarse con la comunidad de usuarios de OpenStreetMap es u
 - Ahora debe ser un miembro de la lista de correo.  
 - Ahora, cuando desee enviar un mensaje a la lista, puede enviarlo a [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), reemplazando "id" con el país de su lista. También recibirá mensajes de correo electrónico cuando otros miembros envien un mensaje a la lista.  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-Uno de estos proyectos se llama MapOSMatic, que se puede acceder a través de su
-navegador en [maposmatic.org](http://www.maposmatic.org/). Esta
-es una herramienta sencilla para imprimir un mapa de cualquier área que elija. Se
-creará automáticamente el mapa, junto con una rejilla sobre el mapa, y un
-índice de ubicaciones que se incluyen en la zona.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 Resumen
@@ -75,6 +73,6 @@ Resumen
 Estas son algunas de las maneras que puede utilizar para mantenerse en contacto con la comunidad OpenStreetMap y aprender más. Esperamos que continúes explorarndo y aprendiendo más acerca de OSM, y contribuyas al proyecto. ¡Feliz Mapeo!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

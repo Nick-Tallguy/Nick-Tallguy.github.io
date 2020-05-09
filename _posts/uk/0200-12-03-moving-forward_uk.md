@@ -9,7 +9,7 @@ category: beginner
 Додаткова інформація
 ===============
 
-> Редакція 2015-07-12  
+> Reviewed 2020-05-08  
 
 Якщо ви дійшли до цього розділу – прийміть наші привітання! Тепер у вас є достатньо чітке уявлення про те, як створюється мапа OpenStreetMap. Що ж ще можна робити з OSM? Як дізнатися більше? Як залишатися на зв’язку зі спільнотою, іншими маперами?  
 
@@ -55,18 +55,16 @@ OpenStreetMap - це спільні зусилля, і ми сподіваємо
 - Тепер ви є членом списку розсилки.  
 - Отже, коли вам треба надіслати повідомлення до списку розсилки, надішліть його на адресу [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), замінюючи “id” на потрібну вам країну. Ви будете також отримувати листи, коли інші будуть писати до списку розсилки.  
 
-<!-- maybe expand and put this back later 
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-Один з таких проєктів – MapOSMatic. Ви можете перейти до нього
-у вашому веб-оглядачі за посиланням [maposmatic.org](http://www.maposmatic.org/).
-Це простий інструмент для видруку мап для будь-якою території.
-Він автоматично створить мапу разом із сіткоб поверх
-та індексом для обраної території.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 Підсумки
@@ -75,6 +73,6 @@ MapOSMatic
 Існує кілька способів за допомогою яких ви можете підтримувати зв’язок зі спільнотою OpenStreetMap та дізнаватись про новини. Ми сподіваємось, що ви продовжите ваші дослідження та дізнаєтесь більше про OSM та зробите свій внесок у проєкт. Хай вам щастить!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

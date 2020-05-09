@@ -9,7 +9,7 @@ category: beginner
 次の一歩
 ===============
 
-> 2018-12-05 レビュー  
+> Reviewed 2020-05-08  
 
 長い道のり、おつかれさまでした！ OpenStreetMapで地図を描くにあたって、あなたは既に十分な知識を得ることができました。では、OSMを使うことによって、具体的に何ができるようになるのでしょうか。また、OSMについてさらに多くのことを知るにはどうしたらよいのでしょうか。マッパーたちのコミュニティと繋がり続けるにはどうしたらよいのでしょうか。  
 
@@ -55,18 +55,16 @@ OpenStreetMapに関する情報は[wiki.openstreetmap.org](http://wiki.openstree
 - 以上で、メーリングリストへの登録は完了です。  
 - メーリングリストにメッセージを送付する際には、[talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org)へメールを送ります。idの部分は、あなたが登録したリスト名に読み替えてください。また同様に、リストに参加しているメンバーがメールを送付した際には、あなたのもとにメールが届きます。  
 
-<!-- maybe expand and put this back later
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ----------
 
-One such project is called MapOSMatic, which you can access through your
-internet browser at [maposmatic.org](http://www.maposmatic.org/). This
-is a simple tool for printing a map of any area you choose. It will
-automatically create the map, along with a grid over the map, and an
-index of locations that are included in the area.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 まとめ
@@ -75,6 +73,6 @@ index of locations that are included in the area.
 OpenStreetMapのコミュニティとつながり、より多くの知識を得るにはいくつもの方法が存在しています。私たちは、OpenStreetMap、さらにその関連プロジェクトに対し、これからもあなたが興味を持ち、学び続けていただけることを祈っています。ようこそ、楽しい地図作りの世界へ！ Happy Mapping！
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

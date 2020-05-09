@@ -18,7 +18,7 @@ Utilisez le menu pour choisir l'ordre qui vous convient.
 Voir aussi  
 ---------
 
-[![one-minute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap HOT, en Anglais")  
+[![one-minute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap HOT, en Anglais"  
 *Sous-titres disponibles dans certaines langues*  
 
 ![iD help]{: height="400px"}  

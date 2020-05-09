@@ -9,7 +9,7 @@ category: beginner
 قراءة متعمقة
 =============== 
 
-> تمت مراجعته 2015-07-12  
+> Reviewed 2020-05-08  
 
 إذا كنت قد وصلت حتى هذا الحد، تهانينا! من المفروض أنه لديك الآن فهم جيد لكيفية صنع الخرائط بـ OpenStreetMap. ماذا يمكنك أن تفعل أكثر بـ OSM؟ كيف يمكنك تعلم المزيد؟ كيف يمكنك البقاء على اتصال بصانعي الخرائط؟  
 
@@ -55,18 +55,16 @@ OpenStreetMap هى جهود تعاونية نامل ان تكون انت جزء 
 - من المفروض الآن أن تكون عضوا في القائمة البريدية.  
 - الآن عندما تريد إرسال رسالة إلى القائمة، يمكنك إرسالها إلى [talk-id@openstreetmap.org] (mailto:talk-id@openstreetmap.org), باستبدال "id" بالبلد للقائمة الخاص بك. سوف تتلقى أيضا رسائل إلكترونية عندما يقوم أعضاء آخرين بإرسال رسالة إلى القائمة.  
 
-<!-- ربما قم بالتوسيع ووضع هذا مرة أخرى في وقت لاحق
-MapOSMatic
+
+Example of OSM use - MyOSMatic
 ---------- 
 
-هكذا مشروع يسمى MapOSMatic، والذي يمكنك الوصول إليه من خلال
-متصفح الانترنت [maposmatic.org](http://www.maposmatic.org/). هذه تعتبر
-أداة بسيطة لطباعة خريطة لأي منطقة تختارها. ستكون
-إنشاء الخريطة تلقائيا، جنبا إلى جنب مع خانة على الخريطة، و
-مؤشر المواقع المدرجة في المنطقة.
+One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
 
-![MapOSMatic][]
--->
+![MyOSMatic][]
+
+
+Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 ملخص
@@ -75,6 +73,6 @@ MapOSMatic
 هذه بعض الطرق التي يمكنك استخدامها وكذا البقاء على اتصال مع مستخدمي OpenStreetMap وتعلم المزيد. نأمل أن تستمر في استكشاف وتعلم المزيد عن OSM والمساهمة في المشروع. استمتع معنا!
 
 
-[MapOSMatic]: /images/beginner/maposmatic-homepage.png
+[MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png

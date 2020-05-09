@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS-logger
 =======================
 
-> Reviewed 2020-05-05
+> Bijgewerkt op 05-05-2020
 
 ![BasicAirData-GPSLogger-002][]
 
