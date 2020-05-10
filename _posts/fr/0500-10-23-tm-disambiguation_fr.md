@@ -38,7 +38,7 @@ Cette page fournit une vue d'ensemble de tous les versions du Tasking Manager po
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/fr/coordination/tasking-manager3) [Administrator guide](/fr/coordination/tasking-manager3-projet-admin)
+[User guide](/fr/coordination/tasking-manager3) [Administrator guide](/fr/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
@@ -54,7 +54,7 @@ Cette page fournit une vue d'ensemble de tous les versions du Tasking Manager po
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/fr/coordination/tasking-manager) [Administrator guide](/fr/coordination/tasking-manager-projet-admin)
+[User guide](/fr/coordination/tasking-manager) [Administrator guide](/fr/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

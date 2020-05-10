@@ -1,19 +1,19 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+permalink: /fa/coordination/tm-disambiguation/
+lang: fa
+title: نسخه‌های مدیر وظایف
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
+نسخه‌های مدیر وظایف
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+این صفحه نمای کلی از نسخه‌های مدیر وظایف می‌دهد که ما برای هر کدام مطلب داریم. یکی از راهنماها را براساس نسخه‌ای که صفحه آن مشابه نرم‌افزاریست که می‌خواهید با آن کار کنید انتخاب کنید. 
 
 <div class='disambiguation-version' markdown="1">
-## Version 4 ##
+## نسخه ۴ ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -23,12 +23,12 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[User guide](/fa/coordination/tm-user) [Administrator guide](/fa/coordination/tm-admin)
 </div>
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Version 3 ##
+## نسخه ۳ ##
 
 <figure markdown="1">
 ![TM3-start][]
@@ -38,13 +38,13 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
+[User guide](/fa/coordination/tasking-manager3) [Administrator guide](/fa/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
 
 <div class='disambiguation-version' markdown="1">
-## Version 2 ##
+## نسخه ۲ ##
 
 <figure markdown="1">
 ![TM2-start][]
@@ -54,7 +54,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
+[User guide](/fa/coordination/tasking-manager) [Administrator guide](/fa/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

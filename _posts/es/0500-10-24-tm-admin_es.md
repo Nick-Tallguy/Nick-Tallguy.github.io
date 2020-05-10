@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Guía del Administrador de Tasking Manager
-permalink: /es/coordinación/tm-admin/
+permalink: /es/coordination/tm-admin/
 lang: es
 category: coordination
 ---
@@ -13,22 +13,22 @@ category: coordination
 
 Índice por secciones
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+-  [Iniciar sesión](/en/coordination/tm-admin/#login-and-access)
+-  [Permisos](/en/coordination/tm-admin/#permissions)
+-  [Crear un proyecto](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [Definir área de mapeo](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Definir tareas](/en/coordination/tm-admin/#define-tasks)
     -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
--  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tm-admin/#helpful-hints)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tm-admin/#publish)
+    -  [Advanzado: Define el área de mapeo y las tareas con geodatos importados](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
+-  [Editar proyecto de mapeo](/en/coordination/tm-admin/#edit-a-mapping-project)
+    -  [Descripción - lo primero que tienen que aprender los usuarios sobre su proyecto](/en/coordination/tm-admin/#description)
+    -  [Instrucciones - qué deben hacer los usuarios](/en/coordination/tm-admin/#instructions)
+    -  [Metadatos - a donde pertence el proyecto](/en/coordination/tm-admin/#metadata)
+    -  [Áreas prioritarias - dónde usuarios deben comenzar a mapear](/en/coordination/tm-admin/#priority-areas)
+    -  [Imágenes - base para elaborar mapas](/en/coordination/tm-admin/#imagery)
+    -  [Permisos - quién puede mapear y validar](/en/coordination/tm-admin/#permissions)
+    -  [Consejos útiles - cómo rellenar todos los campos](/en/coordination/tm-admin/#helpful-hints)
+    -  [Publicar - No olvides o no acabará nunca su trabajo](/en/coordination/tm-admin/#publish)
 
 The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
 
@@ -36,11 +36,11 @@ The Software encourages accurate and quality mapping data by providing a consist
 
 This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
 
-## Login and access
+## Iniciar sesión
 
 In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preference. There click `Sign up` and it redirects you to the [OpenStreetMap website](https://www.openstreetmap.org) to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account.
 
-## Permissions
+## Permisos
 
 The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
 
@@ -53,7 +53,7 @@ Administrators of an organization can create **teams**. Teams are groups of user
 For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
 
 
-## Create a mapping project
+## Crear proyecto de mapeo
 
 To access the administation section, click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
 
@@ -66,17 +66,17 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 ![TM New][]
 
-### Define mapping area
+### Definir área de mapeo
 
 ![TM Draw AoI][]
 
 1. You may switch to other background layers using the buttons on the top. 
-1. Click the `Draw` button on the left.
+1. Haga clic en el botón `Dibujar` situado a la izquierda.
 2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
 3. Click on your starting point to complete the polygon.
 4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
-### Define tasks
+### Definir tareas
 
 After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
 
@@ -116,13 +116,13 @@ If you check the box about trimming to the exact area before clicking on `Trim` 
 After finalizing a the mapping area trim, click `Next`.
 
 
-### Save the project
+### Guardar el proyecto
 
 Give the project a title (can be edited on the next screen) and click `Create`. First step is done.
 
 Learn more about how to add descriptions and instructions to the project and get it published to the mappers in our "Edit a mapping project" chapter below.
 
-### Advanced: Define mapping project areas and tasks with imported geodata
+### Advanzado: Define el área de mapeo y las tareas con geodatos importados
 
 Geospatial desktop applications like JOSM or QGIS allow mappers to more precisely draw the areas of interest, compared to the slippy web map inside the Tasking Manager. You can also determine special task shapes and sizes beforehand.
 
@@ -131,9 +131,9 @@ Geospatial desktop applications like JOSM or QGIS allow mappers to more precisel
 **Upload a GeoJSON or KML file of the area of interest to be mapped**
 
 1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
-2. Browse to your file in the File Upload window.
+2. Busque su fichero en el cuadro de subida de ficheros.
 3. Click the file name to highlight the file and then click ‘Open’.
-4. Imported areas of interest can not be edited.
+4. Áreas de interés importados no pueden ser editados.
 
 After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
 
@@ -146,7 +146,7 @@ If you uploaded a file to define your project area, that file may also contain t
 
 Please note, arbitrary geometries can not be split. They should only be used in special cases, as they have implications on the performance of the tool.
 
-## Edit a mapping project
+## Editar proyecto de mapeo
 
 After a project has been initially set up and created, you have to edit its information and settings:
 
@@ -162,7 +162,7 @@ After a project has been initially set up and created, you have to edit its info
 > Filling in this information carefully is an essential part of a successful mapping project. It is very important project objectives and resources are clearly communicated so mappers are aware of specific and important information. Keep in mind, mappers may not have previous experience with OpenStreetMap, and will not be familiar with tagging guidelines.
 >  It is advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
 
-### Description
+### Descripción
 
 ![TM Description][]
 
@@ -218,7 +218,7 @@ URL Field - A field that takes a TMS URL that will passed automatically to the O
 
 License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
-### Permissions
+### Permisos
 
 ![TM Permissions][]
 

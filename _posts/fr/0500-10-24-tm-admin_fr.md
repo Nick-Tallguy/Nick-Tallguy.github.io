@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager Administrator Guide
-permalink: /en/coordination/tm-admin/
-lang: en
+permalink: /fr/coordination/tm-admin/
+lang: fr
 category: coordination
 ---
 
@@ -76,7 +76,7 @@ You may choose between defining the area of interest (mapping area) of your mapp
 3. Click on your starting point to complete the polygon.
 4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
-### Define tasks
+### Définir tâche
 
 After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
 

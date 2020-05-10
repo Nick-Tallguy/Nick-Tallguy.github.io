@@ -13,7 +13,7 @@ Versiones de Tasking Manager
 Esta página le ofrece una visión de conjunto sobre las versiones del Tasking Manager para los que les ofrecemos documentación. Seleccione la guía con las capturas de pantalla que correspondan con la versión del software con el cual desea trabajar.
 
 <div class='disambiguation-version' markdown="1">
-## Versión 4 ##
+## Version 4 ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -28,7 +28,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Versión 3 ##
+## Version 3 ##
 
 <figure markdown="1">
 
@@ -39,13 +39,13 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordinación/tasking-manager3) [Administrator guide](/es/coordinación/tasking-manager3-proyecto-admin)
+[User guide](/es/coordination/tasking-manager3) [Administrator guide](/es/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
 
 <div class='disambiguation-version' markdown="1">
-## Versión 2 ##
+## Version 2 ##
 
 <figure markdown="1">
 ![TM2-start][]
@@ -55,7 +55,7 @@ Esta página le ofrece una visión de conjunto sobre las versiones del Tasking M
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/es/coordinación/tasking-manager) [Administrator guide](/es/coordinación/tasking-manager-proyecto-admin)
+[User guide](/es/coordination/tasking-manager) [Administrator guide](/es/coordination/tasking-manager-project-admin)
 </div>
 </div>
 
