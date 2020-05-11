@@ -27,7 +27,7 @@ Ha szeretné elkezdeni, és megtanulni a térképadatok szerkesztését, akkor a
 
 A lényeg annak elsajátítása, hogy ebben az összefüggésben hogyan koordinálják a térképezést.
 - a [távoli térképezési útmutatóból] (/hu/coordination/HOT-Remote-Response-Guide/) és a [humanitárius térképezésről](/hu/coordination/humanitarian/) szóló általános tájékoztatóból nagy vonalakban megismerheti a hátteret
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+- igáslovunk a [Tasking Manager feladatkezelő](/hu/coordination/tm-user/): fontos, hogy alaposan tisztában legyen a munkafolyamatával.
 
 ### Szeretné-e mobil eszközökön is használni az OpenStreetMapet?
 

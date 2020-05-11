@@ -1,5 +1,5 @@
 ---
-layout: doc
+layout: doc-rtl
 permalink: /fa/coordination/tm-disambiguation/
 lang: fa
 title: نسخه‌های مدیر وظایف

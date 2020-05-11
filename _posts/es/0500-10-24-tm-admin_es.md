@@ -18,7 +18,7 @@ category: coordination
 -  [Crear un proyecto](/en/coordination/tm-admin/#create-a-mapping-project)
     -  [Definir área de mapeo](/en/coordination/tm-admin/#define-mapping-area)
     -  [Definir tareas](/en/coordination/tm-admin/#define-tasks)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
+    -  [Zona del proyecto](/en/coordination/tm-admin/#project-area-trim)
     -  [Advanzado: Define el área de mapeo y las tareas con geodatos importados](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
 -  [Editar proyecto de mapeo](/en/coordination/tm-admin/#edit-a-mapping-project)
     -  [Descripción - lo primero que tienen que aprender los usuarios sobre su proyecto](/en/coordination/tm-admin/#description)
@@ -70,10 +70,10 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 ![TM Draw AoI][]
 
-1. You may switch to other background layers using the buttons on the top. 
+1. Puede pasar de una capa de fondo a otra utilizando los botones en la parte superior.
 1. Haga clic en el botón `Dibujar` situado a la izquierda.
 2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
-3. Click on your starting point to complete the polygon.
+3. Haga clic en el punto de inicio para completar el polígono.
 4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
 ### Definir tareas
@@ -101,7 +101,7 @@ It is recommended to choose task sizes that you are confident mappers can comple
 
 After finalizing the definition of task sizes, click `Next`.
 
-### Project Area Trim
+### Zona del proyecto
 
 ![TM Trim][]
 
