@@ -27,7 +27,7 @@ Um damit vertraut zu werden und in der Lage zu sein, Kartendaten zu bearbeiten, 
 
 Das Wichtigste ist, dass Sie wissen wie die Kartierung in diesem Umfeld koordiniert wird.
  - die [Anleitung zur Fernbearbeitung](/de/coordination/HOT-Remote-Response-Guide/) und die allgemeinen Information über [Kartierung für humanitäre Zwecke](/de/coordination/humanitarian/) erklären den Hintergrund
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+- das Arbeitspferd ist der [Tasking Manager](/de/coordination/tm-user) mit dessen Arbeitsablauf Sie sich vertraut machen sollten
 
 ### Möchten Sie OpenStreetMap auf mobilen Geräten nutzen?
 

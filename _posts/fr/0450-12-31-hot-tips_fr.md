@@ -18,7 +18,7 @@ Utilisez le menu pour choisir l'ordre qui vous convient.
 Voir aussi  
 ---------
 
-[![one-minute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap HOT, en Anglais"  
+[![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap HOT, en Anglais")  
 *Sous-titres disponibles dans certaines langues*  
 
 ![iD help]{: height="400px"}  
@@ -38,5 +38,5 @@ Si vous êtes nouveau sur OpenStreetMap, les modules suivants de notre section d
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help] :/images/hot-tips/id-help.png "Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procédure pas à pas facultative."
-[one-minute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap - HOT, en Anglais"
+[iD help]:/images/hot-tips/iD-help.png "Menu d'aide iD - toujours disponible lorsque vous modifiez et inclut une procédure pas à pas facultative."
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Tutoriaux vidéos d'une minute - Équipe Humanitaire OpenstreetMap - HOT, en Anglais"

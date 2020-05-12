@@ -36,10 +36,10 @@ Gebäude - Rechteckig nach rund konvertieren
 
 ![Square to round][]  
 
-If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+Wenn ein Gebäude rechteckig erfasst wurde, aber rund sein sollte, kann man es leicht konvertieren;
 
-- move each of the corners so they are now on the perimeter of the round building,
-- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
+- bewege jede Ecke, so dass sie auf dem Umkreis des runden Gebäude liegen, 
+- mache einen Rechtsklick und verwende das Kreiswerkzeug, oder die Taste **o** - es kann ein andere Buchstabe in anderen Sprachen sein.  
 
 Gebäude identifizieren
 ---------------
@@ -68,7 +68,7 @@ Siehe auch
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration, wie ein rundes Gebäude einzuzeichnen ist"
-[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
+[Square to round]: /images/hot-tips/square-round-building.gif "Zeige die Änderung eines rechtwinkligen zu einem runden Geäude"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Runde Gebäude neben einem Strauch"
 [back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Einführungs Videos - Ein Gebäude zu OpenStreetMap hinzufügen"
