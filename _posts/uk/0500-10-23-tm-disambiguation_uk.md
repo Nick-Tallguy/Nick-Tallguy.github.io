@@ -1,19 +1,19 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+permalink: /uk/coordination/tm-disambiguation/
+lang: uk
+title: Версії Менеджера завдань
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
-============
+Версії Менеджера завдань
+=====================
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+На цій сторінці міститься огляд версій Менеджера завдань, щодо яких ми пропонуємо документацію. Оберіть одне з керівництв, керуючись знімком екрану, для того програмного забезпечення, що є у вашому розпорядженні.
 
 <div class='disambiguation-version' markdown="1">
-## Version 4 ##
+## Версія 4 ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -23,12 +23,12 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[Керівництво користувача](/uk/coordination/tm-user), [Керівництво адміністратора](/uk/coordination/tm-admin)
 </div>
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Version 3 ##
+## Версія 3 ##
 
 <figure markdown="1">
 ![TM3-start][]
@@ -44,7 +44,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 
 
 <div class='disambiguation-version' markdown="1">
-## Version 2 ##
+## Версія 2 ##
 
 <figure markdown="1">
 ![TM2-start][]

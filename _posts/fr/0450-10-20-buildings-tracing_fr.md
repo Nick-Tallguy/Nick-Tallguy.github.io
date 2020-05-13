@@ -19,7 +19,7 @@ L'essentiel
 
 ![Rectangular building][]  
 
-> Cette image ![keymon] {: height="24px "} vous montre quels boutons ou molette d'une souris ont été utilisés et quels boutons du clavier ont été enfoncés.  
+> Cette image ![keymon]{: height="24px "} vous montre quels boutons ou molette d'une souris ont été utilisés et quels boutons du clavier ont été enfoncés.  
 
 Points à noter :  
 
@@ -31,7 +31,7 @@ Points à noter :
 - Zoomez assez pour voir les détails - une échelle de zoom de 20 mètres ou moins est généralement appropriée.  
 - **Recherche de bâtiments** - scannez avec votre échelle entre 50 et 80 mètres. Attention aux ombres et aux lignes droites (les bâtiments ronds sont plus difficiles à trouver !)  
 - Les bâtiments et les routes, les rivières, les limites de zone résidentielle (**landuse=residential**) ou d'autres éléments ne doivent pas se chevaucher.  
-- Si vous faites une erreur, utilisez le bouton **Annuler** ! [back arrow] {: height="26px "} pour annuler votre (vos) dernière(s) modification(s)  
+- Si vous faites une erreur, utilisez le bouton **Annuler** ![back arrow]{: height="26px "} pour annuler votre (vos) dernière(s) modification(s)  
 - On améliore tous la carte. Si le contributeur précédent a laissé les bâtiments avec une forme étrange ou incorrecte d'une manière ou d'une autre, corrigez-les et envisagez de leur envoyer un message poli.  
 
 Bâtiments partiellement cachés ou vus sous un angle  
@@ -65,17 +65,17 @@ Comme nous ajoutons des attributs à des bâtiments que nous n'avons jamais visi
 Voir aussi  
 ---------
 
-- [![building-video] {: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN « Tutoriaux Vidéos de l’équipe Humanitaire OpenstreetMap - Ajout d'un bâtiment à OpenStreetMap»)  
+- [![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Tutoriaux Vidéos de l’équipe Humanitaire OpenstreetMap - Ajout d'un bâtiment à OpenStreetMap")  
 *Sous-titres disponibles dans certaines langues*  
 
-- [L'entrée du journal d'Ivan Gayton pour Hadjer Lamis, Tchad - les commentaires des autres indiquent que la description correspond aussi à d'autres parties du monde] (https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+- [L'entrée du journal d'Ivan Gayton pour Hadjer Lamis, Tchad - les commentaires des autres indiquent que la description correspond aussi à d'autres parties du monde](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
 
 
-[Rectangular building]: /images/hot-tips/rectangular_building.gif « Tracer un bâtiment rectangulaire, rendre les coins rectangulaires et ajouter des attributs. »
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "Tracer un bâtiment rectangulaire, rendre les coins rectangulaires et ajouter des attributs."
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png
 [building-tree-ridge]: /images/hot-tips/building-tree-ridge.png
 [building-obscured]: /images/hot-tips/buildings-obscured-traced-1.png "Before & after - tracing a building seen at an angle"
-[building-video]: /images/hot-tips/building-video.png « Tutoriaux Vidéos de l’équipe Humanitaire OpenstreetMap - Ajout d'un bâtiment à OpenStreetMap »
+[building-video]: /images/hot-tips/building-video.png "Tutoriaux Vidéos de l’équipe Humanitaire OpenstreetMap - Ajout d'un bâtiment à OpenStreetMap"
