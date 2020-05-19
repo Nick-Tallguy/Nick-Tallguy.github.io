@@ -147,7 +147,7 @@ There are many different settings that you can customize in JOSM.  One setting t
 Remove the sample layer
 -----------------------
 
-به محض اینکه با این روشهای ویرایش کاملاْ راحت بودید شاید بخواهید که 
+به محض اینکه با این روشهای ویرایش کاملاً راحت بودید شاید بخواهید که 
 توجه خود را به کشیدن نقشه عوارض واقعی معطوف کنید.
 
 _It is very important that you first remove the layer with the sample data.
