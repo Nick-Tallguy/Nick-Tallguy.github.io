@@ -9,7 +9,7 @@ category: beginner
 Otras lecturas
 ===============
 
-> Reviewed 2020-05-08  
+Revisado 2020-05-08  
 
 Si has llegado hasta aquí, ¡Felicitaciones! Debería tener un buen entendimiento ahora de cómo hacer mapas con OpenStreetMap. ¿Qué más puedes hacer con OSM? ¿Cómo se puede obtener más información? ¿Cómo puede mantenerte conectado a la comunidad de editores de mapas?  
 
@@ -56,7 +56,7 @@ La mejor manera de conectarse con la comunidad de usuarios de OpenStreetMap es u
 - Ahora, cuando desee enviar un mensaje a la lista, puede enviarlo a [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), reemplazando "id" con el país de su lista. También recibirá mensajes de correo electrónico cuando otros miembros envien un mensaje a la lista.  
 
 
-Example of OSM use - MyOSMatic
+Ejemplo de uso de OSM - MyOSMatic
 ----------
 
 One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
@@ -64,7 +64,7 @@ One such project is called MyOSMatic, which you can access through your internet
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+Otros usos de los datos de OpenStreetMap se explican en la [secciónOSM-Data de LearnOSM] (/es/osm-data/)
 
 
 Resumen
