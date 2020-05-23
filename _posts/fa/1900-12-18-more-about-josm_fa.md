@@ -1,47 +1,47 @@
 ---
 layout: doc-rtl
-title: فرآیند ویرایش در  JOSM
+title: فرآیند ویرایش با JOSM
 permalink: /fa/josm/more-about-josm/
 lang: fa
 category: josm
 ---
 
-فرآیند ویرایش در JOSM
+فرآیند ویرایش با JOSM
 ========================
 
 
-In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
+در بخش پیشین، JOSM را نصب کردید و نخستین نقطه‌ها، خط‌ها و شکل‌های خود را رسم نمودید. پیش‌تنظیم‌هایی را روی این اشیا به کار گرفتید تا اطلاعاتی دربارهٔ هر کدام به آن‌ها پیوست کنید. در پایان، توانستید نقشهٔ خودتان را در JOSM رسم کنید.
 
 تا به حال تمرین خوبی داشتیم و اکنون آماده‌ایم تا OpenStreetMap را ویرایش کنیم.
 
-In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
+در این بخش نگاه دقیق‌تری به واسط کاربری JOSM می‌اندازیم و می‌بینیم چگونه می‌توانیم با استفاده از آن اوپن‌استریت‌مپ را ویرایش کنیم.
 
-چرخه ویرایش
+چرخهٔ ویرایش
 ---------------------
-Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
+ویرایش اوپن‌استریت‌مپ با استفاده از JOSM همانند ویرایش با iD است که پیشتر دیدیم. اما از آنجایی که JOSM نرم‌افزار رومیزی است، نحوهٔ کارش اندکی متفاوت است. فرآیند ویرایش و ذخیره در اوپن‌استریت‌مپ با استفاده از JOSM همواره این‌گونه است:
 
-1.  **Download** the current map data from OSM
-2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
-3.  **Save** changes to OpenStreetMap
+۱. دادهٔ کنونی نقشه را از OSM **دانلود** می‌کنیم
+۲. با بهره‌گیری از تصاویر ماهواره‌ای، GPS، ورقه‌های میدانی و یادداشت‌ها، به‌عنوان راهنما، آن را **ویرایش** می‌کنیم
+۳. تغییرات را در اوپن‌استریت‌مپ **ذخیره** می‌کنیم
 
-دانلود داده‌های OSM
+دانلود دادهٔ OSM
 --------------------
-The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
+برای برداشتن اولین گام ویرایش باید دادهٔ منطقه‌ای از جهان که می‌خواهیم بهبود بدهیم را دانلود کنیم. به خاطر داشته باشید که هر بار که می‌خواهید تغییری در نقشه بدهید باید این کار را بکنید، زیرا سایر کاربران نقشه را مرتب روزآمد می‌کنند.
 
--   Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
+- روی File در گوشهٔ بالا سمت چپ JOSM کلیک کنید و روی Download from OSM کلیک کنید. این کار پنجرهٔ دانلود را باز می کند. می‌توانید به‌سادگی با کلیک روی دکمهٔ دانلود، که اینجا نشان داده شده است، به این پنجره دسترسی پیدا کنید:
 
 ![JOSM Download Button][]
 
--   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
+- هنگامی که پنجرهٔ دانلود باز می‌شود، نقشه‌ای در برابرتان قرار می‌گیرد. اگر نقشه را نمی‌بینید، روی زبانه‌ای که Slippy map نام دارد کلیک کنید.
 
 ![JOSM Download Dialog][]
 
--   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
+- با استفاده از ماوس نقشه را جابه‌جا کنید و روی منطقه‌ای که خیلی خوب می‌شناسید زوم کنید، مانند زادگاه یا محله‌تان. کنترل‌های اینجا همانند پنجرهٔ نقشهٔ JOSM است. با دکمهٔ سمت راست ماوس می‌توانید نقشه را بکشید و با دکمهٔ چرخانِ نَوَردش می‌توانید زوم را کم و زیاد کنید.
 
-> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
+> گاهی اوقات اگر در حال کار با نوت‌بوک باشید، ممکن است نوردش دشوار باشد. کار با JOSM بسیار ساده‌تر خواهد بود اگر یک ماوس داشته باشید، اما با اکثر نوت‌بوک‌های مدرن می‌توانید با استفاده از صفحهٔ لمسی نَوَردش کنید.
 
--   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
--   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
+- دور منطقه‌ای که می‌خواهید دانلود کنید کادری بکشید. برای رسم کادری جدید، روی نقشه کلیک کنید، دکمهٔ سمت چپ ماوس خود را پایین نگه دارید، و ماوس را برای ایجاد کادر بکشید. برای پایان‌دادن به رسم کادر دکمهٔ ماوس را رها کنید.
+- هنگامی که اندازه و محل کادر رضایت‌بخش بود، روی Download در پایین پنجره کلیک کنید. JOSM دادهٔ این منطقه را از OpenStreetMap دریافت می‌کند و آن را در پنجرهٔ نقشه برای ویرایش باز می‌کند.
 
 ### افزودن تصاویر ماهواره‌ای
 If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
