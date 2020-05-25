@@ -106,7 +106,7 @@
       top:-1px;
       right:-3em;
       width:2em;
-      font-family:'Source Sans Pro',sans-serif;
+      font-family:'Sahel-WOL','Source Sans Pro',sans-serif; /* Sahel-WOL web font only applies to Farsi */
       font-size:12px;
       text-align:center;
     }
@@ -140,7 +140,7 @@ blockquote: footnotes, anything with NOTE tag that's secondary
 */
 
 body {
-  font: normal 17px/1.57 'Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
+  font: normal 17px/1.57 'Sahel-WOL','Source Sans Pro','OpenSansRegular','Helvetica Neue',Helvetica,Verdana,Arial,sans-serif;
   background:#fff;
   color: #404040;
   padding: 0;
@@ -190,7 +190,7 @@ em {font-style:italic;}
 strong {font-weight:700;}
 
 .doc ul {margin: 20px 0;}
-.doc  ul li,.doc ol li, .doc p { font-family:'Quattrocento',serif; }
+.doc  ul li,.doc ol li, .doc p { font-family:'Sahel-WOL','Quattrocento',serif; }
 .doc li {margin-right:30px;}
 .doc li a, .doc p a {color: #79bc5f;}
 .doc-nav-secondary li {padding-right:60px;}
@@ -234,10 +234,14 @@ pre {
 blockquote p{
   border: 2px dashed #f0f0f0;
   padding: 0 32px 20px 32px;
-  font: normal 12px/32px 'Source Sans Pro','OpenSansRegular','Helvetica Neue', sans-serif !important;
+  font: normal 12px/32px 'Sahel-WOL','Source Sans Pro','OpenSansRegular','Helvetica Neue', sans-serif !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+[lang="fa"] blockquote p {
+    font-size: 13px !important;
+    line-height: 28px !important;
 }
 
 blockquote p:before {
@@ -482,7 +486,7 @@ a.license {
   border:none;
   padding:4px 20px 4px 0px;
   font-size:16px;
-  font-family:'Source Sans Pro',sans-serif;
+  font-family:'Sahel-WOL','Source Sans Pro',sans-serif;
   background-color: #ffffff;
 }
 
@@ -534,7 +538,7 @@ input.default-value {
   }
 .ui-menu-item {
   border:1px solid #f0f0f0 !important;
-  font-family:'Source Sans Pro',sans-serif;
+  font-family:'Sahel-WOL','Source Sans Pro',sans-serif;
   font-size:14px;
   cursor:pointer;
   }
