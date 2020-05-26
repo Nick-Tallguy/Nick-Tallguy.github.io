@@ -2,7 +2,7 @@
 layout: doc
 title: Autres lectures
 permalink: /fr/beginner/moving-forward/
-lang : fr
+lang: fr
 category: beginner
 ---
 

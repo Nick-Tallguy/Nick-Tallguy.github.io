@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Opendata Plugin - data from a spreadsheet
-permalink: /en/josm/opendata-plugin/
-lang: en
+permalink: /he/josm/opendata-plugin/
+lang: he
 category: josm
 ---
 

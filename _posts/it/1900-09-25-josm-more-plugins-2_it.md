@@ -2,7 +2,7 @@
 layout: doc
 title: Opendata Plugin - dati dal folgio di lavoro
 permalink: /it/josm/opendata-plugin/
-lang: en
+lang: it
 category: josm
 ---
 

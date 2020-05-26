@@ -1,7 +1,7 @@
 ---
 layout: doc
 permalink: /fr/beginner/
-lang : fr
+lang: fr
 title: Guide du débutant
 category: beginner
 cover: yes
