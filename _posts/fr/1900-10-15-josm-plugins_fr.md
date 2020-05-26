@@ -2,7 +2,7 @@
 layout: doc
 title: JOSM Plugins
 permalink: /fr/josm/josm-plugins/
-lang : fr
+lang: fr
 category: josm
 ---
 

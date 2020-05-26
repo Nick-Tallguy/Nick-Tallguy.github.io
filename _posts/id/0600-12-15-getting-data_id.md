@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Mendapatkan Data OSM
-permalink: /en/osm-data/getting-data/
+permalink: /id/osm-data/getting-data/
 lang: id
 category: osm-data
 ---
