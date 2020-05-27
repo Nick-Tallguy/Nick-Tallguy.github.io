@@ -10,36 +10,36 @@ category: josm
 ==================
 
 
-We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+اکنون تمام پیش‌نیازهای نقشه‌کشی با OpenStreetMap را پوشش داده‌ایم. در بخش [نقشه‌برداری با تلفن هوشمند، GPS یا کاغذ](/fa/mobile-mapping/) با نحوهٔ استفاده از ابزارهای همراه برای نقشه‌برداری یک منطقه آشنا می‌شوید.
 
-In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
+در این فصل یک بار دیگر به JOSM بازمی‌گردیم و نگاهی می‌اندازیم به تعدادی از مفاهیم جدید که تا کنون درباره‌شان صحبت نکرده‌ایم.
 
 لایه‌های JOSM
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
+اگر تا اینجا پیگیر بوده باشید، احتمالاً دانسته‌اید که می‌توانیم چیزهای مختلفی را در JOSM اضافه کنیم. می‌توانیم دادهٔ OSM را دانلود کنیم، تصاویر ماهواره‌ای بینگ را اضافه کنیم، ردهای GPS و نقاط بین‌راهی را بار کنیم؛ چیزهایی که همگی در پنجرهٔ نقشه در JOSM نمایش داده می‌شوند.
 
-You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
+همچنین حتماً متوجه شده‌اید که هر بار که چیزی جدید به JOSM اضافه می‌کنید، آیتم دیگری به پنجرک لایه‌ها در سمت راست JOSM افزوده می‌شود. بسته به آنچه باز کرده‌اید، پنجرک لایه‌ها چیزی شبیه به این است:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
+هر آیتم در این لیست نشان‌دهندهٔ یک منبع متمایز داده است که در پنجرهٔ نقشه باز شده است. در این مثال، Data Layer 1 دادهٔ OpenStreetMap است که در حال ویرایش آن هستیم. لایهٔ Field Papers زمانی ایجاد شد که ورقهٔ میدانی خود را در JOSM اضافه کردیم.
 
-اگر تصاویر ماهواره‌ای Bing را اضافه کنید، لایه جدیدی به اسم "Bing Sat"در پنل لایه‌ها ایجاد می‌شود.
+اگر تصاویر ماهواره‌ای Bing را اضافه کنید، لایهٔ جدیدی به اسم Bing Sat در پنجرک لایه‌ها ایجاد می‌شود.
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
+درک مفهوم لایه‌ها گاهی ممکن است مشکل باشد. راهی خوب برای تصورکردن آن، این است که هر لایه را مانند یک تکه کاغذ نیمه‌شفاف بدانیم که همهٔ این‌ها روی هم چیده شده‌اند. هر تکه کاغذ نوع خاصی از اطلاعات را دارد و می‌توانید آن‌ها را هر طور که دوست دارید مرتب نمایید.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
+لایه‌هایی که به‌عنوان مرجع استفاده می‌شوند، مانند تصویرهای ماهواره‌ای، ردهای جی‌پی‌اس، و ورقه‌های میدانی اغلب «لایه‌های پایه» نامیده می‌شوند. لایهٔ دادهٔ OSM در واقع همان لایه‌ای است که با آن کار می‌کنید.
 
--   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
+- برای جابه‌جاکردن یک لایه، روی آن در پنجرک لایه‌ها کلیک کنید و روی پیکان بالا یا پایین کلیک کنید تا آن را حرکت دهید.
 
 ![Layers up down][]
 
--   To hide a layer, select it with your mouse and click the Show/Hide button:
+- برای پنهان‌کردن هر لایه، با ماوس آن را انتخاب کنید و روی دکمهٔ Show/Hide کلیک کنید:
 
 ![Layers show hide][]
 
--   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
--   You can remove a layer by selecting it and using the delete button:
+- لایه‌ای که انتخاب کرده‌اید باید در پنجرهٔ نقشه ناپدید شود. دوباره روی دکمهٔ Show/Hide کلیک کنید و لایه دوباره ظاهر خواهد شد.
+- برای حذف یک لایه آن را انتخاب کنید و دکمهٔ delete  را بزنید:
 
 ![Layers delete][]
 
@@ -49,7 +49,7 @@ Layers that are used as references, such as satellite imagery, GPS tracks, and F
 ![Layers activate][]
 
 
-استفاده از داده GPS و ورقه‌های میدانی
+استفاده از دادهٔ GPS و ورقه‌های میدانی
 -------------------------------
 In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
 
@@ -93,7 +93,7 @@ This frequently occurs because editors use the JOSM select tool to draw a box ar
 
 ![Nodes mistake][]
 
-ذخیره‌سازی فایلهای OSM
+ذخیره‌سازی فایل‌های OSM
 ----------------
 When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
 
