@@ -43,75 +43,75 @@ category: josm
 
 ![Layers delete][]
 
--   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
--   To make a layer active, select it in the Layers panel, and click on the Activate button:
+- در نهایت، باید بدانید فقط لایه‌ای را می‌توانید ویرایش کنید که در JOSM *فعال* باشد. اگر در پنجرهٔ نقشه نمی‌توانید ویرایش کنید، احتمالاً به این دلیل است که لایهٔ درست را فعال نکرده‌اید. بیشتر لایه‌ها، مانند نقاط جی‌پی‌اس، ورقه‌های میدانی و تصاویر ماهواره‌ای، قابل‌ویرایش نیست. تنها لایه‌هایی که قابل‌ویرایش هستند لایه‌های دادهٔ OpenStreetMap است که معمولاً Data Layer 1 نام دارد.
+- برای فعال‌کردن هر لایه، آن را در پنجرک لایه‌ها انتخاب کنید و روی دکمهٔ Activate کلیک کنید:
 
 ![Layers activate][]
 
 
 استفاده از دادهٔ GPS و ورقه‌های میدانی
 -------------------------------
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
+در فصل [نقشه‌برداری با گوشی‌های هوشمند، GPS یا کاغذ](/fa/mobile-mapping/) دیدیم که چگونه با GPS و ورقه‌های میدانی داده جمع‌آوری کنیم و چگونه آن را به‌صورت یک لایه در JOSM بار کنیم.
 
-Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
+پس از نقشه‌برداری با استفاده از یکی از این ابزارها، باید اطلاعات را به‌صورت دیجیتال به OpenStreetMap اضافه کنید.
 
-You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+این کار را با همان فرآیندی که قبلا یاد گرفتید انجام می‌دهید: **دانلود، ویرایش، ذخیره**. با این تفاوت که به‌جای اینکه صرفاً از تصاویر ماهواره‌ای به‌عنوان لایهٔ پایه استفاده کنید، می‌توانید از دادهٔ GPS، ورقه‌های میدانی، یادداشت‌ها یا ترکیبی از همهٔ آن‌ها استفاده کنید.
 
--   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+- به‌عنوان مثال، فرض کنید نقاط بین‌راهی GPS خود را به‌عنوان لایهٔ پسزمینه در JOSM بار کرده‌اید. در GPS خود نقطهٔ بین‌راهی با نام 030 ذخیره کرده‌اید و در دفترچه‌یادداشت خود نوشته‌اید که 030 مدرسه است. برای افزودن این نقطه به OpenStreetMap، ابزار رسم (Draw) را انتخاب و در بالای نقطهٔ 030 در پنجرهٔ نقشه دوبارکلیک کنید. این کار یک نقطه ایجاد می‌کند. سپس به منوی Presets بروید و پیش‌تنظیم مدرسه را پیدا کنید. نام مدرسه را بنویسید و روی Apply Preset کلیک کنید. همین کار را برای افزودن خطوط و اشکال انجام دهید.
 
 ![GPS in JOSM][]
 
 تگ‌ها
 ----
-When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
+هنگامی که نقطه، خط، یا شکلی رسم کنید، خودبه‌خود یک موقعیت مکانی دارد، اما هیچ اطلاعاتی دربارهٔ چیستی‌اش ندارد. به عبارت دیگر، می‌دانیم **کجاست**، اما نمی‌دانیم **چیست**. پیش از این، از اقلام موجود در منوی Presets استفاده و **چیستی** آن را مشخص می‌کردیم. روش OpenStreetMap برای شناخت اشیا استفاده از **تگ‌ها**ست. 
 
-A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
+تگ مانند برچسبی است که می‌توانید روی چیزی بچسبانید. مثلاً اگر یک مربع رسم کنیم، صرفاً یک مربع است. اما سپس مشخصه‌هایی به آن اضافه می‌کنیم که چیستی آن را توصیف می‌کنند: این مربع یک ساختمان است؛ نام ساختمان «بهاران» است؛ ساختمان ۱۶ طبقه دارد.
 
-You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
+به هر شی می‌توانید هر تعداد تگ اضافه کنید. هر تگ از یک زوج **کلید** و **مقدار** تشکیل می‌شود که از جنس متن هستند. در OpenStreetMap، برچسب‌هایی که بالاتر اشاره کردیم در واقع عبارت‌اند از:
 
 -   building = yes
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
+اگر شیئی را در JOSM انتخاب کنید، می‌توانید تمام برچسب‌های متصل به آن را در پنجرک Properties در سمت راست مشاهده کنید.
 
 ![Properties panel][]
 
 ### ویرایش تگ‌ها
 
-You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
+از پنجرک Properties می‌توانید تگ‌ها را اضافه، ویرایش و حذف کنید. برچسب‌ها به‌طور سنتی به زبان انگلیسی هستند و گاهی اوقات می‌توانند گیج‌کننده باشند، بنابراین اغلب استفاده از منوی Presets آسان‌تر است. وقتی برچسب‌ها را اضافه می‌کنید یا تغییر می‌دهید، مشخصه‌های شی تغییر می‌کند.
 
--   To edit an object's tags, first select it.
--   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
+- برای ویرایش تگ‌های هر شی، ابتدا آن را انتخاب کنید.
+- سپس برچسب‌ها را به یکی از این دو روش ویرایش کنید: (1) از منوی Presets استفاده کنید، یا (2) برچسب‌ها را مستقیماً در پنجرک Properties در سمت راست ویرایش کنید.
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
+### اشتباه رایج: برچسب‌زنی به گره‌ها هنگامی که می‌خواهید به خط‌ها یا چندضلعی‌ها برچسب بدهید
 
-When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+هنگامی که مشخصه‌های یک نقطه را ویرایش می‌کنید، ابتدا نقطه را انتخاب و سپس برچسب‌ها را از طریق منوی Presets یا مستقیماً در پنجرک Properties اضافه می‌کنید. هنگام اضافه‌کردن مشخصه‌ها به خط‌ها یا شکل‌ها اشتباه رایجی رخ می‌دهد. هنگام انتخاب شی، حتماً
+خود خط را انتخاب کنید، نه نقاطی که خط را تشکیل می‌دهند.
 
-This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
+این اتفاق اغلب به این دلیل رخ می‌دهد که ویرایشگران با استفاده از ابزار انتخاب کادری دور شیء موردنظر می‌کشند تا انتخاب شود، اما با این کار هر چیزی که درون کادر قرار گرفته باشد انتخاب می‌شود: هم خط‌ها **و** هم نقطه‌ها. سپس که تگ‌ها را اضافه می‌کنید تگ‌ها به گره‌ها هم داده می‌شود. هنگامی که می‌خواهید به خط تگ بدهید مطمئن شوید که **فقط** خود خط انتخاب شود.
 
 ![Nodes mistake][]
 
 ذخیره‌سازی فایل‌های OSM
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
+هنگامی که در JOSM ویرایش می‌کنید، همواره بهتر است فرآیند دانلود، ویرایش و آپلود را در زمان نسبتاً کوتاهی به پایان رسانید. نباید داده را یک روز دانلود و سپس چند روز بعد ویرایش‌های خود را آپلود کنید. اگر شخص دیگری در طول این مدت، همان منطقه را ویرایش کند چه؟ این باعث خطا و تداخل می‌شود.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
+نگران نباشید و ویرایش‌های خود را پیوسته آپلود کنید. با این کار خیالتان راحت است که تغییراتتان در پایگاه‌داده ذخیره می‌شود و تلاشتان از دست نمی‌رود.
 
-If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
+اگر روی یک منطقه کار می‌کنید، بهتر است هر بار که می‌خواهید ویرایش کنید، دادهٔ نقشه را دانلود کنید؛ ممکن است کاربر دیگری تغییراتی ایجاد کرده باشد.
 
-Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
+گرچه همیشه هنگامی که آمادهٔ ویرایش هستید باید دادهٔ OSM را دانلود و تغییرات خود را مرتب آپلود کنید، ممکن است در مواردی نیاز باشد که دادهٔ OSM را در رایانهٔ خود ذخیره کنید. به‌عنوان مثال، اگر اتصال اینترنتی شما قطعی دارد، شاید بخواهید داده را دانلود کنید، ذخیره کنید، ویرایش کنید و کمی بعدتر تغییرات خود را آپلود نمایید.
 
--   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
+- برای ذخیرهٔ یک فایل OSM، اطمینان حاصل کنید که لایهٔ فعال در پنجرک Layers باشد. روی File در منوی بالا کلیک کنید، سپس روی Save کلیک کنید. مکانی برای فایل انتخاب کنید و نامی به آن بدهید. همچنین با کلیک روی این دکمه می‌توانید ذخیره کنید:
 
 ![JOSM save button][]
 
--   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
+- هم‌اکنون می‌توانید JOSM را ببندید و دادهٔ شما ذخیره خواهد بود. هنگامی که می‌خواهید دوباره فایل را باز کنید، بسیار ساده است: JOSM را باز کنید، به منوی File بروید و روی Open...‎ کلیک کنید.
 
 خلاصه
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
+در این فصل رابط کاربری JOSM را دقیق‌تر بررسی کردیم و دربارهٔ لایه‌ها و برچسب‌ها آموختیم. اکنون باید پایه‌تان در شیوهٔ نقشه‌کشی و ویرایش OpenStreetMap محکم شده باشد.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png
