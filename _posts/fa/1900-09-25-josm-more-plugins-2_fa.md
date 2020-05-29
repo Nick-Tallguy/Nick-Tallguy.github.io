@@ -1,166 +1,168 @@
 ---
 layout: doc-rtl
-title: افزونه Opendata - ورود داده از صفحات گسترده
+title: افزونهٔ Opendata - داده از صفحه‌گسترده
 permalink: /fa/josm/opendata-plugin/
 lang: fa
 category: josm
 ---
 
-افزونه Opendata - استفاده داده صفحات گسترده
- ============
+افزونهٔ Opendata - استفاده از دادهٔ ذخیره‌شده در صفحه‌گسترده
+============
 
 
 - TOC
 {:toc}
 
-این راهنما چکونگی افزودن داده‌هایی که به صورت صفحه گسترده هستند و احتمالاً در حین بررسی میدانی با استفاده از ابزارهایی مانند ODK و Kobo جمع‌آوری شده‌اند به OpenStreetMap را شرح میدهد.
+این راهنما توضیح می‌دهد چگونه داده‌هایی را که در قالب صفحه‌گسترده هستند به OpenStreetMap اضافه کنیم. این داده‌ها مثلاً ممکن است از طریق بررسی میدانی با استفاده از ابزارهایی نظیر ODK و Kobo جمع‌آوری شده باشند.
 
-**لطفاً توجه داشته باشید که چنانچه داده‌ای که در نظر دارید که به OpenStreetMap اضافه کنید تحت نام ایمپورت قرار گیرد بایستی [صفحه راهنمای ایمپورت در ویکیOpenStreetMap](https://wiki.openstreetmap.org/wiki/Import/Guidelines) را بخوانید. درصورت هرگونه شبهه بهتر است اول مشورت بگیرید!**
+**لطفاً توجه کنید، چنانچه داده‌ای که در نظر دارید به OpenStreetMap اضافه نمایید تحت نام «درون‌برد» (import) قرار می‌گیرد، بایستی [صفحهٔ راهنمای درون‌برد در ویکی OpenStreetMap](https://wiki.openstreetmap.org/wiki/Import/Guidelines) را مطالعه کنید. اگر کوچک‌ترین تردیدی دارید، بهتر است اول مشورت بگیرید!**
 
 
-نصب افزونه Opendata
+نصب افزونهٔ Opendata
 --------------------------
 
-اگر تاکنون این افزونه را نصب نکرده‌اید، با دنبال کردن راهنمای نصب افزونه‌ها در [افزونه‌های JOSM](/en/josm/josm-plugins) نصب کنید.
+اگر تا کنون این افزونه را نصب نکرده‌اید، با دنبال کردن راهنمای نصب افزونه‌ها در [افزونه‌های JOSM](/en/josm/josm-plugins) آن را نصب کنید.
 
 ![Opendata][]
 
-بعد از نصب، می‌توانید روی ![Opendata preferences][] کلیک کنید 
-تا به ماژولهای اختصاصی‌تر دسترسی پیدا کنید.
+بعد از نصب، روی Opendata preferences کلیک کنید:
+![Opendata preferences][]
+تا به ماژول‌های اختصاصی‌تر دسترسی پیدا کنید:
 
 ![Opendata modules][]
 
-این راهنما تنها عملکردهای اولیه افزونه را شامل می‌شود و هیچ ماژولی بارگزاری نشده است.
+این راهنما تنها عملکردهای اولیهٔ افزونه را شامل می‌شود و هیچ ماژولی بار نشده است.
 
-آماده سازی صفحه گسترده 
+آماده‌سازی صفحه‌گسترده 
 -------------------------
 
-The wiki page at <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> provides more detailed information about formats which can be used. For our purposes we are assuming that the spreadsheet has been downloaded and passed to us in the proprietry **.xlsx** which will not load into the opendata plugin.  
+صفحهٔ ویکی در <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> دربارهٔ قالب‌هایی که می‌توان استفاده کرد اطلاعات دقیق‌تری می‌دهد. برای اهداف خودمان فرض می‌کنیم که صفحه‌گسترده در قالب انحصاری **‎.xlsx** دانلود و به ما منتقل شده است. این قالب در افزونهٔ opendata بار نمی‌شود.
 
-- Open the spreadsheet in an opensource programme such as LibreOffice which is available for most operating systems <http://www.libreoffice.org/>,  
-- and then save it in an opensource format. Our spreadsheet which was **shops.xlsx** becomes **shops.ods**.  
+- صفحه‌گسترده را در برنامهٔ متن‌بازی مانند LibreOffice باز کنید. این نرم‌افزار برای اکثر سیستم‌عامل‌ها در <http://www.libreoffice.org/> در دسترس است.
+- سپس آن را در قالب متن‌باز ذخیره کنید. صفحه‌گستردهٔ ما که **shops.xlsx** نام داشت به **shops.ods** تبدیل می‌شود.
 
-Although it is possible to load the spreadsheet into josm now, it is better to carry out further amendments to make the process easier before doing so.  
+گرچه امکان بارکردن صفحه‌گسترده در josm اکنون وجود دارد، بهتر است قبل از انجام این کار اصلاحاتی انجام دهیم تا فرآیند آسان‌تر شود.
 
-### latitude & longitude
+### طول و عرض جغرافیایی
 
-The Opendata plugin is very good at extracting the latitude and longitude from spreadsheets, but if you are in any doubt it is better to change the column headings to a simpler format;  
+افزونهٔ OpenData توانایی خوبی برای استخراج طول و عرض جغرافیایی از صفحه‌گسترده‌ها دارد، اما اگر شک دارید بهتر است که سرستون‌ها را به قالبی ساده‌تر تغییر دهید:
 
 ![latitude longitude][]
 
-becomes;  
+می‌شود:
 
 ![latitude longitude corrected][]
 
-### Key and Value
+### کلید و مقدار
 
-#### The name tag  
+#### تگ نام
 
-Our aim now is to amend the spreadsheet so that the information is in the format expected by OpenStreetMap. The column headings will be the **Key** values, and the data withing the spreadsheet becomes the **Value** element. For our simple spreadsheet, amend the first column heading from **Name_of_the_shop** to **name**. Using the format key=value, our first spreadsheet line now becomes;  
+هدف فعلی ما اصلاح صفحه‌گسترده است تا اطلاعات در قالب موردانتظار OpenStreetMap باشد. سرستون‌ها **کلید** خواهند بود و دادهٔ درون صفحه‌گسترده **مقدار** است. برای صفحه‌گستردهٔ ساده‌مان، سرستون اول را از **name_of_the_shop** به **name** اصلاح کنید. با استفاده از قالب کلید=مقدار، اکنون اولین سطر صفحه‌گستردهٔ ما می‌شود: 
 **name=Tony's Supermarket**
 
-If your spreadsheet has more than one name, such as a **local name** or **official name**, please consult the wiki page at <https://wiki.openstreetmap.org/wiki/Names> which lists many possible alternatives so that your updates to OpenStreetMap can contain all of the names that are likely to be used or searched for.  
+اگر صفحه‌گستردهٔ شما دارای بیش از یک نام دارد، مانند **نام محلی** یا **نام رسمی** است، لطفاً صفحهٔ ویکی در <https://wiki.openstreetmap.org/wiki/Names> را مطالعه کنید. در این صفحه لیست کاملی از تگ‌های نام وجود دارد و تغییرات شما می‌تواند شامل همهٔ نام‌هایی که احتمالاً مورداستفاده یا جستجو قرار می‌گیرند بشود.
 
-#### Columns without a heading
+#### ستون‌های بدون سرستون
 
-If you remove the heading for a column, but keep the data below it, then the data is effectively hidden from JOSM.  
+اگر سرستون یک ستون را حذف کنید، اما دادهٔ زیر آن را نگه دارید، این داده از دید JOSM پنهان می‌شود.
 
 ![opendata 1][]
 
-#### Columns with data from different keys 
+#### ستون‌هایی حاوی دادهٔ سایر کلیدها
 
 ![opendata mixed][]
 
-The person designing the survey, and the person carrying out the survey will often not be aware of the tags and values that have evolved in OpenStreetMap. The **shop** column in my spreadsheet actually contains data from two different tags, and the spreadsheet will need amending. The column heading **Type of shop** can be changed to **shop**, for the following data;  
-  shop=supermarket  
-  shop=convenience  
-  shop=hairdresser  
+شخصی که نقشه‌برداری را طراحی می‌کند و شخصی که این نقشه‌برداری را انجام می‌دهد، اغلب از برچسب‌ها و مقدارهایی که در OpenStreetMap تکامل یافته‌اند آگاه نیستند. ستون **shop** در صفحه‌گستردهٔ من در واقع حاوی داده دو برچسب مختلف است. بنابراین صفحه‌گسترده نیاز به اصلاح دارد. سرستون **Type of shop** را برای دادهٔ زیر می‌توان به **shop** تغییر داد:
+shop=supermarket 
+shop=convenience 
+shop=hairdresser 
 
-but **restaurant** and **fast_food** are from the **amenity** key.
+اما **restaurant** و **fast_food** از کلید **amenity** هستند.
 
-A new column should be inserted with the heading **amenity**, and the data moved, so that our spreadsheet now looks like this;  
+ستونی جدید باید با سرستون **amenity** باید درج شود و داده منتقل شود. اکنون صفحه‌گستردهٔ ما این‌گونه است:
 
 ![opendata shop amenity][]
 
-#### sub tags
+#### زیرتگ‌ها
 
-The column heading **Does_the_shop_have_toilet_faci** has been abbreviated during the survey process, and originally read **Does the shop have toilet facilities?**.  
+سرستون **Does_the_shop_have_toilet_faci** در طول فرآیند بررسی کوتاه شده است و در اصل این بوده **Does the shop have toilet facilities?‎**
 
-Although there is a separate tag for toilets, which is usually added to a node within a building, this actually refers to toilets which are accessible to the public. If we carried out our own survey, we know exactly what was intended with the question and answer, but if this is information passed on to us, it will probably be necessary to query what was intended. It is also extremely useful to be able to load the survey questions into a phone and carry out a 'mock' survey so that the layout of the questions can be seen. Careful reading of the wiki page at <https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets>, and study of the original survey is needed before amending the spreadsheet. In particular, the wiki entry contains the information - 
 
-- *Please do not use toilet=yes (singular). In general please do not map toilets that are inaccessible to the public. Many buildings have toilets inside for workers or owners, but mapping these could create needless conflict or unrealistic expectations. Use toilets=no for places you might expect to find a usable toilet (e.g. a railway station or trailhead) where no public toilets are made available.*  
+گرچه برچسب جداگانه‌ای برای توالت‌ها وجود دارد که معمولاً به گرهی درون یک ساختمان اضافه می‌شود، این در واقع به توالت‌های عمومی اشاره دارد. اگر نقشه‌برداری را خود انجام دهیم، دقیقاً می‌دانیم منظور از پرسش و پاسخ چه چیزی است، اما اگر این اطلاعات به ما منتقل شود، احتمالاً لازم است بررسی کنیم منظور چه بوده است. همچنین بسیار مفید است اگر بتوانید سوالات نقشه‌برداری را در تلفن بار کنید و یک نقشه‌برداری «ساختگی» انجام دهید تا طرح سوالات را متوجه شوید. خواندن دقیق صفحهٔ ویکی <https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets>، و مطالعهٔ نقشه‌بردرای اصلی قبل از اصلاح صفحه‌گسترده لازم است. به‌طور خاص، صفحهٔ ویکی شامل این اطلاعات است: 
 
-Following the advice from the wiki as best as I can, my amended spreadsheet for the information about toilets now reads;  
+- *لطفاً از toilet=yes (مفرد) استفاده نکنید. به‌طور کلی توالت‌های خصوصی را نقشه‌کشی نکنید. در بسیاری از ساختمان‌ها برای کارکنان و مالکان توالت‌هایی وجود دارد، اما رسم این‌ها در نقشه ممکن است باعث مناقشات بی‌اساس یا انتظارات غیرواقعی شود. برای جایی که انتظار می‌رود سرویس بهداشتی قابل‌استفاده داشته باشد (مثل ایستگاه قطار یا نقطهٔ شروع مسیر) اما سرویس بهداشتی عمومی ندارد از تگ toilets=no استفاده کنید.*
+
+با پیروی از توصیه‌های ویکی تا حد ممکن، صفحه‌گستردهٔ اصلاح‌شدهٔ من برای اطلاعات توالت‌ها این‌گونه شد:
 
 ![opendata toilets][]
 
 
-I have blanked the heading on a number of columns, so that the data will not be visible when I am carrying out my editing in JOSM.  
+من سرستون تعدادی از ستون‌ها را خالی کردم، بنابراین دادهٔ آن‌ها هنگام ویرایش در JOSM دیده نخواهد شد.
 
-Loading the spreadsheet into JOSM
+بارکردن صفحه‌گسترده در JOSM
 ---------------------------------
 
-Click on ![josm open][], navigate to where your spreadsheet is saved, and open it within JOSM.  
+روی این دکمه کلیک کنید ![josm open][] سپس به پوشه‌ای که صفحه‌گسترده را ذخیره کرده‌اید بروید و آن را در JOSM باز کنید.
 
 ![opendata pop up][]  
 
-A pop-up will possibly appear asking you to confirm the 'projection method' used when collecting the data. The Opendata plugin will attempt to calculate the 'projection method' used and will present this as the most likely option. Unless this has been altered in the settings by the surveyor, accepting the suggested projection but then checking when editing that the points created are appearing in likely locations is a sensible choice.  
+پنجرک بالاپَری احتمالاً ظاهر خواهد شد که از شما می‌خواهد projection method مورداستفاده هنگام جمع‌آوری داده‌ها را تأیید کنید. افزونهٔ OpenData تلاش می‌کند تا «اسلوب پروجکشن» مورداستفاده را محاسبه کند و آن را به‌عنوان محتمل‌ترین گزینه ارائه دهد. جز در مواردی که نقشه‌بردار در تنظیمات این را تغییر داده باشد، کار معقولی است اگر اسلوب پیشنهادی تصویرکردن را بپذیرید، اما هنگام ویرایش بررسی کنید آیا نقاط در مکان‌های موردانتظار قرار گرفته‌اند یا خیر.
 
 ![opendata spreadsheet loaded][]
 
-Congratulations! You've done all the hard work and you're nearly ready to update OpenStreetMap with your nice new survey data. 
+تبریک! بخش سخت کار را پشت سر گذاشته‌اید و تقریباً آماده‌اید که OpenStreetMap را با دادهٔ جدید نقشه‌برداری خود روزآمد کنید.
 
-Using the ToDo plugin
+استفاده از افزونهٔ ToDo
 ----------------------
 
-Within JOSM select all of the items added by your spreadsheet, either by;  
+در JOSM همهٔ موارد اضافه‌شده از طریق صفحه‌گستردهٔ خود را به یکی از این روش‌ها انتخاب کنید:
 
-- scroll out until all are visible, then drag your mouse from top left to bottom right while holding the left mouse button down, or  
-- use **Ctrl+f** to carry out a search - I searched on **name** as this appears in all 5 of my surveys.  
+- زوم را کم کنید تا همه قابل‌مشاهده باشند. سپس درحالی‌که دکمهٔ چپ ماوس را پایین نگه داشته‌اید، ماوس را از بالا چپ به پایین راست بکشید، یا
+- **Ctrl+F** را بزنید تا جستجو کنید - من **name** را جستجو کردم زیرا در هر 5 نقشه‌برداری‌ام وجود دارد.
 
-make sure you have selected all of your surveys - there are five surveys in my spreadsheet and I need to have 5 objects selected.  
+مطمئن شوید همهٔ اقلام نقشه‌برداری‌شدهٔ خود را انتخاب کرده‌اید: در صفحه‌گستردهٔ من پنج قلم نقشه‌برداری‌شده وجود دارد و باید 5 شیء را انتخاب نموده باشم.
 
 ![5 selected][]
 
-On the ToDo plugin panel, click on **Add**.  
+در پنجرک افزونهٔ ToDo، روی **Add** کلیک کنید.
 
 ![opendata todo add][]
 
-and the list of items to add should appear in the panel.  
+و فهرست اقلامی که باید اضافه کنم در پنجرک ظاهر می‌شود.
 
 ![opendata todo loaded][]
 
-Load OpenStreetMap data as a separate layer
+بارکردن دادهٔ OpenStreetMap در لایهٔ مجزا
 -------------------------------------------
 
-Double click on the top item in your ToDo list, which will centre it in your editing panel, and click on the download ![download][] icon.
+روی بالاترین آیتم در لیست ToDo خود دوبارکلیک کنید، که درنتیجه آن را در پنجرهٔ ویرایش در مرکز قرار می‌دهد. سپس روی آیکون دانلود کلیک کنید ![download][]
 
-When the download dialog window appears, ensure you place a tick in ![download new layer][] (bottom left on the next screenshot) so that your OSM data does not download into your spreadsheet data.
+هنگامی که پنجرهٔ دانلود ظاهر می‌شود، مطمئن شوید که تیک ![download new layer][] را بزنید (پایین سمت چپ در تصویر بعدی) تا دادهٔ OSM با دادهٔ صفحه‌گستردهٔ شما مخلوط نشود. توجه: در نسخه‌های جدیدتر JOSM این تیک جای خود را به دکمه‌ای با همین عنوان داده است، بنابراین در نسخه‌های جدیدتر مستقیماً روی خود دکمهٔ Download in new layer کلیک کنید.
 
 ![download dialog][]
 
 
-Compare the data between the layers
+مقایسهٔ داده بین لایه‌ها
 ------------------------------------
 
-Ensure you carefully check the data held in your spreadsheet against the existing data already in OpenStreetMap. There are ways of copying tags, or parts of tags (Look through the **Tools** and **More Tools** menu's of JOSM, or read the earlier chapters within LearnOSM) between the layers. In many cases you will be merging new data with existing data. Carefully check the data, if necessary checking the history and source for the different features - it's always possible the data within OpenStreetMap is more recent or more accurate than your spreadsheet data.  
+دادهٔ نگهداری‌شده در صفحه‌گستردهٔ خود را در برابر دادهٔ موجود در OpenStreetMap به‌دقت بررسی کنید. روش‌هایی برای کپی‌کردن برچسب‌ها یا بخش‌هایی از برچسب‌ها بین لایه‌ها وجود دارد (منوی **Tools** و **More Tools** را ببینید یا فصل‌های قبلی در Learnosm را بخوانید). در بسیاری از موارد دادهٔ جدید را با دادهٔ موجود ادغام خواهید کرد. به‌دقت داده را بررسی کنید، اگر لازم است تاریخچه و منبع را برای عارضه‌های مختلف بررسی کنید. همیشه ممکن است دادهٔ موجود در OpenStreetMap جدیدتر یا درست‌تر از دادهٔ صفحه‌گستردهٔ شما باشد.
 
-When you have updated the information from one line of the spreadsheet, use the **Mark** button of the ToDo plugin to move onto the next item - you may have to download more OSM data if the next item is outside the area already downloaded.  
+وقتی اطلاعات یکی از سطرهای صفحه‌گسترده را آپلود کردید، دکمهٔ **Mark** در افزونهٔ ToDo را بزنید تا به مورد بعدی بروید. اگر مورد بعدی خارج از منطقه‌ای باشد که قبلاً دانلود کرده‌اید، باید دادهٔ بیشتری از OSM دانلود کنید.
 
 
 [Opendata]: /images/josm/opendata-plugin.png
 [Opendata preferences]: /images/josm/opendata-preferences.png
 [Opendata modules]: /images/josm/opendata-modules.png
-[latitude longitude]: /images/josm/opendata-latitude-longitude.png
-[latitude longitude corrected]: /images/josm/opendata-latitude-longitude-corrected.png
+[عرض و طول جغرافیایی]: /images/josm/opendata-latitude-longitude.png
+[عرض و طول جغرافیایی درست شد]: /images/josm/opendata-latitude-longitude-corrected.png
 [opendata 1]: /images/josm/opendata-1.png
 [opendata mixed]: /images/josm/opendata-mixed.png
 [opendata shop amenity]: /images/josm/opendata-shop-amenity.png
 [opendata toilets]: /images/josm/opendata-toilets.png
 [josm open]: /images/josm/josm_open-file.png
-[opendata pop up]: /images/josm/opendata-wgs84-popup.png
-[opendata spreadsheet loaded]: /images/josm/opendata-spreadsheet-loaded.png
-[5 selected]: /images/josm/opendata-5-selected.png
+[پنجرک بالاپر opendata]: /images/josm/opendata-wgs84-popup.png
+[صفحه‌گستردهٔ opendata باز شد]: /images/josm/opendata-spreadsheet-loaded.png
+[5 انتخاب]: /images/josm/opendata-5-selected.png
 [opendata todo add]: /images/josm/opendata-todo-add.png
 [opendata todo loaded]: /images/josm/opendata-todo-loaded.png
 [download]: /images/josm/josm-download-button.png
