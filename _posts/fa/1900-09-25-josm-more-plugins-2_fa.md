@@ -153,16 +153,16 @@ shop=hairdresser
 [Opendata]: /images/josm/opendata-plugin.png
 [Opendata preferences]: /images/josm/opendata-preferences.png
 [Opendata modules]: /images/josm/opendata-modules.png
-[عرض و طول جغرافیایی]: /images/josm/opendata-latitude-longitude.png
-[عرض و طول جغرافیایی درست شد]: /images/josm/opendata-latitude-longitude-corrected.png
+[latitude longitude]: /images/josm/opendata-latitude-longitude.png
+[latitude longitude corrected]: /images/josm/opendata-latitude-longitude-corrected.png
 [opendata 1]: /images/josm/opendata-1.png
 [opendata mixed]: /images/josm/opendata-mixed.png
 [opendata shop amenity]: /images/josm/opendata-shop-amenity.png
 [opendata toilets]: /images/josm/opendata-toilets.png
 [josm open]: /images/josm/josm_open-file.png
-[پنجرک بالاپر opendata]: /images/josm/opendata-wgs84-popup.png
-[صفحه‌گستردهٔ opendata باز شد]: /images/josm/opendata-spreadsheet-loaded.png
-[5 انتخاب]: /images/josm/opendata-5-selected.png
+[opendata pop up]: /images/josm/opendata-wgs84-popup.png
+[opendata spreadsheet loaded]: /images/josm/opendata-spreadsheet-loaded.png
+[5 selected]: /images/josm/opendata-5-selected.png
 [opendata todo add]: /images/josm/opendata-todo-add.png
 [opendata todo loaded]: /images/josm/opendata-todo-loaded.png
 [download]: /images/josm/josm-download-button.png
