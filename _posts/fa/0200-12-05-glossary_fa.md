@@ -9,7 +9,7 @@ category: beginner
 واژه‌نامه  
 ============
 
-> این واژه‌نامه در دست به‌روزرسانی است و از منابع متعددی شامل [ویکی OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) و یک راهنما نوشتهٔ Will Skora گردآوری شده است. با نگاهی به [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) برای آشنایی با روش مشارکت در سایت، ما را در روزآمدسازی آن یاری کنید.  
+> این واژه‌نامه در دست به‌روزرسانی است و از منابع متعددی شامل [ویکی OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) و یک راهنما نوشتهٔ Will Skora گردآوری شده است. با نگاهی به [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) برای آشنایی با روش مشارکت در سایت، ما را در روزآمدسازی آن یاری کنید. [واژه‌نامهٔ دیگر](https://wiki.openstreetmap.org/wiki/Fa:Glossary)ی نیز در ویکی OSM وجود دارد. 
 > تاریخ بازبینی ۱۳۹۴/۰۴/۲۷  
 
 برای جستجوی آسان در این لغتنامه، از قابلیت جستجوی مرورگر خود بهره ببرید. برای این منظور کلید کنترل را نگه دارید و در همین حال کلید F را فشار دهید (معمولاً گفته می‌شود **Ctrl+F** را بزنید).  
