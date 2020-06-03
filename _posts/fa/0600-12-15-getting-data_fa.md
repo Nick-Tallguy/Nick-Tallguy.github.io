@@ -1,12 +1,12 @@
 ---
 layout: doc-rtl
-title: گرفتن داده های OSM
+title: گرفتن دادهٔ OSM
 permalink: /fa/osm-data/getting-data/
 lang: fa
 category: osm-data
 ---
 
-title: گرفتن دادههای OSM
+گرفتن دادهٔ OSM
 =================  
 
 > تاریخ بازبینی ۱۳۹۶/۰۱/۱۶
