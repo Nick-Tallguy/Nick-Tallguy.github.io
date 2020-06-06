@@ -11,7 +11,7 @@ category: osm-data
 
 > تاریخ بازبینی ۱۳۹۵/۰۶/۱۵  
 
-پس از اینکه نحوهٔ اضافه‌کردن و ویرایش داده در OpenStreetMap (OSM) را آموختیم، اکنون شاید مایل باشید که داده را دریافت کنید تا از آن پشتیبان بگیرید یا آن را با استفاده از نرم‌افزار سیستم اطلاعات جغرافیایی منبع‌بازی مانند Quantum GIS ([www.qgis.org](http://www.qgis.org)) پردازش کنید.  
+پس از اینکه نحوهٔ اضافه‌کردن و ویرایش داده در OpenStreetMap (OSM) را آموختیم، اکنون شاید مایل باشید که داده را دریافت کنید تا از آن پشتیبان بگیرید یا آن را با استفاده از نرم‌افزار سیستم اطلاعات جغرافیایی منبع‌بازی مانند [Quantum GIS](http://www.qgis.org) پردازش کنید.  
 
 گرفتن دادهٔ OSM در وبسایت Geofabrik
 -------------------------------------
@@ -180,7 +180,7 @@ Tag Tree (درخت تگ) ساده‌ترین راه برای شروع انتخا
 ![export-tool-treetag-sql][]
 
 
-برای مثال انتخاب گزینهٔ Emergency پدر، به‌طور خودکار گزینه‌های فرزند Police Station،‏ Ambulance Station و Fire Station در زیر آن را انتخاب می‌کند. درعین‌حال، علاوه بر این تمام تگ‌هایی را که emergency=yes، amenity=police و amenity=fire_station باشد در پرس‌وجوی SQL زیر انتخاب می‌کند:
+برای مثال انتخاب گزینهٔ Emergency پدر، به‌طور خودکار گزینه‌های فرزند Police Station،‏ Ambulance Station و Fire Station در زیر آن را انتخاب می‌کند. درعین‌حال، علاوه بر این تمام تگ‌هایی را که emergency=yes،‏ amenity=police و amenity=fire_station باشد در پرس‌وجوی SQL زیر انتخاب می‌کند:
 
 emergency IS NOT NULL OR amenity IN ('police','fire_station')
 

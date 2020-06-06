@@ -11,188 +11,188 @@ category: beginner
 
 > تاریخ بازبینی ۱۳۹۶/۰۳/۲۰
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+می‌خواهید با استفاده از یک Tasking Manager (مدیر وظایف) برای HOT یا MissingMaps و... نقشه‌کشی کنید؟  [بخش نکات HOT](/fa/hot-tips/) را ببینید.  
 
 - TOC
 {:toc}
 
-ویرایشگر iD در حقیقت یک ویرایشگر داخل مرورگر OpenStreetMap است. iD سریع و آسان است و امکان نقشه‌کشی براساس منابع مختلف داده مانند تصاویر هوایی و ماهواره‌ای، GPS، Field Papers یا Mapillary را فراهم می‌کند.  
+ویرایشگر iD ویرایشگری دفاکتو و تحت‌مرورگر برای ویرایش OpenStreetMap است. iD سریع و آسان‌کاربرد است و امکان نقشه‌کشی بر اساس منابع مختلف داده مانند تصاویر هوایی و ماهواره‌ای، GPS،‏ Field Papers یا Mapillary را فراهم می‌کند.  
 
-ویرایشگر iD راه بسیار خوبی برای دادن تغییرات کوچک و آسان است که به ویژگی‌های پیشرفته JOSM (یک ویرایشگر بسیار پیشرفته‌تر نقشه) نیاز ندارند. این فصل اصول اولیه ویرایش با iD را نشان می‌دهد.  
+ویرایشگر iD روش بسیار خوبی برای انجام تغییرات کوچک و آسان است که به ویژگی‌های پیشرفتهٔ JOSM (یک ویرایشگر پیشرفته‌تر برای نقشه‌کشی) نیاز ندارند. این فصل اصول اولیهٔ ویرایش با iD را نشان می‌دهد.  
 
 شروع به کار با ویرایشگر iD
 ----------------------
 
-ویرایشگر ID نیاز به اتصال فعال به اینترنت دارد.  
-مرورگر اینترنت را باز کنید و به وبسایت OpenStreetMap در [http://www.openstreetmap.org](http://www.openstreetmap.org) بروید.  
-با حساب کاربری خود وارد OpenStreetMap شوید  
-نقشه را تکان دهید و در جایی که می‌خواهید ویرایش انجام دهید زوم کنید. جابجایی نقشه با استفاده از کلید چپ ماوس و حرکت دادن آن به طرف منطقه مورد نظر انجام می‌شود.  
-روی فلش کوچک کنار **Edit** کلیک کنید. سپس روی **Edit with iD (in-browser editor)** کلیک کنید.  
+- ویرایشگر iD به اتصال فعال اینترنتی نیاز دارد.  
+-	مرورگر اینترنت را باز کنید و به وبسایت OpenStreetMap در [http://www.openstreetmap.org](http://www.openstreetmap.org) بروید.  
+-	با حساب کاربری OpenStreetMap خود وارد سایت شوید  
+-	نقشه را تکان دهید و در جایی که می‌خواهید ویرایش انجام دهید زوم کنید. جابه‌جایی نقشه با نگه‌داشتن کلید چپ ماوس و حرکت ماوس به‌طرف منطقهٔ موردنظر انجام می‌شود.  
+-	روی فلش کوچک کنار **ویرایش** (Edit) کلیک کنید. سپس روی **Edit with iD (in-browser editor)‎** (ویرایش با iD (ویرایشگر در مرورگر)) کلیک کنید.  
 
 ![عکس ۱][image1]
 
 
-رابط کاربری ویرایشگر ID
+واسط کاربری ویرایشگر ID
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** این پانل تگ‌های موارد انتخاب شده روی نقشه را نشان می‌دهد.  
-	می‌توانید از این پانل تگ‌ها را ویرایش و یا اضافه کنید.  
-2. **Tools:** این پانل ابزارهای اساسی برای ویرایش را نشان می‌دهد:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
-3. **پانل نقشه:** این پانل تنظیمات مختلفی را نشان می‌دهد:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **پانل اطلاعات:** این پانل اطلاعات مختلفی نظیر مقیاس نقشه و اینکه چه کاربرانی در این محدوده مشارکت داشته‌اند را نشان می‌دهد.  
+1. **Edit Feature Panel:** یا پنجرک  «ویرایش عارضه»، این کادر تگ‌های عارضهٔ انتخاب‌شده روی نقشه را نشان می‌دهد.  
+	می‌توانید از این کادر تگ‌ها را ویرایش یا اضافه کنید.  
+2. **ابزارها:** این کادر ابزارهای اساسی برای ویرایش را نشان می‌دهد:  
+    رسم نقطه (گره)، *کلید میانبر* **1** ![image3][]{: height="24px"}  
+    رسم خط (راه)، *کلید میانبر* **2** ![image4][]{: height="24px"}  
+    رسم شکل (چندضلعی)، *کلید میانبر* **3** ![image5][]{: height="24px"}  
+    واگرد (undo)، *کلید میانبر* **Ctrl+z** ![image6][]{: height="24px"}  
+    ازنو (redo)، *کلید میانبر* **Ctrl+y** ![image7][]{: height="24px"}  
+    ذخیرهٔ تغییرات، *کلید میانبر* **Ctrl+s** ![image8][]{: height="32px"}  
+3. **پنجرک نقشه:** این پنجرک پیکربندی‌های مختلفی را نشان می‌دهد:  
+    زوم‌پیش، *کلید میانبر* **+** ![image9][]{: height="24px"}  
+    زوم‌پس، *کلید میانبر* **-** ![image10][]{: height="24px"}  
+    نمایش مکان شما  ![image11][]{: height="24px"}  
+    تنظیمات لایهٔ پس‌زمینه، *کلید میانبر* **b** ![image12][]{: height="24px"}  
+    دادهٔ نقشه، *کلید میانبر* **f** ![Map Data][]{: height="24px"}  
+    مسئله‌ها، *کلید میانبر* **i** ![Issues][]{: height="24px"}  
+    منوی راهنما، *کلید میانبر* **h** ![image13][]{: height="24px"}  
+4. **پنجرک اطلاعات:** این پنجرک اطلاعات مختلفی نشان می‌دهد، نظیر نوار مقیاس و کاربرانی که در این محدوده مشارکت کرده‌اند.  
 
-## پیکربندی لایه پس‌زمینه
+## پیکربندی لایهٔ پس‌زمینه
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+روی دکمهٔ «تنظیمات پس‌زمینه» کلیک کنید یا کلید میانبر **b** را بزنید. ![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+می‌توانید **لایهٔ پس‌زمینه را تغییر دهید** را به ارائه‌دهندهٔ موردعلاقه‌تان (پیشفرض تصاویر هوایی بینگ است).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+با کلیک روی **سفارشی** می‌توانید کاشی‌های نقشهٔ خود را اضافه کنید. به‌عنوان مثال، اگر می‌خواهید یک **ورقهٔ میدانی** [^fieldpaper] اضافه کنید، روی **سفارشی** کلیک کنید، سپس روی نماد ذره‌بین (جستجو) کلیک کنید تا پنجرهٔ زیر باز شود:  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+و **نشانی تصویر FieldPaper** خود را وارد کنید، که چیزی شبیه این خواهد بود: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+برای **افزودن ردهای جی‌پی‌اس از رایانه‌تان** (قالب GPX) فایل GPX را به درون ویرایشگر iD بکشید و رها کنید.  
+برای فعال‌سازی **ردهای GPS اوپن‌استریت‌مپ** گزینهٔ آن را علامت بزنید. در تصویر زیر ردهای جی‌پی‌اس عمومی به رنگ‌های مختلفی دیده می‌شوند، که جهت حرکت را نشان می‌دهند.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+برای تغییر **ظاهر تصویر** روی **گزینه‌های نمایش** کلیک کنید.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+اگر [تصویر افست] (/ en / josm / تصویر-هوایی) وجود دارد ، می توانید ** با کلیک بر روی ** تنظیم تصویر افست ** ، تصحیح افست تصاویر ** را تصحیح کنید.  
 ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- برای جابجایی تصویر روی دکمه‌های ناوبری کلیک کنید. برای بازگشت به وضعیت پیشفرض، روی دکمهٔ بازنشانی کلیک کنید. ![image20][]  
 
-ویرایش اولیه با iD  
+ویرایش مقدماتی با iD  
 ----------------------  
 
 ### افزودن نقاط  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+برای افزودن نقطهٔ جدید، روی دکمهٔ **نقطه** کلیک کنید.  ![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- نشانگر ماوس به علامت (+) تغییر می‌کند. اکنون روی موقعیتی که می‌شناسید کلیک کنید تا مکانی را مشخص کنید. برای مثال، اگر می‌دانید که در منطقهٔ شما یک بیمارستان وجود دارد، در موقعیت ساختمان بیمارستان کلیک کنید.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- توجه کنید که یک نقطهٔ جدید اضافه شد. همزمان، کادر سمت چپ تغییر می‌کند تا یک فرم را نشان دهد که در آن می‌توانید خصوصیات آن شی را انتخاب کنید. روی **Hospital Grounds** کلیک کنید تا نقطه را به‌عنوان بیمارستان مشخص کنید.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
-هر "نقطه"ای که در ویرایشگر iD اضافه می‌شود درواقع تنها یک "نقطه" با مجموعه‌ای از "تگ"های مربوز به آن است.  
+- می‌توانید با استفاده از فرم‌ها اطلاعات دقیق نقطه را وارد کنید. می‌توانید نام بیمارستان، نشانی و/یا سایر اطلاعات را وارد کنید. توجه کنید که هر عارضه گزینه‌های متفاوتی خواهد داشت و این بستگی به تگی دارد که در کادر عارضه‌ها انتخاب می‌کنید.  
+- اگر اشتباه کردید، مثلاً نقطه را در مکان نادرست گذاشتید، می‌توانید با نگه‌داشتن دکمهٔ سمت چپ ماوس روی آن نقطه و کشیدن آن، نقطهٔ موردنظر خود را به یک مکان جدید منتقل کنید. یا اگر می‌خواهید نقطه را حذف کنید، با دکمهٔ سمت چپ ماوس روی نقطه کلیک کنید، با کلیک‌راست منوی زمینه را باز کنید و سپس روی دکمه‌ای که مانند سطل زباله است کلیک کنید.  ![PointToolDelete][]{: height="24px"}  
+هر «نقطه»ای که در ویرایشگر iD اضافه می‌شود درواقع یک «گره» منفرد با مجموعه‌ای از «تگ‌ها» است.  
 
-### ترسیم خطوط  
+### رسم خطوط  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+برای افزودن خط جدید، روی دکمهٔ **خط** کلیک کنید.  ![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- نشانگر ماوس به علامت (+) تغییر می‌کند. جاده‌ای پیدا کنید که روی نقشه رسم نشده باشد و آن را رسم کنید. در نقطه‌ای که جاده شروع می‌شود، یک بار کلیک کنید، ماوس خود را حرکت دهید و برای اضافه‌کردن نقاط بیشتر، کلیک کنید. برای پایان‌دادن به روند رسم، دوبارکلیک کنید. به کادر سمت چپ توجه کنید.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   حذف خط. ![LineToolDelete][]{: height="24px"}  
+- درست مثل نقطه، برچسب‌های مناسب را برای خط خود انتخاب کنید.  
+- می‌توانید با کلیک روی یک نقطه و کشیدن آن، نقاط خط را جابه‌جا کنید.  
+- وقتی روی یک نقطه (گره) منفرد از یک خط چپ‌کلیک می‌کنید و سپس راست‌کلیک کنید یا کلید فاصله را فشار دهید منوی زمینه فعال می‌شود و این ابزارها را مشاهده خواهید کرد:  
+  - ادامه‌دادن خط از این نقطه ![PointToolContinue][]{: height="24px"}  
+  - جداکردن خط‌ها از این نقطه  ![PointToolDisconnect][]{: height="24px"}  
+  - تقسیم‌کردن یک خط به دو خط از این نقطه ![PointToolSplit][]{: height="24px"}  
+  - حذف نقطه از خط  ![PointToolDelete][]{: height="24px"}  
+- وقتی روی یک خط چپ‌کلیک می‌کنید (اما نه روی یک نقطه)، این ابزارها را مشاهده خواهید کرد:  
+  - ساخت دایره از خط (فقط اگر خط بسته باشد فعال است)  ![LineToolCircularize][]{: height="24px"}  
+  - جداکردن خط از اشیای دیگر  ![LineToolDisconnect][]{: height="24px"}  
+  - حرکت‌دادن خط  ![LineToolMove][]{: height="24px"}  
+  - قائمه‌کردن همهٔ گوشه‌ها  ![LineToolSquare][]{: height="24px"}  
+  - بازتاب‌دادن خط نسبت به محور کوتاه آن ![LineToolReflectShort][]{: height="24px"}  
+  - بازتاب‌دادن خط نسبت به محور بلند آن ![LineToolReflectLong][]{: height="24px"}  
+  - معکوس‌کردن جهت خط (مناسب برای رودخانه‌ها و خیابان‌های یکطرفه)  ![LineToolReverse][]{: height="24px"}  
+  - چرخاندن خط دور مرکزش  ![LineToolRotate][]{: height="24px"}  
+  - صاف‌کردن خط  ![LineToolStraighten][]{: height="24px"}  
+  - حذف خط  ![LineToolDelete][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+هر «خط» که در ویرایشگر iD رسم می‌شود در واقع یک «راه» است که «تگ‌ها»یی دارد.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+> یادداشت ویژه دربارهٔ **حذف**: به‌طور کلی، اگر نقشه‌کشی دیگران نیاز به بهبود دارد، باید از حذف رسم دیگران خودداری کنید. می‌توانید اشتباهات خود را حذف کنید، اما چیزهای رسم‌شده به دست دیگران را، اگر نیاز به اصلاح دارد، باید تلاش کنید که تنظیم کنید. این کار تاریخچهٔ موارد موجود در پایگاه‌دادهٔ OSM را حفظ می‌کند و نوعی احترام به نقشه‌کش‌های همکار نیز هست. اگر واقعاً احساس می‌کنید چیزی باید حذف شود، ابتدا از نقشه‌کش اصلی یا یکی از لیست‌های ایمیل OSM سوال کنید.
 
-### Drawing Shapes (Polygons)
+### رسم شکل‌ها (چندضلعی‌ها)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+برای افزودن یک شکل چندضلعی جدید، روی دکمهٔ **محدوده** کلیک کنید.  ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- نشانگر ماوس به علامت (+) تغییر می‌کند. با استفاده از تصاویر به‌عنوان راهنما یک ساختمان را دورکشی کنید.  
+- می‌بینید که بسته به خصوصیت‌هایی که به آن اختصاص می‌دهید، رنگ شکل شما تغییر می‌کند.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- ابزارهایی که هنگام انتخاب یک شکل و فعال‌کردن منوی زمینه با راست‌کلیک ماوس در دسترس هستند، با همین‌ها هنگام کلیک روی خط، مشابه هستند.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+یک «چندضلعی» در ویرایشگر iD در واقع یک «راه بسته» است که «تگ‌ها»یی دارد.
 
-### ترسیم چندضلعی‌ها
+### رسم Multipolygonها
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+بعضی مواقع مجبورید یک چندضلعی بکشید که نه‌تنها یک لبهٔ بیرونی بلکه یک یا چند کانتور لبهٔ داخلی نیز دارد. کافی است به ساختمان‌های حیاط‌دار در وسط یا دریاچه‌های جزیره‌دار فکر کنید. *تمام این راه‌ها را با یک خط رسم نکنید* که منحنی‌های داخلی از منحنی‌های بیرونی آویزان شوند. در عوض، این منحنی‌ها را جداگانه بکشید، تگ‌ها را فقط به منحنی بیرونی بدهید، تمام منحنی‌ها را انتخاب کنید و کلید **c** را بزنید تا آن‌ها را در چیزی که به آن Multipolygon می‌گوییم ترکیب کنید.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+با انتخاب هر یک از منحنی‌های Multipolygon تازه‌ساز، می‌توانید در سمت چپ ببینید که به کدام Multipolygon تعلق دارند.
 
 ![part of multipolygon][]
 
-## Issues
+## مسئله‌ها
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+ویرایشگر به‌محض ویرایش شما تعدادی بررسی انجام می‌دهد. اگر فکر کند کارهایی که انجام داده‌اید ممکن است مشکل ایجاد کند، در برگهٔ مسئله‌ها به شما اطلاع می‌دهد. هر زمان که در سمت راست روی نماد مسئله‌ها یک نقطهٔ زرد (برای هشدار) یا قرمز (برای خطا) دارد ظاهر شد، باید برگه را باز کنید و ببینید چه گزارشی داده است. در صورت انتخاب شیء مربوطه، این اطلاعات در کادر ویرایش عارضه‌ها نیز نمایش داده می‌شود. همچنین هنگام آپلود داده، به شما اخطار داده می‌شود که مشکلات حل‌نشده‌ای وجود دارد. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+در قسمت پایین برگهٔ مسئله‌ها قواعد موجود نمایش داده می‌شود و می‌توانید آن‌ها را تک‌به‌تک غیرفعال کنید، البته این کار توصیه نمی‌شود.
 
-Saving Your Changes
+ذخیره‌سازی تغییرات
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+هنگامی که (و اگر) می‌خواهید ویرایش‌های خود را در OpenStreetMap ذخیره کنید، روی دکمهٔ **ذخیره** کلیک کنید. کادر سمت چپ پنجرک آپلود را نشان می‌دهد.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- توضیحی دربارهٔ ویرایش‌های خود بنویسید و روی **ذخیره** کلیک کنید.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> اگر همزمان با شخص دیگری، یک عارضه (نقطه، راه یا محدوده) را ویرایش کرده باشید، اخطاری دریافت می‌کنید که می‌گوید تا زمانی که **تداخل‌ها** را برطرف  کنید، ویرایش‌های شما قابل آپلود نیستند. بایست انتخاب کنید ویرایش‌های چه کسی پذیرفته شود و تغییرات خود را آپلود کنید. *حل تداخل‌ها اغلب مستلزم پذیرش ویرایش‌های فرد مقابل است، که در این صورت احتمالاً بخواهید به عارضهٔ موردنظر برگردید و دوباره آن را ویرایش کنید (**این بار پس از ویرایش، کار خود را زودتر ذخیره کنید تا از تداخل مجدد پیشگیری شود!**).*
 
-Additional Information and Custom Tags
+اطلاعات بیشتر و تگ‌های سفارشی
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+هنگام ویرایش هر شی، منوی «افزودن خانه» (Add field) را در پایین کادر خصوصیت‌ها می‌بینید. می‌توانید با انتخاب یکی از مدخل‌ها (لایه، ارتفاع، ویکی‌پدیا و غیره) اطلاعات متنوع بیشتری اضافه کنید.  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+یا می‌توانید با کلیک روی **تگ‌ها** تگ‌های دلخواه اضافه کنید.  ![image44][]{: height="24px"}  
 
-- This will show all the tags attached to the feature.  
+- با این کار تمام تگ‌های داده‌شده به این عارضه نشان داده می‌شود.  
 ![image45][]  
-- Click the plus sign (+) to add keys and values or click the trash icon to delete tags.
+- برای افزودن کلیدها و مقدارها، روی علامت (+) کلیک کنید یا روی نماد زباله‌دان کلیک کنید تا تگ‌ها حذف شوند.
 
-آموزشهای بیشتر
+آموزش‌های بیشتر
 ------------------
 
-[Our external resources page](/en/resources/#iD) provides links to a number of video tutorials from various sources.
+[صفحهٔ منابع بیرونی ما](/fa/resources/#iD) لینک‌هایی به تعدادی ویدئو از منابع متنوع دارد.
 
-iD در مقابل JOSM
+iD در برابر JOSM
 ---------------  
 
-**iD is good for...**
+**iD مناسب است...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- هنگام انجام ویرایش‌های ساده  
+- هنگامی که برای بارکردن تصاویر و ذخیره‌کردن ویرایش‌ها اینترنت پرسرعت دارید   
+- هنگامی که می‌خواهید یک طرح تگ‌گذاری سازگار و ساده را دنبال کنید  
+- هنگامی که از نصب برنامه در رایانه‌ای که استفاده می‌کنید محروم شده‌اید
 
-**JOSM is better...**
+**JOSM بهتر است...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- هنگامی که ساختمان‌های زیادی اضافه می‌کنید (افزونهٔ buildings_tool را ببینید)
+- هنگامی که چندین چندضلعی یا خط موجود را ویرایش می‌کنید
+- هنگامی که اتصال اینترنتی ناپایدار دارید یا آفلاین هستید
+- هنگامی که از یک طرح تگ‌گذاری (tagging scheme) مشخص استفاده می‌کنید (یا پیش‌تنظیم‌های سفارشی)
 
-[^fieldpaper]: There is a [section of LearnOSM](/en/mobile-mapping/field-papers/) giving more information about Field Papers.
+[^fieldpaper]: [یکی از بخش‌های LearnOSM](/fa/mobile-mapping/field-papers/) دربارهٔ Field Papers اطلاعات بیشتری می‌دهد.
 
 
 
