@@ -9,7 +9,7 @@ category: resources
 
 # Outros Recursos
 
-> Revisto em 2018-02-24
+> Reviewed 2020-05-08
 
 Isto é uma lista comentada de apontadores a outros sites que consideramos úteis. Todas as hiperligações foram verificadas se funcionavam no momento que que este documento foi revisto.
 

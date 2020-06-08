@@ -9,7 +9,7 @@ category: resources
 
 # Other Resources
 
-> Reviewed 2018-02-24
+> Reviewed 2020-05-08
 
 Esta é uma lista de links comentados para outros websites que nós consideramos úteis. Todos os links foram verificados e estavam em funcionamento quando este documento teve sua última revisão.
 

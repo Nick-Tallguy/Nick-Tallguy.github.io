@@ -23,7 +23,7 @@ cd ${FOLDER2}
 # rm ${FOLDER3}/0500-10-29*  #updated 05/05/2020
 #
 # Copy files for editing from FOLDER3 (translations) to FOLDER5 (translations-temp)
-cp -u ${FOLDER3}/0[2-9]*.md  ${FOLDER5}/
+cp -u ${FOLDER3}/0[1-9]*.md  ${FOLDER5}/
 cp -u ${FOLDER3}/19*.md  ${FOLDER5}/
 ##
 #
