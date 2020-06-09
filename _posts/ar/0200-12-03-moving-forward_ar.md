@@ -1,6 +1,6 @@
 ---
 layout: doc-rtl
-title: قراءة متعمقة
+title: قراءة معمقة
 permalink: /ar/beginner/moving-forward/
 lang: ar
 category: beginner
@@ -56,7 +56,7 @@ OpenStreetMap هى جهود تعاونية نامل ان تكون انت جزء 
 - الآن عندما تريد إرسال رسالة إلى القائمة، يمكنك إرسالها إلى [talk-id@openstreetmap.org] (mailto:talk-id@openstreetmap.org), باستبدال "id" بالبلد للقائمة الخاص بك. سوف تتلقى أيضا رسائل إلكترونية عندما يقوم أعضاء آخرين بإرسال رسالة إلى القائمة.  
 
 
-Example of OSM use - MyOSMatic
+مثال على استخدام OSM قد يكون - MyOSMatic
 ---------- 
 
 One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
