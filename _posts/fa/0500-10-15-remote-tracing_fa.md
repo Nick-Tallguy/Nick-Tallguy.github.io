@@ -18,7 +18,7 @@ category: coordination
 =====
 
 [راه‌ها و معابر، شامل مسیرها و ردها](/fa/coordination/remote-tracing/#راه‌ها)  
-[شبکهٔ معابر](/fa/coordination/remote-tracing/#شبکه_معابر)  
+[شبکهٔ معابر](/fa/coordination/remote-tracing/#شبکه-معابر)  
 [محدودهٔ اراضی مسکونی](/fa/coordination/remote-tracing/#محدوده‌های-مسکونی)  
 [ساختمان‌ها، دیوارها، حصارها، محوطه‌ها و مانع‌ها](/fa/coordination/remote-tracing/#ساختمان‌ها-دیوارها-محوطه‌ها-موانع)  
 
