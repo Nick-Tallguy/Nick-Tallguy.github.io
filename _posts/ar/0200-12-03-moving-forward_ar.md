@@ -9,7 +9,7 @@ category: beginner
 قراءة متعمقة
 =============== 
 
-> Reviewed 2020-05-08  
+> تمت المراجعة في 2020-05-08  
 
 إذا كنت قد وصلت حتى هذا الحد، تهانينا! من المفروض أنه لديك الآن فهم جيد لكيفية صنع الخرائط بـ OpenStreetMap. ماذا يمكنك أن تفعل أكثر بـ OSM؟ كيف يمكنك تعلم المزيد؟ كيف يمكنك البقاء على اتصال بصانعي الخرائط؟  
 
@@ -64,7 +64,7 @@ One such project is called MyOSMatic, which you can access through your internet
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+مزيد من استخدامات بيانات OpenStreetMap موضحة في [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 ملخص
@@ -73,6 +73,6 @@ Further uses of OpenStreetMap data are explained in the [OSM-Data section of Lea
 هذه بعض الطرق التي يمكنك استخدامها وكذا البقاء على اتصال مع مستخدمي OpenStreetMap وتعلم المزيد. نأمل أن تستمر في استكشاف وتعلم المزيد عن OSM والمساهمة في المشروع. استمتع معنا!
 
 
-[MyOSMatic]: /images/beginner/myosmatic-homepage.png
+MyOSMatic]: /images/beginner/myosmatic-homepage.png]
 [Wiki]: /images/beginner/osm-wiki.png
 [Mailing list]: /images/beginner/osm-mailing-lists.png
