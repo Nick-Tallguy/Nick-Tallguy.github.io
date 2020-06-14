@@ -1,16 +1,16 @@
 ---
 layout: doc
 permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+lang: انجليزية
+title: إصدارات إدارة المهام
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
-============
+إصدارات إدارة المهام
+==============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+تمنحك هذه الصفحة نظرة عامة على إصدارات إدارة المهام التي نقدم لها الوثائق. حدد أحد الأدلة للإصدار الذي تتطابق لقطات الشاشة المتعلقة به مع البرنامج الذي تريد العمل به.
 
 <div class='disambiguation-version' markdown="1">
 ## Version 4 ##

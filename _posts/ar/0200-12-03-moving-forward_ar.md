@@ -59,7 +59,7 @@ OpenStreetMap هى جهود تعاونية نامل ان تكون انت جزء 
 مثال على استخدام OSM قد يكون - MyOSMatic
 ---------- 
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+ويسمى أحد هذه المشاريع Myosmatic، والتي يمكنك الوصول إليها من خلال متصفح الإنترنت الخاص بك على [print.get-map.org] (https://print.get-map.org/). هذه أداة بسيطة لطباعة خريطة لأي مدينة تختارها. سيقوم تلقائيًا بإنشاء الخريطة، بالإضافة إلى شبكة فوق الخريطة، وفهرس للمواقع التي يتم تضمينها في المنطقة.
 
 ![MyOSMatic][]
 

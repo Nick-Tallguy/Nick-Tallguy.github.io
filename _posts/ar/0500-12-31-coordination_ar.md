@@ -2,9 +2,9 @@
 النسق: doc
 الرابط الثابت: /en/coordination/
 اللغة: en
-title: Coordination
-category: coordination
-cover: yes
+العنوان: تنسيق
+الفئة: تنسيق
+الغطاء: نعم
 nosearch: true
 
 ---
@@ -14,6 +14,6 @@ nosearch: true
 
 > تمت المراجعة 2015-09-18
 
-Because OpenStreetMap involves many people mapping together, it's useful to know how mappers can coordinate this activity.
+نظرًا لأن OpenStreetMap يتضمن العديد من الأشخاص الذين يقومون برسم الخرائط معًا، فمن المفيد معرفة كيف يمكن لمصممي الخرائط تنسيق هذا النشاط.
 
-This section of learnOSM provides information on various tools used for coordinating mapping activities, means of communication, and quality assurance.
+يوفر هذا القسم من LearnOSM معلومات عن مختلف الأدوات المستخدمة لتنسيق أنشطة رسم الخرائط، وسائل الاتصال وضمان الجودة.
