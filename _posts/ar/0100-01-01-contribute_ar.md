@@ -6,8 +6,8 @@ title: Contribute
 contributetitle: "ساعد في تحسين دلائلنا"
 startwith: "هل أنت مستعد للبدء؟"
 startA: "أرسل لنا ردود الفعل"
-startB: "Help with translations"
-startC: "Improve Images - in your language!"
+startB: "المساعدة في الترجمات"
+startC: "تحسين الصور - بلغتك!"
 startD: "الإبلاغ عن مشاكل والمساهمة"
 nosearch: true
 ---
