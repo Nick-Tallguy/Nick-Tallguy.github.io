@@ -11,7 +11,7 @@ category: beginner
 
 > تمت مراجعته 2015-07-12  
 
-Information is powerful. With good information and the right understanding, individuals and communities are better able to improve their lives and make good decisions about the future. There are many people and organizations who make decisions that affect our lives. Good information allows these NGO's (non-government organisations), governments and citizens to make better decisions, and hopefully make our lives better. Maps are a good way to convey information. 
+المعلومات قوية. وبفضل المعلومات الجيدة و الفهم الصحيح, يصبح الأفراد و المجتمعات أكثر قدرة على تحسين حياتهم و اتخاذ قرارات جيدة بشأن المستقبل. هناك العديد من الناس والمنظمات الذين يتخذون القرارات التي تؤثر على حياتنا. تتيح المعلومات الجيدة لهذه الـ.م.غ.ح (المنظمات غير الحكومية) ، الحكومات والمواطنين اتخاذ قرارات أفضل، أملا في جعل حياتنا أفضل. الخرائط وسيلة جيدة لتبليغ المعلومات. 
 
 ![A village in Indonesia][]
 
@@ -25,9 +25,9 @@ Information is powerful. With good information and the right understanding, indi
 
 ![أمثلة للرموز][]
 
-Your map is informative. You might use a map like this to explain to someone where different places are, where problems are in your community, or merely to help someone find their way around. The use of your map is limited though - there is only one copy of the map.The way you drew it may make sense to you, but perhaps not to someone else who would have drawn their own map in a different way. Because your map is merely on paper, it is difficult to get that information to others.  This is why making your map on a computer, in such a way that anyone can access it, can be much more valuable. 
+خريطتك غنية بالمعلومات. قد تستخدم خريطة كهذه لتشرح لشخص ما حيث تتواجد الأماكن المختلفة، حيث تتواجد المشاكل في مجتمعك، أو لمجرد مساعدة شخص ما في العثور على طريقه. استخدام الخريطة الخاصة بك محدود على الرغم من أن - هناك نسخة واحدة فقط من الخريطة. الطريقة التي رسمتها بها قد تكون منطقيا بالنسبة لك، ولكن ربما ليس لشخص آخر كان قد رسم خريطة خاصة بهم بطريقة مختلفة. لأن خريطتك على الورق فقط، فمن الصعب تحصيل تلك المعلومات للآخرين. هذا هو السبب في جعل خريطتك على جهاز كمبيوتر، بطريقة يمكن لأي شخص الوصول إليها، ومحتواة أكثر للقيمة . 
 
-![Mapping on Computer][]
+![رسم الخرائط على الكمبيوتر][]
 
 OpenStreetMap هو أداة لإنشاء وتبادل معلومات خرائط. يمكن لأي شخص المساهمة في OSM، ويضيف الآلاف من الناس إلى المشروع كل يوم. يرسم المستخدمون الخرائط على أجهزة الكمبيوتر، بدلاً من الورق، ولكن كما سنرى في هذا الدليل، فإن رسم خريطة على جهاز كمبيوتر لا يختلف عن الرسم على الورق. بحيث لا نزال نرسم الخطوط لتمثيل الطرق والحقول وأي شيء آخر، وما زلنا نمثل المدارس والمستشفيات برموز. الشيء المهم هو أن خرائط OSM يتم حفظها على شبكة الإنترنت، ويمكن لأي شخص الوصول إليها في أي وقت، بمجانية تامة.
 
