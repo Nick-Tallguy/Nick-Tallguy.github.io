@@ -1,31 +1,31 @@
 ---
-النسق: doc
-العنوان: رسم الخرائط الإنسانية
-الرابط الثابت: /en/coordination/humanitarian/
-اللغة: en
-category: coordination
+layout: وثيقة
+title: رسم الخرائط إنساني
+permalink: /en/coordination/humanitarian/
+lang: انجليزية
+category: تنسيق
 ---
 
 # Humanitarian Mapping
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Reviewed 2015-09-18
+> تمت المراجعة 2015-09-18
 
-نشكركم على التطوع لمساعدة المجتمعات المحلية ومنظمات المعونة على الاستجابة لهذه الأزمة من خلال توفير بيانات خريطة محدثة لهم.  
+نشكركم على التطوع لمساعدة المجتمعات المحلية ومنظمات الإغاثة على الاستجابة لهذه الأزمة من خلال توفير بيانات خريطة محدثة لهم.  
 
-Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce.  
+مثلك، نريد المساعدة في أسرع وقت ممكن، وهناك شعور حقيقي بالإلحاح في ما نقوم به. ولكن السبب في أن منظمات المعونة تعتمد علينا للحصول على بيانات الخرائط هو أننا نأخذ بعض الوقت للتأكد من أن ما ننتجه مفيد ويلبي احتياجاتهم. نريدك أن تهتم بذلك أيضاً على الرغم من أنه سيؤخرك في البدء في تحديث الخريطة، إلا أننا بحاجة إلى تفهم كيف وماذا يجب أن تقوم به قبل البدء. يرجى عدم التسرع في والبدء في رسم الخرائط دون مشاهدة أو قراءة بعض الدروس المتاحة أولا. سيستغرق منا وقتا أطول بكثير تصحيح الأخطاء في رسم الخرائط بدل لانشاءها، وقد تسبب للعامل المهتم شكوك حول موثوقية الخرائط التي ننتجها.  
 
-We are constantly updating our software & training guides, but it does take time. The software in the Tasking Manager will be updated soon so that only experienced people can review mapping work and mark it as "validated", but at the moment we ask that the "validation" process be left for the most experienced mappers - please keep mapping and you will become one of our mapping validators in the future. **If you select a task square and the green button says 'Review the work' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
+نحن نقوم باستمرار بتحديث البرامج وأدلة التدريب لدينا، ولكن الأمر يستغرق وقتا طويلا. سيتم تحديث البرنامج في مدير المهام قريبا بحيث يمكن للأشخاص ذوي الخبرة فقط مراجعة عمل الخرائط ووضع علامة «تم التحقق من صحته» عليه، ولكن في الوقت الحالي نطلب أن تترك عملية «التحقق» لمصممي الخرائط الأكثر خبرة - يرجى الاستمرار في رسم الخرائط وسوف تصبح واحدا من مدققي الخرائط لدينا في المستقبل. ** إذا قمت بتحديد مربع مهام وكان الزر الأخضر يقول «مراجعة العمل»، فيرجى فقط تفاديه والنقر على مربع مهام آخر، لأن هذا التدقبق يحتاج إلى مخطط ذو خبرة لإكماله. **  
 
-We don't need you to read all of this site before you start, but we do need you to understand the basics:  
+لا نريدك أن تقرأ كل هذا الموقع قبل البدء، ولكننا بحاجة إلى فهمك للأساسيات:  
 
-1.  You need to carefully read the Task Manager Instructions for any project you would like to help map. They can be different, so make sure you read & understand them. There is a full description of how to use the [Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/), and it includes how to get live help from an experienced mapper.  
+1 - تحتاج إلى قراءة تعليمات إدارة المهام بعناية لأي مشروع ترغب في المساعدة في رسم الخرائط. يمكن أن يكون هناك اختلاف، لذلك تأكد من قراءتها وفهمها. هناك وصف كامل لكيفية استخدام [Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/)، ويتضمن ذلك كيفية الحصول على مساعدة آنية من راسم خرائط ذو خبرة.  
 
-2.  Make sure you have zoomed in enough so that you can actually see what you should be tracing - [it and many other things are explained here.](/en/coordination/remote/)  
+2 - تأكد من أنك قمت بالتكبير بما فيه الكفاية بحيث يمكنك أن ترى بالتحديد ما يجب أن تتبعه - [يتم شرح ذلك والعديد من الأشياء الأخرى هنا.] (/en/coordination/remote/)  
 
-3.  Buildings have to be traced, and the shape of the tracing should match the shape of the building. [This section of LearnOSM](/en/coordination/remote-tracing/) explains this, and how to create roads and a road network.  
+3 - يجب تتبع المباني، ويجب أن يتطابق شكل التتبع مع شكل المبنى.  [هذا القسم منLearnOSM](/en/coordination/remote-tracing/)  يشرح هذا، وكيفية إنشاء طريق وشبكة الطرق.  
 
-Thank you for reading this, and we hope you'll take the short time needed to make sure you do the important things right. We need all the help we can get, and hope that you can help us with this.  
+شكرا لقراءة هذا، ونأمل أن تأخذ وقتا قصيرا لازما للتأكد من أنك تفعل الأشياء الهامة بشكل صحيح. نحن بحاجة إلى كل المساعدة التي يمكننا الحصول عليها، ونأمل أن تتمكن من مساعدتنا في هذا.  
 
-Please remember, that although this event is very recent, the problems will continue for a very long time. People no longer have housing, and are living in shelters at the mercy of more bad weather. Hygiene will become difficult and there is the possibility of disease and other problems related to food and water. Although you may not see the problems mentioned in the news, they will still exist, and the aid workers will need maps that reflect the current situation. Please help us now, but please remember to come back and help us again in the future. 
+يرجى تذكر أنه على الرغم من أن هذا الحدث حديث جدا، فإن المشاكل سوف تستمر لفترة طويلة جدا. فالناس لم يعودوا يملكون سكنات، ويعيشون في ملاجئ تحت رحمة سوء الأحوال الجوية. سوف تصبح النظافة صعبة وهناك احتمال الإصابة بالأمراض وغيرها من المشاكل المتعلقة بالغذاء والماء. على الرغم من أنك قد لا ترى المشاكل المذكورة في الأخبار، إلا أنها ستظل موجودة، وسيحتاج عمال الإغاثة إلى خرائط تعكس الوضع الحالي. الرجاء مساعدتنا الآن، ولكن يرجى دائما تذكر العودة ومساعدتنا مرة أخرى في المستقبل. 

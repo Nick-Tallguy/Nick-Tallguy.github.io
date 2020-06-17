@@ -11,13 +11,13 @@ nosearch: true
 دليل المبتدئ
 ================
 
-> Reviewed 2015-07-12  
+> تمت المراجعة 2015-07-12  
 
 يوضح هذا الدليل خطوة بخطوة كيفية البدء باستخدام OpenStreetMap, سوف تتعلم كيفية إعداد حساب، كيفية استخدام برنامج تحرير الخرائط الأساسية، وفي الفصول اللاحقة يمكنك معرفة كيفية الذهاب خارجا 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### هل أنت جديد على OpenStreetMap وتريد تحسين الخريطة بإضافة بيانات؟
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
+إذا كنت ترغب في البدء وتكون قادرًا على تحرير بيانات خرائط، فنوصيك بقراءة هذه الأدلة:
 - the [introduction](/en/beginner/introduction/) gives you some background about the project
 - [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
 - in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
