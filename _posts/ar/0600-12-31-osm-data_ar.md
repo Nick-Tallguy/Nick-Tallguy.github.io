@@ -2,7 +2,7 @@
 layout: doc
 permalink: /en/osm-data/
 lang: en
-title: OSM Data
+title: OSM بيانات
 category: osm-data
 cover: yes
 nosearch: true
@@ -11,16 +11,16 @@ nosearch: true
 بيانات OpenStreetMap 
 ==================
 
-OpenStreetMap is a massive database of geographic data, and it's all open and free. But how do you access the data? In this section we'll discuss in greater detail how OSM data is organized, and how you can access and use the data that you are interested in.  
+OpenStreetMap هي قاعدة بيانات ضخمة للبيانات الجغرافية، وكلها مفتوحة ومجانية. ولكن كيف يمكنك الوصول إلى البيانات؟ في هذا القسم سوف نناقش بمزيد من التفصيل كيفية تنظيم بيانات OSM، وكيف يمكنك الوصول إلى البيانات التي تهمك واستخدامها.  
 
 <!--
 سوف نغطي:
 
--	OSM Data: An Overview
--	Geographic File Formats and the .osm file
+-	OSM Data: نظرة عامة
+-	 أشكال الملفات الجغرافية و ملف .osm
 -	الحصول على البيانات
--	OSM Data and Databases
--	Manipulating OSM files with Osmosis
+-	 وقواعد البيانات OSM بيانات
+-	  Osmosis بواسطة OSM معالجة ملفات 
 -	The OverPass API
 
 -->

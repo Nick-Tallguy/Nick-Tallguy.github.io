@@ -18,22 +18,22 @@ nosearch: true
 ### هل أنت جديد على OpenStreetMap وتريد تحسين الخريطة بإضافة بيانات؟
 
 إذا كنت ترغب في البدء وتكون قادرًا على تحرير بيانات خرائط، فنوصيك بقراءة هذه الأدلة:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
+- [المقدمة](/en/beginner/introduction/) تمنحك بعض الخلفية عن المشروع
+- [Getting started](/en/beginner/start-osm/) يوضح لك كيفية الحصول على حساب وكيفية استحضار محرر
+- في [iD editor](/en/beginner/id-editor/) تتعلم أساسيات تحرير البيانات
 
 
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
+### أنت تعرف بالفعل كيفية استخدام محرر وتريد المساهمة في رسم الخرائط الإنساني؟
 
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+النقطة الرئيسية هي معرفة كيفية تنسيق رسم الخرائط في هذا السياق.
+- [دليل رسم الخرائط عن بعد](/en/coordination/HOT-Remote-Response-Guide/) والمعلومات العامة حول [humanitarian mapping](/en/coordination/humanitarian/) تقدم بعض الخلفية
+- العامل هو [Tasking Manager](/en/coordination/tm-user/) الذين يجب أن تكون على دراية بكيفية سير عمله
 
-### Would you like to use OpenStreetMap on mobile devices?
+### هل ترغب في استخدام OpenStreetMap على الأجهزة المحمولة؟
 
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+هناك فصل كامل مكرس ل [رسم الخرائط على النقال] (/ar/mapping-mobile/)
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### أنت على دراية بأدوات نظم المعلومات الجغرافية GIS  وتريد الوصول إلى البيانات الأولية؟
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+الأدلة الخاصة بـ [مكان الحصول على البيانات](/en/osm-data/getting-data/) and [كيف تستعمل Geofabrik و HOT Export](/en/osm-data/geofabrik-and-hot-export/) يجب أن توفر بعض المؤشرات كيفية لاستخراج البيانات بتنسيقات مختلفة من قاعدة البيانات.
