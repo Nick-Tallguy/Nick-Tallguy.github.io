@@ -11,7 +11,7 @@
 
 > تمت المراجعة 2015-09-21  
 
-Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
+تتبع الصور هو وسيلة سهلة وقوية للمساهمة في OSM. يُسمى استخدام الصور لرسم النقاط والخطوط والأشكال على الأرض **الرقمة**. ويمكن في كثير من الأحيان فصلها عن فعل جمع بيانات السمة على الأرض، والتي غالبا ما تسمى **الأرض الحقيقة**. يمكن أن توفر الرقمنة الصور الهيكلية لخرائط OSM، مما يجعل عملية البحث عن الأراضي في أرض الواقع أسهل للأشخاص في هذا المجال. في هذا الفصل سوف نتعلم أكثر عن كيفية عمل الصور الجوية.  
 
 نبذة عن الصورة ( الجوية )
 -------------
