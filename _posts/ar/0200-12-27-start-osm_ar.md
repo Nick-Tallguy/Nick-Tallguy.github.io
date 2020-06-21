@@ -6,33 +6,33 @@ lang: ar
 category: beginner
 ---
 
-Getting started on OpenStreetMap.org
+البدء في OpenStreetMap.org
 ====================================
 
 > تمت مراجعته 2015-07-12  
 
-In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
+في هذا القسم سوف نتعلم خطوة بخطوة كيفية التنقل في موقع OpenStreetMap، عرض الخرائط، والاشتراك في حساب مستخدم. بعد أن يكون لديك اسم المستخدم وكلمة المرور الخاصة بك، سوف تكون قادرا على المساهمة باضافة الاضافات الأولى الخاصة بك في الخريطة.
 
 ![website][]
 
 زر موقع OpenStreetMap 
 -------------------------------
 
--   Open your web browser.
--   In the address bar at the top of the window, enter the following and press Enter:
+- افتح متصفح الشبكة الخاص بك.
+- في شريط العناوين أعلى النافذة، أدخل ما يلي واضغط على Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+- عند الانتهاء من تحميل الصفحة، يجب أن ترى شيئا من هذا القبيل:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Navigate the Map
+تصفح الخريطة
 ----------------
 
--   The main thing you should see is the map. Move the map by clicking on it with your left mouse button, holding the button down, and dragging your mouse around (see figure below).
+- الشيء الرئيسي الذي يجب أن تراه هو الخريطة. حرك الخريطة بالنقر عليها بزر الماوس الأيسر، مع الاستمرار بالنقر، وسحب الماوس بأي اتجاه (انظر الشكل أدناه).
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
+- إذا كان لديك ماوس مع عجلة التمرير، قم بالتكبير والتصغير على الخريطة عن طريق تدوير تلك العجلة. إذا لم يكن لديك عجلة التمرير، فاستخدم الزرين + و — في الزاوية اليمنى العليا من الخريطة. (انظر الشكل أدناه)
 -   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
 
     ![Search][]
