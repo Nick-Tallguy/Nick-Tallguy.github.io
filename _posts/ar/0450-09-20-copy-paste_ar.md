@@ -1,9 +1,9 @@
 ---
-التخطيط: وثيقة
-العنوان: نسخ، لصق وتدوير - iD editor
-الرابط الثابت: /en/hot-tips/copy-paste/
-اللغة: انجليزية
-الفئة: نصائح سريعة
+layout: doc-rtl
+title: نسخ، لصق وتدوير - iD editor
+permalink: /ar/hot-tips/copy-paste/
+lang: ar
+category: hot-tips
 ---
 
 النسخ واللصق والتدوير - iD editor

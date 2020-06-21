@@ -1,10 +1,10 @@
 ---
-النسق: doc
-الرابط الثابت: /en/coordination/
-اللغة: en
-العنوان: تنسيق
-الفئة: تنسيق
-الغطاء: نعم
+layout: doc-rtl
+permalink: /ar/coordination/
+lang: ar
+title: التنسيق
+category: coordination
+cover: yes
 nosearch: true
 
 ---

@@ -1,9 +1,9 @@
 ---
-layout: وثيقة
+layout: doc-rtl
 title: رسم الخرائط إنساني
-permalink: /en/coordination/humanitarian/
-lang: انجليزية
-category: تنسيق
+permalink: /ar/coordination/humanitarian/
+lang: ar
+category: coordination
 ---
 
 # Humanitarian Mapping

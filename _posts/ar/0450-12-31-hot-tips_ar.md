@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/hot-tips/
-lang: en
+permalink: /ar/hot-tips/
+lang: ar
 title: HOT Tips - Getting started for new mappers - iD editor
 category: hot-tips
 cover: yes

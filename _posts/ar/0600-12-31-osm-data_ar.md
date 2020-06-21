@@ -1,7 +1,7 @@
 ---
-layout: doc
-permalink: /en/osm-data/
-lang: en
+layout: doc-rtl
+permalink: /ar/osm-data/
+lang: ar
 title: OSM بيانات
 category: osm-data
 cover: yes

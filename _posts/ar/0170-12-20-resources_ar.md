@@ -1,8 +1,8 @@
 ---
-layout: doc
+layout: doc-rtl
 title: Other Resources
-permalink: /en/resources/
-lang: en
+permalink: /ar/resources/
+lang: ar
 cover: yes
 category: resources
 ---
