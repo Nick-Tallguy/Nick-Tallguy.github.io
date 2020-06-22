@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager Mapper Guide
-permalink: /en/coordination/tm-user/
-lang: en
+permalink: /bn_BD/coordination/tm-user/
+lang: bn_BD
 category: coordination
 ---
 
