@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Tasking Manager Administrator Guide
-permalink: /en/coordination/tm-admin/
-lang: en
+permalink: /zh_CN/coordination/tm-admin/
+lang: zh_CN
 category: coordination
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: نسخ، لصق وتدوير - iD editor
 permalink: /ar/hot-tips/copy-paste/
 lang: ar

@@ -1,7 +1,7 @@
 ---
-layout: doc-rtl
-permalink: /ar/coordination/tm-disambiguation/
-lang: ar
+layout: doc
+permalink: /en/coordination/tm-disambiguation/
+lang: انجليزية
 title: إصدارات إدارة المهام
 category: coordination
 navigation: skip

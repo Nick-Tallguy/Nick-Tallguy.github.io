@@ -1,5 +1,5 @@
 ---
-layout: doc-rtl
+layout: doc
 title: Other Resources
 permalink: /ar/resources/
 lang: ar
