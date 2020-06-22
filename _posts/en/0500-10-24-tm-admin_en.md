@@ -138,13 +138,13 @@ Geospatial desktop applications like JOSM or QGIS allow mappers to more precisel
 After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
 
 1. `Square Grid`, with the functionality described above to define tasks.
-2. `Arbitrary Geometries`, coming from the file you just uploaded.
+2. `Arbitrary Geometries`, coming from the file you just uploaded. If this is what you want then activate the switch 'Set tasks using uploaded polygons'
+
+![TM New Polys][]
 
 **Define arbitrary geometries**
 
 If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
-
-Please note, arbitrary geometries can not be split. They should only be used in special cases, as they have implications on the performance of the tool.
 
 ## Edit a mapping project
 
@@ -310,6 +310,7 @@ If the project is ready for mapping, click the ‘Publish’ link. Once the proj
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
 [TM Add Project]: /images/coordination/tm4_new_project.png
 [TM New]: /images/coordination/tm4_create_new.png
+[TM New Polys]: /images/coordination/tm4_create_new_polys.png
 [TM Draw AoI]: /images/coordination/tm4_draw_aoi.png
 [TM Trim]: /images/coordination/tm4_trim1.png
 [TM Trim coarse]: /images/coordination/tm4_trim2.png
