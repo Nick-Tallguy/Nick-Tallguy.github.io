@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Using Geofabrik and HOT Export
-permalink: /en/osm-data/geofabrik-and-hot-export/
+permalink: /hu/osm-data/geofabrik-and-hot-export/
 lang: hu
 category: osm-data
 ---
