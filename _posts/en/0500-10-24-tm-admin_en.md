@@ -68,8 +68,6 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 ### Define mapping area
 
-![TM Draw AoI][]
-
 1. You may switch to other background layers using the buttons on the top. 
 1. Click the `Draw` button on the left.
 2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
@@ -93,7 +91,7 @@ After you've adjusted the base grid task size, you can selectively divide certai
 It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
 
 > Considerations for deciding on task sizes:
-> -  Beginner mappers roughly needs four times as long as an experienced mappers.
+> -  Beginner mappers roughly need four times as long as experienced mappers.
 > -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
 > -  Beginner mappers face challenges tracing a lot similar features such as buildings.
 > -  A square may be split later on, but there is no option to join squares together.
@@ -311,7 +309,6 @@ If the project is ready for mapping, click the ‘Publish’ link. Once the proj
 [TM Add Project]: /images/coordination/tm4_new_project.png
 [TM New]: /images/coordination/tm4_create_new.png
 [TM New Polys]: /images/coordination/tm4_create_new_polys.png
-[TM Draw AoI]: /images/coordination/tm4_draw_aoi.png
 [TM Trim]: /images/coordination/tm4_trim1.png
 [TM Trim coarse]: /images/coordination/tm4_trim2.png
 [TM Trim fine]: /images/coordination/tm4_trim3.png
