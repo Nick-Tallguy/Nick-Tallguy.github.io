@@ -9,7 +9,6 @@ category: osm-data
 استفاده از برون‌بردهای Geofabrik و HOT
 ================
 
-> تاریخ بازبینی ۱۳۹۵/۰۶/۱۵  
 
 پس از اینکه نحوهٔ اضافه‌کردن و ویرایش داده در OpenStreetMap (OSM) را آموختیم، اکنون شاید مایل باشید که داده را دریافت کنید تا از آن پشتیبان بگیرید یا آن را با استفاده از نرم‌افزار سیستم اطلاعات جغرافیایی منبع‌بازی مانند [Quantum GIS](http://www.qgis.org) پردازش کنید.  
 
@@ -127,18 +126,18 @@ Keyhole Markup Language یا KML به معنی زبان نشانه‌گذاری 
 
 ### MAPS.ME .mwm
 Maps.me یک برنامهٔ ناوبری GPS و نقشه برای گوشی‌های هوشمند و تبلت‌های Android و iOS است، که به‌ویژه از نقشه‌کشی و ناوبری آفلاین پشتیبانی می‌کند. دربارهٔ [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) در بخش Learn بیشتر بخوانید. برای استفاده از یک برون‌برد سفارشی در Maps.me روی اندروید، لطفاً این مراحل را دنبال کنید:
-* Maps.me را باز کنید و به منطقهٔ موردنظر خود بروید
-* درخواست Maps.me را بپذیرید و منطقهٔ پیشنهادشده را دانلود کنید
-* Maps.me را ببندید
-* یک برون‌برد MWM بسازید
-* فایل برون‌بُرده را دانلود کنید، آن را از حالت فشرده خارج کنید و فایل ‎.mwm را به دستگاه خود کپی کنید
-* با استفاده از مدیر فایل اندروید (File Manager)، به مکان حاوی فایل ‎.mwm بروید
-* انگشت خود را روی آن نگه دارید و سپس دکمهٔ «کپی» (copy) یا «برش» (cut) را بزنید
-* به MapsWithMe بروید و پوشه با بالاترین رقم را باز کنید (به‌عنوان مثال 170917)
-* با زدن روی دکمهٔ «چسباندن» (paste)، فایل ‎.mwm خود را به این پوشه کپی/منتقل کنید
-* فایل ‎.mvm فعلی برای منطقهٔ موردنظرتان را حذف کنید و نام فایل آن را یادداشت کنید
-* فایل ‎.mwm خود را تغییر نام دهید تا نام آن مطابق نام فایلی شود که خود Maps.me برای آن منطقه دانلود کرده بود (و لحظاتی پیش آن را حذف کردید). برای این کار روی نام فایل انگشت خود را نگه دارید (تا انتخاب شود) و سپس با زدن دکمهٔ «بیشتر» (سه نقطه روی هم) تغییر نام را انتخاب کنید.
-* Maps.me را باز کنید
+- Open Maps.me and navigate to your region of interest
+- Accept Maps.me's prompt and download the offered region
+- Force close Maps.me
+- Create an MWM export
+- Download the export, unzip it, and copy the .mwm file to your device
+- Using the Android File Manager, navigate to the location containing the .mwm file
+- Long-press to select it and touch the "copy" or "cut" button
+- Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
+- Copy/move your .mwm file into this directory by tapping the "paste" button
+- Delete the existing .mwm file for your region of interest, taking note of its filename
+- Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
+- Open Maps.me
 
 ![export-tool-mapsme][]
 

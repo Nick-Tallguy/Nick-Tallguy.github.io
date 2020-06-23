@@ -9,7 +9,6 @@ category: osm-data
 Menggunakan Geofabrik dan HOT Export
 ================
 
-> Direview 2016-09-05  
 
 Setelah belajar bagaimana menambahkan dan mengedit data OpenStreetMap (OSM), sekarang mungkin Anda ingin mendapatkan data tersebut sebagai cadangan atau ingin memprosesnya menggunakan software SIG yang open source, seperti QGIS ([www.qgis.org](http://www.qgis.org)).  
 
@@ -127,18 +126,18 @@ Format data OSM pada dasarnya adalah sebuah dokumen XML dari nodes, ways dan rel
 
 ### MAPS.ME .mwm
 Maps.me adalah sebuah aplikasi peta dan navigasi untuk tablet dan smartphone berbasis Android dan iOS, yang mendukungpeta dan navigasi offline. Baca lebih lanjut [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) pada bagian Learn. Untuk menggunakan data ekspor kustom menggunakan Maps.me pada Android, silakan ikuti langkah-langkah berikut:
-Buka Maps.me dan navigasikan ke wilayah yang Anda inginkan
-Terima permintaan Maps.me dan unduh area tersebut
-Tutup Maps.me
-Buat sebuah ekspor MWM
-Unduh hasil ekspor, unzip dan salin file .mwm ke dalam perangkat Anda
-Gunakan Android File Manager untuk menemukan dimana letak file .mwm
-Tekan agak lama pada file tersebut dan tekan tombol "salin" atau "potong"
-Navigasi ke "MapsWithMe" dan buka folder dengan angka tertinggi (misalnya 170917)
-Salin/Pindahkan file .mwm ke direktori dengan menekan tombol "paste"
-Hapus file .mwm yang ada untuk wilayah Anda, catat nama file tersebut
-Ubah nama file .mwm yang Anda salin dengan nama yang tadi Anda catat (yang file nya baru saja dihapus) dengan menekan agak lama (untuk memilih) dan tekan tombol "more" (3 titik vertikal)
-Buka Maps.me
+- Buka Maps.me dan navigasikan ke wilayah yang Anda inginkan
+- Terima permintaan Maps.me dan unduh area tersebut
+- Tutup Maps.me
+- Buat sebuah ekspor MWM
+- Unduh hasil ekspor, unzip dan salin file .mwm ke dalam perangkat Anda
+- Gunakan Android File Manager untuk menemukan dimana letak file .mwm
+- Tekan agak lama pada file tersebut dan tekan tombol "salin" atau "potong"
+- Navigasi ke "MapsWithMe" dan buka folder dengan angka tertinggi (misalnya 170917)
+- Salin/Pindahkan file .mwm ke direktori dengan menekan tombol "paste"
+- Hapus file .mwm yang ada untuk wilayah Anda, catat nama file tersebut
+- Ubah nama file .mwm yang Anda salin dengan nama yang tadi Anda catat (yang file nya baru saja dihapus) dengan menekan agak lama (untuk memilih) dan tekan tombol "more" (3 titik vertikal)
+- Buka Maps.me
 
 ![export-tool-mapsme][]
 
