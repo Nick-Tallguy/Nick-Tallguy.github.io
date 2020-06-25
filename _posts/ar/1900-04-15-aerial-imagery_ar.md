@@ -16,9 +16,9 @@
 نبذة عن الصورة ( الجوية )
 -------------
 
-Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
+الصور الجوية هي المصطلح الذي نستخدمه لوصف الصور التي يتم التقاطها من السماء. ويمكن أخذ هذه الصور من الطائرات، الطائرات بدون طيار، المروحيات، أو حتى الطائرات الورقية والبالونات، ولكن المصدر الأكثر شيوعا للصور يأتي من الأقمار الصناعية التي تدور حول الأرض.  
 
-[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
+[في الفصل المتعلق بنظام تحديد المواقع العالمي] (/en/mobile-mapping/using-gps) تعلمنا عن عشرات الأقمار الصناعية التي تدور حول الأرض والتي تسمح لمستقبلنا بتحديد خطوط الطول ودوائر العرض لدينا. وبالإضافة إلى أقمار الـGPS الصناعية هذه ، هناك أيضا أقمار تلتقط صور للأرض.  هذه الصور يتم التعديل عليها لاحقا بحيث يمكن استخدامها في برنامج GIS (برنامج رسم خرائط). تتكون صور Bing الجوية من صور أقمار صناعية.  
 
 الدقة
 ----------
@@ -33,14 +33,14 @@ Aerial imagery is the same, except that we usually talk about resolution differe
 
 ![Comparison of low and high resolution imagery][]
 
-The higher the resolution of an aerial image, the easier it is to use in making maps.  
+كلما زادت دقة الصورة الجوية، كان من الأسهل استخدامها في صنع الخرائط.  
 
 الإسناد الجغرافي
 ---------------
 
-Each pixel of an aerial photograph has a size, and each pixel also has a location. As we mentioned above, this is because aerial photographs are georeferenced.  
+كل بكسل من صورة جوية لها حجم، ولكل بكسل أيضا موقع. وكما ذكرنا أعلاه، يرجع ذلك إلى أن الصور هي صور جغرافية مرجعية.  
 
-Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
+تماما كما لنقطة GPS خط طول ودائرة عرض، نفس الشيء لبكسلات في الصورة الجوية. ومع ذلك، كما قد تتسبب الصور ضعيفة الجودة في جلب تحديات أثناء رسم الخرائط، قد تجلبها الصور ذات المرجعية الجغرافية السيئة كذلك.  
 
 Let's think for a moment about how georeferencing works, and why it is challenging to do. When somebody georeferences an image, they first identify a handful of pixels in the image that are known locations. If we have a square photograph, we might identify the coordinates of all four corners, and that way the whole image can be correctly placed.  
 
