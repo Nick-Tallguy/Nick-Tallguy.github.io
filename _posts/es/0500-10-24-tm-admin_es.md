@@ -9,7 +9,7 @@ category: coordination
 # Guía del Administrador de Tasking Manager
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**Si la interfaz de usuario de la versión que utiliza se ve diferente a la descrita aquí, entonces debe consultar [nuestra descripción de la versión](/es/coordination/tm-disambiguation)**
 
 Índice por secciones
 -------------
@@ -30,39 +30,39 @@ category: coordination
     -  [Consejos útiles - cómo rellenar todos los campos](/en/coordination/tm-admin/#helpful-hints)
     -  [Publicar - No olvides o no acabará nunca su trabajo](/en/coordination/tm-admin/#publish)
 
-The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
+El Tasking Manager es la herramienta esencial para coordinar el mapeo en OpenStreetMap. Apoya las iniciativas de mapeo humanitario, realizando mapathons o creando tareas de mapeo para los estudiantes. La aplicación divide un área de interés en trozos geográficos manejables que pueden ser completados rápidamente y en colaboración. Este enfoque permite la distribución de tareas a muchos cartografos individuales, a la vez que reduce los posibles conflictos de edición. 
 
-The Software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
+El software fomenta la precisión y la calidad de los datos cartográficos proporcionando un conjunto coherente de instrucciones para sus cartografistas (por ejemplo, 'cartografiar todas las carreteras y edificios'). En resumen, el Administrador de Tareas es la forma de configurar y dirigir el flujo de trabajo para las actividades cartográficas abiertas. 
 
-This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
+Esta guía describe la administración básica del Tasking Manager. Cubre las instrucciones para crear y modificar proyectos de mapeo y los permisos de manejo para el mapeo y la revisión de los datos obtenidos por colaboración masiva.
 
 ## Iniciar sesión
 
-In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preference. There click `Sign up` and it redirects you to the [OpenStreetMap website](https://www.openstreetmap.org) to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account.
+Para acceder al Tasking Manager se necesita una cuenta de OpenStreetMap (OSM). Puede visitar el [HOT Tasking Manager](http://tasks.hotosm.org), o cualquier otra instancia de la comunidad de su preferencia. Allí haga clic en `Regístrese` y le redirigirá a la página web de [OpenStreetMap](https://www.openstreetmap.org) para crear su cuenta. O haga clic en `Iniciar sesión` si ya tiene una, y en la ventana emergente puede darle al Tasking Manager acceso limitado a su cuenta de OSM.
 
 ## Permisos
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
+El nivel de usuario más básico es **mapper**. Los mapeadores pueden acceder al Tasking Manager para encontrar y seleccionar un proyecto de mapeo en el que trabajar. Toda la funcionalidad del mapeador se describe en la [Guía del mapeador del Tasking Manager sobre LearnOSM]](/es/coordination/tm-user/). Tenga en cuenta que algunos proyectos, como los que se encuentran en estado de borrador (es decir, no publicados), o restringidos a ciertos equipos, no son visibles para los mapeadores habituales
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
+Todos los permisos especiales son manejados por *organizaciones* y *equipos*. Una **organización** es la entidad coordinadora, y bajo cada organización se pueden crear proyectos y equipos de mapeo. Una organización podría, por ejemplo, representar a un usuario de datos como una organización humanitaria, o cualquier comunidad de OpenStreetMap. Si necesita configurar su organización en el Tasking Manager, contacte con los mantenedores técnicos de la aplicación de Tasking Manager.
 
-Every organization has one or more **administrators**. They have the permission to create and modify associated projects. All administration options can be accessed through the `Manage` section in the main navigation.
+Cada organización tiene uno o más **administradores**. Ellos tienen el permiso para crear y modificar los proyectos asociados. Se puede acceder a todas las opciones de administración a través de la sección `Administrar` en la navegación principal.
 
-Administrators of an organization can create **teams**. Teams are groups of users and they can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+Los administradores de una organización pueden crear **equipos**. Los equipos son grupos de usuarios y pueden ser públicos o privados. También tienen uno o más administradores. Los equipos pueden ser creados de manera que los usuarios puedan unirse a un equipo por su cuenta o "sólo con invitación", lo que significa que los administradores de los equipos son notificados sobre las solicitudes para unirse y deben decidir sobre ellas.
 
-For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
+Para cada proyecto, los administradores pueden asignar equipos específicos para conceder o restringir el acceso a la cartografía, definir quién puede validar los datos o quién puede editar los metadatos del proyecto.
 
 
 ## Crear proyecto de mapeo
 
-To access the administation section, click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
+Para acceder a la sección de administración, haga clic en `Administrar` en la navegación de la parte superior, en la primera fila verá un espacio para 'Proyectos'. A su lado, haga clic en el botón `Agregar` para crear uno.
 
 ![TM Add Project][]
 
-You may choose between defining the area of interest (mapping area) of your mapping project by either:
+Puede elegir entre definir el área de interés (área de mapeo) de su proyecto de mapeo por cualquiera de los dos:
 
-* Option 1: `Draw` the area of interest on a web map (preferred method)
-* Option 2: `Upload file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
+* Opción 1: `Dibujar` el área de interés en un mapa web (método preferido)
+* Opción 2: `Subir archivo` para importar el área de interés desde un geojson, KML o shapefile. Esto también puede incluir una tarea específica (encontrar más información en la parte de "Creación de proyectos avanzados" más abajo)
 
 ![TM New][]
 
@@ -72,238 +72,238 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 1. Puede pasar de una capa de fondo a otra utilizando los botones en la parte superior.
 1. Haga clic en el botón `Dibujar` situado a la izquierda.
-2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
+2. Para dibujar un polígono que represente el área del mapa en el marco del mapa, mantenga pulsado el botón derecho del ratón para mover el mapa sin hacer clic, lo que añadirá un nodo. El polígono debe enmarcar firmemente el área de interés. Esto ahorra tiempo para completar las baldosas que no son de interés (por ejemplo, el océano, el bosque).
 3. Haga clic en el punto de inicio para completar el polígono.
-4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
+4. Continúe añadiendo nodos con un solo clic del ratón. Un doble clic del ratón terminará el polígono. <! -Después de completar un polígono puedes mover los nodos o añadir nuevos para obtener el área tal y como la quieres.-->
 
 ### Definir tareas
 
-After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
+Después de que el área de mapeo general haya sido definida, se va a dividir en áreas más pequeñas llamadas *Tareas*. Estas tareas deben tener un buen tamaño para que puedan ser completadas rápidamente y en colaboración, con muchas personas contribuyendo a un objetivo de proyecto colectivo.
 
 ![TM Tile Sizes][]
 
-The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
+El área de mapeo se divide automáticamente en en celdas de rejilla y cada celda se convierte en una tarea. Utiliza los botones `Mayor` y `Menor` para ajustar el tamaño general de los cuadros de tareas.
 
-> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
+> Usar una imagen de satélite para determinar un buen tamaño de la tarea es muy útil. Puede cambiar entre varias capas de fondo del mapa con los botones de la parte superior del mapa. <!-- Si tienes imágenes personalizadas para el proyecto, también puedes cargarlas usando el botón en la parte superior derecha del mapa y poniendo una url TMS o WMS. -->
 
-After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
+Después de ajustar el tamaño de la cuadrícula de tareas de base, puedes dividir selectivamente ciertas tareas en cuatro más pequeñas con el botón `clic para dividir`. O puedes `Dibujar el área a dividir`, y te permitirá dibujar un polígono sobre un área y todas las tareas dentro de ella se dividirán en cuatro nuevas cada una. El botón de reinicio eliminará todas tus divisiones personalizadas.
 
-**Task sizes**:  Please take you time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes on rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities por dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
+** Tamaños de la tareas **: Por favor, tómese su tiempo y defina cuidadosamente los tamaños de las tareas. El tamaño óptimo de la tarea depende en gran medida de la cantidad de objetos que se solicitan para ser mapeados en cada tarea. Los tamaños de las tareas en las zonas rurales son generalmente más grandes que para los proyectos de mapeo, que se trata de digitalizar los edificios en las ciudades por las zonas de asentamientos densos. Idealmente, trate de mapear un área del proyecto usted mismo para ver los desafíos y el esfuerzo de mapearla. Esto debería ayudarte a decidir el tamaño óptimo del cuadrado.
 
-It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
+Se recomienda elegir tamaños de tareas que los mapeadores puedan completar en 15-20 minutos.
 
-> Considerations for deciding on task sizes:
-> -  Beginner mappers roughly needs four times as long as an experienced mappers.
-> -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
-> -  Beginner mappers face challenges tracing a lot similar features such as buildings.
-> -  A square may be split later on, but there is no option to join squares together.
-> -  On the edge and corners of tasks, there is always the potential to get in conflict with a fellow mapper next to you. Smaller tasks means more corners and edges. There is a tradeoff in the size to make it easy for mappers, but to not produce mapping conflicts between them.
+> Consideraciones para decidir el tamaño de las tareas:
+> - Los mapeadores principiantes necesitan aproximadamente cuatro veces más tiempo que los mapeadores experimentados.
+> - Los cartografos principiantes necesitan desarrollar un ojo para las imagenes satelitales. Encontrar las características correctas puede ser difícil.
+> - Los mapeadores principiantes se enfrentan a retos para trazar características muy similares, como edificios.
+> - Un cuadrado puede ser dividido más tarde, pero no hay opción de unir los cuadrados.
+> - En el borde y en los rincones de las tareas, siempre existe la posibilidad de entrar en conflicto con un compañero mapista a tu lado. Tareas más pequeñas significan más esquinas y bordes. Hay una compensación en el tamaño para facilitar a los cartografos, pero no para producir conflictos de mapeo entre ellos.
 
-After finalizing the definition of task sizes, click `Next`.
+Después de finalizar la definición de los tamaños de las tareas, haga clic en `Siguiente`.
 
 ### Zona del proyecto
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extend of your mapping area. If you simply click on `Trim` then you skip all task squares which do not contain the mapping area
+Después de determinar los tamaños de las tareas, tendrá la opción de recortar las tareas hasta la extensión de su área de mapeo. Si simplemente hace clic en `Recortar` entonces se salta todos los cuadros de la tarea que no contienen el área de mapeo
 
 ![TM Trim coarse][]
 
-If you check the box about trimming to the exact area before clicking on `Trim` then you obtain arbitrary task shapes at the fringe
+Si marcas la casilla de recortar el área exacta antes de hacer clic en `Recortar`, entonces obtienes formas de tareas arbitrarias en el borde.
 
 ![TM Trim fine][]
 
-After finalizing a the mapping area trim, click `Next`.
+Después de finalizar el recorte del área de mapeo, haga clic en `Next`.
 
 
 ### Guardar el proyecto
 
-Give the project a title (can be edited on the next screen) and click `Create`. First step is done.
+Dale un título al proyecto (puede ser editado en la siguiente pantalla) y haz clic en `Crear`. El primer paso está completado.
 
-Learn more about how to add descriptions and instructions to the project and get it published to the mappers in our "Edit a mapping project" chapter below.
+Aprenda más sobre cómo añadir descripciones e instrucciones al proyecto y conseguir que se publique a los cartografos en nuestro capítulo "Editar un proyecto de cartografía" más abajo.
 
 ### Advanzado: Define el área de mapeo y las tareas con geodatos importados
 
-Geospatial desktop applications like JOSM or QGIS allow mappers to more precisely draw the areas of interest, compared to the slippy web map inside the Tasking Manager. You can also determine special task shapes and sizes beforehand.
+Las aplicaciones de escritorio geoespaciales como JOSM o QGIS permiten a los cartografos dibujar con mayor precision las areas de interes, en comparacion con el resbaladizo mapa web dentro del Tasking Manager. También puede determinar de antemano formas y tamaños de tareas especiales.
 
-> The Tasking Manager is a web application. Please make sure the file you upload is reduced in it's size. You might want to simplify geometries first and cut off too many digits of the coordinates.
+> El Tasking Manager es una aplicación web. Por favor, asegúrese de que el archivo que suba se reduzca en su tamaño. Puede que quieras simplificar las geometrías primero y cortar demasiados dígitos de las coordenadas.
 
-**Upload a GeoJSON or KML file of the area of interest to be mapped**
+**Subir un archivo GeoJSON o KML del área de interés a ser cartografiada**
 
-1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
+1. En el primer paso de la creación de un proyecto, haz clic en la opción 2, el botón ‘Subir archivo’.
 2. Busque su fichero en el cuadro de subida de ficheros.
-3. Click the file name to highlight the file and then click ‘Open’.
+3. Haz clic en el nombre del archivo para resaltarlo y luego haz clic en ‘Open’.
 4. Áreas de interés importados no pueden ser editados.
 
-After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
+Después de subir un archivo al Administrador de Tareas puede seleccionar si desea definir las tareas como 
 
-1. `Square Grid`, with the functionality described above to define tasks.
-2. `Arbitrary Geometries`, coming from the file you just uploaded.
+1. `Rejilla cuadriculada`, con la funcionalidad descrita anteriormente para definir tareas.
+2. `Geometrías arbitrarias`, provenientes del archivo que acabas de subir.
 
-**Define arbitrary geometries**
+**Definir geometrías arbitrarias**
 
-If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
+Si subió un archivo para definir su área de proyecto, ese archivo también puede contener las formas para las tareas individuales. Por ejemplo, si el área de interés consiste en un polígono, el proyecto tendrá una sola tarea. Esto sólo debería utilizarse en casos especiales y por razones específicas. Por ejemplo, un proyecto de importación de carreteras podría necesitar formas de tareas personalizadas o el resultado de un proceso de reducción de área de mapeo.
 
-Please note, arbitrary geometries can not be split. They should only be used in special cases, as they have implications on the performance of the tool.
+Tenga en cuenta que las geometrías arbitrarias no se pueden dividir. Sólo deben utilizarse en casos especiales, ya que tienen implicaciones en el rendimiento de la herramienta.
 
 ## Editar proyecto de mapeo
 
-After a project has been initially set up and created, you have to edit its information and settings:
+Después de que un proyecto ha sido inicialmente establecido y creado, tienes que editar su información y configuración:
 
-- Description - Used for display in lists and motivational information for mappers
-- Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-- Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-- Imagery - Place to provide a TMS URL and License required.
-- Priority Areas - Allows you to specify parts of the Project that should be mapped first.
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Project due date and JOSM Presets.
-- Actions - Send messages to contributors, validate and invalidate the entire project with one click.
+- Descripción - Se utiliza para inclusión en listas y para transmitir información motivadora para los cartógrafos
+- Instrucciones - Instrucciones detalladas sobre qué y cómo mapear los objetos/entidades/funciones necesarias
+- Metadatos - Información adicional utilizada para categorizar el Proyecto. A menudo se utiliza para filtrar la lista completa de proyectos.
+- Imágenes - Lugar para proporcionar una URL TMS y la licencia requerida.
+- Áreas prioritarias - Permite especificar las partes del Proyecto que deben ser mapeadas primero.
+- Permisos - Permite restringir el acceso al proyecto para su mapeo y validación.
+- Ajustes - Fecha de vencimiento del proyecto y preajustes del JOSM.
+- Acciones - Enviar mensajes a los colaboradores, validar e invalidar todo el proyecto con un solo clic.
 
-> Filling in this information carefully is an essential part of a successful mapping project. It is very important project objectives and resources are clearly communicated so mappers are aware of specific and important information. Keep in mind, mappers may not have previous experience with OpenStreetMap, and will not be familiar with tagging guidelines.
->  It is advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
+> Rellenar esta información con cuidado es una parte esencial para el éxito de un proyecto de cartografía. Es muy importante que los objetivos y los recursos del proyecto se comuniquen claramente para que los cartografos conozcan la información específica e importante. Tenga presente que los cartógrafos pueden no tener experiencia previa con OpenStreetMap y no estarán familiarizados con las directrices de marcado.
+> Es aconsejable confinar un proyecto a una clase de objetos a ser mapeados. Si se necesita un mapa base de un área, es mejor dividirlo en varios proyectos, uno para las carreteras, otro para los edificios, etc. Ahora los principiantes pueden centrarse en una pequeña clase de objetos mientras aprenden a cartografiarlos correctamente.
 
 ### Descripción
 
 ![TM Description][]
 
-This screen allows you set the project status as Draft, Published, or Archived, priority, a short description used in project listings and the long description available once a mapper has selected the project.
+Esta pantalla permite establecer el estado del proyecto como Borrador, Publicado o Archivado, la prioridad, una descripción corta utilizada en los listados de proyectos y la descripción larga disponible una vez que un mapeador ha seleccionado el proyecto.
 
-Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
+Tanto la descripción corta como la larga deben proporcionar información acerca de por qué existe el proyecto, quién utilizará los datos y el impacto que se espera que tenga el mapeo. Estos campos soportan el texto en Markdown y pueden incluir imágenes y videos.
 
-### Instructions
+### Instrucciones
 
 ![TM Instructions][]
 
-**Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
+**Objetos a mapear** - Una lista de las características que quieres que los usuarios cartografíen. Generalmente, cuantas menos características mejor, ya que es más probable que se completen.
 
-> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
+> Los proyectos que piden que se cartografíen muchos elementos son difíciles para los cartografos y difíciles de validar.  Tardan mucho más tiempo en conseguir un buen conjunto de datos utilizables. Los tamaños de las tareas también son difíciles de hacer eficientes para los diferentes tipos de mapeo, por ejemplo, los edificios necesitan pequeñas plazas de tareas, las carreteras y las vías fluviales necesitan plazas de tareas más grandes. Hacer múltiples proyectos sobre la misma área para obtener edificios y características lineales mapeadas es una mejor práctica.
 
-**Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
+**Comentario al conjunto de cambios** - Este es el comentario al conjunto de cambios por defecto que se adjuntará a cada carga de datos en OSM. Usualmente incluye algo que identifica el Tasking Manager en el que reside el proyecto y las características que fueron mapeadas. A menudo se utiliza para "etiquetas almohadillah" para ayudar a identificar la organización que solicita y/o hace el mapeo. También puede describir el mapeo que se está haciendo, por ejemplo, "Mapeo de edificios".
 
-> Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
+> Se debería instruir a los usuarios para que hagan comentarios útiles sobre lo que han mapeado, pero siempre es una buena idea ayudarles con buenos comentarios por defecto.
 
-**Detailed Instructions** - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+**Instrucciones detalladas** - Aquí es donde la mayoría de sus instrucciones detalladas serán colocadas y lo que esperamos que cada mapeador y validador lea cuidadosamente y siga.
 
-See the below notes on creating good instructions.
+Vea las siguientes notas sobre cómo crear buenas instrucciones.
 
-**Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
+**Por instrucciones de la tarea** - Estas se mostrarán cuando un mapeador seleccione una tarea y también tiene una característica especial que permite que los URLs específicos de la tarea sean elaborados en base al típico "mapa deslizable" con las coordenadas x, y, z.
 
-### Metadata
+### Metadatos
 
 ![TM Metadata][]
 
-> All of these fields should be filled in and will become non-optional in future versions of the Tasking Manager.
+> Todos estos campos deben ser rellenados y no serán opcionales en futuras versiones del Tasking Manager.
 
-**Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
+**Nivel de mapeador** - Esto es una indicación de la dificultad del proyecto de mapeo. Hay 3 opciones: Principiante, Intermedio y Avanzado. Este ajuste es una indicación para el mapeador de qué nivel de experiencia debe tener para tener más éxito en el proyecto de mapeo. Puede utilizarse en el filtrado de la lista de proyectos y el nivel sugerido puede ser requerido en la pantalla de permisos.
 
-**Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
+**Tipos de mapeo** - Se utiliza en el filtrado de listas de proyectos y ayuda a los mapeadores a encontrar los proyectos que les gusta mapear.
 
-**Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
+**Organización** - La organización cuyos directores de proyecto deben tener permisos administrativos para este proyecto. La organización debe haber sido registrada previamente con el Tasking Manager.
 
-**Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
+**Intereses** - Se utiliza para sugerir proyectos a los cartografos. Los cartografos especifican sus intereses en su perfil.
 
-**OSMCha filter ID** - OSMCha is offered as a link from the contributions overview. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach  to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here.
+**ID del filtro OSMCha** - OSMCha se ofrece como un enlace desde el resumen de contribuciones. El filtro estándar limita la salida al cuadro delimitador del proyecto y a las contribuciones no anteriores a la fecha de creación del proyecto y con el nombre del proyecto en el comentario del changeset. Si cree que algo diferente sería un mejor enfoque para analizar los conjuntos de cambios de su proyecto, entonces proporcione una URL OSMCha o un ID de filtro de OSMCha aquí.
 
-### Priority Areas
+### Áreas prioritarias
 
 ![TM Priority Area][]
 
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+Utilice las herramientas proporcionadas para dibujar las áreas que deben ser mapeadas primero. Puede tener múltiples áreas prioritarias para un proyecto. También puede cambiar las áreas prioritarias en cualquier momento.
 
-> During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is a best practice.
+> Durante la cartografía de desastres, al principio del evento, tener un área grande de cartografía del proyecto y usar áreas prioritarias para enfocar la cartografía a medida que llega nueva información es una buena práctica.
 
-### Imagery
+### Imágenes
 
-URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
+Campo URL - Un campo que toma un URL TMS que pasará automáticamente al Editor OSM que utiliza el mapeador o validador. Por favor, siga el ejemplo, es muy importante que esté formateado correctamente para que funcione en todos los editores.
 
-License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licencia - Opcionalmente, si hay una licencia específica requerida para que el mapeador acepte usar las imágenes, puede seleccionarla aquí. Si necesita una licencia que no está disponible, puede ponerse en contacto con un administrador para la instalación del Tasking Manager y pedirle que la añada.
 
 ### Permisos
 
 ![TM Permissions][]
 
-**Mapping permissions** - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a mapper to be part of a team. Teams can be selected below
+**Permisos de mapeo** - Permite exigir que un mapeador esté en el nivel adecuado para mapear en el proyecto (pantalla de Metadatos arriba). Los niveles de los mapeadores se pueden establecer manualmente, pero se aplican automáticamente en base a los cambios totales. También puede requerir que un mapeador sea parte de un equipo. Los equipos pueden ser seleccionados a continuación
 
-**Validation permissions** - Allows you to require that a mapper is at the proper level to validate on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a validator to be part of a team. Teams can be selected below
+**Permisos de validación** - Permite exigir que un mapeador esté en el nivel adecuado para validar en el proyecto (pantalla de Metadatos arriba). Los niveles de los mapeadores se pueden establecer manualmente, pero se aplican automáticamente en base a los cambios totales. También puede requerir que un validador sea parte de un equipo. Los equipos pueden ser seleccionados a continuación
 
-**Teams** - Select teams for mapping and validation. If you do so then you can restrict mapping and/or validation to team members using the controls above. You may select several teams for each role. Select a team, select a role and press 'Add'. Once you added a team you may edit its role or delete the assignment.
+**Equipos** - Seleccionar equipos para el mapeo y la validación. Si lo hace, entonces puede restringir el mapeo y/o validación a los miembros del equipo usando los controles de arriba. Puedes seleccionar varios equipos para cada rol. Selecciona un equipo, elige un rol y pulsa "Añadir". Una vez que hayas añadido un equipo, podrás editar su función o eliminar la asignación.
 
-**Privacy** - This restricts access to the project to those users who are part of the team to which the project belongs.
+**Privacidad** - Esto restringe el acceso al proyecto a los usuarios que forman parte del equipo al que pertenece el proyecto.
 
-### Settings
+### Ajustes
 
 ![TM Settings][]
 
-**Default Language** - Sets the default instructions language for a project.
+**Idioma por defecto** - Configura el idioma por defecto de las instrucciones para un proyecto.
 
-**Editors** - Restricts the available editors to those checked. You may specify different sets for mapping and for validation.
+**Editores** - Restringe los editores disponibles a los revisados. Puede especificar diferentes conjuntos para el mapeo y para la validación.
 
-**Enforce random selection** - If checked then users cannot select a specific task for mapping.
+**Obligar la selección al azar** - Si está marcada, los usuarios no pueden seleccionar una tarea específica para el mapeo.
 
-### Actions
+### Acciones
 
 ![TM Actions][]
 
-**Message all ccontributors** - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+**Enviar un mensaje a todos los colaboradores** - Esto enviará un mensaje de Tasking Manager a todos los que han marcado una tarea como completa o válida. Puede ser usado para agradecer a los contribuyentes y/o guiarlos a otros proyectos en un portafolio/campaña. También debe ser usado antes de usar cualquiera de las dos opciones de Validar/Invalidar todas las tareas descritas a continuación.
 
-**Mapping, validation and invalidation** - This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
+**Mapeo, validación e invalidación** - Esto establecerá el estado de todas las tareas ya sea mapeadas, validadas o invalidadas. Manejar con cuidado pues no es posible deshacer el cambio.
 
-**Reset tasks** - This will reset all tasks to their pristine state but previous actions will still available in the task history. Handle with care as there is no undo.
+**Restablecer las tareas** - Esto restablecerá todas las tareas a su estado prístino, pero las acciones anteriores seguirán disponibles en el historial de tareas. Manejar con cuidado pues no es posible deshacer el cambio.
 
-**Transfer project ownership** - Lets you specify another user who will become the owner of this project. Handle with care as there is no undo.
+** Transferir propiedad del proyecto** - Permite especificar otro usuario que se convertirá en el propietario de este proyecto. Manejar con cuidado Manejar con cuidado pues no es posible deshacer el cambio.
 
-**Clone Project** - This will create a duplicate of the project except for the mapping area, task grid and priority areas which you will need to re-import or re-draw.
+**Clonar proyecto** - Esto creará un duplicado del proyecto excepto por el área de mapeo, la cuadrícula de tareas y las áreas de prioridad que tendrá que reimportar o redibujar.
 
-**Delete Project** - This will permanently delete the project from the Tasking Manager. Handle with care as there is no undo. This action is no longer available as soon as any contributions have been made to the project.
+**Eliminar Proyecto** - Esto eliminará permanentemente el proyecto del Administrador de Tareas. Manejar con cuidado pues no es posible deshacer el cambio. Esta acción ya no está disponible tan pronto como se haya hecho cualquier contribución al proyecto.
 
-### Instruction Notes
+### Notas de instrucción
 
-Please use plain language as your target audience may not consist of native English speakers.
+Por favor, use un lenguaje sencillo, ya que su público objetivo puede estar compuesto de personas que no son angloparlantes.
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
-*#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
-
-
-### Considerations concerning Imagery
-
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
-
-1. Bing does not provide high-resolution coverage for your mapping area.
-2. Bing has considerable cloud cover in this area.
-3. You need newer imagery for post-disaster evaluation.
-
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
-
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
-
-If there is a constant offset between your imagery and Bing across the mapping area then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the mapping area or if existing data are aligned with various sources then it is time for plan B:
-
-The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
-
-One possible strategy could include these steps:
-
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
-4. Add new features from the now correctly aligned alternative imagery.
-
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
-
-Here are some suggested bits of information which you might include in the project instructions:
-
-- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+1. El título del proyecto ya debería revelar qué entidades deben ser mapeadas. Prefiera un título como
+*#1396 - Mapas perdidos: Estado de Níger (norte), Nigeria (proyecto 1: carreteras y zonas residenciales)*
+2. Los mensajes más importantes deben aparecer primero en la pestaña de instrucciones para asegurar que se lean. Esto incluiría cualquier imagen especial para usar en lugar de Bing. Las primeras frases podrían mencionar que no es necesario cartografiar todas las casas si el proyecto es sobre carreteras y zonas residenciales, por ejemplo. O que es necesario cartografiar cada casa si el proyecto se va a utilizar para estimar la densidad de población. Estos son los mensajes que también deberían aparecer en la ficha de descripción.
+3. Otros puntos de aclaración: Si el proyecto es adecuado sólo para cartografistas con un cierto nivel de experiencia. Por ejemplo, el proyecto utiliza importaciones o los datos existentes deben realinearse con trazas de GPS o alguna otra imagen (véase la sección anterior). Expréselo de modo que los nuevos cartógrafos se sientan invitados a contribuir a otros proyectos, pero comprendan que en este caso se requieren técnicas avanzadas.
+4. Hay directrices que cubren los errores comunes que vemos al validar. Un ejemplo es la compilación de Blake Girardot sobre [mapeo en África Occidental](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Utilice el enlace en las instrucciones y explique que es necesario adherirse a estas directrices.
+5. El recurso definitivo sobre el etiquetado es el [wiki de OpenStreetMap](http://wiki.openstreetmap.org/wiki/Map_Features). Para muchas tareas relacionadas con HOT la página sobre [etiquetado de carreteras en África](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) es la especialización adecuada y la lectura altamente recomendada para todo mapeador. Si su proyecto debe adherirse a diferentes estándares de etiquetado, entonces escriba una página similar en el wiki y enlácela en sus instrucciones.
 
 
-### Proofread and Publish
+### Consideraciones sobre imágenes
 
-Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
-If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+En la mayoría de los casos usamos las imágenes estándar de Bing. Pero hay situaciones en las que podrías querer elegir una fuente alternativa:
+
+1. Bing no proporciona una cobertura de alta resolución para su área de mapeo.
+2. Bing tiene una considerable cobertura nubosa en esta área.
+3. Necesitas imágenes más nuevas para la evaluación post-desastre.
+
+Si Bing no resulta adecuado, entonces Mapbox es la siguiente opción. Sólo debes buscar otras fuentes si ninguna de ellas cumple con tus requisitos.
+
+En tales casos no basta con elegir una fuente compatible con la licencia y ponerla a disposición a través de un servicio WMS o TMS. Es probable que su área de mapeo ya haya sido parcialmente mapeada usando imágenes de Bing o Mapbox y puede haber un notable desplazamiento entre las imágenes. Debe observar de cerca varias ubicaciones de su área de mapeo y determinar el desplazamiento entre sus imágenes y los datos previamente mapeados. Si los datos existentes de OSM están desplazados con respecto a sus imágenes pero se ajustan a las imágenes de Bing, entonces normalmente asumimos que Bing es el estándar de oro, a menos que tengamos rastros de GPS que demuestren que esta suposición es errónea.
+
+Si hay un desplazamiento constante entre sus imágenes y Bing a través del área de mapeo, entonces esto podría ser corregido en el servidor para que las imágenes de varias fuentes cargadas en el editor coincidan. Si esto no es posible, si el desplazamiento varía a través del área de mapeo o si los datos existentes están alineados con varias fuentes, entonces es el momento para el plan B:
+
+El punto importante es que debe desarrollar una estrategia sobre cómo hacer frente a estas cuestiones y proporcionar instrucciones detalladas a los mapeadores y validadores. Le sugerimos encarecidamente que declare tal proyecto "sólo para cartografistas experimentados" y que explique que la experiencia en este caso no significa haber cartografiado más de 200 edificios, sino haber tratado ya con cuestiones de alineación y diferentes fuentes de imágenes.
+
+Una posible estrategia podría incluir estos pasos:
+
+1. Indique claramente qué imágenes deben considerarse como la referencia a la que debe alinearse cualquier otra cosa. En este caso asumamos que la referencia es Bing.
+2. Asegúrate de que todas las características existentes que también son visibles en Bing estén alineadas con las imágenes de Bing, es decir, volver a alinear de ser necesario.
+3. Alinear las imágenes alternativas a las características existentes (y por lo tanto a Bing) utilizando la función offset de imágenes del editor.
+4. Añade nuevas características de las imágenes alternativas ahora correctamente alineadas.
+
+Es importante que el paso 3 se repita para cada tarea del proyecto y que los cuadrados de las tareas individuales no sean demasiado grandes porque las compensaciones de las imágenes pueden variar considerablemente a lo largo de un área cartográfica, en particular en particular si el terreno no es plano. Incluso pueden producirse discontinuidades en las imágenes a lo largo de un proyecto - búsquelas y avise a los contribuyentes de tal problema.
+
+Aquí hay algunas sugerencias de información que podría incluir en las instrucciones del proyecto:
+
+- [directrices generales para los distintos editores](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [un gif animado sobre la alineación de imágenes en iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [el capítulo de alineación de imágenes josm en learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+
+
+### Corregir y publicar
+
+Revise las distintas pestañas para asegurarse de que la redacción y el formato son correctos, y las instrucciones son claras. Si necesita hacer cambios o mejoras en su proyecto, haga clic en el enlace "Editar" en la esquina superior derecha de la página.
+Si el proyecto está listo para el mapeo, haga clic en el enlace "Publicar". Una vez que el proyecto se publique, estará disponible para su mapeo para cualquier persona con una cuenta de OSM, a menos que se haya especificado un grupo de usuarios en la pestaña de 'Usuarios permitidos', en cuyo caso sólo los usuarios permitidos podrán trabajar en él. Si es necesario, se pueden hacer ediciones al proyecto después de su publicación haciendo clic en el enlace 'Editar'.
 
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
 [TM Add Project]: /images/coordination/tm4_new_project.png
