@@ -2,7 +2,7 @@
 layout: doc-rtl
 permalink: /ar/coordination/
 lang: ar
-title: العنوان
+العنوان :title
 category: coordination
 cover: yes
 nosearch: true
