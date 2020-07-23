@@ -23,7 +23,7 @@
 الدقة
 ----------
 
-All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  
+جميع الصور الرقمية تتكون من بكسل. إذا قمت بالتكبير جيدا على صورة، ستلاحظ بعض الضباب على الصورة، وفي نهاية المطاف سترى أن الصورة تتكون من الآلاف من المربعات الصغيرة كل بلون مختلف. هذا صحيح ما إذا كانت الصورة مأخوذة بكاميرا محمولة باليد، هاتف محمول أو قمر صناعي يدور حول الأرض.  
 
 ![دقة الصورة][]
 
