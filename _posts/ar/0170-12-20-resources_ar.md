@@ -1,47 +1,47 @@
 ---
-layout: doc
-title: Other Resources
+تخطيط: وثيقة
+العنوان: مصادر أخرى 
 permalink: /ar/resources/
-lang: ar
-cover: yes
-category: resources
+اللغة: انجليزية
+الغلاف: نعم
+الفئة: المصادر
 ---
 
 # موارد أخرى
 
-> Reviewed 2020-05-08
+> تمت مراجعته بتاريخ 2020-05-08
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+ قائمة التعليقات هذه لمؤشرات مواقع أخرى نعتبرها مفيدة. تم التحقق من جميع الروابط للعمل عندما تمت مراجعة هذه الوثيقة لآخر مرة.
 
-  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
+  * [قائمة خريطة الوقت للروابط المتعلقة برسم الخرائط وما يتصل بها من مواضيع رسم الخرائط] (http://maptime.io/lessons-resources/) قائمة شاملة بالروابط, لا تتعلق فقط بخريطة الشارع المفتوحة , بل تشمل أيضا التصور و إنشاء الخرائط و رسم الخرائط على شبكة الإنترنت
 
 
 ## التحرير
 
 ### iD
 
-  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
-  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
-  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
+  * [البرنامج التعليمي المتكامل للمعرف] (http://www.openstreetmap.org/edit?editor=id#walkthrough=true) برنامج تعليمي تفاعلي حول استخدام المعرف كجزء من البرنامج
+  * [عرض شرائح يغطي محتويات دليلنا](/files/iD-editor-training.pptx)مادة جيدة إذا كنت ترغب في تقديم مقدمة عن iD على سبيل المثال في mapathon
+  * [دروس فيديو HOT] (https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) مجموعة من أشرطة فيديو مفيدة تتمحور في الغالب حول رسم الخرائط مع معرف و JOSM
+  (https://www.sjtdelfs.de/wordpress/?page_id=84) [فيدويوهات وشروحات حول iD ]بعض مقاطع الفيديو القصيرة جدًا التي تشرح كيفية إنجاز المهام المشتركة
+  * [دروس فيديو حول  بيانات خريطة الشارع المفتوحة   (https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU)  محاضرة مثل  عرض جوانب مختلفة تغطي العلامات والطبقات والعلاقات
 
 ## Mapathons وأحداث مشابهة
 
-  * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
-  * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university
-  * [developmentSEED guide for Mapathons](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) This document is based on a talk at a State of the Map conference about how to organize and run a mapathon
+  * [مدخل الموسوعة حول جلسات التخريط الجماعي للخرائط المفقودة] (http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) ما يقرب من قائمة مرجعية للتأكد تعطيك فكرة عما يجب مراعاته إذا كنت ترغب في تنظيم جلسة للتخريط الجماعي ؛ على الرغم من أنها تستهدف الخرائط المفقودة ، إلا أن معظمها ينطبق على جلسات التخريط الجماعي  بشكل عام
+  * [مدخل الموسوعة حول  جلسات التخريط الجماعي  للخرائط المفقودة في محيط الجامعة]  (http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities)  تقريبًا نفس المستند السابق ولكن مع تلميحات محددة إذا تم تنظيمها في الجامعة
+  * [دليل تطوير SEED لجلسة تخريط جماعي ( ماباثون )] (https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) يستند هذا المستند إلى حديث في مؤتمر حالة الخريطة حول كيفية تنظيم وإدارة جلسة التخريط الجماعي (ماباثون)
 
-### Checklists for planning
+### قوائم التأكد اوالمرجعية للتخطيط
 
-  * [MapGive checklist for an event](https://mapgive.state.gov/box/#resources&event-checklist)
+  * [MapGive قائمة التأكد لحدث ما ](https://mapgive.state.gov/box/#resources&event-checklist)
 
 ### النشرات 
 
-  * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
+  * [مطبوعات للخرائط المفقودة او الناقصة] (https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM)معظم النشرات تحمل علامة "خرائط مفقودة" ، لذا إذا كنت ترغب في استخدامها في حدث مختلف ، فيجب عليك الحصول على إذن لتكييفها.
 
 ## إحصائيات
 
-  * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
-  * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way) The readme page on github explains how to filter the display so that you do not see progress worldwide
-  * [Who is around me ](http://resultmaps.neis-one.org/oooc) map display about mappers who recently contributed in an area
+  * [ ويكي او موسوعة الادخال على MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) أداة تنسيق بسيطة مفتوحة المصدر. تقول الموسوعة أنه لم يعد يتم الحفاظ عليه بنشاط
+  * [التقدم في الوقت الحقيقي أو آنياً على خريطة الشارع المفتوحة ] (https://github.com/osmlab/show-me-the-way) تشرح صفحة الملف التمهيدي علىgithub كيفية تصفية العرض بحيث لا ترى التقدم في جميع أنحاء العالم
+  * [من يوجد حولي] (http://resultmaps.neis-one.org/oooc) تعرض الخريطة المخرطين الذين ساهموا مؤخرًا في منطقة ما 
