@@ -1,4 +1,4 @@
-—
+---
 layout: doc
 permalink: /el/beginner/
 lang: el
@@ -6,7 +6,7 @@ title: Οδηγός αρχαρίων
 category: beginner
 cover: yes
 nosearch: true
-—
+---
 
 Οδηγός για αρχάριους
 ================
