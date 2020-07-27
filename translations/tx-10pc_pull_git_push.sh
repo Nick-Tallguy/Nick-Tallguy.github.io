@@ -53,6 +53,7 @@ mv ${FOLDERINTERIM}/*_bn_BD.md ${FOLDER4}/bn_BD/
 mv ${FOLDERINTERIM}/*_ca.md ${FOLDER4}/ca/
 mv ${FOLDERINTERIM}/*_cs.md ${FOLDER4}/cs/
 mv ${FOLDERINTERIM}/*_de.md ${FOLDER4}/de/
+mv ${FOLDERINTERIM}/*_el.md ${FOLDER4}/el/
 mv ${FOLDERINTERIM}/*_en.md ${FOLDER4}/en/
 mv ${FOLDERINTERIM}/*_es.md ${FOLDER4}/es/
 mv ${FOLDERINTERIM}/*_fa.md ${FOLDER4}/fa/
