@@ -1,6 +1,6 @@
 ---
 layout: doc-rtl
-title: مقدمة
+العنوان: مقدمة
 permalink: /ar/beginner/introduction/
 lang: ar
 category: beginner

@@ -38,12 +38,12 @@ category: beginner
     ![Search][]
    
 
-View Different Map Styles
+عرض أنماط خريطة مختلفة
 ------------------------
 
 OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
 
--   Click on the Layers button on the right side of the map window.
+- انقر على زر الطبقات على الجانب الأيمن من نافذة الخريطة.
 
     ![Layers button][]
 
@@ -51,12 +51,12 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 
     ![Transport map][]
 
-Create an OpenStreetMap Account
+إنشاء حساب خريطة الشارع المفتوحة 
 -------------------------------
 
 -   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
 -   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
--   You should see a new page that looks like this:
+- يجب أن تشاهد صفحة جديدة والتي  تبدو كالتالي:
 
     ![Registering an OpenStreetMap account][]
 
@@ -75,18 +75,18 @@ Create an OpenStreetMap Account
 -   A new tab or window will open. If everything went well, you should have an OSM account!
 -   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
 
-Adding Your First Points
+إضافة نقاطك الأولى 
 ------------------------
 
 -   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
 -   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
--   Zoom in to a place where you would like to add a point to the map (perhaps a restaurant or grocery store near you isn't yet mapped).
+-كبير إلى مكان تريد إضافة نقطة فيه إلى الخريطة (ربما لم يتم تعيين مطعم أو محل بقالة بالقرب منك بعد).
 -   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
--   Click “Edit with iD (in-browser editor)”.
+- انقر  «تحرير مع معرف (في-محرر المتصفح)».
 
     ![Click edit][]
 
--   The online editor, named iD, should open. It will look something like this.
+- المحرر على الانترنت، اسمه الهوية، يجب فتح. سوف تبدو شيئا من هذا القبيل.
 
     ![iD editor][]
 
@@ -106,7 +106,7 @@ The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find 
 
 However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
 
-Summary
+خلاصة
 -------
 
 Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
