@@ -1,24 +1,24 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
+title: Керівництво адміністратора Менеджера завдань
 permalink: /uk/coordination/tm-admin/
 lang: uk
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# Керівництво адміністратора Менеджера завдань
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**Якщо інтерфейс користувача для вашої версії відрізняється від того, що описаний тут, зверніться до сторінки [огляду версій](/uk/coordination/tm-disambiguation) Менеджера завдань**
 
-Section Index
+Зміст
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
+-  [Вхід та доступ](/en/coordination/tm-admin/#login-and-access)
+-  [Дозволи](/en/coordination/tm-admin/#permissions)
+-  [Створення проєкту](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [Визначення території](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Визначення завдань](/en/coordination/tm-admin/#define-tasks)
+    -  [Обрізка території проєкту](/en/coordination/tm-admin/#project-area-trim)
     -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
 -  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
     -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
