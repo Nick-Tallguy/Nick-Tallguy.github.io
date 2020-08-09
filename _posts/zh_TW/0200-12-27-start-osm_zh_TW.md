@@ -32,8 +32,8 @@ category: beginner
 
     ![Mouse navigation][]
 
--   If you have a mouse with a scroll-wheel, zoom in and out on the map by turning the wheel. If you don’t have a scroll-wheel, use the + and – buttons on the upper right corner of the map. (see figure below)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+- 如果你是有滾輪的滑鼠，放大縮小就能用滑鼠控。如果沒有滾輪，則可以用地圖右上角的 + 和 - 來放大縮小。 
+- 要搜尋某處，左鍵在頁面左側按有"搜尋"字樣的方框 (請見上圖)。在方框當中輸入你的城市或村莊的名字，然後按 Enter。接著在地圖左側應當會出現搜尋結果，請點看起來像是你想要的結果，地圖則會自動移動到你選擇的地點。
 
     ![Search][]
    
