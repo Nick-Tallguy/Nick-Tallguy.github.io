@@ -4,6 +4,7 @@ title: Editing the Wiki
 permalink: /en/coordination/editing_the_wiki/
 lang: en
 category: coordination
+navigation: skip
 ---
 
 Editing the Wiki
@@ -50,7 +51,7 @@ wiki, such as translating important pages.
 ​1.  The Wiki and Signing Up
 ---------------------------
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image09.png)
+![](/images/intermediate/en_int_ch6_image09.png)
 
 Go to [http://wiki.openstreetmap.org](http://wiki.openstreetmap.org) to
 see the main wiki page.  You’ll see a lot of things here, and many links
@@ -69,12 +70,12 @@ you did when signing up for OpenStreetMap.
 - To create a new account, click on “Log in / create account” in the
     upper right corner of the website.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image14.png)
+![](/images/intermediate/en_int_ch6_image14.png)
 
 - If you already have an account you can login on this page.
      Otherwise click on “Create an account.”
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image11.png)
+![](/images/intermediate/en_int_ch6_image11.png)
 
 -  Fill in the form with the username you want to create, your password
     twice, your email address, and your real name.  In the CAPTCHA box
@@ -86,7 +87,7 @@ you did when signing up for OpenStreetMap.
     username and other links available in the upper right corner of the
     website.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image02.png)
+![](/images/intermediate/en_int_ch6_image02.png)
 
 ​2.  Getting Started
 -------------------
@@ -100,7 +101,7 @@ and learn the basics of editing a wiki page.
 -  Go to your user page by clicking on your username in the upper right
     corner.  My username is “MapJeff”, so I will click on this.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image10.png)
+![](/images/intermediate/en_int_ch6_image10.png)
 
 -  Right now the page is empty.  Click on “edit this page” to add
     something to it.
@@ -108,13 +109,13 @@ and learn the basics of editing a wiki page.
      For example, let’s add some basic information and a description.
      You can add your own information, but here is an example.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image13.png)
+![](/images/intermediate/en_int_ch6_image13.png)
 
 - When you have added some text, enter a summary of your changes in
     the box next to “Summary” and click “Save Page.”  The page will look
     something like this:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image03.png)
+![](/images/intermediate/en_int_ch6_image03.png)
 
 - This is great because I have successfully saved my text to the page,
     but it is no good because it not formatted in a good way.  In order
@@ -122,7 +123,7 @@ and learn the basics of editing a wiki page.
     formatting techniques.  Click “Edit” at the top of the page, and
     let’s make some more changes to our page.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image04.png)
+![](/images/intermediate/en_int_ch6_image04.png)
 
 -  If you understood the previous chapter on XML, you will remember
     that we used elements which have opening tags and closing tags.  We
@@ -138,17 +139,17 @@ and learn the basics of editing a wiki page.
 
 - Now our code looks like this:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image01.png)
+![](/images/intermediate/en_int_ch6_image01.png)
 
 - And after we save it the page will look nicely formatted:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image15.png)
+![](/images/intermediate/en_int_ch6_image15.png)
 
 - Practice formatting your text in different ways.  A small hint:  the
     buttons above the text box will automatically insert different types
     of formatting code into your text!
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image12.png)
+![](/images/intermediate/en_int_ch6_image12.png)
 
 - Once you have saved your page, it will be viewable by anyone on the
     internet.  The following link goes to my page, but if you replace my
@@ -207,7 +208,7 @@ When you create sections and subsection headings in your wiki page, the
 page will automatically have a table of contents section created at the
 top of the page.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image19.png)
+![]({{site.baseurl}}/images/intermediate/en_int_ch6_image19.png)
 
 ### Lists
 
@@ -224,7 +225,7 @@ indentation. When nesting lists you may mix bullet lists and numbered
 lists on each level.
 
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image18.png)
+![](/images/intermediate/en_int_ch6_image18.png)
 
 ### Links
 
@@ -246,7 +247,7 @@ it will display as a link.  If you want to change the link text, you can
 use one set of brackets to change the text which links to your URL
 [external-link link-text].
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image17.png)
+![](/images/intermediate/en_int_ch6_image17.png)
 
 ### Tables
 
@@ -275,7 +276,7 @@ A basic table needs the following parts:
 It is good practise and increases readability to use a space as
 second/third character, thus avoiding any ambiguity.
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image16.png)
+![](/images/intermediate/en_int_ch6_image16.png)
 
 Play around with all these different techniques for formatting your
 wiki.  If you want an example of all of these things, try viewing the
@@ -331,7 +332,7 @@ One very useful thing that can be done on the wiki is to translate
 important pages into your language.  As you’ve already seen, many wiki
 pages have links at the top where you can switch languages.  However,
 this is only available for pages that have been translated, and that
-include a special tag at the top - {{Languages|page\_name}}
+include a special tag at the top - `{{Languages|page_name}}`
 
 When developing the OpenStreetMap community in your country, it is very
 useful for key wiki pages to be translated into your language.  Adding
@@ -374,12 +375,12 @@ you will know when others have edited them.
 To add a page to your watchlist, click on the star at the top of the
 page section:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image08.png)
+![](/images/intermediate/en_int_ch6_image08.png)
 
 Then, you can view your watchlist by clicking on “My Watchlist” at the
 top of the page:
 
-![]({{site.baseurl}}/images/en/intermediate/en_int_ch6_image07.png)
+![](/images/intermediate/en_int_ch6_image07.png)
 
 On the “My Watchlist” page you choose to show changes to your watched
 pages within the past hours, or days, or since you started watching the
