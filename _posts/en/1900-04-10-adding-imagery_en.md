@@ -68,7 +68,7 @@ The resulting dialog box will look like the one below:
 > Example WMS server with a lot of interesting layers: http://sedac.ciesin.columbia.edu/geoserver/wms  
 
 ![wms_select_layer_highlighted][]  
-Make sure you actually click on a layer if would like to have the Imagery menu item always load the same layer. In the above example, when the layer is selected from the Imagery Menu, it will always load the "World Database of Protected Areas" layer.
+Make sure you actually click on a layer if you would like to have the Imagery menu item always load the same layer. In the above example, when the layer is selected from the Imagery Menu, it will always load the "World Database of Protected Areas" layer.
 
 If you would like to choose which layer to load each time you select the server from the Imagery Menu and be able to load multiple layers from the save server easily, just check to box that says "Store WMS endpoint only". That will also disable selecting a layer and the verify URL field.
 
