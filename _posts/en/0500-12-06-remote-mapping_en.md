@@ -64,6 +64,6 @@ This guide has been summarized and collected from a variety of existing tutorial
 
 #### About HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news  
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
 
-[Organised Editing/Activities/Humanitarian OpenStreetMap Team](https://wiki.openstreetmap.org/wiki/Organised_Editing/Activities/Humanitarian_OpenStreetMap_Team)- describes HOT activities in more detail from their website  
+[HOT Activities](https://www.hotosm.org/what-we-do) - describes HOT activities in more detail from their website  
