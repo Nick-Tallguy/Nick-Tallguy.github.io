@@ -26,7 +26,7 @@ Biorąc pod uwagę skalę kryzysu, HOT rozdziela potrzebne zasoby i wsparcie jes
 
 [HOT Tasking Manager](http://tasks.hotosm.org/) jest otwartoźródłowym narzędziem zaprojektowanym do rozdzielenia mapowania na mniejsze zadania, które mogą być szybko wykonane. Pokazuje ono, które obszary wymagają mapowania, a które weryfikacji przez innych. Zawiera zadania mapowania dla [Aktywacji](http://wiki.openstreetmap.org/wiki/HOT_activation) oraz długoterminowych [Projektów Humanitarnych](http://hot.openstreetmap.org/projects).  
 
-Aby używać HOT Tasking Managera musisz zalogować się nazwą użytkownika i hasłem z OpenStreetMap (OSM). Więcej wskazówek znajdziesz w [Samouczku Tasking Managera](http://learnosm.org/pl/coordination/tasking-manager/).  
+Aby używać HOT Tasking Managera musisz zalogować się nazwą użytkownika i hasłem z OpenStreetMap (OSM). Więcej wskazówek znajdziesz w [Samouczku Tasking Managera](http://learnosm.org/pl/coordination/tm-user/).  
 
 
 ### Narzędzia edycji 
@@ -38,16 +38,18 @@ Aby używać HOT Tasking Managera musisz zalogować się nazwą użytkownika i h
 
 [JOSM](https://josm.openstreetmap.de/) - aplikacja Java wymawiana jako "Dżas-um", która wymaga pobrania i ma wyższą krzywą uczenia się. Jakkolwiek zajmuje więcej czasu, aby zainstalować i nauczyć się jej, to jest bardzo szybka przy wykonywaniu wielu edycji. W tym edytorze zalecane jest używanie myszy.  
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
 ### Porady i słowa zachęty
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
-> "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
-> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
- 
+> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."
+
+> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)
+
+> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)
+
+> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)
+
 ### Inne źródła 
 
 Ten przewodnik został stworzony z wielu istniejących źródeł samouczków i działającego Przewodnika HOT. Możesz znaleźć więcej źródeł do nauki w poniższych linkach.  
@@ -58,10 +60,10 @@ Ten przewodnik został stworzony z wielu istniejących źródeł samouczków i d
 
 [Samouczek Learn To Map od MapGive's](http://mapgive.state.gov/learn-to-map/) - zawiera filmy, które możesz zatrzymać i prześledzić dokładnie  
 
-[Podręcznik szybkiego startu z HOT](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - napisany przez Petera Richardsona (@meetar), doświadczonego wolontariusza zdalnego reagowania HOT  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer. Attention: the given information is outdated, but still useful. 
 
 #### Informacje o HOT 
 
-[Strona wiki HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dowiedz się więcej na temat jak działa HOT i poznaj najnowsze wiadomości  
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
 
-[Możliwości HOT](http://hot.openstreetmap.org/about/hot_capacities) - opisuje działania HOT w bardziej szczegółowy sposób na swojej stronie internetowej  
+[HOT Activities](https://www.hotosm.org/what-we-do) - describes HOT activities in more detail from their website  

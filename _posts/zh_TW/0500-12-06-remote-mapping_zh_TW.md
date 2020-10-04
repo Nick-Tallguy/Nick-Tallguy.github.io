@@ -26,7 +26,7 @@ HOT 主要的反應活動大都在遠端進行。災難發生後，HOT 的成員
 
 [HOT 任務分配管理器](http://tasks.hotosm.org/)是開源的工具，用來設計分割不同的畫地圖任務，變成可以快速完成的小的任務。這套工具裡可以看到那些地方需要繪製，那些地方需要由其他人驗證。包括需要[啟動](http://wiki.openstreetmap.org/wiki/HOT_activation)的畫地圖任務，還有長期的[人道專案](http://hot.openstreetmap.org/projects)。  
 
-要使用 HOT 任務分配管理器，你必須註冊開放街圖，有使用者名稱和密碼，更多的說明可以讀[任務分配管理器教學](http://learnosm.org/en/coordination/tasking-manager/)。  
+In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](/en/coordination/tm-user/).  
 
 
 ### 編輯工具 
@@ -38,16 +38,18 @@ HOT 主要的反應活動大都在遠端進行。災難發生後，HOT 的成員
 
 [JOSM](https://josm.openstreetmap.de/)- 是 Java 的程式，念做 "Jaws-um"，需要下載程式，然後具備更浨的學習曲線。儘管需要安裝並且學習，要編輯大量資料具有超快的編輯速度，往往建議需要用滑鼠操作。  
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
 ### 忠告和鼓勵的話
 
-> 「要練習的話，我們建議從你熟悉的地方開始，然後開始編輯，像是更新你的住所附近的在地建築。」  
-> 「有些任務比其他事情容易；如果你覺得不大舒服，簡單取消之後再做其他事情！」- Peter (@meetar)  
-> 「如果沒有完成任務也沒有問題；只要上傳你完成的東西之後，解鎖任務之後其他人能來做。」-Peter (@meetar)  
-> 「如果你想要看有品質有通過一定水準的編輯成果，可以察看其他綠色有「審核過的」任務。不用擔心，點「審核工作」按鈕不代表你承諾什麼-這只會編輯時鎖定任務。正常的載入，當你看完之後再解除鎖定。」-Peter (@meetar)  
-> 「有時候衛星圖像會相當難解讀，不過別擔心你需要畫完全的線段或圖樣 - 你的工作會被審核並且由其他人變動，然後隨著時間改進。要記住這些救災區域，沒有繳稅記錄和投票區-這些畫地圖會由其他比較急或是在黑暗，或危險的人來讀取。在西非那邊，即便只是租略的線條仍然是希望的表氣。在加納那邊，已經畫上許多建築但已經消失了；但是我們標記施工狀況。精準是好事，但不是主要的論點。」 -Peter (@meetar)  
- 
+> 「要練習的話，我們建議從你熟悉的地方開始，然後開始編輯，像是更新你的住所附近的在地建築。」
+
+> 「有些任務比其他事情容易；如果你覺得不大舒服，簡單取消之後再做其他事情！」- Peter (@meetar)
+
+> 「如果沒有完成任務也沒有問題；只要上傳你完成的東西之後，解鎖任務之後其他人能來做。」-Peter (@meetar)
+
+> 「有時候衛星圖像會相當難解讀，不過別擔心你需要畫完全的線段或圖樣 - 你的工作會被審核並且由其他人變動，然後隨著時間改進。要記住這些救災區域，沒有繳稅記錄和投票區-這些畫地圖會由其他比較急或是在黑暗，或危險的人來讀取。在西非那邊，即便只是租略的線條仍然是希望的表氣。在加納那邊，已經畫上許多建築但已經消失了；但是我們標記施工狀況。精準是好事，但不是主要的論點。」 -Peter (@meetar)
+
 ### 其他資源 
 
 這份指南統整和收集既有的教學資源，以及正在撰寫 HOT 指南。你可以在下面列的連結找到更多學習資源。  
@@ -58,10 +60,10 @@ HOT 主要的反應活動大都在遠端進行。災難發生後，HOT 的成員
 
 [MapGive 學習畫地圖教學](http://mapgive.state.gov/learn-to-map/)- 包括可以暫停播放的影片，以跟上學習腳步  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - 由資深 HOT 遠端反應志工 Peter Richardson (@meetar) 撰寫  
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer. Attention: the given information is outdated, but still useful. 
 
 #### 關於 HOT 
 
-[HOT Wiki 頁面](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)- 學到更多關於 HOT 的運作方式，以及最新消息  
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- 從 HOT 網站更詳細描述 HOT 的活動  
+[HOT Activities](https://www.hotosm.org/what-we-do) - describes HOT activities in more detail from their website  
