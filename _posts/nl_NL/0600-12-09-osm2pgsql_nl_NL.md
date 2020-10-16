@@ -131,7 +131,7 @@ We kunnen testen of de import met succes is voltooid en de gegevens in onze data
 Samenvatting
 -------
 
-Wanneer u gegevens van OpenStreetMap wilt importeren in uw eigen database, is **osm2pgsql** is een fantastisch gereedschap. Het kan bijzonder nuttig zijn wanneer u de meest up-to-date gegevens van OSM wilt hebben en de attributen wilt aanpassen die u wilt, of bij het werken aan meer complexe projecten.  
+Wanneer u gegevens van OpenStreetMap wilt importeren in uw eigen database, is **osm2pgsql** een fantastisch gereedschap. Het kan bijzonder nuttig zijn wanneer u de meest up-to-date gegevens van OSM wilt hebben en de attributen wilt aanpassen die u wilt, of bij het werken aan meer complexe projecten.  
 
 Een ander gereedschap voor importeren dat recent is ontwikkeld, is genaamd [imposm](http://imposm.org/), en biedt enkele verbeteringen op het gebied van snelheid en andere boven osm2pgsql, hoewel het op het moment van schrijven andere sleutelfuncties ontbeert, die werden beloofd in imposm versie 3.  
 
