@@ -29,6 +29,8 @@ Najważniejsze jest, aby nauczyć się, w jaki sposób tworzenie mapy w tym kont
 - [przewodnik zdalnego mapowania](/pl/coordination/HOT-Remote-Response-Guide/) i ogólne informacje o [mapowaniu humanitarnym](/pl/coordination/humanitarian/) zapewniają trochę podstaw
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Czy chciałbyś używać OpenStreetMap na urządzeniach mobilnych?
 
 Mamy cały rozdział poświęcony [mobilnemu mapowaniu](/pl/mobile-mapping/)

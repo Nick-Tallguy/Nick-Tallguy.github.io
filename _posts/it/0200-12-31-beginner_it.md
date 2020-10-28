@@ -29,6 +29,8 @@ Il punto principale è imparare a capire come funziona la mappatura in questi co
 - la [guida alla mappatura da remoto](/it/coordination/HOT-Remote-Response-Guide/) e le informazioni generali sulla [mappatura umanitaria]/it/coordination/humanitarian/) forniscono qualche indizio a riguardo
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Vorresti usare OpenStreetMap su dispositivi mobile?
 
 C’è un intero capitolo dedicato alla [mappatura con smartphone](/it/mobile-mapping/)

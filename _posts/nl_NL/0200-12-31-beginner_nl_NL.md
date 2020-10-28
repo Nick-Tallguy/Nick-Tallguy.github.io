@@ -29,6 +29,8 @@ Het belangrijkste punt is om te leren hoe het in kaart brengen in deze context w
 - de [handleiding voor het op afstand in kaart brengen](/nl_NL/coordination/HOT-Remote-Response-Guide/) en de algemene informatie over [humanitair in kaart brengen](/nl_NL/coordination/humanitarian/) geven enige achtergronden
 - het werkpaard is de [Tasking Manager](/nl_NL/coordination/tm-user/) waarvan u bekend zou moeten raken met de werkstroom
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Zou u OpenStreetMap willen gebruiken op mobiele apparaten?
 
 Er is een heel hoofdstuk gewijd aan het [mobiel in kaart brengen](/nl_NL/mobile-mapping/)

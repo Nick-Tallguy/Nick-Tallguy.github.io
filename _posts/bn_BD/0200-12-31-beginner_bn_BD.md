@@ -29,6 +29,8 @@ nosearch: true
 - [রিমোট ম্যাপিং গাইড](/en/coordination/HOT-Remote-Response-Guide/) এবং [humanitarian mapping](/en/coordination/humanitarian/) থেকে প্রথমিক দিকগুলো জানা যাবে
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### মোবাইল থেকে OpenStreetMap ব্যবহার করতে চান?
 
 [মোবাইল ম্যাপিং](/en/mobile-mapping/) নামে একটি পূর্ণ চ্যাপ্টার রয়েছে।

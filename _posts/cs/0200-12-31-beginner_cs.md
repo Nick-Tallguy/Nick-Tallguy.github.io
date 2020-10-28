@@ -29,6 +29,8 @@ Hlavním bodem je zjistit, jak je mapování v tomto kontextu koordinováno.
 - [remote mapping guide](/cs/coordination/HOT-Remote-Response-Guide/) a obecné informace o mapování [humanitární pomoci](/cs/coordination/humanitarian/) poskytne nějaké základní informace
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Chcete používat OpenStreetMap v mobilních zařízeních?
 
 K dispozici je celá kapitola věnovaná [mobilnímu mapování](/cs/mobile-mapping/)

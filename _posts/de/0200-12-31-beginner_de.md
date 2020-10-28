@@ -29,6 +29,8 @@ Das Wichtigste ist, dass Sie wissen wie die Kartierung in diesem Umfeld koordini
  - die [Anleitung zur Fernbearbeitung](/de/coordination/HOT-Remote-Response-Guide/) und die allgemeinen Information über [Kartierung für humanitäre Zwecke](/de/coordination/humanitarian/) erklären den Hintergrund
 - das Arbeitspferd ist der [Tasking Manager](/de/coordination/tm-user) mit dessen Arbeitsablauf Sie sich vertraut machen sollten
 
+Wenn Sie schon Erfahrung im Kartieren haben und mehr über das Thema Validierung erfahren möchten dann erklärt Ihnen ein [Abschnitt](/de/coordination/tm-user/#validation) in unserer Anleitung zum Tasking Manager den Prozess
+
 ### Möchten Sie OpenStreetMap auf mobilen Geräten nutzen?
 
 Es gibt ein eigenes Kapitel über [Kartierung mit mobilen Geräten](/de/mobile-mapping)

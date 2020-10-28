@@ -29,6 +29,8 @@ El punto principal es aprender cómo se coordina el mapeo en este contexto.
 - la [guía de mapeo remoto](/es/coordination/HOT-Remote-Response-Guide/) y la información general sobre [mapeo humanitario](/es/coordination/humanitarian/) proporcionan algunos antecedentes
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### ¿Le gustaría usar OpenStreetMap en dispositivos móviles?
 
 Hay un capítulo completo dedicado a [mapeo móvil](/es/mobile-mapping/)

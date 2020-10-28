@@ -29,6 +29,8 @@ A lényeg annak elsajátítása, hogy ebben az összefüggésben hogyan koordin�
 - a [távoli térképezési útmutatóból] (/hu/coordination/HOT-Remote-Response-Guide/) és a [humanitárius térképezésről](/hu/coordination/humanitarian/) szóló általános tájékoztatóból nagy vonalakban megismerheti a hátteret
 - igáslovunk a [Tasking Manager feladatkezelő](/hu/coordination/tm-user/): fontos, hogy alaposan tisztában legyen a munkafolyamatával.
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Szeretné-e mobil eszközökön is használni az OpenStreetMapet?
 
 A [mobil térképezésnek] (/hu/mobile-mapping/) egy egész fejezetet szenteltünk.

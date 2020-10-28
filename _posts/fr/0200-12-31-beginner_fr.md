@@ -29,6 +29,8 @@ Le point le plus important est d'apprendre comment est coordonnée la cartograph
 - le [guide de la cartographie à distance](/fr/coordination/HOT-Remote-Response-Guide/) et les généralités sur la [cartographie humanitaire](/fr/coordination/humanitarian/) donne quelques informations
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Vous voulez utiliser OpenStreetMap sur un appareil mobile ?
 
 Il y a un chapitre entier dédié à la [cartographie mobile](/fr/mobile-mapping)

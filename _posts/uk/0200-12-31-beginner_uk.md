@@ -29,6 +29,8 @@ nosearch: true
 - [Керівництво по дистанційному мапінгу](/uk/coordination/HOT-Remote-Response-Guide/) та загальна інформація про [мапінг для гуманітарних потреб](/uk/coordination/humanitarian/) надасть певні пояснення 
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Ви бажаєте використовувати OpenStreetMap на мобільний пристроях?
 
 Ось цілий розділ присвячений [мапінгу на мобільному](/uk/mobile-mapping/)

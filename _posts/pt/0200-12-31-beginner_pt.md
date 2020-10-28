@@ -29,6 +29,8 @@ O ponto principal é aprender como é coordenado o mapear neste contexto.
 - o [guia de mapeamento remoto](/pt/coordination/HOT-Remote-Response-Guide/) e a informação genérica sobre o [mapeamento humanitário](/pt/coordination/humanitarian/) fornece algum conhecimento base
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### Quer usar o OpenStreetMap em dispositivos móveis?
 
 Existe um capítulo inteiro dedicado ao [mapeamento móvel](/pt/mobile-mapping/)

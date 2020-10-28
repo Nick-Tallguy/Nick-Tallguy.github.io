@@ -29,6 +29,8 @@ nosearch: true
 - [מדריך מיפוי מרוחק](/he/coordination/HOT-Remote-Response-Guide/) והמידע הכללי על [מיפוי הומניטרי](/he/coordination/humanitarian/) מספקים קצת רקע
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### ברצונך להשתמש ב־OpenStreetMap במכשירים ניידים?
 
 יש פרק שלם מוקדש ל[מיפוי מהנייד](/he/mobile-mapping/)

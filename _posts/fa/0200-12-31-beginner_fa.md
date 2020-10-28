@@ -29,6 +29,8 @@ nosearch: true
 - [راهنمای نقشه‌کشی از دور](/fa/coordination/HOT-Remote-Response-Guide/) و اطلاعات کلی دربارهٔ [نقشه‌کشی بشردوستانه](/fa/coordination/humanitarian/) پس‌زمینه‌ای کلی در این باره می‌دهد
 - [مدیر وظایف](/fa/coordination/tm-user/) موتور محرکه است که بایستی با روند کاری آن آشنا شوید
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### می‌خواهید OpenStreetMap را روی دستگاه‌های همراه استفاده کنید؟
 
 فصلی کامل به [نقشه‌کشی همراه](/fa/mobile-mapping/) اختصاص داده شده است
