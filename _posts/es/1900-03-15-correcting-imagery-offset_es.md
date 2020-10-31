@@ -23,7 +23,7 @@ We’ve learned about two major ways of making maps - one is by utilizing aerial
 
 Because of what we now know, it is clear that the GPS trace is likely to be accurate, and the image beneath it is out of place. So now we must ask, “if the imagery may be out of place, how can we still use it and make accurate maps?”  
 
-Correcting Imagery Offset
+Corregir Desplazamiento de Imágenes
 -------------------------
 
 The answer to the preceding question is that we can move the imagery so that it aligns with things that we know are in the correct location, such as GPS tracks. It is easy to correct imagery offset in JOSM.  
@@ -38,7 +38,7 @@ The best references for adjusting imagery are GPS tracks that follow roads.  And
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- O, podrías ver muchas trazas:  
 
 ![Many GPS tracks from OSM][]
 
@@ -64,7 +64,7 @@ If you can positively identify the latitude and longitude of one object on the g
 If, on the other hand, the area has already been extensively mapped, then hopefully the previous mappers have drawn objects in their correct locations.  In this case, you can align the imagery to the OSM map, but beware!  Other mappers may not be aware of imagery offset, and they may have made mistakes when they mapped.  
 
 
-The Imagery Offset Database
+La Base de Datos de Desplazamiento de Imágenes
 ---------------------------
 
 Now you know how to watch out for and correct imagery offset, but there is one major problem with this approach that we have overlooked thus far.  If every OpenStreetMap user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.  
@@ -86,7 +86,7 @@ In the same way that you are able to save offsets as bookmarks, this plugin allo
 When using aerial imagery layers, you should ALWAYS check for existing offsets, and when you create your own offset, you should ALWAYS save it to this database.  
 
 
-Add Imagery Offset from the Database
+Agregar Desplazamiento de Imágenes de la Base de Datos
 ------------------------------------
 
 When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
@@ -110,13 +110,13 @@ When you add an imagery layer, the new plugin will alert you that you should che
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
+- Clic “Sí” para confirmar.  
 - You will need to enter a reason for deprecating this offset.  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+Agregar Desplazamiento de Imágenes a la Base de Datos
 ------------------------------------
 
 Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
@@ -135,7 +135,7 @@ Now that we have marked this user’s offset as “deprecated,” we should add 
 Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
 
 
-Imagery Offset Database Website
+Sitio web de la Base de Datos de Desplazamiento de Imágenes
 --------------------------------
 
 Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
