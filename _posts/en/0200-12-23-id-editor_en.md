@@ -222,6 +222,7 @@ iD versus JOSM
 [image18]: /images/beginner/id-editor_image18.png
 [image19]: /images/beginner/id-editor_image19.png
 [image20]: /images/beginner/id-editor_image20.png
+[image20a]: /images/beginner/id-editor_image20a.png
 [image21]: /images/beginner/id-editor_image21.png
 [image22]: /images/beginner/id-editor_image22.png
 [image24]: /images/beginner/id-editor_image24.png
