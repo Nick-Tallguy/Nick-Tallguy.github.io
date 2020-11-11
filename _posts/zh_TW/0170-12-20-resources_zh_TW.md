@@ -42,6 +42,6 @@ This is a commented list of pointers to other websites which we consider useful.
 
 ## 統計
 
-  * [Wiki entry on MapCraft](https://wiki.openstreetmap.org/wiki/MapCraft) A simple open-source coordination tool. The wiki says that it is no longer actively maintained
+  * [MapCraft 的 Wiki 頁面](https://wiki.openstreetmap.org/wiki/MapCraft)，為簡單的開源協調工具，Wiki 頁面則說該工具已經不再積極維護了
   * [Real-time progress on OpenStreetMap](https://github.com/osmlab/show-me-the-way)  github 上面的讀我頁面解釋怎麼篩選顯示結果，而不會顯示全世界的結果
   * [Who is around me ](http://resultmaps.neis-one.org/oooc) 顯示你所在區域附近貢獻者的地圖
