@@ -1,27 +1,27 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
+title: Tasking Manager Administrator Anleitung
 permalink: /de/coordination/tm-admin/
 lang: de
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# Tasking Manager Administrator Anleitung
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**Wenn die Benutzeroberfläche deiner Version anders aussieht als diese hier, dann solltest du [unsere Versionsübersicht](/de/coordination/tm-disambiguation) aufsuchen**
 
-Section Index
+Bereich Übersicht
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+-  [Login und Zugriff](/en/coordination/tm-admin/#login-and-access)
+-  [Berechtigungen](/en/coordination/tm-admin/#permissions)
+-  [Erstelle ein Projekt](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [Definiere Kartierbereiche](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Definiere Aufgaben](/en/coordination/tm-admin/#define-tasks)
     -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
     -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
--  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
+-  [Bearbeite ein Kartierung Projekt](/en/coordination/tm-admin/#edit-a-mapping-project)
+    -  [Beschreibung - Das erste was Benutzer über dein Projekt erfahren](/en/coordination/tm-admin/#description)
     -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
     -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
     -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
