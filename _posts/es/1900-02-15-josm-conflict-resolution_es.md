@@ -11,18 +11,18 @@ Resolución de Conflicto JOSM
 
 > Revisado 2016-09-27  
 
-Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
+Algunas veces está trabajando en JOSM y cuando sube todas sus hermosas ediciones, obtiene un desagradable mensaje que se queja de algún conflicto.  
 ![conflicto detectado][]  
 What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
 
 Conflictos
 ----------
 
-Sometimes, JOSM is able to figure out what to do with conflicts on its own, and it will give you a message like this:  
+Algunas veces, JOSM es capaz de arreglárselas por su cuenta con conflictos, y le dará un mensaje como este:  
 ![resuelto automáticamente][]  
 This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
 
-This tells you to look at all of your conflicts in Layer 1 in the **Dialog List** box:  
+Esto le dice que mire todos sus conflictos en la Capa 1 en la caja **Lista de Diálogo**:  
 ![warning unresolved][]  
 
 This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
@@ -95,7 +95,7 @@ Hay tres tablas mostradas en este cuadro de diálogo, de izquierda a derecha:
     en su conjunto de datos local.
 2. Versión fusionada: muestra las etiquetas fusionadas. Esta tabla está inicialmente
     vacío. Cuantos más conflictos de etiquetas resuelva, los valores de las etiquetas 
-    we be displayed in this table.
+    será mostrado en esta tabla.
 3.  Their version: shows the tags of the second object version
     participando en este conflicto. Estas son usualmente las etiquetas de 
     versión del objeto actualmente guardado en el servidor.
@@ -111,7 +111,7 @@ y cual desea descartar.
 
 Click on the value you want to keep, in the example for instance on the
 value on the left. If you either double-click on the value or click on
-![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), you decide to keep the value and to discard the
+![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), decides si mantener el valor y descartar el
 opposite value. The table in the middle now displays the value to keep
 y el color de fondo se vuelve verde.
 
