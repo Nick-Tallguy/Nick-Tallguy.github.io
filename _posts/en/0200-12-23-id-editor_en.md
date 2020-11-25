@@ -78,7 +78,9 @@ Basic Editing with iD
 ----------------------  
 
 Beware that the ID Editor hides objects when zoomed out. You will see a blue notice in the bottom of your screen warning you that there are ¨hidden features¨.
+
 ![image20a][]
+
 Zoom in until you see these features appear. Only then start mapping. Otherwise there is a chance you map objects on top of existing ones.
 
 ### Adding Points  
