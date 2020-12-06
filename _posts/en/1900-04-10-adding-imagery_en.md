@@ -19,11 +19,11 @@ From the Tasking Manager information tab, or your other source of the informatio
 
 ![TM Imagery][]
 
-Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**)  
+Go to the Preferences menu of JOSM (**Edit / Preferences**, or on an Apple machine **JOSM / Preferences**) and select the imagery tab
+ 
+![WMS_TMS_button][]{: height="24px"}
 
-![Preferences WMS TMS 1][]
-
-Click on the ![WMS_TMS_button][]{: height="24px"} icon, and in this case the ![+TMS_button][]{: height="24px"} icon.  
+Then click on the ![+TMS_button][]{: height="24px"} icon.  
 
 > TMS URLs usually have {x}{y} and {z} in them, WMS URLs are typically very long and have {width} and {height}, WMTS URLs usually have WMTSCapabilities.xml in them. If you are not sure what type of imagery URL you have, you can try adding them as different types to see which one works.  
 
