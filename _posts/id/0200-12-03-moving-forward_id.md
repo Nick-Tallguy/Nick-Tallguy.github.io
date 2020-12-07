@@ -64,7 +64,7 @@ Satu contoh proyek bernama MyOSMatic, yang kamu bisa akses melalui perambah inte
 ![MyOSMatic][]
 
 
-Penggunaan lanjutan data OpenStreetMap dijabarkan di [OSM-Data section of LearnOSM](/en/osm-data/)
+Penggunaan lanjutan data OpenStreetMap dijabarkan di [OSM-Data section of LearnOSM](/id/osm-data/)
 
 
 Ringkasan
