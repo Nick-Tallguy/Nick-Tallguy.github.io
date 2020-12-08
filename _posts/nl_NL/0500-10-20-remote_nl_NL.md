@@ -44,7 +44,7 @@ Voor u begint
 Neem een paar minuten de tijd om naar de volgende punten te kijken -  een korte tekst waarmee u grofweg te weten komt waar we het over hebben en waar u op terug kan vallen als het nodig is:
  
 - [gedeelte OpenStreetMap.org van LearnOSM](/nl_NL/beginner/start-osm/). Dit onderdeel behandelt de basis van OpenStreetMap, het lezen hiervan zal u op weg helpen. Het is geen lang hoofdstuk, dus u bent er snel doorheen. Gebruik, terwijl u dit leest, de informatie om een account voor OSM aan te maken en te bevestigen via uw e-mail. Zorg er voor dat u uw gebruikersnaam en wachtwoord ergens bewaart.
--  [Tasking Manager Section of LearnOSM](/en/coordination/tm-user/). You will need to know how to log into the Tasking Manager, find a particular project, select a square, and what to do with it. You need to read the whole chapter!  
+- [gedeelte Tasking Manager van LearnOSM](/nl_NL/coordination/tm-user/). U zult moeten weten hoe in te loggen in de Tasking Manager, een bepaald project zoeken, een vierkant selecteren en weten wat daarmee te doen. U moet het hele hoofdstuk lezen!  
 
 U zou misschien ook de korte video's van [MapGive](http://mapgive.state.gov/learn-to-map/) willen bekijken - onthoud dat de Tasking Manager een update heeft gehad sinds het opnemen van de video - de principes zijn hetzelfde, maar de kleuren zijn veranderd.
 
