@@ -20,7 +20,7 @@ No final do capítulo sobre o iD editor, você ouviu falar sobre as diferenças 
 
 Até agora, todas as edições que foram adicionadas ao mapa foram baseados em imagens de fundo. Mas você pode acumular uma riqueza de informações ao caminhar ou dirigir por aí. A [seção sobre mapeamento móvel](/pt_BR/mobile-mapping/) explica como coletar informações com diferentes dispositivos com GPS ou usando impressões especialmente concebidos. Ele também analisa uma série de aplicações relacionadas com o OpenStreetMap para dispositivos móveis.  
 
-OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
+O OpenStreetMap é um esforço colaborativo e esperamos que você faça parte dele. Alguns desses esforços são dedicados à ajuda humanitária sob os auspícios da [Equipe OSM Humanitária] (http://hotosm.org). Se você quiser ajudar o HOT por ocasião de um desastre como o terremoto no Nepal, consulte a [seção sobre coordenação](/en/coordination/). Trata das ferramentas que garantem que muitas pessoas possam trabalhar juntas em uma área relativamente pequena de maneira consistente. Ele também contém orientações sobre algumas tarefas típicas que você encontrará com frequência ao unir-se a esses esforços.  
 
 
 Leia mais
@@ -64,7 +64,7 @@ One such project is called MyOSMatic, which you can access through your internet
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+Outros usos dos dados do OpenStreetMap são explicados na [seção OSM-Data do LearnOSM](/en/osm-data/)
 
 
 Sumario
