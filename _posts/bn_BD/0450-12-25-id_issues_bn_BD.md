@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: Issues - iD editor
-permalink: /en/hot-tips/issues/
-lang: en
+permalink: /bn_BD/hot-tips/issues/
+lang: bn_BD
 category: hot-tips
 ---
 
