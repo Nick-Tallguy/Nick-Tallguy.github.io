@@ -131,8 +131,6 @@ If your Mapathon becomes a regular event it is possible that you will start to g
 
 ## Other Resources
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
-
 Useful resources for mapathons can also be found [on our external resources page](/en/resources).
 
 
