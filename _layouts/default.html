@@ -127,6 +127,7 @@
       <form class='searchbox-default rounded'>
         <span class='icon logo-search'></span>
         <input id='search-field' type='text' name='search' class='default-value' />
+        <div id='results-container'></div>
       </form>
       {% endunless%}
     </div>
@@ -164,25 +165,39 @@
     </footer>
   </div>
   </body>
+  <!-- search with lunr -->
+  <script src="{{site.baseurl}}/vendor/lunr.js"></script>
   <script>
-  // autocomplete search with all-translation json
-    $.getJSON("{{site.baseurl}}/all-translation.json",function(data){
-      console.log(data);
-      var lang = "{{page.lang}}";
-      data.forEach(function(o){
-        if (o.lang === lang){
-          var destination;
-          $( "#search-field" ).autocomplete({
-           autoFocus: true, // highlight the first search result in dropdown
-           delay: 0,
-           source: o.chapters,
-           select: function(event, ui) {
-             destination = '{{site.baseurl}}' + ui.item.url;
-             window.location = destination;
-           }
-          });
+    var idx
+    console.log('loading index')
+    // indexes are prebuilt with the scripts in vendor
+    $.get("{{site.baseurl}}/index-{{page.lang}}.json", function(json) {
+      console.log(json)
+      idx = lunr.Index.load(JSON.parse(json))
+      console.log(idx)
+      $("#search-field").autocomplete({
+        autoFocus: true,
+        delay: 0,
+        minLength: 5,
+        source: function(request, response) {
+          // autocomplete means wildcard at the end
+          console.log(request.term)
+          var result = idx.search(request.term + "*")
+          // lunr does not store documents internally so we include the headings
+          // in the url (used as key) separated by '@@@@'.
+          // We show these texts to the user (autocomplete displays label and transfers value to the select function)
+          var ret = []
+          for (var i = 0; i < result.length; i++) {
+            var items = result[i].ref.split('@@@@')
+            ret.push({label: items[1], value: items[0]})
+          }
+          response(ret)
+        },
+        select: function(event, ui) {
+          destination = '{{site.baseurl}}' + ui.item.value;
+          window.location = destination
         }
       })
-  });
+    }, "text")
   </script>
 </html>

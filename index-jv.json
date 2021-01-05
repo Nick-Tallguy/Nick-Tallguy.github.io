@@ -1,0 +1,1 @@
+{"version":"2.3.9","fields":["link"],"fieldVectors":[["link//jv/beginner/@@@@Beginner's guide",[0,0.288,1,0.288]]],"invertedIndex":[["guid",{"_index":1,"link":{"/jv/beginner/@@@@Beginner's guide":{}}}],["jv/beginner/@@@@beginner'",{"_index":0,"link":{"/jv/beginner/@@@@Beginner's guide":{}}}]],"pipeline":["stemmer"]}
