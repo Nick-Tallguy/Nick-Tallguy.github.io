@@ -106,7 +106,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 The iD & JOSM screenshots above show a correctly mapped landuse=residential boundary.  
 
 1.  The boundary needs to be closed, so that the start point of the line (way), joins to the end point.  
-2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *I.e.* it should not share any nodes. But it can cross highways or waterways, but not buildings.  
+2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *i.e.* it should not share any nodes. But they can cross.  
 3.  The boundary should be fairly close to the buildings & any gardens or yards that form part of the grouping.  
 
 
