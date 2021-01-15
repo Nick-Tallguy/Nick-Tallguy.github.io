@@ -27,9 +27,9 @@ in [Editor iD](/it/beginner/id-editor/) imparerai le basi per la modifica dei da
 
 Il punto principale è imparare a capire come funziona la mappatura in questi contesti.
 - la [guida alla mappatura da remoto](/it/coordination/HOT-Remote-Response-Guide/) e le informazioni generali sulla [mappatura umanitaria]/it/coordination/humanitarian/) forniscono qualche indizio a riguardo
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+- il perno centrale è il [Tasking Manager](/it/coordination/tm-user/)  con cui dovrai prendere famigliarità
 
-If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+Se hai già esperienza come mappatore e vuoi conoscere di più sulla validazione allora c'è una [sezione](/it/coordination/tm-user/#validation) della nostra guida al Tasking Manager che spiega il processo.
 
 ### Vorresti usare OpenStreetMap su dispositivi mobile?
 
@@ -38,4 +38,4 @@ C’è un intero capitolo dedicato alla [mappatura con smartphone](/it/mobile-ma
 
 ### Hai familiarità con gli strumenti GIS e vuoi accedere ai dati veri e propri?
 
-Le guide su [dove ottenere i dati](/en/osm-data/getting-data/) e [come usare Geofabrik e HOT Export](/en/osm-data/geofabrik-and-hot-export/) dovrebbero fornire alcune informazioni su come estrarre dati dal database in vari formati.
+Le guide su [dove ottenere i dati](/it/osm-data/getting-data/) e [come usare Geofabrik e HOT Export](/it/osm-data/geofabrik-and-hot-export/) dovrebbero fornire alcune informazioni su come estrarre dati dal database in vari formati.
