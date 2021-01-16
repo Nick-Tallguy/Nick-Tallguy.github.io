@@ -167,6 +167,49 @@
   </body>
   <!-- search with lunr -->
   <script src="{{site.baseurl}}/vendor/lunr.js"></script>
+  {% if page.lang == "en" %} <!-- do nothing in particular, particularly do not hide the search field later -->
+  {% elsif page.lang == "de" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.de.js"></script>
+  {% elsif page.lang == "es" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.es.js"></script>
+  {% elsif page.lang == "fr" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.fr.js"></script>
+  {% elsif page.lang == "hu" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.hu.js"></script>
+  {% elsif page.lang == "it" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.it.js"></script>
+  {% elsif page.lang == "ja" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.ja.js"></script>
+  {% elsif page.lang == "nl_NL" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.nl.js"></script>
+  {% elsif page.lang == "nb" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.no.js"></script>
+  {% elsif page.lang == "pt" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.pt.js"></script>
+  {% elsif page.lang == "pt_BR" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.pt.js"></script>
+  {% elsif page.lang == "ru" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.ru.js"></script>
+  {% elsif page.lang == "vi" %}
+    <script src="{{site.baseurl}}/vendor/lunr.stemmer.support.js"></script>
+    <script src="{{site.baseurl}}/vendor/lunr.vi.js"></script>
+  {% else %} <!-- no language support, hide search field -->
+    <script> 
+        $('span.logo-search').hide() 
+        $('#search-field').hide() 
+    </script>
+  {% endif %}
   <script>
     var idx
     // indexes are prebuilt with the scripts in vendor
