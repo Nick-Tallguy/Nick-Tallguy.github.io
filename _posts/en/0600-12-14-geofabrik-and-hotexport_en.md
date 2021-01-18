@@ -168,9 +168,9 @@ The tool allows the user to customise the data selected within the defined area 
 
 
 OSM is an open global database of tagged geographic features, with three types of elements:
-Nodes, which represent a point on the surface of the earth
-Ways, which are sets of nodes that can form lines or polygons
-Relations, which are sets of nodes, ways or other relations
+* Nodes, which represent a point on the surface of the earth
+* Ways, which are sets of nodes that can form lines or polygons
+* Relations, which are sets of nodes, ways or other relations
 
 Each of these elements can have any number of key=value tags. For example, a post office may be represented by a way with the tags building=yes and amenity=post_office. Lets see how these tags can be defined in the Export Tool using the Tag Tree and YAML Form to filter OSM data.
 
