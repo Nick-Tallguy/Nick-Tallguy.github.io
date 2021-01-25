@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Reviewed 2016-02-08
   
 **この記事は OSMTracker for Android に関するものです。よく似た製品が Windows Mobile にもあります。**  
 OSMTracker では、移動した経路の GPX トレースを、経路沿いにある「ウェイポイント」の集合と一緒に作成することができます。音声の録音、写真撮影、その他のメモも記録し、位置情報をつけることができます。
@@ -30,9 +29,8 @@ OSMTracker では、移動した経路の GPX トレースを、経路沿いに�
 OSMTracker をインストール
 -------------------------
 
-OSMTracker は [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker) からインストールしてください。  
+Install OSMTracker from the [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-The [most recent application package](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) can be downloaded outside of Google play Store if need be.  
 
 
 OSMTracker Configuration
