@@ -48,11 +48,11 @@ Any type of roads from motorways to tracks and paths are labelled 'highway' in O
 
 ![JOSM 4][]
 
-This screenshot shows JOSM with the JOSM validator enabled. Although designed to assist validators, it can be very useful when carrying out initial mapping. Anything that is coloured yellow has some kind of problem.
+This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](https://josm.openstreetmap.de/wiki/Styles). Although designed to assist validators, it can be very useful when carrying out initial mapping. Anything that is coloured red has some kind of problem - the remaining colours are explained in the key in this screenshot.  
 
-1.  This section of highway is coloured yellow because the tag has been incorrectly typed and a capital letter has been used. The tag should be highway=unclassified instead of Highway=unclassified.  
-This is part of the highway network for the town to the South West.This network connects to the rest of the highway network of Africa.  
-2.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
+1.  This section of highway is coloured red because the tag has been incorrectly typed and a capital letter has been used. The tag should be highway=unclassified, which would have resulted in a pale brown colour in the screenshot.  
+2.  This is part of the highway network for the town to the South West.This network connects to the rest of the highway network of Africa.  
+3.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
 
 
 **Highway or stream?**
