@@ -27,9 +27,9 @@ Si desea comenzar y poder editar los datos del mapa, le recomendamos que lea est
 
 El punto principal es aprender cómo se coordina el mapeo en este contexto.
 - la [guía de mapeo remoto](/es/coordination/HOT-Remote-Response-Guide/) y la información general sobre [mapeo humanitario](/es/coordination/humanitarian/) proporcionan algunos antecedentes
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+- el caballo de trabajo es el [Administrador de Tareas](/en/coordination/tm-user/) de cuyo flujo de trabajo deberías familiarizarte con
 
-If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+Si eres un mapeador experimentado y quieres conocer más acerca de la validación entonces una  [sección](/en/coordination/tm-user/#validation) en nuestra guía del Administrador de Tareas explica el proceso.
 
 ### ¿Le gustaría usar OpenStreetMap en dispositivos móviles?
 

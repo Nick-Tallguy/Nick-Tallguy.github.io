@@ -59,7 +59,7 @@ La mejor manera de conectarse con la comunidad de usuarios de OpenStreetMap es u
 Ejemplo de uso de OSM - MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+Uno de esos proyectos se llama MyOSMatic, al que puedes acceder a través de un navegador internet en [print.get-map.org](https://print.get-map.org/). Esta es una herramienta simple para imprimir un mapa de cualquier ciudad que elijas. Creará automáticamente el mapa, junto con una cuadrícula sobre el mapa, y un índice de ubicaciones que están incluídas en el área.
 
 ![MyOSMatic][]
 
