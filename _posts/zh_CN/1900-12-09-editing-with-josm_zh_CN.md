@@ -93,7 +93,7 @@ This frequently occurs because editors use the JOSM select tool to draw a box ar
 
 ![Nodes mistake][]
 
-Saving OSM files
+保存 OSM 文件
 ----------------
 When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
 

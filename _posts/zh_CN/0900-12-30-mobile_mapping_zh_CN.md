@@ -2,18 +2,18 @@
 layout: doc
 permalink: /zh_CN/mobile-mapping/
 lang: zh_CN
-title: Mapping with a SmartPhone, GPS or Paper
+title: 使用手机、GPS或纸绘图
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapping with a Smartphone, GPS or Paper
+使用手机、GPS或纸绘图
 =============================
 
-> Reviewed 2015-07-14  
+> 审阅于 2015-07-14  
 
-To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+要创建一个详细精确的地图，你需要在要更新的地图区域进行调查。本节涉及调查相关内容：  
 
 - GPS  which will probably be more accurate than your mobile phone,  
 - Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
@@ -42,7 +42,7 @@ Try several applications that are compatible with your phone to get familiar wit
 
 <!-- Commenting for now since tables doesn't look very nice!
 
-Recommended Applications for Smartphones / PDAs
+我们推荐的一些适用于智能手机和数字设备的应用程序
 -----------------------------------------------------
 
 | Application      | Usage  | Android  | Blackberry | iOS     | Windows |
@@ -56,7 +56,7 @@ Recommended Applications for Smartphones / PDAs
 | OSMTracker       | m      | O        |            |         | O       |
 | Vespucci         | m:f    | O        |            |         |         |
 
-O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
+O - 已支持, D - 开发中, m - 绘图, n - 导航, p - POI 编辑器, f - 完整编辑器
 
  -->
 

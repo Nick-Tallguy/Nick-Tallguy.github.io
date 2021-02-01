@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: JOSM Plugins
+title: JOSM 插件
 permalink: /zh_CN/josm/josm-plugins/
 lang: zh_CN
 category: josm
 ---
 
-JOSM Plugins
+JOSM 插件
 ============
 
 
@@ -14,7 +14,7 @@ As you become more advanced in your editing techniques, you may want to use addi
 
 In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
 
-Installing Plugins
+安装插件
 -------------------
 Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
 
@@ -24,7 +24,7 @@ Any time you want to install a new plugin, go to **Edit \> Preferences** and cli
 * To install a plugin you simply must check the box next to it and click OK at the bottom.  
 * Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
 
-Some of our favorite plugins are:
+一些最受欢迎的插件：
 
 1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
 

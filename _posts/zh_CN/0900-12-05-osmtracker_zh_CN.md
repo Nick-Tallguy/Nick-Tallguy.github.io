@@ -10,84 +10,84 @@ OSMTracker
 ==============
 
   
-**This article relates to OSMTracker for Android - there is a similar product available for windows mobile.**  
-OSMTracker allows the creation of a gpx trace of a journey, with the collection of 'waypoints' along the route. Voice recording, photographs and other notes may also be recorded, and all will be geolocated.
+**本文涉及在Android中使用 OSMTracker - 这和在windows移动版中使用类似.**  
+OSMTracker允许创建一条带有一组点的gpx路径。同时带有地理位置的音频，图片和笔记也会被记录下。
 
-Quick Start
+快速入门
 -----------
 
 ![OSMTracker_1][]  
 
-1.  Click on the cross to create new track.  
-2.  Screen will change to show the buttons - wait until they are no longer greyed out, which indicates the GPS has a fix.  
-3.  Travel your route, pressing appropriate buttons when you are exactly at the feature to be mapped. You can also create voice recordings, take photographs and take notes using the buttons.  
-4.  When you've finished, press the floppy disk icon to save your track & waypoints.  
-5.  To convert the track to a gpx file, press & hold it in the list, then select the appropriate option.  
-6.  Transfer the track, pictures and recordings to your computer & read from them to update OSM.  
+1. 点击十字图标创建一条新路径。  
+2. 屏幕将改为显示按钮 - 等到它们不再变灰，这表示 GPS 已修复。  
+3. 开始你的路线，当你走到需要被记录的地方时按下相应音频，照片或记录的按钮记录相应信息。  
+4. 当你走完录下后，按下软盘图标来保存路径和点信息。  
+5. 如果需要转换路径成一个gpx文件，点击并按住列表中的路径，然后选择相应的选项。  
+6. 保存路径、图片和记录到你的电脑中然后上传到OSM。  
 
 
-Install OSMTracker
+安装OSMTracker
 -------------------------
 
 Install OSMTracker from the [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
 
 
-OSMTracker Configuration
+OSMTracker配置
 ------------------------
 
-Start OSMTracker, and press the menu icon on your Android device, then select **Settings**.  
+启动OSMTracker，然后按住你Android设备上的菜单按钮，选择 **设置**  
 
--  **Voice record duration** - your choice, but 30 seconds is used by the author.  
--  **Enable sound** - recommended to tick this box - emits a beep to warn you when voice recording starts and ends.  
--  **Reset  authentication**. This button will be 'greyed out' until you have uploaded a .gpx file, and authorised OSMTracker to upload tracks to your OpenStreetMap account.  
--  **GPS settings** Which methods your Android device will use to determine the location. Recommended to set this to **High accuracy** and the device will then use GPS, Wi-Fi and mobile networks to estimate the location.  
--  **Check GPS at startup** When you start OSMTracker, if the GPS has been switched off, the programme will prompt you to turn it back on.
--  **Ignore GPS clock** If ticked will use the devices internal clock instead of the time provided within the GPS signal.  
--  **GPS logging interval** Choose the period between the recording of the position - for best accuracy select 0 or 1, each of which results in a recording each second.  
+-  **录音周期** - 选择录音周期，通常用户选择30秒.  
+-  **打开声音** - 推荐打开这个选项 - 当你开始和结束录音时，会有一声“哔”的提示。  
+-  **重置身份验证**. 该按钮会一直变灰直到你上传一个gpx文件和授权OSMTracker上传路径到你的OpenStreetMap账户中.  
+- **GPS 设置**  用于Android设备选择哪种方式来获得当前地址。推荐设置成 **高精度** 模式，设备将使用 GPS、Wi-Fi和移动网络来确定地址。  
+ **启动时检测GPS** 当你启动OSMTracker时，如果GPS没有开启，程序会提示你开启。
+-  **忽略GPS时钟** 如果选中，程序会使用设备提供时间来而不是GPS信号提供的时间。  
+-  **GPS记录间隔** 选择记录路径的时间间隔 - 推荐设置为0或1，这样会每秒记录一次位置。  
 
 > The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
 
--  **External storage (SD) directory** Default is /osmtracker  
+-  **外部存储(SD)目录** 默认是 /osmtracker  
 
 > Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
 
--  **One directory per track** Recommended as this will result in all of the related voice recordings, photographs, text notes and the gpx trace all being stored in the same folder, named with the date and time of the gpx file creation.  
--  **Filename for named tracks** Options for you to choose from if you have a preference for the naming of the files.  
--  **Accuracy in GPX file** Recommended - will result in the waypoint name including a figure approximating the possible error range in metres. For instance *Footpath (4.0m)*. This information can be extremely useful later when updating OSM, and deciding whether to move an existing feature to align with the new trace & waypoints.  
--  **Use HDOP approximation** Relates to additional calculations to improve the position accuracy (Horizontal Dilution of Precision).  
--  **Export Compass Heading** Defines if and how the compass data should be exported to the GPX file.  
--  **Default photo source** Generally you will take photo's with the camera through this app., but you can chose to use photo's already on the phone.  
--  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
--  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
--  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [see below](/en/mobile-mapping/osmtracker/#button-presets).   
--  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
+-  **每个路径一个目录** 推荐这样做是因为所有音频、图片、文字记录和gpx路径将一日期和时间命名被保存在同样的文件夹中。  
+-  **Filename for named tracks** 选项- 你可以选择你偏爱的文命名。  
+-  **GPX 文件精确度** 推荐勾选- 将返回一个包含误差范围数字的路径点结果。例如*Footpath (4.0m)*。当你上传数据到OSM时这个数据将帮助OSM来修正路线。  
+-  **使用HDOP近似值** 通过额外计算来提供位置精确度 (水平精度稀释 - Horizontal Dilution of Precision).  
+-  **导出Compass Heading** 勾选则compass数据将被导出到GPX文件.  
+-  **默认图片源** 通过你通过新拍图片到app中，但你也可以选择相机中已存在的图片。  
+-  **屏幕一直开启** 如果你经常需要上传图片或记录音频时请开启，这也会比较费电 - 如果关闭则你每次操作时需要开启屏幕。  
+-  **屏幕显示风格** 当你看操作按钮困难时，通过这个选项来改变对比度和屏幕亮度来提高可视度。  
+-  **预设按钮** 你可以设计和添加和选择你自己的按钮是否显示。参考 [see below](/en/mobile-mapping/osmtracker/#button-presets) 来获得详细设置。   
+-  **背景地图** 点击和按住一条路径后，你可以看见路径信息，app也将从OpenStreetMap下载相应背景地图。  
 
-> This does require a data connection to download the map. You do not need to use this function unless you wish to.  
+> 需要互联网才能下载地图。除非您愿意，否则不需要使用此功能。  
 
 -  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
--  **Orientation**  Do you want the screen to rotate, or use it in landscape or portrait?  
+-  **方向**  设置允许屏幕旋转、水平或者垂直  
 
-The Track List
+路径列表
 --------------
 
 ![OSMTracker_2][]  
-Having carried out your initial survey, clicking buttons, creating voice recordings and taking photographs, when you have finished, click on the floppy disk icon to end your track. Now press and hold the track in the list & options become available:  
+完成初步调查、点击按钮、创建录音和拍照后，完成后，点击软盘图标以结束您的路径。现在按住列表中的路径，可用选项如下：  
 
--  **Resume Tracking** useful when you realise you've missed a bit!  
--  **Display** will show the track, possibly with a background map depending on your data connection and the option you selected in **Background Map**.  
--  **Export as GPX** - necessary for the track and waypoints to be used in an editing programme.  
--  **Upload to OpenStreetMap** Use this option to upload your trace to OpenStreetMap - you will need to have an OpenStreetMap account ([How to obtain explained here](/en/beginner/start-osm/)), and will need to authorise this app to upload traces to your account. See [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) for more information on why these traces are so important to OpenStreetMap.  
+-  **恢复路径记录** 当你发现错误了一些路径记录需要重新记录时!  
+-  **显示** 显示路径，同时可能显示背景图如果您有互联网并且你已选择了**背景地图**.  
+-  **作为GPX文件导出** - 在编辑工具中编辑路径和路径点时需要用到。  
+-  **上传到OpenStreetMap** 上传路径到OpenStreetMap - 你需要有一个OpenStreetMap账户 ([How to obtain explained here](/en/beginner/start-osm/)), 并且需要授于本app你账户的权限. 查看 [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) 了解为何上传路径对于OpenStreetMap非常重要.  
 
 > **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
 
--  **Delete**. Self explanatory.  
+-** 删除 **   
 
 
-Button Presets
+按钮预设
 --------------
 
-If you will be surveying for a particular reason, and the waypoint label you require is not available, you can create your own set of button presets prior to your surveying trip, load them into the phone and select them whilst surveying as & when you need them - several can be loaded in the phone & you may switch between them without stopping your recording. As the label you create is in the form of a personal note, it does not need to conform to the tags used within OpenStreetMap, and will not be uploaded to it. For instance, you may choose to have buttons labelled;  
+如果您出于特定原因进行勘测，并且您需要的路径点标签不可用，你可以在测量旅行之前创建自己的标签按钮预设集并将它们加载到手机中，然后在需要时进行测量时进行选择相应标签 - 您可以在记录路径时随时切换他们。由于你创建的标签被记录在个人日志中，所以不需要遵守OpenStreetMap标签规则，同样也不会被上传到OSM中。例如你可以选择以下一些标签按钮：  
 
 - 1 family,  
 - 2 families,  
@@ -103,33 +103,33 @@ If you will be surveying for a particular reason, and the waypoint label you req
 - 4wd needed,  
 - etc..  
 
-For a full description on creating a button preset, see the [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). This is a [sample download file.](/files/R_of_Way.xml)  
+点击这里 [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts) 查看如何创建预设按钮，这是示例文件：[sample download file.](/files/R_of_Way.xml)  
 
 ![OSMTracker button presets][]  
 
 
-Voice recordings, photograph & text image sizes  
+音频记录、照片和文本图片大小  
 -----------------------------------------------  
 
 ![OSMTracker recorded file sizes][]  
 
-If file transfer at a later stage is an issue, be aware of the file sizes involved - as the screenshot shows photographs are very memory intensive compared to the gpx file or a 10 second voice recording.  
+如果稍后阶段的文件传输是一个问题，请注意所涉及的文件大小 - 因为截图显示，与 gpx 文件或 10 秒录音相比，照片内存消耗大。  
 
 
-GPS Traces - gpx files
+GPS 路径 - gpx 文件
 ----------------------  
 
 ![OSMTracker JOSM][]  
 
-GPS traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph.  
+在gpx文件中，GPS路径由许多元素如‘路径’和‘路径点’组成。上图截屏中显示一个由OSMTrack工具创建并已被上传到JOSM中配以卫星图显示等待编辑的路径。路径正中的方形图标显示有一张照片 - 点击方形图标显示图片  
 
-If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
-Volunteers updating OpenStreetMap can download all of the traces that have been uploaded in an area, and use them to:  
+如果你正在导航并使用 GPS 给你提供路线，你会在某个时候注意到它将 “重新计算”。这通常是因为其内部 GPS 位置与其预期道路或路径的位置不对应  - 存在误差，道路和路径很容易被创建在稍微错误的位置，之后在创建地图数据后也很容易修正道路。  
+志愿者们更新OpenStreetMap地图可以下载一个地区所有已经存在的路径并用它们：  
 
 1. Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
 2. Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.  
 
-Although a single gpx trace is very useful, it may not be particularly accurate and can be as much as 30 metres out of place. When there are several traces, the correct route of the path or road is now easy to see - for example see the screenshot below showing a download of gpx traces in a town, in which the main roads can be seen by the volume of traces.  
+尽管单个 gpx 路径非常有用，但它可能不是特别精确有时候可能达 30 米误差。当有几条路径时，则正确路线很容易被选出 - 例如，请参阅下面的屏幕截图，其中显示了城镇中 一些gpx 路径，其中主要道路可以通过路径的数量看到。  
 
 ![OSMTracker_gpx][] 
 

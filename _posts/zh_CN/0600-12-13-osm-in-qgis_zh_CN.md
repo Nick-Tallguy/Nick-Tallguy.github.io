@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Using OSM Data in QGIS
+title: 在QGIS中使用OSM数据
 permalink: /zh_CN/osm-data/osm-in-qgis/
 lang: zh_CN
 category: osm-data
 ---
 
-Using OSM Data in QGIS
+在QGIS中使用OSM数据
 =================
 
-> Reviewed 2015-07-19
+> 已审查 2015-07-19
 
 QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
 

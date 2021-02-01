@@ -56,15 +56,15 @@ OpenStreetMap是一项协作工程，我们希望你成为其中的一员。有�
 - 现在每当你想给列表发信时，你可以发送到[talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org)，注意把“id”替换成自己的国家。你还会收到其他成员向列表发送的信息。  
 
 
-Example of OSM use - MyOSMatic
+一个OSM使用例子 - MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+你在浏览器中访问MyOSMatic项目 [print.get-map.org](https://print.get-map.org/). 这是一个小工具，你可以用它来打印任何城市的地图。它能自动创建带栅格的地图并且由你选择来列出上地图中相关信息的列表
 
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+关于如何使用OpenStreetMap数据请查看 [OSM-Data section of LearnOSM](/en/osm-data/)
 
 
 小结
