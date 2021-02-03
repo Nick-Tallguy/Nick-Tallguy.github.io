@@ -12,15 +12,15 @@ category: coordination
 
 > Reviewed 2015-09-18
 
-Thank you for volunteering to help the local communities and the Aid Organisations responding to this crisis by providing updated map data for them.  
+感谢您的志愿服务，通过为当地社区和援助组织提供最新的地图数据来帮助他们应对这场危机。  
 
-Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce.  
+像你一样，我们希望尽快提供帮助，我们的工作真正有紧迫感。但是，援助组织依赖我们获取地图数据的原因是，我们需要时间来确保我们生产的产品是有用的，并能满足他们的需求。我们也需要你小心。尽管这会延迟您开始更新地图，但我们需要在开始之前了解如何以及完整地图的内容。请不要在先观看或阅读一些可用教程的情况下急于开始测绘。我们在制图中清理错误所需的时间比创建错误需要更长的时间，而且这些错误可能会导致护理人员对我们制作的地图的可靠性产生怀疑。  
 
-We are constantly updating our software & training guides, but it does take time. The software in the Tasking Manager will be updated soon so that only experienced people can review mapping work and mark it as "validated", but at the moment we ask that the "validation" process be left for the most experienced mappers - please keep mapping and you will become one of our mapping validators in the future. **If you select a task square and the green button says 'Review the work' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
+我们不断更新我们的软件和培训指南，但这确实需要时间。Tasking Manager 中的软件将很快更新，以便只有经验丰富的人才能查看和“审核”上传的绘图，但目前我们要求将 “审核” 过程留给最有经验的测绘审核人员 - 请继续测绘，你有机会在未来为我们的测绘审核人员。** 如果您选择任务区域和绿色按钮显示 “审核工作”，那么请点击另一个任务区域，因为该评论需要经验丰富的审核人员才能完成。**  
 
-We don't need you to read all of this site before you start, but we do need you to understand the basics:  
+在开始之前，我们不需要您阅读所有网站内容，但我们需要您了解一些基础知识：  
 
-1.  You need to carefully read the Task Manager Instructions for any project you would like to help map. They can be different, so make sure you read & understand them. There is a full description of how to use the [Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/), and it includes how to get live help from an experienced mapper.  
+1. 如果您想帮助改进地图，请仔细阅读Task Manager介绍，它们可能会有所不同，因此请务必阅读并理解它们。这里有一片关于如何使用Tasking Manager和如果从有经验的测绘人员获得帮助知识：[Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/)  
 
 2.  Make sure you have zoomed in enough so that you can actually see what you should be tracing - [it and many other things are explained here.](/en/coordination/remote/)  
 
