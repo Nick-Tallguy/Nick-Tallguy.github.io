@@ -13,29 +13,29 @@ nosearch: true
 
 > Reviewed 2015-07-12  
 
-本指南将介绍如何逐步开始参与OpenStreetMap。你将学到 如何创建账号、如何使用基本的地图编辑软件，后续章节中还将学习如何外出 
+本指南将介绍如何逐步开始参与OpenStreetMap。你将学到如何创建账号、如何使用基本的地图编辑软件，后续章节中还将学习实地搜集信息并反馈回地图中。 
 
-### Are you new to OpenStreetMap and want to improve the map by adding data?
+### 你是OpenStreetMap的新手吗？想通过添加数据来改进地图吗？
 
-If you want to get started and be able to edit the map data then we recommend that you read these guides:
-- the [introduction](/en/beginner/introduction/) gives you some background about the project
-- [Getting started](/en/beginner/start-osm/) shows you how to get an account and how to invoke an editor
-- in [iD editor](/en/beginner/id-editor/) you learn the basics of editing the data
-
-
-### You already know how to use an editor and want to contribute to Humanitarian Mapping?
-
-The main point is to learn how mapping in this context is coordinated.
-- the [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) and the general information about [humanitarian mapping](/en/coordination/humanitarian/) provide some background
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
-
-If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
-
-### Would you like to use OpenStreetMap on mobile devices?
-
-There is a whole chapter devoted to [mobile mapping](/en/mobile-mapping/)
+如果您想开始使用并能够编辑地图数据，我们建议您阅读以下指南：
+- 阅读 [引言](/en/beginner/introduction/) 了解一些项目背景知识
+-[新手入门]（/en/beginner/start-osm/）向您展示如何获得账户以及怎样访问地图编辑器
+- in [iD editor](/en/beginner/id-editor/) 学习编辑地图数据的基础知识
 
 
-### You are familiar with GIS tools and want access to the raw data?
+### 你已经知道如何使用编辑器并想为Humanitarian Mapping做贡献吗？
 
-The guides on [where to obtain data](/en/osm-data/getting-data/) and [how to use Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export/) should provide some pointers how to extract data in various formats from the database.
+测绘重点是学习如何在这种场景中合作测绘。
+-  [remote mapping guide](/en/coordination/HOT-Remote-Response-Guide/) 和 [humanitarian mapping](/en/coordination/humanitarian/) 文章提供了一些背景知识
+- 主力工具是 [Tasking Manager](/en/coordination/tm-user/) ，你需要熟悉其工作流
+
+如果你是一个经验丰富的测绘员并想了解更多关于审核地图的信息，查看我们Task Manager向导 [章节](/en/coordination/tm-user/#validation) 了解整个过程
+
+### 你想在移动设备上使用 OpenStreetMap 吗？
+
+有一整章专门讨论 [用手机进行测绘](/en/mobile-mapping/)
+
+
+### 您熟悉 GIS 工具，想要访问原始数据？
+
+在 [获取数据](/en/osm-data/getting-data/) 和 [如何使用 Geofabrik 和 HOT 导出](/en/osm-data/geofabrik-and-hot-export/) 提供了一些从数据库中提取不同格式数据的方法。
