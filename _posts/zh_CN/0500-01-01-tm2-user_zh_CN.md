@@ -125,39 +125,39 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 这包含进度图表和其他信息。  
 
-The Stats tab also contains a list of mappers who have completed at least one square within the project - to see which squares they have completed, you can *hover your mouse cursor* over a username, and the squares they have completed will become the only ones visible (**use this to locate the squares you have previously completed**).  
+“统计” 选项栏还包含在项目中至少完成一个方形的测绘人员列表-要查看他们已经完成了哪些方格，你可以 * 将鼠标光标 * 悬停在用户名上，他们完成的方格将成为唯一可见的方格（** 使用它来定位你拥有的方块之前已完成 **)。  
 
-Once you have located the square by hovering your mouse over the user name, you may click on the square to see the comments that have been left by mappers and validators for the square, which is a useful way of obtaining feedback from validators.  
+通过将鼠标悬停在用户名上方来定位方形后，您可以点击方块以查看测绘人员和审核人员为方形留下的评论，这是获取审核人员反馈的有用方法。  
 
 
-### Contribute tab  
+### 贡献栏  
 
-Click when you are ready to start mapping. You may choose your square to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  
+开始点击当你已准备好测绘。您可以通过从地图中选择方形后点击 “随机执行任务” 选项来选择要处理的方形。  
 
 ![Picking a task][]  
 
 
-## Selecting a square to map  
+## 选择要测绘的方形  
 
 ![Assigned task square][]  
 
-Having selected your square you will be able to see if there is any history for this square, such as a mapper starting to map, but realizing they do not have time to complete the square.  
+选择正方形后，您将能够看到这个方形是否有任何历史记录，例如测绘人员开始绘制，但意识到他们没有时间完成方形。  
 
-If you accidentally select a square, you can release it again by clicking on the blue close control - **x** - shown in the screenshot above.  
+如果你不小心选择了一个正方形，你可以通过点击上面屏幕截图所示的蓝色关闭控件-**x** 来释放它。  
 
-Clicking on the **Start Mapping** button locks the square so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the square is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your square has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+点击 ** 开始测绘 ** 按钮会锁定方形，这样其他映射器在再次释放之前不能选择它，并启动 2 小时（120 分钟）倒计时器，在此时间结束时方形将自动释放。定期检查倒计时器是很好的做法-很容易被投入到你的地图中，而不是意识到你的方形已经被释放，现在已经被另一个测绘人员开始测绘了。这可能导致冲突和问题。  
 
 
-### Editing choices
+### 编辑选择
 
-Different options for editing are presented to you as soon as you lock a square.
+锁定方形后，会立即向您显示不同的编辑选项。
 
 ![Editing options][]  
 
 
-#### Edit with JOSM  
+#### 使用 JOSM 编辑  
 
-Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+在使用此链接之前启动 JOSM，它会自动将现有的 OSM 数据加载到 JOSM 中。  
 
 >  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
 >  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
