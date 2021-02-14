@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 复制, 粘贴和旋转 - iD编辑器
-permalink: /en/hot-tips/copy-paste/
-lang: en
+permalink: /zh_CN/hot-tips/copy-paste/
+lang: zh_CN
 category: hot-tips
 ---
 

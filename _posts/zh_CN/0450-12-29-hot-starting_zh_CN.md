@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 新建一个Tasking Manager - iD编辑器
-permalink: /en/hot-tips/getting-started/
-lang: en
+permalink: /zh_CN/hot-tips/getting-started/
+lang: zh:CN
 category: hot-tips
 ---
 

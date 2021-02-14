@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/hot-tips/
-lang: en
+permalink: /zh_CN/hot-tips/
+lang: zh_CN
 title: 热门提示 - 作为一个新手该如何开始 - iD编辑器
 category: hot-tips
 cover: yes

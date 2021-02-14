@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 绘制矩形建筑物- iD编辑器
-permalink: /en/hot-tips/tracing-rectangular-buildings/
-lang: en
+permalink: /zh_CN/hot-tips/tracing-rectangular-buildings/
+lang: zh_CN
 category: hot-tips
 ---
 

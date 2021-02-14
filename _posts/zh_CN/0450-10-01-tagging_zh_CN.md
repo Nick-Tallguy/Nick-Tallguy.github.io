@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 标签 - iD编辑器
-permalink: /en/hot-tips/tagging/
-lang: en
+permalink: /zh_CN/hot-tips/tagging/
+lang: zh_CN
 category: hot-tips
 ---
 

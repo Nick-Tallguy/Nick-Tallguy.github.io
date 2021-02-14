@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 保存 - 提交时评论 & Task Manager 完成一个方型边界线 - iD编辑器
-permalink: /en/hot-tips/saving/
-lang: en
+permalink: /zh_CN/hot-tips/saving/
+lang: zh_CN
 category: hot-tips
 ---
 

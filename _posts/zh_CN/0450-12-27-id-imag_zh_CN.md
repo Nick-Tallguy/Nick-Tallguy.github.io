@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: 航拍图 & 校正 - iD编辑器
-permalink: /en/hot-tips/imagery/
-lang: en
+permalink: /zh_CN/hot-tips/imagery/
+lang: zh_CN
 category: hot-tips
 ---
 
