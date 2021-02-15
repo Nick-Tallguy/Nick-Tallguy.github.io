@@ -38,19 +38,20 @@ iD editor - saving
 
 尽管 OpenStreetMap 会在几秒钟内接受您的更改，但是某些程序、应用程序和设备使用保存的 OpenStreetMap 版本，该版本可能会在几周或几个月内无法更新。  
 
-Tasking Manager - 完成方形绘制或在完成前停止工作  
+Tasking Manager Finishing a square or stopping work before the square is finished  
 -------------------------------------------------------------------
 
-当你认为方形已完成后，返回浏览器上的Task Manager栏，添加评论并将方形标记为完整。不要复制为保存到 openstreetmap 时使用的评论。  
+When you think the square is finished, add a comment and mark the square as completely mapped.
+
 ![Stop Mapping][]  
 
 如果你选择;
 
--** 标记为测绘 ** 后，方形颜色将变为黄色，表示该处理已完成正等待审核。  
--** 停止测绘 ** 方形将恢复到以前的状态颜色。另可能的话请留言给下一位测绘人员这将对他们的后续工作有帮助，例如  
+- **¨Yes¨ on the question ¨Is this task completely mapped?¨** the square you were working on will turn blue to show it is complete and awaiting validation.  
+- **¨No¨ on the question ¨Is this task completely mapped?¨** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
     -“方形右下角还有更多的建筑物要追踪，但我已经没时间了”  
 
-只有在测绘人员将方形标记为完成时，整个 Tasking Manager 进程才会继续 - 所以即使你是新手而且不确定，当你认为它已完成时，点击 ** 将任务标记为已完成 ** 按钮。可能发生的最糟糕的事情是有人认为还有很多工作要做并使你的方形失效。我们中的大多数在Tasking Manager上进行了大量测绘工作的人至少有一个方形失效-我们在某个时候都错过了一些东西。  
+The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is completely mapped, choose ¨Yes¨ on the question ¨Is this task completely mapped?¨. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
 
 OpenStreetMap 的发展是因为测绘人员们不断改进信息。有时候，新影像使得可以制作更详细的地图，有时会通过调查获取信息并将其添加到地图中。   
 

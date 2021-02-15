@@ -38,19 +38,20 @@ iD 編輯器 - 儲存
 
 雖然你的變動在幾秒鐘內會被 OpenStreetMap 接受，但一些小程序，應用程式及設備儲存的OpenStreetMap版本，在幾週或幾個月內可能不會更新。  
 
-任務分配管理系統 - 完成矩形，或在矩形完成之前停止工作  
+Tasking Manager Finishing a square or stopping work before the square is finished  
 -------------------------------------------------------------------
 
-當你覺得矩形完成之後，回到瀏覽器任務分配管理系統的頁籤，新增註解並且標示矩形為完成。在儲存時請不要複製註解。  
+When you think the square is finished, add a comment and mark the square as completely mapped.
+
 ![Stop Mapping][]  
 
 如果你選擇；
 
-**標記為完成*你工作的方塊，然後會變成黃色表示完成，並且等待審核。  
-- **停止畫地圖**會讓方塊變成先前的顏色，顯示需要更多工作。留下評論則會讓下個圖客知道要做什麼，像是   
+- **¨Yes¨ on the question ¨Is this task completely mapped?¨** the square you were working on will turn blue to show it is complete and awaiting validation.  
+- **¨No¨ on the question ¨Is this task completely mapped?¨** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
     - 「右下角的方框內有不少可以描繪的建築，但我沒時間」  
 
-整個任務分配管理器的過程，只有在圖客標示方框為完成 - 即便你是新手和不確定，你覺得已經完成，那就點**標示任務為完成**按鈕。最糟的狀況是有人認為還有不少東西能做，而取消審核你的方框。我們大部分人會畫不少塊，然後會有至少一塊方框會被取消審核。我們總會在某一刻漏掉一些東西。*  
+The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is completely mapped, choose ¨Yes¨ on the question ¨Is this task completely mapped?¨. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
 
 開放街圖因為圖客而演化，大家持續不斷精進資訊。有時候有新的影像之後，造就更詳細的畫地圖可能，而有時候探察之後，收集到的資訊則加到地圖。   
 

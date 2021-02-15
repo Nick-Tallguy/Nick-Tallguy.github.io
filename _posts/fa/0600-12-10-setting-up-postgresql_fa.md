@@ -9,7 +9,6 @@ category: osm-data
 PostgreSQL و PostGIS
 ====================
 
-> تاریخ بازبینی ۱۳۹۵/۰۶/۲۰
 
 در این فصل، خواهیم دید چگونه PostgreSQL را روی ویندوز راه‌اندازی کنیم و چگونه یک پایگاه‌داده بسازیم که بتواند دادهٔ جغرافیایی را ذخیره کند. ما در این فصل از نرم‌افزار منبع‌باز GIS، یعنی QGIS، استفاده خواهیم کرد. بنابراین اگر قبلاً با آن آشنایی دارید، مفید خواهد بود. در فصل بعد خواهیم دید چگونه دادهٔ OpenStreetMap را به پایگاه‌دادهٔ PostgreSQL درون‌برد کنیم.  
 
@@ -24,14 +23,14 @@ PostgreSQL و PostGIS
 این صفحه توضیح می‌دهد که برنامهٔ نصاب یک‌کلیکه چه کار خواهد کرد. سه جزء مختلف نصب خواهد شد:  
 
 * **PostgreSQL server**: نرم‌افزار پایگاه‌داده؛ هستهٔ اصلی  
-* **pgAdmin III**: واسط گرافیکی برای مدیریت پایگاه‌داده‌های شما  
+* **pgAdmin 4**: The graphical interface for managing your databases  
 * **StackBuilder**: ابزاری برای افزودن برنامه‌های اضافه‌تر؛ برای اضافه‌کردن extensionهای PostGIS از این استفاده می‌کنیم  
 
 روی **Download** کلیک کنید.  
 
 ![postgresql download][]
 
-چندین نصّاب مختلف برای نسخه‌های مختلف نرم‌افزار PostgreSQL مشاهده خواهید کرد. جدیدترین نسخه را دانلود کنید. در زمان نوشتن این مطلب نسخهٔ 9.3.1 جدیدترین است. روی دکمهٔ **Win x86-32** کلیک کنید. این نصب‌کننده برای نسخهٔ ۳۲ بیتی ویندوز است.  
+You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
 
 ![postgresql version][]
 
@@ -72,14 +71,14 @@ PostgreSQL و PostGIS
 ساخت پایگاه‌داده
 --------------------
 
-اکنون که تمام نرم‌افزارهای لازم را نصب کرده‌ایم، یک پایگاه‌داده ایجاد خواهیم کرد. از pgAdmin III استفاده خواهیم کرد که یک کارخواه گرافیکی پایگاه‌داده (graphical database client) است و برای پرس‌وجو و تغییر
+Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
 پایگاه‌داده‌ها مفید است.  
 
 ![pgadmin3][]
 
-PgAdmin III کارخواه رسمی PostgreSQL است و با آن می‌توانید با استفاده از زبان SQL جداول دادهٔ خود را دستکاری کنید.  امکان ایجاد و دستکاری پایگاه‌داده از خط فرمان نیز وجود دارد، اما فعلاً، pgAdmin III راهی آسان برای شروع است.  
+PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
 
-pgAdmin III را باز کنید.  باید در منوی شروع در قسمت All Programs ->‏ PostgreSQL 9.3 ->‏ pgAdmin III قرار داشته باشد.  
+Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -101,7 +100,7 @@ pgAdmin III را باز کنید.  باید در منوی شروع در قسمت
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-برای ساخت پایگاه‌داده روی **OK** کلیک کنید. خواهید دید که پایگاه‌داده‌تان در زیر **Databases** لیست می‌شود. اکنون باید یک دستور اجرا کنیم تا پایگاه‌داده با extensionهای PostGIS فعال شود. روی دکمهٔ ![sql button][]{: height="24px"} در بالای PgAdmin III کلیک کنید.  
+Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
 
 
 
@@ -118,7 +117,7 @@ pgAdmin III را باز کنید.  باید در منوی شروع در قسمت
 
 اگر تا کنون با QGIS احساس راحتی کرده‌اید و با آن آشنا هستید، همراه ما باشید تا مقداری داده در پایگاه‌دادهٔ جدیدمان بار کنیم. برای انجام این کار، از ابزاری استفاده می‌کنیم که شیپ‌فایل‌ها را تبدیل و آن‌ها را در پایگاه‌داده بار می‌کند.  
 
-اطمینان حاصل کنید که پایگاه‌دادهٔ جدیدتان در کادر سمت چپ انتخاب شده باشد و به **Plugins ->‏ PostGIS Shapefile and DBF loader 2.1** بروید.
+Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 
