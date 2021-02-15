@@ -64,7 +64,7 @@ To download the windows version of osm2pgsql, navigate your web browser to <http
 
 ![osm2pgsql test][]
 
-- If you don't see an error message like this, and it says that it cannot find the application **osm2pgsql**, then you may have entered the Path variable incorrectly.  
+- If you don't see a message like this, and it says that it cannot find the application **osm2pgsql**, then you may have entered the Path variable incorrectly.  
 
 Getting Raw OSM Data
 ---------------------
