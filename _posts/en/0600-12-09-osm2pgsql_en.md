@@ -17,11 +17,11 @@ We will go through the steps to set up osm2pgsql on Windows, though the steps sh
 Get osm2pgsql
 -------------
 
-To download the windows version of osm2pgsql, navigate your web browser to <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+To download the windows version of osm2pgsql, navigate your web browser to <https://osm2pgsql.org/download/windows/>.  
 
 ![windows binary][]
 
-- Download the file named **osm2pgsql.zip**  
+- Download the file named **osm2pgsql-1.x.x-x64.zip**  
 - Unzip the file on your system. You should move the unzipped folder to a location where you will not move it later, because we need to add its location to the system path.  
 
 ![unzip it][]
@@ -76,7 +76,7 @@ Get the Style File
 
 Importing the Data
 -------------------
-Open PgAdmin III and create a new database named **osm**, just as you did in the previous chapter. To import the data, we will run the **osm2pgsql** program via the command line. 
+Open PgAdmin 4 and create a new database named **osm**, just as you did in the previous chapter. To import the data, we will run the **osm2pgsql** program via the command line. 
 
 - Click on the Start Menu and type "cmd" and Enter to open the Command Prompt.  
 
