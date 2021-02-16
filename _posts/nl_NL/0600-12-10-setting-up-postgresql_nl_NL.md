@@ -23,14 +23,14 @@ Hier vindt u de instructies voor installeren voor de verschillende besturingssys
 Deze pagina legt uit wat de One-Click Installer zal doen.  Het zal drie verschillende componenten installeren:  
 
 * **PostgreSQL server**:  De software voor de database, de broncomponent  
-* **pgAdmin 4**: The graphical interface for managing your databases  
+* **pgAdmin 4**: De grafische interface voor het beheren van uw databases  
 * **StackBuilder**: Een gereedschap voor het toevoegen van aanvullende toepassingen; we zullen die gebruiken voor het toevoegen van de extensie PostGIS  
 
 Klik op **Download**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
+U zult verscheidene opties voor installeren voor de verschillende versies van de software van PostgreSQL zien. Download de meest recente versie voor uw versie van Windows.
 
 ![postgresql version][]
 
@@ -71,14 +71,14 @@ Klik op “**Close**” en dan op “**Finish**” als het installeren is voltoo
 Een database maken
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
+Nu we alle benodigde software hebben geïnstalleerd, zullen we een database gaan maken. We zullen pgAdmin 4 gebruiken, wat een grafische databasecliënt is die nuttig is voor het bevragen en aanpassen
 van databases.  
 
 ![pgadmin3][]
 
-PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
+PgAdmin 4 is de officiële cliënt voor PostgreSQL en laat u de taal SQL gebruiken om uw gegevenstabellen te bewerken. Het is ook mogelijk om databases te maken en te bewerken vanaf de opdrachtregel, maar voor nu is pgAdmin 4 een gemakkelijke manier om te beginnen.  
 
-Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
+Open pgAdmin 4. Het zou moeten staan in het menu Start onder Alle programma's -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -100,7 +100,7 @@ U dient enige informatie op te geven om de nieuwe database te kunnen maken: naam
 
 <!-- Op de tab Definition, behoud de standaarden, maar selecteer naast Template template_postgis. Dat zal uw database maken met de juiste ruimtelijke kolommen. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
+Klik op **OK** om de database te maken. U zult nu zien dat uw database wordt vermeld onder “**Databases**.” We dienen nu een opdracht uit te voeren om de database in te schakelen met de extensie PostGIS. Klik op ![sql button][]{: height="24px"} bovenin PgAdmin 4.  
 
 
 
@@ -117,7 +117,7 @@ Voorbeeldgegevens laden (optioneel)
 
 Als tot dusverre alles goed gaat en u bent bekend met QGIS, laten we dan doorgaan en enige gegevens in onze nieuwe database laden. We zullen, om dat te doen, een gereedschap gebruiken dat shapefiles converteert en die in de database laadt.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
+Zorg er voor dat uw nieuwe database is geselecteerd in het paneel links en ga naar **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 
