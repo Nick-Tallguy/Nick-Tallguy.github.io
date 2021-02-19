@@ -159,69 +159,69 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 在使用此链接之前启动 JOSM，它会自动将现有的 OSM 数据加载到 JOSM 中。  
 
->  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
->  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
->  3. If JOSM does not load the imagary automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+> 1.需要勾选 “开启远程控制”-在 ** 编辑/偏好设置/远程控制 ** 下
+> 2.如果您之前安装过插件 “ContinosDownload”，最好将其禁用（在 JOSM 中的 ** 文件 ** 菜单下取消选中 “持续下载 OSM 数据”）。  
+> 3。如果 JOSM 也没有自动加载图像，通常可以在 ** Imagery** 菜单下找到图像。[关于图像的更多信息在这里](/en/josm/more-about-josm/#add-imagery)  
 
 
-#### iD editor  
+#### iD编辑器  
 
-Select this to automatically start a new tab or window of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD and it will load Potlatch 2 instead. Your original tab or window with the Task Manager will still be present.  
+选择此选项可自动启动 Web 浏览器的新选项栏或窗口，并加载现有 OSM 数据。Internet Explorer Web 浏览器目前不支持 ID而作为替换它将加载 Potlatch 2。带有任务管理器的原始选项卡或窗口仍然存在。  
 
 
 #### Potlatch 2  
 
-Editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+编辑器将在新窗口或标签栏中加载。Potlatch 不会自动显示任务边界框，但是您可以按照以下步骤进行操作：  
 
-1. In the Tasking Manager, select a square and click Start Mapping to lock it  
-2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
-3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.  
-4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.  
-5. In Potlatch, select Background, then Vector File...  
-6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
-7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
-8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary.  
+1.在Tasking Manager中，选择一个方形，然后单击开始测绘将其锁定  
+2.在 “Tasking Manager” 中，选择 “使用 JOSM 编辑”（如果窗口显示 “JOSM 远程控制没有响应...”，只需单击 “OK”）。  
+3.在使用 JOSM 编辑按钮下方，文本会显示 “提示：下载以下 .gpx 文件...”。下载 .gpx 文件，然后记下它的保存位置。  
+4.在Tasking Manager中，从使用 JOSM 编辑更改为使用 Potlatch 2 编辑。Potlatch 应该在新标签页中打开。  
+5.在 Potlatch 中，选择背景，然后选择矢量文件...  
+6.在加载矢量文件窗口中，在文件旁边的底部，单击打开，然后导航到刚下载的 .gpx 文件  
+7.在加载矢量文件窗口中，确保 .gpx 文件的 “显示” 列中选中该选框，然后关闭窗口  
+8.Potlatch 现在应该将边界显示为方形（可能是青色）。请注意，Potlatch 仍会在边界之外加载数据。  
 
 
 #### Walking Papers / Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned & used as a background image for a remote or local mapper to read the information & update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+在你参与的项目由当地当制图员已经进行了地面勘察并使用道路名称等信息标记了打印的地图后，您才能使用。该地图可以被重新扫描并用作背景图像，供远程或本地测绘人员阅读信息并更新 OpenStreeetMap 数据  [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
 
-### Splitting a square  
+### 拆分一个方形  
 
-Having selected your square and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
+选择方形并在图像就位的情况下对其进行了检查后，您可能会意识到测绘所需的细节太多。这方面的一个例子可能是追踪密集的城市地区的建筑物，或者在大面积地区找到小村庄。如指引所说，如果一个人无法在 2 小时内完成，您通常可以将任务分成 4 个较小的区域。* 使用时请注意 *-如果方形分割的太小，会很难判断所涉及的高速公路类型以及识别其它的特征。  
 
-> Be aware that other useful comments about the work previously completed will no longer be available.
+> 请注意，关于先前已完成工作的其它有用评论将不再可用。
 
 
-### Unlocking a square before it is complete
+### 解锁未完成的方形
 
-If you start working on a square, but cannot complete it for some reason, it is best practice to leave a comment against the square. Simply detail what remains and choose **unlock**. Make sure your comments are relevant and aimed to help out the next mapper.  
+如果你开始在一个方形上工作，但由于某种原因无法完成它，最佳做法是对方形发表评论。只需详细说明剩下的内容，然后选择 ** 解锁 **。确保你的评论是相关的，旨在帮助下一个测绘人员。  
 
-For example:  
+例如：  
 
     Almost complete, small village top left 
     in the square to be traced though
 
 
-### Finishing a square
+### 完成一个方形
 
-It is very difficult to be completely certain that you have completed a square - however it is acceptable to mark the square as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
+很难完全确定你已经完成了一个方形-但是如果你相当确定的话，可以将方形标记为完成-内容将由另一个测绘人员进行审核，同时也可以补充细节。  
 
-For the process to work most effectively, mappers need to mark squares as complete rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+为使工作流程最有效，测绘人员需要将方形标记为完成，而不是将它们留给其他几个 “不确定” 的测绘人员来花时间同时检查它们。  
 
-When you have finished editing and think that the square is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
+当你完成编辑并认为方形已完成后，使用编辑程序保存所有剩余的编辑内容，然后返回Tasking Manager。  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".  
-+ Click on the "Mark Task as Done" button, and your work is ready for review.  
++ 在框中添加评论并详细说明您所取得的成就，更重要的是，同时也记录下您不确定的是什么。例如：“根据我所见，已完成，但广场右上角有云，我看不到这个区域路径”。  
++ 点击 “将任务标记为完成” 按钮后，您的工作就已准备好被审核了。  
 
 
-### Sending a message from the comment box
+### 从评论框中发送消息
 
-When leaving a comment against a square, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the square that the comments box relates to.  
+对方形发表评论时，您可以将评论作为消息发送给指定的测绘人员。就像 Twitter 一样，只需使用 @ 后跟用户名即可。这将向用户发送一条消息，其中包含此框中的评论，以及指向评论框所涉方形的链接。  
 
-For example:  
+例如：  
 
     @Tallguy nice work tracing the building  
     details here. You missed a small group  
