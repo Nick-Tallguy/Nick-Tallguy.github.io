@@ -228,56 +228,56 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
     of houses on the upper left of the tile,  
     I added a few in, but some still remain.  
 
-This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
+这在验证或添加他人之前的工作时特别有用-您可以提供反馈，谢谢或更多。  
 
-+ You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as google translate are reasonable effective.
-
-
-### Referring to a particular square when sending an email  
-
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular square within a project (perhaps you need help identifying something from the satellite imagery):  
-
-1. Click on the square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713#task/259'  
-3. Highlight with the mouse all of the text in the address bar, or use the shortcut keys **Ctrl+A** to select all the text, then use shortcut keys **Ctrl+C** to copy the text  
-4. In your email, IRC message, or other message,  
-    - either, mouse right click & paste,  
-    - or shortcut keys **Ctrl+V**, to paste the link into the message. 
++ 你可能希望提供一个可能对测绘人员有帮助的网站的链接，例如 <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ 请注意，来自世界各地的许多人都会参加，所以更喜欢简单、清晰的语言。如果您遇到其他语言的评论，可以用谷歌翻译等有效的工具。
 
 
-### Getting live help 
+### 当发送电子邮件时指的是特定的方形  
+
+如果您需要发送消息，例如电子邮件或 IRC 消息，并且您正在查询有关项目中某个特定方形的内容（可能需要从卫星影像中帮助识别某些内容）：  
+
+1.点击相关的方形  
+2.点击 Web 浏览器中的地址栏，该地址栏应显示类似于 'http://tasks.hotosm.org/project/713#task/259'  
+3.用鼠标高亮选中地址栏中的所有文本，或使用快捷键 **Ctrl+A** 选择所有文本，然后使用快捷键 **Ctrl+C** 复制文本  
+4.在您的电子邮件、IRC 消息或其他消息中，  
+    -或者，鼠标右键单击并粘贴，  
+    -或快捷键 **Ctrl+V**，将链接粘贴到消息中。 
+
+
+### 获得实时帮助 
 
 ![IRC_help][] 
 
-From the tasking manager;  
-1. Click on **OSM HOT IRC Channel #hot**  
-2. Enter a username (your OSM username?), or use the preset characters  
-3. At the bottom of the dropdown list select **hot**  
+来自Tasking Manager；  
+点击**OSM HOT IRC Channel #hot**  
+2.输入用户名（你的 OSM 用户名？），或者使用预设字符  
+3.在下拉列表的底部选择 ** Hot**  
 
 ![IRC using][]  
 
-- To the right of the screen is a list of users that are online now.  
-- Type your message in the box at the bottom left of the screen (this is sometimes temporarily obscured by other text, but this will disappear as you select the box.  
-- To direct a message to a particular individual, include their username from the list on the right within your message. Type, then use the return key to submit your comment. The system is 'live' so wait for an answer - your username will often be used in the reply to show you the comment is directed to you. You will normally receive a reply within a few seconds, so please wait.  
-- An alternative simple system can be found at [kiwiIRC.com](https://kiwiirc.com/client/irc.oftc.net/hot)  
-- Further info on using IRC with OpenStreetMap may be found at [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc)  
-- Alternatively use an IRC client of your choice (Server=irc.oftc.net, and channel=#hot)  
+-屏幕右侧是现在在线的用户列表。  
+-在屏幕左下角的框中键入您的消息（这有时会暂时被其他文本遮盖，但是当您选择该框时，这将消失。  
+-要将消息发送给特定个人，请在邮件右侧列表中包含他们的用户名。键入评论内容然后使用返回键提交评论。系统是 “实时”当所以等待答案-您的用户名通常会在回复中使用，以向您显示评论是针对您的。您通常会在几秒钟内收到回复，所以请稍候。  
+-另一个简单的替代系统可以在 [kiwiirc.com](https://kiwiirc.com/client/irc.oftc.net/hot) 找到   
+-关于将 IRC 与 OpenStreetMap 结合使用的更多信息可以在 [OSM Wiki IRC](http://wiki.openstreetmap.org/wiki/Irc) 找到  
+-或者使用您选择的 IRC 客户端 (Server=irc.oftc.net, and channel=#hot)  
 
 
-### Editing hints and tips  
+### 编辑提示  
 
-By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
+到目前为止，您已经很好地了解Tasking Manager是什么，以及它支持的一些各种功能。与普通编辑不同，此工具通常用于有许多参与者的时间紧迫的项目-这可能与您习惯有些不同。  
 
-**Some general advice to heed when working in this tool:**  
+** 使用此工具时需要注意的一些建议：**  
 
-* Avoid mapping far outside of your square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediatly after mapping something at the border.  
-* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
-* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
-* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
-* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
-* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
-* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
+* 避免在方形以外的地方进行测绘-其他测绘人员可能正在该区域工作，从而导致重复工作。可以测绘诸如重叠边界的建筑物之类的对象，但是避免进一步-在边界测绘某些东西后立即上传。  
+* 将道路、溪流或其他特征稍微延伸到边界上-这样，下一个测绘人员就可以在您离开的位置选择，但在完成编辑后立即上传。  
+* 如果您对特定功能是什么有疑问，请使用评论部分提出问题或查看 wiki。  
+* 如果您犯了严重错误（例如，删除主要特征或关系），请使用 IRC 或评论框要求其他测绘人员帮助您恢复此错误。尝试包含变更集或对发生情况的描述。作为一项协作任务，许多其他测绘人员都在这里提供帮助-重要的是要记住每个人有时会犯错误。  
+* 不要犹豫地询问反馈-验证你的工作的测绘人员可能很仅简短留言，但是如果他们知道与你可以进行对话，那么对所有参与者来说会好得多。用另一种语言进行交流可能很困难，当你必须翻译以及用不流利的语言传递信息时，很容易表达方式毕竟突兀。  
+* 你不能审核自己的工作-他人审核总是会保证更好的测绘质量。  
+* 在其他测绘人员审核您的工作时，不要担心他们留言语气和风格，像您一样，他们只想确保所有数据都能准确。他们的反馈是关于剩余工作而不是对你迄今所做努力的批评。  
 
 
 [Tasking Manager Login]: /images/coordination/tasking_manager_image01.png
