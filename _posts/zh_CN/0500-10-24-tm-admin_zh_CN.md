@@ -9,7 +9,7 @@ category: coordination
 # Tasking Manager Administrator Guide
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/en/coordination/tm-disambiguation)**
 
 Section Index
 -------------
@@ -270,13 +270,13 @@ Please use plain language as your target audience may not consist of native Engl
 
 ### Considerations concerning Imagery
 
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+在大多数情况下，我们使用 “标准” Bing图像。但是有些情况下你可能想要选择替代来源：
 
 1. Bing does not provide high-resolution coverage for your mapping area.
 2. Bing has considerable cloud cover in this area.
 3. You need newer imagery for post-disaster evaluation.
 
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+如果Bing不足，那么 Mapbox 是下一个选择。只有当这两个来源都不符合您的要求时，您才应该寻找其他来源。
 
 In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 
