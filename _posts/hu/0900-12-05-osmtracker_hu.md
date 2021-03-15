@@ -46,7 +46,6 @@ Start OSMTracker, and press the menu icon on your Android device, then select **
 -  **Ignore GPS clock** If ticked will use the devices internal clock instead of the time provided within the GPS signal.  
 -  **GPS logging interval** Choose the period between the recording of the position - for best accuracy select 0 or 1, each of which results in a recording each second.  
 
-> The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
 
 -  **External storage (SD) directory** Default is /osmtracker  
 

@@ -24,7 +24,6 @@ The iOS version is available from iTunes.
        src="http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.png" />
 </a>
 
->Some of OsmAnd's Android platform features may not yet be available on the iOS edition. See the developers' [blog site](http://osmand.net/blog) for details.  
 
 In addition to the above sources, a community-maintained version is available from [F-Droid](https://f-droid.org/app/net.osmand.plus), or through third-party software sources like [Amazon](http://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8).  
 

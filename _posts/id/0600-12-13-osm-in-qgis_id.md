@@ -9,7 +9,6 @@ category: osm-data
 Menggunakan Data OSM di QGIS
 =================
 
-> Direview 2015-07-19
 
 QGIS (sebelumnya Quantum GIS) adalah sebuah platform SIG yang bersifat open-source. Dengan QGIS Anda dapat mengakses data OSM terbaru kapanpun, memilih tag yang Anda perlukan dan dengan mudah mengekspornya ke dalam database SQLite atau Shapefile.  
 

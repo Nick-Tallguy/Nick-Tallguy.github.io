@@ -9,7 +9,6 @@ category: josm
 JOSM - Luftbilder hinzufügen
 ================
 
-> Gereviewt am 2016-09-09  
 
 Nicht alle Luftbilder sind im JOSM Bilder Menü, aber man kann welche leicht hinzufügen, falls man die Link Informationen hat.  
 

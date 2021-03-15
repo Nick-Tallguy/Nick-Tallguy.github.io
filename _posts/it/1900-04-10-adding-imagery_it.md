@@ -9,7 +9,6 @@ category: josm
 JOSM - Aggiungere immagini aeree
 ================
 
-> Revisionato il 2017-09-05  
 
 Non tutte le immagini aeree sono incluse nel menu immagini aeree di JOSM, ma è semplice aggiungerle se ti è stato dato il link.  
 

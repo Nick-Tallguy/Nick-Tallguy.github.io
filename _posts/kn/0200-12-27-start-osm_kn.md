@@ -9,7 +9,6 @@ category: beginner
 OpenStreetMap.org ನಲ್ಲಿ ಸಂಪಾದಿಸಲು ಪ್ರಾರಂಭಿಸು
 ====================================
 
-> Reviewed 2015-07-12  
 
 In this section we will learn step by step how to navigate the OpenStreetMap website, view maps, and sign up for a user account. After you have your own username and password, you will be able to contribute your first points to the map.
 

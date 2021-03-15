@@ -40,7 +40,6 @@ Po stažení spusťte instalátor.
 
 Pomocí “**Next**” se proklikejte instaličním průvodcem. Přednastavené možnosti jsou vyhovující. Bude potřeba poskytnout heslo pro prvního uživatele databáze (uživatelské jméno je postgres). Tento uživatel má superuser práva, což znamená, že může dělat všechno, tak nezapomeňte heslo, které zadáte.  
 
-> Pomocí Postgresql můžete vytvořit tolik databází kolik chcete. Můžete mít databázi pro vaše geografická data a zvlášť databázi pro další projekty, na kterých pracujete. A možná budete chtít, aby každý člověk měl jiné práva k databázím. Pro tento případ používá každá vámi vytvořená databáze koncept **uživatelů** a **rolí**. Každá databáze musí být vlastněna nějakým uživatelem, který obvykle potřebuje heslo k editaci databáze. Dalším uživatelům může být uděleno právo k přístupu do databáze a přiřazena určitá role. Například potřebujete uživatele, který může pouze číst informace z databáze, ale nemůže je změnit. Nebo jiný uživatel může data přidávat, ale nemůže je mazat. Pomocí uživatelů a jejich rolí je tohle možné udělat. Prozatím si s tím nebudeme zatěžovat hlavu, ale pamatujte si, že vaše databáze je vlastněna **uživatelem** a pro přístup do databáze budete potřebovat uživatelské jméno a heslo. První uživatel, kterého vytvoříme (pojmenovaný postgres) je tzv. **superuser** a má veškerá práva k databázi.  
 
 Jakmile se proklikáte průvodcem instalace a přijmete přednastavenou konfiguraci, průvodce za vás vše nainstaluje. Může to trvat pár minut.  
 

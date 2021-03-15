@@ -9,7 +9,6 @@ category: beginner
 Mở đầu
 ============
 
-> Cập nhật: 2017-10-31  
 
 Thông tin là sức mạnh. Với các thông tin tốt và được hiểu một cách đúng đắn, các cá nhân và cộng đồng có thể nâng cao đời sống của họ và có những quyết định đúng đắn cho tương lai. Có rất nhiều cá nhân và tổ chức có những quyết định ảnh hưởng đến đời sống của chúng ta. Thông tin chính xác cho phép các tổ chức phi chính phủ, chính phủ và người dân đưa ra các quyết định đúng đắn, và vì thế có thể làm cuộc sống của chúng ta tốt đẹp hơn. Các loại bản đồ là cách tốt để truyền đạt thông tin. 
 

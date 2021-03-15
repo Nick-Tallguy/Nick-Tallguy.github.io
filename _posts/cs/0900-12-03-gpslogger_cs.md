@@ -18,7 +18,6 @@ Jednoduchá, nenáročná a minimalistická aplikace pro záznam GPS tras pro pl
 
 GPSLogger pro Android je zdarma a aktivně vyvíjený open source projekt. Sponzorské dary jsou vítány, podporují další vylepšování aplikace. Pokud se chcete zapojit (např. překladem do jiných jazyků, oznámit chybu, nebo navrhnout vylepšení), přejděte na [repozitář](https://github.com/mendhak/gpslogger).  
 
-> Informace o OpenGTS najdete na stránce [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
 
 
 Funkce

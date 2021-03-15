@@ -125,7 +125,6 @@ Kontrolu úspěšnosti importu a zobrazení dat v databázi lze provést pomocí
 
 ![osm in qgis][]
 
-> Když se podíváte na tabulku atributů vrstvy, zjistíte, že atributy jsou namapovány na OSM tagy. Specifické importované tagy jsou definovány během procesu importu ** osm2pgsql **. Pokud potřebujeme přidat specifické tagy, které nejsou v základním seznamu, můžeme upravit soubor *stylů*, podle kterého osm2pgsql definuje datové schéma.  
 
 
 Shrnutí

@@ -46,7 +46,6 @@ Start OSMTracker en druk dan op het pictogram in het menu van uw Android-apparaa
 -  **Ignore GPS clock** Indien geselecteerd zal het apparaat de interne klok van het apparaat gebruiken in plaats van de tijd die wordt verschaft door het GPS-signaal.  
 -  **GPS logging interval** Kies de periode tussen het opnemen van de positie -  selecteer 0 of 1, voor de beste nauwkeurigheid, die elk resulteren in een opname per seconde.  
 
-> De frequentie heeft invloed op het gebruik van de batterij, echter bij het gebruiken van deze app, is het waarschijnlijk dat uw scherm meestentijds aan staat, de GPS werkt, en u zou ook foto's en geluidsopnamen kunnen maken - dit alles zal resulteren in een zwaar gebruik van de batterij en het wordt voor uitgebreid gebruik aanbevolen om het apparaat te gebruiken met externe stroomtoevoer.  
 
 -  **External storage (SD) directory** Standaard is /osmtracker  
 

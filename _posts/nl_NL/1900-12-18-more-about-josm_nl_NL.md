@@ -38,7 +38,6 @@ De eerste stap voor bewerken is het downloaden van de gegevens voor het gebied i
 
 -   Gebruik uw muis om te verplaatsen en te zoomen naar een gebied dat u zeer goed kent, zoals uw eigen woonplaats of buurt. De besturing is hetzelfde als in het kaartvenster van JOSM. De rechter muisknop laat u de kaart slepen en met uw scrollwiel kunt u in en uit zoomen.
 
-> Soms, als u werkt op een notebookcomputer, kan het moeilijk zijn om in en uit te zoomen. Werken metJOSM is veel gemakkelijker met een muis, maar met de meeste moderne notebooks kunt u scrollen met het touchpad.
 
 -   Teken een vak rondom het gebied dat u wilt downloaden. Klik, om een nieuw vak te tekenen, op de kaart, houd uw linker muisknop ingedrukt, en sleep met uw muis om een vak te maken. Laat de muisknop los om het tekenen van het vak te voltooien.
 -   Wanneer u tevreden bent met de grootte en locatie van het vak, klik op “Downloaden” aan de onderzijde van het venster. JOSM zal de gegevens voor dit gebied ophalen vanaf OpenStreetMap en die openen in uw kaartvenster om ze te bewerken.

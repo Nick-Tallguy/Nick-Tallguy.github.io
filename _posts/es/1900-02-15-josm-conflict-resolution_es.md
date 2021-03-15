@@ -9,7 +9,6 @@ category: josm
 Resolución de Conflicto JOSM
 ====================
 
-> Revisado 2016-09-27  
 
 Algunas veces está trabajando en JOSM y cuando sube todas sus hermosas ediciones, obtiene un desagradable mensaje que se queja de algún conflicto.  
 ![conflicto detectado][]  

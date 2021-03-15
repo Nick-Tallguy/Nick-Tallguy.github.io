@@ -10,7 +10,6 @@ OSM Datenübersicht
 ==================
 
 
-> Gereviewt am 2016-09-05
 
 <!-- In diesem Abschnitt werden wir betrachten wie OpenStreetMap arbeitet, was und dabei hilft zu verstehen wie die Daten aufgebaut sind und wie wir es am besten nutzen.-->
 

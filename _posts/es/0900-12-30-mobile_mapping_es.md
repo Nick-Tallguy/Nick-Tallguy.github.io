@@ -11,7 +11,6 @@ nosearch: true
 Mapeando con un SmartPhone, GPS o papel
 =============================
 
-> Revisado 2015-07-14  
 
 Para crear un mapa detallado y preciso, necesitas llevar a cabo un reconocimiento del área que estás mapeando. Las guías en esta sección tratan sobre el mapeo haciendo uso de:  
 

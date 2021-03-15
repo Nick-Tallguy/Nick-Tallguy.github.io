@@ -46,7 +46,6 @@ Bắt đầu OSMTracker và nhấn vào biểu tượng trình đơn trên thi�
 -  ** Bỏ qua đồng hồ GPS ** Nếu đánh dấu sẽ sử dụng đồng hồ bên trong thiết bị thay vì thời gian được cung cấp trong tín hiệu GPS.  
 -  ** Khoảng thời gian đăng nhập GPS ** Chọn khoảng thời gian giữa ghi âm vị trí - để có độ chính xác tốt nhất, hãy chọn 0 hoặc 1, mỗi kết quả ghi lại mỗi giây.  
 
-> Tần suất ảnh hưởng đến việc sử dụng pin, tuy nhiên khi sử dụng ứng dụng này. màn hình của bạn có thể là hầu hết thời gian, gps hoạt động, và bạn cũng có thể chụp ảnh và ghi âm - tất cả những điều này sẽ dẫn đến rò rỉ pin lớn và khuyên sử dụng mở rộng để sử dụng thiết bị với tăng sức mạnh.  
 
 -  ** Thư mục lưu trữ ngoài (SD) ** Mặc định là / osmtracker  
 

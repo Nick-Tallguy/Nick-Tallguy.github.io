@@ -9,7 +9,6 @@ category: josm
 Předvolby JOSM
 ============
 
-> Zkontrolováno 17.9.2016  
 
 Pokud používáte JOSM dlouho, tak už trochu rozumíte tagům a předvolbám. Každý objekt je definován dvěma věcmi - geometrií (ať už je to bod, čára nebo tvar a jeho poloha) a jeho atributy, které se nastavují formou tagů.  
 

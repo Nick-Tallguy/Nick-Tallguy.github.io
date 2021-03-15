@@ -9,7 +9,6 @@ category: josm
 JOSM - Přidání leteckých snímků
 ================
 
-> Zkontrolováno 9.9.2016  
 
 Všechny letecké snímky nejsou součástí menu **Podkladové mapy**, ale dají se jednoduše přidat, pokud na ně máte odkaz.  
 

@@ -9,7 +9,6 @@ category: josm
 Giải quyết xung đột JOSM
 ====================
 
-> Reviewed 2016-09-27  
 
 Đôi khi, khi bạn đang làm việc trong JOSM và khi bạn tải lên tất cả các chỉnh sửa đẹp của mình, bạn sẽ nhận được một thông báo khó chịu phàn nàn về vấn đề xung đột.  
 ![conflict detected][]  

@@ -9,7 +9,6 @@ category: josm
 JOSM Conflict Resolution
 ====================
 
-> Przejrzano 2016-09-27  
 
 Sometimes you are working in JOSM and when you upload all of your beautiful edits you get a nasty message complaining about a conflict.  
 ![conflict detected][]  

@@ -9,7 +9,6 @@ category: josm
 JOSM Řešení konfliktů
 ====================
 
-> Zkontrolováno 27.9.2016  
 
 Někdy pracujete v JOSM a při nahrávání všech těch skvělých změn dostanete nepříjemnou zprávu stěžující si na konflikt.  
 ![conflict detected][]  

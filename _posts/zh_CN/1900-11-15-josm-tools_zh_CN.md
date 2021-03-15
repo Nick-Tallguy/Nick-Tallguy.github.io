@@ -9,7 +9,6 @@ category: josm
 JOSM 编辑工具
 ==================
 
-> Reviewed 2017-06-09  
 
 - TOC
 {:toc}

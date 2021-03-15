@@ -46,7 +46,6 @@ Inicie OSMTracker, y presione el icono del menú en su dispositivo Android, lueg
 - **Ignorar el reloj GPS** Si está marcado se usará el reloj interno de los dispositivos en lugar del tiempo provisto por la señal GPS.  
 - **Intervalo de registro GPS** Escoger el periodo entre el registro de la posición - para la mejor precisión elegir 0 o 1, cada uno de los cuales resulta en un registro cada segundo.  
 
-> La frecuencia afecta el uso de la batería, sin embargo, cuando utiliza esta aplicación, es probable que su pantalla esté encendida la mayor parte del tiempo, el GPS esté en funcionamiento, y que pueda estar tomando fotografías y también grabando - todo esto resultará en un agotamiento severo de la batería y es recomendable para uso extendido que se utilice el dispositivo con mayor energía.  
 
 - **Directorio de almacenamiento externo (SD)** Predeterminado es /osmtracker  
 

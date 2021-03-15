@@ -136,7 +136,6 @@ Selecteer "Clear Cache" als u de cache met gegevens van OSM wilt leegmaken. Het 
 
 Leegmaken van de cache met gegevens van OSM is in het bijzonder nuttig als de status van de toepassing out of sync begint te raken met de server van OSM. Dat kan voorkomen als iemand anders gegevens wijzigt die u bewerkt, of als een van uw uploads tussentijds mislukt bij het uploaden van aanvullende gegevens.
 
-> Opruimen van de cache van OSM zal er voor zorgen dat u wijzigingen verliest die nog niet zijn geüpload.
 
 Ruim de caches van tegels van Mapnik of Overlay op om de laatste tegels te downloaden die de wijzigingen weergeven die u zojuist hebt ingediend. Het kan tot 24 uur duren totdat uw wijzigingen zijn verwerkt.
 

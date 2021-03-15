@@ -9,7 +9,6 @@ category: josm
 JOSM doplňky Building Tools & Utilsplugin2
 ============
 
-> Zkontrolováno 12.9.2016  
 
 Doplňky **buildings_tools** a **utilsplugin2** přidávají skvělé funkce do JOSM. V této kapitole si je probereme.  
 

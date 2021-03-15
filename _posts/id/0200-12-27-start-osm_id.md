@@ -9,7 +9,6 @@ category: beginner
 Memulai menggunakan OpenStreetMap.org
 ====================================
 
-> Reviewed 2015-07-12  
 
 Di bagian ini kita akan belajar langkah demi langkah cara menavigasi situs web OpenStreetMap, melihat peta, dan mendaftar untuk akun pengguna. Setelah Anda memiliki nama pengguna dan kata sandi Anda sendiri, Anda akan dapat berkontribusi untuk titik pertama Anda ke peta.
 

@@ -9,7 +9,6 @@ category: josm
 Gereedschappen om mee te bewerken in JOSM
 ==================
 
-> Bijgewerkt op 09-06-2017  
 
 - TOC
 {:toc}

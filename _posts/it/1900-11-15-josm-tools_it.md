@@ -9,7 +9,6 @@ category: josm
 Gli strumenti di JOSM
 ==================
 
-> Revisionato il 2017-06-09  
 
 - TOC
 {:toc}

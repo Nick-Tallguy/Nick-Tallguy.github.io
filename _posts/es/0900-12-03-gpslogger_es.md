@@ -18,7 +18,6 @@ Una aplicación sencilla y ligera para grabar trazas GPS en la plataforma Androi
 
 GPSLogger para Android es una aplicación gratuita, así como un proyecto de código abierto mantenido activamente. Las donaciones son bienvenidas para mejorar la aplicación. Si deseas involucrarte (por ejemplo, proporcionando traducciones en otra lengua, reportando bugs, o enviando solicitudes de nuevas funciones), visita el repositorio (https://github.com/mendhak/gpslogger).  
 
-> OpenGTS se refiere al proyecto [Open GPS Tracking System](http://opengts.sourceforge.net/) project.  
 
 
 Funcionalidades

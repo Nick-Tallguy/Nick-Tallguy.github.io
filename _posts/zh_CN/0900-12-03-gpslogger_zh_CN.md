@@ -18,7 +18,6 @@ category: mobile-mapping
 
 适用于 Android 的 GpsLogger 是一款免费使用的应用程序，也是一个积极维护的开源项目。欢迎捐款以进一步增强应用程序。如果您希望参与（例如提供其他语言的翻译、错误报告或提交功能请求），请访问 [repository](https://github.com/mendhak/gpslogger)。  
 
-> OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
 
 
 功能

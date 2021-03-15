@@ -9,7 +9,6 @@ category: josm
 Penyelesaian Konflik di JOSM
 ====================
 
-> Reviewed 2016-09-27  
 
 Kadang ketika Anda bekerja di JOSM dan mengupload hasil edit Anda, mungkin Anda akan mendapatkan pesan konflik yang menyebalkan.  
 ![conflict detected][]  

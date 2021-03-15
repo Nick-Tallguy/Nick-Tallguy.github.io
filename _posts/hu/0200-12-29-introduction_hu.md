@@ -9,7 +9,6 @@ category: beginner
 Bevezetés
 ============
 
-> Állapot: 2015-07-12  
 
 Az információ hatalom. Megfelelő információkkal és ezek helyes értelmezésével az emberek és a közösségek még inkább képessé válnak arra, hogy jobbá tegyék életüket, és a jövőjükre vonatkozóan előremutató döntéseket hozzanak. Sok ember és szervezet hoz az életünket valamilyen formában befolyásoló döntéseket. Jó minőségű adatokkal ezek a civil szervezetek, kormányzatok és polgárok jobb döntéseket hozhatnak, és így remélhetőleg jobb lesz az életünket. Az információközvetítésnek egy kiváló módját jelentik a térképek. 
 

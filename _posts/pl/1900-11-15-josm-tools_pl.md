@@ -9,7 +9,6 @@ category: josm
 Narzędzia edycji JOSM
 ==================
 
-> Przejrzano 2017-06-09  
 
 - TOC
 {:toc}

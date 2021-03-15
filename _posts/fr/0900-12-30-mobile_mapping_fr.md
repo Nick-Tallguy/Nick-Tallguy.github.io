@@ -62,5 +62,4 @@ O - supporté, D - en cours de développement, C - cartographie, N - navigation,
 
 Les sections suivantes vous guideront dans l'installation et l'utilisation d'applications spécifiques pour vous permettre de contribuer à OpenStreetMap à l'aide de votre smartphone.
 
-> **Note :** Avant de poursuivre, vérifiez que le GPS est disponible et actif pour l'appareil. Dans Android, allez dans **Réglages \> Localisation** et activez-le.  
 > Rappelez-vous, le GPS ne fonctionne pas à l'intérieur des bâtiments !

@@ -10,7 +10,6 @@ Przegląd danych OSM
 ==================
 
 
-> Przejrzano 2016-09-05
 
 <!--W tym rozdziale zastanowimy się, jak działa OpenStreetMap, co pomoże nam lepiej zrozumieć, jak usystematyzowane są dane i jak możemy najlepiej je wykorzystać.-->
 

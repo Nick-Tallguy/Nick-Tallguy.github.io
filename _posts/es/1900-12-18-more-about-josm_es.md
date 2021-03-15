@@ -38,7 +38,6 @@ The first editing step is to download the data for the area of the world that we
 
 -   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
 
-> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
 
 -   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
 -   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
