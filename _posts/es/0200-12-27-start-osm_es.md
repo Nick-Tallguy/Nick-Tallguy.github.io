@@ -9,6 +9,7 @@ category: beginner
 Primeros pasos en OpenStreetMap.org
 ====================================
 
+> Revisado 2015-07-12  
 
 En esta sección, aprenderemos paso a paso cómo navegar por el sitio web de OpenStreetMap, ver mapas y registrarse para obtener una cuenta de usuario. Después de tener su propio nombre de usuario y contraseña, podrá contribuir con sus primeros puntos al mapa.
 

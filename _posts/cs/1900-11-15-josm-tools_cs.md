@@ -9,6 +9,7 @@ category: josm
 Editační nástroje v JOSM
 ==================
 
+> Zkontrolováno 9.6.2017  
 
 - Obsah
 {:toc}

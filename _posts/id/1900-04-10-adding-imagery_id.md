@@ -9,6 +9,7 @@ category: josm
 JOSM - Menambahkan Foto Udara
 ================
 
+> Reviewed 2016-09-09  
 
 Tidak semua foto udara tersedia di menu imagery di JOSM, tapi sangat mudah untuk menambahkan foto udara jika Anda sudah diberikan tautan informasinya.  
 

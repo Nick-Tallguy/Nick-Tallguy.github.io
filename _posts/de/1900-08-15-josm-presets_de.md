@@ -9,6 +9,7 @@ category: josm
 JOSM Vorlagen
 ============
 
+> Gereviewt am 2016-09-17  
 
 Wenn man JOSM schon etwas länger verwendet, versteht man etwas von Tags und Vorlagen. Jedes Objekt wird durch zwei Dinge definiert - als erstes durch seine Geometrie (ob es ein Punkt, eine Linie oder ein Umriss ist und sein Standort) und zweitens durch seine Attribute in Form von Tags.  
 

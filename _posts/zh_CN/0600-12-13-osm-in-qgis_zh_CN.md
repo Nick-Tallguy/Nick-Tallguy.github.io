@@ -9,6 +9,7 @@ category: osm-data
 在QGIS中使用OSM数据
 =================
 
+> 已审查 2015-07-19
 
 QGIS（以前也被称为 Quantum GIS）是一个功能齐全的、开源的跨平台地理信息系统。使用 QGIS，您可以随时访问最新的 OSM 数据，选择要包含的标签，然后轻松将其导出到易于使用的 SQLite 数据库或 Shapefile 中。  
 

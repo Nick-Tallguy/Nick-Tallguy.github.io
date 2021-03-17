@@ -9,6 +9,7 @@ category: josm
 JOSM - Luchtfoto's toevoegen
 ================
 
+> Bijgewerkt 09-09-2016  
 
 Niet alle luchtfoto's/satellietbeelden staan in het menu Afbeeldingen van JOSM, maar het is eenvoudig toe te voegen als u de informatie voor de link weet.  
 

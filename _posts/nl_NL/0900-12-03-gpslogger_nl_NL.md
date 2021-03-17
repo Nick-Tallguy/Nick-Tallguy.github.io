@@ -18,6 +18,7 @@ Een eenvoudige, lichtgewicht en minimalistische app voor het opnemen van GPS-spo
 
 GPSLogger for Android is een app die gratis is te gebruiken, en een actief onderhouden project voor open bron. Donaties zijn welkom om de app verder te verbeteren. Indien u wilt deelnemen (bijv. vertalingen in andere talen wilt bijdragen, problemen rapporteren, of verzoeken voor verbetering wilt indienen), bezoek dan de [repository](https://github.com/mendhak/gpslogger).  
 
+> OpenGTS verwijst naar het project [Open GPS Tracking System](http://opengts.sourceforge.net/)  
 
 
 Mogelijkheden

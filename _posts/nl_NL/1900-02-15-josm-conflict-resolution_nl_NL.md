@@ -9,6 +9,7 @@ category: josm
 Conflicten oplossen in JOSM
 ====================
 
+> Bijgewerkt 27-09-2016  
 
 Soms werkt u in JOSM en wanneer u al uw prachtige bewerkingen uploadt, krijgt u een vervelend bericht dat klaagt over een conflict.  
 ![conflict detected][]  

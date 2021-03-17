@@ -9,6 +9,7 @@ category: josm
 Risoluzione dei conflitti in JOSM
 ====================
 
+> Revisionato il 2017-09-15  
 
 Talvolta lavorando con JOSM, quando carichi i tuoi bellissimi edit ottieni un brutto messaggio che si lamenta di un conflitto.  
 ![conflict detected][]  

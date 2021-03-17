@@ -46,6 +46,7 @@ OSMTracker配置
 -  **忽略GPS时钟** 如果选中，程序会使用设备提供时间来而不是GPS信号提供的时间。  
 -  **GPS记录间隔** 选择记录路径的时间间隔 - 推荐设置为0或1，这样会每秒记录一次位置。  
 
+> The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
 
 -  **外部存储(SD)目录** 默认是 /osmtracker  
 

@@ -9,6 +9,7 @@ category: josm
 JOSM Konflikt Behebung
 ====================
 
+> Gereviewt am 2016-09-27  
 
 Wenn man mit JOSM arbeitet bekommt man manchmal, wenn man seine Änderungen hochlädt, eine Nachricht über Konflikte.  
 ![conflict detected][]  

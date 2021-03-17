@@ -9,6 +9,7 @@ category: josm
 JOSM - Thêm ảnh hàng không
 ================
 
+> Cập nhật: 2017-11-8  
 
 Không phải tất cả hình ảnh trên không đều nằm trong trình đơn hình ảnh của JOSM, nhưng bạn có thể dễ dàng thêm nếu bạn được cung cấp thông tin liên kết  
 

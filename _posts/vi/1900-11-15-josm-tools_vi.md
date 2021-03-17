@@ -9,6 +9,7 @@ category: josm
 Các công cụ chỉnh sửa bản đồ của JOSM
 ==================
 
+> Cập nhật: 2017-11-06  
 
 - TOC
 {:toc}

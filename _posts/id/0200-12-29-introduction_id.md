@@ -9,6 +9,7 @@ category: beginner
 Pengenalan 
 ============
 
+> Reviewed 2015-08-22  
 
 Infomasi memiliki peranan yang sangat penting. Dengan adanya informasi dan pemahaman yang baik, individu dan komunitas dapat memiliki kemampuan untuk meningkatkan kualitas kehidupan serta dapat membuat keputusan yang tepat bagi masa depan mereka. Banyak sekali pihak dan organisasi memiliki tugas untuk mengambil keputusan yang berdampak kepada kehidupan kita. Informasi yang baik memungkinkan lembaga swasta, lembaga pemerintahan, dan masyarakat untuk dapat membuat keputusan yang lebih baik, dengan harapan dapat membuat kehidupan kita menjadi lebih baik. Peta adalah salah satu cara yang tepat untuk menyampaikan sebuah informasi.  
 

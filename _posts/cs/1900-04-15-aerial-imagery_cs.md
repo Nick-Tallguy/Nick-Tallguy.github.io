@@ -9,6 +9,7 @@ category: josm
 Letecké snímky
 ================
 
+> Zkontrolováno 2015-09-21  
 
 Trasování snímků je snadný a výkonný způsob, jak přispívat k OSM. Použití snímků pro kreslení bodů, linií a tvarů na zemi se nazývá **digitalizace**. To může být často odděleno od aktu shromažďování dat atributů na zemi, což se často nazývá **pozemní ověřování**. Digitalizace snímků může poskytnout kostru map OSM, což usnadňuje lidem v terénu ověření dat. V této kapitole se dozvíme trochu víc o tom, jak fungují letecké snímky.  
 

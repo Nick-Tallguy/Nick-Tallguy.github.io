@@ -125,6 +125,7 @@ Podemos probar que la importación fue exitosa y ver los datos en nuestra base d
 
 ![osm in qgis][]
 
+> Si observa las tablas de atributos de las capas, verá que los atributos se asignan a las etiquetas OSM. Las etiquetas específicas que se importan se definen durante el proceso de importación ** osm2pgsql **. Para agregar etiquetas específicas que no están incluidas de manera predeterminada, puede editar el archivo * style * al que hace referencia osm2pgsql para definir el esquema de datos.  
 
 
 Resumen

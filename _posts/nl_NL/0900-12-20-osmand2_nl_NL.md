@@ -24,6 +24,7 @@ De versie voor iOS is beschikbaar vanaf iTunes.
        src="http://linkmaker.itunes.apple.com/images/badges/en-us/badge_appstore-lrg.png" />
 </a>
 
+>Sommige mogelijkheden van OsmAnd's Android platform zouden nog niet beschikbaar kunnen zijn in de uitgave voor iOS. Bekijk het ontwikkelaars' [blog site](http://osmand.net/blog) voor details.  
 
 In aanvulling op de bovenstaande bronnen, is een door de gemeenschap onderhouden versie beschikbaar vanaf [F-Droid](https://f-droid.org/app/net.osmand.plus), of via derde-partij softwarebronnen zoals [Amazon](http://www.amazon.com/OsmAnd-Maps-Navigation/dp/B00D0SA8I8).  
 

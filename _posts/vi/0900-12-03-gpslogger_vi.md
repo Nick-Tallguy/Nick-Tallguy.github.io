@@ -18,6 +18,7 @@ Một ứng dụng đơn giản, nhẹ và nhỏ gọn để ghi lại dấu v�
 
 GPSLogger dành cho Android là một ứng dụng miễn phí để sử dụng và một dự án nguồn mở được duy trì tích cực. Các khoản đóng góp được hoan nghênh để nâng cao hơn nữa ứng dụng. Nếu bạn muốn tham gia (ví dụ như cung cấp bản dịch bằng ngôn ngữ khác, báo cáo lỗi hoặc gửi yêu cầu tính năng), hãy truy cập [repository](https://github.com/mendhak/gpslogger).  
 
+> OpenGTS đề cập đến dự án[Open GPS Tracking System](http://opengts.sourceforge.net/)  
 
 
 Tính năng, đặc điểm

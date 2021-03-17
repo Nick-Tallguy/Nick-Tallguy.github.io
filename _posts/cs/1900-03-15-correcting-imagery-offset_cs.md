@@ -9,6 +9,7 @@ category: josm
 Posun snímků
 ===============
 
+> Zkontrolováno 21.9.2015  
 
 Poskytovatelé snímků většinou dělají dobrou práci při georeferencování jejich snímků, ale někdy snímky neodpovídají jejich GPS pozici. Stává se to zejména v kopcovitých či horských oblastech, kde může být obtížné roztáhnout plochý snímek na oblast zemského povrchu s mnoha obrysy. Když stáhnete snímky do JOSM, mohou se nacházet deset i více metrů mimo správnou pozici. Tomu se říká **posun snímků**.  
 

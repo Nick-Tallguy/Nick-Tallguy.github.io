@@ -9,6 +9,7 @@ category: josm
 JOSM plug-ins Buildings Tools & Utilsplugin2
 ============
 
+> Bijgewerkt 12-09-2016  
 
 De plug-ins **buildings_tools** en **utilsplugin2** voegen veel aanvullende functionaliteit toe aan JOSM. In dit gedeelte zullen we eens nader kijken naar de functies die zij verschaffen.  
 

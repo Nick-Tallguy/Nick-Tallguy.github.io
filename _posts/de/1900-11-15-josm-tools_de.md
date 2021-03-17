@@ -9,6 +9,7 @@ category: josm
 Werkzeuge zum Editieren in JOSM
 ==================
 
+> Gereviewed 2017-06-09  
 
 - TOC
 {:toc}

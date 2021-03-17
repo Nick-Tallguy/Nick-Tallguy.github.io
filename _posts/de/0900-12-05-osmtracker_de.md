@@ -46,6 +46,7 @@ Starten Sie OSMTracker und drücken Sie auf den Menü-Button Ihres Android-Gerä
 - **GPS Zeit ignorieren** Falls ausgewählt, wird das Gerät die interne Uhr nutzen und nicht die Zeit, die vom GPS Signal kommt.  
 - **GPS Intervall** Wählt den Zeitraum aus, wie oft der Standort bestimmt wird - für die beste Genauigkeit wird 0 oder 1 empfohlen, da beides sekündliche Positionsbestimmung bedeutet.  
 
+> Die Frequenz beeinflusst jedoch die Batteriekapazität, wenn die App benutzt wird. Ihr Bildschirm wird die meiste Zeit an sein, genau wie das GPS, und Sie werden Fotos und Audioaufnahmen machen - alles führt zu starker Reduktion der Batterielaufzeit.  
 
 - **Externes Speicherverzeichnis (SD)** Standard ist /osmtracker  
 

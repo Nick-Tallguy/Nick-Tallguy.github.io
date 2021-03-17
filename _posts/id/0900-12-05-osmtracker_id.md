@@ -46,6 +46,7 @@ Buka OSMTracker dan tekan ikon menu pada perangkat Android Anda lalu pilih **Set
 -  **Ignore GPS clock** Jika kotak ini dicentang, waktu yang digunakan adalah waktu dari jam internal perangkat daripada waktu yang disediakan oleh sinyal GPS.  
 -  **GPS logging interval** Pilih periode perekaman posisi - untuk akurasi terbaik pilih 0 atau 1, aplikasi akan merekam trek tiap detik periode perekaman yang dipilih.  
 
+> Frekuensi ini berdampak pada penggunaan baterai, namun ketika menggunakan aplikasi ini, layar Anda biasanya akan selalu menyala, GPS selalu bekerja dan Anda juga mungkin mengambil beberapa foto dan rekaman - semua ini akan menguras daya smartphone Anda sehingga baterai cepat habis dan direkomendasikan untuk menggunakan alat tambahan untuk mengisi daya (power bank) saat merekam perjalanan Anda.  
 
 -  **External storage (SD) directory** Direktori bawaan adalah /osmtracker  
 

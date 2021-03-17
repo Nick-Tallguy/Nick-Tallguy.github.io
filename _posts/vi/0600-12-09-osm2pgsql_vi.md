@@ -125,6 +125,7 @@ Chúng tôi có thể kiểm tra rằng nhập khẩu đã thành công và xem 
 
 ![osm in qgis][]
 
+> Nếu bạn nhìn vào các bảng thuộc tính của các lớp, bạn sẽ thấy rằng các thuộc tính được ánh xạ tới các thẻ OSM. Các thẻ cụ thể được nhập được định nghĩa trong quá trình nhập **osm2pgsql**. Để thêm các thẻ cụ thể không được bao gồm theo mặc định, bạn có thể chỉnh sửa tệp *Style* mà osm2pgsql tham chiếu để xác định giản đồ dữ liệu.  
 
 
 Tóm lược

@@ -125,6 +125,7 @@ Możemy sprawdzić, czy import był udany i zobaczyć dane z naszej bazy używaj
 
 ![osm in qgis][]
 
+> Jeżeli spojrzysz na tabele właściwości warstw, to zobaczysz, że właściwości zostały zmapowane do tagów OSM. Określone tagi, które są zaimportowane, zostały zdefiniowane podczas procesu importowania w **osm2pgsql**. Aby dodać konkretne tagi, które nie są zawarte domyślnie, możesz edytować plik *stylu*, który jest odniesieniem do definicji schematu danych osm2pgsql.  
 
 
 Podsumowanie

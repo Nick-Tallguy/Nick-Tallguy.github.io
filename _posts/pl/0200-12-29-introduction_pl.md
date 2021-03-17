@@ -9,6 +9,7 @@ category: beginner
 Wprowadzenie
 ============
 
+> Przejrzano 2015-08-22  
 
 Informacje są potężne. Dzięki dobrym informacjom i odpowiedniemu zrozumieniu, jednostki i wspólnoty są w stanie poprawić swoje życie i podejmować dobre decyzje dotyczące przyszłości. Jest wiele osób i organizacji, które podejmują decyzje wpływające na nasze życie. Dobra informacja pozwala tym NGO-som (organizacjom pozarządowym), rządom i obywatelom podejmować lepsze decyzje i, miejmy nadzieję, poprawić nasze życie. Mapy to dobry sposób na przekazywanie informacji. 
 

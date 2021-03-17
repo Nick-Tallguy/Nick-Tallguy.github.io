@@ -9,6 +9,7 @@ category: josm
 JOSM - Adding Aerial Imagery
 ================
 
+> Przejrzano 2016-09-09  
 
 Not all aerial imagery is within the JOSM imagery menu, but it is easy to add if you have been given the link information.  
 

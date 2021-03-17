@@ -9,6 +9,7 @@ category: osm-data
 Mendapatkan Data OSM
 =================  
 
+> Diperiksa 2016-04-05
 
 Ketika Anda ingin mendapatkan data OpenStreetMap yang paling terbaru, cara paling mudah untuk mendownloadnya adalah dengan mengekspor dari sebuah situs. Ada beberapa jenis situs layanan yang menyediakan ekspor data untuk area yang Anda tentukan.   
 

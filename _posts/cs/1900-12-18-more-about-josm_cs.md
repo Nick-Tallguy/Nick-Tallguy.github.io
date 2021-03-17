@@ -38,6 +38,7 @@ Prvním krokem úpravy je stažení dat pro oblast světa, kterou chceme vylepš
 
 - Pomocí myši posouvejte a přibližujte ji do oblasti, kterou dobře znáte, například do rodného města nebo okolí. Ovládací prvky jsou stejné jako v okně mapy JOSM. Pravým tlačítkem myši můžete přetáhnout mapu a rolovací kolečko umožňuje přibližování a oddalování.
 
+> Někdy, pokud pracujete na notebooku, může být obtížné přibližovat se a oddalovat. Práce v JOSM je mnohem jednodušší, pokud máte myš, ale většina moderních notebooků vám umožňuje rolovat pomocí touchpadu.
 
 -   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
 -   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.

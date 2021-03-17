@@ -9,6 +9,7 @@ category: beginner
 Első lépések az OpenStreetMap.org oldalon
 ====================================
 
+> Átnézve: 2015-07-12  
 
 Ebben a szakaszban lépésről lépésre megtanuljuk, hogyan lehet navigálni az OpenStreetMap webhelyen, megtekinteni a térképeket és regisztrálni egy felhasználói fiókra. Miután megvan a saját felhasználóneve és jelszava, elhelyezheti a térképen első pontjait.
 

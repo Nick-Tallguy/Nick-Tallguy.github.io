@@ -9,6 +9,7 @@ category: josm
 Impostazioni predefinite di JOSM
 ============
 
+> Verificato il 2016-09-17  
 
 Se hai già usato un poco JOSM, ora conosci un poco di tag e di preset. Ogni oggetto è definito da due cose - primo, le sue coordinate geografiche (che sia un punto, una linea o un poligono), e secondo, i suoi attributi sotto forma di tags.  
 

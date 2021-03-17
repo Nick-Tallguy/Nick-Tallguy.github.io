@@ -9,6 +9,7 @@ category: osm-data
 Format File
 =============
 
+> Direview 2016-09-05
 
 Seperti tipe data pada umumnya, banyak cara untuk menyimpan data spasial pada komputer. Data spasial dapat disimpan di dalam sebuah database, yang mana adalah sebuah sistem khusus untuk menyimpan data dan terdapat sistem database yang didesain khusus untuk menyimpan data spasial. Data spasial juga dapat disimpan sebagai sebuah file biasa, namun banyak jenis format file berbeda untuk data spasial.  
 

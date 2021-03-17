@@ -46,6 +46,7 @@ Spusťte OSMTracker a z menu vyberte položku **Settings**.
 -  **Ignore GPS clock** (Ignorovat hodiny GPS) - Pokud je zaškrtnuto, bude se místo času uvedeného v signálu GPS používat vnitřní čas zařízení.  
 -  **GPS logging interval** (Interval záznamu GPS) - Vyberte si interval mezi záznamem pozice - pro nejlepší přesnost vyberte 0 nebo 1, obě možnosti znamenají záznam každou vteřinu.  
 
+> Frekvence záznamu ovlivňuje využití baterie, avšak při používání této aplikace je display převážně zapnutý, gps pracuje a možná budete i fotit a nahrávat - tohle všechno velmi spotřebovává energii z baterie a pro dlouhodobé používání se doporučuje sebou nosit powerbanku.  
 
 -  **External storage (SD) directory** (Adresář v externí paměti - SD) - Přednastaven adresář /osmtracker  
 

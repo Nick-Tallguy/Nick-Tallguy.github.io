@@ -9,6 +9,7 @@ category: mobile-mapping
 OruxMaps
 ===============
 
+> Zkontrolováno 2016-08-04 a ikdyž je software mírně zastaralý, tak stále funguje a v článku najdete odkaz na originální manuál k softwaru. 
 
 V této sekci se naučíme nastavit OruxMaps, vytvoříme si výchozí body, podíváme se na záznam trasy a exportujeme ho pro použití v JOSM.  
 

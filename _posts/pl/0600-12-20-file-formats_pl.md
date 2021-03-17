@@ -9,6 +9,7 @@ category: osm-data
 Formaty plików
 =============
 
+> Przejrzano 2016-09-05
 
 Jak dla każdego innego typu danych, tak i dla danych geograficznych są różne sposoby na przechowywanie ich na komputerze. Mogą być zapisane w bazie danych, która jest specjalnym systemem przechowywania i przetwarzania danych i w rzeczywistości jest specjalnie zaprojektowany system bazodanowy do przechowywania danych geograficznych. Mogą być również przechowywane w tradycyjnych plikach komputerowych, które oferują wiele różnych formatów dla danych geograficznych.  
 
