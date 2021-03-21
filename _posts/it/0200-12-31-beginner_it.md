@@ -26,7 +26,7 @@ in [Editor iD](/it/beginner/id-editor/) imparerai le basi per la modifica dei da
 ### Sai già come usare un editor e vuoi contribuire alla ‘mappatura umanitaria’?
 
 Il punto principale è imparare a capire come funziona la mappatura in questi contesti.
-- la [guida alla mappatura da remoto](/it/coordination/HOT-Remote-Response-Guide/) e le informazioni generali sulla [mappatura umanitaria]/it/coordination/humanitarian/) forniscono qualche indizio a riguardo
+- la [guida alla mappatura da remoto](/it/coordination/HOT-Remote-Response-Guide/) e le informazioni generali sulla [mappatura umanitaria](/it/coordination/humanitarian/) forniscono qualche indizio a riguardo
 - il perno centrale è il [Tasking Manager](/it/coordination/tm-user/)  con cui dovrai prendere famigliarità
 
 Se hai già esperienza come mappatore e vuoi conoscere di più sulla validazione allora c'è una [sezione](/it/coordination/tm-user/#validation) della nostra guida al Tasking Manager che spiega il processo.
