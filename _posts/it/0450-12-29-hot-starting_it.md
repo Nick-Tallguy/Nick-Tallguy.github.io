@@ -9,7 +9,7 @@ category: hot-tips
 Iniziare con un Tasking Manager - iD editor
 ============
 
-> Updated 2019-06-26  
+> Aggiornato il 2019-06-26  
 
 - TOC
 {:toc}
@@ -28,14 +28,14 @@ L'essenziale
 4. La mappatura è controllata da 'validatori' che sovente mandano messaggi dando apprezzabile riscontro ai vostri contributi.  
 5. Iniziate a mappare - potreste aver bisogno di leggere altre sezioni in questo capitolo Consigli per HOT prima di procedere. Le sezioni su [edifici circolari](/it/hot-tips/tracing-round-buildings/) o [Edifici con angoli squadrati](/it/hot-tips/tracing-rectangular-buildings/) possono essere utili.  
 6.  Salvate frequentemente - vedi [Consigli per HOT - salvataggio](/it/hot-tips/saving/)  
-7.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+7. Siate pazienti - a volte c'è scarsità di validatori e molti nuovi mappatori che vogliono tutti dei riscontri! Continuate a mappare, ma quando vi rendete conto che avete fatto un errore (lo facciamo tutti!) verificate se potete sistemarlo oppure chiedete supporto.  
 
 
 
 Vedi anche  
 ---------
 
-The [Tasking Manager 3 Guide on LearnOSM](/en/coordination/tasking-manager3/)  
+La [guida al Tasking Manager 3 su LearnOSM](/it/coordination/tasking-manager3/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
 *Sottotitoli disponibili in diverse lingue*  

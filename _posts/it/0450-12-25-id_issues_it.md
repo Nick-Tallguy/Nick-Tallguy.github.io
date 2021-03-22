@@ -9,7 +9,7 @@ category: hot-tips
 Issues - iD editor
 ============
 
-> Created 2019-06-28  
+> Creato il 2019-06-28
 
 - TOC
 {:toc}
