@@ -56,15 +56,15 @@ OpenStreetMapに関する情報は[wiki.openstreetmap.org](http://wiki.openstree
 - メーリングリストにメッセージを送付する際には、[talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org)へメールを送ります。idの部分は、あなたが登録したリスト名に読み替えてください。また同様に、リストに参加しているメンバーがメールを送付した際には、あなたのもとにメールが届きます。  
 
 
-Example of OSM use - MyOSMatic
+OSMの利用例 - MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+そうしたプロジェクトのひとつが MyOSMatic です。ブラウザで [print.get-map.org](https://print.get-map.org/) を表示することで利用できます。これは、あなたが選択した街の地図を印刷することのできるシンプルなツールになっています。自動的に作成された地図に加え、地図へのグリッド表示と地域内に含まれるものの一覧が生成されます。
 
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+より詳しいOpenStreetMapデータの使い方は、[LearnOSMのOSM-Dataセクション](/ja/osm-data/)でも解説されています。
 
 
 まとめ
