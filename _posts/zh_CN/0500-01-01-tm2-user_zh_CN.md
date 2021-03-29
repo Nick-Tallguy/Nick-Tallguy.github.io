@@ -4,12 +4,12 @@ title: Tasking Manager 2
 permalink: /zh_CN/coordination/tasking-manager/
 lang: zh_CN
 category: coordination
-navigation: skip
+导航：跳过
 ---
 
 # Tasking Manager 2
 
-> Reviewed 2015-08-26  
+> 已审核 2015-08-26  
 
 ** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/en/coordination/tm-disambiguation)**
 
@@ -21,7 +21,7 @@ navigation: skip
 -  [查找项目(/en/coordination/tasking-manager/#locating-a-project)  
 -[描述、地图网格、说明、贡献、活动、项目的统计数据](/en/coordination/tasking-manager/#description)  
 -[在地图中选择一个方形、设置计时器、释放](/en/coordination/tasking-manager/#selecting-a-square-to-map)  
--  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/en/coordination/tasking-manager/#editing-choices)  
+-  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/zh_CN/coordination/tasking-manager/#editing-choices)  
 -  [分裂一个方形](/en/coordination/tasking-manager/#splitting-a-square)  
 -  [在完成全部绘制前解锁方形](/en/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
 -  [标记你的方形为完成状态](/en/coordination/tasking-manager/#finishing-a-square)  
@@ -102,14 +102,14 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 ### 使用说明栏
 这显示了测绘任务中所需的内容。Tasks难度范围很广，适合初学者、中级和高级测绘人员-这些说明将解释这一点。确保你阅读并理解本节。测绘项目有许多风格，用于许多不同的目的。一些常见的项目活动包括：  
 
--道路网络：由地面人们用来将数据加载到手持导航工具中，并确定如何访问偏远地区  
--测绘村庄：通常用于确定人们居住的地方和可能受到影响的地方  
+-道路网络：由地面人员用来将数据加载到手持导航工具中，并确定如何访问偏远地区  
+-测绘村庄：通常用于确定人们居住和可能受到影响的地方  
 -建筑物测绘：用于损害评估或追踪疾病的接触者。也用于人口估计。  
 -绘制河流、墙壁和其他特征  
 
-并非世界上所有地区都与您自己的地区相似，因此可能会提供具体的标记建议。例如，非洲的道路网络与典型的美国或欧洲高速公路系统截然不同。  
+并非世界上所有地区都与您自己的地区相似，因此可能会提供具体的标记建议。例如，非洲的道路网络与典型的美国或欧洲公路系统截然不同。  
 
-在上传/保存更改时，您应确保在编辑程序中显示 ** Changeset 注释 **，以及在进行更改时可能需要复制和粘贴到源字段的 ** 来源 ** 信息（取决于您的编辑软件）。  
+在上传/保存更改时，你应确保在编辑程序中显示 ** Changeset 注释 **，以及在进行更改时可能需要复制和粘贴到源字段的 ** 来源 ** 信息（取决于你的编辑软件）。  
 
 有时，可能会提供特定于任务的图像-您可能需要同意授权协议才能访问它。说明通常会指示最简单的路径来将其加载到编辑器（如 JOSM 或 ID）。  
 
@@ -173,7 +173,7 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 编辑器将在新窗口或标签栏中加载。Potlatch 不会自动显示任务边界框，但是您可以按照以下步骤进行操作：  
 
-1.在Tasking Manager中，选择一个方形，然后单击开始测绘将其锁定  
+1.在Tasking Manager中，选择一个方形，然后点击“开始测绘”将其锁定  
 2.在 “Tasking Manager” 中，选择 “使用 JOSM 编辑”（如果窗口显示 “JOSM 远程控制没有响应...”，只需单击 “OK”）。  
 3.在使用 JOSM 编辑按钮下方，文本会显示 “提示：下载以下 .gpx 文件...”。下载 .gpx 文件，然后记下它的保存位置。  
 4.在Tasking Manager中，从使用 JOSM 编辑更改为使用 Potlatch 2 编辑。Potlatch 应该在新标签页中打开。  
@@ -185,12 +185,12 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 #### Walking Papers / Field Papers  
 
-在你参与的项目由当地当制图员已经进行了地面勘察并使用道路名称等信息标记了打印的地图后，您才能使用。该地图可以被重新扫描并用作背景图像，供远程或本地测绘人员阅读信息并更新 OpenStreeetMap 数据  [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+在你参与的项目由当地当制图员已经进行了地面勘测并使用道路名称等信息标记了打印的地图后，你才能使用。该地图可以被重新扫描并用作背景图像，供远程或本地测绘人员阅读信息并更新 OpenStreeetMap数据[Field papers section of LearnOSM](/en/mobile-mapping/field-papers/)。  
 
 
 ### 拆分一个方形  
 
-选择方形并在图像就位的情况下对其进行了检查后，您可能会意识到测绘所需的细节太多。这方面的一个例子可能是追踪密集的城市地区的建筑物，或者在大面积地区找到小村庄。如指引所说，如果一个人无法在 2 小时内完成，您通常可以将任务分成 4 个较小的区域。* 使用时请注意 *-如果方形分割的太小，会很难判断所涉及的高速公路类型以及识别其它的特征。  
+选择方形并在图像就位的情况下对其进行了检查后，您可能会意识到测绘所需的细节太多。这方面的一个例子可能是追踪密集的城市地区的建筑物，或者在大面积地区找到小村庄。如指引所说，如果一个人无法在 2 小时内完成，您通常可以将任务分成 4 个较小的区域。* 使用时请注意 *-如果方形分割的太小，会很难判断所涉及的公路类型以及识别其它的特征。  
 
 > 请注意，关于先前已完成工作的其它有用评论将不再可用。
 
@@ -201,8 +201,8 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 例如：  
 
-    Almost complete, small village top left 
-    in the square to be traced though
+    几乎完成，左上方的小村庄 
+    在方块上有迹可循
 
 
 ### 完成一个方形
@@ -223,10 +223,10 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 例如：  
 
-    @Tallguy nice work tracing the building  
-    details here. You missed a small group  
-    of houses on the upper left of the tile,  
-    I added a few in, but some still remain.  
+    @Tallguy 追踪建筑物的出色工作  
+    详细信息在这里。你遗漏了一个小组  
+    切片左上角的房子，  
+    我添加了一些，但仍然存在。  
 
 这在验证或添加他人之前的工作时特别有用-您可以提供反馈，谢谢或更多。  
 

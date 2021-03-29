@@ -1,10 +1,10 @@
 ---
 layout: doc
 title: Tasking Manager 3
-permalink: /en/coordination/tasking-manager3/
-lang: en
+permalink: /zh_CN/coordination/tasking-manager3/
+lang: zh_CN
 category: coordination
-navigation: skip
+导航：跳过
 ---
 
 # Tasking Manager 3
@@ -14,17 +14,17 @@ navigation: skip
 
 内容索引
 -------------
--  [Quick Start Guide](/en/coordination/tasking-manager3/#quick-start-guide)  
--  [The Mapping Process](/en/coordination/tasking-manager3/#mapping-process)  
-    -  [Logging in](/en/coordination/tasking-manager3/#tasking-manager-login)  
-    -  [Options - language settings and user profile](/en/coordination/tasking-manager3/#options-amp-links)  
-    -  [Finding a Project - list based and using a map view, searching and filtering](/en/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
-    -  [Mapping a Task - select, work on and unlock a task](/en/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
--  [Getting Help - live and contacting the project administrator](/en/coordination/tasking-manager3/#getting-help)  
--  [Hints and Tips](/en/coordination/tasking-manager3/#editing-hints-and-tips)
--  [Validation](/en/coordination/tasking-manager3/#validation)
+-  [快速入门指南](/zh_CN/coordination/tasking-manager3/#quick-start-guide)  
+-  [测绘过程](/zh_CN/coordination/tasking-manager3/#mapping-process)  
+    -  [用户登录](/zh_CN/coordination/tasking-manager3/#tasking-manager-login)  
+    -  [选项 - 语言设置和用户资料](/zh_CN/coordination/tasking-manager3/#options-amp-links)  
+    -  [查找项目 - 基于列表并使用地图视图、搜索和过滤](/zh_CN/coordination/tasking-manager3/#finding-a-project---tasking-manager-contribute-screen)  
+    -  [测绘任务 - 选择、处理和解锁任务](/zh_CN/coordination/tasking-manager3/#mapping-via-the-tasking-manager) 
+-  [获得帮助 - 实时与项目管理员联系](/zh_CN/coordination/tasking-manager3/#getting-help)  
+-  [提示和技巧](/zh_CN/coordination/tasking-manager3/#editing-hints-and-tips)
+-  [验证](/zh_CN/coordination/tasking-manager3/#validation)
 
-The [HOT OSM Tasking Manager](http://tasks.hotosm.org) is a tool that coordinates many people mapping a specific geographic area in OpenStreetMap.
+[HOT OSM Tasking Manager](http://tasks.hotosm.org) 是一个协调多人在OpenStreetMap中测绘特定地理区域的工具。
 
 OpenStreetMap 是一个多人协作的免费世界地图。任何人都可以向 OpenStreetMap 做贡献，以绘制世界上任何感兴趣的地方。 Tasking Manager只是一个向多人同时贡献 OpenStreetMap 地图的工具，同时对 OpenStreetMap 的大多数贡献都是由不使用 Tasking Manager的人完成的。
 
@@ -70,7 +70,7 @@ OpenStreetMap 是一个多人协作的免费世界地图。任何人都可以向
 3.第二个远程测绘人员检查任务是否已完成到令人满意的水平，并将任务标记为 “已验证（validated）”
 4.可以从项目的 “统计” 选项卡中监控项目测绘的进度，并且可以根据管理员的要求降级或归档项目。
 
-### Tasking Manager 3 Login
+### Tasking Manager 3 登录
 
 Tasking Manager是一个单独的工具，用于协调 OpenStreetMap 中的测绘工作。但是，它利用了 OpenStreetMap 登录系统。这意味着您不需要创建单独的用户帐户即可使用任务管理器，但在使用任务管理器进行测绘之前，您确实需要创建 OpenStreetMap 帐户并登录 OpenStreetMap。
 
@@ -162,65 +162,65 @@ Tasking Manager 贡献屏幕分为三个主要区域：
 #### 说明选项卡
 这显示了测绘任务中所需的内容。项目存在难度范围，适合初学者、中级和高级测绘人员-这些说明将解释这一点。确保你阅读并理解本节。测绘项目有许多风格，用于许多不同的目的。一些常见的项目活动包括：  
 
-- Road networks: Used by people on the ground to load data into hand held navigation tools, and to work out how to access remote areas  
-- Mapping villages: Often used to identify places where people live and may be impacted  
-- Mapping buildings: Used for damage assessments or contact tracing with diseases. Also used for population estimates.  
-- Mapping rivers, walls and other features  
+- 道路网络：由地面人员用来将数据加载到手持导航工具中，并确定如何访问偏远地区  
+- 测绘村庄：通常用于确定人们居住和可能受到影响的地方  
+- 建筑物测绘：用于损害评估或追踪疾病的接触者。也用于人口估计。  
+- 测绘河流、墙壁和其他特征  
 
-Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different to typical American or European highway systems.  
+并非世界上所有地区都与您自己的地区相似，因此可能会提供具体的标记建议。例如，非洲的道路网络与典型的美国或欧洲公路系统截然不同。  
 
-There will be a section indicating the **Changeset comment** you should make sure appears in your editing programme when uploading/saving your changes, together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.  
+在上传/保存更改时，你应确保在编辑程序中显示 ** Changeset 注释 **，以及在进行更改时可能需要复制和粘贴到源字段的 ** 来源 ** 信息（取决于你的编辑软件）。  
 
-Sometimes, task specific imagery may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.  
+有时，可能会提供特定于任务的图像-你可能需要同意授权协议才能访问它。说明通常会指示最简单的方法来将其加载到编辑器（如 JOSM 或 ID）。  
 
-When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks; as well as providing useful feedback for the next mapper.  
+检查标记为完成的任务时，审核人员会期望说明（instructions）选项栏中的要求都已完成。您可能会发现完成整个任务非常困难 - 下面提供了解锁任务的指导；以及为下一个测绘人员提供有用的反馈。  
 
-#### Activity and Stats button  
+#### 活动和统计按钮  
 
-This tab contains statistics about the project. It is divided into two sections, a detailed list of the activity (formerly its own tab in the Tasking Manager 2.0) and summary section.
+此选项栏包含有关项目的统计信息。它分为两个部分，活动的详细列表（以前在Tasking Manager 2.0中是其自己的选项栏）和概要部分。
 
-The summary contains a list of mappers who have completed at least one task within the project.  
+概要包含项目中至少完成一项任务的测绘人员的列表。  
 
-A log of all the comments left on individual tasks is at the bottom of the page. These are comments left on tasks and should not be confused with the "Questions and Comments" tab which are general questions and comments about the overall project.
+在页面的底部有一个关于单个任务的所有评论的日志。这些是对任务的评论，不应与“问题和评论”选项栏混淆，后者是关于整个项目的一般问题和评论。
 
-You can return to the main project contribution page by clicking on the project title on the Activity and Stats page.
+您可以通过点击活动和统计页面上的项目标题返回项目贡献主页面。
 
-#### Map Tab  
+#### 地图栏  
 
-Click when you are ready to start mapping. You may choose an individual task to work on by selecting it from the map, or by clicking on the "Take a Task at random" option.  Only uncolored tasks can be selected in this tab or you will get a message saying the task can not be mapped. If you intend to validate, make sure you select the "Validate" tab.
+当你准备好开始测绘，请点击。你可以从地图中选择一个单独的任务，或单击 "随机执行任务 "选项来进行工作。在此选项栏中只能选择未着色的任务，否则你将收到一条消息，称该任务不能被测绘。如果你打算进行验证，请确保选择 "验证 "选项卡。
 
 ![TM map tab][]
 
-#### Selecting a task to map  
+#### 选择要测绘的任务  
 
-Having selected your task you will be able to see if there is any history for this task, such as a mapper starting to map, but realizing they do not have time to complete the task.  
+选择任务后，您将能够看到这个任务是否有任何历史记录，例如测绘人员开始测绘，但意识到他们没有时间完成任务。  
 
-Clicking on the **Start Mapping** button locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. It is good practice to check on your countdown timer on a regular basis - it is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+点击 ** 开始测绘 ** 按钮会锁定任务，这样其他测绘人员在任务再次释放之前不能选择它，并启动 2 小时（120 分钟）倒计时器，在倒计时器结束时任务将自动释放。定期检查倒计时器是很好的做法 - 很容易全神贯注与测绘中，而不是意识到你的任务已经被释放，现在已经被另一个测绘人员进行测绘了。这可能导致冲突和问题。  
 
 
-#### Editing choices
+### 编辑选择
 
-Different options for editing are presented to you as soon as you lock a task.
+锁定任务后，会立即显示不同的编辑选项。
 
-##### Edit with JOSM  
+#### 使用 JOSM 编辑  
 
-Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
+在使用此链接之前启动 JOSM，它会自动将现有的 OSM 数据加载到 JOSM 中。  
 
 > 1.需要勾选 “开启远程控制”-在 ** 编辑/偏好设置/远程控制 ** 下
 > 2.如果您之前安装过插件 “ContinosDownload”，最好将其禁用（在 JOSM 中的 ** 文件 ** 菜单下取消选中 “持续下载 OSM 数据”）。  
->  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
+> 3.如果 JOSM 没有自动加载图像，通常可以在 ** Imagery** 菜单下找到图像。[关于图像的更多信息在这里](/zh_CN/josm/more-about-josm/#add-imagery)  
   
 
-##### iD editor  
+##### iD编辑器  
 
 选择此选项可自动启动 Web 浏览器的新选项卡或窗口，并加载现有 OSM 数据。Internet Explorer Web 浏览器目前不支持 ID而作为替换它将加载 Potlatch 2。带有任务管理器的原始选项卡或窗口仍然存在。  
 
 
 ##### Potlatch 2  
 
-The editor will load in a new window or tab. Potlatch will not automatically display the task bounding box, but you can do so by following this procedure:  
+编辑器将在新窗口或标签栏中加载。Potlatch 不会自动显示任务边界框，但是你可以按照以下步骤进行操作：  
 
-1. In the Tasking Manager, select a task and click Start Mapping to lock it  
+1.在Tasking Manager中，选择一个任务，然后点击“开始测绘”将其锁定  
 2.在 “Tasking Manager” 中，选择 “使用 JOSM 编辑”（如果窗口显示 “JOSM 远程控制没有响应...”，只需单击 “OK”）。  
 3.在使用 JOSM 编辑按钮下方，文本会显示 “提示：下载以下 .gpx 文件...”。下载 .gpx 文件，然后记下它的保存位置。  
 4.在Tasking Manager中，从使用 JOSM 编辑更改为使用 Potlatch 2 编辑。Potlatch 应该在新标签页中打开。  
@@ -232,47 +232,47 @@ The editor will load in a new window or tab. Potlatch will not automatically dis
 
 ##### Field Papers  
 
-For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
+在你参与的项目由当地测绘人员进行了地面勘测并使用道路名称等信息标记打印的地图后，你才能使用。该地图可以被重新扫描并用作背景图像，供远程或本地测绘人员阅读信息并更新OpenStreeetMap数据[Field papers section of LearnOSM](/zh_CN/mobile-mapping/field-papers/)。  
 
 
-#### Splitting a task square
+#### 拆分任务方块
 
-Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
+选择任务并在图像就位的情况下对其进行检查后，你可能会意识到测绘所需的细节太多。这方面的一个例子可能是追踪密集的城市地区的建筑物，或者在大面积地区找到小村庄。如指引所说，如果一个人无法在 2 小时内完成，你通常可以将任务分成 4 个较小的区域。* 使用时请注意* - 如果方形分割的太小，会很难判断所涉及的公路类型以及识别其它的特征。  
 
 > 请注意，关于先前已完成工作的其它有用评论将不再可用。
 
 
-#### Unlocking a Task
+#### 解锁任务
 
 ![TM unlock][]
 
-##### Unlocking a Task before it is complete
+##### 在任务完成之前解锁
 
-If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment against the task. Simply detail what remains and choose **Stop Mapping**. Make sure your comments are relevant and aimed to help out the next mapper.  
+如果你开始在一个任务上工作，但由于某种原因无法完成它，最佳做法是对任务发表评论。只需详细说明剩下的内容，然后选择 ** 停止测绘 **。确保你的评论是相关的，旨在帮助下一个测绘人员。  
 
 例如：  
 
     几乎完成，左上方的小村庄 
-    in the task square to be traced though
+    在任务方块上有迹可循
   
 
-##### Unlocking a Task that is completely mapped
+##### 解锁完成测绘的任务
 
-It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
+很难完全确定你已经完成了一个任务 - 但是如果你相当确定的话，可以将任务标记为完成 - 内容将由另一个测绘人员进行审核，同时也可以补充细节。  
 
-For the process to work most effectively, mappers need to mark tasks as "Mapped" rather than leaving them for several other 'not sure' mappers to spend time also checking them.  
+为使工作流程最有效，测绘人员需要将任务标记为“已测绘”，而不是将它们留给其他几个 “不确定” 的测绘人员来花时间同时检查它们。  
 
-When you have finished editing and think that the task is complete, save any remaining edits with your editing programme, then return to the Tasking Manager.  
+当你完成编辑并认为任务已完成后，使用编辑程序保存所有剩余的编辑内容，然后返回Tasking Manager。  
 
-+ Add comments to the box detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
-+ Click on the "Mark as Completely Mapped" button, and your work is ready for review.  
++ 在框中添加评论并详细说明您所取得的成就，更重要的是，同时也记录下您不确定的是什么。例如：“我已经完成了我所看到的，但任务的右上角有云，我看不到这个区域的轨迹”。  
++ 点击 “标记为已完全测绘” 按钮后，你的工作就已准备好被审核了。  
 
-##### Marking a Task as Bad Imagery
+##### 将任务标记为不良影像
 
-You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Just close that task in your editor and use the "Mark as Bad Imagery" button to record that the task can not be mapped due to poor imagery.
+你有时会选择一个由于影像分辨率低或有云层覆盖而无法绘制的任务。只需在编辑器中关闭该任务，然后使用 "标记为不良影像 "按钮记录该任务因影像质量差而无法绘制。
 
 
-#### Sending a message from the comment box
+#### 从评论框中发送消息
 
 When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
 
