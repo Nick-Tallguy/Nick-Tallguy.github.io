@@ -10,7 +10,7 @@ category: coordination
 # Tasking Manager 3
 
 
-** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/en/coordination/tm-disambiguation)**
+** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/zh_CN/coordination/tm-disambiguation)**
 
 内容索引
 -------------
@@ -274,27 +274,27 @@ Tasking Manager 贡献屏幕分为三个主要区域：
 
 #### 从评论框中发送消息
 
-When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.  
+对任务留下评论时，你可以将评论作为消息发送给指定的测绘人员。与Twitter一样，只需使用@后跟用户名。这将向用户发送一条消息，其中包含来自此框的评论，以及指向与该评论相关的任务的链接。  
 
 例如：  
 
-    @HOTMppr nice work tracing the building  
-    details here. You missed a small group  
-    of houses on the upper left of the task square,  
-    I added a few in, but some still remain.  
+    @HOTMppr 追踪建筑物的出色工作  
+    详细信息在这里。你遗漏了一个小组  
+    在任务方形左上角的房子，  
+    我添加了一些，但仍然存在。  
 
 这在验证或添加他人之前的工作时特别有用-您可以提供反馈，谢谢或更多。  
 
-+ 你可能希望提供一个可能对测绘人员有帮助的网站的链接，例如 <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
-+ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
++ 你可能希望提供一个可能对测绘人员有帮助的网站的链接，例如 <http://learnosm.org/zh_CN/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ 请注意，来自世界各地的许多人都会参加，所以更喜欢简单、清晰的语言。如果您遇到其他语言的评论，可以用谷歌翻译等有效的工具。
 
 
-#### Referring to a particular task when sending an email  
+#### 发送电子邮件时提及特定的任务  
 
-If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
+如果你需要发送消息，例如电子邮件或IRC消息，并且你正在查询与项目中特定任务有关的内容（也许你需要帮助从卫星图像中识别某些内容）：  
 
-1. Click on the task square concerned  
-2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
+1.点击相关的方任务  
+2. 点击 Web 浏览器中的地址栏，该地址栏应显示类似于 'http://tasks.hotosm.org/project/713?task=259'  
 3. Copy this link into the message. 
 
 
@@ -337,7 +337,7 @@ Some general advice to heed when working in this tool:
 
 Validation is the process of a second mapper reviewing the mapping of the initial mapper of a project task. It is designed to ensure complete, quality data and provide thanks, feedback and encouragment to mappers.
 
-### Getting Started
+### 入门
 
 Validation starts much the same way as mapping does, a volunteer finds a project they would like to work on, reads the instructions tab to be sure they understand what is called for and how it is expected to be mapped, but instead of selecting the mapping tab for the project, they select the "Validate" tab.
 

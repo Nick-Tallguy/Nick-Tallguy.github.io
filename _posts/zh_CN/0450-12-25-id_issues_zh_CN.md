@@ -1,48 +1,48 @@
 ---
 layout: doc
-title: Issues - iD editor
+title: 问题 - iD编辑器
 permalink: /zh_CN/hot-tips/issues/
 lang: zh_CN
 category: hot-tips
 ---
 
-Issues - iD editor
+问题 - iD编辑器
 ============
 
-> Created 2019-06-28  
+> 创建于 2019-06-28  
 
 - TOC
 {:toc}
 
-The Essentials
+要点
 --------------
 
 ![issues][]
 
-The iD editor contains a 'checking feature' which can show potential problems with any area you are viewing. If you are mapping a square on the Tasking manager, you may wish to alter the settings so that you see potential errors for **everything** and **within view**, so that you are able to check that there are no existing problems to be cleared before you begin your own mapping. Be careful that the issue that iD highlights is actually within your allocated square.  
+iD编辑器包含一个 '检查功能' ，可以显示你正在查看的任何区域的潜在问题。如果你正在任务管理器上测绘一个方块，你可能希望更改设置，以便你可以看到**一切**和**视图内**的潜在错误，以便你能够在开始自己的绘制之前检查是否存在需要清除的问题。要注意iD突出显示的问题是否真的在你分配的方块内。  
 
-### Warnings from iD (Issues) ###
+### 来自iD的警告（问题） ###
 
-### Warnings at any time ![id issues icon]{: height="24px"}
+### 随时发出警告 ![id issues icon]{: height="24px"}
 
 ![id issues][]
 
 ![id issues everywhere][]
 
-In the first image only the mappers own edits are shown - there are no issues, but there is a warning that a potential issue exists. The second image shows all potential issues everywhere in view, and warns of the highway / building overlap which has been previously mapped and saved by someone.  
+在第一张图中，只显示了测绘人员自己的编辑 - 没有任何问题，但存在一个潜在问题的警告。第二张图显示了视野中所有潜在的问题，并对之前已经被某人绘制并保存的公路/建筑重叠发出警告。  
 
 ![Error][]
 
-### Warnings Whilst mapping
+### 制图时的警告
 
-iD will warn you if you may be making a mistake in your mapping, for instance accidentally overlapping a road and building.  
+如果你在绘制地图时出现错误，例如不小心将道路和建筑物重叠，iD会向你发出警告。  
 
 ![warn when mapping][]
 
-See also  
+另请参阅  
 ---------
 
-The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more information.  
+[LearnOSM上的iD编辑器指南](/zh_CN/beginner/id-editor/) 提供了更多信息。
 
 
 [issues]:/images/hot-tips/issues.gif "Tasking Manager selecting a square and loading into the iD editor"

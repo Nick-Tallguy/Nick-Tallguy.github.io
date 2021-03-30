@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: JOSM Editing Tools
+title: JOSM编辑工具
 permalink: /zh_CN/josm/josm-tools/
 lang: zh_CN
 category: josm
@@ -9,7 +9,7 @@ category: josm
 JOSM 编辑工具
 ==================
 
-> Reviewed 2017-06-09  
+> 已审核 2017-06-09  
 
 - TOC
 {:toc}

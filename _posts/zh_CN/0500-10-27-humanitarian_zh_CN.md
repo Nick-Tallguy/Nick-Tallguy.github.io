@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)
 
-> Reviewed 2015-09-18
+> 已审核 2015-09-18
 
 感谢您的志愿服务，通过为当地社区和援助组织提供最新的地图数据来帮助他们应对这场危机。  
 
@@ -20,11 +20,11 @@ category: coordination
 
 在开始之前，我们不需要您阅读所有网站内容，但我们需要您了解一些基础知识：  
 
-1. 如果您想帮助改进地图，请仔细阅读Task Manager介绍，它们可能会有所不同，因此请务必阅读并理解它们。这里有一片关于如何使用Tasking Manager和如果从有经验的测绘人员获得帮助知识：[Tasking Manager here within LearnOSM](/en/coordination/tasking-manager/)  
+1. 如果您想帮助改进地图，请仔细阅读Task Manager介绍，它们可能会有所不同，因此请务必阅读并理解它们。这里有一片关于如何使用Tasking Manager和如果从有经验的测绘人员获得帮助知识：[Tasking Manager here within LearnOSM](/zh_CN/coordination/tasking-manager/)  
 
 2.  Make sure you have zoomed in enough so that you can actually see what you should be tracing - [it and many other things are explained here.](/en/coordination/remote/)  
 
-3.  Buildings have to be traced, and the shape of the tracing should match the shape of the building. [This section of LearnOSM](/en/coordination/remote-tracing/) explains this, and how to create roads and a road network.  
+3.  建筑物必须有轨迹，轨迹的形状应与建筑物的形状相匹配。 [LearnOSM的这部分](/zh_CN/coordination/remote-tracing/) 说明了这一点，以及如何创建道路和道路网络。  
 
 Thank you for reading this, and we hope you'll take the short time needed to make sure you do the important things right. We need all the help we can get, and hope that you can help us with this.  
 

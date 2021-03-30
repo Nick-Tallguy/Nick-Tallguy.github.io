@@ -9,7 +9,7 @@ category: beginner
 深入阅读
 ===============
 
-> Reviewed 2020-05-08  
+>已审核 2020-05-08  
 
 如果你读到了这里，祝贺你！你应该已经对如何利用OpenStreetMap制作地图有了不错的理解。还有什么可以在OSM做的吗？如何了解更多？如何与绘图者群体保持联络呢？  
 
@@ -64,7 +64,7 @@ OpenStreetMap是一项协作工程，我们希望你成为其中的一员。有�
 ![MyOSMatic][]
 
 
-关于如何使用OpenStreetMap数据请查看 [OSM-Data section of LearnOSM](/en/osm-data/)
+关于如何使用OpenStreetMap数据请查看 [OSM-Data section of LearnOSM](/zh_CN/osm-data/)
 
 
 小结

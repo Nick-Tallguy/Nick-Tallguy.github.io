@@ -11,24 +11,24 @@ category: coordination
 
 > 已审核 2015-08-26  
 
-** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/en/coordination/tm-disambiguation)**
+** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/zh_CN/coordination/tm-disambiguation)**
 
 章节索引
 -------------
--[如何在HOT(Humanitarian OpenStreetMap Team)中使用Tasking Manager的概述](/en/coordination/tasking-manager/#overview-of-the-process)  
--[语言、选项、帮助链接和其他链接。您的用户页面 - 您协助的项目列表和消息](/en/coordination/tasking-manager/#options-amp-links)  
--  [用户登录](/en/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
--  [查找项目(/en/coordination/tasking-manager/#locating-a-project)  
--[描述、地图网格、说明、贡献、活动、项目的统计数据](/en/coordination/tasking-manager/#description)  
--[在地图中选择一个方形、设置计时器、释放](/en/coordination/tasking-manager/#selecting-a-square-to-map)  
+-[如何在HOT(Humanitarian OpenStreetMap Team)中使用Tasking Manager的概述](/zh_CN/coordination/tasking-manager/#overview-of-the-process)  
+-[语言、选项、帮助链接和其他链接。您的用户页面 - 您协助的项目列表和消息](/zh_CN/coordination/tasking-manager/#options-amp-links)  
+-  [用户登录](/zh_CN/coordination/tasking-manager/#getting-started-with-the-tasking-manager)  
+-  [查找项目](/zh_CN/coordination/tasking-manager/#locating-a-project)  
+-[描述、地图网格、说明、贡献、活动、项目的统计数据](/zh_CN/coordination/tasking-manager/#description)  
+-[在地图中选择一个方形、设置计时器、释放](/zh_CN/coordination/tasking-manager/#selecting-a-square-to-map)  
 -  [JOSM, iD, Potlatch 2, Field Papers, Walking Papers](/zh_CN/coordination/tasking-manager/#editing-choices)  
--  [分裂一个方形](/en/coordination/tasking-manager/#splitting-a-square)  
--  [在完成全部绘制前解锁方形](/en/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
--  [标记你的方形为完成状态](/en/coordination/tasking-manager/#finishing-a-square)  
--  [发送信息](/en/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
--  [在邮件或者消息中鉴别方形](/en/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
--  [在线帮助 - IRC, Internet Relay Chat](/en/coordination/tasking-manager/#getting-live-help)  
--  [常见问题提示](/en/coordination/tasking-manager/#editing-hints-and-tips)
+-  [分裂一个方形](/zh_CN/coordination/tasking-manager/#splitting-a-square)  
+-  [在完成全部绘制前解锁方形](/zh_CN/coordination/tasking-manager/#unlocking-a-square-before-it-is-complete)  
+-  [标记你的方形为完成状态](/zh_CN/coordination/tasking-manager/#finishing-a-square)  
+-  [发送信息](/zh_CN/coordination/tasking-manager/#sending-a-message-from-the-comment-box)  
+-  [在邮件或者消息中鉴别方形](/zh_CN/coordination/tasking-manager/#referring-to-a-particular-square-when-sending-an-email)  
+-  [在线帮助 - IRC, Internet Relay Chat](/zh_CN/coordination/tasking-manager/#getting-live-help)  
+-  [常见问题提示](/zh_CN/coordination/tasking-manager/#editing-hints-and-tips)
 
 
 The HOT Tasking Manager, <http://tasks.hotosm.org/> 是一个直观的工具，测绘人员可以使用它将区域分类为网格，并协同工作以有组织的路径绘制地图。这使得世界各地的制图者能够协助绘制工作区域重叠风险最小的已定义区域的绘图，还允许在地面和远程工作的人员（有时也称为 “armchair mappers”）有效、快速地协作，避免意外返工由于冲突而需要。  
@@ -161,12 +161,12 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 > 1.需要勾选 “开启远程控制”-在 ** 编辑/偏好设置/远程控制 ** 下
 > 2.如果您之前安装过插件 “ContinosDownload”，最好将其禁用（在 JOSM 中的 ** 文件 ** 菜单下取消选中 “持续下载 OSM 数据”）。  
-> 3。如果 JOSM 也没有自动加载图像，通常可以在 ** Imagery** 菜单下找到图像。[关于图像的更多信息在这里](/en/josm/more-about-josm/#add-imagery)  
+> 3。如果 JOSM 也没有自动加载图像，通常可以在 ** Imagery** 菜单下找到图像。[关于图像的更多信息在这里](/zh_CN/josm/more-about-josm/#add-imagery)  
 
 
 #### iD编辑器  
 
-选择此选项可自动启动 Web 浏览器的新选项栏或窗口，并加载现有 OSM 数据。Internet Explorer Web 浏览器目前不支持 ID而作为替换它将加载 Potlatch 2。带有任务管理器的原始选项卡或窗口仍然存在。  
+选择此选项可自动启动 Web 浏览器的新选项栏或窗口，并加载现有 OSM 数据。Internet Explorer Web 浏览器目前不支持 iD而作为替代它将加载 Potlatch 2。带有任务管理器的原始选项卡或窗口仍然存在。  
 
 
 #### Potlatch 2  
@@ -185,7 +185,7 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 #### Walking Papers / Field Papers  
 
-在你参与的项目由当地当制图员已经进行了地面勘测并使用道路名称等信息标记了打印的地图后，你才能使用。该地图可以被重新扫描并用作背景图像，供远程或本地测绘人员阅读信息并更新 OpenStreeetMap数据[Field papers section of LearnOSM](/en/mobile-mapping/field-papers/)。  
+在你参与的项目由当地当制图员已经进行了地面勘测并使用道路名称等信息标记了打印的地图后，你才能使用。该地图可以被重新扫描并用作背景图像，供远程或本地测绘人员阅读信息并更新 OpenStreeetMap数据[LearnOSM的Field papers部分](/zh_CN/mobile-mapping/field-papers/)。  
 
 
 ### 拆分一个方形  
@@ -230,13 +230,13 @@ The Task Manager最初以英语显示-要更改为另一种语言，请单击红
 
 这在验证或添加他人之前的工作时特别有用-您可以提供反馈，谢谢或更多。  
 
-+ 你可能希望提供一个可能对测绘人员有帮助的网站的链接，例如 <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ 你可能希望提供一个可能对测绘人员有帮助的网站的链接，例如 <http://learnosm.org/zh_CN/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
 + 请注意，来自世界各地的许多人都会参加，所以更喜欢简单、清晰的语言。如果您遇到其他语言的评论，可以用谷歌翻译等有效的工具。
 
 
 ### 当发送电子邮件时指的是特定的方形  
 
-如果您需要发送消息，例如电子邮件或 IRC 消息，并且您正在查询有关项目中某个特定方形的内容（可能需要从卫星影像中帮助识别某些内容）：  
+如果你需要发送消息，例如电子邮件或IRC消息，并且你正在查询与项目中特定任务有关的内容（也许你需要帮助从卫星图像中识别某些内容）：  
 
 1.点击相关的方形  
 2.点击 Web 浏览器中的地址栏，该地址栏应显示类似于 'http://tasks.hotosm.org/project/713#task/259'  

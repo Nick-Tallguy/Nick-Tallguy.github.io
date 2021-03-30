@@ -9,9 +9,9 @@ category: beginner
 iD 編輯器
 =============
 
-> Reviewed 2019-06-10
+>  2019-06-10 審閲
 
-你要用任務管理器為 HOT 或是 MissingMaps 等專案開始畫地圖嗎？請見我們的[HOT-技巧區](/en/hot-tips/)。  
+你要用任務管理器為 HOT 或是 MissingMaps 等專案開始畫地圖嗎？請見我們的[HOT-技巧區](/zh_TW/hot-tips/)。  
 
 - TOC
 {:toc}

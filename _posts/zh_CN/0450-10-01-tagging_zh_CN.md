@@ -43,7 +43,7 @@ Tasking Manager的项目作者不知道测绘人员该使用哪个编辑器，�
   **建筑物      学校 **  
 或许多其他标签之一。有关标记建筑物的更多详细信息，请参阅 <https://wiki.openstreetmap.org/wiki/Buildings>  
 
-查看  [Highways section of this HOT-tips section](/en/hot-tips/highways/)  获得更多关于给高速公路添加标签的信息  
+查看  [HOT提示章节中公路（highways）的部分](/zh_CN/hot-tips/highways/)  获得更多关于给公路添加标签的信息。  
 
 ### 关系 - 例如有内院的房屋或河中岛 ###
 
@@ -51,7 +51,7 @@ Tasking Manager的项目作者不知道测绘人员该使用哪个编辑器，�
 
 有关关系的更多信息（** 适合中高级人员 **），请参阅；  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) 使用了一个 不同的OSM编辑器来解释关系，或  
+[LearnOSM - JOSM - Relations](/zh_CN/josm/josm-relations/) 使用了一个 不同的OSM编辑器来解释关系，或  
 <https://wiki.openstreetmap.org/wiki/Relation>
 
 另请参阅  

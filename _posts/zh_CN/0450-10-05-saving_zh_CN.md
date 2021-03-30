@@ -59,7 +59,7 @@ OpenStreetMap 的发展是因为测绘人员们不断改进信息。有时候，
 ---------
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
-*Subtitles available in some languages*  
+*提供某些语言的字幕*  
 
 
 

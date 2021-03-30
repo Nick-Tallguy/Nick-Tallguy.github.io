@@ -2,13 +2,13 @@
 layout: doc
 permalink: /zh_CN/hot-tips/
 lang: zh_CN
-title: 热门提示 - 作为一个新手该如何开始 - iD编辑器
+title: HOT提示 - 作为一个新手该如何开始 - iD编辑器
 category: hot-tips
 cover: yes
 nosearch: true
 ---
 
-热门提示 - 作为一个新手该如何开始 - iD编辑器和Tasking Manager
+HOT提示 - 作为一个新手该如何开始 - iD编辑器和Tasking Manager
 ================
 
 这一系列简短指南的目标是志愿者使用Tasking Manager帮助援助机构绘制地图，但是所有 OpenStreetMap 测绘的基本原理都是一样的。测绘不复杂，但是让我们保持正确并继续改进地图！
@@ -33,7 +33,7 @@ ID 帮助菜单-在编辑时始终可用，其中包括一些可以参考的功�
 If you are new to OpenStreetMap the following modules of our beginner section will be useful to you;  
 
 -  [Introduction to mapping](/en/beginner/introduction/)  
--  [OpenStreetMap.org](/en/beginner/start-osm/)
+-  [OpenStreetMap.org](/zh_CN/beginner/start-osm/)
 
 
 

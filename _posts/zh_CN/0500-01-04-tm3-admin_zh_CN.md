@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: Tasking Manager 3 Project Creation
-permalink: /en/coordination/tasking-manager3-project-admin/
-lang: en
+title: Tasking Manager 3创建项目
+permalink: /zh_CN/coordination/tasking-manager3-project-admin/
+lang: zh_CN
 category: coordination
-navigation: skip
+导航：跳过
 ---
 
 # OSM Tasking Manager 3 Project Creation and Administration
 
 
-** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/en/coordination/tm-disambiguation)**
+** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/zh_CN/coordination/tm-disambiguation)**
 
 Section Index
 -------------
--  [Logging in ](/en/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
+-  [登录 ](/zh_CN/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
 -  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
 -  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
 -  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
@@ -61,7 +61,7 @@ Click your username in the upper right corner, then **Create a New Project.** Yo
 3.点击你的起点以完成多边形  
 4. After completing a polygon you can move the nodes or add new ones to get the area just as you want it.
 
-要么
+或者
 
 ### Upload a GeoJSON or KML file of the area of interest to be mapped  
 

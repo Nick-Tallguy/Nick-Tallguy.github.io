@@ -65,7 +65,7 @@ category: beginner
 
 **样式表** : 多数情况下指用于决定所需显示要素(如哪些道路)以及图中要素显示方式(道路颜色、线宽)的文本文件。
 
-**标签**: 标签描述了点线面等形状。每个标签由一个键值对构成，在OSM中记作“键=值”。例如highway=residential和name=Woodland Avenue。在本站教程中首次出现在[iD编辑器部分](/zh/beginner/id-editor/#basic-editing-with-id)。点线面通常有不止一个标签。有时选择恰当标签是个令人困惑的事。[Taginfo](https://taginfo.openstreetmap.org/)通过实际数据库中的标签统计信息、标签使用人数、标签使用地点等帮助你选择合适标签。该网站还提供来自维基或其他地方的标签信息。
+**标签**: 标签描述了点线面等形状。每个标签由一个键值对构成，在OSM中记作“键=值”。例如highway=residential和name=Woodland Avenue。在本站教程中首次出现在[iD编辑器部分](/zh_CN/beginner/id-editor/#basic-editing-with-id)。点线面通常有不止一个标签。有时选择恰当标签是个令人困惑的事。[Taginfo](https://taginfo.openstreetmap.org/)通过实际数据库中的标签统计信息、标签使用人数、标签使用地点等帮助你选择合适标签。该网站还提供来自维基或其他地方的标签信息。
 
 **TIGER** : 美国统计局于2007年导入OSM的数据源。这是OSM美国地区最主要的数据源。
 

@@ -38,7 +38,7 @@ Changing the background aerial imagery
 另请参阅
 —
 
-请参阅 [main iD article on this site](/en/beginner/id-editor/#configuring-the-background-layer).  
+请参阅 [本站上的主要iD文章](/zh_CN/beginner/id-editor/#configuring-the-background-layer)。  
 
 [航空]: /images/hot-tips/aerial.gif "iD editor - changing the background imagery"
 [对齐]:/images/hot-tips/align.gif "iD editor - aligning the imagery"

@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: HOT Remote Mapping  
+title: HOT远程测绘   
 permalink: /zh_CN/coordination/HOT-Remote-Response-Guide/ 
 lang: zh_CN
 category: coordination
@@ -10,7 +10,7 @@ category: coordination
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> Reviewed 2015-09-18  
+> 已审核 2015-09-18  
 
 The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.  
 
@@ -31,7 +31,7 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
 
 ### Editing Tools 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
+[iD](http://learnosm.org/zh_CN/beginner/id-editor/) - 由 [Mapbox](www.mapbox.com) 创建的基于web的编辑器，具有用户友好的界面。通常被认为是最好的编辑工具。你可以启动这个 [交互式iD编辑器教程](http://ideditor.com/) 来熟悉如何使用它。  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
@@ -56,7 +56,7 @@ This guide has been summarized and collected from a variety of existing tutorial
 
 #### Tutorials
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+[LearnOSM的远程测绘指南](http://learnosm.org/zh_CN/coordination/remote/)- 最全面的指南之一  
 
 [MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
 

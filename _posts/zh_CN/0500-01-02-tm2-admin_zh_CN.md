@@ -1,13 +1,13 @@
 ---
 layout: doc
 title: Tasking Manager 2 新建项目
-permalink: /en/coordination/tasking-manager-project-admin/
-lang: en
+permalink: /zh_CN/coordination/tasking-manager-project-admin/
+lang: zh_CN
 category: coordination
-navigation: skip
+导航：跳过
 ---
 
-** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/en/coordination/tm-disambiguation)**
+** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/zh_CN/coordination/tm-disambiguation)**
 
 # OSM Tasking Manager 2 项目管理
 
@@ -22,7 +22,7 @@ HOT 或 OSM 任务处理管理器通常被称为 **TM2，** 作为Tasking Manage
 
 ### OSM Tasking Manager 2中的访问级别
 OSM 任务管理器 2 有三个用户访问级别：
--** 用户 **-最基本的级别。用户可以登录 TM2 并使用其功能查找和选择映射项目并进行处理。这种使用级别在 [LearnoSM 中的 OSM Tasking Manager指南](/en/coordination/tasking-manager/)中详细描述。请注意，某些项目，例如处于草稿（即未发布）状态的项目对用户不可见。  
+-** 用户 **-最基本的级别。用户可以登录 TM2 并使用其功能查找和选择映射项目并进行处理。这种使用级别在 [LearnoSM 中的 OSM Tasking Manager指南](/zh_CN/coordination/tasking-manager/)中详细描述。请注意，某些项目，例如处于草稿（即未发布）状态的项目对用户不可见。  
 -** 项目经理 **-项目经理有权在 TM2 中创建和更新项目。  
 -** 管理员 **-管理员拥有访问权限，允许他们管理 TM2 中用户的访问级别。
 您需要项目经理访问级别才能使用 TM2 创建新项目。
@@ -77,7 +77,7 @@ OSM 任务管理器 2 有三个用户访问级别：
 -一个方形可能会被拆分，但之后没有选项可以将方形连接在一起以使它们再次变大。所以拆分时要小心
 -** 结论 ** 尝试自己绘制项目的某个区域，看看它有多容易以及将面临什么困难。这应该有助于你决定最佳的方形尺寸。允许拆分，但不是无限大-一些新手测绘人员会持续分割方格，直到它们太小以至于变得非常难以进行测绘。  
 
-### Arbitrary Geometries
+### 任意几何形状
 如果您上传了文件来定义项目区域，则该文件还可能包含有关您希望项目各个任务的确切形状的信息。如果 AOI 由一个多边形组成，则该项目将只有一个任务。一般是为特定场景而通常不需要这样做。
 
 ### 关于影像的注意事项
@@ -88,7 +88,7 @@ OSM 任务管理器 2 有三个用户访问级别：
 2.Bing在这个地区有相当大的云覆盖面。
 3.灾后评估需要更新的图像。
 
-如果Bing不足，那么 Mapbox 是下一个选择。只有当这两个来源都不符合您的要求时，您才应该寻找其他来源。
+如果Bing证明不够用，那么 Mapbox 是下一个选择。只有当这两个来源都不符合您的要求时，您才应该寻找其他来源。
 
 In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AOI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AOI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 
@@ -120,7 +120,7 @@ This establishes the project in the task manager and opens a screen where you ca
 
 Please use plain language as your target audience may not consist of native English speakers.
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as 
+1. 项目的标题应该已经揭示了应该绘制哪些实体。最好采用如下标题 
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
 2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
 3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
@@ -215,7 +215,7 @@ After entering the description, instructions, and any necessary information on t
 Out of date wiki entry - for update when this guide complete  http://wiki.openstreetmap.org/wiki/Tasking_manager_admin
 - end of hidden text-->
   
-### Proofread and Publish
+### 校对和发布
 Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
 
 ![TM Edit Project][]

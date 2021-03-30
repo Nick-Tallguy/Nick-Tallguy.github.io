@@ -21,7 +21,7 @@ QGIS（以前也被称为 Quantum GIS）是一个功能齐全的、开源的跨�
 ---------------------------
 
 The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-在前几章中介绍了 [Getting OSM Data](/en/osm-data/getting-data) 和 [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export).  
+在前几章中介绍了 [获取OSM数据](/zh_CN/osm-data/getting-data) 和 [使用Geofabrik和HOT导出](/zh_CN/osm-data/geofabrik-and-hot-export).  
 
 在本教程中，我们将使用 QGIS 中的内置下载功能。  
 

@@ -9,7 +9,7 @@ category: mobile-mapping
 使用Field Papers进行测量
 =============================
 
-> Reviewed 2016-08-10  
+> 已审核 2016-08-10  
 
 In this chapter we will see how we can record the coordinates of places without a GPS. We will use a tool called [Field Papers](http://fieldpapers.org/), which allows you to print a map of an area, draw on it and add notes, and load the paper back into JOSM, where you can add your locations to OpenStreetMap. You can also watch this 8-minute [Tutorial Field Papers video](http://www.youtube.com/watch?v=A_HGkBXZ69g&feature=youtu.be) on how to create an atlas and upload a snapshot.  
 
@@ -43,7 +43,7 @@ When you print a Field Paper, the paper comes with a square barcode on the botto
 创建和打印
 ----------------
 
-Open your web browser. In the address bar at the top of the window, enter the following text and press Enter: [fieldpapers.org](http://fieldpapers.org)
+打开你的浏览器。在窗口顶端的地址栏中输入下列内容并按回车：[fieldpapers.org](http://fieldpapers.org)
 The website should look something like this:  
 
 ![FieldPapers homepage][]
@@ -146,7 +146,7 @@ Before we can open the Field Paper in JOSM, we need to install the JOSM Field Pa
 
 ![FieldPapers JOSM plugin][]
 
-- Restart JOSM.
+- 重启JOSM.
 
 在 JOSM 中打开
 ------------

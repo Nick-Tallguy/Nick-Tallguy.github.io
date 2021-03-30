@@ -60,7 +60,7 @@ OSMTracker配置
 -  **默认图片源** 通过你通过新拍图片到app中，但你也可以选择相机中已存在的图片。  
 -  **屏幕一直开启** 如果你经常需要上传图片或记录音频时请开启，这也会比较费电 - 如果关闭则你每次操作时需要开启屏幕。  
 -  **屏幕显示风格** 当你看操作按钮困难时，通过这个选项来改变对比度和屏幕亮度来提高可视度。  
--  **预设按钮** 你可以设计和添加和选择你自己的按钮是否显示。参考 [see below](/en/mobile-mapping/osmtracker/#button-presets) 来获得详细设置。   
+-  **预设按钮** 你可以设计和添加和选择你自己的按钮是否显示。参考 [see below](/zh_CN/mobile-mapping/osmtracker/#button-presets) 来获得详细设置。   
 -  **背景地图** 点击和按住一条路径后，你可以看见路径信息，app也将从OpenStreetMap下载相应背景地图。  
 
 > 需要互联网才能下载地图。除非您愿意，否则不需要使用此功能。  
@@ -77,7 +77,7 @@ OSMTracker配置
 -  **恢复路径记录** 当你发现错误了一些路径记录需要重新记录时!  
 -  **显示** 显示路径，同时可能显示背景图如果您有互联网并且你已选择了**背景地图**.  
 -  **作为GPX文件导出** - 在编辑工具中编辑路径和路径点时需要用到。  
--  **上传到OpenStreetMap** 上传路径到OpenStreetMap - 你需要有一个OpenStreetMap账户 ([How to obtain explained here](/en/beginner/start-osm/)), 并且需要授于本app你账户的权限. 查看 [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) 了解为何上传路径对于OpenStreetMap非常重要.  
+-  **上传到OpenStreetMap** 上传轨迹到OpenStreetMap - 你需要有一个OpenStreetMap账户 ([这里解释如何获得](/zh_CN/beginner/start-osm/)), 并且需要将你账户的权限授于本app。查看 [GPS Traces - gpx files below](/zh_CN/mobile-mapping/osmtracker/#gps-traces--gpx-files) 来了解为何上传轨迹对于OpenStreetMap非常重要.  
 
 > **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
 

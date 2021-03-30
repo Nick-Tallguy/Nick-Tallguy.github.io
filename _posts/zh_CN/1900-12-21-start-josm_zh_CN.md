@@ -95,7 +95,7 @@ There are many different settings that you can customize in JOSM.  One setting t
 -   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
 
 > 很容易理解一幅地图包含这三类基本对象——
-> 点、线、面。而在OpenStreetMap，有专门的术语
+> 点、线、面。在OpenStreetMap，有专门的术语
 > 来称呼这些对象，你很快就会学到。在OSM上，点事实上被称为
 **节点(node)**，线被称为**路径(way)**，面被称为**封闭路径(closed way)**。
 > 这是因为面本身就是一条首尾相连的线。

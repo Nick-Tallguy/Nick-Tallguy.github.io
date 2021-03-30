@@ -102,9 +102,9 @@ OpenStreetMap包含来自全世界的地理数据。尽管只有一个数据库�
 -   如果点击了保存，你将被要求填写一个对你所做修改的描述。接着再点一次“保存”，你添加的内容就会被保存到 OSM数据库！
 
 
-iD编辑器是一个轻松编辑OpenStreetMap的好方法，你可以在[iD editor guide](/zh_CN/beginner/id-editor/)深入了解其使用方法。你也可以浏览[walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true)，这是一个探索编辑器的良好的互动方式
+iD编辑器是一个轻松编辑OpenStreetMap的好方法，你可以在[iD编辑器指南](/zh_CN/beginner/id-editor/)深入了解其使用方法。你也可以浏览[walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true)，这是一个探索编辑器的良好的互动方式
 
-然而，在[JOSM section](/en/josm/)中，我们将继续学习JOSM，它是一个提供更多功能的独立应用程序。欢迎继续摸索iD。一旦你有更多向OSM贡献数据的经验，你可以选择自己最喜欢用的编辑器——iD 或者JOSM。
+然而，在[JOSM section](/zh_CN/josm/)中，我们将继续学习JOSM，它是一个提供更多功能的独立应用程序。欢迎继续摸索iD。一旦你有更多向OSM贡献数据的经验，你可以选择自己最喜欢用的编辑器——iD 或者JOSM。
 
 小结
 -------
