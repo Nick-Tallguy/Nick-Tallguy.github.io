@@ -11,7 +11,7 @@ nosearch: true
 HOT提示 - 作为一个新手该如何开始 - iD编辑器和Tasking Manager
 ================
 
-这一系列简短指南的目标是志愿者使用Tasking Manager帮助援助机构绘制地图，但是所有 OpenStreetMap 测绘的基本原理都是一样的。测绘不复杂，但是让我们保持正确并继续改进地图！
+这一系列简短指南的目标是志愿者使用Tasking Manager帮助援助机构绘制地图，但是所有OpenStreetMap测绘的基本原理都是一样的。测绘并不复杂，让我们保持正确的方法并持续改进地图！
 
 使用菜单选择适合您的排序。  
 
@@ -24,15 +24,15 @@ HOT提示 - 作为一个新手该如何开始 - iD编辑器和Tasking Manager
 ![iD help]{: height="400px"}  
 ID 帮助菜单-在编辑时始终可用，其中包括一些可以参考的功略。    
   
-[iD shortcut list on wiki](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
+[wiki上的iD快捷方式列表](https://wiki.openstreetmap.org/wiki/ID/Shortcuts)  
 
 [OpenStreetMap wiki](https://wiki.openstreetmap.org/wiki/Main_Page)  
 
-[Blake Girardot's guide to West Africa Mapping](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
+[Blake Girardot的西非绘图指南](https://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)  
 
-If you are new to OpenStreetMap the following modules of our beginner section will be useful to you;  
+如果你是第一次使用OpenStreetMap，那么你可以查看下面的模块：  
 
--  [Introduction to mapping](/en/beginner/introduction/)  
+-  [测绘引言](/zh_CN/beginner/introduction/)  
 -  [OpenStreetMap.org](/zh_CN/beginner/start-osm/)
 
 

@@ -137,7 +137,7 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 
 ### Automated collection and uploading of gps tracks
 
-一旦正确配置，应用程序就可以在后台运行，自动录制路径并更具配置服务每天将它们上传。这将允许自动收集每日驾驶轨迹，帮助建立道路和行驶时间数据，供以后进行绘图或分析。配置完成后，拥有手机或其他 Android 设备的用户应该注意到该功能只对电池使用有些影响，而不必手动执行任何操作。需要进行一些测试后你会在电池使用和 GPS 路径的清晰度之间找到适当的平衡点。  
+一旦正确配置，应用程序就可以在后台运行，自动录制轨迹并更具配置服务每天将它们上传。这将允许自动收集每日驾驶轨迹，帮助建立道路和行驶时间数据，供以后进行绘图或分析。配置完成后，拥有手机或其他 Android 设备的用户应该注意到该功能只对电池使用有些影响，而不必手动执行任何操作。需要进行一些测试后你会在电池使用和 GPS 轨迹的清晰度之间找到适当的平衡点。  
 
 每天自动收集并上传到 OpenStreetMap 的示例配置，您需要调整以下设置：  
 
@@ -153,14 +153,14 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 #### Performance  
 
 * ** 记录之前时间 ** - 5  
-* ** 定位期间保持 GPS 开启 ** - 打开（关闭可能会导致GPS 路径 “跳跃”，当设备每次都需要 GPS 卫星时。）  
+* ** 定位期间保持 GPS 开启 ** - 打开（关闭可能会导致GPS 轨迹 “跳跃”，当设备每次都需要 GPS 卫星时。）  
 * ** 进移动时记录日志 ** - 开启  
 
 #### Auto send, email and upload  
 
 * ** 允许自动发送 ** - 开启  
 * ** 多久 ** - 每天输入 1440 分钟。如果您在执行时无法访问数据或 wifi，此设置可能会有问题。它应该从你启动设备或点击 “开始日志记录” 按钮开始计数，因此，如果你在早上启动它，它将在第二天早上同一时间上传。  
-* **OpenStreetmap**-允许自动发送以及您想要配置的任何其他设置，如果您对 GPS 路径有隐私问题，请进入可见性设置进行设置。  
+* **OpenStreetmap**-允许自动发送以及您想要配置的任何其他设置，如果您对 GPS 轨迹有隐私问题，请进入可见性设置进行设置。  
 
 
 ### Manually Recording Traces
@@ -221,11 +221,11 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 将轨迹导出到 OpenStreetMap 编辑器
 --------------------------------------------
 
-当你完成路径记录后，可以将路径导入 JOSM（或另一个 OpenStreetMap 编辑器，如 ID）。  
+当你完成轨迹记录后，可以将轨迹导入 JOSM（或另一个 OpenStreetMap 编辑器，如 ID）。  
 
-将 Android 设备连接到计算机（可以使用数据线、蓝牙或互联网连接），然后复制您捕获的 GPX 路径（可能还有多媒体文件）。在您的设备存储中，查找文件夹 /Android/Data/com.mendhak.gpsLogger/文件下的 GPX 路径  
+将 Android 设备连接到计算机（可以使用数据线、蓝牙或互联网连接），然后复制您捕获的 GPX 轨迹（可能还有多媒体文件）。在您的设备存储中，查找文件夹 /Android/Data/com.mendhak.gpsLogger/文件下的 GPX 轨迹  
 
-将 GPX 路径与 JOSM 和 ID 编辑器一起使用非常简单，就像将文件拖放到应用程序中（或者浏览器中的 ID地图编辑器）一样。  
+将 GPX 轨迹与 JOSM 和 ID 编辑器一起使用非常简单，就像将文件拖放到应用程序中（或者浏览器中的 ID地图编辑器）一样。  
 
 For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).  
 
@@ -255,7 +255,7 @@ If the JOSM editor is used, you can find instructions on how to use the GPX trac
 小结
 -------
 
-很棒！你已经被介绍了一款轻量级、节能电池的应用程序，你可以保留在 Android 设备中来录制路径，然后上传到 OSM，或者在你最喜欢的 OpenStreetMap 编辑器中使用。  
+很棒！你已经被介绍了一款轻量级、节能电池的应用程序，你可以保留在 Android 设备中来录制轨迹，然后上传到 OSM，或者在你最喜欢的 OpenStreetMap 编辑器中使用。  
 
 Android 版 GPSLogger 是另一种在没有专用 GPS 接收器的情况下收集现场数据的工具。并且在没有活动的互联网连接的情况下收集数据。  
 

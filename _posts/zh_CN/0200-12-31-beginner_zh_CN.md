@@ -29,7 +29,7 @@ nosearch: true
 -  [远程测绘指南](/zh_CN/coordination/HOT-Remote-Response-Guide/) 和 [人道主义测绘](/zh_CN/coordination/humanitarian/) 文章提供了一些背景知识
 - 主力工具是 [Tasking Manager](/zh_CN/coordination/tm-user/) ，你需要熟悉其工作流
 
-如果你是一个经验丰富的测绘员并想了解更多关于审核地图的信息，查看我们Task Manager向导 [章节](/zh_CN/coordination/tm-user/#validation) 了解整个过程
+如果你是一个经验丰富的测绘人员并想了解更多关于审核地图的信息，查看我们Task Manager向导 [章节](/zh_CN/coordination/tm-user/#validation) 了解整个过程
 
 ### 你想在移动设备上使用 OpenStreetMap 吗？
 

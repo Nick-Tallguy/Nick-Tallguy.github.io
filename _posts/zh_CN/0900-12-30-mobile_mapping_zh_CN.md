@@ -2,13 +2,13 @@
 layout: doc
 permalink: /zh_CN/mobile-mapping/
 lang: zh_CN
-title: 使用手机、GPS或纸绘图
+title: 使用手机、GPS或纸张绘图
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-使用手机、GPS或纸绘图
+使用手机、GPS或纸张绘图
 =============================
 
 > 审阅于 2015-07-14  

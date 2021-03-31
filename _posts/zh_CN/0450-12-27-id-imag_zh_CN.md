@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: 航拍图 & 校正 - iD编辑器
+title: 航拍影像 & 校正 - iD编辑器
 permalink: /zh_CN/hot-tips/imagery/
 lang: zh_CN
 category: hot-tips
 ---
 
-航拍图 & 校正 - iD编辑器
+航拍影像 & 校正 - iD编辑器
 ==========
 
-> 已创建 2019-06-28
+> 创建于 2019-06-28
 
 - TOC
 {:toc}
 
-Changing the background aerial imagery
+更改背景的航空影像
 --------------
 
 ![aerial][]
@@ -23,7 +23,7 @@ Changing the background aerial imagery
 
 通过调整亮度、对比度、饱和度和清晰度来帮助提升识别度。
 
-对齐背景航拍图
+对齐背景航拍影像
 
 ![align][]
 

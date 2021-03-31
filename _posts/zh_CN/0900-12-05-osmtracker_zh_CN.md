@@ -11,19 +11,19 @@ OSMTracker
 
   
 **本文涉及在Android中使用 OSMTracker - 这和在windows移动版中使用类似.**  
-OSMTracker允许创建一条带有一组点的gpx路径。同时带有地理位置的音频，图片和笔记也会被记录下。
+OSMTracker允许创建一条带有一组点的gpx轨迹。同时带有地理位置的音频，图片和笔记也会被记录下。
 
 快速入门
 -----------
 
 ![OSMTracker_1][]  
 
-1. 点击十字图标创建一条新路径。  
+1. 点击十字图标创建一条新轨迹。  
 2. 屏幕将改为显示按钮 - 等到它们不再变灰，这表示 GPS 已修复。  
 3. 开始你的路线，当你走到需要被记录的地方时按下相应音频，照片或记录的按钮记录相应信息。  
-4. 当你走完录下后，按下软盘图标来保存路径和点信息。  
-5. 如果需要转换路径成一个gpx文件，点击并按住列表中的路径，然后选择相应的选项。  
-6. 保存路径、图片和记录到你的电脑中然后上传到OSM。  
+4. 当你走完录下后，按下软盘图标来保存轨迹和轨迹点信息。  
+5. 要将航迹转换成一个gpx文件，点击并按住列表中的轨迹，然后选择相应的选项。  
+6. 保存轨迹、图片和记录到你的电脑中然后上传到OSM。  
 
 
 安装OSMTracker
@@ -40,7 +40,7 @@ OSMTracker配置
 
 -  **录音周期** - 选择录音周期，通常用户选择30秒.  
 -  **打开声音** - 推荐打开这个选项 - 当你开始和结束录音时，会有一声“哔”的提示。  
--  **重置身份验证**. 该按钮会一直变灰直到你上传一个gpx文件和授权OSMTracker上传路径到你的OpenStreetMap账户中.  
+-  **重置身份验证**. 该按钮会一直变灰直到你上传一个gpx文件和授权OSMTracker上传轨迹到你的OpenStreetMap账户中.  
 - **GPS 设置**  用于Android设备选择哪种方式来获得当前地址。推荐设置成 **高精度** 模式，设备将使用 GPS、Wi-Fi和移动网络来确定地址。  
  **启动时检测GPS** 当你启动OSMTracker时，如果GPS没有开启，程序会提示你开启。
 -  **忽略GPS时钟** 如果选中，程序会使用设备提供时间来而不是GPS信号提供的时间。  
@@ -52,7 +52,7 @@ OSMTracker配置
 
 > Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
 
--  **每个路径一个目录** 推荐这样做是因为所有音频、图片、文字记录和gpx路径将一日期和时间命名被保存在同样的文件夹中。  
+-  **每个轨迹一个目录** 推荐这样做是因为所有音频、图片、文字记录和gpx轨迹将一日期和时间命名被保存在同样的文件夹中。  
 -  **Filename for named tracks** 选项- 你可以选择你偏爱的文命名。  
 -  **GPX 文件精确度** 推荐勾选- 将返回一个包含误差范围数字的路径点结果。例如*Footpath (4.0m)*。当你上传数据到OSM时这个数据将帮助OSM来修正路线。  
 -  **使用HDOP近似值** 通过额外计算来提供位置精确度 (水平精度稀释 - Horizontal Dilution of Precision).  
@@ -61,22 +61,22 @@ OSMTracker配置
 -  **屏幕一直开启** 如果你经常需要上传图片或记录音频时请开启，这也会比较费电 - 如果关闭则你每次操作时需要开启屏幕。  
 -  **屏幕显示风格** 当你看操作按钮困难时，通过这个选项来改变对比度和屏幕亮度来提高可视度。  
 -  **预设按钮** 你可以设计和添加和选择你自己的按钮是否显示。参考 [see below](/zh_CN/mobile-mapping/osmtracker/#button-presets) 来获得详细设置。   
--  **背景地图** 点击和按住一条路径后，你可以看见路径信息，app也将从OpenStreetMap下载相应背景地图。  
+-  **背景地图** 点击和按住一条轨迹后，你可以看见轨迹信息，app也将从OpenStreetMap下载相应背景地图。  
 
 > 需要互联网才能下载地图。除非您愿意，否则不需要使用此功能。  
 
 -  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
 -  **方向**  设置允许屏幕旋转、水平或者垂直  
 
-路径列表
+轨迹列表
 --------------
 
 ![OSMTracker_2][]  
-完成初步调查、点击按钮、创建录音和拍照后，完成后，点击软盘图标以结束您的路径。现在按住列表中的路径，可用选项如下：  
+完成初步调查、点击按钮、创建录音和拍照后，完成后，点击软盘图标以结束您的轨迹。现在按住列表中的轨迹，可用选项如下：  
 
--  **恢复路径记录** 当你发现错误了一些路径记录需要重新记录时!  
--  **显示** 显示路径，同时可能显示背景图如果您有互联网并且你已选择了**背景地图**.  
--  **作为GPX文件导出** - 在编辑工具中编辑路径和路径点时需要用到。  
+-  **恢复轨迹记录** 当你发现错误了一些轨迹记录需要重新记录时!  
+-  **显示** 显示轨迹，同时可能显示背景图如果您有互联网并且你已选择了**背景地图**.  
+-  **作为GPX文件导出** - 在编辑工具中编辑轨迹和轨迹点时需要用到。  
 -  **上传到OpenStreetMap** 上传轨迹到OpenStreetMap - 你需要有一个OpenStreetMap账户 ([这里解释如何获得](/zh_CN/beginner/start-osm/)), 并且需要将你账户的权限授于本app。查看 [GPS Traces - gpx files below](/zh_CN/mobile-mapping/osmtracker/#gps-traces--gpx-files) 来了解为何上传轨迹对于OpenStreetMap非常重要.  
 
 > **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
@@ -121,7 +121,7 @@ GPS 路径 - gpx 文件
 
 ![OSMTracker JOSM][]  
 
-在gpx文件中，GPS路径由许多元素如‘路径’和‘路径点’组成。上图截屏中显示一个由OSMTrack工具创建并已被上传到JOSM中配以卫星图显示等待编辑的路径。路径正中的方形图标显示有一张照片 - 点击方形图标显示图片  
+在gpx文件中，GPS轨迹由许多元素如‘轨迹’和‘轨迹点’组成。上图截屏中显示一个由OSMTrack工具创建并已被上传到JOSM中配以卫星影像显示等待编辑的轨迹。轨迹正中的方形图标显示有一张照片 - 点击方形图标显示图片  
 
 如果你正在导航并使用 GPS 给你提供路线，你会在某个时候注意到它将 “重新计算”。这通常是因为其内部 GPS 位置与其预期道路或路径的位置不对应  - 存在误差，道路和路径很容易被创建在稍微错误的位置，之后在创建地图数据后也很容易修正道路。  
 志愿者们更新OpenStreetMap地图可以下载一个地区所有已经存在的路径并用它们：  

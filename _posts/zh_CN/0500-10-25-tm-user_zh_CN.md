@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tasking Manager Mapper Guide
+title: Tasking Manager测绘人员指南
 permalink: /zh_CN/coordination/tm-user/
 lang: zh_CN
 category: coordination
 ---
 
-# Tasking Manager Mapper Guide
+# Tasking Manager测绘人员指南
 
 
 ** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/zh_CN/coordination/tm-disambiguation)**
@@ -75,7 +75,7 @@ When you visit the [Tasking Manager](https://tasks.hotosm.org) homepage you can 
 
 * In case you already have an OpenStreetMap account, press `Log in`. See also the [QUICK START GUIDE](/en/coordination/tm-user/#quick-start-guide) step 4 and further.
 * If you don't have an OpenStreetMap account yet, choose `Sign up`. Provide your email address and name and confirm. 
-See also the [QUICK START GUIDE](/en/coordination/tm-user/#quick-start-guide) step 1 to 3.
+另请参阅 [快速入门指南](/zh_CN/coordination/tm-user/#quick-start-guide) 步骤1到3。
 
 ## 设置
 

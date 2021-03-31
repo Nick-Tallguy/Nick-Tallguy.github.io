@@ -55,7 +55,7 @@ Before a GPS receiver emits a location (also called a GPS fix), it must receive 
 
 2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
 
-创建路径
+创建轨迹
 -------------
 
 1.  From the main menu, select Tracks.
@@ -154,7 +154,7 @@ All your pictures are in the folder com.mictale.images on your SD card. You can 
 
     ![Arrow][]
 
-导出/保存路径
+导出/保存轨迹
 -------------
 
 1.  From the main menu, select Tracks. It shows the data from the current track you recorded.

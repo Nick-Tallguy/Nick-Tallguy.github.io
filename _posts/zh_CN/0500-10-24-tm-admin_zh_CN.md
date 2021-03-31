@@ -42,7 +42,7 @@ In order to login to the Tasking Manager an OpenStreetMap (OSM) account is neede
 
 ## Permissions
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
+最基本的用户级别是**测绘人员**。测绘人员能够登录到Tasking Manager中寻找并选择一个测绘项目进行工作。所有测绘人员的功能在 [LearnOSM Tasking Manager测绘人员 指南](/zh_CN/coordination/tm-user/)中都有描述。请注意，一些项目，如那些处于草稿状态（即未发布），或仅限于某些团队的项目，对普通测绘人员来说是不可见的。
 
 All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
 

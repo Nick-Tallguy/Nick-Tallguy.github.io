@@ -11,7 +11,7 @@ category: coordination
 
 # OSM Tasking Manager 2 项目管理
 
-OpenStreetMap Tasking Manager 2 对于执行地图马拉松、管理 HOT 激活或为新手测绘人员创建Tasking Manager至关重要。Tasking Manager 将工作划分为可管理的地理区块，从而减少了编辑冲突，尤其是对于大量不同地区的测绘人员而言。Tasking Manager 还通过为测绘人员提供一套一致的指令（例如 “测绘所有道路和建筑物”），从而帮助测绘准确性和数据质量。简而言之，Tasking Manager是您设置和指导开放式制图活动的工作流程的方式。本模块介绍 OSM  Tasking Manager成功测绘事件的基本管理。 
+OpenStreetMap Tasking Manager 2 对于执行地图马拉松、管理 HOT 激活或为新手测绘人员创建Tasking Manager至关重要。Tasking Manager 将工作划分为可管理的地理区块，从而减少了编辑冲突，尤其是对于大量不同地区的测绘人员而言。Tasking Manager 还通过为测绘人员提供一套一致的指令（例如 “测绘所有道路和建筑物”），从而帮助测绘准确性和数据质量。简而言之，Tasking Manager是您设置和指导开放式绘图活动的工作流程的方式。本模块介绍 OSM  Tasking Manager成功测绘事件的基本管理。 
 
  本指南专为需要 OSM Tasking Manager 的管理说明的人编写，包括为开放测绘事件（即 “地图马松”）创建和修改测绘项目的人员。本指南适用于 OSM 任务处理管理器的所有实例，包括 HOT 任务处理管理器 <http://tasks.hotosm.org/> 和 TeachoSM Tasking Manager<http://tasks.teachosm.org/>。OSM Tasking Manager的其他实例的列表可以在 [OpenStreetMap wiki] 找到 (http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager#Operational_installations_of_the_Tasking_Manager)
 

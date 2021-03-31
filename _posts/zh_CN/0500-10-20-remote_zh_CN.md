@@ -13,7 +13,7 @@ category: coordination
 
 远程测绘也被称为 '扶手椅测绘'，这可能是参加Mapathon时要执行的测绘类型。如果你对整个过程有更多的了解，它将帮助你理解需要什么。世界各地有很多人都参与到HOT的工作中，当你开始远程测绘时，你将成为该团队的成员，该团队具有许多可用的角色，包括（这不是完整的列表！）：
   
--  获取和准备卫星图像，  
+-  获取和准备卫星影像，  
 -  确保没有版权等法律问题，  
 -  与援助机构协调，  
 -  确保数据以援助机构可以使用的格式提供，例如Garmin地图、Osmand地图和特定项目的导出，  
@@ -44,7 +44,7 @@ category: coordination
 Take a few minutes to look at each of these - just a quick read so you know roughly what we are talking about, and where to refer back to when you need to:
  
 -  [OpenStreetMap.org section of LearnOSM](/en/beginner/start-osm/). This covers just the basics about OpenStreetMap, and reading this will help you a lot - it's not a big chapter so it won't take you long to read it all. While you are reading it, use the information to help you create an OpenStreetMap account, and to confirm it with the email link. Make sure you have a record of your username and password.
--  [Tasking Manager Section of LearnOSM](/en/coordination/tm-user/). You will need to know how to log into the Tasking Manager, find a particular project, select a square, and what to do with it. You need to read the whole chapter!  
+-  [LearnOSM的Tasking Manager部分](/zh_CN/coordination/tm-user/)。你将需要知道如何登陆Tasking Manager，查找特定项目，选择方形以及如何处理。你需要阅读完整个章节！  
 
 You may also like to view the short video's provided by [MapGive](http://mapgive.state.gov/learn-to-map/) - please be aware the OSM Tasking Manager has been upgraded since the video was made - the principles are the same but the colours have altered.
 

@@ -36,7 +36,7 @@ JOSM has some additional tools to make it easier to draw lines and shapes. These
 
 In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
 
-### Aligning nodes in a circle  
+### 将节点排列成圆  
 
 - Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
 
@@ -46,7 +46,7 @@ In order to apply the functions in this menu, you must first select a point, lin
 
 Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
 
-### Split Way  
+### 分割路径  
 
 This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
 

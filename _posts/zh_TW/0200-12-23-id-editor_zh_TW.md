@@ -44,22 +44,22 @@ iD 編輯器使用者界面
     繪製形狀 (多邊形)，*快速鍵* **3** ![image5][]{: height="24px"}  
     復原，*快速鍵* **Ctrl+z** ![image6][]{: height="24px"}  
     取消復原，*快速鍵* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    儲存變動，*快速鍵* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **地圖面板：**這個面板顯示多個設定選項：  
     放大，*快速鍵* **+** ![image9][]{: height="24px"}  
     縮小，*快速鍵* **-** ![image10][]{: height="24px"}  
     顯示你的位置 ![image11][]{: height="24px"}  
     背景圖像設定，*快速鍵* **b** ![image12][]{: height="24px"}  
     地圖圖資，*快速鍵* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    問題，*快捷鍵* **i** ![Issues][]{: height="24px"}  
     開啟說明文件，*快速鍵* **h** ![image13][]{: height="24px"}  
 4. **資訊面板：** 這個面板顯示多項資訊，像是比例尺和那些使用者在這一帶貢獻。  
 
-## Configuring the Background Layer
+##設定背景圖層
 
 點選**背景圖像設定**按鈕，或是使用*快速鍵* **b** ![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+你可以**改變背景圖層""來選擇你想要的圖磚提供商 (預設是 Bing 空照影像)。  
 
 你可以按**客製化**新增你自己的地圖圖磚。舉例來說，如果你想要**新增 Field Paper** [^fieldpaper]，點選**客製化**，接著按放大鏡 (搜尋) 圖示開啟視窗 :-  
 ![image17][]   
@@ -67,9 +67,9 @@ You can **change the background layer** based on your desired tile provider (the
 要**顯示你電腦中的 GPS 軌跡** (GPX 格式)，拖拉你的 GPS 檔案到 iD 編輯器裡。  
 要啟用 **開放街圖 GPS 軌跡**，請點選方框。下面的圖片中，公共的 GPS 軌跡用不同顏色顯示，表示旅行的方向。  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+要改變**影像外觀**請點選**顯示選項**。  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+如果{影像偏移}(/zh_TW/josm/aerial-imagery)，你可以藉由點選**調整影像偏移****校正影像偏移**。  
 ![image18][]  
 
 - 按位移按鈕移動影像。按重設鍵回到原先的位置。![image20][]  
@@ -86,7 +86,7 @@ If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the ima
 - 注意你加了新點了。同時在左邊面板會變成能夠填寫物件詳細資訊的表格型式。點**醫院用地**能夠將節點標示為醫院。  
 ![image22][]  
 - 你可以用表格來填寫你的節點詳細資訊。你可以填寫醫院名稱、地址、和/或其他附加資訊。注意每一個圖徵會有不同選項，端示選了圖徵面板中那個標籤。  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- 如果你做錯了，像是標錯位置，你可以按住滑鼠左鍵將點拖移到新的位置。或者是你可希望刪除點，請在點按滑鼠左鍵，然後按滑鼠左鍵啟動內容清單，按著點像是垃圾筒的圖示。![PointToolDelete][]{: height="24px"}  
 iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點」。  
 
 ### 繪製線條  

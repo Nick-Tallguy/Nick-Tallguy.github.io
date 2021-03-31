@@ -6,7 +6,7 @@ lang: zh_CN
 category: josm
 ---
 
-JOSM Building Tools & Utilsplugin2 plugins
+JOSM建筑物工具和Utilsplugin2插件
 ============
 
 > 已审核 2016-09-12  

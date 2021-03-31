@@ -10,108 +10,108 @@ category: josm
 ==================
 
 
-We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+我们现在已经涵盖了绘制OpenStreetMap的所有构件。在 [使用智能手机、GPS或纸张绘制地图](/zh_CN/mobile-mapping/) 章节，你可以看到如何使用移动工具来勘测一个区域。
 
-In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
+在这一章中，我们将再次回到JOSM，并看一下迄今为止我们尚未涉及的几个新概念。
 
 JOSM图层
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
+如果你学习了这么久，可能已经注意到，我们可以在JOSM中添加各种不同的东西。我们可以下载OSM数据，添加必应卫星影像，加载GPS轨迹和轨迹点，并添加Field Papers——所有这些都会显示在JOSM的地图窗口中。
 
-You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
+你可能还注意到了，每当你向JOSM添加新内容时，JOSM右侧的 "图层 "面板上就会多出一个项目。根据你打开的内容，你的图层面板可能看起来像这样：
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
+这个列表中的每一项都代表了你在地图窗口中打开的不同数据源。在这个例子中，“数据层1”是我们正在编辑的OpenStreetMap数据。"Field Papers”是我们在JOSM中添加Field Paper时创建的图层。
 
 如果你添加了必应卫星影像，图层面板上会有另一个“Bing Sat (必应卫星)”的图层。
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
+图层的概念往往很难理解。一个很好的想象方式是，每个图层都像一张半透明的纸，它们都是叠在一起的。每张纸上都有某种类型的信息，它们可以按照你喜欢的方式重新排列。
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
+作为参考的图层，如卫星影像、GPS轨迹和Field Papers，通常被称为 "基础图层"。OSM数据图层是你实际使用的图层。
 
--   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
+-   要移动一个图层，在 "图层 "面板中点击它，然后点击向上或向下的箭头来移动它。
 
 ![Layers up down][]
 
--   To hide a layer, select it with your mouse and click the Show/Hide button:
+-   要隐藏一个图层，用鼠标选择它，然后点击显示/隐藏按钮：
 
 ![Layers show hide][]
 
--   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
--   You can remove a layer by selecting it and using the delete button:
+-   你应该看到你选择的图层在地图窗口中消失。再次点击 "显示/隐藏"，它就会重新出现。
+-   你可以通过选择图层并使用删除按钮来删除图层：
 
 ![Layers delete][]
 
--   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
--   To make a layer active, select it in the Layers panel, and click on the Activate button:
+-   最后，重要的是，你只能编辑被JOSM认为是*活动的图层。如果你无法在地图窗口中编辑地图，那可能是因为你没有将正确的图层设置为活动图层。大多数图层，如GPS点、实地文件和卫星影像，都不能被编辑。唯一可以编辑的图层是来自OpenStreetMap的数据，通常被称为 "数据图层1"。
+-   要使图层处于活动状态，在“图层”面板中选择它，然后点击“激活”按钮。
 
 ![Layers activate][]
 
 
 利用GPS数据和Field Papers
 -------------------------------
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
+在 [使用手机、GPS或纸张绘图](/zh_CN/mobile-mapping/) 章节中，我们看到了如何用GPS和实地纸质地图收集数据，以及如何将其作为一个图层加载到JOSM中。
 
-Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
+一旦你用这些工具之一进行了调查，你仍然需要将信息以数字方式添加到OpenStreetMap中。
 
-You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+你用你之前学到的同样的过程来做这件事 - **下载、编辑、保存**。 不同的是，你不只可以使用卫星影像作为基础图层，还可以使用你的GPS数据、Field Papers、注记或它们的组合。
 
--   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+例如，假设你在JOSM中把GPS航点作为背景层，你在GPS上保存了一个名为030的航点，并且你在笔记本上写道030是一所学校。要将这个点添加到OpenStreetMap中，你将选择绘制工具，并在地图窗口中双击030点的顶部。这将创建一个点。然后进入预设组合菜单，找到学校的预设组合。输入学校的名称，然后点击“应用预设组合”。添加线条和形状也是一样的。
 
 ![GPS in JOSM][]
 
 标签
 ----
-When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
+你画一个点、线、面时，它有一个位置，但没有关于它是什么的信息。换句话说，我们知道它的**位置**，但不知道它**是什么**。在此之前，我们一直使用预设组合菜单中的项目来定义它**是什么**。OpenStreetMap知道对象**是什么** 的方式是通过 **标签（tags）**。
 
-A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
+标签就像一个签条，你可以给某个东西贴上标签。例如，如果我们画一个正方形，它只是一个正方形。但我们再给它添加属性，描述它是什么：这个正方形是一栋建筑；建筑的名字是 "Menara Thamrin"；建筑有16层高。
 
-You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
+你可以为一个对象添加任意数量的标签，标签被保存为文本对，称为**键(keys)**和**值(values)**。在OpenStreetMap中，上面所写的标签实际上是：
 
 - building = yes
-- name = 优盛大厦
+- name = Menara Thamrin
 - building:levels = 15
 
-If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
+如果在JOSM中选择一个对象，可以在右侧的属性面板中看到所有附加在它之上的标签。
 
 ![Properties panel][]
 
 ### 编辑标签
 
-You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
+您可以从属性面板中添加、编辑和删除标签。然而，传统的标签都是英文的，有时可能会让人感到困惑，因此使用预设菜单通常更容易。当您添加或更改标签时，对象的属性也会改变。
 
-- 要编辑对象的标签，先选中它。
--   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
+-   要编辑对象的标签，先选中它。
+-   然后用两种方法之一编辑标签。（1）使用预设菜单，或（2）在右侧的属性窗口中直接编辑标签。
 
 ### 常见错误：误将本想用于线或面的标签打在节点上
 
-When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
+当您编辑一个点的属性时，你将首先选择该点，然后通过预设组合菜单或直接在属性面板中添加标签。一个常见的错误是在给点添加属性时添加了线条或形状的属性。当选择对象时，重要的是你要
 自己选中的应该是线，而不是构成线的点。
 
-This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
+这种情况经常发生，因为编辑者使用JOSM选择工具在对象周围画了一个框，这会导致所有的东西，包括线**和**节点都被选中，当你添加标签时，它们也会被应用到节点上。确保当你要给线条添加标签时，一定要**只**选择线条。
 
 ![Nodes mistake][]
 
 保存 OSM 文件
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
+当你在JOSM中进行编辑时，最好是在合理的短时间内下载、编辑并上传修改。你不希望在某一天下载数据，然后等到几天后再上传你的编辑。如果在这段时间里，别人编辑了同一个区域怎么办？这将导致错误和冲突。
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
+不要害怕经常上传你的编辑。这样可以保证你的修改会被保存到数据库中，你不会失去你辛苦工作的成果。
 
-If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
+如果你在一个区域内工作，最好每次要编辑时都下载地图数据，以防其他用户进行修改。
 
-Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
+虽然你应该在准备好编辑时总是尝试下载 OSM 数据，并经常上传您的更改，但在某些情况下，您可能希望将 OSM 数据保存在计算机上。例如，如果你与互联网的连接断断续续，你可能希望下载数据，保存数据，编辑，然后再上传你的更改。
 
--   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
+-   要保存 OSM 文件，请确保它 “图层”面板中的活动图层。点击顶部菜单中的“文件”，然后点击 “保存”。为文件选择一个位置，并给它起一个名字。你也可以通过点击这个按钮来保存：
 
 ![JOSM save button][]
 
--   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
+-   你现在可以关闭JOSM，你的数据将被保存。当你想再次打开文件时，只需打开JOSM，进入 “文件”菜单，然后点击 “打开...”
 
 小结
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
+在这一章中，我们仔细研究了一下JOSM界面，并了解了图层和标签。现在你应该对如何绘制地图和如何编辑OpenStreetMap有了一个坚实的基础。
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png
