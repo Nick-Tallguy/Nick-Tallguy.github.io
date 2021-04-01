@@ -14,7 +14,7 @@ Tracing roads, buildings, water and landuse
 Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
 
 
-Section Index
+章节索引
 =====
 
 [Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
@@ -91,7 +91,7 @@ Residential boundaries are used for many purposes in OpenStreetMap.
 *  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
 
 
-### <a name="residential-howto"></a> 土地利用要素=住宅区（landuse=residential） - 如何绘制
+### <a name="residential-howto"></a> 土地利用要素=居民区(landuse=residential) - 如何绘制
 
 
 ** In an ideal world **  

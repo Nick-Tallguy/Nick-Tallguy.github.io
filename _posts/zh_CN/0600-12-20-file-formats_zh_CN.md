@@ -6,60 +6,60 @@ lang: zh_CN
 category: osm-data
 ---
 
-File Formats
+文件格式
 =============
 
 > 已审核 2016-09-05
 
-Like any type of data, there are various ways of storing geographic data on a computer. It can be saved in a database, which is a specialized system for storing and retrieving data, and in fact there are database systems specifically designed for storing geographic data. It can also be stored in traditional computer files, though there are many different file formats for geographic data.  
+与任何类型的数据一样，在计算机上存储地理数据有多种方式。它可以保存在数据库中，数据库是专门存储和检索数据的系统，事实上，有专门为存储地理数据而设计的数据库系统。也可以存储在传统的计算机文件中，不过地理数据的文件格式有很多种。  
 
-In this section we'll go through a few ways of storing geographic data, explain how they work and how they're typically used.  
+在本节中，我们将介绍几种存储地理数据的方法，解释它们的工作原理以及它们通常是如何使用的。  
 
-.OSM Files
+.OSM文件
 -----------
 
-The **.osm** file format is specific to OpenStreetMap. You won't come across it elsewhere. If you have ever downloaded data using JOSM and saved it as a file, you may have noticed that the file is saved with the extension **.osm**. If you are a GIS user, you may also have noticed that it is not easy to open these files using software such as QGIS.  
+**.osm** 文件格式是OpenStreetMap所特有的。你不会在其他地方遇到它。如果你曾经使用JOSM下载过数据并将其保存为文件，你可能已经注意到文件的扩展名是**.osm**。如果你是一个GIS用户，你可能也注意到，使用QGIS等软件打开这些文件并不容易。  
 
-So why is OSM data stored in a file format that nobody else uses? The answer is that many geographic data formats predate the modern internet era, and are designed for quick access and querying like one would query a database. OSM data, on the other hand is designed to be easily sent and received across the internet in a standard format. Hence, **.osm** files are coded in XML, and contain geographic data in a structured, ordered format. A simple **.osm** file would look like this if viewed in a text editor:  
+那么，为什么OSM数据是以一种没有人使用的文件格式存储的呢？答案是，许多地理数据格式在现代互联网时代之前就已经存在了，而且是为了快速访问和查询而设计的，就像查询数据库一样。另一方面，OSM数据的设计是为了在互联网上以标准格式轻松发送和接收。因此，**.osm**文件是用XML编码的，并以结构化、有序的格式包含地理数据。如果在文本编辑器中查看，一个简单的**.osm**文件是这样的：  
 
 ![Sample OSM XML file][]
 
-Acquiring data in **.osm** format is easy - in fact you do it every time that you download data in JOSM, but using these files for analysis and map design is not easy. Hence you are better off converting the data into another format, or getting it from a service that converts the data for you.  
+获取**.osm**格式的数据很容易 - 事实上，每次下载JOSM中的数据时都会这样做，但使用这些文件进行分析和地图设计并不容易。因此，你最好将数据转换为另一种格式，或者从为你转换数据的服务中获取数据。  
 
-> Raw OSM data is stored in **.osm** files usually, but you may also see files ending in **.bz2** and **.pbf**. These are essentially **.osm** files that have been compressed to save space, which can be extremely helpful when working with large data files.  
+> 原始OSM数据通常存储在**.osm**文件中，但你也可能看到以**.bz2**和**.pbf**结尾的文件。这些文件基本上都是**.osm**文件，只是被压缩以节省空间，这在处理大型数据文件时非常有用。  
 
 Shapefiles
 ----------
 
-The **shapefile** is a widely used format for storing vector geographic data. It was developed by ESRI, the company that makes ArcGIS, a popular suite of GIS applications.  
+**shapefile**是一种广泛使用的矢量地理数据存储格式。它是由ESRI公司开发的，该公司制造了ArcGIS，这是一套流行的地理信息系统应用程序。  
 
-Shapefiles are actually a collection of several different files. For example, a shapefile that contains building data might have files with the following extensions:  
+Shapefile实际上是几个不同文件的集合。例如，一个包含建筑数据的shapefile可能有以下扩展名的文件。  
 
 -	buildings.**shp**
 -	buildings.**shx**
 -	buildings.**dbf**
 
-Shapefiles will often have additional files too which contain other information.  
+shapefiles通常也会有包含其他信息的附加文件。  
 
-A shapefile must be designated to hold only one type of feature (points, lines, or polygons), and each feature has it's attributes contained in a table. Unlike the OpenStreetMap system in which every object can have an unlimited number of tags, the attributes of features in a shapefile must fit into the shapefile's defined table structure, which might look something like this:  
+一个shapefile只能容纳一种类型的特征（点、线或多边形），每个特征的属性都包含在一个表中。与OpenStreetMap系统不同的是，在OpenStreetMap系统中，每个对象都可以拥有无限数量的标签，shapefile中的特征属性必须适合shapefile定义的表格结构，它看起来可能像这样。  
 
 ![Shapefile attributes][]
 
-OpenStreetMap data can be converted into shapefiles. Various websites provide shapefiles converted from OSM data. These are discussed in the [next chapter](/en/osm-data/getting-data).  
+OpenStreetMap数据可以转换为shapefiles。各种网站提供了从OSM数据转换而来的shapefiles。这些在 [下一章](/zh_CN/osm-data/getting-data)中讨论。  
 
-Databases
+数据库
 ---------
 
-Many types of information are stored in database systems, which provide a logical way of organizing and accessing data. Geographic data is no different, although databases designed for geodata are specialized to handle the complex functions that querying geographic data requires.  
+许多类型的信息都储存在数据库系统中，数据库系统提供了组织和获取数据的逻辑方法。地理数据也是如此，尽管为地理数据设计的数据库是专门用来处理查询地理数据所需的复杂功能的。  
 
-OpenStreetMap data is often stored in a PostgreSQL database with PostGIS extensions. This type of database provides fast access to the data and can be used easily with Mapnik, a piece of software that creates the map tiles used in web slippy maps. There are several tools available for importing raw OSM data into a PostgreSQL database.  
+OpenStreetMap数据通常存储在带有PostGIS扩展的PostgreSQL数据库中。这种类型的数据库提供了对数据的快速访问，并且可以很容易地与Mapnik一起使用，Mapnik是一个创建网络滑行地图中使用的地图磁贴的软件。有几种工具可用于将原始OSM数据导入PostgreSQL数据库中。  
 
-Another type of database is known as SQLite, which provides similar functionality as a PostgreSQL database, but is all stored in a single file and doesn't require database software to be running. These are a little more difficult to create yourself, but can be easier to work with for small sets of data.  
+另一种数据库被称为SQLite，它提供了与PostgreSQL数据库类似的功能，但都存储在一个文件中，不需要数据库软件运行。这些数据库自己创建起来比较困难，但对于小数据集来说，可以比较容易地进行处理。  
 
-Summary
+小结
 -------
 
-In the following chapters we will see how you can download data in various formats from the internet, and how you can use various tools to manipulate the raw data on your own.  
+在接下来的章节中，我们将介绍如何从互联网下载各种格式的数据，以及如何使用各种工具自行处理原始数据。  
 
 
 [Sample OSM XML file]: /images/osm-data/example_osm.png

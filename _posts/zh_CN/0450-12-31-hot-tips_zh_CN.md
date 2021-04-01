@@ -19,7 +19,7 @@ HOT提示 - 作为一个新手该如何开始 - iD编辑器和Tasking Manager
 ---------
 
 [![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - 一分钟教程视频")  
-* 提供某些语言的字幕 *  
+*提供某些语言的字幕*  
 
 ![iD help]{: height="400px"}  
 ID 帮助菜单-在编辑时始终可用，其中包括一些可以参考的功略。    
@@ -38,5 +38,5 @@ ID 帮助菜单-在编辑时始终可用，其中包括一些可以参考的功�
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD help]:/images/hot-tips/iD-help.png "iD help menu - always available when you are editing which includes an optional walkthrough."
-[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team One-Minute Tutorial Videos"
+[iD帮助]:/images/hot-tips/iD-help.png "iD帮助菜单 - 在你编辑时始终可用，其中包括一个可选的演示。"
+[one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team 一分钟视频教程"

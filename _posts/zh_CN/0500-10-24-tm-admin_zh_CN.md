@@ -9,9 +9,9 @@ category: coordination
 # Tasking Manager Administrator Guide
 
 
-** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/zh_CN/coordination/tm-disambiguation)**
+**如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/zh_CN/coordination/tm-disambiguation)**
 
-Section Index
+章节索引
 -------------
 -  [Login and access](/en/coordination/tm-admin/#login-and-access)
 -  [Permissions](/en/coordination/tm-admin/#permissions)

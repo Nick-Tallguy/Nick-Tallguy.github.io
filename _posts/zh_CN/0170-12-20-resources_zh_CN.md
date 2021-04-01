@@ -21,9 +21,9 @@ category: resources
 ### ID
 
   * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 使用iD地图编辑器的互动教程
-  * [包含本指南内容的演示幻灯片](/files/iD-editor-training.pptx) 一份不错的ppt文档介绍如何使用iD地图编辑器
+  * [包含本指南内容的演示幻灯片](/files/iD-editor-training.pptx) 一份不错的ppt文档介绍如何使用iD编辑器
   * [HOT视频教程](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) iD和JOSM相关的视频资源
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) 一些关于在iD中创建标签，建筑物，街等的小视频
+  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) 一些关于在iD中创建标签，建筑物，公路等的小视频
   * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) 一些关于OpenStreetMap中用到的标签、层、关系等不同方面概念的在线课程
 
 ## Mapathons 和一些类似事件

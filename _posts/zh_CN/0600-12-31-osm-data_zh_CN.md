@@ -8,19 +8,19 @@ cover: yes
 nosearch: true
 ---
 
-OpenStreetMap Data
+OpenStreetMap数据
 ==================
 
-OpenStreetMap is a massive database of geographic data, and it's all open and free. But how do you access the data? In this section we'll discuss in greater detail how OSM data is organized, and how you can access and use the data that you are interested in.  
+OpenStreetMap是一个庞大的地理信息数据库，而且是完全开放和免费的。但是你该如何访问这些数据呢？在本节中，我们将更详细地讨论OSM数据是如何组织的，以及你如何访问和使用你感兴趣的数据。  
 
 <!--
-We'll cover:
+我们将介绍：
 
--	OSM Data: An Overview
--	Geographic File Formats and the .osm file
--	Getting Data
--	OSM Data and Databases
--	Manipulating OSM files with Osmosis
--	The OverPass API
+-	OSM数据：概述
+-	地理文件格式和.osm文件
+-	获取数据
+-	OSM数据和数据库
+-	使用Osmosis处理OSM文件
+-	API通行证
 
 -->

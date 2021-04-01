@@ -11,7 +11,7 @@ category: osm-data
 
 > 已审查 2015-07-19
 
-QGIS（以前也被称为 Quantum GIS）是一个功能齐全的、开源的跨平台地理信息系统。使用 QGIS，您可以随时访问最新的 OSM 数据，选择要包含的标签，然后轻松将其导出到易于使用的 SQLite 数据库或 Shapefile 中。  
+QGIS（以前也被称为 Quantum GIS）是一个功能齐全的、开源的跨平台地理信息系统。使用QGIS，您可以随时访问最新的OSM数据，选择要包含的标签，然后轻松将其导出到易于使用的SQLite数据库或Shapefile中。  
 
 在本章中，我们将介绍执行此操作所需的步骤。我们假设你已经下载并安装了 QGIS 2.x。如果你还没有这样做，你可以从 <http://www.qgis.org/en/site/forusers/download.html> 下载它。  
 

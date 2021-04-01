@@ -69,7 +69,7 @@ iD编辑器用户界面
 ![osm gps traces][]  
 点击 **显示选项** 来改变 **图像外观**  
 ![DisplayOptions][]  
-如果有[imagery offset](/zh_CN/josm/aerial-imagery)选项，你可以点击 **天正图像偏移**来校正图片位置  
+如果有[imagery offset](/zh_CN/josm/aerial-imagery)选项，你可以点击 **调整影像偏移**来**校正影像位置**  
 ![image18][]  
 
 点击方向按钮可以移动影像，点击重置按钮可以恢复到默认位置。 ![image20][]  

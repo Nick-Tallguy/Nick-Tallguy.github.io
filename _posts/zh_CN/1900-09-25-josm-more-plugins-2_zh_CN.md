@@ -1,38 +1,38 @@
 ---
 layout: doc
-title: Opendata Plugin - data from a spreadsheet
-permalink: /en/josm/opendata-plugin/
-lang: en
+title: Opendata插件 - 来自电子表格的数据
+permalink: /zh_CN/josm/opendata-plugin/
+lang: zh_CN
 category: josm
 ---
 
-Opendata Plugin - using data from a spreadsheet
+Opendata插件 - 来自电子表格的数据
 ============
 
 
 - TOC
 {:toc}
 
-This guide describes how to add data to OpenStreetMap which may be in the form of a spreadsheet, probably obtained by a field survey using a tool such as ODK collect or Kobo collect.  
+本指南介绍了如何将数据添加到OpenStreetMap中，这些数据可能是以电子表格的形式，可能是通过使用ODK collect或Kobo collect等工具进行实地调查获得的。 
 
-**Please note - if the data you are planning to add to OpenStreetMap may be termed an 'import' then you should consult the [Import Guidelines page of the OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Import/Guidelines). If you are in any doubt it is best to consult first!**
+**请注意 - 添加到OpenStreetMap的数据可能被称为 "导入"，如果你计划这么做，那么你应该查阅 [OpenStreetMap Wiki的导入指南页面](https://wiki.openstreetmap.org/wiki/Import/Guidelines)。如果你有任何疑问，最好先咨询一下！**
 
 
-Installing the Opendata Plugin
+安装Opendata插件
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+如果你还没有安装，请按照 [JOSM插件](/en/josm/josm-plugins)中的说明安装这个插件。 
 
 ![Opendata][]
 
-Once installed, you may click on ![Opendata preferences][]   
-to access any of the more specific modules.  
+安装完毕后，你可以点击 ![Opendata preferences][]   
+来访问任何模块。 
 
 ![Opendata modules][]
 
-This guide is using the basic functionality, and no modules are being loaded.   
+本指南使用的是基本功能，没有加载任何模块。   
 
-Preparing the spreadsheet  
+准备电子表格  
 -------------------------
 
 The wiki page at <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> provides more detailed information about formats which can be used. For our purposes we are assuming that the spreadsheet has been downloaded and passed to us in the proprietry **.xlsx** which will not load into the opendata plugin.  
@@ -48,7 +48,7 @@ The Opendata plugin is very good at extracting the latitude and longitude from s
 
 ![latitude longitude][]
 
-becomes;  
+成为;  
 
 ![latitude longitude corrected][]
 
@@ -163,7 +163,7 @@ When you have updated the information from one line of the spreadsheet, use the 
 [5 selected]: /images/josm/opendata-5-selected.png
 [opendata todo add]: /images/josm/opendata-todo-add.png
 [opendata todo loaded]: /images/josm/opendata-todo-loaded.png
-[download]: /images/josm/josm-download-button.png
+[下载]: /images/josm/josm-download-button.png
 [download dialog]: /images/josm/josm_download-dialog.png
 [download new layer]: /images/josm/download-as-new-layer.png
 

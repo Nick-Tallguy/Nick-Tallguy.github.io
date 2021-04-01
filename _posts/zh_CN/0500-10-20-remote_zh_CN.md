@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: 远程，扶手椅或Mapathon编辑
+title: 远程、扶手椅或Mapathon编辑
 permalink: /zh_CN/coordination/remote/
 lang: zh_CN
 category: coordination

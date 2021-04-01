@@ -1,102 +1,102 @@
 ---
 layout: doc
-title: Tasking Manager 3创建项目
+title: Tasking Manager 3 创建项目
 permalink: /zh_CN/coordination/tasking-manager3-project-admin/
 lang: zh_CN
 category: coordination
 导航：跳过
 ---
 
-# OSM Tasking Manager 3 Project Creation and Administration
+# OSM Tasking Manager 3 项目创建和管理
 
 
-** 如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/zh_CN/coordination/tm-disambiguation)**
+**如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [我们的版本概述](/zh_CN/coordination/tm-disambiguation)**
 
-Section Index
+章节索引
 -------------
 -  [登录 ](/zh_CN/coordination/tasking-manager3-project-admin/#logging-in-&amp;amp;-access-levels)  
--  [Initiate a new Project - define the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
--  [Task Creation - subdivide the area of interest](/en/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
--  [Create the Project - specify what your users need to know](/en/coordination/tasking-manager3-project-admin/#create-the-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tasking-manager3-project-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tasking-manager3-project-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tasking-manager3-project-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tasking-manager3-project-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tasking-manager3-project-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tasking-manager3-project-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tasking-manager3-project-admin/#instruction-notes)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
+-  [启动一个新项目 - 确定感兴趣的领域](/zh_CN/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)  
+-  [任务创建 - 细分感兴趣的领域](/zh_CN/coordination/tasking-manager3-project-admin/#initiate-a-new-project-within-tm3)
+-  [创建项目 - 告诉你的用户需要了解什么](/zh_CN/coordination/tasking-manager3-project-admin/#create-the-project)
+    -  [描述 - 用户了解你的项目的第一件事](/zh_CN/coordination/tasking-manager3-project-admin/#description)
+    -  [说明 - 用户应该做什么](/zh_CN/coordination/tasking-manager3-project-admin/#instructions)
+    -  [元数据 - 项目所属的地方](/zh_CN/coordination/tasking-manager3-project-admin/#metadata)
+    -  [优先区域 - 用户应从哪里开始绘制地图](/zh_CN/coordination/tasking-manager3-project-admin/#priority-areas)
+    -  [影像 - 绘制地图的基础](/zh_CN/coordination/tasking-manager3-project-admin/#imagery)
+    -  [权限 - 允许谁h绘制和审核](/zh_CN/coordination/tasking-manager3-project-admin/#permissions)
+    -  [帮助的提示 - 如何填写这些字段](/zh_CN/coordination/tasking-manager3-project-admin/#instruction-notes)
+    -  [发布 - 不要忘记，否则你永远无法完成工作](/en/coordination/tasking-manager3-project-admin/#proofread-and-publish)
 
-The OpenStreetMap Tasking Manager is essential to conducting a mapathon, managing a HOT activation, or creating mapping tasks for student mappers. The Tasking Manager divides the work into manageable geographic chunks, which reduces editing conflicts, especially with large numbers of distributed mappers. The Tasking Manager also helps mapping accuracy and data quality by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. This module describes the basic administration of the OSM Tasking Manager for successful mapping events. 
+OpenStreetMap Tasking Manager对于执行地图马拉松、管理HOT动员或为新手测绘人员创建Tasking Manager至关重要。Tasking Manager将工作划分为可管理的地理区块，从而减少了编辑冲突，尤其是对于大量不同地区的测绘人员而言。Tasking Manager 还通过为测绘人员提供一套一致的指令（例如 '绘制所有道路和建筑物'），从而帮助测绘准确性和数据质量。简而言之，Tasking Manager是您设置和指导开放式绘图活动的工作流程的方式。本模块介绍了OSM  Tasking Manager的基本管理，以便成功开展测绘活动。 
 
- This guide is specifically written for those persons who need instructions on administration of the OSM Tasking Manager, including the creation and modification of mapping projects for open mapping events, i.e. 'mapathons'. This guide is specifically applicable to instances of the OSM Tasking Manager version 3 including the [HOT Tasking Manager](http://tasks.hotosm.org) and the [TeachOSM Tasking Manager](http://tasks.teachosm.org).
+ 本指南是专门为那些需要OSM Tasking Manager管理说明的人而写的，包括为开放的地图活动，即 'mapathons'，创建和修改地图项目。本指南特别适用于OSM Tasking Manager version 3的实例，包括 [HOT Tasking Manager](http://tasks.hotosm.org)和 [TeachOSM Tasking Manager](http://tasks.teachosm.org)。
 
-The HOT or OSM Tasking Manager version 3 is frequently referred to as **TM3,** as a shorthand for Tasking Manager, version 3.
+HOT或OSM Tasking Manager version 3经常被称为 **TM3,**是Tasking Manager, version 3的简称。
 
 ## 登录和访问级别
 
-The first thing to understand is access level. All access to TMd is authorized through the [OpenStreetMap website](https://www.openstreetmap.org). To access TM3 you will need an OpenStreetMap (OSM) account. Once you have this account visit [the Tasking Manager](http://tasks.hotosm.org) and click **Login to OpenStreetMap**, which will refer you back to the OSM page where you can authorize the Tasking Manager to have limited access to your OSM account. 
+首先要了解的是访问级别。所有对TMd的访问都是通过 [OpenStreetMap website](https://www.openstreetmap.org)授权的。要访问TM3，你需要一个OpenStreetMap(OSM)账户。一旦你拥有这个账户，请访问 [Tasking Manager](http://tasks.hotosm.org) 并点击 **登录OpenStreetMap**，这将使你回到OSM页面，在这里你可以授权Tasking Manager对你的OSM账户进行有限访问。 
 
-### Access Levels within the OSM Tasking Manager 3
+### OSM Tasking Manager 3中的访问级别
 
-The OSM Tasking Manager 3 has three user access levels:
--  **User** - The most basic level. The user is able to login to TM3 and use its functionality to find and select a mapping project and work on it. This level of usage is fully described in [The OSM Tasking Manager guide within LearnOSM](/en/coordination/tasking-manager-3/). Note that some projects, such as those in draft (i.e. unpublished) state are not visible to users.  
--  **Project Manager** - Project managers have access to create and update projects within TM3.  
--  **Administrator** - Administrators have access that allows them to manage access levels of users within TM3.
+OSM Tasking Manager 3有三个用户访问级别：
+-  **用户** - 最基本的级别。用户可以登录TM3并使用其功能查找和选择测绘项目并进行处理。这种使用级别在 [LearnOSM 中的OSM Tasking Manager指南](/zh_CN/coordination/tasking-manager-3/)中详细描述。请注意，某些项目，例如处于草稿（即未发布）状态的项目对用户不可见。  
+-  **项目经理** - 项目经理有权在TM3中创建和更新项目。  
+-  **管理员** - 管理员拥有允许他们管理TM3中用户的访问级别的访问权限。
 
-You will need Project Manager Access level to create new projects using TM3.
+你需要项目经理访问级别才能使用TM3创建新项目。
 
-## Initiate a new Project within TM3 
+## 在TM3中启动一个新项目 
 
 ![TM New][]
 
-Click your username in the upper right corner, then **Create a New Project.** You then may choose between drawing your area of interest (AoI) on the map, or importing an area of interest from a geojson file;  
+点击右上角的用户名，然后点击**创建新项目。** 然后，你可以选择在地图上绘制兴趣区域(Area of interest,AoI)，或从geojson文件导入；  
 
-> Importing a file with a defined area is always preferable to hand drawing a Tasking Manager project. Tools like JOSM, QGIS, etc can be used to create files for importing into the Tasking Manager. The suggested workflow is to create a .osm file of the AoI using JOSM and then use http://geojson.io/ to generate a GeoJSON.
+> 导入具有定义区域的文件始终比手绘Tasking Manager项目更可取。JOSM、QGIS 等工具可用于创建要导入到Tasking Manager的文件。建议的工作流程是使用JOSM创建一个AoI的.osm文件，然后使用 http://geojson.io/ 生成一个GeoJSON。
 
-### Draw an area of interest to be mapped
+### 画出要绘制的兴趣区域
 
 1.点击右上角的 “绘制” 按钮。
-2. To draw a polygon representing the AoI in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest)  
+2. 要在地图框架中画一个代表AoI的多边形，按住鼠标右键移动地图，不要点击，这样会增加一个节点。多边形要严格限制在兴趣区域。这样可以节省完成不感兴趣的瓦片（如 海洋、森林）的时间来。  
 3.点击你的起点以完成多边形  
-4. After completing a polygon you can move the nodes or add new ones to get the area just as you want it.
+4. 完成一个多边形后，你可以移动节点或添加新的节点，以获得你想要的区域。
 
 或者
 
-### Upload a GeoJSON or KML file of the area of interest to be mapped  
+### 上传兴趣区域的GeoJSON或KML文件，以便绘制地图。  
 
 1.点击 “导入” 按钮，  
 2.在 “文件上传” 窗口中浏览至您的文件，  
 3.单击文件名以高亮显示该文件，然后单击 “打开”。  
-4. Imported areas of interest can not be edited.
+4. 导入的兴趣区域无法编辑。
 
 
-## Task Creation
+## 任务创建
 
-An AoI for a project is the large overall area to map. That area is then divided up into smaller areas called Tasks. 
+一个项目的AoI是要绘制的大的整体区域。这个区域再被划分为更小的区域，称为任务。 
 
-The AoI defined by the file upload or hand drawn will appear in the map frame, and you will then be asked to choose how the AoI is split into individual tasks. There are two options:  
+由文件上传或手绘定义的AoI会出现在地图框架中，然后你会被要求选择如何将AoI分割成单个任务。有两个选项：  
 
 1.方形网格-Tasking Manager将在完全相同大小的任务方块中统一划分整个项目区域。对于一般众图项目来说，这通常是一个非常好的主意。
-2. Arbitrary Geometries - If you uploaded a file to define your project area, that file can also contain the shapes for the individual task. There has to be a special need in the mapping to create custom task shapes. An import of roads project might need custom task shapes or the output from an AoI reduction process for example.
+2. 任意几何图形 - 如果你上传了一个文件来定义你的项目区域，这个文件也可以包含各个任务的形状。在制图中必须有特殊需求才能创建自定义任务形状。例如，一个道路项目的导入可能需要自定义的任务形状或AoI减少过程的输出。
 
 ### 使用方形网格作为任务方块
 
-To create uniform square tiles, select the Square Grid option.  
+要创建统一的方形瓦片，请选择“方形网格”选项。  
 
 ![TM Tile Sizes][]
 
-The AoI is automatically split into grid cells and each cell becomes a task. Determine the optimal tile size using the "Larger" and "Smaller" buttons to adjust the size of the Task squares. As such, a smaller tile size will result in more tasks. The optimal tile size will therefore depend both on the size of the area (create smaller tiles for a large project) and the number of features that will likely need to be mapped within each tile. Generally speaking, as the size of the AoI and/or the number of likely features increases, the tile size chosen for the project should decrease. 
+AoI会自动分割成网格单元，每个单元成为一个任务。使用"较大"和"较小"按钮确定最佳瓦片大小，以调整任务方块的大小。因此，较小的瓦片尺寸将导致更多的任务。因此，最佳的瓦片大小将取决于区域的大小（为大型项目创建较小的瓦片）和可能需要在每个瓦片中绘制的特征数量。一般来说，随着AoI的大小和/或可能的特征数量的增加，为项目选择的瓦片大小应该减少。 
 
-Please note that **there are multiple map layers available to use while determining Task square size**. The button in the lower right corner of the map will provide your list of options for map layer. Choosing one of the imagery layers is probably the best option as it lets you see the actual imagery to be mapped.
+请注意，**在确定任务方块大小时，有多个地图图层可供使用**。地图右下角的按钮将为你提供地图图层的选项列表。选择其中一个影像图层可能是最好的选择，因为它可以让你看到要绘制的实际影像。
 
-If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url.
+如果你有项目的自定义影像，你也可以通过使用地图右上角的按钮加载，并输入TMS或WMS网址。
 
-You can also create several different task sizes by using the "Split" tools. Task squares can be split multiple times. Again, using an imagery layer will help you decide where tasks need to be split. The "Reset" button will reset all of your split tasks. The Split (Polygon) option will let you draw a polygon over an area to create smaller tasks and the Split (Point) will let you click individual task squares to split. The Reset button will remove all of your custom splitting.
+你还可以通过使用"拆分"工具创建多个不同大小的任务。任务方块可以被多次分割。同样，使用图像层将帮助你决定在哪里需要拆分任务。"重置"按钮将重置你所有的拆分任务。“拆分（多边形）”选项将让你在区域上绘制多边形以创建更小的任务，而“拆分（点）”将让你点击单个任务方块进行拆分。重置"按钮将删除您所有的自定义拆分。
 
-> Generally you will want small tiles over dense settlement areas for buildings. The goal should be to create project tasks that can be completed in 10-15 minutes.
+> 通常，你会希望在建筑密集的居住区上划分小瓦片。目标应该是创建可以在10-15分钟内完成的项目任务。
 
-*** 决定切片大小之前的注意事项 ***
+***决定瓦片大小之前的注意事项***
 
 -地图马拉松的新手测绘人员将以大约相当于经验丰富测绘人员的四分之一的速度绘制区域（许多地方的开始速度要慢得多，但很快就会变得更快）。 
 -一个新手测绘人员发现在卫星影像中搜索要素与实际绘制它们一样困难。在圆形灌木区域寻找天然材料茅草的圆形小屋对于 “新比” 来说是一条陡峭的学习曲线。
@@ -104,48 +104,48 @@ You can also create several different task sizes by using the "Split" tools. Tas
 -在此过程的后期，您有机会让测绘人员 “拆分” 一个方形-将方形拆分为几个可以帮助新的测绘人员获得他们能够应对的大小。  
 -方形中最有可能出现问题的部分是边缘和角落。因此，较小的方格意味着越多的角和边缘，并将导致测绘的重复以及遗漏对象。权衡你制作方形的大小程度，这可能会使新手测绘人员工作变得更容易，并且由于边角和边缘更多，错误也会增加。
 -一个方形可能会被拆分，但之后没有选项可以将方形连接在一起以使它们再次变大。所以拆分时要小心
--** 结论 ** 尝试自己绘制项目的某个区域，看看它有多容易以及将面临什么困难。这应该有助于你决定最佳的方形尺寸。允许拆分，但不是无限大-一些新手测绘人员会持续分割方格，直到它们太小以至于变得非常难以进行测绘。  
+- **结论** 尝试自己绘制项目的某个区域，看看它有多容易以及将面临什么困难。这应该有助于你决定最佳的方形尺寸。允许拆分，但不是无限大-一些新手测绘人员会持续分割方格，直到它们太小以至于变得非常难以进行测绘。  
 
-After finalizing Task sizes, click “Next”.
+确定任务大小后，点击"下一步"。
 
-### Arbitrary Geometries
+### 任意几何形状
 
-It is possible if you uploaded a file to define your project area, it could also contain information about the exact shapes you want your project's individual tasks to be.  If the AoI consists of one polygon, the project will have just one task. This is generally not needed and should only be needed for specific needs.
+如果您上传了文件来定义项目区域，则该文件还可能包含有关您希望项目各个任务的确切形状的信息。如果AoI由一个多边形组成，则该项目将只有一个任务，通常不需要这样做，只是为了特定场景。
 
-Arbitrary geometries can not be split.
+任意几何形状不能分割。
 
-### Project Area Trim
+### 项目区域裁剪
 
-After determining the task sizes you will have the option to "Trim" your AoI. You can either trim the AoI to the exact polygon shape you drew or imported (suggested) or you can trim to the nearest task square that includes your AoI.
+确定任务尺寸后，你可以选择"裁剪"你的AoI。您可以将AoI修剪成你绘制或导入的准确多边形形状（建议），也可以修剪成包括 AoI 的最近的任务方块。
 
-After finalizing a the AoI trim, click “Next”.
+确定AoI裁剪后，点击"下一步"。
 
-## Create the project
+## 创建项目
 
-Give the project a title (can be edited on the next screen) and click "Create"
+给项目起一个标题（可以在下一个界面上编辑），然后点击“创建”
 
 这样就在Tasking Manager中建立了项目，并打开一个屏幕，在这个屏幕上可以提供项目的描述、说明和其他信息。请记住，这一点一定不能低估。相当一部分绘图者（在许多情况下是大多数）之前没有使用OpenStreetMap和/或HOT的经验，因此不熟悉标记指南。因此，明确项目的目标，并在此列出所有测绘人员应考虑的资源是非常重要的。通常建议将一个项目限制在一类要绘制的对象上。如果你需要一个区域的底图，最好把它分成几个项目，一个项目用于道路，一个项目用于建筑物等。现在，初学者可以专注于一小类对象，同时学习如何正确地绘制它们。否则，你可能最终会得到很多瓦片，这些瓦片包含了所有的东西，但没有真正完整的东西。
 
-Once the Project is created, you will need to edit all its associated settings:
+创建项目之后，你需要编辑所有相关的设置：
 
-- Description - Used for display in lists and motivational information for mappers
-- Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-- Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-- Imagery - Place to provide a TMS URL and License required.
-- Priority Areas - Allows you to specify parts of the Project that should be mapped first.
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Project due date and JOSM Presets.
-- Actions - Send messages to contributors, validate and invalidate the entire project with one click.
+- 描述 - 用于在列表中显示和激励绘图者的信息。
+- 说明 - 详细说明所要绘制的对象/实体/特征的内容和方法的。
+- 元数据 - 用于项目分类的附加信息。通常用于筛选整个项目清单。
+- 影像 - 提供TMS网址和许可证的地方。
+- 优先区域 - 允许你指定项目中应首先绘制的部分。
+- 权限 - 允许你限制对项目的绘制和审核的访问。
+- 设置 - 项目截止日期和JOSM预设。
+- 操作 - 向贡献者发送消息，一键审核和废止整个项目。
 
-### Description
+### 描述
 
 ![TM Description][]
 
-This screen allows you set the project priority, its status as Draft, Published, or Archived, a short description used in Project listings and the long description available once a mapper has selected the Project.
+在此界面上，你可以设置项目的优先级、其状态为草案、已发布或已归档、在项目列表中使用的简短描述以及测绘人员选择项目后可用的长篇描述。
 
-Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
+简短和长篇描述都应该提供项目存在的原因、谁将使用数据以及测绘将产生的预期影响等信息。这些字段支持Markdown文本，可以包括图像和视频。
 
-### Instructions
+### 说明
 
 ![TM Instructions][]
 

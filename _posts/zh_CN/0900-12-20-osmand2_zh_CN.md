@@ -290,7 +290,7 @@ Take some time to practice and familiarize yourself with the app before working 
 
 This section introduced the concept of using OsmAnd for collecting GPX tracks, modifying or deleting POIs, including adding, commenting or closing Notes/Bugs, and how to transfer these files to a PC.  
 
-Official OsmAnd Documentation
+OsmAnd官方文档
 -------------------
 
 Additional reference materials are available from the [help](http://osmand.net/help/) section of OsmAnd's website.  

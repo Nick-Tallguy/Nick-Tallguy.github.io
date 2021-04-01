@@ -14,7 +14,7 @@ category: hot-tips
 - TOC
 {:toc}
 
-iD editor - saving
+iD编辑器 - 保存
 ------------------
 
 ### 使用 ID 编辑器保存要点 ###
@@ -26,7 +26,7 @@ iD editor - saving
 
 ### 保存或上传到 OpenStreetMap-详细信息 ###
 
-定期保存您的工作。也许这在为 6 栋建筑绘图后。这在地图马拉松尤其重要，因为许多人都在同一时间从事同一件事。  
+定期保存您的工作，也许就在绘制这6栋建筑之后。这在地图马拉松尤其重要，因为许多人都在同一时间从事同一件事。  
 
 在已评论的末尾添加一条简单的评论解释你在所做的事情，例如 “**添加了几个建筑物**”。  
 
@@ -38,27 +38,27 @@ iD editor - saving
 
 尽管 OpenStreetMap 会在几秒钟内接受您的更改，但是某些程序、应用程序和设备使用保存的 OpenStreetMap 版本，该版本可能会在几周或几个月内无法更新。  
 
-Tasking Manager Finishing a square or stopping work before the square is finished  
+Tasking Manager 完成方形绘制或在结束前停止工作  
 -------------------------------------------------------------------
 
-When you think the square is finished, add a comment and mark the square as completely mapped.
+当你认为方形已经完成时，添加一个注释并将方形标记为完成绘制。
 
 ![Stop Mapping][]  
 
 如果你选择;
 
-- **¨Yes¨ on the question ¨Is this task completely mapped?¨** the square you were working on will turn blue to show it is complete and awaiting validation.  
-- **¨No¨ on the question ¨Is this task completely mapped?¨** the square will return to it's previous colour to show it needs more work. It is very helpful if your comment lets the next mapper know what needs to be done, such as  
+- **¨Yes¨ 关于这个问题 ¨这个任务是否已经完成绘制？¨** 你正在处理的正方形将变为蓝色，表明它已完成并且正在等待验证。  
+- **¨No¨ 关于这个问题 ¨这个任务是否已经完成绘制？¨** 方形将恢复为之前的颜色，表示它需要更多的工作。如果你的评论让下一个测绘人员知道需要做什么，这将非常有帮助，例如  
     -“方形右下角还有更多的建筑物要追踪，但我已经没时间了”  
 
-The whole Tasking Manager process only works if mappers mark squares as complete - even if you are very new and not sure, when you think it is completely mapped, choose ¨Yes¨ on the question ¨Is this task completely mapped?¨. The worst thing that can happen is that someone thinks there is a lot more to be done and invalidates your square. Most of us that have carried out a lot of mapping on the Task Manager have had at least one square invalidated - We all miss something at some point.  
+整个Tasking Manager过程只有在测绘人员将方形标记为完成的情况下才会起作用 - 即使你是新手，当你认为已经完全绘制，在 "这个任务是否完全被绘图了？"的问题上也不确定选择 "是"。最坏的情况是有人认为还有很多工作要做，从而使你的方形无效。我们中的大多数人在Tasking Manager上进行了大量的绘制，只要有一个方形无效 - 我们都会在某些时候错过一些东西。  
 
-OpenStreetMap 的发展是因为测绘人员们不断改进信息。有时候，新影像使得可以制作更详细的地图，有时会通过调查获取信息并将其添加到地图中。   
+OpenStreetMap的发展是因为测绘人员们不断改进信息。有时候，新影像使得可以制作更详细的地图，有时会通过调查获取信息并将其添加到地图中。   
 
 另请参阅  
 ---------
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "人道主义OpenStreetMap团队(HOT) - Tasking Manager 视频教程")  
 *提供某些语言的字幕*  
 
 

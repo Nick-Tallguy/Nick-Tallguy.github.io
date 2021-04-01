@@ -29,7 +29,7 @@ OSMTracker允许创建一条带有一组点的gpx轨迹。同时带有地理位�
 安装OSMTracker
 -------------------------
 
-Install OSMTracker from the [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
+从 [F-Droid](https://f-droid.org/en/packages/net.osmtracker/)安装OSMTracker。  
 ![OSMTracker Logo][]  
 
 
@@ -46,11 +46,11 @@ OSMTracker配置
 -  **忽略GPS时钟** 如果选中，程序会使用设备提供时间来而不是GPS信号提供的时间。  
 -  **GPS记录间隔** 选择记录路径的时间间隔 - 推荐设置为0或1，这样会每秒记录一次位置。  
 
-> The frequency affects battery usage, however when using this app. your screen is likely to be on most of the time, the gps working, and you may be taking photographs and recordings as well - all of these will result in a heavy battery drain and it is recommended for extended usage to use the device with the power augmented.  
+> 频率会影响电池的使用量，然而在使用这个应用时，你的屏幕很可能大部分时间都是开着的，gps也在工作，你可能也在拍照和录音，这些都会导致电池的大量消耗，建议在长时间使用的情况下，使用增强电源的设备。   
 
 -  **外部存储(SD)目录** 默认是 /osmtracker  
 
-> Most recent Android devices will not allow the saving of data in an external microSD or SD card. Although referred to as 'external storage' the tracks etc will actually be recorded in **/storage/emulated/0/osmtracker.**  
+> 大多数最新的Android设备将不允许在外部microSD或SD卡中保存数据。虽然被称为"外部存储"，但实际上轨道等将被记录在**/storage/emulated/0/osmtracker.**   
 
 -  **每个轨迹一个目录** 推荐这样做是因为所有音频、图片、文字记录和gpx轨迹将一日期和时间命名被保存在同样的文件夹中。  
 -  **Filename for named tracks** 选项- 你可以选择你偏爱的文命名。  
@@ -65,7 +65,7 @@ OSMTracker配置
 
 > 需要互联网才能下载地图。除非您愿意，否则不需要使用此功能。  
 
--  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
+-  **瓦片地图提供商** 如果你选择下载地图数据作为显示地图时的背景，你可以选择使用哪个版本的地图作为背景。  
 -  **方向**  设置允许屏幕旋转、水平或者垂直  
 
 轨迹列表
@@ -79,9 +79,9 @@ OSMTracker配置
 -  **作为GPX文件导出** - 在编辑工具中编辑轨迹和轨迹点时需要用到。  
 -  **上传到OpenStreetMap** 上传轨迹到OpenStreetMap - 你需要有一个OpenStreetMap账户 ([这里解释如何获得](/zh_CN/beginner/start-osm/)), 并且需要将你账户的权限授于本app。查看 [GPS Traces - gpx files below](/zh_CN/mobile-mapping/osmtracker/#gps-traces--gpx-files) 来了解为何上传轨迹对于OpenStreetMap非常重要.  
 
-> **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
+> **注意，先不要删除你的轨迹。** 你只上传了基本轨迹，没有上传航点、照片等。请保留所有内容，直到将其转移到电脑上进行编辑  
 
--** 删除 **   
+- **删除**   
 
 
 按钮预设
@@ -126,8 +126,8 @@ GPS 路径 - gpx 文件
 如果你正在导航并使用 GPS 给你提供路线，你会在某个时候注意到它将 “重新计算”。这通常是因为其内部 GPS 位置与其预期道路或路径的位置不对应  - 存在误差，道路和路径很容易被创建在稍微错误的位置，之后在创建地图数据后也很容易修正道路。  
 志愿者们更新OpenStreetMap地图可以下载一个地区所有已经存在的路径并用它们：  
 
-1. Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
-2. Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.  
+1. 绘制由于云层、树木、阴影、建筑物等原因无法通过卫星影像看到的地区的道路和路径。  
+2. 调整卫星影像，使其正确对齐 - 有些图像可能会有惊人的变化。  
 
 尽管单个 gpx 路径非常有用，但它可能不是特别精确有时候可能达 30 米误差。当有几条路径时，则正确路线很容易被选出 - 例如，请参阅下面的屏幕截图，其中显示了城镇中 一些gpx 路径，其中主要道路可以通过路径的数量看到。  
 
