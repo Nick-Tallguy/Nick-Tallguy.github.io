@@ -149,81 +149,81 @@ AoI会自动分割成网格单元，每个单元成为一个任务。使用"较�
 
 ![TM Instructions][]
 
-**Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
+**要绘制的实体** - 希望用户绘制的特征列表。一般来说，特征越少越好，因为它们更有可能被绘制完。
 
-> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
+> 要求绘制大量实体的项目对测绘人员来说很困难，也很难得到审核。它们需要更长的时间才能得到一个良好的可用数据集。不同的任务大小使不同类型的测绘有效地进行，例如，建筑物需要小的任务方块，而道路和水道需要较大的任务方块。在同一区域内做多个项目以获得建筑物和线性特征的绘制是一种最佳做法。
 
-**Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
+**变更集注释** - 这是默认的变更集注释，将附加到每个上传到 OSM 的数据。它的内容通常包括一些标识项目所在的Tasking Manager和绘制的特征。它通常用于“哈希标签(hash tags)”，以帮助识别请求和/或进行映射的组织。它还可以描述正在进行的测绘，例如， “建筑物测绘”。
 
-> Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
+> 应该指导用户对他们所绘制的内容填写有意义的评论，但用好的默认评论帮助他们是一个好主意。
 
-**Detailed Instructions** - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+**详细说明** - 这里是显示详细说明的主要地方，我们希望每个测绘人员和审核者都能仔细阅读并遵守。
 
-See the below notes on creating good instructions.
+请查看下面关于创建优秀说明的笔记。
 
-**Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
+**每项任务说明** - 当测绘人员选择一项任务时，将显示这些说明，并且还有一个特殊的功能，即允许根据典型的"滑动地图"x、y、z坐标制作任务的特定URL。
 
-### Metadata
+### 元数据
 
 ![TM Metadata][]
 
-> All of these fields should be filled out and will become non-optional in future versions of TM3.
+> 应填写这些所有字段，并将在TM3的未来版本中成为非可选的。
 
-**Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
+**测绘人员等级** - 这是测绘项目难度的指标。有 3 个选项：初级、中级和高级。此设置是向绘图者表明他们应该具备什么经验水平才能最成功地绘制这个项目。它可用于项目列表过滤，并可在“权限”界面中要求使用建议的级别。
 
-**Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
+**测绘类型** - 用于项目列表过滤，帮助测绘人员找到他们喜欢的项目。
 
-**Organization **- Allows you to specify the organization the mapping will be used by. Used in project filtering.
+**组织 **- 允许你指定将由什么组织使用测绘。用于项目筛选。
 
-**Campaign **- This allows you to group the project with other projects that are part of larger overall mapping effort. Used in project list filtering.
+**运动 **- 这允许你将项目与其他项目进行分组，这些项目是更大的整体测绘工作的一部分。用于项目列表过滤。
 
-### Priority Areas
+### 优先区域
 
 ![TM Priority Area][]
 
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+使用提供的工具来绘制应首先绘制的区域。你可以为一个项目设置多个优先区域。你也可以随时更改优先区域。
 
-> During disaster mapping, early in the event, having a large project AoI and using priority areas to focus mapping as new information comes in is a best practice.
+> 灾害测绘过程中，在事件发生的早期，有一个大的项目AoI，随着新信息的到来，利用优先区域进行重点测绘是一个最好的做法。
 
-### Imagery
+### 影像
 
-URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
+URL字段 - 一个字段，它采用TMS URL，将自动传递给测绘人员或审核者使用的OSM编辑器。请按照这个例子，正确的格式化对于所有编辑器中的工作是非常重要的。
 
-License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a licese that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+许可证 - 可选，如果有一个特定的许可证要求测绘人员在使用影像时接受，你可以在这里选择它。如果你需要的许可证是不可用的，你可以联系安装Tasking Manager的管理员，让他们添加它。
 
-### Permissions
+### 权限
 
 ![TM Permissions][]
 
-Mapper Level - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets.
+测绘人员等级 - 允许你要求测绘人员处于适当的等级，以便在项目上进行绘制（屏幕上面的元数据）。测绘人员等级可以手动设置，但会根据总变更集自动应用。
 
-Require Validator Role - This allows you to require that people doing validation have been evaluated to be qualified validators. It is a peer review process to designate someone a Validator, Project Managers and existing Validators can mark any user as a qualified Validator.
+要求审核者角色 - 这允许你要求做审核的人已经被评估为合格的审核者。这是一个同行评审的过程，然后指定某人为审核者。项目经理和现有的审核者可以将任何用户标记为合格的审核者。
 
-Private Project - This restricts access to the Project to a list of Users. Users must have logged into the Tasking Manager at least once before they can be added to a project.
+私有项目 - 只允许用户列表内的用户访问。用户必须至少登录过一次Tasking Manager，才能被添加到项目中。
 
-### Settings
+### 设置
 
-Default Locale - Allows the setting of default instructions language for a project.
+默认语言 - 允许设置项目的默认语言。
 
-### Actions
+### 行动
 
 ![TM Actions][]
 
-Message All Contributors - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+发送消息给所有贡献者 - 给每个已经标记任务完成或有效的人发送Tasking Manager消息。它可以用来感谢贡献者和/或引导他们到组合/运动中的其他项目。在使用下面描述的两个有效/无效所有任务选项中的任何一个之前，也应该使用它。
 
-Validate all Tasks - This will mark all tasks to "Green" validated status, with the exception of tasks that have been marked as "Bad Imagery"
+所有任务有效 - 将把所有任务标记为"绿色"已审核状态，但被标记为"不良影像"的任务除外。
 
-Invalidate all Tasks - This will mark all tasks to "Red" invalidated status, with the exception of tasks that have been marked as "Bad Imagery"
+所有任务无效 - 这将把所有任务标记为"红色"无效状态，但被标记为"不良影像"的任务除外。
 
-Delete Project - This will permanently delete the project from the Tasking Manager.
+删除项目 - 这将永久地从Tasking Manager中删除项目。
 
-Clone Project - This will create a duplicate of the project except for the AoI which you will need to re-import or re-draw.
+克隆项目 - 这将创建一个项目的副本，除了需要重新导入或绘制AoI。
 
-### Instruction Notes
+### 使用说明
 
-Please use plain language as your target audience may not consist of native English speakers.
+由于你的目标受众可能不是以英语为母语的人，因此请使用简单的语言。
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
+1. 项目的标题应该已经揭示出应该绘制哪些实体。最好采用如下标题：
 *#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
 2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
 3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.

@@ -10,7 +10,7 @@ Manipulating Data with Osmosis
 ===============================
 
 
-**Osmosis** is a powerful command-line tool for manipulating and processing raw **.osm** data. It is often used for processing large data files, for splitting OSM files into smaller pieces, and for applying a changeset to update an existing file.  
+**Osmosis** 是一个强大的命令行工具，用于操作和处理原始**.osm**数据。它通常用于处理大型数据文件，将OSM文件分割成更小的片段，以及应用变更集来更新现有文件。  
 
 There are a great many functions available with Osmosis, and you can read about each in detail on the [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). However many of the functions are quite complex and difficult to understand, particularly if you are just getting started with command-line programs and OpenStreetMap. This chapter will serve to introduce Osmosis, install it on Windows, and get started with a basic Osmosis command.  
 

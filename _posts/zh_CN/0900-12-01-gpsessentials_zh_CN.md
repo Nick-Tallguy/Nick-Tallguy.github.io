@@ -66,7 +66,7 @@ Before a GPS receiver emits a location (also called a GPS fix), it must receive 
 
 3.  Select Pause button to pause recording. If you want to continue recording, press it again.
 
-创建路径点
+创建航点
 -------------
 
 ### 使用便携式地图
@@ -99,7 +99,7 @@ Before a GPS receiver emits a location (also called a GPS fix), it must receive 
 
 4.  Repeat steps b and c until you are finished recording your desired waypoints.
 
-### 使用路径点页面
+### 使用航点页面
 
 1.  From the main menu, select Waypoints.
 
@@ -135,7 +135,7 @@ Saved Photos
 
 All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
 
-导出/保存路径点
+导出/保存航点
 -------------
 
 1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.

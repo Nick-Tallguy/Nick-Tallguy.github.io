@@ -192,7 +192,7 @@ iD与JOSM的比较
 - 网络连接不稳定或无网络时
 - 使用特定标签模式或自定义预设组合
 
-[^fieldpaper]:在[section of LearnOSM](/zh_CN/mobile-mapping/field-papers/) 有更多关于Field Papers的信息。
+[^fieldpaper]:在这个[LearnOSM的章节](/zh_CN/mobile-mapping/field-papers/) 有更多关于Field Papers的信息。
 
 
 

@@ -11,7 +11,7 @@ OSMTracker
 
   
 **本文涉及在Android中使用 OSMTracker - 这和在windows移动版中使用类似.**  
-OSMTracker允许创建一条带有一组点的gpx轨迹。同时带有地理位置的音频，图片和笔记也会被记录下。
+OSMTracker允许创建一条带有一组轨迹点的gpx轨迹。同时带有地理位置的音频，图片和笔记也会被记录下。
 
 快速入门
 -----------
