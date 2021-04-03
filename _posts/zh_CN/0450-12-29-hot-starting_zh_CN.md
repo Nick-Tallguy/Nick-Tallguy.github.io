@@ -2,7 +2,7 @@
 layout: doc
 title: 新建一个Tasking Manager - iD编辑器
 permalink: /zh_CN/hot-tips/getting-started/
-lang: zh:CN
+lang: zh_CN
 category: hot-tips
 ---
 

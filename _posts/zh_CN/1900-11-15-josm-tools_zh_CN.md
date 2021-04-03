@@ -60,63 +60,63 @@ JOSM有一些额外的工具，使其更容易绘制线条和形状。这些工�
 
 ### 反转与合并  
 
-If you are combining roads that have different directions, you might get this warning:
+如果你把不同方向的道路结合起来，你可能会收到这个警告：
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+如果道路相连，且方向一致，则选择"继续反转"。
 
 
-### Reverse Way
+### 反转路径
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+这将改变线条的方向。OSM中所有的线都有一个方向，在JOSM中通过线上的箭头来显示。方向通常并不重要，除非是单向的道路和河流，它们的流向是一定的。在这些情况下，你可能需要反转，使其走向正确的方向。
 
 ![Way direction][]
 
-### Simplify Way
+### 简化路径
 
-If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
+如果你的线有太多的点，而你又想让它更简单一些，这将从一条线上删除一些点。
 
 ![Simplify way][]
 
 
 ### 创建圆形
 
-Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+使用这个工具，可以创建一个更完美的圆。画一条代表你的圆的直径的线，然后应用这个工具。
 
 ![Create circle][]
 
 
 ### 排列节点为直线
 
-This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+这个功能将把一系列的点对齐成一条直线。对于长线，最好选择直线的部分进行直线化。要小心，因为这样做确实会使直线有一些移动的趋势。
 
 ![Align nodes in line][]
 
-### Orthogonalize Shape
+### 正交化形状
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+这个功能对于绘制建筑物等规则形状非常有用（**但也请参考 [OSM建筑物工具](/zh_CN/josm/josm-more-plugins/)**）。 绘制完一个区域后，这个功能会将其重塑为直角。
 
 ![Orthagonalize][]
 
 
 ### 拆开路径
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+这个工具允许你分离连接的节点。当两个对象共享一个节点时，它是非常有用的，因为它们不应该共享一个节点。例如，一个常见的错误是道路与建筑物的角落共享一个节点。当然，道路通常不会碰到建筑物，所以这是一个错误，你可以将对象从彼此之间解开。
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+*在移动它们之前，线条和节点实际上不会分开。*
 
 键盘快捷键
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
+一旦你开始大量编辑，你就会意识到你会浪费很多时间去点击菜单和子菜单。为了克服这个问题，JOSM几乎为所有的东西提供了键盘快捷键。
 
-This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
+这意味着，你可以简单地选择对象，然后按键盘上的一个键，而不是点击一个对象，然后经历一个冗长的菜单过程。
 
-All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
+上一节提到的所有工具都有快捷键，这些快捷键列在每个工具名称右边的工具菜单上。例如，"O"是
+将节点对齐成圆形的快捷键。"L"是将节点排成直线的快捷键。学习快捷键可能需要一些时间，但你会发现，它可以省去
 长期来说有很多时间。
 
 其它一些重要的快捷键（已加粗）
@@ -132,13 +132,13 @@ shortcut key to align nodes in a circle. "L" is the shortcut to align them in a 
 缩放和旋转
 ----------------
 
-A common question is how to rotate a line or shape after it has been drawn.
+一个常见的问题是，线条或形状画好后如何旋转。
 
-To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
+要旋转一个对象，首先选择它。按住键盘上的**SHIFT+CTRL**，点击并拖动鼠标进行旋转。
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
+要缩放对象（使其变大或变小），请按照相同的过程，但按住的是ALT+CTRL。
 
 在JOSM底部的信息栏中显示这些指示：
 

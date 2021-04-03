@@ -1,61 +1,61 @@
 ---
 layout: doc
-title: JOSM预设值
+title: JOSM预设组合
 permalink: /zh_CNjosm/josm-presets/
 lang: zh_CN
 category: josm
 ---
 
-JOSM Presets
+JOSM预设组合
 ============
 
 > 已审核 2016-09-17  
 
-If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
+如果你已经使用JOSM很长时间了，你现在应该对标签和预设组合有一定的了解。每一个对象都是由两样东西定义的--首先是它的几何（无论是点、线、还是形状及其位置），其次是它的属性，这些属性以标签的形式出现。  
 
-When you draw an object and select from the Presets menu, the correct tags are automatically applied to the object.  
+当你绘制对象并从预设组合菜单中选择时，正确的标签会自动应用到对象上。  
 
-If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
+如果你喜欢使用预设组合，那么当你想添加菜单中不包含的标签，或者你想自定义自己的标签时，该怎么办？  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+在这种情况下，您可以将自定义菜单项添加到预设组合中。在本节中，我们将看到如何做到这一点。在 [下一章](/zh_CN/josm/creating-presets)中，我们将介绍如何创建自己的自定义预设组合文件。  
 
 
-Add Presets
+添加预设组合
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+组成预设组合菜单的菜单和子菜单存储在文件中，这些文件描述了如何创建点击预设组合时出现的菜单和窗口，以及如何根据填写窗口的方式定义哪些标签添加到对象中。  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+预设组合文件可以从在线存档中添加，也可以保存在电脑上从本地添加到JOSM中。  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* 要在预设组合菜单中添加新条目，打开JOSM并进入 编辑 -> 偏好设置。  
+* 点击第三个选项栏，它看起来像一个覆盖地球的网格。  
 
 ![tagging presets tab][]
 
-* At the top, click on "Tagging Presets."  
+* 点击顶部的"标记预设组合"。  
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* 从互联网上添加预设组合文件，方法是在	左边的列表中选择一个，然后点击蓝色箭头。在本例中，我们将添加名为 "新标签 "的预设组合。  
 
 ![example presets][]
 
-* You will see a new item appear in the list on the right.  
-* Click OK.  
-* You will need to restart JOSM.  
-* Create a new layer and add a point or shape.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* 你会看到右边的列表中出现一个新项目。  
+* 点击确定。  
+* 你需要重新启动JOSM。  
+* 创建一个新图层并添加一个点或面。  
+* 进入"预设组合"菜单。你将在底部看到一个额外的条目，它扩展到标准JOSM安装所未包括的几个选项。  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* 大多数预设组合涵盖了相当具体的使用案例，因此，如果你要找到符合你兴趣的预设，请浏览列表。  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* 如果你获得了一个自定义预设组合文件，你可以用类似的方式将其添加到菜单中。只需返回"首选项"菜单，然后点击右上角的(+)按钮，而不是从列表中选择。  
 
 ![plus button][]
 
-* Locate your file and give it a name if you like.  
-* Click OK.  
+* 找到你的文件，如果你愿意，可以给它起个名字。  
+* 点击确定。  
 
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png

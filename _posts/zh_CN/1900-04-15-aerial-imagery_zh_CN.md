@@ -6,7 +6,7 @@ lang: zh_CN
 category: josm
 ---
 
-Aerial Imagery
+航空影像
 ================
 
 > 已审核 2015-09-21  

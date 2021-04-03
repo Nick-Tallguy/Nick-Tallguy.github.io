@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: 绘制道路、建筑物、水体和土地利用数据 
+title: 绘制道路、建筑物、水体和土地利用要素 
 permalink: /zh_CN/coordination/remote-tracing/
 lang: zh_CN
 category: coordination
 ---
 
-Tracing roads, buildings, water and landuse
+绘制道路、建筑物、水体和土地利用要素
 ===========================================
 
 > 2015年8月22日修订  

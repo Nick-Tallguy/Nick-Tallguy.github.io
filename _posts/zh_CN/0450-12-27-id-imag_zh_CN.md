@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: 航拍影像 & 校正 - iD编辑器
+title: 航空影像 & 校正 - iD编辑器
 permalink: /zh_CN/hot-tips/imagery/
 lang: zh_CN
 category: hot-tips
 ---
 
-航拍影像 & 校正 - iD编辑器
+航空影像 & 校正 - iD编辑器
 ==========
 
 > 创建于 2019-06-28
@@ -23,7 +23,7 @@ category: hot-tips
 
 通过调整亮度、对比度、饱和度和清晰度来帮助提升识别度。
 
-对齐背景航拍影像
+对齐背景航空影像
 
 ![align][]
 

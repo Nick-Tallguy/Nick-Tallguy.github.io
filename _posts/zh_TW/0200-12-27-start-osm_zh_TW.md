@@ -41,31 +41,31 @@ category: beginner
 觀看不同地圖樣式
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+開放街圖含有覆蓋全世界的地理資訊，儘管只是單一資料庫，這些資料可以被用不同方式解讀與呈現。要看呈現出什麼，可以研究開放街圖網站上各種不同的地圖"樣式"。
 
 -   按地圖視窗右側的圖層按鈕。
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+- 點不同地圖樣式選項，注意每一份地圖會怎麼變化。例如大眾運輸地圖，注重地圖上的交通運輸路線，而單車地圖則強調單車路線，所有讓一切可能的資料全都在 OSM 資料庫。
 
     ![Transport map][]
 
 建立開放街圖帳號
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
+-   現在你已經看到主要網站的樣子，現在可以註冊帳號與密碼，然後開始加東西到地圖上。
+-   在開放街圖網站上，點選頁面右上角的"註冊"。
 -   你應該看到這樣子的新頁面：
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
+-   要註冊開放街圖帳號需要填寫五個欄位。
+- 在前面兩個欄位輸入你的 email 地址，你應該在兩個欄位填寫一樣的 email 地址。幹著，你需要開啟你 email，然後確認你開放街圖的帳號。
+- 在第三個欄位當中，輸入你想要的使用者名稱，你不會想選一個已經有人選的名稱，所以需要有創意。如果你想輸入簡單的名稱，像是你的名字，很有可能有人已經選了。
+- 在第四個及第五個欄位輸入新的密碼，你應該在兩個欄位輸入相同的密碼，你應該不要選擇重要密碼，例如你 email 的密碼。
+- 你也許要寫下你的 OSM 使用者名稱與密碼，你之後登入時會需要。
+-   當你所有欄位都輸入完成，請點頁尾的「註冊」。
 -   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
 -   Have a look at your email.
 -   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:

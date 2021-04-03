@@ -21,7 +21,7 @@ Opendata插件 - 来自电子表格的数据
 安装Opendata插件
 --------------------------
 
-如果你还没有安装，请按照 [JOSM插件](/en/josm/josm-plugins)中的说明安装这个插件。 
+如果你还没有安装，请按照 [JOSM插件](/zh_CN/josm/josm-plugins)中的说明安装这个插件。 
 
 ![Opendata][]
 

@@ -97,22 +97,22 @@ iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點�
 ![image24][]  
 - 就像是加點，選擇對線段最適合的標籤。  
 - 你可以藉由用左鍵按線段的點，來拖拉線段的點。  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- 當你對著單獨在線段的節點點滑鼠左鍵，或者點滑鼠右鍵或是按空白鍵啟動內容選單，你會看到以下工具：  
+  - 從這節點繼續這一線段 ![PointToolContinue][]{: height="24px"}  
+  - 從此節點分離線段 ![PointToolDisconnect][]{: height="24px"}  
+  - 從此節點分割為兩個線段。 ![PointToolSplit][]{: height="24px"}  
+  - 刪除線段上的點。[PointToolDelete][]{: height="24px"}  
 - 當你對著線段按滑鼠左鍵(但不是在點上)，你會看到這些工具：  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  - 從線段新增圓圈 (只有在線段封閉時才有作用) ![LineToolCircularize][]{: height="24px"}  
+  - 從別的物件分離線段 ![LineToolDisconnect][]{: height="24px"}  
+  - 移動線段 ![LineToolMove][]{: height="24px"}  
+  - 方角化所有角落 ![LineToolSquare][]{: height="24px"}  
+  - 從短軸來映射線段 ![LineToolReflectShort][]{: height="24px"}  
+  - 從長軸來映射線段 ![LineToolReflectLong][]{: height="24px"}  
+  反轉線段方向 (通常用在河流和單行道) ![LineToolReverse][]{: height="24px"}  
+  - 從中心旋轉線段 ![LineToolRotate][]{: height="24px"}  
+  - 拉直線段 ![LineToolStraighten][]{: height="24px"}  
+  - 刪除線段。![LineToolDelete][]{: height="24px"}  
 
 iD 編輯器的「線」通常是上面有標籤的「線段」。
 
@@ -139,13 +139,13 @@ iD 編輯器的「線」通常是上面有標籤的「線段」。
 
 ![多重多邊形部分][]
 
-## Issues
+## 問題
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+編輯器允許你編輯進行下進行一些檢查，例如說通知你有檢查到可能造成問題的編輯。當右側問題圖示出現時，可能是出現黃色 (警告)，或是紅色 (錯誤)，可以點進去各別看狀況。這些資訊如果有選到相關的物件，同時也會顯示在左側物件圖徵頁籤。你上傳資料的時候也同時被通知有未解決的問題。 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+問題選單的下半部顯示目前可用的規則，以及儘管不建議釓可以允許你各個關閉。
 
 儲存您的編輯
 --------------------
@@ -160,11 +160,11 @@ The lower part of the issues tab show the available rules and allows you to disa
 額外資訊及自定義標籤
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+當你編輯物件時，你會在選單底部看到"新增欄位"，你可以藉由選擇其中的輸入值 (圖層、海拔、維基百科等)新增額外的資訊。  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+或者你藉由按**所有標籤**可新增客製化標籤。![image44][]{: height="24px"}  
 
 - 這樣會顯示所有跟圖徵相關的標籤。  
 ![image45][]  

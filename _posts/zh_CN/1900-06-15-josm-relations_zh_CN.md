@@ -6,7 +6,7 @@ lang: zh_CN
 category: josm
 ---
 
-Relations
+关系
 ==========
 
 > 已审核 2017-06-06  

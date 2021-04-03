@@ -38,5 +38,5 @@ ID 帮助菜单-在编辑时始终可用，其中包括一些可以参考的功�
 
 
 [HOT logo with text]:/images/hot-tips/Hot_logo_with_text.svg
-[iD帮助]:/images/hot-tips/iD-help.png "iD帮助菜单 - 在你编辑时始终可用，其中包括一个可选的演示。"
+[iD help]:/images/hot-tips/iD-help.png "iD帮助菜单 - 在你编辑时始终可用，其中包括一个可选的演示。"
 [one-mnute-tutorial-videos]: /images/hot-tips/one-mnute-tutorial-videos.png "Humanitarian OpenStreetMap Team 一分钟视频教程"

@@ -60,7 +60,7 @@ OSMTracker配置
 -  **默认图片源** 通过你通过新拍图片到app中，但你也可以选择相机中已存在的图片。  
 -  **屏幕一直开启** 如果你经常需要上传图片或记录音频时请开启，这也会比较费电 - 如果关闭则你每次操作时需要开启屏幕。  
 -  **屏幕显示风格** 当你看操作按钮困难时，通过这个选项来改变对比度和屏幕亮度来提高可视度。  
--  **预设按钮** 你可以设计和添加和选择你自己的按钮是否显示。参考 [see below](/zh_CN/mobile-mapping/osmtracker/#button-presets) 来获得详细设置。   
+-  **预设组合按钮** 你可以设计和添加和选择你自己的按钮是否显示。参考 [以下文章](/zh_CN/mobile-mapping/osmtracker/#预设组合按钮) 来获得详细设置。   
 -  **背景地图** 点击和按住一条轨迹后，你可以看见轨迹信息，app也将从OpenStreetMap下载相应背景地图。  
 
 > 需要互联网才能下载地图。除非您愿意，否则不需要使用此功能。  
@@ -84,26 +84,26 @@ OSMTracker配置
 - **删除**   
 
 
-按钮预设
+预设组合按钮
 --------------
 
 如果您出于特定原因进行勘测，并且您需要的路径点标签不可用，你可以在测量旅行之前创建自己的标签按钮预设集并将它们加载到手机中，然后在需要时进行测量时进行选择相应标签 - 您可以在记录路径时随时切换他们。由于你创建的标签被记录在个人日志中，所以不需要遵守OpenStreetMap标签规则，同样也不会被上传到OSM中。例如你可以选择以下一些标签按钮：  
 
-- 1 family,  
-- 2 families,  
-- 3 families,  
-- 4 families,  
-- chiefs house,  
-- 20% damaged,  
-- 40% damaged,  
-- 60% damaged,  
-- 80% damaged,  
-- destroyed,  
-- unsuitable for lorry,  
-- 4wd needed,  
-- etc..  
+- 1个家庭，  
+- 2个家庭，  
+- 3个家庭，  
+- 4个家庭，  
+- 首领之家，  
+- 20%的损伤，  
+- 40%的损伤，  
+- 60%的损伤，  
+- 80%的损伤，  
+- 被摧毁，  
+- 不适合货车行驶，  
+- 需要四驱车，  
+- 等等..  
 
-点击这里 [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts) 查看如何创建预设按钮，这是示例文件：[sample download file.](/files/R_of_Way.xml)  
+点击这里 [OSMTracker wiki章节](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts) 查看如何创建预设组合按钮，这是示例文件：[下载示例文件。](/files/R_of_Way.xml)  
 
 ![OSMTracker button presets][]  
 

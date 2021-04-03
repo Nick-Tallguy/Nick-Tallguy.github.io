@@ -25,7 +25,7 @@ category: beginner
 **AOI : 兴趣区**: 在灾难爆发时由动员协调者咨询人道主义合作伙伴、外业团队和HOT社群定义。
 
 
-**[变更集(Changeset)](http://wiki.openstreetmap.org/wiki/Changeset)**: 你对OSM做的一组改动。一旦上传到OSM，你的编辑立即向其他人开放下载。变更可能要等待几分钟到几小时后才会显示在地图上。
+**[修改集(Changeset)](http://wiki.openstreetmap.org/wiki/Changeset)**: 你对OSM做的一组改动。一旦上传到OSM，你的编辑立即向其他人开放下载。变更可能要等待几分钟到几小时后才会显示在地图上。
 
 **COD：公共操作数据库（Common Operational Database）**；包括多个人道救援组织活动的地理资料。他们主要是：大众运输网路（道路、桥/渡口、港口）、住民地（ 聚落）、行政边界、水文（河流和其他水体）和高度（等高线）。也许会包括非直接的人口统计来源的建筑。主要是联合国联合国人道事务协调厅使用的资料。
 

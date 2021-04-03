@@ -6,9 +6,9 @@ lang: zh_CN
 category: coordination
 ---
 
-# Manage a Mapathon
+# 管理Mapathon
 
-> Created 2017-01-30  
+> 创建于 2017-01-30  
 
 - TOC
 {:toc}

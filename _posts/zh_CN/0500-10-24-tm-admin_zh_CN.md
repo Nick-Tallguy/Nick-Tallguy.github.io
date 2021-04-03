@@ -1,24 +1,24 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
+title: Tasking Manager管理员指南
 permalink: /zh_CN/coordination/tm-admin/
 lang: zh_CN
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# Tasking Manager管理员指南
 
 
 **如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/zh_CN/coordination/tm-disambiguation)**
 
 章节索引
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
+-  [登录并访问](/en/coordination/tm-admin/#login-and-access)
+-  [权限](/en/coordination/tm-admin/#permissions)
+-  [创建一个项目](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [定义测绘区域](/en/coordination/tm-admin/#define-mapping-area)
+    -  [定义任务](/en/coordination/tm-admin/#define-tasks)
+    -  [项目区域裁剪](/en/coordination/tm-admin/#project-area-trim)
     -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
 -  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
     -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)

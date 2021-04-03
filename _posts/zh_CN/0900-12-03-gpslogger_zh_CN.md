@@ -18,7 +18,7 @@ category: mobile-mapping
 
 适用于 Android 的 GpsLogger 是一款免费使用的应用程序，也是一个积极维护的开源项目。欢迎捐款以进一步增强应用程序。如果您希望参与（例如提供其他语言的翻译、错误报告或提交功能请求），请访问 [repository](https://github.com/mendhak/gpslogger)。  
 
-> OpenGTS refers to the [Open GPS Tracking System](http://opengts.sourceforge.net/) project  
+> OpenGTS是指 [Open GPS Tracking System](http://opengts.sourceforge.net/)项目  
 
 
 功能
@@ -47,14 +47,14 @@ category: mobile-mapping
 **Help** 按钮提供了有关如何使用该应用程序的其他信息。  
 使用 **Annottate** 按钮可以向点添加描述。  
 ** 记录一点 ** 按钮可以让你手动记录航点。  
-**Upload** lets you choose from a variety of options for uploading your log file. This includes an option to auto send to any of the following:  
+**上传**让您从各种选项中选择上传您的日志文件。这包括一个自动发送至以下任何一个选项：  
 
 - OpenStreetMap，  
 - Google Drive,  
 - DropBox，  
 - FTP服务器，  
 - OpenGTS服务器或者  
-- send the log to an email address.  
+- 将日志发送到一个电子邮件地址。  
 
 通过 ** 共享 ** 按钮，您可以选择一个或多个日志文件，通过蓝牙或短信与其他人共享。根据设备上安装的应用程序，您可能有不同的选项供您使用。  
 
@@ -102,7 +102,7 @@ category: mobile-mapping
 
 上传GPS轨迹是向OpenStreetMap项目贡献数据的另一种方式。轨迹是以不同时间或距离间隔记录的位置记录，并记录为地理坐标（经度、纬度、海拔）。它们可以在编辑地图时用作背景图层，对于向地图添加内容时非常有用，类似于航空影像。  
 
-#### OpenStreetMap options
+#### OpenStreetMap选项
 
 ![osm0][]
 
@@ -135,35 +135,35 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 数据收集
 ---------------
 
-### Automated collection and uploading of gps tracks
+### 自动收集和上传GPS轨迹
 
 一旦正确配置，应用程序就可以在后台运行，自动录制轨迹并更具配置服务每天将它们上传。这将允许自动收集每日驾驶轨迹，帮助建立道路和行驶时间数据，供以后进行绘图或分析。配置完成后，拥有手机或其他 Android 设备的用户应该注意到该功能只对电池使用有些影响，而不必手动执行任何操作。需要进行一些测试后你会在电池使用和 GPS 轨迹的清晰度之间找到适当的平衡点。  
 
 每天自动收集并上传到 OpenStreetMap 的示例配置，您需要调整以下设置：  
 
-#### General Options  
+#### 常规选项  
 
 * **从启动时开始** - 开启  
 
-#### Logging Details  
+#### 记录详情  
 
 * **登录GPX** - 开启  
 * **创建新文件** - 每天一次  
 
-#### Performance  
+#### 性能  
 
 * **记录之前时间** - 5  
 * **定位期间保持GPS开启** - 打开（每当设备需要GPS卫星时，关闭此项可能会导致GPS轨迹“跳跃”。）  
 * **进移动时记录日志** - 开启  
 
-#### Auto send, email and upload  
+#### 自动发送、电子邮件和上传  
 
 * **允许自动发送** - 开启  
 * **多久** - 每天输入 1440 分钟。如果您在执行时无法访问数据或 wifi，此设置可能会有问题。它应该从你启动设备或点击 “开始日志记录” 按钮开始计数，因此，如果你在早上启动它，它将在第二天早上同一时间上传。  
 * **OpenStreetmap**-允许自动发送以及您想要配置的任何其他设置，如果您对 GPS 轨迹有隐私问题，请进入可见性设置进行设置。  
 
 
-### Manually Recording Traces
+### 手动记录轨迹
 
 要开始收集日志（在简单视图中），只需点击蓝色按钮即可。屏幕右上角附近将出现一个旋转图标表示试图定位卫星。右上角区域将显示一个绿色圆圈，表示记录日志。  
 
@@ -187,11 +187,11 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 
 日志间隔由 **性能** 菜单下的时间或距离设置决定。  
 
-##### By time
+##### 按时间
 
 **登录前的时间** 默认情况下设置为 60 秒。当你走路而不是乘坐车辆时，你可以将其更改为 5 或 10 秒。当你在车里时，你可以将其设置为 1 秒以生成非常准确的日志。  
 
-##### By distance
+##### 按距离
 
 默认情况下，**距离过滤器** 设置为零。如果要记录从最后一个点开始的每 X 个单位的坐标，则可以将其设置为其他内容。  
 
@@ -227,9 +227,9 @@ GPS轨迹有几个*可见性*选项。*Private*轨迹以匿名形式共享包含
 
 将 GPX 轨迹与 JOSM 和 ID 编辑器一起使用非常简单，就像将文件拖放到应用程序中（或者浏览器中的 ID地图编辑器）一样。  
 
-For additional details for  iD users, see the section [Configuring the Background Layer](http://learnosm.org/en/beginner/id-editor/#configuring-the-background-layer).  
+关于iD用户的更多细节，请参见 [配置背景图层](http://learnosm.org/zh_CN/beginner/id-editor/#configuring-the-background-layer)。  
 
-If the JOSM editor is used, you can find instructions on how to use the GPX track, along with the multimedia files in JOSM see the section [Open in JOSM](http://learnosm.org/en/mobile-mapping/using-gps/#open-in-josm).  
+如果使用JOSM编辑器，你可以找到如何使用GPX轨迹的说明，以及JOSM中的多媒体文件，参考这部分 [Open in JOSM](http://learnosm.org/zh_CN/mobile-mapping/using-gps/#open-in-josm).  
 
 对于其他 OpenStreetMap 编辑器，请参阅软件的文档。  
 

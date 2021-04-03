@@ -1,131 +1,131 @@
 ---
 layout: doc
-title: JOSM - 创建自定义预设
+title: JOSM - 创建自定义预设组合
 permalink: /zh_CNjosm/creating-presets/
 lang: zh_CN
 category: josm
 ---
 
-JOSM - Creating Custom Presets
+JOSM - 创建自定义预设组合
 =======================
 
 
-In the [previous chapter](/en/josm/josm-presets) we looked at how custom presets menus can be added into JOSM. In this chapter we will cover how to create your own custom presets files.  
+在 [上一章](/zh_CN/josm/josm-presets)中，我们研究了如何将自定义预设组合菜单添加到JOSM中。在本章中，我们将介绍如何创建自己的自定义预设组合文件。  
 
-WARNING! This is an advanced topic... consider yourself warned!  
+警告！这是个高级话题…慎重起见!   
 
-Introduction to XML
+XML简介
 -------------------
 
-In order to create our own Presets menu, we first need to understand a language called XML. If you're already familiar with XML feel free to jump the next section.  
+为了创建我们自己的预置组合菜单，我们首先需要了解一种叫做XML的语言。如果你已经熟悉了XML，请跳到下一节。  
 
-XML, which stands for “Extensible Mark-up Language”, is a computer language similar to HTML.  The key difference is that XML is designed to carry data, not display it.  Many applications on the internet use XML to transmit data, including OpenStreetMap.  XML uses elements, and each element can contain child elements inside it.  For example, let’s imagine that we want to create an XML file that contains data about a restaurant menu.  We must create a root element to contain all the data about our menu.  Our root element will have an opening and a closing tag, like this:
+XML是"可扩展标记语言"的缩写，是一种与HTML类似的计算机语言。关键的区别在于，XML的设计是为了携带数据，而不是显示数据。互联网上的许多应用程序使用XML来传输数据，包括OpenStreetMap。XML使用元素，每个元素内部可以包含子元素。例如，让我们想象一下，我们要创建一个XML文件，其中包含一个餐厅菜单的数据。我们必须创建一个根元素来包含所有关于菜单的数据。我们的根元素将有一个开头和一个结尾标签，像这样：
 
       <menu>
-      ... whatever data we want to include in our menu ...
+      ... 无论我们想在菜单中包含什么数据 ...
       </menu>
 
-Information is contained inside an element, and within each element there can be more elements.  
+信息包含在一个元素里面，每个元素里面可以有更多的元素。  
 
       <menu>
         <item name=“Hamburger”>
           <cost>400</cost>
-          <description>Delicious beef patty</description>
+          <description>美味的牛肉饼</description>
         </item>
           <item name=“Nasi Goreng”>
           <cost>200</cost>
-          <description>Indonesian Fried Rice</description>
+          <description>印尼炒饭</description>
         </item>
       </menu>
 
-In this example we have placed two &lt;item&gt; elements within our &lt;menu&gt; element to describe two different items that are contained in the menu.  Each item contains two more elements in them, &lt;cost&gt; and &lt;description&gt;.  Notice also how we have written name=”Hamburger” inside the opening &lt;item&gt; tag.  This is called an attribute, and adds information about the element.
+在这个例子中，我们在我们的 &lt;item&gt; 元素中放置了两个 &lt;menu&gt; 元素来描述菜单中包含的两个不同的项目。每个项目中又包含两个元素， &lt;cost&gt; 和 &lt;description&gt;。还请注意我们如何在开头的 &lt;item&gt; 标签内写上name="汉堡"。这叫做属性，增加了元素的信息。
 
 
-### XML Terminology
+### XML术语
 
-- **root element:** the outermost element of an XML document, which describes what is contained  
-- **element:** any XML object, contained by opening and closing tags, such as &lt;item&gt; ... data ... &lt;/item&gt;  
-- **tag:** something contained in brackets, such as &lt;item&gt;.  &lt;item&gt; is the opening tag of an element, and &lt;/item&gt; is the closing tag. Don't confuse this with OSM tags, which have a different meaning.  
-- **attribute:** a piece of information contained inside a tag, such as name=“Hamburger”  
+- **根元素(root element)：**一个XML文档的最外层元素，它描述了文档的内容  
+- **元素(element)：**任何XML对象，被开头和结尾标签包含，如 &lt;item&gt; ... 数据 ... &lt;/item&gt;  
+- **标签(tag)：**包含在括号中的东西，如 &lt;item&gt;.  &lt;item&gt; 是元素的开头标签， &lt;/item&gt; 是结束标签。不要将其与OSM标签混淆，后者有不同的含义。  
+- **属性(attribute)：**标签中包含的一条信息，如name=“汉堡”  
 
-Using XML to hold and transmit data is great because it is easy to understand for computers.  
+使用XML来保存和传输数据是非常好的，因为它对计算机来说很容易理解。  
 
 
-JOSM Presets Files
+JOSM预设组合文件
 -------------------
 
-Let's add a sample presets file into JOSM and analyze how it works.  
+让我们在JOSM中添加一个样本预置组合文件，分析一下它的工作原理。  
 
-- Download the file [sample_presets.xml](/files/sample_presets.xml).  
-- Then load it into JOSM as described in the [previous chapter](/en/josm/josm-presets).  
-- Create a new layer and a new object.  
-- Go the the Presets menu. There will be a new item named "Sample Building." Click on it.  
+- 下载文件 [sample_presets.xml](/files/sample_presets.xml)。  
+- 然后按照 [上一章](/zh_CN/josm/josm-presets)中的描述将其加载到JOSM中。  
+- 创建一个新图层和一个新对象。  
+- 进入预设组合菜单。会有一个新的项目叫"Sample Building"，点击它。  
 
 ![sample building menu][]
 
-Notice that the form which appears has three fields in it, and each accepts a different type of input. The first field, building name, accepts a text string as input. The second, building use, has a dropdown box. The final field is a check box, meaning that it can only have one of two values, on or off.
+请注意，出现的表格中有三个字段，每个字段接受不同类型的输入。第一个字段，建筑名称，接受一个文本字符串作为输入。第二个字段，建筑物用途，有一个下拉框。最后一个字段是一个复选框，意味着它只能有两个值中的一个，即开启或关闭。
 
 ![sample presets form][]
 
-Now let's look at the XML file which defines this Preset form.
+现在让我们看看定义这个预设组合形式的XML文件。
 
-- Find the XML file on your computer and open it with a text editor. If you are using Windows you can use the Notepad program. If you want a more easy-to-use editor, you might download the free Notepad++ application.  
-- The **sample_presets.xml** file looks like this:  
+- 在电脑上找到XML文件，用文本编辑器打开它。如果你使用的是Windows，你可以使用记事本程序。如果你想要一个更容易使用的编辑器，你可以下载免费的Notepad++应用程序。  
+- **sample_presets.xml**文件是这样的：  
 
 ![sample presets file][]
 
-For now, let's ignore the first six lines and the final line, and focus on everything between the &lt;item&gt; tags.
+现在，让我们忽略前六行和最后一行，关注 &lt;item&gt; 标签之间的一切。
 
-The first line looks like this:
+第一行是这样的：
 
       <item name="Sample Building" type="node,closedway">
 
-This is the opening tag of an item which is added to the menu. It has two attributes, name and type. The name defines how this will appear on the Presets menu. The type limits this preset to specific types of objects. In this case, the preset can only be applied to points and shapes - in other words, nodes and closed ways. If you try to apply this preset to a line, it won't work.  
+这是一个项目的开头标签，它被添加到菜单中。它有两个属性，名称和类型。名称定义了预设组合菜单上的显示方式。类型将此预设组合限制为特定类型的对象。在这种情况下，预设组合只能应用于点和形状 - 换句话说，节点和封闭的路径。如果你尝试将此预设组合应用于线条，它将无法实现。  
 
-Let's look at the next line:  
+我们来看下一行：  
 
       <label text="Building Form" />
 
-When you click on the menu and open the sample form, at the top you see the text "Building Form." This is the text defined in this line. This defines a &lt;label&gt; element, which simply displays text in the form. The text is defined by the attribute *text="some text"*.  
+当你点击菜单并打开示例表单时，在顶部你会看到"建筑物表单"的文字，这就是这一行定义的文字。这定义了一个 &lt;label&gt; 元素，它只是在表单中显示文本。文本是由属性*text="某些文本"*定义的。  
 
-Go down a few lines and find this:  
+往下走几行就能找到这个：  
 
       <key key="building" value="yes" />
 
-This is one of the tags that will be applied to the object we have selected. Because it uses the element &lt;key&gt;, the OSM tag given here will be automatically applied when the preset is chosen. Hence this object will automatically obtain the tag *building=yes*.  
+这是将应用于我们所选对象的标签之一。因为它使用了元素 &lt;key&gt;，所以当选择这个预设组合时，这里给出的OSM标签将被自动应用。因此这个对象将自动获得*building=yes*这个标签。  
 
-The next line is a bit different, using the &lt;text&gt; element.  
+下一行有点不同，使用了&lt;text&gt;元素。  
 
       <text key="name" text="Name of Building" default="" delete_if_empty="true" />
 
-The &lt;text&gt; element creates a blank field. When the form is created in JOSM, the user will be able to fill in the empty field. Because the attribute *delete_if_empty="true"* is set, no tag will be added if the user leaves this field empty.  
+＆lt;text&gt;元素创建了一个空白字段。在 JOSM 中创建表单时，用户将能够填写空字段。因为设置了属性 *delete_if_empty="true"*，所以如果用户将此字段留空，则不会添加任何标签。   
 
-The dropdown box on the form is defined in the following line:  
+表单上的下拉框定义在下面一行：  
 
       <combo key="building:use" text="Building Use" values="residential, commercial, industrial" />
       <display_values="Residential, Commercial, Industrial"/>
 
-A dropdown box is defined by the &lt;combo&gt; element. As with the &lt;text&gt; element, the attribute *key* defines the tag key. The value is then chosen from a list of possible *values*. The *display_values* attribute allows you to choose different names to be displayed in the dropdown box, which may be easier to understand than the OSM tag values.  
+下拉框由&lt;combo&gt; 元素定义。与 &lt;text&gt; 元素一样，属性 *key* 定义了标记键。然后从可能的*values*列表中选择值。*display_values*属性允许你选择要在下拉框中显示的不同名称，这可能比OSM标签值更容易理解。  
 
-Lastly, let's look at the line which defines the checkbox.  
+最后，我们来看一下定义复选框的那一行。  
 
       <check key="building:vacant" text="Is the building vacant?" default="off" /> 
       <delete_if_empty="true" />
 
-The &lt;check&gt; element defines - you guessed it! - the checkbox. The attribute *default="off"* states that the box will be unchecked by default. The remaining attributes you have already seen.  
+&lt;check&gt; 元素定义了 - 你猜对了！ - 复选框。属性*default="off"*表示该复选框默认为不选中。其余的属性你已经见过了。  
 
-Creating Your Own Presets File
+创建你自己的预设组合文件
 ------------------------------
 
-The best way to create your own presets file is to take one that already exists, and manipulate it fulfill your objectives.  Feel free to edit this sample file and experiment with it to learn the basics. Just remember that each time you save it, you will need to restart JOSM to load the changes.  
+创建你自己的预设组合文件的最好方法是采用一个已经存在的文件，并对其进行操作，以实现你的目标。请随意编辑这个样本文件，并通过实验来学习基础知识。只需记住，每次保存它时，你都需要重新启动JOSM来加载更改的内容。   
 
-Before you start creating your own presets, you need to think carefully about the tags that you will use. Inventing new tags is another topic altogether. Generally, you should utilize existing OSM tags when they exist. Most existing tags are listed on the [Map Features page on the OSM Wiki](http://wiki.openstreetmap.org/wiki/Map_Features).  
+在你开始创建自己的预设组合之前，你需要仔细考虑你将使用的标签。发明新的标签是另一个话题。一般来说，你应该利用现有的OSM标签。大多数现有的标签都列在 [OSM Wiki上的地图特征页面](http://wiki.openstreetmap.org/wiki/Map_Features).  
 
-This sample file contains most of the elements that you will find in a JOSM presets file - there aren't very many form elements. If you'd like to experiment with a more complex presets file, download the [dhaka_presets.xml](/files/dhaka_presets.xml) file here.  
+这个示例文件包含了JOSM预设组合文件中的大部分元素 - 没有太多的表单元素。如果你想尝试更复杂的预设组合文件，请在这里下载[dhaka_presets.xml](/files/dhaka_presets.xml)文件。  
 
-Additionally, a detailed explanation of all possible elements can be found [here](http://josm.openstreetmap.de/wiki/TaggingPresets).  
+此外，所有可能的要素的详细解释可以在 [这里](http://josm.openstreetmap.de/wiki/TaggingPresets)找到。  
 
-Good luck!  
+祝你好运！  
 
 
 [sample building menu]: /images/josm/sample-building-menu.png
