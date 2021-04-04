@@ -11,7 +11,7 @@ category: coordination
 
 > 2015年8月22日修订  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+继 [LearnOSM的远程、扶手椅和Mapathon](/zh_CN/coordination/remote/)章节之后，如果你没有HOT的测绘经验，你会需要这个部分。  
 
 
 章节索引

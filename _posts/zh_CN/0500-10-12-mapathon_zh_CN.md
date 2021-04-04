@@ -13,77 +13,77 @@ category: coordination
 - TOC
 {:toc}
 
-## Introduction
+## 引言
 
-### What type of event  
-Deciding on what type of event you want to host will decide the direction you need to go and the steps you need to take.  
+### 什么类型的活动  
+决定你要举办什么类型的活动，将决定你需要继续的方向和需要采取的步骤。  
 
-This guide deals with indoor Mapathons for larger groups. 
+本指南是针对大型团体的室内Mapathon。 
 
-For other types of gatherings for mapping see  
-[Weekend Mapping Projects](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
-[Mapping Parties](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
+其他类型的绘图活动参考  
+[周末绘图项目](https://wiki.openstreetmap.org/wiki/Weekend_mapping_projects)  
+[测绘派对](https://wiki.openstreetmap.org/wiki/Mapping_parties)  
 
-**A Mapathon is an organised gathering of people to add data to the OpenStreetMap. This can be a project to improve the map in your local area, or to help Response Teams on the ground during a Disaster, or a Missing Maps Project for ongoing or future Humanitarian Responses.**  
+**Mapathon是有组织地召集人们为OpenStreetMap添加数据。这可以是一个改进当地地图的项目，或在灾害期间帮助当地的反应小组，或为正在进行的或未来的人道主义反应而进行的缺失地图项目**。  
 
-Your Mapathon can be open to training new mappers as well as a regular event for experienced mappers and could consist of a training session, mapping time and time to socialise.  
+你的Mapathon可以开放给新的测绘人员培训，也可以是有经验的测绘人员的定期活动，可以包括培训课程、绘图时间和社交时间。  
 
-While we can give general guidelines on how to organise a Mapathon, your event will evolve and develop its own structure and identity depending on the people who organise it, the venues available and the people that turn up to map.  
+虽然我们可以提供如何组织Mapathon的一般指导，但你的活动将根据组织者、可用的场地和参加地图活动的人的情况，发展自己的结构和身份。  
 
 ![kings college][]
 
-### History of a successful Mapathon
-The London Missing Maps Mapathons started back in 2014 as a small group training new mappers. They had the advantage of being able to involve many large corporate sponsors with great venues with capacities of around 80+ mappers.
-It started off with training all of the attendees in basic mapping using iD as the editor of choice for beginners.
-The event was held once a month and mappers could book a free place through Eventbrite. After a while it was noted how many attendees were returning for more mapping and training. The decision was made to split the event into training newcomers on iD, to migrate the returning mappers onto JOSM and validator training was also introduced. This format has proved very successful but the result is having to turn mappers away because the event is full. A second Mapathon was started up, the Mid Month Mapathon for the more experienced JOSM users that would concentrate on the more advanced mapping and investigate and test new ideas.
-The success of the London event is based on a number of factors but mainly the following strategy...
+### 一次成功的Mapathon历史
+伦敦缺失的地图Mapathons早在2014年就开始了，是一个培训新测绘人员的小团体。他们的优势是可以让很多大型企业赞助商参与进来，场地很好，可以容纳80多个测绘人员。
+首先对所有参会人员进行了基础的绘图培训，使用iD作为初学者的首选编辑器。
+该活动每月举行一次，测绘人员可以通过Eventbrite免费预订名额。一段时间后，人们注意到，有许多与会者又回来参加更多的制图和培训。于是决定将活动分为培训新加入的iD用户，将回归的绘图者迁移到JOSM上，同时还引入了审核者培训。这种形式被证明是非常成功的，但结果是不得不拒绝绘图者，因为名额已满。第二场地图马拉松活动已经开始，即月中地图马拉松，是为更有经验的JOSM用户举办的，它将集中于更高级的地图绘制，并研究和测试新的想法。
+伦敦活动的成功基于多种因素，但主要是以下策略...
 
--   Experience taught us that the learning curve for people with no mapping experience whatsoever is very steep and can be off putting and frustrating for these newcomers if they cannot get some mapping done on their first event. It is important to get them mapping as quickly as possible, so they were shown just the very basics with the simpler iD editor, letting them encounter their own particular problems during the course of the evening when they were able to ask for help.
--   It was much easier teaching mappers the more complex JOSM editor if they already had experience of mapping with the iD editor or some other GIS programme. It also meant that you were dealing with a group that were interested in advancing their mapping skills rather than just along to find out what it was about and whether they liked it or not.
--   It was a regular event on the first Tuesday of each month so they could take it into account in advance and keep that slot open when arranging their lives.
-  A second event (Mid Month) and validator training at the monthly event gives the more experienced mappers a chance to tackle more advanced and interesting projects such as validating, experimental techniques and Field Papers.
+-   经验告诉我们，对于没有任何绘图经验的人来说，学习曲线是非常陡峭的，如果他们不能在第一次活动中完成一些绘图工作，那么对于这些新人来说，可能会让他们感到不快和沮丧。尽快地让他们完成绘图是很重要的，所以我们只向他们展示了最基本的iD编辑器，让他们在晚上的过程中遇到自己的特殊问题时能够寻求帮助。
+-   如果绘图人员已经有使用iD编辑器或其他地理信息系统程序制图的经验，那么教他们使用更复杂的JOSM编辑器就容易得多。这也意味着，你面对的是一群对提高他们的绘图技能感兴趣的人，而不仅仅是去了解它的内容和他们是否喜欢它。
+-   这是每月第一个星期二的固定活动，所以他们在安排生活时，可以提前考虑到这一点，保持这个档期的开放。
+  第二个活动（月中）和每月活动中的审核者培训让更有经验的测绘人员有机会处理更高级和有趣的项目，如审核、实验技术和Field Papers。
   
-## Start working on your Mapathon at least a month before for organising and preparing the event.  
+## 至少在一个月前开始组织和筹备Mapathon活动。  
 
-### First step ... Preparing the format of your Mapathon.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+### 第一步...准备Mapathon的形式。  
+可供使用的场地大小和场地设施的可用性将决定你的Mapathon的因素。场地可以是当地的公司、大学或学校、艺术中心、图书馆、大厅。需要注意的几点。  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+1.  场地是否位于中心位置，交通是否便利？（注意公共交通或停车场)）  
+2.  是否具有良好的Wi-Fi，可以同时处理多达100个连接？  
+3.  能否容纳最多100名绘图人员？这将决定邀请的人数。  
+4.  是否有足够和合适的桌椅？  
+5.  是否有足够的插座为笔记本电脑充电？(准备延长线)  
+6.  是否有一个大屏幕，用于教程和演示？  
+7.  是否有带有有大屏幕的较小的侧厅，供较小团体的专业培训？  
+8.  你是否有足够的有经验的帮手来举办大型Mapathon？  
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
-Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
+### 第二步...规划Mapathon
+现在，你已经从第一步中获得了足够的信息来决定人数、地点和可用日期，你可以开始计划你的Mapathon了。  
 
-1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
-2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
-3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
-4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
-6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
-  *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
-  *    A deputy to help with the arrangements and stand in for you as a back up.   
-7.  Add your event to the Mapathon calendar.
-8.   Have someone available from the local media to take photos and report the event.
-9.  Arrange for someone to film the presentation and create a live link for any remote mappers.
+1.  根据场地的可用性来确定Mapathon的日期和时间（要注意检查是否与其他重大活动冲突，以免影响你吸引志愿者和测绘人员参加你的活动）。活动至少要有2.5至3小时的时间（半小时用于演讲和培训，半小时用于茶点，两小时用于绘图）。  
+2.  预订场地。确保场地的位置在Openstreetmap上。  
+3.  通过当地媒体和网络媒体向测绘人员发出邀请，以争取良好的出席率。 [Eventbrite](https://www.eventbrite.co.uk/)预订活动位置的好办法。  
+4.  你们是否会在活动中提供零食/点心？(事实证明，披萨是一个受欢迎的选择，但请选择适合你所在地区流行的食品)。  
+5.  为活动设置一个项目。请记住，你们地区的第一次Mapathon活动可能会有很大一部分初学者。建议你们为初学者准备两个简单的项目，为有经验的地图绘制者准备两个更具挑战性的任务。如果你需要帮助设置项目，以及需要Mapathon材料的表格和走廊的方向指示牌，请联系 [缺失的地图项目](http://missingmaps.org)。 [Tasking Manager](http://tasks.hotosm.org)是有用项目的良好来源。  
+6.  建议准备你在活动中可能需要的助手。  
+  *    由一名有经验的测绘人员指导他们完成绘图过程。  
+  *    会场的一名信息技术人员负责解决任何连接问题。  
+  *    一位嘉宾演讲，讲述其使用Openstreetmap的经验。  
+  *    理想的情况是每张桌子有一名有经验的测绘人员，以检查他们是否知道该怎么做并回答任何问题。请与 [失踪的地图项目](http://missingmaps.org)联系，协助寻找助手，并查询 [你所在地区有经验的测绘人员](http://resultmaps.neis-one.org/oooc)。
+  *    一名副手协助安排，并作为后备人员代替你。   
+7.  将您的活动添加到Mapathon日历中。
+8.   由当地媒体派人对活动进行拍摄和报道。
+9. 安排专人拍摄演示文稿，并为任何远程绘制人员建立实时链接。
   
 ![people at work][]  ![more people at work][]
 
-### The week before the Mapathon
-1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
-2.  Compile a list of attendees for messaging and for identity tags for the event.  
-3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
-4.  Post notices on line, with links to the ticket allocation, reminding attendees to take up the last remaining spaces at your event.  
+### Mapathon前一周
+1.  到场检查所有的安排是否妥当。（场地、帮手、设备）。  
+2.  编制一份与会者名单，以便为活动发布信息和制作身份标签。  
+3.  向与会者发出信息，提醒他们携带笔记本电脑和鼠标，并设置好Openstreetmap账户，携带登录信息，如果他们选择编辑器，则下载JOSM。  
+4.  在网上发布通知，并附上门票分配的链接，提醒与会者报名你的活动的最后剩余名额。  
 5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
 6.  Check that you have current mapping projects for the event.  
 7.  Check that you have funding for the refreshments and any other costs.
