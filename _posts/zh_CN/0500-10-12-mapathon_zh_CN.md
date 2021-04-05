@@ -84,56 +84,56 @@ category: coordination
 2.  编制一份与会者名单，以便为活动发布信息和制作身份标签。  
 3.  向与会者发出信息，提醒他们携带笔记本电脑和鼠标，并设置好Openstreetmap账户，携带登录信息，如果他们选择编辑器，则下载JOSM。  
 4.  在网上发布通知，并附上门票分配的链接，提醒与会者报名你的活动的最后剩余名额。  
-5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
-6.  Check that you have current mapping projects for the event.  
-7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
-9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
-10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
-11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
-12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
-13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
-14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
+5.  根据现有的插座位置和大屏幕的视野，规划桌椅的位置布局。  
+6.  检查自己是否有适合当前活动的测绘项目。  
+7.  检查你是否有资金用于茶点和任何其他费用。
+8.  准备 [Mapathon材料](#printout-materials)(或自己制作)打印出来，为活动做好准备。
+9.  检查是否有人将准备了任何需要的设备（延长线、备用鼠标）和桌椅辅助设备。  
+10.  通知你的助手，你需要他们在开始前半小时到场，帮助摆放桌椅、延长线等。  
+11.  检查会场的是否有无线网络，是否有密码供大家使用。  
+12.  建立一个登记册，每次参加Mapathon活动时都应带上，以记录参加者、他们的用户名和他们使用的编辑器。这将提供一个持续的记录，以评估有多少绘图者再次参加第二次或更多次会议，评估哪些绘图者在两次活动之间继续绘制地图，评估留住绘图者的成功率等等。
+13.  至少在活动前两天与远程审核人员联系，向他们说明正在进行的项目和任何其他细节，以帮助他们帮助Mapathon。
+14.  决定一个当地的酒吧或其他地点，以便之后的见面，并检查它是否在Openstreetmap上。
 
-### At the Mapathon
-1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
-2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
-3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
-4. Check with the resident IT person that the internet connections are all working and the overhead large screens are connected to the relevant laptops.
-5. Have one helper at the door to welcome the mappers, give them their name tags and tell them where to sit.
-6. Have helpers moving from table to table helping mappers to log on when they arrive.
+### 在Mapathon
+1. 提前到达会场，检查接待工作是否全部就绪，做好准备。  
+2. 在会场内走一圈，熟悉区域、厕所、紧急出口等。  
+3. 向助手们介绍房间的布局，并让你的副手监督他们摆放桌椅和设备，在走廊上挂上指示牌。  
+4. 与驻场IT人员一起检查网络连接是否全部正常，大屏幕是否与相关笔记本电脑连接。
+5. 请一位助手在门口欢迎绘图者，给他们名牌，并告诉他们坐在哪里。
+6. 让助手从一张桌子到另一张桌子，帮助测绘人员在他们到达时登录。
 
 ![mentoring][]
 
-### Start the Event
-1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
-2. Introduce your experienced mapper and start the training process.
-3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
-4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
-5. Check that the refreshments are in place for the mid-session break.
-6. Decide on a local pub for the meet up afterwards and check that it is on Openstreetmap.
-7. Check that the local media or/and a helper is taking photos.
+### 开始活动
+1. 让大家安静下来，开始宣读欢迎词、介绍词、活动方案、消防疏散指示、厕所位置等。  
+2. 介绍你有经验的测绘人员，开始培训过程。
+3. 在活动过程中，如果发现一些测绘人员犯了错误（如没有把建筑物绘成正方形），要随时进行任何有用的提示。
+4. <https://osmlab.github.io/show-me-the-way/bbox.html> 是一个很好的方法，可以在大屏幕上放一些东西，让测绘人员看到正在进行的实时编辑。
+5. 检查中场休息时的茶点是否到位。
+6. 决定好之后见面的地方酒吧，并检查它是否在Openstreetmap上。
+7. 检查当地媒体或/和一名助手是否在拍照。
 
 ![snacks][]
 
-### At the end of the Event
-1. Thank the hosts for the great venue, the new mappers for coming along and joining the mapping community, the experienced mappers for their help and for their time and contributions, show them the progress that was made on the projects they worked on, ask them to come back to the next Mapathon and invite them to the pub afterwards.
-2. Check that the register of mappers has been completed
-3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
-4. Gather all the signs, equipment and collect any rubbish.
-5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.
+### 活动结束时
+1. 感谢主办方提供的良好场地，感谢新的测绘人员前来参加测绘社区，感谢有经验的测绘人员的帮助，感谢他们的时间和贡献，向他们展示他们所做的项目所取得的进展，请他们下次再来参加Mapathon，并邀请他们在结束后去酒吧。
+2. 检查测绘人员登记册是否已完成
+3. 收集借给测绘人员的任何设备（鼠标、笔记本电脑等）
+4. 收集所有的标志、设备，并收集所有垃圾。
+5. 确保桌椅放回原处，场地干净后再去酒吧。
 
-### Not all work and no play
-If your Mapathon becomes a regular event it is possible that you will start to get a core of regular attendees who will become your experienced helpers and help to make this a social event as well.
+### 并非只工作不玩耍
+如果你的Mapathon成为一个定期的活动，你将有可能开始获得一个核心的定期参与者，他们将成为你经验丰富的助手，并帮助这个活动也成为一个社交活动。
 
 ![theme][]
 
 
-## Other Resources
+## 其他资源
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
+可下载 [odt](/files/Mapathon_check_list_3.odt)和 [pdf](/files/Mapathon_check_list_3.pdf)两种格式的检查表，以便在筹备会议上进行检查。
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+也可以在 [我们的外部资源页面](/zh_CN/resources)找到有用的mapathons资源。
 
 
 [venue]:               /images/coordination/mapathon-1.jpg
