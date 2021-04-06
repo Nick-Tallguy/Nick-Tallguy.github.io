@@ -24,14 +24,14 @@ category: coordination
 -  确保当地人承担起维护已准备好的地图数据的职责——他们拥有地图数据的“所有权”，  
 -  和远程测绘。  
 
-**Remote mapping** is the most labour intensive task. There have been many attempts to create software tools to replace the remote mappers, but all have failed so far. In brief, remote mapping is the process of using a software programme, tracing information from satellite imagery, and uploading the result so that it forms part of the map data. It is a skill that can be acquired with patience. There are no perfect 'mappers' and although you (and everybody else) will do your best to avoid mistakes, mistakes are inevitable. The HOT team works together to keep mistakes to a minimum & to correct them when they are found - you will make mistakes, just as each one of us has - please don't give up, just learn from them & improve.
+**远程测绘**是劳动强度最大的任务。人们曾多次尝试开发软件工具来取代远程测绘人员，但迄今都失败了。简而言之，远程测绘是使用软件程序，从卫星图像中追踪信息，并将结果上传，使其成为地图数据的一部分。这是一项可以通过耐心学习的技能。世上没有完美的“测绘人员”，尽管您（以及其他人）会尽力避免错误，但错误是不可避免的。HOT团队会共同努力将错误降到最低，并在发现错误时及时纠正 - 您会犯错误，就像我们每个人一样 - 请不要放弃，并从错误中学习并改进。
 
 远程，扶手椅或Mapathon测绘的概述
 ================================================
 
-1. An administrator selects an area requiring updating in OpenStreetMap. The administrator ensures there is suitable satellite imagery available for remote mappers to trace, and creates a project covering the area. The level of detail required and the urgency are specified within the project together with any other information the remote mapper will require. When satisfied, the administrator publishes the project within the Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org), although they may also make changes later if required.
+1.管理员选择一个需要更新OpenStreetMap的区域。管理员确保有适当的卫星影像可供远程测绘人员追踪，并创建一个涵盖该地区的项目。在项目中指定所需的详细程度和紧迫性，以及远程测绘人员需要的任何其他信息。管理员满意后，在Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org)中发布该项目，但他们也可以在以后根据需要进行修改。
 
-2. A remote mapper selects a task square, completes the mapping, and marks the square as complete.
+2.远程测绘人员选择一个任务方块，完成制图，并将该方块标记为完成。
 
 3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
 

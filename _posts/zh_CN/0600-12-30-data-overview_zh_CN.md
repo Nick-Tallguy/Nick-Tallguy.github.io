@@ -14,38 +14,38 @@ OSM数据概述
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 
-How OSM Works
+OSM如何运作
 --------------
-Let's consider how OpenStreetMap works. Thousands of users around the world continually add to and edit the map, but what goes on behind the scenes?  
+让我们来看看OpenStreetMap是如何运作的的。世界各地成千上万的用户不断地添加和编辑地图，但幕后是什么？  
 
-When you or any other user makes changes using editing software such as JOSM or iD, the software communicates with a central OpenStreetMap server and notifies it of your changes. On that server is a massive database, which contains all the location information and attributes about every single geographic feature in all of OpenStreetMap.  
+当你或任何其他用户使用JOSM或iD等编辑软件进行修改时，软件会与中央OpenStreetMap服务器通信，并将你的修改通知它。在该服务器上有一个庞大的数据库，它包含了所有OpenStreetMap中每一个地理特征的所有位置信息和属性。  
 
-Because OSM is free and open, it is possible for anybody to download all the data in this database. However, because it is so massive (*the data is more than 30 GB even when it's compressed*), it's nearly impossible to work with all the data at once.  
+由于OSM是免费和开放的，任何人都可以下载该数据库中的所有数据。然而，由于它是如此巨大（*数据即使被压缩后也超过30GB*），几乎不可能同时处理所有数据。   
 
-Because of this limitation, there are various methods of **exporting** and **extracting** data which are covered in this section. Exporting means to convert OpenStreetMap data from its native format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. These terms are often used interchangeably. We'll learn more about this throughout the OSM Data section.  
+由于这种限制，有各种**导出**和**提取**数据的方法，本节将介绍这些方法。导出是指将OpenStreetMap数据从其原生格式转换为方便自己的格式，这与**提取**数据略有不同。**提取**数据是指从您选择的区域中剪切数据。它也可能意味着从一个区域中提取您想要的特定特征。这些术语经常被互换使用。我们将在整个OSM数据章节中了解更多信息。  
 
-Using Geodata
+使用地理数据
 --------------
-If you are not an experienced GIS user, it's important to understand the difference between OSM editing software like JOSM and GIS software such as Quantum GIS and ArcGIS.  
+如果你不是一个有经验的GIS用户，了解JOSM等OSM编辑软件与Quantum GIS和ArcGIS等GIS软件的区别是很重要的。  
 
-Editors such as iD or JOSM have one core function that they are very good at - making it easy for users to edit OpenStreetMap. But they are not software meant for analyzing or querying data -
-this function is best left to other applications. GIS software, such as the free and open source [Quantum GIS (QGIS)](http://www.qgis.org), allows users to design good-looking maps, to query and analyze data, and much more. GIS software can also be used for editing geodata, but it is much easier to edit OpenStreetMap with the dedicated OSM editors.  
+iD或JOSM等编辑器有一个非常擅长的核心功能--让用户轻松编辑OpenStreetMap。但它们并不是用于分析或查询数据的软件 -
+这个功能最好让其他应用来完成。GIS软件，如免费和开源的 [Quantum GIS (QGIS)](http://www.qgis.org)，允许用户设计好看的地图，查询和分析数据，等等。GIS软件也可用于编辑地理数据，但用专门的OSM编辑器编辑OpenStreetMap要容易得多。  
 
-In the next chapter we will take a closer look at file formats which are associated with OpenStreetMap and geographic data in general. Then we'll look at various ways to access and manipulate OSM data and convert it between different file types.  
+在下一章中，我们将仔细研究与OpenStreetMap和一般地理数据相关的文件格式。然后，我们将看看访问和操作OSM数据的各种方法，并在不同的文件类型之间进行转换。  
 
 
-Getting the Data
+获取数据
 -----------------
 
-That's great, but how do you get out the data that you want?  
+这很好，但你怎么才能得到你想要的数据呢？   
 
-In this chapter we'll go over the various ways of exporting OSM data. We'll stick to the basics, but keep in mind that in order to use the data effectively, you'll probably need GIS software,
-such as the free Quantum GIS application.  
+在本章中，我们将介绍导出OSM数据的各种方法。我们将坚持基础知识，但请记住，为了有效地使用数据，你可能需要GIS软件。
+如免费的Quantum GIS应用。  
 
-Before we begin, let's go over some terminology. First, **exporting** means to convert OpenStreetMap data from its native XML format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. We'll use these terms frequently in this chapter, so it's important to understand the difference.  
+在开始之前，我们先来了解一些术语。首先，**导出**的意思是将OpenStreetMap数据从其原生的XML格式转换为你方便的格式。这与**提取**数据略有不同，**提取**的意思是将数据从你选择的区域中剪切出来。它也可能意味着从一个区域中提取出你想要的特定功能。在本章中，我们会经常使用这些术语，所以了解它们的区别很重要。  
 
-The OSM API
+OSM API
 ------------
-The OSM editing process functions because of what is known as an API, which allows editing software to communicate with the central server. For example, when you are using JOSM and you select the area you want to map, an API call is sent to the server, requesting all of the data that exists within the area that you have selected.  
+OSM编辑过程的运作得益于所谓的API，它允许编辑软件与中央服务器通信。例如，当你使用JOSM并选择你要绘制的地图区域时，就会向服务器发送API调用，要求获得你所选择的区域内存在的所有数据。  
 
-In fact, when you download data in JOSM, you are **extracting** the data from a specific area of the world. The data is then sent to you in **.osm** format, which you can then edit in JOSM. If you download data in JOSM and then save it, you will see that the file type is **.osm**. We'll talk more about this in the next chapter.  
+事实上，当您在JOSM中下载数据时，您是在**提取**世界某一特定区域的数据。然后，这些数据会以**.osm**格式发送给你，你可以在JOSM中进行编辑。如果你用JOSM下载数据，然后保存，你会看到文件类型是**.osm**。我们将在下一章中详谈这个问题。   
