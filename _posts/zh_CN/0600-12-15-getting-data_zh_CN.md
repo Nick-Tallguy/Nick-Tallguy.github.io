@@ -6,7 +6,7 @@ lang: zh_CN
 category: osm-data
 ---
 
-Getting OSM Data
+获取OSM数据
 =================  
 
 > 已审核 2016-04-05

@@ -6,50 +6,50 @@ lang: zh_CN
 category: josm
 ---
 
-Imagery Offset
+影像偏移
 ===============
 
-> 已审核 2015-09-21  
+本指南可以下载为 [correcting-imagery-offset_en.odt](/files/correcting-imagery-offset_en.odt)或 [correcting-imagery-offset_en.odt](/files/correcting-imagery-offset_en.odt)  
 
-Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
+影像供应商通常在地理参照影像方面做得很好，但有时图像可能会偏离位置。尤其是在丘陵或山区，因为在这些地区，很难将平坦的图像延伸到一个有许多等高线的地球区域。当您在JOSM中加载影像时，有时可能会与它的真实位置相差十米或更多。这就是所谓的**影像偏移**。  
 
-Notice in the following image that two separate aerial photographs have been georeferenced and merged together.  Because georeferencing is not a perfect process, the images do not line up perfectly with each other.  Hence one, or both, must be inaccurate.  
+请注意下图中，两张独立的航空照片已经被地理参考合并在一起。 由于地理参考并不是一个完美的过程，因此图像之间并不完全一致。 因此，其中一张，或两张，一定是不准确的。   
 
 ![Misaligned imagery][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial imagery to identify features on the ground, and another is by using GPS to record tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial imagery is obvious.  It enables you, the mapper, to see the whole picture, to observe various details from the image, consider your knowledge of the area, and easily trace roads, buildings, and areas.  One key advantage of GPS however, is that it doesn't suffer from offset like imagery.  A GPS will always provide you with a correct latitude and longitude.  The only exception is when the satellite signals are interrupted by tall buildings or mountains, but in this case it is easy to recognize the error.  Observe the GPS trace in this image, compared with the Bing aerial imagery layer beneath it:  
+我们已经了解了制作地图的两种主要方式 - 一种是利用航空影像来识别地面上的特征，另一种是利用GPS记录轨迹和航点，然后添加到OpenStreetMap中。 航空影像的优势是显而易见的。 它使你，即测绘人员，能够看到整个画面，从图像中观察各种细节，考虑你对该地区的了解，并轻松地描绘道路、建筑物和区域。 然而，GPS的一个关键优势是，它不像图像那样受到偏移的影响。 GPS将始终为你提供一个正确的经纬度。 唯一的例外是当卫星信号被高大的建筑物或山脉所干扰时，但在这种情况下，很容易识别错误。 观察这张图片中的GPS轨迹，与它下面的Bing航空影像图层进行对比：  
 
 ![Aerial vs GPS][]
 
-Because of what we now know, it is clear that the GPS trace is likely to be accurate, and the image beneath it is out of place. So now we must ask, “if the imagery may be out of place, how can we still use it and make accurate maps?”  
+因为我们现在所知道的，很明显GPS轨迹很可能是准确的， 而它下面的图像是不正确的。所以现在我们必须问："如果影像可能偏移了，我们如何才能使用它，并做出准确的地图？"  
 
-Correcting Imagery Offset
+校正影像偏移
 -------------------------
 
-The answer to the preceding question is that we can move the imagery so that it aligns with things that we know are in the correct location, such as GPS tracks. It is easy to correct imagery offset in JOSM.  
+前面的问题的答案是，我们可以移动影像，使其与我们知道的正确位置的东西对齐，如GPS轨迹。在JOSM中校正影像偏移很容易。  
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the more GPS tracks that you have to reference, the more accurate you will be able to align your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database, we can download them and use them to align our imagery.  
+调整影像最好的参照物是跟随道路的GPS轨迹。 而参考的GPS轨迹越多，你就越能准确地调整你的影像。 由于OpenStreetMap用户经常将他们的GPS轨迹上传到OSM数据库中，我们可以下载它们，并使用它们来调整我们的影像。  
 
-- Click on the download button. ![JOSM download button][]{: height="24px"}  
+- 点击下载按钮。 ![JOSM download button][]{: height="24px"}  
 
-- Check the box next to “Raw GPS Data” ![Download raw GPS data][]{: height="24px"} near the top of the Download window. Select your area and click “Download.”  
+- 勾选靠近下载窗口顶部“原始GPS数据”旁边的方框 ![Download raw GPS data][]{: height="24px"}选择你的区域，然后点击“下载”。   
 
-- This will download an additional layer to JOSM containing GPS tracks. Depending on how many tracks have been uploaded by OSM users, you may see few tracks (or even no tracks):  
+- 这将向JOSM下载一个包含GPS轨迹的附加图层。根据OSM用户上传的轨迹数量，你可能会看到很少的轨迹（甚至没有轨迹）：  
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- 或者，你可能会看到很多轨迹：  
 
 ![Many GPS tracks from OSM][]
 
-- To adjust an imagery layer, click on the “Adjust imagery offset” button ![Adjust imagery offset button][]{: height="24px"} at the top of JOSM.  
+- 要调整影像图层，点击JOSM顶部的 "调整影像偏移 "按钮 ![Adjust imagery offset button][]{: height="24px"}。  
 
-- Ignoring the box that pops up, use your mouse to drag the imagery layer so that it aligns correctly with the GPS tracks.  The GPS tracks should line up with the roads on the imagery as closely as possible.  You will see the offset numbers in the box change.  
+- 忽略弹出的方框，用鼠标拖动影像图层，使其与GPS轨迹正确对齐。 GPS轨迹应该与图像上的道路尽可能地对齐。 你会看到方框中的偏移数字发生变化。  
 
 ![Adjust imagery offset][]
 
-- If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
-- If you do not want to save the offset, simply click OK without entering a bookmark name.  
+- 如果您愿意，您可以通过输入一个书签名称，然后点击确定来保存这些偏移设置。然后，您可以通过进入影像 ‣ 影像偏移 并单击您的书签，随后自动应用相同的设置。   
+- 如果您不想保存偏移，只需单击 确定 而不输入书签名称。   
 
 What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
 

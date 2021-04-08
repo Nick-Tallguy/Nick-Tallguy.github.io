@@ -33,49 +33,49 @@ category: coordination
 
 2.远程测绘人员选择一个任务方块，完成制图，并将该方块标记为完成。
 
-3. A second remote mapper checks that the square is completed to a satisfactory level and marks the square as 'validated'
+3. 第二名远程制测绘人员检查该方块的完成情况是否令人满意，并将该广场标记为“已审核”。
 
-4. Progress of the mapping of the project can be monitored from within the "stats" tab of the project, and the project can be downgraded or archived as required by an administrator.
+4. 可以在项目的"统计"选项栏中监控项目的测绘进度，并可根据管理员的要求对项目进行降级或存档。
 
 
 在你开始之前
 ================
 
-Take a few minutes to look at each of these - just a quick read so you know roughly what we are talking about, and where to refer back to when you need to:
+花几分钟时间看看这些内容 - 快速阅读就好，这样你就知道我们在说什么，以及需要时可以在哪里参考。
  
--  [OpenStreetMap.org section of LearnOSM](/en/beginner/start-osm/). This covers just the basics about OpenStreetMap, and reading this will help you a lot - it's not a big chapter so it won't take you long to read it all. While you are reading it, use the information to help you create an OpenStreetMap account, and to confirm it with the email link. Make sure you have a record of your username and password.
+-  [LearnOSM的OpenStreetMap.org部分](/zh_CN/beginner/start-osm/)。这只是涵盖了关于OpenStreetMap的基础知识，阅读它将会对你有很大的帮助 - 它不是一个很长的章节，所以你不会花很长时间去阅读它。当你阅读的时候，使用这些信息来帮助你创建一个OpenStreetMap账户，并通过电子邮件链接来确认它。确保你记录了用户名和密码。
 -  [LearnOSM的Tasking Manager部分](/zh_CN/coordination/tm-user/)。你将需要知道如何登陆Tasking Manager，查找特定项目，选择方形以及如何处理。你需要阅读完整个章节！  
 
-You may also like to view the short video's provided by [MapGive](http://mapgive.state.gov/learn-to-map/) - please be aware the OSM Tasking Manager has been upgraded since the video was made - the principles are the same but the colours have altered.
+您也可以观看由 [MapGive](http://mapgive.state.gov/learn-to-map/)提供的短视频 - 请注意，自视频制作以来，OSM任务管理器已经升级 - 原理相同，但颜色有所改变。
 
 
 编辑软件
 ----------------
 
-Although there are more software programmes available, at this time there are two main choices. Have a quick read of the LearnOSM chapters listed below and decide which editor you would like to start with - you can easily change from one to another at a later stage if you wish:
+虽然有更多的软件程序可供选择，但目前主要有两种选择。快速阅读下面列出的LearnOSM章节，并决定你想从哪个编辑器开始 - 如果你愿意，你可以在以后的阶段很容易地从一个编辑器转换到另一个：
 
 -  iD编辑器 [LearnOSM中的iD编辑器章节](/zh_CN/beginner/id-editor/)。 对于那些刚接触OpenStreetMap编辑的人来说，此编辑器是理想的选择，并且具有舒缓的学习曲线。最后一部分说明了 [iD和JOSM的区别](/zh_CN/beginner/id-editor/#iD与JOSM的比较)，然后  
--  JOSM, the Java OpenStreetMap editor [LearnOSM - installing & starting out with JOSM](/en/josm/start-josm/)
+-  JOSM，Java OpenStreetMap编辑器 [LearnOSM - 安装和开始使用JOSM](/zh_CN/josm/start-josm/)
 
 # 远程绘图 - 开始绘制
 
-Don't give up on us now - we've thrown a lot of information at you, but it should start to fall into place as you actually start to map. You've achieved a lot:
+现在不要放弃我们 - 我们向您提供了很多信息，但是当您实际开始进行地图绘制时，它应该会开始出现。您已经取得了很多成就：
 
--  You have an OpenStreetMap account with a username & password,  
--  You know what the OSM Tasking Manager does, and have an idea about how you will use it, and  
--  You've decided which editing software you are going to start with, and you have an idea how it is used.
+-  你有一个OpenStreetMap账户，有一个用户名和密码，  
+-  你知道OSM Tasking Manager是做什么的，并且对如何使用它有一个想法，而且  
+-  你已经决定了要从哪个编辑软件入手，你也知道如何使用它。
 
-We're now going to select a square from a project and start to map it. If you are at a mapathon, or assisting remotely, the organisers will have provided instructions as to which project you should be working on. If you are working alone, look through the list of projects in the Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org) and try to find a project which is suitable for beginners, and choose a project. You've probably already had a quick read of the information on the Instructions Tab of the project, but you need to thoroughly understand what is needed - do you need to read it again?
+我们现在要从一个项目中选择一个方块并开始绘制地图。如果你是在mapathon上，或者是远程协助，组织者应该会提供你在哪个项目上工作的说明。如果你是一个人工作，可以在Tasking Manager [tasks.hotosm.org](http://tasks.hotosm.org)中查看项目列表，尽量找到一个适合初学者的项目，然后选择一个项目。你可能已经快速阅读了项目的说明标签上的信息，但你要彻底了解所需的内容 - 你需要再读一遍吗？
 
-Having selected the project you are going to work on, now select a square and then using the drop down list, load it into your chosen editor. 
+选择了你要做的项目后，现在选择一个方块，然后使用下拉列表，将其加载到你选择的编辑器中。 
 
 ## 初始视图 
 ### iD
 
 ![iD 1][]
 
-1.  The boundary of your square is indicated by the purple line. There is a very slight overlap of the squares, so that a feature in your square that stops at the boundary will just appear within the boundary of the adjacent square. You should only map features within your square to avoid 'conflicts', which are explained elsewhere.  
-2.  The scale of your view is indicated here. This is a very small square, with the 100 metre line extending quite a long way in proportion to the length of the square - this figure is often several kilometres.  
+1.  您的方格的边界由紫线表示。方格之间有轻微的重叠，因此您方格内的地物如果停在边界上，就会刚好出现在相邻方格的边界内。您应该只绘制您方格内的地物，以避免"冲突"，这在其他地方有解释。  
+2.  这里标明了你所看到的比例尺。这是一个很小的正方形，100米线与正方形的长度成正比，延伸了相当长的距离 - 这个数字往往是几公里。  
 3.  OpenStreetMap数据库中已经存在一些功能，并且功能已经加载。我们一会儿就去探索。
 4.  Bing图像已作为背景加载。  
 
@@ -84,11 +84,11 @@ Having selected the project you are going to work on, now select a square and th
 
 ![JOSM 1][]
 
-1.  The boundary of your square is indicated by the crosshatching. There is a very slight overlap of the squares, so that a feature in your square that stops at the boundary will just appear within the boundary of the adjacent square. You should only map features within your square to avoid 'conflicts', which are explained elsewhere.  
-> If the boundary crosshatching is not visible, you may have installed the plugin '*Download OSM data continuously*'. To correct this you will need to remove the tick for this plugin under the File menu of JOSM, delete the downloaded data, and download again using the Tasking Manager.  
-2.  The scale of your view is indicated here. This is a very small square, with a figure of 40.8 metres - this figure is often several kilometres.  
+1.  您的方格的边界由交叉阴影表示。方格之间有轻微的重叠，因此您方格内的地物如果在边界处，就会刚好出现在相邻方格的边界内。您应该只绘制您方格内的地物，以避免"冲突"，这在其他地方有解释。  
+> 如果边界交叉阴影不可见，你可能安装了'*Download OSM data continuously*'的插件，要纠正这种情况，你需要在JOSM的文件菜单下取消该插件的勾，删除下载的数据，并使用Tasking Manager再次下载。要纠正这种情况，你需要在JOSM的文件菜单下取消该插件的勾选，删除下载的数据，然后使用Tasking Manager重新下载。  
+2.  这里标明了你所看到的比例尺。这是一个很小的广场，数字是40.8米 - 这个数字往往是几公里。  
 3.  OpenStreetMap数据库中已经存在一些功能，并且功能已经加载。我们一会儿就去探索。
-4.  There is no background imagery loaded on this occasion and we will have to load it manually - the instructions for this particular project show that bing imagery is to be loaded, and this can be quickly loaded by clicking on the word 'imagery' and then selecting 'bing' from the dropdown list. You may find that zooming out (roll the mouse centre wheel towards you) and then zooming in again helps the imagery to load quickly. 
+4.  这次没有加载背景影像，我们必须手动加载 - 这个特定项目的说明显示要加载bing影像，可以通过点击"影像"一词，然后从下拉列表中选择"bing"来快速加载。您可能会发现，放大（将鼠标中心轮滚向您的方向），然后再放大，有助于快速加载影像。 
 
 ## 备用初始视图 
 ### iD
@@ -96,45 +96,45 @@ Having selected the project you are going to work on, now select a square and th
 ![iD 4][]
 
 1.  方形的边界  
-2.  For this square the scale indicated is 5km, at which scale the editing buttons at the top of the screen are greyed out and not selectable.
+2.  对于这个方块来说，标示的比例尺是5公里，在这个比例尺上，屏幕上方的编辑按钮是灰色的，不能选择。
 
 ### JOSM
 
 ![JOSM 3][]
 
-1.  Boundary of square is indicated by the crosshatching. bing imagery has been loaded, but at this scale the imagery is not detailed.  
-2.  The scale line indicates 2.61km - this is a very large area of coverage. 
+1.  阴影线表示方块的边界。Bing影像已加载，但是在此比例下该图像未详述。  
+2.  比例尺显示2.61公里 - 这是一个非常大的覆盖范围。 
 
 ## 检查现有数据 
 ### iD
 
 ![iD 2][]
 
-1.  I've clicked on one of the existing features in the OSM data, and it is now highlighted with a red border in the screenshot, and iD is showing the available tools.  
-2.  iD presented me with a number of potential tags I could use on this feature on the left side of the screen, but for our purpose I have used the scroll bar to go down to the heading **All tags** where we can see that the feature has a key of **highway** and a value of **residential**. For ease of reference this would be referred to as  
+1.  我点击了OSM数据中现有的一个功能，现在在截图中用红色边框高亮显示，iD显示了可用的工具。  
+2.  iD在屏幕左侧向我展示了许多我可以在该特征上使用的潜在标签，但为了我们的目的，我使用滚动条下移到标题**所有标签**，我们可以看到该特征的键为**公路**，值为**住宅**。为了便于参考，我们将其称为"**所有标签"  
     highway=residential  
-3.  The person who has mapped the adjoining square has traced a highway from their square just over the border into my square & then stopped. This is the correct way to 'handover' a highway or feature at the border of your square.
+3.  绘制相邻方块地图的人从他们的方块在边界上划出一条公路进入我的方格，然后停下来。这是"移交"你的方块边界的公路或地物的正确方法。
 
-The next section of this guide indicates how features should be mapped & tagged [Tracing roads, buildings, water and landuse](/en/coordination/remote-tracing/).  
+本指南的下一节说明了如何绘制地物和标签 [描绘道路、建筑物、水和土地利用要素](/zh_CN/coordination/remote-tracing/)。  
 
 
 ### JOSM
 
 ![JOSM 2][]
 
-1.  I've clicked on one of the existing features in the OSM data, and it is now coloured red in the screenshot.  
-2.  In the **Tags / Memberships** pane to the right you can see that this feature is tagged with the key of highway & a value of residential. For ease of reference this would be referred to as  
+1.  我点击了OSM数据中现有的一个地物，现在截图中它被染成了红色。  
+2.  在右边的**标签 / 成员关系**面板中，你可以看到这个地物被标记为公路的键和住宅区的值。为了便于参考，这里将被称为  
     highway=residential  
 
-The next section of this guide indicates how features should be mapped & tagged.
+本指南的下一节将说明如何绘制和标记地物。
 
 
 # 进一步阅读
 
--  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
--  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
--  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
--  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
+-  [用户Bgirardot提供的西非HOT测绘攻略](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
+-  [有关审核的OSM Wiki条目](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
+-  [非洲公路标签 - 非洲公路标签的首选参考资料](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
+-  [远程制图法语简明教程](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
 
 [JOSM 1]: /images/coordination/JOSM_1.png

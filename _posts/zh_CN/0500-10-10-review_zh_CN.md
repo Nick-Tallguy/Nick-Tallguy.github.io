@@ -6,7 +6,7 @@ lang: zh_CN
 category: coordination
 ---
 
-Reviewing OSM Data
+检查OSM数据
 ==================
 
 > 已审核 2017-04-24  
