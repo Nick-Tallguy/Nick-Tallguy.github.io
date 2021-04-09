@@ -51,103 +51,103 @@ category: josm
 - 如果您愿意，您可以通过输入一个书签名称，然后点击确定来保存这些偏移设置。然后，您可以通过进入影像 ‣ 影像偏移 并单击您的书签，随后自动应用相同的设置。   
 - 如果您不想保存偏移，只需单击 确定 而不输入书签名称。   
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+如果OpenStreetMap上没有GPS轨迹，而你又没有GPS，怎么办？如果没有GPS轨迹，就很难对准图像。 如果它是一个相对空旷的区域（没有做太多的地图），你可能会选择简单地使用图像，并在以后修正数据。 有测绘区域偏移二三十米，总比完全不测绘要好。  
 
-If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
+如果你能确定地面上一个物体的经纬度，你就可以通过以下步骤确保影像的正确放置:  
 
-1. Identify the object whose position you know on the imagery.  
-2. Click on the latitude and longitude in the bottom left corner of JOSM.![JOSM lat lon][]{: height="24px"}  
-3. In the dialog that opens, enter the latitude and longitude of the place that you know, and enter a small number for Zoom, about five or ten.  
+1. 确定你在影像上了解位置的物体。  
+2. 点击JOSM左下角的经纬度 。![JOSM lat lon][]{: height="24px"}  
+3. 在打开的对话框中，输入您所知道的地点的经纬度，并为Zoom输入一个小数字，大约是5或10。  
 ![JOSM lat lon dialogue][]
-4. This will zoom and center the map to your longitude and latitude.  Now you can move the imagery as you did previously so that the feature you know is centered at the correct position.  
+4. 这将把地图放大并居中到你的经纬度。现在你可以像之前一样移动影像，使你所知道的地物在正确的位置居中。  
 
-If, on the other hand, the area has already been extensively mapped, then hopefully the previous mappers have drawn objects in their correct locations.  In this case, you can align the imagery to the OSM map, but beware!  Other mappers may not be aware of imagery offset, and they may have made mistakes when they mapped.  
+另一方面，如果该区域已经被广泛绘制，那么希望之前的测绘人员已经在其正确的位置上绘制了对象。 在这种情况下，您可以将图像与OSM地图对齐，但要注意！其他测绘人员可能不知道影像偏移，他们可能在制图时犯了错误。   
 
 
-The Imagery Offset Database
+影像偏移数据库
 ---------------------------
 
-Now you know how to watch out for and correct imagery offset, but there is one major problem with this approach that we have overlooked thus far.  If every OpenStreetMap user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.  
+现在你知道如何注意和校正影像偏移了，但是这种方法有一个主要的问题是我们至今都忽略了的。 如果每个OpenStreetMap用户都以不同的方式调整图像，那么每个人都将以略微不同的背景进行地图绘制。  
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is offset by 15 meters to the north. So you adjust the imagery and then use it to map the whole town accurately. But then somebody else wants to add something to the map, so they download the data and load Bing imagery, but they don’t know about the imagery offset you discovered!  They will think that something is wrong and all of the objects in town are misplaced by 15 meters, and they will start to move them, which is not correct!  This can be disastrous for the town’s map data.  
+想象一下，你正在绘制一个小镇，你意识到Bing的影像向北偏移了15米。于是你调整了图像，然后用它来准确地绘制整个小镇。但后来有人想在地图上添加一些东西，于是他们下载数据并加载Bing图像，但他们不知道你发现影像偏移的问题！他们会认为这有问题，并认为你的地图有问题。 他们会认为出了问题，城里所有的物体都错位了15米，他们会开始移动它们，这是不正确的! 这对城镇的地图数据来说是灾难性的。   
 
-For this reason it is important that all users are aware of imagery offset, and should always check for it before mapping an area.  To help with this problem, some smart people created a plugin that allows users to save offset information in a database and share it with others.  Let’s see how this works:  
+出于这个原因，所有用户都必须意识到影像偏移的严重性，并且应该在绘制一个区域之前始终检查它。 为了帮助解决这个问题，一些聪明的人创建了一个插件，允许用户将偏移信息保存在数据库中，并与其他人分享。 让我们来看看这是如何工作的。   
 
-- Open the Preferences menu in JOSM, and click on the Plugins tab.![JOSM plugins tab][]{: height="24px"}  
+- 打开JOSM中的偏好设置菜单，点击 插件 选项栏![JOSM plugins tab][]{: height="24px"}  
 
-- Find the plugin named “imagery_offset_db” and check the box next to it.  
+- 找到名为"imageery_offset_db"的插件，并选中旁边的方框。  
 
 ![Imagery_offset_db plugin][]
 
-- Click OK.  You will need to restart JOSM to finish the plugin installation.  
+- 点击确定。 您需要重新启动JOSM来完成插件的安装。  
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows you to save offsets to a central database, and to access the offsets that other users have created.  Hence, if one mapper creates an imagery offset in an area, other users can use the exact same offset to map with.  
+就像您可以将偏移量保存为书签一样，这个插件允许您将偏移量保存到中央数据库，并访问其他用户创建的偏移量。 因此，如果一个测绘人员在一个区域内创建了一个影像偏移，其他用户可以使用完全相同的偏移来进行绘图。  
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets, and when you create your own offset, you should ALWAYS save it to this database.  
+当使用航空影像图层时，您应该始终检查现有的偏移，当您创建自己的偏移时，您应该始终将其保存到该数据库中。  
 
 
-Add Imagery Offset from the Database
+从数据库中添加影像偏移
 ------------------------------------
 
-When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
+当你添加一个影像图层时，新的插件会提醒你应该检查图像数据库中是否存在偏移。 你会在JOSM的顶部看到一个带有红色感叹号的图标，就像这样：  
 
 ![Imagery offset notification][]
 
-- Click on the button and the plugin will communicate with the database to see if there are existing offsets in this area.  
-- Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia. In this case, we have found one existing offset. Click on it to apply to the map.  
+- 点击按钮，插件将与数据库进行通信，查看该地区是否有存在的偏移量。   
+- 在这里，我们已经下载了OSM数据和印度尼西亚巴厘岛库塔的GPS轨迹。在这种情况下，我们发现了一个现有的偏移量。点击它来应用到地图上。   
 
 ![Offset in Kuta bali][]
 
-- This causes the imagery layer to shift.  However, when we add someone else’s offset like this, we should check that it is valid by comparing to GPS tracks.  
+- 这样就会导致影像图层发生偏移。 但是，当我们添加别人的偏移量时，我们应该通过与GPS轨迹比较来检查它是否有效。   
 
 ![Comparing imagery offset from GPS tracks][]
 
-- We can see that the imagery layer is in fact misaligned.  We don’t want other users to use this offset, so we should mark it as incorrect in the database. Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).  
+- 我们可以看到，影像图层实际上是错位的。 我们不希望其他用户使用这个偏移量，所以我们应该在数据库中把它标记为不正确。再点击“偏移(Offsets)”按钮（它不会再有红色的感叹号了）。  
 
 ![Offsets button][]
 
-- This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”  
+- 这个时候打开对话框后，右键点击偏移量，点击 "弃用偏移(Deprecate Offset)"。  
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
-- You will need to enter a reason for deprecating this offset.  
+- 点击"Yes"来确认。  
+- 你需要输入一个废弃这个偏移的原因。  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+添加影像偏移到数据库
 ------------------------------------
 
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
+既然我们已经将这个用户的偏移量标记为“废弃”，那么我们应该向数据库中添加一个改进的偏移量。  
 
-1. Click on the “Adjust imagery offset” button. ![Adjust imagery offset button][]{: height="24px"}  
-2.  Adjust the imagery to match the GPS tracks.  Click OK in the box.  
-3.  Now go to Offset ‣ Store Imagery Offset...  
+1. 点击 "调整影像偏移 "按钮。 ![Adjust imagery offset button][]{: height="24px"}  
+2.  调整影像以匹配GPS轨迹。点击框中的“OK”。  
+3.  现在进入 偏移(Offset) ‣ 保存影像偏移...(Store Imagery Offset...)  
 ![Store imagery offset][]
-4.  Enter a description of the offset in the box that opens.  
+4.  在打开的框中输入偏移量的说明。  
 ![Offset description][]
-5.  Click OK.  Your offset will be saved to the database.  
-6.  Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.  
+5.  点击OK。您的偏移量将被保存到数据库中。  
+6.  现在让我们隐藏GPS层，并对照正确放置的影像查看OSM数据。  
 
 ![Corrected imagery][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
+哦，不！有人用错位的影像绘制了这一区域，所以该区域没有正确绘制。 这将需要一些时间来修复。
 
 
-Imagery Offset Database Website
+影像偏移数据库网站
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+最后，关于偏移数据库的更多信息，你可以访问网站 [http://offsets.textual.ru/](http://offsets.textual.ru/)。 这里列出了所有已经上传到数据库的偏移量，它还有一个很酷的地图功能，可以直观地显示偏移量的位置，你可以在这里看到：  
 
 ![http://offsets.textual.ru/][]
 
-> One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
+> 还有一件事要记住的是，影像的偏移距离可能不尽相同！在有很多山丘和山脉的地区尤其如此。因此，如果影像在不同地区的偏移量不同，你就需要再次移动它。  
 
-Summary
+小结
 --------
 
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+当你刚开始使用OpenStreetMap时，你不需要太担心影像的偏移问题。 但是，如果你看到另一个测绘人员的编辑似乎与影像不一致，在你开始改变他们的对象之前，你应该始终考虑到可能存在偏移。 如果你还没有做好处理偏移的准备，请记住，绘制一个偏移20或30米的区域总比完全不绘制要好。 但在可能的情况下，请记住可能会发生影像偏移，并在需要的时候使用本章的步骤来纠正它。
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png
