@@ -11,30 +11,30 @@ JOSM建筑物工具和Utilsplugin2插件
 
 > 已审核 2016-09-12  
 
-The **buildings_tools** and **utilsplugin2** plugins add great additional functionality into JOSM. In this section we'll take a closer look at the functions they provide.  
+**buildings_tools**和**utilsplugin2**插件为JOSM添加了大量的附加功能。在这一节中，我们将进一步了解它们提供的功能。   
 
-The Buildings Tools Plugin
+建筑物工具插件
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+如果您还没有安装，请按照 [JOSM插件](/zh_CN/josm/josm-plugins)中的说明安装此插件。   
 
 ![Buildings tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings. It allows you to trace one side of a rectangular building, and easily extend the shape. If you are digitizing many buildings, this plugin will save you clicks, and thereby save you time.  
+建筑物工具插件对建筑物的数字化非常有帮助。它允许你跟踪一个矩形建筑的一个侧面，并轻松地扩展形状。如果你正在数字化许多建筑物, 这个插件将节省你的点击, 从而节省你的时间。  
 
-Once the plugin has been installed you will see a new button on the left side of JOSM, which looks like this: ![Buildings tools button][]{: height="29px"}
+一旦安装了这个插件，你会在JOSM的左侧看到一个新的按钮，它看起来像这样： ![Buildings tools button][]{: height="29px"}
 
-Start JOSM and download an area where you wish to trace buildings.  
+启动JOSM并下载一个你想追踪建筑物的区域。  
 
-* Select the building tool and click twice to draw a line on the map.  
+* 选择建筑物工具，点击两次，在地图上画一条线。  
 
 ![Draw edge][]
 
-* Then extend the mouse and click again to draw a rectangle.  
+* 然后移动鼠标并再次点击绘制一个矩形。  
 
 ![Extend building][]
 
-* This will not only create a rectangle with only three clicks, but it will also automatically apply the **building=yes** tag to the shape.  
+* 这不仅只需点击三次就能创建一个矩形，而且还会自动将**building=yes**标签应用到形状中。  
 
 ### Complex Buildings
 
