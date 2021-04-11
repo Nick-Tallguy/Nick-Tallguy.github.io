@@ -36,29 +36,29 @@ JOSM建筑物工具和Utilsplugin2插件
 
 * 这不仅只需点击三次就能创建一个矩形，而且还会自动将**building=yes**标签应用到形状中。  
 
-### Complex Buildings
+### 复杂建筑物
 
-You can also create more complicated buildings by first drawing several overlapping buildings and then merging them together.  
+你也可以通过先画几个重叠的建筑，然后将它们合并在一起，来创建更复杂的建筑。   
 
-* Draw two buildings which over lap, so that they form an L shape.  
-* Select both buildings (hold SHIFT to select more than one object).  
-* Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.  
+* 绘制两座重叠的建筑物，使它们形成L形。  
+* 选择两栋建筑（按住SHIFT键可以选择多个对象）。   
+* 转到 工具->合并重叠区域 或按键盘上的SHIFT+J。  
 
 ![Merge buildings][]
 
-### Edit Settings
+### 编辑设置
 
-Furthermore, you can alter the default settings of the plugin.  
+此外，你还可以改变插件的默认设置。  
 
-* Go to Data->Set buildings size. ![Set buildings size][]{: height="39px"}  
+* 进入 Data->Set buildings size。 ![Set buildings size][]{: height="39px"}  
 
-* If you are creating many similarly sized buildings, you can set specific width and height dimensions of the buildings, such as 6 x 10 meters (the unit is in meters).  
+* 如果您正在创建许多类似大小的建筑物，您可以设置建筑物的特定宽度和高度尺寸，如6×10米（单位是米）。  
 
 ![Set buildings size dialog][]
 
-* By setting the dimensions you will only need two clicks to create precisely sized buildings.  
+* 通过设置尺寸，您只需要点击两次就可以创建精确大小的建筑物。  
 
-Lastly, you can click on the Advanced button if you would like to add additional tags that will automatically be applied to every building. For example, if every building you draw is on the same street, you might add a tag which identifies the street that will be automatically applied.  
+最后，如果您想添加额外的标签，可以点击“高级(Advanced)”按钮，这些标签将自动应用到每座建筑物上。例如，如果您绘制的每一栋建筑都在同一条街道上，您可以添加一个标识街道的标签，该标签将被自动应用。  
 
 ![Buildings advanced][]
 
@@ -66,7 +66,7 @@ Lastly, you can click on the Advanced button if you would like to add additional
 Utilsplugin2
 -------------
 
-* If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+* 如果您还没有安装，请按照 [JOSM插件](/zh_CN/josm/josm-plugins)中的说明安装此插件。  
 
 ![Utilsplugin2 plugin][]
 
