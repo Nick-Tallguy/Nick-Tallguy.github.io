@@ -70,38 +70,38 @@ Utilsplugin2
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have a new menu at the top named "More Tools."  
+当你安装好插件并重启JOSM后，你会在顶部有一个名为“更多工具 ”的新菜单。   
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+创建一个新的图层，并用一些新的工具进行实验。这里我们介绍一些最有用的新工具：  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **在交叉口添加节点：**这个工具对于在选定道路的交叉口添加缺失的节点非常有用。 正确的做法是，道路相交的地方总是应该有公共节点。  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **从上一个选区复制标签：**这个功能使复制标签变得更容易。如果你想创建许多具有相同标签的对象，首先绘制对象。然后将标签添加到一个对象上。点击另一个对象，按Shift + R键，复制之前所选对象的标签。您可以对所有要标记的对象进行此操作。记得，标签会从先前选择的物件复制，所以如果你点击一个未标签的对象，然后再点击另一个未标签的对象，你将无法复制任何标签。  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. **添加源标签：**这个工具简化了来源标签的添加。它能记住上次指定的来源标签，并将其作为记住的来源标签添加到你的对象中。 您只需点击一下就可以插入来源标签。  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **替换几何形状：**如果你想重新绘制一个形状不佳的对象，但又想保留该对象的历史、属性和ID号，那么这个工具就非常好用。 例如，如果你遇到一栋建筑很复杂，而且画得很差，那么你就不用痛苦地改变每一个节点，而是可以重新绘制对象，选择新旧对象，然后选择¨Replace Geometry¨将所有信息转移过来。  
 
     ![Replace geometry][]
 
 
-### More Selection Tools
+### 更多选择工具
 
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+**Utilsplugin2**还在“选择”菜单上提供了更多的工具。请尝试使用它们。  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+我们最喜欢的选择工具之一是**取消选择节点(Unselect Nodes)：**这个工具可以取消选择所有节点。如果你画一个框框来选择许多对象，但你不想选择所有线条和形状中包含的节点，这可能是有用的。   
 
 ![Unselect nodes][]
 
-Good luck!  
+祝你好运！  
 
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
