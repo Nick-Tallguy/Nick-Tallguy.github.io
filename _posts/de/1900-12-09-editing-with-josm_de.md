@@ -10,19 +10,19 @@ Erfassen realer Objekte in JOSM
 ==================
 
 
-We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+Wir können nun Gebäude in OpenStreetMap mappen. Im Kapitel [Mapping mit einem Smartphone, GPS oder Papier](/de/mobile-mapping) kann man sehen wie man mobile Werkzeuge zur Erhebung von Gebieten einsetzt.
 
-In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
+In diesem Kapitel kehren wir erneut zu JOSM zurück und schauen uns einige neue Konzepte an, welche wir bisher nicht abgedeckt haben.
 
 Ebenen in JOSM
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
+Wenn du soweit und gefolgt bist, hast du vielleicht bemerkt, dass man alle Arten unterschiedlicher Dinge in JOSM hinzufügen kann. Wir können OSM Daten herunterladen, Bing Satellitenbilder einblenden, GPS Spuren und Wegpunkte laden und Field Papers einblenden - alles zusammen eingeblendet im Kartenfenster von JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
+Du hast vielleicht auch bemerkt, dass jedes Mal, wenn du etwas mit JOSM hinzugefügt hast, ein zusätzlicher Eintrag zur Ebenenleiste auf der rechten Seite von JOSM hinzugefügt wird. Abhängig von was man geöffnet hat, kann die Ebenenleiste wie folgt aussehen:
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
+Jeder Eintrag in dieser Liste repräsentiert eine andere Datenquelle, die du in deinem Kartenfenster geöffnet hast. In diesem Beispiel, "Data Layer 1" zeigt die OpenStreetMap Daten, welche wir editieren. "Field Papers" ist die Ebene die erstellt wurde, als wir unserer Field Paper zu JOSM hinzugefügt haben.
 
 Wenn wir Bing-Satellitenbilder hinzufügen, erscheint eine neue Ebene im Ebenen-Fenster unter dem Namen "Bing Sat".
 
