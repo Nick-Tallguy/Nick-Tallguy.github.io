@@ -9,7 +9,7 @@ category: osm-data
 Using OSM Data in QGIS
 =================
 
-> Reviewed 2021-05-14
+> Reviewed 2021-05-15
 
 QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
 
@@ -39,6 +39,8 @@ Importing extracts
 
 There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
 
+You can either use QuickOSM to import it clicking on 'OSM File' in the left bar. Once you used QuickOSM OSM files should have been made known to QGIS and you can use the regular vector layer import:
+
 - Go to Layer -> Add Layer -> Add Vector Layer...  
 - In the source field, select your file and click "Add".  
 - You can select one or more type layers from that file.  
@@ -64,19 +66,37 @@ You can choose to re-import the exported layer by checking the box at the bottom
 Working with the Data
 --------------------
 
-We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is a quick example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania):
+We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania. You can inspect the data of a vecor layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
 
-In this example polygons are mostly islands and buildings. As they are on the same layer they are rendered in the same way which means that islands cover everything else. Let me first make sure that these polygons appear less prominently. From the context menu of the multipolygon layer I select Properties and on that form I move to the Symbology tab. At the top I change the fill colour to black and reduce the opacity so that the polygons appear in a light grey and render other features below them visible.
+![attribute table][]
+
+We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
+
+In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
 
 ![symbology][]
 
-Next I'd like to treat buildings differently. Treat differently means that I need them on a different layer. This time I choose the Attribute table from the context menu of the multipolygon layer. We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called hstore in a PostgreSQL database and is the standard for OSM data. I am looking for buildings i.e. for objects whose building tag is not empty. In order to find and select them I click on the 'select features using an expression' icon in the toolbar at the top of the table (marked with a purple square in the image below). I must use a little workaround because QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts this string into a key-value-map. The condition reads that we look for objects whose building key is not empty. Clicking on Select features at the bottom selects all those lines (shown in blue).
+First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
 
-![selection][]
+![symbology rule based][]
 
-Next I need to put them in a layer. From the main QGIS menu we go to Edit -> Paste Features as -> New Vector Layer...  Pretty much like the export already described, I need a file name for a Shapefile layer (buildings.shp in this example) and the other defaults can be left as they are. Do not forget to keep "Add saved file to map" checked. The new layer will automatically receive a different fill colour and should therefore be clearly visible. Otherwise you already know how to change this.
+The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
 
-![selection loaded][]
+![symbology edit rule][]
+
+We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
+
+![symbology polygon rules][]
+
+As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+
+You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+
+![done][]
 
 
 Summary
@@ -90,7 +110,10 @@ This process makes it easy to get up-to-date OSM data and pull it into QGIS. Onc
 [import osm]: /images/osm-data/qgis-import-osm.png
 [import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
 [export]: /images/osm-data/qgis-export.png
-[attribute table]: /images/osm-data/attribute_table.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
 [symbology]: /images/osm-data/qgis-layer-symbology.png
-[selection]: /images/osm-data/qgis-layer-selection.png
-[selection loaded]: /images/osm-data/qgis-layer-selection-loaded.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png
