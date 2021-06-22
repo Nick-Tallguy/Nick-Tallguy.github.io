@@ -9,89 +9,93 @@ category: osm-data
 Gegevens van OSM gebruiken in QGIS
 =================
 
-> Bijgewerkt op 19-07-2015
 
 QGIS (eerder Quantum GIS) is een open-source, platformonafhankelijk Geografisch Informatie Systeem met vele mogelijkheden. Met QGIS kunt u toegang verkrijgen tot up-to-date gegevens van OSM wanneer u maar wilt, de tags selecteren die u wilt opnemen, en ze eenvoudig exporteren naar een gemakkelijk te gebruiken database voor SQLite of shapefile.  
 
-In dit hoofdstuk zullen we door de stappen gaan om dit te doen. We gaan er van uit dat u QGIS 2.x al heeft gedownload en geïnstalleerd. Als u dat nog niet gedaan heeft, kunt u het downloaden vanaf <http://www.qgis.org/en/site/forusers/download.html>.  
+In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 3.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
 
-We zullen eerst de meest recente gegevens van OSM in de ruwe indeling **.osm** ophalen om onze aangepaste, up-to-date lagen van OSM in QGIS te laden. Dan zullen we deze gegevens converteren naar een database van SQLite, wat een lichtgewicht databasesysteem is dat in één bestand is opgeslagen op uw systeem. Tenslotte zullen we een laag maken (of meerdere lagen) die alleen de typen objecten en tags bevatten waar we toegang toe willen hebben. Deze lagen kunnen in QGIS worden gebruikt zoals ze zijn of worden opgeslagen in een andere indeling, zoals een shapefile.  
+We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
 
-Toegang tot gegevens van OpenStreetMap
+Obtaining Data from the Database
 ---------------------------
 
-Het eerste wat we zullen doen is het ophalen van enkele bijgewerkte gegeven van OSM. We kunnen dat op meerdere manieren doen. Natuurlijk is het bevragen van gegevens van de server van OSM, zoals we dat doen in de bewerker JOSM, beperkt zodat we niet in één keer een zeer grote hoeveelheid ruwe gegevens kunnen ophalen - er zijn echter manieren om grotere gegevenssets op te halen, zoals
-beschreven in de eerdere hoofdstukken over [Getting OSM Data](/nl_NL/osm-data/getting-data) en [Using Geofabrik and HOT Export](/nl_NL/osm-data/geofabrik-and-hot-export).  
+The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
 
-Voor deze handleiding zullen we de ingebouwde functie voor downloaden in in QGIS gebruiken.  
+- Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
 
-- Open QGIS en ga naar Vector -> OpenStreetMap -> Gegevens downloaden...  
-- U kunt hier uit verschillende opties kiezen - als u venster al het bereik weergeeft die u wilt, selecteer dan het vak naast "Van kaartvenster". Als u een laag hebt geladen in QGIS met het juiste bereik, kies dan "Van laag" en selecteer de laag die u wilt gebruiken. Hier zullen we "Handmatig" en de lengte- en breedtegraden invoeren die een **begrenzingsvak** vormen rond het gebied waar we toegang tot willen. U kunt de lengte- en breedtegraden invoeren die u interesseren, maar onthoud dat het gebied niet te groot mag zijn, of u zult niet alle gegevens kunnen downloaden.  
+![quickosm][]
 
-![bounding box][]
+- You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
 
-- Selecteer een naam en locatie voor het uitvoerbestand, gebruik de bestandsextensie **.osm**, en klik op OK.  
-- U zult een bericht krijgen als het downloaden voltooid is. Klik op "Close" om het dialoogvenster Downloaden te verlaten.  
+- Click on "Run Query".  
+- You will be notified when the download is complete. The data are stored in three temporary layers, one for nodes, ways and polygons respectively.
 
-![download complete][]
-
-- De gegevens van OSM zullen nu worden opgeslagen op de locatie die u heeft gespecificeerd.  
-
-> Deze methode voor het benaderen van gegevens van OSM is hetzelfde als wanneer u het in JOSM download of op [openstreetmap.org](http://www.openstreetmap.org). Voor extracten van grotere gegevenssets die up-to-date zijn, kunt u proberen ze te downloaden van de [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Onthoud dat wanneer u een gecomprimeerd bestand van OSM download, u ze eerst dient te decomprimeren naar de indeling **.osm** voor de volgende stappen.  
+![quickosm loaded][]
 
 
-Gegevens in SQLite importeren
+Importing extracts
 ---------------------------
 
-Vervolgens moeten we ons ruwe **.osm**-bestand importeren in een databasebestand van SQLite.  
+There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
 
-- Ga naar Vector -> OpenStreetMap -> Topologie uit XML importeren...  
-- Selecteer, in het eerste veld, uw **.osm**-bestand.  
-- U kunt de naam van het uitvoer databasebestand wijzigen als u dat wilt.  
-- Houdt het vak naast "Maak connectie..." geselecteerd  
+You can either use QuickOSM to import it clicking on 'OSM File' in the left bar. Once you used QuickOSM OSM files should have been made known to QGIS and you can use the regular vector layer import:
 
-![import dialog][]  
+- Go to Layer -> Add Layer -> Add Vector Layer...  
+- In the source field, select your file and click "Add".  
+- You can select one or more type layers from that file.  
 
-- Klik op OK.  
-- Klik op "Close", indien voltooid.  
+![import osm][]  
+
+- After clicking "OK" you can close the dialogue and your QGIS window shows the new layers.  
+  
+
+![import osm loaded][]  
 
 
-Lagen maken
+Exporting data
 --------------
 
-Tenslotte zullen we lagen definiëren die kunnen worden gebruikt in QGIS, aangepast naar onze wensen.  
+To export a layer activate its context menu and select Export -> Save Features as...
+You can select from a wide range of formats including Shapefile, GeoJSON, PostgreSQL dump, SQLite. The other options on the dialogue vary depending on the format you selected.
 
-- Ga naar Vector -> OpenStreetMap -> Topologie naar SpatiaLite exporteren...  
-- Selecteer, in het eerste veld, de database die u in de eerdere stap heeft gemaakt.  
+![export][]  
 
-![input db file][]  
+You can choose to re-import the exported layer by checking the box at the bottom (activated by default).
 
-- Selecteer, onder "Export-type," het type object waarvoor u de laag wilt maken. Hier zullen we een laag maken met behulp van polygonen.  
+Working with the Data
+--------------------
 
-![export type][]  
+We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania). You can inspect the data of a vector layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
 
-Pas de naam van de laag aan als u dat wilt.  
+![attribute table][]
 
-Onder "Geëxporteerde tags" is waar de magie wordt uitgevoerd. Hier kunnen we selecteren welke tags zullen worden opgenomen in onze uitvoerlaag. Dit geeft ons flexibiliteit over exact welke gegevens we willen benaderen.  
+We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
 
-- Klik op "Vanuit DB laden" om een lijst te zien van alle beschikbare tags in de database. Vergroot het venster door aan de hoek te slepen als dat helpt. U ziet alle tags die in deze gegevens zijn opgenomen en ook het aantal objecten die elke tag heeft.  
-- Selecteer de vakken naast de tags die u wilt opnemen. Hier zullen we een paar mogelijkheden selecteren die nuttig zullen zijn voor polygonen die gebouwen weergeven.  
+In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
 
-![export full][]  
+![symbology][]
 
-Klik op OK als u gereed bent. Sluit het vak. Uw laag zou automatisch moeten worden toegevoegd.  
+First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
 
-![cairo polygons][]  
+![symbology rule based][]
 
-Klik met rechts op de laag en klik op "Open attributentabel."  
+The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
 
-![open attribute table][]  
+![symbology edit rule][]
 
-U kunt hier zien dat we een tabel hebben die alleen de attributen bevat die we hebben geselecteerd.  
+We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
 
-![attribute table][]  
+![symbology polygon rules][]
 
-Onthoud dat we geen laag hebben gemaakt met **alleen** gebouwen. In plaats daarvan hebben we een laag gemaakt die alle polygonen bevat uit onze originele gegevens, maar die alleen de tags bevatten die we hebben geselecteerd. We zouden een query moeten uitvoeren die alleen de polygonen filtert waar building=yes is om deze laag te filteren om alleen gebouwen te zien.
+As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+
+You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+
+![done][]
 
 
 Samenvatting
@@ -100,12 +104,15 @@ Samenvatting
 Dit proces maakt het eenvoudiger om up-to-date gegevens van OSM te verkrijgen en die in QGIS te trekken. Als u eenmaal lagen zoals deze in QGIS heeft, is het mogelijk om ze op te slaan als shapefiles, filters  en query's uit te voeren, enzovoort. Voor meer details over deze functies, bekijk het menu Help in QGIS.  
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png
