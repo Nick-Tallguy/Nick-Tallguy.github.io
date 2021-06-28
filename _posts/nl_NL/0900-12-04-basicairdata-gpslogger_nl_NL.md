@@ -6,10 +6,10 @@ lang: nl_NL
 category: mobile-mapping
 ---
 
+> This guide may be downloaded as [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) or [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  
+
 BasicAirData GPS-logger
 =======================
-
-> Bijgewerkt op 05-05-2020
 
 ![BasicAirData-GPSLogger-002][]
 

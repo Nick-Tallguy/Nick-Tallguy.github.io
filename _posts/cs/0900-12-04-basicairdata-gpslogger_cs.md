@@ -6,10 +6,10 @@ lang: cs
 category: mobile-mapping
 ---
 
+> This guide may be downloaded as [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) or [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  
+
 BasicAirData GPS Logger
 =======================
-
-> Zkontrolováno 2020-05-05
 
 ![BasicAirData-GPSLogger-002][]
 
