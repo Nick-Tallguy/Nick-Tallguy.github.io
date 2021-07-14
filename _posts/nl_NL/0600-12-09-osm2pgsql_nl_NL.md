@@ -17,7 +17,7 @@ We zullen door de stappen gaan die nodig zijn om osm2pgsql op Windows in te stel
 osm2pgsql ophalen
 -------------
 
-Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowser naar <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowser naar <https://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
 
 ![windows binary][]
 
@@ -135,7 +135,7 @@ Wanneer u gegevens van OpenStreetMap wilt importeren in uw eigen database, is **
 
 Een ander gereedschap voor importeren dat recent is ontwikkeld, is genaamd [imposm](http://imposm.org/), en biedt enkele verbeteringen op het gebied van snelheid en andere boven osm2pgsql, hoewel het op het moment van schrijven andere sleutelfuncties ontbeert, die werden beloofd in imposm versie 3.  
 
-Voor meer informatie over osm2pgsql, bekijk de wiki van OSM - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
+Voor meer informatie over osm2pgsql, bekijk de wiki van OSM - <https://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
 
 
 [windows binary]: /images/osm-data/windows-binary.png
