@@ -39,8 +39,7 @@ iD will warn you if you may be making a mistake in your mapping, for instance ac
 
 ![warn when mapping][]
 
-See also  
----------
+Se også
 
 The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more information.  
 
@@ -51,5 +50,5 @@ The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more info
 [warn when mapping]: /images/hot-tips/20190625-warn-when-mapping.png
 [id issues]: /images/hot-tips/20190625-id-issues.png
 [id issues everywhere]: /images/hot-tips/20190625-id-issues-everywhere.png
-[Error]: /images/beginner/id-editor_error.png
+[Feil]: /images/beginner/id-editor_error.png
 
