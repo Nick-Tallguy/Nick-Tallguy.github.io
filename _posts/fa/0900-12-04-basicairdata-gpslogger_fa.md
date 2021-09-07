@@ -6,10 +6,10 @@ lang: fa
 category: mobile-mapping
 ---
 
-> This guide may be downloaded as [basicairdata_gpslogger_en.odt](/files/basicairdata_gpslogger_en.odt) or [basicairdata_gpslogger_en.pdf](/files/basicairdata_gpslogger_en.pdf)  
-
 BasicAirData GPS Logger
 =======================
+
+> Reviewed 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ BasicAirData GPS Logger یک برنامه ساده برای ثبت موقعیت 
 اگر موقعیت GPS در تلفن شما فعال نیست، آن را فعال کنید. سپس به یک منطقه باز رفته و GPS Logger را اجرا کنید.
 
 1. صبر کنید تا برنامه موقعیت را فیکس کند. وقتیکه اینکار انجام شد، زبانه __GPS FIX__ مختصات را نشان خواهد داد. در این مرحله (در صورت امکان) قبل از شروع مرحله بعدی حداقل یک دقیقه دیگر منتظر بمانید تا سیگنال کاملاً ثابت شود.
-2. برای شروع ضبط مسیر، روی دکمه __Trackpoints__ در پانل پایین کلیک کنید. دکمه قرمز خواهد شد می توانید با کلیک بر روی این دکمه هر زمان که بخواهید فرآیند ضبط را روشن یا خاموش کنید. این دکمه تعداد نقاط ردیابی شده را نشان میدهد.
+2. Click the __Record__ button of the bottom panel to start recording track points. The button will become red. switch recording process on and off at any time by clicking on that button. At the top of the button the app shows the number of the trackpoints recorded.
 به زبانه __TRACK__ بروید تا آمار لحظه به لحظه سفر خود را ببینید.
-3. هنگامی که سفر شما تمام شد، بر روی __V tick__ کوچک واقع در نزدیکی گوشه سمت راست بالا کلیک کنید تا مسیر جاری نهایی (پایان) شود.
-4. به زبانه __TRACKLIST__ بروید، جایی که مسیری را که قبلاً ثبت کرده‌اید پیدا خواهید کرد. روی مسیر ضربه بزنید یک منو ظاهر خواهد شد که می‌توانید مسیر را به روشهای گوناگونی به اشتراک بگذارید، آن را با استفاده از یک مشاهده‌گر نصب شده ببینید، آن را به پوشه GPSLogger/ گوشی هوشمند خود منتقل کنید، یا از لیست مسیرها حذف کنید. فرمت‌های مورد استفاده برای خروجی گرفتن را می‌توان در صفحه تنظیمات پیکربندی نمود.
+3. When your trip is finished, click the __Stop__ button to finalize (finish) the active track. A dialog will appear, click __OK__ to confirm.
+4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, edit the track details, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen.
 
 وارد کردن مسیرهای GPX به ویرایشگر OpenStreetMap
 --------------------------------------------
