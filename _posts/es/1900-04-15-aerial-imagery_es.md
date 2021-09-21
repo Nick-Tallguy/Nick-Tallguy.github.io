@@ -18,20 +18,20 @@ Acerca de Imágenes
 
 Imágenes aéreas es el término que usamos para describir fotografías tomadas desde el cielo. Estas se pueden tomar desde aviones, drones, helicópteros o incluso cometas y globos, pero la fuente más común de imágenes proviene de los satélites que orbitan la Tierra.   
 
-[En el capítulo sobre GPS] (/en/mobile-mapping/using-gps) aprendimos sobre las docenas de satélites que orbitan la Tierra y que permiten a nuestros receptores GPS identificar nuestra latitud y longitud. Además de estos satélites GPS, también hay satélites que toman fotos de la Tierra. Estas fotos luego se manipulan para que puedan usarse en el software GIS (mapeo). Las imágenes aéreas de Bing se componen de fotografías de satélite.   
+[En el capítulo sobre GPS] (/es/mobile-mapping/using-gps) aprendimos sobre las docenas de satélites que orbitan la Tierra y que permiten a nuestros receptores GPS identificar nuestra latitud y longitud. Además de estos satélites GPS, también hay satélites que toman fotos de la Tierra. Estas fotos luego se manipulan para que puedan usarse en el software GIS (mapeo). Las imágenes aéreas de Bing se componen de fotografías de satélite.   
 
 Resolución
 ----------
 
 Todas las fotografías digitales están formadas por píxeles. Si hace un acercamiento muy grande a una fotografía, notará que la imagen comienza a volverse borrosa y, finalmente, verá que una imagen está formada por miles de pequeños cuadrados que son cada uno de un color diferente. Esto es cierto ya sea que la fotografía se tome con una cámara de mano, un teléfono móvil o un satélite en órbita alrededor de la Tierra.   
 
-![Resolución de imagen][]
+![Image resolution][]
 
 La resolución se refiere al número de píxeles de ancho por el número de píxeles de alto que tiene una imagen. Más píxeles significa una resolución más alta, lo que significa que puede ver más detalles en la fotografía. La resolución de las cámaras de mano a menudo se mide en megapíxeles. Cuantos más megapíxeles pueda grabar su cámara, mayor será la resolución de sus fotos.   
 
 Con las imágenes aéreas pasa lo mismo, excepto que generalmente hablamos de resolución de manera diferente. La medición es importante con las fotografías aéreas; pues un píxel representa una cierta distancia en el suelo. Por lo general, describimos las imágenes como “imágenes con una resolución de dos metros”, lo que significa que un píxel equivale a dos metros en el suelo. Las imágenes con una resolución de un metro tendrían una resolución más alta que esta, y la resolución de 50 cm sería aún mayor. Este es generalmente el rango de imágenes que proporciona Bing, aunque varía entre ubicaciones y en muchos lugares es mayor a dos metros, lo que vuelve difícil identificar los objetos en la imagen.   
 
-![Comparación de imágenes de alta y baja resolución][] 
+![Comparison of low and high resolution imagery][]
 
 Cuanto mayor sea la resolución de una imagen aérea, más fácil será utilizarla para hacer mapas.   
 
@@ -48,5 +48,5 @@ Todo esto parece bastante simple, pero considere esto: la Tierra es redonda; las
 
 Afortunadamente, algunas personas realmente inteligentes han ideado ingeniosos algoritmos  para resolver este problema, por lo que las imágenes que ve en Bing están bastante cerca de ser precisas. Para la mayoría de los lugares, no se notará incorrecto en lo absoluto, y ciertamente está bien para hacer mapas. Las áreas más comunes en las que las imágenes se ubican de manera incorrecta son las áreas montañosas. En el [capítulo Corrección del desplazamiento de imágenes] (/en/josm/correcting-imagery-offset) veremos cómo corregir este problema.   
 
-[Resolución de imagen]: /images/josm/orange-resolution.png 
-[Comparación de imágenes de alta y baja resolución]: /images/josm/low-res-high-res.png 
+[Image resolution]: /images/josm/orange-resolution.png
+[Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png

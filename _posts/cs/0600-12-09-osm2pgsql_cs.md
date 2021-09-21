@@ -68,7 +68,7 @@ Odkaz na Windows verzi osm2pgsql naleznete na adrese <http://wiki.openstreetmap.
 
 Stahování dat z OSM
 ---------------------
-Dříve než spustíme **osm2pgsql** stáhneme si nějaká zdrojová OSM data k importu do databáze. Pokud ještě nemáte **.osm** soubor, který lze použít, stáhněte si soubor z <https://mapzen.com/data/metro-extracts/>. Na této stránce je umístěno několik OSM extraktů různých měst.  Vyberte si některé z měst a stáhněte si PBF soubor. PBF soubory jsou komprimované **.osm** soubory. K extrakci dat můžete využít některou ze služeb uvedených v seznamu v kapitole [stahování dat z OSM](/cs/osm-data/getting-data), pokud chcete zdrojová data pro jinou oblast.  
+Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://download.bbbike.org/osm/bbbike/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
 
 Stáhněte si soubor stylů
 ------------------
@@ -125,7 +125,6 @@ Kontrolu úspěšnosti importu a zobrazení dat v databázi lze provést pomocí
 
 ![osm in qgis][]
 
-> Když se podíváte na tabulku atributů vrstvy, zjistíte, že atributy jsou namapovány na OSM tagy. Specifické importované tagy jsou definovány během procesu importu ** osm2pgsql **. Pokud potřebujeme přidat specifické tagy, které nejsou v základním seznamu, můžeme upravit soubor *stylů*, podle kterého osm2pgsql definuje datové schéma.  
 
 
 Shrnutí

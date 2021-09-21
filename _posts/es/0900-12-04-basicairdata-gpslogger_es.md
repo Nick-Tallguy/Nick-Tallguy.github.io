@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Reviewed 2021-06-12
+> Revisado 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ Uso básico
 Si la ubicación del GPS no está activa en su teléfono, actívela. Luego vaya a un área abierta e inicie GPS Logger.
 
 1. Espere hasta que la aplicación encuentre la señal GPS. Cuando esté disponible, la pestaña __GPS FIX__ comenzará a mostrar las coordenadas. En este punto (cuando sea posible) debe esperar al menos otro minuto antes de continuar con la siguiente fase para permitir que la señal se estabilice
-2. Click the __Record__ button of the bottom panel to start recording track points. The button will become red. switch recording process on and off at any time by clicking on that button. At the top of the button the app shows the number of the trackpoints recorded.
+2. Haga clic en el botón __Record__ del panel inferior para comenzar a registrar trackpoints. El botón se volverá rojo. Active y desactive el proceso de grabación en cualquier momento haciendo clic en ese botón. En la parte superior del botón, la aplicación muestra el número de trackpoints registrados. 
 Puede ir a la pestaña __TRACK__ para ver en tiempo real las estadísticas de su viaje.
-3. When your trip is finished, click the __Stop__ button to finalize (finish) the active track. A dialog will appear, click __OK__ to confirm.
-4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, edit the track details, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen.
+3. Cuando termine su viaje, haga clic en el botón __Stop__ para finalizar. Aparecerá un cuadro de diálogo, haga clic en __OK__ para confirmar. 
+4. Vaya a la pestaña __TRACKLIST__, donde encontrará la pista que acaba de grabar. Toque la pista. Aparecerá un menú. Puede optar por compartir la pista de muchas formas, verla con un visor externo instalado, editar los detalles, exportarla a la carpeta /GPSLogger de su teléfono inteligente o eliminarla de la lista de pistas. Los formatos utilizados para la exportación se pueden configurar en la pantalla de configuración. 
 
 Importando trazas GPX en el Editor OpenStreetMap
 --------------------------------------------
