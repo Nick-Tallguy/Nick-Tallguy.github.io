@@ -23,14 +23,14 @@ Desde aquí puede encontrar instrucciones de instalación para diferentes sistem
 Esta página explica lo que hará el instalador de un clic. Instalará tres componentes diferentes:  
 
 * **Servidor PostgreSQL**: el software de la base de datos, el componente central  
-* **pgAdmin 4**: The graphical interface for managing your databases  
+* **pgAdmin 4**: La interfaz gráfica para gestionar sus bases de datos  
 * **StackBuilder**: una herramienta para agregar aplicaciones adicionales; usaremos esto para agregar las extensiones PostGIS  
 
 Haga clic en **Descargar**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
+Verá varias opciones de instalador para diferentes versiones del software PostgreSQL. Descargue la versión más reciente para su versión de Windows.
 
 ![postgresql version][]
 
@@ -71,14 +71,14 @@ Cuando se complete la instalación, haga clic en "**Cerrar**" y luego en "**Fina
 Creando una Base de Datos
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
+Ahora que hemos instalado todo el software necesario, crearemos una base de datos. Utilizaremos pgAdmin 4, que es un cliente de base de datos gráfico que es útil para consultar y modificar
 bases de datos.  
 
 ![pgadmin3][]
 
-PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
+PgAdmin 4 es el cliente oficial de PostgreSQL y le permite utilizar el lenguaje SQL para manipular sus tablas de datos. También es posible crear y manipular bases de datos desde la línea de comandos, pero por ahora, pgAdmin 4 es una forma fácil de empezar.  
 
-Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
+Abra pgAdmin 4. Debería estar en el Menú de Inicio bajo Todos los Programas -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -100,7 +100,7 @@ Debe ingresar algunos datos para crear la nueva base de datos: nombre y propieta
 
 <! - En la pestaña Definición, mantenga los valores predeterminados, pero al lado de Plantilla seleccione template_postgis. Esto creará nuestra base de datos con las columnas espaciales adecuadas. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
+Haga clic en **Aceptar** para crear la base de datos. Ahora verás tu base de datos listada en "**Bases de datos**". Ahora necesitamos ejecutar un comando para habilitar la base de datos con las extensiones de PostGIS. Haga clic en ![botón sql][]{: height="24px"} en la parte superior de PgAdmin 4.  
 
 
 
@@ -117,7 +117,7 @@ Cargar Datos de Muestra (opcional)
 
 Si hasta ahora se siente cómodo y está familiarizado con QGIS, sígalo mientras cargamos algunos datos en nuestra nueva base de datos. Para hacer esto, utilizaremos una utilidad que convierte los archivos de forma y los carga en la base de datos.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
+Asegúrese de que su nueva base de datos está seleccionada en el panel de la izquierda y vaya a **Complementos -> Cargador PostGIS Shapefile and DBF 2.x**.
 
 ![shapefile loader][]
 
