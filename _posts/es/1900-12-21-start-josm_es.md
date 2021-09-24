@@ -59,7 +59,7 @@ There are many different settings that you can customize in JOSM.  One setting t
 
     ![Look and feel][]
 
--   Click OK.
+- Haga clic en Aceptar.
 -   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
 
 Aprender dibujo básico con JOSM
@@ -117,18 +117,18 @@ Aprender dibujo básico con JOSM
     ![Select tool][]
 
 -   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
--   Click on the second button, the Draw tool.
+- Haga clic en el segundo botón, la herramienta Dibujo.
 
     ![Draw tool][]
 
--   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
+- Encuentre un área vacía en el mapa, y doble-clic con su ratón. Esto dibujará un solo punto.
 -   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
 -   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
 
 ### Añadir preajustes
 
 -   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
--   Click on the Select tool, in the column of buttons on the left.
+- Clic en la herramienta Seleccionar, en la columna de botones a la izquierda.
 
     ![Select tool][]
 
@@ -140,17 +140,17 @@ Dibuje su propio mapa
 -----------------
 
 -   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
--   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
--   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
--   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
+- Arrastre el mapa alejándolo del mapa muestra.  Mantenga presionado el botón derecho del ratón y arrastre su ratón, hasta que tenga un área vacía donde dibujar.
+- Use la herramienta Dibujar para crear puntos, líneas, y formas. Describa lo que son los objetos seleccionando del menú Preajustes.
+- Cuando haya finalizado, debería tener su propio mapa, similar al mapa muestra que abrimos en sample.osm.
 
-Remove the sample layer
+Quite la capa muestra
 -----------------------
 
 Una vez que se sienta cómodo con estas técnicas básicas de edición,
 querrá dirigir su atención al mapeo de elementos reales.
 
-_It is very important that you first remove the layer with the sample data.
+_Es muy importante que primero quite la capa con los datos muestra.
 Estos datos son ficticios y no deben cargarse en OpenStreetMap.
 database (newer JOSM releases automatically prevent this)._
 
@@ -167,22 +167,22 @@ Resumen
 equipo y las herramientas básicas para la elaboración de mapas. En el próximo capítulo
 echaremos un vistazo más de cerca al proceso de editar el mapa OSM con JOSM.
 
-[josm website]: /images/josm/josm-website.png
+[sitio web josm]: /images/josm/josm-website.png
 
-[windows installer]: /images/josm/windows-installer.png
+[instalador windows]: /images/josm/windows-installer.png
 
-[josm splash page]: /images/josm/josm-splash-page.png
+[página de bienvenida josm]: /images/josm/josm-splash-page.png
 
-[preferences window]: /images/josm/josm_preferences.png
+[ventana preferencias]: /images/josm/josm_preferences.png
 
-[look and feel]: /images/josm/josm_look-and-feel.png
+[apariencia y sensación]: /images/josm/josm_look-and-feel.png
 
-[open file]: /images/josm/josm_open-file.png
+[abrir archivo]: /images/josm/josm_open-file.png
 
-[sample file]: /images/josm/josm_sample-file.png
+[archivo muestra]: /images/josm/josm_sample-file.png
 
-[scale bar]: /images/josm/josm_scale-bar.png
+[barra de escala]: /images/josm/josm_scale-bar.png
 
-[select tool]: /images/josm/josm_select-tool.png
+[herramienta seleccionar]: /images/josm/josm_select-tool.png
 
-[draw tool]: /images/josm/josm_draw-tool.png
+[herramienta dibujar]: /images/josm/josm_draw-tool.png
