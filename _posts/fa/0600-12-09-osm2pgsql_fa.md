@@ -68,7 +68,7 @@ osm2pgsql
 
 گرفتن دادهٔ خام OSM
 ---------------------
-Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://download.bbbike.org/osm/bbbike/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
+قبل از اینکه بتوانیم **osm2pgsql** اجرا کنیم، نیاز به مقداری دادهٔ خام OSM برای درون‌برد به یک پایگاه‌داده داریم. اگر از قبل یک فایل **‎.osm** ندارید، می‌توانید فایلی را از <https://download.bbbike.org/osm/bbbike/> دانلود کنید. این سایت میزبان بسیاری از فایل‌های استخراج‌شدهٔ OSM برای شهرهای مختلف است. یک شهر را پیدا کنید و فایل PBF آن را دانلود کنید. فایل‌های PBF نسخه فشرده‌شدهٔ فایل‌های معمولی **‎.osm** هستند. اگر دادهٔ خام منطقهٔ دیگری را بخواهید، می‌توانید از هر سرویس استخراجگر دیگری که در فصل [گرفتن داده](fa/osm-data/get-data) فهرست شده است، استفاده کنید.  
 
 گرفتن فایل سبک (Style)
 ------------------

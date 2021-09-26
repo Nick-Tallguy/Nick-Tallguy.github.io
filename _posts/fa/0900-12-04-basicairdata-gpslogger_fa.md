@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Reviewed 2021-06-12
+> تاریخ بازبینی ۱۴۰۰/۰۳/۲۲
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ BasicAirData GPS Logger یک برنامه ساده برای ثبت موقعیت 
 اگر موقعیت GPS در تلفن شما فعال نیست، آن را فعال کنید. سپس به یک منطقه باز رفته و GPS Logger را اجرا کنید.
 
 1. صبر کنید تا برنامه موقعیت را فیکس کند. وقتیکه اینکار انجام شد، زبانه __GPS FIX__ مختصات را نشان خواهد داد. در این مرحله (در صورت امکان) قبل از شروع مرحله بعدی حداقل یک دقیقه دیگر منتظر بمانید تا سیگنال کاملاً ثابت شود.
-2. Click the __Record__ button of the bottom panel to start recording track points. The button will become red. switch recording process on and off at any time by clicking on that button. At the top of the button the app shows the number of the trackpoints recorded.
+2. برای شروع ضبط نقاط مسیر، روی دکمه __Record__ در پانل پایین کلیک کنید. دکمه قرمز خواهد شد. می‌توانید با کلیک بر روی این دکمه هر زمان که بخواهید فرآیند ضبط را روشن یا خاموش کنید. برنامه در بالای این دکمه تعداد نقاط ضبط شده را نشان میدهد.
 به زبانه __TRACK__ بروید تا آمار لحظه به لحظه سفر خود را ببینید.
-3. When your trip is finished, click the __Stop__ button to finalize (finish) the active track. A dialog will appear, click __OK__ to confirm.
-4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, edit the track details, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen.
+3. در هنگام خاتمه سفر دکمه __Stop__ را کلیک کنید تا به مسیر فعال پایان داده شود. یک پنجره محاوره‌ای باز می‌شود، برای تایید __OK__ را بزنید.
+4. به زبانه __TRACKLIST__ بروید، جایی که مسیری را که قبلاً ثبت کرده‌اید پیدا خواهید کرد. روی مسیر ضربه بزنید. یک منو ظاهر خواهد شد. می‌توانید مسیر را به روشهای گوناگونی به اشتراک بگذارید، آن را با استفاده از یک مشاهده‌گر نصب شده ببینید، آن را به پوشه GPSLogger/ گوشی هوشمند خود منتقل کنید، یا از لیست مسیرها حذف کنید. فرمت‌های مورد استفاده برای خروجی گرفتن را می‌توان در صفحه تنظیمات پیکربندی نمود.
 
 وارد کردن مسیرهای GPX به ویرایشگر OpenStreetMap
 --------------------------------------------
