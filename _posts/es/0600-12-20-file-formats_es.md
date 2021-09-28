@@ -22,7 +22,7 @@ El formato de archivo **.osm** es específico de OpenStreetMap. No lo encontrar�
 
 Entonces, ¿por qué los datos de OSM se almacenan en un formato de archivo que nadie más usa? La respuesta es que muchos formatos de datos geográficos son anteriores a la era moderna de Internet y están diseñados para un acceso rápido y consultas como si se consultara una base de datos. Los datos OSM, por otro lado, están diseñados para ser enviados y recibidos fácilmente a través de Internet en un formato estándar. Por lo tanto, los archivos **.osm** están codificados en XML y contienen datos geográficos en un formato ordenado y estructurado. Un archivo **.osm** simple se vería así si se visualizara en un editor de texto:   
 
-![Archivo de ejemplo OSM XML][]
+![Sample OSM XML file][]
 
 Adquirir datos en formato **.osm** es fácil; de hecho, lo hace cada vez que descarga datos en JOSM, pero usar estos archivos para el análisis y el diseño de mapas no es fácil. Por lo tanto, es mejor que convierta los datos a otro formato o que los obtenga de un servicio que convierta los datos para usted.   
 
@@ -43,9 +43,9 @@ Los shapefiles también suelen tener archivos adicionales que contienen otra inf
 
 Un shapefile debe estar designado para contener solo un tipo de elemento (puntos, líneas o polígonos), y cada elemento tiene sus atributos contenidos en una tabla. A diferencia del sistema OpenStreetMap en el que cada objeto puede tener un número ilimitado de etiquetas, los atributos de los elementos en un shapefile deben encajar en la estructura de tabla definida del shapefile, que podría verse así:   
 
-![Aributos del Shapefile][]
+![Shapefile attributes][]
 
-Los datos de OpenStreetMap se pueden convertir en shapefiles. Varios sitios web proporcionan shapefiles convertidos a partir de datos OSM. Estos se tratan en el [capítulo siguiente] (/en/osm-data/getting-data).   
+Los datos de OpenStreetMap se pueden convertir en shapefiles. Varios sitios web proporcionan shapefiles convertidos a partir de datos OSM. Estos se tratan en el [capítulo siguiente](/en/osm-data/getting-data).   
 
 Base de datos
 ---------
