@@ -4,12 +4,12 @@
 #
 logger -t tx-10pc_pull_git_push.sh cron.info
 #
-FOLDER1=/home/nick/Github/Nick-Tallguy.github.io
-FOLDER2=/home/nick/Github/Transifex_10pc
-FOLDER3=/home/nick/Github/Transifex_10pc/translations
-FOLDER4=/home/nick/Github/Nick-Tallguy.github.io/_posts
-FOLDER5=/home/nick/Github/Transifex_10pc/translations-temp
-FOLDERINTERIM=/home/nick/Github/Transifex_10pc/translations-interim
+FOLDER1=/home/dietpi/Github/Nick-Tallguy.github.io
+FOLDER2=/home/dietpi/Github/Transifex_10pc
+FOLDER3=/home/dietpi/Github/Transifex_10pc/translations
+FOLDER4=/home/dietpi/Github/Nick-Tallguy.github.io/_posts
+FOLDER5=/home/dietpi/Github/Transifex_10pc/translations-temp
+FOLDERINTERIM=/home/dietpi/Github/Transifex_10pc/translations-interim
 ##
 #  Update this instance from latest on Github
 cd ${FOLDER1}
