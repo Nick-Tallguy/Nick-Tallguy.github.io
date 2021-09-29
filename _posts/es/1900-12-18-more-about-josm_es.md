@@ -10,45 +10,45 @@ El Proceso de Edición JOSM
 ========================
 
 
-In the previous section you installed JOSM and began drawing your first points, lines, and shapes. You added presets to these objects in order to attach information about them. By the end, you were able to draw your own map in JOSM.
+En la sección anterior usted instaló JOSM y comenzó a dibujar sus primeros puntos, líneas y formas. Añadiste preajustes a estos objetos para adjuntar información sobre ellos. Al final, fuiste capaz de dibujar tu propio mapa en JOSM.
 
-This was good practice, and now we are ready to edit OpenStreetMap.
+Esta fue una buena práctica, y ahora estamos listos para editar OpenStreetMap.
 
-In this section we will take a closer look at the interface of JOSM, and see how we can use it to edit the map on OpenStreetMap.
+En esta sección echaremos un vistazo a la interfaz de JOSM, y veremos cómo podemos utilizarla para editar el mapa en OpenStreetMap.
 
-The Cycle of Editing
+El Ciclo de Edición
 ---------------------
-Editing OpenStreetMap with JOSM is similar to editing with the iD editor we saw previously. But because JOSM is a desktop application, it works a little bit differently. The process of editing and adding to OpenStreetMap with JOSM will always be as follows:
+La edición de OpenStreetMap con JOSM es similar a la edición con el editor iD que vimos anteriormente. Pero como JOSM es una aplicación de escritorio, su funcionamiento es un poco diferente. El proceso de edición y adición a OpenStreetMap con JOSM será siempre el siguiente:
 
-1.  **Download** the current map data from OSM
-2.  **Edit** it using Satellite Imagery, GPS, Field Papers, and notes as a guide
-3.  **Save** changes to OpenStreetMap
+1. **Descargar** los datos del mapa actual de OSM
+2. **Editar** utilizando imágenes de satélite, GPS, Field Papers y notas como guía
+3. **Guardar** los cambios en OpenStreetMap
 
-Downloading OSM Data
+Descargar Datos OSM
 --------------------
-The first editing step is to download the data for the area of the world that we want to improve. Remember that you need to do this every time that you want to make changes to the map, because the map is often being updated by other users.
+El primer paso de edición es descargar los datos de la zona del mundo que queremos mejorar. Recuerda que tienes que hacer esto cada vez que quieras hacer cambios en el mapa, porque el mapa suele ser actualizado por otros usuarios.
 
--   Click on “File” in the top left corner of JOSM and click “Download from OSM”. This will open up the download window. You can access this window more simply by clicking on the download button, shown here:
+- Haz clic en "Archivo" en la esquina superior izquierda de JOSM y haz clic en "Descargar de OSM". Esto abrirá la ventana de descarga. Puedes acceder a esta ventana de forma más sencilla haciendo clic en el botón de descarga, que se muestra aquí:
 
 ![JOSM Download Button][]
 
--   When the download window opens, you should see a map. If you don’t see the map, click on the tab marked “Slippy map”.
+- Cuando se abra la ventana de descarga, debería ver un mapa. Si no ves el mapa, haz clic en la pestaña "Slippy map".
 
 ![JOSM Download Dialog][]
 
--   Use your mouse to pan and zoom it to an area that you know very well, such as your hometown or neighborhood. The controls are the same as in the JOSM map window. The right mouse button lets you drag the map, and your scroll wheel allows you to zoom in and out.
+- Utiliza el ratón para desplazarte y hacer acercamiento en una zona que conozcas muy bien, como tu ciudad o tu barrio. Los controles son los mismos que en la ventana del mapa JOSM. El botón derecho del ratón te permite arrastrar el mapa, y la rueda de desplazamiento te permite acercarte y alejarte.
 
-> Sometimes if you are working on a notebook computer it can be difficult to scroll in and out. Working in JOSM is much easier if you have a mouse, but most modern notebooks allow you to scroll using the touchpad.
+> A veces, si estás trabajando en un ordenador portátil, puede ser difícil desplazarse hacia dentro y hacia fuera. Trabajar en JOSM es mucho más fácil si tienes un ratón, pero la mayoría de los portátiles modernos te permiten desplazarte usando el touchpad.
 
--   Draw a box around the area that you want to download. To draw a new box, click on the map, hold your left mouse button down, and drag your mouse to create a box. Release the mouse button to finish drawing the box.
--   When you are satisfied with the size and location of the box, click “Download” at the bottom of the window. JOSM will get the data for this area from OpenStreetMap and open it in your map window for editing.
+- Dibuje un recuadro alrededor del área que desea descargar. Para dibujar un nuevo recuadro, haga clic en el mapa, mantenga pulsado el botón izquierdo del ratón y arrástrelo para crear un recuadro. Suelte el botón del ratón para terminar de dibujar el recuadro.
+- Cuando esté satisfecho con el tamaño y la ubicación del cuadro, haga clic en "Descargar" en la parte inferior de la ventana. JOSM obtendrá los datos de esta zona de OpenStreetMap y los abrirá en su ventana de mapa para editarlos.
 
 ### Agregar Imágenes
-If you followed along when we added our first points with the iD editor, you remember that beneath the map data there was a satellite image that helped us identify objects on the ground. This imagery was from Microsoft Bing, which generously provides its imagery for OpenStreetMap users to reference while contributing to the map.
+Si nos has seguido cuando añadimos nuestros primeros puntos con el editor iD, recordarás que debajo de los datos del mapa había una imagen de satélite que nos ayudaba a identificar los objetos sobre el terreno. Estas imágenes procedían de Microsoft Bing, que generosamente proporciona sus imágenes para que los usuarios de OpenStreetMap las consulten mientras contribuyen al mapa.
 
--   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
+- Para añadir las imágenes de satélite Bing en JOSM, haga clic en "Imágenes" en el menú superior de JOSM y seleccione "Bing Sat".
 
-> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+> Si no ve Bing Sat en el menú de Imágenes, puede que tenga que activarlo en las preferencias de JOSM. Vaya a Editar -> Preferencias y haga clic en el icono que dice "WMS TMS". Puede que tenga que hacer clic en la flecha hacia abajo para encontrarlo.
 >
 > ![JOSM Preferences up down][]
 > ![JOSM Preferences WMS TMS][]
@@ -57,7 +57,7 @@ If you followed along when we added our first points with the iD editor, you rem
 
 
 ### Paseo de JOSM
-Now that we've downloaded OpenStreetMap data and added the Bing satellite imagery, let's take another look at the interface of JOSM.
+Ahora que hemos descargado los datos de OpenStreetMap y añadido las imágenes de satélite de Bing, vamos a echar otro vistazo a la interfaz de JOSM.
 
 ![JOSM layout][]
 
@@ -98,7 +98,7 @@ The third and final step to complete our edits is to upload the changes we have 
 
     ![JOSM Upload Dialog][]
 
--   Click “Upload Changes”.
+-   Clic “Subir Cambios”.
 
 -   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
 -   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
@@ -121,13 +121,13 @@ Resumen
 Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
 
 
-[JOSM Download Button]: /images/josm/josm_download-button.png
-[JOSM Download Dialog]: /images/josm/josm_download-dialog.png
+[JOSM Botón Descarga]: /images/josm/josm_download-button.png
+[JOSM Diálogo Descarga]: /images/josm/josm_download-dialog.png
 [JOSM Preferences up down]: /images/josm/josm_preferences-up-down.png
-[JOSM Preferences WMS TMS]: /images/josm/josm_preferences-wms-tms.png
+[JOSM Preferencias WMS TMS]: /images/josm/josm_preferences-wms-tms.png
 [JOSM layout]: /images/josm/josm_layout.png
-[JOSM select tool]: /images/josm/josm_select-tool.png
-[JOSM area downloaded]: /images/josm/josm_area-downloaded.png
-[JOSM Upload Button]: /images/josm/josm_upload-button.png
-[JOSM Upload Dialog]: /images/josm/josm_upload-dialog.png
-[JOSM Authenticate]: /images/josm/josm_authenticate.png
+[JOSM herramienta seleccionar]: /images/josm/josm_select-tool.png
+[JOSM área descargada]: /images/josm/josm_area-downloaded.png
+[JOSM Botón Subir]: /images/josm/josm_upload-button.png
+[JOSM Diálogo Subir]: /images/josm/josm_upload-dialog.png
+[JOSM Autenticar]: /images/josm/josm_authenticate.png
