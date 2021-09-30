@@ -12,23 +12,23 @@ Usando datos de OSM en QGIS
 
 QGIS (anteriormente Quantum GIS) es un Sistema de Información Geográfica muy completo, de código abierto y multiplataforma. Con QGIS puede acceder a datos actualizados de OSM cuando lo desee, seleccionar las etiquetas que quiera incluir, y exportarlos fácilmente en una base de datos SQLite o archivo Shapefile fácil de usar.  
 
-In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 3.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
+En este capítulo recorremos los pasos necesarios para hacerlo. Suponemos que ya ha descargado e instalado QGIS 3.x. Si no lo ha hecho, puede descargarlo desde <http://www.qgis.org/en/site/forusers/download.html>.  
 
-We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
+Utilizaremos un plugin, QuickOSM, para importar desde la base de datos de OpenStreetMap. Para instalar este plugin, abra el cuadro de diálogo 'Administrar complementos' del menú Complementos. Busque QuickOSM e instálelo. Esto añadirá una entrada al menú Vectorial  
 
-Obtaining Data from the Database
+Obtención de datos desde la base de datos
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
+Lo primero que haremos es obtener datos actualizados de OSM. Podemos hacer esto de numerosas maneras. El plugin QuickOSM nos permite extraer grandes cantidades de datos ya que utiliza la api de Overpass y no el servidor principal de la base de datos de OSM.
 
-- Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
+- Abra QGIS y el menú Vectorial -> QuickOSM -> QuickOSM...  
 
 ![quickosm][]
 
-- You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
+- Aquí puede elegir entre varias opciones: si su ventana ya muestra la extensión que desea, cambie el cuadro combinado que por defecto muestra "En" a "Extensión de capa". Si tiene una capa cargada en QGIS con la extensión deseada, elija "Extensión de la capa" y seleccione la capa que desea utilizar. Utilizar la opción por defecto "En" requiere que exista una relación o polígono con el nombre indicado. En caso contrario, elija "Alrededor" y bastará con un nodo con este nombre. Puede seleccionar un perímetro (por defecto 1000m) alrededor de este nodo donde se cargarán los datos desde la base de datos.
 
-- Click on "Run Query".  
-- You will be notified when the download is complete. The data are stored in three temporary layers, one for nodes, ways and polygons respectively.
+- Oprima "Ejecutar consulta".  
+- Se le notificará cuando se haya completado la descarga. Los datos se almacenan en tres capas temporales: una para nodos, una para líneas y una para polígonos.
 
 ![quickosm loaded][]
 

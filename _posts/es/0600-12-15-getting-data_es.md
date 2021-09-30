@@ -11,64 +11,64 @@ Obteniendo Datos OSM
 
 > Revisado 2016-04-05
 
-When you want to get the most recent OpenStreetMap data, the easiest way is to download an extract from a website. There are various web services that provide data extracts for an area of your choosing.  
+Cuando quiera obtener los datos más recientes de OpenStreetMap, la forma más fácil es descargar un extracto de un sitio web. Hay varios servicios web que proporcionan extractos de datos para un área de su elección.  
 
 Descarga de Extractos de Datos
 --------------------------
 
 ### GeoFabrik
 
-[GeoFabrik](http://geofabrik.de) is a company which specializes in working with OpenStreetMap. They provide a variety of free extracts in shapefile and raw OSM format on their [download website](http://download.geofabrik.de). The advantage of downloading GeoFabrik data is that it is updated every day, and it's easy and reliable. One disadvantage is that the data is extracted by country, and not all countries are available.  
+[GeoFabrik](http://geofabrik.de) es una empresa especializada en OpenStreetMap. Ofrecen una variedad de extractos de archivos gratuitos en formato shapefile y OSM en bruto en su [sitio web de descargas](http://download.geofabrik.de). La ventaja de descargar los datos de GeoFabrik es que se actualizan diariamente, es fácil y fiable. Una desventaja es que los datos se extraen por países completos, y no todos los países están disponibles.  
 
 ### BBBike  
 
-[BBBike](http://download.bbbike.org/osm/bbbike/) provides shapefiles and raw OSM format for cities around the world, extracted weekly. This is useful if you are looking for data extracts for a single city.
+[BBBike](http://download.bbbike.org/osm/bbbike/) proporciona shapefiles y datos en formato OSM en bruto de ciudades de todo el mundo, extraídos semanalmente. Es útil para extractos de datos de una sola ciudad.
 
->Remember that features in OpenStreetMap have an unlimited number of "free" tags,
->but shapefiles have attributes stored in a limited number of columns. This means
->that when OSM data is converted into shapefiles, only the specified tags will be
->included in the shapefile table. The websites listed above provide shapefiles
->with a default set of common tags, but if you want to extract specific tags
->you will need to use one of the more specialized services in the next section
->or learn how to export the data yourself.
+>Recuerda que los objetos en OpenStreetMap tienen un número ilimitado de etiquetas "libres",
+>pero los shapefiles tienen atributos almacenados en un número limitado de columnas. Esto significa que
+>cuando los datos de OSM sean convertidos en shapefiles, sólo las etiquetas especificadas serán
+>incluidas en la tabla de atributos del shapefile. Los sitios web mencionados anteriormente proporcionan archivos shapefiles
+>con un conjunto predeterminado de etiquetas comunes, pero si desea extraer etiquetas específicas
+>tendrá que utilizar uno de los servicios más especializados, de la siguiente sección
+>o aprender a exportar los datos usted mismo/a.
 
-Customized Extracts
+Extractos personalizados
 -------------------
 
-### HOT Exports  
+### Exportaciones de HOT   
 
-The [Humanitarian OpenStreetMap Team](http://hotosm.org) has created a service that allows users to select the area that they want to extract, and also use [JOSM Presets](/en/josm/josm-presets/)
-to select custom tags to be included in the extract. The service is available to all countries where HOT works, at [export.hotosm.org](http://export.hotosm.org).
+El [Equipo Humanitario de OpenStreetMap](http://hotosm.org) ha creado un servicio que permite a los usuarios seleccionar el área que desean extraer, y también utilizar [JOSM Presets](/es/josm/josm-presets/)
+para seleccionar las etiquetas personalizadas que se incluirán en el extracto. El servicio está disponible para todos los países donde trabaja HOT, en [export.hotosm.org](http://export.hotosm.org).
 
 ![hot exports][]
 
 ### BBBike  
 
-You can select your own area from any part of the world using the service at [http://extract.bbbike.org/](http://extract.bbbike.org/). Disadvantages are that you aren't able to select customizable tags and that the amount of data which you can download is limited.  
+Puedes seleccionar una zona propia de interés en cualquier parte del mundo utilizando el servicio [http://extract.bbbike.org/](http://extract.bbbike.org/). Las desventajas son que no puedes seleccionar etiquetas personalizadas y que la cantidad de datos que puedes descargar es limitada.  
 
 ### Overpass
 
-Overpass is an API (Application Programming Interface) for extracting data from a read-only copy of the main OpenStreetMap database which can deliver an almost arbitrary amount of data. Using a query language you can customize which subset of the data you obtain. You can either use the API directly by generating a http-request or through the overpass turbo interface.
+Overpass es una API (Interfaz de programación de aplicaciones) para extraer datos de una copia de solo lectura de la base de datos principal de OpenStreetMap que puede entregar una cantidad de datos casi arbitraria. Usando un lenguaje de consulta, puede personalizar qué subconjunto de datos obtener. Puede utilizar la API directamente generando una solicitud http o mediante la interfaz turbo overpass. 
 
 #### Overpass Turbo
 
-[Overpass Turbo](http://overpass-turbo.eu/) is an interactive query generator where you should first zoom to the appropriate region on the map. Enter your query in the left field of the page and trigger any actions using the buttons at the top of the interface. If you are new to the query language then using the wizard should get you started. The OSM wiki contains a [full description](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) of the syntax of the query language as well as a [collection of examples](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
+[Overpass Turbo](http://overpass-turbo.eu/) es un generador de consultas interactivo en el que, en primer lugar, debes hacer zoom en la región de interés en el mapa. Introduzca su consulta en el campo izquierdo de la página y active cualquier acción utilizando los botones de la parte superior de la interfaz. Si es nuevo en el lenguaje de consulta, el asistente le ayudará a empezar. El wiki de OSM contiene una [descripción completa](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL) de la sintaxis del lenguaje de consulta, así como un [conjunto de ejemplos](http://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example).
 
-The map will highlight all data selected by your query which you can then modify. Press "Run" to refresh the result display. Once you are satisfied with what you see then "Export" offers a number of choices, among them raw OSM data. If the amount of data is limited you may as well access them directly after switching between map view and data view using the rightmost buttons at the top. The export option *Query -> compact OverpassQL* generates a hyperlink to be used for the Overpass API.
+El mapa destacará todos los datos seleccionados por su consulta, la cual podrá modificar. Oprime "Ejecutar" para actualizar la visualización de los resultados. Una vez que esté satisfecho/a con lo que ve, "Exportar" le ofrece una serie de opciones, entre ellas los datos OSM en bruto. Si la cantidad de datos es limitada, también puede acceder a ellos directamente al cambiar entre la vista de mapa y la de datos, utilizando los botones de arriba a la derecha. La opción de exportación *Query -> compact OverpassQL* genera un hipervínculo que se utilizará para la API de Overpass.
 
 ![overpass turbo][]
 
-If you want to engineer a fancy query in order to obtain a subset of the data from a large area then it is a good idea to test and improve this query in Overpass Turbo on a small area. You can then zoom out to your complete region of interest and use the resulting query url directly for the API. The next section explains how you can do this.
+Si quiere diseñar una consulta elegante para obtener un subconjunto de datos de una zona grande, se recomienda probar y mejorar esta consulta en Overpass Turbo en una zona pequeña. A continuación, puede ampliar su región de interés y utilizar la URL de la consulta resultante directamente para la API. En la siguiente sección se explica cómo se hace.
 
 #### API Overpass
 
-[Overpass API](http://wiki.openstreetmap.org/wiki/Overpass_API) is a dedicated service optimized for querying but not writing OpenStreetMap data. Due to this optimization it operates very fast compared to the main database api and has virtually no limits on the amount of data transferred. Several instances of this service are available on the net, the one used in the following example also provides some information on [its homepage](http://overpass-api.de/)
+La [API de Overpass](http://wiki.openstreetmap.org/wiki/Overpass_API) es un servicio dedicado y optimizado para consultar, y no para editar, datos de OpenStreetMap. Debido a esta optimización, funciona muy rápido en comparación con la api de la base de datos principal y prácticamente no tiene límites en la cantidad de datos transferidos. Hay varias instancias de este servicio disponibles en la red, la que se utiliza en el siguiente ejemplo también da información en [su página web](http://overpass-api.de/)
 
-If you have a working query-URL for submitting an http-request to the Overpass API then a tool such as [wget](https://www.gnu.org/software/wget/) - available for different operating systems, see [here](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download) - allows you to download the raw OSM data directly from the server and store them locally. The following snippet is a script for the bash shell common on Unix systems which obtains all data within a specified bounding box:
+Si tienes una URL de consulta que le funciona para enviar una solicitud http a la API de Overpass, entonces una herramienta como [wget](https://www.gnu.org/software/wget/) - disponible para diferentes sistemas operativos (ver [aquí](http://wget.addictivecode.org/FrequentlyAskedQuestions?action=show&redirect=Faq#download)) - te permite descargar los datos OSM en bruto directamente desde el servidor y almacenarlos localmente. El siguiente fragmento es un script para el shell bash, común en los sistemas Unix, que obtiene todos los datos dentro de un cuadro especificado:
 
 ```
-echo lower left latitude
-read ll_lat
+eco de latitud inferior izquierda 
+lee ll_lat
 echo lower left longitude
 read ll_lon
 echo upper right latitude
@@ -80,10 +80,10 @@ read file
 url="http://overpass-api.de/api/interpreter?data=(node($ll_lat,$ll_lon,$ur_lat,$ur_lon);<;rel(br););out meta;"
 wget -O $file "$url"
 ```
->What happens here (for the curious who do not want to read the full query language documentation)?  
->node(...) selects all nodes within a bounding box;  
->< recurses up fully, i.e. selects all ways containing these nodes and all relations containing these nodes and ways;  
->rel(br) selects all parent relations of relations obtained so far (otherwise master relations would not be obtained)
+>¿Qué ocurre aquí (para quienes no quieran leer la documentación completa del lenguaje de consulta)?  
+>node(...) selecciona todos los nodos dentro de un cuadro delimitador;  
+>< se repite completamente, es decir, selecciona todas las formas que contienen estos nodos y todas las relaciones que contienen estos nodos y formas;   
+>rel(br) selecciona todas las relaciones padre de las relaciones obtenidas hasta ahora (de lo contrario, no se obtendrían las relaciones maestras) 
 >
 
 
@@ -91,7 +91,7 @@ wget -O $file "$url"
 Resumen
 -------  
 
-The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
+Los servicios mencionados en este capítulo son todo lo que las personas con uso promedio necesitan para obtener los datos de OSM deseados y poder trabajar con ellos en algún software de SIG. Sin embargo, si quiere aprender formas más poderosas de trabajar con los datos, los capítulos restantes de esta sección son bastante técnicos, pero muestran métodos más avanzados de manipulación y acceso a los datos de OSM.  
 
 
 [hot exports]: /images/osm-data/hot-exports.png

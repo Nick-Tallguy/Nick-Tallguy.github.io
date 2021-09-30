@@ -53,19 +53,19 @@ GPS 데이터와 현장 지도(Field Paper) 사용하기
 -------------------------------
 [스마트폰 또는 GPS, 종이로 지도 그리기](/ko/mobile-mapping/) 단락을 보면 GPS와 Field Paper로 현지 정보를 수집하고, 이를 JOSM에 레이어로 불러오는 방법을 알 수 있습니다.
 
-이렇게 얻은 정보를 오픈스트리트맵에 집어넣으려면 먼저 디지털화하는 작업이 필요합니다.
+이제 이렇게 얻은 정보를 디지털화해서 오픈스트리트맵에 집어넣도록 합시다.
 
-You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+현장 정보를 오픈스트리트맵에 집어넣는 방법도 지금까지 배운 절차, **다운로드, 편집, 저장**과 같습니다. 차이점이라면 지금까지는 위성 사진만 배경에 갖다 놓았다면 이제부터는 GPS 데이터, Field Paper, 참고들도 배경에 놓을 것이라는 사실뿐입니다.
 
--   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+-   예를 들어 GPS 궤적을 JOSM 배경 레이어에 놓았다고 가정해 봅시다. 궤적에 있는 점들 중 하나에 030이라는 이름을 붙이고, 공책에 030은 학교의 위치를 나타낸다고 적었다고 칩시다. 이 점을 오픈스트리트맵에 추가하려면 그리기 도구를 선택하고, 지도 창에 뜨는 030 점 위치에서 마우스 왼쪽 버튼을 더블 클릭한 후, 사전 설정 메뉴에서 학교를 선택해 '사전 설정 적용'을 클릭해야 합니다. 선과 도형을 추가하는 방법도 이와 같습니다.
 
 ![GPS in JOSM][]
 
-Tags
+태그
 ----
-When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
+점, 선, 도형을 단순히 그리기만 하면, 개체의 위치는 알 수 있어도 개체가 무엇을 의미하는지는 알 수 없습니다. 즉 개체가 **어디에** 있는지는 알 수 있지만, 개체가 **무엇을 의미**하는지는 알 수 없습니다. 오픈스트리트맵에서 개체의 **의미**를 알려주는 것은 바로 **태그**입니다.
 
-A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
+태그는 마치 라벨과 같습니다. 예를 들어 정사각형을 그렸을 때, 여러분이 그린 정사각형은 정사각형이라는 것 그 이상의 의미는 없습니다. 하지만 태그를 통해 정사각형에 추가적인 의미(건물, 이름은 "Menara Thamrin", 16층)를 부여할 수 있습니다.
 
 You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
 
