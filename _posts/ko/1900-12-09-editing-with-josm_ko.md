@@ -67,51 +67,51 @@ GPS 데이터와 현장 지도(Field Paper) 사용하기
 
 태그는 마치 라벨과 같습니다. 예를 들어 정사각형을 그렸을 때, 여러분이 그린 정사각형은 정사각형이라는 것 그 이상의 의미는 없습니다. 하지만 태그를 통해 정사각형에 추가적인 의미(건물, 이름은 "Menara Thamrin", 16층)를 부여할 수 있습니다.
 
-You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
+한 개체에 원하는 만큼 많은 태그를 붙일 수 있습니다. 태그는 **키**와 **값**의 쌍으로 오픈스트리트맵에 저장됩니다. 마치 다음과 같이 말이죠.
 
 -   building = yes
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
+JOSM에서 개체를 선택하면, 해당 개체에 붙어 있는 모든 태그를 화면 오른쪽의 속성 패널에서 볼 수 있습니다.
 
 ![Properties panel][]
 
-### Editing Tags
+### 태그 편집하기
 
-You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
+속성 패널을 이용하면 태그를 추가하거나, 수정하거나, 삭제할 수 있습니다. 그러나 전통적으로 모든 태그는 영어이기 때문에, 혼란을 피하기 위해 사전 설정 메뉴를 이용하는 것이 보다 쉽습니다. 태그를 추가하거나 변경하면, 개체의 속성이 바뀝니다.
 
--   To edit an object's tags, first select it.
--   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
+-   개체의 태그를 변경하려면, 먼저 바꾸려는 태그를 선택하세요.
+-   그런 다음 (1) 사전 설정 메뉴를 이용하거나, (2) 속성 창에서 직접 태그를 수정하면 됩니다.
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
+### 자주 하는 실수: 선이나 다각형을 이루는 점에까지 태그를 붙이기
 
-When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+점의 속성을 편집하려면 먼저 점을 선택하고, 사전 설정 메뉴나 속성 패널을 활용해 점에 태그를 추가합니다. 자주 하는 실수는 선이나 도형에 속성을 부여할 때 발생합니다.
+선이나 도형에 태그를 붙일 때는 반드시 선에 속한 점은 선택하면 안 됩니다.
 
-This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
+이러한 실수는 의외로 자주 일어나는데, JOSM의 선택 도구를 이용해 상자를 그리면 상자 내부의 모든 개체(선과 선에 속한 **점까지**)가 선택되기 때문입니다. 반드시 선에 속한 점이 아닌 **선 그 자체**만 선택해야 합니다.
 
 ![Nodes mistake][]
 
-Saving OSM files
+오픈스트리트맵 파일 저장하기
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
+JOSM에서 지도를 편집할 때, 항상 다운로드, 편집, 업로드 사이클을 빠른 시간 안에 끝내는 것이 좋습니다. 데이터를 미리 다운로드해 놓고, 며칠 뒤에 편집 후 업로드하고 싶을 수도 있겠지만, 그러다가 그 사이에 다른 사람이 그 자리를 편집하면 어떻게 될까요? 오류와 충돌이 발생하게 됩니다.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
+편집 내역을 즉각 업로드하는 것을 두려워하지 마세요. 오히려 고생해서 작업한 결과물을 데이터베이스 서버에 바로 저장하는 것이 좋습니다.
 
-If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
+넓은 지역을 편집하지 않을 거라면, 편집할 때마다 지도 데이터를 다운로드하는 것이 좋습니다. 그 사이에 다른 사람이 끼어들지 않게요.
 
-Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
+그러나 때로는 오픈스트리트맵 데이터를 컴퓨터에 저장해야 할 때도 있습니다. 인터넷 연결이 원활하지 않거나, 데이터를 나중에 업로드해야 하는 상황이 있을 수 있으니까요.
 
--   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
+-   오픈스트리트맵 파일을 저장하려면, 먼저 저장하고자 하는 레이어가 활성화되었는지 확인합니다. 그러고 나서 "파일" 메뉴로 들어간 뒤, "저장"을 클릭합니다(아래와 같이 생긴 버튼을 클릭해도 됩니다). 저장 위치를 선택하고 파일 이름을 입력합니다.
 
 ![JOSM save button][]
 
--   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
+-   이제 JOSM을 닫아도 됩니다. 저장한 파일을 열고 싶다면, "파일" 메뉴로 들어가서 "열기..." 버튼을 클릭합니다.
 
-Summary
+마치며
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
+이번 장에서는 JOSM 인터페이스를 조금 더 들여다 보고, 레이어와 태그가 무엇인지를 알아보았습니다. 지금까지 따라온 여러분들은 지도를 만드는 방법, 오픈스트리트맵을 편집하는 방법을 탄탄하게 배웠습니다. 축하드립니다!
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png
