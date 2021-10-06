@@ -53,7 +53,7 @@ Si nos has seguido cuando añadimos nuestros primeros puntos con el editor iD, r
 > ![JOSM Preferences up down][]
 > ![JOSM Preferences WMS TMS][]
 >
-> Click on “Bing Sat”. Then Click “Activate”.
+> Haga clic en "Bing Sat". Luego haga clic en "Activar". 
 
 
 ### Paseo de JOSM
@@ -61,36 +61,36 @@ Ahora que hemos descargado los datos de OpenStreetMap y añadido las imágenes d
 
 ![JOSM layout][]
 
-The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
+La ventana principal con la que ya está familiarizado: esta es la ventana del mapa y es donde tiene lugar la mayor parte de la acción. Aquí podrá ver, editar y agregar a los datos de OpenStreetMap. 
 
-To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
+A la derecha de la ventana del mapa hay una serie de paneles, cada uno de los cuales tiene su propia función. Normalmente, cuando instala JOSM por primera vez, se muestran varios paneles de forma predeterminada, como Capas, Propiedades y Selección. Cuando seleccione un punto, línea o forma en la ventana del mapa, se mostrará en el panel Selección. La información sobre el objeto se mostrará en el panel Propiedades y el nombre de usuario del autor de ese objeto se mostrará en el panel Autores. 
 
-These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper right are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
+Estos paneles se pueden abrir o cerrar haciendo clic en los distintos botones de la parte inferior izquierda de JOSM. Encima de estos botones, en la parte superior derecha, hay herramientas que cambian lo que puede hacer con el mouse. Ya está familiarizado con algunos de ellos, la herramienta Seleccionar y la herramienta Dibujar. Debajo de ellos hay herramientas que facilitan el acercamiento, la eliminación de un objeto, el dibujo de una forma o la creación de una línea paralela a otra línea. 
 
 
 Editar
 ----
-So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
+Así hemos completado el paso uno del proceso de edición: la descarga. Hemos preparado JOSM con imágenes de satélite como referencia. El siguiente paso es editar el mapa y agregar nuevos elementos. 
 
-Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
+Dependiendo del área que elija descargar, puede haber muchos o muy pocos datos de mapas existentes. Pero observe que es el mismo tipo de datos que hemos visto anteriormente: puntos, líneas y formas que representan ubicaciones de la vida real. 
 
--   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
--   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
--   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
+- Use las técnicas que ya ha aprendido para agregar un par de puntos al mapa de lugares que conoce. Si ve algún error, intente corregirlo. 
+- No es necesario ser demasiado agresivo mientras aprende. Si no está seguro de algo, es mejor dejarlo como está. 
+- Si desea mover un punto, línea o forma, use la ** herramienta de selección **. Haga clic en un objeto y arrástrelo donde debería estar. Esto se puede utilizar para corregir la ubicación de los elementos que se han colocado en el lugar incorrecto. 
 
 ![JOSM select tool][]
 
--   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
+- Utilice la **herramienta de dibujo** para dibujar nuevos puntos, líneas y formas. Describa estos objetos seleccionándolos en el menú Ajustes preestablecidos, como hizo en la sección anterior. 
 
-> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+> Nunca edite el mapa fuera del área que ha descargado. Puede ver que el área rectangular que ha descargado tiene un fondo sólido, mientras que el área que no ha descargado tiene líneas diagonales a rayas. 
 >
 > ![JOSM area downloaded][]
 
 Guardar Cambios
 --------------
-The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
+El tercer y último paso para completar nuestras ediciones es cargar los cambios que hemos realizado en la base de datos de OpenStreetMap. Para guardar los cambios, debemos estar conectados a internet. 
 
--   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
+- Haga clic en "Archivo" en el menú superior y luego haga clic en "Cargar datos". Esto abrirá la ventana de carga. Puede acceder a esta ventana de forma más sencilla haciendo clic en el botón de carga, que se muestra aquí: 
 
     ![JOSM Upload Button][]
 
