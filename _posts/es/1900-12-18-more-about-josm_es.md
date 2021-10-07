@@ -94,31 +94,31 @@ El tercer y último paso para completar nuestras ediciones es cargar los cambios
 
     ![JOSM Upload Button][]
 
--   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
+- La ventana que aparece muestra una lista de los objetos que está agregando y los objetos que está modificando o eliminando. En el cuadro de la parte inferior, se le pedirá que proporcione un comentario sobre los cambios que está realizando. Escriba ahí una descripción de sus ediciones. 
 
     ![JOSM Upload Dialog][]
 
 -   Clic “Subir Cambios”.
 
--   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
--   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
+- Si es la primera vez que guarda cambios en OpenStreetMap, se le pedirá su nombre de usuario y contraseña de OpenStreetMap. 
+- Ingréselos en la ventana que aparece. Si marca la casilla en esta ventana, su nombre de usuario y contraseña se guardarán y no necesitará ingresarlos nuevamente en el futuro. Haga clic en "Autenticar". 
 
     ![JOSM Authenticate][]
 
--   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
+- Deberá esperar unos segundos para que se carguen los cambios, ¡y luego habrá terminado! Ha editado el mapa en OpenStreetMap. 
 
-> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
+> Cuando esté editando, asegúrese siempre de cargar sus cambios antes de cerrar JOSM. Incluso si aún tiene que editar más, cargue los cambios y luego vuelva a realizar el proceso más tarde cuando tenga tiempo para editar. ¡No querrás perder tu trabajo! 
 
 Vea sus cambios en el mapa
 ---------------------------
--   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
--   Move the map to the area that you edited.
--   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.
--   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
+- Abra su navegador de Internet y vaya a [http://openstreetmap.org/](http://openstreetmap.org/) 
+- Mueva el mapa al área que editó. 
+- ¡Debería ver sus cambios ya en el mapa! Si no es así, intente presionando CTRL + R para actualizar la página web. A veces, el mapa no se actualiza correctamente y es necesario volver a cargarlo. 
+- ¿Qué pasa si no ve sus cambios? No se preocupe, es posible que los cambios tarden unos minutos en mostrarse en el mapa. Además, verifique sus adiciones en JOSM para asegurarse de que las agregó correctamente. Una buena regla general es que, si su punto tiene un ícono en JOSM, entonces debería verse en el mapa principal en el sitio web de OpenStreetMap. 
 
 Resumen
 -------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
+Ahora que ha visto cómo agregar ediciones a OpenStreetMap, ¿qué sigue? Bueno, la edición es genial, pero no es el único aspecto de la creación de mapas. Por supuesto, también debe aprender a salir y recopilar información sobre lugares en el terreno. 
 
 
 [JOSM Botón Descarga]: /images/josm/josm_download-button.png
