@@ -15,25 +15,25 @@ GPS Essentials
 Instalación de GPS Essentials
 -------------
 
-1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
-2.  Tap the “Search” icon in the upper right corner.
-3.  Use the search bar at the top to search for “GPS Essentials”.
-4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
+1. Pulse el icono de la aplicación "Tienda Google Play" en la pantalla de inicio de su dispositivo Android para abrir el Android Market.
+2. Toque el icono "Buscar" en la esquina superior derecha.
+3. Utilice la barra de búsqueda de la parte superior para buscar "GPS Essentials".
+4. Pulse el icono de GPS Essentials y seleccione "Instalar". El icono tiene este aspecto:
 
     ![GPS Essentials logo][]
 
-If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
+Si no tienes acceso a Google Play o si quieres descargar versiones distintas a la estable, como versiones anteriores o la última beta, puedes descargar GPS Essentials desde <http://www.images.com>.
 
 Configurar GPS Essentials para trabajar sin conexión
 -------------
 
-1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
+1. Abra GPS Essentials. 2. Vaya a Configuración y seleccione Caché de mapa. 3. Mueve el límite de la caché al máximo.
 
     ![Map Cache][]
 
-2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
+2. Encuentre una conexión de red fuerte. 3. En la pantalla principal, seleccione "Mapas portátiles". Cada mapa que veas en el modo de mapas portátiles se guarda automáticamente en la memoria del Android. Guarde los mapas que vaya a necesitar fuera de línea con el mayor detalle posible, y acerque lentamente el zoom a cada waypoint.
 
-3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
+3. Desconéctese de la red y vea los mapas en modo de mapa portátil. Si algunos mapas carecen de detalles, vuelva a conectarse a una red y acerque lentamente la ubicación del mapa que necesita.
 
 Función GPS en el teléfono Android
 -------------
@@ -45,86 +45,86 @@ Antes de utilizar la aplicación GPS Essentials, asegúrese de que el GPS en su 
 Adquiriendo satélites
 -------------
 
-Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
+Antes de que un receptor GPS emita una localización (también llamada punto GPS), debe recibir señales de al menos cuatro satélites. Cuanto más bajo esté el satélite sobre el horizonte, más tiempo viajan sus señales a través de la atmósfera, por lo que los satélites situados a gran altura sobre el horizonte suelen tener mejores señales.
 
 Para comprobar los satélites en su área:
 
-1.  From the main menu, select Satellites.
+1. En el menú principal, seleccione Satélites.
 
     ![Satellites page][]
 
-2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
+2. Si hay al menos cuatro satélites utilizados en la fijación, entonces puede empezar a utilizar las funciones de GPS Essentials.
 
 Creación de trazas
 -------------
 
-1.  From the main menu, select Tracks.
+1. En el menú principal, seleccione Tracks.
 
-2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
+2. Pulse en Inicio en la barra de herramientas. Se creará un nuevo track y comenzará a grabar. Espere unos segundos hasta que el punto de GPS esté disponible.
 
     ![New Track][]
 
-3.  Select Pause button to pause recording. If you want to continue recording, press it again.
+3. Seleccione el botón de Pausa para pausar la grabación. Si desea continuar la grabación, púlselo de nuevo.
 
 Creación de waypoints
 -------------
 
 ### Uso de Mapas portátiles
 
-1.  From the main menu, select Portable Maps.
+1. En el menú principal, seleccione Mapas Portátiles.
 
-2.  Tap and hold on the map to create a new cursor.
+2. Mantenga pulsado el mapa para crear un nuevo cursor.
 
     ![Waypoints1][]
 
-3.  Drag the cursor onto the location where you want the new waypoint.
+3. Arrastre el cursor hasta el lugar en el que desea el nuevo waypoint.
 
-4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+4. Pulse sobre Acciones para mostrar el panel de acciones. El icono de Acciones tiene el siguiente aspecto:
 
     ![Actions][]
 
-5.  Select the Add Tool to create the waypoint.
+5. Seleccione la herramienta Añadir para crear el waypoint.
 
     ![Waypoints2][]
 
 ### Uso de Google Maps
 
-1.  From the main menu, select Google Maps.
+1. En el menú principal, seleccione Google Maps.
 
-2.  Go to the location where you want to add your waypoint.
+2. Dirígete a la ubicación en la que quieres añadir tu waypoint.
 
-3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
+3. Seleccione la herramienta Añadir para crear el waypoint. 4. Pulse sobre la ubicación en el mapa para crear un waypoint allí. Si desea crear un waypoint en su ubicación actual, pulse de nuevo el botón Añadir Waypoint.
 
     ![GoogleMaps][]
 
-4.  Repeat steps b and c until you are finished recording your desired waypoints.
+4. Repita los pasos b y c hasta que termine de grabar los waypoints deseados.
 
 ### Uso de la página Waypoints
 
-1.  From the main menu, select Waypoints.
+1. En el menú principal, seleccione Waypoints.
 
-2.  Select the Add tool to create the waypoint.
+2. Seleccione la herramienta Añadir para crear el waypoint.
 
     ![Waypointspage1][]
 
-3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
+3. Comenzará a grabar su primer waypoint. Puede cambiar los atributos del waypoint y luego pulsar Atrás para volver a la lista.
 
     ![Waypointspage2][]
 
-4.  When you select the Map pane, you will see where your waypoint is located on the map.
+4. Cuando seleccione el panel Mapa, verá dónde se encuentra su waypoint en el mapa.
 
     ![Waypointspage3][]
 
-5.  Select Close icon to save your waypoint. The Close icon looks like this:
+5. Seleccione el icono Cerrar para guardar su waypoint. El icono Cerrar tiene el siguiente aspecto:
 
     ![Close][]
 
 Geoetiquetado de Fotos
 -------------
 
-1.  From the main menu, select Camera.
+1. En el menú principal, seleccione Cámara.
 
-2.  Take a picture of your desired area for geotagging.
+2. Tome una foto de la zona que desee para el geoetiquetado.
 
 3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
 
