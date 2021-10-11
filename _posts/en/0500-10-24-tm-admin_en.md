@@ -50,7 +50,7 @@ In order to login to the Tasking Manager an OpenStreetMap (OSM) account is neede
 
 The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
+All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organization mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
 
 Every organization has one or more **administrators**. They have the permission to create and modify associated projects. All administration options can be accessed through the `Manage` section in the main navigation.
 
@@ -68,7 +68,7 @@ To access the administation section, click on `Manage` in the navigation on the 
 You may choose between defining the area of interest (mapping area) of your mapping project by either:
 
 * Option 1: `Draw` the area of interest on a web map (preferred method)
-* Option 2: `Upload file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
+* Option 2: `Select file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
 
 ![TM New][]
 
@@ -76,7 +76,7 @@ You may choose between defining the area of interest (mapping area) of your mapp
 
 1. You may switch to other background layers using the buttons on the top. 
 1. Click the `Draw` button on the left.
-2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
+2. To draw a polygon representing the mapping area in the map frame hold the left mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
 3. Click on your starting point to complete the polygon.
 4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
@@ -90,7 +90,7 @@ The mapping area is automatically split into grid cells and each cell becomes a 
 
 > Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
 
-After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
+After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The `Reset` button will remove all of your custom splitting.
 
 **Task sizes**:  Please take you time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes on rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities por dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
 
@@ -138,15 +138,6 @@ Geospatial desktop applications like JOSM or QGIS allow mappers to more precisel
 2. Browse to your file in the File Upload window.
 3. Click the file name to highlight the file and then click ‘Open’.
 4. Imported areas of interest can not be edited.
-
-After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
-
-1. `Square Grid`, with the functionality described above to define tasks.
-2. `Arbitrary Geometries`, coming from the file you just uploaded. If this is what you want then activate the switch 'Set tasks using uploaded polygons'
-
-![TM New Polys][]
-
-**Define arbitrary geometries**
 
 If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
 
