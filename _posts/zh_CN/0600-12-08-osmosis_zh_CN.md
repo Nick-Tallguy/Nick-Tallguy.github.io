@@ -1,6 +1,6 @@
 ---
 layout: doc
-title:使用Osmosis处理数据
+title: 使用Osmosis处理数据
 permalink: /zh_CN/osm-data/osmosis/
 lang: zh_CN
 category: osm-data

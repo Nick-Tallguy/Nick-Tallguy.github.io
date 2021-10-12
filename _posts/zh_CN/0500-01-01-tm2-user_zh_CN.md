@@ -4,7 +4,7 @@ title: Tasking Manager 2
 permalink: /zh_CN/coordination/tasking-manager/
 lang: zh_CN
 category: coordination
-导航：跳过
+navigation: skip
 ---
 
 # Tasking Manager 2

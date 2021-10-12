@@ -4,7 +4,7 @@ title: Tasking Manager 2 新建项目
 permalink: /zh_CN/coordination/tasking-manager-project-admin/
 lang: zh_CN
 category: coordination
-导航：跳过
+navigation: skip
 ---
 
 **如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/zh_CN/coordination/tm-disambiguation)**
