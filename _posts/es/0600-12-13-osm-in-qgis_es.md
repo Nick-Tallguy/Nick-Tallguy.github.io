@@ -33,7 +33,7 @@ Lo primero que haremos es obtener datos actualizados de OSM. Podemos hacer esto 
 ![quickosm loaded][]
 
 
-Importing extracts
+Importar extractos
 ---------------------------
 
 There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
@@ -44,7 +44,7 @@ You can either use QuickOSM to import it clicking on 'OSM File' in the left bar.
 - In the source field, select your file and click "Add".  
 - You can select one or more type layers from that file.  
 
-![import osm][]  
+![importar osm][]  
 
 - After clicking "OK" you can close the dialogue and your QGIS window shows the new layers.  
   

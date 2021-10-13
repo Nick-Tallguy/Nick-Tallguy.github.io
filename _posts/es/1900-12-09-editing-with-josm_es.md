@@ -95,31 +95,31 @@ Esto ocurre con frecuencia porque los editores utilizan la herramienta de selecc
 
 Guardar archivos OSM
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
+Cuando se edita en JOSM, siempre es una buena idea descargar, editar y cargar los cambios en un período de tiempo razonablemente corto. No es conveniente descargar los datos un día y esperar hasta unos días después para cargar las modificaciones. ¿Qué pasa si otra persona edita la misma área durante ese tiempo? Esto provocará errores y conflictos.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
+No tengas miedo de subir tus ediciones con frecuencia. Así te aseguras de que tus cambios se guardarán en la base de datos y no perderás tu duro trabajo.
 
-If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
+Si trabajas en una sola zona, es conveniente que descargues los datos del mapa cada vez que quieras editarlos, por si otro usuario ha hecho cambios.
 
-Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
+Aunque siempre debes intentar descargar los datos de OSM cuando estés listo para editar, y subir tus cambios con frecuencia, puede haber casos en los que quieras guardar los datos de OSM en tu ordenador. Por ejemplo, si tienes una conectividad intermitente a Internet, puede que quieras descargar los datos, guardarlos, editarlos y subir los cambios más tarde.
 
--   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
+- Para guardar un archivo OSM, asegúrate de que es la capa activa en el panel de capas. Haz clic en "Archivo" en el menú superior, y haz clic en "Guardar". Elige una ubicación para el archivo y dale un nombre. También puedes guardar haciendo clic en este botón:
 
 ![JOSM save button][]
 
--   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
+- Ahora puede cerrar JOSM y sus datos se guardarán. Cuando quiera volver a abrir el archivo, simplemente abra JOSM, vaya al menú "Archivo" y haga clic en "Abrir..."
 
 Resumen
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
+En este capítulo hemos visto un poco más de cerca la interfaz de JOSM y hemos aprendido sobre las capas y las etiquetas. Ahora deberías tener una base sólida sobre cómo mapear y cómo editar OpenStreetMap.
 
 
-[Layers panel]: /images/josm/josm_layers-panel.png
-[Layers up down]: /images/josm/josm_layers-panel-up-down.png
-[Layers show hide]: /images/josm/josm_layers-panel-show-hide.png
-[Layers delete]: /images/josm/josm_layers-panel-delete.png
-[Layers activate]: /images/josm/josm_layers-panel-activate.png
-[GPS in JOSM]: /images/josm/josm_gps-layer.png
-[Properties panel]: /images/josm/josm_properties-panel.png
-[Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
-[JOSM save button]: /images/josm/josm_save-button.png
+[Capas panel]: /images/josm/josm_layers-panel.png
+[Capas arriba abajo]: /images/josm/josm_layers-panel-up-down.png
+[Capas mostrar ocultar]: /images/josm/josm_layers-panel-show-hide.png
+[Capas eliminar]: /images/josm/josm_layers-panel-delete.png
+[Capas activar]: /images/josm/josm_layers-panel-activate.png
+[GPS en JOSM]: /images/josm/josm_gps-layer.png
+[Propiedades panel]: /images/josm/josm_properties-panel.png
+[Nodos error]: /images/josm/josm_nodes-selected-mistake.png
+[JOSM botón guardar]: /images/josm/josm_save-button.png
