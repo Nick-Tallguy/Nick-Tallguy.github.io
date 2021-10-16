@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Reviewed 2021-06-12
+> 已审核 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ BasicAirData GPS Logger是一款简单的应用，可以记录你的位置和路
 如果手机上的GPS定位没有激活，请激活它。然后到一个空旷的地方，启动GPS Logger。
 
 1. 等到应用程序找到修复点。如果有的话，__GPS FIX__选项栏将开始显示修复点的坐标。此时（在可能的情况下），你应该至少再等一分钟，然后再进行下一个阶段，以便让信号稳定下来。
-2. Click the __Record__ button of the bottom panel to start recording track points. The button will become red. switch recording process on and off at any time by clicking on that button. At the top of the button the app shows the number of the trackpoints recorded.
+2. 点击底部面板的__Record__按钮，开始记录轨迹点。该按钮将变成红色。在任何时候通过点击该按钮打开或关闭记录过程。应用程序顶部的按钮显示记录的轨迹点数量。
 您可以进入__TRACK__标签栏，实时查看你的行程统计。
-3. When your trip is finished, click the __Stop__ button to finalize (finish) the active track. A dialog will appear, click __OK__ to confirm.
-4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, edit the track details, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen.
+3. 行程结束后，点击__Stop__按钮完成（完成）活动轨迹。将出现一个对话框，点击__OK__确认。
+4. 进入__TRACKLIST__标签栏，在那里你会找到你刚刚录制的轨迹。点击该轨迹。将会出现一个菜单。你可以选择以多种方式共享该轨迹，使用已安装的外部查看器查看，编辑轨迹详细信息，将其导出到智能手机的/GPSLogger文件夹中，或者从轨迹列表中删除。导出时使用的格式可在设置界面进行配置。
 
 在OpenStreetMap编辑器中导入GPX轨迹
 --------------------------------------------

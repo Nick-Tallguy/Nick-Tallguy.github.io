@@ -90,56 +90,56 @@ OSM Tasking Manager 2 有三个用户访问级别：
 
 如果Bing证明不够用，那么 Mapbox 是下一个选择。只有当这两个来源都不符合您的要求时，您才应该寻找其他来源。
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your AOI has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your AOI and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+在这种情况下，仅仅选择一个与许可证兼容的来源并通过WMS或TMS服务提供是不够的。你的AOI可能已经用Bing或Mapbox的图像进行了部分测绘，图像之间可能存在明显的偏移。你必须仔细观察你的AOI的各个位置，并确定你的图像和以前绘制的数据之间的偏移。如果现有的OSM数据与你的影像有偏移，但与Bing的影像相吻合，那么我们通常认为Bing是 "黄金标准"，除非我们有GPS轨迹证明这个假设是错误的。
 
-If there is a constant offset between your imagery and Bing across the AOI then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the AOI or if existing data are aligned with various sources then it is time for plan B:
+如果你的图像和Bing在整个AOI之间有一个恒定的偏移，那么这可能会在服务器上得到纠正，从而使编辑器中加载的各种来源的图像相匹配。如果偏移量在整个AOI上有所不同，或者现有的数据与各种来源的数据是一致的，那么是时候实施B计划了。
 
-The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+重要的一点是，您必须制定一个如何应对这些问题的策略，并为测绘人员和审核者提供详细的指导。我们强烈建议你宣布这样的项目"只适合有经验的绘图者"，并解释说，在这种情况下，经验并不是已经绘制了200多栋建筑，而是已经处理了对齐问题和不同的影像来源。
 
-One possible strategy could include these steps:
+一个可能的策略可以包括以下步骤：
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
-4. Add new features from the now correctly aligned alternative imagery.
+1. 明确说明哪种影像被认为是参照物，其他任何东西都应该与之保持一致。在这种情况下，让我们假设参照物是Bing。
+2. 确保所有在Bing上能看到的现有特征与Bing影像保持一致，即必要时重新调整。
+3. 使用编辑器的影像偏移功能，将替代影像与现有特征(从而与Bing)对齐。
+4. 从正确对齐的替代影像中添加新的特征。
 
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an AOI, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+重要的是，项目的每项任务都要重复步骤3，而且单个任务方块不应过大，因为影像偏移在整个AOI中可能会有很大的不同，特别是在地形不平坦的情况下。甚至影像不连续的情况也可能在整个项目中出现 - 注意这些情况，并将这种问题告知贡献者。
 
-Here are some suggested bits of information which you might include in the project instructions:
+这里有一些建议，你可以在项目说明中加入：
 
-- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [编辑人员的一般准则](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [关于iD中影像对齐的gif动画](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [learnOSM中的josm影像调整章节](http://learnosm.org/zh_CN/josm/correcting-imagery-offset)
 
-## Create the project & add description
-After choosing a tile size, click “Create Project”. 
+## 创建项目 & 添加说明
+选择瓦片尺寸后，点击“创建项目”。 
 
 ![TM Create Project][]
 
-This establishes the project in the task manager and opens a screen where you can provide the descriptions, instructions and other information about the project. Keep in mind that this must not be underestimated. A fair share of mappers (in many cases the majority) will have no previous experience with OpenStreetMap and/or HOT and will thus not be familiar with tagging guidelines. It is very important that the objectives of the project are clear and that all resources which the mappers should take into account are laid out here. It is often advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly. Otherwise you might end up with lots of tiles which contain a bit of everything but nothing really complete.
+这样就在Tasking Manager中建立了项目，并打开一个屏幕，在这个屏幕上可以提供项目的描述、说明和其他信息。请记住，这一点一定不能低估。相当一部分绘图者（在许多情况下是大多数）之前没有使用OpenStreetMap和/或HOT的经验，因此不熟悉标记指南。因此，明确项目的目标，并在此列出所有测绘人员应考虑的资源是非常重要的。通常建议将一个项目限制在一类要绘制的对象上。如果你需要一个区域的底图，最好把它分成几个项目，一个项目用于道路，一个项目用于建筑物等。现在，初学者可以专注于一小类对象，同时学习如何正确地绘制它们。否则，你可能最终会得到很多瓦片，这些瓦片包含了所有的东西，但没有真正完整的东西。
 
-Please use plain language as your target audience may not consist of native English speakers.
+由于你的目标受众可能不是以英语为母语的人，因此请使用简单的语言。
 
 1. 项目的标题应该已经揭示了应该绘制哪些实体。最好采用如下标题 
-*#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
+*#1396 - Missing Maps: 尼日利亚尼日尔州(北部)(项目1：道路和居民区)*
+2. 最重要的信息应首先出现在说明标签栏上，以确保它们被阅读。这包括使用任何特殊的影像，而不是Bing。第一句话可以提到，例如，如果项目是关于道路和住宅区，则不需要绘制每一栋房子的地图。或者，如果项目要用于人口密度估计，则需要绘制每一栋房子的地图。这些信息也应该出现在描述标签栏上。
+3. 其他需要说明的问题。如果该项目只适合有一定经验的测绘人员。例如，该项目使用导入数据或现有数据应为GPS轨迹或其他一些影像（参见上一节）重新调整。措辞要让新的测绘人员感到被邀请为其他项目作出贡献，但要明白在这种情况下需要高级技术。
+4. 有一些准则涵盖了我们在验证时看到的常见错误。一个例子是Blake Girardot关于 [西非制图](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips)的汇编。在说明中使用该链接，并解释说明需要遵守这些准则。
+5. 标记标签方面的权威资源是 [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features)。对于许多与HOT相关的任务， [标记非洲公路的标签](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)的网页是合适的专业资料，强烈建议每个测绘人员阅读。如果你的项目必须遵守不同的标记标签标准，那么就在wiki中写一个类似的页面，并在你的说明中链接它。
 
 <!--Hidden Text - Google discussion group on TM - https://groups.google.com/a/hotosm.org/forum/?utm_medium=email&utm_source=footer#!msg/tm-project-managers/5OVNGMBsQv0/01Wxw95cBwAJ 
 
-Youtube video concerning the development & code updates for TM = https://www.youtube.com/watch?v=hFFlrm9wKcA
-from email by Pete Masters
-Hi Polyglot, just in case it is useful, we worked with Pierre Giraud when he visited London to do a tech introduction to the tasking manager. It's here if you're interested: https://www.youtube.com/watch?v=hFFlrm9wKcA
+关于TM开发和代码更新的Youtube视频 = https://www.youtube.com/watch?v=hFFlrm9wKcA
+来自Pete Masters的电子邮件
+嗨，Polyglot，为了以防万一，当Pierre Giraud访问伦敦时，我们与他合作，对任务管理器做了一个技术介绍。如果你有兴趣的话，就在这里：https://www.youtube.com/watch?v=hFFlrm9wKcA
 
-Cheers,
+干杯，
 
 Pete
 
 
-Before Creating a Task
-Should this task be a Missing Maps Task? 
+在创建任务之前
+此任务是否应该是缺失的地图任务？ 
 Will the project have a direct field mapping component?
 Is the project disaster related? 
 If yes it should be a HOT project not Missing Maps. Contact the activation lead.
