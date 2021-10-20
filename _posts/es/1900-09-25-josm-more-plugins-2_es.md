@@ -1,101 +1,101 @@
 ---
 layout: doc
-title: Opendata Plugin - data from a spreadsheet
+title: Complemento Opendata - datos de una hoja de cálculo
 permalink: /en/josm/opendata-plugin/
 lang: en
 category: josm
 ---
 
-Opendata Plugin - using data from a spreadsheet
+Complemento OpenData - usar datos de una hoja de cálculo
 ============
 
 
-- TOC
+- TDC
 {:toc}
 
-This guide describes how to add data to OpenStreetMap which may be in the form of a spreadsheet, probably obtained by a field survey using a tool such as ODK collect or Kobo collect.  
+Esta guía describe cómo añadir datos a OpenStreetMap que pueden estar en forma de hoja de cálculo, probablemente obtenidos por un estudio de campo utilizando una herramienta como ODK collect o Kobo collect. 
 
-**Please note - if the data you are planning to add to OpenStreetMap may be termed an 'import' then you should consult the [Import Guidelines page of the OpenStreetMap Wiki](https://wiki.openstreetmap.org/wiki/Import/Guidelines). If you are in any doubt it is best to consult first!**
+**Nota: si los datos que piensas añadir a OpenStreetMap se pueden denominar "importación", debes consultar la página [Wiki Importar Guías de OpenStreetMap](https://wiki.openstreetmap.org/wiki/Import/Guidelines). En caso de duda, lo mejor es consultar primero**.
 
 
-Installing the Opendata Plugin
+Instalar el Complemento Opendata
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+Si aún no lo ha hecho, instale este complemento siguiendo las instrucciones en [Complementos JOSM](/es/josm/josm-plugins). 
 
 ![Opendata][]
 
-Once installed, you may click on ![Opendata preferences][]   
-to access any of the more specific modules.  
+Una vez instalado, puede hacer clic en ![Preferencias Opendata][]   
+para acceder a cualquiera de los módulos más específicos.  
 
 ![Opendata modules][]
 
-This guide is using the basic functionality, and no modules are being loaded.   
+Esta guía está utilizando la funcionalidad básica, y no se está cargando ningún módulo.
 
-Preparing the spreadsheet  
+Preparar la hoja de cálculo  
 -------------------------
 
-The wiki page at <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> provides more detailed information about formats which can be used. For our purposes we are assuming that the spreadsheet has been downloaded and passed to us in the proprietry **.xlsx** which will not load into the opendata plugin.  
+La página wiki en <https://wiki.openstreetmap.org/wiki/JOSM/Plugins/OpenData> proporciona información más detallada sobre los formatos que se pueden utilizar. Para nuestros propósitos estamos asumiendo que la hoja de cálculo ha sido descargada y pasada a nosotros en la propiedad **.xlsx** que no se cargará en el complemento de opendata. 
 
-- Open the spreadsheet in an opensource programme such as LibreOffice which is available for most operating systems <http://www.libreoffice.org/>,  
-- and then save it in an opensource format. Our spreadsheet which was **shops.xlsx** becomes **shops.ods**.  
+- Abra la hoja de cálculo en un programa de código abierto como LibreOffice, que está disponible para la mayoría de los sistemas operativos <http://www.libreoffice.org/>, 
+- y luego guárdela en un formato de código abierto. Nuestra hoja de cálculo que era **tiendas.xlsx** se convierte en **tiendas.ods**. 
 
-Although it is possible to load the spreadsheet into josm now, it is better to carry out further amendments to make the process easier before doing so.  
+Aunque ahora es posible cargar la hoja de cálculo en josm, es mejor realizar otras modificaciones para facilitar el proceso antes de hacerlo. 
 
 ### latitud & longitud
 
-The Opendata plugin is very good at extracting the latitude and longitude from spreadsheets, but if you are in any doubt it is better to change the column headings to a simpler format;  
+El complemento Opendata es muy bueno para extraer la latitud y la longitud de las hojas de cálculo, pero si tiene alguna duda es mejor que cambie los títulos de las columnas a un formato más sencillo; 
 
 ![latitude longitude][]
 
-becomes;  
+se vuelve;
 
 ![latitude longitude corrected][]
 
 ### Llave y Valor
 
-#### The name tag  
+#### La etiqueta nombre
 
-Our aim now is to amend the spreadsheet so that the information is in the format expected by OpenStreetMap. The column headings will be the **Key** values, and the data withing the spreadsheet becomes the **Value** element. For our simple spreadsheet, amend the first column heading from **Name_of_the_shop** to **name**. Using the format key=value, our first spreadsheet line now becomes;  
+Nuestro objetivo ahora es modificar la hoja de cálculo para que la información tenga el formato esperado por OpenStreetMap. Los encabezamientos de las columnas serán los valores **Key**, y los datos de la hoja de cálculo se convertirán en el elemento **Value**. Para nuestra hoja de cálculo simple, modifique el encabezamiento de la primera columna de **Name_of_the_shop** a **name**. Utilizando el formato clave=valor, nuestra primera línea de la hoja de cálculo se convierte ahora en 
 **name=Tony's Supermarket**
 
-If your spreadsheet has more than one name, such as a **local name** or **official name**, please consult the wiki page at <https://wiki.openstreetmap.org/wiki/Names> which lists many possible alternatives so that your updates to OpenStreetMap can contain all of the names that are likely to be used or searched for.  
+Si su hoja de cálculo tiene más de un nombre, como un **local name** o un **official name**, consulte la página wiki en <https://wiki.openstreetmap.org/wiki/Names> que enumera muchas alternativas posibles para que sus actualizaciones en OpenStreetMap puedan contener todos los nombres que probablemente se utilicen o busquen. 
 
-#### Columns without a heading
+#### Columnas sin un encabezado
 
-If you remove the heading for a column, but keep the data below it, then the data is effectively hidden from JOSM.  
+Si elimina el encabezado de una columna, pero mantiene los datos debajo de ella, entonces los datos quedan efectivamente ocultos para JOSM. 
 
 ![opendata 1][]
 
-#### Columns with data from different keys 
+#### Columnas con datos de diferentes claves
 
 ![opendata mixed][]
 
-The person designing the survey, and the person carrying out the survey will often not be aware of the tags and values that have evolved in OpenStreetMap. The **shop** column in my spreadsheet actually contains data from two different tags, and the spreadsheet will need amending. The column heading **Type of shop** can be changed to **shop**, for the following data;  
-  shop=supermarket  
-  shop=convenience  
-  shop=hairdresser  
+La persona que diseña la encuesta y la que la lleva a cabo no suelen conocer las etiquetas y los valores que han evolucionado en OpenStreetMap. La columna **shop** de mi hoja de cálculo contiene en realidad datos de dos etiquetas diferentes, y la hoja de cálculo deberá modificarse. El título de la columna **Tipe of shop** puede cambiarse por **shop**, para los siguientes datos; 
+shop=supermarket 
+shop=convenience 
+shop=hairdresser 
 
-but **restaurant** and **fast_food** are from the **amenity** key.
+pero **restaurant** y **fast_food** son de la clave **amenity**.
 
-A new column should be inserted with the heading **amenity**, and the data moved, so that our spreadsheet now looks like this;  
+Hay que insertar una nueva columna con el título **amenity**, y mover los datos, de modo que nuestra hoja de cálculo tenga ahora este aspecto; 
 
 ![opendata shop amenity][]
 
 #### sub etiquetas
 
-The column heading **Does_the_shop_have_toilet_faci** has been abbreviated during the survey process, and originally read **Does the shop have toilet facilities?**.  
+El encabezado de la columna **Does_the_shop_have_toilet_faci** se ha abreviado durante el proceso de encuesta, y originalmente decía **Does the shop have toilet facilities?**. 
 
-Although there is a separate tag for toilets, which is usually added to a node within a building, this actually refers to toilets which are accessible to the public. If we carried out our own survey, we know exactly what was intended with the question and answer, but if this is information passed on to us, it will probably be necessary to query what was intended. It is also extremely useful to be able to load the survey questions into a phone and carry out a 'mock' survey so that the layout of the questions can be seen. Careful reading of the wiki page at <https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets>, and study of the original survey is needed before amending the spreadsheet. In particular, the wiki entry contains the information - 
+Aunque existe una etiqueta independiente para los baños, que suele añadirse a un nodo dentro de un edificio, en realidad se refiere a los baños accesibles al público. Si realizamos nuestro propio estudio, sabemos exactamente lo que se pretendía con la pregunta y la respuesta, pero si se trata de información que nos han pasado, probablemente habrá que consultar lo que se pretendía. También es muy útil poder cargar las preguntas del estudio en un teléfono y realizar un "simulacro" de estudio para poder ver la disposición de las preguntas. Es necesario leer detenidamente la página wiki en <https://wiki.openstreetmap.org/wiki/Tag:amenity%3Dtoilets> y estudiar la encuesta original antes de modificar la hoja de cálculo. En particular, la entrada de la wiki contiene la información 
 
-- *Please do not use toilet=yes (singular). In general please do not map toilets that are inaccessible to the public. Many buildings have toilets inside for workers or owners, but mapping these could create needless conflict or unrealistic expectations. Use toilets=no for places you might expect to find a usable toilet (e.g. a railway station or trailhead) where no public toilets are made available.*  
+- *Por favor, no utilice toilet=yes (singular). En general, se ruega que no se mapeen los baños que no son inaccesibles al público. Muchos edificios tienen baños en su interior para los trabajadores o los propietarios, pero su mapeo podría crear conflictos innecesarios o expectativas poco realistas. Utiliza toilets=no para los lugares en los que podrías esperar encontrar un baño utilizable (por ejemplo, una estación de tren o el inicio de un sendero) en los que no hay baños públicos disponibles.* 
 
-Following the advice from the wiki as best as I can, my amended spreadsheet for the information about toilets now reads;  
+Siguiendo los consejos de la wiki lo mejor posible, mi hoja de cálculo modificada para la información sobre los baños dice ahora; 
 
 ![opendata toilets][]
 
 
-I have blanked the heading on a number of columns, so that the data will not be visible when I am carrying out my editing in JOSM.  
+He borrado el encabezado de varias columnas para que los datos no sean visibles cuando realice la edición en JOSM. 
 
 Loading the spreadsheet into JOSM
 ---------------------------------
