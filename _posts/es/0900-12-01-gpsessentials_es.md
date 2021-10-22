@@ -126,55 +126,55 @@ Geoetiquetado de Fotos
 
 2. Tome una foto de la zona que desee para el geoetiquetado.
 
-3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
+3. La foto que tomaste servirá como punto en la vía y se guardará automáticamente en la página de Portable Maps y Google Maps.
 
-4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
+4. Los datos (ubicación de la imagen y el nombre del archivo de la foto) también se registrarán en la página de puntos de ruta. 5. También puede elegir el icono que se utilizará para una imagen concreta. El icono se mostrará también en la página de Portable Maps y Google Maps.
 
 Fotos guardadas
 -------------
 
-All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
+Todas tus imágenes están en la carpeta com.mictale.images de tu tarjeta SD. Puede eliminar imágenes de esta carpeta e incluso puede añadir otras nuevas. GPS Essentials escanea esta carpeta regularmente para ver qué hay de nuevo.
 
 Exportar / Guardar Waypoints
 -------------
 
-1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
+1. En el menú principal, seleccione Puntos de ruta (Waypoints). Te mostrará la lista de puntos de ruta que has grabado.
 
-2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
+2. Para exportar todos los puntos de ruta, seleccione Exportar en el botón Opciones. Si desea exportar un solo punto de ruta, seleccione el punto de ruta deseado, haga clic en el botón Opciones y seleccione Exportar.
 
-3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
+3. El cuadro desplegable le permitirá seleccionar el tipo de archivo que desea exportar. Por ahora, haz clic en KML (Google Earth).
 
     ![Export file format][]
 
-4.  Select the SD card icon to manually select your desired location of the file.
+4. Seleccione el icono de la tarjeta SD para seleccionar manualmente la ubicación deseada del archivo.
 
     ![Export to SD card][]
 
-5.  Click this icon to Save.
+5. Haga clic en este icono para guardar.
 
     ![Arrow][]
 
 Exportar/Guardar trazas
 -------------
 
-1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
+1. En el menú principal, seleccione Trazas (Tracks). Esto muestra los datos de la traza actual que ha grabado.
 
-2.  Select Export from the Options button to write the contents of the current track to a file.
+2. Seleccione Exportar en el botón Opciones para escribir el contenido de la traza actual en un archivo.
 
-3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
+3. Si desea exportar la traza anterior que grabó, seleccione el icono Trazas y elija la traza deseada. Haga clic en el botón Opciones y seleccione Exportar. El icono Trazas tiene el siguiente aspecto:
 
     ![Footprints][]
 
 
-4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
+4. El cuadro desplegable le permitirá seleccionar el tipo de archivo que desea exportar. Por ahora, haz clic en KML (Google Earth).
 
     ![Export1][]
 
-5.  Select the SD card icon to manually select your desired location of the file.
+5. Seleccione el icono de la tarjeta SD para seleccionar manualmente la ubicación deseada del archivo.
 
     ![Export3][]
 
-6.  Click this icon to Save.
+6. Haga clic en este icono para guardar.
 
     ![Arrow][]
 

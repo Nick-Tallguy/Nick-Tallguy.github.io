@@ -56,44 +56,44 @@ Exportar datos
 --------------
 
 Para exportar una capa active su menú contextual y seleccione Exportar -> Guardar Objetos Espaciales como...
-You can select from a wide range of formats including Shapefile, GeoJSON, PostgreSQL dump, SQLite. The other options on the dialogue vary depending on the format you selected.
+Puede seleccionar entre una amplia gama de formatos, incluyendo archivo Shape, GeoJSON, volcado PostgreSQL, SQLite. Las demás opciones del diálogo varían en función del formato seleccionado.
 
 ![exportar][]  
 
-You can choose to re-import the exported layer by checking the box at the bottom (activated by default).
+Puede elegir reimportar la capa exportada marcando la casilla de la parte inferior (activada por defecto).
 
 Trabajar con los Datos
 --------------------
 
-We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania). You can inspect the data of a vector layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
+No podemos darle ni siquiera una visión general de lo que puede hacer con QGIS y hay muchos excelentes tutoriales y libros que le guiarán paso a paso hacia el dominio del software. Pero como los datos OSM importados por uno de los métodos descritos anteriormente tienen sus etiquetas codificadas de una manera especial, aquí hay un ejemplo de cómo tratar con ellos (para los curiosos, el ejemplo es pitcairn-islands-latest de la página de descarga de Geofabrik para Australia y Oceanía). Puedes inspeccionar los datos de una capa vectorial usando 'Abrir tabla de atributos' desde el menú contextual de una capa, en este caso la capa multipoligonal.
 
 ![attribute table][]
 
-We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
+Podemos ver que todos los pares clave-valor para las etiquetas de los distintos objetos están organizados en una cadena de texto especialmente formateada en el campo 'other_tags'. Este tipo de almacenamiento se llama "hstore" en una base de datos PostgreSQL y es el estándar para los datos OSM.
 
-In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
+En este ejemplo los polígonos son principalmente islas, bosques y edificios. Inicialmente se representan de la misma manera, lo que significa que las islas cubren todo lo demás. Vamos a representarlos de forma diferente para tener una idea de cómo identificar los diferentes objetos. Descarte la tabla de atributos. En el menú contextual de la capa multipoligonal seleccione Propiedades y en ese formulario pase a la pestaña Simbología. 
 
 ![simbología][]
 
-First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
+En primer lugar, cambie el tipo de símbolo de "Símbolo único" a "Basado en reglas" utilizando el cuadro combinado de la parte superior del formulario. 
 
 ![simbología basada en reglas][]
 
-The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
+La representación actual aparece como una regla sin filtros. Podemos modificar esta regla haciendo clic en el icono marcado con un cuadrado morado en la imagen superior.
 
 ![simbología editar regla][]
 
-We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
+Nos gustaría tratar los edificios de forma diferente. Tratar de forma diferente significa que hay que especificar las reglas según las propiedades de las capas. La evaluación de expresiones de QGIS no puede tratar directamente las cadenas hstore. Pero una utilidad viene a nuestro rescate y la expresión de filtro que se muestra en la imagen `hstore_to_map(other_tags)['building'] is not NULL` convierte la cadena 'other_tags' en un mapa clave-valor donde elegimos el valor para la clave 'building'. La condición dice que buscamos objetos cuya clave edificio no esté vacía. Podemos definir un color y un estilo de relleno para los edificios. Haga clic en "Aceptar" cuando haya terminado con el diseño de su regla. Ahora puede añadir más reglas haciendo clic en el icono "más" en la parte inferior de la pestaña de simbología. Añadimos reglas similares para los bosques y las praderas. Al final nuestra pestaña de simbología tendrá este aspecto:
 
 ![simbología reglas de polígonos][]
 
-As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+Como ventaja adicional, podemos obtener un recuento rápido de los objetos espaciales de las reglas. Pulse el icono más a la derecha de la fila en la parte inferior (el símbolo de la suma) y la columna "recuento" se rellenará diciéndonos que tenemos 150 edificios en esta capa.
 
-You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+Puede añadir etiquetas de forma similar a como lo hicimos con los símbolos. 'Etiquetas' es otra pestaña en las propiedades de una capa, justo debajo de Simbología. En la mayoría de los casos se desea imprimir el nombre de un objeto espacial. Se introduce una expresión similar a las utilizadas para la simbología en el campo para un filtro y como valor se utilizaría `hstore_to_map(other_tags)['name']`. 
 
 ![etiquetas][]
 
-Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+Asignando estas etiquetas a las capas multipoligonales y a las capas de puntos se obtiene algo así:
 
 ![listo][]
 
@@ -108,7 +108,7 @@ Este proceso simplifica la obtención de datos actualizados de OSM y su inserci�
 [quickosm cargado]: /images/osm-data/qgis-quickosm-loaded.png
 [import osm]: /images/osm-data/qgis-import-osm.png
 [import osm cargado]: /images/osm-data/qgis-import-osm-loaded.png
-[export]: /images/osm-data/qgis-export.png
+[exportar]: /images/osm-data/qgis-export.png
 [tabla de atributos]: /images/osm-data/qgis-layer-attributes.png
 [simbología]: /images/osm-data/qgis-layer-symbology.png
 [simbología basada en reglas]: /images/osm-data/qgis-layer-symbology-rule.png

@@ -72,20 +72,20 @@ Añadir punto de vía
 
 ![Crear punto de vía][]
 
-If you want to add waypoint, you need to go to **Waypoint** symbol (1) at the top of the page and go to **Create** (2). It will bring you to waypoint creation page and fill your waypoint name. You can add extra information, for example a description of your waypoint and coordinates of your waypoint by checking the Coordinates checklist. Press Accept to save your waypoint.  
+Si quieres añadir un punto de ruta, tienes que ir a **Punto de ruta** símbolo (1) en la parte superior de la página e ir a **Crear**(2). Te llevará a la página de creación de puntos de ruta y rellenarás el nombre de tu punto de ruta. Puede añadir información adicional, por ejemplo una descripción de su punto de ruta y las coordenadas de su punto de ruta marcando la lista de coordenadas. Pulse Aceptar para guardar su punto de ruta.  
 
 ![Ajustes de creación de punto de vía][]
 
-If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. From this page you can change the properties, delete and export the waypoint. To see all of your waypoints in **map**, select the waypoints and go to show in map (1) and if you want to export your waypoints press **Export** (2). All of your exported waypoints will be stored in internal storage (by the default it stored in **oruxmaps/geocaches**).  
+Si quiere ver todos sus puntos de ruta, puede ir a **Punto de ruta \N>Gestión**. Desde esta página puede cambiar las propiedades, eliminar y exportar el punto de ruta. Para ver todos sus puntos de ruta en **mapa**, seleccione los puntos de ruta y vaya a mostrar en mapa(1) y si quiere exportar sus puntos de ruta pulse **Exportar**(2). Todos tus puntos de ruta exportados se guardarán en el almacenamiento interno (por defecto se guarda en **oruxmaps/geocaches**).  
 
 ![Gestionar guardado de puntos de vía][]
 
 Resumen
 -----------
 
-Congratulations! You already know how to use OruxMaps for field surveys. It may be hard on your first time but if you continue using this you will be familiar with this application.  
+¡Enhorabuena! Ya sabes cómo utilizar OruxMaps para los estudios de campo. Puede ser difícil en su primera vez, pero si continúa usando esto se familiarizará con esta aplicación.  
 
-[Search OruxMaps in Play Store]: /images/mobile-mapping/oruxmaps_image00.png
+[Buscar OruxMaps en Play Store]: /images/mobile-mapping/oruxmaps_image00.png
 [Instalar OruxMaps]: /images/mobile-mapping/oruxmaps_image03.png
 [Ejecutar OruxMaps por primera vez]: /images/mobile-mapping/oruxmaps_image01.png
 [Vista general del interfaz]: /images/mobile-mapping/oruxmaps_image09.png
