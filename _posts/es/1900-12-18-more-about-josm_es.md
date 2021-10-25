@@ -121,13 +121,13 @@ Resumen
 Ahora que ha visto cómo agregar ediciones a OpenStreetMap, ¿qué sigue? Bueno, la edición es genial, pero no es el único aspecto de la creación de mapas. Por supuesto, también debe aprender a salir y recopilar información sobre lugares en el terreno. 
 
 
-[JOSM Botón Descarga]: /images/josm/josm_download-button.png
-[JOSM Diálogo Descarga]: /images/josm/josm_download-dialog.png
+[JOSM Download Button]: /images/josm/josm_download-button.png
+[JOSM Download Dialog]: /images/josm/josm_download-dialog.png
 [JOSM Preferences up down]: /images/josm/josm_preferences-up-down.png
-[JOSM Preferencias WMS TMS]: /images/josm/josm_preferences-wms-tms.png
+[JOSM Preferences WMS TMS]: /images/josm/josm_preferences-wms-tms.png
 [JOSM layout]: /images/josm/josm_layout.png
-[JOSM herramienta seleccionar]: /images/josm/josm_select-tool.png
-[JOSM área descargada]: /images/josm/josm_area-downloaded.png
-[JOSM Botón Subir]: /images/josm/josm_upload-button.png
-[JOSM Diálogo Subir]: /images/josm/josm_upload-dialog.png
-[JOSM Autenticar]: /images/josm/josm_authenticate.png
+[JOSM select tool]: /images/josm/josm_select-tool.png
+[JOSM area downloaded]: /images/josm/josm_area-downloaded.png
+[JOSM Upload Button]: /images/josm/josm_upload-button.png
+[JOSM Upload Dialog]: /images/josm/josm_upload-dialog.png
+[JOSM Authenticate]: /images/josm/josm_authenticate.png
