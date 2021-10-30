@@ -11,16 +11,16 @@ Relaciones
 
 > Revisado 2017-06-06  
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
+En la [Guía para principiantes](/es/beginner) explicamos que hay tres tipos de objetos que se pueden dibujar en OpenStreetMap: puntos (nodos), líneas (vías) y polígonos (vías cerradas). Las líneas contienen numerosos puntos, y la propia línea lleva los atributos que definen lo que representa. Los polígonos son lo mismo que las líneas, excepto que la línea debe terminar donde comienza para formar una forma.  
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap, called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points, lines, or polygons.  If you are looking to advance your editing skills, then understanding and knowing how to properly edit relations is important.  
+De hecho, le mentimos, porque existe otro tipo de objeto en OpenStreetMap, llamado relaciones. De la misma manera que una línea se compone de otras
+puntos, una relación contiene un grupo de otros objetos, ya sean puntos, líneas o polígonos. Si quiere avanzar en sus habilidades de edición, es importante que entienda y sepa cómo editar correctamente las relaciones.  
 
-For example, imagine that you want to map a building that has courtyards in the center.  You would need to draw a polygon around the outside of the building, and you would want other polygons around the courtyards to indicate that they are not part of the building.  This is an example of a relation.  The relation would contain several polygons - and the attributes of the building would be attached to the relation, not the polygons.  
+Por ejemplo, imagine que quiere mapear un edificio que tiene patios en el centro. Tendría que dibujar un polígono alrededor del exterior del edificio, y querría otros polígonos alrededor de los patios para indicar que no forman parte del edificio. Este es un ejemplo de relación. La relación contendría varios polígonos - y los atributos del edificio se adjuntarían a la relación, no a los polígonos.  
 
 ![An example of a multipolygon][]
 
-Relations are used to represent anything that requires a collection of objects to define.  Other examples are bus routes (a collections of lines), long and complex objects (rivers or roads), or multiple polygons that are all part of one location (like buildings in a university).  
+Las relaciones se utilizan para representar cualquier cosa que requiera una colección de objetos para su definición. Otros ejemplos son las rutas de autobús (una colección de líneas), los objetos largos y complejos (ríos o carreteras), o múltiples polígonos que forman parte de una ubicación (como los edificios de una universidad).  
 
 There are mainly four types of relations you will encounter in OSM: Multipolygons, Routes, Boundaries, and Restrictions (such as, no left turns).  In this section we will cover Multipolygons and Routes.  
 

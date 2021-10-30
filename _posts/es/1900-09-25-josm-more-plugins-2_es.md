@@ -97,55 +97,55 @@ Siguiendo los consejos de la wiki lo mejor posible, mi hoja de cálculo modifica
 
 He borrado el encabezado de varias columnas para que los datos no sean visibles cuando realice la edición en JOSM. 
 
-Loading the spreadsheet into JOSM
+Cargando la hoja de cálculo en JOSM
 ---------------------------------
 
-Click on ![josm open][], navigate to where your spreadsheet is saved, and open it within JOSM.  
+Haz clic en ![josm abrir][], navega hasta donde esté guardada tu hoja de cálculo y ábrela dentro de JOSM. 
 
 ![opendata pop up][]  
 
-A pop-up will possibly appear asking you to confirm the 'projection method' used when collecting the data. The Opendata plugin will attempt to calculate the 'projection method' used and will present this as the most likely option. Unless this has been altered in the settings by the surveyor, accepting the suggested projection but then checking when editing that the points created are appearing in likely locations is a sensible choice.  
+Es posible que aparezca una ventana emergente pidiéndole que confirme el "método de proyección" utilizado al recoger los datos. El complemento Opendata intentará calcular el "método de proyección" utilizado y lo presentará como la opción más probable. A no ser que el topógrafo haya modificado la configuración, lo más sensato es aceptar la proyección sugerida y comprobar al editarla que los puntos creados aparecen en las ubicaciones más probables. 
 
 ![opendata spreadsheet loaded][]
 
-Congratulations! You've done all the hard work and you're nearly ready to update OpenStreetMap with your nice new survey data. 
+¡Enhorabuena! Has hecho todo el trabajo duro y estás casi listo para actualizar OpenStreetMap con tus nuevos y bonitos datos de la encuesta. 
 
-Using the ToDo plugin
+Usando el complemento ToDo
 ----------------------
 
-Within JOSM select all of the items added by your spreadsheet, either by;  
+Dentro de JOSM seleccione todos los elementos añadidos por su hoja de cálculo, ya sea por; 
 
-- scroll out until all are visible, then drag your mouse from top left to bottom right while holding the left mouse button down, or  
-- use **Ctrl+f** to carry out a search - I searched on **name** as this appears in all 5 of my surveys.  
+- desplácese hasta que todos sean visibles, luego arrastre el ratón desde la parte superior izquierda a la inferior derecha mientras mantiene pulsado el botón izquierdo del ratón, o 
+- utilice **Ctrl+f** para realizar una búsqueda. He buscado por **nombre**, ya que aparece en mis 5 encuestas. 
 
-make sure you have selected all of your surveys - there are five surveys in my spreadsheet and I need to have 5 objects selected.  
+asegúrese de haber seleccionado todas sus encuestas - hay cinco encuestas en mi hoja de cálculo y necesita tener 5 objetos seleccionados. 
 
 ![5 selected][]
 
-On the ToDo plugin panel, click on **Add**.  
+En el panel del complemento ToDo, haga clic en **Añadir**. 
 
 ![opendata todo add][]
 
-and the list of items to add should appear in the panel.  
+y la lista de elementos a añadir debería aparecer en el panel. 
 
 ![opendata todo loaded][]
 
-Load OpenStreetMap data as a separate layer
+Cargue los datos OpenStreetMap como una capa independiente
 -------------------------------------------
 
-Double click on the top item in your ToDo list, which will centre it in your editing panel, and click on the download ![download][] icon.
+Haz doble clic en el elemento superior de su lista ToDo, lo que lo centrará en tu panel de edición, y haz clic en el icono ![descargar][].
 
-When the download dialog window appears, ensure you place a tick in ![download new layer][] (bottom left on the next screenshot) so that your OSM data does not download into your spreadsheet data.
+Cuando aparezca la ventana de diálogo de descarga, asegúrese de poner una marca en ![descargar nueva capa][] (abajo a la izquierda en la siguiente captura de pantalla) para que sus datos OSM no se descarguen en sus datos de la hoja de cálculo.
 
 ![download dialog][]
 
 
-Compare the data between the layers
+Compare los datos entre las capas
 ------------------------------------
 
-Ensure you carefully check the data held in your spreadsheet against the existing data already in OpenStreetMap. There are ways of copying tags, or parts of tags (Look through the **Tools** and **More Tools** menu's of JOSM, or read the earlier chapters within LearnOSM) between the layers. In many cases you will be merging new data with existing data. Carefully check the data, if necessary checking the history and source for the different features - it's always possible the data within OpenStreetMap is more recent or more accurate than your spreadsheet data.  
+Asegúres de comprobar cuidadosamente los datos que tiene en su hoja de cálculo con los datos existentes en OpenStreetMap. Hay formas de copiar etiquetas, o partes de etiquetas (mire en los menús **Herramientas** y **Más herramientas** de JOSM, o lea los capítulos anteriores dentro de LearnOSM) entre las capas. En muchos casos usted estará fusionando datos nuevos con datos existentes. Compruebe cuidadosamente los datos, si es necesario verificando el historial y la fuente de las diferentes características - siempre es posible que los datos dentro de OpenStreetMap sean más recientes o más precisos que los datos de su hoja de cálculo. 
 
-When you have updated the information from one line of the spreadsheet, use the **Mark** button of the ToDo plugin to move onto the next item - you may have to download more OSM data if the next item is outside the area already downloaded.  
+Cuando haya actualizado la información de una línea de la hoja de cálculo, utilice el botón **Marcar** del complemento ToDo para pasar al siguiente elemento - puede que tenga que descargar más datos de OSM si el siguiente elemento está fuera del área ya descargada. 
 
 
 [Datos abiertos]: /images/josm/opendata-plugin.png
@@ -153,16 +153,16 @@ When you have updated the information from one line of the spreadsheet, use the 
 [Módulos datos abiertos]: /images/josm/opendata-modules.png
 [latitud longitud]: /images/josm/opendata-latitude-longitude.png
 [latitud longitud corregida]: /images/josm/opendata-latitude-longitude-corrected.png
-[opendata 1]: /images/josm/opendata-1.png
-[opendata mixed]: /images/josm/opendata-mixed.png
-[opendata shop amenity]: /images/josm/opendata-shop-amenity.png
-[opendata toilets]: /images/josm/opendata-toilets.png
+[datosabiertos 1]: /images/josm/opendata-1.png
+[datosabiertos mezclado]: /images/josm/opendata-mixed.png
+[datosabiertos tienda amenity]: /images/josm/opendata-shop-amenity.png
+[datosabiertos baños]: /images/josm/opendata-toilets.png
 [josm abrir]: /images/josm/josm_open-file.png
-[opendata pop up]: /images/josm/opendata-wgs84-popup.png
-[opendata spreadsheet loaded]: /images/josm/opendata-spreadsheet-loaded.png
+[datosabiertos emergente]: /images/josm/opendata-wgs84-popup.png
+[datosabiertos hoja de cálculo cargada]: /images/josm/opendata-spreadsheet-loaded.png
 [5 seleccionada]: /images/josm/opendata-5-selected.png
-[opendata todo add]: /images/josm/opendata-todo-add.png
-[opendata todo loaded]: /images/josm/opendata-todo-loaded.png
+[datosabiertos todo añadir]: /images/josm/opendata-todo-add.png
+[datosabiertos todo cargado]: /images/josm/opendata-todo-loaded.png
 [descargar]: /images/josm/josm-download-button.png
 [diálogo de descarga]: /images/josm/josm_download-dialog.png
 [descargar nueva capa]: /images/josm/download-as-new-layer.png
