@@ -20,14 +20,14 @@ Section Index
     -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
     -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
     -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
--  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
+-  [یک پروژه نقشه برداری را ویرایش کنید](/en/coordination/tm-admin/#edit-a-mapping-project)
     -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
     -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
     -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
     -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
     -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
     -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tm-admin/#helpful-hints)
+    -  [نکات مفید - چگونه باید تمام این فیلدها را پر کنید](/en/coordination/tm-admin/#helpful-hints)
     -  [Publish - do not forget or you never get work done](/en/coordination/tm-admin/#publish)
 
 The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
@@ -240,7 +240,7 @@ License - Optionally, if there is a specific license required for the mapper to 
 
 **Enforce random selection** - If checked then users cannot select a specific task for mapping.
 
-### Actions
+### اقدامات
 
 ![TM Actions][]
 

@@ -85,7 +85,7 @@ The current rendering appears as a rule with no filters. We can modify this rule
 
 We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
 
-![symbology polygon rules][]
+![قوانین چند ضلعی نمادشناسی][]
 
 As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
 
@@ -95,7 +95,7 @@ You can add labels in a similar fashion how we dealt with symbols. 'Labels' is a
 
 Assigning such labels to the multipolygon and the point layers you will end up with something like this:
 
-![done][]
+![انجام شد][]
 
 
 خلاصه
