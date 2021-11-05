@@ -1,66 +1,66 @@
 ---
 layout: doc
-title: JOSM Presets
+título: Preajustes JOSM
 permalink: /es/josm/josm-presets/
 lang: es
 category: josm
 ---
 
-JOSM Presets
+Preajustes JOSM
 ============
 
 > Revisado 2016-09-17  
 
-If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
+Si lleva mucho tiempo utilizando JOSM, a estas alturas ya entiende un poco lo que son las etiquetas y los preajustes. Cada objeto está definido por dos cosas: en primer lugar, su geometría (si es un punto, una línea o una forma y su ubicación), y en segundo lugar, sus atributos, que vienen en forma de etiquetas.  
 
-When you draw an object and select from the Presets menu, the correct tags are automatically applied to the object.  
+Cuando se dibuja un objeto y se selecciona en el menú de preajustes, las etiquetas correctas se aplican automáticamente al objeto.  
 
-If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
+Si te gusta usar los preajustes, ¿qué pasa cuando quiere añadir etiquetas que no están en el menú, o cuando quiere personalizar sus propias etiquetas?  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+En este caso, puede añadir elementos de menú personalizados a los Preajustes. En esta sección veremos cómo hacerlo. En el [capítulo siguiente](/es/josm/creating-presets), cubriremos cómo crear archivos de preajustes personalizados propios.  
 
 
-Add Presets
+Añadir Preajustes
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+Los menús y submenús que componen el menú de preajustes se almacenan en archivos que describen cómo crear los menús y formularios que aparecen al hacer clic en un preajuste, y cómo definir qué etiquetas se añaden a un objeto en función de cómo se rellena el formulario.  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+Los archivos de preajustes pueden añadirse desde un archivo en línea o guardarse en la computadora localmente y añadirse a JOSM.  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* Para añadir una nueva entrada al menú Preajustes, abra JOSM y vaya a Editar->Preferencias.  
+* Haga clic en la tercera pestaña hacia abajo, que parece una cuadrícula que cubre el planeta.  
 
-![tagging presets tab][]
+![pestaña etiqueta de predefinidos][]
 
-* At the top, click on "Tagging Presets."  
+* En la parte superior, haga clic en "Etiquetas de predefinidos".  
 
-![tagging presets menu][]
+![menú etiqueta de predefinidos][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Añadir un archivo de preajustes de Internet seleccionando uno en la lista de 	a la izquierda, y haciendo clic en la flecha azul. En este ejemplo, añadiremos el preajuste denominado "Nuevas etiquetas"  
 
-![example presets][]
+![ejemplo predefinidos][]
 
 * You will see a new item appear in the list on the right.  
-* Click OK.  
-* You will need to restart JOSM.  
-* Create a new layer and add a point or shape.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Clic Aceptar.  
+* Necesitará reiniciar JOSM.  
+* Crear una nueva capa y añadir un punto o forma.  
+* Vaya al menú Predefinidos. Verá una entrada adicional en la parte inferior que se expande en varias opciones no cubiertas por la instalación estándar de JOSM.  
 
-![additional tags preset][]
+![etiqueta de predefinidos adicional][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* La mayoría de los preajustes cubren casos de uso bastante específicos, por lo que puedes buscar en la lista si encuentras alguno que se ajuste a tus intereses.  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* Si ha recibido un archivo de preajustes personalizados, puede añadirlo al menú de forma similar. Simplemente vuelva al menú de Preferencias y, en lugar de seleccionar de la lista, haga clic en el botón (+) de la parte superior derecha.  
 
-![plus button][]
+![botón más][]
 
-* Locate your file and give it a name if you like.  
-* Click OK.  
+* Localice su archivo y dele un nombre si quiere.  
+* Clic Aceptar.  
 
 
-[tagging presets tab]: /images/josm/tagging-presets-tab.png
-[tagging presets menu]: /images/josm/tagging-presets-menu.png
-[example presets]: /images/josm/example-presets2.png
-[additional tags preset]: /images/josm/new-tags-preset.png
-[plus button]: /images/josm/plus-button.png
+[pestaña etiquetas de predefinidos]: /images/josm/tagging-presets-tab.png
+[menú etiquetas de predefinidos]: /images/josm/tagging-presets-menu.png
+[ejemplo predefinidos]: /images/josm/example-presets2.png
+[etiquetas de predefinidos adicional]: /images/josm/new-tags-preset.png
+[botón más]: /images/josm/plus-button.png
 
