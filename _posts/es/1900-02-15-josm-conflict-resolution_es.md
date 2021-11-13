@@ -13,32 +13,32 @@ Resolución de Conflicto JOSM
 
 Algunas veces está trabajando en JOSM y cuando sube todas sus hermosas ediciones, obtiene un desagradable mensaje que se queja de algún conflicto.  
 ![conflicto detectado][]  
-What happened is that you downloaded a bunch of data, which included a point which we will call Node A.  Then while you were editing, somebody else also downloaded Node A, changed it, and saved the changes back on OpenStreetMap.  Now when you try to upload your version of Node A, it is different from the one saved on OSM.  Therefore JOSM doesn’t know which version of Node A should be saved.  
+Lo que ocurrió es que descargaste un montón de datos, que incluían un punto que llamaremos Nodo A. Luego, mientras editabas, otra persona también descargó el Nodo A, lo cambió, y guardó los cambios de nuevo en OpenStreetMap. Ahora, cuando intentas subir tu versión del Nodo A, es diferente de la que se guardó en OSM. Por lo tanto, JOSM no sabe qué versión del Nodo A debe ser guardada.  
 
 Conflictos
 ----------
 
 Algunas veces, JOSM es capaz de arreglárselas por su cuenta con conflictos, y le dará un mensaje como este:  
 ![resuelto automáticamente][]  
-This means that JOSM has automatically decided that items in your local dataset will not be uploaded to main server because they have already been deleted by another user. In some conflicts, however, there is no easy action for JOSM to take and so it leaves the decision up to the user to determine what the best course of action is.  This means it is up to you to resolve the conflicts.  
+Esto significa que JOSM ha decidido automáticamente que los elementos de su conjunto de datos local no se subirán al servidor principal porque ya han sido borrados por otro usuario. En algunos conflictos, sin embargo, no hay una acción fácil para JOSM, por lo que deja la decisión en manos del usuario para determinar cuál es el mejor curso de acción. Esto significa que es usted quien debe resolver los conflictos.  
 
 Esto le dice que mire todos sus conflictos en la Capa 1 en la caja **Lista de Diálogo**:  
 ![warning unresolved][]  
 
-This window provides you with a warning as to whether you are likely to experience a conflict with your edits. If you check on the server you will be able to fix the editing issues that would arise:  
+Esta ventana le avisa de si es probable que se produzca un conflicto con sus ediciones. Si lo comprueba en el servidor, podrá solucionar los problemas de edición que pudieran surgir:  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+Esta advertencia le indica que JOSM no ha podido eliminar un nodo debido a que todavía está referenciado de alguna manera. Para remediarlo, el usuario tiene que volver a entrar en JOSM y resolver el conflicto antes de cargar los datos:  
 ![aún en uso][]  
 
 Resolución de conflicto
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
+El proceso de resolver un conflicto es bastante simple, aunque puede parecer confuso al principio en JOSM. Básicamente, para cada conflicto JOSM le presentará dos opciones - su versión de un objeto y la que está en el servidor. Tienes que elegir si quieres mantener tu versión, o si la nueva versión en el servidor debe permanecer.  
+Puede que pienses: "¡claro que mi versión va a ser mejor!". Y puede que tengas razón. Pero piense en nuestro ejemplo del principio de este capítulo. Quizás mientras estabas ocupado editando, otro mapeador añadió mucha información a uno de los nodos de tu conjunto de datos. Si eliges tu versión en lugar de la suya, perderás toda esa valiosa información que ellos añadieron. Por lo tanto, deberías considerar mantener su versión, o fusionarla con la tuya.  
+Cuando aparezca una ventana de conflicto, lo mejor es elegir el botón "Sincronizar... sólo". Es posible que tenga que hacer esto para más de un objeto, pero es mejor resolver los conflictos de uno en uno.  
 ![sincronizar nodo][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+Una vez que haga clic en este botón, obtendrá una ventana emergente que detalla su conflicto. El mensaje de error puede parecer complicado, pero es bastante sencillo. Sabrá qué tipo de conflicto tiene por el símbolo del cuadrado rojo en la pestaña superior. El conflicto en el siguiente ejemplo se refiere a las propiedades, como la ubicación y la existencia del objeto. Por eso aparecen las coordenadas y el estado de borrado.  
 
 **Tipos de conflicto:**
 
@@ -48,15 +48,15 @@ Once you click this button, you will get a pop-up window that details your confl
 - **Miembros:**  Hay una diferencia en la lista de miembros en una relación  
 ![propiedades con conflictos][]  
 
-Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
+Los conflictos sólo aparecen con dos ediciones diferentes a la vez. Si hay tres o más conflictos, entonces aparecerá una cadena de conflictos. Por lo tanto, tiene que elegir o fusionar sólo dos conflictos a la vez. Puede elegir su versión, la otra versión o, a veces, fusionar las dos.  
 
-In the below example you do not have the option of merging. Click on the first column, or My version if you believe that your edits are correct. Click on Their version if you think that the other edits are better.  
+En el siguiente ejemplo no tiene la opción de fusionar. Haga clic en la primera columna, o en Mi versión si cree que sus ediciones son correctas. Haga clic en Su versión si cree que las otras ediciones son mejores.  
 ![conflictos resueltos][]  
 
-Once you have selected which version you think is best, then click “Apply Resolution.”  A few more windows will pop up and you will be on your way toward being able to upload your edits. Do some more editing.  Then click ‘Upload’.  You will get a pop-up that says:  
+Una vez que hayas seleccionado la versión que consideres mejor, haz clic en "Aplicar resolución". Aparecerán algunas ventanas más y estarás en camino de poder subir tus ediciones. Realiza algunas ediciones más. A continuación, haz clic en "Cargar". Aparecerá una ventana emergente que dice  
 ![pila de comando][]  
 
-On your Windows menu you have a Conflict List Dialog . This window displays a list of conflicts. The total number of unresolved conflicts is shown in the header. You can select or resolve a conflict by clicking on it. This is useful when you have many conflicts to deal with.  
+En el menú de Windows tiene una ventana de diálogo de la lista de conflictos. Esta ventana muestra una lista de conflictos. El número total de conflictos no resueltos se muestra en la cabecera. Puede seleccionar o resolver un conflicto haciendo clic sobre él. Esto es útil cuando tiene muchos conflictos que resolver.  
 ![uno sin resolver][]  
 No puede subir sus cambios hasta que la lista esté vacía.  
 
@@ -65,17 +65,17 @@ Maneras de Evitar Conflictos
 
 ### Subir Frecuentemente
 
-To minimize the chance and number of conflicts it is important to upload your edits regularly.  Conflicts appear more frequently for those who tend to save the area they are working on in their local server and wait a while to upload it.  It is best to download the area you are working on, edit it and then immediately upload it.  The longer the time between downloading data and uploading changes to that data, the more likely it is that someone has edited something in the meantime. If you are at a Mapathon & editing a feature such as a highway which may be worked on by others as well, upload very frequently, perhaps every 6 edits!  
+Para minimizar la posibilidad y el número de conflictos es importante subir tus ediciones con regularidad. Los conflictos aparecen con más frecuencia para aquellos que tienden a guardar el área en la que están trabajando en su servidor local y esperar un tiempo para subirla. Lo mejor es descargar el área en la que estás trabajando, editarla y subirla inmediatamente. Cuanto más tiempo pase entre la descarga de datos y la subida de los mismos, más probable es que alguien haya editado algo mientras tanto. Si estás en un Mapathon y editando un elemento como una carretera en la que pueden trabajar otros, sube los datos con mucha frecuencia, quizás cada 6 ediciones.  
 
 ### Modificar en el área que descargó
 
-Editing in the specific area you have downloaded minimizes conflict risk.  Make sure you do not edit outside of the area that you have downloaded.  You can easily see which areas outside your download area in JOSM, because the background is made up of diagonal lines instead of being solid black.  
+Editar en el área específica que ha descargado minimiza el riesgo de conflicto. Asegúrese de no editar fuera del área que ha descargado. Puedes ver fácilmente qué áreas están fuera de tu área de descarga en JOSM, porque el fondo está formado por líneas diagonales en lugar de ser negro sólido.  
 
 ![Modificar en el área exterior][]  
 
 Resumen
 --------
-When you edit in JOSM, you run the risk of running into conflicts.  Conflicts occur when an object has been edited by two people at a similar time.  By understanding what a conflict is and how to deal with it, you will be able to ensure that the best possible edits are saved to OpenStreetMap.  
+Cuando edita en JOSM, corre el riesgo de encontrarse con conflictos. Los conflictos se producen cuando un objeto ha sido editado por dos personas en un momento similar. Si entiende lo que es un conflicto y cómo solucionarlo, podrá asegurarse de que se guardan las mejores ediciones posibles en OpenStreetMap.  
 
 
 <!-- More stuff, could go into an additional chapter - DO NOT TRANSLATE
@@ -96,39 +96,39 @@ Hay tres tablas mostradas en este cuadro de diálogo, de izquierda a derecha:
 2. Versión fusionada: muestra las etiquetas fusionadas. Esta tabla está inicialmente
     vacío. Cuantos más conflictos de etiquetas resuelva, los valores de las etiquetas 
     será mostrado en esta tabla.
-3.  Their version: shows the tags of the second object version
+3. La versión de ellos: muestra las etiquetas de la segunda versión del objeto
     participando en este conflicto. Estas son usualmente las etiquetas de 
     versión del objeto actualmente guardado en el servidor.
 
-In the example below both versions have a tag "name". The values in the
-two object versions are different, though, and JOSM therefore displays
-the row with a red background. The value of the first version is
-"Secondary School", the opposite version has a value "Elementary
-School". You now have to decide which of these values you want to keep
+En el ejemplo siguiente, ambas versiones tienen una etiqueta "nombre". Los valores de la etiqueta
+dos versiones del objeto son diferentes, sin embargo, y JOSM por lo tanto muestra
+la fila con fondo rojo. El valor de la primera versión es
+"Escuela Secundaria", la versión opuesta tiene un valor "Escuela
+Primaria". Ahora tiene que decidir cuál de estos valores quiere mantener
 y cual desea descartar.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image07.png)
 
-Click on the value you want to keep, in the example for instance on the
-value on the left. If you either double-click on the value or click on
+Haga clic en el valor que desea conservar, en el ejemplo por ejemplo en el
+a la izquierda. Si hace doble clic en el valor o hace clic en
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image21.png), decides si mantener el valor y descartar el
-opposite value. The table in the middle now displays the value to keep
+valor opuesto. La tabla del centro muestra ahora el valor a mantener
 y el color de fondo se vuelve verde.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image10.png)
 
-When the button Apply Resolutionis enabled you can apply your decision.
-The values you've chosen will be applied and the dialog will be closed.
+Cuando el botón Aplicar Solución está activado, puede aplicar su decisión.
+Se aplicarán los valores elegidos y se cerrará el diálogo.
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image03.png)
 
-## Resolving differences in the node list of two versions of a way
+## Resolver las diferencias en la lista de nodos de dos versiones de un camino
 
-If you see the symbol ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png)in the tab Nodesthen you
+Si ve el símbolo ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image08.png) en la pestaña Nodos entonces
 tiene que resolver diferencias en la lista de
 [nodos](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)de dos
-[ways](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). There
-are three columns in the respective panel (see screen shot below):
+[vías](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). Allí
+son tres columnas en el panel respectivo (véase la captura de pantalla siguiente):
 
 1.  the leftmost table displays the list of nodes of the the local
     versión de objeto
