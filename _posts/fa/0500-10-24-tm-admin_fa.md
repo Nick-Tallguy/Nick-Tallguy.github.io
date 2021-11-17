@@ -1,25 +1,25 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
+title: راهنمای مدیر Tasking Manager
 permalink: /fa/coordination/tm-admin/
 lang: fa
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# راهنمای مدیر Tasking Manager
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**اگر رابط کاربری نسخه‌ای که استفاده می‌کنید متفاوت از آنچه در اینجا توضیح داده شده به نظر می‌رسد، باید با [نمای کلی نسخه ما] (/en/coordination/tm-disambiguation) مشورت کنید**
 
-Section Index
+فهرست بخش
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+-  [ورود و دسترسی](/en/coordination/tm-admin/#login-and-access)
+-  [مجوزها](/en/coordination/tm-admin/#permissions)
+-  [یک پروژه ایجاد کنید](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [منطقه نقشه‌برداری را تعریف کنید](/en/coordination/tm-admin/#define-mapping-area)
+    -  [وظایف را تعریف کنید](/en/coordination/tm-admin/#define-tasks)
     -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
+    -  [پیشرفته: مناطق و وظایف پروژه نقشه‌برداری را با داده‌های جغرافیایی وارداتی تعریف کنید](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
 -  [یک پروژه نقشه برداری را ویرایش کنید](/en/coordination/tm-admin/#edit-a-mapping-project)
     -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
     -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)

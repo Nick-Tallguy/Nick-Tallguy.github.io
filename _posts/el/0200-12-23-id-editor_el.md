@@ -23,11 +23,11 @@ category: beginner
 Ξεκινώντας τον Επεξεργαστή ID
 ----------------------
 
--	The iD editor requires an active connection to the Internet.  
--	Open your Internet browser, and go to the OpenStreetMap website at [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Login** using your OpenStreetMap account  
--	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area.  
--	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**.  
+Το πρόγραμμα επεξεργασίας iD απαιτεί ενεργή σύνδεση στο Διαδίκτυο.  
+Ανοίξτε το πρόγραμμα περιήγησής σας στο Διαδίκτυο και μεταβείτε στον ιστότοπο του OpenStreetMap στη διεύθυνση [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+**Συνδεθείτε** χρησιμοποιώντας το λογαριασμό σας στο OpenStreetMap  
+Μετακινήστε και μεγεθύνετε τον χάρτη στην περιοχή που θέλετε να επεξεργαστείτε. Μπορείτε να μετακινηθείτε κρατώντας πατημένο το αριστερό κουμπί του ποντικιού και σύροντας τον χάρτη στην περιοχή που θέλετε.  
+Κάντε κλικ στο μικρό βέλος δίπλα στο **Επεξεργασία**. Στη συνέχεια, κάντε κλικ στο **Επεξεργασία με iD (επεξεργαστής στο πρόγραμμα περιήγησης)**.  
 
 ![image1][]
 
@@ -36,131 +36,131 @@ category: beginner
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** This panel shows tags from the object selected on the map.  
+1. **Πίνακας επεξεργασίας χαρακτηριστικών:** Αυτός ο πίνακας εμφανίζει ετικέτες από το επιλεγμένο αντικείμενο στο χάρτη.  
 	Μπορείτε να προσθέσετε ή να επεξεργαστείτε tag από αυτόν τον πίνακα.  
-2. **Tools:** This panel shows basic editing tools:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+2. **Εργαλεία:** Αυτός ο πίνακας εμφανίζει βασικά εργαλεία επεξεργασίας:  
+    Σχεδίαση σημείου (κόμβος), *πλήκτρο συντόμευσης* **1** ![image3][]{: height="24px"}  
+    Σχεδίαση γραμμής (διαδρομή), *πλήκτρο συντόμευσης* **2** ![image4][]{: height="24px"}  
+    Σχεδίαση σχήματος (πολύγωνο), *πλήκτρο συντόμευσης* **3** ![image5][]{: height="24px"}  
+    Αναίρεση, *πλήκτρα συντόμευσης* **Ctrl+z** ![image6][]{: height="24px"}  
+    Επανάληψη, *πλήκτρα συντόμευσης* **Ctrl+y** ![image7][]{: height="24px"}  
+    Αποθήκευση αλλαγών, *πλήκτρα συντόμευσης* **Ctrl+s** ![image8][]{: height="32px"}  
+3. **Πίνακας χάρτη:** Αυτός ο πίνακας εμφανίζει διάφορες λειτουργίες διαμόρφωσης:  
+    Μεγέθυνση, *πλήκτρο συντόμευσης* **+** ![image9][]{: height="24px"}  
+    Σμίκρυνση, *πλήκτρο συντόμευσης* **-** ![image10][]{: height="24px"}  
+    Μεταβείτε στην τοποθεσία σας ![image11][]{: height="24px"}  
+    Διαμόρφωση υποβάθρου φόντου, *πλήκτρο συντόμευσης* **b** ![image12][]{: height="24px"}  
+    Δεδομένα χάρτη, *πλήκτρο συντόμευσης* **f** ![Map Data][]{: height="24px"}  
+    Θέματα, *πλήκτρο συντόμευσης* **i** ![Issues][]{: height="24px"}  
+    Ανοίξτε το μενού βοήθειας, *πλήκτρο συντόμευσης* **h** ![image13][]{: height="24px"}  
+4. **Πίνακας πληροφοριών:** Αυτός ο πίνακας εμφανίζει διάφορες πληροφορίες, όπως τη γραμμή κλίμακας και τους χρήστες που έχουν συνεισφέρει στην περιοχή.  
 
-## Configuring the Background Layer
+## Ρύθμιση παραμέτρων του Υποβάθρου Φόντου
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+Κάντε κλικ στο κουμπί **Ρυθμίσεις φόντου** ή χρησιμοποιήστε το *πλήκτρο συντόμευσης* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Μπορείτε να **αλλάξετε το επίπεδο φόντου** με βάση τον πάροχο πλακιδίων που επιθυμείτε (η προεπιλογή είναι Bing Aerial Imagery).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+Μπορείτε να προσθέσετε τα δικά σας πλακίδια χάρτη κάνοντας κλικ στο **Προσαρμοσμένο**. Για παράδειγμα, εάν θέλετε να **προσθέσετε ένα FieldPaper** [^fieldpaper], κάντε κλικ στο **Προσαρμογή** και, στη συνέχεια, κάντε κλικ στο εικονίδιο του μεγεθυντικού φακού (αναζήτηση) για να ανοίξετε το ακόλουθο παράθυρο:-  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+και εισαγάγετε τη **Διεύθυνση URL στιγμιότυπου FieldPaper**, η οποία θα είναι κάπως έτσι: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Για να **εμφανίσετε ίχνη GPS από τον υπολογιστή σας** (μορφή GPX), σύρετε και αποθέστε το αρχείο GPX στο πρόγραμμα επεξεργασίας iD.  
+Για να ενεργοποιήσετε το **OpenStreetMap GPS Traces** κάντε κλικ στο πλαίσιο. Στην παρακάτω εικόνα, τα δημόσια ίχνη GPS εμφανίζονται σε διάφορα χρώματα, υποδεικνύοντας την κατεύθυνση του ταξιδιού.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Για να αλλάξετε την **εμφάνιση των εικόνων** κάντε κλικ στο **Επιλογές εμφάνισης**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Εάν υπάρχει [μετατόπιση εικόνων](/en/josm/aerial-imagery), μπορείτε να **διορθώσετε τη μετατόπιση εικόνων** κάνοντας κλικ στο **Ρύθμιση μετατόπισης εικόνων**.  
 ![image18][]  
 
-- Click the navigation buttons to move the imagery. Click the reset button to return to the default position. ![image20][]  
+- Κάντε κλικ στα κουμπιά πλοήγησης για να μετακινήσετε τις εικόνες. Κάντε κλικ στο κουμπί επαναφοράς για να επιστρέψετε στην προεπιλεγμένη θέση.![image20][]  
 
 Βασική επεξεργασία με τον iD  
 ----------------------  
 
 ### Προσθήκη Σημείων  
 
-To add a new point, click on the **Point** button. ![image3][]{: height="24px"}  
+Για να προσθέσετε ένα νέο σημείο, κάντε κλικ στο κουμπί **Σημείο**.![image3][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Now, click on a position that you know to mark a location. For example, if you know that there is a hospital in your area, click on the position of the hospital building.  
+- Ο κέρσορας του ποντικιού σας θα αλλάξει σε σύμβολο συν (+). Τώρα, κάντε κλικ σε μια θέση που γνωρίζετε για να επισημάνετε μια τοποθεσία. Για παράδειγμα, εάν γνωρίζετε ότι υπάρχει νοσοκομείο στην περιοχή σας, κάντε κλικ στη θέση του κτιρίου του νοσοκομείου.  
 ![image21][]  
-- Notice that a new point is added. At the same time, the left panel will change to show a form where you can select attributes for the object. Click **Hospital Grounds** to tag the point as a hospital.  
+- Παρατηρήστε ότι προστέθηκε ένα νέο σημείο. Ταυτόχρονα, το αριστερό πλαίσιο θα αλλάξει για να εμφανίσει μια φόρμα όπου μπορείτε να επιλέξετε χαρακτηριστικά για το αντικείμενο. Κάντε κλικ στο **Νοσοκομείο** για να προσθέσετε ετικέτα στο σημείο ως νοσοκομείο.  
 ![image22][]  
-- You can use the forms to fill detail information about your point. You can fill hospital name, address, and/or other additional information. Note that each feature will have different options, depending on what tag you choose from the feature panel.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
-A "point" created in the iD editor is actually a standalone "node" with a set of "tags" on it.  
+- Μπορείτε να χρησιμοποιήσετε τις φόρμες για να συμπληρώσετε λεπτομερείς πληροφορίες σχετικά με το σημείο σας. Μπορείτε να συμπληρώσετε το όνομα του νοσοκομείου, τη διεύθυνση ή/και άλλες πρόσθετες πληροφορίες. Σημειώστε ότι κάθε δυνατότητα θα έχει διαφορετικές επιλογές, ανάλογα με την ετικέτα που θα επιλέξετε από τον πίνακα δυνατοτήτων.  
+- Εάν κάνετε κάποιο λάθος, όπως μια λάθος τοποθεσία, μπορείτε να μετακινήσετε το σημείο σας σε μια νέα τοποθεσία κρατώντας το αριστερό κουμπί του ποντικιού στο σημείο σας και σύροντάς το. Ή, εάν θέλετε να διαγράψετε το σημείο σας, κάντε κλικ στο αριστερό κουμπί του ποντικιού στο σημείο, ενεργοποιήστε το μενού περιβάλλοντος κάνοντας κλικ με το δεξί κουμπί του ποντικιού και στη συνέχεια, κάντε κλικ στο κουμπί που μοιάζει με κάδο απορριμμάτων.![PointToolDelete][]{: height="24px"}  
+Ένα "σημείο" που δημιουργείται στο πρόγραμμα επεξεργασίας iD είναι στην πραγματικότητα ένας αυτόνομος "κόμβος" με ένα σύνολο "ετικέτες" πάνω του.  
 
 ### Σχεδιάζοντας Γραμμές  
 
-To add a new line, click on the **Line** button. ![image4][]{: height="24px"}  
+Για να προσθέσετε μια νέα γραμμή, κάντε κλικ στο κουμπί **Γραμμή**.![image4][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Find a road that hasn’t been drawn on the map and trace it. Click once on a point where the road segment begins, move your mouse, and click to add additional points. Double-click to end the drawing process. Notice the panel on the left.  
+- Ο κέρσορας του ποντικιού σας θα αλλάξει σε σύμβολο συν (+). Βρείτε έναν δρόμο που δεν έχει σχεδιαστεί στον χάρτη και χαράξτε τον. Κάντε κλικ μία φορά σε ένα σημείο όπου ξεκινά το τμήμα του δρόμου, μετακινήστε το ποντίκι σας και κάντε κλικ για να προσθέσετε επιπλέον σημεία. Κάντε διπλό κλικ για να τερματίσετε τη διαδικασία σχεδίασης. Παρατηρήστε τον πίνακα στα αριστερά.  
 ![image24][]  
-- Just as with a point, select the appropriate tags for your line.  
-- You can drag points from the line by clicking your left mouse button on a point and dragging it.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
-- When you click your left mouse button on a line (but not on a point), you will see these tools:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+- Όπως και με ένα σημείο, επιλέξτε τις κατάλληλες ετικέτες για τη γραμμή σας.  
+- Μπορείτε να σύρετε σημεία από τη γραμμή κάνοντας κλικ στο αριστερό κουμπί του ποντικιού σας σε ένα σημείο και σύροντάς το.  
+- Όταν κάνετε κλικ στο αριστερό κουμπί του ποντικιού σε ένα μεμονωμένο σημείο (κόμβο) στη γραμμή και είτε κάνετε κλικ στο δεξί κουμπί του ποντικιού είτε πατάτε το πλήκτρο διαστήματος για να ενεργοποιήσετε το μενού περιβάλλοντος, θα δείτε αυτά τα εργαλεία:  
+  - Συνεχίστε τη γραμμή από αυτό το σημείο ![PointToolContinue][]{: height="24px"}  
+  - Αποσυνδέστε τις γραμμές σε αυτό το σημείο ![PointToolDisconnect][]{: height="24px"}  
+  - Διαχωρίστε μια γραμμή σε δύο γραμμές σε αυτό το σημείο. ![PointToolSplit][]{: height="24px"}  
+  - Διαγραφή σημείου από γραμμή. ![PointToolDelete][]{: height="24px"}  
+- Όταν κάνετε κλικ το αριστερό κουμπί του ποντικιού σας σε μια γραμμή (αλλά όχι σε ένα σημείο), θα δείτε αυτά τα εργαλεία:  
+  -  Δημιουργήστε έναν κύκλο από μια γραμμή (ενεργό μόνο εάν η γραμμή είναι κλειστή) ![LineToolCircularize][]{: height="24px"}  
+  -   Αποσύνδεση γραμμής από άλλα αντικείμενα ![LineToolDisconnect][]{: height="24px"}  
+  -   Μετακίνηση γραμμής ![LineToolMove][]{: height="24px"}  
+  -   Κάντε ορθές όλες τις γωνίες ![LineToolSquare][]{: height="24px"}  
+  -   Αντανακλάστε τη γραμμή κατά μήκος του μικρού άξονά της ![LineToolReflectShort][]{: height="24px"}  
+  -   Αντανακλάστε τη γραμμή κατά μήκος του μεγάλου άξονά της ![LineToolReflectLong][]{: height="24px"}  
+  -   Αντίστροφη κατεύθυνση γραμμής (χρήσιμο για ποτάμια και μονόδρομους) ![LineToolReverse][]{: height="24px"}  
+  -   Περιστρέψτε τη γραμμή γύρω από το κέντρο της ![LineToolRotate][]{: height="24px"}  
+  -   Ισιώστε τη γραμμή ![LineToolStraighten][]{: height="24px"}  
+  -   Διαγραφή γραμμής. ![LineToolDelete][]{: height="24px"}  
 
-A "line" created in the iD editor is actually a "way" with "tags" on it.
+Μια "γραμμή" που δημιουργείται στο πρόγραμμα επεξεργασίας iD είναι στην πραγματικότητα μια "διαδρομή" με "ετικέτες" πάνω της.
 
->A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first.
+>Μια ειδική σημείωση σχετικά με τη **Διαγραφή**: Σε γενικές γραμμές, θα πρέπει να αποφύγετε τη διαγραφή της χαρτογράφησης άλλων ατόμων εάν χρειάζεται απλώς βελτίωση. Μπορείτε να διαγράψετε τα δικά σας λάθη, αλλά θα πρέπει να προσπαθήσετε να *προσαρμόσετε* τα αντιστοιχισμένα αντικείμενα άλλων ατόμων εάν χρειάζονται αλλαγές. Αυτό διατηρεί το ιστορικό των στοιχείων στη βάση δεδομένων OSM και σέβεται τους συναδέλφους χαρτογράφους. Εάν πραγματικά πιστεύετε ότι κάτι πρέπει να διαγραφεί, εξετάστε το ενδεχόμενο να ρωτήσετε πρώτα τον αρχικό χαρτογράφο ή μια από τις λίστες email του OSM σχετικά με αυτό.
 
 ### Σχεδιάζοντας Σχήματα (Πολύγωνα)
 
-To add a new multi-sided shape, click on the **Area** button. ![image34][]{: height="24px"}  
+Για να προσθέσετε ένα νέο σχήμα πολλαπλών όψεων, κάντε κλικ στο κουμπί **Περιοχή**. ![image34][]{: height="24px"}  
 
-- Your mouse cursor will change into plus (+) sign. Try to trace a building using the imagery as a guide.  
-- You will notice that the color of your shape will change depending on the attributes that you assign to it.  
+- Ο κέρσορας του ποντικιού σας θα αλλάξει σε σύμβολο συν (+). Προσπαθήστε να εντοπίσετε ένα κτίριο χρησιμοποιώντας τις εικόνες ως οδηγό.  
+- Θα παρατηρήσετε ότι το χρώμα του σχήματός σας θα αλλάξει ανάλογα με τα χαρακτηριστικά που του αποδίδετε.  
 ![image35][]  
-- The tools that are available when you select a shape and activate the context menu with the right mouse button are similar to those when you click on a line.  
+- Τα εργαλεία που είναι διαθέσιμα όταν επιλέγετε ένα σχήμα και ενεργοποιείτε το μενού περιβάλλοντος με το δεξί κουμπί του ποντικιού είναι παρόμοια με εκείνα που εμφανίζονται όταν κάνετε κλικ σε μια γραμμή.  
 
-A "polygon" in the iD editor is actually a "closed way" with tags on it.
+Ένα "πολύγωνο" στο πρόγραμμα επεξεργασίας iD είναι στην πραγματικότητα μια "κλειστή διαδρομή" με ετικέτες σε αυτό.
 
 ### Σχεδιάζοντας Πολυπολύγωνα
 
-Sometimes you have to draw a polygon which does not only have an outer contour but also one or more inner contours. Just think of buildings with inner courtyards or lakes with islands. *Do not draw all these ways in one line* so that the inner contours suspend from the outer contour. Rather draw these contours separate, attach tags to the outer contour only, select all contours and hit **c** in order to combine them into what is called a multipolygon.
+Μερικές φορές πρέπει να σχεδιάσετε ένα πολύγωνο που δεν έχει μόνο εξωτερικό περίγραμμα αλλά και ένα ή περισσότερα εσωτερικά περιγράμματα. Απλά σκεφτείτε κτίρια με εσωτερικές αυλές ή λίμνες με νησιά. *Μην σχεδιάζετε όλες αυτές τις διαδρομές σε μια γραμμή* έτσι ώστε τα εσωτερικά περιγράμματα να αιωρούνται από το εξωτερικό περίγραμμα. Σχεδιάστε αυτά τα περιγράμματα ξεχωριστά, επισυνάψτε ετικέτες μόνο στο εξωτερικό περίγραμμα, επιλέξτε όλα τα περιγράμματα και πατήστε **c** για να τα συνδυάσετε σε αυτό που ονομάζεται πολυπολύγωνο.
 
 ![create multipolygon][]
 
-When you select any of the contours of the newly created multipolygon you can see on the left to which multipolygons it belongs
+Όταν επιλέγετε οποιοδήποτε από τα περιγράμματα του νεοδημιουργημένου πολυ-ολυγώνου μπορείτε να δείτε στα αριστερά σε ποια πολυπολύγωνα ανήκει
 
 ![part of multipolygon][]
 
 ## Ζητήματα
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+Ο επεξεργαστής εκτελεί έναν αριθμό ελέγχων αμέσως μόλις επεξεργαστείτε κάτι. Εάν πιστεύει ότι αυτό που κάνατε μπορεί να προκαλέσει προβλήματα, σας ειδοποιεί στην καρτέλα ζητημάτων. Κάθε φορά που το εικονίδιο ζητημάτων στα δεξιά φέρει είτε κίτρινη (για προειδοποιήσεις) είτε κόκκινη (για σφάλματα) κουκκίδα, θα πρέπει να ανοίξετε την καρτέλα και να δείτε τι αναφέρει. Αυτές οι πληροφορίες εμφανίζονται επίσης στην καρτέλα χαρακτηριστικών αντικειμένων στα αριστερά, εάν έχει επιλεγεί το σχετικό αντικείμενο. Επίσης, λαμβάνετε προειδοποίηση ότι υπάρχουν ανεπίλυτα ζητήματα κατά τη μεταφόρτωση των δεδομένων σας. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+Το κάτω μέρος της καρτέλας ζητήματα εμφανίζει τους διαθέσιμους κανόνες και σας επιτρέπει να τους απενεργοποιήσετε μεμονωμένα, αν και αυτό δεν συνιστάται.
 
 Αποθήκευση των αλλαγών σας
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+Όταν (και εάν) θέλετε να αποθηκεύσετε τις αλλαγές σας στο OpenStreetMap, κάντε κλικ στο κουμπί **Αποθήκευση**. Το πλαίσιο στα αριστερά θα εμφανίσει το πλαίσιο μεταφόρτωσης.  
 ![image36][]  
 
-- Enter a comment about your edits and click **Save**.  
+- Πληκτρολογήστε ένα σχόλιο σχετικά με τις αλλαγές σας και κάντε κλικ στο **Αποθήκευση**.  
 
-> If you have edited the same feature (point, way or area) at the same time as another person was editing it, you will receive a warning that your edits cannot be uploaded until you have resolved the **conflicts** - choose whose edits to accept & upload your changes. *Resolving conflicts often involves accepting the other persons edits, in which case you will probably wish to return to the feature in question and edit again (**this time save soon after the edit to try to avoid a conflict again!**).*
+> Εάν έχετε επεξεργαστεί την ίδια δυνατότητα (σημείο, διαδρομή ή περιοχή) την ίδια στιγμή που την επεξεργαζόταν ένα άλλο άτομο, θα λάβετε μια προειδοποίηση ότι οι αλλαγές σας δεν μπορούν να μεταφορτωθούν μέχρι να επιλύσετε τις **διένεξες** - επιλέξτε ποιανού τροποποιήσεις είναι αποδεκτές και μεταφορτώστε τις αλλαγές σας. *Η επίλυση διενέξεων συχνά περιλαμβάνει την αποδοχή των επεξεργασιών άλλων ατόμων, οπότε πιθανότατα θα θέλετε να επιστρέψετε στην εν λόγω δυνατότητα και να την επεξεργαστείτε ξανά (**αυτή τη φορά αποθηκεύστε αμέσως μετά την επεξεργασία για να προσπαθήσετε να αποφύγετε ξανά μια διένεξη!**). *
 
 Πρόσθετες Πληροφορίες και Προσαρμοσμένες Ετικέτες
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Όταν επεξεργάζεστε ένα αντικείμενο, θα δείτε ένα μενού "Προσθήκη πεδίου" στο κάτω μέρος του πίνακα χαρακτηριστικών. Μπορείτε να προσθέσετε διάφορες πρόσθετες πληροφορίες επιλέγοντας μία από τις καταχωρήσεις (επίπεδο, υψόμετρο, wikipedia κ.λπ.).  
 
 ![AdditionalTags][]
 
@@ -180,17 +180,17 @@ When you are editing an object, you will see an "Add field" menu at the bottom o
 
 **Το iD είναι καλό για...**
 
-- When you are doing simple edits  
-- When you have fast Internet to load the imagery and save the edits  
-- When you want to be sure to follow a consistent and simple tagging scheme  
-- When you are restricted from installing a program on the computer you are using
+- Όταν κάνετε απλές επεξεργασίες  
+- Όταν έχετε γρήγορο Internet για να φορτώσετε τις εικόνες και να αποθηκεύσετε τις επεξεργασίες  
+- Όταν θέλετε να είστε βέβαιοι ότι ακολουθείτε ένα συνεπές και απλό σχέδιο προσθήκης ετικετών  
+- Όταν σας απαγορεύεται η εγκατάσταση ενός προγράμματος στον υπολογιστή που χρησιμοποιείτε
 
 **Το JOSM είναι καλύτερο...**
 
-- When you are adding many buildings (See buildings_tool plugin)
-- When you are editing many polygons or lines that already exist
-- When you are on an unreliable Internet connection or offline
-- When you are using a specific tagging scheme (or custom presets)
+- Όταν προσθέτετε πολλά κτίρια (Δείτε την προσθήκη buildings_tool)
+- Όταν επεξεργάζεστε πολλά πολύγωνα ή γραμμές που υπάρχουν ήδη
+- Όταν βρίσκεστε σε αναξιόπιστη σύνδεση στο Διαδίκτυο ή εκτός σύνδεσης
+- Όταν χρησιμοποιείτε ένα συγκεκριμένο σχήμα ετικετών (ή προσαρμοσμένες προεπιλογές)
 
 [^fieldpaper]: Υπάρχει ένα [τμήμα του LearnOSM](/el/mobile-mapping/field-papers/) που παρέχει περισσότερες πληροφορίες σχετικά με τα Field Papers.
 
