@@ -130,89 +130,89 @@ tiene que resolver diferencias en la lista de
 [vías](http://josm.openstreetmap.de/wiki/Help/Concepts/Object). Allí
 son tres columnas en el panel respectivo (véase la captura de pantalla siguiente):
 
-1.  the leftmost table displays the list of nodes of the the local
+1. la tabla de la izquierda muestra la lista de nodos del local
     versión de objeto
-2.  the rightmost table displays the list of nodes of the the server
+2. la tabla de la derecha muestra la lista de nodos del servidor
     versión de objeto
-3.  the table in the middle shows the list of nodes of the merged ways
+3. la tabla del centro muestra la lista de nodos de las vías fusionadas
 
-Initially, the middle table is empty. You should now decide which nodes
-to keep from the local dataset (the leftmost table) and which from the
-server dataset (the rightmost table).
+Inicialmente, la tabla central está vacía. Ahora debe decidir qué nodos
+para mantener del conjunto de datos local (la tabla más a la izquierda) y cuál del
+conjunto de datos del servidor (la tabla más a la derecha).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
 ### El flujo de trabajo estándar
 
-The standard workflow to resolve conflicts in the node lists of two
+El flujo de trabajo estándar para resolver conflictos en las listas de nodos de dos
 [objeto
 versiones](http://josm.openstreetmap.de/wiki/Help/Concepts/Object)consiste
 de tres pasos:
 
-1.  Pick nodes from either object version and reorder the resulting node
+1. Elige los nodos de cualquiera de las dos versiones del objeto y reordena el nodo resultante
     listar si es necesario
-2.  Freezethe resulting merged node list by clicking on the button
-    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). When you freeze the merged node list you
-    tell JOSM that all conflicts in the node list are resolved.
+2. Congele la lista de nodos fusionados resultante haciendo clic en el botón
+    ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png). Cuando se congela la lista de nodos fusionados se
+    indica a JOSM que todos los conflictos de la lista de nodos están resueltos.
 3. Aplicar la resolución
 
-### A simple workflow: Keep the node list from your local object version
+### Un flujo de trabajo simple: Mantenga la lista de nodos de su versión local del objeto
 
-The following example shows the workflow when you decide to keep all nodes in the same order from your local object version.
+El siguiente ejemplo muestra el flujo de trabajo cuando se decide mantener todos los nodos en el mismo orden de la versión local del objeto.
 
--   First, select all elements in the leftmost table (either using the mouse or by 
-    pressing Ctrl-A in the table) (see next screen shot):
+- En primer lugar, seleccione todos los elementos de la tabla de la izquierda (con el ratón o 
+    pulsando Ctrl-A en la tabla) (véase la siguiente captura de pantalla):
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image04.png)
 
 - Luego, clic 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image19.png)
-    to copy the selected nodes to the middle table with the merged nodes:
+    para copiar los nodos seleccionados en la tabla central con los nodos fusionados:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image01.png)
 
 - Finalmente, clic
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image16.png)
-    to freeze the resulting merged node list:
+    para congelar la lista de nodos fusionados resultante:
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image20.png)
 
-    The symbol in the nodes tab now switched to 
+    El símbolo en la pestaña de nodos ahora cambió a 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image00.png)
     y puede aplicar las decisiones de fusión.
 
-### Support for comparing node lists
+### Soporte para comparar listas de nodos
 
-It can be difficult to find the differences between the node list of of two object versions, in particular for ways with many nodes.
+Puede ser difícil encontrar las diferencias entre la lista de nodos de dos versiones de objetos, en particular para las vías con muchos nodos.
 
-The Conflict Dialog supports you in finding the differences. It can compare two of the node lists displayed ("my" node list, the merged node list, and "their" node list) and it can render the differences between them with specific background colors.
+El Diálogo de Conflicto le ayuda a encontrar las diferencias. Puede comparar dos de las listas de nodos mostradas ("mi" lista de nodos, la lista de nodos fusionados y "su" lista de nodos) y puede representar las diferencias entre ellas con colores de fondo específicos.
 
-From the following combo box you can select which pair of node lists to compare:
+En el siguiente cuadro combinado puede seleccionar qué par de listas de nodos desea comparar:
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image15.png)
 
-1.  My with Their: compares the leftmost table with the rightmost table
+1. Mi con Su de ellos: compara la tabla más a la izquierda con la tabla más a la derecha
     en el Diálogo de Conflicto
-2.  My with Merged: compares the leftmost table with the middle table in
+2. Mi con Fusionado: compara la tabla más a la izquierda con la tabla del medio en
     el Diálogo de Conflicto
-3.  Their with Merge: compares the middle table with the rightmost table
+3. Su de ellos con Fusionar: compara la tabla del medio con la tabla de la derecha
     en el Diálogo de Conflicto
 
-Depending on the position of a node in the list different background
+Dependiendo de la posición de un nodo en la lista, diferentes fondos
 colores son usados:
 
-1.  The node is in this list only. It isn't present in the opposite list:
+1. El nodo sólo está en esta lista. No está presente en la lista opuesta:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image13.png)
-2.  The node is in both lists, but it is on different positions:
+2. El nodo está en ambas listas, pero en posiciones diferentes:
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image02.png)
-3.  White background means that a node is in both lists at the same
+3. El fondo blanco significa que un nodo está en ambas listas al mismo tiempo
     posición.
 
     ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image17.png)
 
 -->
 
-[conflict detected]: /images/josm/conflict-detected.png
+[conflicto detectado]: /images/josm/conflict-detected.png
 [resolved automatically]: /images/josm/resolved-automatically.png
 [warning unresolved]: /images/josm/warning-unresolved.png
 [check on server]: /images/josm/check-on-server.png
