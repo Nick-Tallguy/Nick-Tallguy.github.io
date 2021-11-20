@@ -75,7 +75,7 @@ In this example polygons are mostly islands, forest and buildings. Initially the
 
 ![symbology][]
 
-First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
+ابتدا با استفاده از جعبه ترکیبی در بالای فرم، نوع نماد را از "Single symbol" به "Rule based" تغییر دهید. 
 
 ![symbology rule based][]
 
