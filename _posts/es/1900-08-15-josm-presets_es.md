@@ -40,7 +40,7 @@ Los archivos de preajustes pueden añadirse desde un archivo en línea o guardar
 
 ![ejemplo predefinidos][]
 
-* You will see a new item appear in the list on the right.  
+* Verás aparecer un nuevo elemento en la lista de la derecha.   
 * Clic Aceptar.  
 * Necesitará reiniciar JOSM.  
 * Crear una nueva capa y añadir un punto o forma.  

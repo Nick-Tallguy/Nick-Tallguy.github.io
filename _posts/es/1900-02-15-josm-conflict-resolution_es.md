@@ -213,8 +213,8 @@ colores son usados:
 -->
 
 [conflicto detectado]: /images/josm/conflict-detected.png
-[resolved automatically]: /images/josm/resolved-automatically.png
-[warning unresolved]: /images/josm/warning-unresolved.png
+[resuelto automáticamente]: /images/josm/resolved-automatically.png
+[aviso de no resuelto]: /images/josm/warning-unresolved.png
 [check on server]: /images/josm/check-on-server.png
 [aún en uso]: /images/josm/still-in-use.png
 [sincronizar nodo]: /images/josm/synchronize-node.png
