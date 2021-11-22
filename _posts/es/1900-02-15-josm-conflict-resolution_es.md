@@ -215,7 +215,7 @@ colores son usados:
 [conflicto detectado]: /images/josm/conflict-detected.png
 [resuelto automáticamente]: /images/josm/resolved-automatically.png
 [aviso de no resuelto]: /images/josm/warning-unresolved.png
-[check on server]: /images/josm/check-on-server.png
+[revisar en el servidor]: /images/josm/check-on-server.png
 [aún en uso]: /images/josm/still-in-use.png
 [sincronizar nodo]: /images/josm/synchronize-node.png
 [propiedades con conflictos]: /images/josm/properties-with-conflicts.png
@@ -223,4 +223,4 @@ colores son usados:
 [sincronizar nodo]: /images/josm/synchronize-node.png
 [pila de comando]: /images/josm/command-stack.png
 [uno sin resolver]: /images/josm/one-unresolved.png
-[edit outside area]: /images/josm/edit-outside-area.png
+[edición fuera del área]: /images/josm/edit-outside-area.png
