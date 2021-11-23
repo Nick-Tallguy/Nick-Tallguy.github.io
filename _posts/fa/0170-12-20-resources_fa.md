@@ -2,9 +2,9 @@
 layout: doc-rtl
 title: سایر منابع
 permalink: /fa/resources/
-زبان: en
+lang: fa
 cover: yes
-طبقه بندی: منابع
+category: resources
 ---
 
 # سایر منابع

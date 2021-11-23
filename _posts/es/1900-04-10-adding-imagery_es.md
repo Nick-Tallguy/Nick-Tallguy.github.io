@@ -1,6 +1,6 @@
 ---
 layout: doc
-título: JOSM añadiendo imágenes tms, wms o wmts
+title: JOSM añadiendo imágenes tms, wms o wmts
 permalink: /es/josm/josm-adding-imagery/
 lang: es
 category: josm
@@ -30,7 +30,7 @@ Haga clic en el icono ![WMS_TMS_button][]{: height="24px"}, y en este caso en el
 ![Preferences WMS TMS 3][]
 
 **Casilla 1.** Pega la información que has copiado de la pestaña de información del Administrador de Tareas en el primer cuadro de la ventana. JOSM la verificará, y si es correcta el proceso de verificación repetirá la información en la casilla 3 (ver más abajo). Si no aparece en el recuadro 3 en unos segundos, compruebe que no ha omitido accidentalmente letras, o que no ha añadido accidentalmente "espacios en blanco" al principio o al final - sólo hay que copiar y pegar el enlace real.  
-**Casilla 2. Normalmente se deja en blanco, a menos que haya recibido otras instrucciones.  
+**Casilla 2.** Normalmente se deja en blanco, a menos que haya recibido otras instrucciones.  
 **Casilla 3.** contiene ahora una copia duplicada de la casilla 1, generada por el proceso de verificación dentro de JOSM.  
 **Casilla 4.** Introduzca un nombre para la capa - como mis imágenes fueron identificadas en el Administrador de Tareas como "Las imágenes de satélite para este proyecto son amablemente proporcionadas por Digital Globe a través de su servicio +Vivid". He llamado a mi capa "Digital Globe + Vivid".  
 
@@ -61,7 +61,7 @@ El cuadro de diálogo resultante será como el siguiente:
 **Casilla 1.** Introduzca la URL del servidor WMS en este campo. Debe ser una URL típica que empiece por http o https  
 **Botón 2.** Después de introducir la URL haga clic en el botón "Obtener Capas". JOSM se pondrá en contacto con el servidor WMS y obtendrá una lista de capas disponibles en ese servidor  
 **Casilla 3.** Aquí es donde se mostrará la lista de capas disponibles. Puede haber carpetas que deban expandirse para ver las capas disponibles  
-**Menú desplegable 4.** Formato de la imagen - normalmente se seleccionará automáticamente después de hacer clic en una de las capas de la casilla 3**, puede ofrecer más de un tipo de formato de imagen, pero generalmente el formato es jpeg o png.  
+**Menú desplegable 4.** Formato de la imagen - normalmente se seleccionará automáticamente después de hacer clic en una de las capas de la **casilla 3**, puede ofrecer más de un tipo de formato de imagen, pero generalmente el formato es jpeg o png.  
 **Casilla 5.** Se genera automáticamente después de seleccionar una capa en la casilla 3. Será largo y complicado, por lo general está bien y es más informativo y normalmente no debe ser editado.  
 **Casilla 6.** Introduzca un nombre para el servidor o la capa. Se rellenará un nombre por defecto basado en la URL, pero puede introducir un nombre más significativo. Este es el nombre que aparecerá en el menú de JOSM Imágenes cuando quiera añadir la capa a su panel de capas en la interfaz normal de JOSM.  
 

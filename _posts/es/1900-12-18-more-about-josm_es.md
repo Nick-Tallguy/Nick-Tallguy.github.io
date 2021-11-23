@@ -76,7 +76,7 @@ Dependiendo del área que elija descargar, puede haber muchos o muy pocos datos 
 
 - Use las técnicas que ya ha aprendido para agregar un par de puntos al mapa de lugares que conoce. Si ve algún error, intente corregirlo. 
 - No es necesario ser demasiado agresivo mientras aprende. Si no está seguro de algo, es mejor dejarlo como está. 
-- Si desea mover un punto, línea o forma, use la ** herramienta de selección **. Haga clic en un objeto y arrástrelo donde debería estar. Esto se puede utilizar para corregir la ubicación de los elementos que se han colocado en el lugar incorrecto. 
+- Si desea mover un punto, línea o forma, use la **herramienta de selección**. Haga clic en un objeto y arrástrelo donde debería estar. Esto se puede utilizar para corregir la ubicación de los elementos que se han colocado en el lugar incorrecto. 
 
 ![JOSM select tool][]
 

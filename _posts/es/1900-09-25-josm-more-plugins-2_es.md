@@ -148,22 +148,22 @@ Asegúres de comprobar cuidadosamente los datos que tiene en su hoja de cálculo
 Cuando haya actualizado la información de una línea de la hoja de cálculo, utilice el botón **Marcar** del complemento ToDo para pasar al siguiente elemento - puede que tenga que descargar más datos de OSM si el siguiente elemento está fuera del área ya descargada. 
 
 
-[Datos abiertos]: /images/josm/opendata-plugin.png
-[Preferencias de datos abiertos]: /images/josm/opendata-preferences.png
-[Módulos datos abiertos]: /images/josm/opendata-modules.png
-[latitud longitud]: /images/josm/opendata-latitude-longitude.png
-[latitud longitud corregida]: /images/josm/opendata-latitude-longitude-corrected.png
-[datosabiertos 1]: /images/josm/opendata-1.png
-[datosabiertos mezclado]: /images/josm/opendata-mixed.png
-[datosabiertos tienda amenity]: /images/josm/opendata-shop-amenity.png
-[datosabiertos baños]: /images/josm/opendata-toilets.png
-[josm abrir]: /images/josm/josm_open-file.png
-[datosabiertos emergente]: /images/josm/opendata-wgs84-popup.png
-[datosabiertos hoja de cálculo cargada]: /images/josm/opendata-spreadsheet-loaded.png
-[5 seleccionada]: /images/josm/opendata-5-selected.png
-[datosabiertos todo añadir]: /images/josm/opendata-todo-add.png
-[datosabiertos todo cargado]: /images/josm/opendata-todo-loaded.png
-[descargar]: /images/josm/josm-download-button.png
-[diálogo de descarga]: /images/josm/josm_download-dialog.png
-[descargar nueva capa]: /images/josm/download-as-new-layer.png
+[Opendata]: /images/josm/opendata-plugin.png
+[Opendata preferences]: /images/josm/opendata-preferences.png
+[Opendata modules]: /images/josm/opendata-modules.png
+[latitude longitude]: /images/josm/opendata-latitude-longitude.png
+[latitude longitude corrected]: /images/josm/opendata-latitude-longitude-corrected.png
+[opendata 1]: /images/josm/opendata-1.png
+[opendata mixed]: /images/josm/opendata-mixed.png
+[opendata shop amenity]: /images/josm/opendata-shop-amenity.png
+[opendata toilets]: /images/josm/opendata-toilets.png
+[josm open]: /images/josm/josm_open-file.png
+[opendata pop up]: /images/josm/opendata-wgs84-popup.png
+[opendata spreadsheet loaded]: /images/josm/opendata-spreadsheet-loaded.png
+[5 selected]: /images/josm/opendata-5-selected.png
+[opendata todo add]: /images/josm/opendata-todo-add.png
+[opendata todo loaded]: /images/josm/opendata-todo-loaded.png
+[download]: /images/josm/josm-download-button.png
+[download dialog]: /images/josm/josm_download-dialog.png
+[download new layer]: /images/josm/download-as-new-layer.png
 
