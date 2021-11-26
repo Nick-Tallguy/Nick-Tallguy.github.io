@@ -48,30 +48,30 @@ Las mejores referencias para ajustar las imágenes son las trazas de GPS que sig
 
 ![Adjust imagery offset][]
 
-- If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
-- If you do not want to save the offset, simply click OK without entering a bookmark name.  
+- Si lo desea, puede guardar estos ajustes de desplazamiento introduciendo un nombre de marcador y haciendo clic en Aceptar. Luego puede aplicar automáticamente los mismos ajustes más tarde yendo a Imágenes ‣ Desplazamiento de imágenes y haciendo clic en su marcador.  
+- Si no desea guardar el desplazamiento, simplemente haga clic en Aceptar sin introducir un nombre de marcador.  
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+¿Qué pasa si no hay trazas de GPS en OpenStreetMap y no tienes un GPS? Sin trazas de GPS, es difícil alinear las imágenes. Si se trata de una zona relativamente vacía (no se ha hecho mucha cartografía), se puede optar por utilizar las imágenes tal cual y corregir los datos más tarde. Es mejor tener un mapa de un área con 20 o 30 metros de desviación que no tener ningún mapa.  
 
-If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
+Si puede identificar positivamente la latitud y la longitud de un objeto sobre el terreno, puede asegurarse de que las imágenes están correctamente situadas siguiendo estos pasos:  
 
-1. Identify the object whose position you know on the imagery.  
-2. Click on the latitude and longitude in the bottom left corner of JOSM.![JOSM lat lon][]{: height="24px"}  
-3. In the dialog that opens, enter the latitude and longitude of the place that you know, and enter a small number for Zoom, about five or ten.  
+1. Identifica el objeto cuya posición conoces en la imagen.  
+2. Haga clic en la latitud y la longitud en la esquina inferior izquierda de JOSM.![JOSM lat lon][]{: height="24px"  
+3. En el cuadro de diálogo que se abre, introduzca la latitud y la longitud del lugar que conozca, e introduzca un número pequeño para el Acercamiento, unos cinco o diez.  
 ![JOSM lat lon dialogue][]
-4. This will zoom and center the map to your longitude and latitude.  Now you can move the imagery as you did previously so that the feature you know is centered at the correct position.  
+4. Esto ampliará y centrará el mapa a su longitud y latitud. Ahora puede mover las imágenes como lo hizo anteriormente para que el objeto espacial que conoce esté centrado en la posición correcta.  
 
-If, on the other hand, the area has already been extensively mapped, then hopefully the previous mappers have drawn objects in their correct locations.  In this case, you can align the imagery to the OSM map, but beware!  Other mappers may not be aware of imagery offset, and they may have made mistakes when they mapped.  
+Si, por el contrario, la zona ya ha sido ampliamente cartografiada, es de esperar que los anteriores cartógrafos hayan dibujado los objetos en su ubicación correcta. En este caso, puedes alinear las imágenes con el mapa OSM, pero ten cuidado. Es posible que otros cartógrafos no conozcan el desplazamiento de las imágenes y que hayan cometido errores al cartografiar.  
 
 
 La Base de Datos de Desplazamiento de Imágenes
 ---------------------------
 
-Now you know how to watch out for and correct imagery offset, but there is one major problem with this approach that we have overlooked thus far.  If every OpenStreetMap user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.  
+Ahora ya sabes cómo vigilar y corregir el desplazamiento de las imágenes, pero hay un problema importante con este enfoque que hemos pasado por alto hasta ahora. Si cada usuario de OpenStreetMap ajusta las imágenes de forma diferente, todo el mundo estará mapeando con fondos ligeramente diferentes.  
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is offset by 15 meters to the north. So you adjust the imagery and then use it to map the whole town accurately. But then somebody else wants to add something to the map, so they download the data and load Bing imagery, but they don’t know about the imagery offset you discovered!  They will think that something is wrong and all of the objects in town are misplaced by 15 meters, and they will start to move them, which is not correct!  This can be disastrous for the town’s map data.  
+Imagine que está cartografiando una pequeña ciudad y se da cuenta de que las imágenes de Bing están desplazadas 15 metros hacia el norte. Así que ajustaslas imágenes y las utilizas para cartografiar toda la ciudad con precisión. Pero entonces otra persona quiere añadir algo al mapa, así que descarga los datos y carga las imágenes de Bing, pero no conoce el desplazamiento de las imágenes que ha descubierto. Pensarán que algo está mal y que todos los objetos de la ciudad están mal colocados por 15 metros, y empezarán a moverlos, lo que no es correcto. Esto puede ser desastroso para los datos cartográficos de la ciudad.  
 
-For this reason it is important that all users are aware of imagery offset, and should always check for it before mapping an area.  To help with this problem, some smart people created a plugin that allows users to save offset information in a database and share it with others.  Let’s see how this works:  
+Por esta razón, es importante que todos los usuarios conozcan el desplazamiento de las imágenes y que lo comprueben siempre antes de cartografiar una zona. Para ayudar con este problema, algunas personas inteligentes crearon un complemento que permite a los usuarios guardar la información de desplazamiento en una base de datos y compartirla con otros. Veamos cómo funciona:  
 
 - Abra el menú de Preferencias en JOSM, y haga clic en la pestaña Complementos.![Pestaña de complementos de JOSM][]{: height="24px"}  
 
@@ -89,12 +89,12 @@ Cuando utilice capas de imágenes aéreas, debería comprobar SIEMPRE si existen
 Agregar Desplazamiento de Imágenes de la Base de Datos
 ------------------------------------
 
-When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
+Cuando añada una capa de imágenes, el nuevo complemento le avisará de que debe comprobar la base de datos de imágenes en busca de un desplazamiento existente. Verás un icono con un signo de exclamación rojo en la parte superior de JOSM, así:  
 
 ![Imagery offset notification][]
 
-- Click on the button and the plugin will communicate with the database to see if there are existing offsets in this area.  
-- Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia. In this case, we have found one existing offset. Click on it to apply to the map.  
+- Haga clic en el botón y el complemento se comunicará con la base de datos para ver si existen desplazamientos en esta zona.  
+- Aquí hemos descargado los datos de OSM y las trazas de GPS en Kuta, Bali, Indonesia. En este caso, hemos encontrado un desplazamiento existente. Haga clic en él para aplicarlo al mapa.  
 
 ![Offset in Kuta bali][]
 

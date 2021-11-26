@@ -89,11 +89,11 @@ Resumen
 [Instalar OruxMaps]: /images/mobile-mapping/oruxmaps_image03.png
 [Ejecutar OruxMaps por primera vez]: /images/mobile-mapping/oruxmaps_image01.png
 [Vista general del interfaz]: /images/mobile-mapping/oruxmaps_image09.png
-[Offline maps storage settings]: /images/mobile-mapping/oruxmaps_image06.png
+[Configuración de almacenamiento de mapas sin conexión]: /images/mobile-mapping/oruxmaps_image06.png
 [Ajustes de registro de traza]: /images/mobile-mapping/oruxmaps_image11.png
 [Iniciar grabación de traza]: /images/mobile-mapping/oruxmaps_image02.png
 [Gestión de registro de traza]: /images/mobile-mapping/oruxmaps_image10.png
-[Uploading tracks to OpenStreetMap]: /images/mobile-mapping/oruxmaps_image05.png
-[Creating a waypoint]: /images/mobile-mapping/oruxmaps_image07.png
-[Waypoint creation settings]: /images/mobile-mapping/oruxmaps_image08.png
-[Managing save waypoints]: /images/mobile-mapping/oruxmaps_image04.png
+[Cargar pistas en OpenStreetMap]: /images/mobile-mapping/oruxmaps_image05.png
+[Crear un punto de vía]: /images/mobile-mapping/oruxmaps_image07.png
+[Ajustes de creación de punto de vía]: /images/mobile-mapping/oruxmaps_image08.png
+[Administrar guardar puntos de vía]: /images/mobile-mapping/oruxmaps_image04.png

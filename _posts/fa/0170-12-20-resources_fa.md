@@ -1,7 +1,7 @@
 ---
 layout: doc-rtl
 title: سایر منابع
-permalink: /fa/resources/
+پیوند ثابت: /fa/resources/
 lang: fa
 cover: yes
 دسته: منابع

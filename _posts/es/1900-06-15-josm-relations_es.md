@@ -109,8 +109,8 @@ Las relaciones pueden ser difíciles de entender y no es necesario utilizarlas a
 [New mp object]: /images/josm/new-mp.png
 [Multipolígono en mapnik]: /images/josm/multipolygon-mapnik.png
 [Un ejemplo de un multipolígono]: /images/josm/multipolygon-demo.png
-[New route relation]: /images/josm/new-route-relation.png
-[Route relation]: /images/josm/route-relation.png
-[Public transport preset]: /images/josm/public-transport-preset.png
-[Bus route relation]: /images/josm/bus-route-relation.png
-[relation panel button]: /images/josm/relation-panel-button.png
+[Nueva relación de ruta]: /images/josm/new-route-relation.png
+[Relación de ruta]: /images/josm/route-relation.png
+[Preselección del transporte público]: /images/josm/public-transport-preset.png
+[Relación de rutas de autobús]: /images/josm/bus-route-relation.png
+[botón del panel de relación]: /images/josm/relation-panel-button.png
