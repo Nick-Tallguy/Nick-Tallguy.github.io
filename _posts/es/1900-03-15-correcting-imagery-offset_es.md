@@ -138,7 +138,7 @@ Alguien mapeó esta zona con imágenes mal alineadas, por lo que la zona no est�
 Sitio web de la Base de Datos de Desplazamiento de Imágenes
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+Por último, para obtener más información sobre la base de datos de desplazamientos, puede visitar el sitio web en [http://offsets.textual.ru/](http://offsets.textual.ru/). En ella se enumeran todas los desplazamientos que se han cargado en la base de datos, y también cuenta con un interesante mapa que visualiza la ubicación de los desplazamientos, como puede verse aquí:  
 
 ![http://offsets.textual.ru/][]
 
