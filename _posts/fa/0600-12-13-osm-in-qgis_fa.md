@@ -16,7 +16,7 @@ In this chapter we'll walk through the steps necessary to do this. We assume tha
 
 We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
 
-Obtaining Data from the Database
+دریافت اطلاعات از پایگاه داده
 ---------------------------
 
 The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
