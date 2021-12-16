@@ -26,7 +26,7 @@ HOT 主要的反應活動大都在遠端進行。災難發生後，HOT 的成員
 
 [HOT 任務分配管理器](http://tasks.hotosm.org/)是開源的工具，用來設計分割不同的畫地圖任務，變成可以快速完成的小的任務。這套工具裡可以看到那些地方需要繪製，那些地方需要由其他人驗證。包括需要[啟動](http://wiki.openstreetmap.org/wiki/HOT_activation)的畫地圖任務，還有長期的[人道專案](http://hot.openstreetmap.org/projects)。  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](/en/coordination/tm-user/).  
+要使用 HOT 任務分配管理器，你必須先註冊開放街圖，選好帳號名稱與設定密碼。 [任務分配管理器教學](/zh_TW/coordination/tm-user/)來閱讀更詳盡的說明。  
 
 
 ### 編輯工具 
@@ -60,10 +60,10 @@ In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (
 
 [MapGive 學習畫地圖教學](http://mapgive.state.gov/learn-to-map/)- 包括可以暫停播放的影片，以跟上學習腳步  
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer. Attention: the given information is outdated, but still useful. 
+[Hot 快速入門指南](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - 由 HOT 遠端反應志工彼得‧理察生 (@meetar) 撰寫。注意：裡面的資訊過時，但仍有參考價值。 
 
 #### 關於 HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
+[HOT Wiki 頁面](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - 進一步瞭解 HOT 的運作方式，以及 HOT 最新消息。  
 
-[HOT Activities](https://www.hotosm.org/what-we-do) - describes HOT activities in more detail from their website  
+[HOT 活動](https://www.hotosm.org/what-we-do) - HOT 網站上詳細描述他們的各式各樣的活動  
