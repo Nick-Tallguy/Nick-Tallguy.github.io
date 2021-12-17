@@ -52,84 +52,84 @@ OSMTracker를 실행하고, 메뉴 아이콘을 선택한 후 **설정**으로 �
 
 > 최신 안드로이드 스마트폰 대부분은 외부 마이크로 SD 또는 SD 카드에 데이터를 저장할 수 없습니다. 여기서 말하는 '외부 저장소'는 실제로는 **/storage/emulated/0/osmtracker**입니다.  
 
--  **One directory per track** Recommended as this will result in all of the related voice recordings, photographs, text notes and the gpx trace all being stored in the same folder, named with the date and time of the gpx file creation.  
--  **Filename for named tracks** Options for you to choose from if you have a preference for the naming of the files.  
--  **Accuracy in GPX file** Recommended - will result in the waypoint name including a figure approximating the possible error range in metres. For instance *Footpath (4.0m)*. This information can be extremely useful later when updating OSM, and deciding whether to move an existing feature to align with the new trace & waypoints.  
--  **Use HDOP approximation** Relates to additional calculations to improve the position accuracy (Horizontal Dilution of Precision).  
--  **Export Compass Heading** Defines if and how the compass data should be exported to the GPX file.  
--  **Default photo source** Generally you will take photo's with the camera through this app., but you can chose to use photo's already on the phone.  
--  **Screen always on** Select this if you are constantly clicking on buttons, taking photo's, or making voice recordings - if you're not, then leave it blank so you have to switch the screen on each time, which uses less battery.  
--  **Main screen graphic theme** Options to change the contrast & screen brightness if you are having problems viewing the buttons.  
--  **Button Presets** You can design & install your own set of buttons & choose to have them displayed using this option. For a full description of this function, [see below](/en/mobile-mapping/osmtracker/#button-presets).   
--  **Background map** By pressing and holding on a recorded track, if this feature is selected, you may display the track, and the app will download OpenStreetMap data as a background.  
+- **단일 디렉토리에 한 개의 궤적만 저장** - 이 옵션을 활성화하면 모든 음성 녹음, 사진, 메모 및 GPX 궤적이 GPX 파일 생성 날짜와 시간을 이름으로 갖는 폴더 하나에 모두 저장됩니다.  
+-  **궤적 파일 이름** 파일에 이름을 붙이는 방식을 선택할 수 있습니다.  
+- **GPX 파일에 정확도 부여** 권장 사항 - 중간점의 오차 범위(미터)를 이름에 덧붙입니다. 예를 들어 *오솔길 (4.0m)*와 같이 표시됩니다. 이 정보는 나중에 오픈스트리트맵을 업데이트할 때 기존 지물의 위치를 새로운 궤적과 중간점에 맞출지 말지를 결정할 때 유용합니다.  
+-  **HDOP 근사 사용** - HDOP는 수평 정밀도 저하율(Horizontal Dilution of Precision)을 의미하며, 이 옵션을 활성화하면 추가적인 계산을 통해 위치의 정확도를 향상할 수 있습니다.  
+-  **방위 내보내기** - GPX 파일에 방향 정보를 포함할지를 결정합니다.  
+-  **기본으로 사진을 가져올 위치** - 일반적으로 그 자리에서 카메라로 바로 사진을 찍으시겠지만, 이전에 찍어 둔 사진을 갤러리에서 가져올 수도 있습니다.  
+- **항상 화면 켜짐** - 버튼을 계속 클릭하거나 사진을 찍거나 음성 녹음을 하려 한다면 이 옵션을 활성화하세요. 이러한 경우가 아니라면 필요할 때만 화면을 켜서 사용하는 것이 배터리를 덜 소모합니다.  
+-  **메인 화면 그래픽 테마** - 버튼을 보기 어려우시다면 이 옵션으로 대비와 화면 밝기를 조절하세요.  
+-  **버튼 사전 설정** 버튼을 클릭했을 때 수행할 동작을 직접 지정할 수 있습니다. 자세한 설명은 [아래](/ko/mobile-mapping/osmtracker/#button-presets)를 참고하세요.   
+-  **배경 지도** - 궤적 목록에서 기록된 궤적을 누르고 있으면 오픈스트리트맵 지도 위에서 궤적의 경로를 볼 수 있습니다.  
 
-> This does require a data connection to download the map. You do not need to use this function unless you wish to.  
+> 배경 지도를 이용하려면 인터넷에 연결해야 합니다. 배경 지도 옵션은 반드시 사용해야 하는 것은 아닙니다.  
 
--  **Map Tile Provider** If you've elected to download map data as a background when you display the map, you can choose which version of the map to use as a background.  
--  **Orientation**  Do you want the screen to rotate, or use it in landscape or portrait?  
+-  **지도 타일 제공자** - 배경 지도를 활성화했다면 어떤 배경 지도를 이용할지를 지정할 수 있습니다.  
+-  **방향** - 화면 회전, 가로 고정, 세로 고정 여부를 지정합니다.  
 
-The Track List
+궤적 목록
 --------------
 
 ![OSMTracker_2][]  
-Having carried out your initial survey, clicking buttons, creating voice recordings and taking photographs, when you have finished, click on the floppy disk icon to end your track. Now press and hold the track in the list & options become available:  
+걷고, 버튼을 클릭하고, 음성을 녹음하고, 사진을 다 찍었으면 플로피 디스크 아이콘을 클릭하여 기록을 종료하세요. 이제 목록에서 궤적을 길게 누르면 다양한 옵션을 사용할 수 있습니다.  
 
--  **Resume Tracking** useful when you realise you've missed a bit!  
--  **Display** will show the track, possibly with a background map depending on your data connection and the option you selected in **Background Map**.  
--  **Export as GPX** - necessary for the track and waypoints to be used in an editing programme.  
--  **Upload to OpenStreetMap** Use this option to upload your trace to OpenStreetMap - you will need to have an OpenStreetMap account ([How to obtain explained here](/en/beginner/start-osm/)), and will need to authorise this app to upload traces to your account. See [GPS Traces - gpx files below](/en/mobile-mapping/osmtracker/#gps-traces--gpx-files) for more information on why these traces are so important to OpenStreetMap.  
+-  **기록 재개** - 궤적을 기록하면서 빠트린 게 있었다면 이 옵션을 사용하세요!  
+-  **표시** - 궤적을 표시합니다. 인터넷이 연결되어 있고 **배경 지도** 옵션을 활성화했다면 배경 지도 위에 궤적을 표시합니다.  
+-  **GPX로 내보내기** - 편집 프로그램에서 궤적과 중간점 데이터를 이용하려면 데이터를 GPX로 내보내야 합니다.  
+- **오픈스트리트맵에 업로드** - 궤적을 오픈스트리트맵에 업로드합니다. 궤적을 업로드하려면 오픈스트리트맵 계정([참고](/ko/beginner/start-osm/))이 있어야 하며, OSMTracker에서 궤적을 업로드할 수 있도록 권한을 부여해야 합니다. 오픈스트리트맵 제작에 있어 궤적이 중요한 이유를 자세히 알고 싶으시다면 [GPS 궤적 - GPX 파일](/ko/mobile-mapping/osmtracker/#gps-traces--gpx 파일)을 참고하세요.  
 
-> **Caution, do not delete your track yet.** You have only uploaded the basic trace and not the waypoints, photographs etc. Retain everything until it is transferred to a computer for editing purposes.  
+> **주의, 아직 궤적을 삭제하지 마세요.** 오픈스트리트맵에 홈페이지에는 궤적의 모양만 올라가고, 사진이나 중간점은 업로드되지 않습니다. 궤적을 컴퓨터로 전송될 때까지 모든 내용을 저장해야 합니다.  
 
--  **Delete**. Self explanatory.  
+-  **삭제** - 궤적을 삭제합니다.  
 
 
-Button Presets
+버튼 사전 설정
 --------------
 
-If you will be surveying for a particular reason, and the waypoint label you require is not available, you can create your own set of button presets prior to your surveying trip, load them into the phone and select them whilst surveying as & when you need them - several can be loaded in the phone & you may switch between them without stopping your recording. As the label you create is in the form of a personal note, it does not need to conform to the tags used within OpenStreetMap, and will not be uploaded to it. For instance, you may choose to have buttons labelled;  
+기본적으로 주어지는 버튼만으로 원하는 지물을 모두 다 기록할 수 없는 경우, 여러분만의 버튼 사전 설정을 만들어 둔 후 필요할 때 사용하면 됩니다. 사전 설정 버튼 여러 개를 미리 만들어 두고, 필요할 때마다 전환해서 사용하면 됩니다. 사전 설정의 라벨은 개인적인 메모와 같으므로 오픈스트리트맵에서 사용되는 태그 체계을 따르지 않아도 되며, 오픈스트리트맵에 업로드되지도 않습니다. 예를 들어, 버튼을 눌렀을 때 다음과 같은 라벨을 붙이도록 선택할 수 있습니다.  
 
-- 1 family,  
-- 2 families,  
-- 3 families,  
-- 4 families,  
-- chiefs house,  
-- 20% damaged,  
-- 40% damaged,  
-- 60% damaged,  
-- 80% damaged,  
-- destroyed,  
-- unsuitable for lorry,  
-- 4wd needed,  
-- etc..  
+- 한 가구,  
+- 두 가구,  
+- 세 가구,  
+- 네 가구,  
+- 마을 회관,  
+- 20% 손상됨,  
+- 40% 손상됨,  
+- 60% 손상됨,  
+- 80% 손상됨,  
+- 완전히 부서짐,  
+- 대형 트럭 이용 불가,  
+- 4륜 구동차 필요,  
+- 기타 등등..  
 
-For a full description on creating a button preset, see the [OSMTracker wiki section](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts). This is a [sample download file.](/files/R_of_Way.xml)  
+자세한 설명은 [OSMTracker 위키](https://github.com/nguillaumin/osmtracker-android/wiki/Custom-buttons-layouts)와 [샘플 다운로드 파일](/files/R_of_Way.xml)을 참고하세요.  
 
 ![OSMTracker button presets][]  
 
 
-Voice recordings, photograph & text image sizes  
+음성 녹음, 사진 및 텍스트 이미지 크기  
 -----------------------------------------------  
 
 ![OSMTracker recorded file sizes][]  
 
-If file transfer at a later stage is an issue, be aware of the file sizes involved - as the screenshot shows photographs are very memory intensive compared to the gpx file or a 10 second voice recording.  
+파일 전송이 안 될 때는 파일 크기를 확인해 보세요. 위 스크린샷에서 볼 수 있듯이 사진은 GPX 파일 또는 10초짜리 음성 녹음에 비해 용량이 매우 큽니다.  
 
 
-GPS Traces - gpx files
+GPX 궤적 - GPX 파일
 ----------------------  
 
 ![OSMTracker JOSM][]  
 
-GPS traces in the form of gpx files are made up of a number of elements, principally a 'trace' and 'waypoints'. The screenshot above shows a folder contents created in OSMTracker which has been loaded into JOSM ready for editing, with satellite imagery loaded to assist. The square icon in the centre of the trace indicates there is a photograph, taken at this location, available - simply click on the square icon to display the photograph.  
+GPX 파일 형태의 GPS 궤적은 주로 '경로'와 '중간점'과 같은 여러 요소로 구성됩니다. 위의 스크린샷은 OSMTracker에서 생성된 폴더의 내용물을 JOSM 편집기에 불러온 모습을 나타낸 것입니다. 궤적 중간에 있는 정사각형 아이콘은 해당 위치에서 찍은 사진이 있음을 나타냅니다. 사진을 보려면 정사각형 아이콘을 클릭하면 됩니다.  
 
-If you are navigating and using a GPS to give you directions, you will notice at some point that it will 'recalculate'. This is normally because its internal GPS location does not correspond to where it expects the road or path to be - there is a margin of error, but it is easy for roads and paths to be created in slightly the wrong place, or for the road to be moved after the map data has been created.  
-Volunteers updating OpenStreetMap can download all of the traces that have been uploaded in an area, and use them to:  
+GPS로 방향을 계산하면 어느 순간 방향이 '재계산'된다는 것을 알아채셨을 수도 있습니다. 이는 일반적으로 내부 GPS로 계산한 위치가 도로 또는 길이 있을 것으로 예상하는 위치와 일치하지 않기 때문입니다. 약간 잘못된 위치에 도로 데이터가 그려져 있거나 지도 데이터가 생성된 후 도로가 이설된 경우에 이러한 일이 발생합니다.  
+오픈스트리트맵을 업데이트하는 자원봉사자들은 홈페이지에 업로드된 해당 지역의 모든 궤적을 다운로드하여 지도 제작에 이용할 수 있습니다.  
 
-1. Trace roads & paths through areas that could not be seen with satellite imagery because of clouds, trees, shadows, buildings etc..  
-2. Adjust the satellite imagery so that it aligns correctly - there can be a surprising variation with some imagery.  
+1. 구름, 나무, 그림자, 건물 등으로 가려져 있어 위성 사진을 이용할 수 없는 구역을 지나는 도로를 그릴 수 있습니다.  
+2. 위성 사진의 위치를 조정할 수 있습니다. 일부 위성 사진은 실제 위치에서 크게 벗어나 있는 경우도 있습니다.  
 
-Although a single gpx trace is very useful, it may not be particularly accurate and can be as much as 30 metres out of place. When there are several traces, the correct route of the path or road is now easy to see - for example see the screenshot below showing a download of gpx traces in a town, in which the main roads can be seen by the volume of traces.  
+GPX 궤적은 한 개만 있어도 매우 유용하지만, 정확하지 않을 수 있으며 실제 지점으로부터 최대 30미터까지 어긋날 수 있습니다. 궤적이 여러 개 있으면 경로 또는 도로의 올바른 경로를 쉽게 알 수 있습니다. 예를 들어, 아래 스크린샷은 마을의 GPX 궤적을 다운로드한 모습입니다. 아래 스크린샷에서 주요 도로 위로 지나가는 궤적이 많은 것을 확인할 수 있습니다.  
 
 ![OSMTracker_gpx][] 
 
