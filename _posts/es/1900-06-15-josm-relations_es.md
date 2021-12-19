@@ -104,13 +104,13 @@ Las relaciones pueden ser difíciles de entender y no es necesario utilizarlas a
 [Building relation]: /images/josm/building-relation.png
 [New relation]: /images/josm/new-relation.png
 [Building yes]: /images/josm/building-yes.png
-[Rol exterior o interior]: /images/josm/outer-inner.png
+[Outer or inner role]: /images/josm/outer-inner.png
 [New multipolygon]: /images/josm/new-multipolygon.png
 [New mp object]: /images/josm/new-mp.png
-[Multipolígono en mapnik]: /images/josm/multipolygon-mapnik.png
-[Un ejemplo de un multipolígono]: /images/josm/multipolygon-demo.png
-[Nueva relación de ruta]: /images/josm/new-route-relation.png
-[Relación de ruta]: /images/josm/route-relation.png
-[Preselección del transporte público]: /images/josm/public-transport-preset.png
-[Relación de rutas de autobús]: /images/josm/bus-route-relation.png
-[botón del panel de relación]: /images/josm/relation-panel-button.png
+[Multipolygon in mapnik]: /images/josm/multipolygon-mapnik.png
+[An example of a multipolygon]: /images/josm/multipolygon-demo.png
+[New route relation]: /images/josm/new-route-relation.png
+[Route relation]: /images/josm/route-relation.png
+[Public transport preset]: /images/josm/public-transport-preset.png
+[Bus route relation]: /images/josm/bus-route-relation.png
+[relation panel button]: /images/josm/relation-panel-button.png

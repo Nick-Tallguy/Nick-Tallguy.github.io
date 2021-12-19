@@ -1,10 +1,10 @@
 ---
 layout: doc-rtl
 title: سایر منابع
-پیوند ثابت: /fa/resources/
+permalink: /fa/resources/
 lang: fa
 cover: yes
-دسته: منابع
+category: resources
 ---
 
 # سایر منابع

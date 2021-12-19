@@ -1,6 +1,6 @@
 ---
 layout: doc
-título: Preajustes JOSM
+title: Preajustes JOSM
 permalink: /es/josm/josm-presets/
 lang: es
 category: josm
@@ -30,15 +30,15 @@ Los archivos de preajustes pueden añadirse desde un archivo en línea o guardar
 * Para añadir una nueva entrada al menú Preajustes, abra JOSM y vaya a Editar->Preferencias.  
 * Haga clic en la tercera pestaña hacia abajo, que parece una cuadrícula que cubre el planeta.  
 
-![pestaña etiqueta de predefinidos][]
+![tagging presets tab][]
 
 * En la parte superior, haga clic en "Etiquetas de predefinidos".  
 
-![menú etiqueta de predefinidos][]
+![tagging presets menu][]
 
 * Añadir un archivo de preajustes de Internet seleccionando uno en la lista de 	a la izquierda, y haciendo clic en la flecha azul. En este ejemplo, añadiremos el preajuste denominado "Nuevas etiquetas"  
 
-![ejemplo predefinidos][]
+![example presets][]
 
 * Verás aparecer un nuevo elemento en la lista de la derecha.   
 * Clic Aceptar.  
@@ -46,21 +46,21 @@ Los archivos de preajustes pueden añadirse desde un archivo en línea o guardar
 * Crear una nueva capa y añadir un punto o forma.  
 * Vaya al menú Predefinidos. Verá una entrada adicional en la parte inferior que se expande en varias opciones no cubiertas por la instalación estándar de JOSM.  
 
-![etiqueta de predefinidos adicional][]
+![additional tags preset][]
 
 * La mayoría de los preajustes cubren casos de uso bastante específicos, por lo que puedes buscar en la lista si encuentras alguno que se ajuste a tus intereses.  
 
 * Si ha recibido un archivo de preajustes personalizados, puede añadirlo al menú de forma similar. Simplemente vuelva al menú de Preferencias y, en lugar de seleccionar de la lista, haga clic en el botón (+) de la parte superior derecha.  
 
-![botón más][]
+![plus button][]
 
 * Localice su archivo y dele un nombre si quiere.  
 * Clic Aceptar.  
 
 
-[pestaña etiquetas de predefinidos]: /images/josm/tagging-presets-tab.png
-[menú etiquetas de predefinidos]: /images/josm/tagging-presets-menu.png
-[ejemplo predefinidos]: /images/josm/example-presets2.png
-[etiquetas de predefinidos adicional]: /images/josm/new-tags-preset.png
-[botón más]: /images/josm/plus-button.png
+[tagging presets tab]: /images/josm/tagging-presets-tab.png
+[tagging presets menu]: /images/josm/tagging-presets-menu.png
+[example presets]: /images/josm/example-presets2.png
+[additional tags preset]: /images/josm/new-tags-preset.png
+[plus button]: /images/josm/plus-button.png
 

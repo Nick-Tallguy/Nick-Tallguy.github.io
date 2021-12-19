@@ -30,9 +30,9 @@ La respuesta a la pregunta anterior es que podemos mover las imágenes para que 
 
 Las mejores referencias para ajustar las imágenes son las trazas de GPS que siguen las carreteras. Y cuantas más trazas de GPS tenga como referencia, más precisa será la alineación de sus imágenes. Como los usuarios de OpenStreetMap suelen subir sus trazas GPS a la base de datos de OSM, podemos descargarlos y utilizarlos para alinear nuestras imágenes.  
 
-- Haga clic en el botón de descarga. Botón de descarga JOSM][]{: height="24px"}  
+- Haga clic en el botón de descarga. ![JOSM download button][]{: height="24px"}  
 
-- Marque la casilla junto a "Datos GPS sin procesar" ![Descargar datos GPS sin procesar][]{: height="24px"} cerca de la parte superior de la ventana de descarga. Selecciona tu zona y haz clic en "Descargar".  
+- Marque la casilla junto a "Datos GPS sin procesar" ![Download raw GPS data][]{: height="24px"} cerca de la parte superior de la ventana de descarga. Selecciona tu zona y haz clic en "Descargar".  
 
 - Esto descargará una capa adicional a JOSM que contiene pistas GPS. Dependiendo de la cantidad de trazas que hayan subido los usuarios de OSM, puede que veas pocas trazas (o incluso ninguna):  
 
@@ -42,7 +42,7 @@ Las mejores referencias para ajustar las imágenes son las trazas de GPS que sig
 
 ![Many GPS tracks from OSM][]
 
-- Para ajustar una capa de imágenes, haga clic en el botón "Ajustar desplazamiento de imágenes"[]{: height="24px"} en la parte superior de JOSM.  
+- Para ajustar una capa de imágenes, haga clic en el botón "Ajustar desplazamiento de imágenes" ![Adjust imagery offset button][]{: height="24px"} en la parte superior de JOSM.  
 
 - Ignorando el cuadro que aparece, utilice el ratón para arrastrar la capa de imágenes de modo que se alinee correctamente con las trazas del GPS. Las trazas del GPS deben alinearse con las carreteras en las imágenes lo más cerca posible. Verá que los números de desplazamiento en el cuadro cambian.  
 
@@ -73,7 +73,7 @@ Imagine que está cartografiando una pequeña ciudad y se da cuenta de que las i
 
 Por esta razón, es importante que todos los usuarios conozcan el desplazamiento de las imágenes y que lo comprueben siempre antes de cartografiar una zona. Para ayudar con este problema, algunas personas inteligentes crearon un complemento que permite a los usuarios guardar la información de desplazamiento en una base de datos y compartirla con otros. Veamos cómo funciona:  
 
-- Abra el menú de Preferencias en JOSM, y haga clic en la pestaña Complementos.![Pestaña de complementos de JOSM][]{: height="24px"}  
+- Abra el menú de Preferencias en JOSM, y haga clic en la pestaña Complementos.![JOSM plugins tab][]{: height="24px"}  
 
 - Busque el complemento llamado "imagery_offset_db" y marque la casilla junto a él.  
 
@@ -121,7 +121,7 @@ Agregar Desplazamiento de Imágenes a la Base de Datos
 
 Ahora que hemos marcado el desplazamiento de este usuario como "obsoleto", debemos añadir un desplazamiento mejorado a la base de datos.  
 
-1. Haga clic en el botón "Ajustar el desplazamiento de las imágenes". Botón [Ajustar el desplazamiento de las imágenes][]{: height="24px"}  
+1. Haga clic en el botón "Ajustar el desplazamiento de las imágenes". ![Adjust imagery offset button][]{: height="24px"}  
 2. Ajuste las imágenes para que coincidan con las trazas del GPS. 3. Haz clic en Aceptar en el cuadro.  
 3. Ahora vaya a Desplazamiento ‣ Almacenar Desplazamiento de Imágenes...  
 ![Store imagery offset][]
