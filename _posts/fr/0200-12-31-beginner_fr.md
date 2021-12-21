@@ -27,9 +27,9 @@ Si vous souhaitez débuter et être capable d'éditer les données de la carte, 
 
 Le point le plus important est d'apprendre comment est coordonnée la cartographie dans ce contexte.
 - le [guide de la cartographie à distance](/fr/coordination/HOT-Remote-Response-Guide/) et les généralités sur la [cartographie humanitaire](/fr/coordination/humanitarian/) donne quelques informations
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+- Le travail principal est effectué au travers du [Tasking Manager](/en/coordination/tm-user/) dont vous devez vous familiariser avec le flux de travail
 
-If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+Si vous êtes un mappeur expérimenté et que vous souhaitez en savoir plus sur la validation, alors un  [section](/en/coordination/tm-user/#validation) dans notre guide Tasking Manager vous explique le processus.
 
 ### Vous voulez utiliser OpenStreetMap sur un appareil mobile ?
 
