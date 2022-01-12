@@ -1,47 +1,47 @@
 ---
 layout: doc
-title: Aerial imagery & Alignment - iD editor
+title: 空照圖與校正 - iD 編輯器
 permalink: /zh_TW/hot-tips/imagery/
 lang: zh_TW
 category: hot-tips
 ---
 
-Aerial imagery & Alignment - iD editor
+空照圖與校正 - iD 編輯器
 ============
 
-> Created 2019-06-28  
+> 創建日期 2019-06-28
 
 - TOC
 {:toc}
 
-Changing the background aerial imagery
+更改背景的空照圖
 --------------
 
 ![aerial][]
 
-To change the background imagery select the background icon in the menu, shown in the above image, and select the required imagery from the list. If the imagery is not listed, you can add it by pasting the provided link into the custom box.  
+要改變背景影像，請選取選單中的背景圖示，再來選擇其中的影像，選取清單當中的影像。如果影像並未列在上面，你可以手動在自訂方框中貼上。
 
-Brightness, contrast, saturation and sharpness may also be adjusted, which may help in identifying features.  
+透過調整亮度、對比、飽和度與清淅度來提高辨識物件的能力。
 
-Aligning the background aerial imagery
+對齊背景空照影像
 --------------------------------------
 
 ![align][]
 
-There are occasions when you may realise that the imagery you have loaded is not aligned;
+有時候你會發現載入的影像並未對齊；
 
-1.  There are gps traces available of the highways, they align with the highways, but the imagery does not, or  
-2.  It may be mentioned in the instructions of a task in the Tasking Manager that the imagery should be aligned to existing traced features.  
+1.  有時候道路有 GPS 可以對，他們與道路對齊，但沒有對齊影像，或者
+2.  在任務分配管理器的說明當中有提到，影像應該要與既有的圖徵對齊。
 
 
-If you are working on a really large area, you may find that the imagery requires realignment part way during your work.  
+如果你在相當大的區域編輯的話，你會發現在你編輯時需要重新對齊一些路徑。
 
-See also
+請見
 --------
 
-Please see the [main iD article on this site](/en/beginner/id-editor/#configuring-the-background-layer).  
+請參閱[本站上主要的 iD 介紹文章](/zh_TW/beginner/id-editor/#configuring-the-background-layer)。
 
-[aerial]: /images/hot-tips/aerial.gif "iD editor - changing the background imagery"
-[align]:/images/hot-tips/align.gif "iD editor - aligning the imagery"
+[空照圖]: /images/hot-tips/aerial.gif "iD editor - changing the background imagery"
+[對齊]:/images/hot-tips/align.gif "iD editor - aligning the imagery"
 [keymon]:/images/hot-tips/keymon.png
 [OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
