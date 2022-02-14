@@ -9,7 +9,7 @@ category: mobile-mapping
 BasicAirData GPS Logger
 =======================
 
-> Reviewed 2021-06-12
+> Zkontrolováno 2021-06-12
 
 ![BasicAirData-GPSLogger-002][]
 
@@ -47,10 +47,10 @@ Základy používání
 Nemáte-li zapnutou GPS v mobilu, zapněte ji. Pak jděte na prostranství a zapněte GPS Logger.
 
 1. Počkejte, až aplikace získá vaši pozici. Jakmile je k dispozici, v záložce **GPS FIX** se začnou zobrazovat souřadnice. V tomto okamžiku (pokud je to možné) vyčkejte alespoň další minutu, než budete pokračovat další fází, aby se signál stabilizoval
-2. Click the __Record__ button of the bottom panel to start recording track points. The button will become red. switch recording process on and off at any time by clicking on that button. At the top of the button the app shows the number of the trackpoints recorded.
+2. Kliknutím na tlačítko __Záznam__ na spodním panelu začněte zaznamenávat body stopy. Tlačítko se zbarví červeně. proces nahrávání kdykoli zapnete nebo vypnete kliknutím na toto tlačítko. V horní části tlačítka aplikace zobrazuje počet zaznamenaných traťových bodů.
 Můžete přejít na záložku **TRACK** a zobrazit v reálném čase statistiky vaší trasy.
-3. When your trip is finished, click the __Stop__ button to finalize (finish) the active track. A dialog will appear, click __OK__ to confirm.
-4. Go to the __TRACKLIST__ tab, where you will find the track you have just recorded. Tap on the track. A menu will appear. You can choose to share the track in many ways, view it using an installed external viewer, edit the track details, export it into /GPSLogger folder of your smartphone, or delete it from the tracklist. The formats used for export can be configured on the settings screen.
+3. Po dokončení cesty klikněte na tlačítko __Stop__, čímž dokončíte (ukončíte) aktivní stopu. Zobrazí se dialogové okno, které potvrďte kliknutím na __OK__.
+4. Přejděte na kartu __TRACKLIST__, kde najdete právě nahranou stopu. Klepněte na stopu. Zobrazí se nabídka. Můžete si vybrat, zda chcete stopu sdílet mnoha způsoby, zobrazit ji pomocí nainstalovaného externího prohlížeče, upravit podrobnosti o stopě, exportovat ji do složky /GPSLogger ve smartphonu nebo ji odstranit ze seznamu stop. Formáty použité pro export lze nakonfigurovat na obrazovce nastavení.
 
 Import GPX stop do editoru OpenStreetMap
 --------------------------------------------

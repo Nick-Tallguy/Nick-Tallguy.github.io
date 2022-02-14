@@ -23,14 +23,14 @@ Zde můžete nalézt instrukce k instalaci pro různé operační systémy. Klik
 Tato stránka vysvětluje, co instalátor provede. Nainstalují se tři různé komponenty:  
 
 * **PostgreSQL server**:  Software databáze, hlavní komponent  
-* **pgAdmin 4**: The graphical interface for managing your databases  
+* **pgAdmin 4**: Grafické rozhraní pro správu databází  
 * **StackBuilder**: Nástroj pro přidávání dalších aplikací; Použijeme ho k přidání PostGIS rozšíření  
 
 Klikněte na **Download**.  
 
 ![postgresql download][]
 
-You will see several different Installer options for different versions of the PostgreSQL software. Download the most recent version for your Windows version.
+Zobrazí se několik různých možností instalátoru pro různé verze softwaru PostgreSQL. Stáhněte si nejnovější verzi pro vaši verzi systému Windows.
 
 ![postgresql version][]
 
@@ -71,7 +71,7 @@ Po dokončení instalace, klikněte na “**Close**” a poté “**Finish**.”
 Vytvoření databáze
 --------------------
 
-Now that we have installed all of the necessary software, we will create a database. We will use pgAdmin 4, which is a graphical database client that is useful for querying and modifying
+Nyní, když jsme nainstalovali veškerý potřebný software, vytvoříme databázi. Použijeme program pgAdmin 4, což je grafický databázový klient, který je užitečný pro dotazování a úpravy databází.
 databází.  
 
 ![pgadmin3][]

@@ -68,7 +68,7 @@ Odkaz na Windows verzi osm2pgsql naleznete na adrese <http://wiki.openstreetmap.
 
 Stahování dat z OSM
 ---------------------
-Before we can run **osm2pgsql** we need to have some raw OSM data to import into a database. If you don't already have a **.osm** file that you can use, try downloading a file from <https://download.bbbike.org/osm/bbbike/>. This site hosts many OSM extracts for different cities.  Find a city to import and download the PBF file for it. PBF files are compressed versions of the normal **.osm** files. You can use any of the extract services listed in the chapter on [getting data](/en/osm-data/getting-data), if you'd like the raw data for another area.  
+Než budeme moci spustit **osm2pgsql**, musíme mít k dispozici surová data OSM, která můžeme importovat do databáze. Pokud ještě nemáte soubor **.osm**, který můžete použít, zkuste si jej stáhnout z adresy <https://download.bbbike.org/osm/bbbike/>. Na této stránce je umístěno mnoho výpisů OSM pro různá města. Najděte město, které chcete importovat, a stáhněte si pro něj soubor PBF. Soubory PBF jsou komprimované verze normálních souborů **.osm**. Pokud chcete získat nezpracovaná data pro jinou oblast, můžete použít některou ze služeb pro získání výpisu uvedených v kapitole [získávání dat](/cs/osm-data/getting-data).  
 
 Stáhněte si soubor stylů
 ------------------
