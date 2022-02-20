@@ -41,7 +41,7 @@ category: hot-tips
 
 請參閱[本站上主要的 iD 介紹文章](/zh_TW/beginner/id-editor/#configuring-the-background-layer)。
 
-[空照圖]: /images/hot-tips/aerial.gif "iD editor - changing the background imagery"
-[對齊]:/images/hot-tips/align.gif "iD editor - aligning the imagery"
+[aerial]: /images/hot-tips/aerial.gif "iD editor - changing the background imagery"
+[align]:/images/hot-tips/align.gif "iD editor - aligning the imagery"
 [keymon]:/images/hot-tips/keymon.png
 [OSM-TM-video]: /images/hot-tips/OSM-TM-video.png "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos"
