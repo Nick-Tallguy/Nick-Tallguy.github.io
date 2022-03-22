@@ -48,7 +48,7 @@ If you followed along when we added our first points with the iD editor, you rem
 
 -   To add the Bing satellite imagery in JOSM, click "Imagery" on the top menu of JOSM and selecting “Bing Sat.”
 
-> If you don't see Bing Sat on the Imagery menu, you may need to activate it in the JOSM preferences. Go to Edit -> Preferences and click on the icon that says “WMS TMS”. You may need to click on the down arrow to find it.
+> Pokud v nabídce Obrázky nevidíte službu Bing Sat, možná ji budete muset aktivovat v předvolbách JOSM. Přejděte do nabídky Upravit -> Předvolby a klikněte na ikonu s nápisem "WMS TMS". Možná budete muset kliknout na šipku dolů, abyste ji našli.
 >
 > ![JOSM Preferences up down][]
 > ![JOSM Preferences WMS TMS][]
@@ -61,11 +61,11 @@ Now that we've downloaded OpenStreetMap data and added the Bing satellite imager
 
 ![JOSM layout][]
 
-The main window you are already familiar with - this is the map window, and it is where most of the action takes place. Here you will view, edit, and add to the OpenStreetMap data.
+Hlavní okno již znáte - je to okno mapy, ve kterém se odehrává většina akce. Zde budete prohlížet, upravovat a přidávat data OpenStreetMap.
 
 To the right of the map window are a series of panels, each of which has its own function. Typically when you first install JOSM several panels are shown by default, such as Layers, Properties, and Selection. When you select a point, line, or shape in the map window, it will be shown in the Selection panel. Information about the object will be shown in the Properties panel, and the username of the author of that object will be shown in the Authors panel.
 
-These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper right are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
+Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka v levé dolní části systému JOSM. Nad těmito tlačítky v pravém horním rohu jsou nástroje, které mění možnosti práce s myší. Některé z nich již znáte: nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují přiblížení, odstranění objektu, nakreslení tvaru nebo vytvoření čáry rovnoběžné s jinou čárou.
 
 
 Upravit
@@ -101,24 +101,24 @@ The third and final step to complete our edits is to upload the changes we have 
 -   Click “Upload Changes”.
 
 -   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
--   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
+- Zadejte je do zobrazeného okna. Pokud v tomto okně zaškrtnete políčko, vaše uživatelské jméno a heslo se uloží a v budoucnu je nebudete muset znovu zadávat. Klikněte na tlačítko "Ověřit".
 
     ![JOSM Authenticate][]
 
--   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
+- Musíte počkat několik sekund, než se změny nahrají, a pak je hotovo! Upravili jste mapu na OpenStreetMap.
 
-> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
+> Při úpravách se vždy ujistěte, že jste změny nahráli před zavřením JOSM. I když máte ještě další úpravy, nahrajte své změny a později, až budete mít na úpravy čas, projděte celý proces znovu. Nechcete přece o svou práci přijít!
 
 Zobrazit změny na mapě
 ---------------------------
 -   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
 -   Move the map to the area that you edited.
--   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.
--   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
+- Na mapě by se měly objevit vaše změny! Pokud se tak nestane, zkuste stisknout CTRL+R a obnovit webovou stránku. Někdy se mapa neaktualizuje správně a je třeba ji znovu načíst.
+- Co když se vám změny nezobrazí? Nebojte se - může trvat několik minut, než se změny na mapě zobrazí. Zkontrolujte také své doplňky v JOSM, abyste se ujistili, že jste je přidali správně. Dobrým obecným pravidlem je, že pokud má váš bod ikonu v JOSM, měl by být vidět i na hlavní mapě na webu OpenStreetMap.
 
 Shrnutí
 -------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
+Když už víte, jak přidávat do OpenStreetMap, co dál? No, editace je skvělá, ale není to jediný aspekt tvorby map. Samozřejmě se také musíte naučit, jak chodit ven a sbírat informace o místech v terénu.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png
