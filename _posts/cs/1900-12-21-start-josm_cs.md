@@ -16,11 +16,11 @@ How to download and install JOSM, the Java OpenStreetMap editor, change some of 
 Stáhněte si JOSM
 -------------
 
--   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
+- Pokud máte kopii JOSM na CD nebo USB flash disku, můžete přejít k další části, Instalace JOSM.
 -   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
 -   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
--   You can also find the JOSM website by searching the internet for “JOSM”.
--   The website should look something like this:
+- Webové stránky JOSM najdete také po zadání hesla "JOSM" na internetu.
+- Webové stránky by měly vypadat přibližně takto:
 
     ![JOSM website][]
 
@@ -54,8 +54,8 @@ There are many different settings that you can customize in JOSM.  One setting t
     ![Preferences window][]
 
 -   On the left side, click the icon that looks like a paint can and paint brush.
--   At the top of the window, click the tab that says “Look and Feel”.
--   Choose your language in the dropdown box next to the word “Language”.
+- V horní části okna klikněte na kartu "Look and Feel".
+- V rozevíracím poli vedle slova " Jazyk " vyberte svůj jazyk.
 
     ![Look and feel][]
 
@@ -65,14 +65,14 @@ There are many different settings that you can customize in JOSM.  One setting t
 Naučte se základy mapování s JOSM
 -----------------------------
 
--   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
+- Nyní si otevřeme ukázkový soubor OSM, který použijeme k seznámení se základními způsoby kreslení map pomocí JOSM. Všimněte si, že tato mapa není skutečná v tom smyslu, že se nejedná o skutečnou mapu skutečného místa, takže ji nebudeme ukládat na OpenStreetMap.
 -   Download the file here: [sample.osm](/files/sample.osm)
--   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
+- Nyní otevřeme ukázkový soubor mapy v JOSM. Klikněte na tlačítko "Otevřít" v levém horním rohu.
 
     ![Open file][]
 
--   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
--   You should now see a sample map that looks like this:
+- Najděte soubor **sample.osm**. Pravděpodobně se nachází ve složce Stažené soubory, pokud jste jej neuložili jinam. Klikněte na něj a potom klikněte na tlačítko "Otevřít".
+- Nyní byste měli vidět ukázkovou mapu, která vypadá takto:
 
     ![Sample file][]
 
@@ -106,13 +106,13 @@ Naučte se základy mapování s JOSM
 ### Změna objektů
 
 -   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
--   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
+- Klikněte na jeden z bodů na čáře kolem lesa. Podržte stisknuté levé tlačítko myši a táhněte myší. Měli byste být schopni bod přesunout. Takto můžete změnit tvar objektu nebo přesunout bod.
 
 ### Kreslení
 
 -   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
 -   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
--   Until now, you have been using the Select tool, which looks like this:
+- Doposud jste používali nástroj Výběr, který vypadá takto:
 
     ![Select tool][]
 
@@ -152,7 +152,7 @@ zaměřit svou pozornost na mapování skutečných funkcí.
 
 _It is very important that you first remove the layer with the sample data.
 Tato data jsou fiktivní a nesmí být nahrána do OpenStreetMap 
-database (newer JOSM releases automatically prevent this)._
+databáze (novější verze JOSM tomu automaticky zabraňují)._
 
 V okně Vrstvy v pravé horní části obrazovky vyberte vrstvu sample.osm.
 Potom klikněte na ikonu koše v pravém dolním rohu okna.
@@ -181,7 +181,7 @@ blížeji podíváme na proces úpravy mapy OSM s JOSM.
 
 [sample file]: /images/josm/josm_sample-file.png
 
-[scale bar]: /images/josm/josm_scale-bar.png
+[stupnice]: /images/josm/josm_scale-bar.png
 
 [select tool]: /images/josm/josm_select-tool.png
 
