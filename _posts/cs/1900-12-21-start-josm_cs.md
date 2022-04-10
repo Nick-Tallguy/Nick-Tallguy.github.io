@@ -179,9 +179,9 @@ blížeji podíváme na proces úpravy mapy OSM s JOSM.
 
 [open file]: /images/josm/josm_open-file.png
 
-[vzorový soubor]: /images/josm/josm_sample-file.png
+[sample file]: /images/josm/josm_sample-file.png
 
-[stupnice]: /images/josm/josm_scale-bar.png
+[scale bar]: /images/josm/josm_scale-bar.png
 
 [select tool]: /images/josm/josm_select-tool.png
 
