@@ -9,7 +9,7 @@ category: beginner
 Více informací
 ===============
 
-> Reviewed 2020-05-08  
+> 2020-05-08  
 
 Pokud jste se dostali až sem, gratulujeme! Měli byste mít dobré porozumění jak dělat mapy pomocí OpenStreetMap. Co jiného můžete dělat s OSM? Jak se naučit více? Jak můžete zůstat ve spojení s komunitou mapujících?  
 
@@ -56,15 +56,15 @@ Nyní otevřete váš email, stejně tak jak jste dělali když jste se registro
 - Nyní, pokud chcete poslat zprávu všem členům, můžete ji poslat na adresu  [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), kde nahradíte "id" zkratku země pro tuto konferenci. Současně také budete dostávat emaily, když ostatní členové pošlou zprávu do této konference.  
 
 
-Example of OSM use - MyOSMatic
+Příklad použití OSM - MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+Jeden takový projekt se jmenuje MyOSMatic a můžete k němu přistupovat prostřednictvím internetového prohlížeče na adrese [print.get-map.org](https://print.get-map.org/). Jedná se o jednoduchý nástroj pro tisk mapy libovolného města, které si vyberete. Automaticky vytvoří mapu spolu s mřížkou nad mapou a rejstříkem míst, která jsou v dané oblasti zahrnuta.
 
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+Další využití dat OpenStreetMap je vysvětleno v sekci [OSM-Data v LearnOSM](/en/osm-data/).
 
 
 Shrnutí
