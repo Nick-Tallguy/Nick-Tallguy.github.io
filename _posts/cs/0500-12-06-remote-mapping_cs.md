@@ -64,6 +64,6 @@ Tato příručka byla shrnutá a shromážděna z různých stávajících zdroj
 
 #### O HOT 
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  learn more about how HOT operates and some of their latest news  
+[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) - dozvíte se více o tom, jak HOT funguje, a o některých novinkách.  
 
 [HOT Activities](https://www.hotosm.org/what-we-do) - podrobněji popisuje činnosti HOT z jejich webových stránek  

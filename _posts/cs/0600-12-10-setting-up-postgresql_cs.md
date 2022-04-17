@@ -76,9 +76,9 @@ databází.
 
 ![pgadmin3][]
 
-PgAdmin 4 is the official client for PostgreSQL and lets you use the SQL language to manipulate your data tables.  It is also possible to create and manipulate databases from the command-line, but for now, pgAdmin 4 is an easy way to get started.  
+PgAdmin 4 je oficiální klient pro PostgreSQL a umožňuje používat jazyk SQL k manipulaci s tabulkami dat. Databáze je možné vytvářet a manipulovat s nimi také z příkazového řádku, ale prozatím je pgAdmin 4 snadným způsobem, jak začít.  
 
-Open pgAdmin 4.  It should be in the Start Menu under All Programs -> PostgreSQL 9.3 > pgAdmin 4.  
+Otevřete pgAdmin 4. Měl by se nacházet v nabídce Start pod položkou Všechny programy -> PostgreSQL 9.3 > pgAdmin 4.  
 
 ![pgadmin3 start][]
 
@@ -100,7 +100,7 @@ Při vytváření databáze je potřeba zadat několik informací: název a vlas
 
 <!-- Under the Definition tab, keep the defaults, but next to Template select template_postgis.  This will create our database with the proper spatial columns. -->
 
-Click **OK** to create the database.  You will now see your database listed under “**Databases**.” We need to run a command now to enable the database with PostGIS extensions. Click on ![sql button][]{: height="24px"} at the top of PgAdmin 4.  
+Kliknutím na tlačítko **OK** vytvoříte databázi. Nyní uvidíte svou databázi v seznamu "**Databáze**". Nyní musíme spustit příkaz pro povolení databáze s rozšířeními PostGIS. Klikněte na ![tlačítko sql][]{: height="24px"} v horní části aplikace PgAdmin 4.  
 
 
 
@@ -117,7 +117,7 @@ Načtení ukázkových dat (nepovinné)
 
 Pokud jste to dosud zvládli v pohodě a rozumíte QGIS, pojďme nahrát nějaká data do naší nové databáze. Uděláme to pomocí nástroje, který převede shapefiles a načte je do databáze.  
 
-Make sure that your new database is selected in the panel on the left and go to **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
+Ujistěte se, že je v panelu vlevo vybrána nová databáze, a přejděte na **Plugins -> PostGIS Shapefile and DBF loader 2.x**.
 
 ![shapefile loader][]
 

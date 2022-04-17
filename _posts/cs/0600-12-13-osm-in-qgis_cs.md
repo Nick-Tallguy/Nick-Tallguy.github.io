@@ -12,88 +12,88 @@ Využití OSM dat v QGIS
 
 QGIS (dříve Quantum GIS) je plnohodnotný, open-source, geografický informační systém, který funguje napříč platformami. S QGIS můžete přistupovat k aktuálním datům OSM kdykoliv chcete, vyberte značky, které chcete zahrnout a jednoduše je exportujte do snadno použitelné SQLite databáze nebo Shapefile.  
 
-In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 3.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
+V této kapitole se seznámíme s kroky, které jsou k tomu potřeba. Předpokládáme, že jste si již stáhli a nainstalovali QGIS 3.x. Pokud jste tak ještě neučinili, můžete si jej stáhnout z adresy <http://www.qgis.org/en/site/forusers/download.html>.  
 
-We will use a plugin, QuickOSM, to import data from the OpenStreetMap database. To install this plugin open the Manage Plugins dialogue from the Plugins menu. Search for QuickOSM and install it. This will add an entry to the Vector menu  
+K importu dat z databáze OpenStreetMap použijeme zásuvný modul QuickOSM. Chcete-li tento zásuvný modul nainstalovat, otevřete dialog Spravovat zásuvné moduly z nabídky Zásuvné moduly. Vyhledejte QuickOSM a nainstalujte jej. Tím se do nabídky Vektor přidá položka  
 
-Obtaining Data from the Database
+Získávání dat z databáze
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. The QuickOSM plugin allows us to extract large amounts of data as it uses the Overpass api and not the main OSM database server.
+Nejdříve získáme aktuální data OSM. To můžeme provést mnoha způsoby. Zásuvný modul QuickOSM nám umožňuje získat velké množství dat, protože využívá rozhraní Overpass api, a nikoli hlavní databázový server OSM.
 
-- Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
+- Otevřete QGIS a přejděte na Vektor -> QuickOSM -> QuickOSM...  
 
 ![quickosm][]
 
-- You can choose from several options here  - if your window already displays the extent you want, switch the combobox which by default shows "In" to "Canvas extent". If you have a layer loaded in QGIS with the correct extent, choose "Layer extent" and select the layer you want to use. Using the default "In" requires that a relation or polygon exists with this name. Otherwise choose "Around" and a node with this name suffices. You can select a perimeter (default 1000m) around this node where data will be loaded from the database.
+- Zde si můžete vybrat z několika možností - pokud se ve vašem okně již zobrazuje požadovaný rozsah, přepněte kombinované pole, které ve výchozím nastavení zobrazuje "V", na "Rozsah plátna". Pokud máte v QGIS načtenou vrstvu se správným rozsahem, zvolte "Rozsah vrstvy" a vyberte vrstvu, kterou chcete použít. Použití výchozího "In" vyžaduje, aby existoval vztah nebo polygon s tímto názvem. V opačném případě zvolte "Kolem" a uzel s tímto názvem postačí. Kolem tohoto uzlu můžete zvolit obvod (výchozí 1000 m), do kterého se budou načítat data z databáze.
 
-- Click on "Run Query".  
-- You will be notified when the download is complete. The data are stored in three temporary layers, one for nodes, ways and polygons respectively.
+- Klikněte na "Spustit dotaz".  
+- Po dokončení stahování budete informováni. Data jsou uložena ve třech dočasných vrstvách, po jedné pro uzly, cesty a polygony.
 
 ![quickosm loaded][]
 
 
-Importing extracts
+Importování extrahovaných dat
 ---------------------------
 
-There are several options how to obtain ready-made extracts of an area. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contains a list of several websites. Just pick a **.osm** or **.pbf** file and download it. 
+Existuje několik možností, jak získat hotové výpisy z oblasti. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> obsahuje seznam několika webových stránek. Stačí si vybrat soubor **.osm** nebo **.pbf** a stáhnout jej. 
 
-You can either use QuickOSM to import it clicking on 'OSM File' in the left bar. Once you used QuickOSM OSM files should have been made known to QGIS and you can use the regular vector layer import:
+K importu můžete použít QuickOSM kliknutím na "OSM File" v levém panelu. Jakmile použijete QuickOSM, soubory OSM by se měly dostat do QGIS a vy můžete použít běžný import vektorových vrstev:
 
-- Go to Layer -> Add Layer -> Add Vector Layer...  
-- In the source field, select your file and click "Add".  
-- You can select one or more type layers from that file.  
+- Přejděte na Vrstva -> Přidat vrstvu -> Přidat vektorovou vrstvu...  
+- V poli zdroj vyberte svůj soubor a klikněte na tlačítko "Přidat".  
+- Z tohoto souboru můžete vybrat jeden nebo více typů vrstev.  
 
 ![import osm][]  
 
-- After clicking "OK" you can close the dialogue and your QGIS window shows the new layers.  
+- Po kliknutí na tlačítko "OK" můžete dialog zavřít a v okně QGIS se zobrazí nové vrstvy.  
   
 
 ![import osm loaded][]  
 
 
-Exporting data
+Exportování dat
 --------------
 
-To export a layer activate its context menu and select Export -> Save Features as...
-You can select from a wide range of formats including Shapefile, GeoJSON, PostgreSQL dump, SQLite. The other options on the dialogue vary depending on the format you selected.
+Chcete-li vrstvu exportovat, aktivujte její kontextové menu a vyberte Export -> Uložit funkce jako...
+Můžete si vybrat ze široké škály formátů včetně Shapefile, GeoJSON, PostgreSQL dump, SQLite. Další možnosti v dialogu se liší v závislosti na zvoleném formátu.
 
 ![export][]  
 
-You can choose to re-import the exported layer by checking the box at the bottom (activated by default).
+Exportovanou vrstvu můžete znovu importovat zaškrtnutím políčka v dolní části (ve výchozím nastavení je aktivováno).
 
-Working with the Data
+Práce s daty
 --------------------
 
-We cannot give you even a rough overview over what you can do with QGIS and there are many excellent tutorials and books which will guide you step-by-step towards mastering the software. But as OSM data imported by one of the methods described above have their tags encoded in a special way here is an example how to deal with them (for the curious, the example is pitcairn-islands-latest from Geofabrik's download page for Australia and Oceania). You can inspect the data of a vector layer using 'Open Attribute table' from the context menu of a layer, in this case the multipolygon layer.
+Nemůžeme vám poskytnout ani hrubý přehled o tom, co všechno můžete s QGIS dělat, a existuje mnoho vynikajících výukových programů a knih, které vás krok za krokem provedou zvládnutím tohoto softwaru. Protože však data OSM importovaná některou z výše popsaných metod mají své značky zakódované zvláštním způsobem, uvádíme příklad, jak s nimi pracovat (pro zvídavé: příkladem je pitcairn-islands-latest ze stránky Geofabrik ke stažení pro Austrálii a Oceánii). Data vektorové vrstvy můžete zkontrolovat pomocí příkazu "Otevřít atributovou tabulku" z kontextového menu vrstvy, v tomto případě vrstvy multipolygonů.
 
 ![attribute table][]
 
-We can see that all the key-value-pairs for the tags of the various objects are organized in a specially formatted text string in the field 'other_tags'. This kind of storage is called "hstore" in a PostgreSQL database and is the standard for OSM data.
+Vidíme, že všechny dvojice klíč-hodnota pro značky různých objektů jsou uspořádány ve speciálně formátovaném textovém řetězci v poli "other_tags". Tento způsob ukládání se v databázi PostgreSQL nazývá "hstore" a je standardem pro data OSM.
 
-In this example polygons are mostly islands, forest and buildings. Initially they are rendered in the same way which means that islands cover everything else. Let us render them differently in order to get a feeling how to identify different objects. Discard the attribute table.  From the context menu of the multipolygon layer select Properties and on that form move to the Symbology tab. 
+V tomto příkladu jsou polygony většinou ostrovy, lesy a budovy. Zpočátku jsou vykresleny stejným způsobem, což znamená, že ostrovy zakrývají vše ostatní. Vykreslíme je jinak, abychom získali představu, jak jednotlivé objekty identifikovat. Zbavte se atributové tabulky. Z kontextového menu vrstvy multipolygonů vyberte Vlastnosti a na tomto formuláři se přesuňte na kartu Symbologie. 
 
 ![symbology][]
 
-First change the type of the symbol from "Single symbol" to "Rule based" using the combobox at the top of the form. 
+Nejprve změňte typ symbolu z " Jednoduchý symbol" na "Na základě pravidla" pomocí comboboxu v horní části formuláře. 
 
 ![symbology rule based][]
 
-The current rendering appears as a rule with no filters. We can modify this rule by clicking on the icon marked with a purple square in the image above.
+Aktuální vykreslení se zobrazí jako pravidlo bez filtrů. Toto pravidlo můžeme upravit kliknutím na ikonu označenou na obrázku výše fialovým čtverečkem.
 
 ![symbology edit rule][]
 
-We'd like to treat buildings differently. Treat differently means that rules need to be specified according to layer properties. QGIS' expression evaluation cannot directly deal with hstore strings. But a utility comes to our rescue and the filter expression shown in the image `hstore_to_map(other_tags)['building'] is not NULL` converts the 'other_tags' string into a key-value-map where we pick the value for the key 'building'. The condition reads that we look for objects whose building key is not empty. We can define a colour and fill style for the buildings. Click 'OK' when you are finished with your rule design. Now you can add further rules by clicking on the 'plus' icon at the bottom of the symbology tab. We add similar rules for woods and grassland. At the end our symbology tab will look like this:
+Rádi bychom se k budovám chovali jinak. Zacházet různě znamená, že je třeba specifikovat pravidla podle vlastností vrstev. Vyhodnocení výrazů v QGIS neumí přímo pracovat s řetězci hstore. Na pomoc nám však přichází utilita a výraz filtru uvedený na obrázku `hstore_to_map(other_tags)['building'] is not NULL` převede řetězec 'other_tags' na mapu klíč-hodnota, kde vybereme hodnotu pro klíč 'building'. Podmínka zní, že hledáme objekty, jejichž klíč building není prázdný. Pro budovy můžeme definovat barvu a styl výplně. Po dokončení návrhu pravidla klikněte na tlačítko 'OK'. Nyní můžete přidávat další pravidla kliknutím na ikonu 'plus' ve spodní části karty Symbologie. Přidáme podobná pravidla pro lesy a travnaté plochy. Nakonec bude naše karta Symbologie vypadat takto:
 
 ![symbology polygon rules][]
 
-As an added bonus we can get a quick feature count for the rules. Press the rightmost icon in the row at the bottom (the sum symbol) and the 'count' column will be populated telling us that we have 150 buildings on this layer.
+Jako bonus můžeme získat rychlý počet objektů ke změření. Stiskněte nejpravější ikonu v řádku dole (symbol součtu) a vyplní se sloupec "počet", který nám řekne, že v této vrstvě máme 150 budov.
 
-You can add labels in a similar fashion how we dealt with symbols. 'Labels' is another tab on the properties of a layer, right below Symbology. In most cases you want to print the given name of a feature. You enter an expression similar to the ones used for symbology in the field for a filter and as value you would use `hstore_to_map(other_tags)['name']`. 
+Popisky můžete přidávat podobným způsobem, jako jsme to dělali se symboly. Další záložka "Štítky" se nachází ve vlastnostech vrstvy, hned pod záložkou Symboly. Ve většině případů chcete vytisknout daný název objektu. Do pole pro filtr zadáte výraz podobný těm, které se používají pro symboliku, a jako hodnotu použijete `hstore_to_map(other_tags)['name']`. 
 
 ![labels][]
 
-Assigning such labels to the multipolygon and the point layers you will end up with something like this:
+Přiřazením těchto štítků vrstvám multipolygonu a bodů získáte následující obrázek:
 
 ![done][]
 
