@@ -169,10 +169,6 @@ Both the short and long description should provide information about why the pro
 
 ![TM Instructions][]
 
-**Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
-
-> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
-
 **Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
 
 > Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
@@ -197,7 +193,9 @@ See the below notes on creating good instructions.
 
 **Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
 
-**Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
+**Campaign** - Select one of the campaigns of the organization
+
+**Categories** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
 
 **OSMCha filter ID** - OSMCha is offered as a link from the contributions overview. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach  to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here.
 
@@ -267,15 +265,15 @@ Please use plain language as your target audience may not consist of native Engl
 
 ### Considerations concerning Imagery
 
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+In most cases we use the Maxar Standard imagery. But there are situations where you might want to choose an alternative source:
 
-1. Bing does not provide high-resolution coverage for your mapping area.
-2. Bing has considerable cloud cover in this area.
+1. Maxar Standard does not provide high-resolution coverage for your mapping area.
+2. Maxar Standard has considerable cloud cover in this area.
 3. You need newer imagery for post-disaster evaluation.
 
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+If Maxar does not prove adequate then ESRI, Bing of Mapbox are the next choices. You should only look for other sources if neither of these meet your requirements.
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 
 If there is a constant offset between your imagery and Bing across the mapping area then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the mapping area or if existing data are aligned with various sources then it is time for plan B:
 
@@ -283,9 +281,9 @@ The important point is that you must develop a strategy for how to cope with the
 
 One possible strategy could include these steps:
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
+1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Maxar Standard.
+2. Make sure that all existing features which are also visible on Maxar Standard are aligned with Maxar Standard imagery, i.e. realign if necessary.
+3. Align the alternative imagery to existing features (and thus to Maxar Standard) using the imagery offset function of the editor.
 4. Add new features from the now correctly aligned alternative imagery.
 
 It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.

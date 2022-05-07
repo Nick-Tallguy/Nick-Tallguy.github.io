@@ -9,7 +9,7 @@ category: mobile-mapping
 MapSwipe
 ==============
 
-MapSwipe is a mobile app that aims to prepare satellite imagery for larger scale mapping in OpenStreetMap (OSM). With MapSwipe information, OSM mappers don’t have to spend valuable time scanning unpopulated areas (e.g. deserts or forests) or areas with poor quality data. Those have already been filtered out by Mapswipe.
+MapSwipe is a mobile app that aims to prepare satellite imagery for larger scale mapping in OpenStreetMap (OSM). With MapSwipe information, OSM mappers don’t have to spend valuable time scanning unpopulated areas (e.g. deserts or forests) or areas with poor quality data. Those have already been filtered out by Mapswipe. The red boundary in this picture marks the area of interest, the green areas are those accepted through Mapswipe as areas which contain features.
 
 ![TM][]
 
