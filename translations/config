@@ -237,6 +237,11 @@ file_filter = translations/0900-12-10-oruxmaps_<lang>.md
 source_lang = en
 type = TXT
 
+[learnosm-1.0900-12-12-vespucci]
+file_filter = translations/0900-12-12-vespucci_<lang>.md
+source_lang = en
+type = TXT
+
 [learnosm-1.0900-12-20-osmand2md]
 file_filter = translations/0900-12-20-osmand2_<lang>.md
 source_lang = en
