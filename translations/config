@@ -222,6 +222,16 @@ file_filter = translations/0900-12-05-osmtracker_<lang>.md
 source_lang = en
 type = TXT
 
+[learnosm-1.0900-12-06-streetcomplete]
+file_filter = translations/0900-12-06-streetcomplete_<lang>.md
+source_lang = en
+type = TXT
+
+[learnosm-1.0900-12-07-mapswipe]
+file_filter = translations/0900-12-07-mapswipe_<lang>.md
+source_lang = en
+type = TXT
+
 [learnosm-1.0900-12-10-oruxmapstxt]
 file_filter = translations/0900-12-10-oruxmaps_<lang>.md
 source_lang = en
