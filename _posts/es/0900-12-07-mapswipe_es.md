@@ -25,10 +25,10 @@ Lo que puedes hacer con las fichas depende del tipo de misión.
  ![contains][]
 
 - Huella del edificio. Indicar si una característica mapeada es correcta o no
- ![forma][]
+ ![shape][]
 
 - Detección de cambios (actualmente experimental). Usando una imagen de un Antes y Después, uno tiene que indicar si algo ha cambiado
- ![cambió][]
+ ![changed][]
 
 ## Peticione un proyecto
 
@@ -42,6 +42,6 @@ Vea también
 
 
 [TM]:       /images/mobile-mapping/mapswipe_tm.png
-[contiene]: /images/mobile-mapping/mapswipe_contains.png
-[forma]:    /images/mobile-mapping/mapswipe_shape.png
-[cambió]:  /images/mobile-mapping/mapswipe_changed.png
+[contains]: /images/mobile-mapping/mapswipe_contains.png
+[shape]:    /images/mobile-mapping/mapswipe_shape.png
+[changed]:  /images/mobile-mapping/mapswipe_changed.png

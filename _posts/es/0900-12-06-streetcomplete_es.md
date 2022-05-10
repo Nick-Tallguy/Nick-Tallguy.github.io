@@ -23,36 +23,36 @@ La aplicación muestra sitios a los que se puede añadir datos a OpenStreetMap a
 1. El contribuidor necesita una cuenta de OpenStreetMap antes de realizar ninguna contribución utilizando esta aplicación como con cualquier otra aplicación usada para contribuir a OpenStreetMap.
 2. Pantallas y páginas de Bienvenida
 
-![Bienvenida][]
+![Welcome][]
 
 3. Cuando clickas en "Vamos!" tienes que permitir que StreetComplete acceda a la ubicación del dispositivo.
 
-![Permitir][]
+![Allow][]
 
 4. Haz click en las tres lineas de la esquina superior derecha, después haz click en Mi perfil y luego en iniciar sesión con tu cuenta de OpenStreetMap.
 
 ![Menu+Login][]
-![iniciar sesión][]
+![Login][]
 
 ¿Qué son las misiones? Las misiones son simples puntos o lugares que han sido identificados por tener datos faltantes y están disponibles dependiendo de la ubicación.
 
 Las preguntas varían en función de la información faltante y del elemento cuya información falta.
 
-![Misión de edificio][]
+![Building quest][]
 
 Por ejemplo, para edificios, podrín preguntar sobre ***¿Cuántas plantas por encima del sótano tiene este edificio?*** o ***¿Qué tipo de edificio es este?***
 
 Para carreteras, ***¿Qué tipo de superfície tiene este trozo de (in town) calle / (out of town) carretera / (minor) camino?***
 
-![Más misiones][]
+![More quests][]
 
 Para completar alguna de esta información, necesitas tener o bien conocimiento previo sobre el edificio o lugar, o bien estar lo suficientemente cerca para poder responder las preguntas que te hagan.
 
 
 
-[Bienvenida]:          /images/mobile-mapping/streetcomplete-welcome.png
-[Permitir]:            /images/mobile-mapping/streetcomplete-allow.png
+[Welcome]:          /images/mobile-mapping/streetcomplete-welcome.png
+[Allow]:            /images/mobile-mapping/streetcomplete-allow.png
 [Menu+Login]:       /images/mobile-mapping/streetcomplete-menu_login.png
-[iniciar sesión]:            /images/mobile-mapping/streetcomplete-login.png
-[Misión de edificio]:   /images/mobile-mapping/streetcomplete-building-quest.png
-[Más misiones]:      /images/mobile-mapping/streetcomplete-more-quests.png
+[Login]:            /images/mobile-mapping/streetcomplete-login.png
+[Building quest]:   /images/mobile-mapping/streetcomplete-building-quest.png
+[More quests]:      /images/mobile-mapping/streetcomplete-more-quests.png

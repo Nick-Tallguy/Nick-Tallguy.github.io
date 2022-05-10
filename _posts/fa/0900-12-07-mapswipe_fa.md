@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: MapSwipe
-permalink: /en/mobile-mapping/mapswipe/
+permalink: /fa/mobile-mapping/mapswipe/
 lang: fa
 category: mobile-mapping
 ---
