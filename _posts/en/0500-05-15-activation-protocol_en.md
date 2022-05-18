@@ -16,4 +16,4 @@ category: coordination
 
 
 [HOT]: /images/hot-logo.png
-<!-- put real images in /images/coordination/... -->
+<!-- put real images in /images/coordination/... with some meaningful prefix, max width 520 px -->
