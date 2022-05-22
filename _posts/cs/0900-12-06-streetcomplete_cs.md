@@ -46,7 +46,7 @@ U silnic: ***Jaký povrch má tato silnice?***
 
 ![More quests][]
 
-To fill in some of this information, you need to either have prior knowledge about the building, place or be close enough to be able to answer the questions being asked.
+Abyste mohli některé z těchto informací doplnit, musíte mít buď předchozí znalosti o budově, místě, nebo být dostatečně blízko, abyste byli schopni odpovědět na položené otázky.
 
 
 
