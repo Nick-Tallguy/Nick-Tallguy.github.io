@@ -1,9 +1,9 @@
 ---
 layout: doc
 title: MapSwipe
-permalink: /en/mobile-mapping/mapswipe/
+permalink: /es/mobile-mapping/mapswipe/
 lang: es
-categoría: mapeo en dispositivos móviles
+category: mobile-mapping
 ---
 
 MapSwipe
