@@ -10,7 +10,7 @@ StreetComplete
 ==============
 
 
-**StreetComplete** je snadno použitelný editor OpenStreetMap pro telefony a tablety se systémem Android, který slouží k mapování v terénu především pomocí plnění dostupných "úkolů", které se zobrazují jako špendlíky na mapě.
+**StreetComplete** je snadno použitelný editor OpenStreetMap pro telefony a tablety se systémem Android, který slouží k mapování v terénu, především pomocí plnění dostupných "úkolů", které se zobrazují jako špendlíky na mapě.
 
 Aplikace je vytvořena speciálně pro příležitostné přispěvatele a začátečníky, protože k přispívání pomocí aplikace nejsou nutné žádné předchozí znalosti o OpenStreetMap (např. schémata značení).
 
@@ -29,7 +29,7 @@ Aplikace zobrazuje místa, kde lze prostřednictvím aplikace přidávat data do
 
 ![Allow][]
 
-4. Klikněte na tři řádky v pravém horním rohu, pak klikněte na Můj profil a poté se přihlaste pomocí svého účtu OpenStreetMap.
+4. Klikněte na tři linky v pravém horním rohu, pak klikněte na Můj profil a poté se přihlaste pomocí svého účtu OpenStreetMap.
 
 ![Menu+Login][]
 ![Login][]

@@ -43,7 +43,7 @@ category: hot-tips
   **building   school**  
 یا یکی دیگر از تگ‌ها. برای اطلاعات بیشتر دربارهٔ برچسب‌گذاری ساختمان‌ها <https://wiki.openstreetmap.org/wiki/Buildings> را ببینید.  
 
-[Highways section of this HOT-tips section](/en/hot-tips/highways/) را نیز جهت اطلاعات بیشتر دربارهٔ تگ‌گذاری راه‌ها ببینید.  
+[Highways section of this HOT-tips section](/fa/hot-tips/highways/) را نیز جهت اطلاعات بیشتر دربارهٔ تگ‌گذاری راه‌ها ببینید.  
 
 ### رابطه‌ها - مانند ساختمان‌هایی که حیاط دارند یا جزیره‌های وسط یک رودخانه ###
 
