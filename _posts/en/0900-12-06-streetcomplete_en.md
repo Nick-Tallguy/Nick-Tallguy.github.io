@@ -50,6 +50,8 @@ This app is designed to be used by people to map their surroundings.
 
 There is a "Can't say" option, sometimes within the "Other answers..." menu, which allows you to leave a note and attach a photo. This should be used when the object does not match any other option, for example StreetComplete asks about the surface of a footway which does no longer exist. Consider adding photos if possible as it makes fixing notes remotely much easier.
 
+For some objects it is possible to mark that object as not existing anymore within the app, without creating a note.
+
 [Welcome]:          /images/mobile-mapping/streetcomplete-welcome.png
 [Allow]:            /images/mobile-mapping/streetcomplete-allow.png
 [Menu+Login]:       /images/mobile-mapping/streetcomplete-menu_login.png
