@@ -1,8 +1,8 @@
 ---
 layout: doc
 title: StreetComplete
-permalink: /en/mobile-mapping/streetcomplete/
-lang: en
+permalink: /fr/mobile-mapping/streetcomplete/
+lang: fr
 category: mobile-mapping
 ---
 
