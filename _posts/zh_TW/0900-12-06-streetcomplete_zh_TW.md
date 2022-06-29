@@ -10,11 +10,11 @@ StreetComplete
 ==============
 
 
-**StreetComplete** is an easy to use OpenStreetMap editor for Android phones and tablets, used for mapping in the field mainly by completing the available "quests" that appear as pins on a map.
+**StreetComplete**是 Android 手機與平板上相當容易上手的開放街圖編輯器，能夠透過完成現有在地圖以針頭型式代表的「任務」在現地畫地圖。
 
-The app is made specifically for casual contributors and beginners as no prior knowledge about OpenStreetMap (such as tagging schemes) is required to contribute using the app.
+這款 app 特別設計給輕量的貢獻者與沒有開放街圖知識的新手使用 (例如標籤標準)。  
 
-You can download it from Google Play Store, Amazon or F-Droid. Release and beta APKs of the app are also available from its GitHub repository.
+你可以在 Google Play 商店、Amazon 或是 F-Droid 下載，app 的發佈版與測試版本 APK 都能在 GitHub 倉櫥下載。
 
 The app displays places where data can be added to OpenStreetMap through the app as quest pins on a map. This app lists all question types available in a particular place depending on the already available data on OpenStreetMap.
 
@@ -40,13 +40,13 @@ The questions asked depend on the missing information and the feature whose info
 
 ![建構任務][]
 
-For example, for buildings, one could be asked about ***How many levels above the basement does this building have?*** or ***What kind of building is this?***
+譬如說，對於建築來說，你可以詢問***這棟建築地上層有幾層？***，或者是***這棟是什麼類型的建築？***
 
-For roads, ***What surface does this piece of road have?***
+譬如對於道路來說，你可以詢問***這路的舖面材質是什麼？***
 
 ![更多任務][]
 
-To fill in some of this information, you need to either have prior knowledge about the building, place or be close enough to be able to answer the questions being asked.
+要填寫更多資訊，必需有更多建築相關的資訊，在現地或是夠近才能回答問題。
 
 
 
