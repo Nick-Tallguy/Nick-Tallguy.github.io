@@ -9,44 +9,44 @@ category: josm
 衛星写真・航空写真
 ================
 
-> Reviewed 2015-09-21  
+> Reviewed 2022-07-01  
 
-Tracing imagery is an easy and powerful way to contribute to OSM. Using imagery to draw points, lines and shapes on the ground is called **digitizing**. It can often be separated from the act of collecting attribute data on the ground, which is often called **ground-truthing**. Digtizing imagery can provide the skeleton of OSM maps, which makes ground-truthing easier for people in the field. In this chapter we'll learn a little bit more about how aerial imagery works.  
+画像のトレースは、OSMへの貢献として簡単かつ強力な手法です。画像を参照して、地面に点や線、なにかの形状を描くことは**デジタイジング**と呼ばれます。これは、**実地調査（グラウンドトゥルース）**と呼ばれる、地上の属性データを収集する行為と対比されることがよくあります。画像のデジタイジングはOSMマップの骨格となるもので、現場での実地調査を容易にします。この章では、航空画像の仕組みについて少し詳しく説明します。  
 
-About Imagery
+航空写真・衛星写真について
 -------------
 
-Aerial imagery is the term that we use to describe photographs that are taken from the sky. These can be taken from airplanes, drones, helicopters, or even kites and balloons, but the most common source of imagery comes from satellites orbiting the Earth.  
+航空写真・衛星写真は、現地の上空から撮影された写真のことを指す用語です。写真は航空機やドローン、ヘリコプター、あるいは凧やバルーンといった手段で撮影されますが、その中でも、地球の軌道上から撮影される衛星写真が最も一般的です。  
 
-[In the chapter on GPS](/en/mobile-mapping/using-gps) we learned about the dozens of satellites orbiting Earth which allow our GPS receivers to identify our latitude and longitude. In addition to these GPS satellites, there are also satellites which take photos of the earth. These photos are then manipulated so that they can be used in GIS (mapping) software. Bing Aerial Imagery is made up of satellite photos.  
+[GPSの章](/ja/mobile-mapping/using-gps)では、地球の軌道上に数十個の衛星が存在し、私達が使っているGPS受信機はそれらの衛星を使うことで緯度経度を特定する、ということを学びました。実は、軌道上にはGPS衛星に加え、地球の表面を撮影する機能をもつ衛星も存在しています。撮影された写真は加工され、GIS（マッピング）ソフトウェアで利用することができるようになります。Bing衛星写真は衛星写真を利用して制作されています。  
 
-Resolution
+解像度
 ----------
 
-All digital photographs are made up of pixels.  If you zoom in very close on a photograph, you will notice the the image starts to get blurry, and eventually you’ll see that an image is made up of thousands of little squares that are each a different color.  This is true whether the photograph is taken with a handheld camera, a mobile phone, or a satellite orbiting Earth.  
+あらゆるデジタル写真は画素（ピクセル）から成り立っています。写真を拡大してゆくと次第に画像がぼやけてゆき、最終的には異なった色調が与えられた数千の小さな四角形が画像を構成していることがわかります。これは、写真がたとえハンディカメラや携帯、あるいは軌道上の衛星から撮影された場合であってもこのようになっています。  
 
 ![Image resolution][]
 
-Resolution refers to the number of pixels wide by the number of pixels high that an image is.  More pixels means higher resolution, which means that you are able to see greater detail in the photograph.  Resolution in handheld cameras is often measured in megapixels.  The more megapixels your camera is able to record, the higher the resolution of your photos.  
+解像度とは、画像の横の画素数×縦の画素数のことです。 画素数が多いほど解像度が高くなり、写真の細部までよく見えるようになります。 ハンディカメラの解像度は、多くの場合、メガピクセルで測定されます。 記録できる画素数が多ければ多いほど、写真の解像度は高くなります。  
 
-Aerial imagery is the same, except that we usually talk about resolution differently.  Measurement is important with aerial photographs - hence, a pixel represents a certain distance on the ground.  We usually describe imagery as something like “two meter resolution imagery,” which means that one pixel is equivalent to two meters on the ground.  One meter resolution imagery would have a higher resolution than this, and 50cm resolution would be higher still.  This is generally the range of imagery that is provided by Bing, though it varies between locations, and in many places it is worse than two meters, at which point it becomes difficult to identify objects in the image.  
+衛星写真も基本は同じですが、解像度については通常、異なる言い方をします。 航空写真では計測が重要であり、1ピクセルは地上における一定の距離を表しています。 1ピクセルが地上2メートルに相当することを意味している場合、「2メートル分解能の画像」などと表現します。 1m解像度ならこれより高い解像度、50cm解像度ならさらに高い解像度になります。 Bingが提供する画像は一般的にこの範囲ですが、場所によって差があり、2mを下回ると画像内の物体の識別が困難になる場所が多くあります。  
 
 ![Comparison of low and high resolution imagery][]
 
-The higher the resolution of an aerial image, the easier it is to use in making maps.  
+衛星写真の解像度が高ければ高いほど、地図を作成することが簡単になります。  
 
-Georeferencing
+ジオリファレンス
 ---------------
 
-Each pixel of an aerial photograph has a size, and each pixel also has a location. As we mentioned above, this is because aerial photographs are georeferenced.  
+衛星写真は、1画素ごとに大きさがあり、1画素ごとに位置情報が付与されています。これは前述したように、衛星写真にはジオリファレンス（地理参照）が存在するためです。  
 
-Just like a GPS point has a latitude and longitude, so will the pixels in an aerial image. However, just as poor resolution can bring challenges to mapping, so can poorly georeferenced images.  
+GPSのポイントに緯度と経度があるように、衛星画像の画素にも緯度と経度が付与されています。しかし、解像度が低いと地図作成に支障が出ることと同様、ジオリファレンスが不十分な画像もあります。  
 
-Let's think for a moment about how georeferencing works, and why it is challenging to do. When somebody georeferences an image, they first identify a handful of pixels in the image that are known locations. If we have a square photograph, we might identify the coordinates of all four corners, and that way the whole image can be correctly placed.  
+ではここで、ジオリファレンスがどのように機能するのか、また、なぜそれが難しいのかについて少し考えてみましょう。ある画像をジオリファレンスする場合、まず、画像の中から位置が判明している画素を特定します。正方形の写真であれば、4つの角の座標を特定することで、画像全体を正しく配置することができます。  
 
-This all seems quite simple, but consider this: Earth is round; camera lenses are round; yet photographs are flat and 2-dimensional. This means that when a flat image is being mapped onto the round Earth, there is always going to be some stretching of the image and distortion. Imagine trying to flatten an orange-peel. It won't end up rectangular. Because of this problem, all of the pixels in an aerial image might not be perfectly placed.  
+簡単なことのように思えますが、よく考えてみましょう。地球は丸く、カメラのレンズも丸い。ですが、写真は平面で2次元です。つまり、丸い地球を平らな画像として投射すると、画像は必ず、伸びたり歪んだりするのです。オレンジの皮を平らにすることを想像してください。皮が長方形になることは無いでしょう。そのため、衛星写真に含まれる画素がすべて完璧に配置されるとは限りません。  
 
-Luckily, some really smart people have devised clever algorithms for solving this problem, and so the imagery that you see on Bing is pretty close to being accurate. In most places it won't be noticeably wrong at all - and it's certainly fine for making maps. The most common areas for imagery to be inaccurately located are in hilly, mountainous areas. In the [Correcting Imagery Offset chapter](/en/josm/correcting-imagery-offset) we will see how to correct for this problem.  
+幸いなことに、この問題を解決する巧妙なアルゴリズムが開発されたため、私達がBingで見る画像はかなり正確なものになりました。そのため、Bingで表示される画像は、ほぼ正確なものとなっています。しかし、丘陵地や山間部では、画像の位置が正確でないことがよくあります。[画像オフセットの補正](/ja/josm/correcting-imagery-offset)の章では、この問題をどのように補正するかを説明します。  
 
 [Image resolution]: /images/josm/orange-resolution.png
 [Comparison of low and high resolution imagery]: /images/josm/low-res-high-res.png
