@@ -28,14 +28,14 @@ JOSMがひとりでに編集競合の対処法を考えて、こうしたメッ�
 このウィンドウでは、あなたが編集した内容で編集競合が発生する可能性があるかどうかについて、警告を表示しています。編集上の問題が発生している場合、サーバー上で確認することで、修正を行うことができます。  
 ![check on server][]  
 
-This warning tells you that JOSM failed to delete a node due to it still being referenced in a way.  In order to remedy this, the user has to go back into JOSM and resolve the conflict before uploading the data:  
+この警告は、ノードがまだ何らかの状態で他のオブジェクトから参照されていることが原因で、JOSMがノードの削除に失敗したことを伝えています。 この状態を解決するためには、ユーザはデータをアップロードする前にJOSMを再度操作し、競合を解決する必要があります。  
 ![still in use][]  
 
 競合の解決
 --------------------
 
-The process of resolving a conflict is quite simple, although it can appear confusing at first in JOSM.  Basically, for every conflict JOSM will present you with two choices - your version of an object and the one that is on the server.  You need to choose whether to keep your version, or whether the new version on the server should remain.  
-You might think, “of course my version is going to be better!”  And maybe you’re right.  But think back to our example at the start of this chapter.  Perhaps while you were busy editing, another mapper added a lot of information to one of the nodes in your data set.  If you choose your version over their version, you will lose all of that valuable information that they added.  Hence you should consider keeping their version, or merging it with your own.  
+競合を解決する方法は非常に簡単です。ただ、JOSMで最初に目にする際には混乱してしまうかもしれません。 基本的にJOSMは、発生しているすべての競合箇所に対し、2つの選択肢を提示します - あなたがアップロードしたオブジェクトバージョンと、サーバー上に存在するバージョンです。自分のバージョンを残すか、サーバー上に存在する新しいバージョンを残すか、どちらかを選択する必要があります。  
+あなたはもちろん、"私のバージョンの方がいいに決まっている！"と思われるかもしれません。 そして、その通りかもしれません。しかし、本章の冒頭で述べた例を思い出してみてください。 あなたが編集作業をしている間に、データセット内のあるノードに対し、他のマッパーがより多くの情報を追加していたかもしれません。もし、その人のバージョンではなく自分のバージョンを選んだら、その人が追加した貴重な情報をすべて失うことになります。したがって、その人のバージョンを維持するか、自分のバージョンとマージすることを検討すべきです。  
 When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
 ![synchronize node][]  
 Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
