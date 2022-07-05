@@ -36,16 +36,16 @@ JOSMがひとりでに編集競合の対処法を考えて、こうしたメッ�
 
 競合を解決する方法は非常に簡単です。ただ、JOSMで最初に目にする際には混乱してしまうかもしれません。 基本的にJOSMは、発生しているすべての競合箇所に対し、2つの選択肢を提示します - あなたがアップロードしたオブジェクトバージョンと、サーバー上に存在するバージョンです。自分のバージョンを残すか、サーバー上に存在する新しいバージョンを残すか、どちらかを選択する必要があります。  
 あなたはもちろん、"私のバージョンの方がいいに決まっている！"と思われるかもしれません。 そして、その通りかもしれません。しかし、本章の冒頭で述べた例を思い出してみてください。 あなたが編集作業をしている間に、データセット内のあるノードに対し、他のマッパーがより多くの情報を追加していたかもしれません。もし、その人のバージョンではなく自分のバージョンを選んだら、その人が追加した貴重な情報をすべて失うことになります。したがって、その人のバージョンを維持するか、自分のバージョンとマージすることを検討すべきです。  
-When you get a conflict window pop-up, it is best to choose the button “Synchronize ... only.”  You may need to do this for more than one object, but it is best to resolve conflicts one at a time.  
+競合解決ウィンドウのポップアップが表示されたら、"... のみを同期する"のボタンを選択するのが最善です。複数のオブジェクトに対してこの操作を行う必要があるかもしれませんが、競合は一度に1つずつ解決するのがお勧めです。  
 ![synchronize node][]  
-Once you click this button, you will get a pop-up window that details your conflict.  The error message may look complicated, but it is rather simple.  You will know what type of conflict you have by the red square symbol in the top tab.  The conflict in the below example refers to the properties, such as the location and existence of the object.  This is why the coordinates and deleted state are listed.  
+このボタンをクリックするとポップアップウィンドウが表示され、競合の詳細が表示されます。複雑なエラーメッセージに見えるかもしれませんが、むしろ内容はシンプルです。一番上のタブにある赤い四角いマークで、どのような編集競合が発生しているかが分かります。下の競合の例では、オブジェクトの位置や、削除されたかどうかなどのプロパティが参照されています。そのため、座標や削除された状態などが表示されています。  
 
-**Types of Conflict:**
+**競合の種類**
 
-- **Properties:**  Object has been moved (coordinates) or deleted  
-- **Tags:**  Tags do not match  
-- **Nodes:**  There is a differences in the list of nodes in two ways  
-- **Members:**  There is a difference in the list of members in a relation  
+- **プロパティ:**  オブジェクトの位置（座標）が変更された、あるいは削除された  
+- **タグ:**  タグに不整合がある  
+- **ノード:**  2つのウェイの間で、所属しているノードに差異がある  
+- **メンバー:**  リレーションに所属しているメンバーに差異がある  
 ![properties with conflicts][]  
 
 Conflicts only appear with two different edits at a time.  If there are three or more conflicts, then a chain of conflicts will pop-up.  Therefore you have to choose or merge with only two conflicts at a time.  You can choose your version, the other version or, at times, merge the two.  
@@ -142,7 +142,7 @@ server dataset (the rightmost table).
 
 ![]({{site.baseurl}}/images/intermediate/en_conflict_resolution_image24.png)
 
-### The standard workflow
+### 標準のワークフロー
 
 The standard workflow to resolve conflicts in the node lists of two
 [object

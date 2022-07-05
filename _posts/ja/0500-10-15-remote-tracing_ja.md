@@ -11,77 +11,77 @@ category: coordination
 
 > Reviewed 2022-06-22  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+この章は、[LearnOSMの遠隔・アームチェア、そしてマッパソンの章](/ja/coordination/remote/) に引き続き、HOTでのマッピング経験がない場合に必要となります。  
 
 
 Section Index
 =====
 
-[Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
-[The Highway network](/en/coordination/remote-tracing/#the-highway-network)  
-[Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
-[Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
+[道路の描き方（歩道および農道を含む）](/ja/coordination/remote-tracing/#roads)  
+[道路ネットワーク](/ja/coordination/remote-tracing/#the-highway-network)  
+[住居区画の土地利用の描き方](/ja/coordination/remote-tracing/#residential-boundaries)  
+[建物、壁、フェンス、複合施設、障害物](/ja/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 
-## Roads
+## 道路
 
-Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
+高速道路から農道、小道まで、OpenStreetMapではあらゆる種類の道路が 'highway' とラベル付けされています。道路データは様々な用途に使われるため、データベース（OpenStreetMapデータ）に正しく追加されることが重要です。  
 
--  Navigation software such as Garmin devices and apps. on smartphones such as Osmand can provide routing information over great distances if the correct information is loaded into them. As these rely on the gps within the device to locate the position in relation to the basemap loaded into them, it is important that the highways are actually within about 15 metres of the right place, or they will not work!  
--  Planning the route for a large 'aid' lorry is much easier if you can differentiate between a path & a trunk road, with all the stages in between.  
--  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
--  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
+- GarminなどのナビゲーションソフトやOsmandなどのスマートフォンのアプリは、正しい情報が読み込まれていれば、たとえ遠距離であっても経路情報を提供することができます。これらのソフトウェアはデバイスに装備されたGPSを利用しており、読み込んだベースマップと比較して現在位置を特定します。そのため、道路データが現在位置から実際に15メートル程度以内にあることが重要であり、そうでない場合は正常に機能しません。  
+- 大型の '支援物資用' ローリーのための移動経路を計画するにあたって、小さな小道から幹線道路まで、その間に存在するすべての道路の大小を区別することができれば、計画立案はとても簡単になります。  
+- 移動経路計画を立てるにあたっては、道路がアスファルトで舗装されているか、それとも柔らかい泥濘であるかを知ることも重要です。
+- 疫病の伝播状況をプロットしようとする場合、患者が指摘する '十字路の近く' という表現は、実際に地図上に十字路があれば、非常に重要な手がかりとなります。
 
-### <a name="highways-howto"></a> Highways - How to map
+### <a name="highways-howto"></a> 道路 - マッピング方法
 
 ![iD 3][]
 
-1.  When tracing highways, ensure you are zoomed in sufficiently. As a starting guide set the scale to about 20 metres, and trace the highway so that your tracing has sufficient points in it to keep it on, or very close to, the road you can see in your satellite imagery. In the screenshot above you can see I have traced the road that had been passed over to me, down, through the trees, and down to another building where it appears to stop. Where the trees are close to the road, and the imagery is obtained by an overhead camera, it appears as if the road narrows as it goes through the trees - however, it is just the effect of the trees obscuring the view, and the road is the same width throughout.  
-2.  I've also traced another section of road, making sure that it is connected at each end - iD shows this with a slightly larger and darker coloured dot at the junction. It is important that the roads join and 'share a common node' so that routing software will provide the correct guidance.  
-3.  The road is tagged as 'highway=residential', and I've also added 'surface=unpaved'.  
-4.  For a full description of tagging within Africa, refer to the wiki page [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
+1. 道路をトレースする場合は、十分にズームインしていることを確認してください。縮尺を20メートル程度に設定して道路をトレースするか、あるいは衛星画像で道路と視認できる線や、それに非常に近しい地点をトレースするようにします。上のスクリーンショットでは、私がトレースを担当することになった道路が、木々の間を通り抜け、別の建物まで下りて、そこで止まっているように見えるのがわかります。道路の近くに木があるため、衛星写真のカメラで撮影した画像で判別する限り、木々の間を通り抜ける際に道路が狭くなったように見えますが、これは木が視界を遮っているだけで、道路はずっと同じ幅です。  
+2. また、別の道路もトレースして、お互いに道路がつながっていることを確認しました。iDでは、分岐点のドットが少し大きく、色が濃く表示されています。経路探索ソフトウェアが正しいガイダンスを提供するためには、道路が接合することで '共通のノード' が存在することが重要です。  
+3. この道路は 'highway=residential' としてタグ付けされており、私はそこに 'surface=unpaved' タグを追加しました。  
+4. アフリカにおける道路のタグについて、詳しい解説は [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) ページに記載されています。  
 
-> There is a high risk of suffering from conflicts which will prevent you saving your work when working on any highway which extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the highway, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> マッパーが編集している区画の外に伸びている道路データを作業している際は、編集競合が発生してデータが保存できなくなる危険性が高くなります。道路データを編集する前に一度すべての変更を保存しておき、その後も、例えば6ノード程度追加した後など、非常に頻繁な保存を行うことをお勧めします。
 
 
-### The Highway Network
+### 道路ネットワーク
 
 ![JOSM 4][]
 
-This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](https://josm.openstreetmap.de/wiki/Styles). Although designed to assist validators, it can be very useful when carrying out initial mapping. Anything that is coloured red has some kind of problem - the remaining colours are explained in the key in this screenshot.  
+このスクリーンショットは、[JOSMのスタイル](https://josm.openstreetmap.de/wiki/Styles)としてHOT-OSM-Validateスタイルが使用されている例です。このスタイルは、データ確認者（validator）を支援するために作られたものですが、最初のマッピングを行う際にも非常に役に立ちます。赤色で表示されているオブジェクトには何らかの問題があります。その他の色については、このスクリーンショットのキーで説明されています。  
 
-1.  This section of highway is coloured red because the tag has been incorrectly typed and a capital letter has been used. The tag should be highway=unclassified, which would have resulted in a pale brown colour in the screenshot.  
-2.  This is part of the highway network for the town to the South West.This network connects to the rest of the highway network of Africa.  
-3.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
+1. 道路の一部が赤く表示されているのは、この部分のタグ入力に誤りがあり、大文字が使われているためです。タグはhighway=unclassifiedとすべきであり、正しく入力されていればスクリーンショットでは淡い茶色として表示されているはずです。  
+2. これは、とある町からサウスウェストにつながる道路ネットワークの一部です。このネットワークは、アフリカの他の道路ネットワークに接続されています。  
+3. これらの道路区間は '孤立' しています。つまり、他の道路や町に一切つながっていない、ということです。現在のままでは、これらの道路データはあまり有用といえず、他のネットワークに接続することができるか、あるいは削除してしまう必要があるか、検討が必要となります。  
 
 
-**Highway or stream?**
+**道路と小川の判別**
 
 ![iD 5][]
 
-There are no style views available to assist in using iD, but in this screenshot you can see an area of vegetation and ground. The ground appears to be silt or perhaps even an area of marshland without the water present. The dotted black and white lines represent paths in iD & I have temporarily highlighted & then deleted one of them to show the terrain.  
+iDエディタで編集を支援するためのスタイル様式はまだありませんが、このスクリーンショットでは植生と地面のエリアを視認することができます。地表はシルト（沈泥）か、あるいは水のない湿地帯のように見えます。黒と白の点線はiDでは小道（path）を表しますが、地形を示すために一時的にハイライトし、そのうちの1つを削除しています。  
 
-1.  highway=path or stream bed. Probably both!  highways of all sizes frequently follow a river valley and in many cases they may follow the course of a seasonal river or stream. In this case this appears to be a flood plain area which at the time the satellite imagery was produced was dry, and being used as a path. This would be best tagged as:  
+1. これは highway=pathでしょうか、あるいは小さな川（stream）でしょうか。答えはおそらく両方でしょう！ 道路はその大小に関わらず、川の谷間に沿っていることが多く、季節によって水が流れて川になる場所がよくあります。この例の場合、対象は氾濫原のように見えますが、衛星画像が作成された時点では乾燥しており、道として使用されていました。ここでは次のようなタグを付けるのが最適でしょう。  
 highway=path  
 seasonal=yes  
 surface=unpaved  
-2.  The path can be clearly seen going towards and into the band of trees and shrubland, but it is not possible to see its exact course through the trees. In these circumstances you can be certain the path, track or highway is present, it is just obscured from your view by the trees. I have mapped this by continuing the path I was tracing where it could be clearly seen on the ground as a straight line through the trees to the clearly visible continuation on the other side. Use this with caution, but in this instance it is obvious that the path is present and its path is likely to be very close to the line I have drawn. This is a more extreme usage - it is more usual to estimate the path of a highway for only a few metres where your view of it is obscured by one or two trees.  
-3.  Having deleted the path so that I could see the ground clearly, I can easily replace it by using the 'undo' feature of iD.  
+2. 木々や低木地に向かって、その中を小道が抜けてゆく様子ははっきりと判別できます。ただし、木々の間からその道筋を明確に視認することはできません。このような状況では、木々によって視界が遮られているとはいえ、小道や農道、あるいはなにかしらの道路が存在することは確かです。私は、トレースしていた道路が木々の間から直線としてはっきりと見える場所から、別のはっきり視認できる端まで線をつなげることで、地図を作成しました。この使い方は注意が必要ですが、この例では道が存在することは明らかで、その道筋は私が引いた線に非常に近いと思われます。ただ、これはとても極端な使い方です。普通は、道路が1、2本程度の木に隠れて見えない場合など、数メートルぶんだけ場所を推定する程度の使い方をします。  
+3. 地表が明瞭に見えるよう、小道のデータを削除しておくと、iDの '元に戻す' 機能で簡単に置き換えることができます。  
 
 ***
 
 
-## Residential Boundaries
+## 居住区画の外周境界
 
-Residential boundaries are used for many purposes in OpenStreetMap.  
+OpenStreetMapでは、居住区の外周境界データは様々な用途で利用されます。  
 
-+  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](http://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
-+  Where there is not time to map in detail from the outset, the project within the Task Manager will frequently require something similar to this:  
++ 最もシンプルな用途では、 高いズームレベルで [OpenStreetMap.org](http://www.openstreetmap.org) を閲覧した際に、居住区画を視認するために使われます。対象の区画は、標準表示では薄いグレーとして表示されます。  
++ 最初から詳細にマッピングするには時間が足りない場合、Tasking Managerのプロジェクトでは、居住区の外周境界に近いものが必要になることが多いようです。  
 
->    Map essential infrastructures such as schools, place of worship and markets.  
->    Trace outbound of settlements and cemeteries.  
->    We will trace roads later in an other Task.   
-+  landuse=residential can also be used for statistical purposes, and accurate mapping then becomes important  
+> 最低限必要な設備、例えば学校や宗教施設、市場などをマッピングしましょう。  
+> 集落や墓地の外周をトレースしてください。  
+> 道路データは後ほど、別のタスクとしてトレースします。   
++ landuse=residential は統計にも利用され、正確なマッピングが重要になっています。  
 
 *  If you can establish how many people normally reside in each dwelling, and  
  how many dwellings are normally built in a given area, then  

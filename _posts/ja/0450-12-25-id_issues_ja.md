@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: Issues - iD editor
+title: 課題 - iDエディタ
 permalink: /ja/hot-tips/issues/
 lang: ja
 category: hot-tips
 ---
 
-Issues - iD editor
+課題 - iDエディタ
 ============
 
 > Created 2019-06-28  
 
-- TOC
+- 目次
 {:toc}
 
 The Essentials
@@ -33,16 +33,16 @@ In the first image only the mappers own edits are shown - there are no issues, b
 
 ![Error][]
 
-### Warnings Whilst mapping
+### マッピング中のエラー警告
 
-iD will warn you if you may be making a mistake in your mapping, for instance accidentally overlapping a road and building.  
+iDエディタは編集中に間違いがあった場合にも、指摘のためのエラー警告を表示させます。例えば、道路と建物を交差させてしまったい場合などです。
 
 ![warn when mapping][]
 
-See also  
+参考文献
 ---------
 
-The [iD editor Guide on LearnOSM](/en/beginner/id-editor/) which gives more information.  
+[LearnOSMのiDエディタガイド](/ja/beginner/id-editor/) により詳しい情報が記載されています。
 
 
 [issues]:/images/hot-tips/issues.gif "Tasking Manager selecting a square and loading into the iD editor"
