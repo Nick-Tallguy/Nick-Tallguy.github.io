@@ -88,29 +88,29 @@ OpenStreetMapでは、居住区の外周境界データは様々な用途で利�
  once you have worked out the area covered by a landuse=residential boundary,  
  you can establish a very approximate population for that area.  
  Estimating the number of aid workers & quantity of medicine now becomes more realistic.
-*  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
+* 地名や行政境界は、しばしば他の情報源からインポートされますが、その位置は必ずしも正確ではありません。住宅地の境界がわかれば、インポートを行う人は、地名がどこに配置されるべきかを確認することができます。
 
 
-### <a name="residential-howto"></a> landuse=residential - how to map
+### <a name="residential-howto"></a> landuse=residential - マッピング方法
 
 
-** In an ideal world **  
+** 理想的な作業 **  
 
-*Stage 1* - A decision is taken to map an area, and a mapper quickly puts a very rough landuse=residential boundary around an area,  
-*Stage 2* - The Task Manager project is created & the individual mappers refine the boundary so that it is closer to the buildings etc.  
+*ステージ 1* - ある地域をマッピングすることになり、マッパーが大まかな landuse=residential の境界線を素早く描画する。  
+*ステージ 2* - Tasking Managerでプロジェクトが作成され、参加マッパーが境界線を建物などに近づけるように改良する。  
 
 ![JOSM residential][]
 
 ![iD residential][]
  
-The iD & JOSM screenshots above show a correctly mapped landuse=residential boundary.  
+上のスクリーンショットは、iDとJOSMで現在マッピングされている landuse=residential 境界線の図です。  
 
-1.  The boundary needs to be closed, so that the start point of the line (way), joins to the end point.  
-2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *i.e.* it should not share any nodes. But they can cross.  
-3.  The boundary should be fairly close to the buildings & any gardens or yards that form part of the grouping.  
+1. 境界線は閉じている必要があります。これは、ライン（ウェイ）の描き始めのポイントが、描き終わりのポイントとつながる、ということです。  
+2. 境界線を構成するノードやセグメントは、道路や河川、建物など他の地物と接続してはいけません。 *つまり* 境界線はそれだけで独立するべきで、他の地物とノードを共有してはいけません。ただし、交差はしてもかまいません。  
+3. 境界線は、1つのグループを形成する建物やその庭園、敷地に相当な近さで配置される必要があります。  
 
 
-In the screenshot below, my square contains part of a landuse=residential boundary. The person who completed the square to my right has continued a landuse=residential boundary through their square, and has then correctly 'handed it over' to me by placing the boundary just within my square for me to establish exactly where it should be in my square.  
+以下のスクリーンショットは、私の担当する区画にlanduse=residentialの境界の一部が含まれている様子です。右隣の区画のマッピングを完成させた人は、自分の区画でlanduse=residentialの境界線を描いた上で、私の区画のどこに境界線があるべきかを正確に明示するために、わざと私の区画の中にはみ出すように境界線を置き、編集の続きを私に '手渡し' ました。  
 
 
 ![JOSM residential 1][]
