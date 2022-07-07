@@ -115,11 +115,11 @@ OpenStreetMapでは、居住区の外周境界データは様々な用途で利�
 
 ![JOSM residential 1][]
 
-I will add extra nodes to the boundary, extending it horizontally across my square so that it goes around the buildings , and at the bottom I will continue the boundary as a straight line just inside the square below mine so that the person selecting the square below mine will be able to extend it around any buildings they may have.  
+私は境界線にノードを追加し、自分の担当区画の中で横方向に拡張することで建物を囲むようにしました。下の方は自分の担当区画外に割り込むようにして直線を描いておくことで、下の区画を担当するマッパーが区画を拡張できるようにしています。  
 
-This is a difficult operation - you can see only a small part of the whole town / city / village and although you will do your best with the landuse=residential boundary it is extremely likely that a validator who has an overview of several squares will need to tidy up the boundary as best they can after the individual squares have been mapped.  
+これは難しいオペレーションとなります。自分が視認できるのは対象の市町村の一部だけだからです。しかし、landuse=residentialに関して、できる限りのことはやったほうがよいでしょう。これはいくつかの区画について俯瞰的な視点を持つ確認者は、個々の区画がマッピングされた後、できる限り境界を整理する必要が生まれる可能性が高いからです。  
 
-> There is a high risk of suffering from conflicts when working on a landuse=residential boundary, as it extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the boundary, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> landuse=residentialの境界を描くにあたっては、他のマッパーが編集する区画にもデータが広がるため、編集競合が発生する危険性が高くなります。境界データを編集する前にすべての変更を保存し、6ノード程度を追加した後など、頻繁に変更内容を保存することをお勧めします。
 
 ***
 
