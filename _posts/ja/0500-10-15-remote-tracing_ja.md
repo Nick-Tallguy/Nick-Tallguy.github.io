@@ -124,13 +124,13 @@ OpenStreetMapでは、居住区の外周境界データは様々な用途で利�
 ***
 
 
-## Buildings walls compounds barriers  
+## 建物、壁、構内区画、障害物  
 
-Buildings are added to the map data for a number of reasons;  
+建物データをマッピングするにはいくつかの理由があります:   
 
-*  The density of buildings in an area gives a very good indication of the number of people residing there.  
-*  The size, shape & location of a building can help to identify it as a potential evacuation or treatment site.  
-*  The size, shape, and relative location of buildings can be used to identify particular locations such as wells, aid stations, schools, etc..  
+* 建物の密集度は、その地域に住んでいる人の数をよく表現しています。  
+* 建物のサイズや形状、場所などによって、そこが避難場所や治療場所にできる可能性があるかどうか、確認することができます。  
+* 建物の大きさ、形、相対的な位置から、井戸、救護所、学校などの場所を特定することができます。  
 *  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
 
 
