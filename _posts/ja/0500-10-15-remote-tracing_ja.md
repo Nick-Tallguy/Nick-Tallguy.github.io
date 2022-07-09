@@ -131,25 +131,25 @@ OpenStreetMapでは、居住区の外周境界データは様々な用途で利�
 * 建物の密集度は、その地域に住んでいる人の数をよく表現しています。  
 * 建物のサイズや形状、場所などによって、そこが避難場所や治療場所にできる可能性があるかどうか、確認することができます。  
 * 建物の大きさ、形、相対的な位置から、井戸、救護所、学校などの場所を特定することができます。  
-*  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
+* 建物の損傷度を推定し、潜在的な被災者や必要とされる支援のレベルを推定するためにデータが使える可能性があります - 現時点（2015年1月）では、これはまだ検討中です。  
 
 
-### <a name="buildings-howto"></a> Buildings - How to Map
+### <a name="buildings-howto"></a> 建物: マッピング方法
 
-The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
+HOTによるマッピングが必要な建物の大半は、四角い角を持つ長方形を基礎としているか、あるいは丸い形をしています。もし、この2つが混在しているように見える場合は、影や反射、木の葉などで輪郭が不明瞭になっている可能性が高いです。  
 
-For some tasks where only an outline of an area is required, the task may specify that buildings can be mapped as nodes, but these situations are now rare.  
+対象の領域について概観だけが必要なタスクの場合、建物をノードとしてマッピングしてもよい旨が指定されることもありますが、現在ではそのような状況は稀です。  
 
 
 #### building=yes
 
-Unless the project instructions specify otherwise, buildings should be tagged **building=yes**  
+プロジェクトで特に指示や指定がない限り、建物には **building=yes** というタグを付けるべきです。  
 
-*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
+* 衛星画像が撮影されてから地図作成が開始されるまでに、時間が経過していることがあります。そのため、屋根がないように見える建物が完成し、現在では人が住んでいる可能性もあります。また、数階建ての建物で、下の階は人が住んでいて、屋根のない上の階は現在人が住んでいないという可能性もあります。  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 'q').  
+> **iDエディタを使った建物マッピング** - iDのエリアツールを使って基本的な建物形状を描く場合、タグを building=yes に変更することを忘れないようにしてください。デフォルトの設定では、描かれた形状に対し、単に area=yes のタグが付けられているだけになります。角が四角い建物をトレースする場合は、トレースしたアイテムを四角くする（オブジェクトを選択した状態でショートカット 'q' ）工程を実施しましょう。  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/josm-more-plugins/#the-buildings-tools-plugin)  
+* JOSMのほうが、建物マッピングは格段に早くなります - [JOSM building toolの解説はこちら](/ja/josm/josm-more-plugins/#the-buildings-tools-plugin)。  
 
 ![Buildings iD][]
 
@@ -177,7 +177,7 @@ This screenshot shows part of a square being edited. Note the scale at the botto
 More to follow - see the below links for more guidance.
 
 
-# Further Reading
+# 参考文献
 
 -  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
 -  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
