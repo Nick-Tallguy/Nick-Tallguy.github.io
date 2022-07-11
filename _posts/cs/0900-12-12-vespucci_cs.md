@@ -36,7 +36,7 @@ Můžete si ji stáhnout z Obchodu Google Play, Amazonu nebo F-Droid.  Soubory A
 -   Přidávání, komentování a uzavírání Poznámek OSM a chyb Osmose
 -   Načtení, zaznamenávání a nahrávání stop ve formátu GPX
 -   Zobrazení geo-referencovaných fotografií (opatřených souřadnicemi)
--   Support MapSplit tiled OSM data
+- Podpora MapSplit dlaždicových dat OSM
 -   Podpora čtení datových souborů OSM ve formátu PBF
 -   ...a mnohé další
 
