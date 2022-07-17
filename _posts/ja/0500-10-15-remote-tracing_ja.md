@@ -153,28 +153,28 @@ HOTによるマッピングが必要な建物の大半は、四角い角を持�
 
 ![Buildings iD][]
 
-This screenshot shows part of a square being edited. Note the scale at the bottom of 15 metres - about the figure you should aim at when editing features. When tracing, you are aiming to place the building where it meets the ground:  
+このスクリーンショットは、対象の区画の一部を編集しているところです。下の方に表示されている縮尺は15mで、地物を編集する際に目安になる数字です。トレースを行う際は、建物が地面と接している位置を目安に配置します。  
 
-1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM or iD I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, JOSM - use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size.  
-2.  **Rectangular buildings.** These particular buildings are casting a noticeable shadow. The shadow can help to identify the shape of a building which is partially obscured by another feature. You will find that many buildings are not so simple, and have a verandah or are 'L' shaped - you must trace the actual shape of the building as this will help to identify it when names & other data is being added as part of the ground survey process.  
-3.  **Barriers - walls (or hedges) of a compound.** Having examined the imagery, zooming in & out until I am satisfied that from the shape of the object (use its shadow as well to identify), I believe this to be a wall, and I have tagged it **barrier=wall**. Alternatives include barrier=fence and barrier=hedge.  
-4.  I have joined the barrier=wall to the building=yes at the corner of the building.  
+1. **円形の建物**  この例の場合、建物の高さがかなり低く、影がほとんど見えません。もし、あなたが建物の中に立っていたら、ドームのように見えるでしょう。私は今のところ、このうちの1つだけをマッピングして **building=yes**  としてタグ付けしています。JOSMやiDで残りの丸い建物を素早く追加するには、この建物を選択（ハイライト）してキーボードショートカット *Ctrl+c* を押し、同じサイズの別の丸い建物の中心にカーソルを移動してキーボードショートカット *Ctrl+v* を押します。このサイズの丸い建物がすべて広場に追加されたら、異なるサイズの丸い建物を貼り付けます。次に、JOSMでは *Alt+Ctrl* とマウスを使って正しいサイズに変更し、それをコピーして同じサイズの丸い建物の上に貼り付けます。  
+2. **四角形の建物** これらの建物は明確な影を投げかけています。影は、他の地形に隠れてしまっている建物の形を特定するのに役立ちます。ベランダがあったり、L字型になっていたりする建物も多いので、実際の建物の形をトレースしておくと、現地調査の際に名称やその他のデータを追加する役に立ちます。  
+3. **障害物 - 敷地を囲む壁（あるいは垣根）** 画像を拡大・縮小して調べた結果、オブジェクトの形状からして（影の状況も鑑みて）これは壁であると確信し、**barrier=wall**というタグを付けました。その他の案としては、barrier=fence や barrier=hedge があります。  
+4. 加えて、building=yesが付与された建物の角と barrier=wall を接続しました。  
 
 
-### Satellite imagery distorting the building shape.
+### 衛星写真による建物形状の歪み
 
 
 ![Buildings_2][]
 
-1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
+1. 上の衛星画像は建物を撮影したものですが、衛星が建物の直上ではなかったため、建物の形が歪んで端の壁が写り込んでいます。このため、頂点の屋根が長方形に見えません。太陽は実質的に建物の真上にあるため、図1の矢印で示した建物の影から、建物が長方形であることが確認できます。  
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
+2. この建物をトレースするには、点2の矢印から、この画像の点3で示される建物の終点と推定される場所まで、長方形を作成します。  
 
 
 ***
 
 
-More to follow - see the below links for more guidance.
+より詳しくは、以下のリンクのガイダンスを参照してください。
 
 
 # 参考文献
