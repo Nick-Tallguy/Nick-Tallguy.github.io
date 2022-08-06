@@ -26,9 +26,9 @@ The Tasking Manager 4 has a number of changes that affect the data available for
 To get started click on *Explore Projects* on the top bar of the page.
 On the Projects page you can click on any of the projects to go to that project or you can use the range of filters for selecting the project or projects you wish to see or select from.
 
-![TM choose project for validation][]
+`![TM choose project for validation][]`
 
-![TM filter project for validation][]
+`![TM filter project for validation][]`
 
 After filtering and/or selecting the project you want to work on, scroll down to the bottom of the next page to *Questions and Comments* to see any messages left by previous mappers/validators regarding the project. Then in the bottom right click on the red button *Contribute* to move to the next page.
 
@@ -89,6 +89,28 @@ To validate/invalidate a task you need to select Yes/No under *Is this task well
 For those two choices you can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping. Please be considerate before marking a task as invalid. If just a few bits are missing add them yourself, explain what was missing in your comment but nevertheless mark the task as valid. New mappers will consider their completed task marked as invalid as a fairly harsh comment.
 
 You can access a mapper’s statistics on their profile page at https://<i></i>tasks.hotosm.org/users/_username_. <!-- If the mapper has been making a consistent mistake you can find the projects that mapper worked on by going to their project page and selecting My Tasks below their name. If you want to see all the tasks mapped by that mapper in a specific project you can search their tasks by project id. -->
+
+### OSMCha
+
+OpenStreetMap Changeset Analyser or OSMCha shows changesets in a very visual way. You easily see what a mapper has added, changed and even deleted. With OSMCha you are able to see things that are hidden or hard to spot compared to using other validation tools.
+
+You start OSMCha through the HOT Tasking Manager’s main project page or through an individual task.
+
+<code>![TM OSMCha_project][]</code>
+
+<code>![TM OSMCha_task][]</code>
+
+An example: mapper A incorrectly deletes buildings, then mapper B adds them again and closes the task. Using only the Tasking Manager you will not see mapper A’s deletions any more. And consequently will not inform them of their actions. The same applies to changed features.
+
+The strength of OSMCha lies in the use of filters. Eg. if you start it via the Tasking Manager's main project page it lists all the changesets in the project. Using the filter “New mapper” narrows the list down to only beginner mappers. That way you can quickly address them, even before the tasks they mapped become available to validators.
+
+If you want to see in wich task the changeset was created you can open the changeset directly in JOSM.
+
+A warning: a changeset could have been changed later on. So never change or correct mappings via OSMCha, always do that via the Tasking Manager.
+
+Links:
+* [OSMCha](https://osmcha.org/)
+* [OSMCha wiki](https://wiki.openstreetmap.org/wiki/OSMCha)
 
 [TM choose project for validation]: /images/coordination/tm4_validation_select_projects.png
 [TM filter project for validation]: /images/coordination/tm4_validation_filter_projects.png
