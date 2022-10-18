@@ -96,9 +96,9 @@ OpenStreetMap Changeset Analyser or OSMCha shows changesets in a very visual way
 
 You start OSMCha through the HOT Tasking Manager’s main project page or through an individual task.
 
-<code>![TM OSMCha_project][]</code>
+![TM OSMCha_project][]
 
-<code>![TM OSMCha_task][]</code>
+![TM OSMCha_task][]
 
 An example: mapper A incorrectly deletes buildings, then mapper B adds them again and closes the task. Using only the Tasking Manager you will not see mapper A’s deletions any more. And consequently will not inform them of their actions. The same applies to changed features.
 
@@ -119,3 +119,5 @@ Links:
 [TM multi selection]: /images/coordination/tasking_manager_multi_selection.png
 [TM finalize validation]: /images/coordination/tm4_validation_finalize.png
 [TM finalize validation multiple tasks]: /images/coordination/tm4_validation_finalize.png
+[TM OSMCha_project]: /images/coordination/tm4_validation_osmcha_project.png
+[TM OSMCha_task]: /images/coordination/tm4_validation_osmcha_task.png
