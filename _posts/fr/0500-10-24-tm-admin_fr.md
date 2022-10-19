@@ -20,7 +20,7 @@ Index de la section
     -  [Définir les tâches](/fr/coordination/tm-admin/#Définir-les-tâches)
     -  [Avancé : Définir les tâches avec des données importées](/fr/coordination/tm-admin/#Avancé:Définir-les-tâches-avec-des-données-importées)
     -  [Découpage des zones de projet](/fr/coordination/tm-admin/#Découpage-des-zones-de-projet)
-    -  [Nom du projet](/fr/coordination/tm-admin/#Nom-du-projet)
+    -  [Nommez le projet](/fr/coordination/tm-admin/#Nommez-le-projet)
 -  [Editer un projet](/fr/coordination/tm-admin/#Editer-un-projet)
     -  [Description - la première chose que les utilisateurs apprennent sur votre projet](/fr/coordination/tm-admin/#description)
     -  [Instructions - ce que les utilisateurs doivent faire](/fr/coordination/tm-admin/#instructions)
@@ -66,14 +66,14 @@ Pour chaque projet, les administrateurs peuvent désigner des équipes spécifiq
 
 Cliquez sur `Gestion` dans la navigation en haut. Dans la première ligne, vous voyez un espace pour 'Projets'. A côté, cliquez sur le bouton `Ajouter` pour en créer un.
 
-! [Ajouter un projet au gestionnaire de tâches] []
+![TM Add Project][]
 
 Vous pouvez choisir de définir la zone d'intérêt (zone de cartographie) de votre projet de cartographie de l'une des manières suivantes :
 
 * Option 1 : `Dessinez` la zone d'intérêt manuellement
 * Option 2 : `Télécharger le fichier` pour importer la zone d'intérêt en tant que fichier GeoJSON, KML ou shapefile zippé.
 
-![Nouveau gestionnaire de tâches][]
+![TM New][]
 
 ### Définir la zone de cartographie
 
@@ -81,113 +81,113 @@ Vous pouvez choisir de définir la zone d'intérêt (zone de cartographie) de vo
 
 1. Vous pouvez passer à d'autres couches d'arrière-plan à l'aide des boutons situés en haut. 
 1. Cliquez sur le bouton `Dessiner` à gauche.
-2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
-3. Click on your starting point to complete the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
+2. Pour dessiner un polygone représentant la zone de cartographie dans le cadre de la carte, maintenez le bouton droit de la souris enfoncé pour déplacer la carte sans cliquer, ce qui ajoutera un nœud. Le polygone doit encadrer étroitement la zone d'intérêt. Cela permet de gagner du temps pour compléter les tuiles qui ne présentent pas d'intérêt ( ex : océan, forêt).
+3. Cliquez sur votre point de départ pour compléter le polygone. <!--Après avoir complété un polygone, vous pouvez déplacer les nœuds ou en ajouter de nouveaux pour obtenir la zone exactement comme vous le souhaitez.-->
 
 <br>
 
-* Option 2: `Upload file` to import the area of interest as a GeoJSON, KML or zipped shapefile
+* Option 2 : `Télécharger le fichier` pour importer la zone d'intérêt en tant que fichier GeoJSON, KML ou shapefile zippé.
 
-1. In the first step of creating a project click on `Upload file`.
-2. Browse to your file in the File Upload window.
-3. Click the file name to highlight the file and then click ‘Open’.
-4. Imported areas of interest cannot be adjusted in Tasking Manager.
+1. Dans la première étape de la création d'un projet, cliquez sur `Upload file`.
+2. Naviguez jusqu'à votre fichier dans la fenêtre de téléchargement de fichiers.
+3. Cliquez sur le nom du fichier pour le mettre en évidence, puis cliquez sur ‘Ouvrir’.
+4. Les centres d'intérêt importés ne peuvent pas être ajustés dans le gestionnaire de tâches.
 
-You might be uploading a file that already has the tasks (small mapping squares) pre-defined. Find more information about this in the [Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data) section below.
+Il se peut que vous téléchargiez un fichier dont les tâches (petits carrés de cartographie) sont déjà prédéfinies. Vous trouverez plus d'informations à ce sujet dans la section [Définir des tâches avec des données importées](/fr/coordination/tm-admin/#Avancé:Définir-les-tâches-avec-des-données-importées) ci-dessous.
 
-> NOTE: The Tasking Manager has limits! The maximum technical limit for a project is 5,000 km2, although to ensure your project doesn't take too long to complete try and keep it under 1,000 km2. If you need to map an area larger than this then you will need to create several projects. You'll be able to see the project size in the bottom left hand corner of the preview map. 
+> NOTE : Le gestionnaire de tâches a des limites ! La limite technique maximale d'un projet est de 5 000 km2, mais pour que votre projet ne prenne pas trop de temps, essayez de le garder en dessous de 1 000 km2. Si vous devez cartographier une zone plus grande que cela, vous devrez créer plusieurs projets. Vous pourrez voir la taille du projet dans le coin inférieur gauche de la carte d'aperçu. 
 
-### Define tasks
+### Définir les tâches
 
-After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. You must consider your project's task sizes very carefully. Well designed projects have appropriate task sizes, allowing them to be completed as efficiently as possible. 
+Après avoir défini la zone de cartographie globale, celle-ci va être divisée en zones plus petites appelées *Tâches*. Vous devez considérer très attentivement la taille des tâches de votre projet. Les projets bien conçus ont des tailles de tâches appropriées, ce qui leur permet d'être réalisés aussi efficacement que possible. 
 
 ![TM Tile Sizes][]
 
-The project area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares. The default task size is likely to be much too large. As you alter the task size note the task size listed on the left next to 'The size of each task is approximately ... km2'.
+La zone du projet est automatiquement divisée en cellules de grille et chaque cellule devient une tâche. Utilisez les boutons `Plus grand` et `Plus petit` pour ajuster la taille globale des cases de la tâche. La taille par défaut de la tâche est probablement beaucoup trop grande. Lorsque vous modifiez la taille de la tâche, notez la taille de la tâche indiquée à gauche à côté de 'La taille de chaque tâche est d'environ ... km2'.
 
-Please take your time and set your task sizes very carefully! Try and aim to reduce your task size down to where you think it would take a confident mapper **15 minutes to complete**. The optimal task size entirely depends on the feature(s) you are asking mappers to identify and the density of those features. For example, a road mapping project in a rural area would have much larger tasks than a project that involves digitizing buildings in a dense settlement.
+Prenez votre temps et définissez la taille de vos tâches très soigneusement ! Essayez de réduire la taille de votre tâche jusqu'à ce que vous pensiez qu'il faut à un cartographe confiant **15 minutes pour la réaliser**. La taille optimale de la tâche dépend entièrement de la ou des caractéristiques que vous demandez aux cartographes d'identifier et de la densité de ces caractéristiques. Par exemple, un projet de cartographie routière dans une zone rurale aura des tâches beaucoup plus importantes qu'un projet qui consiste à numériser des bâtiments dans une agglomération dense.
 
-> Zoom in and activate the Bing imagery to determine a good task size. You can switch between several background map layers with the buttons on the top of the map.
+> Zoomer et activer l'imagerie Bing pour déterminer une bonne taille de tâche. Vous pouvez passer d'une couche de fond de carte à une autre à l'aide des boutons situés en haut de la carte.
 
-After you've adjusted the overall task size, you can selectively split certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area to split all tasks within. These functions are particularly useful if the density of the feature that you want to map varies across your project area. For example there might be a densely built coastal area which needs small tasks and an inland rural area that needs much larger tasks. The `Reset` button will remove all of your custom splitting.
+Après avoir ajusté la taille globale de la tâche, vous pouvez diviser sélectivement certaines tâches en quatre plus petites avec le bouton `Cliquer pour diviser`. Ou vous pouvez `dessiner une zone à diviser`, et il vous permettra de dessiner un polygone sur une zone pour diviser toutes les tâches à l'intérieur. Ces fonctions sont particulièrement utiles si la densité de l'élément que vous souhaitez cartographier varie dans votre zone de projet. Par exemple, il peut y avoir une zone côtière densément construite qui nécessite de petites tâches et une zone rurale intérieure qui nécessite des tâches beaucoup plus importantes. Le bouton `réinitialiser` supprimera tous vos fractionnements personnalisés.
 
-Considerations for deciding on task sizes:
--  Tasks can be split, but there is no option to re-merge them once a project is created.
--  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time.
--  At the edge and corners of tasks, there is greater potential for conflicts between neighbouring mappers. Smaller tasks mean more corners and edges. There is a trade-off in task size to make it easy for mappers, but to not produce mapping conflicts between them.
--  Small tasks are easier to map, but more tasks means more time needs to be spent by mappers updating the status of each, and projects with tasks that are too small can therefore be inefficient.
--  Beginner mappers roughly need four times as long as experienced mappers.
--  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
+Remarques pour décider de la taille des tâches : 
+-  Les tâches peuvent être divisées, mais il n'y a pas d'option pour les fusionner à nouveau une fois qu'un projet est créé.
+-  Une fois qu'un projet est créé, la répartition des tâches prend beaucoup de temps et doit être effectuée une tâche à la fois.
+-  Les conflits potentiels entre cartographes voisins sont plus nombreux aux coins et aux limites des tâches. Des tâches plus petites signifient plus de coins et de bords. Il faut trouver un compromis entre la taille de la tâche pour faciliter la tâche des cartographes, mais aussi pour éviter les conflits cartographiques entre eux.
+-  Les petites tâches sont plus faciles à cartographier, mais un plus grand nombre de tâches signifie que les cartographes doivent passer plus de temps à mettre à jour le statut de chacune d'entre elles, et les projets dont les tâches sont trop petites peuvent donc être inefficaces.
+-  Les cartographes débutants ont besoin d'environ quatre fois plus de temps que les cartographes expérimentés.
+-  Les cartographes débutants doivent développer un œil pour l'imagerie satellite. Il peut être difficile de repérer les bonnes caractéristiques.
 
-Once you are happy with your task sizes, click `Next`.
+Une fois que vous êtes satisfait de la taille de vos tâches, cliquez sur `Suivant`.
 
-### Advanced: Define tasks with imported data
+### Avancé : Définir les tâches avec des données importées
 
-If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. For example, a completed project from MapSwipe which focuses on populated areas or a complex grid you have pre-created in QGIS. If that is the case, make sure to enable the 'Set tasks using uploaded polygons' toggle. This will skip straight to the naming stage of project creation. 
+Si vous avez téléchargé un fichier pour définir la zone de votre projet, ce fichier peut également contenir les formes pour les tâches individuelles. Par exemple, un projet terminé de MapSwipe qui se concentre sur les zones peuplées ou une grille complexe que vous avez pré-créée dans QGIS. Si c'est le cas, assurez-vous d'activer l'option "Définir les tâches en utilisant les polygones téléchargés". Vous passerez ainsi directement à l'étape de dénomination de la création du projet. 
 
 ![TM New Polys][]
 
-### Project area trim
+### Découpage des zones de projet
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extent of your mapping area. You will almost certainly want to do this. Click on `Trim` to remove all task squares which do not overlap your project area. 
+Après avoir déterminé la taille des tâches, vous aurez la possibilité de les réduire à l'étendue de votre zone de cartographie. Vous voudrez certainement le faire. Cliquez sur `Découpage` pour supprimer tous les carrés de tâches qui ne chevauchent pas votre zone de projet. 
 
 ![TM Trim coarse][]
 
-If you toggle on 'Trim the tasks to define the exact Area of Interest for mapping.' before clicking on `Trim` the overlapping task portions at the edge of your area of interest will be trimmed sharply against your area of interest.
+Si vous activez l'option 'Découper les tâches pour définir la zone d'intérêt exacte pour la cartographie' avant de cliquer sur `Découper`, les portions de tâches qui se chevauchent à la limite de votre zone d'intérêt seront découpées de façon nette par rapport à votre zone d'intérêt.
 
 ![TM Trim fine][]
 
-Trimming sharply may result in some extremely small tasks. These tiny tasks can confuse mappers. You can choose to remove them by selecting `Discard` when you see the message 'There are ... tasks smaller than 2,000m2. Would you like to discard them?'
+Un découpage précis peut donner lieu à des tâches extrêmement petites. Ces tâches minuscules peuvent perturber les cartographes. Vous pouvez choisir de les supprimer en sélectionnant `supprimer` lorsque vous voyez le message 'There are ... tasks smaller than 2,000m2. Voulez-vous les supprimer ?'
 
-> Take note of the number of tasks that your project has (look in the bottom left hand corner of your map). The maximum technical limit for the number of tasks in one Tasking Manager project is 5,000. However, to ensure your project doesn't take too long to complete, try and keep it under 1,000 tasks - if you need to map a larger area try splitting it into smaller projects. 
+> Prenez note du nombre de tâches que comporte votre projet (regardez dans le coin inférieur gauche de votre carte). La limite technique maximale du nombre de tâches dans un projet du gestionnaire de tâches est de 5 000. Toutefois, pour que votre projet ne prenne pas trop de temps, essayez de le maintenir en dessous de 1 000 tâches. Si vous devez cartographier une zone plus étendue, essayez de la diviser en plusieurs petits projets. 
 
-Click `Next`.
+Cliquez sur `Suivant`.
 
-### Name the project
+### Nommez le projet
 
-A project's name is one of its most important aspects when it comes to being discovered by the wider public. Try and include the name of the country the project is located (e.g. South Sudan), the reason for mapping (e.g. COVID Vaccination) and also the more specific location, maybe the district or settlement name (e.g. Yambio County). For example a full project name might be: _South Sudan, COVID Vaccination, Yambio County_. 
+Le nom d'un projet est l'un de ses aspects les plus importants lorsqu'il s'agit d'être découvert par le grand public. Essayez d'inclure le nom du pays dans lequel le projet est situé (par exemple, le Sud-Soudan), la raison de la cartographie (par exemple, la vaccination COVID) et également l'emplacement plus spécifique, peut-être le nom du district ou de la localité (par exemple, le comté de Yambio). Par exemple, un nom de projet complet pourrait être : _Soudan du Sud, Vaccination COVID, Comté de Yambio_. 
 
-Ensure your organization is selected under the 'Organization' field. 
+Assurez-vous que votre organisation est sélectionnée dans le champ 'Organization'. 
 
-> Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
+> Avant de terminer cette étape, assurez-vous que vous êtes satisfait de la délimitation de la zone d'intérêt du projet et du nombre des tâches, car ces éléments ne peuvent pas être modifiés par la suite. 
 
-Click `Create`. Your project will be created but it will not publish immediately - you'll be directed to the Edit menu of the project first. 
+Cliquez sur `Créer`. Votre projet sera créé mais il ne sera pas publié immédiatement - vous serez d'abord dirigé vers le menu d'édition du projet. 
 
-## Edit a project
+## Éditer un projet
 
-You'll now see the 'Edit' menu of your project. Before the project can be saved, you'll need to go through the 'Edit' menu carefully to complete setup. Here is a quick summary of the sub-menus you will see on the left hand side:
+Vous voyez maintenant le menu 'Édition' de votre projet. Avant de pouvoir sauvegarder le projet, vous devrez parcourir attentivement le menu 'Édition' pour terminer la configuration. Voici un résumé rapide des sous-menus que vous verrez sur le côté gauche :
 
-- Description - Set the status, priority and text description associated with your project.
-- Instructions - Detailed instructions for how to map the needed features and approach the project.
-- Metadata - Define the features that need to be mapped. Also includes information used for categorizing projects, used in filtering projects.
-- Priority Areas - Allows you to specify parts within the project area that should be mapped first.
-- Imagery - Choose the imagery that will load by default when volunteers map your project. 
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Toggle alternative editors such as RapiD on/off.
-- Actions - Powerful bulk actions you can perform on your project, such as cloning or deleting.
-- Custom editor - Add a custom editor using a URL
+- Description - Définissez le statut, la priorité et la description textuelle associés à votre projet.
+- Instructions - Instructions détaillées sur la manière de cartographier les caractéristiques nécessaires et d'aborder le projet.
+- Métadonnées - Définissent les caractéristiques qui doivent être cartographiées. Comprend également les informations utilisées pour catégoriser les projets, utilisées pour filtrer les projets.
+- Zones prioritaires - Vous permet de spécifier les parties de la zone du projet qui doivent être cartographiées en premier.
+- Imagerie - Choisissez l'imagerie qui sera chargée par défaut lorsque les volontaires cartographieront votre projet. 
+- Permissions - Permet de restreindre l'accès au projet pour la cartographie et la validation.
+- Paramètres - Activez/désactivez les éditeurs alternatifs tels que RapiD.
+- Actions - Des actions groupées puissantes que vous pouvez exécuter sur votre projet, comme le clonage ou la suppression.
+- Éditeur personnalisé - Ajouter un éditeur personnalisé en utilisant une URL
 
-> Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
+> Remplir soigneusement ces informations est une partie essentielle de la réussite d'un projet de cartographie. Il est particulièrement important que la description et les instructions du projet soient clairement communiquées afin que les cartographes soient conscients de l'importance de la qualité des données et des meilleures pratiques. Gardez à l'esprit que les contributeurs peuvent ne pas avoir d'expérience préalable d'OpenStreetMap et ne sont probablement pas familiers avec les directives de balisage.
 
 ### Description
 
 ![TM Description][]
 
-#### Status
+#### Statut
 
-First is the project status. This can be set to either **Draft**, **Published**, or **Archived**.
+Le premier est le statut du projet. Il peut être défini comme suit : **Brouillon**, **Publié**, ou **Archivé**.
 
-- **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
-- **Published** - When you have completed your project setup, tested it and are happy for it to be publicly listed and open for mapping/validation.
-- **Archived** - All projects should end up being archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
-  - It is 100% mapped and validated
-  - The instructions or imagery are substantially outdated
-  - The project was created more than a year ago
-  - Map data is no longer needed for humanitarian purposes in the project area
+- **Brouillon** - Votre projet démarrera en mode brouillon. Dans ce mode, il ne pourra pas être découvert et il ne sera pas possible pour le public d'y contribuer. C'est l'idéal lorsque vous êtes encore en train de mettre en place votre projet et de le tester avant sa publication. 
+- **Publié** - Lorsque vous avez terminé la configuration de votre projet, que vous l'avez testé et que vous êtes heureux qu'il soit listé publiquement et ouvert à la cartographie/validation.
+- **Archivé** - Tous les projets devraient finir par être archivés. Les projets archivés sont publics mais bloqués pour les contributions. Vous devriez envisager d'archiver votre projet si :
+  - Il est cartographié et validé à 100%.
+  - Les instructions ou l'imagerie sont largement obsolètes.
+  - Le projet a été créé il y a plus d'un an
+  - Les données cartographiques ne sont plus nécessaires à des fins humanitaires dans la zone du projet.
 
-#### Priority
+#### Priorité
 
 Next is the project priority. This dictates how close to the front of the Tasking Manager the project will be seen in the Explore Projects page. This can be set to either **Urgent**, **High**, **Medium** or **Low**.
 
