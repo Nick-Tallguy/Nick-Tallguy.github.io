@@ -465,18 +465,17 @@ N'hésitez pas à consulter ces ressources supplémentaires sur l'alignement des
 - [Chapitre sur l'alignement des images de la JOSM dans learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-[Taille des tuiles du gestionnaire de tâches
-]: /images/coordination/tm4_tile_sizes.png
-[TM Ajout de projet]: /images/coordination/tm4_new_project.png
-[TM Nouveaux]: /images/coordination/tm4_create_new.png
-[TM Nouveaux polygones]: /images/coordination/tm4_create_new_polys.png
-[TM Découpage]: /images/coordination/tm4_trim1.png
-[TM Découpage grossier]: /images/coordination/tm4_trim2.png
-[TM Découpage précis]: /images/coordination/tm4_trim3.png
+[TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
+[TM Add Project]: /images/coordination/tm4_new_project.png
+[TM New]: /images/coordination/tm4_create_new.png
+[TM New Polys]: /images/coordination/tm4_create_new_polys.png
+[TM Trim]: /images/coordination/tm4_trim1.png
+[TM Trim coarse]: /images/coordination/tm4_trim2.png
+[TM Trim fine]: /images/coordination/tm4_trim3.png
 [TM Description]: /images/coordination/tm4_description.png
 [TM Instructions]: /images/coordination/tm4_instructions.png
-[TM Métadonnées]: /images/coordination/tm4_metadata.png
-[TM Zone prioritaire]: /images/coordination/tm4_priority_area.png
+[TM Metadata]: /images/coordination/tm4_metadata.png
+[TM Priority Area]: /images/coordination/tm4_priority_area.png
 [TM Permissions]: /images/coordination/tm4_permissions.png
-[TM Paramètres]: /images/coordination/tm4_settings.png
+[TM Settings]: /images/coordination/tm4_settings.png
 [TM Actions]: /images/coordination/tm4_actions.png
