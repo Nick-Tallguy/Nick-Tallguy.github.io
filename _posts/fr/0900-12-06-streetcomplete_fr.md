@@ -1,35 +1,35 @@
 ---
 layout: doc
-title: StreetComplete
+titre : StreetComplete
 permalink: /fr/mobile-mapping/streetcomplete/
 lang: fr
-category: mobile-mapping
+catégorie : cartographie mobile
 ---
 
 StreetComplete
 ==============
 
 
-**StreetComplete** is an easy to use OpenStreetMap editor for Android phones and tablets, used for mapping in the field mainly by completing the available "quests" that appear as pins on a map.
+**StreetComplete** est un éditeur OpenStreetMap facile à utiliser pour les téléphones et tablettes Android, utilisé pour la cartographie sur le terrain principalement en complétant les "quêtes" disponibles qui apparaissent sous forme d'épingles sur une carte.
 
-The app is made specifically for casual contributors and beginners as no prior knowledge about OpenStreetMap (such as tagging schemes) is required to contribute using the app.
+L'application est conçue spécialement pour les contributeurs occasionnels et les débutants, car aucune connaissance préalable d'OpenStreetMap (comme les systèmes de balisage) n'est requise pour contribuer à l'aide de l'application.
 
 Vous pouvez la télécharger depuis le Google P¨lay Sotre, Amazon ou F-Droid. Les versions release et béta des APKs sont également disponibles sur GitHub.
 
-The app displays places where data can be added to OpenStreetMap through the app as quest pins on a map. This app lists all question types available in a particular place depending on the already available data on OpenStreetMap.
+L'application affiche les lieux où des données peuvent être ajoutées à OpenStreetMap par le biais de l'application sous forme d'épingles de quête sur une carte. Cette app liste tous les types de questions disponibles dans un lieu particulier en fonction des données déjà disponibles sur OpenStreetMap.
 
 **Ajoutez des données à OpenStreetMap en utilisant StreetComplete**
 
 1. Afin de pouvoir contribuer avec cette application, l'utilisateur a besoin d'un compte OpenStreetMap (c'est généralement également le cas pour les autres applications de contribution).
-2.  Displays and Welcome Pages
+2. Affichages et pages d'accueil
 
 ![Bienvenue][]
 
-3.  When you click "LET’S GO!" you have to allow StreetComplete to access this device’s location.
+3. Lorsque vous cliquez sur "LET'S GO !", vous devez autoriser StreetComplete à accéder à la localisation de cet appareil.
 
 ![Autoriser][]
 
-4.  Click on the three lines at the top right corner, then click on My Profile and then Login with your OpenStreetMap account.
+4. Cliquez sur les trois lignes dans le coin supérieur droit, puis sur Mon profil et enfin sur Connexion avec votre compte OpenStreetMap.
 
 ![Menu+Connexion][]
 ![Connexion][]
@@ -40,13 +40,13 @@ Les questions posées dépendent des information manquantes et du type d'objet p
 
 ![Quête de bâtiment][]
 
-For example, for buildings, one could be asked about ***How many levels above the basement does this building have?*** or ***What kind of building is this?***
+Par exemple, pour les bâtiments, on pourrait demander ***Combien de niveaux au-dessus du sous-sol ce bâtiment a-t-il ? *** ou ***Quel type de bâtiment est-ce ?
 
 Pour les routes, ***Quel est le type de surface de cette portion de route ?***
 
 ![Plus de quêtes][]
 
-To fill in some of this information, you need to either have prior knowledge about the building, place or be close enough to be able to answer the questions being asked.
+Pour compléter certaines de ces informations, vous devez avoir une connaissance préalable du bâtiment, du lieu ou être suffisamment proche pour pouvoir répondre aux questions posées.
 
 
 

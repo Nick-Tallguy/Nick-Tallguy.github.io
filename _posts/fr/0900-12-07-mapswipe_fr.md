@@ -1,25 +1,25 @@
 ---
 layout: doc
-title: MapSwipe
-permalink: /en/mobile-mapping/mapswipe/
-lang: en
-category: mobile-mapping
+titre : MapSwipe
+permalink: /fr/mobile-mapping/mapswipe/
+lang: fr
+catégorie : cartographie mobile
 ---
 
 MapSwipe
 ==============
 
-MapSwipe is a mobile app that aims to prepare satellite imagery for larger scale mapping in OpenStreetMap (OSM). With MapSwipe information, OSM mappers don’t have to spend valuable time scanning unpopulated areas (e.g. deserts or forests) or areas with poor quality data. Those have already been filtered out by Mapswipe. The red boundary in this picture marks the area of interest, the green areas are those accepted through Mapswipe as areas which contain features.
+MapSwipe est une application mobile qui vise à préparer l'imagerie satellite pour la cartographie à plus grande échelle dans OpenStreetMap (OSM). Grâce aux informations de MapSwipe, les cartographes d'OSM n'ont pas besoin de passer un temps précieux à balayer des zones non peuplées (par exemple, des déserts ou des forêts) ou des zones dont les données sont de mauvaise qualité. Ces zones ont déjà été filtrées par Mapswipe. La frontière rouge sur cette image marque la zone d'intérêt, les zones vertes sont celles acceptées par Mapswipe comme des zones contenant des caractéristiques.
 
 ![TM][]
 
-Mapswipe distinguishes itself from other forms of mapping by its simpleness and ease of use.
+Mapswipe se distingue des autres formes de cartographie par sa simplicité et sa facilité d'utilisation.
 
-## How to use Mapswipe
+## Comment utiliser Mapswipe
 
-First you have to choose your "mission". Every mission contains several imagery tiles that you can swipe through.
+Vous devez d'abord choisir votre "mission". Chaque mission contient plusieurs tuiles d'images que vous pouvez faire défiler.
 
-What you can do with the tiles depends on the mission-type
+Ce que vous pouvez faire avec les tuiles dépend du type de mission.
 
 - Zone construite. Appuyer sur la tuile si elle contient l'un des éléments (bâtiment, route, etc).
  ![contient][]
