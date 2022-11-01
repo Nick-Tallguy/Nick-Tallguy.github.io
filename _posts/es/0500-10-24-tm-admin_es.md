@@ -15,7 +15,7 @@ category: coordination
 -------------
 -  [Login and access](/en/coordination/tm-admin/#login-and-access)
 -  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-project)
+-  [Crear un proyecto](/en/coordination/tm-admin/#create-a-project)
     -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
     -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
     -  [Advanced: Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
@@ -24,16 +24,16 @@ category: coordination
 -  [Editar un proyecto](/en/coordination/tm-admin/#edit-a-project)
     -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
     -  [Instrucciones - qué deben hacer los usuarios](/en/coordination/tm-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
+    -  [Metadatos - al que pertenece el proyecto](/en/coordination/tm-admin/#metadata)
+    -  [Áreas prioritarias - donde los usuarios deben empezar a mapear](/en/coordination/tm-admin/#priority-areas)
     -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
+    -  [Permisos - quién puede asignar y validar](/es/coordinación/tm-admin/#permisos)
     -  [Settings](/en/coordination/tm-admin/#settings)
     -  [Actions](/en/coordination/tm-admin/#actions)
     -  [Custom editor](/en/coordination/tm-admin/#custom-editor)
     -  [Save and test](/en/coordination/tm-admin/#save-and-test)
     -  [Publish](/en/coordination/tm-admin/#publish)
--  [Project management](/en/coordination/tm-admin/#project-management) 
+-  [Gestión de proyectos](/en/coordination/tm-admin/#project-management) 
     -  [Be responsive](/en/coordination/tm-admin/#be-responsive)
     -  [Sequencing projects](/en/coordination/tm-admin/#sequencing-projects)
     -  [Ciclo de vida del proyecto](/en/coordination/tm-admin/#project-lifecycle)
@@ -48,19 +48,19 @@ This guide describes the basic administration of the Tasking Manager. It covers 
 
 ## Login and access
 
-In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preference. There click `Sign up` and it redirects you to the [OpenStreetMap website](https://www.openstreetmap.org) to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account.
+Para acceder al Administrador de Tareas se necesita una cuenta de OpenStreetMap (OSM). Puedes visitar el [HOT Administrador de Tareas](http://tasks.hotosm.org), o cualquier otra instancia comunitaria de tu preferencia. Allí haga clic en `Sign up` y le redirigirá al [sitio web de OpenStreetMap](https://www.openstreetmap.org) para crear su cuenta. O haz clic en `Log in` si ya tienes una, y en la ventana emergente puedes dar al Administrador de Tareas acceso limitado a tu cuenta de OSM.
 
 ## Permisos
 
 The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers. 
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organization mapping projects and teams can be created. An organization could represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance. See [HOT Tasking Manager Organizations](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) for a list of organizations which are present on HOT's Tasking Manager. If your community or organization is not listed there and you'd like to create projects on HOT's Tasking Manager, please complete [this form](http://bit.ly/HOTTasking) to register your interest. 
+Todos los permisos especiales son manejados por *organizaciones* y *equipos*. Una **organización** es el paraguas principal, y bajo cada organización se pueden crear proyectos y equipos de mapeo. Una organización puede representar a un usuario de datos como una organización humanitaria, o cualquier comunidad de OpenStreetMap. Si necesita configurar su organización en el Administrador de Tareas, póngase en contacto con los responsables técnicos de la instancia del Administrador de Tareas. Consulte [HOT Organizaciones de Administrador de Tareas](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) para ver una lista de las organizaciones que están presentes en el Administrador de Tareas de HOT. Si su comunidad u organización no está en la lista y le gustaría crear proyectos en el Administrador de Tareas de HOT, por favor, rellene [este formulario](http://bit.ly/HOTTasking) para registrar su interés. 
 
 Every organization has one or more **managers**. They have the permission to create and modify associated projects. All manager options can be accessed through the `Manage` section in the main navigation.
 
 Managers of an organization can create **teams**. Teams are groups of OpenStreetMap users and they can be publicly visible or private. They also have one or more team managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
 
-For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
+Para cada proyecto, los administradores pueden asignar equipos específicos para conceder o restringir el acceso a la cartografía, definir quién puede validar los datos o quién más puede editar los metadatos del proyecto.
 
 ## Create a project
 
@@ -71,7 +71,7 @@ Click on `Manage` in the navigation on the top, In the first row you see a space
 Puede elegir entre definir el área de interés (área cartográfica) de su proyecto cartográfico
 
 * Option 1: `Draw` the area of interest manually
-* Option 2: `Upload file` to import the area of interest as a GeoJSON, KML or zipped shapefile
+* Opción 2: `Cargar archivo` para importar el área de interés como GeoJSON, KML o archivo shape comprimido
 
 ![TM Nuevo][]
 
@@ -89,15 +89,15 @@ Puede elegir entre definir el área de interés (área cartográfica) de su proy
 * Opción 2: `Cargar archivo` para importar el área de interés como GeoJSON, KML o shapefile comprimido
 
 1. In the first step of creating a project click on `Upload file`.
-2. Browse to your file in the File Upload window.
+2. Busque su archivo en la ventana de carga de archivos.
 3. Haga clic en el nombre del archivo para resaltarlo y luego haga clic en "Abrir".
 4. Imported areas of interest cannot be adjusted in Tasking Manager.
 
-You might be uploading a file that already has the tasks (small mapping squares) pre-defined. Find more information about this in the [Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data) section below.
+Es posible que esté cargando un archivo que ya tiene las tareas (pequeños cuadros de asignación) predefinidas. Encontrará más información al respecto en la sección [Definir tareas con datos importados](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data) más abajo.
 
-> NOTE: The Tasking Manager has limits! The maximum technical limit for a project is 5,000 km2, although to ensure your project doesn't take too long to complete try and keep it under 1,000 km2. If you need to map an area larger than this then you will need to create several projects. You'll be able to see the project size in the bottom left hand corner of the preview map. 
+> NOTA: ¡El Administrador de Tareas tiene límites! El límite técnico máximo para un proyecto es de 5.000 km2, aunque para garantizar que su proyecto no tarde demasiado en completarse, intente mantenerlo por debajo de los 1.000 km2. Si necesitas cartografiar un área mayor que ésta, tendrás que crear varios proyectos. Podrás ver el tamaño del proyecto en la esquina inferior izquierda de la vista previa del mapa. 
 
-### Define tasks
+### Definir tareas
 
 After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. You must consider your project's task sizes very carefully. Well designed projects have appropriate task sizes, allowing them to be completed as efficiently as possible. 
 
@@ -116,14 +116,14 @@ Considerations for deciding on task sizes:
 -  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time.
 -  En los bordes y esquinas de las tareas, hay un mayor potencial de conflictos entre mapeadores vecinos. Las tareas más pequeñas implican más esquinas y bordes. El tamaño de las tareas tiene que facilitar el trabajo de los cartógrafos, pero sin que se produzcan conflictos entre ellos.
 -  Small tasks are easier to map, but more tasks means more time needs to be spent by mappers updating the status of each, and projects with tasks that are too small can therefore be inefficient.
--  Beginner mappers roughly need four times as long as experienced mappers.
+-  Los mapeadores principiantes necesitan aproximadamente cuatro veces más tiempo que los experimentados.
 -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
 
 Once you are happy with your task sizes, click `Next`.
 
-### Advanced: Define tasks with imported data
+### Avanzado: Definir tareas con datos importados
 
-If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. For example, a completed project from MapSwipe which focuses on populated areas or a complex grid you have pre-created in QGIS. If that is the case, make sure to enable the 'Set tasks using uploaded polygons' toggle. This will skip straight to the naming stage of project creation. 
+Si ha cargado un archivo para definir el área de su proyecto, ese archivo también puede contener las formas para las tareas individuales. Por ejemplo, un proyecto completado de MapSwipe que se centra en áreas pobladas o una cuadrícula compleja que ha creado previamente en QGIS. Si este es el caso, asegúrese de activar la opción "Establecer tareas utilizando polígonos cargados". Esto saltará directamente a la etapa de nombramiento de la creación del proyecto. 
 
 ![TM Nvos Polígonos][]
 
@@ -163,9 +163,9 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 - Instructions - Detailed instructions for how to map the needed features and approach the project.
 - Metadata - Define the features that need to be mapped. Also includes information used for categorizing projects, used in filtering projects.
 - Priority Areas - Allows you to specify parts within the project area that should be mapped first.
-- Imagery - Choose the imagery that will load by default when volunteers map your project. 
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Toggle alternative editors such as RapiD on/off.
+- Imágenes - Elija las imágenes que se cargarán de forma predeterminada cuando los voluntarios mapeen su proyecto. 
+- Permisos - Le permite restringir el acceso al proyecto para la asignación y la validación.
+- Configuración - Activar/desactivar editores alternativos como RapiD.
 - Acciones: potentes acciones masivas que puedes realizar en tu proyecto, como clonar o eliminar.
 - Custom editor - Add a custom editor using a URL
 
@@ -189,11 +189,11 @@ First is the project status. This can be set to either **Draft**, **Published**,
 
 #### Priority
 
-Next is the project priority. This dictates how close to the front of the Tasking Manager the project will be seen in the Explore Projects page. This can be set to either **Urgent**, **High**, **Medium** or **Low**.
+A continuación está la prioridad del proyecto. Esto dicta qué tan cerca del frente del Administrador de Tareas se verá el proyecto en la página de Explorar Proyectos. Puede establecerse como **Urgente**, **Alto**, **Medio** o **Bajo**.
 
 - **Urgent** - Only set this status if the project is **in response to a disaster and the data needs are immediate**. Very few projects have this priority level. 
 - **High** - For projects that are not necessarily in response to a disaster but the data is needed in a **short time-frame**. 
-- **Medium** - If the data is needed but not in a particularly short time-frame.
+- **Medio** - Si los datos son necesarios pero no en un plazo especialmente corto.
 - **Low** - If you want to publish your project but do not want to make it very prominent. You might prefer to share your project to specific groups using the project URL.
 
 #### Short description
@@ -204,7 +204,7 @@ Add at least two sentences that briefly describe your project. This is important
 
 #### 'Long' Description
 
-You can go into more detail about your project here. Provide more information about why the project exists, who will use the data and the expected the impact the mapping will have. If the project involves any collaborations or partners you could expand on that here. 
+Aquí puede entrar en más detalles sobre su proyecto. Proporcione más información sobre la razón de ser del proyecto, quién utilizará los datos y el impacto que se espera que tenga la cartografía. Si el proyecto incluye colaboraciones o socios, puede ampliar la información aquí. 
 
 > For any of these text fields you can choose to add additional translations. If you'd like to add a translation, click on the two letter language code and enter the translated text. For users that have set the Tasking Manager to that language it will automatically display the project in that language. By default, the initial field is English language, this can be altered in the 'Settings' sub-menu of your project.
 
@@ -218,13 +218,13 @@ If you have a date by which you wish your project to be completely mapped and va
 
 #### Changeset comment
 
-Here you can add additional tracking tags which will automatically populate each time someone saves their work while mapping your project. For example, if you want to start tracking all contributions across all your organization's projects you might want to add a common tracking tag to them, e.g. #MSF or #cartONG. Please try to **keep these tags short** and do not add too many of them, cluttered changeset comments are confusing to interpret and space should be left for mappers to leave descriptive changeset comments. 
+Aquí puede añadir etiquetas de seguimiento adicionales que se rellenarán automáticamente cada vez que alguien guarde su trabajo mientras mapea su proyecto. Por ejemplo, si quiere empezar a hacer un seguimiento de todas las contribuciones en todos los proyectos de tu organización, puede añadirles una etiqueta de seguimiento común, por ejemplo #MSF o #cartONG. Por favor, trate de **mantener estas etiquetas cortas** y no añada demasiadas, los comentarios de los conjuntos de cambios desordenados son confusos de interpretar y se debe dejar espacio para que los mapeadores dejen comentarios descriptivos de los conjuntos de cambios. 
 
 > Please note that a unique project tracking tag will already be present, e.g. #hotosm-project-11188 - **please leave this as it is**, it is very important for tracking the progress of the project. The number at the end of the tag is your project's unique ID.
 
-#### Detailed Instructions
+#### Instrucciones detalladas
 
-Add descriptive instructions for mappers and validators to follow while working on your project. Your project will be public, therefore **write instructions for inexperienced users** with no local or contextual knowledge. Please use plain language as your target audience may not be native English speakers.
+Añada instrucciones descriptivas para que los mapeadores y validadores las sigan mientras trabajan en su proyecto. Su proyecto será público, por lo que **escriba las instrucciones para usuarios inexpertos** sin conocimientos locales o contextuales. Por favor, utilice un lenguaje sencillo, ya que su público objetivo puede no ser hablante nativo de español.
 
 1. Escriba la información más importante en la parte superior para asegurarse de que es prominente. Esto podría incluir una descripción de las imágenes y una advertencia de un problema de compensación de imágenes con orientación. O puede indicar a los cartógrafos que ignoren los caminos y las pistas en un proyecto de cartografía de carreteras y se centren en las carreteras más destacadas.
 2. Add context/location specific instructions. These vary significantly but will help mappers interpret satellite imagery. E.g. 'Expect to see many circular brown thatched huts in this South Sudan project' or 'Settlements in Guatemala are often densely built, zoom extremely far in when mapping each building to ensure they do not connect or overlap'. Drag and drop aerial imagery screenshots into the instructions here to enhance this section.
@@ -235,11 +235,11 @@ Add descriptive instructions for mappers and validators to follow while working 
 
 #### Por Instrucciones de Tarea 
 
-This is optional but it is possible to add a short snippet of additional instruction that mappers will see while they are working on a task. This is seen on the right hand side of the Tasking Manager editor view above the 'Task Status' section. This will be seen at all times while mapping, so if there is something **particularly important** that you want to **instruct mappers** about you could add that here. 
+Esto es opcional, pero es posible añadir un breve fragmento de instrucciones adicionales que los mapeadores verán mientras trabajan en una tarea. Esto se ve en la parte derecha de la vista del editor del Gestor de Tareas, encima de la sección "Estado de la Tarea". Esto se verá en todo momento mientras se mapea, así que si hay algo **particularmente importante** sobre lo que usted quiere **instruir a los mapeadores** puede añadirlo aquí. 
 
 ### Metadata
 
-![TM Metadata][]
+![TM Metadatos][]
 
 #### Mapper level
 
@@ -250,10 +250,10 @@ This changes the difficultly level which is **displayed** for your project. Cons
 Most projects are set to either **Beginner** or **Intermediate** difficulty, a handful of projects are set to Advanced. 
 
 - **Beginner** - Consider this if your project is easy to map and:
-  - You are only asking contributors to map one feature, particularly **buildings only**
+  - Sólo está pidiendo a los contribuyentes que mapeen una característica, en particular **sólo edificios**.
   - The density of features is low, i.e. in a **rural** area
   - There is a **low quantity** of existing OSM data in your project area
-  - There are no imagery alignment issues
+  - No hay problemas de alineación de imágenes
 - **Intermediate** - If your project is trickier to map, this should be considered if:
   - You are asking contributors to map more than one feature, e.g. buildings **and** roads
   - There is a medium/high density of those features in your project area, i.e. **urban** areas
@@ -272,7 +272,7 @@ Active o desactive estas opciones en función de las características que desee 
 
 #### Preconfiguraciones del Editor iD
 
-If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for beginner, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
+Si elige uno o más elementos de la lista desplegable, los mapeadores que utilicen iD sólo podrán asignar estas características a los objetos que mapeen. Esto se recomienda para los principiantes, **proyectos sólo de construcción**. Esto significa que los colaboradores no podrán etiquetar otras características, aunque lo intenten. Evite el uso de preajustes para proyectos más complejos, ya que puede convertirse rápidamente en una carga. Por ejemplo, un proyecto de mapeo de carreteras necesitaría docenas de preajustes para asegurar que todos los tipos de carreteras puedan ser mapeados. 
 
 #### Organization
 
