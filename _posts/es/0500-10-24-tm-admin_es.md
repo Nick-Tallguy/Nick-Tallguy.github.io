@@ -13,22 +13,22 @@ category: coordination
 
 Índice por secciones
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
+-  [Inicio de sesión y acceso](/en/coordination/tm-admin/#login-and-access)
 -  [Permisos](/en/coordination/tm-admin/#permissions)
 -  [Crear un proyecto](/en/coordination/tm-admin/#create-a-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+    -  [Definir área de mapeo](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Definir tareas](/en/coordination/tm-admin/#define-tasks)
     -  [Advanced: Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
     -  [Recorte del área del proyecto](/en/coordination/tm-admin/#project-area-trim)
     -  [Name the project](/en/coordination/tm-admin/#name-the-project)
 -  [Editar un proyecto](/en/coordination/tm-admin/#edit-a-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
+    -  [Descripción: lo primero que los usuarios conocen de su proyecto](/en/coordination/tm-admin/#description)
     -  [Instrucciones - qué deben hacer los usuarios](/en/coordination/tm-admin/#instructions)
     -  [Metadatos - al que pertenece el proyecto](/en/coordination/tm-admin/#metadata)
     -  [Áreas prioritarias - donde los usuarios deben empezar a mapear](/en/coordination/tm-admin/#priority-areas)
     -  [Imágenes: la base de la cartografía](/en/coordination/tm-admin/#imagery)
     -  [Permisos - quién puede asignar y validar](/es/coordinación/tm-admin/#permisos)
-    -  [Settings](/en/coordination/tm-admin/#settings)
+    -  [Ajustes](/en/coordination/tm-admin/#settings)
     -  [Actions](/en/coordination/tm-admin/#actions)
     -  [Editor personalizado](/en/coordination/tm-admin/#custom-editor)
     -  [Guardar y probar](/en/coordination/tm-admin/#save-and-test)
@@ -42,9 +42,9 @@ category: coordination
 
 El Administrador de Tareas es la herramienta esencial para coordinar la cartografía en OpenStreetMap. Apoya las iniciativas de cartografía humanitaria, la realización de mapatones o la creación de tareas de cartografía para estudiantes. La aplicación divide un área de interés en trozos geográficos manejables que pueden completarse rápidamente y en colaboración. Este enfoque permite distribuir las tareas entre muchos cartógrafos individuales, reduciendo al mismo tiempo los posibles conflictos de edición. 
 
-The software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
+El software fomenta la obtención de datos cartográficos precisos y de calidad proporcionando un conjunto coherente de instrucciones para sus cartógrafos (por ejemplo, "cartografiar todas las carreteras y edificios"). En resumen, el Administrador de Tareas es la forma de configurar y dirigir el flujo de trabajo de las actividades cartográficas abiertas. 
 
-This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
+Esta guía describe la administración básica del Administrador de Tareas. Cubre las instrucciones para crear y modificar proyectos de mapeo y manejar los permisos para el mapeo y la revisión de los datos de crowdsourcing.
 
 ## Login and access
 
@@ -56,15 +56,15 @@ The most basic user level is **mapper**. Mappers are able to login to the Taskin
 
 Todos los permisos especiales son manejados por *organizaciones* y *equipos*. Una **organización** es el paraguas principal, y bajo cada organización se pueden crear proyectos y equipos de mapeo. Una organización puede representar a un usuario de datos como una organización humanitaria, o cualquier comunidad de OpenStreetMap. Si necesita configurar su organización en el Administrador de Tareas, póngase en contacto con los responsables técnicos de la instancia del Administrador de Tareas. Consulte [HOT Organizaciones de Administrador de Tareas](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) para ver una lista de las organizaciones que están presentes en el Administrador de Tareas de HOT. Si su comunidad u organización no está en la lista y le gustaría crear proyectos en el Administrador de Tareas de HOT, por favor, rellene [este formulario](http://bit.ly/HOTTasking) para registrar su interés. 
 
-Every organization has one or more **managers**. They have the permission to create and modify associated projects. All manager options can be accessed through the `Manage` section in the main navigation.
+Cada organización tiene uno o más **gestores**. Tienen permiso para crear y modificar los proyectos asociados. Se puede acceder a todas las opciones de los gestores a través de la sección `Gestión` en la navegación principal.
 
-Managers of an organization can create **teams**. Teams are groups of OpenStreetMap users and they can be publicly visible or private. They also have one or more team managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+Los responsables de una organización pueden crear **equipos**. Los equipos son grupos de usuarios de OpenStreetMap y pueden ser públicos o privados. También tienen uno o más gestores de equipo. Los equipos pueden configurarse de manera que los usuarios puedan unirse a un equipo por sí mismos o 'sólo por invitación', lo que significa que los gestores del equipo son notificados sobre las solicitudes de adhesión y deben decidir sobre ellas.
 
 Para cada proyecto, los administradores pueden asignar equipos específicos para conceder o restringir el acceso a la cartografía, definir quién puede validar los datos o quién más puede editar los metadatos del proyecto.
 
 ## Create a project
 
-Click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
+Haga clic en `Administrar` en la navegación de la parte superior. En la primera fila verá un espacio para 'Proyectos'. Al lado, haga clic en el botón `Añadir` para crear uno.
 
 ![TM Add Project][]
 
@@ -119,7 +119,7 @@ Considerations for deciding on task sizes:
 -  Los mapeadores principiantes necesitan aproximadamente cuatro veces más tiempo que los experimentados.
 -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
 
-Once you are happy with your task sizes, click `Next`.
+Una vez que esté satisfecho con el tamaño de sus tareas, haga clic en `Siguiente`.
 
 ### Avanzado: Definir tareas con datos importados
 
@@ -127,7 +127,7 @@ Si ha cargado un archivo para definir el área de su proyecto, ese archivo tambi
 
 ![TM Nvos Polígonos][]
 
-### Project area trim
+### Recorte del área del proyecto
 
 ![TM Trim][]
 
@@ -135,13 +135,13 @@ Después de determinar el tamaño de las tareas, tendrá la opción de recortarl
 
 ![TM Recorte grueso][]
 
-If you toggle on 'Trim the tasks to define the exact Area of Interest for mapping.' before clicking on `Trim` the overlapping task portions at the edge of your area of interest will be trimmed sharply against your area of interest.
+Si activa la opción "Recortar las tareas para definir el área de interés exacta para el mapeo" antes de hacer clic en `Recortar`, las partes de la tarea que se superponen en el borde de su área de interés se recortarán de forma brusca contra su área de interés.
 
 ![TM Recorte fino][]
 
 El recorte brusco puede dar lugar a algunas tareas extremadamente pequeñas. Estas pequeñas tareas pueden confundir a los cartógrafos. Puede optar por eliminarlas seleccionando `Descartar` cuando vea el mensaje "Hay... tareas de menos de 2.000 m2. ¿Desea descartarlas?".
 
-> Take note of the number of tasks that your project has (look in the bottom left hand corner of your map). The maximum technical limit for the number of tasks in one Tasking Manager project is 5,000. However, to ensure your project doesn't take too long to complete, try and keep it under 1,000 tasks - if you need to map a larger area try splitting it into smaller projects. 
+> Tome nota del número de tareas que tiene su proyecto (mire en la esquina inferior izquierda de su mapa). El límite técnico máximo para el número de tareas en un proyecto de Tasking Manager es de 5.000. Sin embargo, para garantizar que su proyecto no tarde demasiado tiempo en completarse, intente mantenerlo por debajo de las 1.000 tareas; si necesita mapear un área mayor, intente dividirla en proyectos más pequeños. 
 
 Haga clic en `Siguiente`.
 
@@ -155,7 +155,7 @@ Asegúrese de que su organización está seleccionada en el campo 'Organización
 
 Click `Create`. Your project will be created but it will not publish immediately - you'll be directed to the Edit menu of the project first. 
 
-## Edit a project
+## Editar un proyecto
 
 Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser guardado, necesitará ir a través del menú 'Editar' cuidadosamente para completar la configuración. Aquí tiene un resumen rápido de los submenús que verá en la parte izquierda:
 
@@ -175,7 +175,7 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 
 ![Descripción TM][]
 
-#### Status
+#### Estado
 
 First is the project status. This can be set to either **Draft**, **Published**, or **Archived**.
 
@@ -183,9 +183,9 @@ First is the project status. This can be set to either **Draft**, **Published**,
 - **Publicado** - Cuando haya completado la configuración de su proyecto, lo haya probado y esté contento de que se publique y esté abierto para su mapeo/validación.
 - **Archived** - All projects should end up being archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
   - It is 100% mapped and validated
-  - The instructions or imagery are substantially outdated
-  - The project was created more than a year ago
-  - Map data is no longer needed for humanitarian purposes in the project area
+  - Las instrucciones o las imágenes están sustancialmente anticuadas
+  - El proyecto se creó hace más de un año
+  - Los datos del mapa ya no son necesarios para fines humanitarios en la zona del proyecto
 
 #### Prioridad
 
@@ -194,7 +194,7 @@ A continuación está la prioridad del proyecto. Esto dicta qué tan cerca del f
 - **Urgent** - Only set this status if the project is **in response to a disaster and the data needs are immediate**. Very few projects have this priority level. 
 - **Alto** - Para proyectos que no son necesariamente en respuesta a una catástrofe pero los datos se necesitan en un **plazo corto**. 
 - **Medio** - Si los datos son necesarios pero no en un plazo especialmente corto.
-- **Low** - If you want to publish your project but do not want to make it very prominent. You might prefer to share your project to specific groups using the project URL.
+- **Bajo** - Si quieres publicar tu proyecto pero no quieres que sea muy destacado. Tal vez prefieras compartir tu proyecto con grupos específicos utilizando la URL del proyecto.
 
 #### Short description
 
@@ -210,17 +210,17 @@ Aquí puede entrar en más detalles sobre su proyecto. Proporcione más informac
 
 #### Fecha de vencimiento
 
-If you have a date by which you wish your project to be completely mapped and validated you can add that here. This is optional and once the date is exceeded it does not change anything for the project and volunteers can continue contributing afterwards. Contributors will see the due date listed next to the project. 
+Si tiene una fecha en la que desea que su proyecto esté completamente mapeado y validado, puede añadirla aquí. Esto es opcional y una vez superada la fecha no cambia nada para el proyecto y los voluntarios pueden seguir contribuyendo después. Los colaboradores verán la fecha de vencimiento junto al proyecto.
 
-### Instructions
+### Instrucciones
 
 ![TM Instructions][]
 
-#### Changeset comment
+#### Comentario sobre conjunto de cambio
 
 Aquí puede añadir etiquetas de seguimiento adicionales que se rellenarán automáticamente cada vez que alguien guarde su trabajo mientras mapea su proyecto. Por ejemplo, si quiere empezar a hacer un seguimiento de todas las contribuciones en todos los proyectos de tu organización, puede añadirles una etiqueta de seguimiento común, por ejemplo #MSF o #cartONG. Por favor, trate de **mantener estas etiquetas cortas** y no añada demasiadas, los comentarios de los conjuntos de cambios desordenados son confusos de interpretar y se debe dejar espacio para que los mapeadores dejen comentarios descriptivos de los conjuntos de cambios. 
 
-> Please note that a unique project tracking tag will already be present, e.g. #hotosm-project-11188 - **please leave this as it is**, it is very important for tracking the progress of the project. The number at the end of the tag is your project's unique ID.
+> Por favor, tenga en cuenta que una etiqueta única de seguimiento del proyecto ya estará presente, por ejemplo #hotosm-project-11188 - **por favor, déjela como está**, es muy importante para el seguimiento del progreso del proyecto. El número al final de la etiqueta es el ID único de su proyecto.
 
 #### Instrucciones detalladas
 
@@ -230,7 +230,7 @@ Añada instrucciones descriptivas para que los mapeadores y validadores las siga
 2. Add context/location specific instructions. These vary significantly but will help mappers interpret satellite imagery. E.g. 'Expect to see many circular brown thatched huts in this South Sudan project' or 'Settlements in Guatemala are often densely built, zoom extremely far in when mapping each building to ensure they do not connect or overlap'. Drag and drop aerial imagery screenshots into the instructions here to enhance this section.
 3. Incluya definitivamente una descripción detallada de **cómo mapear cada objeto espacial** que desea que sea mapeado. Mire los proyectos existentes (pero recientes) en el Administrador de Tareas para ver si puede tomar prestado algún texto instructivo existente (¡tenga cuidado que algunos proyectos no tendrán buenas instrucciones!).
 4. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related projects the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and may be worth linking to in your project's instructions. If your project must adhere to different tagging standards then write a similar page in the Wiki and link it in your instructions.
-5. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery. Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
+5. Otros puntos de aclaración: Si el proyecto es adecuado sólo para los cartógrafos con un cierto nivel de experiencia. Por ejemplo, el proyecto utiliza importaciones o los datos existentes deben realinearse con las trazas del GPS o alguna otra imagen. Fórmulas para que los nuevos cartógrafos se sientan invitados a contribuir a otros proyectos, pero que entiendan que en este caso se requieren técnicas avanzadas.
 6. Hay directrices que cubren los errores comunes que vemos al validar. Un ejemplo es la compilación de Blake Girardot sobre [mapeo en África Occidental](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Utilice el enlace en las instrucciones y explique que es necesario adherirse a estas directrices.
 
 #### Por Instrucciones de Tarea 
@@ -245,24 +245,24 @@ Esto es opcional, pero es posible añadir un breve fragmento de instrucciones ad
 
 Esto cambia el nivel de dificultad que se **muestra** para su proyecto. Considere esto con mucho cuidado, los proyectos complejos que se establecen inadecuadamente a la dificultad de principiante **pueden dar lugar a importantes problemas de calidad de datos**. 
 
-> Note that this does not change who can **actually contribute** to your project, those restrictions are implemented under the Permissions sub-menu.
+> Tenga en cuenta que esto no cambia quién puede **realmente contribuir** a su proyecto, esas restricciones se implementan en el submenú Permisos.
 
 Most projects are set to either **Beginner** or **Intermediate** difficulty, a handful of projects are set to Advanced. 
 
-- **Beginner** - Consider this if your project is easy to map and:
+- **Principiante** - Considere esto si su proyecto es fácil de mapear y:
   - Sólo está pidiendo a los contribuyentes que mapeen una característica, en particular **sólo edificios**.
   - The density of features is low, i.e. in a **rural** area
   - There is a **low quantity** of existing OSM data in your project area
   - No hay problemas de alineación de imágenes
 - **Intermediate** - If your project is trickier to map, this should be considered if:
-  - You are asking contributors to map more than one feature, e.g. buildings **and** roads
-  - There is a medium/high density of those features in your project area, i.e. **urban** areas
+  - Está pidiendo a los contribuyentes que mapeen más de una característica, por ejemplo, edificios **y** carreteras
+  - Hay una densidad media/alta de esas características en la zona de su proyecto, es decir, zonas **urbanas**.
   - Existen **sustanciales** datos de OSM en el área de su proyecto
   - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
 - **Advanced** - If the project is extremely difficult to map, consider this if: 
   - En la zona de su proyecto hay una densidad muy alta, es decir, **zonas urbanas centrales**.
   - There is a **lot of** existing OSM data in your project area
-  - There are **complex imagery alignment** issues
+  - Hay problemas **complejos de alineación de imágenes**.
 
 #### Types of mapping
 
