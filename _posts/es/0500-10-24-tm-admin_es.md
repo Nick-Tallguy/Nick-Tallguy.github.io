@@ -20,7 +20,7 @@ category: coordination
     -  [Definir tareas](/en/coordination/tm-admin/#define-tasks)
     -  [Advanced: Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
     -  [Recorte del área del proyecto](/en/coordination/tm-admin/#project-area-trim)
-    -  [Name the project](/en/coordination/tm-admin/#name-the-project)
+    -  [Dele nombre al proyecto](/en/coordination/tm-admin/#name-the-project)
 -  [Editar un proyecto](/en/coordination/tm-admin/#edit-a-project)
     -  [Descripción: lo primero que los usuarios conocen de su proyecto](/en/coordination/tm-admin/#description)
     -  [Instrucciones - qué deben hacer los usuarios](/en/coordination/tm-admin/#instructions)
@@ -38,7 +38,7 @@ category: coordination
     -  [Sequencing projects](/en/coordination/tm-admin/#sequencing-projects)
     -  [Ciclo de vida del proyecto](/en/coordination/tm-admin/#project-lifecycle)
 -  [Información adicional](/en/coordination/tm-admin/#additional-information)
-    -  [Considerations concerning imagery](/en/coordination/tm-admin/#considerations-concerning-imagery)
+    -  [Consideraciones sobre las imágenes](/en/coordination/tm-admin/#considerations-concerning-imagery)
 
 El Administrador de Tareas es la herramienta esencial para coordinar la cartografía en OpenStreetMap. Apoya las iniciativas de cartografía humanitaria, la realización de mapatones o la creación de tareas de cartografía para estudiantes. La aplicación divide un área de interés en trozos geográficos manejables que pueden completarse rápidamente y en colaboración. Este enfoque permite distribuir las tareas entre muchos cartógrafos individuales, reduciendo al mismo tiempo los posibles conflictos de edición. 
 
@@ -52,7 +52,7 @@ Para acceder al Administrador de Tareas se necesita una cuenta de OpenStreetMap 
 
 ## Permisos
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers. 
+El nivel de usuario más básico es el de **mapeador**. Los mapeadores son capaces de entrar en el Administrador de Tareas para encontrar y seleccionar un proyecto de mapeo en el que trabajar. Toda la funcionalidad del mapeador se describe en la [Guía del mapeador del Administrador de Tareas de LearnOSM](/es/coordinación/tm-user/). Tenga en cuenta que algunos proyectos, como los que están en estado de borrador (es decir, sin publicar), o restringidos a ciertos equipos, no son visibles para los mapeadores habituales. 
 
 Todos los permisos especiales son manejados por *organizaciones* y *equipos*. Una **organización** es el paraguas principal, y bajo cada organización se pueden crear proyectos y equipos de mapeo. Una organización puede representar a un usuario de datos como una organización humanitaria, o cualquier comunidad de OpenStreetMap. Si necesita configurar su organización en el Administrador de Tareas, póngase en contacto con los responsables técnicos de la instancia del Administrador de Tareas. Consulte [HOT Organizaciones de Administrador de Tareas](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) para ver una lista de las organizaciones que están presentes en el Administrador de Tareas de HOT. Si su comunidad u organización no está en la lista y le gustaría crear proyectos en el Administrador de Tareas de HOT, por favor, rellene [este formulario](http://bit.ly/HOTTasking) para registrar su interés. 
 
@@ -70,17 +70,17 @@ Haga clic en `Administrar` en la navegación de la parte superior. En la primera
 
 Puede elegir entre definir el área de interés (área cartográfica) de su proyecto cartográfico
 
-* Option 1: `Draw` the area of interest manually
+* Opción 1: `Dibujar` el área de interés manualmente
 * Opción 2: `Cargar archivo` para importar el área de interés como GeoJSON, KML o archivo shape comprimido
 
 ![TM Nuevo][]
 
 ### Define mapping area
 
-* Option 1: `Draw` the area of interest manually
+* Opción 1: `Dibujar` el área de interés manualmente
 
 1. Puede pasar de una capa de fondo a otra utilizando los botones en la parte superior.
-1. Click the `Draw` button on the left.
+1. Haga clic en el botón `Dibujar` de la izquierda.
 2. Para dibujar un polígono que represente el área de mapeo en el marco del mapa, mantenga pulsado el botón derecho del ratón para mover el mapa sin hacer clic, lo que añadirá un nodo. El polígono debe enmarcar estrechamente el área de interés. Esto ahorra tiempo a la hora de completar los mosaicos que no son de interés (por ejemplo, el océano o el bosque).
 3. Click on your starting point to complete the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
@@ -99,7 +99,7 @@ Es posible que esté cargando un archivo que ya tiene las tareas (pequeños cuad
 
 ### Definir tareas
 
-After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. You must consider your project's task sizes very carefully. Well designed projects have appropriate task sizes, allowing them to be completed as efficiently as possible. 
+Una vez definida el área de mapeo global, se va a dividir en áreas más pequeñas llamadas *Tareas*. Debe considerar el tamaño de las tareas de su proyecto con mucho cuidado. Los proyectos bien diseñados tienen tamaños de tarea apropiados, lo que permite completarlos con la mayor eficiencia posible. 
 
 ![TM Tamaños de Teselas][]
 
@@ -115,9 +115,9 @@ Considerations for deciding on task sizes:
 -  Las tareas pueden dividirse, pero no hay opción de volver a fusionarlas una vez creado el proyecto.
 -  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time.
 -  En los bordes y esquinas de las tareas, hay un mayor potencial de conflictos entre mapeadores vecinos. Las tareas más pequeñas implican más esquinas y bordes. El tamaño de las tareas tiene que facilitar el trabajo de los cartógrafos, pero sin que se produzcan conflictos entre ellos.
--  Small tasks are easier to map, but more tasks means more time needs to be spent by mappers updating the status of each, and projects with tasks that are too small can therefore be inefficient.
+-  Las tareas pequeñas son más fáciles de mapear, pero un mayor número de tareas significa que los mapeadores deben dedicar más tiempo a actualizar el estado de cada una, por lo que los proyectos con tareas demasiado pequeñas pueden resultar ineficaces.
 -  Los mapeadores principiantes necesitan aproximadamente cuatro veces más tiempo que los experimentados.
--  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
+-  Los cartógrafos principiantes tienen que desarrollar un ojo para las imágenes de satélite. Puede ser difícil encontrar los objetos espaciales correctos.
 
 Una vez que esté satisfecho con el tamaño de sus tareas, haga clic en `Siguiente`.
 
@@ -153,7 +153,7 @@ Asegúrese de que su organización está seleccionada en el campo 'Organización
 
 > Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
 
-Click `Create`. Your project will be created but it will not publish immediately - you'll be directed to the Edit menu of the project first. 
+Haga clic en `Crear`. Su proyecto se creará pero no se publicará inmediatamente - primero se le dirigirá al menú de edición del proyecto. 
 
 ## Editar un proyecto
 
@@ -162,12 +162,12 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 - Descripción - Establezca el estado, la prioridad y la descripción de texto asociados a su proyecto.
 - Instrucciones - Instrucciones detalladas sobre cómo trazar los objetos espaciales necesarios y abordar el proyecto.
 - Metadatos - Define los objetos espaciales que necesitan ser mapeados. También incluye información utilizada para categorizar los proyectos, utilizada en el filtrado de proyectos.
-- Priority Areas - Allows you to specify parts within the project area that should be mapped first.
+- Áreas prioritarias - Le permite especificar las partes dentro del área del proyecto que deben ser mapeadas primero.
 - Imágenes - Elija las imágenes que se cargarán de forma predeterminada cuando los voluntarios mapeen su proyecto. 
 - Permisos - Le permite restringir el acceso al proyecto para la asignación y la validación.
 - Configuración - Activar/desactivar editores alternativos como RapiD.
 - Acciones: potentes acciones masivas que puedes realizar en tu proyecto, como clonar o eliminar.
-- Custom editor - Add a custom editor using a URL
+- Editor personalizado - Añade un editor personalizado utilizando una URL
 
 > Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
 
@@ -177,7 +177,7 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 
 #### Estado
 
-First is the project status. This can be set to either **Draft**, **Published**, or **Archived**.
+El primero es el estado del proyecto. Se puede establecer como **Borrador**, **Publicado** o **Archivado**.
 
 - **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
 - **Publicado** - Cuando haya completado la configuración de su proyecto, lo haya probado y esté contento de que se publique y esté abierto para su mapeo/validación.
@@ -191,22 +191,22 @@ First is the project status. This can be set to either **Draft**, **Published**,
 
 A continuación está la prioridad del proyecto. Esto dicta qué tan cerca del frente del Administrador de Tareas se verá el proyecto en la página de Explorar Proyectos. Puede establecerse como **Urgente**, **Alto**, **Medio** o **Bajo**.
 
-- **Urgent** - Only set this status if the project is **in response to a disaster and the data needs are immediate**. Very few projects have this priority level. 
+- **Urgente** - Sólo se establece este estado si el proyecto es **en respuesta a una catástrofe y las necesidades de datos son inmediatas**. Muy pocos proyectos tienen este nivel de prioridad. 
 - **Alto** - Para proyectos que no son necesariamente en respuesta a una catástrofe pero los datos se necesitan en un **plazo corto**. 
 - **Medio** - Si los datos son necesarios pero no en un plazo especialmente corto.
 - **Bajo** - Si quieres publicar tu proyecto pero no quieres que sea muy destacado. Tal vez prefieras compartir tu proyecto con grupos específicos utilizando la URL del proyecto.
 
-#### Short description
+#### Descripción corta
 
-Add at least two sentences that briefly describe your project. This is important because volunteers will read this to decide on whether to contribute. Try and clearly explain **why** the data is being collected and **how the map data will be used**. 
+Añade al menos dos frases que describan brevemente tu proyecto. Esto es importante porque los voluntarios lo leerán para decidir si quieren contribuir. Intenta explicar claramente **por qué** se recogen los datos y **cómo se utilizarán los datos del mapa**. 
 
 > Estos campos admiten **Markdown** y pueden incluir imágenes (arrastrando y soltando) y vídeos (añadiendo una URL de YouTube para su incrustación automática).
 
-#### 'Long' Description
+#### Descripción 'larga'
 
 Aquí puede entrar en más detalles sobre su proyecto. Proporcione más información sobre la razón de ser del proyecto, quién utilizará los datos y el impacto que se espera que tenga la cartografía. Si el proyecto incluye colaboraciones o socios, puede ampliar la información aquí. 
 
-> For any of these text fields you can choose to add additional translations. If you'd like to add a translation, click on the two letter language code and enter the translated text. For users that have set the Tasking Manager to that language it will automatically display the project in that language. By default, the initial field is English language, this can be altered in the 'Settings' sub-menu of your project.
+> Para cualquiera de estos campos de texto puede elegir añadir traducciones adicionales. Si desea añadir una traducción, haga clic en el código de idioma de dos letras e introduzca el texto traducido. Para los usuarios que hayan configurado el Administrador de Tareas en ese idioma, se mostrará automáticamente el proyecto en ese idioma. Por defecto, el campo inicial es el idioma inglés, esto se puede modificar en el submenú "Configuración" de su proyecto.
 
 #### Fecha de vencimiento
 
@@ -214,7 +214,7 @@ Si tiene una fecha en la que desea que su proyecto esté completamente mapeado y
 
 ### Instrucciones
 
-![TM Instructions][]
+![TM Instrucciones][]
 
 #### Comentario sobre conjunto de cambio
 
@@ -227,7 +227,7 @@ Aquí puede añadir etiquetas de seguimiento adicionales que se rellenarán auto
 Añada instrucciones descriptivas para que los mapeadores y validadores las sigan mientras trabajan en su proyecto. Su proyecto será público, por lo que **escriba las instrucciones para usuarios inexpertos** sin conocimientos locales o contextuales. Por favor, utilice un lenguaje sencillo, ya que su público objetivo puede no ser hablante nativo de español.
 
 1. Escriba la información más importante en la parte superior para asegurarse de que es prominente. Esto podría incluir una descripción de las imágenes y una advertencia de un problema de compensación de imágenes con orientación. O puede indicar a los cartógrafos que ignoren los caminos y las pistas en un proyecto de cartografía de carreteras y se centren en las carreteras más destacadas.
-2. Add context/location specific instructions. These vary significantly but will help mappers interpret satellite imagery. E.g. 'Expect to see many circular brown thatched huts in this South Sudan project' or 'Settlements in Guatemala are often densely built, zoom extremely far in when mapping each building to ensure they do not connect or overlap'. Drag and drop aerial imagery screenshots into the instructions here to enhance this section.
+2. Añadir instrucciones específicas de contexto/ubicación. Éstas varían considerablemente, pero ayudarán a los cartógrafos a interpretar las imágenes de satélite. Por ejemplo, "Espere ver muchas chozas circulares de paja marrón en este proyecto de Sudán del Sur" o "Los asentamientos en Guatemala suelen estar densamente construidos, haga un zoom muy grande cuando mapee cada edificio para asegurarse de que no se conectan o se superponen". Arrastra y suelta las capturas de pantalla de las imágenes aéreas en las instrucciones para mejorar esta sección.
 3. Incluya definitivamente una descripción detallada de **cómo mapear cada objeto espacial** que desea que sea mapeado. Mire los proyectos existentes (pero recientes) en el Administrador de Tareas para ver si puede tomar prestado algún texto instructivo existente (¡tenga cuidado que algunos proyectos no tendrán buenas instrucciones!).
 4. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related projects the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and may be worth linking to in your project's instructions. If your project must adhere to different tagging standards then write a similar page in the Wiki and link it in your instructions.
 5. Otros puntos de aclaración: Si el proyecto es adecuado sólo para los cartógrafos con un cierto nivel de experiencia. Por ejemplo, el proyecto utiliza importaciones o los datos existentes deben realinearse con las trazas del GPS o alguna otra imagen. Fórmulas para que los nuevos cartógrafos se sientan invitados a contribuir a otros proyectos, pero que entiendan que en este caso se requieren técnicas avanzadas.
@@ -237,38 +237,38 @@ Añada instrucciones descriptivas para que los mapeadores y validadores las siga
 
 Esto es opcional, pero es posible añadir un breve fragmento de instrucciones adicionales que los mapeadores verán mientras trabajan en una tarea. Esto se ve en la parte derecha de la vista del editor del Gestor de Tareas, encima de la sección "Estado de la Tarea". Esto se verá en todo momento mientras se mapea, así que si hay algo **particularmente importante** sobre lo que usted quiere **instruir a los mapeadores** puede añadirlo aquí. 
 
-### Metadata
+### Metadatos
 
 ![TM Metadatos][]
 
-#### Mapper level
+#### Nivel de mapeador(a)
 
 Esto cambia el nivel de dificultad que se **muestra** para su proyecto. Considere esto con mucho cuidado, los proyectos complejos que se establecen inadecuadamente a la dificultad de principiante **pueden dar lugar a importantes problemas de calidad de datos**. 
 
 > Tenga en cuenta que esto no cambia quién puede **realmente contribuir** a su proyecto, esas restricciones se implementan en el submenú Permisos.
 
-Most projects are set to either **Beginner** or **Intermediate** difficulty, a handful of projects are set to Advanced. 
+La mayoría de los proyectos están configurados en dificultad **Principiante** o **Intermedio**, un puñado de proyectos están configurados en Avanzado. 
 
 - **Principiante** - Considere esto si su proyecto es fácil de mapear y:
   - Sólo está pidiendo a los contribuyentes que mapeen una característica, en particular **sólo edificios**.
-  - The density of features is low, i.e. in a **rural** area
-  - There is a **low quantity** of existing OSM data in your project area
+  - La densidad de objetos espaciales es baja, es decir, en una zona **rural**.
+  - Hay una **baja cantidad** de datos OSM existentes en el área de su proyecto
   - No hay problemas de alineación de imágenes
-- **Intermediate** - If your project is trickier to map, this should be considered if:
+- **Intermedio** - Si su proyecto es más difícil de mapear, debería considerarse si:
   - Está pidiendo a los contribuyentes que mapeen más de una característica, por ejemplo, edificios **y** carreteras
   - Hay una densidad media/alta de esas características en la zona de su proyecto, es decir, zonas **urbanas**.
   - Existen **sustanciales** datos de OSM en el área de su proyecto
   - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
-- **Advanced** - If the project is extremely difficult to map, consider this if: 
+- **Avanzado** - Si el proyecto es extremadamente difícil de mapear, considere esto si:
   - En la zona de su proyecto hay una densidad muy alta, es decir, **zonas urbanas centrales**.
-  - There is a **lot of** existing OSM data in your project area
+  - Hay **muchos** datos OSM existentes en el área de tu proyecto
   - Hay problemas **complejos de alineación de imágenes**.
 
-#### Types of mapping
+#### Tipos de mapeo
 
 Active o desactive estas opciones en función de las características que desee asignar a su proyecto. Por lo general, **cuantas menos características mejor**, ya que los proyectos que pretenden mapear demasiadas características suelen tener dificultades para avanzar. 
 
-> Projects that ask for lots of features to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and highways/waterways mapped separately is best practice. 
+> Los proyectos que piden que se mapeen muchos objetos espaciales son difíciles para los mapeadores y difíciles de validar. Tardan mucho más en obtener un buen conjunto de datos utilizables. El tamaño de las tareas también es difícil de hacer eficiente para los diferentes tipos de cartografía, por ejemplo, los edificios necesitan cuadrados de tareas pequeños, las carreteras y las vías fluviales necesitan cuadrados de tareas más grandes. La mejor práctica consiste en realizar varios proyectos en la misma zona para cartografiar por separado los edificios y las carreteras y vías fluviales. 
 
 #### Preconfiguraciones del Editor iD
 
