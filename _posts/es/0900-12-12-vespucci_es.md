@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Vespucci
+título: Vespucci
 permalink: /en/mobile-mapping/vespucci/
 lang: en
 category: mobile-mapping
@@ -9,7 +9,7 @@ category: mobile-mapping
 Vespucci
 ==============
 
-Vespucci is a free tool for editing OpenStreetMap data and known to work on a wide range of devices for example Smartphones, Tablets. It supports most operations available in desktop OSM editors. However, this app is only available for Android devices and works for all Android Versions since 4.0.
+Vespucci es una herramienta gratuita para la edición de datos de OpenStreetMap y conocida por funcionar en una amplia gama de dispositivos, por ejemplo, Teléfonos Inteligentes, Tabletas. Soporta la mayoría de las operaciones disponibles en los editores OSM de escritorio. Sin embargo, esta aplicación sólo está disponible para dispositivos Android y funciona para todas las versiones de Android desde la 4.0.
 
 You can download it from Google Play Store, Amazon or F-Droid. Release and beta APKs of the app are also available from its GitHub repository.
 

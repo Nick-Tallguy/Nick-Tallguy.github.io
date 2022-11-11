@@ -18,7 +18,7 @@ category: coordination
 -  [Crear un proyecto](/en/coordination/tm-admin/#create-a-project)
     -  [Definir área de mapeo](/en/coordination/tm-admin/#define-mapping-area)
     -  [Definir tareas](/en/coordination/tm-admin/#define-tasks)
-    -  [Advanced: Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
+    -  [Avanzado: Definir tareas con datos importados](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
     -  [Recorte del área del proyecto](/en/coordination/tm-admin/#project-area-trim)
     -  [Dele nombre al proyecto](/en/coordination/tm-admin/#name-the-project)
 -  [Editar un proyecto](/en/coordination/tm-admin/#edit-a-project)
@@ -29,13 +29,13 @@ category: coordination
     -  [Imágenes: la base de la cartografía](/en/coordination/tm-admin/#imagery)
     -  [Permisos - quién puede asignar y validar](/es/coordinación/tm-admin/#permisos)
     -  [Ajustes](/en/coordination/tm-admin/#settings)
-    -  [Actions](/en/coordination/tm-admin/#actions)
+    -  [Acciones](/en/coordination/tm-admin/#actions)
     -  [Editor personalizado](/en/coordination/tm-admin/#custom-editor)
     -  [Guardar y probar](/en/coordination/tm-admin/#save-and-test)
     -  [Publicar](/en/coordination/tm-admin/#publish)
 -  [Gestión de proyectos](/en/coordination/tm-admin/#project-management) 
-    -  [Be responsive](/en/coordination/tm-admin/#be-responsive)
-    -  [Sequencing projects](/en/coordination/tm-admin/#sequencing-projects)
+    -  [Sea receptivo](/en/coordination/tm-admin/#be-responsive)
+    -  [Proyectos de secuenciación](/en/coordination/tm-admin/#sequencing-projects)
     -  [Ciclo de vida del proyecto](/en/coordination/tm-admin/#project-lifecycle)
 -  [Información adicional](/en/coordination/tm-admin/#additional-information)
     -  [Consideraciones sobre las imágenes](/en/coordination/tm-admin/#considerations-concerning-imagery)
@@ -46,7 +46,7 @@ El software fomenta la obtención de datos cartográficos precisos y de calidad 
 
 Esta guía describe la administración básica del Administrador de Tareas. Cubre las instrucciones para crear y modificar proyectos de mapeo y manejar los permisos para el mapeo y la revisión de los datos de crowdsourcing.
 
-## Login and access
+## Inicio de sesión y acceso
 
 Para acceder al Administrador de Tareas se necesita una cuenta de OpenStreetMap (OSM). Puedes visitar el [HOT Administrador de Tareas](http://tasks.hotosm.org), o cualquier otra instancia comunitaria de tu preferencia. Allí haga clic en `Sign up` y le redirigirá al [sitio web de OpenStreetMap](https://www.openstreetmap.org) para crear su cuenta. O haz clic en `Log in` si ya tienes una, y en la ventana emergente puedes dar al Administrador de Tareas acceso limitado a tu cuenta de OSM.
 
@@ -62,7 +62,7 @@ Los responsables de una organización pueden crear **equipos**. Los equipos son 
 
 Para cada proyecto, los administradores pueden asignar equipos específicos para conceder o restringir el acceso a la cartografía, definir quién puede validar los datos o quién más puede editar los metadatos del proyecto.
 
-## Create a project
+## Crear un proyecto
 
 Haga clic en `Administrar` en la navegación de la parte superior. En la primera fila verá un espacio para 'Proyectos'. Al lado, haga clic en el botón `Añadir` para crear uno.
 
@@ -75,14 +75,14 @@ Puede elegir entre definir el área de interés (área cartográfica) de su proy
 
 ![TM Nuevo][]
 
-### Define mapping area
+### Definir el área de mapeo
 
 * Opción 1: `Dibujar` el área de interés manualmente
 
 1. Puede pasar de una capa de fondo a otra utilizando los botones en la parte superior.
 1. Haga clic en el botón `Dibujar` de la izquierda.
 2. Para dibujar un polígono que represente el área de mapeo en el marco del mapa, mantenga pulsado el botón derecho del ratón para mover el mapa sin hacer clic, lo que añadirá un nodo. El polígono debe enmarcar estrechamente el área de interés. Esto ahorra tiempo a la hora de completar los mosaicos que no son de interés (por ejemplo, el océano o el bosque).
-3. Click on your starting point to complete the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
+3. Haga clic en su punto de partida para completar el polígono. <!--Después de completar un polígono puede mover los nodos o añadir otros nuevos para conseguir el área tal y como la quiere.-->
 
 <br>
 
@@ -111,9 +111,9 @@ Tómese su tiempo y establezca el tamaño de las tareas con mucho cuidado. Inten
 
 Después de haber ajustado el tamaño total de la tarea, puede dividir selectivamente ciertas tareas en cuatro más pequeñas con el botón `Clic para dividir`. O puede `Dibujar un área para dividir`, y le permitirá dibujar un polígono sobre un área para dividir todas las tareas dentro de ella. Estas funciones son especialmente útiles si la densidad de la característica que desea mapear varía en el área de su proyecto. Por ejemplo, puede haber una zona costera densamente construida que necesite tareas pequeñas y una zona rural interior que necesite tareas mucho más grandes. El botón `Reset` eliminará todas las divisiones personalizadas.
 
-Considerations for deciding on task sizes:
+Consideraciones para decidir el tamaño de las tareas:
 -  Las tareas pueden dividirse, pero no hay opción de volver a fusionarlas una vez creado el proyecto.
--  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time.
+-  Una vez que se ha creado un proyecto, la división de tareas requiere mucho tiempo y tiene que hacerse tarea por tarea.
 -  En los bordes y esquinas de las tareas, hay un mayor potencial de conflictos entre mapeadores vecinos. Las tareas más pequeñas implican más esquinas y bordes. El tamaño de las tareas tiene que facilitar el trabajo de los cartógrafos, pero sin que se produzcan conflictos entre ellos.
 -  Las tareas pequeñas son más fáciles de mapear, pero un mayor número de tareas significa que los mapeadores deben dedicar más tiempo a actualizar el estado de cada una, por lo que los proyectos con tareas demasiado pequeñas pueden resultar ineficaces.
 -  Los mapeadores principiantes necesitan aproximadamente cuatro veces más tiempo que los experimentados.
@@ -151,7 +151,7 @@ El nombre de un proyecto es uno de sus aspectos más importantes a la hora de se
 
 Asegúrese de que su organización está seleccionada en el campo 'Organización'. 
 
-> Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
+> Antes de completar esta etapa, asegúrese de que está satisfecho con el área de interés del proyecto y el número total de tareas, ya que estos elementos no pueden ajustarse posteriormente.
 
 Haga clic en `Crear`. Su proyecto se creará pero no se publicará inmediatamente - primero se le dirigirá al menú de edición del proyecto. 
 
@@ -169,7 +169,7 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 - Acciones: potentes acciones masivas que puedes realizar en tu proyecto, como clonar o eliminar.
 - Editor personalizado - Añade un editor personalizado utilizando una URL
 
-> Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
+> Rellenar esta información cuidadosamente es una parte esencial del éxito de un proyecto cartográfico. Es especialmente importante que la descripción del proyecto y las instrucciones se comuniquen con claridad para que los cartógrafos sean conscientes de la importancia de la calidad de los datos y de las mejores prácticas. Hay que tener en cuenta que los colaboradores pueden no tener experiencia previa con OpenStreetMap y es poco probable que estén familiarizados con las directrices de etiquetado.
 
 ### Descripción
 
@@ -179,10 +179,10 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 
 El primero es el estado del proyecto. Se puede establecer como **Borrador**, **Publicado** o **Archivado**.
 
-- **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
+- **Borrador** - Su proyecto comenzará en modo borrador. En este modo no será descubrible y no será posible que el público contribuya a él. Esto es perfecto mientras aún estás configurando tu proyecto y probándolo antes de su lanzamiento.
 - **Publicado** - Cuando haya completado la configuración de su proyecto, lo haya probado y esté contento de que se publique y esté abierto para su mapeo/validación.
-- **Archived** - All projects should end up being archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
-  - It is 100% mapped and validated
+- **Archivado** - Todos los proyectos deberían acabar archivados. Los proyectos archivados son públicos pero están bloqueados para las contribuciones. Debería considerar archivar su proyecto si:
+  - Está 100% mapeado y validado
   - Las instrucciones o las imágenes están sustancialmente anticuadas
   - El proyecto se creó hace más de un año
   - Los datos del mapa ya no son necesarios para fines humanitarios en la zona del proyecto
@@ -229,7 +229,7 @@ Añada instrucciones descriptivas para que los mapeadores y validadores las siga
 1. Escriba la información más importante en la parte superior para asegurarse de que es prominente. Esto podría incluir una descripción de las imágenes y una advertencia de un problema de compensación de imágenes con orientación. O puede indicar a los cartógrafos que ignoren los caminos y las pistas en un proyecto de cartografía de carreteras y se centren en las carreteras más destacadas.
 2. Añadir instrucciones específicas de contexto/ubicación. Éstas varían considerablemente, pero ayudarán a los cartógrafos a interpretar las imágenes de satélite. Por ejemplo, "Espere ver muchas chozas circulares de paja marrón en este proyecto de Sudán del Sur" o "Los asentamientos en Guatemala suelen estar densamente construidos, haga un zoom muy grande cuando mapee cada edificio para asegurarse de que no se conectan o se superponen". Arrastra y suelta las capturas de pantalla de las imágenes aéreas en las instrucciones para mejorar esta sección.
 3. Incluya definitivamente una descripción detallada de **cómo mapear cada objeto espacial** que desea que sea mapeado. Mire los proyectos existentes (pero recientes) en el Administrador de Tareas para ver si puede tomar prestado algún texto instructivo existente (¡tenga cuidado que algunos proyectos no tendrán buenas instrucciones!).
-4. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related projects the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and may be worth linking to in your project's instructions. If your project must adhere to different tagging standards then write a similar page in the Wiki and link it in your instructions.
+4. El recurso definitivo sobre el etiquetado es el [wiki de OpenStreetMap](http://wiki.openstreetmap.org/wiki/Map_Features). Para muchos proyectos relacionados con HOT, la página sobre [etiquetado de carreteras en África](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) es la especialización adecuada y puede valer la pena enlazarla en las instrucciones de su proyecto. Si su proyecto debe adherirse a normas de etiquetado diferentes, escriba una página similar en la Wiki y enlácela en sus instrucciones.
 5. Otros puntos de aclaración: Si el proyecto es adecuado sólo para los cartógrafos con un cierto nivel de experiencia. Por ejemplo, el proyecto utiliza importaciones o los datos existentes deben realinearse con las trazas del GPS o alguna otra imagen. Fórmulas para que los nuevos cartógrafos se sientan invitados a contribuir a otros proyectos, pero que entiendan que en este caso se requieren técnicas avanzadas.
 6. Hay directrices que cubren los errores comunes que vemos al validar. Un ejemplo es la compilación de Blake Girardot sobre [mapeo en África Occidental](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Utilice el enlace en las instrucciones y explique que es necesario adherirse a estas directrices.
 
@@ -258,7 +258,7 @@ La mayoría de los proyectos están configurados en dificultad **Principiante** 
   - Está pidiendo a los contribuyentes que mapeen más de una característica, por ejemplo, edificios **y** carreteras
   - Hay una densidad media/alta de esas características en la zona de su proyecto, es decir, zonas **urbanas**.
   - Existen **sustanciales** datos de OSM en el área de su proyecto
-  - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
+  - Puede haber **problemas de alineación de las imágenes** o pedir a los colaboradores que utilicen más de una fuente de imágenes
 - **Avanzado** - Si el proyecto es extremadamente difícil de mapear, considere esto si:
   - En la zona de su proyecto hay una densidad muy alta, es decir, **zonas urbanas centrales**.
   - Hay **muchos** datos OSM existentes en el área de tu proyecto
@@ -280,17 +280,17 @@ Your organization name should be in here already, otherwise choose it from the d
 
 #### Campaña
 
-If you have created several projects which are associated with each other, you can choose to assign them to a campaign. Users can filter projects by campaign name on the Explore Projects page. For example, if your project is associated with malaria elimination, you might want to put it under the 'Malaria Elimination' campaign. To request the creation of additional campaign names please complete [this form](https://forms.gle/qafvkp4iAxnY6rjE6). 
+Si ha creado varios proyectos asociados entre sí, puede optar por asignarlos a una campaña. Los usuarios pueden filtrar los proyectos por el nombre de la campaña en la página Explorar Proyectos. Por ejemplo, si su proyecto está asociado a la eliminación de la malaria, puede ponerlo en la campaña "Eliminación de la malaria". Para solicitar la creación de nombres de campaña adicionales, complete [este formulario](https://forms.gle/qafvkp4iAxnY6rjE6).
 
-#### Categories
+#### Categorías
 
-Select the themes here that relate to your project. Contributors can specify their interests in these categories in their settings page.
+Seleccione aquí los temas relacionados con su proyecto. Los colaboradores pueden especificar sus intereses en estas categorías en su página de configuración.
 
-#### OSMCha filter ID
+#### OSMCha filtro ID
 
-[OSMCha](https://osmcha.org/) is a powerful data quality assurance tool that you may find useful for monitoring contributions to your project. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here. The OSMCha filter is available at the end of the overview page of your project. 
+[OSMCha](https://osmcha.org/) es una potente herramienta de control de calidad de datos que puede resultarle útil para supervisar las contribuciones a su proyecto. El filtro estándar confina la salida a la caja de límites del proyecto y a las contribuciones no más antiguas que la fecha de creación del proyecto y con el nombre del proyecto en el comentario del conjunto de cambios. Si crees que algo diferente sería un mejor enfoque para analizar los conjuntos de cambios de tu proyecto, entonces proporciona una URL de OSMCha o un id de filtro de OSMCha aquí. El filtro OSMCha está disponible al final de la página de resumen de su proyecto.
 
-### Priority Areas
+### Áreas prioritarias
 
 ![TM Priority Area][]
 
