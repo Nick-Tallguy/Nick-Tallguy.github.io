@@ -11,7 +11,7 @@ Vespucci
 
 Vespucci es una herramienta gratuita para la edición de datos de OpenStreetMap y conocida por funcionar en una amplia gama de dispositivos, por ejemplo, Teléfonos Inteligentes, Tabletas. Soporta la mayoría de las operaciones disponibles en los editores OSM de escritorio. Sin embargo, esta aplicación sólo está disponible para dispositivos Android y funciona para todas las versiones de Android desde la 4.0.
 
-You can download it from Google Play Store, Amazon or F-Droid. Release and beta APKs of the app are also available from its GitHub repository.
+Puedes descargarla desde la Tienda Google Play, Amazon o F-Droid. Los APKs de la versión y la beta de la aplicación también están disponibles en su repositorio de GitHub.
 
 ## Características
 
@@ -23,44 +23,44 @@ You can download it from Google Play Store, Amazon or F-Droid. Release and beta 
 -   Mejorar geometría de la vía
 -   Ortogonalizar vías (escuadrar)
 -   Mover múltiples elementos
--   Supports multi-polygons
--   Create, edit and delete tags
--   Undo and redo functions
--   Edit relations and create new turn restrictions
--   JOSM presets support
--   Download and store background imagery tiles
--   Download and upload to OSM server
--   Saving and reading of JOSM format OSM data files
--   Showing validation issues and FIXMEs
--   Missing tags and street names
--   Add, comment and close OSM Notes and Osmose bugs
--   Load, record, and upload GPX track
--   Display geo-referenced photographs
--   Support MapSplit tiled OSM data
--   Support reading of PBF format OSM data files
--   ..and many more
+-   Admite multi-polígonos
+-   Crear, editar y eliminar etiquetas
+-   Funciones de deshacer y rehacer
+-   Editar relaciones y crear nuevas restricciones de turno
+-   Compatibilidad con los preajustes JOSM
+-   Descargar y almacenar azulejos de imágenes de fondo
+-   Descargar y subir al Servidor OSM
+-   Almacenamiento y lectura de archivos de datos OSM en formato JOSM
+-   Mostrar problemas de validación y FIXMEs
+-   Faltan etiquetas y nombres de calles
+-   Añadir, comentar y cerrar los errores de OSM Notes y Osmose
+-   Cargar, grabar y cargar una traza GPX
+-   Mostrar fotografías georreferenciadas
+-   Apoyo a los datos OSM en mosaico de MapSplit
+-   Admite la lectura de archivos de datos OSM en formato PBF
+-   ..y muchos más
 
-## Mapping using Vespucci
+## Cartografía con Vespucci
 
-OSM data in Vespucci are called objects. Points are called nodes, lines are called ways, and polygons are called closed ways.
+Los datos OSM en Vespucci se llaman objetos. Los puntos se llaman nodos, las líneas se llaman caminos y los polígonos se llaman caminos cerrados.
 
-To add OSM data using Vespucci, you are required to sign in to your OpenStreetMap account. Sign in by tapping the “More options" icon (located on the lower right portion of the screen) and selecting “Authorise OAuth" under “Tools…". Type your OSM username (or email address) and password, then tap “Login". If you do not have an OSM account, select “Register now" instead.
+Para añadir datos de OSM utilizando Vespucci, es necesario que inicie sesión en su cuenta de OpenStreetMap. Inicie sesión tocando el icono "Más opciones" (situado en la parte inferior derecha de la pantalla) y seleccionando "Autorizar OAuth" en "Herramientas...". Escriba su nombre de usuario (o dirección de correo electrónico) y contraseña de OSM, y luego toque "Iniciar sesión". Si no tiene una cuenta de OSM, seleccione "Registrar ahora" en su lugar.
 
 ![Login][]
 
-Vespucci will need access to your account. To authorize access to your account, tap “Grant Access" after logging in. Make sure all boxes are checked to maximize what you can do in Vespucci.
+Vespucci necesitará acceso a su cuenta. Para autorizar el acceso a su cuenta, toque "Conceder acceso" después de iniciar la sesión. Asegúrese de que todas las casillas estén marcadas para maximizar lo que puede hacer en Vespucci.
 
 ![Allow][]
 
-After signing in, locate your area of interest through the “GPS" icon or through “Find" under “More options". Change the map background to your desired imagery by clicking on the three lines in the Top-right corner and clicking on “OpenStreetMap(Standard)" since it is the default Imagery and that will list all the available Imageries.
+Después de iniciar sesión, localice su área de interés a través del icono "GPS" o a través de "Buscar" en "Más opciones". Cambie el fondo del mapa a las imágenes que desee haciendo clic en las tres líneas de la esquina superior derecha y haciendo clic en "OpenStreetMap(Standard)", ya que es la imagen por defecto, y así aparecerán todas las imágenes disponibles.
 
 ![SelectImagery][]
 
-To edit offline, select “Download Current View" or “Clear and download current View" under the “Transfer" icon. This will allow you to download and edit the area shown within your screen with a saved background imagery of your choice. Editing offline will prevent you from editing OSM data at the same time with other mappers hence avoiding data quality issues that may have arisen.
+Para editar sin conexión, seleccione "Descargar la vista actual" o "Borrar y descargar la vista actual" bajo el icono "Transferir". Esto le permitirá descargar y editar el área mostrada en tu pantalla con una imagen de fondo guardada de tu elección. La edición sin conexión evitará que edite los datos de OSM al mismo tiempo que otros cartógrafos, evitando así los problemas de calidad de los datos que puedan surgir.
 
 ![Offline][]
 
-Unlock the map so you can start adding data. Do this by tapping the lock icon on the upper left corner of the screen. Long press the unlock icon then tap Normal so you can add and edit nodes, ways, and tags. Selecting the “tag only" option will only allow you to edit tags.
+Desbloquee el mapa para poder empezar a añadir datos. Para ello, toque el icono del candado en la esquina superior izquierda de la pantalla. Mantenga pulsado el icono de desbloqueo y luego toque Normal para poder añadir y editar nodos, caminos y etiquetas. Si selecciona la opción "sólo etiquetas", sólo podrás editarlas.
 
 ![StartEditing][]
 
