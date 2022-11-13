@@ -10,12 +10,12 @@ Utilisation de Geofabrik et de HOT Export
 ================
 
 
-After learning how to add and edit data in OpenStreetMap (OSM), now maybe you would like to obtain the data as a backup or to process it using Geographic Information System software that is Open Source, such as Quantum GIS ([www.qgis.org](http://www.qgis.org)).  
+Après avoir appris comment ajouter et modifier des données dans OpenStreetMap (OSM), Maintenant, vous souhaitez peut-être obtenir les données en tant que sauvegarde ou les traiter à l'aide d'un logiciel de système d'information géographique à code source ouvert, tel que Quantum GIS. ([www.qgis.org](http://www.qgis.org)).  
 
-Getting OSM Data on Geofabrik Website
+Obtenir OSM Données sur Geofabrik Website
 -------------------------------------
 
-The OSM data can be obtained easily by downloading it from [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
+Les données OSM peut être obtenu facilement en le téléchargeant sur [http://download.geofabrik.de/openstreetmap/](http://download.geofabrik.de/openstreetmap/)
 
 ![download-geofabrik][]
 
