@@ -410,59 +410,59 @@ Congratulations! You've created a project, now you'll need to make sure you mana
 
 ### Be responsive
 
-As the project creator, you are **responsible** for **responding to questions** that arise in the **Questions and Comments** section of your project page. This section will often include useful guidance or tips from the wider community, take these seriously, respond and make edits to your projects where necessary. 
+Como creador del proyecto, es **responsable** de **responder a las preguntas** que surjan en la sección **Preguntas y comentarios** de la página de tu proyecto. Esta sección a menudo incluirá consejos u orientaciones útiles de la comunidad en general, tómatelos en serio, responda y edite sus proyectos cuando sea necesario. 
 
-> To enable notifications when there are new posts in the Questions and Comments section, click on your OSM username in Tasking Manager and choose `Settings`. Toggle notifications on for 'Questions and comments'.
+> Para activar las notificaciones cuando hay nuevas publicaciones en la sección de Preguntas y Comentarios, haga clic en su nombre de usuario de OSM en el Administrador de Tareas y elija `Configuración`. Activa las notificaciones para "Preguntas y comentarios".
 
-On the project page your username will also be listed next to 'created by ...'. This means that you may also receive direct OSM messages, make sure to read and respond to these. 
+En la página del proyecto, su nombre de usuario también aparecerá junto a "creado por...". Esto significa que también puede recibir mensajes directos de OSM, asegúrese de leerlos y responderlos. 
 
-> If you are being overwhelmed by questions please note that you will receive less if you follow this guidance: _The first thing you can do to support the mappers, and validators, is having well designed projects with easy to understand but thorough instructions and descriptions._
+> Si se siente abrumado por las preguntas, tenga en cuenta que recibirá menos si sigue esta orientación: _Lo primero que puede hacer para apoyar a los mapeadores, y a los validadores, es tener proyectos bien diseñados con instrucciones y descripciones fáciles de entender pero completas._
 
-### Sequencing projects
+### Proyectos de secuenciación
 
-If you have created a number of projects in a series **do not publish them all at once**. You are not the only one creating projects, having a reasonable number of projects (one or two) at the appropriate priority is fine. Publishing half-a-dozen at once will crowd out the Tasking Manager. Keep the rest in draft or at lower priority while at any moment only one or two are being worked on. You may notice that contributors lose enthusiasm if they see lots of similar projects all at once that are making little progress.
+Si ha creado varios proyectos en serie **no los publiques todos a la vez**. No es el único que crea proyectos, tener un número razonable de proyectos (uno o dos) con la prioridad adecuada está bien. Publicar media docena a la vez saturará el Administrador de Tareas. Mantenga el resto en borrador o con una prioridad menor, mientras que en todo momento sólo se trabaja en uno o dos. Puede notar que los colaboradores pierden el entusiasmo si ven muchos proyectos similares a la vez que avanzan poco.
 
-### Project lifecycle
+### Ciclo de vida del proyecto
 
-Keep track of the mapping and validation progress of your projects. Remember that **all projects must end up being archived**. You will need to do this manually, so do not lose sight of the progress, priority or relevance of your projects. If you are moving to another organization make sure to **hand over** your ongoing projects to your replacement. 
+Siga el progreso de mapeo y validación de sus proyectos. Recuerde que **todos los proyectos deben acabar siendo archivados**. Tendrá que hacerlo manualmente, así que no pierda de vista el progreso, la prioridad o la relevancia de sus proyectos. Si se traslada a otra organización, asegúrese de **traspasar** sus proyectos en curso a su sustituto. 
 
-## Additional information
+## Información adicional
 
-### Considerations concerning imagery
+### Consideraciones sobre las imágenes
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Maxar or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Antes de crear su proyecto, compruebe las imágenes en varios lugares diferentes de la zona de su proyecto para hacer una evaluación de las imágenes. En la mayoría de los casos, las imágenes Maxar o Bing deberían satisfacer sus necesidades. Sin embargo, hay situaciones en las que podría querer elegir una fuente alternativa. Es posible que tenga que tener en cuenta lo siguiente a la hora de elegir sus imágenes: 
 
-1. If careful, detailed mapping is needed choose the imagery that is clearest, with the highest resolution.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery. Recently Maxar has been the most up-to-date but this varies by location. 
-3. Check for cloud cover, although one imagery source may suit your needs if it is very cloudy or hazy your mappers will struggle to map using it.
-4. Check for alignment, if there is plenty of existing OSM data that aligns to one set of satellite imagery then it may make sense to choose the same imagery. If there are alignment issues make sure to write clear instructions detailing how you expect contributors to deal with offsets/alignment issues. 
+1. Si se necesita una cartografía cuidadosa y detallada, elija las imágenes más claras y de mayor resolución.
+2. Si su prioridad es disponer de las imágenes más actualizadas, alterne entre las fuentes de imágenes estándar para buscar las imágenes más recientes. Busque indicios de desarrollo, como nuevos edificios o desmonte de terrenos, para hacerse una idea de las imágenes más actualizadas. Últimamente, Maxar ha sido la más actualizada, pero esto varía según la ubicación. 
+3. Comprueba la nubosidad, aunque una fuente de imágenes puede satisfacer sus necesidades si está muy nublada o brumosa sus mapeadores tendrán problemas para mapear con ella.
+4. Comprueba la alineación, si hay muchos datos OSM existentes que se alinean con un conjunto de imágenes de satélite, entonces puede tener sentido elegir las mismas imágenes. Si hay problemas de alineación, asegúrese de escribir instrucciones claras detallando cómo esperas que los contribuyentes se ocupen de los problemas de desplazamiento/alineación. 
 
-> It is often very difficult to get an exact imagery capture date from the satellite imagery providers. The main sources are 'mosaics' where a series of images (often with very different capture dates) are stitched together. Sometimes this stitching goes down to the individual pixel level. In the absence of information, using imagery comparison is therefore often the best choice for finding the most recent imagery. 
+> A menudo es muy difícil obtener una fecha exacta de captura de imágenes de los proveedores de imágenes por satélite. Las principales fuentes son los "mosaicos", en los que se unen una serie de imágenes (a menudo con fechas de captura muy diferentes). A veces, esta unión llega hasta el nivel de píxel individual. A falta de información, la comparación de imágenes suele ser la mejor opción para encontrar las imágenes más recientes. 
 
-#### Imagery alignment
+#### Alineación de imágenes
 
-Your project area may have already been partially mapped using older imagery and there might be a noticeable mis-alignment between the older mapped objects and the newer available imagery. Inspect various locations across your mapping area to determine this. If there is an alignment issue, make sure to include detailed instructions outlining the best approach for mappers to take. Projects with imagery alignment issues are best restricted to more experienced mappers. 
+Es posible que el área de su proyecto ya haya sido parcialmente cartografiada utilizando imágenes más antiguas y que haya una desalineación notable entre los objetos cartografiados más antiguos y las imágenes más recientes disponibles. Inspeccione varias ubicaciones en su área de mapeo para determinar esto. Si hay un problema de alineación, asegúrese de incluir instrucciones detalladas que indiquen el mejor enfoque que deben adoptar los cartógrafos. Los proyectos con problemas de alineación de imágenes es mejor que se restrinjan a los cartógrafos más experimentados. 
 
-There is not a standard set of instructions when it comes to imagery alignment issues. It is very dependent on context. Sometimes mappers are instructed to align to GPS traces, sometimes they are told to align to mapped linear features such as highways and waterways. Here is a sample approach: 
+No existe un conjunto de instrucciones estándar cuando se trata de cuestiones de alineación de imágenes. Depende mucho del contexto. A veces se indica a los cartógrafos que se alineen con los rastros del GPS, y otras veces se les dice que se alineen con los rasgos lineales cartografiados, como carreteras y vías fluviales. He aquí un ejemplo de enfoque: 
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Maxar.
-2. Make sure that all existing features which are also visible on Maxar are aligned with Maxar imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned Maxar imagery.
+1. Indique claramente qué imagen debe considerarse la referencia a la que debe alinearse todo lo demás. En este caso, supongamos que la referencia es Maxar.
+2. Asegúrese de que todas los objetos espaciales existentes que también son visibles en Maxar están alineados con las imágenes de Maxar, es decir, realinee si es necesario.
+3. Añada nuevos objetos espaciales a partir de las imágenes Maxar, ahora correctamente alineadas.
 
-Often mappers are instructed to look for _least effort_ when it comes to imagery alignment issues. Which means that contributors are told to vary their approach depending on the situation in their individual task: 
+A menudo se indica a los cartógrafos que busquen el _menor esfuerzo_ cuando se trata de problemas de alineación de imágenes. Esto significa que los colaboradores deben variar su enfoque en función de la situación en su tarea individual: 
 
-- If there is plenty of existing mapping in a task which is consistently misaligned it might require the least effort to change the imagery offset to fit existing mapping and then map the small number of remaining objects in the task. 
-- If there is less existing mapping, or objects are misaligned inconsistently (i.e. the degree of misalignment varies across space) then it might be easier to alter the position of the mapped objects to align with the imagery and then map remaining objects in the task.
+- Si hay mucha cartografía existente en una tarea que está constantemente desalineada, podría requerir el menor esfuerzo cambiar el desplazamiento de las imágenes para ajustarse a la cartografía existente y luego cartografiar el pequeño número de objetos restantes en la tarea. 
+- Si la cartografía existente es menor, o los objetos están desalineados de forma inconsistente (es decir, el grado de desalineación varía en el espacio), entonces podría ser más fácil alterar la posición de los objetos mapeados para alinearlos con las imágenes y luego mapear los objetos restantes en la tarea.
 
-If your project has alignment issues, ensure your task squares are not too large because imagery offsets can vary considerably across a mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+Si su proyecto tiene problemas de alineación, asegúrese de que los cuadrados de la tarea no son demasiado grandes, ya que las desviaciones de las imágenes pueden variar considerablemente a lo largo de una zona cartográfica, especialmente si el terreno no es plano. Incluso pueden producirse discontinuidades en las imágenes a lo largo de un proyecto.
 
-> Although individual mappers can manually alter the imagery offset while mapping, it is not possible for you, as project creator, to change the imagery offset at the project level. However, if you are using your own aerial imagery that is being hosted elsewhere you can alter the offset at source. However, please note that alignment can vary considerably across space and simply changing the overall offset does not always correct alignment issues. 
+> Aunque los mapeadores individuales pueden modificar manualmente el desplazamiento de las imágenes durante el mapeo, no es posible que usted, como creador del proyecto, cambie el desplazamiento de las imágenes a nivel del proyecto. Sin embargo, si utiliza sus propias imágenes aéreas alojadas en otro lugar, puede modificar el desplazamiento en origen. Sin embargo, tenga en cuenta que la alineación puede variar considerablemente en el espacio y que el simple hecho de cambiar el desplazamiento general no siempre corrige los problemas de alineación. 
 
-Please feel free to check these additional resources on imagery alignment:
+No dude en consultar estos recursos adicionales sobre alineación de imágenes:
 
-- [General guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [Animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [JOSM imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [Directrices generales para varios editores](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [Gif animado sobre la alineación de imágenes en iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [Capítulo de alineación de imágenes JOSM en learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
