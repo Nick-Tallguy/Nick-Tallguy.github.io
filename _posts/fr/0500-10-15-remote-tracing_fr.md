@@ -11,120 +11,120 @@ Tracer les routes, les bâtiments, l'eau et l'utilisation du sol
 
 > Révisé le 8 février 2016  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+Suite à la section [Remote, Armchair & Mapathon Section of LearnOSM](/fr/coordination/remote/), dont vous aurez besoin si vous n'avez aucune expérience de cartographier pour HOT.  
 
 
-Section Index
+Index de la section
 =====
 
-[Roads and Highways, including paths & Tracks](/en/coordination/remote-tracing/#roads)  
-[The Highway network](/en/coordination/remote-tracing/#the-highway-network)  
-[Residential Landuse boundary](/en/coordination/remote-tracing/#residential-boundaries)  
-[Buildings, walls, fences, compounds and barriers](/en/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
+[Routes et autoroutes, y compris chemins et pistess](/fr/coordination/remote-tracing/#roads)  
+[Le réseau d'autoroutes](/fr/coordination/remote-tracing/#the-highway-network)  
+[Limites de la zone résidentielle](/fr/coordination/remote-tracing/#residential-boundaries)  
+[Bâtiments, murs, clôtures, enceintes et barrières](/fr/coordination/remote-tracing/#buildings-walls-compounds-barriers)  
 
 
-## Roads
+## Routes
 
-Any type of roads from motorways to tracks and paths are labelled 'highway' in OpenStreetMap. It is important that highways are correctly added to the database (OpenStreetMap data) as they are used in so many ways:  
+Tous les types de routes, des autoroutes aux pistes et aux chemins, sont désignés par le terme "autoroute" dans OpenStreetMap. Il est important que les autoroutes soient correctement ajoutées à la base de données (données OpenStreetMap) car elles sont utilisées de nombreuses façons :  
 
--  Navigation software such as Garmin devices and apps. on smartphones such as Osmand can provide routing information over great distances if the correct information is loaded into them. As these rely on the gps within the device to locate the position in relation to the basemap loaded into them, it is important that the highways are actually within about 15 metres of the right place, or they will not work!  
--  Planning the route for a large 'aid' lorry is much easier if you can differentiate between a path & a trunk road, with all the stages in between.  
--  Knowing whether a road surface is asphalt or soft mud will make a difference to your route planning.
--  When attempting to plot the spread of a disease, a victim's description of "near the crossroads" is significant if you can see the crossroads on the map.
+- Les logiciels de navigation tels que les appareils Garmin et les applications pour smartphones telles que Osmand peuvent fournir des informations sur les itinéraires sur de grandes distances si les informations correctes sont chargées dans ces appareils. Comme ces logiciels dépendent du GPS de l'appareil pour localiser la position par rapport à la carte de base chargée dans l'appareil, il est important que les autoroutes se trouvent à environ 15 mètres du bon endroit, sinon ils ne fonctionneront pas !  
+- Il est beaucoup plus facile de planifier l'itinéraire d'un gros camion "d'assistance" si vous pouvez faire la différence entre un chemin et une route nationale, avec toutes les étapes intermédiaires.  
+- Savoir si la surface d'une route est de l'asphalte ou de la boue molle fera une différence dans la planification de votre itinéraire.
+- Lorsque l'on tente de cartographier la propagation d'une maladie, la description d'une victime "près du carrefour" est significative si l'on peut voir le carrefour sur la carte.
 
-### <a name="highways-howto"></a> Highways - How to map
+### <a name="highways-howto"></a> Routes - Comment cartographier 
 
 ![iD 3][]
 
-1.  When tracing highways, ensure you are zoomed in sufficiently. As a starting guide set the scale to about 20 metres, and trace the highway so that your tracing has sufficient points in it to keep it on, or very close to, the road you can see in your satellite imagery. In the screenshot above you can see I have traced the road that had been passed over to me, down, through the trees, and down to another building where it appears to stop. Where the trees are close to the road, and the imagery is obtained by an overhead camera, it appears as if the road narrows as it goes through the trees - however, it is just the effect of the trees obscuring the view, and the road is the same width throughout.  
-2.  I've also traced another section of road, making sure that it is connected at each end - iD shows this with a slightly larger and darker coloured dot at the junction. It is important that the roads join and 'share a common node' so that routing software will provide the correct guidance.  
-3.  The road is tagged as 'highway=residential', and I've also added 'surface=unpaved'.  
-4.  For a full description of tagging within Africa, refer to the wiki page [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
+1. Lorsque vous tracez des routes, assurez-vous que vous avez suffisamment zoomé. Pour commencer, réglez l'échelle à environ 20 mètres et tracez l'autoroute de manière à ce que votre tracé comporte suffisamment de points pour rester sur la route, ou très près de celle-ci, que vous pouvez voir sur votre image satellite. Dans la capture d'écran ci-dessus, vous pouvez voir que j'ai tracé la route qui m'avait été transmise, vers le bas, à travers les arbres, et vers un autre bâtiment où elle semble s'arrêter. Lorsque les arbres sont proches de la route et que l'image est obtenue par une caméra aérienne, on a l'impression que la route se rétrécit en traversant les arbres - cependant, il s'agit simplement de l'effet des arbres qui obscurcissent la vue, et la route a la même largeur partout.  
+2. J'ai également tracé une autre section de route, en m'assurant qu'elle est connectée à chaque extrémité - iD le montre avec un point légèrement plus grand et de couleur plus foncée à la jonction. Il est important que les routes se rejoignent et " partagent un nœud commun " pour que le logiciel de navigation fournisse les indications correctes.  
+3. La route est marquée comme 'highway=residential', et j'ai également ajouté 'surface=unpaved'.  
+4.  Pour une description complète du balisage en Afrique, consultez la page wiki [Highway Tag Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa).  
 
-> There is a high risk of suffering from conflicts which will prevent you saving your work when working on any highway which extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the highway, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> Il existe un risque élevé de souffrir de conflits qui vous empêcheront de sauvegarder votre travail lorsque vous travaillez sur une autoroute qui s'étend sur d'autres carrés où des cartographes seront également en train de l'éditer. Il est conseillé de sauvegarder toutes vos modifications avant d'éditer l'autoroute, puis de sauvegarder vos modifications à intervalles très fréquents, par exemple après avoir ajouté tous les 6 nœuds.
 
 
-### The Highway Network
+### Le réseau routier
 
 ![JOSM 4][]
 
-This screenshot shows JOSM with the HOT-OSM-Validate style in use [JOSM styles](https://josm.openstreetmap.de/wiki/Styles). Although designed to assist validators, it can be very useful when carrying out initial mapping. Anything that is coloured red has some kind of problem - the remaining colours are explained in the key in this screenshot.  
+Cette capture d'écran montre JOSM avec le style HOT-OSM-Validate utilisé [styles JOSM] (https://josm.openstreetmap.de/wiki/Styles). Bien qu'il soit conçu pour aider les validateurs, il peut être très utile lors de la cartographie initiale. Tout ce qui est coloré en rouge présente un problème quelconque - les autres couleurs sont expliquées dans la clé de cette capture d'écran.  
 
-1.  This section of highway is coloured red because the tag has been incorrectly typed and a capital letter has been used. The tag should be highway=unclassified, which would have resulted in a pale brown colour in the screenshot.  
-2.  This is part of the highway network for the town to the South West.This network connects to the rest of the highway network of Africa.  
-3.  These sections of highway are 'isolated'. They do not connect to the town or to an other highways in any way. In their current format they are not very useful & will need further investigation to establish if they can be connected to the rest of the network, or if consideration should be given to deleting them.  
+1. Cette section de route est colorée en rouge car la balise a été mal tapée et une majuscule a été utilisée. La balise devrait être highway=unclassified, ce qui aurait donné une couleur marron pâle dans la capture d'écran.  
+2. Il s'agit d'une partie du réseau routier de la ville au sud-ouest, qui est relié au reste du réseau routier africain.  
+3. Ces tronçons de route sont "isolés". Ils ne sont pas reliés à la ville ou à d'autres routes de quelque manière que ce soit. Dans leur format actuel, ils ne sont pas très utiles et devront faire l'objet d'une étude plus approfondie pour déterminer s'ils peuvent être connectés au reste du réseau ou s'il faut envisager de les supprimer.  
 
 
-**Highway or stream?**
+**Route ou cours d'eau?**
 
 ![iD 5][]
 
-There are no style views available to assist in using iD, but in this screenshot you can see an area of vegetation and ground. The ground appears to be silt or perhaps even an area of marshland without the water present. The dotted black and white lines represent paths in iD & I have temporarily highlighted & then deleted one of them to show the terrain.  
+Il n'y a pas de vues de style disponibles pour aider à utiliser iD, mais dans cette capture d'écran, vous pouvez voir une zone de végétation et de sol. Le sol semble être de la vase ou peut-être même une zone de marais sans eau. Les lignes pointillées noires et blanches représentent des chemins dans iD ; j'ai temporairement mis en surbrillance puis supprimé l'un d'entre eux pour montrer le terrain.  
 
-1.  highway=path or stream bed. Probably both!  highways of all sizes frequently follow a river valley and in many cases they may follow the course of a seasonal river or stream. In this case this appears to be a flood plain area which at the time the satellite imagery was produced was dry, and being used as a path. This would be best tagged as:  
+1. highway= chemin ou cours d'eau. Probablement les deux ! Les routes de toutes tailles suivent fréquemment une vallée fluviale et dans de nombreux cas, elles peuvent suivre le cours d'une rivière ou d'un ruisseau saisonnier. Dans ce cas, il s'agit d'une zone de plaine inondable qui, au moment où l'imagerie satellite a été produite, était sèche et utilisée comme chemin. Il serait préférable de l'étiqueter comme suit :  
 highway=path  
 seasonal=yes  
 surface=unpaved  
-2.  The path can be clearly seen going towards and into the band of trees and shrubland, but it is not possible to see its exact course through the trees. In these circumstances you can be certain the path, track or highway is present, it is just obscured from your view by the trees. I have mapped this by continuing the path I was tracing where it could be clearly seen on the ground as a straight line through the trees to the clearly visible continuation on the other side. Use this with caution, but in this instance it is obvious that the path is present and its path is likely to be very close to the line I have drawn. This is a more extreme usage - it is more usual to estimate the path of a highway for only a few metres where your view of it is obscured by one or two trees.  
-3.  Having deleted the path so that I could see the ground clearly, I can easily replace it by using the 'undo' feature of iD.  
+2. On peut clairement voir le chemin qui se dirige vers et dans la bande d'arbres et d'arbustes, mais il n'est pas possible de voir son tracé exact à travers les arbres. Dans ces circonstances, vous pouvez être certain que le chemin, la piste ou la route est présent, il est simplement caché à votre vue par les arbres. J'ai cartographié cela en continuant le chemin que je traçais là où il pouvait être clairement vu sur le terrain comme une ligne droite à travers les arbres jusqu'à la continuation clairement visible de l'autre côté. Utilisez cette méthode avec prudence, mais dans ce cas, il est évident que le chemin est présent et que son tracé est probablement très proche de la ligne que j'ai tracée. Il s'agit d'un usage plus extrême - il est plus habituel d'estimer le tracé d'une route sur quelques mètres seulement lorsque votre vue est masquée par un ou deux arbres.  
+3. Après avoir supprimé le chemin pour voir clairement le sol, je peux facilement le remplacer en utilisant la fonction "annuler" d'iD.  
 
 ***
 
 
-## Residential Boundaries
+## Limites résidentielles
 
-Residential boundaries are used for many purposes in OpenStreetMap.  
+Les limites résidentielles sont utilisées à de nombreuses fins dans OpenStreetMap.  
 
-+  The simplest use is to be able to see residential areas at higher zoom levels when viewing [OpenStreetMap.org](http://www.openstreetmap.org), where they are coloured pale grey in the standard view.  
-+  Where there is not time to map in detail from the outset, the project within the Task Manager will frequently require something similar to this:  
++ L'utilisation la plus simple est de pouvoir voir les zones résidentielles à des niveaux de zoom plus élevés lors de l'affichage de [OpenStreetMap.org] (http://www.openstreetmap.org), où elles sont colorées en gris pâle dans la vue standard.  
++ Lorsqu'il n'y a pas le temps de cartographier en détail dès le début, le projet dans le gestionnaire de tâches exigera souvent quelque chose de semblable :  
 
->    Map essential infrastructures such as schools, place of worship and markets.  
->    Trace outbound of settlements and cemeteries.  
->    We will trace roads later in an other Task.   
-+  landuse=residential can also be used for statistical purposes, and accurate mapping then becomes important  
+> Cartographier les infrastructures essentielles telles que les écoles, les lieux de culte et les marchés.  
+> Tracer la sortie des localités et des cimetières.  
+> Nous retracerons les routes plus tard dans une autre Tâche.   
++ landuse=residential peut également être utilisé à des fins statistiques, et une cartographie précise devient alors importante  
 
-*  If you can establish how many people normally reside in each dwelling, and  
- how many dwellings are normally built in a given area, then  
- once you have worked out the area covered by a landuse=residential boundary,  
- you can establish a very approximate population for that area.  
- Estimating the number of aid workers & quantity of medicine now becomes more realistic.
-*  Place names & boundaries are often imported from other sources, but the location is not always accurate. Once you have a residential boundary the person doing the import can see where the place name should probably be.
-
-
-### <a name="residential-howto"></a> landuse=residential - how to map
+* Si vous pouvez établir le nombre de personnes qui résident normalement dans chaque logement, et  
+ combien de logements sont normalement construits dans une zone donnée, puis  
+ une fois que vous avez déterminé la zone couverte par une limite de landuse=residential boundary,  
+ vous pouvez établir une population très approximative pour cette zone.  
+ L'estimation du nombre de travailleurs humanitaires et de la quantité de médicaments devient maintenant plus réaliste.
+* Les noms de lieux et les limites sont souvent importés d'autres sources, mais l'emplacement n'est pas toujours exact. Une fois que vous avez une limite résidentielle, la personne qui effectue l'importation peut voir où le nom de lieu devrait probablement se trouver.
 
 
-** In an ideal world **  
+### <a name="residential-howto"></a> landuse=residential - comment cartographier
 
-*Stage 1* - A decision is taken to map an area, and a mapper quickly puts a very rough landuse=residential boundary around an area,  
-*Stage 2* - The Task Manager project is created & the individual mappers refine the boundary so that it is closer to the buildings etc.  
+
+** Dans un monde idéal **  
+
+*Étape 1* - La décision est prise de cartographier une zone, et un cartographe trace rapidement une limite très approximative d'un landuse=residential autour d'une zone,  
+*Étape 2* - Le projet du gestionnaire de tâches est créé et les cartographes individuels affinent la frontière pour qu'elle soit plus proche des bâtiments, etc.  
 
 ![JOSM residential][]
 
 ![iD residential][]
  
-The iD & JOSM screenshots above show a correctly mapped landuse=residential boundary.  
+Les captures d'écran iD et JOSM ci-dessus montrent une limite landuse=residential correctement cartographiée.  
 
-1.  The boundary needs to be closed, so that the start point of the line (way), joins to the end point.  
-2.  The segments and nodes of the boundary should not join highways, waterways, buildings, or any other feature. *i.e.* it should not share any nodes. But they can cross.  
-3.  The boundary should be fairly close to the buildings & any gardens or yards that form part of the grouping.  
+1. La frontière doit être fermée, de manière à ce que le point de départ de la ligne (voie) rejoigne le point d'arrivée.  
+2. Les segments et les nœuds de la frontière ne doivent pas rejoindre des routes, des voies navigables, des bâtiments ou tout autre élément. *C'est-à-dire* qu'ils ne doivent pas partager de nœuds. Mais ils peuvent se croiser.  
+3. La limite doit être assez proche des bâtiments et de tous les jardins ou cours qui font partie de l'ensemble.  
 
 
-In the screenshot below, my square contains part of a landuse=residential boundary. The person who completed the square to my right has continued a landuse=residential boundary through their square, and has then correctly 'handed it over' to me by placing the boundary just within my square for me to establish exactly where it should be in my square.  
+Dans la capture d'écran ci-dessous, mon carré contient une partie d'une limite landuse=residential. La personne qui a terminé le carré à ma droite a poursuivi une limite landuse=residential à travers son carré, et m'a ensuite correctement "passé le relais" en plaçant la limite juste à l'intérieur de mon carré pour que je puisse établir exactement où elle doit se trouver dans mon carré.  
 
 
 ![JOSM residential 1][]
 
-I will add extra nodes to the boundary, extending it horizontally across my square so that it goes around the buildings , and at the bottom I will continue the boundary as a straight line just inside the square below mine so that the person selecting the square below mine will be able to extend it around any buildings they may have.  
+J'ajouterai des nœuds supplémentaires à la limite, en l'étendant horizontalement à travers mon carré pour qu'elle contourne les bâtiments, et en bas, je continuerai la limite en ligne droite juste à l'intérieur du carré en dessous du mien pour que la personne qui sélectionne le carré en dessous du mien puisse l'étendre autour des bâtiments qu'elle possède.  
 
-This is a difficult operation - you can see only a small part of the whole town / city / village and although you will do your best with the landuse=residential boundary it is extremely likely that a validator who has an overview of several squares will need to tidy up the boundary as best they can after the individual squares have been mapped.  
+Il s'agit d'une opération difficile - vous ne pouvez voir qu'une petite partie de l'ensemble de la ville / du village et, bien que vous fassiez de votre mieux avec la limite landuse=residential, il est fort probable qu'un validateur qui a une vue d'ensemble de plusieurs carrés doive ajuster la limite du mieux qu'il peut après que les carrés individuels aient été cartographiés.  
 
-> There is a high risk of suffering from conflicts when working on a landuse=residential boundary, as it extends into other squares where mappers will also be editing it. It is advisable to save all your changes before editing the boundary, and then save your changes at very frequent intervals, such as after adding each 6 nodes.
+> Il existe un risque élevé de conflits lorsque l'on travaille sur une limite landuse=residential, car elle s'étend sur d'autres carrés où des cartographes vont également la modifier. Il est conseillé de sauvegarder toutes vos modifications avant de modifier la limite, puis de sauvegarder vos modifications à intervalles très fréquents, par exemple après l'ajout de 6 nœuds.
 
 ***
 
 
-## Buildings walls compounds barriers  
+## Murs de bâtiments Barrières composées  
 
 Buildings are added to the map data for a number of reasons;  
 
