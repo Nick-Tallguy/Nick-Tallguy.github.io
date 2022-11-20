@@ -298,7 +298,7 @@ Use the tools here to draw areas that should be mapped first. You can have multi
 
 > During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is often best practice.
 
-### Imagery
+### Imágenes
 
 From the dropdown menu choose the aerial imagery source that you want to load automatically for your project. If the imagery is not listed in the dropdown you can choose 'Custom' and then add a TMS URL. 
 
@@ -306,7 +306,7 @@ From the dropdown menu choose the aerial imagery source that you want to load au
 
 License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. For example, for Maxar imagery this is 'DigitalGlobe Satellite EULA'. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
 
-### Permissions
+### Permisos
 
 Under the 'Metadata' menu we could change the difficulty level that was **displayed** for a project. Under the 'Permissions' menu we can change who can actually **access** a project. It's important to remind ourselves of the various user levels:
 
@@ -318,7 +318,7 @@ Under the 'Metadata' menu we could change the difficulty level that was **displa
 
 ![TM Permissions][]
 
-#### Mapping permissions
+#### Permisos de mapeo
 
 Here you can choose who can **map** your project:
 
@@ -330,7 +330,7 @@ Here you can choose who can **map** your project:
 
 Here you can choose who can **validate** your project. Validation is where more experienced mappers check the contributions that are made within your project, therefore this should be restricted to 'Only users with intermediate or advanced level' **as a minimum**. **Ideally** you should restrict validation even further to **'Only team members'**, but when you do this you must remember to **define those teams** below. 
 
-#### Teams
+#### Equipos
 
 Use the filters to search for and add teams. You can add your own team(s), but please also feel free to add other teams. Once you have added a team ensure to select a role (Mapper, Validator, Project Manager). 
 
@@ -338,15 +338,15 @@ Team permissions will not function unless you have restricted Mapping and/or Val
 
 > On HOT's Tasking Manager feel free to add two of the larger validation teams, namely 'HOT Global Validators' and HOT's 'Validator Trainees'. Please note, that although this gives those team members **permission** to validate your project, it does **not necessarily mean** that they **will validate** your project.  
 
-#### Privacy
+#### Privacidad
 
 Toggling to make a project 'Private' will hide the project from all users except those that are part of the teams defined above. 
 
-### Settings
+### Ajustes
 
 ![TM Settings][]
 
-#### Default Language
+#### Idioma predeterminado
 
 Altering this will change the default language for your project's title, description and instructions.
 
@@ -358,7 +358,7 @@ This restricts the available editors to those checked. You may specify different
 
 If enabled then contributors cannot select specific tasks for mapping.
 
-### Actions
+### Acciones
 
 Here you can perform powerful bulk actions on your project. **Be careful** with many of these options, **they are not reversible**. 
 
@@ -372,7 +372,7 @@ Sends a Tasking Manager message to everyone who has marked a task complete or va
 
 This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
 
-#### Reset tasks
+#### Restablecer tareas
 
 This will reset all tasks to their pristine state but previous actions can still be seen in the task history. Handle with care as there is no undo.
 
@@ -380,35 +380,35 @@ This will reset all tasks to their pristine state but previous actions can still
 
 You can specify another manager within your organization who will become listed as the creator of the project. Search for their OSM username. 
 
-#### Clone Project
+#### Clonar Proyecto
 
 This useful option will create a duplicate of the project, keeping the entire **setup identical** except for the area of interest, task grid and priority areas which you will need to re-import or re-draw. This option will **save you a lot of time** if you are creating a series of similar projects that are covering a large area. 
 
-#### Delete Project
+#### Borrar Proyecto
 
 This will **permanently delete** the project from the Tasking Manager. Handle with care as there is no undo. It is not possible to delete a project after any contributions have been made to it.
 
-### Custom editor
+### Editor personalizado
 
 If you would like to link to an editor which is not listed in the 'Settings' menu a URL to that editor can be added here. 
 
-### Save and test
+### Guardar y probar
 
 Once you are happy with your project setup press `Save`. View your project by selecting `Access Project` and `Project Page`. **Check your project carefully**, ensure the instructions are clear and the wording and formatting are correct. 
 
 **Try mapping a task**, is the imagery loading correctly? Are the instructions clear enough? If you need to make changes or refinements to your project, click the `Edit` button on the project page. 
 
-### Publish
+### Publicar
 
 After checking and testing your project, if you are happy with it and ready for mapping to start click the `Edit` button on the project page and from the 'Description' menu change the status to ‘Published’. Once the project is published, the wider public will be able to see your project and contribute towards it. 
 
 > Note that you can access the 'Edit' menu of your project and alter the settings at any time, even if mapping is underway.
 
-## Project management
+## Gestión de proyecto
 
 Congratulations! You've created a project, now you'll need to make sure you manage it effectively. 
 
-### Be responsive
+### Sea receptivo
 
 Como creador del proyecto, es **responsable** de **responder a las preguntas** que surjan en la sección **Preguntas y comentarios** de la página de tu proyecto. Esta sección a menudo incluirá consejos u orientaciones útiles de la comunidad en general, tómatelos en serio, responda y edite sus proyectos cuando sea necesario. 
 
@@ -465,15 +465,15 @@ No dude en consultar estos recursos adicionales sobre alineación de imágenes:
 - [Capítulo de alineación de imágenes JOSM en learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-[TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
-[TM Add Project]: /images/coordination/tm4_new_project.png
-[TM New]: /images/coordination/tm4_create_new.png
-[TM New Polys]: /images/coordination/tm4_create_new_polys.png
-[TM Trim]: /images/coordination/tm4_trim1.png
-[TM Trim coarse]: /images/coordination/tm4_trim2.png
-[TM Trim fine]: /images/coordination/tm4_trim3.png
-[TM Description]: /images/coordination/tm4_description.png
-[TM Instructions]: /images/coordination/tm4_instructions.png
+[TM Tamaño de Teselas]: /images/coordination/tm4_tile_sizes.png
+[TM Añadir Proyecto]: /images/coordination/tm4_new_project.png
+[TM Nuevo]: /images/coordination/tm4_create_new.png
+[TM Nuevos Polis]: /images/coordination/tm4_create_new_polys.png
+[TM Recortar]: /images/coordination/tm4_trim1.png
+[TM Recorte grueso]: /images/coordination/tm4_trim2.png
+[TM Recorte fino]: /images/coordination/tm4_trim3.png
+[TM Descripción]: /images/coordination/tm4_description.png
+[TM Instrucciones]: /images/coordination/tm4_instructions.png
 [TM Metadata]: /images/coordination/tm4_metadata.png
 [TM Priority Area]: /images/coordination/tm4_priority_area.png
 [TM Permissions]: /images/coordination/tm4_permissions.png

@@ -126,63 +126,63 @@ Il s'agit d'une opération difficile - vous ne pouvez voir qu'une petite partie 
 
 ## Murs de bâtiments Barrières composées  
 
-Buildings are added to the map data for a number of reasons;  
+Les bâtiments sont ajoutés aux données cartographiques pour un certain nombre de raisons ;  
 
-*  The density of buildings in an area gives a very good indication of the number of people residing there.  
-*  The size, shape & location of a building can help to identify it as a potential evacuation or treatment site.  
-*  The size, shape, and relative location of buildings can be used to identify particular locations such as wells, aid stations, schools, etc..  
-*  There is the potential to estimate the degree of damage sustained by a building, which can be used to estimate the potential casualties & level of support that may be required - this is currently (January 2015) under discussion for future use.  
+* La densité des bâtiments dans une région donne une très bonne indication du nombre de personnes qui y résident.  
+* La taille, la forme et l'emplacement d'un bâtiment peuvent aider à l'identifier comme un site potentiel d'évacuation ou de traitement.  
+* La taille, la forme et l'emplacement relatif des bâtiments peuvent être utilisés pour identifier des lieux particuliers tels que des puits, des postes de secours, des écoles, etc.  
+* Il est possible d'estimer le degré de dommages subis par un bâtiment, ce qui peut être utilisé pour estimer le nombre de victimes potentielles et le niveau de soutien qui peut être requis - ceci est actuellement (janvier 2015) en discussion pour une utilisation future.  
 
 
-### <a name="buildings-howto"></a> Buildings - How to Map
+### <a name="buildings-howto"></a> Bâtiments - Comment cartographier ?
 
-The vast majority of buildings that require mapping by HOT are either based upon rectangular shapes with square corners, or are round. If a building appears to be a mixture of the two, it is more likely you are looking at a building who's outline is obscured by shadow, reflection, foliage or similar.  
+La grande majorité des bâtiments qui doivent être cartographiés par HOT sont soit de forme rectangulaire avec des coins carrés, soit ronds. Si un bâtiment semble être un mélange des deux, il est plus probable que vous regardiez un bâtiment dont le contour est obscurci par l'ombre, la réflectance, le feuillage ou autre.  
 
-For some tasks where only an outline of an area is required, the task may specify that buildings can be mapped as nodes, but these situations are now rare.  
+Pour certaines tâches où seul le contour d'une zone est requis, la tâche peut spécifier que les bâtiments peuvent être cartographiés comme des nœuds, mais ces situations sont désormais rares.  
 
 
 #### building=yes
 
-Unless the project instructions specify otherwise, buildings should be tagged **building=yes**  
+Sauf indication contraire dans les instructions du projet, les bâtiments doivent être étiquetés **building=yes**  
 
-*  There can often be a time delay between the satellite imagery being taken, and the mapping being carried out. There is the possibility that the building you are looking at that appears to have no roof, has now been completed & is now in habitation. It is also possible that you are looking at a building with several storeys, the bottom ones being lived in, and the top floor with no roof currently not being lived in.  
+* Il peut souvent s'écouler un certain temps entre la prise d'images satellite et la réalisation de la cartographie. Il est possible que le bâtiment que vous regardez et qui semble ne pas avoir de toit, ait été achevé et soit maintenant habité. Il est également possible que vous regardiez un bâtiment à plusieurs étages, les étages inférieurs étant habités et l'étage supérieur sans toit n'étant actuellement pas habité.  
 
-> **Mapping buildings using iD** - when you are using the area tool within iD to create the basic shape, you must remember to then change the tag to building=yes. The default setting will merely tag the shape as area=yes. If you're tracing is of a building with square corners, please take the time to square your traced item (highlight it and shortcut 'q').  
+**Cartographier les bâtiments à l'aide d'iD** - lorsque vous utilisez l'outil zone dans iD pour créer la forme de base, vous devez vous rappeler de changer la balise en building=yes. Le paramètre par défaut ne fait que marquer la forme comme area=yes. Si votre tracé est celui d'un bâtiment aux coins carrés, prenez le temps de mettre votre élément tracé au carré (mettez-le en surbrillance et utilisez le raccourci 'q').  
 
-*  JOSM is far faster for mapping buildings - [JOSM building tools is explained here.](/en/josm/josm-more-plugins/#the-buildings-tools-plugin)  
+* JOSM est beaucoup plus rapide pour cartographier les bâtiments - [Les outils de construction de JOSM sont expliqués ici] (/fr/josm/josm-more-plugins/#the-buildings-tools-plugin).  
 
 ![Buildings iD][]
 
-This screenshot shows part of a square being edited. Note the scale at the bottom of 15 metres - about the figure you should aim at when editing features. When tracing, you are aiming to place the building where it meets the ground:  
+Cette capture d'écran montre une partie d'un carré en cours d'édition. Notez l'échelle de 15 mètres en bas - c'est à peu près le chiffre que vous devez viser lorsque vous éditez des éléments. Lors du traçage, vous cherchez à placer le bâtiment là où il rencontre le sol :  
 
-1.  **Round buildings.** In this case they are fairly low in height and their shadow is hardly visible. If you were standing amongst them they would appear like domes. I have mapped & tagged only one of these so far **building=yes**. To quickly add the remaining round buildings in JOSM or iD I would select this one (highlight it), keyboard shortcut *Ctrl+c*, move my cursor to the centre of another round building of the same size, keyboard shortcut *Ctrl+v*. When all of the round buildings of this size have been added in my square I paste a building over a different sized round building, JOSM - use *Alt+Ctrl* & mouse to resize it to the correct size, copy it & then paste over all round buildings of the same size.  
-2.  **Rectangular buildings.** These particular buildings are casting a noticeable shadow. The shadow can help to identify the shape of a building which is partially obscured by another feature. You will find that many buildings are not so simple, and have a verandah or are 'L' shaped - you must trace the actual shape of the building as this will help to identify it when names & other data is being added as part of the ground survey process.  
-3.  **Barriers - walls (or hedges) of a compound.** Having examined the imagery, zooming in & out until I am satisfied that from the shape of the object (use its shadow as well to identify), I believe this to be a wall, and I have tagged it **barrier=wall**. Alternatives include barrier=fence and barrier=hedge.  
-4.  I have joined the barrier=wall to the building=yes at the corner of the building.  
+1. **Les bâtiments circulaires.** Dans ce cas, ils sont assez bas en hauteur et leur ombre est à peine visible. Si vous étiez debout parmi eux, ils ressembleraient à des dômes. Je n'ai cartographié et marqué qu'un seul de ces bâtiments jusqu'à présent **building=yes**. Pour ajouter rapidement les autres bâtiments ronds dans JOSM ou iD, je dois sélectionner celui-ci (le mettre en évidence), raccourci clavier *Ctrl+c*, déplacer mon curseur au centre d'un autre bâtiment rond de la même taille, raccourci clavier *Ctrl+v*. Lorsque tous les bâtiments ronds de cette taille ont été ajoutés dans mon carré, je colle un bâtiment sur un bâtiment rond de taille différente, JOSM - utilisez *Alt+Ctrl* et la souris pour le redimensionner à la bonne taille, copiez-le et collez-le ensuite sur tous les bâtiments ronds de la même taille.  
+2. **Bâtiments rectangulaires.** Ces bâtiments particuliers projettent une ombre notable. L'ombre peut aider à identifier la forme d'un bâtiment qui est partiellement masqué par un autre élément. Vous constaterez que de nombreux bâtiments ne sont pas aussi simples, qu'ils ont une véranda ou qu'ils sont en forme de "L" - vous devez tracer la forme réelle du bâtiment car cela vous aidera à l'identifier lorsque les noms et autres données seront ajoutés dans le cadre du processus d'étude du terrain.  
+3. **Barrières - murs (ou haies) d'une enceinte** Après avoir examiné l'image, en zoomant et en dézoomant jusqu'à ce que je sois convaincu que, d'après la forme de l'objet (utilisez aussi son ombre pour l'identifier), je pense qu'il s'agit d'un mur, et je l'ai étiqueté **barrier=wall**. Les autres possibilités sont barrier=fence et barrier=hedge.  
+4. J'ai joint la barrier=wall au building=yes à l'angle du bâtiment.  
 
 
-### Satellite imagery distorting the building shape.
+### L'imagerie satellite déforme la forme du bâtiment.
 
 
 ![Buildings_2][]
 
-1.  The satellite imagery above, is of a building, but the satellite was not directly overhead, so that the building appears distorted and an end wall is visible in the image. Because of this angle, the apex roof does not appear rectangular. The sun is practically directly above the building, so that the shadow of the building indicated by the arrows from figure 1 does confirm that the building is rectangular.  
+1. L'image satellite ci-dessus représente un bâtiment, mais le satellite n'était pas directement au-dessus de lui, de sorte que le bâtiment apparaît déformé et qu'un mur d'extrémité est visible sur l'image. En raison de cet angle, le toit du sommet n'apparaît pas rectangulaire. Le soleil est pratiquement directement au-dessus du bâtiment, de sorte que l'ombre du bâtiment indiquée par les flèches de la figure 1 confirme que le bâtiment est rectangulaire.  
 
-2.  To map this building, create a rectangle extending from the arrows of point 2, to where you estimate the building ends, indicated by point 3 in this image.  
+2. Pour cartographier ce bâtiment, créez un rectangle s'étendant des flèches du point 2, jusqu'à l'endroit où vous estimez que le bâtiment se termine, indiqué par le point 3 sur cette image.  
 
 
 ***
 
 
-More to follow - see the below links for more guidance.
+Plus d'informations à suivre - voir les liens ci-dessous pour plus de conseils.
 
 
-# Further Reading
+# Lecture complémentaire
 
--  [West African HOT Mapping Tips by user Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
--  [OSM wiki entry concerning validating](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
--  [Highway Tag Africa - the preferred reference for highway tagging in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
--  [Short Tutorial in French for remote mapping](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
+-  [Conseils pour cartographier l'Afrique de l'Ouest par l'utilisateur Bgirardot](http://wiki.openstreetmap.org/wiki/User:Bgirardot/Typical_Road_and_Residential_Task)  
+-  [Entrée du wiki OSM concernant la validation](http://wiki.openstreetmap.org/wiki/OSM_Tasking_Manager/Validating_data)  
+-  [Highway Tag Africa - la référence privilégiée pour le marquage des routes en Afrique](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa)  
+-  [Petit tutoriel en français pour la cartographie à distance](http://blog.cartong.org/2014/07/24/tuto-digitaliser-sous-openstreetmap-avec-le-tasking-manager-et-josm-premiers-pas/)
 
 [iD 3]: /images/coordination/iD_3.png
 [JOSM 4]: /images/coordination/JOSM_4.png
