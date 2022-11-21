@@ -294,53 +294,53 @@ Seleccione aquí los temas relacionados con su proyecto. Los colaboradores puede
 
 ![TM Priority Area][]
 
-Use the tools here to draw areas that should be mapped first. You can have multiple priority areas for a project. You can also change priority areas at any time. The priority area will be highlighted for volunteers to prioritize and if they select 'Map a task' it will randomly select a task from the priority area first. 
+Utilice las herramientas aquí para dibujar las áreas que deben ser mapeadas primero. Puede tener varias áreas prioritarias para un proyecto. También puede cambiar las áreas prioritarias en cualquier momento. El área prioritaria será resaltada para que los voluntarios la prioricen y si seleccionan "Mapear una tarea" se seleccionará aleatoriamente una tarea del área prioritaria en primer lugar. 
 
-> During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is often best practice.
+> Durante la elaboración de mapas de catástrofes, en las primeras fases del suceso, disponer de una amplia zona de mapeo del proyecto y utilizar áreas prioritarias para centrar el mapeo a medida que llega la nueva información suele ser la mejor práctica.
 
 ### Imágenes
 
-From the dropdown menu choose the aerial imagery source that you want to load automatically for your project. If the imagery is not listed in the dropdown you can choose 'Custom' and then add a TMS URL. 
+En el menú desplegable, elija la fuente de imágenes aéreas que desea cargar automáticamente para su proyecto. Si las imágenes no aparecen en el menú desplegable, puede elegir "Personalizado" y añadir una URL TMS. 
 
-> Note that Tasking Manager **cannot host custom imagery**, it needs to be hosted externally and linked using a TMS URL. If you are happy with your imagery being open for use please consider using [OpenAerialMap](https://openaerialmap.org/) to host your imagery.
+> Tenga en cuenta que el Administrador de Tareas **no puede alojar imágenes personalizadas**, éstas deben ser alojadas externamente y enlazadas mediante una URL TMS. Si estás contento con que tus imágenes estén abiertas para su uso, considera usar [OpenAerialMap](https://openaerialmap.org/) para alojar tus imágenes.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. For example, for Maxar imagery this is 'DigitalGlobe Satellite EULA'. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licencia - Opcionalmente, si hay una licencia específica que los cartógrafos deben aceptar al usar las imágenes, puede seleccionarla aquí. Por ejemplo, para las imágenes de Maxar es "DigitalGlobe Satellite EULA". Si necesita una licencia que no está disponible, puede ponerse en contacto con un administrador de la instalación del Administrador de Tareas y pedirle que la añada.
 
 ### Permisos
 
-Under the 'Metadata' menu we could change the difficulty level that was **displayed** for a project. Under the 'Permissions' menu we can change who can actually **access** a project. It's important to remind ourselves of the various user levels:
+En el menú "Metadatos" podemos cambiar el nivel de dificultad que se **muestra** para un proyecto. En el menú "Permisos" podemos cambiar quién puede **acceder** a un proyecto. Es importante recordar los distintos niveles de usuario:
 
-- **Beginner** User - Any user that has either just created their account or made **less than 250 changesets** (saves)
-- **Intermediate** User - Any user that has made between **250 and 500 changesets**
-- **Advanced** User - Any user that has made **over 500 changesets**
+- **Usuario principiante** - Cualquier usuario que acabe de crear su cuenta o que haya hecho **menos de 250 cambios** (guardados)
+- **Usuario intermedio** -  cualquier usuario que haya realizado entre **250 y 500 cambios**.
+- **Usuario avanzado** - Cualquier usuario que haya realizado más de **500 cambios**.
 
-> As before, consider permissions very carefully, complex projects which inappropriately allow all users to contribute can result in **significant data quality issues**. 
+> Al igual que antes, considere los permisos con mucho cuidado, los proyectos complejos que no permiten que todos los usuarios contribuyan pueden dar lugar a **problemas significativos de calidad de datos**. 
 
 ![TM Permissions][]
 
 #### Permisos de mapeo
 
-Here you can choose who can **map** your project:
+Aquí puede elegir quién puede **mapear** su proyecto:
 
-- If your project is easy to contribute towards and you consider it a beginner project you might want set this to **'Any user'**.
-- If your project is more complex and requires more experience, restrict mapping to **'Only users with intermediate or advanced level'**. 
-- If you want to be even more selective then you may also require a mapper to be part of a **team**. Teams must then be defined below.
+- Si su proyecto es fácil de contribuir y lo considera un proyecto para principiantes, es posible que quiera establecer esto en **'Cualquier usuario'**.
+- Si su proyecto es más complejo y requiere más experiencia, restrinja la asignación a **'Sólo usuarios con nivel intermedio o avanzado'**. 
+- Si quiere ser aún más selectivo, también puede exigir que un mapeador forme parte de un **equipo**. Los equipos deben definirse a continuación.
 
-#### Validation permissions
+#### Permisos de validación
 
-Here you can choose who can **validate** your project. Validation is where more experienced mappers check the contributions that are made within your project, therefore this should be restricted to 'Only users with intermediate or advanced level' **as a minimum**. **Ideally** you should restrict validation even further to **'Only team members'**, but when you do this you must remember to **define those teams** below. 
+Aquí puede elegir quién puede **validar** su proyecto. La validación es donde los mapeadores más experimentados comprueban las contribuciones que se hacen dentro de su proyecto, por lo tanto esto debe ser restringido a "Sólo usuarios con nivel intermedio o avanzado" **como mínimo**. **En principio**, debería restringir la validación aún más a **'Sólo miembros del equipo'**, pero cuando lo haga debe recordar **definir esos equipos** a continuación. 
 
 #### Equipos
 
-Use the filters to search for and add teams. You can add your own team(s), but please also feel free to add other teams. Once you have added a team ensure to select a role (Mapper, Validator, Project Manager). 
+Utilice los filtros para buscar y añadir equipos. Puede añadir su(s) propio(s) equipo(s), pero también puede añadir otros equipos. Una vez que haya añadido un equipo, asegúrese de seleccionar un rol (mapeador, validador, director de proyecto). 
 
-Team permissions will not function unless you have restricted Mapping and/or Validation permissions to 'Only team members'. If you grant a team Project Manager access this will allow its team members to edit the project.
+Los permisos de equipo no funcionarán a menos que haya restringido los permisos de mapeo y/o validación a "Sólo miembros del equipo". Si concede a un equipo el acceso de Director de Proyecto, esto permitirá a los miembros de su equipo editar el proyecto.
 
-> On HOT's Tasking Manager feel free to add two of the larger validation teams, namely 'HOT Global Validators' and HOT's 'Validator Trainees'. Please note, that although this gives those team members **permission** to validate your project, it does **not necessarily mean** that they **will validate** your project.  
+> En el Administrador de Tareas de HOT, siéntase libre de añadir dos de los equipos de validación más grandes, a saber, los "Validadores Globales de HOT" y los "Aprendices de Validador" de HOT. Por favor, tenga en cuenta que, aunque esto da a los miembros del equipo **permiso** para validar su proyecto, **no significa necesariamente** que ellos **validarán** su proyecto. 
 
 #### Privacidad
 
-Toggling to make a project 'Private' will hide the project from all users except those that are part of the teams defined above. 
+Al hacer que un proyecto sea "Privado" se ocultará el proyecto a todos los usuarios excepto a los que formen parte de los equipos definidos anteriormente. 
 
 ### Ajustes
 
@@ -348,27 +348,27 @@ Toggling to make a project 'Private' will hide the project from all users except
 
 #### Idioma predeterminado
 
-Altering this will change the default language for your project's title, description and instructions.
+Al modificar esto, cambiará el idioma predeterminado del título, la descripción y las instrucciones de su proyecto.
 
-#### Editors for mapping/validation
+#### Editores para mapeo/validación
 
-This restricts the available editors to those checked. You may specify different sets for mapping and for validation. Note that it is possible to enable the AI assisted RapiD editor here. 
+Esto restringe los editores disponibles a los marcados. Puede especificar diferentes conjuntos para el mapeo y para la validación. Tenga en cuenta que aquí es posible habilitar el editor RapiD asistido por IA. 
 
-#### Enforce random task selection
+#### Aplicar la selección aleatoria de tareas
 
-If enabled then contributors cannot select specific tasks for mapping.
+Si se activa, los contribuyentes no pueden seleccionar tareas específicas para la asignación.
 
 ### Acciones
 
-Here you can perform powerful bulk actions on your project. **Be careful** with many of these options, **they are not reversible**. 
+Aquí puede realizar potentes acciones masivas en tu proyecto. **Tenga cuidado** con muchas de estas opciones, **no son reversibles**. 
 
 ![TM Actions][]
 
-#### Message all contributors
+#### Mensaje a todos los contribuyentes
 
-Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+Envía un mensaje del Administrador de Tareas a todos los que han marcado una tarea como completa o válida. Puede utilizarse para agradecer a los colaboradores y/o guiarlos hacia otros proyectos de una campaña. También debería utilizarse antes de usar cualquiera de las dos opciones de Validar/Invalidar todas las tareas que se describen a continuación.
 
-#### Mapping, validation and invalidation
+#### Mapeo, validación e invalidación
 
 This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
 
