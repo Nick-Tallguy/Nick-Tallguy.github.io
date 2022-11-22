@@ -370,43 +370,43 @@ Envía un mensaje del Administrador de Tareas a todos los que han marcado una ta
 
 #### Mapeo, validación e invalidación
 
-This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
+Esto establecerá el estado de todas las tareas como asignadas, validadas o invalidadas. Manejar con cuidado ya que no se puede deshacer.
 
 #### Restablecer tareas
 
-This will reset all tasks to their pristine state but previous actions can still be seen in the task history. Handle with care as there is no undo.
+Esto restablecerá todas las tareas a su estado prístino, pero las acciones anteriores pueden seguir viéndose en el historial de tareas. Manéjelo con cuidado ya que no se puede deshacer.
 
-#### Transfer project ownership
+#### Transferir la propiedad del proyecto
 
-You can specify another manager within your organization who will become listed as the creator of the project. Search for their OSM username. 
+Puedes especificar otro administrador dentro de su organización que pasará a figurar como creador del proyecto. Busque su nombre de usuario en OSM. 
 
 #### Clonar Proyecto
 
-This useful option will create a duplicate of the project, keeping the entire **setup identical** except for the area of interest, task grid and priority areas which you will need to re-import or re-draw. This option will **save you a lot of time** if you are creating a series of similar projects that are covering a large area. 
+Esta útil opción creará un duplicado del proyecto, manteniendo toda la **configuración idéntica** excepto el área de interés, la cuadrícula de tareas y las áreas prioritarias, que tendrá que reimportar o redibujar. Esta opción le permitirá **ahorrar mucho tiempo** si está creando una serie de proyectos similares que cubren un área grande. 
 
 #### Borrar Proyecto
 
-This will **permanently delete** the project from the Tasking Manager. Handle with care as there is no undo. It is not possible to delete a project after any contributions have been made to it.
+Esto **borrará permanentemente** el proyecto del Administrador de Tareas. Manéjelo con cuidado, ya que no se puede deshacer. No es posible eliminar un proyecto después de que se hayan hecho contribuciones al mismo.
 
 ### Editor personalizado
 
-If you would like to link to an editor which is not listed in the 'Settings' menu a URL to that editor can be added here. 
+Si desea enlazar con un editor que no aparece en el menú "Configuración", puede añadir aquí una URL a ese editor. 
 
 ### Guardar y probar
 
-Once you are happy with your project setup press `Save`. View your project by selecting `Access Project` and `Project Page`. **Check your project carefully**, ensure the instructions are clear and the wording and formatting are correct. 
+Una vez que esté satisfecho con la configuración de su proyecto, pulse `Guardar`. Vea su proyecto seleccionando `Acceso al proyecto` y `Página del proyecto`. **Revise su proyecto cuidadosamente**, asegúrese de que las instrucciones son claras y la redacción y el formato son correctos. 
 
-**Try mapping a task**, is the imagery loading correctly? Are the instructions clear enough? If you need to make changes or refinements to your project, click the `Edit` button on the project page. 
+**Intente asignar una tarea**, ¿se cargan correctamente las imágenes? ¿Son las instrucciones lo suficientemente claras? Si necesita hacer cambios o mejoras en su proyecto, haga clic en el botón `Editar` de la página del proyecto. 
 
 ### Publicar
 
-After checking and testing your project, if you are happy with it and ready for mapping to start click the `Edit` button on the project page and from the 'Description' menu change the status to ‘Published’. Once the project is published, the wider public will be able to see your project and contribute towards it. 
+Después de comprobar y probar su proyecto, si está satisfecho con él y está listo para empezar a mapearlo, haga clic en el botón `Editar` de la página del proyecto y, en el menú 'Descripción', cambie el estado a 'Publicado'. Una vez publicado el proyecto, el público en general podrá ver su proyecto y contribuir a él. 
 
-> Note that you can access the 'Edit' menu of your project and alter the settings at any time, even if mapping is underway.
+> Tenga en cuenta que puede acceder al menú "Editar" de su proyecto y modificar los ajustes en cualquier momento, incluso si el mapeo está en curso.
 
 ## Gestión de proyecto
 
-Congratulations! You've created a project, now you'll need to make sure you manage it effectively. 
+Enhorabuena. Ha creado un proyecto, ahora tendrá que asegurarse de que lo gestione eficazmente. 
 
 ### Sea receptivo
 
@@ -474,8 +474,8 @@ No dude en consultar estos recursos adicionales sobre alineación de imágenes:
 [TM Recorte fino]: /images/coordination/tm4_trim3.png
 [TM Descripción]: /images/coordination/tm4_description.png
 [TM Instrucciones]: /images/coordination/tm4_instructions.png
-[TM Metadata]: /images/coordination/tm4_metadata.png
-[TM Priority Area]: /images/coordination/tm4_priority_area.png
-[TM Permissions]: /images/coordination/tm4_permissions.png
-[TM Settings]: /images/coordination/tm4_settings.png
-[TM Actions]: /images/coordination/tm4_actions.png
+[TM Metadatos]: /images/coordination/tm4_metadata.png
+[TM Área Prioritaria]: /images/coordination/tm4_priority_area.png
+[TM Permisos]: /images/coordination/tm4_permissions.png
+[TM Ajustes]: /images/coordination/tm4_settings.png
+[TM Acciones]: /images/coordination/tm4_actions.png
