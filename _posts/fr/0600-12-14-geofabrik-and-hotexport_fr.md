@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Utilisation de Geofabrik et de HOT Export
+title: Utilisation de Geofabrik et de HOT Export
 permalink: /fr/osm-data/geofabrik-and-hot-export/
 lang: fr
-catégorie : osm-data
+category: osm-data
 ---
 
 Utilisation de Geofabrik et de HOT Export
@@ -34,7 +34,7 @@ Vous pouvez vérifier la dernière fois que les données ont été mises à jour
 Obtenir des données OSM  sur le site de l'outil d'exportation HOT
 --------------------------------------
 
-Le [ Équipe humanitaire OpenStreetMap ] (https://www.hotosm.org/) (HOT) a créé un service en ligne qui permet aux utilisateurs de créer des extraits OSM personnalisés partout dans le monde, en sélectionnant une zone d'intérêt, des caractéristiques cartographiques et des formats de fichiers. En quelques minutes, des données OSM actualisées sont exportées, filtrées et converties. La section suivante vous guidera dans l'utilisation de l'outil d'exportation. Ces informations sont également disponibles dans la section « [Apprendre](https://export.hotosm.org/en/v3/learn)" du site export.hotosm.org.
+Le [Équipe humanitaire OpenStreetMap](https://www.hotosm.org/) (HOT) a créé un service en ligne qui permet aux utilisateurs de créer des extraits OSM personnalisés partout dans le monde, en sélectionnant une zone d'intérêt, des caractéristiques cartographiques et des formats de fichiers. En quelques minutes, des données OSM actualisées sont exportées, filtrées et converties. La section suivante vous guidera dans l'utilisation de l'outil d'exportation. Ces informations sont également disponibles dans la section « [Apprendre](https://export.hotosm.org/en/v3/learn)" du site export.hotosm.org.
 
 ![hot-export-tool][]
 
@@ -73,7 +73,7 @@ Les deux derniers moyens de sélectionner une zone d'intérêt sont l'outil "Cet
 ![export-tool-area-import1][]
 
 
-Le polygone importé doit être un fichier GeoJSON en coordonnées géographiques WGS84. Une des façons de créer un fichier GeoJSON est d'utiliser le site geojson.io. Une fois la zone sélectionnée dans [geojson.io] (http://geojson.io/), copiez le texte dans la case de droite, collez-le dans un éditeur de votre choix, tel que [Atom] (https://atom.io/) et enregistrez votre fichier GeoJSON.
+Le polygone importé doit être un fichier GeoJSON en coordonnées géographiques WGS84. Une des façons de créer un fichier GeoJSON est d'utiliser le site geojson.io. Une fois la zone sélectionnée dans [geojson.io](http://geojson.io/), copiez le texte dans la case de droite, collez-le dans un éditeur de votre choix, tel que [Atom](https://atom.io/) et enregistrez votre fichier GeoJSON.
 
 ![export-tool-geojson-io][]
 ![export-tool-geojson-edit1][]
@@ -95,7 +95,7 @@ Actuellement, l'outil peut convertir les données OSM en Shapefile .shp, GeoPack
 
 
 ### Shapefile .shp
-Les Shapefiles sont un format tabulaire développé par Esri. Ils constituent le format de fichier le plus populaire pour les données SIG. Un shapefile est en fait constitué de 3 ou 4 fichiers individuels, généralement regroupés dans une archive ZIP. Les fichiers Shapefile ont certaines limitations, telles que la taille du fichier, plafonnée à 2 gigaoctets (Go) et une longueur de nom de colonne limitée à 10 caractères. Pour en savoir plus sur les [Shapefiles .shp] (https://export.hotosm.org/en/v3/learn/export_formats#shp), consultez la section Apprendre.
+Les Shapefiles sont un format tabulaire développé par Esri. Ils constituent le format de fichier le plus populaire pour les données SIG. Un shapefile est en fait constitué de 3 ou 4 fichiers individuels, généralement regroupés dans une archive ZIP. Les fichiers Shapefile ont certaines limitations, telles que la taille du fichier, plafonnée à 2 gigaoctets (Go) et une longueur de nom de colonne limitée à 10 caractères. Pour en savoir plus sur les [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp), consultez la section Apprendre.
 
 ![export-tool-shapefile][]
 
@@ -107,25 +107,25 @@ Les géopackages de l'OGC stockent les données géospatiales dans une seule bas
 
 
 ### Garmin .img
-Un fichier .IMG contient toutes les informations nécessaires pour rendre une cartographie sur un appareil mobile GPS Garmin. Veuillez noter que le style cartographique .img et les choix d'éléments de la carte ne dépendent pas de la sélection d'éléments soumise à l'outil d'exportation. Un style par défaut basé sur toutes les données OSM est utilisé. Pour en savoir plus sur [Garmin .img] (https://export.hotosm.org/en/v3/learn/export_formats#img), consultez la section Apprendre.
+Un fichier .IMG contient toutes les informations nécessaires pour rendre une cartographie sur un appareil mobile GPS Garmin. Veuillez noter que le style cartographique .img et les choix d'éléments de la carte ne dépendent pas de la sélection d'éléments soumise à l'outil d'exportation. Un style par défaut basé sur toutes les données OSM est utilisé. Pour en savoir plus sur [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img), consultez la section Apprendre.
 
 ![export-tool-garmin][]
 
 
 ### Google Earth .kml
-Le Keyhole Markup Language (KML) est un format basé sur XML permettant de modéliser géographiquement des points, des lignes, des polygones et des attributs associés. Google Earth est la plateforme de visualisation de la terre la plus connue utilisant KML, ce qui est également la raison pour laquelle il a été développé. Pour en savoir plus sur [Google Earth .kml] (https://export.hotosm.org/en/v3/learn/export_formats#kml), consultez la section Apprendre.
+Le Keyhole Markup Language (KML) est un format basé sur XML permettant de modéliser géographiquement des points, des lignes, des polygones et des attributs associés. Google Earth est la plateforme de visualisation de la terre la plus connue utilisant KML, ce qui est également la raison pour laquelle il a été développé. Pour en savoir plus sur [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml), consultez la section Apprendre.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-Le format de données canonique d'OSM est un document XML de nœuds, voies et relations. Le format PBF (Protocol Buffer Binary Format) est une représentation optimisée du XML OSM, qui est plus petit sur le disque et plus rapide à lire. Ce format n'est compatible qu'avec des outils spécifiques à OSM, tels que les logiciels d'édition OSM. Chaque .PBF fourni par l'outil d'exportation doit être référentiellement complet, c'est-à-dire que tout nœud, voie ou relation référencé par une voie ou une relation apparaîtra dans le PBF. Pour en savoir plus sur [OSM .pbf] (https://export.hotosm.org/en/v3/learn/export_formats#pbf), consultez la section Apprendre.
+Le format de données canonique d'OSM est un document XML de nœuds, voies et relations. Le format PBF (Protocol Buffer Binary Format) est une représentation optimisée du XML OSM, qui est plus petit sur le disque et plus rapide à lire. Ce format n'est compatible qu'avec des outils spécifiques à OSM, tels que les logiciels d'édition OSM. Chaque .PBF fourni par l'outil d'exportation doit être référentiellement complet, c'est-à-dire que tout nœud, voie ou relation référencé par une voie ou une relation apparaîtra dans le PBF. Pour en savoir plus sur [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf), consultez la section Apprendre.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me est une application de navigation GPS et de cartographie pour les smartphones et tablettes Android et iOS, prenant notamment en charge la cartographie et la navigation hors ligne. Pour en savoir plus sur [MAPS.ME .mwm] (https://export.hotosm.org/en/v3/learn/export_formats#mwm), consultez la section Apprendre. Pour utiliser une exportation personnalisée avec Maps.me sur Android, veuillez suivre les étapes suivantes :
+Maps.me est une application de navigation GPS et de cartographie pour les smartphones et tablettes Android et iOS, prenant notamment en charge la cartographie et la navigation hors ligne. Pour en savoir plus sur [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm), consultez la section Apprendre. Pour utiliser une exportation personnalisée avec Maps.me sur Android, veuillez suivre les étapes suivantes :
 - Ouvrez Maps.me et naviguez jusqu'à la région qui vous intéresse
 - Acceptez l'invitation de Maps.me et téléchargez la région proposée.
 - Forcer la fermeture de Maps.me
@@ -149,7 +149,7 @@ OsmAnd est également une application de navigation GPS et de cartographie pour 
 
 
 ### MBTiles .mbtiles
-MBTiles est un format de fichier permettant de stocker des tuiles cartographiques dans un seul fichier. L'outil d'exportation permet aux utilisateurs de créer des MBTiles contenant des tuiles OSM, qui peuvent être utilisées comme sources de contexte hors ligne dans les applications qui les prennent en charge. Veuillez noter que MBTiles extraira toutes les caractéristiques OSM dans la zone d'intérêt sélectionnée par le biais de l'outil d'exportation, l'onglet '3 Data' basculant automatiquement vers une option de source déroulante et une plage de zoom, à la place de l'option standard de sélection d'étiquettes d'arbre et de caractéristiques YAML. Pour en savoir plus sur [MBTiles .mbtiles] (https://export.hotosm.org/en/v3/learn/export_formats#mbtiles), consultez la section Apprendre.
+MBTiles est un format de fichier permettant de stocker des tuiles cartographiques dans un seul fichier. L'outil d'exportation permet aux utilisateurs de créer des MBTiles contenant des tuiles OSM, qui peuvent être utilisées comme sources de contexte hors ligne dans les applications qui les prennent en charge. Veuillez noter que MBTiles extraira toutes les caractéristiques OSM dans la zone d'intérêt sélectionnée par le biais de l'outil d'exportation, l'onglet '3 Data' basculant automatiquement vers une option de source déroulante et une plage de zoom, à la place de l'option standard de sélection d'étiquettes d'arbre et de caractéristiques YAML. Pour en savoir plus sur [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles), consultez la section Apprendre.
 
 ![export-tool-mbtiles][]
 
@@ -183,7 +183,7 @@ Par exemple, si vous cochez la case parentale "Urgence", vous sélectionnerez au
 
 emergency IS NOT NULL OR amenity IN ('police', 'fire_station')
 
-Les cases à cocher parentales ne représentent pas toujours ce qui est disponible en tant qu'enfants ci-dessous, afin d'essayer de tenir compte de toutes les balises possibles associées à un thème. Les balises OSM évoluent en permanence et nous voulons nous assurer que l'outil peut s'adapter à ces changements. Seules les balises clé=valeur les plus couramment utilisées sont représentées comme des cases à cocher enfant, et les cases à cocher parent sont utilisées pour essayer d'englober celles qui ne sont pas utilisées aussi fréquemment, mais qui font partie d'un thème. Si vous avez des suggestions de modifications à apporter à ces thèmes et balises, veuillez les commenter sur la [feuille de calcul] (https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) utilisée pour alimenter l'arbre des balises, et nous essaierons de les intégrer le cas échéant.
+Les cases à cocher parentales ne représentent pas toujours ce qui est disponible en tant qu'enfants ci-dessous, afin d'essayer de tenir compte de toutes les balises possibles associées à un thème. Les balises OSM évoluent en permanence et nous voulons nous assurer que l'outil peut s'adapter à ces changements. Seules les balises clé=valeur les plus couramment utilisées sont représentées comme des cases à cocher enfant, et les cases à cocher parent sont utilisées pour essayer d'englober celles qui ne sont pas utilisées aussi fréquemment, mais qui font partie d'un thème. Si vous avez des suggestions de modifications à apporter à ces thèmes et balises, veuillez les commenter sur la [feuille de calcul](https://docs.google.com/spreadsheets/d/10e9HrMkAiy0zyLj1l_mfNsAPp0P4Yyh6W7JvnZx6BBA/edit#gid=0) utilisée pour alimenter l'arbre des balises, et nous essaierons de les intégrer le cas échéant.
 
 ![export-tool-treetag-spreadsheet][]
 

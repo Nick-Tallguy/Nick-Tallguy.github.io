@@ -46,51 +46,51 @@ Le succès de l’événement de Londres repose sur un certain nombre de facteur
 ## Commencez à travailler sur votre Mapathon au moins un mois avant pour l’organisation et la préparation de l’événement.  
 
 ### Première étape ... Préparation du format de votre Mapathon.  
-The size of the available venues and the availability of facilities at the venue will decide the factors for your Mapathon. A venue can be a local company, university or school, arts centre, library, hall. The points to note:  
+La taille des lieux disponibles et la disponibilité des installations sur place détermineront les facteurs de votre Mapathon. Un lieu peut être une entreprise locale, une université ou une école, un centre artistique, une bibliothèque ou une salle. Les points à noter :  
 
-1.  Is the venue centrally situated and easy to get to? (note public transport or parking)  
-2.  Does it have good wi-fi that can handle up to 100 simultaneous connections?  
-3.  Can it hold up to 100 mappers? This will decide the number of people invited.  
-4.  Are there sufficient and suitable tables and chairs?  
-5.  Are there sufficient power points for charging laptops? (arrange for extension cables)  
-6.  Does it have a large overhead screen for tutorials and presentations?  
-7.  Does it have smaller side rooms with large screens for specialist training of smaller groups?  
-8.  Do you have sufficient experienced helpers to run a large Mapathon?  
+1. Le lieu de réunion est-il situé au centre et facile d'accès ? (notez les transports publics ou le parking)  
+2. A-t-il un bon wi-fi qui peut gérer jusqu'à 100 connexions simultanées ?  
+3. Peut-il accueillir jusqu'à 100 cartographes ? C'est ce qui déterminera le nombre de personnes invitées.  
+4. Les tables et les chaises sont-elles suffisantes et adaptées ?  
+5. Y a-t-il suffisamment de prises de courant pour recharger les ordinateurs portables (prévoir des rallonges) ?  
+6. Dispose-t-il d'un grand écran de rétroprojection pour les tutoriels et les présentations ?  
+7. Dispose-t-il de salles latérales plus petites avec de grands écrans pour la formation spécialisée de petits groupes ?  
+8. Disposez-vous d'un nombre suffisant d'assistants expérimentés pour organiser un grand Mapathon ?  
 
 ![venue][]
 
-### Second step ... Planning the Mapathon
-Now that you have enough information from your first steps to decide the numbers, location and available dates you can start planning your Mapathon.  
+#### Deuxième étape ... Planification du Mapathon
+Maintenant que les premières étapes vous ont fourni suffisamment d'informations pour décider du nombre de participants, du lieu et des dates disponibles, vous pouvez commencer à planifier votre Mapathon.  
 
-1.  Set the date and time for the Mapathon in line with availability of venues (Be careful to check that it does not clash with some other major event that would affect you being able to attract volunteers and mappers to your event). Allow at least 2.5 to 3 hours minimum for your event (half an hour for speeches and training, half an hour for refreshments, two hours for mapping).  
-2.  Book the venue. Make sure the location of the venue is on Openstreetmap.  
-3.  Distribute invites to Mappers through local and online media to aim for good attendance. [Eventbrite](https://www.eventbrite.co.uk/) is a good way of booking places at the event.  
-4.  Will you be providing snacks/refreshments at the event? (Pizza has proved to be a popular choice but choose the popular foods for your part of the world).  
-5.  Set up a project for the event. Remember that your first Mapathon in your area will possibly comprise a large proportion of beginners. Suggest that you have two easy projects for beginners and two more challenging tasks for more experienced mappers. Contact the [Missing Maps Project](http://missingmaps.org) if you need help with setting up projects and also for Mapathon materials for the tables and direction signs for the corridors. The [Tasking Manager](http://tasks.hotosm.org) is a good source of useful projects.  
-6.  Suggested helpers that you may need for the event  
-  *    An experienced mapper to talk them through the mapping process.  
-  *    An IT person from the venue to trouble shoot any connectivity problems.  
-  *    A guest speaker to talk about their experiences with Openstreetmap  
-  *    Ideally one experienced mapper per table to check that they know what to do and to answer any questions. Contact the [Missing Maps Project](http://missingmaps.org) to assist in finding helpers and also check for [experienced mappers in your area](http://resultmaps.neis-one.org/oooc)
-  *    A deputy to help with the arrangements and stand in for you as a back up.   
-7.  Add your event to the Mapathon calendar.
-8.   Have someone available from the local media to take photos and report the event.
-9.  Arrange for someone to film the presentation and create a live link for any remote mappers.
+1. Fixez la date et l'heure du Mapathon en fonction de la disponibilité des lieux (vérifiez bien qu'il ne coïncide pas avec un autre événement majeur qui vous empêcherait d'attirer des volontaires et des cartographes à votre événement). Prévoyez au moins 2h30 à 3 heures pour votre événement (une demi-heure pour les discours et la formation, une demi-heure pour les rafraîchissements, deux heures pour la cartographie).  
+2. Réservez le lieu. Assurez-vous que l'emplacement du lieu est sur Openstreetmap.  
+3. Distribuez des invitations aux cartographes par le biais des médias locaux et en ligne afin d'assurer une bonne participation. [Eventbrite] (https://www.eventbrite.co.uk/) est un bon moyen de réserver des places pour l'événement.  
+4. Fournirez-vous des collations/rafraîchissements lors de l'événement ? (La pizza s'est avérée être un choix populaire mais choisissez les aliments populaires de votre région du monde).  
+5. Mettez en place un projet pour l'événement. N'oubliez pas que votre premier Mapathon dans votre région comprendra probablement une grande proportion de débutants. Suggérez que vous ayez deux projets faciles pour les débutants et deux tâches plus difficiles pour les cartographes plus expérimentés. Contactez le [Missing Maps Project] (http://missingmaps.org) si vous avez besoin d'aide pour la mise en place des projets, ainsi que de matériel de cartographie pour les tables et les panneaux d'indication des pistes. Le [Gestionnaire de tâches] (http://tasks.hotosm.org) est une bonne source de projets utiles.  
+6. Suggestions d'aides dont vous pourriez avoir besoin pour l'événement  
+  * Un cartographe expérimenté pour les guider dans le processus de cartographie.  
+  * Un informaticien du lieu de réunion pour résoudre tout problème de connectivité.  
+  * Un orateur invité pour parler de son expérience avec Openstreetmap  
+  * Idéalement, un cartographe expérimenté par table pour vérifier que les participants savent ce qu'ils doivent faire et pour répondre à toutes les questions. Contactez le [Missing Maps Project] (http://missingmaps.org) pour vous aider à trouver des aides et recherchez également des [cartographes expérimentés dans votre région] (http://resultmaps.neis-one.org/oooc)
+  * Un adjoint pour vous aider à organiser et vous remplacer.   
+7. Ajoutez votre événement au calendrier du Mapathon.
+8. Demandez à un représentant des médias locaux de prendre des photos et de faire un reportage sur l'événement.
+9. Demandez à quelqu'un de filmer la présentation et de créer un lien en direct pour les cartographes à distance.
   
 ![people at work][]  ![more people at work][]
 
-### The week before the Mapathon
-1.  Visit the venue and check that all the arrangements are still in place. (venue, helpers, equipment).  
-2.  Compile a list of attendees for messaging and for identity tags for the event.  
-3.  Send out message to attendees reminding them to bring laptop and mouse and have their Openstreetmap account set up, their log in details with them, and JOSM downloaded if that is their choice of editor.  
-4.  Post notices on line, with links to the ticket allocation, reminding attendees to take up the last remaining spaces at your event.  
-5.  Plan the layout for positioning of tables and chairs in respect to available power points and view of the large overhead screen.  
-6.  Check that you have current mapping projects for the event.  
-7.  Check that you have funding for the refreshments and any other costs.
-8.  Arrange for [Mapathon Materials](#printout-materials) (or create your own) to be printed off ready for the event.
-9.  Check that someone will be bringing any equipment (extension cords, spare mouse) and table aids that will be needed.  
-10.  Notify your helpers that you need them to be at the venue half an hour before the start to help put out the tables, chairs, extension cords, etc.  
-11.  Check that there is a log in to the wi-fi at the venue and a password is available for all to use.  
+### La semaine précédant le Mapathon
+1. Visitez le lieu et vérifiez que toutes les dispositions sont toujours en place. (lieu, aides, équipement).  
+2. Compilez une liste de participants pour la messagerie et pour les étiquettes d'identité de l'événement.  
+3. Envoyer un message aux participants leur rappelant d'apporter un ordinateur portable et une souris et d'avoir leur compte Openstreetmap configuré, leurs détails de connexion avec eux, et JOSM téléchargé si c'est leur choix d'éditeur.  
+4. Mettez en ligne des avis, avec des liens vers l'attribution des billets, rappelant aux participants de prendre les dernières places disponibles à votre événement.  
+5. Planifiez la disposition des tables et des chaises en fonction des prises de courant disponibles et de la vue sur le grand écran.  
+6. Vérifiez que vous avez des projets de cartographie en cours pour l'événement.  
+7. Vérifiez que vous disposez d'un financement pour les rafraîchissements et tout autre coût.
+8. Faites en sorte que le [Matériel du Mapathon] (#printout-materials) (ou créez le vôtre) soit imprimé pour l'événement.
+9. Vérifiez que quelqu'un apportera tout équipement (rallonges, souris de rechange) et les aides de table qui seront nécessaires.  
+10. Prévenez vos assistants qu'ils doivent être présents sur le lieu de l'événement une demi-heure avant le début de la manifestation pour aider à sortir les tables, les chaises, les rallonges électriques, etc.  
+11. Vérifiez qu'il y a une connexion au wi-fi sur le site et qu'un mot de passe est disponible pour tous.  
 12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
 13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
 14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap

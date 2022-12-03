@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : JOSM Résolution des conflits
+title: JOSM Résolution des conflits
 permalink: /fr/josm/josm-conflict-resolution/
 lang: fr
-catégorie : josm
+category: josm
 ---
 
 JOSM Résolution des conflits
