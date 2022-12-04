@@ -73,7 +73,7 @@ Puede elegir entre definir el área de interés (área cartográfica) de su proy
 * Opción 1: `Dibujar` el área de interés manualmente
 * Opción 2: `Cargar archivo` para importar el área de interés como GeoJSON, KML o archivo shape comprimido
 
-![TM Nuevo][]
+![TM New][]
 
 ### Definir el área de mapeo
 
@@ -101,7 +101,7 @@ Es posible que esté cargando un archivo que ya tiene las tareas (pequeños cuad
 
 Una vez definida el área de mapeo global, se va a dividir en áreas más pequeñas llamadas *Tareas*. Debe considerar el tamaño de las tareas de su proyecto con mucho cuidado. Los proyectos bien diseñados tienen tamaños de tarea apropiados, lo que permite completarlos con la mayor eficiencia posible. 
 
-![TM Tamaños de Teselas][]
+![TM Tile Sizes][]
 
 El área del proyecto se divide automáticamente en casillas de la cuadrícula y cada casilla se convierte en una tarea. Utilice los botones `Mayor` y `Menor` para ajustar el tamaño total de las casillas de la tarea. El tamaño de la tarea por defecto es probablemente demasiado grande. Cuando modifique el tamaño de la tarea, tenga en cuenta el tamaño de la tarea que aparece a la izquierda junto a 'El tamaño de cada tarea es de aproximadamente ... km2'.
 
@@ -125,7 +125,7 @@ Una vez que esté satisfecho con el tamaño de sus tareas, haga clic en `Siguien
 
 Si ha cargado un archivo para definir el área de su proyecto, ese archivo también puede contener las formas para las tareas individuales. Por ejemplo, un proyecto completado de MapSwipe que se centra en áreas pobladas o una cuadrícula compleja que ha creado previamente en QGIS. Si este es el caso, asegúrese de activar la opción "Establecer tareas utilizando polígonos cargados". Esto saltará directamente a la etapa de nombramiento de la creación del proyecto. 
 
-![TM Nvos Polígonos][]
+![TM New Polys][]
 
 ### Recorte del área del proyecto
 
@@ -133,11 +133,11 @@ Si ha cargado un archivo para definir el área de su proyecto, ese archivo tambi
 
 Después de determinar el tamaño de las tareas, tendrá la opción de recortarlas a la medida de su área de mapeo. Seguramente querrá hacer esto. Haga clic en `Recortar` para eliminar todos los cuadros de tareas que no se superpongan al área de su proyecto. 
 
-![TM Recorte grueso][]
+![TM Trim coarse][]
 
 Si activa la opción "Recortar las tareas para definir el área de interés exacta para el mapeo" antes de hacer clic en `Recortar`, las partes de la tarea que se superponen en el borde de su área de interés se recortarán de forma brusca contra su área de interés.
 
-![TM Recorte fino][]
+![TM Trim fine][]
 
 El recorte brusco puede dar lugar a algunas tareas extremadamente pequeñas. Estas pequeñas tareas pueden confundir a los cartógrafos. Puede optar por eliminarlas seleccionando `Descartar` cuando vea el mensaje "Hay... tareas de menos de 2.000 m2. ¿Desea descartarlas?".
 
@@ -173,7 +173,7 @@ Ahora verá el menú 'Editar' de su proyecto. Antes de que el proyecto pueda ser
 
 ### Descripción
 
-![Descripción TM][]
+![TM Description][]
 
 #### Estado
 
@@ -214,7 +214,7 @@ Si tiene una fecha en la que desea que su proyecto esté completamente mapeado y
 
 ### Instrucciones
 
-![TM Instrucciones][]
+![TM Instructions][]
 
 #### Comentario sobre conjunto de cambio
 
@@ -239,7 +239,7 @@ Esto es opcional, pero es posible añadir un breve fragmento de instrucciones ad
 
 ### Metadatos
 
-![TM Metadatos][]
+![TM Metadata][]
 
 #### Nivel de mapeador(a)
 
@@ -465,17 +465,17 @@ No dude en consultar estos recursos adicionales sobre alineación de imágenes:
 - [Capítulo de alineación de imágenes JOSM en learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-[TM Tamaño de Teselas]: /images/coordination/tm4_tile_sizes.png
-[TM Añadir Proyecto]: /images/coordination/tm4_new_project.png
-[TM Nuevo]: /images/coordination/tm4_create_new.png
-[TM Nuevos Polis]: /images/coordination/tm4_create_new_polys.png
-[TM Recortar]: /images/coordination/tm4_trim1.png
-[TM Recorte grueso]: /images/coordination/tm4_trim2.png
-[TM Recorte fino]: /images/coordination/tm4_trim3.png
-[TM Descripción]: /images/coordination/tm4_description.png
-[TM Instrucciones]: /images/coordination/tm4_instructions.png
-[TM Metadatos]: /images/coordination/tm4_metadata.png
-[TM Área Prioritaria]: /images/coordination/tm4_priority_area.png
-[TM Permisos]: /images/coordination/tm4_permissions.png
-[TM Ajustes]: /images/coordination/tm4_settings.png
-[TM Acciones]: /images/coordination/tm4_actions.png
+[TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
+[TM Add Project]: /images/coordination/tm4_new_project.png
+[TM New]: /images/coordination/tm4_create_new.png
+[TM New Polys]: /images/coordination/tm4_create_new_polys.png
+[TM Trim]: /images/coordination/tm4_trim1.png
+[TM Trim coarse]: /images/coordination/tm4_trim2.png
+[TM Trim fine]: /images/coordination/tm4_trim3.png
+[TM Description]: /images/coordination/tm4_description.png
+[TM Instructions]: /images/coordination/tm4_instructions.png
+[TM Metadata]: /images/coordination/tm4_metadata.png
+[TM Priority Area]: /images/coordination/tm4_priority_area.png
+[TM Permissions]: /images/coordination/tm4_permissions.png
+[TM Settings]: /images/coordination/tm4_settings.png
+[TM Actions]: /images/coordination/tm4_actions.png

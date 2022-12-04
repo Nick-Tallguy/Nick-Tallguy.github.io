@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : osm2pgsql
+title: osm2pgsql
 permalink: /fr/osm-data/osm2pgsql/
 lang: fr
-catégorie : osm-data
+category: osm-data
 ---
 
 osm2pgsql

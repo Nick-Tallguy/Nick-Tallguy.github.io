@@ -1,8 +1,8 @@
 ---
 layout: doc
-título: Vespucci
-permalink: /en/mobile-mapping/vespucci/
-lang: en
+title: Vespucci
+permalink: /es/mobile-mapping/vespucci/
+lang: es
 category: mobile-mapping
 ---
 

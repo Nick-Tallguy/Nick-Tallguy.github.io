@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : MapSwipe
+title: MapSwipe
 permalink: /fr/mobile-mapping/mapswipe/
 lang: fr
-catégorie : cartographie mobile
+category: mobile-mapping
 ---
 
 MapSwipe
@@ -22,13 +22,13 @@ Vous devez d'abord choisir votre "mission". Chaque mission contient plusieurs tu
 Ce que vous pouvez faire avec les tuiles dépend du type de mission.
 
 - Zone construite. Appuyer sur la tuile si elle contient l'un des éléments (bâtiment, route, etc).
- ![contient][]
+ ![contains][]
 
 - Empreinte de bâtiment. Indique si un élément cartographique est correct ou non
- ![forme][]
+ ![shape][]
 
 - Détection de modification (expérimental). Avec des images avant/après; l'utilisateur devra identifier s'il y a eu des changements
- ![modifié][]
+ ![changed][]
 
 ## Demander un projet
 
@@ -41,7 +41,7 @@ Voir aussi
 - [MapSwipe sur YouTube](https://youtu.be/mwRdtnfFcUw)
 
 
-[TM] :       /images/mobile-mapping/mapswipe_tm.png
-[contient] : /images/mobile-mapping/mapswipe_contains.png
-[forme] :    /images/mobile-mapping/mapswipe_shape.png
-[modifé] :  /images/mobile-mapping/mapswipe_changed.png
+[TM]:       /images/mobile-mapping/mapswipe_tm.png
+[contains]: /images/mobile-mapping/mapswipe_contains.png
+[shape]:    /images/mobile-mapping/mapswipe_shape.png
+[changed]:  /images/mobile-mapping/mapswipe_changed.png

@@ -1,6 +1,6 @@
 ---
 layout: doc
-Titre : Cartographie à distance HOT  
+title: Cartographie à distance HOT  
 permalink: /fr/coordination/HOT-Remote-Response-Guide/ 
 lang: fr
 category: coordination

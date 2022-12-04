@@ -1,8 +1,8 @@
 ---
 layout: doc
-titre : Utilisation des données OSM dans QGIS
+title: Utilisation des données OSM dans QGIS
 permalink: /fr/osm-data/osm-in-qgis/
-lang : fr
+lang: fr
 category: osm-data
 ---
 

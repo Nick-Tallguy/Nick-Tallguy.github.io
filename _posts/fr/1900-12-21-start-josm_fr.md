@@ -105,60 +105,60 @@ Apprendre les bases du tracé avec JOSM
 
 ### Modifier les objets
 
--   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
--   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
+- Sélectionnez la forêt sur le côté gauche de la carte. Veillez à cliquer sur la ligne qui entoure la forêt, et non sur l'un des points de la ligne. Maintenez maintenant le bouton gauche de votre souris enfoncé et faites glisser votre souris. Vous devriez être en mesure de déplacer la forêt vers un nouvel emplacement sur la carte.
+- Cliquez sur l'un des points de la ligne qui entoure la forêt. Maintenez le bouton gauche de votre souris enfoncé et faites glisser votre souris. Vous devriez être en mesure de déplacer le point. C'est ainsi que vous pouvez modifier la forme d'un objet ou déplacer un point.
 
 ### Tracer
 
--   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
--   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
--   Until now, you have been using the Select tool, which looks like this:
+- Sur le côté gauche de JOSM se trouve une colonne de boutons. Plusieurs de ces boutons ouvrent de nouvelles fenêtres sur le côté droit qui fournissent plus d'informations sur la carte. Les boutons les plus importants, cependant, se trouvent en haut de cette colonne. Ces boutons modifient ce que vous pouvez faire avec votre souris.
+- Les boutons du haut de cette colonne sont ceux que vous utiliserez le plus. Ils permettent de sélectionner des objets et d'en dessiner de nouveaux.
+- Jusqu'à présent, vous avez utilisé l'outil Sélectionner, qui ressemble à ceci :
 
     ![Select tool][]
 
--   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
--   Click on the second button, the Draw tool.
+- Avant de dessiner, vous devez vous assurer que rien n'est sélectionné. Cliquez dans l'espace noir de la carte, là où il est vide, pour vous assurer que rien n'est sélectionné.
+- Cliquez sur le deuxième bouton, l'outil Dessin.
 
     ![Draw tool][]
 
--   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
--   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
--   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
+- Trouvez une zone vide sur la carte, et double-cliquez avec votre souris. Vous dessinerez ainsi un point unique.
+- Pour dessiner une ligne, cliquez une seule fois avec votre souris. Déplacez votre souris et cliquez à nouveau. Continuez jusqu'à ce que vous soyez satisfait de votre ligne. Pour terminer la ligne, double-cliquez sur votre souris.
+- Dessinez une forme de la même manière que vous dessinez une ligne, mais terminez la forme en double-cliquant sur le point où vous avez commencé la ligne.
 
 ### Utiliser les modèles d'attributs
 
--   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
--   Click on the Select tool, in the column of buttons on the left.
+- Nous savons maintenant comment dessiner des points, des lignes et des surfaces, mais nous n'avons toujours pas défini ce qu'ils représentent. Nous voulons être capables de dire que nos points sont des magasins, des écoles ou autre chose, et que nos surfaces sont des champs, des bâtiments ou autre chose.
+- Cliquez sur l'outil de sélection, dans la colonne des boutons à gauche.
 
     ![Select tool][]
 
--   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
--   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
--   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
+- Sélectionnez l'un des objets que vous avez dessinés avec l'outil Dessin. Dans le menu supérieur, cliquez sur "Préréglages". Déplacez votre souris dans le sous-menu jusqu'au type d'emplacement que vous souhaitez définir.
+- Lorsque vous cliquez sur un préréglage, un formulaire s'affiche pour vous demander des informations complémentaires. Vous n'êtes pas obligé de remplir tous les champs, mais vous pouvez ajouter certains des champs importants, comme le nom de l'objet.
+- Lorsque vous avez fini de saisir les informations, cliquez sur "Appliquer le préréglage". Si tout s'est bien passé, votre point, ligne ou figure devrait changer de couleur ou afficher un symbole. C'est parce que vous avez défini ce qu'il est.
 
 Dessiner votre propre carte
 -----------------
 
--   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
--   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
--   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
--   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
+- Maintenant, dessinons une carte afin de mettre en pratique les techniques que vous avez apprises. Vous pouvez redessiner la carte que vous avez dessinée sur papier précédemment.
+- Faites glisser la carte pour l'éloigner du modèle de carte. Maintenez le bouton droit de la souris enfoncé et faites glisser votre souris jusqu'à ce que vous ayez une belle zone vide sur laquelle dessiner.
+- Utilisez l'outil Dessin pour créer des points, des lignes et des formes. Décrivez vos objets en les sélectionnant dans le menu Presets.
+- Lorsque vous aurez terminé, vous devriez avoir votre propre carte, semblable à la carte type que nous avons ouverte dans sample.osm.
 
-Remove the sample layer
+Retirer la couche d'échantillon
 -----------------------
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features.
+Une fois que vous vous sentirez à l'aise avec ces techniques d'édition de base, vous voudrez peut-être
+vous intéresser à la cartographie d'éléments réels.
 
-_It is very important that you first remove the layer with the sample data.
-These data are fictitious and must not be uploaded to the OpenStreetMap
-database (newer JOSM releases automatically prevent this)._
+_Il est très important que vous supprimiez d'abord la couche contenant les données échantillons.
+Ces données sont fictives et ne doivent pas être téléchargées sur le site OpenStreetMap
+(les versions plus récentes de JOSM empêchent automatiquement cela)._
 
-In the Layers window on the upper right of the screen select the sample.osm layer.
-Then click on the trash can icon in the lower right corner of that window.
-Alternatively you can choose delete from the context menu of the layer.
-In order to continue editing you first need to download real data.
-This will be explained in the next chapter.
+Dans la fenêtre des couches, en haut à droite de l'écran, sélectionnez la couche sample.osm.
+Cliquez ensuite sur l'icône de la corbeille dans le coin inférieur droit de cette fenêtre.
+Vous pouvez également choisir de supprimer dans le menu contextuel de la couche.
+Afin de poursuivre l'édition, vous devez d'abord télécharger des données réelles.
+Cela sera expliqué dans le chapitre suivant.
 
 En résumé
 -------

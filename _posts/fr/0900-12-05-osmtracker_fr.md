@@ -1,8 +1,8 @@
 ---
 layout: doc
-titre : OSMTracker
+title: OSMTracker
 permalink: /fr/mobile-mapping/osmtracker/
-lang : fr
+lang: fr
 category: mobile-mapping
 ---
 
@@ -41,8 +41,8 @@ Démarrez OSMTracker et appuyez sur l'icône de menu de votre appareil Android, 
 - **Durée de l'enregistrement vocal** - à votre choix, mais l'auteur utilise 30 secondes.  
 - **Activer le son** - il est recommandé de cocher cette case - émet un bip pour vous avertir du début et de la fin de l'enregistrement vocal.  
 - **Réinitialiser l'authentification**. Ce bouton sera "grisé" jusqu'à ce que vous ayez téléchargé un fichier .gpx et autorisé OSMTracker à télécharger des traces sur votre compte OpenStreetMap.  
-- Paramètres GPS** Méthodes utilisées par votre appareil Android pour déterminer l'emplacement. Il est recommandé de régler cette option sur **Haute précision**. L'appareil utilisera alors le GPS, le Wi-Fi et les réseaux mobiles pour estimer l'emplacement.  
-- Vérifiez le GPS au démarrage** Lorsque vous démarrez OSMTracker, si le GPS a été désactivé, le programme vous invite à le réactiver.
+- **Paramètres GPS** Méthodes utilisées par votre appareil Android pour déterminer l'emplacement. Il est recommandé de régler cette option sur **Haute précision**. L'appareil utilisera alors le GPS, le Wi-Fi et les réseaux mobiles pour estimer l'emplacement.  
+- **Vérifiez le GPS au démarrage** Lorsque vous démarrez OSMTracker, si le GPS a été désactivé, le programme vous invite à le réactiver.
 - **Ignorer l'horloge GPS** Si cette case est cochée, l'horloge interne de l'appareil sera utilisée au lieu de l'heure fournie par le signal GPS.  
 - **Intervalle d'enregistrement GPS** Choisissez la période entre l'enregistrement de la position - pour une meilleure précision, sélectionnez 0 ou 1, chacune de ces valeurs entraînant un enregistrement chaque seconde.  
 
@@ -57,8 +57,8 @@ Démarrez OSMTracker et appuyez sur l'icône de menu de votre appareil Android, 
 - **Précision dans le fichier GPX** Recommandé - le nom du point de repère comprendra un chiffre approximatif de la plage d'erreur possible en mètres. Par exemple *Piste à pied (4.0m)*. Cette information peut s'avérer extrêmement utile plus tard lors de la mise à jour d'OSM, et pour décider s'il faut déplacer un élément existant pour l'aligner sur la nouvelle trace et les nouveaux points de repère.  
 - **Utiliser l'approximation HDOP** Concerne les calculs supplémentaires visant à améliorer la précision de la position (dilution horizontale de la précision).  
 - **Exportation de l'orientation de la boussole** Définit si et comment les données de la boussole doivent être exportées vers le fichier GPX.  
-- Source de photos par défaut** Généralement, vous prenez des photos avec l'appareil photo via cette application, mais vous pouvez choisir d'utiliser des photos déjà présentes sur le téléphone.  
-- Écran toujours allumé** Sélectionnez cette option si vous êtes constamment en train de cliquer sur des boutons, de prendre des photos ou de faire des enregistrements vocaux. Si ce n'est pas le cas, laissez cette option vide pour que vous deviez allumer l'écran à chaque fois, ce qui consomme moins de batterie.  
+- **Source de photos par défaut** Généralement, vous prenez des photos avec l'appareil photo via cette application, mais vous pouvez choisir d'utiliser des photos déjà présentes sur le téléphone.  
+- **Écran toujours allumé** Sélectionnez cette option si vous êtes constamment en train de cliquer sur des boutons, de prendre des photos ou de faire des enregistrements vocaux. Si ce n'est pas le cas, laissez cette option vide pour que vous deviez allumer l'écran à chaque fois, ce qui consomme moins de batterie.  
 - **Thème graphique de l'écran principal** Options permettant de modifier le contraste et la luminosité de l'écran si vous avez des difficultés à visualiser les boutons.  
 - Vous pouvez concevoir et installer votre propre ensemble de boutons et choisir de les afficher en utilisant cette option. Pour une description complète de cette fonction, [voir ci-dessous](/fr/mobile-mapping/osmtracker/#button-presets).   
 - **Carte d'arrière-plan** En appuyant et en maintenant la pression sur une piste enregistrée, si cette fonction est sélectionnée, vous pouvez afficher la piste et l'application téléchargera les données OpenStreetMap en arrière-plan.  

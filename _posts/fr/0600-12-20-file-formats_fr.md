@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Formats de fichiers
+title: Formats de fichiers
 permalink: /fr/osm-data/file-formats/
 lang: fr
-catégorie : osm-data
+category: osm-data
 ---
 
 Formats de fichiers
@@ -62,5 +62,5 @@ Résumé
 Dans les chapitres suivants, nous verrons comment vous pouvez télécharger des données dans différents formats sur Internet et comment vous pouvez utiliser différents outils pour manipuler les données brutes par vous-même.  
 
 
-[Exemple de fichier XML OSM]: /images/osm-data/example_osm.png
-[Attributs du fichier Shapefile]: /images/osm-data/shapefile_attributes.png
+[Sample OSM XML file]: /images/osm-data/example_osm.png
+[Shapefile attributes]: /images/osm-data/shapefile_attributes.png
