@@ -17,7 +17,7 @@ git pull
 ##
 #  Pull the latest translations from Transifex to FOLDER3 (translations)
 cd ${FOLDER2}
-/home/dietpi/tx pull -a
+/home/dietpi/tx pull -a --minimum-perc 10
 ##
 #### Remove the modules that are no longer updated
 # rm ${FOLDER3}/0500-10-29*  #updated 05/05/2020
