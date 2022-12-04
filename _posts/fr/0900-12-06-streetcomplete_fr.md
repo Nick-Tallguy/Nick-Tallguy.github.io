@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: StreetComplete
+titre : StreetComplete
 permalink: /fr/mobile-mapping/streetcomplete/
 lang: fr
-category: mobile-mapping
+catégorie : cartographie mobile
 ---
 
 StreetComplete
@@ -23,36 +23,36 @@ L'application affiche les lieux où des données peuvent être ajoutées à Open
 1. Afin de pouvoir contribuer avec cette application, l'utilisateur a besoin d'un compte OpenStreetMap (c'est généralement également le cas pour les autres applications de contribution).
 2. Affichages et pages d'accueil
 
-![Welcome][]
+![Bienvenue][]
 
 3. Lorsque vous cliquez sur "LET'S GO !", vous devez autoriser StreetComplete à accéder à la localisation de cet appareil.
 
-![Allow][]
+![Autoriser][]
 
 4. Cliquez sur les trois lignes dans le coin supérieur droit, puis sur Mon profil et enfin sur Connexion avec votre compte OpenStreetMap.
 
-![Menu+Login][]
-![Login][]
+![Menu+Connexion][]
+![Connexion][]
 
 Que sont les quêtes ? Les quêtes sont des lieux ou des points pour lesquels il manque des informations, elles sont affichées selon votre localisation.
 
 Les questions posées dépendent des information manquantes et du type d'objet pour lequel l'information est manquante
 
-![Building quest][]
+![Quête de bâtiment][]
 
-Par exemple, pour les bâtiments, on pourrait demander ***Combien de niveaux au-dessus du sous-sol ce bâtiment a-t-il ?*** ou ***Quel type de bâtiment est-ce ?***
+Par exemple, pour les bâtiments, on pourrait demander ***Combien de niveaux au-dessus du sous-sol ce bâtiment a-t-il ? *** ou ***Quel type de bâtiment est-ce ?
 
 Pour les routes, ***Quel est le type de surface de cette portion de route ?***
 
-![More quests][]
+![Plus de quêtes][]
 
 Pour compléter certaines de ces informations, vous devez avoir une connaissance préalable du bâtiment, du lieu ou être suffisamment proche pour pouvoir répondre aux questions posées.
 
 
 
-[Welcome]:          /images/mobile-mapping/streetcomplete-welcome.png
-[Allow]:            /images/mobile-mapping/streetcomplete-allow.png
-[Menu+Login]:       /images/mobile-mapping/streetcomplete-menu_login.png
-[Login]:            /images/mobile-mapping/streetcomplete-login.png
-[Building quest]:   /images/mobile-mapping/streetcomplete-building-quest.png
-[More quests]:      /images/mobile-mapping/streetcomplete-more-quests.png
+[Bienvenue] :          /images/mobile-mapping/streetcomplete-welcome.png
+[Autoriser] :            /images/mobile-mapping/streetcomplete-allow.png
+[Menu+Connexion] :       /images/mobile-mapping/streetcomplete-menu_login.png
+[Connexion] :            /images/mobile-mapping/streetcomplete-login.png
+[Quêtes des bâtiments] :   /images/mobile-mapping/streetcomplete-building-quest.png
+[Plus de quêtes] :      /images/mobile-mapping/streetcomplete-more-quests.png

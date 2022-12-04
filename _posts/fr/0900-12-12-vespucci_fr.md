@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Vespucci
+titre: Vespucci
 permalink: /fr/mobile-mapping/vespucci/
 lang: fr
-category: mobile-mapping
+catégorie : cartographie mobile
 ---
 
 Vespucci

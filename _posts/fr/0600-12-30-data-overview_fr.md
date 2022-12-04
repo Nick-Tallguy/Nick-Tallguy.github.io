@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Aperçu des données OSM
+titre : Aperçu des données OSM
 permalink: /fr/osm-data/data-overview/
 lang: fr
-category: osm-data
+catégorie : osm-data
 ---
 
 Aperçu des données OSM

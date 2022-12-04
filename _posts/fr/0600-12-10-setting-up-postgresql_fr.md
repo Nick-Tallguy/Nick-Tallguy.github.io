@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Configuration de PostgreSQL
+titre : Configuration de PostgreSQL
 permalink: /fr/osm-data/postgresql/
 lang: fr
-category: osm-data
+catégorie : osm-data
 ---
 
 PostgreSQL & PostGIS

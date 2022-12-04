@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Préréglage JOSM
+titre : Préréglage JOSM
 permalink: /fr/josm/josm-presets/
 lang: fr
-category: josm
+catégorie : josm
 ---
 
 Préréglage JOSM
@@ -17,7 +17,7 @@ Lorsque vous tracez un objet et que vous effectuez une sélection dans le menu P
 
 Si vous aimez utiliser les préréglages, que se passe-t-il lorsque vous voulez ajouter des balises qui ne sont pas contenues dans le menu, ou lorsque vous voulez personnaliser vos propres balises ?  
 
-Dans ce cas, vous pouvez ajouter des éléments de menu personnalisés aux préréglages. Dans cette section, nous verrons comment le faire. Dans le [chapitre suivant](/fr/josm/creating-presets), nous verrons comment créer vos propres fichiers de préréglages personnalisés.  
+Dans ce cas, vous pouvez ajouter des éléments de menu personnalisés aux préréglages. Dans cette section, nous verrons comment le faire. Dans le [chapitre suivant] (/fr/josm/creating-presets), nous verrons comment créer vos propres fichiers de préréglages personnalisés.  
 
 
 Ajouter des préréglages

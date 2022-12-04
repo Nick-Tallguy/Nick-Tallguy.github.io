@@ -2,10 +2,10 @@
 layout: doc
 permalink: /fr/osm-data/
 lang: fr
-title: Données OSM
-category: osm-data
-cover: yes
-nosearch: true
+titre : Données OSM
+catégorie : osm-data
+couverture : oui
+nosearch : vrai
 ---
 
 Données OpenStreetMap

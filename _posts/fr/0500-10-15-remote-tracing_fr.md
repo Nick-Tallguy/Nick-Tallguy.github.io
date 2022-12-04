@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: Tracer les routes, les bâtiments, l'eau et l'utilisation du sol 
+titre : Tracer les routes, les bâtiments, l'eau et l'utilisation du sol 
 permalink: /fr/coordination/remote-tracing/
-lang: fr
-category: coordination
+lang: 
+catégorie : coordination
 ---
 
 Tracer les routes, les bâtiments, l'eau et l'utilisation du sol

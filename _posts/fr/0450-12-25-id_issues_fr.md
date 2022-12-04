@@ -3,7 +3,7 @@ layout: doc
 title: Problèmes - éditeur iD
 permalink: /fr/hot-tips/issues/
 lang: fr
-category: hot-tips
+category: conseils pratiques
 ---
 
 Problèmes - éditeur iD
