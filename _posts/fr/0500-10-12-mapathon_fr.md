@@ -91,49 +91,49 @@ Maintenant que les premières étapes vous ont fourni suffisamment d'information
 9. Vérifiez que quelqu'un apportera tout équipement (rallonges, souris de rechange) et les aides de table qui seront nécessaires.  
 10. Prévenez vos assistants qu'ils doivent être présents sur le lieu de l'événement une demi-heure avant le début de la manifestation pour aider à sortir les tables, les chaises, les rallonges électriques, etc.  
 11. Vérifiez qu'il y a une connexion au wi-fi sur le site et qu'un mot de passe est disponible pour tous.  
-12.  Create a register that should be taken to every Mapathon to record attendees, their user names and the editor they use. This will give an ongoing record to assess how many mappers return for a second session or more, to assess which mappers continue to map during the period between events, to assess the success rate of retaining mappers and so on.
-13.  Contact the remote validators at least two days before the event to instruct them on the projects being worked on and any other details to help them help the Mapathon.
-14.  Decide on a local pub or other venue for the meet up afterwards and check that it is on Openstreetmap
+12. Créez un registre qui devrait être apporté à chaque Mapathon pour enregistrer les participants, leurs noms d'utilisateur et l'éditeur qu'ils utilisent. Ce registre permettra d'évaluer le nombre de cartographes qui reviennent pour une deuxième session ou plus, de déterminer quels cartographes continuent à cartographier entre deux événements, d'évaluer le taux de réussite de la rétention des cartographes et ainsi de suite.
+13. Contactez les validateurs à distance au moins deux jours avant l'événement pour les informer des projets sur lesquels ils travaillent et de tout autre détail qui les aidera à contribuer au Mapathon.
+14. Décidez d'un pub local ou d'un autre lieu pour la réunion suivante et vérifiez qu'il est sur Openstreetmap
 
-### At the Mapathon
-1. Arrive early at the venue to check that reception is all primed and prepared for the event.  
-2. Walk round the venue to familiarise yourself with the area, toilets, emergency exits, etc.  
-3. Brief the helpers as to the layout of the room and get your deputy to oversee them on setting out the tables, chairs and equipment, putting up direction signs in the corridors.  
-4. Check with the resident IT person that the internet connections are all working and the overhead large screens are connected to the relevant laptops.
-5. Have one helper at the door to welcome the mappers, give them their name tags and tell them where to sit.
-6. Have helpers moving from table to table helping mappers to log on when they arrive.
+### Lors du Mapathon
+1. Arrivez tôt sur le lieu de l'événement pour vérifier que la réception est bien préparée pour l'événement.  
+2. Faites le tour du lieu pour vous familiariser avec les lieux, les toilettes, les sorties de secours, etc.  
+3. Informez les assistants de la disposition de la salle et demandez à votre adjoint de les superviser pour la mise en place des tables, des chaises et du matériel, ainsi que pour l'installation de panneaux indicateurs dans les couloirs.  
+4. Vérifiez avec le responsable informatique local que les connexions Internet fonctionnent toutes et que les écrans géants sont connectés aux ordinateurs portables correspondants.
+5. Demandez à un assistant d'accueillir les cartographes à la porte, de leur remettre leur badge et de leur indiquer où s'asseoir.
+6. Demandez à des assistants de passer de table en table pour aider les cartographes à se connecter lorsqu'ils arrivent.
 
 ![mentoring][]
 
-### Start the Event
-1. Quieten everone down and start your welcome, introduction speech, programme for the event, fire evacuation instructions, position of toilets, etc.  
-2. Introduce your experienced mapper and start the training process.
-3. During the event be ready to announce any helpful tips if it is noticed that a mistake is being made by some of the mappers (such as not squaring the buildings)
-4. <https://osmlab.github.io/show-me-the-way/bbox.html> is a nice way of putting something on the overhead screen for the mappers to see the live edits in progress.
-5. Check that the refreshments are in place for the mid-session break.
-6. Decide on a local pub for the meet up afterwards and check that it is on Openstreetmap.
-7. Check that the local media or/and a helper is taking photos.
+### Début de l'événement
+1. Faites taire tout le monde et commencez votre discours de bienvenue, d'introduction, le programme de l'événement, les instructions d'évacuation en cas d'incendie, la position des toilettes, etc.  
+2. Présentez votre cartographe expérimenté et commencez le processus de formation.
+3. Pendant l'événement, soyez prêt à donner des conseils utiles si vous remarquez que certains cartographes commettent des erreurs (comme le fait de ne pas mettre les bâtiments sous forme de carrée).
+4. <https://osmlab.github.io/show-me-the-way/bbox.html> est une bonne façon d'afficher quelque chose sur l'écran de synthèse pour que les cartographes puissent voir les éditions en direct.
+5. Vérifiez que les rafraîchissements sont en place pour la pause de mi-session.
+6. Décidez d'un pub local pour vous retrouver après la réunion et vérifiez qu'il est sur Openstreetmap
+7. Vérifiez que les médias locaux ou/et un assistant prennent des photos.
 
 ![snacks][]
 
-### At the end of the Event
-1. Thank the hosts for the great venue, the new mappers for coming along and joining the mapping community, the experienced mappers for their help and for their time and contributions, show them the progress that was made on the projects they worked on, ask them to come back to the next Mapathon and invite them to the pub afterwards.
-2. Check that the register of mappers has been completed
-3. Collect any equipment that was lent to mappers (mouse, laptop, etc.)
-4. Gather all the signs, equipment and collect any rubbish.
-5. Make sure the tables and chairs are put back and the venue is in a clean condition before leaving for the pub.
+### A la fin de l'événement
+1. Remerciez les hôtes pour la qualité du lieu, les nouveaux cartographes pour être venus et avoir rejoint la communauté cartographique, les cartographes expérimentés pour leur aide, leur temps et leurs contributions, montrez-leur les progrès réalisés sur les projets sur lesquels ils ont travaillé, demandez-leur de revenir au prochain Mapathon et invitez-les ensuite au pub.
+2. Vérifier que le registre des cartographes a été complété
+3. Récupérer le matériel qui a été prêté aux cartographes (souris, ordinateur portable, etc.)
+4. Rassemblez tous les panneaux, le matériel et ramassez les déchets éventuels.
+5. Assurez-vous que les tables et les chaises sont remises en place et que la salle est propre avant de partir au pub.
 
-### Not all work and no play
-If your Mapathon becomes a regular event it is possible that you will start to get a core of regular attendees who will become your experienced helpers and help to make this a social event as well.
+### Pas que du travail mais aussi du plaisir
+Si votre Mapathon devient un événement régulier, il est possible que vous commenciez à avoir un noyau de participants réguliers qui deviendront vos assistants expérimentés et contribueront à faire de cet événement un événement social.
 
 ![theme][]
 
 
-## Other Resources
+## Autres ressources
 
-A checklist is available for download in both [odt](/files/Mapathon_check_list_3.odt) and [pdf](/files/Mapathon_check_list_3.pdf) formats so that you can walk through it at preparatory meetings.
+Une liste de contrôle peut être téléchargée en format [odt](/files/Mapathon_check_list_3.odt) et [pdf](/files/Mapathon_check_list_3.pdf) afin que vous puissiez la parcourir lors des réunions préparatoires.
 
-Useful resources for mapathons can also be found [on our external resources page](/en/resources).
+Vous trouverez également des ressources utiles pour les mapathons [sur notre page de ressources externes] (/en/resources).
 
 
 [venue]:               /images/coordination/mapathon-1.jpg

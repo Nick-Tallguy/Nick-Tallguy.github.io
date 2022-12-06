@@ -1,89 +1,89 @@
 ---
 layout: doc
-title: OruxMaps
+titre : OruxMaps
 permalink: /fr/mobile-mapping/oruxmaps/
 lang: fr
-category: mobile-mapping
+catégorie : cartographie mobile
 ---
 
 OruxMaps
 ===============
 
-> Reviewed 2016-08-04 and although slightly out of date is still functional & contains a link to the sites own software manual.
+> Révisé le 4 août 2016 et bien que légèrement périmé, il est toujours fonctionnel et contient un lien vers le manuel du logiciel du site.
 
-In this section, we will learn how to set up OruxMaps, how to create waypoints, how to see a tracklog, and how to export a tracklog for use in JOSM.  
+Dans cette section, nous apprendrons comment configurer OruxMaps, comment créer des waypoints, comment voir un tracklog, et comment exporter un tracklog pour l'utiliser dans JOSM.  
 
-​Install OruxMaps
+​Installer OruxMaps
 ------------------
 
-Install the app from Google Play Store by searching for **OruxMaps**, OruxMaps should be among the top search results listed.  
+Installez l'application à partir de Google Play Store en recherchant **OruxMaps**, OruxMaps devrait figurer parmi les premiers résultats de la recherche.  
 
 ![Search OruxMaps in Play Store][]
 
-Click on **Install** button and press Accept after App permissions appears.  
+Cliquez sur le bouton **Installer** et appuyez sur Accepter après l'apparition des autorisations de l'application.  
 
 ![Install OruxMaps][]
 
-Congratulations! You  now have OruxMaps installed in your device!  
+Félicitations ! OruxMaps  est maintenant installé sur votre appareil !  
 
-​Using OruxMaps
+Utilisation de OruxMaps
 --------------------
 
-The first time you run the application, you will see a notification like this:  
+La première fois que vous exécutez l'application, vous verrez une notification comme celle-ci :  
 
 ![Running OruxMaps for the first time][]
 
-In OruxMaps, you can choose whether you want to use online maps or offline maps. It’s better to use offline maps since you can use it even without an Internet connection. OruxMaps will suggest two sources  for downloading offline maps. If you already have your offline maps, you can also put in here too! At first it can be a little bit confusing because there are so many buttons in there. But don’t worry, you will see the explanation for each buttons below:  
+Dans OruxMaps, vous pouvez choisir d'utiliser des cartes en ligne ou des cartes hors ligne. Il est préférable d'utiliser des cartes hors ligne car vous pouvez les utiliser même sans connexion Internet. OruxMaps vous proposera deux sources  pour télécharger des cartes hors ligne. Si vous avez déjà vos cartes hors ligne, vous pouvez aussi les mettre ici ! Au début, cela peut être un peu déroutant car il y a beaucoup de boutons. Mais ne vous inquiétez pas, vous verrez l'explication de chaque bouton ci-dessous :  
 
 ![Interface overview][]
 
-Source: [OruxMaps Manual English Version](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
-This manual may be more up to date than this guide, and may be available in other languages.  
+Source : [OruxMaps Manual English Version](http://www.google.com/url?q=http%3A%2F%2Fwww.oruxmaps.com%2Foruxmapsmanual_en.pdf&sa=D&sntz=1&usg=AFQjCNFY7Tk-Gzz9NFKy9WOsnfnn8x3Kwg)  
+Il se peut que ce manuel soit plus à jour que le présent guide et qu'il soit disponible dans d'autres langues.  
 
-You can change your background map under **Maps \> Switch Maps**. After that you get to options - you want to use your **Online Map** or you want to use
-**Offline Maps**. OruxMaps provide a lot of Online Maps source that can you choose but of course it will cost money from the data plan on your device.  If you want to know where you can put your offline maps, you can go to **Setting \>Maps**. In the map directory option you can see where the OruxMaps put your
-offline maps. By the default, it’s in **OruxMaps/Mapfiles** folder in your internal storage.  
+Vous pouvez changer votre cartographe de fond sous **Cartes \> Changer de carte**. Ensuite, vous avez le choix entre deux options : utiliser votre **Carte en ligne** ou utiliser 
+**Cartes hors ligne**. OruxMaps fournit un grand nombre de sources de cartes en ligne que vous pouvez choisir, mais bien sûr, cela coûtera de l'argent à partir du plan de données de votre appareil.  Si vous voulez savoir où vous pouvez placer vos cartes hors ligne, vous pouvez aller dans **Paramétrage \>Cartes**. Dans l'option de répertoire de cartes, vous pouvez voir où OruxMaps a placé votre
+cartes hors ligne. Par défaut, il se trouve dans le dossier **OruxMaps/Mapfiles** de votre stockage interne.  
 
 ![Offline maps storage settings][]
 
-Start Tracking
+Commencer le suivi
 --------------
 
-Before you start tracking let’s review some settings under track/routes setting. The first setting is **Auto GPX Creation**. If you check this setting, OruxMap will help you to create .gpx file immediately after finishing a track (using Stop Tracking feature). So, after finishing a track, you can go to **OruxMaps/Tracklogs** in your internal storage to get your .gpx files without needing to export your track log first in track/routes management. The second setting is **Ask Track Name**. It’s very useful to define your track name before you start tracking so that you exactly know the specific name of your tracks.  
+Avant de commencer le suivi, passons en revue certains paramètres dans le cadre de la configuration du suivi/des itinéraires. Le premier paramètre est **Création automatique de GPX**. Si vous cochez cette option, OruxMap vous aidera à créer un fichier .gpx immédiatement après avoir terminé une trace (en utilisant la fonction Stop Tracking). Ainsi, après avoir terminé une trace, vous pouvez aller dans **OruxMaps/Tracklogs** dans votre stockage interne pour obtenir vos fichiers .gpx sans avoir besoin d'exporter votre journal de bord dans la gestion des traces/routes. Le deuxième paramètre est **Demander le nom de la piste**. Il est très utile de définir le nom de votre piste avant de commencer à tracer afin de connaître exactement le nom spécifique de vos pistes.  
 
 ![Tracklog settings][]
 
-To start tracking, one thing to remember is that we must set GPS Features in your device on. Any features in OruxMaps like **Start GPS** and **Start Rec** will not start unless you activate the GPS Features. OruxMaps will show notification if your GPS still disabled, and after that you will directly go to **Location Setting** in your device. After you turn on Location feature in your device, you can know your location by using **Start GPS** (1) feature in the right panel. After your location is already acquired, you can start Tracking by using **Start Rec.** (2) in the right Panel.  
+Pour commencer le suivi, une chose à retenir est que nous devons activer les fonctions GPS dans votre appareil. Toutes les fonctions d'OruxMaps comme **Start GPS** et **Start Rec** ne démarreront pas si vous n'activez pas les fonctions GPS. OruxMaps affichera une notification si votre GPS est toujours désactivé, et après cela vous irez directement à **Configuration de la localisation** dans votre appareil. Après avoir activé la fonction de localisation dans votre appareil, vous pouvez connaître votre position en utilisant la fonction **Démarrer GPS** (1) dans le panneau de droite. Une fois votre position acquise, vous pouvez commencer le suivi en utilisant la fonction **Start Rec.** (2) dans le panneau de droite.  
 
 ![Start track recording][]
 
-To stop tracking you only need to press the same button (2) in the right panel. After you stop tracking OruxMap will store your tracklog in an internal  database. You can access the tracklog by accessing **Routes** panel in top page, select **Manage**.You will find all of your tracklog here and you can see the route by press the tracklog that you want to see and select **Load the Track** (1). If you don’t use Auto GPX creation feature you can export your tracklog in various format (GPX, KML, KMZ) by select your tracklog and **Export as** (2).  
+Pour arrêter le suivi, il suffit d'appuyer sur le même bouton (2) dans le panneau de droite. Après avoir arrêté le suivi, OruxMap stockera votre tracklog dans une base de données interne. Vous pouvez accéder au tracklog en accédant au panneau **Routes** dans la page supérieure, sélectionnez **Gestion**.vous trouverez tous vos tracklogs ici et vous pouvez voir la route en appuyant sur le tracklog que vous voulez voir et sélectionnez **Chargez la piste** (1). Si vous n'utilisez pas la fonction de création automatique de GPX, vous pouvez exporter votre tracklog dans différents formats (GPX, KML, KMZ) en sélectionnant votre tracklog et **Exporter sous** (2).  
 
 ![Managing tracklogs][]
 
-If you already have an OpenStreetMap account, you can upload your track directly using OruxMaps. Before you upload your tracklog you need to put your username and password by going to **Setting \> Integration \> OpenStreetMap**. After that enter your username and password. You can upload your tracklog by using **Upload to (3)** in track/routes management.  
+Si vous avez déjà un compte OpenStreetMap, vous pouvez transférer votre trace directement en utilisant OruxMaps. Avant de transférer votre tracklog, vous devez entrer votre nom d'utilisateur et votre mot de passe en allant dans **Setting \> Integration \> OpenStreetMap**. Ensuite, saisissez votre nom d'utilisateur et votre mot de passe. Vous pouvez transférer votre tracklog en utilisant **Transférer vers (3)** dans la gestion des voies/routes.  
 
-Some windows will pop up and you need to select **OpenStreetMaps** (1) and after that you choose your **Tracklog type** (2), put your **Description** (3) and also the **Tag** (4). After all the information already filled up press **Upload GPX** (5). The notification will pop up and you can directly see your GPS traces on the OpenStreetMap website by selecting **OK** (6).  
+Des fenêtres vont apparaître et vous devez sélectionner **OpenStreetMaps** (1) et ensuite choisir votre **Tracklog type** (2), mettre votre **Description** (3) et aussi le **Tag** (4). Après avoir rempli toutes les informations, cliquez sur **Transférer le GPX** (5). La notification s'affichera et vous pourrez directement voir vos traces GPS sur le site OpenStreetMap en sélectionnant **OK** (6).  
 
 ![Uploading tracks to OpenStreetMap][]
 
-​Adding Waypoint
+Ajout d'un point de repère
 ---------------------
 
 ![Creating a waypoint][]
 
-If you want to add waypoint, you need to go to **Waypoint** symbol (1) at the top of the page and go to **Create** (2). It will bring you to waypoint creation page and fill your waypoint name. You can add extra information, for example a description of your waypoint and coordinates of your waypoint by checking the Coordinates checklist. Press Accept to save your waypoint.  
+Si vous voulez ajouter un waypoint, vous devez aller sur le symbole  **Waypoint** (1) en haut de la page et aller sur **Create**  (2). Cela vous amènera à la page de création du point de passage et vous pourrez y inscrire le nom de votre point de passage. Vous pouvez ajouter des informations supplémentaires, par exemple une description de votre waypoint et ses coordonnées en cochant la liste de contrôle Coordonnées. Appuyez sur Accepter pour sauvegarder votre waypoint.  
 
 ![Waypoint creation settings][]
 
-If you want to see all of your waypoints, you can go to **Waypoint \>Manage**. From this page you can change the properties, delete and export the waypoint. To see all of your waypoints in **map**, select the waypoints and go to show in map (1) and if you want to export your waypoints press **Export** (2). All of your exported waypoints will be stored in internal storage (by the default it stored in **oruxmaps/geocaches**).  
+Si vous voulez voir tous vos waypoints, vous pouvez aller sur **Waypoint \>Manage**. À partir de cette page, vous pouvez modifier les propriétés, supprimer et exporter le point de passage. Pour voir tous vos points de passage sur **carte**, sélectionnez-les et allez dans Afficher sur la carte (1) et si vous voulez exporter vos points de passage, appuyez sur **Exporter** (2). Tous vos waypoints exportés seront stockés dans le stockage interne (par défaut, ils sont stockés dans **oruxmaps/geocaches**).  
 
 ![Managing save waypoints][]
 
-Summary
+Résumé
 -----------
 
-Congratulations! You already know how to use OruxMaps for field surveys. It may be hard on your first time but if you continue using this you will be familiar with this application.  
+Félicitations ! Vous savez déjà comment utiliser OruxMaps pour les enquêtes de terrain. C'est peut-être difficile la première fois, mais si vous continuez à l'utiliser, vous vous familiariserez avec cette application.  
 
 [Search OruxMaps in Play Store]: /images/mobile-mapping/oruxmaps_image00.png
 [Install OruxMaps]: /images/mobile-mapping/oruxmaps_image03.png

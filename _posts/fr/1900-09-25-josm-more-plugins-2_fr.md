@@ -1,6 +1,6 @@
 ---
 layout: doc
-title: Opendata Plugin - data from a spreadsheet
+title: Plugin Opendata - données provenant d'une feuille de calcul
 permalink: /fr/josm/opendata-plugin/
 lang: fr
 category: josm
