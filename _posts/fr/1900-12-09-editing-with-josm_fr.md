@@ -1,117 +1,117 @@
 ---
 layout: doc
-title: Editing Field Data
+titre : Modifier les données de terrain
 permalink: /fr/josm/editing-with-josm/
 lang : fr
 category: josm
 ---
 
-Editing Field Data
+Modifier les données de terrain
 ==================
 
 
-We've now covered all the building blocks of mapping with OpenStreetMap. In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) section you can see how to use mobile tools to survey an area.
+Nous avons maintenant couvert tous les éléments constitutifs de la cartographie avec OpenStreetMap. Dans la section [Cartographier avec un smartphone, un GPS ou du papier](/fr/mobile-mapping/), vous pouvez voir comment utiliser des outils mobiles pour cartographier une zone.
 
-In this chapter we'll return once again to JOSM and look at a couple of new concepts which we have not covered thus far.
+Dans ce chapitre, nous allons revenir une fois de plus à JOSM et examiner quelques nouveaux concepts que nous n'avons pas encore abordés jusqu'à présent.
 
-JOSM Layers
+Couches JOSM
 -----------
-If you've followed along so far, you may have noticed that we can add all sorts of different things into JOSM. We can download OSM data, add Bing satellite imagery, load GPS tracks and waypoints, and add Field Papers - all of which are displayed in the map window of JOSM.
+Si vous avez suivi jusqu'ici, vous avez peut-être remarqué que nous pouvons ajouter toutes sortes de choses différentes dans JOSM. Nous pouvons télécharger des données OSM, ajouter des images satellites Bing, charger des traces et des points de repère GPS, et ajouter des Field Papers - tout cela s'affiche dans la fenêtre cartographique de JOSM.
 
-You may have also noticed that every time you add something new to JOSM, an additional item is added to the Layers panel on the right side of JOSM. Depending on what you have opened, your Layers panel may look something like this:
+Vous avez peut-être aussi remarqué que chaque fois que vous ajoutez quelque chose de nouveau à JOSM, un élément supplémentaire est ajouté au panneau des calques sur le côté droit de JOSM. En fonction de ce que vous avez ouvert, votre panneau des calques peut ressembler à ceci :
 
 ![Layers panel][]
 
-Each item in this list represents a different source of data that you have open in your map window. In this example, “Data Layer 1” is the OpenStreetMap data that we are editng. "Field Papers” is the layer created when we added our Field Paper into JOSM.
+Chaque élément de cette liste représente une source différente de données que vous avez ouverte dans la fenêtre de votre carte. Dans cet exemple, "Couche de données 1" correspond aux données OpenStreetMap que nous sommes en train d'éditer. "Field Papers" est la couche créée lorsque nous avons ajouté notre Field Paper dans le JOSM.
 
-If you add the Bing satellite imagery, a new layer will appear in the Layers panel named "Bing Sat."
+Si vous ajoutez l'imagerie satellite de Bing, une nouvelle couche apparaîtra dans le panneau des couches, appelée "Bing Sat".
 
-The idea of layers can often be hard to understand. A good way to imagine it is that each layer is like a semi-transparent piece of paper, and they are all stacked on top of one another. Each piece of paper has a certain type of information on it, and they can be rearranged any way you like.
+L'idée des couches peut souvent être difficile à comprendre. Une bonne façon de l'imaginer est que chaque couche est comme une feuille de papier semi-transparente, et qu'elles sont toutes empilées les unes sur les autres. Chaque feuille de papier contient un certain type d'informations et peut être réorganisée comme vous le souhaitez.
 
-Layers that are used as references, such as satellite imagery, GPS tracks, and Field Papers are often called "base layers." The OSM data layer is the layer that you actually work with.
+Les couches utilisées comme références, telles que l'imagerie satellitaire, les traces GPS et les Field Papers, sont souvent appelées "couches de base". La couche de données OSM est la couche avec laquelle vous travaillez réellement.
 
--   To move a layer, click on it in the Layers panel and click on the up or down arrow to move it.
+- Pour déplacer un calque, cliquez dessus dans le panneau Calques et cliquez sur la flèche vers le haut ou vers le bas pour le déplacer.
 
 ![Layers up down][]
 
--   To hide a layer, select it with your mouse and click the Show/Hide button:
+- Pour masquer un calque, sélectionnez-le avec votre souris et cliquez sur le bouton Afficher/Masquer :
 
 ![Layers show hide][]
 
--   You should see the layer that you selected disappear in the map window. Click Show/Hide again, and it will reappear.
--   You can remove a layer by selecting it and using the delete button:
+- Vous devriez voir la couche que vous avez sélectionnée disparaître dans la fenêtre de la carte. Cliquez à nouveau sur Afficher/Masquer, et elle réapparaîtra.
+- Vous pouvez supprimer une couche en la sélectionnant et en utilisant le bouton de suppression :
 
 ![Layers delete][]
 
--   Lastly, it’s important to know that you can only edit the layer that is considered *active* by JOSM. If you are unable to edit the map in your map window, it’s probably because you don’t have the correct layer set as active. Most layers, such as GPS points, Field Papers, and satellite imagery, can’t be edited. The only layers that can be edited are data from OpenStreetMap, which are usually called “Data Layer 1”.
--   To make a layer active, select it in the Layers panel, and click on the Activate button:
+- Enfin, il est important de savoir que vous ne pouvez modifier que la couche qui est considérée comme *active* par JOSM. Si vous ne parvenez pas à modifier la carte dans votre fenêtre de carte, c'est probablement parce que vous n'avez pas défini la bonne couche comme active. La plupart des couches, comme les points GPS, les Field Papers et l'imagerie satellite, ne peuvent pas être modifiées. Les seules couches qui peuvent être modifiées sont les données d'OpenStreetMap, qui sont généralement appelées "Couche de données 1".
+- Pour rendre un calque actif, sélectionnez-le dans le panneau Calques, puis cliquez sur le bouton Activer :
 
 ![Layers activate][]
 
 
-Using GPS Data and Field Papers
+Utilisation des données GPS et des Field Papers
 -------------------------------
-In the [Mapping with a Smartphone, GPS or Paper](/en/mobile-mapping/) chapters we saw how to collect data with a GPS and Field Papers, and how to load it into JOSM as a layer.
+Dans les chapitres [Cartographier avec un Smartphone, un GPS ou un papier](/fr/mobile-mapping/), nous avons vu comment collecter des données avec un GPS et des Field Papers, et comment les charger dans JOSM sous forme de couche.
 
-Once you have surveyed with one of these tools, you still need to add the information into OpenStreetMap digitally.
+Une fois que vous avez effectué un levé à l'aide de l'un de ces outils, vous devez encore ajouter les informations dans OpenStreetMap sous forme numérique.
 
-You do this with the same process you learned previously - **download, edit, save**. The difference is that instead of using only satellite imagery as a base layer, you can also use your GPS data, Field Papers, notes, or a combination of them all.
+Pour ce faire, vous utilisez le même processus que celui que vous avez appris précédemment : **télécharger, modifier, enregistrer**. La différence est qu'au lieu d'utiliser uniquement l'imagerie satellite comme couche de base, vous pouvez également utiliser vos données GPS, vos Field Papers, vos notes ou une combinaison de tous ces éléments.
 
--   For example, let's assume you have your GPS waypoints as a background layer in JOSM, you saved a waypoint on your GPS with the name 030, and you wrote in your notebook that 030 is a school. To add this point into OpenStreetMap, you will select the draw tool, and double-click on top of point 030 in your map window. This will create a point. Then go to the Presets menu, and find the preset for school. Enter the name of the school and click “Apply Preset”. Do the same to add lines and shapes.
+- Par exemple, supposons que vos points de repère GPS constituent une couche d'arrière-plan dans JOSM, que vous avez enregistré un point de repère sur votre GPS avec le nom 030, et que vous avez écrit dans votre carnet que 030 est une école. Pour ajouter ce point dans OpenStreetMap, vous allez sélectionner l'outil de dessin, et double-cliquer sur le dessus du point 030 dans la fenêtre de votre carte. Cela créera un point. Ensuite, allez dans le menu Préréglages, et trouvez le préréglage pour l'école. Entrez le nom de l'école et cliquez sur " Appliquer le préréglage ". Faites de même pour ajouter des lignes et des surfaces.
 
 ![GPS in JOSM][]
 
-Tags
+Étiquettes
 ----
-When you draw a point, line, or shape, it has a location, but no information about what it is. In other words, we know **where** it is, but not **what** it is. Before now, we have been using items from the Presets menu to define **what** it is. The way OpenStreetMap knows **what** an object is is by using **tags**.
+Lorsque vous dessinez un point, une ligne ou une surface, il a un emplacement, mais aucune information sur ce qu'il est. En d'autres termes, nous savons **où** il se trouve, mais pas **ce qu'il est**. Jusqu'à présent, nous avons utilisé les éléments du menu Presets pour définir **ce qu'il est**. La façon dont OpenStreetMap sait **ce qu'est** un objet est en utilisant des **balises**.
 
-A tag is like a label that you can put on something. For example, if we draw a square, it’s only a square. But then we add attributes to it that describe what it is: this square is a building; the name of the building is “Menara Thamrin”; the building is 16 levels high.
+Une étiquette est comme un label que l'on peut mettre sur quelque chose. Par exemple, si nous dessinons un carré, ce n'est qu'un carré. Mais nous lui ajoutons ensuite des attributs qui décrivent ce qu'il est : ce carré est un bâtiment ; le nom du bâtiment est "Menara Thamrin" ; le bâtiment a 16 niveaux de hauteur.
 
-You can add as many tags as you want to an object. Tags are saved as pairs of text, called **keys** and the **values**. In OpenStreetMap, the tags written above would in fact be:
+Vous pouvez ajouter autant de balises que vous le souhaitez à un objet. Les balises sont enregistrées sous forme de paires de textes, appelées **clés** et les **valeurs**. Dans OpenStreetMap, les tags écrits ci-dessus seraient en fait :
 
 -   building = yes
 -   name = Menara Thamrin
 -   building:levels = 16
 
-If you select an object in JOSM, you can see all the tags that are attached to it in the Properties panel on the right.
+Si vous sélectionnez un objet dans le JOSM, vous pouvez voir toutes les balises qui lui sont attachées dans le panneau Propriétés à droite.
 
 ![Properties panel][]
 
-### Editing Tags
+### Édition des étiquettes
 
-You can add, edit, and delete tags from the Properties panel. However, the tags are traditionally in English and can sometimes be confusing, so it is often easier to use the Presets menu. When you add or change tags, the attributes of the object are changed.
+Vous pouvez ajouter, modifier et supprimer des balises à partir du panneau Propriétés. Cependant, les balises sont traditionnellement en anglais et peuvent parfois prêter à confusion, il est donc souvent plus facile d'utiliser le menu Préréglages. Lorsque vous ajoutez ou modifiez des balises, les attributs de l'objet sont modifiés.
 
--   To edit an object's tags, first select it.
--   Then edit the tags in one of two ways: (1) Use the Presets menu, or (2) edit the tags directly in the Properties window on the right.
+- Pour modifier les balises d'un objet, il faut d'abord le sélectionner.
+- Modifiez ensuite les balises de l'une des deux manières suivantes : (1) utilisez le menu Presets, ou (2) modifiez les balises directement dans la fenêtre Propriétés à droite.
 
-### Common Mistake: Tagging nodes when you want to tag lines or polygons
+#### Erreur courante : Marquer des nœuds alors que vous voulez marquer des lignes ou des polygones
 
-When you are editing the attributes of a point, you will first select the point and then add tags either through the Presets menu or directly in the Properties panel. A common mistake is when adding attributes to a line or a shape. When selecting the object, it is important that you
-select the line, and NOT the points that make up the line.
+Lorsque vous modifiez les attributs d'un point, vous devez d'abord sélectionner le point, puis ajouter des balises soit par le biais du menu Préréglages, soit directement dans le panneau Propriétés. On commet souvent l'erreur d'ajouter des attributs à une ligne ou à une forme. Lorsque vous sélectionnez l'objet, il est important que vous
+sélectionner la ligne, et NON les points qui la composent.
 
-This frequently occurs because editors use the JOSM select tool to draw a box around an object, which causes everything, both the line **and** the nodes to be selected, and when you add tags they are applied to the nodes as well. Be sure to **only** select lines when you want to add tags to them.
+Cela se produit souvent parce que les éditeurs utilisent l'outil de sélection JOSM pour dessiner une boîte autour d'un objet, ce qui fait que tout, à la fois la ligne **et** les nœuds, est sélectionné, et lorsque vous ajoutez des balises, elles sont également appliquées aux nœuds. Veillez à **seulement** sélectionner les lignes lorsque vous voulez y ajouter des balises.
 
 ![Nodes mistake][]
 
-Saving OSM files
+Sauvegarde des fichiers OSM
 ----------------
-When you are editing in JOSM, it is always a good idea to download, edit, and upload changes in a reasonably short period of time. You do not want to download data one day, and then wait until a few days later to upload your edits. What if someone else edits the same area during that time? This will cause errors and conflicts.
+Lorsque vous éditez dans le JOSM, il est toujours bon de télécharger, d'éditer et de transférer les modifications dans un laps de temps raisonnablement court. Vous ne voulez pas télécharger des données un jour, puis attendre quelques jours plus tard pour transférer vos modifications. Et si quelqu'un d'autre modifie la même zone pendant ce temps ? Cela entraînera des erreurs et des conflits.
 
-Don't be afraid to upload your edits frequently. This ensures that your changes will be saved to the database and you will not lose your hard work.
+N'ayez pas peur de transférer fréquemment vos modifications. Cela garantit que vos modifications seront enregistrées dans la base de données et que vous ne perdrez pas le fruit de votre travail.
 
-If you are working in a single area, it's a good idea to download the map data every time you want to edit, in case another user has made changes.
+Si vous travaillez dans une seule zone, il est judicieux de télécharger les données cartographiques chaque fois que vous souhaitez les modifier, au cas où un autre utilisateur aurait apporté des changements.
 
-Although you should always try to download OSM data when you are ready to edit, and upload your changes frequently, there may be cases in which you want to save the OSM data on your computer. For example, if you have intermittent connectivity to the internet, you may wish to download data, save it, edit, and then upload your changes later on.
+Bien que vous deviez toujours essayer de télécharger les données OSM lorsque vous êtes prêt à les modifier et de transférer vos modifications fréquemment, il peut arriver que vous souhaitiez enregistrer les données OSM sur votre ordinateur. Par exemple, si votre connexion à Internet est intermittente, vous pouvez télécharger les données, les enregistrer, les modifier et transférer vos modifications ultérieurement.
 
--   To save an OSM file, make sure that it is the active layer in the the Layers panel. Click “File” on the top menu, and click “Save”. Choose a location for the file and give it a name. You can also save by clicking this button:
+- Pour enregistrer un fichier OSM, assurez-vous qu'il s'agit de la couche active dans le panneau des couches. Cliquez sur "Fichier" dans le menu supérieur, puis sur "Enregistrer". Choisissez un emplacement pour le fichier et donnez-lui un nom. Vous pouvez également enregistrer en cliquant sur ce bouton :
 
 ![JOSM save button][]
 
--   You can now close JOSM and your data will be saved. When you want to open the file again, simply open JOSM, go to the “File” menu, and click “Open...”
+- Vous pouvez maintenant fermer JOSM et vos données seront sauvegardées. Lorsque vous souhaitez ouvrir à nouveau le fichier, il suffit d'ouvrir JOSM, d'aller dans le menu "Fichier" et de cliquer sur "Ouvrir...".
 
-Summary
+Résumé
 -------
-In this chapter we looked a little bit closer at the JOSM interface and learned about layers and tags. You should now have a solid footing in how to map and how to edit OpenStreetMap.
+Dans ce chapitre, nous avons examiné de plus près l'interface JOSM et nous avons appris à connaître les couches et les étiquettes. Vous devriez maintenant avoir une base solide sur la façon de cartographier et d'éditer OpenStreetMap.
 
 
 [Layers panel]: /images/josm/josm_layers-panel.png
@@ -121,5 +121,5 @@ In this chapter we looked a little bit closer at the JOSM interface and learned 
 [Layers activate]: /images/josm/josm_layers-panel-activate.png
 [GPS in JOSM]: /images/josm/josm_gps-layer.png
 [Properties panel]: /images/josm/josm_properties-panel.png
-[Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
+[Erreur sur les nœuds] : /images/josm/josm_nodes-selected-mistake.png
 [JOSM save button]: /images/josm/josm_save-button.png

@@ -1,146 +1,146 @@
 ---
 layout: doc
-title: JOSM Editing Tools
+titre : Outils d'édition du JOSM
 permalink: /fr/josm/josm-tools/
 lang : fr
 category: josm
 ---
 
-JOSM Editing Tools
+Outils d'édition du JOSM
 ==================
 
-> Reviewed 2017-06-09  
+> Révisé le 09 juin 2017  
 
 - TOC
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+Dans le [guide de démarrage de JOSM](/fr/josm/start-josm/), nous couvrons les bases du dessin dans JOSM, mais de nombreux outils et techniques ne sont pas démontrés.
 
-Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
+Nous examinerons ici certains des outils et techniques de base disponibles pour dessiner des éléments de carte dans JOSM. Dans les chapitres suivants, nous examinerons plus en profondeur les outils de dessin avancés.
 
-Get the Sample File
+Obtenir le fichier d'exemple
 -------------------
 
-- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
+- Si vous souhaitez suivre et vous entraîner à utiliser les outils JOSM, téléchargez [tools_menu_sample.osm](/files/tools_menu_sample.osm). Lancez JOSM et ouvrez le fichier. Il devrait ressembler à ceci :
 
 ![tools_menu_sample.osm][]
 
-Drawing tools
+Outils de dessin
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
+Si vous cliquez sur le menu "Outils" en haut de JOSM, vous verrez qu'il existe de nombreuses fonctions qui peuvent vous aider à dessiner des lignes et des surfaces, et à modifier les objets sur la carte.
 
-JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
+JOSM dispose de quelques outils supplémentaires pour faciliter le dessin de lignes et de surfaces. Ces outils se trouvent dans le menu "Outils" en haut de JOSM.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+Afin d'appliquer les fonctions de ce menu, vous devez d'abord sélectionner un point, une ligne ou une surface dans la fenêtre de la carte. Le fichier d'exemple contient divers éléments qui sont étiquetés avec les noms des différents outils du menu.
 
-### Aligning nodes in a circle  
+### Alignement des noeuds dans un cercle  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- Essayez de sélectionner l'un des éléments du fichier. Ensuite, allez dans le menu Outils et cliquez sur la fonction qui est identifiée à côté de l'élément que vous avez sélectionné. Par exemple, cliquez sur le cercle mal dessiné pour le sélectionner.
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+- Ensuite, allez dans Outils->Aligner les nœuds en cercle. Le cercle mal dessiné deviendra plus circulaire.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+Expérimentez chacun des outils à l'aide de ce fichier d'exemple. Une description de certains de ces outils est fournie ci-dessous.
 
-### Split Way  
+### Méthode de fractionnement  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+Cela vous permet de diviser une ligne en deux lignes distinctes. Cette fonction est utile si vous souhaitez ajouter des attributs différents à différentes parties d'une route, comme un pont. Pour utiliser cette fonction, sélectionnez un point au milieu de la ligne que vous souhaitez diviser, puis sélectionnez Diviser le chemin dans le menu Outils, et votre ligne devrait être divisée en deux.
 
 
-### Combine Way
+### Méthode de combinaison
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+Cela fait l'inverse de la méthode de fractionnement. Pour combiner deux lignes en une seule, elles doivent partager un seul point. Pour utiliser cette fonction, sélectionnez les deux lignes que vous souhaitez combiner. Vous pouvez sélectionner plusieurs objets en maintenant la touche SHIFT de votre clavier et en cliquant sur chaque ligne. Lorsque vous avez sélectionné les deux lignes, sélectionnez Combiner les lignes dans le menu Outils.
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### Inverser et combiner  
 
-If you are combining roads that have different directions, you might get this warning:
+Si vous combinez des routes qui ont des directions différentes, vous pouvez recevoir cet avertissement :
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+Si les routes sont reliées et vont dans la même direction, choisissez "Inverser et continuer".
 
 
-### Reverse Way
+### Voie inverse
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+Cela changera la direction de la ligne. Toutes les lignes dans OSM ont une direction, qui est indiquée dans JOSM par les flèches sur la ligne. La direction n'a généralement pas d'importance, sauf dans le cas de routes à sens unique et de rivières qui coulent dans une certaine direction. Dans ce cas, vous devrez peut-être inverser le sens de la ligne pour qu'elle aille dans la bonne direction.
 
 ![Way direction][]
 
-### Simplify Way
+### Simplifier la voie
 
-If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
+Si votre ligne comporte trop de points et que vous souhaitez la simplifier, cette fonction permet de supprimer certains des points d'une ligne.
 
 ![Simplify way][]
 
 
-### Create a Circle
+### Créer un cercle
 
-Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+Utilisez cet outil, qui permettra de créer un cercle plus parfait. Tracez une ligne qui représente le diamètre de votre cercle, puis appliquez cet outil.
 
 ![Create circle][]
 
 
-### Align Nodes in Line
+### Aligner les noeuds en ligne
 
-This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+Cette fonction permet d'aligner une série de points en une ligne droite. Pour les longues lignes, il est préférable de sélectionner des sections de la ligne à redresser. Faites attention car cette fonction a tendance à décaler un peu la ligne.
 
 ![Align nodes in line][]
 
-### Orthogonalize Shape
+### Orthogonaliser la surface
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+Cette fonction est très utile pour dessiner des formes régulières telles que des bâtiments (**Mais voir aussi [Outils de construction JOSM](/fr/josm/josm-more-plugins/)**). Après avoir dessiné une zone, cette fonction la remodèlera pour qu'elle ait des coins carrés.
 
 ![Orthagonalize][]
 
 
-### Unglue way
+### Méthode de décollage
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+Cet outil vous permet de détacher des nœuds qui sont connectés. Il est utile lorsque deux objets partagent un nœud alors qu'ils ne devraient pas. Par exemple, une erreur courante est qu'une route partage un noeud avec le coin d'un bâtiment. Bien sûr, les routes ne se heurtent généralement pas aux bâtiments, il s'agit donc d'une erreur, et vous pouvez décoller les objets l'un de l'autre.
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+*La ligne et le nœud n'apparaîtront réellement séparés que lorsque vous les déplacerez.*
 
-Keyboard Shortcuts
+Raccourcis clavier
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
+Lorsque vous commencerez à éditer beaucoup, vous vous rendrez compte que vous perdez beaucoup de temps à cliquer sur les menus et sous-menus. Pour remédier à ce problème, JOSM propose des raccourcis clavier pour pratiquement tout.
 
-This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
+Cela signifie qu'au lieu de cliquer sur un objet puis de passer par un long processus de menu, vous pouvez simplement sélectionner l'objet et appuyer sur une touche de votre clavier.
 
-All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+Tous les outils mentionnés dans la section précédente ont des touches de raccourci, qui sont répertoriées dans le menu Outils, à droite du nom de chaque outil. Par exemple, "O" est le
+raccourci pour aligner les nœuds dans un cercle. "L" est le raccourci pour les aligner en ligne. L'apprentissage des touches de raccourci peut prendre un certain temps, mais vous constaterez qu'il permet de gagner 
+beaucoup de temps à long terme.
 
-Here are other shortcut keys (in **bold**) which are some of the most important.
+Voici d'autres touches de raccourci (en **gras**) qui sont parmi les plus importantes.
 
-1.  Activate the Select Tool - **S**
-2.  Activate the Draw Tool - **A**
-3.  Activate the Zoom Tool - **Z**
-4.  Delete the selected object(s) - **Delete**
-5.  Zoom In - **+**
-6.  Zoom Out - **-**
+1. Activez l'outil de sélection - **S**
+2. Activez l'outil Dessin - **A**
+3. Activez l'outil de zoom - **Z**
+4. Supprimer le ou les objets sélectionnés - **Delete**
+5. Zoom avant - **+**
+6. Zoom arrière - **-**
 
 
-Scale and Rotate
+Échelle et rotation
 ----------------
 
-A common question is how to rotate a line or shape after it has been drawn.
+Une question fréquente est de savoir comment faire pivoter une ligne ou une forme après qu'elle ait été dessinée.
 
-To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
+Pour faire pivoter un objet, commencez par le sélectionner. Maintenez les touches **SHIFT+CTRL** enfoncées sur votre clavier. Cliquez et faites glisser la souris pour le faire pivoter.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
+Pour mettre un objet à l'échelle (le rendre plus grand ou plus petit), suivez le même processus, mais en maintenant ALT+CTRL à la place.
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+Ces instructions sont affichées dans la barre d'information au bas du JOSM :
 
 ![Rotate instructions][]
 

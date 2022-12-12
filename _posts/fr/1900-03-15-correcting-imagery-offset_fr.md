@@ -102,52 +102,52 @@ Lorsque vous ajoutez une couche d'imagerie, le nouveau plugin vous avertit que v
 
 ![Comparing imagery offset from GPS tracks][]
 
-- We can see that the imagery layer is in fact misaligned.  We don’t want other users to use this offset, so we should mark it as incorrect in the database. Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).  
+- Nous pouvons voir que la couche d'imagerie est en fait mal alignée. Nous ne voulons pas que d'autres utilisateurs utilisent ce décalage, nous devons donc le marquer comme incorrect dans la base de données. Cliquez à nouveau sur le bouton "Offsets" (il n'y aura plus de point d'exclamation rouge).  
 
 ![Offsets button][]
 
-- This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”  
+- Cette fois, lorsque la boîte de dialogue s'ouvre, faites un clic droit sur le décalage et cliquez sur "Déprécier le décalage".  
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
-- You will need to enter a reason for deprecating this offset.  
+- Cliquez sur "Oui" pour confirmer.  
+- Vous devrez saisir une raison pour la dépréciation de ce décalage.  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+Ajouter le décalage de l'imagerie à la base de données
 ------------------------------------
 
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
+Maintenant que nous avons marqué le décalage de cet utilisateur comme "obsolète", nous devons ajouter un décalage amélioré à la base de données.  
 
-1. Click on the “Adjust imagery offset” button. ![Adjust imagery offset button][]{: height="24px"}  
-2.  Adjust the imagery to match the GPS tracks.  Click OK in the box.  
-3.  Now go to Offset ‣ Store Imagery Offset...  
+1. Cliquez sur le bouton "Ajuster le décalage de l'image". ![Adjust imagery offset button][]{ : height="24px"}  
+2. Ajustez l'imagerie pour qu'elle corresponde aux traces GPS. Cliquez sur OK dans la boîte.  
+3. Maintenant, allez dans Décalage ‣ Stockage de l'image Décalage...  
 ![Store imagery offset][]
-4.  Enter a description of the offset in the box that opens.  
+4. Saisissez une description du décalage dans la case qui s'ouvre.  
 ![Offset description][]
-5.  Click OK.  Your offset will be saved to the database.  
-6.  Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.  
+5. Cliquez sur OK. Votre décalage sera enregistré dans la base de données.  
+6. Maintenant, cachons la couche GPS et regardons les données OSM par rapport à l'imagerie correctement placée.  
 
 ![Corrected imagery][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
+Oh non ! Quelqu'un a cartographié cette zone avec des images mal alignées, la zone n'est donc pas correctement cartographiée. Cela prendra un certain temps à réparer.
 
 
-Imagery Offset Database Website
+Site web de la base de données d'imagerie décalée
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+Enfin, pour plus d'informations sur la base de données des compensations, vous pouvez visiter le site Web à l'adresse [http://offsets.textual.ru/](http://offsets.textual.ru/). Vous y trouverez la liste de toutes les compensations qui ont été téléchargées dans la base de données, ainsi qu'une carte qui permet de visualiser l'emplacement des compensations, comme vous pouvez le voir ici :  
 
 ![http://offsets.textual.ru/][]
 
-> One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
+> Une dernière chose à retenir est que l'imagerie peut ne pas être décalée de la même distance partout ! Cela est particulièrement vrai dans les régions où il y a beaucoup de collines et de montagnes. Donc, si l'imagerie semble être décalée différemment dans différentes zones, vous devrez la déplacer à nouveau.  
 
-Summary
+Résumé
 --------
 
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+Lorsque vous débutez dans OpenStreetMap, vous n'avez pas à vous soucier outre mesure du décalage de l'imagerie. Mais si vous voyez les modifications d'un autre cartographe qui semblent mal alignées par rapport à l'imagerie, vous devez toujours envisager la possibilité d'un décalage avant de commencer à modifier ses objets. Et si vous n'êtes pas encore prêt à gérer les décalages, rappelez-vous qu'il vaut mieux cartographier une zone avec un décalage de 20 ou 30 mètres que de ne pas la cartographier du tout. Mais lorsque cela est possible, n'oubliez pas qu'un décalage d'imagerie peut se produire et utilisez les étapes de ce chapitre pour le corriger si nécessaire.
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png

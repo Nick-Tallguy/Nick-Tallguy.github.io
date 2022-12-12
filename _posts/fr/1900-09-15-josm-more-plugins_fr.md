@@ -1,64 +1,64 @@
 ---
 layout: doc
-title: JOSM Building Tools & Utilsplugin2 plugins
+titre : Outils de construction JOSM et plugins Utilsplugin2
 permalink: /fr/josm/josm-more-plugins/
 lang: fr
-category: josm
+catégorie : josm
 ---
 
-JOSM Building Tools & Utilsplugin2 plugins
+Outils de construction JOSM et plugins Utilsplugin2
 ============
 
-> Reviewed 2016-09-12  
+> Révisé le 12 septembre 2016  
 
-The **buildings_tools** and **utilsplugin2** plugins add great additional functionality into JOSM. In this section we'll take a closer look at the functions they provide.  
+Les plugins **buildings_tools** et **utilsplugin2** ajoutent de nombreuses fonctionnalités à JOSM. Dans cette section, nous allons examiner de plus près les fonctions qu'ils fournissent.  
 
-The Buildings Tools Plugin
+Le plugin Buildings Tools
 --------------------------
 
-If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+Si vous ne l'avez pas encore fait, installez ce plugin en suivant les instructions de [JOSM Plugins](/fr/josm/josm-plugins).  
 
 ![Buildings tools plugin][]
 
-The Buildings Tools plugin is very helpful for digitizing buildings. It allows you to trace one side of a rectangular building, and easily extend the shape. If you are digitizing many buildings, this plugin will save you clicks, and thereby save you time.  
+Le plugin Buildings Tools est très utile pour numériser des bâtiments. Il vous permet de tracer un côté d'un bâtiment rectangulaire, et d'étendre facilement la forme. Si vous numérisez de nombreux bâtiments, ce plugin vous permettra d'économiser des clics, et donc du temps.  
 
-Once the plugin has been installed you will see a new button on the left side of JOSM, which looks like this: ![Buildings tools button][]{: height="29px"}
+Une fois que le plugin a été installé, vous verrez un nouveau bouton sur le côté gauche de JOSM, qui ressemble à ceci : ![Bouton Buildings tools][]{ : height="29px"}
 
-Start JOSM and download an area where you wish to trace buildings.  
+Lancez JOSM et téléchargez une zone où vous souhaitez tracer des bâtiments.  
 
-* Select the building tool and click twice to draw a line on the map.  
+* Sélectionnez l'outil de construction et cliquez deux fois pour tracer une ligne sur la carte.  
 
 ![Draw edge][]
 
-* Then extend the mouse and click again to draw a rectangle.  
+* Puis étendez la souris et cliquez à nouveau pour dessiner un rectangle.  
 
 ![Extend building][]
 
-* This will not only create a rectangle with only three clicks, but it will also automatically apply the **building=yes** tag to the shape.  
+* Cette méthode permet non seulement de créer un rectangle en trois clics, mais aussi d'appliquer automatiquement la balise **building=yes** à la forme.  
 
-### Complex Buildings
+### Bâtiments complexes
 
-You can also create more complicated buildings by first drawing several overlapping buildings and then merging them together.  
+Vous pouvez également créer des bâtiments plus complexes en commençant par dessiner plusieurs bâtiments qui se chevauchent, puis en les fusionnant.  
 
-* Draw two buildings which over lap, so that they form an L shape.  
-* Select both buildings (hold SHIFT to select more than one object).  
-* Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.  
+* Dessinez deux bâtiments qui se chevauchent, de sorte qu'ils forment une figure en L.  
+* Sélectionnez les deux bâtiments (maintenez SHIFT pour sélectionner plus d'un objet).  
+* Allez dans Outils->Joindre les zones qui se chevauchent ou appuyez sur SHIFT+J sur votre clavier.  
 
 ![Merge buildings][]
 
-### Edit Settings
+### Paramètres d'édition
 
-Furthermore, you can alter the default settings of the plugin.  
+En outre, vous pouvez modifier les paramètres par défaut du plugin.  
 
-* Go to Data->Set buildings size. ![Set buildings size][]{: height="39px"}  
+* Allez dans Data->Set buildings size. ![Définir la taille des bâtiments][]{ : height="39px"}  
 
-* If you are creating many similarly sized buildings, you can set specific width and height dimensions of the buildings, such as 6 x 10 meters (the unit is in meters).  
+* Si vous créez de nombreux bâtiments de taille similaire, vous pouvez définir des dimensions spécifiques de largeur et de hauteur des bâtiments, par exemple 6 x 10 mètres (l'unité est en mètres).  
 
 ![Set buildings size dialog][]
 
-* By setting the dimensions you will only need two clicks to create precisely sized buildings.  
+* En définissant les dimensions, vous n'aurez besoin que de deux clics pour créer des bâtiments de taille précise.  
 
-Lastly, you can click on the Advanced button if you would like to add additional tags that will automatically be applied to every building. For example, if every building you draw is on the same street, you might add a tag which identifies the street that will be automatically applied.  
+Enfin, vous pouvez cliquer sur le bouton Avancé si vous souhaitez ajouter des balises supplémentaires qui seront automatiquement appliquées à chaque bâtiment. Par exemple, si chaque bâtiment que vous dessinez se trouve dans la même rue, vous pouvez ajouter une balise identifiant la rue qui sera automatiquement appliquée.  
 
 ![Buildings advanced][]
 
@@ -66,42 +66,42 @@ Lastly, you can click on the Advanced button if you would like to add additional
 Utilsplugin2
 -------------
 
-* If you haven't already, install this plugin following the instructions in [JOSM Plugins](/en/josm/josm-plugins).  
+* Si vous ne l'avez pas encore fait, installez ce plugin en suivant les instructions de [JOSM Plugins](/en/josm/josm-plugins).  
 
 ![Utilsplugin2 plugin][]
 
-After you have installed the plugin and restarted JOSM, you will have a new menu at the top named "More Tools."  
+Après avoir installé le plugin et redémarré JOSM, vous aurez un nouveau menu en haut de l'écran appelé "More Tools".  
 
 ![More tools menu][]
 
-Create a new layer and experiment with some of the new tools. Here we describe some of the most useful new tools:  
+Créez un nouveau calque et expérimentez certains des nouveaux outils. Nous décrivons ici certains des nouveaux outils les plus utiles :  
 
-1. **Add Nodes at Intersections:**  This tool is very helpful for adding missing nodes in intersections of selected ways.  It is good practice that roads should always have common nodes where they intersect.  
+1. **Ajouter des nœuds aux intersections:** Cet outil est très utile pour ajouter les nœuds manquants aux intersections des voies sélectionnées. Il est de bonne pratique que les routes aient toujours des nœuds communs à leur intersection.  
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Copier les balises de la sélection précédente:** Cette fonction facilite la copie des balises. Si vous souhaitez créer plusieurs objets avec les mêmes balises, dessinez d'abord les objets. Ensuite, ajoutez les balises à un objet. Cliquez sur un autre objet et appuyez sur Shift + R pour copier les balises de l'objet précédemment sélectionné. Vous pouvez procéder ainsi pour tous les objets que vous souhaitez marquer. N'oubliez pas que les balises seront copiées à partir de l'objet précédemment sélectionné. Par conséquent, si vous cliquez sur un objet non balisé, puis sur un autre objet non balisé, vous ne pourrez pas copier de balises.  
 
     ![Copy tags][]
 
-3. **Add Source Tag:** This tool simplifies adding a source tag. It remembers the source that was specified last and adds it as remembered source tag to your objects.   You can insert the source with just one click.  
+3. **Add Source Tag:** Cet outil simplifie l'ajout d'une balise source. Il se souvient de la dernière source spécifiée et l'ajoute à vos objets comme balise source mémorisée. Vous pouvez insérer la source en un seul clic.  
 
-4. **Replace Geometry:** This tool is great if you want to redraw a poorly shaped object, but want to keep the history, attributes and ID number of that object.  For example, if you come across a building that is complicated and drawn in a poor fashion, then instead of painfully changing each node, you can draw the object again, select the old and new objects, and select ¨Replace Geometry¨ to transfer all the information over.  
+4. **Remplacer la géométrie:** Cet outil est idéal si vous voulez redessiner un objet mal dessiné, mais que vous souhaitez conserver l'historique, les attributs et le numéro d'identification de cet objet. Par exemple, si vous tombez sur un bâtiment compliqué et mal dessiné, alors au lieu de modifier péniblement chaque nœud, vous pouvez redessiner l'objet, sélectionner l'ancien et le nouvel objet, et sélectionner ¨Replace Geometry¨ pour transférer toutes les informations.  
 
     ![Replace geometry][]
 
 
-### More Selection Tools
+### Plus d'outils de sélection
 
-**Utilsplugin2** also provides more tools on the "Selection" menu. Try experimenting with them.  
+**Utilsplugin2** fournit également plus d'outils dans le menu "Sélection". Essayez de les expérimenter.  
 
 ![Selection menu][]
 
-One of our favorite selection tools is **Unselect Nodes:** This tool deselects all nodes. This can be useful if you draw a box to select many objects, but you do not want to select the nodes contained within all the lines and shapes.  
+L'un de nos outils de sélection préférés est **Unselect Nodes:** Cet outil désélectionne tous les nœuds. Cela peut être utile si vous dessinez une boîte pour sélectionner de nombreux objets, mais que vous ne voulez pas sélectionner les nœuds contenus dans toutes les lignes et formes.  
 
 ![Unselect nodes][]
 
-Good luck!  
+Bonne chance !  
 
 
 [Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
