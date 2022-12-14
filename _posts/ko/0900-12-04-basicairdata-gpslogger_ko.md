@@ -25,21 +25,21 @@ BasicAirData GPS 로거는 휴대폰의 위치와 이동 경로를 기록하는 
 
 ![BasicAirData-GPSLogger-000][]
 
-* Track recording - the app has no integrated maps
-* A modern UI with a low consumption dark theme and a tabbed interface
-* Foreground & background recording (On Android 6+ please turn off all battery monitoring and optimizations for this app)
-* Placemark creation also while recording
-* Visualization of GPS information
-* Manual altitude correction (adding an overall offset)
-* Automatic altitude correction based on NGA EGM96 Earth Geoid Model (must be enabled in the settings)
-* Real time track statistics
-* In-app tracklist showing the list of recorded tracks
-* Visualization of your tracks using any installed KML/GPX viewer, directly from the tracklist
-* Track export in the /GPSLogger folder of your device, in KML, GPX, and TXT
-* Track sharing, in KML, GPX, and TXT format, via E-mail, Dropbox, Google Drive, FTP, ...
-* Uses metric, imperial, or nautical units
+* 궤적 기록하기 - 해당 앱에는 지도가 내장되어 있지 않습니다
+* 현대적인 UI와 배터리를 적게 먹는 다크 테마, 손쉽게 이용할 수 있는 인터페이스
+* 앱을 켠 채로 혹은 다른 앱을 사용하는 중(백그라운드)에도 기록 가능(안드로이드 6 이상에서는 모든 배터리 감시 기능과 해당 앱의 배터리 소모량을 최적화하는 기능을 꺼야 합니다)
+* 기록 중에 관심 지점 추가하기
+* GPS 정보 시각화
+* 수동 고도 조정 기능(전반적인 오프셋 추가 가능)
+* NGA EGM96 지구 지오이드 모형에 기반한 자동 고도 조정 기능(설정에서 별도로 활성화해야 합니다)
+* 실시간 궤적 통계
+* 기록한 모든 궤적을 앱 내부에서 볼 수 있음
+* 아무 KML/GPX 뷰어나 설치해 궤적 목록에서 바로 궤적을 시각화할 수 있음
+* 기기의 /GPSLogger 폴더로 궤적 내보내기(KML, GPX, TXT 지원)
+* 이메일, 드롭박스, 구글 드라이브, FTP 등으로 궤적 공유하기(KML, GPX, TXT 형식)
+* 미터법, 미국 단위계, 해양 단위계 중 원하는 것을 골라 쓸 수 있음
 
-Basic Usage
+기초적인 사용법
 -----------
 
 ![BasicAirData-GPSLogger-001][]
