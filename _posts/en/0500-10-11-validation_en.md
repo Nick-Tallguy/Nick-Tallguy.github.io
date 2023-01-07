@@ -47,7 +47,7 @@ A new page will open in the Tasking Manager and the selected task will be loaded
 On the *Resources* tab you can view the changesets of the entire project or the task. When validating multiple tasks you can select the changesets of each individual task by clicking "Select task".
 You can also download the AOI or Tasks Grid files.
 
-![TM resources tasks validate][]
+<!-- ![TM resources tasks validate][] -->
 
 ### Selecting Multiple Tasks for Validation
 
