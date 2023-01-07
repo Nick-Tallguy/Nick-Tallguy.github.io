@@ -86,6 +86,10 @@ To validate/invalidate a task you need to select Yes/No under *Is this task well
 
 ![TM finalize validation][]
 
+In case you validated multiple tasks they will be presented in a list. Click Yes or No next to the label "All" to mark them all at once (see arrow in picture). Click the link "Copy comment" to copy a comment in one go to all other tasks (see arrow in picture). Or choose Yes or No for every individual task, including a comment.
+
+![TM finalize multiple validation][]
+
 For those two choices you can and should leave a friendly, encouraging comment addressed to the mapper(s) involved and provide thanks for their contributions and feedback on their mapping. Please be considerate before marking a task as invalid. If just a few bits are missing add them yourself, explain what was missing in your comment but nevertheless mark the task as valid. New mappers will consider their completed task marked as invalid as a fairly harsh comment.
 
 You can access a mapper’s statistics on their profile page at https://tasks.hotosm.org/users/_username_. <!-- If the mapper has been making a consistent mistake you can find the projects that mapper worked on by going to their project page and selecting My Tasks below their name. If you want to see all the tasks mapped by that mapper in a specific project you can search their tasks by project id. -->
