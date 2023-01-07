@@ -122,6 +122,7 @@ Links:
 [TM select for validation by contributor]: /images/coordination/tm4_validation_contributor_selection.png
 [TM multi selection]: /images/coordination/tasking_manager_multi_selection.png
 [TM finalize validation]: /images/coordination/tm4_validation_finalize.png
+[TM finalize multiple validation]: /images/coordination/tm4_validation_finalize_multiple.png
 [TM finalize validation multiple tasks]: /images/coordination/tm4_validation_finalize.png
 [TM OSMCha_project]: /images/coordination/tm4_validation_osmcha_project.png
 [TM OSMCha_task]: /images/coordination/tm4_validation_osmcha_task.png
