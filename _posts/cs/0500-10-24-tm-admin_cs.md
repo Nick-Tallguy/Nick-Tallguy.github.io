@@ -79,7 +79,7 @@ Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vaš
 
 * Option 1: `Draw` the area of interest manually
 
-1. You may switch to other background layers using the buttons on the top. 
+1. Pomocí tlačítek v horní části můžete přepínat na jiné vrstvy pozadí. 
 1. Click the `Draw` button on the left.
 2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
 3. Kliknutím na výchozí bod dokončete polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
@@ -131,7 +131,7 @@ Pokud jste nahráli soubor pro definici oblasti projektu, může tento soubor ob
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extent of your mapping area. You will almost certainly want to do this. Click on `Trim` to remove all task squares which do not overlap your project area. 
+Po určení velikosti úloh budete mít možnost oříznout úlohy v rozsahu oblasti mapování. Téměř jistě to budete chtít udělat. Klepnutím na `Oříznout` odstraníte všechny čtverce úloh, které nepřekrývají vaši oblast projektu. 
 
 ![TM Trim coarse][]
 
@@ -160,7 +160,7 @@ Click `Create`. Your project will be created but it will not publish immediately
 You'll now see the 'Edit' menu of your project. Before the project can be saved, you'll need to go through the 'Edit' menu carefully to complete setup. Here is a quick summary of the sub-menus you will see on the left hand side:
 
 - Description - Set the status, priority and text description associated with your project.
-- Instructions - Detailed instructions for how to map the needed features and approach the project.
+- Návod - Podrobný návod, jak zmapovat potřebné funkce a jak přistupovat k projektu.
 - Metadata - Define the features that need to be mapped. Also includes information used for categorizing projects, used in filtering projects.
 - Priority Areas - Allows you to specify parts within the project area that should be mapped first.
 - Snímky - Vyberte snímky, které se ve výchozím nastavení načtou, když dobrovolníci mapují váš projekt. 
@@ -200,7 +200,7 @@ Dále je to priorita projektu. Ta určuje, jak blízko přední části Správce
 
 Add at least two sentences that briefly describe your project. This is important because volunteers will read this to decide on whether to contribute. Try and clearly explain **why** the data is being collected and **how the map data will be used**. 
 
-> These fields support **Markdown** and can include images (drag and drop) and videos (add a YouTube URL for automatic embedding).
+> Tato pole podporují **Markdown** a mohou obsahovat obrázky (přetažením myší) a videa (přidáním adresy URL YouTube pro automatické vložení).
 
 #### 'Long' Description
 
