@@ -13,38 +13,38 @@ category: coordination
 
 Rejstřík sekcí
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
+-  [Přihlášení a přístup](/en/coordination/tm-admin/#login-and-access)
+-  [Oprávnění](/en/coordination/tm-admin/#permissions)
+-  [Vytvořit projekt](/en/coordination/tm-admin/#create-a-project)
+    -  [Definice oblasti mapování](/en/coordination/tm-admin/#define-mapping-area)
+    -  [Definovat úlohy](/en/coordination/tm-admin/#define-tasks)
     -  [Pokročilé: Definovat úlohy s importovanými daty](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Name the project](/en/coordination/tm-admin/#name-the-project)
--  [Edit a project](/en/coordination/tm-admin/#edit-a-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
+    -  [Ořez oblasti projektu](/en/coordination/tm-admin/#project-area-trim)
+    -  [Název projektu](/en/coordination/tm-admin/#name-the-project)
+-  [Upravit projekt](/en/coordination/tm-admin/#edit-a-project)
+    -  [Popis - první věc, kterou se uživatelé dozvědí o vašem projektu](/en/coordination/tm-admin/#description)
     -  [Pokyny - co mají uživatelé dělat](/en/coordination/tm-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
+    -  [Metadata - kam projekt patří](/en/coordination/tm-admin/#metadata)
     -  [Prioritní oblasti - kde by uživatelé měli začít mapovat](/en/coordination/tm-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
+    -  [Zobrazení - základ pro mapování](/en/coordination/tm-admin/#imagery)
     -  [Oprávnění - kdo smí mapovat a ověřovat](/en/coordination/tm-admin/#permissions)
-    -  [Settings](/en/coordination/tm-admin/#settings)
+    -  [Nastavení](/en/coordination/tm-admin/#settings)
     -  [Actions](/en/coordination/tm-admin/#actions)
-    -  [Custom editor](/en/coordination/tm-admin/#custom-editor)
-    -  [Save and test](/en/coordination/tm-admin/#save-and-test)
-    -  [Publish](/en/coordination/tm-admin/#publish)
+    -  [Vlastní editor](/en/coordination/tm-admin/#custom-editor)
+    -  [Uložit a otestovat](/en/coordination/tm-admin/#save-and-test)
+    -  [Zveřejnění](/en/coordination/tm-admin/#publish)
 -  [Řízení projektů](/en/coordination/tm-admin/#project-management) 
     -  [Be responsive](/en/coordination/tm-admin/#be-responsive)
     -  [Sequencing projects](/en/coordination/tm-admin/#sequencing-projects)
     -  [Životní cyklus projektu](/en/coordination/tm-admin/#project-lifecycle)
--  [Additional information](/en/coordination/tm-admin/#additional-information)
-    -  [Considerations concerning imagery](/en/coordination/tm-admin/#considerations-concerning-imagery)
+-  [Další informace](/en/coordination/tm-admin/#additional-information)
+    -  [Úvahy o zobrazování](/en/coordination/tm-admin/#considerations-concerning-imagery)
 
 Tasking Manager je základním nástrojem pro koordinaci mapování v OpenStreetMap. Podporuje humanitární mapovací iniciativy, pořádání mapathonů nebo vytváření mapovacích úloh pro studenty. Aplikace rozděluje zájmovou oblast na zvládnutelné geografické části, které lze rychle a ve spolupráci dokončit. Tento přístup umožňuje rozdělit úkoly mnoha jednotlivým mapovatelům a zároveň omezit možné konflikty při úpravách. 
 
-The software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
+Software podporuje přesné a kvalitní mapování tím, že poskytuje mapovačům konzistentní sadu pokynů (např. "zmapujte všechny silnice a budovy"). Stručně řečeno, Tasking Manager je způsob, jak nastavit a řídit pracovní postup pro otevřené mapovací činnosti. 
 
-This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
+Tato příručka popisuje základní správu Tasking Manageru. Zahrnuje pokyny k vytváření a úpravám mapovacích projektů a manipulaci s oprávněními pro mapování a revizi dat z hromadných zdrojů.
 
 ## Login and access
 
@@ -52,19 +52,19 @@ K přihlášení do Tasking Manageru je zapotřebí účet OpenStreetMap (OSM). 
 
 ## Oprávnění
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers. 
+Nejzákladnější uživatelská úroveň je **mapper**. Mappeři se mohou přihlásit do Tasking Manageru a vyhledat a vybrat mapovací projekt, na kterém budou pracovat. Veškeré funkce mappera jsou popsány v příručce [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Všimněte si, že některé projekty, například ty, které jsou ve stavu návrhu (tj. nezveřejněné), nebo projekty omezené na určité týmy, nejsou pro běžné mappery viditelné. 
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organization mapping projects and teams can be created. An organization could represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance. See [HOT Tasking Manager Organizations](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) for a list of organizations which are present on HOT's Tasking Manager. If your community or organization is not listed there and you'd like to create projects on HOT's Tasking Manager, please complete [this form](http://bit.ly/HOTTasking) to register your interest. 
+Všechna zvláštní oprávnění mají na starosti *organizace* a *týmy*. Hlavní zastřešující organizací je **organizace** a pod každou organizací lze vytvářet mapovací projekty a týmy. Organizace může představovat uživatele dat, například humanitární organizaci, nebo jakoukoli komunitu OpenStreetMap. Pokud potřebujete nastavit organizaci ve Správci úloh, obraťte se na technické správce instance Správce úloh. Seznam organizací, které jsou přítomny v Tasking Manageru HOT, naleznete v části [HOT Tasking Manager Organizations](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations). Pokud tam vaše komunita nebo organizace není uvedena a chtěli byste vytvářet projekty na HOT's Tasking Manager, vyplňte [tento formulář](http://bit.ly/HOTTasking) a zaregistrujte svůj zájem. 
 
-Every organization has one or more **managers**. They have the permission to create and modify associated projects. All manager options can be accessed through the `Manage` section in the main navigation.
+Každá organizace má jednoho nebo více **manažerů**. Ti mají oprávnění vytvářet a upravovat související projekty. Všechny možnosti správce jsou přístupné prostřednictvím sekce `Správa` v hlavní navigaci.
 
-Managers of an organization can create **teams**. Teams are groups of OpenStreetMap users and they can be publicly visible or private. They also have one or more team managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+Manažeři organizace mohou vytvářet **týmy**. Týmy jsou skupiny uživatelů OpenStreetMap a mohou být veřejně viditelné nebo soukromé. Mají také jednoho nebo více manažerů týmů. Týmy mohou být nastaveny tak, že se uživatelé mohou k týmu připojit sami nebo "pouze na pozvání", což znamená, že manažeři týmu jsou o žádostech o připojení informováni a musí o nich rozhodnout.
 
-For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
+Pro každý projekt mohou správci přiřadit konkrétní týmy, kterým mohou udělit nebo omezit přístup k mapování, definovat, kdo může ověřovat data nebo kdo jiný může upravovat metadata projektu.
 
 ## Create a project
 
-Click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
+V navigaci nahoře klikněte na `Správa`, v prvním řádku uvidíte místo pro 'Projekty'. Vedle něj klikněte na tlačítko `Přidat` a jeden z nich vytvořte.
 
 ![TM Add Project][]
 
@@ -73,7 +73,7 @@ Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vaš
 * Option 1: `Draw` the area of interest manually
 * Možnost 2: `Nahrát soubor` pro import oblasti zájmu jako GeoJSON, KML nebo zazipovaný shapefile.
 
-![TM New][]
+![TM Nový][]
 
 ### Define mapping area
 
@@ -81,7 +81,7 @@ Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vaš
 
 1. Pomocí tlačítek v horní části můžete přepínat na jiné vrstvy pozadí. 
 1. Click the `Draw` button on the left.
-2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
+2. Chcete-li nakreslit polygon představující oblast mapování v rámečku mapy, podržte pravé tlačítko myši a přesuňte mapu bez kliknutí, čímž přidáte uzel. Polygon by měl těsně rámovat oblast zájmu. Tím ušetříte čas při vyplňování dlaždic, které nejsou předmětem zájmu (např. oceán, les).
 3. Kliknutím na výchozí bod dokončete polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
 <br>
@@ -91,35 +91,35 @@ Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vaš
 1. In the first step of creating a project click on `Upload file`.
 2. V okně Nahrát soubor přejděte na svůj soubor.
 3. Click the file name to highlight the file and then click ‘Open’.
-4. Imported areas of interest cannot be adjusted in Tasking Manager.
+4. Importované oblasti zájmu nelze v Tasking Manageru upravit.
 
 Je možné, že nahráváte soubor, který již obsahuje předdefinované úlohy (malé mapovací čtverce). Více informací o tom najdete níže v části [Definovat úlohy s importovanými daty](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data).
 
 > POZNÁMKA: Tasking Manager má svá omezení! Maximální technický limit pro projekt je 5 000 km2, aby však dokončení projektu netrvalo příliš dlouho, snažte se ho udržet pod 1 000 km2. Pokud potřebujete zmapovat větší oblast, budete muset vytvořit několik projektů. Velikost projektu uvidíte v levém dolním rohu náhledu mapy. 
 
-### Define tasks
+### Definovat úlohy
 
-After the overall mapping area has been defined, it is going be divided into smaller areas called *Tasks*. You must consider your project's task sizes very carefully. Well designed projects have appropriate task sizes, allowing them to be completed as efficiently as possible. 
+Po vymezení celkové oblasti mapování se tato oblast rozdělí na menší oblasti zvané *Úlohy*. Velikost úloh projektu musíte pečlivě zvážit. Dobře navržené projekty mají odpovídající velikosti úloh, což umožňuje jejich co nejefektivnější dokončení. 
 
 ![TM Tile Sizes][]
 
-The project area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares. The default task size is likely to be much too large. As you alter the task size note the task size listed on the left next to 'The size of each task is approximately ... km2'.
+Oblast projektu se automaticky rozdělí na buňky mřížky a každá buňka se stane úlohou. Pomocí tlačítek `Větší` a `Menší` můžete upravit celkovou velikost čtverců úlohy. Výchozí velikost úlohy je pravděpodobně příliš velká. Při změně velikosti úlohy si všímejte velikosti úlohy uvedené vlevo vedle položky 'Velikost každé úlohy je přibližně ... km2'.
 
-Please take your time and set your task sizes very carefully! Try and aim to reduce your task size down to where you think it would take a confident mapper **15 minutes to complete**. The optimal task size entirely depends on the feature(s) you are asking mappers to identify and the density of those features. For example, a road mapping project in a rural area would have much larger tasks than a project that involves digitizing buildings in a dense settlement.
+Nespěchejte a pečlivě si nastavte velikost úloh! Snažte se zmenšit velikost úlohy tak, abyste si mysleli, že by to sebevědomému mapovači zabralo **15 minut**. Optimální velikost úlohy zcela závisí na objektu (objektech), které po maperech požadujete, a na hustotě těchto objektů. Například projekt mapování silnic ve venkovské oblasti bude mít mnohem větší úkoly než projekt, který zahrnuje digitalizaci budov v hustém osídlení.
 
-> Zoom in and activate the Bing imagery to determine a good task size. You can switch between several background map layers with the buttons on the top of the map.
+> Přibližte a aktivujte zobrazení Bing, abyste určili vhodnou velikost úlohy. Tlačítky v horní části mapy můžete přepínat mezi několika vrstvami podkladu.
 
 Po nastavení celkové velikosti úlohy můžete některé úlohy selektivně rozdělit na čtyři menší pomocí tlačítka `Kliknutím na rozdělení`. Nebo můžete `Kreslit oblast pro rozdělení`, a to vám umožní nakreslit polygon nad oblastí, abyste rozdělili všechny úlohy uvnitř. Tyto funkce jsou užitečné zejména v případě, že hustota prvku, který chcete mapovat, se v oblasti projektu liší. Například může existovat hustě zastavěná pobřežní oblast, která potřebuje malé úlohy, a vnitrozemská venkovská oblast, která potřebuje mnohem větší úlohy. Tlačítko `Reset` odstraní veškeré vaše vlastní rozdělení.
 
 Úvahy při rozhodování o velikostech úloh:
--  Tasks can be split, but there is no option to re-merge them once a project is created.
+-  Úlohy lze rozdělit, ale po vytvoření projektu není možné je znovu spojit.
 -  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time.
 -  Na okrajích a v rozích úloh existuje větší potenciál pro konflikty mezi sousedními mapovači. Menší úlohy znamenají více rohů a hran. Existuje kompromis ve velikosti úlohy, aby byla pro mapovače snadná, ale aby mezi nimi nevznikaly konflikty při mapování.
--  Small tasks are easier to map, but more tasks means more time needs to be spent by mappers updating the status of each, and projects with tasks that are too small can therefore be inefficient.
+-  Malé úkoly se snáze mapují, ale více úkolů znamená, že mapovači musí strávit více času aktualizací stavu každého z nich, a projekty s příliš malými úkoly tak mohou být neefektivní.
 -  Začínající mappeři potřebují zhruba čtyřikrát delší dobu než zkušení mappeři.
--  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
+-  Začínající mappeři si musí osvojit satelitní snímky. Všimnout si správných prvků může být obtížné.
 
-Once you are happy with your task sizes, click `Next`.
+Jakmile jste s velikostí úlohy spokojeni, klikněte na tlačítko `Další`.
 
 ### Pokročilé: Definujte úlohy s importovanými daty
 
@@ -127,7 +127,7 @@ Pokud jste nahráli soubor pro definici oblasti projektu, může tento soubor ob
 
 ![TM New Polys][]
 
-### Project area trim
+### Oříznutí projektové plochy
 
 ![TM Trim][]
 
@@ -135,17 +135,17 @@ Po určení velikosti úloh budete mít možnost oříznout úlohy v rozsahu obl
 
 ![TM Trim coarse][]
 
-If you toggle on 'Trim the tasks to define the exact Area of Interest for mapping.' before clicking on `Trim` the overlapping task portions at the edge of your area of interest will be trimmed sharply against your area of interest.
+Pokud před kliknutím na tlačítko 'Oříznout' zapnete možnost `Oříznout úlohy pro přesné vymezení oblasti zájmu pro mapování`, budou překrývající se části úloh na okraji oblasti zájmu ostře oříznuty oproti oblasti zájmu.
 
 ![TM Trim fine][]
 
 Při ostrém ořezávání může dojít k extrémně malým úkonům. Tyto drobné úlohy mohou mapovatele zmást. Můžete je odstranit výběrem možnosti `Odstranit`, když se zobrazí zpráva 'There are ... tasks smaller than 2,000m2. Chcete je vyřadit?
 
-> Take note of the number of tasks that your project has (look in the bottom left hand corner of your map). The maximum technical limit for the number of tasks in one Tasking Manager project is 5,000. However, to ensure your project doesn't take too long to complete, try and keep it under 1,000 tasks - if you need to map a larger area try splitting it into smaller projects. 
+> Všimněte si počtu úkolů, které váš projekt obsahuje (podívejte se do levého dolního rohu mapy). Maximální technický limit pro počet úkolů v jednom projektu Tasking Manageru je 5 000. Aby však dokončení projektu netrvalo příliš dlouho, snažte se udržet počet úkolů pod 1 000 - pokud potřebujete zmapovat větší oblast, zkuste ji rozdělit na menší projekty. 
 
-Click `Next`.
+Klikněte na `Další`.
 
-### Name the project
+### Název projektu
 
 Název projektu je jedním z jeho nejdůležitějších aspektů, pokud jde o to, aby se o něm dozvěděla širší veřejnost. Pokuste se uvést název země, ve které se projekt nachází (např. Jižní Súdán), důvod mapování (např. Očkování COVID) a také konkrétnější místo, třeba název okresu nebo osady (např. Yambio County). Úplný název projektu může být např: _Jižní Súdán, očkování COVID, okres Yambio_. 
 
@@ -153,15 +153,15 @@ Ensure your organization is selected under the 'Organization' field.
 
 > Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
 
-Click `Create`. Your project will be created but it will not publish immediately - you'll be directed to the Edit menu of the project first. 
+Klikněte na tlačítko `Vytvořit`. Váš projekt bude vytvořen, ale nebude okamžitě publikován - nejprve budete přesměrováni do nabídky Úpravy projektu. 
 
-## Edit a project
+## Upravit projekt
 
 You'll now see the 'Edit' menu of your project. Before the project can be saved, you'll need to go through the 'Edit' menu carefully to complete setup. Here is a quick summary of the sub-menus you will see on the left hand side:
 
-- Description - Set the status, priority and text description associated with your project.
+- Popis - Nastavte stav, prioritu a textový popis související s projektem.
 - Návod - Podrobný návod, jak zmapovat potřebné funkce a jak přistupovat k projektu.
-- Metadata - Define the features that need to be mapped. Also includes information used for categorizing projects, used in filtering projects.
+- Metadata - Definujte prvky, které je třeba mapovat. Zahrnuje také informace používané pro kategorizaci projektů, které se používají při filtrování projektů.
 - Priority Areas - Allows you to specify parts within the project area that should be mapped first.
 - Snímky - Vyberte snímky, které se ve výchozím nastavení načtou, když dobrovolníci mapují váš projekt. 
 - Oprávnění - umožňuje omezit přístup k projektu pro mapování a ověřování.
@@ -171,32 +171,32 @@ You'll now see the 'Edit' menu of your project. Before the project can be saved,
 
 > Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
 
-### Description
+### Popis
 
 ![TM Popis][]
 
-#### Status
+#### Stav
 
 First is the project status. This can be set to either **Draft**, **Published**, or **Archived**.
 
 - **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
-- **Published** - When you have completed your project setup, tested it and are happy for it to be publicly listed and open for mapping/validation.
+- **Zveřejněno** - Když jste dokončili nastavení projektu, otestovali jej a jste rádi, že je veřejně uveden a otevřen pro mapování/ověřování.
 - **Archived** - All projects should end up being archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
   - It is 100% mapped and validated
-  - The instructions or imagery are substantially outdated
-  - The project was created more than a year ago
-  - Map data is no longer needed for humanitarian purposes in the project area
+  - Pokyny nebo vyobrazení jsou značně zastaralé.
+  - Projekt byl vytvořen před více než rokem
+  - Mapové podklady již nejsou pro humanitární účely v oblasti projektu potřeba.
 
-#### Priority
+#### Priorita
 
 Dále je to priorita projektu. Ta určuje, jak blízko přední části Správce úkolů bude projekt zobrazen na stránce Prozkoumat projekty. Tuto hodnotu lze nastavit na **Podstatné**, **Vysoké**, **Střední** nebo **Nízké**.
 
 - **Urgent** - Only set this status if the project is **in response to a disaster and the data needs are immediate**. Very few projects have this priority level. 
-- **High** - For projects that are not necessarily in response to a disaster but the data is needed in a **short time-frame**. 
+- **Vysoká** - Pro projekty, které nejsou nutně reakcí na katastrofu, ale data jsou potřebná v **krátkém časovém horizontu**. 
 - **Střední** - Pokud jsou data potřebná, ale ne v příliš krátkém časovém horizontu.
-- **Low** - If you want to publish your project but do not want to make it very prominent. You might prefer to share your project to specific groups using the project URL.
+- **Nízká** - Pokud chcete svůj projekt zveřejnit, ale nechcete, aby byl příliš výrazný. Možná budete raději sdílet svůj projekt s konkrétními skupinami pomocí adresy URL projektu.
 
-#### Short description
+#### Krátký popis
 
 Add at least two sentences that briefly describe your project. This is important because volunteers will read this to decide on whether to contribute. Try and clearly explain **why** the data is being collected and **how the map data will be used**. 
 
@@ -206,31 +206,31 @@ Add at least two sentences that briefly describe your project. This is important
 
 Zde můžete svůj projekt popsat podrobněji. Uveďte více informací o tom, proč projekt existuje, kdo bude data používat a jaký očekávaný dopad bude mapování mít. Pokud projekt zahrnuje nějakou spolupráci nebo partnery, můžete to zde rozvést. 
 
-> For any of these text fields you can choose to add additional translations. If you'd like to add a translation, click on the two letter language code and enter the translated text. For users that have set the Tasking Manager to that language it will automatically display the project in that language. By default, the initial field is English language, this can be altered in the 'Settings' sub-menu of your project.
+> Do kteréhokoli z těchto textových polí můžete přidat další překlady. Pokud chcete přidat překlad, klikněte na dvoupísmenný kód jazyka a zadejte přeložený text. Uživatelům, kteří nastavili Správce úloh na daný jazyk, se projekt automaticky zobrazí v tomto jazyce. Ve výchozím nastavení je výchozím polem anglický jazyk, to lze změnit v podnabídce "Nastavení" projektu.
 
-#### Due date
+#### Datum ukončení
 
-If you have a date by which you wish your project to be completely mapped and validated you can add that here. This is optional and once the date is exceeded it does not change anything for the project and volunteers can continue contributing afterwards. Contributors will see the due date listed next to the project. 
+Pokud máte datum, ke kterému chcete mít projekt kompletně zmapovaný a ověřený, můžete ho sem přidat. Je to nepovinné a po překročení tohoto data se pro projekt nic nemění a dobrovolníci mohou i poté přispívat. Přispěvatelé uvidí datum termínu uvedené vedle projektu. 
 
-### Instructions
+### Pokyny
 
-![TM Instructions][]
+![TM pokyny][]
 
-#### Changeset comment
+#### Komentář k sadě změn
 
 Zde můžete přidat další sledovací značky, které se automaticky vyplní pokaždé, když někdo při mapování projektu uloží svou práci. Pokud například chcete začít sledovat všechny příspěvky napříč všemi projekty vaší organizace, můžete k nim přidat společný sledovací tag, např. #MSF nebo #cartONG. Snažte se, aby tyto značky byly **krátké** a nepřidávejte jich příliš mnoho, nepřehledné komentáře ke změnovým sadám jsou matoucí pro interpretaci a měl by být ponechán prostor pro mapovače, aby mohli zanechat popisné komentáře ke změnovým sadám. 
 
-> Please note that a unique project tracking tag will already be present, e.g. #hotosm-project-11188 - **please leave this as it is**, it is very important for tracking the progress of the project. The number at the end of the tag is your project's unique ID.
+> Vezměte prosím na vědomí, že jedinečný tag pro sledování projektu již bude přítomen, např. #hotosm-project-11188 - **prosím, ponechte jej tak, jak je**, je velmi důležitý pro sledování průběhu projektu. Číslo na konci tagu je jedinečné ID vašeho projektu.
 
 #### Podrobné pokyny
 
 Přidejte popisné pokyny pro mapovače a validátory, kterými se mohou řídit při práci na projektu. Váš projekt bude veřejný, proto **napište pokyny pro nezkušené uživatele** bez znalosti místních podmínek a souvislostí. Používejte srozumitelný jazyk, protože vaše cílové publikum nemusí být rodilí mluvčí angličtiny.
 
 1. Nejdůležitější informace napište na začátek, aby byly viditelné. Mohlo by se jednat o popis snímků a upozornění na problém s kompenzací snímků s návodem. Nebo by to mohl být pokyn pro mapovatele, aby v projektu mapování dálnic ignorovali cesty a koleje a zaměřili se na výraznější dálnice.
-2. Add context/location specific instructions. These vary significantly but will help mappers interpret satellite imagery. E.g. 'Expect to see many circular brown thatched huts in this South Sudan project' or 'Settlements in Guatemala are often densely built, zoom extremely far in when mapping each building to ensure they do not connect or overlap'. Drag and drop aerial imagery screenshots into the instructions here to enhance this section.
-3. Definitely include a detailed description of **how to map each feature** that you wish to be mapped. Look at existing (but recent) projects on Tasking Manager to see if you can borrow some existing instructional text (beware that some projects will not have good instructions!).
+2. Přidejte pokyny specifické pro daný kontext/místo. Ty se výrazně liší, ale pomohou mapovatelům interpretovat satelitní snímky. Např. "V tomto projektu v Jižním Súdánu očekávejte mnoho kruhových hnědých doškových chatrčí" nebo "Osady v Guatemale jsou často hustě zastavěné, při mapování jednotlivých budov si je extrémně přibližte, aby se ujistili, že na sebe nenavazují nebo se nepřekrývají". Přetáhněte snímky leteckých snímků do pokynů zde a vylepšete tak tuto část.
+3. Rozhodně připojte podrobný popis **způsobu mapování každého prvku**, který chcete zmapovat. Podívejte se na existující (ale nedávné) projekty v Tasking Manageru, zda si můžete vypůjčit nějaký existující návod (pozor, některé projekty nebudou mít dobré návody!).
 4. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related projects the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and may be worth linking to in your project's instructions. If your project must adhere to different tagging standards then write a similar page in the Wiki and link it in your instructions.
-5. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery. Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
+5. Další upřesnění: Pokud je projekt vhodný pouze pro mappery s určitou úrovní zkušeností. Projekt například používá importy nebo stávající data by měla být přepracována na GPS stopy nebo nějaké jiné snímky. Formulujte to tak, aby se noví mappeři cítili přizváni k přispívání do jiných projektů, ale aby pochopili, že v tomto případě jsou vyžadovány pokročilé techniky.
 6. Existují pokyny, které se týkají běžných chyb, s nimiž se při validaci setkáváme. Příkladem je kompilace Blakea Girardota o [mapování v západní Africe](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Použijte odkaz v pokynech a vysvětlete, že dodržování těchto pokynů je nutné.
 
 #### Podle pokynů k úloze
@@ -241,28 +241,28 @@ Je to nepovinné, ale je možné přidat krátký úryvek dodatečných pokynů,
 
 ![TM Metadata][]
 
-#### Mapper level
+#### Úroveň mapovače
 
-This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Beginner difficulty **can result in significant data quality issues**. 
+Tím se změní úroveň obtížnosti, která se **zobrazí** pro váš projekt. Zvažte to velmi pečlivě, složité projekty, které jsou nevhodně nastaveny na obtížnost Začátečník, **mohou mít za následek značné problémy s kvalitou dat**. 
 
-> Note that this does not change who can **actually contribute** to your project, those restrictions are implemented under the Permissions sub-menu.
+> Všimněte si, že to nemění, kdo může **skutečně přispívat** do vašeho projektu, tato omezení jsou implementována v podnabídce Oprávnění.
 
-Most projects are set to either **Beginner** or **Intermediate** difficulty, a handful of projects are set to Advanced. 
+Většina projektů je nastavena na obtížnost **začátečník** nebo **středně pokročilý**, několik projektů je nastaveno na obtížnost pokročilý. 
 
-- **Beginner** - Consider this if your project is easy to map and:
+- **Začátečník** - Zvažte tuto možnost, pokud je váš projekt snadno mapovatelný a:
   - Žádáte přispěvatele, aby zmapovali pouze jeden prvek, konkrétně **pouze budovy**.
   - The density of features is low, i.e. in a **rural** area
   - There is a **low quantity** of existing OSM data in your project area
   - Nejsou žádné problémy se zarovnáním snímků
 - **Intermediate** - If your project is trickier to map, this should be considered if:
-  - You are asking contributors to map more than one feature, e.g. buildings **and** roads
-  - There is a medium/high density of those features in your project area, i.e. **urban** areas
+  - Žádáte přispěvatele, aby mapovali více než jeden objekt, např. budovy **a** silnice.
+  - V oblasti vašeho projektu je střední/vysoká hustota těchto objektů, tj. **městské** oblasti.
   - V oblasti vašeho projektu existují **podstatná** data OSM.
   - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
-- **Advanced** - If the project is extremely difficult to map, consider this if: 
-  - There is a very high density features in your project area, i.e. **central urban** areas
+- **Pokročilý** - Pokud je projekt extrémně náročný na mapování, zvažte tuto možnost, pokud: 
+  - V oblasti vašeho projektu je velmi vysoká hustota obyvatel, tj. **centrální městské** oblasti.
   - There is a **lot of** existing OSM data in your project area
-  - There are **complex imagery alignment** issues
+  - Existují **složité problémy se zarovnáním snímků**.
 
 #### Types of mapping
 
@@ -324,61 +324,61 @@ Here you can choose who can **map** your project:
 
 - If your project is easy to contribute towards and you consider it a beginner project you might want set this to **'Any user'**.
 - If your project is more complex and requires more experience, restrict mapping to **'Only users with intermediate or advanced level'**. 
-- If you want to be even more selective then you may also require a mapper to be part of a **team**. Teams must then be defined below.
+- Pokud chcete být ještě vybíravější, můžete také požadovat, aby byl mapovač součástí **týmu**. Týmy pak musí být definovány níže.
 
-#### Validation permissions
+#### Oprávnění k validaci
 
-Here you can choose who can **validate** your project. Validation is where more experienced mappers check the contributions that are made within your project, therefore this should be restricted to 'Only users with intermediate or advanced level' **as a minimum**. **Ideally** you should restrict validation even further to **'Only team members'**, but when you do this you must remember to **define those teams** below. 
+Zde můžete zvolit, kdo může **ověřit** váš projekt. Při validaci zkušení mappeři kontrolují příspěvky, které jsou ve vašem projektu vloženy, proto by tato možnost měla být omezena minimálně na 'Pouze uživatelé se středně pokročilou nebo pokročilou úrovní' **jako minimum**. **V ideálním případě** byste měli ověřování omezit ještě více na **'Pouze členové týmu'**, ale když to uděláte, nesmíte zapomenout tyto týmy **definovat** níže. 
 
-#### Teams
+#### Týmy
 
-Use the filters to search for and add teams. You can add your own team(s), but please also feel free to add other teams. Once you have added a team ensure to select a role (Mapper, Validator, Project Manager). 
+Pomocí filtrů můžete vyhledávat a přidávat týmy. Můžete přidat svůj vlastní tým (týmy), ale neváhejte přidat i jiné týmy. Po přidání týmu nezapomeňte vybrat roli (mapovač, validátor, projektový manažer). 
 
-Team permissions will not function unless you have restricted Mapping and/or Validation permissions to 'Only team members'. If you grant a team Project Manager access this will allow its team members to edit the project.
+Oprávnění týmu nebudou fungovat, pokud jste neomezili oprávnění Mapování a/nebo Ověřování na "Pouze členové týmu". Pokud udělíte týmu přístup Správce projektu, umožní to jeho členům upravovat projekt.
 
-> On HOT's Tasking Manager feel free to add two of the larger validation teams, namely 'HOT Global Validators' and HOT's 'Validator Trainees'. Please note, that although this gives those team members **permission** to validate your project, it does **not necessarily mean** that they **will validate** your project.  
+> V Tasking Manageru HOT' si můžete přidat dva větší validační týmy, a to 'HOT Global Validators' a HOT's 'Validator Trainees'. Vezměte prosím na vědomí, že ačkoli to těmto členům týmu dává **oprávnění** validovat váš projekt, **nemusí to nutně znamenat**, že **budou validovat** váš projekt. 
 
-#### Privacy
+#### Soukromí
 
-Toggling to make a project 'Private' will hide the project from all users except those that are part of the teams defined above. 
+Přepnutím do režimu 'Soukromý' se projekt skryje všem uživatelům kromě těch, kteří jsou součástí výše definovaných týmů. 
 
-### Settings
+### Nastavení
 
-![TM Settings][]
+![TM Nastavení][]
 
-#### Default Language
+#### Výchozí jazyk
 
-Altering this will change the default language for your project's title, description and instructions.
+Změnou tohoto nastavení změníte výchozí jazyk názvu, popisu a pokynů projektu.
 
-#### Editors for mapping/validation
+#### Editoři pro mapování/validaci
 
-This restricts the available editors to those checked. You may specify different sets for mapping and for validation. Note that it is possible to enable the AI assisted RapiD editor here. 
+Tím se dostupné editory omezí na ty, které byly zaškrtnuty. Můžete zadat různé sady pro mapování a pro ověřování. Všimněte si, že je zde možné povolit editor RapiD s asistencí AI. 
 
-#### Enforce random task selection
+#### Vynutit náhodný výběr úlohy
 
-If enabled then contributors cannot select specific tasks for mapping.
+Pokud je tato možnost povolena, přispěvatelé nemohou vybrat konkrétní úlohy pro mapování.
 
-### Actions
+### Akce
 
-Here you can perform powerful bulk actions on your project. **Be careful** with many of these options, **they are not reversible**. 
+Zde můžete v projektu provádět výkonné hromadné akce. **U mnoha z těchto možností buďte opatrní**, **nejsou vratné**. 
 
-![TM Actions][]
+![TM Akce][]
 
-#### Message all contributors
+#### Zpráva všem přispěvatelům
 
-Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+Odešle zprávu Tasking Manageru všem, kteří označili úkol za splněný nebo platný. Lze ji použít k poděkování přispěvatelům a/nebo k jejich nasměrování na další projekty v kampani. Měla by být také použita před použitím jedné ze dvou níže popsaných možností Validovat/zneplatnit všechny úkoly.
 
-#### Mapping, validation and invalidation
+#### Mapování, validace a zneplatnění
 
-This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
+Tím se nastaví stav všech úloh na mapované, validované nebo zneplatněné. Zacházejte s nimi opatrně, protože je nelze vrátit zpět.
 
-#### Reset tasks
+#### Resetování úloh
 
-This will reset all tasks to their pristine state but previous actions can still be seen in the task history. Handle with care as there is no undo.
+Tím se všechny úlohy vrátí do původního stavu, ale předchozí akce lze stále zobrazit v historii úloh. Zacházejte s nimi opatrně, protože je nelze vrátit zpět.
 
-#### Transfer project ownership
+#### Převod vlastnictví projektu
 
-You can specify another manager within your organization who will become listed as the creator of the project. Search for their OSM username. 
+Můžete určit jiného manažera ve vaší organizaci, který bude uveden jako tvůrce projektu. Vyhledejte jeho uživatelské jméno OSM. 
 
 #### Clone Project
 
