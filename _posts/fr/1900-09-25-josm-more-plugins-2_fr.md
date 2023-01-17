@@ -149,20 +149,20 @@ Lorsque vous avez mis à jour les informations d'une ligne de la feuille de calc
 
 
 [Opendata]: /images/josm/opendata-plugin.png
-[Préférences Opendata]: /images/josm/opendata-preferences.png
-[Modules Opendata]: /images/josm/opendata-modules.png
+[Opendata preferences]: /images/josm/opendata-preferences.png
+[Opendata modules]: /images/josm/opendata-modules.png
 [latitude longitude]: /images/josm/opendata-latitude-longitude.png
-[latitude longitude corrigée]: /images/josm/opendata-latitude-longitude-corrected.png
+[latitude longitude corrected]: /images/josm/opendata-latitude-longitude-corrected.png
 [opendata 1]: /images/josm/opendata-1.png
-[opendata mixte]: /images/josm/opendata-mixed.png
+[opendata mixed]: /images/josm/opendata-mixed.png
 [opendata shop amenity]: /images/josm/opendata-shop-amenity.png
 [opendata toilets]: /images/josm/opendata-toilets.png
 [josm open]: /images/josm/josm_open-file.png
-[pop up opendata]: /images/josm/opendata-wgs84-popup.png
-[Tableur opendata chargé]: /images/josm/opendata-spreadsheet-loaded.png
-[5 sélectionnés]: /images/josm/opendata-5-selected.png
-[ajouter opendata todo]: /images/josm/opendata-todo-add.png
-[opendata todo chargé]: /images/josm/opendata-todo-loaded.png
+[opendata pop up]: /images/josm/opendata-wgs84-popup.png
+[opendata spreadsheet loaded]: /images/josm/opendata-spreadsheet-loaded.png
+[5 selected]: /images/josm/opendata-5-selected.png
+[opendata todo add]: /images/josm/opendata-todo-add.png
+[opendata todo loaded]: /images/josm/opendata-todo-loaded.png
 [download]: /images/josm/josm-download-button.png
 [download dialog]: /images/josm/josm_download-dialog.png
 [download new layer]: /images/josm/download-as-new-layer.png

@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Correction du décalage de l'imagerie
+title: Correction du décalage de l'imagerie
 permalink: /fr/josm/correcting-imagery-offset/
 lang: fr
-catégorie : josm
+category: josm
 ---
 
 Décalage de l'imagerie
@@ -32,7 +32,7 @@ Les meilleures références pour ajuster l'imagerie sont les pistes GPS qui suiv
 
 - Cliquez sur le bouton de téléchargement. ![JOSM download button][]{: height="24px"}  
 
-- Cochez la case à côté de "Raw GPS Data" ! [Download raw GPS data][]{ : height="24px"} en haut de la fenêtre de téléchargement. Sélectionnez votre zone et cliquez sur "Télécharger".  
+- Cochez la case à côté de "Raw GPS Data" ![Download raw GPS data][]{ : height="24px"} en haut de la fenêtre de téléchargement. Sélectionnez votre zone et cliquez sur "Télécharger".  
 
 - Cela permettra de télécharger une couche supplémentaire dans JOSM contenant les traces GPS. Selon le nombre de traces téléchargées par les utilisateurs d'OSM, vous pouvez voir peu de traces (ou même aucune trace) :  
 
@@ -42,7 +42,7 @@ Les meilleures références pour ajuster l'imagerie sont les pistes GPS qui suiv
 
 ![Many GPS tracks from OSM][]
 
-- Pour ajuster une couche d'imagerie, cliquez sur le bouton "Ajuster le décalage de l'imagerie" ! [bouton Ajuster le décalage de l'imagerie][]{ : height="24px"} en haut de JOSM.  
+- Pour ajuster une couche d'imagerie, cliquez sur le bouton "Ajuster le décalage de l'imagerie" ![Adjust imagery offset button][]{ : height="24px"} en haut de JOSM.  
 
 - Sans tenir compte de la boîte qui s'affiche, utilisez votre souris pour faire glisser la couche d'imagerie de manière à ce qu'elle s'aligne correctement avec les traces GPS. Les traces GPS doivent s'aligner le plus possible avec les routes sur l'imagerie. Vous verrez les numéros de décalage dans la boîte changer.  
 
@@ -56,7 +56,7 @@ Que faire s'il n'y a pas de traces GPS sur OpenStreetMap, et que vous n'avez pas
 Si vous pouvez identifier de manière positive la latitude et la longitude d'un objet au sol, vous pouvez vous assurer que l'imagerie est correctement placée en suivant les étapes suivantes :  
 
 1. Identifiez l'objet dont vous connaissez la position sur l'imagerie.  
-2. Cliquez sur la latitude et la longitude dans le coin inférieur gauche de JOSM ! [JOSM lat lon][]{ : height="24px"}  
+2. Cliquez sur la latitude et la longitude dans le coin inférieur gauche de JOSM ![JOSM lat lon][]{ : height="24px"}  
 3. Dans la boîte de dialogue qui s'ouvre, entrez la latitude et la longitude du lieu que vous connaissez, et entrez un petit nombre pour le Zoom, environ cinq ou dix.  
 ![JOSM lat lon dialogue][]
 4. Cette opération permet de zoomer et de centrer la carte sur votre longitude et votre latitude. Vous pouvez maintenant déplacer l'imagerie comme vous l'avez fait précédemment afin que l'élément que vous connaissez soit centré à la bonne position.  
@@ -73,7 +73,7 @@ Imaginez que vous êtes en train de cartographier une petite ville, et que vous 
 
 C'est pourquoi il est important que tous les utilisateurs soient conscients du décalage des images et qu'ils le vérifient toujours avant de cartographier une zone. Pour résoudre ce problème, des personnes intelligentes ont créé un plugin qui permet aux utilisateurs de sauvegarder les informations de décalage dans une base de données et de les partager avec d'autres. Voyons comment cela fonctionne :  
 
-- Ouvrez le menu Préférences dans JOSM, et cliquez sur l'onglet Plugins ! [onglet Plugins de JOSM][]{ : height="24px"}  
+- Ouvrez le menu Préférences dans JOSM, et cliquez sur l'onglet Plugins ![JOSM plugins tab][]{ : height="24px"}  
 
 - Trouvez le plugin nommé "imagery_offset_db" et cochez la case à côté.  
 

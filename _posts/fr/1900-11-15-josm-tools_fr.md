@@ -1,8 +1,8 @@
 ---
 layout: doc
-titre : Outils d'édition du JOSM
+title: Outils d'édition du JOSM
 permalink: /fr/josm/josm-tools/
-lang : fr
+lang: fr
 category: josm
 ---
 

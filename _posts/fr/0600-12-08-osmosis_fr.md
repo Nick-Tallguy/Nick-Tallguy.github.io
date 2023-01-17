@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Manipuler les données avec Osmosis
+title: Manipuler les données avec Osmosis
 permalink: /fr/osm-data/osmosis/
 lang: fr
-catégorie : osm-data
+category: osm-data
 ---
 
 Manipuler les données avec Osmosis

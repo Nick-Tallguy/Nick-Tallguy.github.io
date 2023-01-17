@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : JOSM - Création de préréglages personnalisés
+title: JOSM - Création de préréglages personnalisés
 permalink: /fr/josm/creating-presets/
 lang: fr
-catégorie : josm
+category: josm
 ---
 
 JOSM - Création de préréglages personnalisés

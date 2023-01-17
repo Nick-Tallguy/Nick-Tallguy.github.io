@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Obtenir des données OSM
+title: Obtenir des données OSM
 permalink: /fr/osm-data/getting-data/
 lang: fr
-catégorie : osm-data
+category: osm-data
 ---
 
 Obtenir des données OSM

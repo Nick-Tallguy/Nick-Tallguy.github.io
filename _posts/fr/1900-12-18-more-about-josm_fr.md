@@ -2,7 +2,7 @@
 layout: doc
 title: Éditer avec JOSM
 permalink: /fr/josm/more-about-josm/
-lang : fr
+lang: fr
 category: josm
 ---
 

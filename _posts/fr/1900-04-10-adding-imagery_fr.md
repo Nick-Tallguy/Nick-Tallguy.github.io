@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : JOSM ajoutant des images tms, wms ou wmts
+title: JOSM ajoutant des images tms, wms ou wmts
 permalink: /fr/josm/josm-adding-imagery/
 lang: fr
-catégorie : josm
+category: josm
 ---
 
 JOSM - Ajout d'images aériennes

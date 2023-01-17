@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : OruxMaps
+title: OruxMaps
 permalink: /fr/mobile-mapping/oruxmaps/
 lang: fr
-catégorie : cartographie mobile
+category: mobile-mapping
 ---
 
 OruxMaps

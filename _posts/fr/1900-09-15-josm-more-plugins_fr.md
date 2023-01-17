@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Outils de construction JOSM et plugins Utilsplugin2
+title: Outils de construction JOSM et plugins Utilsplugin2
 permalink: /fr/josm/josm-more-plugins/
 lang: fr
-catégorie : josm
+category: josm
 ---
 
 Outils de construction JOSM et plugins Utilsplugin2

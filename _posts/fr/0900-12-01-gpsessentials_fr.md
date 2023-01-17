@@ -1,8 +1,8 @@
 ---
 layout: doc
-titre : GPS Essentials
+title: GPS Essentials
 permalink: /fr/mobile-mapping/gpsessentials/
-lang : fr
+lang: fr
 category: mobile-mapping
 ---
 

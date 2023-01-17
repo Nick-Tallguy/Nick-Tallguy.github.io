@@ -1,9 +1,9 @@
 ---
 layout: doc
-titre : Relations JOSM
+title: Relations JOSM
 permalink: /fr/josm/josm-relations/
 lang: fr
-catégorie : josm
+category: josm
 ---
 
 Relations

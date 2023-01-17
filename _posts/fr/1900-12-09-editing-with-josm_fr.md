@@ -1,8 +1,8 @@
 ---
 layout: doc
-titre : Modifier les données de terrain
+title: Modifier les données de terrain
 permalink: /fr/josm/editing-with-josm/
-lang : fr
+lang: fr
 category: josm
 ---
 
@@ -121,5 +121,5 @@ Dans ce chapitre, nous avons examiné de plus près l'interface JOSM et nous avo
 [Layers activate]: /images/josm/josm_layers-panel-activate.png
 [GPS in JOSM]: /images/josm/josm_gps-layer.png
 [Properties panel]: /images/josm/josm_properties-panel.png
-[Erreur sur les nœuds] : /images/josm/josm_nodes-selected-mistake.png
+[Nodes mistake]: /images/josm/josm_nodes-selected-mistake.png
 [JOSM save button]: /images/josm/josm_save-button.png
