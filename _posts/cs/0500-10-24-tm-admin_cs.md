@@ -35,7 +35,7 @@ Rejstřík sekcí
     -  [Zveřejnění](/en/coordination/tm-admin/#publish)
 -  [Řízení projektů](/en/coordination/tm-admin/#project-management) 
     -  [Be responsive](/en/coordination/tm-admin/#be-responsive)
-    -  [Sequencing projects](/en/coordination/tm-admin/#sequencing-projects)
+    -  [Sekvenování projektů](/en/coordination/tm-admin/#sequencing-projects)
     -  [Životní cyklus projektu](/en/coordination/tm-admin/#project-lifecycle)
 -  [Další informace](/en/coordination/tm-admin/#additional-information)
     -  [Úvahy o zobrazování](/en/coordination/tm-admin/#considerations-concerning-imagery)
@@ -113,7 +113,7 @@ Po nastavení celkové velikosti úlohy můžete některé úlohy selektivně ro
 
 Úvahy při rozhodování o velikostech úloh:
 -  Úlohy lze rozdělit, ale po vytvoření projektu není možné je znovu spojit.
--  Once a project is created, splitting tasks is very time consuming and has to be done one task at a time.
+-  Po vytvoření projektu je rozdělení úkolů velmi časově náročné a musí se provádět po jednom úkolu.
 -  Na okrajích a v rozích úloh existuje větší potenciál pro konflikty mezi sousedními mapovači. Menší úlohy znamenají více rohů a hran. Existuje kompromis ve velikosti úlohy, aby byla pro mapovače snadná, ale aby mezi nimi nevznikaly konflikty při mapování.
 -  Malé úkoly se snáze mapují, ale více úkolů znamená, že mapovači musí strávit více času aktualizací stavu každého z nich, a projekty s příliš malými úkoly tak mohou být neefektivní.
 -  Začínající mappeři potřebují zhruba čtyřikrát delší dobu než zkušení mappeři.
@@ -157,7 +157,7 @@ Klikněte na tlačítko `Vytvořit`. Váš projekt bude vytvořen, ale nebude ok
 
 ## Upravit projekt
 
-You'll now see the 'Edit' menu of your project. Before the project can be saved, you'll need to go through the 'Edit' menu carefully to complete setup. Here is a quick summary of the sub-menus you will see on the left hand side:
+Nyní se zobrazí nabídka "Upravit" vašeho projektu. Před uložením projektu je třeba pečlivě projít nabídku 'Edit' a dokončit nastavení. Zde je stručný přehled dílčích nabídek, které uvidíte na levé straně:
 
 - Popis - Nastavte stav, prioritu a textový popis související s projektem.
 - Návod - Podrobný návod, jak zmapovat potřebné funkce a jak přistupovat k projektu.
@@ -169,7 +169,7 @@ You'll now see the 'Edit' menu of your project. Before the project can be saved,
 - Akce - Výkonné hromadné akce, které můžete provádět s projektem, například klonování nebo mazání.
 - Custom editor - Add a custom editor using a URL
 
-> Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
+> Pečlivé vyplnění těchto informací je nezbytnou součástí úspěšného mapovacího projektu. Zvláště důležité je, aby popis projektu a pokyny byly jasně sděleny, aby si mapovatelé byli vědomi důležitosti kvality dat a osvědčených postupů. Mějte na paměti, že přispěvatelé nemusí mít předchozí zkušenosti s OpenStreetMap a pravděpodobně nebudou znát pokyny pro označování.
 
 ### Popis
 
@@ -177,7 +177,7 @@ You'll now see the 'Edit' menu of your project. Before the project can be saved,
 
 #### Stav
 
-First is the project status. This can be set to either **Draft**, **Published**, or **Archived**.
+První je stav projektu. Ten může být nastaven na hodnotu **Návrh**, **Zveřejněno** nebo **Archivováno**.
 
 - **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
 - **Zveřejněno** - Když jste dokončili nastavení projektu, otestovali jej a jste rádi, že je veřejně uveden a otevřen pro mapování/ověřování.
@@ -198,7 +198,7 @@ Dále je to priorita projektu. Ta určuje, jak blízko přední části Správce
 
 #### Krátký popis
 
-Add at least two sentences that briefly describe your project. This is important because volunteers will read this to decide on whether to contribute. Try and clearly explain **why** the data is being collected and **how the map data will be used**. 
+Přidejte alespoň dvě věty, které stručně popisují váš projekt. Je to důležité, protože dobrovolníci si je přečtou, aby se rozhodli, zda chtějí přispět. Pokuste se jasně vysvětlit, **proč** se data sbírají a **jak budou data z mapy využita**. 
 
 > Tato pole podporují **Markdown** a mohou obsahovat obrázky (přetažením myší) a videa (přidáním adresy URL YouTube pro automatické vložení).
 
@@ -229,7 +229,7 @@ Přidejte popisné pokyny pro mapovače a validátory, kterými se mohou řídit
 1. Nejdůležitější informace napište na začátek, aby byly viditelné. Mohlo by se jednat o popis snímků a upozornění na problém s kompenzací snímků s návodem. Nebo by to mohl být pokyn pro mapovatele, aby v projektu mapování dálnic ignorovali cesty a koleje a zaměřili se na výraznější dálnice.
 2. Přidejte pokyny specifické pro daný kontext/místo. Ty se výrazně liší, ale pomohou mapovatelům interpretovat satelitní snímky. Např. "V tomto projektu v Jižním Súdánu očekávejte mnoho kruhových hnědých doškových chatrčí" nebo "Osady v Guatemale jsou často hustě zastavěné, při mapování jednotlivých budov si je extrémně přibližte, aby se ujistili, že na sebe nenavazují nebo se nepřekrývají". Přetáhněte snímky leteckých snímků do pokynů zde a vylepšete tak tuto část.
 3. Rozhodně připojte podrobný popis **způsobu mapování každého prvku**, který chcete zmapovat. Podívejte se na existující (ale nedávné) projekty v Tasking Manageru, zda si můžete vypůjčit nějaký existující návod (pozor, některé projekty nebudou mít dobré návody!).
-4. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related projects the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and may be worth linking to in your project's instructions. If your project must adhere to different tagging standards then write a similar page in the Wiki and link it in your instructions.
+4. Základním zdrojem informací o tagování je [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). Pro mnoho projektů souvisejících s HOT je vhodnou specializací stránka [Tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa), na kterou se vyplatí odkázat v pokynech k vašemu projektu. Pokud váš projekt musí dodržovat jiné standardy značení, napište podobnou stránku na Wiki a uveďte na ni odkaz v pokynech.
 5. Další upřesnění: Pokud je projekt vhodný pouze pro mappery s určitou úrovní zkušeností. Projekt například používá importy nebo stávající data by měla být přepracována na GPS stopy nebo nějaké jiné snímky. Formulujte to tak, aby se noví mappeři cítili přizváni k přispívání do jiných projektů, ale aby pochopili, že v tomto případě jsou vyžadovány pokročilé techniky.
 6. Existují pokyny, které se týkají běžných chyb, s nimiž se při validaci setkáváme. Příkladem je kompilace Blakea Girardota o [mapování v západní Africe](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Použijte odkaz v pokynech a vysvětlete, že dodržování těchto pokynů je nutné.
 
@@ -251,14 +251,14 @@ Většina projektů je nastavena na obtížnost **začátečník** nebo **střed
 
 - **Začátečník** - Zvažte tuto možnost, pokud je váš projekt snadno mapovatelný a:
   - Žádáte přispěvatele, aby zmapovali pouze jeden prvek, konkrétně **pouze budovy**.
-  - The density of features is low, i.e. in a **rural** area
-  - There is a **low quantity** of existing OSM data in your project area
+  - Hustota prvků je nízká, tj. ve **venkovské** oblasti.
+  - V oblasti vašeho projektu je **malé množství** existujících dat OSM.
   - Nejsou žádné problémy se zarovnáním snímků
-- **Intermediate** - If your project is trickier to map, this should be considered if:
+- **Mírně pokročilí** - Pokud je váš projekt složitější na mapování, měli byste tuto možnost zvážit, pokud:
   - Žádáte přispěvatele, aby mapovali více než jeden objekt, např. budovy **a** silnice.
   - V oblasti vašeho projektu je střední/vysoká hustota těchto objektů, tj. **městské** oblasti.
   - V oblasti vašeho projektu existují **podstatná** data OSM.
-  - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
+  - Mohou se vyskytnout **problémy se zarovnáním snímků** nebo požádáte přispěvatele o použití více než jednoho zdroje snímků.
 - **Pokročilý** - Pokud je projekt extrémně náročný na mapování, zvažte tuto možnost, pokud: 
   - V oblasti vašeho projektu je velmi vysoká hustota obyvatel, tj. **centrální městské** oblasti.
   - There is a **lot of** existing OSM data in your project area
@@ -268,7 +268,7 @@ Většina projektů je nastavena na obtížnost **začátečník** nebo **střed
 
 Toggle these on/off depending on the features that you wish to be mapped in your project. Generally the **fewer features the better**, as projects which aim to map too many features often struggle to make much progress. 
 
-> Projects that ask for lots of features to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and highways/waterways mapped separately is best practice. 
+> Projekty, které vyžadují mapování velkého množství prvků, jsou pro mapovače obtížné a obtížně se ověřují. Trvá mnohem déle, než získáte dobře použitelnou sadu dat. Velikost úloh je také obtížné zefektivnit pro různé typy mapování, např. budovy potřebují malé čtverce úloh, silnice a vodní toky potřebují větší čtverce úloh. Nejlepším postupem je vytvořit více projektů na stejném území, aby se budovy a dálnice/vodní cesty mapovaly odděleně. 
 
 #### Předvolby iD Editoru
 
@@ -288,37 +288,37 @@ Select the themes here that relate to your project. Contributors can specify the
 
 #### OSMCha filter ID
 
-[OSMCha](https://osmcha.org/) is a powerful data quality assurance tool that you may find useful for monitoring contributions to your project. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here. The OSMCha filter is available at the end of the overview page of your project. 
+[OSMCha](https://osmcha.org/) je výkonný nástroj pro zajištění kvality dat, který se vám může hodit při sledování příspěvků do vašeho projektu. Standardní filtr omezuje výstup na ohraničení projektu a na příspěvky, které nejsou starší než datum vytvoření projektu a mají v komentáři ke změnám název projektu. Pokud si myslíte, že by pro analýzu sad změn vašeho projektu bylo vhodnější něco jiného, pak zde uveďte buď adresu URL OSMCha, nebo id filtru OSMCha. Filtr OSMCha je k dispozici na konci stránky s přehledem vašeho projektu. 
 
 ### Priority Areas
 
 ![TM Priority Area][]
 
-Use the tools here to draw areas that should be mapped first. You can have multiple priority areas for a project. You can also change priority areas at any time. The priority area will be highlighted for volunteers to prioritize and if they select 'Map a task' it will randomly select a task from the priority area first. 
+Pomocí nástrojů zde nakreslete oblasti, které by měly být zmapovány jako první. Pro projekt můžete mít více prioritních oblastí. Prioritní oblasti můžete také kdykoli změnit. Prioritní oblast se dobrovolníkům zvýrazní a pokud vyberou možnost "Zmapovat úkol", vybere se náhodně úkol z prioritní oblasti jako první. 
 
-> During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is often best practice.
+> Při mapování katastrof na počátku události je často nejlepším postupem mít k dispozici velkou projektovou mapovací oblast a používat prioritní oblasti pro zaměření mapování podle toho, jak přicházejí nové informace.
 
 ### Imagery
 
-From the dropdown menu choose the aerial imagery source that you want to load automatically for your project. If the imagery is not listed in the dropdown you can choose 'Custom' and then add a TMS URL. 
+V rozbalovací nabídce vyberte zdroj leteckých snímků, který chcete pro svůj projekt automaticky načíst. Pokud snímky nejsou v rozevírací nabídce uvedeny, můžete zvolit možnost "Vlastní" a poté přidat adresu URL TMS. 
 
-> Note that Tasking Manager **cannot host custom imagery**, it needs to be hosted externally and linked using a TMS URL. If you are happy with your imagery being open for use please consider using [OpenAerialMap](https://openaerialmap.org/) to host your imagery.
+> Všimněte si, že Tasking Manager **nemůže hostovat vlastní snímky**, musí být hostovány externě a propojeny pomocí adresy URL TMS. Pokud jste spokojeni s tím, že vaše snímky jsou otevřené k použití, zvažte prosím použití [OpenAerialMap](https://openaerialmap.org/) pro hostování vašich snímků.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. For example, for Maxar imagery this is 'DigitalGlobe Satellite EULA'. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licence - Pokud je pro mapovače vyžadována specifická licence, kterou musí při používání snímků akceptovat, můžete ji zde vybrat. Například pro snímky Maxar je to "DigitalGlobe Satellite EULA". Pokud potřebujete licenci, která není k dispozici, můžete kontaktovat správce instalace Tasking Manageru a požádat ho o její přidání.
 
-### Permissions
+### Oprávnění
 
-Under the 'Metadata' menu we could change the difficulty level that was **displayed** for a project. Under the 'Permissions' menu we can change who can actually **access** a project. It's important to remind ourselves of the various user levels:
+V nabídce "Metadata" jsme mohli změnit úroveň obtížnosti, která se u projektu **zobrazuje**. V nabídce "Oprávnění" můžeme změnit, kdo má k projektu **přístup**. Je důležité si připomenout různé úrovně uživatelů:
 
-- **Beginner** User - Any user that has either just created their account or made **less than 250 changesets** (saves)
-- **Intermediate** User - Any user that has made between **250 and 500 changesets**
-- **Advanced** User - Any user that has made **over 500 changesets**
+- **Začátečník** Uživatel - Každý uživatel, který si právě vytvořil účet nebo provedl **méně než 250 sad změn** (uložení).
+- **Středně pokročilý** uživatel - jakýkoli uživatel, který provedl mezi **250 a 500 změnami**.
+- **Pokročilý** uživatel - Každý uživatel, který provedl **více než 500 sad změn**
 
-> As before, consider permissions very carefully, complex projects which inappropriately allow all users to contribute can result in **significant data quality issues**. 
+> Stejně jako dříve velmi pečlivě zvažte oprávnění, komplexní projekty, které nevhodně umožňují všem uživatelům přispívat, mohou vést k **závažným problémům s kvalitou dat**. 
 
 ![TM Permissions][]
 
-#### Mapping permissions
+#### Oprávnění k mapování
 
 Here you can choose who can **map** your project:
 
