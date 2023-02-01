@@ -1,13 +1,13 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+permalink: /zh_TW/coordination/tm-disambiguation/
+lang: zh_TW
+title: 任務管理器版本
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
+任務管理器版本
 ============
 
 This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
