@@ -62,7 +62,7 @@ Manažeři organizace mohou vytvářet **týmy**. Týmy jsou skupiny uživatelů
 
 Pro každý projekt mohou správci přiřadit konkrétní týmy, kterým mohou udělit nebo omezit přístup k mapování, definovat, kdo může ověřovat data nebo kdo jiný může upravovat metadata projektu.
 
-## Create a project
+## Vytvořit projekt
 
 V navigaci nahoře klikněte na `Správa`, v prvním řádku uvidíte místo pro 'Projekty'. Vedle něj klikněte na tlačítko `Přidat` a jeden z nich vytvořte.
 
@@ -70,17 +70,17 @@ V navigaci nahoře klikněte na `Správa`, v prvním řádku uvidíte místo pro
 
 Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vašeho mapovacího projektu buď pomocí:
 
-* Option 1: `Draw` the area of interest manually
+* Možnost 1: `Nakreslete` oblast zájmu ručně
 * Možnost 2: `Nahrát soubor` pro import oblasti zájmu jako GeoJSON, KML nebo zazipovaný shapefile.
 
 ![TM Nový][]
 
 ### Define mapping area
 
-* Option 1: `Draw` the area of interest manually
+* Možnost 1: `Nakreslete` oblast zájmu ručně
 
 1. Pomocí tlačítek v horní části můžete přepínat na jiné vrstvy pozadí. 
-1. Click the `Draw` button on the left.
+1. Klikněte na tlačítko `Kreslení` vlevo.
 2. Chcete-li nakreslit polygon představující oblast mapování v rámečku mapy, podržte pravé tlačítko myši a přesuňte mapu bez kliknutí, čímž přidáte uzel. Polygon by měl těsně rámovat oblast zájmu. Tím ušetříte čas při vyplňování dlaždic, které nejsou předmětem zájmu (např. oceán, les).
 3. Kliknutím na výchozí bod dokončete polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
 
@@ -162,7 +162,7 @@ Nyní se zobrazí nabídka "Upravit" vašeho projektu. Před uložením projektu
 - Popis - Nastavte stav, prioritu a textový popis související s projektem.
 - Návod - Podrobný návod, jak zmapovat potřebné funkce a jak přistupovat k projektu.
 - Metadata - Definujte prvky, které je třeba mapovat. Zahrnuje také informace používané pro kategorizaci projektů, které se používají při filtrování projektů.
-- Priority Areas - Allows you to specify parts within the project area that should be mapped first.
+- Prioritní oblasti - umožňuje určit části v oblasti projektu, které by měly být mapovány jako první.
 - Snímky - Vyberte snímky, které se ve výchozím nastavení načtou, když dobrovolníci mapují váš projekt. 
 - Oprávnění - umožňuje omezit přístup k projektu pro mapování a ověřování.
 - Nastavení - zapnutí/vypnutí alternativních editorů, například RapiD.
@@ -179,10 +179,10 @@ Nyní se zobrazí nabídka "Upravit" vašeho projektu. Před uložením projektu
 
 První je stav projektu. Ten může být nastaven na hodnotu **Návrh**, **Zveřejněno** nebo **Archivováno**.
 
-- **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
+- **Draft** - Váš projekt se spustí v režimu návrhu. V tomto režimu nebude možné jej objevit a veřejnost do něj nebude moci přispívat. Tento režim je ideální v době, kdy svůj projekt teprve nastavujete a testujete před vydáním.
 - **Zveřejněno** - Když jste dokončili nastavení projektu, otestovali jej a jste rádi, že je veřejně uveden a otevřen pro mapování/ověřování.
 - **Archived** - All projects should end up being archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
-  - It is 100% mapped and validated
+  - Je 100% zmapován a ověřen
   - Pokyny nebo vyobrazení jsou značně zastaralé.
   - Projekt byl vytvořen před více než rokem
   - Mapové podklady již nejsou pro humanitární účely v oblasti projektu potřeba.
@@ -202,7 +202,7 @@ Přidejte alespoň dvě věty, které stručně popisují váš projekt. Je to d
 
 > Tato pole podporují **Markdown** a mohou obsahovat obrázky (přetažením myší) a videa (přidáním adresy URL YouTube pro automatické vložení).
 
-#### 'Long' Description
+#### 'Dlouhý' Popis
 
 Zde můžete svůj projekt popsat podrobněji. Uveďte více informací o tom, proč projekt existuje, kdo bude data používat a jaký očekávaný dopad bude mapování mít. Pokud projekt zahrnuje nějakou spolupráci nebo partnery, můžete to zde rozvést. 
 
@@ -261,12 +261,12 @@ Většina projektů je nastavena na obtížnost **začátečník** nebo **střed
   - Mohou se vyskytnout **problémy se zarovnáním snímků** nebo požádáte přispěvatele o použití více než jednoho zdroje snímků.
 - **Pokročilý** - Pokud je projekt extrémně náročný na mapování, zvažte tuto možnost, pokud: 
   - V oblasti vašeho projektu je velmi vysoká hustota obyvatel, tj. **centrální městské** oblasti.
-  - There is a **lot of** existing OSM data in your project area
+  - V oblasti vašeho projektu je **mnoho** existujících dat OSM.
   - Existují **složité problémy se zarovnáním snímků**.
 
 #### Types of mapping
 
-Toggle these on/off depending on the features that you wish to be mapped in your project. Generally the **fewer features the better**, as projects which aim to map too many features often struggle to make much progress. 
+Přepínejte je podle toho, které funkce chcete v projektu mapovat. Obecně platí, že **čím méně funkcí, tím lépe**, protože projekty, které se snaží mapovat příliš mnoho objektů, mají často potíže dosáhnout většího pokroku.
 
 > Projekty, které vyžadují mapování velkého množství prvků, jsou pro mapovače obtížné a obtížně se ověřují. Trvá mnohem déle, než získáte dobře použitelnou sadu dat. Velikost úloh je také obtížné zefektivnit pro různé typy mapování, např. budovy potřebují malé čtverce úloh, silnice a vodní toky potřebují větší čtverce úloh. Nejlepším postupem je vytvořit více projektů na stejném území, aby se budovy a dálnice/vodní cesty mapovaly odděleně. 
 
@@ -384,7 +384,7 @@ Můžete určit jiného manažera ve vaší organizaci, který bude uveden jako 
 
 This useful option will create a duplicate of the project, keeping the entire **setup identical** except for the area of interest, task grid and priority areas which you will need to re-import or re-draw. This option will **save you a lot of time** if you are creating a series of similar projects that are covering a large area. 
 
-#### Delete Project
+#### Smazání projektu
 
 This will **permanently delete** the project from the Tasking Manager. Handle with care as there is no undo. It is not possible to delete a project after any contributions have been made to it.
 
@@ -392,47 +392,47 @@ This will **permanently delete** the project from the Tasking Manager. Handle wi
 
 If you would like to link to an editor which is not listed in the 'Settings' menu a URL to that editor can be added here. 
 
-### Save and test
+### Uložit a vyzkoušet
 
-Once you are happy with your project setup press `Save`. View your project by selecting `Access Project` and `Project Page`. **Check your project carefully**, ensure the instructions are clear and the wording and formatting are correct. 
+Jakmile jste s nastavením projektu spokojeni, stiskněte tlačítko `Uložit`. Zobrazte svůj projekt výběrem `Přístup k projektu` a `Stránka projektu`. **Důkladně zkontrolujte svůj projekt**, ujistěte se, že jsou pokyny jasné a formulace a formátování správné.
 
-**Try mapping a task**, is the imagery loading correctly? Are the instructions clear enough? If you need to make changes or refinements to your project, click the `Edit` button on the project page. 
+**Zkuste zmapovat úlohu**, načítají se snímky správně? Jsou pokyny dostatečně jasné? Pokud potřebujete v projektu provést změny nebo upřesnění, klikněte na stránce projektu na tlačítko `Upravit`.
 
 ### Publish
 
 After checking and testing your project, if you are happy with it and ready for mapping to start click the `Edit` button on the project page and from the 'Description' menu change the status to ‘Published’. Once the project is published, the wider public will be able to see your project and contribute towards it. 
 
-> Note that you can access the 'Edit' menu of your project and alter the settings at any time, even if mapping is underway.
+> Všimněte si, že můžete kdykoli vstoupit do nabídky "Upravit" projektu a změnit nastavení, i když probíhá mapování.
 
-## Project management
+## Řízení projektu
 
-Congratulations! You've created a project, now you'll need to make sure you manage it effectively. 
+Gratulujeme! Vytvořili jste projekt a nyní se musíte postarat o jeho efektivní řízení.
 
-### Be responsive
+### Buďte vstřícní
 
-As the project creator, you are **responsible** for **responding to questions** that arise in the **Questions and Comments** section of your project page. This section will often include useful guidance or tips from the wider community, take these seriously, respond and make edits to your projects where necessary. 
+Jako tvůrce projektu jste **zodpovědní** za **odpovědi na otázky**, které se objeví v části **Dotazů a komentářů** na stránce projektu. Tato sekce často obsahuje užitečné pokyny nebo tipy od širší komunity, berte je vážně, reagujte na ně a v případě potřeby proveďte úpravy svých projektů.
 
-> To enable notifications when there are new posts in the Questions and Comments section, click on your OSM username in Tasking Manager and choose `Settings`. Toggle notifications on for 'Questions and comments'.
+> Chcete-li povolit upozornění na nové příspěvky v sekci Otázky a komentáře, klikněte v Tasking Manageru na své uživatelské jméno OSM a zvolte `Nastavení`. Zapněte upozornění pro 'Otázky a komentáře'.
 
 On the project page your username will also be listed next to 'created by ...'. This means that you may also receive direct OSM messages, make sure to read and respond to these. 
 
-> If you are being overwhelmed by questions please note that you will receive less if you follow this guidance: _The first thing you can do to support the mappers, and validators, is having well designed projects with easy to understand but thorough instructions and descriptions._
+> Pokud jste zahlceni dotazy, mějte na paměti, že jich obdržíte méně, pokud se budete řídit tímto návodem: _První věc, kterou můžete udělat pro podporu mapovačů a validátorů, je mít dobře navržené projekty se snadno pochopitelnými, ale důkladnými pokyny a popisy._
 
-### Sequencing projects
+### Sekvenování projektů
 
 If you have created a number of projects in a series **do not publish them all at once**. You are not the only one creating projects, having a reasonable number of projects (one or two) at the appropriate priority is fine. Publishing half-a-dozen at once will crowd out the Tasking Manager. Keep the rest in draft or at lower priority while at any moment only one or two are being worked on. You may notice that contributors lose enthusiasm if they see lots of similar projects all at once that are making little progress.
 
-### Project lifecycle
+### Životní cyklus projektu
 
-Keep track of the mapping and validation progress of your projects. Remember that **all projects must end up being archived**. You will need to do this manually, so do not lose sight of the progress, priority or relevance of your projects. If you are moving to another organization make sure to **hand over** your ongoing projects to your replacement. 
+Sledujte průběh mapování a ověřování projektů. Nezapomeňte, že **všechny projekty musí být nakonec archivovány**. Budete to muset provést ručně, proto neztrácejte přehled o průběhu, prioritě a významu svých projektů. Pokud přecházíte do jiné organizace, nezapomeňte **předat** probíhající projekty svému nástupci.
 
-## Additional information
+## Další informace
 
-### Considerations concerning imagery
+### Úvahy týkající se zobrazování
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Maxar or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Před vytvořením projektu zkontrolujte snímky na několika různých místech v oblasti projektu a proveďte posouzení snímků. Ve většině případů by vašim potřebám měly vyhovovat snímky Maxar nebo Bing. Existují však situace, kdy budete chtít zvolit alternativní zdroj. Při výběru snímků budete možná muset vzít v úvahu následující skutečnosti:
 
-1. If careful, detailed mapping is needed choose the imagery that is clearest, with the highest resolution.
+1. Pokud je třeba pečlivě a podrobně mapovat, vyberte si snímky, které jsou nejjasnější a mají nejvyšší rozlišení.
 2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery. Recently Maxar has been the most up-to-date but this varies by location. 
 3. Check for cloud cover, although one imagery source may suit your needs if it is very cloudy or hazy your mappers will struggle to map using it.
 4. Check for alignment, if there is plenty of existing OSM data that aligns to one set of satellite imagery then it may make sense to choose the same imagery. If there are alignment issues make sure to write clear instructions detailing how you expect contributors to deal with offsets/alignment issues. 
