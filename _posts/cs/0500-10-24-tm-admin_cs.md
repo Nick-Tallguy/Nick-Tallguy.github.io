@@ -29,7 +29,7 @@ Rejstřík sekcí
     -  [Zobrazení - základ pro mapování](/en/coordination/tm-admin/#imagery)
     -  [Oprávnění - kdo smí mapovat a ověřovat](/en/coordination/tm-admin/#permissions)
     -  [Nastavení](/en/coordination/tm-admin/#settings)
-    -  [Actions](/en/coordination/tm-admin/#actions)
+    -  [Akce](/en/coordination/tm-admin/#actions)
     -  [Vlastní editor](/en/coordination/tm-admin/#custom-editor)
     -  [Uložit a otestovat](/en/coordination/tm-admin/#save-and-test)
     -  [Zveřejnění](/en/coordination/tm-admin/#publish)
@@ -151,7 +151,7 @@ Název projektu je jedním z jeho nejdůležitějších aspektů, pokud jde o to
 
 Ensure your organization is selected under the 'Organization' field. 
 
-> Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
+> Před dokončením této fáze se ujistěte, že jste spokojeni s oblastí zájmu projektu a celkovým počtem úkolů, tyto prvky nelze později upravit.
 
 Klikněte na tlačítko `Vytvořit`. Váš projekt bude vytvořen, ale nebude okamžitě publikován - nejprve budete přesměrováni do nabídky Úpravy projektu. 
 
@@ -298,7 +298,7 @@ Pomocí nástrojů zde nakreslete oblasti, které by měly být zmapovány jako 
 
 > Při mapování katastrof na počátku události je často nejlepším postupem mít k dispozici velkou projektovou mapovací oblast a používat prioritní oblasti pro zaměření mapování podle toho, jak přicházejí nové informace.
 
-### Imagery
+### Snímky
 
 V rozbalovací nabídce vyberte zdroj leteckých snímků, který chcete pro svůj projekt automaticky načíst. Pokud snímky nejsou v rozevírací nabídce uvedeny, můžete zvolit možnost "Vlastní" a poté přidat adresu URL TMS. 
 
@@ -320,10 +320,10 @@ V nabídce "Metadata" jsme mohli změnit úroveň obtížnosti, která se u proj
 
 #### Oprávnění k mapování
 
-Here you can choose who can **map** your project:
+Zde můžete zvolit, kdo může **mapovat** váš projekt:
 
-- If your project is easy to contribute towards and you consider it a beginner project you might want set this to **'Any user'**.
-- If your project is more complex and requires more experience, restrict mapping to **'Only users with intermediate or advanced level'**. 
+- Pokud je váš projekt snadný na přispívání a považujete ho za projekt pro začátečníky, možná budete chtít nastavit tuto hodnotu na **'Libovolný uživatel'**.
+- Pokud je váš projekt složitější a vyžaduje více zkušeností, omezte mapování na **'Pouze uživatelé se středně pokročilou nebo pokročilou úrovní'**.
 - Pokud chcete být ještě vybíravější, můžete také požadovat, aby byl mapovač součástí **týmu**. Týmy pak musí být definovány níže.
 
 #### Oprávnění k validaci
@@ -380,17 +380,17 @@ Tím se všechny úlohy vrátí do původního stavu, ale předchozí akce lze s
 
 Můžete určit jiného manažera ve vaší organizaci, který bude uveden jako tvůrce projektu. Vyhledejte jeho uživatelské jméno OSM. 
 
-#### Clone Project
+#### Klonování projektu
 
-This useful option will create a duplicate of the project, keeping the entire **setup identical** except for the area of interest, task grid and priority areas which you will need to re-import or re-draw. This option will **save you a lot of time** if you are creating a series of similar projects that are covering a large area. 
+Tato užitečná možnost vytvoří duplikát projektu, přičemž celé **nastavení zůstane identické** s výjimkou zájmové oblasti, mřížky úkolů a prioritních oblastí, které bude nutné znovu importovat nebo nakreslit. Tato volba vám **ušetří spoustu času**, pokud vytváříte řadu podobných projektů, které pokrývají velkou oblast.
 
 #### Smazání projektu
 
-This will **permanently delete** the project from the Tasking Manager. Handle with care as there is no undo. It is not possible to delete a project after any contributions have been made to it.
+Tím se projekt **trvale odstraní** z Tasking Manageru. Zacházejte s ním opatrně, protože jej nelze vrátit zpět. Projekt není možné odstranit poté, co do něj byly vloženy jakékoli příspěvky.
 
-### Custom editor
+### Vlastní editor
 
-If you would like to link to an editor which is not listed in the 'Settings' menu a URL to that editor can be added here. 
+Pokud chcete odkázat na editor, který není uveden v nabídce "Nastavení", můžete zde přidat adresu URL na tento editor.
 
 ### Uložit a vyzkoušet
 
@@ -398,9 +398,9 @@ Jakmile jste s nastavením projektu spokojeni, stiskněte tlačítko `Uložit`. 
 
 **Zkuste zmapovat úlohu**, načítají se snímky správně? Jsou pokyny dostatečně jasné? Pokud potřebujete v projektu provést změny nebo upřesnění, klikněte na stránce projektu na tlačítko `Upravit`.
 
-### Publish
+### Zveřejnění
 
-After checking and testing your project, if you are happy with it and ready for mapping to start click the `Edit` button on the project page and from the 'Description' menu change the status to ‘Published’. Once the project is published, the wider public will be able to see your project and contribute towards it. 
+Pokud jste s projektem spokojeni a jste připraveni zahájit mapování, klikněte po kontrole a otestování na stránce projektu na tlačítko `Upravit` a v nabídce 'Popis' změňte stav na 'Zveřejněno'. Jakmile bude projekt zveřejněn, širší veřejnost bude moci váš projekt vidět a přispívat na něj.
 
 > Všimněte si, že můžete kdykoli vstoupit do nabídky "Upravit" projektu a změnit nastavení, i když probíhá mapování.
 
@@ -414,13 +414,13 @@ Jako tvůrce projektu jste **zodpovědní** za **odpovědi na otázky**, které 
 
 > Chcete-li povolit upozornění na nové příspěvky v sekci Otázky a komentáře, klikněte v Tasking Manageru na své uživatelské jméno OSM a zvolte `Nastavení`. Zapněte upozornění pro 'Otázky a komentáře'.
 
-On the project page your username will also be listed next to 'created by ...'. This means that you may also receive direct OSM messages, make sure to read and respond to these. 
+Na stránce projektu bude vedle položky "created by ..." uvedeno také vaše uživatelské jméno. To znamená, že můžete dostávat také přímé zprávy OSM, nezapomeňte si je přečíst a odpovědět na ně.
 
 > Pokud jste zahlceni dotazy, mějte na paměti, že jich obdržíte méně, pokud se budete řídit tímto návodem: _První věc, kterou můžete udělat pro podporu mapovačů a validátorů, je mít dobře navržené projekty se snadno pochopitelnými, ale důkladnými pokyny a popisy._
 
 ### Sekvenování projektů
 
-If you have created a number of projects in a series **do not publish them all at once**. You are not the only one creating projects, having a reasonable number of projects (one or two) at the appropriate priority is fine. Publishing half-a-dozen at once will crowd out the Tasking Manager. Keep the rest in draft or at lower priority while at any moment only one or two are being worked on. You may notice that contributors lose enthusiasm if they see lots of similar projects all at once that are making little progress.
+Pokud jste vytvořili několik projektů v sérii, **nezveřejňujte je všechny najednou**. Nejste jediní, kdo vytváří projekty, mít přiměřený počet projektů (jeden nebo dva) s odpovídající prioritou je v pořádku. Publikování půl tuctu projektů najednou zahltí Tasking Manager. Zbytek nechte v návrhu nebo s nižší prioritou, zatímco v každém okamžiku pracujete pouze na jednom nebo dvou. Můžete si všimnout, že přispěvatelé ztratí nadšení, pokud uvidí najednou spoustu podobných projektů, u kterých je jen malý pokrok.
 
 ### Životní cyklus projektu
 
@@ -433,49 +433,49 @@ Sledujte průběh mapování a ověřování projektů. Nezapomeňte, že **vše
 Před vytvořením projektu zkontrolujte snímky na několika různých místech v oblasti projektu a proveďte posouzení snímků. Ve většině případů by vašim potřebám měly vyhovovat snímky Maxar nebo Bing. Existují však situace, kdy budete chtít zvolit alternativní zdroj. Při výběru snímků budete možná muset vzít v úvahu následující skutečnosti:
 
 1. Pokud je třeba pečlivě a podrobně mapovat, vyberte si snímky, které jsou nejjasnější a mají nejvyšší rozlišení.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery. Recently Maxar has been the most up-to-date but this varies by location. 
-3. Check for cloud cover, although one imagery source may suit your needs if it is very cloudy or hazy your mappers will struggle to map using it.
-4. Check for alignment, if there is plenty of existing OSM data that aligns to one set of satellite imagery then it may make sense to choose the same imagery. If there are alignment issues make sure to write clear instructions detailing how you expect contributors to deal with offsets/alignment issues. 
+2. Pokud je vaší prioritou mít k dispozici co nejaktuálnější snímky, přepínejte mezi standardními zdroji snímků a hledejte nejnovější snímky. Hledejte náznaky vývoje, jako jsou nové budovy nebo vyklizení pozemků, abyste získali představu o nejaktuálnějších snímcích. V poslední době jsou nejaktuálnější snímky Maxar, ale liší se podle místa. 
+3. Zkontrolujte oblačnost, ačkoli jeden zdroj snímků může vyhovovat vašim potřebám, pokud je velmi zataženo nebo mlhavo, mapovači budou mít s jeho použitím problémy.
+4. Zkontrolujte zarovnání, pokud existuje dostatek existujících dat OSM, která se shodují s jednou sadou satelitních snímků, může mít smysl vybrat stejné snímky. Pokud existují problémy se zarovnáním, nezapomeňte napsat jasné pokyny, v nichž bude podrobně popsáno, jak se mají přispěvatelé vypořádat s posunem nebo problémy se zarovnáním.
 
-> It is often very difficult to get an exact imagery capture date from the satellite imagery providers. The main sources are 'mosaics' where a series of images (often with very different capture dates) are stitched together. Sometimes this stitching goes down to the individual pixel level. In the absence of information, using imagery comparison is therefore often the best choice for finding the most recent imagery. 
+> Od poskytovatelů satelitních snímků je často velmi obtížné získat přesné datum pořízení snímků. Hlavním zdrojem jsou "mozaiky", kdy je řada snímků (často s velmi odlišným datem pořízení) spojena dohromady. Někdy se toto sešití dostane až na úroveň jednotlivých pixelů. Při nedostatku informací je proto často nejlepší volbou pro vyhledání nejnovějších snímků použití porovnání snímků.
 
-#### Imagery alignment
+#### Zarovnání snímků
 
-Your project area may have already been partially mapped using older imagery and there might be a noticeable mis-alignment between the older mapped objects and the newer available imagery. Inspect various locations across your mapping area to determine this. If there is an alignment issue, make sure to include detailed instructions outlining the best approach for mappers to take. Projects with imagery alignment issues are best restricted to more experienced mappers. 
+Oblast vašeho projektu již mohla být částečně zmapována pomocí starších snímků a mezi staršími zmapovanými objekty a novějšími dostupnými snímky může být patrná nesrovnalost. Zkontrolujte různá místa ve vaší mapované oblasti, abyste to zjistili. Pokud se vyskytne problém se zarovnáním, nezapomeňte přiložit podrobné pokyny, které mapovatelům nastíní nejlepší postup. Projekty s problémy se zarovnáním snímků je nejlépe svěřit zkušenějším mapovatelům.
 
-There is not a standard set of instructions when it comes to imagery alignment issues. It is very dependent on context. Sometimes mappers are instructed to align to GPS traces, sometimes they are told to align to mapped linear features such as highways and waterways. Here is a sample approach: 
+Pro otázky zarovnání snímků neexistuje standardní soubor pokynů. Velmi záleží na kontextu. Někdy jsou mapovatelé instruováni, aby zarovnávali podle stop GPS, jindy je jim řečeno, aby zarovnávali podle zmapovaných liniových prvků, jako jsou dálnice a vodní cesty. Zde je ukázkový přístup:
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Maxar.
-2. Make sure that all existing features which are also visible on Maxar are aligned with Maxar imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned Maxar imagery.
+1. Jasně uveďte, které snímky mají být považovány za odkaz, k němuž by měly být všechny ostatní přirovnány. V tomto případě předpokládejme, že referencí je Maxar.
+2. Ujistěte se, že všechny stávající prvky, které jsou viditelné i na snímcích Maxaru, jsou zarovnány se snímky Maxaru, tj. v případě potřeby je zarovnejte.
+3. Přidání nových prvků z nyní správně zarovnaných snímků Maxar.
 
-Often mappers are instructed to look for _least effort_ when it comes to imagery alignment issues. Which means that contributors are told to vary their approach depending on the situation in their individual task: 
+Často jsou mapovači instruováni, aby hledali _nejmenší úsilí_, pokud jde o problémy se zarovnáním snímků. Což znamená, že přispěvatelé mají měnit svůj přístup v závislosti na situaci v jednotlivých úlohách:
 
-- If there is plenty of existing mapping in a task which is consistently misaligned it might require the least effort to change the imagery offset to fit existing mapping and then map the small number of remaining objects in the task. 
-- If there is less existing mapping, or objects are misaligned inconsistently (i.e. the degree of misalignment varies across space) then it might be easier to alter the position of the mapped objects to align with the imagery and then map remaining objects in the task.
+- Pokud je v úloze dostatek existujících mapování, která jsou trvale špatně zarovnaná, může vyžadovat nejmenší úsilí změna posunu snímků tak, aby odpovídaly existujícímu mapování, a následné mapování malého počtu zbývajících objektů v úloze.
+- Pokud je existujících mapování méně nebo jsou objekty špatně zarovnány nekonzistentně (tj. míra špatného zarovnání se v prostoru liší), pak může být jednodušší změnit polohu mapovaných objektů tak, aby byly v souladu se snímky, a poté zmapovat zbývající objekty v úloze.
 
-If your project has alignment issues, ensure your task squares are not too large because imagery offsets can vary considerably across a mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+Pokud má váš projekt problémy se zarovnáním, ujistěte se, že čtverce úlohy nejsou příliš velké, protože posuny snímků se mohou v mapované oblasti značně lišit, zejména pokud není terén rovný. Napříč projektem se mohou vyskytnout i nespojitosti snímků - dávejte si na ně pozor a upozorněte přispěvatele na takový problém.
 
-> Although individual mappers can manually alter the imagery offset while mapping, it is not possible for you, as project creator, to change the imagery offset at the project level. However, if you are using your own aerial imagery that is being hosted elsewhere you can alter the offset at source. However, please note that alignment can vary considerably across space and simply changing the overall offset does not always correct alignment issues. 
+> Ačkoli jednotliví mappeři mohou při mapování ručně měnit posun snímků, vy jako tvůrce projektu nemůžete posun snímků měnit na úrovni projektu. Pokud však používáte vlastní letecké snímky, které jsou hostovány jinde, můžete offset změnit u zdroje. Mějte však na paměti, že zarovnání se může v prostoru značně lišit a pouhá změna celkového odsazení nemusí vždy odstranit problémy se zarovnáním.
 
-Please feel free to check these additional resources on imagery alignment:
+Neváhejte se podívat na tyto další zdroje o zarovnávání obrazů:
 
-- [General guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [Animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [JOSM imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [Obecné pokyny pro různé editory](https://wiki.openstreetmap.org/wiki/Using_Imagery)
+- [Animovaný gif o zarovnání obrazů v iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [Kapitola o zarovnání snímků JOSM v aplikaci learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-[TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
-[TM Add Project]: /images/coordination/tm4_new_project.png
-[TM New]: /images/coordination/tm4_create_new.png
-[TM New Polys]: /images/coordination/tm4_create_new_polys.png
-[TM Trim]: /images/coordination/tm4_trim1.png
-[TM Trim coarse]: /images/coordination/tm4_trim2.png
-[TM Trim fine]: /images/coordination/tm4_trim3.png
-[TM Description]: /images/coordination/tm4_description.png
-[TM Instructions]: /images/coordination/tm4_instructions.png
+[TM Velikosti dlaždice]: /images/coordination/tm4_tile_sizes.png
+[TM Přidat projekt]: /images/coordination/tm4_new_project.png
+[TM Nový]: /images/coordination/tm4_create_new.png
+[TM Nové polygony]: /images/coordination/tm4_create_new_polys.png
+[TM Ořez]: /images/coordination/tm4_trim1.png
+[TM Ořez hrubý]: /images/coordination/tm4_trim2.png
+[TM Ořez přesný]: /images/coordination/tm4_trim3.png
+[TM Popis]: /images/coordination/tm4_description.png
+[TM Instrukce]: /images/coordination/tm4_instructions.png
 [TM Metadata]: /images/coordination/tm4_metadata.png
-[TM Priority Area]: /images/coordination/tm4_priority_area.png
-[TM Permissions]: /images/coordination/tm4_permissions.png
-[TM Settings]: /images/coordination/tm4_settings.png
-[TM Actions]: /images/coordination/tm4_actions.png
+[TM Prioritní oblast]: /images/coordination/tm4_priority_area.png
+[TM Oprávnění]: /images/coordination/tm4_permissions.png
+[TM Nastavení]: /images/coordination/tm4_settings.png
+[TM Akce]: /images/coordination/tm4_actions.png
