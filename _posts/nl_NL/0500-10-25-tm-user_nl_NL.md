@@ -92,200 +92,217 @@ De Task Manager opent automatisch in het Engels - klik op **English** om naar ee
 - De bewerker voor het in kaart brengen van uw voorkeur selecteren
 - Uw ervaringsniveau als mapper bekijken
 - De typen projecten selecteren die uw belangrijkste interesse hebben
-- Een lijst bekijken van de projecten waar u aan bijgedragen hebt
-- Kiezen welke notificaties aan u mogen worden verzonden
-- Uitloggen
+- Choose which notifications are sent to you
+- Logout
 
-## Een project zoeken
+## Find a Project
 
-![TM Start mapping][]{:style="float:left;height:50px;padding-right:10px;"} De knop `Begin met in kaart brengen` op de thuispagina zal u naar de hoofdlijst met projecten in de Tasking Manager brengen. Of selecteer eenvoudigweg `Projecten verkennen` in de hoofdnavigatie.
+![TM Start mapping][]{:style="float:left;height:50px;padding-right:10px;"} The `Start mapping` button on the homepage will take you to the main list of projects in the Tasking Manager. Or simply select `Explore projects` in the main navigation.
 
 ![TM4-user-guide-5][]
 
-Het scherm Lijst met projecten van Tasking Manager is opgedeeld in drie belangrijke gebieden:
+The Tasking Manager Project list screen is divided into three main areas:
 
-- Zoek- en Filteropties langs de bovenzijde
-- Scrollbare lijst met projecten
-- Een kaartweergave voor de Lijst met projecten kan worden ingeschakeld met het pictogram rechtsboven. ![TM show map][]{:style="float:left;height:20px"}
+- Search and Filter options along the top
+- Scrollable Project List
+- A Map View of the Project List can be toggled from the top right icon. ![TM show map][]{:style="float:left;height:20px"}
 
-#### Zoek- en Filteropties
+#### Search and Filter Options
 {:.no_toc}
 
-Standaard worden alle beschikbare projecten voor het in kaart brengen weergegeven. U kunt het filtergedeelte Zoeken van het scherm gebruiken om het aantal projecten waaraan u zou willen werken verder te beperken.
+By default all the projects available for mapping are displayed. You can use the Search filters section of the screen to further narrow down the projects that you would like to work on.
 
 ![TM filter projects][]
 
-- **Projecten zoeken** - Als u het nummer van het project, waaraan u wilt werken, weet, kunt u dat invoeren in 'Projecten zoeken' en direct daar naartoe worden gebracht. U kunt ook zoeken op tekst vanuit de beschrijving van het project.
-- **Moeilijkheid** - Sommige projecten zijn moeilijker in kaart te brengen dan andere. Deze optie stelt u in staat de projecten te vinden die voor uw ervaringsniveau het meest toepasselijk zijn. U wordt aangemoedigd om te werken aan projecten die het beste passen bij huw ervaringsniveau, in het bijzonder als u een al meer ervaren mapper bent.
+- **Search Projects** - If you know the number of the project you want to work on, you can enter it in 'Search Projects' and be taken directly to it. You can also search on text from within the project description.  
+- **Difficulty level** - Some projects are more difficult to map than others. This option allows you to find projects that are most appropriate for your experience level. You are encouraged to work on projects that best match your experience level, especially if you are a more experienced mapper.
+- **Any project** - You can filter on a project to map or to validate. Also archived projects can be filtered here
 - **Meer filters** - stelt u in staat te filteren op;
   - Campagne
   - Organisatie
   - Locatie
- - U kunt de lijst met resultaten ook sorteren
+  - Interests
+ - You can also sort the resulting list
 
-**Kaartweergave** Als u er voor kiest om de kaart weer te geven, kunt u een kaart van de wereld bekijken die aangeeft waar de projecten zijn, of een schijf die het aantal projecten in een gebied aanduidt. Zoom in voor meer details, en u kunt een project selecteren door te klikken op zijn link in de kaart.
+**Map View** If you choose to show the map, you can view a map of the world showing where the projects are, or a disk indicating the number of projects in an area. Zoom in for more details, and you can select a project by clicking on its link from the map.   
 
 ![TM map][]
 
-## Overzichtspagina van project
+## Project overview page
 
-![TM4 project graph]{:style="float:right;width:300px"} Als u eenmaal een project hebt gevonden dat uw interesse heeft, zal  klikken op dat project u brengen naar de meer gedetailleerde overzichtspagina voor dat project. Lees de beschrijving zorgvuldig door en scroll naar beneden voor meer informatie, zoals de organisatie die het in kaart brengen voor dat project coördineert, wie in kaart mogen brengen of valideren, eventuele opmerkingen over het project, een grafiek over de voortgang en een lijst van wie hebben bijgedragen.
+![TM4 project graph]{:style="float:right;width:300px"} Once you have located a project of your interest, clicking on it will take you to the overview page for that project. Read the description carefully and scroll down for more information, such as the organization who coordinates the mapping for this project, who can map or validate, any comments about the project, a progress graph and the list of contributors.
 
 ![TM4-user-guide-6][]
 
-Pictogrammen geven de typen voor in kaart brengen aan, zoals:
+Icons indicate the types of mapping, such as:
 
-- Wegen: Vaak gebruikt voor routeren op apparaten voor navigatie.
-- Gebouwen: Kan worden gebruikt om plaatsen te zien waar mensen wonen en getroffen zouden kunnen zijn.
-- Waterwegen: Nuttig voor het inschatten van schade of het vaststellen van contacten bij ziekten.
-- Landgebruik: Begrijpen van het gebruik van land maakt deel uit van een uitgebreide kaart.
-- Anders: Elke andere soort van in kaart brengen.
+- Roads: Often used for routing on navigation devices.
+- Buildings: Can be used to understand where people live and might be impacted.
+- Waterways: Useful for damage assessment or contact tracing with diseases.
+- Land use: Understand the purpose of land is part of a comprehensive map.
+- Other: Any other kind of mapping.
 
-![TM4 contribute][]{:style="float:left;height:50px;padding-right:10px;"} De knop `Deelnemen` aan de rechterkant brengt u naar het scherm waar u de instructies voor het in kaart brengen kunt lezen en de taken kunt selecteren waar u aan kunt werken.
+![TM4 contribute][]{:style="float:left;height:50px;padding-right:10px;"} The `Contribute` button on the bottom right takes you to the screen where you can read the mapping instructions and select the tasks to work on.    
 
-## Pagina met taken van het project
+## Project tasks page
 
-Dit is uw hoofdscherm bij het werken aan een project. Het scherm is verdeeld in twee delen.
+This is your main screen for working on a project. The screen is divided into two parts.
 
-Het linkergedeelte is een paneel met tabs voor:
+The left section is a tabbed panel with tabs for:  
 
 ![TM4-user-guide-7][]
 
-- **Taken** Een lijst met taken die kan worden gefilterd overeenkomstig met 'Alles', 'Beschikbaar voor in kaart brengen', of 'Klaar om te valideren'.
-- **Instructies** bekijk **Instructies taak** hieronder voor meer informatie, maar zorg er voor dat u alle informatie hier leest en begrijpt, voordat u begint met het in kaart brengen.
-- **Bijdragen** bevat een lijst van bijdragen van andere mappers in dit project.
+- **Tasks** A list of tasks which can be filtered according to 'All', 'Available for mapping', 'Ready for validation' or 'Unavailable'.  
+- **Instructions** see **Task Instructions** below for more information. Make sure you read and understand all of the information before you start mapping. 
+- **Contributions** contains a record of the contributions done by fellow mappers on this project.
 
-* Niet alle gebieden op de wereld lijken op je eigen omgeving, hiervoor worden specifieke tagging adviezen meegegeven. Het wegennetwerk in Afrika is bijvoorbeeld verschillend aan dat van Europese of Amerikaanse snelwegsystemen, denk aan onverharde wegen die hoofdwegen zijn.
-* Er is een sectie die het **Changeset comment** aangeeft. U zou er voor moeten zorgen dat deze verschijnt in uw programma voor bewerken als u de wijzigingen opslaat, samen met de informatie **source**, zult u deze (afhankelijk van uw bewerker) moeten kopiëren en plakken in het veld Bron bij het maken van wijzigingen.
-* Soms zijn er **taakspecifieke satellietbeelden** beschikbaar - u zult misschien een licentievoorwaarde moeten accepteren om deze te kunnen gebruiken. Instructies zullen vaak de eenvoudigste manieren aangeven om ze te laden in bewerkers als JOSM of iD.
-* Wanneer u een taak als gereed markeert, zullen controleurs (validators) verwachten dat de vereisten van de tab Instructies aanwezig zijn. U zult wellicht merken dat het volbrengen van een volledige taak (vierkant) moeilijk kan zijn - hieronder is uitleg beschikbaar over het ontgrendelen van tegels, als ook over het geven van terugkoppeling aan de volgende mapper.
+### Other features
 
-De rechterkant van het scherm is een kaart die de taken weergeeft (meestal vierkanten), gekleurd op grond van hun status. Vierkanten die voor u beschikbaar zijn, kunnen worden geselecteerd door er op te klikken.
+* Not all areas of the world are similar to your own, so specific tagging advice may be provided. For example, Africa's road network is very different from typical American or European highway systems.
+* There will be a section indicating the **Changeset comment**. You should make sure that it appears in your editing programme when uploading/saving your changes together with the **source** information you may (depending on your editing software) need to copy & paste to the source field on making changes.
+* Sometimes, task **specific imagery** may be available - you may need to agree to a license in order to access it. Instructions usually will indicate the easiest way to load this into editors such as JOSM or iD.
+* When checking a task marked as complete, validators will expect that the requirements from the instructions tab have all been completed. You may find completing an entire task is quite difficult - guidance below is available around unlocking tasks as well as providing useful feedback for the next mapper.
+
+The right side of the screen is a map showing the tasks (often squares) coloured according to their status. Tasks that are available to you can be selected by clicking on them.
 
 ![TM map key][]{:style="float:right;height:200px"}
 
-- De niet gekleurde taken zijn aangemaakt en beschikbaar voor in kaart brengen
-- Vaalblauw - klaar om te valideren
-- Geel - meer in kaart brengen nodig
-- Groen - in kaart gebracht en gevalideerd - geen werk meer nodig
-- Grijze vierkanten zijn niet beschikbaar
-- Roze vierkanten geven gebieden met hogere prioriteit aan en
-- ![TM padlock][]{:style="float:left;height:20px"} zijn vergrendeld door een andere mapper
+- The uncolored tasks are ready and available for mapping
+- Pale blue - ready for validation  
+- Yellow - more mapping needed  
+- Green - mapped and validated - no more work needed
+- Grey squares are not available 
+- Pink squares represent priority areas, and  
+- ![TM padlock][]{:style="float:left;height:20px"} are locked by another mapper
 
-Hoewel u misschien niet de bewerker van uw voorkeur hebt ingesteld op uw pagina met voorkeuren, heeft u de optie om van bewerker te wisselen voor de taak die u op het punt staat te selecteren.
+Although you may have set your preferred editor within your preferences page, you do have the option of changing editor just for the task you are about to select.  
 
-### Keuze van bewerker
+### Choice of Editors
 {:.no_toc}
 
-Verschillende opties voor bewerken komen beschikbaar zodra u een taak vergrendeld hebt.
+Different options for editing are presented to you as soon as you lock a task.
 
-##### Bewerken met JOSM
+##### Edit with JOSM  
 {:.no_toc}
 
-Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen automatisch worden ingeladen in JOSM.
+Start JOSM before using this link and it will automatically load the existing OSM data into JOSM.  
 
->  1. 'Afstandsbediening inschakelen' moet zijn geselecteerd - te vinden onder **Bewerken / Voorkeuren / Afstandsbediening**
->  2. Als u al eerder de plug-in 'continuosDownload' hebt geïnstalleerd, is het het beste om die uit te schakelen (deselecteer 'Doorlopend gegevens van OSM downloaden' in het menu **Bestand** in JOSM).  
->  3. Als JOSM ook de afbeeldingen niet automatisch laadt, zijn die normaal gesproken te vinden in het menu **Afbeeldingen**. [Hier meer info over afbeeldingen ](/nl_NL/josm/more-about-josm/#add-imagery)  
+>  1. 'Enable remote control' needs to be ticked - found under **Edit / Preferences / Remote Control**
+>  2. If you have previously installed the plug-in 'continuosDownload' it is best to disable it (untick 'Download OSM Data continuously' under the **File** menu in JOSM).  
+>  3. If JOSM does not load the imagery automatically as well, it can normally be found under the **Imagery** menu. [More info on imagery here ](/en/josm/more-about-josm/#add-imagery)  
 
 
-##### Bewerker iD
+##### iD editor  
 {:.no_toc}
 
-Selecteer dit om automatisch de OpenStreetMap bewerker iD in de Tasking Manager te openen in uw webbrowser, met bestaande gegevens van OSM geladen. De webbrowser Internet Explorer ondersteunt op dit moment het gebruik van iD niet, en het zal in plaats daarvan Potlatch 2 laden.
+Select this to automatically start the OpenStreetMap iD editor within the Task Manager of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD. 
 
-##### Potlatch 2
+##### Potlatch 
 {:.no_toc}
 
-De bewerker zal laden in een nieuw venster of tab. Potlatch zal in dit stadium niet automatisch het begrenzingsvak van de taak laten zien.
+From 2010 to 2020, Potlatch (version 2) was available as an online editor on openstreetmap.org via the Flash Player. Version 3 is a port to run under the desktop AIR environment.
 
-<!-- maar u kunt dat laten doen door de volgende procedure te volgen:  
+For more information see https://github.com/systemed/potlatch3#Potlatch.
 
-1. In de Tasking Manager, selecteer een taak en klik op Een taak in kaart brengen om die te vergrendelen .
-2. In de Tasking Manager, selecteer Bewerken met JOSM (als er een venster verschijnt dat zegt dat "JOSM remote control did not respond…" klik eenvoudigweg op OK).  
-3. Onder de knop Bewerken met JOSM, staat de tekst "Tip: Download het volgende .gpx-bestand…". Download het .gpx-bestand en noteer waar het wordt opgeslagen.  
-4. In de Tasking Manager, wijzig van Bewerken met JOSM naar Bewerken met Potlatch 2. Potlatch zou moeten openen in een nieuwe tab. 
-5. In Potlatch, selecteer Background, dan Vector File…
-6. In het venster Load Vector File, aan de onderzijde naast File, klik op Open, en navigeer naar het .gpx-bestand dat u zojuist hebt gedownload.
-7. In het venster Load Vector File, zorg er voor dat het vak Show column is geselecteerd voor het .gpx-bestand, en sluit dan het venster.
-8. Potlatch zou nu de begrenzing moeten weergeven als een vierkant (waarschijnlijk paars). Onthoud dat Potlatch nog steeds gegevens van buiten de begrenzing zal downloaden. -->
+<!-- but you can do so by following this procedure:  
 
-##### Field Papers
+1. In the Tasking Manager, select a task and click Start Mapping to lock it  
+2. In the Tasking Manager, select Edit with JOSM (if a window appears saying "JOSM remote control did not respond..." just click OK).  
+3. Below the Edit with JOSM button, text will say "Tip: Download the following .gpx file...". Download the .gpx file, and note where it is saved.  
+4. In the Tasking Manager, change from Edit with JOSM to Edit with Potlatch 2. Potlatch should open in a new tab.  
+5. In Potlatch, select Background, then Vector File...  
+6. In the Load Vector File window, at the bottom next to File, click Open, and navigate to the .gpx file you just downloaded  
+7. In the Load Vector File window, make sure the box is checked in the Show column for the .gpx file, then close the window  
+8. Potlatch should now display the boundary as a square (probably cyan). Note that Potlatch will still load data outside the boundary. -->
+
+##### Field Papers  
 {:.no_toc}
 
-Gebruik deze optie alleen als u betrokken bent bij een project waar een lokale mapper veldwerk heeft gedaan en papieren kaarten heeft gevuld met informatie, zoals straatnamen. Deze kaart kan worden ingescand en gebruikt als achtergrondafbeelding voor een mapper op afstand of een lokale mapper om de informatie te lezen en de gegevens van OpenStreeetMap bij te werken [gedeelte Field papers van LearnOSM](/nl_NL/mobile-mapping/field-papers/).
+For use only when you are involved in a project where a local mapper has carried out a ground survey and marked a printed map with information such as road names. This map can be rescanned and used as a background image for a remote or local mapper to read the information and update the OpenStreeetMap data [Field papers section of LearnOSM](/en/mobile-mapping/field-papers/).  
 
-#### Een taak selecteren om in kaart te brengen
+#### Select a task to map  
 
-![TM Map a Task][]{:style="float:left;height:50px"} De knop `Een taak in kaart brengen` zal een willekeurige taak voor u vergrendelen, en is de beste optie om te kiezen tijdens een het in kaart brengen op een Mapathon, of als veel mensen tegelijkertijd werken aan één project. Maar er zouden ook situaties kunnen zijn waar u er een voorkeur voor hebt uw uiteindelijke me de kaart te selecteren, maar in alle gevallen zult u het stadium bereiken waar uw Taak is vergrendeld, en uw 2-urige aftelklok is begonnen.
-> **Tip**  - Maak een notitie van uw begintijd, zodat het vierkant niet per ongeuk wordt ontgrendeld terwijl u er nog steeds aan werkt. Als dat gebeurt, en een andere mapper selecteert het en begint met in kaart brengen is het zeer waarschijnlijk dat er later problemen optreden met **conflicten** (Twee mappers hebbennhetzelfde object bewerkt, en de database van OpenStreetMap verhindert dat u uw werk uploadt totdat u aangeeft welk werk van welke persoon correct is). Voor meer informatie over [conflicten](/nl_NL/beginner/id-editor/#saving-your-changes) of in ons [gedeelte HOT Tips](/nl_NL/hot-tips/saving/). Als u in kaart brengt met JOSM, bekijk [JOSM oplossen van conflicten](/nl_NL/josm/josm-conflict-resolution/).
+![TM Map a Task][]{:style="float:left;height:50px"} The button `Map a task` will lock a random task for you, and is the best option to choose when mapping at a Mapathon, or when a large number of people are working on a project at the same time. 
 
-![TM history instructions][]{:style="float:right;"} Als u eenmaal uw taak hebt vergrendeld, en de begrenzing van uw vierkant (taak) wordt weergegeven. U kunt nog steeds op de tabs klikken voor:
+There may be situations where you prefer to make your personal task selection using the map. You can make a pre-selection based on the task status by clicking the dropdown menu with the text "All".
 
-- **VOLTOOID** waar u later zult aangeven waarom u deze taak hebt verlaten, zoals dat u het gevraagde in kaart brengen hebt voltooid, of dat u om een of andere reden niet in staat bent geweest om hem te voltooien - zorg er voor dat u een bericht achterlaat waarom, zoals " *Run out of time, I've done all of the top half of the square, but there is a lot more to be done in the bottom half* " voordat u **Een andere taak selecteren** selecteert.
-- **INSTRUCTIES** waar u opnieuw de instructies voor de taak kunt bekijken, als u zich enkele details niet kunt herinneren, misschien voor te gebruiken tags voor bepaalde objecten, of wat te doen met afbeeldingen, voordat u doorgaat met in kaart brengen.
-- **GESCHIEDENIS** die nuttig is om te controleren in het geval er een opmerking van een eerdere mapper is, zoals dat zij alleen het bovenste gedeelte van het vierkant hebben voltooid, en u zich dient te concentreren op de onderste helft.
+![TM4 task preselection][]{:style="float:right;"}
 
-**Slechts voor bevestiging** - Klikken op de knop **Begin met in kaart brengen** of vergrendelen van uw vierkant op de kaart, wordt de taak vergrendeld, zodat een andere mapper het niet kan selecteren totdat het opnieuw beschikbaar komt, en start een teruglopende klok van 2 uur (120 minuten), waarna de taak automatisch weer wordt ontgrendeld. <!--Het is goed om u aan te wennen om regelmatig te controleren of de tijd nog niet is verstreken--> Het komt geregeld voor dat men zo opgaat in het in kaart brengen dat men zich niet realiseert dat uw taak weer is vrijgegeven, en er nog iemand anders aan kan gaan werken. Dit kan leiden tot conflicten en problemen.
+In either case you will reach the stage where your task is locked, and your 2 hour countdown timer has started.
+> **Tip**  - Make a note of your start time, so that the square does not become unlocked accidentally while you are still working on it. If it does, and another mapper selects it and starts mapping you are very likely to have problems later with **conflicts** (Two mappers have edited the same object, and the OpenStreetMap database prevents you uploading your work until you indicate which persons work is correct). For more information on [conflicts](/en/beginner/id-editor/#saving-your-changes) or in our [HOT Tips Section](/en/hot-tips/saving/). If you are mapping using JOSM, see [JOSM conflict resolution](/en/josm/josm-conflict-resolution/).  
 
-> **Tip** Bij het bewerken met de bewerker ID in de Tasking Manager, gebruik 'Volledig scherm' om uw gebied voor bewerken groter te maken. Afhankelijk van uw besturingssysteem en webbrowser, zou dit kunnen worden gedaan met de toets **F11**, een andere toetscombinatie, of vanuit het menu van de webbrowser.
+![TM history instructions][]{:style="float:right;"} Once you have locked your Task, and your square (Task) boundary shown. You can still click on the tabs for:  
 
-![ID normal][]
+- **COMPLETION** where you will later indicate why you have left this task, such as you have completed the required mapping, or you were unable to finish it for some reason - make sure you leave a message indicating why, such as " *Run out of time, I've done all of the top half of the square, but there is a lot more to be done in the bottom half* " before you select **Select another Task**.  
+- **INSTRUCTIONS** where you can refer to the task instructions again, if you cannot remember some details, perhaps about tags to use for certain features, or what to do about imagery, before you continue with your mapping.  
+- **HISTORY** before starting to map, please always first read the comments under this tab. This is useful to check in case there is a comment from a previous mapper, such as that they have completed the top of the square only, and you need to concentrate on the lower half. You can see that there are comments if there is a number in a red circle next to the tab. Possibly you also see a warning  ̈Please check the history tab for relevant comments ̈.
+
+![TM4-history-tab][]
+
+**Just to confirm** - Clicking on the **Start Mapping** button, or locking your square from the map, locks the task so that no other mapper can select it until it is released again, and starts a 2 hour (120 minute) countdown timer, at the end of which time the task is automatically released. <!--It is good practice to check on your countdown timer on a regular basis --> It is easy to become engrossed in your mapping and not realise your task has been released, and has now been selected by another mapper who has started mapping it too. This can lead to conflicts and problems.  
+
+> **Tip** When editing with the iD editor within the Tasking Manager, use 'Full screen' to make your editing area larger. Depending on your operating system and web browser, this may be obtained using the **F11** key, another key combination, or be obtained from the menu of the web browser.  
+
+![ID normal][]  
 
 ![ID full screen][]
 
-### Een vierkant voor een taak splitsen
+### Splitting a task square
 {:.no_toc}
 
-Nadat u uw taak hebt geselecteerd en die hebt geïnspecteerd met de afbeeldingen op hun plaats, zou u zich kunnen realiseren dat er veel te veel detail is vereist voor het in kaart brengen. Een voorbeeld hiervan is het traceren van gebouwen in dichtbebouwde stedelijke gebieden, of het lokaliseren van kleine dorpen in grote gebieden. Als richtlijn: waar het voor een persoon niet mogelijk is om de taak te voltooien binnen de tijdslimiet van 2 uur, kunt u vaak de taak splitsen in 4 kleinere gebieden. *Gebruik dit voorzichtig* - als/wanneer vierkanten te klein gesplitst worden is het moeilijk te beoordelen om welk type weg het gaat, en om andere objecten te identificeren.
+Having selected your task and inspected it with the imagery in place, you may realise that there is far too much detail required for mapping. An example of this may be tracing buildings in dense urban areas, or locating small villages in large areas. As guidance, where it isn't possible for one person to complete within the 2 hour time limit you can often split the task into 4 smaller areas. *Use with caution* - if/when task squares are split too small it is difficult to judge what type of highway is involved, and to identify other features.  
 
-> Wees u ervan bewust dat bestaande opmerkingen over het eerder voltooide werk niet meer beschikbaar zullen zijn na het splitsen.
+> Be aware that other useful comments about the work previously completed will no longer be available.
 
 
-### Uw taak voor in kaart brengen indienen
+### Submit your mapping task
 
 ![TM end mapping][]{:style="float:right;width:300px"}
 
-##### Een taak ontgrendelen voordat deze voltooid is
+##### Unlocking a Task before it is complete
 {:.no_toc}
 
-Als u begint aan een taak, maar deze niet af kunt ronden, kunt u de taak ontgrendelen en het is een goede gewoonte  een opmerking voor de taak achter te laten. Geef aan wat er nog moet gebeuren en kies `Nee` op de vraag "Is deze taak volledig in kaart gebracht?" en druk op de knop `Taak indienen`. Zorg ervoor dat uw opmerkingen relevant zijn en gericht zijn op het helpen van de volgende mapper.
+If you start working on a task, but cannot complete it for some reason, it is best practice to leave a comment in it. Simply detail what remains and choose `No` to the question "Is this task completely mapped?" and press `Submit task`. Make sure your comments are relevant and aimed to help out the next mapper.  
 
-Bijvoorbeeld:
+For example:  
 
     Almost complete, small village top left 
     in the task square to be traced though
 
-Als u helemaal niets in kaart hebt gebracht, kunt u eenvoudigweg teruggaan, zonder een opmerking achter te laten, door `Een andere taak selecteren` te kiezen.
+If you didn't map at all, you can just go back without leaving any comment by choosing `Select another task`.
 
 
-##### Een taak indienen die volledig in kaart is gebracht
+##### Submit a task that is completely mapped 
 {:.no_toc}
 
-Als u eenmaal gereed bent, dan kunt u alle wijzigingen opslaan naar OpenStreetMap:
+Once you are done you can save all changes to OpenStreetMap:
 
-+ Beantwoord de vraag "Is deze taak volledig in kaart gebracht?" met `Ja`
-+ Voeg een opmerking toe aan het tekstvak die vermeldt wat u hebt gedaan en, nog belangrijker: waar u niet zeker van bent. Bijvoorbeeld: "Complete as far as I can see, but there is cloud covering the top right corner of the square & I cannot see to trace this area".
-+ Klik op de knop `Taak indienen` en uw werk is klaar om nagekeken te worden.
++ Answer the question "Is this task completely mapped?" with `Yes`
++ Add a comment to the text area detailing what you achieved and more importantly, what you are not certain of. For example; "Complete as far as I can see, but there is cloud covering the top right corner of the task & I cannot see to trace this area".  
++ Click on the `Submit task` button, and your work is ready for review.  
 
-> Het is bijzonder lastig om er absoluut zeker van te zijn dat u een taak hebt afgerond - het is echter acceptabel de taak als voltooid te markeren als u redelijk zeker weet dat u klaar bent - een andere mapper zal de inhoud controleren bij het valideren en dan kunnen kleine aanvullingen worden gemaakt.
+> It is very difficult to be completely certain that you have completed a task - however it is acceptable to mark the task as complete if you are fairly sure - the contents will be checked by another mapper when validating, and any small additions can be made then.  
 
 
-##### Een taak markeren als Slechte afbeelding
+##### Marking a Task as Bad Imagery
 {:.no_toc}
 
-U zult soms een taak selecteren die niet in kaart kan worden gebracht, omdat de afbeelding in een te lage resolutie is of omdat er wolken hangen. Selecteer in dit geval `Slechte afbeelding` en bevestig dat door te klikken op de knop `Taak indienen`.
+You will sometimes select a task that can not be mapped because the imagery is low resolution or has cloud cover. Check if alternative imagery gives you better results.
 
-Als dat niet het geval is, geef dan aan `The imagery is bad` en bevestig door op de knop `Taak indienen` te klikken.
+If that is not the case indicate `The imagery is bad` and confirm by clicking `Submit task`.
 
-#### Een bericht sturen vanuit het vak Opmerking
+#### Sending a message from the comment box
 {:.no_toc}
 
-U mag [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) gebruiken om uw tekst op te maken, bijv. alinea's maken of een lijst toevoegen. Het is ook mogelijk afbeeldingen in te voegen met slepen en neerzetten.
+You can use [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to format your text, e.g. create paragraphs or add a list. There is also the possibility to insert images by drag and drop.
 
-Bij het vermelden van een opmerking voor een taak kunt u de opmerking als een bericht verzenden naar een benoemde mapper. Net zoals bij Twitter, gebruikt u hiervoor een @ gevolgd door de gebruikersnaam. Dit zal een bericht versturen naar de gebruiker met de opmerkingen uit het vak en een link naar de taak waaraan de opmerking is gerelateerd.
+The comment box contains a toolbar with buttons to format your text. It produces Markdown templates that you can (sometimes must) adapt to your needs. The preview tab is for now only available on the general project QUESTIONS AND COMMENTS section.
 
-Bijvoorbeeld:
+![TM markdown editor][]{:style="float:right;width:300px"}
+
+When leaving a comment against a task, you can have the comment sent as a message to a named mapper. Much like Twitter, simply use an @ followed by the username. This will send a message to the user containing the comments from this box, plus a link to the task that the comments box relates to.
+
+For example:  
 
     @HOTMppr nice work tracing the building details here. 
 
@@ -295,131 +312,62 @@ Bijvoorbeeld:
 
     It would be great if you could fix it. Thanks for mapping.
 
-Dit is met name nuttig bij het valideren of verder gaan met andermans werk - u kunt terugkoppeling geven of iemand bedanken of iets anders.
+This is particularly useful when validating or adding on another's previous work - you can provide feedback, thanks or more.  
 
-+ U wilt misschien een link toevoegen naar een site die de mapper kan helpen, zoals <http://learnosm.org/nl_NL/coordination/remote-tracing/#buildings-walls-compounds-barriers>
-+ Denk eraan dat mensen van over de gehele wereld bijdragen, dus gebruik eenvoudige en begrijpelijke taal. Als u opmerkingen in andere talen tegenkomt, zijn programma's als Google Translate vaak redelijk effectief om te vertalen.
++ You may wish to provide a link to a site which may help the mapper, such as <http://learnosm.org/en/coordination/remote-tracing/#buildings-walls-compounds-barriers>  
++ Be aware that many people from around the world will be participating, so prefer simple, clear language. If you come across comments in other languages, tools such as Google Translate are reasonably effective.
 
-<!-- helaas niet meer beschikbaar in TM4
-#### Verwijzen naar een bepaalde taak bij het verzenden van een e-mail
+<!-- unfortunately no longer available in TM4
+#### Referring to a particular task when sending an email  
 
-Wanneer u een bericht moet verzenden, zoals een e-mail of een bericht op IRC, en u vraagt iets met betrekking tot een bepaalde taak binnen een project (misschien heeft u hulp nodig bij het identificeren van iets vanaf de satellietbeelden):
+If you need to send a message, such as an email or an IRC message, and you are querying something concerning a particular task within a project (perhaps you need help identifying something from the satellite imagery):  
 
-1. Klik op het betreffende vierkant van de taak  
-2. Klik op de adresbalk in uw webbrowser, die iets zou moeten laten zien als 'http://tasks.hotosm.org/project/713?task=259'
-3. Kopieer deze link in het bericht
+1. Click on the task square concerned  
+2. Click on the address bar in your web browser, which should show something similar to 'http://tasks.hotosm.org/project/713?task=259'  
+3. Copy this link into the message. 
 -->
 
-## Hulp krijgen
+## Getting help 
 
-### E-mail
+### E-Mail
 
-Voor vragen die misschien enig onderzoek vergen om te worden beantwoord of meer gedetailleerde uitleg, is het gewoonlijk het beste om te schrijven naar mapper-support@hotosm.org
+For questions which might require a little research to answer or more detailed explanations, usually the best channel is to write to mapper-support@hotosm.org
 
-### Live tekstgebaseerde hulp
+### Live text based help
 
-1. Registreer u op slack.hotosm.org. Dit vereist het invullen van een formulier en het zou even kunnen duren voordat u geaccepteerd wordt.
-2. Neem deel aan het kanaal mapper-support
+1. Sign up at slack.hotosm.org. This will require filling in a form and might take a while to be accepted.
+2. Join the mapper-support channel
 
-### Vraag / opmerking voor het project achterlaten, contact opnemen met de maker van het project
+### Leaving a Project question / comment / contacting the Project creator
 
-Door het gebruiken van de tab "Opmerkingen" voor het project kunt u vragen en opmerkingen van andere gebruikers zien en er zelf een achterlaten. <!--U kunt ook klikken op de link "Contact projectbeheerder" en dat zal uw opmerking/vraag automatisch richten aan de maker van het project. -->
+Using the "Comments" tab for the project you can see other users' questions and comments and leave one of your own. <!--You can also click the "Contact Project Manager" link and that will automatically direct your comment/question to the project creator. -->
 
-Alle opmerkingen zijn openbaar en het is niet in echte tijd, live chat. Gebruik de optie Slack hierboven als u onmiddellijk hulp nodig hebt.
+All comments are public and it is not live chat. Use the Slack option above if you need immediate attention.
 
 ![TM comments][]
 
 
-## Hints en tips voor bewerken
+## Editing hints and tips  
 
-U heeft nu een goed beeld gekregen van wat de Tasking Manager is en van enkele verscheidene functies die het ondersteunt. In tegenstelling tot normale bewerkingen wordt dit programma veel gebruikt voor tijdkritische projecten met veel deelnemers - dit kan enigszins afwijken van wat u normaal gesproken gewend bent.
+By now you have a good understanding of what the Tasking Manager is, and some of the various functions it supports. Unlike normal editing, this tool is often used for time critical projects with many participants - this may be a little bit different to what you are used to.  
 
-Enkele algemene adviezen om in acht te nemen wanneer u met dit programma werkt:
+Some general advice to heed when working in this tool:  
 
-* Probeer het ver buiten het vierkant van uw taak in kaart brengen te vermijden - andere mappers kunnen in dat gebied bezig zijn waardoor dubbele gegevens worden verkregen. Het is oké om objecten zoals gebouwen die de grens overschrijden in kaart te brengen, maar ga niet veel verder dan dat - upload meteen uw wijzigingen na het bewerken in het grensgebied.
-* Trek wegen, waterwegen en andere objecten door tot net over de grens - dan kan de volgende mapper verdergaan met waar u gebleven bent, daarom is het van belang om meteen op te slaan en te uploaden als u dit gedaan hebt.
-* Als u twijfelt over wat een bepaald object is, gebruik dan het gedeelte voor opmerkingen of controleer het op de wiki.
-* Als u een serieuze fout maakt, bijvoorbeeld het verwijderen van een belangrijk object of relatie - gebruik dan IRC of het vak voor opmerkingen om andere mappers in te lichten en u te helpen om dit ongedaan te maken. Probeer de wijzigingenset toe te voegen of een beschrijving van wat er is gebeurd. Het is een gezamenlijk project en dus zijn er veel anderen om u te helpen. - Het is belangrijk te onthouden dat iedereen soms fouten maakt.
-* Schroom niet om terugkoppeling te vragen, mappers die uw werk nakijken kunnen kort van stof zijn of to the point, maar als u ze laat zien dat u graag met ze in gesprek gaat, is het resultaat vaak veel beter voor iedereen die betrokken is. Het kan soms lastig zijn om in een andere taal te communiceren en het is makkelijk om in een andere taal kortaf te lijken wanneer u een bericht doorgeeft in een taal die niet uw eigen is.
-* Valideer niet uw eigen werk - een tweede paar ogen zal altijd tot betere resultaten voor het in kaart brengen leiden.
-* Maak u geen zorgen als andere mappers kortaf zijn wanneer ze uw werk controleren - net zoals u willen ze graag dat alle gegevens nauwkeurig in kaart gebracht worden. Terugkoppeling is altijd gericht op het resterende werk en zeker geen kritiek op uw inzet.
-
-
-## Valideren
-
-Valideren is het proces dat een ervaren mapper het in kaart brengen van de initiële mapper van een taak in het project nakijkt. Het is ontworpen om te bevestigen dat het in kaart brengen volledig is en dat de kwaliteit van de gegevens goed is. Het is er ook om mappers aan te moedigen door ze te bedanken voor hun tijd, te bevestigen dat hun in kaart brengen goed is of door instructies te geven over hoe zij hun in kaart brengen kunnen verbeteren.
-
-De meest effectieve methode is om beginnende mappers, in de eerste stadia van hun in kaart brengen, te vinden, hen gerust te stellen en ze vertrouwen te geven door te bevestigen dat wat zij doen het juiste is, of door ze te helpen eventuele fouten te corrigeren die zij gemaakt hebben. voordat zij teveel taken in kaart hebben gebracht. Dit verkleint het aantal in een later stadium op te lossen problemen om hun in kaart brengen op peil van de standaard te brengen en ze de aanmoediging te geven te weten dat zij worden ondersteund bij wat zij doen.
-
-### Uw gebruikersprofiel
-
-De Tasking Manager 4 heeft een aantal wijzigingen die de beschikbare gegevens voor het uitvoeren van valideren beïnvloeden. Zorg er voor dat het bezoeken van uw gebruikersprofiel uw eerste activiteit is in de nieuwe Tasking Manager, door *Instellingen* te selecteren uit het keuzemenu onder uw gebruikersnaam voor OpenStreetMap (OSM) in de rechterbovenhoek.
-    • Onder *Persoonlijke informatie*: zorg er voor dat u het  e-mailadres van uw voorkeur hebt ingevuld.
-    • Onder *Instellingen* schakel naar *Modus Expert* en selecteer uw standaard bewerker en voorkeurstaal.
-    • U kunt ook kiezen welke notificaties u wilt ontvangen.
-
-### Beginnen
+* Avoid mapping far outside of your task square - other mappers may be working in that area, resulting in duplicated efforts. It's OK to map objects such as buildings overlapping a boundary, but avoid going much further - upload immediately after mapping something at the border.  
+* Extend roads, streams, or other features slightly over the boundaries - this lets the next mapper pick up where you left off, but upload as soon as you finish editing it.  
+* If you are in doubt about what a particular feature is, use the comment section to ask questions or check the wiki.  
+* If you make a serious mistake - for example, deleting a major feature or relation - use IRC or the comment box to ask other mappers to help in reverting this for you. Try to include the changeset, project and tasknumber, or a description of what happened. Being a collaborative task, many other mappers are here to help - it's important to remember everyone makes mistakes sometimes.  
+* Don't hesitate to ask for feedback - mappers validating your work can be terse or to the point, but if they know it's OK to engage in a dialog with you, the outcome is often a lot better for all involved. It can be difficult to communicate in another language, and it's easy to appear abrupt when you have to translate as well as pass a message in a language you are not fluent in.  
+* You must not validate your own work - a second pair of eyes will always lead to better quality mapping.  
+* Don't worry if other mappers are terse when validating your work - like you, they just want to ensure all of the data is mapped accurately. Feedback is invariably about the remaining work, not criticism of your efforts to date.  
 
 
-Klik, om te beginnen, op *Projecten verkennen* aan de bovenzijde van de pagina.
-Op de pagina Projecten kunt u op elk van de projecten klikken om naar dat project te gaan, of u kunt het bereik aan filters gebruiken om het project of projecten te selecteren die u wilt zien of waaruit u wilt selecteren.
+## Validation
 
-![TM choose project for validation][]
+Validation is the process of an experienced mapper reviewing the mapping of the initial mapper of a project task. It is designed to confirm that the mapping is complete and the quality of the data is good. It is also there to give encouragement to mappers by thanking them for their time, confirming that their mapping is good or giving instructions on how to improve their mapping.
 
-![TM filter project for validation][]
+More details can be found in [a guide of its own](/en/coordination/validation)
 
-Na het filteren en/of selecteren van het project waaraan u wilt werken, scroll naar beneden naar de onderzijde van de volgende pagina naar *Vragen en opmerkingen* om eventuele berichten te zien die zijn achtergelaten door eerdere mappers/validators met betrekking tot het project. Klik dan, rechtsonder, op de rode knop *Bijdragen* om naar de volgende pagina te gaan.
-
-Deze pagina zou moeten openen met de instructies voor het project zichtbaar (1). Indien niet, selecteer *Instructies*. Lees de instructies om te begrijpen welke afbeeldingen moeten worden gebruikt en wat de mappers gevraagd is te doen. Dit zal u inzicht geven over de manier waarop de mappers in kaart brengen op de manier waarop zij dat doen en of de instructies misleidend zijn en de mappers het daarom consistent verkeerd doen en dan kunt u contact opnemen met de Projectbeheerder om de instructies te wijzigen om de effecten van dat dat gebeurt te verkleinen.
-
-![TM select for validation][]
-
-Controleer dat u de juiste bewerker hebt (2)
-Selecteer ene blauwe taak om te valideren (3)
-Klik op de rode knop *Geselecteerde taak valideren* rechtsonder (4)
-
-Een nieuwe pagina zal in de Tasking Manager openen en de geselecteerde taak zal in uw bewerker worden geladen. Op deze pagina heeft uw taak een rood hangslot, andere vergrendelde taken zullen zwarte hangsloten hebben. U heeft nog steeds toegang tot de *Instructies* op deze pagina. U kunt in de *Geschiedenis* zien wie deze taak in kaart heeft gebracht of gevalideerd en toegang krijgen tot hun profiel en statistieken door op hun naam te klikken.
-
-### Meerdere taken selecteren voor valideren
-
-Op de tab Bijdragen, als de mapper meer dan één taak heeft voltooid, dan zullen zij worden geselecteerd op de kaart als u op een van de getallen drukt. U kunt alle taken in één keer downloaden om te valideren. Zij zullen automatisch uw venster van JOSM/iD aanpassen om ze allemaal te kunnen bergen.
-
-![TM select for validation by contributor][]
-
-Afhankelijk van welke bewerker u gebruikt zou deze mogelijkheid zich anders kunnen gedragen.
-
-In JOSM zullen twee gegevenslagen voor OSM worden gemaakt, genaamd “Boundary for tasks: &lt;task number listing&gt;  - Do Not Edit or Upload” en “OSM Data”. U kunt nu beginnen met valideren.
-
-<!--
-#### Selecteren door een polygoon te tekenen
-
-Deze optie stelt een validator in staat om een vierkant te tekenen rondom een groep taken en ze allemaal in één keer te vergrendelen.
-
-Eenmaal in de bewerker van hun keuze, **moet de validator de gegevens van OSM handmatig downloaden** voor de geselecteerde gebieden van de taken. Dit om het downloaden van alle gegevens van OSM over alle geselecteerde taken te voorkomen.
--->
-
-<!--
-#### Selecteren op gebruiker
-
-Een lijst van mappers die een taak als voltooid hebben gemarkeerd wordt weergegeven. Door over een naam in de lijst te gaan worden de taken die zij als voltooid hebben gemarkeerd geaccentueerd. De lijst geeft ook drie belangrijke stukjes informatie over de mapper weer, hun ervaringsniveau, het aantal dagen vanaf dat zij begonnen met in kaart brengen met de Tasking Manager en het aantal dagen vanaf de laatste keer dat zij terugkoppeling ontvingen na valideren. Dit stelt de validator in staat om zich specifiek te richten op nieuwe mappers, ervaren mappers of mappers die gedurende langere tijd geen terugkoppeling hebben ontvangen.
-
-Klikken op de knop "Valideren beginnen" zal alle taken vergrendelen die zijn voltooid door die mapper en stelt de validator in staat ze te openen in de bewerker van hun keuze.
-
-![TM multi selection][]
-
-Eenmaal in de bewerker van hun keuze, **moet de validator de gegevens van OSM handmatig downloaden** voor de geselecteerde gebieden van de taken. Dit om het downloaden van alle gegevens van OSM over alle geselecteerde taken te voorkomen.
--->
-
-### Valideren voltooien
-
-
-U dient, om een taak te valideren/ongeldig te verklaren, Ja/Nee te selecteren onder *Is deze taak goed in kaart gebracht* en dan uw opmerking in te voeren, en klikken op de rode knop *Taak indienen* om op te slaan, vooraleer een andere taak te selecteren. Als u de taak wilt verlaten zonder de status daarvan te wijzigen, laat dan een o-pmerking achter en klik op *Valideren stoppen*.
-
-![TM finalize validation][]
-
-Voor deze twee keuzes kan en zou de validator een vriendelijk, aanmoedigend commentaar moeten geven, gericht aan de betrokken mapper(s) en hen moeten bedanken voor hun bijdragen en terugkoppeling over hun in kaart brengen. Wees voorkomend vóórdat een taak als ongeldig wordt gemarkeerd. Als slechts een klein aantal dingen ontbreken, voeg ze dan zelf toe, leg in uw opmerkingen uit wat er ontbrak en markeer de taak toch als geldig. Nieuwe mappers zullen het als ongeldig markeren van hun taak als een nogal hard commentaar beschouwen.
-
-U krijgt toegang tot de statistieken van een mapper op hun profielpagina op https://<i></i>tasks.hotosm.org/users/_username_. <!-- Als de mapper consistente fouten maakt, kunt u de projecten, waar die mapper aan heeft gewerkt, zoeken door te gaan naar hun projectpagina en Mijn taken te selecteren, onder hun naam. Als u alle taken wilt zien die door een mapper in een specifiek project in kaart zijn gebracht, kunt u in hun taken zoeken op project-ID. -->
 
 
 [TM overview]: /images/coordination/tm4_overview.png
@@ -448,7 +396,9 @@ U krijgt toegang tot de statistieken van een mapper op hun profielpagina op http
 [TM padlock]: /images/coordination/tm4_padlock.png
 [TM end mapping]: /images/coordination/tm4_end_mapping.png
 [TM history instructions]: /images/coordination/tm4_completion-instructions-history.png
+[TM4-history-tab]: /images/coordination/tm4_history_tab.png
 [TM Map a Task]: /images/coordination/tm4_MapATask.png
+[TM4 task preselection]: /images/coordination/tm4_task_preselection.gif
 [TM contribute]: /images/coordination/tasking_manager_contribute.png
 [ID normal]: /images/coordination/tm4_iDeditor.png
 [ID full screen]: /images/coordination/tm4_iDeditor_fullsz.png
@@ -458,9 +408,4 @@ U krijgt toegang tot de statistieken van een mapper op hun profielpagina op http
 [TM project description]: /images/coordination/tm4_project_description.png
 [TM comments]: /images/coordination/tm4_comments.png
 [TM task selection]: /images/coordination/tasking_manager_task_selection.png
-[TM choose project for validation]: /images/coordination/tm4_validation_select_projects.png
-[TM filter project for validation]: /images/coordination/tm4_validation_filter_projects.png
-[TM select for validation]: /images/coordination/tm4_validation_selection.png
-[TM select for validation by contributor]: /images/coordination/tm4_validation_contributor_selection.png
-[TM multi selection]: /images/coordination/tasking_manager_multi_selection.png
-[TM finalize validation]: /images/coordination/tm4_validation_finalize.png
+[TM markdown editor]: /images/coordination/tm4_markdown_editor.gif
