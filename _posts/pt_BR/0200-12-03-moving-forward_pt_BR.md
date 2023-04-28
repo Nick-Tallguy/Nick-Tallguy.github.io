@@ -26,7 +26,7 @@ O OpenStreetMap é um esforço colaborativo e esperamos que você faça parte de
 Leia mais
 ----------
 
-There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  
+Há muitas informações sobre o OpenStreetMap disponíveis em [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Aqui você pode encontrar informações sobre outros projetos relacionados ao OpenStreetMap, documentos e tutoriais que podem ajudá-lo a aprender mais sobre o OSM.  
 
 ![Wiki][]
 
@@ -35,7 +35,7 @@ There is a lot of information about OpenStreetMap available at [wiki.openstreetm
 Lista de email
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
+A melhor maneira de se conectar à comunidade de usuários do OpenStreetMap é entrar na sua lista de discussão local. Muitas pessoas se inscrevem via e-mail para a lista de discussão OSM. Quando estiver na lista, você pode enviar um e-mail para o grupo se tiver alguma dúvida ou quiser falar sobre o OpenStreetMap.  
 
 Para se inscrever na lista de discussão do seu país, acesse [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
@@ -56,7 +56,7 @@ Scroll down the page to find the list associated with your country. The country 
 - Agora, quando você quiser enviar uma mensagem para a lista, você pode enviá-la para [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), substituindo "id" com o país da sua lista. Você também vai receber e-mails quando outros membros enviar uma mensagem para a lista.  
 
 
-Example of OSM use - MyOSMatic
+Exemplo de uso do OSM - MyOSMatic
 ----------
 
 One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
