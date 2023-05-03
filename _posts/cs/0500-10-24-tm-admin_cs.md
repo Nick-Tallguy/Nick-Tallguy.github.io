@@ -75,7 +75,7 @@ Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vaš
 
 ![TM Nový][]
 
-### Define mapping area
+### Definice mapovací oblasti
 
 * Možnost 1: `Nakreslete` oblast zájmu ručně
 
