@@ -107,7 +107,7 @@ Het scherm Lijst met projecten van Tasking Manager is opgedeeld in drie belangri
 - Scrollbare lijst met projecten
 - Een kaartweergave voor de Lijst met projecten kan worden ingeschakeld met het pictogram rechtsboven. ![TM show map][]{:style="float:left;height:20px"}
 
-#### Search and Filter Options
+#### Zoek- en Filteropties
 {:.no_toc}
 
 Standaard worden alle beschikbare projecten voor het in kaart brengen weergegeven. U kunt het filtergedeelte Zoeken van het scherm gebruiken om het aantal projecten waaraan u zou willen werken verder te beperken.
@@ -116,12 +116,12 @@ Standaard worden alle beschikbare projecten voor het in kaart brengen weergegeve
 
 - **Projecten zoeken** - Als u het nummer van het project, waaraan u wilt werken, weet, kunt u dat invoeren in 'Projecten zoeken' en direct daar naartoe worden gebracht. U kunt ook zoeken op tekst vanuit de beschrijving van het project.
 - **Moeilijkheid** - Sommige projecten zijn moeilijker in kaart te brengen dan andere. Deze optie stelt u in staat de projecten te vinden die voor uw ervaringsniveau het meest toepasselijk zijn. U wordt aangemoedigd om te werken aan projecten die het beste passen bij huw ervaringsniveau, in het bijzonder als u een al meer ervaren mapper bent.
-- **Any project** - You can filter on a project to map or to validate. Also archived projects can be filtered here
+- **Elk project** - U kunt filteren op een project om in kaart te brengen of om te valideren. Ook gearchiveerde projecten kunnen hier worden gefilterd
 - **Meer filters** - stelt u in staat te filteren op;
   - Campagne
   - Organisatie
   - Locatie
-  - Interests
+  - Interesses
  - U kunt de lijst met resultaten ook sorteren
 
 **Kaartweergave** Als u er voor kiest om de kaart weer te geven, kunt u een kaart van de wereld bekijken die aangeeft waar de projecten zijn, of een schijf die het aantal projecten in een gebied aanduidt. Zoom in voor meer details, en u kunt een project selecteren door te klikken op zijn link in de kaart.
@@ -195,14 +195,14 @@ Start JOSM voordat u deze link gebruikt en de bestaande gegevens van OSM  zullen
 ##### Bewerker iD
 {:.no_toc}
 
-Select this to automatically start the OpenStreetMap iD editor within the Task Manager of your web browser, with existing OSM data loaded. The Internet Explorer web browser does not currently support iD. 
+Selecteer dit om automatisch de OpenStreetMap bewerker iD in de Tasking Manager te openen in uw webbrowser, met bestaande gegevens van OSM geladen. De webbrowser Internet Explorer ondersteunt op dit moment het gebruik van iD niet, en het zal in plaats daarvan Potlatch 2 laden.
 
 ##### Potlatch 2
 {:.no_toc}
 
-From 2010 to 2020, Potlatch (version 2) was available as an online editor on openstreetmap.org via the Flash Player. Version 3 is a port to run under the desktop AIR environment.
+Van 2010 tot en met 2020 was Potlatch (versie 2) beschikbaar als een online bewerker op openstreetmap.org via de Flash Player. Versie 3 is een port om te worden uitgevoerd in de desktopomgeving AIR.
 
-For more information see https://github.com/systemed/potlatch3#Potlatch.
+Voor meer informatie, bekijk https://github.com/systemed/potlatch3#Potlatch.
 
 <!-- maar u kunt dat laten doen door de volgende procedure te volgen:  
 
@@ -222,20 +222,20 @@ Gebruik deze optie alleen als u betrokken bent bij een project waar een lokale m
 
 #### Een taak selecteren om in kaart te brengen
 
-![TM Map a Task][]{:style="float:left;height:50px"} The button `Map a task` will lock a random task for you, and is the best option to choose when mapping at a Mapathon, or when a large number of people are working on a project at the same time. 
+![TM Map a Task][]{:style="float:left;height:50px"} De knop `Een taak in kaart brengen` zal voor u een willekeurige taak vergrendelen, en is de beste optie om te kiezen bij het in kaart brengen op een Mapathon, of als een groot aantal personen tegelijkertijd aan een project werken. 
 
-There may be situations where you prefer to make your personal task selection using the map. You can make a pre-selection based on the task status by clicking the dropdown menu with the text "All".
+Er zouden situaties kunnen zijn waar u er de voorkeur aan geeft uw eigen persoonlijke selectie voor een taak te maken met behulp van de kaart. U kunt een pre-selectie maken, gebaseerd op de status van de taak door te klikken op het keuzemenu met de tekst "Alles".
 
 ![TM4 task preselection][]{:style="float:right;"}
 
-In either case you will reach the stage where your task is locked, and your 2 hour countdown timer has started.
+In beide gevallen zult u het stadium bereiken waar uw taak is vergrendeld, en uw 2-uurs klok is gestart.
 > **Tip**  - Maak een notitie van uw begintijd, zodat het vierkant niet per ongeuk wordt ontgrendeld terwijl u er nog steeds aan werkt. Als dat gebeurt, en een andere mapper selecteert het en begint met in kaart brengen is het zeer waarschijnlijk dat er later problemen optreden met **conflicten** (Twee mappers hebbennhetzelfde object bewerkt, en de database van OpenStreetMap verhindert dat u uw werk uploadt totdat u aangeeft welk werk van welke persoon correct is). Voor meer informatie over [conflicten](/nl_NL/beginner/id-editor/#saving-your-changes) of in ons [gedeelte HOT Tips](/nl_NL/hot-tips/saving/). Als u in kaart brengt met JOSM, bekijk [JOSM oplossen van conflicten](/nl_NL/josm/josm-conflict-resolution/).
 
 ![TM history instructions][]{:style="float:right;"} Als u eenmaal uw taak hebt vergrendeld, en de begrenzing van uw vierkant (taak) wordt weergegeven. U kunt nog steeds op de tabs klikken voor:
 
 - **VOLTOOID** waar u later zult aangeven waarom u deze taak hebt verlaten, zoals dat u het gevraagde in kaart brengen hebt voltooid, of dat u om een of andere reden niet in staat bent geweest om hem te voltooien - zorg er voor dat u een bericht achterlaat waarom, zoals " *Run out of time, I've done all of the top half of the square, but there is a lot more to be done in the bottom half* " voordat u **Een andere taak selecteren** selecteert.
 - **INSTRUCTIES** waar u opnieuw de instructies voor de taak kunt bekijken, als u zich enkele details niet kunt herinneren, misschien voor te gebruiken tags voor bepaalde objecten, of wat te doen met afbeeldingen, voordat u doorgaat met in kaart brengen.
-- **HISTORY** before starting to map, please always first read the comments under this tab. This is useful to check in case there is a comment from a previous mapper, such as that they have completed the top of the square only, and you need to concentrate on the lower half. You can see that there are comments if there is a number in a red circle next to the tab. Possibly you also see a warning  ̈Please check the history tab for relevant comments ̈.
+- **GESCHIEDENIS** lees, vóór het beginnen met in kaart brengen, altijd de opmerkingen onder deze tab. Dit is nuttig om te controleren in gevallen dat er een opmerking is van een eerdere mapper, zoals dat zij alleen de bovenzijde van het vierkant hebben voltooid, en u zich dient te concentreren op de onderste helft. U kunt zien of er opmerkingen zijn als er een getal staat in een rode cirkel naast de tab. Mogelijk ziet u ook een waarschuwing. ̈Controleer dus de tab Geschiedenis op relevante opmerkingen ̈.
 
 ![TM4-history-tab][]
 
@@ -296,7 +296,7 @@ Als dat niet het geval is, geef dan aan `The imagery is bad` en bevestig door op
 
 U mag [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) gebruiken om uw tekst op te maken, bijv. alinea's maken of een lijst toevoegen. Het is ook mogelijk afbeeldingen in te voegen met slepen en neerzetten.
 
-The comment box contains a toolbar with buttons to format your text. It produces Markdown templates that you can (sometimes must) adapt to your needs. The preview tab is for now only available on the general project QUESTIONS AND COMMENTS section.
+Het vak Opmerking bevat een werkbalk met knoppen om uw tekst op te maken. Het produceert sjablonen voor Markdown die u kunt (en soms moet) aanpassen aan uw behoefte. De tab Voorbeeld is momenteel alleen beschikbaar in het gedeelte VRAGEN EN ANTWOORDEN in het algemene project.
 
 ![TM markdown editor][]{:style="float:right;width:300px"}
 
@@ -366,7 +366,7 @@ Enkele algemene adviezen om in acht te nemen wanneer u met dit programma werkt:
 
 Valideren is het proces dat een ervaren mapper het in kaart brengen van de initiële mapper van een taak in het project nakijkt. Het is ontworpen om te bevestigen dat het in kaart brengen volledig is en dat de kwaliteit van de gegevens goed is. Het is er ook om mappers aan te moedigen door ze te bedanken voor hun tijd, te bevestigen dat hun in kaart brengen goed is of door instructies te geven over hoe zij hun in kaart brengen kunnen verbeteren.
 
-More details can be found in [a guide of its own](/en/coordination/validation)
+Meer details zijn te vinden in [een gids van zichzelf](/nl_NL/coordination/validation)
 
 
 
