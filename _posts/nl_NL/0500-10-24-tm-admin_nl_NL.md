@@ -18,27 +18,27 @@ Index gedeelte
 -  [Een project maken](/nl_NL/coordination/tm-admin/#create-a-project)
     -  [Gebied voor in kaart brengen definiëren](/nl_NL/coordination/tm-admin/#define-mapping-area)
     -  [Taken definiëren](/nl_NL/coordination/tm-admin/#define-tasks)
-    -  [Advanced: Define tasks with imported data](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Name the project](/en/coordination/tm-admin/#name-the-project)
--  [Edit a project](/en/coordination/tm-admin/#edit-a-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
-    -  [Settings](/en/coordination/tm-admin/#settings)
-    -  [Actions](/en/coordination/tm-admin/#actions)
-    -  [Custom editor](/en/coordination/tm-admin/#custom-editor)
-    -  [Save and test](/en/coordination/tm-admin/#save-and-test)
-    -  [Publish](/en/coordination/tm-admin/#publish)
--  [Project management](/en/coordination/tm-admin/#project-management) 
-    -  [Be responsive](/en/coordination/tm-admin/#be-responsive)
-    -  [Sequencing projects](/en/coordination/tm-admin/#sequencing-projects)
-    -  [Project lifecycle](/en/coordination/tm-admin/#project-lifecycle)
--  [Additional information](/en/coordination/tm-admin/#additional-information)
-    -  [Considerations concerning imagery](/en/coordination/tm-admin/#considerations-concerning-imagery)
+    -  [Geavanceerd: Taken definiëren met geïmporteerde gegevens](/nl_NL/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
+    -  [Projectgebied verkleinen](/nl_NL/coordination/tm-admin/#project-area-trim)
+    -  [Het project een naam geven](/nl_NL/coordination/tm-admin/#name-the-project)
+-  [Een project bewerken](/nl_NL/coordination/tm-admin/#edit-a-project)
+    -  [Omschrijving - het eerste dat gebruikers leren over uw project](/nl_NL/coordination/tm-admin/#description)
+    -  [Instructies - wat de gebruikers zouden moeten doen](/nl_NL/coordination/tm-admin/#instructions)
+    -  [Metadata - waar het project bij hoort](/nl_NL/coordination/tm-admin/#metadata)
+    -  [Gebieden met prioriteit - waar gebruikers zouden moeten beginnen met in kaart brengen](/nl_NL/coordination/tm-admin/#priority-areas)
+    -  [Afbeeldingen - de basis voor het in kaart brengen](/nl_NL/coordination/tm-admin/#imagery)
+    -  [Rechten - wie mag in kaart brengen en valideren](/nl_NL/coordination/tm-admin/#permissions)
+    -  [Instellingen](/nl_NL/coordination/tm-admin/#settings)
+    -  [Acties](/nl_NL/coordination/tm-admin/#actions)
+    -  [Aangepaste bewerker](/nl_NL/coordination/tm-admin/#custom-editor)
+    -  [Opslaan en testen](/nl_NL/coordination/tm-admin/#save-and-test)
+    -  [Publiceren](/nl_NL/coordination/tm-admin/#publish)
+-  [Project beheren](/nl_NL/coordination/tm-admin/#project-management) 
+    -  [Reageer](/nl_NL/coordination/tm-admin/#be-responsive)
+    -  [Reeksen in projecten](/nl_NL/coordination/tm-admin/#sequencing-projects)
+    -  [Levenscyclus van een project](/nl_NL/coordination/tm-admin/#project-lifecycle)
+-  [Aanvullende informatie](/nl_NL/coordination/tm-admin/#additional-information)
+    -  [Overwegingen met betrekking tot afbeeldingen](/nl_NL/coordination/tm-admin/#considerations-concerning-imagery)
 
 De Tasking Manager is het essentiële programma om het in kaart brengen in OpenStreetMap te coördineren. Het ondersteunt initiatieven voor humanitair in kaart brengen, mapathons uitvoeren of het maken van taken om in kaart te brengen voor studenten. De toepassing deelt een gebied op in beheersbare geografische stukken, die snel en met meerdere mensen in kaart kunnen worden gebracht. Deze benadering maakt het verdelen van taken aan veel individuele mappers mogelijk, waardoor mogelijke conflicten bij bewerken worden verkleind. 
 
@@ -115,190 +115,190 @@ Overwegingen bij het bepalen van tegelgrootten
 -  Taken kunnen worden gesplitst, maar er is geen optie om ze opnieuw samen te voegen als een project eenmaal is gemaakt.
 -  Als een project eenmaal is gemaakt, is het splitsen van taken bijzonder tijdrovend en moet met één taak per keer worden uitgevoerd.
 -  Aan de rand en hoeken van taken is er een groter potentieel voor conflicten tussen naburige mappers. Kleinere taken betekenen meer randen en hoeken. Er is een nadeel in de grootte voor taken om het voor mappers gemakkelijker te maken, maar niet om conflicten te produceren bij het in kaart brengen tussen hen.
--  Small tasks are easier to map, but more tasks means more time needs to be spent by mappers updating the status of each, and projects with tasks that are too small can therefore be inefficient.
--  Beginner mappers roughly need four times as long as experienced mappers.
--  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
+-  Kleine taken zijn gemakkelijker in kaart te brengen, maar meer taken betekent dat door mappers meer tijd moet worden gespendeerd aan het bijwerken van de status van elke taak, en projecten met taken die te klein zijn kunnen daardoor inefficiënt zijn.
+-  Beginnende mappers hebben ruwweg vier keer zoveel tijd nodig als ervaren mappers.
+-  Beginnende mappers moeten een oog ontwikkelen voor satellietbeelden. Herkennen van de juiste objecten zou moeilijk kunnen zijn.
 
-Once you are happy with your task sizes, click `Next`.
+Als u tevreden bent met de grootte van uw taak, klik dan op `Volgende`.
 
-### Advanced: Define tasks with imported data
+### Geavanceerd: Taken definiëren met geïmporteerde gegevens
 
-If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. For example, a completed project from MapSwipe which focuses on populated areas or a complex grid you have pre-created in QGIS. If that is the case, make sure to enable the 'Set tasks using uploaded polygons' toggle. This will skip straight to the naming stage of project creation. 
+Als u een bestand upload om uw projectgebied te definiëren, zou dat bestand ook de vromen voor de individuele taken mogen bevatten. Bijvoorbeeld: een voltooid project van MapSwipe dat focust op bevolkte gebieden of een complex raster dat u vooraf hebt gemaakt in QGIS. Als dat het geval is, zorg er dan voor dat 'Stel taken in met geüploade polygonen' is ingeschakeld. Dit zal direct doorgaan naar de fase van een naam geven bij het maken van het project. 
 
 ![TM New Polys][]
 
-### Project area trim
+### Projectgebied verkleinen
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extent of your mapping area. You will almost certainly want to do this. Click on `Trim` to remove all task squares which do not overlap your project area. 
+Na het bepalen van de grootte voor de taken heeft u de optie om de taken te verkleinen tot het bereik van uw gebied om in kaart te brengen. U zou dit bijna zeker willen doen. Klik op `Verkleinen` om alle vierkanten voor taken te verwijderen die uw gebied om in kaart te brengen niet overlappen.
 
 ![TM Trim coarse][]
 
-If you toggle on 'Trim the tasks to define the exact Area of Interest for mapping.' before clicking on `Trim` the overlapping task portions at the edge of your area of interest will be trimmed sharply against your area of interest.
+Als u schakelt met 'Taken verkleinen om het exacte projectgebied voor in kaart brengen te definiëren.' voordat u op `Verkleinen` klikt zullen de gedeelten van taken aan de rand van uw gebied scherp worden verkleind ten opzichte van uw projectgebied.
 
 ![TM Trim fine][]
 
-Trimming sharply may result in some extremely small tasks. These tiny tasks can confuse mappers. You can choose to remove them by selecting `Discard` when you see the message 'There are ... tasks smaller than 2,000m2. Would you like to discard them?'
+Scherp verkleinen zou kunnen resulteren in enkele extreem kleine taken. Deze kleine taken kunnen mappers in verwarring brengen. door `Negeren` te selecteren als u het bericht 'Er zijn … taken kleiner dan 2.000m2. Wilt u ze negeren?' ziet.
 
-> Take note of the number of tasks that your project has (look in the bottom left hand corner of your map). The maximum technical limit for the number of tasks in one Tasking Manager project is 5,000. However, to ensure your project doesn't take too long to complete, try and keep it under 1,000 tasks - if you need to map a larger area try splitting it into smaller projects. 
+> Onthoud het aantal taken dat uw project heeft (kijk in de linkerbenednehoek van uw kaart). De maximale technische limiet voor het aantal taken in één project van Tasking Manager is 5.000. Echter, om er voor te zorgen dat uw project niet teveel tijd kost om te voltooien, probeer het onder de 1.000 taken te houden - als u een groter gebied in kaart wilt brengen, probeer het dan op te splitsen in kleienre projecten. 
 
-Click `Next`.
+Klik op `Volgende`.
 
-### Name the project
+### Het project een naam geven
 
-A project's name is one of its most important aspects when it comes to being discovered by the wider public. Try and include the name of the country the project is located (e.g. South Sudan), the reason for mapping (e.g. COVID Vaccination) and also the more specific location, maybe the district or settlement name (e.g. Yambio County). For example a full project name might be: _South Sudan, COVID Vaccination, Yambio County_. 
+De naam van een project is één van zijn meest belangrijke aspecten als het aankomt op het worden ontdekt door het bredere publiek. Probeer om de naam van het land waarin het project is gelegen op te nemen (bijv. South Sudan), de reden voor het in kaart brengen (bijv. COVID Vaccination) en ook de meer specifieke locatie, misschien de naam van het district of de nederzetting (bijv. Yambio County). Een volledige naam voor een project zou bijvoorbeeld kunnen zijn: _South Sudan, COVID Vaccination, Yambio County_. 
 
-Ensure your organization is selected under the 'Organization' field. 
+Zorg er voor dat uw organisatie is geselecteerd in het veld 'Organisatie'. 
 
-> Before completing this stage make sure you are happy with the project's area of interest and the overall number of tasks, these elements cannot be adjusted later on. 
+> Overtuig u ervan, voor het voltooien van dit stadium, dat u tevreden bent met het projectgebied en het totale aantal taken, deze elementen kunnen later niet meer worden aangepast. 
 
-Click `Create`. Your project will be created but it will not publish immediately - you'll be directed to the Edit menu of the project first. 
+Klik op `Maken`. Uw project zal worden gemaakt, maar zal niet onmiddellijk worden gepubliceerd - u zult eerst worden omgeleid naar het menu Bewerken van het project. 
 
-## Edit a project
+## Een project bewerken
 
-You'll now see the 'Edit' menu of your project. Before the project can be saved, you'll need to go through the 'Edit' menu carefully to complete setup. Here is a quick summary of the sub-menus you will see on the left hand side:
+U zult nu het menu 'Bewerken' van uw project zien. U moet, voordat het project kan worden opgeslagen, zorgvuldig door het menu 'Bewerken' gaan om het maken te voltooien. Hier is een snel overzicht van de submenu's die u zult zien aan de linkerkant:
 
-- Description - Set the status, priority and text description associated with your project.
-- Instructions - Detailed instructions for how to map the needed features and approach the project.
-- Metadata - Define the features that need to be mapped. Also includes information used for categorizing projects, used in filtering projects.
-- Priority Areas - Allows you to specify parts within the project area that should be mapped first.
-- Imagery - Choose the imagery that will load by default when volunteers map your project. 
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Toggle alternative editors such as RapiD on/off.
-- Actions - Powerful bulk actions you can perform on your project, such as cloning or deleting.
-- Custom editor - Add a custom editor using a URL
+- Omschrijving - Stel de status, prioriteit en tekst voor de beschrijving, geassocieerd met uw project, in.
+- Instructies - Gedetailleerde instructies over wat en hoe de benodigde objecten/entiteiten/mogelijkheden in kaart moet worden gebracht en het project moet worden benaderd.
+- Metadata - Definieer de objecten die in kaart moeten worden gebracht. Bevat ook informatie die wordt gebruikt voor het categoriseren van projecten, gebruikt bij het filteren van projecten.
+- Prioriteitsgebieden - Stelt u in staat delen in het projectgebied te specificeren die als eerste in kaart zouden moeten worden  gebracht.
+- Afbeeldingen - Kies de afbeeldingen die standaard zullen worden geladen als vrijwilligers uw project in kaart brengen. 
+- Rechten - Stelt u in staat rechten, voor toegang tot het project voor het in kaart brengen en het valideren, te beperken.
+- Instellingen - Schakel alternatieve bewerkers, zoals RapiD, in/uit.
+- Acties - Krachtige bulkacties die u op uw project kunt uitvoeren, zoals klonen of verwijderen.
+- Aangepaste bewerker - Voeg een aangepaste bewerker toe met een URL
 
-> Filling in this information carefully is an essential part of a successful mapping project. It is particularly important that the project description and instructions are clearly communicated so mappers are aware of the importance of data quality and best practice. Keep in mind, contributors may not have previous experience with OpenStreetMap and are unlikely to be familiar with tagging guidelines.
+> Zorgvuldig invullen van deze informatie is een essentieel deel van een succesvol project voor in kaart brengen. Het is in het bijzonde rbelangrijk dat de omschrijving van het project en instructies helder worden gecommuniceerd zodat de mappers zich bewust zijn van de belangrijkheid van de kwaliteit van de gegevens en beste methoden. Onthoud dat deelnemers geen eerdere ervaring zouden kunnen hebben met OpenStreetMap en waarschijnlijk niet bekend zijn met de richtlijnen voor taggen.
 
-### Description
+### Omschrijving
 
 ![TM Description][]
 
 #### Status
 
-First is the project status. This can be set to either **Draft**, **Published**, or **Archived**.
+Eerste is de projectstatus. Deze kan worden ingesteld op **Concept**, **Gepubliceerd**, of **Gearchiveerd**.
 
-- **Draft** - Your project will start in draft mode. In this mode it will not be discoverable and it will not be possible for the public to contribute towards it. This is perfect while you are still setting your project up and testing it before release. 
-- **Published** - When you have completed your project setup, tested it and are happy for it to be publicly listed and open for mapping/validation.
-- **Archived** - All projects should end up being archived. Archived projects are public but locked for contributions. You should consider archiving your project either if:
-  - It is 100% mapped and validated
-  - The instructions or imagery are substantially outdated
-  - The project was created more than a year ago
-  - Map data is no longer needed for humanitarian purposes in the project area
+- **Concept** - Uw project zal beginnen in de modus Concept. In deze modus zal het niet te zien zijn en het zal voor het publiek niet mogelijk zijn om er aan deel te nemen. Dit is perfect terwijl u nog steeds uw project aan het instellen bent en het te testen vóór het uitgeven. 
+- **Gepubliceerd** - Als u de instelling van uw project hebt voltooid, het hebt getest en tevreden bent om het publiek te vermelden en te openen voor in kaart brengen/valideren.
+- **Gearchiveerd** - Alle projecten zouden gearchiveerd moeten eindigen. Gearchiveerde projecten zijn publiek, maar vergrendeld voor bijdragen. U zou moeten overwegen uw project te archiveren als:
+  - Het voor 100% in kaart is gebracht en gevalideer
+  - De instructies of afbeeldingen substantieel verouderd zijn
+  - Het project langer dan een jaar geleden werd gemaakt
+  - De kaartgegevens niet langer nodig zijn voor humanitaire doelen in het projectgebied
 
-#### Priority
+#### Prioriteit
 
-Next is the project priority. This dictates how close to the front of the Tasking Manager the project will be seen in the Explore Projects page. This can be set to either **Urgent**, **High**, **Medium** or **Low**.
+Volgende is de prioriteit van het project. Dit bepaalt hoe dicht bij de voorkant van de Tasking Manager het project te zien zal zien op de pagina Projecten verkennen. Dit kan worden ingesteld op **Urgent**, **Hoog**, **Medium** of **Laag**.
 
-- **Urgent** - Only set this status if the project is **in response to a disaster and the data needs are immediate**. Very few projects have this priority level. 
-- **High** - For projects that are not necessarily in response to a disaster but the data is needed in a **short time-frame**. 
-- **Medium** - If the data is needed but not in a particularly short time-frame.
-- **Low** - If you want to publish your project but do not want to make it very prominent. You might prefer to share your project to specific groups using the project URL.
+- **Urgent** - Stel deze status alleen in als het project **een antwoord is op een ramp en de gegevens onmiddellijk nodig zijn**. Heel weinig projecten hebben dit niveau van prioriteit. 
+- **Hoog** - Voor projecten die niet noodzakelijkerwijze een antwoord zijn op een ramp, maar de gegevens zijn nodig in een **kort tijdsbestek**. 
+- **Medium** - Als de gegevens nodig zijn, maar niet in een bijzonder kort tijdsbestek.
+- **Laag** - Als u uw project wilt publiceren, maar het niet prominent aanwezig wilt laten zijn. U zou misschien de voorkeur hebben om uw project te delen met specifieke groepen die de URL van het project gebruiken.
 
-#### Short description
+#### Korte beschrijving
 
-Add at least two sentences that briefly describe your project. This is important because volunteers will read this to decide on whether to contribute. Try and clearly explain **why** the data is being collected and **how the map data will be used**. 
+Voeg tenminste twee regels toe die in het kort uw project beschrijven. Dit is belangrijk omdat vrijwilligers dit zullen lezen om te beslissen of zij willen bijdragen. Probeer helder uit te leggen **waarom** de gegevens worden verzameld en **hoe de kaart zal worden gebruikt**. 
 
-> These fields support **Markdown** and can include images (drag and drop) and videos (add a YouTube URL for automatic embedding).
+> Deze velden ondersteunen **Markdown** en mogen afbeeldingen bevatten (slepen en neerzetten) en video's (voeg een URL voor YouTube toe voor automatisch inbedden).
 
-#### 'Long' Description
+#### 'Lange' beschrijving
 
-You can go into more detail about your project here. Provide more information about why the project exists, who will use the data and the expected the impact the mapping will have. If the project involves any collaborations or partners you could expand on that here. 
+U kunt hier meer in detail op uw project ingaan. Geef meer informatie over waarom het project bestaat, wie de gegevens zal gebruiken en de verwachte impact die het in kaart brengen zal hebben. Als het project samenwerking of partners bevat, zou u daar hier over kunnen uitweiden. 
 
-> For any of these text fields you can choose to add additional translations. If you'd like to add a translation, click on the two letter language code and enter the translated text. For users that have set the Tasking Manager to that language it will automatically display the project in that language. By default, the initial field is English language, this can be altered in the 'Settings' sub-menu of your project.
+> Voor elk van deze velden kunt u er voor kiezen aanvullende vertalingen toe te voegen. Als een een vertaling zou willen toevoegen, klik op de twee-letterige landcode en voer de vertaalde tekst in. Voor gebruikers die de Tasking Manager hebben ingesteld voor die taal zal het automatisch het project weergeven in die taal. Standaard is het veld in de Engelse taal, dit kan wordne gewijzigd in het submenu 'Instellingen' van uw project.
 
-#### Due date
+#### Vervaldatum
 
-If you have a date by which you wish your project to be completely mapped and validated you can add that here. This is optional and once the date is exceeded it does not change anything for the project and volunteers can continue contributing afterwards. Contributors will see the due date listed next to the project. 
+Als u een datum hebt waarop uw wilt dat het project volledig in kaart is gebracht en gevalideerd, kunt u dat hier toevoegen. Dit is optioneel en als de datum eenmaal is verstreken verandert er niets aan het project en vrijwilligers kunnen later doorgaan met bijdragen. Deelnemers zullen de vervaldatum zien weergegeven naast het project. 
 
-### Instructions
+### Instructies
 
 ![TM Instructions][]
 
-#### Changeset comment
+#### Opmerking wijzigingenset
 
-Here you can add additional tracking tags which will automatically populate each time someone saves their work while mapping your project. For example, if you want to start tracking all contributions across all your organization's projects you might want to add a common tracking tag to them, e.g. #MSF or #cartONG. Please try to **keep these tags short** and do not add too many of them, cluttered changeset comments are confusing to interpret and space should be left for mappers to leave descriptive changeset comments. 
+Hier kunt u aanvullend tags voor volgen toevoegen, die automatisch zullen worden gevuld elke keer als iemand zijn werk voor het in kaart brengen opslaat in uw project. Als u bijvoorbeeld zou willen starten met het volgen van alle bijdragen in alle projecten van uw organisatie, zou u er een algemene tag aan toe kunnen voegen, bijv. #MSF of #cartONG. Probeer **deze tags kort te houden** en voeg er niet te veel aan toe, overdadig gevulde opmerkingen voor wijzigingensets zijn moeilijk te interpreteren en er zou ruimte voor mappers over moeten blijven om beschrijvende opmerkingen voor de wijzigingenset over moeten blijven. 
 
-> Please note that a unique project tracking tag will already be present, e.g. #hotosm-project-11188 - **please leave this as it is**, it is very important for tracking the progress of the project. The number at the end of the tag is your project's unique ID.
+> Onthoud dat een unieke tag voor het volgen van het project al aanwezig zal zijn, bijv. #hotosm-project-11188 - **laat deze zoals die is**, het is heel belangrijk voor het volgen van de voortgang van het project. Het getal aan het einde van uw tag is de unieke ID van uw project.
 
-#### Detailed Instructions
+#### Gedetailleerde instructies
 
-Add descriptive instructions for mappers and validators to follow while working on your project. Your project will be public, therefore **write instructions for inexperienced users** with no local or contextual knowledge. Please use plain language as your target audience may not be native English speakers.
+Voeg beschrijvende instructies toe voor mappers en validatoren om te volgen bij het werken aan uw project. Uw project zal publiek zijn, daarom **schrijf instructies voor onervaren gebruikers** zonder lokale of contextuele kennis. Gebruik heldere taal om het publiek dat u wilt bereiken niet allemaal  autochtone Nederlanders zijn.
 
-1. Write the most important information at the top to ensure it is prominent. This could includes a description of the imagery and a warning of an imagery offset issue with guidance. Or it might instruct mappers to ignore paths and tracks in a highway mapping project and focus on more prominent highways.
-2. Add context/location specific instructions. These vary significantly but will help mappers interpret satellite imagery. E.g. 'Expect to see many circular brown thatched huts in this South Sudan project' or 'Settlements in Guatemala are often densely built, zoom extremely far in when mapping each building to ensure they do not connect or overlap'. Drag and drop aerial imagery screenshots into the instructions here to enhance this section.
-3. Definitely include a detailed description of **how to map each feature** that you wish to be mapped. Look at existing (but recent) projects on Tasking Manager to see if you can borrow some existing instructional text (beware that some projects will not have good instructions!).
-4. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related projects the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and may be worth linking to in your project's instructions. If your project must adhere to different tagging standards then write a similar page in the Wiki and link it in your instructions.
-5. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery. Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
+1. Schrijf de meest belangrijke informatie aan de bovenzijde om er voor te zorgen dat het opvalt. Zit zou een beschrijving kunnen bevatten van de afbeeldingen en een waarschuwing voor een verschuiving van de afbeeldingen met richtlijnen. Of het zou mappers kunnen instrueren om paden en sporen in een project voor het in kaart brengen van hoofdwegen te negeren en focussen op meer prominente hoofdwegen.
+2. Voegcontext-/locatiespecifieke instructies toe. Deze variëren significant, maar zullen helpen dat mappers satellietafbeeldingen interpreteren. Bijv. 'Verwacht veel cirkelvormige bruine rieten hutten te zien in dit project voor Zuid Soedan' of 'Nederzettingen in Guatemala zijn vaak dicht bebouwd, zoom extreem ver in bij het in kaart brengen van elk gebouw om er zeker van te zijn dat zij niet met elkaar verbonden zijn of overlappen'. Sleep en zet schermafdrukken van luchtfoto's neer in de instructies om dat gedeelte te verbeteren.
+3. Voeg zeker een gedetailleerde beschrijving in voor **hoe elk object in kaart te brengen** waarvan u wilt dat ze in kaart worden gebracht. Kijk naar bestaande (maar recente) projecten in de Tasking Manager om te zien of u wat bestaande tekst voor instructies kunt lenen (weet wel dat sommige projecten geen goede instructies hebben!).
+4. De uiteindelijke bron voor taggen is de [wiki van OpenStreetMap](https://wiki.openstreetmap.org/wiki/Map_Features). Voor veel aan HOT gerelateerde projecten is de pagina op [taggen van highways in Africa](https://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) de juiste specificatie en zou het waarde kunnen zijn om te worden gelinkt naar de instructies voor uw project. Als uw project moet voldoen aan andere standaarden voor taggen, schrijf dan een soortgelijke pagina in de wiki en link daarnaar in uw instructies.
+5. Andere punten ter verduidelijking: Als het project geschikt is voor mappers met slechts een bepaald niveau van ervaring. Bijvoorbeeld: het project gebruikt geïmporteerde bestanden of bestaande gegevens zouden moeten worden uitgelijnd aan GPS-sporen of een andere afbeelding. Omschrijf het zo dat nieuwe mappers zich welkom zullen voelen bij te dragen aan andere projecten, maar zullen begrijpen dat in dit geval geavanceerde technieken vereist zijn.
 6. Er zijn richtlijnen die algemene fouten behandelen die we zien bij het valideren van het in kaart gebrachte. Eén voorbeeld is Blake Girardot's compilatie over [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Gebruik de link in de instructies en leg uit dat het volgen van die richtlijnen is vereist.
 
-#### Per Task Instructions 
+#### Instructies per taak 
 
-This is optional but it is possible to add a short snippet of additional instruction that mappers will see while they are working on a task. This is seen on the right hand side of the Tasking Manager editor view above the 'Task Status' section. This will be seen at all times while mapping, so if there is something **particularly important** that you want to **instruct mappers** about you could add that here. 
+Dit is optioneel, maar het is mogelijk een kort snipper van aanvullende instructies toe te voegen dat mappers zullen zien bij het werken aan een taak. Dit is te zien aan de rechterkant van de weergave van de bewerker van Tasking Manager boven het gedeelte 'Status taak'. Dit is altijd te zien tijdens het in kaart brengen, als er dus iets **bijzonder belangrijk** is dat u aan uw **mappers kenbaar wil maken**, zou u dat hier kunnen toevoegen. 
 
 ### Metadata
 
 ![TM Metadata][]
 
-#### Mapper level
+#### Niveau mapper
 
-This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Beginner difficulty **can result in significant data quality issues**. 
+Dit wijzigt het niveau voor de moeilijkheid dat wordt **weergegeven** voor uw project. Overweeg dit heel zorgvuldig, complexe projecten die onjuist zijn ingesteld op de moeilijkheid Beginner **kunnen resulteren in significante problemen met de kwaliteit van de gegevens**. 
 
-> Note that this does not change who can **actually contribute** to your project, those restrictions are implemented under the Permissions sub-menu.
+> Onthoud dat dit niet wijzigt wie er **feitelijk kan bijdragen** aan uw project, deze beperkingen zijn geïmplementeerd onder het submenu Rechten.
 
-Most projects are set to either **Beginner** or **Intermediate** difficulty, a handful of projects are set to Advanced. 
+De meeste projecten zijn ingesteld op ofwel moeilijkheid  **Beginner** of **Gemiddeld**, een handjevol projecten zijn ingesteld op Gevorderd. 
 
-- **Beginner** - Consider this if your project is easy to map and:
-  - You are only asking contributors to map one feature, particularly **buildings only**
-  - The density of features is low, i.e. in a **rural** area
-  - There is a **low quantity** of existing OSM data in your project area
-  - There are no imagery alignment issues
-- **Intermediate** - If your project is trickier to map, this should be considered if:
-  - You are asking contributors to map more than one feature, e.g. buildings **and** roads
-  - There is a medium/high density of those features in your project area, i.e. **urban** areas
-  - There is **substantial** existing OSM data in your project area
-  - There might be **imagery alignment issues** or you ask contributors to use more than one imagery source
-- **Advanced** - If the project is extremely difficult to map, consider this if: 
-  - There is a very high density features in your project area, i.e. **central urban** areas
-  - There is a **lot of** existing OSM data in your project area
-  - There are **complex imagery alignment** issues
+- **Beginner** - Overweeg of uw project gemakkelijk in kaart is te brengen en:
+  - U vraagt deelnemers om slechts één object in kaart te brengen, in het bijzonder **alleen gebouwen**
+  - De dichtheid van de objecten is laag, d.i. in een **afgelegen** gebied
+  - Er is een **lage kwantiteit** van bestaande gegevens voor OSM in uw projectgebied
+  - Er zijn geen problemen met het uitlijnen van afbeeldingen
+- **Gemiddeld** - Als uw project niet zo gemakkelijk in kaart is te brengen, zou dit moeten overwogen als:
+  - U deelnemers vraag meer dan één object in kaart te brengen, bijv. gebouwen **en** wegen
+  - Er een medium/hoge dichtheid is voor deze objecten in uw projectgebied, d.i. **stedelijke** gebieden
+  - Er zijn **substantieel** bestaande gegevens voor OSM in uw projectgebied
+  - Er zouden **problemen met uitlijnen van afbeeldingen** kunnen zijn of u vraagt deelnemers om meer dan één bron voor afbeeldingen te gebruiken
+- **Gevorderd** - Als het project extreem moeilijk in kaart te brengen is, overweeg dit als: 
+  - Er is een zeer hoge dichtheid voor deze objecten in uw projectgebied, d.i. **centrale stedelijke** gebieden
+  - Er zijn **heel veel** bestaande gegevens voor OSM in uw projectgebied
+  - Er zijn **complexe problemen met het uitlijnen van afbeeldingen**
 
-#### Types of mapping
+#### Typen voor in kaart brengen
 
-Toggle these on/off depending on the features that you wish to be mapped in your project. Generally the **fewer features the better**, as projects which aim to map too many features often struggle to make much progress. 
+Schakel deze in/uit, afhankelijk van de objecten die u in kaart wilt laten brengen in uw project. Over het algemeen **des te minder, des te beter**, omdat projecten die zich er op richten teveel objecten in kaart te brengen vaak moeite hebben om voldoende voortgang te maken. 
 
-> Projects that ask for lots of features to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and highways/waterways mapped separately is best practice. 
+> Projecten die vragen om heel veel objecten in kaart te brengen zijn moeilijk voor mappers en moeilijk om te valideren. Zij hebben veel meer tijd nodig om een goede bruikbare gegevensset te maken. Grootten voor taken zijn ook moeilijk efficiënt te maken voor verschillende typen van in kaart brengen, bijv, gebouwen hebben kleine vierkanten voor taken nodig, wegen en waterwegen hebben grote vierkanten voor taken nodig. Maken van meerdere projecten voor hetzelfde gebied om gebouwen en wegen/waterwegen afzonderlijk in kaart te brengen is dan het beste.
 
-#### iD Editor Presets
+#### Voorkeuren bewerker iD
 
-If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for beginner, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
+Als u kiest om één of meer items uit de keuzelijst te kiezen dan zullen mappers die iD gebruiken alleen in staat zijn om deze objecten toe te wijzen aan de objecten die zij in kaart brengen. Dit is aanbevolen voor beginners, **project met Alleen gebouwen**. Het zal betekenen dat deelnemers niet in staat zullen zijn andere objecten te taggen, zelfs niet als zij het proberen. Vermijd het gebruiken van voorkeuren voor meer complexe projecten, omdat het al snel een last wordt. Een project voor het mappen van wegen zou, bijvoorbeeld, dozijnen aan voorkeuzen moeten hebben toegevoegd, om te zorgen dat alle type wegen in kaart zouden kunnen worden gebracht. 
 
-#### Organization
+#### Organisatie
 
-Your organization name should be in here already, otherwise choose it from the dropdown menu.
+De naam van uw organisatie zou hier al moeten staan, kies hem anders in het keuzemenu.
 
-#### Campaign
+#### Campagne
 
-If you have created several projects which are associated with each other, you can choose to assign them to a campaign. Users can filter projects by campaign name on the Explore Projects page. For example, if your project is associated with malaria elimination, you might want to put it under the 'Malaria Elimination' campaign. To request the creation of additional campaign names please complete [this form](https://forms.gle/qafvkp4iAxnY6rjE6). 
+Als u verscheidene projecten hebt gemaakt die met elkaar geassocieerd zijn, kunt u er voor kiezen om ze toe te wijzen aan een campagne. Gebruikers kunnen projecten filteren op de naam van de campagne op de pagina Projecten verkennen. Als u project bijvoorbeeld is geassocieerd met het elimineren van malaria, zou ze willen plaatsen onder de campagne 'Malaria Elimination'. Vul [dit formulier](https://forms.gle/qafvkp4iAxnY6rjE6) in om aanvullende namen voor campagnes te laten maken.
 
-#### Categories
+#### Categorieën
 
-Select the themes here that relate to your project. Contributors can specify their interests in these categories in their settings page.
+Selecteer hier de thema's die aan uw project zijn gerelateerd. Deelnemers kunnen hun interesses in deze categorieën specificeren op hun pagina Instellingen.
 
 #### OSMCha filter ID
 
-[OSMCha](https://osmcha.org/) is a powerful data quality assurance tool that you may find useful for monitoring contributions to your project. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here. The OSMCha filter is available at the end of the overview page of your project. 
+[OSMCha](https://osmcha.org/) is een krachtig programma voor het beoordelen van de kwaliteit van gegevens dat u nuttig zou kunnen vinden voor het monitoren van bijdragen aan uw project. Het standaard filter begrenst uitvoer tot het begrenzingsvak van het project en tot bijdragen die niet ouder zijn dan de datum van maken van het project en met de naam van het project in de opmerking voor de wijzigingenset. Als u denkt dat iets anders een betere benadering zou zijn om de wijzigingensets van uw project te analyseren, geef dan hier een URL voor OSMCha of een OSMCha filter-ID op. Het filter van OSMCha is beschikbaar aan het einde van de overzichtspagina van uw project. 
 
-### Priority Areas
+### Gebieden met prioriteit
 
 ![TM Priority Area][]
 
-Use the tools here to draw areas that should be mapped first. You can have multiple priority areas for a project. You can also change priority areas at any time. The priority area will be highlighted for volunteers to prioritize and if they select 'Map a task' it will randomly select a task from the priority area first. 
+Gebruik de gereedschappen hier om gebieden te tekenen die als eerste in kaart zouden moeten worden gebracht. U mag meerdere gebieden met prioriteit voor een project hebben. U kunt ook op elk moment de gebieden met prioriteit wijzigen. Het gebied met prioriteit zal worden geaccentueerd voor vrijwilligers om te prioriteren en als zij 'Taak in kaart brengen' kiezen zal het willekeurig eerst een taak kiezen uit het gebied met prioriteit. 
 
-> During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is often best practice.
+> Gedurende het in kaart brengen van rampen, vroeg in de gebeurtenis, met een groot gebied om in kaart te brengen voor het project en het gebruiken van gebieden met prioriteit, om te focussen als nog steeds nieuwe informatie binnenkomt, is vaak een goede werkwijze.
 
-### Imagery
+### Afbeeldingen
 
 From the dropdown menu choose the aerial imagery source that you want to load automatically for your project. If the imagery is not listed in the dropdown you can choose 'Custom' and then add a TMS URL. 
 
@@ -461,8 +461,8 @@ If your project has alignment issues, ensure your task squares are not too large
 Please feel free to check these additional resources on imagery alignment:
 
 - [General guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [Animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [JOSM imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [Geanimeerde gif over uitlijnen van afbeeldingen in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [Hoofdstuk van JOSM uitlijnen van afbeeldingen in learnOSM](https://learnosm.org/nl_NL/josm/correcting-imagery-offset)
 
 
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
