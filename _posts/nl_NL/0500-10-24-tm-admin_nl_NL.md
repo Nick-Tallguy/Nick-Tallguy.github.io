@@ -300,165 +300,165 @@ Gebruik de gereedschappen hier om gebieden te tekenen die als eerste in kaart zo
 
 ### Afbeeldingen
 
-From the dropdown menu choose the aerial imagery source that you want to load automatically for your project. If the imagery is not listed in the dropdown you can choose 'Custom' and then add a TMS URL. 
+Kies uit het keuzemenu de bron voor de lucht-/satellietfoto's die u automatisch wilt laden voor uw project. Als de afbeelding niet zijn vermeld in het keuzemenu kunt u kiezen voor 'Aangepast' en dan een URL voor een TMS invoeren. 
 
-> Note that Tasking Manager **cannot host custom imagery**, it needs to be hosted externally and linked using a TMS URL. If you are happy with your imagery being open for use please consider using [OpenAerialMap](https://openaerialmap.org/) to host your imagery.
+> Onthoud dat de Tasking Manager **geen aangepaste afbeeldingen kan hosten**, het dient extern te worden gehost en dan gelinkt met een URL voor TMS. Als u geen bezwaar hebt tegen het feit dat uw afbeeldingen openbaar zijn om te gebruiken, overweeg dan om [OpenAerialMap](https://openaerialmap.org/) om uw afbeeldingen te hosten.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. For example, for Maxar imagery this is 'DigitalGlobe Satellite EULA'. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licentie - Optioneel, als er een specifieke licentie is vereist die de mappers moet accepteren voor het gebruiken van de afbeeldingen, kunt u die hier selecteren. Voor afbeeldingen van Maxar is dit bijvoorbeeld 'DigitalGlobe Satellite EULA'.  Indien u een licentie nodig hebt die niet beschikbaar is, kunt u contact opnemen met een beheerder van de installatie van de Tasking Manager en die vragen om hem toe te voegen.
 
-### Permissions
+### Rechten
 
-Under the 'Metadata' menu we could change the difficulty level that was **displayed** for a project. Under the 'Permissions' menu we can change who can actually **access** a project. It's important to remind ourselves of the various user levels:
+In het menu 'Metadata' zouden we het niveau voor de moeilijkheid kunnen wijzigen dat wordt **weergegeven** voor een project. In het menu 'Rechten' kunnen we wijzigen wie in feite **toegang** heeft tot een project. Het is belangrijk om de verschillende gebruikersniveaus te kennen:
 
-- **Beginner** User - Any user that has either just created their account or made **less than 250 changesets** (saves)
-- **Intermediate** User - Any user that has made between **250 and 500 changesets**
-- **Advanced** User - Any user that has made **over 500 changesets**
+- **Beginnende** gebruiker - Elke gebruiker die net zijn account heeft gemaakt of  **minder dan 250 wijzigingensets** (opgeslagen werk) heeft gemaakt
+- **Gemiddelde** gebruiker - Elke gebruiker die tussen de **250 en 500 wijzigingensets** heeft gemaakt
+- **Gevorderde** gebruiker - Elke gebruiker die meer dan **500 wijzigingensets** heeft gemaakt
 
-> As before, consider permissions very carefully, complex projects which inappropriately allow all users to contribute can result in **significant data quality issues**. 
+> net als eerder, overweeg de rechten heel zorgvuldig, complexe projecten die niet toepasselijk alle gebruikers toestaan deel te nemen kan resulteren in **significante problemen met de kwaliteit van de gegevens**. 
 
 ![TM Permissions][]
 
-#### Mapping permissions
+#### Rechten voor in kaart brengen
 
-Here you can choose who can **map** your project:
+Hier kunt u kiezen wie uw project **in kaart kan brengen**:
 
-- If your project is easy to contribute towards and you consider it a beginner project you might want set this to **'Any user'**.
-- If your project is more complex and requires more experience, restrict mapping to **'Only users with intermediate or advanced level'**. 
-- If you want to be even more selective then you may also require a mapper to be part of a **team**. Teams must then be defined below.
+- Als uw project gemakkelijk is om aan deel te nemen en u beschouwt het als een project voor beginners, wilt u dit instellen op **'Elke gebruiker'**.
+- Als uw project meer complex is en meer ervaring vereist, beperk dan het in kaart brengen tot **'Alleen gebruikers met niveau Gemiddeld of Gevorderd'**. 
+- Als u nog selectiever wilt zijn, dan zou u kunnen eisen dat een mapper lid is van een **team**. Team moeten dan hieronder gedefinieerd worden.
 
-#### Validation permissions
+#### Rechten voor validatie
 
-Here you can choose who can **validate** your project. Validation is where more experienced mappers check the contributions that are made within your project, therefore this should be restricted to 'Only users with intermediate or advanced level' **as a minimum**. **Ideally** you should restrict validation even further to **'Only team members'**, but when you do this you must remember to **define those teams** below. 
+Hier kunt u kiezen wie uw project mag **valideren**. Validatie is waar meer ervaren mappers de bijdragen die binnen uw project zijn gemaakt controleren, daarom zou dit moeten zijn beperkt tot 'Alleen gebruikers met niveau Gemiddeld of Gevorderd' **als minimum**. **Idealiter** zou u validatie nog verder beperken tot **'Alleen teamleden'**, maar als u dat doet moet u onthouden om **die teams hieronder te definiëren**. 
 
 #### Teams
 
-Use the filters to search for and add teams. You can add your own team(s), but please also feel free to add other teams. Once you have added a team ensure to select a role (Mapper, Validator, Project Manager). 
+Gebruik de filters om te zoeken naar teams en ze toe te voegen. U kunt uw eigen team(s) toevoegen, maar het staat u vrij om ook andere teams toe te voegen. Als u eenmaal ene team hebt toegevoegd, zorg er voor dat er een rol geselecteerd is (Mapper, Validator, Projectbeheerder). 
 
-Team permissions will not function unless you have restricted Mapping and/or Validation permissions to 'Only team members'. If you grant a team Project Manager access this will allow its team members to edit the project.
+Rechten voor teams zullen niet werken tenzij u de rechten voor valideren en in kaart brengen hebt beperkt tot 'Alleen teamleden'. Als u rechten verleend aan een Projectbeheerder van een team, dan zal dit zijn teamleden in staat stellen het project te bewerken.
 
-> On HOT's Tasking Manager feel free to add two of the larger validation teams, namely 'HOT Global Validators' and HOT's 'Validator Trainees'. Please note, that although this gives those team members **permission** to validate your project, it does **not necessarily mean** that they **will validate** your project.  
+> In HOT's Tasking Manager, het staat u vrij om twee van de grotere teams voor validatie toe te voegen, namelijk 'HOT Global Validators' en HOT's 'Validator Trainees'. Onthoud dat, hoewel dit deze temaleden **het recht** geeft om uw project te valideren, dit **niet noodzakelijkerwijze betekent** dat zij uw project **zullen valideren**.  
 
 #### Privacy
 
-Toggling to make a project 'Private' will hide the project from all users except those that are part of the teams defined above. 
+Schakelen om een project 'Privé' te maken zal het project verbergen voor alle gebruikers, behalve voor hen die deel uitmaken van de hierboven gedefinieerde teams. 
 
-### Settings
+### Instellingen
 
 ![TM Settings][]
 
-#### Default Language
+#### Standaard taal
 
-Altering this will change the default language for your project's title, description and instructions.
+Wijzigen hiervan zal de standaard taal voor de titel, beschrijving en instructies voor uw project wijzigen.
 
-#### Editors for mapping/validation
+#### Bewerkers voor in kaart brengen/valideren
 
-This restricts the available editors to those checked. You may specify different sets for mapping and for validation. Note that it is possible to enable the AI assisted RapiD editor here. 
+Dit beperkt de beschikbare bewerkers tot die welke zijn geselecteerd. U zou verschillende sets voor in kaart brengen en valideren kunnen specificeren. Onthoud dat het mogelijk is hier de door AI geassisteerde bewerker RapiD hier in te schakelen. 
 
-#### Enforce random task selection
+#### Willekeurig selecteren van taken forceren
 
-If enabled then contributors cannot select specific tasks for mapping.
+Indien ingeschakeld kunnen deelnemers geen specifieke taken selecteren voor het in kaart brengen.
 
-### Actions
+### Acties
 
-Here you can perform powerful bulk actions on your project. **Be careful** with many of these options, **they are not reversible**. 
+Hier kunt u krachtige bulkacties uitvoeren op uw project. **Wees voorzichtig** met veel van deze opties, **zij kunnen niet worden teruggedraaid**. 
 
 ![TM Actions][]
 
-#### Message all contributors
+#### Bericht aan alle deelnemers
 
-Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+Verzendt een bericht van Tasking Manager aan iedereen die een taak als voltooid heeft gemarkeerd of als geldig. Het kan worden gebruikt om deelnemers te bedanken en/of ze te leiden naar andere projecten in een campagne. Het zou ook kunnen worden gebruikt vóór het gebruiken van één van de twee opties Validate/Invalidate all Tasks, hieronder beschreven.
 
-#### Mapping, validation and invalidation
+#### In kaart brengen, validatie en ongeldig verklaren
 
-This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
+Dit zal de status van alle taken instellen op ofwel in kaart gebracht, gevalideerd of ongeldig verklaard. Behandel dit met zorg, want u kunt het niet ongedaan maken.
 
-#### Reset tasks
+#### Taken herstellen
 
-This will reset all tasks to their pristine state but previous actions can still be seen in the task history. Handle with care as there is no undo.
+Dit zal alle taken herstellen naar hun ongerepte status, maar eerdere acties kunnen nog steeds worden bekeken in de geschiedenis van de taak. Behandel dit met zorg, want u kunt het niet ongedaan maken.
 
-#### Transfer project ownership
+#### Eigendom project overdragen
 
-You can specify another manager within your organization who will become listed as the creator of the project. Search for their OSM username. 
+U kunt een andere beheerder specificeren in uw organisatie die zal worden vermeld als de maker van het project. Zoek op hun gebruikersnaam van OSM. 
 
-#### Clone Project
+#### Project klonen
 
-This useful option will create a duplicate of the project, keeping the entire **setup identical** except for the area of interest, task grid and priority areas which you will need to re-import or re-draw. This option will **save you a lot of time** if you are creating a series of similar projects that are covering a large area. 
+Deze nuttige optie zal een duplicaat maken van het project, de gehele **identieke setup** behouden, behalve het projectgebied, raster met taken en gebieden met prioriteit die u opnieuw moet importeren of tekenen. Deze optie zal **u veel tijd besparen** als u een serie soortgelijke projecten maakt die een groot gebied bedekken. 
 
-#### Delete Project
+#### Project verwijderen
 
-This will **permanently delete** the project from the Tasking Manager. Handle with care as there is no undo. It is not possible to delete a project after any contributions have been made to it.
+Dit zal het project **permanent verwijderen** uit de Tasking Manager. Behandel dit met zorg, want u kunt het niet ongedaan maken. Het is niet langer mogelijk een project te verwijderen zodra er een bijdrage in is gemaakt.
 
-### Custom editor
+### Aangepaste bewerker
 
-If you would like to link to an editor which is not listed in the 'Settings' menu a URL to that editor can be added here. 
+Als u naar een bewerker zou willen linken die nog niet is vermeld in het menu 'Instellingen', kan hier een URL naar die bewerker worden toegevoegd. 
 
-### Save and test
+### Opslaan en testen
 
-Once you are happy with your project setup press `Save`. View your project by selecting `Access Project` and `Project Page`. **Check your project carefully**, ensure the instructions are clear and the wording and formatting are correct. 
+Als u eenmaal tevreden bent met de aanmaak van uw project, druk dan op `Opslaan`. Bekijk uw project door `Toegang tot project` en `Projectpagina` te selecteren. **Controleer uw project zorgvuldig**, zorg er voor dat de instructies helder zijn en de bewoording en opmaak juist zijn. 
 
-**Try mapping a task**, is the imagery loading correctly? Are the instructions clear enough? If you need to make changes or refinements to your project, click the `Edit` button on the project page. 
+**Probeer een taak in kaart te brengen**, is de afbeelding correct geladen? Zijn de instructies helder genoeg? Als u wijzigingen moet maken of uw project wilt verfijnen, klik op de knop `Bewerken` op de projectpagina. 
 
-### Publish
+### Publiceren
 
-After checking and testing your project, if you are happy with it and ready for mapping to start click the `Edit` button on the project page and from the 'Description' menu change the status to ‘Published’. Once the project is published, the wider public will be able to see your project and contribute towards it. 
+Na het controleren en testen van uw project, als u er tevreden mee bent en klaar om het in kaart brengen te beginnen, klik op de knop `Bewerken` op de projectpage en wijzig vanuit het menu 'Beschrijving' de status naar ‘Gepubliceerd’. Als het project eenmaal is gepubliceerd kan het bredere publiek uw project zien en er aan deelnemen. 
 
-> Note that you can access the 'Edit' menu of your project and alter the settings at any time, even if mapping is underway.
+> Onthoud dat u op elk moment naar het menu 'Bewerken' van uw project kunt geen en de instellingen veranderen, zelfs als er in kaart wordt gebracht.
 
-## Project management
+## Projectbeheer
 
-Congratulations! You've created a project, now you'll need to make sure you manage it effectively. 
+Gefeliciteerd! U hebt een project gemaakt, nu moet u er voor zorgen dat het effectief beheerd wordt. 
 
-### Be responsive
+### Wees bereikbaar
 
-As the project creator, you are **responsible** for **responding to questions** that arise in the **Questions and Comments** section of your project page. This section will often include useful guidance or tips from the wider community, take these seriously, respond and make edits to your projects where necessary. 
+Als de maker van het project bent u **verantwoordelijk** voor **het beantwoorden van vragen** die worden gesteld in het gedeelten **Vragen en opmerkingen** van uw projectpagina. Dit gedeelte zal vaak nuttige richtlijnen of tips bevatten van de bredere gemeenschap, neem dat serieus, antwoord en maak, waar nodig, bewerkingen aan uw projecten. 
 
-> To enable notifications when there are new posts in the Questions and Comments section, click on your OSM username in Tasking Manager and choose `Settings`. Toggle notifications on for 'Questions and comments'.
+> Klik op uw gebruikersnaam van OSM in Tasking Manager en kies `Instellingen` om notificaties in te schakelen als er nieuwe post in het gedeelte Vragen en opmerkingen komt. Schakel notificaties in voor 'Vragen en opmerkingen'.
 
-On the project page your username will also be listed next to 'created by ...'. This means that you may also receive direct OSM messages, make sure to read and respond to these. 
+Op de projectpagina zal uw gebruikersnaam worden vermeld naast 'gemaakt door …'. Dit betekent dat u ook directe berichten van OSM zou kunnen ontvangen, zorg er voor ze te lezen en te beantwoorden. 
 
-> If you are being overwhelmed by questions please note that you will receive less if you follow this guidance: _The first thing you can do to support the mappers, and validators, is having well designed projects with easy to understand but thorough instructions and descriptions._
+> Als u wordt overweldigd door de vragen onthoud dan dat u er minder zult ontvangen als u deze richtlijn volgt: _Het eerste dat u kan doen om de mappers, en validators, te ondersteunen is door goed ontworpen projecten te hebben met gemakkelijk te begrijpen, maar duidelijke, instructies en beschrijvingen._
 
-### Sequencing projects
+### Reeksen van projecten
 
-If you have created a number of projects in a series **do not publish them all at once**. You are not the only one creating projects, having a reasonable number of projects (one or two) at the appropriate priority is fine. Publishing half-a-dozen at once will crowd out the Tasking Manager. Keep the rest in draft or at lower priority while at any moment only one or two are being worked on. You may notice that contributors lose enthusiasm if they see lots of similar projects all at once that are making little progress.
+Als u ene aantal projecten hebt gemaakt in een reeks **publiceer ze niet allemaal in één keer**. U bent niet de enige die projecten maakt, een redelijk aantal projecten (een of twee) hebben op het toepasselijk niveau is prima. Publiceren van een half dozijn in één keer zal de Tasking Manager overbevolken. Houd de rest in concept of op een lagere prioriteit, terwijl er aan een of twee projecten wordt gewerkt. Het zou u kunnen opvallen dat deelnemers snel hun enthousiasme verliezen als zij heel veel soortgelijk projecten in één keer zien die weinig voortgang boeken.
 
-### Project lifecycle
+### Levenscyclus project
 
-Keep track of the mapping and validation progress of your projects. Remember that **all projects must end up being archived**. You will need to do this manually, so do not lose sight of the progress, priority or relevance of your projects. If you are moving to another organization make sure to **hand over** your ongoing projects to your replacement. 
+Houd overzicht over de voortgang van het in kaart brengen en het valideren van uw projecten. Onthoud dat **alle projecten moeten gearchiveerd moeten eindigen**. U zult dat handmatig moeten doen, dus verlies niet het zicht op de voortgang, prioriteit of relevantie van uw projecten. Als u overgaat naar een andere organisatie zorg er dan voor dat uw lopende projecten worden **overgedragen** aan uw vervanging. 
 
-## Additional information
+## Aanvullende informatie
 
-### Considerations concerning imagery
+### Overwegingen met betrekking tot afbeeldingen
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Maxar or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Controleer, voordat u uw project maakt, de afbeeldingen voor verscheidene verschillende locaties in uw projectgebied voor een beoordeling van de afbeeldingen. In de meeste gevallen zouden afbeeldingen van Maxar of Bing aan uw behoeften kunnen voldoen. Er zijn echter situaties waar u een alternatieve bron zou willen kiezen. U zou de volgende overwegingen moeten maken bij het kiezen van uw afbeeldingen: 
 
-1. If careful, detailed mapping is needed choose the imagery that is clearest, with the highest resolution.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery. Recently Maxar has been the most up-to-date but this varies by location. 
-3. Check for cloud cover, although one imagery source may suit your needs if it is very cloudy or hazy your mappers will struggle to map using it.
-4. Check for alignment, if there is plenty of existing OSM data that aligns to one set of satellite imagery then it may make sense to choose the same imagery. If there are alignment issues make sure to write clear instructions detailing how you expect contributors to deal with offsets/alignment issues. 
+1. Als zorgvuldig, gedetailleerd in kaart brengen nodig is, kies dan de afbeelding die het helderst is, met de hoogste resolutie.
+2. Als uw prioriteit is om de meest up-to-date afbeeldingen te hebben, klik dan tussen de standaard bronnen voor afbeeldingen om te zoeken naar de meest recente afbeeldingen. Zoek naar indicaties voor ontwikkeling, zoals nieuwe gebouwen of vrijgemaakt land om een idee te krijgen over de meest up-to-date afbeeldingen. Recent heeft Maxar de meest up-to-date, maar dit varieert per locatie. 
+3. Controleer op bedekking door wolken, hoewel een bepaalde bron voor afbeeldingen aan uw behoeften zou kunnen voldoen, als het erg bewolkt of wazig is, zullen uw mappers moeite hebben om het in kaart te brengen.
+4. Controleer op uitlijning, als her genoeg bestaande gegevens van OSM zijn die uitlijnen op één set satellietafbeeldingen, dan is het logisch te kiezen voor dezelfde afbeeldingen. Als er problemen zijn met de uitlijning, zorg er dan voor heldere instructies te schrijven die in detail beschrijven hoe u verwacht dat deelnemers problemen met verschuiven/uitlijnen afhandelen. 
 
-> It is often very difficult to get an exact imagery capture date from the satellite imagery providers. The main sources are 'mosaics' where a series of images (often with very different capture dates) are stitched together. Sometimes this stitching goes down to the individual pixel level. In the absence of information, using imagery comparison is therefore often the best choice for finding the most recent imagery. 
+> Het is vaak heel moeilijk om een exacte datum van vastleggen van afbeeldingen te krijgen van de providers van de satellietbeelden. De belangrijkste bronnen zijn 'mozaiëken' waar een reeks afbeeldingen (vaak met verschillende datums van vastleggen) aan elkaar gestikt zijn. Soms gaat dit stikken door tot op het niveau van de individuele pixel. Bij het afwezig zijn van informatie, is het vergelijken van afbeeldingen vaak d ebeste keuze voor het vinden van de meest recente afbeeldingen. 
 
-#### Imagery alignment
+#### Uitlijnen van afbeeldingen
 
-Your project area may have already been partially mapped using older imagery and there might be a noticeable mis-alignment between the older mapped objects and the newer available imagery. Inspect various locations across your mapping area to determine this. If there is an alignment issue, make sure to include detailed instructions outlining the best approach for mappers to take. Projects with imagery alignment issues are best restricted to more experienced mappers. 
+Uw projectgebied zou al gedeeltelijk in kaart kunnen zijn gebracht met oudere afbeeldingen en er zou een duidelijke verschuiving kunnen zijn tussen de oudere in kaart gebrachte objecten en de nieuwere beschikbare afbeeldingen. Inspecteer verschillende locaties in uw gebied voor in kaart brengen om dit te bepalen. Als er een probleem met de uitlijning is, zorg er dan voor gedetailleerde instructies op te nemen die voor mappers de beste benadering geven voor het verwerken. Projecten met problemen met uitlijnen van afbeeldingen worden het beste beperkt tot de meer ervaren mappers. 
 
-There is not a standard set of instructions when it comes to imagery alignment issues. It is very dependent on context. Sometimes mappers are instructed to align to GPS traces, sometimes they are told to align to mapped linear features such as highways and waterways. Here is a sample approach: 
+Er is geen standaard set instructies als het aankomt op problemen met het uitlijnen van afbeeldingen. Het hangt erg af van de context. Soms worden mappers geïnstrueerd om uit te lijnen op GPS-sporen, soms wordt ze verteld om uit te lijnen op lineair in kaart gebracht objecten, zoals wegen en waterwegen. Hier is een voorbeeld van een benadering: 
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Maxar.
-2. Make sure that all existing features which are also visible on Maxar are aligned with Maxar imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned Maxar imagery.
+1. Vermeld duidelijk welke afbeelding geacht wordt de verwijzing te zijn waaraan al het andere zou moeten worden uitgelijnd. Laten we er in dit geval van uitgaan dat die verwijzing Maxar is.
+2. Zorg er voor dat alle reeds bestaande objecten die ook zichtbaar zijn op Maxar zijn uitgelijnd op de afbeelding van Maxar, d.i. lijn ze, indien nodig, opnieuw uit.
+3. Voeg nieuwe objecten toe uit de nu correct uitgelijnde afbeelding van Maxar.
 
-Often mappers are instructed to look for _least effort_ when it comes to imagery alignment issues. Which means that contributors are told to vary their approach depending on the situation in their individual task: 
+Vaak worden mappers geïnstrueerd te zoeken naar _de minste inspanning_ als het aankomt op problemen met het uitlijnen van afbeeldingen. Wat betekent dat deelnemers wordt verteld hun benadering te variëren, afhankelijk van de situatie in hun individuele taak: 
 
-- If there is plenty of existing mapping in a task which is consistently misaligned it might require the least effort to change the imagery offset to fit existing mapping and then map the small number of remaining objects in the task. 
-- If there is less existing mapping, or objects are misaligned inconsistently (i.e. the degree of misalignment varies across space) then it might be easier to alter the position of the mapped objects to align with the imagery and then map remaining objects in the task.
+- Als er voldoende bestaand in kaart gebracht is in een taak die consistent foutief is uitgelijnd,  zou het de minste inspanning vereisen om de verschuiving van de afbeelding te wijzigen zodat die past in het bestaande in kaart gebrachte en dan het kleine aantal resterende objecten in de taak in kaart te brengen. 
+- Als er minder bestaand in kaart gebracht is, of objecten zijn inconsistent verkeerd uitgelijnd (d.i. de mate van verkeerd uitlijnen varieert in de ruimte) dan zou het makkelijker zijn de positie van de in kaart gebrachte objecten te wijzigen zodat ze uitlijnen met de afbeelding en dan de resterende objecten in de taak in kaart te brengen.
 
-If your project has alignment issues, ensure your task squares are not too large because imagery offsets can vary considerably across a mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+Als uw project problemen heeft met uitlijnen, zorg er dan voor dat vierkanten voor de taken niet te groot zijn, omdat verschuiving van afbeeldingen aanzienlijk kan variëren in een gebied om in kaart te brengen, in het bijzonder als het gebied niet vlak is. Zelfs onderbrekingen in afbeeldingen kunnen voorkomen binnen een project - kijk er naar en adviseer de deelnemers met betrekking tot dat probleem.
 
-> Although individual mappers can manually alter the imagery offset while mapping, it is not possible for you, as project creator, to change the imagery offset at the project level. However, if you are using your own aerial imagery that is being hosted elsewhere you can alter the offset at source. However, please note that alignment can vary considerably across space and simply changing the overall offset does not always correct alignment issues. 
+> Hoewel individuele mappers handmatig de verschuiving van de afbeelding kunnen wijzigen tijdens het in kaart brengen, is het voor niet mogelijk, als maker van het project, om de verschuiving van de afbeelding te wijzigen op het niveau van het project. Als u echter uw eigen luchtfoto's ergens anders host, kunt u de verschuiving bij de bron wijzigen. Onthoud echter dat uitlijning behoorlijk kan variëren in de ruimte, en eenvoudigweg wijzigen van de algehele verschuiving lost niet altijd alle problemen met de uitlijning op. 
 
-Please feel free to check these additional resources on imagery alignment:
+Bekijk ook eens deze aanvullende bronnen over het uitlijnen van afbeeldingen:
 
 - [General guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
 - [Geanimeerde gif over uitlijnen van afbeeldingen in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
