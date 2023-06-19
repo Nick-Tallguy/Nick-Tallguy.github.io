@@ -88,7 +88,7 @@ U kunt, om het gebied van interesse (gebied voor in kaart brengen) van uw projec
 
 * Optie 2: `Bestand uploaden` om het gebied van interesse te importeren als een bestand van GeoJSON, KML of gezipt shapefile
 
-1. In the first step of creating a project click on `Upload file`.
+1. Klik, in de eerste stap van het maken van een project, op `Bestand uploaden`.
 2. Blader naar uw bestand in het venster Bestand uploaden.
 3. Klik op de bestandsnaam om het bestand te accentueren en klik dan op ‘Openen’.
 4. Geïmporteerde gebieden voor in kaart brengen kunnen niet worden aangepast in Tasking Manager.
