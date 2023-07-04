@@ -170,7 +170,7 @@ Druk op CTRL+V op uw toetsenbord om de tekst te plakken die u had gekopieerd van
 
 ![Snapshot][]
 
-Click OK. If all went well, you should see your Field Paper load into JOSM. In order to learn how to add the places that you mapped into OpenStreetMap please refer to [the JOSM editing process](/en/josm/more-about-josm) and [editing field data](/en/josm/editing-with-josm).  
+Klik op OK. Als alles goed ging, zou u nu uw Field Paper moeten zien geladen in JOSM. Bekijk, om te leren hoe u de plaatsen die u in kaart hebt gebracht in OpenStreetMap krijgt, [het bewerkingsproces van JOSM](/nl/josm/more-about-josm) en [verwerken van gegevens uit het veld](/nl/josm/editing-with-josm).  
 
 ![Fieldpaper scan as a JOSM background][]
 
