@@ -1,15 +1,15 @@
 ---
 layout: doc
-title: Tagging - iD editor
+title: Додавання теґів  – редактор iD
 permalink: /uk/hot-tips/tagging/
 lang: uk
 category: hot-tips
 ---
 
-Tagging - iD editor
+Додавання теґів  – редактор iD
 ============
 
-> Updated 2019-06-28
+> Редакція 2019-06-28
 
 - TOC
 {:toc}
@@ -17,50 +17,50 @@ Tagging - iD editor
 ![tagging][]
 
 
-Why Tags are needed
+Для чого потрібні теґи
 -------------------
 
-Without a tag an item has no meaning and maps will not show it. The tag explains to the computer what the feature actually is. If you find something where the tag has been 'missed', please add the tag. If an item is tagged it will have a colour, such as the red hue to the building tagged in the image above. **If it's white investigate and add the tag if it's been missed.**  
+Без позначення теґом предмет на мапі нічого собою не представляє, і мапі його не буде видно. Теґ пояснює, чим є той чи інший обʼєкт. Якщо ви знайдете щось, де теґ був «пропущений», додайте його. Якщо елемент позначено теґом, він матиме певний колір, наприклад червоний відтінок – будівлі, позначеної теґом на зображенні вище. **Якщо елемент білий, перевірте його та додайте теґ, якщо його немає.**  
 
 ![tagged-building][]  
 
-The author of the project in the Tasking Manager does not know which editor the mapper will be using, so the instructions can often have a comment similar to this;  
+Автори завдань в Tasking Manager наперед не знають яким редактором будуть користуватись мапери, тож ви можете побачити інструкції подібні до цієї:  
 
--  *Buildings are generally round huts and should be tagged as **Building Features / Building** in iD and **building=yes** in JOSM.*  
+-  *Будівлі – це зазвичай круглі хати, які треба позначати як **Building Features / Building** в iD або **building=yes** в JOSM.*  
 
-If you need to check what tag is actually on an item, click on it, then scroll to the bottom of the tagging pane and look under **All Tags**
+Якщо вам потрібно перевірити, яким теґом вони позначені, клацніть на них, прогорніть до низу панель ліворуч до розділу **Всі теґи**
 
-### Tags - a brief explanation ###
+### Теґи – коротке пояснення ###
 
-If you select an item and click on **All tags** you will see a label such as  
+Якщо ви виділили елемент та відкрили розділ **Всі теґи** ви маєте побачити щось на зразок  
 
 **building    yes**  
 
-This is the most basic building tag, and is the recommended tag when tracing buildings from a task on the Tasking Manager.  
+Цей базовий теґ, яким позначаються будівлі, коли ви мапите їх в одному з завдань в Менеджері Завдань.  
 
-If you know exactly what the building is, then you would use a more detailed tag such as;  
+Якщо ви напевно знаєте призначення будівлі, ви можете використовувати більш специфічні теґи, наприклад:  
   **building   house**  
   **building   school**  
-or one of many other tags. For more detailed information on tagging buildings see <https://wiki.openstreetmap.org/wiki/Buildings>  
+або якийсь інший. За докладнішою інформацією про те як позначати будівлі зверніться до Вікі ОСМ – <https://wiki.openstreetmap.org/wiki/Uk:Buildings>  
 
-See the [Highways section of this HOT-tips section](/en/hot-tips/highways/) for more information about tagging highways.  
+Про те, як позначати дороги дивіться [розділ Дороги в порадах HOT](/uk/hot-tips/highways/)   
 
-### Relations - such as buildings with a courtyard or islands in a river ###
+### Звʼязки – будівлі із внутрішнім двором або острови на ріках ###
 
-Some features have their tags on a **Relation** not on the feature itself. If you see on your screen mention of a relation, as a complete beginner the best advice is to 'leave alone'.  
+Деякі обʼєкти представлені у вигляді **Звʼязків** (кількох ліній чи полігонів зібраних разом), а не одним елементом. Якщо ви ще не знаєте, що таке звʼязок, бо ви тільки но розпочали всьому вчитись, поки що оминайте їх.  
 
-For more information on relations (**not a beginner subject**) see;  
+Докладніше про звʼязки  (**не для новачків**) дивіться:  
 
-[LearnOSM - JOSM - Relations](/en/josm/josm-relations/) which explains relations but uses a different OSM editor, or  
-<https://wiki.openstreetmap.org/wiki/Relation>
+[LearnOSM – Звʼязки в JOSM](/uk/josm/josm-relations/) де пояснюється що таке звʼязки, але на прикладі використання іншого редактора, або  
+<https://wiki.openstreetmap.org/wiki/Uk:Relation>
 
-See also  
+Дивіться також  
 ---------
 
-For a more comprehensive list of tags see <https://wiki.openstreetmap.org/wiki/Map_Features>  
+За потреби переглянути докладний перелік теґів дивіться <https://wiki.openstreetmap.org/wiki/Uk:Map_Features>  
 
 [![one-mnute-tutorial-videos]{: height="150px"}](https://www.youtube.com/playlist?list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team - One minute Tutorial Videos")  
-*Subtitles available in some languages*  
+*Є субтитри деякими мовами*  
 
 
 

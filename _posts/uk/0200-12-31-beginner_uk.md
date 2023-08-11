@@ -27,9 +27,9 @@ nosearch: true
 
 Основне завдання – навчитись координовано мапити разом з іншими.
 - [Керівництво по дистанційному мапінгу](/uk/coordination/HOT-Remote-Response-Guide/) та загальна інформація про [мапінг для гуманітарних потреб](/uk/coordination/humanitarian/) надасть певні пояснення 
-- the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
+- Робоча конячка – [Tasking Manager](/uk/coordination/tm-user/), ви повинні ознайомитися як з ним працювати
 
-If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+Якщо ви досвідчений мапер та бажаєте дізнатись більше про валідацію, тоді [розділ](/uk/coordination/tm-user/#валідація) у нашому керівництві до Менеджера Завдань допоможе вам розібратись з цим питанням.
 
 ### Ви бажаєте використовувати OpenStreetMap на мобільний пристроях?
 
