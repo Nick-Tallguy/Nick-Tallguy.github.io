@@ -9,7 +9,6 @@ category: josm
 Втулки Building Tools та Utilsplugin2
 ============
 
-> Редакція 2016-09-12  
 
 Втулки **buildings_tools** та **utilsplugin2** додають чудові інструменти та розширюють можливості JOSM. В цім розділі ми розкажемо про це докладніше.  
 
@@ -26,6 +25,8 @@ category: josm
 
 Завантажте в JOSM ділянку на якій ви бажаєте додати будинки.  
 
+### Rectangular Buildings
+
 * Оберіть інструмент building tool і двома кліками накресліть лінію вздовж стіни будинку.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ category: josm
 ![Extend building][]
 
 * Це дозволить вам не тільки накреслити прямокутник в три кліки, а також додасть теґ **building=yes** до полігону будівлі.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### Будники складної форми
 
@@ -119,4 +126,5 @@ Utilsplugin2
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

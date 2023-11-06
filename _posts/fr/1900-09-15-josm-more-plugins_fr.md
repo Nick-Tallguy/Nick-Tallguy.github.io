@@ -9,7 +9,6 @@ category: josm
 Outils de construction JOSM et plugins Utilsplugin2
 ============
 
-> Révisé le 12 septembre 2016  
 
 Les plugins **buildings_tools** et **utilsplugin2** ajoutent de nombreuses fonctionnalités à JOSM. Dans cette section, nous allons examiner de plus près les fonctions qu'ils fournissent.  
 
@@ -26,6 +25,8 @@ Une fois que le plugin a été installé, vous verrez un nouveau bouton sur le c
 
 Lancez JOSM et téléchargez une zone où vous souhaitez tracer des bâtiments.  
 
+### Rectangular Buildings
+
 * Sélectionnez l'outil de construction et cliquez deux fois pour tracer une ligne sur la carte.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ Lancez JOSM et téléchargez une zone où vous souhaitez tracer des bâtiments.
 ![Extend building][]
 
 * Cette méthode permet non seulement de créer un rectangle en trois clics, mais aussi d'appliquer automatiquement la balise **building=yes** à la forme.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### Bâtiments complexes
 
@@ -119,4 +126,5 @@ Bonne chance !
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

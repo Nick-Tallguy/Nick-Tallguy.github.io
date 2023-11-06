@@ -9,7 +9,6 @@ category: josm
 Công cụ vẽ tòa nhà và công cụ Utilsplugin2 của JOSM
 ============
 
-> Cập nhật: 2017-11-06  
 
 Công cụ vẽ tòa nhà (**buildings_tools**) và công cụ **utilsplugin2** là sự bổ sung rất lớn cho các chức năng vào JOSM. Trong phần này, chúng ta sẽ xem xét sâu hơn các tính năng của các công cụ.  
 
@@ -26,6 +25,8 @@ Khi plugin đã được cài đặt, bạn sẽ thấy một nút mới ở bê
 
 Bắt đầu JOSM và tải về một khu vực mà bạn muốn vẽ các tòa nhà.  
 
+### Rectangular Buildings
+
 * Chọn công cụ vẽ tòa nhà và nhấp hai lần để vẽ một đường trên bản đồ.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ Bắt đầu JOSM và tải về một khu vực mà bạn muốn vẽ các tòa
 ![Extend building][]
 
 * Điều này sẽ không chỉ tạo ra một hình chữ nhật với chỉ ba lần nhấp chuột, nó cũng sẽ tự động đặt thẻ **building=yes** cho hình vừa vé.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### Các tòa nhà phức tạp
 
@@ -119,4 +126,5 @@ Chúc may mắn!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 
