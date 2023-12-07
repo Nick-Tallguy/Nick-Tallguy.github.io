@@ -25,7 +25,7 @@ Jakmile je doplněk nainstalovaný, objeví se v levé části okna JOSM nové t
 
 Spusťte JOSM a stáhněte si oblast, ve které chcete vytvářet budovy.  
 
-### Rectangular Buildings
+### Obdélníkové budovy
 
 * Vyberte building tool a nakreslete na mapu přímku dvěma kliknutími.  
 
@@ -37,11 +37,11 @@ Třetím kliknutím vyberte třetí roh budovy a zbytek se dokreslí automaticky
 
 * Tímto způsobem nejenže nakreslíte budovu na tři kliknutí, ale také jí rovnou nastavíte tag **building=yes**.  
 
-### Circular Buildings
+### Kruhové budovy
 
-* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+* Ve "Více nástrojů" -> "Režimy kreslení budov" vyberte "Nastavit tvar budovy na kruh" nebo použijte klávesovou zkratku ALT+Z (při přepínání zpět na kreslení obdélníkových budov použijte ALT+R). Poté nakreslete průměr budovy.
 
-![Round building][]
+![Kruhová budova][]
 
 ### Komplikované budovy
 
@@ -126,5 +126,5 @@ Hodně štěstí!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
-[Round building]: /images/josm/buildings_tools-round.png
+[Kruhová budova]: /images/josm/buildings_tools-round.png
 

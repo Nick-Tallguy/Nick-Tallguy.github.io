@@ -34,7 +34,7 @@ Rejstřík sekcí
     -  [Uložit a otestovat](/en/coordination/tm-admin/#save-and-test)
     -  [Zveřejnění](/en/coordination/tm-admin/#publish)
 -  [Řízení projektů](/en/coordination/tm-admin/#project-management) 
-    -  [Be responsive](/en/coordination/tm-admin/#be-responsive)
+    -  [Be responsive](/cs/coordination/tm-admin/#be-responsive)
     -  [Sekvenování projektů](/en/coordination/tm-admin/#sequencing-projects)
     -  [Životní cyklus projektu](/en/coordination/tm-admin/#project-lifecycle)
 -  [Další informace](/en/coordination/tm-admin/#additional-information)
