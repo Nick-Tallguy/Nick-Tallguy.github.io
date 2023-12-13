@@ -25,7 +25,7 @@ category: josm
 
 Завантажте в JOSM ділянку на якій ви бажаєте додати будинки.  
 
-### Rectangular Buildings
+### Прямокутні будівлі
 
 * Оберіть інструмент building tool і двома кліками накресліть лінію вздовж стіни будинку.  
 
@@ -37,9 +37,9 @@ category: josm
 
 * Це дозволить вам не тільки накреслити прямокутник в три кліки, а також додасть теґ **building=yes** до полігону будівлі.  
 
-### Circular Buildings
+### Кругові будівлі
 
-* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+* В меню "Ще…"->"Режими креслення будівель" виберіть "Зробити контур будівлі круглим" або використовуйте швидку комбінацію клавіш ALT+Z (при поверненні до креслення прямокутних будівель використовуйте ALT+R). Потім проведіть лінію діаметра будівлі.
 
 ![Round building][]
 
