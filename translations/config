@@ -21,6 +21,11 @@ file_filter = translations/0200-12-23-id-editor_<lang>.md
 source_lang = en
 type = TXT
 
+[o:hotosm:p:learnosm-1:r:0200-12-25-osm-notesmd]
+file_filter = translations/0200-12-25-osm-notes_<lang>.md
+source_lang = en
+type = TXT
+
 [o:hotosm:p:learnosm-1:r:0200-12-27-start-osmmd]
 file_filter = translations/0200-12-27-start-osm_<lang>.md
 source_lang = en
@@ -61,15 +66,15 @@ file_filter = translations/0450-10-20-buildings-tracing_<lang>.md
 source_lang = en
 type = TXT
 
-[o:hotosm:p:learnosm-1:r:0450-12-25-id-issues_enmd]
-file_filter = translations/0450-12-25-id_issues_<lang>.md
+[o:hotosm:p:learnosm-1:r:0450-10-25-id_issues_enmd]
+file_filter = translations/0450-10-25-id_issues_<lang>.md
 source_lang = en
-type = TXT
+type = GITHUBMARKDOWN
 
-[o:hotosm:p:learnosm-1:r:0450-12-27-id-imag_enmd]
-file_filter = translations/0450-12-27-id-imag_<lang>.md
+[o:hotosm:p:learnosm-1:r:0450-10-27-id_imag_enmd]
+file_filter = translations/0450-10-27-id_imag_<lang>.md
 source_lang = en
-type = TXT
+type = GITHUBMARKDOWN
 
 [o:hotosm:p:learnosm-1:r:0450-12-29-hot-startingmdtxt]
 file_filter = translations/0450-12-29-hot-starting_<lang>.md
@@ -81,7 +86,7 @@ file_filter = translations/0450-12-31-hot-tips_<lang>.md
 source_lang = en
 type = TXT
 
-[o:hotosm:p:learnosm-1:r:0500-01-01-tm2-user]
+[o:hotosm:p:learnosm-1:r:0500-01-01-tm2-user_enmd]
 file_filter = translations/0500-01-01-tm2-user_<lang>.md
 source_lang = en
 type = TXT
@@ -91,7 +96,7 @@ file_filter = translations/0500-01-02-tm2-admin_<lang>.md
 source_lang = en
 type = TXT
 
-[o:hotosm:p:learnosm-1:r:0500-01-03-tm3-usermd]
+[o:hotosm:p:learnosm-1:r:0500-01-03-tm3-user]
 file_filter = translations/0500-01-03-tm3-user_<lang>.md
 source_lang = en
 type = TXT
@@ -124,17 +129,17 @@ type = TXT
 [o:hotosm:p:learnosm-1:r:0500-10-23-tm-disambiguation_enmd]
 file_filter = translations/0500-10-23-tm-disambiguation_<lang>.md
 source_lang = en
-type = TXT
+type = GITHUBMARKDOWN
 
 [o:hotosm:p:learnosm-1:r:0500-10-24-tm-admin_enmd]
 file_filter = translations/0500-10-24-tm-admin_<lang>.md
 source_lang = en
-type = TXT
+type = GITHUBMARKDOWN
 
 [o:hotosm:p:learnosm-1:r:0500-10-25-tm-user_enmd]
 file_filter = translations/0500-10-25-tm-user_<lang>.md
 source_lang = en
-type = TXT
+type = GITHUBMARKDOWN
 
 [o:hotosm:p:learnosm-1:r:0500-10-27-humanitarianmd]
 file_filter = translations/0500-10-27-humanitarian_<lang>.md
@@ -261,6 +266,11 @@ file_filter = translations/0900-12-30-mobile_mapping_<lang>.md
 source_lang = en
 type = TXT
 
+[o:hotosm:p:learnosm-1:r:1-essential_setuptxt]
+file_filter = translations/essential_setup_<lang>.txt
+source_lang = en
+type = TXT
+
 [o:hotosm:p:learnosm-1:r:1900-02-15-josm-conflict-resolutionmdtxt]
 file_filter = translations/1900-02-15-josm-conflict-resolution_<lang>.md
 source_lang = en
@@ -301,10 +311,10 @@ file_filter = translations/1900-09-15-josm-more-plugins_<lang>.md
 source_lang = en
 type = TXT
 
-[o:hotosm:p:learnosm-1:r:1900-09-25-josm-more-plugins-2_enmd]
+[o:hotosm:p:learnosm-1:r:1900-09-25-josm-more-plugins-2_enmdtxt]
 file_filter = translations/1900-09-25-josm-more-plugins-2_<lang>.md
 source_lang = en
-type = TXT
+type = GITHUBMARKDOWN
 
 [o:hotosm:p:learnosm-1:r:1900-10-15-josm-pluginsmd]
 file_filter = translations/1900-10-15-josm-plugins_<lang>.md
@@ -334,12 +344,7 @@ type = TXT
 [o:hotosm:p:learnosm-1:r:1900-12-31-josmmd]
 file_filter = translations/1900-12-31-josm_<lang>.md
 source_lang = en
-type = TXT
-
-[o:hotosm:p:learnosm-1:r:1-essential_setuptxt]
-file_filter = translations/essential_setup_<lang>.txt
-source_lang = en
-type = TXT
+type        = TXT
 
 [o:hotosm:p:learnosm-1:r:adding-a-building-to-openstreetmapentxt]
 file_filter = translations/adding-a-building-to-openstreetmap_<lang>.txt
