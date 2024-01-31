@@ -9,7 +9,6 @@ category: josm
 JOSM doplňky Building Tools & Utilsplugin2
 ============
 
-> Zkontrolováno 12.9.2016  
 
 Doplňky **buildings_tools** a **utilsplugin2** přidávají skvělé funkce do JOSM. V této kapitole si je probereme.  
 
@@ -26,6 +25,8 @@ Jakmile je doplněk nainstalovaný, objeví se v levé části okna JOSM nové t
 
 Spusťte JOSM a stáhněte si oblast, ve které chcete vytvářet budovy.  
 
+### Obdélníkové budovy
+
 * Vyberte building tool a nakreslete na mapu přímku dvěma kliknutími.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ Třetím kliknutím vyberte třetí roh budovy a zbytek se dokreslí automaticky
 ![Extend building][]
 
 * Tímto způsobem nejenže nakreslíte budovu na tři kliknutí, ale také jí rovnou nastavíte tag **building=yes**.  
+
+### Kruhové budovy
+
+* Ve "Více nástrojů" -> "Režimy kreslení budov" vyberte "Nastavit tvar budovy na kruh" nebo použijte klávesovou zkratku ALT+Z (při přepínání zpět na kreslení obdélníkových budov použijte ALT+R). Poté nakreslete průměr budovy.
+
+![Kruhová budova][]
 
 ### Komplikované budovy
 
@@ -119,4 +126,5 @@ Hodně štěstí!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Kruhová budova]: /images/josm/buildings_tools-round.png
 

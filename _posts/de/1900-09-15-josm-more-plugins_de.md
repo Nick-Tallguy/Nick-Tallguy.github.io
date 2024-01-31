@@ -9,7 +9,6 @@ category: josm
 JOSM Gebäude Werkzeuge & Utilsplugin2 Plugins
 ============
 
-> Gereviewt am 2016-09-12  
 
 Die **buildings_tools** und *utilsplugin2* Plugins ergänzen JOSM um großartige Funktionen. In diesem Abschnitt schauen wir und die angebotenen Funktionen näher an.  
 
@@ -26,6 +25,8 @@ Sobald das Plugin installiert ist, sieht man einen neuen Button auf der linken S
 
 Man startet JOSM und lädt ein Gebiet herunter, in dem man Gebäude zeichnen möchte.  
 
+### Rechteckige Gebäude
+
 * Man wählt das Gebäude Werkzeug und klickt doppelt, um eine Line auf der Karte zu zeichnen.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ Man startet JOSM und lädt ein Gebiet herunter, in dem man Gebäude zeichnen mö
 ![Extend building][]
 
 * Dies erzeugt nicht nur ein Rechteck mit nur 3 Klicks, sonder ergänzt den Umriss automatisch mit dem **building=yes** Tag.  
+
+### Kreisförmige Gebäude
+
+Wählen Sie unter "Optionale Wkz"->"Modi zum Zeichnen von Gebäuden" den Eintrag "Kreis als Gebäudeform festlegen" oder benutzen Sie das Tastaturkürzel ALT+Z (benutzen Sie ALT+R um auf das Zeichnen von Rechtecken zurückzuschalten). Zeichnen Sie dann den Durchmesser des Gebäudes.
+
+![Round building][]
 
 ### Komplexe Gebäude
 
@@ -119,4 +126,5 @@ Viel Glück!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

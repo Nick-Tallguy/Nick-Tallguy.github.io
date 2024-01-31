@@ -9,7 +9,6 @@ category: josm
 افزونه‌های Building Tools و Utilsplugin2 در JOSM
 ============
 
-> تاریخ بازبینی ۱۳۹۵/۰۶/۲۲  
 
 افزونه‌های **buildings_tools** و **utilsplugin2** عملکردهای بسیار عالی به JOSM اضافه می‌کنند. در این بخش نگاه نزدیک‌تری به قابلیت‌های آن‌ها می‌اندازیم.  
 
@@ -26,6 +25,8 @@ category: josm
 
 JOSM را باز کنید و ناحیه‌ای را که می‌خواهید ساختمان‌هایش را بکشید دانلود کنید.  
 
+### Rectangular Buildings
+
 * ابزار ساختمان را انتخاب کنید و دو بار کلیک کنید تا یک خط روی نقشه بکشید.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ JOSM را باز کنید و ناحیه‌ای را که می‌خواهید س�
 ![Extend building][]
 
 * با این کار نه‌تنها مستطیل را فقط با سه کلیک ایجاد می‌کنید، بلکه به‌طور خودکار برچسب **building=yes** نیز به شکل داده می‌شود.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### ساختمان‌های پیچیده
 
@@ -119,4 +126,5 @@ Utilsplugin2
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 

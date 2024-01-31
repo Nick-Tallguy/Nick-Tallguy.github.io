@@ -9,7 +9,6 @@ category: josm
 JOSM Building Tools & Utilsplugin2 플러그인
 ============
 
-> 2016-09-12에 검토됨  
 
 **buildings_tools**와 **utilsplugin2** 플러그인은 훌륭한 부가 기능을 JOSM에 추가해 주는 플러그인입니다. 이 장에서는 두 플러그인이 제공하는 부가 기능을 자세히 알아보겠습니다.  
 
@@ -26,6 +25,8 @@ Buildings Tools 플러그인은 건물을 디지털화하는 데 매우 큰 도�
 
 JOSM을 켜고 건물을 그릴 영역을 다운로드하세요.  
 
+### Rectangular Buildings
+
 * 건물 도구를 선택하고 마우스 클릭 두 번으로 선을 그리세요.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ JOSM을 켜고 건물을 그릴 영역을 다운로드하세요.
 ![Extend building][]
 
 * 마우스 버튼 클릭 세 번만으로 직사각형뿐만 아니라 **building=yes** 태그까지 추가되었습니다.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### 복잡한 모양의 건물
 
@@ -119,4 +126,5 @@ Utilsplugin2
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 
