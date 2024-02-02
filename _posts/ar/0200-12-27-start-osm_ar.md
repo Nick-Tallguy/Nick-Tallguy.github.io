@@ -33,7 +33,7 @@ category: beginner
     ![Mouse navigation][]
 
 - إذا كان لديك ماوس مع عجلة التمرير، قم بالتكبير والتصغير على الخريطة عن طريق تدوير تلك العجلة. إذا لم يكن لديك عجلة التمرير، فاستخدم الزرين + و — في الزاوية اليمنى العليا من الخريطة. (انظر الشكل أدناه)
--   To search for a place, left-click in the box labelled “Search” on the left side of the page (see figure above). Type in the name of your town or village and press Enter. A window should appear to the left of the map with the results of your search. Click on the location that looks like the one you want. The map will automatically move to the location you chose.
+-   للبحث عن مكان ، انقر بزر الفأرة الأيسر على الصندوق "بحث" في الجهة اليمنى من الصفحة (تفقد الشكل اعلاه). أدخل اسم مدينتك أو قريتك و اضغط Enter. ينبغي أن تظر نافذة يسار الخريطة تحتوي على نتائج البحث. انقر على الموقع الذي يبدو مشابه للذي تريده. ستذهب الخريطة تلقائيا الى الموقع الذي اخترته.
 
     ![Search][]
    
@@ -41,27 +41,27 @@ category: beginner
 عرض أنماط خريطة مختلفة
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+تحتوي خريطة الشارع المفتوحة على بيانات جغرافية من كل انحاء العالم. على الرغم من كونها قاعدة بيانات واحدة ، يمكن استعمال البيانات و ترميمها بطرائق مختلفة. لتفقد مثال عملي ، دعنا نرى عدة "أنماط" مختلفة على موقع OSM.
 
 - انقر على زر الطبقات على الجانب الأيمن من نافذة الخريطة.
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+-   انقر على خيارات الأنماط المختلفة للخريطة. لاحظ كيف تتغير الخريطة مع كل نمط. فتبرز خريطة النقل و المواصلات ، على سبيل المثال ، طرق النقل العامة حينما تبرز خريطة الدراجات طرق الدراجات. تتواجد جميع البيانات التي تجعل كل هذا ممكن في قاعدة بينات خريطة الشارع المفتوحة.
 
     ![Transport map][]
 
 إنشاء حساب خريطة الشارع المفتوحة 
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
+-   بعد أن تعرفت على الموقع الرئيسي ، يمكنك التسجيل باسم مستخدم و كلمة مرور و عمل اضافتك الأولى للخريطة.
+-   على موقع خريطة الشارع المفتوحة ، انقر على "انشئ حساباً" في الزاوية العلوية اليمنى من الصفحة.
 - يجب أن تشاهد صفحة جديدة والتي  تبدو كالتالي:
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
+-   هناك خمس صناديق يجب عليك ملأها في هذه الصفحة لانشاء حساب خريطة الشارع المفتوحة.
+-   ادخل عنوان بريدك الالكتروني في أول صندوقين, يجب أن تدخل نفس عنوان البريد في كلا الصندوقين. لاحقاً ، يجب عليك فتح بريدك الالكتروني لتأكيد حسابك مع خريطة الشارع المفتوحة.
 -   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
 -   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
 -   You may want to write down your OSM username and password. You will need it to log in later.
