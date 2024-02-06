@@ -18,10 +18,10 @@ In this section we will learn step by step how to navigate the OpenStreetMap web
 Besøke OpenStreetMaps webside
 -------------------------------
 
--   Open your web browser.
+- Åpne din nettleser.
 I adressefeltet i toppen av vinduet, legger du inn følgende og trykker Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
--   When the page has finished loading, you should see something like this:
+Når siden har lastet ferdig, vil du se noe slikt som:
 
     ![OpenStreetMap website with some main functions listed][]
 
@@ -60,7 +60,7 @@ Lag en OpenStreetMap konto
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
+- Det er fem felt på denne siden som du må fylle inn for å registrere en konto hos OSM.
 -   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
 -   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
 -   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
