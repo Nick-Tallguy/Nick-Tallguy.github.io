@@ -56,7 +56,7 @@ Como parte de las notas, existen varias operaciones sobre estas:
 Por ejemplo, cuando un usuario pregunta por más detalles del entorno; o que el usuario que la creó quiere describir mejor la nota inicial.
 * Reabrir nota (Cerrada -> Abierta): Cuando un usuario no está de acuerdo con la resolución de nota, y decide reactivarla.
 
-![Estados de una nota][]
+![States for a note][]
 
 
 # Consideraciones para crear buenas notas
@@ -97,7 +97,7 @@ Son aquellas creadas masivamente desde el computador donde se identifican elemen
 
 Cuando creas una nota describiendo una incongruencia en el mapa, este texto asociado a una ubicación llegará a la base de datos de OSM. Después, algún mapeador de OSM leerá tu nota para resolverla y sí tiene dudas sobre esa descripción, puede agregar un comentario donde te podrá solicitar más detalles. Sí creaste la nota con tu usuario de OpenStreetMap, te llegará un mensaje de correo electrónico con las preguntas que te hace el mapeador. Cualquier comentario que agreges, le será notificado a todos los mapeadores que hayan comentado la nota anteriormente. De esta forma es que las personas involucradas en una nota comienzan a interactuar.
 
-![Notificación por correo electrónico][]
+![Notification by email][]
 
 
 # Creación de notas
@@ -108,14 +108,14 @@ La funcionalidad de crear, comentar y cerrar notas está incluida en diferentes 
 
 Cuando veas algo que merece crear una nota, puedes mantener el dedo oprimido sobre el mapa y aparecerá un menú flotante. Ahí escoges crear nota, y podrás describir la incongruencia. Además, existe la opción de incluir una foto si quieres dar un mejor contexto. Asegúrate que la aplicación suba los datos a OpenStreetMap, para publicar tu nota.
 
-![Creando una nota en StreetComplete][]
+![Creating a note in StreetComplete][]
 
 
 ## Every-Door    
 
 En la parte baja de la aplicación hay varios modos de edición. Escoge el último que es para notas. Desde ahí podrás ubicar el círculo para después digitar el texto de la nota. Recuerda subir los cambios, para que tu nota quede registrada en OpenStreetMap.
 
-![Creando una nota en Every-door][]
+![Creating a note in Every-door][]
 
 
 ## OnOSM
@@ -124,21 +124,21 @@ Esta es una página que permite agregar detalles de establecimientos por medio d
 
 Las notas creadas por esta página siempre son anónimas, ya que no requieres usar las credenciales de OSM. En consecuencia tampoco recibirás un correo electrónico cuando un mapeador procese tu nota; por lo que debes visitar constantemente la página de la nota para ver su estado.
 
-![Creando una nota en OnOSM.org][]
+![Creating a note in OnOSM.org][]
 
 
 ## OsmAnd
 
 Selecciona un elemento en el mapa (por ejm. una construcción, una vía) y en la opción “Acciones” selecciona “Abrir una nota” en OSM. Describe en el texto la incongruencia y para finalizar les das “Subir”.
 
-![Creando una nota en OSMAND][]
+![Creating a note in OSMAND][]
 
 
 ## Página de OSM.org
 
 Desde la página principal de OpenStreetMap.org, haces zoom a la zona de interes y ahí se habilita el ícono de agregar nota. Recuerda que sí haces este procedimiento sin haber iniciado sesion, crearás una nota anónima y no recibirás notificaciones de su resolución. Aparecerá un cuadro de texto donde podrás dar las indicaciones y al hacer clic en “Añadir nota” ya quedará dentro de OSM.
 
-![Creando una nota en osm.org][]
+![Creating a note in osm.org][]
 
 
 # Historia
@@ -151,10 +151,10 @@ Para 2014, todos los reportes de OpenStreetBugs se habían migrado a la base de 
 En 2017 ya se habían creado 1 millón de notas ha nivel mundial.
 
 
-[Estados de una nota]: /images/beginner/note-states.png
-[Notificación por correo electrónico]: /images/beginner/email-messages.png
-[Creando una nota en StreetComplete]: /images/beginner/streetcomplete.gif
-[Creando una nota en Every-door]: /images/beginner/every-door.gif
-[Creando una nota en OnOSM.org]: /images/beginner/onosm.gif
-[Creando una nota en OSMAND]: /images/beginner/osmand.gif
-[Creando una nota en osm.org]: /images/beginner/website.gif
+[States for a note]: /images/beginner/note-states.png
+[Notification by email]: /images/beginner/email-messages.png
+[Creating a note in StreetComplete]: /images/beginner/streetcomplete.gif
+[Creating a note in Every-door]: /images/beginner/every-door.gif
+[Creating a note in OnOSM.org]: /images/beginner/onosm.gif
+[Creating a note in OSMAND]: /images/beginner/osmand.gif
+[Creating a note in osm.org]: /images/beginner/website.gif

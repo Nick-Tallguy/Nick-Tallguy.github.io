@@ -73,7 +73,7 @@ Můžete si vybrat mezi definováním zájmové oblasti (mapovací oblasti) vaš
 * Možnost 1: `Nakreslete` oblast zájmu ručně
 * Možnost 2: `Nahrát soubor` pro import oblasti zájmu jako GeoJSON, KML nebo zazipovaný shapefile.
 
-![TM Nový][]
+![TM New][]
 
 ### Definice mapovací oblasti
 
@@ -173,7 +173,7 @@ Nyní se zobrazí nabídka "Upravit" vašeho projektu. Před uložením projektu
 
 ### Popis
 
-![TM Popis][]
+![TM Description][]
 
 #### Stav
 
@@ -214,7 +214,7 @@ Pokud máte datum, ke kterému chcete mít projekt kompletně zmapovaný a ově�
 
 ### Pokyny
 
-![TM pokyny][]
+![TM Instructions][]
 
 #### Komentář k sadě změn
 
@@ -344,7 +344,7 @@ Přepnutím do režimu 'Soukromý' se projekt skryje všem uživatelům kromě t
 
 ### Nastavení
 
-![TM Nastavení][]
+![TM Settings][]
 
 #### Výchozí jazyk
 
@@ -362,7 +362,7 @@ Pokud je tato možnost povolena, přispěvatelé nemohou vybrat konkrétní úlo
 
 Zde můžete v projektu provádět výkonné hromadné akce. **U mnoha z těchto možností buďte opatrní**, **nejsou vratné**. 
 
-![TM Akce][]
+![TM Actions][]
 
 #### Zpráva všem přispěvatelům
 
@@ -465,17 +465,17 @@ Neváhejte se podívat na tyto další zdroje o zarovnávání obrazů:
 - [Kapitola o zarovnání snímků JOSM v aplikaci learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
 
 
-[TM Velikosti dlaždice]: /images/coordination/tm4_tile_sizes.png
-[TM Přidat projekt]: /images/coordination/tm4_new_project.png
-[TM Nový]: /images/coordination/tm4_create_new.png
-[TM Nové polygony]: /images/coordination/tm4_create_new_polys.png
-[TM Ořez]: /images/coordination/tm4_trim1.png
-[TM Ořez hrubý]: /images/coordination/tm4_trim2.png
-[TM Ořez přesný]: /images/coordination/tm4_trim3.png
-[TM Popis]: /images/coordination/tm4_description.png
-[TM Instrukce]: /images/coordination/tm4_instructions.png
+[TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
+[TM Add Project]: /images/coordination/tm4_new_project.png
+[TM New]: /images/coordination/tm4_create_new.png
+[TM New Polys]: /images/coordination/tm4_create_new_polys.png
+[TM Trim]: /images/coordination/tm4_trim1.png
+[TM Trim coarse]: /images/coordination/tm4_trim2.png
+[TM Trim fine]: /images/coordination/tm4_trim3.png
+[TM Description]: /images/coordination/tm4_description.png
+[TM Instructions]: /images/coordination/tm4_instructions.png
 [TM Metadata]: /images/coordination/tm4_metadata.png
-[TM Prioritní oblast]: /images/coordination/tm4_priority_area.png
-[TM Oprávnění]: /images/coordination/tm4_permissions.png
-[TM Nastavení]: /images/coordination/tm4_settings.png
-[TM Akce]: /images/coordination/tm4_actions.png
+[TM Priority Area]: /images/coordination/tm4_priority_area.png
+[TM Permissions]: /images/coordination/tm4_permissions.png
+[TM Settings]: /images/coordination/tm4_settings.png
+[TM Actions]: /images/coordination/tm4_actions.png

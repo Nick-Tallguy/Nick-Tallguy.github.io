@@ -1,7 +1,7 @@
 ---
 layout: doc
 title: Maken van Opmerkingen in OSM
-permalink: /nl/beginner/notes/
+permalink: /nl_NL/beginner/notes/
 lang: nl_NL
 category: beginner
 ---

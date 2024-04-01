@@ -3,7 +3,7 @@ layout: doc
 title: Leitura Adicional
 permalink: /pt/beginner/moving-forward/
 lang: pt
-category: iniciante
+category: beginner
 ---
 
 Leitura Adicional
