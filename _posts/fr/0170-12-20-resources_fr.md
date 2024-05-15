@@ -43,5 +43,5 @@ Il s'agit d'une liste commentée de pointeurs vers d'autres sites web que nous c
 ## Statistiques
 
   * [Entrée du wiki sur MapCraft](https://wiki.openstreetmap.org/wiki/FR:MapCraft) Un outil simple et open-source de coordination. Le wiki dit qu'il n'est plus maintenu activement
-  * [Progression en temps réel sur OpenStreetMap (en)](https://github.com/osmlab/show-me-the-way) La page readme sur github explique comment filtrer l'affichage pour ne pas voir la proggression du monde entier
+  * [Progression en temps réel sur OpenStreetMap (en)](https://github.com/osmlab/show-me-the-way) La page readme sur github explique comment filtrer l'affichage pour ne pas voir la progression du monde entier
   * [Qui est près de moi (en)](http://resultmaps.neis-one.org/oooc) Carte des cartographes qui ont récemment contribué dans une zone géographique
