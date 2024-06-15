@@ -18,14 +18,14 @@ Nesta secção iremos aprender passo a passo como navegar no site do OpenStreetM
 Visite o site do OpenStreetMap
 -------------------------------
 
--   Abra o seu navegador de internet.
+-   Abra o seu navegador de Internet.
 -   Na barra de endereços no topo da janela, introduza o seguinte endereço e carregue na tecla Enter:
     [www.openstreetmap.org](http://www.openstreetmap.org/)
 -   Quando terminar o carregamento da página, deve ver algomo como isto:
 
     ![OpenStreetMap website with some main functions listed][]
 
-Navegar no Mapa
+Navegar no mapa
 ----------------
 
 -   A coisa principal que deve ver é o mapa. Mova o mapa clicando nele com o botão esquerdo do rato, mantendo premido, e arrastando o rato à volta (ver imagem abaixo).
@@ -38,7 +38,7 @@ Navegar no Mapa
     ![Search][]
    
 
-Ver Estilos de Mapas Diferentes
+Ver estilos de mapas diferentes
 ------------------------
 
 O OpenStreetMap contém mapas geográficos de todo o mundo. Apesar de ser uma única base de dados, os dados podem ser interpretados e estilizados de várias formas. Para ver como, vamos dar uma olhada nos vários "estilos" de mapa disponíveis no site do OpenStreetMap.
@@ -95,11 +95,11 @@ Adicionar os Primeiros Pontos / Nós
     ![Point button][]    
 
 -   Selecione no menu à esquerda que tipo de elemento está a adicionar ao mapa. Pode então preencher os campos apropriados como o nome e outras informações.
--   Para gravar as suas alterações, clique no botão "Gravar" que se encontra no topo. Uma vez que é a sua primeira edição, pode preferir experimentar primeiro como funciona o editor iD e então não grave as suas alterações a não ser que tenha a certeza que estão corretas.
+-   Para guardar as suas alterações, clique no botão "Guardar" que se encontra no topo. Uma vez que é a sua primeira edição, pode preferir experimentar primeiro como funciona o editor iD e então não guarde as suas alterações a não ser que tenha a certeza que estão corretas.
 
     ![Save button][]    
 
--   Se clicar em Gravar, irá aparecer um painel do lado esquerdo para preencher com uma descrição breve sobre as alterações que fez (por exemplo: adicionei vários edifícios e moradas). Então poderá clicar em "Enviar" e as suas alterações serão gravadas na base de dados do OpenStreetMap!
+-   Se clicar em Guardar, irá aparecer um painel do lado esquerdo para preencher com uma descrição breve sobre as alterações que fez (por exemplo: adicionei vários edifícios e moradas). Então poderá clicar em "Enviar" e as suas alterações serão guardadas na base de dados do OpenStreetMap!
 
 
 O editor iD é uma forma fantástica de editar o OpenStreetMap, e pode descobrir como o utilizar no [guia do editor iD editor](/pt/beginner/id-editor/).  Também pode ver o guia [guia passo a passo](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) que é uma forma iterativa de descobrir como utilizar o editor.

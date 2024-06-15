@@ -1,60 +1,60 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+permalink: /pt/coordination/tm-disambiguation/
+lang: pt
+title: Versões do Gestor de Tarefas
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
+Versões do Gestor de Tarefas
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+Esta página dá-lhe uma visão geral das versões do Gestor de Tarefas para as quais oferecemos documentação. Selecione um dos guias para a versão cujas imagens de ecrã correspondem ao software com que pretende trabalhar.
 
 <div class='disambiguation-version' markdown="1">
-## Version 4 ##
+## Versão 4 ##
 
 <figure markdown="1">
-![TM4-start][]
+![Arranque do TM4][]
 </figure>
 <figure markdown="1">
-![TM4-project][]
+![Projeto TM4][]
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[Guia do utilizador](/pt/coordination/tm-user) [Guia do administrador](/pt/coordination/tm-admin)
 </div>
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Version 3 ##
+## Versão 3 ##
 
 <figure markdown="1">
-![TM3-start][]
+![Arranque do TM3][]
 </figure>
 <figure markdown="1">
-![TM3-project][]
+![Projeto TM3][]
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
+[Guia do utilizador](/pt/coordination/tasking-manager3) [Guia do administrador](/pt/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
 
 <div class='disambiguation-version' markdown="1">
-## Version 2 ##
+## Versão 2 ##
 
 <figure markdown="1">
-![TM2-start][]
+![Arranque do TM2][]
 </figure>
 <figure markdown="1">
-![TM2-project][]
+![Projeto TM2][]
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
+[Guia do utilizador](/pt/coordination/tasking-manager) [Guia do administrador](/pt/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

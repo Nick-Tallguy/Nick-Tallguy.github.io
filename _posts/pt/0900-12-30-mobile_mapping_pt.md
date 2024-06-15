@@ -2,47 +2,47 @@
 layout: doc
 permalink: /pt/mobile-mapping/
 lang: pt
-title: Mapeando com um Telemóvel, GPS ou Papel
+title: Mapeando com um telemóvel, GPS ou papel
 category: mobile-mapping
 cover: yes
 nosearch: true
 ---
 
-Mapeando com Telemóvel, GPS ou Papel
+Mapeando com um telemóvel, GPS ou papel
 =============================
 
 > Revisto em 2015-07-14  
 
-To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+Para criar um mapa detalhado e preciso, é necessário realizar um levantamento na área que está a atualizar. Os guias desta secção tratam da realização de um levantamento utilizando um;  
 
-- GPS  which will probably be more accurate than your mobile phone,  
-- Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
-- Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+- GPS que será provavelmente mais preciso do que o seu telemóvel,  
+- Field Papers, um método para obter um mapa impresso no qual se pode escrever e depois carregar e rastrear, ou  
+- O seu telemóvel. Existem muitas aplicações disponíveis para navegar utilizando dados OSM e muitas aplicações para o ajudar a realizar o seu inquérito. Apenas algumas estão listadas aqui, mas esta lista está a crescer diariamente e algumas organizações de ajuda estão a conceber as suas próprias aplicações para recolher dados específicos.  
 
-More and more smartphones today include a radio chip that allows them to receive signals from satellite navigation systems and determine their location. The most common chips receive signals from the U.S. GPS frequencies, while higher end models may include chips that can read frequencies from the Russian GLONASS satellites at the same time.  
+Atualmente, cada vez mais telemóveis incluem um chip de rádio que lhes permite receber sinais de sistemas de navegação por satélite e determinar a sua localização. Os chips mais comuns recebem sinais das frequências do GPS dos EUA, enquanto os modelos mais sofisticados podem incluir chips que podem ler frequências dos satélites russos GLONASS ao mesmo tempo.  
 
-The quality of the chips used in smartphones may vary, and data accuracy and performance could vary as well.  
+A qualidade dos chips utilizados nos telemóveis pode variar, pelo que a exatidão e o desempenho dos dados também podem variar.  
 
-Devices with GPS chips can work autonomously, off the grid, and without an Internet connection, while devices marked with “A-GPS only” (Assisted GPS) require a network data connection (and a mobile signal from a telecommunications company) to work correctly. A-GPS data can help autonomous GPS chips perform better by pre-caching data for better performance.  
+Os dispositivos com chips GPS podem funcionar de forma autónoma, fora da rede e sem ligação à Internet, enquanto os dispositivos marcados com "Apenas A-GPS" (GPS assistido) necessitam de uma ligação de dados à rede (e de um sinal móvel de uma empresa de telecomunicações) para funcionarem corretamente. Os dados A-GPS podem ajudar os chips GPS autónomos a ter um melhor desempenho através do armazenamento prévio de dados para um melhor desempenho.  
 
-For most mapping applications to work as expected, the user is assumed to have a smartphone with an autonomous GPS chip. Check your device specifications to confirm whether your device uses an autonomous chip, or is A-GPS only device.  
+Para que a maioria das aplicações de mapas funcione como esperado, pressupõe-se que o utilizador tenha um telemóvel com um chip GPS autónomo. Verifique as especificações do seu equipamento para confirmar se este utiliza um chip autónomo ou se é apenas um equipamento A-GPS.  
 
-There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
+Existem muitas aplicações de mapas disponíveis (gratuitas ou pagas) para a maioria dos telemóvel no mercado. Cada aplicação tem as suas próprias vantagens e desvantagens.  
 
-In choosing a mapping application for mapping in OpenStreetMap, you need to consider the following features.  
+Ao escolher uma aplicação de cartografia para cartografar no OpenStreetMap, é necessário ter em conta as seguintes características.  
 
-- Easy to learn; immediately usable  
-- With GPX support (create waypoints, customizable log intervals)  
-- Allows OSM contribution (add, edit, upload data)  
-- Able to load OSM data offline  
-- Able to geo-tag multimedia files (notes, photos, videos)  
+- Fácil de aprender; imediatamente utilizável  
+- Com suporte GPX (criar pontos de passagem, intervalos de registo personalizáveis)  
+- Permite a contribuição do OSM (adicionar, editar, carregar dados)  
+- Capacidade de carregar dados OSM desligado da Internet (offline)  
+- Capacidade de geo-marcar ficheiros multimédia (notas, fotografias, vídeos)  
 - Em desenvolvimento ativo  
 
-Try several applications that are compatible with your phone to get familiar with the interface and choose the best app based on your personal preference and mapping approach.
+Experimente várias aplicações compatíveis com o seu telemóvel para se familiarizar com a interface e escolha a melhor aplicação com base nas suas preferências pessoais e abordagem cartográfica.
 
-<!-- Commenting for now since tables doesn't look very nice!
+<!-- Comentando por enquanto, já que as tabelas não estão muito bonitas!
 
-Aplicações Recomendadas para Telemóveis / PDAs
+Aplicações recomendadas para telemóveis / PDAs
 -----------------------------------------------------
 
 | Aplicação      | Utilização  | Android  | Blackberry | iOS     | Windows |
@@ -60,7 +60,7 @@ O - suportado, D - em desenvolvimento, m - mapeamento, n - navegação, p - edit
 
  -->
 
-The next sections will guide you through the installation and use of specific applications for you to contribute to OpenStreetMap using your smartphone.
+As próximas secções irão guiá-lo através da instalação e utilização de aplicações específicas para que possa contribuir para o OpenStreetMap utilizando o seu telemóvel.
 
-> **Note:** Before proceeding any further, verify that GPS is available and active for the device. In Android, go to **Settings \> Location** and enable it.  
+> **Nota:** antes de prosseguir, verifique se o GPS está disponível e ativo para o dispositivo. No Android, vá a **Definições \> Localização** e ative-o.  
 > Lembre-se, o GPS não funciona com precisão dentro de edifícios!
