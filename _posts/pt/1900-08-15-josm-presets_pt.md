@@ -1,61 +1,61 @@
 ---
 layout: doc
-title: JOSM Presets
+title: Modelos de etiquetas JOSM
 permalink: /pt/josm/josm-presets/
 lang: pt
 category: josm
 ---
 
-JOSM Presets
+Modelos de etiquetas JOSM
 ============
 
 > Revisto em 2016-09-17  
 
-If you've been using JOSM for long, by now you understand a bit about tags and presets. Every object is defined by two things - first, its geometry (whether it's a point, line, or shape and its location), and second, its attributes which come in the form of tags.  
+Se já utiliza o JOSM há muito tempo, já sabe um pouco sobre etiquetas e modelos de etiquetas. Cada objeto é definido por duas coisas - primeiro, a sua geometria (se é um ponto, linha ou forma e a sua localização), e segundo, os seus atributos que vêm sob a forma de etiquetas.  
 
-When you draw an object and select from the Presets menu, the correct tags are automatically applied to the object.  
+Quando desenha um objeto e o seleciona no menu Modelos de etiquetas, as etiquetas corretas são automaticamente aplicadas ao objeto.  
 
-If you like using presets, what happens when you want to add tags that are not contained in the menu, or when you want to customize your own tags?  
+Se gosta de utilizar modelos de etiquetas, o que acontece quando pretende adicionar etiquetas que não estão incluídas no menu ou quando pretende personalizar as suas próprias etiquetas?  
 
-In this case, you can add custom menu items to the Presets. In this section we will see how to do this. In the [following chapter](/en/josm/creating-presets), we will cover how to create custom presets files of your own.  
+Neste caso, pode adicionar itens de menu personalizados aos Modelos de etiquetas. Nesta secção, veremos como o fazer. No [capítulo seguinte](/pt/josm/creating-presets), veremos como criar os seus próprios ficheiros de modelos de etiquetas personalizadas.  
 
 
-Add Presets
+Adicionar modelos de etiquetas
 -----------
 
-The menus and submenus that make up the Presets menu are stored in files which describe how to create the menus and forms that come up when you click on a preset, and how to define what tags are added to an object based on how the form is filled out.  
+Os menus e submenus que compõem o menu Modelos de etiquetas estão armazenados em ficheiros que descrevem como criar os menus e formulários que surgem quando clica num modelo de etiquetas e como definir que etiquetas são adicionadas a um objeto com base na forma como o formulário é preenchido.  
 
-Presets files can either be added from an online archive, or saved on your computer locally and added into JOSM.  
+Os ficheiros de modelos de etiquetas podem ser adicionados a partir de um arquivo online ou guardados no seu computador localmente e adicionados ao JOSM.  
 
-* To add a new entry to the Presets menu, open JOSM and go to Edit->Preferences.  
-* Click on the third tab down, which looks like a grid covering the planet.  
+* Para adicionar uma nova entrada ao menu Modelos de etiquetas, abra o JOSM e vá a Editar->Preferências…  
+* Clique no terceiro separador para baixo, que se parece com uma grelha que cobre o planeta.  
 
 ![tagging presets tab][]
 
-* At the top, click on "Tagging Presets."  
+* Na parte superior, clique em "Modelos de etiquetas".  
 
 ![tagging presets menu][]
 
-* Add a presets file from the internet by selecting one in the list on 	the left, and clicking on the blue arrow. In this example, we will add the preset named "New Tags"  
+* Adicione um ficheiro de modelos de etiquetas da Internet selecionando um na lista à esquerda e clicando na seta azul. Neste exemplo, vamos adicionar o modelo de etiquetas chamado "New Tags" (Novas etiquetas)  
 
 ![example presets][]
 
-* You will see a new item appear in the list on the right.  
-* Click OK.  
-* You will need to restart JOSM.  
-* Create a new layer and add a point or shape.  
-* Go to the Presets menu. You will see an additional entry at the bottom which expands into several options not covered by the standard JOSM installation.  
+* Verá aparecer um novo item na lista à direita.  
+* Clique no botão OK.  
+* Terá de reiniciar o JOSM.  
+* Crie uma nova camada e adicione um ponto ou uma forma.  
+* Aceda ao menu Modelos de etiquetas. Verá uma entrada adicional na parte inferior que se expande para várias opções não abrangidas pela instalação padrão do JOSM.  
 
 ![additional tags preset][]
 
-* Most presets cover fairly specific use cases so browse the list if you find one which matches your interests.  
+* A maioria dos modelos de etiquetas abrange casos de utilização bastante específicos, por isso, navegue na lista se encontrar uma que corresponda aos seus interesses.  
 
-* If you have been given a custom presets file, you can add it to the menu in a similar way. Simply return to the Preferences menu, and instead of selecting from the list, click on the (+) button in the upper right.  
+* Se tiver recebido um ficheiro de modelos de etiquetas personalizados, pode adicioná-lo ao menu de forma semelhante. Basta voltar ao menu Preferências e, em vez de selecionar a partir da lista, clicar no botão (+) no canto superior direito.  
 
 ![plus button][]
 
-* Locate your file and give it a name if you like.  
-* Click OK.  
+* Localize o seu ficheiro e dê-lhe um nome, se quiser.  
+* Clique no botão OK.  
 
 
 [tagging presets tab]: /images/josm/tagging-presets-tab.png

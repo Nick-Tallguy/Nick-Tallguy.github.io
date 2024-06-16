@@ -10,34 +10,34 @@ Módulos JOSM
 ============
 
 
-As you become more advanced in your editing techniques, you may want to use additional JOSM features to improve your mapping skills. JOSM allows you to install numerous plugins, which add extra functionality to the software.  
+À medida que se torna mais avançado nas suas técnicas de edição, pode querer utilizar funcionalidades adicionais do JOSM para melhorar as suas capacidades de mapeamento. O JOSM permite-lhe instalar vários módulos, que acrescentam funcionalidades extra ao software.  
 
-In this section we will take a look at how to install plugins, and some of the most useful plugins that are available.
+Nesta secção, veremos como instalar módulos e alguns dos módulos mais úteis que estão disponíveis.
 
-Installing Plugins
+Instalar módulos
 -------------------
-Any time you want to install a new plugin, go to **Edit \> Preferences** and click on the **Plugins** tab.  
+Sempre que quiser instalar um novo módulo, vá a **Editar \> Preferências…** e clique no separador **Módulos**.  
 
 ![Plugins][]
 
-* If you don’t see a list of available plugins, click **Download List**.  
-* To install a plugin you simply must check the box next to it and click OK at the bottom.  
-* Lastly, with some versions of JOSM you may have to restart JOSM when you install new plugins.
+* Se não vir uma lista de módulos disponíveis, clique em **Descarregar lista**.  
+* Para instalar um módulo, basta marcar a caixa de seleção ao lado do mesmo e clicar no botão OK na parte inferior.  
+* Por último, com algumas versões do JOSM, poderá ter de reiniciar o JOSM quando instalar novos módulos.
 
-Some of our favorite plugins are:
+Alguns dos nossos módulos favoritos são:
 
-1. **[buildings_tools](/en/josm/josm-more-plugins/#the-buildings-tools-plugin):** If you draw a lot of buildings, this will make the process faster and easier  
+1. **[buildings_tools](/pt/josm/josm-more-plugins/#the-buildings-tools-plugin):** se desenhar muitos edifícios, isto tornará o processo mais rápido e fácil  
 
-2. **DirectUpload:** If you collect a lot of GPS tracks and would like to save them on the OSM database, this plugin makes it easy.  
+2. **DirectUpload:** se coleciona muitos percursos GPS e gostaria de os guardar na base de dados OSM, este módulo torna-o fácil.  
 
-3. **editgpx:** If you want to upload GPS tracks from a Garmin device, you might need this plugin. OSM won't accept GPS tracks that have been saved on an external memory card in a Garmin, but this plugin can correct the files so they can be uploaded.  
+3. **editgpx:** se quiser carregar trilhos GPS a partir de um dispositivo Garmin, poderá precisar deste módulo. O OSM não aceita trilhos GPS que tenham sido guardados num cartão de memória externo de um Garmin, mas este módulo pode corrigir os ficheiros para que possam ser carregados.  
 
-4. **fieldpapers:** This plugin lets you load scanned Field Papers into JOSM.  
+4. **fieldpapers:** este módulo permite-lhe carregar documentos de campo digitalizados para o JOSM.  
 
-5. **imagery_offset_db:** This plugin lets you cooperate with other mappers who find that the Bing satellite imagery is a little bit misaligned. This issue is covered in more detail in a later chapter.  
+5. **imagery_offset_db:** este módulo permite-lhe cooperar com outros mapeadores que consideram que as imagens de satélite do Bing estão um pouco desalinhadas. Esta questão é abordada com mais pormenor num capítulo posterior.  
 
-6. **print:** Adds a Print function, in case you would like to make quick printouts of an area, that don't need to look very good.  
+6. **print:** adiciona uma função de imprimir, no caso de querer fazer impressões rápidas de uma área, que não precisam de ter um aspeto muito bom.  
 
-7. **[utilsplugin2](/en/josm/josm-more-plugins/#more-selection-tools):** Adds many additional tools and menus to JOSM for advanced users. This is covered in more detail in the [next chapter](/en/josm/josm-more-plugins)
+7. **[utilsplugin2](/pt/josm/josm-more-plugins/#more-selection-tools):** adiciona muitas ferramentas e menus adicionais ao JOSM para utilizadores avançados. Isto é abordado em mais pormenor no [próximo capítulo](/pt/josm/josm-more-plugins)
 
 [Plugins]: /images/josm/josm-plugins_image00_plug-icon.png

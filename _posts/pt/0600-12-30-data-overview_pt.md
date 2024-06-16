@@ -1,51 +1,51 @@
 ---
 layout: doc
-title: OSM Data Overview
+title: Visão geral dos dados OSM
 permalink: /pt/osm-data/data-overview/
 lang: pt
 category: osm-data
 ---
 
-OSM Data Overview
+Visão geral dos dados OSM
 ==================
 
 
 > Revisto em 2016-09-05
 
-<!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
+<!--Nesta secção, vamos analisar como funciona o OpenStreetMap, o que nos ajudará a compreender melhor como os dados estão estruturados e como podemos utilizá-los da melhor forma.-->
 
-How OSM Works
+Como funciona o OSM
 --------------
-Let's consider how OpenStreetMap works. Thousands of users around the world continually add to and edit the map, but what goes on behind the scenes?  
+Vejamos como funciona o OpenStreetMap. Milhares de utilizadores em todo o mundo adicionam e editam continuamente o mapa, mas o que se passa nos bastidores?  
 
-When you or any other user makes changes using editing software such as JOSM or iD, the software communicates with a central OpenStreetMap server and notifies it of your changes. On that server is a massive database, which contains all the location information and attributes about every single geographic feature in all of OpenStreetMap.  
+Quando um utilizador faz alterações usando software de edição como o JOSM ou o iD, o software comunica com um servidor central do OpenStreetMap e notifica-o das suas alterações. Nesse servidor existe uma enorme base de dados, que contém toda a informação de localização e atributos sobre cada uma das características geográficas de todo o OpenStreetMap.  
 
-Because OSM is free and open, it is possible for anybody to download all the data in this database. However, because it is so massive (*the data is more than 30 GB even when it's compressed*), it's nearly impossible to work with all the data at once.  
+Como o OSM é gratuito e aberto, qualquer pessoa pode descarregar todos os dados desta base de dados. No entanto, devido à sua enorme dimensão (*os dados têm mais de 30 GB mesmo quando comprimidos*), é quase impossível trabalhar com todos os dados de uma só vez.  
 
-Because of this limitation, there are various methods of **exporting** and **extracting** data which are covered in this section. Exporting means to convert OpenStreetMap data from its native format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. These terms are often used interchangeably. We'll learn more about this throughout the OSM Data section.  
+Devido a esta limitação, existem vários métodos de **exportação** e **extração** de dados que são abordados nesta secção. Exportar significa converter os dados do OpenStreetMap do seu formato nativo para um formato que lhe seja conveniente. Isto é ligeiramente diferente de **extrair** dados, que significa cortar os dados da área da sua escolha. Também pode significar extrair as características específicas que pretende de uma área. Estes termos são muitas vezes utilizados indistintamente. Aprenderemos mais sobre isto na secção Dados OSM.  
 
-Using Geodata
+Utilização de geodados
 --------------
-If you are not an experienced GIS user, it's important to understand the difference between OSM editing software like JOSM and GIS software such as Quantum GIS and ArcGIS.  
+Se não é um utilizador experiente de SIG, é importante compreender a diferença entre o software de edição OSM, como o JOSM, e o software SIG, como o Quantum GIS e o ArcGIS.  
 
-Editors such as iD or JOSM have one core function that they are very good at - making it easy for users to edit OpenStreetMap. But they are not software meant for analyzing or querying data -
-this function is best left to other applications. GIS software, such as the free and open source [Quantum GIS (QGIS)](http://www.qgis.org), allows users to design good-looking maps, to query and analyze data, and much more. GIS software can also be used for editing geodata, but it is much easier to edit OpenStreetMap with the dedicated OSM editors.  
+Editores como o iD ou o JOSM têm uma função central em que são muito bons - facilitar aos utilizadores a edição do OpenStreetMap. Mas não são software destinado a analisar ou consultar dados.
+é preferível deixar esta função para outras aplicações. O software GIS, como o gratuito e de código aberto [Quantum GIS (QGIS)](http://www.qgis.org), permite aos utilizadores desenhar mapas com bom aspeto, consultar e analisar dados, e muito mais. O software GIS também pode ser usado para editar geodados, mas é muito mais fácil editar o OpenStreetMap com os editores dedicados do OSM.  
 
-In the next chapter we will take a closer look at file formats which are associated with OpenStreetMap and geographic data in general. Then we'll look at various ways to access and manipulate OSM data and convert it between different file types.  
+No próximo capítulo vamos analisar mais detalhadamente os formatos de ficheiros que estão associados ao OpenStreetMap e aos dados geográficos em geral. Depois, veremos as várias formas de aceder e manipular os dados do OSM e de os converter entre diferentes tipos de ficheiros.  
 
 
-Getting the Data
+Obter os dados
 -----------------
 
-That's great, but how do you get out the data that you want?  
+Isso é ótimo, mas como é que se obtêm os dados que se pretendem?  
 
-In this chapter we'll go over the various ways of exporting OSM data. We'll stick to the basics, but keep in mind that in order to use the data effectively, you'll probably need GIS software,
-such as the free Quantum GIS application.  
+Neste capítulo vamos abordar as várias formas de exportar dados OSM. Limitar-nos-emos ao básico, mas tenha em mente que, para utilizar os dados de forma eficaz, provavelmente necessitará de software SIG,
+como a aplicação gratuita Quantum GIS.  
 
-Before we begin, let's go over some terminology. First, **exporting** means to convert OpenStreetMap data from its native XML format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. We'll use these terms frequently in this chapter, so it's important to understand the difference.  
+Antes de começarmos, vamos rever alguma terminologia. Primeiro, **exportar** significa converter os dados do OpenStreetMap do seu formato nativo XML para um formato que lhe seja conveniente. Isto é ligeiramente diferente de **extrair** dados, que significa cortar os dados da área da sua escolha. Também pode significar extrair as características específicas que pretende de uma área. Iremos utilizar estes termos frequentemente neste capítulo, pelo que é importante compreender a diferença.  
 
-The OSM API
+A API do OSM
 ------------
-The OSM editing process functions because of what is known as an API, which allows editing software to communicate with the central server. For example, when you are using JOSM and you select the area you want to map, an API call is sent to the server, requesting all of the data that exists within the area that you have selected.  
+O processo de edição do OSM funciona graças ao que se designa por API, que permite ao software de edição comunicar com o servidor central. Por exemplo, quando se está a utilizar o JOSM e se seleciona a área que se pretende mapear, é enviada uma chamada API para o servidor, solicitando todos os dados existentes na área selecionada.  
 
-In fact, when you download data in JOSM, you are **extracting** the data from a specific area of the world. The data is then sent to you in **.osm** format, which you can then edit in JOSM. If you download data in JOSM and then save it, you will see that the file type is **.osm**. We'll talk more about this in the next chapter.  
+De facto, quando descarrega dados no JOSM, está a **extrair** os dados de uma área específica do mundo. Os dados são então enviados para si no formato **.osm**, que pode depois editar no JOSM. Se descarregar dados no JOSM e depois os guardar, verá que o tipo de ficheiro é **.osm**. Falaremos mais sobre isto no próximo capítulo.  

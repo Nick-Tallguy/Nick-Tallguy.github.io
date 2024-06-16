@@ -47,8 +47,8 @@ Nessa página, procure a lista associada ao seu país. As listas nacionais têm 
 - Introduza a seguinte informação nas caixas da página que abrir:  
     +  o seu endereço de e-mail  
     +  o seu primeiro nome  
-    +  uma nova palavra-chave  
-    +  repita a palavra-chave  
+    +  uma nova palavra-passe  
+    +  repita a palavra-passe  
 - Quando tiver terminado, clique em "Subscribe" (subscrever).
 - Agora, terá de abrir o seu email, tal como fez quando abriu conta no OpenStreetMap. Na sua caixa de entrada, encontrará um e-mail de confirmação vindo da lista de e-mail.  
 - Clique na ligação de confirmação.  

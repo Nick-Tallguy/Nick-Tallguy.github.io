@@ -11,7 +11,7 @@ Começando com o OpenStreetMap.org
 
 > Revisto em 2015-07-12  
 
-Nesta secção iremos aprender passo a passo como navegar no site do OpenStreetMap, ver mapas e criar uma conta de utilizador. Após ter o seu nome de utilizador e palavra-chave, poderá contribuir com os primeiros pontos no mapa.
+Nesta secção iremos aprender passo a passo como navegar no site do OpenStreetMap, ver mapas e criar uma conta de utilizador. Após ter o seu nome de utilizador e palavra-passe, poderá contribuir com os primeiros pontos no mapa.
 
 ![website][]
 
@@ -54,7 +54,7 @@ O OpenStreetMap contém mapas geográficos de todo o mundo. Apesar de ser uma ú
 Criar uma Conta no OpenStreetMap
 -------------------------------
 
--   Agora que viu como o site principal é, pode criar uma conta com um nome de utilizador e palavra-chave e fazer as primeiras alterações ao mapa.
+-   Agora que viu como o site principal é, pode criar uma conta com um nome de utilizador e palavra-passe e fazer as primeiras alterações ao mapa.
 -   No site do OpenStreetMap, clique em “Criar Conta” no canto superior direito da janela.
 -   Irá ver uma página como esta:
 
@@ -64,16 +64,16 @@ Criar uma Conta no OpenStreetMap
 -   Introduza o seu endereço de email nas primeiras 2 caixas. Deve introduzir o mesmo email em ambas. Mais tarde, terá de abrir o seu email para confirmar a sua conta com o OpenStreetMap.
 -   Na terceira caixa introduza o nome de utilizador que gostaria de ter Não poderá escolher um nome de utilizador que já tenha sido registado. Se tentar introduzir algo simples, como o seu primeiro nome, é bastante provável que alguém já o tenha escolhido.
 - Introduz uma nova palavra-passe na quarta e quinta caixas. Deves introduzir a mesma palavra-passa em ambas as caixas. *Não* deves usar uma importante, como a palavra-passe do teu e-mail.
--   Pode querer escrever o nome de utilizador e a palavra-chave do da conta no OpenStreetMap. Irá precisar delas mais tarde para entrar na sua conta.
+-   Pode querer escrever o nome de utilizador e a palavra-passe do da conta no OpenStreetMap. Irá precisar delas mais tarde para entrar na sua conta.
 -   Após preencher todas as caixas, clique em "Criar Conta" no fundo da página.
--   Se surgr aolgum problema, aparece uma mensagem de erro. Verifique se o seu email é o mesmo que o indicado nas 2 primeiras caixas de texto, e que a sua palavra-chave é a mesma em ambas as caixas de texto. Se a terceira caixa estiver destacada a vermelho, significa que outra pessoa já criou uma conta com o nome de utilizador que introduziu e deve tentar escolher outro nome.
+-   Se houver algum problema, pode aparecer uma mensagem de erro. Verifique se o seu e-mail é o mesmo nas duas primeiras caixas e se a sua palavra-passe é a mesma nas duas caixas inferiores. Se a terceira caixa estiver destacada a vermelho, isso significa que outra pessoa já escolheu o seu nome de utilizador e que deve tentar um nome diferente.
 - Confere o teu e-mail.
 -   Se tudo correu bem com a criação da conta, irá ver um email enviado pelo OpenStreetMap na sua caixa de entrada. Deve ser parecido com a imagem abaixo. Clique na hiperligação que aparece abaixo:
 
     ![Confirming your OpenStreetMap account][]
 
 -   Irá abrir uma nova aba ou janela. Se tudo correr bem, neste momento estará com a conta no OpenStreetMap confirmada, ou seja, ativa!
--  Na página do OpenStreetMap, clique no botão “Iniciar Sessão” no canto direito superior. Introduza o seu nome de utilizador e palavra-chave e carregue na tecla Enter. Neste momento já deve estar autenticado (ter entrado na conta). Agora poderá ver o seu nome de utilizador no canto superior esquerdo.
+-  Na página do OpenStreetMap, clique no botão “Iniciar Sessão” no canto direito superior. Introduza o seu nome de utilizador e palavra-passe e carregue na tecla Enter. Neste momento já deve estar autenticado (ter entrado na conta). Agora poderá ver o seu nome de utilizador no canto superior esquerdo.
 
 Adicionar os Primeiros Pontos / Nós
 ------------------------
@@ -109,7 +109,7 @@ No entanto, na [secção do editor JOSM](/pt/josm/) iremos ver mais informação
 Sumário
 -------
 
-Parabéns! Se tudo correu bem, agora tem uma nome de utilizador e uma palavra-chave, sabe como navegar pelo site do OpenStreetMap e sabe como adicionar pontos ao mapa.
+Parabéns! Se tudo correu bem, agora tem uma nome de utilizador e uma palavra-passe, sabe como navegar pelo site do OpenStreetMap e sabe como adicionar pontos ao mapa.
 
 
 
