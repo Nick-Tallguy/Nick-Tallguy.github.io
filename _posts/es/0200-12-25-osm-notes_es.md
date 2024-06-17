@@ -151,10 +151,10 @@ Para 2014, todos los reportes de OpenStreetBugs se habían migrado a la base de 
 En 2017 ya se habían creado 1 millón de notas ha nivel mundial.
 
 
-[States for a note]: /images/beginner/note-states.png
-[Notification by email]: /images/beginner/email-messages.png
-[Creating a note in StreetComplete]: /images/beginner/streetcomplete.gif
-[Creating a note in Every-door]: /images/beginner/every-door.gif
-[Creating a note in OnOSM.org]: /images/beginner/onosm.gif
-[Creating a note in OSMAND]: /images/beginner/osmand.gif
-[Creating a note in osm.org]: /images/beginner/website.gif
+[States for a note]: /images/beginner/note-states_es.png
+[Notification by email]: /images/beginner/email-messages_es.png
+[Creating a note in StreetComplete]: /images/beginner/streetcomplete_es.gif
+[Creating a note in Every-door]: /images/beginner/every-door._es.gif
+[Creating a note in OnOSM.org]: /images/beginner/onosm_es.gif
+[Creating a note in OSMAND]: /images/beginner/osmand_es.gif
+[Creating a note in osm.org]: /images/beginner/website_es.gif
