@@ -55,7 +55,7 @@ Este edifício está parcialmente encoberto por uma árvore. Trata-se de um edif
 Em partes isoladas do mundo, é comum a utilização de chapas de ferro ondulado como telhado - quando novas, estas refletem a luz do sol, o que cria um **efeito de clarão muito brilhante** nas imagens de satélite. É comum os edifícios terem uma varanda ou terem a forma de **L** e deve certificar-se de que o seu traçado segue a forma do edifício.  
 Ao traçar o contorno do edifício, deves tentar traçar o edifício com o tamanho certo e no ponto em que as paredes se encontram com o chão - faz o teu melhor! Em muitas partes do mundo, os edifícios são parcialmente construídos e depois deixados sem telhado até serem vendidos ou utilizados de outra forma. Mapeie um edifício sem telhado como um edifício normal, uma vez que não demora muito tempo a adicionar um telhado, e o telhado pode já ter sido adicionado, no tempo desde que as imagens de satélite foram tiradas.  
 
-Faça o seu melhor - até os peritos discordam por vezes e, por vezes, é preciso ir ao local para ver exatamente o que lá está. **Em caso de dúvida, adicione-o como um edifício.  
+Faça o seu melhor - até os peritos discordam por vezes e, por vezes, é preciso ir ao local para ver exatamente o que lá está. **Em caso de dúvida, adicione-o como um edifício.**  
 
 Etiquetas de edifícios
 -------------
@@ -72,7 +72,7 @@ Ver também
 
 
 
-[Edifício retangular]: /images/hot-tips/rectangular_building.gif "Traçar um edifício retangular, elevar os cantos ao quadrado e adicionar etiquetas."
+[Rectangular building]: /images/hot-tips/rectangular_building.gif "Traçar um edifício retangular, elevar os cantos ao quadrado e adicionar etiquetas."
 [keymon]:/images/hot-tips/keymon.png
 [building-ridge]: /images/hot-tips/building-ridge.png
 [back arrow]: /images/beginner/back-arrow.png

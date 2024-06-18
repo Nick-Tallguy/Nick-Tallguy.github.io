@@ -16,10 +16,10 @@ Esta página dá-lhe uma visão geral das versões do Gestor de Tarefas para as 
 ## Versão 4 ##
 
 <figure markdown="1">
-![Arranque do TM4][]
+![TM4-start][]
 </figure>
 <figure markdown="1">
-![Projeto TM4][]
+![TM4-project][]
 </figure>
 
 <div class='disambiguation-link' markdown="1">
@@ -31,10 +31,10 @@ Esta página dá-lhe uma visão geral das versões do Gestor de Tarefas para as 
 ## Versão 3 ##
 
 <figure markdown="1">
-![Arranque do TM3][]
+![TM3-start][]
 </figure>
 <figure markdown="1">
-![Projeto TM3][]
+![TM3-project][]
 </figure>
 
 <div class='disambiguation-link' markdown="1">
@@ -47,10 +47,10 @@ Esta página dá-lhe uma visão geral das versões do Gestor de Tarefas para as 
 ## Versão 2 ##
 
 <figure markdown="1">
-![Arranque do TM2][]
+![TM2-start][]
 </figure>
 <figure markdown="1">
-![Projeto TM2][]
+![TM2-project][]
 </figure>
 
 <div class='disambiguation-link' markdown="1">
