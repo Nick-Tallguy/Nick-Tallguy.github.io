@@ -70,55 +70,55 @@ Estes painéis podem ser abertos ou fechados clicando nos vários botões no can
 
 Editar
 ----
-So we have completed step one of the editing process - Downloading. We have prepared JOSM with satellite imagery as a reference. The next step is to edit the map and add new items.
+Assim, concluímos o primeiro passo do processo de edição - Descarregar. Preparámos o JOSM com imagens de satélite como referência. O próximo passo é editar o mapa e adicionar novos itens.
 
-Depending on the area that you chose to download, there may be a lot or very little existing map data. But notice that it is the same sort of data that we have seen previously - points, lines, and shapes that represent real-life locations.
+Dependendo da área que escolheu descarregar, pode haver muitos ou muito poucos dados de mapas existentes. Mas repare que se trata do mesmo tipo de dados que vimos anteriormente - pontos, linhas e formas que representam localizações da vida real.
 
--   Use the techniques you have already learned to add a couple points to the map of places that you know. If you see any mistakes, try to fix them.
--   You don't need to be too aggressive while you are learning. If you are unsure about something it's better to leave it as it is.
--   If you want to move a point, line, or shape, use the **select tool**. Click on an object and drag it where it should be. This can be used to correct the location of items that have been put in the wrong place.
+-   Utilize as técnicas que já aprendeu para acrescentar alguns pontos ao mapa de locais que conhece. Se vir algum erro, tente corrigi-lo.
+-   Não é necessário ser demasiado agressivo enquanto se está a aprender. Se não tiver a certeza de alguma coisa, é melhor deixar as coisas como estão.
+-   Se pretender mover um ponto, uma linha ou uma forma, utilize a **ferramenta selecionar**. Clique num objeto e arraste-o para onde deve estar. Isto pode ser utilizado para corrigir a localização de itens que tenham sido colocados no sítio errado.
 
 ![JOSM select tool][]
 
--   Use the **draw tool** to draw new points, lines, and shapes. Describe these objects by selecting from the Presets menu, as you did in the previous section.
+-   Utilize a **ferramenta desenhar** para desenhar novos pontos, linhas e formas. Descreva estes objetos selecionando-os no menu Modelos de etiquetas, tal como fez na secção anterior.
 
-> Never edit the map outside of the area you have downloaded. You can see the rectangular area you have downloaded has a solid background, while the area you have not downloaded has diagonal pinstriped lines.
+> Nunca edite o mapa fora da área que descarregou. Pode ver que a área retangular que descarregou tem um fundo sólido, enquanto a área que não descarregou tem linhas diagonais às riscas.
 >
 > ![JOSM area downloaded][]
 
-Save Changes
+Guardar alterações
 --------------
-The third and final step to complete our edits is to upload the changes we have made to the OpenStreetMap database. To save the changes, we must be connected to the internet.
+O terceiro e último passo para completar as nossas edições é enviar as alterações que fizemos para a base de dados do OpenStreetMap. Para guardar as alterações, temos de estar ligados à Internet.
 
--   Click “File” on the top menu, and then click “Upload Data”. This will open up the upload window. You can access this window more simply by clicking on the upload button, shown here:
+-   Clique em "Ficheiro" no menu superior e, em seguida, clique em "Enviar dados". Isto abrirá a janela de envio. Pode aceder a esta janela de forma mais simples, clicando no botão de envio, mostrado aqui:
 
     ![JOSM Upload Button][]
 
--   The window that appears shows a list of the objects that you are adding and the objects you are modifying or deleting. In the box at the bottom you are asked to provide a comment about the changes that you are making. Type in here a description of your edits.
+-   A janela que aparece mostra uma lista dos objetos que estão a ser adicionados e dos objetos que estão a ser alterados ou eliminados. Na caixa na parte inferior, é-lhe pedido que forneça um comentário sobre as alterações que está a fazer. Escreva aqui uma descrição das suas edições.
 
     ![JOSM Upload Dialog][]
 
--   Click “Upload Changes”.
+-   Clique em “Enviar alterações”.
 
--   If this is your first time saving changes to OpenStreetMap, you will be asked for your OpenStreetMap username and password.
--   Enter them in the window that appears. If you check the box in this window, your username and password will be saved and you won’t need to enter them again in the future. Click “Authenticate”.
+-   Se esta é a primeira vez que guarda alterações no OpenStreetMap, ser-lhe-á pedido o seu nome de utilizador e palavra-passe do OpenStreetMap.
+-   Introduza-os na janela que aparece. Se marcar a caixa nesta janela, o seu nome de utilizador e a sua palavra-passe serão guardados e não terá de os introduzir novamente no futuro. Clique em "Autenticar".
 
     ![JOSM Authenticate][]
 
--   You will need to wait a few seconds for your changes to be uploaded, and then you are done! You have edited the map on OpenStreetMap.
+-   Terá de esperar alguns segundos para que as suas alterações sejam enviadas e depois está pronto! Editou o mapa no OpenStreetMap.
 
-> When you are editing, always be sure to upload your changes before you close JOSM. Even if you still have more editing to do, upload your changes, and then go through the process again later when you have time to edit. You don't want to lose your work!
+> Quando estiver a editar, certifique-se sempre que envia as suas alterações antes de fechar o JOSM. Mesmo que ainda tenha mais edições para fazer, envie as suas alterações e, em seguida, repita o processo mais tarde quando tiver tempo para editar. Não quer perder o seu trabalho!
 
-See your changes on the map
+Ver as suas alterações no mapa
 ---------------------------
--   Open your internet browser and go to [http://openstreetmap.org/](http://openstreetmap.org/)
--   Move the map to the area that you edited.
--   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the map doesn’t update properly and needs to be reloaded.
--   What if you don’t see your changes? Don’t worry - it may take a few minutes for the changes to be shown on the map. Also, check your additions in JOSM to make sure that you added them correctly. A good general rule is, if your point has an icon in JOSM, then it should be seen on the main map at the OpenStreetMap website.
+-   Abra o seu navegador de Internet e aceda a [http://openstreetmap.org/](http://openstreetmap.org/)
+-   Desloque o mapa para a área que editou.
+-   Deverá ver as suas alterações a aparecer no mapa! Se isso não acontecer, tente premir CTRL+R para atualizar a página. Por vezes, o mapa não é atualizado corretamente e tem de ser recarregado.
+-   E se não vir as suas alterações? Não se preocupe - pode demorar alguns minutos até que as alterações sejam mostradas no mapa. Além disso, verifique as suas adições no JOSM para se certificar de que as adicionou corretamente. Uma boa regra geral é que, se o seu ponto tem um ícone no JOSM, então deve ser visto no mapa principal no sítio do OpenStreetMap.
 
 Sumário
 -------
-Now that you’ve seen how to add to OpenStreetMap, what’s next? Well, editing is great, but it's not the only aspect of making maps. Of course you also need to learn how to go outside and collect information about places on the ground.
+Agora que já viu como adicionar ao OpenStreetMap, o que é que se segue? Bem, editar é ótimo, mas não é o único aspeto da criação de mapas. Claro que também precisa de aprender a sair e a recolher informações sobre os locais no terreno.
 
 
 [JOSM Download Button]: /images/josm/josm_download-button.png
