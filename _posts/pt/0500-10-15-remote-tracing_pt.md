@@ -1,17 +1,17 @@
 ---
 layout: doc
-title: Tracing roads, buildings, water and landuse 
+title: Traçar estradas, edifícios, água e utilização dos solos 
 permalink: /pt/coordination/remote-tracing/
 lang: pt
 category: coordination
 ---
 
-Tracing roads, buildings, water and landuse
+Traçar estradas, edifícios, água e utilização dos solos
 ===========================================
 
 > Revisto a 2016-02-08  
 
-Following on from the [Remote, Armchair & Mapathon Section of LearnOSM](/en/coordination/remote/) section, which you will need if you have no experience of mapping for HOT.  
+Na sequência da secção [Secção Remoto, cadeira e mapatona do LearnOSM](/pt/coordination/remote/), de que necessitará se não tiver experiência de mapeamento para HOT.  
 
 
 Section Index
