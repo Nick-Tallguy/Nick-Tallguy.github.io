@@ -1,103 +1,103 @@
 ---
 layout: doc
-title: JOSM Relations
+title: Relações JOSM
 permalink: /pt/josm/josm-relations/
 lang: pt
 category: josm
 ---
 
-Relations
+Relações
 ==========
 
 > Revisto em 2017-06-06  
 
-In the [Beginner’s Guide](/en/beginner) we explained that there are three types of objects that can be drawn in OpenStreetMap - points (nodes), lines (ways), and polygons (closed ways). Lines contain numerous points, and the line itself carries the attributes that define what it represents.  Polygons are the same as lines, except that the the line must finish where it begins in order to form a shape.  
+No [Guia para principiantes](/pt/beginner) explicámos que existem três tipos de objetos que podem ser desenhados no OpenStreetMap - pontos (nós), linhas (caminhos) e polígonos (caminhos fechados). As linhas contêm vários pontos e a própria linha tem os atributos que definem o que representa. Os polígonos são o mesmo que as linhas, exceto que a linha deve terminar onde começa para formar uma forma.  
 
-In fact, we lied to you, because there is one other type of object in OpenStreetMap, called relations.  In the same way that a line consists of other
-points, a relation contains a group of other objects, be they points, lines, or polygons.  If you are looking to advance your editing skills, then understanding and knowing how to properly edit relations is important.  
+Na verdade, mentimos-lhe, porque existe um outro tipo de objeto no OpenStreetMap, chamado relações. Da mesma forma que uma linha é composta por outros pontos.
+Uma relação contém um grupo de outros objetos, sejam eles pontos, linhas ou polígonos. Se pretende melhorar as suas capacidades de edição, é importante compreender e saber como editar corretamente as relações.  
 
-For example, imagine that you want to map a building that has courtyards in the center.  You would need to draw a polygon around the outside of the building, and you would want other polygons around the courtyards to indicate that they are not part of the building.  This is an example of a relation.  The relation would contain several polygons - and the attributes of the building would be attached to the relation, not the polygons.  
+Por exemplo, imagine que quer mapear um edifício que tem pátios no centro. Teria de desenhar um polígono à volta do exterior do edifício e outros polígonos à volta dos pátios para indicar que estes não fazem parte do edifício. Este é um exemplo de uma relação. A relação conteria vários polígonos - e os atributos do edifício estariam ligados à relação, não aos polígonos.  
 
 ![An example of a multipolygon][]
 
-Relations are used to represent anything that requires a collection of objects to define.  Other examples are bus routes (a collections of lines), long and complex objects (rivers or roads), or multiple polygons that are all part of one location (like buildings in a university).  
+As relações são utilizadas para representar qualquer coisa que exija a definição de um conjunto de objetos. Outros exemplos são os percursos de autocarro (uma coleção de linhas), objetos longos e complexos (rios ou estradas) ou múltiplos polígonos que fazem parte de um local (como os edifícios de uma universidade).  
 
-There are mainly four types of relations you will encounter in OSM: Multipolygons, Routes, Boundaries, and Restrictions (such as, no left turns).  In this section we will cover Multipolygons and Routes.  
+Existem principalmente quatro tipos de relações que pode encontrar no OSM: multipolígonos, rotas, limites e restrições (por exemplo, não virar à esquerda). Nesta secção vamos abordar os multipolígonos e as rotas.  
 
-Creating Multipolygon Relations
+Criação de relações multipolígonos
 -------------------------------
 
-Let's see how to create a multipolygon relation like the one shown above.  
+Vamos ver como criar uma relação multipolígono como a mostrada acima.  
 
-- First, draw your shapes. In this case we will draw three polygons, an outer rectangle, and two smaller rectangles.
+- Primeiro, desenhe as formas. Neste caso, vamos desenhar três polígonos, um retângulo exterior e dois retângulos mais pequenos.
 
 ![Multipolygon ways][]
 
-- Select all of the polygons. Remember you can select multiple objects by holding SHIFT and clicking on each.  
-- Choose *Tools->Create multipolygon* from the menu.  
-- The tags window now contains the new multipolygon.
+- Selecione todos os polígonos. Lembre-se de que pode selecionar vários objetos mantendo premida a tecla SHIFT e clicando em cada um deles.  
+- Selecione *Ferramentas->Criar multipolígono* no menu.  
+- A janela de etiquetas contém agora o novo multipolígono.
 
 ![New mp object][]
 
-- Click on the edit button.  
+- Clique no botão de editar.  
 
-- You should now see the relation editor window. This is a little bit complex because now you are adding tags to a collection of ways.  
+- Deve ver agora a janela do editor de relações. Isto é um pouco complexo porque agora está a adicionar etiquetas a uma coleção de formas.  
 
 ![Building relation][]
 
-- Observe that at the top of the panel are the tags for the relation. These tags work the same way as tags always work.  
-- At the bottom is a list of the members of the relation. This relation has three members - that is, the three ways that are part of our relation.  
-- Notice that we already have one tag defined for us, *type=multipolygon*. We need to add one more tag that defines the kind of object which the relation represents. We must add a tag that says *building=yes*.  
-- Click in the tag box and add this tag.  
+- Observe que no topo do painel estão as etiquetas para a relação. Estas etiquetas funcionam da mesma forma que as etiquetas funcionam sempre.  
+- Na parte inferior, encontra-se uma lista dos membros da relação. Esta relação tem três membros - ou seja, as três formas que fazem parte da nossa relação.  
+- Repare que já temos uma etiqueta definida para nós, *type=multipolygon*. Temos de acrescentar mais uma etiqueta que define o tipo de objeto que a relação representa. Temos de acrescentar uma etiqueta que diz *building=yes*.  
+- Clique na caixa de etiquetas e adicione esta etiqueta.  
 
 ![Building yes][]
 
-- The **roles** have already been properly assigned to the ways. Each member of a relation has a role, which indicates what that member's purpose is. In this case, the role of the outside polygon must be defined as **outer** and the role of the two inner polygons must be defined as **inner**. These are the roles that are available for members of a multipolygon.  
+- As **funções** já foram devidamente atribuídas às formas. Cada membro de uma relação tem um papel, que indica qual é o objetivo desse membro. Neste caso, o papel do polígono exterior deve ser definido como **outer** (exterior) e o papel dos dois polígonos interiores deve ser definido como **inner** (interior). Estas são as funções disponíveis para os membros de um multipolígono.  
 
-- Click OK and your multipolygon relation is complete!  
+- Clique em OK e a sua relação multipolígono está concluída!  
 
 ![New multipolygon][]
 
-When you create a multipolygon like this it will be rendered on the map like so:  
+Quando cria um multipolígono como este, ele é apresentado no mapa da seguinte forma:  
 
 ![Multipolygon in Mapnik][]
 
-Multipolygons can be used for any complex object that requires inner and outer polygons, like a building or a river with patches of land inside it. Detailed multipolygon information can be found on the [OSM Wiki](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
+Os multipolígonos podem ser utilizados para qualquer objeto complexo que necessite de polígonos interiores e exteriores, como um edifício ou um rio com pedaços de terra no seu interior. Informação detalhada sobre multipolígonos pode ser encontrada na [wiki do OSM](http://wiki.openstreetmap.org/wiki/Relation:multipolygon).  
 
-Route Relations
+Relações de rota
 ----------------
 
-Relations are also very useful for representing long routes. For example, a bus or bicycle route follows various road segments. To define such a route, we can create a relation which contains all of the road segments that are part of the route. Additional features, such as bus stops can also be members of a route relation.  
+As relações são também muito úteis para representar percursos longos. Por exemplo, um percurso de autocarro ou de bicicleta segue vários segmentos de estrada. Para definir esse percurso, podemos criar uma relação que contém todos os segmentos de estrada que fazem parte do percurso. Características adicionais, como paragens de autocarro, também podem ser membros de uma relação de percurso.  
 
 ![Route relation][]
 
-Let's see how to create a relation for a bus route in JOSM:  
+Vejamos como criar uma relação para uma rota de autocarro no JOSM:  
 
-- First, select all of the ways which the route runs along. You may need to split some streets into separate segments if only part of them belong to the relation. You can do this using the "Split Way" tool.  
-- When all the segments are selected, go to *Presets->Transport->Public Transport->Public Transport Route (Bus)*.  
+- Em primeiro lugar, selecione todas as linhas ao longo das quais o itinerário passa. Pode ser necessário dividir algumas ruas em segmentos separados se apenas uma parte delas pertencer à relação. Pode fazê-lo utilizando a ferramenta "Dividir linha".  
+- Quando todos os segmentos estiverem selecionados, vá a *Modelos de etiquetas->Transporte->Transporte público->Rota de transporte público (autocarro)*.  
 
 ![Public transport preset][]
 
-- A new window pops up where you can enter information which applies to the route as a whole.
+- Aparece uma nova janela onde pode introduzir informações que se aplicam ao itinerário como um todo.
 
 ![New route relation][]
 
-It is important to select the specific route type from the dropdown menu at the top. For bus routes two options are available, bus and trolleybus. Typically you would also enter name, reference number, from and to.
+É importante selecionar o tipo de rota específico no menu pendente no topo. Para as rotas de autocarro, estão disponíveis duas opções: autocarro e trólei. Normalmente, também deve introduzir o nome, a referência, de e para.
 
-- Click "New Relation." You will see the relation window pop up, just as when you create a multipolygon.  
+- Clique em "Criar relação". Aparece a janela da relação, tal como quando cria um multipolígono.  
 
 ![Bus route relation][]
 
-- Notice that there are already tags which define the relation as a route. Instead of *type=multipolygon*, we have *type=route*. We also have a tag defining it as a bus route, as opposed to another type of route.  
-- You may now think, what should the **role** of the members be? Well, in the case of a route, we don't need to define the role of the members. By leaving the role blank the software knows that they are simply part of the route. We could also define the role of each segment as **route**, but it is not necessary.  
-- Click OK and your route relation will be complete!  
+- Repare que já existem etiquetas que definem a relação como uma rota. Em vez de *type=multipolygon*, temos *type=route*. Também temos uma etiqueta que a define como uma rota de autocarro, por oposição a outro tipo de rota.  
+- Pode agora pensar, qual deve ser a **função** dos membros? Bem, no caso de uma rota, não precisamos de definir a função dos membros. Ao deixar a função em branco, o software sabe que eles são simplesmente parte da rota. Também poderíamos definir a função de cada segmento como **route**, mas não é necessário.  
+- Clique em OK e a sua relação de rota estará concluída!  
 
-> If you want a list of all the relations on the map, you can open the relations panel by clicking on this button on the left: ![relation panel button][]{: height="30px"}. This will open a panel where you can select, edit, and create new relations.  
+> Se pretender uma lista de todas as relações no mapa, pode abrir o painel de relações clicando neste botão à esquerda: ![relation panel button][]{: height="30px"}. Isto irá abrir um painel onde pode selecionar, editar e criar novas relações.  
 
-Summary
+Resumo
 -------
 
-Relations can be difficult to understand and do not need to be used often, but they are necessary to know about. Every so often you may realize that you need a relation to map something correctly, and you can use this knowledge, and find more information on the OSM Wiki, to help you map relations correctly.
+As relações podem ser difíceis de compreender e não precisam de ser utilizadas com frequência, mas é necessário conhecê-las. De vez em quando, pode aperceber-se de que precisa de uma relação para mapear algo corretamente e pode utilizar este conhecimento e encontrar mais informações na wiki do OSM para o ajudar a mapear corretamente as relações.
 
 
 [Multipolygon ways]: /images/josm/multipolygon-ways.png

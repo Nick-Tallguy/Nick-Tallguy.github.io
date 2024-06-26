@@ -1,153 +1,153 @@
 ---
 layout: doc
-title: Correcting Imagery Offset
+title: Correção do desvio de imagens aéreas
 permalink: /pt/josm/correcting-imagery-offset/
 lang: pt
 category: josm
 ---
 
-Imagery Offset
+Desvio de imagens aéreas
 ===============
 
 > Revisto em 2015-09-21  
 
-Imagery providers usually do a pretty good job of georeferencing their imagery, but occasionally the images can be out of position.  This is particularly true in hilly or mountainous areas, where it can be difficult to stretch a flat image over an area of the Earth with many contours.  When you load imagery in JOSM, it can sometimes be ten meters or more from its true position.  This is called **imagery offset**.  
+Os fornecedores de imagens aéreas normalmente fazem um bom trabalho de georreferenciação das suas imagens, mas ocasionalmente as imagens podem estar fora de posição. Isto é particularmente verdade em áreas acidentadas ou montanhosas, onde pode ser difícil esticar uma imagem plana sobre uma área da Terra com muitos contornos. Quando se carregam imagens aéreas no JOSM, por vezes podem estar a dez metros ou mais da sua verdadeira posição. A isto chama-se **imagery offset** (desvio, deslocamento ou alinhamento de imagens aéreas, conforme o contexto).  
 
-Notice in the following image that two separate aerial photographs have been georeferenced and merged together.  Because georeferencing is not a perfect process, the images do not line up perfectly with each other.  Hence one, or both, must be inaccurate.  
+Repare na imagem seguinte que duas fotografias aéreas separadas foram georreferenciadas e fundidas. Como a georreferenciação não é um processo perfeito, as imagens não se alinham perfeitamente uma com a outra. Assim, uma delas, ou ambas, deve estar incorreta.  
 
 ![Misaligned imagery][]
 
-We’ve learned about two major ways of making maps - one is by utilizing aerial imagery to identify features on the ground, and another is by using GPS to record tracks and waypoints and then add them to OpenStreetMap.  The advantage of aerial imagery is obvious.  It enables you, the mapper, to see the whole picture, to observe various details from the image, consider your knowledge of the area, and easily trace roads, buildings, and areas.  One key advantage of GPS however, is that it doesn't suffer from offset like imagery.  A GPS will always provide you with a correct latitude and longitude.  The only exception is when the satellite signals are interrupted by tall buildings or mountains, but in this case it is easy to recognize the error.  Observe the GPS trace in this image, compared with the Bing aerial imagery layer beneath it:  
+Aprendemos duas formas principais de fazer mapas - uma é utilizando imagens aéreas para identificar características no terreno e outra é utilizando o GPS para registar trajetos e pontos de passagem e depois adicioná-los ao OpenStreetMap. A vantagem das imagens aéreas é óbvia. Permite-lhe a si, o mapeador, ver o quadro completo, observar vários detalhes da imagem, considerar o seu conhecimento da área e localizar facilmente estradas, edifícios e áreas. No entanto, uma das principais vantagens do GPS é o facto de não sofrer de desvios como as imagens. Um GPS fornecerá sempre uma latitude e longitude corretas. A única exceção é quando os sinais de satélite são interrompidos por edifícios altos ou montanhas, mas neste caso é fácil reconhecer o erro. Observe o traço do GPS nesta imagem, comparado com a camada de imagens aéreas do Bing por baixo:  
 
 ![Aerial vs GPS][]
 
-Because of what we now know, it is clear that the GPS trace is likely to be accurate, and the image beneath it is out of place. So now we must ask, “if the imagery may be out of place, how can we still use it and make accurate maps?”  
+Com base no que sabemos agora, é evidente que o traço de GPS é provavelmente exato e que a imagem por baixo dele está deslocada. Portanto, agora temos de perguntar: "se as imagens podem estar deslocadas, como é que ainda as podemos utilizar e fazer mapas precisos?"  
 
-Correcting Imagery Offset
+Correção do desvio de imagens aéreas
 -------------------------
 
-The answer to the preceding question is that we can move the imagery so that it aligns with things that we know are in the correct location, such as GPS tracks. It is easy to correct imagery offset in JOSM.  
+A resposta à pergunta anterior é que podemos mover as imagens aéreas de modo a que fiquem alinhadas com coisas que sabemos estarem na localização correta, tais como trajetos GPS. É fácil corrigir o desvio das imagens aéreas no JOSM.  
 
-The best references for adjusting imagery are GPS tracks that follow roads.  And the more GPS tracks that you have to reference, the more accurate you will be able to align your imagery.  Since OpenStreetMap users often upload their GPS tracks to the OSM database, we can download them and use them to align our imagery.  
+As melhores referências para ajustar as imagens são os trajetos GPS que seguem as estradas. E quanto mais trilhos GPS tiver como referência, mais preciso será o alinhamento das suas imagens. Uma vez que os utilizadores do OpenStreetMap enviam frequentemente os seus percursos GPS para a base de dados do OSM, podemos descarregá-los e utilizá-los para alinhar as nossas imagens.  
 
-- Click on the download button. ![JOSM download button][]{: height="24px"}  
+- Clique no botão de descarregar. ![JOSM download button][]{: height="24px"}  
 
-- Check the box next to “Raw GPS Data” ![Download raw GPS data][]{: height="24px"} near the top of the Download window. Select your area and click “Download.”  
+- Marque a caixa ao lado de "Trilhos GPS do OpenStreetMap” ![Download raw GPS data][]{: height="24px"} perto da parte superior da janela Descarregar. Selecione a sua área e clique em "Descarregar".  
 
-- This will download an additional layer to JOSM containing GPS tracks. Depending on how many tracks have been uploaded by OSM users, you may see few tracks (or even no tracks):  
+- Isto irá descarregar uma camada adicional para o JOSM contendo trajetos GPS. Dependendo de quantos trilhos foram enviados pelos utilizadores do OSM, poderá ver poucos trilhos (ou mesmo nenhum):  
 
 ![Few GPS tracks from OSM][]
 
-- Or, you may see many tracks:  
+- Ou pode ver muitos trilhos:  
 
 ![Many GPS tracks from OSM][]
 
-- To adjust an imagery layer, click on the “Adjust imagery offset” button ![Adjust imagery offset button][]{: height="24px"} at the top of JOSM.  
+- Para ajustar uma camada de imagens, clique no botão "Novo alinhamento" ![Adjust imagery offset button][]{: height="24px"} no topo do JOSM ou no menu Imagens de fundo ‣ Novo Alinhamento.  
 
-- Ignoring the box that pops up, use your mouse to drag the imagery layer so that it aligns correctly with the GPS tracks.  The GPS tracks should line up with the roads on the imagery as closely as possible.  You will see the offset numbers in the box change.  
+- Ignorando a caixa que aparece, utilize o rato para arrastar a camada de imagens de modo a que fique corretamente alinhada com os percursos GPS. Os trajetos GPS devem estar alinhados com as estradas nas imagens o mais próximo possível. Verá que os números de desvio na caixa mudam.  
 
 ![Adjust imagery offset][]
 
-- If you like, you can save these offset settings by entering a bookmark name and then clicking OK. You can then automatically apply the same settings later by going to Imagery ‣ Imagery offset and clicking on your bookmark.  
-- If you do not want to save the offset, simply click OK without entering a bookmark name.  
+- Se desejar, pode guardar estas definições de desvio introduzindo um nome de marcador e clicando em OK. Pode depois aplicar automaticamente as mesmas definições mais tarde, acedendo a Imagens de fundo ‣ Alinhamento da imagem de fundo e clicando no seu marcador.  
+- Se não pretender guardar o desvio, basta clicar em OK sem introduzir um nome para o marcador.  
 
-What if there are no GPS tracks on OpenStreetMap, and you don’t have a GPS? Without GPS tracks, it is difficult to align imagery.  If it is a relatively empty area (not much mapping done), you might choose to simply use the imagery as it is and correct the data later.  It’s better to have map an area 20 or 30 meters offset than to not map at all.  
+E se não existirem trajetos GPS no OpenStreetMap e não tiver um GPS? Sem rastos de GPS, é difícil alinhar as imagens. Se se tratar de uma área relativamente vazia (não foi feito muito mapeamento), pode optar por utilizar simplesmente as imagens tal como estão e corrigir os dados mais tarde. É melhor mapear uma área com 20 ou 30 metros de desvio do que não mapear nada.  
 
-If you can positively identify the latitude and longitude of one object on the ground, you can ensure the imagery is correctly placed by following these steps:  
+Se conseguir identificar positivamente a latitude e longitude de um objeto no solo, pode garantir que as imagens estão corretamente colocadas seguindo estes passos:  
 
-1. Identify the object whose position you know on the imagery.  
-2. Click on the latitude and longitude in the bottom left corner of JOSM.![JOSM lat lon][]{: height="24px"}  
-3. In the dialog that opens, enter the latitude and longitude of the place that you know, and enter a small number for Zoom, about five or ten.  
+1. Identifique o objeto cuja posição conhece na imagem.  
+2. Clique na latitude e longitude no canto inferior esquerdo do JOSM.![JOSM lat lon][]{: height="24px"}  
+3. Na caixa de diálogo que se abre, introduza a latitude e a longitude do local que conhece e introduza um número pequeno para o zoom, cerca de 5 ou 10.  
 ![JOSM lat lon dialogue][]
-4. This will zoom and center the map to your longitude and latitude.  Now you can move the imagery as you did previously so that the feature you know is centered at the correct position.  
+4. Isto fará zoom e centrará o mapa para a sua longitude e latitude. Agora pode mover as imagens como fez anteriormente para que a caraterística que conhece fique centrada na posição correta.  
 
-If, on the other hand, the area has already been extensively mapped, then hopefully the previous mappers have drawn objects in their correct locations.  In this case, you can align the imagery to the OSM map, but beware!  Other mappers may not be aware of imagery offset, and they may have made mistakes when they mapped.  
+Se, por outro lado, a área já tiver sido extensivamente mapeada, então esperamos que os mapeadores anteriores tenham desenhado os objetos nas suas localizações corretas. Neste caso, pode alinhar as imagens com o mapa OSM, mas tenha cuidado! Outros mapeadores podem não estar cientes do deslocamento das imagens e podem ter cometido erros quando fizeram o mapeamento.  
 
 
-The Imagery Offset Database
+A base de dados de deslocações de imagens aéreas
 ---------------------------
 
-Now you know how to watch out for and correct imagery offset, but there is one major problem with this approach that we have overlooked thus far.  If every OpenStreetMap user adjusts the imagery differently, everybody will be mapping with slightly different backgrounds.  
+Agora já sabe como ter em atenção e corrigir o desvio das imagens, mas há um grande problema com esta abordagem que ainda não foi abordado. Se todos os utilizadores do OpenStreetMap ajustarem as imagens de forma diferente, todos estarão a mapear com fundos ligeiramente diferentes.  
 
-Imagine that you are mapping a small town, and you realize that Bing imagery is offset by 15 meters to the north. So you adjust the imagery and then use it to map the whole town accurately. But then somebody else wants to add something to the map, so they download the data and load Bing imagery, but they don’t know about the imagery offset you discovered!  They will think that something is wrong and all of the objects in town are misplaced by 15 meters, and they will start to move them, which is not correct!  This can be disastrous for the town’s map data.  
+Imagine que está a mapear uma pequena cidade e que se apercebe que as imagens aéreas do Bing estão deslocadas 15 metros para norte. Por isso, ajusta as imagens e utiliza-as para mapear toda a cidade com precisão. Mas depois outra pessoa quer adicionar algo ao mapa, descarrega os dados e carrega as imagens aéreas do Bing, mas não sabe do desvio de imagens aéreas que descobriu! Vão pensar que algo está errado e que todos os objetos da cidade estão deslocados 15 metros e vão começar a movê-los, o que não é correto! Isto pode ser desastroso para os dados cartográficos da cidade.  
 
-For this reason it is important that all users are aware of imagery offset, and should always check for it before mapping an area.  To help with this problem, some smart people created a plugin that allows users to save offset information in a database and share it with others.  Let’s see how this works:  
+Por este motivo, é importante que todos os utilizadores conheçam o deslocamento das imagens aéreas e verifiquem-no sempre antes de mapear uma área. Para ajudar a resolver este problema, algumas pessoas inteligentes criaram um plugin que permite aos utilizadores guardar informações de deslocamento numa base de dados e partilhá-las com outros. Vamos ver como isto funciona:  
 
-- Open the Preferences menu in JOSM, and click on the Plugins tab.![JOSM plugins tab][]{: height="24px"}  
+- Abra o menu Preferências no JOSM e clique no separador Módulos.![JOSM plugins tab][]{: height="24px"}  
 
-- Find the plugin named “imagery_offset_db” and check the box next to it.  
+- Localize o plug-in "imagery_offset_db" e selecione a caixa junto ao mesmo.  
 
 ![Imagery_offset_db plugin][]
 
-- Click OK.  You will need to restart JOSM to finish the plugin installation.  
+- Clique em OK. Terá de reiniciar o JOSM para concluir a instalação do plugin.  
 
-In the same way that you are able to save offsets as bookmarks, this plugin allows you to save offsets to a central database, and to access the offsets that other users have created.  Hence, if one mapper creates an imagery offset in an area, other users can use the exact same offset to map with.  
+Da mesma forma que é possível guardar deslocamentos como favoritos, este plugin permite-lhe guardar deslocamentos numa base de dados central e aceder aos deslocamentos que outros utilizadores criaram. Assim, se um mapeador criar um deslocamento de imagens aéreas numa área, outros utilizadores podem utilizar exatamente o mesmo deslocamento para mapear.  
 
-When using aerial imagery layers, you should ALWAYS check for existing offsets, and when you create your own offset, you should ALWAYS save it to this database.  
+Quando utilizar camadas de imagens aéreas, deve SEMPRE verificar se existem deslocamentos e, quando criar o seu próprio deslocamento, deve SEMPRE guardá-lo nesta base de dados.  
 
 
-Add Imagery Offset from the Database
+Adicionar deslocamentos de imagens a partir da base de dados
 ------------------------------------
 
-When you add an imagery layer, the new plugin will alert you that you should check the imagery database for an existing offset.  You will see an icon with a red exclamation point on it at the top of JOSM, like this:  
+Quando adiciona uma camada de imagens aéreas, o novo plugin alerta-o de que deve verificar a base de dados de imagens aéreas para um deslocamento existente. Verá um ícone com um ponto de exclamação vermelho na parte superior do JOSM, como este:  
 
 ![Imagery offset notification][]
 
-- Click on the button and the plugin will communicate with the database to see if there are existing offsets in this area.  
-- Here we have downloaded OSM data and GPS tracks in Kuta, Bali, Indonesia. In this case, we have found one existing offset. Click on it to apply to the map.  
+- Clique no botão e o plugin irá comunicar com a base de dados para ver se existem desvios nesta área.  
+- Aqui descarregámos dados OSM e trajetos GPS em Kuta, Bali, Indonésia. Neste caso, encontrámos um desvio existente. Clique nele para o aplicar ao mapa.  
 
 ![Offset in Kuta bali][]
 
-- This causes the imagery layer to shift.  However, when we add someone else’s offset like this, we should check that it is valid by comparing to GPS tracks.  
+- Isto faz com que a camada de imagens se desloque. No entanto, quando adicionamos o deslocamento de outra pessoa desta forma, devemos verificar se é válido comparando-o com os trajetos GPS.  
 
 ![Comparing imagery offset from GPS tracks][]
 
-- We can see that the imagery layer is in fact misaligned.  We don’t want other users to use this offset, so we should mark it as incorrect in the database. Click on the “Offsets” button again (it won’t have a red exclamation mark anymore).  
+- Podemos ver que a camada de imagens aéreas está de facto desalinhada. Não queremos que outros utilizadores utilizem este deslocamento, por isso devemos marcá-lo como incorreto na base de dados. Clique novamente no botão de "Alinhamentos" (já não terá um ponto de exclamação vermelho).  
 
 ![Offsets button][]
 
-- This time when the dialog opens, right-click on the offset and click “Deprecate Offset.”  
+- Desta vez, quando a caixa de diálogo for aberta, clique com o botão direito do rato no desvio e clique em "Depreciar deslocamento".  
 
 ![Deprecate offset][]
 
-- Click “Yes” to confirm.  
-- You will need to enter a reason for deprecating this offset.  
+- Clique em "Sim" para confirmar.  
+- Terá de introduzir um motivo para a depreciação deste desvio.  
 
 ![Deprecate reason][]
 
 
-Add Imagery Offset to the Database
+Adicionar deslocamento de imagens aéreas à base de dados
 ------------------------------------
 
-Now that we have marked this user’s offset as “deprecated,” we should add an improved offset to the database.  
+Agora que marcámos o desvio deste utilizador como "obsoleto", devemos adicionar um desvio melhorado à base de dados.  
 
-1. Click on the “Adjust imagery offset” button. ![Adjust imagery offset button][]{: height="24px"}  
-2.  Adjust the imagery to match the GPS tracks.  Click OK in the box.  
-3.  Now go to Offset ‣ Store Imagery Offset...  
+1. Clique no botão "Novo alinhamento". ![Adjust imagery offset button][]{: height="24px"}  
+2.  Ajuste as imagens de modo a corresponderem aos trajetos GPS. Clique em OK na caixa.  
+3.  Agora, vá para Imagens de fundo ‣ Guardar alinhamento...  
 ![Store imagery offset][]
-4.  Enter a description of the offset in the box that opens.  
+4.  Introduza uma descrição do alinhamento na caixa que se abre.  
 ![Offset description][]
-5.  Click OK.  Your offset will be saved to the database.  
-6.  Now let’s hide the GPS layer and look at the OSM data against the correctly placed imagery.  
+5.  Clique em OK. O seu alinhamento será guardado na base de dados.  
+6.  Agora vamos ocultar a camada GPS e ver os dados OSM em comparação com as imagens aéreas corretamente colocadas.  
 
 ![Corrected imagery][]
 
-Oh No!  Somebody mapped this area with misaligned imagery, so the area is not correctly mapped.  This will take some time to fix.
+Oh não! Alguém mapeou esta área com imagens desalinhadas, pelo que a área não está corretamente mapeada. Isto levará algum tempo a corrigir.
 
 
-Imagery Offset Database Website
+Site da base de dados de imagens aéreas alinhadas
 --------------------------------
 
-Lastly, for more information on the offset database, you can visit the website at [http://offsets.textual.ru/](http://offsets.textual.ru/).  This lists all the offsets that have been uploaded to the database, and it also has a cool map feature that visualizes where the offsets are located, as you can see here:  
+Por último, para mais informações sobre a base de dados de desvios, pode visitar o site em [http://offsets.textual.ru/](http://offsets.textual.ru/). Este lista todos os alinhamentos que foram carregados para a base de dados e também tem uma funcionalidade de mapa interessante que visualiza onde os alinhamentos estão localizados, como pode ver aqui:  
 
 ![http://offsets.textual.ru/][]
 
-> One last thing to remember is that the imagery may not be offset the same distance everywhere!  This is especially true in regions where there are lots of hills and mountains.  So if the imagery seems to be offset differently in different areas, you’ll need to move it again.  
+> Um último aspeto a ter em conta é que as imagens aéreas podem não estar alinhadas à mesma distância em todo o lado! Isto é especialmente verdade em regiões onde existem muitas colinas e montanhas. Por isso, se as imagens aéreas parecerem estar deslocadas de forma diferente em áreas diferentes, terá de as mover novamente.  
 
 Sumário
 --------
 
-When you are just beginning OpenStreetMap, you don’t need to worry too much about imagery offset.  But if you see another mapper’s edits that seem misaligned from the imagery, you should always consider that there may be an offset before you start changing their objects.  And if you aren't quite ready to deal with offsets yet, just remember that it’s better to map an area 20 or 30 meters offset than to not map it at all.  But when possible, do remember that imagery offset may occur, and use the steps in this chapter to correct it when needed.
+Quando está a iniciar o OpenStreetMap, não precisa de se preocupar muito com o alinhamento das imagens aéreas. Mas se vir as edições de outro mapeador que parecem desalinhadas com as imagens aéreas, deve sempre considerar que pode haver um alinhamento antes de começar a alterar os objetos. E se ainda não estiver preparado para lidar com desvios, lembre-se que é melhor mapear uma área com 20 ou 30 metros de desvio do que não a mapear de todo. Mas, sempre que possível, lembre-se de que pode ocorrer um desvio de imagem e utilize os passos deste capítulo para o corrigir quando necessário.
 
 
 [Misaligned imagery]: /images/josm/misaligned-images.png
