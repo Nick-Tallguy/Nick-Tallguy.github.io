@@ -3,7 +3,7 @@ layout: doc
 title: Creation of OSM Notes
 permalink: /en/beginner/notes/
 lang: en
-category: beginner
+kategorie: začátečník
 ---
 
 Vytvoření OSM Poznámek
@@ -51,104 +51,104 @@ Poznámky mají tři stavy:
 Existuje několik akcí na poznámkách:
 
 * Vytvořit poznámku (Otevřít): Odpovídá počátečnímu procesu vytváření.
-* Resolve note (Open -> Closed): This is the resolution of notes only by a registered user, where a comment can be included.
-* Comment note (Open -> Open): When a registered user adds text to a note.
-For example, when a user asks for more details of the environment or the user who created it wants to describe the initial note better.
-* Reopen note (Closed -> Open): When a user disagrees with the note resolution and decides to reactivate it.
+* Vyřešit poznámku (Otevřeno -> Zavřeno): Jedná se o řešení poznámek pouze registrovaným uživatelem, ke kterému lze připojit komentář.
+* Poznámka k komentáři (Otevřeno -> Otevřeno): Když registrovaný uživatel přidá text do poznámky.
+Například když uživatel požádá o podrobnější informace o prostředí nebo když uživatel, který jej vytvořil, chce lépe popsat úvodní poznámku.
+* Znovuotevření poznámky (Zavřeno -> Otevřeno): Pokud uživatel nesouhlasí s řešením poznámky a rozhodne se ji znovu aktivovat.
 
 ![States for a note][]
 
 
-# Considerations for Creating Good Notes
+# Úvahy o tvorbě dobrých poznámek
 
-Recall that the notes describe an error or inconsistency between the map (OSM) and reality. Typically, notes are created on-site; for example, when a person is walking, has a device with the OpenStreetMap map, and sees that there is something that differs from reality.
+Připomeňme, že poznámky popisují chybu nebo nesoulad mezi mapou (OSM) a skutečností. Poznámky se typicky vytvářejí na místě; například když jde člověk, má zařízení s mapou OpenStreetMap a vidí, že se tam něco liší od skutečnosti.
 
-The key to creating good notes is to describe the map inconsistency as much as possible and remember that the person who will solve it may not know or have visited the area. Therefore, provide the best context for the person who will read and try to solve the note. For example, it is good to use cardinal points (north, south, east, west) and avoid indications such as to the right, to the front, etc., since the person who will solve the note does not have the reference point of where you are located when creating the note.
+Klíčem k vytvoření dobrých poznámek je co nejlépe popsat nesrovnalost v mapě a pamatovat na to, že osoba, která ji bude řešit, nemusí danou oblast znát nebo ji nenavštívila. Poskytněte proto osobě, která bude poznámku číst a snažit se ji vyřešit, co nejlepší kontext. Například je dobré používat světové strany (sever, jih, východ, západ) a vyhnout se údajům jako vpravo, vpředu apod. protože osoba, která bude poznámku řešit, nemá při tvorbě poznámky referenční bod, kde se nacházíte.
 
-When you are registered in OpenStreetMap and create notes with your user, you will be notified by email of any changes to the note. This allows you to keep track of the progress of the note's resolution and to be able to answer any questions that arise. Some applications allow you to upload photos associated with the notes to describe the context graphically. If you are using an application with this functionality, take advantage of it. We recommend always indicating where the camera points (to the northeast, to the ground, etc.). If you have doubts, you can use a compass application on your cell phone; with this, the mapper will understand the orientation of your photo to solve the note.
+Pokud jste zaregistrováni v OpenStreetMap a vytváříte poznámky se svým uživatelem, budete o všech změnách v poznámce informováni e-mailem. To vám umožní sledovat průběh řešení poznámky a být schopni odpovídat na případné dotazy. Některé aplikace umožňují nahrát fotografie spojené s poznámkami a graficky tak popsat kontext. Pokud používáte aplikaci s touto funkcí, využijte ji. Doporučujeme vždy uvést, kam kamera míří (na severovýchod, na zem apod.). Pokud máte pochybnosti, můžete použít aplikaci kompasu v mobilním telefonu; s její pomocí mapovač pochopí orientaci vaší fotografie pro řešení poznámky.
 
-We know you are just starting to read this guide and discovering the world of OSM. When you are further along in this reading, you will learn to map an element or feature in detail. This will help you describe an object better through a note so that more properties are mapped.
+Víme, že právě začínáte číst tuto příručku a objevovat svět OSM. Až budete v této četbě dále, naučíte se podrobně mapovat určitý prvek nebo funkci. To vám pomůže lépe popsat objekt prostřednictvím poznámky, abyste zmapovali více vlastností.
 
-## Language
+## Jazyk
 
-The language you are most fluent in is the best language to write a note. Remember that the person solving the note, if they do not understand your text, may use an online translator (such as deepl.com or pons.com) since most note-solving is done from a computer. You can also write it in the language of the country you are in, or possibly in English, but it is best to use a language in which you feel comfortable and can express yourself better.
+Jazyk, který ovládáte nejlépe, je nejvhodnějším jazykem pro psaní poznámek. Nezapomeňte, že osoba řešící poznámku, pokud vašemu textu nerozumí, může použít online překladač (například deepl.com nebo pons.com), protože většina řešení poznámek probíhá z počítače. Můžete ji také napsat v jazyce země, ve které se nacházíte, nebo případně v angličtině, ale nejlepší je použít jazyk, ve kterém se cítíte dobře a ve kterém se můžete lépe vyjádřit.
 
-## Location Accuracy
+## Přesnost umístění
 
-The location of the note must be as accurate as possible to the location of the error or inconsistency on the map. The note may introduce an error on the map instead of correcting something when the note is placed a few meters away from the required location. It is necessary to wait a moment for your device to identify its location, or you can manually move the pin over the map element you wish to modify.
+Umístění poznámky musí co nejpřesněji odpovídat místu chyby nebo nesrovnalosti na mapě. Poznámka může vnést chybu do mapy místo toho, aby něco opravila, když je poznámka umístěna několik metrů od požadovaného místa. Je nutné chvíli počkat, než zařízení identifikuje svou polohu, nebo můžete ručně přesunout špendlík nad prvek mapy, který chcete upravit.
 
-Keep in mind that the person who will address the note may not be familiar with the area. So, if the GPS (GNSS) has not located you correctly and indicates that you are on the sidewalk in front, the modification on the map will be on the other side of the street, which will be incorrect.
+Mějte na paměti, že osoba, která bude vzkaz řešit, nemusí být s danou oblastí obeznámena. Pokud vás tedy systém GPS (GNSS) neurčil správně a uvede, že se nacházíte na chodníku před domem, bude úprava na mapě na druhé straně ulice, což bude nesprávné.
 
-## Hashtags
+## Hashtagy
 
-Sometimes, there are activities in which many people create notes for the same purpose (for example, a mapathon to add neighbourhood details). To identify this, we recommend using one or several Hashtags to describe the activity. With this, you will be able to search for the notes associated with the hashtag and process them more easily.
-
-
-# Bad Notes
-
-Remember that the notes must not include personal information, opinions, personal data, or advertising. Nor are they for asking questions. As previously mentioned, mappers who process the notes may not know the terrain, so they will be unable to answer your questions. The opposite, however, is true. Since you are on-site, you can identify errors or inconsistencies in the map and report them as a note.
-
-## Mechanical Notes
-
-These are those created massively from the computer where elements of the map to be corrected are identified. This is not a practice recommended by the community since it is important to distinguish between evidence observed directly in the field and inconsistencies detected only by remote means. For example, when using an editor such as iD or JOSM, and you decide to identify poorly drawn buildings by creating a note for each building. There are tools available for that specific purpose that have better area management with conflict prevention in the edits. You will see these tools later in this guide. Some of them are Tasking Manager, MapRoulette, and DAMN Project, which use formats such as GeoJSON to mass-load various points on the map.  
+Někdy se jedná o aktivity, při kterých mnoho lidí vytváří poznámky za stejným účelem (například mapathon pro přidání podrobností o okolí). Pro identifikaci doporučujeme použít jeden nebo více hashtagů, které danou aktivitu popisují. Díky tomu budete moci vyhledávat poznámky spojené s hashtagem a snadněji je zpracovávat.
 
 
-# Notifications
+# Špatné poznámky
 
-When you create a note describing an inconsistency on the map, this text associated with a location will be sent to the OSM database. Then, an OSM mapper will read your note to resolve it, and if they have doubts about that description, they can add a comment where they can ask you for more details. If you have created the note with your OpenStreetMap user, you will receive an email with the mapper's questions. Any comments you add will be notified to all mappers who have previously commented on the note. This is how the people involved in a note begin to interact. 
+Nezapomeňte, že poznámky nesmí obsahovat osobní informace, názory, osobní údaje ani reklamu. Neslouží ani k pokládání otázek. Jak již bylo zmíněno, mapovatelé, kteří poznámky zpracovávají, nemusí znát terén, takže nebudou moci odpovědět na vaše otázky. Opak je však pravdou. Protože jste na místě, můžete identifikovat chyby nebo nesrovnalosti v mapě a nahlásit je jako poznámku.
+
+## Mechanické poznámky
+
+Jedná se o ty, které jsou vytvořeny hromadně z počítače, kde jsou identifikovány prvky mapy určené k opravě. Tento postup komunita nedoporučuje, protože je důležité rozlišovat mezi důkazy pozorovanými přímo v terénu a nesrovnalostmi zjištěnými pouze dálkově. Například když používáte editor, jako je iD nebo JOSM, a rozhodnete se identifikovat špatně zakreslené budovy vytvořením poznámky ke každé budově. Pro tento konkrétní účel jsou k dispozici nástroje, které mají lepší správu území s prevencí konfliktů v úpravách. S těmito nástroji se seznámíte později v této příručce. Některé z nich jsou Tasking Manager, MapRoulette a DAMN Project, které používají formáty jako GeoJSON pro hromadné načítání různých bodů na mapě. 
+
+
+# Upozornění
+
+Když vytvoříte poznámku popisující nesrovnalost na mapě, bude tento text spojený s místem odeslán do databáze OSM. Poté si mapovatel OSM přečte vaši poznámku, aby ji vyřešil, a pokud má o tomto popisu pochybnosti, může přidat komentář, kde se vás může zeptat na další podrobnosti. Pokud jste poznámku vytvořili s uživatelem OpenStreetMap, obdržíte e-mail s dotazy mappera. Všechny vámi přidané komentáře budou oznámeny všem mapovatelům, kteří poznámku dříve komentovali. Takto spolu začnou komunikovat lidé zapojení do poznámky. 
 
 ![Notification by email][]
 
 
-# Creation of Notes
+# Tvorba poznámek
 
-The functionality to create, comment, and close notes is included in different applications. Here, we’ll demonstrate how you can create notes in some applications that we consider most suitable for this activity. Many of the applications presented here have detailed sections in this guide (LearnOSM), but this section presents an overview of the functionality related to notes in these applications.
+Funkce pro vytváření, komentování a uzavírání poznámek jsou součástí různých aplikací. Zde si ukážeme, jak můžete vytvářet poznámky v některých aplikacích, které považujeme pro tuto činnost za nejvhodnější. Mnohé ze zde představených aplikací mají v této příručce (LearnOSM) podrobné části, ale tato část představuje přehled funkcí souvisejících s poznámkami v těchto aplikacích.
 
 ## StreetComplete
 
-When you see something that deserves to create a note, you can hold your finger down on the map, and a floating menu will appear. There, you choose to create a note, and you can describe the incongruity. There is also the option to include a photo for better context. Ensure the application uploads the data to OpenStreetMap to publish your note.
+Když uvidíte něco, co si zaslouží vytvořit poznámku, můžete podržet prst na mapě a zobrazí se plovoucí nabídka. V ní vyberete možnost vytvoření poznámky a můžete popsat danou nesrovnalost. K dispozici je také možnost připojit fotografii pro lepší kontext. Zajistěte, aby aplikace nahrála data do OpenStreetMap a zveřejnila vaši poznámku.
 
 ![Creating a note in StreetComplete][]
 
 
 ## Every-Door
 
-There are several editing modes on the horizontal bar at the bottom of the application. Choose the last one, which is for notes. A blue circular button will be activated on the lower right corner to add notes. After placing the pin, you can type the note’s text. Remember to upload the changes so your note is registered in OpenStreetMap.
+Na vodorovné liště v dolní části aplikace je několik režimů úprav. Vyberte poslední z nich, který je určen pro poznámky. V pravém dolním rohu se aktivuje modré kruhové tlačítko pro přidávání poznámek. Po umístění špendlíku můžete napsat text poznámky. Nezapomeňte změny nahrát, aby byla poznámka zaregistrována v OpenStreetMap.
 
 ![Creating a note in Every-door][]
 
 
 ## OnOSM
 
-This webpage allows you to add details of establishments by creating a note. It has a mechanism that asks for the necessary information and fills in a template. At the end, it publishes the data in OSM through a note.
+Tato webová stránka umožňuje přidat podrobnosti o provozovnách vytvořením poznámky. Má mechanismus, který si vyžádá potřebné informace a vyplní šablonu. Na závěr zveřejní údaje v OSM prostřednictvím poznámky.
 
-Notes created by this page are always anonymous since you are not required to use OSM credentials. Consequently, you will not receive an email when a mapper processes your note, so you must constantly visit the note page to check its status.
+Poznámky vytvořené na této stránce jsou vždy anonymní, protože není nutné používat pověření OSM. V důsledku toho neobdržíte e-mail, když mapovač zpracuje vaši poznámku, takže musíte neustále navštěvovat stránku poznámky, abyste zkontrolovali její stav.
 
 ![Creating a note in OnOSM.org][]
 
 
 ## OsmAnd
 
-Select an element on the map (e.g., a building, a road), and in the "Actions" option, select "Open a note" in OSM. Describe in the text the incongruence, and finally click on "Upload".
+Vyberte prvek na mapě (např. budovu, silnici) a v možnosti "Akce" vyberte možnost "Otevřít poznámku" v OSM. V textu popište nesoulad a nakonec klikněte na "Nahrát".
 
 ![Creating a note in OSMAND][]
 
 
-## OSM.org Homepage
+## Úvodní stránka OSM.org
 
-From the OpenStreetMap.org home page, zoom into the area of interest, and then the add-note icon will be enabled. Remember that if you do this procedure without logging in, you will create an anonymous note and not receive notifications of its resolution. A text box will appear where you can give instructions, and when you click "Add note," you will be inside OSM.
+Na domovské stránce OpenStreetMap.org přibližte zájmovou oblast a poté se aktivuje ikona pro přidání poznámky. Nezapomeňte, že pokud tento postup provedete bez přihlášení, vytvoříte anonymní poznámku a nebudete dostávat oznámení o jejím vyřešení. Zobrazí se textové pole, kde můžete zadat pokyny, a po kliknutí na tlačítko "Add note" (Přidat poznámku) se ocitnete uvnitř OSM.
 
 ![Creating a note in osm.org][]
 
 
-# History
+# Historie
 
-Now that you know the basics of notes, let's finish this section with some history. Before notes as such existed within the OpenStreetMap database, a parallel project offered this functionality. The project was named OpenStreetBugs and provided the essential tools for users to document map inconsistencies using text and coordinates. The functionality was excellent for reporting inconsistencies, so the decision was made to integrate it into OpenStreetMap, allowing it to be accessed through the API. It should be noted that when API 0.6 was defined and implemented, this version did not include the functionality for the notes.
+Nyní, když znáte základy poznámek, pojďme tuto část zakončit trochou historie. Předtím, než v rámci databáze OpenStreetMap existovaly poznámky jako takové, nabízel tuto funkci paralelní projekt. Projekt se jmenoval OpenStreetBugs a poskytoval základní nástroje pro uživatele, kteří mohli dokumentovat nesrovnalosti v mapě pomocí textu a souřadnic. Funkce byla vynikající pro hlášení nesrovnalostí, proto bylo rozhodnuto integrovat ji do OpenStreetMap a umožnit k ní přístup prostřednictvím rozhraní API. Je třeba poznamenat, že když bylo definováno a implementováno rozhraní API 0.6, tato verze neobsahovala funkčnost pro poznámky.
 
-Indeed, the notes were included in a later addition to this version.
-In 2013, the notes service was offered as part of the API.
-By 2014, all OpenStreetBugs reports had been migrated to the OSM database.
-In 2017, 1 million notes had already been created worldwide.
+Poznámky byly skutečně zařazeny do pozdějšího dodatku k této verzi.
+V roce 2013 byla služba poznámek nabízena jako součást rozhraní API.
+Do roku 2014 byla všechna hlášení OpenStreetBugs převedena do databáze OSM.
+V roce 2017 byl na celém světě vytvořen již 1 milion bankovek.
 
 
 [States for a note]: /images/beginner/note-states.png

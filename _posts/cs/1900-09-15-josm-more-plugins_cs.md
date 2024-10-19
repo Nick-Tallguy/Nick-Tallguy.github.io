@@ -41,7 +41,7 @@ Třetím kliknutím vyberte třetí roh budovy a zbytek se dokreslí automaticky
 
 * Ve "Více nástrojů" -> "Režimy kreslení budov" vyberte "Nastavit tvar budovy na kruh" nebo použijte klávesovou zkratku ALT+Z (při přepínání zpět na kreslení obdélníkových budov použijte ALT+R). Poté nakreslete průměr budovy.
 
-![Kruhová budova][]
+![Round building][]
 
 ### Komplikované budovy
 
