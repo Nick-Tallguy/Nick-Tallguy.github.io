@@ -9,7 +9,7 @@ category: beginner
 Otras lecturas
 ===============
 
-> Revisado: 08/05/2020  
+> Revisado 2020-05-08  
 
 Si has llegado hasta aquí, ¡felicidades! Ya deberías tener una buena comprensión de cómo crear mapas con OpenStreetMap. ¿Qué más puedes hacer con OSM? ¿Cómo puedes aprender más? ¿Cómo puedes mantenerte conectado a la comunidad de mapeadores?  
 

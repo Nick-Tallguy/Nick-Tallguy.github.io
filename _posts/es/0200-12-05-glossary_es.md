@@ -10,7 +10,7 @@ Glosario
 ============
 
 > Este glosario está en proceso de actualización y se ha compilado a partir de numerosas fuentes, incluido el sitio [wiki de OpenStreetMap](http://wiki.openstreetmap.org/wiki/Main_Page) y la guía escrita por Will Skora. Siéntete libre de ayudarnos a actualizarlo; revisa [CONTRIBUTING.md](https://github.com/hotosm/learnosm/blob/gh-pages/CONTRIBUTING.md) para saber cómo contribuir al sitio. 
-> Revisado: 18/07/2015  
+> Revisado 2015-07-18  
 
 Para buscar fácilmente en este glosario, usa la función de búsqueda de tu navegador (**Ctrl+f**).  
 

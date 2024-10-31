@@ -9,7 +9,7 @@ nosearch: true
 ---
 
 Guía para principiantes
-=======================
+================
 
 > Revisado 2015-07-12  
 

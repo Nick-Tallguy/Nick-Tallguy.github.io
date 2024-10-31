@@ -9,7 +9,7 @@ category: resources
 
 # Otros recursos
 
-> Revisado: 08/05/2020
+> Revisado 2020-05-08
 
 Esta es una lista con comentarios de enlaces a otros sitios web que consideramos útiles.  Todos los enlaces se verificaron y funcionaban cuando se revisó este documento por última vez.
 

@@ -9,7 +9,7 @@ category: mobile-mapping
 OruxMaps
 ===============
 
-> Revisada el 2016-08-04 y, aunque está un poco desactualizada, sigue sirviendo y contiene un enlace al sitio del manual del software.
+> Revisado el 2016-08-04 y, aunque está un poco desactualizada, sigue sirviendo y contiene un enlace al sitio del manual del software.
 
 En esta sección, vamos a aprender cómo configurar OruxMaps, cómo crear puntos de ruta, cómo ver un registro de traza y cómo exportar un registro de traza para su uso en JOSM.  
 

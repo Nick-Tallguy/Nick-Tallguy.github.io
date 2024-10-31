@@ -9,14 +9,14 @@ category: beginner
 Primeros pasos en OpenStreetMap.org
 ====================================
 
-> Revisado: 12/07/2015  
+> Revisado 2015-07-12  
 
 En esta sección, aprenderemos paso a paso a navegar por el sitio web de OpenStreetMap, ver mapas y registrarse para obtener una cuenta de usuario. Una vez que tengas tu propio nombre de usuario y contraseña, podrás contribuir con tus primeros puntos al mapa.
 
 ![website][]
 
 Visitar el sitio web de OpenStreetMap
--------------------------------------
+-------------------------------
 
 -   Abre tu navegador web.
 -   En la barra de direcciones, en la parte superior de la ventana, escribe lo siguiente y pulsa Intro:
@@ -26,7 +26,7 @@ Visitar el sitio web de OpenStreetMap
     ![OpenStreetMap website with some main functions listed][]
 
 Navegar por el mapa
--------------------
+----------------
 
 -   Lo primero que deberías ver es el mapa. Mueve el mapa haciendo clic en él con el botón izquierdo del ratón, manteniendo pulsado el botón y arrastrando el ratón (consulta la figura de abajo).
 
@@ -39,7 +39,7 @@ Navegar por el mapa
    
 
 Ver diferentes estilos de mapa
-------------------------------
+------------------------
 
 OpenStreetMap contiene datos geográficos de todo el mundo. Aunque se trata de una única base de datos, los datos se pueden interpretar y diseñar de diferentes maneras. Para ver esto en acción, vamos a ver varios "estilos" de mapas disponibles en el sitio web de OSM.
 
@@ -52,7 +52,7 @@ OpenStreetMap contiene datos geográficos de todo el mundo. Aunque se trata de u
     ![Transport map][]
 
 Crear una cuenta de OpenStreetMap
--------------------------------------
+-------------------------------
 
 - Ahora que has visto el aspecto del sitio web principal, puedes registrarte para obtener un nombre de usuario y una contraseña, y hacer tus primeras adiciones al mapa.
 -   En el sitio web de OpenStreetMap, haz clic en "Registrarse", en la esquina superior derecha de la página.
@@ -76,7 +76,7 @@ Crear una cuenta de OpenStreetMap
 -   En la página de OpenStreetMap, haz clic en "Iniciar sesión", en la esquina superior derecha. Introduce tu nombre de usuario y contraseña de OpenStreetMap y pulsa Intro. Ahora deberías haber iniciado sesión. Deberías ver tu nombre de usuario en la esquina superior derecha de la página.
 
 Añadir tus primeros puntos
-------------------------------
+------------------------
 
 - Ahora que has iniciado sesión con tu nombre de usuario en el sitio web de OpenStreetMap, puedes usar el editor iD para añadir tu primer punto al mapa.
 -   Mueve el mapa a un lugar que conozcas muy bien, como tu ciudad o barrio. Una buena idea es asegurarte de que tu casa (o la de tu vecino) y tu lugar de trabajo estén dibujados y tengan la dirección correcta. 

@@ -7,9 +7,9 @@ category: beginner
 ---
 
 El Editor iD
-============
+=============
 
-> Revisado: 10/06/2019
+> Revisado 2019-06-10
 
 ¿Empezando a mapear con un Tasking Manager para HOT o Missing Maps? Consulta nuestra [sección de consejos HOT](/es/hot-tips/).  
 
@@ -21,7 +21,7 @@ El editor iD es el editor de OpenStreetMap basado en navegador por excelencia. i
 Usar el editor iD es una excelente manera de realizar cambios pequeños y sencillos que no requieren las funciones avanzadas de JOSM (un editor de mapas más avanzado). Este capítulo muestra los conceptos básicos de la edición con iD.  
 
 Cómo iniciar el editor iD
---------------------------
+----------------------
 
 -	El editor iD requiere una conexión activa a Internet.  
 -	Abre tu navegador de Internet y ve al sitio web de OpenStreetMap en [http://www.openstreetmap.org](http://www.openstreetmap.org).  
@@ -33,7 +33,7 @@ Cómo iniciar el editor iD
 
 
 Interfaz de usuario del editor iD
-----------------------------------
+-------------------------
 ![image2][]
 
 1.  **Panel de edición de elementos:** Este panel muestra las etiquetas del objeto seleccionado en el mapa.  
@@ -75,7 +75,7 @@ Si hay un [desplazamiento de imágenes](/es/josm/aerial-imagery), puedes **corre
 - Haz clic en los botones de navegación para mover las imágenes. Haz clic en el botón de reinicio para volver a la posición predeterminada. ![image20][]  
 
 Edición básica con iD  
---------------------------  
+----------------------  
 
 ### Añadir puntos  
 
@@ -158,7 +158,7 @@ Cuando (y si) quieres guardar tus ediciones en OpenStreetMap, haz clic en el bot
 > Si has editado el mismo elemento (punto, vía o área) al mismo tiempo que otra persona, recibirás un aviso de que tus ediciones no se pueden subir hasta que hayas resuelto los **conflictos**: elige qué ediciones aceptar y sube tus cambios. *Resolver conflictos a menudo implica aceptar las ediciones de la otra persona, en cuyo caso probablemente querrás volver al elemento en cuestión y editarlo de nuevo (**¡esta vez guarda poco después de la edición para intentar evitar otro conflicto!**).*
 
 Información adicional y etiquetas personalizadas
--------------------------------------------------
+---------------------------------------
 
 Cuando estés editando un objeto, verás un menú "Añadir campo" en la parte inferior del panel de atributos. Puedes añadir diversa información adicional seleccionando una de las entradas (capa, elevación, Wikipedia, etc.).  
 
@@ -171,12 +171,12 @@ O puedes añadir etiquetas personalizadas haciendo clic en **Todas las etiquetas
 - Haz clic en el signo más (+) para añadir claves o valores, o simplemente en el icono de la papelera para eliminar etiquetas.
 
 Otros tutoriales
------------------
+------------------
 
 [Nuestra página de recursos externos](/es/resources/#iD) proporciona enlaces a varios tutoriales en vídeo de diversas fuentes.
 
 iD vs. JOSM
-------------  
+---------------  
 
 **iD es bueno para...**
 
