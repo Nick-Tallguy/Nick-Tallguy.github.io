@@ -14,7 +14,7 @@ GPSLogger para Android
 
 Una aplicación simple, ligera y minimalista para grabar trazas GPS en la plataforma Android. La interfaz fácil de usar con el único propósito de registrar GPS y permanecer en silencio la convierte en una aplicación muy eficiente en cuanto a batería que puede guardar rutas GPS en formatos de archivo GPX, KML, NEMA o texto. Los archivos de registro se pueden subir automáticamente a OpenStreetMap, un servidor OpenGTS, DropBox, servidor FTP, servidor HTTP o enviar a una dirección de correo electrónico.  
 
-<https://f-droid.org/en/packages/com.mendhak.gpslogger/>  
+<https://f-droid.org/es/packages/com.mendhak.gpslogger/>  
 
 GPSLogger para Android es una aplicación de uso gratuito y un proyecto de código abierto mantenido activamente. Se agradecen las donaciones para mejorar aún más la aplicación. Si deseas participar (por ejemplo, proporcionando traducciones a otro idioma, informando de errores o enviando solicitudes de funciones), visita el [repositorio](https://github.com/mendhak/gpslogger).  
 

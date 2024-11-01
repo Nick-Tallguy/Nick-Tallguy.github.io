@@ -13,32 +13,32 @@ category: coordination
 
 Índice por secciones
 -------------
--  [Inicio de sesión y acceso](/en/coordination/tm-admin/#login-and-access)
--  [Permisos](/en/coordination/tm-admin/#permissions)
--  [Crear un proyecto](/en/coordination/tm-admin/#create-a-project)
-    -  [Definir área de mapeo](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Definir tareas](/en/coordination/tm-admin/#define-tasks)
-    -  [Avanzado: Definir tareas con datos importados](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
-    -  [Recorte del área del proyecto](/en/coordination/tm-admin/#project-area-trim)
-    -  [Nombrar el proyecto](/en/coordination/tm-admin/#name-the-project)
--  [Editar un proyecto](/en/coordination/tm-admin/#edit-a-project)
-    -  [Descripción: lo primero que los usuarios conocen de tu proyecto](/en/coordination/tm-admin/#description)
-    -  [Instrucciones: qué deben hacer los usuarios](/en/coordination/tm-admin/#instructions)
-    -  [Metadatos: a qué pertenece el proyecto](/en/coordination/tm-admin/#metadata)
-    -  [Áreas prioritarias: dónde deben empezar a mapear los usuarios](/en/coordination/tm-admin/#priority-areas)
-    -  [Imágenes: la base de la cartografía](/en/coordination/tm-admin/#imagery)
+-  [Inicio de sesión y acceso](/es/coordination/tm-admin/#login-and-access)
+-  [Permisos](/es/coordination/tm-admin/#permissions)
+-  [Crear un proyecto](/es/coordination/tm-admin/#create-a-project)
+    -  [Definir área de mapeo](/es/coordination/tm-admin/#define-mapping-area)
+    -  [Definir tareas](/es/coordination/tm-admin/#define-tasks)
+    -  [Avanzado: Definir tareas con datos importados](/es/coordination/tm-admin/#advanced:-define-tasks-with-imported-data)
+    -  [Recorte del área del proyecto](/es/coordination/tm-admin/#project-area-trim)
+    -  [Nombrar el proyecto](/es/coordination/tm-admin/#name-the-project)
+-  [Editar un proyecto](/es/coordination/tm-admin/#edit-a-project)
+    -  [Descripción: lo primero que los usuarios conocen de tu proyecto](/es/coordination/tm-admin/#description)
+    -  [Instrucciones: qué deben hacer los usuarios](/es/coordination/tm-admin/#instructions)
+    -  [Metadatos: a qué pertenece el proyecto](/es/coordination/tm-admin/#metadata)
+    -  [Áreas prioritarias: dónde deben empezar a mapear los usuarios](/es/coordination/tm-admin/#priority-areas)
+    -  [Imágenes: la base de la cartografía](/es/coordination/tm-admin/#imagery)
     -  [Permisos: quién puede asignar y validar](/es/coordinación/tm-admin/#permisos)
-    -  [Configuración](/en/coordination/tm-admin/#settings)
-    -  [Acciones](/en/coordination/tm-admin/#actions)
-    -  [Editor personalizado](/en/coordination/tm-admin/#custom-editor)
-    -  [Guardar y probar](/en/coordination/tm-admin/#save-and-test)
-    -  [Publicar](/en/coordination/tm-admin/#publish)
--  [Gestión de proyectos](/en/coordination/tm-admin/#project-management) 
-    -  [Sé receptivo](/en/coordination/tm-admin/#be-responsive)
-    -  [Secuenciación de proyectos](/en/coordination/tm-admin/#sequencing-projects)
-    -  [Ciclo de vida del proyecto](/en/coordination/tm-admin/#project-lifecycle)
--  [Información adicional](/en/coordination/tm-admin/#additional-information)
-    -  [Consideraciones sobre las imágenes](/en/coordination/tm-admin/#considerations-concerning-imagery)
+    -  [Configuración](/es/coordination/tm-admin/#settings)
+    -  [Acciones](/es/coordination/tm-admin/#actions)
+    -  [Editor personalizado](/es/coordination/tm-admin/#custom-editor)
+    -  [Guardar y probar](/es/coordination/tm-admin/#save-and-test)
+    -  [Publicar](/es/coordination/tm-admin/#publish)
+-  [Gestión de proyectos](/es/coordination/tm-admin/#project-management) 
+    -  [Sé receptivo](/es/coordination/tm-admin/#be-responsive)
+    -  [Secuenciación de proyectos](/es/coordination/tm-admin/#sequencing-projects)
+    -  [Ciclo de vida del proyecto](/es/coordination/tm-admin/#project-lifecycle)
+-  [Información adicional](/es/coordination/tm-admin/#additional-information)
+    -  [Consideraciones sobre las imágenes](/es/coordination/tm-admin/#considerations-concerning-imagery)
 
 El Tasking Manager es la herramienta esencial para coordinar la cartografía en OpenStreetMap. Apoya las iniciativas de cartografía humanitaria, la realización de mapatones o la creación de tareas de cartografía para estudiantes. La aplicación divide un área de interés en trozos geográficos manejables que pueden completarse rápidamente y en colaboración. Este enfoque permite distribuir las tareas entre muchos cartógrafos individuales, reduciendo al mismo tiempo los posibles conflictos de edición. 
 
@@ -93,7 +93,7 @@ Puedes elegir entre definir el área de interés (área de mapeo) de tu proyecto
 3. Haz clic en el nombre del archivo para resaltarlo y luego haz clic en "Abrir".
 4. Las áreas de interés importadas no se pueden ajustar en el Tasking Manager.
 
-Es posible que estés cargando un archivo que ya tiene las tareas (pequeñas cuadrículas de asignación) predefinidas. Encontrarás más información al respecto en la sección [Definir tareas con datos importados](/en/coordination/tm-admin/#advanced:-define-tasks-with-imported-data) más abajo.
+Es posible que estés cargando un archivo que ya tiene las tareas (pequeñas cuadrículas de asignación) predefinidas. Encontrarás más información al respecto en la sección [Definir tareas con datos importados](/es/coordination/tm-admin/#advanced:-define-tasks-with-imported-data) más abajo.
 
 > NOTA: ¡El Tasking Manager tiene límites! El límite técnico máximo para un proyecto es de 5.000 km2, aunque para garantizar que tu proyecto no tarde demasiado en completarse, intenta mantenerlo por debajo de los 1.000 km2. Si necesitas cartografiar un área mayor que esta, tendrás que crear varios proyectos. Podrás ver el tamaño del proyecto en la esquina inferior izquierda de la vista previa del mapa. 
 
@@ -462,7 +462,7 @@ No dudes en consultar estos recursos adicionales sobre la alineación de imágen
 
 - [Directrices generales para varios editores](https://wiki.openstreetmap.org/wiki/Using_Imagery)
 - [Gif animado sobre la alineación de imágenes en iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [Capítulo de alineación de imágenes de JOSM en LearnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+- [Capítulo de alineación de imágenes de JOSM en LearnOSM](http://learnosm.org/es/josm/correcting-imagery-offset)
 
 
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png

@@ -45,7 +45,7 @@ Un shapefile debe estar designado para contener solo un tipo de elemento (puntos
 
 ![Shapefile attributes][]
 
-Los datos de OpenStreetMap se pueden convertir a shapefiles. Varios sitios web proporcionan shapefiles convertidos a partir de datos OSM. Estos se tratan en el [capítulo siguiente](/en/osm-data/getting-data).  
+Los datos de OpenStreetMap se pueden convertir a shapefiles. Varios sitios web proporcionan shapefiles convertidos a partir de datos OSM. Estos se tratan en el [capítulo siguiente](/es/osm-data/getting-data).  
 
 Bases de datos
 ---------

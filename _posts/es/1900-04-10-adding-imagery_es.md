@@ -15,7 +15,7 @@ No todas las imágenes aéreas están dentro del menú de imágenes de JOSM, per
 
 En este ejemplo, estamos trabajando desde el [HOT Tasking Manager](http://tasks.hotosm.org/) y las imágenes necesarias para completar uno de los proyectos deben añadirse manualmente a JOSM. El principio de añadir el enlace de la imagen es el mismo sea cual sea la edición en la que estés trabajando, siempre que se te proporcione el enlace. También hay ocasiones en las que los enlaces previstos no funcionan como se espera y puede ser necesario añadir las imágenes manualmente, si se puede obtener la información del enlace.  
 
-Desde la pestaña de información del Administrador de tareas o tu otra fuente de información, copia toda la sección de Imágenes.  
+Desde la pestaña de información del Tasking Manager o tu otra fuente de información, copia toda la sección de Imágenes.  
 
 ![TM Imagery][]
 
@@ -29,10 +29,10 @@ Haz clic en el ícono ![WMS_TMS_button][]{: height="24px"} y, en este caso, en e
 
 ![Preferences WMS TMS 3][]
 
-**Casilla 1:** Pega la información que has copiado de la pestaña de información del Administrador de tareas en el primer cuadro de la ventana. JOSM la verificará y, si es correcta, el proceso de verificación repetirá la información en la casilla 3 (ver más abajo). Si no aparece en el recuadro 3 en unos segundos, comprueba que no hayas omitido accidentalmente letras o que no hayas añadido accidentalmente "espacios en blanco" al principio o al final; solo hay que copiar y pegar el enlace real.  
+**Casilla 1:** Pega la información que has copiado de la pestaña de información del Tasking Manager en el primer cuadro de la ventana. JOSM la verificará y, si es correcta, el proceso de verificación repetirá la información en la casilla 3 (ver más abajo). Si no aparece en el recuadro 3 en unos segundos, comprueba que no hayas omitido accidentalmente letras o que no hayas añadido accidentalmente "espacios en blanco" al principio o al final; solo hay que copiar y pegar el enlace real.  
 **Casilla 2:** Normalmente se deja en blanco, a menos que hayas recibido otras instrucciones.  
 **Casilla 3:** ahora contiene una copia duplicada de la casilla 1, generada por el proceso de verificación dentro de JOSM.  
-**Casilla 4:** Introduce un nombre para la capa. Como mis imágenes fueron identificadas en el Administrador de tareas como "Las imágenes de satélite para este proyecto son amablemente proporcionadas por Digital Globe a través de su servicio +Vivid", he llamado a mi capa "Digital Globe + Vivid".  
+**Casilla 4:** Introduce un nombre para la capa. Como mis imágenes fueron identificadas en el Tasking Manager como "Las imágenes de satélite para este proyecto son amablemente proporcionadas por Digital Globe a través de su servicio +Vivid", he llamado a mi capa "Digital Globe + Vivid".  
 
 ![Preferences WMS TMS 4][]
 

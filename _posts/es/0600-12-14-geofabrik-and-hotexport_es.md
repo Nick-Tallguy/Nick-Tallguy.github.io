@@ -34,7 +34,7 @@ Puedes comprobar la última vez que se actualizaron los datos. Ten en cuenta que
 Obtención de datos de OSM en el sitio web de HOT Export Tool
 --------------------------------------
 
-El [Equipo Humanitario de OpenStreetMap](https://www.hotosm.org/) (HOT) ha creado un servicio en línea que permite a los usuarios crear extractos OSM personalizados en cualquier parte del mundo seleccionando un área de interés, características del mapa y formatos de archivo. En cuestión de minutos, los datos OSM actualizados se exportan, filtran y convierten. La siguiente sección te guiará sobre cómo usar la Herramienta de exportación. Esta información también se puede encontrar en la sección "[Aprender](https://export.hotosm.org/en/v3/learn)" de export.hotosm.org.
+El [Equipo Humanitario de OpenStreetMap](https://www.hotosm.org/) (HOT) ha creado un servicio en línea que permite a los usuarios crear extractos OSM personalizados en cualquier parte del mundo seleccionando un área de interés, características del mapa y formatos de archivo. En cuestión de minutos, los datos OSM actualizados se exportan, filtran y convierten. La siguiente sección te guiará sobre cómo usar la Herramienta de exportación. Esta información también se puede encontrar en la sección "[Aprender](https://export.hotosm.org/es/v3/learn)" de export.hotosm.org.
 
 ![hot-export-tool][]
 
@@ -95,37 +95,37 @@ Actualmente, la herramienta puede convertir datos OSM a Shapefile .shp, GeoPacka
 
 
 ### Shapefile .shp
-Los shapefiles son un formato tabular desarrollado por Esri. Son el formato de archivo más popular para datos SIG. Un shapefile en realidad son 3-4 archivos individuales, normalmente agrupados como un archivo ZIP. Los shapefiles tienen ciertas limitaciones, como el tamaño del archivo, que está limitado a 2 gigabytes (GB), y un límite de longitud del nombre de columna de 10 caracteres. Puedes leer más sobre [Shapefiles .shp](https://export.hotosm.org/en/v3/learn/export_formats#shp) en la sección Aprender.
+Los shapefiles son un formato tabular desarrollado por Esri. Son el formato de archivo más popular para datos SIG. Un shapefile en realidad son 3-4 archivos individuales, normalmente agrupados como un archivo ZIP. Los shapefiles tienen ciertas limitaciones, como el tamaño del archivo, que está limitado a 2 gigabytes (GB), y un límite de longitud del nombre de columna de 10 caracteres. Puedes leer más sobre [Shapefiles .shp](https://export.hotosm.org/es/v3/learn/export_formats#shp) en la sección Aprender.
 
 ![export-tool-shapefile][]
 
 
 ### GeoPackage .gpkg
-Los GeoPackages OGC almacenan datos geoespaciales en una sola base de datos SQLite. Los GeoPackages son muy similares a las bases de datos SQLite habilitadas para Spatialite. Deberían poder utilizarse en la mayoría de las principales aplicaciones SIG. Los GeoPackages admiten tamaños de archivo y números de columnas en tablas prácticamente ilimitados, y son totalmente compatibles con Unicode. Son especialmente ideales si necesitas ejecutar consultas SQL sobre los datos. Puedes leer más sobre [GeoPackages .gpkg](https://export.hotosm.org/en/v3/learn/export_formats#gkpg) en la sección Aprender.
+Los GeoPackages OGC almacenan datos geoespaciales en una sola base de datos SQLite. Los GeoPackages son muy similares a las bases de datos SQLite habilitadas para Spatialite. Deberían poder utilizarse en la mayoría de las principales aplicaciones SIG. Los GeoPackages admiten tamaños de archivo y números de columnas en tablas prácticamente ilimitados, y son totalmente compatibles con Unicode. Son especialmente ideales si necesitas ejecutar consultas SQL sobre los datos. Puedes leer más sobre [GeoPackages .gpkg](https://export.hotosm.org/es/v3/learn/export_formats#gkpg) en la sección Aprender.
 
 ![export-tool-sql][]
 
 
 ### Garmin .img
-Un archivo .IMG contiene toda la información necesaria para representar un mapa en un dispositivo móvil GPS Garmin. Ten en cuenta que el estilo cartográfico .img y las opciones de elementos del mapa no dependen de la selección de elementos enviados a la Herramienta de exportación; en su lugar, se utiliza un estilo predeterminado basado en todos los datos de OSM. Puedes leer más sobre [Garmin .img](https://export.hotosm.org/en/v3/learn/export_formats#img) en la sección Aprender.
+Un archivo .IMG contiene toda la información necesaria para representar un mapa en un dispositivo móvil GPS Garmin. Ten en cuenta que el estilo cartográfico .img y las opciones de elementos del mapa no dependen de la selección de elementos enviados a la Herramienta de exportación; en su lugar, se utiliza un estilo predeterminado basado en todos los datos de OSM. Puedes leer más sobre [Garmin .img](https://export.hotosm.org/es/v3/learn/export_formats#img) en la sección Aprender.
 
 ![export-tool-garmin][]
 
 
 ### Google Earth .kml
-El Lenguaje de Marcado Keyhole (KML) es un formato basado en XML para modelar puntos, líneas, polígonos y atributos asociados geográficamente. Google Earth es la plataforma de navegación de vista terrestre más conocida que utiliza KML, que también es la razón por la que se desarrolló. Puedes leer más sobre [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) en la sección Aprender.
+El Lenguaje de Marcado Keyhole (KML) es un formato basado en XML para modelar puntos, líneas, polígonos y atributos asociados geográficamente. Google Earth es la plataforma de navegación de vista terrestre más conocida que utiliza KML, que también es la razón por la que se desarrolló. Puedes leer más sobre [Google Earth .kml](https://export.hotosm.org/es/v3/learn/export_formats#kml) en la sección Aprender.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-El formato de datos canónico de OSM es un documento XML de nodos, vías y relaciones. El formato binario de búfer de protocolo (PBF) es una representación optimizada de OSM XML, que ocupa menos espacio en el disco y se lee más rápidamente. Este formato solo es compatible con herramientas específicas de OSM, como el *software* de edición de OSM. Cada .PBF proporcionado por la herramienta de exportación debería ser referencialmente completo, es decir, cualquier nodo, vía o relación a la que haga referencia una vía o relación aparecerá en el PBF. Obtén más información sobre [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) en la sección Aprender.
+El formato de datos canónico de OSM es un documento XML de nodos, vías y relaciones. El formato binario de búfer de protocolo (PBF) es una representación optimizada de OSM XML, que ocupa menos espacio en el disco y se lee más rápidamente. Este formato solo es compatible con herramientas específicas de OSM, como el *software* de edición de OSM. Cada .PBF proporcionado por la herramienta de exportación debería ser referencialmente completo, es decir, cualquier nodo, vía o relación a la que haga referencia una vía o relación aparecerá en el PBF. Obtén más información sobre [OSM .pbf](https://export.hotosm.org/es/v3/learn/export_formats#pbf) en la sección Aprender.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me es una aplicación de navegación y mapas GPS para teléfonos inteligentes y tabletas con Android e iOS, especialmente compatible con mapas y navegación sin conexión. Puedes leer más sobre [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) en la sección Aprender. Para utilizar una exportación personalizada con Maps.me en Android, sigue estos pasos:
+Maps.me es una aplicación de navegación y mapas GPS para teléfonos inteligentes y tabletas con Android e iOS, especialmente compatible con mapas y navegación sin conexión. Puedes leer más sobre [MAPS.ME .mwm](https://export.hotosm.org/es/v3/learn/export_formats#mwm) en la sección Aprender. Para utilizar una exportación personalizada con Maps.me en Android, sigue estos pasos:
 - Abre Maps.me y navega a tu región de interés.
 - Acepta la solicitud de Maps.me y descarga la región ofrecida.
 - Fuerza el cierre de Maps.me.
@@ -143,18 +143,18 @@ Maps.me es una aplicación de navegación y mapas GPS para teléfonos inteligent
 
 
 ### OsmAnd .obf
-OsmAnd también es una aplicación de navegación y mapas GPS para teléfonos inteligentes Android e iOS, así como tabletas, que admite, en particular, la representación, el enrutamiento y la búsqueda sin conexión. Puedes leer más sobre la aplicación y sus numerosas funciones de [OsmAnd .obf](https://export.hotosm.org/en/v3/learn/export_formats#obf) desde su sitio web principal. 
+OsmAnd también es una aplicación de navegación y mapas GPS para teléfonos inteligentes Android e iOS, así como tabletas, que admite, en particular, la representación, el enrutamiento y la búsqueda sin conexión. Puedes leer más sobre la aplicación y sus numerosas funciones de [OsmAnd .obf](https://export.hotosm.org/es/v3/learn/export_formats#obf) desde su sitio web principal. 
 
 ![export-tool-osmand][]
 
 
 ### MBTiles .mbtiles
-MBTiles es un formato de archivo para almacenar teselas de mapas en un solo archivo. La Herramienta de exportación permite a los usuarios crear MBTiles que contienen teselas de OSM, que se pueden utilizar como fuentes de contexto sin conexión dentro de las aplicaciones que las admiten. Ten en cuenta que MBTiles extraerá todas las características de OSM en el área de interés seleccionada mediante la Herramienta de exportación, y la pestaña "3 Datos" cambiará automáticamente a una opción de fuente desplegable y un rango de zoom, en lugar de la opción estándar de selección de características de árbol de etiquetas y YAML. Puedes leer más sobre [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) en la sección Aprender.
+MBTiles es un formato de archivo para almacenar teselas de mapas en un solo archivo. La Herramienta de exportación permite a los usuarios crear MBTiles que contienen teselas de OSM, que se pueden utilizar como fuentes de contexto sin conexión dentro de las aplicaciones que las admiten. Ten en cuenta que MBTiles extraerá todas las características de OSM en el área de interés seleccionada mediante la Herramienta de exportación, y la pestaña "3 Datos" cambiará automáticamente a una opción de fuente desplegable y un rango de zoom, en lugar de la opción estándar de selección de características de árbol de etiquetas y YAML. Puedes leer más sobre [MBTiles .mbtiles](https://export.hotosm.org/es/v3/learn/export_formats#mbtiles) en la sección Aprender.
 
 ![export-tool-mbtiles][]
 
 
-Se sugieren continuamente nuevos formatos de archivo y se añaden a la Herramienta de exportación. Si hay un formato de archivo que te gustaría que se añadiera en el futuro, haz un comentario en el repositorio de [GitHub](https://github.com/hotosm/osm-export-tool/issues). Para obtener información más detallada sobre cada tipo de formato de archivo, visita la página "Formatos de archivo" de la sección "[Aprender](https://export.hotosm.org/en/v3/learn)" del sitio web de la herramienta.
+Se sugieren continuamente nuevos formatos de archivo y se añaden a la Herramienta de exportación. Si hay un formato de archivo que te gustaría que se añadiera en el futuro, haz un comentario en el repositorio de [GitHub](https://github.com/hotosm/osm-export-tool/issues). Para obtener información más detallada sobre cada tipo de formato de archivo, visita la página "Formatos de archivo" de la sección "[Aprender](https://export.hotosm.org/es/v3/learn)" del sitio web de la herramienta.
 
 
 
@@ -246,7 +246,7 @@ Ten en cuenta que las configuraciones se pueden editar, lo que resulta útil par
 ![export-tool-configuration-stored][]
 
 
-Para obtener información más detallada sobre las selecciones de características y YAML, visita la sección "Seleccionar características" y "Especificación YAML" de la sección "[Aprender](https://export.hotosm.org/en/v3/learn)" del sitio web de la herramienta. 
+Para obtener información más detallada sobre las selecciones de características y YAML, visita la sección "Seleccionar características" y "Especificación YAML" de la sección "[Aprender](https://export.hotosm.org/es/v3/learn)" del sitio web de la herramienta. 
 
 
 

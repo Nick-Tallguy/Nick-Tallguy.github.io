@@ -68,7 +68,7 @@ Para descargar la versión para Windows de osm2pgsql, navega con tu navegador we
 
 Obteniendo datos sin procesar de OSM
 ---------------------
-Antes de que podamos ejecutar **osm2pgsql**, necesitamos tener algunos datos OSM sin procesar para importarlos a una base de datos. Si aún no tienes un archivo **.osm** que puedas usar, intenta descargar un archivo desde <https://download.bbbike.org/osm/bbbike/>. Este sitio alberga muchos extractos de OSM para diferentes ciudades. Busca una ciudad para importar y descarga el archivo PBF correspondiente. Los archivos PBF son versiones comprimidas de los archivos **.osm** normales. Puedes utilizar cualquiera de los servicios de extracción enumerados en el capítulo sobre [obtener datos] (/en/osm-data/getting-data) si deseas los datos sin procesar para otra área.  
+Antes de que podamos ejecutar **osm2pgsql**, necesitamos tener algunos datos OSM sin procesar para importarlos a una base de datos. Si aún no tienes un archivo **.osm** que puedas usar, intenta descargar un archivo desde <https://download.bbbike.org/osm/bbbike/>. Este sitio alberga muchos extractos de OSM para diferentes ciudades. Busca una ciudad para importar y descarga el archivo PBF correspondiente. Los archivos PBF son versiones comprimidas de los archivos **.osm** normales. Puedes utilizar cualquiera de los servicios de extracción enumerados en el capítulo sobre [obtener datos](/es/osm-data/getting-data) si deseas los datos sin procesar para otra área.  
 
 Obtener el archivo de estilo
 ------------------

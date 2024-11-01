@@ -39,7 +39,7 @@ La mejor manera de conectarte con la comunidad de usuarios de OpenStreetMap es u
 
 Para registrarte en la lista de correo de tu país, abre tu navegador web y ve a [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
-![Lista de correo][]
+![Mailing list][]
 
 Desplázate por la página para encontrar la lista asociada a tu país. Las listas de países se llaman "Talk-lg", donde "lg" representa el código del país de esa lista. Por ejemplo, "Talk-id" es la lista para Indonesia.  
 
@@ -75,4 +75,4 @@ Estas son algunas de las maneras en que puedes utilizar OpenStreetMap, mantenert
 
 [MyOSMatic]: /images/beginner/myosmatic-homepage.png
 [Wiki]: /images/beginner/osm-wiki.png
-[Lista de correo]: /images/beginner/osm-mailing-lists.png
+[Mailing list]: /images/beginner/osm-mailing-lists.png

@@ -36,7 +36,7 @@ Mapswipe es desarrollado por el [Missing Maps Project](https://www.missingmaps.o
 
 Ver también
 
-- [Página del proyecto](https://mapswipe.org/en/about.html)
+- [Página del proyecto](https://mapswipe.org/en/get-involved/)
 - [Wiki de OSM](https://wiki.openstreetmap.org/wiki/MapSwipe)
 - [MapSwipe en YouTube](https://youtu.be/mwRdtnfFcUw)
 

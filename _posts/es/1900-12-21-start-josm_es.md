@@ -33,7 +33,7 @@ Descargar JOSM
 Instalar JOSM
 ------------
 
-> Puede que tengas problemas para instalar JOSM si Java no está ya instalado en tu computadora. Si tienes problemas en esta sección, intenta descargar e instalar Java. Puedes descargarlo aquí: <http://www.java.com/en/download/>
+> Puede que tengas problemas para instalar JOSM si Java no está ya instalado en tu computadora. Si tienes problemas en esta sección, intenta descargar e instalar Java. Puedes descargarlo aquí: <https://www.java.com/es/download/>
 >
 > Los usuarios de Mac pueden tener versiones antiguas de Java. Por favor, consulta en <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> las opciones para OSX 10.6 y 10.7.3+.
 

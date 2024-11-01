@@ -27,9 +27,9 @@ Si quieres empezar y poder editar los datos del mapa, te recomendamos que leas e
 
 El punto principal es aprender cómo se coordina el mapeo en este contexto.
 - La [guía de mapeo remoto](/es/coordination/HOT-Remote-Response-Guide/) y la información general sobre [mapeo humanitario](/es/coordination/humanitarian/) te proporcionan algunos antecedentes
-- La herramienta principal es el [Tasking Manager](/en/coordination/tm-user/) con cuyo flujo de trabajo deberías familiarizarte
+- La herramienta principal es el [Tasking Manager](/es/coordination/tm-user/) con cuyo flujo de trabajo deberías familiarizarte
 
-Si eres un mapeador experimentado y quieres saber más sobre la validación, entonces una [sección](/en/coordination/tm-user/#validation) en nuestra guía del Tasking Manager explica el proceso.
+Si eres un mapeador experimentado y quieres saber más sobre la validación, entonces una [sección](/es/coordination/tm-user/#validation) en nuestra guía del Tasking Manager explica el proceso.
 
 ### ¿Te gustaría usar OpenStreetMap en dispositivos móviles?
 

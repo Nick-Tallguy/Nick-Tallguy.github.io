@@ -29,7 +29,7 @@ Inicio rápido
 Instala OSMTracker
 -------------------------
 
-Instala OSMTracker desde [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
+Instala OSMTracker desde [F-Droid](https://f-droid.org/es/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
 
 

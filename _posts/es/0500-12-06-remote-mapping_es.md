@@ -18,15 +18,15 @@ El Equipo Humanitario de OpenStreetMap (Humanitarian OpenStreetMap Team - HOT) e
 
 La mayoría de las actividades de respuesta de HOT se producen de forma remota. Después de un desastre, los miembros de HOT buscan datos existentes y las imágenes satelitales disponibles. Se contacta con los socios pertinentes para proporcionar imágenes compatibles con ODbL. Una vez que se obtienen las imágenes, la comunidad virtual digitaliza o traza a partir de las imágenes (normalmente, la atención se centra en los objetos reconocibles que son útiles para la respuesta humanitaria, como carreteras, edificios, carreteras bloqueadas, extensión de las inundaciones, etc.) y genera los datos y los mapas. Durante este tiempo, también se contacta con las organizaciones que responden para determinar sus necesidades.  
 
-Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios y la respuesta es coordinada por un equipo o miembro específico que se asegura de que todo el mundo sepa cuándo hay nuevos recursos disponibles, así como dónde concentrar los esfuerzos. HOT fomenta la participación de la comunidad OSM y, si existen, de los actores locales para utilizar herramientas como el Administrador de Tareas para coordinar los esfuerzos de respuesta. Algunos ejemplos son las actividades remotas realizadas en Costa de Marfil, Senegal, Filipinas y la República Democrática del Congo.  
+Teniendo en cuenta la magnitud de la crisis, HOT asigna los recursos necesarios y la respuesta es coordinada por un equipo o miembro específico que se asegura de que todo el mundo sepa cuándo hay nuevos recursos disponibles, así como dónde concentrar los esfuerzos. HOT fomenta la participación de la comunidad OSM y, si existen, de los actores locales para utilizar herramientas como el Tasking Manager (Administrador de Tareas) para coordinar los esfuerzos de respuesta. Algunos ejemplos son las actividades remotas realizadas en Costa de Marfil, Senegal, Filipinas y la República Democrática del Congo.  
 
 [Ejemplo de activación en Siria](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### El Administrador de Tareas HOT 
+### El Tasking Manager de HOT 
 
-El [Administrador de Tareas HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñada para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser mapeadas y qué áreas necesitan que el mapeo sea validado por otros. Incluye tareas de mapeo para [activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation) y [proyectos humanitarios] (http://hot.openstreetmap.org/projects) ya existentes.  
+El [Tasking Manager (Administrador de Tareas) de HOT] (http://tasks.hotosm.org/) es una herramienta de código abierto diseñada para dividir un trabajo de mapeo en tareas más pequeñas que se pueden completar rápidamente. Muestra qué áreas necesitan ser mapeadas y qué áreas necesitan que el mapeo sea validado por otros. Incluye tareas de mapeo para [activaciones] (http://wiki.openstreetmap.org/wiki/HOT_activation) y [proyectos humanitarios] (http://hot.openstreetmap.org/projects) ya existentes.  
 
-Para utilizar el Administrador de Tareas HOT, necesitas registrarte en OpenStreetMap (OSM) con un nombre de usuario y una contraseña. Para obtener más instrucciones, lee el [Tutorial del Administrador de Tareas] (/es/coordination/tm-user/).  
+Para utilizar el Tasking Manager de HOT, necesitas registrarte en OpenStreetMap (OSM) con un nombre de usuario y una contraseña. Para obtener más instrucciones, lee el [Tutorial del Tasking Manager](/es/coordination/tm-user/).  
 
 
 ### Herramientas de edición 
