@@ -1,28 +1,28 @@
 ---
 layout: doc
-title: Tasking Manager Administrator Guide
+title: Tasking Manager管理员指南
 permalink: /zh_CN/coordination/tm-admin/
 lang: zh_CN
 category: coordination
 ---
 
-# Tasking Manager Administrator Guide
+# Tasking Manager管理员指南
 
 
-**If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
+**如果您使用的版本的用户界面与此处描述的用户界面不同，那么您应该查阅 [版本概述](/zh_CN/coordination/tm-disambiguation)**
 
-Section Index
+章节索引
 -------------
--  [Login and access](/en/coordination/tm-admin/#login-and-access)
--  [Permissions](/en/coordination/tm-admin/#permissions)
--  [Create a project](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Define mapping area](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Define tasks](/en/coordination/tm-admin/#define-tasks)
-    -  [Project area trim](/en/coordination/tm-admin/#project-area-trim)
-    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
--  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
+-  [登录并访问](/en/coordination/tm-admin/#login-and-access)
+-  [权限](/en/coordination/tm-admin/#permissions)
+-  [创建一个项目](/en/coordination/tm-admin/#create-a-mapping-project)
+    -  [定义测绘区域](/en/coordination/tm-admin/#define-mapping-area)
+    -  [定义任务](/en/coordination/tm-admin/#define-tasks)
+    -  [项目区域裁剪](/en/coordination/tm-admin/#project-area-trim)
+    -  [高级：使用导入的地理数据定义测绘项目区域和任务](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
+-  [编辑测绘项目](/en/coordination/tm-admin/#edit-a-mapping-project)
+    -  [描述 - 用户了解项目的第一件事](/en/coordination/tm-admin/#description)
+    -  [操作指南 - 用户应该做什么](/en/coordination/tm-admin/#instructions)
     -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
     -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
     -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
@@ -42,7 +42,7 @@ In order to login to the Tasking Manager an OpenStreetMap (OSM) account is neede
 
 ## Permissions
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
+最基本的用户级别是**测绘人员**。测绘人员能够登录到Tasking Manager中寻找并选择一个测绘项目进行工作。所有测绘人员的功能在 [LearnOSM Tasking Manager测绘人员 指南](/zh_CN/coordination/tm-user/)中都有描述。请注意，一些项目，如那些处于草稿状态（即未发布），或仅限于某些团队的项目，对普通测绘人员来说是不可见的。
 
 All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
 
@@ -270,13 +270,13 @@ Please use plain language as your target audience may not consist of native Engl
 
 ### Considerations concerning Imagery
 
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+在大多数情况下，我们使用 “标准” Bing图像。但是有些情况下你可能想要选择替代来源：
 
 1. Bing does not provide high-resolution coverage for your mapping area.
 2. Bing has considerable cloud cover in this area.
 3. You need newer imagery for post-disaster evaluation.
 
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+如果Bing不足，那么 Mapbox 是下一个选择。只有当这两个来源都不符合您的要求时，您才应该寻找其他来源。
 
 In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
 

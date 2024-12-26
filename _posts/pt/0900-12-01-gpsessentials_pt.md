@@ -12,169 +12,169 @@ GPS Essentials
 ===================
 
 
-Installation of GPS Essentials
+Instalação do GPS Essentials
 -------------
 
-1.  Tap the “Google Play Store” app icon on your Android device’s home screen to open the Android Market.
-2.  Tap the “Search” icon in the upper right corner.
-3.  Use the search bar at the top to search for “GPS Essentials”.
-4.  Tap the GPS Essentials icon and select "Install". The icon looks like this:
+1.  Toque no ícone da aplicação "Google Play Store" no ecrã inicial do seu dispositivo Android para abrir o Android Market.
+2.  Toque no ícone "Procurar" no canto superior direito.
+3.  Utilize a barra de pesquisa na parte superior para procurar "GPS Essentials".
+4.  Toque no ícone do GPS Essentials e selecione "Instalar". O ícone tem o seguinte aspeto:
 
     ![GPS Essentials logo][]
 
-If you don't have access to Google Play or if you want to download versions other than the stable release such as older versions or the latest beta, you can download GPS Essentials from <http://www.images.com>.
+Se não tiver acesso ao Google Play ou se pretender descarregar versões diferentes da versão estável, como versões mais antigas ou a versão beta mais recente, pode transferir o GPS Essentials a partir de <http://www.images.com>.
 
-Configure GPS Essentials to Work Offline
+Configurar o GPS Essentials para funcionar offline
 -------------
 
-1.  Open GPS Essentials. Go to Settings and select Map Cache. Move the cache limit to maximum.
+1.  Abra o GPS Essentials. Vá a Definições e selecione Cache de mapas. Mova o limite da cache para o máximo.
 
     ![Map Cache][]
 
-2.  Find a strong network connection. From main screen, select 'Portable Maps'. Every map you view in portable map mode automatically saves to the Android's memory. Save maps you will need offline in as much detail as possible, and slowly zoom in on each waypoint.
+2.  Encontre uma conexão à Internet boa e estável. No ecrã principal, selecione "Mapas portáteis". Todos os mapas que visualizar no modo de mapas portáteis são guardados automaticamente na memória do Android. Guarde os mapas de que vai precisar offline com o máximo de detalhe possível e faça zoom lentamente em cada ponto de passagem.
 
-3.  Disconnect from the network and view maps in portable map mode. If some maps lack detail, re-connect to a network and slowly zoom in on the map location you need.
+3.  Desconecte-se da Internet e veja os mapas no modo de mapa portátil. Se alguns mapas não tiverem detalhes, volte a conectar-se a uma rede e aumente o zoom lentamente na localização do mapa de que necessita.
 
-GPS feature on Android phone
+Funcionalidade GPS no telemóvel Android
 -------------
 
-Before using the GPS Essentials Application, make sure the GPS in your Android phone is enabled.
+Antes de utilizar a aplicação GPS Essentials, certifique-se de que o GPS do seu telemóvel Android está ativado.
 
 ![Enable GPS in Android][]
 
-Acquiring Satellites
+Aquisição de satélites
 -------------
 
-Before a GPS receiver emits a location (also called a GPS fix), it must receive signals from at least four satellites. The lower the satellite is above the horizon, the longer its signals travel through the atmosphere so satellites high above the horizon usually have better signals.
+Antes de um recetor GPS emitir uma localização (também designada por posição GPS), tem de receber sinais de, pelo menos, quatro satélites. Quanto mais baixo o satélite estiver acima do horizonte, mais tempo os seus sinais viajam através da atmosfera, pelo que os satélites mais acima do horizonte têm normalmente melhores sinais.
 
-To check the satellites in your area:
+Para verificar os satélites na sua área:
 
-1.  From the main menu, select Satellites.
+1.  No menu principal, selecione Satélites.
 
     ![Satellites page][]
 
-2.  If there are at least four satellites used in the fix, then you may start using the GPS Essentials features.
+2.  Se houver pelo menos quatro satélites utilizados na correção, pode começar a utilizar as funcionalidades do GPS Essentials.
 
-Creating Tracks
+Criar trilhos
 -------------
 
-1.  From the main menu, select Tracks.
+1.  No menu principal, selecione Tracks (trilhos).
 
-2.  Tap on Start from the toolbar. It will create a new track and start recording. Wait some seconds until GPS fix is available.
+2.  Toque em Start (iniciar) na barra de ferramentas. É criado um novo trajeto e inicia-se a gravação. Aguarde alguns segundos até que a posição do GPS esteja disponível.
 
     ![New Track][]
 
-3.  Select Pause button to pause recording. If you want to continue recording, press it again.
+3.  Selecione o botão Pause / Pausa para fazer uma pausa na gravação. Se pretender continuar a gravar, prima-o novamente.
 
-Creating Waypoints
+Criar pontos de passagem
 -------------
 
-### Using Portable Maps
+### Utilizar os mapas portáteis
 
-1.  From the main menu, select Portable Maps.
+1.  No menu principal, selecione Portable Maps (mapas portáteis).
 
-2.  Tap and hold on the map to create a new cursor.
+2.  Toque sem soltar no mapa para criar um novo cursor.
 
     ![Waypoints1][]
 
-3.  Drag the cursor onto the location where you want the new waypoint.
+3.  Arraste o cursor para o local onde pretende colocar o novo ponto de passagem.
 
-4.  Tap on Actions to show the actions pane. The Actions icon looks like this:
+4.  Toque em Actions (ações) para mostrar o painel de ações. O ícone Actions tem o seguinte aspeto:
 
     ![Actions][]
 
-5.  Select the Add Tool to create the waypoint.
+5.  Selecione Add Tool (adicionar ferramenta) para criar o ponto de passagem.
 
     ![Waypoints2][]
 
-### Using Google Maps
+### Utilizar o Google Maps
 
-1.  From the main menu, select Google Maps.
+1.  No menu principal, selecione Google Maps.
 
-2.  Go to the location where you want to add your waypoint.
+2.  Vá para o local onde pretende adicionar o seu ponto de passagem.
 
-3.  Select the Add Tool to create the waypoint. Tap on the location on the map to create a Waypoint there. If you want to create a waypoint at your current location, tap the Add Waypoint button again.
+3.  Selecione Add Tool (adicionar ferramenta) para criar o ponto de passagem. Toque na localização no mapa para criar um ponto de passagem aí. Se pretender criar um ponto de passagem na sua localização atual, toque novamente no botão Add Waypoint (adicionar ponto de passagem).
 
     ![GoogleMaps][]
 
-4.  Repeat steps b and c until you are finished recording your desired waypoints.
+4.  Repita os passos b e c até terminar de registar os pontos de passagem desejados.
 
-### Using Waypoints page
+### Utilizar o ecrã Waypoints (pontos de passagem)
 
-1.  From the main menu, select Waypoints.
+1.  No menu principal, selecionar Waypoints.
 
-2.  Select the Add tool to create the waypoint.
+2.  Selecione a ferramenta Add (adicionar) para criar o ponto de passagem.
 
     ![Waypointspage1][]
 
-3.  It will start recording your 1st waypoint. You may change the attributes of the waypoint and then press Back to get back to the list.
+3.  Começará a registar o seu primeiro ponto de passagem. Pode alterar os atributos do ponto de passagem e em seguida premir o botão de voltar para voltar à lista.
 
     ![Waypointspage2][]
 
-4.  When you select the Map pane, you will see where your waypoint is located on the map.
+4.  Quando selecionar o painel Map, verá onde o seu ponto de passagem está localizado no mapa.
 
     ![Waypointspage3][]
 
-5.  Select Close icon to save your waypoint. The Close icon looks like this:
+5.  Selecione o ícone de fechar para guardar o seu ponto de passagem. O ícone fechar tem o seguinte aspeto:
 
     ![Close][]
 
-Geotagging Photos
+Marcação geográfica de fotografias
 -------------
 
-1.  From the main menu, select Camera.
+1.  No menu principal, selecione Camera.
 
-2.  Take a picture of your desired area for geotagging.
+2.  Tire uma fotografia da área pretendida para a marcação geográfica.
 
-3.  The photo you took will serve as a waypoint and automatically be saved on the Portable Maps and Google Maps page.
+3.  A fotografia que tirou servirá de ponto de passagem e será automaticamente guardada na página do Portable Maps e do Google Maps.
 
-4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
+4.  Os dados (localização da imagem e nome do ficheiro da fotografia) também serão registados no ecrã de pontos de passagem. Também pode escolher o ícone a ser utilizado para uma determinada imagem. O ícone também será apresentado no ecrã Portable Maps e Google Maps.
 
-Saved Photos
+Fotografias guardadas
 -------------
 
-All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
+Todas as suas imagens estão na pasta com.mictale.images no seu cartão SD. Pode apagar imagens desta pasta e pode até adicionar novas imagens. O GPS Essentials analisa regularmente esta pasta para ver o que há de novo.
 
-Exporting/Saving Waypoints
+Exportar / guardar pontos de passagem
 -------------
 
-1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
+1.  No menu principal, selecione Waypoints. É-lhe apresentada a lista de pontos de passagem que gravou.
 
-2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
+2.  Para exportar todos os pontos de passagem, selecione Export no botão Options. Se pretender exportar um único ponto de passagem, selecione o ponto de passagem pretendido, clique no botão Options e selecione Export.
 
-3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
+3.  A caixa pendente permite-lhe selecionar o tipo de ficheiro para o qual pretende exportar os dados. Por agora, clique em KML (Google Earth).
 
     ![Export file format][]
 
-4.  Select the SD card icon to manually select your desired location of the file.
+4.  Selecione o ícone do cartão SD para selecionar manualmente a localização pretendida para o ficheiro.
 
     ![Export to SD card][]
 
-5.  Click this icon to Save.
+5.  Clique neste ícone para guardar.
 
     ![Arrow][]
 
-Exporting/Saving Tracks
+Exportar / guardar trilhos
 -------------
 
-1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
+1.  No menu principal, selecione Tracks. Mostra os dados do trilho atual que gravou.
 
-2.  Select Export from the Options button to write the contents of the current track to a file.
+2.  Selecione Export no botão Options para escrever o conteúdo do trilho atual num ficheiro.
 
-3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
+3.  Se pretender exportar o trilho anterior que gravou, selecione o ícone Tracks e escolha o trilho pretendida. Clique no botão Options e selecione Export. O ícone Tracks tem o seguinte aspeto:
 
     ![Footprints][]
 
 
-4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
+4.  A caixa pendente permite-lhe selecionar o tipo de ficheiro para o qual pretende exportar os dados. Por agora, clique em KML (Google Earth).
 
     ![Export1][]
 
-5.  Select the SD card icon to manually select your desired location of the file.
+5.  Selecione o ícone do cartão SD para selecionar manualmente a localização pretendida para o ficheiro.
 
     ![Export3][]
 
-6.  Click this icon to Save.
+6.  Clique neste ícone para guardar.
 
     ![Arrow][]
 

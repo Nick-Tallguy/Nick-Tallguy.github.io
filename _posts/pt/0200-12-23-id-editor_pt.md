@@ -6,78 +6,78 @@ lang: pt
 category: beginner
 ---
 
-O Editor iD
+O editor iD
 =============
 
-> Reviewed 2019-06-10
+> Revisto em 2019-06-10
 
-Está a começar a mapear com o Gestor de Tarefas do HOT ou MissingMaps? Veja a [secção dicas HOT](/pt/hot-tips/).  
+Está a começar a mapear com o Gestor de Tarefas do HOT ou MissingMaps? Veja a [secção de dicas HOT](/pt/hot-tips/).  
 
 - TOC
 {:toc}
 
-O editor iD é o editor padrão do OpenStreetMap integrado no navegador de internet. O iD é rápido e fácil de utilizar, e permite mapear a partir de várias fontes, tais como imagens de satélite e aéreas, GPS, Field Papers ou Mapillary.  
+O editor iD é o editor padrão do OpenStreetMap integrado no navegador de Internet. O iD é rápido e fácil de utilizar, e permite mapear a partir de várias fontes, tais como imagens de satélite e aéreas, GPS, Field Papers ou Mapillary.  
 
 O editor iD é uma boa ferramenta para fazer pequenas edições de forma fácil que não necessitem das funcionalidades avançadas do JOSM (um editor mais avançado e complexo). Este capítulo demonstra o básico da edição com o iD.  
 
-Começar com o Editor iD
+Começar com o editor iD
 ----------------------
 
 -	O editor iD necessita de uma ligação permanente à Internet.  
--	Abra o seu navegador de internet e aceda ao site do OpenStreetMap em [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Inicie a Sessão** utilizando os dados de acesso da sua conta no OpenStreetMap  
+-	Abra o seu navegador de Internet e aceda ao site do OpenStreetMap em [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+-	**Inicie a sessão** utilizando os dados de acesso da sua conta no OpenStreetMap  
 -	Desloque e aproxime o mapa na área que deseja editar. Pode deslocar o mapa clicando e mantendo premido o botão esquerdo do rato e deslocando o mapa para a área que quer editar.  
 -	Clique na pequena seta logo a seguir a **Editar** e clique na opção do menu que aparece **Editar com iD (editor no navegador)**.  
 
 ![image1][]
 
 
-Interface do Editor iD
+Interface do editor iD
 -------------------------
 ![image2][]
 
-1. **Painel de Editar Elementos:** Este painel mostra etiquetas (tags) do objeto selecionado no mapa.  
+1. **Painel de editar elementos:** este painel mostra etiquetas (tags) do objeto selecionado no mapa.  
 	Pode adicionar ou editar etiquetas neste painel.  
-2. **Ferramentas:** Este painel mostra ferramentas básicas de edição:  
+2. **Ferramentas:** este painel mostra ferramentas básicas de edição:  
     Desenhar ponto (nó), *tecla de atalho* **1** ![image3][]{: height="24px"}  
     Desenhar linha (via), *tecla de atalho* **2** ![image4][]{: height="24px"}  
     Desenhar área (polígono), *tecla de atalho* **3** ![image5][]{: height="24px"}  
     Desfazer, *teclas de atalho* **Ctrl+z** ![image6][]{: height="24px"}  
     Refazer, *teclas de atalho* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
-3. **Painel do mapa:** Este painel mostra várias funções de configuração:  
+    Guardar alterações, *teclas de atalho* **Ctrl+s** ![image8][]{: height="32px"}  
+3. **Painel do mapa:** este painel mostra várias funções de configuração:  
     Aproximar, *tecla de atalho* **+** ![image9][]{: height="24px"}  
     Afastar, *tecla de atalho* **-** ![image10][]{: height="24px"}  
     Mostrar a minha localização ![image11][]{: height="24px"}  
     Configurar imagem de fundo, *tecla de atalho* **b** ![image12][]{: height="24px"}  
-    Dados dO Mapa, *tecla de atalho* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
-    Abrir o Menu de Ajuda, *tecla de atalho* **h** ![image13][]{: height="24px"}  
-4. **Painel de informação:** Este painel mostra informação variada, tal como a barra de escala e quais os utilizadores que contribuíram para a área.  
+    Dados do Mapa, *tecla de atalho* **f** ![Map Data][]{: height="24px"}  
+    Erros, *tecla de atalho* **i** ![Issues][]{: height="24px"}  
+    Abrir o menu de ajuda, *tecla de atalho* **h** ![image13][]{: height="24px"}  
+4. **Painel de informação:** este painel mostra informação variada, tal como a barra de escala e quais os utilizadores que contribuíram para a área.  
 
-## Configuring the Background Layer
+## Configurar a camada de fundo
 
 Clique o botão **Configurar imagem de fundo** ou utilize a *tecla de atalho* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Pode **alterar a camada de fundo** com base no fornecedor de mosaicos pretendido (o predefinido é Bing Aerial Imagery).  
 
-Pode adicionar as suas próprias telas de mapas clicando em  **Personalizado**. Por exemplo, se quiser **adicionar um Field Paper** [^fieldpaper], clique em **Personalizado** e então clique no ícone da lupa que está à direita para abrir a seguinte janela:-  
+Pode adicionar os seus próprios mosaicos de mapas clicando em  **Personalizado**. Por exemplo, se quiser **adicionar um Field Paper** [^fieldpaper], clique em **Personalizado** e então clique no ícone da lupa que está à direita para abrir a seguinte janela:-  
 ![image17][]   
 e adicione o **URL de digitalização do FieldPaper**, que será algo como: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
 Para **mostrar trilhos GPS armazenados no seu computador** (formato GPX), arraste e largue o ficheiro do trilho na janela do editor iD.  
 Para ativar **trilhos GPS do OpenStreetMap** clique na caixa. Na imagem abaixo, os trilhos GPS públicos são mostrados em várias cores, indicando a direção ao criar o trilho.  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+Para alterar a **aparência das imagens aéreas**, clique em **Opções de visualização**.  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+Se houver um [desvio das imagens] (/pt/josm/aerial-imagery), pode **corrigir o desvio de imagens** clicando em **Ajustar deslocamento da imagem**.  
 ![image18][]  
 
 - Clique nas setas de navegação para mover a imagem de fundo. Clique no botão de reiniciar para retornar à posição inicial. ![image20][]  
 
-Edição Básica com o editor iD  
+Edição básica com o editor iD  
 ----------------------  
 
-### Adicionar Pontos  
+### Adicionar pontos  
 
 Para adicionar um novo ponto, clique no botão **Ponto**. ![image3][]{: height="24px"}  
 
@@ -86,10 +86,10 @@ Para adicionar um novo ponto, clique no botão **Ponto**. ![image3][]{: height="
 - Note que é adicionado um novo ponto. Ao mesmo tempo, o painel lateral direito mostrará botões e campos onde pode selecionar e configurar atributos do objeto. Clique em **Hospital** para marcar o ponto como hospital.  
 ![image22][]  
 - Pode usar os campos para preencher informações sobre o ponto. Pode introduzir o nome de um hospital, morada e outras informações adicionais. Note que cada um dos elementos terão opções diferentes dependendo da etiqueta que escolher no painel lateral.  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- Se cometer um erro, como uma localização errada, pode mover o seu ponto para uma nova localização, mantendo o botão esquerdo do rato sobre o ponto e arrastando-o. Ou, se quiser eliminar o seu ponto, clique com o botão esquerdo do rato no ponto, ative o menu de contexto clicando com o botão direito do rato e, em seguida, clique no botão que se parece com um caixote do lixo. ![PointToolDelete][]{: height="24px"}  
 Um "ponto" criado no editor iD é na verdade um "nó" isolado com uma série de "etiquetas" nele.  
 
-### Desenhar Linhas  
+### Desenhar linhas  
 
 Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height="24px"}  
 
@@ -97,28 +97,28 @@ Para adicionar uma nova linha, clique no botão **Linha**. ![image4][]{: height=
 ![image24][]  
 - Tal como num ponto, selecione as etiquetas apropriadas para a linha desenhada.  
 - Pode arrastar os pontos da linha clicando com o botão esquerdo do rato num ponto e arrastando-o de seguida.  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- Quando clica com o botão esquerdo do rato num ponto individual (nó) da linha e clica com o botão direito do rato ou carrega na barra de espaços para ativar o menu de contexto, verá estas ferramentas:  
+  - Continuar a linha a partir deste ponto ![PointToolContinue][]{: height="24px"}  
+  - Desligar as linhas neste ponto ![PointToolDisconnect][]{: height="24px"}  
+  - Dividir uma linha em duas linhas neste ponto. ![PointToolSplit][]{: height="24px"}  
+  - Eliminar o ponto da linha. ![PointToolDelete][]{: height="24px"}  
 - Quando clica com o botão esquerdo do rato numa linha (mas não num ponto), irá ver estas ferramentas:  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  -   Criar um círculo a partir de uma linha (apenas ativo se a linha estiver fechada)) ![LineToolCircularize][]{: height="24px"}  
+  -   Desligar a linha de outros objetos ![LineToolDisconnect][]{: height="24px"}  
+  -   Mover a linha ![LineToolMove][]{: height="24px"}  
+  -   Esquadrar todos os cantos ![LineToolSquare][]{: height="24px"}  
+  -   Refletir a linha no seu eixo curto ![LineToolReflectShort][]{: height="24px"}  
+  -   Refletir a linha no seu eixo longo ![LineToolReflectLong][]{: height="24px"}  
+  -   Inverter a direção da linha (bom para rios e ruas de sentido único)) ![LineToolReverse][]{: height="24px"}  
+  -   Rodar a linha em torno do seu centro ![LineToolRotate][]{: height="24px"}  
+  -   Endireitar a linha ![LineToolStraighten][]{: height="24px"}  
+  -   Eliminar a linha. ![LineToolDelete][]{: height="24px"}  
 
 Uma "linha" criada no editor iD é na verdade uma "via" com "etiquetas" nela.
 
->Uma nota especial sobre **Eliminar**: Regra geral, deve evitar eliminar objetos que outras pessoas mapearam se estes apenas precisam de melhoramentos. Pode eliminar os seus próprios erros, mas deve tentar *ajustar* os objetos de outros mapeadores se estes precisarem de alterações. Isto preserva o histórico dos itens na base de dados do OpenStreetMap e é um sinal de respeito para com outros utilizadores. Se acha que algo deve ser eliminado, considere perguntar à pessoa que o fez ou numa das listas de email sobre isso primeiro.
+>Uma nota especial sobre **Eliminar**: regra geral, deve evitar eliminar objetos que outras pessoas mapearam se estes apenas precisam de melhoramentos. Pode eliminar os seus próprios erros, mas deve tentar *ajustar* os objetos de outros mapeadores se estes precisarem de alterações. Isto preserva o histórico dos itens na base de dados do OpenStreetMap e é um sinal de respeito para com outros utilizadores. Se acha que algo deve ser eliminado, considere perguntar à pessoa que o fez ou numa das listas de email sobre isso primeiro.
 
-### Desenhar Áreas (Polígonos)
+### Desenhar áreas (polígonos)
 
 Para adicionar uma área (forma geométrica com vários lados), clique no botão **Área**. ![image34][]{: height="24px"}  
 
@@ -129,7 +129,7 @@ Para adicionar uma área (forma geométrica com vários lados), clique no botão
 
 Um "polígono" no editor iD é na verdade uma "via fechada" com etiquetas nela.
 
-### Desenhar Multi-Polígonos
+### Desenhar multi-polígonos
 
 Por vezes tem de desenhar um polígono que não tem só um contorno exterior como também um interior. Um bom exemplo disso é um edifício com um pátio interior no meio ou lagos/albufeiras com ilhéus. *Não desenhe os contornos numa só linha* de forma a que os contornos de dentro estejam ligados aos de fora. Em vez disso desenhe estes contornos separadamente e adicione as etiquetas apenas ao contorno exterior, selecione todos os contornos e carregue na tecla **c** para as combinar no que chamamos de um multi-polígono.
 
@@ -139,32 +139,32 @@ Quando seleciona qualquer um dos contornos do multi-polígono acabado de criar, 
 
 ![part of multipolygon][]
 
-## Issues
+## Problemas
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+O editor faz uma série de verificações assim que edita algo. Se achar que o que fez pode causar problemas, notifica-o no separador de problemas. Sempre que o ícone de problemas, à direita, tiver um ponto amarelo (para avisos) ou vermelho (para erros), deve abrir o separador e ver o que é relatado. Esta informação também é apresentada no separador da caraterística do objeto, à esquerda, se o objeto relevante estiver selecionado. Também é avisado de que existem problemas não resolvidos quando carrega os seus dados. 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+A parte inferior do separador "Problemas" mostra as regras disponíveis e permite-lhe desativá-las individualmente, embora tal não seja recomendado.
 
-Gravar as Suas Alterações
+Guardar as suas alterações
 --------------------
 
-Quando (e se) quiser gravar as suas edições no OpenStreetMap, clique no botão **Gravar**. O painel à esquerda irá mostrar o painel de envio.  
+Quando (e se) quiser guardar as suas edições no OpenStreetMap, clique no botão **Guardar**. O painel à esquerda irá mostrar o painel de envio.  
 ![image36][]  
 
-- Introduza um comentário/sumário sobre as suas edições e clique em **Gravar**.  
+- Introduza um comentário / sumário sobre as suas edições e clique em **Guardar**.  
 
-> Se editou o mesmo elemento (ponto, linha ou área) ao mesmo tempo que outra pessoa estava a editá-lo, irá ver um aviso a indicar que as suas edições não poderão ser enviadas até que resolva os  **conflitos** - escolha as edições que quer manter e envie as suas alterações. *Muitas vezes, o resolver de conflitos implica que se aceite algumas edições de outras pessoas, e nesse caso irá provavelmente desejar voltar ao elemento em questão e editá-lo de novo (**desta vez grave mais cedo para evitar que aconteça um conflito de edições de novo!**).*
+> Se editou o mesmo elemento (ponto, linha ou área) ao mesmo tempo que outra pessoa estava a editá-lo, irá ver um aviso a indicar que as suas edições não poderão ser enviadas até que resolva os  **conflitos** - escolha as edições que quer manter e envie as suas alterações. *Muitas vezes, o resolver de conflitos implica que se aceite algumas edições de outras pessoas, e nesse caso irá provavelmente desejar voltar ao elemento em questão e editá-lo de novo (**desta vez guarde mais cedo para evitar que aconteça um conflito de edições de novo!**).*
 
-Informação Adicional e Etiquetas Personalizadas
+Informação adicional e etiquetas personalizadas
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+Quando estiver a editar um objeto, verá um menu "Adicionar campo" na parte inferior do painel de atributos. Pode acrescentar várias informações adicionais selecionando uma das entradas (camada, elevação, wikipedia, etc.).  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+Ou pode adicionar etiquetas personalizadas clicando em **Todas as etiquetas**. ![image44][]{: height="24px"}  
 
 - Isto irá mostrar todas as etiquetas que o elemento tem.  
 ![image45][]  
@@ -181,7 +181,7 @@ iD versus JOSM
 **o iD é bom para...**
 
 - Quando está a fazer edições simples  
-- Quando tem uma ligação à Internet rápida para carregar as imagens de satélite e gravar as edições  
+- Quando tem uma ligação à Internet rápida para carregar as imagens de satélite e guardar as edições  
 - Quando quer ter a certeza que quer seguir um esquema de etiquetas simples e consistente  
 - Quando não pode instalar um programa no computador que está a utilizar
 
@@ -189,7 +189,7 @@ iD versus JOSM
 
 - Quando está a adicionar muitos edifícios (ver o módulo buildings_tool / Ferramenta de Edifícios)
 - Quando está a editar muitos polígonos ou linhas que já existam
-- Quando tem uma ligação à Internet fraca / com falhas ou está desligado
+- Quando tem uma ligação à Internet fraca / com falhas ou está sem acesso a esta
 - Quando está a usar um esquema de etiquetas específico (ou modelos de etiquetas personalizados)
 
 [^fieldpaper]: Existe uma [secção no LearnOSM](/pt/mobile-mapping/field-papers/) que fornece mais informação sobre os Field Papers.

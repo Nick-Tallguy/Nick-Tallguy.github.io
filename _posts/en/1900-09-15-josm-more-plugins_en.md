@@ -43,6 +43,7 @@ You can also create more complicated buildings by first drawing several overlapp
 * Draw two buildings which over lap, so that they form an L shape.  
 * Select both buildings (hold SHIFT to select more than one object).  
 * Go to Tools->Join overlapping Areas or press SHIFT+J on your keyboard.  
+* Make sure that the combined building is still squared by pressing Q and remove superfluous nodes by pressing SHIFT+Y (simplify). If you combine a building from several shapes you will not be able to draw them at exact right angles.
 
 ![Merge buildings][]
 

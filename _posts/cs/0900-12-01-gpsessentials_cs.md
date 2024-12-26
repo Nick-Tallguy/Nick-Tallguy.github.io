@@ -128,53 +128,53 @@ Přidání lokace k fotkám
 
 3. Vyfotografovaná fotografie bude sloužit jako waypoint a bude automaticky uložena na stránce Přenosné mapy a Mapy Google.
 
-4.  The data (picture location and the photo file name) will also be logged on the Waypoints page. You may also choose which icon to be used for a particular image. The icon will be shown on the Portable Maps and Google Maps page as well.
+4. Data (místo snímku a název souboru s fotografií) budou rovněž zaznamenány na stránce Waypoints. Můžete také zvolit, která ikona má být použita pro konkrétní snímek. Ikona se zobrazí také na stránce Přenosné mapy a Mapy Google.
 
 Uložené fotky
 -------------
 
-All your pictures are in the folder com.mictale.images on your SD card. You can delete pictures from this folder and you can even add new ones. GPS Essentials scans this folder regularly to see what’s new.
+Všechny obrázky jsou ve složce com.mictale.images na kartě SD. Obrázky z této složky můžete mazat a můžete do ní i přidávat nové. Program GPS Essentials tuto složku pravidelně skenuje a zjišťuje, co je v ní nového.
 
 Export/Ukládání výchozích bodů
 -------------
 
-1.  From the main menu, select Waypoints. It will show you the list of waypoints you recorded.
+1. V hlavní nabídce vyberte možnost Waypoints. Zobrazí se seznam zaznamenaných bodů trasy.
 
-2.  To export all the waypoints, select Export from the Options button. If you want to export a single waypoint, select the desired waypoint, click the Options button and select Export.
+2. Chcete-li exportovat všechny body trasy, vyberte možnost Exportovat z tlačítka Možnosti. Chcete-li exportovat jeden bod cesty, vyberte požadovaný bod cesty, klikněte na tlačítko Options (Možnosti) a vyberte Export (Exportovat).
 
-3.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
+3. V rozevíracím seznamu si můžete vybrat typ souboru, do kterého chcete data exportovat. Prozatím klikněte na KML (Google Earth).
 
     ![Export file format][]
 
-4.  Select the SD card icon to manually select your desired location of the file.
+4. Vyberte ikonu karty SD a ručně vyberte požadované umístění souboru.
 
     ![Export to SD card][]
 
-5.  Click this icon to Save.
+5. Klikněte na tuto ikonu a uložte.
 
     ![Arrow][]
 
 Export/Ukládání tras
 -------------
 
-1.  From the main menu, select Tracks. It shows the data from the current track you recorded.
+1. V hlavní nabídce vyberte možnost Stopy. Zobrazí se data z aktuální nahrané stopy.
 
-2.  Select Export from the Options button to write the contents of the current track to a file.
+2. Chcete-li obsah aktuální stopy zapsat do souboru, zvolte tlačítko Exportovat.
 
-3.  If you want to export the previous track you recorded, select Tracks icon and choose the desired track. Click the Options button and select Export. The Tracks icon looks like this:
+3. Pokud chcete exportovat předchozí nahranou stopu, vyberte ikonu Stopy a zvolte požadovanou stopu. Klikněte na tlačítko Options a vyberte možnost Export. Ikona Tracks vypadá následovně:
 
     ![Footprints][]
 
 
-4.  The dropdown box will let you select what type of file you want your data to be exported. For now, click KML (Google Earth).
+4. V rozevíracím seznamu si můžete vybrat typ souboru, do kterého chcete data exportovat. Prozatím klikněte na KML (Google Earth).
 
     ![Export1][]
 
-5.  Select the SD card icon to manually select your desired location of the file.
+5. Vyberte ikonu karty SD a ručně vyberte požadované místo souboru.
 
     ![Export3][]
 
-6.  Click this icon to Save.
+6. Klikněte na tuto ikonu a uložte.
 
     ![Arrow][]
 

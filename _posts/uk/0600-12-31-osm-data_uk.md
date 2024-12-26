@@ -2,16 +2,16 @@
 layout: doc
 permalink: /uk/osm-data/
 lang: uk
-title: OSM Data
+title: Дані OSM
 category: osm-data
 cover: yes
 nosearch: true
 ---
 
-OpenStreetMap Data
+Дані OpenStreetMap
 ==================
 
-OpenStreetMap is a massive database of geographic data, and it's all open and free. But how do you access the data? In this section we'll discuss in greater detail how OSM data is organized, and how you can access and use the data that you are interested in.  
+OpenStreetMap — це величезна база даних географічних даних, і всі вони є відкритими та безкоштовними. Але як отримати доступ до даних? У цьому розділі ми більш детально обговоримо, як організовані дані OSM і як ви можете отримати доступ до даних, які вас цікавлять, і як їх використовувати.  
 
 <!--
 We'll cover:

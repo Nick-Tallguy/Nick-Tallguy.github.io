@@ -9,9 +9,9 @@ category: beginner
 Додаткова інформація
 ===============
 
-> Reviewed 2020-05-08  
+> Редакція 2020-05-08  
 
-Якщо ви дійшли до цього розділу – прийміть наші привітання! Тепер у вас є достатньо чітке уявлення про те, як створюється мапа OpenStreetMap. Що ж ще можна робити з OSM? Як дізнатися більше? Як залишатися на зв’язку зі спільнотою, іншими маперами?  
+Якщо ви дійшли до цього розділу – прийміть наші привітання! Тепер у вас є достатньо чітке уявлення про те, як створюється мапа OpenStreetMap. Що ж ще можна робити з OSM? Як дізнатися більше? Як залишатися на зв’язку зі спільнотою, іншими маперами?  
 
 Інші розділи LearnOSM
 ---------------------------
@@ -56,15 +56,15 @@ OpenStreetMap - це спільні зусилля, і ми сподіваємо
 - Отже, коли вам треба надіслати повідомлення до списку розсилки, надішліть його на адресу [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), замінюючи “id” на потрібну вам країну. Ви будете також отримувати листи, коли інші будуть писати до списку розсилки.  
 
 
-Example of OSM use - MyOSMatic
+Приклад використання OSM – MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+Одним з таких проєктів є MyOSMatic, який знаходиться за адресою [print.get-map.org](https://print.get-map.org/). Це простий інструмент для друку мапи будь-якого міста, яке ви виберете. Він автоматично створить мапу разом із сіткою та покажчиком місць, включених до неї.
 
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+Докладніше про інші варіанти використання даних OpenStreetMap дивіться в [розділі Дані OpenStreetMap у LearnOSM](/uk/osm-data/)
 
 
 Підсумки

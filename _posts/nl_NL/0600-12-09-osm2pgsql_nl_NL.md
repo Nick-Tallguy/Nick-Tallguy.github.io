@@ -17,7 +17,7 @@ We zullen door de stappen gaan die nodig zijn om osm2pgsql op Windows in te stel
 osm2pgsql ophalen
 -------------
 
-Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowser naar <http://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
+Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowser naar <https://wiki.openstreetmap.org/wiki/Osm2pgsql#Windows>.  
 
 ![windows binary][]
 
@@ -68,7 +68,7 @@ Navigeer, om de versie voor Windows van osm2pgsql te downloaden, in uw webbrowse
 
 Ruwe gegevens van OSM ophalen
 ---------------------
-Vóór we **osm2pgsql** kunnen uitvoeren hebben we enige ruwe gegevens van OSM nodig om in een database te importeren. Als u nog geen **.osm**-bestand heeft dat u kunt gebruiken, probeer dan een bestand te downloaden van <https://mapzen.com/data/metro-extracts/>. Deze site host veel extracten uit OSM voor verschillende steden. Zoek een stad om te importeren en download het PBF-bestand daarvoor. PBF-bestanden zijn gecomprimeerde versies van de normale **.osm**-bestanden. U kunt elk van de services voor extracten gebruiken die zijn vermeld in het hoofdstuk over [Gegevens van OSM ophalen](/nl_NL/osm-data/getting-data), als u de ruwe gegevens voor een ander gebied zou willen hebben.  
+Vóór we **osm2pgsql** kunnen uitvoeren hebben we enige ruwe gegevens van OSM nodig om in een database te importeren. Als u nog geen **.osm**-bestand heeft dat u kunt gebruiken, probeer dan een bestand te downloaden van <https://download.bbbike.org/osm/bbbike/>. Deze site host veel extracten uit OSM voor verschillende steden. Zoek een stad om te importeren en download het PBF-bestand daarvoor. PBF-bestanden zijn gecomprimeerde versies van de normale **.osm**-bestanden. U kunt elk van de services voor extracten gebruiken die zijn vermeld in het hoofdstuk over [Gegevens van OSM ophalen](/nl_NL/osm-data/getting-data), als u de ruwe gegevens voor een ander gebied zou willen hebben.  
 
 Het Style-bestand ophalen
 ------------------
@@ -125,17 +125,16 @@ We kunnen testen of de import met succes is voltooid en de gegevens in onze data
 
 ![osm in qgis][]
 
-> Als u kijkt naar de attributentabellen van de lagen, zult u de attributen zien die zijn verbonden met tags van OSM. De specifieke tags die worden geïmporteerd zijn gedefinieerd gedurende het proces van importeren van **osm2pgsql**. Om specifieke tags, die niet standaard zijn opgenomen, toe te voegen, kunt u het *style*-bestand bewerken waarnaar osm2pgsql verwijst om het gegevensschema te definiëren.  
 
 
 Samenvatting
 -------
 
-Wanneer u gegevens van OpenStreetMap wilt importeren in uw eigen database, is **osm2pgsql** is een fantastisch gereedschap. Het kan bijzonder nuttig zijn wanneer u de meest up-to-date gegevens van OSM wilt hebben en de attributen wilt aanpassen die u wilt, of bij het werken aan meer complexe projecten.  
+Wanneer u gegevens van OpenStreetMap wilt importeren in uw eigen database, is **osm2pgsql** een fantastisch gereedschap. Het kan bijzonder nuttig zijn wanneer u de meest up-to-date gegevens van OSM wilt hebben en de attributen wilt aanpassen die u wilt, of bij het werken aan meer complexe projecten.  
 
 Een ander gereedschap voor importeren dat recent is ontwikkeld, is genaamd [imposm](http://imposm.org/), en biedt enkele verbeteringen op het gebied van snelheid en andere boven osm2pgsql, hoewel het op het moment van schrijven andere sleutelfuncties ontbeert, die werden beloofd in imposm versie 3.  
 
-Voor meer informatie over osm2pgsql, bekijk de wiki van OSM - <http://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
+Voor meer informatie over osm2pgsql, bekijk de wiki van OSM - <https://wiki.openstreetmap.org/wiki/Osm2pgsql>.  
 
 
 [windows binary]: /images/osm-data/windows-binary.png

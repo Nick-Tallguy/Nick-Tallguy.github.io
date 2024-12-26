@@ -9,9 +9,9 @@ category: beginner
 iD 編輯器
 =============
 
-> Reviewed 2019-06-10
+>  2019-06-10 審閲
 
-你要用任務管理器為 HOT 或是 MissingMaps 等專案開始畫地圖嗎？請見我們的[HOT-技巧區](/en/hot-tips/)。  
+你要用任務管理器為 HOT 或是 MissingMaps 等專案開始畫地圖嗎？請見我們的[HOT-技巧區](/zh_TW/hot-tips/)。  
 
 - TOC
 {:toc}
@@ -44,22 +44,22 @@ iD 編輯器使用者界面
     繪製形狀 (多邊形)，*快速鍵* **3** ![image5][]{: height="24px"}  
     復原，*快速鍵* **Ctrl+z** ![image6][]{: height="24px"}  
     取消復原，*快速鍵* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+    儲存變動，*快速鍵* **Ctrl+s** ![image8][]{: height="32px"}  
 3. **地圖面板：**這個面板顯示多個設定選項：  
     放大，*快速鍵* **+** ![image9][]{: height="24px"}  
     縮小，*快速鍵* **-** ![image10][]{: height="24px"}  
     顯示你的位置 ![image11][]{: height="24px"}  
     背景圖像設定，*快速鍵* **b** ![image12][]{: height="24px"}  
     地圖圖資，*快速鍵* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
+    問題，*快捷鍵* **i** ![Issues][]{: height="24px"}  
     開啟說明文件，*快速鍵* **h** ![image13][]{: height="24px"}  
 4. **資訊面板：** 這個面板顯示多項資訊，像是比例尺和那些使用者在這一帶貢獻。  
 
-## Configuring the Background Layer
+##設定背景圖層
 
 點選**背景圖像設定**按鈕，或是使用*快速鍵* **b** ![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+你可以**改變背景圖層""來選擇你想要的圖磚提供商 (預設是 Bing 空照影像)。  
 
 你可以按**客製化**新增你自己的地圖圖磚。舉例來說，如果你想要**新增 Field Paper** [^fieldpaper]，點選**客製化**，接著按放大鏡 (搜尋) 圖示開啟視窗 :-  
 ![image17][]   
@@ -67,9 +67,9 @@ You can **change the background layer** based on your desired tile provider (the
 要**顯示你電腦中的 GPS 軌跡** (GPX 格式)，拖拉你的 GPS 檔案到 iD 編輯器裡。  
 要啟用 **開放街圖 GPS 軌跡**，請點選方框。下面的圖片中，公共的 GPS 軌跡用不同顏色顯示，表示旅行的方向。  
 ![osm gps traces][]  
-To change the **appearance of the imagery** click **Display Options**.  
+要改變**影像外觀**請點選**顯示選項**。  
 ![DisplayOptions][]  
-If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the imagery offset** by clicking **Adjust imagery offset**.  
+如果{影像偏移}(/zh_TW/josm/aerial-imagery)，你可以藉由點選**調整影像偏移****校正影像偏移**。  
 ![image18][]  
 
 - 按位移按鈕移動影像。按重設鍵回到原先的位置。![image20][]  
@@ -86,7 +86,7 @@ If there is [imagery offset](/en/josm/aerial-imagery), you can **correct the ima
 - 注意你加了新點了。同時在左邊面板會變成能夠填寫物件詳細資訊的表格型式。點**醫院用地**能夠將節點標示為醫院。  
 ![image22][]  
 - 你可以用表格來填寫你的節點詳細資訊。你可以填寫醫院名稱、地址、和/或其他附加資訊。注意每一個圖徵會有不同選項，端示選了圖徵面板中那個標籤。  
-- If you make a mistake, such as a wrong location, you can move your point to a new location by holding the left mouse button on your point and dragging it. Or, if you want to delete your point, click the left mouse button on the point, activate the context menu by clicking with the right mouse button and then click the button which looks like a trashcan. ![PointToolDelete][]{: height="24px"}  
+- 如果你做錯了，像是標錯位置，你可以按住滑鼠左鍵將點拖移到新的位置。或者是你可希望刪除點，請在點按滑鼠左鍵，然後按滑鼠左鍵啟動內容清單，按著點像是垃圾筒的圖示。![PointToolDelete][]{: height="24px"}  
 iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點」。  
 
 ### 繪製線條  
@@ -97,22 +97,22 @@ iD 編輯器的「點」其他是上面有特定「標籤』的獨立「節點�
 ![image24][]  
 - 就像是加點，選擇對線段最適合的標籤。  
 - 你可以藉由用左鍵按線段的點，來拖拉線段的點。  
-- When you click your left mouse button on an individual point (node) on the line and either click on the right mouse button or hit the space bar to activate the context menu, you will see these tools:  
-  - Continue line from this point ![PointToolContinue][]{: height="24px"}  
-  - Disconnect lines at this point ![PointToolDisconnect][]{: height="24px"}  
-  - Split a line into two lines at this point. ![PointToolSplit][]{: height="24px"}  
-  - Delete point from line. ![PointToolDelete][]{: height="24px"}  
+- 當你對著單獨在線段的節點點滑鼠左鍵，或者點滑鼠右鍵或是按空白鍵啟動內容選單，你會看到以下工具：  
+  - 從這節點繼續這一線段 ![PointToolContinue][]{: height="24px"}  
+  - 從此節點分離線段 ![PointToolDisconnect][]{: height="24px"}  
+  - 從此節點分割為兩個線段。 ![PointToolSplit][]{: height="24px"}  
+  - 刪除線段上的點。[PointToolDelete][]{: height="24px"}  
 - 當你對著線段按滑鼠左鍵(但不是在點上)，你會看到這些工具：  
-  -   Create a circle from a line (only active if the line is closed) ![LineToolCircularize][]{: height="24px"}  
-  -   Disconnect line from other objects ![LineToolDisconnect][]{: height="24px"}  
-  -   Move line ![LineToolMove][]{: height="24px"}  
-  -   Square all corners ![LineToolSquare][]{: height="24px"}  
-  -   Reflect the line across its short axis ![LineToolReflectShort][]{: height="24px"}  
-  -   Reflect the line across its long axis ![LineToolReflectLong][]{: height="24px"}  
-  -   Reverse line direction (good for rivers & one-way streets) ![LineToolReverse][]{: height="24px"}  
-  -   Rotate the line around its centre ![LineToolRotate][]{: height="24px"}  
-  -   Straighten the line ![LineToolStraighten][]{: height="24px"}  
-  -   Delete line. ![LineToolDelete][]{: height="24px"}  
+  - 從線段新增圓圈 (只有在線段封閉時才有作用) ![LineToolCircularize][]{: height="24px"}  
+  - 從別的物件分離線段 ![LineToolDisconnect][]{: height="24px"}  
+  - 移動線段 ![LineToolMove][]{: height="24px"}  
+  - 方角化所有角落 ![LineToolSquare][]{: height="24px"}  
+  - 從短軸來映射線段 ![LineToolReflectShort][]{: height="24px"}  
+  - 從長軸來映射線段 ![LineToolReflectLong][]{: height="24px"}  
+  反轉線段方向 (通常用在河流和單行道) ![LineToolReverse][]{: height="24px"}  
+  - 從中心旋轉線段 ![LineToolRotate][]{: height="24px"}  
+  - 拉直線段 ![LineToolStraighten][]{: height="24px"}  
+  - 刪除線段。![LineToolDelete][]{: height="24px"}  
 
 iD 編輯器的「線」通常是上面有標籤的「線段」。
 
@@ -139,13 +139,13 @@ iD 編輯器的「線」通常是上面有標籤的「線段」。
 
 ![多重多邊形部分][]
 
-## Issues
+## 問題
 
-The editor performs a number of checks as soon as you edit something. If it thinks that what you did might cause problems it notifies you in the issues tab. Whenever the issues icon on the right carries either a yellow (for warnings) or red (for errors) dot you should open the tab and see what it reports. This information is also displayed in the object feature tab on the left if the relevant object is selected. You are also warned that there are unresolved issues when you upload your data. 
+編輯器允許你編輯進行下進行一些檢查，例如說通知你有檢查到可能造成問題的編輯。當右側問題圖示出現時，可能是出現黃色 (警告)，或是紅色 (錯誤)，可以點進去各別看狀況。這些資訊如果有選到相關的物件，同時也會顯示在左側物件圖徵頁籤。你上傳資料的時候也同時被通知有未解決的問題。 
 
 ![Issue][] ![Error][]
 
-The lower part of the issues tab show the available rules and allows you to disable them individually though this is not recommended.
+問題選單的下半部顯示目前可用的規則，以及儘管不建議釓可以允許你各個關閉。
 
 儲存您的編輯
 --------------------
@@ -160,11 +160,11 @@ The lower part of the issues tab show the available rules and allows you to disa
 額外資訊及自定義標籤
 ---------------------------------------
 
-When you are editing an object, you will see an "Add field" menu at the bottom of the attribute panel. You can add various additional information by selecting one of the entries (layer, elevation, wikipedia etc.).  
+當你編輯物件時，你會在選單底部看到"新增欄位"，你可以藉由選擇其中的輸入值 (圖層、海拔、維基百科等)新增額外的資訊。  
 
 ![AdditionalTags][]
 
-Or you can add custom tags by clicking **All tags**. ![image44][]{: height="24px"}  
+或者你藉由按**所有標籤**可新增客製化標籤。![image44][]{: height="24px"}  
 
 - 這樣會顯示所有跟圖徵相關的標籤。  
 ![image45][]  

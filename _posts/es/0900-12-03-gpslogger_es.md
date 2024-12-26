@@ -9,33 +9,32 @@ category: mobile-mapping
 GPSLogger para Android
 =====================
 
-> Revisado 2015-12-06  
 
 ![GPSLogger][]
 
-Una aplicación sencilla y ligera para grabar trazas GPS en la plataforma Android. La interfaz es sencilla y tiene el único propósito de loggear la posición GPS y mantener una baja actividad la hace muy eficiente respecto al uso de batería que puede grabar trazas en formatos de archivo GPX, KML, NEMA o en formato de texto. Los archivos de los logs pueden ser subidos automáticamente a OpenStreetMap, a un servidor OpenGTS, DropBox, a un servidor FTP, a un servidor HTTP o enviados por correo electrónico.  
+Una aplicación simple, ligera y minimalista para grabar trazas GPS en la plataforma Android. La interfaz fácil de usar con el único propósito de registrar GPS y permanecer en silencio la convierte en una aplicación muy eficiente en cuanto a batería que puede guardar rutas GPS en formatos de archivo GPX, KML, NEMA o texto. Los archivos de registro se pueden subir automáticamente a OpenStreetMap, un servidor OpenGTS, DropBox, servidor FTP, servidor HTTP o enviar a una dirección de correo electrónico.  
 
-<https://play.google.com/store/apps/details?id=com.mendhak.gpslogger&hl=en>  
+<https://f-droid.org/es/packages/com.mendhak.gpslogger/>  
 
-GPSLogger para Android es una aplicación gratuita, así como un proyecto de código abierto mantenido activamente. Las donaciones son bienvenidas para mejorar la aplicación. Si deseas involucrarte (por ejemplo, proporcionando traducciones en otra lengua, reportando bugs, o enviando solicitudes de nuevas funciones), visita el repositorio (https://github.com/mendhak/gpslogger).  
+GPSLogger para Android es una aplicación de uso gratuito y un proyecto de código abierto mantenido activamente. Se agradecen las donaciones para mejorar aún más la aplicación. Si deseas participar (por ejemplo, proporcionando traducciones a otro idioma, informando de errores o enviando solicitudes de funciones), visita el [repositorio](https://github.com/mendhak/gpslogger).  
 
-> OpenGTS se refiere al proyecto [Open GPS Tracking System](http://opengts.sourceforge.net/) project.  
+> OpenGTS se refiere al proyecto [Open GPS Tracking System](http://opengts.sourceforge.net/)  
 
 
-Funcionalidades
+Características
 --------  
 
-* Especificar el loggeo basado en intervalos de tiempo o distancia  
-* Especificar las configuraciones de ahorro de batería  
-* Filtro de exactitud GPS para no loggear puntos poco fiables  
-* Seleccionar wifi, torre de celular y/o satélites GPS como fuente de información de ubicación  
-* Registrar en archivos en formato GPX, KML, CSV, TXT o NMEA con soporte para ZIP  
-* Mostrar valores en unidades métricas o imperiales  
-* Inicio automático al encender  
-* Puede seguir ejecutándose en segundo plano  
-* Trabaja bien con otras aplicaciones GPS ejecutandose  
-* Envío automático a email/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS a intervalos definidos por el usuario  
-* Es fácil preconfigurar archivos de texto de configuración para distribución a muchos usuarios  
+* Especifica el registro basado en intervalos de tiempo o distancia  
+* Configuraciones específicas de ahorro de batería  
+* Filtro de precisión GPS para no registrar puntos poco fiables  
+* Selecciona wifi, torre de telefonía móvil y/o satélites GPS como fuente de información de ubicación  
+* Registra en archivos GPX, KML, CSV, TXT o NMEA con soporte ZIP  
+* Unidades de visualización imperiales o métricas  
+* Inicio automático al arrancar  
+* Puede ejecutarse en segundo plano  
+* Funciona bien con otras aplicaciones GPS en ejecución  
+* Envío automático a correo electrónico/FTP/DropBox/Google Docs/OpenStreetMap/OpenGTS a intervalos definidos por el usuario  
+* Facilidad para preconfigurar archivos de configuración de texto para su distribución a muchos usuarios  
 
 
 Interfaz de usuario
@@ -43,37 +42,37 @@ Interfaz de usuario
 
 ![Canvass1][]
 
-El botón de **Menu** provee más opciones para configurar la aplicación.  
-El **menú desplegable Vistas** le permite seleccionar cómo se despliega la información en pantalla.   
-El botón de **Ayuda** provee información adicional acerca de cómo usar la aplicación.  
-El botón **Anotar** permite añadir una descripción a un punto.  
-El botón **Registrar un punto** permite registrar manualmente un punto.  
-**Subir** te permite elegir de una serie de opciones para subir tu archivo log. Esto incluye una opción para auto-enviar a cualquiera de los siguientes:  
+El botón **Menú** proporciona más opciones para configurar la aplicación.  
+El **desplegable Vistas** te permite elegir cómo se muestra la información en la pantalla.  
+El botón **Ayuda** proporciona información adicional sobre cómo usar la aplicación.  
+El botón **Anotar** te permite añadir una descripción a un punto.  
+El botón **Registrar un punto** te permite registrar manualmente un punto de referencia.  
+**Subir** te permite elegir entre una variedad de opciones para subir tu archivo de registro. Esto incluye una opción para enviar automáticamente a cualquiera de los siguientes:  
 
 - OpenStreetMap,  
 - Google Drive,  
 - DropBox,  
 - un servidor FTP,  
 - un servidor OpenGTS o  
-- enviar el log a una dirección de correo electrónico.  
+- enviar el registro a una dirección de correo electrónico.  
 
-El botón **Compartir** le permite elegir uno o más archivos de logs para compartir con otras personas vía Bluetooth o SMS. Dependiendo de qué aplicaciones tenga instaladas en su dispositivo, podría tener diferentes alternativas adicionales disponibles.  
+El botón **Compartir** te permite elegir uno o más archivos de registro que puedes compartir con otras personas a través de Bluetooth o SMS. Dependiendo de las aplicaciones que estén instaladas en tu dispositivo, es posible que tengas diferentes opciones disponibles.  
 
 
 ![Canvass2][]
 
-El botón **Iniciar registro** está en azul. Cuando presionas este botón para comenzar a grabar, se convierte a un botón verde.  
-El botón **Coordenadas** despliega el último punto GPS grabado y se actualiza cuando unas nuevas coordenadas están disponibles.   
-El icono **Satelites** le mostrará cuántos satélites tiene en vista.  
+El botón **Iniciar registro** está en azul. Cuando pulsas este botón para iniciar la grabación, se convierte en un botón verde.  
+Las **Coordenadas** muestran el último punto GPS registrado y se actualizan cuando hay nuevas coordenadas disponibles.  
+El ícono **Satélites** te mostrará a cuántos satélites estás conectado.  
 La **Elevación** muestra los datos de elevación.  
 La **Duración** muestra el tiempo total transcurrido desde que se pulsó el botón de inicio.  
 La **Distancia** mostrará la distancia total registrada.  
-Los **Tipos de archivo** indican qué tipo de registros se está generando mientras que la **Ruta del archivo** le dice a donde está ubicado el archivo en su dispositivo o tarjeta de memoria.  
-El indicador de **Estado** se mostrará en verde cuando está grabando, mientras se muestra una ruleta cuando el dispositivo está tratando de conseguir la ubicación.  
-La **Precisión** mostrará la exactitud de los datos registrados, que varía entre receptores, la posición o el número de satélites disponibles, condiciones climáticas, o las obstrucciones del horizonte.  
-El **Rodamiento** le indica la dirección en la que se está moviendo.  
-La **Velocidad** le dará información aproximada de lo rápido que va.  
-**Puntos registrados** mostrará el número total de puntos grabados desde el momento en que se pulsó el botón de inicio.  
+Los **Tipos de archivo** indican qué tipo de registros se están generando, mientras que la **Ruta del archivo** te indica dónde se encuentra la ubicación del archivo en tu dispositivo o tarjeta de memoria.  
+El indicador de **Estado** se mostrará en verde cuando esté grabando, mientras que se mostrará un indicador giratorio cuando el dispositivo esté intentando obtener una corrección.  
+La **Precisión** mostrará la precisión de los datos registrados, que varía entre los receptores, la posición o el número de satélites disponibles, las condiciones meteorológicas o las obstrucciones del horizonte.  
+El **Rumbo** te indica la dirección en la que te estás moviendo.  
+La **Velocidad** te dará información aproximada de la velocidad a la que vas.  
+**Puntos registrados** mostrará el número total de puntos registrados desde que se pulsó el botón de inicio.  
 
 
 Menús
@@ -81,174 +80,174 @@ Menús
 
 ![Menus][]
 
-Las **Opciones generales** es dónde encontrará los ajustes para *Iniciar con el arranque*, *unidad de medida* (métrico o imperial), *archivo de depuración* y *información de la versión*.  
+Las **Opciones generales** son donde se encuentran los ajustes para *Iniciar al arrancar*, *unidad de medida* (métrica o imperial), *archivo de depuración* e *información de la versión*.  
 
 ![Menus1][]
 
-El **Detalles del registro** es dónde encontrará los ajustes *Formatos de archivo* (múltiples formatos soportados simultáneamente), ruta de *carpeta* donde almacenar los registros, las reglas sobre la *creación de nuevos archivos* y el *nombre de archivo personalizado*.  
+Los **Detalles de registro** son donde se encuentran los ajustes de *Formatos de archivo* (se admiten varios formatos simultáneamente), la ruta de la *carpeta* para almacenar los registros, las reglas sobre la *creación de nuevos archivos* y el *nombre de archivo personalizado*.  
 
 ![Menus2][]
 
 ![Menus3][]
 
-Bajo **Rendimiento** están los ajustes de *proveedores de ubicación*, *tiempos*, *filtros* y *oyentes*. La opción de proveedor de ubicación le permite establecer las fuentes de los datos de localización: **GPS** - satélites de navegación; **Red** - torre celular; **Pasivo** - le  permite a GPSLogger "pedir prestada" las coordenadas de ubicación que otra aplicación ha solicitado, para ahorrar batería al no realizar su propia solicitud.  
+En **Rendimiento** es donde se encuentran los ajustes para los *proveedores de ubicación*, *tiempos*, *filtros* y *oyentes*. La opción de proveedor de ubicación te permite configurar las fuentes de los datos de ubicación: **GPS** - satélites de navegación; **Red** - torre de telefonía móvil; **Pasivo** - permite a GPSLogger "tomar prestadas" las coordenadas de ubicación que ha solicitado otra aplicación, para ahorrar batería al no realizar la solicitud por sí mismo.  
 
 ![Menus4][]
 
 ![Menus5][]
 
-** Envío automático, correo electrónico y subida** es donde se encuentran los ajustes para las distintas opciones de carga como OpenStreetMap, Google Drive, FTP, Dropbox.  
+**Envío automático, correo electrónico y subida** es donde se encuentran los ajustes para varias opciones de subida como OpenStreetMap, Google Drive, FTP, Dropbox.  
 
 ![Menus6][]
 
-Cargar trazas GPS es otra forma de contribuir datos para el proyecto OpenStreetMap. La traza es un registro de su ubicación en diferentes intervalos de tiempo o de distancia, y se registrará como coordenadas geográficas (longitud, latitud, altitud). Pueden ser utilizados como capa de fondo durante la edición de mapas, y es útil para la añadir elementos al mapa, similar a las imágenes aéreas.  
+Subir trazas GPS es otra forma de contribuir con datos al proyecto OpenStreetMap. Una traza es un registro de tu ubicación a varios intervalos de tiempo o distancia, y se registra como coordenadas geográficas (longitud, latitud, altitud). Se pueden utilizar como capa de fondo al editar mapas y son útiles para añadir elementos al mapa, de forma similar a las imágenes aéreas.  
 
 #### Opciones de OpenStreetMap
 
 ![osm0][]
 
-El ajuste **Permitir auto envío** determina si los archivos de registro se cargan automáticamente.  
-**Autorizar esta aplicación** es para conceder permiso a la aplicación para cargar trazas GPS a OSM, utilizando su cuenta de OSM.  
-Las opciones **Visibilidad**, **Descripción**, **Etiquetas** están desactivadas hasta que autorice la aplicación para cargar trazas GPS. Estos parámetros se utilizan para las trazas de GPS que se cargarán en la base de datos de OpenStreetMap.  
-Al hacer clic en el *Autorizar esta aplicación*, se le dirigirá a su navegador de Internet y el sitio web de OpenStreetMap. Si no tiene sesión iniciada, se le pedirá las credenciales.  
+La configuración de **Permitir el envío automático** determina si los archivos de registro se suben automáticamente.  
+**Autorizar esta aplicación** sirve para conceder a la aplicación permiso para subir trazas GPS a OSM, utilizando tu cuenta OSM.  
+Las opciones de **Visibilidad**, **Descripción**, **Etiquetas** están desactivadas hasta que autorices a la aplicación a subir trazas GPS. Estos ajustes se utilizan para las trazas GPS que se subirán a la base de datos de OpenStreetMap.  
+Cuando hagas clic en *Autorizar esta aplicación*, se te dirigirá a tu navegador de Internet y al sitio web de OpenStreetMap. Si no has iniciado sesión, se te pedirán tus credenciales.  
 
 ![osm2][]
 
-Después de iniciar sesión, verá una página como la siguiente, para verificar la solicitud de la aplicación, y el permiso específico para *subir trazas GPS*. Haga clic en el botón *Guardar cambios* para autorizar la aplicación.  
+Después de iniciar sesión, verás una página como la que se muestra a continuación, para verificar la solicitud de la aplicación y el permiso específico para *subir trazas GPS*. Haz clic en el botón *Guardar cambios* para autorizar la aplicación.  
 
 ![osm3][]
 
-Al volver a la aplicación GPSLogger, la pantalla será ligeramente diferente, con opciones adicionales disponibles.
+De vuelta a la aplicación GPSLogger, la pantalla será ligeramente diferente, con opciones adicionales disponibles.
 
 ![osm1][]
 
-Al hacer clic en la opción **Revocar autorización** eliminará el permiso para subir trazas GPS al servidor de OSM.  
+Al hacer clic en la opción **Borrar autorización** se eliminará el permiso para subir trazas GPS al servidor OSM.  
 
-Hay varias opciones de *visibilidad* para las trazas GPS.  Las trazas *Privado* son compartidas como anónimo, con puntos desordenados. Las trazas *Público* son mostrados en la lista de trazas, como anónimo y puntos desordenados. Las trazas "Rastreable" son compartidas como anónimo, con marcas de tiempo y puntos ordenados. Las trazas "Identificable" son mostradas en la lista de trazas y pueden ser asociadas con su nombre de usuario, con marcas de tiempo para puntos ordenados.  
+Hay varias opciones de *visibilidad* para las trazas GPS. Las trazas *Privadas* se comparten de forma anónima, con puntos desordenados. Las trazas *Públicas* se muestran en el listado de trazas y como puntos anónimos y desordenados. Las trazas *Rastreables* se comparten de forma anónima, con marcas de tiempo para los puntos ordenados. Las trazas *Identificables* se muestran en la lista de trazas y se pueden asociar a tu nombre de usuario, con marcas de tiempo para los puntos ordenados.  
 
-Se recomienda configurar la visibilidad de las trazas GPS subidas hasta *identificable*. Los datos y metadatos hacen que sea más útil para otros cartógrafos. Si tiene preocupaciones acerca de la privacidad y la seguridad personal, elija una configuración más adecuada, o no cargue las trazas en absoluto.  
+Se recomienda que establezcas la visibilidad de las trazas GPS que subas como *identificables*. Los datos y metadatos la hacen más útil para otros mapeadores. Si te preocupa la privacidad y la seguridad personal, elige una configuración más adecuada o no subas las trazas en absoluto.  
 
-Un texto *descripción* ayuda a otros a entender cómo se registra una traza. La traza grabada en pie no será similar a una traza grabada por un avión no tripulado.  
+Una *descripción* de texto ayuda a otros a entender cómo se registra una traza. Una traza registrada a pie no será similar a una traza registrada por un dron.  
 
-Una *etiqueta* es la palabra clave corta que se puede utilizar para asociar una traza con los proyectos, lugares o eventos.  
+Una *etiqueta* es una palabra clave corta que se puede utilizar para asociar una traza con proyectos, lugares o eventos.  
 
 
-Colección de Datos
+Recopilación de datos
 ---------------
 
-### Recogida y carga de rutas GPS automatizada
+### Recopilación y subida automatizadas de rutas GPS
 
-Una vez configurado correctamente, la aplicación puede ejecutarse en segundo plano y automáticamente grabar pistas y subirlas una vez al día a cualquiera de sus servicios configurados. Esto permitiría la recogida automatizada de pistas de conducción diaria para ayudar a construir una colección de carretera y los datos de tiempo de viaje para el mapeo o análisis posterior. Una vez configurada la persona que tiene el teléfono u otro dispositivo Android debe notar un poqueño impacto en el uso de la batería y no tendrá que hacer nada manualmente. Se necesitará un poco de experimentación para encontrar el equilibrio adecuado de uso de la batería y la claridad de las rutas GPS.  
+Una vez configurada correctamente, la aplicación puede ejecutarse en segundo plano y registrar automáticamente las rutas y subirlas una vez al día a cualquiera de los servicios configurados. Esto permitiría la recopilación automatizada de rutas de conducción diaria para ayudar a construir una colección de datos de carreteras y tiempos de viaje para su posterior mapeo o análisis. Una vez configurada, la persona que tenga el teléfono u otro dispositivo Android debería notar un pequeño impacto en el uso de la batería y no tener que hacer nada manualmente. Será necesario experimentar un poco para encontrar el equilibrio adecuado entre el uso de la batería y la claridad de las rutas GPS.  
 
-Un ejemplo de configuración para recoger y subir de forma automática  a OpenStreetMap diariamente tendría que realizar estos ajustes:  
+Un ejemplo de configuración para recopilar y subir automáticamente a OpenStreetMap diariamente, tendrías que ajustar estos parámetros:  
 
-### Opciones Generales  
+#### Opciones generales  
 
-* **Iniciar en el arranque** - Encendido  
+* **Iniciar al arrancar** - Activado  
 
-### Detalles del registro  
+#### Detalles de registro  
 
-* **Registrar a GPX** - Encendido  
-* **Creación de nuevo archivo** - Una vez al día  
+* **Registrar en GPX** - Activado  
+* **Creación de nuevos archivos** - Una vez al día  
 
-### Rendimiento  
+#### Rendimiento  
 
-* **Tiempo antes del registro** - 5  
-* **Mantener GPS encendido entre correcciones** - Encendido (Si desactiva esta opción puede causar "saltos" en la trayectoria GPS mientras el dispositivo requiere el satélite GPS cada vez)  
-* **No registrar si yo no me muevo** - Encendido  
+* **Tiempo antes de registrar** - 5  
+* **Mantener el GPS encendido entre correcciones** - Activado (desactivar esto puede causar "saltos" en las rutas GPS mientras el dispositivo requiere los satélites GPS cada vez.)  
+* **No registrar si no me estoy moviendo** - Activado  
 
-### Envío automático, correo electrónico y carga  
+#### Enviar automáticamente, correo electrónico y subir  
 
-* **Permitir el envío automático** - Encendido  
-* **¿Con qué frecuencia?** - Por una vez al día introducir 1440 minutos. Este ajuste puede ser un poco difícil si no tiene acceso a los datos o Wi-Fi cuando se ejecuta. Se debe empezar a contar desde el momento en que o bien arrancar el dispositivo o golpear el botón "Iniciar registro", por lo que si se inicia por la mañana, subirá al mismo tiempo a la mañana siguiente por ejemplo.  
-* **OpenStreetMap** - Permitir el envío automático encendido y cualquier otro ajuste que desee configurar, preste mucha atención a la configuración de visibilidad si tiene preocupaciones sobre la privacidad sobre las rutas GPS.  
+* **Permitir el envío automático** - Activado  
+* **Con qué frecuencia** - Para una vez al día, introduce 1440 minutos. Este ajuste puede ser un poco complicado si no tienes acceso a datos o wifi cuando se ejecuta. Debería empezar a contar desde que arrancas el dispositivo o pulsas el botón "Iniciar registro", así que si lo inicias por la mañana, subirá a la misma hora a la mañana siguiente, por ejemplo.  
+* **OpenStreetMap** - Permitir el envío automático activado y cualquier otro ajuste que quieras configurar, presta mucha atención al ajuste de visibilidad si te preocupa la privacidad de las rutas GPS.  
 
 
-### Grabación manual de trazas
+### Registro manual de trazas
 
-Para comenzar a recoger los registros (en la vista simple), simplemente haga clic en el botón azul. Una ruleta aparecerá cerca de la esquina superior derecha de la pantalla para indicar el intento de conseguir un arreglo en satélites. Un círculo verde aparecerá en la zona superior derecha para indicar que el registro está en marcha.  
+Para empezar a recopilar registros (en la vista simple), simplemente haz clic en el botón azul. Aparecerá un indicador giratorio cerca de la esquina superior derecha de la pantalla para indicar el intento de obtener una corrección en los satélites. Un círculo verde se mostrará en la zona superior derecha para indicar que el registro está en curso.  
 
-Para detener la grabación de datos en cualquier momento, simplemente pulse el botón verde *Detener registro*.  
+Para detener la grabación de datos en cualquier momento, simplemente pulsa el botón verde *Detener registro*.  
 
 #### Anotar  
 
-Para agregar una nota o una descripción a un registro, haga clic en el icono *Anotar* (lápiz). Esta opción le permitirá dejar un texto para describir o tomar nota de los detalles que se asocian con el punto actual.  
+Para añadir una nota o descripción a un registro, haz clic en el ícono *Anotar* (Lápiz). Esta opción te permitirá dejar un texto para describir o tomar nota de los detalles que están asociados con el punto actual.  
 
-##### Llamando a la anotación dede la Barra de Notificaciones  
+##### Llamar a la anotación desde la barra de notificaciones  
 
-También es posible llamar directamente el botón *Anotar* desde la Barra de Notificación de Android. Seleccione la aplicación de la Lista de notificaciones y haga clic en el botón *Anotar*.  
+También es posible llamar directamente al botón *Anotar* desde la barra de notificaciones de Android. Selecciona la aplicación de la lista de notificaciones y haz clic en el botón *Anotar*.  
 
 ![annotate0][]
 
-Esto mostrará un cuadro de diálogo de entrada donde podrá introducir los detalles del texto de la nota.
+Esto mostrará un cuadro de diálogo de entrada donde puedes introducir los detalles de texto de la nota.
 
 ![annotate1][]
 
 #### Intervalos de registro
 
-Intervalos de registro están determinados por tiempo o distancia bajo el menú "Rendimiento"  
+Los intervalos de registro se determinan por tiempo o distancia en el menú **Rendimiento**.  
 
-#### Por tiempo
+##### Por tiempo
 
-**Tiempo antes de registrar** se establece en 60 segundos por defecto. Puede cambiar esto a cinco o diez segundos, cuando está caminando en lugar de montar en un vehículo. Cuando está en un automóvil, se puede establecer a 1 segundo para generar registros muy precisos.  
+**Tiempo antes de registrar** está configurado en 60 segundos por defecto. Puedes cambiarlo a cinco o diez segundos, cuando estés caminando en lugar de ir en un vehículo. Cuando estés en un coche, puedes configurarlo en 1 segundo para generar registros muy precisos.  
 
-#### Por distancia
+##### Por distancia
 
-El **Filtro Distancia** está configurado por defecto a cero. Puede establecer esta a otra cosa, si quiere grabar las coordenadas para cada X número de unidades desde el último punto grabado.  
+El **Filtro de distancia** está configurado por defecto en cero. Puedes configurarlo en otro valor si quieres registrar las coordenadas para cada X número de unidades desde el último punto registrado.  
 
 
-Subiendo trazas
+​Subir trazas
 ------------------
 
-#### para OpenStreetMap
+#### a OpenStreetMap
 
-Presione el botón *Subir* y seleccione la opción *OpenStreetMap*. Una ventana de diálogo aparecerá donde los archivos están disponibles para la selección. Elija cualquier que desee cargar y pulse el botón *Ok*.  
+Pulsa el botón *Subir* y selecciona la opción *OpenStreetMap*. Aparecerá una ventana de diálogo donde los archivos estarán disponibles para su selección. Elige los que quieras subir y pulsa el botón *Aceptar*.  
 
 ![upload0][]
 
-#### para otras opciones
+#### a otras opciones
 
-Hay otras opciones de carga que puede explorar, pero están fuera del alcance de esta guía. Consulte la GPSLogger para el sitio web del Proyecto Android para obtener más información.  
+Hay otras opciones de subida que puedes explorar, pero están fuera del alcance de esta guía. Consulta el sitio web del proyecto GPSLogger para Android para obtener más detalles.  
 
 
-Compartiendo trazas 
+​Compartir trazas 
 ---------------
 
-También puede compartir las trazas registradas, o su ubicación actual con otras personas. Opciones para compartir pueden variar de un dispositivo a otro, o de las aplicaciones instaladas en un dispositivo. A continuación se muestra un ejemplo de cómo se puede ver la pantalla de opciones de compartir:  
+También puedes compartir las trazas grabadas o tu ubicación actual con otras personas. Las opciones para compartir pueden variar de un dispositivo a otro o de las aplicaciones instaladas en un dispositivo. A continuación se muestra un ejemplo de cómo puede verse la pantalla de opciones para compartir:  
 
 ![share0][]
 
 
-Exportando trazas al editor OpenStreetMap
+Exportar trazas a un editor de OpenStreetMap
 --------------------------------------------
 
-Cuando haya terminado de grabar las trazas, las pistas pueden ser importadas a JOSM (u otro editor de OpenStreetMap, como iD).  
+Cuando hayas terminado de grabar trazas, las rutas se pueden importar a JOSM (u otro editor de OpenStreetMap, como iD).  
 
-Conecte su dispositivo Android a un ordenador (también es posible utilizar un cable de datos, Bluetooth o una conexión a Internet) y copiar las pistas GPX y (y tal vez, archivos multimedia) que ha capturado. En el almacenamiento del dispositivo, busque la pista GPX bajo la carpeta /Android/data/com.mendhak.gpslogger/files  
+Conecta tu dispositivo Android a un ordenador (también es posible mediante un cable de datos, Bluetooth o una conexión a Internet) y copia las rutas GPX y (y quizás, los archivos multimedia) que hayas capturado. En el almacenamiento de tu dispositivo, busca las rutas GPX en la carpeta /Android/data/com.mendhak.gpslogger/files  
 
-Utilizando las pistas GPX con el JOSM y editores iD es fácil como arrastrar los archivos y soltándolos en la aplicación (o la pestaña del navegador, por iD).  
+Utilizar las rutas GPX con los editores JOSM e iD es tan fácil como arrastrar los archivos y soltarlos en la aplicación (o en la pestaña del navegador, para iD).  
 
-Para detalles adicionales por usuarios iD, vea la sección [Configurando la capa de fondo](http://learnosm.org/es/beginner/id-editor/#configuring-the-background-layer).  
+Para obtener más detalles para los usuarios de iD, consulta la sección [Configurar la capa de fondo](http://learnosm.org/es/beginner/id-editor/#configuring-the-background-layer).  
 
-Si se utiliza el editor JOSM, puede encontrar instrucciones en cómo utilizar la traza GPX, junto con los archivos multimedia en JOSM, vea la sección [Abrir en JOSM](http://learnosm.org/es/mobile-mapping/using-gps/#open-in-josm).  
+Si se utiliza el editor JOSM, puedes encontrar instrucciones sobre cómo utilizar la ruta GPX, junto con los archivos multimedia en JOSM, consulta la sección [Abrir en JOSM](http://learnosm.org/es/mobile-mapping/using-gps/#open-in-josm).  
 
-Para otros editores de OpenStreetMap, consulte la documentación de su software.  
+Para otros editores de OpenStreetMap, consulta la documentación de tu software.  
 
 
-Mostrar Opciones
+Opciones de visualización
 -----------------
 
-La aplicación se puede visualizar de 3 maneras diferentes, lo que le resulte más adecuado para su uso:
+La aplicación se puede visualizar de 3 maneras diferentes, la que te resulte más adecuada para tu uso:
 
-#### Vista Simple
+#### Vista simple
 
 ![view0][]
 
-#### Vista Detallada
+#### Vista detallada
 
 ![view1][]
 
-#### Vista Ampliada
+#### Vista grande
 
 ![view2][]
 
@@ -256,19 +255,19 @@ La aplicación se puede visualizar de 3 maneras diferentes, lo que le resulte m�
 Resumen
 -------
 
-Excelente! Ha sido introducido a un peso ligero, aplicación de la batería eficiente que pueda mantenerse en su dispositivo Android para grabar pistas, que se puede subir a OSM, o utilizar con su editor favorito OpenStreetMap.  
+¡Excelente! Te hemos presentado una aplicación ligera y eficiente en cuanto a batería que puedes tener en tu dispositivo Android para grabar rutas, que puedes subir a OSM o utilizar con tu editor de OpenStreetMap favorito.  
 
-GPSLogger para Android es una herramienta más para la recogida de datos de campo sin un receptor GPS dedicado. Recogida de datos de campo casual es posible sin una conexión a Internet activa.  
+GPSLogger para Android es otra herramienta para recopilar datos de campo sin un receptor GPS dedicado. La recopilación de datos de campo casual es posible sin una conexión a Internet activa.  
 
-Tómese su tiempo para practicar y familiarizarse con la aplicación antes de trabajar con datos en tiempo real.  
+Tómate un tiempo para practicar y familiarizarte con la aplicación antes de trabajar con datos reales.  
 
-En esta sección se introduce el concepto de usar GPSLogger para Android para recoger trazas GPS, la posibilidad de subir las trazas a OpenStreetMap, y la transferencia de estos registros a un PC.  
+Esta sección ha introducido el concepto de utilizar GPSLogger para Android para recopilar trazas GPS, subir trazas a OpenStreetMap y transferir estos registros a un PC.  
 
 
-Documentación Oficial de GPSLogger para Android
+Documentación oficial de GPSLogger para Android
 --------------------------------------------
 
-El proyecto mantiene una [FAQ] (http://code.mendhak.com/gpslogger/#faq) para las preguntas más frecuentes.
+El proyecto mantiene una sección de [Preguntas frecuentes](http://code.mendhak.com/gpslogger/#faq) para las preguntas más comunes.
 
 [GPSLogger]: /images/mobile-mapping/gpslogger_000.en.png
 [Canvass1]: /images/mobile-mapping/gpslogger_001.en.png

@@ -1,111 +1,118 @@
 ---
 layout: doc
-title: Using OSM Data in QGIS
+title: Використання даних OSM у QGIS
 permalink: /uk/osm-data/osm-in-qgis/
 lang: uk
 category: osm-data
 ---
 
-Using OSM Data in QGIS
+Використання даних OSM у QGIS
 =================
 
-> Reviewed 2015-07-19
 
-QGIS (formerly Quantum GIS) is a full-featured, open-source, cross-platform Geographic Information System. With QGIS you can access up-to-date OSM data whenever you want, select the tags you want to include, and easily export it into an easy-to-use SQLite database or Shapefile.  
+QGIS (раніше Quantum GIS) — це повнофункціональна міжплатформна геоінформаційна система з відкритим кодом. За допомогою QGIS ви можете будь-коли отримати доступ до актуальних даних OSM, вибрати теґи, які потрібно додати, і легко експортувати їх у просту у використанні базу даних SQLite або Shapefile.  
 
-In this chapter we'll walk through the steps necessary to do this. We assume that you've already downloaded and installed QGIS 2.x. If you haven't already done this, you can download it from <http://www.qgis.org/en/site/forusers/download.html>.  
+У цьому розділі ми розглянемо кроки, необхідні для цього. Ми припускаємо, що ви вже завантажили та встановили QGIS 3.x. Якщо ви ще цього не зробили, ви можете завантажити його з <http://www.qgis.org/en/site/forusers/download.html>.  
 
-To get our customized, up-to-date OSM layers loaded into QGIS, we will first get the most recent OSM data in raw **.osm** format. Then, we will convert this data into a SQLite database, which is a lightweight database system stored in one file on your system. Lastly, we will create a layer (or multiple layers) that includes only the feature types and tags we want to access. These layers can be used in QGIS as they are or saved in another format, such as a shapefile.  
+Ми будемо використовувати втулок QuickOSM для імпорту даних із бази даних OpenStreetMap. Щоб його встановити, відкрийте вікно Керування втулками з меню Плагіни. Знайдіть QuickOSM і встановіть його. Це додасть пункт до меню «Вектор».  
 
-Accessing OpenStreetMap Data
+Отримання даних з бази
 ---------------------------
 
-The first thing we will do is get some up-to-date OSM data. We can do this in numerous ways. Of course, requesting data from the OSM server, as we do in the JOSM editor, is limited so that we cannot pull out a very large amount of raw data at once - however, there are ways to access larger data sets, as
-described in the previous chapters on [Getting OSM Data](/en/osm-data/getting-data) and [Using Geofabrik and HOT Export](/en/osm-data/geofabrik-and-hot-export).  
+Перше, що ми зробимо, це отримаємо деякі актуальні дані OSM. Ми можемо зробити це різними способами. Втулок QuickOSM дозволяє нам отримувати великі обсяги даних, оскільки він використовує API Overpass, а не основний сервер бази даних OSM.
 
-For this tutorial we will use the built-in download function in QGIS.  
+- Відкрийте QGIS та перейдіть до меню Vector -> QuickOSM -> QuickOSM...  
 
-- Open QGIS and go to Vector -> OpenStreetMap -> Download Data...  
-- You can choose from several options here - if your window is already displaying the extent you want, check the box next to "From map canvas." If you have a layer loaded in QGIS with the correct extent, choose "From layer" and select the layer you want to use. Here we will choose "Manual" and enter the latitudes and longitudes which form a **bounding box** around the area we	want to access. You can fill in the lats and lons that are of interest to you, but remember that the area cannot be too large, or you won't be able to download all the data.  
+![quickosm][]
 
-![bounding box][]
+- Тут ви можете вибрати один із кількох параметрів. Якщо мапа вже показує потрібну вам ділянку, оберіть зі списку "Canvas extent". Якщо у вас є шар, завантажений у QGIS із правильним розміром, виберіть "Layer extent" та виберіть шар, який ви хочете використовувати. Використання стандартного "In" вимагає наявності зв'язка чи полігону з такою назвою. В іншому випадку виберіть "Around", і точки з такою назвою буде достатньо. Ви можете вибрати периметр (типово 1000 м) навколо цієї точки, звідки будуть завантажуватися дані з бази даних.
 
-- Select a name and location for the output file, using the **.osm** file extension, and click OK.  
-- You will be notified when the download is complete. Click "Close" to exit the download dialog.  
+- Натисніть "Run Query".  
+- Після закінчення процесу завантаження ви отримаєте сповіщення про його закінчення. Дані будуть завантажені до трьох робочих шарів, по одному для точок, ліній та полігонів, відповідно.
 
-![download complete][]
-
-- The OSM data will now be saved in the location you specified.  
-
-> This method of accessing OSM data is the same as if you downloaded it in JOSM or on [openstreetmap.org](http://www.openstreetmap.org). For larger extracts that are up-to-date, you may try downloading from the [HOT export site](http://export.hotosm.org) or [bbbike.org](http://extract.bbbike.org/). Remember that if you download a compressed OSM file, you will need to first decompress it into **.osm** format for the next steps.  
+![quickosm loaded][]
 
 
-Importing Data into SQLite
+Імпорт готових вибірок
 ---------------------------
 
-Next we will need to import our raw **.osm** file into a SQLite Database file.  
+Є кілька варіантів отримання готових вибірок місцевості. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> містить список кількох вебсайтів. Просто виберіть файл **.osm** або **.pbf** і завантажте його. 
 
-- Go to Vector -> OpenStreetMap -> Import Topology from XML...  
-- In the first field, select your **.osm** file.  
-- You can change the name of the output database file if you like.  
-- Keep the box checked next to "Create Connection..."  
+Ви можете використати QuickOSM, щоб імпортувати файли, обравши пункт 'OSM File' на панелі ліворуч. QuickOSM допомагає перетворювати OSM-файли в формат зрозумілий QGIS, ви можете використовувати звичайний імпорт векторних шарів:
 
-![import dialog][]  
+- Меню Layer -> Add Layer -> Add Vector Layer…  
+- У полі джерело, оберіть ваш файл та натисніть "Add".  
+- Ви можете обрати один чи більше типів шарів з даних вашого файлу.  
 
-- Click OK.  
-- When it is finished, click "Close."  
+![import osm][]  
+
+- Натисніть "OK" після чого ви можете закрити це вікно та побачити в основному вікні QGIS нові шари.  
+  
+
+![import osm loaded][]  
 
 
-Creating Layers
+Експорт даних
 --------------
 
-Lastly, we will define layers that can be used in QGIS, customized according to our needs.  
+Для експорту шару в його контекстному меню оберіть Export -> Save Features as…
+Серед різноманітного переліку форматів, що серед інших містить Shapefile, GeoJSON, PostgreSQL dump, SQLite, оберіть потрібний вам. Інші параметри у вікні експорту будуть показуватись в залежності від обраного формату.
 
-- Go to Vector -> OpenStreetMap -> Export Topology to SpatiaLite...  
-- In the first field, select the database you created in the previous step.  
+![export][]  
 
-![input db file][]  
+Ви можете обрати чи потрібно додавати експортований файл до переліку шарів (типово увімкнено).
 
-- Under "Export type," select the type of features you want to create a layer for. Here we will create a layer using polygons.  
+Робота з даними
+--------------------
 
-![export type][]  
+Ми не можемо дати вам навіть приблизний огляд того, що ви можете робити з QGIS, але є багато чудових посібників і книг, які допоможуть вам крок за кроком освоїти програмне забезпечення. Але оскільки дані OSM, імпортовані одним із описаних вище методів, мають свої теги, закодовані особливим чином, ось приклад, як з ними поводитись (кому цікаво, прикладом є вибірка pitcairn-islands-latest зі сторінки завантаження Geofabrik для Австралії та Океанії). Ви можете переглянути дані векторного шару за допомогою 'Відкрити таблицю атрибутів' із контекстного меню шару, у цьому випадку шару полігонів.
 
-Edit the layer name if you like.  
+![attribute table][]
 
-Under "Exported tags" is where the magic happens. Here we can select which tags will be included in our output layer. This gives us flexibility over exactly which data we want to access.  
+Тут видно, що всі пари ключ-значення для теґів різних об’єктів організовані в спеціально відформатований текстовий рядок у полі 'other_tags'. Цей тип зберігання даних у PostgreSQL називається «hstore» і є стандартом для даних OSM.
 
-- Click "Load from DB" to see a list of all the available tags in the database. Expand the window size by dragging the corner if that helps. You can see all the tags contained in this data, and also the number of features that have each tag.  
-- Check the boxes next to the tags that you want to include. Here we will select a few features that will be useful for polygons that represent buildings.  
+У цьому прикладі полігони – це переважно острови, ліси та будівлі. Спочатку вони показуються таким чином, що острови покривають усе інше. Давайте спродуємо візуалізувати їх по-іншому, щоб відчути, як ідентифікувати різні об’єкти. Скиньте поточні атрибути. У контекстному меню шару полігонів виберіть Properties та перейдіть у цій формі до вкладки Symbology. 
 
-![export full][]  
+![symbology][]
 
-When you are finished, click OK.  Close the box. Your layer should be automatically added.  
+Для початку змініть тип позначок з "Single symbol" на "Rule based" скориставшись списком вгорі вікна. 
 
-![cairo polygons][]  
+![symbology rule based][]
 
-Right-click on the layer and click "Open Attribute Table."  
+Поточні правила показу даних будуть показані у вигляді правила, але без фільтрів. Ми можемо змінити правило натиснувши на кнопку позначену на зображені нижче рожевим прямокутником.
 
-![open attribute table][]  
+![symbology edit rule][]
 
-You can see here that we have a table which includes only the attributes we selected.  
+Ми б хотіли показувати будинки по іншому. Тобто нам потрібно визначити правило, яке б використовувало допомагало нам використовувати властивості шару. Механізм обробки виразів не в змозі напряму обробляти рядки hstore. Натомість нам допоможе функція в цьому, як показано на скриншоті, `hstore_to_map(other_tags)['building'] is not NULL`, яка перетворює рядок 'other_tags' в набір даних ключ-значення з яких ми можемо вибрати потрібні нам дані, ключ 'building' з непорожнім значенням. Тепер ми можемо обрати колір та тип заливки для будинків. Натисніть 'ОК' для застосування правила. Тепер ви можете додати інші правила. Натисніть на кнопку з :heavy_plus_sign: внизу вкладки Symbology. Додамо подібні правила для дерев та трави. Після закінчення вкладка Symbology виглядатиме наступним чином:
 
-![attribute table][]  
+![symbology polygon rules][]
 
-Note that we have not created a layer of **only** buildings. Instead, we have created a layer that includes all of the polygons from our original data, but only includes the tags which we selected. In order to filter this layer to show only buildings, we would need to execute a query that filters only polygons where building=yes.
+Як додатковий бонус ми можемо швидко отримати кількість об'єктів для правил. Натисніть крайню праву піктограму в рядку внизу (символ суми), і стовпець 'count' буде заповнено, повідомляючи нам, що у нас є 150 будівель у цьому шарі.
+
+Ви можете додати підписи так само як тільки що ми це зробили з візуалізацією. Вкладка 'Labels' є наступною після вкладки Symbology. У більшості випадків у вас може виникнути потреба додати назви до об'єктів на мапі. Для цього скористайтесь тим же прийомом, який ми використовували на вкладці Symbology для відбору даних – `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Після додавання підписів до шару з полігонами та точками у вас має вийти щось подібне:
+
+![done][]
 
 
-Summary
+Підсумки
 -------
 
-This process makes it easy to get up-to-date OSM data and pull it into QGIS. Once you have layers like this in QGIS, it is possible to save them as shapefiles, execute filters and queries, and so forth. For more detail on these functions see the Help menu in QGIS.  
+Описаний тут процес дозволяє у простий спосіб отримувати актуальні дані з OSM для ваших проєктів в QGIS. Після того як ви отримали дані у вигляді шарів QGIS ви можете експортувати їх виглядів shapefiles, застосовувати до них фільтри та запити, та й таке інше. За більш докладними відомостями по роботі з QGIS звертайтесь до меню Довідка.  
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png

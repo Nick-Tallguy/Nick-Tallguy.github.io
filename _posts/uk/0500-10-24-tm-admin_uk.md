@@ -13,302 +13,462 @@ category: coordination
 
 Зміст
 -------------
--  [Вхід та доступ](/en/coordination/tm-admin/#login-and-access)
--  [Дозволи](/en/coordination/tm-admin/#permissions)
--  [Створення проєкту](/en/coordination/tm-admin/#create-a-mapping-project)
-    -  [Визначення території](/en/coordination/tm-admin/#define-mapping-area)
-    -  [Визначення завдань](/en/coordination/tm-admin/#define-tasks)
-    -  [Обрізка території проєкту](/en/coordination/tm-admin/#project-area-trim)
-    -  [Advanced: Define mapping project areas and tasks with imported geodata](/en/coordination/tm-admin/#advanced-define-mapping-project-areas-and-tasks-with-imported-geodata)
--  [Edit a mapping project](/en/coordination/tm-admin/#edit-a-mapping-project)
-    -  [Description - the first thing users learn about your project](/en/coordination/tm-admin/#description)
-    -  [Instructions - what the users should do](/en/coordination/tm-admin/#instructions)
-    -  [Metadata - where the project belongs to](/en/coordination/tm-admin/#metadata)
-    -  [Priority Areas - where users should start mapping](/en/coordination/tm-admin/#priority-areas)
-    -  [Imagery - the basis for mapping](/en/coordination/tm-admin/#imagery)
-    -  [Permissions - who is allowed to map and validate](/en/coordination/tm-admin/#permissions)
-    -  [Helpful hints - how you should fill in all these fields](/en/coordination/tm-admin/#helpful-hints)
-    -  [Publish - do not forget or you never get work done](/en/coordination/tm-admin/#publish)
+-  [Вхід та доступ](/uk/coordination/tm-admin/#вхід-та-доступ)
+-  [Дозволи](/uk/coordination/tm-admin/#дозволи)
+-  [Створення проєкту](/uk/coordination/tm-admin/#створення-проєкту)
+    -  [Визначення території](/uk/coordination/tm-admin/#визначення-території)
+    -  [Визначення завдань](/uk/coordination/tm-admin/#визначення-завдань)
+    -  [Додатково: Визначення завдань за імпортованими даними](/uk/coordination/tm-admin/#додатково:-визначення-завдань-за-імпортованими-даними)
+    -  [Обрізка території проєкту](/uk/coordination/tm-admin/#обрізка-території-проєкту)
+    -  [Додавання назви проєкту](/uk/coordination/tm-admin/#додавання-назви-проєкту)
+-  [Редагування проєкту](/uk/coordination/tm-admin/#редагування-проєкту)
+    -  [Опис – перше, що користувачі дізнаються про ваш проєкт](/uk/coordination/tm-admin/#опис)
+    -  [Інструкції – що потрібно робити](/uk/coordination/tm-admin/#інструкції)
+    -  [Метадані – до чого належить проєкт](/uk/coordination/tm-admin/#метадані)
+    -  [Пріоритетні ділянки – звідки треба розпочинати мапити](/uk/coordination/tm-admin/#пріоритетні-ділянки)
+    -  [Зображення – основа для мапінгу](/uk/coordination/tm-admin/#зображення)
+    -  [Дозволи – хто має право мапити та виконувати перевірку](/uk/coordination/tm-admin/#дозволи)
+    -  [Налаштування](/uk/coordination/tm-admin/#налаштування)
+    -  [Дії](/uk/coordination/tm-admin/#дії)
+    -  [Власний редактор](/uk/coordination/tm-admin/#власний-редактор)
+    -  [Зберегти та перевірити](/uk/coordination/tm-admin/#зберегти-та-перевірити)
+    -  [Публікація](/uk/coordination/tm-admin/#публікація)
+-  [Управління проєктами](/uk/coordination/tm-admin/#управління-проєктами) 
+    -  [Будьте на звʼязку](/uk/coordination/tm-admin/#будьте-на-звʼязку)
+    -  [Послідовність проєктів](/uk/coordination/tm-admin/#послідовність-проєктів)
+    -  [Проєктний цикл](/uk/coordination/tm-admin/#проєктний-цикл)
+-  [Додаткова інформація](/uk/coordination/tm-admin/#додаткова-інформація)
+    -  [Оцінка якості зображень](/uk/coordination/tm-admin/#оцінка-якості-зображень)
 
-The Tasking Manager is the essential tool to coordinate mapping on OpenStreetMap. It supports humanitarian mapping initiatives, conducting mapathons or creating mapping tasks for students. The application divides an area of interest into manageable geographic chunks that can be completed rapidly and collaboratively. This approach allows the distribution of tasks to many individual mappers, while reducing possible editing conflicts. 
+Tasking Manager є необхідним інструментом для координації мапінгу в OpenStreetMap. Він підтримує гуманітарні ініціативи з мапінгу, проведення мапатонів або створення картографічних завдань для студентів. Менеджер дозволяє розбивати область інтересу на частки, з якими можна швидко та спільно впоратись. Цей підхід дозволяє розподіляти завдання між багатьма окремими маперами, зменшуючи можливі конфлікти редагування.
 
-The Software encourages accurate and quality mapping data by providing a consistent set of instructions for your mappers (e.g. 'map all roads and buildings'). In short, the Tasking Manager is how you set up and direct the workflow for open mapping activities. 
+Програмне забезпечення сприяє точному та якісному мапінгу, надаючи послідовний набір інструкцій для ваших учасників (наприклад, "треба замапити всі дороги та будівлі"). Коротко кажучи, Менеджер завдань – це те, як ви налаштовуєте та керуєте робочим процесом для відкритих картографічних активностей.
 
-This guide describes the basic administration of the Tasking Manager. It covers instructions to create and modify mapping projects and handling permissions for mapping and review of crowd-sourced data.
+Цей посібник описує основи адміністрування Менеджера завдань. Він включає інструкції щодо створення та зміни проєктів з мапінгу, а також надання дозволів для мапінгу та перевірки даних, зібраних спільнотою.
 
-## Login and access
+## Вхід та доступ
 
-In order to login to the Tasking Manager an OpenStreetMap (OSM) account is needed. You can visit the [HOT Tasking Manager](http://tasks.hotosm.org), or any other community instance of your preference. There click `Sign up` and it redirects you to the [OpenStreetMap website](https://www.openstreetmap.org) to create your account. Or click `Log in` if you have already one, and in the pop-up you can give the Tasking Manager limited access to your OSM account.
+Щоб увійти до Менеджера завдань, потрібен обліковий запис OpenStreetMap (OSM). Ви можете відвідати [HOT Tasking Manager](http://tasks.hotosm.org) або будь-який інший екземпляр, що розгорнутий спільнотою, за вашим вибором. Там натисніть `Зареєструватися`, і вас перенаправить на [вебсайт OpenStreetMap](https://www.openstreetmap.org), щоб створити свій обліковий запис. Або натисніть `Увійти`, якщо у вас вже є обліковий запис, і у наступному вікні ви можете надати Менеджеру завдань обмежений доступ до свого облікового запису OSM.
 
-## Permissions
+## Дозволи
 
-The most basic user level is **mapper**. Mappers are able to login to the Tasking Manager to find and select a mapping project to work on. All mapper functionality is described in the [LearnOSM Tasking Manager Mapper Guide](/en/coordination/tm-user/). Note that some projects, such as those in draft state (i.e. unpublished), or restricted to certain teams, are not visible to regular mappers
+Найбазовішим рівнем участі є **мапер**. Мапери можуть увійти до Менеджера завдань, щоб знайти та вибрати проєкт для мапінгу. Дії мапера описані в [Посібнику мапера Менеджера завдань LearnOSM](/uk/coordination/tm-user/). Зверніть увагу, що деякі проєкти, такі як ті, що знаходяться у стані чернетки (тобто неопубліковані) або обмежені для певних команд, не видно звичайним маперам.
 
-All special permissions are handled by *organizations* and *teams*. An **organization** is the main umbrella, and under each organizaiton mapping projects and teams can be created. An organization could e.g. represent a data user such as a humanitarian organization, or any OpenStreetMap community. If you need to set up your organization on the Tasking Manager, contact the technical maintainers of the Tasking Manager instance.
+Усі спеціальні дозволи обробляються *організаціями* та *командами*. **Організація** є парасолею, в межах організації можна створювати проєкти та команди. Організація може представляти користувачів даних, таких як гуманітарні організації або будь-яку спільноту OpenStreetMap. Якщо вам потрібно налаштувати свою організацію в Менеджері завдань, зверніться до технічних адміністраторів Менеджера завдань. Див. [Організації Менеджера завдань HOT](https://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team/HOT_Tasking_Manager_Organizations) для ознайомлення зі списком організацій, які присутні в Менеджері завдань HOT. Якщо вашої спільноти або організації немає в цьому списку, але ви хочете створювати проєкти в Менеджері завдань HOT, будь ласка, заповніть [цю форму](http://bit.ly/HOTTasking), щоб зареєструвати свої інтереси.
 
-Every organization has one or more **administrators**. They have the permission to create and modify associated projects. All administration options can be accessed through the `Manage` section in the main navigation.
+Кожна організація має одного або кількох **менеджерів**. Вони мають права на створення та зміну повʼязаних проєктів. До всіх опції менеджера можна дістатись через розділ `Керування` у головному меню.
 
-Administrators of an organization can create **teams**. Teams are groups of users and they can be publicly visible or private. They also have one or more managers. Teams can be set up so that users can join a team on their own or 'invite only', which means that the team managers are notified about requests to join and must decide upon them.
+Менеджери організації можуть створювати **команди**. Команди – це групи користувачів OpenStreetMap, які можуть бути публічними або приватними. Вони також мають одного або кількох менеджерів команди. Команди можуть бути налаштовані таким чином, щоб користувачі могли приєднатися до команди самостійно або "лише за запрошенням", що означає, що менеджери команди отримують повідомлення про запити на приєднання і повинні прийняти рішення щодо них.
 
-For each project, administrators can assign specific teams to grant or restrict access to either mapping, define who can validate the data, or who else is able to edit the project's metadata.
+Для кожного проєкту адміністратори можуть призначити конкретні команди для надання або обмеження доступу до мапінгу, визначити, хто може перевіряти дані або хто ще може редагувати метадані проєкту.
 
+## Створення проєкту
 
-## Create a mapping project
-
-To access the administation section, click on `Manage` in the navigation on the top, In the first row you see a space for 'Projects'. Next to it, click on the `Add` button to create one.
+Клацніть на `Керування` у навігації зверху. У першому рядку ви побачите простір для «Проєктів». Поруч з ним клацніть на кнопку `Додати`, щоб створити проєкт.
 
 ![TM Add Project][]
 
-You may choose between defining the area of interest (mapping area) of your mapping project by either:
+Ви можете вибрати як визначити області інтересу (область для мапінгу) вашого проєкту:
 
-* Option 1: `Draw` the area of interest on a web map (preferred method)
-* Option 2: `Upload file` to import the area of interest from a geojson, KML or shapefile. This can also include specific task (find more information in the "Advanced project creation" part below)
+* Варіант 1: `Накреслити` область інтересу вручну
+* Варіант 2: `Завантажити файл` для імпорту області інтересу у форматі GeoJSON, KML або стиснутого shapefile
 
 ![TM New][]
 
-### Define mapping area
+### Визначення території
 
-![TM Draw AoI][]
+* Варіант 1: `Накреслити` область інтересу вручну
 
-1. You may switch to other background layers using the buttons on the top. 
-1. Click the `Draw` button on the left.
-2. To draw a polygon representing the mapping area in the map frame hold the right mouse button down to move the map without clicking, which will add a node. The polygon should tightly frame the area of interest. This saves time for completing tiles that are not of interest (i.e. ocean, forest).
-3. Click on your starting point to complete the polygon.
-4. Continue adding nodes with a single mouse click. A double mouse click will finish the polygon. <!--After completing a polygon you can move the nodes or add new ones to get the area just as you want it.-->
+1. Ви можете перемикатися на інші фонові шари за допомогою кнопок у верхній частині.
+1. Натисніть кнопку `Креслити` ліворуч.
+2. Щоб накреслити полігон, що представляє область мапінгу, для переміщення мапи утримуйте праву кнопку миші, клацання лівою кнопкою додасть вузол. Полігон повинен охоплювати область інтересу. Це заощаджує час для роботи над тайлами, які не є цікавими (тобто океан, ліс).
+3. Для завершення креслення полігону клацніть на початкову точку. <!--Після завершення креслення полігону ви можете переміщувати вузли або додавати нові, щоб охопити  потрібну територію.-->
 
-### Define tasks
+<br>
 
-After the overall mapping area has been defined, it is going be divded into smaller areas called *Tasks*. This tasks must have a good size so they can be completed rapidly and collaboratively, with many people contributing to a collective project goal.
+* Варіант 2: `Завантажити файл` для імпорту області інтересу у форматі GeoJSON, KML або стиснутого shapefile
+
+1. На першому кроці створення проєкту натисніть на `Завантажити файл`.
+2. Перейдіть до вашого файлу у вікні завантаження файлів.
+3. Клацніть на назву файлу, щоб виділити файл, а потім клацніть "Відкрити".
+4. Імпортовані області інтересу не можуть бути змінені в Менеджері завдань.
+
+Ви, можливо, вже завантажили файл, в якому вже визначені завдання (невеликі квадрати для мапінгу). Докладнішу інформацію про це знайдете в розділі [Визначення завдань за імпортованими даними](/uk/coordination/tm-admin/#додатково:-визначення-завдань-за-імпортованими-даними) нижче.
+
+> ПРИМІТКА: У Tasking Manager є обмеження! Максимальне технічне обмеження для проєкту становить 5 000 км², однак, щоб забезпечити швидке завершення вашого проекту, спробуйте тримати в межах 1 000 км². Якщо вам потрібно замапити більшу площу, вам потрібно створити кілька проєктів. Ви зможете побачити розмір проекту в нижньому лівому куті в попередньому перегляді мапи.
+
+### Визначення завдань
+
+Після того, як загальна область мапнігу буде визначена, вона буде розділена на менші області, які називаються *Завдання*. Ви повинні дуже ретельно враховувати розміри завдань вашого проєкту. Добре розроблені проєкти мають відповідні розміри завдань, що дозволяє їх виконувати якомога ефективніше.
 
 ![TM Tile Sizes][]
 
-The mapping area is automatically split into grid cells and each cell becomes a task. Use the `Larger` and `Smaller` buttons to adjust the overall size of the task squares.
+Область проєкту автоматично розбивається на клітинки, і кожна клітинка стає завданням. Використовуйте кнопки `Більше` та `Менше`, щоб налаштувати загальний розмір квадратів завдань. Можливо стандартний розмір завдання буде занадто великим. Коли ви змінюєте розмір завдання, зверніть увагу на розмір завдання, вказаний зліва поруч із "Розмір кожного завдання становить приблизно … км²".
 
-> Use an satellite imagery to determine a good task size is very helpful. You can switch between several background map layers with the buttons on the top of the map. <!-- If you have custom imagery for the project, you can also load that in by using the button in the upper right of the map and putting in a TMS or WMS url. -->
+Будь ласка, не поспішайте і дуже ретельно встановіть розміри ваших завдань! Спробуйте зменшити розмір завдання до такого рівня, коли ви думаєте, що впевненому маперу знадобиться **15 хвилин для завершення**. Оптимальний розмір завдання повністю залежить від обʼєктів, які ви просите маперів ідентифікувати, та щільності цих обʼєктів. Наприклад, проєкт з маіпнгу доріг у сільській місцевості матиме набагато більші завдання, ніж проєкт, який включає мапінг будівель у густонаселеному поселенні.
 
-After you've adjusted the base grid task size, you can selectively divide certain tasks into four smaller ones with the `Click to split` button. Or you can `Draw area to split`, and it will let you draw a polygon over an area and all tasks within it will be split into four new ones each. The Reset button will remove all of your custom splitting.
+> Збільште масштаб та активуйте зображення Bing, щоб визначити величину завдання. Ви можете перемикатися між різними шарами фонової мапи за допомогою кнопок у верхній частині мапи.
 
-**Task sizes**:  Please take you time and define very carefully suitable task sizes! The optimal task size depends heavily on the amount of objects that are requested for being mapped in each task. Tasks sizes on rural areas are usually larger than for mapping projects, which are about digitizing buildings in cities por dense settlement areas. Ideally, try mapping an area of the project yourself to see the challenges and effort to map it. This should help you to decide on an optimum square size.
+Після того, як ви налаштували загальний розмір завдання, ви можете вибірково розділити певні завдання на чотири менші за допомогою кнопки `Розділити`. Або ви можете `Накреслити область для розділення`, і це дозволить вам накреслити полігон над областю для розділення всіх завдань всередині. Ці функції особливо корисні, якщо щільність обʼєктів, які ви хочете замапити, варіюється по всій області вашого проєкту. Наприклад, може бути щільно забудована прибережна зона, яка потребує невеликих завдань, і внутрішня сільська зона, яка потребує набагато більших завдань. Кнопка `Скинути` видалить всі ваші налаштування з розділення завдань.
 
-It is recommended to choose task sizes that you are confident mappers can complete them in 15-20 minutes.
+Визначення розмірів завдань:
+-  Завдання можна розбити, але немає можливості знову обʼєднати їх після створення проєкту.
+-  Після створення проєкту розділення завдань займає багато часу і має виконуватися по одному завданню за раз.
+-  На межі та в кутах завдань існує більший потенціал для конфліктів між сусідніми маперами. Менші завдання означають більше кутів та країв. Є компроміс у розмірі завдання, щоб зробити його простим для маперів, але так, щоб не створювати конфліктів між ними.
+-  Малі завдання легше мапити, але більше завдань означає, що маперам потрібно більше часу, щоб оновити статус кожного з них, і проєкти з завданнями, які є занадто малими, можуть бути неефективними.
+-  Початківцям, як правило, потрібно приблизно в чотири рази більше часу, ніж досвідченим маперам.
+-  Початківцям потрібно розвивати вміння розпізнавання обʼєктів на супутникових зображеннях. Виявлення відповідних обʼєктів може бути складним.
 
-> Considerations for deciding on task sizes:
-> -  Beginner mappers roughly needs four times as long as an experienced mappers.
-> -  Beginner mappers need to develop an eye for satellite imagery. Spotting the right features might be difficult.
-> -  Beginner mappers face challenges tracing a lot similar features such as buildings.
-> -  A square may be split later on, but there is no option to join squares together.
-> -  On the edge and corners of tasks, there is always the potential to get in conflict with a fellow mapper next to you. Smaller tasks means more corners and edges. There is a tradeoff in the size to make it easy for mappers, but to not produce mapping conflicts between them.
+Після того, як ви будете задоволені розмірами вашого завдання, натисніть `Далі`.
 
-After finalizing the definition of task sizes, click `Next`.
+### Додатково: Визначення завдань за імпортованими даними
 
-### Project Area Trim
+Якщо ви завантажили файл для визначення області вашого проєкту, цей файл також може містити полігони для окремих завдань. Наприклад, завершений проєкт від MapSwipe, який зосереджений на населених пунктах або складній сітці, яку ви попередньо створили в QGIS. Якщо це так, обовʼязково увімкніть перемикач "Встановити завдання за допомогою завантажених полігонів". Це дозволить перейти безпосередньо до етапу додавання назви проєкту.
+
+![TM New Polys][]
+
+### Обрізка території проєкту
 
 ![TM Trim][]
 
-After determining the task sizes you will have the option to trim the tasks to the extend of your mapping area. If you simply click on `Trim` then you skip all task squares which do not contain the mapping area
+Після визначення розмірів завдань у вас буде можливість обрізати завдання по межі вашої області мапінгу. Ви майже напевно захочете це зробити. Натисніть `Обрізати`, щоб видалити всі квадрати завдань, які не перекривають область вашого проєкту.
 
 ![TM Trim coarse][]
 
-If you check the box about trimming to the exact area before clicking on `Trim` then you obtain arbitrary task shapes at the fringe
+Якщо ви вмикаєте "Обрізати завдання, щоб визначити точну область інтересу для мапінгу", перед натисканням `Обрізати`, частина завдань, що перекриваються на краю вашої області інтересів, будуть обрізані відповідно до вашої області інтересу.
 
 ![TM Trim fine][]
 
-After finalizing a the mapping area trim, click `Next`.
+Обрізання може призвести до деяких надзвичайно малих завдань. Ці мікрозавдання можуть заплутати маперів. Ви можете їх видалити, натиснувши `Відкинути`, коли ви побачите повідомлення "Є … завдань менших за 2,000 м². Ви хочете їх відкинути?"
 
+> Зверніть увагу на кількість завдань у вашому проєкті (подивіться в лівому нижньому куті вашої мапи). Максимальний технічне обмеження для кількості завдань в одному проєкті Tasking Manager становить 5 000. Однак, щоб забезпечити швидке завершення вашого проєкту, спробуйте тримати його кількість завдань менше ніж 1 000 – якщо вам потрібно замапити більшу площу, спробуйте розділити її на менші проєкти.
 
-### Save the project
+Натисніть `Next` (Далі).
 
-Give the project a title (can be edited on the next screen) and click `Create`. First step is done.
+### Додавання назви проєкту
 
-Learn more about how to add descriptions and instructions to the project and get it published to the mappers in our "Edit a mapping project" chapter below.
+Назва проєкту є одним з його найважливіших аспектів, коли справа доходить до його пошуку широким загалом. Спробуйте вказати назву країни, в якій знаходиться проєкт (наприклад, Південний Судан), причина мапінгу (наприклад, Вакцинація проти COVID), а також більш конкретне місце, можливо, назва району або поселення (наприклад, Округ Ямбіо). Наприклад, повна назва проєкту може бути: _Південний Судан, Вакцинація проти COVID, Округ Ямбіо_.
 
-### Advanced: Define mapping project areas and tasks with imported geodata
+Переконайтеся, що ваша організація вибрана в полі "Організація".
 
-Geospatial desktop applications like JOSM or QGIS allow mappers to more precisely draw the areas of interest, compared to the slippy web map inside the Tasking Manager. You can also determine special task shapes and sizes beforehand.
+> Перед завершенням цього етапу переконайтеся, що ви задоволені областю інтересу проєкту та загальною кількістю завдань, ці елементи не можуть бути змінені пізніше.
 
-> The Tasking Manager is a web application. Please make sure the file you upload is reduced in it's size. You might want to simplify geometries first and cut off too many digits of the coordinates.
+Натисніть `Створити`. Ваш проєкт буде створено, але він не буде опублікований негайно. Ви спочатку будете перенаправлені до меню проєкту Редагувати.
 
-**Upload a GeoJSON or KML file of the area of interest to be mapped**
+## Редагування проєкту
 
-1. In the first step of creating a project click on option 2, the ‘Upload file’ button.
-2. Browse to your file in the File Upload window.
-3. Click the file name to highlight the file and then click ‘Open’.
-4. Imported areas of interest can not be edited.
+Ви зараз побачите меню "Редагувати" у вашому проєкті. Перед тим, як проєкт можна буде зберегти, вам потрібно буде уважно пройти через меню "Редагувати", щоб завершити налаштування. Ось короткий огляд підменю, які ви побачите ліворуч.
 
-After uploading a file to the Tasking Manager you can select if you want to define the tasks either as 
+- Опис – Встановіть статус, пріоритет та текстовий опис, повʼязаний з вашим проєктом.
+- Інструкції – Докладні інструкції щодо того, як мапити потрібні обʼєкти та завдання проєкту.
+- Метадані – Визначте обʼєкти, які потрібно замапити. Також включає інформацію, яка використовується для категоризації та фільтрації проєктів.
+- Пріоритетні області – дозволяють вам вказати частини в межах проєктної області, які слід мапити в першу чергу.
+- Зображення – Виберіть зображення, які будуть типово завантажуватися, коли учасники працюватимуть над вашим проєктом.
+- Дозволи – дозволяють обмежити доступ до проєкту для мапінгу та перевірки.
+- Налаштування – Увімкніть / вимкніть альтернативні редактори, такі як RapiD.
+- Дії – Потужні масові дії, які ви можете виконати у своєму проєкті, такі як клонування або видалення.
+- Власний редактор – Додайте власний редактор за допомогою URL-адреси
 
-1. `Square Grid`, with the functionality described above to define tasks.
-2. `Arbitrary Geometries`, coming from the file you just uploaded.
+> Ретельне заповнення цієї інформації є важливою частиною успішного проєкту. Особливо важливо, щоб опис проєкту та інструкції були чітко вказані, щоб мапери усвідомлювали важливість якості даних та слідування найкращим практикам. Майте на увазі, що учасники можуть не мати попереднього досвіду роботи з OpenStreetMap і навряд чи будуть знайомі з рекомендаціями щодо теґування.
 
-**Define arbitrary geometries**
-
-If you uploaded a file to define your project area, that file may also contain the shapes for the individual tasks. E.g. if the area of interest consists of one polygon, the project will have just one task. This should only be used in special cases and for specific reasons. For example, an import of roads project might need custom task shapes or output from a mapping area reduction process.
-
-Please note, arbitrary geometries can not be split. They should only be used in special cases, as they have implications on the performance of the tool.
-
-## Edit a mapping project
-
-After a project has been initially set up and created, you have to edit its information and settings:
-
-- Description - Used for display in lists and motivational information for mappers
-- Instructions - Detailed instructions for what and how to map the needed objects/entities/features
-- Metadata - Additional information used for categorizing the Project. Often used in filtering the full list of projects.
-- Imagery - Place to provide a TMS URL and License required.
-- Priority Areas - Allows you to specify parts of the Project that should be mapped first.
-- Permissions - Allows you restrict access to the project for mapping and validation.
-- Settings - Project due date and JOSM Presets.
-- Actions - Send messages to contributors, validate and invalidate the entire project with one click.
-
-> Filling in this information carefully is an essential part of a successful mapping project. It is very important project objectives and resources are clearly communicated so mappers are aware of specific and important information. Keep in mind, mappers may not have previous experience with OpenStreetMap, and will not be familiar with tagging guidelines.
->  It is advisable to confine one project to one class of objects to be mapped. If you need a basemap of an area better split it in several projects, one for the roads, one for the buildings etc. Now beginners can focus on a small class of objects while learning how to map them correctly.
-
-### Description
+### Опис
 
 ![TM Description][]
 
-This screen allows you set the project status as Draft, Published, or Archived, priority, a short description used in project listings and the long description available once a mapper has selected the project.
+#### Статус
 
-Both the short and long description should provide information about why the project exists, who will use the data and the expected the impact the mapping will have. These fields support Markdown text and can include images and videos.
+Перший етап – статус проєкту. Його можна встановити у **Чернетка**, **Опубліковано** або **Архівовано**.
 
-### Instructions
+- **Чернетка** – Ваш проєкт буде започатковано в режимі чернетки. У цьому режимі він не буде показуватись в результатах пошуку і загал не матиме змоги брати участь в ньому. Це ідеально підходить, коли ви все ще налаштовуєте свій проєкт і тестуєте його перед публікацією.
+- **Опубліковано** – Коли ви завершили налаштування свого проєкту, протестували його і всім задоволені, та оприлюднили його для участі в мапінгу та перевірки виконаних завдань.
+- **Архівовано** – Всі проєкти після завершення повинні бути архівовані. Архівовані проєкти є публічними, але заблокованими для внесення змін. Ви повинні розглянути можливість архівації свого проєкту, якщо:
+  - Його замаплено та перевірено на 100%.
+  - Інструкції або зображення суттєво застарілі.
+  - Проєкт був створений понад рік тому.
+  - Дані більше не потрібні для гуманітарних цілей в області проєкту.
+
+#### Пріоритет
+
+Наступним є пріоритет проєкту. Він визначає, наскільки близько в Менеджері завдань буде видно проєкт на сторінці Пошуку проєктів. Він може бути встановлений як **Терміново**, **Високий**, **Середній** або **Низький**.
+
+- **Терміново** – Встановлюйте цей статус тільки у випадку, якщо проєкт є **відповіддю на лихо і потребує негайних даних**. Дуже небагато проєктів мають такий пріоритетний рівень.
+- **Високий**  – Для проєктів, які не обовʼязково є реакцією на лихо, але дані потрібні в **короткі терміни**.
+- **Середній** – Якщо дані потрібні, але не в особливо короткий проміжок часу.
+- **Низький** – Якщо ви хочете опублікувати свій проєкт, але не хочете, щоб він був дуже помітним. Ви можете віддати перевагу розповсюдженню свого проєкту серед конкретних груп за допомогою URL-адреси проєкту.
+
+#### Короткий опис
+
+Додайте принаймні два речення, які коротко описують ваш проєкт. Це важливо, оскільки учасники будуть читати їх, щоб вирішити, чи приєднатися. Спробуйте чітко пояснити **чому** збираються дані і **як дані будуть використовуватися**.
+
+> Ці поля підтримують **Markdown** і можуть містити зображення (підтримується тягни-кидай) та відео (додайте URL YouTube для автоматичного вбудовування).
+
+#### 'Довгий' Опис
+
+Ви можете детальніше розповісти про свій проєкт тут. Надайте більше інформації про те, чому існує проєкт, хто буде використовувати дані та очікуваний вплив, який буде мати мапінг. Якщо проєкт передбачає будь-яку співпрацю або партнерство, ви можете розповісти про це тут.
+
+> Для будь-якого з цих текстових полів ви можете додати додаткові переклади. Якщо ви хочете додати переклад, натисніть на двобуквений код мови та введіть перекладений текст. Для користувачів, які встановили у Менеджер завдань цю мову, проєкт буде автоматично показуватись нею. Стандартно, початкове поле має англійську мову, це можна змінити в підменю "Налаштування" вашого проєкту.
+
+#### Крайній термін
+
+Якщо у вас є дата, до якої ви бажаєте, щоб ваш проєкт був повністю замаплений та перевірений, ви можете додати її тут. Це необовʼязково, і після закінчення дати це нічого не змінює для проєкту, і учасники можуть продовжувати робити свій внесок після цієї дати. Учасники побачать дату завершення поруч з проєктом.
+
+### Інструкції
 
 ![TM Instructions][]
 
-**Entities to Map** - A list of the features you want users to map. Generally the fewer features the better as they are more likely to get completed.
+#### Опис наборів змін
 
-> Projects that ask for lots of entities to be mapped are difficult for mappers and difficult to get validated. They take much longer to get a good usable dataset. Task sizes are also difficult to make efficient for different types of mapping, e.g., buildings need small task squares, roads and waterways need larger task squares. Making multiple projects over the same area to get buildings and linear features mapped is a best practice.
+Тут ви можете додати додаткові теґи для відстеження, які автоматично заповнюватимуться кожного разу, коли хтось зберігає свою роботу під час роботи у вашому проєкті. Наприклад, якщо ви хочете почати відстежувати всі внески у всіх проєктах вашої організації, ви можете додати загальний теґ відстеження до них, наприклад, #MSF або #cartONG. Будь ласка, намагайтеся **робити ці теґи короткими** та не додавайте забагато з них, заплутані коментарі до змін неправильно інтерпретуються, і повинно залишатись місце для маперів, де вони можуть додавати опис до внесених змінних.
 
-**Changeset Comment** - This is the default changeset comment that will be attached to every data upload to OSM. It usually includes something that identifies the Tasking Manager the project resides on and the features that were mapped. It is often used for "hash tags" to help identify the organization requesting and/or doing the mapping. It can also describe the mapping being done, e.g., "Mapping buildings."
+> Зверніть увагу, що унікальний теґ відстеження проєкту вже буде присутній, наприклад, #hotosm-project-11188 – **будь ласка, залиште його як є**, це дуже важливо для відстеження прогресу проєкту. Число в кінці теґу – це унікальний ідентифікатор вашого проєкту.
 
-> Users should be instructed to fill in meaningful comments about what they mapped, but helping them out with good default comments is always a good idea.
+#### Детальні інструкції
 
-**Detailed Instructions** - This is where the majority of your detailed instructions will be placed and what we expect every mapper and validator to read carefully and follow.
+Додайте докладні інструкції для маперів та валідаторів, які будуть працювати над вашим проєктом. Ваш проєкт буде публічним, тому **напишіть інструкції для малодосвідчених користувачів** що не мають місцевих або контекстуальних знань. Будь ласка, використовуйте просту мову, оскільки ваша цільова аудиторія може не володіти мовою в повному обсязі, додавайте також англомовні описи, відповідно.
 
-See the below notes on creating good instructions.
+1. Напишіть найважливішу інформацію у верхній частині, щоб вона була помітною. Це може включати опис зображення та попередження про проблему зі зміщенням зображення з вказівками. Або це може вказувати маперам не звертати увагу на путівці та стежки в проєкті мапінгу автодоріг і зосередитися на більш помітних автодорогах.
+2. Додайте контекст/місцеві специфічні інструкції. Вони значно варіюються, але допоможуть маперам інтерпретувати супутникові зображення. Наприклад, "Очікуйте багато круглих соломʼяних хат в цьому проєкті Південного Судану" або "Поселення у Гватемалі часто забудовані густо, збільшуйте масштаб для мапінгу кожної будівлі, щоб вони не зʼєднувалися або перекривалися". Додайте зображення у ці інструкції, щоб краще описати цей розділ.
+3. Обовʼязково додайте детальний опис **як мапити кожен обʼєкт**, який ви хочете додати. Подивіться на присутні (але останні) проєкти в Менеджері завдань, щоб побачити, чи можете ви позичити якийсь наявний текст (обережно, не всі  проєкти мають гарні інструкції!).
+4. Остаточний ресурс щодо тегування – [Вікі OpenStreetMap](http://wiki.openstreetmap.org/wiki/Uk:Map_Features). Для багатьох проєктів, повʼязаних з HOT, сторінка [теґування автодоріг в Африці](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) є відповідною спеціалізацією і може бути вартою посилання у вашій інструкції проєкту. Якщо ваш проєкт повинен дотримуватися інших стандартів теґування, то напишіть подібну сторінку у Вікі та посилайтеся на неї у вашій інструкції.
+5. Інші уточнення: Якщо проєкт підходить лише для маперів з певним рівнем досвіду. Наприклад, проєкт використовує дані для імпорту або наявні дані повинні бути вирівняні за допомогою GPS-треків або іншого зображення. Сформулюйте це так, щоб нові мапери почувалися запрошеними до участі в таких проєктах, але розуміли, що для цього вимагаються високопродуктивні техніки роботи.
+6. Існують настанови, які охоплюють поширені помилки, які ми бачимо під час перевірки. Один такий приклад – компіляція Блейка Жирардо про [мапінг в Західній Африці](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Використовуйте посилання в інструкціях та поясніть, що дотримання цих настанов є обовʼязковим.
 
-**Per Task Instructions** - These will be displayed when a mapper selects a task and also has a special feature that allows Task specific URLs to be crafted based on the typical "slippy map" x, y, z coordinates.
+#### Інструкції до завданнь.
 
-### Metadata
+Це необовʼязково, але можна додати короткий уривок додаткових інструкцій, який мапери побачать, працюючи над завданням. Їх видно з правого боку редактора Tasking Manager над розділом "Статус завдання". Їх буде видно впродовж усього процесу мапінгу, тому якщо є щось **особливо важливе**, про що ви хочете **проінструктувати маперів**, ви можете додати це тут.
+
+### Метадані
 
 ![TM Metadata][]
 
-> All of these fields should be filled in and will become non-optional in future versions of the Tasking Manager.
+#### Досвідченість маперів
 
-**Mapper Level** - This is an indication of the difficulty of the mapping project. There are 3 options Beginner, Intermediate and Advanced. This setting is an indication to the mapper what experience level they should have to be most successful in mapping the project. It can be used in project list filtering and the suggested level can be required in the Permissions screen.
+Це змінює рівень складності, який **показується** для вашого проєкту. Ретельно обдумайте це, складні проєкти, які неправильно встановлені на початковий рівень, **можуть призвести до значних проблем з якістю даних**.
 
-**Type of Mapping** - Used in project list filtering and helps mappers find projects they like to map.
+> Зверніть увагу, що це не впливає на те, хто **фактично може брати участь** у вашому проекту, ці обмеження реалізовані в підменю "Дозволи".
 
-**Organization** - The organization whose project managers should have administrative permissions for this project. The organization must have been previously registered with the Tasking Manager.
+Більшість проєктів встановлені на рівні **Beginner** або **Intermediate**, декілька проєктів встановлені на рівні Advanced.
 
-**Interests** - Used to suggest projects to mappers. Mappers specify their interests in their profile.
+- **Початківець** – Розгляньте цей варіант, якщо ваш проєкт є не складними для мапінгу та:
+  - Ви лише просите учасників додати один тип обʼєктів, наприклад **лише будівлі**
+  - Щільність обʼєктів низька, тобто в **сільській** місцевості
+  - Існує **низька кількість** наявних даних OSM у вашій проєктній області.
+  - Немає проблем з вирівнюванням зображень.
+- **Intermediate** – Якщо ваш проєкт є складнішим для мапінгу, це слід враховувати, якщо:
+  - Ви просите учасників додати до мапи більше одного обʼєкту, наприклад, будівлі **та** дороги
+  - Існує середня / висока щільність таких обʼєктів у вашій проєктній області, тобто **міські** райони
+  - У вашій проєктній області є **істотна кількість** даних OSM
+  - Можливі **проблеми з вирівнюванням зображень** або ви можете попросити учасників використовувати більше одного джерела зображень.
+- **Advanced** – Якщо проєкт є складним для мапінгу, розгляньте цей варіант, якщо:
+  - Дуже висока щільність обʼєктів у вашій проєктній області, тобто **центральні міські** райони
+  - Існує **багато** наявних даних OSM у вашій проєктній області.
+  - Є складнощі з **вирівнюванням зображень**
 
-**OSMCha filter ID** - OSMCha is offered as a link from the contributions overview. The standard filter confines output to the bounding box of the project and to contributions not older than the project creation date and with the name of the project in the changeset comment. If you think something different would be a better approach  to analyze the changesets of your project then either provide an OSMCha URL or an OSMCha filter id here.
+#### Типи мапінгу
 
-### Priority Areas
+Перемикачі включаються / вимикаються в залежності від обʼєктів, які ви хочете замапити у своєму проєкті. Загалом, **чим менше обʼєктів, тим краще**, оскільки проєкти, які мають на меті додавання занадто багато обʼєктів, часто мають проблеми з прогресом.
+
+> Проєкти, які вимагають додавання багатьої варіантів обʼєктів, є складними для маперів та складними для перевірки. Вони потребують набагато більше часу для отримання гарного корисного набору даних. Розміри завдань також складно зробити ефективними для різних типів мапінгу, наприклад, будівлі потребують невеликих завдань, дороги і водні шляхи потребують більших за розміром завдань. Найкращою практикою є створення кількох проєктів на одній території для окремого додавання будівель і автомагістралей/водних шляхів.
+
+#### Заготовки редактора iD
+
+Якщо ви виберете один або кілька елементів зі списку, то мапери, які використовують iD, зможуть призначити ці функції лише обʼєктам, які вони додають. Це рекомендується для початківців, проєктів, що стосуються лише **будівель**. Це означатиме, що учасники не зможуть позначати інші обʼєкти, навіть якщо вони спробують. Уникайте використання заготовок для складніших проєктів, оскільки це може швидко стати тягарем. Наприклад, проєкт з мапінгу автомагістралей потребуватиме десятки шаблонів, щоб забезпечити можливість додавання всіх типів автомагістралей.
+
+#### Організація
+
+Назва вашої організації повинна вже бути тут, інакше виберіть її зі списку в меню.
+
+#### Кампанія
+
+Якщо ви створили кілька проєктів, які повʼязані один з одним, ви можете привʼязати їх до кампанії. Користувачі можуть фільтрувати проєкти за назвою кампанії на сторінці «Пошук проєктів». Наприклад, якщо ваш проєкт повʼязаний з ліквідацією малярії, ви можете помістити його в кампанію "Усунення малярії". Щоб подати запит на створення додаткових назв кампаній, будь ласка, заповніть [цю форму](https://forms.gle/qafvkp4iAxnY6rjE6).
+
+#### Категорії
+
+Виберіть тут теми, які стосуються вашого проєкту. Учасники можуть вказати свої інтереси в цих категоріях на своїй сторінці налаштувань.
+
+#### ID фільтру OSMCha
+
+[OSMCha](https://osmcha.org/) – потужний інструмент контролю якості даних, який може бути корисним для відстеження внесків до вашого проєкту. Стандартний фільтр обмежує вивід до меж проєкту та внесків, які не старіші за дату створення проєкту та мають назву проєкту в описі до наборів змін. Якщо ви вважаєте, що інший підхід до аналізу змін вашого проєкту буде кращим, то надайте URL-адресу OSMCha або ідентифікатор фільтра OSMCha тут. Фільтр OSMCha доступний в кінці сторінки огляду вашого проєкту.
+
+### Пріоритетні ділянки
 
 ![TM Priority Area][]
 
-Use the provided tools to draw areas that should be mapped first. You can have multiple priority areas for a Project. You can also change priority areas at any time.
+Використовуйте інструменти тут, щоб накреслити області, які слід замапити першими. У проєкті може бути кілька пріоритетних областей. Ви також можете змінити пріоритетні області в будь-який час. Пріоритетна область буде виділена для учасників, щоб вони могли визначити пріоритети, і якщо вони виберуть "Мапити завдання", спочатку буде випадково вибране завдання з пріоритетної області.
 
-> During disaster mapping, early in the event, having a large project mapping area and using priority areas to focus mapping as new information comes in is a best practice.
+> Під час мапінгу надзвичайних ситуацій, на початку події, найкращою практикою часто є використання великої площі проекту та використання пріоритетних зон для фокусування мапінгу залежно від нової інформації, що надходить.
 
-### Imagery
+### Зображення
 
-URL Field - A field that takes a TMS URL that will passed automatically to the OSM Editor the mapper or validator uses. Please follow the example, it is very important it is formatted correctly to work in all editors.
+Зі списку випадаючого меню виберіть джерело зображень, яке ви хочете автоматично завантажити для вашого проєкту. Якщо зображення не вказано у списку, ви можете вибрати "Власне" і потім додати URL TMS.
 
-License - Optionally, if there is a specific license required for the mapper to accept in using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+> Зверніть увагу, що Tasking Manager **не може зберігати власні зображення**, вони повинні бути збережені зовнішньо та посилатися за допомогою URL-адреси TMS. Якщо ви задоволені тим, що ваші зображення відкриті для використання, розгляньте можливість використання [OpenAerialMap](https://openaerialmap.org/) для збереження вашого зображення.
 
-### Permissions
+Ліцензія – за бажанням, якщо маперам потрібно погодитись з  конкретною ліцензією на зображення, ви можете вибрати її тут. Наприклад, для зображень від Maxar це є "DigitalGlobe Satellite EULA". Якщо вам потрібна ліцензія, яка недоступна, ви можете звернутися до адміністратора Tasking Manager і попросити його додати її.
+
+### Дозволи
+
+У підменю "Метадані" ми можемо змінити рівень складності, який **показуватиметься** для проєкту. У підменю "Дозволи" ми можемо змінити, хто фактично може **отримати доступ** до проєкту. Важливо памʼятати про різні рівні доступів для користувачів:
+
+- **Початківець** – Будь-який користувач, який щойно створив свій обліковий запис або зробив **менше ніж 250 змін** (збережень)
+- **Досвідчений** – Будь-який користувач, який зробив від **250 до 500 змін**.
+- **Експерт** – Будь-який користувач, який зробив **понад 500 змін**
+
+> Як і раніше, дуже ретельно розглядайте дозволи. Складні проєкти, які помилково дозволяють всім користувачам брати в них участь, можуть зазнавати **значних проблем з якістю даних**.
 
 ![TM Permissions][]
 
-**Mapping permissions** - Allows you to require that a mapper is at the proper level to map on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a mapper to be part of a team. Teams can be selected below
+#### Дозволи на мапінг
 
-**Validation permissions** - Allows you to require that a mapper is at the proper level to validate on the project (Metadata screen above). Mapper levels can be set manually, but are automatically applied based on total changesets. You may also require a validator to be part of a team. Teams can be selected below
+Тут ви можете вибрати, хто може **мапити** ваш проєкт.
 
-**Teams** - Select teams for mapping and validation. If you do so then you can restrict mapping and/or validation to team members using the controls above. You may select several teams for each role. Select a team, select a role and press 'Add'. Once you added a team you may edit its role or delete the assignment.
+- Якщо у вашому проєкті легко брати участь і ви вважаєте його проєктом для початківців, ви, можливо, захочете встановити **'Будь-який користувач'**.
+- Якщо ваш проєкт є складнішим і вимагає більшого досвіду, обмежте мапінг лише **для користувачів що має досвідченими маперами або експертами**.
+- Якщо ви хочете бути ще більш вибірковими, то ви також можете вимагати, щоб мапер був частиною **команди**. Команди потрібно визначити нижче.
 
-**Privacy** - This restricts access to the project to those users who are part of the team to which the project belongs.
+#### Дозволи на перевірку
 
-### Settings
+Тут ви можете вибрати, хто може **підтверджувати** зміни у вашому проєкті. Підтвердження – це коли більш досвідчені мапери перевіряють внески, зроблені в рамках вашого проєкту, тому це повинно бути обмежено як **мінімум** до "Тільки досвідчені мапери або експерти". **Ідеально** було б обмежити перевірку ще більше до **"Тільки члени команди"**, але коли ви це робите, не забудьте **визначити ці команди** нижче.
+
+#### Команди
+
+Використовуйте фільтри для пошуку та додавання команд. Ви можете додати свою власну команду (команди), але, будь ласка, не соромтеся додавати інші команди. Після додавання команди обовʼязково виберіть роль (Мапер, Валідатор, Менеджер проєкту).
+
+Дозволи команди не працюватимуть, якщо ви не встановите обмеження дозволів на Мапінг та/або Перевірку "Тільки для членів команди". Якщо ви надасте менеджеру команді проєкту доступ, це дозволить членам її(його) команди бати участь в проєкті.
+
+> У Tasking Manager HOT ви можете додавайте дві з найбільших команд валідації, а саме 'HOT Global Validators' та 'Validator Trainees' від HOT. Зверніть увагу, що це дає цим членам команди **дозвіл** на валідацію вашого проєкту, але це **не обовʼязково означає**, що вони **будуть валідувати** ваш проєкт.
+
+#### Приватність
+
+Перемикання на режим "Приватний" приховає проєкт від усіх користувачів, крім тих, що належать до вищезазначених команд.
+
+### Налаштування
 
 ![TM Settings][]
 
-**Default Language** - Sets the default instructions language for a project.
+#### Типова мова
 
-**Editors** - Restricts the available editors to those checked. You may specify different sets for mapping and for validation.
+Зміна цього значення змінить типову мову для заголовка, опису та інструкцій вашого проєкту.
 
-**Enforce random selection** - If checked then users cannot select a specific task for mapping.
+#### Редактори для мапінгу/перевірки
 
-### Actions
+Це обмежує доступні редактори до позначених. Ви можете вказати різні набори для мапінгу та перевірки. Зверніть увагу, що тут можна активувати редактор RapiD, що має підтримку ШІ.
+
+#### Забезпечити випадковий вибір завдання
+
+Якщо ввімкнено, то учасники не можуть самі вибрати завдання для мапінгу.
+
+### Дії
+
+Тут ви можете виконувати потужні масові дії з вашим проєктом. **Будьте обережні** з багатьма з цих опцій, **вони необоротні**.
 
 ![TM Actions][]
 
-**Message all ccontributors** - Sends a Tasking Manager message to everyone who has marked a task complete or valid. It can be used to thank contributors and/or guide them to other projects in a portfolio/campaign. It should also be used before using either of the two Validate/Invalidate all Tasks options described below.
+#### Повідомлення всім учасникам
 
-**Mapping, validation and invalidation** - This will set the status of all tasks to either mapped, validated or invalidated. Handle with care as there is no undo.
+Відправляє повідомлення Tasking Manager усім, хто позначив завдання як виконане або валідне. Це може бути використано для подяки учасникам та/або направлення їх на інші проєкти в рамках кампанії. Також слід використовувати перед використанням будь-якої з двох опцій "Підтвердити/Скасувати валідність всіх завдань", описаних нижче.
 
-**Reset tasks** - This will reset all tasks to their pristine state but previous actions will still available in the task history. Handle with care as there is no undo.
+#### Мапінг, затвердження та відхилення
 
-**Transfer project ownership** - Lets you specify another user who will become the owner of this project. Handle with care as there is no undo.
+Це встановить статус всіх завдань на "mapped", "validated" або "invalidated". Використовуйте обережно, оскільки немає можливості скасування.
 
-**Clone Project** - This will create a duplicate of the project except for the mapping area, task grid and priority areas which you will need to re-import or re-draw.
+#### Скинути завдання
 
-**Delete Project** - This will permanently delete the project from the Tasking Manager. Handle with care as there is no undo. This action is no longer available as soon as any contributions have been made to the project.
+Це скине всі завдання до їхнього первісного стану, але попередні дії все ще можна побачити в історії завдань. Обережно, оскільки немає можливості скасування.
 
-### Instruction Notes
+#### Передача власності на проєкт
 
-Please use plain language as your target audience may not consist of native English speakers.
+Ви можете вказати іншого менеджера у вашій організації, який буде вказаний як автор проєкту. Шукайте їх за імʼям користувача OSM.
 
-1. The title of the project should already reveal what entities should be mapped. Prefer a title such as
-*#1396 - Missing Maps: Niger State (north), Nigeria (project 1: roads and residential areas )*
-2. The most important messages should appear on the instruction tab first to ensure they are read. This would include any special imagery to use instead of Bing. The first sentences could mention that it is not required to map every single house if the project is about roads and residential areas, for example. Or that it is required to map every house if the project is to be used for population density estimates. These are the messages that should also appear on the description tab.
-3. Other points of clarification: If the project is suitable for mappers with a certain level of experience only. For example, the project uses imports or existing data should be realigned to GPS traces or some other imagery (cf. the previous section). Phrase it so that new mappers will feel invited contributing to other projects but understand that advanced techniques are required in this instance.
-4. There are guidelines that cover common errors we see while validating. One example is Blake Girardot's compilation on [mapping in West Africa](http://wiki.openstreetmap.org/wiki/User:Bgirardot/West_African_HOT_Mapping_Tips). Use the link in the instructions and explain that adhering to these guidelines is required.
-5. The definitive resource on tagging is the [OpenStreetMap wiki](http://wiki.openstreetmap.org/wiki/Map_Features). For many HOT-related tasks the page on [tagging highways in Africa](http://wiki.openstreetmap.org/wiki/Highway_Tag_Africa) is the proper specialization and highly recommended reading for every mapper. If your project must adhere to different tagging standards then write a similar page in the wiki and link it in your instructions.
+#### Клонування проєкту
 
+Ця корисна опція створить дублікат проєкту, зберігаючи все **налаштування ідентичними**, за винятком області інтересу, сітки завдань та пріоритетних областей, які вам потрібно буде повторно імпортувати або повторно створити. Ця опція **заощадить вам багато часу**, якщо ви створюєте серію подібних проєктів, які охоплюють велику площу.
 
-### Considerations concerning Imagery
+#### Вилучення проєкту
 
-In most cases we use the "standard" Bing imagery. But there are situations where you might want to choose an alternative source:
+Це **назавжди видалить проєкт** з Менеджера завдань. Обережно поводьтеся, оскільки немає можливості скасувати цю дію. Неможливо видалити проєкт після того, як до нього були зроблені будь-які внески.
 
-1. Bing does not provide high-resolution coverage for your mapping area.
-2. Bing has considerable cloud cover in this area.
-3. You need newer imagery for post-disaster evaluation.
+### Власний редактор
 
-If Bing does not prove adequate then Mapbox is the next choice. You should only look for other sources if neither of these two meet your requirements.
+Якщо ви хочете посилатися на редактор, який не вказаний у меню "Налаштування", URL-адресу цього редактора можна додати тут.
 
-In such cases it is not sufficient to choose a license-compatible source and make it available through a WMS or TMS service. Your mapping area has probably already been partially mapped using Bing or Mapbox imagery and there might be a noticeable offset between images. You must have a close look at various locations of your mapping area and determine the offset between your imagery and previously mapped data. If the existing OSM data are offset with respect to your imagery but fit Bing imagery then we usually assume that Bing is the "gold standard" unless we have GPS traces which prove that this assumption is wrong.
+### Зберегти та перевірити
 
-If there is a constant offset between your imagery and Bing across the mapping area then this might be corrected on the server so that images from various sources loaded in the editor match. If this is not possible, if the offset varies across the mapping area or if existing data are aligned with various sources then it is time for plan B:
+Як тільки ви будете задоволені налаштуванням свого проєкту, натисніть `Зберегти`. Перегляньте свій проєкт, вибравши `Доступ до проєкту` та `Сторінка проєкту`. **Уважно перевірте свій проєкт**, переконайтеся, що інструкції зрозумілі, а формулювання та форматування правильні.
 
-The important point is that you must develop a strategy for how to cope with these issues and provide detailed instructions to mappers and validators. We strongly suggest that you declare such a project "for experienced mappers only" and explain that experience in this case does not mean having mapped 200+ buildings but having already dealt with alignment issues and different imagery sources.
+**Спробуйте замапити завдання**, чи завантажується зображення правильно? Чи достатньо зрозумілі інструкції? Якщо вам потрібно внести зміни або уточнення до вашого проєкту, натисніть кнопку `Редагувати` на сторінці проєкту.
 
-One possible strategy could include these steps:
+### Публікація
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Align the alternative imagery to existing features (and thus to Bing) using the imagery offset function of the editor.
-4. Add new features from the now correctly aligned alternative imagery.
+Після перевірки та тестування вашого проєкту, якщо ви задоволені ним і готові розпочати мапінг, натисніть кнопку `Редагувати` на сторінці проєкту та в меню «Опис» змініть статус на «Опубліковано». Після публікації проєкту широкий загал зможе побачити ваш проєкт та зробити свій внесок до нього.
 
-It is important that step 3 is repeated for every task of the project and the individual task squares should not be too large because imagery offsets can vary considerably across an mapping area, particularly if the terrain is not flat. Even imagery discontinuities may occur across a project - look out for them and advise the contributors of such a problem.
+> Зверніть увагу, що ви можете отримати доступ до меню "Редагувати" вашого проєкту та змінити налаштування в будь-який час, навіть якщо мапінг розпочався.
 
-Here are some suggested bits of information which you might include in the project instructions:
+## Управління проєктами
 
-- [general guidelines for various editors](https://wiki.openstreetmap.org/wiki/Using_Imagery)
-- [an animated gif on imagery alignment in iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
-- [the josm imagery alignment chapter in learnOSM](http://learnosm.org/en/josm/correcting-imagery-offset)
+Вітаємо! Ви створили проєкт, тепер вам потрібно буде переконатися, що ви ефективно ним керуєте.
 
+### Будьте на звʼязку
 
-### Proofread and Publish
+Як автор проєкту, ви **відповідальні** за **відповіді на запитання**, які виникають у розділі **Питання та коментарі** на сторінці вашого проєкту. Цей розділ часто містить корисні поради або підказки від широкої спільноти, серйозно ставтеся до них, відповідайте та вносьте зміни до своїх проєктів за необхідності.
 
-Proofread the various tabs to ensure wording and formatting are correct, and instructions are clear. If you need to make changes or refinements to your project, click the ‘Edit’ link in the upper right hand corner of the page. 
-If the project is ready for mapping, click the ‘Publish’ link. Once the project is published, it is available for mapping to anyone with an OSM account, unless a group of users was specified in the ‘Allowed Users’ tab, in which case only the allowed users would be able to work on it.  If necessary, edits can still be made to the project after publication by clicking on the ‘Edit’ link.
+> Щоб увімкнути сповіщення про нові повідомлення в розділі "Питання та коментарі", натисніть на своє імʼя користувача OSM в Менеджері завдань і виберіть `Налаштування`. Увімкніть сповіщення для "Питань та коментарів".
+
+На сторінці проєкту ваше прізвисько користувача також буде вказано поруч із "створив(ла) .…". Це означає, що ви також можете отримувати персональні повідомлення OSM, обовʼязково читайте їх і відповідайте на них.
+
+> Якщо ви перевантажені питаннями, будь ласка, зверніть увагу, що ви отримаєте менше, якщо дотримуватиметесь цих рекомендацій: _Перше, що ви можете зробити, щоб підтримати маперів та перевіряючих, це мати добре розроблені проєкти з легкими для розуміння, але детальними інструкціями та описами._
+
+### Послідовність проєктів
+
+Якщо ви створили кілька проєктів у серії **не публікуйте їх усі відразу**. Ви не єдиний, хто створює проєкти, мати розумну кількість проєктів (один або два) з відповідним пріоритетом – це нормально. Публікація пів дюжини відразу призведе до захаращення Менеджера завдань. Тримайте решту в чернетках або з нижчим пріоритетом, поки в будь-який момент відбувається робота з одним або двома пріоритетними проєктами. Ви можете помітити, що учасники втрачають ентузіазм, якщо бачать багато подібних проєктів одночасно, в яких лише незначний прогрес.
+
+### Проєктний цикл
+
+Слідкуйте за процесом мапінгу та перевірки вашого проєкту. Памʼятайте, що **всі проєкти повинні бути заархівовані**. Вам потрібно буде зробити це вручну, тому не втрачайте зору на прогрес, пріоритет або важливість вашого проєкту. Якщо ви переходите до іншої організації, переконайтеся, що **передаєте** ваші поточні проєкти вашому наступнику.
+
+## Додаткова інформація
+
+### Оцінка якості зображень
+
+Перед створенням вашого проєкту перевірте зображення в кількох різних місцях у вашій проєктній області, щоб зробити оцінку зображення. У більшості випадків зображення від Maxar або Bing повинні відповідати вашим потребам. Однак є ситуації, коли ви можливо захочете вибрати альтернативне джерело. Вам може знадобитися врахувати наступне при виборі зображення:
+
+1. Якщо потрібен детальний мапінг, оберіть зображення, яке є найчіткішим із найвищою роздільною здатністю.
+2. Якщо вашим пріоритетом є мати найсвіжіші зображення, перемикайтеся між джерелами стандартних зображень, щоб знайти найновіші зображення. Шукайте ознаки розвитку, такі як нові будівлі або очищення землі, щоб отримати уявлення про найсвіжіші зображення. Останнім часом Maxar був найсвіжішим, але це залежить від місця розташування.
+3. Перевірте наявність хмар, хоча одне джерело зображень може відповідати вашим потребам, якщо дуже хмарно або туманно, ваші мапери будуть мати проблеми з мапінгом за його допомогою.
+4. Перевірте вирівнювання, якщо є достатньо наявних даних OSM, які вирівнюються з одним набором супутникових зображень, то може бути розумним вибрати ті самі зображення. Якщо є проблеми з вирівнюванням, обовʼязково напишіть чіткі інструкції, в яких детально пояснено, як ви очікуєте, що учасники будуть розвʼязувати проблеми зі зсувами/вирівнюванням.
+
+> Часто дуже важко отримати точну дату знімка від постачальників супутникових зображень. Основні джерела – це "мозаїки", де зшиваються серії зображень (часто з дуже різними датами зйомки). Іноді цей процес зшивання відбувається на рівні окремих пікселів. У відсутності інформації порівняння зображень часто є найкращим вибором для пошуку найновіших зображень.
+
+#### Вирівнювання зображень
+
+Ваша проєктна область може бути частково замаплена за допомогою старіших зображень, і може бути помітна розбіжність між старими замапленими обʼєктами та новішими доступними зображеннями. Огляньте різні місця у вашій області мапінгу, щоб визначити це. Якщо є проблема зі зсуваом, обовʼязково включіть детальні інструкції, що описують найкращий підхід для як бути з цим. Проєкти з проблемами вирівнювання зображень найкраще підходять до більш досвідчених маперів.
+
+Не існує стандартного набору інструкцій щодо розвʼязання проблем з вирівнюванням зображень. Все сильно залежить від контексту. Іноді маперам наказують вирівнювати зображення по GPS-треках, іноді їм кажуть вирівнювати за вже нанесеними лінійними обʼєктами, такими як автостради та водойми. Ось приклад підходу:
+
+1. Чітко вкажіть, яке зображення слід вважати основним, до якого будь-що інше повинно бути вирівняне. У цьому випадку припустимо, що основним є Maxar.
+2. Переконайтеся, що всі наявні обʼєкти, які також видно на Maxar, вирівняні за зображеннями Maxar, тобто перевирівняйте, якщо потрібно.
+3. Додайте нові обʼєкти з коректно вирівняними зображеннями від Maxar.
+
+Часто маперам наказують шукати _найменший зусилля_ щодо проблем з вирівнюванням зображень. Це означає, що учасникам кажуть варіювати свій підхід залежно від ситуації у їхньому окремому завданні:
+
+- Якщо в задачі є багато наявних даних, які постійно неспівпадають, можливо, найменшим зусиллям буде змінити зсув зображення, щоб воно відповідало наявним даним, а потім замапити невелику кількість відсутніх у завданні обʼєктів.
+- Якщо існує менше даних або обʼєкти неспівпадають непослідовно (тобто ступінь невідповідності змінюється в просторі), тоді може бути легше змінити положення наявних обʼєктів, щоб вони вирівнялися з зображенням, а потім замапити решту обʼєктів у завданні.
+
+Якщо у вашому проєкті є проблеми з вирівнюванням, переконайтеся, що ваші квадрати завдань не занадто великі, оскільки зміщення зображень може значно варіюватися на всій області мапінгу, особливо якщо місцевість не рівна. Навіть розриви зображень можуть відбуватися в проєкті – будьте насторожі та повідомляйте учасників про таку проблему.
+
+> Хоча окремі учасники можуть вручну змінювати зсув зображення під час мапінгу, вам, як автору проекту, неможливо змінити зсув зображення на рівні всього проєкту. Однак, якщо ви використовуєте власне зображення, яке знаходиться в іншому місці, ви можете змінити зсув вихідного джерела. Проте, зверніть увагу, що вирівнювання може значно відрізнятися в різних просторових областях, і просто зміна загального зсуву не завжди виправляє проблеми з вирівнюванням.
+
+Будь ласка, не соромтеся перевірити ці додаткові ресурси щодо вирівнювання зображень.
+
+- [Загальні рекомендації для різних редакторів](https://wiki.openstreetmap.org/wiki/Uk:Using_Imagery)
+- [Анімований gif з вирівнюванням зображень в iD](https://wiki.openstreetmap.org/w/images/1/1a/Id-adjust-imagery.gif)
+- [JOSM розділ про вирівнювання зображень у learnOSM](http://learnosm.org/uk/josm/correcting-imagery-offset)
+
 
 [TM Tile Sizes]: /images/coordination/tm4_tile_sizes.png
 [TM Add Project]: /images/coordination/tm4_new_project.png
 [TM New]: /images/coordination/tm4_create_new.png
-[TM Draw AoI]: /images/coordination/tm4_draw_aoi.png
+[TM New Polys]: /images/coordination/tm4_create_new_polys.png
 [TM Trim]: /images/coordination/tm4_trim1.png
 [TM Trim coarse]: /images/coordination/tm4_trim2.png
 [TM Trim fine]: /images/coordination/tm4_trim3.png

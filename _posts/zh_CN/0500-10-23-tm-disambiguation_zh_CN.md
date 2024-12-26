@@ -1,16 +1,16 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+permalink: /zh_CN/coordination/tm-disambiguation/
+lang: zh_CN
+title: Tasking Manager版本
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
+Tasking Manager版本
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+此页面为你概述了我们提供文档的Tasking Manager版本。选择屏幕截图与你要使用的软件相匹配的版本的指南之一。
 
 <div class='disambiguation-version' markdown="1">
 ## Version 4 ##
@@ -23,7 +23,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[用户指南](/zh_CN/coordination/tm-user) [管理员指南](/zh_CN/coordination/tm-admin)
 </div>
 </div>
 
@@ -38,7 +38,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
+[用户指南](/zh_CN/coordination/tasking-manager3) [管理员指南](/zh_CN/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
@@ -54,7 +54,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
+[用户指南](/zh_CN/coordination/tasking-manager) [管理员指南](/zh_CN/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

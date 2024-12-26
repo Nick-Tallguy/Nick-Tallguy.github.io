@@ -16,7 +16,7 @@ Thank you for volunteering to help the local communities and the Aid Organisatio
 
 Like you, we want to help as quickly as possible, and there is a real sense of urgency in what we do. But, the reason the Aid Organisations depend on us for map data is because we take time to make sure that what we produce is useful and meets their needs. We need you to take care too. Although it will delay you starting to update the map we need you to understand how and what to map fully before you start. Please do not rush in and start mapping without watching or reading some of the tutorials available first. It takes us much longer to clean up mistakes in mapping than it does to create them, and they may cause a care worker to have doubts about the dependability of the maps we produce.  
 
-Only experienced people can review mapping work and mark it as "validated". **If you select a task square and the red button says 'Validate selected task' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
+Only experienced people can review mapping work and mark it as "validated" - please keep mapping and you will become one of our mapping validators in the future. **If you select a task square and the red button says 'Validate selected task' then please just click on another task square, because that review is something that needs an experienced mapper to complete.**  
 
 We don't need you to read all of this site before you start, but we do need you to understand the basics:  
 

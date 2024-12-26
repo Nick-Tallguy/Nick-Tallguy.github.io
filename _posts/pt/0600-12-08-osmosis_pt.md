@@ -1,124 +1,124 @@
 ---
 layout: doc
-title: Manipulating Data with Osmosis
+title: Manipulação de dados com Osmosis
 permalink: /pt/osm-data/osmosis/
 lang: pt
 category: osm-data
 ---
 
-Manipulating Data with Osmosis
+Manipulação de dados com Osmosis
 ===============================
 
 
-**Osmosis** is a powerful command-line tool for manipulating and processing raw **.osm** data. It is often used for processing large data files, for splitting OSM files into smaller pieces, and for applying a changeset to update an existing file.  
+O **Osmosis** é uma poderosa ferramenta de linha de comandos para manipular e processar dados brutos **.osm**. É frequentemente utilizada para processar grandes ficheiros de dados, para dividir ficheiros OSM em partes mais pequenas e para aplicar um conjunto de alterações para atualizar um ficheiro existente.  
 
-There are a great many functions available with Osmosis, and you can read about each in detail on the [Wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). However many of the functions are quite complex and difficult to understand, particularly if you are just getting started with command-line programs and OpenStreetMap. This chapter will serve to introduce Osmosis, install it on Windows, and get started with a basic Osmosis command.  
+Há um grande número de funções disponíveis no Osmosis, e pode ler sobre cada uma delas em pormenor na [wiki](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.41). No entanto, muitas das funções são bastante complexas e difíceis de compreender, particularmente se estiver a iniciar-se nos programas de linha de comandos e no OpenStreetMap. Este capítulo servirá para apresentar o Osmosis, instalá-lo no Windows e começar com um comando básico do Osmosis.  
 
-Install Osmosis
+Instalar o Osmosis
 ----------------
 
-Like osm2pgsql in the previous chapter, we will need to download and set up **osmosis** so that we can run it from the command line. The process for this will be very similar to osm2pgsql.  
+Tal como o osm2pgsql no capítulo anterior, teremos de descarregar e configurar o **Osmosis** para o podermos executar a partir da linha de comandos. O processo para isso será muito similar ao do osm2pgsql.  
 
-You will also need some raw OSM data to work with. If you want to follow the examples in this chapter, download our sample file [here](/files/sample_osmosis.osm.pbf). You may also use a raw data file of your choosing.  
+Também vai precisar de alguns dados OSM em bruto para trabalhar. Se quiser seguir os exemplos deste capítulo, descarregue o nosso ficheiro de amostra [aqui](/files/sample_osmosis.osm.pbf). Também pode utilizar um ficheiro de dados em bruto à sua escolha.  
 
-Follow these steps to download and prepare Osmosis:  
+Siga estes passos para descarregar e preparar o Osmosis:  
 
-- First, download Osmosis [here](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
-- Unzip the folder and place it somewhere on your system where it will not be moved. We will need to add its location to the system path so that it can be run from the command line.  
+- Primeiro, descarregue o Osmosis [aqui](http://bretth.dev.openstreetmap.org/osmosis-build/osmosis-latest.zip).  
+- Descompacte a pasta e coloque-a num local do sistema onde não possa ser movida. Teremos de adicionar a sua localização ao caminho do sistema para que possa ser executado a partir da linha de comandos.  
 
 ![unzip it][]
 
-- Click on the Start Menu and type “system path.”  
+- Clique no menu Iniciar e escreva "system path" (caminho do sistema).  
 
 ![system path][]
 
-- You should see an option named “Edit the system environment variables.”  Click on it.  
+- Deverá ver uma opção chamada "Edit the system environment variables" (Editar as variáveis de ambiente do sistema). Clique nela.  
 
 ![edit variables][]
 
-- Click on the button named “Environment Variables.”  
+- Clique no botão “Environment Variables” (variáveis de ambiente).   
 
 ![env variables][]
 
-- At the bottom find the variable named “Path” and click “Edit...”  
+- Na parte inferior, localize a variável denominada "Path" e clique em "Editar...”  
 
 ![find path][]
 
-- You must add the directory where osmosis.bat is located to the Path variable.  
+- É necessário adicionar o diretório onde se encontra o ficheiro osmosis.bat à variável Path.  
 
 ![edit path][]
 
-- Add a semicolon to the end of the previous directory and then type in the full directory path of osmosis.  For example, if you put the **osmosis-latest** folder 	directly in the **C:\\** directory the path would be:  
+- Adicione um ponto e vírgula ao final do diretório anterior e, em seguida, digite o caminho completo do diretório do Osmosis. Por exemplo, se você colocar a pasta **osmosis-latest** 	diretamente no diretório **C:\\**** o caminho seria:  
 	
       C:\osmosis-latest\bin
 
-- Click OK several times to save the new settings.  
-- **osmosis** should be functioning now. Let's check it.  
-- Open the Windows Command Prompt. You can do this by clicking on the Start Menu and typing "**cmd**". The Command Prompt application will come up and you can press Enter or click on it.  
+- Clique várias vezes em OK para guardar as novas definições.  
+- O **Osmosis** deve estar a funcionar agora. Vamos verificar.  
+- Abra a linha de comandos do Windows. Para isso, clique no menu Iniciar e digite "**cmd**". A aplicação da linha de comandos aparecerá e pode premir Enter ou clicar nela.  
 
 ![cmd][]
 
-- In the black command window that opens, type:  
+- Na janela de comandos preta que se abre, digite:  
 
       osmosis
 
-- If everything is working right, you should get a message like this:  
+- Se tudo estiver a funcionar corretamente, deverá receber uma mensagem como esta:  
 
 ![osmosis test][]
 
-- If you don't see output like this, and it says that it cannot find the application **osmosis**, then you may have entered the Path variable incorrectly.  
+- Se não vir resultados como este e disser que não consegue encontrar a aplicação **osmosis**, então poderá ter introduzido incorretamente a variável Path.  
 
-Filtering Data
+Filtrar dados
 ---------------
 
-Osmosis should be working correctly from the command line now. In order to work run operations on our data file, we need to change the working directory to the place that we've put the **sample_osmosis.osm.pbf** file. To make things simple, we have placed this file in the **C:\ directory**.  
+O Osmosis deve estar agora a funcionar corretamente a partir da linha de comandos. Para executar operações no nosso ficheiro de dados, temos de mudar o diretório de trabalho para o local onde colocámos o ficheiro **sample_osmosis.osm.pbf**. Para simplificar as coisas, colocámos este ficheiro no **diretório C:\**.  
 
-- To change the working directory in the command prompt to the C:\ directory, type the following command and press Enter:  
+- Para alterar o diretório de trabalho na linha de comandos para o diretório C:\, digite o seguinte comando e pressione Enter:  
 
       cd C:\
     
-- The prompt should change, indicating that you are now in the C:\ directory.  
+- A linha de comandos deve mudar, indicando que está agora no diretório C:\.  
 
 ![cd command][]
 
-Now let's learn our first Osmosis command. We will run a command that filters all of the schools from our large file.  
+Agora vamos aprender o nosso primeiro comando Osmosis. Vamos executar um comando que filtra todas as escolas do nosso grande ficheiro.  
 
-In order to do this, we need to tell Osmosis a few things. We need to specify:  
+Para o fazer, precisamos de dizer ao Osmosis algumas coisas. Precisamos de especificar:  
 
-- an input file (sample_osmosis.osm.pbf)  
-- some rules which define what we want to filter  
-- an output file (we will output an uncompressed .osm file so we can open it in JOSM)  
+- um ficheiro de entrada (sample_osmosis.osm.pbf)  
+- algumas regras que definem o que queremos filtrar  
+- um ficheiro de saída (vamos produzir um ficheiro .osm não comprimido para o podermos abrir no JOSM)  
 
-The command we will run is:  
+O comando que vamos executar é:  
 
       osmosis --rbf sample_osmosis.osm.pbf --nkv keyValueList="amenity.school" --wx schools.osm
 
-Try running this command in the command prompt. When it finishes, you should see a new file in your directory, called **schools.osm**. If we open the new file in JOSM, we can see that only the schools have been filtered out from the sample file.  
+Tente executar este comando na linha de comandos. Quando terminar, deverá ver um novo ficheiro no seu diretório, chamado **schools.osm**. Se abrirmos o novo ficheiro no JOSM, podemos ver que apenas as escolas foram filtradas do ficheiro de amostra.  
 
 ![schools osm][]
 
-Let's take a look at the command we ran piece by piece to understand how it all works. First, we call the name of the program.
+Vamos dar uma olhadela ao comando que executámos, peça por peça, para perceber como tudo funciona. Primeiro, chamamos o nome do programa.
 
       osmosis
 
-Next, we supply the input file. Remember that this file is a compressed format.  **--rbf** is actually shorthand for **--read-pbf-fast**. Osmosis understands that the file we supply after this flag is the file we want to read from.  
+Em seguida, fornecemos o ficheiro de entrada. Lembre-se que este ficheiro é um formato comprimido. **--rbf** é na verdade uma abreviação para **--read-pbf-fast**. O Osmosis entende que o ficheiro que fornecemos depois desta flag é o ficheiro a partir do qual queremos ler.  
 
       --rbf sample_osmosis.osm.pbf
 
-The next bit of our command says *--nkv keyValueList="amenity.school"*. You might guess that this indicates that osmosis should filter out everything with the tag **amenity=school**. **--nkv** is shorthand for **--node-key-value**. This command indicates that Osmosis should filter out only nodes with the keys and values supplied in the following list. Additionaly key.value sets can be added by placing commas in between them.  
+A parte seguinte do nosso comando diz *--nkv keyValueList="amenity.school "*. Pode adivinhar que isto indica que o Osmosis deve filtrar tudo o que tem a etiqueta **amenity=school**. **--nkv** é a abreviatura de **--node-key-value**. Este comando indica que o Osmosis deve filtrar apenas nós com as chaves e valores fornecidos na lista a seguir. Podem ser adicionados conjuntos adicionais de chave.valor colocando vírgulas entre eles.  
 
       --nkv keyValueList="amenity.school"
 
-Lastly, we supply the name and format of the output file. We use the flag **-wx**, which is shorthand for **--write-xml**. Note that we could also use **--wb**, which is the counterpart to **--rbf**, if we wanted to output the data again in PBF format.  
+Por fim, fornecemos o nome e o formato do ficheiro de saída. Usamos a flag **-wx**, que é uma abreviatura de **--write-xml**. Note que também poderíamos usar **--wb**, que é a contrapartida de **--rbf**, se quiséssemos produzir os dados novamente no formato PBF.  
 
       --wx schools.osm
 
-Moving Forward
+Avançar
 ---------------
 
-The number of processing tasks that can be done with Osmosis is enormous, and to learn more it is best to refer to the [Osmosis Detailed Usage](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.43) page on the Wiki.  
+O número de tarefas de processamento que podem ser feitas com o Osmosis é enorme e para saber mais é melhor consultar a página [Utilização pormenorizada do Osmosis Detailed Usage](http://wiki.openstreetmap.org/wiki/Osmosis/Detailed_Usage_0.43) na wiki.  
 
-One useful task is being able to divide a big raw OSM file into separate parts, either by supplying rectangles or by creating bounding polygon files. You can get a basic grounding in this process at the [Osmosis Examples page](http://wiki.openstreetmap.org/wiki/Osmosis/Examples).  
+Uma tarefa útil é ser capaz de dividir um grande ficheiro OSM em partes separadas, quer fornecendo retângulos, quer criando ficheiros de polígonos delimitadores. Pode obter uma base básica sobre este processo na página [Página de exemplos Osmosis] (http://wiki.openstreetmap.org/wiki/Osmosis/Examples).  
 
 [unzip it]: /images/osm-data/unzip-it.png
 [system path]: /images/osm-data/system-path.png

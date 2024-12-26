@@ -11,154 +11,154 @@ JOSM入门
 =============================
 
 
-How to download and install JOSM, the Java OpenStreetMap editor, change some of the settings, open a sample map and learn some of the basic operations of the software. Remember in the introduction chapter when we asked you to draw a map of your town or village? We will conclude this chapter by drawing your map again, this time digitally. After this you should have a good understanding of how to draw maps in JOSM.
+本节介绍如何下载并安装Java OpenStreetMap编辑器JOSM、修改部分设置、打开示例地图、学习软件部分基本操作。还记得在引言章节中我们请你绘制你的城镇或村庄的地图吗？本章我们将再次绘制你的地图，不过这次是电子地图。学完本章你将对如何在JOSM中绘制地图深有了解。
 
 下载JOSM
 -------------
 
--   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
--   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
--   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
--   You can also find the JOSM website by searching the internet for “JOSM”.
--   The website should look something like this:
+-   如果你在CD或U盘里有JOSM的安装包，你可以跳过本节直接到下一节——安装JOSM。
+-   如果你还没有JOSM，或者想用最新版，打开浏览器——比如Firefox、Chrome、Opera或者Internet Explorer。
+-   在窗口顶部的地址栏中输入下列内容并按回车： [josm.openstreetmap.de](http://josm.openstreetmap.de)
+-   你也可以通过在互联网上搜索“JOSM”找到JOSM网站。
+-   网站看起来应该是这样：
 
     ![JOSM website][]
 
--   If you have Windows installed on your computer, click “Windows Installer” to download JOSM.
+-   如果你的电脑安装的是Windows系统，点击“Windows安装包(Windows Installer)”下载JOSM。
 
     ![Windows installer][]
 
--   If you have a different operating system, click on the link for your system. Your download should begin. In this chapter we will assume that you are using Windows, but the instructions are similar for other operating systems.
+-   如果你使用的是其他操作系统，点击你的系统对应的链接，此后下载将会开始。本章我们假设你使用Windows系统，但是其他操作系统的安装教程也会类似。
 
 安装JOSM
 ------------
 
->  You may have problems installing JOSM if Java is not already installed on your computer. If you have problems in this section, try downloading and installing Java. You can download it here: <http://www.java.com/en/download/>
+>  如果你的计算机尚未安装Java，你的安装过程可能出现问题。 如果你在这个环节出现问题， 请尝试下载并安装Java。你可以从这里下载Java： <http://www.java.com/en/download/>
 >
->  Mac users may have old versions of Java. Please see <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> for options for OSX 10.6 and 10.7.3+
+>  Mac电脑用户可能使用旧版的Java。有关OS X 10.6和10.7.3以上版本操作系统的选项，请参阅 <http://wiki.openstreetmap.org/wiki/JOSM/Mac#Installation> 
 
--   Find the JOSM install file on your computer. Double-click it to begin setup.
--   Click ‘OK’, ‘Next’, ‘I Agree’, and ‘Install’. When the installation is complete, click ‘Finish’ to launch JOSM for the first time. Later, when you want to start JOSM, you can do so by clicking on the Start Menu in the lower left corner of your computer, and clicking the program JOSM.
--   You may see a window pop up that asks if you want to update the software.  You don’t need to update it since it is new.  Press the button that says “Cancel.”  If you don’t ever want to see this message again, check the box at the bottom before pressing “Cancel.”
--   When JOSM starts, it will look something like this:
+-   在你的电脑上找到JOSM安装包，双击它开始安装。
+-   依次点击“确认” “下一步” “同意” “安装”。当安装完成时，点击“完成”首次启动JOSM。之后你想打开JOSM的时候，你可以通过点击屏幕左下角的开始菜单，再点击其中的JOSM程序。
+-   你可能会看到弹窗询问是否更新软件。你不必更新因为它就是最新版。点击“取消”按钮。如果你不想再看到这个消息，在按下“取消”前勾选底部的复选框。
+-   JOSM的启动画面如下：
 
     ![JOSM splash page][]
 
 JOSM首选项(偏好设置)
 ----------------
 
-There are many different settings that you can customize in JOSM.  One setting that you may want to adjust is the language. JOSM has been translated into numerous languages, and you may prefer to work in a different one.
+JOSM中有很多你可以自定义的设置。你可能想设置程序的语言。JOSM已经被翻译成多种语言，你可能想使用默认语言之外的语言。
 
--   To access the Preferences window, click Edit -> Preferences.
+-   要进入首选项窗口，点击编辑 -> 首选项。
 
     ![Preferences window][]
 
--   On the left side, click the icon that looks like a paint can and paint brush.
--   At the top of the window, click the tab that says “Look and Feel”.
--   Choose your language in the dropdown box next to the word “Language”.
+-   在窗口左侧，点击看起来像颜料桶和画刷的图标。
+-   在窗口顶部，点击“外观与感觉”标签。
+-   在“语言”下拉菜单中选择你的语言。
 
     ![Look and feel][]
 
--   Click OK.
--   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
+-   点击“确定（OK）”。
+-   你需要重启JOSM才能保存设置。点击左上角的“文件”，点击菜单底部的“重新启动”。
 
-学习JOSM基本绘图
+学习使用JOSM进行基本绘图
 -----------------------------
 
--   Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap.
--   Download the file here: [sample.osm](/files/sample.osm)
--   Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left.
+-   现在我们打开一个OSM示例文件，我们将用这个文件学习用JOSM绘图的基本方法。注意这张地图是虚构的，因为它不是任何实际存在的地点的真正地图，所以我们将不把它保存到OpenStreetMap。
+-   从此处下载示例文件： [sample.osm](/files/sample.osm) 
+-   用JOSM打开示例地图文件。点击左上角的“打开”按钮。
 
     ![Open file][]
 
--   Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else. Click on it, and then click “Open”.
--   You should now see a sample map that looks like this:
+-   找到**sample.osm**文件。它可能在你的下载文件夹，如果你没有把它存到其他地方的话。点击该文件再点击“打开”。
+-   你会看到如图所示的示例地图：
 
     ![Sample file][]
 
--   You will use these data in order to try various editing techniques. _You must however never upload these fictitious data to the database._
+-   你将使用这些数据来尝试各种编辑技术。 _然而，你决不能将这些虚构的数据上传到数据库中。_
 
 ### 基本操作
 
--   To move the map left or right, up or down, hold your right mouse button down, and move your mouse.
--   There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse.
+-   要上下左右移动地图，按住鼠标右键并移动鼠标。
+-   有几种方式可以缩放地图。如果你有鼠标，你可以通过滚轮缩放。如果你用的是笔记本电脑，没有鼠标，你可以用地图窗口左上角的滑动条控制缩放。按住鼠标左键并左右移动该条，可以左右滑动该条。
 
     ![Scale bar][]
 
--   Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button.
+-   请看示例地图。图上有几种不同类型的对象。有一条河流、一片森林、几栋建筑、几条道路，还有几家店铺。要选中一个对象，用鼠标左键点击它即可。
 
 ### 点、线、面
 
--   As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes.
--   Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart.
--   There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located.
--   Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends.
+-   当你在示例地图上点击不同对象的时候，注意图中共有三种类型的对象，分别是点、线、面。
+-   点是一个用符号表示的位置。在例图上有两个点，一家鞋店和一家超市。鞋店由鞋的符号表示，超市由购物车表示。
+-   例图中还有一些线划代表道路。如果你拉大看，那几条线里也是有点的。这些点没有任何符号或其他与之关联的信息，但是它们是用来定义线的位置的。
+-   最后，例图上有许多面，它们表示不同的地点——一片森林、一条河流、一个公园，还有建筑物。面用来表示一个区域，例如田野或建筑。面实际上和线很相像——唯一的区别是面是一条首尾相连的线。
 
 > 很容易理解一幅地图包含这三类基本对象——
-> 点、线、面。而在OpenStreetMap，有专门的术语
+> 点、线、面。在OpenStreetMap，有专门的术语
 > 来称呼这些对象，你很快就会学到。在OSM上，点事实上被称为
 **节点(node)**，线被称为**路径(way)**，面被称为**封闭路径(closed way)**。
 > 这是因为面本身就是一条首尾相连的线。
 
--   You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else.
--   Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?
+-   你可能已经注意到，当你选中对象时，地图右侧的“属性”窗口会显示一张列表。这些属性被称为标签。标签是与点线面关联的信息，用于描述这些形状到底是什么。我们将在此后的章节中学到更多标签。现在你只需要知道标签里的信息是用来描述森林、河流、建筑或者其他东西的。
+-   想一想手工绘制的地图，你在上面是怎么绘制点线面的。其他类型的地点最好该用点、线还是面来表示？
 
 ### 修改对象
 
--   Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
--   Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point.
+-   选择地图左侧的森林。确保点在了森林周围的线上，而不是线上的点。现在按住鼠标左键拖动鼠标，你应该可以在图上把森林移动到新位置。
+-   点击围绕森林的线上的点，按住鼠标左键并拖动鼠标。你应该能够移动该点。这就是修改对象的形状或移动点位的方法。
 
 ### 绘图
 
--   On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse.
--   The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones.
--   Until now, you have been using the Select tool, which looks like this:
+-   JOSM的左侧有一列按钮。其中许多按钮是用来打开右侧的新窗口的，这些窗口提供有关地图的更多信息。而最重要的按钮在这一列图标的顶部。这些按钮可以改变鼠标的功能。
+-   这列按钮顶部的那些是你最常用的。他们用来选择已有对象或绘制新对象。
+-   到目前为止，你已经用过了选择工具，看起来是这样：
 
     ![Select tool][]
 
--   Before you draw, you need to make sure that nothing is selected. Click in the black space on the map, where it is empty, to make sure nothing is selected.
--   Click on the second button, the Draw tool.
+-   在你绘图之前，你需要确保没有选中任何对象。点击地图空白处的黑色部分，确保未选中任何对象。
+-   点击第二个按钮，绘制工具。
 
     ![Draw tool][]
 
--   Find an empty area on the map, and double-click with your mouse. This will draw a single point.
--   To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse.
--   Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line.
+-   在图中空白处双击鼠标。这样就绘制了一个点。
+-   画线则要单击鼠标，然后移动鼠标并再次点击，直到画好为止。要结束线的绘制，双击鼠标。
+-   画面的方法和画线一样，但是结束面的方法是在线的起点双击鼠标。
 
 ### 添加预设组合
 
--   Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else.
--   Click on the Select tool, in the column of buttons on the left.
+-   现在我们掌握了绘制点线面的方法，但是我们仍然无法定义形状所表示的内容。我们想要让我们的点变成商店、学校等等，或者把面变成田野、建筑等。
+-   点击选择工具，它在左侧的一列按钮里。
 
     ![Select tool][]
 
--   Select one of the objects that you drew with the Draw tool. On the top menu, click “Presets”. Move your mouse through the sub-menu to the type of location you would like to define.
--   When you click on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object.
--   When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is.
+-   选择你刚刚用绘图工具绘制的对象。在顶部的菜单栏中点击“预设组合”。将鼠标移至你想要标注的地物类型的子菜单上。
+-   当你点击预设组合时，会弹出一个表单询问更多信息。你不一定要每栏都填满，但是你还是要填上一些重要栏目，比如对象的名称。
+-   当你输完信息时，点击“应用预设组合”。如果一切正常，你的点、线、面就会变成相应的颜色或符号。这是因为你已经定义了它是什么。
 
 绘制自己的地图
 -----------------
 
--   Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously.
--   Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on.
--   Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu.
--   When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm.
+-   现在我们画张地图来练习你刚刚学会的技术。你可以把上次在纸上画的地图重画一遍。
+-   从例图处拖动地图。按住鼠标右键并移动鼠标，直到找到一处可以继续绘制的空白区域。
+-   使用绘图工具创建点线面等形状，通过选择预设组合菜单中的项来描述这些形状。
+-   画完后，你应该有了自己的地图，和我们打开的sample.osm样图差不多。
 
-Remove the sample layer
+移除示例图层
 -----------------------
 
-Once you feel comfortable with these basic editing techniques you might want
-to turn your attention to mapping real features.
+一旦你对这些基本的编辑技术感到满意，你可能想
+把注意力转向测绘真实的特征。
 
-_It is very important that you first remove the layer with the sample data.
-These data are fictitious and must not be uploaded to the OpenStreetMap
-database (newer JOSM releases automatically prevent this)._
+_非常重要的是，你首先要删除带有样本数据的图层。
+这些数据是虚构的，不得上传到OpenStreetMap
+数据库（较新的JOSM版本会自动防止这种情况发生）。_
 
-In the Layers window on the upper right of the screen select the sample.osm layer.
-Then click on the trash can icon in the lower right corner of that window.
-Alternatively you can choose delete from the context menu of the layer.
-In order to continue editing you first need to download real data.
-This will be explained in the next chapter.
+在屏幕右上方的图层窗口中选择sample.osm图层。
+然后点击该窗口右下角的垃圾桶图标。
+或者你也可以从图层的上下文菜单中选择删除。
+为了继续编辑，你首先需要下载真实数据。
+这将在下一章解释。
 
 小结
 -------

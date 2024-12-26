@@ -1,43 +1,43 @@
 ---
 layout: doc
-title: Starting with a Tasking Manager - iD editor
+title: Começar com um Gestor de Tarefas - editor iD
 permalink: /pt/hot-tips/getting-started/
 lang: pt
 category: hot-tips
 ---
 
-Starting with a Tasking Manager - iD editor
+Começar com um Gestor de Tarefas - editor iD
 ============
 
-> Updated 2019-06-26  
+> Atualizado em 2019-06-26  
 
 - TOC
 {:toc}
 
-This guide is written for the [HOT Tasking Manager](http://tasks.hotosm.org/), but the principles are the same for all versions.  
+Este guia foi escrito para o [Gestor de Tarefas HOT] (http://tasks.hotosm.org/), mas os princípios são os mesmos para todas as versões.  
 
-The Essentials
+O essencial
 --------------
 
 ![TM Start][]
 
 
-1. Go to a Tasking Manager (TM) site, for example <http://tasks.hotosm.org/>. Using your <http://www.openstreetmap.org> login, authorise the Tasking Manager to access your OpenStreetMap account.  
-2.  Start on a project designed for new mappers - these are often 'buildings only' projects.  
-3.  Read the **Description** and **Instructions** and make sure you understand what is needed before you start. 
-4.  The mapping is checked by 'validators' who often send messages giving valuable feedback on your contributions.  
-5.  Start mapping - you may need to read more of the sections in this HOT Tips chapter to get you going. HOT Tips sections on [round buildings](/en/hot-tips/tracing-round-buildings/) or [Buildings with square corners](/en/hot-tips/tracing-rectangular-buildings/) may help.  
-6.  Save regularly - see [HOT tips - saving](/en/hot-tips/saving/)  
-7.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+1. Vá a um site do Gestor de Tarefas (TM), por exemplo <http://tasks.hotosm.org/>. Usando o seu login <http://www.openstreetmap.org>, autorize o Gestor de Tarefas a aceder à sua conta OpenStreetMap.  
+2. Começar um projeto concebido para novos mapeadores - estes são frequentemente projetos de "apenas edifícios".  
+3. Leia a **Descrição** e as **Instruções** e certifique-se de que compreende o que é necessário antes de começar. 
+4. O mapeamento é verificado por 'validatores' que enviam frequentemente mensagens com comentários valiosos sobre os seus contributos.  
+5. Comece a mapear - pode ser necessário ler mais secções neste capítulo de Dicas HOT para começar. As secções das Dicas HOT sobre [Edifícios redondos](/pt/hot-tips/tracing-round-buildings/) ou [Edifícios com cantos quadrados](/pt/hot-tips/tracing-retangular-buildings/) podem ajudar.  
+6.  Guardar regularmente - ver [Dicas HOT - guardar](/pt/hot-tips/saving/)  
+7. Seja paciente - por vezes há falta de validadores e muitos mapeadores novos, todos a quererem feedback! Continue a mapear, mas quando se aperceber que cometeu um erro (todos cometemos!) veja se o consegue corrigir ou peça ajuda.  
 
 
 
 Ver também  
 ---------
 
-The [Tasking Manager 3 Guide on LearnOSM](/en/coordination/tasking-manager3/)  
+O Guia do [Tasking Manager 3 em LearnOSM](/pt/coordination/tasking-manager3/)  
 
-[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tasking Manager Tutorial Videos")  
+[![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Vídeos tutoriais do Gestor de Tarefas")  
 *As legendas estão disponíveis em alguns idiomas*  
 
 

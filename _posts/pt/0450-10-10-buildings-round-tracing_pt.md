@@ -1,74 +1,74 @@
 ---
 layout: doc
-title: Tracing round buildings - iD editor
+title: Traçar edifícios redondos - editor iD
 permalink: /pt/hot-tips/tracing-round-buildings/
 lang: pt
 category: hot-tips
 ---
 
-Tracing round buildings - iD editor
+Traçar edifícios redondos - editor iD
 ============
 
-> Updated 2019-06-24
+> Atualizado em 2019-06-24
 
 - TOC
 {:toc}
 
-The Essentials
+O essencial
 ----------
 
 ![Round Buildings][]
 
 
-Points to note;  
+Pontos a ter em conta;  
 
-- Place your points where the walls will reach the ground - 3 points is the minimum. Double click on the last point to finish tracing an area. Use the tool to make it round - shortcut **o** in English.  
-- Make sure you tag!  
-- Size matters - *population estimates are based on the cumulative building area in a given area*,  
-- Zoom in enough to see the details - a zoom scale of 20 metres or less is usually about right.  
-- **Looking for buildings** - scan with your scale somewhere between 50 metres and 80 metres. Watch out for shadows and straight lines (round buildings are harder to find!)  
-- Buildings and roads, rivers, **landuse=residential** boundaries or other features should not overlap.  
-- If you make a mistake, use the **Undo** button ![back arrow]{: height="26px"} to undo your last change(s)  
-- We're all improving the map. If the previous mapper has left the buildings a funny shape or wrong in some way, correct it and consider sending them a polite message.  
+- Coloque os seus pontos onde as paredes chegarão ao chão - 3 pontos é o mínimo. Faça duplo clique no último ponto para terminar o traçado de uma área. Utilize a ferramenta para a tornar redonda - em inglês o atalho é **o** .  
+- Não se esqueça de etiquetar!  
+- O tamanho é importante - *as estimativas da população baseiam-se na área de construção acumulada numa determinada área*,  
+- Amplie o suficiente para ver os pormenores - uma escala de zoom de 20 metros ou menos é normalmente o ideal.  
+- **À procura de edifícios** - procure uma escala entre 50 metros e 80 metros. Tenha atenção às sombras e às linhas retas (os edifícios redondos são mais difíceis de encontrar!)  
+- Os edifícios e as estradas, rios, **landuse=residential** ou outras características não devem sobrepor-se.  
+- Se cometer um erro, utilize o botão **Desfazer** ![back arrow]{: height="26px"} para anular as últimas alterações  
+- Estamos todos a melhorar o mapa. Se o mapeador anterior deixou os edifícios com uma forma estranha ou errada de alguma forma, corrija-o e considere enviar-lhe uma mensagem educada.  
 
-Building - converting square to round
+Edifício - conversão de quadrado em redondo
 -------------------------------------
 
 ![Square to round][]  
 
-If a building has been traced as rectangular, but you can see it should be round it is easy to convert to a round building;
+Se um edifício foi traçado como retangular, mas se vê que deveria ser redondo, é fácil convertê-lo num edifício redondo;
 
-- move each of the corners so they are now on the perimeter of the round building,
-- right click and use the circularise tool, or shortcut **o** - may be a different character in other languages.  
+- mova cada um dos cantos para que fiquem agora no perímetro do edifício redondo,
+- clique com o botão direito do rato e utilize a ferramenta de circularizar ou o atalho **o**  
 
-Identification
+Identificação
 ---------------
 
-Round buildings are often found within a compound, and the buildings may be in clusters, or in isolation. It can be difficult to establish if you are looking at a round building or a bush or rock. Buildings are usually found near some means of access such as a path or track, although this can be difficult to see on very hard ground. The vegetation may be worn down by the passage of feet. In some parts of the world the buildings may be on the only dry land, and the access is by boat on a river or lake. There is normally a water source visible within 2 or 3 kilometres of any habitation, but in many parts of the world you do not see the water, but you do see more vegetation to indicate it must be there.  
+Os edifícios redondos encontram-se frequentemente dentro de um complexo e os edifícios podem estar agrupados ou isolados. Pode ser difícil determinar se se está a olhar para um edifício redondo ou para um arbusto ou rocha. Os edifícios encontram-se geralmente perto de algum meio de acesso, como um caminho ou uma estrada, embora isso possa ser difícil de ver num terreno muito duro. A vegetação pode estar desgastada pela passagem dos pés. Nalgumas partes do mundo, os edifícios podem estar na única terra seca e o acesso é feito por barco num rio ou lago. Normalmente, há uma fonte de água visível num raio de 2 ou 3 quilómetros de qualquer habitação, mas em muitas partes do mundo não se vê a água, mas vê-se mais vegetação para indicar que deve estar lá.  
 
-In many places in the world it is easier to build a new village a short distance from the old one, leaving the old buildings to rot away and fall down - sometimes they are destroyed by fire. Look for shadows to help you decide what you are looking at. If all that is left is a round mark on the ground, it will have no shadow. **If in doubt add it as a building.**  
+Em muitos lugares do mundo, é mais fácil construir uma nova aldeia a uma curta distância da antiga, deixando os edifícios antigos a apodrecer e a cair - por vezes, são destruídos pelo fogo. Procure sombras que o ajudem a decidir para onde está a olhar. Se tudo o que resta é uma marca redonda no chão, não há sombra. **Em caso de dúvida, adicione-o como um edifício.**  
 
 ![bush-and-round-building][]  
-This image shows both a bush and a round building. Shadows can help you to identify if you are looking at a round building, or a bush. In hot climates it is common to find buildings close to trees or bushes which will provide shelter and shade. The instructions to this particular task include a [link to a diary entry](https://www.openstreetmap.org/user/IvanGayton/diary/38612) by someone who has taken photographs of the buildings in the area, and gives a description. Please take the time to read this information. Round buildings can have slightly different construction materials in other areas of the world, and their roofs will appear different - the project instructions will often include guides to help you understand what you are seeing.  
+Esta imagem mostra tanto um arbusto como um edifício redondo. As sombras podem ajudá-lo a identificar se está a olhar para um edifício redondo ou para um arbusto. Em climas quentes, é comum encontrar edifícios perto de árvores ou arbustos que proporcionam abrigo e sombra. As instruções para esta tarefa específica incluem uma [hiperligação para uma entrada no diário] (https://www.openstreetmap.org/user/IvanGayton/diary/38612) de alguém que tirou fotografias dos edifícios na área e dá uma descrição. Por favor, dedique algum tempo a ler esta informação. Os edifícios redondos podem ter materiais de construção ligeiramente diferentes noutras áreas do mundo, e os seus telhados podem parecer diferentes - as instruções do projeto incluem frequentemente guias para o ajudar a compreender o que está a ver.  
 
-Do your best - even the experts will disagree sometimes, and sometimes you just have to go there to see exactly what is really there. **If in doubt add it as a building.**  
+Faça o seu melhor - até os peritos discordam por vezes e, por vezes, é preciso ir ao local para ver exatamente o que lá está. **Em caso de dúvida, adicione-o como um edifício.**  
 
-Building Tags
+Etiquetas de edifícios
 -------------
 
-As we are tagging buildings we have never visited and are not familiar with, the safest and recommended tagging scheme is **building**=**yes** which you can see on a correctly tagged building if scroll to the bottom of the tagging pane and click on **All tags**.
+Uma vez que estamos a etiquetar edifícios que nunca visitámos e com os quais não estamos familiarizados, o esquema de etiquetagem mais seguro e recomendado é **building**=**yes**, que pode ser visto num edifício corretamente etiquetado se for até ao fundo do painel de etiquetagem e clicar em **Todas as etiquetas**.
 
 Ver também  
 ---------
 
-[Ivan Gayton's diary entry for Hadjer Lamis, Chad - comments from others indicate the description fits other parts of the world as well](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
+[Registo no diário de Ivan Gayton para Hadjer Lamis, Chade - comentários de outros indicam que a descrição também se aplica a outras partes do mundo](https://www.openstreetmap.org/user/IvanGayton/diary/38612)
 
-[![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap")  
+[![building-video]{: height="150px"}](https://www.youtube.com/watch?v=VPJz-AucqF4&index=7&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN "Vídeos tutoriais da Equipa Humanitária do OpenStreetMap - Adicionar um edifício ao OpenStreetMap")  
 
 
 [keymon]:/images/hot-tips/keymon.png
 [Round Buildings]: /images/hot-tips/round_building.gif "Demonstration of mapping a round building"
-[Square to round]: /images/hot-tips/square-round-building.gif "Demonstrating changing a square to round building"  
+[Square to round]: /images/hot-tips/square-round-building.gif "Demonstração da transformação de um edifício quadrado em redondo"  
 [bush-and-round-building]: /images/hot-tips/bush-and-round-building.png "Round building next to a bush"
 [back arrow]: /images/beginner/back-arrow.png "Undo"
 [building-video]: /images/hot-tips/building-video.png "Humanitarian OpenStreetMap Team Tutorial Videos - Adding a Building to OpenStreetMap"

@@ -29,6 +29,8 @@ nosearch: true
 - [遠隔マッピングガイド](/ja/coordination/HOT-Remote-Response-Guide/)、および[人道支援マッピング](/ja/coordination/humanitarian/)の概要部分は、背景の理解に役に立ちます
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### 携帯端末でOpenStreetMapを使いたい
 
 [モバイルマッピング](/ja/mobile-mapping/)という、専門の章を用意しています。

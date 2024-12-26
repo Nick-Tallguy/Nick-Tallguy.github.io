@@ -14,133 +14,133 @@ Ferramentas de Edição do JOSM
 - TOC
 {:toc}
 
-In the [starting to use JOSM guide](/en/josm/start-josm/) we cover the basics of drawing in JOSM, but there are many tools and techniques which are not demonstrated.
+No [guia para começar a utilizar o JOSM] (/pt/josm/start-josm/) cobrimos as noções básicas de desenho no JOSM, mas há muitas ferramentas e técnicas que não são demonstradas.
 
-Here we will look at some of the basic tools and techniques available for drawing map features in JOSM, and in the following chapters we will look in more depth at advanced drawing tools.
+Aqui veremos algumas das ferramentas e técnicas básicas disponíveis para desenhar características cartográficas no JOSM, e nos capítulos seguintes aprofundaremos as ferramentas de desenho avançadas.
 
-Obter o Ficheiro de Exemplo
+Obter o ficheiro de exemplo
 -------------------
 
-- If you'd like to follow along and practice using JOSM tools, download [tools_menu_sample.osm](/files/tools_menu_sample.osm). Start JOSM and open the file. It should look like this:
+- Se quiser acompanhar e praticar a utilização das ferramentas JOSM, descarregue [tools_menu_sample.osm](/files/tools_menu_sample.osm). Inicie o JOSM e abra o ficheiro. Deverá ter o seguinte aspeto:
 
 ![tools_menu_sample.osm][]
 
 Ferramentas de desenho
 -------------
 
-If you click on the "Tools" menu at the top of JOSM, you will see that there are numerous functions which can aid you in drawing lines and shapes, and editing the objects on the map.
+Se clicar no menu "Ferramentas" no topo do JOSM, verá que existem numerosas funções que o podem ajudar a desenhar linhas e formas, e a editar os objetos no mapa.
 
-JOSM has some additional tools to make it easier to draw lines and shapes. These tools are found in the “Tools” menu at the top of JOSM.
+O JOSM tem algumas ferramentas adicionais para facilitar o desenho de linhas e formas. Estas ferramentas encontram-se no menu "Ferramentas" na parte superior do JOSM.
 
 ![Tools menu][]
 
-In order to apply the functions in this menu, you must first select a point, line or shape in the map window. The sample file contains various elements that are labelled with the names of different tools on the menu.
+Para aplicar as funções deste menu, deve primeiro selecionar um ponto, uma linha ou uma forma na janela do mapa. O ficheiro de exemplo contém vários elementos que estão identificados com os nomes das diferentes ferramentas do menu.
 
-### Aligning nodes in a circle  
+### Alinhar nós num círculo  
 
-- Try selecting one of the elements in the file. Then go to the Tools menu and click on the function which is identified next to the feature you have selected. For example, click on the badly drawn circle to select it.
+- Tente selecionar um dos elementos do ficheiro. Em seguida, vá ao menu Ferramentas e clique na função identificada ao lado do elemento selecionado. Por exemplo, clique no círculo mal desenhado para o selecionar.
 
 ![Align nodes in circle][]
 
-- Next, go to Tools->Align Nodes in Circle. The badly drawn circle will become more circular.
+- De seguida, vá a Ferramentas->Alinhar nós em círculo. O círculo mal desenhado tornar-se-á mais circular.
 
-Experiment with each of the tools using this sample file. A description of some of the tools is provided below.
+Experimente cada uma das ferramentas utilizando este ficheiro de exemplo. A descrição de algumas das ferramentas é fornecida abaixo.
 
-### Split Way  
+### Dividir linha  
 
-This allows you to divide a line into two separate lines. This is useful if you want to add different attributes to different parts of a road, such as a bridge. To use this function, select a point in the middle of the line that you want to split, select Split Way from the Tools menu, and your line should be split in two.
+Isto permite-lhe dividir uma linha em duas linhas separadas. Isto é útil se quiser adicionar diferentes atributos a diferentes partes de uma estrada, como uma ponte. Para utilizar esta função, selecione um ponto no meio da linha que pretende dividir, selecione Dividir linha no menu Ferramentas e a sua linha será dividida em duas.
 
 
-### Combine Way
+### Combinar linhas
 
-This does the opposite of Split Way. To combine two lines into a single line, they must share a single point. To use this function, select both lines that you want to combine. You can select more than one object by holding the SHIFT key on your keyboard and clicking on each line. When you have selected both lines, select Combine Way from the Tools menu.
+Isto faz o oposto de Dividir linha. Para combinar duas linhas numa única linha, elas devem partilhar um único ponto. Para utilizar esta função, selecione as duas linhas que pretende combinar. Pode selecionar mais do que um objeto mantendo premida a tecla SHIFT no teclado e clicando em cada linha. Quando tiver selecionado ambas as linhas, selecione Combinar linhas no menu Ferramentas.
 
 ![Combine way][]
 
 
-### Reverse and Combine  
+### Inverter e combinar  
 
-If you are combining roads that have different directions, you might get this warning:
+Se estiver a combinar estradas com direções diferentes, poderá ver este aviso:
 
 ![Reverse and combine][]
 
-If the roads are connected and go in the same direction, then choose "Reverse and Continue."
+Se as estradas estiverem ligadas e seguirem na mesma direção, escolha "Inverter e combinar".
 
 
-### Reverse Way
+### Inverter sentido da linha
 
-This will change the direction of the line. All lines in OSM have a direction, which is shown in JOSM by the arrows on the line. Direction doesn't usually matter, except in the case of one way roads and rivers that flow in a certain direction. In these cases you may need to reverse the way so that it goes in the correct direction.
+Isto irá mudar a direção da linha. Todas as linhas no OSM têm uma direção, que é mostrada no JOSM pelas setas na linha. Normalmente, a direção não é importante, exceto no caso de estradas de sentido único e rios que correm numa determinada direção. Nestes casos, pode ser necessário inverter a linha para que siga na direção correta.
 
 ![Way direction][]
 
-### Simplify Way
+### Simplificar linha
 
-If your line has too many points in it and you’d like to make it simpler, this will remove some of the points from a line.
+Se a sua linha tiver demasiados pontos e quiser simplificá-la, esta opção remove alguns dos pontos de uma linha.
 
 ![Simplify way][]
 
 
-### Create a Circle
+### Alinhar nós em círculo
 
-Use this tool, which will create a more perfect circle. Draw a line which represents the diameter of your circle, and then apply this tool.
+Utilize esta ferramenta, que criará um círculo mais perfeito. Desenhe uma linha que represente o diâmetro do seu círculo e, em seguida, aplique esta ferramenta.
 
 ![Create circle][]
 
 
-### Align Nodes in Line
+### Alinhar nós em linha
 
-This function will align a series of points into a straight line.  With long lines it is best to select sections of the line to straighten.  Be careful as this does have the tendency to shift the line a little bit.
+Esta função alinhará uma série de pontos numa linha reta. Com linhas longas, é melhor selecionar secções da linha para endireitar. Tenha cuidado, pois isto tem a tendência para deslocar um pouco a linha.
 
 ![Align nodes in line][]
 
-### Orthogonalize Shape
+### Ortogonalizar linhas
 
-This function is very useful for drawing regular shapes such as buildings (**But see also [JOSM building tools](/en/josm/josm-more-plugins/)**). After you draw an area, this function will reshape it to have square corners.
+Esta função é muito útil para desenhar formas regulares, como edifícios (**Mas veja também [JOSM building tools](/pt/josm/josm-more-plugins/)**). Depois de desenhar uma área, esta função irá remodelá-la para ter cantos quadrados.
 
 ![Orthagonalize][]
 
 
-### Unglue way
+### Desligar linhas
 
-This tool allows you to detach nodes that are connected. It is useful when two object share a node when they should not. For example, a common mistake is for a road to share a node with the corner of a building. Of course roads don't run into buildings usually, so this is a mistake, and you can unglue the objects from one another.
+Esta ferramenta permite-lhe separar os nós que estão ligados. É útil quando dois objetos partilham um nó quando não o deveriam fazer. Por exemplo, um erro comum é uma estrada partilhar um nó com o canto de um edifício. É claro que, normalmente, as estradas não se cruzam com edifícios, pelo que se trata de um erro e pode descolar os objetos um do outro.
 
 ![Unglue way][]
 
-*The line and node will not actually appear separate until you move them.*
+*A linha e o nó só aparecerão separados quando os mover.*
 
-Atalhos de Teclado
+Atalhos de teclado
 ------------------
 
-Once you start editing a lot you will realize that you waste a lot of time clicking on menus and submenus. To overcome this, JOSM has keyboard shortcuts for just about everything.
+Quando começar a editar muito, aperceber-se-á de que perde muito tempo a clicar em menus e submenus. Para ultrapassar isto, o JOSM tem atalhos de teclado para quase tudo.
 
-This means that instead of clicking an object and then going through a lengthy menu process, you can simply select the object and press a key on your keyboard.
+Isto significa que, em vez de clicar num objeto e depois passar por um longo percurso num menu, pode simplesmente selecionar o objeto e premir uma tecla no teclado.
 
-All of the tools mentioned in the previous section have shortcut keys, which are listed on the Tools menu to the right of each tool name. For example, "O" is the
-shortcut key to align nodes in a circle. "L" is the shortcut to align them in a line. It can take some time to learn the shortcut keys, but you will find that it saves
-a lot of time in the long run.
+Todas as ferramentas mencionadas na secção anterior têm teclas de atalho, que estão listadas no menu Ferramentas, à direita do nome de cada ferramenta. Por exemplo, "O" é a
+tecla de atalho para alinhar os nós num círculo. "L" é o atalho para os alinhar numa linha. Pode demorar algum tempo a aprender as teclas de atalho, mas vai ver que poupa
+muito tempo a longo prazo.
 
-Here are other shortcut keys (in **bold**) which are some of the most important.
+Aqui estão outras teclas de atalho (em **negrito**) que são algumas das mais importantes.
 
-1.  Activate the Select Tool - **S**
-2.  Activate the Draw Tool - **A**
-3.  Activate the Zoom Tool - **Z**
-4.  Delete the selected object(s) - **Delete**
-5.  Zoom In - **+**
-6.  Zoom Out - **-**
+1.  Ativar a ferramenta de seleção - **S**
+2.  Ativar a ferramenta de desenhar - **A**
+3.  Ativar a ferramenta de de ampliar e diminuir (zoom) - **Z**
+4.  Eliminar os objetos selecionados - **Del**
+5.  Ampliar - **+**
+6.  Diminuar - **-**
 
 
-Scale and Rotate
+Dimensionar e rodar
 ----------------
 
-A common question is how to rotate a line or shape after it has been drawn.
+Uma pergunta comum é como rodar uma linha ou forma depois de esta ter sido desenhada.
 
-To rotate an object, first select it. Hold **SHIFT+CTRL** on your keyboard. Click and drag the mouse to rotate.
+Para rodar um objeto, primeiro selecione-o. Mantenha premido **SHIFT+CTRL** no teclado. Clique e arraste o rato para rodar.
 
 ![Rotate demo][]
 
-To scale an object (make it bigger or smaller), follow the same process, but hold ALT+CTRL instead.
+Para dimensionar um objeto (torná-lo maior ou menor), siga o mesmo processo, mas mantenha pressionadas as teclas ALT+CTRL.
 
-These instructions are displayed on the information bar at the bottom of JOSM:
+Estas instruções são apresentadas na barra de informação na parte inferior do JOSM:
 
 ![Rotate instructions][]
 

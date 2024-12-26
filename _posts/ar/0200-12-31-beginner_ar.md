@@ -29,6 +29,8 @@ nosearch: true
 - [دليل رسم الخرائط عن بعد](/en/coordination/HOT-Remote-Response-Guide/) والمعلومات العامة حول [humanitarian mapping](/en/coordination/humanitarian/) تقدم بعض الخلفية
 - العامل هو [Tasking Manager](/en/coordination/tm-user/) الذين يجب أن تكون على دراية بكيفية سير عمله
 
+اذا كنت محرر خرائط مخضرم و تريد معرفة المزيد عن التحقق ف[فقرة](/en/coordination/tm-user/#validation) في دليلنا الTask Manger تشرح العملية.
+
 ### هل ترغب في استخدام OpenStreetMap على الأجهزة المحمولة؟
 
 هناك فصل كامل مكرس ل [رسم الخرائط على النقال] (/ar/mapping-mobile/)

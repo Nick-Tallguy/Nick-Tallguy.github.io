@@ -41,47 +41,47 @@ category: beginner
 觀看不同地圖樣式
 ------------------------
 
-OpenStreetMap contains geographic data from all over the world. Although it is a single database, the data can be interpreted and styled in different ways. To see this in action, let's look at various map "styles" available on the OSM website.
+開放街圖含有覆蓋全世界的地理資訊，儘管只是單一資料庫，這些資料可以被用不同方式解讀與呈現。要看呈現出什麼，可以研究開放街圖網站上各種不同的地圖"樣式"。
 
 -   按地圖視窗右側的圖層按鈕。
 
     ![Layers button][]
 
--   Click on the different style options for the map. Notice how the map changes with each one. The transport map, for example, emphasizes transportation routes on the map while the cycle map emphasizes cycling routes. All of the data to make this possible is contained in the OSM database.
+- 點不同地圖樣式選項，注意每一份地圖會怎麼變化。例如大眾運輸地圖，注重地圖上的交通運輸路線，而單車地圖則強調單車路線，所有讓一切可能的資料全都在 OSM 資料庫。
 
     ![Transport map][]
 
 建立開放街圖帳號
 -------------------------------
 
--   Now that you have seen what the main website looks like, you can register for a username and password and make your first additions to the map.
--   On the OpenStreetMap website, click “sign up” in the top right corner of the page.
+-   現在你已經看到主要網站的樣子，現在可以註冊帳號與密碼，然後開始加東西到地圖上。
+-   在開放街圖網站上，點選頁面右上角的"註冊"。
 -   你應該看到這樣子的新頁面：
 
     ![Registering an OpenStreetMap account][]
 
--   There are five boxes on this page that you need to fill in to register an account with OSM.
--   Enter your email address in the first two boxes. You should enter the same email address in both boxes. Later, you will need to open your email to confirm your account with OpenStreetMap.
--   In the third box, enter the username that you would like to have.  You will not be able to choose a username that someone else has chosen before, so it should be creative. If you try to enter something simple, like your first name, it is likely that someone has already claimed that name.
--   Enter a new password in the fourth and fifth boxes. You should enter the same password in both boxes. You should *not* use an important one such as the password for your email.
--   You may want to write down your OSM username and password. You will need it to log in later.
--   After you have completed all the boxes, click "Sign Up" at the bottom of the page.
--   If there are any problems, an error message may pop up. Check to make sure that your email is the same in the first two boxes, and your password is the same in the bottom two boxes. If the third box is highlighted red, it means that someone else has already chosen your username, and you must try a different name.
--   Have a look at your email.
--   If everything was successful with your registration, you should see an email from OpenStreetMap in your inbox. Open the email. It should look like the image below. Click on the link that is identified below:
+-   要註冊開放街圖帳號需要填寫五個欄位。
+- 在前面兩個欄位輸入你的 email 地址，你應該在兩個欄位填寫一樣的 email 地址。幹著，你需要開啟你 email，然後確認你開放街圖的帳號。
+- 在第三個欄位當中，輸入你想要的使用者名稱，你不會想選一個已經有人選的名稱，所以需要有創意。如果你想輸入簡單的名稱，像是你的名字，很有可能有人已經選了。
+- 在第四個及第五個欄位輸入新的密碼，你應該在兩個欄位輸入相同的密碼，你應該不要選擇重要密碼，例如你 email 的密碼。
+- 你也許要寫下你的 OSM 使用者名稱與密碼，你之後登入時會需要。
+-   當你所有欄位都輸入完成，請點頁尾的「註冊」。
+- 如果你遭遇到問題，也許會彈出錯誤訊息。請檢查你的 email 是否在前兩個欄位是一樣，後兩個欄位的密碼是否一樣。如果第三個欄位被高亮度顯示變成紅色 那就表示你選的名稱已經有人取了，你必須選其他名稱。
+- 請檢查的電子郵件信箱。
+- 如果你成功註冊，你應該在你的電子郵件看到一封來自開放街圖的郵件，打開郵件，應該看起來像下面的圖片。請點一下連結：
 
     ![Confirming your OpenStreetMap account][]
 
--   A new tab or window will open. If everything went well, you should have an OSM account!
--   On the OpenStreetMap page, click “log in” in the top right corner.  Enter your OpenStreetMap username and password and press Enter. You should now be logged in. You should see your username in the upper right corner of the page.
+- 應該會打開新的頁籤或是視窒，如果一切順利，你應該就有開放街圖帳號了！
+- 在開放街圖網站，點右上角的"登入"按鈕，接著輸入你的開放街圖帳號名稱與密碼，然後按輸入。你應該登入了，也應該在頁面右上角看到你的使用者名稱。
 
 添加你的第一個節點
 ------------------------
 
--   Now that you are logged in with your username on the OpenStreetMap website, you can use the iD editor to add your first point to the map.
--   Move the map to a place that you know very well, such as your town or neighborhood. A good idea is to ensure your home (or your neighbour's home) and workplace are drawn and given the correct address. 
+- 如今你已經以你的使用者名稱登入開放街圖網站，你可以用 iD 編輯器在地圖上新增第一個節點。
+- 移動地圖到你比較熟悉的地方，像是你所處理的市鎮或是社區。有個好點子是確認你家(或你鄰居家)還是工作地方已經畫上地圖，以及加上地址資訊。  
 -   放大到你想增添節點在地圖上的地方（或許你附近的某間餐廳或雜貨店還沒被畫出來）。
--   Just above the map on the left, there is a tab named “Edit” with a small triangle besides it. Click the small triangle. You should see a menu drop down.
+- 在地圖左上方，有一個頁籤叫"編輯"，有個小三角形，點一下小三角形，你應該可以看到下拉選單。
 -   按下「用 iD 編輯(瀏覽器內編輯器)」。
 
     ![Click edit][]
@@ -90,26 +90,26 @@ OpenStreetMap contains geographic data from all over the world. Although it is a
 
     ![iD editor][]
 
--   You can add a point to the map by clicking on the button named "Point" at the top the window. Then click on the map where you would like to add a new point.
+- 你可透過點一下畫面上方的"點"按鈕來加一個點，接著在你想新增點的地方點一下。
 
     ![Point button][]    
 
--   Select from the menu on the left what type of location it is that you are adding to the map. You can then fill in the appropriate form with the location's name and other information.
--   To save your changes, click the "Save" button at the top. Since this is your first edit, you may prefer to play around with the editor. Don't save your changes unless you are sure they are correct.
+- 從左側的選單中選擇你剛剛增加到地圖上地點的類型，你可以接著填寫該處的名稱與其他資訊。
+- 要儲存你的變動，請點一下上方的"儲存"按鈕，由於這是你的第一次編輯，你也許想玩玩編輯器，除非確定內容正常，否則別輕易儲存你做的變動。
 
     ![Save button][]    
 
--   If you do click Save, you will be asked to provide a description of your changes.  Then you can click "Save" once more, and your additions will be saved to the OSM database!
+- 如果你點儲存，你會被要求填寫變動描述，接著再點"儲存"，你新增的東西就會存到 OSM 資料庫了！
 
 
-The iD editor is a fantastic way to easily edit OpenStreetMap, and you can find out more about using it in the [iD editor guide](/en/beginner/id-editor/).  You can also play the [walkthrough](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) which is a great and interactive manner to discover the editor.
+iD 編輯器操作容易，是編輯開放街圖的好方式，你可以在[iD 編輯器指南](/zh_TW/beginner/id-editor/)瞭解更多資訊。你也可以[教學](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 那邊用互動方式來瞭解編輯器情形。
 
-However, in the [JOSM section](/en/josm/) we will be looking at a standalone application that offers many more features.  Feel free to continue playing with iD. Once you have more experience contributing to OSM, you can choose which editor - iD or JOSM - you like using the best.
+然而，在[JOSM 章節](/zh_TW/josm/)當中，我們會探討另一款提供更多功能的獨立程式。當然你可以繼續用 iD，當你變得更有經驗時，你可以選擇編輯器 - iD 或是 JOSM - 使用你覺得最好的。
 
 總結
 -------
 
-Congratulations! If all went well you now have an OpenStreetMap username and password, you know how to navigate the OSM website, and you have your first understanding of how to add points to the map.
+恭喜你！如果一切順利你已經有開放街圖的使用者名稱與密碼，你也知道如何瀏覽 OSM 網站，你也初步瞭解怎麼在地圖上加新的點。
 
 
 

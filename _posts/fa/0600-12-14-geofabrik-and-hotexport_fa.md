@@ -113,31 +113,31 @@ OGC Geopackage دادهٔ مکانی را در یک پایگاه‌دادهٔ SQ
 
 
 ### Google Earth .kml
-Keyhole Markup Language یا KML به معنی زبان نشانه‌گذاری Keyhole یک قالب مبتنی بر XML برای مدل‌سازی جغرافیایی نقطه‌ها، خط‌ها، چندضلعی‌ها و مشخصه‌های مرتبط است. Google Earth شناخته‌شده‌ترین پلتفرم کاوشگر نمای زمین است که از KML استفاده می‌کند، که علت ساخت آن هم همین است. دربارهٔ [Google Earth .kml](https://export.hotosm.org/en/v3/learn/export_formats#kml) در بخش Learn بیشتر بخوانید.
+Keyhole Markup Language یا KML به معنی زبان نشانه‌گذاری Keyhole یک قالب مبتنی بر XML برای مدل‌سازی جغرافیایی نقطه‌ها، خط‌ها، چندضلعی‌ها و مشخصه‌های مرتبط است. Google Earth شناخته‌شده‌ترین پلتفرم کاوشگر نمای زمین است که از KML استفاده می‌کند، که علت ساخت آن هم همین است. دربارهٔ [Google Earth .kml](https://export.hotosm.org/fa/v3/learn/export_formats#kml) در بخش Learn بیشتر بخوانید.
 
 ![export-tool-google-earth][]
 
 
 ### OSM .pbf
-قالب دادهٔ استاندارد OSM یک سند XML از گره‌ها، راه‌ها و رابطه‌هاست. قالب Protocol Buffer Binary Format ‏(PBF) نمایشی بهینه از OSM XML است که روی دیسک حجم کم‌تری می‌گیرد و سریع‌تر خوانده می‌شود. این قالب فقط با ابزارهای خاص OSM، مانند نرم‌افزار ویرایش OSM، سازگار است. هر فایل PBF‎. که ابزار برون‌برد ارائه می‌کند باید بر اساس ارجاع‌ها کامل باشد، یعنی هر گره، راه یا رابطه‌ای که یک راه یا رابطه به آن ارجاع می‌دهد، باید در PBF ظاهر شود. دربارهٔ [OSM .pbf](https://export.hotosm.org/en/v3/learn/export_formats#pbf) در بخش Learn بیشتر بدانید.
+قالب دادهٔ استاندارد OSM یک سند XML از گره‌ها، راه‌ها و رابطه‌هاست. قالب Protocol Buffer Binary Format ‏(PBF) نمایشی بهینه از OSM XML است که روی دیسک حجم کم‌تری می‌گیرد و سریع‌تر خوانده می‌شود. این قالب فقط با ابزارهای خاص OSM، مانند نرم‌افزار ویرایش OSM، سازگار است. هر فایل PBF‎. که ابزار برون‌برد ارائه می‌کند باید بر اساس ارجاع‌ها کامل باشد، یعنی هر گره، راه یا رابطه‌ای که یک راه یا رابطه به آن ارجاع می‌دهد، باید در PBF ظاهر شود. دربارهٔ [OSM .pbf](https://export.hotosm.org/fa/v3/learn/export_formats#pbf) در بخش Learn بیشتر بدانید.
 
 ![export-tool-xml-code][]
 
 
 ### MAPS.ME .mwm
-Maps.me یک برنامهٔ ناوبری GPS و نقشه برای گوشی‌های هوشمند و تبلت‌های Android و iOS است، که به‌ویژه از نقشه‌کشی و ناوبری آفلاین پشتیبانی می‌کند. دربارهٔ [MAPS.ME .mwm](https://export.hotosm.org/en/v3/learn/export_formats#mwm) در بخش Learn بیشتر بخوانید. برای استفاده از یک برون‌برد سفارشی در Maps.me روی اندروید، لطفاً این مراحل را دنبال کنید:
-- Open Maps.me and navigate to your region of interest
-- Accept Maps.me's prompt and download the offered region
-- Force close Maps.me
-- Create an MWM export
-- Download the export, unzip it, and copy the .mwm file to your device
-- Using the Android File Manager, navigate to the location containing the .mwm file
-- Long-press to select it and touch the "copy" or "cut" button
-- Navigate to "MapsWithMe" and open the highest numbered folder (e.g. 170917)
-- Copy/move your .mwm file into this directory by tapping the "paste" button
-- Delete the existing .mwm file for your region of interest, taking note of its filename
-- Rename your .mwm file to match the region that was downloaded by Maps.me (which you just deleted) by long-pressing (to select) and tapping the "more" button (3 vertical dots)
-- Open Maps.me
+Maps.me یک برنامهٔ ناوبری GPS و نقشه برای گوشی‌های هوشمند و تبلت‌های Android و iOS است، که به‌ویژه از نقشه‌کشی و ناوبری آفلاین پشتیبانی می‌کند. دربارهٔ [MAPS.ME .mwm](https://export.hotosm.org/fa/v3/learn/export_formats#mwm) در بخش Learn بیشتر بخوانید. برای استفاده از یک برون‌برد سفارشی در Maps.me روی اندروید، لطفاً این مراحل را دنبال کنید:
+Maps.me را باز کنید و به منطقه مورد علاقه‌تان بروید.
+- اعلان Maps.me را قبول کنید و منطقه پیشنهاد شده را دانلود کنید
+- Maps.me را ببندید
+- یک خروجی MWM ایجاد کنید
+- خروجی گرفته شده را دانلود کرده و از حالت فشرده خارج کنید و فایل mwm. را به دستگاه خود کپی کنید
+- با استفاده از مدیر فایل آندروئید به محلی که فایل mwm. وجود دارد بروید
+- با کلیک و نگه داشتن انگشت آنرا انتخاب کنید و دکمه "کپی" یا "برش" را بزنید
+- به پوشه "MapsWithMe" بروید و پوشه‌ای را که بالاترین رقم را دارد (مانند ۱۷۰۹۱۷) باز کنید
+- با زدن دکمه "چسباندن" فایل mwm. را به این شاخه کپی کنید یا انتقال دهید
+- فایل mwm. منطقه مورد نظرتان را پاک کنید، نام آنرا یادداشت کنید
+- با فشاردادن طولانی (برای انتخاب) و زدن دکمه "بیشتر" (سه نقطه عمودی) فایل mwm. تان را به آنچه که توسط برنامه Maps.me قبلاْ دانلود شده بود (و شما آنرا پاک کردید) تغییر نام دهید 
+- Maps.me را باز کنید
 
 ![export-tool-mapsme][]
 
@@ -149,7 +149,7 @@ OsmAnd نیز یک برنامهٔ ناوبری GPS و نقشه برای گوشی
 
 
 ### MBTiles .mbtiles
-MBTiles یک قالب فایل برای ذخیرهٔ کاشی‌های نقشه در یک فایل واحد است. Export Tool اجازه می‌دهد تا کاربران فایل‌های MBTiles حاوی کاشی‌های OSM بسازند، که می‌توانند به‌عنوان منبع محتوای آفلاین در برنامه‌های کاربردی که از آن‌ها پشتیبانی می‌کنند استفاده شوند. لطفاً توجه داشته باشید که تمام عارضه‌های OSM در منطقهٔ انتخابی از طریق Export Tool به درون MBTiles استخراج می‌شود و در زبانهٔ 3‎ Data به‌جای درخت تگ استاندارد و گزینهٔ انتخاب عارضه با YAML، به‌طور خودکار منوی اُفتان Source (منبع) و دامنهٔ زوم ظاهر می‌شود. دربارهٔ [MBTiles .mbtiles](https://export.hotosm.org/en/v3/learn/export_formats#mbtiles) در بخش Learn بیشتر بخوانید.
+MBTiles یک قالب فایل برای ذخیرهٔ کاشی‌های نقشه در یک فایل واحد است. Export Tool اجازه می‌دهد تا کاربران فایل‌های MBTiles حاوی کاشی‌های OSM بسازند، که می‌توانند به‌عنوان منبع محتوای آفلاین در برنامه‌های کاربردی که از آن‌ها پشتیبانی می‌کنند استفاده شوند. لطفاً توجه داشته باشید که تمام عارضه‌های OSM در منطقهٔ انتخابی از طریق Export Tool به درون MBTiles استخراج می‌شود و در زبانهٔ 3‎ Data به‌جای درخت تگ استاندارد و گزینهٔ انتخاب عارضه با YAML، به‌طور خودکار منوی اُفتان Source (منبع) و دامنهٔ زوم ظاهر می‌شود. دربارهٔ [MBTiles .mbtiles](https://export.hotosm.org/fa/v3/learn/export_formats#mbtiles) در بخش Learn بیشتر بخوانید.
 
 ![export-tool-mbtiles][]
 
@@ -246,7 +246,7 @@ YAML: پالایه‌ها (فیلترها)
 ![export-tool-configuration-stored][]
 
 
-برای اطلاعات بیشتر دربارهٔ انتخاب‌های عارضه و YAML، لطفاً Selecting Features و YAML Specification را در بخش [Learn](https://export.hotosm.org/en/v3/learn) در وبسایت ببینید. 
+برای اطلاعات بیشتر دربارهٔ انتخاب‌های عارضه و YAML، لطفاً Selecting Features و YAML Specification را در بخش [Learn](https://export.hotosm.org/fa/v3/learn) در وبسایت ببینید. 
 
 
 

@@ -1,51 +1,51 @@
 ---
 layout: doc
-title: OSM Data Overview
+title: Огляд даних OSM
 permalink: /uk/osm-data/data-overview/
 lang: uk
 category: osm-data
 ---
 
-OSM Data Overview
+Огляд даних OSM
 ==================
 
 
-> Reviewed 2016-09-05
+> Редакція 2016-09-05
 
 <!--In this section we'll consider how OpenStreetMap functions, which will help us to understand better how the data is structured, and how we can best utilize it.-->
 
-How OSM Works
+Як працює OSM
 --------------
-Let's consider how OpenStreetMap works. Thousands of users around the world continually add to and edit the map, but what goes on behind the scenes?  
+Розгляньмо, як працює OpenStreetMap. Тисячі користувачів по всьому світу постійно доповнюють і редагують мапу, але що відбувається за лаштунками?  
 
-When you or any other user makes changes using editing software such as JOSM or iD, the software communicates with a central OpenStreetMap server and notifies it of your changes. On that server is a massive database, which contains all the location information and attributes about every single geographic feature in all of OpenStreetMap.  
+Коли ви або будь-який інший учасник вносите зміни за допомогою програмного забезпечення для редагування, наприклад JOSM або iD, програмне забезпечення зв'язується з центральним сервером OpenStreetMap і повідомляє його про ваші зміни. На цьому сервері є величезна база даних, яка містить усю інформацію про місцезнаходження та атрибути кожного окремого географічного об'єкта в усьому OpenStreetMap.  
 
-Because OSM is free and open, it is possible for anybody to download all the data in this database. However, because it is so massive (*the data is more than 30 GB even when it's compressed*), it's nearly impossible to work with all the data at once.  
+Оскільки OSM безкоштовний і відкритий, будь-хто може завантажити всі дані цієї бази даних. Однак, оскільки він дуже великий (*дані становлять понад 30 ГБ навіть у стисненому вигляді*), практично неможливо працювати з усіма даними одночасно.  
 
-Because of this limitation, there are various methods of **exporting** and **extracting** data which are covered in this section. Exporting means to convert OpenStreetMap data from its native format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. These terms are often used interchangeably. We'll learn more about this throughout the OSM Data section.  
+Існують різні методи **експорту** та **вибірки** даних, які розглядаються в цьому розділі. Експорт означає перетворення даних OpenStreetMap із рідного формату у зручний для вас формат. Це дещо відрізняється від **вибірки** даних, що означає вирізання даних для певної території за вашим вибором. Це також може означати вибірку конкретних об'єктів, які вам потрібні, з певної території. Ці терміни часто використовуються як синоніми. Ми дізнаємося більше про це в розділі про дані OSM.  
 
-Using Geodata
+Використання Геоданих
 --------------
-If you are not an experienced GIS user, it's important to understand the difference between OSM editing software like JOSM and GIS software such as Quantum GIS and ArcGIS.  
+Якщо ви не досвідчений користувач ГІС, важливо розуміти різницю між програмним забезпеченням для редагування OSM, таким як JOSM, і програмним забезпеченням ГІС, таким як Quantum GIS і ArcGIS.  
 
-Editors such as iD or JOSM have one core function that they are very good at - making it easy for users to edit OpenStreetMap. But they are not software meant for analyzing or querying data -
-this function is best left to other applications. GIS software, such as the free and open source [Quantum GIS (QGIS)](http://www.qgis.org), allows users to design good-looking maps, to query and analyze data, and much more. GIS software can also be used for editing geodata, but it is much easier to edit OpenStreetMap with the dedicated OSM editors.  
+Редактори, такі як iD або JOSM, мають одну основну функцію, з якою вони дуже добре справляються – полегшують редагування OpenStreetMap для користувачів. Але вони не є програмним забезпеченням, призначеним для аналізу чи отримання даних на вимогу –
+цю функцію краще залишити іншим програмам. Програмне забезпечення ГІС, таке як безкоштовний [Quantum GIS (QGIS)] (http://www.qgis.org) із відкритим вихідним кодом, дозволяє користувачам створювати гарні мапи, робити складні запити для обробки та аналізу дані та багато іншого. Програмне забезпечення ГІС також можна використовувати для редагування геоданих, але редагувати OpenStreetMap набагато легше за допомогою спеціальних редакторів OSM.  
 
-In the next chapter we will take a closer look at file formats which are associated with OpenStreetMap and geographic data in general. Then we'll look at various ways to access and manipulate OSM data and convert it between different file types.  
+У наступному розділі ми детальніше розглянемо формати файлів, пов'язані з OpenStreetMap і географічними даними загалом. Потім ми розглянемо різні способи доступу до даних OSM і керування ними, а також перетворення їх між різними типами файлів.  
 
 
-Getting the Data
+Отримання даних
 -----------------
 
-That's great, but how do you get out the data that you want?  
+Чудово, але як отримати потрібні дані?  
 
-In this chapter we'll go over the various ways of exporting OSM data. We'll stick to the basics, but keep in mind that in order to use the data effectively, you'll probably need GIS software,
-such as the free Quantum GIS application.  
+У цьому розділі ми розглянемо різні способи експорту даних OSM. Ми будемо дотримуватись основ, але майте на увазі, що для ефективного використання даних вам, ймовірно, знадобиться програмне забезпечення ГІС,
+ наприклад безкоштовна програма Quantum GIS.  
 
-Before we begin, let's go over some terminology. First, **exporting** means to convert OpenStreetMap data from its native XML format into a format that is convenient for you. This is slightly different from **extracting** data, which means to cut the data from the area of your choosing.  It may also mean to pull out the specific features that you want from an area. We'll use these terms frequently in this chapter, so it's important to understand the difference.  
+Перш ніж ми почнемо, давайте розглянемо деяку термінологію. По-перше, **експортувати** означає конвертувати дані OpenStreetMap із рідного формату XML у зручний для вас формат. Це дещо відрізняється від **вибірки** даних, що означає вирізання даних для певної території за вашим вибором. Це також може означати вибірку конкретних об'єктів, які мають для вас інтерес з певної території У цій главі ми будемо часто використовувати ці терміни, тому важливо розуміти різницю.  
 
-The OSM API
+OSM API
 ------------
-The OSM editing process functions because of what is known as an API, which allows editing software to communicate with the central server. For example, when you are using JOSM and you select the area you want to map, an API call is sent to the server, requesting all of the data that exists within the area that you have selected.  
+Процес редагування OSM працює завдяки так званому API, який дозволяє програмному забезпеченню для редагування спілкуватися з центральним сервером. Наприклад, коли ви використовуєте JOSM і вибираєте область, яку хочете замапити, на сервер надсилається запит API, який запитує всі дані, які існують у вибраній вами області.  
 
-In fact, when you download data in JOSM, you are **extracting** the data from a specific area of the world. The data is then sent to you in **.osm** format, which you can then edit in JOSM. If you download data in JOSM and then save it, you will see that the file type is **.osm**. We'll talk more about this in the next chapter.  
+Фактично, коли ви завантажуєте дані в JOSM, ви **витягуєте** дані з певної частини світу. Дані надсилаються вам у форматі **.osm**, який потім ви можете редагувати в JOSM. Якщо ви завантажите дані в JOSM, а потім збережете їх, ви побачите, що тип файлу –**.osm**. Ми поговоримо про це докладніше в наступному розділі.  

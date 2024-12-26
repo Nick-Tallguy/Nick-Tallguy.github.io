@@ -9,7 +9,6 @@ category: josm
 JOSM plug-ins Buildings Tools & Utilsplugin2
 ============
 
-> Bijgewerkt 12-09-2016  
 
 De plug-ins **buildings_tools** en **utilsplugin2** voegen veel aanvullende functionaliteit toe aan JOSM. In dit gedeelte zullen we eens nader kijken naar de functies die zij verschaffen.  
 
@@ -26,6 +25,8 @@ Als de plug-in eenmaal is geïnstalleerd zult u een nieuwe knop zien aan de link
 
 Start JOSM en download een gebied waar u gebouwen wilt traceren.  
 
+### Rechthoekige gebouwen
+
 * Selecteer Gebouwen tekenen en klik tweemaal om een lijn op de kaart te tekenen.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ Start JOSM en download een gebied waar u gebouwen wilt traceren.
 ![Extend building][]
 
 * Dit zal niet alleen een rechthoek maken met slechts drie klikken maar het zal ook automatisch de tag **building=yes** aan de vorm toekennen.  
+
+### Ronde gebouwen
+
+* Selecteer, in "Meer gereedschappen"->"Modi Gebouwen tekenen", "Vorm van gebouw instellen op cirkel" of gebruik de sneltoets ALT+Z (gebruik ALT+R bij het terugschakelen naar rechthoekige gebouwen). En teken de diameter van het gebouw.
+
+![Round building][]
 
 ### Complexe gebouwen
 
@@ -119,4 +126,5 @@ Veel succes!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Buildings tools plugin]: /images/josm/buildings_tools-plugin.png
 

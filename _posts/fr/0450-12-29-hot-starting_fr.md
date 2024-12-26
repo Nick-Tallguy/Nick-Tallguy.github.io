@@ -9,7 +9,7 @@ category: hot-tips
 Débuter avec un Gestionnaire de Tâches - Éditeur iD
 ============
 
-> Updated 2019-06-26  
+> Mis à jour le 26/06/2019  
 
 - TOC
 {:toc}
@@ -28,14 +28,14 @@ Les points essentiels
 4. La cartographie est vérifiée par les "validateurs" qui envoient souvent des messages donnant de précieux retours sur vos contributions.  
 5. Commencez à cartographier - vous devrez peut-être lire d'autres sections dans ce chapitre sur les astuce HOT pour vous aider démarrer. Les sections sur les [bâtiments ronds](/fr/hot-tips/tracing-round-buildings/) ou les [bâtiments rectangulaires](/fr/hot-tips/tracing-rectangular-buildings/) peuvent être utiles.  
 6. Sauvegarder régulièrement - voir [Astuce HOT - sauvegarde](/fr/hot-tips/saving/)  
-7.  Be patient - sometimes there is a shortage of validators and lots of new mappers all wanting feedback! Carry on mapping, but when you realise you have made a mistake (we all do!) see if you can fix it, or ask for help.  
+7. Soyez patient - parfois il y a une pénurie de validateurs et beaucoup de nouveaux cartographes souhaitent des retours en même temps ! Continez à cartographier, mais quand vous réalisez que vous avez fait une erreur (nous le faisons tous !) régardez si vous pouvez corriger par vous même, sinon demandez de l'aide.  
 
 
 
 Voir aussi  
 ---------
 
-The [Tasking Manager 3 Guide on LearnOSM](/en/coordination/tasking-manager3/)  
+Le [Guide du Gestionnaire des Tâches 3 sur LearnOSM] (/fr/coordination/tasking-manager3/)  
 
 [![OSM-TM-video]{: height="150px"}](https://www.youtube.com/watch?v=_feTGQXLf_M&list=PLb9506_-6FMHZ3nwn9heri3xjQKrSq1hN&index=9 "Humanitarian OpenStreetMap Team - Tutorials vidéo du Tasking Manager")  
 *Sous-titres disponibles dans certaines langues*  

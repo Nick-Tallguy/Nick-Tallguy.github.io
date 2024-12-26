@@ -20,13 +20,13 @@ No final do capítulo sobre o iD editor, você ouviu falar sobre as diferenças 
 
 Até agora, todas as edições que foram adicionadas ao mapa foram baseados em imagens de fundo. Mas você pode acumular uma riqueza de informações ao caminhar ou dirigir por aí. A [seção sobre mapeamento móvel](/pt_BR/mobile-mapping/) explica como coletar informações com diferentes dispositivos com GPS ou usando impressões especialmente concebidos. Ele também analisa uma série de aplicações relacionadas com o OpenStreetMap para dispositivos móveis.  
 
-OpenStreetMap is a collaborative effort and we hope that you will be part of it. Some of these efforts are devoted to humanitarian relief under the auspices of the [Humanitarian OSM Team](http://hotosm.org). If you would like to help HOT on the occasion of a disaster such as the Nepal earthquake please see the [section on coordination](/en/coordination/). It deals with the tools which make sure that many people can work together on a relatively small area in a consistent manner. It also contains guidance on some typical tasks you will frequently encounter when joining these efforts.  
+O OpenStreetMap é um esforço colaborativo e esperamos que você faça parte dele. Alguns desses esforços são dedicados à ajuda humanitária sob os auspícios da [Equipe OSM Humanitária] (http://hotosm.org). Se você quiser ajudar o HOT por ocasião de um desastre como o terremoto no Nepal, consulte a [seção sobre coordenação](/en/coordination/). Trata das ferramentas que garantem que muitas pessoas possam trabalhar juntas em uma área relativamente pequena de maneira consistente. Ele também contém orientações sobre algumas tarefas típicas que você encontrará com frequência ao unir-se a esses esforços.  
 
 
 Leia mais
 ----------
 
-There is a lot of information about OpenStreetMap available at [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Here you can find information about other projects that are related to OpenStreetMap, and documents and tutorials that can help you learn more about OSM.  
+Há muitas informações sobre o OpenStreetMap disponíveis em [wiki.openstreetmap.org](http://wiki.openstreetmap.org/). Aqui você pode encontrar informações sobre outros projetos relacionados ao OpenStreetMap, documentos e tutoriais que podem ajudá-lo a aprender mais sobre o OSM.  
 
 ![Wiki][]
 
@@ -35,7 +35,7 @@ There is a lot of information about OpenStreetMap available at [wiki.openstreetm
 Lista de email
 ------------
 
-The best way to get connected to the OpenStreetMap user community is to join your local mailing list. Many people sign up, using their email accounts to the OSM mailing list. Once you are on the list, you can send an email to the group if you have a question or want to talk about OpenStreetMap.  
+A melhor maneira de se conectar à comunidade de usuários do OpenStreetMap é entrar na sua lista de discussão local. Muitas pessoas se inscrevem via e-mail para a lista de discussão OSM. Quando estiver na lista, você pode enviar um e-mail para o grupo se tiver alguma dúvida ou quiser falar sobre o OpenStreetMap.  
 
 Para se inscrever na lista de discussão do seu país, acesse [lists.openstreetmap.org](http://lists.openstreetmap.org/).  
 
@@ -56,7 +56,7 @@ Scroll down the page to find the list associated with your country. The country 
 - Agora, quando você quiser enviar uma mensagem para a lista, você pode enviá-la para [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), substituindo "id" com o país da sua lista. Você também vai receber e-mails quando outros membros enviar uma mensagem para a lista.  
 
 
-Example of OSM use - MyOSMatic
+Exemplo de uso do OSM - MyOSMatic
 ----------
 
 One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
@@ -64,7 +64,7 @@ One such project is called MyOSMatic, which you can access through your internet
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+Outros usos dos dados do OpenStreetMap são explicados na [seção OSM-Data do LearnOSM](/en/osm-data/)
 
 
 Sumario

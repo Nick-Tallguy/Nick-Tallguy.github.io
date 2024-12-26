@@ -2,7 +2,7 @@
 layout: doc
 permalink: /fr/mobile-mapping/
 lang: fr
-title: Cartographier à l'aide d'un smartphone, un GPS ou du papier
+title: Cartographie smartphone, GPS ou papier
 category: mobile-mapping
 cover: yes
 nosearch: true
@@ -13,54 +13,54 @@ Cartographier à l'aide d'un smartphone, un GPS ou du papier
 
 ce guide peut être téléchargé [mobile-mapping_fr.odt](/files/mobile-mapping_fr.odt) ou [mobile-mapping_fr.pdf](/files/mobile-mapping_fr.pdf)  
 
-To really create a detailed & accurate map, you need to carry out a survey in the area you are updating. The guides in this section deal with  carrying out a survey using either a;  
+Pour créer une carte détaillée et précise, vous aurez besoin de réaliser des enquêtes de terrain sur la zone que vous mettez à jour. Les guides de cette section abordent la réalisation d'enquêtes en utilisant soit :  
 
-- GPS  which will probably be more accurate than your mobile phone,  
-- Field Papers, a method of taking a printed map you can write on, then upload & trace from, or  
-- Your mobile phone. There are many apps available for navigating using OSM data, and many apps to help you carry out your survey. Just a few are listed here but this list is growing daily, and some Aid Organisations are designing their own apps to gather specific data.  
+-un GPS dédié, qui sera probablement plus précis que celui de votre téléphone  
+-des Field Papers, une méthode qui consiste à emporter une carte imprimée sur laquelle vous pouvez écrire, saisir et téléverser les informations, ou  
+-votre téléphone portable. De nombreuses apps sont disponibles pour naviguer en utilisant les données OSM, et beaucoup d'autres pour vous aider à conduire des enquêtes. Seulement une poignée d'entre sont listées ici mais cette liste croît quotidiennement, et certaines organisation humanitaires conçoivent leurs propres apps pour collecter des données spécifiques.  
 
-More and more smartphones today include a radio chip that allows them to receive signals from satellite navigation systems and determine their location. The most common chips receive signals from the U.S. GPS frequencies, while higher end models may include chips that can read frequencies from the Russian GLONASS satellites at the same time.  
+De plus en plus de smartphones intègrent aujourd'hui une puce radio qui leur permet de recevoir les signaux des systèmes de navigation par satellite et de déterminer leur position. Les puces les plus courantes reçoivent les signaux des fréquences GPS américaines, tandis que les modèles haut de gamme peuvent inclure des puces capables de lire simultanément les fréquences des satellites russes GLONASS.  
 
-The quality of the chips used in smartphones may vary, and data accuracy and performance could vary as well.  
+La qualité des puces utilisées dans les smartphones peut varier, de même que la précision et les performances des données.  
 
-Devices with GPS chips can work autonomously, off the grid, and without an Internet connection, while devices marked with “A-GPS only” (Assisted GPS) require a network data connection (and a mobile signal from a telecommunications company) to work correctly. A-GPS data can help autonomous GPS chips perform better by pre-caching data for better performance.  
+Les appareils équipés de puces GPS peuvent fonctionner de manière autonome, hors réseau et sans connexion Internet, tandis que les appareils portant la mention "A-GPS uniquement" (assisté par GPS) nécessitent une connexion de données au réseau (et un signal mobile d'une société de télécommunications) pour fonctionner correctement. Les données A-GPS peuvent aider les puces GPS autonomes à être plus performantes en pré-chargeant les données pour une meilleure performance.  
 
-For most mapping applications to work as expected, the user is assumed to have a smartphone with an autonomous GPS chip. Check your device specifications to confirm whether your device uses an autonomous chip, or is A-GPS only device.  
+Pour que la plupart des applications cartographiques fonctionnent comme prévu, on suppose que l'utilisateur dispose d'un smartphone doté d'une puce GPS autonome. Vérifiez les spécifications de votre appareil pour confirmer si votre appareil utilise une puce autonome ou s'il s'agit d'un appareil A-GPS uniquement.  
 
-There are a lot of mapping applications available (for free or paid) for most smartphones in the market. Each app has its own advantages and disadvantages.  
+Il existe de nombreuses applications cartographiques (gratuites ou payantes) pour la plupart des smartphones du marché. Chaque application a ses propres avantages et inconvénients.  
 
-In choosing a mapping application for mapping in OpenStreetMap, you need to consider the following features.  
+En choisissant une application cartographique pour la cartographie dans OpenStreetMap, vous devez tenir compte des caractéristiques suivantes.  
 
-- Easy to learn; immediately usable  
-- With GPX support (create waypoints, customizable log intervals)  
-- Allows OSM contribution (add, edit, upload data)  
-- Able to load OSM data offline  
-- Able to geo-tag multimedia files (notes, photos, videos)  
-- In active development  
+- Facile à apprendre, utilisable immédiatement  
+- Supportant le format GPX (création de points de cheminement, intervalles de journalisation personnalisables)  
+- Permet la contribution OSM (ajouter, modifier, téléverser des données)  
+- Capable de charger des données OSM hors-ligne  
+- Possibilité de géotagger des fichiers multimédia (notes, photos, vidéos)  
+- Maintenue et développée activement  
 
-Try several applications that are compatible with your phone to get familiar with the interface and choose the best app based on your personal preference and mapping approach.
+Essayez plusieurs applications compatibles avec votre téléphone pour vous familiariser avec l'interface et choisissez la meilleure application en fonction de vos préférences personnelles et de votre approche cartographique.
 
-<!-- Commenting for now since tables doesn't look very nice!
+<!-- Commenté pour le moment car l'affichage des tableaux n'est pas élégant !
 
-Recommended Applications for Smartphones / PDAs
+Applications recommandées pour les smartphones / PDA
 -----------------------------------------------------
 
 | Application      | Usage  | Android  | Blackberry | iOS     | Windows |
 | ---------------- | :----: | :------: | :--------: | :-----: | :-----: |
-| Geopaparazzi     | m      | O        |            |         |         |
-| GPS Essentials   | m      | O        |            |         |         |
-| MapZen           | m:p    | O        |            | O       |         |
-| Open GPS Tracker | m      | O        |            |         |         |
-| OruxMaps         | m      | O        |            |         |         |
-| OSMAnd           | m:n:p  | O        | O          | D       |         |
-| OSMTracker       | m      | O        |            |         | O       |
-| Vespucci         | m:f    | O        |            |         |         |
+| Geopaparazzi     | C      | O        |            |         |         |
+| GPS Essentials   | C      | O        |            |         |         |
+| MapZen           | C:P    | O        |            | O       |         |
+| Open GPS Tracker | C      | O        |            |         |         |
+| OruxMaps         | C      | O        |            |         |         |
+| OSMAnd           | C:N:P  | O        | O          | D       |         |
+| OSMTracker       | C      | O        |            |         | O       |
+| Vespucci         | C:I    | O        |            |         |         |
 
-O - supported, D - under development, m - mapping, n - navigation, p - POI editor, f - full editor
+O - supporté, D - en cours de développement, C - cartographie, N - navigation, P - éditeur de POI, I - éditeur intégral
 
  -->
 
-The next sections will guide you through the installation and use of specific applications for you to contribute to OpenStreetMap using your smartphone.
+Les sections suivantes vous guideront dans l'installation et l'utilisation d'applications spécifiques pour vous permettre de contribuer à OpenStreetMap à l'aide de votre smartphone.
 
-> **Note:** Before proceeding any further, verify that GPS is available and active for the device. In Android, go to **Settings \> Location** and enable it.  
-> Remember, GPS doesn’t work inside buildings!
+> **Note :** Avant de poursuivre, vérifiez que le GPS est disponible et actif pour l'appareil. Dans Android, allez dans **Réglages \> Localisation** et activez-le.  
+> Rappelez-vous, le GPS ne fonctionne pas à l'intérieur des bâtiments !

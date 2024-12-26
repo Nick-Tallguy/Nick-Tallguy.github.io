@@ -29,6 +29,8 @@ nosearch: true
 - [원격 지도 제작 안내서](/ko/coordination/HOT-Remote-Response-Guide/)에서 배경 정보를, [인도주의적 지도 제작](/ko/coordination/humanitarian/)에서 일반적인 정보를 볼 수 있습니다.
 - the workhorse is the [Tasking Manager](/en/coordination/tm-user/) whose workflow you should get familiar with
 
+If you are an experienced mapper and want to know more about  validation then a [section](/en/coordination/tm-user/#validation) in our Tasking Manager guide explains the process.
+
 ### 모바일에서 오픈스트리트맵을 사용하고 싶나요?
 
 [모바일에서 지도 제작](/ko/mobile-mapping/)을 참조하세요.

@@ -9,103 +9,110 @@ category: osm-data
 Usando datos de OSM en QGIS
 =================
 
-> Revisado 2015-07-19
 
-QGIS (anteriormente Quantum GIS) es un Sistema de Información Geográfica muy completo, de código abierto y multiplataforma. Con QGIS puede acceder a datos actualizados de OSM cuando lo desee, seleccionar las etiquetas que quiera incluir, y exportarlos fácilmente en una base de datos SQLite o archivo Shapefile fácil de usar.  
+QGIS (anteriormente Quantum GIS) es un Sistema de Información Geográfica (SIG) muy completo, de código abierto y multiplataforma. Con QGIS, puedes acceder a datos actualizados de OSM cuando quieras, seleccionar las etiquetas que quieras incluir y exportarlos fácilmente a una base de datos SQLite o un archivo Shapefile fáciles de usar.  
 
-En este capítulo llevaremos a cabo los pasos necesarios para lograr esto. Asumimos que ya descargó e instaló QGIS 2.x. Si aún no lo hizo, puede descargarlo desde <http://www.qgis.org/es/site/forusers/download.html>.  
+En este capítulo, repasaremos los pasos necesarios para hacerlo. Asumimos que ya has descargado e instalado QGIS 3.x. Si no lo has hecho, puedes descargarlo desde <http://www.qgis.org/en/site/forusers/download.html>.  
 
-Para poder cargar en QGIS nuestras capas de OSM personalizadas y actualizadas, primero obtendremos los datos de OSM más recientes en formato **.osm**. Luego, convertiremos estos datos en una base de datos SQLite, que es un sistema de base de datos ligero almacenado en un único archivo en su sistema. Por último, crearemos una capa (o múltiples capas) que incluyan solo los tipos de elemento y etiquetas que queremos acceder. Estas capas pueden ser usadas en QGIS tal como están o pueden ser guardadas en otro formato, como ser Shapefile.  
+Utilizaremos un complemento, QuickOSM, para importar desde la base de datos de OpenStreetMap. Para instalar este complemento, abre el cuadro de diálogo 'Administrar complementos' desde el menú Complementos. Busca QuickOSM e instálalo. Esto añadirá una entrada al menú Vectorial.  
 
-Accediendo datos de OpenStreetMap
+Obtención de datos desde la base de datos
 ---------------------------
 
-Lo primero que haremos será obtener datos actualizados de OSM. Podemos hacer esto de varias maneras. Por supuesto, pedir datos al servidor de OSM, como hacemos en el editor JOSM, está limitado de modo que no podemos traer una cantidad muy grande de datos de una sola vez - sin embargo, hay formas de acceder a grandes conjuntos de datos, como está descrito en los capítulos previos [Obteniendo datos de OSM](/es/osm-data/getting-data) y [Usando Geofabrik y HOT Export](/es/osm-data/geofabrik-and-hot-export).
-está descrito en los capítulos previos [Obteniendo datos de OSM](/es/osm-data/getting-data) y [Usando Geofabrik y HOT Export](/es/osm-data/geofabrik-and-hot-export).  
+Lo primero que haremos es obtener algunos datos actualizados de OSM. Podemos hacerlo de muchas maneras. El complemento QuickOSM nos permite extraer grandes cantidades de datos, ya que utiliza la API de Overpass y no el servidor principal de la base de datos de OSM.
 
-Para este tutorial usaremos la función de descarga integrada en QGIS.  
+- Abre QGIS y ve a Vector -> QuickOSM -> QuickOSM...  
 
-- Abra QGIS y vaya a Vectorial -> OpenStreetMap -> Descargar datos  
-- Aquí puede elegir entre varias opciones - si la ventana ya está mostrando la extensión que desea, seleccione la opción "A partir de lienzo de mapa". Si tiene una capa cargada en QGIS con la extensión correcta, elija "A partir de capa" y seleccione la capa que desea usar. En nuestro caso elegiremos "Manual" e ingresaremos las latitudes y longitudes que formaran una **caja delimitadora** alrededor del área que queremos acceder. Puede ingresar las latitudes y longitudes que le interesen, pero recuerde que el área no puede ser demasiado grande, o no podrá descargar la totalidad de los datos.  
+![quickosm][]
 
-![bounding box][]
+- Aquí puedes elegir entre varias opciones: si tu ventana ya muestra la extensión que deseas, cambia el cuadro combinado que, de forma predeterminada, muestra "Dentro de" a "Extensión del lienzo". Si tienes una capa cargada en QGIS con la extensión deseada, elige "Extensión de la capa" y selecciona la capa que deseas utilizar. Utilizar la opción predeterminada "Dentro de" requiere que exista una relación o un polígono con el nombre indicado. De lo contrario, elige "Alrededor de" y bastará con un nodo con este nombre. Puedes seleccionar un perímetro (por defecto, 1000 m) alrededor de este nodo desde donde se cargarán los datos de la base de datos.
 
-- Seleccione un nombre y una ubicación para el archivo de salida, usando la extensión **.osm**, y haga clic en Aceptar.  
-- Será notificado cuando la descarga se complete. Haga clic en "Cerrar" para cerrar el diálogo de descarga.  
+- Haz clic en "Ejecutar consulta".  
+- Se te notificará cuando la descarga se haya completado. Los datos se almacenan en tres capas temporales: una para nodos, una para vías y una para polígonos, respectivamente.
 
-![download complete][]
-
-- Los datos de OSM se habrán guardado en la ubicación especificada.  
-
-> Este método para acceder a los datos de OSM es el mismo que si los descargara desde JOSM o en 	[openstreetmap.org](http://www.openstreetmap.org). Para extractos actualizados y más grandes, puede probar descargarlos desde el [sitio de exportaciones HOT](http://export.hotosm.org/es) o [bbbike.org](http://extract.bbbike.org/). Recuerde que si está descargando un archivo comprimido de OSM, primero necesitará descomprimirlo al formato **.osm** para los pasos siguientes.  
+![quickosm loaded][]
 
 
-Importar datos a SQLite
+Importar extractos
 ---------------------------
 
-A continuación vamos a necesitar importar nuestro archivo **.osm** en un archivo de base de datos SQLite.  
+Hay varias opciones para obtener extractos de una zona. <https://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts> contiene una lista de varios sitios web. Solo tienes que elegir un archivo **.osm** o **.pbf** y descargarlo. 
 
-- Ir a Vectorial -> OpenStreetMap -> Importar Topología de XML  
-- En el primer campo, seleccione su archivo **.osm**.  
-- Puede cambiar el nombre del archivo de base de datos de salida si así lo desea.  
-- Mantenga la casilla marcada junto a "Crear conexión..."  
+Puedes utilizar QuickOSM para importarlo haciendo clic en "Archivo OSM" en la barra de la izquierda. Una vez que hayas utilizado QuickOSM, los archivos OSM deberían ser conocidos por QGIS y puedes utilizar la importación regular de capas vectoriales:
 
-![import dialog][]  
+- Ve a Capa -> Añadir capa -> Añadir capa vectorial...  
+- En el campo "Fuente", selecciona tu archivo y haz clic en "Añadir".  
+- Puedes seleccionar una o más capas de tipo de ese archivo.  
 
-- Haga clic en Aceptar.  
-- Cuando esté terminado, haga clic en "Cerrar".  
+![import osm][]  
+
+- Después de hacer clic en "Aceptar", puedes cerrar el diálogo y tu ventana de QGIS mostrará las nuevas capas.  
+  
+
+![import osm loaded][]  
 
 
-Creación de capas
+Exportar datos
 --------------
 
-Por último, vamos a definir las capas que se pueden utilizar en QGIS, personalizadas de acuerdo a nuestras necesidades.  
+Para exportar una capa, activa su menú contextual y selecciona Exportar -> Guardar objetos espaciales como...
+Puedes seleccionar entre una amplia gama de formatos, incluidos Shapefile, GeoJSON, volcado PostgreSQL y SQLite. Las demás opciones del diálogo varían en función del formato que selecciones.
 
-- Ir a Vector -> OpenStreetMap -> Exportar Topología de SpatiaLite...  
-- En el primer campo, seleccione la base de datos que creó en el paso anterior.  
+![export][]  
 
-![input db file][]  
+Puedes elegir reimportar la capa exportada marcando la casilla de la parte inferior (activada de forma predeterminada).
 
-- En "Tipo de Exportación", seleccione el tipo de características que desea para crear una capa. Aquí vamos a crear una capa usando polígonos.  
+Trabajar con los datos
+--------------------
 
-![export type][]  
+No podemos darte ni siquiera una visión general de lo que puedes hacer con QGIS y hay muchos tutoriales y libros excelentes que te guiarán paso a paso hacia el dominio del *software*. Pero como los datos OSM importados por uno de los métodos descritos anteriormente tienen sus etiquetas codificadas de una manera especial, aquí tienes un ejemplo de cómo tratarlas (para los curiosos, el ejemplo es pitcairn-islands-latest de la página de descarga de Geofabrik para Australia y Oceanía). Puedes inspeccionar los datos de una capa vectorial utilizando "Abrir tabla de atributos" desde el menú contextual de una capa, en este caso, la capa multipolígono.
 
-- Edite el nombre de la capa, si así lo desea.  
+![attribute table][]
 
-Bajo "Etiquetas exportadas" es donde ocurre la magia. Aquí podemos seleccionar qué etiquetas serán incluidas en nuestra capa de salida. Esto nos da la flexibilidad sobre exactamente qué datos  queremos acceder.  
+Podemos ver que todos los pares clave-valor para las etiquetas de los distintos objetos están organizados en una cadena de texto especialmente formateada en el campo "other_tags". Este tipo de almacenamiento se llama "hstore" en una base de datos PostgreSQL y es el estándar para los datos OSM.
 
-- Haga clic en "Cargar desde DB" para ver una lista de todas las etiquetas disponibles en la base de datos. Amplié el tamaño de la ventana arrastrando la esquina si eso ayuda. Puede ver todas las etiquetas contenidas en estos datos, y también el número de elementos que tienen cada etiqueta.  
-- Marque las casillas junto a las etiquetas que desee incluir. Aquí seleccionaremos algunas características que serán de utilidad para los polígonos que representan edificios.  
+En este ejemplo, los polígonos son principalmente islas, bosques y edificios. Inicialmente se representan de la misma manera, lo que significa que las islas cubren todo lo demás. Vamos a representarlos de forma diferente para tener una idea de cómo identificar los diferentes objetos. Descarta la tabla de atributos. En el menú contextual de la capa multipolígono, selecciona Propiedades y, en ese formulario, ve a la pestaña Simbología. 
 
-![export full][]  
+![symbology][]
 
-Cuando haya terminado, haga clic en Aceptar. Cierre el diálogo. Su capa debería haberse añadido automáticamente.  
+En primer lugar, cambia el tipo de símbolo de "Símbolo único" a "Basado en reglas" utilizando el cuadro combinado de la parte superior del formulario. 
 
-![cairo polygons][]  
+![symbology rule based][]
 
-Haga clic derecho sobre la capa y haga clic en "Abrir tabla de atributos".  
+La representación actual aparece como una regla sin filtros. Podemos modificar esta regla haciendo clic en el icono marcado con un cuadrado morado en la imagen superior.
 
-![open attribute table][]  
+![symbology edit rule][]
 
-Puede ver aquí que tenemos una tabla que incluye sólo los atributos que hemos seleccionado.  
+Nos gustaría tratar los edificios de forma diferente. Tratar de forma diferente significa que hay que especificar las reglas según las propiedades de las capas. La evaluación de expresiones de QGIS no puede tratar directamente las cadenas hstore. Pero una utilidad viene a nuestro rescate y la expresión de filtro que se muestra en la imagen `hstore_to_map(other_tags)['building'] is not NULL` convierte la cadena "other_tags" en un mapa clave-valor donde elegimos el valor para la clave "building". La condición indica que buscamos objetos cuya clave "building" no esté vacía. Podemos definir un color y un estilo de relleno para los edificios. Haz clic en "Aceptar" cuando hayas terminado con el diseño de tu regla. Ahora puedes añadir más reglas haciendo clic en el icono "más" en la parte inferior de la pestaña Simbología. Añadimos reglas similares para los bosques y los pastizales. Al final, nuestra pestaña Simbología tendrá este aspecto:
 
-![attribute table][]  
+![symbology polygon rules][]
 
-Tenga en cuenta que no hemos creado una capa de edificios **únicamente**. En lugar de ello, hemos creado una capa que incluye todos los polígonos de nuestro datos originales, pero sólo incluye las etiquetas que hemos seleccionado. Para filtrar esta capa para mostrar sólo los edificios, tendríamos que ejecutar una consulta que filtre sólo polígonos donde building=yes.
+Como ventaja adicional, podemos obtener un recuento rápido de objetos espaciales de las reglas. Pulsa el icono situado más a la derecha de la fila de la parte inferior (el símbolo de la suma) y la columna "recuento" se rellenará diciéndonos que tenemos 150 edificios en esta capa.
+
+Puedes añadir etiquetas de forma similar a como lo hicimos con los símbolos. "Etiquetas" es otra pestaña en las propiedades de una capa, justo debajo de Simbología. En la mayoría de los casos, querrás imprimir el nombre de un objeto espacial. Introduce una expresión similar a las utilizadas para la simbología en el campo para un filtro y, como valor, utilizarías `hstore_to_map(other_tags)['name']`. 
+
+![labels][]
+
+Asignar estas etiquetas a las capas multipolígono y a las capas de puntos da como resultado algo así:
+
+![done][]
 
 
 Resumen
 -------
 
-Este proceso simplifica la obtención de datos actualizados de OSM y su inserción en QGIS. Una vez que tenga capas como esta en QGIS, es posible guardarlas en formato Shapefile, ejecutar filtros y consultas, y más. Para más detalle sobre estas funciones, refiérase al menú Ayuda en QGIS.  
+Este proceso simplifica la obtención de datos actualizados de OSM y su introducción en QGIS. Una vez que tengas capas como esta en QGIS, puedes guardarlas en formato Shapefile, ejecutar filtros y consultas, etc. Para obtener más información sobre estas funciones, consulta el menú Ayuda de QGIS.  
 
 
-[bounding box]: /images/osm-data/bounding_box.png
-[download complete]: /images/osm-data/download_complete.png
-[import dialog]: /images/osm-data/import_dialog.png
-[input db file]: /images/osm-data/input_db_file.png
-[export type]: /images/osm-data/export_type.png
-[export full]: /images/osm-data/export_full.png
-[cairo polygons]: /images/osm-data/cairo_polygons.png
-[open attribute table]: /images/osm-data/open_attribute_table.png
-[attribute table]: /images/osm-data/attribute_table.png
+[quickosm]: /images/osm-data/qgis-quickosm.png
+[quickosm loaded]: /images/osm-data/qgis-quickosm-loaded.png
+[import osm]: /images/osm-data/qgis-import-osm.png
+[import osm loaded]: /images/osm-data/qgis-import-osm-loaded.png
+[export]: /images/osm-data/qgis-export.png
+[attribute table]: /images/osm-data/qgis-layer-attributes.png
+[symbology]: /images/osm-data/qgis-layer-symbology.png
+[symbology rule based]: /images/osm-data/qgis-layer-symbology-rule.png
+[symbology edit rule]: /images/osm-data/qgis-layer-symbology-edit-rule.png
+[symbology polygon rules]: /images/osm-data/qgis-layer-symbology-poly-rules.png
+[labels]: /images/osm-data/qgis-layer-labels.png
+[done]: /images/osm-data/qgis-complete.png

@@ -1,19 +1,19 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
-title: Tasking Manager Versions
+permalink: /ko/coordination/tm-disambiguation/
+lang: ko
+title: 태스킹 매니저 버전
 category: coordination
 navigation: skip
 ---
 
-Tasking Manager Versions
+태스킹 매니저 버전
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+이 페이지는 LearnOSM의 버전별 태스킹 매니저 설명서를 나타내기 위한 페이지입니다. 사용 중인 태스킹 매니저의 모습과 스크린샷이 일치하는 버전의 안내서 중 하나를 선택합니다.
 
 <div class='disambiguation-version' markdown="1">
-## Version 4 ##
+## 버전 4 ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -23,12 +23,12 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[사용자 안내서](/ko/coordination/tm-user) [관리자 안내서](/ko/coordination/tm-admin)
 </div>
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Version 3 ##
+## 버전 3 ##
 
 <figure markdown="1">
 ![TM3-start][]
@@ -38,13 +38,13 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
+[사용자 안내서](/ko/coordination/tasking-manager3) [관리자 안내서](/ko/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
 
 <div class='disambiguation-version' markdown="1">
-## Version 2 ##
+## 버전 2 ##
 
 <figure markdown="1">
 ![TM2-start][]
@@ -54,7 +54,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
+[사용자 안내서](/ko/coordination/tasking-manager) [관리자 안내서](/ko/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

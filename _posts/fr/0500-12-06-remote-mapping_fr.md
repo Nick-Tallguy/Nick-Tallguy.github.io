@@ -1,67 +1,69 @@
 ---
 layout: doc
-title: HOT Remote Mapping  
+title: Cartographie à distance HOT  
 permalink: /fr/coordination/HOT-Remote-Response-Guide/ 
 lang: fr
 category: coordination
 ---
 
-# HOT Remote Response Guide   
+# Guide de réponse à distance HOT   
 
 ![HotGuideLogo](/images/hot-logo.png)  
 
-> Reviewed 2015-09-18  
+> Révisé le 18 septembre 2015  
 
-The Humanitarian OpenStreetMap Team (HOT) is a global community working to apply the principles of open source and open data sharing towards humanitarian response and economic development.  
+L'équipe humanitaire OpenStreetMap (HOT) est une communauté mondiale qui s'efforce d'appliquer les principes de l'open source et du partage ouvert des données à l'intervention humanitaire et au développement économique.  
 
-### How Remote Response Works 
+### Comment fonctionne la réponse à distance 
 
-The majority of HOT’s response activities occur remotely. After a disaster strikes, HOT members search for existing data and available satellite imagery. Pertinent partners are contacted to provide ODbL compatible imagery. Once the imagery is obtained the virtual community digitizes, or traces from the imagery (normally, the focus is on recognizable objects that are useful for humanitarian response, like roads, buildings, blocked roads, flood extent, etc) and generates data and maps. During this time, responding organizations are also contacted to determine their needs.  
+La majorité des activités d'intervention de HOT se déroulent à distance. Après une catastrophe, les membres de HOT recherchent les données existantes et les images satellites disponibles. Les partenaires pertinents sont contactés pour fournir des images compatibles avec l'ODbL. Une fois l'imagerie obtenue, la communauté virtuelle numérise ou trace des éléments à partir de l'imagerie (normalement, l'accent est mis sur les objets reconnaissables qui sont utiles pour l'intervention humanitaire, comme les routes, les bâtiments, les routes bloquées, l'étendue des inondations, etc. Pendant ce temps, les organisations d'intervention sont également contactées pour déterminer leurs besoins.  
 
-Considering the scale of the crisis, HOT allocates the necessary resources and the response is coordinated by a specific team or member who makes sure everyone knows when new resources are available as well as where to focus efforts. HOT fosters the engagement of the OSM community and, if existing, local actors to use tools like the Tasking Manager to coordinate response efforts. Examples include the remote activities done in Ivory Coast, Senegal, Philippines, and the Democratic Republic of the Congo.  
+Compte tenu de l'ampleur de la crise, HOT alloue les ressources nécessaires et la réponse est coordonnée par une équipe ou un membre spécifique qui s'assure que tout le monde sait quand de nouvelles ressources sont disponibles et où concentrer les efforts. HOT encourage l'engagement de la communauté OSM et, le cas échéant, des acteurs locaux à utiliser des outils tels que le gestionnaire de tâches pour coordonner les efforts de réponse. Les activités à distance menées en Côte d'Ivoire, au Sénégal, aux Philippines et en République démocratique du Congo en sont des exemples.  
 
 [Syria Activation Example](http://hot.openstreetmap.org/updates/2013-01-28_syria_activation)  
 
-### The HOT Tasking Manager 
+### Le gestionnaire de tâches HOT 
 
-The [HOT Tasking Manager](http://tasks.hotosm.org/) is a open source tool designed to divide up a mapping job into smaller tasks that can be completed rapidly. It shows which areas need to be mapped and which areas need the mapping validated by others. It includes mapping tasks for [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), and longer standing [Humanitarian Projects](http://hot.openstreetmap.org/projects).  
+Le [Gestionnaire de tâches HOT](http://tasks.hotosm.org/) est un outil open source conçu pour diviser un travail de cartographie en tâches plus petites qui peuvent être réalisées rapidement. Il indique les zones qui doivent être cartographiées et celles dont la cartographie doit être validée par d'autres. Il comprend des tâches de cartographie pour [Activations](http://wiki.openstreetmap.org/wiki/HOT_activation), et de plus longue durée [Projets humanitaires](http://hot.openstreetmap.org/projects).  
 
-In order to use the HOT Tasking Manager you need to sign up with OpenStreetMap (OSM) with a username and password. For more instructions read the [Tasking Manager Tutorial](http://learnosm.org/en/coordination/tasking-manager/).  
+Afin d'utiliser le gestionnaire de tâches HOT, vous devez vous inscrire sur le site OpenStreetMap (OSM) avec un nom d'utilisateur et un mot de passe. Pour plus d'instructions, lisez le [Tutoriel sur le gestionnaire de tâches](/fr/coordination/tm-user/).  
 
 
-### Editing Tools 
+### Outils d'édition 
 
-[iD](http://learnosm.org/en/beginner/id-editor/) - the web-based editor created by [Mapbox](www.mapbox.com) with a very user-friendly interface. Generally considered the best editing tool to start with. You can launch this [interactive iD editor tutorial](http://ideditor.com/) to get acquainted with how to use it.  
+[iD](http://learnosm.org/en/beginner/id-editor/) - l'éditeur en ligne créé par [Mapbox](www.mapbox.com) avec une interface très conviviale. Généralement considéré comme le meilleur outil d'édition pour commencer. Vous pouvez lancer ce [tutoriel interactif de l'éditeur iD](http://ideditor.com/) pour se familiariser avec son utilisation.  
 
 ![iDeditor](https://blog.openstreetmap.org/wp-content/uploads/2013/08/id-editor-sotm-us-2013-venue-screenshot.png)  
 
 
-[JOSM](https://josm.openstreetmap.de/)- a Java app pronounced as "Jaws-um", which requires downloading the app and has a greater learning curve. Although it takes longer to setup and learn, it is super-fast for making more edits. Using a mouse is recommended for using this editor.  
+[JOSM](https://josm.openstreetmap.de/)- une application Java se prononçant comme "Jaws-um", qui nécessite le téléchargement de l'application et présente une courbe d'apprentissage plus importante. Bien qu'il soit plus long à configurer et à apprendre, il est super rapide pour faire plus d'éditions. Il est recommandé d'utiliser une souris pour utiliser cet éditeur.  
 
-![JOSM](http://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
+![JOSM](https://njgeo.org/wp-content/uploads/2010/07/josm_osm_editor.png)  
 
-### Advice & Words of Encouragement
+### Conseils et mots d'encouragement
 
-> "To practice it's recommended you start with a local area you know and try some editing, such as updating a local building in your neighborhood."  
-> "Some tasks are easier than others; if you don't feel up to one of them, simply cancel out and try another!" -Peter (@meetar)  
-> "It's no problem if you don't finish the task; just upload what you've done and unlock the task so others can work on it." -Peter (@meetar)  
-> "If you'd like to see examples of the quality of work that passes muster, check out one of the green "validated" tasks. Don't worry, clicking the "Review the work" button doesn't commit you to anything – it just locks the task as though you were editing it. Load it like normal, and simply unlock the task again when you're done." -Peter (@meetar)  
-> "The satellite pictures are sometimes difficult to interpret, but don't worry too much about drawing the perfect line or shape – your work will be reviewed and modified by others, and improved with time. And remember, these are crisis areas, not tax records or voting districts – these maps will be read by people who may be in a hurry, in the dark, or in danger. In West Africa, even a rough line on a map is an expression of hope. In Gaza, many of the buildings to be mapped are already gone; but we mark the fact of their construction. Accuracy is nice, but it isn't the point." -Peter (@meetar)  
- 
-### Other Resources 
+> "Pour vous entraîner, il est recommandé de commencer par une zone locale que vous connaissez et d'essayer quelques modifications, comme la mise à jour d'un bâtiment local dans votre quartier."
 
-This guide has been summarized and collected from a variety of existing tutorial sources and a working HOT Guide. You can find more learning resources at the links below.  
+> "Certaines tâches sont plus faciles que d'autres ; si vous ne vous sentez pas à la hauteur d'une d'entre elles, annulez simplement et essayez-en une autre !" -Peter (@meetar)
 
-#### Tutorials
+> "Ce n'est pas un problème si vous ne terminez pas la tâche ; il suffit de télécharger ce que vous avez fait et de déverrouiller la tâche pour que d'autres puissent y travailler.." -Peter (@meetar)
 
-[LearnOSM's Remote Mapping Guide](http://learnosm.org/en/coordination/remote/)- one of the most comprehensive guides  
+> "Les images satellites sont parfois difficiles à interpréter, mais ne vous souciez pas trop de dessiner la ligne ou la forme parfaite - votre travail sera revu et modifié par d'autres, et amélioré avec le temps. Et n'oubliez pas qu'il s'agit de zones de crise, pas de dossiers fiscaux ou de circonscriptions électorales - ces cartes seront lues par des personnes qui peuvent être pressées, dans l'obscurité ou en danger. En Afrique de l'Ouest, même une ligne grossière sur une carte est une expression d'espoir. À Gaza, de nombreux bâtiments à cartographier ont déjà disparu, mais nous marquons le fait de leur construction. La précision, c'est bien, mais ce n'est pas le but." -Peter (@meetar)
 
-[MapGive's Learn To Map tutorial](http://mapgive.state.gov/learn-to-map/)- includes videos that you can pause to follow along  
+### Autres ressources 
 
-[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - written by Peter Richardson (@meetar) an experienced HOT Remote Response Volunteer  
+Ce guide a été résumé et rassemblé à partir d'une variété de sources de didacticiels existants et d'un guide HOT fonctionnel. Vous pouvez trouver d'autres ressources d'apprentissage sur les liens ci-dessous.  
 
-#### About HOT 
+#### Tutoriels
 
-[HOT Wiki Page](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team)-  learn more about how HOT operates and some of their latest news  
+[Guide de cartographie à distance de LearnOSM](http://learnosm.org/en/coordination/remote/)- l'un des guides les plus complets  
 
-[HotCapacities](http://hot.openstreetmap.org/about/hot_capacities)- describes HOT activities in more detail from their website  
+[Le tutoriel Apprendre à cartographier de MapGive](http://mapgive.state.gov/learn-to-map/)- comprend des vidéos que vous pouvez mettre en pause pour suivre le cours  
+
+[HotQuickStartGuide](https://gist.github.com/meetar/b9929dfec129d1d7f5f2) - écrit par Peter Richardson (@meetar) un volontaire expérimenté dans le domaine de l'intervention à distance HOT. Attention : les informations données sont périmées, mais toujours utiles. 
+
+#### A propos de HOT 
+
+[Page Wiki de HOT](http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Team) -  Apprenez-en davantage sur le fonctionnement de HOT et sur ses dernières nouvelles.  
+
+[Activités HOT](https://www.hotosm.org/what-we-do) - décrit les activités de HOT de manière plus détaillée sur son site web  

@@ -9,7 +9,6 @@ category: mobile-mapping
 OSMTracker
 ==============
 
-> Reviewed 2016-02-08
   
 **Denne artikkelen omhandler OSMTracker for Android - det finnes tilsvarende produkt tilgjengelig for Windows Mobile.**  
 OSMTracker muliggjør produksjon av et GPX spor på en tur, med innsamling av "waypoints" langs en rute. Lydopptak, bilder og andre notater kan også samles inn og alt vil bli georeferert.
@@ -30,9 +29,8 @@ Hurtigstart
 Installere OSMTracker
 -------------------------
 
-Installer OSMTracker fra [Google play Store](https://play.google.com/store/apps/details?id=me.guillaumin.android.osmtracker).  
+Install OSMTracker from the [F-Droid](https://f-droid.org/en/packages/net.osmtracker/).  
 ![OSMTracker Logo][]  
-Den [siste versjonen](https://drive.google.com/folderview?id=0BxxhTXmYjyeSSjg1MFhJWnJLams#list) kan lastes ned utenfor google play store, hvis man trenger det.  
 
 
 OSMTracker konfigurasjon

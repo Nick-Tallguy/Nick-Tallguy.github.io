@@ -9,7 +9,7 @@ category: beginner
 Bacaan Lebih Lanjut
 ===============
 
-> Reviewed 2020-05-08  
+> Ditinjau 2020-05-08  
 
 Jika Anda berhasil mengikuti sampai sejauh ini, selamat! Anda sudah memiliki pemahaman yang baik untuk membuat peta menggunakan OpenStreetMap. Hal apa lagi yang Anda dapat lakukan menggunakan OSM? Bagaimana caranya untuk Anda belajar lebih lanjut? Bagaimana caranya agar Anda dapat selalu terhubung dengan komunitas pembuat peta?  
 
@@ -56,15 +56,15 @@ Geser halaman ke bawah untuk menemukan milis yang sesuai dengan negara Anda. Daf
 - Saat Anda ingin mengirim sebuah email ke milis, Anda dapat mengirimkannya ke [talk-id@openstreetmap.org](mailto:talk-id@openstreetmap.org), ganti "id" dengan milis negara Anda. Anda juga akan mendapatkan email ketika anggota lain mengirimkan email ke milis.  
 
 
-Example of OSM use - MyOSMatic
+Contoh penggunaan OSM - MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+Satu contoh proyek bernama MyOSMatic, yang kamu bisa akses melalui perambah internet milikmu di [print.get-map.org](https://print.get-map.org/). Ini merupakan alat sederhana untuk mencetak peta sebuah kota yang kamu dapat pilih. Secara otomatis akan membuat peta, dengan grid di atas peta, dan sudah termasuk indeks lokasi area.
 
 ![MyOSMatic][]
 
 
-Further uses of OpenStreetMap data are explained in the [OSM-Data section of LearnOSM](/en/osm-data/)
+Penggunaan lanjutan data OpenStreetMap dijabarkan di [OSM-Data section of LearnOSM](/id/osm-data/)
 
 
 Ringkasan
