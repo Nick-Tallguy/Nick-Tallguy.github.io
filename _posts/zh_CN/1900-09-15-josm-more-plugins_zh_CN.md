@@ -57,7 +57,7 @@ JOSM建筑物工具和Utilsplugin2插件
 
 此外，你还可以改变插件的默认设置。  
 
-* 进入 Data->Set buildings size。 ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * 如果您正在创建许多类似大小的建筑物，您可以设置建筑物的特定宽度和高度尺寸，如6×10米（单位是米）。  
 
@@ -87,7 +87,7 @@ Utilsplugin2
 
     ![Nodes interesection][]
 
-2. **从上一个选区复制标签：**这个功能使复制标签变得更容易。如果你想创建许多具有相同标签的对象，首先绘制对象。然后将标签添加到一个对象上。点击另一个对象，按Shift + R键，复制之前所选对象的标签。您可以对所有要标记的对象进行此操作。记得，标签会从先前选择的物件复制，所以如果你点击一个未标签的对象，然后再点击另一个未标签的对象，你将无法复制任何标签。  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

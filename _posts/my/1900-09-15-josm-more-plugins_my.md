@@ -57,7 +57,7 @@ JOSM ဆော့လ်ဖ်ဝဲလ်ကိုဖွင့်ပြီး �
 
 Plugin တွင် မူရင်းပါအပြင်အဆင်များကိုလည်း မိမိနှစ်သက်သလိုပြောင်းလဲသတ်မှတ်နိုင်သည်။  
 
-* Data menu ရှိ Set building size ကိုသွားပါ။ ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * အရွယ်အစားတူသောအဆောက်အဦများကို ဖန်တီးရေးဆွဲလိုပါက အဆောက်အဦတို့၏ အလျား၊ အနံ တို့ကိုသီးသန့်ပိုင်းခြားသတ်မှတ်ပေးထားနိုင်သည်။ ဥပမာ။ ၆ x ၁၀ မီတာ (အကွာအဝေးအတိုင်းအတာကို မီတာဖြင့်သာဖော်ပြပါမည်။)  
 
@@ -87,7 +87,7 @@ Utilsplugin2 ကိုထည့်သွင်းပြီးနောက် JOS
 
     ![Nodes interesection][]
 
-၂။ **အညွန်းများကူးယူဖော်ပြခြင်း** ။ ။ အညွန်းကူးယူရာတွင်လွယ်ကူချောမွေ့စေသည်။ အညွှန်းဖော်ပြချက်တူညီသောအရာဝတ္ထုများကို ရေးဆွဲရန်အတွက် အရာဝတ္ထုများကို ဦးစွာရေးဆွဲပြီး အညွှန်းဖော်ပြချက်ကိုထည့်သွင်းရသည်။ အခြားအရာဝတ္ထုတစ်ခုကိုရွေးချယ်ထားပြီး Shift နှင့် R ခလုတ်များကိုတွဲနှိပ်ကာ ယခင်ရွေးထားသောအရာဝတ္ထုတစ်ခုထံမှအညွှန်းကူးယူပါ။ ယင်းလုပ်ဆောင်ချက်ကို အကြိမ်ရေအကန့်အသတ်မရှိအသုံးပြုနိုင်သည်။ အညွှန်းတပ်ပြီးသောအရာတစ်ခုဆီမှကူးယူရသည့်အတွက် အညွှန်းမတပ်ရသေးသော အရာများအကြားတွင်အသုံးမပြုနိုင်ကြောင်းသတိပြုရန်လိုအပ်သည်။  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

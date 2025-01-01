@@ -57,7 +57,7 @@ Vous pouvez également créer des bâtiments plus complexes en commençant par d
 
 En outre, vous pouvez modifier les paramètres par défaut du plugin.  
 
-* Allez dans Data->Set buildings size. ![Définir la taille des bâtiments][]{ : height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Si vous créez de nombreux bâtiments de taille similaire, vous pouvez définir des dimensions spécifiques de largeur et de hauteur des bâtiments, par exemple 6 x 10 mètres (l'unité est en mètres).  
 
@@ -87,7 +87,7 @@ Créez un nouveau calque et expérimentez certains des nouveaux outils. Nous dé
 
     ![Nodes interesection][]
 
-2. **Copier les balises de la sélection précédente:** Cette fonction facilite la copie des balises. Si vous souhaitez créer plusieurs objets avec les mêmes balises, dessinez d'abord les objets. Ensuite, ajoutez les balises à un objet. Cliquez sur un autre objet et appuyez sur Shift + R pour copier les balises de l'objet précédemment sélectionné. Vous pouvez procéder ainsi pour tous les objets que vous souhaitez marquer. N'oubliez pas que les balises seront copiées à partir de l'objet précédemment sélectionné. Par conséquent, si vous cliquez sur un objet non balisé, puis sur un autre objet non balisé, vous ne pourrez pas copier de balises.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

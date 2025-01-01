@@ -57,7 +57,7 @@ Bạn cũng có thể tạo các tòa nhà phức tạp hơn bằng cách vẽ m
 
 Hơn nữa, bạn có thể thay đổi cài đặt mặc định của plugin.  
 
-* Đi đến Data->Set buildings size. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Nếu bạn đang tạo nhiều tòa nhà có kích thước tương tự, bạn có thể đặt kích thước chiều rộng và chiều cao cụ thể của tòa nhà, chẳng hạn như 6 x 10 mét (đơn vị tính bằng mét).  
 
@@ -87,7 +87,7 @@ Tạo một lớp mới và thử nghiệm với một số công cụ mới. �
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  Sao chép thẻ thông tin từ đối tượng chọn trước đó: Chức năng này làm cho các thẻ sao chép dễ dàng hơn. Nếu bạn muốn tạo nhiều đối tượng với cùng các thẻ, trước hết hãy vẽ các đối tượng. Sau đó, thêm các thẻ vào một đối tượng. Nhấp vào một đối tượng khác và nhấn Shift + R để sao chép các thẻ từ đối tượng đã chọn trước đó. Bạn có thể làm điều này cho tất cả các đối tượng mà bạn muốn gắn thẻ. Hãy nhớ rằng các thẻ sẽ được sao chép từ đối tượng được chọn trước đó, vì vậy nếu bạn nhấp chuột vào một đối tượng chưa được đánh dấu và một đối tượng không bị đánh dấu khác, bạn sẽ không thể sao chép bất kỳ thẻ nào.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

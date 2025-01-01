@@ -57,7 +57,7 @@ También puedes crear edificios más complejos dibujando primero varios edificio
 
 Además, puedes modificar los ajustes predeterminados del complemento.  
 
-* Selecciona Datos->Establecer tamaño de la edificación. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Si vas a crear varios edificios de tamaño similar, puedes ajustar dimensiones específicas de anchura y altura de los edificios, tales como 6 x 10 metros (las unidades están en metros).  
 
@@ -87,7 +87,7 @@ Crea una capa nueva y experimenta con alguna de las nuevas herramientas. Aquí d
 
     ![Nodes interesection][]
 
-2. **Copiar etiquetas de la selección anterior:** Esta función facilita copiar etiquetas. Si quieres crear varios objetos con las mismas etiquetas, primero dibuja los objetos. Luego añade las etiquetas a uno de los objetos. Haz clic en otro de los objetos y pulsa Mayús+R para copiar las etiquetas del objeto anteriormente seleccionado. Puedes hacer esto para todos los objetos que desees etiquetar. Recuerda que las etiquetas pueden copiarse del objeto seleccionado anteriormente, por lo que si haces clic en un objeto sin etiquetar y luego en otro ya no podrás copiar etiquetas.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

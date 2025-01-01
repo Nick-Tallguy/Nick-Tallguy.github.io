@@ -28,7 +28,7 @@ Descargar Datos OSM
 --------------------
 El primer paso de edición es descargar los datos de la zona del mundo que queremos mejorar. Recuerda que tienes que hacer esto cada vez que quieras hacer cambios en el mapa, porque el mapa suele ser actualizado por otros usuarios.
 
-- Haz clic en "Archivo" en la esquina superior izquierda de JOSM y haz clic en "Descargar de OSM". Esto abrirá la ventana de descarga. Puedes acceder a esta ventana de forma más sencilla haciendo clic en el botón de descarga, que se muestra aquí:
+- Haz clic en "Archivo" en la esquina superior izquierda de JOSM y haz clic en "Descargar datos...". Esto abrirá la ventana de descarga. Puedes acceder a esta ventana de forma más sencilla haciendo clic en el botón de descarga, que se muestra aquí:
 
 ![JOSM Download Button][]
 
@@ -65,7 +65,7 @@ La ventana principal con la que ya estás familiarizado: esta es la ventana del 
 
 A la derecha de la ventana del mapa hay una serie de paneles, cada uno de los cuales tiene su propia función. Normalmente, cuando instalas JOSM por primera vez, se muestran varios paneles de forma predeterminada, como Capas, Propiedades y Selección. Cuando seleccionas un punto, línea o forma en la ventana del mapa, se mostrará en el panel Selección. La información sobre el objeto se mostrará en el panel Propiedades y el nombre de usuario del autor de ese objeto se mostrará en el panel Autores.
 
-Estos paneles se pueden abrir o cerrar haciendo clic en los distintos botones de la parte inferior izquierda de JOSM. Encima de estos botones, en la parte superior derecha, hay herramientas que cambian lo que puedes hacer con el mouse. Ya estás familiarizado con algunas de ellas, la herramienta Seleccionar y la herramienta Dibujar. Debajo de ellas hay herramientas que facilitan el acercamiento, la eliminación de un objeto, el dibujo de una forma o la creación de una línea paralela a otra línea.
+Estos paneles se pueden abrir o cerrar haciendo clic en los diferentes botones en la parte inferior izquierda de JOSM. Sobre estos botones, en la parte superior izquierda, están las herramientas que modifican las acciones que puedes realizar con el mouse. Ya conoces algunas de ellas, como la herramienta Seleccionar y la herramienta Dibujar. Debajo de ellas están las herramientas que facilitan acercar, borrar un objeto, dibujar una forma o crear una línea paralela a otra.
 
 
 Editar
@@ -113,7 +113,7 @@ Ver tus cambios en el mapa
 ---------------------------
 - Abre tu navegador de internet y ve a [http://openstreetmap.org/](http://openstreetmap.org/)
 - Mueve el mapa al área que editaste.
-- ¡Deberías ver tus cambios ya en el mapa! Si no es así, intenta presionando CTRL + R para actualizar la página web. A veces, el mapa no se actualiza correctamente y es necesario volver a cargarlo.
+- Deberías ver tus cambios reflejados en el mapa. Si no es así, intenta presionar CTRL+R para actualizar la página web. A veces, el navegador muestra la versión antigua y necesita recargarse.
 - ¿Qué pasa si no ves tus cambios? No te preocupes, es posible que los cambios tarden unos minutos en mostrarse en el mapa. Además, verifica tus adiciones en JOSM para asegurarte de que las agregaste correctamente. Una buena regla general es que, si tu punto tiene un icono en JOSM, entonces debería verse en el mapa principal en el sitio web de OpenStreetMap.
 
 Resumen

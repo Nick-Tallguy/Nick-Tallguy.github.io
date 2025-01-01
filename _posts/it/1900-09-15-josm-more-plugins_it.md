@@ -57,7 +57,7 @@ Puoi anche creare edifici dalla forma complessa, disegnando prima diversi edific
 
 Inoltre, puoi anche alterare le impostazioni predefinite del plugin.  
 
-* Vai su Dati -> Imposta dimensioni degli edifici. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * Se stai creando molti edifici simili nelle dimensioni, puoi specificare le dimensioni di lunghezza e larghezza degli edifici, come ad esempio 6 x 10 metri (l'unità di misura è in metri).  
 
@@ -87,7 +87,7 @@ Crea un nuovo livello e prova alcuni dei nuovi strumenti. Qui ne descriviamo qua
 
     ![Nodes interesection][]
 
-2. **Copia le etichette dalla selezione precedente**. Questa funzione facilita la copia di etichette. Se volete creare molti oggetti con le stesse etichette, prima disegnate gli oggetti. Poi aggiungete le etichette ad un oggetto. Selezionate un altro oggetto e premete Shift + R per copiare le etichette dall'oggetto precedentemente selezionato. Potete fare così per tutti gli oggetti che volete etichettare. Ricordate che le etichette saranno copiate dall'oggetto precedentemente selezionato, perciò se cliccate su un oggetto senza etichette e poi su un altro oggetto non etichettato, non sarà copiata nessuna etichetta.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 

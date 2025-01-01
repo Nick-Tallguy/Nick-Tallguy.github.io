@@ -28,7 +28,7 @@ Stažení dat OSM
 --------------------
 Prvním krokem úpravy je stažení dat pro oblast světa, kterou chceme vylepšit. Nezapomeňte, že to musíte udělat pokaždé, když chcete na mapě provést změny, protože mapu často aktualizují jiní uživatelé.
 
-- Klikněte na „Soubor“ v levém horním rohu JOSM a poté na „Stáhnout z OSM“. Tím se otevře okno stahování. Do tohoto okna se dostanete snadněji kliknutím na tlačítko Stáhnout, které je zde:
+- Klikněte na „Soubor“ v levém horním rohu JOSM a poté na „Stáhnout data...“. Tím se otevře okno stahování. Do tohoto okna se dostanete snadněji kliknutím na tlačítko Stáhnout, které je zde:
 
 ![JOSM Download Button][]
 
@@ -65,7 +65,7 @@ Hlavní okno již znáte - je to okno mapy, ve kterém se odehrává většina a
 
 Vpravo od okna mapy se nachází řada panelů, z nichž každý má svou vlastní funkci. Při první instalaci JOSM se obvykle ve výchozím nastavení zobrazí několik panelů, například Vrstvy, Vlastnosti a Výběr. Když v mapovém okně vyberete bod, čáru nebo tvar, zobrazí se v panelu Výběr. Informace o objektu se zobrazí v panelu Vlastnosti a uživatelské jméno autora daného objektu se zobrazí v panelu Autoři.
 
-Tyto panely lze otevřít nebo zavřít kliknutím na různá tlačítka v levé dolní části systému JOSM. Nad těmito tlačítky v pravém horním rohu jsou nástroje, které mění možnosti práce s myší. Některé z nich již znáte: nástroj Výběr a nástroj Kreslení. Pod nimi jsou nástroje, které usnadňují přiblížení, odstranění objektu, nakreslení tvaru nebo vytvoření čáry rovnoběžné s jinou čárou.
+These panels can be opened or closed by clicking on the various buttons on lower left side of JOSM. Above these buttons in the upper left are tools which change what you can do with your mouse. You are already familiar with some of them, the Select tool and the Draw tool. Below them are tools which make it easier to zoom in, delete an object, draw a shape, or create a line that is parallel to another line.
 
 
 Upravit
@@ -113,7 +113,7 @@ Zobrazit změny na mapě
 ---------------------------
 - Otevřete internetový prohlížeč a přejděte na adresu [http://openstreetmap.org/](http://openstreetmap.org/).
 - Přesuňte mapu do oblasti, kterou jste upravili.
-- Na mapě by se měly objevit vaše změny! Pokud se tak nestane, zkuste stisknout CTRL+R a obnovit webovou stránku. Někdy se mapa neaktualizuje správně a je třeba ji znovu načíst.
+-   You should see your changes now appearing on the map! If you don’t, try pressing CTRL+R to refresh the web page. Sometimes the browser still shows the old version and needs to be reloaded.
 - Co když se vám změny nezobrazí? Nebojte se - může trvat několik minut, než se změny na mapě zobrazí. Zkontrolujte také své doplňky v JOSM, abyste se ujistili, že jste je přidali správně. Dobrým obecným pravidlem je, že pokud má váš bod ikonu v JOSM, měl by být vidět i na hlavní mapě na webu OpenStreetMap.
 
 Shrnutí

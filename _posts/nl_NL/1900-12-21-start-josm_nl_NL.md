@@ -52,13 +52,13 @@ Er zijn veel verschillende instellingen in JOSM die u kunt aanpassen.  Één ins
 
     ![Preferences window][]
 
--   On the left side, click the language tab.
+- Klik, aan de linkerkant, op het pictogram dat er uitziet als een verfblik en
 -   Kies uw taal in het keuzemenu naast het woord "Language".
 
     ![language][]
 
 -   Klik op OK.
--   You need to restart JOSM to save your settings. Choose the respective option from the message box.
+- U moet JOSM opnieuw opstarten om uw instellingen op te slaan. Kies de respectievelijke optie uit het berichtenvak.
 
 Basis tekenen met JOSM leren
 -----------------------------

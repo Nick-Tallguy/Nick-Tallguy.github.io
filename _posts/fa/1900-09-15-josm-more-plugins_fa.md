@@ -57,7 +57,7 @@ JOSM را باز کنید و ناحیه‌ای را که می‌خواهید س�
 
 علاوه بر این، می‌توانید تنظیمات پیش‌فرض افزونه را تغییر دهید.  
 
-* به Data ->‏ Set buildings size بروید. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * چنانچه ساختمان‌های زیادی با شکل و اندازهٔ یکسان ایجاد می‌کنید، می‌توانید طول و عرض ساختمان‌ها را مشخص کنید، مثلاً ۶×۱۰ متر (واحد به متر است).  
 
@@ -87,7 +87,7 @@ Utilsplugin2
 
     ![Nodes interesection][]
 
-2. **کپی‌کردن برچسب‌ها از انتخاب قبلی:** این عملکرد باعث می‌شود که تگ‌ها را راحت‌تر کپی کنید. اگر می‌خواهید اشیای زیادی را با تگ‌های یکسان ایجاد کنید، ابتدا اشیا را رسم کنید. سپس برچسب‌ها را به یک شی اضافه کنید. روی شی دیگری کلیک کنید و Shift+R را بزنید تا برچسب‌ها از شیء قبلی کپی شود. می‌توانید این کار را برای تمام اشیائی که می‌خواهید برچسب‌گذاری کنید انجام دهید. به یاد داشته باشید که برچسب‌ها از شیء انتخاب‌شدهٔ قبلی کپی می‌شوند، بنابراین اگر روی یک شیء بدون برچسب کلیک کنید و سپس روی یک شیء بدون برچسب دیگر کلیک کنید، نمی‌توانید هیچ تگی را کپی کنید.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 
