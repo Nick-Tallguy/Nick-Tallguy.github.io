@@ -57,7 +57,7 @@ U kunt ook meer gecompliceerde gebouwen maken door eerst verscheidene overlappen
 
 Verder kunt u de standaard instellingen van de plug-in wijzigen.  
 
-* Go to "More tools"->"Draw buildings modes"->Set buildings size.
+* Ga naar "Meer gereedschappen"->"Modi Gebouwen tekenen"->Grootte gebouw instellen.
 
 * Als u veel gebouwen van een soortgelijke grootte maakt kunt u specifieke dimensies instellen voor de breedte en grootte voor de gebouwen, zoals 6 x 10 meter (de eenheid is in meters).  
 
@@ -87,7 +87,7 @@ Maak een nieuwe laag en experimenteer met enkele van de nieuwe gereedschappen. H
 
     ![Nodes interesection][]
 
-2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Plak tags uit eerder selectie:**  Deze functie maakt het kopiëren van tags eenvoudiger. Als u veel objecten met dezelfde tags wilt maken, teken dan eerst de objecten.  Voeg dan de tags toe aan één object.  Klik op een ander object en druk op Shift + R om de tags van het eerder geselecteerde object te kopiëren.  U kunt dit doen voor alle objecten die u wilt taggen. Onthoud dat de tags zullen worden gekopieerd uit het eerder geselecteerde object, dus als u klikt op een object dat nog niet getagd is en dan op een ander object dat niet getagd is, zult u niet in staat zijn tags te kopiëren.  
 
     ![Copy tags][]
 
