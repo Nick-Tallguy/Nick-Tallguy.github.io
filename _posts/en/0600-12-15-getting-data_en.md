@@ -24,7 +24,7 @@ The exports are refreshed daily at 12 AM UTC, exclusively for published projects
 
 They are accessible to everyone, with or without a Tasking Manager account.
 
-![download-osm-data][] <!-- placeholder for image -->
+![download-osm-data][]
 
 ### GeoFabrik
 
@@ -103,6 +103,6 @@ Summary
 
 The services mentioned in this chapter are all that the average user needs to get the OSM data they want and be able to work with it in GIS software. However, you may want to learn more powerful ways of working with the data yourself. The remaining chapters in this section are quite technical, but show more advanced methods of manipulating and accessing OSM data.  
 
-
+[download osm data]: /images/osm-data/download-osm-data.png
 [hot exports]: /images/osm-data/hot-exports.png
 [overpass turbo]: /images/osm-data/overpass_turbo.png
