@@ -24,7 +24,7 @@ The exports are refreshed daily at 12 AM UTC, exclusively for published projects
 
 They are accessible to everyone, with or without a Tasking Manager account.
 
-![download-osm-data][]
+![download osm data][]
 
 ### GeoFabrik
 
