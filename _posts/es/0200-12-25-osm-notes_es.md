@@ -154,7 +154,7 @@ En 2017, ya se habían creado un millón de notas a nivel mundial.
 [States for a note]: /images/beginner/note-states_es.png
 [Notification by email]: /images/beginner/email-messages_es.png
 [Creating a note in StreetComplete]: /images/beginner/streetcomplete_es.gif
-[Creating a note in Every-door]: /images/beginner/every-door._es.gif
+[Creating a note in Every-door]: /images/beginner/every-door_es.gif
 [Creating a note in OnOSM.org]: /images/beginner/onosm_es.gif
 [Creating a note in OSMAND]: /images/beginner/osmand_es.gif
 [Creating a note in osm.org]: /images/beginner/website_es.gif

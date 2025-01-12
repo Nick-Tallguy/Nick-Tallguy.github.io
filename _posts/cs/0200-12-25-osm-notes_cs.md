@@ -2,8 +2,8 @@
 layout: doc
 title: Creation of OSM Notes
 permalink: /en/beginner/notes/
-lang: en
-kategorie: začátečník
+lang: cs
+category: beginner
 ---
 
 Vytvoření OSM Poznámek
