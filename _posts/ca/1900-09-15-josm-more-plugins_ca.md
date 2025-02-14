@@ -9,7 +9,6 @@ category: josm
 JOSM Building Tools & Utilsplugin2 plugins
 ============
 
-> Reviewed 2016-09-12  
 
 The **buildings_tools** and **utilsplugin2** plugins add great additional functionality into JOSM. In this section we'll take a closer look at the functions they provide.  
 
@@ -26,6 +25,8 @@ Once the plugin has been installed you will see a new button on the left side of
 
 Start JOSM and download an area where you wish to trace buildings.  
 
+### Rectangular Buildings
+
 * Select the building tool and click twice to draw a line on the map.  
 
 ![Draw edge][]
@@ -35,6 +36,12 @@ Start JOSM and download an area where you wish to trace buildings.
 ![Extend building][]
 
 * This will not only create a rectangle with only three clicks, but it will also automatically apply the **building=yes** tag to the shape.  
+
+### Circular Buildings
+
+* In "More tools"->"Draw building modes" select "Set building shape to circle" or use the shortcut ALT+Z (when switchitng back to drawing rectangular buildings use ALT+R). Then draw the diameter of the building.
+
+![Round building][]
 
 ### Complex Buildings
 
@@ -50,7 +57,7 @@ You can also create more complicated buildings by first drawing several overlapp
 
 Furthermore, you can alter the default settings of the plugin.  
 
-* Go to Data->Set buildings size. ![Set buildings size][]{: height="39px"}  
+* Go to "More tools"->"Draw buildings modes"->Set buildings size.
 
 * If you are creating many similarly sized buildings, you can set specific width and height dimensions of the buildings, such as 6 x 10 meters (the unit is in meters).  
 
@@ -80,7 +87,7 @@ Create a new layer and experiment with some of the new tools. Here we describe s
 
     ![Nodes interesection][]
 
-2. **Copy Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
 
     ![Copy tags][]
 
@@ -119,4 +126,5 @@ Bona sort!
 [Replace geometry]: /images/josm/utilsplugin2-replace-geometry.png
 [Selection menu]: /images/josm/selection-menu.png
 [Unselect nodes]: /images/josm/utilsplugin2-unselect-nodes.png
+[Round building]: /images/josm/buildings_tools-round.png
 
