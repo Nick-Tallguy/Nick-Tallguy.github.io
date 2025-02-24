@@ -57,7 +57,7 @@ Komplikované budovy můžete vytvářet nakreslením několika překrývající
 
 Dále si můžete upravit nastavení doplňku podle sebe.  
 
-* Go to "More tools"->"Draw buildings modes"->Set buildings size.
+* Přejděte na "Další nástroje"->"Režimy kreslení budov"->Nastavení velikosti budov.
 
 * Pokud vytváříte několik stejně velkých budov, můžete si nastavit konkrétní rozměry budovy, jako např. 6 x 10 metrů (jednotkou jsou metry).  
 
@@ -87,7 +87,7 @@ Vytvořte si novou vrstvu a vyzkoušejte si některé nové nástroje. Představ
 
     ![Nodes interesection][]
 
-2. **Paste Tags from Previous Selection:**  This function makes copying tags easier.  If you want to create many objects with the same tags, first draw the objects.  Then add the tags to one object.  Click on another object and press Shift + R to copy the tags from the previously selected object.  You can do this for all objects that you want to tag.  Remember that the tags will be copied from the previously selected object, so if you click on an untagged object and then another untagged object, you will not be able to copy any tags.  
+2. **Vložit značky z předchozího výběru:** Tato funkce usnadňuje kopírování značek. Pokud chcete vytvořit mnoho objektů se stejnými tagy, nejprve objekty nakreslete. Poté přidejte značky k jednomu objektu. Klikněte na jiný objekt a stisknutím klávesové zkratky Shift + R zkopírujte značky z dříve vybraného objektu. Takto můžete postupovat u všech objektů, které chcete označit. Nezapomeňte, že tagy budou zkopírovány z dříve vybraného objektu, takže pokud kliknete na neoznačený objekt a poté na jiný neoznačený objekt, nebudete moci zkopírovat žádné tagy.  
 
     ![Copy tags][]
 

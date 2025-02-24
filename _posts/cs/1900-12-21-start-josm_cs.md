@@ -52,13 +52,13 @@ V JOSM lze upravit mnoho různých nastavení. Jedním z nastavení, které mů�
 
     ![Preferences window][]
 
--   On the left side, click the language tab.
+- Na levé straně klikněte na kartu Jazyk.
 - V rozevíracím poli vedle slova " Jazyk " vyberte svůj jazyk.
 
     ![language][]
 
 - Klikněte na OK.
--   You need to restart JOSM to save your settings. Choose the respective option from the message box.
+- Pro uložení nastavení je třeba restartovat JOSM. V okně se zprávou vyberte příslušnou možnost.
 
 Naučte se základy mapování s JOSM
 -----------------------------
