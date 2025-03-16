@@ -10,10 +10,10 @@ navigation: skip
 任務管理器版本
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+這頁提供不同版本任務管理器版本資訊，依據螢幕截圖吻合的版本，選擇其中一個符合你需求的版本。
 
 <div class='disambiguation-version' markdown="1">
-## Version 4 ##
+## 版本 4 ##
 
 <figure markdown="1">
 ![TM4-start][]
@@ -23,12 +23,12 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[使用者指南](/zh_TW/coordination/tm-user) [管理者指南](/zh_TW/coordination/tm-admin)
 </div>
 </div>
 
 <div class='disambiguation-version' markdown="1">
-## Version 3 ##
+## 版本 3 ##
 
 <figure markdown="1">
 ![TM3-start][]
@@ -38,13 +38,13 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager3) [Administrator guide](/en/coordination/tasking-manager3-project-admin)
+[使用者指南](/zh_TW/coordination/tasking-manager3) [管理員指南](/zh_TW/coordination/tasking-manager3-project-admin)
 </div>
 </div>
 
 
 <div class='disambiguation-version' markdown="1">
-## Version 2 ##
+## 版本 2 ##
 
 <figure markdown="1">
 ![TM2-start][]
@@ -54,7 +54,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/en/coordination/tasking-manager) [Administrator guide](/en/coordination/tasking-manager-project-admin)
+[使用者指南](/zh_TW/coordination/tasking-manager) [管理員指南](/zh_TW/coordination/tasking-manager-project-admin)
 </div>
 </div>
 

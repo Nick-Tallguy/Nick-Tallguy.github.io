@@ -16,9 +16,9 @@ StreetComplete
 
 你可以在 Google Play 商店、Amazon 或是 F-Droid 下載，app 的發佈版與測試版本 APK 都能在 GitHub 倉櫥下載。
 
-The app displays places where data can be added to OpenStreetMap through the app as quest pins on a map. This app lists all question types available in a particular place depending on the already available data on OpenStreetMap.
+這個 app 藉地圖上任務指標，顯示能夠加入開放街圖的地點資訊。這個 app 顯示在開放街圖已經有的資料，特定地點的所有問題類型。
 
-**Adding Data to OpenStreetMap Using StreetComplete**
+** 使用 StreetComplete 新增資料到開放街圖**
 
 1.  The contributor needs an OpenStreetMap account before making any contributions using this app like any other app used to contribute to OpenStreetMap.
 2. 顯示與歡迎頁面
