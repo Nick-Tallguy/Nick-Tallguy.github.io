@@ -20,23 +20,23 @@ StreetComplete
 
 ** 使用 StreetComplete 新增資料到開放街圖**
 
-1.  The contributor needs an OpenStreetMap account before making any contributions using this app like any other app used to contribute to OpenStreetMap.
+1. 貢獻者需要開放街圖帳號才能像其他應用程式一樣，使用這個應用程式做出任何貢獻。
 2. 顯示與歡迎頁面
 
 ![歡迎][]
 
-3.  When you click "LET’S GO!" you have to allow StreetComplete to access this device’s location.
+3. 當你按「請開始！」來允許 StreetComplete 取得你裝置位置。
 
 ![允許][]
 
-4.  Click on the three lines at the top right corner, then click on My Profile and then Login with your OpenStreetMap account.
+4. 請點右上角的三條線，接著點我的檔案然後登入你的開放街圖帳號。
 
 ![選單+登入][]
 ![登入][]
 
-What are quests? Quests are simply points or places that have been identified as having missing data and are available depending on location.
+什麼是任務？任務是識別出來缺少資料的簡單的點或地方，而在我們的地理位置。
 
-The questions asked depend on the missing information and the feature whose information is missing 
+問題的類型端視缺少的資訊以及這個圖徵有缺少那些資料
 
 ![建構任務][]
 

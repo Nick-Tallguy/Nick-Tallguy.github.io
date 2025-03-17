@@ -11,34 +11,34 @@ category: resources
 
 > 審閲於 2020-05-08
 
-This is a commented list of pointers to other websites which we consider useful. All links have been verified to work when this document was last reviewed.
+這邊是我們認為有用且有註解的其他網站列表，所有連結在審閱時都已經確認過網址有效。
 
-  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) A comprehensive list of links, not just about OpenStreetMap but also covers visualization, map creation and web mapping
+  * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) 包括開放街圖，還包括視覺化、創建地圖與網路地圖的完整連結列表
 
 
 ## 編輯
 
 ### iD
 
-  * [iD's integrated tutorial](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) An interactive tutorial on using iD as part of the software
-  * [presentation slides covering the contents of our guide](/files/iD-editor-training.pptx) good material if you would like to give an introduction about iD e.g. at a mapathon
-  * [HOT Video Tutorials](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) A collection of instructive videos mostly centered around mapping with iD and JOSM
-  * [Video tutorials on iD](https://www.sjtdelfs.de/wordpress/?page_id=84) Some very short videos explaining how to accomplish common tasks
-  * [Video lessons on OpenStreetMap data](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) lecture-like presentation of various aspects covering tags, layers, relations
+  * [iD 整合教學](http://www.openstreetmap.org/edit?editor=id#walkthrough=true) 使用 iD 編輯器的互動式教學
+  * [我們指南相關的簡報](/files/iD-editor-training.pptx) 一份不錯的 iD 簡介，像是在圖客松的介紹
+  * [HOT 影音教學](https://www.youtube.com/playlist?list=PLb9506_-6FMHULD9iDUAh-4qpxKdVspnD) 一系列相關介紹性影片，多半是 iD 與 JOSM 相關的教學
+  * [iD 的影音教學](https://www.sjtdelfs.de/wordpress/?page_id=84) 一系列介紹怎麼完成常見工作的短片
+  * [開放街圖資料的影音課程](https://www.youtube.com/playlist?list=PLqC3rFN6pDezPK0NifkGCSMop3vcXQEEU) 採用課程型式，包含不同主題，講解標籤、圖層與關係
 
 ## 圖客松與其他類似活動
 
-  * [Wiki entry about Missing Maps Mapathons](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) nearly a checklist giving you an idea what to consider if you want to organize a mapathon; although targeted towards Missing Maps most of it applies to mapathons in general
-  * [Wiki entry about Missing Maps Mapathons in a University setting](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) nearly the same document as the previous one but with specific hints if organized at a university
-  * [developmentSEED guide for Mapathons](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) This document is based on a talk at a State of the Map conference about how to organize and run a mapathon
+  * [遺失地圖圖客松 Wiki 頁面(http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons) 如果你想組織圖客松，讓你知道該做什麼的待辦清單；儘管是為了遺失地圖設計的，但仍能套用在一般的圖客松活動
+  * [大學設定的遺失地圖圖客松的 Wiki 頁面](http://wiki.openstreetmap.org/wiki/Missing_Maps_mapathons:_for_students_and_universities) 和上述文件差不多，但多了一些在大學進行時需要注意的事項
+  * [發展種子的圖客松指南](https://developmentseed.org/blog/2015/06/07/organizing-mapathons/) 這份文件則是 State of the Map 大會組織與進行圖客松的資訊
 
 ### 計劃核取清單
 
-  * [MapGive checklist for an event](https://mapgive.state.gov/box/#resources&event-checklist)
+  * [地圖給予的活動待辦清單](https://mapgive.state.gov/box/#resources&event-checklist)
 
 ### 手冊 
 
-  * [Missing Maps printout materials](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) most handouts are branded for Missing Maps so if you would like to use them for a different event you should  seek permission to adapt them
+  * [遺失地圖印刷手冊](https://drive.google.com/drive/folders/0BwOZ7Miy-DQdZFBGYXJ2QWljLWM) 遺失地圖所製作的手冊，能夠依據不同需求請求授權來套用在不同活動上面
 
 ## 統計
 
