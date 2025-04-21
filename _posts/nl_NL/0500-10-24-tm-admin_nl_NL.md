@@ -243,23 +243,23 @@ Dit is optioneel, maar het is mogelijk een kort snipper van aanvullende instruct
 
 #### Niveau mapper
 
-This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Easy difficulty **can result in significant data quality issues**. 
+Dit wijzigt het niveau voor de moeilijkheid dat wordt **weergegeven** voor uw project. Overweeg dit heel zorgvuldig, complexe projecten die onjuist zijn ingesteld op de moeilijkheid Gemakkelijk **kunnen resulteren in significante problemen met de kwaliteit van de gegevens**. 
 
 > Onthoud dat dit niet wijzigt wie er **feitelijk kan bijdragen** aan uw project, deze beperkingen zijn geïmplementeerd onder het submenu Rechten.
 
-Most projects are set to either **Easy** or **Moderate** difficulty, a handful of projects are set to Challenging. 
+De meeste projecten zijn ingesteld op ofwel moeilijkheid  **Gemakkelijk** of **Gemiddeld**, een handjevol projecten zijn ingesteld op Gevorderd. 
 
-- **Easy** - Consider this if your project is easy to map and:
+- **Gemakkelijk** - Overweeg of uw project gemakkelijk in kaart is te brengen en:
   - U vraagt deelnemers om slechts één object in kaart te brengen, in het bijzonder **alleen gebouwen**
   - De dichtheid van de objecten is laag, d.i. in een **afgelegen** gebied
   - Er is een **lage kwantiteit** van bestaande gegevens voor OSM in uw projectgebied
   - Er zijn geen problemen met het uitlijnen van afbeeldingen
-- **Moderate** - If your project is trickier to map, this should be considered if:
+- **Gemiddeld** - Als uw project niet zo gemakkelijk in kaart is te brengen, zou dit moeten overwogen als:
   - U deelnemers vraag meer dan één object in kaart te brengen, bijv. gebouwen **en** wegen
   - Er een medium/hoge dichtheid is voor deze objecten in uw projectgebied, d.i. **stedelijke** gebieden
   - Er zijn **substantieel** bestaande gegevens voor OSM in uw projectgebied
   - Er zouden **problemen met uitlijnen van afbeeldingen** kunnen zijn of u vraagt deelnemers om meer dan één bron voor afbeeldingen te gebruiken
-- **Challenging** - If the project is extremely difficult to map, consider this if: 
+- **Gevorderd** - Als het project extreem moeilijk in kaart te brengen is, overweeg dit als: 
   - Er is een zeer hoge dichtheid voor deze objecten in uw projectgebied, d.i. **centrale stedelijke** gebieden
   - Er zijn **heel veel** bestaande gegevens voor OSM in uw projectgebied
   - Er zijn **complexe problemen met het uitlijnen van afbeeldingen**
@@ -272,7 +272,7 @@ Schakel deze in/uit, afhankelijk van de objecten die u in kaart wilt laten breng
 
 #### Voorkeuren bewerker iD
 
-If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for easy, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
+Als u kiest om één of meer items uit de keuzelijst te kiezen dan zullen mappers die iD gebruiken alleen in staat zijn om deze objecten toe te wijzen aan de objecten die zij in kaart brengen. Dit is aanbevolen als gemakkelijk, **project met Alleen gebouwen**. Het zal betekenen dat deelnemers niet in staat zullen zijn andere objecten te taggen, zelfs niet als zij het proberen. Vermijd het gebruiken van voorkeuren voor meer complexe projecten, omdat het al snel een last wordt. Een project voor het mappen van wegen zou, bijvoorbeeld, dozijnen aan voorkeuzen moeten hebben toegevoegd, om te zorgen dat alle typen wegen in kaart zouden kunnen worden gebracht. 
 
 #### Organisatie
 
@@ -304,7 +304,7 @@ Kies uit het keuzemenu de bron voor de lucht-/satellietfoto's die u automatisch 
 
 > Onthoud dat de Tasking Manager **geen aangepaste afbeeldingen kan hosten**, het dient extern te worden gehost en dan gelinkt met een URL voor TMS. Als u geen bezwaar hebt tegen het feit dat uw afbeeldingen openbaar zijn om te gebruiken, overweeg dan om [OpenAerialMap](https://openaerialmap.org/) om uw afbeeldingen te hosten.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licentie - Optioneel, als er een specifieke licentie is vereist die de mappers moeten accepteren voor het gebruiken van de afbeeldingen, kunt u die hier selecteren. Indien u een licentie nodig hebt die niet beschikbaar is, kunt u contact opnemen met een beheerder van de installatie van de Tasking Manager en die vragen om hem toe te voegen.
 
 ### Rechten
 
@@ -322,7 +322,7 @@ In het menu 'Metadata' zouden we het niveau voor de moeilijkheid kunnen wijzigen
 
 Hier kunt u kiezen wie uw project **in kaart kan brengen**:
 
-- If your project is easy to contribute towards and you consider it an easy project you might want set this to **'Any user'**.
+- Als uw project gemakkelijk is om aan deel te nemen en u beschouwt het als een gemakkelijk project, wilt u dit instellen op **'Elke gebruiker'**.
 - Als uw project meer complex is en meer ervaring vereist, beperk dan het in kaart brengen tot **'Alleen gebruikers met niveau Gemiddeld of Gevorderd'**. 
 - Als u nog selectiever wilt zijn, dan zou u kunnen eisen dat een mapper lid is van een **team**. Team moeten dan hieronder gedefinieerd worden.
 
@@ -430,10 +430,10 @@ Houd overzicht over de voortgang van het in kaart brengen en het valideren van u
 
 ### Overwegingen met betrekking tot afbeeldingen
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Esri or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Controleer, voordat u uw project maakt, de afbeeldingen voor verscheidene verschillende locaties in uw projectgebied voor een beoordeling van de afbeeldingen. In de meeste gevallen zouden afbeeldingen van Esri of Bing aan uw behoeften kunnen voldoen. Er zijn echter situaties waar u een alternatieve bron zou willen kiezen. U zou de volgende overwegingen moeten maken bij het kiezen van uw afbeeldingen: 
 
 1. Als zorgvuldig, gedetailleerd in kaart brengen nodig is, kies dan de afbeelding die het helderst is, met de hoogste resolutie.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery.
+2. Als uw prioriteit is om de meest up-to-date afbeeldingen te hebben, klik dan tussen de standaard bronnen voor afbeeldingen om te zoeken naar de meest recente afbeeldingen. Zoek naar indicaties voor ontwikkeling, zoals nieuwe gebouwen of vrijgemaakt land om een idee te krijgen over de meest up-to-date afbeeldingen.
 3. Controleer op bedekking door wolken, hoewel een bepaalde bron voor afbeeldingen aan uw behoeften zou kunnen voldoen, als het erg bewolkt of wazig is, zullen uw mappers moeite hebben om het in kaart te brengen.
 4. Controleer op uitlijning, als her genoeg bestaande gegevens van OSM zijn die uitlijnen op één set satellietafbeeldingen, dan is het logisch te kiezen voor dezelfde afbeeldingen. Als er problemen zijn met de uitlijning, zorg er dan voor heldere instructies te schrijven die in detail beschrijven hoe u verwacht dat deelnemers problemen met verschuiven/uitlijnen afhandelen. 
 
@@ -445,9 +445,9 @@ Uw projectgebied zou al gedeeltelijk in kaart kunnen zijn gebracht met oudere af
 
 Er is geen standaard set instructies als het aankomt op problemen met het uitlijnen van afbeeldingen. Het hangt erg af van de context. Soms worden mappers geïnstrueerd om uit te lijnen op GPS-sporen, soms wordt ze verteld om uit te lijnen op lineair in kaart gebracht objecten, zoals wegen en waterwegen. Hier is een voorbeeld van een benadering: 
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned to Bing imagery.
+1. Vermeld duidelijk welke afbeelding geacht wordt de verwijzing te zijn waaraan al het andere zou moeten worden uitgelijnd. Laten we er in dit geval van uitgaan dat die verwijzing Bing is.
+2. Zorg ervoor dat alle reeds bestaande objecten die ook zichtbaar zijn op Bing zijn uitgelijnd op de afbeelding van Bing, d.i. lijn ze, indien nodig, opnieuw uit.
+3. Voeg nieuwe objecten toe uit de nu correct uitgelijnde afbeelding van Bing.
 
 Vaak worden mappers geïnstrueerd te zoeken naar _de minste inspanning_ als het aankomt op problemen met het uitlijnen van afbeeldingen. Wat betekent dat deelnemers wordt verteld hun benadering te variëren, afhankelijk van de situatie in hun individuele taak: 
 
