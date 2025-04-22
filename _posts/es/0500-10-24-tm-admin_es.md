@@ -243,23 +243,23 @@ Esto es opcional, pero puedes añadir un breve fragmento de instrucciones adicio
 
 #### Nivel de mapeador
 
-This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Easy difficulty **can result in significant data quality issues**. 
+Esto cambia el nivel de dificultad que se **muestra** para tu proyecto. Considéralo con mucho cuidado: los proyectos complejos que se marcan incorrectamente como Fáciles **pueden generar problemas significativos en la calidad de los datos**.
 
 > Ten en cuenta que esto no cambia quién puede **realmente contribuir** a tu proyecto; esas restricciones se implementan en el submenú Permisos.
 
-Most projects are set to either **Easy** or **Moderate** difficulty, a handful of projects are set to Challenging. 
+La mayoría de los proyectos se clasifican como de dificultad **Fácil** o **Moderada**, y solo unos pocos se definen como Desafiantes.
 
-- **Easy** - Consider this if your project is easy to map and:
+- **Fácil** – Considéralo si tu proyecto es fácil de mapear y:
   - Solo estás pidiendo a los contribuyentes que mapeen una característica, en particular **solo edificios**.
   - La densidad de objetos espaciales es baja, es decir, en una zona **rural**.
   - Hay una **baja cantidad** de datos OSM existentes en el área de tu proyecto
   - No hay problemas de alineación de imágenes
-- **Moderate** - If your project is trickier to map, this should be considered if:
+- **Moderado** – Si tu proyecto es un poco más complicado de mapear, deberías considerarlo si:
   - Estás pidiendo a los contribuyentes que mapeen más de una característica, por ejemplo, edificios **y** carreteras
   - Hay una densidad media/alta de esas características en la zona de tu proyecto, es decir, zonas **urbanas**.
   - Existen **datos sustanciales** de OSM en el área de tu proyecto
   - Puede haber **problemas de alineación de las imágenes** o pides a los colaboradores que utilicen más de una fuente de imágenes
-- **Challenging** - If the project is extremely difficult to map, consider this if: 
+- **Desafiante** – Si el proyecto es extremadamente difícil de mapear, consideralo si:
   - En la zona de tu proyecto hay una densidad muy alta de características, es decir, **zonas urbanas centrales**.
   - Hay **muchos** datos OSM existentes en el área de tu proyecto
   - Hay problemas **complejos de alineación de imágenes**.
@@ -272,7 +272,7 @@ Activa o desactiva estas opciones en función de las características que desees
 
 #### Preconfiguraciones del Editor iD
 
-If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for easy, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
+Si eliges uno o más elementos del menú desplegable, los mapeadores que usen iD solo podrán asignar esas características a los objetos que mapeen. Esto se recomienda para proyectos fáciles, **exclusivos de edificios**. Significa que los colaboradores no podrán etiquetar otras características, incluso si lo intentan. Evita usar preajustes en proyectos más complejos, ya que puede volverse una carga rápidamente. Por ejemplo, un proyecto de mapeo de rutas necesitaría docenas de preajustes para poder cubrir todos los tipos de carreteras.
 
 #### Organización
 
@@ -304,7 +304,7 @@ En el menú desplegable, elige la fuente de imágenes aéreas que quieres que se
 
 > Ten en cuenta que el Tasking Manager **no puede alojar imágenes personalizadas**; estas deben alojarse externamente y enlazarse mediante una URL TMS. Si estás contento con que tus imágenes estén abiertas para su uso, considera la posibilidad de utilizar [OpenAerialMap](https://openaerialmap.org/) para alojar tus imágenes.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licencia – Opcionalmente, si hay una licencia específica que los mapeadores deban aceptar para usar la imagen satelital, puedes seleccionarla acá. Si necesitas una licencia que no está disponible, puedes contactar a un administrador de la instalación del Tasking Manager y pedirle que la agregue.
 
 ### Permisos
 
@@ -322,7 +322,7 @@ En el menú "Metadatos", podíamos cambiar el nivel de dificultad que se **muest
 
 Aquí puedes elegir quién puede **mapear** tu proyecto:
 
-- If your project is easy to contribute towards and you consider it an easy project you might want set this to **'Any user'**.
+- Si tu proyecto es fácil de contribuir y consideras que es un proyecto simple, tal vez quieras configurar esta opción como **'Cualquier usuario'**.
 - Si tu proyecto es más complejo y requiere más experiencia, restringe el mapeo a **'Solo usuarios con nivel intermedio o avanzado'**. 
 - Si quieres ser aún más selectivo, también puedes exigir que un mapeador forme parte de un **equipo**. Los equipos deben definirse a continuación.
 
@@ -430,10 +430,10 @@ Haz un seguimiento del progreso del mapeo y la validación de tus proyectos. Rec
 
 ### Consideraciones sobre las imágenes
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Esri or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Antes de crear tu proyecto, revisa la imagen satelital en diferentes ubicaciones dentro del área de tu proyecto para evaluar su calidad. En la mayoría de los casos, la imagen de Esri o Bing debería ser suficiente. Sin embargo, hay situaciones donde podrías necesitar elegir otra fuente. Considera lo siguiente al seleccionar la imagen:
 
 1. Si se necesita una cartografía cuidadosa y detallada, elige las imágenes más claras y de mayor resolución.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery.
+2. Si tu prioridad es tener la imagen más actualizada, alterna entre las fuentes estándar para buscar la más reciente. Buscá señales de desarrollo, como nuevos edificios o terrenos despejados, para hacerte una idea de cuál es la imagen más actual.
 3. Comprueba la nubosidad; aunque una fuente de imágenes puede satisfacer tus necesidades, si está muy nublada o brumosa, tus mapeadores tendrán problemas para mapear con ella.
 4. Comprueba la alineación; si hay muchos datos OSM existentes que se alinean con un conjunto de imágenes satelitales, entonces puede tener sentido elegir las mismas imágenes. Si hay problemas de alineación, asegúrate de escribir instrucciones claras detallando cómo esperas que los contribuyentes se ocupen de los problemas de desplazamiento/alineación. 
 
@@ -445,9 +445,9 @@ Es posible que el área de tu proyecto ya haya sido parcialmente cartografiada u
 
 No existe un conjunto de instrucciones estándar cuando se trata de cuestiones de alineación de imágenes. Depende mucho del contexto. A veces se indica a los mapeadores que se alineen con las trazas del GPS, y otras veces se les dice que se alineen con los rasgos lineales cartografiados, como carreteras y vías fluviales. He aquí un ejemplo de enfoque: 
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned to Bing imagery.
+1. Indica claramente cuál es la imagen que debe considerarse como referencia y con la cual todo lo demás debe alinearse. En este caso, supongamos que la referencia es Bing.
+2. Asegurate de que todos los elementos existentes que también sean visibles en Bing estén alineados con esa imagen; es decir, realinéalos si es necesario.
+3. Agrega nuevos elementos con la imagen de Bing, ahora correctamente alineada.
 
 A menudo se indica a los mapeadores que busquen el _menor esfuerzo_ cuando se trata de problemas de alineación de imágenes. Esto significa que los colaboradores deben variar su enfoque en función de la situación en su tarea individual: 
 
