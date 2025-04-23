@@ -18,7 +18,7 @@ L'un des principaux composants d'OpenStreetMap est constitué des notes, qui fon
 
 The purpose of the notes is both (a) to describe an error or inconsistency between OSM map and reality and (b) to provide map users with a feedback mechanism. The above allows OSM to be kept up to date. This is used a lot when we do fieldwork (i.e., when you are on the street or in a park), where we can identify three types of inconsistencies or elements that differ from the map in the following ways:
  
-* Elements that are not on the map but do exist in reality.
+* Les éléments qui ne figurent pas sur la carte mais qui existent dans la réalité.
 * Elements that are incorrectly mapped, either by their properties or location, for example, a pet store is now a supermarket.
 * Éléments qui n'existent plus.
 
@@ -33,9 +33,9 @@ Les notes sont définies avec les propriétés suivantes :
 
 * Text: describes the identified inconsistency, which can be several lines long.
 * Location: is defined by longitude and latitude, which can be determined by GPS (GNSS) or by moving a pushpin 📌 on the map.
-* Username (Optional): the note will be created anonymously if the user is not registered in OSM.
+* Nom d'utilisateur (facultatif) : la note sera créée de manière anonyme si l'utilisateur n'est pas enregistré dans OSM.
 * Number or identifier: identifies the note from the whole set of notes.
-* Date: indicates when it was created.
+* Date : indique la date de création.
 
 In addition, a note can include additional comments. This means there will always be an initial comment when the note is created. Subsequently, all other comments will pertain to the communication between users and mappers. It should be clarified that only registered users can add a comment. It is also important to note that it cannot be modified once a comment has been published. The only action that can be taken is to request the DWG to hide it if a comment violates OSM's data processing policies. For instance, if a note contains personal data.
 
@@ -44,8 +44,8 @@ In addition, a note can include additional comments. This means there will alway
 
 The notes have three states:
 
-* Open.
-* Closed.
+* Ouvert.
+* Fermé.
 * Hidden - This type applies to those notes that the DWG has hidden because they are against OSM data handling policies. 
 
 There are several actions on the notes:
@@ -146,9 +146,9 @@ From the OpenStreetMap.org home page, zoom into the area of interest, and then t
 Now that you know the basics of notes, let's finish this section with some history. Before notes as such existed within the OpenStreetMap database, a parallel project offered this functionality. The project was named OpenStreetBugs and provided the essential tools for users to document map inconsistencies using text and coordinates. The functionality was excellent for reporting inconsistencies, so the decision was made to integrate it into OpenStreetMap, allowing it to be accessed through the API. It should be noted that when API 0.6 was defined and implemented, this version did not include the functionality for the notes.
 
 Indeed, the notes were included in a later addition to this version.
-In 2013, the notes service was offered as part of the API.
+En 2013, le service de notes a été proposé dans le cadre de l'API.
 By 2014, all OpenStreetBugs reports had been migrated to the OSM database.
-In 2017, 1 million notes had already been created worldwide.
+En 2017, 1 million de notes avaient déjà été créés dans le monde.
 
 
 [States for a note]: /images/beginner/note-states.png
