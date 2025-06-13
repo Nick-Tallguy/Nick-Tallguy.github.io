@@ -243,23 +243,23 @@ Je to nepovinné, ale je možné přidat krátký úryvek dodatečných pokynů,
 
 #### Úroveň mapovače
 
-This changes the difficultly level which is **displayed** for your project. Consider this very carefully, complex projects which are inappropriately set to Easy difficulty **can result in significant data quality issues**. 
+Tím se změní úroveň obtížnosti, která se **zobrazuje** pro váš projekt. Zvažte to velmi pečlivě, protože komplexní projekty, které jsou nevhodně nastaveny na obtížnost Easy, **mohou vést k významným problémům s kvalitou dat**.
 
 > Všimněte si, že to nemění, kdo může **skutečně přispívat** do vašeho projektu, tato omezení jsou implementována v podnabídce Oprávnění.
 
-Most projects are set to either **Easy** or **Moderate** difficulty, a handful of projects are set to Challenging. 
+Většina projektů je nastavena na obtížnost **Snadná** nebo **Střední**, několik projektů je nastaveno na obtížnost Náročná.
 
-- **Easy** - Consider this if your project is easy to map and:
+- **Snadné** – Zvažte tuto možnost, pokud je váš projekt snadno mapovatelný a:
   - Žádáte přispěvatele, aby zmapovali pouze jeden prvek, konkrétně **pouze budovy**.
   - Hustota prvků je nízká, tj. ve **venkovské** oblasti.
   - V oblasti vašeho projektu je **malé množství** existujících dat OSM.
   - Nejsou žádné problémy se zarovnáním snímků
-- **Moderate** - If your project is trickier to map, this should be considered if:
+- **Střední** – Pokud je váš projekt obtížnější zmapovat, měli byste tuto možnost zvážit, pokud:
   - Žádáte přispěvatele, aby mapovali více než jeden objekt, např. budovy **a** silnice.
   - V oblasti vašeho projektu je střední/vysoká hustota těchto objektů, tj. **městské** oblasti.
   - V oblasti vašeho projektu existují **podstatná** data OSM.
   - Mohou se vyskytnout **problémy se zarovnáním snímků** nebo požádáte přispěvatele o použití více než jednoho zdroje snímků.
-- **Challenging** - If the project is extremely difficult to map, consider this if: 
+- **Náročné** – Pokud je projekt extrémně obtížné zmapovat, zvažte tuto možnost, pokud:
   - V oblasti vašeho projektu je velmi vysoká hustota obyvatel, tj. **centrální městské** oblasti.
   - V oblasti vašeho projektu je **mnoho** existujících dat OSM.
   - Existují **složité problémy se zarovnáním snímků**.
@@ -272,7 +272,7 @@ Přepínejte je podle toho, které funkce chcete v projektu mapovat. Obecně pla
 
 #### Předvolby iD Editoru
 
-If you choose one or more items from the drop-down list then mappers using iD will only be able to assign these features to the objects they map. This is recommended for easy, **buildings-only projects**. It will mean that contributors will not be able to tag other features, even if they try. Avoid using presets for more complex projects, as it can quickly become a burden. For example, a highway mapping project would need dozens of presets to be added to ensure all highway types could be mapped. 
+Pokud vyberete jednu nebo více položek z rozevíracího seznamu, mapovači používající iD budou moci přiřadit tyto prvky pouze objektům, které mapují. To se doporučuje pro jednoduché **projekty zaměřené pouze na budovy**. To znamená, že přispěvatelé nebudou moci označovat jiné prvky, i když se o to pokusí. Vyhněte se používání předvoleb pro složitější projekty, protože to může rychle začít být na obtíž. Například projekt mapování dálnic by vyžadoval přidání desítek předvoleb, aby bylo možné zmapovat všechny typy dálnic
 
 #### Organizace
 
@@ -304,7 +304,7 @@ V rozbalovací nabídce vyberte zdroj leteckých snímků, který chcete pro sv�
 
 > Všimněte si, že Tasking Manager **nemůže hostovat vlastní snímky**, musí být hostovány externě a propojeny pomocí adresy URL TMS. Pokud jste spokojeni s tím, že vaše snímky jsou otevřené k použití, zvažte prosím použití [OpenAerialMap](https://openaerialmap.org/) pro hostování vašich snímků.
 
-License - Optionally, if there is a specific license required for the mappers to accept when using the imagery, you can select it here. If you need a license that is not available, you can contact an administrator for the Tasking Manager installation and ask them to add it.
+Licence – Pokud je pro použití snímků vyžadována specifická licence, kterou musí mapovači přijmout, můžete ji zde vybrat. Pokud potřebujete licenci, která není k dispozici, můžete kontaktovat správce instalace Tasking Manager a požádat ho o její přidání.
 
 ### Oprávnění
 
@@ -322,7 +322,7 @@ V nabídce "Metadata" jsme mohli změnit úroveň obtížnosti, která se u proj
 
 Zde můžete zvolit, kdo může **mapovat** váš projekt:
 
-- If your project is easy to contribute towards and you consider it an easy project you might want set this to **'Any user'**.
+- Pokud je váš projekt snadno realizovatelný a považujete jej za jednoduchý, můžete nastavit tuto možnost na **„Jakýkoli uživatel“**.
 - Pokud je váš projekt složitější a vyžaduje více zkušeností, omezte mapování na **'Pouze uživatelé se středně pokročilou nebo pokročilou úrovní'**.
 - Pokud chcete být ještě vybíravější, můžete také požadovat, aby byl mapovač součástí **týmu**. Týmy pak musí být definovány níže.
 
@@ -430,10 +430,10 @@ Sledujte průběh mapování a ověřování projektů. Nezapomeňte, že **vše
 
 ### Úvahy týkající se zobrazování
 
-Before creating your project, check the imagery in several different locations across your project area to make an imagery assessment. In most cases either Esri or Bing imagery should suit your needs. However, there are situations where you might want to choose an alternative source. You may need to consider the following when choosing your imagery: 
+Před vytvořením projektu zkontrolujte snímky z několika různých míst v oblasti projektu, abyste mohli provést hodnocení snímků. Ve většině případů by měly vaše potřeby uspokojit snímky Esri nebo Bing. Existují však situace, kdy můžete chtít zvolit alternativní zdroj. Při výběru snímků je třeba zvážit následující skutečnosti:
 
 1. Pokud je třeba pečlivě a podrobně mapovat, vyberte si snímky, které jsou nejjasnější a mají nejvyšší rozlišení.
-2. If your priority is to have the most up-to-date imagery, flick between the standard imagery sources to look for the most recent imagery. Look for indications of development such as new buildings or land clearance to get an idea of the most up-to-date imagery.
+2. Pokud je vaší prioritou mít k dispozici nejaktuálnější snímky, přepínejte mezi standardními zdroji snímků a hledejte ty nejnovější. Hledejte známky rozvoje, jako jsou nové budovy nebo vykácené pozemky, abyste získali představu o nejaktuálnějších snímcích.
 3. Zkontrolujte oblačnost, ačkoli jeden zdroj snímků může vyhovovat vašim potřebám, pokud je velmi zataženo nebo mlhavo, mapovači budou mít s jeho použitím problémy.
 4. Zkontrolujte zarovnání, pokud existuje dostatek existujících dat OSM, která se shodují s jednou sadou satelitních snímků, může mít smysl vybrat stejné snímky. Pokud existují problémy se zarovnáním, nezapomeňte napsat jasné pokyny, v nichž bude podrobně popsáno, jak se mají přispěvatelé vypořádat s posunem nebo problémy se zarovnáním.
 
@@ -445,9 +445,9 @@ Oblast vašeho projektu již mohla být částečně zmapována pomocí starší
 
 Pro otázky zarovnání snímků neexistuje standardní soubor pokynů. Velmi záleží na kontextu. Někdy jsou mapovatelé instruováni, aby zarovnávali podle stop GPS, jindy je jim řečeno, aby zarovnávali podle zmapovaných liniových prvků, jako jsou dálnice a vodní cesty. Zde je ukázkový přístup:
 
-1. Clearly state which imagery is to be considered the reference to which anything else should be aligned. In this case let us assume that the reference is Bing.
-2. Make sure that all existing features which are also visible on Bing are aligned with Bing imagery, i.e. realign if necessary.
-3. Add new features from the now correctly aligned to Bing imagery.
+1. Jasně uveďte, které snímky mají být považovány za referenční, podle kterých by se měly ostatní snímky přizpůsobit. V tomto případě předpokládejme, že referenčními snímky jsou snímky Bing.
+2. Ujistěte se, že všechny existující prvky, které jsou viditelné také na Bing, jsou v souladu s obrázky Bing, tj. v případě potřeby je znovu zarovnejte.
+3. Přidejte nové funkce z nyní správně zarovnaných snímků Bing.
 
 Často jsou mapovači instruováni, aby hledali _nejmenší úsilí_, pokud jde o problémy se zarovnáním snímků. Což znamená, že přispěvatelé mají měnit svůj přístup v závislosti na situaci v jednotlivých úlohách:
 
