@@ -41,7 +41,7 @@ Para se inscrever na lista de discussão do seu país, acesse [lists.openstreetm
 
 ![Mailing list][]
 
-Scroll down the page to find the list associated with your country. The country lists are named "Talk-lg", where lg represents the country of that list. For example, "Talk-id" is the list for Indonesia.  
+Role a página para baixo para encontrar a lista associada ao seu país. As listas de países são nomeadas como "Talk-lg", onde lg representa o país dessa lista. Por exemplo, "Talk-id" é a lista para a Indonésia.  
 
 - Clique na lista que você deseja participar.  
 - Digite as seguintes informações nas caixas nesta página:  
@@ -59,7 +59,7 @@ Scroll down the page to find the list associated with your country. The country 
 Exemplo de uso do OSM - MyOSMatic
 ----------
 
-One such project is called MyOSMatic, which you can access through your internet browser at [print.get-map.org](https://print.get-map.org/). This is a simple tool for printing a map of any city you choose. It will automatically create the map, along with a grid over the map, and an index of locations that are included in the area.
+Um desses projetos é chamado MyOSMatic, que você pode acessar através do seu navegador de internet em [print.get-map.org](https://print.get-map.org/). Esta é uma ferramenta simples para imprimir um mapa de qualquer cidade que você escolher. Ela criará automaticamente o mapa, junto com uma grade sobre ele e um índice de locais incluídos na área.
 
 ![MyOSMatic][]
 
