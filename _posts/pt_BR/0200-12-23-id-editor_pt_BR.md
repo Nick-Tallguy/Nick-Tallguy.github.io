@@ -9,25 +9,25 @@ category: beginner
 O iD Editor
 =============
 
-> Reviewed 2019-06-10
+Revisto em 2019-06-10
 
-Starting to map with a Tasking Manager for HOT or MissingMaps etc? See our [HOT-tips section](/en/hot-tips/).  
+Começando a mapear com Tasking Manager para HOT ou MissingMaps etc? Consulte nossa seção [HOT-tips section](/en/hot-tips/).  
 
 - TOC
 {:toc}
 
 O editor iD é o editor de OpenStreetMap que roda no navegador (browser-based). ID é rápido e fácil de usar, e permite o mapeamento de várias fontes de dados, como imagens de satélite e aérea, GPS, Field Papers ou Mapillary.  
 
-The iD editor is a great way to edit for small and easy changes that don't require the advanced features of JOSM (a more advanced mapping editor). This chapter demonstrates the basics of editing with iD.  
+O editor iD é uma ótima maneira de editar pequenas e fáceis alterações que não requerem os recursos avançados do JOSM (um editor de mapas mais avançado). Este capítulo demonstra os fundamentos da edição com o iD.  
 
 Iniciando no iD Editor
 ----------------------
 
--	The iD editor requires an active connection to the Internet.  
--	Open your Internet browser, and go to the OpenStreetMap website at [http://www.openstreetmap.org](http://www.openstreetmap.org).  
--	**Login** using your OpenStreetMap account  
--	Pan and zoom the map to the area that you wish to edit. You can pan by holding the left mouse button and dragging the map to your desired area.  
--	Click on the small arrow next to **Edit**. Then click **Edit with iD (in-browser editor)**.  
+O editor iD requer uma conexão ativa com a Internet.  
+Abra o seu navegador de Internet e acesse o site do OpenStreetMap em [http://www.openstreetmap.org](http://www.openstreetmap.org).  
+**Faça login** usando sua conta do OpenStreetMap.  
+Desloque e amplie o mapa até a área que deseja editar. Você pode deslocar o mapa mantendo pressionado o botão esquerdo do mouse e arrastando-o até a área desejada.  
+Clique na pequena seta ao lado de **Editar**. Em seguida, clique em **Editar com iD (editor no navegador)**.  
 
 ![image1][]
 
@@ -36,36 +36,36 @@ Interface de Usuário do iD Editor
 -------------------------
 ![image2][]
 
-1. **Edit Feature Panel:** This panel shows tags from the object selected on the map.  
-	You can add or edit tags from this panel.  
-2. **Tools:** This panel shows basic editing tools:  
-    Draw point (node), *shortcut key* **1** ![image3][]{: height="24px"}  
-    Draw line (way), *shortcut key* **2** ![image4][]{: height="24px"}  
-    Draw shape (polygon), *shortcut key* **3** ![image5][]{: height="24px"}  
-    Undo, *shortcut keys* **Ctrl+z** ![image6][]{: height="24px"}  
-    Redo, *shortcut keys* **Ctrl+y** ![image7][]{: height="24px"}  
-    Save changes, *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
-3. **Map panel:** This panel show various configuration functions:  
-    Zoom In, *shortcut key* **+** ![image9][]{: height="24px"}  
-    Zoom Out, *shortcut key* **-** ![image10][]{: height="24px"}  
-    Go to your location ![image11][]{: height="24px"}  
-    Configure background layer, *shortcut key* **b** ![image12][]{: height="24px"}  
-    Map Data, *shortcut key* **f** ![Map Data][]{: height="24px"}  
-    Issues, *shortcut key* **i** ![Issues][]{: height="24px"}  
-    Open Help Menu, *shortcut key* **h** ![image13][]{: height="24px"}  
-4. **Information panel:** This panel shows various information, such as the scale bar and which users have contributed to the area.  
+1. **painel de recursos de edição:** Este painel mostra as tags do objeto selecionado no mapa.  
+	Você pode adicionar ou editar tags neste painel.  
+2. **Ferramentas:** Este painel mostra as ferramentas básicas de edição:  
+    Desenhe um ponto (nó), *shortcut key* **1** ![image3][]{: height="24px"}  
+    Desenhar linha (caminho), *shortcut key* **2** ![image4][]{: height="24px"}  
+    Desenhar forma (polígono), *shortcut key* **3** ![image5][]{: height="24px"}  
+    Desfazer, *teclas de atalho* **Ctrl+z** ![image6][]{: height="24px"}  
+    Refazer, *teclas de atalho* **Ctrl+y** ![image7][]{: height="24px"}  
+    Salvar alterações,  *shortcut keys* **Ctrl+s** ![image8][]{: height="32px"}  
+3. **Painel do mapa:** Este painel mostra várias funções de configuração:  
+    Ampliar, *tecla de atalho* **+** ![image9][]{: height="24px"}  
+    Diminuir o zoom, *tecla de atalho** **-** ![image10][]{: height="24px"}  
+    Vá para o seu local ![image11][]{: height="24px"}  
+    Configurar camada de fundo, *shortcut key* **b** ![image12][]{: height="24px"}  
+    Dados do mapa, **tecla de atalho** **f** ![Map Data][]{: height="24px"}  
+    Problemas, *tecla de atalho* **i** ![Issues][]{: height="24px"}  
+    Abrir menu de ajuda, *tecla de atalho* **h** ![image13][]{: height="24px"}  
+4. **Painel de informações:** Este painel mostra várias informações, como a barra de escala e quais usuários contribuíram para a área.  
 
-## Configuring the Background Layer
+## Configurar a camada de fundo
 
-Click the **Background settings** button or use the *shortcut key* **b**.![image14][]{: height="24px"}  
+Clique o botão **Configurar imagem de fundo** ou utilize a *tecla de atalho* **b**.![image14][]{: height="24px"}  
 ![image15][]  
-You can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).  
+Você pode alterar a camada de fundo com base no provedor de mosaicos desejado (o padrão é Bing Aerial Imagery).  
 
-You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [^fieldpaper], click **Custom** then click on the magnifying glass (search) icon to open the following window:-  
+Você pode adicionar os seus próprios mosaicos de mapas clicando em **Personalizado**. Por exemplo, se quiser **adicionar um Field Paper** [^fieldpaper], clique em **Personalizado** e então clique no ícone da lupa que está à direita para abrir a seguinte janela:-  
 ![image17][]   
-and enter your **FieldPaper snapshot URL**, which will be something like this: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
-To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor.  
-To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel.  
+e adicione o **URL de digitalização do FieldPaper**, que será algo como: <http://fieldpapers.org/snapshot.php?id=cqhmf2v9#18/37.80593/-122.22715>   
+Para **mostrar trilhos GPS armazenados no seu computador** (formato GPX), arraste e largue o ficheiro do trilho na janela do editor iD.  
+Para ativar **trilhos GPS do OpenStreetMap** clique na caixa. Na imagem abaixo, os trilhos GPS públicos são mostrados em várias cores, indicando a direção ao criar o trilho.  
 ![osm gps traces][]  
 To change the **appearance of the imagery** click **Display Options**.  
 ![DisplayOptions][]  
