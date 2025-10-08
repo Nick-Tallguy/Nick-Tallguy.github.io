@@ -11,7 +11,7 @@ category: resources
 
 > 審閲於 2020-05-08
 
-這邊是我們認為有用且有註解的其他網站列表，所有連結在審閱時都已經確認過網址有效。
+這是一份附有註解的網站清單，列出我們認為有用的其他網站。所有連結在本文件最後一次審閱時都已確認可正常運作。
 
   * [Maptime list of links on mapping and related cartographic topics](http://maptime.io/lessons-resources/) 包括開放街圖，還包括視覺化、創建地圖與網路地圖的完整連結列表
 
