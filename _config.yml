@@ -313,6 +313,17 @@ translations:
     language: "Slovenščina"
     quickaccess: "Hitri dostop"
     returntotop: "Vrnite se na vrh strani"
+  sr:
+    tagline: "Научите OpenStreetMap корак по корак"
+    contribute: "Помозите нам да побољшамо наше водиче"
+    trainingspan: "Да ли сте организатор радионица?"
+    training: "Погледајте материјале за обуку за овај водич (на енглеском)"
+    feedbackspan: "Да ли је ово поглавље било корисно?"
+    feedback: "Јавите нам и помозите да унапредимо водиче!"
+    getstarted: "Почнимо"
+    returntotop: "Повратак на врх странице"
+    language: "Брзи приступ"
+    quickaccess: "Quick access"
   sq:
     tagline: "Mësoni OpenStreetMap hap pas hapi"
     contribute: "Na ndihmoni të përmirësojmë guidën tonë"

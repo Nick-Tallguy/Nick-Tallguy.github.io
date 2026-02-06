@@ -78,6 +78,7 @@ mv ${FOLDERINTERIM}/*_pt_BR.md ${FOLDER4}/pt_BR/
 mv ${FOLDERINTERIM}/*_ru.md ${FOLDER4}/ru/
 mv ${FOLDERINTERIM}/*_sl.md ${FOLDER4}/sl/
 mv ${FOLDERINTERIM}/*_sq.md ${FOLDER4}/sq/
+mv ${FOLDERINTERIM}/*_sr.md ${FOLDER4}/sr/
 mv ${FOLDERINTERIM}/*_sw.md ${FOLDER4}/sw/
 mv ${FOLDERINTERIM}/*_uk.md ${FOLDER4}/uk/
 mv ${FOLDERINTERIM}/*_vi.md ${FOLDER4}/vi/
