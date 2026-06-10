@@ -24,7 +24,7 @@ The first thing we will do is get some up-to-date OSM data. We can do this in nu
 
 - Open QGIS and go to Vector -> QuickOSM -> QuickOSM...  
 
-![quickosm-presets][]
+![quickosm][]
 
 - The initial page lets you select between several predefined presets which determine the kind of objects to download. This is most likely not what you want. You either want all objects or a selection of your own. Select the second item from the menu bar on the left, "Quick query".
 
