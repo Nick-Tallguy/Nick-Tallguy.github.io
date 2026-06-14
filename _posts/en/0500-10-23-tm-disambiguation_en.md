@@ -10,7 +10,7 @@ navigation: skip
 Tasking Manager Versions
 ============
 
-This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.
+This page gives you an overview over the versions of the Tasking Manager for which we offer documentation. Select one of the guides for the version whose screenshots match the software you want to work with.  
 
 <div class='disambiguation-version' markdown="1">
 ## Version 5 ##
