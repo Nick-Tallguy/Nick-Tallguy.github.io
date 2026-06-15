@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /en/coordination/tm-disambiguation/
-lang: en
+permalink: /ru/coordination/tm-disambiguation/
+lang: ru
 title: Tasking Manager Versions
 category: coordination
 navigation: skip
