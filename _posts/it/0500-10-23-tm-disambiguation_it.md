@@ -1,6 +1,6 @@
 ---
 layout: doc
-permalink: /it/coordination/tm-disambiguation/
+permalink: /en/coordination/tm-disambiguation/
 lang: it
 title: Versioni del Tasking manager
 category: coordination

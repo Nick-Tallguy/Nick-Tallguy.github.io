@@ -1,7 +1,7 @@
 ---
 layout: doc
-permalink: /sr/coordination/tm-disambiguation/
-lang: sr
+permalink: /en/coordination/tm-disambiguation/
+lang: en
 title: Tasking Manager Versions
 category: coordination
 navigation: skip
@@ -23,7 +23,7 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </figure>
 
 <div class='disambiguation-link' markdown="1">
-[User guide](/sr/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
+[User guide](/en/coordination/tm-user) [Administrator guide](/en/coordination/tm-admin)
 </div>
 </div>
 
