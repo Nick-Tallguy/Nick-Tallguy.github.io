@@ -1,12 +1,12 @@
 ---
 layout: doc
-title: Tasking Manager 5 Administrator Guide
+title: Tasking Manager Administrator Guide
 permalink: /en/coordination/tm-admin/
 lang: en
 category: coordination
 ---
 
-# Tasking Manager 5 Administrator Guide
+# Tasking Manager Administrator Guide
 
 
 **If the user interface of the version you use looks different from the one described here then you should consult [our version overview](/en/coordination/tm-disambiguation)**
