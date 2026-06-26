@@ -16,7 +16,8 @@ How to download and install JOSM, the Java OpenStreetMap editor, change some of 
 Baixar el JOSM
 -------------
 
--   If you don’t have JOSM already, or want the newest version, open your web browser.
+-   If you have a copy of JOSM on a CD or usb flash drive, you can skip to the next section, Install JOSM.
+-   If you don’t have JOSM already, or want the newest version, open your web browser - this may be Firefox, Chrome, Opera, or Internet Explorer.
 -   In the address bar at the top of the window, enter the following text and press Enter: [josm.openstreetmap.de](http://josm.openstreetmap.de)
 -   You can also find the JOSM website by searching the internet for “JOSM”.
 -   The website should look something like this:
@@ -52,13 +53,14 @@ There are many different settings that you can customize in JOSM.  One setting t
 
     ![Preferences window][]
 
--   On the left side, click the language tab.
+-   On the left side, click the icon that looks like a paint can and paint brush.
+-   At the top of the window, click the tab that says “Look and Feel”.
 -   Choose your language in the dropdown box next to the word “Language”.
 
-    ![language][]
+    ![Look and feel][]
 
 -   Click OK.
--   You need to restart JOSM to save your settings. Choose the respective option from the message box.
+-   You need to restart JOSM to save your settings. Click “File” in the upper left corner, and Click “Restart” near the bottom of the menu.
 
 Learn Basic Drawing with JOSM
 -----------------------------
@@ -173,7 +175,7 @@ take a closer look at the process of editing the OSM map with JOSM.
 
 [preferences window]: /images/josm/josm_preferences.png
 
-[language]: /images/josm/josm_language.png
+[look and feel]: /images/josm/josm_look-and-feel.png
 
 [open file]: /images/josm/josm_open-file.png
 
