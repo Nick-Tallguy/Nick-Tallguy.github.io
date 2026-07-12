@@ -156,7 +156,7 @@ The lower part of the issues tab show the available rules and allows you to disa
 Saving Your Changes
 --------------------
 
-When (and if) you want to save your edits to OpenStreetMap, click the **Save** button. The panel on the left will show the upload panel.  
+When (and if) you want to save your edits to OpenStreetMap, click the **Save** button in the upper right corner. The panel on the left will show the upload panel.  
 ![image36][]  
 
 - Enter a comment about your edits and click **Save**.  
