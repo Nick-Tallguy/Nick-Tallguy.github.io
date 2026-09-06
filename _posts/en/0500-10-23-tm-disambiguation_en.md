@@ -73,7 +73,6 @@ This page gives you an overview over the versions of the Tasking Manager for whi
 </div>
 </div>
 
-
 [TM2-start]: /images/coordination/tasking_manager_image01.png
 [TM2-project]: /images/coordination/tasking_manager_image04.png
 [TM3-start]: /images/coordination/tm3-start.png
