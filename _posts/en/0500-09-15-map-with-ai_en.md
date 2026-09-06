@@ -16,16 +16,18 @@ Every single road from the AI output will be added only after human validation. 
 
 ## How to use Map with AI in iD Editor
 
-RapiD Editor is an enhancement of the iD Editor. It helps mappers map more efficiently by providing roads auto-detected from satellite imagery and includes additional data integrity checks to ensure the quality of new map edits. 
-To use the in-browser RapiD editor choose it from the Editor popup menu in the Tasking Manager before selecting to map a task. This will open up a new tab in your browser.  
-RapiD suggests features, allowing the mapper to decide which features to add to the map. Suggested features are displayed with a magenta color to differentiate them from other map features.
+RapiD Editor is an in-browser derivative of the iD Editor. It provides roads auto-detected from satellite imagery. It also includes additional data integrity checks.
+
+Before selecting to map a task choose it from the Editor popup menu in the Tasking Manager. It will open up a new tab in your browser.
+Or you can evoke it directly by going to https://mapwith.ai/rapid.
+
+RapiD suggests features that are displayed with a magenta color to differentiate them from other map features. The mapper has to decide which features to add to the map.
 
 ![RapiD][]
 
-1. Open a task in the Tasking Manager
-1. You can recognize suggested features by a magenta color. This differentiates them from other map features
+1. Open the RapiD Editor as described above
 1. You can select a suggested feature, then click “Use This Feature” to add it to the map
-1. Or you can select a suggested feature, then click “Ignore This Feature” to remove it from the Map With AI layer. Attention: it will be permanently lost
+1. Or you can select a suggested feature, then click “Ignore This Feature” to remove it from the Map-With-AI layer. Attention: it will be permanently lost
 1. Then proceed as with any other newly-digitized feature: the geometry and tags can be modified and then uploaded to OSM.
 
 ## How to use Map with AI in JOSM
